@@ -116,6 +116,35 @@ class CorpusTests(unittest.TestCase):
         self.assertIn(('cbr-p000227','grandfather','cbr-p000222'),claims)
         self.assertNotIn(('cbr-p000227','father','cbr-p000222'),claims)
 
+    def test_qin_sisters_keep_literal_kinship_and_anonymity(self):
+        c=json.loads((self.root/'corpus/shiji/005.json').read_text())
+        a=json.loads((self.root/'corpus/shiji/005-assertions.json').read_text())
+        sister=next(m for m in c['paragraphs'][20]['mentions'] if m['surface']=='姊')
+        claim=next(a for a in a['assertions'] if a['subject_person_id']==sister['person_id'] and a['predicate']=='sister')
+        self.assertEqual(claim['qualifiers']['source_term'],'姊')
+        self.assertIn('晉太子申生姊也',claim['evidence'][0]['quote'])
+        p=next(p for p in json.loads((self.root/'registry/persons.json').read_text())['persons'] if p['id']==sister['person_id'])
+        self.assertFalse(any(a['surface']=='穆姬' for a in p['aliases']))
+
+    def test_qin_qi_daogong_resolved_per_occurrence(self):
+        c=json.loads((self.root/'corpus/shiji/005.json').read_text())
+        p=c['paragraphs'][45]
+        def at(term):
+            start=p['text'].index(term)+term.index('悼公')
+            return next(m['person_id'] for m in p['mentions'] if m['start']==start)
+        self.assertEqual(at('悼公二年'),at('秦悼公'))
+        self.assertEqual(at('是為悼公'),at('齊人弒悼公'))
+        self.assertNotEqual(at('悼公二年'),at('是為悼公'))
+    def test_shangjun_title_and_work_pointer_are_distinct(self):
+        c=json.loads((self.root/'corpus/shiji/005.json').read_text())
+        p=c['paragraphs'][57];start=p['text'].index('商君語')
+        self.assertFalse(any(m['kind']=='person' and start<=m['start']<start+3 for m in p['mentions']))
+        p=c['paragraphs'][60]
+        title=next(m for m in p['mentions'] if m['surface']=='商君')
+        name=next(m for m in p['mentions'] if m['surface']=='衛鞅')
+        self.assertEqual(title['person_id'],name['person_id'])
+        self.assertEqual(title['kind'],'person')
+
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
         for p in d['paragraphs']:
