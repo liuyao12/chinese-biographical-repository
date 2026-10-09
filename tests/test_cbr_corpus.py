@@ -321,4 +321,22 @@ class CorpusTests(unittest.TestCase):
         father=next(x for x in h if x['title']=='太上皇')
         self.assertEqual(father['effective_period']['end']['status'],'unknown')
 
+    def test_lvhou_titles_do_not_merge_mother_and_daughter(self):
+        c=json.loads((self.root/'corpus/shiji/009.json').read_text())
+        p=c['paragraphs'][0]
+        mother=next(m for m in p['mentions'] if m['surface']=='呂太后')
+        daughter=next(m for m in p['mentions'] if m['surface']=='魯元太后')
+        self.assertNotEqual(mother['person_id'],daughter['person_id'])
+        queen=next(m for m in c['paragraphs'][4]['mentions'] if m['surface']=='王太后')
+        self.assertEqual(queen['person_id'],daughter['person_id'])
+
+    def test_lvhou_zhao_king_changes_after_ruyi_death(self):
+        c=json.loads((self.root/'corpus/shiji/009.json').read_text())
+        p=c['paragraphs'][3]
+        king=next(m for m in p['mentions'] if m['start']==p['text'].index('友為趙王')+2)
+        friend=next(m for m in p['mentions'] if m['surface']=='友')
+        previous=next(m for m in p['mentions'] if m['surface']=='趙王')
+        self.assertEqual(king['person_id'],friend['person_id'])
+        self.assertNotEqual(king['person_id'],previous['person_id'])
+
 if __name__=='__main__':unittest.main()
