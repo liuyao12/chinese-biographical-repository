@@ -28,17 +28,18 @@
   },
   "text_sha256": "46905b97bbaa8f508d9806fbb67c03310bba6d6430f0911f05c3244aa0b4ad6f",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全97段已核讀；第1至55段明示人名首輪重讀補標，其餘段仍在補核；匿名、代詞、身份與版本覆核尚未完成。",
+    "coverage": "96段正文與1段附載索隱述贊皆經明示人名首輪重讀，並補部分短稱、匿名及未定位置；不是全部人物、身份、代詞、版本或稱號時段覆核完成。",
     "limitations": [
       "神話祖系、氏族／個人稱呼、祝融任事異稱及繼位敘事須逐項覆核。",
       "熊渠生子三年等疑句保留，不以模型記憶補改。",
       "陳軫、樗裏疾、公孫衍等楚篇用稱先保留候選，需與秦篇摢裏疾、犀首及秦始皇篇議論名單逐項比較，不按常見學術姓名自行合併。",
       "子玉、子反與豎陽穀以城濮／鄢陵具體事件保存跨篇暫同指，保留已發ID；怒誅／自殺、射殺／讓而死等來源說法並存，尚未指定優先。",
       "末楚戰事的王翦、蒙武、項燕暫接秦始皇篇同一戰事；項燕自殺／被殺兩說並存，蒙武未因此完成昭王時舊錨同名身份覆核。",
-      "懷王臣昭雎、頃襄王相昭子及懷王段末昭子需另核同指；保留候選，不因缺乏同指證據就宣稱確定不同人。"
+      "懷王臣昭雎、頃襄王相昭子及懷王段末昭子需另核同指；保留候選，不因缺乏同指證據就宣稱確定不同人。",
+      "昭陽攻齊與商於失約的兩位未名齊王各存候選，不表示確證不同人；未由齊王泛接齊湣王。"
     ]
   },
   "paragraphs": [
@@ -6519,7 +6520,7 @@
     {
       "id": "c-shiji-040-chu:p056",
       "text": "十三年，呉王夫差彊，陵齊、晉，來伐楚。十六年，越滅呉。四十二年，楚滅蔡。四十四年，楚滅杞。與秦平。是時越已滅呉而不能正江、淮北；楚東侵，廣地至泗上。五十七年，惠王卒，子簡王中立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6554,7 +6555,7 @@
     {
       "id": "c-shiji-040-chu:p057",
       "text": "簡王元年，北伐滅莒。八年，魏文侯、韓武子、趙桓子始列爲諸侯。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6598,7 +6599,7 @@
     {
       "id": "c-shiji-040-chu:p058",
       "text": "二十四年，簡王卒，子聲王當立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6624,7 +6625,7 @@
     {
       "id": "c-shiji-040-chu:p059",
       "text": "聲王六年，盜殺聲王，子悼王熊疑立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6659,7 +6660,7 @@
     {
       "id": "c-shiji-040-chu:p060",
       "text": "悼王二年，三晉來伐楚，至乘丘而還。四年，楚伐周。鄭殺子陽。九年，伐韓，取負黍。十一年，三晉伐楚，敗我大梁、楡關。楚厚賂秦，與之平。二十一年，悼王卒，子肅王臧立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6703,7 +6704,7 @@
     {
       "id": "c-shiji-040-chu:p061",
       "text": "肅王四年，蜀伐楚，取茲方。於是楚爲捍關以距之。十年，魏取我魯陽。十一年，肅王卒，無子，立其弟熊良夫，是爲宣王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6747,7 +6748,7 @@
     {
       "id": "c-shiji-040-chu:p062",
       "text": "宣王六年，周天子賀秦獻公。秦始復彊，而三晉益大，魏惠王、齊威王尤彊。三十年，秦封衞鞅於商，南侵楚。是年，宣王卒，子威王熊商立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6758,6 +6759,16 @@
           "kind": "person",
           "person_id": "cbr-p001921",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m062-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "周天子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "賀秦獻公的周王未明姓名，待按版本與任時證據核對。"
         },
         {
           "id": "c-shiji-040-chu:m062-0009",
@@ -6818,7 +6829,7 @@
     {
       "id": "c-shiji-040-chu:p063",
       "text": "威王六年，周顯王致文武胙於秦惠王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6840,6 +6851,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m063-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "文武胙",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "祭祀胙稱的文武並稱，並非在場個人；與姓名、受胙者及爵位授予分開。"
+        },
+        {
           "id": "c-shiji-040-chu:m063-0013",
           "start": 13,
           "end": 16,
@@ -6853,7 +6874,7 @@
     {
       "id": "c-shiji-040-chu:p064",
       "text": "七年，齊孟嘗君父田嬰欺楚，楚威王伐齊，敗之於徐州，而令齊必逐田嬰。田嬰恐，張丑偽謂楚王曰：「王所以戰勝於徐州者，田盻子不用也。盻子者，有功於國，而百姓爲之用。嬰子弗善而用申紀。申紀者，大臣不附，百姓不爲用，故王勝之也。今王逐嬰子，嬰子逐，盻子必用矣。復搏其士卒以與王遇，必不便於王矣。」楚王因弗逐也。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -6920,6 +6941,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m064-0046",
+          "start": 46,
+          "end": 47,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001922",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m064-0056",
           "start": 56,
           "end": 59,
@@ -6965,6 +6995,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m064-0104",
+          "start": 104,
+          "end": 105,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001922",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m064-0110",
+          "start": 110,
+          "end": 111,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001922",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m064-0112",
           "start": 112,
           "end": 114,
@@ -6992,6 +7040,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m064-0132",
+          "start": 132,
+          "end": 133,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001922",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m064-0139",
+          "start": 139,
+          "end": 140,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001922",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m064-0143",
           "start": 143,
           "end": 145,
@@ -7005,7 +7071,7 @@
     {
       "id": "c-shiji-040-chu:p065",
       "text": "十一年，威王卒，子懷王熊槐立。魏聞楚喪，伐楚，取我陘山。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7031,7 +7097,7 @@
     {
       "id": "c-shiji-040-chu:p066",
       "text": "懷王元年，張儀始相秦惠王。四年，秦惠王初稱王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7075,7 +7141,7 @@
     {
       "id": "c-shiji-040-chu:p067",
       "text": "六年，楚使柱國昭陽將兵而攻魏，破之於襄陵，得八邑。又移兵而攻齊，齊王患之。陳軫適爲秦使齊，齊王曰：「爲之柰何？」陳軫曰：「王勿憂，請令罷之。」卽往見昭陽軍中，曰：「願聞楚國之法，破軍殺將者何以貴之？」昭陽曰：「其官爲上柱國，封上爵執珪。」陳軫曰：「其有貴於此者乎？」昭陽曰：「令尹。」陳軫曰：「今君已爲令尹矣，此國冠之上。臣請得譬之。人有遺其舍人一卮酒者，舍人相謂曰：『數人飲此，不足以遍，請遂畫地爲蛇，蛇先成者獨飲之。』一人曰：『吾蛇先成。』舉酒而起，曰：『吾能爲之足。』及其爲之足，而後成人奪之酒而飲之，曰：『蛇固無足，今爲之足，是非蛇也。』今君相楚而攻魏，破軍殺將，功莫大焉，冠之上不可以加矣。今又移兵而攻齊，攻齊勝之，官爵不加於此；攻之不勝，身死爵奪，有毀於楚：此爲蛇爲足之説也。不若引兵而去以德齊，此持滿之術也。」昭陽曰：「善。」引兵而去。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7088,6 +7154,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m067-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002053",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m067-0037",
           "start": 37,
           "end": 39,
@@ -7097,12 +7172,30 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m067-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002053",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m067-0056",
           "start": 56,
           "end": 58,
           "surface": "陳軫",
           "kind": "person",
           "person_id": "cbr-p001967",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m067-0061",
+          "start": 61,
+          "end": 62,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002053",
           "status": "contextual_provisional"
         },
         {
@@ -7204,9 +7297,19 @@
     {
       "id": "c-shiji-040-chu:p068",
       "text": "燕、韓君初稱王。秦使張儀與楚、齊、魏相會，盟齧桑。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-040-chu:m068-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "燕、韓君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "兩國君稱王的並列群體，未明姓名，不按通行年代推人。"
+        },
         {
           "id": "c-shiji-040-chu:m068-0010",
           "start": 10,
@@ -7221,7 +7324,7 @@
     {
       "id": "c-shiji-040-chu:p069",
       "text": "十一年，蘇秦約從山東六國共攻秦，楚懷王爲從長。至函谷關，秦出兵撃六國，六國兵皆引而歸，齊獨後。十二年，齊湣王伐敗趙、魏軍，秦亦伐敗韓，與齊爭長。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7256,7 +7359,7 @@
     {
       "id": "c-shiji-040-chu:p070",
       "text": "十六年，秦欲伐齊，而楚與齊從親，秦惠王患之，乃宣言張儀免相，使張儀南見楚王，謂楚王曰：「敝邑之王所甚説者無先大王，雖儀之所甚願爲門闌之廝者亦無先大王。敝邑之王所甚憎者無先齊王，雖儀之所甚憎者亦無先齊王。而大王和之，是以敝邑之王不得事王，而令儀亦不得爲門闌之廝也。王爲儀閉關而絶齊，今使使者從儀西取筆秦所分楚商於之地方六百里，如是則齊弱矣。是北弱齊，西德於秦，私商於以爲富，此一計而三利倶至也。」懷王大悅，乃置相璽於張儀，日與置酒，宣言「吾復得吾商於之地」。群臣皆賀，而陳軫獨弔。懷王曰：「何故？」陳軫對曰：「秦之所爲重王者，以王之有齊也。今地未可得而齊交先絶，是楚孤也。夫秦又何重孤國哉，必輕楚矣。且先出地而後絶齊，則秦計不爲。先絶齊而後責地，則必見欺於張儀。見欺於張儀，則王必怨之。怨之，是西起秦患，北絶齊交。西起秦患，北絶齊交，則兩國之兵必至。臣故弔。」楚王弗聽，因使一將軍西受封地。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7305,12 +7408,57 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m070-0044",
+          "start": 44,
+          "end": 48,
+          "surface": "敝邑之王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m070-0058",
           "start": 58,
           "end": 59,
           "surface": "儀",
           "kind": "person",
           "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0075",
+          "start": 75,
+          "end": 79,
+          "surface": "敝邑之王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002054",
           "status": "contextual_provisional"
         },
         {
@@ -7323,12 +7471,57 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m070-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002054",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0109",
+          "start": 109,
+          "end": 113,
+          "surface": "敝邑之王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0116",
+          "start": 116,
+          "end": 117,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m070-0120",
           "start": 120,
           "end": 121,
           "surface": "儀",
           "kind": "person",
           "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0131",
+          "start": 131,
+          "end": 132,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -7395,6 +7588,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m070-0259",
+          "start": 259,
+          "end": 260,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0263",
+          "start": 263,
+          "end": 264,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m070-0327",
           "start": 327,
           "end": 329,
@@ -7410,6 +7621,15 @@
           "surface": "張儀",
           "kind": "person",
           "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m070-0337",
+          "start": 337,
+          "end": 338,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -7435,7 +7655,7 @@
     {
       "id": "c-shiji-040-chu:p071",
       "text": "張儀至秦，詳醉墜車，稱病不出三月，地不可得。楚王曰：「儀以吾絶齊爲尚薄邪？」乃使勇士宋遺北辱齊王。齊王大怒，折楚符而合於秦。秦齊交合，張儀乃起朝，謂楚將軍曰：「子何不受地？從某至某，廣袤六里。」楚將軍曰：「臣之所以見命者六百里，不聞六里。」卽以歸報懷王。懷王大怒，興師將伐秦。陳軫又曰：「伐秦非計也。不如因賂之一名都，與之伐齊，是我亡於秦，取償於齊也，吾國尚可全。今王已絶於齊而責欺於秦，是吾合秦齊之交而來天下之兵也，國必大傷矣。」楚王不聽，遂絶和於秦，發兵西攻秦。秦亦發兵撃之。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7472,6 +7692,24 @@
           "surface": "宋遺",
           "kind": "person",
           "person_id": "cbr-p001973",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m071-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002054",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m071-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002054",
           "status": "contextual_provisional"
         },
         {
@@ -7529,6 +7767,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m071-0183",
+          "start": 183,
+          "end": 184,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m071-0216",
           "start": 216,
           "end": 218,
@@ -7542,7 +7789,7 @@
     {
       "id": "c-shiji-040-chu:p072",
       "text": "十七年春，與秦戰丹陽，秦大敗我軍，斬甲士八萬，虜我大將軍屈匄、裨將軍逢侯丑等七十餘人，遂取漢中之郡。楚懷王大怒，乃悉國兵復襲秦，戰於藍田，大敗楚軍。韓、魏聞楚之困，乃南襲楚，至於鄧。楚聞，乃引兵歸。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7577,7 +7824,7 @@
     {
       "id": "c-shiji-040-chu:p073",
       "text": "十八年，秦使使約復與楚親，分漢中之半以和楚。楚王曰：「願得張儀，不願得地。」張儀聞之，請之楚。秦王曰：「楚且甘心於子，柰何？」張儀曰：「臣善其左右靳尚，靳尚又能得事於楚王幸姬鄭袖，袖所言無不從者。且儀以前使負楚以商於之約，今秦楚大戰，有惡，臣非面自謝楚不解。且大王在，楚不宜敢取儀。誠殺儀以便國，臣之願也。」儀遂使楚。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7605,6 +7852,15 @@
           "surface": "張儀",
           "kind": "person",
           "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
           "status": "contextual_provisional"
         },
         {
@@ -7651,13 +7907,58 @@
           "kind": "person",
           "person_id": "cbr-p001969",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0090",
+          "start": 90,
+          "end": 91,
+          "surface": "袖",
+          "kind": "person",
+          "person_id": "cbr-p001969",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0099",
+          "start": 99,
+          "end": 100,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0139",
+          "start": 139,
+          "end": 140,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0143",
+          "start": 143,
+          "end": 144,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m073-0154",
+          "start": 154,
+          "end": 155,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
         }
       ]
     },
     {
       "id": "c-shiji-040-chu:p074",
       "text": "至，懷王不見，因而囚張儀，欲殺之。儀私於靳尚，靳尚爲請懷王曰：「拘張儀，秦王必怒。天下見楚無秦，必輕王矣。」又謂夫人鄭袖曰：「秦王甚愛張儀，而王欲殺之，今將以上庸之地六縣賂楚，以美人聘楚王，以宮中善歌者爲之媵。楚王重地，秦女必貴，而夫人必斥矣。夫人不若言而出之。」鄭袖卒言張儀於王而出之。儀出，懷王因善遇儀，儀因説楚王以叛從約而與秦合親，約婚姻。張儀已去，屈原使從齊來，諫王曰：「何不誅張儀？」懷王悔，使人追儀，弗及。是歳，秦惠王卒。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7674,6 +7975,15 @@
           "start": 10,
           "end": 12,
           "surface": "張儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m074-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "儀",
           "kind": "person",
           "person_id": "cbr-p000464",
           "status": "contextual_provisional"
@@ -7715,12 +8025,30 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m074-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m074-0058",
           "start": 58,
           "end": 60,
           "surface": "鄭袖",
           "kind": "person",
           "person_id": "cbr-p001969",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m074-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
           "status": "contextual_provisional"
         },
         {
@@ -7771,6 +8099,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m074-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "秦女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "靳尚用作恐嚇鄭袖的聘女話語，實施與個人身份未確證，未與平王所娶秦女相接。"
+        },
+        {
           "id": "c-shiji-040-chu:m074-0132",
           "start": 132,
           "end": 134,
@@ -7789,12 +8127,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m074-0144",
+          "start": 144,
+          "end": 145,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m074-0147",
           "start": 147,
           "end": 149,
           "surface": "懷王",
           "kind": "person",
           "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m074-0152",
+          "start": 152,
+          "end": 153,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m074-0154",
+          "start": 154,
+          "end": 155,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
           "status": "contextual_provisional"
         },
         {
@@ -7843,6 +8208,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m074-0204",
+          "start": 204,
+          "end": 205,
+          "surface": "儀",
+          "kind": "person",
+          "person_id": "cbr-p000464",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m074-0212",
           "start": 212,
           "end": 215,
@@ -7856,7 +8230,7 @@
     {
       "id": "c-shiji-040-chu:p075",
       "text": "二十〈六〉年，齊湣王欲爲從長，惡楚之與秦合，乃使使遺楚王書曰：「寡人患楚之不察於尊名也。今秦惠王死，武王立，張儀走魏，樗裏疾、公孫衍用，而楚事秦。夫樗裏疾善乎韓，而公孫衍善乎魏；楚必事秦，韓、魏恐，必因二人求合於秦，則燕、趙亦宜事秦。四國爭事秦，則楚爲郡縣矣。王何不與寡人并力收韓、魏、燕、趙，與爲從而尊周室，以案兵息民，令於天下？莫敢不樂聽，則王名成矣。王率諸侯并伐，破秦必矣。王取武關、蜀、漢之地，私呉、越之富而擅江海之利，韓、魏割上黨，西薄函谷，則楚之彊百萬也。且王欺於張儀，亡地漢中，兵銼藍田，天下莫不代王懷怒。今乃欲先事秦！願大王孰計之。」",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7941,6 +8315,51 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m075-0130",
+          "start": 130,
+          "end": 131,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0173",
+          "start": 173,
+          "end": 174,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0178",
+          "start": 178,
+          "end": 179,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0190",
+          "start": 190,
+          "end": 191,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0235",
+          "start": 235,
+          "end": 236,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m075-0238",
           "start": 238,
           "end": 240,
@@ -7948,13 +8367,31 @@
           "kind": "person",
           "person_id": "cbr-p000464",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0256",
+          "start": 256,
+          "end": 257,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m075-0268",
+          "start": 268,
+          "end": 270,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
         }
       ]
     },
     {
       "id": "c-shiji-040-chu:p076",
       "text": "楚王業已欲和於秦，見齊王書，猶豫不決，下其議群臣。群臣或言和秦，或曰聽齊。昭雎曰：「王雖東取地於越，不足以刷恥；必且取地於秦，而後足以刷恥於諸侯。王不如深善齊、韓以重樗裏疾，如是則王得韓、齊之重以求地矣。秦破韓宜陽，而韓猶復事秦者，以先王墓在平陽，而秦之武遂去之七十里，以故尤畏秦。不然，秦攻三川，趙攻上黨，楚攻河外，韓必亡。楚之救韓，不能使韓不亡，然存韓者楚也。韓已得武遂於秦，以河山爲塞，所報德莫如楚厚，臣以爲其事王必疾。齊之所信於韓者，以韓公子眛爲齊相也。韓已得武遂於秦，王甚善之，使之以齊、韓重樗裏疾，疾得齊、韓之重，其主弗敢棄疾也。今又益之以楚之重，樗里子必言秦，復與楚之侵地矣。」於是懷王許之，竟不合秦，而合齊以善韓。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -7967,12 +8404,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m076-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p002034",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m076-0037",
           "start": 37,
           "end": 39,
           "surface": "昭雎",
           "kind": "person",
           "person_id": "cbr-p001945",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m076-0042",
+          "start": 42,
+          "end": 43,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m076-0073",
+          "start": 73,
+          "end": 74,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -7985,12 +8449,49 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m076-0090",
+          "start": 90,
+          "end": 91,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m076-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "先王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "韓先王墓的未定指代，未與楚先王或其他王名相接。"
+        },
+        {
+          "id": "c-shiji-040-chu:m076-0209",
+          "start": 209,
+          "end": 210,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m076-0222",
           "start": 222,
           "end": 226,
           "surface": "韓公子眛",
           "kind": "person",
           "person_id": "cbr-p001975",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m076-0239",
+          "start": 239,
+          "end": 240,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -8043,7 +8544,7 @@
     {
       "id": "c-shiji-040-chu:p077",
       "text": "二十四年，倍齊而合秦。秦昭王初立，乃厚賂於楚。楚往迎婦。二十五年，懷王入與秦昭王盟，約於黃棘。秦復與楚上庸。二十六年，齊、韓、魏爲楚負其從親而合於秦，三國共伐楚。楚使太子入質於秦而請救。秦乃遣客卿通將兵救楚，三國引兵去。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8096,7 +8597,7 @@
     {
       "id": "c-shiji-040-chu:p078",
       "text": "二十七年，秦大夫有私與楚太子鬬，楚太子殺之而亡歸。二十八年，秦乃與齊、韓、魏共攻楚，殺楚將唐眛，取我重丘而去。二十九年，秦復攻楚，大破楚，楚軍死者二萬，殺我將軍景缺。懷王恐，乃使太子爲質於齊以求平。三十年，秦復伐楚，取八城。秦昭王遺楚王書曰：「始寡人與王約爲弟兄，盟于黃棘，太子爲質，至驩也。太子陵殺寡人之重臣，不謝而亡去，寡人誠不勝怒，使兵侵君王之邊。今聞君王乃令太子質於齊以求平。寡人與楚接境壤界，故爲婚姻，所從相親久矣。而今秦楚不驩，則無以令諸侯。寡人願與君王會武關，面相約，結盟而去，寡人之願也。敢以聞下執事。」楚懷王見秦王書，患之。欲往，恐見欺；無往，恐秦怒。昭雎曰：「王毋行，而發兵自守耳。秦虎狼，不可信，有并諸侯之心。」懷王子子蘭勸王行，曰：「柰何絶秦之驩心！」於是往會秦昭王。昭王詐令一將軍伏兵武關，號爲秦王。楚王至，則閉武關，遂與西至咸陽，朝章臺，如蕃臣，不與亢禮。楚懷王大怒，悔不用昭子言。秦因留楚王，要以割巫、黔中之郡。楚王欲盟，秦欲先得地。楚王怒曰：「秦詐我而又彊要我以地！」不復許秦。秦因留之。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8181,6 +8682,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m078-0126",
+          "start": 126,
+          "end": 127,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m078-0137",
           "start": 137,
           "end": 139,
@@ -8199,12 +8709,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m078-0172",
+          "start": 172,
+          "end": 174,
+          "surface": "君王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m078-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "君王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m078-0183",
           "start": 183,
           "end": 185,
           "surface": "太子",
           "kind": "person",
           "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m078-0231",
+          "start": 231,
+          "end": 233,
+          "surface": "君王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -8217,12 +8754,30 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m078-0264",
+          "start": 264,
+          "end": 266,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000308",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m078-0285",
           "start": 285,
           "end": 287,
           "surface": "昭雎",
           "kind": "person",
           "person_id": "cbr-p001945",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m078-0290",
+          "start": 290,
+          "end": 291,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -8244,10 +8799,28 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m078-0323",
+          "start": 323,
+          "end": 324,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m078-0342",
           "start": 342,
           "end": 345,
           "surface": "秦昭王",
+          "kind": "person",
+          "person_id": "cbr-p000308",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m078-0346",
+          "start": 346,
+          "end": 348,
+          "surface": "昭王",
           "kind": "person",
           "person_id": "cbr-p000308",
           "status": "contextual_provisional"
@@ -8330,7 +8903,7 @@
     {
       "id": "c-shiji-040-chu:p079",
       "text": "楚大臣患之，乃相與謀曰：「吾王在秦不得還，要以割地，而太子爲質於齊，齊、秦合謀，則楚無國矣。」乃欲立懷王子在國者。昭雎曰：「王與太子倶困於諸侯，而今又倍王命而立其庶子，不宜。」乃詐赴於齊，齊湣王謂其相曰：「不若留太子以求楚之淮北。」相曰：「不可，郢中立王，是吾抱空質而行不義於天下也。」或曰：「不然。郢中立王，因與其新王市曰『予我下東國，吾爲王殺太子，不然，將與三國共立之』，然則東國必可得矣。」齊王卒用其相計而歸楚太子。太子橫至，立爲王，是爲頃襄王。乃告于秦曰：「賴社稷神靈，國有王矣。」",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8521,7 +9094,7 @@
     {
       "id": "c-shiji-040-chu:p080",
       "text": "頃襄王橫元年，秦要懷王不可得地，楚立王以應秦，秦昭王怒，發兵出武關攻楚，大敗楚軍，斬首五萬，取析十五城而去。二年，楚懷王亡逃歸，秦覺之，遮楚道，懷王恐，乃從閒道走趙以求歸。趙主父在代，其子惠王初立，行王事，恐，不敢入楚王。楚王欲走魏，秦追至，遂與秦使復之秦。懷王遂發病。頃襄王三年，懷王卒于秦，秦歸其喪于楚。楚人皆憐之，如悲親戚。諸侯由是不直秦。秦楚絶。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8637,7 +9210,7 @@
     {
       "id": "c-shiji-040-chu:p081",
       "text": "六年，秦使白起伐韓於伊闕，大勝，斬首二十四萬。秦乃遺楚王書曰：「楚倍秦，秦且率諸侯伐楚，爭一旦之命。願王之飭士卒，得一樂戰。」楚頃襄王患之，乃謀復與秦平。七年，楚迎婦於秦，秦楚復平。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8672,7 +9245,7 @@
     {
       "id": "c-shiji-040-chu:p082",
       "text": "十一年，齊秦各自稱爲帝；月餘，復歸帝爲王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8700,7 +9273,7 @@
     {
       "id": "c-shiji-040-chu:p083",
       "text": "十四年，楚頃襄王與秦昭王好會于宛，結和親。十五年，楚王與秦、三晉、燕共伐齊，取淮北。十六年，與秦昭王好會於鄢。其秋，復與秦王會穰。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8738,13 +9311,22 @@
           "kind": "person",
           "person_id": "cbr-p000308",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m083-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000308",
+          "status": "contextual_provisional"
         }
       ]
     },
     {
       "id": "c-shiji-040-chu:p084",
       "text": "十八年，楚人有好以弱弓微繳加歸鴈之上者，頃襄王聞，召而問之。對曰：「小臣之好射鶀鴈，羅鸗，小矢之發也，何足爲大王道也。且稱楚之大，因大王之賢，所弋非直此也。昔者三王以弋道德，五霸以弋戰國。故秦、魏、燕、趙者，鶀鴈也；齊、魯、韓、衞者，靑首也；騶、費、郯、邳者，羅鸗也。外其餘則不足射者。見鳥六雙，以王何取？王何不以聖人爲弓，以勇士爲繳，時張而射之？此六雙者，可得而囊載也。其樂非特朝昔之樂也，其獲非特鳧鴈之實也。王朝張弓而射魏之大梁之南，加其右臂而徑屬之於韓，則中國之路絶而上蔡之郡壞矣。還射圉之東，解魏左肘而外撃定陶，則魏之東外棄而大宋、方與二郡者舉矣。且魏斷二臂，顛越矣；膺撃郯國，大梁可得而有也。王綪繳蘭臺，飲馬西河，定魏大梁，此一發之樂也。若王之於弋誠好而不厭，則出寶弓，碆新繳，射噣鳥於東海，還蓋長城以爲防，朝射東莒，夕發浿丘，夜加卽墨，顧據午道，則長城之東收而太山之北舉矣。西結境於趙而北達於燕，三國布鶴，則從不待約而可成也。北遊目於燕之遼東而南登望於越之會稽，此再發之樂也。若夫泗上十二諸侯，左縈而右拂之，可一旦而盡也。今秦破韓以爲長憂，得列城而不敢守也；伐魏而無功，撃趙而顧病，則秦魏之勇力屈矣，楚之故地漢中、析、酈可得而復有也。王出寶弓，碆新繳，渉鄳塞，而待秦之倦也，山東、河内可得而一也。勞民休衆，南面稱王矣。故曰秦爲大鳥，負海内而處，東面而立，左臂據趙之西南，右臂傅楚鄢郢，膺撃韓魏，垂頭中國，處旣形便，勢有地利，奮翼鼓鶴，方三千里，則秦未可得獨招而夜射也。」欲以激怒襄王，故對以此言。襄王因召與語，遂言曰：「夫先王爲秦所欺而客死於外，怨莫大焉。今以匹夫有怨，尚有報萬乘，白公、子胥是也。今楚之地方五千里，帶甲百萬，猶足以踴躍中野也，而坐受困，臣竊爲大王弗取也。」於是頃襄王遣使於諸侯，復爲從，欲以伐秦。秦聞之，發兵來伐楚。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8761,6 +9343,24 @@
           "start": 20,
           "end": 23,
           "surface": "頃襄王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "大王",
           "kind": "person",
           "person_id": "cbr-p001924",
           "status": "contextual_provisional"
@@ -8786,6 +9386,60 @@
           "note": "群體、寓言人物或未定指代，未補未見姓名、全體成員或親屬關係。"
         },
         {
+          "id": "c-shiji-040-chu:m084-0149",
+          "start": 149,
+          "end": 150,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0153",
+          "start": 153,
+          "end": 154,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0206",
+          "start": 206,
+          "end": 207,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0301",
+          "start": 301,
+          "end": 302,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0325",
+          "start": 325,
+          "end": 326,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0523",
+          "start": 523,
+          "end": 524,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m084-0645",
           "start": 645,
           "end": 647,
@@ -8801,6 +9455,15 @@
           "surface": "襄王",
           "kind": "person",
           "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m084-0667",
+          "start": 667,
+          "end": 669,
+          "surface": "先王",
+          "kind": "person",
+          "person_id": "cbr-p001923",
           "status": "contextual_provisional"
         },
         {
@@ -8822,6 +9485,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m084-0736",
+          "start": 736,
+          "end": 738,
+          "surface": "大王",
+          "kind": "person",
+          "person_id": "cbr-p001924",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m084-0745",
           "start": 745,
           "end": 748,
@@ -8835,7 +9507,7 @@
     {
       "id": "c-shiji-040-chu:p085",
       "text": "楚欲與齊韓連和伐秦，因欲圖周。周王赧使武公謂楚相昭子曰：「三國以兵割周郊地以便輸，而南器以尊楚，臣以爲不然。夫弒共主，臣世君，大國不親；以衆脅寡，小國不附。大國不親，小國不附，不可以致名實。名實不得，不足以傷民。夫有圖周之聲，非所以爲號也。」昭子曰：「乃圖周則無之。雖然，周何故不可圖也？」對曰：「軍不五不攻，城不十不圍。夫一周爲二十晉，公之所知也。韓嘗以二十萬之衆辱於晉之城下，鋭士死，中士傷，而晉不拔。公之無百韓以圖周，此天下之所知也。夫怨結兩周以塞騶魯之心，交絶於齊，聲失天下，其爲事危矣。夫危兩周以厚三川，方城之外必爲韓弱矣。何以知其然也？西周之地，絶長補短，不過百里。名爲天下共主，裂其地不足以肥國，得其衆不足以勁兵。雖無攻之，名爲弒君。然而好事之君，喜攻之臣，發號用兵，未嘗不以周爲終始。是何也？見祭器在焉，欲器之至而忘弒君之亂。今韓以器之在楚，臣恐天下以器讎楚也。臣請譬之。夫虎肉臊，其兵利身，人猶攻之也。若使澤中之麋蒙虎之皮，人之攻之必萬於虎矣。裂楚之地，足以肥國；詘楚之名，足以尊主。今子將以欲誅殘天下之共主，居三代之傳器，呑三翮六翼，以髙世主，非貪而何？《周書》曰『欲起無先』，故器南則兵至矣。」於是楚計輟不行。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8879,7 +9551,7 @@
     {
       "id": "c-shiji-040-chu:p086",
       "text": "十九年，秦伐楚，楚軍敗，割上庸、漢北地予秦。二十年，秦將白起拔我西陵。二十一年，秦將白起遂拔我郢，燒先王墓夷陵。楚襄王兵散，遂不復戰，東北保於陳城。二十二年，秦復拔我巫、黔中郡。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8901,6 +9573,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m086-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "先王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "秦燒夷陵先王墓的未定先君／群體，未補墓主人姓名。"
+        },
+        {
           "id": "c-shiji-040-chu:m086-0056",
           "start": 56,
           "end": 59,
@@ -8914,7 +9596,7 @@
     {
       "id": "c-shiji-040-chu:p087",
       "text": "二十三年，襄王乃收東地兵，得十餘萬，復西取秦所拔我江旁十五邑以爲郡，距秦。二十七年，使三萬人助三晉伐燕。復與秦平，而入太子爲質於秦。楚使左徒侍太子於秦。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -8958,7 +9640,7 @@
     {
       "id": "c-shiji-040-chu:p088",
       "text": "三十六年，頃襄王病，太子亡歸。秋，頃襄王卒，太子熊元代立，是爲考烈王。考烈王以左徒爲令尹，封以呉，號春申君。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9038,7 +9720,7 @@
     {
       "id": "c-shiji-040-chu:p089",
       "text": "考烈王元年，納州于秦以平。是時楚益弱。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9055,7 +9737,7 @@
     {
       "id": "c-shiji-040-chu:p090",
       "text": "六年，秦圍邯鄲，趙告急楚，楚遣將軍景陽救趙。七年，至新中。秦兵去。十二年，秦昭王卒，楚王使春申君弔祠于秦。十六年，秦莊襄王卒，秦王趙政立。二十二年，與諸侯共伐秦，不利而去。楚東徙都壽春，命曰郢。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9117,7 +9799,7 @@
     {
       "id": "c-shiji-040-chu:p091",
       "text": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9161,7 +9843,7 @@
     {
       "id": "c-shiji-040-chu:p092",
       "text": "幽王三年，秦、魏伐楚。秦相呂不韋卒。九年，秦滅韓。十年，幽王卒，同母弟猶代立，是爲哀王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9214,7 +9896,7 @@
     {
       "id": "c-shiji-040-chu:p093",
       "text": "哀王立二月餘，哀王庶兄負芻之徒襲殺哀王而立負芻爲王。是歳，秦虜趙王遷。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9276,7 +9958,7 @@
     {
       "id": "c-shiji-040-chu:p094",
       "text": "王負芻元年，燕太子丹使荊軻刺秦王。二年，秦使將軍伐楚，大破楚軍，亡十餘城。三年，秦滅魏。四年，秦將王翦破我軍於蘄，而殺將軍項燕。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9347,7 +10029,7 @@
     {
       "id": "c-shiji-040-chu:p095",
       "text": "五年，秦將王翦、蒙武遂破楚國，虜楚王負芻，滅楚名爲〈楚〉郡云。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9382,7 +10064,7 @@
     {
       "id": "c-shiji-040-chu:p096",
       "text": "太史公曰：楚靈王方會諸侯於申，誅齊慶封，作章華臺，求周九鼎之時，志小天下；及餓死于申亥之家，爲天下笑。操行之不得，悲夫！勢之於人也，可不愼與？棄疾以亂立，嬖淫秦女，甚乎哉，幾再亡國！",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -9435,7 +10117,7 @@
     {
       "id": "c-shiji-040-chu:p097",
       "text": "鬻熊之嗣，周封於楚。僻在荊蠻，蓽路藍縷。及通而霸，僭號曰武。文旣伐申，成亦赦許。子圉篡嫡，商臣殺父。天禍未悔，憑奸自怙。昭困奔亡，懷迫囚虜。頃襄、考烈，祚衰南土。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "witness_appended_suoyin_zan",
       "mentions": [
         {
@@ -9504,6 +10186,16 @@
           "kind": "person",
           "person_id": "cbr-p001884",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m097-0048",
+          "start": 48,
+          "end": 49,
+          "surface": "父",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "述贊商臣殺父的父稱，尚須與正文圍成王、成王自絞記載核人物與死亡說法，不因附載語直接指定來源優先。"
         },
         {
           "id": "c-shiji-040-chu:m097-0060",
