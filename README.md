@@ -1,61 +1,56 @@
 # Chinese Biographical Repository（CBR）
 
-以史料為中心、由人與 AI 代理共同維護的中國歷史人物資料庫。
+以史料為中心、由人與 AI 代理共同維護的中國歷史人物資料庫。CBR 已整合 **人文 · Ren-Wen** 的資料、閱讀器與 Git 歷史。
 
-保存可追溯的文本、人物提及、關係陳述與證據判斷。樹與圖由使用端依據已記錄的身份比對及取捨決定，以一般程式組裝；使用端不需呼叫 AI。人物以穩定 ID 登記，每個提及仍回到原文；生平、關係與身份判斷必須有來源。不以預先連接的關係圖作為原始資料。
+[開啟人文閱讀器](https://liuyao12.github.io/ren-wen/) · [人物](https://liuyao12.github.io/ren-wen/profiles.html) · [著作](https://liuyao12.github.io/ren-wen/works.html) · [傳記目錄](https://liuyao12.github.io/ren-wen/library.html)
 
-## 第一目標：逐書收錄
+## 收錄目標與目前範圍
 
-收錄歷代正史與《資治通鑑》中出現的全部人物，逐書標註、辨認異稱並複核。現從《史記》開始；本次收錄卷一〈五帝本紀〉正文 28 段，登記 57 個人物 ID、412 個人名或未定稱呼錨點，以及 12 項異稱判斷。這是初步標註，尚未完成本卷的全部指代複核，更未完成全書。
+第一目標是逐書收錄歷代正史與《資治通鑑》中出現的全部人物，辨認異稱並逐段連結人物 ID、著作／卷／篇 ID。目前先處理《史記》，卷一〈五帝本紀〉已有 28 段正文、57 個人物 ID、412 個人名或未定稱呼錨點及 12 項異稱判斷；仍待指代、身份與版本複核。
 
-可直接閱讀 [行內 XML](corpus/shiji/001.xml)，或由一般程式讀取 [JSON](corpus/shiji/001.json)、[人物登記](registry/persons.json)與[異稱證據](corpus/shiji/001-identities.json)。例如黃帝／軒轅引用同一人物 ID；「共工」作為垂的官職則保持未定稱呼，不與堯時的人物共工合併。上古敘事人物標為傳說性，正文尚未與影像逐字校勘。
+本次整合保留 Ren-Wen 的 ECCP 全書首輪匯入與 235 卷《清史稿》數位文字，以及來源、人物、著作、地名、引文、覆核紀錄與年代工具。其來源目錄目前有 1,244 項見證、67,131 處標註、16,190 項人物／著作等實體。這些是既有資料量，不是已人工消歧的不同人物總數，也不代表《清史稿》已完整收錄或學術審訂。
 
-[進度表](corpus/progress.json)區分正文錄入、人名初標及複核完成；下一卷是〈夏本紀〉。此前唐代史料的穩定人物 ID 與行內標註遷移仍待完成。
+稱號須保存各自有來源的有效時段，包括爵位、官職、兼任、檢校和追贈；有效期間與文獻何時用該稱號稱呼某人分開。現有 `data/name-history.json` 保留曾國藩的年尺度試點，仍須擴充完整的起訖、日期精度與不確定性。
 
-## 原有唐代起始集
+公開史料中的歷史人物可收錄；不收錄在世人物的私人傳記、私人家譜或聯絡資料。傳說敘事另標示，不把記載當作已證實的史實。
 
-| 史料 | 作者／編者 | 收錄範圍 |
-| --- | --- | --- |
-| 〈柳子厚墓誌銘〉 | 韓愈 | 全篇 |
-| 〈先侍御史府君神道表〉 | 柳宗元 | 全篇 |
-| 〈韓文公墓誌銘（並序）〉 | 皇甫湜 | 全篇 |
-| 〈唐故昭武校尉守左金吾衛將軍李公墓誌銘〉 | 韓愈 | 全篇，傳主李道古 |
-| 〈唐故朝散大夫尚書庫部郎中鄭君墓誌銘〉 | 韓愈 | 全篇，傳主鄭群 |
-| 〈司徒兼侍中中書令贈太尉許國公神道碑銘〉 | 韓愈 | 全篇，傳主韓弘 |
-| 《舊唐書》卷一百六十〈柳宗元傳〉 | 劉昫等 | 家世、卒日與子嗣段落 |
-| 《新唐書》卷一百六十八〈柳宗元傳〉 | 歐陽修、宋祁等 | 家世、柳州政績與卒年段落 |
-| 〈論《新唐書・柳宗元傳》載入兩封書信的史學意義〉 | 余歷雄 | 首頁註①短引文；出版資訊待核 |
-| 〈柳宗元塋地「萬年縣之少陵原，實棲鳳原」考釋（上）〉 | 戶崎哲彥 | 指定頁面的代理摘要與論文連結 |
+## 來源與人物 ID
 
-共 10 項史料記錄、45 個文本段落、143 項來源陳述。這是可核查的小型起始集，並非完整人物資料庫或完成學術審訂的定本。[資料目錄](catalogues/sources.json)列出每項記錄與文本指紋。
+兩套已發布格式先完整保留，避免在整合時改壞引用：
 
-古代文本取自維基文庫固定版本，保留版本編號、段落、引句與轉錄方法；已核對數位正文，尚未逐字校勘古刻本影像。相關《全唐文》掃描冊已核對檔案及卷冊目錄，連結記在史料內。文集墓誌不冒稱為已驗證出土石刻。現代論文僅保留短引文或自行撰寫摘要。
+- `corpus/`、`registry/`：CBR 的卷篇 JSON／XML、穩定人物 ID 與逐書進度。
+- `sources/`、`assertions/`、`decisions/`：原有唐代史料、精確引句、身份與取捨判斷。
+- `data/upstream/`、`data/texts/`、`data/imports/`：Ren-Wen 的來源基線、行內標註文本與匯入見證。
+- `data/catalog.json`、`data/people/`、`data/works/`：來源目錄、人物／著作記錄與提及。
+- `data/name-history.json`：已有據的姓名／稱號時段及文獻用稱。
+- `assets/` 與根目錄 HTML：無 AI、無後端相依的閱讀器。
 
-## 資料組織
+`cbr-p000001` 等 CBR ID 與 `person-*` 等原有 ID 均保持不變；**同名不自動合併**。跨格式對應仍需逐項證據，格式統一與文字覆核列入[整合紀錄](docs/ren-wen-integration.md)。原有段落、出現位置、版本指紋及署名不因匯入而改寫。
 
-- `corpus/`：逐卷正文、行內標註、異稱判斷與進度。
-- `registry/`：穩定人物 ID 及著作／卷／篇 ID。
-- `sources/`：作品、見證、文本、影像連結、權利與核驗程度。
-- `assertions/`：來源內的人名與關係；每項附可在文本中精確找到的引句。
-- `decisions/`：跨來源的身份比對、針對單一問題的優先次序，以及未解異說。
-- `catalogues/`：資料目錄與待取得的可信史料，不混淆待查線索與已錄入內容。
-- `schema/`：資料格式及語義說明。
-- `scripts/validate.py`：離線、無第三方相依套件的資料檢查。
+SQLite 只是可重建的派生索引，不是另一個可編輯的權威資料庫。使用端以一般程式讀取已記錄的識別、取捨與時段，不把史料交給 AI 處理。
 
-人物提及如 `s-hanyu-liu-zongyuan-muzhiming#liu-zhen` 僅在該來源中有效。同名不表示同一人；跨篇合併必須有明確身份決定。祖先、旁系祖先與直接父母是不同陳述；缺失世代不補造人物。
+## 檢查
 
-## 證據取捨
-
-柳宗元卒日分別有「元和十四年十一月八日」與「元和十四年十月五日」。首批資料保留兩者，並[依一位已核閱學者的意見作暫定選擇](decisions/liu-zongyuan-death-date.json)，不宣稱共識或最新定論。柳奭的親屬稱謂則[保持未解](decisions/liu-shi-kinship-unresolved.json)。較新的研究不因出版較晚而自動勝出，須記錄所據證據及論證。
-
-## 檢查與貢獻
+Python 3.11+ 與 Node.js 可執行離線檢查；閱讀器是原生 HTML／CSS／JavaScript。
 
 ```sh
 python3 scripts/validate.py
 python3 scripts/validate_corpus.py
+python3 scripts/renwen.py validate
+python3 scripts/profiles.py validate
+python3 scripts/works.py validate
+python3 -m scripts.text_units validate
+python3 -m scripts.round1_validate
+python3 -m scripts.name_history validate
 python3 -m unittest discover -s tests -v
+npm test
+npm run check
 ```
 
-歡迎人與其他 AI 代理透過 pull request 新增史料、改正轉錄與修訂判斷。請先閱讀 [貢獻規範](CONTRIBUTING.md)、[代理指引](AGENTS.md)、[資料格式](schema/README.md)及[權利說明](RIGHTS.md)。所有中文使用繁體；技術識別碼與來源 URL 保持原樣。
+派生索引：`python3 scripts/renwen.py build-db`，再執行人物、著作、文本層次及姓名時段的 `index-db`。網站發布仍經過既有 Pages 的實際 HTTP／瀏覽器檢查，部署記錄標示所用 CBR 提交。
 
-浙江大學「中國歷代墓誌資料庫」列為高優先取得來源；尚未錄入其個別墓誌或假造影像網址。逐書收錄計畫優先完成《史記》；墓誌來源取得線索另行保留。
+## 貢獻與權利
+
+請閱讀 [代理指引](AGENTS.md)、[貢獻規範](CONTRIBUTING.md)、[CBR 卷篇格式](schema/corpus.md)、[人文資料架構](docs/architecture.md)與[來源說明](docs/provenance.md)。人與其他 AI 代理透過 PR 貢獻，可由 Git 修正或撤回；不得冒稱人工覆核。
+
+原有 Ren-Wen 軟體保持 MIT 授權，史料、數位轉錄、標註與地圖各依其記錄的授權，MIT 不重新授權它們。參見 [權利說明](RIGHTS.md)、[歷史地圖範圍與條款](docs/reference-maps.md)。墓誌以轉錄文字及影像來源連結為主；匯入的裁切參考地圖是既有閱讀器資產，不是墓誌影像庫。
