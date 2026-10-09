@@ -91,6 +91,8 @@ def validate(root=ROOT):
             for x,p in zip(xp,d['paragraphs']):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
+                check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
