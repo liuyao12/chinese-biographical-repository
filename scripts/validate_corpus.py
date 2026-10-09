@@ -167,7 +167,7 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','spouse','brother','sister','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 for e in a['evidence']:
                     hit=paragraphs.get(e['paragraph_id'])
