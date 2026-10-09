@@ -1,0 +1,30 @@
+{
+  "format_version": "1",
+  "source_repository": "liuyao12/ren-wen",
+  "source_commit": "7c3c878c75200fcdaac57964f7c585dd3e014dfd",
+  "source_commit_url": "https://github.com/liuyao12/ren-wen/commit/7c3c878c75200fcdaac57964f7c585dd3e014dfd",
+  "source_tree": "f29493ae128543cf8c8cec4a15fc5040bd819da2",
+  "source_file_count": 19825,
+  "destination_repository": "liuyao12/chinese-biographical-repository",
+  "destination_base_commit": "f3e6ac277765e04d6956cd9672991830495da874",
+  "history_policy": "保留兩庫原有提交與作者，以雙親合併提交接入。",
+  "modified_source_paths": [
+    ".gitignore",
+    "AGENTS.md",
+    "CONTRIBUTING.md",
+    "README.md",
+    ".github/workflows/pages.yml",
+    ".github/workflows/eccp-import.yml",
+    ".github/workflows/eccp-library.yml",
+    "index.html",
+    "docs/dated-names.md"
+  ],
+  "cbr_test_rename": {
+    "from": "tests/test_corpus.py",
+    "to": "tests/test_cbr_corpus.py"
+  },
+  "identity_policy": "既有 ID 保持不變；跨格式身份比對待有據逐項建立。",
+  "title_policy": "既有年尺度姓名／稱號試點保留；擴充有效時段時不得與文獻使用年代混同。",
+  "deployment_url": "https://liuyao12.github.io/ren-wen/",
+  "review_status": "agent_integration_not_new_human_review"
+}
