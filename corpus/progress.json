@@ -1,0 +1,30 @@
+{
+  "format_version": "0.2",
+  "objective": "逐書收錄歷代正史與《資治通鑑》中全部人物及可追溯的提及。",
+  "active_work_id": "w-shiji",
+  "policy": "先完成《史記》的逐卷標註與身份複核，再展開下一部。",
+  "books": [
+    {
+      "book_id": "b-shiji-001",
+      "chapter_id": "c-shiji-001-wudi",
+      "text_status": "transcribed",
+      "person_status": "named_mentions_first_pass",
+      "complete": false,
+      "next_tasks": [
+        "複核匿名人物、代詞、官稱與群體指代。",
+        "核閱異稱與傳說人物專門研究，記錄具體身份判斷。",
+        "與影像或可靠版本逐字校勘。"
+      ]
+    }
+  ],
+  "next_book": {
+    "work_id": "w-shiji",
+    "number": 2,
+    "title": "夏本紀第二",
+    "status": "not_started"
+  },
+  "legacy_sources": {
+    "status": "migration_pending",
+    "note": "sources/ 的十項唐代／現代研究記錄保留原格式；尚未全部補上穩定人物 ID 與行內標註，不計入新計畫完成量。"
+  }
+}

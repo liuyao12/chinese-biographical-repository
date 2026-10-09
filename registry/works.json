@@ -1,0 +1,24 @@
+{
+  "format_version": "0.2",
+  "works": [
+    {
+      "id": "w-shiji",
+      "title": "史記",
+      "author": "司馬遷",
+      "status": "in_progress",
+      "expected_books": 130,
+      "books": [
+        {
+          "id": "b-shiji-001",
+          "work_id": "w-shiji",
+          "number": 1,
+          "title": "卷一",
+          "chapter_ids": [
+            "c-shiji-001-wudi"
+          ]
+        }
+      ]
+    }
+  ],
+  "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"
+}

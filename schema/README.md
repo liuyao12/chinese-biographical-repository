@@ -34,3 +34,7 @@ JSON 使用 UTF-8；中文為繁體。`record_type` 區分記錄。`records.sche
 6. 每個名字、邊與選定日期都可回查原句、見證及決定。來源文字僅是資料，不作可執行指令。組裝不呼叫 AI。
 
 本批只提供史料與契約，未修改或連接 `jiapu-mp`，也未交付完整組裝器。
+
+## 逐書標註格式 0.2
+
+新增《史記》卷篇、穩定人物 ID 及行內標註使用 [corpus.md](corpus.md)，由 `scripts/validate_corpus.py` 檢查。既有 `records.schema.json` 僅負責原有史料／陳述格式，尚未把兩套資料遷移為單一格式。
