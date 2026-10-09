@@ -158,6 +158,95 @@ def validate(root=ROOT):
                         supported.update(m['person_id'] for m in hit[1]['mentions'] if m['person_id'] in ids)
                 check(own,'人物區分未包含所屬篇證據')
                 check(set(ids).issubset(supported),'人物區分未有各端點證據')
+        canonical_links={}
+        for path in (root/'corpus').glob('*/*-equivalences.json'):
+            d=json.loads(path.read_text(encoding='utf-8'))
+            check(d['record_type']=='person_equivalence_set','同指決定集類型不符')
+            check(d['chapter_id'] in chapters,'同指決定篇不存在')
+            for decision in d['decisions']:
+                check(decision['id'] not in dids,'身份判斷 ID 重複');dids.add(decision['id'])
+                ids=decision['person_ids'];canonical=decision['canonical_person_id']
+                check(len(ids)>=2 and len(set(ids))==len(ids) and set(ids).issubset(pids),'同指決定端點無效或重複')
+                check(canonical in ids,'同指決定代表不在端點中')
+                check(decision['status'] in ('source_explicit','contextual_provisional'),'同指決定狀態無效')
+                check(bool(decision['evidence']) and bool(decision['rationale']),'同指決定缺少證據或理由')
+                supported=set()
+                for e in decision['evidence']:
+                    hit=paragraphs.get(e['paragraph_id']);quote=e['quote']
+                    check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and bool(quote) and quote in hit[1]['text'],'同指決定引句與所屬篇不符')
+                    check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'同指決定來源 ID 不符')
+                    mids=e['mention_ids'];check(bool(mids) and len(mids)==len(set(mids)),'同指決定提及錨點缺失或重複')
+                    selected=[]
+                    for mid in mids:
+                        mention=mentions.get(mid)
+                        check(bool(mention) and mention[1]==e['paragraph_id'] and mention[2]['person_id'] in ids,'同指決定提及不屬於證據段落或端點')
+                        if mention:selected.append(mention[2])
+                    if hit and quote:
+                        starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote,i)]
+                        enclosed=any(all(i<=m['start'] and m['end']<=i+len(quote) for m in selected) for i in starts)
+                        check(enclosed,'同指決定提及不在精確引句範圍')
+                    supported.update(m['person_id'] for m in selected)
+                check(set(ids).issubset(supported),'同指決定未有各端點提及證據')
+                for pid in ids:
+                    if pid==canonical:continue
+                    check(pid not in canonical_links or canonical_links[pid]==canonical,'同指決定代表衝突')
+                    canonical_links[pid]=canonical
+        for start in canonical_links:
+            seen=set();current=start
+            while current in canonical_links:
+                if current in seen:
+                    check(False,'同指決定代表循環');break
+                seen.add(current);current=canonical_links[current]
+        title_ids=set();title_occurrence_ids=set()
+        for path in (root/'corpus').glob('*/*-titles.json'):
+            d=json.loads(path.read_text(encoding='utf-8'))
+            check(d['record_type']=='title_holding_assertion_set','稱號持有集類型不符')
+            check(d['chapter_id'] in chapters,'稱號持有篇不存在')
+            for h in d['holdings']:
+                check(h['id'] not in title_ids,'稱號持有 ID 重複');title_ids.add(h['id'])
+                check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
+                check(h['status']=='source_attested','稱號持有狀態無效')
+                check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
+                check(h['mode'] in ('grant','self_proclamation','demotion','attestation'),'稱號事件種類無效')
+                check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
+                def title_evidence(e):
+                    hit=paragraphs.get(e['paragraph_id'])
+                    check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and bool(e['quote']) and e['quote'] in hit[1]['text'],'稱號引句與所屬篇不符')
+                    check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
+                    if hit:check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                for e in h['evidence']:title_evidence(e)
+                for a in h['attestations']:
+                    check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
+                    hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])
+                    check(bool(hit) and hit[0]==d['chapter_id'],'稱號用稱段落不符')
+                    check(bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
+                    check(a['surface']==h['title'] and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
+                    if hit:
+                        check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
+                        enclosed=False
+                        for e in h['evidence']:
+                            if e['paragraph_id']!=a['paragraph_id']:continue
+                            starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
+                            if m and any(i<=a['start'] and a['end']<=i+len(e['quote']) and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote']) for i in starts):enclosed=True
+                        check(enclosed,'稱號用稱及持有人不在精確引句範圍')
+                period=h['effective_period']
+                for endpoint in ('start','end'):
+                    boundary=period[endpoint]
+                    check(boundary['status'] in ('unknown','source_event'),'稱號時段端點狀態無效')
+                    expected={'status','date_expression','evidence'}
+                    if boundary['status']=='source_event':expected.add('event_type')
+                    check(set(boundary)==expected,'稱號端點含未定義欄位，不能暗補正規化日期')
+                    if boundary['status']=='unknown':
+                        check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
+                    else:
+                        check(bool(boundary['evidence']),'稱號時段事件缺少證據')
+                        allowed=('grant','self_proclamation','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
+                        check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
+                        for e in boundary['evidence']:title_evidence(e)
+                        date=boundary['date_expression']
+                        check(date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
+                check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
+                if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()
         for path in (root/'corpus').glob('*/*-assertions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
