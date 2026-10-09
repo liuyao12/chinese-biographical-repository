@@ -31,10 +31,10 @@
   },
   "text_sha256": "ffaee0f3bf3e78f6406f783812ce7ab8b1b652dbc569268fed7672902ff97776",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "41段數位正文；第1至10段首輪人物標註，其餘31段待處理。",
+    "coverage": "全41段明示人名、部分短稱與匿名／群體稱呼首輪標註。",
     "limitations": [
       "仲雍與前卷太王子虞仲的同指尚待來源比對；周章弟虞仲另立候選，不按同名合併。",
       "世系保存原文明示，不以繼位補父子，不作已核定史實。",
@@ -1231,219 +1231,2584 @@
     {
       "id": "c-shiji-031-wu:p011",
       "text": "去魯，遂使齊。説晏平仲曰：「子速納邑與政。無邑無政，乃免於難。齊國之政將有所歸；未得所歸，難未息也。」故晏子因陳桓子以納政與邑，是以免於欒髙之難。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m011-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "晏平仲",
+          "kind": "person",
+          "person_id": "cbr-p001044",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m011-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "晏子",
+          "kind": "person",
+          "person_id": "cbr-p001044",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m011-0055",
+          "start": 55,
+          "end": 58,
+          "surface": "陳桓子",
+          "kind": "person",
+          "person_id": "cbr-p001045",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m011-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "欒髙",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p012",
       "text": "去齊，使於鄭。見子産，如舊交。謂子産曰：「鄭之執政侈，難將至矣，政必及子。子爲政，愼以禮。不然，鄭國將敗。」去鄭，適衞。説蘧瑗、史狗、史鰍、公子荊、公叔發、公子朝曰：「衞多君子，未有患也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m012-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "子産",
+          "kind": "person",
+          "person_id": "cbr-p001046",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "子産",
+          "kind": "person",
+          "person_id": "cbr-p001046",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "蘧瑗",
+          "kind": "person",
+          "person_id": "cbr-p001047",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "史狗",
+          "kind": "person",
+          "person_id": "cbr-p001048",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "史鰍",
+          "kind": "person",
+          "person_id": "cbr-p001049",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0070",
+          "start": 70,
+          "end": 73,
+          "surface": "公子荊",
+          "kind": "person",
+          "person_id": "cbr-p001050",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0074",
+          "start": 74,
+          "end": 77,
+          "surface": "公叔發",
+          "kind": "person",
+          "person_id": "cbr-p001051",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m012-0078",
+          "start": 78,
+          "end": 81,
+          "surface": "公子朝",
+          "kind": "person",
+          "person_id": "cbr-p001052",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p013",
       "text": "自衞如晉，將舍於宿，聞鍾聲，曰：「異哉！吾聞之，辯而不德，必加於戮。夫子獲罪於君以在此，懼猶不足，而又可以畔乎？夫子之在此，猶燕之巣於幕也。君在殯而可以樂乎？」遂去之。文子聞之，終身不聽琴瑟。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m013-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m013-0039",
+          "start": 39,
+          "end": 40,
+          "surface": "君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m013-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m013-0070",
+          "start": 70,
+          "end": 71,
+          "surface": "君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m013-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "文子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p014",
       "text": "適晉，説趙文子、韓宣子、魏獻子曰：「晉國其萃於三家乎！」將去，謂叔向曰：「吾子勉之！君侈而多良，大夫皆富，政將在三家。吾子直，必思自免於難。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m014-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "趙文子",
+          "kind": "person",
+          "person_id": "cbr-p001053",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m014-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "韓宣子",
+          "kind": "person",
+          "person_id": "cbr-p001054",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m014-0012",
+          "start": 12,
+          "end": 15,
+          "surface": "魏獻子",
+          "kind": "person",
+          "person_id": "cbr-p001055",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m014-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "三家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m014-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "叔向",
+          "kind": "person",
+          "person_id": "cbr-p001056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m014-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "三家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p015",
       "text": "季札之初使，北過徐君。徐君好季札劍，口弗敢言。季札心知之，爲使上國，未獻。還至徐，徐君已死，於是乃解其寶劍，繋之徐君塚樹而去。從者曰：「徐君已死，尚誰予乎？」季子曰：「不然。始吾心已許之，豈以死倍吾心哉！」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m015-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "徐君",
+          "kind": "person",
+          "person_id": "cbr-p001057",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "徐君",
+          "kind": "person",
+          "person_id": "cbr-p001057",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "徐君",
+          "kind": "person",
+          "person_id": "cbr-p001057",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "徐君",
+          "kind": "person",
+          "person_id": "cbr-p001057",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "徐君",
+          "kind": "person",
+          "person_id": "cbr-p001057",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m015-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p016",
       "text": "七年，楚公子圍弑其王夾敖而代立，是爲靈王。十年，楚靈王會諸侯而以伐吳之硃方，以誅齊慶封。吳亦攻楚，取三邑而去。十一年，楚伐吳，至雩婁。十二年，楚復來伐，次於乾谿，楚師敗走。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m016-0003",
+          "start": 3,
+          "end": 7,
+          "surface": "楚公子圍",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m016-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "夾敖",
+          "kind": "person",
+          "person_id": "cbr-p001058",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m016-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m016-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "楚靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m016-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "諸侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m016-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "慶封",
+          "kind": "person",
+          "person_id": "cbr-p000419",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p017",
       "text": "十七年，王餘祭卒，弟餘眛立。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m017-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "王餘祭",
+          "kind": "person",
+          "person_id": "cbr-p001034",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m017-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "餘眛",
+          "kind": "person",
+          "person_id": "cbr-p001035",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p018",
       "text": "王餘眛二年，楚公子棄疾弑其君靈王代立焉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m018-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "王餘眛",
+          "kind": "person",
+          "person_id": "cbr-p001035",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m018-0006",
+          "start": 6,
+          "end": 11,
+          "surface": "楚公子棄疾",
+          "kind": "person",
+          "person_id": "cbr-p000421",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m018-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p019",
       "text": "四年，王餘眛卒，欲授弟季札。季札讓，逃去。於是吳人曰：「先王有命，兄卒弟代立，必致季子。季子今逃位，則王餘眛後立。今卒，其子當代。」乃立王餘眛之子僚爲王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m019-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "王餘眛",
+          "kind": "person",
+          "person_id": "cbr-p001035",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "吳人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "先王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0051",
+          "start": 51,
+          "end": 54,
+          "surface": "王餘眛",
+          "kind": "person",
+          "person_id": "cbr-p001035",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0068",
+          "start": 68,
+          "end": 71,
+          "surface": "王餘眛",
+          "kind": "person",
+          "person_id": "cbr-p001035",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m019-0073",
+          "start": 73,
+          "end": 74,
+          "surface": "僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p020",
       "text": "王僚二年，公子光伐楚，敗而亡王舟。光懼，襲楚，復得王舟而還。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m020-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m020-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m020-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p021",
       "text": "五年，楚之亡臣伍子胥來奔，公子光客之。公子光者，王諸樊之子也。常以爲吾父兄弟四人，當傳至季子。季子即不受國，光父先立。即不傳季子，光當立。陰納賢士，欲以襲王僚。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m021-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0019",
+          "start": 19,
+          "end": 22,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "王諸樊",
+          "kind": "person",
+          "person_id": "cbr-p001033",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0065",
+          "start": 65,
+          "end": 66,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m021-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p022",
       "text": "八年，吳使公子光伐楚，敗楚師，迎楚故太子建母於居巣以歸。因北伐，敗陳、蔡之師。九年，公子光伐楚，拔居巣、鍾離。初，楚邊邑卑梁氏之處女與吳邊邑之女爭桑，二女家怒相滅，兩國邊邑長聞之，怒而相攻，滅吳之邊邑。吳王怒，故遂伐楚，取兩都而去。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m022-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "太子建",
+          "kind": "person",
+          "person_id": "cbr-p000422",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0021",
+          "start": 21,
+          "end": 22,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "cbr-p001078",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0042",
+          "start": 42,
+          "end": 45,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0060",
+          "start": 60,
+          "end": 66,
+          "surface": "卑梁氏之處女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0067",
+          "start": 67,
+          "end": 72,
+          "surface": "吳邊邑之女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "二女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m022-0082",
+          "start": 82,
+          "end": 87,
+          "surface": "兩國邊邑長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p023",
       "text": "伍子胥之初奔吳，説吳王僚以伐楚之利。公子光曰：「胥之父兄爲僇於楚，欲自報其仇耳。未見其利。」於是伍員知光有他志，乃求勇士專諸，見之光。光喜，乃客伍子胥。子胥退而耕於野，以待專諸之事。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m023-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0024",
+          "start": 24,
+          "end": 25,
+          "surface": "胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "父兄",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "伍員",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0051",
+          "start": 51,
+          "end": 52,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0065",
+          "start": 65,
+          "end": 66,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0067",
+          "start": 67,
+          "end": 68,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0072",
+          "start": 72,
+          "end": 75,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m023-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p024",
       "text": "十二年冬，楚平王卒。十三年春，吳欲因楚喪而伐之，使公子蓋餘、燭庸以兵圍楚之六、灊。使季札於晉，以觀諸侯之變。楚發兵絶吳兵後，吳兵不得還。於是吳公子光曰：「此時不可失也。」告專諸曰：「不索何獲！我眞王嗣，當立，吾欲求之。季子雖至，不吾廢也。」專諸曰：「王僚可殺也。母老子弱，而兩公子將兵攻楚，楚絶其路。方今吳外困於楚，而內空無骨鯁之臣，是無奈我何。」光曰：「我身，子之身也。」四月丙子，光伏甲士於窟室，而謁王僚飲。王僚使兵陳於道，自王宮至光之家，門階戶席，皆王僚之親也，人夾持鈹。公子光詳爲足疾，入於窟室，使專諸置匕首於炙魚之中以進食。手匕首刺王僚，鈹交於匈，遂弑王僚。公子光竟代立爲王，是爲吳王闔廬。闔廬乃以專諸子爲卿。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m024-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "楚平王",
+          "kind": "person",
+          "person_id": "cbr-p000421",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "蓋餘",
+          "kind": "person",
+          "person_id": "cbr-p001061",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "燭庸",
+          "kind": "person",
+          "person_id": "cbr-p001062",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "季札",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0071",
+          "start": 71,
+          "end": 74,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0131",
+          "start": 131,
+          "end": 135,
+          "surface": "母老子弱",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0137",
+          "start": 137,
+          "end": 140,
+          "surface": "兩公子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0174",
+          "start": 174,
+          "end": 175,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0192",
+          "start": 192,
+          "end": 193,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0202",
+          "start": 202,
+          "end": 204,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0206",
+          "start": 206,
+          "end": 208,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0218",
+          "start": 218,
+          "end": 219,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0228",
+          "start": 228,
+          "end": 230,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0239",
+          "start": 239,
+          "end": 242,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0253",
+          "start": 253,
+          "end": 255,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0271",
+          "start": 271,
+          "end": 273,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0281",
+          "start": 281,
+          "end": 283,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0284",
+          "start": 284,
+          "end": 287,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0297",
+          "start": 297,
+          "end": 299,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0300",
+          "start": 300,
+          "end": 302,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0304",
+          "start": 304,
+          "end": 306,
+          "surface": "專諸",
+          "kind": "person",
+          "person_id": "cbr-p001060",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m024-0306",
+          "start": 306,
+          "end": 307,
+          "surface": "子",
+          "kind": "person",
+          "person_id": "cbr-p001079",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p025",
       "text": "季子至，曰：「苟先君無廢祀，民人無廢主，社稷有奉，乃吾君也。吾敢誰怨乎？哀死事生，以待天命。非我生亂，立者從之，先人之道也。」復命，哭僚墓，復位而待。吳公子燭庸、蓋餘二人將兵遇圍於楚者，聞公子光弑王僚自立，乃以其兵降楚，楚封之於舒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m025-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "先君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "先人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0067",
+          "start": 67,
+          "end": 68,
+          "surface": "僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "燭庸",
+          "kind": "person",
+          "person_id": "cbr-p001062",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0081",
+          "start": 81,
+          "end": 83,
+          "surface": "蓋餘",
+          "kind": "person",
+          "person_id": "cbr-p001061",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0094",
+          "start": 94,
+          "end": 97,
+          "surface": "公子光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m025-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "王僚",
+          "kind": "person",
+          "person_id": "cbr-p001059",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p026",
       "text": "王闔廬元年，舉伍子胥爲行人而與謀國事。楚誅伯州犁，其孫伯嚭亡奔吳，吳以爲大夫。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m026-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m026-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m026-0021",
+          "start": 21,
+          "end": 24,
+          "surface": "伯州犁",
+          "kind": "person",
+          "person_id": "cbr-p001063",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m026-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "伯嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p027",
       "text": "三年，吳王闔廬與子胥、伯嚭將兵伐楚，拔舒，殺吳亡將二公子。光謀欲入郢，將軍孫武曰：「民勞，未可，待之。」四年，伐楚，取六與灊。五年，伐越，敗之。六年，楚使子常囊瓦伐吳。迎而撃之，大敗楚軍於豫章，取楚之居巣而還。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m027-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "伯嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0022",
+          "start": 22,
+          "end": 28,
+          "surface": "吳亡將二公子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0029",
+          "start": 29,
+          "end": 30,
+          "surface": "光",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "孫武",
+          "kind": "person",
+          "person_id": "cbr-p001065",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m027-0077",
+          "start": 77,
+          "end": 81,
+          "surface": "子常囊瓦",
+          "kind": "person",
+          "person_id": "cbr-p001066",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p028",
       "text": "九年，吳王闔廬請伍子胥、孫武曰：「始子之言郢未可入，今果如何？」二子對曰：「楚將子常貪，而唐、蔡皆怨之。王必欲大伐，必得唐、蔡乃可。」闔廬從之，悉興師，與唐、蔡西伐楚，至於漢水。楚亦發兵拒吳，夾水陳。吳王闔廬弟夫槩欲戰，闔廬弗許。夫槩曰：「王已屬臣兵，兵以利爲上，尚何待焉？」遂以其部五千人襲冒楚，楚兵大敗，走。於是吳王遂縱兵追之。比至郢，五戰，楚五敗。楚昭王亡出郢，奔鄖。鄖公弟欲弑昭王，昭王與鄖公犇隨。而吳兵遂入郢。子胥、伯嚭鞭平王之屍以報父讎。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m028-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "孫武",
+          "kind": "person",
+          "person_id": "cbr-p001065",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "子常",
+          "kind": "person",
+          "person_id": "cbr-p001066",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0100",
+          "start": 100,
+          "end": 102,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0115",
+          "start": 115,
+          "end": 117,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0158",
+          "start": 158,
+          "end": 160,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0177",
+          "start": 177,
+          "end": 180,
+          "surface": "楚昭王",
+          "kind": "person",
+          "person_id": "cbr-p000426",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0187",
+          "start": 187,
+          "end": 190,
+          "surface": "鄖公弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "鄖公之弟，與鄖公本人分開；未補姓名。"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0192",
+          "start": 192,
+          "end": 194,
+          "surface": "昭王",
+          "kind": "person",
+          "person_id": "cbr-p000426",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0195",
+          "start": 195,
+          "end": 197,
+          "surface": "昭王",
+          "kind": "person",
+          "person_id": "cbr-p000426",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0198",
+          "start": 198,
+          "end": 200,
+          "surface": "鄖公",
+          "kind": "person",
+          "person_id": "cbr-p001068",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0210",
+          "start": 210,
+          "end": 212,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0213",
+          "start": 213,
+          "end": 215,
+          "surface": "伯嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m028-0216",
+          "start": 216,
+          "end": 218,
+          "surface": "平王",
+          "kind": "person",
+          "person_id": "cbr-p000421",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p029",
       "text": "十年春，越聞吳王之在郢，國空，乃伐吳。吳使別兵撃越。楚告急秦，秦遣兵救楚撃吳，吳師敗。闔廬弟夫槩見秦越交敗吳，吳王留楚不去，夫槩亡歸吳而自立爲吳王。闔廬聞之，乃引兵歸，攻夫槩。夫槩敗奔楚。楚昭王乃得以九月復入郢，而封夫槩於堂谿，爲堂谿氏。十一年，吳王使太子夫差伐楚，取番。楚恐而去郢徙鄀。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m029-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0088",
+          "start": 88,
+          "end": 90,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0094",
+          "start": 94,
+          "end": 97,
+          "surface": "楚昭王",
+          "kind": "person",
+          "person_id": "cbr-p000426",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0108",
+          "start": 108,
+          "end": 110,
+          "surface": "夫槩",
+          "kind": "person",
+          "person_id": "cbr-p001067",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m029-0126",
+          "start": 126,
+          "end": 130,
+          "surface": "太子夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p030",
       "text": "十五年，孔子相魯。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m030-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p031",
       "text": "十九年夏，吳伐越，越王句踐迎撃之槜李。越使死士挑戰，三行造吳師，呼，自剄。吳師觀之，越因伐吳，敗之姑蘇，傷吳王闔廬指，軍卻七里。吳王病傷而死。闔廬使立太子夫差，謂曰：「爾而忘句踐殺汝父乎？」對曰：「不敢！」三年，乃報越。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m031-0009",
+          "start": 9,
+          "end": 13,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "闔廬",
+          "kind": "person",
+          "person_id": "cbr-p000424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0075",
+          "start": 75,
+          "end": 79,
+          "surface": "太子夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m031-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p032",
       "text": "王夫差元年，以大夫伯嚭爲太宰。習戰射，常以報越爲志。二年，吳王悉精兵以伐越，敗之夫椒，報姑蘇也。越王句踐乃以甲兵五千人棲於會稽，使大夫種因吳太宰嚭而行成，請委國爲臣妾。吳王將許之，伍子胥諫曰：「昔有過氏殺斟灌以伐斟尋，滅夏后帝相。帝相之妃后緡方娠，逃於有仍而生少康。少康爲有仍牧正。有過又欲殺少康，少康奔有虞。有虞思夏德，於是妻之以二女而邑之於綸，有田一成，有衆一旅。後遂收夏衆，撫其官職。使人誘之，遂滅有過氏，復禹之績，祀夏配天，不失舊物。今吳不如有過之彊，而句踐大於少康。今不因此而滅之，又將寬之，不亦難乎！且句踐爲人能辛苦，今不滅，後必悔之。」吳王不聽，聽太宰嚭，卒許越平，與盟而罷兵去。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m032-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "伯嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0048",
+          "start": 48,
+          "end": 52,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0065",
+          "start": 65,
+          "end": 68,
+          "surface": "大夫種",
+          "kind": "person",
+          "person_id": "cbr-p001070",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0070",
+          "start": 70,
+          "end": 73,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0090",
+          "start": 90,
+          "end": 93,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0098",
+          "start": 98,
+          "end": 101,
+          "surface": "有過氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "斟灌",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "斟尋",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0110",
+          "start": 110,
+          "end": 114,
+          "surface": "夏后帝相",
+          "kind": "person",
+          "person_id": "cbr-p000063",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0115",
+          "start": 115,
+          "end": 117,
+          "surface": "帝相",
+          "kind": "person",
+          "person_id": "cbr-p000063",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0119",
+          "start": 119,
+          "end": 121,
+          "surface": "后緡",
+          "kind": "person",
+          "person_id": "cbr-p001071",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "有仍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "少康",
+          "kind": "person",
+          "person_id": "cbr-p000064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0133",
+          "start": 133,
+          "end": 135,
+          "surface": "少康",
+          "kind": "person",
+          "person_id": "cbr-p000064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0136",
+          "start": 136,
+          "end": 138,
+          "surface": "有仍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0146",
+          "start": 146,
+          "end": 148,
+          "surface": "少康",
+          "kind": "person",
+          "person_id": "cbr-p000064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0149",
+          "start": 149,
+          "end": 151,
+          "surface": "少康",
+          "kind": "person",
+          "person_id": "cbr-p000064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0152",
+          "start": 152,
+          "end": 154,
+          "surface": "有虞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0155",
+          "start": 155,
+          "end": 157,
+          "surface": "有虞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0166",
+          "start": 166,
+          "end": 168,
+          "surface": "二女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0202",
+          "start": 202,
+          "end": 205,
+          "surface": "有過氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0207",
+          "start": 207,
+          "end": 208,
+          "surface": "禹",
+          "kind": "person",
+          "person_id": "cbr-p000043",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0231",
+          "start": 231,
+          "end": 233,
+          "surface": "句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0235",
+          "start": 235,
+          "end": 237,
+          "surface": "少康",
+          "kind": "person",
+          "person_id": "cbr-p000064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0257",
+          "start": 257,
+          "end": 259,
+          "surface": "句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0275",
+          "start": 275,
+          "end": 277,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m032-0281",
+          "start": 281,
+          "end": 284,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p033",
       "text": "七年，吳王夫差聞齊景公死而大臣爭寵，新君弱，乃興師北伐齊。子胥諫曰：「越王句踐食不重味，衣不重采，吊死問疾，且欲有所用其衆。此人不死，必爲吳患。今越在腹心疾而王不先，而務齊，不亦謬乎！」吳王不聽，遂北伐齊，敗齊師於艾陵。至繒，召魯哀公而徴百牢。季康子使子貢以周禮説太宰嚭，乃得止。因留略地於齊魯之南。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m033-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "新君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0035",
+          "start": 35,
+          "end": 39,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0114",
+          "start": 114,
+          "end": 117,
+          "surface": "魯哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0122",
+          "start": 122,
+          "end": 125,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p001074",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p001075",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m033-0132",
+          "start": 132,
+          "end": 135,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p034",
       "text": "九年，爲騶伐魯，至與魯盟乃去。十年，因伐齊而歸。十一年，復北伐齊，越王句踐率其衆以朝吳，厚獻遺之，吳王喜。唯子胥懼，曰：「是棄吳也。」諫曰：「越在腹心，今得志於齊，猶石田，無所用。且盤庚之誥有顛越勿遺，商之以興。」吳王不聽，使子胥於齊，子胥屬其子於齊鮑氏，還報吳王。吳王聞之，大怒，賜子胥屬鏤之劍以死。將死，曰：「樹吾墓上以梓，令可爲器。抉吾眼置之吳東門，以觀越之滅吳也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m034-0033",
+          "start": 33,
+          "end": 37,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0091",
+          "start": 91,
+          "end": 93,
+          "surface": "盤庚",
+          "kind": "person",
+          "person_id": "cbr-p000122",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0107",
+          "start": 107,
+          "end": 109,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "其子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0124",
+          "start": 124,
+          "end": 127,
+          "surface": "齊鮑氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0133",
+          "start": 133,
+          "end": 135,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m034-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p035",
       "text": "齊鮑氏弑齊悼公。吳王聞之，哭於軍門外三日，乃從海上攻齊。齊人敗吳，吳王乃引兵歸。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m035-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "齊鮑氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m035-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "齊悼公",
+          "kind": "person",
+          "person_id": "cbr-p000433",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m035-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m035-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p036",
       "text": "十三年，吳召魯、衞之君會於橐皋。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m036-0006",
+          "start": 6,
+          "end": 11,
+          "surface": "魯、衞之君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p037",
       "text": "十四年春，吳王北會諸侯於黃池，欲霸中國以全周室。六月子，越王句踐伐吳。乙酉，越五千人與吳戰。丙戌，虜吳太子友。丁亥，入吳。吳人告敗於王夫差，夫差惡其聞也。或泄其語，吳王怒，斬七人於幕下。七月辛丑，吳王與晉定公爭長。吳王曰：「於周室我爲長。」晉定公曰：「於姬姓我爲伯。」趙鞅怒，將伐吳，乃長晉定公。吳王已盟，與晉別，欲伐宋。太宰嚭曰：「可勝而不能居也。」乃引兵歸國。國亡太子，內空，王居外久，士皆罷敝，於是乃使厚幣以與越平。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m037-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0028",
+          "start": 28,
+          "end": 32,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0050",
+          "start": 50,
+          "end": 54,
+          "surface": "吳太子友",
+          "kind": "person",
+          "person_id": "cbr-p001076",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0066",
+          "start": 66,
+          "end": 69,
+          "surface": "王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0086",
+          "start": 86,
+          "end": 89,
+          "surface": "斬七人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0101",
+          "start": 101,
+          "end": 104,
+          "surface": "晉定公",
+          "kind": "person",
+          "person_id": "cbr-p000269",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0107",
+          "start": 107,
+          "end": 109,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0120",
+          "start": 120,
+          "end": 123,
+          "surface": "晉定公",
+          "kind": "person",
+          "person_id": "cbr-p000269",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0134",
+          "start": 134,
+          "end": 136,
+          "surface": "趙鞅",
+          "kind": "person",
+          "person_id": "cbr-p001077",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0144",
+          "start": 144,
+          "end": 147,
+          "surface": "晉定公",
+          "kind": "person",
+          "person_id": "cbr-p000269",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0161",
+          "start": 161,
+          "end": 164,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m037-0184",
+          "start": 184,
+          "end": 186,
+          "surface": "太子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p038",
       "text": "十五年，齊田常殺簡公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m038-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "田常",
+          "kind": "person",
+          "person_id": "cbr-p000270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m038-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "簡公",
+          "kind": "person",
+          "person_id": "cbr-p000271",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p039",
       "text": "十八年，越益彊。越王句踐率兵伐敗吳師於笠澤。楚滅陳。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m039-0008",
+          "start": 8,
+          "end": 12,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p040",
       "text": "二十年，越王句踐復伐吳。二十一年，遂圍吳。二十三年十一月丁卯，越敗吳。越王句踐欲遷吳王夫差於甬東，予百家居之。吳王曰：「孤老矣，不能事君王也。吾悔不用子胥之言，自令陷此。」遂自剄死。越王滅吳，誅太宰嚭，以爲不忠，而歸。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m040-0004",
+          "start": 4,
+          "end": 8,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m040-0035",
+          "start": 35,
+          "end": 39,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m040-0042",
+          "start": 42,
+          "end": 45,
+          "surface": "王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m040-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m040-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "子胥",
+          "kind": "person",
+          "person_id": "cbr-p000423",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m040-0097",
+          "start": 97,
+          "end": 100,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-031-wu:p041",
       "text": "太史公曰：孔子言「太伯可謂至德矣，三以天下讓，民無得而稱焉」。余讀春秋古文，乃知中國之虞與荊蠻句吳兄弟也。延陵季子之仁心，慕義無窮，見微而知淸濁。嗚呼，又何其閎覽博物君子也！",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-031-wu:m041-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者、族稱或未定指代；有虞等不直接補作熟知個人，仍待覆核。"
+        },
+        {
+          "id": "c-shiji-031-wu:m041-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m041-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "太伯",
+          "kind": "person",
+          "person_id": "cbr-p000172",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-031-wu:m041-0053",
+          "start": 53,
+          "end": 57,
+          "surface": "延陵季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }
