@@ -350,4 +350,22 @@ class CorpusTests(unittest.TestCase):
         p=c['paragraphs'][21];a=p['text'].index('語在齊王語')+2
         self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
 
+    def test_cross_chapter_equivalence_requires_every_declared_chapter(self):
+        self.change('corpus/shiji/010-equivalences.json',lambda d:d['decisions'][0]['evidence'].pop(0))
+        self.assertTrue(any('同指決定缺少各篇證據' in e for e in v.validate(self.root)))
+
+    def test_cross_chapter_equivalence_cannot_hide_as_single_chapter(self):
+        self.change('corpus/shiji/010-equivalences.json',lambda d:d['decisions'][0].update(scope='same_chapter'))
+        self.assertTrue(any('同指決定範圍與篇數不符' in e for e in v.validate(self.root)))
+
+    def test_wendi_successor_and_other_word_are_separate(self):
+        c=json.loads((self.root/'corpus/shiji/010.json').read_text())
+        previous=next(m for m in c['paragraphs'][37]['mentions'] if m['surface']=='孝文皇帝')
+        successor=next(m for m in c['paragraphs'][38]['mentions'] if m['surface']=='皇帝')
+        self.assertNotEqual(previous['person_id'],successor['person_id'])
+        p=c['paragraphs'][36];a=p['text'].index('佗不在令中')
+        self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
+        p=c['paragraphs'][29];a=p['text'].index('古者天子')+2
+        self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
+
 if __name__=='__main__':unittest.main()
