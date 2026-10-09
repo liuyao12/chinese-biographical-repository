@@ -368,4 +368,20 @@ class CorpusTests(unittest.TestCase):
         p=c['paragraphs'][29];a=p['text'].index('古者天子')+2
         self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
 
+    def test_jingdi_same_given_name_sheng_stays_separate(self):
+        c=json.loads((self.root/'corpus/shiji/011.json').read_text())
+        son=next(m for m in c['paragraphs'][3]['mentions'] if m['surface']=='子勝')
+        uncle=next(m for m in c['paragraphs'][16]['mentions'] if m['surface']=='弟勝')
+        self.assertNotEqual(son['person_id'],uncle['person_id'])
+
+    def test_jingdi_king_mother_is_not_king(self):
+        c=json.loads((self.root/'corpus/shiji/011.json').read_text())
+        p=c['paragraphs'][7]
+        mother=next(m for m in p['mentions'] if m['surface']=='膠東王太后')
+        son=next(m for m in p['mentions'] if m['surface']=='膠東王')
+        self.assertNotEqual(mother['person_id'],son['person_id'])
+        titles=json.loads((self.root/'corpus/shiji/011-titles.json').read_text())['holdings']
+        queen=next(h for h in titles if h['title']=='皇后')
+        self.assertEqual(queen['person_id'],mother['person_id'])
+
 if __name__=='__main__':unittest.main()
