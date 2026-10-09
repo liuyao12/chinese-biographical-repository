@@ -404,4 +404,51 @@ class CorpusTests(unittest.TestCase):
         queen=next(h for h in titles if h['title']=='皇后')
         self.assertEqual(queen['person_id'],mother['person_id'])
 
+
+    def test_adjacent_relation_requires_explicit_context(self):
+        def mutate(d):
+            a=next(a for a in d['assertions'] if 'context' in a)
+            del a['context']
+        self.change('corpus/shiji/059-assertions.json',mutate)
+        self.assertTrue(any('端點未見' in e for e in v.validate(self.root)))
+
+    def test_adjacent_relation_rejects_reversed_evidence(self):
+        def mutate(d):
+            a=next(a for a in d['assertions'] if 'context' in a)
+            a['evidence'].reverse()
+            a['context']['paragraph_ids'].reverse()
+        self.change('corpus/shiji/059-assertions.json',mutate)
+        self.assertTrue(any('相鄰兩段' in e for e in v.validate(self.root)))
+
+    def test_adjacent_relation_requires_endpoint_in_quote(self):
+        def mutate(d):
+            a=next(a for a in d['assertions'] if 'context' in a)
+            a['evidence'][0]['quote']='好儒學'
+        self.change('corpus/shiji/059-assertions.json',mutate)
+        self.assertTrue(any('未見於引句' in e for e in v.validate(self.root)))
+
+    def test_adjacent_relation_context_must_match_evidence(self):
+        def mutate(d):
+            a=next(a for a in d['assertions'] if 'context' in a)
+            a['context']['paragraph_ids'][1]=a['context']['paragraph_ids'][0]
+        self.change('corpus/shiji/059-assertions.json',mutate)
+        self.assertTrue(any('相鄰兩段' in e for e in v.validate(self.root)))
+
+
+    def test_title_antecedent_rejects_wrong_holder_anchor(self):
+        def mutate(d):
+            h=next(h for h in d['holdings'] if h['title']=='膠西王')
+            e=next(e for e in h['evidence'] if 'context' in e)
+            e['context']['person_mention_id']='c-shiji-059-wuzong:m001-0000'
+        self.change('corpus/shiji/059-titles.json',mutate)
+        self.assertTrue(any('前段錨點或引句無效' in e for e in v.validate(self.root)))
+
+    def test_title_antecedent_rejects_nonadjacent_paragraph(self):
+        def mutate(d):
+            h=next(h for h in d['holdings'] if h['title']=='膠西王')
+            e=next(e for e in h['evidence'] if 'context' in e)
+            e['context']['paragraph_id']='c-shiji-059-wuzong:p013'
+        self.change('corpus/shiji/059-titles.json',mutate)
+        self.assertTrue(any('前段錨點或引句無效' in e for e in v.validate(self.root)))
+
 if __name__=='__main__':unittest.main()
