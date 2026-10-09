@@ -270,4 +270,26 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/007-titles.json',lambda d:d['holdings'][0]['effective_period']['end'].update(year=207))
         self.assertTrue(any('不能暗補正規化日期' in e for e in v.validate(self.root)))
 
+    def test_gaozu_hanxin_ambiguity_is_preserved(self):
+        chapter=json.loads((self.root/'corpus/shiji/008.json').read_text())
+        p=chapter['paragraphs'][29]
+        bare=next(m for m in p['mentions'] if m['surface']=='韓信')
+        self.assertIsNone(bare['person_id'])
+        named=next(m for m in p['mentions'] if m['surface']=='韓太尉信')
+        adviser=next(m for m in chapter['paragraphs'][26]['mentions'] if m['surface']=='韓信')
+        self.assertNotEqual(named['person_id'],adviser['person_id'])
+        case=chapter['annotation']['unresolved_identity_cases'][0]
+        self.assertEqual(set(case['candidate_person_ids']),{named['person_id'],adviser['person_id']})
+
+    def test_gaozu_conditional_and_impersonated_titles_are_unresolved(self):
+        chapter=json.loads((self.root/'corpus/shiji/008.json').read_text())
+        p=chapter['paragraphs'][21]
+        mentions=[m for m in p['mentions'] if m['surface']=='秦王']
+        self.assertTrue(all(m['person_id'] is not None for m in mentions[:-1]))
+        self.assertIsNone(mentions[-1]['person_id'])
+        p=chapter['paragraphs'][39]
+        a=p['text'].index('詐為漢王')+2
+        self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
+        self.assertTrue(any(m['kind']=='unresolved' and m['start']<=a<m['end'] for m in p['mentions']))
+
 if __name__=='__main__':unittest.main()

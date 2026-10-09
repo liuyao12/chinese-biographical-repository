@@ -31,12 +31,28 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "正文91段保存；第1至10段明示人名與部分短稱首輪草稿，第11至91段待標註。",
+    "coverage": "全91段正文保存；第1至40段明示人名、部分短名及官爵稱首輪草稿，第41至91段待標註。",
     "limitations": [
       "未核影像、可靠點校本或現代研究，首輪不等於身份審訂。",
       "本卷劉季／高祖暫連到卷七沛公候選；卷六另發的沛公候選仍保留，跨候選同指尚待明示決定。",
       "劉氏冠是冠名，不標成人物；神、蛟龍、白帝子、赤帝子及傳說老嫗保留未定，不推造血親。",
-      "韓王信與淮陰侯韓信、田都兩卷記載差異及稱號有效時段列入後段待查。"
+      "韓王信與淮陰侯韓信、田都兩卷記載差異及稱號有效時段列入後段待查。",
+      "田都在卷七第23段記「田都走楚」，本卷第28段記「殺田都而反楚」；兩種陳述並存，尚未指定優先來源。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji008-hanxin-p030",
+        "paragraph_ids": [
+          "c-shiji-008-gaozu:p027",
+          "c-shiji-008-gaozu:p030"
+        ],
+        "candidate_person_ids": [
+          "cbr-p000724",
+          "cbr-p000774"
+        ],
+        "note": "第30段使韓信擊破鄭昌未明示是哪一韓信；保留未解錨點，韓太尉信為韓王另發ID，不能與南鄭、井陘敘事的淮陰侯韓信按同名合併。",
+        "status": "unresolved"
+      }
     ]
   },
   "paragraphs": [
@@ -1210,212 +1226,3584 @@
     {
       "id": "c-shiji-008-gaozu:p011",
       "text": "秦二世二年，陳涉之將周章軍西至戲而還。燕、趙、齊、魏皆自立為王。項氏起吳。秦泗川監平將兵圍豐，二日，出與戰，破之。命雍齒守豐，引兵之薛。泗州守壯敗於薛，走至戚，沛公左司馬得泗川守壯，殺之。沛公還軍亢父，至方與，（周市來攻方與）未戰。陳王使魏人周市略地。周市使人謂雍齒曰：「豐，故梁徙也。今魏地已定者數十城。齒今下魏，魏以齒為侯守豐。不下，且屠豐。」雍齒雅不欲屬沛公，及魏招之，即反為魏守豐。沛公引兵攻豐，不能取。沛公病，還之沛。沛公怨雍齒與豐子弟叛之，聞東陽甯君、秦嘉立景駒為假王，在留，乃往從之，欲請兵以攻豐。是時秦將章邯從陳，別將司馬夷將兵北定楚地，屠相，至碭。東陽甯君、沛公引兵西，與戰蕭西，不利。還收兵聚留，引兵攻碭，三日乃取碭。因收碭兵，得五六千人。攻下邑，拔之。還軍豐。聞項梁在薛，從騎百餘往見之。項梁益沛公卒五千人，五大夫將十人。沛公還，引兵攻豐。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m011-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "秦二世",
+          "kind": "person",
+          "person_id": "cbr-p000534",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "陳涉",
+          "kind": "person",
+          "person_id": "cbr-p000598",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "周章",
+          "kind": "person",
+          "person_id": "cbr-p000604",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "項氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0037",
+          "start": 37,
+          "end": 42,
+          "surface": "秦泗川監平",
+          "kind": "person",
+          "person_id": "cbr-p000755",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "雍齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0068",
+          "start": 68,
+          "end": 72,
+          "surface": "泗州守壯",
+          "kind": "person",
+          "person_id": "cbr-p000757",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0082",
+          "start": 82,
+          "end": 85,
+          "surface": "左司馬",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0086",
+          "start": 86,
+          "end": 90,
+          "surface": "泗川守壯",
+          "kind": "person",
+          "person_id": "cbr-p000757",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "周市",
+          "kind": "person",
+          "person_id": "cbr-p000758",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0116",
+          "start": 116,
+          "end": 118,
+          "surface": "陳王",
+          "kind": "person",
+          "person_id": "cbr-p000598",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "周市",
+          "kind": "person",
+          "person_id": "cbr-p000758",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "周市",
+          "kind": "person",
+          "person_id": "cbr-p000758",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "雍齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0153",
+          "start": 153,
+          "end": 154,
+          "surface": "齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0160",
+          "start": 160,
+          "end": 161,
+          "surface": "齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0174",
+          "start": 174,
+          "end": 176,
+          "surface": "雍齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0180",
+          "start": 180,
+          "end": 182,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0195",
+          "start": 195,
+          "end": 197,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0206",
+          "start": 206,
+          "end": 208,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0214",
+          "start": 214,
+          "end": 216,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0217",
+          "start": 217,
+          "end": 219,
+          "surface": "雍齒",
+          "kind": "person",
+          "person_id": "cbr-p000756",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0227",
+          "start": 227,
+          "end": 231,
+          "surface": "東陽甯君",
+          "kind": "person",
+          "person_id": "cbr-p000759",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0232",
+          "start": 232,
+          "end": 234,
+          "surface": "秦嘉",
+          "kind": "person",
+          "person_id": "cbr-p000658",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0235",
+          "start": 235,
+          "end": 237,
+          "surface": "景駒",
+          "kind": "person",
+          "person_id": "cbr-p000659",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0260",
+          "start": 260,
+          "end": 262,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0267",
+          "start": 267,
+          "end": 270,
+          "surface": "司馬夷",
+          "kind": "person",
+          "person_id": "cbr-p000760",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0283",
+          "start": 283,
+          "end": 287,
+          "surface": "東陽甯君",
+          "kind": "person",
+          "person_id": "cbr-p000759",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0288",
+          "start": 288,
+          "end": 290,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0342",
+          "start": 342,
+          "end": 344,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0355",
+          "start": 355,
+          "end": 357,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0358",
+          "start": 358,
+          "end": 360,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m011-0372",
+          "start": 372,
+          "end": 374,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p012",
       "text": "從項梁月餘，項羽已拔襄城還。項梁盡召別將居薛。聞陳王定死，因立楚後懷王孫心為楚王，治盱臺。項梁號武信君。居數月，北攻亢父，救東阿，破秦軍。齊軍歸，楚獨追北，使沛公、項羽別攻城陽，屠之。軍濮陽之東，與秦軍戰，破之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m012-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "陳王",
+          "kind": "person",
+          "person_id": "cbr-p000598",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000505",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0036",
+          "start": 36,
+          "end": 37,
+          "surface": "心",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "楚王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0048",
+          "start": 48,
+          "end": 51,
+          "surface": "武信君",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m012-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p013",
       "text": "秦軍復振，守濮陽，環水。楚軍去而攻定陶，定陶未下。沛公與項羽西略地至雍丘之下，與秦軍戰，大破之，斬李由。還攻外黃，外黃未下。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m013-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m013-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m013-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "李由",
+          "kind": "person",
+          "person_id": "cbr-p000670",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p014",
       "text": "項梁再破秦軍，有驕色。宋義諫，不聽。秦益章邯兵，夜銜枚擊項梁，大破之定陶，項梁死。沛公與項羽方攻陳留，聞項梁死，引兵與呂將軍俱東。呂臣軍彭城東，項羽軍彭城西，沛公軍碭。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m014-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "宋義",
+          "kind": "person",
+          "person_id": "cbr-p000671",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0059",
+          "start": 59,
+          "end": 62,
+          "surface": "呂將軍",
+          "kind": "person",
+          "person_id": "cbr-p000673",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "呂臣",
+          "kind": "person",
+          "person_id": "cbr-p000673",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m014-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p015",
       "text": "章邯已破項梁軍，則以為楚地兵不足憂，乃渡河，北擊趙，大破之。當是之時，趙歇為王，秦將王離圍之鉅鹿城，此所謂河北之軍也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m015-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m015-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m015-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "趙歇",
+          "kind": "person",
+          "person_id": "cbr-p000674",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m015-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "王離",
+          "kind": "person",
+          "person_id": "cbr-p000575",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p016",
       "text": "秦二世三年，楚懷王見項梁軍破，恐，徙盱臺都彭城，并呂臣、項羽軍自將之。以沛公為碭郡長，封為武安侯，將碭郡兵。封項羽為長安侯，號為魯公。呂臣為司徒，其父呂青為令尹。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m016-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "秦二世",
+          "kind": "person",
+          "person_id": "cbr-p000534",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "楚懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "呂臣",
+          "kind": "person",
+          "person_id": "cbr-p000673",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "呂臣",
+          "kind": "person",
+          "person_id": "cbr-p000673",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m016-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "呂青",
+          "kind": "person",
+          "person_id": "cbr-p000678",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p017",
       "text": "趙數請救，懷王乃以宋義為上將軍，項羽為次將，范增為末將，北救趙。令沛公西略地入關。與諸將約，先入定關中者王之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m017-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m017-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "宋義",
+          "kind": "person",
+          "person_id": "cbr-p000671",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m017-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m017-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "范增",
+          "kind": "person",
+          "person_id": "cbr-p000663",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m017-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p018",
       "text": "當是時，秦兵彊，常乘勝逐北，諸將莫利先入關。獨項羽怨秦破項梁軍，奮，願與沛公西入關。懷王諸老將皆曰：「項羽為人彊悍猾賊。項羽嘗攻襄城，襄城無遺類，皆阬之，諸所過無不殘滅。且楚數進取，前陳王、項梁皆敗。不如更遣長者扶義而西，告諭秦父兄。秦父兄苦其主久矣，今誠得長者往，毋侵暴，宜可下。今項羽彊悍，今不可遣。獨沛公素寬大長者，可遣。」卒不許項羽，而遣沛公西略地，收陳王、項梁散卒。乃道碭至成陽，與杠裏秦軍夾壁，破（魏）［秦］二軍。楚軍出兵擊王離，大破之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m018-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "陳王",
+          "kind": "person",
+          "person_id": "cbr-p000598",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0153",
+          "start": 153,
+          "end": 155,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0168",
+          "start": 168,
+          "end": 170,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0173",
+          "start": 173,
+          "end": 175,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0180",
+          "start": 180,
+          "end": 182,
+          "surface": "陳王",
+          "kind": "person",
+          "person_id": "cbr-p000598",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0183",
+          "start": 183,
+          "end": 185,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m018-0218",
+          "start": 218,
+          "end": 220,
+          "surface": "王離",
+          "kind": "person",
+          "person_id": "cbr-p000575",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p019",
       "text": "沛公引兵西，遇彭越昌邑，因與俱攻秦軍，戰不利。還至栗，遇剛武侯，奪其軍，可四千餘人，并之。與魏將皇欣、魏申徒武蒲之軍并攻昌邑，昌邑未拔。西過高陽。酈食其（謂）［為］監門，曰：「諸將過此者多，吾視沛公大人長者。」乃求見說沛公。沛公方踞床，使兩女子洗足。酈生不拜，長揖，曰：「足下必欲誅無道秦，不宜踞見長者。」於是沛公起，攝衣謝之，延上坐。食其說沛公襲陳留，得秦積粟。乃以酈食其為廣野君，酈商為將，將陳留兵，與偕攻開封，開封未拔。西與秦將楊熊戰白馬，又戰曲遇東，大破之。楊熊走之滎陽，二世使使者斬以徇。南攻潁陽，屠之。因張良遂略韓地轘轅。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m019-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "cbr-p000707",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "剛武侯",
+          "kind": "person",
+          "person_id": "cbr-p000761",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "皇欣",
+          "kind": "person",
+          "person_id": "cbr-p000762",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "武蒲",
+          "kind": "person",
+          "person_id": "cbr-p000763",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0073",
+          "start": 73,
+          "end": 76,
+          "surface": "酈食其",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0112",
+          "start": 112,
+          "end": 114,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0119",
+          "start": 119,
+          "end": 122,
+          "surface": "兩女子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "酈生",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0155",
+          "start": 155,
+          "end": 157,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0168",
+          "start": 168,
+          "end": 170,
+          "surface": "食其",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0171",
+          "start": 171,
+          "end": 173,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0184",
+          "start": 184,
+          "end": 187,
+          "surface": "酈食其",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0192",
+          "start": 192,
+          "end": 194,
+          "surface": "酈商",
+          "kind": "person",
+          "person_id": "cbr-p000765",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0217",
+          "start": 217,
+          "end": 219,
+          "surface": "楊熊",
+          "kind": "person",
+          "person_id": "cbr-p000766",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0233",
+          "start": 233,
+          "end": 235,
+          "surface": "楊熊",
+          "kind": "person",
+          "person_id": "cbr-p000766",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0240",
+          "start": 240,
+          "end": 242,
+          "surface": "二世",
+          "kind": "person",
+          "person_id": "cbr-p000534",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m019-0258",
+          "start": 258,
+          "end": 260,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p020",
       "text": "當是時，趙別將司馬卬方欲渡河入關，沛公乃北攻平陰，絕河津。南，戰雒陽東，軍不利，還至陽城，收軍中馬騎，與南陽守齮戰犨東，破之。略南陽郡，南陽守齮走，保城守宛。沛公引兵過而西。張良諫曰：「沛公雖欲急入關，秦兵尚眾，距險。今不下宛，宛從後擊，彊秦在前，此危道也。」於是沛公乃夜引兵從他道還，更旗幟，黎明，圍宛城三匝。南陽守欲自剄。其舍人陳恢曰：「死未晚也。」乃踰城見沛公，曰：「臣聞足下約，先入咸陽者王之。今足下留守宛。宛，大郡之都也，連城數十，人民眾，積蓄多，吏人自以為降必死，故皆堅守乘城。今足下盡日止攻，士死傷者必多；引兵去宛，宛必隨足下後：足下前則失咸陽之約，後又有彊宛之患。為足下計，莫若約降，封其守，因使止守，引其甲卒與之西。諸城未下者，聞聲爭開門而待，足下通行無所累。」沛公曰：「善。」乃以宛守為殷侯，封陳恢千戶。引兵西，無不下者。至丹水，高武侯鰓、襄侯王陵降西陵。還攻胡陽，遇番君別將梅鋗，與皆，降析、酈。遣魏人甯昌使秦，使者未來。是時章邯已以軍降項羽於趙矣。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m020-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "司馬卬",
+          "kind": "person",
+          "person_id": "cbr-p000699",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0052",
+          "start": 52,
+          "end": 56,
+          "surface": "南陽守齮",
+          "kind": "person",
+          "person_id": "cbr-p000767",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0068",
+          "start": 68,
+          "end": 72,
+          "surface": "南陽守齮",
+          "kind": "person",
+          "person_id": "cbr-p000767",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0156",
+          "start": 156,
+          "end": 159,
+          "surface": "南陽守",
+          "kind": "person",
+          "person_id": "cbr-p000767",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0166",
+          "start": 166,
+          "end": 168,
+          "surface": "陳恢",
+          "kind": "person",
+          "person_id": "cbr-p000768",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0181",
+          "start": 181,
+          "end": 183,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0340",
+          "start": 340,
+          "end": 342,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0350",
+          "start": 350,
+          "end": 352,
+          "surface": "宛守",
+          "kind": "person",
+          "person_id": "cbr-p000767",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0357",
+          "start": 357,
+          "end": 359,
+          "surface": "陳恢",
+          "kind": "person",
+          "person_id": "cbr-p000768",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0375",
+          "start": 375,
+          "end": 379,
+          "surface": "高武侯鰓",
+          "kind": "person",
+          "person_id": "cbr-p000769",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0382",
+          "start": 382,
+          "end": 384,
+          "surface": "王陵",
+          "kind": "person",
+          "person_id": "cbr-p000770",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0394",
+          "start": 394,
+          "end": 396,
+          "surface": "番君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0398",
+          "start": 398,
+          "end": 400,
+          "surface": "梅鋗",
+          "kind": "person",
+          "person_id": "cbr-p000706",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0412",
+          "start": 412,
+          "end": 414,
+          "surface": "甯昌",
+          "kind": "person",
+          "person_id": "cbr-p000771",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m020-0430",
+          "start": 430,
+          "end": 432,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p021",
       "text": "初，項羽與宋義北救趙，及項羽殺宋義，代為上將軍，諸將黥布皆屬，破秦將王離軍，降章邯，諸侯皆附。及趙高已殺二世，使人來，欲約分王關中。沛公以為詐，乃用張良計，使酈生、陸賈往說秦將，啗以利，因襲攻武關，破之。又與秦軍戰於藍田南，益張疑兵旗幟，諸所過毋得掠鹵，秦人喜，秦軍解，因大破之。又戰其北，大破之。乘勝，遂破之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m021-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "宋義",
+          "kind": "person",
+          "person_id": "cbr-p000671",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "宋義",
+          "kind": "person",
+          "person_id": "cbr-p000671",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "黥布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "王離",
+          "kind": "person",
+          "person_id": "cbr-p000575",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "趙高",
+          "kind": "person",
+          "person_id": "cbr-p000535",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "二世",
+          "kind": "person",
+          "person_id": "cbr-p000534",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "酈生",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m021-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "陸賈",
+          "kind": "person",
+          "person_id": "cbr-p000733",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p022",
       "text": "漢元年十月，沛公兵遂先諸侯至霸上。秦王子嬰素車白馬，系頸以組，封皇帝璽符節，降軹道旁。諸將或言誅秦王。沛公曰：「始懷王遣我，固以能寬容；且人已服降，又殺之，不祥。」乃以秦王屬吏，遂西入咸陽。欲止宮休舍，樊噲、張良諫，乃封秦重寶財物府庫，還軍霸上。召諸縣父老豪桀曰：「父老苦秦苛法久矣，誹謗者族，偶語者棄市。吾與諸侯約，先入關者王之，吾當王關中。與父老約，法三章耳：殺人者死，傷人及盜抵罪。餘悉除去秦法。諸吏人皆案堵如故。凡吾所以來，為父老除害，非有所侵暴，無恐！且吾所以還軍霸上，待諸侯至而定約束耳。」乃使人與秦吏行縣鄉邑，告諭之。秦人大喜，爭持牛羊酒食獻饗軍士。沛公又讓不受，曰：「倉粟多，非乏，不欲費人。」人又益喜，唯恐沛公不為秦王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m022-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0017",
+          "start": 17,
+          "end": 21,
+          "surface": "秦王子嬰",
+          "kind": "person",
+          "person_id": "cbr-p000536",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000536",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "秦王",
+          "kind": "person",
+          "person_id": "cbr-p000536",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "樊噲",
+          "kind": "person",
+          "person_id": "cbr-p000691",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0104",
+          "start": 104,
+          "end": 106,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0282",
+          "start": 282,
+          "end": 284,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0312",
+          "start": 312,
+          "end": 314,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m022-0316",
+          "start": 316,
+          "end": 318,
+          "surface": "秦王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "希望沛公成為秦王的條件語句，非子嬰指稱，也非沛公實際受封。"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p023",
       "text": "或說沛公曰：「秦富十倍天下，地形彊。今聞章邯降項羽，項羽乃號為雍王，王關中。今則來，沛公恐不得有此。可急使兵守函谷關，無內諸侯軍，稍徵關中兵以自益，距之。」沛公然其計，從之。十一月中，項羽果率諸侯兵西，欲入關，關門閉。聞沛公已定關中，大怒，使黥布等攻破函谷關。十二月中，遂至戲。沛公左司馬曹無傷聞項王怒，欲攻沛公，使人言項羽曰：「沛公欲王關中，令子嬰為相，珍寶盡有之。」欲以求封。亞父勸項羽擊沛公。方饗士，旦日合戰。是時項羽兵四十萬，號百萬。沛公兵十萬，號二十萬，力不敵。會項伯欲活張良，夜往見良，因以文諭項羽，項羽乃止。沛公從百餘騎，驅之鴻門，見謝項羽。項羽曰：「此沛公左司馬曹無傷言之。不然，籍何以生此！」沛公以樊噲、張良故，得解歸。歸，立誅曹無傷。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m023-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "或",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "黥布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0144",
+          "start": 144,
+          "end": 147,
+          "surface": "曹無傷",
+          "kind": "person",
+          "person_id": "cbr-p000685",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0160",
+          "start": 160,
+          "end": 162,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0165",
+          "start": 165,
+          "end": 167,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0173",
+          "start": 173,
+          "end": 175,
+          "surface": "子嬰",
+          "kind": "person",
+          "person_id": "cbr-p000536",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0190",
+          "start": 190,
+          "end": 192,
+          "surface": "亞父",
+          "kind": "person",
+          "person_id": "cbr-p000663",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0193",
+          "start": 193,
+          "end": 195,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0196",
+          "start": 196,
+          "end": 198,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0210",
+          "start": 210,
+          "end": 212,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0221",
+          "start": 221,
+          "end": 223,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0237",
+          "start": 237,
+          "end": 239,
+          "surface": "項伯",
+          "kind": "person",
+          "person_id": "cbr-p000686",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0241",
+          "start": 241,
+          "end": 243,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0247",
+          "start": 247,
+          "end": 248,
+          "surface": "良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0253",
+          "start": 253,
+          "end": 255,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0256",
+          "start": 256,
+          "end": 258,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0261",
+          "start": 261,
+          "end": 263,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0275",
+          "start": 275,
+          "end": 277,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0278",
+          "start": 278,
+          "end": 280,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0284",
+          "start": 284,
+          "end": 286,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0289",
+          "start": 289,
+          "end": 292,
+          "surface": "曹無傷",
+          "kind": "person",
+          "person_id": "cbr-p000685",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0298",
+          "start": 298,
+          "end": 299,
+          "surface": "籍",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0305",
+          "start": 305,
+          "end": 307,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0308",
+          "start": 308,
+          "end": 310,
+          "surface": "樊噲",
+          "kind": "person",
+          "person_id": "cbr-p000691",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0311",
+          "start": 311,
+          "end": 313,
+          "surface": "張良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m023-0323",
+          "start": 323,
+          "end": 326,
+          "surface": "曹無傷",
+          "kind": "person",
+          "person_id": "cbr-p000685",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p024",
       "text": "項羽遂西，屠燒咸陽秦宮室，所過無不殘破。秦人大失望，然恐，不敢不服耳。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m024-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p025",
       "text": "項羽使人還報懷王。懷王曰：「如約。」項羽怨懷王不肯令與沛公俱西入關，而北救趙，後天下約。乃曰：「懷王者，吾家項梁所立耳，非有功伐，何以得主約！本定天下，諸將及籍也。」乃詳尊懷王為義帝，實不用其命。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m025-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "項梁",
+          "kind": "person",
+          "person_id": "cbr-p000603",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0079",
+          "start": 79,
+          "end": 80,
+          "surface": "籍",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m025-0089",
+          "start": 89,
+          "end": 91,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p026",
       "text": "正月，項羽自立為西楚霸王，王梁、楚地九郡，都彭城。負約，更立沛公為漢王，王巴、蜀、漢中，都南鄭。三分關中，立秦三將：章邯為雍王，都廢丘；司馬欣為塞王，都櫟陽；董翳為翟王，都高奴。楚將瑕丘申陽為河南王，都洛陽。趙將司馬卬為殷王，都朝歌。趙王歇徙王代。趙相張耳為常山王，都襄國。當陽君黥布為九江王，都六。懷王柱國共敖為臨江王，都江陵。番君吳芮為衡山王，都邾。燕將臧荼為燕王，都薊。故燕王韓廣徙王遼東。廣不聽，臧荼攻殺之無終。封成安君陳餘河閒三縣，居南皮。封梅鋗十萬戶。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m026-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0068",
+          "start": 68,
+          "end": 71,
+          "surface": "司馬欣",
+          "kind": "person",
+          "person_id": "cbr-p000606",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "董翳",
+          "kind": "person",
+          "person_id": "cbr-p000607",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "申陽",
+          "kind": "person",
+          "person_id": "cbr-p000698",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0106",
+          "start": 106,
+          "end": 109,
+          "surface": "司馬卬",
+          "kind": "person",
+          "person_id": "cbr-p000699",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0117",
+          "start": 117,
+          "end": 120,
+          "surface": "趙王歇",
+          "kind": "person",
+          "person_id": "cbr-p000674",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0137",
+          "start": 137,
+          "end": 142,
+          "surface": "當陽君黥布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0150",
+          "start": 150,
+          "end": 152,
+          "surface": "懷王",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "共敖",
+          "kind": "person",
+          "person_id": "cbr-p000701",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0167",
+          "start": 167,
+          "end": 169,
+          "surface": "吳芮",
+          "kind": "person",
+          "person_id": "cbr-p000700",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "臧荼",
+          "kind": "person",
+          "person_id": "cbr-p000703",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0191",
+          "start": 191,
+          "end": 193,
+          "surface": "韓廣",
+          "kind": "person",
+          "person_id": "cbr-p000702",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0198",
+          "start": 198,
+          "end": 199,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "cbr-p000702",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0202",
+          "start": 202,
+          "end": 204,
+          "surface": "臧荼",
+          "kind": "person",
+          "person_id": "cbr-p000703",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0211",
+          "start": 211,
+          "end": 214,
+          "surface": "成安君",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0214",
+          "start": 214,
+          "end": 216,
+          "surface": "陳餘",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m026-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "梅鋗",
+          "kind": "person",
+          "person_id": "cbr-p000706",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p027",
       "text": "四月，兵罷戲下，諸侯各就國。漢王之國，項王使卒三萬人從，楚與諸侯之慕從者數萬人，從杜南入蝕中。去輒燒絕棧道，以備諸侯盜兵襲之，亦示項羽無東意。至南鄭，諸將及士卒多道亡歸，士卒皆歌思東歸。韓信說漢王曰：「項羽王諸將之有功者，而王獨居南鄭，是遷也。軍吏士卒皆山東之人也，日夜跂而望歸，及其鋒而用之，可以有大功。天下已定，人皆自寧，不可復用。不如決策東鄉，爭權天下。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m027-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m027-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m027-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m027-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "cbr-p000724",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m027-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m027-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p028",
       "text": "項羽出關，使人徙義帝。曰：「古之帝者地方千里，必居上游。」乃使使徙義帝長沙郴縣，趣義帝行，群臣稍倍叛之，乃陰令衡山王、臨江王擊之，殺義帝江南。項羽怨田榮，立齊將田都為齊王。田榮怒，因自立為齊王，殺田都而反楚；予彭越將軍印，令反梁地。楚令蕭公角擊彭越，彭越大破之。陳餘怨項羽之弗王己也，令夏說說田榮，請兵擊張耳。齊予陳餘兵，擊破常山王張耳，張耳亡歸漢。迎趙王歇於代，復立為趙王。趙王因立陳餘為代王。項羽大怒，北擊齊。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m028-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0055",
+          "start": 55,
+          "end": 58,
+          "surface": "衡山王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0059",
+          "start": 59,
+          "end": 62,
+          "surface": "臨江王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "田都",
+          "kind": "person",
+          "person_id": "cbr-p000704",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "田都",
+          "kind": "person",
+          "person_id": "cbr-p000704",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "cbr-p000707",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0118",
+          "start": 118,
+          "end": 121,
+          "surface": "蕭公角",
+          "kind": "person",
+          "person_id": "cbr-p000711",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0122",
+          "start": 122,
+          "end": 124,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "cbr-p000707",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "cbr-p000707",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "陳餘",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0134",
+          "start": 134,
+          "end": 136,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "夏說",
+          "kind": "person",
+          "person_id": "cbr-p000709",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0146",
+          "start": 146,
+          "end": 148,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0152",
+          "start": 152,
+          "end": 154,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0157",
+          "start": 157,
+          "end": 159,
+          "surface": "陳餘",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0166",
+          "start": 166,
+          "end": 168,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0176",
+          "start": 176,
+          "end": 179,
+          "surface": "趙王歇",
+          "kind": "person",
+          "person_id": "cbr-p000674",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0192",
+          "start": 192,
+          "end": 194,
+          "surface": "陳餘",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m028-0198",
+          "start": 198,
+          "end": 200,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p029",
       "text": "八月，漢王用韓信之計，從故道還，襲雍王章邯。邯迎擊漢陳倉，雍兵敗，還走；止戰好畤，又復敗，走廢丘。漢王遂定雍地。東至咸陽，引兵圍雍王廢丘，而遣諸將略定隴西、北地、上郡。令將軍薛歐、王吸出武關，因王陵兵南陽，以迎太公、呂后於沛。楚聞之，發兵距之陽夏，不得前。令故吳令鄭昌為韓王，距漢兵。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m029-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "cbr-p000724",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "雍王",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "雍王",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "薛歐",
+          "kind": "person",
+          "person_id": "cbr-p000772",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "王吸",
+          "kind": "person",
+          "person_id": "cbr-p000773",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "王陵",
+          "kind": "person",
+          "person_id": "cbr-p000770",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "太公",
+          "kind": "person",
+          "person_id": "cbr-p000716",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0108",
+          "start": 108,
+          "end": 110,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m029-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "鄭昌",
+          "kind": "person",
+          "person_id": "cbr-p000710",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p030",
       "text": "二年，漢王東略地，塞王欣、翟王翳、河南王申陽皆降。韓王昌不聽，使韓信擊破之。於是置隴西、北地、上郡、渭南、河上、中地郡；關外置河南郡。更立韓太尉信為韓王。諸將以萬人若以一郡降者，封萬戶。繕治河上塞。諸故秦苑囿園池，皆令人得田之，正月，虜雍王弟章平。大赦罪人。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m030-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "塞王欣",
+          "kind": "person",
+          "person_id": "cbr-p000606",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "翟王翳",
+          "kind": "person",
+          "person_id": "cbr-p000607",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "申陽",
+          "kind": "person",
+          "person_id": "cbr-p000698",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0025",
+          "start": 25,
+          "end": 28,
+          "surface": "韓王昌",
+          "kind": "person",
+          "person_id": "cbr-p000710",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "韓信",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0069",
+          "start": 69,
+          "end": 73,
+          "surface": "韓太尉信",
+          "kind": "person",
+          "person_id": "cbr-p000774",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "韓王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "雍王",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m030-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "章平",
+          "kind": "person",
+          "person_id": "cbr-p000775",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p031",
       "text": "漢王之出關至陜，撫關外父老，還，張耳來見，漢王厚遇之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m031-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m031-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m031-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p032",
       "text": "二月，令除秦社稷，更立漢社稷。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": []
     },
     {
       "id": "c-shiji-008-gaozu:p033",
       "text": "三月，漢王從臨晉渡，魏王豹將兵從。下河內，虜殷王，置河內郡。南渡平陰津，至雒陽。新城三老董公遮說漢王以義帝死故。漢王聞之，袒而大哭。遂為義帝發喪，臨三日。發使者告諸侯曰：「天下共立義帝，北面事之。今項羽放殺義帝於江南，大逆無道。寡人親為發喪，諸侯皆縞素。悉發關內兵，收三河士，南浮江漢以下，願從諸侯王擊楚之殺義帝者。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m033-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0010",
+          "start": 10,
+          "end": 13,
+          "surface": "魏王豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "殷王",
+          "kind": "person",
+          "person_id": "cbr-p000699",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0040",
+          "start": 40,
+          "end": 46,
+          "surface": "新城三老董公",
+          "kind": "person",
+          "person_id": "cbr-p000776",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m033-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "義帝",
+          "kind": "person",
+          "person_id": "cbr-p000682",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p034",
       "text": "是時項王北擊齊，田榮與戰城陽。田榮敗，走平原，平原民殺之。齊皆降楚。楚因焚燒其城郭，系虜其子女。齊人叛之。田榮弟橫立榮子廣為齊王，齊王反楚城陽。項羽雖聞漢東，既已連齊兵，欲遂破之而擊漢。漢王以故得劫五諸侯兵，遂入彭城。項羽聞之，乃引兵去齊，從魯出胡陵，至蕭，與漢大戰彭城靈壁東睢水上，大破漢軍，多殺士卒，睢水為之不流。乃取漢王父母妻子於沛，置之軍中以為質。當是時，諸侯見楚彊漢敗，還皆去漢復為楚。塞王欣亡入楚。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m034-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "田榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0056",
+          "start": 56,
+          "end": 57,
+          "surface": "橫",
+          "kind": "person",
+          "person_id": "cbr-p000712",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0058",
+          "start": 58,
+          "end": 59,
+          "surface": "榮",
+          "kind": "person",
+          "person_id": "cbr-p000665",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0060",
+          "start": 60,
+          "end": 61,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "cbr-p000721",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "齊王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "齊王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0161",
+          "start": 161,
+          "end": 163,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m034-0198",
+          "start": 198,
+          "end": 201,
+          "surface": "塞王欣",
+          "kind": "person",
+          "person_id": "cbr-p000606",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p035",
       "text": "呂后兄周呂侯為漢將兵，居下邑。漢王從之，稍收士卒，軍碭。漢王乃西過梁地，至虞。使謁者隨何之九江王布所，曰：「公能令布舉兵叛楚，項羽必留擊之。得留數月，吾取天下必矣。」隨何往說九江王布，布果背楚。楚使龍且往擊之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m035-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "周呂侯",
+          "kind": "person",
+          "person_id": "cbr-p000719",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "隨何",
+          "kind": "person",
+          "person_id": "cbr-p000777",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0045",
+          "start": 45,
+          "end": 49,
+          "surface": "九江王布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0057",
+          "start": 57,
+          "end": 58,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "隨何",
+          "kind": "person",
+          "person_id": "cbr-p000777",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0087",
+          "start": 87,
+          "end": 91,
+          "surface": "九江王布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0092",
+          "start": 92,
+          "end": 93,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m035-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "龍且",
+          "kind": "person",
+          "person_id": "cbr-p000666",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p036",
       "text": "漢王之敗彭城而西，行使人求家室，家室亦亡，不相得。敗後乃獨得孝惠，六月，立為太子，大赦罪人。令太子守櫟陽，諸侯子在關中者皆集櫟陽為衛。引水灌廢丘，廢丘降，章邯自殺。更名廢丘為槐里。於是令祠官祀天地四方上帝山川，以時祀之。興關內卒乘塞。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m036-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m036-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m036-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m036-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m036-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "章邯",
+          "kind": "person",
+          "person_id": "cbr-p000605",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p037",
       "text": "是時九江王布與龍且戰，不勝，與隨何閒行歸漢。漢王稍收士卒，與諸將及關中卒益出，是以兵大振滎陽，破楚京、索閒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m037-0002",
+          "start": 2,
+          "end": 6,
+          "surface": "九江王布",
+          "kind": "person",
+          "person_id": "cbr-p000656",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m037-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "龍且",
+          "kind": "person",
+          "person_id": "cbr-p000666",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m037-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "隨何",
+          "kind": "person",
+          "person_id": "cbr-p000777",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m037-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p038",
       "text": "三年，魏王豹謁歸視親疾，至即絕河津，反為楚。漢王使酈生說豹，豹不聽。漢王遣將軍韓信擊，大破之，虜豹。遂定魏地，置三郡，曰河東、太原、上黨。漢王乃令張耳與韓信遂東下井陘擊趙，斬陳餘、趙王歇。其明年，立張耳為趙王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m038-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "魏王豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "酈生",
+          "kind": "person",
+          "person_id": "cbr-p000764",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0028",
+          "start": 28,
+          "end": 29,
+          "surface": "豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0030",
+          "start": 30,
+          "end": 31,
+          "surface": "豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "cbr-p000724",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0048",
+          "start": 48,
+          "end": 49,
+          "surface": "豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0073",
+          "start": 73,
+          "end": 75,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "cbr-p000724",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "陳餘",
+          "kind": "person",
+          "person_id": "cbr-p000675",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0090",
+          "start": 90,
+          "end": 93,
+          "surface": "趙王歇",
+          "kind": "person",
+          "person_id": "cbr-p000674",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m038-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "張耳",
+          "kind": "person",
+          "person_id": "cbr-p000676",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p039",
       "text": "漢王軍滎陽南，筑甬道屬之河，以取敖倉。與項羽相距歲餘。項羽數侵奪漢甬道，漢軍乏食，遂圍漢王。漢王請和，割滎陽以西者為漢。項王不聽。漢王患之，乃用陳平之計，予陳平金四萬斤，以閒疏楚君臣。於是項羽乃疑亞父。亞父是時勸項羽遂下滎陽，及其見疑，乃怒，辭老，願賜骸骨歸卒伍，未至彭城而死。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m039-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "陳平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "陳平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "亞父",
+          "kind": "person",
+          "person_id": "cbr-p000663",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "亞父",
+          "kind": "person",
+          "person_id": "cbr-p000663",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m039-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cbr-p000610",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p040",
       "text": "漢軍絕食，乃夜出女子東門二千餘人，被甲，楚因四面擊之。將軍紀信乃乘王駕，詐為漢王，誑楚，楚皆呼萬歲，之城東觀，以故漢王得與數十騎出西門遁。令御史大夫周苛、魏豹、樅公守滎陽。諸將卒不能從者，盡在城中。周苛、樅公相謂曰：「反國之王，難與守城。」因殺魏豹。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-008-gaozu:m040-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "紀信",
+          "kind": "person",
+          "person_id": "cbr-p000695",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0036",
+          "start": 36,
+          "end": 40,
+          "surface": "詐為漢王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "官稱、匿名者、假稱或同名指代待覆核；不據字串補姓名或實際爵位。"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "周苛",
+          "kind": "person",
+          "person_id": "cbr-p000722",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "魏豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "樅公",
+          "kind": "person",
+          "person_id": "cbr-p000723",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "周苛",
+          "kind": "person",
+          "person_id": "cbr-p000722",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "樅公",
+          "kind": "person",
+          "person_id": "cbr-p000723",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-008-gaozu:m040-0122",
+          "start": 122,
+          "end": 124,
+          "surface": "魏豹",
+          "kind": "person",
+          "person_id": "cbr-p000697",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-008-gaozu:p041",
