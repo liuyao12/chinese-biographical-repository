@@ -153,6 +153,17 @@ class CorpusTests(unittest.TestCase):
         p.write_text(p.read_text().replace('text-layer="witness_appended_bangu_note"','text-layer="received_chapter"',1))
         self.assertTrue(any('文字層次不符' in e for e in v.validate(self.root)))
 
+    def test_suoyin_layer_mismatch_and_unknown_layer_rejected(self):
+        # Synthetic edits verify that a commentary cannot silently become body text.
+        self.change('corpus/shiji/001.json',lambda d:d['paragraphs'][0].update(text_layer='witness_appended_suoyin_zan'))
+        xml=self.root/'corpus/shiji/001.xml'
+        xml.write_text(xml.read_text().replace('<p id="c-shiji-001-wudi:p001"','<p text-layer="witness_appended_suoyin_zan" id="c-shiji-001-wudi:p001"',1))
+        self.assertEqual(v.validate(self.root),[])
+        xml.write_text(xml.read_text().replace('text-layer="witness_appended_suoyin_zan"','text-layer="received_chapter"',1))
+        self.assertTrue(any('文字層次不符' in e for e in v.validate(self.root)))
+        self.change('corpus/shiji/001.json',lambda d:d['paragraphs'][0].update(text_layer='synthetic_unknown_layer'))
+        self.assertTrue(any('文字層次無效' in e for e in v.validate(self.root)))
+
     def test_shihuang_dd_quotes_preserve_order_and_xml_text(self):
         c=json.loads((self.root/'corpus/shiji/006.json').read_text())
         ids=[p['id'] for p in c['paragraphs']]
