@@ -170,11 +170,17 @@ def validate(root=ROOT):
                 check(canonical in ids,'同指決定代表不在端點中')
                 check(decision['status'] in ('source_explicit','contextual_provisional'),'同指決定狀態無效')
                 check(bool(decision['evidence']) and bool(decision['rationale']),'同指決定缺少證據或理由')
-                supported=set()
+                scope=decision.get('scope','same_chapter')
+                scope_chapters=decision.get('chapter_ids',[d['chapter_id']])
+                check(scope in ('same_chapter','cross_chapter'),'同指決定範圍無效')
+                check(isinstance(scope_chapters,list) and len(set(scope_chapters))==len(scope_chapters) and d['chapter_id'] in scope_chapters and set(scope_chapters).issubset(chapters),'同指決定範圍篇無效或重複')
+                check((scope=='same_chapter' and scope_chapters==[d['chapter_id']]) or (scope=='cross_chapter' and len(scope_chapters)>=2),'同指決定範圍與篇數不符')
+                supported=set();evidence_chapters=set()
                 for e in decision['evidence']:
                     hit=paragraphs.get(e['paragraph_id']);quote=e['quote']
-                    check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and bool(quote) and quote in hit[1]['text'],'同指決定引句與所屬篇不符')
+                    check(bool(hit) and hit[0]==e['chapter_id'] and e['chapter_id'] in scope_chapters and bool(quote) and quote in hit[1]['text'],'同指決定引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'同指決定來源 ID 不符')
+                    evidence_chapters.add(e['chapter_id'])
                     mids=e['mention_ids'];check(bool(mids) and len(mids)==len(set(mids)),'同指決定提及錨點缺失或重複')
                     selected=[]
                     for mid in mids:
@@ -186,6 +192,7 @@ def validate(root=ROOT):
                         enclosed=any(all(i<=m['start'] and m['end']<=i+len(quote) for m in selected) for i in starts)
                         check(enclosed,'同指決定提及不在精確引句範圍')
                     supported.update(m['person_id'] for m in selected)
+                check(set(scope_chapters).issubset(evidence_chapters),'同指決定缺少各篇證據')
                 check(set(ids).issubset(supported),'同指決定未有各端點提及證據')
                 for pid in ids:
                     if pid==canonical:continue
