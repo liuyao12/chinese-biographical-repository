@@ -21,15 +21,15 @@
       "character_conversion": {},
       "editorial_readings": [],
       "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
-      "note": "已讀第1至90段及篇末分層位置；其餘數位正文只是轉錄、尚待逐段核讀。未核古籍影像、可靠底本或現代研究。"
+      "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
     }
   },
   "text_sha256": "2d6c2e13bca664d22e748722e6fad06e99552046d5a14f9b976f26a6d4e36eac",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "第1至90段明示人名、部分短稱與匿名者首輪標註，第91至122段待標註。",
+    "coverage": "全121段正文及1段分層索隱述贊明示人名、部分短稱與匿名者首輪標註；代詞、版本、稱號全史及跨篇身份覆核未完成。",
     "limitations": [
       "趙孤故事保存來源敘事，不從模型記憶校正家族身份、出生或下宮之難年代。",
       "趙朔婦、晉妻／翟妻與太子母不補熟知姓名；真孤與替代嬰兒分開。",
@@ -10271,226 +10271,2586 @@
     {
       "id": "c-shiji-043-zhao:p091",
       "text": "十七年，樂毅將趙師攻魏伯陽。而秦怨趙不與己撃齊，伐趙，拔我兩城。十八年，秦拔我石城。王再之衞東陽，決河水，伐魏氏。大潦，漳水出。魏冉來相趙。十九年，秦（敗）［取］我二城。趙與魏伯陽。趙奢將，攻齊麥丘，取之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m091-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "樂毅",
+          "kind": "person",
+          "person_id": "cbr-p002435",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m091-0042",
+          "start": 42,
+          "end": 43,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m091-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "魏冉",
+          "kind": "person",
+          "person_id": "cbr-p002441",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m091-0091",
+          "start": 91,
+          "end": 93,
+          "surface": "趙奢",
+          "kind": "person",
+          "person_id": "cbr-p002442",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p092",
       "text": "二十年，廉頗將，攻齊。王與秦昭王遇西河外。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m092-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m092-0011",
+          "start": 11,
+          "end": 12,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m092-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "秦昭王",
+          "kind": "person",
+          "person_id": "cbr-p002401",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p093",
       "text": "二十一年，趙徙漳水武平西。二十二年，大疫。置公子丹爲太子。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m093-0022",
+          "start": 22,
+          "end": 25,
+          "surface": "公子丹",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m093-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p094",
       "text": "二十三年，樓昌將，攻魏幾，不能取。十二月，廉頗將，攻幾，取之。二十四年，廉頗將，攻魏房子，拔之，因城而還。又攻安陽，取之。二十五年，燕周將，攻昌城、髙唐，取之。與魏共撃秦。秦將白起破我華陽，得一將軍。二十六年，取東胡歐代地。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m094-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "樓昌",
+          "kind": "person",
+          "person_id": "cbr-p002444",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m094-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m094-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m094-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "燕周",
+          "kind": "person",
+          "person_id": "cbr-p002445",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m094-0088",
+          "start": 88,
+          "end": 90,
+          "surface": "白起",
+          "kind": "person",
+          "person_id": "cbr-p002446",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m094-0096",
+          "start": 96,
+          "end": 99,
+          "surface": "一將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p095",
       "text": "二十七年，徙漳水武平南。封趙豹爲平陽君。河水出，大潦。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m095-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "趙豹",
+          "kind": "person",
+          "person_id": "cbr-p002447",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m095-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "平陽君",
+          "kind": "person",
+          "person_id": "cbr-p002447",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p096",
       "text": "二十八年，藺相如伐齊，至平邑。罷城北九門大城。燕將成安君公孫操弒其王。二十九年，秦、韓相攻，而圍閼與。趙使趙奢將，撃秦，大破秦軍閼與下，賜號爲馬服君。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m096-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "藺相如",
+          "kind": "person",
+          "person_id": "cbr-p002448",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m096-0025",
+          "start": 25,
+          "end": 28,
+          "surface": "成安君",
+          "kind": "person",
+          "person_id": "cbr-p002449",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m096-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "公孫操",
+          "kind": "person",
+          "person_id": "cbr-p002449",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m096-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "其王",
+          "kind": "person",
+          "person_id": "cbr-p002450",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m096-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "趙奢",
+          "kind": "person",
+          "person_id": "cbr-p002442",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m096-0071",
+          "start": 71,
+          "end": 74,
+          "surface": "馬服君",
+          "kind": "person",
+          "person_id": "cbr-p002442",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p097",
       "text": "三十三年，惠文王卒，太子丹立，是爲孝成王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m097-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "惠文王",
+          "kind": "person",
+          "person_id": "cbr-p002424",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m097-0010",
+          "start": 10,
+          "end": 13,
+          "surface": "太子丹",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m097-0017",
+          "start": 17,
+          "end": 20,
+          "surface": "孝成王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p098",
       "text": "孝成王元年，秦伐我，拔三城。趙王新立，太后用事，秦急攻之。趙氏求救於齊，齊曰：「必以長安君爲質，兵乃出。」太后不肯，大臣彊諫。太后明謂左右曰：「復言長安君爲質者，老婦必唾其面。」左師觸龍言願見太后，太后盛氣而胥之。入，徐趨而坐，自謝曰：「老臣病足，曾不能疾走，不得見久矣。竊自恕，而恐太后體之有所苦也，故願望見太后。」太后曰：「老婦恃輦而行耳。」曰：「食得毋衰乎？」曰：「恃粥耳。」曰：「老臣閒者殊不欲食，乃彊歩，日三四里，少益嗜食，和於身也。」太后曰：「老婦不能。」太后不和之色少解。左師公曰：「老臣賤息舒祺最少，不肖，而臣衰，竊憐愛之，願得補黑衣之缺以衞王宮，昧死以聞。」太后曰：「敬諾。年幾何矣？」對曰：「十五歳矣。雖少，願及未塡溝壑而讬之。」太后曰：「丈夫亦愛憐少子乎？」對曰：「甚於婦人。」太后笑曰：「婦人異甚。」對曰：「老臣竊以爲媼之愛燕后賢於長安君。」太后曰：「君過矣，不若長安君之甚。」左師公曰：「父母愛子則爲之計深遠。媼之送燕后也，持其踵，爲之泣，念其遠也，亦哀之矣。已行，非不思也，祭祀則祝之曰『必勿使反』，豈非計長久，爲子孫相繼爲王也哉？」太后曰：「然。」左師公曰：「今三世以前，至於趙主之子孫爲侯者，其繼有在者乎？」曰：「無有。」曰：「微獨趙，諸侯有在者乎？」曰：「老婦不聞也。」曰：「此其近者禍及其身，遠者及其子孫。豈人主之子侯則不善哉？位尊而無功，奉厚而無勞，而挾重器多也。今媼尊長安君之位，而封之以膏腴之地，多與之重器，而不及今令有功於國，一旦山陵崩，長安君何以自讬於趙？老臣以媼爲長安君之計短也，故以爲愛之不若燕后。」太后曰：「諾，恣君之所使之。」於是爲長安君約車百乘，質於齊，齊兵乃出。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m098-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "孝成王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0042",
+          "start": 42,
+          "end": 45,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "大臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "左右",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0074",
+          "start": 74,
+          "end": 77,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0081",
+          "start": 81,
+          "end": 83,
+          "surface": "老婦",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0089",
+          "start": 89,
+          "end": 91,
+          "surface": "左師",
+          "kind": "person",
+          "person_id": "cbr-p002453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0091",
+          "start": 91,
+          "end": 93,
+          "surface": "觸龍",
+          "kind": "person",
+          "person_id": "cbr-p002453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0119",
+          "start": 119,
+          "end": 121,
+          "surface": "老臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0155",
+          "start": 155,
+          "end": 157,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0159",
+          "start": 159,
+          "end": 161,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0164",
+          "start": 164,
+          "end": 166,
+          "surface": "老婦",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0194",
+          "start": 194,
+          "end": 196,
+          "surface": "老臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0223",
+          "start": 223,
+          "end": 225,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0228",
+          "start": 228,
+          "end": 230,
+          "surface": "老婦",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0234",
+          "start": 234,
+          "end": 236,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0243",
+          "start": 243,
+          "end": 246,
+          "surface": "左師公",
+          "kind": "person",
+          "person_id": "cbr-p002453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0249",
+          "start": 249,
+          "end": 251,
+          "surface": "老臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0253",
+          "start": 253,
+          "end": 255,
+          "surface": "舒祺",
+          "kind": "person",
+          "person_id": "cbr-p002454",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0273",
+          "start": 273,
+          "end": 275,
+          "surface": "黑衣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0279",
+          "start": 279,
+          "end": 281,
+          "surface": "王宮",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0288",
+          "start": 288,
+          "end": 290,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0325",
+          "start": 325,
+          "end": 327,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0350",
+          "start": 350,
+          "end": 352,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0366",
+          "start": 366,
+          "end": 368,
+          "surface": "老臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0371",
+          "start": 371,
+          "end": 372,
+          "surface": "媼",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0374",
+          "start": 374,
+          "end": 376,
+          "surface": "燕后",
+          "kind": "person",
+          "person_id": "cbr-p002455",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0378",
+          "start": 378,
+          "end": 381,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0383",
+          "start": 383,
+          "end": 385,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0394",
+          "start": 394,
+          "end": 397,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0401",
+          "start": 401,
+          "end": 404,
+          "surface": "左師公",
+          "kind": "person",
+          "person_id": "cbr-p002453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0418",
+          "start": 418,
+          "end": 419,
+          "surface": "媼",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0421",
+          "start": 421,
+          "end": 423,
+          "surface": "燕后",
+          "kind": "person",
+          "person_id": "cbr-p002455",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0471",
+          "start": 471,
+          "end": 477,
+          "surface": "子孫相繼爲王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0481",
+          "start": 481,
+          "end": 483,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0489",
+          "start": 489,
+          "end": 492,
+          "surface": "左師公",
+          "kind": "person",
+          "person_id": "cbr-p002453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0503",
+          "start": 503,
+          "end": 508,
+          "surface": "趙主之子孫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0545",
+          "start": 545,
+          "end": 547,
+          "surface": "老婦",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0572",
+          "start": 572,
+          "end": 577,
+          "surface": "人主之子侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0602",
+          "start": 602,
+          "end": 603,
+          "surface": "媼",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0604",
+          "start": 604,
+          "end": 607,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0641",
+          "start": 641,
+          "end": 644,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0651",
+          "start": 651,
+          "end": 653,
+          "surface": "老臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0654",
+          "start": 654,
+          "end": 655,
+          "surface": "媼",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0656",
+          "start": 656,
+          "end": 659,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0671",
+          "start": 671,
+          "end": 673,
+          "surface": "燕后",
+          "kind": "person",
+          "person_id": "cbr-p002455",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0675",
+          "start": 675,
+          "end": 677,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p002451",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m098-0693",
+          "start": 693,
+          "end": 696,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002452",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p099",
       "text": "子義聞之，曰：「人主之子，骨肉之親也，猶不能持無功之尊，無勞之奉，而守金玉之重也，而況於予乎？」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m099-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子義",
+          "kind": "person",
+          "person_id": "cbr-p002456",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m099-0008",
+          "start": 8,
+          "end": 12,
+          "surface": "人主之子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p100",
       "text": "齊安平君田單將趙師而攻燕中陽，拔之。又攻韓注人，拔之。二年，惠文后卒。田單爲相。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m100-0000",
+          "start": 0,
+          "end": 6,
+          "surface": "齊安平君田單",
+          "kind": "person",
+          "person_id": "cbr-p002457",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m100-0030",
+          "start": 30,
+          "end": 33,
+          "surface": "惠文后",
+          "kind": "person",
+          "person_id": "cbr-p002458",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m100-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "田單",
+          "kind": "person",
+          "person_id": "cbr-p002457",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p101",
       "text": "四年，王夢衣偏裻之衣，乘飛龍上天，不至而墜，見金玉之積如山。明日，王召筮史敢占之，曰：「夢衣偏裻之衣者，殘也。乘飛龍上天不至而墜者，有氣而無實也。見金玉之積如山者，憂也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m101-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m101-0033",
+          "start": 33,
+          "end": 34,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m101-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "筮史",
+          "kind": "person",
+          "person_id": "cbr-p002459",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m101-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "敢占",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p102",
       "text": "後三日，韓氏上黨守馮亭使者至，曰：「韓不能守上黨，入之於秦。其吏民皆安爲趙，不欲爲秦。有城市邑十七，願再拜入之趙，財王所以賜吏民。」王大喜，召平陽君豹告之曰：「馮亭入城市邑十七，受之何如？」對曰：「聖人甚禍無故之利。」王曰：「人懷吾德，何謂無故乎？」對曰：「夫秦蠶食韓氏地，中絶不令相通，固自以爲坐而受上黨之地也。韓氏所以不入於秦者，欲嫁其禍於趙也。秦服其勞而趙受其利，雖彊大不能得之於小弱，小弱顧能得之於彊大乎？豈可謂非無故之利哉！且夫秦以牛田之水通糧蠶食，上乘倍戰者，裂上國之地，其政行，不可與爲難，必勿受也。」王曰：「今發百萬之軍而攻，踰年歴歳未得一城也。今以城市邑十七幣吾國，此大利也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m102-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "馮亭",
+          "kind": "person",
+          "person_id": "cbr-p002460",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "使者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "吏民",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0058",
+          "start": 58,
+          "end": 59,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "吏民",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0066",
+          "start": 66,
+          "end": 67,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0071",
+          "start": 71,
+          "end": 75,
+          "surface": "平陽君豹",
+          "kind": "person",
+          "person_id": "cbr-p002447",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "馮亭",
+          "kind": "person",
+          "person_id": "cbr-p002460",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0109",
+          "start": 109,
+          "end": 110,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m102-0258",
+          "start": 258,
+          "end": 259,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p103",
       "text": "趙豹出，王召平原君與趙禹而告之。對曰：「發百萬之軍而攻，踰歳未得一城，今坐受城市邑十七，此大利，不可失也。」王曰：「善。」乃令趙勝受地，告馮亭曰：「敝國使者臣勝，敝國君使勝致命，以萬戸都三封太守，千戸都三封縣令，皆世世爲侯，吏民皆益爵三級，吏民能相安，皆賜之六金。」馮亭垂涕不見使者，曰：「吾不處三不義也：爲主守地，不能死固，不義一矣；入之秦，不聽主令，不義二矣；賣主地而食之，不義三矣。」趙遂發兵取上黨。廉頗將軍軍長平。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m103-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "趙豹",
+          "kind": "person",
+          "person_id": "cbr-p002447",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0004",
+          "start": 4,
+          "end": 5,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "平原君",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "趙禹",
+          "kind": "person",
+          "person_id": "cbr-p002462",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "趙勝",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "馮亭",
+          "kind": "person",
+          "person_id": "cbr-p002460",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "使者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "臣勝",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0085",
+          "start": 85,
+          "end": 86,
+          "surface": "勝",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "太守",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "縣令",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0107",
+          "start": 107,
+          "end": 111,
+          "surface": "世世爲侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0112",
+          "start": 112,
+          "end": 114,
+          "surface": "吏民",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "吏民",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0133",
+          "start": 133,
+          "end": 135,
+          "surface": "馮亭",
+          "kind": "person",
+          "person_id": "cbr-p002460",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "使者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0154",
+          "start": 154,
+          "end": 155,
+          "surface": "主",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0174",
+          "start": 174,
+          "end": 175,
+          "surface": "主",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0183",
+          "start": 183,
+          "end": 184,
+          "surface": "主",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m103-0203",
+          "start": 203,
+          "end": 205,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p104",
       "text": "七（年）［月］，廉頗免而趙括代將。秦人圍趙括，趙括以軍降，卒四十餘萬皆阬之。王悔不聽趙豹之計，故有長平之禍焉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m104-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m104-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "趙括",
+          "kind": "person",
+          "person_id": "cbr-p002463",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m104-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "趙括",
+          "kind": "person",
+          "person_id": "cbr-p002463",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m104-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "趙括",
+          "kind": "person",
+          "person_id": "cbr-p002463",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m104-0038",
+          "start": 38,
+          "end": 39,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m104-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "趙豹",
+          "kind": "person",
+          "person_id": "cbr-p002447",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p105",
       "text": "王還，不聽秦，秦圍邯鄲。武垣令傅豹、王容、蘇射率燕衆反燕地。趙以靈丘封楚相春申君。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m105-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m105-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "傅豹",
+          "kind": "person",
+          "person_id": "cbr-p002464",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m105-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "王容",
+          "kind": "person",
+          "person_id": "cbr-p002465",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m105-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "蘇射",
+          "kind": "person",
+          "person_id": "cbr-p002466",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m105-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "燕衆",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "匿名群體、泛稱、使者、請求任事或版本待核詞保留；筮史敢占未先確定敢為姓名。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m105-0037",
+          "start": 37,
+          "end": 40,
+          "surface": "春申君",
+          "kind": "person",
+          "person_id": "cbr-p002467",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p106",
       "text": "八年，平原君如楚請救。還，楚來救，及魏公子無忌亦來救，秦圍邯鄲乃解。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m106-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "平原君",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m106-0018",
+          "start": 18,
+          "end": 23,
+          "surface": "魏公子無忌",
+          "kind": "person",
+          "person_id": "cbr-p002468",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p107",
       "text": "十年，燕攻昌壯，五月拔之。趙將樂乘、慶舍攻秦信梁軍，破之。太子死。而秦攻西周，拔之。徒父祺出。十一年，城元氏，縣上原。武陽君鄭安平死，收其地。十二年，邯鄲廥燒。十四年，平原君趙勝死。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m107-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "樂乘",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m107-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "慶舍",
+          "kind": "person",
+          "person_id": "cbr-p002470",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m107-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p002471",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m107-0042",
+          "start": 42,
+          "end": 45,
+          "surface": "徒父祺",
+          "kind": "person",
+          "person_id": "cbr-p002472",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m107-0059",
+          "start": 59,
+          "end": 65,
+          "surface": "武陽君鄭安平",
+          "kind": "person",
+          "person_id": "cbr-p002473",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m107-0084",
+          "start": 84,
+          "end": 89,
+          "surface": "平原君趙勝",
+          "kind": "person",
+          "person_id": "cbr-p002461",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p108",
       "text": "十五年，以尉文封相國廉頗爲信平君。燕王令丞相栗腹約驤，以五百金爲趙王酒，還歸，報燕王曰：「趙氏壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒而問之。對曰：「趙，四戰之國也，其民習兵，伐之不可。」王曰：「吾以衆伐寡，二而伐一，可乎？」對曰：「不可。」王曰：「吾卽以五而伐一，可乎？」對曰：「不可。」燕王大怒。群臣皆以爲可。燕卒起二軍，車二千乘，栗腹將而攻鄗，卿秦將而攻代。廉頗爲趙將，破殺栗腹，虜卿秦、樂閒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m108-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "信平君",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "燕王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "栗腹",
+          "kind": "person",
+          "person_id": "cbr-p002475",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "燕王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0045",
+          "start": 45,
+          "end": 49,
+          "surface": "趙氏壯者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "其孤",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0064",
+          "start": 64,
+          "end": 65,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0066",
+          "start": 66,
+          "end": 71,
+          "surface": "昌國君樂閒",
+          "kind": "person",
+          "person_id": "cbr-p002476",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0098",
+          "start": 98,
+          "end": 99,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0125",
+          "start": 125,
+          "end": 126,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0149",
+          "start": 149,
+          "end": 151,
+          "surface": "燕王",
+          "kind": "person",
+          "person_id": "cbr-p002474",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "群臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0172",
+          "start": 172,
+          "end": 174,
+          "surface": "栗腹",
+          "kind": "person",
+          "person_id": "cbr-p002475",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "卿秦",
+          "kind": "person",
+          "person_id": "cbr-p002477",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0186",
+          "start": 186,
+          "end": 188,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0194",
+          "start": 194,
+          "end": 196,
+          "surface": "栗腹",
+          "kind": "person",
+          "person_id": "cbr-p002475",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0198",
+          "start": 198,
+          "end": 200,
+          "surface": "卿秦",
+          "kind": "person",
+          "person_id": "cbr-p002477",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m108-0201",
+          "start": 201,
+          "end": 203,
+          "surface": "樂閒",
+          "kind": "person",
+          "person_id": "cbr-p002476",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p109",
       "text": "十六年，廉頗圍燕。以樂乘爲武襄君。十七年，假相大將武襄君攻燕，圍其國。十八年，延陵鈞率師從相國信平君助魏攻燕。秦拔我楡次三十七城。十九年，趙與燕易土：以龍兌、汾門、臨樂與燕；燕以葛、武陽、平舒與趙。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m109-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "樂乘",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "武襄君",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0021",
+          "start": 21,
+          "end": 25,
+          "surface": "假相大將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0025",
+          "start": 25,
+          "end": 28,
+          "surface": "武襄君",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0039",
+          "start": 39,
+          "end": 42,
+          "surface": "延陵鈞",
+          "kind": "person",
+          "person_id": "cbr-p002478",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m109-0045",
+          "start": 45,
+          "end": 50,
+          "surface": "相國信平君",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p110",
       "text": "二十年，秦王政初立。秦拔我晉陽。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m110-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "秦王政",
+          "kind": "person",
+          "person_id": "cbr-p002479",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p111",
       "text": "二十一年，孝成王卒。廉頗將，攻繁陽，取之。使樂乘代之，廉頗攻樂乘，樂乘走，廉頗亡入魏。子偃立，是爲悼襄王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m111-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "孝成王",
+          "kind": "person",
+          "person_id": "cbr-p002443",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "樂乘",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "樂乘",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "樂乘",
+          "kind": "person",
+          "person_id": "cbr-p002469",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "廉頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "子偃",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m111-0049",
+          "start": 49,
+          "end": 52,
+          "surface": "悼襄王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p112",
       "text": "悼襄王元年，大備魏。欲通平邑、中牟之道，不成。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m112-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "悼襄王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p113",
       "text": "二年，李牧將，攻燕，拔武遂、方城。秦召春平君，因而留之。泄鈞爲之謂文信侯曰：「春平君者，趙王甚愛之而郎中之，故相與謀曰『春平君入秦，秦必留之』，故相與謀而内之秦也。今君留之，是絶趙而郎中之計中也。君不如遣春平君而留平都。春平君者言行信於王，王必厚割趙而贖平都。」文信侯曰：「善。」因遣之。城韓皋。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m113-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0019",
+          "start": 19,
+          "end": 22,
+          "surface": "春平君",
+          "kind": "person",
+          "person_id": "cbr-p002482",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "泄鈞",
+          "kind": "person",
+          "person_id": "cbr-p002483",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0033",
+          "start": 33,
+          "end": 36,
+          "surface": "文信侯",
+          "kind": "person",
+          "person_id": "cbr-p002484",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0039",
+          "start": 39,
+          "end": 42,
+          "surface": "春平君",
+          "kind": "person",
+          "person_id": "cbr-p002482",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "郎中",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0060",
+          "start": 60,
+          "end": 63,
+          "surface": "春平君",
+          "kind": "person",
+          "person_id": "cbr-p002482",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0091",
+          "start": 91,
+          "end": 93,
+          "surface": "郎中",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0102",
+          "start": 102,
+          "end": 105,
+          "surface": "春平君",
+          "kind": "person",
+          "person_id": "cbr-p002482",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0107",
+          "start": 107,
+          "end": 109,
+          "surface": "平都",
+          "kind": "person",
+          "person_id": "cbr-p002485",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0110",
+          "start": 110,
+          "end": 113,
+          "surface": "春平君",
+          "kind": "person",
+          "person_id": "cbr-p002482",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0118",
+          "start": 118,
+          "end": 119,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0120",
+          "start": 120,
+          "end": 121,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0127",
+          "start": 127,
+          "end": 129,
+          "surface": "平都",
+          "kind": "person",
+          "person_id": "cbr-p002485",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m113-0131",
+          "start": 131,
+          "end": 134,
+          "surface": "文信侯",
+          "kind": "person",
+          "person_id": "cbr-p002484",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p114",
       "text": "三年，龐煖將，攻燕，禽其將劇辛。四年，龐煖將趙、楚、魏、燕之鋭師，攻秦蕞，不拔；移攻齊，取饒安。五年，傅抵將，居平邑；慶舍將東陽河外師，守河梁。六年，封長安君以饒。魏與趙鄴。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m114-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "龐煖",
+          "kind": "person",
+          "person_id": "cbr-p002486",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "其將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "劇辛",
+          "kind": "person",
+          "person_id": "cbr-p002487",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "龐煖",
+          "kind": "person",
+          "person_id": "cbr-p002486",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "傅抵",
+          "kind": "person",
+          "person_id": "cbr-p002488",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "慶舍",
+          "kind": "person",
+          "person_id": "cbr-p002470",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m114-0076",
+          "start": 76,
+          "end": 79,
+          "surface": "長安君",
+          "kind": "person",
+          "person_id": "cbr-p002489",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p115",
       "text": "九年，趙攻燕，取貍、陽城。兵未罷，秦攻鄴，拔之。悼襄王卒，子幽繆王遷立。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m115-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "悼襄王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m115-0030",
+          "start": 30,
+          "end": 34,
+          "surface": "幽繆王遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p116",
       "text": "幽繆王遷元年，城柏人。二年，秦攻武城，扈輒率師救之，軍敗，死焉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m116-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "幽繆王遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m116-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "扈輒",
+          "kind": "person",
+          "person_id": "cbr-p002491",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p117",
       "text": "三年，秦攻赤麗、宜安，李牧率師與戰肥下，卻之。封牧爲武安君。四年，秦攻番吾，李牧與之戰，卻之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m117-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m117-0024",
+          "start": 24,
+          "end": 25,
+          "surface": "牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m117-0026",
+          "start": 26,
+          "end": 29,
+          "surface": "武安君",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m117-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p118",
       "text": "五年，代地大動，自樂徐以西，北至平陰，臺屋牆垣太半壞，地坼東西百三十歩。六年，大饑，民訛言曰：「趙爲號，秦爲笑。以爲不信，視地之生毛。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": []
     },
     {
       "id": "c-shiji-043-zhao:p119",
       "text": "七年，秦人攻趙，趙大將李牧、將軍司馬尚將，撃之。李牧誅，司馬尚免，趙怱及齊將顏聚代之。趙怱軍破，顏聚亡去。以王遷降。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m119-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "趙大將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "司馬尚",
+          "kind": "person",
+          "person_id": "cbr-p002492",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "司馬尚",
+          "kind": "person",
+          "person_id": "cbr-p002492",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "趙怱",
+          "kind": "person",
+          "person_id": "cbr-p002493",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "齊將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "顏聚",
+          "kind": "person",
+          "person_id": "cbr-p002494",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "趙怱",
+          "kind": "person",
+          "person_id": "cbr-p002493",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "顏聚",
+          "kind": "person",
+          "person_id": "cbr-p002494",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m119-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "王遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p120",
       "text": "八年十月，邯鄲爲秦。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": []
     },
     {
       "id": "c-shiji-043-zhao:p121",
       "text": "太史公曰：吾聞馮王孫曰：「趙王遷，其母倡也，嬖於悼襄王。悼襄王廢適子嘉而立遷。遷素無行，信讒，故誅其良將李牧，用郭開。」豈不繆哉！秦旣虜遷，趙之亡大夫共立嘉爲王，王代六歳，秦進兵破嘉，遂滅趙以爲郡。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m121-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "person",
+          "person_id": "cbr-p002495",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "馮王孫",
+          "kind": "person",
+          "person_id": "cbr-p002496",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "趙王遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "其母",
+          "kind": "person",
+          "person_id": "cbr-p002497",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0019",
+          "start": 19,
+          "end": 20,
+          "surface": "倡",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "悼襄王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "悼襄王",
+          "kind": "person",
+          "person_id": "cbr-p002480",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "適子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0034",
+          "start": 34,
+          "end": 35,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "cbr-p002498",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0039",
+          "start": 39,
+          "end": 40,
+          "surface": "遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "李牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "郭開",
+          "kind": "person",
+          "person_id": "cbr-p002499",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0070",
+          "start": 70,
+          "end": 75,
+          "surface": "趙之亡大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0077",
+          "start": 77,
+          "end": 78,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "cbr-p002498",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m121-0090",
+          "start": 90,
+          "end": 91,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "cbr-p002498",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-043-zhao:p122",
       "text": "趙氏之系，與秦同祖。周穆平徐，乃封造父。帶始事晉，夙初有土。岸賈矯誅，韓厥立武。寶符臨代，卒居伯魯。簡夢翟犬，靈歌處女。胡服雖強，建立非所。頗、牧不用，王遷囚虜。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "witness_appended_suoyin_zan",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-043-zhao:m122-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "趙氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "周穆",
+          "kind": "person",
+          "person_id": "cbr-p002240",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "造父",
+          "kind": "person",
+          "person_id": "cbr-p002239",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "帶",
+          "kind": "person",
+          "person_id": "cbr-p002245",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0025",
+          "start": 25,
+          "end": 26,
+          "surface": "夙",
+          "kind": "person",
+          "person_id": "cbr-p002248",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "岸賈",
+          "kind": "person",
+          "person_id": "cbr-p002273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "韓厥",
+          "kind": "person",
+          "person_id": "cbr-p002275",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0038",
+          "start": 38,
+          "end": 39,
+          "surface": "武",
+          "kind": "person",
+          "person_id": "cbr-p002278",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "伯魯",
+          "kind": "person",
+          "person_id": "cbr-p002308",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0050",
+          "start": 50,
+          "end": 51,
+          "surface": "簡",
+          "kind": "person",
+          "person_id": "cbr-p002292",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0055",
+          "start": 55,
+          "end": 56,
+          "surface": "靈",
+          "kind": "person",
+          "person_id": "cbr-p002380",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "處女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、職稱與匿名詞保留；未名者不補熟知姓名。述贊省稱限本篇對讀，不另增加事件或闕代。"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0070",
+          "start": 70,
+          "end": 71,
+          "surface": "頗",
+          "kind": "person",
+          "person_id": "cbr-p002439",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0072",
+          "start": 72,
+          "end": 73,
+          "surface": "牧",
+          "kind": "person",
+          "person_id": "cbr-p002481",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-043-zhao:m122-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "王遷",
+          "kind": "person",
+          "person_id": "cbr-p002490",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }
