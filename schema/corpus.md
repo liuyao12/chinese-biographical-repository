@@ -47,3 +47,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `next_number` 是單調遞增的 ID 分配游標，允許保留草稿已分配但尚未公開的號碼；不可為消除空號而重編既有 ID。稱號時段另待與 `data/name-history.json` 協調，本批不發布尚未整合的稱號草稿。
 
 以 `python3 scripts/render_corpus.py` 重建 XML；`--check` 只檢查同步，不改檔。JSON 是編輯來源。
+
+## 人物區分與敘事性
+
+`003-distinctions.json` 的 `person_distinction_set` 記錄容易因同字而錯併的不同人物；每項有不同的 `person_ids`、判斷狀態、理由與逐段原文證據。區分判斷可覆核，不能用它反向合併同名者。驗證器要求各端點有來源段落，且端點不得重複。
+
+人物登記的 `historicity: historical_tradition` 只表示來自歷史敘事，不表示身份、生平或世系已獨立確證；商代王名與譜系須另與出土材料及專門研究對讀。`legendary_tradition` 仍保存來源敘事的傳說性。兩者都不替代每項主張的證據與審閱狀態。

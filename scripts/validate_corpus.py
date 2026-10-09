@@ -118,6 +118,25 @@ def validate(root=ROOT):
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
                 if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
+        for path in (root/'corpus').glob('*/*-distinctions.json'):
+            d=json.loads(path.read_text(encoding='utf-8'))
+            check(d['record_type']=='person_distinction_set','人物區分集類型不符')
+            check(d['chapter_id'] in chapters,'人物區分集篇不存在')
+            for distinction in d['distinctions']:
+                check(distinction['id'] not in dids,'身份判斷 ID 重複');dids.add(distinction['id'])
+                ids=distinction['person_ids']
+                check(len(ids)>=2 and len(set(ids))==len(ids) and set(ids).issubset(pids),'人物區分端點無效或重複')
+                check(distinction['status'] in ('contextual_provisional','source_explicit'),'人物區分狀態無效')
+                check(bool(distinction['evidence']) and bool(distinction['rationale']),'人物區分無證據或理由')
+                supported=set();own=False
+                for e in distinction['evidence']:
+                    hit=paragraphs.get(e['paragraph_id'])
+                    check(bool(hit) and e['quote'] in hit[1]['text'],'人物區分引句不在正文')
+                    if hit:
+                        own=own or hit[0]==d['chapter_id']
+                        supported.update(m['person_id'] for m in hit[1]['mentions'] if m['person_id'] in ids)
+                check(own,'人物區分未包含所屬篇證據')
+                check(set(ids).issubset(supported),'人物區分未有各端點證據')
         aids=set()
         for path in (root/'corpus').glob('*/*-assertions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
