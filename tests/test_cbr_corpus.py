@@ -82,11 +82,12 @@ class CorpusTests(unittest.TestCase):
             self.assertFalse(any(m['kind']=='person' and m['start']==start for m in p['mentions']))
 
     def test_partial_chapter_cannot_claim_first_pass(self):
-        self.change('corpus/shiji/004.json',lambda d:d['annotation'].update(status='named_mentions_first_pass'))
+        self.change('corpus/shiji/004.json',lambda d:d['paragraphs'][-1].update(annotation_status='pending',mentions=[]))
         self.assertTrue(any('不得宣稱首輪完成' in e for e in v.validate(self.root)))
     def test_partial_progress_cannot_skip_pending_paragraphs(self):
         def mutate(d):
             next(b for b in d['books'] if b['book_id']=='b-shiji-004')['person_status']='named_mentions_first_pass'
+        self.change('corpus/shiji/004.json',lambda d:d['paragraphs'][-1].update(annotation_status='pending',mentions=[]))
         self.change('corpus/progress.json',mutate)
         self.assertTrue(any('有待標註段落' in e for e in v.validate(self.root)))
     def test_zhou_qi_verb_is_not_a_person(self):
@@ -99,6 +100,21 @@ class CorpusTests(unittest.TestCase):
         d=json.loads((self.root/'corpus/shiji/004.json').read_text())
         m=next(m for m in d['paragraphs'][6]['mentions'] if m['surface']=='伯夷')
         self.assertNotEqual(m['person_id'],'cbr-p000047')
+
+    def test_unresolved_identity_rejects_unknown_candidate(self):
+        def mutate(d):d['annotation']['unresolved_identity_cases'][0]['candidate_person_ids'][0]='missing'
+        self.change('corpus/shiji/004.json',mutate)
+        self.assertTrue(any('候選人物無效' in e for e in v.validate(self.root)))
+    def test_unresolved_identity_requires_candidate_evidence(self):
+        def mutate(d):d['annotation']['unresolved_identity_cases'][0]['paragraph_ids']=['c-shiji-004-zhou:p083']
+        self.change('corpus/shiji/004.json',mutate)
+        self.assertTrue(any('各候選人物的段落證據' in e for e in v.validate(self.root)))
+    def test_zhou_succession_preserves_explicit_generations(self):
+        d=json.loads((self.root/'corpus/shiji/004-assertions.json').read_text())
+        claims={(a['subject_person_id'],a['predicate'],a['object_person_id']) for a in d['assertions']}
+        self.assertIn(('cbr-p000227','father','cbr-p000226'),claims)
+        self.assertIn(('cbr-p000227','grandfather','cbr-p000222'),claims)
+        self.assertNotIn(('cbr-p000227','father','cbr-p000222'),claims)
 
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
