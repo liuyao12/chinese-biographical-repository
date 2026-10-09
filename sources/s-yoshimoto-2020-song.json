@@ -1,0 +1,80 @@
+{
+  "schema_version": "0.1",
+  "record_type": "source",
+  "id": "s-yoshimoto-2020-song",
+  "title": "春秋人表考證",
+  "authors": [
+    "吉本道雅"
+  ],
+  "genre": "modern_scholarship",
+  "historical_scope": "春秋宋國成公／襄公人表倒置、平公世系及景公名異文",
+  "bibliography": {
+    "work": "春秋人表考證",
+    "locator": "《京都大學文學部研究紀要》第59號，頁1–96；本次核讀第6頁（PDF頁6），第（7）宋國段。",
+    "publication_date": "2020-03-02",
+    "edition_statement": "日文出版者版本；書目日期據京都大學典藏dc.date.issued，不以入庫、爬取或搜尋顯示日期替代。僅存代理撰寫繁體摘要，不轉錄論文全文。 本次讀取出版者PDF的SHA-256：f5425b76089632e5d312afdc63c4025e3c56c5e548d0f462231af3475fa0625e。"
+  },
+  "witness": {
+    "kind": "institutional_article",
+    "provider": "京都大學學術資訊典藏KURENAI",
+    "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+    "permalink": "https://hdl.handle.net/2433/251008",
+    "accessed_on": "2026-10-09",
+    "verified_against": "校方REST書目及出版者PDF第6頁；校方TEXT衍生文字與PDF頁面互核。",
+    "image_verified": true
+  },
+  "images": [
+    {
+      "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+      "provider": "京都大學學術資訊典藏KURENAI",
+      "exact_page": "論文第6頁／PDF第6頁",
+      "image_verified": true,
+      "note": "現代論文指定頁的數位PDF，非古籍底本、出土文字或拓片；僅外部連結，不提交PDF及呈現影像。"
+    }
+  ],
+  "text": {
+    "language": "zh-Hant",
+    "script_policy": "traditional",
+    "extent": "short_excerpt_and_summary",
+    "transcription_method": "自行撰寫繁體摘要；不複製現代論文全文，依指定頁面核對具體主張。",
+    "normalization": {
+      "character_conversion": "none",
+      "whitespace": "none",
+      "punctuation": "代理摘要，非原文標點"
+    },
+    "segments": [
+      {
+        "id": "s-yoshimoto-2020-song:p001",
+        "locator": "論文第6頁（PDF第6頁），第（7）宋國段。",
+        "text": "代理摘要：吉本道雅認為《漢書》古今人表一處宋襄公與成公的父子記錄倒置，又指出平公相對共公的世系可能因脫訛而不同；他並列《史記》景公頭曼、人表兜欒與《左傳》、鐘銘的異名。這些判斷限具體條目，尚須獨立核對各古籍與器銘，不因此全域排名或按異字自動合併。",
+        "uncertain_readings": []
+      }
+    ],
+    "sha256": "0f9e07a936ac2458096358552d43cc08c7ecc6ec35a91c082343e03c3f9fe945"
+  },
+  "rights": {
+    "underlying_work": "現代著作；未取得全文轉載授權",
+    "digital_witness": "僅短引文／自行撰寫摘要與來源連結",
+    "images": "僅連結；未複製或重新授權"
+  },
+  "quality": {
+    "status": "text_checked",
+    "historical_truth": "現代學者之具體意見，不等同學界共識",
+    "limitations": [
+      "只核讀第6頁宋國段及校方書目，不稱完整論文覆核、最新研究或學界共識。",
+      "作者對人表成公／襄公倒置作確定判斷，對平公記錄的破損只作可能解釋；兩種確定程度不能抹平。",
+      "尚未獨立核讀所引漢書人表、左傳、宋公器銘；本數位見證另讀平公戌，其校註也未核，不以本摘要校定成／戌。",
+      "未據摘要改宋成公、平公或景公的ID、親屬主張及稱號時段；景公異名的罕見字尚待古籍和銘文圖像核讀，不推測替換。",
+      "與s-yoshimoto-2020-chen及s-yoshimoto-2020-wei是同一論文的不同查閱段落，不得算成獨立學術互證。",
+      "PDF核讀只適用現代論文頁面，史記數位正文仍未與古籍底本影像核對。"
+    ]
+  },
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-09",
+    "method": "核校方書目及出版者PDF第6頁，以校方TEXT衍生文字互核；保存作者對宋國具體世系及名異文的繁體摘要，古籍引文及器銘待獨立核讀，不作資料重指。"
+  }
+}
