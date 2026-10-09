@@ -53,6 +53,34 @@ class CorpusTests(unittest.TestCase):
         start=paragraph['text'].index('作胤征')+1
         self.assertFalse(any(m['kind']=='person' and m['start']==start for m in paragraph['mentions']))
 
+    def test_yin_same_title_keeps_distinct_people(self):
+        d=json.loads((self.root/'corpus/shiji/003.json').read_text())
+        def people_at(n,surface):
+            return {m['person_id'] for m in d['paragraphs'][n-1]['mentions'] if m['surface']==surface}
+        self.assertTrue(people_at(7,'武王').isdisjoint(people_at(30,'武王')))
+        self.assertTrue(people_at(11,'太丁').isdisjoint(people_at(26,'帝太丁')))
+        self.assertEqual(len(people_at(7,'武王')),1)
+        self.assertEqual(len(people_at(30,'武王')),1)
+    def test_distinction_rejects_same_person_twice(self):
+        def mutate(d):
+            ids=d['distinctions'][0]['person_ids'];ids[1]=ids[0]
+        self.change('corpus/shiji/003-distinctions.json',mutate)
+        self.assertTrue(any('區分端點無效' in e for e in v.validate(self.root)))
+    def test_distinction_needs_each_person_evidence(self):
+        self.change('corpus/shiji/003-distinctions.json',lambda d:d['distinctions'][0].update(evidence=d['distinctions'][0]['evidence'][:1]))
+        self.assertTrue(any('各端點證據' in e for e in v.validate(self.root)))
+    def test_yin_book_title_is_not_person_occurrence(self):
+        d=json.loads((self.root/'corpus/shiji/003.json').read_text())
+        for n,term in [(4,'作湯征'),(5,'作女鳩女房'),(17,'仲丁書'),(20,'作盤庚'),(23,'高宗肜日')]:
+            p=d['paragraphs'][n-1];start=p['text'].index(term);end=start+len(term)
+            self.assertFalse(any(m['kind']=='person' and start<=m['start']<end for m in p['mentions']))
+        self.assertTrue(any(m['kind']=='person' and m['start']==0 for m in d['paragraphs'][3]['mentions']))
+    def test_yin_verb_yi_is_not_an_unrelated_person(self):
+        d=json.loads((self.root/'corpus/shiji/003.json').read_text())
+        for n,term in [(28,'益收'),(28,'益廣'),(29,'益疏')]:
+            p=d['paragraphs'][n-1];start=p['text'].index(term)
+            self.assertFalse(any(m['kind']=='person' and m['start']==start for m in p['mentions']))
+
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
         for p in d['paragraphs']:

@@ -1,0 +1,67 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_distinction_set",
+  "chapter_id": "c-shiji-003-yin",
+  "distinctions": [
+    {
+      "id": "d-shiji003-distinct-001",
+      "person_ids": [
+        "cbr-p000101",
+        "cbr-p000133"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p011",
+          "quote": "太子太丁未立而卒"
+        },
+        {
+          "paragraph_id": "c-shiji-003-yin:p026",
+          "quote": "武乙震死。子帝太丁立"
+        }
+      ],
+      "rationale": "同一篇在相隔多代的不同父系語境提及太丁，兩者分配不同 ID。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji003-distinct-002",
+      "person_ids": [
+        "cbr-p000077",
+        "cbr-p000150"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p007",
+          "quote": "於是湯曰：「吾甚武」，號曰武王"
+        },
+        {
+          "paragraph_id": "c-shiji-003-yin:p031",
+          "quote": "周武王於是遂率諸侯伐紂"
+        }
+      ],
+      "rationale": "武王是兩個不同時期的用稱，不作字面合併。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji003-distinct-003",
+      "person_ids": [
+        "cbr-p000059",
+        "cbr-p000135"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-002-xia:p029",
+          "quote": "夏后帝啓，禹之子"
+        },
+        {
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "quote": "帝乙長子曰微子啓"
+        }
+      ],
+      "rationale": "夏啓與帝乙之子微子啓處於不同世系，單字啓不能全域識別人物。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ]
+}
