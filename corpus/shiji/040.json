@@ -31,7 +31,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全97段已核讀；已有部分君主、臣下、未名個人及群體錨點，全部段落仍未完成人物與短稱覆核。",
+    "coverage": "全97段已核讀；第1至25段明示人名首輪重讀補標，其餘段仍在補核；匿名、代詞、身份與版本覆核尚未完成。",
     "limitations": [
       "神話祖系、氏族／個人稱呼、祝融任事異稱及繼位敘事須逐項覆核。",
       "熊渠生子三年等疑句保留，不以模型記憶補改。",
@@ -45,7 +45,7 @@
     {
       "id": "c-shiji-040-chu:p001",
       "text": "楚之先祖出自帝顓頊髙陽。髙陽者，黃帝之孫，昌意之子也。髙陽生稱，稱生巻章，巻章生重黎。重黎爲帝嚳髙辛居火正，甚有功，能光融天下，帝嚳命曰祝融。共工氏作亂，帝嚳使重黎誅之而不盡。帝乃以庚寅日誅重黎，而以其弟呉回爲重黎後，復居火正，爲祝融。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -194,6 +194,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m001-0088",
+          "start": 88,
+          "end": 89,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000015",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m001-0095",
           "start": 95,
           "end": 97,
@@ -225,7 +234,7 @@
     {
       "id": "c-shiji-040-chu:p002",
       "text": "呉回生陸終。陸終生子六人，坼剖而産焉。其長一曰昆吾；二曰參胡；三曰彭祖；四曰會人；五曰曹姓；六曰季連，羋姓，楚其後也。昆吾氏，夏之時嘗爲侯伯，桀之時湯滅之。彭祖氏，殷之時嘗爲侯伯，殷之末世滅彭祖氏。季連生附沮，附沮生穴熊。其後中微，或在中國，或在蠻夷，弗能紀其世。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -398,7 +407,7 @@
     {
       "id": "c-shiji-040-chu:p003",
       "text": "周文王之時，季連之苗裔曰鬻熊。鬻熊子事文王，蚤卒。其子曰熊麗。熊麗生熊狂，熊狂生熊繹。熊繹當周成王之時，舉文、武勤勞之後嗣，而封熊繹於楚蠻，封以子男之田，姓羋氏，居丹陽。楚子熊繹與魯公伯禽、衞康叔子牟、晉侯燮、齊太公子呂伋倶事成王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -510,6 +519,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m003-0053",
+          "start": 53,
+          "end": 54,
+          "surface": "文",
+          "kind": "person",
+          "person_id": "cbr-p000139",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m003-0055",
+          "start": 55,
+          "end": 56,
+          "surface": "武",
+          "kind": "person",
+          "person_id": "cbr-p000150",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m003-0064",
           "start": 64,
           "end": 66,
@@ -578,7 +605,7 @@
     {
       "id": "c-shiji-040-chu:p004",
       "text": "熊繹生熊艾，熊艾生熊亶，熊亶生熊勝。熊勝以弟熊楊爲後。熊楊生熊渠。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -676,7 +703,7 @@
     {
       "id": "c-shiji-040-chu:p005",
       "text": "熊渠生子三年。當周夷王之時，王室微，諸侯或不朝，相伐。熊渠甚得江漢閒民和，乃興兵伐庸、楊蠆，至于鄂。熊渠曰：「我蠻夷也，不與中國之號諡。」乃立其長子康爲句亶王，中子紅爲鄂王，少子執疵爲越章王，皆在江上楚蠻之地。及周厲王之時，暴虐，熊渠畏其伐楚，亦去其王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -705,6 +732,16 @@
           "kind": "person",
           "person_id": "cbr-p001862",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m005-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "楊蠆",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "伐庸、楊蠆的對象名稱尚待地名／人名與版本核對，不補人物。"
         },
         {
           "id": "c-shiji-040-chu:m005-0050",
@@ -792,7 +829,7 @@
     {
       "id": "c-shiji-040-chu:p006",
       "text": "後爲熊毋康，毋康蚤死。熊渠卒，子熊摯紅立。摯紅卒，其弟弒而代立，曰熊延。熊延生熊勇。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -872,7 +909,7 @@
     {
       "id": "c-shiji-040-chu:p007",
       "text": "熊勇六年，而周人作亂，攻厲王，厲王出奔彘。熊勇十年，卒，弟熊嚴爲後。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -925,7 +962,7 @@
     {
       "id": "c-shiji-040-chu:p008",
       "text": "熊嚴十年，卒。有子四人，長子伯霜，中子仲雪，次子叔堪，少子季徇。熊嚴卒，長子伯霜代立，是爲熊霜。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1005,7 +1042,7 @@
     {
       "id": "c-shiji-040-chu:p009",
       "text": "熊霜元年，周宣王初立。熊霜六年，卒，三弟爭立。仲雪死；叔堪亡，避難於濮；而少弟季徇立，是爲熊徇。熊徇十六年，鄭桓公初封於鄭。二十二年，熊徇卒，子熊咢立。熊咢九年，卒，子熊儀立，是爲若敖。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1139,7 +1176,7 @@
     {
       "id": "c-shiji-040-chu:p010",
       "text": "若敖二十年，周幽王爲犬戎所弒，周東徙，而秦襄公始列爲諸侯。二十七年，若敖卒，子熊坎立，是爲霄敖。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1201,7 +1238,7 @@
     {
       "id": "c-shiji-040-chu:p011",
       "text": "霄敖六年，卒，子熊眴立，是爲蚡冒。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1236,7 +1273,7 @@
     {
       "id": "c-shiji-040-chu:p012",
       "text": "蚡冒十三年，晉始亂，以曲沃之故。蚡冒十七年，卒。蚡冒弟熊通弒蚡冒子而代立，是爲楚武王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1307,7 +1344,7 @@
     {
       "id": "c-shiji-040-chu:p013",
       "text": "武王十七年，晉之曲沃莊伯弒主國晉孝侯。十九年，鄭伯弟段作亂。二十一年，鄭侵天子之田。二十三年，衞弒其君桓公。二十九年，魯弒其君隱公。三十一年，宋太宰華督弒其君殤公。三十五年，楚伐隨。隨曰：「我無罪。」楚曰：「我蠻夷也。今諸侯皆爲叛相侵，或相殺。我有敝甲，欲以觀中國之政，請王室尊吾號。」隨人爲之周，請尊楚，王室不聽，還報楚。三十七年，楚熊通怒曰：「吾先鬻熊，文王之師也，蚤終。成王舉我先公，乃以子男田令居楚，蠻夷皆率服，而王不加位，我自尊耳。」乃自立爲武王，與隨人盟而去。於是始開濮地而有之。五十一年，周召隨侯，數以立楚爲王。楚怒，以隨背己，伐隨。武王卒師中而兵罷。子文王熊貲立，始都郢。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1336,6 +1373,16 @@
           "kind": "person",
           "person_id": "cbr-p001997",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m013-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "鄭伯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "段之兄鄭伯的國君稱尚待與他篇事件核對，不由常見世系補姓名。"
         },
         {
           "id": "c-shiji-040-chu:m013-0025",
@@ -1392,6 +1439,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m013-0176",
+          "start": 176,
+          "end": 178,
+          "surface": "鬻熊",
+          "kind": "person",
+          "person_id": "cbr-p001854",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m013-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "文王",
+          "kind": "person",
+          "person_id": "cbr-p000139",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m013-0188",
           "start": 188,
           "end": 190,
@@ -1441,7 +1506,7 @@
     {
       "id": "c-shiji-040-chu:p014",
       "text": "文王二年，伐申過鄧，鄧人曰「楚王易取」，鄧侯不許也。六年，伐蔡，虜蔡哀侯以歸，已而釋之。楚彊，陵江漢閒小國，小國皆畏之。十一年，齊桓公始霸，楚亦始大。十二年，伐鄧，滅之。十三年，卒，子熊艱立，是爲莊敖。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1449,6 +1514,15 @@
           "start": 0,
           "end": 2,
           "surface": "文王",
+          "kind": "person",
+          "person_id": "cbr-p001880",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m014-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "楚王",
           "kind": "person",
           "person_id": "cbr-p001880",
           "status": "contextual_provisional"
@@ -1503,7 +1577,7 @@
     {
       "id": "c-shiji-040-chu:p015",
       "text": "莊敖五年，欲殺其弟熊惲，惲奔隨，與隨襲弒莊敖代立，是爲成王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1556,7 +1630,7 @@
     {
       "id": "c-shiji-040-chu:p016",
       "text": "成王惲元年，初卽位，布德施惠，結舊好於諸侯。使人獻天子，天子賜胙，曰：「鎭爾南方夷越之亂，無侵中國。」於是楚地千里。十六年，齊桓公以兵侵楚，至陘山。楚成王使將軍屈完以兵御之，與桓公盟。桓公數以周之賦不入王室，楚許之，乃去。十八年，成王以兵北伐許，許君肉袒謝，乃釋之。二十二年，伐黃。二十六年，滅英。三十三年，宋襄公欲爲盟會，召楚。楚王怒曰：「召我，我將好往襲辱之。」遂行，至盂，遂執辱宋公，已而歸之。三十四年，鄭文公南朝楚。楚成王北伐宋，敗之泓，射傷宋襄公，襄公遂病創死。三十五年，晉公子重耳過楚，成王以諸侯客禮饗，而厚送之於秦。三十九年，魯僖公來請兵以伐齊，楚使申侯將兵伐齊，取穀，置齊桓公子雍焉。齊桓公七子皆奔楚，楚盡以爲上大夫。滅夔，夔不祀祝融、鬻熊故也。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1567,6 +1641,26 @@
           "kind": "person",
           "person_id": "cbr-p001882",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-040-chu:m016-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "天子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "獻天子、天子賜胙的周王稱尚待核明任時身份，不按推算紀年補名。"
+        },
+        {
+          "id": "c-shiji-040-chu:m016-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "天子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "同段賜胙的天子稱與前句相應，身份仍未定。"
         },
         {
           "id": "c-shiji-040-chu:m016-0062",
@@ -1782,7 +1876,7 @@
     {
       "id": "c-shiji-040-chu:p017",
       "text": "夏，伐宋，宋告急於晉，晉救宋，成王罷歸。將軍子玉請戰，成王曰：「重耳亡居外久，卒得反國，天之所開，不可當。」子玉固請，乃與之少師而去。晉果敗子玉於城濮。成王怒，誅子玉。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -1862,7 +1956,7 @@
     {
       "id": "c-shiji-040-chu:p018",
       "text": "四十六年，初，成王將以商臣爲太子，語令尹子上。子上曰：「君之齒未也，而又多内寵，絀乃亂也。楚國之舉常在少者。且商臣蜂目而豺聲，忍人也，不可立也。」王不聽，立之。後又欲立子職而絀太子商臣。商臣聞而未審也，告其傅潘崇曰：「何以得其實？」崇曰：「饗王之寵姬江羋而勿敬也。」商臣從之。江羋怒曰：「宜乎王之欲殺若而立職也。」商臣告潘崇曰：「信矣。」崇曰：「能事之乎？」曰：「不能。」「能亡去乎？」曰：「不能。」「能行大事乎？」曰：「能。」冬十月，商臣以宮衞兵圍成王。成王請食熊蹯而死，不聽。丁未，成王自絞殺。商臣代立，是爲穆王。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2104,7 +2198,7 @@
     {
       "id": "c-shiji-040-chu:p019",
       "text": "穆王立，以其太子宮予潘崇，使爲太師，掌國事。穆王三年，滅江。四年，滅六、蓼。六、蓼，皋陶之後。八年，伐陳。十二年，卒。子莊王侶立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2135,6 +2229,25 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m019-0038",
+          "start": 38,
+          "end": 41,
+          "surface": "六、蓼",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "皋陶後裔的國／群體稱，未補未見個人成員；後裔不作直接父子。"
+        },
+        {
+          "id": "c-shiji-040-chu:m019-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "皋陶",
+          "kind": "person",
+          "person_id": "cbr-p000044",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m019-0060",
           "start": 60,
           "end": 63,
@@ -2148,7 +2261,7 @@
     {
       "id": "c-shiji-040-chu:p020",
       "text": "莊王卽位三年，不出號令，日夜爲樂，令國中曰：「有敢諫者死無赦！」伍舉入諫。莊王左抱鄭姬，右抱越女，坐鐘鼓之閒。伍舉曰：「願有進隱。」曰：「有鳥在於阜，三年不蜚不鳴，是何鳥也？」莊王曰：「三年不蜚，蜚將沖天；三年不鳴，鳴將驚人。舉退矣，吾知之矣。」居數月，淫益甚。大夫蘇從乃入諫。王曰：「若不聞令乎？」對曰：「殺身以明君，臣之願也。」於是乃罷淫樂，聽政，所誅者數百人，所進者數百人，任伍舉、蘇從以政，國人大説。是歳滅庸。六年，伐宋，獲五百乘。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2233,6 +2346,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-040-chu:m020-0139",
+          "start": 139,
+          "end": 140,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "cbr-p001885",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-040-chu:m020-0191",
           "start": 191,
           "end": 193,
@@ -2255,7 +2377,7 @@
     {
       "id": "c-shiji-040-chu:p021",
       "text": "八年，伐陸渾戎，遂至洛，觀兵於周郊。周定王使王孫滿勞楚王。楚王問鼎小大輕重，對曰：「在德不在鼎。」莊王曰：「子無阻九鼎！楚國折鉤之喙，足以爲九鼎。」王孫滿曰：「嗚呼！君王其忘之乎？昔虞夏之盛，遠方皆至，貢金九牧，鑄鼎象物，百物而爲之備，使民知神姦。桀有亂德，鼎遷於殷，載祀六百。殷紂暴虐，鼎遷於周。德之休明，雖小必重；其姦回昏亂，雖大必輕。昔成王定鼎于郟鄏，卜世三十，卜年七百，天所命也。周德雖衰，天命未改。鼎之輕重，未可問也。」楚王乃歸。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2353,7 +2475,7 @@
     {
       "id": "c-shiji-040-chu:p022",
       "text": "九年，相若敖氏。人或讒之王，恐誅，反攻王，王撃滅若敖氏之族。十三年，滅舒。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2408,7 +2530,7 @@
     {
       "id": "c-shiji-040-chu:p023",
       "text": "十六年，伐陳，殺夏徴舒。徴舒弒其君，故誅之也。已破陳，卽縣之。群臣皆賀，申叔時使齊來，不賀。王問，對曰：「鄙語曰，牽牛徑人田，田主取其牛。徑者則不直矣，取之牛不亦甚乎？且王以陳之亂而率諸侯伐之，以義伐之而貪其縣，亦何以復令於天下！」莊王乃復國陳後。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2461,7 +2583,7 @@
     {
       "id": "c-shiji-040-chu:p024",
       "text": "十七年春，楚莊王圍鄭，三月克之。入自皇門，鄭伯肉袒牽羊以逆，曰：「孤不天，不能事君，君用懷怒，以及敝邑，孤之罪也。敢不惟命是聽！賓之南海，若以臣妾賜諸侯，亦惟命是聽。若君不忘厲、宣、桓、武，不絶其社稷，使改事君，孤之願也，非所敢望也。敢布腹心。」楚群臣曰：「王勿許。」莊王曰：「其君能下人，必能信用其民，庸可絶乎！」莊王自手旗，左右麾軍，引兵去三十里而舍，遂許之平。潘尪入盟，子良出質。夏六月，晉救鄭，與楚戰，大敗晉師河上，遂至衡雍而歸。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
         {
@@ -2542,9 +2664,19 @@
     {
       "id": "c-shiji-040-chu:p025",
       "text": "二十年，圍宋，以殺楚使也。圍宋五月，城中食盡，易子而食，析骨而炊。宋華元出告以情。莊王曰：「君子哉！」遂罷兵去。二十三年，莊王卒，子共王審立。",
-      "annotation_status": "in_progress",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-040-chu:m025-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "楚使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "因殺楚使而圍宋的未名使者，待與宋篇核對，不補姓名。"
+        },
         {
           "id": "c-shiji-040-chu:m025-0033",
           "start": 33,
