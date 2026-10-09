@@ -145,6 +145,36 @@ class CorpusTests(unittest.TestCase):
         self.assertEqual(title['person_id'],name['person_id'])
         self.assertEqual(title['kind'],'person')
 
+    def test_appended_note_layer_survives_xml(self):
+        c=json.loads((self.root/'corpus/shiji/006.json').read_text())
+        self.assertEqual(next(p for p in c['paragraphs'] if p['id']=='c-shiji-006-shihuang:p106')['text_layer'],'received_chapter')
+        self.assertEqual(next(p for p in c['paragraphs'] if p['id']=='c-shiji-006-shihuang:p107')['text_layer'],'witness_appended_bangu_note')
+        p=self.root/'corpus/shiji/006.xml'
+        p.write_text(p.read_text().replace('text-layer="witness_appended_bangu_note"','text-layer="received_chapter"',1))
+        self.assertTrue(any('文字層次不符' in e for e in v.validate(self.root)))
+
+    def test_shihuang_dd_quotes_preserve_order_and_xml_text(self):
+        c=json.loads((self.root/'corpus/shiji/006.json').read_text())
+        ids=[p['id'] for p in c['paragraphs']]
+        self.assertEqual(sum(p.get('source_block_kind')=='witness_dd' for p in c['paragraphs']),16)
+        self.assertLess(ids.index('c-shiji-006-shihuang:p029'),ids.index('c-shiji-006-shihuang:p029:block01'))
+        self.assertLess(ids.index('c-shiji-006-shihuang:p029:block01'),ids.index('c-shiji-006-shihuang:p030'))
+        p=next(p for p in c['paragraphs'] if p['id']=='c-shiji-006-shihuang:p029:block01')
+        self.assertTrue(p['text'].startswith('維二十八年，皇帝作始'))
+        self.assertEqual(v.validate(self.root),[])
+
+    def test_shihuang_conflicting_genealogy_claims_are_preserved(self):
+        c=json.loads((self.root/'corpus/shiji/006.json').read_text())
+        by={p['id']:p for p in c['paragraphs']}
+        p=by['c-shiji-006-shihuang:p085']
+        person=next(m['person_id'] for m in p['mentions'] if m['surface']=='靈公')
+        claims=json.loads((self.root/'corpus/shiji/006-assertions.json').read_text())['assertions']
+        selected=[a for a in claims if a['subject_person_id']==person and a['predicate']=='father' and a['evidence'][0]['paragraph_id'] in ('c-shiji-006-shihuang:p085','c-shiji-006-shihuang:p086')]
+        self.assertEqual(len(selected),2)
+        self.assertEqual(len({a['object_person_id'] for a in selected}),2)
+        self.assertTrue(any('生靈公' in a['evidence'][0]['quote'] for a in selected))
+        self.assertTrue(any('昭子子也' in a['evidence'][0]['quote'] for a in selected))
+
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
         for p in d['paragraphs']:

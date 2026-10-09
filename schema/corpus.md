@@ -63,3 +63,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 姊妹關係
 
 來源親屬主張可用 `sister` 表示主體為客體的姊或妹；`qualifiers.source_term` 保留「姊」「女弟」等原詞。與 `brother` 一樣，不單據兄弟姊妹稱呼推定同父同母，不補原文未見姓名。
+
+## 數位見證附載文字
+
+有分層需要時，段落保存 `text_layer`，XML 同步 `text-layer`。`received_chapter` 為本篇所錄傳世文本；`witness_appended_bangu_note` 表示數位見證附載的班固記，不能冒稱司馬遷原文。保留原有次序與引用錨點；分層判斷仍需版本核查，不據此宣稱已校定作者或年代。

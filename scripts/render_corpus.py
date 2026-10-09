@@ -32,6 +32,7 @@ def render(chapter):
             end = stop
         fragments.append(escape(text[end:]))
         status = f' annotation-status="{escape(paragraph["annotation_status"])}"' if 'annotation_status' in paragraph else ''
+        if 'text_layer' in paragraph: status += f' text-layer="{escape(paragraph["text_layer"])}"'
         lines.append(f'  <p id="{escape(paragraph["id"])}"{status}>'+''.join(fragments)+'</p>')
     return '\n'.join(lines+['</text>'])+'\n'
 
