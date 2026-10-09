@@ -81,6 +81,25 @@ class CorpusTests(unittest.TestCase):
             p=d['paragraphs'][n-1];start=p['text'].index(term)
             self.assertFalse(any(m['kind']=='person' and m['start']==start for m in p['mentions']))
 
+    def test_partial_chapter_cannot_claim_first_pass(self):
+        self.change('corpus/shiji/004.json',lambda d:d['annotation'].update(status='named_mentions_first_pass'))
+        self.assertTrue(any('不得宣稱首輪完成' in e for e in v.validate(self.root)))
+    def test_partial_progress_cannot_skip_pending_paragraphs(self):
+        def mutate(d):
+            next(b for b in d['books'] if b['book_id']=='b-shiji-004')['person_status']='named_mentions_first_pass'
+        self.change('corpus/progress.json',mutate)
+        self.assertTrue(any('有待標註段落' in e for e in v.validate(self.root)))
+    def test_zhou_qi_verb_is_not_a_person(self):
+        d=json.loads((self.root/'corpus/shiji/004.json').read_text())
+        p=d['paragraphs'][0]
+        for term in ('棄之隘巷','棄渠中','初欲棄之'):
+            start=p['text'].index(term)+(2 if term=='初欲棄之' else 0)
+            self.assertFalse(any(m['kind']=='person' and m['start']==start for m in p['mentions']))
+    def test_zhou_boyi_is_distinct_from_shun_official(self):
+        d=json.loads((self.root/'corpus/shiji/004.json').read_text())
+        m=next(m for m in d['paragraphs'][6]['mentions'] if m['surface']=='伯夷')
+        self.assertNotEqual(m['person_id'],'cbr-p000047')
+
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
         for p in d['paragraphs']:

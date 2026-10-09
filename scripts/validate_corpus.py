@@ -64,6 +64,12 @@ def validate(root=ROOT):
                     if m['kind'] == 'person': check(m['person_id'] in pids, '提及引用未知人物 ID')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     else: check(False,'未知提及類型')
+            if any('annotation_status' in p for p in d['paragraphs']):
+                for p in d['paragraphs']:
+                    check(p.get('annotation_status') in ('pending','in_progress','named_mentions_first_pass','reviewed'),'段落標註狀態無效或缺失')
+                    if p.get('annotation_status')=='pending':check(not p['mentions'],'待標註段落不得混入已接受的提及')
+                if any(p.get('annotation_status') in ('pending','in_progress') for p in d['paragraphs']):
+                    check(d['annotation']['status']=='in_progress','篇仍有待標註段落，不得宣稱首輪完成')
             xml=ET.parse(path.with_suffix('.xml')).getroot()
             check(xml.tag=='text', 'XML 根元素不符')
             for attr,key in [('work-id','work_id'),('book-id','book_id'),('chapter-id','id'),('source-id','source_id')]:
@@ -72,6 +78,7 @@ def validate(root=ROOT):
             check(len(xp)==len(d['paragraphs']), 'XML 段落數不符')
             for x,p in zip(xp,d['paragraphs']):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
+                check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
@@ -158,6 +165,9 @@ def validate(root=ROOT):
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')
+            chapter=chapters.get(b['chapter_id'],{})
+            if any(p.get('annotation_status') in ('pending','in_progress') for p in chapter.get('paragraphs',[])):
+                check(b['person_status']=='in_progress' and not b['complete'],'有待標註段落的進度不得標為完成或首輪完成')
             if b['complete']: check(b['person_status']=='reviewed','初步標註不得宣稱完成')
     except (KeyError,ValueError,TypeError,OSError,ET.ParseError) as exc:
         errors.append(f'資料結構或 XML 無效：{exc}')
