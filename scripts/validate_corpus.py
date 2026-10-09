@@ -78,6 +78,7 @@ def validate(root=ROOT):
             check(len(xp)==len(d['paragraphs']), 'XML 段落數不符')
             for x,p in zip(xp,d['paragraphs']):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
+                check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
