@@ -59,3 +59,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 長卷可先錄全篇、再逐段標註。採用分段進度的卷篇，每段都有 `annotation_status`：`pending`、`in_progress`、`named_mentions_first_pass` 或 `reviewed`。`pending` 不混入已接受提及；尚有待處理段落時，篇及書目進度都須為 `in_progress`，不得宣稱首輪完成。下一工作位置留在同卷的具體段落，不因取得全文而移往下一卷。XML 的段落同步保存 `annotation-status`，只讀 XML 也能辨別尚未標註的段落。
 
 數位見證的現代校勘符號不當作古文。卷四的 `source.normalization.editorial_readings` 另存見證符號、正文採用的讀法與限制；有成對改讀時保存改讀前的字，不擅以改讀當定論，後續須核對底本及校勘來源。
+
+## 姊妹關係
+
+來源親屬主張可用 `sister` 表示主體為客體的姊或妹；`qualifiers.source_term` 保留「姊」「女弟」等原詞。與 `brother` 一樣，不單據兄弟姊妹稱呼推定同父同母，不補原文未見姓名。
