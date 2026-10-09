@@ -142,17 +142,37 @@
         "覆核匿名者、代詞、神祇稱呼、文本傳承與跨候選同指。",
         "補親屬主張及稱號有效時段，核讀影像、底本與現代研究。"
       ]
+    },
+    {
+      "book_id": "b-shiji-031",
+      "chapter_id": "c-shiji-031-wu",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "從第11段去魯遂使齊開始，尚有31段待標註。",
+        "核對世系、仲雍／虞仲候選、匿名者、版本與稱號時段。"
+      ]
     }
   ],
   "next_book": {
     "work_id": "w-shiji",
-    "number": 13,
-    "title": "三代世表第十三",
-    "status": "not_started",
-    "note": "表篇依優先次序可先跳過；尚未作永久排除。"
+    "number": 31,
+    "title": "吳太伯世家第一",
+    "status": "in_progress",
+    "next_paragraph_id": "c-shiji-031-wu:p011"
   },
   "legacy_sources": {
     "status": "migration_pending",
     "note": "sources/ 的十項唐代／現代研究記錄保留原格式；尚未全部補上穩定人物 ID 與行內標註，不計入新計畫完成量。"
-  }
+  },
+  "deferred_ranges": [
+    {
+      "work_id": "w-shiji",
+      "start_book_number": 13,
+      "end_book_number": 30,
+      "status": "deferred",
+      "reason": "依使用者指定，本紀、世家、列傳先行；表與書篇保留待整理，非永久排除其中人物。"
+    }
+  ]
 }
