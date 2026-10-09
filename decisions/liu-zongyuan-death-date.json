@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "record_type": "precedence_decision",
+  "id": "d-liu-zongyuan-death-date",
+  "status": "provisional",
+  "scope": {
+    "identity_group": "identity-liu-zongyuan",
+    "predicate": "death_date"
+  },
+  "candidates": [
+    "a-hanyu-liu-zongyuan-muzhiming-death-date",
+    "a-jiutangshu-160-liuzongyuan-death-date"
+  ],
+  "preferred_assertion_id": "a-hanyu-liu-zongyuan-muzhiming-death-date",
+  "alternative_assertion_ids": [
+    "a-jiutangshu-160-liuzongyuan-death-date"
+  ],
+  "supporting_assertion_ids": [
+    "a-yulixiong-xintangshu-letters-death-opinion"
+  ],
+  "rationale": "暫從已核閱的余歷雄論文首頁及註①所採墓誌讀法；《舊唐書》異讀保留。這是代理依據一位學者意見所作的可撤回選擇，不是學界共識。",
+  "limitations": [
+    "出版年與原印頁碼待核，不能據此稱為最新意見。",
+    "尚未對勘墓誌的不同傳本與石刻影像；須補查現代點校本、年譜及更近期考證。",
+    "《新唐書》只載卒年，不參與具體月日的勝負判斷。",
+    "不得將本決定擴大為墓誌永遠優先於正史。"
+  ],
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-08",
+    "method": "讀取固定版本的傳世文本，逐項核對原文引句；不以模型記憶補錄史料。"
+  }
+}

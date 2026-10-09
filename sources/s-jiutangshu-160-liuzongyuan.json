@@ -1,0 +1,75 @@
+{
+  "schema_version": "0.1",
+  "record_type": "source",
+  "id": "s-jiutangshu-160-liuzongyuan",
+  "title": "舊唐書卷一百六十・柳宗元傳",
+  "authors": [
+    "劉昫等"
+  ],
+  "genre": "dynastic_history",
+  "historical_scope": "唐代人物及其古代親屬",
+  "bibliography": {
+    "work": "《舊唐書》卷一百六十",
+    "locator": "《舊唐書》卷一百六十；〈柳宗元傳〉首段及末段",
+    "edition_statement": "維基文庫固定版本的數位轉錄；原刻本與標點來源尚待逐頁校勘。"
+  },
+  "witness": {
+    "kind": "digital_transcription",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/wiki/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7160",
+    "revision_id": 2689841,
+    "permalink": "https://zh.wikisource.org/w/index.php?oldid=2689841",
+    "accessed_on": "2026-10-08",
+    "verified_against": "固定版本數位文本",
+    "image_verified": false
+  },
+  "images": [],
+  "text": {
+    "language": "lzh-Hant",
+    "script_policy": "traditional",
+    "extent": "selected_passages",
+    "transcription_method": "自固定版本 HTML 的正文段落轉錄；排除介面、註號、樣式與現代校註；保留原文異體字及標點。",
+    "normalization": {
+      "character_conversion": "none",
+      "whitespace": "段落首尾空白移除；詩行保留換行",
+      "punctuation": "沿用數位見證的標點，並非原石標點"
+    },
+    "segments": [
+      {
+        "id": "s-jiutangshu-160-liuzongyuan:p001",
+        "locator": "《舊唐書》卷一百六十；〈柳宗元傳〉首段及末段；本次轉錄段落 1",
+        "text": "柳宗元，字子厚，河東人。後魏侍中濟陰公之系孫。曾伯祖奭，高祖朝宰相。父鎮，太常博士，終侍御史。宗元少聰警絕眾，尤精《西漢詩騷》。下筆構思，與古為侔。精裁密緻，燦若珠貝。當時流輩咸推之。登進士第，應舉宏辭，授校書郎、藍田尉。貞元十九年，為監察御史。",
+        "uncertain_readings": []
+      },
+      {
+        "id": "s-jiutangshu-160-liuzongyuan:p002",
+        "locator": "《舊唐書》卷一百六十；〈柳宗元傳〉首段及末段；本次轉錄段落 2",
+        "text": "元和十四年十月五日卒，時年四十七。子周六、周七，才三四歲。觀察使裴行立為營護其喪及妻子還於京師，時人義之。",
+        "uncertain_readings": []
+      }
+    ],
+    "sha256": "5a957195969225640f282b188ab5f5cf6433251b4656be5c1075861e1987eeca"
+  },
+  "rights": {
+    "underlying_work": "古代著作；公有領域",
+    "digital_witness": "CC-BY-SA-4.0；依維基文庫頁面聲明保留署名與來源",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "images": "僅連結；未複製或重新授權"
+  },
+  "quality": {
+    "status": "text_checked",
+    "historical_truth": "來源陳述，非全體事實已獲證實",
+    "limitations": [
+      "節錄首段及末段，並非全傳。",
+      "曾伯祖奭的仕宦年代與卒日按見證原文保留；不自動訂正。"
+    ]
+  },
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-08",
+    "method": "讀取固定版本的傳世文本，逐項核對原文引句；不以模型記憶補錄史料。"
+  }
+}

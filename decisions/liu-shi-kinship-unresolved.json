@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "record_type": "precedence_decision",
+  "id": "d-liu-shi-kinship",
+  "status": "unresolved",
+  "scope": {
+    "identity_group": "identity-liu-zongyuan",
+    "predicate": "collateral_ancestor"
+  },
+  "candidates": [
+    "a-hanyu-liu-zongyuan-muzhiming-collateral-shi",
+    "a-jiutangshu-160-liuzongyuan-collateral-shi",
+    "a-xintangshu-168-liuzongyuan-collateral-shi"
+  ],
+  "preferred_assertion_id": null,
+  "alternative_assertion_ids": [
+    "a-hanyu-liu-zongyuan-muzhiming-collateral-shi",
+    "a-jiutangshu-160-liuzongyuan-collateral-shi",
+    "a-xintangshu-168-liuzongyuan-collateral-shi"
+  ],
+  "supporting_assertion_ids": [
+    "a-liuzongyuan-liuzhen-shendaobiao-collateral-shi"
+  ],
+  "rationale": "墓誌及《舊唐書》作曾伯祖，《新唐書》作從曾祖；神道表相對柳鎮敘述曾伯祖。先保留原稱，不折算為唯一代數或補造缺失祖先。",
+  "limitations": [
+    "須核閱世系表、傳本校勘及現代學者針對柳奭代數的考證。"
+  ],
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-08",
+    "method": "讀取固定版本的傳世文本，逐項核對原文引句；不以模型記憶補錄史料。"
+  }
+}

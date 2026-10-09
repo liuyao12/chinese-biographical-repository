@@ -1,0 +1,109 @@
+{
+  "schema_version": "0.1",
+  "record_type": "identity_decision",
+  "id": "d-identity-liu-cluster",
+  "groups": [
+    {
+      "id": "identity-liu-zongyuan",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#liu-zongyuan",
+        "s-liuzongyuan-liuzhen-shendaobiao#liu-zongyuan",
+        "s-jiutangshu-160-liuzongyuan#liu-zongyuan",
+        "s-xintangshu-168-liuzongyuan#liu-zongyuan"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-liu-zongyuan-name",
+        "a-liuzongyuan-liuzhen-shendaobiao-liu-zongyuan-name",
+        "a-jiutangshu-160-liuzongyuan-liu-zongyuan-name",
+        "a-xintangshu-168-liuzongyuan-liu-zongyuan-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    },
+    {
+      "id": "identity-liu-zhen",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#liu-zhen",
+        "s-liuzongyuan-liuzhen-shendaobiao#liu-zhen",
+        "s-jiutangshu-160-liuzongyuan#liu-zhen",
+        "s-xintangshu-168-liuzongyuan#liu-zhen"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-liu-zhen-name",
+        "a-liuzongyuan-liuzhen-shendaobiao-liu-zhen-name",
+        "a-jiutangshu-160-liuzongyuan-liu-zhen-name",
+        "a-xintangshu-168-liuzongyuan-liu-zhen-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    },
+    {
+      "id": "identity-liu-shi",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#liu-shi",
+        "s-liuzongyuan-liuzhen-shendaobiao#liu-shi",
+        "s-jiutangshu-160-liuzongyuan#liu-shi",
+        "s-xintangshu-168-liuzongyuan#liu-shi"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-liu-shi-name",
+        "a-liuzongyuan-liuzhen-shendaobiao-liu-shi-name",
+        "a-jiutangshu-160-liuzongyuan-liu-shi-name",
+        "a-xintangshu-168-liuzongyuan-liu-shi-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    },
+    {
+      "id": "identity-liu-qing",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#liu-qing",
+        "s-liuzongyuan-liuzhen-shendaobiao#liu-qing"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-liu-qing-name",
+        "a-liuzongyuan-liuzhen-shendaobiao-liu-qing-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    },
+    {
+      "id": "identity-zhouliu",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#zhouliu",
+        "s-jiutangshu-160-liuzongyuan#zhouliu"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-zhouliu-name",
+        "a-jiutangshu-160-liuzongyuan-zhouliu-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    },
+    {
+      "id": "identity-zhouqi",
+      "members": [
+        "s-hanyu-liu-zongyuan-muzhiming#zhouqi",
+        "s-jiutangshu-160-liuzongyuan#zhouqi"
+      ],
+      "evidence_assertion_ids": [
+        "a-hanyu-liu-zongyuan-muzhiming-zhouqi-name",
+        "a-jiutangshu-160-liuzongyuan-zhouqi-name"
+      ],
+      "rationale": "在柳宗元及其父的專篇家世語境中，姓名、父子關係與親屬角色相符；僅限所列見證，不以同名推及其他人物。",
+      "status": "provisional"
+    }
+  ],
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-08",
+    "method": "讀取固定版本的傳世文本，逐項核對原文引句；不以模型記憶補錄史料。"
+  },
+  "limitations": [
+    "柳奭的身份比對與親屬代數的判讀是兩件事；本比對不解決代數爭議。",
+    "新增同名人物時須重新檢查，不按字串自動合併。"
+  ]
+}

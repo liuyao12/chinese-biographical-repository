@@ -1,0 +1,807 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CBR records 0.1",
+  "oneOf": [
+    {
+      "$ref": "#/$defs/source"
+    },
+    {
+      "$ref": "#/$defs/assertion_set"
+    },
+    {
+      "$ref": "#/$defs/identity_decision"
+    },
+    {
+      "$ref": "#/$defs/precedence_decision"
+    },
+    {
+      "$ref": "#/$defs/source_catalogue"
+    },
+    {
+      "$ref": "#/$defs/acquisition_queue"
+    }
+  ],
+  "$defs": {
+    "contribution": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "ai_agent",
+            "human"
+          ]
+        },
+        "date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model_note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "kind",
+        "date",
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "segment": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "uncertain_readings": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "locator",
+        "text",
+        "uncertain_readings"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "segment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "source_id",
+        "segment_id",
+        "quote"
+      ],
+      "additionalProperties": false
+    },
+    "assertion": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "assertion"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "predicate": {
+          "enum": [
+            "name",
+            "father",
+            "mother",
+            "son",
+            "spouse",
+            "grandfather",
+            "great_grandfather",
+            "ancestor",
+            "collateral_ancestor",
+            "maternal_uncle",
+            "maternal_cousin",
+            "son_in_law",
+            "brother",
+            "death_date",
+            "death_year",
+            "courtesy_name",
+            "age_at_death",
+            "daughter_count",
+            "scholarly_opinion"
+          ]
+        },
+        "object": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "literal"
+                },
+                "value": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "kind",
+                "value"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "const": "mention"
+                },
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "kind",
+                "id"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/evidence"
+          },
+          "minItems": 1
+        },
+        "interpretation_note": {
+          "type": "string"
+        },
+        "qualifiers": {
+          "type": "object"
+        },
+        "status": {
+          "enum": [
+            "source_attested"
+          ]
+        },
+        "contribution": {
+          "$ref": "#/$defs/contribution"
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "id",
+        "subject",
+        "predicate",
+        "object",
+        "evidence",
+        "interpretation_note",
+        "qualifiers",
+        "status",
+        "contribution"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "source"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "genre": {
+          "enum": [
+            "epitaph",
+            "memorial",
+            "dynastic_history",
+            "modern_scholarship",
+            "excavation_report"
+          ]
+        },
+        "historical_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bibliography": {
+          "type": "object",
+          "properties": {
+            "work": {
+              "type": "string",
+              "minLength": 1
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1
+            },
+            "edition_statement": {
+              "type": "string",
+              "minLength": 1
+            },
+            "publication_date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "work",
+            "locator",
+            "edition_statement"
+          ],
+          "additionalProperties": false
+        },
+        "witness": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "minLength": 1
+            },
+            "provider": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "type": "string",
+              "minLength": 1
+            },
+            "permalink": {
+              "type": "string",
+              "minLength": 1
+            },
+            "accessed_on": {
+              "type": "string",
+              "minLength": 1
+            },
+            "verified_against": {
+              "type": "string",
+              "minLength": 1
+            },
+            "image_verified": {
+              "type": "boolean"
+            },
+            "revision_id": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "kind",
+            "provider",
+            "url",
+            "permalink",
+            "accessed_on",
+            "verified_against",
+            "image_verified"
+          ],
+          "additionalProperties": false
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 0
+        },
+        "text": {
+          "type": "object",
+          "properties": {
+            "language": {
+              "type": "string",
+              "minLength": 1
+            },
+            "script_policy": {
+              "const": "traditional"
+            },
+            "extent": {
+              "enum": [
+                "complete_work",
+                "selected_passages",
+                "short_excerpt_and_summary"
+              ]
+            },
+            "transcription_method": {
+              "type": "string",
+              "minLength": 1
+            },
+            "normalization": {
+              "type": "object"
+            },
+            "segments": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/segment"
+              },
+              "minItems": 1
+            },
+            "sha256": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "language",
+            "script_policy",
+            "extent",
+            "transcription_method",
+            "normalization",
+            "segments",
+            "sha256"
+          ],
+          "additionalProperties": false
+        },
+        "rights": {
+          "type": "object",
+          "properties": {
+            "underlying_work": {
+              "type": "string",
+              "minLength": 1
+            },
+            "digital_witness": {
+              "type": "string",
+              "minLength": 1
+            },
+            "images": {
+              "type": "string",
+              "minLength": 1
+            },
+            "license_url": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "underlying_work",
+            "digital_witness",
+            "images"
+          ],
+          "additionalProperties": false
+        },
+        "quality": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "enum": [
+                "text_checked",
+                "image_collated"
+              ]
+            },
+            "historical_truth": {
+              "type": "string",
+              "minLength": 1
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "status",
+            "historical_truth",
+            "limitations"
+          ],
+          "additionalProperties": false
+        },
+        "contribution": {
+          "$ref": "#/$defs/contribution"
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "id",
+        "title",
+        "authors",
+        "genre",
+        "historical_scope",
+        "bibliography",
+        "witness",
+        "images",
+        "text",
+        "rights",
+        "quality",
+        "contribution"
+      ],
+      "additionalProperties": false
+    },
+    "assertion_set": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "assertion_set"
+        },
+        "source_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assertions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/assertion"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "source_id",
+        "assertions"
+      ],
+      "additionalProperties": false
+    },
+    "identity_decision": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "identity_decision"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "members": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 2
+              },
+              "evidence_assertion_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 2
+              },
+              "rationale": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "provisional"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "members",
+              "evidence_assertion_ids",
+              "rationale",
+              "status"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "contribution": {
+          "$ref": "#/$defs/contribution"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "id",
+        "groups",
+        "contribution",
+        "limitations"
+      ],
+      "additionalProperties": false
+    },
+    "precedence_decision": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "precedence_decision"
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "provisional",
+            "unresolved"
+          ]
+        },
+        "scope": {
+          "type": "object",
+          "properties": {
+            "identity_group": {
+              "type": "string",
+              "minLength": 1
+            },
+            "predicate": {
+              "enum": [
+                "name",
+                "father",
+                "mother",
+                "son",
+                "spouse",
+                "grandfather",
+                "great_grandfather",
+                "ancestor",
+                "collateral_ancestor",
+                "maternal_uncle",
+                "maternal_cousin",
+                "son_in_law",
+                "brother",
+                "death_date",
+                "death_year",
+                "courtesy_name",
+                "age_at_death",
+                "daughter_count",
+                "scholarly_opinion"
+              ]
+            }
+          },
+          "required": [
+            "identity_group",
+            "predicate"
+          ],
+          "additionalProperties": false
+        },
+        "candidates": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 2
+        },
+        "preferred_assertion_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alternative_assertion_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "supporting_assertion_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 0
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "contribution": {
+          "$ref": "#/$defs/contribution"
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "id",
+        "status",
+        "scope",
+        "candidates",
+        "preferred_assertion_id",
+        "alternative_assertion_ids",
+        "supporting_assertion_ids",
+        "rationale",
+        "limitations",
+        "contribution"
+      ],
+      "additionalProperties": false
+    },
+    "source_catalogue": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "source_catalogue"
+        },
+        "generated_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "path": {
+                "type": "string",
+                "minLength": 1
+              },
+              "genre": {
+                "type": "string",
+                "minLength": 1
+              },
+              "extent": {
+                "type": "string",
+                "minLength": 1
+              },
+              "segment_count": {
+                "type": "integer"
+              },
+              "image_verified": {
+                "type": "boolean"
+              },
+              "text_sha256": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "id",
+              "title",
+              "path",
+              "genre",
+              "extent",
+              "segment_count",
+              "image_verified",
+              "text_sha256"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "generated_on",
+        "sources"
+      ],
+      "additionalProperties": false
+    },
+    "acquisition_queue": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "0.1"
+        },
+        "record_type": {
+          "const": "acquisition_queue"
+        },
+        "checked_on": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entries": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_type",
+        "checked_on",
+        "entries"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

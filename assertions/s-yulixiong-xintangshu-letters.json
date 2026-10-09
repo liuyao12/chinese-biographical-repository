@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "record_type": "assertion_set",
+  "source_id": "s-yulixiong-xintangshu-letters",
+  "assertions": [
+    {
+      "schema_version": "0.1",
+      "record_type": "assertion",
+      "id": "a-yulixiong-xintangshu-letters-death-opinion",
+      "subject": "s-hanyu-liu-zongyuan-muzhiming#liu-zongyuan",
+      "predicate": "scholarly_opinion",
+      "object": {
+        "kind": "literal",
+        "value": "余歷雄採元和十四年十一月八日，並認為《舊唐書》的十月五日或誤。"
+      },
+      "evidence": [
+        {
+          "source_id": "s-yulixiong-xintangshu-letters",
+          "segment_id": "s-yulixiong-xintangshu-letters:p001",
+          "quote": "或誤。此據韓愈所撰《柳子厚墓誌銘》。"
+        }
+      ],
+      "interpretation_note": "此為學者的取捨，非獨立出土新證；日期依首頁正文與註①合讀。",
+      "qualifiers": {},
+      "status": "source_attested",
+      "contribution": {
+        "name": "Codex",
+        "kind": "ai_agent",
+        "model": null,
+        "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+        "date": "2026-10-08",
+        "method": "讀取固定版本的傳世文本，逐項核對原文引句；不以模型記憶補錄史料。"
+      }
+    }
+  ]
+}
