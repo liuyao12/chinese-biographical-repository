@@ -1,0 +1,78 @@
+{
+  "schema_version": "0.1",
+  "record_type": "source",
+  "id": "s-yoshimoto-2020-chen",
+  "title": "春秋人表考證",
+  "authors": [
+    "吉本道雅"
+  ],
+  "genre": "modern_scholarship",
+  "historical_scope": "春秋陳國公子佗、厲公／利公躍與陳完父親的文獻辨析",
+  "bibliography": {
+    "work": "春秋人表考證",
+    "locator": "《京都大學文學部研究紀要》第59號，頁1–96；本次查閱第6–7頁（PDF頁6–7），陳國段。",
+    "publication_date": "2020-03-02",
+    "edition_statement": "日文出版者版本；書目日期據京都大學典藏dc.date.issued，不以入庫、爬取或搜尋顯示日期替代。僅存代理撰寫繁體摘要，不轉錄論文全文。 本次讀取出版者PDF的SHA-256：f5425b76089632e5d312afdc63c4025e3c56c5e548d0f462231af3475fa0625e。"
+  },
+  "witness": {
+    "kind": "institutional_article",
+    "provider": "京都大學學術資訊典藏KURENAI",
+    "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+    "permalink": "https://hdl.handle.net/2433/251008",
+    "accessed_on": "2026-10-09",
+    "verified_against": "校方REST書目及出版者PDF第6–7頁；讀取校方TEXT衍生文字並以PDFium呈現PDF核對。",
+    "image_verified": true
+  },
+  "images": [
+    {
+      "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+      "provider": "京都大學學術資訊典藏KURENAI",
+      "exact_page": "論文第6–7頁／PDF第6–7頁",
+      "image_verified": true,
+      "note": "現代論文指定頁的數位PDF，非古籍底本、出土文字或拓片；僅外部連結，不提交PDF及呈現影像。"
+    }
+  ],
+  "text": {
+    "language": "zh-Hant",
+    "script_policy": "traditional",
+    "extent": "short_excerpt_and_summary",
+    "transcription_method": "自行撰寫繁體摘要；不複製現代論文全文，依指定頁面核對具體主張。",
+    "normalization": {
+      "character_conversion": "none",
+      "whitespace": "none",
+      "punctuation": "代理摘要，非原文標點"
+    },
+    "segments": [
+      {
+        "id": "s-yoshimoto-2020-chen:p001",
+        "locator": "論文第6–7頁（PDF第6–7頁），第（9）陳國段。",
+        "text": "代理摘要：吉本道雅比較《左傳》《春秋經》與《史記》陳國記載，認為《史記》把公子佗作厲公、躍作利公有誤，利／厲是音近異字；《漢書》古今人表對陳厲公與陳完父親的記錄承用了《史記》的理解。這是作者針對此組文獻的判斷，不能由此全域貶低《史記》，也不能將人表視為獨立互證。",
+        "uncertain_readings": []
+      }
+    ],
+    "sha256": "6bb80d26c017692549f115b615b47807dc77cdde0ebdb0505c45661d8089f902"
+  },
+  "rights": {
+    "underlying_work": "現代著作；未取得全文轉載授權",
+    "digital_witness": "僅短引文／自行撰寫摘要與來源連結",
+    "images": "僅連結；未複製或重新授權"
+  },
+  "quality": {
+    "status": "text_checked",
+    "historical_truth": "現代學者之具體意見，不等同學界共識",
+    "limitations": [
+      "只核讀指定第6–7頁及校方書目，不稱完整論文覆核。",
+      "2026-10-09以佗／躍／利公／陳杞世家及篇名作有限網頁檢索，未作系統文獻回顧，不稱最新研究或學界共識。",
+      "尚未獨立核讀作者所引左傳、春秋經、公羊、穀梁及漢書人表的具體版本；暫不改人物ID、父親主張或稱號時段。",
+      "PDF核讀只適用現代論文頁面；史記數位正文仍未與古籍底本影像核對。"
+    ]
+  },
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-09",
+    "method": "從校方REST書目核出版日，讀取ORIGINAL出版者PDF及TEXT衍生文字；以PDFium呈現核讀第6–7頁，將作者對具體異說的意見作自行撰寫摘要，未作全域來源排名。"
+  }
+}
