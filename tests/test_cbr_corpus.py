@@ -292,4 +292,33 @@ class CorpusTests(unittest.TestCase):
         self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
         self.assertTrue(any(m['kind']=='unresolved' and m['start']<=a<m['end'] for m in p['mentions']))
 
+    def test_gaozu_qi_king_in_execution_is_tian_guang(self):
+        c=json.loads((self.root/'corpus/shiji/008.json').read_text())
+        p=c['paragraphs'][43]
+        named=next(m for m in p['mentions'] if m['surface']=='田廣')
+        a=p['text'].index('齊王烹')
+        king=next(m for m in p['mentions'] if m['start']==a)
+        han=next(m for m in p['mentions'] if m['surface']=='韓信')
+        self.assertEqual(king['person_id'],named['person_id'])
+        self.assertNotEqual(king['person_id'],han['person_id'])
+
+    def test_gaozu_successor_emperor_and_nonpersonal_words(self):
+        c=json.loads((self.root/'corpus/shiji/008.json').read_text())
+        p=c['paragraphs'][87]
+        successor=next(m for m in p['mentions'] if m['surface']=='孝惠帝')
+        emperor=next(m for m in p['mentions'] if m['surface']=='皇帝')
+        self.assertEqual(successor['person_id'],emperor['person_id'])
+        for n,word in [(60,'通侯籍'),(73,'甚有信'),(88,'上尊號')]:
+            p=c['paragraphs'][n-1];a=p['text'].index(word)
+            pos=a+2 if n in (60,73) else a
+            self.assertFalse(any(m['person_id'] and m['start']<=pos<m['end'] for m in p['mentions']))
+
+    def test_gaozu_title_deposition_requires_explicit_evidence(self):
+        h=json.loads((self.root/'corpus/shiji/008-titles.json').read_text())['holdings']
+        ends=[x['effective_period']['end'] for x in h if x['effective_period']['end']['status']=='source_event']
+        self.assertEqual(len(ends),3)
+        self.assertTrue(all(x['event_type']=='deposition' and '廢' in x['evidence'][0]['quote'] for x in ends))
+        father=next(x for x in h if x['title']=='太上皇')
+        self.assertEqual(father['effective_period']['end']['status'],'unknown')
+
 if __name__=='__main__':unittest.main()
