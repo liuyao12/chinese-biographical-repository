@@ -31,6 +31,28 @@ class CorpusTests(unittest.TestCase):
         def mutate(d):next(m for p in d['paragraphs'] for m in p['mentions'] if m['kind']=='unresolved').update(person_id='cbr-p000001')
         self.change('corpus/shiji/001.json',mutate)
         self.assertTrue(any('不得暗選' in e for e in v.validate(self.root)))
+    def test_cross_chapter_identity_needs_both_sources(self):
+        def mutate(d):
+            decision=next(v for v in d['decisions'] if v['scope']=='cross_chapter')
+            decision['evidence']=decision['evidence'][:1]
+        self.change('corpus/shiji/002-identities.json',mutate)
+        self.assertTrue(any('各篇證據' in e for e in v.validate(self.root)))
+    def test_relationship_requires_exact_source(self):
+        def mutate(d):d['assertions'][0]['evidence'][0]['source_id']='s-shiji-001-wudi'
+        self.change('corpus/shiji/002-assertions.json',mutate)
+        self.assertTrue(any('來源 ID 不符' in e for e in v.validate(self.root)))
+    def test_relationship_unknown_person_rejected(self):
+        def mutate(d):d['assertions'][0]['object_person_id']='missing'
+        self.change('corpus/shiji/002-assertions.json',mutate)
+        self.assertTrue(any('引用未知人物' in e for e in v.validate(self.root)))
+    def test_xia_context_does_not_merge_officials_across_generations(self):
+        chapter=json.loads((self.root/'corpus/shiji/002.json').read_text())
+        paragraph=next(p for p in chapter['paragraphs'] if '羲、和湎淫' in p['text'])
+        mention=next(m for m in paragraph['mentions'] if m['surface']=='羲、和')
+        self.assertIsNone(mention['person_id'])
+        start=paragraph['text'].index('作胤征')+1
+        self.assertFalse(any(m['kind']=='person' and m['start']==start for m in paragraph['mentions']))
+
     def test_epithet_context_is_not_a_name(self):
         d=json.loads((self.root/'corpus/shiji/001.json').read_text())
         for p in d['paragraphs']:
