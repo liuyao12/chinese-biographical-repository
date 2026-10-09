@@ -37,3 +37,13 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 小程式可直接載入 JSON，依 ID 組裝人物及來源陳述，不需把文本交給 AI。XML／JSON 不應作可執行程式。原有唐代 `sources/` 與 `assertions/` 尚待遷移，新進度不將它們計作已完成的卷篇。
 
 執行 `python3 scripts/validate_corpus.py` 檢查字元位置、人物／卷篇引用、證據、指紋與 XML 還原一致性；這些檢查不證明人物比對或古文讀法正確。
+
+## 跨卷身份與來源親屬主張
+
+`002-identities.json` 的 `scope` 區分同篇與跨篇；`chapter_ids` 明列範圍，跨篇判斷須逐篇附原文證據。跨卷連續敘事可暫定共用既有 ID，但不把同名變成全域匹配規則。每項 `surfaces` 必須能在該人物的來源提及中找到。
+
+`002-assertions.json` 保存來源陳述，`subject_person_id`／`object_person_id` 為人物端點；`evidence` 同時連結篇、來源、段落與精確引句。`source_attested` 表示原文記載，並非已證實的生平。`qualifiers` 保留原稱與敘事性；父親、母親、兄弟、配偶、祖父、曾祖父與祖先分開，不從繼位順序推導父子。使用端按已記錄主張組裝，遇異說仍需同範圍的取捨決定。
+
+`next_number` 是單調遞增的 ID 分配游標，允許保留草稿已分配但尚未公開的號碼；不可為消除空號而重編既有 ID。稱號時段另待與 `data/name-history.json` 協調，本批不發布尚未整合的稱號草稿。
+
+以 `python3 scripts/render_corpus.py` 重建 XML；`--check` 只檢查同步，不改檔。JSON 是編輯來源。

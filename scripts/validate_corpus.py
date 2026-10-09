@@ -72,8 +72,10 @@ def validate(root=ROOT):
             check(len(xp)==len(d['paragraphs']), 'XML 段落數不符')
             for x,p in zip(xp,d['paragraphs']):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
-                check(len(list(x))==len(p['mentions']), 'XML 提及數不符')
-                for e,m in zip(list(x),p['mentions']):
+                xm=list(x)
+                check(len(xm)==len(p['mentions']), 'XML 提及數不符')
+                check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
+                for e,m in zip(xm,p['mentions']):
                     check(e.get('id')==m['id'] and e.text==m['surface'], 'XML 提及錨點不符')
                     check(e.tag==('persName' if m['kind']=='person' else 'rs'), 'XML 提及類型不符')
                     check(e.get('ref')==m['person_id'], 'XML 人物引用不符')
@@ -100,11 +102,40 @@ def validate(root=ROOT):
                 check(decision['id'] not in dids,'身份判斷 ID 重複');dids.add(decision['id'])
                 check(decision['person_id'] in pids,'身份判斷引用未知人物')
                 check(bool(decision['evidence']),'身份判斷無證據')
+                scope=decision.get('scope','same_chapter')
+                allowed=decision.get('chapter_ids',[d['chapter_id']])
+                check(scope in ('same_chapter','cross_chapter'),'身份判斷範圍未知')
+                check(len(allowed)==len(set(allowed)) and set(allowed).issubset(chapters),'身份判斷引用未知或重複篇 ID')
+                check(d['chapter_id'] in allowed,'身份判斷未包含所屬篇')
+                check(len(allowed)==1 if scope=='same_chapter' else len(allowed)>=2,'身份判斷範圍與篇數不符')
+                observed=set()
                 for e in decision['evidence']:
                     hit=paragraphs.get(e['paragraph_id'])
-                    check(bool(hit) and hit[0]==d['chapter_id'] and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
+                    check(bool(hit) and hit[0] in allowed and e['quote'] in hit[1]['text'],'身份判斷引句不在所屬正文')
+                    if hit:
+                        observed.add(hit[0])
+                        check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
+                check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
                 if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
+        aids=set()
+        for path in (root/'corpus').glob('*/*-assertions.json'):
+            d=json.loads(path.read_text(encoding='utf-8'))
+            check(d['record_type']=='person_assertion_set','人物陳述集類型不符')
+            check(d['chapter_id'] in chapters,'人物陳述集篇不存在')
+            for a in d['assertions']:
+                check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
+                check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
+                check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
+                check(a['predicate'] in ('father','mother','spouse','brother','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
+                check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
+                for e in a['evidence']:
+                    hit=paragraphs.get(e['paragraph_id'])
+                    check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
+                    check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')
+                    if hit:
+                        local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
+                        check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於证據段落'.replace('证','證'))
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')
