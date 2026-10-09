@@ -26,15 +26,18 @@
   },
   "text_sha256": "d2bfaa818522108b623ae8b0eb2aa8951d1438b1bcc9d8172bf94e7ae997a07b",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全32段正文保存；第1至10段明示人名、若干短名與王號首輪草稿，第11至32段待標註。",
+    "coverage": "全32段明示人名、若干短名與官爵稱首輪草稿，匿名者、代詞、稱號時段及身世異說仍待覆核。",
     "limitations": [
       "數位轉錄未核底本、影像或現代研究。",
       "前少帝無明見姓名，不補外部熟知名字；後少帝山、義、弘依本卷更名敘事連同一候選。",
       "少帝與諸王的血親存在不同來源主張，本批不把大臣政治指控當已證實世系。",
-      "稱號有效時段、匿名者與跨卷已發候選同指仍待覆核。"
+      "稱號有效時段、匿名者與跨卷已發候選同指仍待覆核。",
+      "齊相召平另立候選，未與卷七秦末召平按同名合併。",
+      "呂祿女為朱虛侯妻、呂祿女為帝后分開候選，未按同父合併。",
+      "齊哀王本文未見名，不補劉襄；襄平侯通不與燕王呂通按末字合併。"
     ]
   },
   "paragraphs": [
@@ -2357,6 +2360,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-009-lvhou:m010-0347",
+          "start": 347,
+          "end": 350,
+          "surface": "肅王台",
+          "kind": "person",
+          "person_id": "cbr-p000822",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-009-lvhou:m010-0351",
           "start": 351,
           "end": 353,
@@ -2388,156 +2400,2895 @@
     {
       "id": "c-shiji-009-lvhou:p011",
       "text": "七年正月，太后召趙王友。友以諸呂女為受后，弗愛，愛他姬，諸呂女妒，怒去，讒之於太后，誣以罪過，曰：「呂氏安得王！太后百歲後，吾必擊之」。太后怒，以故召趙王。趙王至，置邸不見，令衛圍守之，弗與食。其群臣或竊饋，輒捕論之，趙王餓，乃歌曰：「諸呂用事兮劉氏危，迫脅王侯兮彊授我妃。我妃既妒兮誣我以惡，讒女亂國兮上曾不寤。我無忠臣兮何故棄國？自決中野兮蒼天舉直！于嗟不可悔兮寧蚤自財。為王而餓死兮誰者憐之！呂氏絕理兮讬天報仇。」丁丑，趙王幽死，以民禮葬之長安民冢次。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m011-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "趙王友",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0012",
+          "start": 12,
+          "end": 13,
+          "surface": "友",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "諸呂女",
+          "kind": "person",
+          "person_id": "cbr-p000856",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "他姬",
+          "kind": "person",
+          "person_id": "cbr-p000857",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "諸呂女",
+          "kind": "person",
+          "person_id": "cbr-p000856",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0123",
+          "start": 123,
+          "end": 125,
+          "surface": "劉氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0199",
+          "start": 199,
+          "end": 201,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m011-0213",
+          "start": 213,
+          "end": 215,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p012",
       "text": "己丑，日食，晝晦。太后惡之，心不樂，乃謂左右曰：「此為我也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m012-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p013",
       "text": "二月，徙梁王恢為趙王。呂王產徙為梁王，梁王不之國，為帝太傅。立皇子平昌侯太為呂王。更名梁曰呂，呂曰濟川。太后女弟呂媭有女為營陵侯劉澤妻，澤為大將軍。太后王諸呂，恐即崩後劉將軍為害，乃以劉澤為瑯邪王，以慰其心。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m013-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "梁王恢",
+          "kind": "person",
+          "person_id": "cbr-p000807",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000807",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "呂王產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0026",
+          "start": 26,
+          "end": 29,
+          "surface": "帝太傅",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0033",
+          "start": 33,
+          "end": 37,
+          "surface": "平昌侯太",
+          "kind": "person",
+          "person_id": "cbr-p000852",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "呂媭",
+          "kind": "person",
+          "person_id": "cbr-p000845",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "有女",
+          "kind": "person",
+          "person_id": "cbr-p000854",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "劉澤",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "澤",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "諸呂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0084",
+          "start": 84,
+          "end": 87,
+          "surface": "劉將軍",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "劉澤",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m013-0095",
+          "start": 95,
+          "end": 98,
+          "surface": "瑯邪王",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p014",
       "text": "梁王恢之徙王趙，心懷不樂。太后以呂產女為趙王后。王后從官皆諸呂，擅權，微伺趙王，趙王不得自恣。王有所愛姬，王后使人酖殺之。王乃為歌詩四章，令樂人歌之。王悲，六月即自殺。太后聞之，以為王用婦人棄宗廟禮，廢其嗣。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m014-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "梁王恢",
+          "kind": "person",
+          "person_id": "cbr-p000807",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "王后",
+          "kind": "person",
+          "person_id": "cbr-p000855",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "王后",
+          "kind": "person",
+          "person_id": "cbr-p000855",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000807",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "趙王",
+          "kind": "person",
+          "person_id": "cbr-p000807",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "愛姬",
+          "kind": "person",
+          "person_id": "cbr-p000858",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "王后",
+          "kind": "person",
+          "person_id": "cbr-p000855",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m014-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p015",
       "text": "宣平侯張敖卒，以子偃為魯王，敖賜謚為魯元王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m015-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "張敖",
+          "kind": "person",
+          "person_id": "cbr-p000787",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m015-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "子偃",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m015-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "敖",
+          "kind": "person",
+          "person_id": "cbr-p000787",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m015-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "魯元王",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p016",
       "text": "秋，太后使使告代王，欲徙王趙。代王謝，願守代邊。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m016-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m016-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m016-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p017",
       "text": "太傅產、丞相平等言，武信侯呂祿上侯，位次第一，請立為趙王。太后許之，追尊祿父康侯為趙昭王。九月，燕靈王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m017-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太傅產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "丞相平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "康侯",
+          "kind": "person",
+          "person_id": "cbr-p000824",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0048",
+          "start": 48,
+          "end": 52,
+          "surface": "燕靈王建",
+          "kind": "person",
+          "person_id": "cbr-p000815",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "美人",
+          "kind": "person",
+          "person_id": "cbr-p000859",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0057",
+          "start": 57,
+          "end": 58,
+          "surface": "子",
+          "kind": "person",
+          "person_id": "cbr-p000860",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "國除",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0078",
+          "start": 78,
+          "end": 81,
+          "surface": "呂肅王",
+          "kind": "person",
+          "person_id": "cbr-p000822",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "呂通",
+          "kind": "person",
+          "person_id": "cbr-p000861",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m017-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "呂莊",
+          "kind": "person",
+          "person_id": "cbr-p000862",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p018",
       "text": "三月中，呂后祓，還過軹道，見物如蒼犬，據高后掖，忽弗復見。卜之，云趙王如意為祟。高后遂病掖傷。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m018-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m018-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m018-0033",
+          "start": 33,
+          "end": 37,
+          "surface": "趙王如意",
+          "kind": "person",
+          "person_id": "cbr-p000820",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m018-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p019",
       "text": "高后為外孫魯元王偃年少，蚤失父母，孤弱，乃封張敖前姬兩子，侈為新都侯，壽為樂昌侯，以輔魯元王偃。及封中大謁者張釋為建陵侯，呂榮為祝茲侯。諸中宦者令丞皆為關內侯，食邑五百戶。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m019-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0005",
+          "start": 5,
+          "end": 9,
+          "surface": "魯元王偃",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "張敖",
+          "kind": "person",
+          "person_id": "cbr-p000787",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "前姬",
+          "kind": "person",
+          "person_id": "cbr-p000865",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0029",
+          "start": 29,
+          "end": 30,
+          "surface": "侈",
+          "kind": "person",
+          "person_id": "cbr-p000863",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0035",
+          "start": 35,
+          "end": 36,
+          "surface": "壽",
+          "kind": "person",
+          "person_id": "cbr-p000864",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0043",
+          "start": 43,
+          "end": 47,
+          "surface": "魯元王偃",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "張釋",
+          "kind": "person",
+          "person_id": "cbr-p000866",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "呂榮",
+          "kind": "person",
+          "person_id": "cbr-p000867",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m019-0069",
+          "start": 69,
+          "end": 74,
+          "surface": "中宦者令丞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p020",
       "text": "七月中，高后病甚，乃令趙王呂祿為上將軍，軍北軍；呂王產居南軍。呂太后誡產、祿曰：「高帝已定天下，與大臣約，曰『非劉氏王者，天下共擊之』。今呂氏王，大臣弗平。我即崩，帝年少，大臣恐為變。必據兵衛宮，慎毋送喪，毋為人所制。」辛巳，高后崩，遺詔賜諸侯王各千金，將相列侯郎吏皆以秩賜金。大赦天下。以呂王產為相國，以呂祿女為帝后。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m020-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "呂王產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "呂太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0035",
+          "start": 35,
+          "end": 36,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0082",
+          "start": 82,
+          "end": 83,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0145",
+          "start": 145,
+          "end": 148,
+          "surface": "呂王產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0153",
+          "start": 153,
+          "end": 156,
+          "surface": "呂祿女",
+          "kind": "person",
+          "person_id": "cbr-p000879",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m020-0157",
+          "start": 157,
+          "end": 158,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p021",
       "text": "高后已葬，以左丞相審食其為帝太傅。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m021-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m021-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "審食其",
+          "kind": "person",
+          "person_id": "cbr-p000718",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p022",
       "text": "朱虛侯劉章有氣力，東牟侯興居其弟也。皆齊哀王弟，居長安。當是時，諸呂用事擅權，欲為亂，畏高帝故大臣絳、灌等，未敢發。朱虛侯婦，呂祿女，陰知其謀。恐見誅，乃陰令人告其兄齊王，欲令發兵西，誅諸呂而立。朱虛侯欲從中與大臣為應。齊王欲發兵，其相弗聽。八月丙午，齊王欲使人誅相，相召平乃反，舉兵欲圍王，王因殺其相，遂發兵東，詐奪瑯邪王兵，并將之而西。語在齊王語中。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m022-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "劉章",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "興居",
+          "kind": "person",
+          "person_id": "cbr-p000851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0019",
+          "start": 19,
+          "end": 22,
+          "surface": "齊哀王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0049",
+          "start": 49,
+          "end": 50,
+          "surface": "絳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0051",
+          "start": 51,
+          "end": 52,
+          "surface": "灌",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0058",
+          "start": 58,
+          "end": 61,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0063",
+          "start": 63,
+          "end": 66,
+          "surface": "呂祿女",
+          "kind": "person",
+          "person_id": "cbr-p000869",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0098",
+          "start": 98,
+          "end": 101,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "召平",
+          "kind": "person",
+          "person_id": "cbr-p000870",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m022-0159",
+          "start": 159,
+          "end": 162,
+          "surface": "瑯邪王",
+          "kind": "person",
+          "person_id": "cbr-p000853",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p023",
       "text": "齊王乃遺諸侯王書曰：「高帝平定天下，王諸子弟，悼惠王王齊。悼惠王薨，孝惠帝使留侯良立臣為齊王。孝惠崩，高后用事，春秋高，聽諸呂，擅廢帝更立，又比殺三趙王，滅梁、趙、燕以王諸呂，分齊為四。忠臣進諫，上惑亂弗聽。今高后崩，而帝春秋富，未能治天下，固恃大臣諸侯。而諸呂又擅自尊官，聚兵嚴威，劫列侯忠臣，矯制以令天下，宗廟所以危。寡人率兵入誅不當為王者。」漢聞之，相國呂產等乃遣潁陰侯灌嬰將兵擊之。灌嬰至滎陽，乃謀曰：「諸呂權兵關中，欲危劉氏而自立。今我破齊還報，此益呂氏之資也。」乃留屯滎陽，使使諭齊王及諸侯，與連和，以待呂氏變，共誅之。齊王聞之，乃還兵西界待約。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m023-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0023",
+          "start": 23,
+          "end": 26,
+          "surface": "悼惠王",
+          "kind": "person",
+          "person_id": "cbr-p000795",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0029",
+          "start": 29,
+          "end": 32,
+          "surface": "悼惠王",
+          "kind": "person",
+          "person_id": "cbr-p000795",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0034",
+          "start": 34,
+          "end": 37,
+          "surface": "孝惠帝",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0038",
+          "start": 38,
+          "end": 41,
+          "surface": "留侯良",
+          "kind": "person",
+          "person_id": "cbr-p000687",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "諸呂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0064",
+          "start": 64,
+          "end": 69,
+          "surface": "擅廢帝更立",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "諸呂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0110",
+          "start": 110,
+          "end": 111,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0129",
+          "start": 129,
+          "end": 131,
+          "surface": "諸呂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0180",
+          "start": 180,
+          "end": 182,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0188",
+          "start": 188,
+          "end": 190,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0195",
+          "start": 195,
+          "end": 197,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0206",
+          "start": 206,
+          "end": 208,
+          "surface": "諸呂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0246",
+          "start": 246,
+          "end": 248,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m023-0266",
+          "start": 266,
+          "end": 268,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p024",
       "text": "呂祿、呂產欲發亂關中，內憚絳侯、朱虛等，外畏齊、楚兵，又恐灌嬰畔之，欲待灌嬰兵與齊合而發，猶豫未決。當是時，濟川王太、淮陽王武、常山王朝名為少帝弟，及魯元王呂后外孫，皆年少未之國，居長安。趙王祿、梁王產各將兵居南北軍，皆呂氏之人。列侯群臣莫自堅其命。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m024-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "絳侯",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "朱虛",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0054",
+          "start": 54,
+          "end": 58,
+          "surface": "濟川王太",
+          "kind": "person",
+          "person_id": "cbr-p000852",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0059",
+          "start": 59,
+          "end": 63,
+          "surface": "淮陽王武",
+          "kind": "person",
+          "person_id": "cbr-p000842",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0064",
+          "start": 64,
+          "end": 68,
+          "surface": "常山王朝",
+          "kind": "person",
+          "person_id": "cbr-p000841",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0075",
+          "start": 75,
+          "end": 78,
+          "surface": "魯元王",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0094",
+          "start": 94,
+          "end": 97,
+          "surface": "趙王祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0098",
+          "start": 98,
+          "end": 101,
+          "surface": "梁王產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m024-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p025",
       "text": "太尉絳侯勃不得入軍中主兵。曲周侯酈商老病，其子寄與呂祿善。絳侯乃與丞相陳平謀，使人劫酈商。令其子寄往紿說呂祿曰：「高帝與呂后共定天下，劉氏所立九王，呂氏所立三王，皆大臣之議，事已布告諸侯，諸侯皆以為宜。今太后崩，帝少，而足下佩趙王印，不急之國守藩，乃為上將，將兵留此，為大臣諸侯所疑。足下何不歸印，以兵屬太尉？請梁王歸相國印，與大臣盟而之國，齊兵必罷，大臣得安，足下高枕而王千里，此萬世之利也。」呂祿信然其計，欲歸將印，以兵屬太尉。使人報呂產及諸呂老人，或以為便，或曰不便，計猶豫未有所決。呂祿信酈寄，時與出游獵。過其姑呂媭，媭大怒，曰：「若為將而棄軍，呂氏今無處矣。」乃悉出珠玉寶器散堂下，曰：「毋為他人守也」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m025-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "絳侯勃",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "酈商",
+          "kind": "person",
+          "person_id": "cbr-p000765",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0023",
+          "start": 23,
+          "end": 24,
+          "surface": "寄",
+          "kind": "person",
+          "person_id": "cbr-p000871",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "絳侯",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "陳平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "酈商",
+          "kind": "person",
+          "person_id": "cbr-p000765",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0048",
+          "start": 48,
+          "end": 49,
+          "surface": "寄",
+          "kind": "person",
+          "person_id": "cbr-p000871",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0106",
+          "start": 106,
+          "end": 107,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0152",
+          "start": 152,
+          "end": 154,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0198",
+          "start": 198,
+          "end": 200,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0213",
+          "start": 213,
+          "end": 215,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0219",
+          "start": 219,
+          "end": 221,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0222",
+          "start": 222,
+          "end": 226,
+          "surface": "諸呂老人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0245",
+          "start": 245,
+          "end": 247,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0248",
+          "start": 248,
+          "end": 250,
+          "surface": "酈寄",
+          "kind": "person",
+          "person_id": "cbr-p000871",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0260",
+          "start": 260,
+          "end": 262,
+          "surface": "呂媭",
+          "kind": "person",
+          "person_id": "cbr-p000845",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0263",
+          "start": 263,
+          "end": 264,
+          "surface": "媭",
+          "kind": "person",
+          "person_id": "cbr-p000845",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m025-0277",
+          "start": 277,
+          "end": 279,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p026",
       "text": "左丞相食其免。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m026-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "食其",
+          "kind": "person",
+          "person_id": "cbr-p000718",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p027",
       "text": "八月庚申旦，平陽侯窋行御史大夫事，見相國產計事。郎中令賈壽使從齊來，因數產曰：「王不蚤之國，今雖欲行，尚可得邪？」具以灌嬰與齊楚合從，欲誅諸呂告產，乃趣產急入宮。平陽侯頗聞其語，乃馳告丞相、太尉。太尉欲入北軍，不得入。襄平侯通尚符節。乃令持節矯內太尉北軍。太尉復令酈寄與典客劉揭先說呂祿曰：「帝使太尉守北軍，欲足下之國，急歸將印辭去，不然，禍且起。」呂祿以為酈兄不欺己，遂解印屬典客，而以兵授太尉。太尉將之入軍門，行令軍中曰：「為呂氏右袒，為劉氏左袒。」軍中皆左袒為劉氏。太尉行至，將軍呂祿亦已解上將印去，太尉遂將北軍。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m027-0006",
+          "start": 6,
+          "end": 10,
+          "surface": "平陽侯窋",
+          "kind": "person",
+          "person_id": "cbr-p000872",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "相國產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "賈壽",
+          "kind": "person",
+          "person_id": "cbr-p000873",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0036",
+          "start": 36,
+          "end": 37,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0072",
+          "start": 72,
+          "end": 73,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0076",
+          "start": 76,
+          "end": 77,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0081",
+          "start": 81,
+          "end": 84,
+          "surface": "平陽侯",
+          "kind": "person",
+          "person_id": "cbr-p000872",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "丞相",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0109",
+          "start": 109,
+          "end": 113,
+          "surface": "襄平侯通",
+          "kind": "person",
+          "person_id": "cbr-p000874",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0123",
+          "start": 123,
+          "end": 125,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0128",
+          "start": 128,
+          "end": 130,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "酈寄",
+          "kind": "person",
+          "person_id": "cbr-p000871",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "典客",
+          "kind": "person",
+          "person_id": "cbr-p000875",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0137",
+          "start": 137,
+          "end": 139,
+          "surface": "劉揭",
+          "kind": "person",
+          "person_id": "cbr-p000875",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0141",
+          "start": 141,
+          "end": 143,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0146",
+          "start": 146,
+          "end": 147,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0175",
+          "start": 175,
+          "end": 177,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "酈兄",
+          "kind": "person",
+          "person_id": "cbr-p000871",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0189",
+          "start": 189,
+          "end": 191,
+          "surface": "典客",
+          "kind": "person",
+          "person_id": "cbr-p000875",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0196",
+          "start": 196,
+          "end": 198,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0199",
+          "start": 199,
+          "end": 201,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0215",
+          "start": 215,
+          "end": 217,
+          "surface": "呂氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0221",
+          "start": 221,
+          "end": 223,
+          "surface": "劉氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0233",
+          "start": 233,
+          "end": 235,
+          "surface": "劉氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0236",
+          "start": 236,
+          "end": 238,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0243",
+          "start": 243,
+          "end": 245,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m027-0253",
+          "start": 253,
+          "end": 255,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p028",
       "text": "然尚有南軍。平陽侯聞之，以呂產謀告丞相平，丞相平乃召朱虛侯佐太尉。太尉令朱虛侯監軍門。令平陽侯告衛尉：「毋入相國產殿門。」呂產不知呂祿已去北軍，乃入未央宮，欲為亂，殿門弗得入，裴回往來。平陽侯恐弗勝，馳語太尉。太尉尚恐不勝諸呂，未敢訟言誅之，乃遣朱虛侯謂曰：「急入宮衛帝。」朱虛侯請卒，太尉予卒千餘人。入未央宮門，遂見產廷中。日餔時，遂擊產。產走，天風大起，以故其從官亂，莫敢鬬。逐產，殺之郎中府吏廁中。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m028-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "平陽侯",
+          "kind": "person",
+          "person_id": "cbr-p000872",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0017",
+          "start": 17,
+          "end": 20,
+          "surface": "丞相平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0021",
+          "start": 21,
+          "end": 24,
+          "surface": "丞相平",
+          "kind": "person",
+          "person_id": "cbr-p000692",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0026",
+          "start": 26,
+          "end": 29,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0036",
+          "start": 36,
+          "end": 39,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0044",
+          "start": 44,
+          "end": 47,
+          "surface": "平陽侯",
+          "kind": "person",
+          "person_id": "cbr-p000872",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "衛尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0054",
+          "start": 54,
+          "end": 57,
+          "surface": "相國產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0093",
+          "start": 93,
+          "end": 96,
+          "surface": "平陽侯",
+          "kind": "person",
+          "person_id": "cbr-p000872",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0123",
+          "start": 123,
+          "end": 126,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0134",
+          "start": 134,
+          "end": 135,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0137",
+          "start": 137,
+          "end": 140,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0159",
+          "start": 159,
+          "end": 160,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0169",
+          "start": 169,
+          "end": 170,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0171",
+          "start": 171,
+          "end": 172,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m028-0191",
+          "start": 191,
+          "end": 192,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p029",
       "text": "朱虛侯已殺產，帝命謁者持節勞朱虛侯。朱虛侯欲奪節信，謁者不肯，朱虛侯則從與載，因節信馳走，斬長樂衛尉呂更始。還，馳入北軍，報太尉。太尉起，拜賀朱虛侯曰：「所患獨呂產，今已誅，天下定矣。」遂遣人分部悉捕諸呂男女，無少長皆斬之。辛酉，捕斬呂祿，而笞殺呂媭。使人誅燕王呂通，而廢魯王偃。壬戌，以帝太傅食其復為左丞相。戊辰，徙濟川王王梁，立趙幽王子遂為趙王。遣朱虛侯章以誅諸呂氏事告齊王，令罷兵。灌嬰兵亦罷滎陽而歸。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m029-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0005",
+          "start": 5,
+          "end": 6,
+          "surface": "產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "謁者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "謁者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0050",
+          "start": 50,
+          "end": 53,
+          "surface": "呂更始",
+          "kind": "person",
+          "person_id": "cbr-p000847",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0071",
+          "start": 71,
+          "end": 74,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "呂產",
+          "kind": "person",
+          "person_id": "cbr-p000823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0100",
+          "start": 100,
+          "end": 104,
+          "surface": "諸呂男女",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "呂祿",
+          "kind": "person",
+          "person_id": "cbr-p000829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0123",
+          "start": 123,
+          "end": 125,
+          "surface": "呂媭",
+          "kind": "person",
+          "person_id": "cbr-p000845",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "呂通",
+          "kind": "person",
+          "person_id": "cbr-p000861",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0136",
+          "start": 136,
+          "end": 139,
+          "surface": "魯王偃",
+          "kind": "person",
+          "person_id": "cbr-p000831",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0147",
+          "start": 147,
+          "end": 149,
+          "surface": "食其",
+          "kind": "person",
+          "person_id": "cbr-p000718",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0159",
+          "start": 159,
+          "end": 162,
+          "surface": "濟川王",
+          "kind": "person",
+          "person_id": "cbr-p000852",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0166",
+          "start": 166,
+          "end": 169,
+          "surface": "趙幽王",
+          "kind": "person",
+          "person_id": "cbr-p000808",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "子遂",
+          "kind": "person",
+          "person_id": "cbr-p000876",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0176",
+          "start": 176,
+          "end": 179,
+          "surface": "朱虛侯",
+          "kind": "person",
+          "person_id": "cbr-p000832",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0187",
+          "start": 187,
+          "end": 189,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m029-0194",
+          "start": 194,
+          "end": 196,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "cbr-p000729",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p030",
       "text": "諸大臣相與陰謀曰：「少帝及梁、淮陽、常山王，皆非真孝惠子也。呂后以計詐名他人子，殺其母，養後宮，令孝惠子之，立以為後，及諸王，以彊呂氏。今皆已夷滅諸呂，而置所立，即長用事，吾屬無類矣。不如視諸王最賢者立之。」或言「齊悼惠王高帝長子，今其適子為齊王，推本言之，高帝適長孫，可立也」。大臣皆曰：「呂氏以外家惡而幾危宗廟，亂功臣今齊王母家駟（鈞），駟鈞，惡人也。即立齊王，則復為呂氏。」欲立淮南王，以為少，母家又惡。乃曰：「代王方今高帝見子，最長，仁孝寬厚。太后家薄氏謹良。且立長故順，以仁孝聞於天下，便。」乃相與共陰使人召代王。代王使人辭謝。再反，然後乘六乘傳。後九月晦日己酉，至長安，舍代邸。大臣皆往謁，奉天子璽上代王，共尊立為天子。代王數讓，群臣固請，然後聽。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m030-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0013",
+          "start": 13,
+          "end": 21,
+          "surface": "梁、淮陽、常山王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0036",
+          "start": 36,
+          "end": 39,
+          "surface": "他人子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "其母",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0107",
+          "start": 107,
+          "end": 111,
+          "surface": "齊悼惠王",
+          "kind": "person",
+          "person_id": "cbr-p000795",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0129",
+          "start": 129,
+          "end": 131,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0162",
+          "start": 162,
+          "end": 164,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0166",
+          "start": 166,
+          "end": 170,
+          "surface": "駟（鈞）",
+          "kind": "person",
+          "person_id": "cbr-p000877",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0171",
+          "start": 171,
+          "end": 173,
+          "surface": "駟鈞",
+          "kind": "person",
+          "person_id": "cbr-p000877",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0180",
+          "start": 180,
+          "end": 182,
+          "surface": "齊王",
+          "kind": "person",
+          "person_id": "cbr-p000868",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0192",
+          "start": 192,
+          "end": 195,
+          "surface": "淮南王",
+          "kind": "person",
+          "person_id": "cbr-p000809",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0209",
+          "start": 209,
+          "end": 211,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0213",
+          "start": 213,
+          "end": 215,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "cbr-p000662",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cbr-p000821",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0229",
+          "start": 229,
+          "end": 231,
+          "surface": "薄氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0259",
+          "start": 259,
+          "end": 261,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0262",
+          "start": 262,
+          "end": 264,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0306",
+          "start": 306,
+          "end": 308,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m030-0316",
+          "start": 316,
+          "end": 318,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p031",
       "text": "東牟侯興居曰：「誅呂氏吾無功，請得除宮。」乃與太仆汝陰侯滕公入宮，前謂少帝曰：「足下非劉氏，不當立。」乃顧麾左右執戟者掊兵罷去。有數人不肯去兵，宦者令張澤諭告，亦去兵。滕公乃召乘輿車載少帝出。少帝曰：「欲將我安之乎？」滕公曰「出就舍。」舍少府。乃奉天子法駕，迎代王於邸。報曰：「宮謹除。」代王即夕入未央宮。有謁者十人持戟衛端門，曰：「天子在也，足下何為者而入？」代王乃謂太尉。太尉往諭，謁者十人皆掊兵而去。代王遂入而聽政。夜，有司分部誅滅梁、淮陽、常山王及少帝於邸。代王立為天子。二十三年崩，謚為孝文皇帝。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m031-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "興居",
+          "kind": "person",
+          "person_id": "cbr-p000851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "cbr-p000715",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0072",
+          "start": 72,
+          "end": 75,
+          "surface": "宦者令",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "張澤",
+          "kind": "person",
+          "person_id": "cbr-p000878",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "cbr-p000715",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "cbr-p000715",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0144",
+          "start": 144,
+          "end": 146,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0154",
+          "start": 154,
+          "end": 158,
+          "surface": "謁者十人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0167",
+          "start": 167,
+          "end": 169,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0181",
+          "start": 181,
+          "end": 183,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0185",
+          "start": 185,
+          "end": 187,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0188",
+          "start": 188,
+          "end": 190,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "cbr-p000805",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0193",
+          "start": 193,
+          "end": 197,
+          "surface": "謁者十人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0203",
+          "start": 203,
+          "end": 205,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0219",
+          "start": 219,
+          "end": 227,
+          "surface": "梁、淮陽、常山王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0228",
+          "start": 228,
+          "end": 230,
+          "surface": "少帝",
+          "kind": "person",
+          "person_id": "cbr-p000840",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0233",
+          "start": 233,
+          "end": 235,
+          "surface": "代王",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m031-0248",
+          "start": 248,
+          "end": 252,
+          "surface": "孝文皇帝",
+          "kind": "person",
+          "person_id": "cbr-p000806",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-009-lvhou:p032",
       "text": "太史公曰：孝惠皇帝、高后之時，黎民得離戰國之苦，君臣俱欲休息乎無為，故惠帝垂拱，高后女主稱制，政不出房戶，天下晏然。刑罰罕用，罪人是希。民務稼穡，衣食滋殖。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-009-lvhou:m032-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、匿名者或未定官稱；不補造姓名或把身世指控當定論。"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m032-0005",
+          "start": 5,
+          "end": 9,
+          "surface": "孝惠皇帝",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m032-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m032-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "惠帝",
+          "kind": "person",
+          "person_id": "cbr-p000713",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-009-lvhou:m032-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "cbr-p000717",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }

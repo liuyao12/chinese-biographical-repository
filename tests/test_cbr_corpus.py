@@ -339,4 +339,15 @@ class CorpusTests(unittest.TestCase):
         self.assertEqual(king['person_id'],friend['person_id'])
         self.assertNotEqual(king['person_id'],previous['person_id'])
 
+    def test_lvhou_bo_family_queen_is_not_empress_lv(self):
+        c=json.loads((self.root/'corpus/shiji/009.json').read_text())
+        p=c['paragraphs'][29];a=p['text'].index('太后家薄氏')
+        queen=next(m for m in p['mentions'] if m['start']==a)
+        bo=next(m for m in c['paragraphs'][2]['mentions'] if m['surface']=='薄夫人')
+        lv=next(m for m in c['paragraphs'][0]['mentions'] if m['surface']=='呂太后')
+        self.assertEqual(queen['person_id'],bo['person_id'])
+        self.assertNotEqual(queen['person_id'],lv['person_id'])
+        p=c['paragraphs'][21];a=p['text'].index('語在齊王語')+2
+        self.assertFalse(any(m['person_id'] and m['start']<=a<m['end'] for m in p['mentions']))
+
 if __name__=='__main__':unittest.main()
