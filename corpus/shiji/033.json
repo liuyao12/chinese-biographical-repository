@@ -21,26 +21,31 @@
       "character_conversion": {
         "笔": "筆",
         "鸮": "鴞",
-        "龂": "齗"
+        "龂": "齗",
+        "龁": "齕"
       },
       "editorial_readings": [],
       "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
-      "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。前55段首輪，未核影像、底本及現代研究。"
+      "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
     }
   },
-  "text_sha256": "b46236a2095c8ef2ce0efc42056d0632746d9b2e7d26dca5890943f7c2c75ed5",
+  "text_sha256": "296ba259c923d2e28733a1bcfc50f248f5776d48f2ca436406589a7f0b9ec9c4",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "102段數位正文；第1至55段明示人名、部分短稱及匿名者首輪標註，後47段待處理。",
+    "coverage": "102段數位正文均完成明示人名、部分短稱與匿名者首輪檢視；不等於全部指代、身份與史學覆核完成。",
     "limitations": [
       "筆昔及真公記事接武公九年等數位見證問題待校，不由記憶補文。",
       "樊仲山父與前卷仲山甫的同指待版本比對，另保留候選。",
       "世系、祈禱引語、匿名者、代詞與稱號時段仍待覆核。",
       "第53段晉襄父及第54段宣伯保留本文稱呼與獨立候選，尚未核對與前篇人物的同指。",
       "公子揮與前篇魯公子翚暫不合併；地點氏稱與群體不補個人。",
-      "本篇叔姜生子開與齊太公世家哀姜為湣公母兩項來源主張並存，尚未作範圍明確的優先決定。"
+      "本篇叔姜生子開與齊太公世家哀姜為湣公母兩項來源主張並存，尚未作範圍明確的優先決定。",
+      "文公長妃哀姜與莊公夫人哀姜分開；先後魯文公與不同國同爵者不按爵號合併。",
+      "兩段宣伯、叔孫與叔孫昭子等候選尚待版本及身份比對；子將與魯哀公將分開。",
+      "本文砹齊等疑讀、俆州及原字俀、裯仍保留，未由記憶訂正。",
+      "新增龁至齕字形轉換只涉原待處理第76段，髙等異體仍保留。"
     ]
   },
   "paragraphs": [
@@ -5389,331 +5394,3626 @@
     {
       "id": "c-shiji-033-lu:p056",
       "text": "十五年，季文子使於晉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m056-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p057",
       "text": "十八年二月，文公卒。文公有二妃：長妃齊女爲哀姜，生子惡及視；次妃敬嬴，嬖愛，生子俀。俀私事襄仲，襄仲欲立之，叔仲曰不可。襄仲請齊惠公，惠公新立，欲親魯，許之。冬十月，襄仲殺子惡及視而立俀，是爲宣公。哀姜歸齊，哭而過市，曰：『天乎！襄仲爲不道，殺適立庶！』市人皆哭，魯人謂之『哀姜』。魯由此公室卑，三桓彊。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m057-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "文公",
+          "kind": "person",
+          "person_id": "cbr-p001250",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "文公",
+          "kind": "person",
+          "person_id": "cbr-p001250",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "哀姜",
+          "kind": "person",
+          "person_id": "cbr-p001263",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "子惡",
+          "kind": "person",
+          "person_id": "cbr-p001264",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0028",
+          "start": 28,
+          "end": 29,
+          "surface": "視",
+          "kind": "person",
+          "person_id": "cbr-p001265",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "敬嬴",
+          "kind": "person",
+          "person_id": "cbr-p001266",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "子俀",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0042",
+          "start": 42,
+          "end": 43,
+          "surface": "俀",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "叔仲",
+          "kind": "person",
+          "person_id": "cbr-p001269",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0063",
+          "start": 63,
+          "end": 66,
+          "surface": "齊惠公",
+          "kind": "person",
+          "person_id": "cbr-p001133",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "惠公",
+          "kind": "person",
+          "person_id": "cbr-p001133",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "子惡",
+          "kind": "person",
+          "person_id": "cbr-p001264",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0089",
+          "start": 89,
+          "end": 90,
+          "surface": "視",
+          "kind": "person",
+          "person_id": "cbr-p001265",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0092",
+          "start": 92,
+          "end": 93,
+          "surface": "俀",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "宣公",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "哀姜",
+          "kind": "person",
+          "person_id": "cbr-p001263",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0115",
+          "start": 115,
+          "end": 117,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0127",
+          "start": 127,
+          "end": 129,
+          "surface": "市人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "魯人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0137",
+          "start": 137,
+          "end": 139,
+          "surface": "哀姜",
+          "kind": "person",
+          "person_id": "cbr-p001263",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m057-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p058",
       "text": "宣公俀十二年，楚莊王彊，圍鄭。鄭伯降，復國之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m058-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "宣公俀",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m058-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "楚莊王",
+          "kind": "person",
+          "person_id": "cbr-p000257",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m058-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "鄭伯",
+          "kind": "person",
+          "person_id": "cbr-p001148",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p059",
       "text": "十八年，宣公卒，子成公黑肱立，是爲成公。季文子曰：『使我殺適立庶失大援者，襄仲。』襄仲立宣公，公孫歸父有寵。宣公欲去三桓，與晉謀伐三桓。會宣公卒，季文子怨之，歸父奔齊。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m059-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "宣公",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0009",
+          "start": 9,
+          "end": 13,
+          "surface": "成公黑肱",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0020",
+          "start": 20,
+          "end": 23,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "宣公",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0047",
+          "start": 47,
+          "end": 51,
+          "surface": "公孫歸父",
+          "kind": "person",
+          "person_id": "cbr-p001271",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "宣公",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "宣公",
+          "kind": "person",
+          "person_id": "cbr-p001267",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0073",
+          "start": 73,
+          "end": 76,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m059-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "歸父",
+          "kind": "person",
+          "person_id": "cbr-p001271",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p060",
       "text": "成公二年春，齊伐取我隆。夏，公與晉郤克敗齊頃公於砹齊復歸我侵地。四年，成公如晉，晉景公不敬魯。魯欲背晉合於楚，或諫，乃不。十年，成公如晉。晉景公卒，因留成公送葬，魯諱之。十五年，始與吳王壽夢會鐘離。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m060-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "晉郤克",
+          "kind": "person",
+          "person_id": "cbr-p001149",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0020",
+          "start": 20,
+          "end": 23,
+          "surface": "齊頃公",
+          "kind": "person",
+          "person_id": "cbr-p001145",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0040",
+          "start": 40,
+          "end": 43,
+          "surface": "晉景公",
+          "kind": "person",
+          "person_id": "cbr-p001155",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "或諫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0069",
+          "start": 69,
+          "end": 72,
+          "surface": "晉景公",
+          "kind": "person",
+          "person_id": "cbr-p001155",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m060-0091",
+          "start": 91,
+          "end": 95,
+          "surface": "吳王壽夢",
+          "kind": "person",
+          "person_id": "cbr-p001029",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p061",
       "text": "十六年，宣伯告晉，欲誅季文子。文子有義，晉人弗許。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m061-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "宣伯",
+          "kind": "person",
+          "person_id": "cbr-p001272",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m061-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m061-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p062",
       "text": "十八年，成公卒，子午立，是爲襄公。是時襄公三歲也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m062-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "成公",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m062-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "午",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m062-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m062-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p063",
       "text": "襄公元年，晉立悼公。往年冬，晉欒書弒其君厲公。四年，襄公朝晉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m063-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m063-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "悼公",
+          "kind": "person",
+          "person_id": "cbr-p000261",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m063-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "晉欒書",
+          "kind": "person",
+          "person_id": "cbr-p000415",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m063-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "厲公",
+          "kind": "person",
+          "person_id": "cbr-p000260",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m063-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p064",
       "text": "五年，季文子卒。家無衣帛之妾，廄無食粟之馬，府無金玉，以相三君。君子曰：『季文子廉忠矣。』",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m064-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m064-0013",
+          "start": 13,
+          "end": 14,
+          "surface": "妾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m064-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "三君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m064-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "君子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m064-0037",
+          "start": 37,
+          "end": 40,
+          "surface": "季文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p065",
       "text": "九年，與晉伐鄭。晉悼公冠襄公於衛，季武子從，相行禮。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m065-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "晉悼公",
+          "kind": "person",
+          "person_id": "cbr-p000261",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m065-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m065-0017",
+          "start": 17,
+          "end": 20,
+          "surface": "季武子",
+          "kind": "person",
+          "person_id": "cbr-p001274",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p066",
       "text": "十一年，三桓氏分爲三軍。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m066-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "三桓氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p067",
       "text": "十二年，朝晉。十六年，晉平公即位。二十一年，朝晉平公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m067-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "晉平公",
+          "kind": "person",
+          "person_id": "cbr-p000416",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m067-0023",
+          "start": 23,
+          "end": 26,
+          "surface": "晉平公",
+          "kind": "person",
+          "person_id": "cbr-p000416",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p068",
       "text": "二十二年，孔丘生。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m068-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p069",
       "text": "二十五年，齊崔杼弒其君莊公，立其弟景公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m069-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "齊崔杼",
+          "kind": "person",
+          "person_id": "cbr-p000263",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m069-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "莊公",
+          "kind": "person",
+          "person_id": "cbr-p000264",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m069-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p070",
       "text": "二十九年，吳延陵季子使魯，問周樂，盡知其意，魯人敬焉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m070-0005",
+          "start": 5,
+          "end": 10,
+          "surface": "吳延陵季子",
+          "kind": "person",
+          "person_id": "cbr-p001036",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m070-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "魯人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p071",
       "text": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m071-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "襄公",
+          "kind": "person",
+          "person_id": "cbr-p001273",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m071-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p001276",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m071-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "魯人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m071-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "齊歸",
+          "kind": "person",
+          "person_id": "cbr-p001275",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m071-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "裯",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m071-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p072",
       "text": "昭公年十九，猶有童心。穆叔不欲立，曰：『太子死，有母弟可立，不即立長。年鈞擇賢，義鈞則卜之。今裯非適嗣，且又居喪意不在戚而有喜色，若果立，必爲季氏憂。』季武子弗聽，卒立之。比及葬，三易衰。君子曰：『是不終也。』",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m072-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "穆叔",
+          "kind": "person",
+          "person_id": "cbr-p001277",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "cbr-p001276",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "母弟",
+          "kind": "person",
+          "person_id": "cbr-p001278",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0047",
+          "start": 47,
+          "end": 48,
+          "surface": "裯",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0076",
+          "start": 76,
+          "end": 79,
+          "surface": "季武子",
+          "kind": "person",
+          "person_id": "cbr-p001274",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m072-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "君子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p073",
       "text": "昭公三年，朝晉至河，晉平公謝還之，魯恥焉。四年，楚靈王會諸矦於申，昭公稱病不往。七年，季武子卒。八年，楚靈王就章華臺，召昭公。昭公往賀，賜昭公寶器；已而悔，復詐取之。十二年，朝晉至河，晉平公謝還之。十三年，楚公子棄疾弒其君靈王，代立。十五年，朝晉，晉留之葬晉昭公，魯恥之。二十年，齊景公與晏子狩竟，因入魯問禮。二十一年，朝晉至河，晉謝還之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m073-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0010",
+          "start": 10,
+          "end": 13,
+          "surface": "晉平公",
+          "kind": "person",
+          "person_id": "cbr-p000416",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "楚靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0043",
+          "start": 43,
+          "end": 46,
+          "surface": "季武子",
+          "kind": "person",
+          "person_id": "cbr-p001274",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0051",
+          "start": 51,
+          "end": 54,
+          "surface": "楚靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0092",
+          "start": 92,
+          "end": 95,
+          "surface": "晉平公",
+          "kind": "person",
+          "person_id": "cbr-p000416",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0103",
+          "start": 103,
+          "end": 108,
+          "surface": "楚公子棄疾",
+          "kind": "person",
+          "person_id": "cbr-p000421",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "靈王",
+          "kind": "person",
+          "person_id": "cbr-p000417",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0128",
+          "start": 128,
+          "end": 131,
+          "surface": "晉昭公",
+          "kind": "person",
+          "person_id": "cbr-p001209",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0140",
+          "start": 140,
+          "end": 143,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m073-0144",
+          "start": 144,
+          "end": 146,
+          "surface": "晏子",
+          "kind": "person",
+          "person_id": "cbr-p001044",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p074",
       "text": "二十五年春，鸜鵒來巢。師己曰：『文成之世童謠曰「鸜鵒來巢，公在乾矦。鸜鵒入處，公在外野」。』",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m074-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "師己",
+          "kind": "person",
+          "person_id": "cbr-p001279",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m074-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "文",
+          "kind": "person",
+          "person_id": "cbr-p001250",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m074-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "成",
+          "kind": "person",
+          "person_id": "cbr-p001270",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p075",
       "text": "季氏與郈氏鬬雞，季氏芥雞羽，郈氏金距。季平子怒而侵郈氏，郈昭伯亦怒平子。臧昭伯之弟會偽讒臧氏，匿季氏，臧昭伯囚季氏人。季平子怒，囚臧氏老。臧、郈氏以難告昭公。昭公九月戊戌伐季氏，遂入。平子登臺請曰：『君以讒不察臣罪，誅之，請遷沂上。』弗許。請囚於鄪，弗許。請以五乘亡，弗許。子家駒曰：『君其許之。政自季氏久矣，爲徒者眾，眾將合謀。』弗聽。郈氏曰：『必殺之。』叔孫氏之臣戾謂其眾曰：『無季氏與有，孰利？』皆曰：『無季氏是無叔孫氏。』戾曰：『然，救季氏！』遂敗公師。孟懿子聞叔孫氏勝，亦殺郈昭伯。郈昭伯爲公使，故孟氏得之。三家共伐公，公遂奔。己亥，公至于齊。齊景公曰：『請致千社待君。』子家曰：『棄周公之業而臣於齊，可乎？』乃止。子家曰：『齊景公無信，不如早之晉。』弗從。叔孫見公還，見平子，平子頓首。初欲迎昭公，孟孫、季孫後悔，乃止。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m075-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "郈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "郈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0019",
+          "start": 19,
+          "end": 22,
+          "surface": "季平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "郈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "郈昭伯",
+          "kind": "person",
+          "person_id": "cbr-p001281",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0036",
+          "start": 36,
+          "end": 39,
+          "surface": "臧昭伯",
+          "kind": "person",
+          "person_id": "cbr-p001282",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "弟會",
+          "kind": "person",
+          "person_id": "cbr-p001283",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "臧氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0051",
+          "start": 51,
+          "end": 54,
+          "surface": "臧昭伯",
+          "kind": "person",
+          "person_id": "cbr-p001282",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0059",
+          "start": 59,
+          "end": 62,
+          "surface": "季平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0065",
+          "start": 65,
+          "end": 68,
+          "surface": "臧氏老",
+          "kind": "person",
+          "person_id": "cbr-p001284",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "郈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0137",
+          "start": 137,
+          "end": 140,
+          "surface": "子家駒",
+          "kind": "person",
+          "person_id": "cbr-p001179",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0150",
+          "start": 150,
+          "end": 152,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0158",
+          "start": 158,
+          "end": 159,
+          "surface": "眾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0160",
+          "start": 160,
+          "end": 161,
+          "surface": "眾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "郈氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0179",
+          "start": 179,
+          "end": 182,
+          "surface": "叔孫氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0184",
+          "start": 184,
+          "end": 185,
+          "surface": "戾",
+          "kind": "person",
+          "person_id": "cbr-p001285",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0187",
+          "start": 187,
+          "end": 188,
+          "surface": "眾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0192",
+          "start": 192,
+          "end": 194,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0206",
+          "start": 206,
+          "end": 208,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0210",
+          "start": 210,
+          "end": 213,
+          "surface": "叔孫氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0215",
+          "start": 215,
+          "end": 216,
+          "surface": "戾",
+          "kind": "person",
+          "person_id": "cbr-p001285",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0222",
+          "start": 222,
+          "end": 224,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0228",
+          "start": 228,
+          "end": 229,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0231",
+          "start": 231,
+          "end": 234,
+          "surface": "孟懿子",
+          "kind": "person",
+          "person_id": "cbr-p001286",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0235",
+          "start": 235,
+          "end": 238,
+          "surface": "叔孫氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0242",
+          "start": 242,
+          "end": 245,
+          "surface": "郈昭伯",
+          "kind": "person",
+          "person_id": "cbr-p001281",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0246",
+          "start": 246,
+          "end": 249,
+          "surface": "郈昭伯",
+          "kind": "person",
+          "person_id": "cbr-p001281",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0250",
+          "start": 250,
+          "end": 251,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0254",
+          "start": 254,
+          "end": 256,
+          "surface": "孟氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0259",
+          "start": 259,
+          "end": 261,
+          "surface": "三家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0263",
+          "start": 263,
+          "end": 264,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0265",
+          "start": 265,
+          "end": 266,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0272",
+          "start": 272,
+          "end": 273,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0277",
+          "start": 277,
+          "end": 280,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0291",
+          "start": 291,
+          "end": 293,
+          "surface": "子家",
+          "kind": "person",
+          "person_id": "cbr-p001179",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0297",
+          "start": 297,
+          "end": 299,
+          "surface": "周公",
+          "kind": "person",
+          "person_id": "cbr-p000156",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0313",
+          "start": 313,
+          "end": 315,
+          "surface": "子家",
+          "kind": "person",
+          "person_id": "cbr-p001179",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0318",
+          "start": 318,
+          "end": 321,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0334",
+          "start": 334,
+          "end": 336,
+          "surface": "叔孫",
+          "kind": "person",
+          "person_id": "cbr-p001287",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0337",
+          "start": 337,
+          "end": 338,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0341",
+          "start": 341,
+          "end": 343,
+          "surface": "平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0344",
+          "start": 344,
+          "end": 346,
+          "surface": "平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0352",
+          "start": 352,
+          "end": 354,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0355",
+          "start": 355,
+          "end": 357,
+          "surface": "孟孫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m075-0358",
+          "start": 358,
+          "end": 360,
+          "surface": "季孫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p076",
-      "text": "二十六年春，齊伐魯，取鄆而居昭公焉。夏，齊景公將內公，令無受魯賂。申豐、汝賈許齊臣髙龁、子將粟五千庾。子將言於齊矦曰：『群臣不能事魯君，有異焉。宋元公爲魯如晉，求內之，道卒。叔孫昭子求內其君，無病而死。不知天棄魯乎？抑魯君有罪于鬼神也？願君且待。』齊景公從之。",
-      "annotation_status": "pending",
+      "text": "二十六年春，齊伐魯，取鄆而居昭公焉。夏，齊景公將內公，令無受魯賂。申豐、汝賈許齊臣髙齕、子將粟五千庾。子將言於齊矦曰：『群臣不能事魯君，有異焉。宋元公爲魯如晉，求內之，道卒。叔孫昭子求內其君，無病而死。不知天棄魯乎？抑魯君有罪于鬼神也？願君且待。』齊景公從之。",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m076-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0020",
+          "start": 20,
+          "end": 23,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0025",
+          "start": 25,
+          "end": 26,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "申豐",
+          "kind": "person",
+          "person_id": "cbr-p001288",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "汝賈",
+          "kind": "person",
+          "person_id": "cbr-p001289",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "髙齕",
+          "kind": "person",
+          "person_id": "cbr-p001290",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "子將",
+          "kind": "person",
+          "person_id": "cbr-p001291",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "子將",
+          "kind": "person",
+          "person_id": "cbr-p001291",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "群臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "魯君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0072",
+          "start": 72,
+          "end": 75,
+          "surface": "宋元公",
+          "kind": "person",
+          "person_id": "cbr-p001292",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0087",
+          "start": 87,
+          "end": 91,
+          "surface": "叔孫昭子",
+          "kind": "person",
+          "person_id": "cbr-p001293",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "魯君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0114",
+          "start": 114,
+          "end": 116,
+          "surface": "鬼神",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m076-0124",
+          "start": 124,
+          "end": 127,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p077",
       "text": "二十八年，昭公如晉，求入。季平子私於晉六卿，六卿受季氏賂，諫晉君，晉君乃止，居昭公乾矦。二十九年，昭公如鄆。齊景公使人賜昭公書，自謂『主君』。昭公恥之，怒而去乾矦。三十一年，晉欲內昭公，召季平子。平子布衣跣行，因六卿謝罪。六卿爲言曰：『晉欲內昭公，眾不從。』晉人止。三十二年，昭公卒於乾矦。魯人共立昭公弟宋爲君，是爲定公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m077-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "季平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "六卿",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "六卿",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "晉君",
+          "kind": "person",
+          "person_id": "cbr-p001294",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "晉君",
+          "kind": "person",
+          "person_id": "cbr-p001294",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0054",
+          "start": 54,
+          "end": 57,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0094",
+          "start": 94,
+          "end": 97,
+          "surface": "季平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "六卿",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "六卿",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0124",
+          "start": 124,
+          "end": 125,
+          "surface": "眾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0129",
+          "start": 129,
+          "end": 131,
+          "surface": "晉人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0138",
+          "start": 138,
+          "end": 140,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0145",
+          "start": 145,
+          "end": 147,
+          "surface": "魯人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0149",
+          "start": 149,
+          "end": 151,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0152",
+          "start": 152,
+          "end": 153,
+          "surface": "宋",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m077-0158",
+          "start": 158,
+          "end": 160,
+          "surface": "定公",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p078",
       "text": "定公立，趙簡子問史墨曰：『季氏亡乎？』史墨對曰：『不亡。季友有大功於魯，受鄪爲上卿，至于文子、武子，世增其業。魯文公卒，東門遂殺適立庶，魯君於是失國政。政在季氏，於今四君矣。民不知君，何以得國！是以爲君慎器與名，不可以假人。』",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m078-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "定公",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "趙簡子",
+          "kind": "person",
+          "person_id": "cbr-p000429",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "史墨",
+          "kind": "person",
+          "person_id": "cbr-p001295",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "史墨",
+          "kind": "person",
+          "person_id": "cbr-p001295",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "季友",
+          "kind": "person",
+          "person_id": "cbr-p001244",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "文子",
+          "kind": "person",
+          "person_id": "cbr-p001262",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "武子",
+          "kind": "person",
+          "person_id": "cbr-p001274",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0055",
+          "start": 55,
+          "end": 58,
+          "surface": "魯文公",
+          "kind": "person",
+          "person_id": "cbr-p001250",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0060",
+          "start": 60,
+          "end": 63,
+          "surface": "東門遂",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "魯君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m078-0087",
+          "start": 87,
+          "end": 88,
+          "surface": "民",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p079",
       "text": "定公五年，季平子卒。陽虎私怒，囚季桓子，與盟，乃捨之。七年，齊伐我，取鄆，以爲魯陽虎邑以從政。八年，陽虎欲盡殺三桓適，而更立其所善庶子以代之；載季桓子將殺之，桓子詐而得脫。三桓共攻陽虎，陽虎居陽關。九年，魯伐陽虎，陽虎奔齊，已而奔晉趙氏。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m079-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "定公",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "季平子",
+          "kind": "person",
+          "person_id": "cbr-p001280",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "季桓子",
+          "kind": "person",
+          "person_id": "cbr-p001296",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0039",
+          "start": 39,
+          "end": 42,
+          "surface": "魯陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "庶子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0072",
+          "start": 72,
+          "end": 75,
+          "surface": "季桓子",
+          "kind": "person",
+          "person_id": "cbr-p001296",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "桓子",
+          "kind": "person",
+          "person_id": "cbr-p001296",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0104",
+          "start": 104,
+          "end": 106,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0107",
+          "start": 107,
+          "end": 109,
+          "surface": "陽虎",
+          "kind": "person",
+          "person_id": "cbr-p001180",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m079-0116",
+          "start": 116,
+          "end": 118,
+          "surface": "趙氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p080",
       "text": "十年，定公與齊景公會於夾谷，孔子行相事。齊欲襲魯君，孔子以禮歷階，誅齊淫樂，齊矦懼，乃止，歸魯侵地而謝過。十二年，使仲由毀三桓城，收其甲兵。孟氏不肯墮城，伐之，不克而止。季桓子受齊女樂，孔子去。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m080-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "定公",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "仲由",
+          "kind": "person",
+          "person_id": "cbr-p001297",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "孟氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0085",
+          "start": 85,
+          "end": 88,
+          "surface": "季桓子",
+          "kind": "person",
+          "person_id": "cbr-p001296",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0089",
+          "start": 89,
+          "end": 92,
+          "surface": "齊女樂",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m080-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p081",
       "text": "十五年，定公卒，子將立，是爲哀公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m081-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "定公",
+          "kind": "person",
+          "person_id": "cbr-p001182",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m081-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "將",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m081-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p082",
       "text": "哀公五年，齊景公卒。六年，齊田乞弒其君孺子。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m082-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m082-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "齊景公",
+          "kind": "person",
+          "person_id": "cbr-p001072",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m082-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "齊田乞",
+          "kind": "person",
+          "person_id": "cbr-p000431",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m082-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "孺子",
+          "kind": "person",
+          "person_id": "cbr-p000432",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p083",
       "text": "七年，吳王夫差彊，伐齊，至繒，徵百牢於魯。季康子使子貢說吳王及太宰嚭，以禮詘之。吳王曰：『我文身，不足責禮。』乃止。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m083-0003",
+          "start": 3,
+          "end": 7,
+          "surface": "吳王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m083-0021",
+          "start": 21,
+          "end": 24,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p001074",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m083-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p001075",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m083-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m083-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p001064",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m083-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "吳王",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p084",
       "text": "吳爲鄒伐魯，至城下，盟而去。齊伐我，取三邑。十年，伐齊南邊。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m084-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "吳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m084-0002",
+          "start": 2,
+          "end": 3,
+          "surface": "鄒",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p085",
       "text": "齊伐魯。季氏用冉有有功，思孔子，孔子自衛歸魯。齊田常弒其君簡公於俆州。孔子請伐之，哀公不聽。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m085-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "冉有",
+          "kind": "person",
+          "person_id": "cbr-p001298",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0023",
+          "start": 23,
+          "end": 26,
+          "surface": "齊田常",
+          "kind": "person",
+          "person_id": "cbr-p000270",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "簡公",
+          "kind": "person",
+          "person_id": "cbr-p000271",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m085-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p086",
       "text": "十五年，使子服景伯、子貢爲介，適齊，齊歸我侵地。田常初相，欲親諸矦。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m086-0005",
+          "start": 5,
+          "end": 9,
+          "surface": "子服景伯",
+          "kind": "person",
+          "person_id": "cbr-p001299",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m086-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p001075",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m086-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "田常",
+          "kind": "person",
+          "person_id": "cbr-p000270",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p087",
       "text": "十六年，孔子卒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m087-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p088",
       "text": "二十二年，越王句踐滅吳王夫差。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m088-0005",
+          "start": 5,
+          "end": 9,
+          "surface": "越王句踐",
+          "kind": "person",
+          "person_id": "cbr-p001069",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m088-0010",
+          "start": 10,
+          "end": 14,
+          "surface": "吳王夫差",
+          "kind": "person",
+          "person_id": "cbr-p000434",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p089",
       "text": "二十七年春，季康子卒。夏，哀公患三桓，將欲因諸矦以劫之，三桓亦患公作難，故君臣多閒。公游于陵阪，遇孟武伯於街，曰：『請問余及死乎？』對曰：『不知也。』公欲以越伐三桓。八月，哀公如陘氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m089-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p001074",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "諸矦",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0032",
+          "start": 32,
+          "end": 33,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0042",
+          "start": 42,
+          "end": 43,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0049",
+          "start": 49,
+          "end": 52,
+          "surface": "孟武伯",
+          "kind": "person",
+          "person_id": "cbr-p001300",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0075",
+          "start": 75,
+          "end": 76,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0097",
+          "start": 97,
+          "end": 98,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "國人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p001073",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0120",
+          "start": 120,
+          "end": 123,
+          "surface": "有山氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0125",
+          "start": 125,
+          "end": 126,
+          "surface": "寧",
+          "kind": "person",
+          "person_id": "cbr-p001301",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m089-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "悼公",
+          "kind": "person",
+          "person_id": "cbr-p001301",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p090",
       "text": "悼公之時，三桓勝，魯如小矦，卑於三桓之家。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m090-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "悼公",
+          "kind": "person",
+          "person_id": "cbr-p001301",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m090-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m090-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "三桓",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p091",
       "text": "十三年，三晉滅智伯，分其地有之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m091-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "三晉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m091-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "智伯",
+          "kind": "person",
+          "person_id": "cbr-p000274",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p092",
       "text": "三十七年，悼公卒，子嘉立，是爲元公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m092-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "悼公",
+          "kind": "person",
+          "person_id": "cbr-p001301",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m092-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "cbr-p001302",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m092-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "元公",
+          "kind": "person",
+          "person_id": "cbr-p001302",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p093",
       "text": "元公二十一年卒，子顯立，是爲穆公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m093-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "元公",
+          "kind": "person",
+          "person_id": "cbr-p001302",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m093-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "顯",
+          "kind": "person",
+          "person_id": "cbr-p001303",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m093-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "穆公",
+          "kind": "person",
+          "person_id": "cbr-p001303",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p094",
       "text": "穆公三十三年卒，子奮立，是爲共公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m094-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "穆公",
+          "kind": "person",
+          "person_id": "cbr-p001303",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m094-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "奮",
+          "kind": "person",
+          "person_id": "cbr-p001304",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m094-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "共公",
+          "kind": "person",
+          "person_id": "cbr-p001304",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p095",
       "text": "共公二十二年卒，子屯立，是爲康公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m095-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "共公",
+          "kind": "person",
+          "person_id": "cbr-p001304",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m095-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "屯",
+          "kind": "person",
+          "person_id": "cbr-p001305",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m095-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "康公",
+          "kind": "person",
+          "person_id": "cbr-p001305",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p096",
       "text": "康公九年卒，子匽立，是爲景公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m096-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "康公",
+          "kind": "person",
+          "person_id": "cbr-p001305",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m096-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "匽",
+          "kind": "person",
+          "person_id": "cbr-p001306",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m096-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "景公",
+          "kind": "person",
+          "person_id": "cbr-p001306",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p097",
       "text": "景公二十九年卒，子叔立，是爲平公。是時六國皆稱王。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m097-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "景公",
+          "kind": "person",
+          "person_id": "cbr-p001306",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m097-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "叔",
+          "kind": "person",
+          "person_id": "cbr-p001307",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m097-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "平公",
+          "kind": "person",
+          "person_id": "cbr-p001307",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m097-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "六國",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p098",
       "text": "平公十二年，秦惠王卒。二十二年，平公卒，子賈立，是爲文公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m098-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "平公",
+          "kind": "person",
+          "person_id": "cbr-p001307",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m098-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "秦惠王",
+          "kind": "person",
+          "person_id": "cbr-p000290",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m098-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "平公",
+          "kind": "person",
+          "person_id": "cbr-p001307",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m098-0021",
+          "start": 21,
+          "end": 22,
+          "surface": "賈",
+          "kind": "person",
+          "person_id": "cbr-p001308",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m098-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "文公",
+          "kind": "person",
+          "person_id": "cbr-p001308",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p099",
       "text": "文公七年，楚懷王死于秦。二十三年，文公卒，子讎立，是爲頃公。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m099-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "文公",
+          "kind": "person",
+          "person_id": "cbr-p001308",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m099-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "楚懷王",
+          "kind": "person",
+          "person_id": "cbr-p000505",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m099-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "文公",
+          "kind": "person",
+          "person_id": "cbr-p001308",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m099-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "讎",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m099-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "頃公",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p100",
       "text": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m100-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "頃公",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m100-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "楚頃王",
+          "kind": "person",
+          "person_id": "cbr-p001310",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m100-0036",
+          "start": 36,
+          "end": 40,
+          "surface": "楚考烈王",
+          "kind": "person",
+          "person_id": "cbr-p001311",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m100-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "頃公",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m100-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "家人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m100-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "頃公",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p101",
       "text": "魯起周公至頃公，凡三十四世。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m101-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "周公",
+          "kind": "person",
+          "person_id": "cbr-p000156",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m101-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "頃公",
+          "kind": "person",
+          "person_id": "cbr-p001309",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-033-lu:p102",
       "text": "太史公曰：余聞孔子稱曰『甚矣魯道之衰也！洙泗之閒齗齗如也』。觀慶父及叔牙閔公之際，何其亂也？隱桓之事；襄仲殺適立庶；三家北面爲臣，親攻昭公，昭公以奔。至其揖讓之禮則從矣，而行事何其戾也？",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-033-lu:m102-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0005",
+          "start": 5,
+          "end": 6,
+          "surface": "余",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p000056",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "慶父",
+          "kind": "person",
+          "person_id": "cbr-p001113",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "叔牙",
+          "kind": "person",
+          "person_id": "cbr-p001243",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "閔公",
+          "kind": "person",
+          "person_id": "cbr-p001111",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0046",
+          "start": 46,
+          "end": 47,
+          "surface": "隱",
+          "kind": "person",
+          "person_id": "cbr-p000225",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0047",
+          "start": 47,
+          "end": 48,
+          "surface": "桓",
+          "kind": "person",
+          "person_id": "cbr-p000229",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "襄仲",
+          "kind": "person",
+          "person_id": "cbr-p001268",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "三家",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、未指名者、論贊署稱、地點氏稱或未定指代；不補姓名、爵位與成員。"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-033-lu:m102-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "昭公",
+          "kind": "person",
+          "person_id": "cbr-p001178",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }
