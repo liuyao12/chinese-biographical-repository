@@ -186,7 +186,9 @@ class CorpusTests(unittest.TestCase):
     def test_xiangyu_paternal_uncle_does_not_create_father(self):
         data=json.loads((self.root/'corpus/shiji/007-assertions.json').read_text())
         relations=[a for a in data['assertions'] if a['subject_person_id']=='cbr-p000610']
-        self.assertEqual([(a['predicate'],a['object_person_id']) for a in relations],[('paternal_uncle','cbr-p000603')])
+        people=json.loads((self.root/'registry/persons.json').read_text())['persons']
+        bo=next(p['id'] for p in people if p['label']=='項伯')
+        self.assertEqual({(a['predicate'],a['object_person_id']) for a in relations},{('paternal_uncle','cbr-p000603'),('paternal_uncle',bo)})
         self.assertEqual(relations[0]['qualifiers']['source_term'],'季父')
     def test_huaiwang_grandson_phrase_keeps_two_generations(self):
         chapter=json.loads((self.root/'corpus/shiji/007.json').read_text())
@@ -207,5 +209,65 @@ class CorpusTests(unittest.TestCase):
         self.assertEqual(mentions[governor]['kind'],'person')
         self.assertEqual(mentions[successor]['kind'],'unresolved')
         self.assertIsNone(mentions[successor]['person_id'])
+
+    def test_equivalence_keeps_published_dangyang_mentions(self):
+        c=json.loads((self.root/'corpus/shiji/007.json').read_text())
+        old=[m for p in c['paragraphs'][:12] for m in p['mentions'] if m['surface']=='當陽君']
+        self.assertTrue(old)
+        self.assertEqual({m['person_id'] for m in old},{'cbr-p000680'})
+        decision=json.loads((self.root/'corpus/shiji/007-equivalences.json').read_text())['decisions'][0]
+        self.assertEqual(set(decision['person_ids']),{'cbr-p000680','cbr-p000656'})
+        self.assertEqual(decision['canonical_person_id'],'cbr-p000656')
+        self.assertEqual(v.validate(self.root),[])
+    def test_equivalence_rejects_unrelated_quote(self):
+        def mutate(d):d['decisions'][0]['evidence'][0]['quote']='故立布為九江王'
+        self.change('corpus/shiji/007-equivalences.json',mutate)
+        self.assertTrue(any('同指決定提及不在精確引句' in e for e in v.validate(self.root)))
+    def test_equivalence_rejects_invalid_representative(self):
+        self.change('corpus/shiji/007-equivalences.json',lambda d:d['decisions'][0].update(canonical_person_id='cbr-p000533'))
+        self.assertTrue(any('代表不在端點' in e for e in v.validate(self.root)))
+    def test_equivalence_rejects_canonical_cycle(self):
+        def mutate(d):
+            other=json.loads(json.dumps(d['decisions'][0]));other['id']='synthetic-cycle';other['canonical_person_id']='cbr-p000680';d['decisions'].append(other)
+        self.change('corpus/shiji/007-equivalences.json',mutate)
+        self.assertTrue(any('同指決定代表循環' in e for e in v.validate(self.root)))
+    def test_xiangyu_verb_ji_and_ritual_names_do_not_create_kin(self):
+        c=json.loads((self.root/'corpus/shiji/007.json').read_text())
+        p=c['paragraphs'][16];a=p['text'].index('籍吏民')
+        self.assertFalse(any(m['kind']=='person' and m['start']==a for m in p['mentions']))
+        claims=json.loads((self.root/'corpus/shiji/007-assertions.json').read_text())['assertions']
+        self.assertFalse(any(a['subject_person_id']=='cbr-p000610' and a['predicate'] in ('ancestor','father') for a in claims))
+        self.assertFalse(any(a['object_person_id']=='cbr-p000030' for a in claims))
+    def test_title_grant_is_separate_from_retrospective_attestation(self):
+        holdings=json.loads((self.root/'corpus/shiji/007-titles.json').read_text())['holdings']
+        h=next(h for h in holdings if h['title']=='赤泉侯')
+        self.assertEqual(h['effective_period']['start']['evidence'][0]['paragraph_id'],'c-shiji-007-xiangyu:p042')
+        self.assertTrue(any(a['paragraph_id']=='c-shiji-007-xiangyu:p041' and a['usage']=='retrospective' for a in h['attestations']))
+        self.assertEqual(h['effective_period']['end']['status'],'unknown')
+        lu=next(h for h in holdings if h['title']=='魯公')
+        self.assertTrue(any(a['usage']=='posthumous_usage' for a in lu['attestations']))
+        self.assertEqual(lu['effective_period']['end']['status'],'unknown')
+    def test_title_period_rejects_unsourced_date(self):
+        self.change('corpus/shiji/007-titles.json',lambda d:d['holdings'][0]['effective_period']['start'].update(date_expression='合成日期'))
+        self.assertTrue(any('稱號日期表述不在端點證據' in e for e in v.validate(self.root)))
+    def test_title_period_rejects_death_as_automatic_end(self):
+        def mutate(d):
+            h=d['holdings'][0];h['effective_period']['end']={'status':'source_event','event_type':'death','date_expression':None,'evidence':h['evidence']}
+        self.change('corpus/shiji/007-titles.json',mutate)
+        self.assertTrue(any('死亡或首次用稱不得自動替代起訖' in e for e in v.validate(self.root)))
+    def test_title_occurrence_rejects_wrong_person(self):
+        def mutate(d):d['holdings'][0]['attestations'][0]['person_mention_id']='c-shiji-007-xiangyu:m001-0000'
+        self.change('corpus/shiji/007-titles.json',mutate)
+        self.assertTrue(any('稱號用稱人物提及不符' in e for e in v.validate(self.root)))
+    def test_sister_assertion_follows_subject_orientation(self):
+        people=json.loads((self.root/'registry/persons.json').read_text())['persons']
+        ids={p['label']:p['id'] for p in people}
+        claims=json.loads((self.root/'corpus/shiji/007-assertions.json').read_text())['assertions']
+        a=next(a for a in claims if a['qualifiers']['source_term']=='兄')
+        self.assertEqual((a['subject_person_id'],a['predicate'],a['object_person_id']),(ids['呂后'],'sister',ids['周呂侯（呂后兄）']))
+
+    def test_unknown_title_endpoint_cannot_hide_normalized_year(self):
+        self.change('corpus/shiji/007-titles.json',lambda d:d['holdings'][0]['effective_period']['end'].update(year=207))
+        self.assertTrue(any('不能暗補正規化日期' in e for e in v.validate(self.root)))
 
 if __name__=='__main__':unittest.main()
