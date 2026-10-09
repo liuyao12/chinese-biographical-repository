@@ -8,8 +8,7 @@ permissions:
   actions: read
 jobs:
   prepare:
-    if: github.repository == 'liuyao12/ren-wen'
-    if: github.ref == 'refs/heads/eccp-library'
+    if: github.repository == 'liuyao12/ren-wen' && github.ref == 'refs/heads/eccp-library'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
