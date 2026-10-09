@@ -1,0 +1,79 @@
+{
+  "schema_version": "0.1",
+  "record_type": "source",
+  "id": "s-yoshimoto-2020-wei",
+  "title": "春秋人表考證",
+  "authors": [
+    "吉本道雅"
+  ],
+  "genre": "modern_scholarship",
+  "historical_scope": "春秋衛宣公、戴公及殤公世系的文獻辨析",
+  "bibliography": {
+    "work": "春秋人表考證",
+    "locator": "《京都大學文學部研究紀要》第59號，頁1–96；本次核讀第6頁（PDF頁6），第（8）衛國段。",
+    "publication_date": "2020-03-02",
+    "edition_statement": "日文出版者版本；書目日期據京都大學典藏dc.date.issued，不以入庫、爬取或搜尋顯示日期替代。僅存代理撰寫繁體摘要，不轉錄論文全文。 本次讀取出版者PDF的SHA-256：f5425b76089632e5d312afdc63c4025e3c56c5e548d0f462231af3475fa0625e。"
+  },
+  "witness": {
+    "kind": "institutional_article",
+    "provider": "京都大學學術資訊典藏KURENAI",
+    "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+    "permalink": "https://hdl.handle.net/2433/251008",
+    "accessed_on": "2026-10-09",
+    "verified_against": "校方REST書目及出版者PDF第6頁；校方TEXT衍生文字與PDF頁面互核。",
+    "image_verified": true
+  },
+  "images": [
+    {
+      "url": "https://repository.kulib.kyoto-u.ac.jp/server/api/core/bitstreams/44f777b1-5f2b-416a-9948-191de80873b8/content",
+      "provider": "京都大學學術資訊典藏KURENAI",
+      "exact_page": "論文第6頁／PDF第6頁",
+      "image_verified": true,
+      "note": "現代論文指定頁的數位PDF，非古籍底本、出土文字或拓片；僅外部連結，不提交PDF及呈現影像。"
+    }
+  ],
+  "text": {
+    "language": "zh-Hant",
+    "script_policy": "traditional",
+    "extent": "short_excerpt_and_summary",
+    "transcription_method": "自行撰寫繁體摘要；不複製現代論文全文，依指定頁面核對具體主張。",
+    "normalization": {
+      "character_conversion": "none",
+      "whitespace": "none",
+      "punctuation": "代理摘要，非原文標點"
+    },
+    "segments": [
+      {
+        "id": "s-yoshimoto-2020-wei:p001",
+        "locator": "論文第6頁（PDF第6頁），第（8）衛國段。",
+        "text": "代理摘要：吉本道雅比較衛國世系，指出《史記》衛世家稱宣公為桓公弟，《漢書》古今人表及《毛詩》疏所引衛世家卻作桓公子，認為人表可能用了不同文本；他將戴公相對黔牟的弟／子異說解釋為不同省脫，並認為殤公的世系有脫代及抄寫混淆。這些是作者對特定文字的判讀，須另核所引古籍，不作全域來源排名。",
+        "uncertain_readings": []
+      }
+    ],
+    "sha256": "15ebe23bbb6495f798a9896b38f89b46d6262ab74223fabecc610ac5bf910450"
+  },
+  "rights": {
+    "underlying_work": "現代著作；未取得全文轉載授權",
+    "digital_witness": "僅短引文／自行撰寫摘要與來源連結",
+    "images": "僅連結；未複製或重新授權"
+  },
+  "quality": {
+    "status": "text_checked",
+    "historical_truth": "現代學者之具體意見，不等同學界共識",
+    "limitations": [
+      "只核讀第6頁衛國段及校方書目，不稱完整論文覆核、最新研究或學界共識。",
+      "尚未獨立核讀作者所引毛詩疏、史記衛表、春秋經、左傳杜注及漢書人表的具體版本，不把作者的省脫判斷當成已校定正文。",
+      "未據研究摘要改衛宣公、戴公、殤公的既有人物ID、親屬主張或稱號時段。",
+      "與s-yoshimoto-2020-chen是同一論文的不同查閱段落，不得算兩份獨立學術證據。",
+      "PDF核讀只適用現代論文頁面，史記數位正文仍未與古籍底本影像核對。"
+    ]
+  },
+  "contribution": {
+    "name": "Codex",
+    "kind": "ai_agent",
+    "model": null,
+    "model_note": "本次執行未取得可核驗的模型版本；不推測填入。",
+    "date": "2026-10-09",
+    "method": "核校方書目及出版者PDF第6頁，以校方TEXT衍生文字互核；保存作者對衛國具體世系異說的繁體摘要，古籍引文待獨立核讀，不作資料重指。"
+  }
+}
