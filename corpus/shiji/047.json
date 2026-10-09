@@ -21,15 +21,15 @@
       "character_conversion": {},
       "editorial_readings": [],
       "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-      "note": "已核讀前60段並作首輪明示人名標註，後26段待核讀標註；未核可靠底本、影像或現代研究。"
+      "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
     }
   },
   "text_sha256": "2aa9e02454f33487aeb3bb3d42da9b41c2ff4285a8532392c317f9d059daf838",
   "annotation": {
-    "status": "in_progress",
+    "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "保存全86段，前60段明示人名、部分短稱與匿名者首輪；後26段待核讀標註。",
+    "coverage": "全86段明示人名、部分短稱與匿名者首輪；版本、代詞、跨篇身份與完整稱號時段未完成。",
     "limitations": [
       "子路與仲由依第42段自答保存同指決定，已發ID保留；高昭子與郈昭伯分開。",
       "神怪、禹及防風氏等保留傳說敘事性，不當已確證史實。",
@@ -6472,184 +6472,1572 @@
     {
       "id": "c-shiji-047-kong:p061",
       "text": "孔子晚而喜《易》，序彖、繫、象、說卦、文言。讀易，韋編三絕。曰：「假我數年，若是，我於易則彬彬矣。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m061-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p062",
       "text": "孔子以詩書禮樂敎，弟子蓋三千焉，身通六藝者七十有二人。如顏濁鄒之徒，頗受業者甚衆。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m062-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m062-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m062-0021",
+          "start": 21,
+          "end": 26,
+          "surface": "七十有二人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m062-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "顏濁鄒",
+          "kind": "person",
+          "person_id": "cbr-p002872",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p063",
       "text": "孔子以四敎：文、行、忠、信。絕四：毋意、毋必、毋固、毋我。所慎：齊、戰、疾。子罕言利與命與仁。不憤不啟，舉一隅不以三隅反，則弗復也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m063-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m063-0038",
+          "start": 38,
+          "end": 41,
+          "surface": "子罕言",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p064",
       "text": "其於鄉黨，恂恂似不能言者。其於宗廟朝廷，辯辯言，唯謹爾。朝，與上大夫言，誾誾如也；與下大夫言，侃侃如也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m064-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "上大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m064-0042",
+          "start": 42,
+          "end": 45,
+          "surface": "下大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p065",
       "text": "入公門，鞠躬如也；趨進，翼如也。君召使儐，色勃如也。君命召，不俟駕行矣。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m065-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m065-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p066",
       "text": "魚餒，肉敗，割不正，不食。席不正，不坐。食於有喪者之側，未嘗飽也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m066-0022",
+          "start": 22,
+          "end": 25,
+          "surface": "有喪者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p067",
       "text": "是日哭，則不歌。見齊衰、瞽者，雖童子必變。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m067-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "瞽者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m067-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "童子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p068",
       "text": "「三人行，必得我師。」「德之不脩，學之不講，聞義不能徙，不善不能改，是吾憂也。」使人歌，善，則使復之，然後和之。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m068-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m068-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "人歌",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p069",
       "text": "子不語：怪、力、亂、神。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m069-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "子不語",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p070",
       "text": "子貢曰：「夫子之文章，可得聞也。夫子言天道與性命，弗可得聞也已。」顏淵喟然嘆曰：「仰之彌高，鑽之彌堅。瞻之在前，忽焉在後。夫子循循然善誘人，博我以文，約我以禮，欲罷不能。既竭我才，如有所立，卓爾。雖欲從之，蔑由也已。」達巷黨人童子曰：「大哉孔子，博學而無所成名。」子聞之曰：「我何執？執御乎？執射乎？我執御矣。」牢曰：「子云『不試，故藝』。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m070-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "顏淵",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0109",
+          "start": 109,
+          "end": 115,
+          "surface": "達巷黨人童子",
+          "kind": "person",
+          "person_id": "cbr-p002934",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "子聞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0156",
+          "start": 156,
+          "end": 157,
+          "surface": "牢",
+          "kind": "person",
+          "person_id": "cbr-p002941",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m070-0160",
+          "start": 160,
+          "end": 162,
+          "surface": "子云",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p071",
       "text": "魯哀公十四年春，狩大野。叔孫氏車子鉏商獲獸，以為不祥。仲尼視之，曰：「麟也。」取之。曰：「河不出圖，雒不出書，吾已矣夫！」顏淵死，孔子曰：「天喪予！」及西狩見麟，曰：「吾道窮矣！」喟然嘆曰：「莫知我夫！」子貢曰：「何為莫知子？」子曰：「不怨天，不尤人，下學而上達，知我者其天乎！」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m071-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "魯哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0012",
+          "start": 12,
+          "end": 15,
+          "surface": "叔孫氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "鉏商",
+          "kind": "person",
+          "person_id": "cbr-p002942",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0035",
+          "start": 35,
+          "end": 36,
+          "surface": "麟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "顏淵",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0079",
+          "start": 79,
+          "end": 80,
+          "surface": "麟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m071-0114",
+          "start": 114,
+          "end": 116,
+          "surface": "子曰",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p072",
       "text": "「不降其志，不辱其身，伯夷、叔齊乎！」謂「柳下惠、少連降志辱身矣」。謂「虞仲、夷逸隱居放言，行中清，廢中權」。「我則異於是，無可無不可。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m072-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "伯夷",
+          "kind": "person",
+          "person_id": "cbr-p002921",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m072-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "叔齊",
+          "kind": "person",
+          "person_id": "cbr-p002922",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m072-0021",
+          "start": 21,
+          "end": 24,
+          "surface": "柳下惠",
+          "kind": "person",
+          "person_id": "cbr-p002935",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m072-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "少連",
+          "kind": "person",
+          "person_id": "cbr-p002943",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m072-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "虞仲",
+          "kind": "person",
+          "person_id": "cbr-p002944",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m072-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "夷逸",
+          "kind": "person",
+          "person_id": "cbr-p002945",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p073",
       "text": "子曰：「弗乎弗乎，君子病沒世而名不稱焉。吾道不行矣，吾何以自見於後世哉？」乃因史記作春秋，上至隱公，下訖哀公十四年，十二公。據魯，親周，故殷，運之三代。約其文辭而指博。故吳楚之君自稱王，而春秋貶之曰「子」；踐土之會實召周天子，而春秋諱之曰「天王狩於河陽」：推此類以繩當世。貶損之義，後有王者舉而開之。春秋之義行，則天下亂臣賊子懼焉。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m073-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子曰",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "隱公",
+          "kind": "person",
+          "person_id": "cbr-p002946",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0058",
+          "start": 58,
+          "end": 61,
+          "surface": "十二公",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0073",
+          "start": 73,
+          "end": 75,
+          "surface": "三代",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0085",
+          "start": 85,
+          "end": 89,
+          "surface": "吳楚之君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0100",
+          "start": 100,
+          "end": 101,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0109",
+          "start": 109,
+          "end": 112,
+          "surface": "周天子",
+          "kind": "person",
+          "person_id": "cbr-p002936",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "天王",
+          "kind": "person",
+          "person_id": "cbr-p002936",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m073-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "王者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p074",
       "text": "孔子在位聽訟，文辭有可與人共者，弗獨有也。至於為春秋，筆則筆，削則削，子夏之徒不能贊一辭。弟子受春秋，孔子曰：「後世知丘者以春秋，而罪丘者亦以春秋。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m074-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m074-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "子夏",
+          "kind": "person",
+          "person_id": "cbr-p002947",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m074-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m074-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m074-0059",
+          "start": 59,
+          "end": 60,
+          "surface": "丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m074-0067",
+          "start": 67,
+          "end": 68,
+          "surface": "丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p075",
       "text": "明歲，子路死於衞。孔子病，子貢請見。孔子方負杖逍遙於門，曰：「賜，汝來何其晚也？」孔子因歎，歌曰：「太山壞乎！梁柱摧乎！哲人萎乎！」因以涕下。謂子貢曰：「天下無道久矣，莫能宗予。夏人殯於東階，周人於西階，殷人兩柱間。昨暮予夢坐奠兩柱之間，予始殷人也。」後七日卒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m075-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0031",
+          "start": 31,
+          "end": 32,
+          "surface": "賜",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0089",
+          "start": 89,
+          "end": 91,
+          "surface": "夏人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "周人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "殷人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m075-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "殷人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p076",
       "text": "孔子年七十三，以魯哀公十六年四月己丑卒。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m076-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m076-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "魯哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p077",
       "text": "哀公誄之曰：「旻天不弔，不愸遺一老，俾屏余一人以在位，煢煢余在疚。嗚呼哀哉！尼父，毋自律！」子貢曰：「君其不沒於魯乎！夫子之言曰：『禮失則昬，名失則愆。失志為昬，失所為愆。』生不能用，死而誄之，非禮也。稱『余一人』，非名也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m077-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m077-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "尼父",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m077-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p078",
       "text": "孔子葬魯城北泗上，弟子皆服三年。三年心喪畢，相訣而去，則哭，各復盡哀；或復留。唯子貢廬於冢上，凡六年，然後去。弟子及魯人往從冢而家者百有餘室，因命曰孔里。魯世世相傳以歲時奉祠孔子冢，而諸儒亦講禮鄉飲大射於孔子冢。孔子冢大一頃。故所居堂弟子內，後世因廟藏孔子衣冠琴車書，至于漢二百餘年不絕。高皇帝過魯，以太牢祠焉。諸侯卿相至，常先謁然後從政。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m078-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "魯人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "諸儒",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0144",
+          "start": 144,
+          "end": 147,
+          "surface": "高皇帝",
+          "kind": "person",
+          "person_id": "cbr-p002937",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m078-0156",
+          "start": 156,
+          "end": 160,
+          "surface": "諸侯卿相",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p079",
       "text": "孔子生鯉，字伯魚。伯魚年五十，先孔子死。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m079-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m079-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "鯉",
+          "kind": "person",
+          "person_id": "cbr-p002948",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m079-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "伯魚",
+          "kind": "person",
+          "person_id": "cbr-p002948",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m079-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "伯魚",
+          "kind": "person",
+          "person_id": "cbr-p002948",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m079-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p080",
       "text": "伯魚生伋，字子思，年六十二。嘗困於宋。子思作《中庸》。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m080-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "伯魚",
+          "kind": "person",
+          "person_id": "cbr-p002948",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m080-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "伋",
+          "kind": "person",
+          "person_id": "cbr-p002949",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m080-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "子思",
+          "kind": "person",
+          "person_id": "cbr-p002949",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m080-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "子思",
+          "kind": "person",
+          "person_id": "cbr-p002949",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p081",
       "text": "子思生白，字子上，年四十七。子上生求，字子家，年四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m081-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子思",
+          "kind": "person",
+          "person_id": "cbr-p002949",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "白",
+          "kind": "person",
+          "person_id": "cbr-p002950",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "子上",
+          "kind": "person",
+          "person_id": "cbr-p002950",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "子上",
+          "kind": "person",
+          "person_id": "cbr-p002950",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "求",
+          "kind": "person",
+          "person_id": "cbr-p002951",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "子家",
+          "kind": "person",
+          "person_id": "cbr-p002951",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "子家",
+          "kind": "person",
+          "person_id": "cbr-p002951",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0031",
+          "start": 31,
+          "end": 32,
+          "surface": "箕",
+          "kind": "person",
+          "person_id": "cbr-p002952",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "子京",
+          "kind": "person",
+          "person_id": "cbr-p002952",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "子京",
+          "kind": "person",
+          "person_id": "cbr-p002952",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0045",
+          "start": 45,
+          "end": 46,
+          "surface": "穿",
+          "kind": "person",
+          "person_id": "cbr-p002953",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "子高",
+          "kind": "person",
+          "person_id": "cbr-p002953",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "子高",
+          "kind": "person",
+          "person_id": "cbr-p002953",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m081-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "子慎",
+          "kind": "person",
+          "person_id": "cbr-p002954",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p082",
       "text": "子慎生鮒，年五十七，為陳王涉博士，死於陳下。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m082-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子慎",
+          "kind": "person",
+          "person_id": "cbr-p002954",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m082-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "鮒",
+          "kind": "person",
+          "person_id": "cbr-p002955",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m082-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "陳王涉",
+          "kind": "person",
+          "person_id": "cbr-p002938",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p083",
       "text": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m083-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "鮒",
+          "kind": "person",
+          "person_id": "cbr-p002955",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m083-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "子襄",
+          "kind": "person",
+          "person_id": "cbr-p002956",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m083-0012",
+          "start": 12,
+          "end": 16,
+          "surface": "孝惠皇帝",
+          "kind": "person",
+          "person_id": "cbr-p002939",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p084",
       "text": "子襄生忠，年五十七。忠生武，武生延年及安國。安國為今皇帝博士，至臨淮太守，蚤卒。安國生卬，卬生驩。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m084-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子襄",
+          "kind": "person",
+          "person_id": "cbr-p002956",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0003",
+          "start": 3,
+          "end": 4,
+          "surface": "忠",
+          "kind": "person",
+          "person_id": "cbr-p002957",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "忠",
+          "kind": "person",
+          "person_id": "cbr-p002957",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0012",
+          "start": 12,
+          "end": 13,
+          "surface": "武",
+          "kind": "person",
+          "person_id": "cbr-p002958",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "武",
+          "kind": "person",
+          "person_id": "cbr-p002958",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "延年",
+          "kind": "person",
+          "person_id": "cbr-p002959",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "cbr-p002960",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "cbr-p002960",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0025",
+          "start": 25,
+          "end": 28,
+          "surface": "今皇帝",
+          "kind": "person",
+          "person_id": "cbr-p002940",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "cbr-p002960",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0043",
+          "start": 43,
+          "end": 44,
+          "surface": "卬",
+          "kind": "person",
+          "person_id": "cbr-p002961",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0045",
+          "start": 45,
+          "end": 46,
+          "surface": "卬",
+          "kind": "person",
+          "person_id": "cbr-p002961",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m084-0047",
+          "start": 47,
+          "end": 48,
+          "surface": "驩",
+          "kind": "person",
+          "person_id": "cbr-p002962",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p085",
       "text": "《詩》有之：「高山仰止，景行行止。」雖不能至，然心鄉往之。余讀孔氏書，想見其為人。適魯，觀仲尼廟堂車服禮器，諸生以時習禮其家，余祗回留之不能去云。天下君王至於賢人衆矣，當時則榮，沒則已焉。孔子布衣，傳十餘世，學者宗之。自天子王侯，中國言六藝者折中於夫子，可謂至聖矣！",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m085-0029",
+          "start": 29,
+          "end": 30,
+          "surface": "余",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "諸生",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0063",
+          "start": 63,
+          "end": 64,
+          "surface": "余",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0073",
+          "start": 73,
+          "end": 77,
+          "surface": "天下君王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "賢人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0110",
+          "start": 110,
+          "end": 114,
+          "surface": "天子王侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m085-0124",
+          "start": 124,
+          "end": 126,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p086",
       "text": "孔子之胄，出于商國。弗父能讓，正考銘勒。防叔來奔，鄒人掎足。尼丘誕聖，闕里生德。七十升堂，四方取則。卯誅兩觀，攝相夾谷。歌鳳遽衰，泣麟何促！九流仰鏡，萬古欽躅。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "witness_appended_suoyin_zan",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m086-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "弗父",
+          "kind": "person",
+          "person_id": "cbr-p002829",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "正考",
+          "kind": "person",
+          "person_id": "cbr-p002830",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "防叔",
+          "kind": "person",
+          "person_id": "cbr-p002823",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "鄒人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "七十",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、引語、代詞、神獸或未名者待核，不補成員與親屬。"
+        },
+        {
+          "id": "c-shiji-047-kong:m086-0050",
+          "start": 50,
+          "end": 51,
+          "surface": "卯",
+          "kind": "person",
+          "person_id": "cbr-p002850",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }
