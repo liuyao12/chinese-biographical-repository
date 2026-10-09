@@ -220,7 +220,27 @@ def validate(root=ROOT):
                     hit=paragraphs.get(e['paragraph_id'])
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and bool(e['quote']) and e['quote'] in hit[1]['text'],'稱號引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'稱號來源 ID 不符')
-                    if hit:check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                    if hit:
+                        if 'context' not in e:
+                            check(any(m['person_id']==h['person_id'] for m in hit[1]['mentions']),'稱號引句段落未提及持有人')
+                        else:
+                            context=e['context']
+                            valid=isinstance(context,dict)
+                            if valid:
+                                previous=paragraphs.get(context.get('paragraph_id'))
+                                mention=mentions.get(context.get('person_mention_id'))
+                                order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
+                                quote=context.get('quote')
+                                valid=(context.get('kind')=='previous_paragraph_subject' and bool(previous)
+                                       and previous[0]==d['chapter_id'] and context['paragraph_id'] in order
+                                       and e['paragraph_id'] in order and order.index(e['paragraph_id'])==order.index(context['paragraph_id'])+1
+                                       and bool(mention) and mention[1]==context['paragraph_id'] and mention[2]['person_id']==h['person_id']
+                                       and isinstance(quote,str) and bool(quote) and quote in previous[1]['text'])
+                                if valid:
+                                    anchor=mention[2];text=previous[1]['text']
+                                    valid=any(i<=anchor['start'] and anchor['end']<=i+len(quote)
+                                              for i in range(len(text)) if text.startswith(quote,i))
+                            check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
@@ -265,13 +285,38 @@ def validate(root=ROOT):
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
                 check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
+                context=a.get('context')
+                adjacent=None
+                quoted_endpoints=[]
+                if context is not None:
+                    check(isinstance(context,dict),'人物陳述承接格式無效')
+                    if isinstance(context,dict):
+                        ids=context.get('paragraph_ids')
+                        order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
+                        valid=(context.get('kind')=='adjacent_paragraphs' and isinstance(ids,list)
+                               and len(ids)==2 and all(isinstance(i,str) and i in order for i in ids)
+                               and ids==[e['paragraph_id'] for e in a['evidence']]
+                               and order.index(ids[1])==order.index(ids[0])+1)
+                        check(valid,'人物陳述承接須為同篇依原序相鄰兩段證據')
+                        if valid:adjacent=ids
                 for e in a['evidence']:
                     hit=paragraphs.get(e['paragraph_id'])
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')
                     if hit:
                         local={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'}
-                        check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於证據段落'.replace('证','證'))
+                        if adjacent is None:
+                            check(a['subject_person_id'] in local and a['object_person_id'] in local,'人物陳述端點未見於證據段落')
+                        else:
+                            quote=e['quote'];text=hit[1]['text']
+                            starts=[i for i in range(len(text)+1) if text.startswith(quote,i)]
+                            quoted={m['person_id'] for m in hit[1]['mentions'] if m['kind']=='person'
+                                    and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
+                            quoted_endpoints.append(quoted)
+                if adjacent is not None:
+                    check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
+                          and a['subject_person_id'] in quoted_endpoints[1],
+                          '人物陳述承接的前段客體及後段主體未見於引句')
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')
