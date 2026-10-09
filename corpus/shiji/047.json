@@ -21,7 +21,7 @@
       "character_conversion": {},
       "editorial_readings": [],
       "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
-      "note": "本批已核讀前40段並作首輪明示人名標註；後46段待核讀標註，未核可靠底本、影像或現代研究。"
+      "note": "已核讀前60段並作首輪明示人名標註，後26段待核讀標註；未核可靠底本、影像或現代研究。"
     }
   },
   "text_sha256": "2aa9e02454f33487aeb3bb3d42da9b41c2ff4285a8532392c317f9d059daf838",
@@ -29,9 +29,9 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "保存全86段，前40段明示人名、部分短稱與匿名者首輪；後46段待核讀標註。",
+    "coverage": "保存全86段，前60段明示人名、部分短稱與匿名者首輪；後26段待核讀標註。",
     "limitations": [
-      "子路與仲由先分候選，不靠模型記憶預接；高昭子與郈昭伯分開。",
+      "子路與仲由依第42段自答保存同指決定，已發ID保留；高昭子與郈昭伯分開。",
       "神怪、禹及防風氏等保留傳說敘事性，不當已確證史實。",
       "季、孟與叔孫氏等宗族稱呼不補成員姓名；君、三子與說話對象仍待核。",
       "全篇代詞、親屬、跨篇身份與稱號有效時段未完成，未宣稱人工覆核。"
@@ -4613,142 +4613,1861 @@
     {
       "id": "c-shiji-047-kong:p041",
       "text": "明年，孔子自蔡如葉。葉公問政，孔子曰：「政在來遠附邇。」他日，葉公問孔子於子路，子路不對。孔子聞之，曰：「由，爾何不對曰『其為人也，學道不倦，誨人不厭，發憤忘食，樂以忘憂，不知老之將至』云爾。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m041-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "葉公",
+          "kind": "person",
+          "person_id": "cbr-p002918",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "葉公",
+          "kind": "person",
+          "person_id": "cbr-p002918",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m041-0053",
+          "start": 53,
+          "end": 54,
+          "surface": "由",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p042",
       "text": "去葉，反于蔡。長沮、桀溺耦而耕，孔子以為隱者，使子路問津焉。長沮曰：「彼執輿者為誰？」子路曰：「為孔丘。」曰：「是魯孔丘與？」曰：「然。」曰：「是知津矣。」桀溺謂子路曰：「子為誰？」曰：「為仲由。」曰：「子，孔丘之徒與？」曰：「然。」桀溺曰：「悠悠者天下皆是也，而誰以易之？且與其從辟人之士，豈若從辟世之士哉！」耰而不輟。子路以告孔子，孔子憮然曰：「鳥獸不可與同羣。天下有道，丘不與易也。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m042-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "長沮",
+          "kind": "person",
+          "person_id": "cbr-p002919",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "桀溺",
+          "kind": "person",
+          "person_id": "cbr-p002920",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "隱者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "長沮",
+          "kind": "person",
+          "person_id": "cbr-p002919",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "桀溺",
+          "kind": "person",
+          "person_id": "cbr-p002920",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0081",
+          "start": 81,
+          "end": 83,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0086",
+          "start": 86,
+          "end": 87,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "仲由",
+          "kind": "person",
+          "person_id": "cbr-p002864",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0102",
+          "start": 102,
+          "end": 103,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0104",
+          "start": 104,
+          "end": 106,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "桀溺",
+          "kind": "person",
+          "person_id": "cbr-p002920",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0144",
+          "start": 144,
+          "end": 145,
+          "surface": "士",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0152",
+          "start": 152,
+          "end": 153,
+          "surface": "士",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0161",
+          "start": 161,
+          "end": 163,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0165",
+          "start": 165,
+          "end": 167,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0168",
+          "start": 168,
+          "end": 170,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m042-0188",
+          "start": 188,
+          "end": 189,
+          "surface": "丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p043",
       "text": "他日，子路行，遇荷蓧丈人，曰：「子見夫子乎？」丈人曰：「四體不勤，五穀不分，孰為夫子！」植其杖而芸。子路以告，孔子曰：「隱者也。」復往，則亡。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m043-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0008",
+          "start": 8,
+          "end": 12,
+          "surface": "荷蓧丈人",
+          "kind": "person",
+          "person_id": "cbr-p002911",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "丈人",
+          "kind": "person",
+          "person_id": "cbr-p002911",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m043-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "隱者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p044",
       "text": "孔子遷于蔡三歲，吳伐陳。楚救陳，軍于城父。聞孔子在陳蔡之間，楚使人聘孔子。孔子將往拜禮，陳蔡大夫謀曰：「孔子賢者，所刺譏皆中諸侯之疾。今者久留陳蔡之間，諸大夫所設行皆非仲尼之意。今楚，大國也，來聘孔子。孔子用於楚，則陳蔡用事大夫危矣。」於是乃相與發徒役圍孔子於野。不得行，絕糧。從者病，莫能興。孔子講誦弦歌不衰。子路慍見曰：「君子亦有窮乎？」孔子曰：「君子固窮，小人窮斯濫矣。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m044-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0044",
+          "start": 44,
+          "end": 48,
+          "surface": "陳蔡大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0076",
+          "start": 76,
+          "end": 79,
+          "surface": "諸大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0110",
+          "start": 110,
+          "end": 114,
+          "surface": "用事大夫",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0127",
+          "start": 127,
+          "end": 129,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "從者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0147",
+          "start": 147,
+          "end": 149,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0156",
+          "start": 156,
+          "end": 158,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m044-0171",
+          "start": 171,
+          "end": 173,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p045",
       "text": "子貢色作。孔子曰：「賜，爾以予為多學而識之者與？」曰：「然。非與？」孔子曰：「非也。予一以貫之。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m045-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m045-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m045-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "賜",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m045-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p046",
       "text": "孔子知弟子有慍心，乃召子路而問曰：「《詩》云『匪兕匪虎，率彼曠野』。吾道非邪？吾何為於此？」子路曰：「意者吾未仁邪？人之不我信也。意者吾未知邪？人之不我行也。」孔子曰：「有是乎！由，譬使仁者而必信，安有伯夷、叔齊？使知者而必行，安有王子比干？」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m046-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0089",
+          "start": 89,
+          "end": 90,
+          "surface": "由",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "伯夷",
+          "kind": "person",
+          "person_id": "cbr-p002921",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0104",
+          "start": 104,
+          "end": 106,
+          "surface": "叔齊",
+          "kind": "person",
+          "person_id": "cbr-p002922",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m046-0116",
+          "start": 116,
+          "end": 120,
+          "surface": "王子比干",
+          "kind": "person",
+          "person_id": "cbr-p002912",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p047",
       "text": "子路出，子貢入見。孔子曰：「賜，《詩》云『匪兕匪虎，率彼曠野』。吾道非邪？吾何為於此？」子貢曰：「夫子之道至大也，故天下莫能容夫子。夫子蓋少貶焉？」孔子曰：「賜，良農能稼而不能為穡，良工能巧而不能為順。君子能脩其道，綱而紀之，統而理之，而不能為容。今爾不脩爾道而求為容。賜，而志不遠矣！」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m047-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "賜",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0079",
+          "start": 79,
+          "end": 80,
+          "surface": "賜",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m047-0135",
+          "start": 135,
+          "end": 136,
+          "surface": "賜",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p048",
       "text": "子貢出，顏回入見。孔子曰：「回，《詩》云『匪兕匪虎，率彼曠野』。吾道非邪？吾何為於此？」顏回曰：「夫子之道至大，故天下莫能容。雖然，夫子推而行之，不容何病，不容然後見君子！夫道之不脩也，是吾醜也。夫道既已大脩而不用，是有國者之醜也。不容何病，不容然後見君子！」孔子欣然而笑曰：「有是哉顏氏之子！使爾多財，吾為爾宰。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m048-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "顏回",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "回",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "顏回",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0109",
+          "start": 109,
+          "end": 112,
+          "surface": "有國者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m048-0142",
+          "start": 142,
+          "end": 146,
+          "surface": "顏氏之子",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p049",
       "text": "於是使子貢至楚。楚昭王興師迎孔子，然後得免。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m049-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m049-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "楚昭王",
+          "kind": "person",
+          "person_id": "cbr-p002913",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m049-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p050",
       "text": "昭王將以書社地七百里封孔子。楚令尹子西曰：「王之使使諸侯有如子貢者乎？」曰：「無有。」「王之輔相有如顏回者乎？」曰：「無有。」「王之將率有如子路者乎？」曰：「無有。」「王之官尹有如宰予者乎？」曰：「無有。」「且楚之祖封於周，號為子男五十里。今孔丘述三五之法，明周召之業，王若用之，則楚安得世世堂堂方數千里乎？夫文王在豐，武王在鎬，百里之君卒王天下。今孔丘得據土壤，賢弟子為佐，非楚之福也。」昭王乃止。其秋，楚昭王卒于城父。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m050-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "昭王",
+          "kind": "person",
+          "person_id": "cbr-p002913",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "子西",
+          "kind": "person",
+          "person_id": "cbr-p002923",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0044",
+          "start": 44,
+          "end": 45,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "顏回",
+          "kind": "person",
+          "person_id": "cbr-p002896",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0064",
+          "start": 64,
+          "end": 65,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0084",
+          "start": 84,
+          "end": 85,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "宰予",
+          "kind": "person",
+          "person_id": "cbr-p002924",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0105",
+          "start": 105,
+          "end": 108,
+          "surface": "楚之祖",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0124",
+          "start": 124,
+          "end": 126,
+          "surface": "三五",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "周召",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0135",
+          "start": 135,
+          "end": 136,
+          "surface": "王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0155",
+          "start": 155,
+          "end": 157,
+          "surface": "文王",
+          "kind": "person",
+          "person_id": "cbr-p002897",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0160",
+          "start": 160,
+          "end": 162,
+          "surface": "武王",
+          "kind": "person",
+          "person_id": "cbr-p002905",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0175",
+          "start": 175,
+          "end": 177,
+          "surface": "孔丘",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0183",
+          "start": 183,
+          "end": 185,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0195",
+          "start": 195,
+          "end": 197,
+          "surface": "昭王",
+          "kind": "person",
+          "person_id": "cbr-p002913",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m050-0203",
+          "start": 203,
+          "end": 206,
+          "surface": "楚昭王",
+          "kind": "person",
+          "person_id": "cbr-p002913",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p051",
       "text": "楚狂接輿歌而過孔子，曰：「鳳兮鳳兮，何德之衰！往者不可諫兮，來者猶可追也！已而已而，今之從政者殆而！」孔子下，欲與之言。趨而去，弗得與之言。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m051-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "楚狂接輿",
+          "kind": "person",
+          "person_id": "cbr-p002914",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m051-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m051-0013",
+          "start": 13,
+          "end": 14,
+          "surface": "鳳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m051-0015",
+          "start": 15,
+          "end": 16,
+          "surface": "鳳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m051-0044",
+          "start": 44,
+          "end": 47,
+          "surface": "從政者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m051-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p052",
       "text": "於是孔子自楚反乎衞。是歲也，孔子年六十三，而魯哀公六年也。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m052-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m052-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m052-0022",
+          "start": 22,
+          "end": 25,
+          "surface": "魯哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p053",
       "text": "其明年，吳與魯會繒，徵百牢。太宰嚭召季康子。康子使子貢往，然後得已。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m053-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "太宰嚭",
+          "kind": "person",
+          "person_id": "cbr-p002915",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m053-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m053-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m053-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "子貢",
+          "kind": "person",
+          "person_id": "cbr-p002900",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p054",
       "text": "孔子曰：「魯衞之政，兄弟也。」是時，衞君輒父不得立，在外，諸侯數以為讓。而孔子弟子多仕於衞，衞君欲得孔子為政。子路曰：「衞君待子而為政，子將奚先？」孔子曰：「必也正名乎！」子路曰：「有是哉，子之迂也！何其正也？」孔子曰：「野哉由也！夫名不正則言不順，言不順則事不成，事不成則禮樂不興，禮樂不興則刑罰不中，刑罰不中則民無所錯手足矣。夫君子為之必可名，言之必可行。君子於其言，無所苟而已矣。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m054-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "衞君輒",
+          "kind": "person",
+          "person_id": "cbr-p002889",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0021",
+          "start": 21,
+          "end": 22,
+          "surface": "父",
+          "kind": "person",
+          "person_id": "cbr-p002933",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "弟子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "衞君",
+          "kind": "person",
+          "person_id": "cbr-p002889",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "衞君",
+          "kind": "person",
+          "person_id": "cbr-p002889",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0063",
+          "start": 63,
+          "end": 64,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "子路",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0095",
+          "start": 95,
+          "end": 96,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m054-0113",
+          "start": 113,
+          "end": 114,
+          "surface": "由",
+          "kind": "person",
+          "person_id": "cbr-p002862",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p055",
       "text": "其明年，冉有為季氏將師，與齊戰於郎，克之。季康子曰：「子之於軍旅，學之乎？性之乎？」冉有曰：「學之於孔子。」季康子曰：「孔子何如人哉？」對曰：「用之有名；播之百姓，質諸鬼神而無憾。求之至於此道，雖累千社，夫子不利也。」康子曰：「我欲召之，可乎？」對曰：「欲召之，則毋以小人固之，則可矣。」而衞孔文子將攻太叔，問策於仲尼。仲尼辭不知，退而命載而行，曰：「鳥能擇木，木豈能擇鳥乎！」文子固止。會季康子逐公華、公賓、公林，以幣迎孔子，孔子歸魯。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m055-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "冉有",
+          "kind": "person",
+          "person_id": "cbr-p002925",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "季氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0021",
+          "start": 21,
+          "end": 24,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "冉有",
+          "kind": "person",
+          "person_id": "cbr-p002925",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0054",
+          "start": 54,
+          "end": 57,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0090",
+          "start": 90,
+          "end": 91,
+          "surface": "求",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "夫子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0145",
+          "start": 145,
+          "end": 149,
+          "surface": "衞孔文子",
+          "kind": "person",
+          "person_id": "cbr-p002916",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0151",
+          "start": 151,
+          "end": 153,
+          "surface": "太叔",
+          "kind": "person",
+          "person_id": "cbr-p002926",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0157",
+          "start": 157,
+          "end": 159,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0160",
+          "start": 160,
+          "end": 162,
+          "surface": "仲尼",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0189",
+          "start": 189,
+          "end": 191,
+          "surface": "文子",
+          "kind": "person",
+          "person_id": "cbr-p002916",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0195",
+          "start": 195,
+          "end": 198,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0199",
+          "start": 199,
+          "end": 201,
+          "surface": "公華",
+          "kind": "person",
+          "person_id": "cbr-p002927",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0202",
+          "start": 202,
+          "end": 204,
+          "surface": "公賓",
+          "kind": "person",
+          "person_id": "cbr-p002928",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0205",
+          "start": 205,
+          "end": 207,
+          "surface": "公林",
+          "kind": "person",
+          "person_id": "cbr-p002929",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0211",
+          "start": 211,
+          "end": 213,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m055-0214",
+          "start": 214,
+          "end": 216,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p056",
       "text": "孔子之去魯凡十四歲而反乎魯。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m056-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p057",
       "text": "魯哀公問政，對曰：「政在選臣。」季康子問政，曰：「舉直錯諸枉，則枉者直。」康子患盜，孔子曰：「苟子之不欲，雖賞之不竊。」然魯終不能用孔子，孔子亦不求仕。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m057-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "魯哀公",
+          "kind": "person",
+          "person_id": "cbr-p002891",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m057-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "季康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m057-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "康子",
+          "kind": "person",
+          "person_id": "cbr-p002909",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m057-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m057-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m057-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p058",
       "text": "孔子之時，周室微而禮樂廢，詩書缺。追跡三代之禮，序書傳，上紀唐虞之際，下至秦繆，編次其事。曰：「夏禮吾能言之，杞不足徵也。殷禮吾能言之，宋不足徵也。足，則吾能徵之矣。」觀殷夏所損益，曰：「後雖百世可知也，以一文一質。周監二代，郁郁乎文哉。吾從周。」故《書傳》、《禮記》自孔氏。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m058-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m058-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "三代",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m058-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "唐虞",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m058-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "秦繆",
+          "kind": "person",
+          "person_id": "cbr-p002930",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m058-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "孔氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p059",
       "text": "孔子語魯大師：「樂其可知也。始作翕如，縱之純如，皦如，繹如也，以成。」「吾自衞反魯，然後樂正，雅頌各得其所。」",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m059-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m059-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "魯大師",
+          "kind": "person",
+          "person_id": "cbr-p002917",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p060",
       "text": "古者詩三千餘篇，及至孔子，去其重，取可施於禮義，上采契后稷，中述殷周之盛，至幽厲之缺，始於衽席，故曰「關雎之亂以為風始，鹿鳴為小雅始，文王為大雅始，清廟為頌始」。三百五篇孔子皆弦歌之，以求合韶武雅頌之音。禮樂自此可得而述，以備王道，成六藝。",
-      "annotation_status": "pending",
+      "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-047-kong:m060-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m060-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "契",
+          "kind": "person",
+          "person_id": "cbr-p002931",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m060-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "后稷",
+          "kind": "person",
+          "person_id": "cbr-p002932",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m060-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "幽厲",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m060-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "文王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、對話、合稱、神怪或作品名待核；第60段文王是詩篇稱呼，不強接人物。"
+        },
+        {
+          "id": "c-shiji-047-kong:m060-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "孔子",
+          "kind": "person",
+          "person_id": "cbr-p002851",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-047-kong:p061",
