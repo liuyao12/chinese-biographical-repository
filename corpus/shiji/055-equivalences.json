@@ -1,0 +1,637 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_equivalence_set",
+  "chapter_id": "c-shiji-055-liu",
+  "decisions": [
+    {
+      "id": "eq-shiji055-zhangliang",
+      "person_ids": [
+        "cbr-p000687",
+        "cbr-p003359"
+      ],
+      "canonical_person_id": "cbr-p000687",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p046",
+          "quote": "韓信已破齊，使人言曰：「齊邊楚，權輕，不為假王，恐不能安齊。」漢王欲攻之。留侯曰：「不如因而立之，使自為守。」乃遣張良操印綬立韓信為齊王。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m046-0037",
+            "c-shiji-008-gaozu:m046-0057"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p016",
+          "quote": "漢四年，韓信破齊而欲自立為齊王，漢王怒。張良說漢王，漢王使良授齊王信印，語在淮陰事中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m016-0020",
+            "c-shiji-055-liu:m016-0029"
+          ]
+        }
+      ],
+      "rationale": "同記張良奉漢王命授韓信齊王印，名字、留侯異稱及授印事件配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-hanxin",
+      "person_ids": [
+        "cbr-p000724",
+        "cbr-p003389"
+      ],
+      "canonical_person_id": "cbr-p000724",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p046",
+          "quote": "韓信已破齊，使人言曰：「齊邊楚，權輕，不為假王，恐不能安齊。」漢王欲攻之。留侯曰：「不如因而立之，使自為守。」乃遣張良操印綬立韓信為齊王。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m046-0000",
+            "c-shiji-008-gaozu:m046-0063"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p016",
+          "quote": "漢四年，韓信破齊而欲自立為齊王，漢王怒。張良說漢王，漢王使良授齊王信印，語在淮陰事中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m016-0004",
+            "c-shiji-055-liu:m016-0033"
+          ]
+        }
+      ],
+      "rationale": "同記破齊後請王及張良授印，韓信／齊王信相接，不接韓王信。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-gaozu",
+      "person_ids": [
+        "cbr-p000662",
+        "cbr-p003373"
+      ],
+      "canonical_person_id": "cbr-p000662",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p058",
+          "quote": "高祖欲長都雒陽，齊人劉敬說，乃留侯勸上入都關中，高祖是日駕，入都關中。六月，大赦天下。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m058-0000",
+            "c-shiji-008-gaozu:m058-0018",
+            "c-shiji-008-gaozu:m058-0024"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p020",
+          "quote": "劉敬說高帝曰：「都關中。」上疑之。左右大臣皆山東人，多勸上都雒陽：「雒陽東有成皋，西有殽黽，倍河，向伊雒，其固亦足恃。」留侯曰：「雒陽雖有此固，其中小，不過數百里，田地薄，四面受敵，此非用武之國也。夫關中左殽函，右隴蜀，沃野千里，南有巴蜀之饒，北有胡苑之利，阻三面而守，獨以一面東制諸侯。諸侯安定，河渭漕輓天下，西給京師；諸侯有變，順流而下，足以委輸。此所謂金城千里，天府之國也，劉敬說是也。」於是高帝即日駕，西都關中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m020-0003",
+            "c-shiji-055-liu:m020-0013",
+            "c-shiji-055-liu:m020-0028",
+            "c-shiji-055-liu:m020-0199"
+          ]
+        }
+      ],
+      "rationale": "同記劉敬與留侯勸定都關中，高祖與高帝／上角色配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-liujing",
+      "person_ids": [
+        "cbr-p000790",
+        "cbr-p003400"
+      ],
+      "canonical_person_id": "cbr-p000790",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p058",
+          "quote": "高祖欲長都雒陽，齊人劉敬說，乃留侯勸上入都關中，高祖是日駕，入都關中。六月，大赦天下。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m058-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p020",
+          "quote": "劉敬說高帝曰：「都關中。」上疑之。左右大臣皆山東人，多勸上都雒陽：「雒陽東有成皋，西有殽黽，倍河，向伊雒，其固亦足恃。」留侯曰：「雒陽雖有此固，其中小，不過數百里，田地薄，四面受敵，此非用武之國也。夫關中左殽函，右隴蜀，沃野千里，南有巴蜀之饒，北有胡苑之利，阻三面而守，獨以一面東制諸侯。諸侯安定，河渭漕輓天下，西給京師；諸侯有變，順流而下，足以委輸。此所謂金城千里，天府之國也，劉敬說是也。」於是高帝即日駕，西都關中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m020-0000",
+            "c-shiji-055-liu:m020-0190"
+          ]
+        }
+      ],
+      "rationale": "姓名與勸都關中事件相配，不由同指判定他篇異名。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-lishiqi",
+      "person_ids": [
+        "cbr-p000764",
+        "cbr-p003378"
+      ],
+      "canonical_person_id": "cbr-p000764",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p021",
+          "quote": "初，項羽與宋義北救趙，及項羽殺宋義，代為上將軍，諸將黥布皆屬，破秦將王離軍，降章邯，諸侯皆附。及趙高已殺二世，使人來，欲約分王關中。沛公以為詐，乃用張良計，使酈生、陸賈往說秦將，啗以利，因襲攻武關，破之。又與秦軍戰於藍田南，益張疑兵旗幟，諸所過毋得掠鹵，秦人喜，秦軍解，因大破之。又戰其北，大破之。乘勝，遂破之。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m021-0079"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p007",
+          "quote": "沛公之從雒陽南出轘轅，良引兵從沛公，下韓十餘城，擊破楊熊軍。沛公乃令韓王成留守陽翟，與良俱南，攻下宛，西入武關。沛公欲以兵二萬人擊秦嶢下軍，良說曰：「秦兵尚強，未可輕。臣聞其將屠者子，賈豎易動以利。願沛公且留壁，使人先行，為五萬人具食，益為張旗幟諸山上，為疑兵，令酈食其持重寶啗秦將。」秦將果叛，欲連和俱西襲咸陽，沛公欲聽之。良曰：「此獨其將欲叛耳，恐士卒不從。不從必危，不如因其解擊之。」沛公乃引兵擊秦軍，大破之。遂北至藍田，再戰，秦兵竟敗。遂至咸陽，秦王子嬰降沛公。",
+          "mention_ids": [
+            "c-shiji-055-liu:m007-0132"
+          ]
+        }
+      ],
+      "rationale": "兩篇酈生／酈食其以利啗秦將、張良與沛公武關藍田軍事組合相配。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-ziying",
+      "person_ids": [
+        "cbr-p000536",
+        "cbr-p003381"
+      ],
+      "canonical_person_id": "cbr-p000536",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p022",
+          "quote": "漢元年十月，沛公兵遂先諸侯至霸上。秦王子嬰素車白馬，系頸以組，封皇帝璽符節，降軹道旁。諸將或言誅秦王。沛公曰：「始懷王遣我，固以能寬容；且人已服降，又殺之，不祥。」乃以秦王屬吏，遂西入咸陽。欲止宮休舍，樊噲、張良諫，乃封秦重寶財物府庫，還軍霸上。召諸縣父老豪桀曰：「父老苦秦苛法久矣，誹謗者族，偶語者棄市。吾與諸侯約，先入關者王之，吾當王關中。與父老約，法三章耳：殺人者死，傷人及盜抵罪。餘悉除去秦法。諸吏人皆案堵如故。凡吾所以來，為父老除害，非有所侵暴，無恐！且吾所以還軍霸上，待諸侯至而定約束耳。」乃使人與秦吏行縣鄉邑，告諭之。秦人大喜，爭持牛羊酒食獻饗軍士。沛公又讓不受，曰：「倉粟多，非乏，不欲費人。」人又益喜，唯恐沛公不為秦王。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m022-0017",
+            "c-shiji-008-gaozu:m022-0048",
+            "c-shiji-008-gaozu:m022-0084"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p007",
+          "quote": "沛公之從雒陽南出轘轅，良引兵從沛公，下韓十餘城，擊破楊熊軍。沛公乃令韓王成留守陽翟，與良俱南，攻下宛，西入武關。沛公欲以兵二萬人擊秦嶢下軍，良說曰：「秦兵尚強，未可輕。臣聞其將屠者子，賈豎易動以利。願沛公且留壁，使人先行，為五萬人具食，益為張旗幟諸山上，為疑兵，令酈食其持重寶啗秦將。」秦將果叛，欲連和俱西襲咸陽，沛公欲聽之。良曰：「此獨其將欲叛耳，恐士卒不從。不從必危，不如因其解擊之。」沛公乃引兵擊秦軍，大破之。遂北至藍田，再戰，秦兵竟敗。遂至咸陽，秦王子嬰降沛公。",
+          "mention_ids": [
+            "c-shiji-055-liu:m007-0227"
+          ]
+        }
+      ],
+      "rationale": "同為秦王子嬰降沛公、入咸陽的敘事，不接博浪沙秦皇帝。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-xiangbo",
+      "person_ids": [
+        "cbr-p000686",
+        "cbr-p003370"
+      ],
+      "canonical_person_id": "cbr-p000686",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p023",
+          "quote": "或說沛公曰：「秦富十倍天下，地形彊。今聞章邯降項羽，項羽乃號為雍王，王關中。今則來，沛公恐不得有此。可急使兵守函谷關，無內諸侯軍，稍徵關中兵以自益，距之。」沛公然其計，從之。十一月中，項羽果率諸侯兵西，欲入關，關門閉。聞沛公已定關中，大怒，使黥布等攻破函谷關。十二月中，遂至戲。沛公左司馬曹無傷聞項王怒，欲攻沛公，使人言項羽曰：「沛公欲王關中，令子嬰為相，珍寶盡有之。」欲以求封。亞父勸項羽擊沛公。方饗士，旦日合戰。是時項羽兵四十萬，號百萬。沛公兵十萬，號二十萬，力不敵。會項伯欲活張良，夜往見良，因以文諭項羽，項羽乃止。沛公從百餘騎，驅之鴻門，見謝項羽。項羽曰：「此沛公左司馬曹無傷言之。不然，籍何以生此！」沛公以樊噲、張良故，得解歸。歸，立誅曹無傷。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m023-0237"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p009",
+          "quote": "項羽至鴻門下，欲擊沛公，項伯乃夜馳入沛公軍，私見張良，欲與俱去。良曰：「臣為韓王送沛公，今事有急，亡去不義。」乃具以語沛公。沛公大驚，曰：「為將奈何？」良曰：「沛公誠欲背項羽邪？」沛公曰：「鯫生敎我距關無內諸侯，秦地可盡王，故聽之。」良曰：「沛公自度能卻項羽乎？」沛公默然良久，曰：「固不能也。今為奈何？」良乃固要項伯。項伯見沛公。沛公與飲為壽，結賓婚。令項伯具言沛公不敢倍項羽，所以距關者，備他盜也。及見項羽後解，語在項羽事中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m009-0012",
+            "c-shiji-055-liu:m009-0157",
+            "c-shiji-055-liu:m009-0160",
+            "c-shiji-055-liu:m009-0178"
+          ]
+        }
+      ],
+      "rationale": "同記項伯夜見張良以救沛公、鴻門交涉，姓名與事件配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-fankuai",
+      "person_ids": [
+        "cbr-p000691",
+        "cbr-p003382"
+      ],
+      "canonical_person_id": "cbr-p000691",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p022",
+          "quote": "漢元年十月，沛公兵遂先諸侯至霸上。秦王子嬰素車白馬，系頸以組，封皇帝璽符節，降軹道旁。諸將或言誅秦王。沛公曰：「始懷王遣我，固以能寬容；且人已服降，又殺之，不祥。」乃以秦王屬吏，遂西入咸陽。欲止宮休舍，樊噲、張良諫，乃封秦重寶財物府庫，還軍霸上。召諸縣父老豪桀曰：「父老苦秦苛法久矣，誹謗者族，偶語者棄市。吾與諸侯約，先入關者王之，吾當王關中。與父老約，法三章耳：殺人者死，傷人及盜抵罪。餘悉除去秦法。諸吏人皆案堵如故。凡吾所以來，為父老除害，非有所侵暴，無恐！且吾所以還軍霸上，待諸侯至而定約束耳。」乃使人與秦吏行縣鄉邑，告諭之。秦人大喜，爭持牛羊酒食獻饗軍士。沛公又讓不受，曰：「倉粟多，非乏，不欲費人。」人又益喜，唯恐沛公不為秦王。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m022-0101"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p008",
+          "quote": "沛公入秦宮，宮室帷帳狗馬重寶婦女以千數，意欲留居之。樊噲諫沛公出舍，沛公不聽。良曰：「夫秦為無道，故沛公得至此。夫為天下除殘賊，宜縞素為資。今始入秦，即安其樂，此所謂『助桀為虐』。且『忠言逆耳利於行，毒藥苦口利於病』，願沛公聽樊噲言。」沛公乃還軍霸上。",
+          "mention_ids": [
+            "c-shiji-055-liu:m008-0026",
+            "c-shiji-055-liu:m008-0113"
+          ]
+        }
+      ],
+      "rationale": "兩篇樊噲與張良諫沛公離秦宮還軍霸上，姓名與事件配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-xiangyu",
+      "person_ids": [
+        "cbr-p000610",
+        "cbr-p003384"
+      ],
+      "canonical_person_id": "cbr-p000610",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p023",
+          "quote": "或說沛公曰：「秦富十倍天下，地形彊。今聞章邯降項羽，項羽乃號為雍王，王關中。今則來，沛公恐不得有此。可急使兵守函谷關，無內諸侯軍，稍徵關中兵以自益，距之。」沛公然其計，從之。十一月中，項羽果率諸侯兵西，欲入關，關門閉。聞沛公已定關中，大怒，使黥布等攻破函谷關。十二月中，遂至戲。沛公左司馬曹無傷聞項王怒，欲攻沛公，使人言項羽曰：「沛公欲王關中，令子嬰為相，珍寶盡有之。」欲以求封。亞父勸項羽擊沛公。方饗士，旦日合戰。是時項羽兵四十萬，號百萬。沛公兵十萬，號二十萬，力不敵。會項伯欲活張良，夜往見良，因以文諭項羽，項羽乃止。沛公從百餘騎，驅之鴻門，見謝項羽。項羽曰：「此沛公左司馬曹無傷言之。不然，籍何以生此！」沛公以樊噲、張良故，得解歸。歸，立誅曹無傷。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m023-0023",
+            "c-shiji-008-gaozu:m023-0026",
+            "c-shiji-008-gaozu:m023-0092",
+            "c-shiji-008-gaozu:m023-0148",
+            "c-shiji-008-gaozu:m023-0160",
+            "c-shiji-008-gaozu:m023-0193",
+            "c-shiji-008-gaozu:m023-0210",
+            "c-shiji-008-gaozu:m023-0253",
+            "c-shiji-008-gaozu:m023-0256",
+            "c-shiji-008-gaozu:m023-0275",
+            "c-shiji-008-gaozu:m023-0278",
+            "c-shiji-008-gaozu:m023-0298"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p009",
+          "quote": "項羽至鴻門下，欲擊沛公，項伯乃夜馳入沛公軍，私見張良，欲與俱去。良曰：「臣為韓王送沛公，今事有急，亡去不義。」乃具以語沛公。沛公大驚，曰：「為將奈何？」良曰：「沛公誠欲背項羽邪？」沛公曰：「鯫生敎我距關無內諸侯，秦地可盡王，故聽之。」良曰：「沛公自度能卻項羽乎？」沛公默然良久，曰：「固不能也。今為奈何？」良乃固要項伯。項伯見沛公。沛公與飲為壽，結賓婚。令項伯具言沛公不敢倍項羽，所以距關者，備他盜也。及見項羽後解，語在項羽事中。",
+          "mention_ids": [
+            "c-shiji-055-liu:m009-0000",
+            "c-shiji-055-liu:m009-0085",
+            "c-shiji-055-liu:m009-0127",
+            "c-shiji-055-liu:m009-0187",
+            "c-shiji-055-liu:m009-0203",
+            "c-shiji-055-liu:m009-0210"
+          ]
+        }
+      ],
+      "rationale": "同記項羽鴻門欲攻沛公與項伯、張良解危，項王異稱按本篇暫接。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-yongchi",
+      "person_ids": [
+        "cbr-p000756",
+        "cbr-p003399"
+      ],
+      "canonical_person_id": "cbr-p000756",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-008-gaozu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p011",
+          "quote": "秦二世二年，陳涉之將周章軍西至戲而還。燕、趙、齊、魏皆自立為王。項氏起吳。秦泗川監平將兵圍豐，二日，出與戰，破之。命雍齒守豐，引兵之薛。泗州守壯敗於薛，走至戚，沛公左司馬得泗川守壯，殺之。沛公還軍亢父，至方與，（周市來攻方與）未戰。陳王使魏人周市略地。周市使人謂雍齒曰：「豐，故梁徙也。今魏地已定者數十城。齒今下魏，魏以齒為侯守豐。不下，且屠豐。」雍齒雅不欲屬沛公，及魏招之，即反為魏守豐。沛公引兵攻豐，不能取。沛公病，還之沛。沛公怨雍齒與豐子弟叛之，聞東陽甯君、秦嘉立景駒為假王，在留，乃往從之，欲請兵以攻豐。是時秦將章邯從陳，別將司馬夷將兵北定楚地，屠相，至碭。東陽甯君、沛公引兵西，與戰蕭西，不利。還收兵聚留，引兵攻碭，三日乃取碭。因收碭兵，得五六千人。攻下邑，拔之。還軍豐。聞項梁在薛，從騎百餘往見之。項梁益沛公卒五千人，五大夫將十人。沛公還，引兵攻豐。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m011-0058",
+            "c-shiji-008-gaozu:m011-0131",
+            "c-shiji-008-gaozu:m011-0153",
+            "c-shiji-008-gaozu:m011-0160",
+            "c-shiji-008-gaozu:m011-0174",
+            "c-shiji-008-gaozu:m011-0217"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p019",
+          "quote": "六年上已封大功臣二十餘人，其餘日夜爭功不決，未得行封。上在雒陽南宮，從複道望見諸將往往相與坐沙中語。上曰：「此何語？」留侯曰：「陛下不知乎？此謀反耳。」上曰：「天下屬安定，何故反乎？」留侯曰：「陛下起布衣，以此屬取天下，今陛下為天子，而所封皆蕭、曹故人所親愛，而所誅者皆生平所仇怨。今軍吏計功，以天下不足遍封，此屬畏陛下不能盡封，恐又見疑平生過失及誅，故即相聚謀反耳。」上乃憂曰：「為之奈何？」留侯曰：「上平生所憎，羣臣所共知，誰最甚者？」上曰：「雍齒與我故，數嘗窘辱我。我欲殺之，為其功多，故不忍。」留侯曰：「今急先封雍齒以示羣臣，羣臣見雍齒封，則人人自堅矣。」於是上乃置酒，封雍齒為什方侯，而急趣丞相、御史定功行封。羣臣罷酒，皆喜曰：「雍齒尚為侯，我屬無患矣。」",
+          "mention_ids": [
+            "c-shiji-055-liu:m019-0224",
+            "c-shiji-055-liu:m019-0260",
+            "c-shiji-055-liu:m019-0270",
+            "c-shiji-055-liu:m019-0290",
+            "c-shiji-055-liu:m019-0320"
+          ]
+        }
+      ],
+      "rationale": "本紀雍齒反豐屬魏為沛公所怨，本篇雍齒與上故而屢窘辱、憎而封侯，姓名與舊怨人物組合暫接；封侯年代不據此填本紀。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-ruyi",
+      "person_ids": [
+        "cbr-p000820",
+        "cbr-p003402"
+      ],
+      "canonical_person_id": "cbr-p000820",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-009-lvhou",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "mention_ids": [
+            "c-shiji-009-lvhou:m001-0043",
+            "c-shiji-009-lvhou:m001-0071",
+            "c-shiji-009-lvhou:m001-0074",
+            "c-shiji-009-lvhou:m001-0119",
+            "c-shiji-009-lvhou:m001-0123"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p022",
+          "quote": "上欲廢太子，立戚夫人子趙王如意。大臣多諫爭，未能得堅決者也。呂后恐，不知所為。人或謂呂后曰：「留侯善畫計筴，上信用之。」呂后乃使建成侯呂澤劫留侯，曰：「君常為上謀臣，今上欲易太子，君安得高枕而臥乎？」留侯曰：「始上數在困急之中，幸用臣筴。今天下安定，以愛欲易太子，骨肉之間，雖臣等百餘人何益。」呂澤彊要曰：「為我畫計。」留侯曰：「此難以口舌爭也。顧上有不能致者，天下有四人。四人者年老矣，皆以為上慢侮人，故逃匿山中，義不為漢臣。然上高此四人。今公誠能無愛金玉璧帛，令太子為書，卑辭安車，因使辯士固請，宜來。來，以為客，時時從入朝，令上見之，則必異而問之。問之，上知此四人賢，則一助也。」於是呂后令呂澤使人奉太子書，卑辭厚禮，迎此四人。四人至，客建成侯所。",
+          "mention_ids": [
+            "c-shiji-055-liu:m022-0011"
+          ]
+        }
+      ],
+      "rationale": "同為戚姬／戚夫人子趙王如意，擬立代太子事件配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-qifuren",
+      "person_ids": [
+        "cbr-p000819",
+        "cbr-p003401"
+      ],
+      "canonical_person_id": "cbr-p000819",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-009-lvhou",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "mention_ids": [
+            "c-shiji-009-lvhou:m001-0033",
+            "c-shiji-009-lvhou:m001-0068",
+            "c-shiji-009-lvhou:m001-0079"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p022",
+          "quote": "上欲廢太子，立戚夫人子趙王如意。大臣多諫爭，未能得堅決者也。呂后恐，不知所為。人或謂呂后曰：「留侯善畫計筴，上信用之。」呂后乃使建成侯呂澤劫留侯，曰：「君常為上謀臣，今上欲易太子，君安得高枕而臥乎？」留侯曰：「始上數在困急之中，幸用臣筴。今天下安定，以愛欲易太子，骨肉之間，雖臣等百餘人何益。」呂澤彊要曰：「為我畫計。」留侯曰：「此難以口舌爭也。顧上有不能致者，天下有四人。四人者年老矣，皆以為上慢侮人，故逃匿山中，義不為漢臣。然上高此四人。今公誠能無愛金玉璧帛，令太子為書，卑辭安車，因使辯士固請，宜來。來，以為客，時時從入朝，令上見之，則必異而問之。問之，上知此四人賢，則一助也。」於是呂后令呂澤使人奉太子書，卑辭厚禮，迎此四人。四人至，客建成侯所。",
+          "mention_ids": [
+            "c-shiji-055-liu:m022-0007"
+          ]
+        }
+      ],
+      "rationale": "戚姬與戚夫人均明示如意之母，同擬立如意代太子，不接其他戚氏。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-lvhou",
+      "person_ids": [
+        "cbr-p000717",
+        "cbr-p003403"
+      ],
+      "canonical_person_id": "cbr-p000717",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-009-lvhou",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "mention_ids": [
+            "c-shiji-009-lvhou:m001-0000",
+            "c-shiji-009-lvhou:m001-0103"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p022",
+          "quote": "上欲廢太子，立戚夫人子趙王如意。大臣多諫爭，未能得堅決者也。呂后恐，不知所為。人或謂呂后曰：「留侯善畫計筴，上信用之。」呂后乃使建成侯呂澤劫留侯，曰：「君常為上謀臣，今上欲易太子，君安得高枕而臥乎？」留侯曰：「始上數在困急之中，幸用臣筴。今天下安定，以愛欲易太子，骨肉之間，雖臣等百餘人何益。」呂澤彊要曰：「為我畫計。」留侯曰：「此難以口舌爭也。顧上有不能致者，天下有四人。四人者年老矣，皆以為上慢侮人，故逃匿山中，義不為漢臣。然上高此四人。今公誠能無愛金玉璧帛，令太子為書，卑辭安車，因使辯士固請，宜來。來，以為客，時時從入朝，令上見之，則必異而問之。問之，上知此四人賢，則一助也。」於是呂后令呂澤使人奉太子書，卑辭厚禮，迎此四人。四人至，客建成侯所。",
+          "mention_ids": [
+            "c-shiji-055-liu:m022-0030",
+            "c-shiji-055-liu:m022-0042",
+            "c-shiji-055-liu:m022-0060",
+            "c-shiji-055-liu:m022-0295"
+          ]
+        }
+      ],
+      "rationale": "同為高祖擬易太子時的呂后，留侯策與如意、戚氏、太子人物組合配對。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-taizi",
+      "person_ids": [
+        "cbr-p000713",
+        "cbr-p003405"
+      ],
+      "canonical_person_id": "cbr-p000713",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-009-lvhou",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p001",
+          "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立為趙王後，幾代太子者數矣，賴大臣爭之，及留侯策，太子得毋廢。",
+          "mention_ids": [
+            "c-shiji-009-lvhou:m001-0013",
+            "c-shiji-009-lvhou:m001-0046",
+            "c-shiji-009-lvhou:m001-0064",
+            "c-shiji-009-lvhou:m001-0100",
+            "c-shiji-009-lvhou:m001-0129",
+            "c-shiji-009-lvhou:m001-0146"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p022",
+          "quote": "上欲廢太子，立戚夫人子趙王如意。大臣多諫爭，未能得堅決者也。呂后恐，不知所為。人或謂呂后曰：「留侯善畫計筴，上信用之。」呂后乃使建成侯呂澤劫留侯，曰：「君常為上謀臣，今上欲易太子，君安得高枕而臥乎？」留侯曰：「始上數在困急之中，幸用臣筴。今天下安定，以愛欲易太子，骨肉之間，雖臣等百餘人何益。」呂澤彊要曰：「為我畫計。」留侯曰：「此難以口舌爭也。顧上有不能致者，天下有四人。四人者年老矣，皆以為上慢侮人，故逃匿山中，義不為漢臣。然上高此四人。今公誠能無愛金玉璧帛，令太子為書，卑辭安車，因使辯士固請，宜來。來，以為客，時時從入朝，令上見之，則必異而問之。問之，上知此四人賢，則一助也。」於是呂后令呂澤使人奉太子書，卑辭厚禮，迎此四人。四人至，客建成侯所。",
+          "mention_ids": [
+            "c-shiji-055-liu:m022-0003",
+            "c-shiji-055-liu:m022-0087",
+            "c-shiji-055-liu:m022-0129",
+            "c-shiji-055-liu:m022-0233",
+            "c-shiji-055-liu:m022-0303"
+          ]
+        }
+      ],
+      "rationale": "呂太后篇明記孝惠為高祖常欲廢之太子、擬立戚姬子如意並賴留侯策未廢；本篇同一改立人物組合暫接未名太子。仍保留本篇未名標籤，不按太子職稱全域合併。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "eq-shiji055-hancheng",
+      "person_ids": [
+        "cbr-p000688",
+        "cbr-p003376"
+      ],
+      "canonical_person_id": "cbr-p000688",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-007-xiangyu",
+        "c-shiji-055-liu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p022",
+          "quote": "漢之元年四月，諸侯罷戲下，各就國。項王出之國，使人徙義帝，曰：「古之帝者地方千里，必居上游。」乃使使徙義帝長沙郴縣。趣義帝行，其群臣稍稍背叛之，乃陰令衡山、臨江王擊殺之江中。韓王成無軍功，項王不使之國，與俱至彭城，廢以為侯，已又殺之。臧荼之國，因逐韓廣之遼東，廣弗聽，荼擊殺廣無終，並王其地。",
+          "mention_ids": [
+            "c-shiji-007-xiangyu:m022-0087"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p012",
+          "quote": "項王竟不肯遣韓王，乃以為侯，又殺之彭城。良亡，間行歸漢王，漢王亦已還定三秦矣。復以良為成信侯，從東擊楚。至彭城，漢敗而還。至下邑，漢王下馬踞鞍而問曰：「吾欲捐關以東等棄之，誰可與共功者？」良進曰：「九江王黥布，楚梟將，與項王有郄；彭越與齊王田榮反梁地：此兩人可急使。而漢王之將獨韓信可屬大事，當一面。即欲捐之，捐之此三人，則楚可破也。」漢王乃遣隨何說九江王布，而使人連彭越。及魏王豹反，使韓信將兵擊之，因舉燕、代、齊、趙。然卒破楚者，此三人力也。",
+          "mention_ids": [
+            "c-shiji-055-liu:m012-0006"
+          ]
+        }
+      ],
+      "rationale": "同記韓王成不遣之國，至彭城降侯再殺；本篇韓成／韓王從前段明名敘事相接，降侯事件不因此合成確定日月。 已發ID、原字與每篇證據保留，身份暫接不代替史實、年代或來源優先判斷，同書各篇不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
