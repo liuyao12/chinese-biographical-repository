@@ -70,6 +70,18 @@ def validate(root=ROOT):
                     if p.get('annotation_status')=='pending':check(not p['mentions'],'待標註段落不得混入已接受的提及')
                 if any(p.get('annotation_status') in ('pending','in_progress') for p in d['paragraphs']):
                     check(d['annotation']['status']=='in_progress','篇仍有待標註段落，不得宣稱首輪完成')
+            case_ids=set()
+            for case in d['annotation'].get('unresolved_identity_cases',[]):
+                check(case.get('id') and case['id'] not in case_ids,'未決身份 ID 無效或重複')
+                case_ids.add(case.get('id'))
+                candidates=case.get('candidate_person_ids',[])
+                check(len(candidates)>=2 and len(set(candidates))==len(candidates) and all(pid in pids for pid in candidates),'未決身份候選人物無效')
+                check(case.get('status')=='unresolved' and bool(case.get('note')),'未決身份狀態或說明缺失')
+                refs=case.get('paragraph_ids',[])
+                local={p['id']:p for p in d['paragraphs']}
+                check(bool(refs) and all(ref in local for ref in refs),'未決身份段落引用無效')
+                supported={m['person_id'] for ref in refs if ref in local for m in local[ref]['mentions'] if m['kind']=='person'}
+                check(set(candidates)<=supported,'未決身份缺少各候選人物的段落證據')
             xml=ET.parse(path.with_suffix('.xml')).getroot()
             check(xml.tag=='text', 'XML 根元素不符')
             for attr,key in [('work-id','work_id'),('book-id','book_id'),('chapter-id','id'),('source-id','source_id')]:
