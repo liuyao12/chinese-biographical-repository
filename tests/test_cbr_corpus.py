@@ -183,4 +183,29 @@ class CorpusTests(unittest.TestCase):
                     start=p['text'].index(term)
                     for m in p['mentions']:
                         self.assertFalse(m['kind']=='person' and start<=m['start']<start+len(term))
+    def test_xiangyu_paternal_uncle_does_not_create_father(self):
+        data=json.loads((self.root/'corpus/shiji/007-assertions.json').read_text())
+        relations=[a for a in data['assertions'] if a['subject_person_id']=='cbr-p000610']
+        self.assertEqual([(a['predicate'],a['object_person_id']) for a in relations],[('paternal_uncle','cbr-p000603')])
+        self.assertEqual(relations[0]['qualifiers']['source_term'],'季父')
+    def test_huaiwang_grandson_phrase_keeps_two_generations(self):
+        chapter=json.loads((self.root/'corpus/shiji/007.json').read_text())
+        p=chapter['paragraphs'][5]
+        grandfather=p['text'].index('乃求楚懷王')+2
+        grandson=p['text'].index('立以為楚懷王')+3
+        mentions={m['start']:m for m in p['mentions']}
+        self.assertEqual(mentions[grandfather]['person_id'],'cbr-p000505')
+        self.assertNotEqual(mentions[grandfather]['person_id'],mentions[grandson]['person_id'])
+        relation=next(a for a in json.loads((self.root/'corpus/shiji/007-assertions.json').read_text())['assertions'] if a['predicate']=='grandfather')
+        self.assertEqual(relation['subject_person_id'],mentions[grandson]['person_id'])
+        self.assertEqual(relation['object_person_id'],mentions[grandfather]['person_id'])
+    def test_kuaiji_governor_succession_not_same_title_identity(self):
+        p=json.loads((self.root/'corpus/shiji/007.json').read_text())['paragraphs'][2]
+        governor=p['text'].index('會稽守通')
+        successor=p['text'].rindex('會稽守')
+        mentions={m['start']:m for m in p['mentions']}
+        self.assertEqual(mentions[governor]['kind'],'person')
+        self.assertEqual(mentions[successor]['kind'],'unresolved')
+        self.assertIsNone(mentions[successor]['person_id'])
+
 if __name__=='__main__':unittest.main()
