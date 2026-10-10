@@ -296,3 +296,41 @@ class PersonBundleTests(unittest.TestCase):
         self.assertNotIn('birth_order', relation['qualifiers'])
         chapter = next(p for p in result['sources'] if p['chapter_id'] == 'c-shiji-101-yuanchao')
         self.assertFalse(chapter['source']['image_verified'])
+
+    def test_zhangfeng_denied_appointment_and_rank_loss_do_not_create_tenure(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        people = {p['label']: p for p in catalog[0].values()}
+        keeper = people['虎圈嗇夫未名（張釋之馮唐列傳候選）']
+        result = bundle(keeper['id'], catalog=catalog)
+        self.assertFalse(any(h['title'] == '上林令' for h in result['title_holdings']))
+        wei = people['魏尚（張釋之馮唐列傳候選）']
+        result = bundle(wei['id'], catalog=catalog)
+        holdings = [h for h in result['title_holdings'] if h['title'] == '雲中守']
+        self.assertEqual({h['mode'] for h in holdings}, {'attestation', 'grant'})
+        self.assertTrue(all(h['effective_period']['end']['status'] == 'unknown' for h in holdings))
+
+    def test_feng_family_origin_and_accession_date_keep_source_subjects(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        people = {p['label']: p for p in catalog[0].values()}
+        tang = people['馮唐（張釋之馮唐列傳候選）']
+        father = people['馮唐父未名（張釋之馮唐列傳候選）']
+        grandfather = people['馮唐祖父未名（張釋之馮唐列傳候選）']
+        self.assertEqual(tang['family_path']['parent_person_id'], father['id'])
+        self.assertEqual(father['family_path']['parent_person_id'], grandfather['id'])
+        result = bundle(tang['id'], catalog=catalog)
+        self.assertFalse(any(a['place']['source_name'] == '趙' for a in result['address_assertions']))
+        dates = [d for d in result['date_normalizations'] if d.get('title') == '楚相']
+        self.assertEqual(len(dates), 1)
+        self.assertEqual((dates[0]['era_year'], dates[0]['year']), (157, -156))
+        self.assertIn('七年，景帝立', dates[0]['original_quote'])
+        holding = next(h for h in result['title_holdings'] if h['title'] == '楚相')
+        self.assertNotIn('normalized_date', holding['effective_period']['end'])
+
+    def test_zhang_hui_honorific_is_separate_and_received_text_is_preserved(self):
+        result = bundle('epn_7nx_g1b')
+        self.assertEqual([m['surface'] for m in result['mentions']], ['張恢'])
+        holding = next(h for h in result['title_holdings'] if h['title'] == '先')
+        self.assertEqual(holding['kind'], 'honorific')
+        self.assertTrue(any('張恢先所' in p['text'] for p in result['passages']))
