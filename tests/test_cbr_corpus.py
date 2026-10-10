@@ -490,11 +490,34 @@ class CorpusTests(unittest.TestCase):
         father = next(p for p in reg['persons'] if p['id'] == 'yqp_nlb_p1p_AF')
         self.assertNotIn(m['id'], {e['mention_id'] for e in father['evidence']})
 
+    def test_appended_zhengyi_layer_requires_matching_xml(self):
+        def mutate(d):
+            d['paragraphs'][-1]['text_layer'] = 'witness_appended_zhengyi_note'
+        self.change('corpus/shiji/103.json', mutate)
+        self.assertTrue(any('XML 文字層次不符' in e for e in v.validate(self.root)))
+        from scripts.render_corpus import render
+        chapter = json.loads((self.root/'corpus/shiji/103.json').read_text())
+        (self.root/'corpus/shiji/103.xml').write_text(render(chapter))
+        self.assertEqual(v.validate(self.root), [])
+
     def test_ancestral_origin_cannot_invent_named_ancestor(self):
         def mutate(d):
             a = next(a for a in d['assertions'] if a['relation'] == 'ancestral_origin')
             a['qualifiers']['ancestor_person_id'] = a['person_id']
         self.change('corpus/shiji/103-addresses.json', mutate)
         self.assertTrue(any('祖先出身不得暗補' in error for error in v.validate(self.root)))
+
+
+    def test_daughter_birth_order_scope_preserves_unknown_ordinal(self):
+        d=json.loads((self.root/'corpus/shiji/105-assertions.json').read_text())
+        order=d['assertions'][0]['qualifiers']['birth_order']
+        self.assertEqual(order['scope'],'daughters_of_parent')
+        self.assertIsNone(order['ordinal'])
+        self.assertEqual(order['position'],'younger_or_youngest')
+        self.assertEqual(v.validate(self.root),[])
+        def mutate(d):
+            d['assertions'][0]['qualifiers']['birth_order']['scope']='unknown_sequence'
+        self.change('corpus/shiji/105-assertions.json',mutate)
+        self.assertTrue(any('排行序列範圍未知' in e for e in v.validate(self.root)))
 
 if __name__=='__main__':unittest.main()

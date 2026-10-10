@@ -135,3 +135,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 人物ID遷移記錄的 `person_count_scope: at_migration` 表示 `person_count` 是遷移當時的快照，不是此後全庫人數；新增人物仍須通過現行家族ID格式驗證，舊別名映射保留。
 
 地址關係 `ancestral_origin` 保存其先等祖先出身表述。人物ID是敘事所屬人物，`qualifiers.subject_scope: ancestors_unspecified` 明示地點屬未具名祖先；不改作本人籍貫，不指定祖先ID或世代。
+
+`witness_appended_zhengyi_note` 保存數位見證明標〈正義〉的附載文字，與列傳正文、答詔引語及索隱贊分層。這只是見證署稱，不表示已校定作者、篇章原位或版本；XML 必須同步文字層次，不把注釋當另一份獨立正文證據。
+
+## 子女排行範圍
+
+`qualifiers.birth_order.scope` 使用 `sons_of_parent`、`daughters_of_parent` 或 `children_of_parent`，分別表示兒子、女兒或所有子女的排行序列。不得把兒子序號當作所有子女的序號。卷一〇五緹縈的「少女」使用女兒序列，`ordinal: null`、`position: younger_or_youngest`，保留較幼與最幼的歧義；原文五女不單獨證明她是第五女。家族 ID 分支仍不表示排行。
