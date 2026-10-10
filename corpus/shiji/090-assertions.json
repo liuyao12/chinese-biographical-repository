@@ -5,9 +5,9 @@
   "assertions": [
     {
       "id": "a-shiji090-001",
-      "subject_person_id": "cbr-p005033",
+      "subject_person_id": "ctl_rtd_6df",
       "predicate": "brother",
-      "object_person_id": "cbr-p005035",
+      "object_person_id": "bo6_x83_hfu",
       "status": "source_attested",
       "evidence": [
         {
@@ -27,9 +27,9 @@
     },
     {
       "id": "a-shiji090-002",
-      "subject_person_id": "cbr-p005033",
+      "subject_person_id": "ctl_rtd_6df",
       "predicate": "agnatic_cousin",
-      "object_person_id": "cbr-p005035",
+      "object_person_id": "bo6_x83_hfu",
       "status": "source_attested",
       "evidence": [
         {
@@ -43,7 +43,25 @@
         "source_term": "西魏王豹亦魏王咎從弟也",
         "historicity": "historical_tradition",
         "discrepancy_group_id": "kin-shiji090-wei",
-        "degree": "unknown"
+        "degree": "unknown",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "relative_birth_order": {
+          "older_person_id": "bo6_x83_hfu",
+          "younger_person_id": "ctl_rtd_6df",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "comparison_basis": "birth_chronology",
+          "interpretation_status": "source_attested"
+        }
       },
       "interpretation_note": "開篇其兄與漢王對話從弟分存為相異主張；從弟不補第一代表親、共同祖父或任何直接父系。",
       "reviewer": "Codex（AI 代理）"

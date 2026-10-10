@@ -1,0 +1,1693 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-shiji-100-jibu",
+  "work_id": "w-shiji",
+  "book_id": "b-shiji-100",
+  "source_id": "s-shiji-100-jibu",
+  "title": "季布欒布列傳第四十",
+  "source": {
+    "title": "史記／卷100",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/wiki/史記/卷100",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
+    "revision_id": 1965696,
+    "accessed_on": "2026-10-10",
+    "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
+    "image_verified": false,
+    "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "normalization": {
+      "character_conversion": {},
+      "editorial_readings": [],
+      "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
+      "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
+    }
+  },
+  "text_sha256": "3f21d58416de9796bc4489c2d1881cee69c77f040eb68e7094e25016d4f25e4c",
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "coverage": "全12段明示姓名首輪。",
+    "limitations": [
+      "母弟丁公有舅與同母異父弟兩種注家詮釋，原詞保留，不作確定世系。",
+      "長事袁絲、弟畜灌夫籍福不當血親。",
+      "欲授御史大夫而見罷，不作已授。",
+      "匿名指代、親屬、官爵時段與跨篇同指待續；未核底本影像。"
+    ],
+    "kinship_interpretation_cases": [
+      {
+        "id": "ki-shiji100-ding",
+        "subject_person_id": "udu_dyy_4wd",
+        "object_person_id": "7ul_aeb_w4e",
+        "source_term": "季布母弟丁公",
+        "status": "interpretation_disputed",
+        "default_alternative_id": "shigu-maternal-half-brother",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-100-jibu",
+            "source_id": "s-shiji-100-jibu",
+            "paragraph_id": "c-shiji-100-jibu:p006",
+            "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」"
+          }
+        ],
+        "alternatives": [
+          {
+            "id": "suyin-maternal-uncle",
+            "predicate": "maternal_uncle",
+            "qualifiers": {
+              "object_generation_relative_to_subject": -1,
+              "object_relative_age": null
+            },
+            "reference": {
+              "work": "史記索隱",
+              "commentator": "司馬貞",
+              "source_term": "季布母弟丁公",
+              "quote": "案：謂布之舅也。",
+              "interpretation": "maternal_uncle",
+              "url": "https://www.donglishuzhai.net/chapter/779.html",
+              "image_verified": false,
+              "note": "已讀數位注疏，未核底本影像。"
+            }
+          },
+          {
+            "id": "shigu-maternal-half-brother",
+            "predicate": "brother",
+            "qualifiers": {
+              "object_generation_relative_to_subject": 0,
+              "object_relative_age": "younger",
+              "shared_mother": true,
+              "shared_father": false
+            },
+            "reference": {
+              "work": "漢書注",
+              "commentator": "顏師古",
+              "source_term": "布母弟丁公",
+              "quote": "此母弟為同母異父之弟。",
+              "interpretation": "maternal_half_younger_brother",
+              "url": "https://www.chineseclassic.com/content/1484",
+              "image_verified": false,
+              "note": "頁面明示內容未經校對；已讀注語，不作獨立底本覆核。"
+            }
+          }
+        ],
+        "interpretation_note": "受傳正文只存母弟。兩種注家詮釋互斥，各自附注語；不選默認世系、不自動建立家族路徑。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "selection": {
+          "status": "editorial_preferred",
+          "confidence_level": "moderate",
+          "confidence_scope": "kinship_interpretation_of_received_text",
+          "rationale": "暫採顏師古的同母異父弟解：母弟作同母弟的用語較符合傳記近親敘述，且與同篇弟季心的用稱可比較。異父依顏注，並非正文獨立明示。司馬貞舅解保留，不當不存在。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "references": [
+            {
+              "author": "魏聰祺",
+              "title": "《史記》概說及名篇賞析",
+              "chapter": "第十七章：善用電子資料庫解決教研問題──以「季布母弟丁公」為例",
+              "publisher": "五南",
+              "publication_date": "2018-09-18",
+              "isbn": "9789571198194",
+              "url": "https://www.wunan.com.tw/bookdetail?NO=14019",
+              "consultation_scope": "publisher_bibliographic_record_and_chapter_title",
+              "full_text_read": false,
+              "reference_only": true,
+              "note": "已核作者、出版資料及章題；此筆只作相關現代研究參考，不冒作已讀全章或已驗證其論證。"
+            }
+          ],
+          "model": null,
+          "comparative_evidence": [
+            {
+              "chapter_id": "c-shiji-005-qin",
+              "source_id": "s-shiji-005-qin",
+              "paragraph_id": "c-shiji-005-qin:p043",
+              "quote": "景公母弟後子鍼有寵，景公母弟富",
+              "comparison_purpose": "同書母弟用稱的近親語例；只支持語義判斷，不新增人物關係。"
+            }
+          ]
+        }
+      }
+    ],
+    "reported_variants": [
+      {
+        "work": "史記集解",
+        "commentator": "徐廣",
+        "source_term": "季布弟季心",
+        "quote": "一作「子」。",
+        "url": "https://www.donglishuzhai.net/chapter/779.html",
+        "note": "只記注家所報異文，未核其所據底本；傳世正文弟字保留。",
+        "person_ids": [
+          "udu_dyy_4wd",
+          "cte_yao_v47"
+        ],
+        "paragraph_id": "c-shiji-100-jibu:p005",
+        "status": "reported_not_collated",
+        "received_reading": "弟",
+        "reported_reading": "子",
+        "adopted": false
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-shiji-100-jibu:p001",
+      "text": "季布者，楚人也。爲氣任俠，有名於楚。項籍使將兵，數窘漢王。及項羽滅，髙祖購求布千金，敢有舍匿，罪及三族。季布匿濮陽周氏。周氏曰：「漢購將軍急，跡且至臣家，將軍能聽臣，臣敢獻計；即不能，願先自剄。」季布許之。乃髡鉗季布，衣褐衣，置廣柳車中，并與其家僮數十人，之魯朱家所賣之。朱家心知是季布，乃買而置之田。誡其子曰：「田事聽此奴，必與同食。」朱家乃乘軺車之洛陽，見汝陰侯滕公。滕公留朱家飲數日。因謂滕公曰：「季布何大罪，而上求之急也？」滕公曰：「布數爲項羽窘上，上怨之，故必欲得之。」朱家曰：「君視季布何如人也？」曰：「賢者也。」朱家曰：「臣各爲其主用，季布爲項籍用，職耳。項氏臣可盡誅邪？今上始得天下，獨以己之私怨求一人，何示天下之不廣也！且以季布之賢而漢求之急如此，此不北走胡即南走越耳。夫忌壯士以資敵國，此伍子胥所以鞭荊平王之墓也。君何不從容爲上言邪？」汝陰侯滕公心知朱家大俠，意季布匿其所，乃許曰：「諾。」待閒，果言如朱家指。上乃赦季布。當是時，諸公皆多季布能摧剛爲柔，朱家亦以此名聞當世。季布召見，謝，上拜爲郎中。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m001-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0030",
+          "start": 30,
+          "end": 32,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "髙祖",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0038",
+          "start": 38,
+          "end": 39,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "周氏",
+          "kind": "person",
+          "person_id": "lit_x7f_ld0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "周氏",
+          "kind": "person",
+          "person_id": "lit_x7f_ld0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0121",
+          "start": 121,
+          "end": 127,
+          "surface": "其家僮數十人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0136",
+          "start": 136,
+          "end": 138,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0141",
+          "start": 141,
+          "end": 143,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0153",
+          "start": 153,
+          "end": 154,
+          "surface": "子",
+          "kind": "person",
+          "person_id": "766_5dq_zws_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0180",
+          "start": 180,
+          "end": 185,
+          "surface": "汝陰侯滕公",
+          "kind": "person",
+          "person_id": "ay6_6gn_kvo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0186",
+          "start": 186,
+          "end": 188,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "ay6_6gn_kvo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0189",
+          "start": 189,
+          "end": 191,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0197",
+          "start": 197,
+          "end": 199,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "ay6_6gn_kvo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0202",
+          "start": 202,
+          "end": 204,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0216",
+          "start": 216,
+          "end": 218,
+          "surface": "滕公",
+          "kind": "person",
+          "person_id": "ay6_6gn_kvo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0221",
+          "start": 221,
+          "end": 222,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0224",
+          "start": 224,
+          "end": 226,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0240",
+          "start": 240,
+          "end": 242,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0247",
+          "start": 247,
+          "end": 249,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0263",
+          "start": 263,
+          "end": 265,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0275",
+          "start": 275,
+          "end": 277,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0278",
+          "start": 278,
+          "end": 280,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0321",
+          "start": 321,
+          "end": 323,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0354",
+          "start": 354,
+          "end": 357,
+          "surface": "伍子胥",
+          "kind": "person",
+          "person_id": "llf_tvb_j2l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0360",
+          "start": 360,
+          "end": 363,
+          "surface": "荊平王",
+          "kind": "person",
+          "person_id": "mpz_80p_uhj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0378",
+          "start": 378,
+          "end": 383,
+          "surface": "汝陰侯滕公",
+          "kind": "person",
+          "person_id": "ay6_6gn_kvo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0385",
+          "start": 385,
+          "end": 387,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0391",
+          "start": 391,
+          "end": 393,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0411",
+          "start": 411,
+          "end": 413,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0418",
+          "start": 418,
+          "end": 420,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0425",
+          "start": 425,
+          "end": 427,
+          "surface": "諸公",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0429",
+          "start": 429,
+          "end": 431,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0437",
+          "start": 437,
+          "end": 439,
+          "surface": "朱家",
+          "kind": "person",
+          "person_id": "766_5dq_zws",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m001-0447",
+          "start": 447,
+          "end": 449,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p002",
+      "text": "孝惠時，爲中郎將。單于嘗爲書嫚呂后，不遜，呂后大怒，召諸將議之。上將軍樊噲曰：「臣願得十萬衆，橫行匈奴中。」諸將皆阿呂后意，曰「然」。季布曰：「樊噲可斬也！夫髙帝將兵四十餘萬衆，困於平城，今噲柰何以十萬衆橫行匈奴中，面欺！且秦以事於胡，陳勝等起。于今創痍未瘳，噲又面諛，欲搖動天下。」是時殿上皆恐，太后罷朝，遂不復議撃匈奴事。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m002-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "anh_fih_n7i",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "1ia_b4v_w14",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "0sl_eh8_yhw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "0sl_eh8_yhw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "諸將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "樊噲",
+          "kind": "person",
+          "person_id": "pdn_whf_crz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "諸將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "呂后",
+          "kind": "person",
+          "person_id": "0sl_eh8_yhw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "樊噲",
+          "kind": "person",
+          "person_id": "pdn_whf_crz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "髙帝",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0095",
+          "start": 95,
+          "end": 96,
+          "surface": "噲",
+          "kind": "person",
+          "person_id": "pdn_whf_crz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "陳勝",
+          "kind": "person",
+          "person_id": "a43_p6o_o49",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0130",
+          "start": 130,
+          "end": 131,
+          "surface": "噲",
+          "kind": "person",
+          "person_id": "pdn_whf_crz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m002-0149",
+          "start": 149,
+          "end": 151,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "0sl_eh8_yhw",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p003",
+      "text": "季布爲河東守，孝文時，人有言其賢者，孝文召，欲以爲御史大夫。復有言其勇，使酒難近。至，留邸一月，見罷。季布因進曰：「臣無功竊寵，待罪河東。陛下無故召臣，此人必有以臣欺陛下者；今臣至，無所受事，罷去，此人必有以毀臣者。夫陛下以一人之譽而召臣，一人之毀而去臣，臣恐天下有識聞之有以闚陛下也。」上默然慚，良久曰：「河東吾股肱郡，故特召君耳。」布辭之官。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m003-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "孝文",
+          "kind": "person",
+          "person_id": "ori_z1y_vg5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0011",
+          "start": 11,
+          "end": 17,
+          "surface": "人有言其賢者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "孝文",
+          "kind": "person",
+          "person_id": "ori_z1y_vg5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0030",
+          "start": 30,
+          "end": 35,
+          "surface": "復有言其勇",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m003-0168",
+          "start": 168,
+          "end": 169,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p004",
+      "text": "楚人曹丘生，辯士，數招權顧金錢。事貴人趙同等，與竇長君善。季布聞之，寄書諫竇長君曰：「吾聞曹丘生非長者，勿與通。」及曹丘生歸，欲得書請季布。竇長君曰：「季將軍不説足下，足下無往。」固請書，遂行。使人先發書，季布果大怒，待曹丘。曹丘至，即揖季布曰：「楚人諺曰『得黃金百（斤），不如得季布一諾』，足下何以得此聲於梁楚閒哉？且仆楚人，足下亦楚人也。仆游揚足下之名於天下，顧不重邪？何足下距仆之深也！」季布乃大説，引入，留數月，爲上客，厚送之。季布名所以益聞者，曹丘揚之也。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m004-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "曹丘生",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "趙同",
+          "kind": "person",
+          "person_id": "m0d_n8x_pj8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "竇長君",
+          "kind": "person",
+          "person_id": "zu4_zoq_n1q",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0037",
+          "start": 37,
+          "end": 40,
+          "surface": "竇長君",
+          "kind": "person",
+          "person_id": "zu4_zoq_n1q",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0045",
+          "start": 45,
+          "end": 48,
+          "surface": "曹丘生",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0058",
+          "start": 58,
+          "end": 61,
+          "surface": "曹丘生",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0070",
+          "start": 70,
+          "end": 73,
+          "surface": "竇長君",
+          "kind": "person",
+          "person_id": "zu4_zoq_n1q",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0076",
+          "start": 76,
+          "end": 79,
+          "surface": "季將軍",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "曹丘",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "曹丘",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0119",
+          "start": 119,
+          "end": 121,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0140",
+          "start": 140,
+          "end": 142,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0197",
+          "start": 197,
+          "end": 199,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0218",
+          "start": 218,
+          "end": 220,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m004-0227",
+          "start": 227,
+          "end": 229,
+          "surface": "曹丘",
+          "kind": "person",
+          "person_id": "tnc_ag2_eej",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p005",
+      "text": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m005-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "季心",
+          "kind": "person",
+          "person_id": "cte_yao_v47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "袁絲",
+          "kind": "person",
+          "person_id": "b7w_mdw_awu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "袁絲",
+          "kind": "person",
+          "person_id": "b7w_mdw_awu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "灌夫",
+          "kind": "person",
+          "person_id": "o7j_zzq_frd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "籍福",
+          "kind": "person",
+          "person_id": "j9f_i2u_283",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "之屬",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "郅都",
+          "kind": "person",
+          "person_id": "o2m_km9_b1w",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "少年",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "季心",
+          "kind": "person",
+          "person_id": "cte_yao_v47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m005-0097",
+          "start": 97,
+          "end": 98,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p006",
+      "text": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m006-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "髙祖",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "髙祖",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0055",
+          "start": 55,
+          "end": 57,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0066",
+          "start": 66,
+          "end": 68,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "髙祖",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0073",
+          "start": 73,
+          "end": 75,
+          "surface": "髙祖",
+          "kind": "person",
+          "person_id": "r5s_fud_iv8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0088",
+          "start": 88,
+          "end": 90,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m006-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "丁公",
+          "kind": "person",
+          "person_id": "7ul_aeb_w4e",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p007",
+      "text": "欒布者，梁人也。始梁王彭越爲家人時，嘗與布游。窮困，賃傭於齊，爲酒人保。數歳，彭越去之巨野中爲盜，而布爲人所略賣，爲奴於燕。爲其家主報仇，燕將臧荼舉以爲都尉。臧荼後爲燕王，以布爲將。及臧荼反，漢撃燕，虜布。梁王彭越聞之，乃言上，請贖布以爲梁大夫。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m007-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "欒布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0050",
+          "start": 50,
+          "end": 51,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0063",
+          "start": 63,
+          "end": 66,
+          "surface": "其家主",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "臧荼",
+          "kind": "person",
+          "person_id": "0lb_ygj_t93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "臧荼",
+          "kind": "person",
+          "person_id": "0lb_ygj_t93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0087",
+          "start": 87,
+          "end": 88,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "臧荼",
+          "kind": "person",
+          "person_id": "0lb_ygj_t93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0101",
+          "start": 101,
+          "end": 102,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0105",
+          "start": 105,
+          "end": 107,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m007-0116",
+          "start": 116,
+          "end": 117,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p008",
+      "text": "使於齊，未還，漢召彭越，責以謀反，夷三族。已而梟彭越頭於雒陽下，詔曰：「有敢收視者，輒捕之。」布從齊還，奏事彭越頭下，祠而哭之。吏捕布以聞。上召布，罵曰：「若與彭越反邪？吾禁人勿收，若獨祠而哭之，與越反明矣。趣亨之。」方提趣湯，布顧曰：「願一言而死。」上曰：「何言？」布曰：「方上之困於彭城，敗滎陽、成皋閒，項王所以（遂）不能［遂］西，徒以彭王居梁地，與漢合從苦楚也。當是之時，彭王一顧，與楚則漢破，與漢而楚破。且垓下之會，微彭王，項氏不亡。天下已定，彭王剖符受封，亦欲傳之萬世。今陛下一徵兵於梁，彭王病不行，而陛下疑以爲反，反形未見，以苛小案誅滅之，臣恐功臣人人自危也。今彭王已死，臣生不如死，請就亨。」於是上乃釋布罪，拜爲都尉。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m008-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0047",
+          "start": 47,
+          "end": 48,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0066",
+          "start": 66,
+          "end": 67,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0072",
+          "start": 72,
+          "end": 73,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0080",
+          "start": 80,
+          "end": 82,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0099",
+          "start": 99,
+          "end": 100,
+          "surface": "越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0114",
+          "start": 114,
+          "end": 115,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0134",
+          "start": 134,
+          "end": 135,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "項王",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0170",
+          "start": 170,
+          "end": 172,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0189",
+          "start": 189,
+          "end": 191,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0213",
+          "start": 213,
+          "end": 215,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0249",
+          "start": 249,
+          "end": 251,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0287",
+          "start": 287,
+          "end": 289,
+          "surface": "彭王",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m008-0308",
+          "start": 308,
+          "end": 309,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p009",
+      "text": "孝文時，爲燕相，至將軍。布乃稱曰：「窮困不能辱身下志，非人也；富貴不能快意，非賢也。」於是嘗有德者厚報之，有怨者必以法滅之。呉（軍）［楚］反時，以軍功封兪侯，復爲燕相。燕齊之閒皆爲欒布立社，號曰欒公社。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m009-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孝文",
+          "kind": "person",
+          "person_id": "ori_z1y_vg5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m009-0012",
+          "start": 12,
+          "end": 13,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m009-0090",
+          "start": 90,
+          "end": 92,
+          "surface": "欒布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p010",
+      "text": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m010-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "景帝",
+          "kind": "person",
+          "person_id": "o9g_jsg_aoc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m010-0008",
+          "start": 8,
+          "end": 9,
+          "surface": "賁",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0_A",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p011",
+      "text": "太史公曰：以項羽之氣，而季布以勇顯於楚，身屨（典）軍搴旗者數矣，可謂壯士。然至被刑戮，爲人奴而不死，何其下也！彼必自負其材，故受辱而不羞，欲有所用其未足也，故終爲漢名將。賢者誠重其死。夫婢妾賤人感慨而自殺者，非能勇也，其計畫無復之耳。欒布哭彭越，趣湯如歸者，彼誠知所處，不自重其死。雖往古烈士，何以加哉！",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "received_chapter",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m011-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "person",
+          "person_id": "nuz_py4_4la",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "cxt_wg1_9qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0093",
+          "start": 93,
+          "end": 97,
+          "surface": "婢妾賤人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "欒布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "彭越",
+          "kind": "person",
+          "person_id": "j8g_yef_isr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m011-0142",
+          "start": 142,
+          "end": 146,
+          "surface": "往古烈士",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體、合稱或待辨匿名指代，不補成員。"
+        }
+      ]
+    },
+    {
+      "id": "c-shiji-100-jibu:p012",
+      "text": "季布、季心，有聲梁、楚。百金然諾，十萬致距。出守河東，股肱是與。欒布哭越，犯禁見虜。赴鼎非冤，誠知所處。",
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "witness_appended_suoyin_zan",
+      "mentions": [
+        {
+          "id": "c-shiji-100-jibu:m012-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "季布",
+          "kind": "person",
+          "person_id": "udu_dyy_4wd",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m012-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "季心",
+          "kind": "person",
+          "person_id": "cte_yao_v47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-100-jibu:m012-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "欒布",
+          "kind": "person",
+          "person_id": "jx9_cov_qe0",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ]
+}
