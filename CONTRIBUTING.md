@@ -92,3 +92,5 @@ Compare incoming source corrections with the saved unannotated baseline and our 
 ## Present limits
 
 The seed annotations and events are proposals, not independently human-reviewed facts. No historical jurisdiction geometry is included. ctext XML support is raw staging/inspection only; submit a legally reusable real export fixture and its provenance before adding semantic mapping. Never commit API tokens or third-party data with unresolved redistribution rights.
+
+傳世正文整理以命名實體、關係與稱號的原文錨點為先。現代研究可記為書目參考，不要求先驗證其論證，亦不因此阻擋正文標註。若另採學者判讀，須與正文直接主張分開記錄。
