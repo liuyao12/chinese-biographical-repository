@@ -524,7 +524,12 @@ def validate(root=ROOT):
             for address in record['assertions']:
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
-                check(address['relation'] in ('biographical_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place'), '地址關係類型未知')
+                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place'), '地址關係類型未知')
+                if address['relation'] == 'ancestral_origin':
+                    scope = address.get('qualifiers', {})
+                    check(scope.get('subject_scope') == 'ancestors_unspecified'
+                          and scope.get('ancestor_person_id') is None
+                          and scope.get('generation_distance') is None, '祖先出身不得暗補具名祖先或世代，須明示範圍')
                 check(bool(address['place']['source_name']) and bool(address['evidence']), '地址原地名或證據缺失')
                 if 'normalized_date' in address:
                     date = address['normalized_date']

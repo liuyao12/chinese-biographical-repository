@@ -334,3 +334,14 @@ class PersonBundleTests(unittest.TestCase):
         holding = next(h for h in result['title_holdings'] if h['title'] == '先')
         self.assertEqual(holding['kind'], 'honorific')
         self.assertTrue(any('張恢先所' in p['text'] for p in result['passages']))
+
+    def test_zhou_ren_ancestral_place_is_not_personal_origin(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        person = next(p for p in catalog[0].values() if p['label'] == '周仁（萬石張叔列傳候選）')
+        result = bundle(person['id'], catalog=catalog)
+        ancestral = next(a for a in result['address_assertions'] if a['place']['source_name'] == '任城')
+        self.assertEqual(ancestral['relation'], 'ancestral_origin')
+        self.assertEqual(ancestral['qualifiers']['subject_scope'], 'ancestors_unspecified')
+        self.assertIsNone(ancestral['qualifiers']['ancestor_person_id'])
+        self.assertFalse(any(a['relation'] in ('native_place', 'biographical_origin') and a['place']['source_name'] == '任城' for a in result['address_assertions']))

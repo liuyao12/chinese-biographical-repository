@@ -490,4 +490,11 @@ class CorpusTests(unittest.TestCase):
         father = next(p for p in reg['persons'] if p['id'] == 'yqp_nlb_p1p_AF')
         self.assertNotIn(m['id'], {e['mention_id'] for e in father['evidence']})
 
+    def test_ancestral_origin_cannot_invent_named_ancestor(self):
+        def mutate(d):
+            a = next(a for a in d['assertions'] if a['relation'] == 'ancestral_origin')
+            a['qualifiers']['ancestor_person_id'] = a['person_id']
+        self.change('corpus/shiji/103-addresses.json', mutate)
+        self.assertTrue(any('祖先出身不得暗補' in error for error in v.validate(self.root)))
+
 if __name__=='__main__':unittest.main()

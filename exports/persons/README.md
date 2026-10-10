@@ -152,6 +152,15 @@
 
 </details>
 
+<details><summary><code>113_odk_emq</code> 衞綰（萬石張叔列傳候選）（2 名）</summary>
+
+| 人物 ID | 標籤 | JSON |
+|---|---|---|
+| `113_odk_emq` | 衞綰（萬石張叔列傳候選） | [JSON](113_odk_emq.json) |
+| `113_odk_emq_A` | 信（衞綰子）（萬石張叔列傳候選） | [JSON](113_odk_emq_A.json) |
+
+</details>
+
 <details><summary><code>128_4ab_z34</code> 熊延（楚君）（2 名）</summary>
 
 | 人物 ID | 標籤 | JSON |
@@ -899,6 +908,15 @@
 
 </details>
 
+<details><summary><code>afj_vl8_7fu</code> 安丘侯説（萬石張叔列傳候選）（2 名）</summary>
+
+| 人物 ID | 標籤 | JSON |
+|---|---|---|
+| `afj_vl8_7fu` | 安丘侯説（萬石張叔列傳候選） | [JSON](afj_vl8_7fu.json) |
+| `afj_vl8_7fu_A` | 張歐（萬石張叔列傳候選） | [JSON](afj_vl8_7fu_A.json) |
+
+</details>
+
 <details><summary><code>anb_2wd_5ci</code> 周苛（張丞相列傳候選）（2 名）</summary>
 
 | 人物 ID | 標籤 | JSON |
@@ -1046,6 +1064,16 @@
 
 </details>
 
+<details><summary><code>c19_xxo_r8f</code> 直不疑（萬石張叔列傳候選）（3 名）</summary>
+
+| 人物 ID | 標籤 | JSON |
+|---|---|---|
+| `c19_xxo_r8f` | 直不疑（萬石張叔列傳候選） | [JSON](c19_xxo_r8f.json) |
+| `c19_xxo_r8f_*A` | 望（直不疑孫）（萬石張叔列傳候選） | [JSON](c19_xxo_r8f_%2AA.json) |
+| `c19_xxo_r8f_A` | 相如（直不疑子）（萬石張叔列傳候選） | [JSON](c19_xxo_r8f_A.json) |
+
+</details>
+
 <details><summary><code>c1t_5mz_5ia</code> 晉昭公（趙世家候選）（2 名）</summary>
 
 | 人物 ID | 標籤 | JSON |
@@ -1182,6 +1210,20 @@
 |---|---|---|
 | `ei7_fai_lvy` | 丑（鄭世家共公候選） | [JSON](ei7_fai_lvy.json) |
 | `ei7_fai_lvy_A` | 已（鄭世家幽公候選） | [JSON](ei7_fai_lvy_A.json) |
+
+</details>
+
+<details><summary><code>esh_e0a_jrw</code> 石奮父未名（萬石張叔列傳候選）（7 名）</summary>
+
+| 人物 ID | 標籤 | JSON |
+|---|---|---|
+| `esh_e0a_jrw` | 石奮父未名（萬石張叔列傳候選） | [JSON](esh_e0a_jrw.json) |
+| `esh_e0a_jrw_A` | 石奮（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_A.json) |
+| `esh_e0a_jrw_AA` | 建（石奮長子）（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_AA.json) |
+| `esh_e0a_jrw_AB` | 甲（石奮次子失名佔位）（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_AB.json) |
+| `esh_e0a_jrw_AC` | 乙（石奮次子失名佔位）（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_AC.json) |
+| `esh_e0a_jrw_AD` | 慶（石奮子）（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_AD.json) |
+| `esh_e0a_jrw_ADA` | 德（石慶中子）（萬石張叔列傳候選） | [JSON](esh_e0a_jrw_ADA.json) |
 
 </details>
 
@@ -2906,6 +2948,7 @@
 | `01m_8vn_zqy` | 陳勝（劉敬叔孫通列傳候選） | [JSON](01m_8vn_zqy.json) |
 | `023_j4f_3vn` | 孟嘗（魏世家候選） | [JSON](023_j4f_3vn.json) |
 | `02f_ql9_7if` | 毀孟嘗於齊湣者未名（孟嘗君列傳候選） | [JSON](02f_ql9_7if.json) |
+| `02g_rlg_6nk` | 河閒王未名（萬石張叔列傳候選） | [JSON](02g_rlg_6nk.json) |
 | `02k_166_l3b` | 闔閭引古（樂毅列傳候選） | [JSON](02k_166_l3b.json) |
 | `02m_tgr_6k2` | 韓廣母（陳涉世家未名者） | [JSON](02m_tgr_6k2.json) |
 | `02p_okn_rhi` | 秦太子（魏世家質魏死未名者） | [JSON](02p_okn_rhi.json) |
@@ -2957,6 +3000,7 @@
 | `0fm_cc8_dzu` | 亞圉 | [JSON](0fm_cc8_dzu.json) |
 | `0fv_vgd_85y` | 延陵季子（趙世家候選） | [JSON](0fv_vgd_85y.json) |
 | `0g3_cdx_6yo` | 賈佗（重耳五士） | [JSON](0g3_cdx_6yo.json) |
+| `0g7_4bm_srb` | 孝景帝（萬石張叔列傳候選） | [JSON](0g7_4bm_srb.json) |
 | `0gg_iqz_iey` | 景駒（黥布列傳候選） | [JSON](0gg_iqz_iey.json) |
 | `0gr_kq8_371` | 魯桓公（鄭世家候選） | [JSON](0gr_kq8_371.json) |
 | `0gy_vl6_l9g` | 林慮公主（外戚世家候選） | [JSON](0gy_vl6_l9g.json) |
@@ -2972,6 +3016,7 @@
 | `0jb_r4l_gxr` | 桀引古（田單列傳候選） | [JSON](0jb_r4l_gxr.json) |
 | `0jj_3xt_ip6` | 太子未名（淮陰侯列傳候選） | [JSON](0jj_3xt_ip6.json) |
 | `0jl_b1p_z9y` | 由余引古（魯仲連鄒陽列傳候選） | [JSON](0jl_b1p_z9y.json) |
+| `0jy_rdt_zu1` | 石奮姊未名（萬石張叔列傳候選） | [JSON](0jy_rdt_zu1.json) |
 | `0k3_rt8_aa5` | 狗盜客未名（孟嘗君列傳候選） | [JSON](0k3_rt8_aa5.json) |
 | `0k4_eok_19j` | 靈公夫人（命郢太子者） | [JSON](0k4_eok_19j.json) |
 | `0k8_5z8_6e7` | 相者老父（高祖田間敘事） | [JSON](0k8_5z8_6e7.json) |
@@ -2999,6 +3044,7 @@
 | `0qj_puw_myv` | 慎到（孟子荀卿列傳候選） | [JSON](0qj_puw_myv.json) |
 | `0qr_fjs_wjx` | 馯臂子弘（弟子列傳候選） | [JSON](0qr_fjs_wjx.json) |
 | `0qu_bd0_57x` | 秦王（田世家煮棗議論未名者） | [JSON](0qu_bd0_57x.json) |
+| `0r9_eg1_k8e` | 桑弘羊（萬石張叔列傳候選） | [JSON](0r9_eg1_k8e.json) |
 | `0rc_0ya_wg8` | 申包胥 | [JSON](0rc_0ya_wg8.json) |
 | `0rg_7of_rgi` | 魏襄王（蘇秦列傳候選） | [JSON](0rg_7of_rgi.json) |
 | `0ri_3st_fjq` | 桓楚 | [JSON](0ri_3st_fjq.json) |
@@ -3204,6 +3250,7 @@
 | `2bw_ckk_9u2` | 冉有（季氏用者） | [JSON](2bw_ckk_9u2.json) |
 | `2c8_uuj_bc8` | 巫馬施（弟子列傳候選） | [JSON](2c8_uuj_bc8.json) |
 | `2c9_tl4_1sc` | 太尉勃（齊悼惠王世家候選） | [JSON](2c9_tl4_1sc.json) |
+| `2cg_r5b_krs` | 太子未名（元狩元年立）（萬石張叔列傳候選） | [JSON](2cg_r5b_krs.json) |
 | `2cx_p6z_4uc` | 周繆王（趙世家候選） | [JSON](2cx_p6z_4uc.json) |
 | `2d1_ymx_i2x` | 武公（燕昭公後） | [JSON](2d1_ymx_i2x.json) |
 | `2dw_3cl_e1j` | 解揚（紿救宋者） | [JSON](2dw_3cl_e1j.json) |
@@ -3223,6 +3270,7 @@
 | `2j4_zl6_6ms` | 鐘離生（外戚世家候選） | [JSON](2j4_zl6_6ms.json) |
 | `2j9_c6k_fjs` | 章邯（陳涉世家候選） | [JSON](2j9_c6k_fjs.json) |
 | `2jb_t1c_fpa` | 申（田世家魏太子候選） | [JSON](2jb_t1c_fpa.json) |
+| `2jn_tjp_75n` | 周仁（萬石張叔列傳候選） | [JSON](2jn_tjp_75n.json) |
 | `2jv_fri_ifh` | 萇弘（周臣） | [JSON](2jv_fri_ifh.json) |
 | `2k3_1v0_aqi` | 程縱（樊酈滕灌列傳候選） | [JSON](2k3_1v0_aqi.json) |
 | `2kq_bij_vxi` | 邢夫人（外戚世家候選） | [JSON](2kq_bij_vxi.json) |
@@ -3775,6 +3823,7 @@
 | `6pz_7ge_y2n` | 黥布（陳涉世家當陽君候選） | [JSON](6pz_7ge_y2n.json) |
 | `6q3_5d1_jsc` | 友（齊悼惠王世家候選） | [JSON](6q3_5d1_jsc.json) |
 | `6qu_ijl_anf` | 季姬（季康子妹） | [JSON](6qu_ijl_anf.json) |
+| `6qw_s6t_pib` | 王臧（萬石張叔列傳候選） | [JSON](6qw_s6t_pib.json) |
 | `6r7_9o6_c1i` | 田橫 | [JSON](6r7_9o6_c1i.json) |
 | `6rk_dgb_df6` | 韓萬（曲沃殺哀侯者） | [JSON](6rk_dgb_df6.json) |
 | `6ry_qb7_2ur` | 韋孟（楚元王世家候選） | [JSON](6ry_qb7_2ur.json) |
@@ -3788,6 +3837,7 @@
 | `6u6_x1f_xgg` | 季桓子（孔子世家候選） | [JSON](6u6_x1f_xgg.json) |
 | `6ub_tha_gkr` | 髙（越世家齊俘候選） | [JSON](6ub_tha_gkr.json) |
 | `6us_ibm_u05` | 陳嬰 | [JSON](6us_ibm_u05.json) |
+| `6v4_57w_76j` | 石奮母未名（萬石張叔列傳候選） | [JSON](6v4_57w_76j.json) |
 | `6ve_ik8_jv8` | 魏豹 | [JSON](6ve_ik8_jv8.json) |
 | `6w8_1nb_1wo` | 夷皋之母（趙世家未名者） | [JSON](6w8_1nb_1wo.json) |
 | `6wr_5vs_sge` | 虢公丑（亡周者） | [JSON](6wr_5vs_sge.json) |
@@ -4205,6 +4255,7 @@
 | `a48_r53_plq` | 孝惠皇帝（孔子世家博士所事未名者） | [JSON](a48_r53_plq.json) |
 | `a4c_92r_l2i` | 微子引古（范睢蔡澤列傳候選） | [JSON](a4c_92r_l2i.json) |
 | `a51_heh_znt` | 牛畜（趙世家候選） | [JSON](a51_heh_znt.json) |
+| `a54_d6h_wd1` | 王温舒（萬石張叔列傳候選） | [JSON](a54_d6h_wd1.json) |
 | `a5n_z4j_1uf` | 堯（伯夷列傳候選） | [JSON](a5n_z4j_1uf.json) |
 | `a70_h0o_diu` | 富父終甥 | [JSON](a70_h0o_diu.json) |
 | `a72_80l_b8r` | 穰侯（韓世家未名者） | [JSON](a72_80l_b8r.json) |
@@ -4373,6 +4424,7 @@
 | `bl6_mow_siu` | 公孫喜 | [JSON](bl6_mow_siu.json) |
 | `ble_6gl_3l8` | 空同氏（趙世家襄子妻未名者） | [JSON](ble_6gl_3l8.json) |
 | `blo_hqh_iqg` | 小乙 | [JSON](blo_hqh_iqg.json) |
+| `blw_xsu_w9q` | 兒寬（萬石張叔列傳候選） | [JSON](blw_xsu_w9q.json) |
 | `blx_v56_6o2` | 廩辛 | [JSON](blx_v56_6o2.json) |
 | `bnh_asf_e35` | 舜（伯夷列傳候選） | [JSON](bnh_asf_e35.json) |
 | `bnk_8kb_0y4` | 太史公（白起王翦列傳候選） | [JSON](bnk_8kb_0y4.json) |
@@ -4448,6 +4500,7 @@
 | `c59_t5o_6dk` | 楚平王（引古）（蒙恬列傳候選） | [JSON](c59_t5o_6dk.json) |
 | `c5j_5bu_v0o` | 魏尚（張釋之馮唐列傳候選） | [JSON](c5j_5bu_v0o.json) |
 | `c5t_8kk_hd5` | 夏說 | [JSON](c5t_8kk_hd5.json) |
+| `c68_rcg_qsu` | 皇太后未名（建元語境）（萬石張叔列傳候選） | [JSON](c68_rcg_qsu.json) |
 | `c6v_07v_vxz` | 種（袁盎兄子）（袁盎鼂錯列傳候選） | [JSON](c6v_07v_vxz.json) |
 | `c78_536_k7y` | 楊何（弟子列傳候選） | [JSON](c78_536_k7y.json) |
 | `c7c_u1x_vni` | 晉文侯（趙世家候選） | [JSON](c7c_u1x_vni.json) |
@@ -4548,6 +4601,7 @@
 | `cvy_rt4_kwy` | 景駒（陳涉世家楚王候選） | [JSON](cvy_rt4_kwy.json) |
 | `cwo_p3o_pnj` | 鄖公（伍胥列傳候選） | [JSON](cwo_p3o_pnj.json) |
 | `cwr_47k_5ds` | 陳軫（陳涉世家褚氏引文候選） | [JSON](cwr_47k_5ds.json) |
+| `cxg_02f_byh` | 孝武帝（萬石張叔列傳候選） | [JSON](cxg_02f_byh.json) |
 | `cxt_wg1_9qm` | 項羽（季布欒布列傳候選） | [JSON](cxt_wg1_9qm.json) |
 | `cxz_e3l_l70` | 趙武（韓世家候選） | [JSON](cxz_e3l_l70.json) |
 | `cy4_4y3_3er` | 季心（袁盎鼂錯列傳候選） | [JSON](cy4_4y3_3er.json) |
@@ -4565,6 +4619,7 @@
 | `d1r_5dd_9tm` | 燕質子（蘇秦列傳候選） | [JSON](d1r_5dd_9tm.json) |
 | `d28_lyw_tjf` | 顏聚（廉頗藺相如列傳候選） | [JSON](d28_lyw_tjf.json) |
 | `d31_kms_f7h` | 李牧 | [JSON](d31_kms_f7h.json) |
+| `d31_nve_gr6` | 被廢太子未名（萬石張叔列傳候選） | [JSON](d31_nve_gr6.json) |
 | `d31_spk_c5m` | 燕周（趙世家候選） | [JSON](d31_spk_c5m.json) |
 | `d3p_px2_tmf` | 衞靈公（孔子世家候選） | [JSON](d3p_px2_tmf.json) |
 | `d4o_xs0_n1j` | 趙蔥（廉頗藺相如列傳候選） | [JSON](d4o_xs0_n1j.json) |
@@ -4622,6 +4677,7 @@
 | `dhv_na8_x3q` | 渉賓（趙世家候選） | [JSON](dhv_na8_x3q.json) |
 | `di1_tea_bkj` | 曲沃莊伯（楚篇候選） | [JSON](di1_tea_bkj.json) |
 | `dic_j3m_5rx` | 淮南王未具名（張釋之馮唐列傳候選） | [JSON](dic_j3m_5rx.json) |
+| `dip_c4z_kc6` | 韓安國（萬石張叔列傳候選） | [JSON](dip_c4z_kc6.json) |
 | `dj2_abb_e9l` | 成公（燕孝公後） | [JSON](dj2_abb_e9l.json) |
 | `djb_njc_1kd` | 秦昭王（廉頗藺相如列傳候選） | [JSON](djb_njc_1kd.json) |
 | `djc_n3a_hms` | 建的美人子（未名） | [JSON](djc_n3a_hms.json) |
@@ -5095,6 +5151,7 @@
 | `gxs_1ia_tsp` | 太仆未名（魏豹彭越列傳候選） | [JSON](gxs_1ia_tsp.json) |
 | `gy0_w6c_v4l` | 商君（商君列傳候選） | [JSON](gy0_w6c_v4l.json) |
 | `gy6_lx6_eb2` | 趙公子渴 | [JSON](gy6_lx6_eb2.json) |
+| `gy7_87j_x9e` | 郅都（萬石張叔列傳候選） | [JSON](gy7_87j_x9e.json) |
 | `gyr_88s_bq0` | 韓信（曹相國世家候選） | [JSON](gyr_88s_bq0.json) |
 | `gys_oka_b4w` | 孝景帝（張釋之馮唐列傳候選） | [JSON](gys_oka_b4w.json) |
 | `gyz_mj7_l1f` | 鯫生（留侯世家候選） | [JSON](gyz_mj7_l1f.json) |
@@ -5466,6 +5523,7 @@
 | `jsk_quz_7bh` | 單伯（鄭世家櫟大夫候選） | [JSON](jsk_quz_7bh.json) |
 | `jsn_gfv_ekd` | 孝矦（晉君） | [JSON](jsn_gfv_ekd.json) |
 | `jt4_7tp_14h` | 衞武公（季札論樂稱） | [JSON](jt4_7tp_14h.json) |
+| `jt5_4xj_v0y` | 栗卿（萬石張叔列傳候選） | [JSON](jt5_4xj_v0y.json) |
 | `ju6_1ic_2zu` | 灌嬰（齊悼惠王世家候選） | [JSON](ju6_1ic_2zu.json) |
 | `jue_6ri_i2r` | 康叔（三王世家候選） | [JSON](jue_6ri_i2r.json) |
 | `jug_ktd_id2` | 髙止（齊人奔燕） | [JSON](jug_ktd_id2.json) |
@@ -5533,6 +5591,7 @@
 | `kcm_epf_5gf` | 趙歇（淮陰侯列傳候選） | [JSON](kcm_epf_5gf.json) |
 | `kcn_xi0_lu8` | 接子（田世家候選） | [JSON](kcn_xi0_lu8.json) |
 | `kd7_n5o_quo` | 秦昭王（春申君列傳候選） | [JSON](kd7_n5o_quo.json) |
+| `kdb_o6l_zgr` | 仲尼（萬石張叔列傳候選） | [JSON](kdb_o6l_zgr.json) |
 | `kdu_u61_y33` | 顏濁鄒（孔子世家候選） | [JSON](kdu_u61_y33.json) |
 | `kea_cx5_ey7` | 蒙嘉引古（魯仲連鄒陽列傳候選） | [JSON](kea_cx5_ey7.json) |
 | `kei_2tq_702` | 靜（齊胡公） | [JSON](kei_2tq_702.json) |
@@ -5704,6 +5763,7 @@
 | `lof_f7j_v3e` | 武（文帝子） | [JSON](lof_f7j_v3e.json) |
 | `lp3_npi_io0` | 韓信（田儋列傳候選） | [JSON](lp3_npi_io0.json) |
 | `lpb_qw7_82d` | 公孫賈（商君列傳候選） | [JSON](lpb_qw7_82d.json) |
+| `lpm_cci_4wd` | 所忠（萬石張叔列傳候選） | [JSON](lpm_cci_4wd.json) |
 | `lpu_67y_ydz` | 張良（淮陰侯列傳候選） | [JSON](lpu_67y_ydz.json) |
 | `lqh_592_x11` | 郤宛（費無忌所害者） | [JSON](lqh_592_x11.json) |
 | `lqh_jlr_dl6` | 河上丈人（樂毅列傳候選） | [JSON](lqh_jlr_dl6.json) |
@@ -5983,6 +6043,7 @@
 | `nxr_c7g_p9l` | 葛嬴 | [JSON](nxr_c7g_p9l.json) |
 | `nyj_dya_hs8` | 顯王 | [JSON](nyj_dya_hs8.json) |
 | `nz3_a9o_scr` | 止（晉烈公） | [JSON](nz3_a9o_scr.json) |
+| `nz6_tdl_ub1` | 太史公（萬石張叔列傳候選） | [JSON](nz6_tdl_ub1.json) |
 | `nz7_rhm_scf` | 高帝（梁孝王世家候選） | [JSON](nz7_rhm_scf.json) |
 | `nza_w1p_x8f` | 南宮公主（外戚世家候選） | [JSON](nza_w1p_x8f.json) |
 | `nzi_rg8_uik` | 扶蘇（劉敬叔孫通列傳候選） | [JSON](nzi_rg8_uik.json) |
@@ -6043,9 +6104,11 @@
 | `ofs_1tu_iml` | 樂乘（趙將） | [JSON](ofs_1tu_iml.json) |
 | `oge_g2v_hqw` | 平（武遂侯）（酈生陸賈列傳候選） | [JSON](oge_g2v_hqw.json) |
 | `ogh_zo9_46d` | 吳公未名（屈原賈生列傳候選） | [JSON](ogh_zo9_46d.json) |
+| `oh2_xep_h3c` | 咸宣（萬石張叔列傳候選） | [JSON](oh2_xep_h3c.json) |
 | `ohe_hlc_y40` | 閼路（杞哀公） | [JSON](ohe_hlc_y40.json) |
 | `oho_r3f_c6y` | 堯 | [JSON](oho_r3f_c6y.json) |
 | `ohw_icg_qzk` | 魯大師（孔子世家未名者） | [JSON](ohw_icg_qzk.json) |
+| `oie_tl5_yxn` | 桃侯舍（萬石張叔列傳候選） | [JSON](oie_tl5_yxn.json) |
 | `ois_7lo_cjv` | 閎夭引古（范睢蔡澤列傳候選） | [JSON](ois_7lo_cjv.json) |
 | `oiy_a5y_l1t` | 犀首（魏世家候選） | [JSON](oiy_a5y_l1t.json) |
 | `oj5_zy0_x0t` | 尹姬（外戚世家候選） | [JSON](oj5_zy0_x0t.json) |
@@ -6342,6 +6405,7 @@
 | `qsj_qnd_c34` | 勃（五宗世家候選） | [JSON](qsj_qnd_c34.json) |
 | `qso_wkv_7aw` | 太史公（張耳陳餘列傳候選） | [JSON](qso_wkv_7aw.json) |
 | `qsp_sme_975` | 劇辛（燕將） | [JSON](qsp_sme_975.json) |
+| `qt3_4qv_5sv` | 髙祖（萬石張叔列傳候選） | [JSON](qt3_4qv_5sv.json) |
 | `qtb_izn_j04` | 大將抵（絳侯周勃世家候選） | [JSON](qtb_izn_j04.json) |
 | `qtn_m4s_poh` | 不疑（孝惠後宮子稱） | [JSON](qtn_m4s_poh.json) |
 | `qto_bww_j2t` | 竇太后（絳侯周勃世家候選） | [JSON](qto_bww_j2t.json) |
@@ -6610,6 +6674,7 @@
 | `sqd_bzq_9qf` | 齊湣王（樂毅列傳候選） | [JSON](sqd_bzq_9qf.json) |
 | `sqf_hxb_q6t` | 張耳妻父客未名（張耳陳餘列傳候選） | [JSON](sqf_hxb_q6t.json) |
 | `sqj_ztt_459` | 薛澤（張丞相列傳候選） | [JSON](sqj_ztt_459.json) |
+| `sqk_n7e_eyk` | 膠東王未具名（萬石張叔列傳候選） | [JSON](sqk_n7e_eyk.json) |
 | `sqm_9mg_poc` | 許鈞（趙世家候選） | [JSON](sqm_9mg_poc.json) |
 | `sr6_5zr_1f3` | 龍且 | [JSON](sr6_5zr_1f3.json) |
 | `srh_4ts_334` | 漢惠帝（張丞相列傳候選） | [JSON](srh_4ts_334.json) |
@@ -6673,6 +6738,7 @@
 | `t8b_zxx_6ea` | 田駢（田世家候選） | [JSON](t8b_zxx_6ea.json) |
 | `t8k_az0_xk2` | 魏惠王（孫吳列傳候選） | [JSON](t8k_az0_xk2.json) |
 | `t8t_xtf_6tp` | 傅豹（趙世家武垣令候選） | [JSON](t8t_xtf_6tp.json) |
+| `t90_dfp_2t1` | 項籍（萬石張叔列傳候選） | [JSON](t90_dfp_2t1.json) |
 | `t9r_yzu_a41` | 陳勝（陳涉世家字涉候選） | [JSON](t9r_yzu_a41.json) |
 | `ta6_n0m_glj` | 太戊 | [JSON](ta6_n0m_glj.json) |
 | `tal_mu5_li4` | 孟嘗君母未名（孟嘗君列傳候選） | [JSON](tal_mu5_li4.json) |
@@ -6950,6 +7016,7 @@
 | `vk1_9g9_a0u` | 龐涓（商君列傳候選） | [JSON](vk1_9g9_a0u.json) |
 | `vk6_egu_id7` | 王子綦（伍胥列傳候選） | [JSON](vk6_egu_id7.json) |
 | `vk7_pxl_658` | 中行寅（攻趙鞅者） | [JSON](vk7_pxl_658.json) |
+| `vkx_o6x_yz4` | 孝文帝（萬石張叔列傳候選） | [JSON](vkx_o6x_yz4.json) |
 | `vl9_0uq_cgr` | 鄭安平（范睢蔡澤列傳候選） | [JSON](vl9_0uq_cgr.json) |
 | `vle_lyb_962` | 陽生（伍胥列傳候選） | [JSON](vle_lyb_962.json) |
 | `vlh_nxo_p71` | 王朔 | [JSON](vlh_nxo_p71.json) |
@@ -7291,6 +7358,7 @@
 | `y81_z0r_svc` | 左人郢（弟子列傳候選） | [JSON](y81_z0r_svc.json) |
 | `y82_gm0_bbt` | 項他（樊酈滕灌列傳候選） | [JSON](y82_gm0_bbt.json) |
 | `y85_c3n_gfg` | 商鞅（蘇秦列傳候選） | [JSON](y85_c3n_gfg.json) |
+| `y8g_kfz_51h` | 張相如（萬石張叔列傳候選） | [JSON](y8g_kfz_51h.json) |
 | `y8v_od8_wtk` | 李信（刺客列傳候選） | [JSON](y8v_od8_wtk.json) |
 | `y9b_ziu_p6i` | 殷紂（商君列傳候選） | [JSON](y9b_ziu_p6i.json) |
 | `y9g_4wy_1m9` | 自相太子（魏世家未名者） | [JSON](y9g_4wy_1m9.json) |
@@ -7410,6 +7478,7 @@
 | `z4p_57w_hfw` | 曹沫（刺客列傳候選） | [JSON](z4p_57w_hfw.json) |
 | `z5h_0si_ndg` | 秦女（伍胥列傳候選） | [JSON](z5h_0si_ndg.json) |
 | `z6e_12m_z5v` | 虢仲（桓王伐曲沃使者） | [JSON](z6e_12m_z5v.json) |
+| `z6g_h69_eva` | 丞相未名（元鼎五年罷）（萬石張叔列傳候選） | [JSON](z6g_h69_eva.json) |
 | `z6l_cqj_6ts` | 射鴈者（勸楚頃襄王伐秦未名） | [JSON](z6l_cqj_6ts.json) |
 | `z6m_hs4_r4a` | 陳平（樊酈滕灌列傳候選） | [JSON](z6m_hs4_r4a.json) |
 | `z7q_q8l_dcx` | 許由（讓天下引語） | [JSON](z7q_q8l_dcx.json) |
