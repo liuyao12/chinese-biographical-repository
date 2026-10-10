@@ -237,6 +237,10 @@ class PersonBundleTests(unittest.TestCase):
         self.assertGreater(text.count('<details>'), 0)
         self.assertEqual(text.count('<details>'), text.count('</details>'))
         self.assertIn('%2A', text)
+        source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', text))
+        definitions = set(re.findall(r'^\[(\d+)\]: https://', text, re.M))
+        self.assertTrue(source_refs)
+        self.assertTrue(source_refs.issubset(definitions))
 
     def test_preferred_tree_selects_zhaozis_son_without_discarding_other_sources(self):
         from scripts.person_bundle import load_catalog

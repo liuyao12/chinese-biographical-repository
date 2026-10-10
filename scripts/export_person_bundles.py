@@ -15,13 +15,16 @@ def export(root=ROOT):
     destination.mkdir(parents=True, exist_ok=True)
     works = {w['id']: w['title'] for w in json.loads((root / 'registry/works.json').read_text())['works']}
     source_labels = {}
+    source_references = []
     for record in catalog[1]:
         if record.get('record_type') != 'marked_chapter':
             continue
         title = re.sub(r'第[一二三四五六七八九十百千〇零]+$', '', record['title'])
         label = '《' + works[record['work_id']] + '・' + title + '》'
         url = record['source'].get('permalink') or record['source']['url']
-        source_labels[record['source_id']] = f'[{label}]({url})'
+        number = len(source_references) + 1
+        source_labels[record['source_id']] = f'[{label}][{number}]'
+        source_references.append(f'[{number}]: {url}')
     def source_column(row):
         return '、'.join(source_labels[sid] for sid in row['most_mentioned_source_ids']) or '—'
     def person_label(row):
@@ -78,6 +81,7 @@ def export(root=ROOT):
         lines.extend(['', '</details>', ''])
     lines.extend(['## 尚未連入同族的人物', '', '| 人物 ID | 人物 | 最多提及來源 | JSON |', '|---|---|---|---|'])
     lines.extend(f"| `{v['person_id']}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in singles)
+    lines.extend(['', *source_references])
     (destination / 'README.md').write_text('\n'.join(lines) + '\n')
     print('人物 JSON：', len(rows))
 
