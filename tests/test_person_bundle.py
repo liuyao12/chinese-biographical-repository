@@ -121,3 +121,23 @@ class PersonBundleTests(unittest.TestCase):
         verb_start = paragraph['text'].index('代丞相')
         self.assertFalse(any(m['start'] == verb_start and m['surface'] == '代丞相' for m in paragraph['mentions']))
         self.assertTrue(any(m['surface'] == '代丞相' and m['start'] > verb_start for m in paragraph['mentions']))
+
+    def test_heqin_proposal_is_not_actual_birth_or_marriage(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        people = catalog[0]
+        def pid(label):
+            return next(k for k, v in people.items() if v['label'] == label + '（劉敬叔孫通列傳候選）')
+        modu = pid('冒頓')
+        princess = pid('呂后女未名')
+        sent = pid('實遣家人子未名')
+        result = bundle(modu, catalog=catalog)
+        self.assertNotEqual(princess, sent)
+        self.assertTrue(any(a['predicate'] == 'spouse' and a['subject_person_id'] == sent for a in result['relations']))
+        self.assertFalse(any(a['predicate'] == 'spouse' and a['subject_person_id'] == princess for a in result['relations']))
+        self.assertFalse(any(a['predicate'] == 'father' and a['object_person_id'] == modu for a in result['relations']))
+        hypothetical = next(p for p in result['passages'] if p['id'].endswith(':p006'))
+        start = hypothetical['text'].index('生子必為太子') + len('生子必為')
+        mention = next(m for m in hypothetical['mentions'] if m['start'] == start)
+        self.assertEqual(mention['kind'], 'unresolved')
+        self.assertIsNone(mention['person_id'])
