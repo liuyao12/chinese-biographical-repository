@@ -107,8 +107,23 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 家族式人物 ID
 
-新候選沿用 jiapu-mp 的9位隨機小寫英數家族根與單字元世代分支，例如 `abc_def_123-`、其子 `abc_def_123-A`、孫 `abc_def_123-AA`。根是目前可建立的局部家族錨點，不表示已知始祖。分支字元是分配槽，不表示長幼排行；排行仍以有來源的結構化約束另存。分配檢查重複及已占用的後代分支。
+新候選使用 jiapu-mp 的9位隨機小寫英數家族根與單字元世代分支，例如 `abc_def_123`、其子 `abc_def_123_A`、孫 `abc_def_123_AA`。根是目前可建立的局部家族錨點，不表示已知始祖。分支字元是分配槽，不表示長幼排行；排行仍以有來源的結構化約束另存。分配檢查重複及已占用的後代分支。
 
-只將可逐代核讀的直接父子連接用於 ID 路徑，每一步保存來源與原文。遠祖、闕代、從親親等不明、傳說或有爭議世系只記來源主張，不補父系路徑。配偶、母系及收養關係另記。
+以來源可靠性及關係判讀配置家族，不限父子。明示祖孫等有世代距離的近親，即使中間缺名亦可同根；例如祖父 `abc_def_123` 與孫 `abc_def_123_*A`。`*` 只標記缺名世代，不建立人物；不同星號位置不自動指同一人。遠祖牽合、親等未定及有爭議世系分存來源主張，是否同族須另作有證據的判讀，不能由編碼自動推定。配偶、母系及收養關係另記。
 
-已發布的序號 ID 永久有效，不重編、不重用；舊 `next_number` 僅保留序號游標。已發布身份後來合併、分拆或改父系，必須保留舊入口與有證據的遷移決定，不靜默改名。
+已發布序號ID保留為永久相容別名，不重用；正式人物ID已全面轉換為家族式格式，舊 `next_number` 僅保留序號游標。已發布身份後來合併、分拆或改父系，必須保留舊入口與有證據的遷移決定，不靜默改名。
+
+## 親屬詮釋分歧
+
+篇章 `annotation.kinship_interpretation_cases` 保存兩端人物ID、原詞、正文證據及各有署名注語支持的 `alternatives`。`default_alternative_id: null` 表示未選定；使用端不得自動轉成確定關係或家族ID路徑。`object_generation_relative_to_subject` 明確標示客體相對主體的世代位置。`reported_variants` 區分已存正文與注家所報、尚未核底本的異文；`adopted: false` 不改正文、不當另一個已核見證。
+
+家族根沒有尾隨分隔符；只有世代路徑前加一個底線。舊連字號家族ID存為人物 `id_aliases`，只作相容入口，不新增人物。人物包以 `canonical_person_id` 明示現行ID，`requested_person_id` 保留請求入口；索引 `id_aliases` 可解析舊新對應，舊JSON檔仍匯出相同來源資料。此格式遷移不表示身份合併、世系修正或新增證據。
+
+跨缺名世代的 `family_path` 使用 `ancestor_person_id`、`connection: grandfather`（或相符關係）、`generation_distance` 及全為 null 的 `intermediate_person_ids`；`parent_person_id` 為 null。每條路徑須有同端點、同關係的原始陳述與逐段證據。路徑是 AI 編輯判讀，`human_reviewed: false`；不是由ID推導的新增世系。全庫ID對照及未編入路徑的原因見 `registry/person-id-migrations.json`。
+
+
+## 預設編輯世系
+
+`family_tree_decision_set` 記錄預設採用的來源陳述ID、排除於預設視圖的陳述ID、父親端點、理由、可信程度與完整證據。原始主張均保留；排除只作用於預設繪圖。`preferred_parent_person_id: null` 表示編輯判斷生父未定，不是遺漏待使用端補猜。
+
+親屬詮釋可由 `default_alternative_id` 配合 `selection` 選定編輯預設；必須匹配已存候選並記理由、可信程度及未經人工覆核。分歧案例本身仍保留。人物包分別匯出原始 `relations` 與 `preferred_relations`，後者套用已存預設判斷、無需 AI；未審閱的其他衝突仍可能存在。

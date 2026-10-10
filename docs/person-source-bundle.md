@@ -42,4 +42,19 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 
 `source_mention_summary` 按 `source_id` 統計本人物來源包內已標註的提及，列出 `mention_count`、`passage_count` 及可覆核的錨點與段落 ID，依次數由多至少排列。`most_mentioned_source_ids` 保留所有並列最多的來源；沒有提及則為空陣列。範圍遵循人物包的 `identity_policy`，採暫定同指時包含其候選 ID，但不計關係人物的提及。這是目前標註範圍的統計，不表示史料全文已標完，也不代表可信度、獨立見證數或來源優先次序。
 
-`family_paths` 匯出有來源父子陳述支持的家族ID路徑及其原文依據；分支字元不是出生排行。已發布序號ID仍永久有效。
+`family_paths` 匯出有來源親屬陳述支持的家族ID路徑及其原文依據；分支字元不是出生排行。已發布序號ID仍永久有效。
+
+
+`kinship_interpretation_cases` 分存有歧說的親屬詮釋，各候選包含可解析的關係、世代與長幼資訊及注家引句。`default_alternative_id: null` 表示尚未選定；使用端不得自行當成已確定關係或家族路徑。`reported_variants` 保存注家所報異文，`adopted: false` 表示未採入正文或關係，並非已完成底本校勘。
+
+
+家族ID例：根 `abc_def_123`、子 `abc_def_123_A`、孫 `abc_def_123_AA`。`canonical_person_id` 是現行ID；`requested_person_id` 保留呼叫的舊或新入口。舊連字號ID列於 `id_aliases`，相容JSON入口保留；`index.json` 的 `persons` 只計現行人物，另有 `id_aliases` 對照。Markdown索引的ID用等寬字體。
+
+`abc_def_123_*A` 表示源文明示的孫子、中間父親缺名。`family_paths` 另存祖父端點、世代距離及 null 中間世代；星號不代表實際人物、不合併不同缺名位置。Markdown索引以家族 `<details>` 區塊展開／收起後代，所有正式ID以等寬字體顯示；JSON索引完整列出人物，不受展開狀態影響。
+
+
+`family_tree_decisions` 是可修訂的編輯判斷；`preferred_relations` 供預設繪圖，依決定選取來源主張或已選親屬詮釋，原始 `relations` 及其他詮釋不刪除。`editorial_preferred` 不冒作正文已明示或人工覆核。生父未定可明確採不畫生父線；不能由承爵或舍人控告直接補血親。此層不需執行時AI；尚未覆核的其他衝突仍可能存在。
+
+`preferred_birth_order_constraints` 對應預設關係的排行約束，與原始 `birth_order_constraints` 並列；丁公弟解只提供相對長幼，序號仍為 null，不需NLU解析。
+
+王室或法定父子可在預設視圖使用 `parentage_role: legal_or_dynastic`，並明示 `biological_parent_status: unknown`；不能把這種線當已核血親。跨候選人物的預設判斷須另列已有同指決定，仍保留該判斷的暫定身份狀態。

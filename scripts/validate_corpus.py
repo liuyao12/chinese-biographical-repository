@@ -40,10 +40,25 @@ def validate(root=ROOT):
         pids = [p['id'] for p in people]
         check(len(pids) == len(set(pids)), '人物 ID 重複')
         try:
-            from scripts.person_ids import valid_person_id, LEGACY
+            from scripts.person_ids import valid_person_id, LEGACY, FAMILY, LEGACY_FAMILY, family_path_errors
         except ModuleNotFoundError:
-            from person_ids import valid_person_id, LEGACY
+            from person_ids import valid_person_id, LEGACY, FAMILY, LEGACY_FAMILY, family_path_errors
         check(all(valid_person_id(pid) for pid in pids), '人物 ID 格式不符')
+        check(not any(LEGACY_FAMILY.fullmatch(pid) for pid in pids), '舊連字號家族 ID 只可作別名')
+        id_aliases = [alias for person in people for alias in person.get('id_aliases', [])]
+        check(len(id_aliases) == len(set(id_aliases)) and not set(id_aliases).intersection(pids), '人物 ID 別名重複或占用正式 ID')
+        check(all(valid_person_id(alias) for alias in id_aliases), '人物 ID 別名格式不符')
+        migration_path = root / 'registry/person-id-migrations.json'
+        if migration_path.exists():
+            migration = json.loads(migration_path.read_text())
+            alias_targets = {alias: person['id'] for person in people for alias in person.get('id_aliases', [])}
+            entries = migration.get('mapping', [])
+            check(len(entries) == len(alias_targets)
+                  and {e['previous_id']: e['person_id'] for e in entries} == alias_targets,
+                  '人物 ID 遷移對照與相容別名不符')
+            check(migration.get('person_count') == len(people)
+                  and migration.get('identity_merges_performed') is False
+                  and all(FAMILY.fullmatch(pid) for pid in pids), '人物 ID 全面遷移範圍或身份政策不符')
         legacy_numbers = [int(pid[5:]) for pid in pids if isinstance(pid, str) and LEGACY.fullmatch(pid)]
         check(registry['next_number'] > max(legacy_numbers, default=0), '舊人物 ID 分配游標會重用 ID')
         works = {w['id']: w for w in catalogue['works']}
@@ -125,18 +140,105 @@ def validate(root=ROOT):
                     check(e.get('ref')==m['person_id'], 'XML 人物引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
         check(set(chapter_books)==set(chapters), '著作目錄與文本篇清單不符')
+        kinship_case_ids = set()
+        for chapter in chapters.values():
+            for case in chapter['annotation'].get('kinship_interpretation_cases', []):
+                check(case['id'] not in kinship_case_ids, '親屬詮釋案例ID重複'); kinship_case_ids.add(case['id'])
+                endpoints = {case['subject_person_id'], case['object_person_id']}
+                check(len(endpoints) == 2 and endpoints.issubset(pids), '親屬詮釋端點無效')
+                check(case['status'] == 'interpretation_disputed' and case['human_reviewed'] is False, '親屬分歧不得冒作人工審閱')
+                check(len(case['alternatives']) >= 2 and len({a['id'] for a in case['alternatives']}) == len(case['alternatives']), '親屬詮釋選項不足或重複')
+                if case['default_alternative_id'] is not None:
+                    selection = case.get('selection', {})
+                    check(case['default_alternative_id'] in {a['id'] for a in case['alternatives']}
+                          and selection.get('status') == 'editorial_preferred'
+                          and selection.get('confidence_level') in ('high', 'moderate', 'low')
+                          and bool(selection.get('rationale')) and bool(selection.get('reviewer'))
+                          and selection.get('human_reviewed') is False, '親屬預設選項須匹配候選並附編輯判斷')
+                    for evidence in selection.get('comparative_evidence', []):
+                        hit = paragraphs.get(evidence['paragraph_id'])
+                        check(bool(hit) and hit[0] == evidence['chapter_id']
+                              and evidence['quote'] in hit[1]['text']
+                              and chapters[hit[0]]['source_id'] == evidence['source_id'], '親屬語義比較引句或來源不符')
+                check(bool(case['evidence']) and bool(case['source_term']) and bool(case['interpretation_note']), '親屬詮釋缺少原詞或證據')
+                for evidence in case['evidence']:
+                    hit = paragraphs.get(evidence['paragraph_id'])
+                    check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
+                          and evidence['quote'] == hit[1]['text'] and case['source_term'] in evidence['quote']
+                          and evidence['source_id'] == chapter['source_id'], '親屬詮釋引句或篇來源不符')
+                    if hit:
+                        local = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'}
+                        check(endpoints.issubset(local), '親屬詮釋兩端未見於正文證據')
+                for alternative in case['alternatives']:
+                    predicate = alternative['predicate']; qualifiers = alternative['qualifiers']; reference = alternative['reference']
+                    check(predicate in ('maternal_uncle', 'brother'), '親屬詮釋關係未知')
+                    check(type(qualifiers.get('object_generation_relative_to_subject')) is int
+                          and qualifiers['object_generation_relative_to_subject'] == (-1 if predicate == 'maternal_uncle' else 0), '親屬詮釋世代方向不符')
+                    check(bool(reference.get('quote')) and bool(reference.get('commentator'))
+                          and reference.get('url', '').startswith(('https://', 'http://'))
+                          and reference.get('image_verified') is False, '親屬詮釋注語署名來源不完整')
+            for variant in chapter['annotation'].get('reported_variants', []):
+                hit = paragraphs.get(variant['paragraph_id'])
+                check(bool(hit) and hit[0] == chapter['id'] and variant['source_term'] in hit[1]['text'], '所報異文原詞與正文不符')
+                check(set(variant['person_ids']).issubset(pids) and bool(variant['person_ids']), '所報異文人物無效')
+                check(variant['status'] == 'reported_not_collated' and variant['adopted'] is False
+                      and variant['received_reading'] in variant['source_term']
+                      and variant['reported_reading'] in variant['quote'], '所報異文未區分原文或冒作採用')
+                check(bool(variant['commentator']) and variant['url'].startswith(('https://', 'http://')), '所報異文缺注家來源')
         family_relations = [a for path in (root / 'corpus').glob('*/*-assertions.json')
                             for a in json.loads(path.read_text()).get('assertions', [])]
+        assertion_index = {a['id']: a for a in family_relations}
+        equivalence_index = {d['id']: d for path in (root / 'corpus').glob('*/*-equivalences.json')
+                             for d in json.loads(path.read_text()).get('decisions', [])}
+        tree_decision_ids = set()
+        for path in (root / 'corpus').glob('*/family-tree-decisions.json'):
+            record = json.loads(path.read_text())
+            check(record.get('record_type') == 'family_tree_decision_set', '編輯世系集類型無效')
+            for decision in record['decisions']:
+                check(decision['id'] not in tree_decision_ids, '編輯世系決定 ID 重複'); tree_decision_ids.add(decision['id'])
+                check(decision['subject_person_id'] in pids
+                      and decision['subject_person_id'] in decision['participant_person_ids']
+                      and set(decision['participant_person_ids']).issubset(pids), '編輯世系人物端點無效')
+                check(decision['status'] == 'editorial_preferred' and decision['human_reviewed'] is False
+                      and bool(decision['rationale']) and bool(decision['reviewer'])
+                      and decision['confidence_level'] in ('high', 'moderate', 'low', 'inconclusive'), '編輯世系缺少判斷或可信程度')
+                preferred = assertion_index.get(decision['preferred_assertion_id'])
+                subject_ids = set(decision.get('subject_person_ids', [decision['subject_person_id']]))
+                check(decision['subject_person_id'] in subject_ids and subject_ids.issubset(set(decision['participant_person_ids'])), '編輯世系同指端點無效')
+                if len(subject_ids) > 1:
+                    eqs = [equivalence_index.get(eid) for eid in decision.get('identity_equivalence_decision_ids', [])]
+                    check(bool(eqs) and all(eqs) and any(subject_ids.issubset(set(eq['person_ids'])) for eq in eqs if eq), '編輯世系跨候選須有同指依據')
+                if decision['preferred_assertion_id'] is not None:
+                    check(bool(preferred) and preferred['subject_person_id'] == decision['subject_person_id']
+                          and preferred['object_person_id'] == decision['preferred_parent_person_id']
+                          and decision['default_view'] in ('use_preferred_parent_edge', 'use_preferred_legal_parent_edge'), '預設世系未匹配來源陳述')
+                    if decision['default_view'] == 'use_preferred_legal_parent_edge':
+                        check(decision['parentage_role'] == 'legal_or_dynastic' and decision.get('biological_parent_status') == 'unknown', '王室父子不得混同已核生父')
+                else:
+                    check(decision['preferred_parent_person_id'] is None
+                          and decision['default_view'] == 'omit_unproven_biological_parent_edge', '生父未定決定不得暗補父親')
+                for aid in decision['excluded_assertion_ids']:
+                    assertion = assertion_index.get(aid)
+                    check(bool(assertion) and assertion['subject_person_id'] in subject_ids
+                          and aid != decision['preferred_assertion_id'], '預設世系排除主張端點不符')
+                check(bool(decision['evidence']), '編輯世系缺少來源證據')
+                for evidence in decision['evidence']:
+                    hit = paragraphs.get(evidence['paragraph_id'])
+                    check(bool(hit) and hit[0] == evidence['chapter_id']
+                          and evidence['quote'] in hit[1]['text']
+                          and chapters[hit[0]]['source_id'] == evidence['source_id'], '編輯世系引句或來源不符')
         for person in people:
             path = person.get('family_path')
             if path is None:
+                check(not (FAMILY.fullmatch(person['id']) and len(person['id']) > 11), '家族後代 ID 缺少有來源的親屬路徑')
                 continue
-            parent = path.get('parent_person_id')
-            check(parent in pids and person['id'] != parent, '家族路徑父親不存在或自環')
-            check(isinstance(parent, str) and person['id'].startswith(parent)
-                  and len(person['id']) == len(parent) + 1, '家族路徑不是直接一代')
-            check(path.get('connection') == 'father' and path.get('status') == 'contextual_provisional'
+            parent = path.get('ancestor_person_id', path.get('parent_person_id'))
+            check(parent in pids and person['id'] != parent, '家族路徑所據親屬不存在或自環')
+            errors.extend(family_path_errors(person['id'], path))
+            check(path.get('status') == 'contextual_provisional'
                   and path.get('human_reviewed') is False, '家族路徑關係或審閱狀態無效')
+            if 'family_tree_decision_id' in path:
+                check(path['family_tree_decision_id'] in tree_decision_ids, '家族路徑所據編輯決定不存在')
             check(bool(path.get('evidence')) and bool(path.get('interpretation_note')), '家族路徑缺少證據或判讀')
             for evidence in path.get('evidence', []):
                 hit = paragraphs.get(evidence.get('paragraph_id'))
@@ -144,10 +246,11 @@ def validate(root=ROOT):
                       and evidence.get('quote') == hit[1]['text']
                       and evidence.get('source_term', '') in hit[1]['text']
                       and chapters[hit[0]]['source_id'] == evidence.get('source_id'), '家族路徑來源與原文不符')
-                check(any(a['predicate'] == 'father' and a['subject_person_id'] == person['id']
+                check(any(a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
+                          and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
                           and any(e['paragraph_id'] == evidence.get('paragraph_id') for e in a['evidence'])
-                          for a in family_relations), '家族路徑缺少有來源的直接父子陳述')
+                          for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
         for p in people:
             check(bool(p['evidence']), f'{p["id"]}: 人物沒有原文證據')
             evidenced=set()
