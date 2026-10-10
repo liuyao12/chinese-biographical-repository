@@ -36,3 +36,10 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 目前先補始皇出生與死亡事件年份；葬地段落沒有明示日期，不自動用卒年填入葬年。年份換算不代表月日已換算，秦漢十月歲首可能跨公曆年；相對年份與疑年須各自判讀，未定者保留候選或不填單一年。換算是 AI 編輯判讀，人工覆核仍為 false，使用端不呼叫 AI。
 
 「從弟」在 CBR 以 `qualifiers.kinship_structure` 拆記：`lineage: paternal`、`generation_difference: 0`、`collateral: true`、`distance: null`、`common_ancestor_person_id: null`、`subject_relative_age: younger`；原 `source_term` 與引句仍保留。現有 `agnatic_cousin` 識別碼在此表示廣義同世代父系旁親，不限定第一代表親。相對出生先後另有 older／younger 人物 ID，不能拿兩個家支的排行數字直接互比；跨家支排序的是出生先後約束，不是各父親兒子序列的同一排行。
+
+
+## 各來源提及次數
+
+`source_mention_summary` 按 `source_id` 統計本人物來源包內已標註的提及，列出 `mention_count`、`passage_count` 及可覆核的錨點與段落 ID，依次數由多至少排列。`most_mentioned_source_ids` 保留所有並列最多的來源；沒有提及則為空陣列。範圍遵循人物包的 `identity_policy`，採暫定同指時包含其候選 ID，但不計關係人物的提及。這是目前標註範圍的統計，不表示史料全文已標完，也不代表可信度、獨立見證數或來源優先次序。
+
+`family_paths` 匯出有來源父子陳述支持的家族ID路徑及其原文依據；分支字元不是出生排行。已發布序號ID仍永久有效。

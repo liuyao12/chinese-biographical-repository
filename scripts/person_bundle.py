@@ -56,10 +56,35 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         passages.append(dict(paragraph, chapter_id=chapter['id'], book_id=chapter['book_id'],
                              work_id=chapter['work_id'], source_id=chapter['source_id']))
     chapter_ids = {p['chapter_id'] for p in passages}
+    # Counts describe annotated occurrences, not source authority or independent witnesses.
+    source_mentions = {}
+    for mention in mentions:
+        chapter = chapters[mention['chapter_id']]
+        key = chapter['source_id']
+        row = source_mentions.setdefault(key, {
+            'source_id': key, 'work_id': chapter['work_id'],
+            'book_id': chapter['book_id'], 'chapter_id': chapter['id'],
+            'mention_count': 0, 'mention_ids': [], 'paragraph_ids': set()})
+        row['mention_count'] += 1
+        row['mention_ids'].append(mention['id'])
+        row['paragraph_ids'].add(mention['paragraph_id'])
+    mention_summary = []
+    for row in source_mentions.values():
+        row['paragraph_ids'] = sorted(row['paragraph_ids'])
+        row['passage_count'] = len(row['paragraph_ids'])
+        row['mention_ids'].sort()
+        mention_summary.append(row)
+    mention_summary.sort(key=lambda row: (-row['mention_count'], row['source_id']))
+    maximum = mention_summary[0]['mention_count'] if mention_summary else 0
+    most_mentioned = [row['source_id'] for row in mention_summary if row['mention_count'] == maximum]
     neighbor_ids = ids | {a[k] for a in relations for k in ('subject_person_id', 'object_person_id')}
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': person_id,
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
             'person_ids': sorted(ids), 'persons': [people[p] for p in sorted(neighbor_ids)],
+            'source_mention_summary': mention_summary,
+            'most_mentioned_source_ids': most_mentioned,
+            'mention_count_policy': {'scope': 'currently_annotated_mentions', 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
+            'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'date_normalizations': [dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a],
             'birth_order_constraints': [dict(a['qualifiers'][key], assertion_id=a['id'], person_id=a['subject_person_id'], evidence=a['evidence'])

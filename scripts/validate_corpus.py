@@ -39,8 +39,13 @@ def validate(root=ROOT):
         people = registry['persons']
         pids = [p['id'] for p in people]
         check(len(pids) == len(set(pids)), '人物 ID 重複')
-        check(all(__import__('re').fullmatch(r'cbr-p[0-9]{6}', pid) for pid in pids), '人物 ID 格式不符')
-        check(registry['next_number'] > max(int(pid[5:]) for pid in pids), '人物 ID 分配游標會重用 ID')
+        try:
+            from scripts.person_ids import valid_person_id, LEGACY
+        except ModuleNotFoundError:
+            from person_ids import valid_person_id, LEGACY
+        check(all(valid_person_id(pid) for pid in pids), '人物 ID 格式不符')
+        legacy_numbers = [int(pid[5:]) for pid in pids if isinstance(pid, str) and LEGACY.fullmatch(pid)]
+        check(registry['next_number'] > max(legacy_numbers, default=0), '舊人物 ID 分配游標會重用 ID')
         works = {w['id']: w for w in catalogue['works']}
         check(len(works) == len(catalogue['works']), '著作 ID 重複')
         books = {}
@@ -120,6 +125,29 @@ def validate(root=ROOT):
                     check(e.get('ref')==m['person_id'], 'XML 人物引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
         check(set(chapter_books)==set(chapters), '著作目錄與文本篇清單不符')
+        family_relations = [a for path in (root / 'corpus').glob('*/*-assertions.json')
+                            for a in json.loads(path.read_text()).get('assertions', [])]
+        for person in people:
+            path = person.get('family_path')
+            if path is None:
+                continue
+            parent = path.get('parent_person_id')
+            check(parent in pids and person['id'] != parent, '家族路徑父親不存在或自環')
+            check(isinstance(parent, str) and person['id'].startswith(parent)
+                  and len(person['id']) == len(parent) + 1, '家族路徑不是直接一代')
+            check(path.get('connection') == 'father' and path.get('status') == 'contextual_provisional'
+                  and path.get('human_reviewed') is False, '家族路徑關係或審閱狀態無效')
+            check(bool(path.get('evidence')) and bool(path.get('interpretation_note')), '家族路徑缺少證據或判讀')
+            for evidence in path.get('evidence', []):
+                hit = paragraphs.get(evidence.get('paragraph_id'))
+                check(bool(hit) and hit[0] == evidence.get('chapter_id')
+                      and evidence.get('quote') == hit[1]['text']
+                      and evidence.get('source_term', '') in hit[1]['text']
+                      and chapters[hit[0]]['source_id'] == evidence.get('source_id'), '家族路徑來源與原文不符')
+                check(any(a['predicate'] == 'father' and a['subject_person_id'] == person['id']
+                          and a['object_person_id'] == parent
+                          and any(e['paragraph_id'] == evidence.get('paragraph_id') for e in a['evidence'])
+                          for a in family_relations), '家族路徑缺少有來源的直接父子陳述')
         for p in people:
             check(bool(p['evidence']), f'{p["id"]}: 人物沒有原文證據')
             evidenced=set()

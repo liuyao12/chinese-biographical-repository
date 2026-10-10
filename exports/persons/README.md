@@ -8,6 +8,21 @@
 
 | 人物 ID | 標籤 | JSON |
 |---|---|---|
+| 00c_o71_46y- | 太史公（傅靳蒯成列傳候選） | [JSON](00c_o71_46y-.json) |
+| 1i8_vsx_dbq- | 章平（傅靳蒯成列傳候選） | [JSON](1i8_vsx_dbq-.json) |
+| 1tz_1iv_r3r- | 太尉勃未詳姓（傅靳蒯成列傳候選） | [JSON](1tz_1iv_r3r-.json) |
+| 398_14a_ml2- | 周蘭（傅靳蒯成列傳候選） | [JSON](398_14a_ml2-.json) |
+| 3qe_csy_8ad- | 邢說（傅靳蒯成列傳候選） | [JSON](3qe_csy_8ad-.json) |
+| 4rt_vz6_obh- | 項悍（傅靳蒯成列傳候選） | [JSON](4rt_vz6_obh-.json) |
+| 5k8_ms4_y3k- | 淮陰侯未詳名（傅靳蒯成列傳候選） | [JSON](5k8_ms4_y3k-.json) |
+| 5kd_jn4_se8- | 漢高祖（傅靳蒯成列傳候選） | [JSON](5kd_jn4_se8-.json) |
+| 63o_61u_6tf- | 項冠（傅靳蒯成列傳候選） | [JSON](63o_61u_6tf-.json) |
+| 6ek_pen_a4x- | 楊熊（傅靳蒯成列傳候選） | [JSON](6ek_pen_a4x-.json) |
+| 7dv_lqp_y4z- | 靳歙（傅靳蒯成列傳候選） | [JSON](7dv_lqp_y4z-.json) |
+| 7dv_lqp_y4z-A | 靳亭（傅靳蒯成列傳候選） | [JSON](7dv_lqp_y4z-A.json) |
+| a7m_i4f_cv4- | 孝景帝（傅靳蒯成列傳候選） | [JSON](a7m_i4f_cv4-.json) |
+| a85_9d6_72h- | 孝文帝（傅靳蒯成列傳候選） | [JSON](a85_9d6_72h-.json) |
+| can_0qj_fka- | 龍且（傅靳蒯成列傳候選） | [JSON](can_0qj_fka-.json) |
 | cbr-p000001 | 黃帝 | [JSON](cbr-p000001.json) |
 | cbr-p000002 | 少典 | [JSON](cbr-p000002.json) |
 | cbr-p000003 | 蚩尤 | [JSON](cbr-p000003.json) |
@@ -5486,3 +5501,27 @@
 | cbr-p005478 | 武（古王引語）（酈生陸賈列傳候選） | [JSON](cbr-p005478.json) |
 | cbr-p005479 | 朱建母未名（酈生陸賈列傳候選） | [JSON](cbr-p005479.json) |
 | cbr-p005480 | 朱建子未名（使匈奴）（酈生陸賈列傳候選） | [JSON](cbr-p005480.json) |
+| cml_pmg_4g7- | 王武（傅靳蒯成列傳候選） | [JSON](cml_pmg_4g7-.json) |
+| ebz_s7c_pds- | 相國參未詳姓（傅靳蒯成列傳候選） | [JSON](ebz_s7c_pds-.json) |
+| ex1_pps_iby- | 江陵王未詳名（傅靳蒯成列傳候選） | [JSON](ex1_pps_iby-.json) |
+| fvm_66f_0k3- | 周緤（傅靳蒯成列傳候選） | [JSON](fvm_66f_0k3-.json) |
+| fvm_66f_0k3-A | 周昌（傅靳蒯成列傳候選） | [JSON](fvm_66f_0k3-A.json) |
+| fvm_66f_0k3-B | 周居（傅靳蒯成列傳候選） | [JSON](fvm_66f_0k3-B.json) |
+| fxc_ppb_ofs- | 丞相敞未詳姓（傅靳蒯成列傳候選） | [JSON](fxc_ppb_ofs-.json) |
+| hjx_5rx_wzu- | 韓信平城下（傅靳蒯成列傳候選） | [JSON](hjx_5rx_wzu-.json) |
+| hpy_6lu_tc5- | 趙賁（傅靳蒯成列傳候選） | [JSON](hpy_6lu_tc5-.json) |
+| hr1_cou_3hm- | 田解（傅靳蒯成列傳候選） | [JSON](hr1_cou_3hm-.json) |
+| jki_ijf_2w1- | 高后（傅靳蒯成列傳候選） | [JSON](jki_ijf_2w1-.json) |
+| mfd_hor_95c- | 楚王信（傅靳蒯成列傳候選） | [JSON](mfd_hor_95c-.json) |
+| nrp_vv5_hry- | 項籍（傅靳蒯成列傳候選） | [JSON](nrp_vv5_hry-.json) |
+| och_1lh_hgs- | 陳豨（傅靳蒯成列傳候選） | [JSON](och_1lh_hgs-.json) |
+| phx_lyu_9ym- | 賁郝（傅靳蒯成列傳候選） | [JSON](phx_lyu_9ym-.json) |
+| rdw_qwe_aa0- | 丞相哙未詳姓（傅靳蒯成列傳候選） | [JSON](rdw_qwe_aa0-.json) |
+| rke_c0u_y8f- | 孝惠帝（傅靳蒯成列傳候選） | [JSON](rke_c0u_y8f-.json) |
+| rzl_t6n_y63- | 黥布（傅靳蒯成列傳候選） | [JSON](rzl_t6n_y63-.json) |
+| tk5_g6e_rh8- | 淮南王未詳名（傅靳蒯成列傳候選） | [JSON](tk5_g6e_rh8-.json) |
+| ulf_21j_keo- | 李由（傅靳蒯成列傳候選） | [JSON](ulf_21j_keo-.json) |
+| w8j_vnd_rs4- | 傅寬（傅靳蒯成列傳候選） | [JSON](w8j_vnd_rs4-.json) |
+| w8j_vnd_rs4-A | 傅精（傅靳蒯成列傳候選） | [JSON](w8j_vnd_rs4-A.json) |
+| w8j_vnd_rs4-AA | 傅則（傅靳蒯成列傳候選） | [JSON](w8j_vnd_rs4-AA.json) |
+| w8j_vnd_rs4-AAA | 傅偃（傅靳蒯成列傳候選） | [JSON](w8j_vnd_rs4-AAA.json) |

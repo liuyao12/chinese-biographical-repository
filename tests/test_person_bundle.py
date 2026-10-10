@@ -91,3 +91,33 @@ class PersonBundleTests(unittest.TestCase):
         self.assertIsNone(structure['distance'])
         self.assertIsNone(structure['common_ancestor_person_id'])
         self.assertEqual(cousin['qualifiers']['relative_birth_order']['older_person_id'], 'cbr-p005225')
+
+    def test_source_frequency_counts_only_focus_mentions_and_preserves_ties(self):
+        result = bundle('cbr-p000533', include_provisional=True)
+        rows = result['source_mention_summary']
+        self.assertEqual(sum(r['mention_count'] for r in rows), len(result['mentions']))
+        indexed = {m['id']: m for m in result['mentions']}
+        for row in rows:
+            self.assertEqual(row['mention_count'], len(row['mention_ids']))
+            self.assertEqual(row['passage_count'], len(row['paragraph_ids']))
+            self.assertTrue(all(indexed[mid]['chapter_id'] == row['chapter_id'] for mid in row['mention_ids']))
+        maximum = max(r['mention_count'] for r in rows)
+        self.assertEqual(set(result['most_mentioned_source_ids']), {r['source_id'] for r in rows if r['mention_count'] == maximum})
+        self.assertTrue(result['mention_count_policy']['frequency_is_not_authority'])
+
+    def test_family_path_has_direct_source_relation_and_does_not_claim_order(self):
+        result = bundle('w8j_vnd_rs4-AAA')
+        path = result['family_paths'][0]
+        self.assertEqual(path['parent_person_id'], 'w8j_vnd_rs4-AA')
+        self.assertEqual(path['connection'], 'father')
+        self.assertFalse(path['human_reviewed'])
+        self.assertTrue(any(a['predicate'] == 'father' and a['object_person_id'] == path['parent_person_id'] for a in result['relations']))
+        self.assertEqual(path['evidence'][0]['source_term'], '子侯偃立')
+        self.assertFalse(result['birth_order_constraints'])
+
+    def test_fujin_substitution_is_not_a_dai_office_title(self):
+        result = bundle('w8j_vnd_rs4-')
+        paragraph = next(p for p in result['passages'] if p['id'].endswith(':p003'))
+        verb_start = paragraph['text'].index('代丞相')
+        self.assertFalse(any(m['start'] == verb_start and m['surface'] == '代丞相' for m in paragraph['mentions']))
+        self.assertTrue(any(m['surface'] == '代丞相' and m['start'] > verb_start for m in paragraph['mentions']))
