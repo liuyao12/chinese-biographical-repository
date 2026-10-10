@@ -219,7 +219,9 @@ class PersonBundleTests(unittest.TestCase):
         folder = ROOT / 'exports/persons'
         index = json.loads((folder / 'index.json').read_text())
         ids = [p['person_id'] for p in index['persons']]
-        self.assertEqual(set(ids), set(catalog[0]))
+        from scripts.family_assemblies import load_assemblies
+        source_map, assembled = load_assemblies(ROOT, catalog)
+        self.assertEqual(set(ids), (set(catalog[0]) - set(source_map)) | set(assembled))
         self.assertEqual(len(ids), len(set(ids)))
         self.assertFalse(set(ids).intersection(index['id_aliases']))
         self.assertTrue(all((folder / (old + '.json')).exists() for old in index['id_aliases']))
@@ -228,7 +230,8 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(old['mentions'], new['mentions'])
         self.assertEqual(old['relations'], new['relations'])
         text = (folder / 'README.md').read_text()
-        table_ids = re.findall(r'\| `([^`]+)` \|', text)
+        from urllib.parse import unquote
+        table_ids = [unquote(filename) for filename in re.findall(r'\[JSON\]\(([^)]+)\.json\)', text)]
         self.assertEqual(set(table_ids), set(ids))
         self.assertEqual(len(table_ids), len(ids))
         self.assertGreater(text.count('<details>'), 0)
