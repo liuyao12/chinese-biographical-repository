@@ -133,3 +133,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `effective_period.start` 或 `end` 的 `status: source_event` 可附 `normalized_date`，格式同地點事件紀年。換算須附本筆事件段落內可找到的 `original_quote`、原始 `date_expression`、換算理由及參考；其他篇章只作紀年承接證據，不能代替本筆事件引句。`status: unknown` 不得附數字日期。天文年編號另以 `era`、`era_year`供一般顯示。
 
 人物ID遷移記錄的 `person_count_scope: at_migration` 表示 `person_count` 是遷移當時的快照，不是此後全庫人數；新增人物仍須通過現行家族ID格式驗證，舊別名映射保留。
+
+地址關係 `ancestral_origin` 保存其先等祖先出身表述。人物ID是敘事所屬人物，`qualifiers.subject_scope: ancestors_unspecified` 明示地點屬未具名祖先；不改作本人籍貫，不指定祖先ID或世代。
