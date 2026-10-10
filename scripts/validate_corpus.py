@@ -133,7 +133,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
@@ -471,7 +471,7 @@ def validate(root=ROOT):
                 if 'birth_order' in qualifiers:
                     order = qualifiers['birth_order']
                     check(a['predicate'] in ('father', 'mother') and order.get('parent_person_id') == a['object_person_id'], '排行父母端點不符')
-                    check(order.get('scope') == 'sons_of_parent', '排行序列範圍未知')
+                    check(order.get('scope') in ('sons_of_parent', 'daughters_of_parent', 'children_of_parent'), '排行序列範圍未知')
                     ordinal = order.get('ordinal')
                     check(ordinal is None or type(ordinal) is int and ordinal > 0, '排行序號須為正整數或未知')
                     check(order.get('position') in ('eldest', 'youngest', 'younger_or_youngest', 'unspecified'), '排行位置未知')
