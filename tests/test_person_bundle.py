@@ -345,3 +345,29 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(ancestral['qualifiers']['subject_scope'], 'ancestors_unspecified')
         self.assertIsNone(ancestral['qualifiers']['ancestor_person_id'])
         self.assertFalse(any(a['relation'] in ('native_place', 'biographical_origin') and a['place']['source_name'] == '任城' for a in result['address_assertions']))
+
+    def test_tian_ren_younger_son_does_not_invent_ordinal_or_death_endpoint(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        people = {p['label']: p for p in catalog[0].values()}
+        ren = people['田仁（田叔列傳候選）']
+        shu = people['田叔（田叔列傳候選）']
+        result = bundle(ren['id'], catalog=catalog)
+        self.assertEqual(ren['family_path']['parent_person_id'], shu['id'])
+        order = next(c for c in result['birth_order_constraints'] if c['assertion_id'] == 'a-shiji104-001')
+        self.assertIsNone(order['ordinal'])
+        self.assertEqual(order['position'], 'younger_or_youngest')
+        self.assertTrue(all(h['effective_period']['end']['status'] == 'unknown' for h in result['title_holdings'] if h['title'] in ('司直', '丞相司直')))
+        layers = {p['text_layer'] for p in result['passages']}
+        self.assertIn('received_chapter', layers)
+        self.assertIn('witness_appended_chu_note', layers)
+
+    def test_ren_an_short_name_excludes_changan_and_origin_remains_sourced(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        person = next(p for p in catalog[0].values() if p['label'] == '任安（田叔列傳候選）')
+        result = bundle(person['id'], catalog=catalog)
+        self.assertFalse(any(m['paragraph_id'].endswith(':p010') and m['start'] == 41 for m in result['mentions']))
+        origin = next(a for a in result['address_assertions'] if a['relation'] == 'native_place')
+        self.assertEqual(origin['place']['source_name'], '滎陽')
+        self.assertIsNone(origin['place']['modern_identification'])
