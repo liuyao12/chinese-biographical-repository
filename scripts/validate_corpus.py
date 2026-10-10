@@ -8,6 +8,24 @@ import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 
+def normalized_date_errors(date):
+    errors = []
+    if not isinstance(date, dict):
+        return ['紀年換算須為物件']
+    era, year, number = date.get('era'), date.get('year'), date.get('era_year')
+    if era not in ('BCE', 'CE') or type(year) is not int or type(number) is not int or number <= 0:
+        errors.append('紀年換算須有數字年份與正整數時代年')
+    elif year != (number if era == 'CE' else 1 - number):
+        errors.append('紀年換算天文年與時代年不一致')
+    if date.get('year_numbering') != 'astronomical' or date.get('precision') != 'year':
+        errors.append('紀年換算年編號或精度無效')
+    if date.get('status') != 'editorial_provisional' or not date.get('original_quote') or not date.get('evidence') or not date.get('references'):
+        errors.append('紀年換算原句、證據、參考或判讀狀態缺失')
+    if not date.get('rationale') or not date.get('reviewer') or date.get('human_reviewed') is not False:
+        errors.append('紀年换算判讀或覆核狀態無效'.replace('换','換'))
+    return errors
+
+
 def validate(root=ROOT):
     errors = []
     def check(ok, message):
@@ -286,6 +304,11 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'kinship_structure' in qualifiers:
+                    structure = qualifiers['kinship_structure']
+                    check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
+                    check(structure.get('distance') is None and structure.get('common_ancestor_person_id') is None, '未定從親不可補親等或共同祖先')
+                    check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
                 if 'birth_order' in qualifiers:
                     order = qualifiers['birth_order']
                     check(a['predicate'] in ('father', 'mother') and order.get('parent_person_id') == a['object_person_id'], '排行父母端點不符')
@@ -299,7 +322,7 @@ def validate(root=ROOT):
                     order = qualifiers['relative_birth_order']
                     check(a['predicate'] in ('brother', 'sister', 'agnatic_cousin'), '相對排行須為同輩親屬')
                     check({order.get('older_person_id'), order.get('younger_person_id')} == {a['subject_person_id'], a['object_person_id']}, '相對排行端點不符')
-                    check(order.get('operator') == 'lt' and order.get('scope') == 'siblings', '相對排行運算或範圍未知')
+                    check(order.get('operator') == 'lt' and order.get('scope') == ('agnatic_cousins' if a['predicate'] == 'agnatic_cousin' else 'siblings'), '相對排行運算或範圍未知')
                     for key in ('older_ordinal', 'younger_ordinal'):
                         value = order.get(key)
                         check(value is None or type(value) is int and value > 0, '相對排行序號無效')
@@ -344,6 +367,16 @@ def validate(root=ROOT):
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
                 check(address['relation'] in ('biographical_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place'), '地址關係類型未知')
                 check(bool(address['place']['source_name']) and bool(address['evidence']), '地址原地名或證據缺失')
+                if 'normalized_date' in address:
+                    date = address['normalized_date']
+                    errors.extend(normalized_date_errors(date))
+                    if isinstance(date, dict):
+                        for evidence in date.get('evidence', []):
+                            hit = paragraphs.get(evidence['paragraph_id'])
+                            valid = bool(hit) and hit[0] == evidence['chapter_id']
+                            check(valid and evidence['quote'] in hit[1]['text'], '紀年換算證據篇段不符')
+                            if valid: check(chapters[hit[0]]['source_id'] == evidence['source_id'], '紀年換算來源 ID 不符')
+                        check(any(date.get('original_quote') in e['quote'] for e in date.get('evidence', [])), '紀年換算原句未見於證據')
                 for evidence in address['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id'])
                     valid = bool(hit) and hit[0] == record['chapter_id'] == evidence['chapter_id']

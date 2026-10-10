@@ -63,3 +63,31 @@ class PersonBundleTests(unittest.TestCase):
         for a in addresses.values():
             self.assertIsNone(a['place']['modern_identification'])
             self.assertTrue(a['evidence'])
+
+    def test_numeric_year_keeps_source_and_numbering(self):
+        from scripts.validate_corpus import normalized_date_errors
+        result = bundle('cbr-p000533')
+        dates = {d['era_year']: d for d in result['date_normalizations']}
+        self.assertEqual(dates[259]['year'], -258)
+        self.assertEqual(dates[210]['year'], -209)
+        self.assertEqual(dates[259]['original_quote'], '以秦昭王四十八年正月生於邯鄲。')
+        self.assertEqual(len(dates[210]['evidence']), 2)
+        for date in dates.values():
+            self.assertEqual(normalized_date_errors(date), [])
+        wrong = dict(dates[259], year=-259)
+        self.assertTrue(normalized_date_errors(wrong))
+        self.assertTrue(normalized_date_errors(dict(dates[259], year=True)))
+        burial = next(a for a in result['address_assertions'] if a['relation'] == 'burial_place')
+        self.assertNotIn('normalized_date', burial)
+
+    def test_agnatic_relation_preserves_unknown_distance(self):
+        result = bundle('cbr-p005225')
+        relations = [a for a in result['relations'] if a.get('discrepancy_group_id') == 'kin-shiji094-tianrong']
+        self.assertEqual({a['predicate'] for a in relations}, {'brother', 'agnatic_cousin'})
+        cousin = next(a for a in relations if a['predicate'] == 'agnatic_cousin')
+        structure = cousin['qualifiers']['kinship_structure']
+        self.assertEqual(structure['generation_difference'], 0)
+        self.assertEqual(structure['lineage'], 'paternal')
+        self.assertIsNone(structure['distance'])
+        self.assertIsNone(structure['common_ancestor_person_id'])
+        self.assertEqual(cousin['qualifiers']['relative_birth_order']['older_person_id'], 'cbr-p005225')

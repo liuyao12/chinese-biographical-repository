@@ -49,6 +49,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     for record in relations + titles + identities + addresses + related_equivalences:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
     passages = []
     for pid in sorted(paragraph_ids):
         chapter, paragraph = paragraphs[pid]
@@ -60,6 +61,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
             'person_ids': sorted(ids), 'persons': [people[p] for p in sorted(neighbor_ids)],
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
+            'date_normalizations': [dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a],
             'birth_order_constraints': [dict(a['qualifiers'][key], assertion_id=a['id'], person_id=a['subject_person_id'], evidence=a['evidence'])
                                         for a in relations for key in ('birth_order', 'relative_birth_order')
                                         if key in a.get('qualifiers', {})],
@@ -69,7 +71,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                          'book_id': chapters[cid]['book_id'], 'source_id': chapters[cid]['source_id'],
                          'source': chapters[cid]['source']} for cid in sorted(chapter_ids)],
             'time_policy': {'unknown_is_not_unbounded': True, 'attestation_is_not_tenure': True,
-                            'date_expressions_are_not_normalized': True}}
+                            'date_expressions_are_not_normalized': False, 'date_normalization_coverage': 'partial',
+                            'normalized_year_numbering': 'astronomical'}}
 
 
 def main():

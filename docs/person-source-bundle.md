@@ -11,7 +11,7 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 
 `mentions` 提供字元錨點；`passages` 保存正文、篇卷著作 ID；`sources` 提供固定版本與來源網址。`relations` 同時包含以此人為主體或客體的直接主張，`persons` 包含直接相連人物，可作家譜節點；沿相鄰人物 ID 再取來源包即可逐步展開。每條線保留主張 ID、方向、狀態及原文，矛盾主張並列，不自動選成唯一父系。
 
-`title_holdings` 保留每次官爵或尊稱主張的 `effective_period`、用稱錨點及事件類型。檢視器應分別呈現「當時任職確定」「任期未定、此處有用稱」「諡號或回顧用稱」，不能把未知起訖當無限期有效，也不能把初見當授予、把死亡當罷免。來源年月原文保留在 `date_expression`；尚未實作統一曆法換算與按公曆時間篩選，檢視器不得自行把年號字串當可比較日期。
+`title_holdings` 保留每次官爵或尊稱主張的 `effective_period`、用稱錨點及事件類型。檢視器應分別呈現「當時任職確定」「任期未定、此處有用稱」「諡號或回顧用稱」，不能把未知起訖當無限期有效，也不能把初見當授予、把死亡當罷免。來源年月原文保留在 `date_expression`；已開始逐條年尺度換算，尚未完成全庫曆法換算與按公曆時間篩選，檢視器不得自行把年號字串當可比較日期。
 
 此匯出是可重建的讀取層，權威資料仍是各篇來源與標註。無 AI 或網路處理需求。尚未接入家譜小程式或公開人物頁。
 
@@ -30,3 +30,9 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 早期傳記傳首「某某，某地人也」使用 `biographical_origin`（傳首所述出身地），保存原句；不推定後世制度化籍貫或戶籍。`native_place` 留作有相應來源判讀的籍貫記錄。
 
 `death_place` 與 `burial_place` 分別表示死亡地、葬地，保留原文地名，無須今日行政區對應。始皇出生地邯鄲、死亡地沙丘平臺與葬地酈邑各存原文證據；不能由死亡地推定葬地，預定葬地也不直接作實際安葬。
+
+紀年換算在編輯階段記為 `normalized_date`，並匯出到 `date_normalizations`。`year` 是整數，採天文年編號：公元1年為1、公元前1年為0、公元前259年為-258；`era: BCE` 與 `era_year: 259` 同時供顯示。不可把-258顯示成公元前258年。`original_quote` 是原文日期完整引句，另有篇段證據、跨段紀年承接、換算理由與參考資料。
+
+目前先補始皇出生與死亡事件年份；葬地段落沒有明示日期，不自動用卒年填入葬年。年份換算不代表月日已換算，秦漢十月歲首可能跨公曆年；相對年份與疑年須各自判讀，未定者保留候選或不填單一年。換算是 AI 編輯判讀，人工覆核仍為 false，使用端不呼叫 AI。
+
+「從弟」在 CBR 以 `qualifiers.kinship_structure` 拆記：`lineage: paternal`、`generation_difference: 0`、`collateral: true`、`distance: null`、`common_ancestor_person_id: null`、`subject_relative_age: younger`；原 `source_term` 與引句仍保留。現有 `agnatic_cousin` 識別碼在此表示廣義同世代父系旁親，不限定第一代表親。相對出生先後另有 older／younger 人物 ID，不能拿兩個家支的排行數字直接互比；跨家支排序的是出生先後約束，不是各父親兒子序列的同一排行。

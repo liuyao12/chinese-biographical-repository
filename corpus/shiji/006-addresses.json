@@ -25,7 +25,36 @@
       "source_term": "生於邯鄲",
       "interpretation_note": "按原文明示生於、崩於、葬或追斬於保存原地名，未換算今日行政區或地理座標；出生、死亡、葬地與傳首出身地分存。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "year": -258,
+        "era_year": 259,
+        "era": "BCE",
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "original_quote": "以秦昭王四十八年正月生於邯鄲。",
+        "status": "editorial_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "paragraph_id": "c-shiji-006-shihuang:p001",
+            "quote": "以秦昭王四十八年正月生於邯鄲。"
+          }
+        ],
+        "rationale": "出生紀年以館方所述公元前259年正月對應本紀昭王四十八年，未換算月日。",
+        "references": [
+          {
+            "title": "關於秦朝",
+            "url": "https://www.bmy.com.cn/about_qin.html",
+            "institution": "秦始皇帝陵博物院",
+            "note": "館方出生年份259 BCE，非原文已有公元紀年。"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "pa-shiji006-002",
@@ -49,7 +78,42 @@
       "source_term": "始皇崩於沙丘平臺",
       "interpretation_note": "按原文明示生於、崩於、葬或追斬於保存原地名，未換算今日行政區或地理座標；出生、死亡、葬地與傳首出身地分存。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "year": -209,
+        "era_year": 210,
+        "era": "BCE",
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "original_quote": "七月丙寅，始皇崩於沙丘平臺。",
+        "status": "editorial_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "paragraph_id": "c-shiji-006-shihuang:p048",
+            "quote": "三十七年十月癸丑，始皇出游。"
+          },
+          {
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "paragraph_id": "c-shiji-006-shihuang:p051",
+            "quote": "七月丙寅，始皇崩於沙丘平臺。"
+          }
+        ],
+        "rationale": "七月丙寅沿本篇三十七年出游敘事承接，對應公元前210年；只記此死亡事件年份，不把三十七年十月也強定為公元前210年。秦以十月歲首，紀年跨公曆年，未換算月日。",
+        "references": [
+          {
+            "title": "關於秦始皇",
+            "url": "https://bmy.com.cn/aboutYingZheng.html",
+            "institution": "秦始皇帝陵博物院",
+            "note": "館方卒年210 BCE，原文紀年承接判讀另列。"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "pa-shiji006-003",
