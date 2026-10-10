@@ -267,3 +267,32 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(royal['qualifiers']['biological_parent_status'], 'unknown')
         self.assertFalse(any(a['id'] == 'a-shiji078-004' for a in result['preferred_relations']))
         self.assertTrue(any(a['id'] == 'a-shiji078-004' for a in result['relations']))
+    def test_yuan_si_brings_biography_titles_and_source_dates(self):
+        result = bundle('b7w_mdw_awu', include_provisional=True)
+        self.assertTrue(any(m['surface'] == '絲' and m['chapter_id'] == 'c-shiji-101-yuanchao' for m in result['mentions']))
+        dates = [d for d in result['date_normalizations'] if d.get('title') in ('太常', '楚相')]
+        self.assertEqual({d['title'] for d in dates}, {'太常', '楚相'})
+        self.assertTrue(all(d['era'] == 'BCE' and d['era_year'] == 154 and d['year'] == -153 for d in dates))
+        passages = {p['id'] for p in result['passages']}
+        self.assertTrue(all(e['paragraph_id'] in passages for d in dates for e in d['evidence']))
+        self.assertTrue(all(d['endpoint'] == 'start' for d in dates))
+        self.assertTrue(all(h['effective_period']['end']['status'] == 'unknown' for h in result['title_holdings'] if h['title'] == '太常'))
+
+    def test_yuanchao_nephew_and_heir_do_not_invent_birth_order(self):
+        from scripts.person_bundle import load_catalog
+        catalog = load_catalog()
+        people = {p['label']: p for p in catalog[0].values()}
+        nephew = people['種（袁盎兄子）（袁盎鼂錯列傳候選）']
+        result = bundle(nephew['id'], catalog=catalog)
+        relation = next(a for a in result['relations'] if a['subject_person_id'] == nephew['id'])
+        self.assertEqual(relation['predicate'], 'paternal_uncle')
+        self.assertIsNone(relation['qualifiers']['intermediate_father_person_id'])
+        self.assertFalse(any(a['predicate'] == 'father' for a in result['relations']))
+        heir = people['柴武太子未名（袁盎鼂錯列傳候選）']
+        child = bundle(heir['id'], catalog=catalog)
+        relation = next(a for a in child['relations'] if a['subject_person_id'] == heir['id'] and a['predicate'] == 'father')
+        self.assertEqual(relation['qualifiers']['heir_status'], '太子')
+        self.assertIsNone(relation['qualifiers']['birth_ordinal'])
+        self.assertNotIn('birth_order', relation['qualifiers'])
+        chapter = next(p for p in result['sources'] if p['chapter_id'] == 'c-shiji-101-yuanchao')
+        self.assertFalse(chapter['source']['image_verified'])

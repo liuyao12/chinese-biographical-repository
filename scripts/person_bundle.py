@@ -86,6 +86,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     for record in relations + titles + identities + addresses + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
+    for holding in titles:
+        for boundary in holding['effective_period'].values():
+            paragraph_ids.update(e['paragraph_id'] for e in boundary['evidence'])
+            paragraph_ids.update(e['paragraph_id'] for e in boundary.get('normalized_date', {}).get('evidence', []))
     passages = []
     for pid in sorted(paragraph_ids):
         chapter, paragraph = paragraphs[pid]
@@ -130,7 +134,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
-            'date_normalizations': [dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a],
+            'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
+                                    + [dict(h['effective_period'][endpoint]['normalized_date'], record_id=h['id'],
+                                            person_id=h['person_id'], endpoint=endpoint, title=h['title'])
+                                       for h in titles for endpoint in ('start', 'end')
+                                       if 'normalized_date' in h['effective_period'][endpoint]]),
             'birth_order_constraints': [dict(a['qualifiers'][key], assertion_id=a['id'], person_id=a['subject_person_id'], evidence=a['evidence'])
                                         for a in relations for key in ('birth_order', 'relative_birth_order')
                                         if key in a.get('qualifiers', {})],

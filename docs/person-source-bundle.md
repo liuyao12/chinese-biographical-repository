@@ -58,3 +58,5 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 `preferred_birth_order_constraints` 對應預設關係的排行約束，與原始 `birth_order_constraints` 並列；丁公弟解只提供相對長幼，序號仍為 null，不需NLU解析。
 
 王室或法定父子可在預設視圖使用 `parentage_role: legal_or_dynastic`，並明示 `biological_parent_status: unknown`；不能把這種線當已核血親。跨候選人物的預設判斷須另列已有同指決定，仍保留該判斷的暫定身份狀態。
+
+稱號有效期間端點若已有 `normalized_date`，同時匯入 `date_normalizations`，附 `record_id`、`person_id`、`endpoint` 與 `title`；原始端點及引句仍保存在 `title_holdings`，證據段落亦納入來源集合。未知端點不生成數字日期。

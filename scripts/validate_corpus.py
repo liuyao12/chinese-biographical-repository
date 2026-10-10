@@ -56,7 +56,10 @@ def validate(root=ROOT):
             check(len(entries) == len(alias_targets)
                   and {e['previous_id']: e['person_id'] for e in entries} == alias_targets,
                   '人物 ID 遷移對照與相容別名不符')
-            check(migration.get('person_count') == len(people)
+            migration_count = migration.get('person_count')
+            check(type(migration_count) is int
+                  and len(set(alias_targets.values())) <= migration_count <= len(people)
+                  and migration.get('person_count_scope', 'at_migration') == 'at_migration'
                   and migration.get('identity_merges_performed') is False
                   and all(FAMILY.fullmatch(pid) for pid in pids), '人物 ID 全面遷移範圍或身份政策不符')
         legacy_numbers = [int(pid[5:]) for pid in pids if isinstance(pid, str) and LEGACY.fullmatch(pid)]
@@ -353,6 +356,26 @@ def validate(root=ROOT):
                 if current in seen:
                     check(False,'同指決定代表循環');break
                 seen.add(current);current=canonical_links[current]
+        def validate_date_evidence(date, context_evidence, expression=None):
+            errors.extend(normalized_date_errors(date))
+            if not isinstance(date, dict):
+                return
+            context_ids = {e['paragraph_id'] for e in context_evidence}
+            anchored = False
+            for evidence in date.get('evidence', []):
+                hit = paragraphs.get(evidence['paragraph_id'])
+                valid = bool(hit) and hit[0] == evidence['chapter_id']
+                check(valid and evidence['quote'] in hit[1]['text'], '紀年換算證據篇段不符')
+                if valid:
+                    check(chapters[hit[0]]['source_id'] == evidence['source_id'], '紀年換算來源 ID 不符')
+                    original = date.get('original_quote')
+                    anchored |= (evidence['paragraph_id'] in context_ids
+                                 and isinstance(original, str) and original in evidence['quote'])
+            check(anchored, '紀年換算原句未見於本筆事件證據')
+            if expression is not None:
+                check(isinstance(date.get('original_quote'), str)
+                      and expression in date['original_quote'], '紀年換算原句未含本筆日期表述')
+
         title_ids=set();title_occurrence_ids=set()
         for path in (root/'corpus').glob('*/*-titles.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
@@ -410,7 +433,9 @@ def validate(root=ROOT):
                     boundary=period[endpoint]
                     check(boundary['status'] in ('unknown','source_event'),'稱號時段端點狀態無效')
                     expected={'status','date_expression','evidence'}
-                    if boundary['status']=='source_event':expected.add('event_type')
+                    if boundary['status']=='source_event':
+                        expected.add('event_type')
+                        if 'normalized_date' in boundary:expected.add('normalized_date')
                     check(set(boundary)==expected,'稱號端點含未定義欄位，不能暗補正規化日期')
                     if boundary['status']=='unknown':
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
@@ -421,6 +446,9 @@ def validate(root=ROOT):
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']
                         check(date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
+                        if 'normalized_date' in boundary:
+                            check(isinstance(date, str) and bool(date), '稱號數字紀年須有原始日期表述')
+                            validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date)
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()
