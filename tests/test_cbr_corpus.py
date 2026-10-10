@@ -457,4 +457,37 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/100.json', mutate)
         self.assertTrue(any('親屬預設選項' in error for error in v.validate(self.root)))
 
+    def test_migration_snapshot_allows_later_canonical_people(self):
+        self.change('registry/person-id-migrations.json', lambda d: d.update(person_count=d['person_count'] - 1))
+        self.assertEqual(v.validate(self.root), [])
+
+    def test_migration_snapshot_rejects_impossible_count(self):
+        self.change('registry/person-id-migrations.json', lambda d: d.update(person_count=10**9))
+        self.assertTrue(any('全面遷移範圍' in e for e in v.validate(self.root)))
+
+    def test_title_numeric_year_rejects_bce_numbering_error(self):
+        def mutate(d):
+            h = next(h for h in d['holdings'] if h['title'] == '太常')
+            h['effective_period']['start']['normalized_date']['year'] = -154
+        self.change('corpus/shiji/101-titles.json', mutate)
+        self.assertTrue(any('天文年' in e for e in v.validate(self.root)))
+
+    def test_title_numeric_year_must_anchor_its_own_event(self):
+        def mutate(d):
+            h = next(h for h in d['holdings'] if h['title'] == '太常')
+            date = h['effective_period']['start']['normalized_date']
+            date['original_quote'] = '三年正月乙巳'
+        self.change('corpus/shiji/101-titles.json', mutate)
+        self.assertTrue(any('本筆事件證據' in e for e in v.validate(self.root)))
+
+    def test_posthumous_huainan_title_of_son_is_not_the_father(self):
+        d = json.loads((self.root/'corpus/shiji/010.json').read_text())
+        m = next(m for p in d['paragraphs'] for m in p['mentions'] if m['id'] == 'c-shiji-010-wendi:m023-0149')
+        self.assertEqual(m['surface'], '淮南王')
+        self.assertEqual(m['kind'], 'unresolved')
+        self.assertIsNone(m['person_id'])
+        reg = json.loads((self.root/'registry/persons.json').read_text())
+        father = next(p for p in reg['persons'] if p['id'] == 'yqp_nlb_p1p_AF')
+        self.assertNotIn(m['id'], {e['mention_id'] for e in father['evidence']})
+
 if __name__=='__main__':unittest.main()

@@ -127,3 +127,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `family_tree_decision_set` 記錄預設採用的來源陳述ID、排除於預設視圖的陳述ID、父親端點、理由、可信程度與完整證據。原始主張均保留；排除只作用於預設繪圖。`preferred_parent_person_id: null` 表示編輯判斷生父未定，不是遺漏待使用端補猜。
 
 親屬詮釋可由 `default_alternative_id` 配合 `selection` 選定編輯預設；必須匹配已存候選並記理由、可信程度及未經人工覆核。分歧案例本身仍保留。人物包分別匯出原始 `relations` 與 `preferred_relations`，後者套用已存預設判斷、無需 AI；未審閱的其他衝突仍可能存在。
+
+### 稱號事件的數字紀年
+
+`effective_period.start` 或 `end` 的 `status: source_event` 可附 `normalized_date`，格式同地點事件紀年。換算須附本筆事件段落內可找到的 `original_quote`、原始 `date_expression`、換算理由及參考；其他篇章只作紀年承接證據，不能代替本筆事件引句。`status: unknown` 不得附數字日期。天文年編號另以 `era`、`era_year`供一般顯示。
+
+人物ID遷移記錄的 `person_count_scope: at_migration` 表示 `person_count` 是遷移當時的快照，不是此後全庫人數；新增人物仍須通過現行家族ID格式驗證，舊別名映射保留。
