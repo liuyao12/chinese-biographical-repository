@@ -550,6 +550,13 @@ def validate(root=ROOT):
                         check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
                         check(any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
+        try:
+            from .family_assemblies import load_assemblies
+            from .person_bundle import load_catalog
+        except ImportError:
+            from family_assemblies import load_assemblies
+            from person_bundle import load_catalog
+        load_assemblies(root, load_catalog(root))
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')

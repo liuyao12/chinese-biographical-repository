@@ -219,7 +219,9 @@ class PersonBundleTests(unittest.TestCase):
         folder = ROOT / 'exports/persons'
         index = json.loads((folder / 'index.json').read_text())
         ids = [p['person_id'] for p in index['persons']]
-        self.assertEqual(set(ids), set(catalog[0]))
+        from scripts.family_assemblies import load_assemblies
+        source_map, assembled = load_assemblies(ROOT, catalog)
+        self.assertEqual(set(ids), (set(catalog[0]) - set(source_map)) | set(assembled))
         self.assertEqual(len(ids), len(set(ids)))
         self.assertFalse(set(ids).intersection(index['id_aliases']))
         self.assertTrue(all((folder / (old + '.json')).exists() for old in index['id_aliases']))
@@ -227,13 +229,24 @@ class PersonBundleTests(unittest.TestCase):
         new = json.loads((folder / (old['canonical_person_id'] + '.json')).read_text())
         self.assertEqual(old['mentions'], new['mentions'])
         self.assertEqual(old['relations'], new['relations'])
-        text = (folder / 'README.md').read_text()
-        table_ids = re.findall(r'\| `([^`]+)` \|', text)
+        family_text = (folder / 'README.md').read_text()
+        self.assertIn('[獨立人物索引](unconnected.md)', family_text)
+        single_text = (folder / 'unconnected.md').read_text()
+        self.assertIn('[可展開家族索引](README.md)', single_text)
+        for page in (family_text, single_text):
+            self.assertLess(len(page.encode('utf-8')), 500_000)
+        text = family_text + '\n' + single_text
+        from urllib.parse import unquote
+        table_ids = [unquote(filename) for filename in re.findall(r'\[JSON\]\(([^)]+)\.json\)', text)]
         self.assertEqual(set(table_ids), set(ids))
         self.assertEqual(len(table_ids), len(ids))
         self.assertGreater(text.count('<details>'), 0)
         self.assertEqual(text.count('<details>'), text.count('</details>'))
         self.assertIn('%2A', text)
+        source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', text))
+        definitions = set(re.findall(r'^\[(\d+)\]: https://', text, re.M))
+        self.assertTrue(source_refs)
+        self.assertTrue(source_refs.issubset(definitions))
 
     def test_preferred_tree_selects_zhaozis_son_without_discarding_other_sources(self):
         from scripts.person_bundle import load_catalog

@@ -1,0 +1,45 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_equivalence_set",
+  "chapter_id": "c-shiji-051-jingyan",
+  "decisions": [
+    {
+      "id": "eq-shiji-liu-family-048",
+      "person_ids": [
+        "1j8_2zh_zqz",
+        "yqp_nlb_p1p_A"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_A",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-051-jingyan",
+        "c-shiji-008-gaozu"
+      ],
+      "rationale": "此處高祖／高帝／漢王位於秦亡、楚漢戰爭、沛公入漢、諸侯分封或漢高后之前的漢廷脈絡；與卷八高祖平定天下分封諸王對應，依具體朝代及敘事事件暫定同人，不按高祖泛稱全域合併。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-051-jingyan",
+          "source_id": "s-shiji-051-jingyan",
+          "paragraph_id": "c-shiji-051-jingyan:p001",
+          "quote": "荊王劉賈者，諸劉，不知其何屬。初起時，漢王元年，還定三秦，劉賈為將軍，定塞地，從東擊項籍。",
+          "mention_ids": [
+            "c-shiji-051-jingyan:m001-0019"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p063",
+          "quote": "後十餘日，封韓信為淮陰侯，分其地為二國。高祖曰將軍劉賈數有功，以為荊王，王淮東。弟交為楚王，王淮西。子肥為齊王，王七十餘城，民能齊言者皆屬齊。乃論功，與諸列侯剖符行封。徙韓王信太原。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m063-0020"
+          ]
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}

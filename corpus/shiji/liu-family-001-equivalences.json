@@ -1,0 +1,46 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_equivalence_set",
+  "chapter_id": "c-shiji-052-qidaohui",
+  "decisions": [
+    {
+      "id": "eq-shiji-liu-family-001",
+      "person_ids": [
+        "byp_ks5_71a",
+        "yqp_nlb_p1p_A"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_A",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-052-qidaohui",
+        "c-shiji-008-gaozu"
+      ],
+      "rationale": "兩篇均以高祖為齊悼惠王肥之父，並記其長庶子身份；名肥及齊王封國相合，暫定為同一位高祖。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p001",
+          "quote": "齊悼惠王劉肥者，高祖長庶男也。其母外婦也，曰曹氏。高祖六年，立肥為齊王，食七十城，諸民能齊言者皆予齊王。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m001-0008",
+            "c-shiji-052-qidaohui:m001-0025"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p090",
+          "quote": "高帝八男：長庶齊悼惠王肥；次孝惠，呂后子；次戚夫人子趙隱王如意；次代王恒，已立為孝文帝，薄太后子；次梁王恢，呂太后時徙為趙共王；次淮陽王友，呂太后時徙為趙幽王；次淮南厲王長；次燕王建。",
+          "mention_ids": [
+            "c-shiji-008-gaozu:m090-0000"
+          ]
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "human_reviewed": false
+    }
+  ]
+}
