@@ -16,3 +16,17 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 此匯出是可重建的讀取層，權威資料仍是各篇來源與標註。無 AI 或網路處理需求。尚未接入家譜小程式或公開人物頁。
 
 關係 `agnatic_cousin` 保存正文「從兄」「從弟」等同宗從兄弟稱呼，親等未定時 `qualifiers.degree` 為 `unknown`；不能由此補第一代表親、共同祖父或父子線。與 `brother` 相異的來源主張並列，`discrepancy_group_id` 可供檢視器連結分歧；該群組只提示差異，不自動選定其中一說。
+
+出生排行存於關係主張的 `qualifiers.birth_order` 或 `qualifiers.relative_birth_order`，並直接匯出為 `birth_order_constraints`，消費端不需解析 `source_term`。每項約束保留主張 ID 與證據。
+
+`長子`的 `ordinal` 為1，`scope: sons_of_parent` 表示在該父母的兒子序列中，不表示全部子女的第一名。`少子`暫記 `position: younger_or_youngest`、`ordinal: null`、`interpretation_status: ambiguous`；只有判讀明示最幼才另記 `youngest`。
+
+兄弟相對先後記 `older_person_id`、`younger_person_id`、`operator: lt`；兩人的 `older_ordinal`、`younger_ordinal` 可均為 null。此約束表示先後，不表示相鄰，不推定同母或兩人生年。排序程式應合併所選人物同指，依約束作部分排序；有環則回報衝突，未連通者保持順序未定，不把可行的顯示排列回寫成確定出生排行。來源排行序列與展示排序分開。
+
+目前先標註《秦始皇本紀》的扶蘇、胡亥與兩條弟關係，舊篇其他排行仍待逐條回填；不宣稱全庫已具排行約束。
+
+籍貫與其他地址以 `address_assertions` 匯出，每項保存人物、`relation`、原文地名 `place.source_name`、來源與日期。`native_place` 不等於 `birth_place` 或 `residence`；未知現代對應與地點 ID 留 null，不自動使用現代行政區。地名錨點與地點登記仍待建立。目前先收錄卷九十三盧綰豐人及陳豨宛朐人，其他篇待回填。
+
+早期傳記傳首「某某，某地人也」使用 `biographical_origin`（傳首所述出身地），保存原句；不推定後世制度化籍貫或戶籍。`native_place` 留作有相應來源判讀的籍貫記錄。
+
+`death_place` 與 `burial_place` 分別表示死亡地、葬地，保留原文地名，無須今日行政區對應。始皇出生地邯鄲、死亡地沙丘平臺與葬地酈邑各存原文證據；不能由死亡地推定葬地，預定葬地也不直接作實際安葬。

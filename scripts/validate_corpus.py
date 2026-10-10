@@ -285,6 +285,24 @@ def validate(root=ROOT):
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
                 check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
+                qualifiers = a.get('qualifiers', {})
+                if 'birth_order' in qualifiers:
+                    order = qualifiers['birth_order']
+                    check(a['predicate'] in ('father', 'mother') and order.get('parent_person_id') == a['object_person_id'], '排行父母端點不符')
+                    check(order.get('scope') == 'sons_of_parent', '排行序列範圍未知')
+                    ordinal = order.get('ordinal')
+                    check(ordinal is None or type(ordinal) is int and ordinal > 0, '排行序號須為正整數或未知')
+                    check(order.get('position') in ('eldest', 'youngest', 'younger_or_youngest', 'unspecified'), '排行位置未知')
+                    if order.get('position') == 'eldest': check(ordinal == 1, '長子排行須為一')
+                    check(order.get('interpretation_status') in ('source_attested', 'ambiguous'), '排行判讀狀態無效')
+                if 'relative_birth_order' in qualifiers:
+                    order = qualifiers['relative_birth_order']
+                    check(a['predicate'] in ('brother', 'sister', 'agnatic_cousin'), '相對排行須為同輩親屬')
+                    check({order.get('older_person_id'), order.get('younger_person_id')} == {a['subject_person_id'], a['object_person_id']}, '相對排行端點不符')
+                    check(order.get('operator') == 'lt' and order.get('scope') == 'siblings', '相對排行運算或範圍未知')
+                    for key in ('older_ordinal', 'younger_ordinal'):
+                        value = order.get(key)
+                        check(value is None or type(value) is int and value > 0, '相對排行序號無效')
                 context=a.get('context')
                 adjacent=None
                 quoted_endpoints=[]
@@ -317,6 +335,24 @@ def validate(root=ROOT):
                     check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
                           and a['subject_person_id'] in quoted_endpoints[1],
                           '人物陳述承接的前段客體及後段主體未見於引句')
+        address_ids = set()
+        for path in (root / 'corpus').glob('*/*-addresses.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            check(record['record_type'] == 'person_address_assertion_set' and record['chapter_id'] in chapters, '地址主張集格式或篇不存在')
+            for address in record['assertions']:
+                check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
+                check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
+                check(address['relation'] in ('biographical_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place'), '地址關係類型未知')
+                check(bool(address['place']['source_name']) and bool(address['evidence']), '地址原地名或證據缺失')
+                for evidence in address['evidence']:
+                    hit = paragraphs.get(evidence['paragraph_id'])
+                    valid = bool(hit) and hit[0] == record['chapter_id'] == evidence['chapter_id']
+                    check(valid and evidence['quote'] in hit[1]['text'], '地址證據篇段不符')
+                    if valid:
+                        check(address['place']['source_name'] in evidence['quote'] and address['source_term'] in evidence['quote'], '地址原詞不在證據')
+                        check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
+                        check(any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
+                        check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')
