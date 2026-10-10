@@ -229,7 +229,13 @@ class PersonBundleTests(unittest.TestCase):
         new = json.loads((folder / (old['canonical_person_id'] + '.json')).read_text())
         self.assertEqual(old['mentions'], new['mentions'])
         self.assertEqual(old['relations'], new['relations'])
-        text = (folder / 'README.md').read_text()
+        family_text = (folder / 'README.md').read_text()
+        self.assertIn('[獨立人物索引](unconnected.md)', family_text)
+        single_text = (folder / 'unconnected.md').read_text()
+        self.assertIn('[可展開家族索引](README.md)', single_text)
+        for page in (family_text, single_text):
+            self.assertLess(len(page.encode('utf-8')), 500_000)
+        text = family_text + '\n' + single_text
         from urllib.parse import unquote
         table_ids = [unquote(filename) for filename in re.findall(r'\[JSON\]\(([^)]+)\.json\)', text)]
         self.assertEqual(set(table_ids), set(ids))

@@ -64,7 +64,7 @@ def export(root=ROOT):
              '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。', '',
              '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。', '',
              '漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。', '',
-             '點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。舊 ID 與 JSON 入口保留為別名；索引只計現行人物。', '', '## 可展開家族', '']
+             '點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。舊 ID 與 JSON 入口保留為別名；索引只計現行人物。', '', '尚未連入同族的人物見 [獨立人物索引](unconnected.md)。', '', '## 可展開家族', '']
     families = {}
     for row in rows:
         families.setdefault(row['person_id'][:11], []).append(row)
@@ -79,8 +79,10 @@ def export(root=ROOT):
                       '| ID 尾碼 | 人物 | 最多提及來源 | JSON |', '|---|---|---|---|'])
         lines.extend(f"| `{v['person_id'][12:] or '根'}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in members)
         lines.extend(['', '</details>', ''])
-    lines.extend(['## 尚未連入同族的人物', '', '| 人物 ID | 人物 | 最多提及來源 | JSON |', '|---|---|---|---|'])
-    lines.extend(f"| `{v['person_id']}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in singles)
+    singles_lines = ['# 尚未連入同族的人物', '', '返回 [可展開家族索引](README.md)。以下人物尚未依已記錄的父系資料連入其他節點；同姓不表示同族。', '', '| 人物 ID | 人物 | 最多提及來源 | JSON |', '|---|---|---|---|']
+    singles_lines.extend(f"| `{v['person_id']}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in singles)
+    singles_lines.extend(['', *source_references])
+    (destination / 'unconnected.md').write_text('\n'.join(singles_lines) + '\n')
     lines.extend(['', *source_references])
     (destination / 'README.md').write_text('\n'.join(lines) + '\n')
     print('人物 JSON：', len(rows))
