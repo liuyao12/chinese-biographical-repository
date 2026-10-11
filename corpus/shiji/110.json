@@ -29,14 +29,15 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前4段初標37名來源候選、63處人物及未定錨點、3筆親屬、12筆用稱及3筆死亡事件。其餘57段、其他官爵日期與跨篇同指待核。",
+    "coverage": "全61段轉錄；前5段初標38名來源候選、67處人物及未定錨點、3筆親屬、13筆用稱及4筆死亡事件。其餘56段、其他官爵日期與跨篇同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
       "族群、官號通則、婚俗與世官敘述不補造具體人物或個人婚姻。",
       "第2段後母惠后不作襄王生母，褒姒寵姬稱未自動補婚姻；相對年數不補公元年，跨篇同指及官爵另待核。",
       "第3段君長為群體未定錨點，族群地理不作晉文公個人籍貫；晉文公承前段，秦穆公及由余另建候選。",
-      "第4段秦舞陽接秦開祖孫缺代，二子為未名群體；亂不自動記婚姻，秦王與始皇帝身份仍待跨篇核讀，戰國各國區域不作人物籍貫。"
+      "第4段秦舞陽接秦開祖孫缺代，二子為未名群體；亂不自動記婚姻，秦王與始皇帝身份仍待跨篇核讀，戰國各國區域不作人物籍貫。",
+      "第5段單于曰頭曼直接連本段稱號；蒙恬承前段同名敘事，十餘年未作精確公元年換算，族群及諸侯群體不補個人。"
     ]
   },
   "paragraphs": [
@@ -642,9 +643,46 @@
     {
       "id": "c-shiji-110-xiongnu:p005",
       "text": "當是之時，東胡彊而月氏盛。匈奴單于曰頭曼，頭曼不勝秦，北徙。十餘年而蒙恬死，諸侯畔秦，中國擾亂，諸秦所徙適戍邊者皆復去，於是匈奴得寬，復稍度河南與中國界於故塞。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m005-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m005-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m005-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m005-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "蒙恬",
+          "kind": "person",
+          "person_id": "hev_jdd_l90",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p006",
