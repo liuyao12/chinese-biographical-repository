@@ -175,3 +175,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `stepmother` 表示原文明示的後母：主體為子女，客體為後母，不作生母或自動補父親的婚姻。
 
 `mode: accession` 與稱號起點的 `event_type: accession` 保存來源明示的繼位（例如子稽粥立）；不等於授予或自立，不由前任死亡自動推新任日期。年月未知時保留 `date_expression: null`。
+
+## 原文無明示紀年的平行事件定年
+
+原文日期為空時不得補造日期字串。已核讀他書同事件及其編年時，可在 `normalized_date.basis` 記 `kind: parallel_event`、本篇精確事件引句 `source_event_quote`、參考 URL `reference_url`、他書事件原句 `reference_event_quote` 及紀年標題 `reference_year_quote`。參考列表分別以 `received_parallel_event` 與 `digital_editorial_regnal_year_equivalence_only` 保存兩項引句與相同 URL。年份保持代理暫定並附具體判讀，不暗改來源紀年、事件異說或提高精度。授任與死亡的日期可依此對讀定年，原日期欄仍為空。驗證要求引句、來源錨點、兩層參考與年編號完整；它不證明兩事件同指的學術判讀。

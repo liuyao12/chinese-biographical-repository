@@ -8,6 +8,28 @@ import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 
+def parallel_event_date(date):
+    """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
+    if not isinstance(date, dict):
+        return False
+    basis = date.get('basis')
+    if not isinstance(basis, dict) or set(basis) != {'kind', 'source_event_quote', 'reference_url', 'reference_event_quote', 'reference_year_quote'}:
+        return False
+    original = date.get('original_quote')
+    quote = basis.get('source_event_quote')
+    url = basis.get('reference_url')
+    if (basis.get('kind') != 'parallel_event' or not isinstance(original, str)
+            or not isinstance(quote, str) or not quote or quote not in original
+            or not isinstance(url, str) or urlparse(url).scheme not in ('http', 'https')):
+        return False
+    refs = date.get('references', [])
+    return all(isinstance(basis.get(key), str) and bool(basis[key])
+               and any(isinstance(ref, dict) and ref.get('url') == url
+                       and ref.get('quote') == basis[key] and ref.get('scope') == scope
+                       for ref in refs)
+               for key, scope in [('reference_event_quote', 'received_parallel_event'),
+                                  ('reference_year_quote', 'digital_editorial_regnal_year_equivalence_only')])
+
 def normalized_date_errors(date):
     errors = []
     if not isinstance(date, dict):
@@ -23,6 +45,8 @@ def normalized_date_errors(date):
         errors.append('紀年換算原句、證據、參考或判讀狀態缺失')
     if not date.get('rationale') or not date.get('reviewer') or date.get('human_reviewed') is not False:
         errors.append('紀年换算判讀或覆核狀態無效'.replace('换','換'))
+    if 'basis' in date and not parallel_event_date(date):
+        errors.append('平行事件定年缺少原句或分層參考證據')
     return errors
 
 
@@ -469,7 +493,7 @@ def validate(root=ROOT):
                         date=boundary['date_expression']
                         check(date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
                         if 'normalized_date' in boundary:
-                            check(isinstance(date, str) and bool(date), '稱號數字紀年須有原始日期表述')
+                            check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
                             validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date)
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
@@ -617,7 +641,7 @@ def validate(root=ROOT):
                     check(expression is None or continuous_date or expression in evidence['quote'], '生卒日期未見於事件引句')
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
-                    check(isinstance(expression, str) and bool(expression), '生卒數字紀年缺原日期表述')
+                    check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
                         check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
                         check(date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))

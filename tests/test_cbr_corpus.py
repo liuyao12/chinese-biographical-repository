@@ -546,6 +546,20 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/107-titles.json', mutate)
         self.assertTrue(any('本筆事件證據' in e for e in v.validate(self.root)))
 
+    def test_parallel_event_year_requires_source_event_quote(self):
+        d = json.loads((self.root/'corpus/shiji/110-life-events.json').read_text())
+        date = next(e for e in d['events'] if e['id'] == 'le-shiji110-wanghui')['normalized_date']
+        self.assertTrue(v.parallel_event_date(date))
+        date['basis']['source_event_quote'] = '此為合成測試的未見原文事件'
+        self.assertIn('平行事件定年缺少原句或分層參考證據', v.normalized_date_errors(date))
+
+    def test_parallel_event_year_requires_separate_year_reference(self):
+        d = json.loads((self.root/'corpus/shiji/110-life-events.json').read_text())
+        date = next(e for e in d['events'] if e['id'] == 'le-shiji110-wanghui')['normalized_date']
+        date['references'] = [r for r in date['references'] if r['scope'] == 'received_parallel_event']
+        self.assertFalse(v.parallel_event_date(date))
+        self.assertIn('平行事件定年缺少原句或分層參考證據', v.normalized_date_errors(date))
+
     def test_posthumous_huainan_title_of_son_is_not_the_father(self):
         d = json.loads((self.root/'corpus/shiji/010.json').read_text())
         m = next(m for p in d['paragraphs'] for m in p['mentions'] if m['id'] == 'c-shiji-010-wendi:m023-0149')
