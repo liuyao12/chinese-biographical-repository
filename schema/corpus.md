@@ -173,3 +173,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。
 
 `stepmother` 表示原文明示的後母：主體為子女，客體為後母，不作生母或自動補父親的婚姻。
+
+`mode: accession` 與稱號起點的 `event_type: accession` 保存來源明示的繼位（例如子稽粥立）；不等於授予或自立，不由前任死亡自動推新任日期。年月未知時保留 `date_expression: null`。
