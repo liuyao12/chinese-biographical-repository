@@ -3,6 +3,22 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_yuan_ang_cross_chapter_bundle_keeps_sourced_death_place(self):
+        result = bundle('40v_x1i_esm', include_provisional=True)
+        self.assertTrue({'j32_wtj_khz_A', 'ndp_kf2_zbo', 'b8b_5mi_flk'}.issubset(result['person_ids']))
+        place = next(a for a in result['address_assertions'] if a['id'] == 'pa-shiji101-005')
+        self.assertEqual(place['place']['source_name'], '安陵郭門外')
+        self.assertIn('刺殺盎安陵郭門外', place['evidence'][0]['quote'])
+
+    def test_liang_retainer_equivalences_keep_two_people_separate(self):
+        gui = bundle('v4l_7vt_hsb', include_provisional=True)
+        yang = bundle('ezo_6oj_gne', include_provisional=True)
+        self.assertIn('2bl_b4d_kfg', gui['person_ids'])
+        self.assertIn('fo7_9ev_cht', yang['person_ids'])
+        self.assertFalse(set(gui['person_ids']).intersection(yang['person_ids']))
+        self.assertIn('le-shiji108-gui', {e['id'] for e in gui['life_events']})
+        self.assertIn('le-shiji108-yang', {e['id'] for e in yang['life_events']})
+
     def test_han_death_year_is_a_life_event_not_title_endpoint(self):
         result = bundle('6hy_i1z_hu2', include_provisional=True)
         event = next(e for e in result['life_events'] if e['id'] == 'le-shiji108-han')
