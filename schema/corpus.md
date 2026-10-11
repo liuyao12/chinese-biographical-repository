@@ -157,3 +157,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 例如卷一百零七「高祖孫」的淮南王安接為 `yqp_nlb_p1p_A*A`，祖先是劉邦 `yqp_nlb_p1p_A`，父親未定。消費 JSON 的程式須讀取祖先與距離，不可把 `parent_person_id: null` 一律當作獨立家族，也不可把星號當成已知父親。
 
 逐人匯出的 `date_normalizations` 亦收錄用稱換年，以 `date_role: attestation` 與 `attestation_id` 區別，不使用授任的 `endpoint`。涉及未決身份時，人物 JSON 附 `unresolved_identity_cases`、所有候選人物及所引用段落；候選只作待辨資訊，不併入 `person_ids`，也不自動選定人物。
+
+未決身份案例的 `paragraph_ids` 可列本篇未決用稱及其他已收錄篇的候選身份證據，但至少須有一段屬於本篇；每位候選都須在所列原文段落有已標註提及。外篇引用不構成同指決定，候選仍不合併。
