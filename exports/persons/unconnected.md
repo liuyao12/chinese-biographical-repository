@@ -382,6 +382,7 @@
 | `2wb_n1j_m5a` | 趙朔妻（趙世家晉成公姊未名者） | [《史記・趙世家》][25] | [JSON](2wb_n1j_m5a.json) |
 | `2wl_dla_w69` | 王齮 | [《史記・秦始皇本紀》][6] | [JSON](2wl_dla_w69.json) |
 | `2wp_usr_ncd` | 衛鞅 | [《史記・商君列傳》][50] | [JSON](2wp_usr_ncd.json) |
+| `2ws_c97_c69_*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](2ws_c97_c69_%2AA.json) |
 | `2wt_drt_ii8` | 王夫人子齊王 | [《史記・外戚世家》][31] | [JSON](2wt_drt_ii8.json) |
 | `2ww_4rg_iv9` | 應高 | [《史記・吳王濞列傳》][88] | [JSON](2ww_4rg_iv9.json) |
 | `2xk_syj_egr` | 陳勝 | [《史記・黥布列傳》][73] | [JSON](2xk_syj_egr.json) |
@@ -592,7 +593,6 @@
 | `4fa_1v4_jmc` | 南子 | [《史記・仲尼弟子列傳》][49] | [JSON](4fa_1v4_jmc.json) |
 | `4fa_nn3_4zq` | 紂引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](4fa_nn3_4zq.json) |
 | `4fi_y71_jjs` | 許昌 | [《史記・魏其武安侯列傳》][89] | [JSON](4fi_y71_jjs.json) |
-| `4gj_xfa_r7s` | 孝景（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](4gj_xfa_r7s.json) |
 | `4gn_hir_vrl` | 秦王（魏世家增質秦未名者） | [《史記・魏世家》][26] | [JSON](4gn_hir_vrl.json) |
 | `4gs_evl_a1u` | 秦司馬夷 | [《史記・曹相國世家》][36] | [JSON](4gs_evl_a1u.json) |
 | `4hf_tdv_ju8` | 夏說 | [《史記・淮陰侯列傳》][74] | [JSON](4hf_tdv_ju8.json) |
@@ -1732,7 +1732,6 @@
 | `da9_8rf_0us` | 涉 | [《史記・孔子世家》][29] | [JSON](da9_8rf_0us.json) |
 | `db0_yyf_4td` | 許暦 | [《史記・廉頗藺相如列傳》][63] | [JSON](db0_yyf_4td.json) |
 | `db9_3sk_h2i` | 秦昭王幸姬未名 | [《史記・孟嘗君列傳》][57] | [JSON](db9_3sk_h2i.json) |
-| `dbk_7yu_n8i` | 孝文（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](dbk_7yu_n8i.json) |
 | `dbp_8hk_z35` | 樓煩王（趙世家未名者） | [《史記・趙世家》][25] | [JSON](dbp_8hk_z35.json) |
 | `dbu_31o_zf6` | 秦太后（魏世家无忌議論未名者） | [《史記・魏世家》][26] | [JSON](dbu_31o_zf6.json) |
 | `dc4_qnx_hp2` | 晉鄙 | [《史記・魏公子列傳》][59] | [JSON](dc4_qnx_hp2.json) |
@@ -2200,7 +2199,6 @@
 | `gmc_nsr_p62` | 甯惠子（衛臣） | [《史記・衛康叔世家》][19] | [JSON](gmc_nsr_p62.json) |
 | `gmx_6ao_hg2` | 榮夫未名 | [《史記・刺客列傳》][68] | [JSON](gmx_6ao_hg2.json) |
 | `gnf_v23_0ks` | 枚生未定 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](gnf_v23_0ks.json) |
-| `gni_rru_0gw` | 孝景崩後即位太子（本段未名） | [《史記・魏其武安侯列傳》][89] | [JSON](gni_rru_0gw.json) |
 | `gnq_vre_5v8` | 舜（引古） | [《史記・淮陰侯列傳》][74] | [JSON](gnq_vre_5v8.json) |
 | `gns_w0b_kfj` | 所忠 | [《史記・孝武本紀》][12] | [JSON](gns_w0b_kfj.json) |
 | `gnt_6z9_vud` | 武王引古 | [《史記・孟子荀卿列傳》][56] | [JSON](gnt_6z9_vud.json) |

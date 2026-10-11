@@ -292,15 +292,6 @@
 
 </details>
 
-<details><summary><code>2ws_c97_c69</code> 高祖（本篇稱呼）（魏其武安侯列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 高祖（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](2ws_c97_c69.json) |
-| `*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](2ws_c97_c69_%2AA.json) |
-
-</details>
-
 <details><summary><code>30v_zf2_l7l</code> 齊王建（田儋列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
