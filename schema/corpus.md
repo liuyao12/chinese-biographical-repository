@@ -148,7 +148,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `attestations` 可另保存 `date_expression` 與 `normalized_date`，記錄來源在何年使用該稱號。此年不作授爵、任職起點或終點；`effective_period` 仍獨立保存，未知時保持 `unknown`。
 
-稱號可另附 `reported_duration` 保存來源明記的在位年數：`value` 為正整數，`unit: regnal_year`、`counting: inclusive_regnal_years`、`status: source_attested`；`source_number` 保存原數詞，`source_term` 保存含年數的原詞，`evidence` 指向有持有人錨點的篇段。例如「立十三年死」保存數值 13 與原詞「十三」；「立十歳而死」保存數值 10，來源的「年／歲／歳」原字均保留。這是含起年計數的在位紀年，不是完整公曆年長度，不推精確起訖日，也不以死亡自動終止全部官爵。敘事中「立三年」表示在位第三年的時點，不作完整任期；留置或出使年數也不作稱號在位年數。現行驗證支援一至九十九的標準中文數詞，其他形式須先擴充有測試的轉換與驗證，不可略過證據檢查。
+稱號可另附 `reported_duration` 保存來源明記的在位年數：`value` 為正整數，`unit: regnal_year`、`counting` 可為 `inclusive_regnal_years` 或 `unspecified_source_years`、`status: source_attested`；`source_number` 保存原數詞，`source_term` 保存含年數的原詞，`evidence` 指向有持有人錨點的篇段。例如「立十三年死」保存數值 13 與原詞「十三」；「立十歳而死」保存數值 10，來源的「年／歲／歳」原字均保留。前者表示有依據的含起年計數；後者保留來源年數但計年方式未定，例如兒單于「立三歳而死」與起訖紀年不直接相合時。兩者均不是完整公曆年長度，不推精確起訖日，也不以死亡自動終止全部官爵。敘事中「立三年」表示在位第三年的時點，不作完整任期；留置或出使年數也不作稱號在位年數。現行驗證支援一至九十九的標準中文數詞，其他形式須先擴充有測試的轉換與驗證，不可略過證據檢查。
 
 若本段沒有明言紀年、而由前文連續事件暫定年份，`date_expression` 為 `null`；`normalized_date.evidence` 同時列本段原句與前文紀年，理由說明承接及限制。不能因檢視到某年稱呼便把官爵起訖填入同年。換算仍為 `editorial_provisional`、年精度及未經人工覆核；只用核讀過的年對照，不默改原文月日。
 

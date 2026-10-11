@@ -460,7 +460,7 @@ def validate(root=ROOT):
                             elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?',number):
                                 tens,ones=number.split('十')
                                 parsed=(digits.index(tens)+1 if tens else 1)*10+(digits.index(ones)+1 if ones else 0)
-                        valid=(duration['unit']=='regnal_year' and duration['counting']=='inclusive_regnal_years'
+                        valid=(duration['unit']=='regnal_year' and duration['counting'] in ('inclusive_regnal_years','unspecified_source_years')
                                and duration['status']=='source_attested' and type(duration['value']) is int
                                and duration['value']==parsed and parsed is not None
                                and isinstance(duration['source_term'],str)
