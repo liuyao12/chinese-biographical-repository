@@ -732,7 +732,7 @@
 | `A` | 窋 | [《史記・曹相國世家》][36] | [JSON](913_1wz_ofu_A.json) |
 | `AA` | 奇 | [《史記・曹相國世家》][36] | [JSON](913_1wz_ofu_AA.json) |
 | `AAA` | 時 | [《史記・曹相國世家》][36] | [JSON](913_1wz_ofu_AAA.json) |
-| `AAAA` | 襄 | [《史記・曹相國世家》][36] | [JSON](913_1wz_ofu_AAAA.json) |
+| `AAAA` | 襄 | [《史記・衛將軍驃騎列傳》][93] | [JSON](913_1wz_ofu_AAAA.json) |
 | `AAAAA` | 宗 | [《史記・曹相國世家》][36] | [JSON](913_1wz_ofu_AAAAA.json) |
 
 </details>
