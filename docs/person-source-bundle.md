@@ -60,3 +60,5 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 王室或法定父子可在預設視圖使用 `parentage_role: legal_or_dynastic`，並明示 `biological_parent_status: unknown`；不能把這種線當已核血親。跨候選人物的預設判斷須另列已有同指決定，仍保留該判斷的暫定身份狀態。
 
 稱號有效期間端點若已有 `normalized_date`，同時匯入 `date_normalizations`，附 `record_id`、`person_id`、`endpoint` 與 `title`；原始端點及引句仍保存在 `title_holdings`，證據段落亦納入來源集合。未知端點不生成數字日期。
+
+程式索引的列可另含 `preferred_parent_status: unresolved` 與 `parent_decision_ids`，指明相關編輯決定暫不採用此候選的父系線。Markdown 同列標「來源候選；預設不接父系」，仍保留原 ID 及 JSON。家族式 ID 與表列人數包含來源候選，不代替預設世系；繪圖須讀 `preferred_relations` 並套用有證據的同指決定，不按 ID 前綴推造父子。`relations` 繼續保存被排除的原始主張。

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首二十二段初標88名來源人物、19筆親屬、1筆籍貫、193筆用稱、11筆生卒、32筆跨篇同指、12筆局部身份判讀及1組人物區分、1筆來源年齡；13筆所報異文保持未採用，孫吳指涉、王夫人、三子分歧及其餘段落續核。",
+    "coverage": "全48段轉錄；首二十五段初標88名來源人物、22筆親屬、1筆籍貫、204筆用稱、12筆生卒、35筆跨篇同指、12筆局部身份判讀及1組人物區分、1筆來源年齡；13筆所報異文保持未採用，三子／四子已有局部預設取捨，孫吳指涉、王夫人及其餘段落續核。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -62,7 +62,8 @@
       "第17段長史未名，未強接他篇軍吏；廣自殺記前119年來源事件，食其贖罪只記貶降。第18段四次單于按敘事分別接原單于與暫自立的右谷蠡王；去號明示自立單于稱號終點，未補王位恢復授予或精確日數起訖。",
       "第19段章渠按索隱引顏師古近臣解暫作人物，比車耆按晉灼王號解暫作人物；離侯按同注山名解不作侯爵人物。左大將未按漢書補雙，屯頭王與韓王分存兩名候選，等三人不另造第三人；韓王不與漢初或戰國韓王合併。校尉敢接同段李敢，有氣敢任不標敢。邢山與封山為義陽侯同指，狼居胥山等地名的山不標人。孫吳兵法之孫吳保留未定作者指稱，尚未強定孫武、孫臏或吳起。",
       "第19段日期參考漢書同役元狩四年及封賞，暫前119年；符離／邳離、壯／杜、大庶長／左庶長、邢／衞、比／北各保留來源差異。大校授予原句是李敢等的群體敘述，保存具名成員李敢，不拆造其他人；當裨將只作職務用稱。比車耆之誅未強定個人死亡。第20段大司馬授予衛青與霍去病各一筆，同一原句不當兩份獨立來源。第21段侍中回顧用稱任期未定；人物性格與從軍敘事未強行全年定為前119年。",
-      "第22段名、字與謚稱分開；元狩六年與元封元年暫換算前117、前110年，軍後三年與居六歲保留原數不強改紀年。子嬗代侯記父子與承爵，少不作年齡或幼子排行。陳自長安至茂陵為冢象祁連山保存葬儀原語，未據象山形推葬祁連山，也未把路線地點作死地；墓址仍待明示材料另核。無子保留原文，未建立子女；希望將之不是已授官。"
+      "第22段名、字與謚稱分開；元狩六年與元封元年暫換算前117、前110年，軍後三年與居六歲保留原數不強改紀年。子嬗代侯記父子與承爵，少不作年齡或幼子排行。陳自長安至茂陵為冢象祁連山保存葬儀原語，未據象山形推葬祁連山，也未把路線地點作死地；墓址仍待明示材料另核。無子保留原文，未建立子女；希望將之不是已授官。",
+      "第23至25段：伉長子記兒子序號1，弟二人各記相對較伉年幼，不疑與登互序未定。三子為預設世系，褚補四子額外匿名宜春侯保留原ID與原始父子主張，暫不畫預設父系線、不合併伉。青卒依漢書元封五年暫前106年；伉宜春侯失侯依侯表元鼎元年暫前116年，不疑登同一酎金事件依表元鼎五年暫前112年，長平侯承爵依表太初元年暫前104年。六歲失侯不推終年；婚姻不作子女生母證據。嬗承爵修訂為侯表元鼎元年前116年，不自動承父卒年；正文六歲與表七年並存不強解。"
     ],
     "age_assertions": [
       {
@@ -4932,23 +4933,215 @@
     {
       "id": "c-shiji-111-wei-huo:p023",
       "text": "自驃騎將軍死後，大將軍長子宜春侯伉坐法失侯。後五歲，伉弟二人，陰安侯不疑及發干侯登皆坐酎金失侯。失侯後二歲，冠軍侯國除。其後四年，大將軍青卒，謚為烈侯。子伉代為長平侯。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m023-0001",
+          "start": 1,
+          "end": 5,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "宜春侯",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "伉",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "伉",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "陰安侯",
+          "kind": "person",
+          "person_id": "f13_3xd_9je",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "不疑",
+          "kind": "person",
+          "person_id": "f13_3xd_9je",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0037",
+          "start": 37,
+          "end": 40,
+          "surface": "發干侯",
+          "kind": "person",
+          "person_id": "tog_ili_awo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0040",
+          "start": 40,
+          "end": 41,
+          "surface": "登",
+          "kind": "person",
+          "person_id": "tog_ili_awo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0054",
+          "start": 54,
+          "end": 57,
+          "surface": "冠軍侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0065",
+          "start": 65,
+          "end": 68,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0073",
+          "start": 73,
+          "end": 75,
+          "surface": "烈侯",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0077",
+          "start": 77,
+          "end": 78,
+          "surface": "伉",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m023-0080",
+          "start": 80,
+          "end": 83,
+          "surface": "長平侯",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p024",
       "text": "自大將軍圍單于之後，十四年而卒。竟不復擊匈奴者，以漢馬少，而方南誅兩越，東伐朝鮮，擊羌、西南夷，以故久不伐胡。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m024-0001",
+          "start": 1,
+          "end": 4,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m024-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "rd7_cq6_rjs",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p025",
       "text": "大將軍以其得尚平陽長公主故，長平侯伉代侯。六歲，坐法失侯。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m025-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m025-0007",
+          "start": 7,
+          "end": 12,
+          "surface": "平陽長公主",
+          "kind": "person",
+          "person_id": "ov6_n6f_jka",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m025-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "長平侯",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m025-0017",
+          "start": 17,
+          "end": 18,
+          "surface": "伉",
+          "kind": "person",
+          "person_id": "2lq_elt_3ij",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p026",
