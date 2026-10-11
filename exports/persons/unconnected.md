@@ -2978,6 +2978,7 @@
 | `m9h_fg1_y58` | 駔（荼異母兄） | [《史記・齊太公世家》][14] | [JSON](m9h_fg1_y58.json) |
 | `m9l_x8u_wbq` | 放齊 | [《史記・五帝本紀》][1] | [JSON](m9l_x8u_wbq.json) |
 | `m9r_3qk_l9z` | 戾（叔孫氏臣） | [《史記・魯周公世家》][15] | [JSON](m9r_3qk_l9z.json) |
+| `ma3_01e_ip2` | 由余 | [《史記・匈奴列傳》][92] | [JSON](ma3_01e_ip2.json) |
 | `mag_1sz_m8r` | 武丁引古 | [《史記・屈原賈生列傳》][66] | [JSON](mag_1sz_m8r.json) |
 | `mag_s6n_b0c` | 廉頗 | [《史記・張釋之馮唐列傳》][84] | [JSON](mag_s6n_b0c.json) |
 | `man_e6c_86g` | 嚭 | [《史記・吳太伯世家》][13] | [JSON](man_e6c_86g.json) |
@@ -3949,6 +3950,7 @@
 | `thb_vkl_7xq` | 尹潘 | [《史記・樊酈滕灌列傳》][77] | [JSON](thb_vkl_7xq.json) |
 | `thg_zvp_v5y` | 戚夫人 | [《史記・呂太后本紀》][9] | [JSON](thg_zvp_v5y.json) |
 | `thi_bqo_x8d` | 申包胥 | [《史記・伍子胥列傳》][48] | [JSON](thi_bqo_x8d.json) |
+| `thx_toi_m04` | 秦穆公 | [《史記・匈奴列傳》][92] | [JSON](thx_toi_m04.json) |
 | `tib_iww_tkq` | 齊桓引古 | [《史記・屈原賈生列傳》][66] | [JSON](tib_iww_tkq.json) |
 | `tic_otw_oo2` | 孔父（宋弒君記事） | [《史記・宋微子世家》][20] | [JSON](tic_otw_oo2.json) |
 | `tid_ihl_36n` | 吳王夫差引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](tid_ihl_36n.json) |
