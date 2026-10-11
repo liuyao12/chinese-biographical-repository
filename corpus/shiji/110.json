@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前23段初標68名來源人物、304處人物及未定錨點、12筆親屬、48筆用稱、9筆死亡事件、3筆地址及13筆跨篇身份判讀。其餘38段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前24段初標76名來源人物、318處人物及未定錨點、12筆親屬、63筆用稱、10筆死亡事件、3筆地址及18筆跨篇身份判讀。其餘37段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -48,7 +48,8 @@
       "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。",
       "第16至17段以嵌套書信發話與受話承接人物，難氏與系雩淺由重引前書同指。意與肩只存官職所連姓名，不補姓氏；書信年份不作所述舊事日期，重引不視為獨立證據，兄弟之親不作血親。",
       "第18至20段稽粥父子與繼位各存，接頭曼父系但不補生母與排行；後頃之不換精確年。宗室女另存，不補生父。中行說之說按本段敘事定位，燕人按原文保存。",
-      "第21段為書式說明，帝與單于按文帝、老上單于敘事暫接，不補單一書信日期。第22至23段漢使對話可能為通例或多人，未建個人；父子兄弟後母為婚俗泛稱，不建立個人親屬或死亡。"
+      "第21段為書式說明，帝與單于按文帝、老上單于敘事暫接，不補單一書信日期。第22至23段漢使對話可能為通例或多人，未建個人；父子兄弟後母為婚俗泛稱，不建立個人親屬或死亡。",
+      "第24段保留本篇各爵官與授任，對讀本紀的不同軍職不覆寫；十四年只記初次入寇、任命與都尉卬死亡年，不套後續歲入邊。匿名當戶未接下一段具名使者，無死亡精確地點。"
     ]
   },
   "paragraphs": [
@@ -2975,9 +2976,136 @@
     {
       "id": "c-shiji-110-xiongnu:p024",
       "text": "漢孝文皇帝十四年，匈奴單于十四萬騎入朝那、蕭關，殺北地都尉卬，虜人民畜產甚多，遂至彭陽。使奇兵入燒回中宮，候騎至雍甘泉。於是文帝以中尉周舍、郎中令張武爲將軍，發車千乘，騎十萬，軍長安旁以備胡寇。而拜昌侯盧卿爲上郡將軍，甯侯魏遬爲北地將軍，隆慮侯周灶爲隴西將軍，東陽侯張相如爲大將軍，成侯董赤爲前將軍，大發車騎往擊胡。單于留塞內月餘乃去，漢逐出塞即還，不能有所殺。匈奴日已驕，歳入邊，殺略人民畜產甚多，雲中、遼東最甚，至代郡萬餘人。漢患之，乃使使遺匈奴書。單于亦使當戶報謝，復言和親事。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m024-0000",
+          "start": 0,
+          "end": 5,
+          "surface": "漢孝文皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0025",
+          "start": 25,
+          "end": 30,
+          "surface": "北地都尉卬",
+          "kind": "person",
+          "person_id": "dmh_per_l6k",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "周舍",
+          "kind": "person",
+          "person_id": "vhy_64a_31m",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0073",
+          "start": 73,
+          "end": 75,
+          "surface": "張武",
+          "kind": "person",
+          "person_id": "qiy_ole_lkx",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "盧卿",
+          "kind": "person",
+          "person_id": "tgy_187_vt8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "魏遬",
+          "kind": "person",
+          "person_id": "ikz_rkh_to9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0122",
+          "start": 122,
+          "end": 124,
+          "surface": "周灶",
+          "kind": "person",
+          "person_id": "bes_pqc_wor",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0133",
+          "start": 133,
+          "end": 136,
+          "surface": "張相如",
+          "kind": "person",
+          "person_id": "i5q_vkp_6h0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "董赤",
+          "kind": "person",
+          "person_id": "q21_dzc_dne",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0158",
+          "start": 158,
+          "end": 160,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0227",
+          "start": 227,
+          "end": 229,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m024-0231",
+          "start": 231,
+          "end": 233,
+          "surface": "當戶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p025",
