@@ -193,3 +193,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 平行事件參考的紀年若是另一篇古代正文明言，例如大宛列傳「是歲元朔六年也」，使用 `received_regnal_year_attestation`，與 `digital_editorial_regnal_year_equivalence_only` 的數位年標分開。兩者仍須和事件引句分列且連到同一參考 URL；原篇未明日期時保持 `date_expression: null`，數值換算及判讀理由另存。
 
 `reported_duration.unit: title_year` 保存「既侯三歲」等來源明記的持號年數，與君主在位的 `regnal_year` 分開。首批只用 `counting: unspecified_source_years`，原詞、數詞及人物證據俱存，不推定完整公曆年時長或任期終點。
+
+父子承爵原文僅稱「侯」時，可用 `inheritance` 保存獨立的暫定判讀，不擴寫 `title` 或用稱錨點。`predecessor_person_id` 與 `predecessor_holding_id` 指向有來源的父親及其爵位；`resolved_title` 必須等於該爵名，供使用端直接解析。`source_term`、`evidence`、`rationale` 保存承爵原語與理由，`status: contextual_provisional`、`human_reviewed: false`。目前驗證只接受 `noble_rank` 的 `accession`，須有同一承爵證據段落的父子陳述，不能按相同「侯」字跨人物匹配。日期、來源年數與國除事件仍各自保存，不能以計年差值倒改明示紀年。此欄位是編輯判讀，並非聲稱原文寫出完整爵名。

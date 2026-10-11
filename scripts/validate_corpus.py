@@ -411,6 +411,8 @@ def validate(root=ROOT):
                       and expression in date['original_quote'], '紀年換算原句未含本筆日期表述')
 
         title_ids=set();title_occurrence_ids=set()
+        title_records = {h['id']: h for path in (root/'corpus').glob('*/*-titles.json')
+                         for h in json.loads(path.read_text(encoding='utf-8'))['holdings']}
         for path in (root/'corpus').glob('*/*-titles.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='title_holding_assertion_set','稱號持有集類型不符')
@@ -448,6 +450,35 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'inheritance' in h:
+                    inheritance = h['inheritance']
+                    valid = isinstance(inheritance, dict) and set(inheritance) == {
+                        'predecessor_person_id', 'predecessor_holding_id', 'resolved_title',
+                        'source_term', 'status', 'evidence', 'rationale', 'human_reviewed'}
+                    if valid:
+                        predecessor = title_records.get(inheritance['predecessor_holding_id'])
+                        valid = (h['kind'] == 'noble_rank' and h['mode'] == 'accession'
+                            and bool(predecessor) and predecessor['kind'] == 'noble_rank'
+                            and predecessor['person_id'] == inheritance['predecessor_person_id']
+                            and predecessor['person_id'] != h['person_id']
+                            and predecessor['title'] == inheritance['resolved_title']
+                            and inheritance['status'] == 'contextual_provisional'
+                            and inheritance['human_reviewed'] is False
+                            and bool(inheritance['rationale'])
+                            and isinstance(inheritance['source_term'], str)
+                            and bool(inheritance['source_term'])
+                            and isinstance(inheritance['evidence'], list) and bool(inheritance['evidence'])
+                            and all(inheritance['source_term'] in e.get('quote', '')
+                                    for e in inheritance['evidence'])
+                            and any(a['predicate'] == 'father'
+                                    and a['subject_person_id'] == h['person_id']
+                                    and a['object_person_id'] == predecessor['person_id']
+                                    and any(e['paragraph_id'] == ie.get('paragraph_id')
+                                            for e in a['evidence'] for ie in inheritance['evidence'])
+                                    for a in family_relations))
+                    check(valid, '承爵判讀缺少相符的前任爵位、父子或原詞證據')
+                    if valid:
+                        for e in inheritance['evidence']:title_evidence(e)
                 if 'reported_duration' in h:
                     duration=h['reported_duration']
                     valid=isinstance(duration,dict) and set(duration)=={'value','unit','source_term','source_number','counting','status','evidence'}

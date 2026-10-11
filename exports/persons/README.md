@@ -902,6 +902,15 @@
 
 </details>
 
+<details><summary><code>aqs_iqa_d1l</code> 霍去病（衛將軍驃騎列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 霍去病 | [《史記・衛將軍驃騎列傳》][93] | [JSON](aqs_iqa_d1l.json) |
+| `A` | 嬗 | [《史記・衛將軍驃騎列傳》][93] | [JSON](aqs_iqa_d1l_A.json) |
+
+</details>
+
 <details><summary><code>ath_xsq_n4i</code> 魯定公（11 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
