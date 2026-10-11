@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；前17段50名來源候選、299處人物及未定錨點、5筆地址、10筆親屬、89筆官爵秩稱與敘事用稱及9筆死亡事件。其餘3段、其他日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄；前18段53名來源候選、307處人物及未定錨點、5筆地址、14筆親屬、89筆官爵秩稱與敘事用稱及11筆死亡事件。其餘2段、其他日期與跨篇同指待標註。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
@@ -54,7 +54,8 @@
       "遺腹子保存結構化標記，有親保存未定親屬，愛幸不自動記配偶。",
       "李蔡廣死明年暫依李廣卒年換前118年，其他相對日期未定；去病未補外部姓氏。",
       "第16段明記李陵全名，承接前段當戸遺腹子；使將八百騎不另作將軍官爵。",
-      "第17段貳師為李廣利本段短稱；天漢二年秋只作本次用稱日期，數字換年待核，不將較早同稱單于或右賢王合併。"
+      "第17段貳師為李廣利本段短稱；天漢二年秋只作本次用稱日期，數字換年待核，不將較早同稱單于或右賢王合併。",
+      "族陵母妻子之子保留未定人數群體，不補姓名或獨子；單于女與在漢妻分存候選。族誅年月未明，不承用天漢二年秋。"
     ]
   },
   "paragraphs": [
@@ -2888,9 +2889,82 @@
     {
       "id": "c-shiji-109-liguang:p018",
       "text": "單于既得陵，素聞其家聲，及戰又壯，乃以其女妻陵而貴之。漢聞，族陵母妻子。自是之後，李氏名敗，而隴西之士居門下者皆用爲恥焉。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m018-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "x9i_8zv_ker",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0004",
+          "start": 4,
+          "end": 5,
+          "surface": "陵",
+          "kind": "person",
+          "person_id": "wdz_85c_o7f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "女",
+          "kind": "person",
+          "person_id": "6xb_wy5_4u8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "陵",
+          "kind": "person",
+          "person_id": "wdz_85c_o7f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0031",
+          "start": 31,
+          "end": 32,
+          "surface": "陵",
+          "kind": "person",
+          "person_id": "wdz_85c_o7f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0032",
+          "start": 32,
+          "end": 33,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "dii_rtq_23m",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0033",
+          "start": 33,
+          "end": 34,
+          "surface": "妻",
+          "kind": "person",
+          "person_id": "srg_5v7_b3r",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m018-0034",
+          "start": 34,
+          "end": 35,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p019",

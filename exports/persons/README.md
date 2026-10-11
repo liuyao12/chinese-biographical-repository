@@ -2379,6 +2379,15 @@
 
 </details>
 
+<details><summary><code>x9i_8zv_ker</code> 天漢二年單于（未名）（李將軍列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 天漢二年單于（未名） | [《史記・李將軍列傳》][91] | [JSON](x9i_8zv_ker.json) |
+| `A` | 單于女（李陵配偶，未名） | [《史記・李將軍列傳》][91] | [JSON](x9i_8zv_ker_A.json) |
+
+</details>
+
 <details><summary><code>xcr_p13_j7x</code> 甘茂（樗里子甘茂列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
