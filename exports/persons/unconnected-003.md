@@ -6,6 +6,21 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `us4_wc1_gnr` | 奚齊 | [《史記・鄭世家》][24] | [JSON](us4_wc1_gnr.json) |
+| `usb_mt6_egg` | 史舉 | [《史記・樗里子甘茂列傳》][53] | [JSON](usb_mt6_egg.json) |
+| `usk_ybs_z1y` | 桓子（田文子對話稱） | [《史記・齊太公世家》][14] | [JSON](usk_ybs_z1y.json) |
+| `uss_tkl_hqe` | 管至父 | [《史記・鄭世家》][24] | [JSON](uss_tkl_hqe.json) |
+| `usu_jat_0ky` | 燕王喜 | [《史記・燕召公世家》][16] | [JSON](usu_jat_0ky.json) |
+| `usv_vhb_ltw` | 孝公（燕獻公後） | [《史記・燕召公世家》][16] | [JSON](usv_vhb_ltw.json) |
+| `ut1_rtj_ckz` | 楚惠王 | [《史記・伍子胥列傳》][48] | [JSON](ut1_rtj_ckz.json) |
+| `ut6_wbc_3ca` | 黃霸 | [《史記・平津侯主父列傳》][94] | [JSON](ut6_wbc_3ca.json) |
+| `ut8_ibh_dll` | 薛澤 | [《史記・韓長孺列傳》][90] | [JSON](ut8_ibh_dll.json) |
+| `utj_s5y_tae` | 毛叔鄭 | [《史記・周本紀》][4] | [JSON](utj_s5y_tae.json) |
+| `uum_4gg_y9d` | 春申君 | [《史記・春申君列傳》][60] | [JSON](uum_4gg_y9d.json) |
+| `uvb_oh6_dx1` | 平津侯 | [《史記・三王世家》][42] | [JSON](uvb_oh6_dx1.json) |
+| `uvj_ezk_crm` | 武臣姊未名 | [《史記・張耳陳餘列傳》][71] | [JSON](uvj_ezk_crm.json) |
+| `uw3_qbv_8o0` | 義渠君 | [《史記・張儀列傳》][52] | [JSON](uw3_qbv_8o0.json) |
+| `uw6_a0a_tjp` | 范增 | [《史記・項羽本紀》][7] | [JSON](uw6_a0a_tjp.json) |
 | `uw8_ozw_5ux` | 齊太史少弟（復書獲免未名） | [《史記・齊太公世家》][14] | [JSON](uw8_ozw_5ux.json) |
 | `uwb_l4e_1vn` | 武王 | [《史記・蘇秦列傳》][51] | [JSON](uwb_l4e_1vn.json) |
 | `ux0_nvd_s8f` | 韓太子奐 | [《史記・秦本紀》][5] | [JSON](ux0_nvd_s8f.json) |
@@ -126,7 +141,7 @@
 | `voy_rog_jbw` | 昭王 | [《史記・周本紀》][4] | [JSON](voy_rog_jbw.json) |
 | `vp2_qeq_33j` | 楚王書信 | [《史記・蘇秦列傳》][51] | [JSON](vp2_qeq_33j.json) |
 | `vp6_3oo_dqh` | 太史公 | [《史記・田叔列傳》][86] | [JSON](vp6_3oo_dqh.json) |
-| `vpa_634_wf3` | 楊仆 | [《史記・南越列傳》][95] | [JSON](vpa_634_wf3.json) |
+| `vpa_634_wf3` | 楊仆 | [《史記・朝鮮列傳》][97] | [JSON](vpa_634_wf3.json) |
 | `vqb_tym_qti` | 魏長吏 | [《史記・穰侯列傳》][54] | [JSON](vqb_tym_qti.json) |
 | `vqd_bze_fwa` | 賈季（議立公子樂者） | [《史記・晉世家》][21] | [JSON](vqd_bze_fwa.json) |
 | `vqs_vxf_0gt` | 宋孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](vqs_vxf_0gt.json) |
@@ -532,6 +547,7 @@
 | `yk4_ms3_oy7` | 孟嘗君（楚篇田嬰子） | [《史記・楚世家》][22] | [JSON](yk4_ms3_oy7.json) |
 | `yka_hay_sdj` | 任敖 | [《史記・張丞相列傳》][78] | [JSON](yka_hay_sdj.json) |
 | `ykk_635_9eq` | 子思 | [《史記・孟子荀卿列傳》][56] | [JSON](ykk_635_9eq.json) |
+| `ykt_rg0_cl9` | 盧綰 | [《史記・朝鮮列傳》][97] | [JSON](ykt_rg0_cl9.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][56] | [JSON](ykw_i8p_jh3.json) |
 | `ykz_dyf_q7h` | 田忌 | [《史記・秦始皇本紀》][6] | [JSON](ykz_dyf_q7h.json) |
 | `yl3_vu7_xc8` | 周公旦（引古） | [《史記・蒙恬列傳》][70] | [JSON](yl3_vu7_xc8.json) |
@@ -795,6 +811,7 @@
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
 [70]: https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690
+[71]: https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143
 [72]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
 [74]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147
@@ -819,3 +836,4 @@
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
+[97]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220

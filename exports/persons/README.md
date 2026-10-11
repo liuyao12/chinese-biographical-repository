@@ -1206,6 +1206,16 @@
 
 </details>
 
+<details><summary><code>f41_ulg_3u1</code> 滿（朝鮮列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 滿 | [《史記・朝鮮列傳》][97] | [JSON](f41_ulg_3u1.json) |
+| `*A` | 右渠 | [《史記・朝鮮列傳》][97] | [JSON](f41_ulg_3u1_%2AA.json) |
+| `*AA` | 長降 | [《史記・朝鮮列傳》][97] | [JSON](f41_ulg_3u1_%2AAA.json) |
+
+</details>
+
 <details><summary><code>f4l_jyl_oqv</code> 嬰齊（南越列傳候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2951,6 +2961,15 @@
 
 </details>
 
+<details><summary><code>z9d_qn5_wg8</code> 路人（朝鮮列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 路人 | [《史記・朝鮮列傳》][97] | [JSON](z9d_qn5_wg8.json) |
+| `A` | 最 | [《史記・朝鮮列傳》][97] | [JSON](z9d_qn5_wg8_A.json) |
+
+</details>
+
 <details><summary><code>zan_qcc_jy5</code> 陳文公（田世家候選）（19 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3120,3 +3139,4 @@
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
+[97]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
