@@ -161,3 +161,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 未決身份案例的 `paragraph_ids` 可列本篇未決用稱及其他已收錄篇的候選身份證據，但至少須有一段屬於本篇；每位候選都須在所列原文段落有已標註提及。外篇引用不構成同指決定，候選仍不合併。
 
 官職資料可用 `appointment_role: acting` 明標來源所述代理職務，例如「行丞相事」；這與來源用稱的 `mode: attestation` 分開，使用端不必靠自然語言推定代理性質。缺少此欄位不自動表示正式實任。
+
+## 生卒事件
+
+`108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。

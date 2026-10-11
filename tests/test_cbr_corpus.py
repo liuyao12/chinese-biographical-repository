@@ -24,6 +24,15 @@ class CorpusTests(unittest.TestCase):
     def test_unresolved_case_requires_candidate_support(self):
         self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0].update(paragraph_ids=['c-shiji-108-han:p006']))
         self.assertIn('未決身份缺少各候選人物的段落證據', v.validate(self.root))
+    def test_life_event_cannot_use_other_person_anchor(self):
+        self.change('corpus/shiji/108-life-events.json', lambda d: d['events'][1]['evidence'][0].update(person_mention_id='c-shiji-108-han:m011-0000'))
+        self.assertIn('生卒事件人物錨點不符', v.validate(self.root))
+    def test_life_event_cannot_invent_unknown_date(self):
+        self.change('corpus/shiji/108-life-events.json', lambda d: d['events'][1].update(normalized_date=d['events'][0]['normalized_date']))
+        self.assertIn('生卒數字紀年缺原日期表述', v.validate(self.root))
+    def test_life_event_requires_quoted_date(self):
+        self.change('corpus/shiji/108-life-events.json', lambda d: d['events'][0].update(date_expression='元朔三年'))
+        self.assertIn('生卒日期未見於事件引句', v.validate(self.root))
     def test_registry_cannot_omit_a_received_person_mention(self):
         def mutate(d):
             person = next(p for p in d['persons'] if len(p['evidence']) > 2)
