@@ -6,7 +6,7 @@
 
 出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。
 
-漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。
+漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
 
 點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。舊 ID 與 JSON 入口保留為別名；索引只計現行人物。
 
@@ -1240,6 +1240,15 @@
 
 </details>
 
+<details><summary><code>fwk_g2h_l3r</code> 燕王未名（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 燕王未名 | [《史記・魏其武安侯列傳》][89] | [JSON](fwk_g2h_l3r.json) |
+| `A` | 燕王女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](fwk_g2h_l3r_A.json) |
+
+</details>
+
 <details><summary><code>g9h_5ih_ug1</code> 伍奢（伍胥列傳候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1331,6 +1340,15 @@
 |---|---|---|---|
 | `根` | 田叔 | [《史記・田叔列傳》][86] | [JSON](gyt_axg_s7t.json) |
 | `A` | 田仁 | [《史記・田叔列傳》][86] | [JSON](gyt_axg_s7t_A.json) |
+
+</details>
+
+<details><summary><code>h1w_44g_vef</code> 張孟（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 張孟 | [《史記・魏其武安侯列傳》][89] | [JSON](h1w_44g_vef.json) |
+| `A` | 灌夫 | [《史記・魏其武安侯列傳》][89] | [JSON](h1w_44g_vef_A.json) |
 
 </details>
 
@@ -1748,6 +1766,16 @@
 |---|---|---|---|
 | `根` | 增 | [《史記・魏世家》][26] | [JSON](nfj_6w2_8mn.json) |
 | `A` | 假 | [《史記・魏世家》][26] | [JSON](nfj_6w2_8mn_A.json) |
+
+</details>
+
+<details><summary><code>nuf_tb9_fjs</code> 竇嬰父未名（魏其武安侯列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 竇嬰父未名 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs.json) |
+| `A` | 竇嬰 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs_A.json) |
+| `AA` | 竇嬰子未名 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs_AA.json) |
 
 </details>
 
@@ -2189,6 +2217,15 @@
 
 </details>
 
+<details><summary><code>ubk_etq_ksp</code> 田蚡（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 田蚡 | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp.json) |
+| `A` | 恬（田蚡子） | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp_A.json) |
+
+</details>
+
 <details><summary><code>uei_vr9_n3j</code> 竇長君（絳侯周勃世家候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2619,12 +2656,13 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（110 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（111 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 太公（漢王父稱） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p.json) |
 | `A` | 沛公（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p_A.json) |
+| `A*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](yqp_nlb_p1p_A%2AA.json) |
 | `AA` | 孝惠（本卷稱呼） | [《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AA.json) |
 | `AB` | 劉肥 | [《史記・齊悼惠王世家》][34] | [JSON](yqp_nlb_p1p_AB.json) |
 | `ABA` | 齊哀王（本卷未名） | [《史記・齊悼惠王世家》][34] | [JSON](yqp_nlb_p1p_ABA.json) |
@@ -2917,3 +2955,4 @@
 [86]: https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534
 [87]: https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726
 [88]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
+[89]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571

@@ -480,6 +480,20 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/101-titles.json', mutate)
         self.assertTrue(any('本筆事件證據' in e for e in v.validate(self.root)))
 
+    def test_title_usage_year_rejects_bce_numbering_error(self):
+        def mutate(d):
+            h = next(h for h in d['holdings'] if h['title'] == '主爵都尉')
+            h['attestations'][0]['normalized_date']['year'] = -131
+        self.change('corpus/shiji/107-titles.json', mutate)
+        self.assertTrue(any('天文年' in e for e in v.validate(self.root)))
+
+    def test_title_usage_year_requires_its_own_source_quote(self):
+        def mutate(d):
+            h = next(h for h in d['holdings'] if h['title'] == '主爵都尉')
+            h['attestations'][0]['normalized_date']['original_quote'] = '元朔三年'
+        self.change('corpus/shiji/107-titles.json', mutate)
+        self.assertTrue(any('本筆事件證據' in e for e in v.validate(self.root)))
+
     def test_posthumous_huainan_title_of_son_is_not_the_father(self):
         d = json.loads((self.root/'corpus/shiji/010.json').read_text())
         m = next(m for p in d['paragraphs'] for m in p['mentions'] if m['id'] == 'c-shiji-010-wendi:m023-0149')

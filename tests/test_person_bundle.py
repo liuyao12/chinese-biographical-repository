@@ -384,3 +384,12 @@ class PersonBundleTests(unittest.TestCase):
         origin = next(a for a in result['address_assertions'] if a['relation'] == 'native_place')
         self.assertEqual(origin['place']['source_name'], '滎陽')
         self.assertIsNone(origin['place']['modern_identification'])
+
+    def test_usage_year_includes_earlier_chronological_context(self):
+        result = bundle('284_zc9_6fx')
+        passages = {p['id']: p for p in result['passages']}
+        self.assertIn('c-shiji-107-weiqi:p019', passages)
+        h = next(h for h in result['title_holdings'] if h['title'] == '主爵都尉')
+        for evidence in h['attestations'][0]['normalized_date']['evidence']:
+            self.assertEqual(evidence['quote'], passages[evidence['paragraph_id']]['text'])
+        self.assertEqual(h['effective_period']['start']['status'], 'unknown')
