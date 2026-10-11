@@ -15,6 +15,12 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_posthumous_child_requires_received_term(self):
+        self.change('corpus/shiji/109-assertions.json', lambda d: next(a for a in d['assertions'] if a['id'] == 'a-shiji109-007')['qualifiers'].update(source_term='當戸子陵'))
+        self.assertIn('遺腹子欄位須有父親與原詞證據', v.validate(self.root))
+    def test_unspecified_kinship_cannot_gain_agnatic_structure(self):
+        self.change('corpus/shiji/109-assertions.json', lambda d: next(a for a in d['assertions'] if a['id'] == 'a-shiji109-010')['qualifiers'].update(kinship_structure={'lineage': 'paternal'}))
+        self.assertIn('未定親屬不得補具體親等', v.validate(self.root))
     def test_life_date_context_cannot_skip_a_paragraph(self):
         self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang')['date_context'].update(paragraph_ids=['c-shiji-109-liguang:p012', 'c-shiji-109-liguang:p014']))
         self.assertIn('生卒紀年承接須有連續同篇段落與首段日期', v.validate(self.root))
