@@ -18,6 +18,9 @@ class CorpusTests(unittest.TestCase):
     def test_stepmother_requires_received_term(self):
         self.change('corpus/shiji/110-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'stepmother')['qualifiers'].update(source_term='母'))
         self.assertIn('後母關係須有原詞證據', v.validate(self.root))
+    def test_accession_requires_matching_start_event(self):
+        self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if h['mode'] == 'accession')['effective_period']['start'].update(event_type='grant'))
+        self.assertIn('稱號起點與事件種類不符', v.validate(self.root))
     def test_posthumous_child_requires_received_term(self):
         self.change('corpus/shiji/109-assertions.json', lambda d: next(a for a in d['assertions'] if a['id'] == 'a-shiji109-007')['qualifiers'].update(source_term='當戸子陵'))
         self.assertIn('遺腹子欄位須有父親與原詞證據', v.validate(self.root))

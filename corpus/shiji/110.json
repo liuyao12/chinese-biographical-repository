@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前17段初標65名來源人物、257處人物及未定錨點、10筆親屬、41筆用稱、8筆死亡事件、2筆死亡地點及13筆跨篇身份判讀。其餘44段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前20段初標68名來源人物、278處人物及未定錨點、12筆親屬、46筆用稱、9筆死亡事件、3筆地址及13筆跨篇身份判讀。其餘41段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -46,7 +46,8 @@
       "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。",
       "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。",
       "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。",
-      "第16至17段以嵌套書信發話與受話承接人物，難氏與系雩淺由重引前書同指。意與肩只存官職所連姓名，不補姓氏；書信年份不作所述舊事日期，重引不視為獨立證據，兄弟之親不作血親。"
+      "第16至17段以嵌套書信發話與受話承接人物，難氏與系雩淺由重引前書同指。意與肩只存官職所連姓名，不補姓氏；書信年份不作所述舊事日期，重引不視為獨立證據，兄弟之親不作血親。",
+      "第18至20段稽粥父子與繼位各存，接頭曼父系但不補生母與排行；後頃之不換精確年。宗室女另存，不補生父。中行說之說按本段敘事定位，燕人按原文保存。"
     ]
   },
   "paragraphs": [
@@ -2502,23 +2503,215 @@
     {
       "id": "c-shiji-110-xiongnu:p018",
       "text": "後頃之，冒頓死，子稽粥立，號曰老上單于。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m018-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m018-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "稽粥",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m018-0015",
+          "start": 15,
+          "end": 19,
+          "surface": "老上單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p019",
       "text": "老上稽粥單于初立，孝文皇帝復遣宗室女公主爲單于閼氏，使宦者燕人中行說傅公主。說不欲行，漢彊使之。說曰：「必我行也，爲漢患者。」中行說既至，因降單于，單于甚親幸之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m019-0000",
+          "start": 0,
+          "end": 6,
+          "surface": "老上稽粥單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0009",
+          "start": 9,
+          "end": 13,
+          "surface": "孝文皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0015",
+          "start": 15,
+          "end": 20,
+          "surface": "宗室女公主",
+          "kind": "person",
+          "person_id": "m8r_yw1_r4b",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "m8r_yw1_r4b",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "宦者",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0031",
+          "start": 31,
+          "end": 34,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0035",
+          "start": 35,
+          "end": 37,
+          "surface": "公主",
+          "kind": "person",
+          "person_id": "m8r_yw1_r4b",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0038",
+          "start": 38,
+          "end": 39,
+          "surface": "說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0048",
+          "start": 48,
+          "end": 49,
+          "surface": "說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0063",
+          "start": 63,
+          "end": 66,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0071",
+          "start": 71,
+          "end": 73,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m019-0074",
+          "start": 74,
+          "end": 76,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p020",
       "text": "初，匈奴好漢繒絮食物，中行說曰：「匈奴人眾不能當漢之一郡，然所以彊者，以衣食異，無仰於漢也。今單于變俗好漢物，漢物不過什二，則匈奴盡歸於漢矣。其得漢繒絮，以馳草棘中，衣袴皆裂敝，以示不如旃裘之完善也。得漢食物皆去之，以示不如湩酪之便美也。」於是說教單于左右疏記，以計課其人眾畜物。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m020-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m020-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m020-0122",
+          "start": 122,
+          "end": 123,
+          "surface": "說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m020-0124",
+          "start": 124,
+          "end": 126,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m020-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "左右",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p021",

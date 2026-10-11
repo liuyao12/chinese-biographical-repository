@@ -395,7 +395,7 @@ def validate(root=ROOT):
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
-                check(h['mode'] in ('grant','self_proclamation','demotion','attestation'),'稱號事件種類無效')
+                check(h['mode'] in ('grant','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
                 def title_evidence(e):
                     hit=paragraphs.get(e['paragraph_id'])
@@ -463,7 +463,7 @@ def validate(root=ROOT):
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
                     else:
                         check(bool(boundary['evidence']),'稱號時段事件缺少證據')
-                        allowed=('grant','self_proclamation','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
+                        allowed=('grant','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
                         check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']
