@@ -1361,6 +1361,15 @@
 
 </details>
 
+<details><summary><code>fdb_6pb_gux</code> 蒯聵（太史公自序候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 蒯聵 | [《史記・太史公自序》][112] | [JSON](fdb_6pb_gux.json) |
+| `***A` | 司馬卬 | [《史記・太史公自序》][112] | [JSON](fdb_6pb_gux_%2A%2A%2AA.json) |
+
+</details>
+
 <details><summary><code>fea_it8_9n7</code> 韓厥（韓世家獻子候選）（14 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2103,6 +2112,20 @@
 |---|---|---|---|
 | `根` | 觸龍 | [《史記・趙世家》][25] | [JSON](pj3_k53_wtj.json) |
 | `A` | 舒祺 | [《史記・趙世家》][25] | [JSON](pj3_k53_wtj_A.json) |
+
+</details>
+
+<details><summary><code>pme_eis_xqi</code> 司馬錯（太史公自序候選）（7 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 司馬錯 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi.json) |
+| `*A` | 司馬靳 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA.json) |
+| `*A*A` | 司馬昌 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA%2AA.json) |
+| `*A*AA` | 司馬無澤 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA%2AAA.json) |
+| `*A*AAA` | 司馬喜 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA%2AAAA.json) |
+| `*A*AAAA` | 司馬談 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA%2AAAAA.json) |
+| `*A*AAAAA` | 司馬遷 | [《史記・太史公自序》][112] | [JSON](pme_eis_xqi_%2AA%2AAAAAA.json) |
 
 </details>
 
@@ -3354,3 +3377,4 @@
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994
 [107]: https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599
 [108]: https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358
+[112]: https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362
