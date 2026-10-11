@@ -94,3 +94,9 @@ Compare incoming source corrections with the saved unannotated baseline and our 
 The seed annotations and events are proposals, not independently human-reviewed facts. No historical jurisdiction geometry is included. ctext XML support is raw staging/inspection only; submit a legally reusable real export fixture and its provenance before adding semantic mapping. Never commit API tokens or third-party data with unresolved redistribution rights.
 
 傳世正文整理以命名實體、關係與稱號的原文錨點為先。現代研究可記為書目參考，不要求先驗證其論證，亦不因此阻擋正文標註。若另採學者判讀，須與正文直接主張分開記錄。
+
+## 各國父系世系與時代姓名習慣
+
+各國宗室按來源父系關係整理連續世系，代數不限；同一父系的支系共用根 ID，不因國別、封國或改朝截斷。更換統治家族則分列，有共同父系證據才連接。遠祖傳說、同姓與繼位順序不單獨證明血親；缺代保留 `*`、原文及未知中間人物，不補造父親。
+
+來源用稱保持原文。人物顯示名按該時代有據的習慣選定，不批量加姓，不因家族根或國別生成姓名；先秦姓、氏、名、國名與爵號分層辨別，非漢語姓名不機械拆分。需消歧時另列有來源的稱號或辨識標籤，與原文錨點分開。
