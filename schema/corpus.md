@@ -168,4 +168,6 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 生卒事件
 
+親屬陳述可用 `qualifiers.posthumous_birth: true` 保存明示「遺腹子」，父親端點與原詞必須存在；不補出生年或母親。`kinship_unspecified` 保存「有親」但未明種類的親屬陳述，不指定親等、父系或姻親，也不能作家族組裝的父子證據。
+
 `108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。

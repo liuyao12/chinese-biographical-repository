@@ -482,9 +482,16 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'posthumous_birth' in qualifiers:
+                    check(a['predicate'] == 'father' and qualifiers['posthumous_birth'] is True
+                          and '遺腹' in qualifiers.get('source_term', ''), '遺腹子欄位須有父親與原詞證據')
+                if a['predicate'] == 'kinship_unspecified':
+                    check(qualifiers.get('source_term') == '有親' and not qualifiers.get('kinship_structure')
+                          and any('有親' in e.get('quote', '') for e in a['evidence']),
+                          '未定親屬不得補具體親等')
                 if 'kinship_structure' in qualifiers:
                     structure = qualifiers['kinship_structure']
                     check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')

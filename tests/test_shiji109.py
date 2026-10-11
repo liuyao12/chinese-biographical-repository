@@ -6,6 +6,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class LiGuangSourceTests(unittest.TestCase):
+    def test_ling_name_does_not_consume_decline_expression(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/109.json').read_text())
+        paragraph = chapter['paragraphs'][14]
+        anchors = [m for m in paragraph['mentions'] if m['person_id'] == 'wdz_85c_o7f']
+        self.assertEqual(len(anchors), 1)
+        self.assertEqual(paragraph['text'][anchors[0]['start'] - 1:anchors[0]['end']], '名陵')
+
     def test_wang_shuo_anchor_does_not_consume_era_name(self):
         chapter = json.loads((ROOT / 'corpus/shiji/109.json').read_text())
         paragraph = chapter['paragraphs'][10]
