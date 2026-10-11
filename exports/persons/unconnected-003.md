@@ -43,7 +43,7 @@
 | `wbr_1v1_sld` | 魯哀公 | [《史記・孔子世家》][29] | [JSON](wbr_1v1_sld.json) |
 | `wbt_5vf_2pz` | 病疽卒母 | [《史記・孫子吳起列傳》][47] | [JSON](wbt_5vf_2pz.json) |
 | `wd1_1f4_qgv` | 李左車 | [《史記・淮陰侯列傳》][74] | [JSON](wd1_1f4_qgv.json) |
-| `wdc_jgr_uiu` | 趙信 | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](wdc_jgr_uiu.json) |
+| `wdc_jgr_uiu` | 趙信 | [《史記・衛將軍驃騎列傳》][93] | [JSON](wdc_jgr_uiu.json) |
 | `wdg_4ld_nde` | 縣成 | [《史記・仲尼弟子列傳》][49] | [JSON](wdg_4ld_nde.json) |
 | `wdn_b4z_o7p` | 潘滿如 | [《史記・扁鵲倉公列傳》][87] | [JSON](wdn_b4z_o7p.json) |
 | `wdr_m9a_k1r` | 辛甲 | [《史記・周本紀》][4] | [JSON](wdr_m9a_k1r.json) |
@@ -486,7 +486,7 @@
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][12] | [JSON](zg6_76t_xid.json) |
 | `zg8_rjh_2jl` | 主父沙丘 | [《史記・范睢蔡澤列傳》][61] | [JSON](zg8_rjh_2jl.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](zgm_3w8_12c.json) |
-| `zgr_95l_8z4` | 趙食其 | [《史記・李將軍列傳》][91]、[《史記・衛將軍驃騎列傳》][93] | [JSON](zgr_95l_8z4.json) |
+| `zgr_95l_8z4` | 趙食其 | [《史記・衛將軍驃騎列傳》][93] | [JSON](zgr_95l_8z4.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][32] | [JSON](zh2_5e4_ikn.json) |
 | `zht_ze7_m2d` | 山／義／弘（後少帝） | [《史記・呂太后本紀》][9] | [JSON](zht_ze7_m2d.json) |
 | `zi3_x31_9g6` | 周聚 | [《史記・陳涉世家》][30] | [JSON](zi3_x31_9g6.json) |

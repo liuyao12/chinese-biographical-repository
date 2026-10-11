@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][93] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][24] | [JSON](g0f_lnq_gkm.json) |
 | `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][5] | [JSON](g0o_7tz_csx.json) |
@@ -896,7 +897,7 @@
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][68] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][28] | [JSON](mf2_tm7_f9r.json) |
 | `mfd_hor_95c` | 楚王信 | [《史記・傅靳蒯成列傳》][80] | [JSON](mfd_hor_95c.json) |
-| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](mfr_nye_lnv.json) |
+| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・衛將軍驃騎列傳》][93] | [JSON](mfr_nye_lnv.json) |
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][24] | [JSON](mfu_22v_exx.json) |
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][30] | [JSON](mgj_ry7_2x5.json) |
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][77] | [JSON](mgl_q57_d7h.json) |
@@ -1153,7 +1154,7 @@
 | `obz_kz0_ohb` | 王子城父 | [《史記・齊太公世家》][14]、[《史記・魯周公世家》][15] | [JSON](obz_kz0_ohb.json) |
 | `och_1lh_hgs` | 陳豨 | [《史記・傅靳蒯成列傳》][80] | [JSON](och_1lh_hgs.json) |
 | `ocj_6o3_ax8` | 平原君引述 | [《史記・呂不韋列傳》][67] | [JSON](ocj_6o3_ax8.json) |
-| `ocq_qf7_m3w` | 食其（右將軍） | [《史記・李將軍列傳》][91]、[《史記・衛將軍驃騎列傳》][93] | [JSON](ocq_qf7_m3w.json) |
+| `ocq_qf7_m3w` | 食其（右將軍） | [《史記・衛將軍驃騎列傳》][93] | [JSON](ocq_qf7_m3w.json) |
 | `ocv_s0f_djg` | 李蔡 | [《史記・李將軍列傳》][91] | [JSON](ocv_s0f_djg.json) |
 | `odj_0jk_o2z` | 外丙 | [《史記・殷本紀》][3] | [JSON](odj_0jk_o2z.json) |
 | `odm_1yx_6o6` | 齊靈公 | [《史記・齊太公世家》][14] | [JSON](odm_1yx_6o6.json) |
