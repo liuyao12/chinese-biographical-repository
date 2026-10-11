@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全篇15段轉錄；前8段24名來源候選、152處人物及未定錨點、4筆親屬、7筆地址、23筆官爵及秩稱。其餘7段待標註。",
+    "coverage": "全篇15段轉錄；前10段29名來源候選、200處人物及未定錨點、4筆親屬、7筆地址、34筆官爵及秩稱。其餘5段待標註。",
     "limitations": [
       "未核底本影像。",
       "田生不因師授韓子而改名韓非；韓子、雜家此處為所受學說，非確定人物提及。",
@@ -42,7 +42,10 @@
       "漢使十輩、刺客與臣群尚未個別辨識。",
       "第六段太后保留王、竇兩候選；第八段單于未補外部姓名。",
       "死罪囚的人數與身份未明，不與詐稱馬邑長吏同指。",
-      "建元六年授任年暫換前135年，原句及參考保留，不補公曆月日。"
+      "建元六年授任年暫換前135年，原句及參考保留，不補公曆月日。",
+      "第九段當是時承接元光馬邑敘事；授將軍暫未單獨正規化紀年，待核來源年代分歧。",
+      "王恢自殺不自動作大行或將屯將軍任期終點。",
+      "廷尉可為司法機構或未名官員，暫保留未定錨點。"
     ],
     "unresolved_identity_cases": [
       {
@@ -1499,16 +1502,452 @@
     {
       "id": "c-shiji-108-han:p009",
       "text": "當是時，漢伏兵車騎材官二十餘萬，匿馬邑旁谷中。衞尉李廣爲驍騎將軍，太仆公孫賀爲輕車將軍，大行王恢爲將屯將軍，太中大夫李息爲材官將軍。御史大夫韓安國爲護軍將軍，諸將皆屬護軍。約單于入馬邑而漢兵縱發。王恢、李息、李廣別從代主擊其輜重。於是單于入漢長城武州塞。未至馬邑百餘里，行掠鹵，徒見畜牧於野，不見一人。單于怪之，攻烽燧，得武州尉史。欲刺問尉史。尉史曰：「漢兵數十萬伏馬邑下。」單于顧謂左右曰：「幾爲漢所賣！」乃引兵還。出塞，曰：「吾得尉史，乃天也。」命尉史爲「天王」。塞下傳言單于已引去。漢兵追至塞，度弗及，即罷。王恢等兵三萬，聞單于不與漢合，度往擊輜重，必與單于精兵戰，漢兵勢必敗，則以便宜罷兵，皆無功。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m009-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "njk_tl0_6h9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0035",
+          "start": 35,
+          "end": 38,
+          "surface": "公孫賀",
+          "kind": "person",
+          "person_id": "kwn_v70_fse",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "李息",
+          "kind": "person",
+          "person_id": "tmv_5d7_bx2",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0070",
+          "start": 70,
+          "end": 73,
+          "surface": "韓安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0101",
+          "start": 101,
+          "end": 103,
+          "surface": "李息",
+          "kind": "person",
+          "person_id": "tmv_5d7_bx2",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0104",
+          "start": 104,
+          "end": 106,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "njk_tl0_6h9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0151",
+          "start": 151,
+          "end": 153,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0163",
+          "start": 163,
+          "end": 165,
+          "surface": "尉史",
+          "kind": "person",
+          "person_id": "2a2_j2z_xyc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "尉史",
+          "kind": "person",
+          "person_id": "2a2_j2z_xyc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0172",
+          "start": 172,
+          "end": 174,
+          "surface": "尉史",
+          "kind": "person",
+          "person_id": "2a2_j2z_xyc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0188",
+          "start": 188,
+          "end": 190,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0217",
+          "start": 217,
+          "end": 219,
+          "surface": "尉史",
+          "kind": "person",
+          "person_id": "2a2_j2z_xyc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "尉史",
+          "kind": "person",
+          "person_id": "2a2_j2z_xyc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0238",
+          "start": 238,
+          "end": 240,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0257",
+          "start": 257,
+          "end": 259,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0265",
+          "start": 265,
+          "end": 267,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m009-0280",
+          "start": 280,
+          "end": 282,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p010",
       "text": "天子怒王恢不出擊單于輜重，擅引兵罷也。恢曰：「始約虜入馬邑城，兵與單于接，而臣擊其輜重，可得利。今單于聞，不至而還，臣以三萬人眾不敵，禔取辱耳。臣固知還而斬，然得完陛下士三萬人。」於是下恢廷尉。廷尉當恢逗橈，當斬。恢私行千金丞相蚡。蚡不敢言上，而言於太后曰：「王恢首造馬邑事，今不成而誅恢，是爲匈奴報仇也。」上朝太后，太后以丞相言告上。上曰：「首爲馬邑事者，恢也，故發天下兵數十萬，從其言，爲此。且縱單于不可得，恢所部擊其輜重，猶頗可得，以慰士大夫心。今不誅恢，無以謝天下。」於是恢聞之，乃自殺。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m010-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0019",
+          "start": 19,
+          "end": 20,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0049",
+          "start": 49,
+          "end": 51,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0093",
+          "start": 93,
+          "end": 94,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "廷尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "下恢廷尉為司法機構；廷尉當恢可為機構或未名官員，不據官稱補個人。"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "廷尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "下恢廷尉為司法機構；廷尉當恢可為機構或未名官員，不據官稱補個人。"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0100",
+          "start": 100,
+          "end": 101,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0107",
+          "start": 107,
+          "end": 108,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0114",
+          "start": 114,
+          "end": 115,
+          "surface": "蚡",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0116",
+          "start": 116,
+          "end": 117,
+          "surface": "蚡",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0120",
+          "start": 120,
+          "end": 121,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "a9j_o55_q8g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0143",
+          "start": 143,
+          "end": 144,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0154",
+          "start": 154,
+          "end": 155,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0156",
+          "start": 156,
+          "end": 158,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "a9j_o55_q8g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0159",
+          "start": 159,
+          "end": 161,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "a9j_o55_q8g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0166",
+          "start": 166,
+          "end": 167,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0168",
+          "start": 168,
+          "end": 169,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0179",
+          "start": 179,
+          "end": 180,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0200",
+          "start": 200,
+          "end": 202,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0206",
+          "start": 206,
+          "end": 207,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0229",
+          "start": 229,
+          "end": 230,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0240",
+          "start": 240,
+          "end": 241,
+          "surface": "恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p011",
