@@ -27,15 +27,19 @@
   },
   "text_sha256": "2b39ac6b8ab01fb0117483b891030b3c8e16461c89fbe60767c95418be9e561b",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "已逐段檢視明示人名、異稱及若干無名人物／群體；代詞、官稱指代、氏族與國號仍須再審。",
+    "coverage": "已逐段檢視明示人名、異稱及若干無名人物／群體；代詞、官稱指代、氏族與國號仍須再審。 第1至10段再次核讀，補兩處子女群體錨點及6項生死、5項地點主張；其餘段落待第二輪覆核。 第11至16段再次核讀，羲和四員所居與兩項流放提議各存來源主張；第16段帝暫指同段堯。殛鯀不據單字直接判死亡。 第17至22段再次核讀；舜的父、後母、弟按第19至20段辨認，生母另存死亡。補堯死亡及舜冀州出身、嬀汭居住。 第23至28段再次核讀，明示命官8項及舜卒地、葬地補存；全28段第二輪已讀，代詞、親屬與官爵仍非全部完成。",
     "limitations": [
       "本篇上古譜系屬傳說敘事，不認定其歷史真實。",
       "不將國號、氏族、官職與未分辨的群體硬併為人物。",
       "倕／垂依同段職事暫定同指，尚未校勘古本或核閱學者專論。",
-      "未逐字核對影像，不稱定本。"
+      "未逐字核對影像，不稱定本。",
+      "第11至28段的in_progress承接既有首輪標記，不表示完成第二輪核讀；本批僅再讀第1至10段。",
+      "第16段流共工、放驩兜為請求內容，保存地點主張而不當已執行日期；殛鯀的生死判讀另待證據。",
+      "第14段母嚚與第20段母嚚暫指舜後母；第19段母死為生母。群體二女、九男、八愷八元不補造個別人物。",
+      "舜臣伯夷不與孤竹伯夷按同名合併；本段以垂爲共工的共工為職稱。舜踐位三十九年與薦禹後十七年不機械拼接成公元年。"
     ]
   },
   "paragraphs": [
@@ -70,7 +74,8 @@
           "person_id": "8jz_o3s_obt",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p002",
@@ -232,7 +237,8 @@
           "person_id": "8jz_o3s_obt",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p003",
@@ -283,7 +289,8 @@
           "person_id": "8jz_o3s_obt",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p004",
@@ -297,8 +304,29 @@
           "kind": "person",
           "person_id": "8jz_o3s_obt",
           "status": "source_identified"
+        },
+        {
+          "id": "c-shiji-001-wudi:m004-0002",
+          "start": 2,
+          "end": 6,
+          "surface": "二十五子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體數量記載；未具名成員不補造個別人物，得姓者為其中子集。"
+        },
+        {
+          "id": "c-shiji-001-wudi:m004-0007",
+          "start": 7,
+          "end": 14,
+          "surface": "其得姓者十四人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "群體數量記載；未具名成員不補造個別人物，得姓者為其中子集。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p005",
@@ -466,7 +494,8 @@
           "person_id": "2to_ofg_fuz",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p006",
@@ -508,7 +537,8 @@
           "person_id": "dsc_tie_q5s",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p007",
@@ -568,7 +598,8 @@
           "person_id": "9qr_quf_02m",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p008",
@@ -700,7 +731,8 @@
           "person_id": "2to_ofg_fuz",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p009",
@@ -724,7 +756,8 @@
           "person_id": "9qr_quf_02m",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p010",
@@ -820,7 +853,8 @@
           "person_id": "oho_r3f_c6y",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p011",
@@ -844,7 +878,8 @@
           "person_id": "oho_r3f_c6y",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p012",
@@ -896,7 +931,8 @@
           "person_id": "pen_hn0_sk9",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p013",
@@ -1067,7 +1103,8 @@
           "person_id": "y3u_g30_6et",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p014",
@@ -1147,6 +1184,46 @@
           "person_id": null,
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
+        },
+        {
+          "id": "c-shiji-001-wudi:m014-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "盲者",
+          "kind": "person",
+          "person_id": "8gq_slb_ulu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
+        },
+        {
+          "id": "c-shiji-001-wudi:m014-0096",
+          "start": 96,
+          "end": 97,
+          "surface": "父",
+          "kind": "person",
+          "person_id": "8gq_slb_ulu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
+        },
+        {
+          "id": "c-shiji-001-wudi:m014-0099",
+          "start": 99,
+          "end": 100,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "p0q_m9t_btu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
+        },
+        {
+          "id": "c-shiji-001-wudi:m014-0102",
+          "start": 102,
+          "end": 103,
+          "surface": "弟",
+          "kind": "person",
+          "person_id": "a00_ney_bf4",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
         },
         {
           "id": "c-shiji-001-wudi:m014-0119",
@@ -1313,7 +1390,8 @@
           "person_id": "oho_r3f_c6y",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p015",
@@ -1356,7 +1434,8 @@
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p016",
@@ -1456,6 +1535,16 @@
           "status": "source_identified"
         },
         {
+          "id": "c-shiji-001-wudi:m016-0075",
+          "start": 75,
+          "end": 76,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "oho_r3f_c6y",
+          "status": "contextual_provisional",
+          "note": "同段堯拒用鯀後，舜歸而言於帝的受言者暫指堯；不把帝字作全域別名。"
+        },
+        {
           "id": "c-shiji-001-wudi:m016-0079",
           "start": 79,
           "end": 81,
@@ -1492,7 +1581,8 @@
           "person_id": "y3u_g30_6et",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p017",
@@ -1723,7 +1813,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p018",
@@ -1900,7 +1991,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p019",
@@ -1950,6 +2042,16 @@
           "kind": "person",
           "person_id": "8gq_slb_ulu",
           "status": "source_identified"
+        },
+        {
+          "id": "c-shiji-001-wudi:m019-0015",
+          "start": 15,
+          "end": 16,
+          "surface": "妻",
+          "kind": "person",
+          "person_id": "p0q_m9t_btu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
         },
         {
           "id": "c-shiji-001-wudi:m019-0018",
@@ -2006,6 +2108,16 @@
           "status": "source_identified"
         },
         {
+          "id": "c-shiji-001-wudi:m019-0050",
+          "start": 50,
+          "end": 51,
+          "surface": "父",
+          "kind": "person",
+          "person_id": "8gq_slb_ulu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
+        },
+        {
           "id": "c-shiji-001-wudi:m019-0052",
           "start": 52,
           "end": 54,
@@ -2013,8 +2125,19 @@
           "kind": "person",
           "person_id": "p0q_m9t_btu",
           "status": "source_identified"
+        },
+        {
+          "id": "c-shiji-001-wudi:m019-0055",
+          "start": 55,
+          "end": 56,
+          "surface": "弟",
+          "kind": "person",
+          "person_id": "a00_ney_bf4",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p020",
@@ -2057,6 +2180,16 @@
           "status": "source_identified"
         },
         {
+          "id": "c-shiji-001-wudi:m020-0040",
+          "start": 40,
+          "end": 41,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "p0q_m9t_btu",
+          "status": "contextual_provisional",
+          "note": "對讀本篇第19至20段舜父、後母與象的敘事；母嚚暫指後母，非已卒生母。"
+        },
+        {
           "id": "c-shiji-001-wudi:m020-0044",
           "start": 44,
           "end": 45,
@@ -2083,7 +2216,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p021",
@@ -2527,7 +2661,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p022",
@@ -2620,7 +2755,8 @@
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p023",
@@ -2739,7 +2875,8 @@
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p024",
@@ -3391,7 +3528,8 @@
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p025",
@@ -3515,7 +3653,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p026",
@@ -3701,7 +3840,8 @@
           "person_id": "mvm_6am_j2n",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p027",
@@ -3884,7 +4024,8 @@
           "status": "unresolved",
           "note": "可能為個人、官職、群體、氏族或國號；不憑本篇未明示的外部對應補造身份。"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     },
     {
       "id": "c-shiji-001-wudi:p028",
@@ -3963,7 +4104,8 @@
           "person_id": "ddb_l4j_4j2",
           "status": "source_identified"
         }
-      ]
+      ],
+      "annotation_status": "in_progress"
     }
   ]
 }
