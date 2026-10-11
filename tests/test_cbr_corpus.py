@@ -15,6 +15,16 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_registry_cannot_omit_a_received_person_mention(self):
+        def mutate(d):
+            person = next(p for p in d['persons'] if len(p['evidence']) > 2)
+            mid = person['evidence'].pop()['mention_id']
+            for alias in person['aliases']:
+                alias['mention_ids'] = [m for m in alias['mention_ids'] if m != mid]
+            person['aliases'] = [a for a in person['aliases'] if a['mention_ids']]
+        self.change('registry/persons.json', mutate)
+        self.assertTrue(any('雙向索引不完整' in e for e in v.validate(self.root)))
+
     def test_unknown_person_rejected(self):
         self.change('corpus/shiji/001.json',lambda d:d['paragraphs'][0]['mentions'][0].update(person_id='missing'))
         self.assertTrue(any('未知人物' in e for e in v.validate(self.root)))

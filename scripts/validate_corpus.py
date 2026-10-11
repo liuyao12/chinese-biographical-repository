@@ -255,6 +255,9 @@ def validate(root=ROOT):
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
                           and any(e['paragraph_id'] == evidence.get('paragraph_id') for e in a['evidence'])
                           for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
+        mention_ids_by_person = {}
+        for mid, hit in mentions.items():
+            mention_ids_by_person.setdefault(hit[2]['person_id'], set()).add(mid)
         for p in people:
             check(bool(p['evidence']), f'{p["id"]}: 人物沒有原文證據')
             evidenced=set()
@@ -267,7 +270,7 @@ def validate(root=ROOT):
                 for mid in alias['mention_ids']:
                     hit=mentions.get(mid)
                     check(mid in evidenced and bool(hit) and hit[2]['surface']==alias['surface'], '異稱證據不符')
-            expected={mid for mid,hit in mentions.items() if hit[2]['person_id']==p['id']}
+            expected=mention_ids_by_person.get(p['id'], set())
             check(expected==evidenced, '人物提及與證據雙向索引不完整')
         dids=set()
         for path in (root/'corpus').glob('*/*-identities.json'):

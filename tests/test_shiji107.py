@@ -59,5 +59,26 @@ class WeiqiSourceTests(unittest.TestCase):
         case = next(case for case in c['annotation']['unresolved_identity_cases'] if p['id'] in case['paragraph_ids'])
         self.assertEqual(set(case['candidate_person_ids']), {'5u3_i3p_ngq', 'l26_mjw_rwe'})
 
+    def test_crown_prince_has_explicit_installation_and_deposition(self):
+        h = next(h for h in self.load('-titles')['holdings'] if h['title'] == '太子')
+        self.assertEqual(h['mode'], 'grant')
+        self.assertEqual(h['effective_period']['start']['normalized_date']['era_year'], 153)
+        self.assertEqual(h['effective_period']['end']['normalized_date']['era_year'], 150)
+        self.assertEqual(h['effective_period']['end']['event_type'], 'deposition')
+
+    def test_same_noble_title_keeps_two_holders(self):
+        hs = [h for h in self.load('-titles')['holdings'] if h['title'] == '潁陰侯']
+        self.assertEqual(len(hs), 2)
+        self.assertEqual(len({h['person_id'] for h in hs}), 2)
+        self.assertTrue(all(h['effective_period']['start']['status'] == 'unknown' for h in hs))
+        self.assertTrue(any(a['usage'] == 'retrospective' for h in hs for a in h['attestations']))
+
+    def test_office_dismissal_does_not_end_noble_rank(self):
+        hs = self.load('-titles')['holdings']
+        office = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '相')
+        rank = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '桃侯')
+        self.assertEqual(office['effective_period']['end']['event_type'], 'deposition')
+        self.assertEqual(rank['effective_period']['end']['status'], 'unknown')
+
 if __name__ == '__main__':
     unittest.main()

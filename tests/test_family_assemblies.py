@@ -92,3 +92,10 @@ class FamilyAssembliesTests(unittest.TestCase):
         self.assertNotEqual(fen['root_person_id'], gai['root_person_id'])
         self.assertEqual(source['ubk_etq_ksp_A']['parent_person_id'], fen['person_id'])
         self.assertEqual(source['ubk_etq_ksp_A']['person_id'], '7mz_d13_9ka_AA')
+
+    def test_li_crown_prince_joins_existing_liu_rong_line(self):
+        source, _ = load_assemblies(ROOT, load_catalog(ROOT))
+        rong = source['sug_498_fdo']
+        self.assertEqual(rong['person_id'], source['1c8_u63_bk4_A']['person_id'])
+        self.assertEqual(rong['parent_person_id'], source['4gj_xfa_r7s']['person_id'])
+        self.assertEqual(rong['root_person_id'], source['gni_rru_0gw']['root_person_id'])
