@@ -29,12 +29,13 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "31段全文轉錄，首段初標公孫弘及未名後母兩名來源人物；其餘30段待逐段標註。",
+    "coverage": "31段全文轉錄，前九段初標13名來源候選；其餘22段待逐段標註，全部人物覆核尚未完成。",
     "limitations": [
       "文字取得不等於人物覆核完成；未核底本影像。",
       "字季按明文連到公孫弘；後母不作生母，不補父親或父親配偶。",
       "源文齊菑川國薛縣人按傳首出身保存，不推出生地或現代轄區。",
-      "末三段詔書、班固贊、索隱述贊分層；未核發布者、編入者或版本歸屬。"
+      "末三段詔書、班固贊、索隱述贊分層；未核發布者、編入者或版本歸屬。",
+      "第2至9段：弘按公孫弘敘事省名連結；后母承開篇後母，保留見證字形。管仲、桓公、晏嬰、景公為引語典故人物，先設來源候選；太常與淮南衡山、三王文武的具體指涉續核。泛稱君臣不作親屬，請歸侯乞骸骨未獲准不作官爵終止，恐病死不作死亡事件。元光五年原文保留，不能以漢書其他徵召紀年覆寫。"
     ]
   },
   "paragraphs": [
@@ -76,58 +77,885 @@
     {
       "id": "c-shiji-112-pingjin:p002",
       "text": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m002-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m002-0021",
+          "start": 21,
+          "end": 22,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m002-0043",
+          "start": 43,
+          "end": 44,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m002-0046",
+          "start": 46,
+          "end": 47,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m002-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p003",
       "text": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m003-0017",
+          "start": 17,
+          "end": 20,
+          "surface": "公孫弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0021",
+          "start": 21,
+          "end": 22,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0052",
+          "start": 52,
+          "end": 53,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "太常",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "太常",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0074",
+          "start": 74,
+          "end": 75,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0085",
+          "start": 85,
+          "end": 86,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m003-0124",
+          "start": 124,
+          "end": 125,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p004",
       "text": "弘為人恢奇多聞，常稱以為人主病不廣大，人臣病不儉節。弘為布被，食不重肉。后母死，服喪三年。每朝會議，開陳其端，令人主自擇，不肯面折庭爭。於是天子察其行敦厚，辯論有餘，習文法吏事，而又緣飾以儒術，上大說之。二歲中，至左內史。弘奏事，有不可，不庭辯之。嘗與主爵都尉汲黯請閒，汲黯先發之，弘推其後，天子常說，所言皆聽，以此日益親貴。嘗與公卿約議，至上前，皆倍其約以順上旨。汲黯庭詰弘曰：「齊人多詐而無情實，始與臣等建此議，今皆倍之，不忠。」上問弘。弘謝曰：「夫知臣者以臣為忠，不知臣者以臣為不忠。」上然弘言。左右幸臣每毀弘，上益厚遇之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m004-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "后母",
+          "kind": "person",
+          "person_id": "fyw_e6a_8dl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0097",
+          "start": 97,
+          "end": 98,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0111",
+          "start": 111,
+          "end": 112,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0130",
+          "start": 130,
+          "end": 132,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0141",
+          "start": 141,
+          "end": 142,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0146",
+          "start": 146,
+          "end": 148,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0171",
+          "start": 171,
+          "end": 172,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0180",
+          "start": 180,
+          "end": 181,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0183",
+          "start": 183,
+          "end": 185,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0187",
+          "start": 187,
+          "end": 188,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0217",
+          "start": 217,
+          "end": 218,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0219",
+          "start": 219,
+          "end": 220,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0221",
+          "start": 221,
+          "end": 222,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0246",
+          "start": 246,
+          "end": 247,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0248",
+          "start": 248,
+          "end": 249,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0257",
+          "start": 257,
+          "end": 258,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m004-0259",
+          "start": 259,
+          "end": 260,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p005",
       "text": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m005-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "張歐",
+          "kind": "person",
+          "person_id": "0ad_530_yth",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0036",
+          "start": 36,
+          "end": 37,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0063",
+          "start": 63,
+          "end": 66,
+          "surface": "朱買臣",
+          "kind": "person",
+          "person_id": "bvn_k2n_f84",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0079",
+          "start": 79,
+          "end": 80,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0084",
+          "start": 84,
+          "end": 85,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m005-0117",
+          "start": 117,
+          "end": 118,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p006",
       "text": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m006-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0005",
+          "start": 5,
+          "end": 6,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0028",
+          "start": 28,
+          "end": 29,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0030",
+          "start": 30,
+          "end": 31,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0047",
+          "start": 47,
+          "end": 48,
+          "surface": "黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0058",
+          "start": 58,
+          "end": 59,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0081",
+          "start": 81,
+          "end": 83,
+          "surface": "管仲",
+          "kind": "person",
+          "person_id": "zgg_ncu_lxg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "桓公",
+          "kind": "person",
+          "person_id": "6ua_ti1_4bc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "晏嬰",
+          "kind": "person",
+          "person_id": "811_det_o9f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0109",
+          "start": 109,
+          "end": 111,
+          "surface": "景公",
+          "kind": "person",
+          "person_id": "i8v_5et_i28",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0135",
+          "start": 135,
+          "end": 136,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0163",
+          "start": 163,
+          "end": 165,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0169",
+          "start": 169,
+          "end": 171,
+          "surface": "汲黯",
+          "kind": "person",
+          "person_id": "fmh_dmt_cql",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0182",
+          "start": 182,
+          "end": 184,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m006-0196",
+          "start": 196,
+          "end": 197,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p007",
       "text": "弘為人意忌，外寬內深。諸嘗與弘有卻者，雖詳與善，陰報其禍。殺主父偃，徙董仲舒於膠西，皆弘之力也。食一肉脫粟之飯。故人所善賓客，仰衣食，弘奉祿皆以給之，家無所餘。士亦以此賢之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m007-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m007-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m007-0030",
+          "start": 30,
+          "end": 33,
+          "surface": "主父偃",
+          "kind": "person",
+          "person_id": "vbr_ff1_yc4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m007-0035",
+          "start": 35,
+          "end": 38,
+          "surface": "董仲舒",
+          "kind": "person",
+          "person_id": "lss_951_wm9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m007-0043",
+          "start": 43,
+          "end": 44,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m007-0067",
+          "start": 67,
+          "end": 68,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p008",
       "text": "淮南、衡山謀反，治黨與方急。弘病甚，自以為無功而封，位至丞相，宜佐明主填撫國家，使人由臣子之道。今諸侯有畔逆之計，此皆宰相奉職不稱，恐竊病死，無以塞責。乃上書曰：「臣聞天下之通道五，所以行之者三。曰君臣，父子，兄弟，夫婦，長幼之序，此五者天下之通道也。智，仁，勇，此三者天下之通德，所以行之者也。故曰『力行近乎仁，好問近乎智，知恥近乎勇』。知此三者，則知所以自治；知所以自治，然後知所以治人。天下未有不能自治而能治人者也，此百世不易之道也。今陛下躬行大孝，鑒三王，建周道，兼文武，厲賢予祿，量能授官。今臣弘罷駑之質，無汗馬之勞，陛下過意擢臣弘卒伍之中，封為列侯，致位三公。臣弘行能不足以稱，素有負薪之病，恐先狗馬填溝壑，終無以報德塞責。願歸侯印，乞骸骨，避賢者路。」天子報曰：「古者賞有功，襃德，守成尚文，遭遇右武，未有易此者也。朕宿昔庶幾獲承尊位，懼不能寧，惟所與共為治者，君宜知之。蓋君子善善惡惡，（君宜知之）君若謹行，常在朕躬。君不幸罹霜露之病，何恙不已，乃上書歸侯，乞骸骨，是章朕之不德也。今事少閒，君其省思慮，一精神，輔以醫藥。」因賜告牛酒雜帛。居數月，病有瘳，視事。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m008-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "淮南",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "衡山",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0221",
+          "start": 221,
+          "end": 223,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0229",
+          "start": 229,
+          "end": 231,
+          "surface": "三王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0237",
+          "start": 237,
+          "end": 239,
+          "surface": "文武",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0252",
+          "start": 252,
+          "end": 253,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0264",
+          "start": 264,
+          "end": 266,
+          "surface": "陛下",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0270",
+          "start": 270,
+          "end": 271,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0287",
+          "start": 287,
+          "end": 288,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0333",
+          "start": 333,
+          "end": 335,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0365",
+          "start": 365,
+          "end": 366,
+          "surface": "朕",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0388",
+          "start": 388,
+          "end": 389,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0394",
+          "start": 394,
+          "end": 395,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0402",
+          "start": 402,
+          "end": 403,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0407",
+          "start": 407,
+          "end": 408,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0414",
+          "start": 414,
+          "end": 415,
+          "surface": "朕",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0417",
+          "start": 417,
+          "end": 418,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0443",
+          "start": 443,
+          "end": 444,
+          "surface": "朕",
+          "kind": "person",
+          "person_id": "a05_brz_8xe",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m008-0454",
+          "start": 454,
+          "end": 455,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p009",
       "text": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-112-pingjin:m009-0005",
+          "start": 5,
+          "end": 6,
+          "surface": "弘",
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m009-0015",
+          "start": 15,
+          "end": 16,
+          "surface": "度",
+          "kind": "person",
+          "person_id": "q69_35n_f3h_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-112-pingjin:m009-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "度",
+          "kind": "person",
+          "person_id": "q69_35n_f3h_A",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-112-pingjin:p010",
