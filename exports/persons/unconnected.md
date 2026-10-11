@@ -2219,6 +2219,7 @@
 | `gqz_ag8_bj5` | 句踐 | [《史記・趙世家》][25] | [JSON](gqz_ag8_bj5.json) |
 | `gr5_u66_wkh` | 嬰 | [《史記・鄭世家》][24] | [JSON](gr5_u66_wkh.json) |
 | `grd_2u0_1ep` | 陽甲 | [《史記・殷本紀》][3] | [JSON](grd_2u0_1ep.json) |
+| `grh_40p_34o` | 田甲 | [《史記・韓長孺列傳》][90] | [JSON](grh_40p_34o.json) |
 | `grj_xg2_ghx` | 奮揚（楚司馬） | [《史記・楚世家》][22] | [JSON](grj_xg2_ghx.json) |
 | `grn_vtp_db9` | 商鞅引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](grn_vtp_db9.json) |
 | `grr_fo8_y9b` | 太師疵 | [《史記・周本紀》][4] | [JSON](grr_fo8_y9b.json) |
@@ -2383,6 +2384,7 @@
 | `hza_lsx_umi` | 韓子引古未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](hza_lsx_umi.json) |
 | `hzc_zln_xl1` | 涇陽君（田世家未名者） | [《史記・田敬仲完世家》][28] | [JSON](hzc_zln_xl1.json) |
 | `hzd_39r_m9e` | 吳太伯 | [《史記・吳太伯世家》][13] | [JSON](hzd_39r_m9e.json) |
+| `hzr_8yn_jmw` | 授梁內史使者（未名） | [《史記・韓長孺列傳》][90] | [JSON](hzr_8yn_jmw.json) |
 | `hzs_qet_58s` | 豎陽穀（楚篇進酒者） | [《史記・晉世家》][21]、[《史記・楚世家》][22] | [JSON](hzs_qet_58s.json) |
 | `hzt_j3d_1r3` | 嫪毐 | [《史記・呂不韋列傳》][67] | [JSON](hzt_j3d_1r3.json) |
 | `hzx_kl2_8vp` | 少師彊 | [《史記・周本紀》][4] | [JSON](hzx_kl2_8vp.json) |
@@ -4091,6 +4093,7 @@
 | `v3z_8l6_18t` | 公孫頎 | [《史記・魏世家》][26] | [JSON](v3z_8l6_18t.json) |
 | `v41_yc5_b1j` | 齊王（魏世家甄會未名者） | [《史記・魏世家》][26] | [JSON](v41_yc5_b1j.json) |
 | `v4i_ole_ea2` | 陳涉 | [《史記・留侯世家》][37] | [JSON](v4i_ole_ea2.json) |
+| `v4l_7vt_hsb` | 公孫詭 | [《史記・韓長孺列傳》][90] | [JSON](v4l_7vt_hsb.json) |
 | `v4m_7yp_xr3` | 楊熊 | [《史記・高祖本紀》][8] | [JSON](v4m_7yp_xr3.json) |
 | `v4x_3qx_dy7` | 弓高侯穨當 | [《史記・吳王濞列傳》][88] | [JSON](v4x_3qx_dy7.json) |
 | `v58_qtu_ger` | 齊景公 | [《史記・伍子胥列傳》][48] | [JSON](v58_qtu_ger.json) |
