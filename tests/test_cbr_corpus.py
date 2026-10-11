@@ -15,6 +15,15 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_inheritance_rejects_unrelated_predecessor(self):
+        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(predecessor_person_id='6z2_ipx_avk'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_inheritance_rejects_changed_rank(self):
+        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(resolved_title='長平侯'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_inheritance_requires_source_term(self):
+        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(source_term='嬗封冠軍侯'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_title_years_cannot_be_elapsed_calendar_years(self):
         self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_year')['reported_duration'].update(counting='elapsed_calendar_years'))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))

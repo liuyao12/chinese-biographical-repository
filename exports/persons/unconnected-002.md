@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][93] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][24] | [JSON](g0f_lnq_gkm.json) |
 | `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][5] | [JSON](g0o_7tz_csx.json) |
@@ -2222,6 +2221,7 @@
 | `w05_x7q_foo` | 繆賢 | [《史記・廉頗藺相如列傳》][63] | [JSON](w05_x7q_foo.json) |
 | `w06_m3y_ctg` | 知伯 | [《史記・田敬仲完世家》][28] | [JSON](w06_m3y_ctg.json) |
 | `w0d_2f6_1ih` | 曼丘臣 | [《史記・韓信盧綰列傳》][75] | [JSON](w0d_2f6_1ih.json) |
+| `w0i_qc3_tpy` | 許負 | [《史記・絳侯周勃世家》][39] | [JSON](w0i_qc3_tpy.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

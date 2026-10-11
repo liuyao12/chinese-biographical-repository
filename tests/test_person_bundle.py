@@ -3,6 +3,16 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_inherited_rank_is_parseable_without_expanding_source_text(self):
+        result = bundle('aqs_iqa_d1l_A', include_provisional=True)
+        holding = next(h for h in result['title_holdings'] if 'inheritance' in h)
+        self.assertEqual(holding['title'], '侯')
+        self.assertEqual(holding['inheritance']['resolved_title'], '冠軍侯')
+        self.assertEqual(holding['inheritance']['predecessor_person_id'], 'aqs_iqa_d1l')
+        self.assertEqual(holding['reported_duration']['value'], 6)
+        self.assertEqual(holding['effective_period']['end']['event_type'], 'abolition')
+        self.assertEqual(holding['effective_period']['end']['normalized_date']['era_year'], 110)
+        self.assertEqual(next(e for e in result['life_events'] if e['event_type'] == 'death')['normalized_date']['era_year'], 110)
     def test_huo_reported_title_years_do_not_set_tenure_end(self):
         result = bundle('aqs_iqa_d1l', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if h.get('reported_duration', {}).get('unit') == 'title_year')

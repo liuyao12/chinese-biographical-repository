@@ -1464,7 +1464,6 @@
 | `apu_6fw_asx` | 馮琴對者（魏世家中旗讀法未定） | [《史記・魏世家》][26] | [JSON](apu_6fw_asx.json) |
 | `apz_fp8_twe` | 魏公子卬 | [《史記・商君列傳》][50] | [JSON](apz_fp8_twe.json) |
 | `aq4_814_hq2` | 安期生 | [《史記・田儋列傳》][76] | [JSON](aq4_814_hq2.json) |
-| `aqs_iqa_d1l` | 霍去病 | [《史記・衛將軍驃騎列傳》][93] | [JSON](aqs_iqa_d1l.json) |
 | `aru_qbv_1vo` | 李必 | [《史記・樊酈滕灌列傳》][77] | [JSON](aru_qbv_1vo.json) |
 | `ary_z8m_f18` | 景王 | [《史記・周本紀》][4] | [JSON](ary_z8m_f18.json) |
 | `as3_a3z_9jx` | 公甫文伯母未名 | [《史記・平原君虞卿列傳》][58] | [JSON](as3_a3z_9jx.json) |
@@ -2223,6 +2222,7 @@
 | `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
+| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

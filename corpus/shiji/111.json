@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首二十一段初標87名來源人物、18筆親屬、1筆籍貫、189筆用稱、9筆生卒、32筆跨篇同指、11筆局部身份判讀及1組人物區分、1筆來源年齡；13筆所報異文保持未採用，孫吳指涉、王夫人、三子分歧及其餘段落續核。",
+    "coverage": "全48段轉錄；首二十二段初標88名來源人物、19筆親屬、1筆籍貫、193筆用稱、11筆生卒、32筆跨篇同指、12筆局部身份判讀及1組人物區分、1筆來源年齡；13筆所報異文保持未採用，孫吳指涉、王夫人、三子分歧及其餘段落續核。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -61,7 +61,8 @@
       "第13段所報異文另存8筆，已直接核讀漢書卷17數位表文：謼毒尼、應疕、烏黎、稠雕均保留平行見證寫法，未默改正文或作全域別名；表文濕陰定侯昆邪始封三年，與本篇元狩二年秋封渾邪為漯陰侯有差異，官爵參考欄另錄。數位表格行列與傳世版本仍待影像核查，來源分歧不匯成單一確定封年或死亡事件。",
       "第17段長史未名，未強接他篇軍吏；廣自殺記前119年來源事件，食其贖罪只記貶降。第18段四次單于按敘事分別接原單于與暫自立的右谷蠡王；去號明示自立單于稱號終點，未補王位恢復授予或精確日數起訖。",
       "第19段章渠按索隱引顏師古近臣解暫作人物，比車耆按晉灼王號解暫作人物；離侯按同注山名解不作侯爵人物。左大將未按漢書補雙，屯頭王與韓王分存兩名候選，等三人不另造第三人；韓王不與漢初或戰國韓王合併。校尉敢接同段李敢，有氣敢任不標敢。邢山與封山為義陽侯同指，狼居胥山等地名的山不標人。孫吳兵法之孫吳保留未定作者指稱，尚未強定孫武、孫臏或吳起。",
-      "第19段日期參考漢書同役元狩四年及封賞，暫前119年；符離／邳離、壯／杜、大庶長／左庶長、邢／衞、比／北各保留來源差異。大校授予原句是李敢等的群體敘述，保存具名成員李敢，不拆造其他人；當裨將只作職務用稱。比車耆之誅未強定個人死亡。第20段大司馬授予衛青與霍去病各一筆，同一原句不當兩份獨立來源。第21段侍中回顧用稱任期未定；人物性格與從軍敘事未強行全年定為前119年。"
+      "第19段日期參考漢書同役元狩四年及封賞，暫前119年；符離／邳離、壯／杜、大庶長／左庶長、邢／衞、比／北各保留來源差異。大校授予原句是李敢等的群體敘述，保存具名成員李敢，不拆造其他人；當裨將只作職務用稱。比車耆之誅未強定個人死亡。第20段大司馬授予衛青與霍去病各一筆，同一原句不當兩份獨立來源。第21段侍中回顧用稱任期未定；人物性格與從軍敘事未強行全年定為前119年。",
+      "第22段名、字與謚稱分開；元狩六年與元封元年暫換算前117、前110年，軍後三年與居六歲保留原數不強改紀年。子嬗代侯記父子與承爵，少不作年齡或幼子排行。陳自長安至茂陵為冢象祁連山保存葬儀原語，未據象山形推葬祁連山，也未把路線地點作死地；墓址仍待明示材料另核。無子保留原文，未建立子女；希望將之不是已授官。"
     ],
     "age_assertions": [
       {
@@ -4842,9 +4843,91 @@
     {
       "id": "c-shiji-111-wei-huo:p022",
       "text": "驃騎將軍自四年軍後三年，元狩六年而卒。天子悼之，發屬國玄甲軍，陳自長安至茂陵，為冢象祁連山。謚之，并武與廣地曰景桓侯。子嬗代侯。嬗少，字子侯，上愛之，幸其壯而將之。居六歲，元封元年，嬗卒，謚哀侯。無子，絕，國除。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m022-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0055",
+          "start": 55,
+          "end": 58,
+          "surface": "景桓侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0060",
+          "start": 60,
+          "end": 61,
+          "surface": "嬗",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0064",
+          "start": 64,
+          "end": 65,
+          "surface": "嬗",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0068",
+          "start": 68,
+          "end": 70,
+          "surface": "子侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0071",
+          "start": 71,
+          "end": 72,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0091",
+          "start": 91,
+          "end": 92,
+          "surface": "嬗",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m022-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "哀侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l_A",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p023",
