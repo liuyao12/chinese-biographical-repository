@@ -1977,6 +1977,15 @@
 
 </details>
 
+<details><summary><code>q69_35n_f3h</code> 公孫弘（平津侯主父列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 公孫弘 | [《史記・平津侯主父列傳》][94] | [JSON](q69_35n_f3h.json) |
+| `A` | 公孫度 | [《史記・平津侯主父列傳》][94] | [JSON](q69_35n_f3h_A.json) |
+
+</details>
+
 <details><summary><code>q6w_qm5_w2b</code> 丹（趙世家孝成王候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3043,3 +3052,4 @@
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
+[94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420

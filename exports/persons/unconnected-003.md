@@ -6,6 +6,14 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `vug_czu_mzb` | 莊生之婦（越世家未名者） | [《史記・越王勾踐世家》][23] | [JSON](vug_czu_mzb.json) |
+| `vur_b8c_5er` | 娥 | [《史記・齊悼惠王世家》][34] | [JSON](vur_b8c_5er.json) |
+| `vv0_3wv_i18` | 噲（袁盎兄） | [《史記・袁盎鼂錯列傳》][83] | [JSON](vv0_3wv_i18.json) |
+| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][21] | [JSON](vv9_ss8_28z.json) |
+| `vvg_bgl_w1b` | 伯虔 | [《史記・仲尼弟子列傳》][49] | [JSON](vvg_bgl_w1b.json) |
+| `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][30] | [JSON](vvg_rba_nwr.json) |
+| `vvt_6h5_czb` | 湯引古短稱 | [《史記・屈原賈生列傳》][66] | [JSON](vvt_6h5_czb.json) |
+| `vvv_ws5_he1` | 齊緡王 | [《史記・高祖本紀》][8] | [JSON](vvv_ws5_he1.json) |
 | `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][36] | [JSON](vw5_ynq_5fx.json) |
 | `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][20] | [JSON](vwi_95l_l6d.json) |
 | `vx2_svu_k0q` | 白起 | [《史記・趙世家》][25] | [JSON](vx2_svu_k0q.json) |
@@ -499,6 +507,7 @@
 | `zfk_w9y_0b8` | 百里奚（引古） | [《史記・淮陰侯列傳》][74] | [JSON](zfk_w9y_0b8.json) |
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][12] | [JSON](zg6_76t_xid.json) |
 | `zg8_rjh_2jl` | 主父沙丘 | [《史記・范睢蔡澤列傳》][61] | [JSON](zg8_rjh_2jl.json) |
+| `zgg_ncu_lxg` | 管仲 | [《史記・平津侯主父列傳》][94] | [JSON](zgg_ncu_lxg.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](zgm_3w8_12c.json) |
 | `zgr_95l_8z4` | 趙食其 | [《史記・衛將軍驃騎列傳》][93] | [JSON](zgr_95l_8z4.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][32] | [JSON](zh2_5e4_ikn.json) |
@@ -649,3 +658,4 @@
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
+[94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420

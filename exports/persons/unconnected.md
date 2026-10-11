@@ -47,6 +47,7 @@
 | `09s_wy8_uyj` | 甫假 | [《史記・鄭世家》][24] | [JSON](09s_wy8_uyj.json) |
 | `09x_42a_awj` | 高陵君 | [《史記・范睢蔡澤列傳》][61] | [JSON](09x_42a_awj.json) |
 | `09z_62n_amz` | 楚威王 | [《史記・老子韓非列傳》][45] | [JSON](09z_62n_amz.json) |
+| `0ad_530_yth` | 張歐 | [《史記・平津侯主父列傳》][94] | [JSON](0ad_530_yth.json) |
 | `0ak_s2u_6hd` | 趙稷 | [《史記・趙世家》][25] | [JSON](0ak_s2u_6hd.json) |
 | `0am_5u1_2in` | 陽文君 | [《史記・春申君列傳》][60] | [JSON](0am_5u1_2in.json) |
 | `0as_za5_mdt` | 呂媭女（劉澤妻） | [《史記・呂太后本紀》][9] | [JSON](0as_za5_mdt.json) |
@@ -952,6 +953,7 @@
 | `6u1_ku8_gw2` | 雍廩 | [《史記・秦本紀》][5] | [JSON](6u1_ku8_gw2.json) |
 | `6u2_boa_dbm` | 子之 | [《史記・趙世家》][25] | [JSON](6u2_boa_dbm.json) |
 | `6u6_x1f_xgg` | 季桓子 | [《史記・孔子世家》][29] | [JSON](6u6_x1f_xgg.json) |
+| `6ua_ti1_4bc` | 桓公（管仲相齊） | [《史記・平津侯主父列傳》][94] | [JSON](6ua_ti1_4bc.json) |
 | `6ub_tha_gkr` | 髙 | [《史記・越王勾踐世家》][23] | [JSON](6ub_tha_gkr.json) |
 | `6us_ibm_u05` | 陳嬰 | [《史記・項羽本紀》][7] | [JSON](6us_ibm_u05.json) |
 | `6v4_57w_76j` | 石奮母未名 | [《史記・萬石張叔列傳》][85] | [JSON](6v4_57w_76j.json) |
@@ -1107,6 +1109,7 @@
 | `7zq_926_dnw` | 劉澤 | [《史記・三王世家》][42] | [JSON](7zq_926_dnw.json) |
 | `7zv_9sd_gug` | 趙朔（下軍將） | [《史記・趙世家》][25] | [JSON](7zv_9sd_gug.json) |
 | `80h_7uw_251` | 祖己 | [《史記・殷本紀》][3] | [JSON](80h_7uw_251.json) |
+| `811_det_o9f` | 晏嬰 | [《史記・平津侯主父列傳》][94] | [JSON](811_det_o9f.json) |
 | `813_xhq_hmb` | 齊桓公引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](813_xhq_hmb.json) |
 | `816_kfm_jer` | 周太史（田世家卜完未名者） | [《史記・田敬仲完世家》][28] | [JSON](816_kfm_jer.json) |
 | `81b_bpq_qcv` | 周武王 | [《史記・劉敬叔孫通列傳》][81] | [JSON](81b_bpq_qcv.json) |
@@ -1382,6 +1385,7 @@
 | `9yz_2do_3dm` | 蘇代 | [《史記・魏世家》][26] | [JSON](9yz_2do_3dm.json) |
 | `9zv_c2c_v3b` | 仇液 | [《史記・穰侯列傳》][54] | [JSON](9zv_c2c_v3b.json) |
 | `a00_ney_bf4` | 象 | [《史記・五帝本紀》][1] | [JSON](a00_ney_bf4.json) |
+| `a05_brz_8xe` | 天子（公孫弘徵召敘事） | [《史記・平津侯主父列傳》][94] | [JSON](a05_brz_8xe.json) |
 | `a0a_4q4_biw` | 韓襄王 | [《史記・秦本紀》][5] | [JSON](a0a_4q4_biw.json) |
 | `a0l_8nr_2to` | 齊湣王相（議歸楚太子未名者） | [《史記・楚世家》][22] | [JSON](a0l_8nr_2to.json) |
 | `a0l_wan_b7q` | 棄疾 | [《史記・楚世家》][22] | [JSON](a0l_wan_b7q.json) |
@@ -1626,6 +1630,7 @@
 | `bvb_d1z_fd0` | 尉佗 | [《史記・孝文本紀》][10] | [JSON](bvb_d1z_fd0.json) |
 | `bvi_h86_vk1` | 陳軫 | [《史記・張儀列傳》][52] | [JSON](bvi_h86_vk1.json) |
 | `bvk_gpk_f1b` | 鄭子產 | [《史記・仲尼弟子列傳》][49] | [JSON](bvk_gpk_f1b.json) |
+| `bvn_k2n_f84` | 朱買臣 | [《史記・平津侯主父列傳》][94] | [JSON](bvn_k2n_f84.json) |
 | `bvo_240_ek3` | 周幽王 | [《史記・周本紀》][4] | [JSON](bvo_240_ek3.json) |
 | `bwl_rr1_upp` | 景差 | [《史記・屈原賈生列傳》][66] | [JSON](bwl_rr1_upp.json) |
 | `bwv_ob8_6xi` | 共敖 | [《史記・項羽本紀》][7] | [JSON](bwv_ob8_6xi.json) |
@@ -2170,6 +2175,7 @@
 | `fm3_f8m_0vr` | 欒逞（欒書孫） | [《史記・晉世家》][21] | [JSON](fm3_f8m_0vr.json) |
 | `fmb_kx3_vmm` | 鉏麑（刺盾者） | [《史記・晉世家》][21] | [JSON](fmb_kx3_vmm.json) |
 | `fmd_j09_ef0` | 比干（引古） | [《史記・蒙恬列傳》][70] | [JSON](fmd_j09_ef0.json) |
+| `fmh_dmt_cql` | 汲黯 | [《史記・平津侯主父列傳》][94] | [JSON](fmh_dmt_cql.json) |
 | `fmk_3kl_4cb` | 宛若 | [《史記・孝武本紀》][12] | [JSON](fmk_3kl_4cb.json) |
 | `fmo_6wd_9wn` | 壽（荼異母兄） | [《史記・齊太公世家》][14] | [JSON](fmo_6wd_9wn.json) |
 | `fn4_068_lvo` | 項王 | [《史記・李斯列傳》][69] | [JSON](fn4_068_lvo.json) |
@@ -2215,12 +2221,6 @@
 | `fw7_8k1_43d` | 周最 | [《史記・孟嘗君列傳》][57] | [JSON](fw7_8k1_43d.json) |
 | `fw9_g5w_om8` | 堯 | [《史記・趙世家》][25] | [JSON](fw9_g5w_om8.json) |
 | `fwf_1wp_wzg` | 呂太后 | [《史記・齊悼惠王世家》][34] | [JSON](fwf_1wp_wzg.json) |
-| `fwu_nkh_9qr` | 張羽 | [《史記・吳王濞列傳》][88] | [JSON](fwu_nkh_9qr.json) |
-| `fx4_w1m_tu6` | 平原君趙勝 | [《史記・平原君虞卿列傳》][58] | [JSON](fx4_w1m_tu6.json) |
-| `fx4_ybu_7b9` | 長盧 | [《史記・孟子荀卿列傳》][56] | [JSON](fx4_ybu_7b9.json) |
-| `fxa_91g_1cz` | 召滑 | [《史記・樗里子甘茂列傳》][53] | [JSON](fxa_91g_1cz.json) |
-| `fxc_ppb_ofs` | 丞相敞未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](fxc_ppb_ofs.json) |
-| `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][26] | [JSON](fxh_d0f_a1l.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
@@ -2315,3 +2315,4 @@
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
+[94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
