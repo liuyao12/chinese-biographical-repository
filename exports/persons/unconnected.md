@@ -868,7 +868,7 @@
 | `6hn_lac_kwl` | 尉繚 | [《史記・秦始皇本紀》][6] | [JSON](6hn_lac_kwl.json) |
 | `6hq_bb2_3rb` | 扁鵲 | [《史記・扁鵲倉公列傳》][87] | [JSON](6hq_bb2_3rb.json) |
 | `6hu_5eu_5t3` | 馮梁 | [《史記・樊酈滕灌列傳》][77] | [JSON](6hu_5eu_5t3.json) |
-| `6hy_i1z_hu2` | 韓安國 | [《史記・魏其武安侯列傳》][89] | [JSON](6hy_i1z_hu2.json) |
+| `6hy_i1z_hu2` | 韓安國 | [《史記・韓長孺列傳》][90] | [JSON](6hy_i1z_hu2.json) |
 | `6i8_efe_yzr` | 燕將保聊城未名 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](6i8_efe_yzr.json) |
 | `6in_5g6_f6d` | 趙高 | [《史記・劉敬叔孫通列傳》][81] | [JSON](6in_5g6_f6d.json) |
 | `6ip_dr3_fbl` | 禹 | [《史記・夏本紀》][2] | [JSON](6ip_dr3_fbl.json) |
@@ -1352,7 +1352,6 @@
 | `a82_krd_hlg` | 薄太后 | [《史記・孝文本紀》][10]、[《史記・絳侯周勃世家》][39] | [JSON](a82_krd_hlg.json) |
 | `a8j_xnu_ibi` | 通（曹隱公） | [《史記・管蔡世家》][17] | [JSON](a8j_xnu_ibi.json) |
 | `a9f_5ms_y31` | 陳恢 | [《史記・高祖本紀》][8] | [JSON](a9f_5ms_y31.json) |
-| `a9j_o55_q8g` | 馬邑敘事太后 | [《史記・韓長孺列傳》][90] | [JSON](a9j_o55_q8g.json) |
 | `a9s_6ix_kzx` | 趙袑 | [《史記・趙世家》][25] | [JSON](a9s_6ix_kzx.json) |
 | `a9s_bmk_9h5` | 彭祖（陸終子） | [《史記・楚世家》][22] | [JSON](a9s_bmk_9h5.json) |
 | `aa9_8gx_l6j` | 御說（宋桓公） | [《史記・宋微子世家》][20] | [JSON](aa9_8gx_l6j.json) |
@@ -2797,12 +2796,11 @@
 | `l1v_yo7_of0` | 知伯 | [《史記・趙世家》][25] | [JSON](l1v_yo7_of0.json) |
 | `l1x_fpj_80w` | 代王嘉 | [《史記・刺客列傳》][68] | [JSON](l1x_fpj_80w.json) |
 | `l24_c0r_qj2` | 扈輒 | [《史記・趙世家》][25] | [JSON](l24_c0r_qj2.json) |
-| `l26_mjw_rwe` | 孝文后／竇太后 | [《史記・魏其武安侯列傳》][89] | [JSON](l26_mjw_rwe.json) |
+| `l26_mjw_rwe` | 孝文后／竇太后 | [《史記・韓長孺列傳》][90] | [JSON](l26_mjw_rwe.json) |
 | `l2j_rm8_h4z` | 秦昭王 | [《史記・范睢蔡澤列傳》][61] | [JSON](l2j_rm8_h4z.json) |
 | `l2k_zrx_xfr` | 濟北王未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](l2k_zrx_xfr.json) |
 | `l2m_bae_5ox` | 簡公引古未定 | [《史記・李斯列傳》][69] | [JSON](l2m_bae_5ox.json) |
 | `l34_njn_6uw` | 臧荼 | [《史記・高祖本紀》][8] | [JSON](l34_njn_6uw.json) |
-| `l3m_tk9_u47` | 田蚡 | [《史記・韓長孺列傳》][90] | [JSON](l3m_tk9_u47.json) |
 | `l3n_6lt_37x` | 尾生 | [《史記・蘇秦列傳》][51] | [JSON](l3n_6lt_37x.json) |
 | `l3w_spq_7qn` | 蘇秦 | [《史記・張儀列傳》][52] | [JSON](l3w_spq_7qn.json) |
 | `l3x_dtn_i0u` | 李良 | [《史記・張耳陳餘列傳》][71] | [JSON](l3x_dtn_i0u.json) |
