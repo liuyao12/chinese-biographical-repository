@@ -1732,7 +1732,7 @@
 | `d9t_tnl_qbw` | 堯 | [《史記・蘇秦列傳》][51] | [JSON](d9t_tnl_qbw.json) |
 | `d9u_3uy_sms` | 魏豹 | [《史記・魏豹彭越列傳》][72] | [JSON](d9u_3uy_sms.json) |
 | `d9w_fkp_wp3` | 魏公子無忌 | [《史記・魏公子列傳》][59] | [JSON](d9w_fkp_wp3.json) |
-| `da9_1jw_qp0` | 衞青 | [《史記・韓長孺列傳》][90] | [JSON](da9_1jw_qp0.json) |
+| `da9_1jw_qp0` | 衞青 | [《史記・外戚世家》][31] | [JSON](da9_1jw_qp0.json) |
 | `da9_8rf_0us` | 涉 | [《史記・孔子世家》][29] | [JSON](da9_8rf_0us.json) |
 | `db0_yyf_4td` | 許暦 | [《史記・廉頗藺相如列傳》][63] | [JSON](db0_yyf_4td.json) |
 | `db9_3sk_h2i` | 秦昭王幸姬未名 | [《史記・孟嘗君列傳》][57] | [JSON](db9_3sk_h2i.json) |
