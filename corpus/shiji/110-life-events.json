@@ -222,6 +222,62 @@
       "interpretation_note": "本段明示殺害及十四年紀年，只換年，不將入朝那蕭關推精確死亡地或由死亡終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-laoshang",
+      "person_id": "nzl_kzb_2qr",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "後四歳",
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 161,
+        "year": -160,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "後四歳，老上稽粥單于死，子軍臣立爲單于。既立，孝文皇帝復與匈奴和親。而中行說復事之。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-110-xiongnu",
+            "source_id": "s-shiji110-xiongnu",
+            "paragraph_id": "c-shiji-110-xiongnu:p027",
+            "quote": "後四歳，老上稽粥單于死，子軍臣立爲單于。既立，孝文皇帝復與匈奴和親。而中行說復事之。",
+            "person_mention_id": "c-shiji-110-xiongnu:m027-0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》卷十五文帝後三年條與數位紀年標題",
+            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
+            "quote": "是歲，匈奴老上單于死，子軍臣單于立。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《資治通鑑》卷十五數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
+            "quote": "文帝後三年（庚辰，公元前一六一年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "史記後四歳起算點未明，不能逕從前段後二年相加。《通鑑》同記老上單于死、子軍臣立於文帝後三年，故暫採前161年、天文年-160；保存史記相對紀年及此跨書編年判讀，不改寫原文。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p027",
+          "quote": "後四歳，老上稽粥單于死，子軍臣立爲單于。既立，孝文皇帝復與匈奴和親。而中行說復事之。",
+          "person_mention_id": "c-shiji-110-xiongnu:m027-0004"
+        }
+      ],
+      "interpretation_note": "明示死亡；數字年採通鑑平行事件暫定，不由死亡終止所有爵號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }

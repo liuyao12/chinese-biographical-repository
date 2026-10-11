@@ -2360,13 +2360,14 @@
 
 </details>
 
-<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（4 名）</summary>
+<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 頭曼（匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081.json) |
 | `A` | 冒頓（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_A.json) |
 | `AA` | 稽粥（匈奴列傳第18至20段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AA.json) |
+| `AAA` | 軍臣（匈奴列傳第27段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AAA.json) |
 | `B` | 少子（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_B.json) |
 
 </details>

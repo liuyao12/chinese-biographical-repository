@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前26段初標78名來源人物、349處人物及未定錨點、12筆親屬、66筆用稱、10筆死亡事件、3筆地址及18筆跨篇身份判讀。其餘35段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前27段初標79名來源人物、354處人物及未定錨點、13筆親屬、67筆用稱、11筆死亡事件、3筆地址及18筆跨篇身份判讀。其餘34段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -50,7 +50,8 @@
       "第18至20段稽粥父子與繼位各存，接頭曼父系但不補生母與排行；後頃之不換精確年。宗室女另存，不補生父。中行說之說按本段敘事定位，燕人按原文保存。",
       "第21段為書式說明，帝與單于按文帝、老上單于敘事暫接，不補單一書信日期。第22至23段漢使對話可能為通例或多人，未建個人；父子兄弟後母為婚俗泛稱，不建立個人親屬或死亡。",
       "第24段保留本篇各爵官與授任，對讀本紀的不同軍職不覆寫；十四年只記初次入寇、任命與都尉卬死亡年，不套後續歲入邊。匿名當戶未接下一段具名使者，無死亡精確地點。",
-      "第25至26段書信與制詔：且居雕渠難、韓遼具名使者分列；先帝、章尼等、御史未定。政治父母、兄弟及泛稱父子不作個人親屬。後二年只換本信年；後續制詔未自動套同年。"
+      "第25至26段書信與制詔：且居雕渠難、韓遼具名使者分列；先帝、章尼等、御史未定。政治父母、兄弟及泛稱父子不作個人親屬。後二年只換本信年；後續制詔未自動套同年。",
+      "第27段明示稽粥之子軍臣，接頭曼父系四代；後四歳起算點未定，數字年採通鑑後三年同事件的編年，不暗改史記，不補姓氏。"
     ]
   },
   "paragraphs": [
@@ -3406,9 +3407,55 @@
     {
       "id": "c-shiji-110-xiongnu:p027",
       "text": "後四歳，老上稽粥單于死，子軍臣立爲單于。既立，孝文皇帝復與匈奴和親。而中行說復事之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m027-0004",
+          "start": 4,
+          "end": 10,
+          "surface": "老上稽粥單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m027-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "軍臣",
+          "kind": "person",
+          "person_id": "b0u_k4p_a3y",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m027-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "b0u_k4p_a3y",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m027-0023",
+          "start": 23,
+          "end": 27,
+          "surface": "孝文皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m027-0035",
+          "start": 35,
+          "end": 38,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p028",
