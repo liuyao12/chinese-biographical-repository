@@ -57,17 +57,48 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    sibling = rows.get(connection['sibling_person_id'])
-                    brother = assertions[connection['sibling_assertion_id']]
-                    father = assertions[connection['sibling_father_assertion_id']]
-                    if (connection['type'] != 'shared_father_through_sibling' or not sibling
-                        or connection['status'] != 'contextual_provisional' or not connection['rationale']
-                        or brother['predicate'] != 'brother' or brother['subject_person_id'] not in ids
-                        or brother['object_person_id'] not in sibling['source_person_ids']
-                        or father['predicate'] != 'father' or father['subject_person_id'] not in sibling['source_person_ids']
-                        or father['object_person_id'] not in rows[parent]['source_person_ids']
-                        or member['source_assertion_id'] is not None):
-                        raise ValueError('同父兄弟組裝缺少有效兄弟及父親證據')
+                    if connection['type'] == 'shared_father_through_sibling_chain':
+                        sibling_ids = connection.get('sibling_person_ids')
+                        brother_ids = connection.get('sibling_assertion_ids')
+                        valid = (isinstance(sibling_ids, list) and isinstance(brother_ids, list)
+                                 and len(sibling_ids) >= 2 and len(sibling_ids) == len(brother_ids)
+                                 and all(isinstance(x, str) for x in sibling_ids + brother_ids)
+                                 and len(set([pid] + sibling_ids)) == len(sibling_ids) + 1
+                                 and connection.get('status') == 'contextual_provisional'
+                                 and bool(connection.get('rationale'))
+                                 and member['source_assertion_id'] is None)
+                        current_ids = ids
+                        if valid:
+                            for sibling_id, brother_id in zip(sibling_ids, brother_ids):
+                                sibling = rows.get(sibling_id)
+                                brother = assertions.get(brother_id)
+                                valid = bool(sibling and brother
+                                             and sibling.get('parent_person_id') == parent
+                                             and brother['predicate'] == 'brother'
+                                             and brother.get('qualifiers', {}).get('shared_father') is not False
+                                             and brother['subject_person_id'] in current_ids
+                                             and brother['object_person_id'] in sibling['source_person_ids'])
+                                if not valid:
+                                    break
+                                current_ids = set(sibling['source_person_ids'])
+                        father = assertions.get(connection.get('sibling_father_assertion_id'))
+                        valid = (valid and bool(father) and father['predicate'] == 'father'
+                                 and father['subject_person_id'] in current_ids
+                                 and father['object_person_id'] in rows[parent]['source_person_ids'])
+                        if not valid:
+                            raise ValueError('同父兄弟鏈組裝缺少有效逐步證據')
+                    else:
+                        sibling = rows.get(connection['sibling_person_id'])
+                        brother = assertions[connection['sibling_assertion_id']]
+                        father = assertions[connection['sibling_father_assertion_id']]
+                        if (connection['type'] != 'shared_father_through_sibling' or not sibling
+                            or connection['status'] != 'contextual_provisional' or not connection['rationale']
+                            or brother['predicate'] != 'brother' or brother['subject_person_id'] not in ids
+                            or brother['object_person_id'] not in sibling['source_person_ids']
+                            or father['predicate'] != 'father' or father['subject_person_id'] not in sibling['source_person_ids']
+                            or father['object_person_id'] not in rows[parent]['source_person_ids']
+                            or member['source_assertion_id'] is not None):
+                            raise ValueError('同父兄弟組裝缺少有效兄弟及父親證據')
                     if not connection.get('references') or any(not ref.get('quote') or not ref.get('scope')
                         or not ref.get('url', '').startswith(('https://', 'http://')) for ref in connection['references']):
                         raise ValueError('同父兄弟組裝缺少限定及補證')

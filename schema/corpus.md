@@ -181,3 +181,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 原文無明示紀年的平行事件定年
 
 原文日期為空時不得補造日期字串。已核讀他書同事件及其編年時，可在 `normalized_date.basis` 記 `kind: parallel_event`、本篇精確事件引句 `source_event_quote`、參考 URL `reference_url`、他書事件原句 `reference_event_quote` 及紀年標題 `reference_year_quote`。參考列表分別以 `received_parallel_event` 與 `digital_editorial_regnal_year_equivalence_only` 保存兩項引句與相同 URL。年份保持代理暫定並附具體判讀，不暗改來源紀年、事件異說或提高精度。授任與死亡的日期可依此對讀定年，原日期欄仍為空。驗證要求引句、來源錨點、兩層參考與年編號完整；它不證明兩事件同指的學術判讀。
+
+同父的多步兄弟組裝使用 `parent_connection.type: shared_father_through_sibling_chain`，`sibling_person_ids` 與 `sibling_assertion_ids` 依順序一一相接，最後由 `sibling_father_assertion_id` 連到所選父親。每步必須有方向相符的兄弟原始陳述，同族同父候選節點不得重複；終點須有明示父親陳述。此為 `contextual_provisional` 編輯組裝，須保存判讀與補證，`source_assertion_id` 為 null，不能把多步推定抄成原文明記父子或同母。原有單步 `shared_father_through_sibling` 仍可使用。

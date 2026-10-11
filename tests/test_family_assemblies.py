@@ -10,6 +10,45 @@ from person_bundle import load_catalog, ROOT
 
 
 class FamilyAssembliesTests(unittest.TestCase):
+    def test_sibling_chain_keeps_inference_separate_from_direct_father(self):
+        source, rows = load_assemblies(ROOT, load_catalog(ROOT))
+        king = source['aok_z9g_2q0']
+        daughter = source['kkp_u3c_w4l']
+        self.assertEqual(king['parent_person_id'], 'wjt_htu_081_AAB')
+        self.assertIsNone(king['source_assertion_id'])
+        self.assertEqual(king['parent_connection']['sibling_assertion_ids'],
+                         ['a-shiji110-024', 'a-shiji110-022'])
+        self.assertEqual(daughter['parent_person_id'], king['person_id'])
+        self.assertEqual(daughter['source_assertion_id'], 'a-shiji110-025')
+
+    def test_sibling_chain_rejects_broken_steps_and_explicit_different_father(self):
+        original = json.loads((ROOT / 'registry/family-assemblies.json').read_text())
+        for alteration in ('missing_step', 'reverse', 'cycle', 'wrong_father', 'different_father'):
+            with self.subTest(alteration=alteration):
+                data = copy.deepcopy(original)
+                catalog = copy.deepcopy(load_catalog(ROOT))
+                family = next(f for f in data['assemblies'] if f['id'] == 'family-touman-shiji110')
+                member = next(m for m in family['members'] if m['representative_source_person_id'] == 'aok_z9g_2q0')
+                connection = member['parent_connection']
+                if alteration == 'missing_step':
+                    connection['sibling_assertion_ids'].pop()
+                elif alteration == 'reverse':
+                    connection['sibling_assertion_ids'].reverse()
+                elif alteration == 'cycle':
+                    connection['sibling_person_ids'][0] = member['person_id']
+                elif alteration == 'wrong_father':
+                    connection['sibling_father_assertion_id'] = 'a-shiji110-020'
+                else:
+                    record = next(r for r in catalog[1] if r.get('record_type') == 'person_assertion_set'
+                                  and any(a['id'] == 'a-shiji110-024' for a in r['assertions']))
+                    next(a for a in record['assertions'] if a['id'] == 'a-shiji110-024')['qualifiers']['shared_father'] = False
+                with tempfile.TemporaryDirectory() as folder:
+                    root = Path(folder)
+                    (root / 'registry').mkdir()
+                    (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
+                    with self.assertRaisesRegex(ValueError, '同父兄弟鏈組裝缺少有效逐步證據'):
+                        load_assemblies(root, catalog)
+
     def test_han_changru_royal_candidates_join_existing_paternal_nodes(self):
         source, rows = load_assemblies(ROOT, load_catalog(ROOT))
         pairs = [('639_gt7_91e', 'yqp_nlb_p1p'), ('dx5_rnj_d5t', 'yqp_nlb_p1p_A'),

@@ -1433,7 +1433,6 @@
 | `ao1_jlu_689` | 太叔（孔子世家被攻未名者） | [《史記・孔子世家》][29] | [JSON](ao1_jlu_689.json) |
 | `ao8_ud8_zti` | 趙希 | [《史記・趙世家》][25] | [JSON](ao8_ud8_zti.json) |
 | `aoj_li6_wuk` | 防與先生 | [《史記・楚元王世家》][32] | [JSON](aoj_li6_wuk.json) |
-| `aok_z9g_2q0` | 且鞮侯（匈奴列傳第56段） | [《史記・匈奴列傳》][92] | [JSON](aok_z9g_2q0.json) |
 | `aol_56w_7zb` | 公孫敖（匈奴列傳第31至32段） | [《史記・匈奴列傳》][92] | [JSON](aol_56w_7zb.json) |
 | `aon_o1a_cxi` | 陳軫 | [《史記・韓世家》][27] | [JSON](aon_o1a_cxi.json) |
 | `apo_85x_sj0` | 魏王欲事未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](apo_85x_sj0.json) |
@@ -2825,7 +2824,6 @@
 | `kkh_4au_tm8` | 魏王豹 | [《史記・留侯世家》][37] | [JSON](kkh_4au_tm8.json) |
 | `kki_4ee_3i7` | 魯元 | [《史記・樊酈滕灌列傳》][77] | [JSON](kki_4ee_3i7.json) |
 | `kkk_e2u_lm4` | 趙鞅 | [《史記・吳太伯世家》][13]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16] | [JSON](kkk_e2u_lm4.json) |
-| `kkp_u3c_w4l` | 且鞮侯之女（未名，妻李陵者） | [《史記・匈奴列傳》][92] | [JSON](kkp_u3c_w4l.json) |
 | `kl1_9wf_nmq` | 孟姚 | [《史記・趙世家》][25] | [JSON](kl1_9wf_nmq.json) |
 | `klu_n74_itc` | 榮聶政姊 | [《史記・刺客列傳》][68] | [JSON](klu_n74_itc.json) |
 | `km2_zqy_p8q` | 越王句踐 | [《史記・仲尼弟子列傳》][49] | [JSON](km2_zqy_p8q.json) |
