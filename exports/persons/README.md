@@ -177,6 +177,16 @@
 
 </details>
 
+<details><summary><code>1ex_se1_yef</code> 張湯父（未名）（酷吏列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 張湯父（未名） | [《史記・酷吏列傳》][104] | [JSON](1ex_se1_yef.json) |
+| `A` | 張湯 | [《史記・酷吏列傳》][104] | [JSON](1ex_se1_yef_A.json) |
+| `AA` | 安世 | [《史記・酷吏列傳》][104] | [JSON](1ex_se1_yef_AA.json) |
+
+</details>
+
 <details><summary><code>1f5_azb_lmy</code> 專諸（刺客列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -573,6 +583,15 @@
 |---|---|---|---|
 | `根` | 秦惠王 | [《史記・蘇秦列傳》][51] | [JSON](6oy_t19_ywe.json) |
 | `A` | 秦惠王女 | [《史記・蘇秦列傳》][51] | [JSON](6oy_t19_ywe_A.json) |
+
+</details>
+
+<details><summary><code>6r8_jki_snj</code> 趙兼（酷吏列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 趙兼 | [《史記・酷吏列傳》][104] | [JSON](6r8_jki_snj.json) |
+| `A` | 周陽由 | [《史記・酷吏列傳》][104] | [JSON](6r8_jki_snj_A.json) |
 
 </details>
 
@@ -3237,3 +3256,4 @@
 [101]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
 [102]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127
 [103]: https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621
+[104]: https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124
