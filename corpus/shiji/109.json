@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；前18段53名來源候選、307處人物及未定錨點、5筆地址、14筆親屬、89筆官爵秩稱與敘事用稱及11筆死亡事件。其餘2段、其他日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄並初步逐段標註；54名來源候選、312處人物及未定錨點、5筆地址、14筆親屬、91筆官爵秩稱與敘事用稱及11筆死亡事件。日期、跨篇同指、代詞與底本影像仍待核，不宣稱全部覆核完成。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
@@ -55,7 +55,8 @@
       "李蔡廣死明年暫依李廣卒年換前118年，其他相對日期未定；去病未補外部姓氏。",
       "第16段明記李陵全名，承接前段當戸遺腹子；使將八百騎不另作將軍官爵。",
       "第17段貳師為李廣利本段短稱；天漢二年秋只作本次用稱日期，數字換年待核，不將較早同稱單于或右賢王合併。",
-      "族陵母妻子之子保留未定人數群體，不補姓名或獨子；單于女與在漢妻分存候選。族誅年月未明，不承用天漢二年秋。"
+      "族陵母妻子之子保留未定人數群體，不補姓名或獨子；單于女與在漢妻分存候選。族誅年月未明，不承用天漢二年秋。",
+      "太史公與余依同段自稱連敘述者候選；李將軍及索隱贊名將依篇末語境連李廣，桃李為諺語不作人名，論贊不新增授官、封侯或死亡事件。"
     ]
   },
   "paragraphs": [
@@ -2969,16 +2970,63 @@
     {
       "id": "c-shiji-109-liguang:p019",
       "text": "太史公曰：傳曰：「其身正，不令而行；其身不正，雖令不從。」其李將軍之謂也？余睹李將軍悛悛如鄙人，口不能道辭。及死之日，天下知與不知，皆爲盡哀。彼其忠實心誠信於士大夫也？諺曰「桃李不言，下自成蹊」。此言雖小，可以諭大也。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m019-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "person",
+          "person_id": "qii_pl5_1ei",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m019-0030",
+          "start": 30,
+          "end": 33,
+          "surface": "李將軍",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m019-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "余",
+          "kind": "person",
+          "person_id": "qii_pl5_1ei",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m019-0039",
+          "start": 39,
+          "end": 42,
+          "surface": "李將軍",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p020",
       "text": "猿臂善射，實負其能。解鞍卻敵，圓陣摧鋒。邊郡屢守，大軍再從。失道見斥，數奇不封。惜哉名將，天下無雙！",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "witness_appended_suoyin_zan",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m020-0042",
+          "start": 42,
+          "end": 44,
+          "surface": "名將",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }
