@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前8段初標45名來源候選、128處人物及未定錨點、10筆親屬、18筆用稱及7筆死亡事件。其餘53段、其他官爵日期與跨篇同指待核。",
+    "coverage": "全61段轉錄；前10段初標45名來源人物、162處人物及未定錨點、10筆親屬、18筆用稱、7筆死亡事件及2筆死亡地點。其餘51段、其他官爵日期與跨篇同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -40,7 +40,9 @@
       "第5段單于曰頭曼直接連本段稱號；蒙恬承前段同名敘事，十餘年未作精確公元年換算，族群及諸侯群體不補個人。",
       "第6段少子與弟、閼氏與後母依敘事暫定同指；後母關係獨立保存，冒頓生母未知，太子不等於長子，愛妻被射未補死亡。",
       "第7段閼氏接冒頓，與第6段頭曼閼氏分開；愛妻不按女性身份自動與本段閼氏合併，白羊河南王保留未定錨點。項羽以既有來源ID承接秦末漢楚交戰人物，群臣與族群尚待細標。",
-      "第7段滅東胡王未自動作明示死亡；第8段自淳維至頭曼千有餘歲不是父子或可補造世系的證據。"
+      "第7段滅東胡王未自動作明示死亡；第8段自淳維至頭曼千有餘歲不是父子或可補造世系的證據。",
+      "第9段官號及三姓為制度泛稱或氏族，不建立個人，不將常以太子為左屠耆王推作冒頓任職，單于之庭的代雲中不改作個人籍貫。",
+      "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。"
     ]
   },
   "paragraphs": [
@@ -1263,16 +1265,324 @@
     {
       "id": "c-shiji-110-xiongnu:p009",
       "text": "置左右賢王，左右谷蠡王，左右大將，左右大都尉，左右大當戶，左右骨都侯。匈奴謂賢曰「屠耆」，故常以太子爲左屠耆王。自如左右賢王以下至當戶，大者萬騎，小者數千，凡二十四長，立號曰「萬騎」。諸大臣皆世官。呼衍氏，蘭氏，其後有須卜氏，此三姓其貴種也。諸左方王將居東方，直上谷以往者，東接穢貉、朝鮮；右方王將居西方，直上郡以西，接月氏、氐、羌；而單于之庭直代、雲中：各有分地，逐水草移徙。而左右賢王、左右谷蠡王最爲大（國），左右骨都侯輔政。諸二十四長亦各自置千長、百長、什長、裨小王、相、封都尉、當戶、且渠之屬。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m009-0001",
+          "start": 1,
+          "end": 5,
+          "surface": "左右賢王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0006",
+          "start": 6,
+          "end": 11,
+          "surface": "左右谷蠡王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0012",
+          "start": 12,
+          "end": 16,
+          "surface": "左右大將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0017",
+          "start": 17,
+          "end": 22,
+          "surface": "左右大都尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0023",
+          "start": 23,
+          "end": 28,
+          "surface": "左右大當戶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0029",
+          "start": 29,
+          "end": 34,
+          "surface": "左右骨都侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "太子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0051",
+          "start": 51,
+          "end": 55,
+          "surface": "左屠耆王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0058",
+          "start": 58,
+          "end": 62,
+          "surface": "左右賢王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "當戶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0079",
+          "start": 79,
+          "end": 83,
+          "surface": "二十四長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "大臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0099",
+          "start": 99,
+          "end": 102,
+          "surface": "呼衍氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "蘭氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0109",
+          "start": 109,
+          "end": 112,
+          "surface": "須卜氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0122",
+          "start": 122,
+          "end": 126,
+          "surface": "左方王將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0145",
+          "start": 145,
+          "end": 149,
+          "surface": "右方王將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0168",
+          "start": 168,
+          "end": 170,
+          "surface": "單于",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0190",
+          "start": 190,
+          "end": 194,
+          "surface": "左右賢王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0195",
+          "start": 195,
+          "end": 200,
+          "surface": "左右谷蠡王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0207",
+          "start": 207,
+          "end": 212,
+          "surface": "左右骨都侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0216",
+          "start": 216,
+          "end": 220,
+          "surface": "二十四長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0224",
+          "start": 224,
+          "end": 226,
+          "surface": "千長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0227",
+          "start": 227,
+          "end": 229,
+          "surface": "百長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0230",
+          "start": 230,
+          "end": 232,
+          "surface": "什長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0233",
+          "start": 233,
+          "end": 236,
+          "surface": "裨小王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0237",
+          "start": 237,
+          "end": 238,
+          "surface": "相",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0239",
+          "start": 239,
+          "end": 242,
+          "surface": "封都尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0243",
+          "start": 243,
+          "end": 245,
+          "surface": "當戶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m009-0246",
+          "start": 246,
+          "end": 248,
+          "surface": "且渠",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p010",
       "text": "歳正月，諸長小會單于庭，祠。五月，大會蘢城，祭其先、天地、鬼神。秋，馬肥，大會蹛林，課校人畜計。其法，拔刃尺者死，坐盜者沒入其家；有罪小者軋，大者死。獄久者不過十日，一國之囚不過數人。而單于朝出營，拜日之始生，夕拜月。其坐，長左而北鄉。日上戊己。其送死，有棺槨金銀衣裘，而無封樹喪服；近幸臣妾從死者，多至數千百人。舉事而候星月，月盛壯則攻戰，月虧則退兵。其攻戰，斬首虜賜一卮酒，而所得鹵獲因以予之，得人以爲奴婢。故其戰，人人自爲趣利，善爲誘兵以冒敵。故其見敵則逐利，如鳥之集；其困敗，則瓦解雲散矣。戰而扶輿死者，盡得死者家財。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m010-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "諸長",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m010-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "單于",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m010-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "單于",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m010-0142",
+          "start": 142,
+          "end": 146,
+          "surface": "近幸臣妾",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p011",
