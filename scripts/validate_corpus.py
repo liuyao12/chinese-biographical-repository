@@ -463,7 +463,9 @@ def validate(root=ROOT):
                         valid=(duration['unit']=='regnal_year' and duration['counting']=='inclusive_regnal_years'
                                and duration['status']=='source_attested' and type(duration['value']) is int
                                and duration['value']==parsed and parsed is not None
-                               and isinstance(duration['source_term'],str) and number+'年' in duration['source_term']
+                               and isinstance(duration['source_term'],str)
+                               and re.search(r'(?<![零〇一二三四五六七八九十百千萬億廿卅卌兩])'
+                                             +re.escape(number)+r'(?:年|歲|歳)',duration['source_term']) is not None
                                and isinstance(duration['evidence'],list) and bool(duration['evidence'])
                                and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                        and duration['source_term'] in e['quote'] for e in duration['evidence']))
@@ -643,6 +645,8 @@ def validate(root=ROOT):
                 if date_context is not None:
                     order = [p['id'] for p in chapters.get(record['chapter_id'], {}).get('paragraphs', [])]
                     ids = date_context.get('paragraph_ids') if isinstance(date_context, dict) else None
+                    date_paragraph_id = (date_context.get('date_paragraph_id', ids[0] if isinstance(ids, list) and ids else None)
+                                         if isinstance(date_context, dict) else None)
                     continuous_date = (isinstance(date_context, dict)
                         and date_context.get('kind') == 'continuous_paragraphs'
                         and isinstance(ids, list) and 2 <= len(ids) <= 4
@@ -650,9 +654,10 @@ def validate(root=ROOT):
                         and all(pid in order for pid in ids)
                         and all(order.index(ids[i]) + 1 == order.index(ids[i + 1]) for i in range(len(ids) - 1))
                         and isinstance(expression, str) and bool(expression)
-                        and expression in event['evidence'][0]['quote']
+                        and date_paragraph_id in ids
+                        and expression in next((e['quote'] for e in event['evidence'] if e['paragraph_id'] == date_paragraph_id), '')
                         and bool(date_context.get('rationale')))
-                    check(continuous_date, '生卒紀年承接須有連續同篇段落與首段日期')
+                    check(continuous_date, '生卒紀年承接須有連續同篇段落與明示日期段')
                 for evidence in event['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
                     valid = bool(hit) and hit[0] == evidence['chapter_id'] == record['chapter_id']

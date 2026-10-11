@@ -148,7 +148,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `attestations` 可另保存 `date_expression` 與 `normalized_date`，記錄來源在何年使用該稱號。此年不作授爵、任職起點或終點；`effective_period` 仍獨立保存，未知時保持 `unknown`。
 
-稱號可另附 `reported_duration` 保存來源明記的在位年數：`value` 為正整數，`unit: regnal_year`、`counting: inclusive_regnal_years`、`status: source_attested`；`source_number` 保存原數詞，`source_term` 保存含年數的原詞，`evidence` 指向有持有人錨點的篇段。例如「立十三年死」保存數值 13 與原詞「十三」。這是含起年計數的在位紀年，不是完整公曆年長度，不推精確起訖日，也不以死亡自動終止全部官爵。現行驗證支援一至九十九的標準中文數詞，其他形式須先擴充有測試的轉換與驗證，不可略過證據檢查。
+稱號可另附 `reported_duration` 保存來源明記的在位年數：`value` 為正整數，`unit: regnal_year`、`counting: inclusive_regnal_years`、`status: source_attested`；`source_number` 保存原數詞，`source_term` 保存含年數的原詞，`evidence` 指向有持有人錨點的篇段。例如「立十三年死」保存數值 13 與原詞「十三」；「立十歳而死」保存數值 10，來源的「年／歲／歳」原字均保留。這是含起年計數的在位紀年，不是完整公曆年長度，不推精確起訖日，也不以死亡自動終止全部官爵。敘事中「立三年」表示在位第三年的時點，不作完整任期；留置或出使年數也不作稱號在位年數。現行驗證支援一至九十九的標準中文數詞，其他形式須先擴充有測試的轉換與驗證，不可略過證據檢查。
 
 若本段沒有明言紀年、而由前文連續事件暫定年份，`date_expression` 為 `null`；`normalized_date.evidence` 同時列本段原句與前文紀年，理由說明承接及限制。不能因檢視到某年稱呼便把官爵起訖填入同年。換算仍為 `editorial_provisional`、年精度及未經人工覆核；只用核讀過的年對照，不默改原文月日。
 
@@ -166,7 +166,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 官職資料可用 `appointment_role: acting` 明標來源所述代理職務，例如「行丞相事」；這與來源用稱的 `mode: attestation` 分開，使用端不必靠自然語言推定代理性質。缺少此欄位不自動表示正式實任。
 
-生卒事件的紀年若承接同篇連續敘事，可記 `date_context.kind: continuous_paragraphs`、依序的 `paragraph_ids` 與具體 `rationale`。證據須含二至四個連續段落，各段都有事件人物在引句內的錨點，首段須有原日期表述；數字紀年仍為代理判讀，不是來源在死亡句直接明載。卷一百〇九李廣自剄以第十二至十四段承接元狩四年，暫換前119年，保留全部原句，不以年齡反推生年，也不據卒年截斷全部官爵。
+生卒事件的紀年若承接同篇連續敘事，可記 `date_context.kind: continuous_paragraphs`、依序的 `paragraph_ids` 與具體 `rationale`。證據須含二至四個連續段落，各段都有事件人物在引句內的錨點；日期預設在首段。若後段重新敘述同一事件並補明紀年，須另以 `date_paragraph_id` 明指其中含原日期表述的段落，不得默認後段日期可套前事。數字紀年仍為代理判讀。卷一百〇九李廣自剄以第十二至十四段承接元狩四年，暫換前119年；卷一百一十烏維死亡在第四十八至四十九段重述，第四十九段明言元封六年，記前105年。各原句保留，不以年齡反推生年，也不據卒年截斷全部官爵。
 
 ## 生卒事件
 
