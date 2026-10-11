@@ -1781,6 +1781,7 @@
 | `dhv_na8_x3q` | 渉賓 | [《史記・趙世家》][25] | [JSON](dhv_na8_x3q.json) |
 | `di1_tea_bkj` | 曲沃莊伯 | [《史記・楚世家》][22] | [JSON](di1_tea_bkj.json) |
 | `dic_j3m_5rx` | 淮南王未具名 | [《史記・張釋之馮唐列傳》][84] | [JSON](dic_j3m_5rx.json) |
+| `dii_rtq_23m` | 李陵母（未名） | [《史記・李將軍列傳》][91] | [JSON](dii_rtq_23m.json) |
 | `dik_hub_0os` | 老子引稱 | [《史記・扁鵲倉公列傳》][87] | [JSON](dik_hub_0os.json) |
 | `dip_c4z_kc6` | 韓安國 | [《史記・萬石張叔列傳》][85] | [JSON](dip_c4z_kc6.json) |
 | `dj2_abb_e9l` | 成公（燕孝公後） | [《史記・燕召公世家》][16] | [JSON](dj2_abb_e9l.json) |
@@ -3835,6 +3836,7 @@
 | `sqk_n7e_eyk` | 膠東王未具名 | [《史記・萬石張叔列傳》][85] | [JSON](sqk_n7e_eyk.json) |
 | `sqm_9mg_poc` | 許鈞 | [《史記・趙世家》][25] | [JSON](sqm_9mg_poc.json) |
 | `sr6_5zr_1f3` | 龍且 | [《史記・高祖本紀》][8] | [JSON](sr6_5zr_1f3.json) |
+| `srg_5v7_b3r` | 李陵在漢妻（未名） | [《史記・李將軍列傳》][91] | [JSON](srg_5v7_b3r.json) |
 | `srh_4ts_334` | 漢惠帝 | [《史記・張丞相列傳》][78] | [JSON](srh_4ts_334.json) |
 | `ss6_lvt_mi1` | 秦御史 | [《史記・蕭相國世家》][35] | [JSON](ss6_lvt_mi1.json) |
 | `ss9_tub_gzp` | 故濟北王阿母未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ss9_tub_gzp.json) |
@@ -4402,7 +4404,6 @@
 | `x8u_5uo_ch7` | 魏文侯 | [《史記・仲尼弟子列傳》][49] | [JSON](x8u_5uo_ch7.json) |
 | `x8u_6uv_esq` | 酈食其 | [《史記・酈生陸賈列傳》][79] | [JSON](x8u_6uv_esq.json) |
 | `x99_1e5_dbn` | 楚威王 | [《史記・越王勾踐世家》][23] | [JSON](x99_1e5_dbn.json) |
-| `x9i_8zv_ker` | 天漢二年單于（未名） | [《史記・李將軍列傳》][91] | [JSON](x9i_8zv_ker.json) |
 | `x9j_eu1_vck` | 秦惠王 | [《史記・張儀列傳》][52] | [JSON](x9j_eu1_vck.json) |
 | `x9l_eux_c3n` | 申陽 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](x9l_eux_c3n.json) |
 | `x9n_lwg_op5` | 騶田生 | [《史記・韓長孺列傳》][90] | [JSON](x9n_lwg_op5.json) |
