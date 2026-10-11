@@ -2252,7 +2252,7 @@
 | `gt6_lcc_g2n` | 齊王太后未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](gt6_lcc_g2n.json) |
 | `gt7_y57_atj` | 廉頗 | [《史記・廉頗藺相如列傳》][63] | [JSON](gt7_y57_atj.json) |
 | `gtf_oo3_boo` | 管至父 | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14] | [JSON](gtf_oo3_boo.json) |
-| `gtg_ugc_14i` | 石建 | [《史記・李將軍列傳》][91] | [JSON](gtg_ugc_14i.json) |
+| `gtg_ugc_14i` | 石建 | [《史記・萬石張叔列傳》][85] | [JSON](gtg_ugc_14i.json) |
 | `gts_qwq_ofq` | 夫差（楚篇吳王） | [《史記・楚世家》][22] | [JSON](gts_qwq_ofq.json) |
 | `gu2_fde_5bw` | 種（越大夫） | [《史記・越王勾踐世家》][23] | [JSON](gu2_fde_5bw.json) |
 | `gu5_ugq_r65` | 黃帝引古傳說 | [《史記・李斯列傳》][69] | [JSON](gu5_ugq_r65.json) |
