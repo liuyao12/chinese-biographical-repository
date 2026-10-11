@@ -997,6 +997,25 @@
 
 </details>
 
+<details><summary><code>brp_v5i_sjg</code> 高祖（淮南衡山列傳候選）（12 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 高祖 | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg.json) |
+| `A` | 淮南厲王長 | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_A.json) |
+| `AA` | 安（劉長子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AA.json) |
+| `AAA` | 陵（淮南王女） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AAA.json) |
+| `AAB` | 不害 | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AAB.json) |
+| `AABA` | 建（不害子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AABA.json) |
+| `AB` | 勃（劉長子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AB.json) |
+| `AC` | 賜（劉長子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AC.json) |
+| `ACA` | 爽（衡山太子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_ACA.json) |
+| `ACB` | 孝（衡山王子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_ACB.json) |
+| `ACC` | 無采 | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_ACC.json) |
+| `AD` | 良（劉長子） | [《史記・淮南衡山列傳》][100] | [JSON](brp_v5i_sjg_AD.json) |
+
+</details>
+
 <details><summary><code>buv_igi_gpn</code> 帝乙（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2254,6 +2273,15 @@
 
 </details>
 
+<details><summary><code>sz5_p7t_1dv</code> 辟陽侯（淮南衡山列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 辟陽侯 | [《史記・淮南衡山列傳》][100] | [JSON](sz5_p7t_1dv.json) |
+| `*A` | 審卿 | [《史記・淮南衡山列傳》][100] | [JSON](sz5_p7t_1dv_%2AA.json) |
+
+</details>
+
 <details><summary><code>t3i_l5f_u0p</code> 絳侯父稱候選（吳王濞列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2301,7 +2329,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 柴武 | [《史記・袁盎鼂錯列傳》][83] | [JSON](tqe_7o9_t4k.json) |
-| `A` | 柴武太子未名 | [《史記・孝文本紀》][10]、[《史記・袁盎鼂錯列傳》][83] | [JSON](tqe_7o9_t4k_A.json) |
+| `A` | 柴武太子未名 | [《史記・淮南衡山列傳》][100] | [JSON](tqe_7o9_t4k_A.json) |
 
 </details>
 
@@ -2927,7 +2955,7 @@
 | `AEA` | 遂（趙幽王子） | [《史記・楚元王世家》][32] | [JSON](yqp_nlb_p1p_AEA.json) |
 | `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][10]、[《史記・楚元王世家》][32] | [JSON](yqp_nlb_p1p_AEB.json) |
 | `AEBA` | 福 | [《史記・楚元王世家》][32] | [JSON](yqp_nlb_p1p_AEBA.json) |
-| `AF` | 長（高祖子） | [《史記・袁盎鼂錯列傳》][83] | [JSON](yqp_nlb_p1p_AF.json) |
+| `AF` | 長（高祖子） | [《史記・淮南衡山列傳》][100] | [JSON](yqp_nlb_p1p_AF.json) |
 | `AG` | 建（高祖子） | [《史記・高祖本紀》][8]、[《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AG.json) |
 | `AH` | 如意（高祖子） | [《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AH.json) |
 | `AI` | 魯元（本卷稱呼） | [《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AI.json) |
@@ -3150,3 +3178,4 @@
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
+[100]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
