@@ -511,7 +511,7 @@
 | `3ti_3ui_sdb` | 杜赫 | [《史記・秦始皇本紀》][6] | [JSON](3ti_3ui_sdb.json) |
 | `3tp_ab0_hlx` | 竇廣國 | [《史記・外戚世家》][31] | [JSON](3tp_ab0_hlx.json) |
 | `3ts_h1q_wbo` | 顏聚 | [《史記・趙世家》][25]、[《史記・廉頗藺相如列傳》][63] | [JSON](3ts_h1q_wbo.json) |
-| `3tw_nq2_gyn` | 霍去病 | [《史記・外戚世家》][31] | [JSON](3tw_nq2_gyn.json) |
+| `3tw_nq2_gyn` | 霍去病 | [《史記・李將軍列傳》][91] | [JSON](3tw_nq2_gyn.json) |
 | `3ty_cnm_mh5` | 上林行人未名 | [《史記・李斯列傳》][69] | [JSON](3ty_cnm_mh5.json) |
 | `3u1_ov8_6ry` | 公子范 | [《史記・趙世家》][25] | [JSON](3u1_ov8_6ry.json) |
 | `3u2_btf_ob4` | 周舍 | [《史記・孝文本紀》][10] | [JSON](3u2_btf_ob4.json) |
@@ -1744,7 +1744,7 @@
 | `d9t_tnl_qbw` | 堯 | [《史記・蘇秦列傳》][51] | [JSON](d9t_tnl_qbw.json) |
 | `d9u_3uy_sms` | 魏豹 | [《史記・魏豹彭越列傳》][72] | [JSON](d9u_3uy_sms.json) |
 | `d9w_fkp_wp3` | 魏公子無忌 | [《史記・魏公子列傳》][59] | [JSON](d9w_fkp_wp3.json) |
-| `da9_1jw_qp0` | 衞青 | [《史記・外戚世家》][31] | [JSON](da9_1jw_qp0.json) |
+| `da9_1jw_qp0` | 衞青 | [《史記・李將軍列傳》][91] | [JSON](da9_1jw_qp0.json) |
 | `da9_8rf_0us` | 涉 | [《史記・孔子世家》][29] | [JSON](da9_8rf_0us.json) |
 | `db0_yyf_4td` | 許暦 | [《史記・廉頗藺相如列傳》][63] | [JSON](db0_yyf_4td.json) |
 | `db9_3sk_h2i` | 秦昭王幸姬未名 | [《史記・孟嘗君列傳》][57] | [JSON](db9_3sk_h2i.json) |
