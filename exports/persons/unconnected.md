@@ -3798,7 +3798,6 @@
 | `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
-| `sug_498_fdo` | 栗太子 | [《史記・魏其武安侯列傳》][89] | [JSON](sug_498_fdo.json) |
 | `suq_hns_wuy` | 韓成 | [《史記・留侯世家》][37] | [JSON](suq_hns_wuy.json) |
 | `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
 | `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
