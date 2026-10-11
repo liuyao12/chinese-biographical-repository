@@ -428,6 +428,10 @@ def validate(root=ROOT):
                             starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
                             if m and any(i<=a['start'] and a['end']<=i+len(e['quote']) and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote']) for i in starts):enclosed=True
                         check(enclosed,'稱號用稱及持有人不在精確引句範圍')
+                    if 'normalized_date' in a:
+                        expression = a.get('date_expression')
+                        check(expression is None or isinstance(expression, str) and bool(expression), '用稱日期表述無效')
+                        validate_date_evidence(a['normalized_date'], h['evidence'], expression)
                 period=h['effective_period']
                 for endpoint in ('start','end'):
                     boundary=period[endpoint]
@@ -554,8 +558,12 @@ def validate(root=ROOT):
             from .family_assemblies import load_assemblies
             from .person_bundle import load_catalog
         except ImportError:
-            from family_assemblies import load_assemblies
-            from person_bundle import load_catalog
+            try:
+                from scripts.family_assemblies import load_assemblies
+                from scripts.person_bundle import load_catalog
+            except ModuleNotFoundError:
+                from family_assemblies import load_assemblies
+                from person_bundle import load_catalog
         load_assemblies(root, load_catalog(root))
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:

@@ -292,6 +292,15 @@
 
 </details>
 
+<details><summary><code>2ws_c97_c69</code> 高祖（本篇稱呼）（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 高祖（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](2ws_c97_c69.json) |
+| `*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](2ws_c97_c69_%2AA.json) |
+
+</details>
+
 <details><summary><code>30v_zf2_l7l</code> 齊王建（田儋列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1240,6 +1249,15 @@
 
 </details>
 
+<details><summary><code>fwk_g2h_l3r</code> 燕王未名（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 燕王未名 | [《史記・魏其武安侯列傳》][89] | [JSON](fwk_g2h_l3r.json) |
+| `A` | 燕王女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](fwk_g2h_l3r_A.json) |
+
+</details>
+
 <details><summary><code>g9h_5ih_ug1</code> 伍奢（伍胥列傳候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1331,6 +1349,15 @@
 |---|---|---|---|
 | `根` | 田叔 | [《史記・田叔列傳》][86] | [JSON](gyt_axg_s7t.json) |
 | `A` | 田仁 | [《史記・田叔列傳》][86] | [JSON](gyt_axg_s7t_A.json) |
+
+</details>
+
+<details><summary><code>h1w_44g_vef</code> 張孟（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 張孟 | [《史記・魏其武安侯列傳》][89] | [JSON](h1w_44g_vef.json) |
+| `A` | 灌夫 | [《史記・魏其武安侯列傳》][89] | [JSON](h1w_44g_vef_A.json) |
 
 </details>
 
@@ -1748,6 +1775,16 @@
 |---|---|---|---|
 | `根` | 增 | [《史記・魏世家》][26] | [JSON](nfj_6w2_8mn.json) |
 | `A` | 假 | [《史記・魏世家》][26] | [JSON](nfj_6w2_8mn_A.json) |
+
+</details>
+
+<details><summary><code>nuf_tb9_fjs</code> 竇嬰父未名（魏其武安侯列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 竇嬰父未名 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs.json) |
+| `A` | 竇嬰 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs_A.json) |
+| `AA` | 竇嬰子未名 | [《史記・魏其武安侯列傳》][89] | [JSON](nuf_tb9_fjs_AA.json) |
 
 </details>
 
@@ -2186,6 +2223,15 @@
 | `A` | 吳（陳惠公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_A.json) |
 | `AA` | 柳（陳懷公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_AA.json) |
 | `AAA` | 越（陳湣公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_AAA.json) |
+
+</details>
+
+<details><summary><code>ubk_etq_ksp</code> 田蚡（魏其武安侯列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 田蚡 | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp.json) |
+| `A` | 恬（田蚡子） | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp_A.json) |
 
 </details>
 
@@ -2917,3 +2963,4 @@
 [86]: https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534
 [87]: https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726
 [88]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
+[89]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571

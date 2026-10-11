@@ -141,3 +141,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 子女排行範圍
 
 `qualifiers.birth_order.scope` 使用 `sons_of_parent`、`daughters_of_parent` 或 `children_of_parent`，分別表示兒子、女兒或所有子女的排行序列。不得把兒子序號當作所有子女的序號。卷一〇五緹縈的「少女」使用女兒序列，`ordinal: null`、`position: younger_or_youngest`，保留較幼與最幼的歧義；原文五女不單獨證明她是第五女。家族 ID 分支仍不表示排行。
+
+## 用稱年份與授任起訖
+
+`attestations` 可另保存 `date_expression` 與 `normalized_date`，記錄來源在何年使用該稱號。此年不作授爵、任職起點或終點；`effective_period` 仍獨立保存，未知時保持 `unknown`。
+
+若本段沒有明言紀年、而由前文連續事件暫定年份，`date_expression` 為 `null`；`normalized_date.evidence` 同時列本段原句與前文紀年，理由說明承接及限制。不能因檢視到某年稱呼便把官爵起訖填入同年。換算仍為 `editorial_provisional`、年精度及未經人工覆核；只用核讀過的年對照，不默改原文月日。
+
+卷一百零七將恬在元朔三年的武安侯用稱與其春嗣爵分開；其春未定公元年，不能把元朔三年的來源使用當成繼封起點。
