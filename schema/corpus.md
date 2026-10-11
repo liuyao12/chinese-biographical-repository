@@ -76,6 +76,12 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `paternal_uncle` 保存原文明示的父系叔父關係，主體為侄輩、客體為叔父；`qualifiers.source_term` 保留「季父」等原詞。此關係不能改作父親，不推導原文未見的父親身份、同父同母、排行或其他兄弟關係。稱謂是否屬親屬而非尊稱仍須按語境判讀。
 
+`maternal_uncle` 保存「姊子」明示的甥舅關係，主體為甥、客體為舅。`qualifiers` 保存原詞、`lineage: maternal`、`generation_difference: -1`，以及 `mother_person_id: null`；本句未名母親，不因來源別處可識別母親而改寫本句。負世代差表示客體較主體早一代。
+
+`kinship_generation` 保存「大父行」的祖父輩親屬，主體為單于、客體為所述親屬。保存 `source_term: 大父行`、`generation_difference: -2`、`lineage: unspecified`、`direct_ancestor: null`、`exact_distance: null`。此處只記世代，不生成父子路徑、祖父節點或已確定的父系親等。
+
+篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。首批支援「年」後的一至九十九數詞；其他報齡形式需擴充驗證後保存。
+
 ## 保留已發 ID 的同指決定
 
 `007-equivalences.json` 的 `person_equivalence_set` 對兩個或以上已發人物 ID 保存有證據的同指判讀。`person_ids` 保留所有原 ID，`canonical_person_id` 為組裝時的代表，必須是其中一員。原人物、異稱、文字與提及 ID 不刪除也不重指，撤回決定即可恢復分開呈現。此為來源判讀，不是同名字串合併規則。

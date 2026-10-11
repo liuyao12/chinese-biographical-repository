@@ -531,9 +531,25 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'maternal_uncle':
+                    check(qualifiers.get('source_term') == '姊子'
+                          and qualifiers.get('generation_difference') == -1
+                          and qualifiers.get('lineage') == 'maternal'
+                          and qualifiers.get('mother_person_id') is None
+                          and any('姊子' in e.get('quote', '') for e in a['evidence']),
+                          '姊子甥舅關係須保留母系世代與未名母親')
+                if a['predicate'] == 'kinship_generation' or qualifiers.get('source_term') == '大父行':
+                    check(a['predicate'] == 'kinship_generation'
+                          and qualifiers.get('source_term') == '大父行'
+                          and qualifiers.get('generation_difference') == -2
+                          and qualifiers.get('lineage') == 'unspecified'
+                          and qualifiers.get('direct_ancestor') is None
+                          and qualifiers.get('exact_distance') is None
+                          and any('大父行' in e.get('quote', '') for e in a['evidence']),
+                          '大父行只記祖父輩，不得補直系祖父或親等')
                 if a['predicate'] == 'stepmother':
                     check(qualifiers.get('source_term') == '後母' and any('後母' in e.get('quote', '') for e in a['evidence']), '後母關係須有原詞證據')
                 if 'posthumous_birth' in qualifiers:
@@ -597,6 +613,31 @@ def validate(root=ROOT):
                     check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
                           and a['subject_person_id'] in quoted_endpoints[1],
                           '人物陳述承接的前段客體及後段主體未見於引句')
+        age_ids = set()
+        for chapter in chapters.values():
+            for age in chapter['annotation'].get('age_assertions', []):
+                check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
+                number = age.get('source_number'); parsed = None; digits = '一二三四五六七八九'
+                if isinstance(number, str):
+                    if number in digits and len(number) == 1: parsed = digits.index(number) + 1
+                    elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
+                        tens, ones = number.split('十')
+                        parsed = (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
+                check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
+                      and age.get('source_term') == '年' + str(number), '來源年齡數值與原詞不符')
+                check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
+                      and age.get('birth_year') is None and age.get('status') == 'source_attested',
+                      '來源年齡不得推定計歲方式或出生年')
+                check(age['person_id'] in pids and bool(age['evidence']), '來源年齡缺人物或證據')
+                for evidence in age['evidence']:
+                    hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
+                    check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
+                          and evidence['source_id'] == chapter['source_id'] and evidence['quote'] in hit[1]['text']
+                          and age['source_term'] in evidence['quote'], '來源年齡引句不符')
+                    check(bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
+                if 'normalized_date' in age:
+                    errors.extend(normalized_date_errors(age['normalized_date']))
+                    check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
         address_ids = set()
         for path in (root / 'corpus').glob('*/*-addresses.json'):
             record = json.loads(path.read_text(encoding='utf-8'))
