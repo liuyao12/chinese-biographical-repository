@@ -161,7 +161,7 @@
 | `14z_ay0_40z` | 車千秋 | [《史記・田叔列傳》][86] | [JSON](14z_ay0_40z.json) |
 | `15d_u8k_luo` | 蕭何 | [《史記・張丞相列傳》][78] | [JSON](15d_u8k_luo.json) |
 | `15h_34z_4to` | 太嶽（姜姓祖先引語） | [《史記・陳杞世家》][18] | [JSON](15h_34z_4to.json) |
-| `164_wmw_9ck` | 渾邪王（匈奴列傳第37段未名） | [《史記・匈奴列傳》][92] | [JSON](164_wmw_9ck.json) |
+| `164_wmw_9ck` | 渾邪王（匈奴列傳第37段未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](164_wmw_9ck.json) |
 | `16c_ysj_x0r` | 子家 | [《史記・鄭世家》][24] | [JSON](16c_ysj_x0r.json) |
 | `16n_czk_thg` | 田忌 | [《史記・田敬仲完世家》][28] | [JSON](16n_czk_thg.json) |
 | `16v_9b1_4bn` | 桀溺 | [《史記・孔子世家》][29] | [JSON](16v_9b1_4bn.json) |
@@ -399,6 +399,7 @@
 | `2wp_usr_ncd` | 衛鞅 | [《史記・商君列傳》][50] | [JSON](2wp_usr_ncd.json) |
 | `2wt_drt_ii8` | 王夫人子齊王 | [《史記・外戚世家》][31] | [JSON](2wt_drt_ii8.json) |
 | `2ww_4rg_iv9` | 應高 | [《史記・吳王濞列傳》][88] | [JSON](2ww_4rg_iv9.json) |
+| `2xh_q5y_5zo` | 禽 | [《史記・衛將軍驃騎列傳》][93] | [JSON](2xh_q5y_5zo.json) |
 | `2xk_syj_egr` | 陳勝 | [《史記・黥布列傳》][73] | [JSON](2xk_syj_egr.json) |
 | `2ye_xvh_3a7` | 愛妻（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](2ye_xvh_3a7.json) |
 | `2z1_3uv_8xx` | 春申君 | [《史記・春申君列傳》][60] | [JSON](2z1_3uv_8xx.json) |
@@ -1920,6 +1921,7 @@
 | `dxw_mqx_r82` | 中𤳹 | [《史記・殷本紀》][3] | [JSON](dxw_mqx_r82.json) |
 | `dxz_9j5_10h` | 秦王政 | [《史記・田敬仲完世家》][28] | [JSON](dxz_9j5_10h.json) |
 | `dy8_rby_5q2` | 伍舉 | [《史記・楚世家》][22] | [JSON](dy8_rby_5q2.json) |
+| `dy9_czc_11p` | 鷹庇 | [《史記・衛將軍驃騎列傳》][93] | [JSON](dy9_czc_11p.json) |
 | `dyh_neb_15u` | 田忌 | [《史記・孫子吳起列傳》][47] | [JSON](dyh_neb_15u.json) |
 | `dym_ay3_38w` | 虢公（伐曲沃者未名） | [《史記・晉世家》][21] | [JSON](dym_ay3_38w.json) |
 | `dzf_ach_247` | 箕子 | [《史記・留侯世家》][37] | [JSON](dzf_ach_247.json) |
@@ -3018,6 +3020,7 @@
 | `lse_ja5_xl8` | 太史子餘 | [《史記・田敬仲完世家》][28] | [JSON](lse_ja5_xl8.json) |
 | `lso_17e_oj8` | 二世（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](lso_17e_oj8.json) |
 | `lt5_gcv_iqh` | 宣王 | [《史記・周本紀》][4] | [JSON](lt5_gcv_iqh.json) |
+| `ltc_bon_w6p` | 銅離 | [《史記・衛將軍驃騎列傳》][93] | [JSON](ltc_bon_w6p.json) |
 | `ltd_gf0_3zt` | 大夫種引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](ltd_gf0_3zt.json) |
 | `ltg_z7u_vhb` | 張良弟（留侯世家未名者） | [《史記・留侯世家》][37] | [JSON](ltg_z7u_vhb.json) |
 | `ltn_go2_3eu` | 遠吏故事妾 | [《史記・蘇秦列傳》][51] | [JSON](ltn_go2_3eu.json) |
@@ -3536,6 +3539,7 @@
 | `ppa_vqy_d1e` | 周顯王（楚篇致胙者） | [《史記・楚世家》][22] | [JSON](ppa_vqy_d1e.json) |
 | `pph_9jt_i6m` | 太后（趙世家孝成王新立未名者） | [《史記・趙世家》][25] | [JSON](pph_9jt_i6m.json) |
 | `ppk_dnc_f2g` | 白公勝（楚亂記事） | [《史記・陳杞世家》][18] | [JSON](ppk_dnc_f2g.json) |
+| `ppl_k5e_2iw` | 呼毒尼 | [《史記・衛將軍驃騎列傳》][93] | [JSON](ppl_k5e_2iw.json) |
 | `ppl_kwi_gwp` | 共尉 | [《史記・韓信盧綰列傳》][75] | [JSON](ppl_kwi_gwp.json) |
 | `pr6_r4f_o9t` | 申徒狄引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](pr6_r4f_o9t.json) |
 | `ps5_4pq_4uj` | 匈奴左賢王（未名） | [《史記・匈奴列傳》][92] | [JSON](ps5_4pq_4uj.json) |
