@@ -1357,6 +1357,7 @@
 | `ac8_u5v_dxj` | 宋殤公（楚篇弒君記事） | [《史記・楚世家》][22] | [JSON](ac8_u5v_dxj.json) |
 | `acr_zxn_ca3` | 嚴仲子 | [《史記・刺客列傳》][68] | [JSON](acr_zxn_ca3.json) |
 | `ad1_fs3_e4j` | 子上（楚成王令尹） | [《史記・楚世家》][22] | [JSON](ad1_fs3_e4j.json) |
+| `adb_4so_0qm` | 韓安國 | [《史記・韓長孺列傳》][90] | [JSON](adb_4so_0qm.json) |
 | `adj_kqv_jh0` | 田祿伯 | [《史記・吳王濞列傳》][88] | [JSON](adj_kqv_jh0.json) |
 | `aec_cp5_x6d` | 主父偃 | [《史記・齊悼惠王世家》][34] | [JSON](aec_cp5_x6d.json) |
 | `aek_yfr_e0h` | 項梁 | [《史記・黥布列傳》][73] | [JSON](aek_yfr_e0h.json) |
@@ -2794,6 +2795,7 @@
 | `l44_3nw_9xe` | 魯使（齊頃宴使未名） | [《史記・晉世家》][21] | [JSON](l44_3nw_9xe.json) |
 | `l4l_iz8_ao0` | 岐伯 | [《史記・孝武本紀》][12] | [JSON](l4l_iz8_ao0.json) |
 | `l5c_h8i_d5q` | 衛子夫 | [《史記・外戚世家》][31] | [JSON](l5c_h8i_d5q.json) |
+| `l5d_ywu_jfb` | 梁孝王 | [《史記・韓長孺列傳》][90] | [JSON](l5d_ywu_jfb.json) |
 | `l5h_vix_jn2` | 莊舄 | [《史記・張儀列傳》][52] | [JSON](l5h_vix_jn2.json) |
 | `l6c_cnc_j51` | 楚元王 | [《史記・三王世家》][42] | [JSON](l6c_cnc_j51.json) |
 | `l6d_hvp_ot3` | 泗川守壯 | [《史記・高祖本紀》][8] | [JSON](l6d_hvp_ot3.json) |
@@ -3173,6 +3175,7 @@
 | `o5b_urx_nop` | 銅鞮伯華 | [《史記・仲尼弟子列傳》][49] | [JSON](o5b_urx_nop.json) |
 | `o5z_bzo_4kz` | 張孟同 | [《史記・趙世家》][25] | [JSON](o5z_bzo_4kz.json) |
 | `o67_lsk_1vy` | 宦者平 | [《史記・扁鵲倉公列傳》][87] | [JSON](o67_lsk_1vy.json) |
+| `o6h_ba5_gno` | 張羽 | [《史記・韓長孺列傳》][90] | [JSON](o6h_ba5_gno.json) |
 | `o6u_xnt_ls1` | 樂毅 | [《史記・田敬仲完世家》][28] | [JSON](o6u_xnt_ls1.json) |
 | `o77_eec_0oy` | 姜原 | [《史記・周本紀》][4] | [JSON](o77_eec_0oy.json) |
 | `o7b_uyb_qu9` | 淖齒 | [《史記・范睢蔡澤列傳》][61] | [JSON](o7b_uyb_qu9.json) |
@@ -4344,6 +4347,7 @@
 | `x99_1e5_dbn` | 楚威王 | [《史記・越王勾踐世家》][23] | [JSON](x99_1e5_dbn.json) |
 | `x9j_eu1_vck` | 秦惠王 | [《史記・張儀列傳》][52] | [JSON](x9j_eu1_vck.json) |
 | `x9l_eux_c3n` | 申陽 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](x9l_eux_c3n.json) |
+| `x9n_lwg_op5` | 騶田生 | [《史記・韓長孺列傳》][90] | [JSON](x9n_lwg_op5.json) |
 | `x9q_ghs_z2s` | 蒯通 | [《史記・淮陰侯列傳》][74] | [JSON](x9q_ghs_z2s.json) |
 | `xaa_ewn_4ro` | 臧荼 | [《史記・高祖本紀》][8] | [JSON](xaa_ewn_4ro.json) |
 | `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][22] | [JSON](xbl_kip_rw4.json) |
@@ -4792,3 +4796,4 @@
 [87]: https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726
 [88]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
 [89]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571
+[90]: https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317
