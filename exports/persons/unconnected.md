@@ -1157,6 +1157,7 @@
 | `8q9_6wj_aid` | 巫臣子（吳行人未名） | [《史記・晉世家》][21] | [JSON](8q9_6wj_aid.json) |
 | `8qn_pes_ndt` | 孔父妻（華督所取者未名） | [《史記・宋微子世家》][20] | [JSON](8qn_pes_ndt.json) |
 | `8qw_wy4_91g` | 鄧侯（楚文王過鄧時未名） | [《史記・楚世家》][22] | [JSON](8qw_wy4_91g.json) |
+| `8qy_3jw_ikr` | 公孫昆邪 | [《史記・李將軍列傳》][91] | [JSON](8qy_3jw_ikr.json) |
 | `8r1_6zb_ghp` | 高陵君 | [《史記・范睢蔡澤列傳》][61] | [JSON](8r1_6zb_ghp.json) |
 | `8r1_wnc_n5o` | 西周武公 | [《史記・周本紀》][4] | [JSON](8r1_wnc_n5o.json) |
 | `8r5_zyc_5dx` | 柴將軍未詳名 | [《史記・韓信盧綰列傳》][75] | [JSON](8r5_zyc_5dx.json) |
@@ -2932,6 +2933,7 @@
 | `m2i_2sv_ioc` | 堯（引古） | [《史記・淮陰侯列傳》][74] | [JSON](m2i_2sv_ioc.json) |
 | `m2o_06w_br9` | 公孫季功 | [《史記・刺客列傳》][68] | [JSON](m2o_06w_br9.json) |
 | `m2o_ydx_9ap` | 任鄙 | [《史記・樗里子甘茂列傳》][53] | [JSON](m2o_ydx_9ap.json) |
+| `m2z_t62_97g` | 梁王 | [《史記・李將軍列傳》][91] | [JSON](m2z_t62_97g.json) |
 | `m39_fok_wwo` | 魯君 | [《史記・孫子吳起列傳》][47] | [JSON](m39_fok_wwo.json) |
 | `m3d_h2d_hni` | 新城三老董公 | [《史記・高祖本紀》][8] | [JSON](m3d_h2d_hni.json) |
 | `m3x_qqp_18q` | 佛肸 | [《史記・孔子世家》][29] | [JSON](m3x_qqp_18q.json) |
@@ -3884,6 +3886,7 @@
 | `taz_6jd_auh` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](taz_6jd_auh.json) |
 | `tb2_zhz_mol` | 鐘離眛 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](tb2_zhz_mol.json) |
 | `tba_8dy_6gi` | 太史公 | [《史記・三王世家》][42] | [JSON](tba_8dy_6gi.json) |
+| `tbc_xj9_4f1` | 亞夫 | [《史記・李將軍列傳》][91] | [JSON](tbc_xj9_4f1.json) |
 | `tbv_g3c_03d` | 唐眛 | [《史記・韓世家》][27] | [JSON](tbv_g3c_03d.json) |
 | `tby_8vk_ybz` | 獻善馬者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tby_8vk_ybz.json) |
 | `td7_pgx_t52` | 田文 | [《史記・范睢蔡澤列傳》][61] | [JSON](td7_pgx_t52.json) |
@@ -4382,6 +4385,7 @@
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][26] | [JSON](xcs_h9s_rgw.json) |
 | `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][15] | [JSON](xcv_pkj_crw.json) |
 | `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][49] | [JSON](xcz_sby_ker.json) |
+| `xd0_1s0_wag` | 孝景 | [《史記・李將軍列傳》][91] | [JSON](xd0_1s0_wag.json) |
 | `xd0_yc1_jd5` | 齊太史（崔杼弒君書者未名） | [《史記・齊太公世家》][14] | [JSON](xd0_yc1_jd5.json) |
 | `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][30] | [JSON](xd1_b6x_v7v.json) |
 | `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][49] | [JSON](xd1_no8_2ar.json) |

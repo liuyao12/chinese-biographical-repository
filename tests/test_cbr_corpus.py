@@ -15,6 +15,12 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_office_jurisdiction_requires_source_quote(self):
+        self.change('corpus/shiji/109-titles.json', lambda d: d['holdings'][-1]['jurisdictions'][0].update(source_name='未見原文的郡'))
+        self.assertIn('官職所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
+    def test_office_jurisdiction_cannot_invent_modern_location(self):
+        self.change('corpus/shiji/109-titles.json', lambda d: d['holdings'][-1]['jurisdictions'][0].update(modern_identification='今地'))
+        self.assertIn('官職所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
     def test_unresolved_case_requires_local_anchor(self):
         self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0].update(paragraph_ids=['c-shiji-107-weiqi:p002', 'c-shiji-107-weiqi:p006']))
         self.assertIn('未決身份段落引用無效', v.validate(self.root))

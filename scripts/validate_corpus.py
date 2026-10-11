@@ -423,6 +423,15 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'jurisdictions' in h:
+                    places=h['jurisdictions']
+                    valid=(h['kind']=='office' and isinstance(places,list) and bool(places)
+                           and all(isinstance(place,dict) and isinstance(place.get('source_name'),str)
+                                   and bool(place['source_name'])
+                                   and any(place['source_name'] in e.get('quote','') for e in h['evidence'])
+                                   and place.get('place_id') is None and place.get('modern_identification') is None
+                                   for place in places))
+                    check(valid,'官職所屬原地名缺少引句或未保留未知定位')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
                     hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])
