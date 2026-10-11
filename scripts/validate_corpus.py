@@ -563,6 +563,31 @@ def validate(root=ROOT):
                         check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
                         check(any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
+        life_event_ids = set()
+        for path in (root / 'corpus').glob('*/*-life-events.json'):
+            record = json.loads(path.read_text(encoding='utf-8'))
+            check(record.get('record_type') == 'person_life_event_assertion_set' and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
+            for event in record['events']:
+                check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
+                check(event['person_id'] in pids and event['event_type'] in ('birth', 'death'), '生卒事件人物或類型無效')
+                check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
+                expression = event.get('date_expression')
+                check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
+                for evidence in event['evidence']:
+                    hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
+                    valid = bool(hit) and hit[0] == evidence['chapter_id'] == record['chapter_id']
+                    check(valid and evidence['quote'] in hit[1]['text'] and chapters.get(evidence['chapter_id'], {}).get('source_id') == evidence['source_id'], '生卒事件來源引句不符')
+                    check(bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
+                    if valid and mention:
+                        starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
+                        check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')
+                    check(expression is None or expression in evidence['quote'], '生卒日期未見於事件引句')
+                if 'normalized_date' in event:
+                    date = event['normalized_date']; errors.extend(normalized_date_errors(date))
+                    check(isinstance(expression, str) and bool(expression), '生卒數字紀年缺原日期表述')
+                    if isinstance(date, dict):
+                        check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
+                        check(date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
         try:
             from .family_assemblies import load_assemblies
             from .person_bundle import load_catalog

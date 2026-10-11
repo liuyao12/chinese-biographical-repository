@@ -3,6 +3,21 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_han_death_year_is_a_life_event_not_title_endpoint(self):
+        result = bundle('6hy_i1z_hu2', include_provisional=True)
+        event = next(e for e in result['life_events'] if e['id'] == 'le-shiji108-han')
+        self.assertEqual(event['normalized_date']['era_year'], 127)
+        self.assertEqual(event['normalized_date']['original_quote'], '安國以元朔二年中卒。')
+        date = next(d for d in result['date_normalizations'] if d['record_id'] == event['id'])
+        self.assertEqual(date['date_role'], 'life_event')
+        self.assertNotIn('endpoint', date)
+        title = next(h for h in result['title_holdings'] if h['id'] == 'th-shiji108-031')
+        self.assertEqual(title['effective_period']['end']['status'], 'unknown')
+    def test_unknown_life_event_date_stays_unresolved(self):
+        result = bundle('z2v_oh4_mhm')
+        event = next(e for e in result['life_events'] if e['id'] == 'le-shiji108-hui')
+        self.assertIsNone(event['date_expression'])
+        self.assertNotIn('normalized_date', event)
     def test_real_person_has_reverse_relations_and_source_text(self):
         result = bundle('fd2_w60_h42')
         self.assertTrue(any(a['object_person_id'] == 'fd2_w60_h42' for a in result['relations']))
