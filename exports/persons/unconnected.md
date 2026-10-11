@@ -2949,7 +2949,6 @@
 | `m2i_2sv_ioc` | 堯（引古） | [《史記・淮陰侯列傳》][74] | [JSON](m2i_2sv_ioc.json) |
 | `m2o_06w_br9` | 公孫季功 | [《史記・刺客列傳》][68] | [JSON](m2o_06w_br9.json) |
 | `m2o_ydx_9ap` | 任鄙 | [《史記・樗里子甘茂列傳》][53] | [JSON](m2o_ydx_9ap.json) |
-| `m2z_t62_97g` | 梁王 | [《史記・李將軍列傳》][91] | [JSON](m2z_t62_97g.json) |
 | `m39_fok_wwo` | 魯君 | [《史記・孫子吳起列傳》][47] | [JSON](m39_fok_wwo.json) |
 | `m3d_h2d_hni` | 新城三老董公 | [《史記・高祖本紀》][8] | [JSON](m3d_h2d_hni.json) |
 | `m3x_qqp_18q` | 佛肸 | [《史記・孔子世家》][29] | [JSON](m3x_qqp_18q.json) |
@@ -3910,7 +3909,7 @@
 | `taz_6jd_auh` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](taz_6jd_auh.json) |
 | `tb2_zhz_mol` | 鐘離眛 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](tb2_zhz_mol.json) |
 | `tba_8dy_6gi` | 太史公 | [《史記・三王世家》][42] | [JSON](tba_8dy_6gi.json) |
-| `tbc_xj9_4f1` | 亞夫 | [《史記・李將軍列傳》][91] | [JSON](tbc_xj9_4f1.json) |
+| `tbc_xj9_4f1` | 亞夫 | [《史記・絳侯周勃世家》][39] | [JSON](tbc_xj9_4f1.json) |
 | `tbv_g3c_03d` | 唐眛 | [《史記・韓世家》][27] | [JSON](tbv_g3c_03d.json) |
 | `tby_8vk_ybz` | 獻善馬者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tby_8vk_ybz.json) |
 | `tcq_aiz_yru` | 去病 | [《史記・李將軍列傳》][91] | [JSON](tcq_aiz_yru.json) |
