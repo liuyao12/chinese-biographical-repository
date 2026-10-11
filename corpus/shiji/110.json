@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前10段初標45名來源人物、162處人物及未定錨點、10筆親屬、18筆用稱、7筆死亡事件及2筆死亡地點。其餘51段、其他官爵日期與跨篇同指待核。",
+    "coverage": "全61段轉錄；前13段初標55名來源人物、206處人物及未定錨點、10筆親屬、25筆用稱、7筆死亡事件、2筆死亡地點及8筆跨篇身份判讀。其餘48段、官爵日期與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -42,7 +42,8 @@
       "第7段閼氏接冒頓，與第6段頭曼閼氏分開；愛妻不按女性身份自動與本段閼氏合併，白羊河南王保留未定錨點。項羽以既有來源ID承接秦末漢楚交戰人物，群臣與族群尚待細標。",
       "第7段滅東胡王未自動作明示死亡；第8段自淳維至頭曼千有餘歲不是父子或可補造世系的證據。",
       "第9段官號及三姓為制度泛稱或氏族，不建立個人，不將常以太子為左屠耆王推作冒頓任職，單于之庭的代雲中不改作個人籍貫。",
-      "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。"
+      "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。",
+      "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。"
     ]
   },
   "paragraphs": [
@@ -1587,23 +1588,422 @@
     {
       "id": "c-shiji-110-xiongnu:p011",
       "text": "後北服渾庾、屈射、丁零、鬲昆、薪犁之國。於是匈奴貴人大臣皆服，以冒頓單于爲賢。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m011-0024",
+          "start": 24,
+          "end": 28,
+          "surface": "貴人大臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m011-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m011-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p012",
       "text": "是時漢初定中國，徙韓王信於代，都馬邑。匈奴大攻圍馬邑，韓王信降匈奴。匈奴得信，因引兵南踰句注，攻太原，至晉陽下。高帝自將兵往擊之。會冬大寒雨雪，卒之墮指者十二三，於是冒頓詳敗走，誘漢兵。漢兵逐擊冒頓，冒頓匿其精兵，見其羸弱，於是漢悉兵，多步兵，三十二萬，北逐之。高帝先至平城，步兵未盡到，冒頓縱精兵四十萬騎圍高帝於白登，七日，漢兵中外不得相救餉。匈奴騎，其西方盡白馬，東方盡青駹馬，北方盡烏驪馬，南方盡騂馬。高帝乃使使閒厚遺閼氏，閼氏乃謂冒頓曰：「兩主不相困。今得漢地，而單于終非能居之也。且漢王亦有神，單于察之。」冒頓與韓王信之將王黃、趙利期，而黃、利兵又不來，疑其與漢有謀，亦取閼氏之言，乃解圍之一角。於是高帝令士皆持滿傅矢外鄉，從解角直出，竟與大軍合，而冒頓遂引兵而去。漢亦引兵而罷，使劉敬結和親之約。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m012-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "韓王信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0027",
+          "start": 27,
+          "end": 30,
+          "surface": "韓王信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0100",
+          "start": 100,
+          "end": 102,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0144",
+          "start": 144,
+          "end": 146,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0204",
+          "start": 204,
+          "end": 206,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0212",
+          "start": 212,
+          "end": 214,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "32k_yr7_5kv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0215",
+          "start": 215,
+          "end": 217,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "32k_yr7_5kv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0219",
+          "start": 219,
+          "end": 221,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0236",
+          "start": 236,
+          "end": 238,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0246",
+          "start": 246,
+          "end": 248,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0252",
+          "start": 252,
+          "end": 254,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0258",
+          "start": 258,
+          "end": 260,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0261",
+          "start": 261,
+          "end": 264,
+          "surface": "韓王信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0266",
+          "start": 266,
+          "end": 268,
+          "surface": "王黃",
+          "kind": "person",
+          "person_id": "0gq_xwo_hu8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0269",
+          "start": 269,
+          "end": 271,
+          "surface": "趙利",
+          "kind": "person",
+          "person_id": "rhb_v4p_ofs",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0274",
+          "start": 274,
+          "end": 275,
+          "surface": "黃",
+          "kind": "person",
+          "person_id": "0gq_xwo_hu8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0276",
+          "start": 276,
+          "end": 277,
+          "surface": "利",
+          "kind": "person",
+          "person_id": "rhb_v4p_ofs",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0291",
+          "start": 291,
+          "end": 293,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "32k_yr7_5kv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0305",
+          "start": 305,
+          "end": 307,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0330",
+          "start": 330,
+          "end": 332,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m012-0346",
+          "start": 346,
+          "end": 348,
+          "surface": "劉敬",
+          "kind": "person",
+          "person_id": "bp1_owy_cdq",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p013",
       "text": "是後韓王信爲匈奴將，及趙利、王黃等數倍約，侵盜代、雲中。居無幾何，陳豨反，又與韓信合謀擊代。漢使樊噲往擊之，復拔代、鴈門、雲中郡縣，不出塞。是時匈奴以漢將眾往降，故冒頓常往來侵盜代地。於是漢患之，高帝乃使劉敬奉宗室女公主爲單于閼氏，歳奉匈奴絮繒酒米食物各有數，約爲昆弟以和親，冒頓乃少止。後燕王盧綰反，率其黨數千人降匈奴，往來苦上谷以東。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m013-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "韓王信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "趙利",
+          "kind": "person",
+          "person_id": "rhb_v4p_ofs",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "王黃",
+          "kind": "person",
+          "person_id": "0gq_xwo_hu8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "陳豨",
+          "kind": "person",
+          "person_id": "o43_qz5_cr6",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0039",
+          "start": 39,
+          "end": 41,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "knh_bst_pgv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "樊噲",
+          "kind": "person",
+          "person_id": "u2y_dhn_kh3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0098",
+          "start": 98,
+          "end": 100,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "劉敬",
+          "kind": "person",
+          "person_id": "bp1_owy_cdq",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0105",
+          "start": 105,
+          "end": 110,
+          "surface": "宗室女公主",
+          "kind": "person",
+          "person_id": "brk_sg8_oe9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "brk_sg8_oe9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0138",
+          "start": 138,
+          "end": 140,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m013-0145",
+          "start": 145,
+          "end": 149,
+          "surface": "燕王盧綰",
+          "kind": "person",
+          "person_id": "bmr_j2i_6hu",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p014",
