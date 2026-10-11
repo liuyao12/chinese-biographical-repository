@@ -8,12 +8,10 @@
       "book_id": "b-shiji-001",
       "chapter_id": "c-shiji-001-wudi",
       "text_status": "transcribed",
-      "person_status": "named_mentions_first_pass",
+      "person_status": "in_progress",
       "complete": false,
       "next_tasks": [
-        "複核匿名人物、代詞、官稱與群體指代。",
-        "核閱異稱與傳說人物專門研究，記錄具體身份判斷。",
-        "與影像或可靠版本逐字校勘。"
+        "已逐段檢視明示人名、異稱及若干無名人物／群體；代詞、官稱指代、氏族與國號仍須再審。 第1至10段再次核讀，補兩處子女群體錨點及6項生死、5項地點主張；其餘段落待第二輪覆核。 第11至16段再次核讀，羲和四員所居與兩項流放提議各存來源主張；第16段帝暫指同段堯。殛鯀不據單字直接判死亡。 第17至22段再次核讀；舜的父、後母、弟按第19至20段辨認，生母另存死亡。補堯死亡及舜冀州出身、嬀汭居住。 第23至28段再次核讀，明示命官8項及舜卒地、葬地補存；全28段第二輪已讀，代詞、親屬與官爵仍非全部完成。"
       ]
     },
     {
@@ -1259,11 +1257,13 @@
   ],
   "next_book": {
     "work_id": "w-shiji",
-    "number": 130,
-    "title": "太史公自序第七十",
+    "number": 1,
+    "title": "五帝本紀第一",
     "status": "in_progress",
-    "next_paragraph_id": "c-shiji-130-taishigong:p001",
-    "next_task": "覆核全篇人物同指、代詞、親屬、稱號、地點與日期，補來源證據及人物匯出。"
+    "next_paragraph_id": "c-shiji-001-wudi:p001",
+    "next_task": "補五帝本紀親屬與官爵來源，核對提及修訂，再匯出人物JSON及完整測試。",
+    "book_id": "b-shiji-001",
+    "chapter_id": "c-shiji-001-wudi"
   },
   "legacy_sources": {
     "status": "migration_pending",
