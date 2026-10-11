@@ -6,6 +6,20 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class LiGuangSourceTests(unittest.TestCase):
+    def test_wang_shuo_anchor_does_not_consume_era_name(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/109.json').read_text())
+        paragraph = chapter['paragraphs'][10]
+        anchors = [m for m in paragraph['mentions'] if m['person_id'] == '224_en7_aho']
+        self.assertEqual([m['surface'] for m in anchors], ['王朔', '朔', '朔'])
+        self.assertTrue(all(paragraph['text'][m['start'] - 1:m['start']] != '元' for m in anchors))
+
+    def test_received_chariot_title_variant_is_preserved(self):
+        titles = json.loads((ROOT / 'corpus/shiji/109-titles.json').read_text())
+        holding = next(h for h in titles['holdings'] if h['id'] == 'th-shiji109-056')
+        self.assertEqual(holding['title'], '輕車將車')
+        self.assertEqual(holding['effective_period']['start']['normalized_date']['era_year'], 124)
+        self.assertEqual(holding['effective_period']['end']['status'], 'unknown')
+
     def test_later_general_grant_has_its_own_anchor(self):
         chapter = json.loads((ROOT / 'corpus/shiji/109.json').read_text())
         titles = json.loads((ROOT / 'corpus/shiji/109-titles.json').read_text())

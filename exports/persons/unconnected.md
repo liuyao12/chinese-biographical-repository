@@ -274,6 +274,7 @@
 | `21a_kok_ndw` | 虢君未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](21a_kok_ndw.json) |
 | `21i_ev7_c9u` | 武臣 | [《史記・張耳陳餘列傳》][71] | [JSON](21i_ev7_c9u.json) |
 | `220_2hx_s8j` | 蔡侯（楚靈王醉殺者未名） | [《史記・楚世家》][22] | [JSON](220_2hx_s8j.json) |
+| `224_en7_aho` | 王朔 | [《史記・李將軍列傳》][91] | [JSON](224_en7_aho.json) |
 | `22o_cth_7hm` | 淳于髡 | [《史記・孟子荀卿列傳》][56] | [JSON](22o_cth_7hm.json) |
 | `237_cbp_w2w` | 趙公子嘉 | [《史記・秦始皇本紀》][6] | [JSON](237_cbp_w2w.json) |
 | `23k_ck2_otm` | 公子郢 | [《史記・仲尼弟子列傳》][49] | [JSON](23k_ck2_otm.json) |
@@ -1478,6 +1479,7 @@
 | `bc6_jy5_6ia` | 咸陽進言者 | [《史記・項羽本紀》][7] | [JSON](bc6_jy5_6ia.json) |
 | `bci_d32_jrt` | 春申 | [《史記・陳涉世家》][30] | [JSON](bci_d32_jrt.json) |
 | `bcq_8mf_d5t` | 旋（留公） | [《史記・樊酈滕灌列傳》][77] | [JSON](bcq_8mf_d5t.json) |
+| `bcy_vo1_8z7` | 右賢王（未名） | [《史記・李將軍列傳》][91] | [JSON](bcy_vo1_8z7.json) |
 | `bcz_ap5_p19` | 主父（田世家趙未名者） | [《史記・田敬仲完世家》][28] | [JSON](bcz_ap5_p19.json) |
 | `bd5_w1z_btw` | 毛公 | [《史記・魏公子列傳》][59] | [JSON](bd5_w1z_btw.json) |
 | `bdb_k4z_a2p` | 楚威王 | [《史記・孟嘗君列傳》][57] | [JSON](bdb_k4z_a2p.json) |
@@ -3469,6 +3471,7 @@
 | `q8f_bos_spt` | 徐尚 | [《史記・陳涉世家》][30] | [JSON](q8f_bos_spt.json) |
 | `q8m_d0c_kq3` | 楚莊王 | [《史記・楚世家》][22] | [JSON](q8m_d0c_kq3.json) |
 | `q8p_lyu_m5n` | 智伯引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](q8p_lyu_m5n.json) |
+| `q8s_3lk_4sq` | 元朔五年大將軍（未名） | [《史記・李將軍列傳》][91] | [JSON](q8s_3lk_4sq.json) |
 | `q8s_9ap_qhb` | 陳厲公 | [《史記・齊太公世家》][14] | [JSON](q8s_9ap_qhb.json) |
 | `q98_n47_26l` | 他姬子廣陵王 | [《史記・外戚世家》][31] | [JSON](q98_n47_26l.json) |
 | `q98_uzp_3g8` | 密姬 | [《史記・齊太公世家》][14] | [JSON](q98_uzp_3g8.json) |
@@ -3831,6 +3834,7 @@
 | `ssp_whv_x4q` | 安期生 | [《史記・樂毅列傳》][62] | [JSON](ssp_whv_x4q.json) |
 | `ssv_spo_859` | 羊勝 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ssv_spo_859.json) |
 | `st2_0ng_tvo` | 樂巨公 | [《史記・田叔列傳》][86] | [JSON](st2_0ng_tvo.json) |
+| `st8_x29_boy` | 公孫弘 | [《史記・李將軍列傳》][91] | [JSON](st8_x29_boy.json) |
 | `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
