@@ -29,14 +29,16 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；前3段13名來源候選、51處人物及未定錨點、1筆籍貫、2筆親屬及23筆官爵秩稱與敘事用稱。其餘17段、日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄；前5段19名來源候選、94處人物及未定錨點、1筆籍貫、2筆親屬及39筆官爵秩稱與敘事用稱。其餘15段、日期與跨篇同指待標註。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
       "太子丹與引語帝號暫保留本篇候選，跨篇同指另核。",
       "附文索隱述贊與正文分層保存。",
       "梁王授印與還賞不行分存；五郡保存原地名清單及共享太守用稱，不推先後任次。",
-      "匈奴三人及被殺二人保留群體未定錨點，僅生得一人另立匿名候選；射雕者為技能稱。第三段天子承景帝敘事，第四段才敘武帝立。"
+      "匈奴三人及被殺二人保留群體未定錨點，僅生得一人另立匿名候選；射雕者為技能稱。第三段天子承景帝敘事，第四段才敘武帝立。",
+      "馬邑與四歲後的單于候選分存，是否同一人待核。",
+      "護軍將軍非李廣兼任；贖為庶人不自動終止全部官職。"
     ]
   },
   "paragraphs": [
@@ -526,16 +528,405 @@
     {
       "id": "c-shiji-109-liguang:p004",
       "text": "居久之，孝景崩，武帝立，左右以爲廣名將也，於是廣以上郡太守爲未央衞尉，而程不識亦爲長樂衞尉。程不識故與李廣俱以邊太守將軍屯。及出擊胡，而廣行無部伍行陳，就善水草屯，舍止，人人自便，不擊刀鬬以自衞，莫府省約文書籍事，然亦遠斥候，未嘗遇害。程不識正部曲行伍營陳，擊刀鬬，士吏治軍簿至明，軍不得休息，然亦未嘗遇害。不識曰：「李廣軍極簡易，然虜卒犯之，無以禁也；而其士卒亦佚樂，咸樂爲之死。我軍雖煩擾，然虜亦不得犯我。」是時漢邊郡李廣、程不識皆爲名將，然匈奴畏李廣之略，士卒亦多樂從李廣而苦程不識。程不識孝景時以數直諫爲太中大夫。爲人廉，謹於文法。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m004-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "孝景",
+          "kind": "person",
+          "person_id": "xd0_1s0_wag",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "5k5_3ag_agc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0023",
+          "start": 23,
+          "end": 24,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0036",
+          "start": 36,
+          "end": 39,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0046",
+          "start": 46,
+          "end": 49,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0118",
+          "start": 118,
+          "end": 121,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0154",
+          "start": 154,
+          "end": 156,
+          "surface": "不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0159",
+          "start": 159,
+          "end": 161,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0211",
+          "start": 211,
+          "end": 213,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0214",
+          "start": 214,
+          "end": 217,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0237",
+          "start": 237,
+          "end": 239,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0241",
+          "start": 241,
+          "end": 244,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0245",
+          "start": 245,
+          "end": 248,
+          "surface": "程不識",
+          "kind": "person",
+          "person_id": "y6f_9v5_dqg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m004-0248",
+          "start": 248,
+          "end": 250,
+          "surface": "孝景",
+          "kind": "person",
+          "person_id": "xd0_1s0_wag",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p005",
       "text": "後漢以馬邑城誘單于，使大軍伏馬邑旁谷，而廣爲驍騎將軍，領屬護軍將軍。是時單于覺之，去，漢軍皆無功。其後四歳，廣以衞尉爲將軍，出鴈門擊匈奴。匈奴兵多，破敗廣軍，生得廣。單于素聞廣賢，令曰：「得李廣必生致之。」胡騎得廣，廣時傷病，置廣兩馬閒，絡而盛臥廣。行十餘里，廣佯死，睨其旁有一胡兒騎善馬，廣暫騰而上胡兒馬，因推墮兒，取其弓，鞭馬南馳數十里，復得其餘軍，因引而入塞。匈奴捕者騎數百追之，廣行取胡兒弓，射殺追騎，以故得脫。於是至漢，漢下廣吏。吏當廣所失亡多，爲虜所生得，當斬，贖爲庶人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m005-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "qd7_pum_453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0029",
+          "start": 29,
+          "end": 33,
+          "surface": "護軍將軍",
+          "kind": "person",
+          "person_id": "bos_4ze_kic",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "qd7_pum_453",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0054",
+          "start": 54,
+          "end": 55,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0076",
+          "start": 76,
+          "end": 77,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0081",
+          "start": 81,
+          "end": 82,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "w7s_pgt_k77",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0087",
+          "start": 87,
+          "end": 88,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0095",
+          "start": 95,
+          "end": 97,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0106",
+          "start": 106,
+          "end": 107,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0108",
+          "start": 108,
+          "end": 109,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0114",
+          "start": 114,
+          "end": 115,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0123",
+          "start": 123,
+          "end": 124,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0130",
+          "start": 130,
+          "end": 131,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "胡兒",
+          "kind": "person",
+          "person_id": "5v3_lxk_shh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0145",
+          "start": 145,
+          "end": 146,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0150",
+          "start": 150,
+          "end": 152,
+          "surface": "胡兒",
+          "kind": "person",
+          "person_id": "5v3_lxk_shh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0157",
+          "start": 157,
+          "end": 158,
+          "surface": "兒",
+          "kind": "person",
+          "person_id": "5v3_lxk_shh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0193",
+          "start": 193,
+          "end": 194,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0196",
+          "start": 196,
+          "end": 198,
+          "surface": "胡兒",
+          "kind": "person",
+          "person_id": "5v3_lxk_shh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0217",
+          "start": 217,
+          "end": 218,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0218",
+          "start": 218,
+          "end": 219,
+          "surface": "吏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0220",
+          "start": 220,
+          "end": 221,
+          "surface": "吏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m005-0222",
+          "start": 222,
+          "end": 223,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p006",
