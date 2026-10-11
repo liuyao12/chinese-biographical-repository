@@ -263,6 +263,15 @@
 
 </details>
 
+<details><summary><code>27j_f4p_jwp</code> 李廣（李將軍列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 李廣 | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp.json) |
+| `A` | 敢（李廣子） | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_A.json) |
+
+</details>
+
 <details><summary><code>2d3_fsd_1dh</code> 楚成王（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
