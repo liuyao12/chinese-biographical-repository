@@ -606,7 +606,6 @@
 | `4jv_qte_5p4` | 章邯 | [《史記・項羽本紀》][7] | [JSON](4jv_qte_5p4.json) |
 | `4k0_mri_buk` | 盧綰 | [《史記・樊酈滕灌列傳》][77] | [JSON](4k0_mri_buk.json) |
 | `4ki_y9a_zjy` | 陳澤 | [《史記・淮陰侯列傳》][74] | [JSON](4ki_y9a_zjy.json) |
-| `4kp_bwq_ayu` | 景帝 | [《史記・韓長孺列傳》][90] | [JSON](4kp_bwq_ayu.json) |
 | `4kq_wgk_0k4` | 衛姬（楚篇齊桓公母） | [《史記・齊太公世家》][14]、[《史記・楚世家》][22] | [JSON](4kq_wgk_0k4.json) |
 | `4ky_3rl_efu` | 侯生 | [《史記・秦始皇本紀》][6] | [JSON](4ky_3rl_efu.json) |
 | `4lj_xrf_bsl` | 晉景公 | [《史記・晉世家》][21] | [JSON](4lj_xrf_bsl.json) |
@@ -799,7 +798,6 @@
 | `631_ags_hxe` | 鯁 | [《史記・韓世家》][27] | [JSON](631_ags_hxe.json) |
 | `631_j7q_04t` | 天子 | [《史記・商君列傳》][50] | [JSON](631_j7q_04t.json) |
 | `632_664_al2` | 夏說 | [《史記・曹相國世家》][36] | [JSON](632_664_al2.json) |
-| `639_gt7_91e` | 太上皇 | [《史記・韓長孺列傳》][90] | [JSON](639_gt7_91e.json) |
 | `639_jt7_ns0` | 周蘭 | [《史記・高祖本紀》][8] | [JSON](639_jt7_ns0.json) |
 | `63o_61u_6tf` | 項冠 | [《史記・傅靳蒯成列傳》][80] | [JSON](63o_61u_6tf.json) |
 | `63o_tsj_qtc` | 泄鈞 | [《史記・趙世家》][25] | [JSON](63o_tsj_qtc.json) |
@@ -1839,7 +1837,6 @@
 | `dwf_eik_t2x` | 南陽守齮 | [《史記・曹相國世家》][36] | [JSON](dwf_eik_t2x.json) |
 | `dwm_kwy_53u` | 宣太后 | [《史記・秦本紀》][5] | [JSON](dwm_kwy_53u.json) |
 | `dwv_5hn_680` | 孟賁 | [《史記・張儀列傳》][52] | [JSON](dwv_5hn_680.json) |
-| `dx5_rnj_d5t` | 高皇帝 | [《史記・韓長孺列傳》][90] | [JSON](dx5_rnj_d5t.json) |
 | `dxi_0q9_9vq` | 公孫喜 | [《史記・秦本紀》][5] | [JSON](dxi_0q9_9vq.json) |
 | `dxn_drv_maj` | 趙穿 | [《史記・晉世家》][21] | [JSON](dxn_drv_maj.json) |
 | `dxo_6ig_5eg` | 蒙毅 | [《史記・蒙恬列傳》][70] | [JSON](dxo_6ig_5eg.json) |
@@ -2608,7 +2605,6 @@
 | `jit_1ud_8if` | 薛歐 | [《史記・高祖本紀》][8] | [JSON](jit_1ud_8if.json) |
 | `jj8_r26_ani` | 主父偃 | [《史記・樂毅列傳》][62] | [JSON](jj8_r26_ani.json) |
 | `jjm_xtb_fcj` | 扈輒 | [《史記・魏豹彭越列傳》][72] | [JSON](jjm_xtb_fcj.json) |
-| `jk4_o6f_pqa` | 共王 | [《史記・韓長孺列傳》][90] | [JSON](jk4_o6f_pqa.json) |
 | `jki_ijf_2w1` | 高后 | [《史記・傅靳蒯成列傳》][80] | [JSON](jki_ijf_2w1.json) |
 | `jko_7a4_o8v` | 薄太后 | [《史記・楚元王世家》][32] | [JSON](jko_7a4_o8v.json) |
 | `jlk_1b3_sd7` | 趙惠文王 | [《史記・樂毅列傳》][62] | [JSON](jlk_1b3_sd7.json) |
@@ -2813,7 +2809,6 @@
 | `l44_3nw_9xe` | 魯使（齊頃宴使未名） | [《史記・晉世家》][21] | [JSON](l44_3nw_9xe.json) |
 | `l4l_iz8_ao0` | 岐伯 | [《史記・孝武本紀》][12] | [JSON](l4l_iz8_ao0.json) |
 | `l5c_h8i_d5q` | 衛子夫 | [《史記・外戚世家》][31] | [JSON](l5c_h8i_d5q.json) |
-| `l5d_ywu_jfb` | 梁孝王 | [《史記・韓長孺列傳》][90] | [JSON](l5d_ywu_jfb.json) |
 | `l5h_vix_jn2` | 莊舄 | [《史記・張儀列傳》][52] | [JSON](l5h_vix_jn2.json) |
 | `l6c_cnc_j51` | 楚元王 | [《史記・三王世家》][42] | [JSON](l6c_cnc_j51.json) |
 | `l6d_hvp_ot3` | 泗川守壯 | [《史記・高祖本紀》][8] | [JSON](l6d_hvp_ot3.json) |
@@ -3038,7 +3033,6 @@
 | `mww_f6f_st9` | 定王（介） | [《史記・周本紀》][4] | [JSON](mww_f6f_st9.json) |
 | `mwy_yd6_bo5` | 楚共王 | [《史記・晉世家》][21] | [JSON](mwy_yd6_bo5.json) |
 | `mx3_571_55a` | 蘇代 | [《史記・韓世家》][27] | [JSON](mx3_571_55a.json) |
-| `mx6_m2e_8ho` | 梁孝王父（未名） | [《史記・韓長孺列傳》][90] | [JSON](mx6_m2e_8ho.json) |
 | `mx7_r34_32m` | 田軫 | [《史記・田敬仲完世家》][28] | [JSON](mx7_r34_32m.json) |
 | `myc_m95_z8x` | 小令尹 | [《史記・樗里子甘茂列傳》][53] | [JSON](myc_m95_z8x.json) |
 | `myr_tln_x5c` | 項聲 | [《史記・高祖本紀》][8] | [JSON](myr_tln_x5c.json) |
@@ -3654,7 +3648,6 @@
 | `rnc_beh_rpl` | 庶長朝 | [《史記・秦本紀》][5] | [JSON](rnc_beh_rpl.json) |
 | `rnq_lt5_wgx` | 張黶 | [《史記・淮陰侯列傳》][74] | [JSON](rnq_lt5_wgx.json) |
 | `ro0_0hy_dw9` | 都尉未名（守袁盎） | [《史記・袁盎鼂錯列傳》][83] | [JSON](ro0_0hy_dw9.json) |
-| `ro0_y79_6b0` | 臨江王 | [《史記・韓長孺列傳》][90] | [JSON](ro0_y79_6b0.json) |
 | `ro3_15j_nvb` | 白起 | [《史記・白起王翦列傳》][55] | [JSON](ro3_15j_nvb.json) |
 | `ro3_dr0_zwg` | 夫差 | [《史記・趙世家》][25] | [JSON](ro3_dr0_zwg.json) |
 | `rop_352_k5s` | 楚威王 | [《史記・韓世家》][27] | [JSON](rop_352_k5s.json) |
@@ -4683,7 +4676,6 @@
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][12] | [JSON](zg6_76t_xid.json) |
 | `zg8_rjh_2jl` | 主父沙丘 | [《史記・范睢蔡澤列傳》][61] | [JSON](zg8_rjh_2jl.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](zgm_3w8_12c.json) |
-| `zgv_3zp_3tg` | 建元年間天子 | [《史記・韓長孺列傳》][90] | [JSON](zgv_3zp_3tg.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][32] | [JSON](zh2_5e4_ikn.json) |
 | `zht_ze7_m2d` | 山／義／弘（後少帝） | [《史記・呂太后本紀》][9] | [JSON](zht_ze7_m2d.json) |
 | `zi3_x31_9g6` | 周聚 | [《史記・陳涉世家》][30] | [JSON](zi3_x31_9g6.json) |

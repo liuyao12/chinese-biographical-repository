@@ -10,6 +10,19 @@ from person_bundle import load_catalog, ROOT
 
 
 class FamilyAssembliesTests(unittest.TestCase):
+    def test_han_changru_royal_candidates_join_existing_paternal_nodes(self):
+        source, rows = load_assemblies(ROOT, load_catalog(ROOT))
+        pairs = [('639_gt7_91e', 'yqp_nlb_p1p'), ('dx5_rnj_d5t', 'yqp_nlb_p1p_A'),
+                 ('4kp_bwq_ayu', 'yqp_nlb_p1p_ACA'), ('zgv_3zp_3tg', 'yqp_nlb_p1p_ACAA'),
+                 ('l5d_ywu_jfb', 'lof_f7j_v3e'), ('ro0_y79_6b0', 'b3o_oeg_r5k'),
+                 ('mx6_m2e_8ho', 'yqp_nlb_p1p_AC'), ('jk4_o6f_pqa', '82d_8vl_8i1_AA')]
+        for received, earlier in pairs:
+            with self.subTest(received=received):
+                self.assertEqual(source[received]['person_id'], source[earlier]['person_id'])
+                self.assertEqual(source[received]['root_person_id'], 'yqp_nlb_p1p')
+        chapter = json.loads((ROOT / 'corpus/shiji/108.json').read_text())
+        father = next(m for p in chapter['paragraphs'] for m in p['mentions'] if m['person_id'] == 'mx6_m2e_8ho')
+        self.assertEqual(father['surface'], '父')
     def test_liu_lineage_keeps_source_candidates_and_shared_root(self):
         source, rows = load_assemblies(ROOT, load_catalog(ROOT))
         bang = source['yqp_nlb_p1p_A']
