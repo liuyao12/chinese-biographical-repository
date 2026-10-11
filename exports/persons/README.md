@@ -392,6 +392,15 @@
 
 </details>
 
+<details><summary><code>505_n4y_p39</code> 秦開（匈奴列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 秦開 | [《史記・匈奴列傳》][92] | [JSON](505_n4y_p39.json) |
+| `*A` | 秦舞陽 | [《史記・匈奴列傳》][92] | [JSON](505_n4y_p39_%2AA.json) |
+
+</details>
+
 <details><summary><code>50h_gqe_1p1</code> 具（魯獻公）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
