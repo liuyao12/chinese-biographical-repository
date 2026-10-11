@@ -4347,6 +4347,7 @@
 | `wj3_oa7_o6b` | 杜信 | [《史記・扁鵲倉公列傳》][87] | [JSON](wj3_oa7_o6b.json) |
 | `wjf_wa5_eu9` | 彊（孝惠後宮子稱） | [《史記・呂太后本紀》][9] | [JSON](wjf_wa5_eu9.json) |
 | `wjp_1iw_3qf` | 代王嘉 | [《史記・田敬仲完世家》][28] | [JSON](wjp_1iw_3qf.json) |
+| `wjt_htu_081` | 頭曼（匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081.json) |
 | `wka_94j_2k5` | 少姬 | [《史記・管晏列傳》][44] | [JSON](wka_94j_2k5.json) |
 | `wl3_jss_lix` | 奚齊 | [《史記・劉敬叔孫通列傳》][81] | [JSON](wl3_jss_lix.json) |
 | `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][40] | [JSON](wl6_i22_vjk.json) |
