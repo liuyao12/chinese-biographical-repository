@@ -2360,7 +2360,7 @@
 
 </details>
 
-<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（9 名）</summary>
+<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（11 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2372,6 +2372,8 @@
 | `AAB` | 伊稚斜（匈奴列傳第31至32段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AAB.json) |
 | `AABA` | 烏維（匈奴列傳第42至43段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABA.json) |
 | `AABAA` | 烏師廬（匈奴列傳第49段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAA.json) |
+| `AABAAA` | 兒單于之子（未名） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAAA.json) |
+| `AABB` | 呴犁湖（匈奴列傳第53段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABB.json) |
 | `B` | 少子（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_B.json) |
 
 </details>

@@ -460,6 +460,78 @@
       },
       "interpretation_note": "子烏師廬明示父子，未由單于繼位推造；不補長子、生母或與未名太子同指。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji110-021",
+      "subject_person_id": "dj9_3ru_oww",
+      "predicate": "father",
+      "object_person_id": "du1_540_vpf",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p053",
+          "quote": "兒單于立三歳而死。子年少，匈奴乃立其季父烏維單于弟右賢王呴犁湖爲單于。是歳太初三年也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子年少",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "子承剛去世的兒單于，明示父子；不補姓名、生母、長子或曾嗣位。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji110-022",
+      "subject_person_id": "j49_s7i_i01",
+      "predicate": "brother",
+      "object_person_id": "m9n_aj1_4tp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p053",
+          "quote": "兒單于立三歳而死。子年少，匈奴乃立其季父烏維單于弟右賢王呴犁湖爲單于。是歳太初三年也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "m9n_aj1_4tp",
+          "younger_person_id": "j49_s7i_i01",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "烏維單于弟明示較幼兄弟，精確排行與同母未知；同父接伊稚斜另記編輯暫定，不當作原文明言其父。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji110-023",
+      "subject_person_id": "du1_540_vpf",
+      "predicate": "paternal_uncle",
+      "object_person_id": "j49_s7i_i01",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p053",
+          "quote": "兒單于立三歳而死。子年少，匈奴乃立其季父烏維單于弟右賢王呴犁湖爲單于。是歳太初三年也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "季父",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "季父的其按已死兒單于承接，因下文明言呴犁湖為烏維弟、前段明言兒單于為烏維子，作兒單于叔父；不按最近子字轉成其子叔父，亦不據季字補數字排行。",
+      "reviewer": "Codex（AI 代理）"
     }
   ]
 }

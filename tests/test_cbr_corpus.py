@@ -27,6 +27,9 @@ class CorpusTests(unittest.TestCase):
     def test_reported_tenure_cannot_be_elapsed_calendar_years(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(unit='calendar_year'))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
+    def test_reported_tenure_rejects_elapsed_counting(self):
+        self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(counting='elapsed_calendar_years'))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
     def test_stepmother_requires_received_term(self):
         self.change('corpus/shiji/110-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'stepmother')['qualifiers'].update(source_term='母'))
         self.assertIn('後母關係須有原詞證據', v.validate(self.root))
