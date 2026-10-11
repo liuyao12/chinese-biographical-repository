@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首四段初標19名來源人物、10筆親屬、1筆籍貫、21筆用稱、11筆跨篇同指、4筆局部身份判讀及1組人物區分，其餘待續標。",
+    "coverage": "全48段轉錄；首五段初標28名來源人物、11筆親屬、1筆籍貫、33筆用稱、3筆生卒、15筆跨篇同指、4筆局部身份判讀及1組人物區分；其餘待續標。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -38,7 +38,9 @@
       "末段索隱述贊與收到的列傳正文分層，未核作者及版本。",
       "第2段侯、先母及其子群體不補身份或同父。第3段同母昆弟不逐名補全；公孫敖救青不新增血親。上按子夫幸天子的連續語境暫接首段天子，尚待外戚世家對讀。建元二年春不套到孺婚姻或少兒與陳掌通的起點。",
       "首三段官稱及建元二年平行事件年換算存為暫定；前139年不套到孺婚姻或少兒通陳掌，首段大將軍為總述不用此年。大中大夫與通鑑太中大夫原詞差異保留。跨篇同指按外戚世家各段事件及家庭語境，不按同名批量合併。",
-      "第4段元光五年與通鑑元光六年異記，編輯年份暫取前129年，原詞五年換算為前130年另在判讀說明保存。蘢城與數百不改成龍城與七百。李廣與衛氏男弟廣分開。贖為庶人不作死亡或一律終止全部爵位。"
+      "第4段元光五年與通鑑元光六年異記，編輯年份暫取前129年，原詞五年換算為前130年另在判讀說明保存。蘢城與數百不改成龍城與七百。李廣與衛氏男弟廣分開。贖為庶人不作死亡或一律終止全部爵位。",
+      "第5段有男僅存未名個體及生母，未據記憶補劉據。白羊、樓煩王按河南同役保留未名個體，未合併冒頓時或趙世家同號人物。蘇建的建只標封建為平陵侯，不標使建筑朔方城的建筑動詞。元朔元年、明年及後兩個其明年不能整段同年；封侯、生卒及跨篇身份待逐項補證。",
+      "第5段出生冊后與雁門軍役暫前128年，河南封侯暫前127年，代郡友遇害暫前126年。遼西遇害及李息出代的本文明年與通鑑元年敘事位置不同，按各平行事件分年不改文。友／恭異名未裁，官署不作死亡地點，未名男及韓將軍仍待跨篇身份複核。"
     ]
   },
   "paragraphs": [
@@ -734,9 +736,181 @@
     {
       "id": "c-shiji-111-wei-huo:p005",
       "text": "元朔元年春，衛夫人有男，立為皇后。其秋，青為車騎將軍，出雁門，三萬騎擊匈奴，斬首虜數千人。明年，匈奴入殺遼西太守，虜略漁陽二千餘人，敗韓將軍軍。漢令將軍李息擊之，出代；令車騎將軍青出雲中以西至高闕。遂略河南地，至于隴西，捕首虜數千，畜數十萬，走白羊、樓煩王。遂以河南地為朔方郡。以三千八百戶封青為長平侯。青校尉蘇建有功，以千一百戶封建為平陵侯。使建筑朔方城。青校尉張次公有功，封為岸頭侯。天子曰：「匈奴逆天理，亂人倫，暴長虐老，以盜竊為務，行詐諸蠻夷，造謀藉兵，數為邊害，故興師遣將，以征厥罪。詩不云乎：『薄伐玁狁，至于太原』，『出車彭彭，城彼朔方』。今車騎將軍青度西河至高闕，獲首虜二千三百級，車輜畜產畢收為鹵，已封為列侯，遂西定河南地，按榆谿舊塞，絕梓領，梁北河，討蒲泥，破符離，斬輕銳之卒，捕伏聽者三千七十一級，執訊獲醜，驅馬牛羊百有餘萬，全甲兵而還，益封青三千戶。」其明年，匈奴入殺代郡太守友，入略鴈門千餘人。其明年，匈奴大入代、定襄、上郡，殺略漢數千人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m005-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "衛夫人",
+          "kind": "person",
+          "person_id": "wli_blb_o53",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "男",
+          "kind": "person",
+          "person_id": "apn_ec5_yqm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0052",
+          "start": 52,
+          "end": 56,
+          "surface": "遼西太守",
+          "kind": "person",
+          "person_id": "u3c_iu9_u24",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0067",
+          "start": 67,
+          "end": 70,
+          "surface": "韓將軍",
+          "kind": "person",
+          "person_id": "tcc_rbs_ewo",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "李息",
+          "kind": "person",
+          "person_id": "e24_def_3mn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0089",
+          "start": 89,
+          "end": 90,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0122",
+          "start": 122,
+          "end": 124,
+          "surface": "白羊",
+          "kind": "person",
+          "person_id": "3p7_1yj_tah",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0125",
+          "start": 125,
+          "end": 128,
+          "surface": "樓煩王",
+          "kind": "person",
+          "person_id": "6nd_80r_qpg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0146",
+          "start": 146,
+          "end": 147,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0152",
+          "start": 152,
+          "end": 153,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0155",
+          "start": 155,
+          "end": 157,
+          "surface": "蘇建",
+          "kind": "person",
+          "person_id": "ior_a2u_f1c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0166",
+          "start": 166,
+          "end": 167,
+          "surface": "建",
+          "kind": "person",
+          "person_id": "ior_a2u_f1c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0179",
+          "start": 179,
+          "end": 180,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0182",
+          "start": 182,
+          "end": 185,
+          "surface": "張次公",
+          "kind": "person",
+          "person_id": "3l0_ff9_vzh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0194",
+          "start": 194,
+          "end": 196,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0281",
+          "start": 281,
+          "end": 282,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0381",
+          "start": 381,
+          "end": 382,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m005-0395",
+          "start": 395,
+          "end": 400,
+          "surface": "代郡太守友",
+          "kind": "person",
+          "person_id": "gfi_mo5_imd",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p006",
