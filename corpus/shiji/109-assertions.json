@@ -1,0 +1,69 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shiji-109-liguang",
+  "assertions": [
+    {
+      "id": "a-shiji109-001",
+      "subject_person_id": "27j_f4p_jwp",
+      "predicate": "ancestor",
+      "object_person_id": "vm4_pus_oa9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-109-liguang",
+          "source_id": "s-shiji-109-liguang",
+          "paragraph_id": "c-shiji-109-liguang:p001",
+          "quote": "李將軍廣者，隴西成紀人也。其先曰李信，秦時爲將，逐得燕太子丹者也。故槐里，徙成紀。廣家世世受射。孝文帝十四年，匈奴大入蕭關，而廣以良家子從軍擊胡，用善騎射，殺首虜多，爲漢中郎。廣從弟李蔡亦爲郎，皆爲武騎常侍，秩八百石。嘗從行，有所衝陷折關及格猛獸，而文帝曰：「惜乎，子不遇時！如令子當高帝時，萬戸侯豈足道哉！」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其先曰李信",
+        "historicity": "historical_tradition",
+        "generation_distance": null
+      },
+      "interpretation_note": "原文其先記李信為祖先，未明世代距離，不改作父親，不補中間人物或組裝固定代數。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji109-002",
+      "subject_person_id": "ocv_s0f_djg",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "27j_f4p_jwp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-109-liguang",
+          "source_id": "s-shiji-109-liguang",
+          "paragraph_id": "c-shiji-109-liguang:p001",
+          "quote": "李將軍廣者，隴西成紀人也。其先曰李信，秦時爲將，逐得燕太子丹者也。故槐里，徙成紀。廣家世世受射。孝文帝十四年，匈奴大入蕭關，而廣以良家子從軍擊胡，用善騎射，殺首虜多，爲漢中郎。廣從弟李蔡亦爲郎，皆爲武騎常侍，秩八百石。嘗從行，有所衝陷折關及格猛獸，而文帝曰：「惜乎，子不遇時！如令子當高帝時，萬戸侯豈足道哉！」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "廣從弟李蔡",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "relative_birth_order": {
+          "older_person_id": "27j_f4p_jwp",
+          "younger_person_id": "ocv_s0f_djg",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "interpretation_note": "從弟保存同世代父系旁親及較幼，距離與共同祖先未知；不改作親弟，不補父親或確切排行。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ]
+}
