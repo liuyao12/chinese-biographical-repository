@@ -2773,6 +2773,7 @@
 | `kc7_t2s_yot` | 倶酒（晉靜公） | [《史記・晉世家》][21] | [JSON](kc7_t2s_yot.json) |
 | `kcm_epf_5gf` | 趙歇 | [《史記・張耳陳餘列傳》][71] | [JSON](kcm_epf_5gf.json) |
 | `kcn_xi0_lu8` | 接子 | [《史記・孟子荀卿列傳》][56] | [JSON](kcn_xi0_lu8.json) |
+| `kcw_zyu_73l` | 右谷蠡王（匈奴列傳第39段短暫自立者，未名） | [《史記・匈奴列傳》][92] | [JSON](kcw_zyu_73l.json) |
 | `kd7_n5o_quo` | 秦昭王 | [《史記・范睢蔡澤列傳》][61] | [JSON](kd7_n5o_quo.json) |
 | `kdb_o6l_zgr` | 仲尼 | [《史記・孔子世家》][29] | [JSON](kdb_o6l_zgr.json) |
 | `kdu_u61_y33` | 顏濁鄒 | [《史記・孔子世家》][29] | [JSON](kdu_u61_y33.json) |

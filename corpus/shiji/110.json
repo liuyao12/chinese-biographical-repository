@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前38段初標108名來源人物、480處人物及未定錨點、17筆親屬、110筆用稱、19筆死亡事件、4筆地址及35筆跨篇身份判讀。其餘23段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前39段初標109名來源人物、490處人物及未定錨點、17筆親屬、112筆用稱、19筆死亡事件、4筆地址及35筆跨篇身份判讀。其餘22段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -59,7 +59,8 @@
       "第35段建省稱參照通鑑蘇建而未補入原文或混同石建；漢亦亡兩將軍為軍敗失將，建身脫、趙信降胡，不記為死亡。翕侯舊封無年，小王為追述；自次王新授按平行事件定年。單于姊婚趙信保留女性 ID 及相對年齡，不補子女與父母。",
       "第36段其明年承前段末上谷之年換前121年；首虜數字與通鑑差異保留。合騎侯按平行具名同次軍役暫接公孫敖，博望侯及左賢王接李將軍列傳同次四千騎被圍記錄；當死而贖不作死亡，未補休屠王姓名。",
       "第37段兩王降漢、休屠王被渾邪王殺記前121年；欲召誅是意圖而非既成死亡。渾邪王未名，不接隴西太守渾邪；居西方不作籍貫，未把通鑑漯陰侯受封補成本篇用稱。",
-      "第38段信接趙信、青接衛青，兩將軍及單于按接續幕北軍役暫同指，記前119年；趙信城為地名未作人物。翕侯在漢謀引語中的使用不等於恢復漢爵或另授。漢謀的集體主語未補成武帝個人提及。"
+      "第38段信接趙信、青接衛青，兩將軍及單于按接續幕北軍役暫同指，記前119年；趙信城為地名未作人物。翕侯在漢謀引語中的使用不等於恢復漢爵或另授。漢謀的集體主語未補成武帝個人提及。",
+      "第39段單于有兩個持有人，依自立、去號語法分開錨點；誤認伊稚斜死亡不作死亡事件。自立與撤號有事件及平行年證據，本篇無日數，不把通鑑十餘日改入正文或精確推十日任期。"
     ]
   },
   "paragraphs": [
@@ -4690,9 +4691,100 @@
     {
       "id": "c-shiji-110-xiongnu:p039",
       "text": "單于之遁走，其兵往往與漢兵相亂而隨單于。單于久不與其大眾相得，其右谷蠡王以爲單于死，乃自立爲單于。真單于復得其眾，而右谷蠡王乃去其單于號，復爲右谷蠡王。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m039-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0032",
+          "start": 32,
+          "end": 36,
+          "surface": "右谷蠡王",
+          "kind": "person",
+          "person_id": "kcw_zyu_73l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "kcw_zyu_73l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0049",
+          "start": 49,
+          "end": 52,
+          "surface": "真單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0058",
+          "start": 58,
+          "end": 62,
+          "surface": "右谷蠡王",
+          "kind": "person",
+          "person_id": "kcw_zyu_73l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "kcw_zyu_73l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m039-0071",
+          "start": 71,
+          "end": 75,
+          "surface": "右谷蠡王",
+          "kind": "person",
+          "person_id": "kcw_zyu_73l",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p040",
