@@ -604,6 +604,7 @@
 | `4jv_qte_5p4` | 章邯 | [《史記・項羽本紀》][7] | [JSON](4jv_qte_5p4.json) |
 | `4k0_mri_buk` | 盧綰 | [《史記・樊酈滕灌列傳》][77] | [JSON](4k0_mri_buk.json) |
 | `4ki_y9a_zjy` | 陳澤 | [《史記・淮陰侯列傳》][74] | [JSON](4ki_y9a_zjy.json) |
+| `4kp_bwq_ayu` | 景帝 | [《史記・韓長孺列傳》][90] | [JSON](4kp_bwq_ayu.json) |
 | `4kq_wgk_0k4` | 衛姬（楚篇齊桓公母） | [《史記・齊太公世家》][14]、[《史記・楚世家》][22] | [JSON](4kq_wgk_0k4.json) |
 | `4ky_3rl_efu` | 侯生 | [《史記・秦始皇本紀》][6] | [JSON](4ky_3rl_efu.json) |
 | `4lj_xrf_bsl` | 晉景公 | [《史記・晉世家》][21] | [JSON](4lj_xrf_bsl.json) |
@@ -1614,6 +1615,7 @@
 | `ccv_1jr_0jn` | 晁錯 | [《史記・齊悼惠王世家》][34] | [JSON](ccv_1jr_0jn.json) |
 | `ccx_50c_ssi` | 寧越 | [《史記・秦始皇本紀》][6] | [JSON](ccx_50c_ssi.json) |
 | `cdg_kvt_y0p` | 虞卿 | [《史記・平原君虞卿列傳》][58] | [JSON](cdg_kvt_y0p.json) |
+| `cdj_nwi_319` | 竇太后 | [《史記・韓長孺列傳》][90] | [JSON](cdj_nwi_319.json) |
 | `cdl_qsi_xdj` | 張儀 | [《史記・趙世家》][25] | [JSON](cdl_qsi_xdj.json) |
 | `ce2_d95_01s` | 信陵魏君 | [《史記・魏公子列傳》][59] | [JSON](ce2_d95_01s.json) |
 | `cez_do1_byp` | 趙平原君 | [《史記・孟嘗君列傳》][57] | [JSON](cez_do1_byp.json) |
@@ -3020,6 +3022,7 @@
 | `mww_f6f_st9` | 定王（介） | [《史記・周本紀》][4] | [JSON](mww_f6f_st9.json) |
 | `mwy_yd6_bo5` | 楚共王 | [《史記・晉世家》][21] | [JSON](mwy_yd6_bo5.json) |
 | `mx3_571_55a` | 蘇代 | [《史記・韓世家》][27] | [JSON](mx3_571_55a.json) |
+| `mx6_m2e_8ho` | 梁孝王父（未名） | [《史記・韓長孺列傳》][90] | [JSON](mx6_m2e_8ho.json) |
 | `mx7_r34_32m` | 田軫 | [《史記・田敬仲完世家》][28] | [JSON](mx7_r34_32m.json) |
 | `myc_m95_z8x` | 小令尹 | [《史記・樗里子甘茂列傳》][53] | [JSON](myc_m95_z8x.json) |
 | `myr_tln_x5c` | 項聲 | [《史記・高祖本紀》][8] | [JSON](myr_tln_x5c.json) |
@@ -3802,6 +3805,7 @@
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 | `suq_hns_wuy` | 韓成 | [《史記・留侯世家》][37] | [JSON](suq_hns_wuy.json) |
+| `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
 | `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
 | `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
 | `swf_ksm_2oo` | 宋雍氏女 | [《史記・鄭世家》][24] | [JSON](swf_ksm_2oo.json) |

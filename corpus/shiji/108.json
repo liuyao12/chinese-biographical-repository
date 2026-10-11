@@ -29,12 +29,13 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全篇轉錄；開篇4名來源候選、10處人物錨點、2筆地址、3筆官爵用稱。其餘14段待標註。",
+    "coverage": "全篇15段轉錄；前2段8名來源候選、48處人物錨點、2筆親屬、2筆地址、3筆官爵用稱。其餘13段待標註。",
     "limitations": [
       "未核底本影像。",
       "田生不因師授韓子而改名韓非；韓子、雜家此處為所受學說，非確定人物提及。",
       "吳楚為國名，不補具名國王。",
-      "跨篇同指及正文其餘指代尚待覆核。"
+      "跨篇同指及正文其餘指代尚待覆核。",
+      "第二段帝后與公主依景帝母弟及敘事語境暫定；梁王父暫不借外部知識補名。"
     ]
   },
   "paragraphs": [
@@ -139,9 +140,352 @@
     {
       "id": "c-shiji-108-han:p002",
       "text": "梁孝王，景帝母弟，竇太后愛之，令得自請置相、二千石，出入遊戲，僭於天子。天子聞之，心弗善也。太后知帝不善，乃怒梁使者，弗見，案責王所爲。韓安國爲梁使，見大長公主而泣曰：「何梁王爲人子之孝，爲人臣之忠，太后曾弗省也？夫前日呉、楚、齊、趙七國反時，自關以東皆合從西鄕，惟梁最親爲艱難。梁王念太后、帝在中，而諸侯擾亂，一言泣數行下，跪送臣等六人，將兵擊卻呉楚，呉楚以故兵不敢西，而卒破亡，梁王之力也。今太后以小睗苛禮責望梁王。梁王父兄皆帝王，所見者大，故出稱蹕，入言警，車旗皆帝所賜也，即欲以侘鄙縣，驅馳國中，以夸諸侯，令天下盡知太后、帝愛之也。今梁使來，輒案責之。梁王恐，日夜涕泣思慕，不知所爲。何梁王之爲子孝，爲臣忠，而太后弗恤也？」大長公主具以告太后，太后喜曰：「爲言之帝。」言之，帝心乃解，而免冠謝太后曰：「兄弟不能相教，乃爲太后遺憂。」悉見梁使，厚賜之。其後梁王益親驩。太后、長公主更賜安國可直千餘金。名由此顯，結於漢。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m002-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "梁孝王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "景帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "竇太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0049",
+          "start": 49,
+          "end": 50,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0064",
+          "start": 64,
+          "end": 65,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0068",
+          "start": 68,
+          "end": 71,
+          "surface": "韓安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0076",
+          "start": 76,
+          "end": 80,
+          "surface": "大長公主",
+          "kind": "person",
+          "person_id": "suw_tds_nwl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0100",
+          "start": 100,
+          "end": 102,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0140",
+          "start": 140,
+          "end": 142,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0146",
+          "start": 146,
+          "end": 147,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0191",
+          "start": 191,
+          "end": 193,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0198",
+          "start": 198,
+          "end": 200,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0207",
+          "start": 207,
+          "end": 209,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0210",
+          "start": 210,
+          "end": 212,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0212",
+          "start": 212,
+          "end": 213,
+          "surface": "父",
+          "kind": "person",
+          "person_id": "mx6_m2e_8ho",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0213",
+          "start": 213,
+          "end": 214,
+          "surface": "兄",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0235",
+          "start": 235,
+          "end": 236,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0262",
+          "start": 262,
+          "end": 264,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0265",
+          "start": 265,
+          "end": 266,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0280",
+          "start": 280,
+          "end": 282,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0297",
+          "start": 297,
+          "end": 299,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0309",
+          "start": 309,
+          "end": 311,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0316",
+          "start": 316,
+          "end": 320,
+          "surface": "大長公主",
+          "kind": "person",
+          "person_id": "suw_tds_nwl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0323",
+          "start": 323,
+          "end": 325,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0326",
+          "start": 326,
+          "end": 328,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0335",
+          "start": 335,
+          "end": 336,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0341",
+          "start": 341,
+          "end": 342,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "4kp_bwq_ayu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0350",
+          "start": 350,
+          "end": 352,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0364",
+          "start": 364,
+          "end": 366,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0381",
+          "start": 381,
+          "end": 383,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0387",
+          "start": 387,
+          "end": 389,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0390",
+          "start": 390,
+          "end": 393,
+          "surface": "長公主",
+          "kind": "person",
+          "person_id": "suw_tds_nwl",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m002-0395",
+          "start": 395,
+          "end": 397,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p003",
