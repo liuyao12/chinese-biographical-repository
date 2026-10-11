@@ -1533,7 +1533,7 @@
 | `bo6_x83_hfu` | 魏咎 | [《史記・魏豹彭越列傳》][72] | [JSON](bo6_x83_hfu.json) |
 | `bof_yfp_ill` | 竫公 | [《史記・秦本紀》][5] | [JSON](bof_yfp_ill.json) |
 | `bop_rln_19h` | 公孫雄 | [《史記・越王勾踐世家》][23] | [JSON](bop_rln_19h.json) |
-| `bos_4ze_kic` | 護軍將軍（未名） | [《史記・李將軍列傳》][91] | [JSON](bos_4ze_kic.json) |
+| `bos_4ze_kic` | 護軍將軍（未名） | [《史記・韓長孺列傳》][90] | [JSON](bos_4ze_kic.json) |
 | `bpi_u2n_1py` | 女修 | [《史記・秦本紀》][5] | [JSON](bpi_u2n_1py.json) |
 | `bpl_8yn_rrf` | 淳于髡 | [《史記・孟子荀卿列傳》][56] | [JSON](bpl_8yn_rrf.json) |
 | `bq7_19x_aoe` | 中大夫令齊 | [《史記・秦始皇本紀》][6] | [JSON](bq7_19x_aoe.json) |
@@ -3129,7 +3129,6 @@
 | `nj0_f2z_zlx` | 左徒 | [《史記・春申君列傳》][60] | [JSON](nj0_f2z_zlx.json) |
 | `nj7_1td_y4z` | 閻樂 | [《史記・秦始皇本紀》][6] | [JSON](nj7_1td_y4z.json) |
 | `njb_tt0_sz4` | 田忌 | [《史記・陳涉世家》][30] | [JSON](njb_tt0_sz4.json) |
-| `njk_tl0_6h9` | 李廣 | [《史記・韓長孺列傳》][90] | [JSON](njk_tl0_6h9.json) |
 | `njs_nws_8r1` | 鄭伯（楚莊王圍鄭時未名） | [《史記・楚世家》][22] | [JSON](njs_nws_8r1.json) |
 | `nju_tpj_v74` | 子行 | [《史記・齊太公世家》][14] | [JSON](nju_tpj_v74.json) |
 | `nk4_9wx_meg` | 公華 | [《史記・孔子世家》][29] | [JSON](nk4_9wx_meg.json) |
