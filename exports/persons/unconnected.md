@@ -3512,6 +3512,7 @@
 | `qgn_r2c_qtv` | 簡狄 | [《史記・殷本紀》][3] | [JSON](qgn_r2c_qtv.json) |
 | `qha_l8o_wxa` | 叔仲會 | [《史記・仲尼弟子列傳》][49] | [JSON](qha_l8o_wxa.json) |
 | `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |
+| `qii_pl5_1ei` | 太史公 | [《史記・李將軍列傳》][91] | [JSON](qii_pl5_1ei.json) |
 | `qj2_k5a_sq4` | 齊襄公 | [《史記・齊太公世家》][14] | [JSON](qj2_k5a_sq4.json) |
 | `qj3_l69_xhu` | 周公黑肩 | [《史記・周本紀》][4] | [JSON](qj3_l69_xhu.json) |
 | `qj3_rhh_t76` | 甯喜（衛臣） | [《史記・衛康叔世家》][19] | [JSON](qj3_rhh_t76.json) |
