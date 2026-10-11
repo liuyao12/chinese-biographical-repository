@@ -199,7 +199,10 @@ class CorpusTests(unittest.TestCase):
             self.assertFalse(any(m['kind']=='person' and m['start']==start for m in p['mentions']))
 
     def test_partial_chapter_cannot_claim_first_pass(self):
-        self.change('corpus/shiji/004.json',lambda d:d['paragraphs'][-1].update(annotation_status='pending',mentions=[]))
+        def mutate(d):
+            d['annotation']['status'] = 'named_mentions_first_pass'
+            d['paragraphs'][-1].update(annotation_status='pending', mentions=[])
+        self.change('corpus/shiji/004.json', mutate)
         self.assertTrue(any('不得宣稱首輪完成' in e for e in v.validate(self.root)))
     def test_partial_progress_cannot_skip_pending_paragraphs(self):
         def mutate(d):
