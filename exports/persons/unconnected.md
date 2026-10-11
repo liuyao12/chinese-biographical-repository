@@ -1580,7 +1580,7 @@
 | `bkr_vp5_w7r` | 太史公 | [《史記・刺客列傳》][68] | [JSON](bkr_vp5_w7r.json) |
 | `bkz_jr0_4ey` | 韓厥 | [《史記・韓世家》][27] | [JSON](bkz_jr0_4ey.json) |
 | `bl6_mow_siu` | 公孫喜 | [《史記・秦本紀》][5] | [JSON](bl6_mow_siu.json) |
-| `bld_yv5_49h` | 武安 | [《史記・衛將軍驃騎列傳》][93] | [JSON](bld_yv5_49h.json) |
+| `bld_yv5_49h` | 武安 | [《史記・魏其武安侯列傳》][89] | [JSON](bld_yv5_49h.json) |
 | `ble_6gl_3l8` | 空同氏（趙世家襄子妻未名者） | [《史記・趙世家》][25] | [JSON](ble_6gl_3l8.json) |
 | `blh_yo0_iq9` | 路博德 | [《史記・衛將軍驃騎列傳》][93] | [JSON](blh_yo0_iq9.json) |
 | `blo_hqh_iqg` | 小乙 | [《史記・殷本紀》][3] | [JSON](blo_hqh_iqg.json) |

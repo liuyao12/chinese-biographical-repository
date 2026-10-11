@@ -1237,7 +1237,7 @@
 | `ox6_lqa_iko` | 程滑（弒晉厲公記事） | [《史記・管蔡世家》][17] | [JSON](ox6_lqa_iko.json) |
 | `oxa_rta_lvd` | 澹臺滅明 | [《史記・仲尼弟子列傳》][49] | [JSON](oxa_rta_lvd.json) |
 | `oxi_zcr_uxa` | 高起 | [《史記・高祖本紀》][8] | [JSON](oxi_zcr_uxa.json) |
-| `oxw_ygh_znz` | 魏其 | [《史記・衛將軍驃騎列傳》][93] | [JSON](oxw_ygh_znz.json) |
+| `oxw_ygh_znz` | 魏其 | [《史記・魏其武安侯列傳》][89] | [JSON](oxw_ygh_znz.json) |
 | `oy5_z21_yq3` | 髙共 | [《史記・趙世家》][25] | [JSON](oy5_z21_yq3.json) |
 | `oya_xaf_3w8` | 宋最 | [《史記・絳侯周勃世家》][39] | [JSON](oya_xaf_3w8.json) |
 | `oye_sta_uwq` | 青翟 | [《史記・三王世家》][42] | [JSON](oye_sta_uwq.json) |
