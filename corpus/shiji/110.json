@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前43段初標112名來源人物、514處人物及未定錨點、18筆親屬、117筆用稱、21筆死亡事件、4筆地址及36筆跨篇身份判讀。其餘18段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前45段初標116名來源人物、537處人物及未定錨點、18筆親屬、121筆用稱、23筆死亡事件、4筆地址、36筆跨篇身份判讀及3筆篇內身份判讀。其餘16段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -62,7 +62,8 @@
       "第38段信接趙信、青接衛青，兩將軍及單于按接續幕北軍役暫同指，記前119年；趙信城為地名未作人物。翕侯在漢謀引語中的使用不等於恢復漢爵或另授。漢謀的集體主語未補成武帝個人提及。",
       "第39段單于有兩個持有人，依自立、去號語法分開錨點；誤認伊稚斜死亡不作死亡事件。自立與撤號有事件及平行年證據，本篇無日數，不把通鑑十餘日改入正文或精確推十日任期。",
       "第40段左賢王按幕北軍役另立並暫接李敢奪鼓旗同次候選，不逕合前121年同號王；將皆遁走為未定將領群體，未補人名。封禪不作授爵；第41段幕南王庭及漢度河置田為地理、軍政與群體敘述，未補具體人物或個人地址。",
-      "第42段任敞省稱同指，議和前119年、去病死亡前117年、先是使者舊事未定年分開。第43段伊稚斜死、子烏維繼立前114年有元鼎三年原句，子不推長子；漢天子始巡郡縣與通鑑元鼎四年紀序另列，不套王系交接年。"
+      "第42段任敞省稱同指，議和前119年、去病死亡前117年、先是使者舊事未定年分開。第43段伊稚斜死、子烏維繼立前114年有元鼎三年原句，子不推長子；漢天子始巡郡縣與通鑑元鼎四年紀序另列，不套王系交接年。",
+      "第44段故太仆賀以平行出兵全名暫接公孫賀，從驃侯為趙破奴舊爵，故字保存失職爵但不定其年。烏維立三年與通鑑元鼎六年差一年，暫取同次出兵前111年且留原詞；不是烏維完整在位年數。第45段郭吉、吉及發言吾按局部同指，巡邊告語前110年；主客按同使事暫同指，懸首南越王未名且卒年未定。北海是郭吉留置地，不作籍貫／卒地／葬地或現代定位；後續反覆遣使未名、不套前110年。"
     ]
   },
   "paragraphs": [
@@ -5038,16 +5039,225 @@
     {
       "id": "c-shiji-110-xiongnu:p044",
       "text": "烏維單于立三年，漢已滅南越，遣故太仆賀將萬五千騎出九原二千餘里，至浮苴井而還，不見匈奴一人。漢又遣故從驃侯趙破奴萬餘騎出令居數千里，至匈河水而還，亦不見匈奴一人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m044-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "烏維單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m044-0018",
+          "start": 18,
+          "end": 19,
+          "surface": "賀",
+          "kind": "person",
+          "person_id": "3i1_76v_502",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m044-0053",
+          "start": 53,
+          "end": 56,
+          "surface": "趙破奴",
+          "kind": "person",
+          "person_id": "z0l_1wp_de1",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p045",
       "text": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m045-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "mgp_xt9_j5h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "郭吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "郭吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0038",
+          "start": 38,
+          "end": 42,
+          "surface": "匈奴主客",
+          "kind": "person",
+          "person_id": "01d_17p_p7o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "郭吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0056",
+          "start": 56,
+          "end": 57,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0068",
+          "start": 68,
+          "end": 69,
+          "surface": "吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0070",
+          "start": 70,
+          "end": 71,
+          "surface": "吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0074",
+          "start": 74,
+          "end": 77,
+          "surface": "南越王",
+          "kind": "person",
+          "person_id": "9w0_e8e_sdf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0100",
+          "start": 100,
+          "end": 102,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "mgp_xt9_j5h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0108",
+          "start": 108,
+          "end": 110,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0155",
+          "start": 155,
+          "end": 159,
+          "surface": "主客見者",
+          "kind": "person",
+          "person_id": "01d_17p_p7o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0162",
+          "start": 162,
+          "end": 164,
+          "surface": "郭吉",
+          "kind": "person",
+          "person_id": "6mt_vgo_uau",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0174",
+          "start": 174,
+          "end": 176,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m045-0197",
+          "start": 197,
+          "end": 200,
+          "surface": "使於漢",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p046",
