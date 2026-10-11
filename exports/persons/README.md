@@ -1954,6 +1954,15 @@
 
 </details>
 
+<details><summary><code>n45_fw3_p09</code> 孫叔敖（滑稽列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 孫叔敖 | [《史記・循吏列傳》][101]、[《史記・滑稽列傳》][108] | [JSON](n45_fw3_p09.json) |
+| `A` | 孫叔敖子（未名） | [《史記・滑稽列傳》][108] | [JSON](n45_fw3_p09_A.json) |
+
+</details>
+
 <details><summary><code>n4f_fqh_04q</code> 易王（燕君）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2373,6 +2382,15 @@
 | `A` | 勝（曹武公） | [《史記・管蔡世家》][17] | [JSON](rr8_o9c_jc1_A.json) |
 | `AA` | 平公（曹武公子） | [《史記・管蔡世家》][17] | [JSON](rr8_o9c_jc1_AA.json) |
 | `AAA` | 午（曹悼公） | [《史記・管蔡世家》][17] | [JSON](rr8_o9c_jc1_AAA.json) |
+
+</details>
+
+<details><summary><code>s11_z5r_y2z</code> 東方朔（滑稽列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 東方朔 | [《史記・滑稽列傳》][108] | [JSON](s11_z5r_y2z.json) |
+| `A` | 東方朔子（未名） | [《史記・滑稽列傳》][108] | [JSON](s11_z5r_y2z_A.json) |
 
 </details>
 
@@ -3335,3 +3353,4 @@
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994
 [107]: https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599
+[108]: https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358
