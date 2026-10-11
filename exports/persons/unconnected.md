@@ -521,7 +521,7 @@
 | `3ti_3ui_sdb` | 杜赫 | [《史記・秦始皇本紀》][6] | [JSON](3ti_3ui_sdb.json) |
 | `3tp_ab0_hlx` | 竇廣國 | [《史記・外戚世家》][31] | [JSON](3tp_ab0_hlx.json) |
 | `3ts_h1q_wbo` | 顏聚 | [《史記・趙世家》][25]、[《史記・廉頗藺相如列傳》][63] | [JSON](3ts_h1q_wbo.json) |
-| `3tw_nq2_gyn` | 霍去病 | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](3tw_nq2_gyn.json) |
+| `3tw_nq2_gyn` | 霍去病 | [《史記・匈奴列傳》][92] | [JSON](3tw_nq2_gyn.json) |
 | `3ty_cnm_mh5` | 上林行人未名 | [《史記・李斯列傳》][69] | [JSON](3ty_cnm_mh5.json) |
 | `3u1_ov8_6ry` | 公子范 | [《史記・趙世家》][25] | [JSON](3u1_ov8_6ry.json) |
 | `3u2_btf_ob4` | 周舍 | [《史記・孝文本紀》][10]、[《史記・匈奴列傳》][92] | [JSON](3u2_btf_ob4.json) |
@@ -1412,7 +1412,7 @@
 | `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][48] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][10] | [JSON](al3_w9j_0ng.json) |
 | `alv_ted_3rj` | 司馬喜引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](alv_ted_3rj.json) |
-| `am3_2pu_fzr` | 左賢王（李敢從驃騎出征，未名） | [《史記・李將軍列傳》][91] | [JSON](am3_2pu_fzr.json) |
+| `am3_2pu_fzr` | 左賢王（李敢從驃騎出征，未名） | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](am3_2pu_fzr.json) |
 | `aml_541_6lh` | 子綦（楚昭王從臣） | [《史記・楚世家》][22] | [JSON](aml_541_6lh.json) |
 | `aml_745_t4f` | 祭公謀父 | [《史記・周本紀》][4] | [JSON](aml_745_t4f.json) |
 | `amq_yua_viu` | 庶長封 | [《史記・秦本紀》][5] | [JSON](amq_yua_viu.json) |
@@ -2362,6 +2362,7 @@
 | `hae_ws1_2ad` | 秦舞陽 | [《史記・刺客列傳》][68] | [JSON](hae_ws1_2ad.json) |
 | `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][26] | [JSON](hap_m8c_czz.json) |
 | `hb5_4zq_x4c` | 田角 | [《史記・田儋列傳》][76] | [JSON](hb5_4zq_x4c.json) |
+| `hbv_8k8_s0g` | 左賢王（匈奴列傳第40段幕北軍役，未名） | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](hbv_8k8_s0g.json) |
 | `hcd_x63_gy5` | 秦祖 | [《史記・仲尼弟子列傳》][49] | [JSON](hcd_x63_gy5.json) |
 | `hci_lxd_jyi` | 孝己 | [《史記・陳丞相世家》][38] | [JSON](hci_lxd_jyi.json) |
 | `hck_akv_oeh` | 國 | [《史記・越王勾踐世家》][23] | [JSON](hck_akv_oeh.json) |
@@ -3986,7 +3987,7 @@
 | `tbc_xj9_4f1` | 亞夫 | [《史記・絳侯周勃世家》][39] | [JSON](tbc_xj9_4f1.json) |
 | `tbv_g3c_03d` | 唐眛 | [《史記・韓世家》][27] | [JSON](tbv_g3c_03d.json) |
 | `tby_8vk_ybz` | 獻善馬者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tby_8vk_ybz.json) |
-| `tcq_aiz_yru` | 去病 | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](tcq_aiz_yru.json) |
+| `tcq_aiz_yru` | 去病 | [《史記・匈奴列傳》][92] | [JSON](tcq_aiz_yru.json) |
 | `td7_pgx_t52` | 田文 | [《史記・范睢蔡澤列傳》][61] | [JSON](td7_pgx_t52.json) |
 | `tdc_3s3_yak` | 重耳 | [《史記・越王勾踐世家》][23] | [JSON](tdc_3s3_yak.json) |
 | `tdc_u89_vcd` | 獻謳者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tdc_u89_vcd.json) |
@@ -4504,7 +4505,7 @@
 | `xdq_h9k_zzl` | 遷母（趙世家倡未名者） | [《史記・趙世家》][25] | [JSON](xdq_h9k_zzl.json) |
 | `xea_8m8_6dh` | 驩（臨江王） | [《史記・高祖本紀》][8] | [JSON](xea_8m8_6dh.json) |
 | `xer_mp5_agd` | 楚使者未名 | [《史記・黥布列傳》][73] | [JSON](xer_mp5_agd.json) |
-| `xfa_qqj_5yc` | 去病（匈奴列傳省稱） | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](xfa_qqj_5yc.json) |
+| `xfa_qqj_5yc` | 去病（匈奴列傳省稱） | [《史記・匈奴列傳》][92] | [JSON](xfa_qqj_5yc.json) |
 | `xfa_rw3_95j` | 重耳 | [《史記・晉世家》][21] | [JSON](xfa_rw3_95j.json) |
 | `xg3_url_fyn` | 留侯未詳名 | [《史記・張丞相列傳》][78] | [JSON](xg3_url_fyn.json) |
 | `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][49] | [JSON](xg5_2en_bvd.json) |
