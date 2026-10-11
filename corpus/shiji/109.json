@@ -29,12 +29,13 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；開篇6名來源候選、10處人物錨點、1筆籍貫、2筆親屬及9筆官爵秩稱。其餘19段、日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄；前2段10名來源候選、20處人物錨點、1筆籍貫、2筆親屬及20筆官爵秩稱。其餘18段、日期與跨篇同指待標註。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
       "太子丹與引語帝號暫保留本篇候選，跨篇同指另核。",
-      "附文索隱述贊與正文分層保存。"
+      "附文索隱述贊與正文分層保存。",
+      "梁王授印與還賞不行分存；五郡保存原地名清單及共享太守用稱，不推先後任次。"
     ]
   },
   "paragraphs": [
@@ -139,9 +140,100 @@
     {
       "id": "c-shiji-109-liguang:p002",
       "text": "及孝景初立，廣爲隴西都尉，徙爲騎郎將。呉楚軍時，廣爲驍騎都尉，從太尉亞夫擊呉楚軍，取旗，顯功名昌邑下。以梁王授廣將軍印，還，賞不行。徙爲上谷太守，匈奴日以合戰。典屬國公孫昆邪爲上泣曰：「李廣才氣，天下無雙，自負其能，數與虜敵戰，恐亡之。」於是乃徙爲上郡太守。後廣轉爲邊郡太守，徙上郡。嘗爲隴西、北地、鴈門、代郡、雲中太守，皆以力戰爲名。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m002-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "孝景",
+          "kind": "person",
+          "person_id": "xd0_1s0_wag",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0006",
+          "start": 6,
+          "end": 7,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0024",
+          "start": 24,
+          "end": 25,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "亞夫",
+          "kind": "person",
+          "person_id": "tbc_xj9_4f1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "梁王",
+          "kind": "person",
+          "person_id": "m2z_t62_97g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0055",
+          "start": 55,
+          "end": 56,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0083",
+          "start": 83,
+          "end": 87,
+          "surface": "公孫昆邪",
+          "kind": "person",
+          "person_id": "8qy_3jw_ikr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0088",
+          "start": 88,
+          "end": 89,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "xd0_1s0_wag",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0093",
+          "start": 93,
+          "end": 95,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m002-0130",
+          "start": 130,
+          "end": 131,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p003",
