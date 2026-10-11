@@ -139,12 +139,17 @@ class PersonBundleTests(unittest.TestCase):
 
     def test_birth_death_and_burial_places_are_separate(self):
         result = bundle('ao3_0fy_d45_AAA')
-        addresses = {a['relation']: a for a in result['address_assertions']}
-        self.assertEqual(addresses['birth_place']['place']['source_name'], '邯鄲')
-        self.assertEqual(addresses['death_place']['place']['source_name'], '沙丘平臺')
-        self.assertEqual(addresses['burial_place']['place']['source_name'], '酈邑')
-        self.assertNotIn('biographical_origin', addresses)
-        for a in addresses.values():
+        addresses = result['address_assertions']
+        def places(relation):
+            return {a['place']['source_name'] for a in addresses if a['relation'] == relation}
+        self.assertEqual(places('birth_place'), {'邯鄲'})
+        self.assertEqual(places('death_place'), {'沙丘平臺'})
+        self.assertEqual(places('burial_place'), {'酈邑', '酈山'})
+        self.assertFalse(places('biographical_origin'))
+        burials = [a for a in addresses if a['relation'] == 'burial_place']
+        self.assertEqual({e['paragraph_id'] for a in burials for e in a['evidence']},
+                         {'c-shiji-006-shihuang:p052', 'c-shiji-006-shihuang:p104'})
+        for a in addresses:
             self.assertIsNone(a['place']['modern_identification'])
             self.assertTrue(a['evidence'])
 

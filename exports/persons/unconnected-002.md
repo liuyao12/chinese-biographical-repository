@@ -653,6 +653,7 @@
 | `gwl_0sh_hcp` | 楚昭王引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](gwl_0sh_hcp.json) |
 | `gwo_lf6_tr7` | 蠡（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](gwo_lf6_tr7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][34] | [JSON](gx0_1xv_0gm.json) |
+| `gxd_15x_9d0` | 班固 | [《史記・秦始皇本紀》][6] | [JSON](gxd_15x_9d0.json) |
 | `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][72] | [JSON](gxs_1ia_tsp.json) |
 | `gy0_w6c_v4l` | 商君 | [《史記・商君列傳》][50] | [JSON](gy0_w6c_v4l.json) |
 | `gy6_lx6_eb2` | 趙公子渴 | [《史記・秦本紀》][5] | [JSON](gy6_lx6_eb2.json) |
@@ -2235,7 +2236,6 @@
 | `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |
 | `qig_axh_3z6` | 尉佗 | [《史記・平津侯主父列傳》][94] | [JSON](qig_axh_3z6.json) |
 | `qii_pl5_1ei` | 太史公 | [《史記・李將軍列傳》][91] | [JSON](qii_pl5_1ei.json) |
-| `qiy_ole_lkx` | 張武（匈奴列傳第24段） | [《史記・孝文本紀》][10] | [JSON](qiy_ole_lkx.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
