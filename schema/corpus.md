@@ -164,6 +164,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 官職資料可用 `appointment_role: acting` 明標來源所述代理職務，例如「行丞相事」；這與來源用稱的 `mode: attestation` 分開，使用端不必靠自然語言推定代理性質。缺少此欄位不自動表示正式實任。
 
+生卒事件的紀年若承接同篇連續敘事，可記 `date_context.kind: continuous_paragraphs`、依序的 `paragraph_ids` 與具體 `rationale`。證據須含二至四個連續段落，各段都有事件人物在引句內的錨點，首段須有原日期表述；數字紀年仍為代理判讀，不是來源在死亡句直接明載。卷一百〇九李廣自剄以第十二至十四段承接元狩四年，暫換前119年，保留全部原句，不以年齡反推生年，也不據卒年截斷全部官爵。
+
 ## 生卒事件
 
 `108-life-events.json` 的 `person_life_event_assertion_set` 保存原文明示的 `birth` 或 `death`，每筆 `events` 引用人物、篇及含人物錨點的精確事件引句。`date_expression` 為原文日期或 null；數字年另存 `normalized_date`，保留原句、參考與 AI 判讀。未知日期不補數值，日期精度不高於證據。逐人 JSON 可直接讀 `life_events`，日期索引以 `date_role: life_event` 與 `event_type` 區分；死亡事件不改寫官爵端點。

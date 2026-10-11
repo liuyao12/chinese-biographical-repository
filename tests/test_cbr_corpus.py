@@ -15,6 +15,12 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_life_date_context_cannot_skip_a_paragraph(self):
+        self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang')['date_context'].update(paragraph_ids=['c-shiji-109-liguang:p012', 'c-shiji-109-liguang:p014']))
+        self.assertIn('生卒紀年承接須有連續同篇段落與首段日期', v.validate(self.root))
+    def test_life_date_context_cannot_be_implicit(self):
+        self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang').pop('date_context'))
+        self.assertIn('生卒日期未見於事件引句', v.validate(self.root))
     def test_office_jurisdiction_requires_source_quote(self):
         self.change('corpus/shiji/109-titles.json', lambda d: next(h for h in d['holdings'] if h['id'] == 'th-shiji109-020')['jurisdictions'][0].update(source_name='未見原文的郡'))
         self.assertIn('官職所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
