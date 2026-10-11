@@ -1392,6 +1392,7 @@
 | `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][48] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][10] | [JSON](al3_w9j_0ng.json) |
 | `alv_ted_3rj` | 司馬喜引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](alv_ted_3rj.json) |
+| `am3_2pu_fzr` | 左賢王（李敢從驃騎出征，未名） | [《史記・李將軍列傳》][91] | [JSON](am3_2pu_fzr.json) |
 | `aml_541_6lh` | 子綦（楚昭王從臣） | [《史記・楚世家》][22] | [JSON](aml_541_6lh.json) |
 | `aml_745_t4f` | 祭公謀父 | [《史記・周本紀》][4] | [JSON](aml_745_t4f.json) |
 | `amq_yua_viu` | 庶長封 | [《史記・秦本紀》][5] | [JSON](amq_yua_viu.json) |
