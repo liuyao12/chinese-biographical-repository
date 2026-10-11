@@ -26,10 +26,10 @@ def parallel_event_date(date):
     refs = date.get('references', [])
     return all(isinstance(basis.get(key), str) and bool(basis[key])
                and any(isinstance(ref, dict) and ref.get('url') == url
-                       and ref.get('quote') == basis[key] and ref.get('scope') == scope
+                       and ref.get('quote') == basis[key] and ref.get('scope') in scopes
                        for ref in refs)
-               for key, scope in [('reference_event_quote', 'received_parallel_event'),
-                                  ('reference_year_quote', 'digital_editorial_regnal_year_equivalence_only')])
+               for key, scopes in [('reference_event_quote', ('received_parallel_event',)),
+                                  ('reference_year_quote', ('digital_editorial_regnal_year_equivalence_only', 'received_regnal_year_attestation'))])
 
 def normalized_date_errors(date):
     errors = []
