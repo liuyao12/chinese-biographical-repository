@@ -1100,6 +1100,15 @@
 
 </details>
 
+<details><summary><code>e00_pe1_zri</code> 無諸（東越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 無諸 | [《史記・東越列傳》][96] | [JSON](e00_pe1_zri.json) |
+| `*A` | 丑 | [《史記・東越列傳》][96] | [JSON](e00_pe1_zri_%2AA.json) |
+
+</details>
+
 <details><summary><code>e5t_5l9_wg0</code> 建（鄭世家楚太子候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1342,6 +1351,15 @@
 | `A` | 仇（晉文侯） | [《史記・晉世家》][21] | [JSON](gcb_rf3_coi_A.json) |
 | `AA` | 伯（晉昭侯） | [《史記・晉世家》][21] | [JSON](gcb_rf3_coi_AA.json) |
 | `B` | 成師（曲沃桓叔） | [《史記・晉世家》][21] | [JSON](gcb_rf3_coi_B.json) |
+
+</details>
+
+<details><summary><code>gcy_833_xmx</code> 成陽共王（東越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 成陽共王 | [《史記・東越列傳》][96] | [JSON](gcy_833_xmx.json) |
+| `A` | 福 | [《史記・東越列傳》][96] | [JSON](gcy_833_xmx_A.json) |
 
 </details>
 
@@ -2046,6 +2064,15 @@
 | `AAAA` | 午（陳成公） | [《史記・陳杞世家》][18] | [JSON](qdt_1oy_jci_AAAA.json) |
 | `AAAAA` | 哀公（陳君） | [《史記・陳杞世家》][18] | [JSON](qdt_1oy_jci_AAAAA.json) |
 | `B` | 御寇（陳宣公太子） | [《史記・陳杞世家》][18] | [JSON](qdt_1oy_jci_B.json) |
+
+</details>
+
+<details><summary><code>qfq_48j_lpj</code> 濞（東越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 濞 | [《史記・東越列傳》][96] | [JSON](qfq_48j_lpj.json) |
+| `A` | 子駒 | [《史記・東越列傳》][96] | [JSON](qfq_48j_lpj_A.json) |
 
 </details>
 
@@ -3092,3 +3119,4 @@
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
+[96]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
