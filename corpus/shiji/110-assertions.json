@@ -291,6 +291,59 @@
       },
       "interpretation_note": "原文明示子軍臣；不以繼位單獨推父子，不補母親及排行。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji110-014",
+      "subject_person_id": "bts_b7a_e1l",
+      "predicate": "father",
+      "object_person_id": "b0u_k4p_a3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p032",
+          "quote": "其後冬，匈奴軍臣單于死。軍臣單于弟左谷蠡王伊稚斜自立爲單于，攻破軍臣單于太子於單。於單亡降漢，漢封於單爲涉安侯，數月而死。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "軍臣單于太子於單",
+        "historicity": "historical_tradition",
+        "interpretation_status": "contextual_provisional",
+        "fatherhood_basis": "possessive_heir_apparent_term"
+      },
+      "interpretation_note": "按軍臣單于太子於單的所屬稱謂暫讀父子，不單從繼位推導；太子不等於長子，未補生母、排行或出生年，親生與收養未由本句細分。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji110-015",
+      "subject_person_id": "7o9_dy4_u93",
+      "predicate": "brother",
+      "object_person_id": "b0u_k4p_a3y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p032",
+          "quote": "其後冬，匈奴軍臣單于死。軍臣單于弟左谷蠡王伊稚斜自立爲單于，攻破軍臣單于太子於單。於單亡降漢，漢封於單爲涉安侯，數月而死。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "b0u_k4p_a3y",
+          "younger_person_id": "7o9_dy4_u93",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "原文明示軍臣弟，保存相對年齡，未知精確排行；本條不明示同父同母，父系組裝另記暫定推論。",
+      "reviewer": "Codex（AI 代理）"
     }
   ]
 }

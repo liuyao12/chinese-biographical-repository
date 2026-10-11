@@ -1734,10 +1734,12 @@
           "representative_source_person_id": "27j_f4p_jwp",
           "source_person_ids": [
             "27j_f4p_jwp",
-            "njk_tl0_6h9"
+            "njk_tl0_6h9",
+            "kgu_vsb_hc9"
           ],
           "identity_equivalence_decision_ids": [
-            "eq-shiji109-liguang"
+            "eq-shiji109-liguang",
+            "eq-shiji110-kgu_vsb_hc9"
           ],
           "parent_person_id": null,
           "source_assertion_id": null
@@ -1880,7 +1882,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "本段明示父子與後母弟的敘事承接；分支字元不表示排行，冒頓生母未知。 第18段子稽粥接冒頓，與頭曼共享根；分支不作排行。 第27段子軍臣接稽粥，頭曼至軍臣四代共用根，未補姓氏。",
+      "rationale": "本段明示父子與後母弟的敘事承接；分支字元不表示排行，冒頓生母未知。 第18段子稽粥接冒頓，與頭曼共享根；分支不作排行。 第27段子軍臣接稽粥，頭曼至軍臣四代共用根，未補姓氏。 第32段於單按軍臣所屬太子稱謂接第五代；伊稚斜同父連接是另有標記的編輯暫定，不作原文明示。",
       "members": [
         {
           "person_id": "wjt_htu_081",
@@ -1934,6 +1936,44 @@
           ],
           "parent_person_id": "wjt_htu_081_AA",
           "source_assertion_id": "a-shiji110-013"
+        },
+        {
+          "person_id": "wjt_htu_081_AAAA",
+          "representative_source_person_id": "bts_b7a_e1l",
+          "source_person_ids": [
+            "bts_b7a_e1l"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "wjt_htu_081_AAA",
+          "source_assertion_id": "a-shiji110-014",
+          "interpretation_note": "父子按所屬太子稱謂暫讀，未由太子推長子或親生母。"
+        },
+        {
+          "person_id": "wjt_htu_081_AAB",
+          "representative_source_person_id": "7o9_dy4_u93",
+          "source_person_ids": [
+            "7o9_dy4_u93"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "wjt_htu_081_AA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "wjt_htu_081_AAA",
+            "sibling_assertion_id": "a-shiji110-015",
+            "sibling_father_assertion_id": "a-shiji110-013",
+            "status": "contextual_provisional",
+            "rationale": "軍臣弟、左谷蠡王與自立單于同在此父系統治家系，依編輯判讀暫作同父兄弟接稽粥；原文並未明言伊稚斜之父，不新增原文明示父親陳述，不推同母。如有異父證據需撤回此組裝。",
+            "references": [
+              {
+                "title": "《資治通鑑》卷十八軍臣弟繼立條",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷018&oldid=1511465",
+                "quote": "其弟左谷蠡王伊稚斜自立為單于",
+                "scope": "sibling_succession_context_only_not_explicit_shared_father",
+                "image_verified": false
+              }
+            ]
+          }
         }
       ]
     }
