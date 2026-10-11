@@ -191,3 +191,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 同父的多步兄弟組裝使用 `parent_connection.type: shared_father_through_sibling_chain`，`sibling_person_ids` 與 `sibling_assertion_ids` 依順序一一相接，最後由 `sibling_father_assertion_id` 連到所選父親。每步必須有方向相符的兄弟原始陳述，同族同父候選節點不得重複；終點須有明示父親陳述。此為 `contextual_provisional` 編輯組裝，須保存判讀與補證，`source_assertion_id` 為 null，不能把多步推定抄成原文明記父子或同母。原有單步 `shared_father_through_sibling` 仍可使用。
 
 平行事件參考的紀年若是另一篇古代正文明言，例如大宛列傳「是歲元朔六年也」，使用 `received_regnal_year_attestation`，與 `digital_editorial_regnal_year_equivalence_only` 的數位年標分開。兩者仍須和事件引句分列且連到同一參考 URL；原篇未明日期時保持 `date_expression: null`，數值換算及判讀理由另存。
+
+`reported_duration.unit: title_year` 保存「既侯三歲」等來源明記的持號年數，與君主在位的 `regnal_year` 分開。首批只用 `counting: unspecified_source_years`，原詞、數詞及人物證據俱存，不推定完整公曆年時長或任期終點。

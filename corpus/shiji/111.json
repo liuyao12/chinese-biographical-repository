@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首十段初標54名來源人物、17筆親屬、1筆籍貫、102筆用稱、5筆生卒、22筆跨篇同指、4筆局部身份判讀及1組人物區分、1筆來源年齡；王夫人跨篇身份、三子分歧與其餘段落待續核。",
+    "coverage": "全48段轉錄；首十二段初標67名來源人物、18筆親屬、1筆籍貫、126筆用稱、8筆生卒、25筆跨篇同指、5筆局部身份判讀及1組人物區分、1筆來源年齡；句王語義、渾邪及王夫人身份、三子分歧與其餘段落續核。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -51,7 +51,11 @@
       "第8段姊子保存母系甥舅關係，母名在此來源保持未知；大父行保存祖父輩關係及未知親等，不作直系祖父或父子路徑。",
       "第9段甯乘與王夫人另立來源人物，未憑王夫人稱號合併外戚世家或武帝本紀同號者；皇后承衛后敘事。三子與宗族群體保留未具名指涉，不以侯爵列舉補出生次序。上指本段天子，甯乘說中的說不當韓說省名。明示拜東海都尉，保留原字甯；東海不換今行政地名。是時與還軍承接待紀年複核，未補任期終點。",
       "第9段既還、是時承前段還軍，代理暫定前123年；通鑑卷十九未找到甯乘同一受拜文字，未聲稱他書已確認。原句與前文紀年證據俱存，精度僅年，王夫人身份仍分開。",
-      "第10段張騫封博望侯依大宛列傳正文是歲元朔六年，暫前123年；本篇未寫校尉，不補該官職。初使大夏、留匈奴為追述，不把本役年當出使起年。大夏與匈奴為地／群體，不補成個別人物。跨篇張騫同指不等於兩篇軍役事件同指。"
+      "第10段張騫封博望侯依大宛列傳正文是歲元朔六年，暫前123年；本篇未寫校尉，不補該官職。初使大夏、留匈奴為追述，不把本役年當出使起年。大夏與匈奴為地／群體，不補成個別人物。跨篇張騫同指不等於兩篇軍役事件同指。",
+      "第11段前121年；冀獲單于子為意圖，未造已捕獲事件或具名兒子。渾邪王子按父稱保留未名來源候選，人數未明，不補排行或母親。收休屠祭天金人依通鑑同役休屠王作省稱暫解，本篇原詞不加王。盧胡與通鑑盧侯、八千與八千九百分別保留。既侯三歲待可解析年數，不作三個完整公曆年或新封侯起年。",
+      "既侯三歲以title_year保存數值3、原詞與未知計年方式，不設持號終點；休屠按同役祭天金人連回匈奴列傳休屠王，渾邪身份待本篇後文降漢敘事續核。",
+      "第12段驃騎個人省稱接霍去病，郎中令接李廣，博望侯接張騫，合騎侯敖接公孫敖。其大（將）軍為軍隊，不當個人；末比大將軍才接衛青。句王高不識保留完整原詞及不識省稱，句王未逕作另一人物或授爵。王、王母各一人與稽沮王是否同指未定；俘虜王子、閼氏及軍官群體不拆造個體、父母或婚姻。當斬贖為庶人不記死亡。原文破奴未補趙姓，酋涂未按通鑑補單桓王。",
+      "第12段其夏承元狩二年，暫前121年。敖與張騫贖為庶人各存貶降，非死亡；遬濮王明記斬，稽沮王只記捕。左賢王按同役四千騎包圍及張騫後至解圍暫同指。破奴以同封號及通鑑同次具名封賞對讀趙破奴，不改本篇原名。左庶長是未具名從至小月氏校尉群體授爵，未分配給破奴、高不識或僕多個體。"
     ],
     "age_assertions": [
       {
@@ -2392,16 +2396,666 @@
     {
       "id": "c-shiji-111-wei-huo:p011",
       "text": "冠軍侯去病既侯三歲，元狩二年春，以冠軍侯去病為驃騎將軍，將萬騎出隴西，有功。天子曰：「驃騎將軍率戎士踰烏盭，討遬濮，涉狐奴，歷五王國，輜重人眾懾慴者弗取，冀獲單于子。轉戰六日，過焉支山千有餘里，合短兵，殺折蘭王，斬盧胡王，誅全甲，執渾邪王子及相國、都尉，首虜八千餘級，收休屠祭天金人，益封去病二千戶。」",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m011-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "冠軍侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "去病",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0017",
+          "start": 17,
+          "end": 20,
+          "surface": "冠軍侯",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "去病",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0023",
+          "start": 23,
+          "end": 27,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0043",
+          "start": 43,
+          "end": 47,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "戎士",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "rd7_cq6_rjs",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0081",
+          "start": 81,
+          "end": 82,
+          "surface": "子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0102",
+          "start": 102,
+          "end": 105,
+          "surface": "折蘭王",
+          "kind": "person",
+          "person_id": "w3l_lcg_0qp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0107",
+          "start": 107,
+          "end": 110,
+          "surface": "盧胡王",
+          "kind": "person",
+          "person_id": "tv3_yg5_67n",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0116",
+          "start": 116,
+          "end": 119,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "hn5_ylj_0pw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0119",
+          "start": 119,
+          "end": 120,
+          "surface": "子",
+          "kind": "person",
+          "person_id": "dpl_i41_6ro",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "相國",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0124",
+          "start": 124,
+          "end": 126,
+          "surface": "都尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "休屠",
+          "kind": "person",
+          "person_id": "muu_83q_2zz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m011-0144",
+          "start": 144,
+          "end": 146,
+          "surface": "去病",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p012",
       "text": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m012-0003",
+          "start": 3,
+          "end": 7,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "合騎侯",
+          "kind": "person",
+          "person_id": "u5s_1bi_ih9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0011",
+          "start": 11,
+          "end": 12,
+          "surface": "敖",
+          "kind": "person",
+          "person_id": "u5s_1bi_ih9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0020",
+          "start": 20,
+          "end": 23,
+          "surface": "博望侯",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0023",
+          "start": 23,
+          "end": 25,
+          "surface": "張騫",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0026",
+          "start": 26,
+          "end": 29,
+          "surface": "郎中令",
+          "kind": "person",
+          "person_id": "pkw_s6o_eb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "pkw_s6o_eb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0045",
+          "start": 45,
+          "end": 48,
+          "surface": "郎中令",
+          "kind": "person",
+          "person_id": "pkw_s6o_eb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0055",
+          "start": 55,
+          "end": 58,
+          "surface": "博望侯",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0067",
+          "start": 67,
+          "end": 70,
+          "surface": "左賢王",
+          "kind": "person",
+          "person_id": "dfm_lmc_f1j",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0075",
+          "start": 75,
+          "end": 78,
+          "surface": "郎中令",
+          "kind": "person",
+          "person_id": "pkw_s6o_eb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0079",
+          "start": 79,
+          "end": 82,
+          "surface": "郎中令",
+          "kind": "person",
+          "person_id": "pkw_s6o_eb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0098",
+          "start": 98,
+          "end": 101,
+          "surface": "博望侯",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0109",
+          "start": 109,
+          "end": 112,
+          "surface": "博望侯",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0125",
+          "start": 125,
+          "end": 129,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0139",
+          "start": 139,
+          "end": 142,
+          "surface": "合騎侯",
+          "kind": "person",
+          "person_id": "u5s_1bi_ih9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0149",
+          "start": 149,
+          "end": 153,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0167",
+          "start": 167,
+          "end": 169,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0172",
+          "start": 172,
+          "end": 176,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0192",
+          "start": 192,
+          "end": 195,
+          "surface": "酋涂王",
+          "kind": "person",
+          "person_id": "7hs_cfe_xyf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0216",
+          "start": 216,
+          "end": 218,
+          "surface": "五王",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0219",
+          "start": 219,
+          "end": 222,
+          "surface": "五王母",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0223",
+          "start": 223,
+          "end": 227,
+          "surface": "單于閼氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0228",
+          "start": 228,
+          "end": 234,
+          "surface": "王子五十九人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0235",
+          "start": 235,
+          "end": 237,
+          "surface": "相國",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0238",
+          "start": 238,
+          "end": 240,
+          "surface": "將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0241",
+          "start": 241,
+          "end": 243,
+          "surface": "當戶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0244",
+          "start": 244,
+          "end": 246,
+          "surface": "都尉",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0246",
+          "start": 246,
+          "end": 250,
+          "surface": "六十三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0260",
+          "start": 260,
+          "end": 262,
+          "surface": "去病",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0283",
+          "start": 283,
+          "end": 285,
+          "surface": "破奴",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0287",
+          "start": 287,
+          "end": 291,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0292",
+          "start": 292,
+          "end": 295,
+          "surface": "遬濮王",
+          "kind": "person",
+          "person_id": "90u_ft7_t2e",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0297",
+          "start": 297,
+          "end": 300,
+          "surface": "稽沮王",
+          "kind": "person",
+          "person_id": "st9_wg7_o4r",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0301",
+          "start": 301,
+          "end": 304,
+          "surface": "千騎將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0305",
+          "start": 305,
+          "end": 312,
+          "surface": "王、王母各一人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0313",
+          "start": 313,
+          "end": 321,
+          "surface": "王子以下四十一人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0347",
+          "start": 347,
+          "end": 349,
+          "surface": "破奴",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0356",
+          "start": 356,
+          "end": 361,
+          "surface": "句王高不識",
+          "kind": "person",
+          "person_id": "1fa_jx6_oun",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0363",
+          "start": 363,
+          "end": 367,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0368",
+          "start": 368,
+          "end": 372,
+          "surface": "呼于屠王",
+          "kind": "person",
+          "person_id": "xs8_f3t_113",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0372",
+          "start": 372,
+          "end": 379,
+          "surface": "王子以下十一人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0396",
+          "start": 396,
+          "end": 398,
+          "surface": "不識",
+          "kind": "person",
+          "person_id": "1fa_jx6_oun",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0405",
+          "start": 405,
+          "end": 407,
+          "surface": "僕多",
+          "kind": "person",
+          "person_id": "zqj_u2i_r5y",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0417",
+          "start": 417,
+          "end": 420,
+          "surface": "合騎侯",
+          "kind": "person",
+          "person_id": "u5s_1bi_ih9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0420",
+          "start": 420,
+          "end": 421,
+          "surface": "敖",
+          "kind": "person",
+          "person_id": "u5s_1bi_ih9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0426",
+          "start": 426,
+          "end": 428,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0438",
+          "start": 438,
+          "end": 441,
+          "surface": "諸宿將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0449",
+          "start": 449,
+          "end": 451,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0452",
+          "start": 452,
+          "end": 454,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0467",
+          "start": 467,
+          "end": 469,
+          "surface": "壯騎",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0491",
+          "start": 491,
+          "end": 494,
+          "surface": "諸宿將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0503",
+          "start": 503,
+          "end": 505,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m012-0511",
+          "start": 511,
+          "end": 514,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p013",
