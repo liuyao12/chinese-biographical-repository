@@ -29,13 +29,14 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全篇15段轉錄；前2段8名來源候選、48處人物錨點、2筆親屬、2筆地址、3筆官爵用稱。其餘13段待標註。",
+    "coverage": "全篇15段轉錄；前4段11名來源候選、65處人物錨點、2筆親屬、3筆地址、6筆官爵及秩稱。其餘11段待標註。",
     "limitations": [
       "未核底本影像。",
       "田生不因師授韓子而改名韓非；韓子、雜家此處為所受學說，非確定人物提及。",
       "吳楚為國名，不補具名國王。",
       "跨篇同指及正文其餘指代尚待覆核。",
-      "第二段帝后與公主依景帝母弟及敘事語境暫定；梁王父暫不借外部知識補名。"
+      "第二段帝后與公主依景帝母弟及敘事語境暫定；梁王父暫不借外部知識補名。",
+      "梁內史補敘作同一次任官，公孫詭的內史提議不作實任；日期未定。"
     ]
   },
   "paragraphs": [
@@ -490,16 +491,171 @@
     {
       "id": "c-shiji-108-han:p003",
       "text": "其後安國坐法抵罪，蒙獄吏田甲辱安國。安國曰：「死灰獨不復然乎？」田甲曰：「然即溺之。」居無何，梁內史缺，漢使使者拜安國爲梁內史，起徒中爲二千石。田甲亡走。安國曰：「甲不就官，我滅而宗。」甲因肉袒謝。安國笑曰：「可溺矣！公等足與治乎？」卒善遇之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m003-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "田甲",
+          "kind": "person",
+          "person_id": "grh_40p_34o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "田甲",
+          "kind": "person",
+          "person_id": "grh_40p_34o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "使者",
+          "kind": "person",
+          "person_id": "hzr_8yn_jmw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0057",
+          "start": 57,
+          "end": 59,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "田甲",
+          "kind": "person",
+          "person_id": "grh_40p_34o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0082",
+          "start": 82,
+          "end": 83,
+          "surface": "甲",
+          "kind": "person",
+          "person_id": "grh_40p_34o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0093",
+          "start": 93,
+          "end": 94,
+          "surface": "甲",
+          "kind": "person",
+          "person_id": "grh_40p_34o",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m003-0099",
+          "start": 99,
+          "end": 101,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p004",
       "text": "梁內史之缺也，孝王新得齊人公孫詭，説之，欲請以爲內史。竇太后聞，乃詔王以安國爲內史。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m004-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "孝王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m004-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "公孫詭",
+          "kind": "person",
+          "person_id": "v4l_7vt_hsb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m004-0027",
+          "start": 27,
+          "end": 30,
+          "surface": "竇太后",
+          "kind": "person",
+          "person_id": "cdj_nwi_319",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m004-0034",
+          "start": 34,
+          "end": 35,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "l5d_ywu_jfb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m004-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p005",
