@@ -508,6 +508,15 @@
 
 </details>
 
+<details><summary><code>5if_pf6_zos</code> 郭解父（未名）（游俠列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 郭解父（未名） | [《史記・游俠列傳》][106] | [JSON](5if_pf6_zos.json) |
+| `A` | 郭解 | [《史記・游俠列傳》][106] | [JSON](5if_pf6_zos_A.json) |
+
+</details>
+
 <details><summary><code>5km_89r_9jr</code> 元君（衛嗣君弟）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1966,6 +1975,15 @@
 
 </details>
 
+<details><summary><code>nf1_c66_863</code> 楊季主（游俠列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 楊季主 | [《史記・游俠列傳》][106] | [JSON](nf1_c66_863.json) |
+| `A` | 楊季主子（未名縣掾） | [《史記・游俠列傳》][106] | [JSON](nf1_c66_863_A.json) |
+
+</details>
+
 <details><summary><code>nfj_6w2_8mn</code> 增（魏世家景湣王候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3297,3 +3315,4 @@
 [103]: https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
+[106]: https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994

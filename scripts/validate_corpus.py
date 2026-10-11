@@ -563,7 +563,7 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
                 if a['predicate'] == 'maternal_uncle':
@@ -573,6 +573,13 @@ def validate(root=ROOT):
                           and qualifiers.get('mother_person_id') is None
                           and any('姊子' in e.get('quote', '') for e in a['evidence']),
                           '姊子甥舅關係須保留母系世代與未名母親')
+                if a['predicate'] == 'grandmother':
+                    check(qualifiers.get('source_term') == '外孫'
+                          and qualifiers.get('generation_difference') == -2
+                          and qualifiers.get('lineage') == 'maternal'
+                          and qualifiers.get('mother_person_id') is None
+                          and any('外孫' in e.get('quote', '') for e in a['evidence']),
+                          '外孫祖母關係須保留母系兩代與原句未名母親')
                 if a['predicate'] == 'kinship_generation' or qualifiers.get('source_term') == '大父行':
                     check(a['predicate'] == 'kinship_generation'
                           and qualifiers.get('source_term') == '大父行'
