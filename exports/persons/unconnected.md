@@ -231,6 +231,7 @@
 | `1ml_gpo_pr5` | 管仲 | [《史記・刺客列傳》][68] | [JSON](1ml_gpo_pr5.json) |
 | `1ml_lhf_3h1` | 尉斯離 | [《史記・秦本紀》][5] | [JSON](1ml_lhf_3h1.json) |
 | `1mq_n0d_l6s` | 鄂侯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](1mq_n0d_l6s.json) |
+| `1n0_bu8_jv2` | 衛伉（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](1n0_bu8_jv2.json) |
 | `1n9_5tg_1zs` | 夷王 | [《史記・周本紀》][4] | [JSON](1n9_5tg_1zs.json) |
 | `1nk_3if_xps` | 荷蕢者（孔子世家未名者） | [《史記・孔子世家》][29] | [JSON](1nk_3if_xps.json) |
 | `1nq_8wd_78r` | 女防 | [《史記・秦本紀》][5] | [JSON](1nq_8wd_78r.json) |
@@ -477,6 +478,7 @@
 | `3jf_y3v_rq2` | 楚王合從未名 | [《史記・平原君虞卿列傳》][58] | [JSON](3jf_y3v_rq2.json) |
 | `3jk_04c_cyw` | 侯敞 | [《史記・韓信盧綰列傳》][75] | [JSON](3jk_04c_cyw.json) |
 | `3jt_de3_wuf` | 懿王 | [《史記・周本紀》][4] | [JSON](3jt_de3_wuf.json) |
+| `3jt_wmb_7c3` | 徐自爲（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](3jt_wmb_7c3.json) |
 | `3jv_9t6_3tk` | 譚伯 | [《史記・周本紀》][4] | [JSON](3jv_9t6_3tk.json) |
 | `3ki_pir_nb6` | 師襄子 | [《史記・孔子世家》][29] | [JSON](3ki_pir_nb6.json) |
 | `3l2_mmn_rps` | 孔成子（解康叔夢者） | [《史記・衛康叔世家》][19] | [JSON](3l2_mmn_rps.json) |
@@ -4079,6 +4081,7 @@
 | `tua_sdl_ttd` | 大將軍光 | [《史記・三王世家》][42] | [JSON](tua_sdl_ttd.json) |
 | `tuo_3kv_ptz` | 條侯（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tuo_3kv_ptz.json) |
 | `tup_apk_ufr` | 招（陳司徒） | [《史記・陳杞世家》][18] | [JSON](tup_apk_ufr.json) |
+| `tvo_aez_7nt` | 韓說（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](tvo_aez_7nt.json) |
 | `twa_vor_7j0` | 冉求 | [《史記・孔子世家》][29] | [JSON](twa_vor_7j0.json) |
 | `twk_t4q_4oy` | 曹相國未名 | [《史記・樂毅列傳》][62] | [JSON](twk_t4q_4oy.json) |
 | `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][37] | [JSON](txk_j5j_jty.json) |
@@ -4466,6 +4469,7 @@
 | `wwf_ocm_23f` | 太史公 | [《史記・留侯世家》][37] | [JSON](wwf_ocm_23f.json) |
 | `wwz_8n8_w33` | 息侯（陳婚記事） | [《史記・管蔡世家》][17] | [JSON](wwz_8n8_w33.json) |
 | `wxg_l3l_wre` | 魏齊 | [《史記・范睢蔡澤列傳》][61] | [JSON](wxg_l3l_wre.json) |
+| `wxg_pg3_wk0` | 路博德（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](wxg_pg3_wk0.json) |
 | `wxj_wmw_39e` | 彭生 | [《史記・魯周公世家》][15] | [JSON](wxj_wmw_39e.json) |
 | `wxn_bku_mqy` | 絃髙 | [《史記・鄭世家》][24] | [JSON](wxn_bku_mqy.json) |
 | `wxr_gch_zh5` | 田完 | [《史記・田敬仲完世家》][28] | [JSON](wxr_gch_zh5.json) |
