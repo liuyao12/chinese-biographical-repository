@@ -188,7 +188,7 @@
 | `1aa_yn3_kv1` | 平陽公主 | [《史記・曹相國世家》][36] | [JSON](1aa_yn3_kv1.json) |
 | `1ag_0z1_mlq` | 申侯 | [《史記・周本紀》][4] | [JSON](1ag_0z1_mlq.json) |
 | `1as_2bm_qu5` | 李牧 | [《史記・廉頗藺相如列傳》][63] | [JSON](1as_2bm_qu5.json) |
-| `1bp_boo_egc` | 曹參 | [《史記・衛將軍驃騎列傳》][93] | [JSON](1bp_boo_egc.json) |
+| `1bp_boo_egc` | 曹參 | [《史記・曹相國世家》][36] | [JSON](1bp_boo_egc.json) |
 | `1by_i1o_3pu` | 禹（引古） | [《史記・淮陰侯列傳》][74] | [JSON](1by_i1o_3pu.json) |
 | `1bz_2re_b8l` | 毋卹之母（趙世家翟婢未名者） | [《史記・趙世家》][25] | [JSON](1bz_2re_b8l.json) |
 | `1c0_cid_jlo` | 棠公妻（本卷未名） | [《史記・齊太公世家》][14] | [JSON](1c0_cid_jlo.json) |
@@ -1365,7 +1365,7 @@
 | `9ud_33t_j5m` | 齊王書信 | [《史記・蘇秦列傳》][51] | [JSON](9ud_33t_j5m.json) |
 | `9ui_6ki_31p` | 留侯未詳名 | [《史記・留侯世家》][37] | [JSON](9ui_6ki_31p.json) |
 | `9ul_wlf_q1k` | 呂祿 | [《史記・張丞相列傳》][78] | [JSON](9ul_wlf_q1k.json) |
-| `9um_vof_y9n` | 郭昌 | [《史記・衛將軍驃騎列傳》][93] | [JSON](9um_vof_y9n.json) |
+| `9um_vof_y9n` | 郭昌 | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](9um_vof_y9n.json) |
 | `9uw_tzo_yj8` | 悼公 | [《史記・伍子胥列傳》][48] | [JSON](9uw_tzo_yj8.json) |
 | `9v3_xea_50v` | 長公主 | [《史記・孝景本紀》][11] | [JSON](9v3_xea_50v.json) |
 | `9v8_tr9_ikg` | 郤芮 | [《史記・晉世家》][21] | [JSON](9v8_tr9_ikg.json) |
@@ -2079,7 +2079,7 @@
 | `ex1_pps_iby` | 江陵王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](ex1_pps_iby.json) |
 | `exl_e7q_rma` | 車丞相未詳名 | [《史記・張丞相列傳》][78] | [JSON](exl_e7q_rma.json) |
 | `ey4_td6_sc4` | 嫘祖 | [《史記・五帝本紀》][1] | [JSON](ey4_td6_sc4.json) |
-| `ey5_pne_opn` | 郭昌（匈奴列傳第48段） | [《史記・匈奴列傳》][92] | [JSON](ey5_pne_opn.json) |
+| `ey5_pne_opn` | 郭昌（匈奴列傳第48段） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](ey5_pne_opn.json) |
 | `eya_qj3_tev` | 酈食其 | [《史記・酈生陸賈列傳》][79] | [JSON](eya_qj3_tev.json) |
 | `eyb_jow_mdk` | 景帝 | [《史記・梁孝王世家》][40] | [JSON](eyb_jow_mdk.json) |
 | `eyc_0n9_y2x` | 士蒍（晉臣） | [《史記・晉世家》][21] | [JSON](eyc_0n9_y2x.json) |
@@ -2221,7 +2221,6 @@
 | `fxa_91g_1cz` | 召滑 | [《史記・樗里子甘茂列傳》][53] | [JSON](fxa_91g_1cz.json) |
 | `fxc_ppb_ofs` | 丞相敞未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](fxc_ppb_ofs.json) |
 | `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][26] | [JSON](fxh_d0f_a1l.json) |
-| `fxy_b0h_ssn` | 公子光（楚篇吳伐楚者） | [《史記・楚世家》][22] | [JSON](fxy_b0h_ssn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

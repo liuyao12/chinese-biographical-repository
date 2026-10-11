@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `vx2_svu_k0q` | 白起 | [《史記・趙世家》][25] | [JSON](vx2_svu_k0q.json) |
 | `vxa_usq_rlw` | 許由引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](vxa_usq_rlw.json) |
 | `vxj_epn_sti` | 陳司敗 | [《史記・仲尼弟子列傳》][49] | [JSON](vxj_epn_sti.json) |
 | `vxt_uj1_8ym` | 鄭昌 | [《史記・高祖本紀》][8] | [JSON](vxt_uj1_8ym.json) |

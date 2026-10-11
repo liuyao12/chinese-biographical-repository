@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `fxy_b0h_ssn` | 公子光（楚篇吳伐楚者） | [《史記・楚世家》][22] | [JSON](fxy_b0h_ssn.json) |
 | `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][47] | [JSON](fy2_9h4_gdt.json) |
 | `fy7_290_36y` | 呂后 | [《史記・呂太后本紀》][9] | [JSON](fy7_290_36y.json) |
 | `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][6] | [JSON](fyf_enn_4w8.json) |
@@ -2221,7 +2222,6 @@
 | `vvv_ws5_he1` | 齊緡王 | [《史記・高祖本紀》][8] | [JSON](vvv_ws5_he1.json) |
 | `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][36] | [JSON](vw5_ynq_5fx.json) |
 | `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][20] | [JSON](vwi_95l_l6d.json) |
-| `vx2_svu_k0q` | 白起 | [《史記・趙世家》][25] | [JSON](vx2_svu_k0q.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
