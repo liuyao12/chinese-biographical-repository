@@ -1355,6 +1355,7 @@
 | `a2c_d6k_c4o` | 季武子 | [《史記・孔子世家》][29] | [JSON](a2c_d6k_c4o.json) |
 | `a2n_tv1_o25` | 管仲母 | [《史記・管晏列傳》][44] | [JSON](a2n_tv1_o25.json) |
 | `a2v_ea5_yii` | 齊歸（裯母） | [《史記・魯周公世家》][15] | [JSON](a2v_ea5_yii.json) |
+| `a2v_qle_qys` | 難氏（匈奴列傳書信） | [《史記・匈奴列傳》][92] | [JSON](a2v_qle_qys.json) |
 | `a2w_jo1_uxj` | 外黃令舍人兒 | [《史記・項羽本紀》][7] | [JSON](a2w_jo1_uxj.json) |
 | `a2x_dkn_fj9` | 郭開 | [《史記・廉頗藺相如列傳》][63] | [JSON](a2x_dkn_fj9.json) |
 | `a3j_iyj_exa` | 文王引古未定 | [《史記・春申君列傳》][60] | [JSON](a3j_iyj_exa.json) |
@@ -1827,6 +1828,7 @@
 | `dn9_0bf_0rg` | 燕王（趙世家攻趙未名者） | [《史記・趙世家》][25] | [JSON](dn9_0bf_0rg.json) |
 | `dna_233_hvk` | 吳王闔廬 | [《史記・吳太伯世家》][13] | [JSON](dna_233_hvk.json) |
 | `dnb_rcf_15u` | 田光 | [《史記・樊酈滕灌列傳》][77] | [JSON](dnb_rcf_15u.json) |
+| `dne_bui_tma` | 謁者令肩（匈奴列傳書信） | [《史記・匈奴列傳》][92] | [JSON](dne_bui_tma.json) |
 | `dnk_4l4_x8s` | 里吏未名 | [《史記・張耳陳餘列傳》][71] | [JSON](dnk_4l4_x8s.json) |
 | `dnm_d15_o58` | 韓眾 | [《史記・秦始皇本紀》][6] | [JSON](dnm_d15_o58.json) |
 | `dnw_uzl_q9q` | 鄭定公 | [《史記・伍子胥列傳》][48] | [JSON](dnw_uzl_q9q.json) |
@@ -2779,6 +2781,7 @@
 | `kik_w6y_owb` | 毛遂 | [《史記・平原君虞卿列傳》][58] | [JSON](kik_w6y_owb.json) |
 | `kil_ihw_kvb` | 武王 | [《史記・孔子世家》][29] | [JSON](kil_ihw_kvb.json) |
 | `kiv_7ao_1e9` | 項梁 | [《史記・曹相國世家》][36] | [JSON](kiv_7ao_1e9.json) |
+| `kjy_e6v_lv4` | 中大夫意（匈奴列傳書信） | [《史記・匈奴列傳》][92] | [JSON](kjy_e6v_lv4.json) |
 | `kk3_ifq_d3n` | 成陵君（魏世家未名者） | [《史記・魏世家》][26] | [JSON](kk3_ifq_d3n.json) |
 | `kk7_tis_vis` | 伍子胥 | [《史記・越王勾踐世家》][23] | [JSON](kk7_tis_vis.json) |
 | `kkh_3im_189` | 太史公 | [《史記・范睢蔡澤列傳》][61] | [JSON](kkh_3im_189.json) |
@@ -2815,6 +2818,7 @@
 | `kru_906_knc` | 皇太后未名（文帝母語境） | [《史記・袁盎鼂錯列傳》][83] | [JSON](kru_906_knc.json) |
 | `kry_3b2_phg` | 孔子 | [《史記・田敬仲完世家》][28] | [JSON](kry_3b2_phg.json) |
 | `ktv_rwx_hp3` | 叔齊 | [《史記・伯夷列傳》][43] | [JSON](ktv_rwx_hp3.json) |
+| `kv5_qey_apg` | 系雩淺（匈奴列傳書信） | [《史記・匈奴列傳》][92] | [JSON](kv5_qey_apg.json) |
 | `kvm_6zv_6ez` | 長公主 | [《史記・梁孝王世家》][40] | [JSON](kvm_6zv_6ez.json) |
 | `kw9_rxv_wx3` | 叔孫輒 | [《史記・孔子世家》][29] | [JSON](kw9_rxv_wx3.json) |
 | `kwa_ew6_bz3` | 衛桓公（楚篇弒君記事） | [《史記・楚世家》][22] | [JSON](kwa_ew6_bz3.json) |

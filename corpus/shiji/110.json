@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前15段初標61名來源人物、225處人物及未定錨點、10筆親屬、34筆用稱、8筆死亡事件、2筆死亡地點及13筆跨篇身份判讀。其餘46段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前17段初標65名來源人物、257處人物及未定錨點、10筆親屬、41筆用稱、8筆死亡事件、2筆死亡地點及13筆跨篇身份判讀。其餘44段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -45,7 +45,8 @@
       "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。",
       "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。",
       "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。",
-      "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。"
+      "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。",
+      "第16至17段以嵌套書信發話與受話承接人物，難氏與系雩淺由重引前書同指。意與肩只存官職所連姓名，不補姓氏；書信年份不作所述舊事日期，重引不視為獨立證據，兄弟之親不作血親。"
     ]
   },
   "paragraphs": [
@@ -2197,16 +2198,306 @@
     {
       "id": "c-shiji-110-xiongnu:p016",
       "text": "其明年，單于遺漢書曰：「天所立匈奴大單于敬問皇帝無恙。前時皇帝言和親事，稱書意，合歡。漢邊吏侵侮右賢王，右賢王不請，聽後義盧侯難氏等計，與漢吏相距，絕二主之約，離兄弟之親。皇帝讓書再至，發使以書報，不來，漢使不至，漢以其故不和，鄰國不附。今以小吏之敗約故，罰右賢王，使之西求月氏擊之。以天之福，吏卒良，馬彊力，以夷滅月氏，盡斬殺降下之。定樓蘭、烏孫、呼揭及其旁二十六國，皆以爲匈奴。諸引弓之民，并爲一家。北州已定，願寢兵休士卒養馬，除前事，復故約，以安邊民，以應始古，使少者得成其長，老者安其處，世世平樂。未得皇帝之志也，故使郎中系雩淺奉書請，獻橐他一匹，騎馬二匹，駕二駟。皇帝即不欲匈奴近塞，則且詔吏民遠舍。使者至，即遣之。」以六月中來至薪望之地。書至，漢議擊與和親孰便。公卿皆曰：「單于新破月氏，乘勝，不可擊。且得匈奴地，澤鹵，非可居也。和親甚便。」漢許之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m016-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0015",
+          "start": 15,
+          "end": 20,
+          "surface": "匈奴大單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0048",
+          "start": 48,
+          "end": 51,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0052",
+          "start": 52,
+          "end": 55,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0059",
+          "start": 59,
+          "end": 65,
+          "surface": "後義盧侯難氏",
+          "kind": "person",
+          "person_id": "a2v_qle_qys",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0129",
+          "start": 129,
+          "end": 132,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0255",
+          "start": 255,
+          "end": 257,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0263",
+          "start": 263,
+          "end": 268,
+          "surface": "郎中系雩淺",
+          "kind": "person",
+          "person_id": "kv5_qey_apg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0287",
+          "start": 287,
+          "end": 289,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m016-0343",
+          "start": 343,
+          "end": 345,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p017",
       "text": "孝文皇帝前六年，漢遺匈奴書曰：「皇帝敬問匈奴大單于無恙。使郎中系雩淺遺朕書曰：『右賢王不請，聽後義盧侯難氏等計，絕二主之約，離兄弟之親，漢以故不和，鄰國不附。今以小吏敗約，故罰右賢王使西擊月氏，盡定之。願寢兵休士卒養馬，除前事，復故約，以安邊民，使少者得成其長，老者安其處，世世平樂。』朕甚嘉之，此古聖主之意也。漢與匈奴約爲兄弟，所以遺單于甚厚。倍約離兄弟之親者，常在匈奴。然右賢王事已在赦前，單于勿深誅。單于若稱書意，明告諸吏，使無負約，有信，敬如單于書。使者言單于自將伐國有功，甚苦兵事。服繡袷綺衣、繡袷長襦、錦袷袍各一，比余一，黃金飾具帶一，黃金胥紕一，繡十匹，錦三十匹，赤綈、綠繒各四十匹，使中大夫意、謁者令肩遺單于。」",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m017-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "孝文皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0020",
+          "start": 20,
+          "end": 25,
+          "surface": "匈奴大單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0029",
+          "start": 29,
+          "end": 34,
+          "surface": "郎中系雩淺",
+          "kind": "person",
+          "person_id": "kv5_qey_apg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0035",
+          "start": 35,
+          "end": 36,
+          "surface": "朕",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0040",
+          "start": 40,
+          "end": 43,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0047",
+          "start": 47,
+          "end": 53,
+          "surface": "後義盧侯難氏",
+          "kind": "person",
+          "person_id": "a2v_qle_qys",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0088",
+          "start": 88,
+          "end": 91,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0143",
+          "start": 143,
+          "end": 144,
+          "surface": "朕",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0168",
+          "start": 168,
+          "end": 170,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0188",
+          "start": 188,
+          "end": 191,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0197",
+          "start": 197,
+          "end": 199,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0203",
+          "start": 203,
+          "end": 205,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0225",
+          "start": 225,
+          "end": 227,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0232",
+          "start": 232,
+          "end": 234,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0264",
+          "start": 264,
+          "end": 265,
+          "surface": "余",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0300",
+          "start": 300,
+          "end": 304,
+          "surface": "中大夫意",
+          "kind": "person",
+          "person_id": "kjy_e6v_lv4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0305",
+          "start": 305,
+          "end": 309,
+          "surface": "謁者令肩",
+          "kind": "person",
+          "person_id": "dne_bui_tma",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m017-0310",
+          "start": 310,
+          "end": 312,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p018",
