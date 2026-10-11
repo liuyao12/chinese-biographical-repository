@@ -724,6 +724,15 @@
 
 </details>
 
+<details><summary><code>8xz_mlj_r3c</code> 韓千秋（南越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 韓千秋 | [《史記・南越列傳》][95] | [JSON](8xz_mlj_r3c.json) |
+| `A` | 延年 | [《史記・南越列傳》][95] | [JSON](8xz_mlj_r3c_A.json) |
+
+</details>
+
 <details><summary><code>913_1wz_ofu</code> 曹參（曹相國世家候選）（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1185,6 +1194,17 @@
 |---|---|---|---|
 | `根` | 太史敫 | [《史記・田敬仲完世家》][28] | [JSON](f04_rc9_xqn.json) |
 | `A` | 君王后 | [《史記・田敬仲完世家》][28] | [JSON](f04_rc9_xqn_A.json) |
+
+</details>
+
+<details><summary><code>f4l_jyl_oqv</code> 嬰齊（南越列傳候選）（4 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 嬰齊 | [《史記・南越列傳》][95] | [JSON](f4l_jyl_oqv.json) |
+| `A` | 興 | [《史記・南越列傳》][95] | [JSON](f4l_jyl_oqv_A.json) |
+| `B` | 次公 | [《史記・南越列傳》][95] | [JSON](f4l_jyl_oqv_B.json) |
+| `C` | 建德 | [《史記・南越列傳》][95] | [JSON](f4l_jyl_oqv_C.json) |
 
 </details>
 
@@ -1744,6 +1764,15 @@
 
 </details>
 
+<details><summary><code>mo6_b19_odk</code> 趙佗（南越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 趙佗 | [《史記・南越列傳》][95] | [JSON](mo6_b19_odk.json) |
+| `*A` | 胡 | [《史記・南越列傳》][95] | [JSON](mo6_b19_odk_%2AA.json) |
+
+</details>
+
 <details><summary><code>mpi_zkg_f48</code> 楚懷王（春申君列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2248,6 +2277,15 @@
 | `A` | 武靈王 | [《史記・趙世家》][25] | [JSON](txj_z8z_5me_A.json) |
 | `AA` | 公子章 | [《史記・趙世家》][25] | [JSON](txj_z8z_5me_AA.json) |
 | `AB` | 何 | [《史記・趙世家》][25] | [JSON](txj_z8z_5me_AB.json) |
+
+</details>
+
+<details><summary><code>tz9_dhl_ifo</code> 樛樂（南越列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 樛樂 | [《史記・南越列傳》][95] | [JSON](tz9_dhl_ifo.json) |
+| `A` | 廣德 | [《史記・南越列傳》][95] | [JSON](tz9_dhl_ifo_A.json) |
 
 </details>
 
@@ -3053,3 +3091,4 @@
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
+[95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
