@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前20段初標68名來源人物、278處人物及未定錨點、12筆親屬、46筆用稱、9筆死亡事件、3筆地址及13筆跨篇身份判讀。其餘41段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前23段初標68名來源人物、304處人物及未定錨點、12筆親屬、48筆用稱、9筆死亡事件、3筆地址及13筆跨篇身份判讀。其餘38段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -47,7 +47,8 @@
       "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。",
       "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。",
       "第16至17段以嵌套書信發話與受話承接人物，難氏與系雩淺由重引前書同指。意與肩只存官職所連姓名，不補姓氏；書信年份不作所述舊事日期，重引不視為獨立證據，兄弟之親不作血親。",
-      "第18至20段稽粥父子與繼位各存，接頭曼父系但不補生母與排行；後頃之不換精確年。宗室女另存，不補生父。中行說之說按本段敘事定位，燕人按原文保存。"
+      "第18至20段稽粥父子與繼位各存，接頭曼父系但不補生母與排行；後頃之不換精確年。宗室女另存，不補生父。中行說之說按本段敘事定位，燕人按原文保存。",
+      "第21段為書式說明，帝與單于按文帝、老上單于敘事暫接，不補單一書信日期。第22至23段漢使對話可能為通例或多人，未建個人；父子兄弟後母為婚俗泛稱，不建立個人親屬或死亡。"
     ]
   },
   "paragraphs": [
@@ -2716,23 +2717,260 @@
     {
       "id": "c-shiji-110-xiongnu:p021",
       "text": "漢遺單于書，牘以尺一寸，辭曰「皇帝敬問匈奴大單于無恙」，所遺物及言語云云。中行說令單于遺漢書以尺二寸牘，及印封皆令廣大長，倨傲其辭曰「天地所生日月所置匈奴大單于敬問漢皇帝無恙」，所以遺物言語亦云云。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m021-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0015",
+          "start": 15,
+          "end": 17,
+          "surface": "皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0019",
+          "start": 19,
+          "end": 24,
+          "surface": "匈奴大單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0037",
+          "start": 37,
+          "end": 40,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0067",
+          "start": 67,
+          "end": 80,
+          "surface": "天地所生日月所置匈奴大單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m021-0082",
+          "start": 82,
+          "end": 85,
+          "surface": "漢皇帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p022",
       "text": "漢使或言曰：「匈奴俗賤老。」中行說窮漢使曰：「而漢俗屯戍從軍當發者，其老親豈有不自脫溫厚肥美以齎送飲食行戍乎？」漢使曰：「然。」中行說曰：「匈奴明以戰攻爲事，其老弱不能鬬，故以其肥美飲食壯健者，蓋以自爲守衛，如此父子各得久相保，何以言匈奴輕老也？」漢使曰：「匈奴父子乃同穹廬而臥。父死，妻其後母；兄弟死，盡取其妻妻之。無冠帶之飾，闕庭之禮。」中行說曰：「匈奴之俗，人食畜肉，飲其汁，衣其皮；畜食草飲水，隨時轉移。故其急則人習騎射，寬則人樂無事，其約束輕，易行也。君臣簡易，一國之政猶一身也。父子兄弟死，取其妻妻之，惡種姓之失也。故匈奴雖亂，必立宗種。今中國雖詳不取其父兄之妻，親屬益疏則相殺，至乃易姓，皆從此類。且禮義之敝，上下交怨望，而室屋之極，生力必屈。夫力耕桑以求衣食，築城郭以自備，故其民急則不習戰功，緩則罷於作業。嗟土室之人，顧無多辭，令喋喋而佔佔，冠固何當？」",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m022-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0018",
+          "start": 18,
+          "end": 20,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0064",
+          "start": 64,
+          "end": 67,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0106",
+          "start": 106,
+          "end": 108,
+          "surface": "父子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0124",
+          "start": 124,
+          "end": 126,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "父子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0145",
+          "start": 145,
+          "end": 147,
+          "surface": "後母",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0148",
+          "start": 148,
+          "end": 150,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0171",
+          "start": 171,
+          "end": 174,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0231",
+          "start": 231,
+          "end": 233,
+          "surface": "君臣",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0245",
+          "start": 245,
+          "end": 247,
+          "surface": "父子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0247",
+          "start": 247,
+          "end": 249,
+          "surface": "兄弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m022-0283",
+          "start": 283,
+          "end": 285,
+          "surface": "父兄",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p023",
       "text": "自是之後，漢使欲辯論者，中行說輒曰：「漢使無多言，顧漢所輸匈奴繒絮米糱，令其量中，必善美而己矣，何以爲言乎？且所給備善則已；不備，苦惡，則候秋孰，以騎馳蹂而稼穡耳。」日夜教單于候利害處。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m023-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m023-0012",
+          "start": 12,
+          "end": 15,
+          "surface": "中行說",
+          "kind": "person",
+          "person_id": "e8g_59i_f6c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m023-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m023-0086",
+          "start": 86,
+          "end": 88,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "nzl_kzb_2qr",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p024",
