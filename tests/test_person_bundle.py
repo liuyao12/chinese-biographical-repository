@@ -3,6 +3,34 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_wei_default_lineage_keeps_three_sons_and_retains_fourth_source_claim(self):
+        result = bundle('5dd_l1c_6g8', include_provisional=True)
+        self.assertIn('a-shiji049-045', {a['id'] for a in result['relations']})
+        self.assertNotIn('a-shiji049-045', {a['id'] for a in result['preferred_relations']})
+        children = {a['subject_person_id'] for a in result['preferred_relations']
+                    if a['predicate'] == 'father' and a['object_person_id'] in result['person_ids']}
+        identities = {frozenset(bundle(child, include_provisional=True)['person_ids']) for child in children}
+        self.assertEqual(len(identities), 3)
+        kang = bundle('2lq_elt_3ij', include_provisional=True)
+        self.assertIn('5dd_l1c_6g8_D', kang['person_ids'])
+        self.assertNotIn('5dd_l1c_6g8_C', kang['person_ids'])
+        father = next(a for a in kang['relations'] if a['id'] == 'a-shiji111-012')
+        self.assertEqual(father['qualifiers']['birth_order']['ordinal'], 1)
+        self.assertEqual(father['qualifiers']['birth_order']['scope'], 'sons_of_parent')
+        younger = [a['qualifiers']['relative_birth_order'] for a in kang['relations']
+                   if 'relative_birth_order' in a.get('qualifiers', {})]
+        self.assertEqual(len(younger), 2)
+        self.assertTrue(all(a['older_person_id'] == '2lq_elt_3ij' and a['younger_ordinal'] is None for a in younger))
+        succession = next(h for h in kang['title_holdings'] if h['mode'] == 'accession' and h['title'] == '長平侯')
+        self.assertEqual(succession['effective_period']['start']['normalized_date']['era_year'], 104)
+        self.assertNotIn('normalized_date', succession['effective_period']['end'])
+        self.assertEqual(succession['reported_duration']['value'], 6)
+    def test_shan_accession_does_not_copy_fathers_death_year(self):
+        result = bundle('aqs_iqa_d1l_A', include_provisional=True)
+        holding = next(h for h in result['title_holdings'] if 'inheritance' in h)
+        self.assertIsNone(holding['effective_period']['start']['date_expression'])
+        self.assertEqual(holding['effective_period']['start']['normalized_date']['era_year'], 116)
+        self.assertEqual(holding['reported_duration']['value'], 6)
     def test_inherited_rank_is_parseable_without_expanding_source_text(self):
         result = bundle('aqs_iqa_d1l_A', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if 'inheritance' in h)
@@ -300,6 +328,10 @@ class PersonBundleTests(unittest.TestCase):
             definitions = set(re.findall(r'^\[(\d+)\]: https://', page, re.M))
             self.assertTrue(source_refs.issubset(definitions))
         text = '\n'.join(page_texts)
+        extra = next(row for row in index['persons'] if row['person_id'] == '5dd_l1c_6g8_C')
+        self.assertEqual(extra['preferred_parent_status'], 'unresolved')
+        self.assertIn('ft-shiji-wei-extra-son', extra['parent_decision_ids'])
+        self.assertIn('衛青子宜春侯（來源候選；預設不接父系）', text)
         from urllib.parse import unquote
         table_ids = [unquote(filename) for filename in re.findall(r'\[JSON\]\(([^)]+)\.json\)', text)]
         self.assertEqual(set(table_ids), set(ids))

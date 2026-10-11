@@ -72,7 +72,10 @@ def export(root=ROOT):
     def source_column(row):
         return '、'.join(source_labels[sid] for sid in row['most_mentioned_source_ids']) or '—'
     def person_label(row):
-        return re.sub(r'（[^（）]*候選）$', '', row['label']).replace('|', '／')
+        label = re.sub(r'（[^（）]*候選）$', '', row['label']).replace('|', '／')
+        if row.get('preferred_parent_status') == 'unresolved':
+            label += '（來源候選；預設不接父系）'
+        return label
     source_map, assemblies = load_assemblies(root, catalog)
     rows = []
     for pid, person in sorted(catalog[0].items()):
@@ -92,6 +95,11 @@ def export(root=ROOT):
                      'identity_policy': result['identity_policy'],
                      'mention_count': len(result['mentions']), 'source_count': len(result['sources']),
                      'most_mentioned_source_ids': result['most_mentioned_source_ids']})
+        omitted_parent_decisions = [decision['id'] for decision in result['family_tree_decisions']
+            if decision['default_view'] == 'omit_unproven_biological_parent_edge'
+            and set(result['person_ids']).intersection(decision.get('subject_person_ids', [decision['subject_person_id']]))]
+        if omitted_parent_decisions:
+            rows[-1].update(preferred_parent_status='unresolved', parent_decision_ids=omitted_parent_decisions)
         if assembly:
             rows[-1].update(source_person_id=pid, assembled_identity=assembly)
     aliases = {alias: source_map.get(pid, {}).get('person_id', pid) for pid, person in catalog[0].items() for alias in person.get('id_aliases', [])}

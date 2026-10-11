@@ -1976,7 +1976,7 @@
 | `e9o_aty_rnt` | 桀 | [《史記・張儀列傳》][52] | [JSON](e9o_aty_rnt.json) |
 | `e9r_6rz_g0z` | 太史公 | [《史記・魏公子列傳》][59] | [JSON](e9r_6rz_g0z.json) |
 | `e9v_wow_vpm` | 太史公 | [《史記・外戚世家》][31] | [JSON](e9v_wow_vpm.json) |
-| `e9w_izn_j6r` | 樊他廣 | [《史記・樊酈滕灌列傳》][77] | [JSON](e9w_izn_j6r.json) |
+| `e9w_izn_j6r` | 樊他廣（來源候選；預設不接父系） | [《史記・樊酈滕灌列傳》][77] | [JSON](e9w_izn_j6r.json) |
 | `ea7_lok_3qv` | 慶節 | [《史記・周本紀》][4] | [JSON](ea7_lok_3qv.json) |
 | `ea8_yum_lvj` | 契 | [《史記・殷本紀》][3] | [JSON](ea8_yum_lvj.json) |
 | `eal_ozl_urh` | 蒙恬 | [《史記・白起王翦列傳》][55] | [JSON](eal_ozl_urh.json) |
@@ -2222,7 +2222,6 @@
 | `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
-| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

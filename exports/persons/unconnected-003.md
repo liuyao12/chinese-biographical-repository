@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `w0i_qc3_tpy` | 許負 | [《史記・絳侯周勃世家》][39] | [JSON](w0i_qc3_tpy.json) |
 | `w0m_43x_610` | 娵訾氏女 | [《史記・五帝本紀》][1] | [JSON](w0m_43x_610.json) |
 | `w0u_fhy_mih` | 趙襄子 | [《史記・刺客列傳》][68] | [JSON](w0u_fhy_mih.json) |
 | `w0v_vvq_ypt` | 臧昭伯 | [《史記・魯周公世家》][15] | [JSON](w0v_vvq_ypt.json) |
