@@ -3,6 +3,15 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_huo_age_is_exported_without_inferred_birth(self):
+        result = bundle('aqs_iqa_d1l', include_provisional=True)
+        age = result['age_assertions'][0]
+        self.assertEqual((age['value'], age['source_term']), (18, '年十八'))
+        self.assertIsNone(age['birth_year'])
+        self.assertEqual(age['counting'], 'unspecified_source_age')
+        self.assertEqual(age['normalized_date']['era_year'], 123)
+        self.assertIn(age['evidence'][0]['paragraph_id'], {p['id'] for p in result['passages']})
+        self.assertNotIn('birth', {e['event_type'] for e in result.get('life_events', [])})
     def test_yuan_ang_cross_chapter_bundle_keeps_sourced_death_place(self):
         result = bundle('40v_x1i_esm', include_provisional=True)
         self.assertTrue({'j32_wtj_khz_A', 'ndp_kf2_zbo', 'b8b_5mi_flk'}.issubset(result['person_ids']))

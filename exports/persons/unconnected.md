@@ -742,6 +742,7 @@
 | `5dy_81j_55y` | 蓋餘（吳公子） | [《史記・吳太伯世家》][13] | [JSON](5dy_81j_55y.json) |
 | `5e0_jgn_wj9` | 畢公髙 | [《史記・魏世家》][26] | [JSON](5e0_jgn_wj9.json) |
 | `5e8_vhx_rs4` | 公孫杵臼 | [《史記・趙世家》][25] | [JSON](5e8_vhx_rs4.json) |
+| `5en_9gg_p6c` | 羅姑比 | [《史記・衛將軍驃騎列傳》][93] | [JSON](5en_9gg_p6c.json) |
 | `5f6_5r4_eni` | 孝惠帝 | [《史記・曹相國世家》][36] | [JSON](5f6_5r4_eni.json) |
 | `5fk_w9g_t8y` | 弗父何 | [《史記・孔子世家》][29] | [JSON](5fk_w9g_t8y.json) |
 | `5g0_8ty_89n` | 屠岸賈 | [《史記・趙世家》][25] | [JSON](5g0_8ty_89n.json) |
@@ -1452,6 +1453,7 @@
 | `apu_6fw_asx` | 馮琴對者（魏世家中旗讀法未定） | [《史記・魏世家》][26] | [JSON](apu_6fw_asx.json) |
 | `apz_fp8_twe` | 魏公子卬 | [《史記・商君列傳》][50] | [JSON](apz_fp8_twe.json) |
 | `aq4_814_hq2` | 安期生 | [《史記・田儋列傳》][76] | [JSON](aq4_814_hq2.json) |
+| `aqs_iqa_d1l` | 霍去病 | [《史記・匈奴列傳》][92] | [JSON](aqs_iqa_d1l.json) |
 | `aru_qbv_1vo` | 李必 | [《史記・樊酈滕灌列傳》][77] | [JSON](aru_qbv_1vo.json) |
 | `ary_z8m_f18` | 景王 | [《史記・周本紀》][4] | [JSON](ary_z8m_f18.json) |
 | `as3_a3z_9jx` | 公甫文伯母未名 | [《史記・平原君虞卿列傳》][58] | [JSON](as3_a3z_9jx.json) |
@@ -2212,6 +2214,7 @@
 | `g0t_7m5_3bk` | 鄧都尉 | [《史記・吳王濞列傳》][88] | [JSON](g0t_7m5_3bk.json) |
 | `g14_wpb_odv` | 荀息 | [《史記・晉世家》][21] | [JSON](g14_wpb_odv.json) |
 | `g1r_0em_2tf` | 莊周 | [《史記・老子韓非列傳》][45] | [JSON](g1r_0em_2tf.json) |
+| `g1z_pgh_00e` | 產（籍若侯） | [《史記・衛將軍驃騎列傳》][93] | [JSON](g1z_pgh_00e.json) |
 | `g22_f2k_eav` | 趙豹 | [《史記・趙世家》][25] | [JSON](g22_f2k_eav.json) |
 | `g2b_tzq_wxz` | 韓非 | [《史記・秦始皇本紀》][6] | [JSON](g2b_tzq_wxz.json) |
 | `g2e_ui5_mts` | 伍徐 | [《史記・陳涉世家》][30] | [JSON](g2e_ui5_mts.json) |
@@ -2955,6 +2958,7 @@
 | `ld0_ysw_559` | 楚懷王 | [《史記・田儋列傳》][76] | [JSON](ld0_ysw_559.json) |
 | `ld5_szi_vvn` | 嫪毐 | [《史記・呂不韋列傳》][67] | [JSON](ld5_szi_vvn.json) |
 | `ldc_zat_qlt` | 荀櫟 | [《史記・趙世家》][25] | [JSON](ldc_zat_qlt.json) |
+| `ldw_cby_hek` | 郝賢 | [《史記・衛將軍驃騎列傳》][93] | [JSON](ldw_cby_hek.json) |
 | `le1_189_mdi` | 裏克 | [《史記・鄭世家》][24] | [JSON](le1_189_mdi.json) |
 | `le6_hlz_o1r` | 隨侯（楚武王伐隨時未名） | [《史記・楚世家》][22] | [JSON](le6_hlz_o1r.json) |
 | `le8_eqh_ry0` | 夫子引言 | [《史記・孟子荀卿列傳》][56] | [JSON](le8_eqh_ry0.json) |

@@ -15,6 +15,21 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_source_age_rejects_wrong_number(self):
+        self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(value=19))
+        self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))
+    def test_source_age_cannot_infer_birth_year(self):
+        self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(birth_year=-139))
+        self.assertIn('來源年齡不得推定計歲方式或出生年', v.validate(self.root))
+    def test_dafu_hang_cannot_become_direct_grandfather(self):
+        self.change('corpus/shiji/111-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'kinship_generation').update(predicate='grandfather'))
+        self.assertIn('大父行只記祖父輩，不得補直系祖父或親等', v.validate(self.root))
+    def test_dafu_hang_cannot_gain_exact_distance(self):
+        self.change('corpus/shiji/111-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'kinship_generation')['qualifiers'].update(exact_distance=2))
+        self.assertIn('大父行只記祖父輩，不得補直系祖父或親等', v.validate(self.root))
+    def test_jiezi_keeps_maternal_generation(self):
+        self.change('corpus/shiji/111-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'maternal_uncle')['qualifiers'].update(lineage='paternal'))
+        self.assertIn('姊子甥舅關係須保留母系世代與未名母親', v.validate(self.root))
     def test_reported_tenure_rejects_number_mismatch(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(value=14))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))

@@ -30,12 +30,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 break
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
-    mentions, relations, titles, identities, addresses, life_events = [], [], [], [], [], []
+    mentions, relations, titles, identities, addresses, life_events, ages = [], [], [], [], [], [], []
     chapters, paragraphs = {}, {}
     for record in records:
         kind = record.get('record_type')
         if kind == 'marked_chapter':
             chapters[record['id']] = record
+            ages.extend(a for a in record['annotation'].get('age_assertions', []) if a['person_id'] in ids)
             for paragraph in record['paragraphs']:
                 paragraphs[paragraph['id']] = (record, paragraph)
                 for mention in paragraph['mentions']:
@@ -87,7 +88,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
-    for record in relations + titles + identities + addresses + life_events + related_equivalences + tree_decisions:
+    for record in relations + titles + identities + addresses + life_events + ages + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
     for holding in titles:
@@ -142,9 +143,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             **({'life_events': life_events} if life_events else {}),
+            **({'age_assertions': ages} if ages else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='life_event', event_type=e['event_type']) for e in life_events if 'normalized_date' in e]
+                                    + [dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id'], date_role='age_attestation') for a in ages if 'normalized_date' in a]
                                     + [dict(h['effective_period'][endpoint]['normalized_date'], record_id=h['id'],
                                             person_id=h['person_id'], endpoint=endpoint, title=h['title'])
                                        for h in titles for endpoint in ('start', 'end')
