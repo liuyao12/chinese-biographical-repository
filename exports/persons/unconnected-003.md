@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qiy_ole_lkx` | 張武（匈奴列傳第24段） | [《史記・孝文本紀》][10] | [JSON](qiy_ole_lkx.json) |
 | `qj2_k5a_sq4` | 齊襄公 | [《史記・齊太公世家》][14] | [JSON](qj2_k5a_sq4.json) |
 | `qj3_l69_xhu` | 周公黑肩 | [《史記・周本紀》][4] | [JSON](qj3_l69_xhu.json) |
 | `qj3_rhh_t76` | 甯喜（衛臣） | [《史記・衛康叔世家》][19] | [JSON](qj3_rhh_t76.json) |
