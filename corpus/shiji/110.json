@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前14段初標57名來源人物、214處人物及未定錨點、10筆親屬、28筆用稱、8筆死亡事件、2筆死亡地點及10筆跨篇身份判讀。其餘47段、官爵日期與其他同指待核。",
+    "coverage": "全61段轉錄；前15段初標61名來源人物、225處人物及未定錨點、10筆親屬、34筆用稱、8筆死亡事件、2筆死亡地點及13筆跨篇身份判讀。其餘46段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -44,7 +44,8 @@
       "第9段官號及三姓為制度泛稱或氏族，不建立個人，不將常以太子為左屠耆王推作冒頓任職，單于之庭的代雲中不改作個人籍貫。",
       "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。",
       "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。",
-      "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。"
+      "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。",
+      "第15段三年承文帝前元三年，年尺度換算有數位編輯紀年參考，五月不作公曆換算。罷擊胡兵不作免相，右賢王未與先前其他出征同爵人物合併。"
     ]
   },
   "paragraphs": [
@@ -2089,9 +2090,109 @@
     {
       "id": "c-shiji-110-xiongnu:p015",
       "text": "至孝文帝初立，復修和親之事。其三年五月，匈奴右賢王入居河南地，侵盜上郡葆塞蠻夷，殺略人民。於是孝文帝詔丞相灌嬰發車騎八萬五千，詣高奴，擊右賢王。右賢王走出塞。文帝幸太原。是時濟北王反，文帝歸，罷丞相擊胡之兵。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m015-0001",
+          "start": 1,
+          "end": 4,
+          "surface": "孝文帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0022",
+          "start": 22,
+          "end": 25,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0047",
+          "start": 47,
+          "end": 50,
+          "surface": "孝文帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0051",
+          "start": 51,
+          "end": 53,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "tgo_0wv_wtk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0053",
+          "start": 53,
+          "end": 55,
+          "surface": "灌嬰",
+          "kind": "person",
+          "person_id": "tgo_0wv_wtk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0068",
+          "start": 68,
+          "end": 71,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0072",
+          "start": 72,
+          "end": 75,
+          "surface": "右賢王",
+          "kind": "person",
+          "person_id": "9ib_xph_vc1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0079",
+          "start": 79,
+          "end": 81,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0087",
+          "start": 87,
+          "end": 90,
+          "surface": "濟北王",
+          "kind": "person",
+          "person_id": "yv5_1rf_etr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0092",
+          "start": 92,
+          "end": 94,
+          "surface": "文帝",
+          "kind": "person",
+          "person_id": "4zc_ipl_5yk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m015-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "tgo_0wv_wtk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p016",

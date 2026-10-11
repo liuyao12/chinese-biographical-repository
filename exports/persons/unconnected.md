@@ -1277,6 +1277,7 @@
 | `9hw_mvo_jk8` | 俠累 | [《史記・刺客列傳》][68] | [JSON](9hw_mvo_jk8.json) |
 | `9i1_0jo_8sa` | 淮南厲王 | [《史記・屈原賈生列傳》][66] | [JSON](9i1_0jo_8sa.json) |
 | `9ia_6lk_9sa` | 魏昭王 | [《史記・范睢蔡澤列傳》][61] | [JSON](9ia_6lk_9sa.json) |
+| `9ib_xph_vc1` | 右賢王（匈奴列傳第15段） | [《史記・匈奴列傳》][92] | [JSON](9ib_xph_vc1.json) |
 | `9il_6ew_aq3` | 籍（晉獻侯） | [《史記・晉世家》][21] | [JSON](9il_6ew_aq3.json) |
 | `9il_q12_qhj` | 考王 | [《史記・周本紀》][4] | [JSON](9il_q12_qhj.json) |
 | `9iv_9yu_skl` | 趙亥（建成侯） | [《史記・秦始皇本紀》][6] | [JSON](9iv_9yu_skl.json) |
@@ -3971,6 +3972,7 @@
 | `tfu_611_q19` | 潁陰侯嬰（本段稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tfu_611_q19.json) |
 | `tfz_fnj_ejn` | 廉頗 | [《史記・廉頗藺相如列傳》][63] | [JSON](tfz_fnj_ejn.json) |
 | `tgl_pzw_4ik` | 召忽 | [《史記・齊太公世家》][14] | [JSON](tgl_pzw_4ik.json) |
+| `tgo_0wv_wtk` | 灌嬰（匈奴列傳第15段） | [《史記・樊酈滕灌列傳》][77] | [JSON](tgo_0wv_wtk.json) |
 | `th9_jve_qre` | 田臧 | [《史記・陳涉世家》][30] | [JSON](th9_jve_qre.json) |
 | `thb_vkl_7xq` | 尹潘 | [《史記・樊酈滕灌列傳》][77] | [JSON](thb_vkl_7xq.json) |
 | `thg_zvp_v5y` | 戚夫人 | [《史記・呂太后本紀》][9] | [JSON](thg_zvp_v5y.json) |
