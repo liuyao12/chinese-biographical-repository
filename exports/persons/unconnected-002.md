@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][93] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][24] | [JSON](g0f_lnq_gkm.json) |
 | `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][5] | [JSON](g0o_7tz_csx.json) |
@@ -770,6 +769,7 @@
 | `lfk_aka_wnj` | 呂禮 | [《史記・秦本紀》][5] | [JSON](lfk_aka_wnj.json) |
 | `lfp_pwy_rym` | 屈宜臼 | [《史記・韓世家》][27] | [JSON](lfp_pwy_rym.json) |
 | `lfr_3b7_zf5` | 太史公 | [《史記・劉敬叔孫通列傳》][81] | [JSON](lfr_3b7_zf5.json) |
+| `lfx_fqi_j72` | 孝文帝 | [《史記・孝文本紀》][10] | [JSON](lfx_fqi_j72.json) |
 | `lg2_cqw_2hr` | 劇子 | [《史記・孟子荀卿列傳》][56] | [JSON](lg2_cqw_2hr.json) |
 | `lg9_ysv_5h9` | 太史公 | [《史記・廉頗藺相如列傳》][63] | [JSON](lg9_ysv_5h9.json) |
 | `lgb_gdh_ej5` | 葉公（攻白公者） | [《史記・陳杞世家》][18] | [JSON](lgb_gdh_ej5.json) |
@@ -1320,6 +1320,7 @@
 | `pmj_7wv_qbr` | 韓信母未名 | [《史記・淮陰侯列傳》][74] | [JSON](pmj_7wv_qbr.json) |
 | `pmk_eyc_chr` | 公主（趙世家未名者） | [《史記・趙世家》][25] | [JSON](pmk_eyc_chr.json) |
 | `pmn_f40_6n7` | 子（田世家髙唐守者讀法未定） | [《史記・田敬仲完世家》][28] | [JSON](pmn_f40_6n7.json) |
+| `pmr_861_ixl` | 妻（公孫敖妻；未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](pmr_861_ixl.json) |
 | `pn8_865_se4` | 魯君引古未名 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](pn8_865_se4.json) |
 | `pni_28v_4w0` | 秦繆公 | [《史記・趙世家》][25] | [JSON](pni_28v_4w0.json) |
 | `pnl_mv7_etn` | 威烈王 | [《史記・周本紀》][4] | [JSON](pnl_mv7_etn.json) |
@@ -1565,7 +1566,7 @@
 | `rcz_7hh_455` | 熙（魯煬公） | [《史記・魯周公世家》][15] | [JSON](rcz_7hh_455.json) |
 | `rd1_5vy_m7g` | 子胥 | [《史記・越王勾踐世家》][23] | [JSON](rd1_5vy_m7g.json) |
 | `rd5_bjt_8ed` | 炎帝 | [《史記・五帝本紀》][1] | [JSON](rd5_bjt_8ed.json) |
-| `rd7_cq6_rjs` | 單于（元朔六年未名） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](rd7_cq6_rjs.json) |
+| `rd7_cq6_rjs` | 單于（元朔六年未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](rd7_cq6_rjs.json) |
 | `rd8_kwt_5iu` | 關龍逢（引古） | [《史記・蒙恬列傳》][70] | [JSON](rd8_kwt_5iu.json) |
 | `rd8_urn_g2l` | 秦王政 | [《史記・秦始皇本紀》][6] | [JSON](rd8_urn_g2l.json) |
 | `rdw_qwe_aa0` | 丞相哙未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](rdw_qwe_aa0.json) |
@@ -2221,7 +2222,6 @@
 | `w02_19o_60l` | 淮南王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](w02_19o_60l.json) |
 | `w05_x7q_foo` | 繆賢 | [《史記・廉頗藺相如列傳》][63] | [JSON](w05_x7q_foo.json) |
 | `w06_m3y_ctg` | 知伯 | [《史記・田敬仲完世家》][28] | [JSON](w06_m3y_ctg.json) |
-| `w0d_2f6_1ih` | 曼丘臣 | [《史記・韓信盧綰列傳》][75] | [JSON](w0d_2f6_1ih.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

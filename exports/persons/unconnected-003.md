@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `w0d_2f6_1ih` | 曼丘臣 | [《史記・韓信盧綰列傳》][75] | [JSON](w0d_2f6_1ih.json) |
 | `w0i_qc3_tpy` | 許負 | [《史記・絳侯周勃世家》][39] | [JSON](w0i_qc3_tpy.json) |
 | `w0m_43x_610` | 娵訾氏女 | [《史記・五帝本紀》][1] | [JSON](w0m_43x_610.json) |
 | `w0u_fhy_mih` | 趙襄子 | [《史記・刺客列傳》][68] | [JSON](w0u_fhy_mih.json) |
@@ -350,7 +351,6 @@
 | `yes_bzi_dhx` | 衞君（魏世家未名者） | [《史記・魏世家》][26] | [JSON](yes_bzi_dhx.json) |
 | `yfx_myv_qft` | 子西 | [《史記・楚世家》][22] | [JSON](yfx_myv_qft.json) |
 | `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][53] | [JSON](yg1_ml2_61c.json) |
-| `yg8_c3n_vv4` | 公孫賀 | [《史記・衛將軍驃騎列傳》][93] | [JSON](yg8_c3n_vv4.json) |
 | `ygr_80w_wp2` | 嬖姬（陳宣公款母） | [《史記・陳杞世家》][18] | [JSON](ygr_80w_wp2.json) |
 | `yh1_ob5_1qm` | 魏太子申 | [《史記・魏世家》][26] | [JSON](yh1_ob5_1qm.json) |
 | `yj2_zd2_kbu` | 國 | [《史記・趙世家》][25] | [JSON](yj2_zd2_kbu.json) |

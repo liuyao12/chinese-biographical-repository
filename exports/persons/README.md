@@ -1784,6 +1784,15 @@
 
 </details>
 
+<details><summary><code>n3u_6wg_kay</code> 隆（張次公父）（衛將軍驃騎列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 隆（張次公父） | [《史記・衛將軍驃騎列傳》][93] | [JSON](n3u_6wg_kay.json) |
+| `A` | 張次公 | [《史記・衛將軍驃騎列傳》][93] | [JSON](n3u_6wg_kay_A.json) |
+
+</details>
+
 <details><summary><code>n4f_fqh_04q</code> 易王（燕君）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2381,7 +2390,7 @@
 | `AA` | 稽粥（匈奴列傳第18至20段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AA.json) |
 | `AAA` | 軍臣（匈奴列傳第27段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AAA.json) |
 | `AAAA` | 於單（匈奴列傳第31至32段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AAAA.json) |
-| `AAB` | 伊稚斜（匈奴列傳第31至32段） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](wjt_htu_081_AAB.json) |
+| `AAB` | 伊稚斜（匈奴列傳第31至32段） | [《史記・衛將軍驃騎列傳》][93] | [JSON](wjt_htu_081_AAB.json) |
 | `AABA` | 烏維（匈奴列傳第42至43段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABA.json) |
 | `AABAA` | 烏師廬（匈奴列傳第49段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAA.json) |
 | `AABAAA` | 兒單于之子（未名） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAAA.json) |
@@ -2628,6 +2637,16 @@
 |---|---|---|---|
 | `根` | 吳廣 | [《史記・趙世家》][25] | [JSON](yaj_2vc_98w.json) |
 | `A` | 娃嬴 | [《史記・趙世家》][25] | [JSON](yaj_2vc_98w_A.json) |
+
+</details>
+
+<details><summary><code>yay_w6f_lis</code> 渾邪（公孫賀父）（衛將軍驃騎列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 渾邪（公孫賀父） | [《史記・衛將軍驃騎列傳》][93] | [JSON](yay_w6f_lis.json) |
+| `A` | 公孫賀 | [《史記・衛將軍驃騎列傳》][93] | [JSON](yay_w6f_lis_A.json) |
+| `AA` | 敬聲（公孫賀子） | [《史記・衛將軍驃騎列傳》][93] | [JSON](yay_w6f_lis_AA.json) |
 
 </details>
 
