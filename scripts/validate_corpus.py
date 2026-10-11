@@ -39,6 +39,7 @@ def validate(root=ROOT):
         people = registry['persons']
         pids = [p['id'] for p in people]
         check(len(pids) == len(set(pids)), '人物 ID 重複')
+        pids = set(pids)
         try:
             from scripts.person_ids import valid_person_id, LEGACY, FAMILY, LEGACY_FAMILY, family_path_errors
         except ModuleNotFoundError:

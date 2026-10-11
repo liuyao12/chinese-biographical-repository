@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全28段轉錄；46名新增來源候選、339處人物錨點、15條親屬、33筆官爵、9筆來源地點、9項暫定跨篇同指。官爵用稱年與授任起訖分開保存；淮南王安按高祖孫接入父系，父親留空。明示姓名首輪，非完整覆核。",
+    "coverage": "全28段轉錄；46名新增來源候選、383處人物及未定錨點、15條親屬、33筆官爵、9筆來源地點、9項暫定跨篇同指。官爵用稱年與授任起訖分開保存；淮南王安缺代接入父系。指代覆核中，非完整覆核。",
     "limitations": [
       "未核底本影像，僅核數位固定版本。",
       "從兄子、昆弟子保留複合親屬原稱，不能補造未知父親姓名。",
@@ -39,6 +39,22 @@
       "程李俱東西宮衛尉不指定兩人各任哪一宮。",
       "其春及孝景初即位的數值紀年須另審；未填曆日。",
       "田恬坐不敬不補原文未明言的免爵或爵位終止日。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji107-tahou007",
+        "candidate_person_ids": [
+          "5u3_i3p_ngq",
+          "l26_mjw_rwe"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-107-weiqi:p006",
+          "c-shiji-107-weiqi:p007",
+          "c-shiji-107-weiqi:p008"
+        ],
+        "note": "田蚡微言太后風上之太后未明示姓氏。外家承接支持王太后，但同段任命、儒術事件又牽涉竇太后，暫不單憑太后用稱定一人。"
+      }
     ]
   },
   "paragraphs": [
@@ -147,6 +163,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m002-0031",
+          "start": 31,
+          "end": 32,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m002-0051",
           "start": 51,
           "end": 53,
@@ -165,6 +191,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m002-0065",
+          "start": 65,
+          "end": 66,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m002-0074",
           "start": 74,
           "end": 76,
@@ -172,6 +208,16 @@
           "kind": "person",
           "person_id": "2ws_c97_c69",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m002-0090",
+          "start": 90,
+          "end": 91,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m002-0096",
@@ -227,6 +273,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m003-0009",
+          "start": 9,
+          "end": 10,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m003-0017",
           "start": 17,
           "end": 19,
@@ -252,6 +308,16 @@
           "kind": "person",
           "person_id": "nuf_tb9_fjs_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m003-0044",
+          "start": 44,
+          "end": 45,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m003-0054",
@@ -451,6 +517,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m004-0083",
+          "start": 83,
+          "end": 84,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m004-0127",
           "start": 127,
           "end": 129,
@@ -458,6 +534,16 @@
           "kind": "person",
           "person_id": "zgm_3w8_12c",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m004-0146",
+          "start": 146,
+          "end": 148,
+          "surface": "主上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m004-0167",
@@ -754,6 +840,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m007-0044",
+          "start": 44,
+          "end": 45,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m007-0053",
           "start": 53,
           "end": 55,
@@ -790,6 +886,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m007-0087",
+          "start": 87,
+          "end": 88,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m007-0097",
           "start": 97,
           "end": 99,
@@ -815,6 +921,26 @@
           "kind": "person",
           "person_id": "ubk_etq_ksp",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m007-0135",
+          "start": 135,
+          "end": 137,
+          "surface": "太后",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "未明示姓氏；建元初王太后與竇太后均在，暫留兩候選。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m007-0138",
+          "start": 138,
+          "end": 139,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m007-0144",
@@ -1210,6 +1336,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m010-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m010-0030",
           "start": 30,
           "end": 31,
@@ -1217,6 +1353,36 @@
           "kind": "person",
           "person_id": "ubk_etq_ksp",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m010-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "主上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m010-0088",
+          "start": 88,
+          "end": 89,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m010-0115",
+          "start": 115,
+          "end": 116,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m010-0142",
@@ -1459,6 +1625,26 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m013-0005",
+          "start": 5,
+          "end": 6,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m013-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m013-0009",
           "start": 9,
           "end": 10,
@@ -1556,6 +1742,16 @@
           "kind": "person",
           "person_id": "l26_mjw_rwe",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m013-0120",
+          "start": 120,
+          "end": 121,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m013-0122",
@@ -2128,6 +2324,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m019-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m019-0039",
           "start": 39,
           "end": 41,
@@ -2170,6 +2376,16 @@
           "kind": "person",
           "person_id": "fwk_g2h_l3r_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m020-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m020-0026",
@@ -2594,6 +2810,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m021-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m021-0037",
           "start": 37,
           "end": 40,
@@ -2628,6 +2854,16 @@
           "kind": "person",
           "person_id": "h1w_44g_vef_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m021-0099",
+          "start": 99,
+          "end": 100,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m021-0104",
@@ -2746,6 +2982,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m022-0167",
+          "start": 167,
+          "end": 168,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m022-0183",
           "start": 183,
           "end": 186,
@@ -2827,6 +3073,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m022-0348",
+          "start": 348,
+          "end": 349,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m022-0360",
           "start": 360,
           "end": 362,
@@ -2845,6 +3101,86 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m022-0393",
+          "start": 393,
+          "end": 394,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0395",
+          "start": 395,
+          "end": 397,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "本段太后自稱吾弟，承田蚡孝景后同母弟；竇太后已於前文建元六年崩。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0398",
+          "start": 398,
+          "end": 400,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "本段太后自稱吾弟，承田蚡孝景后同母弟；竇太后已於前文建元六年崩。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0410",
+          "start": 410,
+          "end": 412,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "本段太后自稱吾弟，承田蚡孝景后同母弟；竇太后已於前文建元六年崩。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0413",
+          "start": 413,
+          "end": 415,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "本段太后自稱吾弟，承田蚡孝景后同母弟；竇太后已於前文建元六年崩。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0448",
+          "start": 448,
+          "end": 449,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0458",
+          "start": 458,
+          "end": 459,
+          "surface": "帝",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0480",
+          "start": 480,
+          "end": 481,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m022-0513",
           "start": 513,
           "end": 515,
@@ -2852,6 +3188,16 @@
           "kind": "person",
           "person_id": "1da_n4d_6sk",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m022-0516",
+          "start": 516,
+          "end": 517,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         }
       ]
     },
@@ -2916,6 +3262,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m023-0098",
+          "start": 98,
+          "end": 99,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m023-0109",
           "start": 109,
           "end": 111,
@@ -2941,6 +3297,16 @@
       "annotation_status": "in_progress",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-107-weiqi:m024-0002",
+          "start": 2,
+          "end": 3,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
         {
           "id": "c-shiji-107-weiqi:m024-0008",
           "start": 8,
@@ -2978,6 +3344,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m024-0050",
+          "start": 50,
+          "end": 51,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m024-0056",
           "start": 56,
           "end": 58,
@@ -2985,6 +3361,16 @@
           "kind": "person",
           "person_id": "h1w_44g_vef_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m024-0074",
+          "start": 74,
+          "end": 75,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m024-0076",
@@ -3005,6 +3391,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m024-0096",
+          "start": 96,
+          "end": 97,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m024-0112",
           "start": 112,
           "end": 114,
@@ -3023,6 +3419,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m024-0125",
+          "start": 125,
+          "end": 127,
+          "surface": "先帝",
+          "kind": "person",
+          "person_id": "4gj_xfa_r7s",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m024-0141",
           "start": 141,
           "end": 143,
@@ -3039,6 +3445,16 @@
           "kind": "person",
           "person_id": "nuf_tb9_fjs_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m024-0168",
+          "start": 168,
+          "end": 169,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m024-0172",
@@ -3138,6 +3554,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m026-0033",
+          "start": 33,
+          "end": 34,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m026-0044",
           "start": 44,
           "end": 46,
@@ -3154,6 +3580,16 @@
           "kind": "person",
           "person_id": "2ws_c97_c69_*A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m026-0075",
+          "start": 75,
+          "end": 76,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m026-0077",
@@ -3174,6 +3610,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-107-weiqi:m026-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "太后",
+          "kind": "person",
+          "person_id": "5u3_i3p_ngq",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
+        },
+        {
           "id": "c-shiji-107-weiqi:m026-0094",
           "start": 94,
           "end": 97,
@@ -3181,6 +3627,16 @@
           "kind": "person",
           "person_id": "2ws_c97_c69_*A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-107-weiqi:m026-0100",
+          "start": 100,
+          "end": 101,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "gni_rru_0gw",
+          "status": "contextual_provisional",
+          "interpretation_note": "按本段帝朝與敘事或引述時間辨指；原文用稱不改為姓名。"
         },
         {
           "id": "c-shiji-107-weiqi:m026-0105",
