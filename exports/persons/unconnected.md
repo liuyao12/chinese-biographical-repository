@@ -128,6 +128,7 @@
 | `0th_8iq_2q0` | 王龁 | [《史記・白起王翦列傳》][55] | [JSON](0th_8iq_2q0.json) |
 | `0tj_vst_yao` | 張儀 | [《史記・樗里子甘茂列傳》][53] | [JSON](0tj_vst_yao.json) |
 | `0tp_9hs_kjs` | 孔子 | [《史記・孔子世家》][29] | [JSON](0tp_9hs_kjs.json) |
+| `0tq_z9h_e73` | 樓蘭王（趙破奴所虜；未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](0tq_z9h_e73.json) |
 | `0tz_6h5_zmv` | 秦武王 | [《史記・魏世家》][26] | [JSON](0tz_6h5_zmv.json) |
 | `0w8_6xd_lpn` | 魏讎餘 | [《史記・秦本紀》][5] | [JSON](0w8_6xd_lpn.json) |
 | `0wd_9iu_71i` | 陳渉 | [《史記・張耳陳餘列傳》][71] | [JSON](0wd_9iu_71i.json) |
@@ -1344,6 +1345,7 @@
 | `9px_mn4_w7x` | 修成君 | [《史記・齊悼惠王世家》][34] | [JSON](9px_mn4_w7x.json) |
 | `9pz_z2d_tqx` | 茅焦 | [《史記・秦始皇本紀》][6]、[《史記・呂不韋列傳》][67] | [JSON](9pz_z2d_tqx.json) |
 | `9q0_896_584` | 禹 | [《史記・伯夷列傳》][43] | [JSON](9q0_896_584.json) |
+| `9q1_g7x_961` | 太史公 | [《史記・衛將軍驃騎列傳》][93] | [JSON](9q1_g7x_961.json) |
 | `9qj_prl_ehx` | 犀首 | [《史記・張儀列傳》][52] | [JSON](9qj_prl_ehx.json) |
 | `9qr_quf_02m` | 帝嚳 | [《史記・五帝本紀》][1] | [JSON](9qr_quf_02m.json) |
 | `9qt_orl_5f2` | 彭越 | [《史記・魏豹彭越列傳》][72] | [JSON](9qt_orl_5f2.json) |
@@ -1578,8 +1580,9 @@
 | `bkr_vp5_w7r` | 太史公 | [《史記・刺客列傳》][68] | [JSON](bkr_vp5_w7r.json) |
 | `bkz_jr0_4ey` | 韓厥 | [《史記・韓世家》][27] | [JSON](bkz_jr0_4ey.json) |
 | `bl6_mow_siu` | 公孫喜 | [《史記・秦本紀》][5] | [JSON](bl6_mow_siu.json) |
+| `bld_yv5_49h` | 武安 | [《史記・衛將軍驃騎列傳》][93] | [JSON](bld_yv5_49h.json) |
 | `ble_6gl_3l8` | 空同氏（趙世家襄子妻未名者） | [《史記・趙世家》][25] | [JSON](ble_6gl_3l8.json) |
-| `blh_yo0_iq9` | 路博德 | [《史記・匈奴列傳》][92] | [JSON](blh_yo0_iq9.json) |
+| `blh_yo0_iq9` | 路博德 | [《史記・衛將軍驃騎列傳》][93] | [JSON](blh_yo0_iq9.json) |
 | `blo_hqh_iqg` | 小乙 | [《史記・殷本紀》][3] | [JSON](blo_hqh_iqg.json) |
 | `blw_xsu_w9q` | 兒寬 | [《史記・萬石張叔列傳》][85] | [JSON](blw_xsu_w9q.json) |
 | `blx_v56_6o2` | 廩辛 | [《史記・殷本紀》][3] | [JSON](blx_v56_6o2.json) |
@@ -2219,9 +2222,6 @@
 | `fxc_ppb_ofs` | 丞相敞未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](fxc_ppb_ofs.json) |
 | `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][26] | [JSON](fxh_d0f_a1l.json) |
 | `fxy_b0h_ssn` | 公子光（楚篇吳伐楚者） | [《史記・楚世家》][22] | [JSON](fxy_b0h_ssn.json) |
-| `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][47] | [JSON](fy2_9h4_gdt.json) |
-| `fy7_290_36y` | 呂后 | [《史記・呂太后本紀》][9] | [JSON](fy7_290_36y.json) |
-| `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][6] | [JSON](fyf_enn_4w8.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

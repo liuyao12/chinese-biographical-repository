@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首四十一段姓名初標100名來源候選；第39至41段17筆新增用稱、兩筆籍貫、兩筆死亡及庶孫祖先原句已保存，數字紀年與身份續核，其餘段落未標註。",
+    "coverage": "全48段轉錄及姓名／稱呼初標106名來源候選；所有段落仍為in_progress，代詞、版本、跨篇身份、部分官爵紀年與未知端點尚待核，不稱全部人物已覆核。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -71,7 +71,12 @@
       "蘇建游擊、右將軍同軍役暫依通鑑元朔五年前124年、六年前123年，不按後四歲累加。曹參孫與曹世家四代後裔序列對讀，保留廣義祖先關係，不定兩代；跨篇身份組裝續核。",
       "第39至41段：弓高侯庶孫保存爵稱祖先候選，所指人物、庶孫世代及系出待核，不補父親。衛太子與太子宮暫同段同指，跨篇身份待核。樓船將軍留未解錨點，郭昌奪印不作死亡；韓說與荀彘卒年不以最近任官年充填。",
       "第39至40段明示年號換算：元鼎六年暫前111年、太初三年暫前102年、元封四年暫前107年；原句及年標分層保存，未用最近任官年補死亡年。元封三年及兩人卒年另續核。",
-      "韓說死亡暫依通鑑征和二年前91年、荀彘死亡依元封三年前108年，僅年精度。荀彘左將軍依本篇元封三年換算108，通鑑二年已述出征的差另存，不強改原文或以卒年推授任。"
+      "韓說死亡暫依通鑑征和二年前91年、荀彘死亡依元封三年前108年，僅年精度。荀彘左將軍依本篇元封三年換算108，通鑑二年已述出征的差另存，不強改原文或以卒年推授任。",
+      "第42至44段最驃騎將軍為總計用語，不作最大職位；六人及將軍二人保留群體，不據人數補造個人。路博德平州人照原字保存，屯居延不直接作卒地；回顧霍去病死後不新建第二死亡事件。",
+      "第42至44段新增7筆官職用稱，符離侯小傳回顧追加同一授爵記錄，坐法失侯明示終點未定年。益封未補戶數或新爵號，卒不自動終止全部職位。",
+      "第45段：樓蘭王及圍趙破奴左賢王另設來源候選，不與更早軍役同爵人物按稱號自動合併。其太子安國保存父子，未補生母排行或皇族地位。被俘與軍沒不作死亡，族僅記趙破奴主語，卒年未定。",
+      "第45段新增9筆用稱，司馬不擴寫原文未見鷹擊；太子安國暫列未分類，不補皇族。從驃侯酎金失侯與浞野侯復封分開，相對年數與任期尚待核；被俘未記為所有官爵終止。",
+      "第46至48段：衛氏與五侯為群體，統計不自動對應五個具名人。太史公、魏其、武安另設來源候選，跨篇具名對應待核。引文中的大將軍與天子按衛青及武帝語境暫解，代詞未全面標註。索隱贊青、姊、皇極、平陽、嫖姚按本篇衛青、衛子夫、武帝、平陽長公主、霍去病語境暫解，保留附載索隱層，不當司馬遷正文或獨立婚姻證據。"
     ],
     "age_assertions": [
       {
@@ -6020,51 +6025,391 @@
     {
       "id": "c-shiji-111-wei-huo:p042",
       "text": "最驃騎將軍去病，凡六出擊匈奴，其四出以將軍，斬捕首虜十一萬餘級。及渾邪王以眾降數萬，遂開河西酒泉之地，西方益少胡寇。四益封，凡萬五千一百戶。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m042-0001",
+          "start": 1,
+          "end": 5,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m042-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "去病",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m042-0033",
+          "start": 33,
+          "end": 36,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "hn5_ylj_0pw",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p043",
       "text": "其校吏有功為侯者凡六人，而後為將軍二人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m043-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "六人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m043-0015",
+          "start": 15,
+          "end": 19,
+          "surface": "將軍二人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p044",
       "text": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m044-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "路博德",
+          "kind": "person",
+          "person_id": "blh_yo0_iq9",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m044-0017",
+          "start": 17,
+          "end": 21,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m044-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m044-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "博德",
+          "kind": "person",
+          "person_id": "blh_yo0_iq9",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p045",
       "text": "將軍趙破奴，故九原人。嘗亡入匈奴，已而歸漢，為驃騎將軍司馬。出北地時有功，封為從驃侯。坐酎金失侯。後一歲，為匈河將軍，攻胡至匈河水，無功。後二歲，擊虜樓蘭王，復封為浞野侯。後六歲，為浚稽將軍，將二萬騎擊匈奴左賢王，左賢王與戰，兵八萬騎圍破奴，破奴生為虜所得，遂沒其軍。居匈奴中十歲，復與其太子安國亡入漢。後坐巫蠱，族。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m045-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "趙破奴",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0023",
+          "start": 23,
+          "end": 27,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0075",
+          "start": 75,
+          "end": 78,
+          "surface": "樓蘭王",
+          "kind": "person",
+          "person_id": "0tq_z9h_e73",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0103",
+          "start": 103,
+          "end": 106,
+          "surface": "左賢王",
+          "kind": "person",
+          "person_id": "jml_tkf_soc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0107",
+          "start": 107,
+          "end": 110,
+          "surface": "左賢王",
+          "kind": "person",
+          "person_id": "jml_tkf_soc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "破奴",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "破奴",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0144",
+          "start": 144,
+          "end": 146,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m045-0146",
+          "start": 146,
+          "end": 148,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "zqw_hbr_qln_A",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p046",
       "text": "自衛氏興，大將軍青首封，其後枝屬為五侯。凡二十四歲而五侯盡奪，衛氏無為侯者。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m046-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "衛氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m046-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m046-0008",
+          "start": 8,
+          "end": 9,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m046-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "五侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m046-0026",
+          "start": 26,
+          "end": 28,
+          "surface": "五侯",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m046-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "衛氏",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p047",
       "text": "太史公曰：蘇建語余曰：「吾嘗責大將軍至尊重，而天下之賢大夫毋稱焉，願將軍觀古名將所招選擇賢者，勉之哉。大將軍謝曰：『自魏其、武安之厚賓客，天子常切齒。彼親附士大夫，招賢絀不肖者，人主之柄也。人臣奉法遵職而已，何與招士！』」驃騎亦放此意，其為將如此。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m047-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "太史公",
+          "kind": "person",
+          "person_id": "9q1_g7x_961",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0005",
+          "start": 5,
+          "end": 7,
+          "surface": "蘇建",
+          "kind": "person",
+          "person_id": "ior_a2u_f1c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0015",
+          "start": 15,
+          "end": 18,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0051",
+          "start": 51,
+          "end": 54,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0059",
+          "start": 59,
+          "end": 61,
+          "surface": "魏其",
+          "kind": "person",
+          "person_id": "oxw_ygh_znz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "武安",
+          "kind": "person",
+          "person_id": "bld_yv5_49h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m047-0111",
+          "start": 111,
+          "end": 113,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p048",
       "text": "【索隱述贊】君子豹變，貴賤何常。青本奴虜，忽升戎行。姊配皇極，身尚平陽。寵榮斯僭，取亂彝章。嫖姚繼踵，再靜邊方。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "witness_appended_suoyin_zan",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m048-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m048-0026",
+          "start": 26,
+          "end": 27,
+          "surface": "姊",
+          "kind": "person",
+          "person_id": "wli_blb_o53",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m048-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "皇極",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m048-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "平陽",
+          "kind": "person",
+          "person_id": "ov6_n6f_jka",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m048-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "嫖姚",
+          "kind": "person",
+          "person_id": "aqs_iqa_d1l",
+          "status": "contextual_provisional"
+        }
+      ]
     }
   ]
 }

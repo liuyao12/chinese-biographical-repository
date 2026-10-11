@@ -2922,6 +2922,15 @@
 
 </details>
 
+<details><summary><code>zqw_hbr_qln</code> 破奴（鷹擊司馬）（衛將軍驃騎列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 破奴（鷹擊司馬） | [《史記・匈奴列傳》][92] | [JSON](zqw_hbr_qln.json) |
+| `A` | 安國（趙破奴子） | [《史記・衛將軍驃騎列傳》][93] | [JSON](zqw_hbr_qln_A.json) |
+
+</details>
+
 <details><summary><code>zrx_2ip_d1p</code> 張負（陳丞相世家候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

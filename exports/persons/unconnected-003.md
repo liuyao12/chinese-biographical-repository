@@ -6,6 +6,11 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `vxa_usq_rlw` | 許由引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](vxa_usq_rlw.json) |
+| `vxj_epn_sti` | 陳司敗 | [《史記・仲尼弟子列傳》][49] | [JSON](vxj_epn_sti.json) |
+| `vxt_uj1_8ym` | 鄭昌 | [《史記・高祖本紀》][8] | [JSON](vxt_uj1_8ym.json) |
+| `vxv_vcf_nru` | 管夷吾管仲引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](vxv_vcf_nru.json) |
+| `vy3_65g_mwj` | 芮良夫 | [《史記・周本紀》][4] | [JSON](vy3_65g_mwj.json) |
 | `vz1_0ed_6us` | 文王引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](vz1_0ed_6us.json) |
 | `vz1_n5y_mng` | 呂祿 | [《史記・絳侯周勃世家》][39] | [JSON](vz1_n5y_mng.json) |
 | `vz2_xlj_noq` | 堯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](vz2_xlj_noq.json) |
@@ -127,7 +132,7 @@
 | `wwf_ocm_23f` | 太史公 | [《史記・留侯世家》][37] | [JSON](wwf_ocm_23f.json) |
 | `wwz_8n8_w33` | 息侯（陳婚記事） | [《史記・管蔡世家》][17] | [JSON](wwz_8n8_w33.json) |
 | `wxg_l3l_wre` | 魏齊 | [《史記・范睢蔡澤列傳》][61] | [JSON](wxg_l3l_wre.json) |
-| `wxg_pg3_wk0` | 路博德（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](wxg_pg3_wk0.json) |
+| `wxg_pg3_wk0` | 路博德（匈奴列傳第54段） | [《史記・衛將軍驃騎列傳》][93] | [JSON](wxg_pg3_wk0.json) |
 | `wxj_wmw_39e` | 彭生 | [《史記・魯周公世家》][15] | [JSON](wxj_wmw_39e.json) |
 | `wxn_bku_mqy` | 絃髙 | [《史記・鄭世家》][24] | [JSON](wxn_bku_mqy.json) |
 | `wxr_gch_zh5` | 田完 | [《史記・田敬仲完世家》][28] | [JSON](wxr_gch_zh5.json) |
@@ -521,7 +526,6 @@
 | `zpv_ei1_hhy` | 齊湣王（陳篇滅宋記事） | [《史記・陳杞世家》][18]、[《史記・宋微子世家》][20] | [JSON](zpv_ei1_hhy.json) |
 | `zqd_xej_g85` | 子輿 | [《史記・扁鵲倉公列傳》][87] | [JSON](zqd_xej_g85.json) |
 | `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][93] | [JSON](zqj_u2i_r5y.json) |
-| `zqw_hbr_qln` | 破奴（鷹擊司馬） | [《史記・匈奴列傳》][92] | [JSON](zqw_hbr_qln.json) |
 | `zqx_760_8l5` | 周敬王 | [《史記・趙世家》][25] | [JSON](zqx_760_8l5.json) |
 | `zqy_a21_8d3` | 任鄙 | [《史記・秦本紀》][5] | [JSON](zqy_a21_8d3.json) |
 | `zqy_y5v_rf6` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](zqy_y5v_rf6.json) |

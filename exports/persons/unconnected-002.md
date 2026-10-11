@@ -6,6 +6,9 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][47] | [JSON](fy2_9h4_gdt.json) |
+| `fy7_290_36y` | 呂后 | [《史記・呂太后本紀》][9] | [JSON](fy7_290_36y.json) |
+| `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][6] | [JSON](fyf_enn_4w8.json) |
 | `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
@@ -523,6 +526,7 @@
 | `jlp_iua_bsf` | 齊宣王 | [《史記・魏世家》][26] | [JSON](jlp_iua_bsf.json) |
 | `jlv_zw9_bk3` | 齊懿仲 | [《史記・田敬仲完世家》][28] | [JSON](jlv_zw9_bk3.json) |
 | `jm9_oxb_y3l` | 宋景公（滅曹記事） | [《史記・管蔡世家》][17] | [JSON](jm9_oxb_y3l.json) |
+| `jml_tkf_soc` | 左賢王（圍趙破奴；未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](jml_tkf_soc.json) |
 | `jmm_0ez_y53` | 陳筮 | [《史記・韓世家》][27] | [JSON](jmm_0ez_y53.json) |
 | `jmz_qgu_bq0` | 晉靈公 | [《史記・晉世家》][21] | [JSON](jmz_qgu_bq0.json) |
 | `jnf_7ry_g96` | 公仲 | [《史記・韓世家》][27] | [JSON](jnf_7ry_g96.json) |
@@ -1233,6 +1237,7 @@
 | `ox6_lqa_iko` | 程滑（弒晉厲公記事） | [《史記・管蔡世家》][17] | [JSON](ox6_lqa_iko.json) |
 | `oxa_rta_lvd` | 澹臺滅明 | [《史記・仲尼弟子列傳》][49] | [JSON](oxa_rta_lvd.json) |
 | `oxi_zcr_uxa` | 高起 | [《史記・高祖本紀》][8] | [JSON](oxi_zcr_uxa.json) |
+| `oxw_ygh_znz` | 魏其 | [《史記・衛將軍驃騎列傳》][93] | [JSON](oxw_ygh_znz.json) |
 | `oy5_z21_yq3` | 髙共 | [《史記・趙世家》][25] | [JSON](oy5_z21_yq3.json) |
 | `oya_xaf_3w8` | 宋最 | [《史記・絳侯周勃世家》][39] | [JSON](oya_xaf_3w8.json) |
 | `oye_sta_uwq` | 青翟 | [《史記・三王世家》][42] | [JSON](oye_sta_uwq.json) |
@@ -2217,11 +2222,6 @@
 | `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][36] | [JSON](vw5_ynq_5fx.json) |
 | `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][20] | [JSON](vwi_95l_l6d.json) |
 | `vx2_svu_k0q` | 白起 | [《史記・趙世家》][25] | [JSON](vx2_svu_k0q.json) |
-| `vxa_usq_rlw` | 許由引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](vxa_usq_rlw.json) |
-| `vxj_epn_sti` | 陳司敗 | [《史記・仲尼弟子列傳》][49] | [JSON](vxj_epn_sti.json) |
-| `vxt_uj1_8ym` | 鄭昌 | [《史記・高祖本紀》][8] | [JSON](vxt_uj1_8ym.json) |
-| `vxv_vcf_nru` | 管夷吾管仲引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](vxv_vcf_nru.json) |
-| `vy3_65g_mwj` | 芮良夫 | [《史記・周本紀》][4] | [JSON](vy3_65g_mwj.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
