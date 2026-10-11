@@ -15,6 +15,13 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_parallel_event_accepts_received_regnal_year_with_separate_quotes(self):
+        data = json.loads((self.root/'corpus/shiji/111-titles.json').read_text())
+        date = next(h for h in data['holdings'] if h['attestations'][0]['paragraph_id'].endswith(':p010'))['attestations'][0]['normalized_date']
+        self.assertTrue(v.parallel_event_date(date))
+        year_ref = next(r for r in date['references'] if r['scope'] == 'received_regnal_year_attestation')
+        year_ref['scope'] = 'unspecified_reference'
+        self.assertFalse(v.parallel_event_date(date))
     def test_source_age_rejects_wrong_number(self):
         self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(value=19))
         self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))

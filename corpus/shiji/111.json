@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首八段初標51名來源人物、17筆親屬、1筆籍貫、96筆用稱、5筆生卒、21筆跨篇同指、4筆局部身份判讀及1組人物區分；1筆來源年齡；三子分歧待續核，其餘段落待續核。",
+    "coverage": "全48段轉錄；首十段初標54名來源人物、17筆親屬、1筆籍貫、102筆用稱、5筆生卒、22筆跨篇同指、4筆局部身份判讀及1組人物區分、1筆來源年齡；王夫人跨篇身份、三子分歧與其餘段落待續核。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -48,7 +48,10 @@
       "第7段其明年春承元朔五年，暫前123年；右內史保留本段原詞，不改上段左內史。六將明記為各軍將軍，另錄本役授任；降為翕侯為追述，不以本役年份作舊爵封授年。罪正閎、長史安及議郎周霸不補姓名成分。蘇建身脫及囚詣行在所不記死亡。",
       "第8段年十八保留原句，未以年齡反推出生年；姊子可示甥舅關係但本句未指明母親。籍若侯產的大父行保留祖父輩原語，不逕作親祖父。季父羅姑比以父系叔父記錄，不補排行或單于之父。相國、當戶及壯士、兩將軍暫未補成具名個體；再冠軍為軍功表述，不當作冠軍侯的個人姓名提及。亡翕侯為降胡失將，不記死亡。",
       "第8段是歲承前123年，封冠軍侯、眾利侯、授剽姚校尉與建贖為庶人各存事件。侍中保存本年用稱，未定首次授任。霍去病與外戚世家按同名、衛氏親屬及冠軍侯暫同指；其母少兒已有該篇明言，不把本句姊子單獨充作母名證據。",
-      "第8段姊子保存母系甥舅關係，母名在此來源保持未知；大父行保存祖父輩關係及未知親等，不作直系祖父或父子路徑。"
+      "第8段姊子保存母系甥舅關係，母名在此來源保持未知；大父行保存祖父輩關係及未知親等，不作直系祖父或父子路徑。",
+      "第9段甯乘與王夫人另立來源人物，未憑王夫人稱號合併外戚世家或武帝本紀同號者；皇后承衛后敘事。三子與宗族群體保留未具名指涉，不以侯爵列舉補出生次序。上指本段天子，甯乘說中的說不當韓說省名。明示拜東海都尉，保留原字甯；東海不換今行政地名。是時與還軍承接待紀年複核，未補任期終點。",
+      "第9段既還、是時承前段還軍，代理暫定前123年；通鑑卷十九未找到甯乘同一受拜文字，未聲稱他書已確認。原句與前文紀年證據俱存，精度僅年，王夫人身份仍分開。",
+      "第10段張騫封博望侯依大宛列傳正文是歲元朔六年，暫前123年；本篇未寫校尉，不補該官職。初使大夏、留匈奴為追述，不把本役年當出使起年。大夏與匈奴為地／群體，不補成個別人物。跨篇張騫同指不等於兩篇軍役事件同指。"
     ],
     "age_assertions": [
       {
@@ -2184,16 +2187,207 @@
     {
       "id": "c-shiji-111-wei-huo:p009",
       "text": "大將軍既還，賜千金。是時王夫人方幸於上，甯乘說大將軍曰：「將軍所以功未甚多，身食萬戶，三子皆為侯者，徒以皇后故也。今王夫人幸而宗族未富貴，願將軍奉所賜千金為王夫人親壽。」大將軍乃以五百金為壽。天子聞之，問大將軍，大將軍以實言，上乃拜甯乘為東海都尉。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m009-0000",
+          "start": 0,
+          "end": 3,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0012",
+          "start": 12,
+          "end": 15,
+          "surface": "王夫人",
+          "kind": "person",
+          "person_id": "op9_u99_9x5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0018",
+          "start": 18,
+          "end": 19,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "甯乘",
+          "kind": "person",
+          "person_id": "gzj_hsy_5vi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0023",
+          "start": 23,
+          "end": 26,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0043",
+          "start": 43,
+          "end": 45,
+          "surface": "三子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "皇后",
+          "kind": "person",
+          "person_id": "wli_blb_o53",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0058",
+          "start": 58,
+          "end": 61,
+          "surface": "王夫人",
+          "kind": "person",
+          "person_id": "op9_u99_9x5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "宗族",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0070",
+          "start": 70,
+          "end": 72,
+          "surface": "將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0078",
+          "start": 78,
+          "end": 81,
+          "surface": "王夫人",
+          "kind": "person",
+          "person_id": "op9_u99_9x5",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0085",
+          "start": 85,
+          "end": 88,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0102",
+          "start": 102,
+          "end": 105,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0106",
+          "start": 106,
+          "end": 109,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0113",
+          "start": 113,
+          "end": 114,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m009-0116",
+          "start": 116,
+          "end": 118,
+          "surface": "甯乘",
+          "kind": "person",
+          "person_id": "gzj_hsy_5vi",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p010",
       "text": "張騫從大將軍，以嘗使大夏，留匈奴中久，導軍，知善水草處，軍得以無饑渴，因前使絕國功，封騫博望侯。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m010-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "張騫",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m010-0003",
+          "start": 3,
+          "end": 6,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m010-0043",
+          "start": 43,
+          "end": 44,
+          "surface": "騫",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p011",
