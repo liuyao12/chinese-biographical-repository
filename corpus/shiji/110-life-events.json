@@ -670,6 +670,62 @@
       "interpretation_note": "原文明示被殺，保存相對日期與換算年份；不以死亡結束全部官爵，官職轄地不作籍貫，未補現代地點或精確月日。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-xiutu",
+      "person_id": "szo_tqq_qr1",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "其秋",
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 121,
+        "year": -120,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "其秋，單于怒渾邪王、休屠王居西方爲漢所殺虜數萬人，欲召誅之。渾邪王與休屠王恐，謀降漢，漢使驃騎將軍往迎之。渾邪王殺休屠王，并將其眾降漢。凡四萬餘人，號十萬。於是漢已得渾邪王，則隴西、北地、河西益少胡寇，徙關東貧民處所奪匈奴河南、新秦中以實之，而減北地以西戍卒半。其明年，匈奴入右北平、定襄各數萬騎，殺略千餘人而去。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-110-xiongnu",
+            "source_id": "s-shiji110-xiongnu",
+            "paragraph_id": "c-shiji-110-xiongnu:p037",
+            "quote": "其秋，單于怒渾邪王、休屠王居西方爲漢所殺虜數萬人，欲召誅之。渾邪王與休屠王恐，謀降漢，漢使驃騎將軍往迎之。渾邪王殺休屠王，并將其眾降漢。凡四萬餘人，號十萬。於是漢已得渾邪王，則隴西、北地、河西益少胡寇，徙關東貧民處所奪匈奴河南、新秦中以實之，而減北地以西戍卒半。其明年，匈奴入右北平、定襄各數萬騎，殺略千餘人而去。",
+            "person_mention_id": "c-shiji-110-xiongnu:m037-0057"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》卷十九渾邪王降漢記事",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷019&oldid=1511466",
+            "quote": "休屠王後悔，渾邪王殺之，并其眾",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《資治通鑑》數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷019&oldid=1511466",
+            "quote": "元狩二年（庚申，公元前一二一年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "其秋承前段河西軍役前121年，與通鑑元狩二年秋渾邪王降、殺休屠王同事件對讀，暫記前121年、天文年-120；不將段末其明年右北平定襄入寇的前120年倒套兩王事件，不補月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p037",
+          "quote": "其秋，單于怒渾邪王、休屠王居西方爲漢所殺虜數萬人，欲召誅之。渾邪王與休屠王恐，謀降漢，漢使驃騎將軍往迎之。渾邪王殺休屠王，并將其眾降漢。凡四萬餘人，號十萬。於是漢已得渾邪王，則隴西、北地、河西益少胡寇，徙關東貧民處所奪匈奴河南、新秦中以實之，而減北地以西戍卒半。其明年，匈奴入右北平、定襄各數萬騎，殺略千餘人而去。",
+          "person_mention_id": "c-shiji-110-xiongnu:m037-0057"
+        }
+      ],
+      "interpretation_note": "渾邪王殺休屠王明示死亡，記前121年；單于先欲召誅之僅意圖，不作單于已殺兩王。居西方為活動地域，不補籍貫、卒地、葬地或親屬；死亡不自動終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }
