@@ -482,9 +482,11 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','agnatic_cousin','grandfather','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'stepmother':
+                    check(qualifiers.get('source_term') == '後母' and any('後母' in e.get('quote', '') for e in a['evidence']), '後母關係須有原詞證據')
                 if 'posthumous_birth' in qualifiers:
                     check(a['predicate'] == 'father' and qualifiers['posthumous_birth'] is True
                           and '遺腹' in qualifiers.get('source_term', ''), '遺腹子欄位須有父親與原詞證據')

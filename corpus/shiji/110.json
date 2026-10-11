@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前5段初標38名來源候選、67處人物及未定錨點、3筆親屬、13筆用稱及4筆死亡事件。其餘56段、其他官爵日期與跨篇同指待核。",
+    "coverage": "全61段轉錄；前6段初標42名來源候選、98處人物及未定錨點、10筆親屬、16筆用稱及7筆死亡事件。其餘55段、其他官爵日期與跨篇同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -37,7 +37,8 @@
       "第2段後母惠后不作襄王生母，褒姒寵姬稱未自動補婚姻；相對年數不補公元年，跨篇同指及官爵另待核。",
       "第3段君長為群體未定錨點，族群地理不作晉文公個人籍貫；晉文公承前段，秦穆公及由余另建候選。",
       "第4段秦舞陽接秦開祖孫缺代，二子為未名群體；亂不自動記婚姻，秦王與始皇帝身份仍待跨篇核讀，戰國各國區域不作人物籍貫。",
-      "第5段單于曰頭曼直接連本段稱號；蒙恬承前段同名敘事，十餘年未作精確公元年換算，族群及諸侯群體不補個人。"
+      "第5段單于曰頭曼直接連本段稱號；蒙恬承前段同名敘事，十餘年未作精確公元年換算，族群及諸侯群體不補個人。",
+      "第6段少子與弟、閼氏與後母依敘事暫定同指；後母關係獨立保存，冒頓生母未知，太子不等於長子，愛妻被射未補死亡。"
     ]
   },
   "paragraphs": [
@@ -687,9 +688,289 @@
     {
       "id": "c-shiji-110-xiongnu:p006",
       "text": "單于有太子名冒頓。後有所愛閼氏，生少子，而單于欲廢冒頓而立少子，乃使冒頓質於月氏。冒頓既質於月氏，而頭曼急擊月氏。月氏欲殺冒頓，冒頓盜其善馬，騎之亡歸。頭曼以爲壯，令將萬騎。冒頓乃作爲鳴鏑，習勒其騎射，令曰：「鳴鏑所射而不悉射者，斬之。」行獵鳥獸，有不射鳴鏑所射者，輒斬之。已而冒頓以鳴鏑自射其善馬，左右或不敢射者，冒頓立斬不射善馬者。居頃之，復以鳴鏑自射其愛妻，左右或頗恐，不敢射，冒頓又復斬之。居頃之，冒頓出獵，以鳴鏑射單于善馬，左右皆射之。於是冒頓知其左右皆可用。從其父單于頭曼獵，以鳴鏑射頭曼，其左右亦皆隨鳴鏑而射殺單于頭曼，遂盡誅其後母與弟及大臣不聽從者。冒頓自立爲單于。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m006-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0006",
+          "start": 6,
+          "end": 8,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "閼氏",
+          "kind": "person",
+          "person_id": "vlp_pem_oj3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "少子",
+          "kind": "person",
+          "person_id": "4lj_3nk_6vt",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0025",
+          "start": 25,
+          "end": 27,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "少子",
+          "kind": "person",
+          "person_id": "4lj_3nk_6vt",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0076",
+          "start": 76,
+          "end": 78,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0158",
+          "start": 158,
+          "end": 160,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "愛妻",
+          "kind": "person",
+          "person_id": "2ye_xvh_3a7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0192",
+          "start": 192,
+          "end": 194,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0203",
+          "start": 203,
+          "end": 205,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0212",
+          "start": 212,
+          "end": 214,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0225",
+          "start": 225,
+          "end": 227,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0238",
+          "start": 238,
+          "end": 240,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0240",
+          "start": 240,
+          "end": 242,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0248",
+          "start": 248,
+          "end": 250,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0262",
+          "start": 262,
+          "end": 264,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0264",
+          "start": 264,
+          "end": 266,
+          "surface": "頭曼",
+          "kind": "person",
+          "person_id": "wjt_htu_081",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0271",
+          "start": 271,
+          "end": 273,
+          "surface": "後母",
+          "kind": "person",
+          "person_id": "vlp_pem_oj3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0274",
+          "start": 274,
+          "end": 275,
+          "surface": "弟",
+          "kind": "person",
+          "person_id": "4lj_3nk_6vt",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0283",
+          "start": 283,
+          "end": 285,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m006-0288",
+          "start": 288,
+          "end": 290,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p007",
