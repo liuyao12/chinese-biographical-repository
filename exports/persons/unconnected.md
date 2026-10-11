@@ -1741,6 +1741,7 @@
 | `cyi_wjz_uxt` | 項伯 | [《史記・項羽本紀》][7] | [JSON](cyi_wjz_uxt.json) |
 | `cyl_qxa_g8o` | 成王 | [《史記・魯周公世家》][15] | [JSON](cyl_qxa_g8o.json) |
 | `cyo_vyj_6o2` | 接輿 | [《史記・孔子世家》][29] | [JSON](cyo_vyj_6o2.json) |
+| `czy_wmj_0wb` | 匈奴貴使（未名，至漢病死者） | [《史記・匈奴列傳》][92] | [JSON](czy_wmj_0wb.json) |
 | `czz_xfb_r7x` | 書信太后 | [《史記・蘇秦列傳》][51] | [JSON](czz_xfb_r7x.json) |
 | `d0b_8uf_u5w` | 郤宛 | [《史記・伍子胥列傳》][48] | [JSON](d0b_8uf_u5w.json) |
 | `d0c_mzc_xon` | 魏無忌 | [《史記・秦本紀》][5]、[《史記・高祖本紀》][8] | [JSON](d0c_mzc_xon.json) |
@@ -2033,6 +2034,7 @@
 | `ex1_pps_iby` | 江陵王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](ex1_pps_iby.json) |
 | `exl_e7q_rma` | 車丞相未詳名 | [《史記・張丞相列傳》][78] | [JSON](exl_e7q_rma.json) |
 | `ey4_td6_sc4` | 嫘祖 | [《史記・五帝本紀》][1] | [JSON](ey4_td6_sc4.json) |
+| `ey5_pne_opn` | 郭昌（匈奴列傳第48段） | [《史記・匈奴列傳》][92] | [JSON](ey5_pne_opn.json) |
 | `eya_qj3_tev` | 酈食其 | [《史記・酈生陸賈列傳》][79] | [JSON](eya_qj3_tev.json) |
 | `eyc_0n9_y2x` | 士蒍（晉臣） | [《史記・晉世家》][21] | [JSON](eyc_0n9_y2x.json) |
 | `eyc_8y6_02q` | 郭隗（燕招賢者） | [《史記・燕召公世家》][16] | [JSON](eyc_8y6_02q.json) |
@@ -2340,6 +2342,7 @@
 | `h3x_nrw_uay` | 徐偃王 | [《史記・秦本紀》][5] | [JSON](h3x_nrw_uay.json) |
 | `h40_rtd_6ut` | 樂池 | [《史記・秦本紀》][5] | [JSON](h40_rtd_6ut.json) |
 | `h4c_ia5_qoe` | 五大夫禮 | [《史記・秦本紀》][5] | [JSON](h4c_ia5_qoe.json) |
+| `h4f_jdj_gwf` | 王烏（匈奴列傳第46至48段） | [《史記・匈奴列傳》][92] | [JSON](h4f_jdj_gwf.json) |
 | `h4s_bj9_3tm` | 旁皋 | [《史記・秦本紀》][5] | [JSON](h4s_bj9_3tm.json) |
 | `h55_n0n_dfm` | 張澤 | [《史記・呂太后本紀》][9] | [JSON](h55_n0n_dfm.json) |
 | `h55_rzc_q0s` | 欒甯（孔氏老） | [《史記・衛康叔世家》][19] | [JSON](h55_rzc_q0s.json) |
@@ -2766,6 +2769,7 @@
 | `k7x_gmp_ffr` | 伯翳 | [《史記・鄭世家》][24] | [JSON](k7x_gmp_ffr.json) |
 | `k8d_2sn_e4f` | 唐雎 | [《史記・魏世家》][26] | [JSON](k8d_2sn_e4f.json) |
 | `k8f_g8u_4xk` | 公子勝 | [《史記・趙世家》][25] | [JSON](k8f_g8u_4xk.json) |
+| `k8g_wo9_ejj` | 烏孫王（未名，公主婚配所指） | [《史記・匈奴列傳》][92] | [JSON](k8g_wo9_ejj.json) |
 | `k8n_rwt_70b` | 齊襄公 | [《史記・齊太公世家》][14] | [JSON](k8n_rwt_70b.json) |
 | `k8p_ptb_xa1` | 武臣 | [《史記・張耳陳餘列傳》][71] | [JSON](k8p_ptb_xa1.json) |
 | `k96_xfs_8qz` | 田既 | [《史記・曹相國世家》][36] | [JSON](k96_xfs_8qz.json) |
@@ -2865,6 +2869,7 @@
 | `kzv_cms_thu` | 郤克 | [《史記・韓世家》][27] | [JSON](kzv_cms_thu.json) |
 | `kzy_ysk_775` | 神農 | [《史記・伯夷列傳》][43] | [JSON](kzy_ysk_775.json) |
 | `l03_ht7_wwy` | 田單 | [《史記・田單列傳》][64] | [JSON](l03_ht7_wwy.json) |
+| `l05_5gh_nen` | 烏維所稱太子（未名，匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](l05_5gh_nen.json) |
 | `l0i_j1y_txo` | 吳王僚 | [《史記・吳太伯世家》][13] | [JSON](l0i_j1y_txo.json) |
 | `l0n_tbg_bml` | 子陽（鄭所殺者） | [《史記・楚世家》][22] | [JSON](l0n_tbg_bml.json) |
 | `l0r_u7m_5kx` | 項羽 | [《史記・白起王翦列傳》][55] | [JSON](l0r_u7m_5kx.json) |
@@ -2896,6 +2901,7 @@
 | `l87_n9v_y0p` | 太史噭引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](l87_n9v_y0p.json) |
 | `l8e_aho_h3v` | 嬰（太僕） | [《史記・孝文本紀》][10] | [JSON](l8e_aho_h3v.json) |
 | `l8u_dr5_a97` | 丙戎 | [《史記・齊太公世家》][14] | [JSON](l8u_dr5_a97.json) |
+| `l9a_lun_z7u` | 路充國（匈奴列傳第48段） | [《史記・匈奴列傳》][92] | [JSON](l9a_lun_z7u.json) |
 | `l9e_fbr_36a` | 倉 | [《史記・韓世家》][27] | [JSON](l9e_fbr_36a.json) |
 | `l9s_24a_7a3` | 趙括 | [《史記・白起王翦列傳》][55] | [JSON](l9s_24a_7a3.json) |
 | `l9t_94i_2xm` | 郄（晉鄂侯） | [《史記・晉世家》][21] | [JSON](l9t_94i_2xm.json) |
@@ -3731,6 +3737,7 @@
 | `rjs_f84_760` | 被李廣生得的匈奴射雕者（未名） | [《史記・李將軍列傳》][91] | [JSON](rjs_f84_760.json) |
 | `rjw_tpy_t2f` | 絳短稱未定 | [《史記・屈原賈生列傳》][66] | [JSON](rjw_tpy_t2f.json) |
 | `rk0_huv_709` | 中行偃（弒晉厲公記事） | [《史記・晉世家》][21] | [JSON](rk0_huv_709.json) |
+| `rk6_uic_hnm` | 楊信（匈奴列傳第47至48段） | [《史記・匈奴列傳》][92] | [JSON](rk6_uic_hnm.json) |
 | `rke_c0u_y8f` | 孝惠帝 | [《史記・傅靳蒯成列傳》][80] | [JSON](rke_c0u_y8f.json) |
 | `rki_84e_ibd` | 番吾君（趙世家未名者） | [《史記・趙世家》][25] | [JSON](rki_84e_ibd.json) |
 | `rkj_cs5_yob` | 魯句踐 | [《史記・刺客列傳》][68] | [JSON](rkj_cs5_yob.json) |
@@ -3815,6 +3822,7 @@
 | `s63_f1q_qe0` | 田臣思 | [《史記・田敬仲完世家》][28] | [JSON](s63_f1q_qe0.json) |
 | `s6v_a1w_z3m` | 伍子胥（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](s6v_a1w_z3m.json) |
 | `s74_0jk_msn` | 召公（厲宣時） | [《史記・周本紀》][4] | [JSON](s74_0jk_msn.json) |
+| `s79_jb8_yix` | 妻烏孫王的公主（未名，匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](s79_jb8_yix.json) |
 | `s7e_or3_oyt` | 韓宣惠王 | [《史記・留侯世家》][37] | [JSON](s7e_or3_oyt.json) |
 | `s7q_qps_pba` | 仲行（子輿氏） | [《史記・秦本紀》][5] | [JSON](s7q_qps_pba.json) |
 | `s7v_52b_lzt` | 暴鳶 | [《史記・秦本紀》][5] | [JSON](s7v_52b_lzt.json) |

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前45段初標116名來源人物、537處人物及未定錨點、18筆親屬、121筆用稱、23筆死亡事件、4筆地址、36筆跨篇身份判讀及3筆篇內身份判讀。其餘16段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前49段初標125名來源人物、595處人物及未定錨點、20筆親屬、128筆用稱、26筆死亡事件、5筆地址、36筆跨篇及8筆篇內身份判讀。其餘12段、2組未決身份、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -63,7 +63,40 @@
       "第39段單于有兩個持有人，依自立、去號語法分開錨點；誤認伊稚斜死亡不作死亡事件。自立與撤號有事件及平行年證據，本篇無日數，不把通鑑十餘日改入正文或精確推十日任期。",
       "第40段左賢王按幕北軍役另立並暫接李敢奪鼓旗同次候選，不逕合前121年同號王；將皆遁走為未定將領群體，未補人名。封禪不作授爵；第41段幕南王庭及漢度河置田為地理、軍政與群體敘述，未補具體人物或個人地址。",
       "第42段任敞省稱同指，議和前119年、去病死亡前117年、先是使者舊事未定年分開。第43段伊稚斜死、子烏維繼立前114年有元鼎三年原句，子不推長子；漢天子始巡郡縣與通鑑元鼎四年紀序另列，不套王系交接年。",
-      "第44段故太仆賀以平行出兵全名暫接公孫賀，從驃侯為趙破奴舊爵，故字保存失職爵但不定其年。烏維立三年與通鑑元鼎六年差一年，暫取同次出兵前111年且留原詞；不是烏維完整在位年數。第45段郭吉、吉及發言吾按局部同指，巡邊告語前110年；主客按同使事暫同指，懸首南越王未名且卒年未定。北海是郭吉留置地，不作籍貫／卒地／葬地或現代定位；後續反覆遣使未名、不套前110年。"
+      "第44段故太仆賀以平行出兵全名暫接公孫賀，從驃侯為趙破奴舊爵，故字保存失職爵但不定其年。烏維立三年與通鑑元鼎六年差一年，暫取同次出兵前111年且留原詞；不是烏維完整在位年數。第45段郭吉、吉及發言吾按局部同指，巡邊告語前110年；主客按同使事暫同指，懸首南越王未名且卒年未定。北海是郭吉留置地，不作籍貫／卒地／葬地或現代定位；後續反覆遣使未名、不套前110年。",
+      "第46至49段王烏北地人有原文籍屬；太子送質、入漢相約兄弟為許諾或提議，不造已發生事件或血親。公主妻烏孫王為明示婚配，未名夫妻獨立保留。路充國佩二千石印綬不是明言任某官；貴使在漢病死不等於已證謀殺，此漢貴人與未名太子／烏師廬兩組指涉保留未決。趙信與貴使卒年不從使事連綴強推；郭昌授拔胡將軍暫前107年、烏維死與烏師廬繼立前105年分開。立十歳數值10保留原字，路充國留三歳不是在位年數；死亡不自動終止全部官爵。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji110-hanguiren",
+        "candidate_person_ids": [
+          "l9a_lun_z7u",
+          "czy_wmj_0wb"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-110-xiongnu:p048"
+        ],
+        "mention_ids": [
+          "c-shiji-110-xiongnu:m048-0136"
+        ],
+        "note": "此漢貴人緊接路充國佩印送喪，但示詞可能稱出使者或送葬的貴人；保留兩個已見候選，不暗以漢字、二千石印綬或死者先行詞選人，不據此新增稱號。"
+      },
+      {
+        "id": "u-shiji110-taizi-wushilu",
+        "candidate_person_ids": [
+          "l05_5gh_nen",
+          "du1_540_vpf"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-110-xiongnu:p046",
+          "c-shiji-110-xiongnu:p047",
+          "c-shiji-110-xiongnu:p048",
+          "c-shiji-110-xiongnu:p049"
+        ],
+        "note": "烏維交涉所稱未名太子與後來明示子烏師廬可能同人，但太子號及繼位不足證明身份；保留兩人，不補未名太子生父、長子或送質事件。"
+      }
     ]
   },
   "paragraphs": [
@@ -5262,30 +5295,556 @@
     {
       "id": "c-shiji-110-xiongnu:p046",
       "text": "漢使王烏等窺匈奴。匈奴法，漢使非去節而以墨黥其面者不得入穹廬。王烏，北地人，習胡俗，去其節，黥面，得入穹廬。單于愛之，詳許甘言，爲遣其太子入漢爲質，以求和親。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m046-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m046-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m046-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m046-0054",
+          "start": 54,
+          "end": 56,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m046-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "l05_5gh_nen",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p047",
       "text": "漢使楊信於匈奴。是時漢東拔穢貉、朝鮮以爲郡，而西置酒泉郡以鬲絕胡與羌通之路。漢又西通月氏、大夏，又以公主妻烏孫王，以分匈奴西方之援國。又北益廣田至胘雷爲塞，而匈奴終不敢以爲言。是歳，翕侯信死，漢用事者以匈奴爲已弱，可臣從也。楊信爲人剛直屈彊，素非貴臣，單于不親。單于欲召入，不肯去節，單于乃坐穹廬外見楊信。楊信既見單于，說曰：「即欲和親，以單于太子爲質於漢。」單于曰：「非故約。故約，漢常遣翁主，給繒絮食物有品，以和親，而匈奴亦不擾邊。今乃欲反古，令吾太子爲質，無幾矣。」匈奴俗，見漢使非中貴人，其儒先，以爲欲說，折其辯；其少年，以爲欲刺，折其氣。每漢使入匈奴，匈奴輒報償。漢留匈奴使，匈奴亦留漢使，必得當乃肯止。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m047-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "楊信",
+          "kind": "person",
+          "person_id": "rk6_uic_hnm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0050",
+          "start": 50,
+          "end": 52,
+          "surface": "公主",
+          "kind": "person",
+          "person_id": "s79_jb8_yix",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0053",
+          "start": 53,
+          "end": 56,
+          "surface": "烏孫王",
+          "kind": "person",
+          "person_id": "k8g_wo9_ejj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0091",
+          "start": 91,
+          "end": 94,
+          "surface": "翕侯信",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0096",
+          "start": 96,
+          "end": 100,
+          "surface": "漢用事者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0112",
+          "start": 112,
+          "end": 114,
+          "surface": "楊信",
+          "kind": "person",
+          "person_id": "rk6_uic_hnm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0126",
+          "start": 126,
+          "end": 128,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0150",
+          "start": 150,
+          "end": 152,
+          "surface": "楊信",
+          "kind": "person",
+          "person_id": "rk6_uic_hnm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0153",
+          "start": 153,
+          "end": 155,
+          "surface": "楊信",
+          "kind": "person",
+          "person_id": "rk6_uic_hnm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0157",
+          "start": 157,
+          "end": 159,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0170",
+          "start": 170,
+          "end": 172,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0172",
+          "start": 172,
+          "end": 174,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "l05_5gh_nen",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0180",
+          "start": 180,
+          "end": 182,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0195",
+          "start": 195,
+          "end": 197,
+          "surface": "翁主",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0225",
+          "start": 225,
+          "end": 226,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0226",
+          "start": 226,
+          "end": 228,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "l05_5gh_nen",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0241",
+          "start": 241,
+          "end": 243,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0248",
+          "start": 248,
+          "end": 251,
+          "surface": "其儒先",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0261",
+          "start": 261,
+          "end": 264,
+          "surface": "其少年",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0275",
+          "start": 275,
+          "end": 277,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0289",
+          "start": 289,
+          "end": 292,
+          "surface": "匈奴使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m047-0297",
+          "start": 297,
+          "end": 299,
+          "surface": "漢使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p048",
       "text": "楊信既歸，漢使王烏，而單于復肴甘言，欲多得漢財物，紿謂王烏曰：「吾欲入漢見天子，面相約爲兄弟。」王烏歸報漢，漢爲單于築邸于長安。匈奴曰：「非得漢貴人使，吾不與誠語。」匈奴使其貴人至漢，病，漢予藥，欲愈之，不幸而死。而漢使路充國佩二千石印綬往使，因送其喪，厚葬直數千金，曰「此漢貴人也」。單于以爲漢殺吾貴使者，乃留路充國不歸。諸所言者，單于特空紿王烏，殊無意入漢及遣太子來質。於是匈奴數使奇兵侵犯邊。漢乃拜郭昌爲拔胡將軍，及浞野侯屯朔方以東，備胡。路充國留匈奴三歳，單于死。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m048-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "楊信",
+          "kind": "person",
+          "person_id": "rk6_uic_hnm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0027",
+          "start": 27,
+          "end": 29,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0032",
+          "start": 32,
+          "end": 33,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "mgp_xt9_j5h",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0056",
+          "start": 56,
+          "end": 58,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0069",
+          "start": 69,
+          "end": 75,
+          "surface": "非得漢貴人使",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0076",
+          "start": 76,
+          "end": 81,
+          "surface": "吾不與誠語",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0086",
+          "start": 86,
+          "end": 89,
+          "surface": "其貴人",
+          "kind": "person",
+          "person_id": "czy_wmj_0wb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0110",
+          "start": 110,
+          "end": 113,
+          "surface": "路充國",
+          "kind": "person",
+          "person_id": "l9a_lun_z7u",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0136",
+          "start": 136,
+          "end": 140,
+          "surface": "此漢貴人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0143",
+          "start": 143,
+          "end": 145,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0149",
+          "start": 149,
+          "end": 150,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0150",
+          "start": 150,
+          "end": 153,
+          "surface": "貴使者",
+          "kind": "person",
+          "person_id": "czy_wmj_0wb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0156",
+          "start": 156,
+          "end": 159,
+          "surface": "路充國",
+          "kind": "person",
+          "person_id": "l9a_lun_z7u",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0167",
+          "start": 167,
+          "end": 169,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0172",
+          "start": 172,
+          "end": 174,
+          "surface": "王烏",
+          "kind": "person",
+          "person_id": "h4f_jdj_gwf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0182",
+          "start": 182,
+          "end": 184,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "l05_5gh_nen",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0202",
+          "start": 202,
+          "end": 204,
+          "surface": "郭昌",
+          "kind": "person",
+          "person_id": "ey5_pne_opn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0211",
+          "start": 211,
+          "end": 214,
+          "surface": "浞野侯",
+          "kind": "person",
+          "person_id": "z0l_1wp_de1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0223",
+          "start": 223,
+          "end": 226,
+          "surface": "路充國",
+          "kind": "person",
+          "person_id": "l9a_lun_z7u",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m048-0232",
+          "start": 232,
+          "end": 234,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p049",
       "text": "烏維單于立十歳而死，子烏師廬立爲單于。年少，號爲兒單于。是歳元封六年也。自此之後，單于益西北，左方兵直雲中，右方直酒泉、燉煌郡。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m049-0000",
+          "start": 0,
+          "end": 4,
+          "surface": "烏維單于",
+          "kind": "person",
+          "person_id": "m9n_aj1_4tp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m049-0011",
+          "start": 11,
+          "end": 14,
+          "surface": "烏師廬",
+          "kind": "person",
+          "person_id": "du1_540_vpf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m049-0014",
+          "start": 14,
+          "end": 18,
+          "surface": "立爲單于",
+          "kind": "person",
+          "person_id": "du1_540_vpf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m049-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "兒單于",
+          "kind": "person",
+          "person_id": "du1_540_vpf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m049-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "du1_540_vpf",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p050",

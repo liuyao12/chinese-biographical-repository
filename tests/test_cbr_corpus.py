@@ -18,6 +18,9 @@ class CorpusTests(unittest.TestCase):
     def test_reported_tenure_rejects_number_mismatch(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(value=14))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
+    def test_reported_tenure_rejects_partial_source_numeral(self):
+        self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(value=3, source_number='三'))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
     def test_reported_tenure_requires_quote(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(source_term='立十四年死'))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
@@ -36,9 +39,18 @@ class CorpusTests(unittest.TestCase):
     def test_unspecified_kinship_cannot_gain_agnatic_structure(self):
         self.change('corpus/shiji/109-assertions.json', lambda d: next(a for a in d['assertions'] if a['id'] == 'a-shiji109-010')['qualifiers'].update(kinship_structure={'lineage': 'paternal'}))
         self.assertIn('未定親屬不得補具體親等', v.validate(self.root))
+    def test_following_life_date_requires_explicit_date_paragraph(self):
+        self.change('corpus/shiji/110-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji110-wuwei')['date_context'].pop('date_paragraph_id'))
+        self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))
+    def test_following_life_date_paragraph_must_contain_expression(self):
+        self.change('corpus/shiji/110-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji110-wuwei')['date_context'].update(date_paragraph_id='c-shiji-110-xiongnu:p048'))
+        self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))
+    def test_following_life_date_paragraph_must_be_in_sequence(self):
+        self.change('corpus/shiji/110-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji110-wuwei')['date_context'].update(date_paragraph_id='c-shiji-110-xiongnu:p043'))
+        self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))
     def test_life_date_context_cannot_skip_a_paragraph(self):
         self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang')['date_context'].update(paragraph_ids=['c-shiji-109-liguang:p012', 'c-shiji-109-liguang:p014']))
-        self.assertIn('生卒紀年承接須有連續同篇段落與首段日期', v.validate(self.root))
+        self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))
     def test_life_date_context_cannot_be_implicit(self):
         self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang').pop('date_context'))
         self.assertIn('生卒日期未見於事件引句', v.validate(self.root))
