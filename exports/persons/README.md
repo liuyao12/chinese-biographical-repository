@@ -272,7 +272,7 @@
 | `AA` | 李敢女（未名） | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_AA.json) |
 | `AB` | 禹（李敢男） | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_AB.json) |
 | `B` | 當戸 | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_B.json) |
-| `BA` | 陵（當戸遺腹子） | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_BA.json) |
+| `BA` | 李陵 | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_BA.json) |
 | `C` | 椒 | [《史記・李將軍列傳》][91] | [JSON](27j_f4p_jwp_C.json) |
 
 </details>

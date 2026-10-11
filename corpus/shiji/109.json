@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；前15段47名來源候選、284處人物及未定錨點、5筆地址、10筆親屬、84筆官爵秩稱與敘事用稱及9筆死亡事件。部分紀年已換數字年；其餘5段、其他日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄；前16段47名來源候選、286處人物及未定錨點、5筆地址、10筆親屬、86筆官爵秩稱與敘事用稱及9筆死亡事件。其餘4段、其他日期與跨篇同指待標註。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
@@ -52,7 +52,8 @@
       "李廣自剄承同次出征三段暫記元狩四年前119年，六十餘不反推生年；食其當死贖為庶人不作死亡。",
       "陵只標名陵，不將李氏陵遲的陵字當人物；李廣三子列舉次序不作出生排行。",
       "遺腹子保存結構化標記，有親保存未定親屬，愛幸不自動記配偶。",
-      "李蔡廣死明年暫依李廣卒年換前118年，其他相對日期未定；去病未補外部姓氏。"
+      "李蔡廣死明年暫依李廣卒年換前118年，其他相對日期未定；去病未補外部姓氏。",
+      "第16段明記李陵全名，承接前段當戸遺腹子；使將八百騎不另作將軍官爵。"
     ]
   },
   "paragraphs": [
@@ -2735,9 +2736,28 @@
     {
       "id": "c-shiji-109-liguang:p016",
       "text": "李陵既壯，選爲建章監，監諸騎。善射，愛士卒。天子以爲李氏世將，而使將八百騎。嘗深入匈奴二千餘里，過居延視地形，無所見虜而還。拜爲騎都尉，將丹陽楚人五千人，教射酒泉、張掖以屯衞胡。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m016-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "李陵",
+          "kind": "person",
+          "person_id": "wdz_85c_o7f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m016-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "5k5_3ag_agc",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p017",
