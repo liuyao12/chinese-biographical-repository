@@ -15,6 +15,13 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_waisun_preserves_maternal_two_generations(self):
+        self.change('corpus/shiji/124-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(generation_difference=-1))
+        self.assertIn('外孫祖母關係須保留母系兩代與原句未名母親', v.validate(self.root))
+    def test_waisun_cannot_be_paternal(self):
+        self.change('corpus/shiji/124-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(lineage='paternal'))
+        self.assertIn('外孫祖母關係須保留母系兩代與原句未名母親', v.validate(self.root))
+
     def test_inheritance_rejects_unrelated_predecessor(self):
         self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(predecessor_person_id='6z2_ipx_avk'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
