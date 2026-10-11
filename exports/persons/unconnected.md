@@ -734,7 +734,6 @@
 | `5j9_f5f_48v` | 公叔妻公主 | [《史記・孫子吳起列傳》][47] | [JSON](5j9_f5f_48v.json) |
 | `5jy_q5w_acp` | 趙奢 | [《史記・陳涉世家》][30] | [JSON](5jy_q5w_acp.json) |
 | `5k2_i3p_h9m` | 桀比擬 | [《史記・蕭相國世家》][35] | [JSON](5k2_i3p_h9m.json) |
-| `5k5_3ag_agc` | 武帝 | [《史記・李將軍列傳》][91] | [JSON](5k5_3ag_agc.json) |
 | `5k7_otk_r9v` | 盤庚 | [《史記・殷本紀》][3] | [JSON](5k7_otk_r9v.json) |
 | `5k8_ms4_y3k` | 淮陰侯未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](5k8_ms4_y3k.json) |
 | `5kc_wmn_zbj` | 孫臏 | [《史記・陳涉世家》][30] | [JSON](5kc_wmn_zbj.json) |
@@ -1690,7 +1689,6 @@
 | `cqb_a3u_l7y` | 賁赫 | [《史記・黥布列傳》][73] | [JSON](cqb_a3u_l7y.json) |
 | `cqw_m1b_mk5` | 勝（陳哀公子） | [《史記・陳杞世家》][18] | [JSON](cqw_m1b_mk5.json) |
 | `cr3_n7l_ek6` | 庶長改 | [《史記・秦本紀》][5] | [JSON](cr3_n7l_ek6.json) |
-| `crq_f6o_jde` | 高帝 | [《史記・李將軍列傳》][91] | [JSON](crq_f6o_jde.json) |
 | `crw_0bp_tv7` | 晉定公 | [《史記・韓世家》][27] | [JSON](crw_0bp_tv7.json) |
 | `crw_kww_5qn` | 老子 | [《史記・仲尼弟子列傳》][49] | [JSON](crw_kww_5qn.json) |
 | `css_bys_twl` | 韓長孺 | [《史記・梁孝王世家》][40] | [JSON](css_bys_twl.json) |
@@ -3419,7 +3417,6 @@
 | `ps5_4pq_4uj` | 匈奴左賢王（未名） | [《史記・李將軍列傳》][91] | [JSON](ps5_4pq_4uj.json) |
 | `psq_hux_tku` | 監止 | [《史記・齊太公世家》][14] | [JSON](psq_hux_tku.json) |
 | `psw_5ck_539` | 項梁 | [《史記・魏豹彭越列傳》][72] | [JSON](psw_5ck_539.json) |
-| `psw_g1p_89x` | 孝文帝 | [《史記・李將軍列傳》][91] | [JSON](psw_g1p_89x.json) |
 | `ptr_yh0_izm` | 韓終 | [《史記・秦始皇本紀》][6] | [JSON](ptr_yh0_izm.json) |
 | `puc_9qz_obg` | 靳尚（楚懷王左右） | [《史記・楚世家》][22] | [JSON](puc_9qz_obg.json) |
 | `puu_6hs_m4f` | 呂不韋 | [《史記・呂不韋列傳》][67] | [JSON](puu_6hs_m4f.json) |
@@ -4417,7 +4414,6 @@
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][26] | [JSON](xcs_h9s_rgw.json) |
 | `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][15] | [JSON](xcv_pkj_crw.json) |
 | `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][49] | [JSON](xcz_sby_ker.json) |
-| `xd0_1s0_wag` | 孝景 | [《史記・李將軍列傳》][91] | [JSON](xd0_1s0_wag.json) |
 | `xd0_yc1_jd5` | 齊太史（崔杼弒君書者未名） | [《史記・齊太公世家》][14] | [JSON](xd0_yc1_jd5.json) |
 | `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][30] | [JSON](xd1_b6x_v7v.json) |
 | `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][49] | [JSON](xd1_no8_2ar.json) |
