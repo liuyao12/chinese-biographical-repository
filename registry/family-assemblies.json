@@ -1530,6 +1530,110 @@
           "interpretation_note": "本篇田蚡向淮南王安稱高祖孫，按漢宗室父系敘述暫接高祖以下第二代。未知父親保持空值，星號不是人物，不按其他淮南王稱號補父親。"
         }
       ]
+    },
+    {
+      "id": "family-tian-zanger",
+      "root_person_id": "7mz_d13_9ka",
+      "label": "田氏：臧兒後夫父系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "依外戚世家明示王仲死後臧兒更嫁田氏、生蚡勝，兩位父親分立父系。跨篇同指選用已記錄證據；母系與兄弟關係保存，不將同母異父各支併為同一父系。",
+      "members": [
+        {
+          "person_id": "7mz_d13_9ka",
+          "representative_source_person_id": "7mz_d13_9ka",
+          "source_person_ids": [
+            "7mz_d13_9ka"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "7mz_d13_9ka_A",
+          "representative_source_person_id": "7mz_d13_9ka_A",
+          "source_person_ids": [
+            "7mz_d13_9ka_A",
+            "ubk_etq_ksp"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji107-tianfen"
+          ],
+          "parent_person_id": "7mz_d13_9ka",
+          "source_assertion_id": "a-shiji049-023"
+        },
+        {
+          "person_id": "7mz_d13_9ka_B",
+          "representative_source_person_id": "7mz_d13_9ka_B",
+          "source_person_ids": [
+            "7mz_d13_9ka_B",
+            "s1l_mqa_s2c"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji107-tiansheng"
+          ],
+          "parent_person_id": "7mz_d13_9ka",
+          "source_assertion_id": "a-shiji049-024"
+        },
+        {
+          "person_id": "7mz_d13_9ka_AA",
+          "representative_source_person_id": "ubk_etq_ksp_A",
+          "source_person_ids": [
+            "ubk_etq_ksp_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7mz_d13_9ka_A",
+          "source_assertion_id": "a-shiji107-014"
+        }
+      ]
+    },
+    {
+      "id": "family-wang-zhong",
+      "root_person_id": "6d6_eg1_o3a",
+      "label": "王氏：王仲父系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "依外戚世家明示王仲死後臧兒更嫁田氏、生蚡勝，兩位父親分立父系。跨篇同指選用已記錄證據；母系與兄弟關係保存，不將同母異父各支併為同一父系。",
+      "members": [
+        {
+          "person_id": "6d6_eg1_o3a",
+          "representative_source_person_id": "6d6_eg1_o3a",
+          "source_person_ids": [
+            "6d6_eg1_o3a"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "6d6_eg1_o3a_A",
+          "representative_source_person_id": "6d6_eg1_o3a_A",
+          "source_person_ids": [
+            "6d6_eg1_o3a_A",
+            "5u3_i3p_ngq"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji107-wangtaihou"
+          ],
+          "parent_person_id": "6d6_eg1_o3a",
+          "source_assertion_id": "a-shiji049-018"
+        },
+        {
+          "person_id": "6d6_eg1_o3a_B",
+          "representative_source_person_id": "6d6_eg1_o3a_B",
+          "source_person_ids": [
+            "6d6_eg1_o3a_B",
+            "vln_1t4_rhw"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji107-gaihou"
+          ],
+          "parent_person_id": "6d6_eg1_o3a",
+          "source_assertion_id": "a-shiji049-019"
+        }
+      ]
     }
   ]
 }
