@@ -4706,7 +4706,7 @@
 | `yj4_x1h_xq0` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](yj4_x1h_xq0.json) |
 | `yj8_fds_vq5` | 驁 | [《史記・田敬仲完世家》][28] | [JSON](yj8_fds_vq5.json) |
 | `yja_c73_i8o` | 顏聚 | [《史記・趙世家》][25]、[《史記・廉頗藺相如列傳》][63] | [JSON](yja_c73_i8o.json) |
-| `yja_z0n_ujc` | 齊襄公（匈奴列傳第57段引詔） | [《史記・匈奴列傳》][92] | [JSON](yja_z0n_ujc.json) |
+| `yja_z0n_ujc` | 齊襄公（匈奴列傳第57段引詔） | [《史記・齊太公世家》][14] | [JSON](yja_z0n_ujc.json) |
 | `yjq_7u5_fd1` | 楚懷王 | [《史記・留侯世家》][37] | [JSON](yjq_7u5_fd1.json) |
 | `yjt_8w9_jgx` | 蔡兼 | [《史記・孝文本紀》][10] | [JSON](yjt_8w9_jgx.json) |
 | `yk4_ms3_oy7` | 孟嘗君（楚篇田嬰子） | [《史記・楚世家》][22] | [JSON](yk4_ms3_oy7.json) |
