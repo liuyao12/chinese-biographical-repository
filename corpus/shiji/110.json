@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前36段初標107名來源人物、460處人物及未定錨點、17筆親屬、109筆用稱、18筆死亡事件、4筆地址及35筆跨篇身份判讀。其餘25段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前38段初標108名來源人物、480處人物及未定錨點、17筆親屬、110筆用稱、19筆死亡事件、4筆地址及35筆跨篇身份判讀。其餘23段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -57,7 +57,9 @@
       "第31段四將軍及未名兩太守分辨；年份分首場、明年與元朔二年，蒙恬舊事不套年；韓安國其冬屯軍與通鑑紀序待校，樓煩與白羊王按並列王稱分兩名候選，樓煩省王字有通鑑同事件補證，不接早期同號者。第32段太子不補長子；於單接軍臣為稱謂暫讀，伊稚斜同父為另記的編輯推論，不作父親原文或同母，均保留未知排行。",
       "第33至34段保留恭友／恭異文及衛青授大將軍紀序差異；右賢王按本次連續戰事暫同指，不跨時代同號合併；六將軍與裨小王十餘人保留群體未定錨點，不憑外部平行篇補出本篇未具名者。",
       "第35段建省稱參照通鑑蘇建而未補入原文或混同石建；漢亦亡兩將軍為軍敗失將，建身脫、趙信降胡，不記為死亡。翕侯舊封無年，小王為追述；自次王新授按平行事件定年。單于姊婚趙信保留女性 ID 及相對年齡，不補子女與父母。",
-      "第36段其明年承前段末上谷之年換前121年；首虜數字與通鑑差異保留。合騎侯按平行具名同次軍役暫接公孫敖，博望侯及左賢王接李將軍列傳同次四千騎被圍記錄；當死而贖不作死亡，未補休屠王姓名。"
+      "第36段其明年承前段末上谷之年換前121年；首虜數字與通鑑差異保留。合騎侯按平行具名同次軍役暫接公孫敖，博望侯及左賢王接李將軍列傳同次四千騎被圍記錄；當死而贖不作死亡，未補休屠王姓名。",
+      "第37段兩王降漢、休屠王被渾邪王殺記前121年；欲召誅是意圖而非既成死亡。渾邪王未名，不接隴西太守渾邪；居西方不作籍貫，未把通鑑漯陰侯受封補成本篇用稱。",
+      "第38段信接趙信、青接衛青，兩將軍及單于按接續幕北軍役暫同指，記前119年；趙信城為地名未作人物。翕侯在漢謀引語中的使用不等於恢復漢爵或另授。漢謀的集體主語未補成武帝個人提及。"
     ]
   },
   "paragraphs": [
@@ -4492,16 +4494,198 @@
     {
       "id": "c-shiji-110-xiongnu:p037",
       "text": "其秋，單于怒渾邪王、休屠王居西方爲漢所殺虜數萬人，欲召誅之。渾邪王與休屠王恐，謀降漢，漢使驃騎將軍往迎之。渾邪王殺休屠王，并將其眾降漢。凡四萬餘人，號十萬。於是漢已得渾邪王，則隴西、北地、河西益少胡寇，徙關東貧民處所奪匈奴河南、新秦中以實之，而減北地以西戍卒半。其明年，匈奴入右北平、定襄各數萬騎，殺略千餘人而去。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m037-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0006",
+          "start": 6,
+          "end": 9,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "164_wmw_9ck",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0010",
+          "start": 10,
+          "end": 13,
+          "surface": "休屠王",
+          "kind": "person",
+          "person_id": "szo_tqq_qr1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0030",
+          "start": 30,
+          "end": 33,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "164_wmw_9ck",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0034",
+          "start": 34,
+          "end": 37,
+          "surface": "休屠王",
+          "kind": "person",
+          "person_id": "szo_tqq_qr1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0045",
+          "start": 45,
+          "end": 49,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "xfa_qqj_5yc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0053",
+          "start": 53,
+          "end": 56,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "164_wmw_9ck",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0057",
+          "start": 57,
+          "end": 60,
+          "surface": "休屠王",
+          "kind": "person",
+          "person_id": "szo_tqq_qr1",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m037-0083",
+          "start": 83,
+          "end": 86,
+          "surface": "渾邪王",
+          "kind": "person",
+          "person_id": "164_wmw_9ck",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p038",
       "text": "其明年春，漢謀曰「翕侯信爲單于計，居幕北，以爲漢兵不能至」。乃粟馬發十萬騎，（負）私［負］從馬凡十四萬匹，糧重不與焉。令大將軍青、驃騎將軍去病中分軍，大將軍出定襄，驃騎將軍出代，咸約絕幕擊匈奴。單于聞之，遠其輜重，以精兵待於幕北。與漢大將軍接戰一日，會暮，大風起，漢兵縱左右翼圍單于。單于自度戰不能如漢兵，單于遂獨身與壯騎數百潰漢圍西北遁走。漢兵夜追不得。行斬捕匈奴首虜萬九千級，北至闐顏山趙信城而還。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m038-0009",
+          "start": 9,
+          "end": 12,
+          "surface": "翕侯信",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0060",
+          "start": 60,
+          "end": 64,
+          "surface": "大將軍青",
+          "kind": "person",
+          "person_id": "ibw_ufz_o3f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0065",
+          "start": 65,
+          "end": 71,
+          "surface": "驃騎將軍去病",
+          "kind": "person",
+          "person_id": "xfa_qqj_5yc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0075",
+          "start": 75,
+          "end": 78,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "ibw_ufz_o3f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0082",
+          "start": 82,
+          "end": 86,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "xfa_qqj_5yc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0097",
+          "start": 97,
+          "end": 99,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0117",
+          "start": 117,
+          "end": 120,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "ibw_ufz_o3f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0139",
+          "start": 139,
+          "end": 141,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m038-0153",
+          "start": 153,
+          "end": 155,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p039",
