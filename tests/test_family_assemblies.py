@@ -48,3 +48,36 @@ class FamilyAssembliesTests(unittest.TestCase):
                 (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
                 with self.assertRaises(ValueError):
                     load_assemblies(root, catalog)
+
+    def test_grandson_joins_root_without_fabricating_a_father(self):
+        source, rows = load_assemblies(ROOT, load_catalog(ROOT))
+        an = source['2ws_c97_c69_*A']
+        self.assertEqual(an['person_id'], 'yqp_nlb_p1p_A*A')
+        self.assertEqual(an['root_person_id'], source['yqp_nlb_p1p_ACAA']['root_person_id'])
+        self.assertEqual(an['ancestor_person_id'], source['2ws_c97_c69']['person_id'])
+        self.assertIsNone(an['parent_person_id'])
+        self.assertEqual(an['intermediate_person_ids'], [None])
+        self.assertEqual(an['generation_distance'], 2)
+        self.assertNotIn('yqp_nlb_p1p_A*', rows)
+        self.assertEqual(source['0d9_tws_4v6']['person_id'], 'yqp_nlb_p1p_ACG')
+
+    def test_missing_generation_rejects_wrong_distance_or_ancestor(self):
+        original = json.loads((ROOT / 'registry/family-assemblies.json').read_text())
+        catalog = load_catalog(ROOT)
+        for alteration in ('distance', 'ancestor', 'invented_parent', 'detached'):
+            data = copy.deepcopy(original)
+            child = next(m for m in data['assemblies'][0]['members'] if 'ancestor_person_id' in m)
+            if alteration == 'distance':
+                child['generation_distance'] = 3
+            elif alteration == 'ancestor':
+                child['ancestor_person_id'] = 'yqp_nlb_p1p_AC'
+            elif alteration == 'invented_parent':
+                child['parent_person_id'] = 'yqp_nlb_p1p_AC'
+            else:
+                del child['ancestor_person_id']
+            with tempfile.TemporaryDirectory() as folder:
+                root = Path(folder)
+                (root / 'registry').mkdir()
+                (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
+                with self.assertRaises(ValueError):
+                    load_assemblies(root, catalog)

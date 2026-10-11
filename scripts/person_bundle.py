@@ -87,6 +87,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
     for holding in titles:
+        for attestation in holding.get('attestations', []):
+            paragraph_ids.update(e['paragraph_id'] for e in attestation.get('normalized_date', {}).get('evidence', []))
         for boundary in holding['effective_period'].values():
             paragraph_ids.update(e['paragraph_id'] for e in boundary['evidence'])
             paragraph_ids.update(e['paragraph_id'] for e in boundary.get('normalized_date', {}).get('evidence', []))

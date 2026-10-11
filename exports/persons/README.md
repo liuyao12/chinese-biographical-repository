@@ -6,7 +6,7 @@
 
 出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。
 
-漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。
+漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
 
 點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。舊 ID 與 JSON 入口保留為別名；索引只計現行人物。
 
@@ -2656,12 +2656,13 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（110 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（111 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 太公（漢王父稱） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p.json) |
 | `A` | 沛公（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p_A.json) |
+| `A*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](yqp_nlb_p1p_A%2AA.json) |
 | `AA` | 孝惠（本卷稱呼） | [《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AA.json) |
 | `AB` | 劉肥 | [《史記・齊悼惠王世家》][34] | [JSON](yqp_nlb_p1p_AB.json) |
 | `ABA` | 齊哀王（本卷未名） | [《史記・齊悼惠王世家》][34] | [JSON](yqp_nlb_p1p_ABA.json) |

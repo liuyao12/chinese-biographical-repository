@@ -149,3 +149,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 若本段沒有明言紀年、而由前文連續事件暫定年份，`date_expression` 為 `null`；`normalized_date.evidence` 同時列本段原句與前文紀年，理由說明承接及限制。不能因檢視到某年稱呼便把官爵起訖填入同年。換算仍為 `editorial_provisional`、年精度及未經人工覆核；只用核讀過的年對照，不默改原文月日。
 
 卷一百零七將恬在元朔三年的武安侯用稱與其春嗣爵分開；其春未定公元年，不能把元朔三年的來源使用當成繼封起點。
+
+### 家族組裝的缺代連接
+
+組裝節點可依正文的 `grandfather`、`great_grandfather` 或已知距離的 `ancestor` 關係接入同一父系。這類節點保留 `parent_person_id: null`，另存 `ancestor_person_id`、`connection`、`generation_distance`、`intermediate_person_ids` 與 `source_assertion_id`；每個未知中間世代是 `null`，ID 對應位置為 `*`，不登記虛構人物。祖先必須是本組裝中的節點，來源斷言的祖先端點須屬於該節點的來源候選，世代距離及 ID 路徑由驗證器核對。
+
+例如卷一百零七「高祖孫」的淮南王安接為 `yqp_nlb_p1p_A*A`，祖先是劉邦 `yqp_nlb_p1p_A`，父親未定。消費 JSON 的程式須讀取祖先與距離，不可把 `parent_person_id: null` 一律當作獨立家族，也不可把星號當成已知父親。

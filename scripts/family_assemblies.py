@@ -37,6 +37,21 @@ def load_assemblies(root, catalog):
             if reached != ids:
                 raise ValueError('組裝來源候選缺少同指證據')
             parent = member['parent_person_id']
+            ancestor = member.get('ancestor_person_id')
+            if ancestor is not None:
+                if parent is not None or ancestor not in rows or ancestor == pid:
+                    raise ValueError('缺代組裝祖先或父親欄位無效')
+                assertion = assertions[member['source_assertion_id']]
+                if (assertion['predicate'] != member.get('connection')
+                    or assertion['subject_person_id'] not in ids
+                    or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
+                    raise ValueError('缺代組裝祖孫端點與來源不符')
+                if family_path_errors(pid, member):
+                    raise ValueError('缺代組裝 ID 與所記世代距離不符')
+                if not member.get('interpretation_note'):
+                    raise ValueError('缺代組裝須記明未補父親的判讀')
+            elif parent is None and pid != root_id:
+                raise ValueError('非根組裝人物缺少父系連接')
             if parent is not None:
                 if parent not in rows or not pid.startswith(root_id + '_'):
                     raise ValueError('組裝父親不在同族')
