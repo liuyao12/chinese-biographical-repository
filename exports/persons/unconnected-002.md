@@ -1022,7 +1022,7 @@
 | `j17_pm7_hng` | 王子虎（命晉伯使者） | [《史記・晉世家》][21] | [JSON](j17_pm7_hng.json) |
 | `j1b_ffs_x7d` | 桓公 | [《史記・貨殖列傳》][111] | [JSON](j1b_ffs_x7d.json) |
 | `j1i_hx4_v15` | 馮亭 | [《史記・白起王翦列傳》][55] | [JSON](j1i_hx4_v15.json) |
-| `j2b_w5a_xxk` | 薄太后 | [《史記・孝文本紀》][10]、[《史記・絳侯周勃世家》][39] | [JSON](j2b_w5a_xxk.json) |
+| `j2b_w5a_xxk` | 薄太后 | [《史記・孝文本紀》][10] | [JSON](j2b_w5a_xxk.json) |
 | `j2k_9wg_9q8` | 公孫彊（曹司城） | [《史記・管蔡世家》][17] | [JSON](j2k_9wg_9q8.json) |
 | `j2w_ldj_v0t` | 鄭昭公 | [《史記・秦本紀》][5] | [JSON](j2w_ldj_v0t.json) |
 | `j2z_605_nda` | 殷周 | [《史記・酷吏列傳》][104] | [JSON](j2z_605_nda.json) |

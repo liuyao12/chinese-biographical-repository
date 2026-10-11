@@ -1729,7 +1729,7 @@
 | `a72_80l_b8r` | 穰侯（韓世家未名者） | [《史記・韓世家》][27] | [JSON](a72_80l_b8r.json) |
 | `a7c_94k_tf9` | 曹（蕭曹用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](a7c_94k_tf9.json) |
 | `a7m_05v_rds` | 綰 | [《史記・孝景本紀》][11] | [JSON](a7m_05v_rds.json) |
-| `a82_krd_hlg` | 薄太后 | [《史記・孝文本紀》][10]、[《史記・絳侯周勃世家》][39] | [JSON](a82_krd_hlg.json) |
+| `a82_krd_hlg` | 薄太后 | [《史記・孝文本紀》][10] | [JSON](a82_krd_hlg.json) |
 | `a8j_xnu_ibi` | 通（曹隱公） | [《史記・管蔡世家》][17] | [JSON](a8j_xnu_ibi.json) |
 | `a8k_u91_d8m` | 舜 | [《史記・淮南衡山列傳》][100] | [JSON](a8k_u91_d8m.json) |
 | `a8q_r4j_swi` | 武王 | [《史記・太史公自序》][112] | [JSON](a8q_r4j_swi.json) |
