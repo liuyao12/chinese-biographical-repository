@@ -393,3 +393,20 @@ class PersonBundleTests(unittest.TestCase):
         for evidence in h['attestations'][0]['normalized_date']['evidence']:
             self.assertEqual(evidence['quote'], passages[evidence['paragraph_id']]['text'])
         self.assertEqual(h['effective_period']['start']['status'], 'unknown')
+
+    def test_unresolved_dowager_is_available_without_identity_merge(self):
+        for pid in ('5u3_i3p_ngq', 'l26_mjw_rwe'):
+            result = bundle(pid, include_provisional=True)
+            case = next(c for c in result['unresolved_identity_cases'] if c['id'].startswith('u-shiji107-'))
+            self.assertEqual(set(case['candidate_person_ids']), {'5u3_i3p_ngq', 'l26_mjw_rwe'})
+            self.assertEqual(result['person_ids'], [pid])
+            passages = {p['id']: p for p in result['passages']}
+            self.assertTrue(all(p in passages for p in case['paragraph_ids']))
+            self.assertTrue(any(m['kind'] == 'unresolved' for m in passages['c-shiji-107-weiqi:p007']['mentions']))
+
+    def test_usage_date_summary_does_not_claim_accession(self):
+        result = bundle('ubk_etq_ksp_A')
+        date = next(d for d in result['date_normalizations'] if d.get('date_role') == 'attestation')
+        self.assertEqual(date['era_year'], 126)
+        self.assertNotIn('endpoint', date)
+        self.assertEqual(result['title_holdings'][0]['effective_period']['start']['date_expression'], '其春')

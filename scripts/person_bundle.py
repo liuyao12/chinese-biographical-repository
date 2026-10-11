@@ -50,6 +50,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
+    unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
     tree_decisions = [decision for record in records if record.get('record_type') == 'family_tree_decision_set'
                       for decision in record['decisions'] if ids.intersection(decision['participant_person_ids'])]
@@ -82,6 +83,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
+    paragraph_ids.update(pid for case in unresolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     for record in relations + titles + identities + addresses + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
@@ -121,6 +123,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     most_mentioned = [row['source_id'] for row in mention_summary if row['mention_count'] == maximum]
     neighbor_ids = ids | {a[k] for a in relations for k in ('subject_person_id', 'object_person_id')}
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
+    neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
@@ -130,6 +133,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'currently_annotated_mentions', 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             'reported_variants': reported_variants,
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
@@ -140,7 +144,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                     + [dict(h['effective_period'][endpoint]['normalized_date'], record_id=h['id'],
                                             person_id=h['person_id'], endpoint=endpoint, title=h['title'])
                                        for h in titles for endpoint in ('start', 'end')
-                                       if 'normalized_date' in h['effective_period'][endpoint]]),
+                                       if 'normalized_date' in h['effective_period'][endpoint]]
+                                    + [dict(a['normalized_date'], record_id=h['id'], person_id=h['person_id'],
+                                            attestation_id=a['id'], date_role='attestation', title=h['title'])
+                                       for h in titles for a in h.get('attestations', []) if 'normalized_date' in a]),
             'birth_order_constraints': [dict(a['qualifiers'][key], assertion_id=a['id'], person_id=a['subject_person_id'], evidence=a['evidence'])
                                         for a in relations for key in ('birth_order', 'relative_birth_order')
                                         if key in a.get('qualifiers', {})],
