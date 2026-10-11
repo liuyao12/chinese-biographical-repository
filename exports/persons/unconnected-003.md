@@ -6,6 +6,17 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `tsk_1dl_p70` | 孫子 | [《史記・魏世家》][26] | [JSON](tsk_1dl_p70.json) |
+| `tsu_wyg_g69` | 段（楚篇鄭伯弟） | [《史記・楚世家》][22] | [JSON](tsu_wyg_g69.json) |
+| `tt6_j7v_1k6` | 廬江王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](tt6_j7v_1k6.json) |
+| `tt9_rph_5c4` | 祿父 | [《史記・衛康叔世家》][19] | [JSON](tt9_rph_5c4.json) |
+| `ttc_nht_1ih` | 呂后 | [《史記・袁盎鼂錯列傳》][83] | [JSON](ttc_nht_1ih.json) |
+| `ttr_4h4_ofv` | 葛伯 | [《史記・殷本紀》][3] | [JSON](ttr_4h4_ofv.json) |
+| `ttt_f6l_4dk` | 齊莊公 | [《史記・齊太公世家》][14] | [JSON](ttt_f6l_4dk.json) |
+| `ttx_okj_hbd` | 桓王 | [《史記・周本紀》][4] | [JSON](ttx_okj_hbd.json) |
+| `tua_sdl_ttd` | 大將軍光 | [《史記・三王世家》][42] | [JSON](tua_sdl_ttd.json) |
+| `tuo_3kv_ptz` | 條侯（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tuo_3kv_ptz.json) |
+| `tup_apk_ufr` | 招（陳司徒） | [《史記・陳杞世家》][18] | [JSON](tup_apk_ufr.json) |
 | `tv1_g5t_723` | 男子但 | [《史記・淮南衡山列傳》][100] | [JSON](tv1_g5t_723.json) |
 | `tv3_yg5_67n` | 盧胡王（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](tv3_yg5_67n.json) |
 | `tvb_urc_goi` | 參 | [《史記・朝鮮列傳》][97] | [JSON](tvb_urc_goi.json) |
@@ -216,6 +227,7 @@
 | `v94_2qu_ypp` | 公皙哀 | [《史記・仲尼弟子列傳》][49] | [JSON](v94_2qu_ypp.json) |
 | `v9c_s4n_l8v` | 鄡單 | [《史記・仲尼弟子列傳》][49] | [JSON](v9c_s4n_l8v.json) |
 | `v9o_9nn_wtg` | 窮奇 | [《史記・五帝本紀》][1] | [JSON](v9o_9nn_wtg.json) |
+| `v9v_sk2_lbn` | 家婦（公儀休） | [《史記・循吏列傳》][101] | [JSON](v9v_sk2_lbn.json) |
 | `va0_zp5_6o9` | 昭魚 | [《史記・韓世家》][27] | [JSON](va0_zp5_6o9.json) |
 | `vaf_6kj_3ee` | 槍 | [《史記・趙世家》][25] | [JSON](vaf_6kj_3ee.json) |
 | `val_3ij_gm1` | 趙梁 | [《史記・趙世家》][25] | [JSON](val_3ij_gm1.json) |
@@ -378,6 +390,7 @@
 | `whn_5w1_i1k` | 晏平仲 | [《史記・仲尼弟子列傳》][49] | [JSON](whn_5w1_i1k.json) |
 | `whv_8wm_15e` | 孟説 | [《史記・趙世家》][25] | [JSON](whv_8wm_15e.json) |
 | `wie_ryy_5wa` | 子產 | [《史記・伍子胥列傳》][48] | [JSON](wie_ryy_5wa.json) |
+| `wir_j3b_dg1` | 市令（未名） | [《史記・循吏列傳》][101] | [JSON](wir_j3b_dg1.json) |
 | `wj3_oa7_o6b` | 杜信 | [《史記・扁鵲倉公列傳》][87] | [JSON](wj3_oa7_o6b.json) |
 | `wjf_wa5_eu9` | 彊（孝惠後宮子稱） | [《史記・呂太后本紀》][9] | [JSON](wjf_wa5_eu9.json) |
 | `wjp_1iw_3qf` | 代王嘉 | [《史記・田敬仲完世家》][28] | [JSON](wjp_1iw_3qf.json) |
@@ -888,6 +901,7 @@
 | `zx3_4gt_0uq` | 宋王（田世家出亡未名者） | [《史記・田敬仲完世家》][28] | [JSON](zx3_4gt_0uq.json) |
 | `zx8_mjk_l6m` | 張儀 | [《史記・韓世家》][27] | [JSON](zx8_mjk_l6m.json) |
 | `zxd_afr_2xg` | 黥布 | [《史記・黥布列傳》][73] | [JSON](zxd_afr_2xg.json) |
+| `zxh_yui_0xs` | 徐贄 | [《史記・循吏列傳》][101] | [JSON](zxh_yui_0xs.json) |
 | `zxi_coo_7up` | 紂引古 | [《史記・李斯列傳》][69] | [JSON](zxi_coo_7up.json) |
 | `zxu_7n3_ry9` | 宰夫（靈公所殺者未名） | [《史記・晉世家》][21] | [JSON](zxu_7n3_ry9.json) |
 | `zxv_fao_cpq` | 周市 | [《史記・陳丞相世家》][38] | [JSON](zxv_fao_cpq.json) |
@@ -995,3 +1009,4 @@
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
 [99]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
+[101]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123

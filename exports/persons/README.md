@@ -2401,6 +2401,15 @@
 
 </details>
 
+<details><summary><code>ufr_eoj_xit</code> 石奢父（未名）（循吏列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 石奢父（未名） | [《史記・循吏列傳》][101] | [JSON](ufr_eoj_xit.json) |
+| `A` | 石奢 | [《史記・循吏列傳》][101] | [JSON](ufr_eoj_xit_A.json) |
+
+</details>
+
 <details><summary><code>uj9_x5q_yir</code> 宋義（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3179,3 +3188,4 @@
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
+[101]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
