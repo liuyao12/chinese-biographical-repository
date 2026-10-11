@@ -3,6 +3,7 @@
 from pathlib import Path
 import hashlib
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
@@ -447,6 +448,28 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'reported_duration' in h:
+                    duration=h['reported_duration']
+                    valid=isinstance(duration,dict) and set(duration)=={'value','unit','source_term','source_number','counting','status','evidence'}
+                    if valid:
+                        number=duration['source_number']
+                        digits='一二三四五六七八九'
+                        parsed=None
+                        if isinstance(number,str):
+                            if number in digits and len(number)==1:parsed=digits.index(number)+1
+                            elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?',number):
+                                tens,ones=number.split('十')
+                                parsed=(digits.index(tens)+1 if tens else 1)*10+(digits.index(ones)+1 if ones else 0)
+                        valid=(duration['unit']=='regnal_year' and duration['counting']=='inclusive_regnal_years'
+                               and duration['status']=='source_attested' and type(duration['value']) is int
+                               and duration['value']==parsed and parsed is not None
+                               and isinstance(duration['source_term'],str) and number+'年' in duration['source_term']
+                               and isinstance(duration['evidence'],list) and bool(duration['evidence'])
+                               and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
+                                       and duration['source_term'] in e['quote'] for e in duration['evidence']))
+                    check(valid,'稱號來源在位年數或原詞證據無效')
+                    if valid:
+                        for e in duration['evidence']:title_evidence(e)
                 if 'jurisdictions' in h:
                     places=h['jurisdictions']
                     valid=(h['kind']=='office' and isinstance(places,list) and bool(places)
