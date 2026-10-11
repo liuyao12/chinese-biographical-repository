@@ -91,6 +91,7 @@
 | `0lb_z6g_41m` | 荀卿 | [《史記・孟子荀卿列傳》][56] | [JSON](0lb_z6g_41m.json) |
 | `0lu_9v0_ck5` | 武王引古 | [《史記・穰侯列傳》][54] | [JSON](0lu_9v0_ck5.json) |
 | `0m1_h6w_rs2` | 由引古短稱未定 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](0m1_h6w_rs2.json) |
+| `0mi_lxy_dlr` | 東胡王（匈奴列傳第7段） | [《史記・匈奴列傳》][92] | [JSON](0mi_lxy_dlr.json) |
 | `0ml_cvy_pxe` | 韓徐 | [《史記・趙世家》][25] | [JSON](0ml_cvy_pxe.json) |
 | `0n7_8en_8ji` | 趙孝成王 | [《史記・白起王翦列傳》][55] | [JSON](0n7_8en_8ji.json) |
 | `0ng_one_sdy` | 宋玉 | [《史記・屈原賈生列傳》][66] | [JSON](0ng_one_sdy.json) |
@@ -1667,6 +1668,7 @@
 | `cid_65s_8up` | 郢人 | [《史記・荊燕世家》][33] | [JSON](cid_65s_8up.json) |
 | `cij_zvk_7rn` | 秦武王后 | [《史記・秦本紀》][5] | [JSON](cij_zvk_7rn.json) |
 | `cir_0db_bfw` | 齊丞相壽 | [《史記・呂太后本紀》][9] | [JSON](cir_0db_bfw.json) |
+| `cjk_ll3_0g9` | 冒頓閼氏（匈奴列傳第7段） | [《史記・匈奴列傳》][92] | [JSON](cjk_ll3_0g9.json) |
 | `cjo_gf9_e2j` | 周類 | [《史記・樊酈滕灌列傳》][77] | [JSON](cjo_gf9_e2j.json) |
 | `cjp_mjw_yng` | 呂通 | [《史記・呂太后本紀》][9] | [JSON](cjp_mjw_yng.json) |
 | `ck6_yav_z22` | 張子卿 | [《史記・荊燕世家》][33] | [JSON](ck6_yav_z22.json) |
