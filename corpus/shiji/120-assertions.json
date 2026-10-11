@@ -1,0 +1,83 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-shiji-120-jizheng",
+  "assertions": [
+    {
+      "id": "a-shiji120-001",
+      "subject_person_id": "rc7_4i0_7tp",
+      "predicate": "brother",
+      "object_person_id": "g2z_cl6_w4r",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其弟汲仁",
+        "relative_birth_order": {
+          "older_person_id": "g2z_cl6_w4r",
+          "younger_person_id": "rc7_4i0_7tp",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "弟明示相對年幼，不補相鄰排行、同母或出生年。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji120-002",
+      "subject_person_id": "g2z_cl6_w4r_A",
+      "predicate": "father",
+      "object_person_id": "g2z_cl6_w4r",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子汲偃"
+      },
+      "interpretation_note": "承接上以黯故及其弟，子為汲黯之子；不補母親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji120-003",
+      "subject_person_id": "rm3_ef6_d55",
+      "predicate": "sister",
+      "object_person_id": "2yf_ieu_fah",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p008",
+          "quote": "大將軍青既益尊，姊為皇后，然黯與亢禮。人或說黯曰：「自天子欲群臣下大將軍，大將軍尊重益貴，君不可以不拜。」黯曰：「夫以大將軍有揖客，反不重邪？」大將軍聞，愈賢黯，數請問國家朝廷所疑，遇黯過於平生。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姊",
+        "relative_birth_order": {
+          "older_person_id": "2yf_ieu_fah",
+          "younger_person_id": "rm3_ef6_d55",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "同段將軍與姊稱謂；不補未見姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ]
+}

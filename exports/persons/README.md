@@ -1352,6 +1352,15 @@
 
 </details>
 
+<details><summary><code>g2z_cl6_w4r</code> 汲黯（汲鄭列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 汲黯 | [《史記・汲鄭列傳》][102] | [JSON](g2z_cl6_w4r.json) |
+| `A` | 汲偃 | [《史記・汲鄭列傳》][102] | [JSON](g2z_cl6_w4r_A.json) |
+
+</details>
+
 <details><summary><code>g9h_5ih_ug1</code> 伍奢（伍胥列傳候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3189,3 +3198,4 @@
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [101]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
+[102]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127
