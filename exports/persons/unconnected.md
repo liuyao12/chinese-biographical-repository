@@ -4598,6 +4598,7 @@
 | `xs7_jo2_pjd` | 燕文侯 | [《史記・蘇秦列傳》][51] | [JSON](xs7_jo2_pjd.json) |
 | `xsl_5ma_w95` | 韓太子蒼 | [《史記・秦本紀》][5] | [JSON](xsl_5ma_w95.json) |
 | `xsm_2m5_ptl` | 壽燭 | [《史記・穰侯列傳》][54] | [JSON](xsm_2m5_ptl.json) |
+| `xss_xz7_oym` | 隨但（匈奴列傳第60段） | [《史記・匈奴列傳》][92] | [JSON](xss_xz7_oym.json) |
 | `xsx_kri_47z` | 樓緩 | [《史記・陳涉世家》][30] | [JSON](xsx_kri_47z.json) |
 | `xt3_8e7_hvi` | 說秦昭王者未名 | [《史記・孟嘗君列傳》][57] | [JSON](xt3_8e7_hvi.json) |
 | `xt7_zq6_tu6` | 中丁 | [《史記・殷本紀》][3] | [JSON](xt7_zq6_tu6.json) |
@@ -4751,6 +4752,7 @@
 | `yt5_lmc_jub` | 田駢 | [《史記・孟子荀卿列傳》][56] | [JSON](yt5_lmc_jub.json) |
 | `yti_e9l_fle` | 高厚 | [《史記・齊太公世家》][14] | [JSON](yti_e9l_fle.json) |
 | `ytl_g1y_wn3` | 子嬰 | [《史記・秦始皇本紀》][6] | [JSON](ytl_g1y_wn3.json) |
+| `ytl_vvq_glw` | 左賢王（未名，與因杅敖戰者） | [《史記・匈奴列傳》][92] | [JSON](ytl_vvq_glw.json) |
 | `ytp_z6e_7yd` | 靳彊 | [《史記・項羽本紀》][7] | [JSON](ytp_z6e_7yd.json) |
 | `yu4_0gm_gje` | 武臣 | [《史記・秦始皇本紀》][6] | [JSON](yu4_0gm_gje.json) |
 | `yuo_kpg_rhg` | 閎夭 | [《史記・蕭相國世家》][35] | [JSON](yuo_kpg_rhg.json) |
