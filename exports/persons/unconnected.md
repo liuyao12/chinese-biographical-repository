@@ -466,7 +466,7 @@
 | `3gm_vdd_51h` | 呂祿女 | [《史記・外戚世家》][31] | [JSON](3gm_vdd_51h.json) |
 | `3go_52y_0mp` | 伯樂引古 | [《史記・屈原賈生列傳》][66] | [JSON](3go_52y_0mp.json) |
 | `3hy_4xq_wqu` | 定王（瑜） | [《史記・周本紀》][4] | [JSON](3hy_4xq_wqu.json) |
-| `3i1_76v_502` | 公孫賀（匈奴列傳第31至32段） | [《史記・匈奴列傳》][92] | [JSON](3i1_76v_502.json) |
+| `3i1_76v_502` | 公孫賀（匈奴列傳第31至32段） | [《史記・衛將軍驃騎列傳》][93] | [JSON](3i1_76v_502.json) |
 | `3i8_q7r_0px` | 趙王遷（燕王喜記事） | [《史記・燕召公世家》][16] | [JSON](3i8_q7r_0px.json) |
 | `3i9_kae_h9x` | 樂池 | [《史記・趙世家》][25] | [JSON](3i9_kae_h9x.json) |
 | `3id_eoz_71f` | 夏姬（御叔妻） | [《史記・陳杞世家》][18] | [JSON](3id_eoz_71f.json) |
@@ -2863,7 +2863,7 @@
 | `kvm_6zv_6ez` | 長公主 | [《史記・梁孝王世家》][40] | [JSON](kvm_6zv_6ez.json) |
 | `kw9_rxv_wx3` | 叔孫輒 | [《史記・孔子世家》][29] | [JSON](kw9_rxv_wx3.json) |
 | `kwa_ew6_bz3` | 衛桓公（楚篇弒君記事） | [《史記・楚世家》][22] | [JSON](kwa_ew6_bz3.json) |
-| `kwn_v70_fse` | 公孫賀 | [《史記・匈奴列傳》][92] | [JSON](kwn_v70_fse.json) |
+| `kwn_v70_fse` | 公孫賀 | [《史記・衛將軍驃騎列傳》][93] | [JSON](kwn_v70_fse.json) |
 | `kx9_xbq_xkd` | 繒賀 | [《史記・鄭世家》][24] | [JSON](kx9_xbq_xkd.json) |
 | `kxl_a6t_r9a` | 劇孟母未名 | [《史記・袁盎鼂錯列傳》][83] | [JSON](kxl_a6t_r9a.json) |
 | `kxp_dd5_h1g` | 程嬰 | [《史記・趙世家》][25] | [JSON](kxp_dd5_h1g.json) |
@@ -3480,6 +3480,7 @@
 | `pio_cvf_9l8` | 智伯 | [《史記・刺客列傳》][68] | [JSON](pio_cvf_9l8.json) |
 | `pjg_qbb_v5f` | 楚悼王太子 | [《史記・孫子吳起列傳》][47] | [JSON](pjg_qbb_v5f.json) |
 | `pkv_01i_t28` | 政 | [《史記・趙世家》][25] | [JSON](pkv_01i_t28.json) |
+| `pkw_s6o_eb7` | 李廣 | [《史記・李將軍列傳》][91] | [JSON](pkw_s6o_eb7.json) |
 | `pl0_60l_400` | 秦穆公（引古） | [《史記・蒙恬列傳》][70] | [JSON](pl0_60l_400.json) |
 | `pl1_jif_0x2` | 蕭公角 | [《史記・項羽本紀》][7] | [JSON](pl1_jif_0x2.json) |
 | `plo_ezo_pmk` | 貫高 | [《史記・田叔列傳》][86] | [JSON](plo_ezo_pmk.json) |
@@ -4120,7 +4121,7 @@
 | `u4n_65h_uqv` | 庶長奐 | [《史記・秦本紀》][5] | [JSON](u4n_65h_uqv.json) |
 | `u4r_ktr_4qm` | 孫子 | [《史記・田敬仲完世家》][28] | [JSON](u4r_ktr_4qm.json) |
 | `u4w_p3a_v09` | 吳起 | [《史記・孟子荀卿列傳》][56] | [JSON](u4w_p3a_v09.json) |
-| `u5s_1bi_ih9` | 公孫敖 | [《史記・衛將軍驃騎列傳》][93] | [JSON](u5s_1bi_ih9.json) |
+| `u5s_1bi_ih9` | 公孫敖 | [《史記・匈奴列傳》][92] | [JSON](u5s_1bi_ih9.json) |
 | `u5y_hy5_zv9` | 呂祿女（朱虛侯妻） | [《史記・呂太后本紀》][9] | [JSON](u5y_hy5_zv9.json) |
 | `u60_ta3_108` | 郈昭伯 | [《史記・魯周公世家》][15] | [JSON](u60_ta3_108.json) |
 | `u68_y0a_f8x` | 齊湣王 | [《史記・孟嘗君列傳》][57] | [JSON](u68_y0a_f8x.json) |
