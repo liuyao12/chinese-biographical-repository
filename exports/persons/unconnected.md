@@ -1172,6 +1172,7 @@
 | `8sq_zq4_x84` | 公孫痤 | [《史記・秦本紀》][5] | [JSON](8sq_zq4_x84.json) |
 | `8st_c0j_4fk` | 劉澤 | [《史記・齊悼惠王世家》][34] | [JSON](8st_c0j_4fk.json) |
 | `8td_4s1_hgs` | 棠公 | [《史記・齊太公世家》][14] | [JSON](8td_4s1_hgs.json) |
+| `8tg_glo_yg2` | 李廣夜行從騎（未名） | [《史記・李將軍列傳》][91] | [JSON](8tg_glo_yg2.json) |
 | `8tn_cxl_8ru` | 燕噲 | [《史記・燕召公世家》][16] | [JSON](8tn_cxl_8ru.json) |
 | `8u0_i5d_aql` | 楊武 | [《史記・項羽本紀》][7] | [JSON](8u0_i5d_aql.json) |
 | `8u1_g35_ckd` | 太史公署稱 | [《史記・魏其武安侯列傳》][89] | [JSON](8u1_g35_ckd.json) |
@@ -1368,6 +1369,7 @@
 | `ad1_fs3_e4j` | 子上（楚成王令尹） | [《史記・楚世家》][22] | [JSON](ad1_fs3_e4j.json) |
 | `adb_4so_0qm` | 韓安國 | [《史記・韓長孺列傳》][90] | [JSON](adb_4so_0qm.json) |
 | `adj_kqv_jh0` | 田祿伯 | [《史記・吳王濞列傳》][88] | [JSON](adj_kqv_jh0.json) |
+| `ae7_3p9_gx5` | 韓將軍（未名） | [《史記・李將軍列傳》][91] | [JSON](ae7_3p9_gx5.json) |
 | `aec_cp5_x6d` | 主父偃 | [《史記・齊悼惠王世家》][34] | [JSON](aec_cp5_x6d.json) |
 | `aek_yfr_e0h` | 項梁 | [《史記・黥布列傳》][73] | [JSON](aek_yfr_e0h.json) |
 | `aey_tui_wzm` | 齊太師（孔子世家未名者） | [《史記・孔子世家》][29] | [JSON](aey_tui_wzm.json) |
@@ -1440,6 +1442,7 @@
 | `b2d_qc8_y7m` | 蒯聵 | [《史記・趙世家》][25] | [JSON](b2d_qc8_y7m.json) |
 | `b2q_ckr_hyx` | 遠吏故事妻 | [《史記・蘇秦列傳》][51] | [JSON](b2q_ckr_hyx.json) |
 | `b2s_jfq_0ra` | 衛文公女弟（宋桓公夫人） | [《史記・宋微子世家》][20] | [JSON](b2s_jfq_0ra.json) |
+| `b3j_bwz_6eq` | 霸陵尉（未名） | [《史記・李將軍列傳》][91] | [JSON](b3j_bwz_6eq.json) |
 | `b41_mli_il4` | 魏太子申 | [《史記・商君列傳》][50] | [JSON](b41_mli_il4.json) |
 | `b4e_iku_zxl` | 太史公（趙世家論贊敘述者） | [《史記・趙世家》][25] | [JSON](b4e_iku_zxl.json) |
 | `b4g_yp9_37o` | 客卿灶 | [《史記・秦本紀》][5] | [JSON](b4g_yp9_37o.json) |
@@ -1660,6 +1663,7 @@
 | `cl4_p3h_bpz` | 蒙驁 | [《史記・魏公子列傳》][59] | [JSON](cl4_p3h_bpz.json) |
 | `cl5_pg2_s79` | 田都 | [《史記・項羽本紀》][7] | [JSON](cl5_pg2_s79.json) |
 | `cl7_1pf_m9j` | 韓公叔 | [《史記・樗里子甘茂列傳》][53] | [JSON](cl7_1pf_m9j.json) |
+| `cl9_dgs_geu` | 遼西太守（未名） | [《史記・李將軍列傳》][91] | [JSON](cl9_dgs_geu.json) |
 | `cld_aan_e20` | 武丁 | [《史記・殷本紀》][3] | [JSON](cld_aan_e20.json) |
 | `clj_4gu_9bw` | 韓哀（列國君主） | [《史記・秦本紀》][5]、[《史記・晉世家》][21] | [JSON](clj_4gu_9bw.json) |
 | `clw_2zf_477` | 朱建母未名 | [《史記・酈生陸賈列傳》][79] | [JSON](clw_2zf_477.json) |

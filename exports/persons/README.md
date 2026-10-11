@@ -1320,6 +1320,15 @@
 
 </details>
 
+<details><summary><code>gqv_vyi_jao</code> 故潁陰侯（未名）（李將軍列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 故潁陰侯（未名） | [《史記・李將軍列傳》][91] | [JSON](gqv_vyi_jao.json) |
+| `*A` | 故潁陰侯孫（屏字斷讀待核） | [《史記・李將軍列傳》][91] | [JSON](gqv_vyi_jao_%2AA.json) |
+
+</details>
+
 <details><summary><code>gts_42q_flu</code> 睔（鄭世家成公候選）（8 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

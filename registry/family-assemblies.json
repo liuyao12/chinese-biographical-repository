@@ -1657,6 +1657,44 @@
           "source_assertion_id": "a-shiji049-019"
         }
       ]
+    },
+    {
+      "id": "family-yingyin-shiji109",
+      "root_person_id": "gqv_vyi_jao",
+      "label": "潁陰侯祖孫：本篇未名",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "依本篇故潁陰侯孫的祖孫陳述暫作父系接合，不補侯孫姓名、缺代父親或外部世系；屏字斷讀仍待核。",
+      "members": [
+        {
+          "person_id": "gqv_vyi_jao",
+          "representative_source_person_id": "gqv_vyi_jao",
+          "source_person_ids": [
+            "gqv_vyi_jao"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "gqv_vyi_jao_*A",
+          "representative_source_person_id": "22r_9ka_d00",
+          "source_person_ids": [
+            "22r_9ka_d00"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "ancestor_person_id": "gqv_vyi_jao",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "source_assertion_id": "a-shiji109-003",
+          "interpretation_note": "暫按侯孫父系祖孫陳述接合，父親未知保持空值，星號不是人物；不補姓名或跨篇同指。"
+        }
+      ]
     }
   ]
 }
