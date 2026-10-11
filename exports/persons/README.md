@@ -338,6 +338,18 @@
 
 </details>
 
+<details><summary><code>3jf_ce1_jy2</code> 昆莫父（未名）（大宛列傳候選）（5 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 昆莫父（未名） | [《史記・大宛列傳》][105] | [JSON](3jf_ce1_jy2.json) |
+| `A` | 昆莫 | [《史記・大宛列傳》][105] | [JSON](3jf_ce1_jy2_A.json) |
+| `AA` | 大祿 | [《史記・大宛列傳》][105] | [JSON](3jf_ce1_jy2_AA.json) |
+| `AB` | 大祿兄（未名太子） | [《史記・大宛列傳》][105] | [JSON](3jf_ce1_jy2_AB.json) |
+| `ABA` | 岑娶 | [《史記・大宛列傳》][105] | [JSON](3jf_ce1_jy2_ABA.json) |
+
+</details>
+
 <details><summary><code>3oc_7gw_pl5</code> 番君（黥布列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -429,6 +441,15 @@
 |---|---|---|---|
 | `根` | 張耳 | [《史記・張耳陳餘列傳》][71] | [JSON](524_au1_97b.json) |
 | `A` | 張敖 | [《史記・張耳陳餘列傳》][71] | [JSON](524_au1_97b_A.json) |
+
+</details>
+
+<details><summary><code>531_10q_cq4</code> 張騫（大宛列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 張騫 | [《史記・大宛列傳》][105] | [JSON](531_10q_cq4.json) |
+| `A` | 張騫子（未名） | [《史記・大宛列傳》][105] | [JSON](531_10q_cq4_A.json) |
 
 </details>
 
@@ -1501,6 +1522,15 @@
 
 </details>
 
+<details><summary><code>h4f_d5f_vdl</code> 蟬封（大宛列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 蟬封 | [《史記・大宛列傳》][105] | [JSON](h4f_d5f_vdl.json) |
+| `A` | 蟬封子（入質，未名） | [《史記・大宛列傳》][105] | [JSON](h4f_d5f_vdl_A.json) |
+
+</details>
+
 <details><summary><code>h69_ln7_f94</code> 太子建（伍胥列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2503,6 +2533,15 @@
 
 </details>
 
+<details><summary><code>vgg_tso_418</code> 月氏王（被殺）（大宛列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 月氏王（被殺） | [《史記・大宛列傳》][105] | [JSON](vgg_tso_418.json) |
+| `A` | 月氏太子（繼王） | [《史記・大宛列傳》][105] | [JSON](vgg_tso_418_A.json) |
+
+</details>
+
 <details><summary><code>vna_am7_jn5</code> 韋賢（張丞相列傳候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3257,3 +3296,4 @@
 [102]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127
 [103]: https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124
+[105]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
