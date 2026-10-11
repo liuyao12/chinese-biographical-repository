@@ -1431,6 +1431,7 @@
 | `ajv_agq_es1` | 秦昭王 | [《史記・范睢蔡澤列傳》][61] | [JSON](ajv_agq_es1.json) |
 | `ajw_5lx_1mf` | 齊鮑牧 | [《史記・伍子胥列傳》][48] | [JSON](ajw_5lx_1mf.json) |
 | `al3_w9j_0ng` | 宋昌 | [《史記・孝文本紀》][10] | [JSON](al3_w9j_0ng.json) |
+| `alm_lj2_1og` | 安（長史） | [《史記・衛將軍驃騎列傳》][93] | [JSON](alm_lj2_1og.json) |
 | `alv_ted_3rj` | 司馬喜引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](alv_ted_3rj.json) |
 | `am3_2pu_fzr` | 左賢王（李敢從驃騎出征，未名） | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](am3_2pu_fzr.json) |
 | `aml_541_6lh` | 子綦（楚昭王從臣） | [《史記・楚世家》][22] | [JSON](aml_541_6lh.json) |
@@ -1709,6 +1710,7 @@
 | `ck6_yav_z22` | 張子卿 | [《史記・荊燕世家》][33] | [JSON](ck6_yav_z22.json) |
 | `ck7_0oc_r4j` | 曼成然（告初王者） | [《史記・楚世家》][22] | [JSON](ck7_0oc_r4j.json) |
 | `ck9_676_tlm` | 關其思 | [《史記・老子韓非列傳》][45] | [JSON](ck9_676_tlm.json) |
+| `cko_gcu_cua` | 周霸（議郎） | [《史記・衛將軍驃騎列傳》][93] | [JSON](cko_gcu_cua.json) |
 | `ckv_ev3_1vi` | 司馬梗 | [《史記・秦本紀》][5]、[《史記・白起王翦列傳》][55] | [JSON](ckv_ev3_1vi.json) |
 | `cl3_0w4_ya1` | 田盻子（楚篇齊臣） | [《史記・楚世家》][22] | [JSON](cl3_0w4_ya1.json) |
 | `cl4_p3h_bpz` | 蒙驁 | [《史記・魏公子列傳》][59] | [JSON](cl4_p3h_bpz.json) |
@@ -1789,6 +1791,7 @@
 | `d8k_3w1_ta8` | 鍾離眛 | [《史記・陳丞相世家》][38] | [JSON](d8k_3w1_ta8.json) |
 | `d8s_9jm_qyc` | 周王 | [《史記・張儀列傳》][52] | [JSON](d8s_9jm_qyc.json) |
 | `d8y_r3m_ivr` | 陳侯（石碏共謀記事） | [《史記・衛康叔世家》][19] | [JSON](d8y_r3m_ivr.json) |
+| `d90_jma_yp6` | 閎（罪正） | [《史記・衛將軍驃騎列傳》][93] | [JSON](d90_jma_yp6.json) |
 | `d9l_4lw_kc2` | 項梁 | [《史記・樊酈滕灌列傳》][77] | [JSON](d9l_4lw_kc2.json) |
 | `d9l_gw6_hc0` | 黃帝 | [《史記・外戚世家》][31] | [JSON](d9l_gw6_hc0.json) |
 | `d9r_fyd_lvn` | 夷姜（衛宣公夫人） | [《史記・衛康叔世家》][19] | [JSON](d9r_fyd_lvn.json) |
@@ -3747,6 +3750,7 @@
 | `rcz_7hh_455` | 熙（魯煬公） | [《史記・魯周公世家》][15] | [JSON](rcz_7hh_455.json) |
 | `rd1_5vy_m7g` | 子胥 | [《史記・越王勾踐世家》][23] | [JSON](rd1_5vy_m7g.json) |
 | `rd5_bjt_8ed` | 炎帝 | [《史記・五帝本紀》][1] | [JSON](rd5_bjt_8ed.json) |
+| `rd7_cq6_rjs` | 單于（元朔六年未名） | [《史記・匈奴列傳》][92] | [JSON](rd7_cq6_rjs.json) |
 | `rd8_kwt_5iu` | 關龍逢（引古） | [《史記・蒙恬列傳》][70] | [JSON](rd8_kwt_5iu.json) |
 | `rd8_urn_g2l` | 秦王政 | [《史記・秦始皇本紀》][6] | [JSON](rd8_urn_g2l.json) |
 | `rdw_qwe_aa0` | 丞相哙未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](rdw_qwe_aa0.json) |
@@ -4434,6 +4438,7 @@
 | `wbr_1v1_sld` | 魯哀公 | [《史記・孔子世家》][29] | [JSON](wbr_1v1_sld.json) |
 | `wbt_5vf_2pz` | 病疽卒母 | [《史記・孫子吳起列傳》][47] | [JSON](wbt_5vf_2pz.json) |
 | `wd1_1f4_qgv` | 李左車 | [《史記・淮陰侯列傳》][74] | [JSON](wd1_1f4_qgv.json) |
+| `wdc_jgr_uiu` | 趙信 | [《史記・匈奴列傳》][92] | [JSON](wdc_jgr_uiu.json) |
 | `wdg_4ld_nde` | 縣成 | [《史記・仲尼弟子列傳》][49] | [JSON](wdg_4ld_nde.json) |
 | `wdn_b4z_o7p` | 潘滿如 | [《史記・扁鵲倉公列傳》][87] | [JSON](wdn_b4z_o7p.json) |
 | `wdr_m9a_k1r` | 辛甲 | [《史記・周本紀》][4] | [JSON](wdr_m9a_k1r.json) |
