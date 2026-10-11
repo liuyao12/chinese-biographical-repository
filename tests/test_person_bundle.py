@@ -3,6 +3,12 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_huo_reported_title_years_do_not_set_tenure_end(self):
+        result = bundle('aqs_iqa_d1l', include_provisional=True)
+        holding = next(h for h in result['title_holdings'] if h.get('reported_duration', {}).get('unit') == 'title_year')
+        self.assertEqual(holding['reported_duration']['value'], 3)
+        self.assertEqual(holding['reported_duration']['source_term'], '既侯三歲')
+        self.assertEqual(holding['effective_period']['end']['status'], 'unknown')
     def test_huo_age_is_exported_without_inferred_birth(self):
         result = bundle('aqs_iqa_d1l', include_provisional=True)
         age = result['age_assertions'][0]

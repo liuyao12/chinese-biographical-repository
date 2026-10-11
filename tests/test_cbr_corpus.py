@@ -15,6 +15,9 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_title_years_cannot_be_elapsed_calendar_years(self):
+        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_year')['reported_duration'].update(counting='elapsed_calendar_years'))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
     def test_parallel_event_accepts_received_regnal_year_with_separate_quotes(self):
         data = json.loads((self.root/'corpus/shiji/111-titles.json').read_text())
         date = next(h for h in data['holdings'] if h['attestations'][0]['paragraph_id'].endswith(':p010'))['attestations'][0]['normalized_date']
