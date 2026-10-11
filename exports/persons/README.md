@@ -2360,7 +2360,7 @@
 
 </details>
 
-<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（11 名）</summary>
+<details><summary><code>wjt_htu_081</code> 頭曼（匈奴列傳）（13 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2374,6 +2374,8 @@
 | `AABAA` | 烏師廬（匈奴列傳第49段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAA.json) |
 | `AABAAA` | 兒單于之子（未名） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABAAA.json) |
 | `AABB` | 呴犁湖（匈奴列傳第53段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABB.json) |
+| `AABC` | 且鞮侯（匈奴列傳第56段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABC.json) |
+| `AABCA` | 且鞮侯之女（未名，妻李陵者） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_AABCA.json) |
 | `B` | 少子（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081_B.json) |
 
 </details>
