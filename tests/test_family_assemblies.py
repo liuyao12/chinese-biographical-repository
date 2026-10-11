@@ -19,7 +19,7 @@ class FamilyAssembliesTests(unittest.TestCase):
         self.assertEqual(che['parent_person_id'], 'yqp_nlb_p1p_ACA')
         self.assertEqual(source['byp_ks5_71a_A']['person_id'], 'yqp_nlb_p1p_AB')
         self.assertGreater(len(source), len(rows))
-        self.assertTrue(all(row['person_id'].startswith('yqp_nlb_p1p') for row in rows.values()))
+        self.assertTrue(all(row['person_id'].startswith(row['root_person_id']) for row in rows.values()))
         jiao = source['n7i_i5n_lay']
         self.assertEqual(jiao['parent_person_id'], 'yqp_nlb_p1p')
         self.assertIsNone(jiao['source_assertion_id'])
@@ -81,3 +81,14 @@ class FamilyAssembliesTests(unittest.TestCase):
                 (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
                 with self.assertRaises(ValueError):
                     load_assemblies(root, catalog)
+
+    def test_maternal_siblings_keep_separate_paternal_roots(self):
+        source, rows = load_assemblies(ROOT, load_catalog(ROOT))
+        fen, sheng, gai, queen = (source[p] for p in ('ubk_etq_ksp', 's1l_mqa_s2c', 'vln_1t4_rhw', '5u3_i3p_ngq'))
+        self.assertEqual(fen['parent_person_id'], '7mz_d13_9ka')
+        self.assertEqual(sheng['parent_person_id'], '7mz_d13_9ka')
+        self.assertEqual(gai['parent_person_id'], '6d6_eg1_o3a')
+        self.assertEqual(queen['parent_person_id'], '6d6_eg1_o3a')
+        self.assertNotEqual(fen['root_person_id'], gai['root_person_id'])
+        self.assertEqual(source['ubk_etq_ksp_A']['parent_person_id'], fen['person_id'])
+        self.assertEqual(source['ubk_etq_ksp_A']['person_id'], '7mz_d13_9ka_AA')

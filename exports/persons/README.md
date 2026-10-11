@@ -6,7 +6,7 @@
 
 出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。
 
-漢劉氏的組裝見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
+已接合父系見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。
 
 點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。舊 ID 與 JSON 入口保留為別名；索引只計現行人物。
 
@@ -640,13 +640,14 @@
 
 </details>
 
-<details><summary><code>7mz_d13_9ka</code> 田氏（外戚世家候選）（3 名）</summary>
+<details><summary><code>7mz_d13_9ka</code> 田氏（外戚世家候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 田氏 | [《史記・外戚世家》][31] | [JSON](7mz_d13_9ka.json) |
-| `A` | 田蚡 | [《史記・外戚世家》][31] | [JSON](7mz_d13_9ka_A.json) |
-| `B` | 勝 | [《史記・外戚世家》][31] | [JSON](7mz_d13_9ka_B.json) |
+| `A` | 田蚡 | [《史記・魏其武安侯列傳》][89] | [JSON](7mz_d13_9ka_A.json) |
+| `AA` | 恬（田蚡子） | [《史記・魏其武安侯列傳》][89] | [JSON](7mz_d13_9ka_AA.json) |
+| `B` | 勝 | [《史記・外戚世家》][31]、[《史記・魏其武安侯列傳》][89] | [JSON](7mz_d13_9ka_B.json) |
 
 </details>
 
@@ -2214,15 +2215,6 @@
 | `A` | 吳（陳惠公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_A.json) |
 | `AA` | 柳（陳懷公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_AA.json) |
 | `AAA` | 越（陳湣公） | [《史記・陳杞世家》][18] | [JSON](uay_2h8_ps8_AAA.json) |
-
-</details>
-
-<details><summary><code>ubk_etq_ksp</code> 田蚡（魏其武安侯列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 田蚡 | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp.json) |
-| `A` | 恬（田蚡子） | [《史記・魏其武安侯列傳》][89] | [JSON](ubk_etq_ksp_A.json) |
 
 </details>
 

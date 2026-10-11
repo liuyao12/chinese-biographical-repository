@@ -399,7 +399,9 @@ class PersonBundleTests(unittest.TestCase):
             result = bundle(pid, include_provisional=True)
             case = next(c for c in result['unresolved_identity_cases'] if c['id'].startswith('u-shiji107-'))
             self.assertEqual(set(case['candidate_person_ids']), {'5u3_i3p_ngq', 'l26_mjw_rwe'})
-            self.assertEqual(result['person_ids'], [pid])
+            self.assertIn(pid, result['person_ids'])
+            other = 'l26_mjw_rwe' if pid == '5u3_i3p_ngq' else '5u3_i3p_ngq'
+            self.assertNotIn(other, result['person_ids'])
             passages = {p['id']: p for p in result['passages']}
             self.assertTrue(all(p in passages for p in case['paragraph_ids']))
             self.assertTrue(any(m['kind'] == 'unresolved' for m in passages['c-shiji-107-weiqi:p007']['mentions']))
