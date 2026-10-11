@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前39段初標109名來源人物、490處人物及未定錨點、17筆親屬、112筆用稱、19筆死亡事件、4筆地址及35筆跨篇身份判讀。其餘22段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前41段初標110名來源人物、495處人物及未定錨點、17筆親屬、114筆用稱、19筆死亡事件、4筆地址及36筆跨篇身份判讀。其餘20段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -60,7 +60,8 @@
       "第36段其明年承前段末上谷之年換前121年；首虜數字與通鑑差異保留。合騎侯按平行具名同次軍役暫接公孫敖，博望侯及左賢王接李將軍列傳同次四千騎被圍記錄；當死而贖不作死亡，未補休屠王姓名。",
       "第37段兩王降漢、休屠王被渾邪王殺記前121年；欲召誅是意圖而非既成死亡。渾邪王未名，不接隴西太守渾邪；居西方不作籍貫，未把通鑑漯陰侯受封補成本篇用稱。",
       "第38段信接趙信、青接衛青，兩將軍及單于按接續幕北軍役暫同指，記前119年；趙信城為地名未作人物。翕侯在漢謀引語中的使用不等於恢復漢爵或另授。漢謀的集體主語未補成武帝個人提及。",
-      "第39段單于有兩個持有人，依自立、去號語法分開錨點；誤認伊稚斜死亡不作死亡事件。自立與撤號有事件及平行年證據，本篇無日數，不把通鑑十餘日改入正文或精確推十日任期。"
+      "第39段單于有兩個持有人，依自立、去號語法分開錨點；誤認伊稚斜死亡不作死亡事件。自立與撤號有事件及平行年證據，本篇無日數，不把通鑑十餘日改入正文或精確推十日任期。",
+      "第40段左賢王按幕北軍役另立並暫接李敢奪鼓旗同次候選，不逕合前121年同號王；將皆遁走為未定將領群體，未補人名。封禪不作授爵；第41段幕南王庭及漢度河置田為地理、軍政與群體敘述，未補具體人物或個人地址。"
     ]
   },
   "paragraphs": [
@@ -4789,14 +4790,60 @@
     {
       "id": "c-shiji-110-xiongnu:p040",
       "text": "漢驃騎將軍之出代二千餘里，與左賢王接戰，漢兵得胡首虜凡七萬餘級，左賢王將皆遁走。驃騎封於狼居胥山，禪姑衍，臨翰海而還。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m040-0001",
+          "start": 1,
+          "end": 5,
+          "surface": "驃騎將軍",
+          "kind": "person",
+          "person_id": "xfa_qqj_5yc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m040-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "左賢王",
+          "kind": "person",
+          "person_id": "hbv_8k8_s0g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m040-0032",
+          "start": 32,
+          "end": 35,
+          "surface": "左賢王",
+          "kind": "person",
+          "person_id": "hbv_8k8_s0g",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m040-0035",
+          "start": 35,
+          "end": 36,
+          "surface": "將",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m040-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "驃騎",
+          "kind": "person",
+          "person_id": "xfa_qqj_5yc",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p041",
       "text": "是後匈奴遠遁，而幕南無王庭。漢度河自朔方以西至令居，往往通渠置田，官吏卒五六萬人，稍蠶食，地接匈奴以北。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
       "mentions": []
     },
