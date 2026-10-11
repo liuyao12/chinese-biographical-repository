@@ -6,6 +6,23 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `fiw_di7_wro` | 伯服（襄王使者） | [《史記・周本紀》][4] | [JSON](fiw_di7_wro.json) |
+| `fj6_olv_5t0` | 相如 | [《史記・平津侯主父列傳》][94] | [JSON](fj6_olv_5t0.json) |
+| `fje_cj8_po0` | 夏説 | [《史記・張耳陳餘列傳》][71] | [JSON](fje_cj8_po0.json) |
+| `fji_le1_7p1` | 韓君俠累季父未名 | [《史記・刺客列傳》][68] | [JSON](fji_le1_7p1.json) |
+| `fjo_zh4_b7q` | 陸賈 | [《史記・酈生陸賈列傳》][79] | [JSON](fjo_zh4_b7q.json) |
+| `fks_8ov_okp` | 智伯 | [《史記・晉世家》][21] | [JSON](fks_8ov_okp.json) |
+| `fkx_pbx_7kt` | 費昌 | [《史記・秦本紀》][5] | [JSON](fkx_pbx_7kt.json) |
+| `fl4_t18_ifh` | 孤竹君 | [《史記・蘇秦列傳》][51] | [JSON](fl4_t18_ifh.json) |
+| `flg_pi3_zdp` | 侍醫遂 | [《史記・扁鵲倉公列傳》][87] | [JSON](flg_pi3_zdp.json) |
+| `flr_6dp_xgn` | 華陽引古 | [《史記・李斯列傳》][69] | [JSON](flr_6dp_xgn.json) |
+| `fm3_f8m_0vr` | 欒逞（欒書孫） | [《史記・晉世家》][21] | [JSON](fm3_f8m_0vr.json) |
+| `fmb_kx3_vmm` | 鉏麑（刺盾者） | [《史記・晉世家》][21] | [JSON](fmb_kx3_vmm.json) |
+| `fmd_j09_ef0` | 比干（引古） | [《史記・蒙恬列傳》][70] | [JSON](fmd_j09_ef0.json) |
+| `fmh_dmt_cql` | 汲黯 | [《史記・平津侯主父列傳》][94] | [JSON](fmh_dmt_cql.json) |
+| `fmk_3kl_4cb` | 宛若 | [《史記・孝武本紀》][12] | [JSON](fmk_3kl_4cb.json) |
+| `fmo_6wd_9wn` | 壽（荼異母兄） | [《史記・齊太公世家》][14] | [JSON](fmo_6wd_9wn.json) |
+| `fn4_068_lvo` | 項王 | [《史記・李斯列傳》][69] | [JSON](fn4_068_lvo.json) |
 | `fn4_s0b_4jd` | 趙王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](fn4_s0b_4jd.json) |
 | `fnb_86c_jy4` | 成安君 | [《史記・曹相國世家》][36] | [JSON](fnb_86c_jy4.json) |
 | `fnf_65y_ed5` | 烏獲 | [《史記・范睢蔡澤列傳》][61] | [JSON](fnf_65y_ed5.json) |
@@ -69,6 +86,7 @@
 | `g0p_ahe_0bb` | 閼氏未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](g0p_ahe_0bb.json) |
 | `g0r_9hy_37h` | 趙利 | [《史記・高祖本紀》][8]、[《史記・匈奴列傳》][92] | [JSON](g0r_9hy_37h.json) |
 | `g0t_7m5_3bk` | 鄧都尉 | [《史記・吳王濞列傳》][88] | [JSON](g0t_7m5_3bk.json) |
+| `g0x_vmx_2lg` | 當朝天子 | [《史記・南越列傳》][95] | [JSON](g0x_vmx_2lg.json) |
 | `g14_wpb_odv` | 荀息 | [《史記・晉世家》][21] | [JSON](g14_wpb_odv.json) |
 | `g1r_0em_2tf` | 莊周 | [《史記・老子韓非列傳》][45] | [JSON](g1r_0em_2tf.json) |
 | `g1z_pgh_00e` | 產（籍若侯） | [《史記・衛將軍驃騎列傳》][93] | [JSON](g1z_pgh_00e.json) |
@@ -218,6 +236,7 @@
 | `h15_bnp_8ii` | 張勝 | [《史記・韓信盧綰列傳》][75] | [JSON](h15_bnp_8ii.json) |
 | `h1i_f19_pf4` | 齊丞相舍人奴未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](h1i_f19_pf4.json) |
 | `h1l_7wr_80t` | 褚先生 | [《史記・田叔列傳》][86] | [JSON](h1l_7wr_80t.json) |
+| `h1o_o6t_3ru` | 居翁 | [《史記・南越列傳》][95] | [JSON](h1o_o6t_3ru.json) |
 | `h1s_x8q_27p` | 內史廖 | [《史記・秦本紀》][5] | [JSON](h1s_x8q_27p.json) |
 | `h1v_8ap_b9y` | 管仲 | [《史記・齊太公世家》][14] | [JSON](h1v_8ap_b9y.json) |
 | `h1w_580_5oa` | 張黡 | [《史記・張耳陳餘列傳》][71] | [JSON](h1w_580_5oa.json) |
@@ -257,6 +276,7 @@
 | `ha6_keq_bag` | 白起（引古） | [《史記・蒙恬列傳》][70] | [JSON](ha6_keq_bag.json) |
 | `hae_ws1_2ad` | 秦舞陽 | [《史記・刺客列傳》][68] | [JSON](hae_ws1_2ad.json) |
 | `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][26] | [JSON](hap_m8c_czz.json) |
+| `hav_xw6_5np` | 陳勝 | [《史記・南越列傳》][95] | [JSON](hav_xw6_5np.json) |
 | `hb2_xk3_z67` | 齊王姊 | [《史記・平津侯主父列傳》][94] | [JSON](hb2_xk3_z67.json) |
 | `hb5_4zq_x4c` | 田角 | [《史記・田儋列傳》][76] | [JSON](hb5_4zq_x4c.json) |
 | `hbv_8k8_s0g` | 左賢王（匈奴列傳第40段幕北軍役，未名） | [《史記・李將軍列傳》][91]、[《史記・匈奴列傳》][92] | [JSON](hbv_8k8_s0g.json) |
@@ -329,6 +349,7 @@
 | `ht8_t4d_vbc` | 陳豨 | [《史記・張丞相列傳》][78] | [JSON](ht8_t4d_vbc.json) |
 | `htd_fv4_x64` | 羿 | [《史記・仲尼弟子列傳》][49] | [JSON](htd_fv4_x64.json) |
 | `hts_3sp_0x7` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](hts_3sp_0x7.json) |
+| `hu0_8um_byp` | 吳廣 | [《史記・南越列傳》][95] | [JSON](hu0_8um_byp.json) |
 | `hu1_vru_vho` | 叔孫昭子（內昭公議事） | [《史記・魯周公世家》][15] | [JSON](hu1_vru_vho.json) |
 | `huf_d39_8pf` | 周太史儋 | [《史記・老子韓非列傳》][45] | [JSON](huf_d39_8pf.json) |
 | `huq_dao_urx` | 東陽甯君 | [《史記・高祖本紀》][8] | [JSON](huq_dao_urx.json) |
@@ -498,6 +519,7 @@
 | `iv0_705_1c6` | 呂祿女 | [《史記・齊悼惠王世家》][34] | [JSON](iv0_705_1c6.json) |
 | `iv3_1c9_df4` | 濟南王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](iv3_1c9_df4.json) |
 | `iw1_34w_8fh` | 昭侯（晉君） | [《史記・齊太公世家》][14]、[《史記・魯周公世家》][15] | [JSON](iw1_34w_8fh.json) |
+| `iw9_udd_jr2` | 下厲將軍 | [《史記・南越列傳》][95] | [JSON](iw9_udd_jr2.json) |
 | `iwp_3ea_wpr` | 呂省 | [《史記・晉世家》][21] | [JSON](iwp_3ea_wpr.json) |
 | `iwz_utl_632` | 趙夙（獻公御戎） | [《史記・晉世家》][21] | [JSON](iwz_utl_632.json) |
 | `ix4_u66_cn9` | 隨何 | [《史記・黥布列傳》][73] | [JSON](ix4_u66_cn9.json) |
@@ -559,6 +581,7 @@
 | `jex_mvs_w6d` | 許昌 | [《史記・魏其武安侯列傳》][89] | [JSON](jex_mvs_w6d.json) |
 | `jf9_key_t5m` | 楚文王（伐蔡記事） | [《史記・管蔡世家》][17] | [JSON](jf9_key_t5m.json) |
 | `jfl_hyw_13h` | 魏冉 | [《史記・孟嘗君列傳》][57] | [JSON](jfl_hyw_13h.json) |
+| `jfm_184_2yb` | 呂嘉 | [《史記・南越列傳》][95] | [JSON](jfm_184_2yb.json) |
 | `jfs_7id_f6j` | 李牧破匈奴單于未名 | [《史記・廉頗藺相如列傳》][63] | [JSON](jfs_7id_f6j.json) |
 | `jft_su5_rqv` | 魏武子（重耳五士） | [《史記・晉世家》][21] | [JSON](jft_su5_rqv.json) |
 | `jg1_ag9_033` | 老子 | [《史記・老子韓非列傳》][45] | [JSON](jg1_ag9_033.json) |
@@ -570,6 +593,7 @@
 | `jgm_x7n_bnl` | 晉昭公 | [《史記・扁鵲倉公列傳》][87] | [JSON](jgm_x7n_bnl.json) |
 | `jh5_a7h_pvv` | 王臧 | [《史記・孝武本紀》][12] | [JSON](jh5_a7h_pvv.json) |
 | `jh5_kh6_e9k` | 孟舒 | [《史記・田叔列傳》][86] | [JSON](jh5_kh6_e9k.json) |
+| `jhm_171_fem` | 劉季 | [《史記・南越列傳》][95] | [JSON](jhm_171_fem.json) |
 | `jhx_psq_ykg` | 鮑叔牙（楚篇齊桓公輔） | [《史記・管晏列傳》][44] | [JSON](jhx_psq_ykg.json) |
 | `ji8_fud_li3` | 尹翁歸 | [《史記・平津侯主父列傳》][94] | [JSON](ji8_fud_li3.json) |
 | `ji9_1mz_ffy` | 欣（塞王） | [《史記・淮陰侯列傳》][74] | [JSON](ji9_1mz_ffy.json) |
@@ -578,6 +602,7 @@
 | `jit_1ud_8if` | 薛歐 | [《史記・高祖本紀》][8] | [JSON](jit_1ud_8if.json) |
 | `jj8_r26_ani` | 主父偃 | [《史記・樂毅列傳》][62] | [JSON](jj8_r26_ani.json) |
 | `jjm_xtb_fcj` | 扈輒 | [《史記・魏豹彭越列傳》][72] | [JSON](jjm_xtb_fcj.json) |
+| `jk8_8gt_vmi` | 楊仆 | [《史記・南越列傳》][95] | [JSON](jk8_8gt_vmi.json) |
 | `jke_ad4_46c` | 夏禹 | [《史記・平津侯主父列傳》][94] | [JSON](jke_ad4_46c.json) |
 | `jki_ijf_2w1` | 高后 | [《史記・傅靳蒯成列傳》][80] | [JSON](jki_ijf_2w1.json) |
 | `jko_7a4_o8v` | 薄太后 | [《史記・楚元王世家》][32] | [JSON](jko_7a4_o8v.json) |
@@ -919,6 +944,7 @@
 | `lz2_9j4_p17` | 平原（四君稱呼） | [《史記・秦始皇本紀》][6] | [JSON](lz2_9j4_p17.json) |
 | `lzo_8qz_eqd` | 司馬翦 | [《史記・周本紀》][4] | [JSON](lzo_8qz_eqd.json) |
 | `lzo_cxh_egc` | 盜跖引古 | [《史記・李斯列傳》][69] | [JSON](lzo_cxh_egc.json) |
+| `m08_4xt_opo` | 蘇弘 | [《史記・南越列傳》][95] | [JSON](m08_4xt_opo.json) |
 | `m0d_n8x_pj8` | 趙同 | [《史記・季布欒布列傳》][82] | [JSON](m0d_n8x_pj8.json) |
 | `m0l_71n_b8f` | 仲姬（牙母） | [《史記・齊太公世家》][14] | [JSON](m0l_71n_b8f.json) |
 | `m0s_giw_1h6` | 衛先生引古未定 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](m0s_giw_1h6.json) |
@@ -957,6 +983,7 @@
 | `mb1_jy6_k0x` | 周亞夫 | [《史記・張釋之馮唐列傳》][84] | [JSON](mb1_jy6_k0x.json) |
 | `mbg_5br_536` | 景駒 | [《史記・平津侯主父列傳》][94] | [JSON](mbg_5br_536.json) |
 | `mc2_05b_5i5` | 晏子御者 | [《史記・管晏列傳》][44] | [JSON](mc2_05b_5i5.json) |
+| `mc3_mrl_iii` | 魏臣 | [《史記・南越列傳》][95] | [JSON](mc3_mrl_iii.json) |
 | `mc5_j8c_0oc` | 子輿 | [《史記・趙世家》][25] | [JSON](mc5_j8c_0oc.json) |
 | `mc8_pmt_w8i` | 漆雕哆 | [《史記・仲尼弟子列傳》][49] | [JSON](mc8_pmt_w8i.json) |
 | `mcm_2ok_nqa` | 崔杼 | [《史記・范睢蔡澤列傳》][61] | [JSON](mcm_2ok_nqa.json) |
@@ -1160,6 +1187,7 @@
 | `nsd_1cz_aqr` | 項羽 | [《史記・蕭相國世家》][35] | [JSON](nsd_1cz_aqr.json) |
 | `nsr_p2m_2gw` | 鄭布 | [《史記・陳涉世家》][30] | [JSON](nsr_p2m_2gw.json) |
 | `nt2_g7q_7db` | 內史肆 | [《史記・秦始皇本紀》][6] | [JSON](nt2_g7q_7db.json) |
+| `ntz_hml_tl6` | 二世 | [《史記・南越列傳》][95] | [JSON](ntz_hml_tl6.json) |
 | `nu2_ttq_hq0` | 華元御者（宋篇羊羹讀法未定） | [《史記・宋微子世家》][20] | [JSON](nu2_ttq_hq0.json) |
 | `nu4_0wz_9o2` | 宮之奇（虞諫臣） | [《史記・晉世家》][21] | [JSON](nu4_0wz_9o2.json) |
 | `nu5_o75_tzs` | 仲尼 | [《史記・孔子世家》][29] | [JSON](nu5_o75_tzs.json) |
@@ -1205,6 +1233,7 @@
 | `o62_y1u_i8r` | 朱英（匈奴列傳第33至34段） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](o62_y1u_i8r.json) |
 | `o67_lsk_1vy` | 宦者平 | [《史記・扁鵲倉公列傳》][87] | [JSON](o67_lsk_1vy.json) |
 | `o6h_ba5_gno` | 張羽 | [《史記・韓長孺列傳》][90] | [JSON](o6h_ba5_gno.json) |
+| `o6s_s07_5s6` | 莊參 | [《史記・南越列傳》][95] | [JSON](o6s_s07_5s6.json) |
 | `o6u_xnt_ls1` | 樂毅 | [《史記・田敬仲完世家》][28] | [JSON](o6u_xnt_ls1.json) |
 | `o77_eec_0oy` | 姜原 | [《史記・周本紀》][4] | [JSON](o77_eec_0oy.json) |
 | `o7b_uyb_qu9` | 淖齒 | [《史記・范睢蔡澤列傳》][61] | [JSON](o7b_uyb_qu9.json) |
@@ -1302,6 +1331,7 @@
 | `ovw_5og_8au` | 伯服 | [《史記・鄭世家》][24] | [JSON](ovw_5og_8au.json) |
 | `ow0_2qg_73y` | 李園女弟未名 | [《史記・春申君列傳》][60] | [JSON](ow0_2qg_73y.json) |
 | `ow4_qy6_bx5` | 樓緩 | [《史記・平原君虞卿列傳》][58] | [JSON](ow4_qy6_bx5.json) |
+| `ow5_ebp_tr8` | 高后 | [《史記・南越列傳》][95] | [JSON](ow5_ebp_tr8.json) |
 | `owc_ejf_uzp` | 紂比擬 | [《史記・蕭相國世家》][35] | [JSON](owc_ejf_uzp.json) |
 | `owj_whw_zzm` | 禹（孔子世家會稽傳說） | [《史記・孔子世家》][29] | [JSON](owj_whw_zzm.json) |
 | `own_mt9_gtl` | 芒卯 | [《史記・魏世家》][26] | [JSON](own_mt9_gtl.json) |
@@ -1617,7 +1647,7 @@
 | `r2g_xfm_3ml` | 紂（引古） | [《史記・蒙恬列傳》][70] | [JSON](r2g_xfm_3ml.json) |
 | `r2q_zyo_47q` | 紂 | [《史記・孫子吳起列傳》][47] | [JSON](r2q_zyo_47q.json) |
 | `r2r_byo_ezj` | 孔悝 | [《史記・仲尼弟子列傳》][49] | [JSON](r2r_byo_ezj.json) |
-| `r3c_eue_cqn` | 尉他 | [《史記・酈生陸賈列傳》][79] | [JSON](r3c_eue_cqn.json) |
+| `r3c_eue_cqn` | 尉他 | [《史記・南越列傳》][95] | [JSON](r3c_eue_cqn.json) |
 | `r41_u40_cul` | 少兒 | [《史記・外戚世家》][31]、[《史記・衛將軍驃騎列傳》][93] | [JSON](r41_u40_cul.json) |
 | `r42_dd9_xyv` | 趙午 | [《史記・張耳陳餘列傳》][71] | [JSON](r42_dd9_xyv.json) |
 | `r4c_ov4_t08` | 公西輿如 | [《史記・仲尼弟子列傳》][49] | [JSON](r4c_ov4_t08.json) |
@@ -2048,6 +2078,7 @@
 | `tzq_88y_69k` | 衛長公主 | [《史記・孝武本紀》][12] | [JSON](tzq_88y_69k.json) |
 | `tzz_9l9_f83` | 王容 | [《史記・趙世家》][25] | [JSON](tzz_9l9_f83.json) |
 | `u1j_dr2_488` | 潘尪（楚入鄭盟者） | [《史記・楚世家》][22] | [JSON](u1j_dr2_488.json) |
+| `u20_r6q_88g` | 安國少季 | [《史記・南越列傳》][95] | [JSON](u20_r6q_88g.json) |
 | `u23_jpf_vfr` | 秦始皇帝 | [《史記・范睢蔡澤列傳》][61] | [JSON](u23_jpf_vfr.json) |
 | `u25_mhc_xap` | 楊喜 | [《史記・項羽本紀》][7] | [JSON](u25_mhc_xap.json) |
 | `u2c_fe5_16n` | 唐勒 | [《史記・屈原賈生列傳》][66] | [JSON](u2c_fe5_16n.json) |
@@ -2087,6 +2118,7 @@
 | `uau_p7f_yfa` | 田常引古 | [《史記・李斯列傳》][69] | [JSON](uau_p7f_yfa.json) |
 | `ub0_76o_vp6` | 薦髡客未名 | [《史記・孟子荀卿列傳》][56] | [JSON](ub0_76o_vp6.json) |
 | `ub3_cl2_ez9` | 蔡澤御者未名 | [《史記・范睢蔡澤列傳》][61] | [JSON](ub3_cl2_ez9.json) |
+| `ub3_zen_skw` | 餘善 | [《史記・南越列傳》][95] | [JSON](ub3_zen_skw.json) |
 | `ub5_3z9_j2d` | 桀 | [《史記・外戚世家》][31] | [JSON](ub5_3z9_j2d.json) |
 | `ubr_cow_lxx` | 申豐（內昭公議事） | [《史記・魯周公世家》][15] | [JSON](ubr_cow_lxx.json) |
 | `ubt_idy_jr8` | 公劉 | [《史記・周本紀》][4] | [JSON](ubt_idy_jr8.json) |
@@ -2192,36 +2224,6 @@
 | `v0m_yso_2h1` | 趙堯 | [《史記・韓信盧綰列傳》][75] | [JSON](v0m_yso_2h1.json) |
 | `v0s_cot_5c5` | 田閒 | [《史記・田儋列傳》][76] | [JSON](v0s_cot_5c5.json) |
 | `v0z_zyj_fu7` | 王后未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](v0z_zyj_fu7.json) |
-| `v11_x4e_ll7` | 商容引古 | [《史記・樂毅列傳》][62] | [JSON](v11_x4e_ll7.json) |
-| `v14_tbx_p17` | 侯公 | [《史記・秦始皇本紀》][6] | [JSON](v14_tbx_p17.json) |
-| `v1j_kao_7o7` | 熙（宋煬公） | [《史記・宋微子世家》][20] | [JSON](v1j_kao_7o7.json) |
-| `v1k_73q_gbp` | 尹更始 | [《史記・平津侯主父列傳》][94] | [JSON](v1k_73q_gbp.json) |
-| `v2f_t9q_ipy` | 末次出征單于（未名） | [《史記・李將軍列傳》][91] | [JSON](v2f_t9q_ipy.json) |
-| `v2h_v2x_1au` | 國惠子 | [《史記・田敬仲完世家》][28] | [JSON](v2h_v2x_1au.json) |
-| `v2q_x8x_vdu` | 德侯子 | [《史記・楚元王世家》][32] | [JSON](v2q_x8x_vdu.json) |
-| `v35_hyj_z4u` | 高傒 | [《史記・齊太公世家》][14] | [JSON](v35_hyj_z4u.json) |
-| `v3e_767_ofn` | 蘇秦（楚篇約從者） | [《史記・楚世家》][22] | [JSON](v3e_767_ofn.json) |
-| `v3p_uo6_w9s` | 蔡女（田世家厲公妻未名者） | [《史記・田敬仲完世家》][28] | [JSON](v3p_uo6_w9s.json) |
-| `v3z_8l6_18t` | 公孫頎 | [《史記・魏世家》][26] | [JSON](v3z_8l6_18t.json) |
-| `v41_yc5_b1j` | 齊王（魏世家甄會未名者） | [《史記・魏世家》][26] | [JSON](v41_yc5_b1j.json) |
-| `v4i_ole_ea2` | 陳涉 | [《史記・留侯世家》][37] | [JSON](v4i_ole_ea2.json) |
-| `v4l_7vt_hsb` | 公孫詭 | [《史記・梁孝王世家》][40]、[《史記・韓長孺列傳》][90] | [JSON](v4l_7vt_hsb.json) |
-| `v4m_7yp_xr3` | 楊熊 | [《史記・高祖本紀》][8] | [JSON](v4m_7yp_xr3.json) |
-| `v4x_3qx_dy7` | 弓高侯穨當 | [《史記・吳王濞列傳》][88] | [JSON](v4x_3qx_dy7.json) |
-| `v58_qtu_ger` | 齊景公 | [《史記・伍子胥列傳》][48] | [JSON](v58_qtu_ger.json) |
-| `v5p_vbx_b25` | 魯君（孔子世家適周未名者） | [《史記・孔子世家》][29] | [JSON](v5p_vbx_b25.json) |
-| `v5q_7pq_o70` | 嘉（江都丞相） | [《史記・孝景本紀》][11] | [JSON](v5q_7pq_o70.json) |
-| `v64_zpv_387` | 鄭靈公 | [《史記・鄭世家》][24] | [JSON](v64_zpv_387.json) |
-| `v6g_qb4_d96` | 華陽太后 | [《史記・秦始皇本紀》][6] | [JSON](v6g_qb4_d96.json) |
-| `v6j_2xb_7i5` | 不窋 | [《史記・周本紀》][4] | [JSON](v6j_2xb_7i5.json) |
-| `v6t_g69_7z5` | 夫差引古 | [《史記・屈原賈生列傳》][66] | [JSON](v6t_g69_7z5.json) |
-| `v6z_ixw_j69` | 周天子 | [《史記・蘇秦列傳》][51] | [JSON](v6z_ixw_j69.json) |
-| `v72_15y_ze8` | 趙何 | [《史記・趙世家》][25] | [JSON](v72_15y_ze8.json) |
-| `v7p_b12_9nv` | 冉季 | [《史記・仲尼弟子列傳》][49] | [JSON](v7p_b12_9nv.json) |
-| `v7s_dh4_n43` | 子良 | [《史記・穰侯列傳》][54] | [JSON](v7s_dh4_n43.json) |
-| `v7t_9j0_gec` | 白起 | [《史記・白起王翦列傳》][55] | [JSON](v7t_9j0_gec.json) |
-| `v89_58y_qe2` | 燕太子丹 | [《史記・刺客列傳》][68] | [JSON](v89_58y_qe2.json) |
-| `v8l_ue6_un4` | 弦高 | [《史記・秦本紀》][5]、[《史記・晉世家》][21] | [JSON](v8l_ue6_un4.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
@@ -2317,3 +2319,4 @@
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
+[95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
