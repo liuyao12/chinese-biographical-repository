@@ -279,9 +279,17 @@ class PersonBundleTests(unittest.TestCase):
         self.assertIn('[獨立人物索引](unconnected.md)', family_text)
         single_text = (folder / 'unconnected.md').read_text()
         self.assertIn('[可展開家族索引](README.md)', single_text)
-        for page in (family_text, single_text):
+        pages = index['reading_indexes']['family_pages'] + index['reading_indexes']['unconnected_pages']
+        self.assertEqual(pages[0], 'README.md')
+        self.assertEqual(index['reading_indexes']['unconnected_pages'][0], 'unconnected.md')
+        self.assertEqual(len(pages), len(set(pages)))
+        page_texts = [(folder / filename).read_text() for filename in pages]
+        for page in page_texts:
             self.assertLess(len(page.encode('utf-8')), 500_000)
-        text = family_text + '\n' + single_text
+            source_refs = set(re.findall(r'\[《[^]]+》\]\[(\d+)\]', page))
+            definitions = set(re.findall(r'^\[(\d+)\]: https://', page, re.M))
+            self.assertTrue(source_refs.issubset(definitions))
+        text = '\n'.join(page_texts)
         from urllib.parse import unquote
         table_ids = [unquote(filename) for filename in re.findall(r'\[JSON\]\(([^)]+)\.json\)', text)]
         self.assertEqual(set(table_ids), set(ids))
@@ -293,6 +301,31 @@ class PersonBundleTests(unittest.TestCase):
         definitions = set(re.findall(r'^\[(\d+)\]: https://', text, re.M))
         self.assertTrue(source_refs)
         self.assertTrue(source_refs.issubset(definitions))
+
+    def test_reading_pagination_preserves_multibyte_rows_sources_and_removes_stale_pages(self):
+        import tempfile
+        from pathlib import Path
+        from scripts.export_person_bundles import table_blocks, write_reading_pages
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            rows = [f'| `test_{i}` | 測試人物 | [《測試來源》][1] | [JSON](test_{i}.json) |' for i in range(7000)]
+            references = ['[1]: https://example.org/source', '[2]: https://example.org/unused']
+            pages = write_reading_pages(folder, 'unconnected.md', 'unconnected', '# 測試', '合成人物，並非史料。', table_blocks(rows), references)
+            self.assertGreater(len(pages), 1)
+            text = '\n'.join((folder / filename).read_text() for filename in pages)
+            for row in rows:
+                self.assertEqual(text.count(row + '\n'), 1)
+            for filename in pages:
+                page = (folder / filename).read_text()
+                self.assertLess(len(page.encode('utf-8')), 500_000)
+                self.assertIn('[1]: https://example.org/source', page)
+                self.assertNotIn('[2]: https://example.org/unused', page)
+                for other in pages:
+                    self.assertIn(f']({other})', page)
+            (folder / 'unconnected-notes.md').write_text('保留手寫檔案')
+            write_reading_pages(folder, 'unconnected.md', 'unconnected', '# 測試', '', table_blocks(rows[:1]), references)
+            self.assertTrue((folder / 'unconnected-notes.md').exists())
+            self.assertTrue(all(not (folder / filename).exists() for filename in pages[1:]))
 
     def test_preferred_tree_selects_zhaozis_son_without_discarding_other_sources(self):
         from scripts.person_bundle import load_catalog

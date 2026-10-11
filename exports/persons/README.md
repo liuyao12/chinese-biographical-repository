@@ -14,6 +14,9 @@
 
 ## 可展開家族
 
+
+[第1頁](README.md)
+
 <details><summary><code>04f_hzf_n06</code> 陳平（陳丞相世家候選）（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2919,9 +2922,6 @@
 
 </details>
 
-
-[1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
-[2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286
@@ -2965,17 +2965,13 @@
 [43]: https://zh.wikisource.org/w/index.php?title=史記/卷061&oldid=2621133
 [44]: https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600
 [45]: https://zh.wikisource.org/w/index.php?title=史記/卷063&oldid=7903601
-[46]: https://zh.wikisource.org/w/index.php?title=史記/卷064&oldid=7895410
 [47]: https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048
 [48]: https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138
 [49]: https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003
 [50]: https://zh.wikisource.org/w/index.php?title=史記/卷068&oldid=8764712
 [51]: https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145
-[52]: https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148
 [53]: https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152
-[54]: https://zh.wikisource.org/w/index.php?title=史記/卷072&oldid=367921
 [55]: https://zh.wikisource.org/w/index.php?title=史記/卷073&oldid=7909285
-[56]: https://zh.wikisource.org/w/index.php?title=史記/卷074&oldid=7908177
 [57]: https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692
 [58]: https://zh.wikisource.org/w/index.php?title=史記/卷076&oldid=7909284
 [59]: https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917
@@ -2991,9 +2987,7 @@
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
 [70]: https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690
 [71]: https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143
-[72]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
-[74]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147
 [75]: https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019
 [76]: https://zh.wikisource.org/w/index.php?title=史記/卷094&oldid=2171897
 [77]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
@@ -3009,7 +3003,6 @@
 [87]: https://zh.wikisource.org/w/index.php?title=史記/卷105&oldid=8842726
 [88]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
 [89]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571
-[90]: https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
