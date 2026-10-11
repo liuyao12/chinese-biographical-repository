@@ -1363,6 +1363,7 @@
 | `9ud_33t_j5m` | 齊王書信 | [《史記・蘇秦列傳》][51] | [JSON](9ud_33t_j5m.json) |
 | `9ui_6ki_31p` | 留侯未詳名 | [《史記・留侯世家》][37] | [JSON](9ui_6ki_31p.json) |
 | `9ul_wlf_q1k` | 呂祿 | [《史記・張丞相列傳》][78] | [JSON](9ul_wlf_q1k.json) |
+| `9um_vof_y9n` | 郭昌 | [《史記・衛將軍驃騎列傳》][93] | [JSON](9um_vof_y9n.json) |
 | `9uw_tzo_yj8` | 悼公 | [《史記・伍子胥列傳》][48] | [JSON](9uw_tzo_yj8.json) |
 | `9v3_xea_50v` | 長公主 | [《史記・孝景本紀》][11] | [JSON](9v3_xea_50v.json) |
 | `9v8_tr9_ikg` | 郤芮 | [《史記・晉世家》][21] | [JSON](9v8_tr9_ikg.json) |
@@ -1501,6 +1502,7 @@
 | `b2s_jfq_0ra` | 衛文公女弟（宋桓公夫人） | [《史記・宋微子世家》][20] | [JSON](b2s_jfq_0ra.json) |
 | `b3j_bwz_6eq` | 霸陵尉（未名） | [《史記・李將軍列傳》][91] | [JSON](b3j_bwz_6eq.json) |
 | `b41_mli_il4` | 魏太子申 | [《史記・商君列傳》][50] | [JSON](b41_mli_il4.json) |
+| `b41_pr2_9mb` | 荀彘 | [《史記・衛將軍驃騎列傳》][93] | [JSON](b41_pr2_9mb.json) |
 | `b4e_iku_zxl` | 太史公（趙世家論贊敘述者） | [《史記・趙世家》][25] | [JSON](b4e_iku_zxl.json) |
 | `b4g_yp9_37o` | 客卿灶 | [《史記・秦本紀》][5] | [JSON](b4g_yp9_37o.json) |
 | `b4l_2ug_qy3` | 欒大 | [《史記・孝武本紀》][12] | [JSON](b4l_2ug_qy3.json) |
@@ -2220,9 +2222,6 @@
 | `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][47] | [JSON](fy2_9h4_gdt.json) |
 | `fy7_290_36y` | 呂后 | [《史記・呂太后本紀》][9] | [JSON](fy7_290_36y.json) |
 | `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][6] | [JSON](fyf_enn_4w8.json) |
-| `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
-| `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
-| `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首三十八段姓名初標96名來源候選，第34至38段籍貫、葬地、用稱及死亡原句已補，任官紀年及曹參孫的世代距離續核；其餘段落未標註。",
+    "coverage": "全48段轉錄；首四十一段姓名初標100名來源候選；第39至41段17筆新增用稱、兩筆籍貫、兩筆死亡及庶孫祖先原句已保存，數字紀年與身份續核，其餘段落未標註。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -68,7 +68,10 @@
       "第26至33段新增42筆用稱；馬邑賀輕車與息材官暫前133年，賀丞相及葛繹侯暫前103年，敖因杅築受降城暫前104年，均據通鑑同人同事而非連算後幾歲。賀卒暫前91年、蔡卒暫前118年，敖卒未定，詐死不作死亡。其餘相對紀年與失侯終年仍待對讀。",
       "第34段亡翕侯承前文趙信降匈奴，不作趙信死亡。蘇建杜陵人及冢在大猶鄉分存，不推出生地、代郡死亡地或現代位置。後四歲游擊任官與先前軍役紀年需逐項對讀，不串算。",
       "第35至38段：武帝立十七歲的趙信軍役與前段定襄敘事需核紀年，不按同單于字造新王。曹參孫暫存祖先後裔，不默定兩代；張騫漢中為冢所在地，烏孫不是已知死亡地。",
-      "蘇建游擊、右將軍同軍役暫依通鑑元朔五年前124年、六年前123年，不按後四歲累加。曹參孫與曹世家四代後裔序列對讀，保留廣義祖先關係，不定兩代；跨篇身份組裝續核。"
+      "蘇建游擊、右將軍同軍役暫依通鑑元朔五年前124年、六年前123年，不按後四歲累加。曹參孫與曹世家四代後裔序列對讀，保留廣義祖先關係，不定兩代；跨篇身份組裝續核。",
+      "第39至41段：弓高侯庶孫保存爵稱祖先候選，所指人物、庶孫世代及系出待核，不補父親。衛太子與太子宮暫同段同指，跨篇身份待核。樓船將軍留未解錨點，郭昌奪印不作死亡；韓說與荀彘卒年不以最近任官年充填。",
+      "第39至40段明示年號換算：元鼎六年暫前111年、太初三年暫前102年、元封四年暫前107年；原句及年標分層保存，未用最近任官年補死亡年。元封三年及兩人卒年另續核。",
+      "韓說死亡暫依通鑑征和二年前91年、荀彘死亡依元封三年前108年，僅年精度。荀彘左將軍依本篇元封三年換算108，通鑑二年已述出征的差另存，不強改原文或以卒年推授任。"
     ],
     "age_assertions": [
       {
@@ -5903,23 +5906,116 @@
     {
       "id": "c-shiji-111-wei-huo:p039",
       "text": "將軍韓說，弓高侯庶孫也。以校尉從大將軍有功，為龍頟侯，坐酎金失侯。元鼎六年，以待詔為橫海將軍，擊東越有功，為按道侯。以太初三年為游擊將軍，屯於五原外列城。為光祿勳，掘蠱太子宮，衛太子殺之。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m039-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "韓說",
+          "kind": "person",
+          "person_id": "3u0_w7q_w9q",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m039-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "弓高侯",
+          "kind": "person",
+          "person_id": "rbh_rw8_8se",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m039-0016",
+          "start": 16,
+          "end": 19,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m039-0084",
+          "start": 84,
+          "end": 86,
+          "surface": "太子",
+          "kind": "person",
+          "person_id": "t49_dd6_smz",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m039-0088",
+          "start": 88,
+          "end": 91,
+          "surface": "衛太子",
+          "kind": "person",
+          "person_id": "t49_dd6_smz",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p040",
       "text": "將軍郭昌，雲中人也。以校尉從大將軍。元封四年，以太中大夫為拔胡將軍，屯朔方。還擊昆明，毋功，奪印。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m040-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "郭昌",
+          "kind": "person",
+          "person_id": "9um_vof_y9n",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m040-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p041",
       "text": "將軍荀彘，太原廣武人。以御見，侍中，為校尉，數從大將軍。以元封三年為左將軍擊朝鮮，毋功。以捕樓船將軍坐法死。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m041-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "荀彘",
+          "kind": "person",
+          "person_id": "b41_pr2_9mb",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m041-0024",
+          "start": 24,
+          "end": 27,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m041-0046",
+          "start": 46,
+          "end": 50,
+          "surface": "樓船將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p042",
