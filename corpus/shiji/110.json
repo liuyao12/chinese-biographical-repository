@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前34段初標100名來源人物、428處人物及未定錨點、15筆親屬、96筆用稱、18筆死亡事件、4筆地址及32筆跨篇身份判讀。其餘27段、官爵時段與其他同指待核。",
+    "coverage": "全61段轉錄；前35段初標103名來源人物、444處人物及未定錨點、17筆親屬、101筆用稱、18筆死亡事件、4筆地址及32筆跨篇身份判讀。其餘26段、官爵時段與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -55,7 +55,8 @@
       "第28段軍臣入寇、文帝崩及景帝立分事件換年；趙王遂與本紀同指，景帝及遂接入既有漢劉氏組裝。六將軍群體、公主及使人未定，不從通鑑補本篇未名漢將；孝字用稱不作即位授號。",
       "第29至30段今帝暫接武帝；馬邑具名人物與單于對讀韓長孺列傳，保留斬恢／自殺、元光元年／通鑑二年及兵數、護軍差異。尉史未補姓名，天王為單于授號，聶翁壹保存馬邑出身。",
       "第31段四將軍及未名兩太守分辨；年份分首場、明年與元朔二年，蒙恬舊事不套年；韓安國其冬屯軍與通鑑紀序待校，樓煩與白羊王按並列王稱分兩名候選，樓煩省王字有通鑑同事件補證，不接早期同號者。第32段太子不補長子；於單接軍臣為稱謂暫讀，伊稚斜同父為另記的編輯推論，不作父親原文或同母，均保留未知排行。",
-      "第33至34段保留恭友／恭異文及衛青授大將軍紀序差異；右賢王按本次連續戰事暫同指，不跨時代同號合併；六將軍與裨小王十餘人保留群體未定錨點，不憑外部平行篇補出本篇未具名者。"
+      "第33至34段保留恭友／恭異文及衛青授大將軍紀序差異；右賢王按本次連續戰事暫同指，不跨時代同號合併；六將軍與裨小王十餘人保留群體未定錨點，不憑外部平行篇補出本篇未具名者。",
+      "第35段建省稱參照通鑑蘇建而未補入原文或混同石建；漢亦亡兩將軍為軍敗失將，建身脫、趙信降胡，不記為死亡。翕侯舊封無年，小王為追述；自次王新授按平行事件定年。單于姊婚趙信保留女性 ID 及相對年齡，不補子女與父母。"
     ]
   },
   "paragraphs": [
@@ -4186,9 +4187,154 @@
     {
       "id": "c-shiji-110-xiongnu:p035",
       "text": "其明年春，漢復遣大將軍衛青將六將軍，兵十餘萬騎，乃再出定襄數百里擊匈奴，得首虜前後凡萬九千餘級，而漢亦亡兩將軍，軍三千餘騎。右將軍建得以身脫，而前將軍翕侯趙信兵不利，降匈奴。趙信者，故胡小王，降漢，漢封爲翕侯，以前將軍與右將軍并軍分行，獨遇單于兵，故盡沒。單于既得翕侯，以爲自次王，用其姊妻之，與謀漢。信教單于益北絕幕，以誘罷漢兵，徼極而取之，無近塞。單于從其計。其明年，胡騎萬人入上谷，殺數百人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m035-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "衛青",
+          "kind": "person",
+          "person_id": "ibw_ufz_o3f",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0014",
+          "start": 14,
+          "end": 17,
+          "surface": "六將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0052",
+          "start": 52,
+          "end": 55,
+          "surface": "兩將軍",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0062",
+          "start": 62,
+          "end": 66,
+          "surface": "右將軍建",
+          "kind": "person",
+          "person_id": "0nh_j0e_l31",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "翕侯",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0077",
+          "start": 77,
+          "end": 79,
+          "surface": "趙信",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0087",
+          "start": 87,
+          "end": 89,
+          "surface": "趙信",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0102",
+          "start": 102,
+          "end": 104,
+          "surface": "翕侯",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0110",
+          "start": 110,
+          "end": 113,
+          "surface": "右將軍",
+          "kind": "person",
+          "person_id": "0nh_j0e_l31",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0128",
+          "start": 128,
+          "end": 130,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0132",
+          "start": 132,
+          "end": 134,
+          "surface": "翕侯",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "其姊",
+          "kind": "person",
+          "person_id": "lvz_tp4_qp3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0151",
+          "start": 151,
+          "end": 152,
+          "surface": "信",
+          "kind": "person",
+          "person_id": "mfr_nye_lnv",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0153",
+          "start": 153,
+          "end": 155,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m035-0176",
+          "start": 176,
+          "end": 178,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "7o9_dy4_u93",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p036",
