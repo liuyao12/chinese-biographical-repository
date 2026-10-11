@@ -187,6 +187,7 @@
 | `1aa_yn3_kv1` | 平陽公主 | [《史記・曹相國世家》][36] | [JSON](1aa_yn3_kv1.json) |
 | `1ag_0z1_mlq` | 申侯 | [《史記・周本紀》][4] | [JSON](1ag_0z1_mlq.json) |
 | `1as_2bm_qu5` | 李牧 | [《史記・廉頗藺相如列傳》][63] | [JSON](1as_2bm_qu5.json) |
+| `1bp_boo_egc` | 曹參 | [《史記・衛將軍驃騎列傳》][93] | [JSON](1bp_boo_egc.json) |
 | `1by_i1o_3pu` | 禹（引古） | [《史記・淮陰侯列傳》][74] | [JSON](1by_i1o_3pu.json) |
 | `1bz_2re_b8l` | 毋卹之母（趙世家翟婢未名者） | [《史記・趙世家》][25] | [JSON](1bz_2re_b8l.json) |
 | `1c0_cid_jlo` | 棠公妻（本卷未名） | [《史記・齊太公世家》][14] | [JSON](1c0_cid_jlo.json) |
@@ -2222,7 +2223,6 @@
 | `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
-| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

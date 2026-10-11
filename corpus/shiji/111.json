@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全48段轉錄；首三十三段初標95名來源人物、26筆親屬、7筆籍貫、246筆用稱、15筆生卒及37筆跨篇同指；部分官爵相對紀年與版本仍待核，其餘段落未標註。",
+    "coverage": "全48段轉錄；首三十八段姓名初標96名來源候選，第34至38段籍貫、葬地、用稱及死亡原句已補，任官紀年及曹參孫的世代距離續核；其餘段落未標註。",
     "limitations": [
       "未核底本影像；取得全文不等於逐字校勘或全篇人物標註完成。",
       "冒姓衛氏保留原語；同母兄弟姊妹不自動組成同父家族。衛媼與鄭季通不作正式婚姻。",
@@ -65,7 +65,10 @@
       "第22段名、字與謚稱分開；元狩六年與元封元年暫換算前117、前110年，軍後三年與居六歲保留原數不強改紀年。子嬗代侯記父子與承爵，少不作年齡或幼子排行。陳自長安至茂陵為冢象祁連山保存葬儀原語，未據象山形推葬祁連山，也未把路線地點作死地；墓址仍待明示材料另核。無子保留原文，未建立子女；希望將之不是已授官。",
       "第23至25段：伉長子記兒子序號1，弟二人各記相對較伉年幼，不疑與登互序未定。三子為預設世系，褚補四子額外匿名宜春侯保留原ID與原始父子主張，暫不畫預設父系線、不合併伉。青卒依漢書元封五年暫前106年；伉宜春侯失侯依侯表元鼎元年暫前116年，不疑登同一酎金事件依表元鼎五年暫前112年，長平侯承爵依表太初元年暫前104年。六歲失侯不推終年；婚姻不作子女生母證據。嬗承爵修訂為侯表元鼎元年前116年，不自動承父卒年；正文六歲與表七年並存不強解。",
       "第26至33段兩大將軍、諸裨將、三子及統計人數保存群體未解錨點，不按數字補人物。賀父渾邪不按同名併渾邪王或隴西太守；其先胡種不作籍貫或已知祖先。敬聲與陽石公主姦未作婚姻，敖妻未名。敖詐死不作死亡；（驃）騎將軍與以郎事武帝保留本篇原字及括號，不改漢書的騎將軍、事景帝。太后崩的太后身份暫未解，不據此補張次公生母或定所有授任年。六人傳首籍貫原詞已保存，現代地理未推。",
-      "第26至33段新增42筆用稱；馬邑賀輕車與息材官暫前133年，賀丞相及葛繹侯暫前103年，敖因杅築受降城暫前104年，均據通鑑同人同事而非連算後幾歲。賀卒暫前91年、蔡卒暫前118年，敖卒未定，詐死不作死亡。其餘相對紀年與失侯終年仍待對讀。"
+      "第26至33段新增42筆用稱；馬邑賀輕車與息材官暫前133年，賀丞相及葛繹侯暫前103年，敖因杅築受降城暫前104年，均據通鑑同人同事而非連算後幾歲。賀卒暫前91年、蔡卒暫前118年，敖卒未定，詐死不作死亡。其餘相對紀年與失侯終年仍待對讀。",
+      "第34段亡翕侯承前文趙信降匈奴，不作趙信死亡。蘇建杜陵人及冢在大猶鄉分存，不推出生地、代郡死亡地或現代位置。後四歲游擊任官與先前軍役紀年需逐項對讀，不串算。",
+      "第35至38段：武帝立十七歲的趙信軍役與前段定襄敘事需核紀年，不按同單于字造新王。曹參孫暫存祖先後裔，不默定兩代；張騫漢中為冢所在地，烏孫不是已知死亡地。",
+      "蘇建游擊、右將軍同軍役暫依通鑑元朔五年前124年、六年前123年，不按後四歲累加。曹參孫與曹世家四代後裔序列對讀，保留廣義祖先關係，不定兩代；跨篇身份組裝續核。"
     ],
     "age_assertions": [
       {
@@ -5689,37 +5692,213 @@
     {
       "id": "c-shiji-111-wei-huo:p034",
       "text": "將軍蘇建，杜陵人。以校尉從衛將軍青，有功，為平陵侯，以將軍筑朔方。後四歲，為游擊將軍，從大將軍出朔方。後一歲，以右將軍再從大將軍出定襄，亡翕侯，失軍，當斬，贖為庶人。其後為代郡太守，卒，冢在大猶鄉。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m034-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "蘇建",
+          "kind": "person",
+          "person_id": "ior_a2u_f1c",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m034-0013",
+          "start": 13,
+          "end": 16,
+          "surface": "衛將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m034-0016",
+          "start": 16,
+          "end": 17,
+          "surface": "青",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m034-0044",
+          "start": 44,
+          "end": 47,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m034-0061",
+          "start": 61,
+          "end": 64,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m034-0069",
+          "start": 69,
+          "end": 71,
+          "surface": "翕侯",
+          "kind": "person",
+          "person_id": "wdc_jgr_uiu",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p035",
       "text": "將軍趙信，以匈奴相國降，為翕侯。武帝立十七歲，為前將軍，與單于戰，敗，降匈奴。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m035-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "趙信",
+          "kind": "person",
+          "person_id": "wdc_jgr_uiu",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m035-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m035-0029",
+          "start": 29,
+          "end": 31,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "rd7_cq6_rjs",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p036",
       "text": "將軍張騫，以使通大夏，還，為校尉。從大將軍有功，封為博望侯。後三歲，為將軍，出右北平，失期，當斬，贖為庶人。其後使通烏孫，為大行而卒，冢在漢中。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m036-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "張騫",
+          "kind": "person",
+          "person_id": "pyz_akq_nps",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m036-0018",
+          "start": 18,
+          "end": 21,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p037",
       "text": "將軍趙食其，祋祤人也。武帝立二十二歲，以主爵為右將軍，從大將軍出定襄，迷失道，當斬，贖為庶人。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m037-0002",
+          "start": 2,
+          "end": 5,
+          "surface": "趙食其",
+          "kind": "person",
+          "person_id": "zgr_95l_8z4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m037-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "武帝",
+          "kind": "person",
+          "person_id": "3fp_1n5_jvi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m037-0028",
+          "start": 28,
+          "end": 31,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p038",
       "text": "將軍曹襄，以平陽侯為後將軍，從大將軍出定襄。襄，曹參孫也。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-111-wei-huo:m038-0002",
+          "start": 2,
+          "end": 4,
+          "surface": "曹襄",
+          "kind": "person",
+          "person_id": "18d_242_kzj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m038-0015",
+          "start": 15,
+          "end": 18,
+          "surface": "大將軍",
+          "kind": "person",
+          "person_id": "6z2_ipx_avk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m038-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "襄",
+          "kind": "person",
+          "person_id": "18d_242_kzj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m038-0022",
+          "start": 22,
+          "end": 23,
+          "surface": "襄",
+          "kind": "person",
+          "person_id": "18d_242_kzj",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-111-wei-huo:m038-0024",
+          "start": 24,
+          "end": 26,
+          "surface": "曹參",
+          "kind": "person",
+          "person_id": "1bp_boo_egc",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-111-wei-huo:p039",
