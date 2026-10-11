@@ -96,6 +96,7 @@
 | `0ml_cvy_pxe` | 韓徐 | [《史記・趙世家》][25] | [JSON](0ml_cvy_pxe.json) |
 | `0n7_8en_8ji` | 趙孝成王 | [《史記・白起王翦列傳》][55] | [JSON](0n7_8en_8ji.json) |
 | `0ng_one_sdy` | 宋玉 | [《史記・屈原賈生列傳》][66] | [JSON](0ng_one_sdy.json) |
+| `0nh_j0e_l31` | 建（右將軍，匈奴列傳省稱） | [《史記・匈奴列傳》][92] | [JSON](0nh_j0e_l31.json) |
 | `0o0_6rh_6u5` | 韓公叔 | [《史記・張儀列傳》][52] | [JSON](0o0_6rh_6u5.json) |
 | `0of_7ly_ddz` | 竇太后 | [《史記・楚元王世家》][32] | [JSON](0of_7ly_ddz.json) |
 | `0oi_5wz_q0n` | 項伯 | [《史記・黥布列傳》][73] | [JSON](0oi_5wz_q0n.json) |
@@ -2969,6 +2970,7 @@
 | `lui_r6i_tzm` | 東牟侯未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](lui_r6i_tzm.json) |
 | `lvl_qjo_kig` | 惠王 | [《史記・匈奴列傳》][92] | [JSON](lvl_qjo_kig.json) |
 | `lvy_0pn_yfg` | 熊渠（楚先祖） | [《史記・楚世家》][22] | [JSON](lvy_0pn_yfg.json) |
+| `lvz_tp4_qp3` | 伊稚斜之姊（趙信妻，未名） | [《史記・匈奴列傳》][92] | [JSON](lvz_tp4_qp3.json) |
 | `lwc_kea_ype` | 劉郢 | [《史記・孝文本紀》][10] | [JSON](lwc_kea_ype.json) |
 | `lwe_fv2_m9g` | 劉濞 | [《史記・荊燕世家》][33] | [JSON](lwe_fv2_m9g.json) |
 | `lwf_jb1_olp` | 邴歜（衛篇弒齊君記事） | [《史記・衛康叔世家》][19] | [JSON](lwf_jb1_olp.json) |
@@ -3039,6 +3041,7 @@
 | `mex_tig_16z` | 蓋聶 | [《史記・刺客列傳》][68] | [JSON](mex_tig_16z.json) |
 | `mf2_tm7_f9r` | 秦孝公 | [《史記・田敬仲完世家》][28] | [JSON](mf2_tm7_f9r.json) |
 | `mfd_hor_95c` | 楚王信 | [《史記・傅靳蒯成列傳》][80] | [JSON](mfd_hor_95c.json) |
+| `mfr_nye_lnv` | 趙信（匈奴列傳第35段） | [《史記・匈奴列傳》][92] | [JSON](mfr_nye_lnv.json) |
 | `mfu_22v_exx` | 趙穿 | [《史記・鄭世家》][24] | [JSON](mfu_22v_exx.json) |
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][30] | [JSON](mgj_ry7_2x5.json) |
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][77] | [JSON](mgl_q57_d7h.json) |
