@@ -2435,6 +2435,7 @@
 | `i3q_rxz_ou9` | 赤（秦將被虜者） | [《史記・晉世家》][21] | [JSON](i3q_rxz_ou9.json) |
 | `i4l_f1t_g0j` | 子朝 | [《史記・趙世家》][25] | [JSON](i4l_f1t_g0j.json) |
 | `i4m_8cq_inb` | 師己（童謠引者） | [《史記・魯周公世家》][15] | [JSON](i4m_8cq_inb.json) |
+| `i4s_uzo_t31` | 淳維 | [《史記・匈奴列傳》][92] | [JSON](i4s_uzo_t31.json) |
 | `i56_shx_l9i` | 騶奭 | [《史記・孟子荀卿列傳》][56] | [JSON](i56_shx_l9i.json) |
 | `i57_0fx_nlz` | 太史公 | [《史記・伍子胥列傳》][48] | [JSON](i57_0fx_nlz.json) |
 | `i5r_tl5_rdl` | 華元 | [《史記・宋微子世家》][20] | [JSON](i5r_tl5_rdl.json) |
@@ -4859,3 +4860,4 @@
 [89]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571
 [90]: https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
+[92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
