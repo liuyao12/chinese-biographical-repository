@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全61段轉錄；前13段初標55名來源人物、206處人物及未定錨點、10筆親屬、25筆用稱、7筆死亡事件、2筆死亡地點及8筆跨篇身份判讀。其餘48段、官爵日期與其他同指待核。",
+    "coverage": "全61段轉錄；前14段初標57名來源人物、214處人物及未定錨點、10筆親屬、28筆用稱、8筆死亡事件、2筆死亡地點及10筆跨篇身份判讀。其餘47段、官爵日期與其他同指待核。",
     "limitations": [
       "未核古籍底本影像，數位見證仍待校勘。",
       "淳維為本篇祖源傳說候選，不將夏后氏之苗裔補成明確父子或固定代數。",
@@ -43,7 +43,8 @@
       "第7段滅東胡王未自動作明示死亡；第8段自淳維至頭曼千有餘歲不是父子或可補造世系的證據。",
       "第9段官號及三姓為制度泛稱或氏族，不建立個人，不將常以太子為左屠耆王推作冒頓任職，單于之庭的代雲中不改作個人籍貫。",
       "第10段祭祀、朝拜與殉葬為一般習俗，單于、諸長及近幸臣妾保留未定群體，不建個人死亡、埋葬或日期；前段幽王與義渠王死亡地名按明文保存。",
-      "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。"
+      "第12至13段韓信接韓王信，白登閼氏與和親宗室女分開；宗室女不記為高帝親生女，約為昆弟不記血緣兄弟。相對敘事日期未換算精確年份，短稱按本段語法定位；跨篇事件對讀為代理暫定判斷。",
+      "第14段高祖與高帝按平城事件接既有高帝來源人物，高后與呂太后本段同指；高祖崩無本句紀年，不另補年份或任期起訖。"
     ]
   },
   "paragraphs": [
@@ -2008,9 +2009,82 @@
     {
       "id": "c-shiji-110-xiongnu:p014",
       "text": "高祖崩，孝惠、呂太后時，漢初定，故匈奴以驕。冒頓乃爲書遺高后，妄言。高后欲擊之，諸將曰：「以高帝賢武，然尚困於平城。」於是高后乃止，復與匈奴和親。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-110-xiongnu:m014-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "4fs_b72_nzf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0007",
+          "start": 7,
+          "end": 10,
+          "surface": "呂太后",
+          "kind": "person",
+          "person_id": "x0c_0es_sld",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "冒頓",
+          "kind": "person",
+          "person_id": "wop_txs_2xf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "x0c_0es_sld",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "x0c_0es_sld",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "高帝",
+          "kind": "person",
+          "person_id": "388_xm1_emw",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-110-xiongnu:m014-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "x0c_0es_sld",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-110-xiongnu:p015",

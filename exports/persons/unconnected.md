@@ -4424,6 +4424,7 @@
 | `x06_36x_8rd` | 魯昭公 | [《史記・孔子世家》][29] | [JSON](x06_36x_8rd.json) |
 | `x08_b9c_uj2` | 韓宣子 | [《史記・鄭世家》][24] | [JSON](x08_b9c_uj2.json) |
 | `x0b_9fw_ttm` | 殤公（宋弒君記事） | [《史記・宋微子世家》][20] | [JSON](x0b_9fw_ttm.json) |
+| `x0c_0es_sld` | 呂太后（匈奴列傳第14段） | [《史記・呂太后本紀》][9] | [JSON](x0c_0es_sld.json) |
 | `x0e_ivo_wsa` | 項伯 | [《史記・樊酈滕灌列傳》][77] | [JSON](x0e_ivo_wsa.json) |
 | `x1n_vdt_l94` | 將渠（燕大夫） | [《史記・燕召公世家》][16] | [JSON](x1n_vdt_l94.json) |
 | `x2m_k5j_fdz` | 共王 | [《史記・周本紀》][4] | [JSON](x2m_k5j_fdz.json) |
