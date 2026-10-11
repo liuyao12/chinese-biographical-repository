@@ -13,6 +13,7 @@
 | `fyt_uh2_b2k` | 舜引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fyt_uh2_b2k.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][4] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][92] | [JSON](fyv_cvv_y5b.json) |
+| `fyw_e6a_8dl` | 公孫弘後母（未名） | [《史記・平津侯主父列傳》][94] | [JSON](fyw_e6a_8dl.json) |
 | `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][22] | [JSON](fzk_mr8_bej.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][93] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][24] | [JSON](g0f_lnq_gkm.json) |
@@ -1397,6 +1398,7 @@
 | `q44_hia_lao` | 景翠 | [《史記・越王勾踐世家》][23] | [JSON](q44_hia_lao.json) |
 | `q4a_jzq_0xh` | 李園（殺春申君者） | [《史記・春申君列傳》][60] | [JSON](q4a_jzq_0xh.json) |
 | `q4s_qe2_uq2` | 齊湣王 | [《史記・韓世家》][27] | [JSON](q4s_qe2_uq2.json) |
+| `q69_35n_f3h` | 公孫弘 | [《史記・平津侯主父列傳》][94] | [JSON](q69_35n_f3h.json) |
 | `q6j_g7r_on0` | 胤（出征者） | [《史記・夏本紀》][2] | [JSON](q6j_g7r_on0.json) |
 | `q6l_n6t_fbt` | 卽墨大夫（田世家未名者） | [《史記・田敬仲完世家》][28] | [JSON](q6l_n6t_fbt.json) |
 | `q6q_ax8_y9p` | 秦惠王 | [《史記・樗里子甘茂列傳》][53] | [JSON](q6q_ax8_y9p.json) |
@@ -2220,8 +2222,6 @@
 | `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][30] | [JSON](vvg_rba_nwr.json) |
 | `vvt_6h5_czb` | 湯引古短稱 | [《史記・屈原賈生列傳》][66] | [JSON](vvt_6h5_czb.json) |
 | `vvv_ws5_he1` | 齊緡王 | [《史記・高祖本紀》][8] | [JSON](vvv_ws5_he1.json) |
-| `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][36] | [JSON](vw5_ynq_5fx.json) |
-| `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][20] | [JSON](vwi_95l_l6d.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
@@ -2316,3 +2316,4 @@
 [91]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
+[94]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
