@@ -429,6 +429,7 @@
 | `396_zge_56w` | 申句須 | [《史記・孔子世家》][29] | [JSON](396_zge_56w.json) |
 | `398_14a_ml2` | 周蘭 | [《史記・傅靳蒯成列傳》][80] | [JSON](398_14a_ml2.json) |
 | `39e_wj9_6m0` | 韓王信 | [《史記・樊酈滕灌列傳》][77] | [JSON](39e_wj9_6m0.json) |
+| `39q_zuo_xkc` | 白馬將（未名） | [《史記・李將軍列傳》][91] | [JSON](39q_zuo_xkc.json) |
 | `3a7_boe_phl` | 主壬 | [《史記・殷本紀》][3] | [JSON](3a7_boe_phl.json) |
 | `3a9_w7x_73x` | 楚莊王 | [《史記・楚世家》][22] | [JSON](3a9_w7x_73x.json) |
 | `3av_pp6_8bu` | 他姬子燕王 | [《史記・外戚世家》][31] | [JSON](3av_pp6_8bu.json) |
@@ -2017,6 +2018,7 @@
 | `f47_ssw_aov` | 文子齊謀伐楚未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](f47_ssw_aov.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
+| `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
 | `f6e_ib9_ktb` | 顏噲 | [《史記・仲尼弟子列傳》][49] | [JSON](f6e_ib9_ktb.json) |
 | `f6g_596_kog` | 章武侯 | [《史記・絳侯周勃世家》][39] | [JSON](f6g_596_kog.json) |
@@ -3631,6 +3633,7 @@
 | `rin_y2m_uyz` | 桓魋（宋司馬） | [《史記・宋微子世家》][20] | [JSON](rin_y2m_uyz.json) |
 | `rjb_0hy_dsi` | 龍 | [《史記・五帝本紀》][1] | [JSON](rjb_0hy_dsi.json) |
 | `rjr_guv_fre` | 高遂 | [《史記・魏其武安侯列傳》][89] | [JSON](rjr_guv_fre.json) |
+| `rjs_f84_760` | 被李廣生得的匈奴射雕者（未名） | [《史記・李將軍列傳》][91] | [JSON](rjs_f84_760.json) |
 | `rjw_tpy_t2f` | 絳短稱未定 | [《史記・屈原賈生列傳》][66] | [JSON](rjw_tpy_t2f.json) |
 | `rk0_huv_709` | 中行偃（弒晉厲公記事） | [《史記・晉世家》][21] | [JSON](rk0_huv_709.json) |
 | `rke_c0u_y8f` | 孝惠帝 | [《史記・傅靳蒯成列傳》][80] | [JSON](rke_c0u_y8f.json) |

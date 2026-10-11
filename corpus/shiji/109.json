@@ -29,13 +29,14 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全20段轉錄；前2段10名來源候選、20處人物錨點、1筆籍貫、2筆親屬及20筆官爵秩稱。其餘18段、日期與跨篇同指待標註。",
+    "coverage": "全20段轉錄；前3段13名來源候選、51處人物及未定錨點、1筆籍貫、2筆親屬及23筆官爵秩稱與敘事用稱。其餘17段、日期與跨篇同指待標註。",
     "limitations": [
       "未核底本影像。",
       "其先李信不改作直接父親；從弟李蔡不補親等。",
       "太子丹與引語帝號暫保留本篇候選，跨篇同指另核。",
       "附文索隱述贊與正文分層保存。",
-      "梁王授印與還賞不行分存；五郡保存原地名清單及共享太守用稱，不推先後任次。"
+      "梁王授印與還賞不行分存；五郡保存原地名清單及共享太守用稱，不推先後任次。",
+      "匈奴三人及被殺二人保留群體未定錨點，僅生得一人另立匿名候選；射雕者為技能稱。第三段天子承景帝敘事，第四段才敘武帝立。"
     ]
   },
   "paragraphs": [
@@ -238,9 +239,289 @@
     {
       "id": "c-shiji-109-liguang:p003",
       "text": "匈奴大入上郡，天子使中貴人從廣勒習兵擊匈奴。中貴人將騎數十縱，見匈奴三人，與戰。三人還射，傷中貴人，殺其騎且盡。中貴人走廣。廣曰：「是必射雕者也。」廣乃遂從百騎往馳三人。三人亡馬歩行，行數十里。廣令其騎張左右翼，而廣身自射彼三人者，殺其二人，生得一人，果匈奴射雕者也。已縛之上馬，望匈奴有數千騎，見廣，以爲誘騎，皆驚，上山陳。廣之百騎皆大恐，欲馳還走。廣曰：「吾去大軍數十里，今如此以百騎走，匈奴追射我立盡。今我留，匈奴必以我爲大軍［之］誘（之），必不敢擊我。」廣令諸騎曰：「前！」前未到匈奴陳二里所，止，令曰：「皆下馬解鞍！」其騎曰：「虜多且近，即有急，柰何？」廣曰：「彼虜以我爲走，今皆解鞍以示不走，用堅其意。」於是胡騎遂不敢擊。有白馬將出護其兵，李廣上馬與十餘騎奔射殺胡白馬將，而復還至其騎中，解鞍，令士皆縱馬臥。是時會暮，胡兵終怪之，不敢擊。夜半時，胡兵亦以爲漢有伏軍於旁欲夜取之，胡皆引兵而去。平旦，李廣乃歸其大軍。大軍不知廣所之，故弗從。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-109-liguang:m003-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "xd0_1s0_wag",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0010",
+          "start": 10,
+          "end": 13,
+          "surface": "中貴人",
+          "kind": "person",
+          "person_id": "f4r_7vs_l08",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0014",
+          "start": 14,
+          "end": 15,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0022",
+          "start": 22,
+          "end": 25,
+          "surface": "中貴人",
+          "kind": "person",
+          "person_id": "f4r_7vs_l08",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0034",
+          "start": 34,
+          "end": 36,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0040",
+          "start": 40,
+          "end": 42,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0046",
+          "start": 46,
+          "end": 49,
+          "surface": "中貴人",
+          "kind": "person",
+          "person_id": "f4r_7vs_l08",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0056",
+          "start": 56,
+          "end": 59,
+          "surface": "中貴人",
+          "kind": "person",
+          "person_id": "f4r_7vs_l08",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0060",
+          "start": 60,
+          "end": 61,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0062",
+          "start": 62,
+          "end": 63,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0068",
+          "start": 68,
+          "end": 71,
+          "surface": "射雕者",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0074",
+          "start": 74,
+          "end": 75,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0082",
+          "start": 82,
+          "end": 84,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0085",
+          "start": 85,
+          "end": 87,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0097",
+          "start": 97,
+          "end": 98,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0107",
+          "start": 107,
+          "end": 108,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0112",
+          "start": 112,
+          "end": 114,
+          "surface": "三人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "二人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0123",
+          "start": 123,
+          "end": 125,
+          "surface": "一人",
+          "kind": "person",
+          "person_id": "rjs_f84_760",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0129",
+          "start": 129,
+          "end": 132,
+          "surface": "射雕者",
+          "kind": "person",
+          "person_id": "rjs_f84_760",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0136",
+          "start": 136,
+          "end": 137,
+          "surface": "之",
+          "kind": "person",
+          "person_id": "rjs_f84_760",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0149",
+          "start": 149,
+          "end": 150,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0163",
+          "start": 163,
+          "end": 164,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0176",
+          "start": 176,
+          "end": 177,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0231",
+          "start": 231,
+          "end": 232,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0282",
+          "start": 282,
+          "end": 283,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0318",
+          "start": 318,
+          "end": 321,
+          "surface": "白馬將",
+          "kind": "person",
+          "person_id": "39q_zuo_xkc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0326",
+          "start": 326,
+          "end": 328,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0338",
+          "start": 338,
+          "end": 341,
+          "surface": "白馬將",
+          "kind": "person",
+          "person_id": "39q_zuo_xkc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0405",
+          "start": 405,
+          "end": 407,
+          "surface": "李廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-109-liguang:m003-0417",
+          "start": 417,
+          "end": 418,
+          "surface": "廣",
+          "kind": "person",
+          "person_id": "27j_f4p_jwp",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-109-liguang:p004",
