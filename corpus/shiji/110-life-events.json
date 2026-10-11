@@ -845,6 +845,88 @@
       "interpretation_note": "保存本篇明示死亡與分段事件年，不套整段同一年、不補他篇月份或精確卒地；所有官爵不因死亡一律終止。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-zhuke",
+      "person_id": "01d_17p_p7o",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p045",
+          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
+          "person_mention_id": "c-shiji-110-xiongnu:m045-0038"
+        }
+      ],
+      "interpretation_note": "立斬主客見者明示死亡；按同一接引郭吉使事暫同指前述未名匈奴主客，對讀通鑑巡邊事件記前110年。死亡不自動終止全部官職，不補姓名、卒地或家系。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 110,
+        "year": -109,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-110-xiongnu",
+            "source_id": "s-shiji110-xiongnu",
+            "paragraph_id": "c-shiji-110-xiongnu:p045",
+            "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
+            "person_mention_id": "c-shiji-110-xiongnu:m045-0038"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》平行事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "立斬主客見者，而留郭吉，遷之北海上",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《資治通鑑》數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "元封元年（辛未，公元前一一零年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "立斬主客見者",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+          "reference_event_quote": "立斬主客見者，而留郭吉，遷之北海上",
+          "reference_year_quote": "元封元年（辛未，公元前一一零年）"
+        },
+        "rationale": "郭吉告單于、北闕懸首語、單于斬主客並留郭吉遷北海均與通鑑元封元年巡邊條相合，暫記前110年、天文年-109；不把是時套到前段三年，不抄他篇冬十月入本文，不套末尾數使使於漢的反覆求和。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji110-nanyuewang",
+      "person_id": "9w0_e8e_sdf",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p045",
+          "quote": "是時天子巡邊，至朔方，勒兵十八萬騎以見武節，而使郭吉風告單于。郭吉既至匈奴，匈奴主客問所使，郭吉禮卑言好，曰：「吾見單于而口言。」單于見吉，吉曰：「南越王頭已懸於漢北闕。今單于（能）即［能］前與漢戰，天子自將兵待邊；單于即不能，即南面而臣於漢。何徒遠走，亡匿於幕北寒苦無水草之地，毋爲也。」語卒而單于大怒，立斬主客見者，而留郭吉不歸，遷之北海上。而單于終不肯爲寇於漢邊，休養息士馬，習射獵，數使使於漢，好辭甘言求請和親。",
+          "person_mention_id": "c-shiji-110-xiongnu:m045-0074"
+        }
+      ],
+      "interpretation_note": "郭吉告語所述南越王頭已懸於漢北闕明示該王已死；具體死亡年未知，不能把告語前110年作卒年。未名者獨立保留，不補建德姓名、即位、卒地或葬地，北闕只是懸首地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }
