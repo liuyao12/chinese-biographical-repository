@@ -2053,6 +2053,7 @@
 | `f45_owg_dw1` | 周（引古） | [《史記・淮陰侯列傳》][74] | [JSON](f45_owg_dw1.json) |
 | `f47_ssw_aov` | 文子齊謀伐楚未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](f47_ssw_aov.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
+| `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
 | `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
@@ -3195,6 +3196,7 @@
 | `np2_qh8_aoz` | 魏文侯（誅晉亂者） | [《史記・晉世家》][21] | [JSON](np2_qh8_aoz.json) |
 | `npw_voa_yri` | 羌瘣 | [《史記・秦始皇本紀》][6] | [JSON](npw_voa_yri.json) |
 | `npx_bl5_op1` | 宋厲公 | [《史記・孔子世家》][29] | [JSON](npx_bl5_op1.json) |
+| `npx_lxn_f0a` | 韓遼（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](npx_lxn_f0a.json) |
 | `nq4_rjk_iab` | 褚先生 | [《史記・外戚世家》][31] | [JSON](nq4_rjk_iab.json) |
 | `nq9_81y_9cv` | 陳勝 | [《史記・樊酈滕灌列傳》][77] | [JSON](nq9_81y_9cv.json) |
 | `nqa_zlk_uu4` | 武蒲（魏申徒） | [《史記・高祖本紀》][8] | [JSON](nqa_zlk_uu4.json) |
