@@ -582,6 +582,21 @@ def validate(root=ROOT):
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 expression = event.get('date_expression')
                 check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
+                date_context = event.get('date_context')
+                continuous_date = False
+                if date_context is not None:
+                    order = [p['id'] for p in chapters.get(record['chapter_id'], {}).get('paragraphs', [])]
+                    ids = date_context.get('paragraph_ids') if isinstance(date_context, dict) else None
+                    continuous_date = (isinstance(date_context, dict)
+                        and date_context.get('kind') == 'continuous_paragraphs'
+                        and isinstance(ids, list) and 2 <= len(ids) <= 4
+                        and ids == [e['paragraph_id'] for e in event['evidence']]
+                        and all(pid in order for pid in ids)
+                        and all(order.index(ids[i]) + 1 == order.index(ids[i + 1]) for i in range(len(ids) - 1))
+                        and isinstance(expression, str) and bool(expression)
+                        and expression in event['evidence'][0]['quote']
+                        and bool(date_context.get('rationale')))
+                    check(continuous_date, '生卒紀年承接須有連續同篇段落與首段日期')
                 for evidence in event['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
                     valid = bool(hit) and hit[0] == evidence['chapter_id'] == record['chapter_id']
@@ -590,7 +605,7 @@ def validate(root=ROOT):
                     if valid and mention:
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
                         check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')
-                    check(expression is None or expression in evidence['quote'], '生卒日期未見於事件引句')
+                    check(expression is None or continuous_date or expression in evidence['quote'], '生卒日期未見於事件引句')
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
                     check(isinstance(expression, str) and bool(expression), '生卒數字紀年缺原日期表述')
