@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全篇15段轉錄；前5段17名來源候選、121處人物錨點、4筆親屬、5筆地址、12筆官爵及秩稱。其餘10段待標註。",
+    "coverage": "全篇15段轉錄；前8段24名來源候選、152處人物及未定錨點、4筆親屬、7筆地址、23筆官爵及秩稱。其餘7段待標註。",
     "limitations": [
       "未核底本影像。",
       "田生不因師授韓子而改名韓非；韓子、雜家此處為所受學說，非確定人物提及。",
@@ -39,7 +39,26 @@
       "梁內史補敘作同一次任官，公孫詭的內史提議不作實任；日期未定。",
       "第五段語曰所引親父、親兄為一般諫詞，不補作具名親屬。",
       "共王即位未直接明言父子，不以繼位自動生成人子關係。",
-      "漢使十輩、刺客與臣群尚未個別辨識。"
+      "漢使十輩、刺客與臣群尚未個別辨識。",
+      "第六段太后保留王、竇兩候選；第八段單于未補外部姓名。",
+      "死罪囚的人數與身份未明，不與詐稱馬邑長吏同指。",
+      "建元六年授任年暫換前135年，原句及參考保留，不補公曆月日。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "u-shiji108-tahou006",
+        "candidate_person_ids": [
+          "5u3_i3p_ngq",
+          "l26_mjw_rwe"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-108-han:p006",
+          "c-shiji-107-weiqi:p002",
+          "c-shiji-107-weiqi:p006"
+        ],
+        "note": "太后未明示姓氏，田蚡外家承接支持王太后，建元中仍可能涉及竇太后，暫保留兩候選，不將本文候選合併。"
+      }
     ]
   },
   "paragraphs": [
@@ -1175,23 +1194,307 @@
     {
       "id": "c-shiji-108-han:p006",
       "text": "建元中，武安侯田蚡爲漢太尉，親貴用事，安國以五百金物遺蚡。蚡言安國太后，天子亦素聞其賢，即召以爲北地都尉，遷爲大司農。閩越、東越相攻，安國及大行王恢將。未至越，越殺其王降，漢兵亦罷。建元六年，武安侯爲丞相，安國爲御史大夫。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m006-0004",
+          "start": 4,
+          "end": 7,
+          "surface": "武安侯",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "田蚡",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0027",
+          "start": 27,
+          "end": 28,
+          "surface": "蚡",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0029",
+          "start": 29,
+          "end": 30,
+          "surface": "蚡",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0031",
+          "start": 31,
+          "end": 33,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "太后",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "未明示姓氏；田蚡之外家支持王太后，建元中仍可能涉及竇太后，暫留候選。"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0036",
+          "start": 36,
+          "end": 38,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0067",
+          "start": 67,
+          "end": 69,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0072",
+          "start": 72,
+          "end": 74,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0083",
+          "start": 83,
+          "end": 84,
+          "surface": "王",
+          "kind": "person",
+          "person_id": "px6_0om_awh",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0096",
+          "start": 96,
+          "end": 99,
+          "surface": "武安侯",
+          "kind": "person",
+          "person_id": "l3m_tk9_u47",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m006-0103",
+          "start": 103,
+          "end": 105,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p007",
       "text": "匈奴來請和親，天子下議。大行王恢，燕人也，數爲邊吏，習知胡事。議曰：「漢與匈奴和親，率不過數歳即復倍約。不如勿許，興兵擊之。」安國曰：「千里而戰，兵不獲利。今匈奴負戎馬之足，懷禽獸之心，遷徙鳥舉，難得而制也。得其地不足以爲廣，有其眾不足以爲彊，自上古不屬爲人。漢數千里爭利，則人馬罷，虜以全制其敝。且彊弩之極，矢不能穿魯縞；沖風之末，力不能漂鴻毛。非初不勁，末力衰也。擊之不便，不如和親。」群臣議者多附安國，於是上許和親。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m007-0007",
+          "start": 7,
+          "end": 9,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m007-0014",
+          "start": 14,
+          "end": 16,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m007-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m007-0123",
+          "start": 123,
+          "end": 124,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m007-0201",
+          "start": 201,
+          "end": 203,
+          "surface": "安國",
+          "kind": "person",
+          "person_id": "adb_4so_0qm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m007-0206",
+          "start": 206,
+          "end": 207,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p008",
       "text": "其明年，則元光元年，鴈門馬邑豪聶翁壹因大行王恢言上曰：「匈奴初和親，親信邊，可誘以利。」陰使聶翁壹爲閒，亡入匈奴，謂單于曰：「吾能斬馬邑令丞吏，以城降，財物可盡得。」單于愛信之，以爲然，許聶翁壹。聶翁壹乃還，詐斬死罪囚，縣其頭馬邑城，示單于使者爲信。曰：「馬邑長吏已死，可急來。」於是單于穿塞將十餘萬騎，入武州塞。",
-      "annotation_status": "pending",
+      "annotation_status": "in_progress",
       "text_layer": "received_chapter",
-      "mentions": []
+      "mentions": [
+        {
+          "id": "c-shiji-108-han:m008-0015",
+          "start": 15,
+          "end": 18,
+          "surface": "聶翁壹",
+          "kind": "person",
+          "person_id": "87t_93a_gy8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0021",
+          "start": 21,
+          "end": 23,
+          "surface": "王恢",
+          "kind": "person",
+          "person_id": "z2v_oh4_mhm",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0024",
+          "start": 24,
+          "end": 25,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "zgv_3zp_3tg",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0046",
+          "start": 46,
+          "end": 49,
+          "surface": "聶翁壹",
+          "kind": "person",
+          "person_id": "87t_93a_gy8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0083",
+          "start": 83,
+          "end": 85,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0094",
+          "start": 94,
+          "end": 97,
+          "surface": "聶翁壹",
+          "kind": "person",
+          "person_id": "87t_93a_gy8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0098",
+          "start": 98,
+          "end": 101,
+          "surface": "聶翁壹",
+          "kind": "person",
+          "person_id": "87t_93a_gy8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0106",
+          "start": 106,
+          "end": 109,
+          "surface": "死罪囚",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "未明示姓名及人數，不由詐稱馬邑長吏補造令丞人物或身份。"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0118",
+          "start": 118,
+          "end": 120,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0120",
+          "start": 120,
+          "end": 122,
+          "surface": "使者",
+          "kind": "person",
+          "person_id": "v8p_xn6_zmf",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m008-0142",
+          "start": 142,
+          "end": 144,
+          "surface": "單于",
+          "kind": "person",
+          "person_id": "hn9_gz8_uyk",
+          "status": "contextual_provisional"
+        }
+      ]
     },
     {
       "id": "c-shiji-108-han:p009",

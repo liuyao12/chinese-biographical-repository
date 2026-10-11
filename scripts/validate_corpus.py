@@ -78,6 +78,11 @@ def validate(root=ROOT):
                     check(cid not in chapter_books, '篇 ID 屬於多卷')
                     chapter_books[cid] = b['id']
         mentions = {}; paragraphs = {}; chapters = {}; files = {}
+        case_paragraphs = {}
+        for candidate_path in sorted((root / 'corpus').glob('*/*.json')):
+            candidate = json.loads(candidate_path.read_text(encoding='utf-8'))
+            if candidate.get('record_type') == 'marked_chapter':
+                case_paragraphs.update({p['id']: p for p in candidate['paragraphs']})
         for path in sorted((root / 'corpus').glob('*/*.json')):
             d = json.loads(path.read_text(encoding='utf-8'))
             if d.get('record_type') != 'marked_chapter': continue
@@ -121,8 +126,8 @@ def validate(root=ROOT):
                 check(case.get('status')=='unresolved' and bool(case.get('note')),'未決身份狀態或說明缺失')
                 refs=case.get('paragraph_ids',[])
                 local={p['id']:p for p in d['paragraphs']}
-                check(bool(refs) and all(ref in local for ref in refs),'未決身份段落引用無效')
-                supported={m['person_id'] for ref in refs if ref in local for m in local[ref]['mentions'] if m['kind']=='person'}
+                check(bool(refs) and any(ref in local for ref in refs) and all(ref in case_paragraphs for ref in refs),'未決身份段落引用無效')
+                supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if m['kind']=='person'}
                 check(set(candidates)<=supported,'未決身份缺少各候選人物的段落證據')
             xml=ET.parse(path.with_suffix('.xml')).getroot()
             check(xml.tag=='text', 'XML 根元素不符')

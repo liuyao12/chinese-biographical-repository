@@ -15,6 +15,15 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_unresolved_case_requires_local_anchor(self):
+        self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0].update(paragraph_ids=['c-shiji-107-weiqi:p002', 'c-shiji-107-weiqi:p006']))
+        self.assertIn('未決身份段落引用無效', v.validate(self.root))
+    def test_unresolved_case_rejects_missing_foreign_reference(self):
+        self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0]['paragraph_ids'].append('c-shiji-107-weiqi:p999'))
+        self.assertIn('未決身份段落引用無效', v.validate(self.root))
+    def test_unresolved_case_requires_candidate_support(self):
+        self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0].update(paragraph_ids=['c-shiji-108-han:p006']))
+        self.assertIn('未決身份缺少各候選人物的段落證據', v.validate(self.root))
     def test_registry_cannot_omit_a_received_person_mention(self):
         def mutate(d):
             person = next(p for p in d['persons'] if len(p['evidence']) > 2)
