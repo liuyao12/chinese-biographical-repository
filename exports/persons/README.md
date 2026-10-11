@@ -746,6 +746,15 @@
 
 </details>
 
+<details><summary><code>98i_dd4_aof</code> 多同（西南夷列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 多同 | [《史記・西南夷列傳》][98] | [JSON](98i_dd4_aof.json) |
+| `A` | 多同子 | [《史記・西南夷列傳》][98] | [JSON](98i_dd4_aof_A.json) |
+
+</details>
+
 <details><summary><code>98v_uic_i4i</code> 孤竹君（伯夷列傳候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3140,3 +3149,4 @@
 [95]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
+[98]: https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636
