@@ -1515,6 +1515,15 @@
 
 </details>
 
+<details><summary><code>ibz_19q_kow</code> 劉郢（儒林列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 劉郢 | [《史記・儒林列傳》][103] | [JSON](ibz_19q_kow.json) |
+| `A` | 楚太子戊 | [《史記・儒林列傳》][103] | [JSON](ibz_19q_kow_A.json) |
+
+</details>
+
 <details><summary><code>idh_bo6_4kq</code> 樂毅（樂毅列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2187,6 +2196,15 @@
 
 </details>
 
+<details><summary><code>r6c_fhk_jo9</code> 韓太傅（儒林列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 韓太傅 | [《史記・儒林列傳》][103] | [JSON](r6c_fhk_jo9.json) |
+| `*A` | 韓生孫商 | [《史記・儒林列傳》][103] | [JSON](r6c_fhk_jo9_%2AA.json) |
+
+</details>
+
 <details><summary><code>r9u_j0z_xtb</code> 秦侯（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2282,6 +2300,16 @@
 
 </details>
 
+<details><summary><code>sjw_4mo_dlf</code> 徐生（儒林列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 徐生 | [《史記・儒林列傳》][103] | [JSON](sjw_4mo_dlf.json) |
+| `*A` | 徐延 | [《史記・儒林列傳》][103] | [JSON](sjw_4mo_dlf_%2AA.json) |
+| `*B` | 徐襄 | [《史記・儒林列傳》][103] | [JSON](sjw_4mo_dlf_%2AB.json) |
+
+</details>
+
 <details><summary><code>sz5_p7t_1dv</code> 辟陽侯（淮南衡山列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2297,6 +2325,15 @@
 |---|---|---|---|
 | `根` | 絳侯父稱候選 | [《史記・吳王濞列傳》][88] | [JSON](t3i_l5f_u0p.json) |
 | `A` | 周亞夫 | [《史記・絳侯周勃世家》][39] | [JSON](t3i_l5f_u0p_A.json) |
+
+</details>
+
+<details><summary><code>t6q_oe6_hom</code> 伏生（儒林列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 伏生 | [《史記・儒林列傳》][103] | [JSON](t6q_oe6_hom.json) |
+| `*A` | 伏生孫（未名） | [《史記・儒林列傳》][103] | [JSON](t6q_oe6_hom_%2AA.json) |
 
 </details>
 
@@ -3199,3 +3236,4 @@
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [101]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
 [102]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127
+[103]: https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621
