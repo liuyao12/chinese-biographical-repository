@@ -2216,6 +2216,15 @@
 
 </details>
 
+<details><summary><code>qhp_lk5_t1e</code> 李延年父（未名）（佞幸列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 李延年父（未名） | [《史記・佞幸列傳》][107] | [JSON](qhp_lk5_t1e.json) |
+| `A` | 李延年 | [《史記・佞幸列傳》][107] | [JSON](qhp_lk5_t1e_A.json) |
+
+</details>
+
 <details><summary><code>qlm_m3s_f3b</code> 楚平王（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3202,6 +3211,15 @@
 
 </details>
 
+<details><summary><code>zw4_jf3_2y1</code> 弓高侯（佞幸列傳候選）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 弓高侯 | [《史記・佞幸列傳》][107] | [JSON](zw4_jf3_2y1.json) |
+| `*A` | 韓嫣 | [《史記・佞幸列傳》][107] | [JSON](zw4_jf3_2y1_%2AA.json) |
+
+</details>
+
 <details><summary><code>zwr_jel_e3l</code> 齊宣公（田世家候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3316,3 +3334,4 @@
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994
+[107]: https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599
