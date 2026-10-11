@@ -502,7 +502,16 @@
       ],
       "qualifiers": {
         "source_term": "有子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "r9u_j0z_xtb_AA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "其長者",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
       },
       "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
       "reviewer": "Codex（AI 代理）"
@@ -523,7 +532,16 @@
       ],
       "qualifiers": {
         "source_term": "長男",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "r9u_j0z_xtb_AAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長男",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
       },
       "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
       "reviewer": "Codex（AI 代理）"
@@ -544,9 +562,19 @@
       ],
       "qualifiers": {
         "source_term": "其弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "r9u_j0z_xtb_AAAA",
+          "younger_person_id": "y97_huh_vuz",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
+      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -607,9 +635,19 @@
       ],
       "qualifiers": {
         "source_term": "弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAB",
+          "younger_person_id": "y97_huh_vuz_AAAA",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
+      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -691,7 +729,16 @@
       ],
       "qualifiers": {
         "source_term": "長子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "y97_huh_vuz_AAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
       },
       "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。",
       "reviewer": "Codex（AI 代理）"
@@ -712,7 +759,16 @@
       ],
       "qualifiers": {
         "source_term": "中子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 2,
+          "position": "unspecified",
+          "parent_person_id": "y97_huh_vuz_AAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "中子",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
       },
       "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。",
       "reviewer": "Codex（AI 代理）"
@@ -733,7 +789,16 @@
       ],
       "qualifiers": {
         "source_term": "少子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "parent_person_id": "y97_huh_vuz_AAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "ambiguous",
+          "source_term": "少子",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
       },
       "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。",
       "reviewer": "Codex（AI 代理）"
@@ -754,9 +819,19 @@
       ],
       "qualifiers": {
         "source_term": "其弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAB",
+          "younger_person_id": "y97_huh_vuz_AAAAC",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。",
+      "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -775,9 +850,19 @@
       ],
       "qualifiers": {
         "source_term": "其弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAC",
+          "younger_person_id": "y97_huh_vuz_AAAAA",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。",
+      "interpretation_note": "本文明示關係，不由繼位推導血緣；未知姓名與指代仍保留。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -922,9 +1007,19 @@
       ],
       "qualifiers": {
         "source_term": "弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "gt1_z7d_s3u",
+          "younger_person_id": "w7a_pl5_1it",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。",
+      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1048,9 +1143,19 @@
       ],
       "qualifiers": {
         "source_term": "弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "kat_48c_thr",
+          "younger_person_id": "ga0_0p4_5xy",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。",
+      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1132,9 +1237,19 @@
       ],
       "qualifiers": {
         "source_term": "母弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAAAAAA",
+          "younger_person_id": "cbe_j1r_ru1",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。",
+      "interpretation_note": "保存本文明示親屬主張；母弟原詞保留，不另補母親姓名。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1258,9 +1373,19 @@
       ],
       "qualifiers": {
         "source_term": "其弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAAAAAAAAAAAA",
+          "younger_person_id": "y97_huh_vuz_AAAAAAAAAAAAABA",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1342,9 +1467,19 @@
       ],
       "qualifiers": {
         "source_term": "弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAA",
+          "younger_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAB",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1489,9 +1624,19 @@
       ],
       "qualifiers": {
         "source_term": "異母弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA",
+          "younger_person_id": "ao3_0fy_d45",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。 原文弟只建立相對出生先後，不補絕對名次。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1597,6 +1742,66 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-077",
+      "subject_person_id": "vs8_u6b_f8w",
+      "predicate": "father",
+      "object_person_id": "bof_yfp_ill",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p010",
+          "quote": "竫公之長子為太子，是文公孫也。五十年，文公卒，葬西山。竫公子立，是為寧公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "bof_yfp_ill",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "依原文長子或長男記父親兒子中第一，不由繼位推算。"
+        }
+      },
+      "interpretation_note": "補原文明示父子及排行；寧公據竫公之長子與竫公子立的連續敘事，保留完整引文。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-078",
+      "subject_person_id": "y97_huh_vuz_AAAB",
+      "predicate": "father",
+      "object_person_id": "vs8_u6b_f8w",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p011",
+          "quote": "寧公生十歲立，立十二年卒，葬西山。生子三人，長男武公為太子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長男",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "vs8_u6b_f8w",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長男",
+          "interpretation_note": "依原文長子或長男記父親兒子中第一，不由繼位推算。"
+        }
+      },
+      "interpretation_note": "補原文明示父子及排行；寧公據竫公之長子與竫公子立的連續敘事，保留完整引文。",
       "reviewer": "Codex（AI 代理）"
     }
   ]
