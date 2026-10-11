@@ -1717,6 +1717,7 @@
 | `cr3_n7l_ek6` | 庶長改 | [《史記・秦本紀》][5] | [JSON](cr3_n7l_ek6.json) |
 | `crw_0bp_tv7` | 晉定公 | [《史記・韓世家》][27] | [JSON](crw_0bp_tv7.json) |
 | `crw_kww_5qn` | 老子 | [《史記・仲尼弟子列傳》][49] | [JSON](crw_kww_5qn.json) |
+| `cs1_ann_ert` | 右賢王（匈奴列傳第33至34段） | [《史記・匈奴列傳》][92] | [JSON](cs1_ann_ert.json) |
 | `css_bys_twl` | 韓長孺 | [《史記・梁孝王世家》][40] | [JSON](css_bys_twl.json) |
 | `ct9_9gi_txz` | 秦王長平未名 | [《史記・平原君虞卿列傳》][58] | [JSON](ct9_9gi_txz.json) |
 | `ct9_yjs_xjr` | 李歸 | [《史記・陳涉世家》][30] | [JSON](ct9_yjs_xjr.json) |
@@ -2462,6 +2463,7 @@
 | `i29_1mw_ghb` | 呉起 | [《史記・魏世家》][26] | [JSON](i29_1mw_ghb.json) |
 | `i2g_tm1_38n` | 黔（荼異母兄） | [《史記・齊太公世家》][14] | [JSON](i2g_tm1_38n.json) |
 | `i2k_2p5_wtv` | 白圭引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](i2k_2p5_wtv.json) |
+| `i2m_01r_1kf` | 恭友（匈奴列傳第33至34段） | [《史記・匈奴列傳》][92] | [JSON](i2m_01r_1kf.json) |
 | `i30_zix_o1p` | 項梁 | [《史記・絳侯周勃世家》][39] | [JSON](i30_zix_o1p.json) |
 | `i35_als_hdv` | 蕢聵 | [《史記・仲尼弟子列傳》][49] | [JSON](i35_als_hdv.json) |
 | `i37_l7b_6n8` | 菑川王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](i37_l7b_6n8.json) |
@@ -3260,6 +3262,7 @@
 | `o58_d34_qul` | 楚令尹 | [《史記・孫子吳起列傳》][47] | [JSON](o58_d34_qul.json) |
 | `o5b_urx_nop` | 銅鞮伯華 | [《史記・仲尼弟子列傳》][49] | [JSON](o5b_urx_nop.json) |
 | `o5z_bzo_4kz` | 張孟同 | [《史記・趙世家》][25] | [JSON](o5z_bzo_4kz.json) |
+| `o62_y1u_i8r` | 朱英（匈奴列傳第33至34段） | [《史記・匈奴列傳》][92] | [JSON](o62_y1u_i8r.json) |
 | `o67_lsk_1vy` | 宦者平 | [《史記・扁鵲倉公列傳》][87] | [JSON](o67_lsk_1vy.json) |
 | `o6h_ba5_gno` | 張羽 | [《史記・韓長孺列傳》][90] | [JSON](o6h_ba5_gno.json) |
 | `o6u_xnt_ls1` | 樂毅 | [《史記・田敬仲完世家》][28] | [JSON](o6u_xnt_ls1.json) |
