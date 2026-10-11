@@ -15,6 +15,9 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_stepmother_requires_received_term(self):
+        self.change('corpus/shiji/110-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'stepmother')['qualifiers'].update(source_term='母'))
+        self.assertIn('後母關係須有原詞證據', v.validate(self.root))
     def test_posthumous_child_requires_received_term(self):
         self.change('corpus/shiji/109-assertions.json', lambda d: next(a for a in d['assertions'] if a['id'] == 'a-shiji109-007')['qualifiers'].update(source_term='當戸子陵'))
         self.assertIn('遺腹子欄位須有父親與原詞證據', v.validate(self.root))

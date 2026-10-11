@@ -390,6 +390,7 @@
 | `2wt_drt_ii8` | 王夫人子齊王 | [《史記・外戚世家》][31] | [JSON](2wt_drt_ii8.json) |
 | `2ww_4rg_iv9` | 應高 | [《史記・吳王濞列傳》][88] | [JSON](2ww_4rg_iv9.json) |
 | `2xk_syj_egr` | 陳勝 | [《史記・黥布列傳》][73] | [JSON](2xk_syj_egr.json) |
+| `2ye_xvh_3a7` | 愛妻（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](2ye_xvh_3a7.json) |
 | `2z1_3uv_8xx` | 春申君 | [《史記・春申君列傳》][60] | [JSON](2z1_3uv_8xx.json) |
 | `307_auq_l0i` | 太史公 | [《史記・楚元王世家》][32] | [JSON](307_auq_l0i.json) |
 | `30y_9u3_v0b` | 陳豨 | [《史記・曹相國世家》][36] | [JSON](30y_9u3_v0b.json) |
@@ -4228,6 +4229,7 @@
 | `vl9_0uq_cgr` | 鄭安平 | [《史記・范睢蔡澤列傳》][61] | [JSON](vl9_0uq_cgr.json) |
 | `vle_lyb_962` | 陽生 | [《史記・伍子胥列傳》][48] | [JSON](vle_lyb_962.json) |
 | `vlh_nxo_p71` | 王朔 | [《史記・孝武本紀》][12] | [JSON](vlh_nxo_p71.json) |
+| `vlp_pem_oj3` | 閼氏（匈奴列傳第6段） | [《史記・匈奴列傳》][92] | [JSON](vlp_pem_oj3.json) |
 | `vlp_yy3_ufh` | 平（泗水監） | [《史記・樊酈滕灌列傳》][77] | [JSON](vlp_yy3_ufh.json) |
 | `vm4_pus_oa9` | 李信 | [《史記・李將軍列傳》][91] | [JSON](vm4_pus_oa9.json) |
 | `vma_jxj_3e9` | 馮喜 | [《史記・張儀列傳》][52] | [JSON](vma_jxj_3e9.json) |
@@ -4347,7 +4349,6 @@
 | `wj3_oa7_o6b` | 杜信 | [《史記・扁鵲倉公列傳》][87] | [JSON](wj3_oa7_o6b.json) |
 | `wjf_wa5_eu9` | 彊（孝惠後宮子稱） | [《史記・呂太后本紀》][9] | [JSON](wjf_wa5_eu9.json) |
 | `wjp_1iw_3qf` | 代王嘉 | [《史記・田敬仲完世家》][28] | [JSON](wjp_1iw_3qf.json) |
-| `wjt_htu_081` | 頭曼（匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](wjt_htu_081.json) |
 | `wka_94j_2k5` | 少姬 | [《史記・管晏列傳》][44] | [JSON](wka_94j_2k5.json) |
 | `wl3_jss_lix` | 奚齊 | [《史記・劉敬叔孫通列傳》][81] | [JSON](wl3_jss_lix.json) |
 | `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][40] | [JSON](wl6_i22_vjk.json) |
