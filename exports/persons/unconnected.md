@@ -121,6 +121,7 @@
 | `0sl_eh8_yhw` | 呂后 | [《史記・季布欒布列傳》][82] | [JSON](0sl_eh8_yhw.json) |
 | `0sl_xzo_kcf` | 共公（燕悼公後） | [《史記・燕召公世家》][16] | [JSON](0sl_xzo_kcf.json) |
 | `0st_zou_rja` | 太史公 | [《史記・穰侯列傳》][54] | [JSON](0st_zou_rja.json) |
+| `0sz_508_6cb` | 任敞（匈奴列傳第42至43段） | [《史記・匈奴列傳》][92] | [JSON](0sz_508_6cb.json) |
 | `0th_8iq_2q0` | 王龁 | [《史記・白起王翦列傳》][55] | [JSON](0th_8iq_2q0.json) |
 | `0tj_vst_yao` | 張儀 | [《史記・樗里子甘茂列傳》][53] | [JSON](0tj_vst_yao.json) |
 | `0tp_9hs_kjs` | 孔子 | [《史記・孔子世家》][29] | [JSON](0tp_9hs_kjs.json) |

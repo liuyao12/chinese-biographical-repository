@@ -726,6 +726,125 @@
       "interpretation_note": "渾邪王殺休屠王明示死亡，記前121年；單于先欲召誅之僅意圖，不作單于已殺兩王。居西方為活動地域，不補籍貫、卒地、葬地或親屬；死亡不自動終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-qubing",
+      "person_id": "xfa_qqj_5yc",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 117,
+        "year": -116,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "初，漢兩將軍大出圍單于，所殺虜八九萬，而漢士卒物故亦數萬，漢馬死者十餘萬。匈奴雖病，遠去，而漢亦馬少，無以復往。匈奴用趙信之計，遣使於漢，好辭請和親。天子下其議，或言和親，或言遂臣之。丞相長史任敞曰：「匈奴新破，困，宜可使爲外臣，朝請於邊。」漢使任敞於單于。單于聞敞計，大怒，留之不遣。先是漢亦有所降匈奴使者，單于亦輒留漢使相當。漢方復收士馬，會驃騎將軍去病死，於是漢久不北擊胡。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-110-xiongnu",
+            "source_id": "s-shiji110-xiongnu",
+            "paragraph_id": "c-shiji-110-xiongnu:p042",
+            "quote": "初，漢兩將軍大出圍單于，所殺虜八九萬，而漢士卒物故亦數萬，漢馬死者十餘萬。匈奴雖病，遠去，而漢亦馬少，無以復往。匈奴用趙信之計，遣使於漢，好辭請和親。天子下其議，或言和親，或言遂臣之。丞相長史任敞曰：「匈奴新破，困，宜可使爲外臣，朝請於邊。」漢使任敞於單于。單于聞敞計，大怒，留之不遣。先是漢亦有所降匈奴使者，單于亦輒留漢使相當。漢方復收士馬，會驃騎將軍去病死，於是漢久不北擊胡。",
+            "person_mention_id": "c-shiji-110-xiongnu:m042-0173"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》平行事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "冠軍景桓侯霍去病薨",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《資治通鑑》數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "元狩六年（甲子，公元前一一七年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "會去病死另為後續事件，對讀通鑑元狩六年死亡條，記前117年、天文年-116；不套任敞出使前119年或補秋九月為本篇原文，李將軍列傳居歲餘相對原句及未定年保留。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "會驃騎將軍去病死",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+          "reference_event_quote": "冠軍景桓侯霍去病薨",
+          "reference_year_quote": "元狩六年（甲子，公元前一一七年）"
+        }
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p042",
+          "quote": "初，漢兩將軍大出圍單于，所殺虜八九萬，而漢士卒物故亦數萬，漢馬死者十餘萬。匈奴雖病，遠去，而漢亦馬少，無以復往。匈奴用趙信之計，遣使於漢，好辭請和親。天子下其議，或言和親，或言遂臣之。丞相長史任敞曰：「匈奴新破，困，宜可使爲外臣，朝請於邊。」漢使任敞於單于。單于聞敞計，大怒，留之不遣。先是漢亦有所降匈奴使者，單于亦輒留漢使相當。漢方復收士馬，會驃騎將軍去病死，於是漢久不北擊胡。",
+          "person_mention_id": "c-shiji-110-xiongnu:m042-0173"
+        }
+      ],
+      "interpretation_note": "保存本篇明示死亡與分段事件年，不套整段同一年、不補他篇月份或精確卒地；所有官爵不因死亡一律終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-yizhixie",
+      "person_id": "7o9_dy4_u93",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "是歳，漢元鼎三年也",
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 114,
+        "year": -113,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "數歳，伊稚斜單于立十三年死，子烏維立爲單于。是歳，漢元鼎三年也。烏維單于立，而漢天子始出巡郡縣。其後漢方南誅兩越，不擊匈奴，匈奴亦不侵入邊。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-110-xiongnu",
+            "source_id": "s-shiji110-xiongnu",
+            "paragraph_id": "c-shiji-110-xiongnu:p043",
+            "quote": "數歳，伊稚斜單于立十三年死，子烏維立爲單于。是歳，漢元鼎三年也。烏維單于立，而漢天子始出巡郡縣。其後漢方南誅兩越，不擊匈奴，匈奴亦不侵入邊。",
+            "person_mention_id": "c-shiji-110-xiongnu:m043-0003"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》平行事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "匈奴伊稚斜單于死，子烏維單于立",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《資治通鑑》數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷020&oldid=1511467",
+            "quote": "元鼎三年（丁卯，公元前一一四年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本段是歲漢元鼎三年明記兩代交接，對讀通鑑同事件換前114年、天文年-113；立十三年按含起年與前126年相容，但不由十三年造月日或自動終止所有官爵，巡郡縣另保留紀序差異。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p043",
+          "quote": "數歳，伊稚斜單于立十三年死，子烏維立爲單于。是歳，漢元鼎三年也。烏維單于立，而漢天子始出巡郡縣。其後漢方南誅兩越，不擊匈奴，匈奴亦不侵入邊。",
+          "person_mention_id": "c-shiji-110-xiongnu:m043-0003"
+        }
+      ],
+      "interpretation_note": "保存本篇明示死亡與分段事件年，不套整段同一年、不補他篇月份或精確卒地；所有官爵不因死亡一律終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }
