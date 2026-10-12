@@ -18,6 +18,8 @@ export default {
   "Original headings": "原欄題",
   "Source revision": "來源版本",
   "Download table JSON": "下載表格 JSON",
+  "Western year · editorial addition · row 0": "西元對照 · 編輯補充 · 第零列",
+  "Western year · editorial addition · column 0": "西元對照 · 編輯補充 · 第零欄",
   "Western year": "西元對照",
   "Time / source column": "年代／原欄位",
   "Empty source cell": "原文空白儲存格",

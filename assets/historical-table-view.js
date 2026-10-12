@@ -57,16 +57,15 @@ function render() {
   const heading = (text, x, y, cls) => `<div role="columnheader" class="grid-cell ${cls}" style="grid-column:${x + 1};grid-row:${y + 1}">${text}</div>`;
   let headers = '';
   if (horizontal) {
-    headers = heading(ui('Time / source column'), 0, 0, 'corner-heading');
-    headers += rows.map((row, i) => heading(h(yearLabel(row.year, getLocale())), i + 1, 0, 'axis-heading')).join('');
-    headers += table.columns.map((c, i) => `<div role="rowheader" class="grid-cell side-heading" style="grid-column:1;grid-row:${i + 2}">${c.kind === 'western_year' ? ui('Western year') : h(c.text)}</div>`).join('');
+    headers = heading(ui('Western year · editorial addition · row 0'), 0, 0, 'corner-heading');
+    headers += table.columns.filter(c => c.kind !== 'western_year').map((c, i) => `<div role="rowheader" class="grid-cell side-heading" style="grid-column:1;grid-row:${i + 2}">${c.kind === 'western_year' ? ui('Western year · editorial addition · column 0') : h(c.text)}</div>`).join('');
   } else {
-    headers = table.columns.map((c, i) => heading(c.kind === 'western_year' ? ui('Western year') : h(c.text), i, 0, i === 0 ? 'corner-heading' : 'axis-heading')).join('');
+    headers = table.columns.map((c, i) => heading(c.kind === 'western_year' ? ui('Western year · editorial addition · column 0') : h(c.text), i, 0, i === 0 ? 'corner-heading' : 'axis-heading')).join('');
   }
   const content = cells.map(c => {
     const western = c.column === 0;
     const text = western ? yearLabel(c.year, getLocale()) : c.text;
-    return `<button type="button" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${western ? 'year-cell' : ''}" style="grid-column:${c.x + (horizontal ? 2 : 1)} / span ${c.width};grid-row:${c.y + 2} / span ${c.height}" aria-label="${h(text || t('Empty source cell'))}" data-source-text>${h(text)}${text ? '' : '<span aria-hidden="true">&nbsp;</span>'}</button>`;
+    return `<button type="button" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${western ? 'year-cell' : ''}" style="grid-column:${c.x + (horizontal ? 2 : 1)} / span ${c.width};grid-row:${c.y + (horizontal ? 1 : 2)} / span ${c.height}" aria-label="${h(text || t('Empty source cell'))}" ${western ? 'data-editorial-year="true"' : 'data-source-text'}>${h(text)}${text ? '' : '<span aria-hidden="true">&nbsp;</span>'}</button>`;
   }).join('');
   const grid = $('table-grid');
   grid.className = 'historical-grid' + (horizontal ? ' horizontal' : '');
