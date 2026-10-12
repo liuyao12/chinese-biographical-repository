@@ -26,10 +26,10 @@
   },
   "text_sha256": "9a832c19c3182a12681c0f59ce0340df0aefcca5827eeced520fbe6f8f34be62",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全11段明示人物與部分短稱、匿名者首輪；代詞、版本、稱號全史與跨篇身份待覆核。",
+    "coverage": "全11段第二輪核讀；18筆死亡、六筆地點、七項來源任期與兩項即位，四處局部指稱；身份與版本覆核未完成。",
     "limitations": [
       "楚與趙的文王分候選；楚王戊、王純等不得全域同稱合併。",
       "巨嫂、太上皇與德侯子不補未見姓名；太史公、防與先生、穆生等保持原署稱。",
@@ -154,6 +154,26 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-050-chuyuan:m002-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "叔",
+          "kind": "person",
+          "person_id": "lfb_885_np1",
+          "status": "contextual_provisional",
+          "note": "第2段高祖過嫂家及本人回答的局部敘事，叔為嫂所稱高祖，某為高祖自稱，不補其他人物。"
+        },
+        {
+          "id": "c-shiji-050-chuyuan:m002-0039",
+          "start": 39,
+          "end": 40,
+          "surface": "叔",
+          "kind": "person",
+          "person_id": "lfb_885_np1",
+          "status": "contextual_provisional",
+          "note": "第2段高祖過嫂家及本人回答的局部敘事，叔為嫂所稱高祖，某為高祖自稱，不補其他人物。"
+        },
+        {
           "id": "c-shiji-050-chuyuan:m002-0044",
           "start": 44,
           "end": 45,
@@ -237,14 +257,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-050-chuyuan:m002-0106",
+          "start": 106,
+          "end": 107,
+          "surface": "某",
+          "kind": "person",
+          "person_id": "lfb_885_np1",
+          "status": "contextual_provisional",
+          "note": "第2段高祖過嫂家及本人回答的局部敘事，叔為嫂所稱高祖，某為高祖自稱，不補其他人物。"
+        },
+        {
           "id": "c-shiji-050-chuyuan:m002-0114",
           "start": 114,
           "end": 116,
           "surface": "其母",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "集體、泛稱或未定指代；不補未見人物成員與姓名。"
+          "kind": "person",
+          "person_id": "hwx_ze7_xjq",
+          "status": "contextual_provisional",
+          "note": "本段巨嫂羹事、伯子未封與高祖為其母不長者的連續敘事，暫連伯妻，不補姓名。"
         },
         {
           "id": "c-shiji-050-chuyuan:m002-0128",
