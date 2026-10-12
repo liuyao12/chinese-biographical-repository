@@ -33,7 +33,7 @@
   },
   "text_sha256": "93df71842152bc691f434e9bf00f3efc0f972f20a0deddc5dac3b5adb75ff7cb",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "coverage": "全4段明示姓名、局部短稱及部分未名人物首輪。",
@@ -42,6 +42,23 @@
       "田完苗裔不是直接父子，常曾孫和不補闕代。",
       "軍正、赦賈使者及其僕保存未名，鮑高國族群不補具體成員。",
       "人物指代、版本、現代研究及稱號時段仍待覆核。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji064-he-wei",
+        "candidate_person_ids": [
+          "ojt_xkj_2fe",
+          "zan_qcc_jy5_AAAAAABAAAA",
+          "zan_qcc_jy5_AAAAAABAAAAAA"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-064-sima:p002",
+          "c-shiji-046-tian:p023",
+          "c-shiji-046-tian:p025"
+        ],
+        "note": "本篇常曾孫和自立為齊威王，田世家則田和立為齊侯、午卒子威王因齊立；本篇局部人物稱號保存，跨篇同指及世系用號差異未決，不校改原文或把田和與因齊合為一人。"
+      }
     ]
   },
   "paragraphs": [
