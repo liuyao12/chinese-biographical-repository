@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qgr_fuw_u34` | 鞅（趙世家提要） | [《史記・太史公自序》][112] | [JSON](qgr_fuw_u34.json) |
+| `qha_l8o_wxa` | 叔仲會 | [《史記・仲尼弟子列傳》][49] | [JSON](qha_l8o_wxa.json) |
 | `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |
 | `qig_axh_3z6` | 尉佗 | [《史記・平津侯主父列傳》][94] | [JSON](qig_axh_3z6.json) |
 | `qii_pl5_1ei` | 太史公 | [《史記・李將軍列傳》][91] | [JSON](qii_pl5_1ei.json) |

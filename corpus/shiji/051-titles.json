@@ -290,12 +290,13 @@
               "chapter_id": "c-shiji-051-jingyan",
               "source_id": "s-shiji-051-jingyan",
               "paragraph_id": "c-shiji-051-jingyan:p004",
-              "quote": "漢六年春，會諸侯於陳，廢楚王信，囚之，分其地為二國。當是時也，高祖子幼，昆弟少，又不賢，欲王同姓以鎮天下，乃詔曰：「將軍劉賈有功，及擇子弟可以為王者。」群臣皆曰：「立劉賈為荊王，王淮東五十二城；高祖弟交為楚王，王淮西三十六城。」因立子肥為齊王。始王昆弟劉氏也。"
+              "quote": "漢六年春，會諸侯於陳，廢楚王信，囚之，分其地為二國。當是時也，高祖子幼，昆弟少，又不賢，欲王同姓以鎮天下，乃詔曰：「將軍劉賈有功，及擇子弟可以為王者。」群臣皆曰：「立劉賈為荊王，王淮東五十二城；高祖弟交為楚王，王淮西三十六城。」因立子肥為齊王。始王昆弟劉氏也。",
+              "person_mention_id": "c-shiji-051-jingyan:m004-0012"
             }
           ]
         }
       },
-      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。",
+      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。 明示廢楚王、沛侯轉吳王或瑯邪王徙燕王，只補相應爵號終點，不以死亡批量終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -519,12 +520,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "十二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-051-jingyan",
+              "source_id": "s-shiji-051-jingyan",
+              "paragraph_id": "c-shiji-051-jingyan:p005",
+              "quote": "高祖十一年秋，淮南王黥布反，東擊荊。荊王賈與戰，不勝，走富陵，為布軍所殺。高祖自擊破布。十二年，立沛侯劉濞為吳王，王故荊地。",
+              "person_mention_id": "c-shiji-051-jingyan:m005-0049"
+            }
+          ]
         }
       },
-      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。",
+      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。 明示廢楚王、沛侯轉吳王或瑯邪王徙燕王，只補相應爵號終點，不以死亡批量終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -704,7 +714,7 @@
       "person_id": "bc3_hmj_aps",
       "title": "營陵侯",
       "kind": "noble_rank",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -727,9 +737,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "高帝十一年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-051-jingyan",
+              "source_id": "s-shiji-051-jingyan",
+              "paragraph_id": "c-shiji-051-jingyan:p006",
+              "quote": "燕王劉澤者，諸劉遠屬也。高帝三年，澤為郎中。高帝十一年，澤以將軍擊陳豨，得王黃，為營陵侯。",
+              "person_mention_id": "c-shiji-051-jingyan:m006-0000"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -877,12 +896,13 @@
               "chapter_id": "c-shiji-051-jingyan",
               "source_id": "s-shiji-051-jingyan",
               "paragraph_id": "c-shiji-051-jingyan:p008",
-              "quote": "及太后崩，瑯邪王澤乃曰：「帝少，諸呂用事，劉氏孤弱。」乃引兵與齊王合謀西，欲誅諸呂。至梁，聞漢遣灌將軍屯滎陽，澤還兵備西界，遂跳驅至長安。代王亦從代至。諸將相與瑯邪王共立代王為天子。天子乃徙澤為燕王，乃復以瑯邪予齊，復故地。"
+              "quote": "及太后崩，瑯邪王澤乃曰：「帝少，諸呂用事，劉氏孤弱。」乃引兵與齊王合謀西，欲誅諸呂。至梁，聞漢遣灌將軍屯滎陽，澤還兵備西界，遂跳驅至長安。代王亦從代至。諸將相與瑯邪王共立代王為天子。天子乃徙澤為燕王，乃復以瑯邪予齊，復故地。",
+              "person_mention_id": "c-shiji-051-jingyan:m008-0005"
             }
           ]
         }
       },
-      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。 徙燕及復以瑯邪予齊是本稱號明示終止證據，不依死亡推終點。",
+      "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。 徙燕及復以瑯邪予齊是本稱號明示終止證據，不依死亡推終點。 明示廢楚王、沛侯轉吳王或瑯邪王徙燕王，只補相應爵號終點，不以死亡批量終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1022,7 +1042,24 @@
         }
       },
       "interpretation_note": "授封、用稱、請封與條件許諾分開；張卿萬戶侯未記實授，呂產請立與已王語不冒稱同一明示授封事件。未知任期不由卒日或首次用稱推端點。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 2,
+        "unit": "regnal_year",
+        "source_term": "澤王燕二年，薨",
+        "source_number": "二",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-051-jingyan",
+            "source_id": "s-shiji-051-jingyan",
+            "paragraph_id": "c-shiji-051-jingyan:p009",
+            "quote": "澤王燕二年，薨，謚為敬王。傳子嘉，為康王。",
+            "person_mention_id": "c-shiji-051-jingyan:m009-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji051-024",
