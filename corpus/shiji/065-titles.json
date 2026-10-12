@@ -98,7 +98,7 @@
       "person_id": "id5_d3k_vsc",
       "title": "將軍",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -121,9 +121,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-065-sun",
+              "source_id": "s-shiji-065-sun",
+              "paragraph_id": "c-shiji-065-sun:p002",
+              "quote": "孫武既死，後百餘歲有孫臏。臏生阿鄄之閒，臏亦孫武之後世子孫也。孫臏嘗與龐涓俱學兵法。龐涓既事魏，得為惠王將軍，而自以為能不及孫臏，乃陰使召孫臏。臏至，龐涓恐其賢於己，疾之，則以法刑斷其兩足而黥之，欲隱勿見。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -131,7 +139,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與來源用稱分存，制度未定者保留未分類；死亡、首次提及或被刑不補有效任期，諡稱不當生前已授同字稱號。",
+      "interpretation_note": "龐涓既事魏得為惠王將軍明示任用起點，日期未記；自剄不自動當官職終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -355,12 +363,20 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "deposition",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-065-sun",
+              "source_id": "s-shiji-065-sun",
+              "paragraph_id": "c-shiji-065-sun:p007",
+              "quote": "魯人或惡吳起曰：「起之為人，猜忍人也。其少時，家累千金，游仕不遂，遂破其家，鄉黨笑之，吳起殺其謗己者三十餘人，而東出衛郭門。與其母訣，齧臂而盟曰：『起不為卿相，不復入衛。』遂事曾子。居頃之，其母死，起終不歸。曾子薄之，而與起絕。起乃之魯，學兵法以事魯君。魯君疑之，起殺妻以求將。夫魯小國，而有戰勝之名，則諸侯圖魯矣。且魯衛兄弟之國也，而君用起，則是棄衛。」魯君疑之，謝吳起。"
+            }
+          ]
         }
       },
-      "interpretation_note": "魯卒以為將保存魯國任用，與後文魏文侯任將各存國別與事件；殺妻及魯君疑謝記來源敘述，未因此填所有稱號終止。",
+      "interpretation_note": "魯卒以為將為任用起點；魯君疑之謝吳起為罷退。謝句未再寫將名，依本篇魯國任用敘事承接，屬編輯判讀；不影響另存魏國任用。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -515,7 +531,7 @@
       "person_id": "u9a_v5a_08h",
       "title": "相",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -538,9 +554,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-065-sun",
+              "source_id": "s-shiji-065-sun",
+              "paragraph_id": "c-shiji-065-sun:p012",
+              "quote": "田文既死，公叔為相，尚魏公主，而害吳起。公叔之僕曰：「起易去也。」公叔曰：「柰何？」其僕曰：「吳起為人節廉而自喜名也。君因先與武侯言曰：『夫吳起賢人也，而侯之國小，又與彊秦壤界，臣竊恐起之無留心也。』武侯即曰：『柰何？』君因謂武侯曰：『試延以公主，起有留心則必受之。無留心則必辭矣。以此卜之。』君因召吳起而與歸，即令公主怒而輕君。吳起見公主之賤君也，則必辭。」於是吳起見公主之賤魏相，果辭魏武侯。武侯疑之而弗信也。吳起懼得罪，遂去，即之楚。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -548,7 +572,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與來源用稱分存，制度未定者保留未分類；死亡、首次提及或被刑不補有效任期，諡稱不當生前已授同字稱號。",
+      "interpretation_note": "田文既死公叔為相記任用敘事起點，無明示年月；不由同官承接推血親或補田文全部任期。",
       "reviewer": "Codex（AI 代理）"
     },
     {
