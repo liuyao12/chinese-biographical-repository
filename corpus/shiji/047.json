@@ -26,7 +26,7 @@
   },
   "text_sha256": "2aa9e02454f33487aeb3bb3d42da9b41c2ff4285a8532392c317f9d059daf838",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "coverage": "全86段明示人名、部分短稱與匿名者首輪；版本、代詞、跨篇身份與完整稱號時段未完成。",
@@ -34,7 +34,8 @@
       "子路與仲由依第42段自答保存同指決定，已發ID保留；高昭子與郈昭伯分開。",
       "神怪、禹及防風氏等保留傳說敘事性，不當已確證史實。",
       "季、孟與叔孫氏等宗族稱呼不補成員姓名；君、三子與說話對象仍待核。",
-      "全篇代詞、親屬、跨篇身份與稱號有效時段未完成，未宣稱人工覆核。"
+      "全篇代詞、親屬、跨篇身份與稱號有效時段未完成，未宣稱人工覆核。",
+      "第二輪保存39筆生死（22死亡、17出生）、45筆地點及三項轉職終點；母諱範圍修為母，母死處補錨點，原ID及原文保留。原曆、跨篇身份、影像與其餘稱號時段待核。"
     ]
   },
   "paragraphs": [
@@ -218,12 +219,12 @@
         {
           "id": "c-shiji-047-kong:m002-0029",
           "start": 29,
-          "end": 31,
-          "surface": "母諱",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "宗族、群體、神怪、官稱或說話對象未定，不補成員姓名及親屬。"
+          "end": 30,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "ve8_hyx_yae",
+          "status": "contextual_provisional",
+          "note": "依父墓與孔子母死連續敘事，母指第1段生孔子的顏氏女；諱為動詞，不屬人物指稱。"
         },
         {
           "id": "c-shiji-047-kong:m002-0034",
@@ -242,6 +243,16 @@
           "kind": "person",
           "person_id": "f8d_j5p_nop_AAA",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-047-kong:m002-0052",
+          "start": 52,
+          "end": 53,
+          "surface": "母",
+          "kind": "person",
+          "person_id": "ve8_hyx_yae",
+          "status": "contextual_provisional",
+          "note": "孔子母死的母指第1段顏氏女，不同郰人輓父之母。"
         },
         {
           "id": "c-shiji-047-kong:m002-0067",
