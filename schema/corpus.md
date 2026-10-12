@@ -235,3 +235,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 死後授號亦可保存先死後賜的來源句：posthumous_basis 增列 death_term 及 grant_term，死亡原詞須在完整 source_term 中位於「賜夫人為」與所授稱號之前，起點證據一致。此規則記錄明示句序與編輯判讀，不由某人死亡自動推定所有稱號為追贈；不補來源未見的「追尊」二字。
 
 先死後授號的 grant_term 亦支援「號為」與所授稱號，例如《伯夷列傳》西伯卒後號為文王；死亡與授號原詞須依來源句序保存，不能補來源沒有的諡字。
+
+個人報齡可存餘歲界限與來源傳聞：value及birth_year空，下界不含、上界未知；source_number支援百位，source_term保留餘歲。report_group_id分組，source_qualification、reporting_status、qualified_source_term保存蓋或或言及完整限定語，不當確定壽命。
+
+同組個人報齡須同人物、篇及來源段落；alternative_report須與qualified_report同組。此為來源報說的分組，不合成確知壽命，來源歧說各存。

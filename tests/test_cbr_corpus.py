@@ -14,6 +14,28 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_reported_age_group_cannot_switch_person(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(person_id='0hj_4kj_cen'))
+        self.assertIn('同組報齡須同人物及來源段落', v.validate(self.root))
+    def test_reported_age_alternative_cannot_orphan_group(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(report_group_id='orphan-report'))
+        self.assertIn('報齡替代傳聞缺同組主報齡', v.validate(self.root))
+    def test_reported_age_lower_bound_matches_number(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(lower=200))
+        self.assertIn('個人報齡餘歲界限與原詞不符', v.validate(self.root))
+    def test_age_source_hundreds_keep_explicit_number(self):
+        self.assertEqual(v.source_age_number('百有六十'),160)
+        self.assertEqual(v.source_age_number('二百'),200)
+        self.assertIsNone(v.source_age_number('百餘'))
+    def test_reported_age_cannot_be_exact(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][0].update(value=160))
+        self.assertIn('個人報齡餘歲界限與原詞不符', v.validate(self.root))
+    def test_reported_age_cannot_invent_upper(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(upper=170))
+        self.assertIn('個人報齡餘歲界限與原詞不符', v.validate(self.root))
+    def test_reported_age_cannot_drop_qualification(self):
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(qualified_source_term='二百餘歲'))
+        self.assertIn('個人報齡缺來源限定詞或傳聞狀態', v.validate(self.root))
     def test_royal_inheritance_rejects_unrelated_predecessor(self):
         self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(predecessor_person_id='82d_8vl_8i1_C'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
