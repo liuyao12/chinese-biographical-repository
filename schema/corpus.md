@@ -223,3 +223,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 群體原語「年皆八十有餘」報齡可存 `value: null` 與 `bounds`：`lower: 80`、`lower_inclusive: false`，上限及上限包含性為 `null`。`source_number` 與完整 `source_term` 保持；`group_reference` 保存四人原語、具名名單原語及四個人物ID，須與同段姓名錨點一致且包含本人的ID。每人獨立引句，不把下界當精確歲數，不推出生年。此規則僅支援有明示四人名單的原語形式，其餘模糊年齡仍待擴充。
 
 死後諡名的原詞須以諡／謚、可省略的為／爲／曰與該諡名連接，不得僅因同一長引句另處出現此稱號便當作命名依據。原爲異體保持，省略為字的謚懿侯等亦保留。
+
+地址引句省略人物主語時，可另存 `evidence.context`，種類 `previous_paragraph_subject`，含前段 `paragraph_id`、人物 `person_mention_id` 與實際引句 `quote`。只接受同篇緊鄰前段，人物須與地址主體一致且錨點在前段引句中，另有判讀說明；主段地名與行程原詞仍須在本段引句。不在原文插入姓名，不按最近人物自動猜測主語。
+
+稱號來源月數含餘字時，可用 `reported_duration.value: null` 與 `bounds` 保存排他下界及未知上限，單位 `title_month`、計法 `unspecified_source_months`。居月餘下界一，原文未明寫數詞故 `source_number: null`；十餘月下界十、原數詞十。`lower_inclusive: false`，`upper` 及 `upper_inclusive` 均為 `null`。餘字與原引句必須保持，不能補精確月數、上限、出生年或公曆日數。此規則不把授任前的歲餘等待期當成持職任期。

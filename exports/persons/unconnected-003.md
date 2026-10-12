@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qdl_8tt_r4v` | 欒布 | [《史記・樊酈滕灌列傳》][77] | [JSON](qdl_8tt_r4v.json) |
 | `qdr_5yn_8kr` | 陳餘 | [《史記・張耳陳餘列傳》][71] | [JSON](qdr_5yn_8kr.json) |
 | `qdw_na8_gsj` | 田嗇 | [《史記・貨殖列傳》][111] | [JSON](qdw_na8_gsj.json) |
 | `qe0_q7r_mlc` | 鄭國 | [《史記・仲尼弟子列傳》][49] | [JSON](qe0_q7r_mlc.json) |
@@ -325,6 +326,7 @@
 | `s3t_6v0_13l` | 武王 | [《史記・商君列傳》][50] | [JSON](s3t_6v0_13l.json) |
 | `s42_8cl_8n4` | 管子 | [《史記・貨殖列傳》][111] | [JSON](s42_8cl_8n4.json) |
 | `s44_iy2_pf8` | 秦昭王 | [《史記・魏世家》][26] | [JSON](s44_iy2_pf8.json) |
+| `s4f_hyi_z66` | 東郡尉 | [《史記・絳侯周勃世家》][39] | [JSON](s4f_hyi_z66.json) |
 | `s4g_oc3_eon` | 富丁 | [《史記・趙世家》][25] | [JSON](s4g_oc3_eon.json) |
 | `s4y_bc6_4ay` | 簡王 | [《史記・周本紀》][4] | [JSON](s4y_bc6_4ay.json) |
 | `s50_pdk_ebh` | 左大將（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](s50_pdk_ebh.json) |
@@ -654,6 +656,7 @@
 | `tz3_xgn_rsu` | 魯謁居 | [《史記・酷吏列傳》][104] | [JSON](tz3_xgn_rsu.json) |
 | `tzq_88y_69k` | 衛長公主 | [《史記・孝武本紀》][12] | [JSON](tzq_88y_69k.json) |
 | `tzz_9l9_f83` | 王容 | [《史記・趙世家》][25] | [JSON](tzz_9l9_f83.json) |
+| `u0a_lyv_mx6` | 教周勃引公主為證之獄吏 | [《史記・絳侯周勃世家》][39] | [JSON](u0a_lyv_mx6.json) |
 | `u1j_dr2_488` | 潘尪（楚入鄭盟者） | [《史記・楚世家》][22] | [JSON](u1j_dr2_488.json) |
 | `u20_r6q_88g` | 安國少季 | [《史記・南越列傳》][95] | [JSON](u20_r6q_88g.json) |
 | `u23_jpf_vfr` | 秦始皇帝 | [《史記・范睢蔡澤列傳》][61] | [JSON](u23_jpf_vfr.json) |
@@ -946,6 +949,7 @@
 | `vqs_vxf_0gt` | 宋孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](vqs_vxf_0gt.json) |
 | `vqw_ylp_5mq` | 呂須 | [《史記・樊酈滕灌列傳》][77] | [JSON](vqw_ylp_5mq.json) |
 | `vrl_dy3_665` | 晉平公 | [《史記・孔子世家》][29] | [JSON](vrl_dy3_665.json) |
+| `vs4_jiv_8ps` | 勸周勃歸相印者 | [《史記・絳侯周勃世家》][39] | [JSON](vs4_jiv_8ps.json) |
 | `vs5_lya_vft` | 市被（燕將軍） | [《史記・燕召公世家》][16] | [JSON](vs5_lya_vft.json) |
 | `vs7_6qq_lwa` | 惠王（周） | [《史記・太史公自序》][112] | [JSON](vs7_6qq_lwa.json) |
 | `vs8_u6b_f8w` | 秦寧公 | [《史記・秦本紀》][5] | [JSON](vs8_u6b_f8w.json) |
