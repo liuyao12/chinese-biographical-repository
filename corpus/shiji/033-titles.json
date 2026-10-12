@@ -183,12 +183,20 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-033-lu",
+              "source_id": "s-shiji-033-lu",
+              "paragraph_id": "c-shiji-033-lu:p023",
+              "quote": "戲立，是爲懿公"
+            }
+          ]
         }
       },
-      "interpretation_note": "封授與用稱分開；伯禽歬受封不推卒後新授，太保派遣時用稱不當任職起點，未知曆日與終點不按卒日補造。",
+      "interpretation_note": "封授與用稱分開；伯禽歬受封不推卒後新授，太保派遣時用稱不當任職起點，未知曆日與終點不按卒日補造。 戲由太子立君；本句未獨立明言即位日，不借武公死亡日期。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -535,12 +543,20 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-033-lu",
+              "source_id": "s-shiji-033-lu",
+              "paragraph_id": "c-shiji-033-lu:p032",
+              "quote": "而立子允爲君，是爲桓公"
+            }
+          ]
         }
       },
-      "interpretation_note": "以允為太子的事件與惠公卒後攝政分開；無日期即保留未知。",
+      "interpretation_note": "以允為太子的事件與惠公卒後攝政分開；無日期即保留未知。 允立君而太子身分終止；月份與年次保持原段引用，未換公曆。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -715,12 +731,20 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-033-lu",
+              "source_id": "s-shiji-033-lu",
+              "paragraph_id": "c-shiji-033-lu:p038",
+              "quote": "立太子同，是爲莊公"
+            }
+          ]
         }
       },
-      "interpretation_note": "同長為太子的明示事件；六年是夫人生子之年，未推為同長立太子的日期。",
+      "interpretation_note": "同長為太子的明示事件；六年是夫人生子之年，未推為同長立太子的日期。 同由太子立君；不借桓公死亡干支當即位日。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2254,6 +2278,393 @@
       },
       "interpretation_note": "本文由君亡遷下邑而為家人的身份降轉；沒有確切日期，不換算為廢黜日或以卒日補終點。後文仍稱頃公，故不據降轉刪除敘事追稱。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji033-053",
+      "person_id": "y4i_pjk_4gn_ADAA",
+      "title": "考公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p015",
+          "quote": "魯公伯禽卒，子考公酋立。",
+          "person_mention_id": "c-shiji-033-lu:m015-0007"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-053:a001",
+          "paragraph_id": "c-shiji-033-lu:p015",
+          "start": 7,
+          "end": 9,
+          "surface": "考公",
+          "person_mention_id": "c-shiji-033-lu:m015-0007",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-054",
+      "person_id": "rcz_7hh_455",
+      "title": "煬公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p016",
+          "quote": "考公四年卒，立弟熙，是謂煬公。煬公筑茅闕門。",
+          "person_mention_id": "c-shiji-033-lu:m016-0012"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-054:a001",
+          "paragraph_id": "c-shiji-033-lu:p016",
+          "start": 12,
+          "end": 14,
+          "surface": "煬公",
+          "person_mention_id": "c-shiji-033-lu:m016-0012",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-055",
+      "person_id": "tz2_ke2_7l1",
+      "title": "幽公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p017",
+          "quote": "六年卒，子幽公宰立。",
+          "person_mention_id": "c-shiji-033-lu:m017-0005"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-055:a001",
+          "paragraph_id": "c-shiji-033-lu:p017",
+          "start": 5,
+          "end": 7,
+          "surface": "幽公",
+          "person_mention_id": "c-shiji-033-lu:m017-0005",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-056",
+      "person_id": "fd3_tly_1lo",
+      "title": "魏公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p018",
+          "quote": "幽公十四年，幽公弟沸殺幽公而自立，是爲魏公。",
+          "person_mention_id": "c-shiji-033-lu:m018-0019"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-056:a001",
+          "paragraph_id": "c-shiji-033-lu:p018",
+          "start": 19,
+          "end": 21,
+          "surface": "魏公",
+          "person_mention_id": "c-shiji-033-lu:m018-0019",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-057",
+      "person_id": "fd3_tly_1lo_A",
+      "title": "厲公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "quote": "魏公五十年卒，子厲公擢立。",
+          "person_mention_id": "c-shiji-033-lu:m019-0008"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-057:a001",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "start": 8,
+          "end": 10,
+          "surface": "厲公",
+          "person_mention_id": "c-shiji-033-lu:m019-0008",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-058",
+      "person_id": "50h_gqe_1p1",
+      "title": "獻公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p020",
+          "quote": "厲公三十七年卒，魯人立其弟具，是爲獻公。",
+          "person_mention_id": "c-shiji-033-lu:m020-0017"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-058:a001",
+          "paragraph_id": "c-shiji-033-lu:p020",
+          "start": 17,
+          "end": 19,
+          "surface": "獻公",
+          "person_mention_id": "c-shiji-033-lu:m020-0017",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-059",
+      "person_id": "50h_gqe_1p1_A",
+      "title": "真公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p021",
+          "quote": "獻公三十二年卒，子真公濞立。",
+          "person_mention_id": "c-shiji-033-lu:m021-0009"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-059:a001",
+          "paragraph_id": "c-shiji-033-lu:p021",
+          "start": 9,
+          "end": 11,
+          "surface": "真公",
+          "person_mention_id": "c-shiji-033-lu:m021-0009",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-060",
+      "person_id": "0s7_r72_j8q_B",
+      "title": "懿公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "quote": "武公九年春，武公與長子括，少子戲，西朝周宣王。宣王愛戲，欲立戲爲魯太子。周之樊仲山父諫宣王曰：『廢長立少，不順；不順，必犯王命；犯王命，必誅之：故出令不可不順也。令之不行，政之不立；行而不順，民將棄上。夫下事上，少事長，所以爲順。今天子建諸矦，立其少，是教民逆也。若魯從之，諸矦效之，王命將有所壅；若弗從而誅之，是自誅王命也。誅之亦失，不誅亦失，王其圖之。』宣王弗聽，卒立戲爲魯太子。夏，武公歸而卒，戲立，是爲懿公。",
+          "person_mention_id": "c-shiji-033-lu:m023-0205"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-060:a001",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "start": 205,
+          "end": 207,
+          "surface": "懿公",
+          "person_mention_id": "c-shiji-033-lu:m023-0205",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "th-shiji033-061",
+      "person_id": "h1v_8ap_b9y",
+      "title": "相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p040",
+          "quote": "八年，齊公子糾來奔。九年，魯欲內子糾於齊，後桓公，桓公發兵擊魯，魯急，殺子糾。召忽死。齊告魯生致管仲。魯人施伯曰：『齊欲得管仲，非殺之也，將用之，用之則爲魯患。不如殺，以其尸與之。』莊公不聽，遂囚管仲與齊。齊人相管仲。",
+          "person_mention_id": "c-shiji-033-lu:m040-0048"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-061:a001",
+          "paragraph_id": "c-shiji-033-lu:p040",
+          "start": 105,
+          "end": 106,
+          "surface": "相",
+          "person_mention_id": "c-shiji-033-lu:m040-0048",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ],
   "coverage": "全篇52項授予、降轉／用稱試點；公號追稱、任事、攝政角色、制度、日期與完整稱號史仍待覆核。"
