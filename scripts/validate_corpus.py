@@ -422,7 +422,7 @@ def validate(root=ROOT):
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
-                check(h['mode'] in ('grant','posthumous_grant','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
+                check(h['mode'] in ('grant','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
                 def title_evidence(e):
                     hit=paragraphs.get(e['paragraph_id'])
@@ -491,6 +491,23 @@ def validate(root=ROOT):
                     check(valid,'追尊授號缺少相符原詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
+                if h['mode']=='posthumous_naming' or 'naming_basis' in h:
+                    basis=h.get('naming_basis')
+                    valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
+                           and set(basis)=={'source_term','death_term','evidence'}
+                           and isinstance(basis['source_term'],str)
+                           and bool(re.search(r'(?:諡|謚)(?:為|曰)',basis['source_term']))
+                           and h['title'] in basis['source_term']
+                           and isinstance(basis['death_term'],str)
+                           and bool(re.search(r'卒|薨|死',basis['death_term']))
+                           and isinstance(basis['evidence'],list) and bool(basis['evidence'])
+                           and basis['evidence']==h['effective_period']['start']['evidence']
+                           and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
+                                   and basis['source_term'] in e['quote'] and basis['death_term'] in e['quote']
+                                   for e in basis['evidence']))
+                    check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
+                    if valid:
+                        for e in basis['evidence']:title_evidence(e)
                 if 'reported_duration' in h:
                     duration=h['reported_duration']
                     valid=isinstance(duration,dict) and set(duration)=={'value','unit','source_term','source_number','counting','status','evidence'}
@@ -557,7 +574,7 @@ def validate(root=ROOT):
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
                     else:
                         check(bool(boundary['evidence']),'稱號時段事件缺少證據')
-                        allowed=('grant','posthumous_grant','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
+                        allowed=('grant','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
                         check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']

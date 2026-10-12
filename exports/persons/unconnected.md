@@ -119,6 +119,7 @@
 | `0nh_j0e_l31` | 建（右將軍，匈奴列傳省稱） | [《史記・匈奴列傳》][92] | [JSON](0nh_j0e_l31.json) |
 | `0np_0mp_q1l` | 湯 | [《史記・太史公自序》][112] | [JSON](0np_0mp_q1l.json) |
 | `0o0_6rh_6u5` | 韓公叔 | [《史記・張儀列傳》][52] | [JSON](0o0_6rh_6u5.json) |
+| `0o2_6vg_6es` | 說相國客（蕭相國世家未名者） | [《史記・蕭相國世家》][35] | [JSON](0o2_6vg_6es.json) |
 | `0of_7ly_ddz` | 竇太后 | [《史記・楚元王世家》][32] | [JSON](0of_7ly_ddz.json) |
 | `0oi_5wz_q0n` | 項伯 | [《史記・黥布列傳》][73] | [JSON](0oi_5wz_q0n.json) |
 | `0p4_7a4_vvh` | 龐涓 | [《史記・孫子吳起列傳》][47] | [JSON](0p4_7a4_vvh.json) |
@@ -2232,8 +2233,6 @@
 | `ddb_bi5_eco` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](ddb_bi5_eco.json) |
 | `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][1] | [JSON](ddb_l4j_4j2.json) |
 | `ddd_32x_k8h` | 膠東王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](ddd_32x_k8h.json) |
-| `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][53] | [JSON](ddf_jql_z0y.json) |
-| `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][6] | [JSON](ddp_ol8_1w5.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
