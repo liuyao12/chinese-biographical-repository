@@ -247,3 +247,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ### 來源相對年齡差
 
 `annotation.age_difference_assertions` 與個人報齡分存。`person_id`、`reference_person_id` 是兩個不同人物；`comparison: younger_than`、`value` 保存原文「少某人若干歲／歳」的差值，`source_number`、`source_term` 保留原字。每筆證據同段含 `person_mention_id` 與 `reference_person_mention_id`，兩人物及原詞必須在引句內。單位為 `source_age_years`，計歲方式保持 `unspecified_source_age`，生年與日期未知，不由參考人物年譜推生年。逐人JSON從雙方皆可讀 `age_difference_assertions`，仍保留來源與篇段；不是本人的年齡。
+
+
+`reported_duration.approximation` 保存相鄰年數的來源約數，例如「相秦六七年」。`value: null`、`unit: title_year`、`counting: unspecified_source_years`，原數詞為 `source_number: 六七`，約數結構為 `{"kind":"adjacent_year_numbers","numbers":[6,7]}`。兩數是原詞的數字化表示，不是精確值、可選的已確定年數或嚴格上下界；不可同時設 `bounds`，亦不可讀成六十七年。原詞、來源引句及持有人錨點均須保留。首批只支援一至九中遞增相鄰的兩個數詞，其他約數形式須另行擴充。來源敘事時點的持職年數不等於完整任期總長，不推起訖日期。
+
+
+地址關係 `polity_lineage_affiliation` 保存篇首等來源明記的政體宗族地望，例如「衛之諸庶孽公子」。首批 `qualifiers.affiliation_kind: royal_lineage`，人物 ID 是來源所指公族成員，地名保存原政體名。此類不是出生地、居地或本人籍貫，不據姓氏補具名父母、遠祖或世代；原詞須含政體與公子、公孫或宗室的明示身份。

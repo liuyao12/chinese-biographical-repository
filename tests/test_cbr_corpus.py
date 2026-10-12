@@ -14,6 +14,32 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_polity_lineage_address_requires_royal_scope(self):
+        self.change('corpus/shiji/068-addresses.json', lambda d: next(a for a in d['assertions'] if a['id']=='pa-shiji068-007').update(qualifiers={}))
+        self.assertIn('宗族政體地望須有來源身份詞，不改作出生籍貫', v.validate(self.root))
+    def test_polity_lineage_address_cannot_drop_lineage_phrase(self):
+        self.change('corpus/shiji/068-addresses.json', lambda d: next(a for a in d['assertions'] if a['id']=='pa-shiji068-007').update(source_term='衛'))
+        self.assertIn('宗族政體地望須有來源身份詞，不改作出生籍貫', v.validate(self.root))
+    def change_shang_approximation(self, fn):
+        self.change('corpus/shiji/068-titles.json', lambda d: fn(next(h for h in d['holdings'] if h['id']=='th-shiji068-020')['reported_duration']))
+    def test_title_adjacent_years_cannot_be_exact(self):
+        self.change_shang_approximation(lambda d: d.update(value=6))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
+    def test_title_adjacent_years_cannot_be_strict_bounds(self):
+        self.change_shang_approximation(lambda d: d.update(bounds={'lower':6,'upper':7,'lower_inclusive':True,'upper_inclusive':True}))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
+    def test_title_adjacent_years_require_source_numbers(self):
+        self.change_shang_approximation(lambda d: d['approximation'].update(numbers=[6,8]))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
+    def test_title_adjacent_years_cannot_change_unit(self):
+        self.change_shang_approximation(lambda d: d.update(unit='title_month',counting='unspecified_source_months'))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
+    def test_title_adjacent_years_cannot_change_source_numeral(self):
+        self.change_shang_approximation(lambda d: d.update(source_number='六八'))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
+    def test_title_adjacent_years_reject_nonadjacent_source_reading(self):
+        self.change_shang_approximation(lambda d: d.update(source_number='六八',source_term='相秦六八年',approximation={'kind':'adjacent_year_numbers','numbers':[6,8]}))
+        self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
     def test_reported_age_group_cannot_switch_person(self):
         self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(person_id='0hj_4kj_cen'))
         self.assertIn('同組報齡須同人物及來源段落', v.validate(self.root))
