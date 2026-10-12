@@ -6,6 +6,13 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qdw_na8_gsj` | 田嗇 | [《史記・貨殖列傳》][111] | [JSON](qdw_na8_gsj.json) |
+| `qe0_q7r_mlc` | 鄭國 | [《史記・仲尼弟子列傳》][49] | [JSON](qe0_q7r_mlc.json) |
+| `qei_urq_n8p` | 光子乘羽 | [《史記・仲尼弟子列傳》][49] | [JSON](qei_urq_n8p.json) |
+| `qej_ds3_yc4` | 武王 | [《史記・留侯世家》][37] | [JSON](qej_ds3_yc4.json) |
+| `qel_t1a_itz` | 劇孟母（未名） | [《史記・游俠列傳》][106] | [JSON](qel_t1a_itz.json) |
+| `qep_rho_j32` | 負芻（末楚王） | [《史記・楚世家》][22] | [JSON](qep_rho_j32.json) |
+| `qf1_qbc_81g` | 張春 | [《史記・韓信盧綰列傳》][75] | [JSON](qf1_qbc_81g.json) |
 | `qf6_ach_02x` | 王成 | [《史記・平津侯主父列傳》][94] | [JSON](qf6_ach_02x.json) |
 | `qff_r3w_1jo` | 魏媼 | [《史記・外戚世家》][31] | [JSON](qff_r3w_1jo.json) |
 | `qfh_0ve_74z` | 太史公 | [《史記・樂毅列傳》][62] | [JSON](qfh_0ve_74z.json) |
@@ -624,6 +631,7 @@
 | `ttx_okj_hbd` | 桓王 | [《史記・周本紀》][4] | [JSON](ttx_okj_hbd.json) |
 | `tua_sdl_ttd` | 大將軍光 | [《史記・三王世家》][42] | [JSON](tua_sdl_ttd.json) |
 | `tuo_3kv_ptz` | 條侯（本篇稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tuo_3kv_ptz.json) |
+| `tup_86k_24c` | 東郡尉（曹相國世家未名者） | [《史記・曹相國世家》][36] | [JSON](tup_86k_24c.json) |
 | `tup_apk_ufr` | 招（陳司徒） | [《史記・陳杞世家》][18] | [JSON](tup_apk_ufr.json) |
 | `tux_am7_z4u` | 禽滑釐 | [《史記・儒林列傳》][103] | [JSON](tux_am7_z4u.json) |
 | `tv1_g5t_723` | 男子但 | [《史記・淮南衡山列傳》][100] | [JSON](tv1_g5t_723.json) |
