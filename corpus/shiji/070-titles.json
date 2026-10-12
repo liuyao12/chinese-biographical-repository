@@ -180,7 +180,7 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "秦惠王十年",
           "evidence": [
             {
               "chapter_id": "c-shiji-070-zhang",
@@ -188,7 +188,53 @@
               "paragraph_id": "c-shiji-070-zhang:p010",
               "quote": "秦惠王十年，使公子華與張儀圍蒲陽，降之。儀因言秦復與魏，而使公子繇質於魏。儀因說魏王曰：「秦王之遇魏甚厚，魏不可以無禮。」魏因入上郡、少梁，謝秦惠王。惠王乃以張儀為相，更名少梁曰夏陽。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 328,
+            "year": -327,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "秦惠王十年，使公子華與張儀圍蒲陽，降之。儀因言秦復與魏，而使公子繇質於魏。儀因說魏王曰：「秦王之遇魏甚厚，魏不可以無禮。」魏因入上郡、少梁，謝秦惠王。惠王乃以張儀為相，更名少梁曰夏陽。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-070-zhang",
+                "source_id": "s-shiji-070-zhang",
+                "paragraph_id": "c-shiji-070-zhang:p010",
+                "quote": "秦惠王十年，使公子華與張儀圍蒲陽，降之。儀因言秦復與魏，而使公子繇質於魏。儀因說魏王曰：「秦王之遇魏甚厚，魏不可以無禮。」魏因入上郡、少梁，謝秦惠王。惠王乃以張儀為相，更名少梁曰夏陽。",
+                "person_mention_id": "c-shiji-070-zhang:m010-0011"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "以張儀為相",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "十。張儀相。公子桑圍蒲陽，降之。魏納上郡。",
+              "reference_year_quote": "328"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十。張儀相。公子桑圍蒲陽，降之。魏納上郡。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r149-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "328",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r149-c00"
+              }
+            ],
+            "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "source_event",
@@ -201,11 +247,74 @@
               "paragraph_id": "c-shiji-070-zhang:p012",
               "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 322,
+            "year": -321,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-070-zhang",
+                "source_id": "s-shiji-070-zhang",
+                "paragraph_id": "c-shiji-070-zhang:p012",
+                "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。",
+                "person_mention_id": "c-shiji-070-zhang:m012-0045"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "東還而免相",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "三。張儀免相，相魏。",
+              "reference_year_quote": "322"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "三。張儀免相，相魏。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r155-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "322",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r155-c00"
+              }
+            ],
+            "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "只錄明示授官、貶降與文獻用稱；未知曆日不補日期，四歲、一歲等時長留在原引文，不自動推算數值區間。相蜀、相魏、相秦與執珪制度種類待核；不因死亡終止所有官爵。第12段東還而免相明示秦相終止，只用於第10段的秦相任職，不終止客卿、秦將或武信君。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "只錄明示授官、貶降與文獻用稱；未知曆日不補日期，四歲、一歲等時長留在原引文，不自動推算數值區間。相蜀、相魏、相秦與執珪制度種類待核；不因死亡終止所有官爵。第12段東還而免相明示秦相終止，只用於第10段的秦相任職，不終止客卿、秦將或武信君。 四歲為敘事當時相秦年數，不據此計算任相的確切起訖或總任期；一歲保留來源相魏年數，未推滿一個公曆年。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 4,
+        "unit": "title_year",
+        "source_number": "四",
+        "source_term": "儀相秦四歲",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-070-zhang",
+            "source_id": "s-shiji-070-zhang",
+            "paragraph_id": "c-shiji-070-zhang:p011",
+            "quote": "儀相秦四歲，立惠王為王。居一歲，為秦將，取陜。筑上郡塞。",
+            "person_mention_id": "c-shiji-070-zhang:m011-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji070-005",
@@ -302,7 +411,7 @@
       "person_id": "5an_r55_hee",
       "title": "相魏",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -325,9 +434,63 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-070-zhang",
+              "source_id": "s-shiji-070-zhang",
+              "paragraph_id": "c-shiji-070-zhang:p012",
+              "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 322,
+            "year": -321,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-070-zhang",
+                "source_id": "s-shiji-070-zhang",
+                "paragraph_id": "c-shiji-070-zhang:p012",
+                "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。",
+                "person_mention_id": "c-shiji-070-zhang:m012-0045"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "相魏以為秦",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "三。張儀免相，相魏。",
+              "reference_year_quote": "322"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "三。張儀免相，相魏。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r155-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "322",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r155-c00"
+              }
+            ],
+            "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -376,7 +539,53 @@
               "paragraph_id": "c-shiji-070-zhang:p020",
               "quote": "哀王於是乃倍從約而因儀請成於秦。張儀歸，復相秦。三歲而魏復背秦為從。秦攻魏，取曲沃。明年，魏復事秦。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 317,
+            "year": -316,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "哀王於是乃倍從約而因儀請成於秦。張儀歸，復相秦。三歲而魏復背秦為從。秦攻魏，取曲沃。明年，魏復事秦。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-070-zhang",
+                "source_id": "s-shiji-070-zhang",
+                "paragraph_id": "c-shiji-070-zhang:p020",
+                "quote": "哀王於是乃倍從約而因儀請成於秦。張儀歸，復相秦。三歲而魏復背秦為從。秦攻魏，取曲沃。明年，魏復事秦。",
+                "person_mention_id": "c-shiji-070-zhang:m020-0010"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "復相秦",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "八。與韓、趙戰，斬首八萬。張儀復相。",
+              "reference_year_quote": "317"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "八。與韓、趙戰，斬首八萬。張儀復相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r160-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "317",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r160-c00"
+              }
+            ],
+            "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -425,7 +634,53 @@
               "paragraph_id": "c-shiji-070-zhang:p021",
               "quote": "秦欲伐齊，齊楚從親，於是張儀往相楚。楚懷王聞張儀來，虛上舍而自館之。曰：「此僻陋之國，子何以教之？」儀說楚王曰：「大王誠能聽臣，閉關絕約於齊，臣請獻商於之地六百里，使秦女得為大王箕帚之妾，秦楚娶婦嫁女，長為兄弟之國。此北弱齊而西益秦也，計無便此者。」楚王大說而許之。群臣皆賀，陳軫獨弔之。楚王怒曰：「寡人不興師發兵得六百里地，群臣皆賀，子獨弔，何也？」陳軫對曰：「不然，以臣觀之，商於之地不可得而齊秦合，齊秦合則患必至矣。」楚王曰：「有說乎？」陳軫對曰：「夫秦之所以重楚者，以其有齊也。今閉關絕約於齊，則楚孤。秦奚貪夫孤國，而與之商於之地六百里？張儀至秦，必負王，是北絕齊交，西生患於秦也，而兩國之兵必俱至。善為王計者，不若陰合而陽絕於齊，使人隨張儀。茍與吾地，絕齊未晚也；不與吾地，陰合謀計也。」楚王曰：「願陳子閉口毋復言，以待寡人得地。」乃以相印授張儀，厚賂之。於是遂閉關絕約於齊，使一將軍隨張儀。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 313,
+            "year": -312,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "秦欲伐齊，齊楚從親，於是張儀往相楚。楚懷王聞張儀來，虛上舍而自館之。曰：「此僻陋之國，子何以教之？」儀說楚王曰：「大王誠能聽臣，閉關絕約於齊，臣請獻商於之地六百里，使秦女得為大王箕帚之妾，秦楚娶婦嫁女，長為兄弟之國。此北弱齊而西益秦也，計無便此者。」楚王大說而許之。群臣皆賀，陳軫獨弔之。楚王怒曰：「寡人不興師發兵得六百里地，群臣皆賀，子獨弔，何也？」陳軫對曰：「不然，以臣觀之，商於之地不可得而齊秦合，齊秦合則患必至矣。」楚王曰：「有說乎？」陳軫對曰：「夫秦之所以重楚者，以其有齊也。今閉關絕約於齊，則楚孤。秦奚貪夫孤國，而與之商於之地六百里？張儀至秦，必負王，是北絕齊交，西生患於秦也，而兩國之兵必俱至。善為王計者，不若陰合而陽絕於齊，使人隨張儀。茍與吾地，絕齊未晚也；不與吾地，陰合謀計也。」楚王曰：「願陳子閉口毋復言，以待寡人得地。」乃以相印授張儀，厚賂之。於是遂閉關絕約於齊，使一將軍隨張儀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-070-zhang",
+                "source_id": "s-shiji-070-zhang",
+                "paragraph_id": "c-shiji-070-zhang:p021",
+                "quote": "秦欲伐齊，齊楚從親，於是張儀往相楚。楚懷王聞張儀來，虛上舍而自館之。曰：「此僻陋之國，子何以教之？」儀說楚王曰：「大王誠能聽臣，閉關絕約於齊，臣請獻商於之地六百里，使秦女得為大王箕帚之妾，秦楚娶婦嫁女，長為兄弟之國。此北弱齊而西益秦也，計無便此者。」楚王大說而許之。群臣皆賀，陳軫獨弔之。楚王怒曰：「寡人不興師發兵得六百里地，群臣皆賀，子獨弔，何也？」陳軫對曰：「不然，以臣觀之，商於之地不可得而齊秦合，齊秦合則患必至矣。」楚王曰：「有說乎？」陳軫對曰：「夫秦之所以重楚者，以其有齊也。今閉關絕約於齊，則楚孤。秦奚貪夫孤國，而與之商於之地六百里？張儀至秦，必負王，是北絕齊交，西生患於秦也，而兩國之兵必俱至。善為王計者，不若陰合而陽絕於齊，使人隨張儀。茍與吾地，絕齊未晚也；不與吾地，陰合謀計也。」楚王曰：「願陳子閉口毋復言，以待寡人得地。」乃以相印授張儀，厚賂之。於是遂閉關絕約於齊，使一將軍隨張儀。",
+                "person_mention_id": "c-shiji-070-zhang:m021-0012"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "乃以相印授張儀",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "十六。張儀來相。",
+              "reference_year_quote": "313"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十六。張儀來相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r164-c06"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "313",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r164-c00"
+              }
+            ],
+            "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -736,8 +991,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只錄明示授官、貶降與文獻用稱；未知曆日不補日期，四歲、一歲等時長留在原引文，不自動推算數值區間。相蜀、相魏、相秦與執珪制度種類待核；不因死亡終止所有官爵。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "只錄明示授官、貶降與文獻用稱；未知曆日不補日期，四歲、一歲等時長留在原引文，不自動推算數值區間。相蜀、相魏、相秦與執珪制度種類待核；不因死亡終止所有官爵。 四歲為敘事當時相秦年數，不據此計算任相的確切起訖或總任期；一歲保留來源相魏年數，未推滿一個公曆年。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 1,
+        "unit": "title_year",
+        "source_number": "一",
+        "source_term": "張儀相魏一歲",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-070-zhang",
+            "source_id": "s-shiji-070-zhang",
+            "paragraph_id": "c-shiji-070-zhang:p051",
+            "quote": "張儀相魏一歲，卒於魏也。",
+            "person_mention_id": "c-shiji-070-zhang:m051-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji070-017",
@@ -778,6 +1050,153 @@
         }
       },
       "interpretation_note": "只錄明示授官、貶降與文獻用稱；未知曆日不補日期，四歲、一歲等時長留在原引文，不自動推算數值區間。相蜀、相魏、相秦與執珪制度種類待核；不因死亡終止所有官爵。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji070-018",
+      "person_id": "x9j_eu1_vck",
+      "title": "惠王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p011",
+          "quote": "儀相秦四歲，立惠王為王。居一歲，為秦將，取陜。筑上郡塞。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji070-018:a001",
+          "paragraph_id": "c-shiji-070-zhang:p011",
+          "start": 7,
+          "end": 9,
+          "surface": "惠王",
+          "person_mention_id": "c-shiji-070-zhang:m011-0007",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-070-zhang",
+              "source_id": "s-shiji-070-zhang",
+              "paragraph_id": "c-shiji-070-zhang:p011",
+              "quote": "儀相秦四歲，立惠王為王。居一歲，為秦將，取陜。筑上郡塞。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本篇立惠王為王、哀王立或武王即位的來源事件；名稱是本文用稱，不當其即位當日已得諡號。未補確切日期或由卒日推王號終點。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji070-019",
+      "person_id": "n79_99b_tpt",
+      "title": "哀王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p012",
+          "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji070-019:a001",
+          "paragraph_id": "c-shiji-070-zhang:p012",
+          "start": 88,
+          "end": 90,
+          "surface": "哀王",
+          "person_mention_id": "c-shiji-070-zhang:m012-0088",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-070-zhang",
+              "source_id": "s-shiji-070-zhang",
+              "paragraph_id": "c-shiji-070-zhang:p012",
+              "quote": "其後二年，使與齊、楚之相會齧桑。東還而免相，相魏以為秦，欲令魏先事秦而諸侯效之。魏王不肯聽儀。秦王怒，伐取魏之曲沃、平周，復陰厚張儀益甚。張儀慚，無以歸報。留魏四歲而魏襄王卒，哀王立。張儀復說哀王，哀王不聽。於是張儀陰令秦伐魏。魏與秦戰，敗。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本篇立惠王為王、哀王立或武王即位的來源事件；名稱是本文用稱，不當其即位當日已得諡號。未補確切日期或由卒日推王號終點。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji070-020",
+      "person_id": "6mm_1pn_fhf",
+      "title": "武王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p049",
+          "quote": "燕王曰：「寡人蠻夷僻處，雖大男子裁如嬰兒，言不足以采正計。今上客幸教之，請西面而事秦，獻恒山之尾五城。」燕王聽儀。儀歸報，未至咸陽而秦惠王卒，武王立。武王自為太子時不說張儀，及即位，群臣多讒張儀曰：「無信，左右賣國以取容。秦必復用之，恐為天下笑。」諸侯聞張儀有卻武王，皆畔衡，復合從。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji070-020:a001",
+          "paragraph_id": "c-shiji-070-zhang:p049",
+          "start": 71,
+          "end": 73,
+          "surface": "武王",
+          "person_mention_id": "c-shiji-070-zhang:m049-0071",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-070-zhang",
+              "source_id": "s-shiji-070-zhang",
+              "paragraph_id": "c-shiji-070-zhang:p049",
+              "quote": "燕王曰：「寡人蠻夷僻處，雖大男子裁如嬰兒，言不足以采正計。今上客幸教之，請西面而事秦，獻恒山之尾五城。」燕王聽儀。儀歸報，未至咸陽而秦惠王卒，武王立。武王自為太子時不說張儀，及即位，群臣多讒張儀曰：「無信，左右賣國以取容。秦必復用之，恐為天下笑。」諸侯聞張儀有卻武王，皆畔衡，復合從。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本篇立惠王為王、哀王立或武王即位的來源事件；名稱是本文用稱，不當其即位當日已得諡號。未補確切日期或由卒日推王號終點。",
       "reviewer": "Codex（AI 代理）"
     }
   ]

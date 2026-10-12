@@ -3,6 +3,38 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_zhangyi_dated_tenures_do_not_turn_point_duration_into_total(self):
+        result = bundle('5an_r55_hee', include_provisional=True)
+        holdings = {h['id']:h for h in result['title_holdings']}
+        h = holdings['th-shiji070-004']
+        self.assertEqual(h['reported_duration']['value'], 4)
+        self.assertEqual(h['reported_duration']['source_term'], '儀相秦四歲')
+        self.assertEqual(h['reported_duration']['counting'], 'unspecified_source_years')
+        self.assertEqual((h['effective_period']['start']['normalized_date']['era_year'], h['effective_period']['end']['normalized_date']['era_year']), (328,322))
+        self.assertEqual(holdings['th-shiji070-016']['reported_duration']['value'], 1)
+        self.assertNotIn('reported_duration', holdings['th-shiji070-007'])
+        self.assertEqual(holdings['th-shiji070-007']['effective_period']['end']['status'], 'unknown')
+    def test_zhangyi_death_year_and_death_place_keep_exact_sources(self):
+        result = bundle('5an_r55_hee', include_provisional=True)
+        death = next(e for e in result['life_events'] if e['id']=='le-shiji070-006')
+        date = death['normalized_date']
+        self.assertEqual((date['era_year'],date['year']), (309,-308))
+        self.assertEqual(date['references'][0]['quote'], '十。張儀死。')
+        self.assertEqual(date['references'][1]['quote'], '309')
+        self.assertEqual(len(death['evidence']), 2)
+        self.assertTrue(any(a['relation']=='death_place' and a['place']['source_name']=='魏' for a in result['address_assertions']))
+    def test_qugai_identity_does_not_erase_killed_and_captured_difference(self):
+        result = bundle('fu8_kck_4vb', include_provisional=True)
+        death = next(e for e in result['life_events'] if e['id']=='le-shiji070-002')
+        self.assertEqual(death['source_term'], '殺屈丐')
+        self.assertIn('虜其將屈丐', death['interpretation_note'])
+        self.assertNotIn('normalized_date', death)
+    def test_zhangyi_north_to_yan_is_not_dai_king_journey(self):
+        result = bundle('5an_r55_hee', include_provisional=True)
+        journey = next(a for a in result['address_assertions'] if a['id']=='pa-shiji070-010')
+        self.assertEqual(journey['evidence'][0]['context']['paragraph_id'], 'c-shiji-070-zhang:p045')
+        self.assertEqual(journey['source_term'], '北之燕')
+        self.assertEqual(journey['place']['source_name'], '燕')
     def test_suqin_journeys_include_complete_carried_subject_passages(self):
         result = bundle('98y_02x_z6o', include_provisional=True)
         journey = next(a for a in result['address_assertions'] if a['id']=='pa-shiji069-004')
