@@ -6,6 +6,10 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][112] | [JSON](ddq_o5z_ic3.json) |
+| `de9_bqj_6wy` | 屠中少年未名 | [《史記・淮陰侯列傳》][74] | [JSON](de9_bqj_6wy.json) |
+| `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][11] | [JSON](dep_bjj_vwe.json) |
+| `dfm_lmc_f1j` | 左賢王（元狩二年未名） | [《史記・匈奴列傳》][92] | [JSON](dfm_lmc_f1j.json) |
 | `dfq_kor_hpu` | 祁傒（薦人者） | [《史記・晉世家》][21] | [JSON](dfq_kor_hpu.json) |
 | `dfy_5r0_ek4` | 田文子 | [《史記・齊太公世家》][14] | [JSON](dfy_5r0_ek4.json) |
 | `dfy_jd8_999` | 張同 | [《史記・項羽本紀》][7] | [JSON](dfy_jd8_999.json) |
@@ -115,6 +119,7 @@
 | `dwo_kn0_m9w` | 度（管蔡提要） | [《史記・太史公自序》][112] | [JSON](dwo_kn0_m9w.json) |
 | `dwt_ot1_ura` | 呂嘉弟 | [《史記・南越列傳》][95] | [JSON](dwt_ot1_ura.json) |
 | `dwv_5hn_680` | 孟賁 | [《史記・張儀列傳》][52] | [JSON](dwv_5hn_680.json) |
+| `dxb_p5k_req` | 主父偃女（齊悼惠王世家未名者） | [《史記・齊悼惠王世家》][34] | [JSON](dxb_p5k_req.json) |
 | `dxg_r97_rmd` | 周庸 | [《史記・游俠列傳》][106] | [JSON](dxg_r97_rmd.json) |
 | `dxi_0q9_9vq` | 公孫喜 | [《史記・秦本紀》][5] | [JSON](dxi_0q9_9vq.json) |
 | `dxn_drv_maj` | 趙穿 | [《史記・晉世家》][21] | [JSON](dxn_drv_maj.json) |
@@ -1149,6 +1154,7 @@
 | `jsn_gfv_ekd` | 孝矦（晉君） | [《史記・魯周公世家》][15] | [JSON](jsn_gfv_ekd.json) |
 | `jt4_7tp_14h` | 衞武公（季札論樂稱） | [《史記・吳太伯世家》][13] | [JSON](jt4_7tp_14h.json) |
 | `jt5_4xj_v0y` | 栗卿 | [《史記・萬石張叔列傳》][85] | [JSON](jt5_4xj_v0y.json) |
+| `jty_k77_wuh` | 曹參相舍人（齊悼惠王世家未名者） | [《史記・齊悼惠王世家》][34] | [JSON](jty_k77_wuh.json) |
 | `ju6_1ic_2zu` | 灌嬰 | [《史記・齊悼惠王世家》][34] | [JSON](ju6_1ic_2zu.json) |
 | `jud_r0o_x9c` | 孝景 | [《史記・龜策列傳》][110] | [JSON](jud_r0o_x9c.json) |
 | `jue_6ri_i2r` | 康叔 | [《史記・衛康叔世家》][19] | [JSON](jue_6ri_i2r.json) |
@@ -2228,14 +2234,6 @@
 | `qf1_qbc_81g` | 張春 | [《史記・韓信盧綰列傳》][75] | [JSON](qf1_qbc_81g.json) |
 | `qf6_ach_02x` | 王成 | [《史記・平津侯主父列傳》][94] | [JSON](qf6_ach_02x.json) |
 | `qff_r3w_1jo` | 魏媼 | [《史記・外戚世家》][31] | [JSON](qff_r3w_1jo.json) |
-| `qfh_0ve_74z` | 太史公 | [《史記・樂毅列傳》][62] | [JSON](qfh_0ve_74z.json) |
-| `qfk_7zb_jtn` | 龍且 | [《史記・曹相國世家》][36] | [JSON](qfk_7zb_jtn.json) |
-| `qfu_p4d_ebc` | 張唐 | [《史記・秦本紀》][5] | [JSON](qfu_p4d_ebc.json) |
-| `qfz_1hm_c5p` | 狄令未名 | [《史記・田儋列傳》][76] | [JSON](qfz_1hm_c5p.json) |
-| `qg3_81p_5ti` | 田仲 | [《史記・游俠列傳》][106] | [JSON](qg3_81p_5ti.json) |
-| `qg4_qlj_it6` | 太史公 | [《史記・滑稽列傳》][108] | [JSON](qg4_qlj_it6.json) |
-| `qg7_n12_fne` | 審食其 | [《史記・淮南衡山列傳》][100] | [JSON](qg7_n12_fne.json) |
-| `qgn_r2c_qtv` | 簡狄 | [《史記・殷本紀》][3] | [JSON](qgn_r2c_qtv.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

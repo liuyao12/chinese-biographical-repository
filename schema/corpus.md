@@ -82,7 +82,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `kinship_generation` 保存「大父行」的祖父輩親屬，主體為單于、客體為所述親屬。保存 `source_term: 大父行`、`generation_difference: -2`、`lineage: unspecified`、`direct_ancestor: null`、`exact_distance: null`。此處只記世代，不生成父子路徑、祖父節點或已確定的父系親等。
 
-篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。首批支援「年」後的一至九十九數詞；其他報齡形式需擴充驗證後保存。
+篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
 ## 保留已發 ID 的同指決定
 
@@ -203,3 +203,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `reported_duration.unit: title_month` 保存來源明記的持號月份數，例如「陳勝王凡六月」以 `value: 6`、`source_number: 六` 與 `counting: unspecified_source_months` 記錄。此處是六個月的來源時長，不是曆月六月；來源是否包含起月未知，不推精確起訖日。月份單位只接受含「月」的原詞，與年數計數方式分開驗證。
 
 `mode: posthumous_grant` 及同名起點 `event_type` 表示來源明示的死後追尊，與生前 `grant` 分開。須附 `posthumous_basis`，包含原文含「追尊」的 `source_term` 及與起點完全相符的 `evidence`；未知日期維持空值。安成夫人與父親共同追尊的完整句保留，不由一般用稱或死亡單獨推得追尊。
+
+### 同一生卒事件的回述
+
+同一人物的死亡可在不相鄰段落回述。`date_context.kind: same_event_attestation` 明示這些引句是同一事件的重述，不表示中間段落共享紀年。`paragraph_ids` 必須精確列出事件證據段，`date_paragraph_id` 必須為首筆證據段，且該段同時含原日期與 `source_term` 事件詞句；`rationale` 說明同指及差異。日期不從另人的事件或後段用稱借入；其他引句與不同死亡方式敘述完整保留。原有 `continuous_paragraphs` 承接仍要求連續段落，不因本型別放寬。

@@ -26,15 +26,146 @@
   },
   "text_sha256": "f98d84086b4cfe959f1b40815163f8359b7b86581d294aaa503f5357e2daa393",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全45段明示人物與部分短稱、匿名者首輪，親屬、爵位時段、跨篇身份與版本仍待補。",
+    "coverage": "全45段再讀，補明示死亡、地點、來源在位年數、局部稱呼及未名近親；跨篇身份、版本與完整時段仍待核。",
     "limitations": [
       "劉肥、襄、則與將閭按各段王國敘事分開，不全域合併齊王。",
       "兄弟及繼位不補未記血親，未名者不補姓名，呂后本紀內史士與本篇內史勳暫不合併。",
       "數位重字、校勘記號與諸王時長原語保留，待影像及現代研究核對。",
       "親屬、稱號時段、跨篇身份及全人物標註尚未完成。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji052-001",
+        "person_id": "byp_ks5_71a_AB",
+        "value": 20,
+        "source_number": "二十",
+        "source_term": "年二十",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p008",
+            "quote": "朱虛侯年二十，有氣力，忿劉氏不得職。嘗入待高后燕飲，高后令朱虛侯劉章為酒吏。章自請曰：「臣，將種也，請得以軍法行酒。」高后曰：「可。」酒酣，章進飲歌舞。已而曰：「請為太后言耕田歌。」高后兒子畜之，笑曰：「顧而父知田耳。若生而為王子，安知田乎？」章曰：「臣知之。」太后曰：「試為我言田。」章曰：「深耕穊種，立苗欲疏，非其種者，鉏而去之。」呂后默然。頃之，諸呂有一人醉，亡酒，章追，拔劍斬之，而還報曰：「有亡酒一人，臣謹行法斬之。」太后左右皆大驚。業已許其軍法，無以罪也。因罷。自是之後，諸呂憚朱虛侯，雖大臣皆依朱虛侯，劉氏為益彊。",
+            "person_mention_id": "c-shiji-052-qidaohui:m008-0000"
+          }
+        ],
+        "interpretation_note": "來源報齡原詞和數值分存，未核計歲方式，不倒推出生年；死亡句年齡不是稱號在位年數。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-shiji052-002",
+        "person_id": "byp_ks5_71a_ABAAAAAAA",
+        "value": 15,
+        "source_number": "十五",
+        "source_term": "十五歲",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0071"
+          }
+        ],
+        "interpretation_note": "來源報齡原詞和數值分存，未核計歲方式，不倒推出生年；死亡句年齡不是稱號在位年數。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "normalized_date": {
+          "era": "BCE",
+          "era_year": 30,
+          "year": -29,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "status": "editorial_provisional",
+          "original_quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p035",
+              "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+              "person_mention_id": "c-shiji-052-qidaohui:m035-0071"
+            }
+          ],
+          "references": [
+            {
+              "title": "維基文庫數位紀年對應（僅作換年參考）",
+              "url": "https://zh.wikisource.org/wiki/Category:前30年_(提及)",
+              "quote": "西漢建始三年",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            }
+          ],
+          "rationale": "依本篇明示惠帝六年或建始三年死亡句換算年，數位分類僅作原曆與公元前年對應；原死亡引句與年齡保持，不倒推生年、不推曆月日。來源含簡體字的參考短引保持原字，不冒稱影像核讀。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
+        }
+      },
+      {
+        "id": "age-shiji052-003",
+        "person_id": "byp_ks5_71a_ADAAAAA",
+        "value": 11,
+        "source_number": "十一",
+        "source_term": "十一歲",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p041",
+            "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m041-0119"
+          }
+        ],
+        "interpretation_note": "來源報齡原詞和數值分存，未核計歲方式，不倒推出生年；死亡句年齡不是稱號在位年數。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "normalized_date": {
+          "era": "BCE",
+          "era_year": 30,
+          "year": -29,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "status": "editorial_provisional",
+          "original_quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p041",
+              "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+              "person_mention_id": "c-shiji-052-qidaohui:m041-0119"
+            }
+          ],
+          "references": [
+            {
+              "title": "維基文庫數位紀年對應（僅作換年參考）",
+              "url": "https://zh.wikisource.org/wiki/Category:前30年_(提及)",
+              "quote": "西漢建始三年",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            }
+          ],
+          "rationale": "依本篇明示惠帝六年或建始三年死亡句換算年，數位分類僅作原曆與公元前年對應；原死亡引句與年齡保持，不倒推生年、不推曆月日。來源含簡體字的參考短引保持原字，不冒稱影像核讀。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
+        }
+      }
     ]
   },
   "paragraphs": [
@@ -585,9 +716,9 @@
           "start": 83,
           "end": 85,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "fwf_1wp_wzg",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -613,9 +744,9 @@
           "start": 131,
           "end": 133,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "fwf_1wp_wzg",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -647,6 +778,15 @@
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
+          "id": "c-shiji-052-qidaohui:m008-0179",
+          "start": 179,
+          "end": 181,
+          "surface": "一人",
+          "kind": "person",
+          "person_id": "897_r8o_mw0",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-052-qidaohui:m008-0186",
           "start": 186,
           "end": 187,
@@ -656,13 +796,22 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-052-qidaohui:m008-0203",
+          "start": 203,
+          "end": 205,
+          "surface": "一人",
+          "kind": "person",
+          "person_id": "897_r8o_mw0",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-052-qidaohui:m008-0214",
           "start": 214,
           "end": 216,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "fwf_1wp_wzg",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -888,9 +1037,9 @@
           "start": 66,
           "end": 68,
           "surface": "相君",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "mjm_mzj_yye",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -1750,9 +1899,9 @@
           "start": 107,
           "end": 108,
           "surface": "父",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "7ty_d1r_5iv",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -1787,9 +1936,9 @@
           "start": 145,
           "end": 148,
           "surface": "相舍人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "jty_k77_wuh",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -1797,9 +1946,9 @@
           "start": 151,
           "end": 154,
           "surface": "相舍人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "jty_k77_wuh",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -1818,6 +1967,15 @@
           "surface": "勃",
           "kind": "person",
           "person_id": "wse_abc_uqy",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-052-qidaohui:m016-0193",
+          "start": 193,
+          "end": 195,
+          "surface": "舍人",
+          "kind": "person",
+          "person_id": "jty_k77_wuh",
           "status": "contextual_provisional"
         },
         {
@@ -2011,9 +2169,9 @@
           "start": 8,
           "end": 10,
           "surface": "太子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "ycr_d4w_b0x",
+          "status": "contextual_provisional",
           "note": "集體、未名者、未核官稱或代詞，不補姓名及家屬成員。"
         },
         {
@@ -2586,9 +2744,9 @@
           "start": 11,
           "end": 13,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "uxz_hc8_v82",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2596,9 +2754,9 @@
           "start": 14,
           "end": 16,
           "surface": "其弟",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "519_boo_6xm",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2624,9 +2782,9 @@
           "start": 24,
           "end": 25,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2643,9 +2801,9 @@
           "start": 31,
           "end": 33,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "uxz_hc8_v82",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2662,9 +2820,9 @@
           "start": 47,
           "end": 48,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2672,9 +2830,9 @@
           "start": 59,
           "end": 60,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2691,9 +2849,9 @@
           "start": 68,
           "end": 69,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2763,9 +2921,9 @@
           "start": 32,
           "end": 34,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "mjn_ohc_9ca",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2791,9 +2949,9 @@
           "start": 45,
           "end": 47,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "mjn_ohc_9ca",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2874,9 +3032,9 @@
           "start": 109,
           "end": 111,
           "surface": "偃女",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "dxb_p5k_req",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2902,9 +3060,9 @@
           "start": 140,
           "end": 141,
           "surface": "后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "slm_sf2_yss",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2985,9 +3143,9 @@
           "start": 245,
           "end": 247,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "mjn_ohc_9ca",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -2995,9 +3153,9 @@
           "start": 248,
           "end": 250,
           "surface": "太后",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "mjn_ohc_9ca",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3061,9 +3219,9 @@
           "start": 52,
           "end": 54,
           "surface": "齊王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3090,9 +3248,9 @@
           "start": 86,
           "end": 88,
           "surface": "齊王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3138,9 +3296,9 @@
           "start": 122,
           "end": 123,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3158,9 +3316,9 @@
           "start": 128,
           "end": 129,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3187,9 +3345,9 @@
           "start": 143,
           "end": 144,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -3197,9 +3355,9 @@
           "start": 145,
           "end": 146,
           "surface": "王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         }
       ]
@@ -3270,9 +3428,9 @@
           "start": 46,
           "end": 48,
           "surface": "齊王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "qok_ik2_99j_A",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -4150,9 +4308,9 @@
           "start": 28,
           "end": 31,
           "surface": "菑川王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "byp_ks5_71a_AF",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {
@@ -4160,9 +4318,9 @@
           "start": 38,
           "end": 41,
           "surface": "濟北王",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "byp_ks5_71a_AD",
+          "status": "contextual_provisional",
           "note": "集體、官稱、未名者或待核回指；不補姓名，王作動詞不當人名。"
         },
         {

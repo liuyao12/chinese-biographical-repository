@@ -676,7 +676,7 @@ def validate(root=ROOT):
                         tens, ones = number.split('十')
                         parsed = (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
                 check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-                      and age.get('source_term') == '年' + str(number), '來源年齡數值與原詞不符')
+                      and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳'), '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
@@ -752,7 +752,19 @@ def validate(root=ROOT):
                         and date_paragraph_id in ids
                         and expression in next((e['quote'] for e in event['evidence'] if e['paragraph_id'] == date_paragraph_id), '')
                         and bool(date_context.get('rationale')))
-                    check(continuous_date, '生卒紀年承接須有連續同篇段落與明示日期段')
+                    if isinstance(date_context, dict) and date_context.get('kind') == 'same_event_attestation':
+                        primary = event['evidence'][0]
+                        continuous_date = (set(date_context) == {'kind', 'paragraph_ids', 'date_paragraph_id', 'rationale'}
+                            and isinstance(ids, list) and len(ids) >= 2 and len(set(ids)) == len(ids)
+                            and ids == [e['paragraph_id'] for e in event['evidence']]
+                            and all(pid in order for pid in ids)
+                            and date_context.get('date_paragraph_id') == primary['paragraph_id']
+                            and isinstance(expression, str) and bool(expression) and expression in primary['quote']
+                            and bool(event.get('source_term')) and event['source_term'] in primary['quote']
+                            and bool(date_context.get('rationale')))
+                        check(continuous_date, '同一生卒事件回述須以首筆明示事件引句作紀年錨點')
+                    else:
+                        check(continuous_date, '生卒紀年承接須有連續同篇段落與明示日期段')
                 for evidence in event['evidence']:
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
                     valid = bool(hit) and hit[0] == evidence['chapter_id'] == record['chapter_id']
