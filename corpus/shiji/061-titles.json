@@ -213,7 +213,7 @@
       "person_id": "yzf_1oe_uri",
       "title": "文王",
       "kind": "unclassified",
-      "mode": "grant",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -237,7 +237,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "posthumous_grant",
           "date_expression": null,
           "evidence": [
             {
@@ -254,8 +254,21 @@
           "evidence": []
         }
       },
-      "interpretation_note": "西伯卒後武王載木主號為文王，保存明示死後用號事件，不當生前持王爵或已核定追贈制度日期。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "本篇西伯卒後武王載木主號為文王，按明示句序保存死後授號；來源沒有諡字，不造諡名事件或生前王爵，日期未載。先死後號的句序及原詞獨立保存，不用死亡代替其他官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "西伯卒，武王載木主，號為文王",
+        "death_term": "西伯卒",
+        "grant_term": "號為文王",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-061-boyi",
+            "source_id": "s-shiji-061-boyi",
+            "paragraph_id": "c-shiji-061-boyi:p004",
+            "quote": "於是伯夷、叔齊聞西伯昌善養老，盍往歸焉。及至，西伯卒，武王載木主，號為文王，東伐紂。伯夷、叔齊叩馬而諫曰：「父死不葬，爰及干戈，可謂孝乎？以臣弒君，可謂仁乎？」左右欲兵之。太公曰：「此義人也。」扶而去之。"
+          }
+        ]
+      }
     }
   ]
 }

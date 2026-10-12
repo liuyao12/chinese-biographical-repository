@@ -142,7 +142,7 @@
 | `dym_ay3_38w` | 虢公（伐曲沃者未名） | [《史記・晉世家》][21] | [JSON](dym_ay3_38w.json) |
 | `dys_y6g_ndq` | 種（越） | [《史記・太史公自序》][112] | [JSON](dys_y6g_ndq.json) |
 | `dzf_ach_247` | 箕子 | [《史記・留侯世家》][37] | [JSON](dzf_ach_247.json) |
-| `dzg_1wj_d9x` | 叔齊 | [《史記・周本紀》][4] | [JSON](dzg_1wj_d9x.json) |
+| `dzg_1wj_d9x` | 叔齊 | [《史記・伯夷列傳》][43] | [JSON](dzg_1wj_d9x.json) |
 | `dzh_7q4_5aj` | 始成（本卷稱呼） | [《史記・項羽本紀》][7] | [JSON](dzh_7q4_5aj.json) |
 | `dzl_mvt_l93` | 馳義侯 | [《史記・南越列傳》][95] | [JSON](dzl_mvt_l93.json) |
 | `dzo_7i3_hdh` | 兒良 | [《史記・秦始皇本紀》][6] | [JSON](dzo_7i3_hdh.json) |
@@ -1896,7 +1896,7 @@
 | `oa0_nm7_e6f` | 齊宣王 | [《史記・田敬仲完世家》][28]、[《史記・孟嘗君列傳》][57] | [JSON](oa0_nm7_e6f.json) |
 | `oah_2x7_t4c` | 石作蜀 | [《史記・仲尼弟子列傳》][49] | [JSON](oah_2x7_t4c.json) |
 | `oaj_udd_7d9` | 秦武王 | [《史記・樗里子甘茂列傳》][53] | [JSON](oaj_udd_7d9.json) |
-| `ob6_rla_gka` | 伯夷（孤竹） | [《史記・周本紀》][4] | [JSON](ob6_rla_gka.json) |
+| `ob6_rla_gka` | 伯夷（孤竹） | [《史記・伯夷列傳》][43] | [JSON](ob6_rla_gka.json) |
 | `ob7_g6i_7pp` | 項羽 | [《史記・項羽本紀》][7] | [JSON](ob7_g6i_7pp.json) |
 | `oba_urn_khk` | 章邯 | [《史記・項羽本紀》][7] | [JSON](oba_urn_khk.json) |
 | `obb_w0p_gfj` | 太史公 | [《史記・黥布列傳》][73] | [JSON](obb_w0p_gfj.json) |
