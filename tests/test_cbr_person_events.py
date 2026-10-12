@@ -28,3 +28,29 @@ class PersonEventsTests(unittest.TestCase):
             errors=validate(root)
             self.assertIn('紀年換算天文年與時代年不一致',errors)
             self.assertIn('生卒事件人物錨點不符',errors)
+
+    def test_burial_bundle_preserves_unknown_date(self):
+        event=json.loads((ROOT/'corpus/shiji/065-person-events.json').read_text())['events'][0]
+        result=bundle(event['person_id'])
+        self.assertIn(event,result['person_events'])
+        self.assertEqual(event['source_term'],'悼王既葬')
+        self.assertIsNone(event['date_expression'])
+        self.assertNotIn('normalized_date',event)
+        self.assertTrue(any(e['event_type']=='death' for e in result['life_events']))
+    def test_burial_requires_actual_source_term(self):
+        for term in ('悼王死','未見於原文的葬詞'):
+            with self.subTest(term=term), tempfile.TemporaryDirectory() as temp:
+                root=Path(temp)
+                for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+                path=root/'corpus/shiji/065-person-events.json';data=json.loads(path.read_text())
+                data['events'][0]['source_term']=term
+                path.write_text(json.dumps(data,ensure_ascii=False))
+                self.assertIn('埋葬事件須有原文明示葬詞及相符引句',validate(root))
+    def test_burial_rejects_other_person_anchor(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
+            path=root/'corpus/shiji/065-person-events.json';data=json.loads(path.read_text())
+            data['events'][0]['evidence'][0]['person_mention_id']='c-shiji-065-sun:m013-0124'
+            path.write_text(json.dumps(data,ensure_ascii=False))
+            self.assertIn('生卒事件人物錨點不符',validate(root))

@@ -239,3 +239,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 個人報齡可存餘歲界限與來源傳聞：value及birth_year空，下界不含、上界未知；source_number支援百位，source_term保留餘歲。report_group_id分組，source_qualification、reporting_status、qualified_source_term保存蓋或或言及完整限定語，不當確定壽命。
 
 同組個人報齡須同人物、篇及來源段落；alternative_report須與qualified_report同組。此為來源報說的分組，不合成確知壽命，來源歧說各存。
+
+### 埋葬個人事件
+
+`person_event_assertion_set` 可保存 `burial`，與死亡事件分開。必須原文明示：`source_term` 含葬且完整見於事件證據引句，人物錨點與篇、來源引用沿用個人事件驗證。未知日期不補數值，未記葬地不補地址。逐人 JSON 從 `person_events` 讀取；死亡及葬期不得互相推定。
