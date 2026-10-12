@@ -674,7 +674,7 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
                 if a['predicate'] == 'maternal_uncle':
@@ -709,6 +709,13 @@ def validate(root=ROOT):
                     check(qualifiers.get('source_term') == '有親' and not qualifiers.get('kinship_structure')
                           and any('有親' in e.get('quote', '') for e in a['evidence']),
                           '未定親屬不得補具體親等')
+                if a['predicate'] == 'affinity_unspecified':
+                    check(qualifiers.get('relationship_basis') == 'marriage_affinity'
+                          and qualifiers.get('source_term') and '婚' in qualifiers['source_term']
+                          and all(key in qualifiers and qualifiers[key] is None for key in
+                                  ('spouse_person_ids', 'connecting_person_ids', 'generation_difference'))
+                          and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']),
+                          '未明姻親須保存婚原詞，不得補配偶、連接人物或世代')
                 if 'kinship_structure' in qualifiers:
                     structure = qualifiers['kinship_structure']
                     check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
@@ -893,16 +900,26 @@ def validate(root=ROOT):
                             anchor = mentions.get(context.get('person_mention_id')) if isinstance(context, dict) else None
                             order = [p['id'] for p in chapters[record['chapter_id']]['paragraphs']]
                             quote = context.get('quote') if isinstance(context, dict) else None
-                            carried = (isinstance(context, dict) and set(context) == {'kind', 'paragraph_id', 'person_mention_id', 'quote'}
-                                and context.get('kind') == 'previous_paragraph_subject' and bool(previous) and bool(anchor)
-                                and previous[0] == record['chapter_id'] and context['paragraph_id'] in order
-                                and order.index(evidence['paragraph_id']) == order.index(context['paragraph_id']) + 1
+                            ids = context.get('intervening_paragraph_ids') if isinstance(context, dict) else None
+                            adjacent = (isinstance(context, dict)
+                                and set(context) == {'kind', 'paragraph_id', 'person_mention_id', 'quote'}
+                                and context.get('kind') == 'previous_paragraph_subject'
+                                and bool(previous) and context['paragraph_id'] in order
+                                and order.index(evidence['paragraph_id']) == order.index(context['paragraph_id']) + 1)
+                            continuous = (isinstance(context, dict)
+                                and set(context) == {'kind', 'paragraph_id', 'person_mention_id', 'quote', 'intervening_paragraph_ids'}
+                                and context.get('kind') == 'prior_paragraph_subject' and bool(previous)
+                                and context['paragraph_id'] in order and isinstance(ids, list)
+                                and order.index(context['paragraph_id']) < order.index(evidence['paragraph_id'])
+                                and ids == order[order.index(context['paragraph_id']) + 1:order.index(evidence['paragraph_id'])])
+                            carried = ((adjacent or continuous) and bool(anchor)
+                                and previous[0] == record['chapter_id']
                                 and anchor[1] == context['paragraph_id'] and anchor[2]['person_id'] == address['person_id']
                                 and isinstance(quote, str) and bool(quote) and quote in previous[1]['text']
                                 and any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
                                         for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
                                 and bool(address.get('interpretation_note')))
-                            check(carried, '地址主語承接須有前一同篇段落及相符人物引句')
+                            check(carried, '地址主語承接須有同篇人物錨點、引句及完整中間段落')
                         check(carried or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         life_event_ids = set()
@@ -911,13 +928,20 @@ def validate(root=ROOT):
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
                     check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
                 if event['event_type'] == 'burial':
                     term = event.get('source_term')
                     check(isinstance(term, str) and '葬' in term and any(term in e.get('quote', '') for e in event.get('evidence', [])), '埋葬事件須有原文明示葬詞及相符引句')
+                if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
+                    term = event.get('source_term')
+                    required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
+                    check(isinstance(term, str) and required in term
+                          and all(key in event and event[key] is None for key in ('office_title', 'title_holding_id'))
+                          and any(term in e.get('quote', '') for e in event.get('evidence', [])),
+                          '未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結')
                 expression = event.get('date_expression')
                 check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
                 date_context = event.get('date_context')

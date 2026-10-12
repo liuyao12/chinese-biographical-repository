@@ -3,6 +3,41 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_suqin_journeys_include_complete_carried_subject_passages(self):
+        result = bundle('98y_02x_z6o', include_provisional=True)
+        journey = next(a for a in result['address_assertions'] if a['id']=='pa-shiji069-004')
+        context = journey['evidence'][0]['context']
+        self.assertEqual(context['intervening_paragraph_ids'], ['c-shiji-069-su:p003','c-shiji-069-su:p004'])
+        passages = {p['id']:p for p in result['passages']}
+        for pid in [context['paragraph_id']] + context['intervening_paragraph_ids'] + [journey['evidence'][0]['paragraph_id']]:
+            self.assertIn(pid, passages)
+        self.assertEqual(journey['place']['source_name'], '燕')
+        self.assertEqual(passages['c-shiji-069-su:p005']['text'][:3], '去游燕')
+    def test_sudai_affinity_is_not_a_spouse_or_invented_generation(self):
+        result = bundle('phx_4fq_fnx', include_provisional=True)
+        relation = next(a for a in result['relations'] if a['id']=='a-shiji069-011')
+        self.assertEqual(relation['predicate'], 'affinity_unspecified')
+        self.assertEqual(relation['qualifiers']['source_term'], '子之與蘇代婚')
+        for key in ('spouse_person_ids','connecting_person_ids','generation_difference'):
+            self.assertIsNone(relation['qualifiers'][key])
+        self.assertFalse(any(a['predicate']=='spouse' and {a['subject_person_id'],a['object_person_id']}=={'nfi_mir_dew','phx_4fq_fnx'} for a in result['relations']))
+    def test_suqin_unknown_office_actions_and_no_false_death_or_duration(self):
+        result = bundle('98y_02x_z6o', include_provisional=True)
+        events = [e for e in result['person_events'] if e['id'].startswith('pe-shiji069-')]
+        self.assertEqual([e['event_type'] for e in events], ['office_non_reinstatement','office_restoration'])
+        for e in events:
+            self.assertIsNone(e['office_title'])
+            self.assertIsNone(e['title_holding_id'])
+        deaths = [e for e in result['life_events'] if e['id'].startswith('le-shiji069-')]
+        self.assertEqual(len(deaths), 1)
+        self.assertEqual(deaths[0]['source_term'], '蘇秦既死')
+        self.assertFalse(any('reported_duration' in h for h in result['title_holdings'] if h['id'].startswith('th-shiji069-')))
+    def test_su_brothers_keep_relative_order_without_absolute_ordinals(self):
+        result = bundle('phx_4fq_fnx', include_provisional=True)
+        order = next(a for a in result['relations'] if a['id']=='a-shiji069-008')['qualifiers']['relative_birth_order']
+        self.assertEqual((order['older_person_id'],order['younger_person_id'],order['operator']), ('98y_02x_z6o','phx_4fq_fnx','lt'))
+        self.assertIsNone(order['older_ordinal'])
+        self.assertIsNone(order['younger_ordinal'])
     def test_shang_wei_lineage_affiliation_is_not_a_birthplace(self):
         result = bundle('gy0_w6c_v4l', include_provisional=True)
         place = next(a for a in result['address_assertions'] if a['id']=='pa-shiji068-007')

@@ -94,6 +94,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
+        for evidence in record.get('evidence', []):
+            context = evidence.get('context', {})
+            if context.get('paragraph_id'):
+                paragraph_ids.add(context['paragraph_id'])
+            paragraph_ids.update(context.get('intervening_paragraph_ids', []))
     for holding in titles:
         for attestation in holding.get('attestations', []):
             paragraph_ids.update(e['paragraph_id'] for e in attestation.get('normalized_date', {}).get('evidence', []))

@@ -14,6 +14,27 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_continuous_address_requires_all_intervening_paragraphs(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][3]['evidence'][0]['context'].update(intervening_paragraph_ids=['c-shiji-069-su:p004']))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_continuous_address_cannot_reverse_paragraph_order(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][3]['evidence'][0]['context']['intervening_paragraph_ids'].reverse())
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_continuous_address_cannot_replace_subject_with_local_ruler(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][2].update(person_id='ho4_me8_not'))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_unspecified_affinity_cannot_invent_connecting_daughter(self):
+        self.change('corpus/shiji/069-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(connecting_person_ids=['invented-daughter']))
+        self.assertIn('未明姻親須保存婚原詞，不得補配偶、連接人物或世代', v.validate(self.root))
+    def test_unspecified_affinity_requires_marriage_wording(self):
+        self.change('corpus/shiji/069-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='燕相子之'))
+        self.assertIn('未明姻親須保存婚原詞，不得補配偶、連接人物或世代', v.validate(self.root))
+    def test_unknown_office_restoration_cannot_bind_known_title(self):
+        self.change('corpus/shiji/069-person-events.json', lambda d: d['events'][1].update(office_title='從約長',title_holding_id='th-shiji069-004'))
+        self.assertIn('未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結', v.validate(self.root))
+    def test_office_non_reinstatement_cannot_be_relabelled_restoration(self):
+        self.change('corpus/shiji/069-person-events.json', lambda d: d['events'][0].update(event_type='office_restoration'))
+        self.assertIn('未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結', v.validate(self.root))
     def test_polity_lineage_address_requires_royal_scope(self):
         self.change('corpus/shiji/068-addresses.json', lambda d: next(a for a in d['assertions'] if a['id']=='pa-shiji068-007').update(qualifiers={}))
         self.assertIn('宗族政體地望須有來源身份詞，不改作出生籍貫', v.validate(self.root))
@@ -114,19 +135,19 @@ class CorpusTests(unittest.TestCase):
             e['context']['paragraph_id']='c-shiji-057-zhou:p002'
             e['context']['person_mention_id']='c-shiji-057-zhou:m002-0009'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_requires_same_person(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
             e['context']['person_mention_id']='c-shiji-057-zhou:m004-0008'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_anchor_must_be_in_quote(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
             e['context']['quote']='以將軍從高帝'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_cannot_be_implicit(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]

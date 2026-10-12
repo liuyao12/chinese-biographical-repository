@@ -409,7 +409,7 @@
       "person_id": "8tn_cxl_8ru",
       "title": "王",
       "kind": "royal_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -433,7 +433,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
@@ -499,7 +499,7 @@
       "person_id": "6zj_q8y_4ic",
       "title": "昭王",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -522,9 +522,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-069-su",
+              "source_id": "s-shiji-069-su",
+              "paragraph_id": "c-shiji-069-su:p046",
+              "quote": "燕相子之與蘇代婚，而欲得燕權，乃使蘇代侍質子於齊。齊使代報燕，燕王噲問曰：「齊王其霸乎？」曰：「不能。」曰：「何也？」曰：「不信其臣。」於是燕王專任子之，已而讓位，燕大亂。齊伐燕，殺王噲、子之。燕立昭王，而蘇代、蘇厲遂不敢入燕，皆終歸齊，齊善待之。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -730,6 +738,104 @@
           "status": "unknown",
           "date_expression": null,
           "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只按本篇明示授封、任事與文獻用稱保存；未知起訖不補曆日，死後王號與傳世敘事年代仍待版本及研究覆核。擬議三帝與未受宋地不當已持有；不因去國、被刺或卒而終止全部官爵。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji069-018",
+      "person_id": "49x_hsj_tmo",
+      "title": "燕易王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-069-su",
+          "source_id": "s-shiji-069-su",
+          "paragraph_id": "c-shiji-069-su:p040",
+          "quote": "秦惠王以其女為燕太子婦。是歲，文侯卒，太子立，是為燕易王。易王初立，齊宣王因燕喪伐燕，取十城。易王謂蘇秦曰：「往日先生至燕，而先王資先生見趙，遂約六國從。今齊先伐趙，次至燕，以先生之故為天下笑，先生能為燕得侵地乎？」蘇秦大慚，曰：「請為王取之。」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji069-018:a001",
+          "paragraph_id": "c-shiji-069-su:p040",
+          "start": 25,
+          "end": 28,
+          "surface": "燕易王",
+          "person_mention_id": "c-shiji-069-su:m040-0025",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-069-su",
+              "source_id": "s-shiji-069-su",
+              "paragraph_id": "c-shiji-069-su:p040",
+              "quote": "秦惠王以其女為燕太子婦。是歲，文侯卒，太子立，是為燕易王。易王初立，齊宣王因燕喪伐燕，取十城。易王謂蘇秦曰：「往日先生至燕，而先王資先生見趙，遂約六國從。今齊先伐趙，次至燕，以先生之故為天下笑，先生能為燕得侵地乎？」蘇秦大慚，曰：「請為王取之。」"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只按本篇明示授封、任事與文獻用稱保存；未知起訖不補曆日，死後王號與傳世敘事年代仍待版本及研究覆核。擬議三帝與未受宋地不當已持有；不因去國、被刺或卒而終止全部官爵。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji069-019",
+      "person_id": "6j7_udm_uq6",
+      "title": "湣王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-069-su",
+          "source_id": "s-shiji-069-su",
+          "paragraph_id": "c-shiji-069-su:p044",
+          "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji069-019:a001",
+          "paragraph_id": "c-shiji-069-su:p044",
+          "start": 5,
+          "end": 7,
+          "surface": "湣王",
+          "person_mention_id": "c-shiji-069-su:m044-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-069-su",
+              "source_id": "s-shiji-069-su",
+              "paragraph_id": "c-shiji-069-su:p044",
+              "quote": "齊宣王卒，湣王即位，說湣王厚葬以明孝，高宮室大苑囿以明得意，欲破敝齊而為燕。燕易王卒，燕噲立為王。其後齊大夫多與蘇秦爭寵者，而使人刺蘇秦，不死，殊而走。齊王使人求賊，不得。蘇秦且死，乃謂齊王曰：「臣即死，車裂臣以徇於市，曰『蘇秦為燕作亂於齊』，如此則臣之賊必得矣。」於是如其言，而殺蘇秦者果自出，齊王因而誅之。燕聞之曰：「甚矣，齊之為蘇生報仇也！」"
+            }
+          ]
         },
         "end": {
           "status": "unknown",

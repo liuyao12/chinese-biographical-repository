@@ -253,3 +253,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 
 地址關係 `polity_lineage_affiliation` 保存篇首等來源明記的政體宗族地望，例如「衛之諸庶孽公子」。首批 `qualifiers.affiliation_kind: royal_lineage`，人物 ID 是來源所指公族成員，地名保存原政體名。此類不是出生地、居地或本人籍貫，不據姓氏補具名父母、遠祖或世代；原詞須含政體與公子、公孫或宗室的明示身份。
+
+### 跨段地址主語與未明姻親／官職
+
+地址證據另可使用 `context.kind: prior_paragraph_subject`；人物前錨的 `paragraph_id`、`person_mention_id`、精確 `quote` 及 `intervening_paragraph_ids` 必須保存。中間段清單須按同篇原序完整列出，不得跳段、倒序或借用當地君主錨點。原有 `previous_paragraph_subject` 仍只接受緊鄰前段。驗證證明來源錨點和順序一致，敘事主語是否延續仍是必須說明理由的代理判讀，不由最近人名或段距自動決定。人物 JSON 附全部中間段供複核。
+
+`affinity_unspecified` 保存「婚」所表述的未明姻親，`qualifiers.relationship_basis: marriage_affinity`，`source_term` 保留原句。`spouse_person_ids`、`connecting_person_ids`、`generation_difference` 均為 `null`；不得補女兒、妻子、具體親等或方向，也不得把兩個姻親當作夫妻。
+
+未名官職事件存於 `person_event_assertion_set`：`office_non_reinstatement` 保存「不復官」，`office_restoration` 保存「復就故官」。兩者的 `office_title`、`title_holding_id` 均為 `null`，原句與人物錨點必須可回查。不復任不等於明示免官；未名故官不牽連既有具名官爵時段。
