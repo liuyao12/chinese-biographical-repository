@@ -466,6 +466,7 @@
 | `fvc_9z0_643` | 淖齒 | [《史記・田敬仲完世家》][28] | [JSON](fvc_9z0_643.json) |
 | `fvc_qlq_6o2` | 韓王 | [《史記・老子韓非列傳》][45] | [JSON](fvc_qlq_6o2.json) |
 | `fvd_oal_6gi` | 越王句踐 | [《史記・蘇秦列傳》][51] | [JSON](fvd_oal_6gi.json) |
+| `fve_0yd_kml` | 康王姬（荊燕世家未名者） | [《史記・荊燕世家》][33] | [JSON](fve_0yd_kml.json) |
 | `fvj_ir6_7zh` | 公孫龍 | [《史記・平原君虞卿列傳》][58] | [JSON](fvj_ir6_7zh.json) |
 | `fw5_vd1_4xy` | 禹 | [《史記・龜策列傳》][110] | [JSON](fw5_vd1_4xy.json) |
 | `fw5_xvm_aza` | 接輿引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fw5_xvm_aza.json) |
@@ -1736,6 +1737,7 @@
 | `nek_dsn_nih` | 康王 | [《史記・周本紀》][4] | [JSON](nek_dsn_nih.json) |
 | `neq_81h_l49` | 呂后 | [《史記・儒林列傳》][103] | [JSON](neq_81h_l49.json) |
 | `nfi_mir_dew` | 子之 | [《史記・蘇秦列傳》][51] | [JSON](nfi_mir_dew.json) |
+| `nfq_2ne_4ft` | 定國弟妻（荊燕世家未名者） | [《史記・荊燕世家》][33] | [JSON](nfq_2ne_4ft.json) |
 | `nfu_k8n_4jt` | 長安君（趙世家未名者） | [《史記・趙世家》][25] | [JSON](nfu_k8n_4jt.json) |
 | `nga_wh6_83v` | 子夫 | [《史記・太史公自序》][112] | [JSON](nga_wh6_83v.json) |
 | `ngf_f1j_cj9` | 太公 | [《史記・伯夷列傳》][43] | [JSON](ngf_f1j_cj9.json) |
@@ -2234,8 +2236,6 @@
 | `qg4_qlj_it6` | 太史公 | [《史記・滑稽列傳》][108] | [JSON](qg4_qlj_it6.json) |
 | `qg7_n12_fne` | 審食其 | [《史記・淮南衡山列傳》][100] | [JSON](qg7_n12_fne.json) |
 | `qgn_r2c_qtv` | 簡狄 | [《史記・殷本紀》][3] | [JSON](qgn_r2c_qtv.json) |
-| `qgr_fuw_u34` | 鞅（趙世家提要） | [《史記・太史公自序》][112] | [JSON](qgr_fuw_u34.json) |
-| `qha_l8o_wxa` | 叔仲會 | [《史記・仲尼弟子列傳》][49] | [JSON](qha_l8o_wxa.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

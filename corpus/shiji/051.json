@@ -26,10 +26,10 @@
   },
   "text_sha256": "b5cc859587e273eefa89b29175cf9a84c73988aa7ef57114c96098e8117904a9",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全12段明示人物與部分短稱、匿名者首輪；代詞、版本、稱號全史及跨篇身份待覆核。",
+    "coverage": "全12段第二輪核讀；三名未名者、六處指稱、七筆生死、12筆地點及父母關係，稱號與數字年補存；完整身份版本覆核未完成。",
     "limitations": [
       "諸劉不知其何屬及遠屬不補宗族支系或直接父子。",
       "張子卿張卿局部暫接，田生子不補姓名；劉澤與劉賈不因同姓合併。",
@@ -667,6 +667,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-051-jingyan:m007-0078",
+          "start": 78,
+          "end": 80,
+          "surface": "其子",
+          "kind": "person",
+          "person_id": "ms3_fa1_ps9_A",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
+        },
+        {
           "id": "c-shiji-051-jingyan:m007-0082",
           "start": 82,
           "end": 84,
@@ -737,6 +747,16 @@
           "kind": "person",
           "person_id": "ck6_yav_z22",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-051-jingyan:m007-0143",
+          "start": 143,
+          "end": 144,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": "ms3_fa1_ps9",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
         },
         {
           "id": "c-shiji-051-jingyan:m007-0154",
@@ -832,6 +852,16 @@
           "note": "群體、未名家屬、條件稱號或未定指代，不補成員姓名及支系。"
         },
         {
+          "id": "c-shiji-051-jingyan:m007-0226",
+          "start": 226,
+          "end": 227,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "ck6_yav_z22",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
+        },
+        {
           "id": "c-shiji-051-jingyan:m007-0230",
           "start": 230,
           "end": 232,
@@ -890,6 +920,16 @@
           "note": "群體、未名家屬、條件稱號或未定指代，不補成員姓名及支系。"
         },
         {
+          "id": "c-shiji-051-jingyan:m007-0259",
+          "start": 259,
+          "end": 260,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "ck6_yav_z22",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
+        },
+        {
           "id": "c-shiji-051-jingyan:m007-0263",
           "start": 263,
           "end": 265,
@@ -897,6 +937,16 @@
           "kind": "person",
           "person_id": "tnj_mx0_xgf",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-051-jingyan:m007-0270",
+          "start": 270,
+          "end": 271,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "ck6_yav_z22",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
         },
         {
           "id": "c-shiji-051-jingyan:m007-0286",
@@ -1036,6 +1086,16 @@
           "kind": "person",
           "person_id": "bc3_hmj_aps",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-051-jingyan:m007-0381",
+          "start": 381,
+          "end": 382,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "ck6_yav_z22",
+          "status": "contextual_provisional",
+          "note": "限本段田生父子及對張卿遊說的局部敘事，代稱不作全域同指。"
         },
         {
           "id": "c-shiji-051-jingyan:m007-0383",
@@ -1350,30 +1410,30 @@
           "start": 9,
           "end": 10,
           "surface": "姬",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、未名家屬、條件稱號或未定指代，不補成員姓名及支系。"
+          "kind": "person",
+          "person_id": "fve_0yd_kml",
+          "status": "contextual_provisional",
+          "note": "來源單指未名個人；保留角色不補姓名，不與另一姬自動合併。"
         },
         {
           "id": "c-shiji-051-jingyan:m010-0013",
           "start": 13,
           "end": 17,
           "surface": "子男一人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、未名家屬、條件稱號或未定指代，不補成員姓名及支系。"
+          "kind": "person",
+          "person_id": "bc3_hmj_aps_AAA",
+          "status": "contextual_provisional",
+          "note": "來源單指未名個人；保留角色不補姓名，不與另一姬自動合併。"
         },
         {
           "id": "c-shiji-051-jingyan:m010-0019",
           "start": 19,
           "end": 21,
           "surface": "弟妻",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、未名家屬、條件稱號或未定指代，不補成員姓名及支系。"
+          "kind": "person",
+          "person_id": "nfq_2ne_4ft",
+          "status": "contextual_provisional",
+          "note": "來源單指未名個人；保留角色不補姓名，不與另一姬自動合併。"
         },
         {
           "id": "c-shiji-051-jingyan:m010-0022",

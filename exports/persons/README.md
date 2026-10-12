@@ -1005,13 +1005,14 @@
 
 </details>
 
-<details><summary><code>bc3_hmj_aps</code> 劉澤（荊燕世家候選）（3 名）</summary>
+<details><summary><code>bc3_hmj_aps</code> 劉澤（荊燕世家候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 劉澤 | [《史記・荊燕世家》][33] | [JSON](bc3_hmj_aps.json) |
 | `A` | 嘉 | [《史記・荊燕世家》][33] | [JSON](bc3_hmj_aps_A.json) |
 | `AA` | 定國 | [《史記・荊燕世家》][33] | [JSON](bc3_hmj_aps_AA.json) |
+| `AAA` | 定國所生男（荊燕世家未名者） | [《史記・荊燕世家》][33] | [JSON](bc3_hmj_aps_AAA.json) |
 
 </details>
 
