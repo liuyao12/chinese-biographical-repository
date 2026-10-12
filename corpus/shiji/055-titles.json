@@ -1300,7 +1300,36 @@
               "paragraph_id": "c-shiji-055-liu:p016",
               "quote": "漢四年，韓信破齊而欲自立為齊王，漢王怒。張良說漢王，漢王使良授齊王信印，語在淮陰事中。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 203,
+            "year": -202,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "漢四年，韓信破齊而欲自立為齊王，漢王怒。張良說漢王，漢王使良授齊王信印，語在淮陰事中。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p016",
+                "quote": "漢四年，韓信破齊而欲自立為齊王，漢王怒。張良說漢王，漢王使良授齊王信印，語在淮陰事中。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢王四年']=\"前203年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -1355,7 +1384,36 @@
               "paragraph_id": "c-shiji-055-liu:p018",
               "quote": "漢六年正月，封功臣。良未嘗有戰鬬功，高帝曰：「運籌策帷帳中，決勝千里外，子房功也。自擇齊三萬戶。」良曰：「始臣起下邳，與上會留，此天以臣授陛下。陛下用臣計，幸而時中，臣願封留足矣，不敢當三萬戶。」乃封張良為留侯，與蕭何等俱封。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "漢六年正月，封功臣。良未嘗有戰鬬功，高帝曰：「運籌策帷帳中，決勝千里外，子房功也。自擇齊三萬戶。」良曰：「始臣起下邳，與上會留，此天以臣授陛下。陛下用臣計，幸而時中，臣願封留足矣，不敢當三萬戶。」乃封張良為留侯，與蕭何等俱封。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p018",
+                "quote": "漢六年正月，封功臣。良未嘗有戰鬬功，高帝曰：「運籌策帷帳中，決勝千里外，子房功也。自擇齊三萬戶。」良曰：「始臣起下邳，與上會留，此天以臣授陛下。陛下用臣計，幸而時中，臣願封留足矣，不敢當三萬戶。」乃封張良為留侯，與蕭何等俱封。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -1658,8 +1716,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 原文行少傅事為行事，未記正式授職或確定實任時段；令太子為將軍是張良進言，不當已授。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 原文行少傅事為行事，未記正式授職或確定實任時段；令太子為將軍是張良進言，不當已授。 行少傅事為明示代理任事，未推為正式少傅授官日或任期。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji055-039",
@@ -1911,8 +1970,8 @@
       "id": "th-shiji055-045",
       "person_id": "31t_28w_hda_A",
       "title": "文成侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -1935,9 +1994,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-055-liu",
+              "source_id": "s-shiji-055-liu",
+              "paragraph_id": "c-shiji-055-liu:p027",
+              "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+              "person_mention_id": "c-shiji-055-liu:m027-0007"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1945,15 +2013,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 明示卒後諡名，不當生前授爵；後八年是卒的原語，未直接當諡日紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚為文成侯",
+        "death_term": "後八年卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-055-liu",
+            "source_id": "s-shiji-055-liu",
+            "paragraph_id": "c-shiji-055-liu:p027",
+            "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+            "person_mention_id": "c-shiji-055-liu:m027-0007"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji055-046",
       "person_id": "31t_28w_hda_AA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -1983,14 +2064,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-055-liu",
               "source_id": "s-shiji-055-liu",
               "paragraph_id": "c-shiji-055-liu:p027",
-              "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+              "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+              "person_mention_id": "c-shiji-055-liu:m027-0012"
             }
           ]
         },
@@ -2005,11 +2087,58 @@
               "paragraph_id": "c-shiji-055-liu:p029",
               "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 175,
+            "year": -174,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p029",
+                "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+                "quote": "西漢漢文帝前元五年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 坐不敬國除是爵國廢止證據，不以繼父爵推定同一天或爵位永續。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 坐不敬國除是爵國廢止證據，不以繼父爵推定同一天或爵位永續。 父子承爵與授新爵分存，原侯字依來源前任留侯解讀。",
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "31t_28w_hda_A",
+        "predecessor_holding_id": "th-shiji055-031",
+        "resolved_title": "留侯",
+        "source_term": "子不疑代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-055-liu",
+            "source_id": "s-shiji-055-liu",
+            "paragraph_id": "c-shiji-055-liu:p027",
+            "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+            "person_mention_id": "c-shiji-055-liu:m027-0012"
+          }
+        ],
+        "rationale": "本篇張良受留侯且明示子不疑代侯，依父子及前任爵號判讀，原侯字與未明日期保留，不跨全庫匹配侯。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji055-047",
@@ -2054,7 +2183,36 @@
               "paragraph_id": "c-shiji-055-liu:p029",
               "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 175,
+            "year": -174,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p029",
+                "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+                "quote": "西漢漢文帝前元五年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
       "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 坐不敬國除是爵國廢止證據，不以繼父爵推定同一天或爵位永續。",

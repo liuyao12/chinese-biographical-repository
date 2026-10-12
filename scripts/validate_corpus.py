@@ -723,8 +723,27 @@ def validate(root=ROOT):
                     elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
                         tens, ones = number.split('十')
                         parsed = (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
-                check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-                      and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳'), '來源年齡數值與原詞不符')
+                if 'bounds' in age:
+                    bounds = age.get('bounds'); group = age.get('group_reference')
+                    check(age.get('value') is None and parsed is not None and isinstance(bounds, dict)
+                          and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
+                          and age.get('source_term') == '年皆' + str(number) + '有餘', '來源年齡界限與有餘原詞不符')
+                    check(isinstance(group, dict) and set(group) == {'source_term', 'naming_term', 'person_ids'}
+                          and group.get('source_term') == '四人從太子'
+                          and isinstance(group.get('person_ids'), list) and len(group['person_ids']) == 4
+                          and len(set(group['person_ids'])) == 4 and age['person_id'] in group['person_ids'],
+                          '群體報齡須有四人具名範圍與本人')
+                    for evidence in age.get('evidence', []):
+                        hit = paragraphs.get(evidence.get('paragraph_id'))
+                        if isinstance(group, dict) and hit:
+                            named = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'
+                                     and m['surface'] in group.get('naming_term', '')
+                                     and group.get('naming_term', '') in evidence.get('quote', '')}
+                            check(bool(group.get('naming_term')) and group.get('source_term', '') in evidence.get('quote', '')
+                                  and named == set(group.get('person_ids', [])), '群體報齡具名名單未見於引句')
+                else:
+                    check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
+                          and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳'), '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
