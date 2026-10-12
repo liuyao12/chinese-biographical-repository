@@ -175,12 +175,21 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-056-chen",
+              "source_id": "s-shiji-056-chen",
+              "paragraph_id": "c-shiji-056-chen:p004",
+              "quote": "陳渉起而王陳，使周市略定魏地，立魏咎爲魏王，與秦軍相攻於臨濟。陳平固已前謝其兄伯，從少年往事魏王咎於臨濟。魏王以爲太僕。説魏王不聽，人或讒之，陳平亡去。",
+              "person_mention_id": "c-shiji-056-chen:m004-0031"
+            }
+          ]
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。",
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 説魏王不聽後亡去為離魏任事終點，不以讒言為已死。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -322,12 +331,21 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-056-chen",
+              "source_id": "s-shiji-056-chen",
+              "paragraph_id": "c-shiji-056-chen:p005",
+              "quote": "久之，項羽略地至河上，陳平往歸之，從入破秦，賜平爵卿。項羽之東王彭城也，漢王還定三秦而東，殷王反楚。項羽乃以平爲信武君，將魏王咎客在楚者以往，擊降殷王而還。項王使項悍拜平爲都尉，賜金二十溢。居無何，漢王攻下殷。項王怒，將誅定殷者將吏。陳平懼誅，乃封其金與印，使使歸項王，而平身間行杖劎亡。渡河，船人見其美丈夫獨行，疑其亡將，要中當有金玉寶器，目之，欲殺平。平恐，乃解衣躶而佐刺船。船人知其無有，乃止。",
+              "person_mention_id": "c-shiji-056-chen:m005-0011"
+            }
+          ]
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此為楚授都尉，封金歸印與亡楚原語保留，但未明印屬哪一官爵，不推所有楚官爵同日終止。",
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此為楚授都尉，封金歸印與亡楚原語保留，但未明印屬哪一官爵，不推所有楚官爵同日終止。 封金與印使歸項王而身間行亡，為離楚都尉任事終點；未依將誅造死亡。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1122,7 +1140,36 @@
               "paragraph_id": "c-shiji-056-chen:p011",
               "quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-056-chen",
+                "source_id": "s-shiji-056-chen",
+                "paragraph_id": "c-shiji-056-chen:p011",
+                "quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇漢六年捕韓信後赦為淮陰侯有明示紀年，保存原日期與事件引句；數位紀年只作換年參考，影像未核，不補精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
       "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 捕後赦為淮陰侯是降爵與楚王終止證據，反叛指控不當已獨立證實。",
@@ -1166,7 +1213,36 @@
               "paragraph_id": "c-shiji-056-chen:p011",
               "quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-056-chen",
+                "source_id": "s-shiji-056-chen",
+                "paragraph_id": "c-shiji-056-chen:p011",
+                "quote": "漢六年，人有上書告楚王韓信反。高帝問諸將，諸將曰：「亟發兵阬豎子耳。」高帝默然。問陳平，平固辭謝，曰：「諸將云何？」上具告之。陳平曰：「人之上書言信反，有知之者乎？」曰：「未有。」曰：「信知之乎？」曰：「不知。」陳平曰：「陛下精兵孰與楚？」上曰：「不能過。」平曰：「陛下將用兵有能過韓信者乎？」上曰：「莫及也。」平曰：「今兵不如楚精，而將不能及，而舉兵攻之，是趣之戰也，竊爲陛下危之。」上曰：「爲之奈何？」平曰：「古者天子巡狩，會諸侯。南方有雲夢，陛下弟出僞遊雲夢，會諸侯於陳。陳，楚之西界，信聞天子以好出遊，其勢必無事而郊迎謁。謁，而陛下因禽之，此特一力士之事耳。」高帝以爲然，乃發使告諸侯會陳，「吾將南遊雲夢」。上因隨以行。行未至陳，楚王信果郊迎道中。高帝豫具武士，見信至，即執縛之，載後車。信呼曰：「天下已定，我固當烹！」高帝顧謂信曰：「若毋聲！而反，明矣！」武士反接之。遂會諸侯於陳，盡定楚地。還至雒陽，赦信以爲淮陰侯，而與功臣剖符定封。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇漢六年捕韓信後赦為淮陰侯有明示紀年，保存原日期與事件引句；數位紀年只作換年參考，影像未核，不補精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -1709,8 +1785,25 @@
           ]
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。 原述「二歳」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。 原述「二歳」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。 來源任事年數保留原詞與未知計年法，不倒推精確曆日或生年。 本段孝惠帝六年曹參卒與卷54惠帝二年卒有紀年差異，原年詞保留，數字年與跨篇取捨待核。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 2,
+        "unit": "title_year",
+        "source_number": "二",
+        "source_term": "二歳",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p019",
+            "quote": "安國侯既爲右丞相，二歳，孝惠帝崩。高后欲立諸呂爲王，問王陵，王陵曰：「不可。」問陳平，陳平曰：「可。」呂太后怒，乃詳遷陵爲帝太傅，實不用陵。陵怒，謝疾免，杜門竟不朝請，七年而卒。",
+            "person_mention_id": "c-shiji-056-chen:m019-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji056-037",
@@ -1772,7 +1865,7 @@
           ]
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。",
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。 本段孝惠帝六年曹參卒與卷54惠帝二年卒有紀年差異，原年詞保留，數字年與跨篇取捨待核。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2418,8 +2511,8 @@
       "id": "th-shiji056-051",
       "person_id": "04f_hzf_n06",
       "title": "獻侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2442,9 +2535,48 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": "孝文帝二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-056-chen",
+              "source_id": "s-shiji-056-chen",
+              "paragraph_id": "c-shiji-056-chen:p026",
+              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+              "person_mention_id": "c-shiji-056-chen:m026-0008"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 178,
+            "year": -177,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-056-chen",
+                "source_id": "s-shiji-056-chen",
+                "paragraph_id": "c-shiji-056-chen:p026",
+                "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+                "person_mention_id": "c-shiji-056-chen:m026-0008"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元二年 (前178年)']=\"前178年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇孝文帝二年陳平卒及諡獻侯明示；數位紀年對應僅作前元換年參考，原爲字與完整引句保持，影像未核。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -2452,8 +2584,21 @@
           "evidence": []
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 明示卒後諡名與生前曲逆侯分存，爲異體保持。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "諡爲獻侯",
+        "death_term": "丞相陳平卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0008"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji056-052",
@@ -2501,7 +2646,7 @@
       "person_id": "04f_hzf_n06_A",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2525,14 +2670,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-056-chen",
               "source_id": "s-shiji-056-chen",
               "paragraph_id": "c-shiji-056-chen:p026",
-              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+              "person_mention_id": "c-shiji-056-chen:m026-0020"
             }
           ]
         },
@@ -2542,8 +2688,43 @@
           "evidence": []
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 原述「二年卒」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 原述「二年卒」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。 來源任事年數保留原詞與未知計年法，不倒推精確曆日或生年。",
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "04f_hzf_n06",
+        "predecessor_holding_id": "th-shiji056-029",
+        "resolved_title": "曲逆侯",
+        "source_term": "子共侯買代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0020"
+          }
+        ],
+        "rationale": "本篇明示子與代侯，沿前任曲逆侯及父子承爵鏈解原侯字；不改寫正文，不以共侯或簡侯用稱補未見諡授事件。",
+        "human_reviewed": false
+      },
+      "reported_duration": {
+        "value": 2,
+        "unit": "title_year",
+        "source_number": "二",
+        "source_term": "二年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0020"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji056-054",
@@ -2591,7 +2772,7 @@
       "person_id": "04f_hzf_n06_AA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2615,14 +2796,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-056-chen",
               "source_id": "s-shiji-056-chen",
               "paragraph_id": "c-shiji-056-chen:p026",
-              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+              "person_mention_id": "c-shiji-056-chen:m026-0031"
             }
           ]
         },
@@ -2632,15 +2814,50 @@
           "evidence": []
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 原述「二十三年卒」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 原述「二十三年卒」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。 來源任事年數保留原詞與未知計年法，不倒推精確曆日或生年。",
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "04f_hzf_n06_A",
+        "predecessor_holding_id": "th-shiji056-053",
+        "resolved_title": "曲逆侯",
+        "source_term": "子簡侯恢代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0031"
+          }
+        ],
+        "rationale": "本篇明示子與代侯，沿前任曲逆侯及父子承爵鏈解原侯字；不改寫正文，不以共侯或簡侯用稱補未見諡授事件。",
+        "human_reviewed": false
+      },
+      "reported_duration": {
+        "value": 23,
+        "unit": "title_year",
+        "source_number": "二十三",
+        "source_term": "二十三年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0031"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji056-056",
       "person_id": "04f_hzf_n06_AAA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2664,14 +2881,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-056-chen",
               "source_id": "s-shiji-056-chen",
               "paragraph_id": "c-shiji-056-chen:p026",
-              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。"
+              "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+              "person_mention_id": "c-shiji-056-chen:m026-0042"
             }
           ]
         },
@@ -2689,8 +2907,43 @@
           ]
         }
       },
-      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。 原述「二十三年」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。 此終點僅依免、徙、讓職、改封除舊或國除的明示原段，不外推其他官爵。 原述「二十三年」另附來源，不換算起訖日期，尤其兩處二十三年不合成同一段任期。 來源任事年數保留原詞與未知計年法，不倒推精確曆日或生年。",
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "04f_hzf_n06_AA",
+        "predecessor_holding_id": "th-shiji056-055",
+        "resolved_title": "曲逆侯",
+        "source_term": "子何代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0042"
+          }
+        ],
+        "rationale": "本篇明示子與代侯，沿前任曲逆侯及父子承爵鏈解原侯字；不改寫正文，不以共侯或簡侯用稱補未見諡授事件。",
+        "human_reviewed": false
+      },
+      "reported_duration": {
+        "value": 23,
+        "unit": "title_year",
+        "source_number": "二十三",
+        "source_term": "二十三年，何坐略人妻",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-056-chen",
+            "source_id": "s-shiji-056-chen",
+            "paragraph_id": "c-shiji-056-chen:p026",
+            "quote": "孝文帝二年，丞相陳平卒，諡爲獻侯。子共侯買代侯。二年卒，子簡侯恢代侯。二十三年卒，子何代侯。二十三年，何坐略人妻，棄市，國除。",
+            "person_mention_id": "c-shiji-056-chen:m026-0042"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji056-057",
@@ -2813,6 +3066,48 @@
         }
       },
       "interpretation_note": "太史公評述賢相，非另一正式官職或授予事件；文獻評稱不補實任時段。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji056-060",
+      "person_id": "2ma_wzz_53b",
+      "title": "御史",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-056-chen",
+          "source_id": "s-shiji-056-chen",
+          "paragraph_id": "c-shiji-056-chen:p013",
+          "quote": "高帝南過曲逆，上其城，望見其屋室甚大，曰：「壯哉縣！吾行天下，獨見洛陽與是耳。」顧問御史曰：「曲逆戸口幾何？」對曰：「始秦時三萬餘戸，間者兵數起，多亡匿，今見五千戸。」於是乃詔御史，更以陳平爲曲逆侯，盡食之，除前所食戸牖。",
+          "person_mention_id": "c-shiji-056-chen:m013-0042"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji056-060:a001",
+          "paragraph_id": "c-shiji-056-chen:p013",
+          "start": 42,
+          "end": 44,
+          "surface": "御史",
+          "person_mention_id": "c-shiji-056-chen:m013-0042",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "詢戶口的未名對話御史有明示用稱，授任起訖未知；後句詔御史未證同一個人，不強併。",
       "reviewer": "Codex（AI 代理）"
     }
   ]

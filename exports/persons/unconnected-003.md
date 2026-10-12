@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qdr_5yn_8kr` | 陳餘 | [《史記・張耳陳餘列傳》][71] | [JSON](qdr_5yn_8kr.json) |
 | `qdw_na8_gsj` | 田嗇 | [《史記・貨殖列傳》][111] | [JSON](qdw_na8_gsj.json) |
 | `qe0_q7r_mlc` | 鄭國 | [《史記・仲尼弟子列傳》][49] | [JSON](qe0_q7r_mlc.json) |
 | `qei_urq_n8p` | 光子乘羽 | [《史記・仲尼弟子列傳》][49] | [JSON](qei_urq_n8p.json) |

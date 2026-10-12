@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `dd0_uda_xje` | 晉平公 | [《史記・趙世家》][25] | [JSON](dd0_uda_xje.json) |
 | `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][77] | [JSON](dda_1pf_g3o.json) |
 | `ddb_bi5_eco` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](ddb_bi5_eco.json) |
 | `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][1] | [JSON](ddb_l4j_4j2.json) |
@@ -2232,7 +2233,6 @@
 | `qcs_gl3_9g8` | 燕易王母 | [《史記・蘇秦列傳》][51] | [JSON](qcs_gl3_9g8.json) |
 | `qd7_pum_453` | 馬邑敘事單于（未名） | [《史記・李將軍列傳》][91] | [JSON](qd7_pum_453.json) |
 | `qdl_8tt_r4v` | 欒布 | [《史記・樊酈滕灌列傳》][77] | [JSON](qdl_8tt_r4v.json) |
-| `qdr_5yn_8kr` | 陳餘 | [《史記・張耳陳餘列傳》][71] | [JSON](qdr_5yn_8kr.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
