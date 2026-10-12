@@ -3,7 +3,8 @@ import baseChinese from './locale-zh.js';
 import familyChinese from './family-locale.js';
 import round1Chinese from './round1-locale.js';
 import namesChinese from './names-locale.js';
-const chinese = {...baseChinese, ...familyChinese, ...round1Chinese, ...namesChinese};
+import tablesChinese from './tables-locale.js';
+const chinese = {...baseChinese, ...familyChinese, ...round1Chinese, ...namesChinese, ...tablesChinese};
 
 export const DEFAULT_LOCALE = 'zh-Hant';
 export const STORAGE_KEY = 'ren-wen:language:v1';
