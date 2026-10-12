@@ -26,7 +26,7 @@
   },
   "text_sha256": "c9e1d61809c4fee449551e7c3a42f7deeb9f0f3f9bfb76359887743f32e33651",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "coverage": "全152段正文及明示姓名首輪已保存；未名者、代詞、親屬、稱號與版本仍待覆核。",
@@ -35,6 +35,672 @@
       "宰予與田常作亂敘事、弟子名數及傳易世次待版本與研究覆核，不以記憶改原文。",
       "短名、引古人物、未名家屬及群體不按同字全域合併；未補闕代。",
       "人物、來源關係、稱號時段、版本與現代研究尚待覆核。"
+    ],
+    "age_difference_assertions": [
+      {
+        "id": "age-diff-shiji067-001",
+        "person_id": "dng_dw6_2qy_A",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 30,
+        "unit": "source_age_years",
+        "source_number": "三十",
+        "source_term": "少孔子三十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p003",
+            "quote": "顏回者，魯人也，字子淵。少孔子三十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m003-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m003-0013"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-002",
+        "person_id": "we8_mkq_luc",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 15,
+        "unit": "source_age_years",
+        "source_number": "十五",
+        "source_term": "少孔子十五歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p008",
+            "quote": "閔損字子騫。少孔子十五歳。",
+            "person_mention_id": "c-shiji-067-disciples:m008-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m008-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-003",
+        "person_id": "wnp_vk6_qhe",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 29,
+        "unit": "source_age_years",
+        "source_number": "二十九",
+        "source_term": "少孔子二十九歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p016",
+            "quote": "冉求字子有，少孔子二十九歳。爲季氏宰。",
+            "person_mention_id": "c-shiji-067-disciples:m016-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m016-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-004",
+        "person_id": "cgc_imx_hn5",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 9,
+        "unit": "source_age_years",
+        "source_number": "九",
+        "source_term": "少孔子九歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p019",
+            "quote": "仲由字子路，卞人也。少孔子九歳。",
+            "person_mention_id": "c-shiji-067-disciples:m019-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m019-0011"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-005",
+        "person_id": "dpn_mmt_rm9",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 31,
+        "unit": "source_age_years",
+        "source_number": "三十一",
+        "source_term": "少孔子三十一歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p035",
+            "quote": "端木賜，衞人，字子貢。少孔子三十一歳。",
+            "person_mention_id": "c-shiji-067-disciples:m035-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m035-0012"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-006",
+        "person_id": "mqt_zhu_byy",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 45,
+        "unit": "source_age_years",
+        "source_number": "四十五",
+        "source_term": "少孔子四十五歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p049",
+            "quote": "言偃，吳人，字子游。少孔子四十五歳。",
+            "person_mention_id": "c-shiji-067-disciples:m049-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m049-0011"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-007",
+        "person_id": "z8l_wje_08d",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 44,
+        "unit": "source_age_years",
+        "source_number": "四十四",
+        "source_term": "少孔子四十四歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p051",
+            "quote": "卜商字子夏。少孔子四十四歳。",
+            "person_mention_id": "c-shiji-067-disciples:m051-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m051-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-008",
+        "person_id": "482_ly0_otk",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 48,
+        "unit": "source_age_years",
+        "source_number": "四十八",
+        "source_term": "少孔子四十八歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p056",
+            "quote": "顓孫師，陳人，字子張。少孔子四十八歳。",
+            "person_mention_id": "c-shiji-067-disciples:m056-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m056-0012"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-009",
+        "person_id": "c7w_nyj_95u",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 46,
+        "unit": "source_age_years",
+        "source_number": "四十六",
+        "source_term": "少孔子四十六歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p060",
+            "quote": "曾參，南武城人，字子輿。少孔子四十六歳。",
+            "person_mention_id": "c-shiji-067-disciples:m060-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m060-0013"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-010",
+        "person_id": "oxa_rta_lvd",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 39,
+        "unit": "source_age_years",
+        "source_number": "三十九",
+        "source_term": "少孔子三十九歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p062",
+            "quote": "澹臺滅明，武城人，字子羽。少孔子三十九歳。",
+            "person_mention_id": "c-shiji-067-disciples:m062-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m062-0014"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-011",
+        "person_id": "x3c_d03_60b",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 30,
+        "unit": "source_age_years",
+        "source_number": "三十",
+        "source_term": "少孔子三十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p065",
+            "quote": "宓不齊字子賤。少孔子三十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m065-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m065-0008"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-012",
+        "person_id": "66i_9gx_pc4",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 29,
+        "unit": "source_age_years",
+        "source_number": "二十九",
+        "source_term": "少孔子二十九歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p082",
+            "quote": "商瞿，魯人，字子木。少孔子二十九歳。",
+            "person_mention_id": "c-shiji-067-disciples:m082-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m082-0011"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-013",
+        "person_id": "b7o_fu7_sjf",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 30,
+        "unit": "source_age_years",
+        "source_number": "三十",
+        "source_term": "少孔子三十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p084",
+            "quote": "髙柴字子羔。少孔子三十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m084-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m084-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-014",
+        "person_id": "7ff_u3q_0hy",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 36,
+        "unit": "source_age_years",
+        "source_number": "三十六",
+        "source_term": "少孔子三十六歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p094",
+            "quote": "樊須字子遲。少孔子三十六歳。",
+            "person_mention_id": "c-shiji-067-disciples:m094-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m094-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-015",
+        "person_id": "js1_fea_1s7",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 43,
+        "unit": "source_age_years",
+        "source_number": "四十三",
+        "source_term": "少孔子四十三歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p097",
+            "quote": "有若少孔子四十三歳。有若曰：「禮之用，和爲貴，先王之道斯爲美。小大由之，有所不行；知和而和，不以禮節之，亦不可行也。」「信近於義，言可復也；恭近於禮，遠恥辱也；因不失其親，亦可宗也。」",
+            "person_mention_id": "c-shiji-067-disciples:m097-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m097-0003"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-016",
+        "person_id": "rky_s33_kuz",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 42,
+        "unit": "source_age_years",
+        "source_number": "四十二",
+        "source_term": "少孔子四十二歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p099",
+            "quote": "公西赤字子華。少孔子四十二歳。",
+            "person_mention_id": "c-shiji-067-disciples:m099-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m099-0008"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-017",
+        "person_id": "2c8_uuj_bc8",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 30,
+        "unit": "source_age_years",
+        "source_number": "三十",
+        "source_term": "少孔子三十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p101",
+            "quote": "巫馬施字子旗。少孔子三十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m101-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m101-0008"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-018",
+        "person_id": "lx4_rdl_gjt",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 29,
+        "unit": "source_age_years",
+        "source_number": "二十九",
+        "source_term": "少孔子二十九歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p103",
+            "quote": "梁鱣字叔魚。少孔子二十九歳。",
+            "person_mention_id": "c-shiji-067-disciples:m103-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m103-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-019",
+        "person_id": "2rj_hat_gfq",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 46,
+        "unit": "source_age_years",
+        "source_number": "四十六",
+        "source_term": "少孔子四十六歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p104",
+            "quote": "顏幸字子柳。少孔子四十六歳。",
+            "person_mention_id": "c-shiji-067-disciples:m104-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m104-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-020",
+        "person_id": "8ge_1zr_lz9",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 50,
+        "unit": "source_age_years",
+        "source_number": "五十",
+        "source_term": "少孔子五十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p105",
+            "quote": "冉孺字子魯，少孔子五十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m105-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m105-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-021",
+        "person_id": "6aw_ppq_4x9",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 50,
+        "unit": "source_age_years",
+        "source_number": "五十",
+        "source_term": "少孔子五十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p106",
+            "quote": "曹卹字子循。少孔子五十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m106-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m106-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-022",
+        "person_id": "vvg_bgl_w1b",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 50,
+        "unit": "source_age_years",
+        "source_number": "五十",
+        "source_term": "少孔子五十歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p107",
+            "quote": "伯虔字子析，少孔子五十歳。",
+            "person_mention_id": "c-shiji-067-disciples:m107-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m107-0007"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      {
+        "id": "age-diff-shiji067-023",
+        "person_id": "wng_nsz_uav",
+        "reference_person_id": "0xl_7ir_tmn",
+        "comparison": "younger_than",
+        "value": 53,
+        "unit": "source_age_years",
+        "source_number": "五十三",
+        "source_term": "少孔子五十三歳",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p108",
+            "quote": "公孫龍字子石。少孔子五十三歳。",
+            "person_mention_id": "c-shiji-067-disciples:m108-0000",
+            "reference_person_mention_id": "c-shiji-067-disciples:m108-0008"
+          }
+        ],
+        "interpretation_note": "原文少孔子若干歳只記兩人來源年齡差；計齡口徑未明，不由孔子年譜推本人生年，異說分來源保存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji067-zaiyu-ziwo",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "4uh_n5r_0id",
+          "eok_92w_kgq",
+          "ou4_46z_3ks"
+        ],
+        "paragraph_ids": [
+          "c-shiji-067-disciples:p034",
+          "c-shiji-032-qi:p077",
+          "c-shiji-046-tian:p013"
+        ],
+        "note": "弟子列傳宰我為臨菑大夫與田常亂而夷族；齊世家田氏亂敘事提子我，田世家明稱子我為監止宗人且田氏追殺子我及監止。此處同字及事件近似不足直接合宰予與兩篇子我；保留來源差異與人物ID，待具體校勘或研究參考，不改正文。"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji067-001",
+        "person_id": "dng_dw6_2qy_A",
+        "value": 29,
+        "source_number": "二十九",
+        "source_term": "年二十九",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-067-disciples",
+            "source_id": "s-shiji-067-disciples",
+            "paragraph_id": "c-shiji-067-disciples:p006",
+            "quote": "回年二十九，髮盡白，蚤死。孔子哭之慟，曰：「自吾有回，門人益親。」",
+            "person_mention_id": "c-shiji-067-disciples:m006-0000"
+          }
+        ],
+        "interpretation_note": "回年二十九髮盡白為來源年齡，蚤死另述，二十九不當卒年齡；計歲口徑未明，不推生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [

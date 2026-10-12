@@ -807,6 +807,33 @@ def validate(root=ROOT):
                 if 'normalized_date' in age:
                     errors.extend(normalized_date_errors(age['normalized_date']))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
+            for age in chapter['annotation'].get('age_difference_assertions', []):
+                check(age['id'] not in age_ids, '年齡差記錄ID重複'); age_ids.add(age['id'])
+                parsed = source_age_number(age.get('source_number'))
+                check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed and parsed > 0
+                      and age.get('comparison') == 'younger_than', '年齡差數值或方向不符')
+                check(age.get('person_id') in pids and age.get('reference_person_id') in pids
+                      and age.get('person_id') != age.get('reference_person_id'), '年齡差須有兩個不同人物')
+                check(age.get('unit') == 'source_age_years' and age.get('counting') == 'unspecified_source_age'
+                      and age.get('birth_year') is None and age.get('date_expression') is None
+                      and 'normalized_date' not in age and age.get('status') == 'source_attested', '年齡差不得推生年日期或計歲方式')
+                check(bool(age.get('evidence')) and bool(age.get('interpretation_note')) and bool(age.get('reviewer'))
+                      and age.get('human_reviewed') is False, '年齡差缺來源或判讀')
+                for evidence in age.get('evidence', []):
+                    hit = paragraphs.get(evidence.get('paragraph_id'))
+                    subject = mentions.get(evidence.get('person_mention_id'))
+                    reference = mentions.get(evidence.get('reference_person_mention_id'))
+                    quote = evidence.get('quote')
+                    valid = bool(hit) and hit[0] == chapter['id'] == evidence.get('chapter_id') and evidence.get('source_id') == chapter['source_id']
+                    check(valid and isinstance(quote, str) and bool(quote) and quote in hit[1]['text'], '年齡差来源引句不符'.replace('来源','來源'))
+                    for anchor, pid in [(subject, age.get('person_id')), (reference, age.get('reference_person_id'))]:
+                        check(bool(anchor) and anchor[1] == evidence.get('paragraph_id') and anchor[2].get('person_id') == pid, '年齡差人物錨點不符')
+                        if valid and anchor and isinstance(quote, str):
+                            check(any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
+                                      for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(quote, i)), '年齡差人物未在引句中')
+                    if reference and isinstance(quote, str):
+                        terms = ['少' + reference[2]['surface'] + str(age.get('source_number')) + suffix for suffix in ('歲', '歳')]
+                        check(age.get('source_term') in terms and age.get('source_term') in quote, '年齡差原詞與參考人物不符')
         for report in age_report_groups.values():
             check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
         address_ids = set()

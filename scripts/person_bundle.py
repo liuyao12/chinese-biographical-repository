@@ -30,13 +30,14 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 break
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
-    mentions, relations, titles, identities, addresses, life_events, ages, person_events = [], [], [], [], [], [], [], []
+    mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
     chapters, paragraphs = {}, {}
     for record in records:
         kind = record.get('record_type')
         if kind == 'marked_chapter':
             chapters[record['id']] = record
             ages.extend(a for a in record['annotation'].get('age_assertions', []) if a['person_id'] in ids)
+            age_differences.extend(a for a in record['annotation'].get('age_difference_assertions', []) if ids.intersection((a['person_id'], a['reference_person_id'])))
             for paragraph in record['paragraphs']:
                 paragraphs[paragraph['id']] = (record, paragraph)
                 for mention in paragraph['mentions']:
@@ -90,7 +91,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
-    for record in relations + titles + identities + addresses + life_events + person_events + ages + related_equivalences + tree_decisions:
+    for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
     for holding in titles:
@@ -147,6 +148,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),
             **({'age_assertions': ages} if ages else {}),
+            **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='person_event', event_type=e['event_type']) for e in person_events if 'normalized_date' in e]
