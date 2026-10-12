@@ -277,7 +277,24 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第3段時長原語「即位二十三年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 23,
+        "unit": "regnal_year",
+        "source_term": "即位二十三年卒",
+        "source_number": "二十三",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p003",
+            "quote": "高祖六年，已禽楚王韓信於陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。",
+            "person_mention_id": "c-shiji-050-chuyuan:m003-0017"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-007",
@@ -318,14 +335,31 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第3段時長原語「夷王四年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 4,
+        "unit": "regnal_year",
+        "source_term": "夷王四年卒",
+        "source_number": "四",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p003",
+            "quote": "高祖六年，已禽楚王韓信於陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。",
+            "person_mention_id": "c-shiji-050-chuyuan:m003-0035"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-008",
       "person_id": "n7i_i5n_lay_AA",
       "title": "王",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -354,9 +388,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-050-chuyuan",
+              "source_id": "s-shiji-050-chuyuan",
+              "paragraph_id": "c-shiji-050-chuyuan:p003",
+              "quote": "高祖六年，已禽楚王韓信於陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。",
+              "person_mention_id": "c-shiji-050-chuyuan:m003-0047"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -672,7 +715,24 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第6段時長原語「文王立三年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 3,
+        "unit": "regnal_year",
+        "source_term": "文王立三年卒",
+        "source_number": "三",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。",
+            "person_mention_id": "c-shiji-050-chuyuan:m006-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-016",
@@ -760,7 +820,24 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第6段時長原語「安王二十二年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 22,
+        "unit": "regnal_year",
+        "source_term": "安王二十二年卒",
+        "source_number": "二十二",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。",
+            "person_mention_id": "c-shiji-050-chuyuan:m006-0008"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-018",
@@ -801,14 +878,31 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第6段時長原語「襄王立十四年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 14,
+        "unit": "regnal_year",
+        "source_term": "襄王立十四年卒",
+        "source_number": "十四",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。",
+            "person_mention_id": "c-shiji-050-chuyuan:m006-0022"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-019",
       "person_id": "n7i_i5n_lay_BAAA",
       "title": "王",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -831,9 +925,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-050-chuyuan",
+              "source_id": "s-shiji-050-chuyuan",
+              "paragraph_id": "c-shiji-050-chuyuan:p006",
+              "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。",
+              "person_mention_id": "c-shiji-050-chuyuan:m006-0036"
+            }
+          ]
         },
         "end": {
           "status": "source_event",
@@ -1091,7 +1194,24 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第8段時長原語「立十三年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 13,
+        "unit": "regnal_year",
+        "source_term": "立十三年卒",
+        "source_number": "十三",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p008",
+            "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。",
+            "person_mention_id": "c-shiji-050-chuyuan:m008-0011"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-025",
@@ -1173,7 +1293,24 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第8段時長原語「一年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 1,
+        "unit": "regnal_year",
+        "source_term": "一年卒",
+        "source_number": "一",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p008",
+            "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。",
+            "person_mention_id": "c-shiji-050-chuyuan:m008-0042"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji050-027",
