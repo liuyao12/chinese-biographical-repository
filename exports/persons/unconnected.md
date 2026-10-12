@@ -36,6 +36,7 @@
 | `057_xe9_rab` | 祝融 | [《史記・鄭世家》][24] | [JSON](057_xe9_rab.json) |
 | `05u_ssx_nu1` | 箕子引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](05u_ssx_nu1.json) |
 | `063_z1q_xjl` | 傅抵 | [《史記・趙世家》][25] | [JSON](063_z1q_xjl.json) |
+| `068_avl_uin` | 燕王旦上書後被斬的使者 | [《史記・三王世家》][42] | [JSON](068_avl_uin.json) |
 | `06j_tk0_9q6` | 越王句踐 | [《史記・伍子胥列傳》][48] | [JSON](06j_tk0_9q6.json) |
 | `06k_nhd_cnj` | 王孟 | [《史記・游俠列傳》][106] | [JSON](06k_nhd_cnj.json) |
 | `06n_ttw_xgt` | 鄒陽 | [《史記・梁孝王世家》][40] | [JSON](06n_ttw_xgt.json) |
@@ -2231,7 +2232,6 @@
 | `dbp_8hk_z35` | 樓煩王（趙世家未名者） | [《史記・趙世家》][25] | [JSON](dbp_8hk_z35.json) |
 | `dbu_31o_zf6` | 秦太后（魏世家无忌議論未名者） | [《史記・魏世家》][26] | [JSON](dbu_31o_zf6.json) |
 | `dc4_qnx_hp2` | 晉鄙 | [《史記・魏公子列傳》][59] | [JSON](dc4_qnx_hp2.json) |
-| `dco_hwr_j82` | 昌文君 | [《史記・秦始皇本紀》][6] | [JSON](dco_hwr_j82.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

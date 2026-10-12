@@ -231,3 +231,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 生卒段省略人物主語時，`evidence.context` 可記 `kind: prior_paragraph_subject`、近前同篇的 `paragraph_id`、相符人物 `person_mention_id`、實際原文 `quote` 及 `intervening_paragraph_ids`。只允許緊鄰段或中間一段，須逐項列中間段落、引句涵蓋錨點及當段原事件詞；不補正文名字。這是有來源的編輯主語判讀，距離驗證不表示自動語義辨認，仍須核讀中間敘事。
 
 明示兄弟承爵可在 `inheritance` 加 `predecessor_relation: brother`；省略時仍為 `father`。前任本人、前任及根爵名、同段相符 brother 陳述和原繼位詞都必須存在；不因同國繼位自動補兄弟，不推同父同母或長幼絕對排行。兄弟稱「弟」等原詞由親屬及承爵 source_term 保留，前任連結不等於父系家族 ID。
+
+死後授號亦可保存先死後賜的來源句：posthumous_basis 增列 death_term 及 grant_term，死亡原詞須在完整 source_term 中位於「賜夫人為」與所授稱號之前，起點證據一致。此規則記錄明示句序與編輯判讀，不由某人死亡自動推定所有稱號為追贈；不補來源未見的「追尊」二字。

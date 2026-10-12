@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `dco_hwr_j82` | 昌文君 | [《史記・秦始皇本紀》][6] | [JSON](dco_hwr_j82.json) |
 | `dcp_1gr_65s` | 羲仲 | [《史記・五帝本紀》][1] | [JSON](dcp_1gr_65s.json) |
 | `dd0_uda_xje` | 晉平公 | [《史記・趙世家》][25] | [JSON](dd0_uda_xje.json) |
 | `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][77] | [JSON](dda_1pf_g3o.json) |
@@ -2232,7 +2233,6 @@
 | `qce_nje_g73` | 豆如意 | [《史記・衛將軍驃騎列傳》][93] | [JSON](qce_nje_g73.json) |
 | `qco_jjb_gz1` | 懷（鄖公弟） | [《史記・楚世家》][22] | [JSON](qco_jjb_gz1.json) |
 | `qcp_ou0_2g1` | 項羽 | [《史記・項羽本紀》][7] | [JSON](qcp_ou0_2g1.json) |
-| `qcs_gl3_9g8` | 燕易王母 | [《史記・蘇秦列傳》][51] | [JSON](qcs_gl3_9g8.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
