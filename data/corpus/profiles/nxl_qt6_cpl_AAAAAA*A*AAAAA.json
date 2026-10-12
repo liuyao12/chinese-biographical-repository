@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "nxl_qt6_cpl_AAAAAA*A*AAAAA",
+  "canonical_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAA",
+  "label": "哀王（魏世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "哀王",
+    "魏王",
+    "王",
+    "魏哀王"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p045",
+      "count": 8,
+      "quote": "十六年，襄王卒，子哀王立。張儀復歸秦。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r159-c03",
+      "title": "《史記·六國年表》",
+      "quote": "魏哀王元年。擊秦不勝。",
+      "year": {
+        "era": "BCE",
+        "value": 318,
+        "astronomical_year": -317,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "318",
+        "source_cell_id": "shiji-015-r159-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r159-c03-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "魏哀王",
+        "person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji044-015",
+      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAA",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p045",
+          "quote": "十六年，襄王卒，子哀王立。張儀復歸秦。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "襄王卒，子哀王立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子與繼位語句，傳統魏王世系及紀年疑點留待底本與研究對讀，不改寫原文。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "nxl_qt6_cpl_AAAAAA*A*AAAA": "襄王（魏世家候選）",
+    "nxl_qt6_cpl_AAAAAA*A*AAAAA": "哀王（魏世家候選）",
+    "nxl_qt6_cpl_AAAAAA*A*AAAAAA": "昭王（魏世家魏君候選）"
+  },
+  "dates": []
+}

@@ -101,6 +101,16 @@ def import_table(path, number, title):
 def validate():
     index = json.loads(INDEX.read_text())
     count = 0
+    persons = json.loads((ROOT/'data/corpus/persons.json').read_text())
+    candidate_path = ROOT/'data/historical-tables/person-candidates.json'
+    if candidate_path.exists():
+        candidates = json.loads(candidate_path.read_text())['persons']
+        assert len({p['id'] for p in candidates}) == len(candidates)
+        assert not {p['id'] for p in candidates}.intersection(persons)
+        for p in candidates:
+            assert re.fullmatch('[a-z0-9]{3}_[a-z0-9]{3}_[a-z0-9]{3}', p['id'])
+            assert p['status'] == 'source_local_candidate' and p['evidence']
+        persons.update({p['id']:p for p in candidates})
     for entry in index['tables']:
         path = ROOT / entry['path']
         table = json.loads(path.read_text())
@@ -128,11 +138,36 @@ def validate():
                     assert c['id'] not in ids
                     ids.add(c['id'])
                     assert c['column'] == col and c['rowspan'] == 1 and c['colspan'] > 0
-                    assert c['printed_page'] is None and c['person_mentions'] == []
+                    assert c['printed_page'] is None
+                    end = 0
+                    for m in c['person_mentions']:
+                        assert c['column'] != 0, '編者西元欄不加原文人名標記'
+                        assert 0 <= end <= m['start'] < m['end'] <= len(c['text'])
+                        assert c['text'][m['start']:m['end']] == m['surface'], '人物錨點原文不符'
+                        assert m['person_id'] in persons and m['status'] == 'contextual_provisional'
+                        assert m['id'] not in ids
+                        ids.add(m['id']); end = m['end']
+                    combined = sorted(c['person_mentions'] + c.get('unresolved_mentions', []), key=lambda m:m['start'])
+                    assert not combined or c['column'] != 0, '編者西元欄不加原文指稱'
+                    end = 0
+                    for m in combined:
+                        assert end <= m['start'] < m['end'] <= len(c['text']) and c['text'][m['start']:m['end']] == m['surface']
+                        end = m['end']
+                        if not m.get('person_id'):
+                            assert m['kind'] == 'unresolved_reference' and m['status'] == 'awaiting_collation'
                     col += c['colspan']
                 assert col == width
                 count += 1
-    print('史料表格驗證通過：', len(index['tables']), '表，', count, '年列')
+    if candidate_path.exists():
+        tables = {x['id']:json.loads((ROOT/x['path']).read_text()) for x in index['tables']}
+        for person in candidates:
+            for e in person['evidence']:
+                table = tables[e['table_id']]
+                cell = next(c for f in table['fragments'] for row in f['rows'] for c in row['cells'] if c['id'] == e['cell_id'])
+                assert e['quote'] == cell['text'] and person['source_surface'] in cell['text']
+                assert e['source_id'] == table['source']['id'] and e['source_revision'] == table['source']['revision']
+                assert any(m['person_id'] == person['id'] and m['surface'] == person['source_surface'] for m in cell['person_mentions'])
+    print('史料表格驗證通過：' , len(index['tables']), '表，', count, '年列')
 
 
 if __name__ == '__main__':

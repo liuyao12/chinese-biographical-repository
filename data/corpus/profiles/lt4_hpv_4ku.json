@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "lt4_hpv_4ku",
+  "canonical_person_id": "lt4_hpv_4ku",
+  "label": "武成王（燕君）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "燕武成王",
+    "武成王"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji034-032",
+      "person_id": "lt4_hpv_4ku",
+      "title": "燕武成王",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p028",
+          "quote": "惠王七年卒。韓、魏、楚共伐燕。燕武成王立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji034-032:a001",
+          "paragraph_id": "c-shiji-034-yan:p028",
+          "start": 15,
+          "end": 19,
+          "surface": "燕武成王",
+          "person_mention_id": "c-shiji-034-yan:m028-0015",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 34,
+      "category": "shijia",
+      "title": "燕召公世家第四",
+      "paragraph_id": "c-shiji-034-yan:p028",
+      "count": 3,
+      "quote": "惠王七年卒。韓、魏、楚共伐燕。燕武成王立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r206-c07",
+      "title": "《史記·六國年表》",
+      "quote": "燕武成王元年",
+      "year": {
+        "era": "BCE",
+        "value": 271,
+        "astronomical_year": -270,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "271",
+        "source_cell_id": "shiji-015-r206-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r206-c07-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "燕武成王",
+        "person_id": "lt4_hpv_4ku",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-034-yan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "source_id": "s-shiji-034-yan",
+      "source": {
+        "title": "史記／卷034",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+        "revision_id": 2559287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "为": "為",
+            "时": "時",
+            "与": "與",
+            "乐": "樂",
+            "骑": "騎",
+            "将": "將",
+            "赵": "趙",
+            "齐": "齊",
+            "单": "單",
+            "击": "擊",
+            "败": "敗",
+            "军": "軍",
+            "归": "歸",
+            "复": "復",
+            "闵": "閔",
+            "韩": "韓"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
+          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "lt4_hpv_4ku": "武成王（燕君）",
+    "lt4_hpv_4ku_A": "孝王（燕君）"
+  },
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 258,
+      "year": -257,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "武成王七年，齊田單伐我，拔中陽。十三年，秦敗趙於長平四十餘萬。十四年，武成王卒，子孝王立。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p029",
+          "quote": "武成王七年，齊田單伐我，拔中陽。十三年，秦敗趙於長平四十餘萬。十四年，武成王卒，子孝王立。",
+          "person_mention_id": "c-shiji-034-yan:m029-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/zh-hant/史記/卷015",
+          "quote": "十四",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "燕武成王十四年對數位年表公元前258年行。公元前年欄為數位編輯參考，只換算年，未知公曆月日不補；未核影像或曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji034-046",
+      "person_id": "lt4_hpv_4ku",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ]
+}

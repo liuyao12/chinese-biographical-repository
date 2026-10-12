@@ -138,6 +138,13 @@ def export(root=ROOT):
     single_pages = write_reading_pages(destination, 'unconnected.md', 'unconnected', '# 尚未連入同族的人物', '返回 [可展開家族索引](README.md)。以下人物尚未依已記錄的父系資料連入其他節點；同姓不表示同族。索引分頁不改人物 ID 或 JSON 入口。', table_blocks(single_rows), source_references)
     (destination / 'index.json').write_text(json.dumps({'format_version': '0.1', 'persons': rows, 'id_aliases': aliases,
         'reading_indexes': {'family_pages': family_pages, 'unconnected_pages': single_pages}}, ensure_ascii=False, indent=2) + '\n')
+    candidate_path = root / 'data/historical-tables/person-candidates.json'
+    if candidate_path.exists():
+        try:
+            from .table_person_profiles import build as build_table_person_profiles
+        except ImportError:
+            from table_person_profiles import build as build_table_person_profiles
+        build_table_person_profiles(root)
     print('人物 JSON：', len(rows))
 
 
