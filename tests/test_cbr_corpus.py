@@ -14,6 +14,21 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_royal_inheritance_rejects_unrelated_predecessor(self):
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(predecessor_person_id='82d_8vl_8i1_C'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_royal_inheritance_rejects_changed_kingdom(self):
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(resolved_title='代王'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_royal_inheritance_rejects_mixed_rank_kind(self):
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026').update(kind='noble_rank'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_royal_inheritance_chain_rejects_cycle(self):
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(predecessor_holding_id='th-shiji058-038'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_royal_inheritance_chain_rejects_missing_predecessor(self):
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-038')['inheritance'].update(predecessor_holding_id='th-shiji058-999'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))

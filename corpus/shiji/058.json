@@ -26,10 +26,10 @@
   },
   "text_sha256": "091ed47a8427b568bf974c819d0e91087a0e0d0b39c6c7cd02c2ef7118c61371",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全27段明示姓名、王號、局部短稱及部分未名者首輪。",
+    "coverage": "全27段第二輪核讀，補死亡、來源地址與部分諡名及王位年數；完整跨篇身份、匿名者與稱號時段仍待核。",
     "limitations": [
       "梁王各代及同字勝分辨，不按同爵或同名全域合併。",
       "正文、褚先生附述與索隱分層；署稱不補全名或年代，兩段刺袁盎敘述不當獨立見證。",
@@ -2351,8 +2351,9 @@
           "end": 207,
           "surface": "王",
           "kind": "person",
-          "person_id": "82d_8vl_8i1_AAA",
-          "status": "contextual_provisional"
+          "person_id": "82d_8vl_8i1_AAAA",
+          "status": "contextual_provisional",
+          "note": "本句子無傷立為梁王的主語為無傷，王字非父襄。"
         }
       ]
     },
@@ -2403,10 +2404,10 @@
           "start": 32,
           "end": 34,
           "surface": "中尉",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "匿名者、群體、制度泛稱、所舉古事或未定指代；不補來源未見姓名、成員及關係。"
+          "kind": "person",
+          "person_id": "env_vor_wvy",
+          "status": "contextual_provisional",
+          "note": "明射殺的具體未名中尉，不補姓名，與其他篇中尉不自動合併。"
         },
         {
           "id": "c-shiji-058-liang:m018-0035",
