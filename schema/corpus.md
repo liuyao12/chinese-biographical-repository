@@ -201,3 +201,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `grandmother` 在外孫原句中保存母系祖母：主體為外孫、客體為祖母，原詞 `外孫`、`lineage: maternal`、`generation_difference: -2`、`mother_person_id: null`。本句未名母親不從別段補寫，母系關係不接入父系家族 ID。
 
 `reported_duration.unit: title_month` 保存來源明記的持號月份數，例如「陳勝王凡六月」以 `value: 6`、`source_number: 六` 與 `counting: unspecified_source_months` 記錄。此處是六個月的來源時長，不是曆月六月；來源是否包含起月未知，不推精確起訖日。月份單位只接受含「月」的原詞，與年數計數方式分開驗證。
+
+`mode: posthumous_grant` 及同名起點 `event_type` 表示來源明示的死後追尊，與生前 `grant` 分開。須附 `posthumous_basis`，包含原文含「追尊」的 `source_term` 及與起點完全相符的 `evidence`；未知日期維持空值。安成夫人與父親共同追尊的完整句保留，不由一般用稱或死亡單獨推得追尊。

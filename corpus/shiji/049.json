@@ -26,10 +26,10 @@
   },
   "text_sha256": "c62a08edf7527730217d554439d80bcc5c4b522edf9c9d9f085bfad1a1d75e33",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全44段明示人名與部分短稱、匿名者首輪；代詞、版本、關係、爵位時段與跨篇身份待覆核。",
+    "coverage": "全44段第二輪核讀；38筆生死、35筆地點、八項授號與四項追尊性質；完整身份、日期及版本覆核未完成。",
     "limitations": [
       "人物、代詞、關係、爵位時段與跨篇身份尚未整理完。",
       "褚氏附載第36段衛青四子與第29段青三子原語並存，不擅改或調和。",
@@ -957,10 +957,10 @@
           "start": 3,
           "end": 4,
           "surface": "母",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、未名者或待核稱謂；不由熟悉生平補姓名。"
+          "kind": "person",
+          "person_id": "qff_r3w_1jo",
+          "status": "contextual_provisional",
+          "note": "依第6段魏媼生薄姬及第10段薄太后母敘事，暫連魏媼；父母複數提及另留未決。"
         },
         {
           "id": "c-shiji-049-waiqi:m010-0018",
@@ -2750,6 +2750,16 @@
           "kind": "person",
           "person_id": "6d6_eg1_o3a",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-049-waiqi:m025-0040",
+          "start": 40,
+          "end": 43,
+          "surface": "平原君",
+          "kind": "person",
+          "person_id": "6ks_x4x_dbf_*A",
+          "status": "contextual_provisional",
+          "note": "第23段尊臧兒為平原君，第25段延續同一稱號及田氏夫家葬事。"
         },
         {
           "id": "c-shiji-049-waiqi:m025-0046",

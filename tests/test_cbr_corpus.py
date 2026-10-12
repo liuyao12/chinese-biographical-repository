@@ -65,6 +65,24 @@ class CorpusTests(unittest.TestCase):
     def test_title_month_rejects_regnal_counting(self):
         self.change('corpus/shiji/048-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_month')['reported_duration'].update(counting='inclusive_regnal_years'))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
+    def test_posthumous_grant_rejects_missing_quote(self):
+        def mutate(d):
+            h=next(h for h in d['holdings'] if h['mode']=='posthumous_grant')
+            h.pop('posthumous_basis')
+        self.change('corpus/shiji/049-titles.json', mutate)
+        self.assertIn('追尊授號缺少相符原詞與起點證據', v.validate(self.root))
+    def test_posthumous_grant_rejects_not_retrospective(self):
+        def mutate(d):
+            h=next(h for h in d['holdings'] if h['mode']=='posthumous_grant')
+            h['posthumous_basis'].update(source_term='封為共侯')
+        self.change('corpus/shiji/049-titles.json', mutate)
+        self.assertIn('追尊授號缺少相符原詞與起點證據', v.validate(self.root))
+    def test_posthumous_grant_rejects_living_grant(self):
+        def mutate(d):
+            h=next(h for h in d['holdings'] if h['mode']=='posthumous_grant')
+            h.update(mode='grant')
+        self.change('corpus/shiji/049-titles.json', mutate)
+        self.assertIn('追尊授號缺少相符原詞與起點證據', v.validate(self.root))
     def test_reported_tenure_rejects_number_mismatch(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(value=14))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
