@@ -15,6 +15,18 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_group_age_excess_cannot_be_exact(self):
+        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0].update(value=80))
+        self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
+    def test_group_age_lower_bound_is_exclusive(self):
+        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(lower_inclusive=True))
+        self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
+    def test_group_age_cannot_include_emperor(self):
+        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0]['group_reference']['person_ids'].__setitem__(1, 'aae_mkd_tas'))
+        self.assertIn('群體報齡具名名單未見於引句', v.validate(self.root))
+    def test_group_age_cannot_infer_birth(self):
+        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0].update(birth_year=-275))
+        self.assertIn('來源年齡不得推定計歲方式或出生年', v.validate(self.root))
     def test_waisun_preserves_maternal_two_generations(self):
         self.change('corpus/shiji/124-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(generation_difference=-1))
         self.assertIn('外孫祖母關係須保留母系兩代與原句未名母親', v.validate(self.root))

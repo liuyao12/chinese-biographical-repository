@@ -219,3 +219,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `duration_scope` 明示一筆 `reported_duration` 涵蓋多項同人同類稱號，而非本筆單一稱號任期。欄位為 `kind: multiple_holdings`、穩定 `holding_ids`、`relation: successive` 或 `unspecified` 及 `rationale`。例如相齊九年涵蓋齊相國後改齊丞相；將軍中尉凡二歲未明先後或兼任，關係保持未定。使用端須依此範圍讀取年數，不能按每項稱號重複加總或推精確起訖。
 
 死後諡名原詞亦可為「謚懿侯」等省略為／曰的句式，死亡詞、諡詞、本筆原稱與起點證據仍須相符。
+
+群體原語「年皆八十有餘」報齡可存 `value: null` 與 `bounds`：`lower: 80`、`lower_inclusive: false`，上限及上限包含性為 `null`。`source_number` 與完整 `source_term` 保持；`group_reference` 保存四人原語、具名名單原語及四個人物ID，須與同段姓名錨點一致且包含本人的ID。每人獨立引句，不把下界當精確歲數，不推出生年。此規則僅支援有明示四人名單的原語形式，其餘模糊年齡仍待擴充。
