@@ -435,6 +435,7 @@
 | `2lw_0ht_eid` | 伊尹 | [《史記・游俠列傳》][106] | [JSON](2lw_0ht_eid.json) |
 | `2m1_6jd_hdo` | 專諸 | [《史記・吳太伯世家》][13] | [JSON](2m1_6jd_hdo.json) |
 | `2m6_2n1_s07` | 湯引古 | [《史記・孟子荀卿列傳》][56] | [JSON](2m6_2n1_s07.json) |
+| `2ma_wzz_53b` | 高帝詢曲逆戶口之未名御史 | [《史記・陳丞相世家》][38] | [JSON](2ma_wzz_53b.json) |
 | `2mo_u4v_gii` | 周公（季札論樂稱） | [《史記・吳太伯世家》][13] | [JSON](2mo_u4v_gii.json) |
 | `2mw_zet_vw9` | 將廬（齊王） | [《史記・孝景本紀》][11] | [JSON](2mw_zet_vw9.json) |
 | `2n9_bsn_ad1` | 陶朱 | [《史記・平津侯主父列傳》][94] | [JSON](2n9_bsn_ad1.json) |
@@ -2231,7 +2232,6 @@
 | `dc4_qnx_hp2` | 晉鄙 | [《史記・魏公子列傳》][59] | [JSON](dc4_qnx_hp2.json) |
 | `dco_hwr_j82` | 昌文君 | [《史記・秦始皇本紀》][6] | [JSON](dco_hwr_j82.json) |
 | `dcp_1gr_65s` | 羲仲 | [《史記・五帝本紀》][1] | [JSON](dcp_1gr_65s.json) |
-| `dd0_uda_xje` | 晉平公 | [《史記・趙世家》][25] | [JSON](dd0_uda_xje.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

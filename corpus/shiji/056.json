@@ -26,15 +26,16 @@
   },
   "text_sha256": "7927b0e7a670bb6c98f6b7acfa914b59f4955afd6b99f3a309161ff033fa8e19",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全29段明示人物、局部短稱與部分未名者首輪。",
+    "coverage": "全29段第二輪核讀，補生死、原籍與行程、局部同指、未名御史、離任及承爵；日期、版本與完整身份時段仍待核。",
     "limitations": [
       "平城、上其城、上書、上佐天子、居無何與一般幾何不當人物短稱。",
       "韓王信與淮陰侯韓信分開，審食其不接酈食其；未名嫂、張氏女、陵母及單于閼氏不補模型記憶姓名。",
       "張仲參與女孫婚議不證女孫為其女；盜嫂及受金指控保存引語，不當史實已核。",
-      "楚漢都尉、左右丞相與爵位變動分存；曾孫不改成直接子，願續封而不得不當已封；全官爵時段及版本仍待覆核。"
+      "楚漢都尉、左右丞相與爵位變動分存；曾孫不改成直接子，願續封而不得不當已封；全官爵時段及版本仍待覆核。",
+      "曹參卒原孝惠帝六年與卷54惠帝二年差異保留；持爵年數不倒推生年，諸呂群體不補個別死亡；原爲、戸、鄕異體保持。"
     ]
   },
   "paragraphs": [
@@ -131,10 +132,10 @@
           "start": 91,
           "end": 92,
           "surface": "叔",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "04f_hzf_n06",
+          "status": "contextual_provisional",
+          "note": "嫂對伯評論陳平有叔如此，指丈夫之弟陳平，非新增叔父。"
         },
         {
           "id": "c-shiji-056-chen:m001-0101",
@@ -2326,10 +2327,10 @@
           "start": 42,
           "end": 44,
           "surface": "御史",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "2ma_wzz_53b",
+          "status": "contextual_provisional",
+          "note": "高帝顧問並對曰的對話官員為可分辨未名御史；後句詔御史可能是同職官員或機構稱呼，未證同一人，保持未解。"
         },
         {
           "id": "c-shiji-056-chen:m013-0088",
@@ -3363,10 +3364,10 @@
           "start": 28,
           "end": 30,
           "surface": "舍人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "2uk_lgn_scq",
+          "status": "contextual_provisional",
+          "note": "食其以舍人侍呂后明示任事者審食其，非另一未名舍人。"
         },
         {
           "id": "c-shiji-056-chen:m021-0031",
@@ -3925,10 +3926,10 @@
           "start": 170,
           "end": 172,
           "surface": "宰相",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "未名者、群體、泛稱官職、氏族或代詞待覆核，不補姓名或未見家屬。"
+          "kind": "person",
+          "person_id": "04f_hzf_n06",
+          "status": "contextual_provisional",
+          "note": "使待罪宰相為陳平自述當下任事；下一個宰相者為職責泛論，保持未解泛稱。"
         },
         {
           "id": "c-shiji-056-chen:m025-0173",

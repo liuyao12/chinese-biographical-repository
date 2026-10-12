@@ -512,7 +512,7 @@ def validate(root=ROOT):
                     valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
                            and set(basis)=={'source_term','death_term','evidence'}
                            and isinstance(basis['source_term'],str)
-                           and bool(re.search(r'(?:諡|謚)(?:為|曰)?',basis['source_term']))
+                           and bool(re.search(r'(?:諡|謚)(?:為|爲|曰)?' + re.escape(h['title']), basis['source_term']))
                            and h['title'] in basis['source_term']
                            and isinstance(basis['death_term'],str)
                            and bool(re.search(r'卒|薨|死',basis['death_term']))

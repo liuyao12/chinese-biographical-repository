@@ -15,6 +15,18 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_posthumous_naming_preserves_wei_variant(self):
+        data=json.loads((self.root/'corpus/shiji/056-titles.json').read_text())
+        h=next(h for h in data['holdings'] if h['id']=='th-shiji056-051')
+        self.assertEqual(h['naming_basis']['source_term'], '諡爲獻侯')
+        self.assertEqual(v.validate(self.root), [])
+    def test_posthumous_naming_must_name_this_title(self):
+        def change(d):
+            h=next(h for h in d['holdings'] if h['id']=='th-shiji056-051')
+            h['title']='共侯'
+            h['naming_basis']['source_term']='諡爲獻侯。子共侯買代侯'
+        self.change('corpus/shiji/056-titles.json', change)
+        self.assertIn('死後諡名缺少相符命名詞、死亡詞與起點證據', v.validate(self.root))
     def test_group_age_excess_cannot_be_exact(self):
         self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0].update(value=80))
         self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
