@@ -2,9 +2,12 @@ import {escapeHTML as h} from './core.js';
 import {t, ui} from './i18n.js';
 import {chapterURL, chapterParagraph, filteredChapters} from './corpus-reader.js';
 import {safeSourceURL} from './historical-tables.js';
+import {mountHistoricalTable} from './historical-table-view.js';
+import {historicalTableMarkup} from './historical-table-markup.js';
 const $ = id => document.getElementById(id);
 let index, people, selected, category = 'all', ticket = 0;
 const cache = new Map();
+let tableReader;
 const labels = {marked_text: 'Annotated text', table: 'Continuous table', pending: 'Not yet imported'};
 const ext = (url, label) => safeSourceURL(url) ? `<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>` : '';
 function list() {
@@ -44,18 +47,23 @@ async function render() {
   const current = ++ticket, params = new URLSearchParams(location.hash.slice(1));
   category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
   const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
+  tableReader?.destroy(); tableReader = null;
   selected = entry;
   list();
   $('person-preview').hidden = true;
   if (!entry) {
     document.title = '史記 · 人文';
-    $('corpus-content').innerHTML = `<div class="chapter-intro"><p class="eyebrow">史記 · 130 篇</p><h1>${h(category === 'all' ? t('Choose a chapter') : index.categories.find(c => c.id === category).label)}</h1><p>${ui('Choose a chapter from the categorized contents to read the received text and its linked people.')}</p><p>${ui('Imported texts remain under annotation review. Missing chapters are listed without invented text.')}</p><p><a href="${chapterURL(6, 'benji')}">${ui('Read the Qin Shihuang chapter')} →</a></p><p><a href="tables.html">${ui('Continuous historical tables')} →</a></p><p>${ext(index.contents_source.revision_url, 'Contents source')}</p></div>`;
+    $('corpus-content').innerHTML = `<div class="chapter-intro"><p class="eyebrow">史記 · 130 篇</p><h1>${h(category === 'all' ? t('Choose a chapter') : index.categories.find(c => c.id === category).label)}</h1><p>${ui('Choose a chapter from the categorized contents to read the received text and its linked people.')}</p><p>${ui('Imported texts remain under annotation review. Missing chapters are listed without invented text.')}</p><p><a href="${chapterURL(6, 'benji')}">${ui('Read the Qin Shihuang chapter')} →</a></p><p><a href="shiji.html#category=biao">${ui('Continuous historical tables')} →</a></p><p>${ext(index.contents_source.revision_url, 'Contents source')}</p></div>`;
     return;
   }
   document.title = entry.title + ' · 人文';
   const heading = navigation(entry) + `<p class="eyebrow">史記 · ${h(entry.category_label)} · ${entry.number}</p><h1>${h(entry.title)}</h1>`;
   if (entry.available !== 'marked_text') {
-    $('corpus-content').innerHTML = heading + (entry.available === 'table' ? `<p><a class="table-entry-link" href="tables.html#table=${entry.table_id}&axis=vertical">${ui('Open the continuous table')} →</a></p>` : `<p>${ui('This chapter has not been imported. The source text is available externally.')}</p><p>${ext('https://zh.wikisource.org/wiki/史記/卷' + String(entry.number).padStart(3, '0'), 'Read source text')}</p>`);
+    $('corpus-content').innerHTML = heading + (entry.available === 'table' ? `<div id="chapter-table-reader">${historicalTableMarkup}</div>` : `<p>${ui('This chapter has not been imported. The source text is available externally.')}</p><p>${ext('https://zh.wikisource.org/wiki/史記/卷' + String(entry.number).padStart(3, '0'), 'Read source text')}</p>`);
+    if (entry.available === 'table') {
+      tableReader = mountHistoricalTable($('chapter-table-reader'), entry.table_id);
+      await tableReader.ready;
+    }
     return;
   }
   $('corpus-content').innerHTML = heading + `<p role="status">${ui('Loading sources…')}</p>`;
@@ -83,7 +91,11 @@ function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(erro
     if (!response.ok) throw new Error(t('Source text could not be loaded.'));
     index = await response.json();
     $('chapter-search').oninput = list;
-    window.addEventListener('hashchange', () => render().catch(fail));
+    window.addEventListener('hashchange', () => {
+      const p = new URLSearchParams(location.hash.slice(1));
+      if (tableReader && Number(p.get('chapter')) === selected?.number && (p.get('category') || 'all') === category) return;
+      render().catch(fail);
+    });
     window.addEventListener('renwen:languagechange', () => render().catch(fail));
     $('corpus-content').addEventListener('pointerover', e => { const node = e.target.closest('.cbr-person-link'); if (node) preview(node); });
     $('corpus-content').addEventListener('pointerout', e => { if (e.target.closest('.cbr-person-link')) $('person-preview').hidden = true; });

@@ -44,8 +44,18 @@ with sync_playwright() as pw:
         expect(page.locator('#corpus-person-details blockquote')).to_contain_text('秦始皇帝者')
         expect(page.locator('#corpus-person-details a').filter(has_text='完整人物 JSON')).to_have_attribute('href', 'https://raw.githubusercontent.com/liuyao12/chinese-biographical-repository/main/exports/persons/ao3_0fy_d45_AAA.json')
         page.locator('#corpus-person-dialog button').click()
+        goto('shiji.html#category=biao')
+        page.locator('.chapter-entry').filter(has_text='六國年表').click()
+        expect(page.locator('#chapter-table-reader .source-cell')).to_have_count(2306)
+        assert 'shiji.html' in page.url and 'chapter=15' in page.url
+        assert page.locator('iframe').count() == 0
+        page.locator('.chapter-entry').filter(has_text='十二諸侯年表').click()
+        expect(page.locator('#chapter-table-reader .source-cell')).to_have_count(5840)
+        page.locator('.chapter-entry').filter(has_text='六國年表').click()
+        expect(page.locator('#chapter-table-reader .source-cell')).to_have_count(2306)
         goto('tables.html#table=shiji-015&axis=vertical')
         page.wait_for_selector('.source-cell')
+        assert 'shiji.html' in page.url and 'chapter=15' in page.url
         count = page.locator('.source-cell').count()
         page.select_option('#year-select', label='西元前 207 年')
         expect(page.locator('.active-cell')).to_contain_text('207')
