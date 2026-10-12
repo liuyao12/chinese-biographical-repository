@@ -2292,12 +2292,13 @@
 
 </details>
 
-<details><summary><code>qy1_adc_gam</code> 晉（衛宣公）（5 名）</summary>
+<details><summary><code>qy1_adc_gam</code> 晉（衛宣公）（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 晉（衛宣公） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam.json) |
 | `A` | 伋（衛宣公太子） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam_A.json) |
+| `AA` | 太子伋之子（未名） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam_AA.json) |
 | `B` | 壽（衛宣公子） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam_B.json) |
 | `C` | 朔（衛惠公） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam_C.json) |
 | `CA` | 赤（衛懿公） | [《史記・衛康叔世家》][19] | [JSON](qy1_adc_gam_CA.json) |
