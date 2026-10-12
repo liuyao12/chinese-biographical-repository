@@ -3,6 +3,49 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_shang_wei_lineage_affiliation_is_not_a_birthplace(self):
+        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        place = next(a for a in result['address_assertions'] if a['id']=='pa-shiji068-007')
+        self.assertEqual(place['relation'], 'polity_lineage_affiliation')
+        self.assertEqual(place['place']['source_name'], '衛')
+        self.assertEqual(place['qualifiers']['affiliation_kind'], 'royal_lineage')
+        self.assertEqual(place['source_term'], '衛之諸庶孽公子')
+        self.assertIsNone(place['place']['modern_identification'])
+    def test_shang_title_years_do_not_resolve_ambiguous_left_shuzhang_or_tenure_ends(self):
+        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        holdings = {h['id']:h for h in result['title_holdings']}
+        for hid, year in [('th-shiji068-009',352),('th-shiji068-017',340)]:
+            period = holdings[hid]['effective_period']
+            date = period['start']['normalized_date']
+            self.assertEqual(date['era_year'], year)
+            self.assertEqual(date['basis']['reference_year_quote'], str(year))
+            self.assertEqual(date['status'], 'editorial_provisional')
+            self.assertEqual(period['end']['status'], 'unknown')
+            self.assertNotIn('normalized_date', period['end'])
+        self.assertNotIn('normalized_date', holdings['th-shiji068-005']['effective_period']['start'])
+    def test_bailixi_approximate_title_years_keep_unknown_dates(self):
+        result = bundle('ws3_3yb_yzp', include_provisional=True)
+        holding = next(h for h in result['title_holdings'] if h['id']=='th-shiji068-020')
+        duration = holding['reported_duration']
+        self.assertIsNone(duration['value'])
+        self.assertEqual(duration['approximation'], {'kind':'adjacent_year_numbers','numbers':[6,7]})
+        self.assertEqual(duration['source_number'], '六七')
+        self.assertEqual(duration['source_term'], '相秦六七年')
+        self.assertNotIn('bounds', duration)
+        for boundary in holding['effective_period'].values():
+            self.assertEqual(boundary['status'], 'unknown')
+            self.assertNotIn('normalized_date', boundary)
+        self.assertIn(duration['evidence'][0]['paragraph_id'], {p['id'] for p in result['passages']})
+    def test_shang_death_year_preserves_separate_event_and_editorial_year_citations(self):
+        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        event = next(e for e in result['life_events'] if e['id']=='le-shiji068-006')
+        date = event['normalized_date']
+        self.assertEqual((date['era_year'], date['year']), (338,-337))
+        self.assertEqual(date['basis']['reference_year_quote'], '338')
+        self.assertIn('死彤地', date['basis']['reference_event_quote'])
+        self.assertIn('殺之於鄭黽池', date['original_quote'])
+        self.assertEqual(date['references'][1]['table_cell_id'], 'shiji-015-r139-c00')
+        self.assertTrue(all(r['image_verified'] is False for r in date['references']))
     def test_wei_default_lineage_keeps_three_sons_and_retains_fourth_source_claim(self):
         result = bundle('5dd_l1c_6g8', include_provisional=True)
         self.assertIn('a-shiji049-045', {a['id'] for a in result['relations']})

@@ -550,7 +550,8 @@ def validate(root=ROOT):
                     duration=h['reported_duration']
                     required={'value','unit','source_term','source_number','counting','status','evidence'}
                     bounded=isinstance(duration,dict) and 'bounds' in duration
-                    valid=isinstance(duration,dict) and set(duration)==required | ({'bounds'} if bounded else set())
+                    approximate=isinstance(duration,dict) and 'approximation' in duration
+                    valid=isinstance(duration,dict) and set(duration)==required | ({'bounds'} if bounded else set()) | ({'approximation'} if approximate else set())
                     if valid:
                         number=duration['source_number']; digits='一二三四五六七八九'; parsed=None
                         if isinstance(number,str):
@@ -566,7 +567,22 @@ def validate(root=ROOT):
                             and isinstance(duration['evidence'],list) and bool(duration['evidence'])
                             and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                     and duration['source_term'] in e['quote'] for e in duration['evidence']))
-                        if bounded:
+                        if approximate:
+                            approximation=duration['approximation']
+                            numbers=approximation.get('numbers') if isinstance(approximation,dict) else None
+                            source_numbers=([digits.index(c)+1 for c in number]
+                                if isinstance(number,str) and len(number)==2 and all(c in digits for c in number) else None)
+                            valid=(common and not bounded and duration['unit']=='title_year'
+                                and duration['value'] is None
+                                and isinstance(approximation,dict) and set(approximation)=={'kind','numbers'}
+                                and approximation['kind']=='adjacent_year_numbers'
+                                and isinstance(numbers,list) and len(numbers)==2
+                                and all(type(n) is int for n in numbers) and numbers==source_numbers
+                                and numbers[1]==numbers[0]+1
+                                and re.search(r'(?<![零〇一二三四五六七八九十百千萬億廿卅卌兩])'
+                                    +re.escape(number)+r'(?:年|歲|歳)',duration['source_term']) is not None)
+                            check(valid,'稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字')
+                        elif bounded:
                             if number is None and duration['source_term']=='居月餘':parsed=1
                             bounds=duration['bounds']
                             valid=(common and duration['unit']=='title_month' and duration['value'] is None
@@ -843,7 +859,11 @@ def validate(root=ROOT):
             for address in record['assertions']:
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
-                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place'), '地址關係類型未知')
+                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation'), '地址關係類型未知')
+                if address['relation'] == 'polity_lineage_affiliation':
+                    check(address.get('qualifiers', {}).get('affiliation_kind') == 'royal_lineage'
+                          and address['place']['source_name']+'之' in address['source_term']
+                          and re.search('公子|公孫|宗室', address['source_term']) is not None, '宗族政體地望須有來源身份詞，不改作出生籍貫')
                 if address['relation'] == 'ancestral_origin':
                     scope = address.get('qualifiers', {})
                     check(scope.get('subject_scope') == 'ancestors_unspecified'
