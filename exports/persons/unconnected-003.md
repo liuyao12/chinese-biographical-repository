@@ -6,6 +6,14 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qfh_0ve_74z` | 太史公 | [《史記・樂毅列傳》][62] | [JSON](qfh_0ve_74z.json) |
+| `qfk_7zb_jtn` | 龍且 | [《史記・曹相國世家》][36] | [JSON](qfk_7zb_jtn.json) |
+| `qfu_p4d_ebc` | 張唐 | [《史記・秦本紀》][5] | [JSON](qfu_p4d_ebc.json) |
+| `qfz_1hm_c5p` | 狄令未名 | [《史記・田儋列傳》][76] | [JSON](qfz_1hm_c5p.json) |
+| `qg3_81p_5ti` | 田仲 | [《史記・游俠列傳》][106] | [JSON](qg3_81p_5ti.json) |
+| `qg4_qlj_it6` | 太史公 | [《史記・滑稽列傳》][108] | [JSON](qg4_qlj_it6.json) |
+| `qg7_n12_fne` | 審食其 | [《史記・淮南衡山列傳》][100] | [JSON](qg7_n12_fne.json) |
+| `qgn_r2c_qtv` | 簡狄 | [《史記・殷本紀》][3] | [JSON](qgn_r2c_qtv.json) |
 | `qgr_fuw_u34` | 鞅（趙世家提要） | [《史記・太史公自序》][112] | [JSON](qgr_fuw_u34.json) |
 | `qha_l8o_wxa` | 叔仲會 | [《史記・仲尼弟子列傳》][49] | [JSON](qha_l8o_wxa.json) |
 | `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |

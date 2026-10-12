@@ -849,6 +849,7 @@
 | `50y_1nz_2rt` | 袁盎 | [《史記・袁盎鼂錯列傳》][83] | [JSON](50y_1nz_2rt.json) |
 | `50y_zbc_5tv` | 伯夷 | [《史記・游俠列傳》][106] | [JSON](50y_zbc_5tv.json) |
 | `514_qwu_eaa` | 武王 | [《史記・匈奴列傳》][92] | [JSON](514_qwu_eaa.json) |
+| `519_boo_6xm` | 紀太后弟（齊悼惠王世家未名者） | [《史記・齊悼惠王世家》][34] | [JSON](519_boo_6xm.json) |
 | `51c_0t8_4nj` | 公子延 | [《史記・蘇秦列傳》][51] | [JSON](51c_0t8_4nj.json) |
 | `51f_m7q_nuu` | 公儀休 | [《史記・循吏列傳》][101] | [JSON](51f_m7q_nuu.json) |
 | `51q_vfp_w6t` | 狄黑 | [《史記・仲尼弟子列傳》][49] | [JSON](51q_vfp_w6t.json) |
@@ -1324,6 +1325,7 @@
 | `7tn_7ia_95n` | 亭長妻未名 | [《史記・淮陰侯列傳》][74] | [JSON](7tn_7ia_95n.json) |
 | `7tv_fis_jcz` | 雍令 | [《史記・淮南衡山列傳》][100] | [JSON](7tv_fis_jcz.json) |
 | `7ty_ab1_ab9` | 多軍 | [《史記・東越列傳》][96] | [JSON](7ty_ab1_ab9.json) |
+| `7ty_d1r_5iv` | 魏勃父（齊悼惠王世家未名者） | [《史記・齊悼惠王世家》][34] | [JSON](7ty_d1r_5iv.json) |
 | `7u8_w4i_xfn` | 蘇武（匈奴列傳第58段） | [《史記・匈奴列傳》][92] | [JSON](7u8_w4i_xfn.json) |
 | `7ul_aeb_w4e` | 丁公 | [《史記・季布欒布列傳》][82] | [JSON](7ul_aeb_w4e.json) |
 | `7v2_mrf_ojp` | 小白 | [《史記・越王勾踐世家》][23] | [JSON](7v2_mrf_ojp.json) |
@@ -1394,6 +1396,7 @@
 | `88o_bkx_z5h` | 燕王喜（引古） | [《史記・蒙恬列傳》][70] | [JSON](88o_bkx_z5h.json) |
 | `88t_ocd_fva` | 太史趙（晉平公問者） | [《史記・陳杞世家》][18] | [JSON](88t_ocd_fva.json) |
 | `88w_qqj_hs8` | 朱亥 | [《史記・魏公子列傳》][59] | [JSON](88w_qqj_hs8.json) |
+| `897_r8o_mw0` | 亡酒被斬者（齊悼惠王世家未名諸呂一人） | [《史記・齊悼惠王世家》][34] | [JSON](897_r8o_mw0.json) |
 | `89e_iub_u5e` | 齊王 | [《史記・荊燕世家》][33] | [JSON](89e_iub_u5e.json) |
 | `89q_9ev_4g6` | 左車（周昌後裔） | [《史記・孝景本紀》][11] | [JSON](89q_9ev_4g6.json) |
 | `89y_y9f_yw0` | 太史公 | [《史記・齊悼惠王世家》][34] | [JSON](89y_y9f_yw0.json) |
@@ -2231,10 +2234,6 @@
 | `ddd_32x_k8h` | 膠東王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](ddd_32x_k8h.json) |
 | `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][53] | [JSON](ddf_jql_z0y.json) |
 | `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][6] | [JSON](ddp_ol8_1w5.json) |
-| `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][112] | [JSON](ddq_o5z_ic3.json) |
-| `de9_bqj_6wy` | 屠中少年未名 | [《史記・淮陰侯列傳》][74] | [JSON](de9_bqj_6wy.json) |
-| `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][11] | [JSON](dep_bjj_vwe.json) |
-| `dfm_lmc_f1j` | 左賢王（元狩二年未名） | [《史記・匈奴列傳》][92] | [JSON](dfm_lmc_f1j.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

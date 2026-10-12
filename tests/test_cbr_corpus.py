@@ -41,6 +41,15 @@ class CorpusTests(unittest.TestCase):
         year_ref = next(r for r in date['references'] if r['scope'] == 'received_regnal_year_attestation')
         year_ref['scope'] = 'unspecified_reference'
         self.assertFalse(v.parallel_event_date(date))
+    def test_sui_age_rejects_wrong_number(self):
+        self.change('corpus/shiji/052.json', lambda d: d['annotation']['age_assertions'][1].update(value=14))
+        self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))
+    def test_sui_age_cannot_infer_birth_year(self):
+        self.change('corpus/shiji/052.json', lambda d: d['annotation']['age_assertions'][2].update(birth_year=-39))
+        self.assertIn('來源年齡不得推定計歲方式或出生年', v.validate(self.root))
+    def test_sui_age_requires_literal_source_word(self):
+        self.change('corpus/shiji/052.json', lambda d: d['annotation']['age_assertions'][1].update(source_term='十五歳'))
+        self.assertIn('來源年齡引句不符', v.validate(self.root))
     def test_source_age_rejects_wrong_number(self):
         self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(value=19))
         self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))
@@ -119,6 +128,15 @@ class CorpusTests(unittest.TestCase):
     def test_following_life_date_paragraph_must_be_in_sequence(self):
         self.change('corpus/shiji/110-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji110-wuwei')['date_context'].update(date_paragraph_id='c-shiji-110-xiongnu:p043'))
         self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))
+    def test_repeated_death_date_requires_primary_event_anchor(self):
+        self.change('corpus/shiji/052-life-events.json', lambda d: d['events'][0]['date_context'].update(date_paragraph_id='c-shiji-052-qidaohui:p012'))
+        self.assertIn('同一生卒事件回述須以首筆明示事件引句作紀年錨點', v.validate(self.root))
+    def test_repeated_death_date_requires_exact_attestation_list(self):
+        self.change('corpus/shiji/052-life-events.json', lambda d: d['events'][0]['date_context']['paragraph_ids'].pop())
+        self.assertIn('同一生卒事件回述須以首筆明示事件引句作紀年錨點', v.validate(self.root))
+    def test_repeated_death_date_requires_event_source_term(self):
+        self.change('corpus/shiji/052-life-events.json', lambda d: d['events'][0].update(source_term='未見原文的死亡句'))
+        self.assertIn('同一生卒事件回述須以首筆明示事件引句作紀年錨點', v.validate(self.root))
     def test_life_date_context_cannot_skip_a_paragraph(self):
         self.change('corpus/shiji/109-life-events.json', lambda d: next(e for e in d['events'] if e['id'] == 'le-shiji109-liguang')['date_context'].update(paragraph_ids=['c-shiji-109-liguang:p012', 'c-shiji-109-liguang:p014']))
         self.assertIn('生卒紀年承接須有連續同篇段落與明示日期段', v.validate(self.root))

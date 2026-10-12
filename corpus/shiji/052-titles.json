@@ -41,7 +41,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p001",
               "quote": "齊悼惠王劉肥者，高祖長庶男也。其母外婦也，曰曹氏。高祖六年，立肥為齊王，食七十城，諸民能齊言者皆予齊王。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "齊悼惠王劉肥者，高祖長庶男也。其母外婦也，曰曹氏。高祖六年，立肥為齊王，食七十城，諸民能齊言者皆予齊王。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p001",
+                "quote": "齊悼惠王劉肥者，高祖長庶男也。其母外婦也，曰曹氏。高祖六年，立肥為齊王，食七十城，諸民能齊言者皆予齊王。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -49,8 +78,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 13,
+        "unit": "regnal_year",
+        "source_term": "悼惠王即位十三年",
+        "source_number": "十三",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p003",
+            "quote": "悼惠王即位十三年，以惠帝六年卒。子襄立，是為哀王。",
+            "person_mention_id": "c-shiji-052-qidaohui:m003-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-002",
@@ -208,12 +254,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p004",
+              "quote": "哀王元年，孝惠帝崩，呂太后稱制，天下事皆決於高后。二年，高后立其兄子酈侯呂臺為呂王，割齊之濟南郡為呂王奉邑。",
+              "person_mention_id": "c-shiji-052-qidaohui:m004-0034"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -907,12 +962,21 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p016",
+              "quote": "灌嬰在滎陽，聞魏勃本教齊王反，既誅呂氏，罷齊兵，使使召責問魏勃。勃曰：「失火之家，豈暇先言大人而後救火乎！」因退立，股戰而栗，恐不能言者，終無他語。灌將軍熟視笑曰：「人謂魏勃勇，妄庸人耳，何能為乎！」乃罷魏勃。魏勃父以善鼓琴見秦皇帝。及魏勃少時，欲求見齊相曹參，家貧無以自通，乃常獨早夜埽齊相舍人門外。相舍人怪之，以為物，而伺之，得勃。勃曰：「願見相君，無因，故為子埽，欲以求見。」於是舍人見勃曹參，因以為舍人。一為參御，言事，參以為賢，言之齊悼惠王。悼惠王召見，則拜為內史。始，悼惠王得自置二千石。及悼惠王卒而哀王立，勃用事，重於齊相。",
+              "person_mention_id": "c-shiji-052-qidaohui:m016-0007"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 灌嬰乃罷魏勃依本段責問反兵及罷齊兵語境，暫接前述反兵將軍任事；不追溯終止早年內史、中尉全部官職。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1223,7 +1287,7 @@
       "person_id": "28d_4fi_xdp",
       "title": "孝文帝",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -1246,9 +1310,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p017",
+              "quote": "王既罷兵歸，而代王來立，是為孝文帝。",
+              "person_mention_id": "c-shiji-052-qidaohui:m017-0007"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1256,7 +1329,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 代王來立，是為孝文帝為明示登極，未以議欲立齊王當成登極。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1360,8 +1433,25 @@
           ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 齊文王立十四年原語保存，終點據國除而非卒字。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 齊文王立十四年原語保存，終點據國除而非卒字。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 14,
+        "unit": "regnal_year",
+        "source_term": "齊文王立十四年",
+        "source_number": "十四",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p023",
+            "quote": "齊文王立十四年卒，無子，國除，地入于漢。",
+            "person_mention_id": "c-shiji-052-qidaohui:m023-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-031",
@@ -1543,12 +1633,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "後一歲",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p024",
+              "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
+              "person_mention_id": "c-shiji-052-qidaohui:m024-0019"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2028,8 +2127,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 22,
+        "unit": "regnal_year",
+        "source_term": "齊懿王立二十二年",
+        "source_number": "二十二",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p026",
+            "quote": "齊初圍急，陰與三國通謀，約未定，會聞路中大夫從漢來，喜，及其大臣乃復勸王毋下三國。居無何，漢將欒布、平陽侯等兵至齊，擊破三國兵，解齊圍。已而復聞齊初與三國有謀，將欲移兵伐齊。齊孝王懼，乃飲藥自殺。景帝聞之，以為齊首善，以迫劫有謀，非其罪也，乃立孝王太子壽為齊王，是為懿王，續齊後。而膠西、膠東、濟南、菑川王咸誅滅，地入于漢。徙濟北王王菑川。齊懿王立二十二年卒，子次景立，是為厲王。",
+            "person_mention_id": "c-shiji-052-qidaohui:m026-0126"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-045",
@@ -2069,8 +2185,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 5,
+        "unit": "regnal_year",
+        "source_term": "齊厲王立五年",
+        "source_number": "五",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p031",
+            "quote": "齊厲王立五年死，毋後，國入于漢。",
+            "person_mention_id": "c-shiji-052-qidaohui:m031-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-046",
@@ -2249,7 +2382,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p033",
               "quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 178,
+            "year": -177,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p033",
+                "quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元二年 (前178年)']=\"前178年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -2257,8 +2419,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 2,
+        "unit": "regnal_year",
+        "source_term": "立二年卒",
+        "source_number": "二",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p033",
+            "quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。",
+            "person_mention_id": "c-shiji-052-qidaohui:m033-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-050",
@@ -2339,8 +2518,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 28,
+        "unit": "regnal_year",
+        "source_term": "頃王二十八年卒",
+        "source_number": "二十八",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-052",
@@ -2380,8 +2576,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 9,
+        "unit": "regnal_year",
+        "source_term": "敬王九年卒",
+        "source_number": "九",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0009"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-053",
@@ -2421,8 +2634,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 11,
+        "unit": "regnal_year",
+        "source_term": "惠王十一年卒",
+        "source_number": "十一",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0024"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-054",
@@ -2462,8 +2692,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 46,
+        "unit": "regnal_year",
+        "source_term": "荒王四十六年卒",
+        "source_number": "四十六",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0040"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-055",
@@ -2503,8 +2750,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 8,
+        "unit": "regnal_year",
+        "source_term": "戴王八年卒",
+        "source_number": "八",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p035",
+            "quote": "頃王二十八年卒，子義立，是為敬王。敬王九年卒，子武立，是為惠王。惠王十一年卒，子順立，是為荒王。荒王四十六年卒，子恢立，是為戴王。戴王八年卒，子景立，至建始三年，十五歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m035-0057"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-056",
@@ -2585,7 +2849,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p037",
               "quote": "孝文帝二年，以齊之濟北郡立興居為濟北王，與城陽王俱立。立二年，反。始大臣誅呂氏時，朱虛侯功尤大，許盡以趙地王朱虛侯，盡以梁地王東牟侯。及孝文帝立，聞朱虛、東牟之初欲立齊王，故絀其功。及二年，王諸子，乃割齊二郡以王章、興居。章、興居自以失職奪功。章死，而興居聞匈奴大入漢，漢多發兵，使丞相灌嬰擊之，文帝親幸太原，以為天子自擊胡，遂發兵反於濟北。天子聞之，罷丞相及行兵，皆歸長安。使棘蒲侯柴將軍擊破虜濟北王，王自殺，地入于漢，為郡。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 178,
+            "year": -177,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文帝二年，以齊之濟北郡立興居為濟北王，與城陽王俱立。立二年，反。始大臣誅呂氏時，朱虛侯功尤大，許盡以趙地王朱虛侯，盡以梁地王東牟侯。及孝文帝立，聞朱虛、東牟之初欲立齊王，故絀其功。及二年，王諸子，乃割齊二郡以王章、興居。章、興居自以失職奪功。章死，而興居聞匈奴大入漢，漢多發兵，使丞相灌嬰擊之，文帝親幸太原，以為天子自擊胡，遂發兵反於濟北。天子聞之，罷丞相及行兵，皆歸長安。使棘蒲侯柴將軍擊破虜濟北王，王自殺，地入于漢，為郡。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p037",
+                "quote": "孝文帝二年，以齊之濟北郡立興居為濟北王，與城陽王俱立。立二年，反。始大臣誅呂氏時，朱虛侯功尤大，許盡以趙地王朱虛侯，盡以梁地王東牟侯。及孝文帝立，聞朱虛、東牟之初欲立齊王，故絀其功。及二年，王諸子，乃割齊二郡以王章、興居。章、興居自以失職奪功。章死，而興居聞匈奴大入漢，漢多發兵，使丞相灌嬰擊之，文帝親幸太原，以為天子自擊胡，遂發兵反於濟北。天子聞之，罷丞相及行兵，皆歸長安。使棘蒲侯柴將軍擊破虜濟北王，王自殺，地入于漢，為郡。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元二年 (前178年)']=\"前178年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -2711,12 +3004,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "文帝十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p038",
+              "quote": "後十二年，文帝十六年，復以齊悼惠王子安都侯志為濟北王。十一年，吳楚反時，志堅守，不與諸侯合謀。吳楚已平，徙志王菑川。",
+              "person_mention_id": "c-shiji-052-qidaohui:m038-0018"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2763,7 +3065,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p038",
               "quote": "後十二年，文帝十六年，復以齊悼惠王子安都侯志為濟北王。十一年，吳楚反時，志堅守，不與諸侯合謀。吳楚已平，徙志王菑川。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 164,
+            "year": -163,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "後十二年，文帝十六年，復以齊悼惠王子安都侯志為濟北王。十一年，吳楚反時，志堅守，不與諸侯合謀。吳楚已平，徙志王菑川。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p038",
+                "quote": "後十二年，文帝十六年，復以齊悼惠王子安都侯志為濟北王。十一年，吳楚反時，志堅守，不與諸侯合謀。吳楚已平，徙志王菑川。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元十六年']=\"前164年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "source_event",
@@ -2815,12 +3146,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "孝文十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p039",
+              "quote": "濟南王辟光，齊悼惠王子，以勒侯孝文十六年為濟南王。十一年，與吳楚反。漢擊破，殺辟光，以濟南為郡，地入于漢。",
+              "person_mention_id": "c-shiji-052-qidaohui:m039-0000"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2861,7 +3201,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p039",
               "quote": "濟南王辟光，齊悼惠王子，以勒侯孝文十六年為濟南王。十一年，與吳楚反。漢擊破，殺辟光，以濟南為郡，地入于漢。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 164,
+            "year": -163,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "濟南王辟光，齊悼惠王子，以勒侯孝文十六年為濟南王。十一年，與吳楚反。漢擊破，殺辟光，以濟南為郡，地入于漢。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p039",
+                "quote": "濟南王辟光，齊悼惠王子，以勒侯孝文十六年為濟南王。十一年，與吳楚反。漢擊破，殺辟光，以濟南為郡，地入于漢。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元十六年']=\"前164年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -2905,12 +3274,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "文帝十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p040",
+              "quote": "菑川王賢，齊悼惠王子，以武城侯文帝十六年為菑川王。十一年，與吳楚反，漢擊破，殺賢。",
+              "person_mention_id": "c-shiji-052-qidaohui:m040-0000"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2951,7 +3329,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p040",
               "quote": "菑川王賢，齊悼惠王子，以武城侯文帝十六年為菑川王。十一年，與吳楚反，漢擊破，殺賢。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 164,
+            "year": -163,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "菑川王賢，齊悼惠王子，以武城侯文帝十六年為菑川王。十一年，與吳楚反，漢擊破，殺賢。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p040",
+                "quote": "菑川王賢，齊悼惠王子，以武城侯文帝十六年為菑川王。十一年，與吳楚反，漢擊破，殺賢。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元十六年']=\"前164年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -3000,8 +3407,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 20,
+        "unit": "regnal_year",
+        "source_term": "二十年卒",
+        "source_number": "二十",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p041",
+            "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m041-0059"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-067",
@@ -3041,8 +3465,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 36,
+        "unit": "regnal_year",
+        "source_term": "三十六年卒",
+        "source_number": "三十六",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p041",
+            "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m041-0074"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-068",
@@ -3082,8 +3523,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 28,
+        "unit": "regnal_year",
+        "source_term": "二十八年卒",
+        "source_number": "二十八",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p041",
+            "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m041-0090"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-069",
@@ -3123,8 +3581,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 本次補來源在位年數；未指定包含首尾年或公曆起訖，謚號用稱不等於即位時已授謚。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 5,
+        "unit": "regnal_year",
+        "source_term": "五年卒",
+        "source_number": "五",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p041",
+            "quote": "天子因徙濟北王志王菑川。志亦齊悼惠王子，以安都侯王濟北。菑川王反，毋後，乃徙濟北王王菑川。凡立三十五年卒，謚為懿王。子建代立，是為靖王。二十年卒，子遺代立，是為頃王。三十六年卒，子終古立，是為思王。二十八年卒，子尚立，是為孝王。五年卒，子橫立，至建始三年，十一歲，卒。",
+            "person_mention_id": "c-shiji-052-qidaohui:m041-0106"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji052-070",
@@ -3159,12 +3634,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "文帝十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p042",
+              "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。",
+              "person_mention_id": "c-shiji-052-qidaohui:m042-0000"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -3205,7 +3689,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p042",
               "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 164,
+            "year": -163,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p042",
+                "quote": "膠西王卬，齊悼惠王子，以昌平侯文帝十六年為膠西王。十一年，與吳楚反。漢擊破，殺卬，地入于漢，為膠西郡。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元十六年']=\"前164年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -3249,12 +3762,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "文帝十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-052-qidaohui",
+              "source_id": "s-shiji-052-qidaohui",
+              "paragraph_id": "c-shiji-052-qidaohui:p043",
+              "quote": "膠東王雄渠，齊悼惠王子，以白石侯文帝十六年為膠東王。十一年，與吳楚反，漢擊破，殺雄渠，地入于漢，為膠東郡。",
+              "person_mention_id": "c-shiji-052-qidaohui:m043-0000"
+            }
+          ]
         }
       },
-      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。 原侯號轉王號依本段明示封王判讀終點，不由死亡或其他官職任事推全部稱號終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -3295,7 +3817,36 @@
               "paragraph_id": "c-shiji-052-qidaohui:p043",
               "quote": "膠東王雄渠，齊悼惠王子，以白石侯文帝十六年為膠東王。十一年，與吳楚反，漢擊破，殺雄渠，地入于漢，為膠東郡。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 164,
+            "year": -163,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "膠東王雄渠，齊悼惠王子，以白石侯文帝十六年為膠東王。十一年，與吳楚反，漢擊破，殺雄渠，地入于漢，為膠東郡。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-052-qidaohui",
+                "source_id": "s-shiji-052-qidaohui",
+                "paragraph_id": "c-shiji-052-qidaohui:p043",
+                "quote": "膠東王雄渠，齊悼惠王子，以白石侯文帝十六年為膠東王。十一年，與吳楚反，漢擊破，殺雄渠，地入于漢，為膠東郡。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['前元十六年']=\"前164年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、孝文二年或文帝十六年授王號，依數位漢高帝／漢文帝前元紀年對應換算年。數位編者表不是事件權威，原文日期不改，影像與曆表未核，未推公曆月日；齊文王元年另段表述仍保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
