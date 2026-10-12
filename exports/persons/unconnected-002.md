@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][53] | [JSON](ddf_jql_z0y.json) |
+| `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][6] | [JSON](ddp_ol8_1w5.json) |
 | `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][112] | [JSON](ddq_o5z_ic3.json) |
 | `de9_bqj_6wy` | 屠中少年未名 | [《史記・淮陰侯列傳》][74] | [JSON](de9_bqj_6wy.json) |
 | `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][11] | [JSON](dep_bjj_vwe.json) |
@@ -2232,8 +2234,6 @@
 | `qel_t1a_itz` | 劇孟母（未名） | [《史記・游俠列傳》][106] | [JSON](qel_t1a_itz.json) |
 | `qep_rho_j32` | 負芻（末楚王） | [《史記・楚世家》][22] | [JSON](qep_rho_j32.json) |
 | `qf1_qbc_81g` | 張春 | [《史記・韓信盧綰列傳》][75] | [JSON](qf1_qbc_81g.json) |
-| `qf6_ach_02x` | 王成 | [《史記・平津侯主父列傳》][94] | [JSON](qf6_ach_02x.json) |
-| `qff_r3w_1jo` | 魏媼 | [《史記・外戚世家》][31] | [JSON](qff_r3w_1jo.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

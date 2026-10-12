@@ -207,3 +207,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ### 同一生卒事件的回述
 
 同一人物的死亡可在不相鄰段落回述。`date_context.kind: same_event_attestation` 明示這些引句是同一事件的重述，不表示中間段落共享紀年。`paragraph_ids` 必須精確列出事件證據段，`date_paragraph_id` 必須為首筆證據段，且該段同時含原日期與 `source_term` 事件詞句；`rationale` 說明同指及差異。日期不從另人的事件或後段用稱借入；其他引句與不同死亡方式敘述完整保留。原有 `continuous_paragraphs` 承接仍要求連續段落，不因本型別放寬。
+
+### 死後諡名
+
+`mode: posthumous_naming` 與起點 `event_type` 保存來源明示死後諡名，例如「相國何卒，諡為文終侯」。`naming_basis` 明列 `source_term`（含諡／謚為或曰及本筆原稱）、`death_term`（同一證據內的死亡句）與完全相符的起點 `evidence`。它與追尊授號分開；一般死後用稱不自行生成命名事件。原紀年與數字年分存，未見具體日不補日；未知終點不視為無限有效。

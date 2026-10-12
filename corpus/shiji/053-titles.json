@@ -8,7 +8,7 @@
       "person_id": "ic8_7be_6x3",
       "title": "沛主吏掾",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -31,9 +31,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p001",
+              "quote": "蕭相國何者，沛豐人也。以文無害為沛主吏掾。",
+              "person_mention_id": "c-shiji-053-xiao:m001-0000"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -41,7 +50,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 以文無害為沛主吏掾或乃給泗水卒史事按本段任事起點保存，後者保留「給…事」的來源限制，不補未明曆年或完整任命詔。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -131,7 +140,7 @@
       "person_id": "ic8_7be_6x3",
       "title": "泗水卒史",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -154,9 +163,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p003",
+              "quote": "秦御史監郡者與從事，常辨之。何乃給泗水卒史事，第一。秦御史欲入言徵何，何固請，得毋行。",
+              "person_mention_id": "c-shiji-053-xiao:m003-0014"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -164,7 +182,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 以文無害為沛主吏掾或乃給泗水卒史事按本段任事起點保存，後者保留「給…事」的來源限制，不補未明曆年或完整任命詔。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -249,12 +267,21 @@
           ]
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "漢十一年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p010",
+              "quote": "漢十一年，陳豨反，高祖自將，至邯鄲。未罷，淮陰侯謀反關中，呂后用蕭何計，誅淮陰侯，語在淮陰事中。上已聞淮陰侯誅，使使拜丞相何為相國，益封五千戶，令卒五百人一都尉為相國衛。諸君皆賀，召平獨吊。召平者，故秦東陵侯。秦破，為布衣，貧，種瓜於長安城東，瓜美，故世俗謂之「東陵瓜」，從召平以為名也。召平謂相國曰：「禍自此始矣。上暴露於外而君守於中，非被矢石之事而益君封置衛者，以今者淮陰侯新反於中，疑君心矣。夫置衛衛君，非以寵君也。原君讓封勿受，悉以家私財佐軍，則上心說。」相國從其計，高帝乃大喜。",
+              "person_mention_id": "c-shiji-053-xiao:m010-0032"
+            }
+          ]
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 丞相轉相國、關內侯轉安平侯及故東陵侯秦破為布衣各以明示轉稱／身份為原號終點；不由死亡或拘禁推全部官爵終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -429,12 +456,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p009",
+              "quote": "上曰：「吾聞進賢受上賞。蕭何功雖高，得鄂君乃益明。」於是因鄂君故所食關內侯邑封為安平侯。是日，悉封何父子兄弟十餘人，皆有食邑。乃益封何二千戶，以帝嘗繇咸陽時何送我獨贏錢二也。",
+              "person_mention_id": "c-shiji-053-xiao:m009-0019"
+            }
+          ]
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 丞相轉相國、關內侯轉安平侯及故東陵侯秦破為布衣各以明示轉稱／身份為原號終點；不由死亡或拘禁推全部官爵終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -524,7 +560,36 @@
               "paragraph_id": "c-shiji-053-xiao:p010",
               "quote": "漢十一年，陳豨反，高祖自將，至邯鄲。未罷，淮陰侯謀反關中，呂后用蕭何計，誅淮陰侯，語在淮陰事中。上已聞淮陰侯誅，使使拜丞相何為相國，益封五千戶，令卒五百人一都尉為相國衛。諸君皆賀，召平獨吊。召平者，故秦東陵侯。秦破，為布衣，貧，種瓜於長安城東，瓜美，故世俗謂之「東陵瓜」，從召平以為名也。召平謂相國曰：「禍自此始矣。上暴露於外而君守於中，非被矢石之事而益君封置衛者，以今者淮陰侯新反於中，疑君心矣。夫置衛衛君，非以寵君也。原君讓封勿受，悉以家私財佐軍，則上心說。」相國從其計，高帝乃大喜。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 196,
+            "year": -195,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "漢十一年，陳豨反，高祖自將，至邯鄲。未罷，淮陰侯謀反關中，呂后用蕭何計，誅淮陰侯，語在淮陰事中。上已聞淮陰侯誅，使使拜丞相何為相國，益封五千戶，令卒五百人一都尉為相國衛。諸君皆賀，召平獨吊。召平者，故秦東陵侯。秦破，為布衣，貧，種瓜於長安城東，瓜美，故世俗謂之「東陵瓜」，從召平以為名也。召平謂相國曰：「禍自此始矣。上暴露於外而君守於中，非被矢石之事而益君封置衛者，以今者淮陰侯新反於中，疑君心矣。夫置衛衛君，非以寵君也。原君讓封勿受，悉以家私財佐軍，則上心說。」相國從其計，高帝乃大喜。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-053-xiao",
+                "source_id": "s-shiji-053-xiao",
+                "paragraph_id": "c-shiji-053-xiao:p010",
+                "quote": "漢十一年，陳豨反，高祖自將，至邯鄲。未罷，淮陰侯謀反關中，呂后用蕭何計，誅淮陰侯，語在淮陰事中。上已聞淮陰侯誅，使使拜丞相何為相國，益封五千戶，令卒五百人一都尉為相國衛。諸君皆賀，召平獨吊。召平者，故秦東陵侯。秦破，為布衣，貧，種瓜於長安城東，瓜美，故世俗謂之「東陵瓜」，從召平以為名也。召平謂相國曰：「禍自此始矣。上暴露於外而君守於中，非被矢石之事而益君封置衛者，以今者淮陰侯新反於中，疑君心矣。夫置衛衛君，非以寵君也。原君讓封勿受，悉以家私財佐軍，則上心說。」相國從其計，高帝乃大喜。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝十一年']=\"前196年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢五年、漢十一年或孝惠二年事件，依數位漢高帝／漢惠帝紀年換算；原句與數字年分存。數位編者對應不是事件權威，不把原曆月日換成未核公曆日；影像與曆表未核，編者暫定。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -609,12 +674,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "秦破",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p010",
+              "quote": "漢十一年，陳豨反，高祖自將，至邯鄲。未罷，淮陰侯謀反關中，呂后用蕭何計，誅淮陰侯，語在淮陰事中。上已聞淮陰侯誅，使使拜丞相何為相國，益封五千戶，令卒五百人一都尉為相國衛。諸君皆賀，召平獨吊。召平者，故秦東陵侯。秦破，為布衣，貧，種瓜於長安城東，瓜美，故世俗謂之「東陵瓜」，從召平以為名也。召平謂相國曰：「禍自此始矣。上暴露於外而君守於中，非被矢石之事而益君封置衛者，以今者淮陰侯新反於中，疑君心矣。夫置衛衛君，非以寵君也。原君讓封勿受，悉以家私財佐軍，則上心說。」相國從其計，高帝乃大喜。",
+              "person_mention_id": "c-shiji-053-xiao:m010-0090"
+            }
+          ]
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 丞相轉相國、關內侯轉安平侯及故東陵侯秦破為布衣各以明示轉稱／身份為原號終點；不由死亡或拘禁推全部官爵終止。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -662,8 +736,8 @@
       "id": "th-shiji053-016",
       "person_id": "ic8_7be_6x3",
       "title": "文終侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -686,9 +760,48 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": "孝惠二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-053-xiao",
+              "source_id": "s-shiji-053-xiao",
+              "paragraph_id": "c-shiji-053-xiao:p015",
+              "quote": "孝惠二年，相國何卒，諡為文終侯。",
+              "person_mention_id": "c-shiji-053-xiao:m015-0005"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 193,
+            "year": -192,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "孝惠二年，相國何卒，諡為文終侯。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-053-xiao",
+                "source_id": "s-shiji-053-xiao",
+                "paragraph_id": "c-shiji-053-xiao:p015",
+                "quote": "孝惠二年，相國何卒，諡為文終侯。",
+                "person_mention_id": "c-shiji-053-xiao:m015-0005"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢惠帝二年']=\"前193年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢五年、漢十一年或孝惠二年事件，依數位漢高帝／漢惠帝紀年換算；原句與數字年分存。數位編者對應不是事件權威，不把原曆月日換成未核公曆日；影像與曆表未核，編者暫定。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -696,8 +809,21 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授封、任事、加封、讓封與死後用稱分開；給泗水卒史事不冒稱正式授職，群體後嗣封續不當蕭何仍在任。爵位時段不由卒日、下獄或赦出推端點。酇侯授封前有歲餘敘事，不將漢五年直接填實封年月。 相國何卒，諡為文終侯為明示死後諡名事件，不套成追尊授號或生前受爵，尚待擴充事件型別驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "諡為文終侯",
+        "death_term": "相國何卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-053-xiao",
+            "source_id": "s-shiji-053-xiao",
+            "paragraph_id": "c-shiji-053-xiao:p015",
+            "quote": "孝惠二年，相國何卒，諡為文終侯。",
+            "person_mention_id": "c-shiji-053-xiao:m015-0005"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji053-017",
