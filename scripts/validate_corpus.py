@@ -498,9 +498,18 @@ def validate(root=ROOT):
                         for e in inheritance['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
-                    valid=(h['mode']=='posthumous_grant' and isinstance(basis,dict)
-                           and set(basis)=={'source_term','evidence'}
-                           and isinstance(basis['source_term'],str) and '追尊' in basis['source_term']
+                    explicit_retrospective=(isinstance(basis,dict)
+                        and set(basis)=={'source_term','evidence'}
+                        and isinstance(basis.get('source_term'),str) and '追尊' in basis['source_term'])
+                    death_then_grant=(isinstance(basis,dict)
+                        and set(basis)=={'source_term','death_term','grant_term','evidence'}
+                        and all(isinstance(basis.get(k),str) and basis[k] for k in ('source_term','death_term','grant_term'))
+                        and bool(re.search(r'[死卒薨崩]',basis['death_term']))
+                        and basis['grant_term']=='賜夫人為'+h['title']
+                        and basis['death_term'] in basis['source_term']
+                        and basis['grant_term'] in basis['source_term']
+                        and basis['source_term'].index(basis['death_term'])+len(basis['death_term'])<=basis['source_term'].index(basis['grant_term']))
+                    valid=(h['mode']=='posthumous_grant' and (explicit_retrospective or death_then_grant)
                            and isinstance(basis['evidence'],list) and bool(basis['evidence'])
                            and basis['evidence']==h['effective_period']['start']['evidence']
                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)

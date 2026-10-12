@@ -123,8 +123,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。 appointment_role 明記來源守或行事代理，並非另補正式授職日期。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji060-004",
@@ -410,8 +411,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。 appointment_role 明記來源守或行事代理，並非另補正式授職日期。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji060-011",
@@ -779,8 +781,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。 appointment_role 明記來源守或行事代理，並非另補正式授職日期。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji060-020",
@@ -861,8 +864,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。 原字守／行事保存於引句，未推實任或正式遷官。 appointment_role 明記來源守或行事代理，並非另補正式授職日期。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji060-022",
@@ -1472,7 +1476,7 @@
       "person_id": "3eo_u7e_pxx",
       "title": "齊王太后",
       "kind": "royal_rank",
-      "mode": "grant",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -1496,7 +1500,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "posthumous_grant",
           "date_expression": null,
           "evidence": [
             {
@@ -1514,7 +1518,20 @@
         }
       },
       "interpretation_note": "依制立、賜號或復封明示事件保存，不把請封、列侯方案或願望作已授爵；原年語不補公曆。 王夫人死後賜號為明示死後事件，不表示生前已持齊王太后，不從死亡推其他稱號終點。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "王夫人死而帝痛之，使使者拜之曰：「皇帝謹使使太中大夫明奉璧一，賜夫人為齊王太后。",
+        "death_term": "王夫人死",
+        "grant_term": "賜夫人為齊王太后",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-060-sanwang",
+            "source_id": "s-shiji-060-sanwang",
+            "paragraph_id": "c-shiji-060-sanwang:p020",
+            "quote": "王夫人者，趙人也，與衛夫人并幸武帝，而生子閎。閎且立為王時，其母病，武帝自臨問之。曰：「子當為王，欲安所置之？」王夫人曰：「陛下在，妾又何等可言者。」帝曰：「雖然，意所欲，欲於何所王之？」王夫人曰：「願置之雒陽。」武帝曰：「雒陽有武庫敖倉，天下衝阸，漢國之大都也。先帝以來，無子王於雒陽者。去雒陽，餘盡可。」王夫人不應。武帝曰：「關東之國無大於齊者。齊東負海而城郭大，古時獨臨菑中十萬戶，天下膏腴地莫盛於齊者矣。」王夫人以手擊頭，謝曰：「幸甚。」王夫人死而帝痛之，使使者拜之曰：「皇帝謹使使太中大夫明奉璧一，賜夫人為齊王太后。」子閎王齊，年少，無有子，立，不幸早死，國絕，為郡。天下稱齊不宜王云。"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji060-035",
