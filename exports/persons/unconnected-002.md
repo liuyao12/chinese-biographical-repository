@@ -261,6 +261,7 @@
 | `emm_08p_2n8` | 魏文侯（楚篇三晉記事） | [《史記・楚世家》][22] | [JSON](emm_08p_2n8.json) |
 | `eng_0y0_ha6` | 公孫戎奴 | [《史記・衛將軍驃騎列傳》][93] | [JSON](eng_0y0_ha6.json) |
 | `ens_bv2_oaj` | 齊太醫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ens_bv2_oaj.json) |
+| `env_vor_wvy` | 被濟川王明射殺的中尉 | [《史記・梁孝王世家》][40] | [JSON](env_vor_wvy.json) |
 | `enz_lny_xoh` | 白起 | [《史記・白起王翦列傳》][55] | [JSON](enz_lny_xoh.json) |
 | `eof_wj7_9ih` | 商容 | [《史記・留侯世家》][37] | [JSON](eof_wj7_9ih.json) |
 | `eok_92w_kgq` | 子我 | [《史記・齊太公世家》][14] | [JSON](eok_92w_kgq.json) |
@@ -2232,7 +2233,6 @@
 | `qco_jjb_gz1` | 懷（鄖公弟） | [《史記・楚世家》][22] | [JSON](qco_jjb_gz1.json) |
 | `qcp_ou0_2g1` | 項羽 | [《史記・項羽本紀》][7] | [JSON](qcp_ou0_2g1.json) |
 | `qcs_gl3_9g8` | 燕易王母 | [《史記・蘇秦列傳》][51] | [JSON](qcs_gl3_9g8.json) |
-| `qd7_pum_453` | 馬邑敘事單于（未名） | [《史記・李將軍列傳》][91] | [JSON](qd7_pum_453.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

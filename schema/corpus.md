@@ -196,7 +196,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `reported_duration.unit: title_year` 保存「既侯三歲」等來源明記的持號年數，與君主在位的 `regnal_year` 分開。首批只用 `counting: unspecified_source_years`，原詞、數詞及人物證據俱存，不推定完整公曆年時長或任期終點。
 
-父子承爵原文僅稱「侯」時，可用 `inheritance` 保存獨立的暫定判讀，不擴寫 `title` 或用稱錨點。`predecessor_person_id` 與 `predecessor_holding_id` 指向有來源的父親及其爵位；`resolved_title` 必須等於該爵名，供使用端直接解析。`source_term`、`evidence`、`rationale` 保存承爵原語與理由，`status: contextual_provisional`、`human_reviewed: false`。目前驗證只接受 `noble_rank` 的 `accession`，須有同一承爵證據段落的父子陳述，不能按相同「侯」字跨人物匹配。日期、來源年數與國除事件仍各自保存，不能以計年差值倒改明示紀年。此欄位是編輯判讀，並非聲稱原文寫出完整爵名。
+父子承爵原文僅稱「侯」時，可用 `inheritance` 保存獨立的暫定判讀，不擴寫 `title` 或用稱錨點。`predecessor_person_id` 與 `predecessor_holding_id` 指向有來源的父親及其爵位；`resolved_title` 必須等於該爵名，供使用端直接解析。`source_term`、`evidence`、`rationale` 保存承爵原語與理由，`status: contextual_provisional`、`human_reviewed: false`。驗證接受 `noble_rank` 或 `royal_rank` 的 `accession`，全鏈爵位種類須一致，須有同一承爵證據段落的父子陳述，不能按相同「侯」字跨人物匹配。日期、來源年數與國除事件仍各自保存，不能以計年差值倒改明示紀年。此欄位是編輯判讀，並非聲稱原文寫出完整爵名。
 
 `grandmother` 在外孫原句中保存母系祖母：主體為外孫、客體為祖母，原詞 `外孫`、`lineage: maternal`、`generation_difference: -2`、`mother_person_id: null`。本句未名母親不從別段補寫，母系關係不接入父系家族 ID。
 

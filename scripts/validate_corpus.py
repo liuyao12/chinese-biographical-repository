@@ -462,7 +462,7 @@ def validate(root=ROOT):
                         inherited_chain_valid = True
                         while isinstance(cursor, dict) and 'inheritance' in cursor:
                             link = cursor['inheritance']
-                            if (cursor['id'] in visited or cursor.get('kind') != 'noble_rank'
+                            if (cursor['id'] in visited or cursor.get('kind') != h['kind']
                                 or cursor.get('mode') != 'accession' or not isinstance(link, dict)
                                 or link.get('resolved_title') != inheritance['resolved_title']):
                                 inherited_chain_valid = False
@@ -471,10 +471,10 @@ def validate(root=ROOT):
                             cursor = title_records.get(link.get('predecessor_holding_id'))
                         inherited_chain_valid = (inherited_chain_valid and isinstance(cursor, dict)
                             and cursor['id'] not in visited
-                            and cursor.get('kind') == 'noble_rank'
+                            and cursor.get('kind') == h['kind']
                             and cursor.get('title') == inheritance['resolved_title'])
-                        valid = (h['kind'] == 'noble_rank' and h['mode'] == 'accession'
-                            and bool(predecessor) and predecessor['kind'] == 'noble_rank'
+                        valid = (h['kind'] in ('noble_rank', 'royal_rank') and h['mode'] == 'accession'
+                            and bool(predecessor) and predecessor['kind'] == h['kind']
                             and predecessor['person_id'] == inheritance['predecessor_person_id']
                             and predecessor['person_id'] != h['person_id']
                             and inherited_chain_valid
