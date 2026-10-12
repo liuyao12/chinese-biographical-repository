@@ -319,7 +319,7 @@
       "person_id": "fdi_2l0_u1g",
       "title": "靈文侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -343,7 +343,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "posthumous_grant",
           "date_expression": null,
           "evidence": [
             {
@@ -360,8 +360,19 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 追尊為死後授號，不能當生前任職。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊薄案為靈文侯",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-049-waiqi",
+            "source_id": "s-shiji-049-waiqi",
+            "paragraph_id": "c-shiji-049-waiqi:p010",
+            "quote": "薄太后母亦前死，葬櫟陽北。於是乃追尊薄案為靈文侯，會稽郡置園邑三百家，長丞已下吏奉守冢，寢廟上食祠如法。而櫟陽北亦置靈文侯夫人園，如靈文侯園儀。薄太后以為母家魏王後，早失父母，其奉薄太后諸魏有力者，於是召復魏氏，［及尊］賞賜各以親疏受之。薄氏侯者凡一人。"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji049-009",
@@ -556,7 +567,7 @@
       "person_id": "ixk_6fg_v6f",
       "title": "安成侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -580,7 +591,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "posthumous_grant",
           "date_expression": null,
           "evidence": [
             {
@@ -597,15 +608,26 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 追尊為死後授號，不能當生前任職。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊竇后父為安成侯",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-049-waiqi",
+            "source_id": "s-shiji-049-waiqi",
+            "paragraph_id": "c-shiji-049-waiqi:p013",
+            "quote": "竇皇后親蚤卒，葬觀津。於是薄太后乃詔有司，追尊竇后父為安成侯，母曰安成夫人。令清河置園邑二百家，長丞奉守，比靈文園法。"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji049-014",
       "person_id": "6nb_nln_q3c",
       "title": "安成夫人",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -628,9 +650,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p013",
+              "quote": "竇皇后親蚤卒，葬觀津。於是薄太后乃詔有司，追尊竇后父為安成侯，母曰安成夫人。令清河置園邑二百家，長丞奉守，比靈文園法。",
+              "person_mention_id": "c-shiji-049-waiqi:m013-0031"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -638,8 +669,20 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「母曰安成夫人」明示授號，具體年月未知。母親為追尊稱號，非生前實任，待補專門授予性質欄位。 追尊為死後授號，不能當生前任職。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊竇后父為安成侯，母曰安成夫人",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-049-waiqi",
+            "source_id": "s-shiji-049-waiqi",
+            "paragraph_id": "c-shiji-049-waiqi:p013",
+            "quote": "竇皇后親蚤卒，葬觀津。於是薄太后乃詔有司，追尊竇后父為安成侯，母曰安成夫人。令清河置園邑二百家，長丞奉守，比靈文園法。",
+            "person_mention_id": "c-shiji-049-waiqi:m013-0031"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji049-015",
@@ -826,7 +869,7 @@
       "person_id": "45y_6ae_x2a",
       "title": "魏其侯",
       "kind": "noble_rank",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -849,9 +892,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p016",
+              "quote": "竇皇后病，失明。文帝幸邯鄲慎夫人、尹姬，皆毋子。孝文帝崩，孝景帝立，乃封廣國為章武侯。長君前死，封其子彭祖為南皮侯。吳楚反時，竇太后從昆弟子竇嬰，任俠自喜，將兵，以軍功為魏其侯。竇氏凡三人為侯。",
+              "person_mention_id": "c-shiji-049-waiqi:m016-0070"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -859,7 +911,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「以軍功為魏其侯」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1535,7 +1587,7 @@
       "person_id": "6d6_eg1_o3a",
       "title": "共侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -1559,7 +1611,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "posthumous_grant",
           "date_expression": null,
           "evidence": [
             {
@@ -1576,8 +1628,19 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 追尊為死後授號，不能當生前任職。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊為共侯",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-049-waiqi",
+            "source_id": "s-shiji-049-waiqi",
+            "paragraph_id": "c-shiji-049-waiqi:p025",
+            "quote": "蓋侯信好酒。田蚡、勝貪，巧於文辭。王仲蚤死，葬槐裏，追尊為共侯，置園邑二百家。及平原君卒，從田氏葬長陵，置園比共侯園。而王太后後孝景帝十六歲，以元朔四年崩，合葬陽陵。王太后家凡三人為侯。"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji049-035",
@@ -1935,7 +1998,7 @@
       "person_id": "3tw_nq2_gyn",
       "title": "驃騎將軍",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -1958,9 +2021,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p029",
+              "quote": "衛子夫已立為皇后，先是衛長君死，乃以衛青為將軍，擊胡有功，封為長平侯。青三子在襁褓中，皆封為列侯。及衛皇后所謂姊衛少兒，少兒生子霍去病，以軍功封冠軍侯，號驃騎將軍。青號大將軍。立衛皇后子據為太子。衛氏枝屬以軍功起家，五人為侯。",
+              "person_mention_id": "c-shiji-049-waiqi:m029-0064"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1968,7 +2040,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「號驃騎將軍」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1976,7 +2048,7 @@
       "person_id": "5dd_l1c_6g8",
       "title": "大將軍",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -1999,9 +2071,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p029",
+              "quote": "衛子夫已立為皇后，先是衛長君死，乃以衛青為將軍，擊胡有功，封為長平侯。青三子在襁褓中，皆封為列侯。及衛皇后所謂姊衛少兒，少兒生子霍去病，以軍功封冠軍侯，號驃騎將軍。青號大將軍。立衛皇后子據為太子。衛氏枝屬以軍功起家，五人為侯。",
+              "person_mention_id": "c-shiji-049-waiqi:m029-0018"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2009,7 +2090,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「青號大將軍」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2402,7 +2483,7 @@
       "person_id": "a7k_sl0_d7u_A",
       "title": "修成君",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -2425,9 +2506,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p035",
+              "quote": "褚先生曰：臣為郎時，問習漢家故事者鐘離生。曰：王太后在民閒時所生（子）［一］女者，父為金王孫。王孫已死，景帝崩後，武帝已立，王太后獨在。而韓王孫名嫣素得幸武帝，承閒白言太后有女在長陵也。武帝曰：「何不蚤言！」乃使使往先視之，在其家。武帝乃自往迎取之。蹕道，先驅旄騎出橫城門，乘輿馳至長陵。當小市西入里，里門閉，暴開門，乘輿直入此里，通至金氏門外止，使武騎圍其宅，為其亡走，身自往取不得也。即使左右群臣入呼求之。家人驚恐，女亡匿內中床下。扶持出門，令拜謁。武帝下車泣曰：「嚄！大姊，何藏之深也！」詔副車載之，迴車馳還，而直入長樂宮。行詔門著引籍，通到謁太后。太后曰：「帝倦矣，何從來？」帝曰：「今者至長陵得臣姊，與俱來。」顧曰：「謁太后！」太后曰：「女某邪？」曰：「是也。」太后為下泣，女亦伏地泣。武帝奉酒前為壽，奉錢千萬，奴婢三百人，公田百頃，甲第，以賜姊。太后謝曰：「為帝費焉。」於是召平陽主、南宮主、林慮主三人俱來謁見姊，因號曰修成君。有子男一人，女一人。男號為修成子仲，女為諸侯王王后。此二子非劉氏，以故太后憐之。修成子仲驕恣，陵折吏民，皆患苦之。",
+              "person_mention_id": "c-shiji-049-waiqi:m035-0416"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2435,7 +2525,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「因號曰修成君」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2574,7 +2664,7 @@
       "person_id": "5dd_l1c_6g8_A",
       "title": "陰安侯",
       "kind": "noble_rank",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -2597,9 +2687,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p036",
+              "quote": "衛子夫立為皇后，后弟衛青字仲卿，以大將軍封為長平侯。四子，長子伉為侯世子，侯世子常侍中，貴幸。其三弟皆封為侯，各千三百戶，一曰陰安侯，二曰發干侯，三曰宜春侯，貴震天下。天下歌之曰：「生男無喜，生女無怒，獨不見衛子夫霸天下！」",
+              "person_mention_id": "c-shiji-049-waiqi:m036-0063"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2607,7 +2706,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「其三弟皆封為侯」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2615,7 +2714,7 @@
       "person_id": "5dd_l1c_6g8_B",
       "title": "發干侯",
       "kind": "noble_rank",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -2638,9 +2737,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p036",
+              "quote": "衛子夫立為皇后，后弟衛青字仲卿，以大將軍封為長平侯。四子，長子伉為侯世子，侯世子常侍中，貴幸。其三弟皆封為侯，各千三百戶，一曰陰安侯，二曰發干侯，三曰宜春侯，貴震天下。天下歌之曰：「生男無喜，生女無怒，獨不見衛子夫霸天下！」",
+              "person_mention_id": "c-shiji-049-waiqi:m036-0069"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2648,7 +2756,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「其三弟皆封為侯」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2656,7 +2764,7 @@
       "person_id": "5dd_l1c_6g8_C",
       "title": "宜春侯",
       "kind": "noble_rank",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -2679,9 +2787,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p036",
+              "quote": "衛子夫立為皇后，后弟衛青字仲卿，以大將軍封為長平侯。四子，長子伉為侯世子，侯世子常侍中，貴幸。其三弟皆封為侯，各千三百戶，一曰陰安侯，二曰發干侯，三曰宜春侯，貴震天下。天下歌之曰：「生男無喜，生女無怒，獨不見衛子夫霸天下！」",
+              "person_mention_id": "c-shiji-049-waiqi:m036-0075"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2689,7 +2806,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 本段「其三弟皆封為侯」明示授號，具體年月未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {

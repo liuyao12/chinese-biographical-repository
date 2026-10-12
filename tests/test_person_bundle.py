@@ -55,7 +55,13 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(age['counting'], 'unspecified_source_age')
         self.assertEqual(age['normalized_date']['era_year'], 123)
         self.assertIn(age['evidence'][0]['paragraph_id'], {p['id'] for p in result['passages']})
-        self.assertNotIn('birth', {e['event_type'] for e in result.get('life_events', [])})
+        births = [e for e in result.get('life_events', []) if e['event_type'] == 'birth']
+        self.assertTrue(births)
+        for event in births:
+            self.assertIsNone(event['date_expression'])
+            self.assertNotIn('normalized_date', event)
+            self.assertEqual(event['source_term'], '\u5c11\u5152\u751f\u5b50\u970d\u53bb\u75c5')
+            self.assertTrue(any(event['source_term'] in e['quote'] for e in event['evidence']))
     def test_yuan_ang_cross_chapter_bundle_keeps_sourced_death_place(self):
         result = bundle('40v_x1i_esm', include_provisional=True)
         self.assertTrue({'j32_wtj_khz_A', 'ndp_kf2_zbo', 'b8b_5mi_flk'}.issubset(result['person_ids']))
