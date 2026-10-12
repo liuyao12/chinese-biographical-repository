@@ -15,4 +15,6 @@ jobs:
       - run: python3 scripts/validate.py
       - run: python3 scripts/validate_corpus.py
       - run: python3 scripts/render_corpus.py --check
+      - run: python3 -m scripts.reading_catalog --check
+      - run: python3 -m scripts.historical_tables validate
       - run: python3 -m unittest discover -s tests -v
