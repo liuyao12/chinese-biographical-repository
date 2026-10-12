@@ -56,6 +56,15 @@ class CorpusTests(unittest.TestCase):
     def test_jiezi_keeps_maternal_generation(self):
         self.change('corpus/shiji/111-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'maternal_uncle')['qualifiers'].update(lineage='paternal'))
         self.assertIn('姊子甥舅關係須保留母系世代與未名母親', v.validate(self.root))
+    def test_title_month_rejects_number_mismatch(self):
+        self.change('corpus/shiji/048-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_month')['reported_duration'].update(value=7))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
+    def test_title_month_rejects_year_unit(self):
+        self.change('corpus/shiji/048-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_month')['reported_duration'].update(unit='title_year', counting='unspecified_source_years'))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
+    def test_title_month_rejects_regnal_counting(self):
+        self.change('corpus/shiji/048-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_month')['reported_duration'].update(counting='inclusive_regnal_years'))
+        self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))
     def test_reported_tenure_rejects_number_mismatch(self):
         self.change('corpus/shiji/110-titles.json', lambda d: next(h for h in d['holdings'] if 'reported_duration' in h)['reported_duration'].update(value=14))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))

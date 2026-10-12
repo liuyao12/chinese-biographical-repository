@@ -199,3 +199,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 父子承爵原文僅稱「侯」時，可用 `inheritance` 保存獨立的暫定判讀，不擴寫 `title` 或用稱錨點。`predecessor_person_id` 與 `predecessor_holding_id` 指向有來源的父親及其爵位；`resolved_title` 必須等於該爵名，供使用端直接解析。`source_term`、`evidence`、`rationale` 保存承爵原語與理由，`status: contextual_provisional`、`human_reviewed: false`。目前驗證只接受 `noble_rank` 的 `accession`，須有同一承爵證據段落的父子陳述，不能按相同「侯」字跨人物匹配。日期、來源年數與國除事件仍各自保存，不能以計年差值倒改明示紀年。此欄位是編輯判讀，並非聲稱原文寫出完整爵名。
 
 `grandmother` 在外孫原句中保存母系祖母：主體為外孫、客體為祖母，原詞 `外孫`、`lineage: maternal`、`generation_difference: -2`、`mother_person_id: null`。本句未名母親不從別段補寫，母系關係不接入父系家族 ID。
+
+`reported_duration.unit: title_month` 保存來源明記的持號月份數，例如「陳勝王凡六月」以 `value: 6`、`source_number: 六` 與 `counting: unspecified_source_months` 記錄。此處是六個月的來源時長，不是曆月六月；來源是否包含起月未知，不推精確起訖日。月份單位只接受含「月」的原詞，與年數計數方式分開驗證。

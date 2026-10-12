@@ -1221,6 +1221,7 @@
 | `78k_der_mz8` | 王陵 | [《史記・陳丞相世家》][38] | [JSON](78k_der_mz8.json) |
 | `79h_j8x_96s` | 燕后（趙世家未名者） | [《史記・趙世家》][25] | [JSON](79h_j8x_96s.json) |
 | `79o_p9o_a9a` | 韓公叔 | [《史記・周本紀》][4] | [JSON](79o_p9o_a9a.json) |
+| `79o_zpm_tqe` | 宮門令（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](79o_zpm_tqe.json) |
 | `79p_ubr_lij` | 范獻子 | [《史記・魏世家》][26] | [JSON](79p_ubr_lij.json) |
 | `79q_g4s_njs` | 田敬仲完 | [《史記・太史公自序》][112] | [JSON](79q_g4s_njs.json) |
 | `7a3_95s_58p` | 聶政 | [《史記・韓世家》][27] | [JSON](7a3_95s_58p.json) |
@@ -1446,6 +1447,7 @@
 | `8ik_o1h_x33` | 孟子 | [《史記・太史公自序》][112] | [JSON](8ik_o1h_x33.json) |
 | `8im_m5e_cpy` | 甘茂 | [《史記・樗里子甘茂列傳》][53] | [JSON](8im_m5e_cpy.json) |
 | `8ip_ubw_ssk` | 長沙王 | [《史記・南越列傳》][95] | [JSON](8ip_ubw_ssk.json) |
+| `8j2_yqw_vqw` | 陳勝庸耕故人（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](8j2_yqw_vqw.json) |
 | `8ji_f2j_ga7` | 宋邑 | [《史記・扁鵲倉公列傳》][87] | [JSON](8ji_f2j_ga7.json) |
 | `8jr_zbk_lao` | 獵會未到者未名 | [《史記・田叔列傳》][86] | [JSON](8jr_zbk_lao.json) |
 | `8jz_gel_lxj` | 鋗人（楚靈王求食者未名） | [《史記・楚世家》][22] | [JSON](8jz_gel_lxj.json) |
@@ -2233,8 +2235,6 @@
 | `de9_bqj_6wy` | 屠中少年未名 | [《史記・淮陰侯列傳》][74] | [JSON](de9_bqj_6wy.json) |
 | `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][11] | [JSON](dep_bjj_vwe.json) |
 | `dfm_lmc_f1j` | 左賢王（元狩二年未名） | [《史記・匈奴列傳》][92] | [JSON](dfm_lmc_f1j.json) |
-| `dfq_kor_hpu` | 祁傒（薦人者） | [《史記・晉世家》][21] | [JSON](dfq_kor_hpu.json) |
-| `dfy_5r0_ek4` | 田文子 | [《史記・齊太公世家》][14] | [JSON](dfy_5r0_ek4.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
