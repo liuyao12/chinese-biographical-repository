@@ -452,7 +452,7 @@ def validate(root=ROOT):
                 for e in h['evidence']:title_evidence(e)
                 if 'inheritance' in h:
                     inheritance = h['inheritance']
-                    valid = isinstance(inheritance, dict) and set(inheritance) == {
+                    valid = isinstance(inheritance, dict) and set(inheritance) - {'predecessor_relation'} == {
                         'predecessor_person_id', 'predecessor_holding_id', 'resolved_title',
                         'source_term', 'status', 'evidence', 'rationale', 'human_reviewed'}
                     if valid:
@@ -486,7 +486,8 @@ def validate(root=ROOT):
                             and isinstance(inheritance['evidence'], list) and bool(inheritance['evidence'])
                             and all(inheritance['source_term'] in e.get('quote', '')
                                     for e in inheritance['evidence'])
-                            and any(a['predicate'] == 'father'
+                            and inheritance.get('predecessor_relation', 'father') in ('father', 'brother')
+                            and any(a['predicate'] == inheritance.get('predecessor_relation', 'father')
                                     and a['subject_person_id'] == h['person_id']
                                     and a['object_person_id'] == predecessor['person_id']
                                     and any(e['paragraph_id'] == ie.get('paragraph_id')
@@ -864,7 +865,28 @@ def validate(root=ROOT):
                     hit = paragraphs.get(evidence['paragraph_id']); mention = mentions.get(evidence.get('person_mention_id'))
                     valid = bool(hit) and hit[0] == evidence['chapter_id'] == record['chapter_id']
                     check(valid and evidence['quote'] in hit[1]['text'] and chapters.get(evidence['chapter_id'], {}).get('source_id') == evidence['source_id'], '生卒事件來源引句不符')
-                    check(bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
+                    carried_subject = False
+                    context = evidence.get('context')
+                    if context is not None:
+                        order = [p['id'] for p in chapters.get(record['chapter_id'], {}).get('paragraphs', [])]
+                        previous = paragraphs.get(context.get('paragraph_id')) if isinstance(context, dict) else None
+                        anchor = mentions.get(context.get('person_mention_id')) if isinstance(context, dict) else None
+                        quote = context.get('quote') if isinstance(context, dict) else None
+                        ids = context.get('intervening_paragraph_ids') if isinstance(context, dict) else None
+                        carried_subject = (isinstance(context, dict) and set(context) == {'kind', 'paragraph_id', 'person_mention_id', 'quote', 'intervening_paragraph_ids'}
+                            and context.get('kind') == 'prior_paragraph_subject' and bool(previous) and bool(anchor)
+                            and bool(hit) and previous[0] == hit[0] == record['chapter_id']
+                            and context['paragraph_id'] in order and evidence['paragraph_id'] in order
+                            and isinstance(ids, list) and len(ids) <= 1
+                            and order.index(evidence['paragraph_id']) - order.index(context['paragraph_id']) == len(ids) + 1
+                            and ids == order[order.index(context['paragraph_id']) + 1:order.index(evidence['paragraph_id'])]
+                            and anchor[1] == context['paragraph_id'] and anchor[2]['person_id'] == event['person_id']
+                            and isinstance(quote, str) and bool(quote) and quote in previous[1]['text']
+                            and any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
+                                    for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
+                            and bool(event.get('source_term')) and event['source_term'] in evidence['quote'])
+                        check(carried_subject, '生卒主語承接須有近前同篇人物錨點、引句及完整中間段落')
+                    check(carried_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
                     if valid and mention:
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
                         check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')

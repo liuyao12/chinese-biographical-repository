@@ -26,15 +26,41 @@
   },
   "text_sha256": "5344206db1d9d15cf067ff1bc36cfc4a12dfcdf161482b9f4c63e019b4360f4b",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全39段明示姓名、局部王號、短稱及部分未名者首輪。",
+    "coverage": "全39段第二輪核讀；部分父子承王、明示諡名與來源地址已補，生卒主語承接、兄弟承位及完整身份時段仍待。",
     "limitations": [
       "六安王慶與賢子慶分候選；常山勃不接周勃，所忠與他篇同字者不自動合併。",
       "王夫人兒姁、唐姬與唐兒按本篇明示及生子敘事暫接，原字不改。",
       "後段天子與上多未名，不從景帝授封敘事跨年代一律接景帝；數位見證取笔保留待校。",
       "私通、指控、疾病、王后廢黜及謀反保留來源敘事；親屬、跨篇身份與官爵全史待逐項補錄。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji059-001",
+        "person_id": "1c8_u63_bk4_E",
+        "value": 15,
+        "unit": "source_age_years",
+        "source_number": "十五",
+        "source_term": "年十五",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "吳楚反時",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-059-wuzong",
+            "source_id": "s-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p011",
+            "quote": "江都易王非，以孝景前二年用皇子為汝南王。吳楚反時，非年十五，有材力，上書願擊吳。景帝賜非將軍印，擊吳。吳已破，二歲，徙為江都王，治吳故國，以軍功賜天子旌旗。元光五年，匈奴大入漢為賊，非上書願擊匈奴，上不許。非好氣力，治宮觀，招四方豪桀，驕奢甚。",
+            "person_mention_id": "c-shiji-059-wuzong:m011-0025"
+          }
+        ],
+        "interpretation_note": "來源明示吳楚反時非年十五；計歲方式未知，不倒推出生年，不與王位年數混合。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -1037,10 +1063,30 @@
           "start": 51,
           "end": 55,
           "surface": "愛幸少年",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "匿名者、群體、制度泛稱、未名皇帝或未定指代；不補未見姓名、親屬成員或確定身份。"
+          "kind": "person",
+          "person_id": "xnc_psn_713",
+          "status": "contextual_provisional",
+          "note": "端愛幸而為郎的具體未名少年；兩處郎字承同一敘事人物。"
+        },
+        {
+          "id": "c-shiji-059-wuzong:m013-0056",
+          "start": 56,
+          "end": 57,
+          "surface": "郎",
+          "kind": "person",
+          "person_id": "xnc_psn_713",
+          "status": "contextual_provisional",
+          "note": "承本段端愛幸少年為郎；不補姓名。"
+        },
+        {
+          "id": "c-shiji-059-wuzong:m013-0059",
+          "start": 59,
+          "end": 60,
+          "surface": "郎",
+          "kind": "person",
+          "person_id": "xnc_psn_713",
+          "status": "contextual_provisional",
+          "note": "承本段端愛幸少年為郎；不補姓名。"
         },
         {
           "id": "c-shiji-059-wuzong:m013-0064",

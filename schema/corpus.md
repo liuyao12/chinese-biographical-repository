@@ -227,3 +227,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 地址引句省略人物主語時，可另存 `evidence.context`，種類 `previous_paragraph_subject`，含前段 `paragraph_id`、人物 `person_mention_id` 與實際引句 `quote`。只接受同篇緊鄰前段，人物須與地址主體一致且錨點在前段引句中，另有判讀說明；主段地名與行程原詞仍須在本段引句。不在原文插入姓名，不按最近人物自動猜測主語。
 
 稱號來源月數含餘字時，可用 `reported_duration.value: null` 與 `bounds` 保存排他下界及未知上限，單位 `title_month`、計法 `unspecified_source_months`。居月餘下界一，原文未明寫數詞故 `source_number: null`；十餘月下界十、原數詞十。`lower_inclusive: false`，`upper` 及 `upper_inclusive` 均為 `null`。餘字與原引句必須保持，不能補精確月數、上限、出生年或公曆日數。此規則不把授任前的歲餘等待期當成持職任期。
+
+生卒段省略人物主語時，`evidence.context` 可記 `kind: prior_paragraph_subject`、近前同篇的 `paragraph_id`、相符人物 `person_mention_id`、實際原文 `quote` 及 `intervening_paragraph_ids`。只允許緊鄰段或中間一段，須逐項列中間段落、引句涵蓋錨點及當段原事件詞；不補正文名字。這是有來源的編輯主語判讀，距離驗證不表示自動語義辨認，仍須核讀中間敘事。
+
+明示兄弟承爵可在 `inheritance` 加 `predecessor_relation: brother`；省略時仍為 `father`。前任本人、前任及根爵名、同段相符 brother 陳述和原繼位詞都必須存在；不因同國繼位自動補兄弟，不推同父同母或長幼絕對排行。兄弟稱「弟」等原詞由親屬及承爵 source_term 保留，前任連結不等於父系家族 ID。

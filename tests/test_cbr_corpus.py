@@ -29,6 +29,24 @@ class CorpusTests(unittest.TestCase):
     def test_royal_inheritance_chain_rejects_missing_predecessor(self):
         self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-038')['inheritance'].update(predecessor_holding_id='th-shiji058-999'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_life_subject_context_rejects_wrong_person(self):
+        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-015').update(person_id='1c8_u63_bk4_C'))
+        self.assertIn('生卒主語承接須有近前同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_life_subject_context_requires_intervening_paragraph(self):
+        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-017')['evidence'][0]['context'].update(intervening_paragraph_ids=[]))
+        self.assertIn('生卒主語承接須有近前同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_life_subject_context_anchor_must_be_in_quote(self):
+        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-015')['evidence'][0]['context'].update(quote='好儒學'))
+        self.assertIn('生卒主語承接須有近前同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_life_subject_context_requires_event_term(self):
+        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-015').update(source_term='德自殺'))
+        self.assertIn('生卒主語承接須有近前同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_brother_inheritance_cannot_become_father(self):
+        self.change('corpus/shiji/059-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji059-065')['inheritance'].update(predecessor_relation='father'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_brother_inheritance_rejects_unattested_relationship(self):
+        self.change('corpus/shiji/059-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji059-065')['inheritance'].update(predecessor_relation='cousin'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))
