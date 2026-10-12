@@ -1257,6 +1257,7 @@
 | `xmm_nkr_qbg` | 奉陽君 | [《史記・張儀列傳》][52] | [JSON](xmm_nkr_qbg.json) |
 | `xn7_c7s_lzh` | 子產 | [《史記・太史公自序》][112] | [JSON](xn7_c7s_lzh.json) |
 | `xna_g4h_5iz` | 樂毅 | [《史記・趙世家》][25] | [JSON](xna_g4h_5iz.json) |
+| `xnc_psn_713` | 膠西王端愛幸而殺的郎 | [《史記・五宗世家》][41] | [JSON](xnc_psn_713.json) |
 | `xne_qdl_46g` | 賁 | [《史記・司馬相如列傳》][99] | [JSON](xne_qdl_46g.json) |
 | `xng_f7r_jcu` | 晉文公引文候選 | [《史記・扁鵲倉公列傳》][87] | [JSON](xng_f7r_jcu.json) |
 | `xnk_yt8_2uc` | 重耳 | [《史記・太史公自序》][112] | [JSON](xnk_yt8_2uc.json) |
