@@ -26,7 +26,7 @@
   },
   "text_sha256": "3d2c137f1d70ec9e8ace86114be243ced2a8fe001db95938d55a491c58a5011d",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "coverage": "全26段明示姓名、部分短稱與未名敘事人物首輪。",
@@ -35,6 +35,90 @@
       "說難引例人物保存敘事性，非字作否定者不標韓非；父母、闕代與使者不補姓名。",
       "莊周拒相不作已任，宮玄孫假不補直接父子，申子相韓十五年未補公曆起訖。",
       "人物身份、未定所指、版本、親屬與稱號時段仍待覆核。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji063-lao-dan",
+        "candidate_person_ids": [
+          "q4v_vmz_dvi",
+          "0hj_4kj_cen"
+        ],
+        "status": "unresolved",
+        "paragraph_ids": [
+          "c-shiji-063-laohan:p006"
+        ],
+        "note": "本篇「或曰儋即老子，或曰非也，世莫知其然否」明示同指與非同指歧說；候選各存，不採確定合併或確定不同，原歲數與孔子死後相對紀年不用于自動排除。"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji063-001",
+        "person_id": "q4v_vmz_dvi",
+        "value": null,
+        "bounds": {
+          "lower": 160,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "unit": "source_age_years",
+        "source_number": "百有六十",
+        "source_term": "百有六十餘歲",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "report_group_id": "age-reports-shiji063-lao",
+        "source_qualification": "蓋",
+        "reporting_status": "qualified_report",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-063-laohan",
+            "source_id": "s-shiji-063-laohan",
+            "paragraph_id": "c-shiji-063-laohan:p005",
+            "quote": "蓋老子百有六十餘歲，或言二百餘歲，以其修道而養壽也。",
+            "person_mention_id": "c-shiji-063-laohan:m005-0001"
+          }
+        ],
+        "interpretation_note": "來源帶蓋或或言的不同傳聞分存，僅下界已明示、上界未知，不當精確年齡或確定壽命，不推生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "qualified_source_term": "蓋老子百有六十餘歲"
+      },
+      {
+        "id": "age-shiji063-002",
+        "person_id": "q4v_vmz_dvi",
+        "value": null,
+        "bounds": {
+          "lower": 200,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "unit": "source_age_years",
+        "source_number": "二百",
+        "source_term": "二百餘歲",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "report_group_id": "age-reports-shiji063-lao",
+        "source_qualification": "或言",
+        "reporting_status": "alternative_report",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-063-laohan",
+            "source_id": "s-shiji-063-laohan",
+            "paragraph_id": "c-shiji-063-laohan:p005",
+            "quote": "蓋老子百有六十餘歲，或言二百餘歲，以其修道而養壽也。",
+            "person_mention_id": "c-shiji-063-laohan:m005-0001"
+          }
+        ],
+        "interpretation_note": "來源帶蓋或或言的不同傳聞分存，僅下界已明示、上界未知，不當精確年齡或確定壽命，不推生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "qualified_source_term": "或言二百餘歲"
+      }
     ]
   },
   "paragraphs": [

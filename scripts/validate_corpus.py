@@ -9,6 +9,18 @@ import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parents[1]
 
+def source_age_number(number):
+    digits = '一二三四五六七八九'
+    if not isinstance(number, str): return None
+    if number in digits and len(number) == 1: return digits.index(number) + 1
+    if re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
+        tens, ones = number.split('十')
+        return (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
+    match = re.fullmatch('([一二三四五六七八九]?)百(?:有?([一二三四五六七八九]?十[一二三四五六七八九]?))?', number)
+    if match:
+        return (digits.index(match[1]) + 1 if match[1] else 1) * 100 + (source_age_number(match[2]) if match[2] else 0)
+    return None
+
 def parallel_event_date(date):
     """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
     if not isinstance(date, dict):
@@ -735,34 +747,50 @@ def validate(root=ROOT):
                     check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
                           and a['subject_person_id'] in quoted_endpoints[1],
                           '人物陳述承接的前段客體及後段主體未見於引句')
-        age_ids = set()
+        age_ids = set(); age_report_groups = {}
         for chapter in chapters.values():
             for age in chapter['annotation'].get('age_assertions', []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
-                number = age.get('source_number'); parsed = None; digits = '一二三四五六七八九'
-                if isinstance(number, str):
-                    if number in digits and len(number) == 1: parsed = digits.index(number) + 1
-                    elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?', number):
-                        tens, ones = number.split('十')
-                        parsed = (digits.index(tens) + 1 if tens else 1) * 10 + (digits.index(ones) + 1 if ones else 0)
+                number = age.get('source_number'); parsed = source_age_number(number)
                 if 'bounds' in age:
                     bounds = age.get('bounds'); group = age.get('group_reference')
-                    check(age.get('value') is None and parsed is not None and isinstance(bounds, dict)
-                          and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
-                          and age.get('source_term') == '年皆' + str(number) + '有餘', '來源年齡界限與有餘原詞不符')
-                    check(isinstance(group, dict) and set(group) == {'source_term', 'naming_term', 'person_ids'}
-                          and group.get('source_term') == '四人從太子'
-                          and isinstance(group.get('person_ids'), list) and len(group['person_ids']) == 4
-                          and len(set(group['person_ids'])) == 4 and age['person_id'] in group['person_ids'],
-                          '群體報齡須有四人具名範圍與本人')
-                    for evidence in age.get('evidence', []):
-                        hit = paragraphs.get(evidence.get('paragraph_id'))
-                        if isinstance(group, dict) and hit:
-                            named = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'
-                                     and m['surface'] in group.get('naming_term', '')
-                                     and group.get('naming_term', '') in evidence.get('quote', '')}
-                            check(bool(group.get('naming_term')) and group.get('source_term', '') in evidence.get('quote', '')
-                                  and named == set(group.get('person_ids', [])), '群體報齡具名名單未見於引句')
+                    if group is not None:
+                        check(age.get('value') is None and parsed is not None and isinstance(bounds, dict)
+                              and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
+                              and age.get('source_term') == '年皆' + str(number) + '有餘', '來源年齡界限與有餘原詞不符')
+                        check(isinstance(group, dict) and set(group) == {'source_term', 'naming_term', 'person_ids'}
+                              and group.get('source_term') == '四人從太子'
+                              and isinstance(group.get('person_ids'), list) and len(group['person_ids']) == 4
+                              and len(set(group['person_ids'])) == 4 and age['person_id'] in group['person_ids'],
+                              '群體報齡須有四人具名範圍與本人')
+                        for evidence in age.get('evidence', []):
+                            hit = paragraphs.get(evidence.get('paragraph_id'))
+                            if isinstance(group, dict) and hit:
+                                named = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'
+                                         and m['surface'] in group.get('naming_term', '')
+                                         and group.get('naming_term', '') in evidence.get('quote', '')}
+                                check(bool(group.get('naming_term')) and group.get('source_term', '') in evidence.get('quote', '')
+                                      and named == set(group.get('person_ids', [])), '群體報齡具名名單未見於引句')
+                    else:
+                        check(age.get('value') is None and parsed is not None
+                              and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
+                              and age.get('source_term') == str(number) + '餘歲', '個人報齡餘歲界限與原詞不符')
+                        marker = age.get('source_qualification')
+                        report_id = age.get('report_group_id')
+                        if isinstance(report_id, str) and report_id:
+                            report_scope = (age.get('person_id'), chapter['id'],
+                                tuple(sorted((e.get('source_id', ''), e.get('paragraph_id', '')) for e in age.get('evidence', []))))
+                            existing = age_report_groups.setdefault(report_id, {'scope': report_scope, 'statuses': []})
+                            check(existing['scope'] == report_scope, '同組報齡須同人物及來源段落')
+                            existing['statuses'].append(age.get('reporting_status'))
+                        else:
+                            check(False, '個人報齡分組ID無效')
+                        check(bool(age.get('report_group_id')) and (marker, age.get('reporting_status')) in
+                              (('蓋', 'qualified_report'), ('或言', 'alternative_report'))
+                              and isinstance(age.get('qualified_source_term'), str)
+                              and age['qualified_source_term'].startswith(str(marker))
+                              and age['qualified_source_term'].endswith(str(age.get('source_term')))
+                              and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
                 else:
                     check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
                           and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳'), '來源年齡數值與原詞不符')
@@ -779,6 +807,8 @@ def validate(root=ROOT):
                 if 'normalized_date' in age:
                     errors.extend(normalized_date_errors(age['normalized_date']))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
+        for report in age_report_groups.values():
+            check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
         address_ids = set()
         for path in (root / 'corpus').glob('*/*-addresses.json'):
             record = json.loads(path.read_text(encoding='utf-8'))
