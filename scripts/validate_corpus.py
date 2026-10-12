@@ -491,13 +491,14 @@ def validate(root=ROOT):
                             elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?',number):
                                 tens,ones=number.split('十')
                                 parsed=(digits.index(tens)+1 if tens else 1)*10+(digits.index(ones)+1 if ones else 0)
-                        valid=(duration['unit'] in ('regnal_year', 'title_year') and duration['counting'] in ('inclusive_regnal_years','unspecified_source_years')
+                        valid=(duration['unit'] in ('regnal_year', 'title_year', 'title_month') and duration['counting'] in ('inclusive_regnal_years','unspecified_source_years','unspecified_source_months')
+                               and ((duration['unit'] == 'title_month') == (duration['counting'] == 'unspecified_source_months'))
                                and (duration['unit'] != 'title_year' or duration['counting'] == 'unspecified_source_years')
                                and duration['status']=='source_attested' and type(duration['value']) is int
                                and duration['value']==parsed and parsed is not None
                                and isinstance(duration['source_term'],str)
                                and re.search(r'(?<![零〇一二三四五六七八九十百千萬億廿卅卌兩])'
-                                             +re.escape(number)+r'(?:年|歲|歳)',duration['source_term']) is not None
+                                             +re.escape(number)+(r'月' if duration['unit']=='title_month' else r'(?:年|歲|歳)'),duration['source_term']) is not None
                                and isinstance(duration['evidence'],list) and bool(duration['evidence'])
                                and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
                                        and duration['source_term'] in e['quote'] for e in duration['evidence']))

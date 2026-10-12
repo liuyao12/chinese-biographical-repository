@@ -6,6 +6,9 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |
+| `qig_axh_3z6` | 尉佗 | [《史記・平津侯主父列傳》][94] | [JSON](qig_axh_3z6.json) |
+| `qii_pl5_1ei` | 太史公 | [《史記・李將軍列傳》][91] | [JSON](qii_pl5_1ei.json) |
 | `qiy_ole_lkx` | 張武（匈奴列傳第24段） | [《史記・孝文本紀》][10] | [JSON](qiy_ole_lkx.json) |
 | `qj2_k5a_sq4` | 齊襄公 | [《史記・齊太公世家》][14] | [JSON](qj2_k5a_sq4.json) |
 | `qj3_l69_xhu` | 周公黑肩 | [《史記・周本紀》][4] | [JSON](qj3_l69_xhu.json) |
@@ -1016,6 +1019,7 @@
 | `wbr_1v1_sld` | 魯哀公 | [《史記・孔子世家》][29] | [JSON](wbr_1v1_sld.json) |
 | `wbt_5vf_2pz` | 病疽卒母 | [《史記・孫子吳起列傳》][47] | [JSON](wbt_5vf_2pz.json) |
 | `wd1_1f4_qgv` | 李左車 | [《史記・淮陰侯列傳》][74] | [JSON](wd1_1f4_qgv.json) |
+| `wd6_5ia_qz6` | 狄令（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](wd6_5ia_qz6.json) |
 | `wdc_jgr_uiu` | 趙信 | [《史記・衛將軍驃騎列傳》][93] | [JSON](wdc_jgr_uiu.json) |
 | `wdg_4ld_nde` | 縣成 | [《史記・仲尼弟子列傳》][49] | [JSON](wdg_4ld_nde.json) |
 | `wdn_b4z_o7p` | 潘滿如 | [《史記・扁鵲倉公列傳》][87] | [JSON](wdn_b4z_o7p.json) |

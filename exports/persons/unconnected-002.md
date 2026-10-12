@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `dfq_kor_hpu` | 祁傒（薦人者） | [《史記・晉世家》][21] | [JSON](dfq_kor_hpu.json) |
+| `dfy_5r0_ek4` | 田文子 | [《史記・齊太公世家》][14] | [JSON](dfy_5r0_ek4.json) |
 | `dfy_jd8_999` | 張同 | [《史記・項羽本紀》][7] | [JSON](dfy_jd8_999.json) |
 | `dfz_u6h_g3y` | 衛使（齊頃宴使未名） | [《史記・晉世家》][21] | [JSON](dfz_u6h_g3y.json) |
 | `dg5_xe0_sdd` | 智伯 | [《史記・匈奴列傳》][92] | [JSON](dg5_xe0_sdd.json) |
@@ -2011,6 +2013,7 @@
 | `p1q_4ay_bht` | 隰朋 | [《史記・齊太公世家》][14] | [JSON](p1q_4ay_bht.json) |
 | `p27_7v5_rgy` | 衛平 | [《史記・龜策列傳》][110] | [JSON](p27_7v5_rgy.json) |
 | `p2x_50r_b94` | 蘧伯玉 | [《史記・孔子世家》][29] | [JSON](p2x_50r_b94.json) |
+| `p35_54b_l07` | 陳守丞（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](p35_54b_l07.json) |
 | `p35_n0a_mxs` | 呂尚引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](p35_n0a_mxs.json) |
 | `p3d_pr7_9z3` | 黑臀 | [《史記・趙世家》][25] | [JSON](p3d_pr7_9z3.json) |
 | `p3e_k23_i9f` | 周公 | [《史記・絳侯周勃世家》][39] | [JSON](p3e_k23_i9f.json) |
@@ -2233,9 +2236,6 @@
 | `qgn_r2c_qtv` | 簡狄 | [《史記・殷本紀》][3] | [JSON](qgn_r2c_qtv.json) |
 | `qgr_fuw_u34` | 鞅（趙世家提要） | [《史記・太史公自序》][112] | [JSON](qgr_fuw_u34.json) |
 | `qha_l8o_wxa` | 叔仲會 | [《史記・仲尼弟子列傳》][49] | [JSON](qha_l8o_wxa.json) |
-| `qi8_m09_rfs` | 項羽 | [《史記・絳侯周勃世家》][39] | [JSON](qi8_m09_rfs.json) |
-| `qig_axh_3z6` | 尉佗 | [《史記・平津侯主父列傳》][94] | [JSON](qig_axh_3z6.json) |
-| `qii_pl5_1ei` | 太史公 | [《史記・李將軍列傳》][91] | [JSON](qii_pl5_1ei.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
