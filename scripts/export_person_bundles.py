@@ -143,3 +143,8 @@ def export(root=ROOT):
 
 if __name__ == '__main__':
     export()
+    try:
+        from .reading_catalog import run as export_reading_catalog
+    except ImportError:
+        from reading_catalog import run as export_reading_catalog
+    export_reading_catalog()

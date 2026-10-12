@@ -1,0 +1,95 @@
+import {escapeHTML as h} from './core.js';
+import {t, ui} from './i18n.js';
+import {chapterURL, chapterParagraph, filteredChapters} from './corpus-reader.js';
+import {safeSourceURL} from './historical-tables.js';
+const $ = id => document.getElementById(id);
+let index, people, selected, category = 'all', ticket = 0;
+const cache = new Map();
+const labels = {marked_text: 'Annotated text', table: 'Continuous table', pending: 'Not yet imported'};
+const ext = (url, label) => safeSourceURL(url) ? `<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>` : '';
+function list() {
+  const entries = filteredChapters(index, category, $('chapter-search').value);
+  $('shiji-categories').innerHTML = [{id: 'all', label: t('All chapters')}, ...index.categories].map(c => `<a href="#category=${c.id}" aria-current="${category === c.id}">${h(c.label)}</a>`).join('');
+  $('chapter-count').textContent = t('{count} chapters', {count: entries.length});
+  $('chapter-list').innerHTML = index.categories.map(c => {
+    const group = entries.filter(e => e.category === c.id);
+    return group.length ? `<section class="chapter-group"><h2>${h(c.label)} <small>${group.length}</small></h2>${group.map(e => `<a class="chapter-entry" href="${h(chapterURL(e.number, category))}" aria-current="${selected?.number === e.number ? 'page' : 'false'}"><span class="chapter-number">${String(e.number).padStart(3, '0')}</span><span>${h(e.title)}</span><small>${h(t(labels[e.available]))}</small></a>`).join('')}</section>` : '';
+  }).join('') || `<p>${ui('No matching chapters.')}</p>`;
+}
+function personHTML(person, id) {
+  return `<h3>${h(person?.label || id)}</h3><p data-source-text>${h((person?.aliases || []).join(' · '))}</p><p><code>${h(id)}</code></p>${person?.identity_note ? `<p data-original>${h(person.identity_note)}</p>` : ''}<p class="corpus-note">${ui('Source-linked provisional identity; click to inspect context and JSON.')}</p>`;
+}
+function preview(node) {
+  const pane = $('person-preview'), id = node.dataset.personId;
+  pane.innerHTML = personHTML(people?.[id], id);
+  pane.hidden = false;
+  const box = node.getBoundingClientRect();
+  pane.style.left = Math.max(8, Math.min(box.left, window.innerWidth - 320)) + 'px';
+  pane.style.top = Math.max(8, Math.min(box.bottom + 8, window.innerHeight - pane.offsetHeight - 8)) + 'px';
+}
+function showPerson(node) {
+  $('person-preview').hidden = true;
+  const id = node.dataset.personId, paragraph = node.closest('p');
+  const p = selected.chapter.paragraphs.find(p => p.id === paragraph.id);
+  const json = 'https://raw.githubusercontent.com/liuyao12/chinese-biographical-repository/main/exports/persons/' + encodeURIComponent(id) + '.json';
+  const browse = 'https://github.com/liuyao12/chinese-biographical-repository/blob/main/exports/persons/' + encodeURIComponent(id) + '.json';
+  $('corpus-person-details').innerHTML = personHTML(people[id], id) + `<p>${ext(json, 'Full person JSON') } · ${ext(browse, 'View on GitHub')}</p><p><a href="${h(chapterURL(selected.number, category, p.id))}">${ui('Share this source paragraph')}</a></p><blockquote data-source-text>${h(p.text)}</blockquote><p><code>${h(node.id)}</code></p><p>${ext(selected.chapter.source.permalink, 'Fixed source version')}</p>`;
+  $('corpus-person-dialog').showModal();
+}
+function navigation(entry) {
+  const prev = index.chapters.find(c => c.number === entry.number - 1), next = index.chapters.find(c => c.number === entry.number + 1);
+  return `<nav class="chapter-pagination"><a href="shiji.html#category=${entry.category}">${ui('Back to category')}</a>${prev ? `<a href="${h(chapterURL(prev.number, category))}">← ${h(prev.title)}</a>` : ''}${next ? `<a href="${h(chapterURL(next.number, category))}">${h(next.title)} →</a>` : ''}</nav>`;
+}
+async function render() {
+  const current = ++ticket, params = new URLSearchParams(location.hash.slice(1));
+  category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
+  const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
+  selected = entry;
+  list();
+  $('person-preview').hidden = true;
+  if (!entry) {
+    document.title = '史記 · 人文';
+    $('corpus-content').innerHTML = `<div class="chapter-intro"><p class="eyebrow">史記 · 130 篇</p><h1>${h(category === 'all' ? t('Choose a chapter') : index.categories.find(c => c.id === category).label)}</h1><p>${ui('Choose a chapter from the categorized contents to read the received text and its linked people.')}</p><p>${ui('Imported texts remain under annotation review. Missing chapters are listed without invented text.')}</p><p><a href="${chapterURL(6, 'benji')}">${ui('Read the Qin Shihuang chapter')} →</a></p><p><a href="tables.html">${ui('Continuous historical tables')} →</a></p><p>${ext(index.contents_source.revision_url, 'Contents source')}</p></div>`;
+    return;
+  }
+  document.title = entry.title + ' · 人文';
+  const heading = navigation(entry) + `<p class="eyebrow">史記 · ${h(entry.category_label)} · ${entry.number}</p><h1>${h(entry.title)}</h1>`;
+  if (entry.available !== 'marked_text') {
+    $('corpus-content').innerHTML = heading + (entry.available === 'table' ? `<p><a class="table-entry-link" href="tables.html#table=${entry.table_id}&axis=vertical">${ui('Open the continuous table')} →</a></p>` : `<p>${ui('This chapter has not been imported. The source text is available externally.')}</p><p>${ext('https://zh.wikisource.org/wiki/史記/卷' + String(entry.number).padStart(3, '0'), 'Read source text')}</p>`);
+    return;
+  }
+  $('corpus-content').innerHTML = heading + `<p role="status">${ui('Loading sources…')}</p>`;
+  if (!cache.has(number)) {
+    const response = await fetch(entry.path);
+    if (!response.ok) throw new Error(t('Source text could not be loaded.'));
+    cache.set(number, await response.json());
+  }
+  if (!people) {
+    const response = await fetch('data/corpus/persons.json');
+    if (!response.ok) throw new Error(t('Person index could not be loaded.'));
+    people = await response.json();
+  }
+  if (current !== ticket) return;
+  const chapter = cache.get(number); selected = {...entry, chapter};
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover or focus for identity; click for the source context and person JSON.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people)).join('')}</article>${navigation(entry)}`;
+  const passage = params.get('passage');
+  if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
+  else window.scrollTo(0, 0);
+}
+function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(error.message)}</p>`; }
+(async () => {
+  try {
+    const response = await fetch('data/corpus/index.json');
+    if (!response.ok) throw new Error(t('Source text could not be loaded.'));
+    index = await response.json();
+    $('chapter-search').oninput = list;
+    window.addEventListener('hashchange', () => render().catch(fail));
+    window.addEventListener('renwen:languagechange', () => render().catch(fail));
+    $('corpus-content').addEventListener('pointerover', e => { const node = e.target.closest('.cbr-person-link'); if (node) preview(node); });
+    $('corpus-content').addEventListener('pointerout', e => { if (e.target.closest('.cbr-person-link')) $('person-preview').hidden = true; });
+    $('corpus-content').addEventListener('focusin', e => { const node = e.target.closest('.cbr-person-link'); if (node) preview(node); });
+    $('corpus-content').addEventListener('focusout', () => { $('person-preview').hidden = true; });
+    $('corpus-content').addEventListener('click', e => { const node = e.target.closest('.cbr-person-link'); if (node && !e.metaKey && !e.ctrlKey) { e.preventDefault(); showPerson(node); } });
+    await render();
+  } catch (error) { fail(error); }
+})();
