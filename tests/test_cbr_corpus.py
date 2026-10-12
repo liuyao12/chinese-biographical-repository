@@ -15,6 +15,43 @@ class CorpusTests(unittest.TestCase):
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
+    def test_title_excess_months_cannot_be_exact(self):
+        self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_excess_month_lower_is_exclusive(self):
+        self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-044')['reported_duration']['bounds'].update(lower_inclusive=True))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_excess_months_cannot_invent_upper(self):
+        self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration']['bounds'].update(upper=20))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_excess_months_require_literal_yu(self):
+        self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(source_term='十月'))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_address_subject_cannot_skip_paragraph(self):
+        def change(d):
+            e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
+            e['context']['paragraph_id']='c-shiji-057-zhou:p002'
+            e['context']['person_mention_id']='c-shiji-057-zhou:m002-0009'
+        self.change('corpus/shiji/057-addresses.json', change)
+        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+    def test_address_subject_requires_same_person(self):
+        def change(d):
+            e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
+            e['context']['person_mention_id']='c-shiji-057-zhou:m004-0008'
+        self.change('corpus/shiji/057-addresses.json', change)
+        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+    def test_address_subject_anchor_must_be_in_quote(self):
+        def change(d):
+            e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
+            e['context']['quote']='以將軍從高帝'
+        self.change('corpus/shiji/057-addresses.json', change)
+        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+    def test_address_subject_cannot_be_implicit(self):
+        def change(d):
+            e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
+            del e['context']
+        self.change('corpus/shiji/057-addresses.json', change)
+        self.assertIn('地址人物未見於證據段', v.validate(self.root))
     def test_posthumous_naming_preserves_wei_variant(self):
         data=json.loads((self.root/'corpus/shiji/056-titles.json').read_text())
         h=next(h for h in data['holdings'] if h['id']=='th-shiji056-051')

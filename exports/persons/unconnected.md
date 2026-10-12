@@ -1410,6 +1410,7 @@
 | `8a9_tj8_6i7` | 箕子 | [《史記・宋微子世家》][20] | [JSON](8a9_tj8_6i7.json) |
 | `8ai_yuw_oyp` | 魏文侯 | [《史記・樂毅列傳》][62] | [JSON](8ai_yuw_oyp.json) |
 | `8an_gej_gnk` | 高昭子 | [《史記・齊太公世家》][14] | [JSON](8an_gej_gnk.json) |
+| `8ao_2is_pmk` | 單父令 | [《史記・絳侯周勃世家》][39] | [JSON](8ao_2is_pmk.json) |
 | `8b2_83x_21q` | 鍼季 | [《史記・魯周公世家》][15] | [JSON](8b2_83x_21q.json) |
 | `8bm_lxy_7br` | 子張 | [《史記・儒林列傳》][103] | [JSON](8bm_lxy_7br.json) |
 | `8bo_1e6_bs3` | 呂臺 | [《史記・齊悼惠王世家》][34] | [JSON](8bo_1e6_bs3.json) |
@@ -2231,7 +2232,6 @@
 | `dbu_31o_zf6` | 秦太后（魏世家无忌議論未名者） | [《史記・魏世家》][26] | [JSON](dbu_31o_zf6.json) |
 | `dc4_qnx_hp2` | 晉鄙 | [《史記・魏公子列傳》][59] | [JSON](dc4_qnx_hp2.json) |
 | `dco_hwr_j82` | 昌文君 | [《史記・秦始皇本紀》][6] | [JSON](dco_hwr_j82.json) |
-| `dcp_1gr_65s` | 羲仲 | [《史記・五帝本紀》][1] | [JSON](dcp_1gr_65s.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

@@ -526,27 +526,39 @@ def validate(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if 'reported_duration' in h:
                     duration=h['reported_duration']
-                    valid=isinstance(duration,dict) and set(duration)=={'value','unit','source_term','source_number','counting','status','evidence'}
+                    required={'value','unit','source_term','source_number','counting','status','evidence'}
+                    bounded=isinstance(duration,dict) and 'bounds' in duration
+                    valid=isinstance(duration,dict) and set(duration)==required | ({'bounds'} if bounded else set())
                     if valid:
-                        number=duration['source_number']
-                        digits='一二三四五六七八九'
-                        parsed=None
+                        number=duration['source_number']; digits='一二三四五六七八九'; parsed=None
                         if isinstance(number,str):
                             if number in digits and len(number)==1:parsed=digits.index(number)+1
                             elif re.fullmatch('[一二三四五六七八九]?十[一二三四五六七八九]?',number):
                                 tens,ones=number.split('十')
                                 parsed=(digits.index(tens)+1 if tens else 1)*10+(digits.index(ones)+1 if ones else 0)
-                        valid=(duration['unit'] in ('regnal_year', 'title_year', 'title_month') and duration['counting'] in ('inclusive_regnal_years','unspecified_source_years','unspecified_source_months')
-                               and ((duration['unit'] == 'title_month') == (duration['counting'] == 'unspecified_source_months'))
-                               and (duration['unit'] != 'title_year' or duration['counting'] == 'unspecified_source_years')
-                               and duration['status']=='source_attested' and type(duration['value']) is int
-                               and duration['value']==parsed and parsed is not None
-                               and isinstance(duration['source_term'],str)
-                               and re.search(r'(?<![零〇一二三四五六七八九十百千萬億廿卅卌兩])'
-                                             +re.escape(number)+(r'月' if duration['unit']=='title_month' else r'(?:年|歲|歳)'),duration['source_term']) is not None
-                               and isinstance(duration['evidence'],list) and bool(duration['evidence'])
-                               and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
-                                       and duration['source_term'] in e['quote'] for e in duration['evidence']))
+                        common=(duration['unit'] in ('regnal_year','title_year','title_month')
+                            and duration['counting'] in ('inclusive_regnal_years','unspecified_source_years','unspecified_source_months')
+                            and ((duration['unit']=='title_month')==(duration['counting']=='unspecified_source_months'))
+                            and (duration['unit']!='title_year' or duration['counting']=='unspecified_source_years')
+                            and duration['status']=='source_attested' and isinstance(duration['source_term'],str)
+                            and isinstance(duration['evidence'],list) and bool(duration['evidence'])
+                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
+                                    and duration['source_term'] in e['quote'] for e in duration['evidence']))
+                        if bounded:
+                            if number is None and duration['source_term']=='居月餘':parsed=1
+                            bounds=duration['bounds']
+                            valid=(common and duration['unit']=='title_month' and duration['value'] is None
+                                and parsed is not None and isinstance(bounds,dict) and type(bounds.get('lower')) is int
+                                and bounds.get('lower_inclusive') is False
+                                and bounds=={'lower':parsed,'lower_inclusive':False,'upper':None,'upper_inclusive':None}
+                                and (number is None and duration['source_term']=='居月餘'
+                                     or isinstance(number,str) and duration['source_term']==number+'餘月'))
+                            check(valid,'稱號時長界限須保留餘字、未知精確值及排他下界')
+                        else:
+                            valid=(common and type(duration['value']) is int and parsed is not None
+                                and duration['value']==parsed
+                                and re.search(r'(?<![零〇一二三四五六七八九十百千萬億廿卅卌兩])'
+                                    +re.escape(number)+(r'月' if duration['unit']=='title_month' else r'(?:年|歲|歳)'),duration['source_term']) is not None)
                     check(valid,'稱號來源在位年數或原詞證據無效')
                     if valid:
                         for e in duration['evidence']:title_evidence(e)
@@ -788,7 +800,23 @@ def validate(root=ROOT):
                     if valid:
                         check(address['place']['source_name'] in evidence['quote'] and address['source_term'] in evidence['quote'], '地址原詞不在證據')
                         check(address['date_expression'] is None or address['date_expression'] in evidence['quote'], '地址日期不在證據')
-                        check(any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
+                        context = evidence.get('context'); carried = False
+                        if context is not None:
+                            previous = paragraphs.get(context.get('paragraph_id')) if isinstance(context, dict) else None
+                            anchor = mentions.get(context.get('person_mention_id')) if isinstance(context, dict) else None
+                            order = [p['id'] for p in chapters[record['chapter_id']]['paragraphs']]
+                            quote = context.get('quote') if isinstance(context, dict) else None
+                            carried = (isinstance(context, dict) and set(context) == {'kind', 'paragraph_id', 'person_mention_id', 'quote'}
+                                and context.get('kind') == 'previous_paragraph_subject' and bool(previous) and bool(anchor)
+                                and previous[0] == record['chapter_id'] and context['paragraph_id'] in order
+                                and order.index(evidence['paragraph_id']) == order.index(context['paragraph_id']) + 1
+                                and anchor[1] == context['paragraph_id'] and anchor[2]['person_id'] == address['person_id']
+                                and isinstance(quote, str) and bool(quote) and quote in previous[1]['text']
+                                and any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
+                                        for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
+                                and bool(address.get('interpretation_note')))
+                            check(carried, '地址主語承接須有前一同篇段落及相符人物引句')
+                        check(carried or any(m.get('person_id') == address['person_id'] for m in hit[1]['mentions']), '地址人物未見於證據段')
                         check(chapters[hit[0]]['source_id'] == evidence['source_id'], '地址來源 ID 不符')
         life_event_ids = set()
         for path in list((root / 'corpus').glob('*/*-life-events.json')) + list((root / 'corpus').glob('*/*-person-events.json')):
