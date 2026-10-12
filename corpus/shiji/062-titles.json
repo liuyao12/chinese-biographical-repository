@@ -49,7 +49,7 @@
       "person_id": "fip_5au_13p",
       "title": "桓公",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -72,9 +72,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-062-guanyan",
+              "source_id": "s-shiji-062-guanyan",
+              "paragraph_id": "c-shiji-062-guanyan:p001",
+              "quote": "管仲夷吾者，潁上人也。少時常與鮑叔牙游，鮑叔知其賢。管仲貧困，常欺鮑叔，鮑叔終善遇之，不以為言。已而鮑叔事齊公子小白，管仲事公子糾。及小白立為桓公，公子糾死，管仲囚焉。鮑叔遂進管仲。管仲既用，任政於齊，齊桓公以霸，九合諸侯，一匡天下，管仲之謀也。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -82,7 +90,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "小白立為桓公保存即位敘述與來源公號；未核實即位時的稱號形式、日期及制度，先作敘事用稱，不把桓公諡稱當生前已授同字爵號。",
+      "interpretation_note": "小白立為桓公保存即位敘述與來源公號；未核實即位時的稱號形式、日期及制度，先作敘事用稱，不把桓公諡稱當生前已授同字爵號。 立為桓公保存即位敘事起點，桓公為來源回顧用號，不表示當時已授諡或有確定即位年，不由此補前任父子承襲。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -336,7 +344,7 @@
       "person_id": "mc2_05b_5i5",
       "title": "大夫",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -359,9 +367,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-062-guanyan",
+              "source_id": "s-shiji-062-guanyan",
+              "paragraph_id": "c-shiji-062-guanyan:p009",
+              "quote": "晏子為齊相，出，其御之妻從門閒而闚其夫。其夫為相御，擁大蓋，策駟馬，意氣揚揚甚自得也。既而歸，其妻請去。夫問其故。妻曰：「晏子長不滿六尺，身相齊國，名顯諸侯。今者妾觀其出，志念深矣，常有以自下者。今子長八尺，乃為人仆御，然子之意自以為足，妾是以求去也。」其後夫自抑損。晏子怪而問之，御以實對。晏子薦以為大夫。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -369,7 +385,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "原文晏子薦以為大夫保存薦任用稱；未有另讀的實授或任事證據，不先設授予起點與確定任期。",
+      "interpretation_note": "原文晏子薦以為大夫保存薦任用稱；未有另讀的實授或任事證據，不先設授予起點與確定任期。 來源薦以為大夫保存任用敘事起點與原句，未補國君核准、正式授職日或此前御職終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -377,7 +393,7 @@
       "person_id": "ild_qbl_r1q",
       "title": "上客",
       "kind": "unclassified",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -400,9 +416,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-062-guanyan",
+              "source_id": "s-shiji-062-guanyan",
+              "paragraph_id": "c-shiji-062-guanyan:p008",
+              "quote": "越石父賢，在縲紲中。晏子出，遭之涂，解左驂贖之，載歸。弗謝，入閨。久之，越石父請絕。晏子懼然，攝衣冠謝曰：「嬰雖不仁，免子於緦何子求絕之速也？」石父曰：「不然。吾聞君子詘於不知己而信於知己者。方吾在縲紲中，彼不知我也。夫子既已感寤而贖我，是知己；知己而無禮，固不如在縲紲之中。」晏子於是延入為上客。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -410,7 +434,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "延入為上客保存禮遇身份用稱，未分類；不視為國家官爵，不補有效時段。",
+      "interpretation_note": "延入為上客保存禮遇身份用稱，未分類；不視為國家官爵，不補有效時段。 延入為上客保存來源接待身分起點，上客維持unclassified，不改作正式官爵或補日期。",
       "reviewer": "Codex（AI 代理）"
     },
     {
