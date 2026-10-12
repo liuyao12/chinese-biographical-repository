@@ -26,7 +26,7 @@
   },
   "text_sha256": "a7a34bab7f77b61a72915b958dc84602618513a873ea9f93b846c74a802c07a5",
   "annotation": {
-    "status": "named_mentions_first_pass",
+    "status": "annotation_in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "coverage": "全24段正文已保存並完成明示人名首輪標註；匿名者、代詞、身份疑點、親屬、稱號與版本仍待覆核。",
@@ -35,6 +35,24 @@
       "王子綦與司馬子綦不按同字自動合併，齊悼公陽生繼立敘述保留來源歧異。",
       "世系闕代、未名家屬、族群及引古人物不補姓名或直接父子。",
       "人物、來源關係、稱號時段、版本與現代研究尚待覆核。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji066-dao-yang",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "9uw_tzo_yj8",
+          "vle_lyb_962",
+          "wuz_yxe_b9k_A",
+          "yht_8tu_hv4_B"
+        ],
+        "paragraph_ids": [
+          "c-shiji-066-wu:p020",
+          "c-shiji-032-qi:p074",
+          "c-shiji-046-tian:p010"
+        ],
+        "note": "本篇記齊鮑氏殺其君悼公而立陽生，將悼公與陽生作先後二人；齊太公世家記立陽生是為悼公，田敬仲完世家同記陽生是為悼公。此為來源用號及事件先後衝突，不能由同名或用號直接合本篇二人；保留各篇人物ID與原文，待底本校勘或具體研究參考。"
+      }
     ]
   },
   "paragraphs": [
