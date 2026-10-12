@@ -756,12 +756,21 @@
           ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p006",
+              "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+              "person_mention_id": "c-shiji-054-cao:m006-0009"
+            }
+          ]
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -805,12 +814,51 @@
           ]
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "高祖六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p006",
+              "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+              "person_mention_id": "c-shiji-054-cao:m006-0026"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p006",
+                "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+                "person_mention_id": "c-shiji-054-cao:m006-0026"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -859,8 +907,34 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 2,
+        "unit": "title_year",
+        "source_number": "二",
+        "source_term": "凡二歲",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p004",
+            "quote": "項羽至，以沛公為漢王。漢王封參為建成侯。從至漢中，遷為將軍。從還定三秦，初攻下辯、故道、雍、斄。擊章平軍於好畤南，破之，圍好畤，取壤鄉。擊三秦軍壤東及高櫟，破之。復圍章平，章平出好畤走。因擊趙賁、內史保軍，破之。東取咸陽，更名曰新城。參將兵守景陵二十日，三秦使章平等攻參，參出擊，大破之。賜食邑於寧秦。參以將軍引兵圍章邯於廢丘。以中尉從漢王出臨晉關。至河內，下修武，渡圍津，東擊龍且、項他定陶，破之。東取碭、蕭、彭城。擊項籍軍，漢軍大敗走。參以中尉圍取雍丘。王武反於外黃，程處反於燕，往擊，盡破之。柱天侯反於衍氏，又進破取衍氏。擊羽嬰於昆陽，追至葉。還攻武彊，因至滎陽。參自漢中為將軍中尉，從擊諸侯，及項羽敗，還至滎陽，凡二歲。",
+            "person_mention_id": "c-shiji-054-cao:m004-0014"
+          }
+        ]
+      },
+      "duration_scope": {
+        "kind": "multiple_holdings",
+        "holding_ids": [
+          "th-shiji054-019",
+          "th-shiji054-020"
+        ],
+        "relation": "unspecified",
+        "rationale": "原句參自漢中為將軍中尉及還滎陽凡二歲涵蓋兩稱任事，未明兩官先後或兼任；不是將軍單獨兩年。"
+      }
     },
     {
       "id": "th-shiji054-020",
@@ -1031,8 +1105,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 假左丞相明示代理職務，原高祖（三）［二］年校勘不改，未選數字年。",
+      "reviewer": "Codex（AI 代理）",
+      "appointment_role": "acting"
     },
     {
       "id": "th-shiji054-024",
@@ -1641,12 +1716,21 @@
           "evidence": []
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "explicit_end",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p006",
+              "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+              "person_mention_id": "c-shiji-054-cao:m006-0015"
+            }
+          ]
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1654,7 +1738,7 @@
       "person_id": "1ch_lpz_g4b",
       "title": "皇帝",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -1677,9 +1761,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "accession",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p006",
+              "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+              "person_mention_id": "c-shiji-054-cao:m006-0009"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1687,7 +1780,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 漢王為皇帝明示登極，原段未明紀年。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1843,13 +1936,70 @@
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p009",
-              "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。"
+              "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
+              "person_mention_id": "c-shiji-054-cao:m009-0015"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 194,
+            "year": -193,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p009",
+                "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
+                "person_mention_id": "c-shiji-054-cao:m009-0015"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/zh-hant/Category:前194年_(提及)",
+                "quote": "西漢漢惠帝元年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「相齊九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「相齊九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 9,
+        "unit": "title_year",
+        "source_number": "九",
+        "source_term": "相齊九年",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p009",
+            "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
+            "person_mention_id": "c-shiji-054-cao:m009-0015"
+          }
+        ]
+      },
+      "duration_scope": {
+        "kind": "multiple_holdings",
+        "holding_ids": [
+          "th-shiji054-042",
+          "th-shiji054-047"
+        ],
+        "relation": "successive",
+        "rationale": "相齊九年為齊相國後改齊丞相的整段任事，非齊相國或齊丞相單獨九年。"
+      }
     },
     {
       "id": "th-shiji054-043",
@@ -1889,7 +2039,36 @@
               "paragraph_id": "c-shiji-054-cao:p006",
               "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p006",
+                "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -1938,7 +2117,36 @@
               "paragraph_id": "c-shiji-054-cao:p006",
               "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 201,
+            "year": -200,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p006",
+                "quote": "項籍已死，天下定，漢王為皇帝，韓信徙為楚王，齊為郡。參歸漢相印。高帝以長子肥為齊王，而以參為齊相國。以高祖六年賜爵列侯，與諸侯剖符，世世勿絕。食邑平陽萬六百三十戶，號曰平陽侯，除前所食邑。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+                "quote": "['漢高帝六年']=\"前201年\"",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -2069,15 +2277,83 @@
               "paragraph_id": "c-shiji-054-cao:p009",
               "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 194,
+            "year": -193,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p009",
+                "quote": "孝惠帝元年，除諸侯相國法，更以參為齊丞相。參之相齊，齊七十城。天下初定，悼惠王富於春秋，參盡召長老諸生，問所以安集百姓，如齊故［俗］諸儒以百數，言人人殊，參未知所定。聞膠西有蓋公，善治黃老言，使人厚幣請之。既見蓋公，蓋公為言治道貴清靜而民自定，推此類具言之。參於是避正堂，舍蓋公焉。其治要用黃老術，故相齊九年，齊國安集，大稱賢相。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/zh-hant/Category:前194年_(提及)",
+                "quote": "西漢漢惠帝元年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "惠帝二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p010",
+              "quote": "惠帝二年，蕭何卒。參聞之，告舍人趣治行，「吾將入相」。居無何，使者果召參。參去，屬其後相曰：「以齊獄市為寄，慎勿擾也。」後相曰：「治無大於此者乎？」參曰：「不然。夫獄市者，所以并容也，今君擾之，姦人安所容也？吾是以先之。」",
+              "person_mention_id": "c-shiji-054-cao:m010-0009"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 193,
+            "year": -192,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "惠帝二年，蕭何卒。參聞之，告舍人趣治行，「吾將入相」。居無何，使者果召參。參去，屬其後相曰：「以齊獄市為寄，慎勿擾也。」後相曰：「治無大於此者乎？」參曰：「不然。夫獄市者，所以并容也，今君擾之，姦人安所容也？吾是以先之。」",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-054-cao",
+                "source_id": "s-shiji-054-cao",
+                "paragraph_id": "c-shiji-054-cao:p010",
+                "quote": "惠帝二年，蕭何卒。參聞之，告舍人趣治行，「吾將入相」。居無何，使者果召參。參去，屬其後相曰：「以齊獄市為寄，慎勿擾也。」後相曰：「治無大於此者乎？」參曰：「不然。夫獄市者，所以并容也，今君擾之，姦人安所容也？吾是以先之。」",
+                "person_mention_id": "c-shiji-054-cao:m010-0009"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/zh-hant/Category:前193年_(提及)",
+                "quote": "西漢漢惠帝二年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示高祖六年、惠帝元年／二年或征和二年事件，數位紀年對應僅作換年參考，與事件來源分開。原句、原日期及數字年均保存，影像與曆表未核，未把年中換成某曆月日；年齡及持爵年數不倒推生年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「相齊九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「相齊九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2132,8 +2408,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「出入三年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「出入三年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 3,
+        "unit": "title_year",
+        "source_number": "三",
+        "source_term": "出入三年",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p016",
+            "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」",
+            "person_mention_id": "c-shiji-054-cao:m016-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-049",
@@ -2180,8 +2473,8 @@
       "id": "th-shiji054-050",
       "person_id": "913_1wz_ofu",
       "title": "懿侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2204,9 +2497,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p016",
+              "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」",
+              "person_mention_id": "c-shiji-054-cao:m016-0000"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2214,15 +2516,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 明示死亡後諡名與生前侯爵分開，原省略為字保持；候選待擴充驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚懿侯",
+        "death_term": "參為漢相國，出入三年。卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p016",
+            "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」",
+            "person_mention_id": "c-shiji-054-cao:m016-0000"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-051",
       "person_id": "913_1wz_ofu_A",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2252,14 +2567,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p016",
-              "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」"
+              "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」",
+              "person_mention_id": "c-shiji-054-cao:m016-0018"
             }
           ]
         },
@@ -2269,8 +2585,43 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立二十九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立二十九年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 29,
+        "unit": "title_year",
+        "source_number": "二十九",
+        "source_term": "立二十九年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0003"
+          }
+        ]
+      },
+      "inheritance": {
+        "predecessor_person_id": "913_1wz_ofu",
+        "predecessor_holding_id": "th-shiji054-044",
+        "resolved_title": "平陽侯",
+        "source_term": "子窋代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p016",
+            "quote": "參為漢相國，出入三年。卒，謚懿侯。子窋代侯。百姓歌之曰：「蕭何為法，顜若畫一；曹參代之，守而勿失。載其清凈，民以寧一。」",
+            "person_mention_id": "c-shiji-054-cao:m016-0018"
+          }
+        ],
+        "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji054-052",
@@ -2347,19 +2698,20 @@
         },
         "end": {
           "status": "source_event",
-          "event_type": "explicit_end",
+          "event_type": "deposition",
           "date_expression": "孝文帝立",
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0003"
             }
           ]
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 高后時是用稱的時間敘述，不冒稱授官日；孝文帝立免為侯記免官而存爵。",
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 高后時是用稱的時間敘述，不冒稱授官日；孝文帝立免為侯記免官而存爵。 本段明示徙封、改號、代任或免官作相應舊號終點；建成侯轉平陽侯依新爵原稱判讀，不由除食邑推其他官職全廢。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -2407,8 +2759,8 @@
       "id": "th-shiji054-055",
       "person_id": "913_1wz_ofu_A",
       "title": "靜侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2431,9 +2783,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p017",
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0003"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2441,15 +2802,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 明示死亡後諡名與生前侯爵分開，原省略為字保持；候選待擴充驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚為靜侯",
+        "death_term": "立二十九年卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0003"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-056",
       "person_id": "913_1wz_ofu_AA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2473,14 +2847,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0036"
             }
           ]
         },
@@ -2490,15 +2865,50 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立七年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立七年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 7,
+        "unit": "title_year",
+        "source_number": "七",
+        "source_term": "立七年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0036"
+          }
+        ]
+      },
+      "inheritance": {
+        "predecessor_person_id": "913_1wz_ofu_A",
+        "predecessor_holding_id": "th-shiji054-052",
+        "resolved_title": "平陽侯",
+        "source_term": "子奇代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0036"
+          }
+        ],
+        "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji054-057",
       "person_id": "913_1wz_ofu_AA",
       "title": "簡侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2521,9 +2931,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p017",
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0036"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2531,15 +2950,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 明示死亡後諡名與生前侯爵分開，原省略為字保持；候選待擴充驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚為簡侯",
+        "death_term": "立七年卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0036"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-058",
       "person_id": "913_1wz_ofu_AAA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2563,14 +2995,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0051"
             }
           ]
         },
@@ -2580,15 +3013,50 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立二十三年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立二十三年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 23,
+        "unit": "title_year",
+        "source_number": "二十三",
+        "source_term": "立二十三年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0051"
+          }
+        ]
+      },
+      "inheritance": {
+        "predecessor_person_id": "913_1wz_ofu_AA",
+        "predecessor_holding_id": "th-shiji054-056",
+        "resolved_title": "平陽侯",
+        "source_term": "子時代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0051"
+          }
+        ],
+        "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji054-059",
       "person_id": "913_1wz_ofu_AAA",
       "title": "夷侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2611,9 +3079,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p017",
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0051"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2621,15 +3098,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 明示死亡後諡名與生前侯爵分開，原省略為字保持；候選待擴充驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚夷侯",
+        "death_term": "立二十三年卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0051"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-060",
       "person_id": "913_1wz_ofu_AAAA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2653,14 +3143,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0064"
             }
           ]
         },
@@ -2670,15 +3161,50 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立十六年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 原語「立十六年」附原段，不換算日期或作精確實任總長；相齊九年涵蓋法改前後，不視為兩項各九年，中尉段凡二歲涵蓋將軍中尉敘事。 來源年數不作完整公曆年長度，不倒推精確起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 16,
+        "unit": "title_year",
+        "source_number": "十六",
+        "source_term": "立十六年卒",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0064"
+          }
+        ]
+      },
+      "inheritance": {
+        "predecessor_person_id": "913_1wz_ofu_AAA",
+        "predecessor_holding_id": "th-shiji054-058",
+        "resolved_title": "平陽侯",
+        "source_term": "子襄代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0064"
+          }
+        ],
+        "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji054-061",
       "person_id": "913_1wz_ofu_AAAA",
       "title": "共侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -2701,9 +3227,18 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-054-cao",
+              "source_id": "s-shiji-054-cao",
+              "paragraph_id": "c-shiji-054-cao:p017",
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0064"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -2711,15 +3246,28 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 明示死亡後諡名與生前侯爵分開，原省略為字保持；候選待擴充驗證。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "謚為共侯",
+        "death_term": "立十六年卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0064"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji054-062",
       "person_id": "913_1wz_ofu_AAAAA",
       "title": "侯",
       "kind": "noble_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -2743,14 +3291,15 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-054-cao",
               "source_id": "s-shiji-054-cao",
               "paragraph_id": "c-shiji-054-cao:p017",
-              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。"
+              "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+              "person_mention_id": "c-shiji-054-cao:m017-0098"
             }
           ]
         },
@@ -2769,7 +3318,25 @@
         }
       },
       "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。 宗坐太子死與國除分辨，國除為爵國廢止證據，不以死字作一般終止規則。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "913_1wz_ofu_AAAA",
+        "predecessor_holding_id": "th-shiji054-060",
+        "resolved_title": "平陽侯",
+        "source_term": "子宗代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-054-cao",
+            "source_id": "s-shiji-054-cao",
+            "paragraph_id": "c-shiji-054-cao:p017",
+            "quote": "平陽侯窋，高后時為御史大夫。孝文帝立，免為侯。立二十九年卒，謚為靜侯。子奇代侯，立七年卒，謚為簡侯。子時代侯。時尚平陽公主，生子襄。時病癘，歸國。立二十三年卒，謚夷侯。子襄代侯。襄尚衛長公主，生子宗。立十六年卒，謚為共侯。子宗代侯。征和二年中，宗坐太子死，國除。",
+            "person_mention_id": "c-shiji-054-cao:m017-0098"
+          }
+        ],
+        "rationale": "本段明示父子代侯，沿有來源前任平陽侯及承爵鏈判讀原侯字；不改寫原文，不跨全庫匹配侯。後段國除與未明日期保持。",
+        "human_reviewed": false
+      }
     },
     {
       "id": "th-shiji054-063",
@@ -2851,6 +3418,258 @@
         }
       },
       "interpretation_note": "明示授予、改官、爵秩、任事與追稱分開，原校勘字不改作定論；任期不由首見、死亡或後嗣承爵自動推端點。執帛、執珪、戚公等性質待制度與版本覆核；食邑調整不自造另一爵名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-065",
+      "person_id": "h8w_d3k_5bf",
+      "title": "泗水守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p002",
+          "quote": "高祖為沛公而初起也，參以中涓從。將擊胡陵、方與，攻秦監公軍，大破之。東下薛，擊泗水守軍薛郭西。復攻胡陵，取之。徙守方與。方與反為魏，擊之。豐反為魏，攻之。賜爵七大夫。擊秦司馬夷[1]軍碭東，破之，取碭、狐父、祁善置。又攻下邑以西，至虞，擊章邯車騎。攻爰戚及亢父，先登。遷為五大夫。北救阿，擊章邯軍，陷陳，追至濮陽。攻定陶，取臨濟。南救雍丘。擊李由軍，破之，殺李由，虜秦候一人。秦將章邯破殺項梁也，沛公與項羽引而東。楚懷王以沛公為碭郡長，將碭郡兵。於是乃封參為執帛，號曰建成君。遷為戚公，屬碭郡。",
+          "person_mention_id": "c-shiji-054-cao:m002-0039"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-065:a001",
+          "paragraph_id": "c-shiji-054-cao:p002",
+          "start": 39,
+          "end": 42,
+          "surface": "泗水守",
+          "person_mention_id": "c-shiji-054-cao:m002-0039",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-066",
+      "person_id": "6cr_o5c_vx8",
+      "title": "候",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p002",
+          "quote": "高祖為沛公而初起也，參以中涓從。將擊胡陵、方與，攻秦監公軍，大破之。東下薛，擊泗水守軍薛郭西。復攻胡陵，取之。徙守方與。方與反為魏，擊之。豐反為魏，攻之。賜爵七大夫。擊秦司馬夷[1]軍碭東，破之，取碭、狐父、祁善置。又攻下邑以西，至虞，擊章邯車騎。攻爰戚及亢父，先登。遷為五大夫。北救阿，擊章邯軍，陷陳，追至濮陽。攻定陶，取臨濟。南救雍丘。擊李由軍，破之，殺李由，虜秦候一人。秦將章邯破殺項梁也，沛公與項羽引而東。楚懷王以沛公為碭郡長，將碭郡兵。於是乃封參為執帛，號曰建成君。遷為戚公，屬碭郡。",
+          "person_mention_id": "c-shiji-054-cao:m002-0183"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-066:a001",
+          "paragraph_id": "c-shiji-054-cao:p002",
+          "start": 184,
+          "end": 185,
+          "surface": "候",
+          "person_mention_id": "c-shiji-054-cao:m002-0183",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-067",
+      "person_id": "tup_86k_24c",
+      "title": "東郡尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "quote": "其後從攻東郡尉軍，破之成武南。擊王離軍成陽南，復攻之杠裏，大破之。追北，西至開封，擊趙賁軍，破之，圍趙賁開封城中。西擊將楊熊軍於曲遇，破之，虜秦司馬及御史各一人。遷為執珪。從攻陽武，下軒轅、緱氏，絕河津，還擊趙賁軍尸北，破之。從南攻犨，與南陽守齮戰陽城郭東，陷陳，取宛，虜齮，盡定南陽郡。從西攻武關、峣關，取之。前攻秦軍藍田南，又夜擊其北，秦軍大破，遂至咸陽，滅秦。",
+          "person_mention_id": "c-shiji-054-cao:m003-0004"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-067:a001",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "start": 4,
+          "end": 7,
+          "surface": "東郡尉",
+          "person_mention_id": "c-shiji-054-cao:m003-0004",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-068",
+      "person_id": "12q_720_9mw",
+      "title": "司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "quote": "其後從攻東郡尉軍，破之成武南。擊王離軍成陽南，復攻之杠裏，大破之。追北，西至開封，擊趙賁軍，破之，圍趙賁開封城中。西擊將楊熊軍於曲遇，破之，虜秦司馬及御史各一人。遷為執珪。從攻陽武，下軒轅、緱氏，絕河津，還擊趙賁軍尸北，破之。從南攻犨，與南陽守齮戰陽城郭東，陷陳，取宛，虜齮，盡定南陽郡。從西攻武關、峣關，取之。前攻秦軍藍田南，又夜擊其北，秦軍大破，遂至咸陽，滅秦。",
+          "person_mention_id": "c-shiji-054-cao:m003-0071"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-068:a001",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "start": 72,
+          "end": 74,
+          "surface": "司馬",
+          "person_mention_id": "c-shiji-054-cao:m003-0071",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-069",
+      "person_id": "id2_2nb_u2p",
+      "title": "御史",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "quote": "其後從攻東郡尉軍，破之成武南。擊王離軍成陽南，復攻之杠裏，大破之。追北，西至開封，擊趙賁軍，破之，圍趙賁開封城中。西擊將楊熊軍於曲遇，破之，虜秦司馬及御史各一人。遷為執珪。從攻陽武，下軒轅、緱氏，絕河津，還擊趙賁軍尸北，破之。從南攻犨，與南陽守齮戰陽城郭東，陷陳，取宛，虜齮，盡定南陽郡。從西攻武關、峣關，取之。前攻秦軍藍田南，又夜擊其北，秦軍大破，遂至咸陽，滅秦。",
+          "person_mention_id": "c-shiji-054-cao:m003-0075"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-069:a001",
+          "paragraph_id": "c-shiji-054-cao:p003",
+          "start": 75,
+          "end": 77,
+          "surface": "御史",
+          "person_mention_id": "c-shiji-054-cao:m003-0075",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji054-070",
+      "person_id": "cmo_flt_wpw",
+      "title": "相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-054-cao",
+          "source_id": "s-shiji-054-cao",
+          "paragraph_id": "c-shiji-054-cao:p010",
+          "quote": "惠帝二年，蕭何卒。參聞之，告舍人趣治行，「吾將入相」。居無何，使者果召參。參去，屬其後相曰：「以齊獄市為寄，慎勿擾也。」後相曰：「治無大於此者乎？」參曰：「不然。夫獄市者，所以并容也，今君擾之，姦人安所容也？吾是以先之。」",
+          "person_mention_id": "c-shiji-054-cao:m010-0042"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji054-070:a001",
+          "paragraph_id": "c-shiji-054-cao:p010",
+          "start": 43,
+          "end": 44,
+          "surface": "相",
+          "person_mention_id": "c-shiji-054-cao:m010-0042",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "單指未名官稱保留原用語，不補授任年或由被虜推死亡；候原字不擅改侯或指定爵位等級。",
       "reviewer": "Codex（AI 代理）"
     }
   ]

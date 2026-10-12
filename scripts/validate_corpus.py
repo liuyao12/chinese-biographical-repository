@@ -457,11 +457,27 @@ def validate(root=ROOT):
                         'source_term', 'status', 'evidence', 'rationale', 'human_reviewed'}
                     if valid:
                         predecessor = title_records.get(inheritance['predecessor_holding_id'])
+                        cursor = predecessor
+                        visited = {h['id']}
+                        inherited_chain_valid = True
+                        while isinstance(cursor, dict) and 'inheritance' in cursor:
+                            link = cursor['inheritance']
+                            if (cursor['id'] in visited or cursor.get('kind') != 'noble_rank'
+                                or cursor.get('mode') != 'accession' or not isinstance(link, dict)
+                                or link.get('resolved_title') != inheritance['resolved_title']):
+                                inherited_chain_valid = False
+                                break
+                            visited.add(cursor['id'])
+                            cursor = title_records.get(link.get('predecessor_holding_id'))
+                        inherited_chain_valid = (inherited_chain_valid and isinstance(cursor, dict)
+                            and cursor['id'] not in visited
+                            and cursor.get('kind') == 'noble_rank'
+                            and cursor.get('title') == inheritance['resolved_title'])
                         valid = (h['kind'] == 'noble_rank' and h['mode'] == 'accession'
                             and bool(predecessor) and predecessor['kind'] == 'noble_rank'
                             and predecessor['person_id'] == inheritance['predecessor_person_id']
                             and predecessor['person_id'] != h['person_id']
-                            and predecessor['title'] == inheritance['resolved_title']
+                            and inherited_chain_valid
                             and inheritance['status'] == 'contextual_provisional'
                             and inheritance['human_reviewed'] is False
                             and bool(inheritance['rationale'])
@@ -496,7 +512,7 @@ def validate(root=ROOT):
                     valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
                            and set(basis)=={'source_term','death_term','evidence'}
                            and isinstance(basis['source_term'],str)
-                           and bool(re.search(r'(?:諡|謚)(?:為|曰)',basis['source_term']))
+                           and bool(re.search(r'(?:諡|謚)(?:為|曰)?',basis['source_term']))
                            and h['title'] in basis['source_term']
                            and isinstance(basis['death_term'],str)
                            and bool(re.search(r'卒|薨|死',basis['death_term']))
@@ -534,6 +550,21 @@ def validate(root=ROOT):
                     check(valid,'稱號來源在位年數或原詞證據無效')
                     if valid:
                         for e in duration['evidence']:title_evidence(e)
+                if 'duration_scope' in h:
+                    scope = h['duration_scope']
+                    ids = scope.get('holding_ids') if isinstance(scope, dict) else None
+                    valid = (isinstance(scope, dict)
+                        and set(scope) == {'kind', 'holding_ids', 'relation', 'rationale'}
+                        and scope['kind'] == 'multiple_holdings'
+                        and isinstance(ids, list) and len(ids) >= 2
+                        and all(isinstance(i, str) for i in ids) and len(set(ids)) == len(ids)
+                        and h['id'] in ids and bool(scope['rationale'])
+                        and scope['relation'] in ('successive', 'unspecified')
+                        and isinstance(h.get('reported_duration'), dict)
+                        and h['reported_duration'].get('unit') == 'title_year'
+                        and all(i in title_records and title_records[i]['person_id'] == h['person_id']
+                                and title_records[i]['kind'] == h['kind'] for i in ids))
+                    check(valid, '跨稱號任事年數缺少同人同類稱號與明示範圍')
                 if 'jurisdictions' in h:
                     places=h['jurisdictions']
                     valid=(h['kind']=='office' and isinstance(places,list) and bool(places)

@@ -62,6 +62,21 @@ class CorpusTests(unittest.TestCase):
     def test_posthumous_naming_cannot_be_living_grant(self):
         self.change('corpus/shiji/053-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji053-016').update(mode='grant'))
         self.assertIn('死後諡名缺少相符命名詞、死亡詞與起點證據', v.validate(self.root))
+    def test_inherited_title_chain_rejects_wrong_root_title(self):
+        self.change('corpus/shiji/054-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji054-052').update(title='別侯'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_inherited_title_chain_rejects_cycle(self):
+        self.change('corpus/shiji/054-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji054-056')['inheritance'].update(predecessor_holding_id='th-shiji054-058'))
+        self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_duration_scope_rejects_other_person(self):
+        self.change('corpus/shiji/054-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji054-019')['duration_scope'].update(holding_ids=['th-shiji054-019','th-shiji054-021']))
+        self.assertIn('跨稱號任事年數缺少同人同類稱號與明示範圍', v.validate(self.root))
+    def test_duration_scope_rejects_single_title(self):
+        self.change('corpus/shiji/054-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji054-019')['duration_scope'].update(holding_ids=['th-shiji054-019']))
+        self.assertIn('跨稱號任事年數缺少同人同類稱號與明示範圍', v.validate(self.root))
+    def test_duration_scope_requires_reported_number(self):
+        self.change('corpus/shiji/054-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji054-019').pop('reported_duration'))
+        self.assertIn('跨稱號任事年數缺少同人同類稱號與明示範圍', v.validate(self.root))
     def test_source_age_rejects_wrong_number(self):
         self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(value=19))
         self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))

@@ -188,6 +188,7 @@
 | `126_sy4_j11` | 新垣平 | [《史記・孝文本紀》][10] | [JSON](126_sy4_j11.json) |
 | `12c_x1u_m8d` | 楚王東徙陳 | [《史記・白起王翦列傳》][55] | [JSON](12c_x1u_m8d.json) |
 | `12e_g55_fat` | 晏圉 | [《史記・齊太公世家》][14] | [JSON](12e_g55_fat.json) |
+| `12q_720_9mw` | 秦司馬（曹相國世家俘虜未名者） | [《史記・曹相國世家》][36] | [JSON](12q_720_9mw.json) |
 | `12q_du8_nrm` | 昭滑 | [《史記・秦始皇本紀》][6] | [JSON](12q_du8_nrm.json) |
 | `134_cb7_kph` | 公中緩 | [《史記・魏世家》][26] | [JSON](134_cb7_kph.json) |
 | `13t_6m8_psn` | 駱璧 | [《史記・酷吏列傳》][104] | [JSON](13t_6m8_psn.json) |
@@ -1077,6 +1078,7 @@
 | `6c6_lvq_rd4` | 大任 | [《史記・外戚世家》][31] | [JSON](6c6_lvq_rd4.json) |
 | `6c7_5zy_3zt` | 丁疾 | [《史記・陳涉世家》][30] | [JSON](6c7_5zy_3zt.json) |
 | `6cd_fed_sfz` | 唐眛 | [《史記・楚世家》][22]、[《史記・屈原賈生列傳》][66] | [JSON](6cd_fed_sfz.json) |
+| `6cr_o5c_vx8` | 秦候（曹相國世家俘虜未名者） | [《史記・曹相國世家》][36] | [JSON](6cr_o5c_vx8.json) |
 | `6cv_ie7_ymn` | 熊渠 | [《史記・太史公自序》][112] | [JSON](6cv_ie7_ymn.json) |
 | `6cy_2mz_me0` | 郤至（鄢陵晉臣） | [《史記・晉世家》][21] | [JSON](6cy_2mz_me0.json) |
 | `6d2_kut_dhh` | 武王 | [《史記・周本紀》][4] | [JSON](6d2_kut_dhh.json) |
@@ -2130,6 +2132,7 @@
 | `cme_bmz_6qx` | 英布所幸姬未名 | [《史記・黥布列傳》][73] | [JSON](cme_bmz_6qx.json) |
 | `cmh_x83_hjk` | 蜀侯煇 | [《史記・秦本紀》][5] | [JSON](cmh_x83_hjk.json) |
 | `cml_pmg_4g7` | 王武 | [《史記・傅靳蒯成列傳》][80] | [JSON](cml_pmg_4g7.json) |
+| `cmo_flt_wpw` | 後相（曹相國世家未名者） | [《史記・曹相國世家》][36] | [JSON](cmo_flt_wpw.json) |
 | `cmu_mm9_y05` | 內史騰 | [《史記・秦始皇本紀》][6] | [JSON](cmu_mm9_y05.json) |
 | `cn8_id5_95v` | 秦昭王 | [《史記・范睢蔡澤列傳》][61] | [JSON](cn8_id5_95v.json) |
 | `cno_x3i_mx4` | 士燮 | [《史記・齊太公世家》][14] | [JSON](cno_x3i_mx4.json) |
@@ -2229,10 +2232,6 @@
 | `dco_hwr_j82` | 昌文君 | [《史記・秦始皇本紀》][6] | [JSON](dco_hwr_j82.json) |
 | `dcp_1gr_65s` | 羲仲 | [《史記・五帝本紀》][1] | [JSON](dcp_1gr_65s.json) |
 | `dd0_uda_xje` | 晉平公 | [《史記・趙世家》][25] | [JSON](dd0_uda_xje.json) |
-| `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][77] | [JSON](dda_1pf_g3o.json) |
-| `ddb_bi5_eco` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](ddb_bi5_eco.json) |
-| `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][1] | [JSON](ddb_l4j_4j2.json) |
-| `ddd_32x_k8h` | 膠東王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](ddd_32x_k8h.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

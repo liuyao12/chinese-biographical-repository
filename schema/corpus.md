@@ -211,3 +211,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ### 死後諡名
 
 `mode: posthumous_naming` 與起點 `event_type` 保存來源明示死後諡名，例如「相國何卒，諡為文終侯」。`naming_basis` 明列 `source_term`（含諡／謚為或曰及本筆原稱）、`death_term`（同一證據內的死亡句）與完全相符的起點 `evidence`。它與追尊授號分開；一般死後用稱不自行生成命名事件。原紀年與數字年分存，未見具體日不補日；未知終點不視為無限有效。
+
+### 承爵鏈與跨稱號來源年數
+
+父子連續代侯可沿已記錄的 `inheritance.predecessor_holding_id` 回查前任，直至有原稱的爵位記錄。每一連結仍須有相符父子陳述、原代侯詞及同段證據；循環、缺前任與根爵不符均拒絕。不改原文侯字，`resolved_title` 只表示有限來源範圍的暫定判讀。
+
+`duration_scope` 明示一筆 `reported_duration` 涵蓋多項同人同類稱號，而非本筆單一稱號任期。欄位為 `kind: multiple_holdings`、穩定 `holding_ids`、`relation: successive` 或 `unspecified` 及 `rationale`。例如相齊九年涵蓋齊相國後改齊丞相；將軍中尉凡二歲未明先後或兼任，關係保持未定。使用端須依此範圍讀取年數，不能按每項稱號重複加總或推精確起訖。
+
+死後諡名原詞亦可為「謚懿侯」等省略為／曰的句式，死亡詞、諡詞、本筆原稱與起點證據仍須相符。

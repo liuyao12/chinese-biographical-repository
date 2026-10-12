@@ -6,6 +6,10 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][77] | [JSON](dda_1pf_g3o.json) |
+| `ddb_bi5_eco` | 韓信 | [《史記・淮陰侯列傳》][74] | [JSON](ddb_bi5_eco.json) |
+| `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][1] | [JSON](ddb_l4j_4j2.json) |
+| `ddd_32x_k8h` | 膠東王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](ddd_32x_k8h.json) |
 | `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][53] | [JSON](ddf_jql_z0y.json) |
 | `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][6] | [JSON](ddp_ol8_1w5.json) |
 | `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][112] | [JSON](ddq_o5z_ic3.json) |
@@ -724,6 +728,7 @@
 | `h88_q0o_cte` | 齊桓侯 | [《史記・扁鵲倉公列傳》][87] | [JSON](h88_q0o_cte.json) |
 | `h8h_gjb_mb9` | 周襄王 | [《史記・匈奴列傳》][92] | [JSON](h8h_gjb_mb9.json) |
 | `h8u_hld_5su` | 無忌 | [《史記・魏公子列傳》][59] | [JSON](h8u_hld_5su.json) |
+| `h8w_d3k_5bf` | 泗水守（曹相國世家未名者） | [《史記・曹相國世家》][36] | [JSON](h8w_d3k_5bf.json) |
 | `h9c_g6l_yzs` | 王恬開 | [《史記・魏豹彭越列傳》][72] | [JSON](h9c_g6l_yzs.json) |
 | `h9h_k94_pst` | 慎夫人 | [《史記・孝文本紀》][10] | [JSON](h9h_k94_pst.json) |
 | `h9o_8gw_05e` | 褚先生 | [《史記・梁孝王世家》][40] | [JSON](h9o_8gw_05e.json) |
@@ -919,6 +924,7 @@
 | `ica_cts_5j1` | 桓公引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ica_cts_5j1.json) |
 | `icp_nrn_7pl` | 申差 | [《史記・秦本紀》][5]、[《史記・張儀列傳》][52] | [JSON](icp_nrn_7pl.json) |
 | `id0_ryz_8tv` | 徐姬（齊桓公夫人） | [《史記・齊太公世家》][14] | [JSON](id0_ryz_8tv.json) |
+| `id2_2nb_u2p` | 秦御史（曹相國世家俘虜未名者） | [《史記・曹相國世家》][36] | [JSON](id2_2nb_u2p.json) |
 | `id5_d3k_vsc` | 龐涓 | [《史記・孫子吳起列傳》][47] | [JSON](id5_d3k_vsc.json) |
 | `ids_h4k_pn5` | 季連（楚篇祖系） | [《史記・楚世家》][22] | [JSON](ids_h4k_pn5.json) |
 | `idu_gor_8a1` | 周章 | [《史記・陳涉世家》][30] | [JSON](idu_gor_8a1.json) |
@@ -2227,13 +2233,6 @@
 | `qd7_pum_453` | 馬邑敘事單于（未名） | [《史記・李將軍列傳》][91] | [JSON](qd7_pum_453.json) |
 | `qdl_8tt_r4v` | 欒布 | [《史記・樊酈滕灌列傳》][77] | [JSON](qdl_8tt_r4v.json) |
 | `qdr_5yn_8kr` | 陳餘 | [《史記・張耳陳餘列傳》][71] | [JSON](qdr_5yn_8kr.json) |
-| `qdw_na8_gsj` | 田嗇 | [《史記・貨殖列傳》][111] | [JSON](qdw_na8_gsj.json) |
-| `qe0_q7r_mlc` | 鄭國 | [《史記・仲尼弟子列傳》][49] | [JSON](qe0_q7r_mlc.json) |
-| `qei_urq_n8p` | 光子乘羽 | [《史記・仲尼弟子列傳》][49] | [JSON](qei_urq_n8p.json) |
-| `qej_ds3_yc4` | 武王 | [《史記・留侯世家》][37] | [JSON](qej_ds3_yc4.json) |
-| `qel_t1a_itz` | 劇孟母（未名） | [《史記・游俠列傳》][106] | [JSON](qel_t1a_itz.json) |
-| `qep_rho_j32` | 負芻（末楚王） | [《史記・楚世家》][22] | [JSON](qep_rho_j32.json) |
-| `qf1_qbc_81g` | 張春 | [《史記・韓信盧綰列傳》][75] | [JSON](qf1_qbc_81g.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
