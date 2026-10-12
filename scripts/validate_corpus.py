@@ -505,7 +505,7 @@ def validate(root=ROOT):
                         and set(basis)=={'source_term','death_term','grant_term','evidence'}
                         and all(isinstance(basis.get(k),str) and basis[k] for k in ('source_term','death_term','grant_term'))
                         and bool(re.search(r'[死卒薨崩]',basis['death_term']))
-                        and basis['grant_term']=='賜夫人為'+h['title']
+                        and basis['grant_term'] in ('賜夫人為'+h['title'], '號為'+h['title'])
                         and basis['death_term'] in basis['source_term']
                         and basis['grant_term'] in basis['source_term']
                         and basis['source_term'].index(basis['death_term'])+len(basis['death_term'])<=basis['source_term'].index(basis['grant_term']))
