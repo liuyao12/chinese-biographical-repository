@@ -1808,7 +1808,7 @@
 | `nqg_1hv_y1j` | 賀（廷尉） | [《史記・淮南衡山列傳》][100] | [JSON](nqg_1hv_y1j.json) |
 | `nqp_02x_ekk` | 狐突（晉臣） | [《史記・晉世家》][21] | [JSON](nqp_02x_ekk.json) |
 | `nqv_ba2_zh4` | 州吁 | [《史記・鄭世家》][24] | [JSON](nqv_ba2_zh4.json) |
-| `nr3_tph_hhg` | 秦莊襄王 | [《史記・春申君列傳》][60] | [JSON](nr3_tph_hhg.json) |
+| `nr3_tph_hhg` | 秦莊襄王 | [《史記・呂不韋列傳》][67] | [JSON](nr3_tph_hhg.json) |
 | `nrd_0cq_zyz` | 趙奢 | [《史記・廉頗藺相如列傳》][63] | [JSON](nrd_0cq_zyz.json) |
 | `nrp_vv5_hry` | 項籍 | [《史記・傅靳蒯成列傳》][80] | [JSON](nrp_vv5_hry.json) |
 | `ns0_24x_hh0` | 大伯（引古） | [《史記・張耳陳餘列傳》][71] | [JSON](ns0_24x_hh0.json) |

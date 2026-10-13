@@ -853,6 +853,14 @@ class CorpusTests(unittest.TestCase):
         self.change('registry/person-id-migrations.json', lambda d: d.update(person_count=10**9))
         self.assertTrue(any('全面遷移範圍' in e for e in v.validate(self.root)))
 
+    def test_retired_id_alias_cannot_be_reintroduced(self):
+        self.change('registry/persons.json', lambda d: d['persons'][0].update(id_aliases=['cbr-p999999']))
+        self.assertTrue(any('舊 ID 撤除後' in e for e in v.validate(self.root)))
+
+    def test_retired_id_policy_rejects_unupdated_references(self):
+        self.change('registry/person-id-migrations.json', lambda d: d['alias_retirement'].update(active_reference_count=1))
+        self.assertTrue(any('舊 ID 撤除後' in e for e in v.validate(self.root)))
+
     def test_title_numeric_year_rejects_bce_numbering_error(self):
         def mutate(d):
             h = next(h for h in d['holdings'] if h['title'] == '太常')

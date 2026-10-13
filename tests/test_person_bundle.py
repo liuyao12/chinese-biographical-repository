@@ -383,18 +383,11 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(result['reported_variants'][0]['reported_reading'], '子')
         self.assertFalse(result['reported_variants'][0]['adopted'])
 
-    def test_published_hyphen_id_resolves_without_duplicate_person(self):
-        from scripts.person_bundle import load_catalog
-        catalog = load_catalog()
-        old = bundle('w8j_vnd_rs4-AAA', catalog=catalog)
-        new = bundle('w8j_vnd_rs4_AAA', catalog=catalog)
-        self.assertEqual(old['requested_person_id'], 'w8j_vnd_rs4-AAA')
-        self.assertEqual(old['canonical_person_id'], 'w8j_vnd_rs4_AAA')
-        self.assertEqual(old['person_ids'], new['person_ids'])
-        self.assertEqual(old['mentions'], new['mentions'])
-        self.assertEqual(old['relations'], new['relations'])
-        self.assertNotIn('w8j_vnd_rs4-AAA', catalog[0])
-        self.assertEqual(old['family_paths'][0]['parent_person_id'], 'w8j_vnd_rs4_AA')
+    def test_retired_hyphen_id_is_rejected_and_current_family_id_remains(self):
+        with self.assertRaises(ValueError):
+            bundle('w8j_vnd_rs4-AAA')
+        new = bundle('w8j_vnd_rs4_AAA')
+        self.assertEqual(new['family_paths'][0]['parent_person_id'], 'w8j_vnd_rs4_AA')
 
     def test_missing_generation_bundle_keeps_source_without_father_person(self):
         from scripts.person_bundle import load_catalog
@@ -409,14 +402,13 @@ class PersonBundleTests(unittest.TestCase):
         self.assertTrue(any(a['predicate'] == 'grandfather' and a['object_person_id'] == path['ancestor_person_id']
                             for a in result['relations']))
 
-    def test_old_sequential_id_resolves_to_new_family_id(self):
-        result = bundle('cbr-p000533')
-        self.assertEqual(result['requested_person_id'], 'cbr-p000533')
-        self.assertNotEqual(result['canonical_person_id'], 'cbr-p000533')
-        self.assertIn('cbr-p000533', result['id_aliases'])
+    def test_retired_sequential_id_is_rejected_without_losing_current_person(self):
+        with self.assertRaises(ValueError):
+            bundle('cbr-p000533')
+        result = bundle('ao3_0fy_d45_AAA')
         self.assertTrue(any(p['label'] == '秦始皇帝' for p in result['persons']))
 
-    def test_export_keeps_legacy_urls_and_collapsible_monospace_index(self):
+    def test_export_retires_legacy_urls_and_keeps_collapsible_monospace_index(self):
         import json
         import re
         from scripts.person_bundle import ROOT, load_catalog
@@ -430,10 +422,9 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(len(ids), len(set(ids)))
         self.assertFalse(set(ids).intersection(index['id_aliases']))
         self.assertTrue(all((folder / (old + '.json')).exists() for old in index['id_aliases']))
-        old = json.loads((folder / 'cbr-p000533.json').read_text())
-        new = json.loads((folder / (old['canonical_person_id'] + '.json')).read_text())
-        self.assertEqual(old['mentions'], new['mentions'])
-        self.assertEqual(old['relations'], new['relations'])
+        self.assertFalse((folder / 'cbr-p000533.json').exists())
+        self.assertFalse((folder / 'w8j_vnd_rs4-AAA.json').exists())
+        self.assertTrue((folder / 'ao3_0fy_d45_AAA.json').exists())
         family_text = (folder / 'README.md').read_text()
         self.assertIn('[獨立人物索引](unconnected.md)', family_text)
         single_text = (folder / 'unconnected.md').read_text()
@@ -493,7 +484,7 @@ class PersonBundleTests(unittest.TestCase):
     def test_preferred_tree_selects_zhaozis_son_without_discarding_other_sources(self):
         from scripts.person_bundle import load_catalog
         catalog = load_catalog()
-        pid = next(p['id'] for p in catalog[0].values() if 'cbr-p000442' in p.get('id_aliases', []))
+        pid = 'y97_huh_vuz_AAAAAAAAAAAAABAAA'
         result = bundle(pid, catalog=catalog)
         fathers = [a for a in result['relations'] if a['subject_person_id'] == pid and a['predicate'] == 'father']
         self.assertEqual(len(fathers), 2)
