@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t59_hlv_ksa` | 仇牧（宋大夫） | [《史記・宋微子世家》][20] | [JSON](t59_hlv_ksa.json) |
-| `t5c_bkc_aem` | 驪姬 | [《史記・趙世家》][25] | [JSON](t5c_bkc_aem.json) |
-| `t5e_f83_p7l` | 太子未詳名 | [《史記・張丞相列傳》][78] | [JSON](t5e_f83_p7l.json) |
-| `t5i_u1b_9w1` | 蘇厲 | [《史記・陳涉世家》][30] | [JSON](t5i_u1b_9w1.json) |
-| `t5j_h0l_x87` | 倉海君 | [《史記・留侯世家》][37] | [JSON](t5j_h0l_x87.json) |
 | `t5j_k98_rwe` | 孟嘗君 | [《史記・太史公自序》][112] | [JSON](t5j_k98_rwe.json) |
 | `t5l_nxu_k7z` | 沃丁 | [《史記・殷本紀》][3] | [JSON](t5l_nxu_k7z.json) |
 | `t63_083_cf1` | 蒙恬 | [《史記・太史公自序》][112] | [JSON](t63_083_cf1.json) |
@@ -122,7 +117,6 @@
 | `tvk_3qo_6n5` | 太史公 | [《史記・儒林列傳》][103] | [JSON](tvk_3qo_6n5.json) |
 | `tvo_aez_7nt` | 韓說（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](tvo_aez_7nt.json) |
 | `twa_vor_7j0` | 冉求 | [《史記・孔子世家》][29] | [JSON](twa_vor_7j0.json) |
-| `twk_t4q_4oy` | 曹相國未名 | [《史記・樂毅列傳》][62] | [JSON](twk_t4q_4oy.json) |
 | `tx2_sj4_xyj` | 卓氏先人 | [《史記・貨殖列傳》][111] | [JSON](tx2_sj4_xyj.json) |
 | `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][37] | [JSON](txk_j5j_jty.json) |
 | `txm_ajy_ue2` | 伯嚭 | [《史記・仲尼弟子列傳》][49] | [JSON](txm_ajy_ue2.json) |
@@ -282,7 +276,6 @@
 | `v0m_yso_2h1` | 趙堯 | [《史記・韓信盧綰列傳》][75] | [JSON](v0m_yso_2h1.json) |
 | `v0q_hjk_mfh` | 王先生 | [《史記・滑稽列傳》][108] | [JSON](v0q_hjk_mfh.json) |
 | `v0z_zyj_fu7` | 王后未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](v0z_zyj_fu7.json) |
-| `v11_x4e_ll7` | 商容引古 | [《史記・樂毅列傳》][62] | [JSON](v11_x4e_ll7.json) |
 | `v14_tbx_p17` | 侯公 | [《史記・秦始皇本紀》][6] | [JSON](v14_tbx_p17.json) |
 | `v1j_kao_7o7` | 熙（宋煬公） | [《史記・宋微子世家》][20] | [JSON](v1j_kao_7o7.json) |
 | `v1k_73q_gbp` | 尹更始 | [《史記・平津侯主父列傳》][94] | [JSON](v1k_73q_gbp.json) |

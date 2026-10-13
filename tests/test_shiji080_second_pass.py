@@ -37,3 +37,23 @@ class LeYiSecondPassTests(unittest.TestCase):
                          {'gz0_xuu_ont'})
         self.assertEqual({m['person_id'] for m in reply['mentions'] if m['surface'] == '先王'},
                          {'5pw_05i_uhv'})
+
+    def test_general_date_does_not_spread_to_other_grants(self):
+        holdings = json.loads((ROOT / 'corpus/shiji/080-titles.json').read_text())['holdings']
+        general = next(h for h in holdings if h['id'] == 'th-shiji080-003')
+        date = general['effective_period']['start']['normalized_date']
+        self.assertEqual(date['era_year'], 284)
+        self.assertEqual(date['basis']['kind'], 'parallel_event')
+        self.assertIn('二十八年', date['basis']['reference_event_quote'])
+        for holding_id in ('th-shiji080-004', 'th-shiji080-005'):
+            grant = next(h for h in holdings if h['id'] == holding_id)
+            self.assertNotIn('normalized_date', grant['effective_period']['start'])
+
+    def test_cao_title_resolves_by_teacher_context(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/080.json').read_text())
+        p20 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p020'))
+        names = {m['surface']:m['person_id'] for m in p20['mentions']}
+        self.assertEqual(names['曹相國'], '37j_16p_7n8')
+        self.assertEqual(names['蓋公'], 'g9g_mv1_6zj')
+        self.assertIn('河上丈人', p20['text'])
+        self.assertNotEqual(names['河上丈人'], names['蓋公'])

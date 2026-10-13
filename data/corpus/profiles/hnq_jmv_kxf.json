@@ -8,7 +8,50 @@
   "names": [
     "樂羊"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji080-001",
+      "person_id": "hnq_jmv_kxf",
+      "title": "將",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p001",
+          "quote": "樂毅者，其先祖曰樂羊。樂羊為魏文侯將，伐取中山，魏文侯封樂羊以靈壽。樂羊死，葬於靈壽，其後子孫因家焉。中山復國，至趙武靈王時復滅中山，而樂氏後有樂毅。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji080-001:a001",
+          "paragraph_id": "c-shiji-080-leyi:p001",
+          "start": 17,
+          "end": 18,
+          "surface": "將",
+          "person_mention_id": "c-shiji-080-leyi:m001-0011",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分存；卒、出走及降趙不自動終止所有爵位，未見日期保持未定。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -18,6 +61,14 @@
       "paragraph_id": "c-shiji-044-wei:p019",
       "count": 1,
       "quote": "子？西河之守，臣之所進也。君内以鄴爲憂，臣進西門豹。君謀欲伐中山，臣進樂羊。中山以拔，无使守之，臣進先生。君之子无傅，臣進屈侯鮒。臣何以負於魏成子！』李克曰：『且子之言克於子之君者，豈將比周以求大官哉？君問而置相「非成則璜，二子何如」？克對曰：「君不察故也。居視其所親，富視"
+    },
+    {
+      "number": 80,
+      "category": "liezhuan",
+      "title": "樂毅列傳第二十",
+      "paragraph_id": "c-shiji-080-leyi:p001",
+      "count": 4,
+      "quote": "樂毅者，其先祖曰樂羊。樂羊為魏文侯將，伐取中山，魏文侯封樂羊以靈壽。樂羊死，葬於靈壽，其後子孫因家焉。中山復國，至趙武靈王時復滅中山，而樂氏後有樂毅。"
     }
   ],
   "table_occurrences": [],
@@ -43,6 +94,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
           "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-080-leyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-080",
+      "source_id": "s-shiji-080-leyi",
+      "source": {
+        "title": "史記／卷080",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷080",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316",
+        "revision_id": 2089316,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樂毅者至太史公論述師承；HTML題頭與評論篇界已核，無索隱述贊混入。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd保持原序，異體不擅校。",
+          "note": "全20段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
     }
