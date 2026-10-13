@@ -1,4 +1,8 @@
 // Birth/death summaries use typed events, never office dates or age arithmetic.
+export function ageLabel(age) {
+  if (!Number.isInteger(age.value) || age.reporting_status === 'qualified_report') return age.qualified_source_term || age.source_term || '來源報齡未定';
+  return `${age.value} 歲（來源報齡）`;
+}
 export function summarizeLife(p) {
   const own = new Set(p.person_ids || [p.id]);
   const events = (p.life_events || []).filter(e => own.has(e.person_id));

@@ -2,7 +2,7 @@ import {escapeHTML as h} from './core.js';
 import {chapterURL} from './corpus-reader.js';
 import {yearLabel} from './historical-tables.js';
 import {traceFamily} from './person-family.js';
-import {summarizeLife} from './person-life.js';
+import {summarizeLife, ageLabel} from './person-life.js';
 export const loadFamily = p => traceFamily(p, loadPerson);
 export function tableOccurrenceURL(x) {
   const match = /^shiji-(\d{3})$/.exec(x.table_id || '');
@@ -36,7 +36,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     const date = e.normalized_date;
     return `<div>${date?.era_year ? `<strong>西元${date.era === 'BCE' ? '前' : ''}${h(date.era_year)}年</strong> · ` : ''}${h(e.date_expression || '原文未明紀年')}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details></div>`;
   }).join('') : '未詳'}</dd>`;
-  const lifeHTML = `<section class="person-life-summary"><dl>${lifeRow('生', life.birth)}${lifeRow('卒', life.death)}<dt>年齡</dt><dd>${life.ages.length ? life.ages.map(e => `${h(e.value)} 歲（來源報齡）<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('') : '未詳'}</dd></dl></section>`;
+  const lifeHTML = `<section class="person-life-summary"><dl>${lifeRow('生', life.birth)}${lifeRow('卒', life.death)}<dt>年齡</dt><dd>${life.ages.length ? life.ages.map(e => `${h(ageLabel(e))}<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('') : '未詳'}</dd></dl></section>`;
   const grouped = new Map();
   for (const x of p.titles || []) {
     const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null);

@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {summarizeLife} from '../assets/person-life.js';
+import {summarizeLife, ageLabel} from '../assets/person-life.js';
+test('bounded or qualified reported ages retain their source wording', () => {
+  assert.equal(ageLabel({value:null,source_term:'百有六十餘歲',qualified_source_term:'蓋老子百有六十餘歲'}),'蓋老子百有六十餘歲');
+  assert.equal(ageLabel({value:70,source_term:'年七十'}),'70 歲（來源報齡）');
+  assert.equal(ageLabel({value:70,reporting_status:'qualified_report',source_term:'或言七十歲'}),'或言七十歲');
+});
 test('life summary separates source life events from appointments and unrelated ages', () => {
   const p={id:'a',dates:[{event_type:'appointment',era_year:100}],life_events:[{id:'birth',person_id:'a',event_type:'birth'},{id:'other',person_id:'b',event_type:'death'}],age_assertions:[{person_id:'a',value:70},{person_id:'b',value:20}]};
   const life=summarizeLife(p);
