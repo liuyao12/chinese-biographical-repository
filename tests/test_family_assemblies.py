@@ -10,6 +10,22 @@ from person_bundle import load_catalog, ROOT
 
 
 class FamilyAssembliesTests(unittest.TestCase):
+    def test_single_sibling_connection_rejects_explicit_different_father(self):
+        data = json.loads((ROOT / 'registry/family-assemblies.json').read_text())
+        member = next(m for f in data['assemblies'] for m in f['members']
+                      if m.get('parent_connection', {}).get('type') == 'shared_father_through_sibling')
+        assertion_id = member['parent_connection']['sibling_assertion_id']
+        catalog = copy.deepcopy(load_catalog(ROOT))
+        assertion = next(a for r in catalog[1] if r.get('record_type') == 'person_assertion_set'
+                         for a in r['assertions'] if a['id'] == assertion_id)
+        assertion['qualifiers']['shared_father'] = False
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            (root / 'registry').mkdir()
+            (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
+            with self.assertRaisesRegex(ValueError, '同父兄弟組裝缺少有效兄弟及父親證據'):
+                load_assemblies(root, catalog)
+
     def test_sibling_chain_keeps_inference_separate_from_direct_father(self):
         source, rows = load_assemblies(ROOT, load_catalog(ROOT))
         king = source['aok_z9g_2q0']
