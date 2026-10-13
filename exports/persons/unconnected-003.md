@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][49] | [JSON](t7x_2x7_1fc.json) |
-| `t8b_b8w_pcn` | 國惠子 | [《史記・齊太公世家》][14] | [JSON](t8b_b8w_pcn.json) |
 | `t8b_zxx_6ea` | 田駢 | [《史記・孟子荀卿列傳》][56] | [JSON](t8b_zxx_6ea.json) |
 | `t8k_az0_xk2` | 魏惠王 | [《史記・孫子吳起列傳》][47] | [JSON](t8k_az0_xk2.json) |
 | `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][25] | [JSON](t8t_xtf_6tp.json) |

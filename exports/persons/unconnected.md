@@ -748,7 +748,6 @@
 | `4vo_tst_9dm` | 少帝 | [《史記・齊悼惠王世家》][34] | [JSON](4vo_tst_9dm.json) |
 | `4w2_573_fnh` | 王夫人（武帝所幸） | [《史記・孝武本紀》][12] | [JSON](4w2_573_fnh.json) |
 | `4w2_vs3_n1r` | 趙鞅 | [《史記・魏世家》][26] | [JSON](4w2_vs3_n1r.json) |
-| `4w3_yw4_lcm` | 淖齒 | [《史記・田單列傳》][64] | [JSON](4w3_yw4_lcm.json) |
 | `4wc_97x_2gd` | 孝惠 | [《史記・陳丞相世家》][38] | [JSON](4wc_97x_2gd.json) |
 | `4we_dkh_dzr` | 賈華（伐屈者） | [《史記・晉世家》][21] | [JSON](4we_dkh_dzr.json) |
 | `4wh_yve_8ul` | 景快 | [《史記・秦本紀》][5]、[《史記・楚世家》][22] | [JSON](4wh_yve_8ul.json) |
@@ -2231,6 +2230,7 @@
 | `ejl_xm5_780` | 公叔氏（孔子世家蒲畔未名者） | [《史記・孔子世家》][29] | [JSON](ejl_xm5_780.json) |
 | `ejp_e4r_st7` | 石乞 | [《史記・仲尼弟子列傳》][49] | [JSON](ejp_e4r_st7.json) |
 | `ejx_n17_vnl` | 齊中大夫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ejx_n17_vnl.json) |
+| `ek7_93z_gap` | 趙簡子 | [《史記・扁鵲倉公列傳》][87] | [JSON](ek7_93z_gap.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
