@@ -85,3 +85,15 @@ class LuZouSecondPassTests(unittest.TestCase):
         for surface, pid in expected.items():
             self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']==surface}, {pid})
         self.assertIn('子胥鴟夷', p['text'])
+
+    def test_service_allusions_keep_distinct_death_accounts(self):
+        c = self.chapter()
+        p21 = c['paragraphs'][20]
+        self.assertEqual({m['person_id'] for m in p21['mentions'] if m['surface']=='商鞅'}, {'2wp_usr_ncd'})
+        self.assertEqual({m['person_id'] for m in p21['mentions'] if m['surface']=='大夫種'}, {'gu2_fde_5bw'})
+        self.assertIn('而卒車裂之', p21['text'])
+        self.assertIn('而卒誅其身', p21['text'])
+        p19 = c['paragraphs'][18]
+        expected = {'百里奚':'ylb_ttg_8dr','繆公':'y97_huh_vuz_AAAAA','由余':'iig_8e3_qx2','戎人由余':'iig_8e3_qx2'}
+        for surface,pid in expected.items():
+            self.assertEqual({m['person_id'] for m in p19['mentions'] if m['surface']==surface},{pid})

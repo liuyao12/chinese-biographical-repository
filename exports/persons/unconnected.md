@@ -85,7 +85,6 @@
 | `0j3_2uz_7wo` | 秦嘉 | [《史記・項羽本紀》][7] | [JSON](0j3_2uz_7wo.json) |
 | `0jb_r4l_gxr` | 桀引古 | [《史記・田單列傳》][64] | [JSON](0jb_r4l_gxr.json) |
 | `0jj_3xt_ip6` | 太子未名 | [《史記・淮陰侯列傳》][74] | [JSON](0jj_3xt_ip6.json) |
-| `0jl_b1p_z9y` | 由余引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](0jl_b1p_z9y.json) |
 | `0jo_9fp_dpo` | 孫子（臏腳） | [《史記・太史公自序》][112] | [JSON](0jo_9fp_dpo.json) |
 | `0jo_ejm_n20` | 淳于髡 | [《史記・滑稽列傳》][108] | [JSON](0jo_ejm_n20.json) |
 | `0jy_rdt_zu1` | 石奮姊未名 | [《史記・萬石張叔列傳》][85] | [JSON](0jy_rdt_zu1.json) |
@@ -311,7 +310,6 @@
 | `237_cbp_w2w` | 趙公子嘉 | [《史記・秦始皇本紀》][6] | [JSON](237_cbp_w2w.json) |
 | `23k_ck2_otm` | 公子郢 | [《史記・仲尼弟子列傳》][49] | [JSON](23k_ck2_otm.json) |
 | `23r_tex_w2g` | 林父（衛孫文子） | [《史記・衛康叔世家》][19] | [JSON](23r_tex_w2g.json) |
-| `23s_dd0_gbc` | 百里奚引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](23s_dd0_gbc.json) |
 | `23z_9xy_hzo` | 鐘離眛 | [《史記・淮陰侯列傳》][74] | [JSON](23z_9xy_hzo.json) |
 | `242_htg_awo` | 太子（宋御所殺者未名） | [《史記・宋微子世家》][20] | [JSON](242_htg_awo.json) |
 | `243_u8f_u71` | 潁川守尊 | [《史記・孝文本紀》][10] | [JSON](243_u8f_u71.json) |
@@ -2231,6 +2229,8 @@
 | `eof_wj7_9ih` | 商容 | [《史記・留侯世家》][37] | [JSON](eof_wj7_9ih.json) |
 | `eok_92w_kgq` | 子我 | [《史記・齊太公世家》][14] | [JSON](eok_92w_kgq.json) |
 | `eoz_084_vwg` | 商鞅 | [《史記・貨殖列傳》][111] | [JSON](eoz_084_vwg.json) |
+| `eoz_9z7_vgp` | 駟鈞 | [《史記・太史公自序》][112] | [JSON](eoz_9z7_vgp.json) |
+| `epd_7nt_bg9` | 黥布 | [《史記・蕭相國世家》][35] | [JSON](epd_7nt_bg9.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
