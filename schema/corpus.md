@@ -261,3 +261,16 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `affinity_unspecified` 保存「婚」所表述的未明姻親，`qualifiers.relationship_basis: marriage_affinity`，`source_term` 保留原句。`spouse_person_ids`、`connecting_person_ids`、`generation_difference` 均為 `null`；不得補女兒、妻子、具體親等或方向，也不得把兩個姻親當作夫妻。
 
 未名官職事件存於 `person_event_assertion_set`：`office_non_reinstatement` 保存「不復官」，`office_restoration` 保存「復就故官」。兩者的 `office_title`、`title_holding_id` 均為 `null`，原句與人物錨點必須可回查。不復任不等於明示免官；未名故官不牽連既有具名官爵時段。
+
+
+### 授予政體、未赴任與來源地稱
+
+稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的首批形式為 `status: not_taken_up`、`source_term` 與 `evidence`，用於「甘茂不往」；保留授予，卻不得顯示為已赴任。未知後續不由此補定終點。
+
+地址 `source_locality_designation` 保存「下蔡史舉先生」等以地名稱人的原詞，`qualifiers.designation_kind: geographical_person_reference`、`origin_or_residence: null`；不將未明的地稱改為籍貫、出生地或居所。`service_location` 保存「下蔡之監門」，`qualifiers.source_position` 保留「監門」，任事地與居所分開。
+
+兄弟／姐妹陳述的 `qualifiers.shared_mother` 必須為布林值且附同母或異母原詞。`false` 不補姓名未知的另一位母親。`kinship_unspecified` 的「外族」保留原詞、未定親屬線與世代，不自行改為表兄弟或舅甥。
+
+來源年齡的 `report_repetition_of` 指向同篇較早、同人同數值的報齡記錄，用以標示敘事與人物自述的重複，不當獨立證據或兩次不同年齡。不推計歲方式或生年。
+
+人物事件 `diplomatic_service` 保存出使任事與 `polity_source_name`；「事燕三年」的 `reported_duration` 為數值3、`unit: service_year`、`source_number: 三`、`source_term: 事燕三年`、`counting: unspecified_source_years`、`status: source_attested`，證據與事件一致。此年數不屬剛成君爵位任期，不推曆日或起訖年。

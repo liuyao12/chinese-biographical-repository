@@ -48,7 +48,7 @@
       "id": "th-shiji071-002",
       "person_id": "fae_ax5_a6k",
       "title": "右更",
-      "kind": "unclassified",
+      "kind": "noble_rank",
       "mode": "grant",
       "status": "source_attested",
       "evidence": [
@@ -90,7 +90,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。 本句明示爵右更，分類為爵位；不補秦爵序號或未核制度細節。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -123,7 +123,7 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "秦惠王二十五年",
           "evidence": [
             {
               "chapter_id": "c-shiji-071-chugan",
@@ -131,7 +131,52 @@
               "paragraph_id": "c-shiji-071-chugan:p002",
               "quote": "秦惠王八年，爵樗里子右更，使將而伐曲沃，盡出其人，取其城，地入秦。秦惠王二十五年，使樗里子為將伐趙，虜趙將軍莊豹，拔藺。明年，助魏章攻楚，敗楚將屈丐，取漢中地。秦封樗里子，號為嚴君。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 313,
+            "year": -312,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "秦惠王八年，爵樗里子右更，使將而伐曲沃，盡出其人，取其城，地入秦。秦惠王二十五年，使樗里子為將伐趙，虜趙將軍莊豹，拔藺。明年，助魏章攻楚，敗楚將屈丐，取漢中地。秦封樗里子，號為嚴君。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-071-chugan",
+                "source_id": "s-shiji-071-chugan",
+                "paragraph_id": "c-shiji-071-chugan:p002",
+                "quote": "秦惠王八年，爵樗里子右更，使將而伐曲沃，盡出其人，取其城，地入秦。秦惠王二十五年，使樗里子為將伐趙，虜趙將軍莊豹，拔藺。明年，助魏章攻楚，敗楚將屈丐，取漢中地。秦封樗里子，號為嚴君。"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "使樗里子為將伐趙，虜趙將軍莊豹，拔藺",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "十二。樗里子擊藺陽，虜趙將。公子繇通封蜀。",
+              "reference_year_quote": "313"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十二。樗里子擊藺陽，虜趙將。公子繇通封蜀。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r164-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "313",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r164-c00"
+              }
+            ],
+            "rationale": "本篇伐趙虜趙將軍拔藺，與年表樗里子擊藺陽虜趙將相應；惠王二十五年與年表十二保留原紀年。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -139,7 +184,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。 本篇伐趙虜趙將軍拔藺，與年表樗里子擊藺陽虜趙將相應；惠王二十五年與年表十二保留原紀年。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -442,7 +487,52 @@
               "paragraph_id": "c-shiji-071-chugan:p008",
               "quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 309,
+            "year": -308,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-071-chugan",
+                "source_id": "s-shiji-071-chugan",
+                "paragraph_id": "c-shiji-071-chugan:p008",
+                "quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "以甘茂為左丞相",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "二。初置丞相，樗里子、甘茂為丞相。",
+              "reference_year_quote": "309"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "二。初置丞相，樗里子、甘茂為丞相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r168-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "309",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r168-c00"
+              }
+            ],
+            "rationale": "本篇甘茂左丞相、樗里子右丞相與年表武王二年初置丞相同人同職對讀；不把前置甘茂定蜀事件定為同年。秦本紀另記昭襄王六年蜀侯煇反、司馬錯定蜀，人物與時序差異保留。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -450,7 +540,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。 本篇甘茂左丞相、樗里子右丞相與年表武王二年初置丞相同人同職對讀；不把前置甘茂定蜀事件定為同年。秦本紀另記昭襄王六年蜀侯煇反、司馬錯定蜀，人物與時序差異保留。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -491,7 +581,52 @@
               "paragraph_id": "c-shiji-071-chugan:p008",
               "quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 309,
+            "year": -308,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-071-chugan",
+                "source_id": "s-shiji-071-chugan",
+                "paragraph_id": "c-shiji-071-chugan:p008",
+                "quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "以樗里子為右丞相",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "二。初置丞相，樗里子、甘茂為丞相。",
+              "reference_year_quote": "309"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "二。初置丞相，樗里子、甘茂為丞相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r168-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "309",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r168-c00"
+              }
+            ],
+            "rationale": "本篇甘茂左丞相、樗里子右丞相與年表武王二年初置丞相同人同職對讀；不把前置甘茂定蜀事件定為同年。秦本紀另記昭襄王六年蜀侯煇反、司馬錯定蜀，人物與時序差異保留。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -499,7 +634,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。 本篇甘茂左丞相、樗里子右丞相與年表武王二年初置丞相同人同職對讀；不把前置甘茂定蜀事件定為同年。秦本紀另記昭襄王六年蜀侯煇反、司馬錯定蜀，人物與時序差異保留。西元年取同列數位編者對照，未核印本影像及曆表，不推任期終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -631,7 +766,22 @@
         }
       },
       "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。本筆起點只取齊王即位之上卿而處之，不取前段秦賜之的邀請。",
-      "reviewer": "Codex（AI 代理）"
+      "reviewer": "Codex（AI 代理）",
+      "granting_polity": {
+        "source_name": "齊",
+        "place_id": null,
+        "modern_identification": null,
+        "authority_person_id": "p0f_4cj_em4",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-071-chugan",
+            "source_id": "s-shiji-071-chugan",
+            "paragraph_id": "c-shiji-071-chugan:p013",
+            "quote": "齊王曰：「善。」即位之上卿而處之。",
+            "person_mention_id": "c-shiji-071-chugan:m013-0323"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji071-015",
@@ -934,6 +1084,185 @@
         }
       },
       "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji071-022",
+      "person_id": "xcr_p13_j7x",
+      "title": "上卿",
+      "kind": "unclassified",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p013",
+          "quote": "甘茂之亡秦奔齊，逢蘇代。代為齊使於秦。甘茂曰：「臣得罪於秦，懼而遯逃，無所容跡。臣聞貧人女與富人女會績，貧人女曰：『我無以買燭，而子之燭光幸有餘，子可分我餘光，無損子明而得一斯便焉。』今臣困而君方使秦而當路矣。茂之妻子在焉，願君以餘光振之。」蘇代許諾。遂致使於秦。已，因說秦王曰：「甘茂，非常士也。其居於秦，累世重矣。自殽塞及至鬼谷，其地形險易皆明知之。彼以齊約韓魏反以圖秦，非秦之利也。」秦王曰：「然則柰何？」蘇代曰：「王不若重其贄，厚其祿以迎之，使彼來則置之鬼谷，終身勿出。」秦王曰：「善。」即賜之上卿，以相印迎之於齊。甘茂不往。蘇代謂齊湣王曰：「夫甘茂，賢人也。今秦賜之上卿，以相印迎之。甘茂德王之賜，好為王臣，故辭而不往。今王何以禮之？」齊王曰：「善。」即位之上卿而處之。秦因復甘茂之家以市於齊。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji071-022:a001",
+          "paragraph_id": "c-shiji-071-chugan:p013",
+          "start": 251,
+          "end": 253,
+          "surface": "上卿",
+          "person_mention_id": "c-shiji-071-chugan:m013-0262",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-071-chugan",
+              "source_id": "s-shiji-071-chugan",
+              "paragraph_id": "c-shiji-071-chugan:p013",
+              "quote": "甘茂之亡秦奔齊，逢蘇代。代為齊使於秦。甘茂曰：「臣得罪於秦，懼而遯逃，無所容跡。臣聞貧人女與富人女會績，貧人女曰：『我無以買燭，而子之燭光幸有餘，子可分我餘光，無損子明而得一斯便焉。』今臣困而君方使秦而當路矣。茂之妻子在焉，願君以餘光振之。」蘇代許諾。遂致使於秦。已，因說秦王曰：「甘茂，非常士也。其居於秦，累世重矣。自殽塞及至鬼谷，其地形險易皆明知之。彼以齊約韓魏反以圖秦，非秦之利也。」秦王曰：「然則柰何？」蘇代曰：「王不若重其贄，厚其祿以迎之，使彼來則置之鬼谷，終身勿出。」秦王曰：「善。」即賜之上卿，以相印迎之於齊。甘茂不往。蘇代謂齊湣王曰：「夫甘茂，賢人也。今秦賜之上卿，以相印迎之。甘茂德王之賜，好為王臣，故辭而不往。今王何以禮之？」齊王曰：「善。」即位之上卿而處之。秦因復甘茂之家以市於齊。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源秦王即賜之上卿、以相印迎於齊，但甘茂不往；授予與赴任分記，不新增已實任秦相。未以不往推定所有爵號被撤銷，也未確定有效起訖日期。",
+      "reviewer": "Codex（AI 代理）",
+      "granting_polity": {
+        "source_name": "秦",
+        "place_id": null,
+        "modern_identification": null,
+        "authority_person_id": "f4j_73i_aup",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-071-chugan",
+            "source_id": "s-shiji-071-chugan",
+            "paragraph_id": "c-shiji-071-chugan:p013",
+            "quote": "秦王曰：「善。」即賜之上卿，以相印迎之於齊。甘茂不往。",
+            "person_mention_id": "c-shiji-071-chugan:m013-0240"
+          }
+        ]
+      },
+      "service_realization": {
+        "status": "not_taken_up",
+        "source_term": "甘茂不往",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-071-chugan",
+            "source_id": "s-shiji-071-chugan",
+            "paragraph_id": "c-shiji-071-chugan:p013",
+            "quote": "甘茂之亡秦奔齊，逢蘇代。代為齊使於秦。甘茂曰：「臣得罪於秦，懼而遯逃，無所容跡。臣聞貧人女與富人女會績，貧人女曰：『我無以買燭，而子之燭光幸有餘，子可分我餘光，無損子明而得一斯便焉。』今臣困而君方使秦而當路矣。茂之妻子在焉，願君以餘光振之。」蘇代許諾。遂致使於秦。已，因說秦王曰：「甘茂，非常士也。其居於秦，累世重矣。自殽塞及至鬼谷，其地形險易皆明知之。彼以齊約韓魏反以圖秦，非秦之利也。」秦王曰：「然則柰何？」蘇代曰：「王不若重其贄，厚其祿以迎之，使彼來則置之鬼谷，終身勿出。」秦王曰：「善。」即賜之上卿，以相印迎之於齊。甘茂不往。蘇代謂齊湣王曰：「夫甘茂，賢人也。今秦賜之上卿，以相印迎之。甘茂德王之賜，好為王臣，故辭而不往。今王何以禮之？」齊王曰：「善。」即位之上卿而處之。秦因復甘茂之家以市於齊。",
+            "person_mention_id": "c-shiji-071-chugan:m013-0000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "th-shiji071-023",
+      "person_id": "oaj_udd_7d9",
+      "title": "武王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p003",
+          "quote": "秦惠王卒，太子武王立，逐張儀、魏章，而以樗里子、甘茂為左右丞相。秦使甘茂攻韓，拔宜陽。使樗里子以車百乘入周。周以卒迎之，意甚敬。楚王怒，讓周，以其重秦客。游騰為周說楚王曰：「知伯之伐仇猶，遺之廣車，因隨之以兵，仇猶遂亡。何則？無備故也。齊桓公伐蔡，號曰誅楚，其實襲蔡。今秦，虎狼之國，使樗里子以車百乘入周，周以仇猶、蔡觀焉，故使長戟居前，彊弩在後，名曰衛疾，而實囚之。且夫周豈能無憂其社稷哉？恐一旦亡國以憂大王。」楚王乃悅。",
+          "person_mention_id": "c-shiji-071-chugan:m003-0005"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji071-023:a001",
+          "paragraph_id": "c-shiji-071-chugan:p003",
+          "start": 7,
+          "end": 9,
+          "surface": "武王",
+          "person_mention_id": "c-shiji-071-chugan:m003-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-071-chugan",
+              "source_id": "s-shiji-071-chugan",
+              "paragraph_id": "c-shiji-071-chugan:p003",
+              "quote": "秦惠王卒，太子武王立，逐張儀、魏章，而以樗里子、甘茂為左右丞相。秦使甘茂攻韓，拔宜陽。使樗里子以車百乘入周。周以卒迎之，意甚敬。楚王怒，讓周，以其重秦客。游騰為周說楚王曰：「知伯之伐仇猶，遺之廣車，因隨之以兵，仇猶遂亡。何則？無備故也。齊桓公伐蔡，號曰誅楚，其實襲蔡。今秦，虎狼之國，使樗里子以車百乘入周，周以仇猶、蔡觀焉，故使長戟居前，彊弩在後，名曰衛疾，而實囚之。且夫周豈能無憂其社稷哉？恐一旦亡國以憂大王。」楚王乃悅。",
+              "person_mention_id": "c-shiji-071-chugan:m003-0005"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本文明示武王立、昭王立；王名是來源用稱，不表示即位時已得諡號，不以卒日推王名用稱終點。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji071-024",
+      "person_id": "f4j_73i_aup",
+      "title": "昭王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p004",
+          "quote": "秦武王卒，昭王立，樗里子又益尊重。",
+          "person_mention_id": "c-shiji-071-chugan:m004-0005"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji071-024:a001",
+          "paragraph_id": "c-shiji-071-chugan:p004",
+          "start": 5,
+          "end": 7,
+          "surface": "昭王",
+          "person_mention_id": "c-shiji-071-chugan:m004-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-071-chugan",
+              "source_id": "s-shiji-071-chugan",
+              "paragraph_id": "c-shiji-071-chugan:p004",
+              "quote": "秦武王卒，昭王立，樗里子又益尊重。",
+              "person_mention_id": "c-shiji-071-chugan:m004-0005"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本文明示武王立、昭王立；王名是來源用稱，不表示即位時已得諡號，不以卒日推王名用稱終點。",
       "reviewer": "Codex（AI 代理）"
     }
   ]
