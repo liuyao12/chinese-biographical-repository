@@ -497,6 +497,27 @@
   ],
   "relations": [
     {
+      "id": "a-shiji011-007",
+      "subject_person_id": "7tm_3ss_4on_*A",
+      "predicate": "grandfather",
+      "object_person_id": "7tm_3ss_4on",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p009",
+          "quote": "中元年，封故御史大夫周苛孫平為繩侯，故御史大夫周昌（子）［孫］左車為安陽侯，四月乙巳，赦天下，賜爵一級。除禁錮。地動。衡山、原都雨雹，大者尺八寸。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存來源明示關係，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji096-001",
       "subject_person_id": "anb_2wd_5ci",
       "predicate": "agnatic_cousin",
@@ -535,6 +556,27 @@
       },
       "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji096-002",
+      "subject_person_id": "anb_2wd_5ci_A",
+      "predicate": "father",
+      "object_person_id": "anb_2wd_5ci",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p004",
+          "quote": "漢王四年，楚圍漢王滎陽急，漢王遁出去，而使周苛守滎陽城。楚破滎陽城，欲令周苛將。苛罵曰：「若趣降漢王！不然，今為虜矣！」項羽怒，亨周苛。於是乃拜周昌為御史大夫。常從擊破項籍。以六年中與蕭、曹等俱封：封周昌為汾陰侯；周苛子周成以父死事，封為高景侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "周苛子周成",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -545,6 +587,96 @@
     "u7w_vak_29r": "周昌（張丞相列傳候選）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "7tm_3ss_4on",
+    "anb_2wd_5ci"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji011-007",
+      "subject_person_id": "7tm_3ss_4on_*A",
+      "predicate": "grandfather",
+      "object_person_id": "7tm_3ss_4on",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p009",
+          "quote": "中元年，封故御史大夫周苛孫平為繩侯，故御史大夫周昌（子）［孫］左車為安陽侯，四月乙巳，赦天下，賜爵一級。除禁錮。地動。衡山、原都雨雹，大者尺八寸。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存來源明示關係，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji096-001",
+      "subject_person_id": "anb_2wd_5ci",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "u7w_vak_29r",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p003",
+          "quote": "周昌者，沛人也。其從兄曰周苛，秦時皆為泗水卒史。及高祖起沛，擊破泗水守監，於是周昌、周苛自卒史從沛公，沛公以周昌為職志，周苛為客。從入關，破秦。沛公立為漢王，以周苛為御史大夫，周昌為中尉。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其從兄曰周苛",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "anb_2wd_5ci",
+          "younger_person_id": "u7w_vak_29r",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji096-002",
+      "subject_person_id": "anb_2wd_5ci_A",
+      "predicate": "father",
+      "object_person_id": "anb_2wd_5ci",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p004",
+          "quote": "漢王四年，楚圍漢王滎陽急，漢王遁出去，而使周苛守滎陽城。楚破滎陽城，欲令周苛將。苛罵曰：「若趣降漢王！不然，今為虜矣！」項羽怒，亨周苛。於是乃拜周昌為御史大夫。常從擊破項籍。以六年中與蕭、曹等俱封：封周昌為汾陰侯；周苛子周成以父死事，封為高景侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "周苛子周成",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji007-027",

@@ -175,6 +175,48 @@
       },
       "interpretation_note": "保存本篇明示世系或兄弟關係；繼位不另推父子，古世系未核底本與出土材料，不稱確證。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji031-029",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAB",
+      "predicate": "brother",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p008",
+          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示世系或兄弟關係；繼位不另推父子，古世系未核底本與出土材料，不稱確證。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji031-031",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p021",
+          "quote": "五年，楚之亡臣伍子胥來奔，公子光客之。公子光者，王諸樊之子也。常以爲吾父兄弟四人，當傳至季子。季子即不受國，光父先立。即不傳季子，光當立。陰納賢士，欲以襲王僚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "之子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存本篇明示父母、祖父、兄弟或妃關係；夏史引語保留敘事來源，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -219,6 +261,85 @@
       "event_type": "death"
     }
   ],
+  "name_components": [],
+  "person_ids": [
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji031-025",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p006",
+          "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "有子四人",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長",
+          "interpretation_note": "原文四子長、次、次、次按列舉序保存兒子一至四；不是所有子女排行，不從ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "保存本篇明示世系或兄弟關係；繼位不另推父子，古世系未核底本與出土材料，不稱確證。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji031-029",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAB",
+      "predicate": "brother",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p008",
+          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示世系或兄弟關係；繼位不另推父子，古世系未核底本與出土材料，不稱確證。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji031-031",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p021",
+          "quote": "五年，楚之亡臣伍子胥來奔，公子光客之。公子光者，王諸樊之子也。常以爲吾父兄弟四人，當傳至季子。季子即不受國，光父先立。即不傳季子，光當立。陰納賢士，欲以襲王僚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "之子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存本篇明示父母、祖父、兄弟或妃關係；夏史引語保留敘事來源，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji031-020",

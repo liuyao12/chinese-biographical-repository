@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "1br_aj6_egz",
+  "canonical_person_id": "1br_aj6_egz",
+  "label": "邛君（西南夷列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "邛君"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji116-017",
+      "person_id": "1br_aj6_egz",
+      "title": "邛君",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p008",
+          "quote": "南越破後，及漢誅且蘭、邛君，并殺筰侯，冄駹皆振恐，請臣置吏。乃以邛都為越巂郡，筰都為沈犁郡，冄駹為汶山郡，廣漢西白馬為武都郡。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji116-017:a001",
+          "paragraph_id": "c-shiji-116-xinanyi:p008",
+          "start": 11,
+          "end": 13,
+          "surface": "邛君",
+          "person_mention_id": "c-shiji-116-xinanyi:m008-0011",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分開。使其子為令記授任；未名子不補姓名。稱君不擴寫王號，番陽原字保留；未知任期端點不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 116,
+      "category": "liezhuan",
+      "title": "西南夷列傳第五十六",
+      "paragraph_id": "c-shiji-116-xinanyi:p008",
+      "count": 1,
+      "quote": "南越破後，及漢誅且蘭、邛君，并殺筰侯，冄駹皆振恐，請臣置吏。乃以邛都為越巂郡，筰都為沈犁郡，冄駹為汶山郡，廣漢西白馬為武都郡。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-116-xinanyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "source_id": "s-shiji116-xinanyi",
+      "source": {
+        "title": "史記／卷116",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷116",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636",
+        "revision_id": 7903636,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位修訂全文12段，末段索隱述贊另層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標題；YL紀年模板保留第一參數，第二參數編輯年標不納正文。正文原字不改，未核影像。",
+          "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "1br_aj6_egz": "邛君（西南夷列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "1br_aj6_egz"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji116-p008-1br_aj6_egz",
+      "person_id": "1br_aj6_egz",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p008",
+          "quote": "南越破後，及漢誅且蘭、邛君，并殺筰侯，冄駹皆振恐，請臣置吏。乃以邛都為越巂郡，筰都為沈犁郡，冄駹為汶山郡，廣漢西白馬為武都郡。",
+          "person_mention_id": "c-shiji-116-xinanyi:m008-0011"
+        }
+      ],
+      "interpretation_note": "依明示殺或誅記個人死亡；頭蘭、且蘭國名及群體不另拆死亡人物。跨段未知紀年不補，死亡不自動終止所有稱號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

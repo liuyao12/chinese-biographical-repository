@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "id": "yqp_nlb_p1p_AEBA",
+  "canonical_person_id": "449_z10_mji_A",
+  "label": "yqp_nlb_p1p_AEBA",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "哀王福"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji050-026",
+      "person_id": "449_z10_mji_A",
+      "title": "哀王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p008",
+          "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji050-026:a001",
+          "paragraph_id": "c-shiji-050-chuyuan:p008",
+          "start": 42,
+          "end": 44,
+          "surface": "哀王",
+          "person_mention_id": "c-shiji-050-chuyuan:m008-0042",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第8段時長原語「一年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 1,
+        "unit": "regnal_year",
+        "source_term": "一年卒",
+        "source_number": "一",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p008",
+            "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。",
+            "person_mention_id": "c-shiji-050-chuyuan:m008-0042"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 50,
+      "category": "shijia",
+      "title": "楚元王世家第二十",
+      "paragraph_id": "c-shiji-050-chuyuan:p008",
+      "count": 1,
+      "quote": "，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-050-chuyuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-050",
+      "source_id": "s-shiji-050-chuyuan",
+      "source": {
+        "title": "史記／卷050",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷050",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728",
+        "revision_id": 8737728,
+        "accessed_on": "2026-10-09",
+        "extent": "10段篇文及1段索隱述贊；排除1個空p，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
+          "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji050-014",
+      "subject_person_id": "449_z10_mji_A",
+      "predicate": "father",
+      "object_person_id": "449_z10_mji",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p008",
+          "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子哀王福立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "449_z10_mji": "辟彊（楚元王世家候選）",
+    "449_z10_mji_A": "福（楚元王世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "449_z10_mji_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji050-014",
+      "subject_person_id": "449_z10_mji_A",
+      "predicate": "father",
+      "object_person_id": "449_z10_mji",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p008",
+          "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子哀王福立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji050-015",
+      "person_id": "449_z10_mji_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p008",
+          "quote": "孝文帝即位二年，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。",
+          "person_mention_id": "c-shiji-050-chuyuan:m008-0042"
+        }
+      ],
+      "source_term": "一年卒",
+      "interpretation_note": "來源明示死亡；同段省略主體按前後繼位敘事判讀。立若干年是來源任期，不倒推生日或完整公曆時長，數字紀年待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "id": "mgh_3bh_rit_AA",
+  "canonical_person_id": "mgh_3bh_rit_AA",
+  "label": "掘突（鄭世家武公候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "掘突",
+    "武公",
+    "公"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 42,
+      "category": "shijia",
+      "title": "鄭世家第十二",
+      "paragraph_id": "c-shiji-042-zheng:p002",
+      "count": 8,
+      "quote": "二歳，犬戎殺幽王於驪山下，并殺桓公。鄭人共立其子掘突，是爲武公。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-042-zheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "source_id": "s-shiji-042-zheng",
+      "source": {
+        "title": "史記／卷042",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷042",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
+        "revision_id": 2016409,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
+          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji042-003",
+      "subject_person_id": "mgh_3bh_rit_AA",
+      "predicate": "father",
+      "object_person_id": "mgh_3bh_rit_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p002",
+          "quote": "二歳，犬戎殺幽王於驪山下，并殺桓公。鄭人共立其子掘突，是爲武公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其子掘突",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示子、生育、母稱與兄弟來源主張；不把繼位獨自作父子，不補未知母名或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "mgh_3bh_rit_A": "友（鄭世家桓公候選）",
+    "mgh_3bh_rit_AA": "掘突（鄭世家武公候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "mgh_3bh_rit_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji042-003",
+      "subject_person_id": "mgh_3bh_rit_AA",
+      "predicate": "father",
+      "object_person_id": "mgh_3bh_rit_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p002",
+          "quote": "二歳，犬戎殺幽王於驪山下，并殺桓公。鄭人共立其子掘突，是爲武公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其子掘突",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示子、生育、母稱與兄弟來源主張；不把繼位獨自作父子，不補未知母名或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji042-003",
+      "person_id": "mgh_3bh_rit_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p003",
+          "quote": "武公十年，娶申侯女爲夫人，曰武姜。生太子寤生，生之難，及生，夫人弗愛。後生少子叔段，段生易，夫人愛之。二十七年，武公疾。夫人請公，欲立段爲太子，公弗聽。是歳，武公卒，寤生立，是爲莊公。",
+          "person_mention_id": "c-shiji-042-zheng:m003-0000"
+        }
+      ],
+      "source_term": "武公卒",
+      "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

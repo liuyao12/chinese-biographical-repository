@@ -614,13 +614,102 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji096-001",
+      "subject_person_id": "anb_2wd_5ci",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "u7w_vak_29r",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p003",
+          "quote": "周昌者，沛人也。其從兄曰周苛，秦時皆為泗水卒史。及高祖起沛，擊破泗水守監，於是周昌、周苛自卒史從沛公，沛公以周昌為職志，周苛為客。從入關，破秦。沛公立為漢王，以周苛為御史大夫，周昌為中尉。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其從兄曰周苛",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "anb_2wd_5ci",
+          "younger_person_id": "u7w_vak_29r",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "anb_2wd_5ci": "周苛（張丞相列傳候選）",
     "gfr_55l_72s": "周昌",
     "u7w_vak_29r": "周昌（張丞相列傳候選）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "gfr_55l_72s",
+    "u7w_vak_29r"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji096-001",
+      "subject_person_id": "anb_2wd_5ci",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "u7w_vak_29r",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p003",
+          "quote": "周昌者，沛人也。其從兄曰周苛，秦時皆為泗水卒史。及高祖起沛，擊破泗水守監，於是周昌、周苛自卒史從沛公，沛公以周昌為職志，周苛為客。從入關，破秦。沛公立為漢王，以周苛為御史大夫，周昌為中尉。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其從兄曰周苛",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "anb_2wd_5ci",
+          "younger_person_id": "u7w_vak_29r",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []

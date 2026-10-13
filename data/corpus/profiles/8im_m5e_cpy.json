@@ -672,7 +672,29 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji071-005",
+      "subject_person_id": "xcr_p13_j7x_*A",
+      "predicate": "grandfather",
+      "object_person_id": "xcr_p13_j7x",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p016",
+          "quote": "甘羅者，甘茂孫也。茂既死後，甘羅年十二，事秦相文信侯呂不韋。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "甘茂孫也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "8im_m5e_cpy": "甘茂",
     "xcr_p13_j7x": "甘茂（樗里子甘茂列傳候選）",
@@ -729,6 +751,35 @@
       "title": "左丞相"
     }
   ],
+  "name_components": [],
+  "person_ids": [
+    "8im_m5e_cpy",
+    "xcr_p13_j7x"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji071-005",
+      "subject_person_id": "xcr_p13_j7x_*A",
+      "predicate": "grandfather",
+      "object_person_id": "xcr_p13_j7x",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p016",
+          "quote": "甘羅者，甘茂孫也。茂既死後，甘羅年十二，事秦相文信侯呂不韋。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "甘茂孫也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji071-004",

@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "lef_ipu_r6b",
+  "canonical_person_id": "lef_ipu_r6b",
+  "label": "夏姬（呂不韋列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "夏姬",
+    "夏太后"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji085-010",
+      "person_id": "lef_ipu_r6b",
+      "title": "夏太后",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p007",
+          "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji085-010:a001",
+          "paragraph_id": "c-shiji-085-lubuwei:p007",
+          "start": 48,
+          "end": 51,
+          "surface": "夏太后",
+          "person_mention_id": "c-shiji-085-lubuwei:m007-0048",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-085-lubuwei",
+              "source_id": "s-shiji-085-lubuwei",
+              "paragraph_id": "c-shiji-085-lubuwei:p007",
+              "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 85,
+      "category": "liezhuan",
+      "title": "呂不韋列傳第二十五",
+      "paragraph_id": "c-shiji-085-lubuwei:p002",
+      "count": 6,
+      "quote": "，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-085-lubuwei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-085",
+      "source_id": "s-shiji-085-lubuwei",
+      "source": {
+        "title": "史記／卷085",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷085",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911",
+        "revision_id": 2027911,
+        "accessed_on": "2026-10-09",
+        "extent": "16段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；正文未見括號校讀提示。",
+          "note": "全16段正文與HTML篇界已核讀，明示姓名首輪已存；未核影像與現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji085-002",
+      "subject_person_id": "mby_4zh_oni_A",
+      "predicate": "mother",
+      "object_person_id": "lef_ipu_r6b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子楚母曰夏姬",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "lef_ipu_r6b": "夏姬（呂不韋列傳候選）",
+    "mby_4zh_oni_A": "子楚（呂不韋列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "lef_ipu_r6b"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji085-002",
+      "subject_person_id": "mby_4zh_oni_A",
+      "predicate": "mother",
+      "object_person_id": "lef_ipu_r6b",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子楚母曰夏姬",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

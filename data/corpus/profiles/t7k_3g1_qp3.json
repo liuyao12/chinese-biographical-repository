@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "id": "t7k_3g1_qp3",
+  "canonical_person_id": "t7k_3g1_qp3",
+  "label": "塗山氏之女",
+  "identity_note": "依《夏本紀》敘事建立；不憑同名跨卷合併。",
+  "review": "ai_provisional",
+  "names": [
+    "塗山",
+    "塗山氏之女"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 2,
+      "category": "benji",
+      "title": "夏本紀第二",
+      "paragraph_id": "c-shiji-002-xia:p023",
+      "count": 2,
+      "quote": "，維慢游是好，毋水行舟，朋淫于家，用絕其世。予不能順是。」禹曰：「予娶塗山，辛壬癸甲；生啓，予不子，以故能成水土功。輔成五服，至于五千里，州十二師，外薄四海，咸建五長，各道有功。苗頑不即功，帝其念哉。」帝曰：「道吾德，乃女功序之也。」"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-002-xia",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-002",
+      "source_id": "s-shiji-002-xia",
+      "source": {
+        "title": "史記／卷002",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷002",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
+        "revision_id": 7903612,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "内": "內"
+          },
+          "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji002-010",
+      "subject_person_id": "t4u_no9_s1q",
+      "predicate": "mother",
+      "object_person_id": "t7k_3g1_qp3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-002-xia",
+          "source_id": "s-shiji-002-xia",
+          "paragraph_id": "c-shiji-002-xia:p029",
+          "quote": "夏后帝啓，禹之子，其母塗山氏之女也"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "僅記來源明示的親屬關係，不把繼位推成父子。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji002-011",
+      "subject_person_id": "6ip_dr3_fbl",
+      "predicate": "spouse",
+      "object_person_id": "t7k_3g1_qp3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-002-xia",
+          "source_id": "s-shiji-002-xia",
+          "paragraph_id": "c-shiji-002-xia:p023",
+          "quote": "禹曰：「予娶塗山，辛壬癸甲；生啓"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "依禹自述，與第29段啓母互證；不補出妻子個人姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "6ip_dr3_fbl": "禹",
+    "t4u_no9_s1q": "啓",
+    "t7k_3g1_qp3": "塗山氏之女"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "t7k_3g1_qp3"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji002-010",
+      "subject_person_id": "t4u_no9_s1q",
+      "predicate": "mother",
+      "object_person_id": "t7k_3g1_qp3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-002-xia",
+          "source_id": "s-shiji-002-xia",
+          "paragraph_id": "c-shiji-002-xia:p029",
+          "quote": "夏后帝啓，禹之子，其母塗山氏之女也"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "僅記來源明示的親屬關係，不把繼位推成父子。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji002-011",
+      "subject_person_id": "6ip_dr3_fbl",
+      "predicate": "spouse",
+      "object_person_id": "t7k_3g1_qp3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-002-xia",
+          "source_id": "s-shiji-002-xia",
+          "paragraph_id": "c-shiji-002-xia:p023",
+          "quote": "禹曰：「予娶塗山，辛壬癸甲；生啓"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "依禹自述，與第29段啓母互證；不補出妻子個人姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

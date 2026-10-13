@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "gyn_ff7_fsv",
+  "canonical_person_id": "gyn_ff7_fsv",
+  "label": "孟但（儒林列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "孟但"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji121-041",
+      "person_id": "gyn_ff7_fsv",
+      "title": "太子門大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p019",
+          "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-041:a001",
+          "paragraph_id": "c-shiji-121-rulin:p019",
+          "start": 90,
+          "end": 95,
+          "surface": "太子門大夫",
+          "person_mention_id": "c-shiji-121-rulin:m019-0085",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji121-024",
+      "person_id": "gyn_ff7_fsv",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "廣川",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p019",
+          "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+        }
+      ],
+      "source_term": "廣川人孟但",
+      "interpretation_note": "保留人物介紹中的人地原稱，不推定出生地、居住日期或現代轄區。相鄰人物不自動承受同一原籍。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "廣川人孟但",
+      "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p019",
+      "count": 1,
+      "quote": "人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "gyn_ff7_fsv": "孟但（儒林列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "gyn_ff7_fsv"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

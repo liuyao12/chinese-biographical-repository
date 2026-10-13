@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "0xt_iyn_d3t",
+  "canonical_person_id": "0xt_iyn_d3t",
+  "label": "趙夙（趙世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "趙夙",
+    "夙"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-004",
+      "person_id": "0xt_iyn_d3t",
+      "title": "將",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p008",
+          "quote": "趙夙，晉獻公之十六年伐霍、魏、耿，而趙夙爲將伐霍。霍公求奔齊。晉大旱，卜之，曰「霍太山爲祟」。使趙夙召霍君於齊，復之，以奉霍太山之祀，晉復穰。晉獻公賜趙夙耿。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-004:a001",
+          "paragraph_id": "c-shiji-043-zhao:p008",
+          "start": 21,
+          "end": 22,
+          "surface": "將",
+          "person_mention_id": "c-shiji-043-zhao:m008-0018",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "任事、任命與死後用稱分開；相對紀年未換算，未知端點不由卒日、逃亡、首次用稱或復位推造。御為來源任事用語，制度種類仍須另核。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p007",
+      "count": 7,
+      "quote": "自叔帶以下，趙宗益興，五世而（生）［至］趙夙。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji043-008",
+      "subject_person_id": "0xt_iyn_d3t",
+      "predicate": "ancestor",
+      "object_person_id": "cek_1yy_pne_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p007",
+          "quote": "自叔帶以下，趙宗益興，五世而（生）［至］趙夙。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "自叔帶以下，趙宗益興，五世而（生）［至］趙夙",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-009",
+      "subject_person_id": "0xt_iyn_d3t_A",
+      "predicate": "father",
+      "object_person_id": "0xt_iyn_d3t",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p009",
+          "quote": "夙生共孟，當魯閔公之元年也。共孟生趙衰，字子餘。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "夙生共孟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "0xt_iyn_d3t": "趙夙（趙世家候選）",
+    "0xt_iyn_d3t_A": "共孟（趙世家候選）",
+    "cek_1yy_pne_A": "叔帶（趙世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "0xt_iyn_d3t"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji043-008",
+      "subject_person_id": "0xt_iyn_d3t",
+      "predicate": "ancestor",
+      "object_person_id": "cek_1yy_pne_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p007",
+          "quote": "自叔帶以下，趙宗益興，五世而（生）［至］趙夙。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "自叔帶以下，趙宗益興，五世而（生）［至］趙夙",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-009",
+      "subject_person_id": "0xt_iyn_d3t_A",
+      "predicate": "father",
+      "object_person_id": "0xt_iyn_d3t",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p009",
+          "quote": "夙生共孟，當魯閔公之元年也。共孟生趙衰，字子餘。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "夙生共孟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

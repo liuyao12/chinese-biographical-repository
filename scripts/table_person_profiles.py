@@ -9,6 +9,7 @@ def build(root=ROOT):
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
     people = json.loads((ROOT/'data/corpus/persons.json').read_text())
+    name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
     table_mentions = defaultdict(list)
     for path in sorted((ROOT/'data/historical-tables').glob('shiji-*.json')):
@@ -18,7 +19,14 @@ def build(root=ROOT):
                 for cell in row['cells']:
                     for m in cell['person_mentions']:
                         table_mentions[m['person_id']].append({'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m})
+    bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
+    for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
+        table_mentions.setdefault(pid, [])
     out = ROOT/'data/corpus/profiles'; out.mkdir(exist_ok=True)
+    # Full exports retain older files for historical links; only the current
+    # registry/index defines which profiles belong in this derived directory.
+    for path in out.glob('*.json'):
+        if path.stem != 'index' and path.stem not in table_mentions: path.unlink()
     for pid, cells in sorted(table_mentions.items()):
         if pid in candidates:
             candidate = candidates[pid]
@@ -53,7 +61,12 @@ def build(root=ROOT):
         for cell in cells:
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
-        profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people[pid]['label'],'identity_note':people[pid].get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people.get(pid, {}).get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':people.get(pid, {}).get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        profile['name_components'] = [r for r in name_records if r['person_id'] in own]
+        profile['person_ids'] = b['person_ids']
+        profile['relations'] = b['relations']
+        profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
+        profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])
         profile['selected_life_event_dates'] = b.get('selected_life_event_dates', [])
@@ -63,5 +76,5 @@ def build(root=ROOT):
         p = json.loads((out/f'{pid}.json').read_text())
         entries.append({'id':pid,'label':p['label'],'names':p['names'],'path':f'data/corpus/profiles/{pid}.json','review':p['review']})
     (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
-    print('年表人物頁資料：' ,len(table_mentions),'人')
+    print('閱讀器人物資料：', len(table_mentions), '份 ID 檔（含同指別名，不是不同人物總數）')
 if __name__=='__main__': build()

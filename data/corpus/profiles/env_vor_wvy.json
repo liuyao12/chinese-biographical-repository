@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "env_vor_wvy",
+  "canonical_person_id": "env_vor_wvy",
+  "label": "被濟川王明射殺的中尉（梁孝王世家未名候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "中尉"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji058-050",
+      "person_id": "env_vor_wvy",
+      "title": "中尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p018",
+          "quote": "濟川王明者，梁孝王子，以桓邑侯孝景中六年為濟川王。七歲，坐射殺其中尉，漢有司請誅，天子弗忍誅，廢明為庶人。遷房陵，地入于漢為郡。",
+          "person_mention_id": "c-shiji-058-liang:m018-0032"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji058-050:a001",
+          "paragraph_id": "c-shiji-058-liang:p018",
+          "start": 32,
+          "end": 34,
+          "surface": "中尉",
+          "person_mention_id": "c-shiji-058-liang:m018-0032",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源明示被射殺者官稱，未記授任年月；死亡事件另存，不由卒時自動補官職端點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 58,
+      "category": "shijia",
+      "title": "梁孝王世家第二十八",
+      "paragraph_id": "c-shiji-058-liang:p018",
+      "count": 1,
+      "quote": "濟川王明者，梁孝王子，以桓邑侯孝景中六年為濟川王。七歲，坐射殺其中尉，漢有司請誅，天子弗忍誅，廢明為庶人。遷房陵，地入于漢為郡。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-058-liang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-058",
+      "source_id": "s-shiji-058-liang",
+      "source": {
+        "title": "史記／卷058",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷058",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
+        "revision_id": 8735555,
+        "accessed_on": "2026-10-09",
+        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
+          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "env_vor_wvy": "被濟川王明射殺的中尉（梁孝王世家未名候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "env_vor_wvy"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji058-017",
+      "person_id": "env_vor_wvy",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "七歲",
+      "source_term": "七歲，坐射殺其中尉",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p018",
+          "quote": "濟川王明者，梁孝王子，以桓邑侯孝景中六年為濟川王。七歲，坐射殺其中尉，漢有司請誅，天子弗忍誅，廢明為庶人。遷房陵，地入于漢為郡。",
+          "person_mention_id": "c-shiji-058-liang:m018-0032"
+        }
+      ],
+      "interpretation_note": "明示受害者為濟川王明的未名中尉；七歲屬明王位的來源紀年，不作中尉年齡，未補數字公曆年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

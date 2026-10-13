@@ -378,6 +378,87 @@
     "t9b_1eg_mqs": "田榮（田儋列傳候選）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "6r7_9o6_c1i",
+    "gcd_ek1_6jn"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji007-012",
+      "subject_person_id": "6r7_9o6_c1i",
+      "predicate": "brother",
+      "object_person_id": "0hs_fg6_1qj",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-007-xiangyu:p024",
+          "quote": "田榮弟田橫",
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存來源所述親屬；不補姓名、闕代或以義稱推定血親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji008-009",
+      "subject_person_id": "6r7_9o6_c1i",
+      "predicate": "brother",
+      "object_person_id": "0hs_fg6_1qj",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-008-gaozu:p034",
+          "quote": "田榮弟橫立榮子廣為齊王",
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅記原文明示關係，不推導闕代、同父同母或未見姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji094-003",
+      "subject_person_id": "gcd_ek1_6jn",
+      "predicate": "brother",
+      "object_person_id": "t9b_1eg_mqs",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p001",
+          "quote": "田儋者，狄人也，故齊王田氏族也。儋從弟田榮，榮弟田橫，皆豪，宗彊，能得人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "榮弟田橫",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "t9b_1eg_mqs",
+          "younger_person_id": "gcd_ek1_6jn",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []

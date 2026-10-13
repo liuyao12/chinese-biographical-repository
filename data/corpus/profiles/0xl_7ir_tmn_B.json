@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "0xl_7ir_tmn_B",
+  "canonical_person_id": "0xl_7ir_tmn_B",
+  "label": "孔子之女（弟子列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "其子"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 67,
+      "category": "liezhuan",
+      "title": "仲尼弟子列傳第七",
+      "paragraph_id": "c-shiji-067-disciples:p073",
+      "count": 1,
+      "quote": "孔子曰：「長可妻也，雖在累紲之中，非其罪也。」以其子妻之。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-067-disciples",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "source_id": "s-shiji-067-disciples",
+      "source": {
+        "title": "史記／卷067",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷067",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
+        "revision_id": 7869003,
+        "accessed_on": "2026-10-09",
+        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
+          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji067-008",
+      "subject_person_id": "ts3_cpa_655",
+      "predicate": "spouse",
+      "object_person_id": "0xl_7ir_tmn_B",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p073",
+          "quote": "孔子曰：「長可妻也，雖在累紲之中，非其罪也。」以其子妻之。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以其子妻之",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按以其子妻之的婚配敘事暫定；公冶長配偶與南宮括配偶分存。孔子兄之女不補成孔子之女，不補未名兄長姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji067-009",
+      "subject_person_id": "0xl_7ir_tmn_B",
+      "predicate": "father",
+      "object_person_id": "0xl_7ir_tmn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p073",
+          "quote": "孔子曰：「長可妻也，雖在累紲之中，非其罪也。」以其子妻之。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "孔子以其子妻之",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按以其子妻之的婚配敘事暫定；公冶長配偶與南宮括配偶分存。孔子兄之女不補成孔子之女，不補未名兄長姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "0xl_7ir_tmn": "孔子（弟子列傳候選）",
+    "0xl_7ir_tmn_B": "孔子之女（弟子列傳候選）",
+    "ts3_cpa_655": "公冶長（弟子列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "0xl_7ir_tmn_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji067-008",
+      "subject_person_id": "ts3_cpa_655",
+      "predicate": "spouse",
+      "object_person_id": "0xl_7ir_tmn_B",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p073",
+          "quote": "孔子曰：「長可妻也，雖在累紲之中，非其罪也。」以其子妻之。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以其子妻之",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按以其子妻之的婚配敘事暫定；公冶長配偶與南宮括配偶分存。孔子兄之女不補成孔子之女，不補未名兄長姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji067-009",
+      "subject_person_id": "0xl_7ir_tmn_B",
+      "predicate": "father",
+      "object_person_id": "0xl_7ir_tmn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p073",
+          "quote": "孔子曰：「長可妻也，雖在累紲之中，非其罪也。」以其子妻之。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "孔子以其子妻之",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按以其子妻之的婚配敘事暫定；公冶長配偶與南宮括配偶分存。孔子兄之女不補成孔子之女，不補未名兄長姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

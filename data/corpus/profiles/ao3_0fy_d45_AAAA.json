@@ -1159,6 +1159,107 @@
     "z0a_bdl_gn5_B": "胡亥（李斯列傳候選）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "ao3_0fy_d45_AAAA",
+    "it8_m2p_rrk",
+    "kgu_kyi_v35",
+    "z0a_bdl_gn5_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-076",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p075",
+          "quote": "始皇帝立十一年而崩，子胡亥立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-006",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p048",
+          "quote": "始皇出游。左丞相斯從，右丞相去疾守。少子胡亥愛慕請從",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "ao3_0fy_d45_AAA",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "interpretation_note": "僅記本段明示親屬主張；不補生母、出生日期或同母關係。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-039",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p104",
+          "quote": "始皇享國三十七年。葬酈邑。生二世皇帝。始皇生十三年而立。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji087-003",
+      "subject_person_id": "z0a_bdl_gn5_B",
+      "predicate": "father",
+      "object_person_id": "z0a_bdl_gn5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p012",
+          "quote": "始皇三十七年十月，行出游會稽，並海上，北抵琅邪。丞相斯、中車府令趙高兼行符璽令事，皆從。始皇有二十餘子，長子扶蘇以數直諫上，上使監兵上郡，蒙恬為將。少子胡亥愛，請從，上許之。餘子莫從。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子胡亥",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示長男、長子、少子、中子及引古其父的來源主張。子嬰世系、其子指代、妻子群體與閻樂女婿關係尚待補證，不補未名母系或配偶。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji005-108",

@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "id": "inr_w1g_bu5",
+  "canonical_person_id": "inr_w1g_bu5",
+  "label": "子襄（孔子世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "子襄"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji047-035",
+      "person_id": "inr_w1g_bu5",
+      "title": "博士",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji047-035:a001",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "start": 16,
+          "end": 18,
+          "surface": "博士",
+          "person_mention_id": "c-shiji-047-kong:m083-0002",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-047-kong",
+              "source_id": "s-shiji-047-kong",
+              "paragraph_id": "c-shiji-047-kong:p083",
+              "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。",
+              "person_mention_id": "c-shiji-047-kong:m083-0002"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "任事、既有用稱與遷為分存；首次用稱、蚤卒、死於陳下或給定年齡不推全部官爵起訖，未名帝稱不補姓名及任期。 本段由原職轉任下一職，依明示職務轉換保存原職終點；具體日期未知，不借死亡或其他任期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji047-036",
+      "person_id": "inr_w1g_bu5",
+      "title": "長沙太守",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji047-036:a001",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "start": 21,
+          "end": 25,
+          "surface": "長沙太守",
+          "person_mention_id": "c-shiji-047-kong:m083-0002",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-047-kong",
+              "source_id": "s-shiji-047-kong",
+              "paragraph_id": "c-shiji-047-kong:p083",
+              "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "任事、既有用稱與遷為分存；首次用稱、蚤卒、死於陳下或給定年齡不推全部官爵起訖，未名帝稱不補姓名及任期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 47,
+      "category": "shijia",
+      "title": "孔子世家第十七",
+      "paragraph_id": "c-shiji-047-kong:p083",
+      "count": 2,
+      "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-047-kong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-047",
+      "source_id": "s-shiji-047-kong",
+      "source": {
+        "title": "史記／卷047",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷047",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
+        "revision_id": 7903609,
+        "accessed_on": "2026-10-09",
+        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
+          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji047-018",
+      "subject_person_id": "inr_w1g_bu5",
+      "predicate": "brother",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "鮒弟子襄",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji047-019",
+      "subject_person_id": "inr_w1g_bu5_A",
+      "predicate": "father",
+      "object_person_id": "inr_w1g_bu5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p084",
+          "quote": "子襄生忠，年五十七。忠生武，武生延年及安國。安國為今皇帝博士，至臨淮太守，蚤卒。安國生卬，卬生驩。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子襄生忠",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "f8d_j5p_nop_AAAAAAAAAAA": "鮒（孔子世家候選）",
+    "inr_w1g_bu5": "子襄（孔子世家候選）",
+    "inr_w1g_bu5_A": "忠（孔子世家世系候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "inr_w1g_bu5"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji047-018",
+      "subject_person_id": "inr_w1g_bu5",
+      "predicate": "brother",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p083",
+          "quote": "鮒弟子襄，年五十七。嘗為孝惠皇帝博士，遷為長沙太守。長九尺六寸。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "鮒弟子襄",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji047-019",
+      "subject_person_id": "inr_w1g_bu5_A",
+      "predicate": "father",
+      "object_person_id": "inr_w1g_bu5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p084",
+          "quote": "子襄生忠，年五十七。忠生武，武生延年及安國。安國為今皇帝博士，至臨淮太守，蚤卒。安國生卬，卬生驩。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子襄生忠",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
