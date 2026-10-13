@@ -38,3 +38,12 @@ test('person navigation retains a bounded source-table context', () => {
   assert.equal(profileURL('abc_def_123', 'https://example.com'), 'person.html#abc_def_123');
   assert.match(markCell({id: 'shiji-021-t1-r006-c02', text: '侯劉成元年。', person_mentions: [{start: 1, end: 3, surface: '劉成', person_id: 'abc_def_123'}]}), /person.html\?table=shiji-021#abc_def_123/);
 });
+
+test('full person page renders the checked primary passage for a table identity decision', () => {
+  const html = personCard({id: '1c8_u63_bk4_G', label: '彭祖', table_occurrences: [{table_id: 'shiji-017', cell_id: 'shiji-017-t1-r052-c17', title: '《史記·漢興以來諸侯王年表》', year: null, quote: '王彭祖元年。景帝子。', mention: {identity_evidence: [{chapter_id: 'c-shiji-059-wuzong', paragraph_id: 'c-shiji-059-wuzong:p017', quote: '趙王彭祖', source_revision: 2621125}]}}]}, true);
+  assert.match(html, /人物同指的篇文證據/);
+  assert.match(html, /趙王彭祖/);
+  assert.match(html, /chapter=59/);
+  assert.match(html, /passage=c-shiji-059-wuzong/);
+  assert.match(html, /2621125/);
+});
