@@ -1787,7 +1787,6 @@
 | `bsx_usd_ats` | 伊尹引古 | [《史記・春申君列傳》][60] | [JSON](bsx_usd_ats.json) |
 | `bt2_5iy_rhq` | 太常臧 | [《史記・儒林列傳》][103] | [JSON](bt2_5iy_rhq.json) |
 | `bt3_1wn_4hf` | 綰 | [《史記・孝景本紀》][11] | [JSON](bt3_1wn_4hf.json) |
-| `btm_i0w_9n1` | 秦昭王 | [《史記・呂不韋列傳》][67] | [JSON](btm_i0w_9n1.json) |
 | `btq_wmp_kuw` | 趙綰 | [《史記・魏其武安侯列傳》][89] | [JSON](btq_wmp_kuw.json) |
 | `bty_4r4_dtw` | 向壽 | [《史記・穰侯列傳》][54] | [JSON](bty_4r4_dtw.json) |
 | `bu8_4ec_il7` | 陽虎 | [《史記・趙世家》][25] | [JSON](bu8_4ec_il7.json) |
@@ -2231,6 +2230,7 @@
 | `eoz_9z7_vgp` | 駟鈞 | [《史記・太史公自序》][112] | [JSON](eoz_9z7_vgp.json) |
 | `epd_7nt_bg9` | 黥布 | [《史記・蕭相國世家》][35] | [JSON](epd_7nt_bg9.json) |
 | `epd_st0_lry` | 公良孺 | [《史記・孔子世家》][29] | [JSON](epd_st0_lry.json) |
+| `epe_dhb_577` | 齊威王 | [《史記・儒林列傳》][103] | [JSON](epe_dhb_577.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

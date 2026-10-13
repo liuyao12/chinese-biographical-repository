@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tf4_u8e_55t` | 魏哆 | [《史記・趙世家》][25] | [JSON](tf4_u8e_55t.json) |
-| `tfu_611_q19` | 潁陰侯嬰（本段稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tfu_611_q19.json) |
-| `tfz_fnj_ejn` | 廉頗 | [《史記・廉頗藺相如列傳》][63] | [JSON](tfz_fnj_ejn.json) |
 | `tgg_rko_ryw` | 李延年 | [《史記・平津侯主父列傳》][94] | [JSON](tgg_rko_ryw.json) |
 | `tgy_187_vt8` | 盧卿（匈奴列傳第24段） | [《史記・匈奴列傳》][92] | [JSON](tgy_187_vt8.json) |
 | `tgy_zyu_6ro` | 褚大 | [《史記・儒林列傳》][103] | [JSON](tgy_zyu_6ro.json) |
