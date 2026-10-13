@@ -6,6 +6,29 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FanCaiIdentityTests(unittest.TestCase):
+    def test_mavfu_short_form_at_changping_is_the_son_not_zhao_she(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        mentions = [m for p in chapter['paragraphs'] for m in p['mentions'] if m['surface'] in ('馬服子', '馬服')]
+        self.assertEqual(len(mentions), 2)
+        self.assertEqual({m['person_id'] for m in mentions}, {'ja0_1pr_vhk'})
+        lianlin = json.loads((ROOT / 'corpus/shiji/081.json').read_text())
+        paragraph = next(p for p in lianlin['paragraphs'] if p['id'].endswith(':p014'))
+        fathers = [m for m in paragraph['mentions'] if m['surface'] == '趙奢']
+        self.assertTrue(fathers)
+        self.assertTrue(all(m['person_id'] != 'ja0_1pr_vhk' for m in fathers))
+        self.assertIn('馬服君趙奢之子趙括', paragraph['text'])
+
+    def test_hanzi_attribution_retains_proverb_scope(self):
+        decisions = json.loads((ROOT / 'corpus/shiji/079-equivalences.json').read_text())['decisions']
+        decision = next(d for d in decisions if d['id'] == 'eq-shiji079-hanfei')
+        self.assertEqual(decision['person_ids'], ['n2o_l90_fnm'])
+        self.assertEqual(decision['references'][0]['quote'], '鄙諺曰：「長袖善舞，多錢善賈。」')
+        self.assertFalse(decision['references'][0]['image_verified'])
+        self.assertIn('不確證整部韓非子各篇作者', decision['rationale'])
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        self.assertTrue(any(m['surface'] == '魏王' and m['person_id'] in ('apo_85x_sj0', '5md_xfr_2k3')
+                            for p in chapter['paragraphs'] for m in p['mentions']))
+
     def test_minister_identities_do_not_harmonize_death_accounts(self):
         chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
         paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p032'))
