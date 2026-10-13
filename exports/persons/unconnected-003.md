@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t5j_k98_rwe` | 孟嘗君 | [《史記・太史公自序》][112] | [JSON](t5j_k98_rwe.json) |
-| `t5l_nxu_k7z` | 沃丁 | [《史記・殷本紀》][3] | [JSON](t5l_nxu_k7z.json) |
-| `t63_083_cf1` | 蒙恬 | [《史記・太史公自序》][112] | [JSON](t63_083_cf1.json) |
-| `t6d_sky_m3x` | 郭解兄子（未名） | [《史記・游俠列傳》][106] | [JSON](t6d_sky_m3x.json) |
-| `t6k_vke_hya` | 周太史（楚昭王問赤雲者） | [《史記・楚世家》][22] | [JSON](t6k_vke_hya.json) |
-| `t6o_4u4_qj2` | 太子丹 | [《史記・李將軍列傳》][91] | [JSON](t6o_4u4_qj2.json) |
-| `t7d_a7w_vrk` | 郭解母（未名） | [《史記・游俠列傳》][106] | [JSON](t7d_a7w_vrk.json) |
 | `t7i_qd8_pmb` | 蕭何 | [《史記・樊酈滕灌列傳》][77] | [JSON](t7i_qd8_pmb.json) |
 | `t7k_3g1_qp3` | 塗山氏之女 | [《史記・夏本紀》][2] | [JSON](t7k_3g1_qp3.json) |
 | `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][49] | [JSON](t7x_2x7_1fc.json) |
@@ -392,7 +385,6 @@
 | `vti_9il_trm` | 今上 | [《史記・龜策列傳》][110] | [JSON](vti_9il_trm.json) |
 | `vti_onv_iur` | 秦穆公 | [《史記・扁鵲倉公列傳》][87] | [JSON](vti_onv_iur.json) |
 | `vtj_31m_zlc` | 樂欬 | [《史記・仲尼弟子列傳》][49] | [JSON](vtj_31m_zlc.json) |
-| `vtk_lf8_3ue` | 栗腹 | [《史記・廉頗藺相如列傳》][63] | [JSON](vtk_lf8_3ue.json) |
 | `vtn_thh_540` | 申不害 | [《史記・老子韓非列傳》][45] | [JSON](vtn_thh_540.json) |
 | `vud_z3k_zfc` | 上黨郡守（韓世家未名者） | [《史記・韓世家》][27] | [JSON](vud_z3k_zfc.json) |
 | `vug_czu_mzb` | 莊生之婦（越世家未名者） | [《史記・越王勾踐世家》][23] | [JSON](vug_czu_mzb.json) |

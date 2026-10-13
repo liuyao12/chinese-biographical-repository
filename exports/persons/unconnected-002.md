@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ej1_app_vbi` | 太史公 | [《史記・陳丞相世家》][38] | [JSON](ej1_app_vbi.json) |
-| `ej1_px0_oja` | 沃甲 | [《史記・殷本紀》][3] | [JSON](ej1_px0_oja.json) |
-| `ej5_85e_5xj` | 息（大行） | [《史記・淮南衡山列傳》][100] | [JSON](ej5_85e_5xj.json) |
-| `ej5_fv0_qii` | 晉平公 | [《史記・鄭世家》][24] | [JSON](ej5_fv0_qii.json) |
-| `ejl_xm5_780` | 公叔氏（孔子世家蒲畔未名者） | [《史記・孔子世家》][29] | [JSON](ejl_xm5_780.json) |
 | `ejp_e4r_st7` | 石乞 | [《史記・仲尼弟子列傳》][49] | [JSON](ejp_e4r_st7.json) |
 | `ejx_n17_vnl` | 齊中大夫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ejx_n17_vnl.json) |
 | `ek7_93z_gap` | 趙簡子 | [《史記・扁鵲倉公列傳》][87] | [JSON](ek7_93z_gap.json) |
@@ -1014,7 +1009,6 @@
 | `l8u_dr5_a97` | 丙戎 | [《史記・齊太公世家》][14] | [JSON](l8u_dr5_a97.json) |
 | `l9a_lun_z7u` | 路充國（匈奴列傳第48段） | [《史記・匈奴列傳》][92] | [JSON](l9a_lun_z7u.json) |
 | `l9e_fbr_36a` | 倉 | [《史記・韓世家》][27] | [JSON](l9e_fbr_36a.json) |
-| `l9s_24a_7a3` | 趙括 | [《史記・白起王翦列傳》][55] | [JSON](l9s_24a_7a3.json) |
 | `l9t_94i_2xm` | 郄（晉鄂侯） | [《史記・晉世家》][21] | [JSON](l9t_94i_2xm.json) |
 | `l9w_b0y_aow` | 吳王濞 | [《史記・齊悼惠王世家》][34] | [JSON](l9w_b0y_aow.json) |
 | `l9w_xva_6q0` | 霍公（趙世家未名者） | [《史記・趙世家》][25] | [JSON](l9w_xva_6q0.json) |
@@ -1102,7 +1096,6 @@
 | `ltn_go2_3eu` | 遠吏故事妾 | [《史記・蘇秦列傳》][51] | [JSON](ltn_go2_3eu.json) |
 | `ltv_hb9_iam` | 猗頓 | [《史記・陳涉世家》][30] | [JSON](ltv_hb9_iam.json) |
 | `ltw_z5b_t1x` | 北海太守（未名） | [《史記・滑稽列傳》][108] | [JSON](ltw_z5b_t1x.json) |
-| `lu3_ob9_3ri` | 白起 | [《史記・廉頗藺相如列傳》][63] | [JSON](lu3_ob9_3ri.json) |
 | `lue_xus_em2` | 公甫文伯 | [《史記・平原君虞卿列傳》][58] | [JSON](lue_xus_em2.json) |
 | `lui_r6i_tzm` | 東牟侯未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](lui_r6i_tzm.json) |
 | `lve_fqh_8v6` | 成進 | [《史記・平津侯主父列傳》][94] | [JSON](lve_fqh_8v6.json) |
@@ -2242,6 +2235,13 @@
 | `t5e_f83_p7l` | 太子未詳名 | [《史記・張丞相列傳》][78] | [JSON](t5e_f83_p7l.json) |
 | `t5i_u1b_9w1` | 蘇厲 | [《史記・陳涉世家》][30] | [JSON](t5i_u1b_9w1.json) |
 | `t5j_h0l_x87` | 倉海君 | [《史記・留侯世家》][37] | [JSON](t5j_h0l_x87.json) |
+| `t5j_k98_rwe` | 孟嘗君 | [《史記・太史公自序》][112] | [JSON](t5j_k98_rwe.json) |
+| `t5l_nxu_k7z` | 沃丁 | [《史記・殷本紀》][3] | [JSON](t5l_nxu_k7z.json) |
+| `t63_083_cf1` | 蒙恬 | [《史記・太史公自序》][112] | [JSON](t63_083_cf1.json) |
+| `t6d_sky_m3x` | 郭解兄子（未名） | [《史記・游俠列傳》][106] | [JSON](t6d_sky_m3x.json) |
+| `t6k_vke_hya` | 周太史（楚昭王問赤雲者） | [《史記・楚世家》][22] | [JSON](t6k_vke_hya.json) |
+| `t6o_4u4_qj2` | 太子丹 | [《史記・李將軍列傳》][91] | [JSON](t6o_4u4_qj2.json) |
+| `t7d_a7w_vrk` | 郭解母（未名） | [《史記・游俠列傳》][106] | [JSON](t7d_a7w_vrk.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
