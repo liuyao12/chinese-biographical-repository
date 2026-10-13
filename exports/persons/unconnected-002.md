@@ -984,7 +984,6 @@
 | `koz_25l_kwv` | 桃侯（項氏） | [《史記・項羽本紀》][7] | [JSON](koz_25l_kwv.json) |
 | `kp0_vu0_i9h` | 垂 | [《史記・五帝本紀》][1] | [JSON](kp0_vu0_i9h.json) |
 | `kpg_v1c_i19` | 殷忠 | [《史記・儒林列傳》][103] | [JSON](kpg_v1c_i19.json) |
-| `kpo_jte_1tu` | 白公引古未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](kpo_jte_1tu.json) |
 | `kpo_p95_52g` | 文王引古 | [《史記・平原君虞卿列傳》][58] | [JSON](kpo_p95_52g.json) |
 | `kq8_9zr_p86` | 武帝 | [《史記・滑稽列傳》][108] | [JSON](kq8_9zr_p86.json) |
 | `kq9_ezn_kth` | 力牧 | [《史記・五帝本紀》][1] | [JSON](kq9_ezn_kth.json) |
@@ -2242,6 +2241,7 @@
 | `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
+| `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
