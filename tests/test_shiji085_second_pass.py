@@ -11,6 +11,9 @@ class LuBuweiSecondPassTests(unittest.TestCase):
         self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface'] in ('華陽后','華陽太后')},{'jb2_tak_5p8'})
         a=json.loads((ROOT/'corpus/shiji/085-assertions.json').read_text())['assertions']
         self.assertFalse(any(x['predicate']=='mother' and x['object_person_id']=='jb2_tak_5p8' for x in a))
+        adopted=next(x for x in a if x['predicate']=='adoptive_mother')
+        self.assertEqual((adopted['subject_person_id'],adopted['object_person_id']),('ao3_0fy_d45_AA','jb2_tak_5p8'))
+        self.assertIn('所母',adopted['qualifiers']['source_term'])
 
     def test_mother_identity_does_not_resolve_biological_father_or_other_taihou(self):
         c=json.loads((ROOT/'corpus/shiji/085.json').read_text())

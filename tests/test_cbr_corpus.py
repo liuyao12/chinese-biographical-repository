@@ -14,6 +14,9 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_adoptive_mother_requires_explicit_received_term(self):
+        self.change('corpus/shiji/085-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='母'))
+        self.assertIn('所母關係須保存原詞，不得由一般母稱推定', v.validate(self.root))
     def test_household_revenue_cannot_be_relabelled_residence(self):
         self.change('corpus/shiji/085-addresses.json', lambda d: d['assertions'][1].update(relation='residence'))
         self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
