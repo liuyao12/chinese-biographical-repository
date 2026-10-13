@@ -40,7 +40,16 @@
       ],
       "qualifiers": {
         "source_term": "田嬰者，齊威王少子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "parent_person_id": "7s4_7ac_lhn",
+          "scope": "sons_of_parent",
+          "interpretation_status": "ambiguous",
+          "source_term": "少子",
+          "interpretation_note": "少子保存較幼或最幼兒子的未定語義，未明總數及確切序號，不以家族ID分支推排行。"
+        }
       },
       "interpretation_note": "按明示父、少子、庶弟及生文母保存；庶弟不補同母，賤妾不當配偶主張。其母因兄弟未補兄弟所屬，祖孫定義對話不補後裔，諸子爭立不造個別子名。",
       "reviewer": "Codex（AI 代理）"
@@ -61,7 +70,17 @@
       ],
       "qualifiers": {
         "source_term": "齊宣王庶弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "oa0_nm7_e6f",
+          "younger_person_id": "7s4_7ac_lhn_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
       "interpretation_note": "按明示父、少子、庶弟及生文母保存；庶弟不補同母，賤妾不當配偶主張。其母因兄弟未補兄弟所屬，祖孫定義對話不補後裔，諸子爭立不造個別子名。",
       "reviewer": "Codex（AI 代理）"
