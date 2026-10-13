@@ -9,7 +9,8 @@
     "襄王",
     "其子",
     "法章",
-    "齊王"
+    "齊王",
+    "齊襄王法章"
   ],
   "titles": [
     {
@@ -58,7 +59,7 @@
   "addresses": [
     {
       "id": "pa-shiji046-023",
-      "person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "person_id": "1h3_vs7_t8h_A",
       "relation": "residence",
       "place": {
         "source_name": "莒太史敫家",
@@ -85,7 +86,7 @@
     },
     {
       "id": "pa-shiji046-025",
-      "person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "person_id": "1h3_vs7_t8h_A",
       "relation": "residence",
       "place": {
         "source_name": "莒",
@@ -112,7 +113,7 @@
     },
     {
       "id": "pa-shiji046-026",
-      "person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "person_id": "1h3_vs7_t8h_A",
       "relation": "migration_destination",
       "place": {
         "source_name": "臨菑",
@@ -172,7 +173,32 @@
       "quote": "歸田單，兵日益多，乘勝，燕日敗亡，卒至河上，而齊七十餘城皆復為齊。乃迎襄王於莒，入臨菑而聽政。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r194-c08",
+      "title": "《史記·六國年表》",
+      "quote": "齊襄王法章元年",
+      "year": {
+        "era": "BCE",
+        "value": 283,
+        "astronomical_year": -282,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "283",
+        "source_cell_id": "shiji-015-r194-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r194-c08-m000",
+        "start": 0,
+        "end": 5,
+        "surface": "齊襄王法章",
+        "person_id": "1h3_vs7_t8h_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-034-yan",
@@ -312,9 +338,9 @@
     },
     {
       "id": "a-shiji046-029",
-      "subject_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "subject_person_id": "1h3_vs7_t8h_A",
       "predicate": "father",
-      "object_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAA",
+      "object_person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -333,9 +359,9 @@
     },
     {
       "id": "a-shiji046-032",
-      "subject_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAAA",
+      "subject_person_id": "1h3_vs7_t8h_AA",
       "predicate": "father",
-      "object_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "object_person_id": "1h3_vs7_t8h_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -354,7 +380,7 @@
     },
     {
       "id": "a-shiji082-001",
-      "subject_person_id": "pyc_fs9_nif_A",
+      "subject_person_id": "1h3_vs7_t8h_A",
       "predicate": "father",
       "object_person_id": "pyc_fs9_nif",
       "status": "source_attested",
@@ -375,9 +401,9 @@
     },
     {
       "id": "a-shiji082-003",
-      "subject_person_id": "y5g_spw_43b_A",
+      "subject_person_id": "f04_rc9_xqn_A",
       "predicate": "spouse",
-      "object_person_id": "pyc_fs9_nif_A",
+      "object_person_id": "1h3_vs7_t8h_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -398,21 +424,15 @@
   "related_people": {
     "1h3_vs7_t8h": "齊湣王（燕篇）",
     "1h3_vs7_t8h_A": "襄王（齊湣王子）",
-    "pyc_fs9_nif": "齊湣王（田單列傳候選）",
-    "pyc_fs9_nif_A": "法章齊襄王（田單列傳候選）",
-    "r5k_8ce_yre": "齊襄王（樂毅列傳候選）",
-    "y5g_spw_43b_A": "嬓女君王后（田單列傳候選）",
-    "zan_qcc_jy5_AAAAAABAAAAAAAA": "地（田世家湣王候選）",
-    "zan_qcc_jy5_AAAAAABAAAAAAAAA": "法章（田世家襄王候選）",
-    "zan_qcc_jy5_AAAAAABAAAAAAAAAA": "建（田世家末王候選）"
+    "1h3_vs7_t8h_AA": "建（田世家末王候選）",
+    "f04_rc9_xqn_A": "君王后（田世家候選）",
+    "lmu_nbm_rzo_AAAAAAABAAAAAAAA": "地（田世家湣王候選）",
+    "pyc_fs9_nif": "齊湣王（田單列傳候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1h3_vs7_t8h_A",
-    "pyc_fs9_nif_A",
-    "r5k_8ce_yre",
-    "zan_qcc_jy5_AAAAAABAAAAAAAAA"
+    "1h3_vs7_t8h_A"
   ],
   "preferred_relations": [
     {
@@ -438,9 +458,9 @@
     },
     {
       "id": "a-shiji046-029",
-      "subject_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "subject_person_id": "1h3_vs7_t8h_A",
       "predicate": "father",
-      "object_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAA",
+      "object_person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -459,9 +479,9 @@
     },
     {
       "id": "a-shiji046-032",
-      "subject_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAAA",
+      "subject_person_id": "1h3_vs7_t8h_AA",
       "predicate": "father",
-      "object_person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "object_person_id": "1h3_vs7_t8h_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -480,7 +500,7 @@
     },
     {
       "id": "a-shiji082-001",
-      "subject_person_id": "pyc_fs9_nif_A",
+      "subject_person_id": "1h3_vs7_t8h_A",
       "predicate": "father",
       "object_person_id": "pyc_fs9_nif",
       "status": "source_attested",
@@ -501,9 +521,9 @@
     },
     {
       "id": "a-shiji082-003",
-      "subject_person_id": "y5g_spw_43b_A",
+      "subject_person_id": "f04_rc9_xqn_A",
       "predicate": "spouse",
-      "object_person_id": "pyc_fs9_nif_A",
+      "object_person_id": "1h3_vs7_t8h_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -525,7 +545,7 @@
   "life_events": [
     {
       "id": "le-shiji046-047",
-      "person_id": "zan_qcc_jy5_AAAAAABAAAAAAAAA",
+      "person_id": "1h3_vs7_t8h_A",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "十九年",

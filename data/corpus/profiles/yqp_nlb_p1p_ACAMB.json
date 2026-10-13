@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAMB",
-  "canonical_person_id": "1c8_u63_bk4_KB",
-  "label": "yqp_nlb_p1p_ACAMB",
+  "canonical_person_id": "yqp_nlb_p1p_ACAMB",
+  "label": "六安慶（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "慶",
     "六安王",
-    "六安王慶"
+    "六安王慶",
+    "恭王慶"
   ],
   "titles": [
     {
       "id": "th-shiji059-049",
-      "person_id": "1c8_u63_bk4_KB",
+      "person_id": "yqp_nlb_p1p_ACAMB",
       "title": "六安王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -117,7 +118,44 @@
       "quote": "發病而死，不敢置後，於是上（問）［聞］。寄有長子者名賢，母無寵；少子名慶，母愛幸，寄常欲立之，為不次，因有過，遂無言。上憐之，乃以賢為膠東王奉康王嗣，而封慶於故衡山地，為六安王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r086-c13",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "置六安國，以故陳為都。七月丙子。初王恭王慶元年。膠東王子。",
+      "year": {
+        "era": "BCE",
+        "value": 121,
+        "astronomical_year": -120,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "121",
+        "source_cell_id": "shiji-017-t1-r086-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r086-c13-review-018",
+        "start": 18,
+        "end": 21,
+        "surface": "恭王慶",
+        "person_id": "yqp_nlb_p1p_ACAMB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p030",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAMB",
+            "quote": "六安王慶"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -147,9 +185,9 @@
   "relations": [
     {
       "id": "a-shiji059-038",
-      "subject_person_id": "1c8_u63_bk4_KB",
+      "subject_person_id": "yqp_nlb_p1p_ACAMB",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_K",
+      "object_person_id": "yqp_nlb_p1p_ACAM",
       "status": "source_attested",
       "evidence": [
         {
@@ -168,8 +206,8 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_K": "寄（五宗世家候選）",
-    "1c8_u63_bk4_KB": "六安慶（五宗世家候選）"
+    "yqp_nlb_p1p_ACAM": "寄（景帝子）",
+    "yqp_nlb_p1p_ACAMB": "六安慶（五宗世家候選）"
   },
   "dates": [
     {
@@ -201,21 +239,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-049",
-      "person_id": "1c8_u63_bk4_KB",
+      "person_id": "yqp_nlb_p1p_ACAMB",
       "endpoint": "start",
       "title": "六安王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_KB"
+    "yqp_nlb_p1p_ACAMB"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-038",
-      "subject_person_id": "1c8_u63_bk4_KB",
+      "subject_person_id": "yqp_nlb_p1p_ACAMB",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_K",
+      "object_person_id": "yqp_nlb_p1p_ACAM",
       "status": "source_attested",
       "evidence": [
         {

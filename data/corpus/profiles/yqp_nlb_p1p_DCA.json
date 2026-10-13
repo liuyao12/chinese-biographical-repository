@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_DCA",
-  "canonical_person_id": "5jd_t02_cdy",
-  "label": "yqp_nlb_p1p_DCA",
+  "canonical_person_id": "yqp_nlb_p1p_DCA",
+  "label": "戊（楚王）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -13,7 +13,7 @@
   "titles": [
     {
       "id": "th-shiji050-008",
-      "person_id": "n7i_i5n_lay_AA",
+      "person_id": "yqp_nlb_p1p_DCA",
       "title": "王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -70,7 +70,7 @@
     },
     {
       "id": "th-shiji050-009",
-      "person_id": "n7i_i5n_lay_AA",
+      "person_id": "yqp_nlb_p1p_DCA",
       "title": "楚王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -114,7 +114,7 @@
   "addresses": [
     {
       "id": "pa-shiji050-003",
-      "person_id": "n7i_i5n_lay_AA",
+      "person_id": "yqp_nlb_p1p_DCA",
       "relation": "migration_destination",
       "place": {
         "source_name": "梁",
@@ -141,7 +141,7 @@
     },
     {
       "id": "pa-shiji050-004",
-      "person_id": "n7i_i5n_lay_AA",
+      "person_id": "yqp_nlb_p1p_DCA",
       "relation": "migration_destination",
       "place": {
         "source_name": "昌邑南",
@@ -193,7 +193,44 @@
       "quote": "亦反。削之，其反亟，禍小；不削，反遲，禍大。」三年冬，楚王朝，晁錯因言楚王戊往年為薄太后服，私姦服舍，請誅之。詔赦，罰削東海郡。因削吳之豫章郡、會稽郡。及前二年趙王有罪，削其河閒郡。膠西王卬以賣爵有姦，削其六縣。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r033-c02",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "王戊元年",
+      "year": {
+        "era": "BCE",
+        "value": 174,
+        "astronomical_year": -173,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "174",
+        "source_cell_id": "shiji-017-t1-r033-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r033-c02-review-001",
+        "start": 1,
+        "end": 2,
+        "surface": "戊",
+        "person_id": "yqp_nlb_p1p_DCA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-050",
+            "chapter_id": "c-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p003",
+            "source_id": "s-shiji-050-chuyuan",
+            "source_revision": 8737728,
+            "person_id": "yqp_nlb_p1p_DCA",
+            "quote": "子王戊立"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -271,9 +308,9 @@
   "relations": [
     {
       "id": "a-shiji050-006",
-      "subject_person_id": "n7i_i5n_lay_AA",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_A",
+      "object_person_id": "yqp_nlb_p1p_DC",
       "status": "source_attested",
       "evidence": [
         {
@@ -292,24 +329,20 @@
     }
   ],
   "related_people": {
-    "5jd_t02_cdy": "戊（楚王）",
-    "n7i_i5n_lay_A": "郢（楚元王世家候選）",
-    "n7i_i5n_lay_AA": "戊（楚元王世家候選）",
-    "t7c_140_w64": "楚王戊（吳王濞列傳候選）"
+    "yqp_nlb_p1p_DC": "郢（楚元王世家候選）",
+    "yqp_nlb_p1p_DCA": "戊（楚王）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "5jd_t02_cdy",
-    "n7i_i5n_lay_AA",
-    "t7c_140_w64"
+    "yqp_nlb_p1p_DCA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji050-006",
-      "subject_person_id": "n7i_i5n_lay_AA",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_A",
+      "object_person_id": "yqp_nlb_p1p_DC",
       "status": "source_attested",
       "evidence": [
         {
@@ -331,7 +364,7 @@
   "life_events": [
     {
       "id": "le-shiji050-006",
-      "person_id": "n7i_i5n_lay_AA",
+      "person_id": "yqp_nlb_p1p_DCA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

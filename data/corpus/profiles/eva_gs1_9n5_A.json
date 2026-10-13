@@ -9,7 +9,8 @@
     "太子撃",
     "子撃",
     "武侯",
-    "魏武侯"
+    "魏武侯",
+    "公子擊"
   ],
   "titles": [
     {
@@ -56,7 +57,7 @@
     },
     {
       "id": "th-shiji044-017",
-      "person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "person_id": "eva_gs1_9n5_A",
       "title": "武侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -116,7 +117,56 @@
       "quote": "六年，城少梁。十三年，使子撃圍繁、龐，出其民。十六年，伐秦，筑臨晉元裏。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r065-c03",
+      "title": "《史記·六國年表》",
+      "quote": "十三。公子擊圍繁龐，出其民。",
+      "year": {
+        "era": "BCE",
+        "value": 412,
+        "astronomical_year": -411,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "412",
+        "source_cell_id": "shiji-015-r065-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r065-c03-m003",
+        "start": 3,
+        "end": 6,
+        "surface": "公子擊",
+        "person_id": "eva_gs1_9n5_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r091-c03",
+      "title": "《史記·六國年表》",
+      "quote": "魏武侯元年。襲邯鄲，敗焉。",
+      "year": {
+        "era": "BCE",
+        "value": 386,
+        "astronomical_year": -385,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "386",
+        "source_cell_id": "shiji-015-r091-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r091-c03-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "魏武侯",
+        "person_id": "eva_gs1_9n5_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-043-zhao",
@@ -191,9 +241,9 @@
     },
     {
       "id": "a-shiji044-010",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAA",
+      "subject_person_id": "eva_gs1_9n5_AA",
       "predicate": "father",
-      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "object_person_id": "eva_gs1_9n5_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -212,7 +262,7 @@
     },
     {
       "id": "a-shiji044-011",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "subject_person_id": "eva_gs1_9n5_A",
       "predicate": "father",
       "object_person_id": "nxl_qt6_cpl_AAAAAA*A*A",
       "status": "source_attested",
@@ -233,9 +283,9 @@
     },
     {
       "id": "a-shiji044-012",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAA",
+      "subject_person_id": "eva_gs1_9n5_AA",
       "predicate": "father",
-      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "object_person_id": "eva_gs1_9n5_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -256,15 +306,13 @@
   "related_people": {
     "eva_gs1_9n5": "魏文侯（趙世家候選）",
     "eva_gs1_9n5_A": "撃（趙世家魏太子候選）",
-    "nxl_qt6_cpl_AAAAAA*A*A": "都（魏世家文侯候選）",
-    "nxl_qt6_cpl_AAAAAA*A*AA": "撃（魏世家文侯子候選）",
-    "nxl_qt6_cpl_AAAAAA*A*AAA": "罃（魏世家撃子候選）"
+    "eva_gs1_9n5_AA": "罃（魏世家撃子候選）",
+    "nxl_qt6_cpl_AAAAAA*A*A": "都（魏世家文侯候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "eva_gs1_9n5_A",
-    "nxl_qt6_cpl_AAAAAA*A*AA"
+    "eva_gs1_9n5_A"
   ],
   "preferred_relations": [
     {
@@ -290,9 +338,9 @@
     },
     {
       "id": "a-shiji044-010",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAA",
+      "subject_person_id": "eva_gs1_9n5_AA",
       "predicate": "father",
-      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "object_person_id": "eva_gs1_9n5_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -311,7 +359,7 @@
     },
     {
       "id": "a-shiji044-011",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "subject_person_id": "eva_gs1_9n5_A",
       "predicate": "father",
       "object_person_id": "nxl_qt6_cpl_AAAAAA*A*A",
       "status": "source_attested",
@@ -332,9 +380,9 @@
     },
     {
       "id": "a-shiji044-012",
-      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAA",
+      "subject_person_id": "eva_gs1_9n5_AA",
       "predicate": "father",
-      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "object_person_id": "eva_gs1_9n5_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -356,7 +404,7 @@
   "life_events": [
     {
       "id": "le-shiji044-005",
-      "person_id": "nxl_qt6_cpl_AAAAAA*A*AA",
+      "person_id": "eva_gs1_9n5_A",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "十六年",

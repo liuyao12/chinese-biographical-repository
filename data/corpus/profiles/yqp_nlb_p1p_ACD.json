@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACD",
-  "canonical_person_id": "82d_8vl_8i1_D",
-  "label": "yqp_nlb_p1p_ACD",
+  "canonical_person_id": "yqp_nlb_p1p_ACD",
+  "label": "勝（梁孝王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -10,12 +10,13 @@
     "梁王",
     "梁王勝",
     "梁懷王",
-    "懷王"
+    "懷王",
+    "懷王勝"
   ],
   "titles": [
     {
       "id": "th-shiji058-005",
-      "person_id": "82d_8vl_8i1_D",
+      "person_id": "yqp_nlb_p1p_ACD",
       "title": "梁王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -94,7 +95,7 @@
     },
     {
       "id": "th-shiji058-012",
-      "person_id": "82d_8vl_8i1_D",
+      "person_id": "yqp_nlb_p1p_ACD",
       "title": "梁懷王",
       "kind": "honorific",
       "mode": "posthumous_naming",
@@ -168,7 +169,44 @@
       "quote": "孝文帝凡四男：長子曰太子，是為孝景帝；次子武；次子參；次子勝。孝文帝即位二年，以武為代王，以參為太原王，以勝為梁王。二歲，徙代王為淮陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r029-c21",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "二月乙卯，初王懷王勝元年。勝，文帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 178,
+        "astronomical_year": -177,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "178",
+        "source_cell_id": "shiji-017-t1-r029-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r029-c21-review-007",
+        "start": 7,
+        "end": 10,
+        "surface": "懷王勝",
+        "person_id": "yqp_nlb_p1p_ACD",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-058",
+            "chapter_id": "c-shiji-058-liang",
+            "paragraph_id": "c-shiji-058-liang:p003",
+            "source_id": "s-shiji-058-liang",
+            "source_revision": 8735555,
+            "person_id": "yqp_nlb_p1p_ACD",
+            "quote": "梁王勝卒，謚為梁懷王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-058-liang",
@@ -198,9 +236,9 @@
   "relations": [
     {
       "id": "a-shiji058-007",
-      "subject_person_id": "82d_8vl_8i1_D",
+      "subject_person_id": "yqp_nlb_p1p_ACD",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1",
+      "object_person_id": "yqp_nlb_p1p_AC",
       "status": "source_attested",
       "evidence": [
         {
@@ -219,8 +257,8 @@
     }
   ],
   "related_people": {
-    "82d_8vl_8i1": "文帝（梁孝王世家候選）",
-    "82d_8vl_8i1_D": "勝（梁孝王世家候選）"
+    "yqp_nlb_p1p_AC": "恒（高祖子）",
+    "yqp_nlb_p1p_ACD": "勝（梁孝王世家候選）"
   },
   "dates": [
     {
@@ -252,21 +290,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji058-005",
-      "person_id": "82d_8vl_8i1_D",
+      "person_id": "yqp_nlb_p1p_ACD",
       "endpoint": "start",
       "title": "梁王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "82d_8vl_8i1_D"
+    "yqp_nlb_p1p_ACD"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji058-007",
-      "subject_person_id": "82d_8vl_8i1_D",
+      "subject_person_id": "yqp_nlb_p1p_ACD",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1",
+      "object_person_id": "yqp_nlb_p1p_AC",
       "status": "source_attested",
       "evidence": [
         {
@@ -288,7 +326,7 @@
   "life_events": [
     {
       "id": "le-shiji058-003",
-      "person_id": "82d_8vl_8i1_D",
+      "person_id": "yqp_nlb_p1p_ACD",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

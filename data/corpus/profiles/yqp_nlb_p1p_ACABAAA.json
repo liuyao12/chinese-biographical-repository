@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACABAAA",
-  "canonical_person_id": "1c8_u63_bk4_BAAA",
-  "label": "yqp_nlb_p1p_ACABAAA",
+  "canonical_person_id": "yqp_nlb_p1p_ACABAAA",
+  "label": "授（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-shiji059-007",
-      "person_id": "1c8_u63_bk4_BAAA",
+      "person_id": "yqp_nlb_p1p_ACABAAA",
       "title": "頃王",
       "kind": "unclassified",
       "mode": "attestation",
@@ -53,7 +53,7 @@
     },
     {
       "id": "th-shiji059-008",
-      "person_id": "1c8_u63_bk4_BAAA",
+      "person_id": "yqp_nlb_p1p_ACABAAA",
       "title": "王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -100,7 +100,7 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。 立、代立支撐承王起點；爵國及諡稱另按所見文字，不補原句未見的完整爵名或精確日。",
       "reviewer": "Codex（AI 代理）",
       "inheritance": {
-        "predecessor_person_id": "1c8_u63_bk4_BAA",
+        "predecessor_person_id": "yqp_nlb_p1p_ACABAA",
         "predecessor_holding_id": "th-shiji059-006",
         "resolved_title": "河閒王",
         "source_term": "子頃王授代立",
@@ -131,7 +131,44 @@
       "quote": "二十六年卒，子共王不害立。四年卒，子剛王基代立。十二年卒，子頃王授代立。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r094-c16",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "頃王授元年",
+      "year": {
+        "era": "BCE",
+        "value": 113,
+        "astronomical_year": -112,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "113",
+        "source_cell_id": "shiji-017-t1-r094-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r094-c16-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "頃王授",
+        "person_id": "yqp_nlb_p1p_ACABAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p003",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACABAAA",
+            "quote": "子頃王授代立"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -161,9 +198,9 @@
   "relations": [
     {
       "id": "a-shiji059-029",
-      "subject_person_id": "1c8_u63_bk4_BAAA",
+      "subject_person_id": "yqp_nlb_p1p_ACABAAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_BAA",
+      "object_person_id": "yqp_nlb_p1p_ACABAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -182,20 +219,20 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_BAA": "基（五宗世家候選）",
-    "1c8_u63_bk4_BAAA": "授（五宗世家候選）"
+    "yqp_nlb_p1p_ACABAA": "基（五宗世家候選）",
+    "yqp_nlb_p1p_ACABAAA": "授（五宗世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_BAAA"
+    "yqp_nlb_p1p_ACABAAA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-029",
-      "subject_person_id": "1c8_u63_bk4_BAAA",
+      "subject_person_id": "yqp_nlb_p1p_ACABAAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_BAA",
+      "object_person_id": "yqp_nlb_p1p_ACABAA",
       "status": "source_attested",
       "evidence": [
         {

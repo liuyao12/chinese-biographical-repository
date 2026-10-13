@@ -11,12 +11,12 @@ class BaiWangEvidenceTests(unittest.TestCase):
 
     def test_already_dead_does_not_become_death_in_ershi_reign(self):
         events = self.read('life-events', 'events')
-        for pid in ('twz_p17_9b4', 'twz_p17_9b4_A'):
+        for pid in ('gdj_k53_v1x', 'gdj_k53_v1x_A'):
             event = next(e for e in events if e['person_id'] == pid)
             self.assertEqual(event['source_term'], '皆已死')
             self.assertIsNone(event['date_expression'])
             self.assertNotIn('normalized_date', event)
-        self.assertFalse(any(e['person_id'] == 'twz_p17_9b4_*A' for e in events))
+        self.assertFalse(any(e['person_id'] == 'gdj_k53_v1x_*A' for e in events))
 
     def test_rank_demotion_and_death_keep_separate_boundaries(self):
         titles = {h['id']: h for h in self.read('titles', 'holdings')}

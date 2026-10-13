@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACCA",
-  "canonical_person_id": "82d_8vl_8i1_CA",
-  "label": "yqp_nlb_p1p_ACCA",
+  "canonical_person_id": "yqp_nlb_p1p_ACCA",
+  "label": "登（梁孝王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "登",
-    "代共王"
+    "代共王",
+    "恭王登"
   ],
   "titles": [
     {
       "id": "th-shiji058-009",
-      "person_id": "82d_8vl_8i1_CA",
+      "person_id": "yqp_nlb_p1p_ACCA",
       "title": "代共王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -64,7 +65,44 @@
       "quote": "陽王。以代盡與太原王，號曰代王。參立十七年，孝文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r046-c26",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "恭王登元年",
+      "year": {
+        "era": "BCE",
+        "value": 161,
+        "astronomical_year": -160,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "161",
+        "source_cell_id": "shiji-017-t1-r046-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r046-c26-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "恭王登",
+        "person_id": "yqp_nlb_p1p_ACCA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-058",
+            "chapter_id": "c-shiji-058-liang",
+            "paragraph_id": "c-shiji-058-liang:p002",
+            "source_id": "s-shiji-058-liang",
+            "source_revision": 8735555,
+            "person_id": "yqp_nlb_p1p_ACCA",
+            "quote": "子登嗣立，是為代共王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-058-liang",
@@ -94,9 +132,9 @@
   "relations": [
     {
       "id": "a-shiji058-008",
-      "subject_person_id": "82d_8vl_8i1_CA",
+      "subject_person_id": "yqp_nlb_p1p_ACCA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_C",
+      "object_person_id": "yqp_nlb_p1p_ACC",
       "status": "source_attested",
       "evidence": [
         {
@@ -115,9 +153,9 @@
     },
     {
       "id": "a-shiji058-009",
-      "subject_person_id": "82d_8vl_8i1_CAA",
+      "subject_person_id": "yqp_nlb_p1p_ACCAA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_CA",
+      "object_person_id": "yqp_nlb_p1p_ACCA",
       "status": "source_attested",
       "evidence": [
         {
@@ -136,9 +174,9 @@
     }
   ],
   "related_people": {
-    "82d_8vl_8i1_C": "參（梁孝王世家候選）",
-    "82d_8vl_8i1_CA": "登（梁孝王世家候選）",
-    "82d_8vl_8i1_CAA": "義（梁孝王世家候選）"
+    "yqp_nlb_p1p_ACC": "參（梁孝王世家候選）",
+    "yqp_nlb_p1p_ACCA": "登（梁孝王世家候選）",
+    "yqp_nlb_p1p_ACCAA": "義（梁孝王世家候選）"
   },
   "dates": [
     {
@@ -171,21 +209,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "le-shiji058-002",
-      "person_id": "82d_8vl_8i1_CA",
+      "person_id": "yqp_nlb_p1p_ACCA",
       "date_role": "life_event",
       "event_type": "death"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "82d_8vl_8i1_CA"
+    "yqp_nlb_p1p_ACCA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji058-008",
-      "subject_person_id": "82d_8vl_8i1_CA",
+      "subject_person_id": "yqp_nlb_p1p_ACCA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_C",
+      "object_person_id": "yqp_nlb_p1p_ACC",
       "status": "source_attested",
       "evidence": [
         {
@@ -204,9 +242,9 @@
     },
     {
       "id": "a-shiji058-009",
-      "subject_person_id": "82d_8vl_8i1_CAA",
+      "subject_person_id": "yqp_nlb_p1p_ACCAA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_CA",
+      "object_person_id": "yqp_nlb_p1p_ACCA",
       "status": "source_attested",
       "evidence": [
         {
@@ -228,7 +266,7 @@
   "life_events": [
     {
       "id": "le-shiji058-002",
-      "person_id": "82d_8vl_8i1_CA",
+      "person_id": "yqp_nlb_p1p_ACCA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "元光二年",

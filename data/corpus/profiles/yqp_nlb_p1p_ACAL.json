@@ -1,21 +1,22 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAL",
-  "canonical_person_id": "n35_voj_gm8",
-  "label": "yqp_nlb_p1p_ACAL",
+  "canonical_person_id": "yqp_nlb_p1p_ACAL",
+  "label": "餘（淮陽王）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "淮陽王餘",
     "餘",
     "魯共王餘",
     "淮陽王",
     "魯王",
-    "淮陽王餘"
+    "恭王"
   ],
   "titles": [
     {
       "id": "th-shiji011-024",
-      "person_id": "n35_voj_gm8",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "title": "魯王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -67,7 +68,7 @@
     },
     {
       "id": "th-shiji059-015",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "title": "魯共王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -109,7 +110,7 @@
     },
     {
       "id": "th-shiji059-016",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "title": "淮陽王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -225,7 +226,7 @@
     },
     {
       "id": "th-shiji059-017",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "title": "魯王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -322,7 +323,116 @@
       "quote": "子凡十三人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r052-c25",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "三月甲寅，初王餘元年，景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 155,
+        "astronomical_year": -154,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "155",
+        "source_cell_id": "shiji-017-t1-r052-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r052-c25-review-007",
+        "start": 7,
+        "end": 8,
+        "surface": "餘",
+        "person_id": "yqp_nlb_p1p_ACAL",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p009",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAL",
+            "quote": "魯共王餘"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r053-c03",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "六月乙亥淮陽王徙魯元年。是為恭王。",
+      "year": {
+        "era": "BCE",
+        "value": 154,
+        "astronomical_year": -153,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "154",
+        "source_cell_id": "shiji-017-t1-r053-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r053-c03-review-004",
+        "start": 4,
+        "end": 7,
+        "surface": "淮陽王",
+        "person_id": "yqp_nlb_p1p_ACAL",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p009",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAL",
+            "quote": "用皇子為淮陽王"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r053-c03",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "六月乙亥淮陽王徙魯元年。是為恭王。",
+      "year": {
+        "era": "BCE",
+        "value": 154,
+        "astronomical_year": -153,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "154",
+        "source_cell_id": "shiji-017-t1-r053-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r053-c03-review-014",
+        "start": 14,
+        "end": 16,
+        "surface": "恭王",
+        "person_id": "yqp_nlb_p1p_ACAL",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p009",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAL",
+            "quote": "魯共王餘"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -376,9 +486,9 @@
   "relations": [
     {
       "id": "a-shiji059-007",
-      "subject_person_id": "1c8_u63_bk4_D",
+      "subject_person_id": "yqp_nlb_p1p_ACAL",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -397,7 +507,7 @@
     },
     {
       "id": "a-shiji059-008",
-      "subject_person_id": "1c8_u63_bk4_D",
+      "subject_person_id": "yqp_nlb_p1p_ACAL",
       "predicate": "mother",
       "object_person_id": "dlu_57f_6uq",
       "status": "source_attested",
@@ -418,9 +528,9 @@
     },
     {
       "id": "a-shiji059-030",
-      "subject_person_id": "1c8_u63_bk4_DA",
+      "subject_person_id": "yqp_nlb_p1p_ACALA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_D",
+      "object_person_id": "yqp_nlb_p1p_ACAL",
       "status": "source_attested",
       "evidence": [
         {
@@ -452,11 +562,10 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_D": "餘（五宗世家候選）",
-    "1c8_u63_bk4_DA": "光（五宗世家候選）",
     "dlu_57f_6uq": "程姬（五宗世家候選）",
-    "n35_voj_gm8": "餘（淮陽王）"
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAL": "餘（淮陽王）",
+    "yqp_nlb_p1p_ACALA": "光（五宗世家候選）"
   },
   "dates": [
     {
@@ -488,7 +597,7 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-016",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "endpoint": "start",
       "title": "淮陽王"
     },
@@ -521,7 +630,7 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-016",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "endpoint": "end",
       "title": "淮陽王"
     },
@@ -554,22 +663,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-017",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "endpoint": "start",
       "title": "魯王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_D",
-    "n35_voj_gm8"
+    "yqp_nlb_p1p_ACAL"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-007",
-      "subject_person_id": "1c8_u63_bk4_D",
+      "subject_person_id": "yqp_nlb_p1p_ACAL",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -588,7 +696,7 @@
     },
     {
       "id": "a-shiji059-008",
-      "subject_person_id": "1c8_u63_bk4_D",
+      "subject_person_id": "yqp_nlb_p1p_ACAL",
       "predicate": "mother",
       "object_person_id": "dlu_57f_6uq",
       "status": "source_attested",
@@ -609,9 +717,9 @@
     },
     {
       "id": "a-shiji059-030",
-      "subject_person_id": "1c8_u63_bk4_DA",
+      "subject_person_id": "yqp_nlb_p1p_ACALA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_D",
+      "object_person_id": "yqp_nlb_p1p_ACAL",
       "status": "source_attested",
       "evidence": [
         {
@@ -646,7 +754,7 @@
   "life_events": [
     {
       "id": "le-shiji059-016",
-      "person_id": "1c8_u63_bk4_D",
+      "person_id": "yqp_nlb_p1p_ACAL",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

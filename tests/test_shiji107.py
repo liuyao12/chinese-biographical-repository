@@ -38,14 +38,14 @@ class WeiqiSourceTests(unittest.TestCase):
         early = [m for m in p['mentions'] if m['surface'] == '上' and m['start'] < boundary]
         late = [m for m in p['mentions'] if m['surface'] == '上' and m['start'] > boundary]
         self.assertEqual(len(early), 2)
-        self.assertEqual({m['person_id'] for m in early}, {'4gj_xfa_r7s'})
-        self.assertEqual({m['person_id'] for m in late}, {'gni_rru_0gw'})
+        self.assertEqual({m['person_id'] for m in early}, {'yqp_nlb_p1p_ACA'})
+        self.assertEqual({m['person_id'] for m in late}, {'yqp_nlb_p1p_ACAA'})
 
     def test_quoted_deceased_emperor_is_not_current_emperor(self):
         p = self.load('')['paragraphs'][23]
         quoted = p['text'].index('便宜論上') + len('便宜論')
         m = next(m for m in p['mentions'] if m['start'] == quoted)
-        self.assertEqual(m['person_id'], '4gj_xfa_r7s')
+        self.assertEqual(m['person_id'], 'yqp_nlb_p1p_ACA')
         for m in p['mentions']:
             if m['surface'] == '上':
                 self.assertFalse(p['text'].startswith('上書', m['start']))
@@ -57,7 +57,7 @@ class WeiqiSourceTests(unittest.TestCase):
         self.assertEqual(m['kind'], 'unresolved')
         self.assertIsNone(m['person_id'])
         case = next(case for case in c['annotation']['unresolved_identity_cases'] if p['id'] in case['paragraph_ids'])
-        self.assertEqual(set(case['candidate_person_ids']), {'5u3_i3p_ngq', 'l26_mjw_rwe'})
+        self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'l26_mjw_rwe'})
 
     def test_crown_prince_has_explicit_installation_and_deposition(self):
         h = next(h for h in self.load('-titles')['holdings'] if h['title'] == '太子')

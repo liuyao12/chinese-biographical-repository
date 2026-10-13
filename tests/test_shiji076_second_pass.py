@@ -45,7 +45,7 @@ class PingyuanEvidenceTests(unittest.TestCase):
         self.assertEqual(b['selected_life_event_dates'][0]['year'], -250)
         self.assertEqual(b['selected_life_event_dates'][0]['selection_decision_id'], d['id'])
         self.assertFalse(self.errors(d))
-        self.assertNotIn('life_event_date_decisions', bundle('lrj_utu_y6w', catalog=(self.people, self.records)))
+        self.assertEqual(bundle('03v_bhv_img', catalog=(self.people, self.records))['life_event_date_decisions'], b['life_event_date_decisions'])
 
     def test_selection_cannot_point_outside_candidates_or_drop_an_account(self):
         d = copy.deepcopy(self.decision); d['preferred_event_id'] = 'le-shiji076-002'

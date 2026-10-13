@@ -238,7 +238,7 @@ def validate():
                         assert c['text'][m['start']:m['end']] == m['surface'], '人物錨點原文不符'
                         assert m['person_id'] in persons and m['status'] == 'contextual_provisional'
                         assert m['id'] not in ids
-                        validate_identity_evidence(m, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
+                        validate_identity_evidence(m, root=ROOT, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
                         ids.add(m['id']); end = m['end']
                     combined = sorted(c['person_mentions'] + c.get('unresolved_mentions', []), key=lambda m:m['start'])
                     assert not combined or columns[c['column']]['kind'] != 'western_year', '編者西元欄不加原文指稱'
@@ -248,7 +248,7 @@ def validate():
                         end = m['end']
                         if not m.get('person_id'):
                             assert m['kind'] == 'unresolved_reference' and m['status'] == 'awaiting_collation'
-                            validate_identity_evidence(m, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
+                            validate_identity_evidence(m, root=ROOT, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
                     col += c['colspan']
                 assert col <= width if general else col == width
                 count += 1

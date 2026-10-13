@@ -4,7 +4,7 @@ from scripts.person_bundle import bundle
 
 class PersonBundleTests(unittest.TestCase):
     def test_zhangyi_dated_tenures_do_not_turn_point_duration_into_total(self):
-        result = bundle('5an_r55_hee', include_provisional=True)
+        result = bundle('uq6_74z_vtv', include_provisional=True)
         holdings = {h['id']:h for h in result['title_holdings']}
         h = holdings['th-shiji070-004']
         self.assertEqual(h['reported_duration']['value'], 4)
@@ -15,7 +15,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertNotIn('reported_duration', holdings['th-shiji070-007'])
         self.assertEqual(holdings['th-shiji070-007']['effective_period']['end']['status'], 'unknown')
     def test_zhangyi_death_year_and_death_place_keep_exact_sources(self):
-        result = bundle('5an_r55_hee', include_provisional=True)
+        result = bundle('uq6_74z_vtv', include_provisional=True)
         death = next(e for e in result['life_events'] if e['id']=='le-shiji070-006')
         date = death['normalized_date']
         self.assertEqual((date['era_year'],date['year']), (309,-308))
@@ -24,19 +24,19 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(len(death['evidence']), 2)
         self.assertTrue(any(a['relation']=='death_place' and a['place']['source_name']=='魏' for a in result['address_assertions']))
     def test_qugai_identity_does_not_erase_killed_and_captured_difference(self):
-        result = bundle('fu8_kck_4vb', include_provisional=True)
+        result = bundle('c38_dzq_0o4', include_provisional=True)
         death = next(e for e in result['life_events'] if e['id']=='le-shiji070-002')
         self.assertEqual(death['source_term'], '殺屈丐')
         self.assertIn('虜其將屈丐', death['interpretation_note'])
         self.assertNotIn('normalized_date', death)
     def test_zhangyi_north_to_yan_is_not_dai_king_journey(self):
-        result = bundle('5an_r55_hee', include_provisional=True)
+        result = bundle('uq6_74z_vtv', include_provisional=True)
         journey = next(a for a in result['address_assertions'] if a['id']=='pa-shiji070-010')
         self.assertEqual(journey['evidence'][0]['context']['paragraph_id'], 'c-shiji-070-zhang:p045')
         self.assertEqual(journey['source_term'], '北之燕')
         self.assertEqual(journey['place']['source_name'], '燕')
     def test_suqin_journeys_include_complete_carried_subject_passages(self):
-        result = bundle('98y_02x_z6o', include_provisional=True)
+        result = bundle('422_9v5_g9x', include_provisional=True)
         journey = next(a for a in result['address_assertions'] if a['id']=='pa-shiji069-004')
         context = journey['evidence'][0]['context']
         self.assertEqual(context['intervening_paragraph_ids'], ['c-shiji-069-su:p003','c-shiji-069-su:p004'])
@@ -54,7 +54,7 @@ class PersonBundleTests(unittest.TestCase):
             self.assertIsNone(relation['qualifiers'][key])
         self.assertFalse(any(a['predicate']=='spouse' and {a['subject_person_id'],a['object_person_id']}=={'nfi_mir_dew','phx_4fq_fnx'} for a in result['relations']))
     def test_suqin_unknown_office_actions_and_no_false_death_or_duration(self):
-        result = bundle('98y_02x_z6o', include_provisional=True)
+        result = bundle('422_9v5_g9x', include_provisional=True)
         events = [e for e in result['person_events'] if e['id'].startswith('pe-shiji069-')]
         self.assertEqual([e['event_type'] for e in events], ['office_non_reinstatement','office_restoration'])
         for e in events:
@@ -67,11 +67,11 @@ class PersonBundleTests(unittest.TestCase):
     def test_su_brothers_keep_relative_order_without_absolute_ordinals(self):
         result = bundle('phx_4fq_fnx', include_provisional=True)
         order = next(a for a in result['relations'] if a['id']=='a-shiji069-008')['qualifiers']['relative_birth_order']
-        self.assertEqual((order['older_person_id'],order['younger_person_id'],order['operator']), ('98y_02x_z6o','phx_4fq_fnx','lt'))
+        self.assertEqual((order['older_person_id'],order['younger_person_id'],order['operator']), ('422_9v5_g9x','phx_4fq_fnx','lt'))
         self.assertIsNone(order['older_ordinal'])
         self.assertIsNone(order['younger_ordinal'])
     def test_shang_wei_lineage_affiliation_is_not_a_birthplace(self):
-        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        result = bundle('2wp_usr_ncd', include_provisional=True)
         place = next(a for a in result['address_assertions'] if a['id']=='pa-shiji068-007')
         self.assertEqual(place['relation'], 'polity_lineage_affiliation')
         self.assertEqual(place['place']['source_name'], '衛')
@@ -79,7 +79,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(place['source_term'], '衛之諸庶孽公子')
         self.assertIsNone(place['place']['modern_identification'])
     def test_shang_title_years_do_not_resolve_ambiguous_left_shuzhang_or_tenure_ends(self):
-        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        result = bundle('2wp_usr_ncd', include_provisional=True)
         holdings = {h['id']:h for h in result['title_holdings']}
         for hid, year in [('th-shiji068-009',352),('th-shiji068-017',340)]:
             period = holdings[hid]['effective_period']
@@ -104,7 +104,7 @@ class PersonBundleTests(unittest.TestCase):
             self.assertNotIn('normalized_date', boundary)
         self.assertIn(duration['evidence'][0]['paragraph_id'], {p['id'] for p in result['passages']})
     def test_shang_death_year_preserves_separate_event_and_editorial_year_citations(self):
-        result = bundle('gy0_w6c_v4l', include_provisional=True)
+        result = bundle('2wp_usr_ncd', include_provisional=True)
         event = next(e for e in result['life_events'] if e['id']=='le-shiji068-006')
         date = event['normalized_date']
         self.assertEqual((date['era_year'], date['year']), (338,-337))
@@ -121,7 +121,7 @@ class PersonBundleTests(unittest.TestCase):
                     if a['predicate'] == 'father' and a['object_person_id'] in result['person_ids']}
         identities = {frozenset(bundle(child, include_provisional=True)['person_ids']) for child in children}
         self.assertEqual(len(identities), 3)
-        kang = bundle('2lq_elt_3ij', include_provisional=True)
+        kang = bundle('5dd_l1c_6g8_D', include_provisional=True)
         self.assertIn('5dd_l1c_6g8_D', kang['person_ids'])
         self.assertNotIn('5dd_l1c_6g8_C', kang['person_ids'])
         father = next(a for a in kang['relations'] if a['id'] == 'a-shiji111-012')
@@ -130,35 +130,35 @@ class PersonBundleTests(unittest.TestCase):
         younger = [a['qualifiers']['relative_birth_order'] for a in kang['relations']
                    if 'relative_birth_order' in a.get('qualifiers', {})]
         self.assertEqual(len(younger), 2)
-        self.assertTrue(all(a['older_person_id'] == '2lq_elt_3ij' and a['younger_ordinal'] is None for a in younger))
+        self.assertTrue(all(a['older_person_id'] == '5dd_l1c_6g8_D' and a['younger_ordinal'] is None for a in younger))
         succession = next(h for h in kang['title_holdings'] if h['mode'] == 'accession' and h['title'] == '長平侯')
         self.assertEqual(succession['effective_period']['start']['normalized_date']['era_year'], 104)
         self.assertNotIn('normalized_date', succession['effective_period']['end'])
         self.assertEqual(succession['reported_duration']['value'], 6)
     def test_shan_accession_does_not_copy_fathers_death_year(self):
-        result = bundle('aqs_iqa_d1l_A', include_provisional=True)
+        result = bundle('3tw_nq2_gyn_A', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if 'inheritance' in h)
         self.assertIsNone(holding['effective_period']['start']['date_expression'])
         self.assertEqual(holding['effective_period']['start']['normalized_date']['era_year'], 116)
         self.assertEqual(holding['reported_duration']['value'], 6)
     def test_inherited_rank_is_parseable_without_expanding_source_text(self):
-        result = bundle('aqs_iqa_d1l_A', include_provisional=True)
+        result = bundle('3tw_nq2_gyn_A', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if 'inheritance' in h)
         self.assertEqual(holding['title'], '侯')
         self.assertEqual(holding['inheritance']['resolved_title'], '冠軍侯')
-        self.assertEqual(holding['inheritance']['predecessor_person_id'], 'aqs_iqa_d1l')
+        self.assertEqual(holding['inheritance']['predecessor_person_id'], '3tw_nq2_gyn')
         self.assertEqual(holding['reported_duration']['value'], 6)
         self.assertEqual(holding['effective_period']['end']['event_type'], 'abolition')
         self.assertEqual(holding['effective_period']['end']['normalized_date']['era_year'], 110)
         self.assertEqual(next(e for e in result['life_events'] if e['event_type'] == 'death')['normalized_date']['era_year'], 110)
     def test_huo_reported_title_years_do_not_set_tenure_end(self):
-        result = bundle('aqs_iqa_d1l', include_provisional=True)
+        result = bundle('3tw_nq2_gyn', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if h.get('reported_duration', {}).get('unit') == 'title_year')
         self.assertEqual(holding['reported_duration']['value'], 3)
         self.assertEqual(holding['reported_duration']['source_term'], '既侯三歲')
         self.assertEqual(holding['effective_period']['end']['status'], 'unknown')
     def test_huo_age_is_exported_without_inferred_birth(self):
-        result = bundle('aqs_iqa_d1l', include_provisional=True)
+        result = bundle('3tw_nq2_gyn', include_provisional=True)
         age = result['age_assertions'][0]
         self.assertEqual((age['value'], age['source_term']), (18, '年十八'))
         self.assertIsNone(age['birth_year'])
@@ -173,15 +173,15 @@ class PersonBundleTests(unittest.TestCase):
             self.assertEqual(event['source_term'], '\u5c11\u5152\u751f\u5b50\u970d\u53bb\u75c5')
             self.assertTrue(any(event['source_term'] in e['quote'] for e in event['evidence']))
     def test_yuan_ang_cross_chapter_bundle_keeps_sourced_death_place(self):
-        result = bundle('40v_x1i_esm', include_provisional=True)
-        self.assertTrue({'j32_wtj_khz_A', 'ndp_kf2_zbo', 'b8b_5mi_flk'}.issubset(result['person_ids']))
+        result = bundle('j32_wtj_khz_A', include_provisional=True)
+        self.assertTrue({'j32_wtj_khz_A', 'j32_wtj_khz_A', 'j32_wtj_khz_A'}.issubset(result['person_ids']))
         place = next(a for a in result['address_assertions'] if a['id'] == 'pa-shiji101-005')
         self.assertEqual(place['place']['source_name'], '安陵郭門外')
         self.assertIn('刺殺盎安陵郭門外', place['evidence'][0]['quote'])
 
     def test_liang_retainer_equivalences_keep_two_people_separate(self):
-        gui = bundle('v4l_7vt_hsb', include_provisional=True)
-        yang = bundle('ezo_6oj_gne', include_provisional=True)
+        gui = bundle('2bl_b4d_kfg', include_provisional=True)
+        yang = bundle('fo7_9ev_cht', include_provisional=True)
         self.assertIn('2bl_b4d_kfg', gui['person_ids'])
         self.assertIn('fo7_9ev_cht', yang['person_ids'])
         self.assertFalse(set(gui['person_ids']).intersection(yang['person_ids']))
@@ -204,8 +204,8 @@ class PersonBundleTests(unittest.TestCase):
         self.assertIsNone(event['date_expression'])
         self.assertNotIn('normalized_date', event)
     def test_real_person_has_reverse_relations_and_source_text(self):
-        result = bundle('fd2_w60_h42')
-        self.assertTrue(any(a['object_person_id'] == 'fd2_w60_h42' for a in result['relations']))
+        result = bundle('k2p_5ol_dwh')
+        self.assertTrue(any(a['object_person_id'] == 'k2p_5ol_dwh' for a in result['relations']))
         self.assertTrue(result['title_holdings'])
         passages = {p['id']: p for p in result['passages']}
         for title in result['title_holdings']:
@@ -217,9 +217,20 @@ class PersonBundleTests(unittest.TestCase):
         exact = bundle('49g_7az_e4i')
         combined = bundle('49g_7az_e4i', include_provisional=True)
         self.assertEqual(exact['person_ids'], ['49g_7az_e4i'])
-        self.assertIn('5ok_joj_etv', combined['person_ids'])
+        self.assertIn('49g_7az_e4i', combined['person_ids'])
         self.assertTrue(combined['equivalence_decisions'])
-        self.assertGreater(len(combined['mentions']), len(exact['mentions']))
+        self.assertEqual(combined['mentions'], exact['mentions'])
+        self.assertTrue(all(d.get('identity_materialized') for d in combined['equivalence_decisions']))
+        self.assertGreaterEqual(len({m['chapter_id'] for m in combined['mentions']}), 2)
+
+    def test_materialized_case_keeps_identity_evidence_and_original_passages(self):
+        result = bundle('li9_cmb_8ci')
+        case = next(c for c in result['resolved_identity_cases'] if c['id'].startswith('u-shiji007-'))
+        self.assertEqual(case['person_id'], 'li9_cmb_8ci')
+        self.assertEqual(case['status'], 'contextual_provisional')
+        self.assertTrue(case['identity_equivalence_decision_ids'])
+        self.assertTrue(set(case['paragraph_ids']).issubset({p['id'] for p in result['passages']}))
+        self.assertTrue(set(case['identity_equivalence_decision_ids']).issubset({d['id'] for d in result['equivalence_decisions']}))
 
     def test_unknown_person_rejected(self):
         with self.assertRaises(ValueError):
@@ -243,8 +254,8 @@ class PersonBundleTests(unittest.TestCase):
         self.assertTrue(relative['evidence'])
 
     def test_native_place_keeps_source_and_unknown_geography(self):
-        result = bundle('jjl_irg_zke_A')
-        address = result['address_assertions'][0]
+        result = bundle('cc2_r4q_j5y')
+        address = next(a for a in result['address_assertions'] if a['id'] == 'pa-shiji093-001')
         self.assertEqual(address['relation'], 'biographical_origin')
         self.assertEqual(address['place']['source_name'], '豐')
         self.assertIsNone(address['place']['place_id'])
@@ -286,7 +297,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertNotIn('normalized_date', burial)
 
     def test_agnatic_relation_preserves_unknown_distance(self):
-        result = bundle('j80_2bm_4af')
+        result = bundle('u87_cc1_7vm')
         relations = [a for a in result['relations'] if a.get('discrepancy_group_id') == 'kin-shiji094-tianrong']
         self.assertEqual({a['predicate'] for a in relations}, {'brother', 'agnatic_cousin'})
         cousin = next(a for a in relations if a['predicate'] == 'agnatic_cousin')
@@ -295,7 +306,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(structure['lineage'], 'paternal')
         self.assertIsNone(structure['distance'])
         self.assertIsNone(structure['common_ancestor_person_id'])
-        self.assertEqual(cousin['qualifiers']['relative_birth_order']['older_person_id'], 'j80_2bm_4af')
+        self.assertEqual(cousin['qualifiers']['relative_birth_order']['older_person_id'], 'u87_cc1_7vm')
 
     def test_source_frequency_counts_only_focus_mentions_and_preserves_ties(self):
         result = bundle('ao3_0fy_d45_AAA', include_provisional=True)
@@ -333,8 +344,8 @@ class PersonBundleTests(unittest.TestCase):
         people = catalog[0]
         def pid(label):
             return next(k for k, v in people.items() if v['label'] == label + '（劉敬叔孫通列傳候選）')
-        modu = pid('冒頓')
-        princess = pid('呂后女未名')
+        modu = '2ev_182_3gg'
+        princess = 'yqp_nlb_p1p_AI'
         sent = pid('實遣家人子未名')
         result = bundle(modu, catalog=catalog)
         self.assertNotEqual(princess, sent)
@@ -514,7 +525,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertFalse(any(a['id'] == 'a-shiji078-004' for a in result['preferred_relations']))
         self.assertTrue(any(a['id'] == 'a-shiji078-004' for a in result['relations']))
     def test_yuan_si_brings_biography_titles_and_source_dates(self):
-        result = bundle('b7w_mdw_awu', include_provisional=True)
+        result = bundle('j32_wtj_khz_A', include_provisional=True)
         self.assertTrue(any(m['surface'] == '絲' and m['chapter_id'] == 'c-shiji-101-yuanchao' for m in result['mentions']))
         dates = [d for d in result['date_normalizations'] if d.get('title') in ('太常', '楚相')]
         self.assertEqual({d['title'] for d in dates}, {'太常', '楚相'})
@@ -534,7 +545,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(relation['predicate'], 'paternal_uncle')
         self.assertIsNone(relation['qualifiers']['intermediate_father_person_id'])
         self.assertFalse(any(a['predicate'] == 'father' for a in result['relations']))
-        heir = people['柴武太子未名（袁盎鼂錯列傳候選）']
+        heir = catalog[0]['qbh_lsz_ipx']
         child = bundle(heir['id'], catalog=catalog)
         relation = next(a for a in child['relations'] if a['subject_person_id'] == heir['id'] and a['predicate'] == 'father')
         self.assertEqual(relation['qualifiers']['heir_status'], '太子')
@@ -597,7 +608,7 @@ class PersonBundleTests(unittest.TestCase):
         catalog = load_catalog()
         people = {p['label']: p for p in catalog[0].values()}
         ren = people['田仁（田叔列傳候選）']
-        shu = people['田叔（田叔列傳候選）']
+        shu = catalog[0]['6bn_yfc_lzi']
         result = bundle(ren['id'], catalog=catalog)
         self.assertEqual(ren['family_path']['parent_person_id'], shu['id'])
         order = next(c for c in result['birth_order_constraints'] if c['assertion_id'] == 'a-shiji104-001')
@@ -628,19 +639,19 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(h['effective_period']['start']['status'], 'unknown')
 
     def test_unresolved_dowager_is_available_without_identity_merge(self):
-        for pid in ('5u3_i3p_ngq', 'l26_mjw_rwe'):
+        for pid in ('6d6_eg1_o3a_A', 'l26_mjw_rwe'):
             result = bundle(pid, include_provisional=True)
             case = next(c for c in result['unresolved_identity_cases'] if c['id'].startswith('u-shiji107-'))
-            self.assertEqual(set(case['candidate_person_ids']), {'5u3_i3p_ngq', 'l26_mjw_rwe'})
+            self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'l26_mjw_rwe'})
             self.assertIn(pid, result['person_ids'])
-            other = 'l26_mjw_rwe' if pid == '5u3_i3p_ngq' else '5u3_i3p_ngq'
+            other = 'l26_mjw_rwe' if pid == '6d6_eg1_o3a_A' else '6d6_eg1_o3a_A'
             self.assertNotIn(other, result['person_ids'])
             passages = {p['id']: p for p in result['passages']}
             self.assertTrue(all(p in passages for p in case['paragraph_ids']))
             self.assertTrue(any(m['kind'] == 'unresolved' for m in passages['c-shiji-107-weiqi:p007']['mentions']))
 
     def test_usage_date_summary_does_not_claim_accession(self):
-        result = bundle('ubk_etq_ksp_A')
+        result = bundle('7mz_d13_9ka_AA')
         date = next(d for d in result['date_normalizations'] if d.get('date_role') == 'attestation')
         self.assertEqual(date['era_year'], 126)
         self.assertNotIn('endpoint', date)

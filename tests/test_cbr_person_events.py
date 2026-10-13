@@ -23,7 +23,7 @@ class PersonEventsTests(unittest.TestCase):
             for name in ('registry','corpus'):shutil.copytree(ROOT/name,root/name)
             path=root/'corpus/shiji/121-person-events.json';data=json.loads(path.read_text());e=data['events'][0]
             e['normalized_date']['year']=-134
-            e['person_id']='g2z_cl6_w4r'
+            e['person_id']='fmh_dmt_cql'
             path.write_text(json.dumps(data,ensure_ascii=False))
             errors=validate(root)
             self.assertIn('紀年換算天文年與時代年不一致',errors)

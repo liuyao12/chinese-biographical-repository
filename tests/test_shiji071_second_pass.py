@@ -42,7 +42,7 @@ class Shiji071EvidenceTests(unittest.TestCase):
 
     def test_granted_title_and_diplomatic_duration_remain_separate(self):
         holdings = self.read('corpus/shiji/071-titles.json')['holdings']
-        grants = [h for h in holdings if h['person_id'] == 'xcr_p13_j7x'
+        grants = [h for h in holdings if h['person_id'] == '8im_m5e_cpy'
                   and h['title'] == '上卿']
         self.assertEqual(len(grants), 2)
         by_polity = {h['granting_polity']['source_name']: h for h in grants}

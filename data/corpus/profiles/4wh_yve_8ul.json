@@ -12,7 +12,7 @@
   "titles": [
     {
       "id": "th-shiji040-030",
-      "person_id": "lia_4xf_gye",
+      "person_id": "4wh_yve_8ul",
       "title": "將軍",
       "kind": "office",
       "mode": "attestation",
@@ -72,7 +72,32 @@
       "quote": "唐眛，取我重丘而去。二十九年，秦復攻楚，大破楚，楚軍死者二萬，殺我將軍景缺。懷王恐，乃使太子爲質於齊以求平。三十年，秦復伐楚，取八城。秦昭王遺楚王書曰：「始寡人與王約爲弟兄，盟于黃棘，太子爲質，至驩也。太子陵殺寡人之重臣，不謝而亡去，寡人誠不勝怒，使兵侵君王之邊。今聞君王乃"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r177-c06",
+      "title": "《史記·六國年表》",
+      "quote": "二十九。秦取我襄城，殺景缺。",
+      "year": {
+        "era": "BCE",
+        "value": 300,
+        "astronomical_year": -299,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "300",
+        "source_cell_id": "shiji-015-r177-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r177-c06-m011",
+        "start": 11,
+        "end": 13,
+        "surface": "景缺",
+        "person_id": "4wh_yve_8ul",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-005-qin",
@@ -191,14 +216,12 @@
   ],
   "relations": [],
   "related_people": {
-    "4wh_yve_8ul": "景快",
-    "lia_4xf_gye": "景缺（楚將軍）"
+    "4wh_yve_8ul": "景快"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "4wh_yve_8ul",
-    "lia_4xf_gye"
+    "4wh_yve_8ul"
   ],
   "preferred_relations": [],
   "age_assertions": [],
@@ -225,7 +248,7 @@
     },
     {
       "id": "le-shiji040-063",
-      "person_id": "lia_4xf_gye",
+      "person_id": "4wh_yve_8ul",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "二十九年",

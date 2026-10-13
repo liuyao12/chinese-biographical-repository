@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAB",
-  "canonical_person_id": "1c8_u63_bk4_B",
-  "label": "yqp_nlb_p1p_ACAB",
+  "canonical_person_id": "yqp_nlb_p1p_ACAB",
+  "label": "德（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "德",
     "河閒獻王德",
-    "河閒王"
+    "河閒王",
+    "獻王德"
   ],
   "titles": [
     {
       "id": "th-shiji059-001",
-      "person_id": "1c8_u63_bk4_B",
+      "person_id": "yqp_nlb_p1p_ACAB",
       "title": "河閒獻王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -55,7 +56,7 @@
     },
     {
       "id": "th-shiji059-002",
-      "person_id": "1c8_u63_bk4_B",
+      "person_id": "yqp_nlb_p1p_ACAB",
       "title": "河閒王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -144,7 +145,44 @@
       "quote": "孝景皇帝子凡十三人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r052-c16",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "三月甲寅，初王獻王德元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 155,
+        "astronomical_year": -154,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "155",
+        "source_cell_id": "shiji-017-t1-r052-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r052-c16-review-007",
+        "start": 7,
+        "end": 10,
+        "surface": "獻王德",
+        "person_id": "yqp_nlb_p1p_ACAB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p002",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAB",
+            "quote": "河閒獻王德"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -174,9 +212,9 @@
   "relations": [
     {
       "id": "a-shiji059-003",
-      "subject_person_id": "1c8_u63_bk4_B",
+      "subject_person_id": "yqp_nlb_p1p_ACAB",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -195,7 +233,7 @@
     },
     {
       "id": "a-shiji059-004",
-      "subject_person_id": "1c8_u63_bk4_B",
+      "subject_person_id": "yqp_nlb_p1p_ACAB",
       "predicate": "mother",
       "object_person_id": "gem_sji_xo8",
       "status": "source_attested",
@@ -216,9 +254,9 @@
     },
     {
       "id": "a-shiji059-027",
-      "subject_person_id": "1c8_u63_bk4_BA",
+      "subject_person_id": "yqp_nlb_p1p_ACABA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_B",
+      "object_person_id": "yqp_nlb_p1p_ACAB",
       "status": "source_attested",
       "evidence": [
         {
@@ -250,10 +288,10 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_B": "德（五宗世家候選）",
-    "1c8_u63_bk4_BA": "不害（五宗世家候選）",
-    "gem_sji_xo8": "栗姬（五宗世家候選）"
+    "gem_sji_xo8": "栗姬（五宗世家候選）",
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAB": "德（五宗世家候選）",
+    "yqp_nlb_p1p_ACABA": "不害（五宗世家候選）"
   },
   "dates": [
     {
@@ -285,21 +323,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-002",
-      "person_id": "1c8_u63_bk4_B",
+      "person_id": "yqp_nlb_p1p_ACAB",
       "endpoint": "start",
       "title": "河閒王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_B"
+    "yqp_nlb_p1p_ACAB"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-003",
-      "subject_person_id": "1c8_u63_bk4_B",
+      "subject_person_id": "yqp_nlb_p1p_ACAB",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -318,7 +356,7 @@
     },
     {
       "id": "a-shiji059-004",
-      "subject_person_id": "1c8_u63_bk4_B",
+      "subject_person_id": "yqp_nlb_p1p_ACAB",
       "predicate": "mother",
       "object_person_id": "gem_sji_xo8",
       "status": "source_attested",
@@ -339,9 +377,9 @@
     },
     {
       "id": "a-shiji059-027",
-      "subject_person_id": "1c8_u63_bk4_BA",
+      "subject_person_id": "yqp_nlb_p1p_ACABA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_B",
+      "object_person_id": "yqp_nlb_p1p_ACAB",
       "status": "source_attested",
       "evidence": [
         {
@@ -376,7 +414,7 @@
   "life_events": [
     {
       "id": "le-shiji059-015",
-      "person_id": "1c8_u63_bk4_B",
+      "person_id": "yqp_nlb_p1p_ACAB",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

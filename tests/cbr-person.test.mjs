@@ -40,7 +40,7 @@ test('person navigation retains a bounded source-table context', () => {
 });
 
 test('full person page renders the checked primary passage for a table identity decision', () => {
-  const html = personCard({id: '1c8_u63_bk4_G', label: '彭祖', table_occurrences: [{table_id: 'shiji-017', cell_id: 'shiji-017-t1-r052-c17', title: '《史記·漢興以來諸侯王年表》', year: null, quote: '王彭祖元年。景帝子。', mention: {identity_evidence: [{chapter_id: 'c-shiji-059-wuzong', paragraph_id: 'c-shiji-059-wuzong:p017', quote: '趙王彭祖', source_revision: 2621125}]}}]}, true);
+  const html = personCard({id: 'yqp_nlb_p1p_ACAF', label: '彭祖', table_occurrences: [{table_id: 'shiji-017', cell_id: 'shiji-017-t1-r052-c17', title: '《史記·漢興以來諸侯王年表》', year: null, quote: '王彭祖元年。景帝子。', mention: {identity_evidence: [{chapter_id: 'c-shiji-059-wuzong', paragraph_id: 'c-shiji-059-wuzong:p017', quote: '趙王彭祖', source_revision: 2621125}]}}]}, true);
   assert.match(html, /人物同指的篇文證據/);
   assert.match(html, /趙王彭祖/);
   assert.match(html, /chapter=59/);

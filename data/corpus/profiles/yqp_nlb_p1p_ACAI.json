@@ -1,20 +1,21 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAI",
-  "canonical_person_id": "e4a_qz6_z0d",
-  "label": "yqp_nlb_p1p_ACAI",
+  "canonical_person_id": "yqp_nlb_p1p_ACAI",
+  "label": "勝（景帝子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "子勝",
     "勝",
     "中山靖王勝",
     "中山王",
-    "子勝"
+    "靖王勝"
   ],
   "titles": [
     {
       "id": "th-shiji011-022",
-      "person_id": "e4a_qz6_z0d",
+      "person_id": "yqp_nlb_p1p_ACAI",
       "title": "中山王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -66,7 +67,7 @@
     },
     {
       "id": "th-shiji059-032",
-      "person_id": "1c8_u63_bk4_H",
+      "person_id": "yqp_nlb_p1p_ACAI",
       "title": "中山靖王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -108,7 +109,7 @@
     },
     {
       "id": "th-shiji059-033",
-      "person_id": "1c8_u63_bk4_H",
+      "person_id": "yqp_nlb_p1p_ACAI",
       "title": "中山王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -205,7 +206,44 @@
       "quote": "母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r053-c18",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "六月乙亥，靖王勝元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 154,
+        "astronomical_year": -153,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "154",
+        "source_cell_id": "shiji-017-t1-r053-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r053-c18-review-005",
+        "start": 5,
+        "end": 8,
+        "surface": "靖王勝",
+        "person_id": "yqp_nlb_p1p_ACAI",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p020",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAI",
+            "quote": "中山靖王勝"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -259,9 +297,9 @@
   "relations": [
     {
       "id": "a-shiji059-015",
-      "subject_person_id": "1c8_u63_bk4_H",
+      "subject_person_id": "yqp_nlb_p1p_ACAI",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -280,7 +318,7 @@
     },
     {
       "id": "a-shiji059-016",
-      "subject_person_id": "1c8_u63_bk4_H",
+      "subject_person_id": "yqp_nlb_p1p_ACAI",
       "predicate": "mother",
       "object_person_id": "lyq_p1r_87n",
       "status": "source_attested",
@@ -301,9 +339,9 @@
     },
     {
       "id": "a-shiji059-032",
-      "subject_person_id": "1c8_u63_bk4_HA",
+      "subject_person_id": "yqp_nlb_p1p_ACAIA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {
@@ -335,9 +373,9 @@
     },
     {
       "id": "a-shiji059-046",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "brother",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {
@@ -356,12 +394,11 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_G": "彭祖（五宗世家候選）",
-    "1c8_u63_bk4_H": "勝（五宗世家候選）",
-    "1c8_u63_bk4_HA": "昌（五宗世家候選）",
-    "e4a_qz6_z0d": "勝（景帝子）",
-    "lyq_p1r_87n": "賈夫人（五宗世家候選）"
+    "lyq_p1r_87n": "賈夫人（五宗世家候選）",
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAF": "廣川王（徙趙王未名）",
+    "yqp_nlb_p1p_ACAI": "勝（景帝子）",
+    "yqp_nlb_p1p_ACAIA": "昌（五宗世家候選）"
   },
   "dates": [
     {
@@ -393,22 +430,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-033",
-      "person_id": "1c8_u63_bk4_H",
+      "person_id": "yqp_nlb_p1p_ACAI",
       "endpoint": "start",
       "title": "中山王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_H",
-    "e4a_qz6_z0d"
+    "yqp_nlb_p1p_ACAI"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-015",
-      "subject_person_id": "1c8_u63_bk4_H",
+      "subject_person_id": "yqp_nlb_p1p_ACAI",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -427,7 +463,7 @@
     },
     {
       "id": "a-shiji059-016",
-      "subject_person_id": "1c8_u63_bk4_H",
+      "subject_person_id": "yqp_nlb_p1p_ACAI",
       "predicate": "mother",
       "object_person_id": "lyq_p1r_87n",
       "status": "source_attested",
@@ -448,9 +484,9 @@
     },
     {
       "id": "a-shiji059-032",
-      "subject_person_id": "1c8_u63_bk4_HA",
+      "subject_person_id": "yqp_nlb_p1p_ACAIA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {
@@ -482,9 +518,9 @@
     },
     {
       "id": "a-shiji059-046",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "brother",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {
@@ -506,7 +542,7 @@
   "life_events": [
     {
       "id": "le-shiji059-018",
-      "person_id": "1c8_u63_bk4_H",
+      "person_id": "yqp_nlb_p1p_ACAI",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

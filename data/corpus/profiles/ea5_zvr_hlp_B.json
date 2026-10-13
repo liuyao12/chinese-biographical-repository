@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "id": "ea5_zvr_hlp_B",
+  "canonical_person_id": "ea5_zvr_hlp_B",
+  "label": "不疑（留侯世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "不疑",
+    "留侯不疑"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji055-046",
+      "person_id": "ea5_zvr_hlp_B",
+      "title": "侯",
+      "kind": "noble_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p029",
+          "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji055-046:a001",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "start": 15,
+          "end": 16,
+          "surface": "侯",
+          "person_mention_id": "c-shiji-055-liu:m027-0012",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-055-liu",
+              "source_id": "s-shiji-055-liu",
+              "paragraph_id": "c-shiji-055-liu:p027",
+              "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+              "person_mention_id": "c-shiji-055-liu:m027-0012"
+            }
+          ]
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "abolition",
+          "date_expression": "孝文帝五年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-055-liu",
+              "source_id": "s-shiji-055-liu",
+              "paragraph_id": "c-shiji-055-liu:p029",
+              "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 175,
+            "year": -174,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p029",
+                "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+                "quote": "西漢漢文帝前元五年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      },
+      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 坐不敬國除是爵國廢止證據，不以繼父爵推定同一天或爵位永續。 父子承爵與授新爵分存，原侯字依來源前任留侯解讀。",
+      "reviewer": "Codex（AI 代理）",
+      "inheritance": {
+        "predecessor_person_id": "ea5_zvr_hlp",
+        "predecessor_holding_id": "th-shiji055-031",
+        "resolved_title": "留侯",
+        "source_term": "子不疑代侯",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-055-liu",
+            "source_id": "s-shiji-055-liu",
+            "paragraph_id": "c-shiji-055-liu:p027",
+            "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+            "person_mention_id": "c-shiji-055-liu:m027-0012"
+          }
+        ],
+        "rationale": "本篇張良受留侯且明示子不疑代侯，依父子及前任爵號判讀，原侯字與未明日期保留，不跨全庫匹配侯。",
+        "human_reviewed": false
+      },
+      "period": "未定 → 西元前175年（暫定）"
+    },
+    {
+      "id": "th-shiji055-047",
+      "person_id": "ea5_zvr_hlp_B",
+      "title": "留侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p029",
+          "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji055-047:a001",
+          "paragraph_id": "c-shiji-055-liu:p029",
+          "start": 0,
+          "end": 2,
+          "surface": "留侯",
+          "person_mention_id": "c-shiji-055-liu:m029-0000",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "abolition",
+          "date_expression": "孝文帝五年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-055-liu",
+              "source_id": "s-shiji-055-liu",
+              "paragraph_id": "c-shiji-055-liu:p029",
+              "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 175,
+            "year": -174,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-055-liu",
+                "source_id": "s-shiji-055-liu",
+                "paragraph_id": "c-shiji-055-liu:p029",
+                "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+              }
+            ],
+            "references": [
+              {
+                "title": "維基文庫數位紀年對應（僅作換年參考）",
+                "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+                "quote": "西漢漢文帝前元五年",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      },
+      "interpretation_note": "授予、自立、貶降、任事與文獻用稱分存；未知任期不由首見或卒日推定。廄將、申徒、什方及四人稱名保留見證原字，未定制度性質者不補爵秩。 坐不敬國除是爵國廢止證據，不以繼父爵推定同一天或爵位永續。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 西元前175年（暫定）"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 55,
+      "category": "shijia",
+      "title": "留侯世家第二十五",
+      "paragraph_id": "c-shiji-055-liu:p027",
+      "count": 2,
+      "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-055-liu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-055",
+      "source_id": "s-shiji-055-liu",
+      "source": {
+        "title": "史記／卷055",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷055",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷055&oldid=2666612",
+        "revision_id": 2666612,
+        "accessed_on": "2026-10-09",
+        "extent": "30段篇文及1段索隱述贊；排除張良數位欄題與空p。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白，保留廄將、申徒、道還、襃中、什方侯、角里、敎與彊等原字及索隱標記，不以其他版本字形改寫。",
+          "note": "全31段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji055-003",
+      "subject_person_id": "ea5_zvr_hlp_B",
+      "predicate": "father",
+      "object_person_id": "ea5_zvr_hlp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子不疑代侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ea5_zvr_hlp": "張良",
+    "ea5_zvr_hlp_B": "不疑（留侯世家候選）"
+  },
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 175,
+      "year": -174,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p029",
+          "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+        }
+      ],
+      "references": [
+        {
+          "title": "維基文庫數位紀年對應（僅作換年參考）",
+          "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+          "quote": "西漢漢文帝前元五年",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji055-046",
+      "person_id": "ea5_zvr_hlp_B",
+      "endpoint": "end",
+      "title": "侯"
+    },
+    {
+      "era": "BCE",
+      "era_year": 175,
+      "year": -174,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "留侯不疑，孝文帝五年坐不敬，國除。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p029",
+          "quote": "留侯不疑，孝文帝五年坐不敬，國除。"
+        }
+      ],
+      "references": [
+        {
+          "title": "維基文庫數位紀年對應（僅作換年參考）",
+          "url": "https://zh.wikisource.org/w/index.php?title=Category:前175年_(提及)&oldid=741221",
+          "quote": "西漢漢文帝前元五年",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇明示漢四年、漢六年正月或孝文帝五年，依數位紀年對應作暫定換年；事件證據仍以本篇原句為準，影像未核，不由來源年數倒推生年或精確月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji055-047",
+      "person_id": "ea5_zvr_hlp_B",
+      "endpoint": "end",
+      "title": "留侯"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "ea5_zvr_hlp_B"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji055-003",
+      "subject_person_id": "ea5_zvr_hlp_B",
+      "predicate": "father",
+      "object_person_id": "ea5_zvr_hlp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子不疑代侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
