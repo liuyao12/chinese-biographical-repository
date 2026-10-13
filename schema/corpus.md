@@ -303,3 +303,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 地望 `relation: fief` 的 `qualifiers.fief_kind` 另支援 `territorial_grant`（保存賜地原詞）與 `approved_enfeoffment`（保存請封及明示許之）。單獨請封不能當准封，地望記錄不自動生成官爵、出生地或葬地；賜地、獻回與就封的時間分別核讀。
 
 食邑的 `qualifiers.fief_kind: household_revenue` 保存「食河南洛陽十萬戶」等食地名與戶數原語。`relation` 為 `fief`，不是籍貫、居住地或人口；本批戶數保留原詞，不推戶均人口或現代邊界。驗證要求完整食地名戶數句式，不能只憑一般食字生成地望。
+
+`adoptive_mother` 主體為子女、客體為原文明示的所母；保留含「所母」的 `qualifiers.source_term` 及逐字引文。這是非生母的來源關係，不推血親或現代法律收養程序，不參與生母欄位及血緣世代推導。

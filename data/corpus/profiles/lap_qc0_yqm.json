@@ -68,7 +68,7 @@
       "person_id": "lap_qc0_yqm",
       "title": "帝太后",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -91,9 +91,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": "始皇十九年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-085-lubuwei",
+              "source_id": "s-shiji-085-lubuwei",
+              "paragraph_id": "c-shiji-085-lubuwei:p015",
+              "quote": "始皇十九年，太后薨，謚為帝太后，與莊襄王會葬茝陽。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -101,9 +109,21 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。",
+      "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。 本段明記薨後謚名，不回推生前稱號。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "naming_basis": {
+        "source_term": "謚為帝太后",
+        "death_term": "太后薨",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-085-lubuwei",
+            "source_id": "s-shiji-085-lubuwei",
+            "paragraph_id": "c-shiji-085-lubuwei:p015",
+            "quote": "始皇十九年，太后薨，謚為帝太后，與莊襄王會葬茝陽。"
+          }
+        ]
+      },
+      "period": "始皇十九年 → 未定"
     }
   ],
   "addresses": [

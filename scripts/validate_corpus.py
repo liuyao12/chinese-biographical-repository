@@ -774,7 +774,7 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
                 if a['predicate'] == 'maternal_uncle':
@@ -800,6 +800,8 @@ def validate(root=ROOT):
                           and qualifiers.get('exact_distance') is None
                           and any('大父行' in e.get('quote', '') for e in a['evidence']),
                           '大父行只記祖父輩，不得補直系祖父或親等')
+                if a['predicate'] == 'adoptive_mother':
+                    check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
                     check(qualifiers.get('source_term') == '後母' and any('後母' in e.get('quote', '') for e in a['evidence']), '後母關係須有原詞證據')
                 if 'posthumous_birth' in qualifiers:
