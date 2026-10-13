@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `swf_ksm_2oo` | 宋雍氏女 | [《史記・鄭世家》][24] | [JSON](swf_ksm_2oo.json) |
-| `swy_2d0_4yn` | 驃騎 | [《史記・太史公自序》][112] | [JSON](swy_2d0_4yn.json) |
 | `sx2_wyn_nhr` | 穆王 | [《史記・周本紀》][4] | [JSON](sx2_wyn_nhr.json) |
 | `sxb_x2z_83z` | 朱英 | [《史記・春申君列傳》][60] | [JSON](sxb_x2z_83z.json) |
 | `sxc_v8z_vpu` | 武 | [《史記・司馬相如列傳》][99] | [JSON](sxc_v8z_vpu.json) |

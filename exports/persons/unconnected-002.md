@@ -1220,7 +1220,6 @@
 | `mc5_j8c_0oc` | 子輿 | [《史記・趙世家》][25] | [JSON](mc5_j8c_0oc.json) |
 | `mc8_pmt_w8i` | 漆雕哆 | [《史記・仲尼弟子列傳》][49] | [JSON](mc8_pmt_w8i.json) |
 | `mcj_otj_yir` | 關龍逢 | [《史記・龜策列傳》][110] | [JSON](mcj_otj_yir.json) |
-| `mcm_2ok_nqa` | 崔杼 | [《史記・范睢蔡澤列傳》][61] | [JSON](mcm_2ok_nqa.json) |
 | `mcx_6iv_rgc` | 嘉（周子南君） | [《史記・周本紀》][4] | [JSON](mcx_6iv_rgc.json) |
 | `mcx_uqw_9lx` | 少帝未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](mcx_uqw_9lx.json) |
 | `mcy_59c_udi` | 隨何 | [《史記・黥布列傳》][73] | [JSON](mcy_59c_udi.json) |
@@ -1497,7 +1496,6 @@
 | `o6s_s07_5s6` | 莊參 | [《史記・南越列傳》][95] | [JSON](o6s_s07_5s6.json) |
 | `o6u_xnt_ls1` | 樂毅 | [《史記・田敬仲完世家》][28] | [JSON](o6u_xnt_ls1.json) |
 | `o77_eec_0oy` | 姜原 | [《史記・周本紀》][4] | [JSON](o77_eec_0oy.json) |
-| `o7b_uyb_qu9` | 淖齒 | [《史記・范睢蔡澤列傳》][61] | [JSON](o7b_uyb_qu9.json) |
 | `o7j_zzq_frd` | 灌夫 | [《史記・季布欒布列傳》][82] | [JSON](o7j_zzq_frd.json) |
 | `o7s_89o_zka` | 今上 | [《史記・儒林列傳》][103] | [JSON](o7s_89o_zka.json) |
 | `o7y_cll_jk1` | 伊尹 | [《史記・絳侯周勃世家》][39] | [JSON](o7y_cll_jk1.json) |
@@ -2242,6 +2240,8 @@
 | `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
 | `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
 | `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
+| `swf_ksm_2oo` | 宋雍氏女 | [《史記・鄭世家》][24] | [JSON](swf_ksm_2oo.json) |
+| `swy_2d0_4yn` | 驃騎 | [《史記・太史公自序》][112] | [JSON](swy_2d0_4yn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
