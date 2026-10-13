@@ -70,6 +70,8 @@ def build(root=ROOT):
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])
         profile['selected_life_event_dates'] = b.get('selected_life_event_dates', [])
+        if b.get('reported_variants'):
+            profile['reported_variants'] = b['reported_variants']
         (out/f'{pid}.json').write_text(json.dumps(profile,ensure_ascii=False,indent=2)+'\n')
     entries = []
     for pid in sorted(table_mentions):
