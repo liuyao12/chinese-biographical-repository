@@ -6,6 +6,23 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FanCaiIdentityTests(unittest.TestCase):
+    def test_qi_two_kings_are_not_collapsed_into_qin_addressee(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p017'))
+        first = next(m for m in paragraph['mentions'] if m['id'].endswith('m017-0295'))
+        second = next(m for m in paragraph['mentions'] if m['id'].endswith('m017-0299'))
+        self.assertEqual(first['surface'], '王')
+        self.assertEqual(second['surface'], '王')
+        self.assertEqual(first['person_id'], '9w2_c77_53m_AAAA')
+        self.assertEqual(second['person_id'], 'lmu_nbm_rzo_AAAAAAABAAAAAAAA')
+        self.assertNotEqual(first['person_id'], second['person_id'])
+        self.assertNotIn('ao3_0fy_d45', (first['person_id'], second['person_id']))
+        self.assertIn('崔杼、淖齒管齊，射王股，擢王筋', paragraph['text'])
+        self.assertTrue(any(m['surface'] == '王' and m['person_id'] is None
+                            for m in paragraph['mentions']))
+        self.assertEqual(next(m for m in paragraph['mentions'] if m['surface'] == '崔杼')['person_id'], 'xgd_r31_cmr')
+        self.assertEqual(next(m for m in paragraph['mentions'] if m['surface'] == '淖齒')['person_id'], 'fvc_9z0_643')
+
     def test_shaqiu_zhufu_is_resolved_without_harmonizing_duration(self):
         chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
         paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p017'))
