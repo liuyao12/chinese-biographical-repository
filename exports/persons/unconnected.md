@@ -232,7 +232,6 @@
 | `1ia_b4v_w14` | 單于未詳名（嫚書） | [《史記・季布欒布列傳》][82] | [JSON](1ia_b4v_w14.json) |
 | `1ia_pai_f8d` | 白起 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](1ia_pai_f8d.json) |
 | `1is_5g0_ufp` | 張春 | [《史記・曹相國世家》][36] | [JSON](1is_5g0_ufp.json) |
-| `1is_max_s0c` | 蘇秦引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](1is_max_s0c.json) |
 | `1iv_bo2_ode` | 齊王畔約未名 | [《史記・吳王濞列傳》][88] | [JSON](1iv_bo2_ode.json) |
 | `1iw_7ww_ynr` | 朱彊 | [《史記・酷吏列傳》][104] | [JSON](1iw_7ww_ynr.json) |
 | `1jv_ziq_uxq` | 魏咎 | [《史記・陳丞相世家》][38] | [JSON](1jv_ziq_uxq.json) |
@@ -1423,7 +1422,6 @@
 | `932_ice_oix` | 樗里子 | [《史記・魏世家》][26] | [JSON](932_ice_oix.json) |
 | `93v_ypp_gkw` | 靑翟 | [《史記・酷吏列傳》][104] | [JSON](93v_ypp_gkw.json) |
 | `948_i7p_bip` | 孝文帝 | [《史記・佞幸列傳》][107] | [JSON](948_i7p_bip.json) |
-| `94a_9mp_mel` | 伯夷引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](94a_9mp_mel.json) |
 | `94b_b75_ipy` | 漆彫開 | [《史記・仲尼弟子列傳》][49] | [JSON](94b_b75_ipy.json) |
 | `94s_w92_nqh` | 楡次主人未名 | [《史記・刺客列傳》][68] | [JSON](94s_w92_nqh.json) |
 | `959_qw8_f4y` | 郭縱（匈奴列傳第52段） | [《史記・匈奴列傳》][92] | [JSON](959_qw8_f4y.json) |
@@ -2231,6 +2229,8 @@
 | `eh7_raa_ap6` | 伯夷 | [《史記・伯夷列傳》][43] | [JSON](eh7_raa_ap6.json) |
 | `ehf_uuv_att` | 子西 | [《史記・伍子胥列傳》][48] | [JSON](ehf_uuv_att.json) |
 | `ehh_a65_95j` | 黥布 | [《史記・韓信盧綰列傳》][75] | [JSON](ehh_a65_95j.json) |
+| `ehi_e39_173` | 荊軻所待客未名 | [《史記・刺客列傳》][68] | [JSON](ehi_e39_173.json) |
+| `eht_523_crr` | 華成 | [《史記・酷吏列傳》][104] | [JSON](eht_523_crr.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
