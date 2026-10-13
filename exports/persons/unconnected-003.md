@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tae_3uh_xsc` | 楚死事相張羽兄未名 | [《史記・吳王濞列傳》][88] | [JSON](tae_3uh_xsc.json) |
-| `tal_mu5_li4` | 孟嘗君母未名 | [《史記・孟嘗君列傳》][57] | [JSON](tal_mu5_li4.json) |
-| `taq_82s_0na` | 景公太子（田世家先卒未名者） | [《史記・田敬仲完世家》][28] | [JSON](taq_82s_0na.json) |
-| `taw_n8v_eh1` | 中康 | [《史記・夏本紀》][2] | [JSON](taw_n8v_eh1.json) |
-| `taz_6jd_auh` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](taz_6jd_auh.json) |
 | `tb2_zhz_mol` | 鐘離眛 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](tb2_zhz_mol.json) |
 | `tba_8dy_6gi` | 太史公 | [《史記・三王世家》][42] | [JSON](tba_8dy_6gi.json) |
 | `tbj_acl_sow` | 壯（汲鄭） | [《史記・太史公自序》][112] | [JSON](tbj_acl_sow.json) |

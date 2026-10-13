@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eku_vg7_a7e` | 樂毅 | [《史記・陳涉世家》][30] | [JSON](eku_vg7_a7e.json) |
-| `elm_iea_s2h` | 嚴彭祖 | [《史記・平津侯主父列傳》][94] | [JSON](elm_iea_s2h.json) |
-| `emm_08p_2n8` | 魏文侯（楚篇三晉記事） | [《史記・楚世家》][22] | [JSON](emm_08p_2n8.json) |
 | `eng_0y0_ha6` | 公孫戎奴 | [《史記・衛將軍驃騎列傳》][93] | [JSON](eng_0y0_ha6.json) |
 | `ens_bv2_oaj` | 齊太醫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ens_bv2_oaj.json) |
 | `env_vor_wvy` | 被濟川王明射殺的中尉 | [《史記・梁孝王世家》][40] | [JSON](env_vor_wvy.json) |
@@ -1651,7 +1648,6 @@
 | `pmn_f40_6n7` | 子（田世家髙唐守者讀法未定） | [《史記・田敬仲完世家》][28] | [JSON](pmn_f40_6n7.json) |
 | `pmp_iwy_pug` | 太史公 | [《史記・龜策列傳》][110] | [JSON](pmp_iwy_pug.json) |
 | `pmr_861_ixl` | 妻（公孫敖妻；未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](pmr_861_ixl.json) |
-| `pn8_865_se4` | 魯君引古未名 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](pn8_865_se4.json) |
 | `pne_em8_5zk` | 熊繹 | [《史記・太史公自序》][112] | [JSON](pne_em8_5zk.json) |
 | `pni_28v_4w0` | 秦繆公 | [《史記・趙世家》][25] | [JSON](pni_28v_4w0.json) |
 | `pnl_mv7_etn` | 威烈王 | [《史記・周本紀》][4] | [JSON](pnl_mv7_etn.json) |
@@ -2166,7 +2162,6 @@
 | `ss6_lvt_mi1` | 秦御史 | [《史記・蕭相國世家》][35] | [JSON](ss6_lvt_mi1.json) |
 | `ss9_tub_gzp` | 故濟北王阿母未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ss9_tub_gzp.json) |
 | `ssp_whv_x4q` | 安期生 | [《史記・樂毅列傳》][62] | [JSON](ssp_whv_x4q.json) |
-| `ssv_spo_859` | 羊勝 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ssv_spo_859.json) |
 | `st2_0ng_tvo` | 樂巨公 | [《史記・田叔列傳》][86] | [JSON](st2_0ng_tvo.json) |
 | `st8_x29_boy` | 公孫弘 | [《史記・李將軍列傳》][91] | [JSON](st8_x29_boy.json) |
 | `st9_wg7_o4r` | 稽沮王（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](st9_wg7_o4r.json) |
@@ -2242,6 +2237,11 @@
 | `t90_dfp_2t1` | 項籍 | [《史記・萬石張叔列傳》][85] | [JSON](t90_dfp_2t1.json) |
 | `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][112] | [JSON](t9n_2o5_k16.json) |
 | `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][3] | [JSON](ta6_n0m_glj.json) |
+| `tae_3uh_xsc` | 楚死事相張羽兄未名 | [《史記・吳王濞列傳》][88] | [JSON](tae_3uh_xsc.json) |
+| `tal_mu5_li4` | 孟嘗君母未名 | [《史記・孟嘗君列傳》][57] | [JSON](tal_mu5_li4.json) |
+| `taq_82s_0na` | 景公太子（田世家先卒未名者） | [《史記・田敬仲完世家》][28] | [JSON](taq_82s_0na.json) |
+| `taw_n8v_eh1` | 中康 | [《史記・夏本紀》][2] | [JSON](taw_n8v_eh1.json) |
+| `taz_6jd_auh` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](taz_6jd_auh.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
