@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "7pl_s0g_rkh",
   "canonical_person_id": "7pl_s0g_rkh",
-  "label": "孟嘗君薛文",
+  "label": "孟嘗君田文",
   "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
   "review": "ai_provisional",
   "names": [
@@ -12,7 +12,9 @@
     "孟嘗君",
     "文",
     "薛公",
-    "君"
+    "君",
+    "文子",
+    "田文"
   ],
   "titles": [
     {
@@ -776,6 +778,14 @@
       "paragraph_id": "c-shiji-078-chunshen:p011",
       "count": 1,
       "quote": "春申君既相楚，是時齊有孟嘗君，趙有平原君，魏有信陵君，方爭下士，招致賓客，以相傾奪，輔國持權。"
+    },
+    {
+      "number": 79,
+      "category": "liezhuan",
+      "title": "范睢蔡澤列傳第十九",
+      "paragraph_id": "c-shiji-079-fancai:p015",
+      "count": 3,
+      "quote": "興兵而伐齊，大破之。士辱兵頓，皆咎其王，曰：『誰為此計者乎？』王曰：『文子為之。』大臣作亂，文子出走。攻齊所以大破者，以其伐楚而肥韓、魏也。此所謂借賊兵而齎盜糧者也。王不如遠交而近攻，得寸則王之寸也，得尺亦王之尺也。今釋此而遠攻，不亦繆乎！且昔者中山之國地方五百里，趙獨吞之"
     }
   ],
   "table_occurrences": [
@@ -1052,6 +1062,43 @@
           "note": "全22段正文及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-079-fancai",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-079",
+      "source_id": "s-shiji-079-fancai",
+      "source": {
+        "title": "史記／卷079",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷079",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
+        "revision_id": 2549307,
+        "accessed_on": "2026-10-09",
+        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（止）［足］",
+              "body_reading": "止",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（足）［止］",
+              "body_reading": "足",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
+          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
     }
   ],
   "relations": [
@@ -1099,7 +1146,7 @@
     }
   ],
   "related_people": {
-    "7pl_s0g_rkh": "孟嘗君薛文",
+    "7pl_s0g_rkh": "孟嘗君田文",
     "quo_167_x2v": "田嬰（田世家候選）",
     "tal_mu5_li4": "孟嘗君母未名（孟嘗君列傳候選）"
   },
@@ -1147,7 +1194,21 @@
       "title": "秦相"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "7pl_s0g_rkh",
+      "title": "孟嘗君",
+      "surname": "田",
+      "ming": "文",
+      "additional_names": [],
+      "chapter_id": "c-shiji-075-mengchang",
+      "paragraph_id": "c-shiji-075-mengchang:p001",
+      "quote": "孟嘗君名文，姓田氏。",
+      "note": "依本傳卷首明示姓與名；薛文保留原來源稱呼，不用薛地名取代此處姓氏證據。頂部孟嘗君為人物辨認用稱，不表示所有敘事時點已受封。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "7pl_s0g_rkh"
   ],
