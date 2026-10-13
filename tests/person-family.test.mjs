@@ -33,3 +33,12 @@ test('cycles stop traversal while competing source fathers remain visible', asyn
   assert.equal(family.ancestors[1][0].cycle,true);
   assert.deepEqual(family.ancestors[2],[]);
 });
+
+test('non-birth maternal relations do not replace the birth mother or create biological children', async () => {
+  const child={id:'child',relations:[relation('child','mother','birth'),relation('child','adoptive_mother','adoptive'),relation('child','stepmother','step')]};
+  const people={birth:{id:'birth'},adoptive:{id:'adoptive',relations:child.relations},step:{id:'step'}};
+  const family=await traceFamily(child,async id=>people[id]);
+  assert.deepEqual(family.mother.map(x=>x.id),['birth']);
+  const adopted=await traceFamily(people.adoptive,async id=>id==='child'?child:people[id]);
+  assert.deepEqual(adopted.children,[]);
+});
