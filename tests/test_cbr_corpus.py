@@ -14,6 +14,12 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_household_revenue_cannot_be_relabelled_residence(self):
+        self.change('corpus/shiji/085-addresses.json', lambda d: d['assertions'][1].update(relation='residence'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_household_revenue_requires_full_allocation_wording(self):
+        self.change('corpus/shiji/085-addresses.json', lambda d: d['assertions'][1].update(source_term='食'))
+        self.assertIn('食戶地望須保存食地名與戶數原語，不得當人口或居處', v.validate(self.root))
     def test_tangmu_estate_cannot_be_relabelled_native_place(self):
         self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][4].update(relation='native_place'))
         self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
