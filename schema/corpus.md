@@ -301,3 +301,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 平行事件換年時，事件與西元對照可能分屬兩個見證。`normalized_date.basis.reference_url` 連事件引句，選填 `reference_year_url` 連數位西元年引句；未填時兩者沿用同一 URL。兩項引句都須出現在各自的 `references` 中，不得為格式便利把引句歸到其他來源。
 
 地望 `relation: fief` 的 `qualifiers.fief_kind` 另支援 `territorial_grant`（保存賜地原詞）與 `approved_enfeoffment`（保存請封及明示許之）。單獨請封不能當准封，地望記錄不自動生成官爵、出生地或葬地；賜地、獻回與就封的時間分別核讀。
+
+食邑的 `qualifiers.fief_kind: household_revenue` 保存「食河南洛陽十萬戶」等食地名與戶數原語。`relation` 為 `fief`，不是籍貫、居住地或人口；本批戶數保留原詞，不推戶均人口或現代邊界。驗證要求完整食地名戶數句式，不能只憑一般食字生成地望。

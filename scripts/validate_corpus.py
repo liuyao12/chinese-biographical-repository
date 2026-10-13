@@ -997,7 +997,9 @@ def validate(root=ROOT):
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
-                    word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉', 'territorial_grant':'賜', 'approved_enfeoffment':'許之'}.get(kind)
+                    word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉', 'territorial_grant':'賜', 'approved_enfeoffment':'許之', 'household_revenue':'食'}.get(kind)
+                    if kind == 'household_revenue':
+                        check(bool(re.fullmatch(r'食.+[萬千百十〇零一二三四五六七八九兩0-9]+戶', address.get('source_term', ''))), '食戶地望須保存食地名與戶數原語，不得當人口或居處')
                     if kind == 'approved_enfeoffment':
                         check('封' in address.get('source_term', '') and '許之' in address.get('source_term', ''), '准封地望須保存提請與明示允許，不得只據請封記實授')
                     check(address['relation'] == 'fief' and bool(word)
