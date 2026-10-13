@@ -708,7 +708,7 @@
 | `y63_hvf_l13` | 宋湣公 | [《史記・鄭世家》][24] | [JSON](y63_hvf_l13.json) |
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][91] | [JSON](y6f_9v5_dqg.json) |
 | `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][24] | [JSON](y6n_nmo_abl.json) |
-| `y6v_c03_at3` | 賈生 | [《史記・屈原賈生列傳》][66] | [JSON](y6v_c03_at3.json) |
+| `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][66] | [JSON](y6v_c03_at3.json) |
 | `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][9] | [JSON](y6w_obg_omu.json) |
 | `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][27] | [JSON](y6x_wmu_o70.json) |
 | `y6z_6wd_ezf` | 龍且 | [《史記・田儋列傳》][76] | [JSON](y6z_6wd_ezf.json) |
