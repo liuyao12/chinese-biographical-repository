@@ -50,7 +50,7 @@ export default {
   "Read source text": "閱讀來源原文",
   "Source text could not be loaded.": "未能載入原文。",
   "Person index could not be loaded.": "未能載入人物索引。",
-  "Names are underlined. Hover or focus for identity; click for the source context and person JSON.": "人名以下劃線標出；滑鼠懸停或鍵盤聚焦可看身份，點擊查看來源語境與人物 JSON。",
+  "Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.": "人名以下劃線標出；懸停、聚焦或點按可讀人物與親屬資料，也可跳往其他篇章。",
   "Annotation in progress · no independently reviewed edition claimed": "標註覆核中 · 尚未完成獨立底本覆核",
   "Download chapter JSON": "下載篇目 JSON",
   "Browse by the work’s own categories.": "依全書體例瀏覽篇目。",
