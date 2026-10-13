@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
-| `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
-| `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 | `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
 | `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
 | `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
@@ -189,7 +186,6 @@
 | `u0a_lyv_mx6` | 教周勃引公主為證之獄吏 | [《史記・絳侯周勃世家》][39] | [JSON](u0a_lyv_mx6.json) |
 | `u1j_dr2_488` | 潘尪（楚入鄭盟者） | [《史記・楚世家》][22] | [JSON](u1j_dr2_488.json) |
 | `u20_r6q_88g` | 安國少季 | [《史記・南越列傳》][95] | [JSON](u20_r6q_88g.json) |
-| `u23_jpf_vfr` | 秦始皇帝 | [《史記・范睢蔡澤列傳》][61] | [JSON](u23_jpf_vfr.json) |
 | `u25_mhc_xap` | 楊喜 | [《史記・項羽本紀》][7] | [JSON](u25_mhc_xap.json) |
 | `u2c_fe5_16n` | 唐勒 | [《史記・屈原賈生列傳》][66] | [JSON](u2c_fe5_16n.json) |
 | `u2w_08q_du4` | 嘉（燕王） | [《史記・孝景本紀》][11] | [JSON](u2w_08q_du4.json) |
@@ -424,7 +420,6 @@
 | `vm4_pus_oa9` | 李信 | [《史記・李將軍列傳》][91] | [JSON](vm4_pus_oa9.json) |
 | `vma_jxj_3e9` | 馮喜 | [《史記・張儀列傳》][52] | [JSON](vma_jxj_3e9.json) |
 | `vmp_fmj_mjj` | 趙王遷（引古） | [《史記・蒙恬列傳》][70] | [JSON](vmp_fmj_mjj.json) |
-| `vn0_yj1_dq4` | 燕太子丹 | [《史記・范睢蔡澤列傳》][61] | [JSON](vn0_yj1_dq4.json) |
 | `vnb_l2e_06w` | 章平 | [《史記・樊酈滕灌列傳》][77] | [JSON](vnb_l2e_06w.json) |
 | `vnj_9ny_oq5` | 冥（商先祖） | [《史記・殷本紀》][3] | [JSON](vnj_9ny_oq5.json) |
 | `vnm_2mr_2d6` | 周殷 | [《史記・荊燕世家》][33] | [JSON](vnm_2mr_2d6.json) |

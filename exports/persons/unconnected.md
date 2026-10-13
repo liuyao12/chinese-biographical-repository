@@ -1924,7 +1924,6 @@
 | `ch1_cu1_wfj` | 晉文公引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ch1_cu1_wfj.json) |
 | `che_kst_jnn` | 公子朝（衞） | [《史記・吳太伯世家》][13] | [JSON](che_kst_jnn.json) |
 | `chh_mde_x8x` | 馮 | [《史記・鄭世家》][24] | [JSON](chh_mde_x8x.json) |
-| `chj_jwd_e4f` | 秦莊襄王 | [《史記・范睢蔡澤列傳》][61] | [JSON](chj_jwd_e4f.json) |
 | `chm_jfj_3y8` | 管引古短稱未定 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](chm_jfj_3y8.json) |
 | `chn_cq4_nzo` | 秦皇帝 | [《史記・蕭相國世家》][35] | [JSON](chn_cq4_nzo.json) |
 | `chp_5kd_7fb` | 魏冉 | [《史記・田敬仲完世家》][28] | [JSON](chp_5kd_7fb.json) |
@@ -2231,6 +2230,7 @@
 | `ee1_qga_8bw` | 衛綰 | [《史記・魏其武安侯列傳》][89] | [JSON](ee1_qga_8bw.json) |
 | `ee9_kk5_7tj` | 師曠 | [《史記・晉世家》][21] | [JSON](ee9_kk5_7tj.json) |
 | `eee_3o6_5s7` | 從史未名（救袁盎） | [《史記・袁盎鼂錯列傳》][83] | [JSON](eee_3o6_5s7.json) |
+| `eep_7t4_31w` | 慎夫人 | [《史記・袁盎鼂錯列傳》][83] | [JSON](eep_7t4_31w.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

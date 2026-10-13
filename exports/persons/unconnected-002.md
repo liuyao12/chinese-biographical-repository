@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eep_7t4_31w` | 慎夫人 | [《史記・袁盎鼂錯列傳》][83] | [JSON](eep_7t4_31w.json) |
 | `eet_iph_y41` | 魏王犀首事件 | [《史記・張儀列傳》][52] | [JSON](eet_iph_y41.json) |
 | `eey_euc_j6a` | 荀卿 | [《史記・太史公自序》][112] | [JSON](eey_euc_j6a.json) |
 | `eey_qdy_jzn` | 宋遺（辱齊勇士） | [《史記・楚世家》][22] | [JSON](eey_qdy_jzn.json) |
@@ -116,7 +115,6 @@
 | `f23_b0p_hqg` | 髙渠彌 | [《史記・鄭世家》][24] | [JSON](f23_b0p_hqg.json) |
 | `f2n_1g8_h3m` | 趙倉唐 | [《史記・魏世家》][26] | [JSON](f2n_1g8_h3m.json) |
 | `f2v_ue2_c9t` | 孝惠 | [《史記・儒林列傳》][103] | [JSON](f2v_ue2_c9t.json) |
-| `f2w_0vq_9ld` | 秦孝文王 | [《史記・范睢蔡澤列傳》][61] | [JSON](f2w_0vq_9ld.json) |
 | `f30_vxh_z7o` | 隨何 | [《史記・留侯世家》][37] | [JSON](f30_vxh_z7o.json) |
 | `f32_hqy_au7` | 偃（陳哀公子） | [《史記・陳杞世家》][18] | [JSON](f32_hqy_au7.json) |
 | `f3g_9nj_1ae` | 田常引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](f3g_9nj_1ae.json) |
@@ -2241,6 +2239,9 @@
 | `st2_0ng_tvo` | 樂巨公 | [《史記・田叔列傳》][86] | [JSON](st2_0ng_tvo.json) |
 | `st8_x29_boy` | 公孫弘 | [《史記・李將軍列傳》][91] | [JSON](st8_x29_boy.json) |
 | `st9_wg7_o4r` | 稽沮王（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](st9_wg7_o4r.json) |
+| `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
+| `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
+| `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
