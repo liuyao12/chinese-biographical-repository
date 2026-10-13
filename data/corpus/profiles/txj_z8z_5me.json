@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "txj_z8z_5me",
+  "canonical_person_id": "txj_z8z_5me",
+  "label": "肅侯（趙世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "肅侯",
+    "趙肅侯"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-033",
+      "person_id": "txj_z8z_5me",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p054",
+          "quote": "十七年，成侯與魏惠王遇葛孽。十九年，與齊、宋會平陸，與燕會阿。二十年，魏獻榮椽，因以爲檀臺。二十一年，魏圍我邯鄲。二十二年，魏惠王拔我邯鄲，齊亦敗魏於桂陵。二十四年，魏歸我邯鄲，與魏盟漳水上。秦攻我藺。二十五年，成侯卒。公子紲太子肅侯爭立，紲敗亡奔韓。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-033:a001",
+          "paragraph_id": "c-shiji-043-zhao:p054",
+          "start": 113,
+          "end": 115,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-043-zhao:m054-0115",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "官稱、任命與敘事王號分存；不由卒、首次用稱或迎立代推所有任期。「五國相王」趙獨否保留，先前武靈王用稱不等於此年受王號。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p054",
+      "count": 5,
+      "quote": "四年，魏歸我邯鄲，與魏盟漳水上。秦攻我藺。二十五年，成侯卒。公子紲太子肅侯爭立，紲敗亡奔韓。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r128-c05",
+      "title": "《史記·六國年表》",
+      "quote": "趙肅侯元年。",
+      "year": {
+        "era": "BCE",
+        "value": 349,
+        "astronomical_year": -348,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "349",
+        "source_cell_id": "shiji-015-r128-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r128-c05-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "趙肅侯",
+        "person_id": "txj_z8z_5me",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "txj_z8z_5me": "肅侯（趙世家候選）",
+    "txj_z8z_5me_A": "武靈王（趙世家候選）"
+  },
+  "dates": []
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "1za_blw_7lb_AAA",
+  "canonical_person_id": "1za_blw_7lb_AAA",
+  "label": "籍（趙世家烈侯候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "子烈侯籍",
+    "烈侯",
+    "趙烈侯籍"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p045",
+      "count": 12,
+      "quote": "十年，中山武公初立。十三年，城平邑。十五年，獻侯卒，子烈侯籍立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r069-c05",
+      "title": "《史記·六國年表》",
+      "quote": "趙烈侯籍元年。魏使太子伐中山。",
+      "year": {
+        "era": "BCE",
+        "value": 408,
+        "astronomical_year": -407,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "408",
+        "source_cell_id": "shiji-015-r069-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r069-c05-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "趙烈侯籍",
+        "person_id": "1za_blw_7lb_AAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r075-c05",
+      "title": "《史記·六國年表》",
+      "quote": "七。烈侯好音，欲賜歌者田，徐越侍以仁義，乃止。",
+      "year": {
+        "era": "BCE",
+        "value": 402,
+        "astronomical_year": -401,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "402",
+        "source_cell_id": "shiji-015-r075-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r075-c05-m002",
+        "start": 2,
+        "end": 4,
+        "surface": "烈侯",
+        "person_id": "1za_blw_7lb_AAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji043-044",
+      "subject_person_id": "1za_blw_7lb_AAA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p045",
+          "quote": "十年，中山武公初立。十三年，城平邑。十五年，獻侯卒，子烈侯籍立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子烈侯籍立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "1za_blw_7lb_AA": "浣（趙世家獻侯候選）",
+    "1za_blw_7lb_AAA": "籍（趙世家烈侯候選）",
+    "1za_blw_7lb_AAAA": "章（趙世家敬侯候選）",
+    "l8e_pxu_xre": "武公（趙世家趙君候選）"
+  },
+  "dates": []
+}

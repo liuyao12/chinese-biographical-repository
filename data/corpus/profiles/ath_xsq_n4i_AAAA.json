@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "id": "ath_xsq_n4i_AAAA",
+  "canonical_person_id": "ath_xsq_n4i_AAAA",
+  "label": "顯（魯穆公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "穆公",
+    "顯",
+    "魯穆公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-034",
+      "person_id": "ath_xsq_n4i_AAAA",
+      "title": "穆公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p093",
+          "quote": "元公二十一年卒，子顯立，是爲穆公。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-034:a001",
+          "paragraph_id": "c-shiji-033-lu:p093",
+          "start": 14,
+          "end": 16,
+          "surface": "穆公",
+          "person_mention_id": "c-shiji-033-lu:m093-0009",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "公號暫作敘事追稱，保存用稱但不將繼位當成當時授予諡號；不補未知曆日或以卒日推終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p093",
+      "count": 3,
+      "quote": "元公二十一年卒，子顯立，是爲穆公。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r070-c06",
+      "title": "《史記·六國年表》",
+      "quote": "楚聲王當元年。魯穆公元年",
+      "year": {
+        "era": "BCE",
+        "value": 407,
+        "astronomical_year": -406,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "407",
+        "source_cell_id": "shiji-015-r070-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r070-c06-m007",
+        "start": 7,
+        "end": 10,
+        "surface": "魯穆公",
+        "person_id": "ath_xsq_n4i_AAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-061",
+      "subject_person_id": "ath_xsq_n4i_AAAA",
+      "predicate": "father",
+      "object_person_id": "ath_xsq_n4i_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p093",
+          "quote": "元公二十一年卒，子顯立，是爲穆公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子顯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ath_xsq_n4i_AAA": "嘉（魯元公）",
+    "ath_xsq_n4i_AAAA": "顯（魯穆公）",
+    "ath_xsq_n4i_AAAAA": "奮（魯共公）"
+  },
+  "dates": []
+}

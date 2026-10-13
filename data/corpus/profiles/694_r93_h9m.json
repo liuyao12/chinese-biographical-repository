@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "694_r93_h9m",
+  "canonical_person_id": "694_r93_h9m",
+  "label": "宋王（魏世家温死未名者）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "宋王"
+  ],
+  "titles": [],
+  "addresses": [
+    {
+      "id": "pa-shiji044-013",
+      "person_id": "694_r93_h9m",
+      "relation": "death_place",
+      "place": {
+        "source_name": "温",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p053",
+          "quote": "十年，齊滅宋，宋王死我温。十二年，與秦、趙、韓、燕共伐齊，敗之濟西，湣王出亡。燕獨入臨菑。與秦王會西周。",
+          "person_mention_id": "c-shiji-044-wei:m053-0007"
+        }
+      ],
+      "source_term": "宋王死我温",
+      "interpretation_note": "保留來源治所、出入地、明示死地或人稱出處；省主詞依本段敘事，不補現代位置。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "宋王死我温",
+      "quote": "十年，齊滅宋，宋王死我温。十二年，與秦、趙、韓、燕共伐齊，敗之濟西，湣王出亡。燕獨入臨菑。與秦王會西周。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p053",
+      "count": 1,
+      "quote": "十年，齊滅宋，宋王死我温。十二年，與秦、趙、韓、燕共伐齊，敗之濟西，湣王出亡。燕獨入臨菑。與秦王會西周。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r191-c03",
+      "title": "《史記·六國年表》",
+      "quote": "十。宋王死我溫。",
+      "year": {
+        "era": "BCE",
+        "value": 286,
+        "astronomical_year": -285,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "286",
+        "source_cell_id": "shiji-015-r191-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r191-c03-m002",
+        "start": 2,
+        "end": 4,
+        "surface": "宋王",
+        "person_id": "694_r93_h9m",
+        "status": "contextual_provisional",
+        "interpretation_note": "依原格國別、紀年與同一受敗或死亡記事暫定對讀；保留原格姓名及用字。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "694_r93_h9m": "宋王（魏世家温死未名者）"
+  },
+  "dates": []
+}

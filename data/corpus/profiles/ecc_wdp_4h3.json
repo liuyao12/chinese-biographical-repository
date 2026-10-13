@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "ecc_wdp_4h3",
+  "canonical_person_id": "ecc_wdp_4h3",
+  "label": "亹（衛懷公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "公子亹",
+    "懷公",
+    "衛悼公亹"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji037-036",
+      "person_id": "ecc_wdp_4h3",
+      "title": "懷公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p042",
+          "quote": "是時三晉彊，衞如小侯，屬之。昭公六年，公子亹弒之代立，是爲懷公。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji037-036:a001",
+          "paragraph_id": "c-shiji-037-wei:p042",
+          "start": 29,
+          "end": 31,
+          "surface": "懷公",
+          "person_mention_id": "c-shiji-037-wei:m042-0019",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 37,
+      "category": "shijia",
+      "title": "衛康叔世家第七",
+      "paragraph_id": "c-shiji-037-wei:p042",
+      "count": 4,
+      "quote": "是時三晉彊，衞如小侯，屬之。昭公六年，公子亹弒之代立，是爲懷公。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r052-c03",
+      "title": "《史記·六國年表》",
+      "quote": "衛悼公亹元年。",
+      "year": {
+        "era": "BCE",
+        "value": 425,
+        "astronomical_year": -424,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "425",
+        "source_cell_id": "shiji-015-r052-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r052-c03-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "衛悼公亹",
+        "person_id": "ecc_wdp_4h3",
+        "status": "contextual_provisional",
+        "interpretation_note": "按世家所記末君或相鄰君位暫定對應；年表原稱保留，未據此改寫世家稱號或紀年。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-037-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-037",
+      "source_id": "s-shiji-037-wei",
+      "source": {
+        "title": "史記／卷037",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷037",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
+        "revision_id": 5977124,
+        "accessed_on": "2026-10-09",
+        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "绖": "絰"
+          },
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-037-wei:p027",
+              "rendered": "史Template:按",
+              "wikitext": "史{{按|魚}}",
+              "transcribed": "史魚",
+              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
+            }
+          ],
+          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
+          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "ecc_wdp_4h3": "亹（衛懷公）"
+  },
+  "dates": []
+}
