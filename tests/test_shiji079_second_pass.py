@@ -6,6 +6,29 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FanCaiIdentityTests(unittest.TestCase):
+    def test_minister_identities_do_not_harmonize_death_accounts(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p032'))
+        expected = {'商君': '2wp_usr_ncd', '吳起': '61h_0sk_4pb', '大夫種': 'gu2_fde_5bw',
+                    '秦孝公': 'y97_huh_vuz_AAAAAAAAAAAAABAAAAA',
+                    '楚悼王': 'q60_34y_1zh_AAA', '句踐': 'i7a_22p_qda'}
+        for surface, pid in expected.items():
+            mentions = [m for m in paragraph['mentions'] if m['surface'] == surface]
+            self.assertTrue(mentions)
+            self.assertEqual({m['person_id'] for m in mentions}, {pid})
+        events = json.loads((ROOT / 'corpus/shiji/079-life-events.json').read_text())['events']
+        terms = {e['person_id']: e['source_term'] for e in events}
+        self.assertEqual(terms['2wp_usr_ncd'], '遂以車裂')
+        self.assertEqual(terms['61h_0sk_4pb'], '卒枝解')
+        self.assertEqual(terms['gu2_fde_5bw'], '句踐終負而殺之')
+        shang = json.loads((ROOT / 'corpus/shiji/068.json').read_text())
+        received = next(p for p in shang['paragraphs'] if p['id'].endswith(':p010'))['text']
+        self.assertLess(received.index('殺之於鄭黽池'), received.index('車裂商君'))
+        wu = json.loads((ROOT / 'corpus/shiji/065.json').read_text())
+        self.assertIn('射刺吳起', next(p for p in wu['paragraphs'] if p['id'].endswith(':p013'))['text'])
+        yue = json.loads((ROOT / 'corpus/shiji/041.json').read_text())
+        self.assertIn('種遂自殺', next(p for p in yue['paragraphs'] if p['id'].endswith(':p013'))['text'])
+
     def test_qi_two_kings_are_not_collapsed_into_qin_addressee(self):
         chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
         paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p017'))

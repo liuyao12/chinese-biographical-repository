@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `sx2_wyn_nhr` | 穆王 | [《史記・周本紀》][4] | [JSON](sx2_wyn_nhr.json) |
-| `sxb_x2z_83z` | 朱英 | [《史記・春申君列傳》][60] | [JSON](sxb_x2z_83z.json) |
-| `sxc_v8z_vpu` | 武 | [《史記・司馬相如列傳》][99] | [JSON](sxc_v8z_vpu.json) |
-| `sxq_1wd_ih9` | 壺遂 | [《史記・太史公自序》][112] | [JSON](sxq_1wd_ih9.json) |
-| `sxx_7h5_sa5` | 施之常 | [《史記・仲尼弟子列傳》][49] | [JSON](sxx_7h5_sa5.json) |
-| `sye_xwh_ac4` | 髙齕（齊臣） | [《史記・魯周公世家》][15] | [JSON](sye_xwh_ac4.json) |
-| `syj_umb_ll5` | 楊贛 | [《史記・酷吏列傳》][104] | [JSON](syj_umb_ll5.json) |
 | `syn_6p6_j5m` | 酈寄 | [《史記・吳王濞列傳》][88] | [JSON](syn_6p6_j5m.json) |
 | `syo_21l_kzx` | 曼丘臣 | [《史記・樊酈滕灌列傳》][77] | [JSON](syo_21l_kzx.json) |
 | `syp_j9y_m2k` | 老子 | [《史記・外戚世家》][31] | [JSON](syp_j9y_m2k.json) |

@@ -72,7 +72,6 @@
 | `0e2_f7l_x0w` | 賈嘉 | [《史記・屈原賈生列傳》][66] | [JSON](0e2_f7l_x0w.json) |
 | `0e4_dav_p5t` | 聶政母未名 | [《史記・刺客列傳》][68] | [JSON](0e4_dav_p5t.json) |
 | `0ea_a78_okm` | 堯 | [《史記・太史公自序》][112] | [JSON](0ea_a78_okm.json) |
-| `0f5_o4n_ur1` | 秦孝公引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](0f5_o4n_ur1.json) |
 | `0ff_m7l_g3x` | 女鳩 | [《史記・殷本紀》][3] | [JSON](0ff_m7l_g3x.json) |
 | `0fj_88o_fyj` | 惠文后（趙世家未名者） | [《史記・趙世家》][25] | [JSON](0fj_88o_fyj.json) |
 | `0fm_cc8_dzu` | 亞圉 | [《史記・周本紀》][4] | [JSON](0fm_cc8_dzu.json) |
@@ -478,7 +477,6 @@
 | `363_21i_84z` | 畔 | [《史記・陳涉世家》][30] | [JSON](363_21i_84z.json) |
 | `364_wrf_g4o` | 牛翦 | [《史記・趙世家》][25] | [JSON](364_wrf_g4o.json) |
 | `36s_ym3_fp3` | 魯公子翚 | [《史記・秦本紀》][5] | [JSON](36s_ym3_fp3.json) |
-| `36t_qh2_t5n` | 吳起引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](36t_qh2_t5n.json) |
 | `370_sgw_aye` | 魏惠王 | [《史記・商君列傳》][50] | [JSON](370_sgw_aye.json) |
 | `377_emg_150` | 曾參 | [《史記・張儀列傳》][52] | [JSON](377_emg_150.json) |
 | `37m_d72_3mo` | 駘 | [《史記・鄭世家》][24] | [JSON](37m_d72_3mo.json) |
@@ -2231,6 +2229,8 @@
 | `eee_3o6_5s7` | 從史未名（救袁盎） | [《史記・袁盎鼂錯列傳》][83] | [JSON](eee_3o6_5s7.json) |
 | `eep_7t4_31w` | 慎夫人 | [《史記・袁盎鼂錯列傳》][83] | [JSON](eep_7t4_31w.json) |
 | `eet_iph_y41` | 魏王犀首事件 | [《史記・張儀列傳》][52] | [JSON](eet_iph_y41.json) |
+| `eey_euc_j6a` | 荀卿 | [《史記・太史公自序》][112] | [JSON](eey_euc_j6a.json) |
+| `eey_qdy_jzn` | 宋遺（辱齊勇士） | [《史記・楚世家》][22] | [JSON](eey_qdy_jzn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
