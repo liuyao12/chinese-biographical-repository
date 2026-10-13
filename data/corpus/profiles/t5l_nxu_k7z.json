@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "id": "t5l_nxu_k7z",
+  "canonical_person_id": "t5l_nxu_k7z",
+  "label": "沃丁",
+  "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
+  "review": "ai_provisional",
+  "names": [
+    "沃丁",
+    "帝沃丁"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji003-010",
+      "person_id": "t5l_nxu_k7z",
+      "title": "帝",
+      "kind": "imperial_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p014",
+          "quote": "太宗崩，子沃丁立。帝沃丁之時，伊尹卒。既葬伊尹於亳，咎單遂訓伊尹事，作沃丁。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji003-010:a001",
+          "paragraph_id": "c-shiji-003-yin:p014",
+          "start": 9,
+          "end": 10,
+          "surface": "帝",
+          "person_mention_id": "c-shiji-003-yin:m014-0009",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-003-yin",
+              "source_id": "s-shiji-003-yin",
+              "paragraph_id": "c-shiji-003-yin:p014",
+              "quote": "太宗崩，子沃丁立。帝沃丁之時，伊尹卒。既葬伊尹於亳，咎單遂訓伊尹事，作沃丁。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明言立或任相保存事件，父子、兄弟另由親屬主張解析，不以先王崩推出同年授任。中宗與高后保留用稱，未知年代、終點與授予方式不補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 3,
+      "category": "benji",
+      "title": "殷本紀第三",
+      "paragraph_id": "c-shiji-003-yin:p014",
+      "count": 3,
+      "quote": "太宗崩，子沃丁立。帝沃丁之時，伊尹卒。既葬伊尹於亳，咎單遂訓伊尹事，作沃丁。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t2-r004-c00",
+      "title": "《史記·三代世表》",
+      "quote": "帝沃丁。伊尹卒。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t2-r004-c00-m000",
+        "start": 1,
+        "end": 3,
+        "surface": "沃丁",
+        "person_id": "t5l_nxu_k7z",
+        "status": "contextual_provisional",
+        "interpretation_note": "依〈三代世表〉殷王世系與《殷本紀》暫定同指；湯子太丁與武乙子太丁分別辨認。"
+      }
+    },
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t2-r005-c00",
+      "title": "《史記·三代世表》",
+      "quote": "帝太庚，沃丁弟。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t2-r005-c00-m001",
+        "start": 4,
+        "end": 6,
+        "surface": "沃丁",
+        "person_id": "t5l_nxu_k7z",
+        "status": "contextual_provisional",
+        "interpretation_note": "依〈三代世表〉殷王世系與《殷本紀》暫定同指；湯子太丁與武乙子太丁分別辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-003-yin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-003",
+      "source_id": "s-shiji-003-yin",
+      "source": {
+        "title": "史記／卷003",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷003",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+        "revision_id": 7909145,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題與註號。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄"
+          },
+          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji003-020",
+      "subject_person_id": "t5l_nxu_k7z",
+      "predicate": "father",
+      "object_person_id": "2qj_hw4_si9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p014",
+          "quote": "太宗崩，子沃丁立",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "2qj_hw4_si9": "太甲",
+    "sa0_w3e_z3k": "太庚",
+    "t5l_nxu_k7z": "沃丁"
+  },
+  "dates": []
+}

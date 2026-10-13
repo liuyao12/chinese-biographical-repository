@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+  "canonical_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+  "label": "諸樊",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "諸樊",
+    "王諸樊"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji031-002",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p007",
+          "quote": "王諸樊元年，諸樊已除喪，讓位季札。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji031-002:a001",
+          "paragraph_id": "c-shiji-031-wu:p007",
+          "start": 0,
+          "end": 1,
+          "surface": "王",
+          "person_mention_id": "c-shiji-031-wu:m007-0000",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "稱王、自號與用稱分開；延陵封邑不擅補正式爵等，未知時段不補造，不以卒日結束爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 31,
+      "category": "shijia",
+      "title": "吳太伯世家第一",
+      "paragraph_id": "c-shiji-031-wu:p006",
+      "count": 6,
+      "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r282-c15",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "吳諸樊元年楚敗我。",
+      "year": {
+        "era": "BCE",
+        "value": 560,
+        "astronomical_year": -559,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "560",
+        "source_cell_id": "shiji-014-r282-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r282-c15-m000",
+        "start": 1,
+        "end": 3,
+        "surface": "諸樊",
+        "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r294-c15",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "十三諸樊伐楚，迫巢門，傷射以薨。",
+      "year": {
+        "era": "BCE",
+        "value": 548,
+        "astronomical_year": -547,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "548",
+        "source_cell_id": "shiji-014-r294-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r294-c15-m000",
+        "start": 2,
+        "end": 4,
+        "surface": "諸樊",
+        "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-031-wu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-031",
+      "source_id": "s-shiji-031-wu",
+      "source": {
+        "title": "史記／卷031",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷031",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷031&oldid=7909287",
+        "revision_id": 7909287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文41個p區塊，自吳太伯至太史公論贊；排除頂部世系摘要、跨站導覽及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "虚": "虛",
+            "鳅": "鰍",
+            "内": "內",
+            "戸": "戶"
+          },
+          "editorial_readings": [],
+          "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji031-025",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p006",
+          "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "有子四人",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長",
+          "interpretation_note": "原文四子長、次、次、次按列舉序保存兒子一至四；不是所有子女排行，不從ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "保存本篇明示世系或兄弟關係；繼位不另推父子，古世系未核底本與出土材料，不稱確證。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA": "壽夢",
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA": "諸樊",
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA": "闔閭",
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAB": "餘祭"
+  },
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 548,
+      "year": -547,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p008",
+          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
+          "person_mention_id": "c-shiji-031-wu:m008-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十四〈十二諸侯年表〉數位年欄",
+          "url": "https://zh.wikisource.org/zh-hant/史記/卷014",
+          "quote": "十三諸樊伐楚，迫巢門，傷射以薨。",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "吳諸樊十三年對數位年表公元前548年行。死法仍以本筆世家原句保存，不由年表改寫。 公元前年欄為數位編輯參考，不是古文公元紀年；只換算年，未核曆表或底本影像，未知公曆月日不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji031-020",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ]
+}

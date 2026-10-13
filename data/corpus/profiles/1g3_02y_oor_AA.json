@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "1g3_02y_oor_AA",
+  "canonical_person_id": "1g3_02y_oor_AA",
+  "label": "得（齊乙公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "乙公得",
+    "乙公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji032-004",
+      "person_id": "1g3_02y_oor_AA",
+      "title": "乙公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p009",
+          "quote": "子乙公得立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji032-004:a001",
+          "paragraph_id": "c-shiji-032-qi:p009",
+          "start": 22,
+          "end": 24,
+          "surface": "乙公",
+          "person_mention_id": "c-shiji-032-qi:m009-0022",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "師任命與敘事用稱分開；丁公等公稱暫作追稱，未核諡法不以即位推諡號起點，不以卒日終止全部爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 32,
+      "category": "shijia",
+      "title": "齊太公世家第二",
+      "paragraph_id": "c-shiji-032-qi:p009",
+      "count": 2,
+      "quote": "蓋太公之卒百有餘年，子丁公呂伋立。丁公卒，子乙公得立。乙公卒，子癸公慈母立。癸公卒，子哀公不辰立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r003-c02",
+      "title": "《史記·三代世表》",
+      "quote": "乙公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r003-c02-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "乙公",
+        "person_id": "1g3_02y_oor_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-032-qi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-032",
+      "source_id": "s-shiji-032-qi",
+      "source": {
+        "title": "史記／卷032",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷032",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
+        "revision_id": 445042,
+        "accessed_on": "2026-10-09",
+        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
+          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji032-002",
+      "subject_person_id": "1g3_02y_oor_AA",
+      "predicate": "father",
+      "object_person_id": "1g3_02y_oor_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p009",
+          "quote": "蓋太公之卒百有餘年，子丁公呂伋立。丁公卒，子乙公得立。乙公卒，子癸公慈母立。癸公卒，子哀公不辰立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存來源明示父子、兄弟、姊妹及配偶；同母原詞保留，不另推同父，不從繼位或太子稱號補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "1g3_02y_oor_A": "丁公呂伋",
+    "1g3_02y_oor_AA": "得（齊乙公）",
+    "1g3_02y_oor_AAA": "慈母（齊癸公）"
+  },
+  "dates": []
+}

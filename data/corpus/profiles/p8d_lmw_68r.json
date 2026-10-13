@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "id": "p8d_lmw_68r",
+  "canonical_person_id": "p8d_lmw_68r",
+  "label": "呂莊",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "呂莊"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji009-068",
+      "person_id": "p8d_lmw_68r",
+      "title": "東平侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p017",
+          "quote": "太傅產、丞相平等言，武信侯呂祿上侯，位次第一，請立為趙王。太后許之，追尊祿父康侯為趙昭王。九月，燕靈王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji009-068:a001",
+          "paragraph_id": "c-shiji-009-lvhou:p017",
+          "start": 97,
+          "end": 100,
+          "surface": "東平侯",
+          "person_mention_id": "c-shiji-009-lvhou:m017-0094",
+          "usage": "narrative",
+          "date_expression": "八年十月"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "八年十月",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-009-lvhou",
+              "source_id": "s-shiji-009-lvhou",
+              "paragraph_id": "c-shiji-009-lvhou:p017",
+              "quote": "太傅產、丞相平等言，武信侯呂祿上侯，位次第一，請立為趙王。太后許之，追尊祿父康侯為趙昭王。九月，燕靈王建薨，有美人子，太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文明示官爵用稱；起點未知，死亡不自動當官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "八年十月 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 9,
+      "category": "benji",
+      "title": "呂后本紀第九",
+      "paragraph_id": "c-shiji-009-lvhou:p017",
+      "count": 1,
+      "quote": "太后使人殺之，無後，國除。八年十月，立呂肅王子東平侯呂通為燕王，封通弟呂莊為東平侯。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t2-r031-c02",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "八年五月丙辰，侯呂莊元年。坐呂氏事誅，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t2-r031-c02-m000",
+        "start": 8,
+        "end": 10,
+        "surface": "呂莊",
+        "person_id": "p8d_lmw_68r",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-009-lvhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-009",
+      "source_id": "s-shiji-009-lvhou",
+      "source": {
+        "title": "史記／卷009",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷009",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+        "revision_id": 2087062,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "p8d_lmw_68r": "呂莊"
+  },
+  "dates": []
+}

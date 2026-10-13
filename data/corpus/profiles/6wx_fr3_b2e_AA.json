@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "6wx_fr3_b2e_AA",
+  "canonical_person_id": "6wx_fr3_b2e_AA",
+  "label": "突（陳孝公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "孝公",
+    "突"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji036-004",
+      "person_id": "6wx_fr3_b2e_AA",
+      "title": "孝公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p002",
+          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji036-004:a001",
+          "paragraph_id": "c-shiji-036-chenqi:p002",
+          "start": 34,
+          "end": 36,
+          "surface": "孝公",
+          "person_mention_id": "c-shiji-036-chenqi:m002-0030",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 36,
+      "category": "shijia",
+      "title": "陳杞世家第六",
+      "paragraph_id": "c-shiji-036-chenqi:p002",
+      "count": 3,
+      "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r004-c08",
+      "title": "《史記·三代世表》",
+      "quote": "孝公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r004-c08-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "孝公",
+        "person_id": "6wx_fr3_b2e_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-036-chenqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-036",
+      "source_id": "s-shiji-036-chenqi",
+      "source": {
+        "title": "史記／卷036",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷036",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
+        "revision_id": 2588525,
+        "accessed_on": "2026-10-09",
+        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
+          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji036-005",
+      "subject_person_id": "6wx_fr3_b2e_AA",
+      "predicate": "father",
+      "object_person_id": "6wx_fr3_b2e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p002",
+          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "申公子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "6wx_fr3_b2e_A": "犀侯（陳申公）",
+    "6wx_fr3_b2e_AA": "突（陳孝公）",
+    "6wx_fr3_b2e_AAA": "圉戎（陳慎公）"
+  },
+  "dates": []
+}
