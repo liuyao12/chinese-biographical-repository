@@ -147,3 +147,23 @@ class FanCaiIdentityTests(unittest.TestCase):
         self.assertEqual(decision['references'][0]['quote'], '白起。')
         self.assertFalse(decision['references'][0]['image_verified'])
         self.assertFalse(decision['human_reviewed'])
+
+    def test_quoted_sages_keep_source_wording_without_new_life_dates(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p010'))
+        self.assertIn('雖舜禹復生', paragraph['text'])
+        selected = {m['surface']: m['person_id'] for m in paragraph['mentions']
+                    if m['surface'] in ('舜', '禹')}
+        self.assertEqual(selected, {'舜': 'ddb_l4j_4j2', '禹': '6ip_dr3_fbl'})
+
+    def test_jieyu_and_zhougong_are_distinct_from_quoted_companions(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        p13 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p013'))
+        names = {m['surface']: m['person_id'] for m in p13['mentions']}
+        self.assertEqual(names['接輿'], 'cyo_vyj_6o2')
+        self.assertEqual(names['箕子'], '8a9_tj8_6i7')
+        self.assertNotEqual(names['接輿'], names['箕子'])
+        p32 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p032'))
+        names = {m['surface']: m['person_id'] for m in p32['mentions']}
+        self.assertEqual(names['周公'], 'y4i_pjk_4gn_AD')
+        self.assertEqual(names['成王'], 'qna_m75_pj8')

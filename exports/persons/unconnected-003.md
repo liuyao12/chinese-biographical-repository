@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t1l_80q_ezz` | 秦孝公 | [《史記・陳涉世家》][30] | [JSON](t1l_80q_ezz.json) |
-| `t1o_7wt_c69` | 范吉射（攻趙鞅者） | [《史記・晉世家》][21] | [JSON](t1o_7wt_c69.json) |
-| `t1w_zw1_4tj` | 菑川王未具名 | [《史記・扁鵲倉公列傳》][87] | [JSON](t1w_zw1_4tj.json) |
-| `t2c_9za_jp3` | 田肯 | [《史記・高祖本紀》][8] | [JSON](t2c_9za_jp3.json) |
-| `t2h_kfi_r1u` | 小子（晉小子侯） | [《史記・晉世家》][21] | [JSON](t2h_kfi_r1u.json) |
-| `t2i_jjo_nr6` | 武公（周赧王遣說楚者） | [《史記・楚世家》][22] | [JSON](t2i_jjo_nr6.json) |
-| `t2m_90g_lng` | 董安于 | [《史記・趙世家》][25] | [JSON](t2m_90g_lng.json) |
-| `t2y_z4k_z0m` | 灌短稱未定 | [《史記・屈原賈生列傳》][66] | [JSON](t2y_z4k_z0m.json) |
-| `t3i_7cb_8sn` | 司馬庚 | [《史記・韓世家》][27] | [JSON](t3i_7cb_8sn.json) |
-| `t3i_l5f_u0p` | 絳侯父稱候選 | [《史記・吳王濞列傳》][88] | [JSON](t3i_l5f_u0p.json) |
 | `t3y_v2v_ipe` | 中壬 | [《史記・殷本紀》][3] | [JSON](t3y_v2v_ipe.json) |
 | `t42_s4d_p1c` | 嘉（趙丞相） | [《史記・孝景本紀》][11] | [JSON](t42_s4d_p1c.json) |
 | `t49_dd6_smz` | 衛太子 | [《史記・衛將軍驃騎列傳》][93] | [JSON](t49_dd6_smz.json) |
@@ -164,7 +154,6 @@
 | `u3d_aj2_qbe` | 湯 | [《史記・司馬相如列傳》][99] | [JSON](u3d_aj2_qbe.json) |
 | `u3e_wkp_awl` | 魏安釐王 | [《史記・高祖本紀》][8] | [JSON](u3e_wkp_awl.json) |
 | `u3k_b05_ar4` | 魏文侯 | [《史記・田敬仲完世家》][28] | [JSON](u3k_b05_ar4.json) |
-| `u3r_atd_rs4` | 孔子引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](u3r_atd_rs4.json) |
 | `u3z_lrd_8hy` | 張耳 | [《史記・白起王翦列傳》][55] | [JSON](u3z_lrd_8hy.json) |
 | `u4n_65h_uqv` | 庶長奐 | [《史記・秦本紀》][5] | [JSON](u4n_65h_uqv.json) |
 | `u4r_ktr_4qm` | 孫子 | [《史記・田敬仲完世家》][28] | [JSON](u4r_ktr_4qm.json) |
@@ -815,7 +804,6 @@
 | `ybx_5gn_njg` | 田吸 | [《史記・樊酈滕灌列傳》][77] | [JSON](ybx_5gn_njg.json) |
 | `ycg_exd_6oe` | 秦王（魏世家荊軻刺殺所指未名者） | [《史記・魏世家》][26] | [JSON](ycg_exd_6oe.json) |
 | `ycl_yor_v0t` | 內史保 | [《史記・曹相國世家》][36] | [JSON](ycl_yor_v0t.json) |
-| `yco_3yv_c8s` | 文王引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](yco_3yv_c8s.json) |
 | `ycr_d4w_b0x` | 則 | [《史記・齊悼惠王世家》][34] | [JSON](ycr_d4w_b0x.json) |
 | `ycy_hv8_q6d` | 和仲 | [《史記・五帝本紀》][1] | [JSON](ycy_hv8_q6d.json) |
 | `yeg_27z_zzt` | 秦太后（韓世家羋戎姊未名者） | [《史記・韓世家》][27] | [JSON](yeg_27z_zzt.json) |
