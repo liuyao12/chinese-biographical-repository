@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tgg_rko_ryw` | 李延年 | [《史記・平津侯主父列傳》][94] | [JSON](tgg_rko_ryw.json) |
-| `tgy_187_vt8` | 盧卿（匈奴列傳第24段） | [《史記・匈奴列傳》][92] | [JSON](tgy_187_vt8.json) |
-| `tgy_zyu_6ro` | 褚大 | [《史記・儒林列傳》][103] | [JSON](tgy_zyu_6ro.json) |
-| `th9_jve_qre` | 田臧 | [《史記・陳涉世家》][30] | [JSON](th9_jve_qre.json) |
 | `thb_vkl_7xq` | 尹潘 | [《史記・樊酈滕灌列傳》][77] | [JSON](thb_vkl_7xq.json) |
 | `thg_zvp_v5y` | 戚夫人 | [《史記・呂太后本紀》][9] | [JSON](thg_zvp_v5y.json) |
 | `thi_bqo_x8d` | 申包胥 | [《史記・伍子胥列傳》][48] | [JSON](thi_bqo_x8d.json) |
@@ -134,7 +130,6 @@
 | `uc7_nlh_gy2` | 齊王（昭陽攻齊未名者） | [《史記・楚世家》][22] | [JSON](uc7_nlh_gy2.json) |
 | `ucb_60l_f3r` | 公西葴 | [《史記・仲尼弟子列傳》][49] | [JSON](ucb_60l_f3r.json) |
 | `ucb_cb1_qc0` | 田單 | [《史記・趙世家》][25] | [JSON](ucb_cb1_qc0.json) |
-| `ucl_2oi_jyy` | 春申君引述 | [《史記・呂不韋列傳》][67] | [JSON](ucl_2oi_jyy.json) |
 | `ucr_vn0_wb1` | 比車耆（王號暫解） | [《史記・衛將軍驃騎列傳》][93] | [JSON](ucr_vn0_wb1.json) |
 | `ud7_fy7_6vl` | 墨翟 | [《史記・孟子荀卿列傳》][56] | [JSON](ud7_fy7_6vl.json) |
 | `udd_rob_10e` | 亳王 | [《史記・秦本紀》][5] | [JSON](udd_rob_10e.json) |
@@ -963,7 +958,6 @@
 | `zxv_fao_cpq` | 周市 | [《史記・陳丞相世家》][38] | [JSON](zxv_fao_cpq.json) |
 | `zy0_phw_hl6` | 門下前對者未名 | [《史記・平原君虞卿列傳》][58] | [JSON](zy0_phw_hl6.json) |
 | `zy7_ewt_vzi` | 韓哀侯 | [《史記・刺客列傳》][68] | [JSON](zy7_ewt_vzi.json) |
-| `zzt_bu4_6zm` | 王齮 | [《史記・呂不韋列傳》][67] | [JSON](zzt_bu4_6zm.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
