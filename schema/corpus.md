@@ -297,3 +297,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 地址陳述的 `relation: fief` 保存食邑來源，不改作籍貫或出生地。`qualifiers.fief_kind` 分為 `tangmu_estate`（原詞須含湯沐邑）及 `maintenance_allocation`（原詞須含奉）。〈魏公子列傳〉鄗湯沐邑與信陵供奉各自保留，未獻的五城不作授邑，食邑記錄不自動新增官爵或其有效時段。
 
 `relation: residence` 的 `reported_duration` 保存來源居留時長：`value` 為數字、`source_number` 為原數詞、`source_term` 為精確原詞，`unit: residence_year`、`counting: unspecified_source_years`、`status: source_attested`，`evidence` 與本地址陳述一致。公子留趙十年記數值10，不當官爵任期，不指定含首尾年或反推精確起訖、曆日。
+
+平行事件換年時，事件與西元對照可能分屬兩個見證。`normalized_date.basis.reference_url` 連事件引句，選填 `reference_year_url` 連數位西元年引句；未填時兩者沿用同一 URL。兩項引句都須出現在各自的 `references` 中，不得為格式便利把引句歸到其他來源。
+
+地望 `relation: fief` 的 `qualifiers.fief_kind` 另支援 `territorial_grant`（保存賜地原詞）與 `approved_enfeoffment`（保存請封及明示許之）。單獨請封不能當准封，地望記錄不自動生成官爵、出生地或葬地；賜地、獻回與就封的時間分別核讀。

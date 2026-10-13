@@ -252,7 +252,73 @@
     "c2w_s7g_en0": "楚懷王",
     "pgu_6kt_nz1": "橫（楚頃襄王）"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 263,
+      "year": -262,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "歇至楚三月，楚頃襄王卒，太子完立，是為考烈王。考烈王元年，以黃歇為相，封為春申君，賜淮北地十二縣。後十五歲，黃歇言之楚王曰：「淮北地邊齊，其事急，請以為郡便。」因并獻淮北十二縣。請封於江東。考烈王許之。春申君因城故吳墟，以自為都邑。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-078-chunshen",
+          "source_id": "s-shiji-078-chunshen",
+          "paragraph_id": "c-shiji-078-chunshen:p010",
+          "quote": "歇至楚三月，楚頃襄王卒，太子完立，是為考烈王。考烈王元年，以黃歇為相，封為春申君，賜淮北地十二縣。後十五歲，黃歇言之楚王曰：「淮北地邊齊，其事急，請以為郡便。」因并獻淮北十二縣。請封於江東。考烈王許之。春申君因城故吳墟，以自為都邑。",
+          "person_mention_id": "c-shiji-078-chunshen:m010-0006"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈楚世家〉同一死亡事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "quote": "三十六年，頃襄王病，太子亡歸。秋，頃襄王卒，太子熊元代立，是爲考烈王。考烈王以左徒爲令尹，封以呉，號春申君。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "〈楚世家〉原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "quote": "三十六年",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "〈六國年表〉楚欄原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三十六",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r214-c06"
+        },
+        {
+          "title": "〈六國年表〉數位西元對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "263",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r214-c00"
+        }
+      ],
+      "rationale": "本篇死亡事件與〈楚世家〉同一人物及繼位事件逐項對讀，再按〈六國年表〉楚欄原紀年及另列數位西元對照換年。各來源引句與固定版本 URL 分開保存；不冒稱本篇有西元紀年或精確曆日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "楚頃襄王卒",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+        "reference_event_quote": "三十六年，頃襄王病，太子亡歸。秋，頃襄王卒，太子熊元代立，是爲考烈王。考烈王以左徒爲令尹，封以呉，號春申君。",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_year_quote": "263"
+      },
+      "record_id": "le-shiji078-002",
+      "person_id": "pgu_6kt_nz1",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "pgu_6kt_nz1"
@@ -301,6 +367,87 @@
       "interpretation_note": "原文明示死亡，保留原君年及相對時長；被虜與滅國不推死亡，與其他篇異說分存。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji078-002",
+      "person_id": "pgu_6kt_nz1",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "楚頃襄王卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-078-chunshen",
+          "source_id": "s-shiji-078-chunshen",
+          "paragraph_id": "c-shiji-078-chunshen:p010",
+          "quote": "歇至楚三月，楚頃襄王卒，太子完立，是為考烈王。考烈王元年，以黃歇為相，封為春申君，賜淮北地十二縣。後十五歲，黃歇言之楚王曰：「淮北地邊齊，其事急，請以為郡便。」因并獻淮北十二縣。請封於江東。考烈王許之。春申君因城故吳墟，以自為都邑。",
+          "person_mention_id": "c-shiji-078-chunshen:m010-0006"
+        }
+      ],
+      "interpretation_note": "原文明記已發生死亡；同篇之前的病重、殺人計畫與條件式不當死亡實行。原段落未明示絕對紀年，此批不以相鄰授位年份或後十七日推造公曆日；上下文紀年與平行事件換年另待逐項對讀，不以卒日推定所有稱號終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 263,
+        "year": -262,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "歇至楚三月，楚頃襄王卒，太子完立，是為考烈王。考烈王元年，以黃歇為相，封為春申君，賜淮北地十二縣。後十五歲，黃歇言之楚王曰：「淮北地邊齊，其事急，請以為郡便。」因并獻淮北十二縣。請封於江東。考烈王許之。春申君因城故吳墟，以自為都邑。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-078-chunshen",
+            "source_id": "s-shiji-078-chunshen",
+            "paragraph_id": "c-shiji-078-chunshen:p010",
+            "quote": "歇至楚三月，楚頃襄王卒，太子完立，是為考烈王。考烈王元年，以黃歇為相，封為春申君，賜淮北地十二縣。後十五歲，黃歇言之楚王曰：「淮北地邊齊，其事急，請以為郡便。」因并獻淮北十二縣。請封於江東。考烈王許之。春申君因城故吳墟，以自為都邑。",
+            "person_mention_id": "c-shiji-078-chunshen:m010-0006"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈楚世家〉同一死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+            "quote": "三十六年，頃襄王病，太子亡歸。秋，頃襄王卒，太子熊元代立，是爲考烈王。考烈王以左徒爲令尹，封以呉，號春申君。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "〈楚世家〉原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+            "quote": "三十六年",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "〈六國年表〉楚欄原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三十六",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r214-c06"
+          },
+          {
+            "title": "〈六國年表〉數位西元對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "263",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r214-c00"
+          }
+        ],
+        "rationale": "本篇死亡事件與〈楚世家〉同一人物及繼位事件逐項對讀，再按〈六國年表〉楚欄原紀年及另列數位西元對照換年。各來源引句與固定版本 URL 分開保存；不冒稱本篇有西元紀年或精確曆日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "楚頃襄王卒",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "reference_event_quote": "三十六年，頃襄王病，太子亡歸。秋，頃襄王卒，太子熊元代立，是爲考烈王。考烈王以左徒爲令尹，封以呉，號春申君。",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_year_quote": "263"
+        }
+      }
     }
   ],
   "life_event_date_decisions": [],

@@ -50,7 +50,8 @@ def parallel_event_date(date):
     if not isinstance(date, dict):
         return False
     basis = date.get('basis')
-    if not isinstance(basis, dict) or set(basis) != {'kind', 'source_event_quote', 'reference_url', 'reference_event_quote', 'reference_year_quote'}:
+    required = {'kind', 'source_event_quote', 'reference_url', 'reference_event_quote', 'reference_year_quote'}
+    if not isinstance(basis, dict) or set(basis) not in (required, required | {'reference_year_url'}):
         return False
     original = date.get('original_quote')
     quote = basis.get('source_event_quote')
@@ -59,9 +60,12 @@ def parallel_event_date(date):
             or not isinstance(quote, str) or not quote or quote not in original
             or not isinstance(url, str) or urlparse(url).scheme not in ('http', 'https')):
         return False
+    year_url = basis.get('reference_year_url', url)
+    if not isinstance(year_url, str) or urlparse(year_url).scheme not in ('http', 'https'):
+        return False
     refs = date.get('references', [])
     return all(isinstance(basis.get(key), str) and bool(basis[key])
-               and any(isinstance(ref, dict) and ref.get('url') == url
+               and any(isinstance(ref, dict) and ref.get('url') == (year_url if key == 'reference_year_quote' else url)
                        and ref.get('quote') == basis[key] and ref.get('scope') in scopes
                        for ref in refs)
                for key, scopes in [('reference_event_quote', ('received_parallel_event',)),
@@ -993,7 +997,9 @@ def validate(root=ROOT):
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
-                    word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉'}.get(kind)
+                    word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉', 'territorial_grant':'賜', 'approved_enfeoffment':'許之'}.get(kind)
+                    if kind == 'approved_enfeoffment':
+                        check('封' in address.get('source_term', '') and '許之' in address.get('source_term', ''), '准封地望須保存提請與明示允許，不得只據請封記實授')
                     check(address['relation'] == 'fief' and bool(word)
                           and isinstance(address.get('source_term'), str) and word in address['source_term'],
                           '食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫')
