@@ -32,3 +32,9 @@ test('source-local person card shows received table evidence before opening its 
   assert.match(html, /杏山列/);
   assert.match(html, /chapter=21/);
 });
+
+test('person navigation retains a bounded source-table context', () => {
+  assert.equal(profileURL('abc_def_123', 'shiji-021'), 'person.html?table=shiji-021#abc_def_123');
+  assert.equal(profileURL('abc_def_123', 'https://example.com'), 'person.html#abc_def_123');
+  assert.match(markCell({id: 'shiji-021-t1-r006-c02', text: '侯劉成元年。', person_mentions: [{start: 1, end: 3, surface: '劉成', person_id: 'abc_def_123'}]}), /person.html\?table=shiji-021#abc_def_123/);
+});
