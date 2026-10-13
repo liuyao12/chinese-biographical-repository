@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "id": "ath_xsq_n4i_AAAAAAAAAA",
+  "canonical_person_id": "ath_xsq_n4i_AAAAAAAAAA",
+  "label": "讎（魯頃公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "頃公",
+    "讎",
+    "魯頃公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-040",
+      "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "title": "頃公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p099",
+          "quote": "二十三年，文公卒，子讎立，是爲頃公。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-040:a001",
+          "paragraph_id": "c-shiji-033-lu:p099",
+          "start": 27,
+          "end": 29,
+          "surface": "頃公",
+          "person_mention_id": "c-shiji-033-lu:m099-0022",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "公號暫作敘事追稱，保存用稱但不將繼位當成當時授予諡號；不補未知曆日或以卒日推終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji033-052",
+      "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "title": "家人",
+      "kind": "unclassified",
+      "mode": "demotion",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p100",
+          "quote": "頃公亡，遷於下邑，爲家人，魯絕祀。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-052:a001",
+          "paragraph_id": "c-shiji-033-lu:p100",
+          "start": 54,
+          "end": 56,
+          "surface": "家人",
+          "person_mention_id": "c-shiji-033-lu:m100-0044",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "demotion",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-033-lu",
+              "source_id": "s-shiji-033-lu",
+              "paragraph_id": "c-shiji-033-lu:p100",
+              "quote": "頃公亡，遷於下邑，爲家人，魯絕祀。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本文由君亡遷下邑而為家人的身份降轉；沒有確切日期，不換算為廢黜日或以卒日補終點。後文仍稱頃公，故不據降轉刪除敘事追稱。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji033-031",
+      "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "下邑",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p100",
+          "quote": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。",
+          "person_mention_id": "c-shiji-033-lu:m100-0000"
+        }
+      ],
+      "source_term": "遷於下邑",
+      "interpretation_note": "保存原文地名或相對位置，不補今日行政區或座標。出奔、居住、死亡、埋葬分屬不同主張，不以封邑、葬願或請求推定完成遷居。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "遷於下邑",
+      "quote": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。"
+    },
+    {
+      "id": "pa-shiji033-032",
+      "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "relation": "death_place",
+      "place": {
+        "source_name": "柯",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p100",
+          "quote": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。",
+          "person_mention_id": "c-shiji-033-lu:m100-0000"
+        }
+      ],
+      "source_term": "頃公卒于柯",
+      "interpretation_note": "保存原文地名或相對位置，不補今日行政區或座標。出奔、居住、死亡、埋葬分屬不同主張，不以封邑、葬願或請求推定完成遷居。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "頃公卒于柯",
+      "quote": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p099",
+      "count": 6,
+      "quote": "文公七年，楚懷王死于秦。二十三年，文公卒，子讎立，是爲頃公。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r205-c06",
+      "title": "《史記·六國年表》",
+      "quote": "二十七。擊燕。魯頃公元年。",
+      "year": {
+        "era": "BCE",
+        "value": 272,
+        "astronomical_year": -271,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "272",
+        "source_cell_id": "shiji-015-r205-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r205-c06-m007",
+        "start": 7,
+        "end": 10,
+        "surface": "魯頃公",
+        "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r228-c06",
+      "title": "《史記·六國年表》",
+      "quote": "十四。楚滅魯，頃公遷卞，為家人，絕祀。",
+      "year": {
+        "era": "BCE",
+        "value": 249,
+        "astronomical_year": -248,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "249",
+        "source_cell_id": "shiji-015-r228-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r228-c06-m007",
+        "start": 7,
+        "end": 9,
+        "surface": "頃公",
+        "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "只在本格國別及紀年範圍辨認；同名者不自動跨篇合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-067",
+      "subject_person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "ath_xsq_n4i_AAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p099",
+          "quote": "文公七年，楚懷王死于秦。二十三年，文公卒，子讎立，是爲頃公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子讎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ath_xsq_n4i_AAAAAAAAA": "賈（魯文公）",
+    "ath_xsq_n4i_AAAAAAAAAA": "讎（魯頃公）"
+  },
+  "dates": []
+}

@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "q60_34y_1zh",
+  "canonical_person_id": "q60_34y_1zh",
+  "label": "章（楚惠王）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "楚惠王",
+    "子章",
+    "惠王",
+    "王",
+    "惠王章"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 40,
+      "category": "shijia",
+      "title": "楚世家第十",
+      "paragraph_id": "c-shiji-040-chu:p054",
+      "count": 9,
+      "quote": "。今君王卒，臣豈敢忘君王之意乎！」乃與子西、子綦謀，伏師閉涂，迎越女之子章立之，是爲惠王。然後罷兵歸，葬昭王。"
+    },
+    {
+      "number": 42,
+      "category": "shijia",
+      "title": "鄭世家第十二",
+      "paragraph_id": "c-shiji-042-zheng:p051",
+      "count": 1,
+      "quote": "十四年，宋景公滅曹。二十年，齊田常弒其君簡公，而常相於齊。二十二年，楚惠王滅陳。孔子卒。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r001-c06",
+      "title": "《史記·六國年表》",
+      "quote": "惠王章十三年。吳伐我。",
+      "year": {
+        "era": "BCE",
+        "value": 476,
+        "astronomical_year": -475,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "476",
+        "source_cell_id": "shiji-015-r001-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r001-c06-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "惠王章",
+        "person_id": "q60_34y_1zh",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-040-chu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-040",
+      "source_id": "s-shiji-040-chu",
+      "source": {
+        "title": "史記／卷040",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷040",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+        "revision_id": 8736796,
+        "accessed_on": "2026-10-09",
+        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
+          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-042-zheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "source_id": "s-shiji-042-zheng",
+      "source": {
+        "title": "史記／卷042",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷042",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
+        "revision_id": 2016409,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
+          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji040-056",
+      "subject_person_id": "q60_34y_1zh",
+      "predicate": "mother",
+      "object_person_id": "67d_hkx_fvu",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p054",
+          "quote": "昭王病甚，乃召諸公子大夫曰：「孤不佞，再辱楚國之師，今乃得以天壽終，孤之幸也。」讓其弟公子申爲王，不可。又讓次弟公子結，亦不可。乃又讓次弟公子閭，五讓，乃後許爲王。將戰，庚寅，昭王卒於軍中。子閭曰：「王病甚，捨其子讓群臣，臣所以許王，以廣王意也。今君王卒，臣豈敢忘君王之意乎！」乃與子西、子綦謀，伏師閉涂，迎越女之子章立之，是爲惠王。然後罷兵歸，葬昭王。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "越女之子章",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本段明示生育、兄弟、母子及苗裔敘事；祖先不作直接父親，繼位不自動推父子，不補未見母名或闕代。來源主張不等於版本與史實已覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "67d_hkx_fvu": "越女（楚惠王章母）",
+    "d7n_zpt_kt4": "楚惠王（鄭世家候選）",
+    "q60_34y_1zh": "章（楚惠王）",
+    "q60_34y_1zh_A": "中（楚簡王）"
+  },
+  "dates": []
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "zan_qcc_jy5_AAAAAABAAAAAAA",
+  "canonical_person_id": "zan_qcc_jy5_AAAAAABAAAAAAA",
+  "label": "辟彊（田世家宣王候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "齊宣王",
+    "宣王",
+    "宣王辟彊",
+    "齊王",
+    "齊宣王辟彊"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "shijia",
+      "title": "田敬仲完世家第十六",
+      "paragraph_id": "c-shiji-046-tian:p035",
+      "count": 8,
+      "quote": "三十六年，威王卒，子宣王辟彊立。"
+    },
+    {
+      "number": 75,
+      "category": "liezhuan",
+      "title": "孟嘗君列傳第十五",
+      "paragraph_id": "c-shiji-075-mengchang:p001",
+      "count": 8,
+      "quote": "孟嘗君名文，姓田氏。文之父曰靖郭君田嬰。田嬰者，齊威王少子而齊宣王庶弟也。田嬰自威王時任職用事，與成侯鄒忌及田忌將而救韓伐魏。成侯與田忌爭寵，成侯賣田忌。田忌懼，襲齊之邊邑，不勝，亡走。會威王卒，宣王立，知成侯賣田忌，乃復召田忌以爲將。宣王二年，田忌與孫臏、田嬰倶伐"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r135-c08",
+      "title": "《史記·六國年表》",
+      "quote": "齊宣王辟彊元年",
+      "year": {
+        "era": "BCE",
+        "value": 342,
+        "astronomical_year": -341,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "342",
+        "source_cell_id": "shiji-015-r135-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r135-c08-m000",
+        "start": 0,
+        "end": 5,
+        "surface": "齊宣王辟彊",
+        "person_id": "zan_qcc_jy5_AAAAAABAAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-046-tian",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-046",
+      "source_id": "s-shiji-046-tian",
+      "source": {
+        "title": "史記／卷046",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷046",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
+        "revision_id": 2560838,
+        "accessed_on": "2026-10-09",
+        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
+          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-075-mengchang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-075",
+      "source_id": "s-shiji-075-mengchang",
+      "source": {
+        "title": "史記／卷075",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷075",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
+        "revision_id": 1965692,
+        "accessed_on": "2026-10-09",
+        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-075-mengchang:p003",
+              "witness_form": "（短）［裋］",
+              "body_reading": "短",
+              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-075-mengchang:p018",
+              "witness_form": "（朝）趣市［朝］",
+              "body_reading": "朝趣市",
+              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
+          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji046-027",
+      "subject_person_id": "zan_qcc_jy5_AAAAAABAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "zan_qcc_jy5_AAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p035",
+          "quote": "三十六年，威王卒，子宣王辟彊立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "威王卒，子宣王辟彊立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、女及生子語境保存；繼位、太子或後宮數量不單獨補世系，其他篇世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "7s4_7ac_lhn_A": "田嬰（孟嘗君列傳候選）",
+    "oa0_nm7_e6f": "齊宣王（孟嘗君列傳候選）",
+    "zan_qcc_jy5_AAAAAABAAAAAA": "因齊（田世家威王候選）",
+    "zan_qcc_jy5_AAAAAABAAAAAAA": "辟彊（田世家宣王候選）",
+    "zan_qcc_jy5_AAAAAABAAAAAAAA": "地（田世家湣王候選）"
+  },
+  "dates": []
+}
