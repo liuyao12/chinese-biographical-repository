@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "id": "t7q_vt4_ktj_A",
+  "canonical_person_id": "t7q_vt4_ktj_A",
+  "label": "壽（齊武公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "武公壽",
+    "武公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji032-041",
+      "person_id": "t7q_vt4_ktj_A",
+      "title": "武公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p013",
+          "quote": "九年，獻公卒，子武公壽立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji032-041:a001",
+          "paragraph_id": "c-shiji-032-qi:p013",
+          "start": 8,
+          "end": 10,
+          "surface": "武公",
+          "person_mention_id": "c-shiji-032-qi:m013-0008",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存原文用稱或任事，不補授諡日。諸侯為原稱，不補爵等；田常相之按本篇任相用語保存，不改相國。處士出自或曰異說。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 32,
+      "category": "shijia",
+      "title": "齊太公世家第二",
+      "paragraph_id": "c-shiji-032-qi:p013",
+      "count": 3,
+      "quote": "九年，獻公卒，子武公壽立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r008-c02",
+      "title": "《史記·三代世表》",
+      "quote": "武公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r008-c02-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "武公",
+        "person_id": "t7q_vt4_ktj_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-032-qi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-032",
+      "source_id": "s-shiji-032-qi",
+      "source": {
+        "title": "史記／卷032",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷032",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
+        "revision_id": 445042,
+        "accessed_on": "2026-10-09",
+        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
+          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji032-007",
+      "subject_person_id": "t7q_vt4_ktj_A",
+      "predicate": "father",
+      "object_person_id": "t7q_vt4_ktj",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p013",
+          "quote": "九年，獻公卒，子武公壽立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存來源明示父子、兄弟、姊妹及配偶；同母原詞保留，不另推同父，不從繼位或太子稱號補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "t7q_vt4_ktj": "山（齊獻公）",
+    "t7q_vt4_ktj_A": "壽（齊武公）",
+    "t7q_vt4_ktj_AA": "無忌（齊厲公）"
+  },
+  "dates": []
+}

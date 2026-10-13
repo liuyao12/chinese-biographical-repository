@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "50h_gqe_1p1_A",
+  "canonical_person_id": "50h_gqe_1p1_A",
+  "label": "濞（魯真公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "真公濞",
+    "真公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-059",
+      "person_id": "50h_gqe_1p1_A",
+      "title": "真公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p021",
+          "quote": "獻公三十二年卒，子真公濞立。",
+          "person_mention_id": "c-shiji-033-lu:m021-0009"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-059:a001",
+          "paragraph_id": "c-shiji-033-lu:p021",
+          "start": 9,
+          "end": 11,
+          "surface": "真公",
+          "person_mention_id": "c-shiji-033-lu:m021-0009",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p021",
+      "count": 2,
+      "quote": "獻公三十二年卒，子真公濞立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r009-c01",
+      "title": "《史記·三代世表》",
+      "quote": "真公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r009-c01-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "真公",
+        "person_id": "50h_gqe_1p1_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    },
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r010-c01",
+      "title": "《史記·三代世表》",
+      "quote": "武公，真公弟。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r010-c01-m001",
+        "start": 3,
+        "end": 5,
+        "surface": "真公",
+        "person_id": "50h_gqe_1p1_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-010",
+      "subject_person_id": "50h_gqe_1p1_A",
+      "predicate": "father",
+      "object_person_id": "50h_gqe_1p1",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p021",
+          "quote": "獻公三十二年卒，子真公濞立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "50h_gqe_1p1": "具（魯獻公）",
+    "50h_gqe_1p1_A": "濞（魯真公）"
+  },
+  "dates": []
+}

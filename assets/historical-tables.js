@@ -10,8 +10,8 @@ export function continuousRows(table) {
   const rows = [], ids = new Set();
   for (const [index, fragment] of table.fragments.entries()) {
     if (fragment.source_id !== table.source.id) throw new Error('不可混接不同版本的表格');
-    if (index && (fragment.continuation?.status !== 'confirmed' || fragment.continuation?.direction !== 'rows' || fragment.continuation?.previous_fragment_id !== table.fragments[index - 1].id)) throw new Error('表格接續未定');
-    if (index && JSON.stringify(fragment.source_header) !== JSON.stringify(table.fragments[0].source_header)) throw new Error('欄題改變，須分段檢視');
+    if (index && !table.independent_sections && (fragment.continuation?.status !== 'confirmed' || fragment.continuation?.direction !== 'rows' || fragment.continuation?.previous_fragment_id !== table.fragments[index - 1].id)) throw new Error('表格接續未定');
+    if (index && !table.independent_sections && JSON.stringify(fragment.source_header) !== JSON.stringify(table.fragments[0].source_header)) throw new Error('欄題改變，須分段檢視');
     for (const row of fragment.rows) {
       if (ids.has(row.id)) throw new Error('年列 ID 重複');
       ids.add(row.id);

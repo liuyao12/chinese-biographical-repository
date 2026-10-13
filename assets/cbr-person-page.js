@@ -1,6 +1,6 @@
-import {loadPerson, personCard} from './cbr-person.js';
+import {loadPerson, personCard, tableOccurrenceURL} from './cbr-person.js';
 let request = 0;
-async function render() {const ticket = ++request; const root = document.getElementById('cbr-profile'); try {const id = decodeURIComponent(location.hash.slice(1)); const p = await loadPerson(id); if (ticket !== request) return; root.innerHTML = personCard(p, true); document.title = p.label + ' · 人文';} catch {if (ticket === request) root.innerHTML = '<h1>人物資料尚未載入</h1><p>請由年表的人名進入，或稍後重試。</p><a href="shiji.html#chapter=15&category=biao">回到六國年表</a>';}}
+async function render() {const ticket = ++request; const root = document.getElementById('cbr-profile'); try {const id = decodeURIComponent(location.hash.slice(1)); const p = await loadPerson(id); if (ticket !== request) return; root.innerHTML = personCard(p, true); const back = document.getElementById('cbr-person-table-back'); const occurrences = p.table_occurrences || []; const origin = new URLSearchParams(location.search).get('table'); const occurrence = occurrences.find(x => x.table_id === origin) || occurrences[0]; back.href = occurrence ? tableOccurrenceURL(occurrence) : 'shiji.html'; back.textContent = occurrence ? '回到' + occurrence.title + ' →' : '回到《史記》 →'; document.title = p.label + ' · 人文';} catch {if (ticket === request) root.innerHTML = '<h1>人物資料尚未載入</h1><p>請由史表的人名進入，或稍後重試。</p><a href="shiji.html">回到《史記》</a>';}}
 window.addEventListener('hashchange', render);
 (async () => {
   const select = document.getElementById('cbr-person-select');

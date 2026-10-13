@@ -9,7 +9,7 @@ test('Shiji contents use five historical categories and retain all 130 entries, 
   assert.equal(filteredChapters(index,'all','秦始皇')[0].number,6);
   assert.equal(filteredChapters(index,'shu')[0].available,'pending');
   assert.equal(index.chapters.filter(e=>e.available==='marked_text').length,112);
-  assert.equal(index.chapters.filter(e=>e.available==='table').length,2);
+  assert.deepEqual(index.chapters.filter(e=>e.available==='table').map(e=>e.number),[13,14,15,16,17,18,19,20,21,22]);
 });
 test('source markup uses Unicode code points and escapes text, preserving unresolved references', () => {
   const paragraph={id:'synthetic-p',text:'𠮷甲<乙&丙',mentions:[{id:'synthetic-m1',start:0,end:2,surface:'𠮷甲',kind:'person',person_id:'synthetic_person'},{id:'synthetic-m2',start:3,end:4,surface:'乙',kind:'unresolved',person_id:null}]};
