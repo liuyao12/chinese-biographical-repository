@@ -44,3 +44,20 @@ class LuZouSecondPassTests(unittest.TestCase):
         parallel = json.loads((ROOT / 'corpus/shiji/086.json').read_text())
         self.assertIn('三敗北', parallel['paragraphs'][0]['text'])
         self.assertIn('曹沫執匕首', parallel['paragraphs'][1]['text'])
+
+    def test_assassination_reference_is_not_changping_king(self):
+        c = self.chapter()
+        p23 = c['paragraphs'][22]
+        self.assertEqual({m['person_id'] for m in p23['mentions'] if m['surface'] == '秦皇帝'}, {'ao3_0fy_d45_AAA'})
+        self.assertIn('秦信左右而殺', p23['text'])
+        parallel = json.loads((ROOT / 'corpus/shiji/086.json').read_text())['paragraphs'][33]
+        self.assertEqual({m['person_id'] for m in parallel['mentions'] if m['surface'] == '秦王'}, {'ao3_0fy_d45_AAA'})
+        self.assertEqual({m['person_id'] for m in p23['mentions'] if m['surface'] == '蒙嘉'}, {m['person_id'] for m in parallel['mentions'] if m['surface'] == '中庶子蒙嘉'})
+        self.assertIn('未至身', parallel['text'])
+        self.assertIn('於是左右既前殺軻', parallel['text'])
+
+    def test_yan_prince_and_unnamed_suqin_patron_are_not_conflated(self):
+        c = self.chapter()
+        self.assertEqual({m['person_id'] for m in c['paragraphs'][15]['mentions'] if m['surface'] in ('燕丹', '太子')}, {'e3o_2bk_lhm'})
+        self.assertEqual({m['person_id'] for m in c['paragraphs'][17]['mentions'] if m['surface'] == '丹'}, {'e3o_2bk_lhm'})
+        self.assertEqual({m['person_id'] for m in c['paragraphs'][17]['mentions'] if m['surface'] == '王'}, {'caz_735_cfr'})
