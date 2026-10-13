@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "y6v_c03_at3",
   "canonical_person_id": "y6v_c03_at3",
-  "label": "賈生（屈原賈生列傳候選）",
-  "identity_note": null,
+  "label": "賈誼",
+  "identity_note": "084明言賈生名誼；127明稱賈誼並記梁懷王傅、王墮馬而死的相配事件，既有同指記錄保留。賈生、誼各按原提及保存，哭泣歲餘與不食毒恨等敘述不據同指調和。",
   "review": "ai_provisional",
   "names": [
     "賈生",
@@ -199,8 +199,25 @@
           "evidence": []
         }
       },
-      "interpretation_note": "用稱與實際授任分存，未知起訖不補造；長沙太傅第19段為先述、第22段為事件，可能同一任期不當兩次實任。議任公卿不記已授；賈嘉九卿附述層次待覆核。",
+      "interpretation_note": "用稱與實際授任分存，未知起訖不補造；長沙太傅第19段為先述、第22段為事件，可能同一任期不當兩次實任。議任公卿不記已授；賈嘉九卿附述層次待覆核。 第26段三年為敘事時點的來源年數，不作已完總任期，也不反推確切起訖。",
       "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 3,
+        "unit": "title_year",
+        "source_number": "三",
+        "source_term": "賈生為長沙王太傅三年",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-084-qujia",
+            "source_id": "s-shiji-084-qujia",
+            "paragraph_id": "c-shiji-084-qujia:p026",
+            "quote": "賈生為長沙王太傅三年，有鴞飛入賈生舍，止于坐隅。楚人命鴞曰「服」。賈生既以適居長沙，長沙卑溼，自以為壽不得長，傷悼之，乃為賦以自廣。其辭曰：",
+            "person_mention_id": "c-shiji-084-qujia:m026-0000"
+          }
+        ]
+      },
       "period": "未定 → 未定"
     },
     {
@@ -367,6 +384,33 @@
       "human_reviewed": false,
       "term": "雒陽人也",
       "quote": "賈生名誼，雒陽人也。年十八，以能誦詩屬書聞於郡中。吳廷尉為河南守，聞其秀才，召置門下，甚幸愛。孝文皇帝初立，聞河南守吳公治平為天下第一，故與李斯同邑而常學事焉，乃徵為廷尉。廷尉乃言賈生年少，頗通諸子百家之書。文帝召以為博士。"
+    },
+    {
+      "id": "pa-shiji084-004",
+      "person_id": "y6v_c03_at3",
+      "relation": "residence",
+      "place": {
+        "source_name": "長沙",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-084-qujia",
+          "source_id": "s-shiji-084-qujia",
+          "paragraph_id": "c-shiji-084-qujia:p026",
+          "quote": "賈生為長沙王太傅三年，有鴞飛入賈生舍，止于坐隅。楚人命鴞曰「服」。賈生既以適居長沙，長沙卑溼，自以為壽不得長，傷悼之，乃為賦以自廣。其辭曰：",
+          "person_mention_id": "c-shiji-084-qujia:m026-0000"
+        }
+      ],
+      "source_term": "賈生既以適居長沙",
+      "interpretation_note": "明示居長沙；太傅三年是持職報年，不抄作居住總時長，不定位現代疆域。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "賈生既以適居長沙",
+      "quote": "賈生為長沙王太傅三年，有鴞飛入賈生舍，止于坐隅。楚人命鴞曰「服」。賈生既以適居長沙，長沙卑溼，自以為壽不得長，傷悼之，乃為賦以自廣。其辭曰："
     }
   ],
   "occurrences": [
@@ -469,7 +513,7 @@
   ],
   "relations": [],
   "related_people": {
-    "y6v_c03_at3": "賈生（屈原賈生列傳候選）"
+    "y6v_c03_at3": "賈誼"
   },
   "dates": [],
   "name_components": [],

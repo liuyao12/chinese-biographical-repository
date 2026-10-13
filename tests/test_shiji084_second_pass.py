@@ -75,3 +75,14 @@ class QuJiaSecondPassTests(unittest.TestCase):
         place=next(a for a in b['address_assertions'] if a['id']=='pa-shiji084-003')
         self.assertEqual(place['place']['source_name'],'汨羅')
         self.assertIn('沈汨羅',place['evidence'][0]['quote'])
+
+    def test_changsha_three_years_is_not_total_tenure_or_residence(self):
+        from scripts.person_bundle import bundle
+        b=bundle('y6v_c03_at3',include_provisional=True)
+        h=next(a for a in b['title_holdings'] if a['id']=='th-shiji084-010')
+        self.assertEqual(h['reported_duration']['value'],3)
+        self.assertEqual(h['reported_duration']['source_term'],'賈生為長沙王太傅三年')
+        self.assertEqual(h['effective_period']['end']['status'],'unknown')
+        address=next(a for a in b['address_assertions'] if a['id']=='pa-shiji084-004')
+        self.assertEqual(address['relation'],'residence')
+        self.assertNotIn('reported_duration',address)
