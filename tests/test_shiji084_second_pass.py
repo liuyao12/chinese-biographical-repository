@@ -51,3 +51,27 @@ class QuJiaSecondPassTests(unittest.TestCase):
         self.assertIn('子母俱遷江南',p['text'])
         relations=json.loads((ROOT/'corpus/shiji/084-assertions.json').read_text())['assertions']
         self.assertFalse(any(a['predicate']=='mother' and a.get('object_person_id')=='ify_oqo_7fy' for a in relations))
+
+    def test_jia_origin_and_age_do_not_invent_birth_or_year(self):
+        from scripts.person_bundle import bundle
+        b=bundle('y6v_c03_at3',include_provisional=True)
+        origins=[a for a in b['address_assertions'] if a['id']=='pa-shiji084-001']
+        self.assertEqual(origins[0]['relation'],'biographical_origin')
+        self.assertEqual(origins[0]['place']['source_name'],'雒陽')
+        ages=[a for a in b['age_assertions'] if a['id'].startswith('age-shiji084-')]
+        self.assertEqual([a['value'] for a in ages],[18,33])
+        self.assertTrue(all(a['birth_year'] is None for a in ages))
+        deaths=[a for a in b['life_events'] if a['id']=='le-shiji084-004']
+        self.assertEqual(deaths[0]['date_expression'],None)
+        self.assertNotIn('normalized_date',deaths[0])
+
+    def test_quyuan_death_does_not_use_poetic_month_or_intent(self):
+        from scripts.person_bundle import bundle
+        b=bundle('4dm_2h1_9je',include_provisional=True)
+        death=next(a for a in b['life_events'] if a['id']=='le-shiji084-002')
+        self.assertIn('既死',death['evidence'][0]['quote'])
+        self.assertIsNone(death['date_expression'])
+        self.assertNotIn('normalized_date',death)
+        place=next(a for a in b['address_assertions'] if a['id']=='pa-shiji084-003')
+        self.assertEqual(place['place']['source_name'],'汨羅')
+        self.assertIn('沈汨羅',place['evidence'][0]['quote'])
