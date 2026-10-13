@@ -66,3 +66,16 @@ class ChunshenEvidenceTests(unittest.TestCase):
         xun = next(h for h in holdings if h['id']=='th-shiji078-012')
         self.assertEqual(xun['effective_period']['start']['date_expression'], '春申君相楚八年')
         self.assertNotIn('normalized_date', xun['effective_period']['start'])
+
+    def test_reported_zhu_hai_variant_does_not_merge_zhu_ying_with_wei_retainer(self):
+        chapter = json.loads((ROOT/'corpus/shiji/078.json').read_text())
+        variant = next(v for v in chapter['annotation']['reported_variants'] if v['reported_reading']=='朱亥')
+        self.assertFalse(variant['adopted'])
+        self.assertEqual(variant['person_ids'], ['sxb_x2z_83z'])
+        self.assertEqual(variant['received_reading'], '朱英')
+        paragraph = next(p for p in chapter['paragraphs'] if p['id']==variant['paragraph_id'])
+        self.assertIn('朱英知言不用', paragraph['text'])
+        wei = json.loads((ROOT/'corpus/shiji/077.json').read_text())
+        ids = {m['person_id'] for p in wei['paragraphs'] for m in p['mentions'] if m['surface']=='朱亥'}
+        self.assertEqual(ids, {'88w_qqj_hs8'})
+        self.assertNotIn('sxb_x2z_83z', ids)
