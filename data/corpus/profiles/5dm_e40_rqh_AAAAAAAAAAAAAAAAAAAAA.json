@@ -145,6 +145,98 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji066-015",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p014",
+          "quote": "後二歲，闔廬使太子夫差將兵伐楚，取番。楚懼吳復大來，乃去郢，徙於鄀。當是時，吳以伍子胥、孫武之謀，西破彊楚，北威齊晉，南服越人。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji066-015:a001",
+          "paragraph_id": "c-shiji-066-wu:p014",
+          "start": 7,
+          "end": 9,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-066-wu:m014-0007",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授官事件與文獻用稱分存。首次提及、逃亡、死亡不推定任期終點；平王、昭王、闔廬、夫差王稱隨敘事分辨。夫概自立王不作合法授爵，封堂谿未補侯爵；王子綦佯充王及石乞事成為卿的未遂條件均不當實際任職。白公的號與封邑分存，未確定爵級。來源相對年序未換算為精確紀年，版本及稱號性質仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji066-018",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p016",
+          "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千人棲於會稽之上，使大夫種厚幣遺吳太宰嚭以請和，求委國為臣妾。吳王將許之。伍子胥諫曰：「越王為人能辛苦。今王不滅，後必悔之。」吳王不聽，用太宰嚭計，與越平。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji066-018:a001",
+          "paragraph_id": "c-shiji-066-wu:p016",
+          "start": 76,
+          "end": 77,
+          "surface": "王",
+          "person_mention_id": "c-shiji-066-wu:m016-0076",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-066-wu",
+              "source_id": "s-shiji-066-wu",
+              "paragraph_id": "c-shiji-066-wu:p016",
+              "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千人棲於會稽之上，使大夫種厚幣遺吳太宰嚭以請和，求委國為臣妾。吳王將許之。伍子胥諫曰：「越王為人能辛苦。今王不滅，後必悔之。」吳王不聽，用太宰嚭計，與越平。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "夫差既立為王保存王位即位起點，非他人授爵；父死及子立各存事件，未見精確年不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -214,12 +306,28 @@
       "quote": "。呉師觀之，越因襲撃呉師，呉師敗於檇李，射傷呉王闔廬。闔廬且死，告其子夫差曰：「必毋忘越。」"
     },
     {
+      "number": 66,
+      "category": "liezhuan",
+      "title": "伍子胥列傳第六",
+      "paragraph_id": "c-shiji-066-wu:p014",
+      "count": 35,
+      "quote": "後二歲，闔廬使太子夫差將兵伐楚，取番。楚懼吳復大來，乃去郢，徙於鄀。當是時，吳以伍子胥、孫武之謀，西破彊楚，北威齊晉，南服越人。"
+    },
+    {
       "number": 79,
       "category": "liezhuan",
       "title": "范睢蔡澤列傳第十九",
       "paragraph_id": "c-shiji-079-fancai:p032",
       "count": 2,
       "quote": "絕。昔者齊桓公九合諸侯，一匡天下，至於葵丘之會，有驕矜之志，畔者九國。吳王夫差兵無敵於天下，勇彊以輕諸侯，陵齊晉，故遂以殺身亡國。夏育、太史噭叱呼駭三軍，然而身死於庸夫。此皆乘至盛而不返道理，不居卑退處儉約之患也。夫商君為秦孝公明法令，禁姦本，尊爵必賞，有罪必罰，平權衡，正度量"
+    },
+    {
+      "number": 80,
+      "category": "liezhuan",
+      "title": "樂毅列傳第二十",
+      "paragraph_id": "c-shiji-080-leyi:p011",
+      "count": 2,
+      "quote": "，善作者不必善成，善始者不必善終。昔伍子胥說聽於闔閭，而吳王遠跡至郢；夫差弗是也，賜之鴟夷而浮之江。吳王不寤先論之可以立功，故沈子胥而不悔；子胥不蚤見主之不同量，是以至於入江而不化。"
     }
   ],
   "table_occurrences": [
@@ -547,6 +655,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-066-wu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-066",
+      "source_id": "s-shiji-066-wu",
+      "source": {
+        "title": "史記／卷066",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷066",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138",
+        "revision_id": 2621138,
+        "accessed_on": "2026-10-09",
+        "extent": "24段正文，排除註釋版及2段導覽，無索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留堂谿、（之）、忍訽、屬鏤、鴟夷等原字與括號文字，未核定校勘。",
+          "note": "全24段已核讀並作人物首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-079-fancai",
       "work_id": "w-shiji",
       "book_id": "b-shiji-079",
@@ -580,6 +712,30 @@
           ],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
           "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-080-leyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-080",
+      "source_id": "s-shiji-080-leyi",
+      "source": {
+        "title": "史記／卷080",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷080",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316",
+        "revision_id": 2089316,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樂毅者至太史公論述師承；HTML題頭與評論篇界已核，無索隱述贊混入。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd保持原序，異體不擅校。",
+          "note": "全20段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
     }
@@ -625,6 +781,27 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "依明示子、生育或母稱保存來源主張；繼位本身不作父子，祖先不作父親，不補闕代、母名或確切時段。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji066-013",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p016",
+          "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千人棲於會稽之上，使大夫種厚幣遺吳太宰嚭以請和，求委國為臣妾。吳王將許之。伍子胥諫曰：「越王為人能辛苦。今王不滅，後必悔之。」吳王不聽，用太宰嚭計，與越平。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "爾忘句踐殺爾父乎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按本文明示父、母、兄弟、祖先與孫稱保存。伍舉只記祖先，伯州犁只記祖父，不補闕代；兄弟不推定同父同母。懷父之稱按本人引語，未補姓名或另推鄖公父。引語及敘事屬來源陳述，未作獨立史實確證。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -680,6 +857,27 @@
       },
       "interpretation_note": "依明示子、生育或母稱保存來源主張；繼位本身不作父子，祖先不作父親，不補闕代、母名或確切時段。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji066-013",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p016",
+          "quote": "後五年，伐越。越王句踐迎擊，敗吳於姑蘇，傷闔廬指，軍卻。闔廬病創將死，謂太子夫差曰：「爾忘句踐殺爾父乎？」夫差對曰：「不敢忘。」是夕，闔廬死。夫差既立為王，以伯嚭為太宰，習戰射。二年後伐越，敗越於夫湫。越王句踐乃以餘兵五千人棲於會稽之上，使大夫種厚幣遺吳太宰嚭以請和，求委國為臣妾。吳王將許之。伍子胥諫曰：「越王為人能辛苦。今王不滅，後必悔之。」吳王不聽，用太宰嚭計，與越平。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "爾忘句踐殺爾父乎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按本文明示父、母、兄弟、祖先與孫稱保存。伍舉只記祖先，伯州犁只記祖父，不補闕代；兄弟不推定同父同母。懷父之稱按本人引語，未補姓名或另推鄖公父。引語及敘事屬來源陳述，未作獨立史實確證。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "age_assertions": [],
@@ -721,6 +919,26 @@
       ],
       "source_term": "遂自殺",
       "interpretation_note": "明示生死或敘事已實行的命令；相對年數需再核，不任意換算當年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji066-014",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "殺王夫差",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p020",
+          "quote": "吳王既誅伍子胥，遂伐齊。齊鮑氏殺其君悼公而立陽生。吳王欲討其賊，不勝而去。其後二年，吳王召魯衛之君會之橐皋。其明年，因北大會諸侯於黃池，以令周室。越王句踐襲殺吳太子，破吳兵。吳王聞之，乃歸，使使厚幣與越平。後九年，越王句踐遂滅吳，殺王夫差；而誅太宰嚭，以不忠於其君，而外受重賂，與己比周也。",
+          "person_mention_id": "c-shiji-066-wu:m020-0116"
+        }
+      ],
+      "interpretation_note": "保存本篇明示死亡，未知日期保持未知；未執行殺令、假設、敗逃與尸體處置不推另一死亡。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

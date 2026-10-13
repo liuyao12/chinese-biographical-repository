@@ -18,7 +18,6 @@
 | `023_j4f_3vn` | 孟嘗 | [《史記・魏世家》][26] | [JSON](023_j4f_3vn.json) |
 | `02f_ql9_7if` | 毀孟嘗於齊湣者未名 | [《史記・孟嘗君列傳》][57] | [JSON](02f_ql9_7if.json) |
 | `02g_rlg_6nk` | 河閒王未名 | [《史記・萬石張叔列傳》][85] | [JSON](02g_rlg_6nk.json) |
-| `02k_166_l3b` | 闔閭引古 | [《史記・樂毅列傳》][62] | [JSON](02k_166_l3b.json) |
 | `02m_tgr_6k2` | 韓廣母（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](02m_tgr_6k2.json) |
 | `02p_okn_rhi` | 秦太子（魏世家質魏死未名者） | [《史記・魏世家》][26] | [JSON](02p_okn_rhi.json) |
 | `03b_ss3_7qu` | 落下閎 | [《史記・平津侯主父列傳》][94] | [JSON](03b_ss3_7qu.json) |
@@ -1494,7 +1493,6 @@
 | `9mg_wxe_cao` | 呂產 | [《史記・荊燕世家》][33] | [JSON](9mg_wxe_cao.json) |
 | `9mh_7cb_704` | 成（大駱子） | [《史記・秦本紀》][5] | [JSON](9mh_7cb_704.json) |
 | `9mr_can_2hq` | 成王 | [《史記・太史公自序》][112] | [JSON](9mr_can_2hq.json) |
-| `9n1_t73_kdy` | 秦昭王 | [《史記・樂毅列傳》][62] | [JSON](9n1_t73_kdy.json) |
 | `9n6_i20_6n9` | 涉閒 | [《史記・項羽本紀》][7] | [JSON](9n6_i20_6n9.json) |
 | `9nc_i02_15v` | 徐巿（本文字形） | [《史記・秦始皇本紀》][6] | [JSON](9nc_i02_15v.json) |
 | `9np_rzc_2gg` | 伯夷 | [《史記・鄭世家》][24] | [JSON](9np_rzc_2gg.json) |
@@ -2231,6 +2229,8 @@
 | `ehh_a65_95j` | 黥布 | [《史記・韓信盧綰列傳》][75] | [JSON](ehh_a65_95j.json) |
 | `ehi_e39_173` | 荊軻所待客未名 | [《史記・刺客列傳》][68] | [JSON](ehi_e39_173.json) |
 | `eht_523_crr` | 華成 | [《史記・酷吏列傳》][104] | [JSON](eht_523_crr.json) |
+| `ehx_l0f_ti8` | 秦孝公引古 | [《史記・李斯列傳》][69] | [JSON](ehx_l0f_ti8.json) |
+| `ei3_w5i_7ai` | 韓公子長 | [《史記・秦本紀》][5] | [JSON](ei3_w5i_7ai.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
