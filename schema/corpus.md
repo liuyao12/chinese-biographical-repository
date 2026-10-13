@@ -276,3 +276,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 人物事件 `diplomatic_service` 保存出使任事與 `polity_source_name`；「事燕三年」的 `reported_duration` 為數值3、`unit: service_year`、`source_number: 三`、`source_term: 事燕三年`、`counting: unspecified_source_years`、`status: source_attested`，證據與事件一致。此年數不屬剛成君爵位任期，不推曆日或起訖年。
 
 兄弟／姐妹陳述的 `qualifiers.shared_father` 可為原文明示同父的 `true`、異父的 `false` 或未知的 `null`。布林值須有相符同父／異父原詞與來源引句，不補具名父親；缺欄與 `null` 均不表示同父。異父兄弟姊妹不得僅因兄弟陳述接到同一父系，來源原詞、母系及未明家系仍保留。
+
+## 來源明記的任用次數
+
+`reported_appointment_count` 與任期長度分開：`value` 為正整數、`unit: appointment`、`source_number` 為來源數詞、`source_term` 為「數詞＋為＋本筆稱號」、`status: source_attested`，`evidence` 保存持有人所在篇段的原引句。例如荀卿「三為祭酒」保存數值 3；不表示任職三年，也不生成三段虛構任期。這是來源報告的合計次數，各次起訖與間隔未定；使用端不可把同一合計紀錄當成三個已知日期的授任事件。其他數詞或句式須先擴充驗證及測試。

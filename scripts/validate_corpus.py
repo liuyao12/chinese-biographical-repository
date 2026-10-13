@@ -21,6 +21,18 @@ def source_age_number(number):
         return (digits.index(match[1]) + 1 if match[1] else 1) * 100 + (source_age_number(match[2]) if match[2] else 0)
     return None
 
+def reported_appointment_count_valid(count, title):
+    return (isinstance(count, dict)
+             and set(count) == {'value', 'unit', 'source_number', 'source_term', 'status', 'evidence'}
+             and type(count.get('value')) is int and count['value'] > 0
+             and count.get('unit') == 'appointment'
+             and count.get('status') == 'source_attested'
+             and source_age_number(count.get('source_number')) == count['value']
+             and count.get('source_term') == count['source_number'] + '為' + title
+             and isinstance(count.get('evidence'), list) and bool(count['evidence'])
+             and all(isinstance(e, dict) and isinstance(e.get('quote'), str)
+                     and count['source_term'] in e['quote'] for e in count['evidence']))
+
 def parallel_event_date(date):
     """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
     if not isinstance(date, dict):
@@ -546,6 +558,12 @@ def validate(root=ROOT):
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
+                if 'reported_appointment_count' in h:
+                    count = h['reported_appointment_count']
+                    valid = reported_appointment_count_valid(count, h['title'])
+                    check(valid, '任用次數缺少相符數詞、稱號與來源證據')
+                    if valid:
+                        for e in count['evidence']: title_evidence(e)
                 if 'reported_duration' in h:
                     duration=h['reported_duration']
                     required={'value','unit','source_term','source_number','counting','status','evidence'}
