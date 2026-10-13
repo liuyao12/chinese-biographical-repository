@@ -33,8 +33,69 @@
     "limitations": [
       "子政父系與養母生母語境分存，不補確證父親。",
       "仲父為號稱，不作親屬。",
-      "篇末封號文信侯歧義與四公子並列待覆核。",
+      "四公子並列時序與篇末封號原文保留，附署名索隱校語但不採改正文。",
       "免相國與爵位時段分開，未知日期不補造。"
+    ],
+    "reported_variants": [
+      {
+        "id": "rv-shiji085-suo-mu",
+        "paragraph_id": "c-shiji-085-lubuwei:p007",
+        "person_ids": [
+          "ao3_0fy_d45_AA",
+          "jb2_tak_5p8",
+          "pz6_lqa_ina"
+        ],
+        "source_term": "莊襄王所母華陽后",
+        "received_reading": "所母",
+        "reported_reading": "所生母",
+        "commentator": "司馬貞〈索隱〉",
+        "quote": "劉氏本作「所生母」，「生」衍字也。今檢諸本並無「生」字。",
+        "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷085&oldid=2514755",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "revision_id": 2514755,
+        "witness_response_sha256": "32e1406191e0e3e41b0aa9d3d2225226617dcde93729deac2ca55f62355991db"
+      },
+      {
+        "id": "rv-shiji085-chai-yang",
+        "paragraph_id": "c-shiji-085-lubuwei:p015",
+        "person_ids": [
+          "lap_qc0_yqm",
+          "ao3_0fy_d45_AA"
+        ],
+        "source_term": "會葬茝陽",
+        "received_reading": "茝陽",
+        "reported_reading": "芷陽",
+        "commentator": "徐廣（裴駰〈集解〉引）",
+        "quote": "一作『芷陽』。",
+        "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷085&oldid=2514755",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "revision_id": 2514755,
+        "witness_response_sha256": "32e1406191e0e3e41b0aa9d3d2225226617dcde93729deac2ca55f62355991db"
+      },
+      {
+        "id": "rv-shiji085-changxin",
+        "paragraph_id": "c-shiji-085-lubuwei:p016",
+        "person_ids": [
+          "puu_6hs_m4f",
+          "hzt_j3d_1r3"
+        ],
+        "source_term": "不韋及嫪毐貴，封號文信侯",
+        "received_reading": "文信侯",
+        "reported_reading": "長信侯",
+        "commentator": "司馬貞〈索隱〉",
+        "quote": "文信侯，不韋封也。嫪毐封長信侯。上文已言不韋封，此贊中言嫪毐得寵貴由不韋耳，今此合作「長信侯」也。",
+        "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷085&oldid=2514755",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false,
+        "interpretation_note": "這是注家校改建議，並非本批核見另一底本；正文文信侯不改，不直接生成嫪毐實授文信侯。",
+        "revision_id": 2514755,
+        "witness_response_sha256": "32e1406191e0e3e41b0aa9d3d2225226617dcde93729deac2ca55f62355991db"
+      }
     ]
   },
   "paragraphs": [
@@ -428,9 +489,9 @@
           "start": 41,
           "end": 45,
           "surface": "華陽夫人",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
+          "kind": "person",
+          "person_id": "jb2_tak_5p8",
+          "status": "contextual_provisional",
           "note": "此處為華陽夫人姊的親屬修飾語，原MID保留，不作本人提及。"
         },
         {
