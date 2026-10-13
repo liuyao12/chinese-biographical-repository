@@ -808,15 +808,6 @@
 
 </details>
 
-<details><summary><code>ant_017_buy</code> 九侯引古（魯仲連鄒陽列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 九侯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ant_017_buy.json) |
-| `A` | 九侯子引古未名 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ant_017_buy_A.json) |
-
-</details>
-
 <details><summary><code>ao3_0fy_d45</code> 秦昭王（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3024,7 +3015,6 @@
 [60]: https://zh.wikisource.org/w/index.php?title=史記/卷078&oldid=2089016
 [61]: https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307
 [62]: https://zh.wikisource.org/w/index.php?title=史記/卷080&oldid=2089316
-[65]: https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252
 [66]: https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305
 [67]: https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562

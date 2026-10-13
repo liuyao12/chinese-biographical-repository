@@ -250,7 +250,6 @@
 | `1mi_jrf_gto` | 子魚（教宋湣公者） | [《史記・宋微子世家》][20] | [JSON](1mi_jrf_gto.json) |
 | `1ml_gpo_pr5` | 管仲 | [《史記・刺客列傳》][68] | [JSON](1ml_gpo_pr5.json) |
 | `1ml_lhf_3h1` | 尉斯離 | [《史記・秦本紀》][5] | [JSON](1ml_lhf_3h1.json) |
-| `1mq_n0d_l6s` | 鄂侯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](1mq_n0d_l6s.json) |
 | `1n0_bu8_jv2` | 衛伉（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](1n0_bu8_jv2.json) |
 | `1n9_5tg_1zs` | 夷王 | [《史記・周本紀》][4] | [JSON](1n9_5tg_1zs.json) |
 | `1ne_07g_3id` | 夏侯勝 | [《史記・平津侯主父列傳》][94] | [JSON](1ne_07g_3id.json) |
@@ -663,7 +662,6 @@
 | `4b7_72t_4e0` | 莊王（楚） | [《史記・太史公自序》][112] | [JSON](4b7_72t_4e0.json) |
 | `4b8_j4t_8tj` | 趙王（田世家平陸未名者） | [《史記・田敬仲完世家》][28] | [JSON](4b8_j4t_8tj.json) |
 | `4bb_se5_6zs` | 季孫引古未定 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](4bb_se5_6zs.json) |
-| `4bt_npm_axo` | 比干引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](4bt_npm_axo.json) |
 | `4bx_elr_66i` | 子反（宋圍城記事） | [《史記・宋微子世家》][20] | [JSON](4bx_elr_66i.json) |
 | `4bx_x9i_210` | 叔瞻（鄭臣） | [《史記・鄭世家》][24] | [JSON](4bx_x9i_210.json) |
 | `4ck_c0z_a0t` | 五羖 | [《史記・孔子世家》][29] | [JSON](4ck_c0z_a0t.json) |
@@ -680,7 +678,6 @@
 | `4eq_1xe_1xg` | 侯家舍人未名 | [《史記・樊酈滕灌列傳》][77] | [JSON](4eq_1xe_1xg.json) |
 | `4es_tvz_kjv` | 翳（翟王） | [《史記・淮陰侯列傳》][74] | [JSON](4es_tvz_kjv.json) |
 | `4fa_1v4_jmc` | 南子 | [《史記・仲尼弟子列傳》][49] | [JSON](4fa_1v4_jmc.json) |
-| `4fa_nn3_4zq` | 紂引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](4fa_nn3_4zq.json) |
 | `4gn_hir_vrl` | 秦王（魏世家增質秦未名者） | [《史記・魏世家》][26] | [JSON](4gn_hir_vrl.json) |
 | `4gs_22r_d9a` | 王恢 | [《史記・西南夷列傳》][98] | [JSON](4gs_22r_d9a.json) |
 | `4gs_evl_a1u` | 秦司馬夷 | [《史記・曹相國世家》][36] | [JSON](4gs_evl_a1u.json) |
@@ -1473,7 +1470,6 @@
 | `9kf_g2j_i2h` | 孟軻（伐燕進言者） | [《史記・燕召公世家》][16] | [JSON](9kf_g2j_i2h.json) |
 | `9li_j1i_hm5` | 田單（齊將） | [《史記・田單列傳》][64] | [JSON](9li_j1i_hm5.json) |
 | `9lk_49t_e6e` | 陳武（漢初大將軍） | [《史記・孝文本紀》][10] | [JSON](9lk_49t_e6e.json) |
-| `9lp_b6m_laq` | 李斯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](9lp_b6m_laq.json) |
 | `9lv_6cv_fpp` | 柴將軍（垓下敘事） | [《史記・高祖本紀》][8] | [JSON](9lv_6cv_fpp.json) |
 | `9lv_m6i_l49` | 燕丹 | [《史記・太史公自序》][112] | [JSON](9lv_m6i_l49.json) |
 | `9m3_44a_u7a` | 太史公 | [《史記・游俠列傳》][106] | [JSON](9m3_44a_u7a.json) |
@@ -2231,6 +2227,10 @@
 | `emm_08p_2n8` | 魏文侯（楚篇三晉記事） | [《史記・楚世家》][22] | [JSON](emm_08p_2n8.json) |
 | `eng_0y0_ha6` | 公孫戎奴 | [《史記・衛將軍驃騎列傳》][93] | [JSON](eng_0y0_ha6.json) |
 | `ens_bv2_oaj` | 齊太醫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ens_bv2_oaj.json) |
+| `env_vor_wvy` | 被濟川王明射殺的中尉 | [《史記・梁孝王世家》][40] | [JSON](env_vor_wvy.json) |
+| `eof_wj7_9ih` | 商容 | [《史記・留侯世家》][37] | [JSON](eof_wj7_9ih.json) |
+| `eok_92w_kgq` | 子我 | [《史記・齊太公世家》][14] | [JSON](eok_92w_kgq.json) |
+| `eoz_084_vwg` | 商鞅 | [《史記・貨殖列傳》][111] | [JSON](eoz_084_vwg.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
