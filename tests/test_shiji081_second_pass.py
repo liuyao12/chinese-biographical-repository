@@ -33,3 +33,17 @@ class LianLinSecondPassTests(unittest.TestCase):
         self.assertIn('四十餘日', battle['text'])
         self.assertEqual({m['person_id'] for m in battle['mentions'] if m['surface'] == '秦將白起'}, {'2bk_fz6_icl'})
         self.assertEqual({m['person_id'] for m in battle['mentions'] if m['surface'] in ('括', '趙括')}, {'ja0_1pr_vhk'})
+
+    def test_wangjian_campaign_and_huanyi_keep_event_differences(self):
+        ending = self.paragraph('081', ':p026')
+        wang = self.paragraph('073', ':p009')
+        self.assertEqual({m['person_id'] for m in ending['mentions'] if m['surface'] == '王翦'}, {'gdj_k53_v1x'})
+        self.assertEqual({m['person_id'] for m in wang['mentions'] if m['surface'] == '王翦'}, {'gdj_k53_v1x'})
+        qin = self.paragraph('006', ':p013')
+        zhao = self.paragraph('081', ':p025')
+        self.assertIn('平陽', qin['text'])
+        self.assertIn('武遂', zhao['text'])
+        self.assertEqual({m['person_id'] for m in qin['mentions'] if m['surface'] == '桓齮'}, {'42c_0ck_iry'})
+        self.assertEqual({m['person_id'] for m in zhao['mentions'] if m['surface'] == '秦將桓齮'}, {'42c_0ck_iry'})
+        self.assertIn('歲餘', wang['text'])
+        self.assertIn('後三月', ending['text'])
