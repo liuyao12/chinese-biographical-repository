@@ -321,5 +321,49 @@
     "y97_huh_vuz_AAAAAAAAAAAAABABA": "秦惠公（簡公子）",
     "y97_huh_vuz_AAAAAAAAAAAAABABAA": "出子（秦惠公子）"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-081",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p052",
+          "quote": "惠公十二年，子出子生。十三年，伐蜀，取南鄭。惠公卒，出子立。",
+          "person_mention_id": "c-shiji-005-qin:m052-0000"
+        }
+      ],
+      "source_term": "惠公卒",
+      "interpretation_note": "保存原文紀年；西曆待另據紀年資料核定。出子為惠公之子，與此前同稱出子者分開。孝公即位年齡不倒推生年；沈屍淵旁不當死亡或埋葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-047",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p087",
+          "quote": "簡公從晉來。享國十五年。葬僖公西。生惠公。其七年。百姓初帶劍。",
+          "person_mention_id": "c-shiji-006-shihuang:p087:m0018"
+        }
+      ],
+      "source_term": "生惠公",
+      "interpretation_note": "卷末世系的生、自殺照存，享國年數不是出生年；出公自殺與前篇出子被殺保留來源差異，不改成一致。生靈公、昭子子也及生簡公的親屬差異仍待編輯判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

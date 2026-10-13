@@ -345,5 +345,89 @@
     "y97_huh_vuz_AAAAAAAAAAAAABABA": "秦惠公（簡公子）",
     "y97_huh_vuz_AAAAAAAAAAAAABABAA": "出子（秦惠公子）"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-080",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": "惠公十二年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p052",
+          "quote": "惠公十二年，子出子生。十三年，伐蜀，取南鄭。惠公卒，出子立。",
+          "person_mention_id": "c-shiji-005-qin:m052-0007"
+        }
+      ],
+      "source_term": "子出子生",
+      "interpretation_note": "保存原文紀年；西曆待另據紀年資料核定。出子為惠公之子，與此前同稱出子者分開。孝公即位年齡不倒推生年；沈屍淵旁不當死亡或埋葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji005-082",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "出子二年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p053",
+          "quote": "出子二年，庶長改迎靈公之子獻公于河西而立之。殺出子及其母，沈之淵旁。秦以往者數易君，君臣乖亂，故晉復彊，奪秦河西地。",
+          "person_mention_id": "c-shiji-005-qin:m053-0000"
+        }
+      ],
+      "source_term": "殺出子及其母",
+      "interpretation_note": "保存原文紀年；西曆待另據紀年資料核定。出子為惠公之子，與此前同稱出子者分開。孝公即位年齡不倒推生年；沈屍淵旁不當死亡或埋葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-048",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p088",
+          "quote": "惠公享國十三年。葬陵圉。生出公。",
+          "person_mention_id": "c-shiji-006-shihuang:p088:m0013"
+        }
+      ],
+      "source_term": "生出公",
+      "interpretation_note": "卷末世系的生、自殺照存，享國年數不是出生年；出公自殺與前篇出子被殺保留來源差異，不改成一致。生靈公、昭子子也及生簡公的親屬差異仍待編輯判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-053",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABABAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p089",
+          "quote": "出公享國二年。出公自殺，葬雍。",
+          "person_mention_id": "c-shiji-006-shihuang:p089:m0000"
+        }
+      ],
+      "source_term": "出公自殺",
+      "interpretation_note": "卷末世系的生、自殺照存，享國年數不是出生年；出公自殺與前篇出子被殺保留來源差異，不改成一致。生靈公、昭子子也及生簡公的親屬差異仍待編輯判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

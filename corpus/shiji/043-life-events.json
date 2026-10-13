@@ -1101,7 +1101,46 @@
       "source_term": "平原君趙勝死",
       "interpretation_note": "來源明示生死；原曆日期保留本段表述，相對年月與跨篇紀年仍待核。回述與初生不借段首年，群體滅族不擴展為所有個人。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 252,
+        "year": -251,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "十年，燕攻昌壯，五月拔之。趙將樂乘、慶舍攻秦信梁軍，破之。太子死。而秦攻西周，拔之。徒父祺出。十一年，城元氏，縣上原。武陽君鄭安平死，收其地。十二年，邯鄲廥燒。十四年，平原君趙勝死。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-043-zhao",
+            "source_id": "s-shiji-043-zhao",
+            "paragraph_id": "c-shiji-043-zhao:p107",
+            "quote": "十年，燕攻昌壯，五月拔之。趙將樂乘、慶舍攻秦信梁軍，破之。太子死。而秦攻西周，拔之。徒父祺出。十一年，城元氏，縣上原。武陽君鄭安平死，收其地。十二年，邯鄲廥燒。十四年，平原君趙勝死。",
+            "person_mention_id": "c-shiji-043-zhao:m107-0084"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈六國年表〉趙欄原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "十四",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r225-c05"
+          },
+          {
+            "title": "〈六國年表〉數位西元對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "252",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r225-c00"
+          }
+        ],
+        "rationale": "本篇孝成王敘事的十四年換前252年、天文年-251。年表趙十四年欄僅作紀年換算，未在該欄記平原君死亡；此為〈趙世家〉原記十四年的換算，保留與〈平原君虞卿列傳〉十五年差異，不作已校定史實。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     },
     {
       "id": "le-shiji043-056",

@@ -33,6 +33,18 @@ def reported_appointment_count_valid(count, title):
              and all(isinstance(e, dict) and isinstance(e.get('quote'), str)
                      and count['source_term'] in e['quote'] for e in count['evidence']))
 
+def reported_office_event_count_valid(count, event_type):
+    verbs = {'departure': '去相', 'reinstatement': '復位'}
+    return (event_type in verbs and isinstance(count, dict)
+            and set(count) == {'value', 'unit', 'source_number', 'source_term', 'status', 'evidence'}
+            and type(count.get('value')) is int and count['value'] > 0
+            and count.get('unit') == 'office_event' and count.get('status') == 'source_attested'
+            and source_age_number(count.get('source_number')) == count['value']
+            and count.get('source_term') == count['source_number'] + verbs[event_type]
+            and isinstance(count.get('evidence'), list) and bool(count['evidence'])
+            and all(isinstance(e, dict) and isinstance(e.get('quote'), str)
+                    and count['source_term'] in e['quote'] for e in count['evidence']))
+
 def parallel_event_date(date):
     """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
     if not isinstance(date, dict):
@@ -558,6 +570,14 @@ def validate(root=ROOT):
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
+                if 'reported_office_event_counts' in h:
+                    counts = h['reported_office_event_counts']
+                    valid = (h['kind'] == 'office' and isinstance(counts, dict) and bool(counts)
+                             and all(reported_office_event_count_valid(c, key) for key, c in counts.items()))
+                    check(valid, '離相或復位次數缺少相符原詞與來源證據')
+                    if valid:
+                        for count in counts.values():
+                            for e in count['evidence']: title_evidence(e)
                 if 'reported_appointment_count' in h:
                     count = h['reported_appointment_count']
                     valid = reported_appointment_count_valid(count, h['title'])
@@ -1114,6 +1134,28 @@ def validate(root=ROOT):
                     if isinstance(date, dict):
                         check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
                         check(date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
+        try:
+            from scripts.life_event_dates import date_decision_errors
+        except ImportError:
+            from life_event_dates import date_decision_errors
+        dated_events = {e['id']: e for path in (root / 'corpus').glob('*/*-life-events.json')
+                        for e in json.loads(path.read_text())['events']}
+        date_equivalences = [e for path in (root / 'corpus').glob('*/*-equivalences.json')
+                             for e in json.loads(path.read_text())['decisions']]
+        date_decision_ids = set(); date_candidate_scopes = set()
+        for path in (root / 'corpus').glob('*/*-date-decisions.json'):
+            record = json.loads(path.read_text())
+            check(record['record_type'] == 'life_event_date_decision_set' and record['work_id'] in works,
+                  '生卒紀年取捨集格式或著作無效')
+            for decision in record['decisions']:
+                check(decision['id'] not in date_decision_ids, '生卒紀年取捨 ID 重複')
+                date_decision_ids.add(decision['id'])
+                errors.extend(date_decision_errors(decision, dated_events, date_equivalences, pids))
+                candidates = set(decision['candidate_event_ids'])
+                check(not date_candidate_scopes.intersection(candidates), '同一生卒事件不得有多項紀年預設')
+                date_candidate_scopes.update(candidates)
+                check(all(chapters.get(e['chapter_id'], {}).get('work_id') == record['work_id']
+                          for e in decision['evidence']), '生卒紀年取捨證據著作不符')
         try:
             from .family_assemblies import load_assemblies
             from .person_bundle import load_catalog

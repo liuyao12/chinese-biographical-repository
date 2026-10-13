@@ -1112,5 +1112,99 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji005-104",
+      "person_id": "ao3_0fy_d45",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "五十六年秋",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p072",
+          "quote": "五十三年，天下來賓。魏後，秦使摎伐魏，取吳城。韓王入朝，魏委國聽令。五十四年，王郊見上帝於雍。五十六年秋，昭襄王卒，子孝文王立。尊唐八子為唐太后，而合其葬於先王。韓王衰絰入弔祠，諸侯皆使其將相來弔祠，視喪事。",
+          "person_mention_id": "c-shiji-005-qin:m072-0053"
+        }
+      ],
+      "source_term": "昭襄王卒",
+      "interpretation_note": "保存本篇原紀年；始皇立十一年而崩是稱帝後計數，不替換為秦王在位總年。子嬰立月餘非精確死亡年月；東周君誅之是否專指誅殺仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji034-048",
+      "person_id": "ao3_0fy_d45",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "今王喜四年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p031",
+          "quote": "今王喜四年，秦昭王卒。燕王命相栗腹約歡趙，以五百金爲趙王酒。還報燕王曰：「趙王壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒問之。對曰：「趙四戰之國，其民習兵，不可伐。」王曰：「吾以五而伐一。」對曰：「不可。」燕王怒，群臣皆以爲可。卒起二軍，車二千乘，栗腹將而攻鄗，卿秦攻代。唯獨大夫將渠謂燕王曰：「與人通關約交，以五百金飲人之王，使者報而反攻之，不祥，兵無成功。」燕王不聽，自將偏軍隨之。將渠引燕王綬止之曰：「王必無自往，往無成功。」王蹵之以足。將渠泣曰：「臣非以自爲，爲王也！」燕軍至宋子，趙使廉頗將，撃破栗腹於鄗。［樂乘］破卿秦（樂乘）於代。樂閒奔趙。廉頗逐之五百餘里，圍其國。燕人請和，趙人不許，必令將渠處和。燕相將渠以處和。趙聽將渠，解燕圍。",
+          "person_mention_id": "c-shiji-034-yan:m031-0006"
+        }
+      ],
+      "source_term": "秦昭王卒",
+      "interpretation_note": "國君年次依本句，未知公曆日不補。 保存本篇明示死亡，國君紀年與數字年換算待核；被虜、出奔、擊破軍隊或滅國不直接推個人死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 251,
+        "year": -250,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "今王喜四年，秦昭王卒。燕王命相栗腹約歡趙，以五百金爲趙王酒。還報燕王曰：「趙王壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒問之。對曰：「趙四戰之國，其民習兵，不可伐。」王曰：「吾以五而伐一。」對曰：「不可。」燕王怒，群臣皆以爲可。卒起二軍，車二千乘，栗腹將而攻鄗，卿秦攻代。唯獨大夫將渠謂燕王曰：「與人通關約交，以五百金飲人之王，使者報而反攻之，不祥，兵無成功。」燕王不聽，自將偏軍隨之。將渠引燕王綬止之曰：「王必無自往，往無成功。」王蹵之以足。將渠泣曰：「臣非以自爲，爲王也！」燕軍至宋子，趙使廉頗將，撃破栗腹於鄗。［樂乘］破卿秦（樂乘）於代。樂閒奔趙。廉頗逐之五百餘里，圍其國。燕人請和，趙人不許，必令將渠處和。燕相將渠以處和。趙聽將渠，解燕圍。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-034-yan",
+            "source_id": "s-shiji-034-yan",
+            "paragraph_id": "c-shiji-034-yan:p031",
+            "quote": "今王喜四年，秦昭王卒。燕王命相栗腹約歡趙，以五百金爲趙王酒。還報燕王曰：「趙王壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒問之。對曰：「趙四戰之國，其民習兵，不可伐。」王曰：「吾以五而伐一。」對曰：「不可。」燕王怒，群臣皆以爲可。卒起二軍，車二千乘，栗腹將而攻鄗，卿秦攻代。唯獨大夫將渠謂燕王曰：「與人通關約交，以五百金飲人之王，使者報而反攻之，不祥，兵無成功。」燕王不聽，自將偏軍隨之。將渠引燕王綬止之曰：「王必無自往，往無成功。」王蹵之以足。將渠泣曰：「臣非以自爲，爲王也！」燕軍至宋子，趙使廉頗將，撃破栗腹於鄗。［樂乘］破卿秦（樂乘）於代。樂閒奔趙。廉頗逐之五百餘里，圍其國。燕人請和，趙人不許，必令將渠處和。燕相將渠以處和。趙聽將渠，解燕圍。",
+            "person_mention_id": "c-shiji-034-yan:m031-0006"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷015",
+            "quote": "四。伐趙，趙破我軍，殺栗腹。",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "燕王喜四年對數位年表公元前251年行。公元前年欄為數位編輯參考，只換算年，未知公曆月日不補；未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji040-066",
+      "person_id": "ao3_0fy_d45",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十二年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p090",
+          "quote": "六年，秦圍邯鄲，趙告急楚，楚遣將軍景陽救趙。七年，至新中。秦兵去。十二年，秦昭王卒，楚王使春申君弔祠于秦。十六年，秦莊襄王卒，秦王趙政立。二十二年，與諸侯共伐秦，不利而去。楚東徙都壽春，命曰郢。",
+          "person_mention_id": "c-shiji-040-chu:m090-0037"
+        }
+      ],
+      "source_term": "秦昭王卒",
+      "interpretation_note": "原文明示死亡，保留原君年及相對時長；被虜與滅國不推死亡，與其他篇異說分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

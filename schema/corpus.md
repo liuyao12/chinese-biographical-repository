@@ -280,3 +280,13 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 來源明記的任用次數
 
 `reported_appointment_count` 與任期長度分開：`value` 為正整數、`unit: appointment`、`source_number` 為來源數詞、`source_term` 為「數詞＋為＋本筆稱號」、`status: source_attested`，`evidence` 保存持有人所在篇段的原引句。例如荀卿「三為祭酒」保存數值 3；不表示任職三年，也不生成三段虛構任期。這是來源報告的合計次數，各次起訖與間隔未定；使用端不可把同一合計紀錄當成三個已知日期的授任事件。其他數詞或句式須先擴充驗證及測試。
+
+## 離相與復位的來源次數
+
+`reported_office_event_counts` 用 `departure` 與 `reinstatement` 分存「三去相，三復位」兩類次數。每筆含正整數 `value`、`unit: office_event`、原數詞 `source_number`、原詞 `source_term`、`status: source_attested` 與持有人篇段 `evidence`。離相不表示自願辭職；復位不等於全部任用次數，不據此推初任或逐次任期。當前支援數詞＋去相／復位，其他句式須擴充驗證。聚合次數不作已定日期的個別事件，亦不是持職年數。
+
+## 同一生卒事件的紀年取捨
+
+`life_event_date_decision_set` 保存已判同指人物的同一類生卒事件所記不同年份。`person_ids` 與 `candidate_event_ids` 明列範圍，各事件的原句、人物錨點及 `normalized_date` 不改寫。`preferred_event_id` 在 `editorial_provisional` 時須為其中一項；`unresolved` 時為 null。證據完整保留候選事件的來源證據，署名、理由、人工覆核及模型狀態另存。取捨只適用此事件，不成為全域作品權威排序，也不把同一作品多篇記載當獨立見證投票。
+
+逐人來源包在選用暫同指後匯出 `life_event_date_decisions` 與 `selected_life_event_dates`，後者附 `selection_decision_id`。原 `life_events` 及 `date_normalizations` 保留所有來源；未解決定不產生選定日期，未整理的其他事件不據此猜值。使用端以決定的候選事件 ID 範圍套用預設，撤回決定即可恢復並存。本輪為平原君卒年試點，未聲稱已處理全部紀年衝突。

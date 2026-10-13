@@ -441,5 +441,99 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji039-055",
+      "person_id": "dm0_58v_50i",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "六年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p081",
+          "quote": "六年，趙衰成子、欒貞子、咎季子犯、霍伯皆卒。趙盾代趙衰執政。",
+          "person_mention_id": "c-shiji-039-jin:m081-0003"
+        }
+      ],
+      "source_term": "皆卒",
+      "interpretation_note": "原文明示死亡；並稱皆卒各連本段人物錨點，回述不借當段年次，省主詞依本段敘事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 622,
+        "year": -621,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "六年，趙衰成子、欒貞子、咎季子犯、霍伯皆卒。趙盾代趙衰執政。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-039-jin",
+            "source_id": "s-shiji-039-jin",
+            "paragraph_id": "c-shiji-039-jin:p081",
+            "quote": "六年，趙衰成子、欒貞子、咎季子犯、霍伯皆卒。趙盾代趙衰執政。",
+            "person_mention_id": "c-shiji-039-jin:m081-0003"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十四〈十二諸侯年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷014",
+            "quote": "六趙成子、欒貞子、霍伯、臼季皆卒。",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "晉襄公六年對公元前622年欄；各人並稱與兩篇姓名差異保留，不據年表同列自動合併臼季及咎季子犯。 數位公元前年欄僅作年尺度換算參考，未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji043-002",
+      "person_id": "0xt_iyn_d3t_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "晉襄公之六年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p011",
+          "quote": "趙衰旣反晉，晉之妻固要迎翟妻，而以其子盾爲適嗣，晉妻三子皆下事之。晉襄公之六年，而趙衰卒，諡爲成季。",
+          "person_mention_id": "c-shiji-043-zhao:m011-0000"
+        }
+      ],
+      "source_term": "趙衰卒",
+      "interpretation_note": "來源明示生死；原曆日期保留本段表述，相對年月與跨篇紀年仍待核。回述與初生不借段首年，群體滅族不擴展為所有個人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji043-062",
+      "person_id": "0xt_iyn_d3t_AA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p009",
+          "quote": "夙生共孟，當魯閔公之元年也。共孟生趙衰，字子餘。",
+          "person_mention_id": "c-shiji-043-zhao:m009-0017"
+        }
+      ],
+      "source_term": "共孟生趙衰",
+      "interpretation_note": "來源明示生死；原曆日期保留本段表述，相對年月與跨篇紀年仍待核。回述與初生不借段首年，群體滅族不擴展為所有個人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

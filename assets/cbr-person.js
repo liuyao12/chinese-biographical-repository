@@ -16,27 +16,44 @@ const evidenceLinks = evidence => (evidence || []).map(e => {
   const number = Number(/shiji-(\d{3})/.exec(e.chapter_id || '')?.[1]);
   return number ? `<a href="${h(chapterURL(number, '', e.paragraph_id))}">來源原文 →</a>` : '';
 }).join(' · ');
-export function personCard(p, full = false) {
+export function personBundleURL(id, sourceRef = 'main') {
+  const ref = /^[a-f0-9]{40}$/.test(sourceRef) ? sourceRef : 'main';
+  return 'https://github.com/liuyao12/chinese-biographical-repository/blob/' + ref + '/exports/persons/' + encodeURIComponent(id) + '.json';
+}
+export function personCard(p, full = false, sourceRef = 'main') {
   const grouped = new Map();
   for (const x of p.titles || []) {
-    const key = x.title + '|' + x.period;
+    const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null);
     if (!grouped.has(key)) grouped.set(key, {...x, evidence: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
   }
   const titles = [...grouped.values()], occurrences = p.occurrences || [];
   const principal = [...occurrences].sort((a,b) => b.count - a.count)[0];
   const tableExample = (p.table_occurrences || [])[0];
-  const dates = (p.dates || []).filter(x => x.era_year && x.original_quote);
+  const lifeEvents = p.life_events || [], dateDecisions = p.life_event_date_decisions || [];
+  const datePriority = x => {
+    const d = dateDecisions.find(d => d.candidate_event_ids.includes(x.record_id));
+    return d?.status === 'editorial_provisional' ? (d.preferred_event_id === x.record_id ? 0 : 2) : 1;
+  };
+  const dates = (p.dates || []).filter(x => x.era_year && x.original_quote).sort((a,b) => datePriority(a) - datePriority(b));
+  const dateChoice = x => {
+    const d = dateDecisions.find(d => d.candidate_event_ids.includes(x.record_id));
+    return !d ? '' : d.status === 'unresolved' ? ' · 取捨未定' : d.preferred_event_id === x.record_id ? ' · 本項預設' : ' · 來源異說';
+  };
+  const officeCounts = x => Object.entries(x.reported_office_event_counts || {}).map(([key, c]) =>
+    `<p class="person-office-count">${key === 'departure' ? '離相' : '復位'} ${h(c.value)} 次 <q>${h(c.source_term)}</q> · 各次起訖未定</p>`).join('');
   const relations = p.relations || [], labels = {father:'父',mother:'生母',spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父'};
   return `<article class="cbr-profile"><p class="eyebrow">人物資料 · ${p.review === 'source_local_candidate' ? '來源局部候選' : '來源辨認暫定'}</p><h${full ? 1 : 3}>${h(p.label)}</h${full ? 1 : 3}><p class="person-aliases">${(p.names || []).filter(x => x !== p.label).slice(0, full ? undefined : 5).map(x => `<span>${h(x)}</span>`).join(' ')}</p>${full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}${principal ? `<blockquote class="person-overview">${h(principal.quote.slice(0, full ? 220 : 110))}</blockquote><p class="person-principal-source"><a href="${h(chapterURL(principal.number, principal.category, principal.paragraph_id))}">《史記·${h(principal.title)}》 →</a><br><small>已標記正文中最多提及的來源</small></p>` : ''}
   ${!principal && tableExample ? `<blockquote class="person-overview">${h(tableExample.quote.slice(0, full ? 220 : 150))}</blockquote><p class="person-principal-source"><a href="${h(tableOccurrenceURL(tableExample))}">${h(tableExample.title)} · 查看原格 →</a></p>${!full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}` : ''}
-  ${dates.length ? `<section class="person-date-evidence"><h4>紀年對照</h4>${dates.slice(0, full ? undefined : 2).map(x => `<p><strong>西元${x.era === 'BCE' ? '前' : ''}${x.era_year}年</strong> <small>編輯對照 · 暫定</small><br><q>${h(x.original_quote)}</q>${full ? '<br>' + evidenceLinks(x.evidence) : ''}</p>`).join('')}</section>` : ''}
-  <div class="person-facts"><section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title"><strong>${h(x.title)}</strong><br><small>${h(x.period === '未定 → 未定' ? '起訖未定' : x.period || '起訖未定')}</small>${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>` : ''}</div>`).join('') || '<p>尚無已整理的稱號紀錄</p>'}</section>
+  ${dates.length ? `<section class="person-date-evidence"><h4>紀年對照</h4>${dates.slice(0, full ? undefined : 2).map(x => `<p><strong>西元${x.era === 'BCE' ? '前' : ''}${x.era_year}年</strong> <small>編輯對照 · 暫定${h(dateChoice(x))}</small><br><q>${h(x.original_quote)}</q>${full ? '<br>' + evidenceLinks(x.evidence) : ''}</p>`).join('')}</section>` : ''}
+  ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}`).join('')}</section>` : ''}
+  ${full && lifeEvents.length ? `<section class="person-life-events"><h4>來源所記生卒</h4>${lifeEvents.map(e => `<div><strong>${e.event_type === 'death' ? '死亡' : '出生'}</strong> · ${h(e.date_expression || '原文未明紀年')}<details><summary>${h(e.source_term || '查看原文')}</summary>${e.evidence.map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.interpretation_note ? `<p>${h(e.interpretation_note)}</p>` : ''}</details></div>`).join('')}</section>` : ''}
+  <div class="person-facts"><section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title"><strong>${h(x.title)}</strong><br><small>${h(x.period === '未定 → 未定' ? '起訖未定' : x.period || '起訖未定')}</small>${officeCounts(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>` : ''}</div>`).join('') || '<p>尚無已整理的稱號紀錄</p>'}</section>
   <section><h4>來源所記地望</h4>${(p.addresses || []).slice(0, full ? undefined : 2).map(x => `<div class="person-address"><strong>${h(x.term)}</strong>${full ? `<details><summary>查看原文證據</summary><blockquote>${h(x.quote)}</blockquote>${evidenceLinks(x.evidence)}</details>` : ''}</div>`).join('') || '<p>尚未整理</p>'}</section></div>
   ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${h(p.related_people?.[x.subject_person_id] || x.subject_person_id)} · ${h(labels[x.predicate] || x.qualifiers?.source_term || x.predicate)}：${h(p.related_people?.[x.object_person_id] || x.object_person_id)}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full ? `<section><h4>表中原文</h4><ul class="person-occurrences">${(p.table_occurrences || []).map(x => `<li><a href="${h(tableOccurrenceURL(x))}">${h(x.title)} · ${h(yearLabel(x.year))} →</a><blockquote>${h(x.quote)}</blockquote>${x.mention?.identity_evidence?.length ? `<details class="person-identity-evidence"><summary>人物同指的篇文證據 · 暫定</summary>${x.mention.identity_evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}${e.source_revision ? `<p><small>固定修訂 <code>${h(e.source_revision)}</code></small></p>` : ''}`).join('')}</details>` : ''}</li>`).join('')}</ul></section>` : ''}
   <section><h4>出現篇章</h4><ul class="person-occurrences">${occurrences.slice(0, full ? undefined : 3).map(x => `<li><a href="${h(chapterURL(x.number, x.category, x.paragraph_id))}">《史記·${h(x.title)}》 →</a>${full ? `<p><q>${h(x.quote)}</q></p>` : ''}<small>${h(x.count)} 處標記</small></li>`).join('') || '<li>尚未確定與其他篇章的同指；可從本頁年表原文核讀。</li>'}</ul></section>
-  ${full ? `<details class="person-data-download"><summary>資料識別與機讀檔案</summary><code>${h(p.id)}</code><p><a href="data/corpus/profiles/${encodeURIComponent(p.id)}.json">人物頁 JSON</a>${p.review !== 'source_local_candidate' ? ` · <a href="https://github.com/liuyao12/chinese-biographical-repository/blob/main/exports/persons/${encodeURIComponent(p.id)}.json">CBR 完整來源包</a>` : ''}</p></details>` : `<a class="person-profile-button" href="${h(profileURL(p.id))}">閱讀完整人物頁 →</a>`}</article>`;
+  ${full ? `<details class="person-data-download"><summary>資料識別與機讀檔案</summary><code>${h(p.id)}</code><p><a href="data/corpus/profiles/${encodeURIComponent(p.id)}.json">人物頁 JSON</a>${p.review !== 'source_local_candidate' ? ` · <a class="person-source-bundle-link" href="${h(personBundleURL(p.id, sourceRef))}">CBR 完整來源包</a>` : ''}</p></details>` : `<a class="person-profile-button" href="${h(profileURL(p.id))}">閱讀完整人物頁 →</a>`}</article>`;
 }
 export function markCell(cell) {
   const chars = Array.from(cell.text), out = []; let end = 0;

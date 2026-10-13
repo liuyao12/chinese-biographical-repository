@@ -2062,5 +2062,109 @@
       "endpoint": "start",
       "title": "相"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji005-089",
+      "person_id": "uq6_74z_vtv",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "武王元年，與魏惠王會臨晉。誅蜀相壯。張儀、魏章皆東出之魏。伐義渠、丹、犁。二年，初置丞相，摢裏疾、甘茂為左右丞相。張儀死於魏。三年，與韓襄王會臨晉外。南公揭卒，摢裏疾相韓。武王謂甘茂曰：「寡人欲容車通三川，窺周室，死不恨矣。」其秋，使甘茂、庶長封伐宜陽。四年，拔宜陽，斬首六萬。涉河，城武遂。魏太子來朝。武王有力好戲，力士任鄙、烏獲、孟說皆至大官。王與孟說舉鼎，絕臏。八月，武王死。族孟說。武王取魏女為后，無子。立異母弟，是為昭襄王。昭襄母楚人，姓羋氏，號宣太后。武王死時，昭襄王為質於燕，燕人送歸，得立。",
+          "person_mention_id": "c-shiji-005-qin:m068-0018"
+        }
+      ],
+      "source_term": "張儀死於魏",
+      "interpretation_note": "明言卒、死、誅或族誅保存；族孟說不增造未具名族人，惠文后不得良死按死亡敘述存，未指定方式。敗、虜、反不單獨推死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji070-006",
+      "person_id": "5an_r55_hee",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "卒於魏也",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p051",
+          "quote": "張儀相魏一歲，卒於魏也。",
+          "person_mention_id": "c-shiji-070-zhang:m051-0000"
+        },
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p058",
+          "quote": "張儀已卒之後，犀首入相秦。嘗佩五國之相印，為約長。",
+          "person_mention_id": "c-shiji-070-zhang:m058-0000"
+        }
+      ],
+      "interpretation_note": "來源死亡陳述，人物身份與年代仍待跨篇覆核；屈丐與其他篇可能被虜差異不抹去，代王故事屬張儀引語，先王棄群臣不補親子。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 309,
+        "year": -308,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "張儀相魏一歲，卒於魏也。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-070-zhang",
+            "source_id": "s-shiji-070-zhang",
+            "paragraph_id": "c-shiji-070-zhang:p051",
+            "quote": "張儀相魏一歲，卒於魏也。",
+            "person_mention_id": "c-shiji-070-zhang:m051-0000"
+          },
+          {
+            "chapter_id": "c-shiji-070-zhang",
+            "source_id": "s-shiji-070-zhang",
+            "paragraph_id": "c-shiji-070-zhang:p058",
+            "quote": "張儀已卒之後，犀首入相秦。嘗佩五國之相印，為約長。",
+            "person_mention_id": "c-shiji-070-zhang:m058-0000"
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "卒於魏也",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "十。張儀死。",
+          "reference_year_quote": "309"
+        },
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉事件欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "十。張儀死。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r168-c03"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "309",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r168-c00"
+          }
+        ],
+        "rationale": "本篇同人物、同任相／免相／卒事件與固定六國年表事件欄對讀，另保存同列數位編者西元年欄。只換算到年，未核印本影像與曆表；相秦四歲僅敘事時點年數，不取代任期起訖，蘇秦與魏王時序疑點不由此消除。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

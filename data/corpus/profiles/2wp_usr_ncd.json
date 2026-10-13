@@ -1365,5 +1365,95 @@
       "endpoint": "start",
       "title": "商君"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji005-086",
+      "person_id": "2wp_usr_ncd",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p063",
+          "quote": "孝公卒，子惠文君立。是歲，誅衛鞅。鞅之初為秦施法，法不行，太子犯禁。鞅曰：「法之不行，自於貴戚。君必欲行法，先於太子。太子不可黥，黥其傅師。」於是法大用，秦人治。及孝公卒，太子立，宗室多怨鞅，鞅亡，因以為反，而卒車裂以徇秦國。",
+          "person_mention_id": "c-shiji-005-qin:m063-0014"
+        }
+      ],
+      "source_term": "誅衛鞅",
+      "interpretation_note": "衛鞅誅與車裂為同一死亡事件，合存完整段落；原文是歲的紀年待跨段核定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji068-006",
+      "person_id": "gy0_w6c_v4l",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "殺之於鄭黽池",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-068-shang",
+          "source_id": "s-shiji-068-shang",
+          "paragraph_id": "c-shiji-068-shang:p010",
+          "quote": "後五月而秦孝公卒，太子立。公子虔之徒告商君欲反，發吏捕商君。商君亡至關下，欲舍客舍。客人不知其是商君也，曰：「商君之法，舍人無驗者坐之。」商君喟然嘆曰：「嗟乎，為法自斃一至此哉！」去之魏。魏人怨其欺公子卬而破魏師，弗受。商君欲之他國。魏人曰：「商君，秦之賊。秦彊而賊入魏，弗歸，不可。」遂內秦。商君既復入秦，走商邑，與其徒屬發邑兵北出擊鄭。秦發兵攻商君，殺之於鄭黽池。秦惠王車裂商君以徇，曰：「莫如商鞅反者！」遂滅商君之家。",
+          "person_mention_id": "c-shiji-068-shang:m010-0174"
+        }
+      ],
+      "interpretation_note": "秦發兵殺商君與秦惠王車裂商君保存為同一死亡事件；滅商君之家不逐人生成死亡。鄭黽池與年表彤地各存來源，不由定年校改原文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 338,
+        "year": -337,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "後五月而秦孝公卒，太子立。公子虔之徒告商君欲反，發吏捕商君。商君亡至關下，欲舍客舍。客人不知其是商君也，曰：「商君之法，舍人無驗者坐之。」商君喟然嘆曰：「嗟乎，為法自斃一至此哉！」去之魏。魏人怨其欺公子卬而破魏師，弗受。商君欲之他國。魏人曰：「商君，秦之賊。秦彊而賊入魏，弗歸，不可。」遂內秦。商君既復入秦，走商邑，與其徒屬發邑兵北出擊鄭。秦發兵攻商君，殺之於鄭黽池。秦惠王車裂商君以徇，曰：「莫如商鞅反者！」遂滅商君之家。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-068-shang",
+            "source_id": "s-shiji-068-shang",
+            "paragraph_id": "c-shiji-068-shang:p010",
+            "quote": "後五月而秦孝公卒，太子立。公子虔之徒告商君欲反，發吏捕商君。商君亡至關下，欲舍客舍。客人不知其是商君也，曰：「商君之法，舍人無驗者坐之。」商君喟然嘆曰：「嗟乎，為法自斃一至此哉！」去之魏。魏人怨其欺公子卬而破魏師，弗受。商君欲之他國。魏人曰：「商君，秦之賊。秦彊而賊入魏，弗歸，不可。」遂內秦。商君既復入秦，走商邑，與其徒屬發邑兵北出擊鄭。秦發兵攻商君，殺之於鄭黽池。秦惠王車裂商君以徇，曰：「莫如商鞅反者！」遂滅商君之家。",
+            "person_mention_id": "c-shiji-068-shang:m010-0174"
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "殺之於鄭黽池",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "二十四。（秦）大荔圍合陽。孝公薨。商君反，死彤地。",
+          "reference_year_quote": "338"
+        },
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉事件欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "二十四。（秦）大荔圍合陽。孝公薨。商君反，死彤地。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r139-c02"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "338",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r139-c00"
+          }
+        ],
+        "rationale": "本篇事件對讀固定版本〈六國年表〉同人物及事件欄，與同列數位編者西元對照分層保存；只換算到年。未核印本影像及曆表，不補月日。商鞅死亡地鄭黽池與年表彤地保留不同來源，不因定年改寫地名。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

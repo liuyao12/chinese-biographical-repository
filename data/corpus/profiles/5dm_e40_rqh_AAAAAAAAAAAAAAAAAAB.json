@@ -238,5 +238,59 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji031-023",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAB",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p017",
+          "quote": "十七年，王餘祭卒，弟餘眛立。",
+          "person_mention_id": "c-shiji-031-wu:m017-0004"
+        }
+      ],
+      "source_term": "王餘祭卒",
+      "interpretation_note": "餘祭本王年次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 531,
+        "year": -530,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "十七年，王餘祭卒，弟餘眛立。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-031-wu",
+            "source_id": "s-shiji-031-wu",
+            "paragraph_id": "c-shiji-031-wu:p017",
+            "quote": "十七年，王餘祭卒，弟餘眛立。",
+            "person_mention_id": "c-shiji-031-wu:m017-0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十四〈十二諸侯年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷014",
+            "quote": "十七",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇餘祭十七年對數位年表公元前531年行吳欄十七，下行餘昧元年；僅本篇與此表的年次對應，不作各文獻死亡年代共識。 公元前年欄為數位編輯參考，不是古文公元紀年；只換算年，未核曆表或底本影像，未知公曆月日不補。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

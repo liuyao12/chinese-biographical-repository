@@ -988,5 +988,95 @@
       "endpoint": "start",
       "title": "右丞相"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji005-095",
+      "person_id": "r9n_0vc_ywa",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p069",
+          "quote": "昭襄王元年，嚴君疾為相。甘茂出之魏。二年，彗星見。庶長壯與大臣、諸侯、公子為逆，皆誅，及惠文后皆不得良死。悼武王后出歸魏。三年，王冠。與楚王會黃棘，與楚上庸。四年，取蒲阪。彗星見。五年，魏王來朝應亭，復與魏蒲阪。六年，蜀侯煇反，司馬錯定蜀。庶長奐伐楚，斬首二萬。涇陽君質於齊。日食，晝晦。七年，拔新城。摢裏子卒。八年，使將軍羋戎攻楚，取新市。齊使章子，魏使公孫喜，韓使暴鳶共攻楚方城，取唐眛。趙破中山，其君亡，竟死齊。魏公子勁、韓公子長為諸侯。九年，孟嘗君薛文來相秦。奐攻楚，取八城，殺其將景快。十年，楚懷王入朝秦，秦留之。薛文以金受免。樓緩為丞相。十一年，齊、韓、魏、趙、宋、中山五國共攻秦，至鹽氏而還。秦與韓、魏河北及封陵以和。彗星見。楚懷王走之趙，趙不受，還之秦，即死，歸葬。十二年，樓緩免，穰侯魏冉為相。予楚粟五萬石。",
+          "person_mention_id": "c-shiji-005-qin:m069-0151"
+        }
+      ],
+      "source_term": "摢裏子卒",
+      "interpretation_note": "明言卒、死、誅或族誅保存；族孟說不增造未具名族人，惠文后不得良死按死亡敘述存，未指定方式。敗、虜、反不單獨推死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji071-003",
+      "person_id": "fae_ax5_a6k",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "昭王七年",
+      "source_term": "樗里子卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p006",
+          "quote": "昭王七年，樗里子卒，葬于渭南章臺之東。曰：「後百歲，是當有天子之宮夾我墓。」樗里子疾室在於昭王廟西渭南陰鄉樗裏，故俗謂之樗里子。至漢興，長樂宮在其東，未央宮在其西，武庫正直其墓。秦人諺曰：「力則任鄙，智則樗裏。」",
+          "person_mention_id": "c-shiji-071-chugan:m006-0005"
+        }
+      ],
+      "interpretation_note": "昭王七年卒與六國年表七年樗里疾卒互證，數字年保留為編輯暫定；葬地另存，不由此推葬年或死亡地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 300,
+        "year": -299,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "昭王七年，樗里子卒，葬于渭南章臺之東。曰：「後百歲，是當有天子之宮夾我墓。」樗里子疾室在於昭王廟西渭南陰鄉樗裏，故俗謂之樗里子。至漢興，長樂宮在其東，未央宮在其西，武庫正直其墓。秦人諺曰：「力則任鄙，智則樗裏。」",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-071-chugan",
+            "source_id": "s-shiji-071-chugan",
+            "paragraph_id": "c-shiji-071-chugan:p006",
+            "quote": "昭王七年，樗里子卒，葬于渭南章臺之東。曰：「後百歲，是當有天子之宮夾我墓。」樗里子疾室在於昭王廟西渭南陰鄉樗裏，故俗謂之樗里子。至漢興，長樂宮在其東，未央宮在其西，武庫正直其墓。秦人諺曰：「力則任鄙，智則樗裏。」",
+            "person_mention_id": "c-shiji-071-chugan:m006-0005"
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "樗里子卒",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "七。樗里疾卒。擊楚，斬首三萬。魏冉為相。",
+          "reference_year_quote": "300"
+        },
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉事件欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "七。樗里疾卒。擊楚，斬首三萬。魏冉為相。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r177-c02"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "300",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r177-c00"
+          }
+        ],
+        "rationale": "本篇昭王七年樗里子卒，與六國年表秦欄七年樗里疾卒對讀；樗里子疾為本篇明示名與稱號。西元前300年取同列數位編者對照，僅到年，未核印本影像及曆表，不定葬年、卒地或其他爵位終止。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

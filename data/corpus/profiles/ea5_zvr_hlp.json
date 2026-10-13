@@ -1491,5 +1491,45 @@
       "endpoint": "start",
       "title": "留侯"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji055-005",
+      "person_id": "31t_28w_hda_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "後八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。",
+          "person_mention_id": "c-shiji-055-liu:m027-0007"
+        },
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p028",
+          "quote": "子房始所見下邳圯上老父與太公書者，後十三年從高帝過濟北，果見穀城山下黃石，取而葆祠之。留侯死，并葬黃石冢。每上冢伏臘，祠黃石。",
+          "person_mention_id": "c-shiji-055-liu:m028-0043"
+        }
+      ],
+      "source_term": "後八年卒",
+      "interpretation_note": "承前敘事主體張良，後八年保留原詞；計年錨點、首尾年法及數字年待判讀，未以通行生平補西曆。 第28段留侯死為同一人物死亡回述，不另造死亡；原紀年仍由第27段引句保存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "date_context": {
+        "kind": "same_event_attestation",
+        "paragraph_ids": [
+          "c-shiji-055-liu:p027",
+          "c-shiji-055-liu:p028"
+        ],
+        "date_paragraph_id": "c-shiji-055-liu:p027",
+        "rationale": "第27段後八年卒為原紀年引句，第28段留侯死為同一死亡回述；不把回述所在段的後十三年當死亡年。"
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

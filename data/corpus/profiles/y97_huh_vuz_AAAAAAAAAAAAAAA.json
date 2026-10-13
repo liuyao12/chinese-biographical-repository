@@ -348,5 +348,49 @@
     "y97_huh_vuz_AAAAAAAAAAAAAB": "剌龔公（本文字形）",
     "y97_huh_vuz_AAAAAAAAAAAAABA": "秦懷公"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-075",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p048",
+          "quote": "躁公二年，南鄭反。十三年，義渠來伐，至渭南。十四年，躁公卒，立其弟懷公。",
+          "person_mention_id": "c-shiji-005-qin:m048-0000"
+        }
+      ],
+      "source_term": "躁公卒",
+      "interpretation_note": "明言卒、弒、殺、自殺或蚤死保存；恐誅與欲誅不是已死亡。齊悼公、秦悼公分ID，不按同稱合併；蚤死未即位與實際繼位另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-043",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAAAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p083",
+          "quote": "剌龔公享國三十四年。葬入里。生躁公、懷公。其十年，彗星見。",
+          "person_mention_id": "c-shiji-006-shihuang:p083:m0015"
+        }
+      ],
+      "source_term": "生躁公、懷公",
+      "interpretation_note": "卷末世系的生、自殺照存，享國年數不是出生年；出公自殺與前篇出子被殺保留來源差異，不改成一致。生靈公、昭子子也及生簡公的親屬差異仍待編輯判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

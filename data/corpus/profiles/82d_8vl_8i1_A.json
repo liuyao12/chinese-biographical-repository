@@ -1667,5 +1667,72 @@
       "endpoint": "start",
       "title": "代王"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji058-008",
+      "person_id": "82d_8vl_8i1_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "六月中",
+      "source_term": "六月中，病熱，六日卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p011",
+          "quote": "三十五年冬，復朝。上疏欲留，上弗許。歸國，意忽忽不樂。北獵良山，有獻牛，足出背上，孝王惡之。六月中，病熱，六日卒，謚曰孝王。",
+          "person_mention_id": "c-shiji-058-liang:m011-0041"
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p012",
+          "quote": "孝王慈孝，每聞太后病，口不能食，居不安寢，常欲留長安侍太后。太后亦愛之。及聞梁王薨，竇太后哭極哀，不食，曰：「帝果殺吾子！」景帝哀懼，不知所為。與長公主計之，乃分梁為五國，盡立孝王男五人為王，女五人皆食湯沐邑。於是奏之太后，太后乃說，為帝加壹湌。",
+          "person_mention_id": "c-shiji-058-liang:m012-0000"
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p014",
+          "quote": "孝王未死時，財以巨萬計，不可勝數。及死，藏府餘黃金尚四十餘萬斤，他財物稱是。",
+          "person_mention_id": "c-shiji-058-liang:m014-0000"
+        }
+      ],
+      "interpretation_note": "六月為來源月份；六日指病後日數，不推為六月初六。三十五年紀年待專項換年，原文留存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "date_context": {
+        "kind": "same_event_attestation",
+        "paragraph_ids": [
+          "c-shiji-058-liang:p011",
+          "c-shiji-058-liang:p012",
+          "c-shiji-058-liang:p014"
+        ],
+        "date_paragraph_id": "c-shiji-058-liang:p011",
+        "rationale": "首段明示梁孝王病後死亡與六月日期，後段薨及財物敘述為同一死亡的回述，不重複計事件；僅首筆引句承載紀年。"
+      }
+    },
+    {
+      "id": "le-shiji108-liang",
+      "person_id": "l5d_ywu_jfb",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p005",
+          "quote": "孝王卒",
+          "person_mention_id": "c-shiji-108-han:m005-0459"
+        }
+      ],
+      "interpretation_note": "保存本文死亡事件；無明示日期不補數值年，不據此終止任何官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }
