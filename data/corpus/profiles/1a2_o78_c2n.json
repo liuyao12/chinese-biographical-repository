@@ -136,7 +136,35 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji077-002",
+      "person_id": "uoy_51x_n1t",
+      "relation": "death_place",
+      "place": {
+        "source_name": "鄴",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "至鄴",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-077-weigong",
+          "source_id": "s-shiji-077-weigong",
+          "paragraph_id": "c-shiji-077-weigong:p009",
+          "quote": "至鄴，矯魏王令代晉鄙。晉鄙合符，疑之，舉手視公子曰：「今吾擁十萬之眾，屯於境上，國之重任，今單車來代之，何如哉？」欲無聽。朱亥袖四十斤鐵椎，椎殺晉鄙，公子遂將晉鄙軍。勒兵下令軍中曰：「父子俱在軍中，父歸；兄弟俱在軍中，兄歸；獨子無兄弟，歸養。」得選兵八萬人，進兵擊秦軍。秦軍解去，遂救邯鄲，存趙。趙王及平原君自迎公子於界，平原君負籣矢為公子先引。趙王再拜曰：「自古賢人未有及公子者也。」當此之時，平原君不敢自比於人。公子與侯生決，至軍，侯生果北鄉自剄。",
+          "person_mention_id": "c-shiji-077-weigong:m009-0008"
+        }
+      ],
+      "interpretation_note": "依來源記居留、任事地、卒地或食邑；不當籍貫、出生地或官爵。鄴卒地依同段至鄴及椎殺晉鄙的敘事位置，未補精確地點；五城擬封而未獻不當授邑，原地名不補現代轄域。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "至鄴",
+      "quote": "至鄴，矯魏王令代晉鄙。晉鄙合符，疑之，舉手視公子曰：「今吾擁十萬之眾，屯於境上，國之重任，今單車來代之，何如哉？」欲無聽。朱亥袖四十斤鐵椎，椎殺晉鄙，公子遂將晉鄙軍。勒兵下令軍中曰：「父子俱在軍中，父歸；兄弟俱在軍中，兄歸；獨子無兄弟，歸養。」得選兵八萬人，進兵擊秦軍。秦軍解去，遂救邯鄲，存趙。趙王及平原君自迎公子於界，平原君負籣矢為公子先引。趙王再拜曰：「自古賢人未有及公子者也。」當此之時，平原君不敢自比於人。公子與侯生決，至軍，侯生果北鄉自剄。"
+    }
+  ],
   "occurrences": [
     {
       "number": 44,
@@ -333,7 +361,28 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji077-004",
+      "person_id": "uoy_51x_n1t",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "椎殺晉鄙",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-077-weigong",
+          "source_id": "s-shiji-077-weigong",
+          "paragraph_id": "c-shiji-077-weigong:p009",
+          "quote": "至鄴，矯魏王令代晉鄙。晉鄙合符，疑之，舉手視公子曰：「今吾擁十萬之眾，屯於境上，國之重任，今單車來代之，何如哉？」欲無聽。朱亥袖四十斤鐵椎，椎殺晉鄙，公子遂將晉鄙軍。勒兵下令軍中曰：「父子俱在軍中，父歸；兄弟俱在軍中，兄歸；獨子無兄弟，歸養。」得選兵八萬人，進兵擊秦軍。秦軍解去，遂救邯鄲，存趙。趙王及平原君自迎公子於界，平原君負籣矢為公子先引。趙王再拜曰：「自古賢人未有及公子者也。」當此之時，平原君不敢自比於人。公子與侯生決，至軍，侯生果北鄉自剄。",
+          "person_mention_id": "c-shiji-077-weigong:m009-0079"
+        }
+      ],
+      "interpretation_note": "本段明記死亡實行，保留敘事原句；此前死亡願望、條件式與計畫不當實行，來源年份未明時不補生卒年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

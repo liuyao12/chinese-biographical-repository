@@ -966,7 +966,26 @@ def validate(root=ROOT):
             for address in record['assertions']:
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
-                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location'), '地址關係類型未知')
+                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
+                if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
+                    kind = address.get('qualifiers', {}).get('fief_kind')
+                    word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉'}.get(kind)
+                    check(address['relation'] == 'fief' and bool(word)
+                          and isinstance(address.get('source_term'), str) and word in address['source_term'],
+                          '食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫')
+                if 'reported_duration' in address:
+                    duration = address['reported_duration']
+                    check(address['relation'] == 'residence' and isinstance(duration, dict)
+                          and duration.get('unit') == 'residence_year'
+                          and duration.get('counting') == 'unspecified_source_years'
+                          and duration.get('status') == 'source_attested'
+                          and type(duration.get('value')) is int and duration['value'] > 0
+                          and source_age_number(duration.get('source_number')) == duration['value']
+                          and isinstance(duration.get('source_term'), str)
+                          and duration['source_term'].endswith(duration['source_number'] + '年')
+                          and duration.get('evidence') == address['evidence']
+                          and all(duration['source_term'] in e['quote'] for e in address['evidence']),
+                          '居留來源年數須有數值、原數詞與同項證據，不得當官爵任期或推曆日')
                 if address['relation'] == 'source_locality_designation':
                     scope = address.get('qualifiers', {})
                     check(scope.get('designation_kind') == 'geographical_person_reference'

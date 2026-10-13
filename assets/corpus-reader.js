@@ -14,7 +14,9 @@ export function chapterParagraph(paragraph, people = {}) {
     const text = h(mention.surface);
     if (mention.kind === 'person' && mention.person_id) {
       const person = people[mention.person_id];
-      const href = 'https://github.com/liuyao12/chinese-biographical-repository/blob/main/exports/persons/' + encodeURIComponent(mention.person_id) + '.json';
+      const number = Number(/^c-shiji-(\d{3})-/.exec(paragraph.id || '')?.[1]);
+      const context = number ? '?' + new URLSearchParams({chapter: String(number), passage: paragraph.id}) : '';
+      const href = 'person.html' + context + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="未定指稱">${text}</span>`);
     end = mention.end;

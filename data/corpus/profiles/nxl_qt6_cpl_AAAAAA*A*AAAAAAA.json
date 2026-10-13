@@ -145,7 +145,18 @@
       ],
       "qualifiers": {
         "source_term": "魏安釐王異母弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "u7e_s3g_b9v",
+          "younger_person_id": "6dq_od2_cg1_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "shared_mother": false
       },
       "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
       "reviewer": "Codex（AI 代理）"
@@ -157,7 +168,115 @@
     "nxl_qt6_cpl_AAAAAA*A*AAAAAAA": "安釐王（魏世家候選）",
     "u7e_s3g_b9v": "魏安釐王（魏公子列傳候選）"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 243,
+      "year": -242,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p066",
+          "quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+          "person_mention_id": "c-shiji-044-wei:m066-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉魏欄原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三十四。信陵君死。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r234-c03"
+        },
+        {
+          "title": "〈六國年表〉數位西元對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "243",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r234-c00"
+        }
+      ],
+      "rationale": "依〈魏世家〉原紀年與〈六國年表〉魏欄暫換西元年；西元欄屬數位編者對照，未核讀影像，不作精確曆日或已校定史實。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji044-022",
+      "person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 243,
+      "year": -242,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "秦王患之，乃行金萬斤於魏，求晉鄙客，令毀公子於魏王曰：「公子亡在外十年矣，今為魏將，諸侯將皆屬，諸侯徒聞魏公子，不聞魏王。公子亦欲因此時定南面而王，諸侯畏公子之威，方欲共立之。」秦數使反間，偽賀公子得立為魏王未也。魏王日聞其毀，不能不信，後果使人代公子將。公子自知再以毀廢，乃謝病不朝，與賓客為長夜飲，飲醇酒，多近婦女。日夜為樂飲者四歲，竟病酒而卒。其歲，魏安釐王亦薨。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-077-weigong",
+          "source_id": "s-shiji-077-weigong",
+          "paragraph_id": "c-shiji-077-weigong:p014",
+          "quote": "秦王患之，乃行金萬斤於魏，求晉鄙客，令毀公子於魏王曰：「公子亡在外十年矣，今為魏將，諸侯將皆屬，諸侯徒聞魏公子，不聞魏王。公子亦欲因此時定南面而王，諸侯畏公子之威，方欲共立之。」秦數使反間，偽賀公子得立為魏王未也。魏王日聞其毀，不能不信，後果使人代公子將。公子自知再以毀廢，乃謝病不朝，與賓客為長夜飲，飲醇酒，多近婦女。日夜為樂飲者四歲，竟病酒而卒。其歲，魏安釐王亦薨。",
+          "person_mention_id": "c-shiji-077-weigong:m014-0178"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉魏欄原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三十四。信陵君死。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r234-c03"
+        },
+        {
+          "title": "〈六國年表〉數位西元對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "243",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r234-c00"
+        },
+        {
+          "title": "〈魏世家〉同一死亡事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+          "quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "〈魏世家〉事件原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+          "quote": "卅四年",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "依已記錄的跨篇同指，將本篇死亡與〈魏世家〉同一事件逐項對讀，再按〈六國年表〉對照暫換西元年。原日期欄不改寫；無忌飲四歲不當享年或持職時段，安釐王其歲按同年死亡對讀，未知曆日不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "魏安釐王亦薨",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "reference_event_quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+        "reference_year_quote": "卅四年"
+      },
+      "record_id": "le-shiji077-007",
+      "person_id": "u7e_s3g_b9v",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
@@ -201,7 +320,18 @@
       ],
       "qualifiers": {
         "source_term": "魏安釐王異母弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "u7e_s3g_b9v",
+          "younger_person_id": "6dq_od2_cg1_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "shared_mother": false
       },
       "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
       "reviewer": "Codex（AI 代理）"
@@ -227,7 +357,126 @@
       "source_term": "安釐王卒",
       "interpretation_note": "來源明示生死候選；引語回述不借敘事當年，世系生子不補確切年月。數字換算及跨篇紀年續核。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 243,
+        "year": -242,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-044-wei",
+            "source_id": "s-shiji-044-wei",
+            "paragraph_id": "c-shiji-044-wei:p066",
+            "quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+            "person_mention_id": "c-shiji-044-wei:m066-0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈六國年表〉魏欄原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三十四。信陵君死。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r234-c03"
+          },
+          {
+            "title": "〈六國年表〉數位西元對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "243",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r234-c00"
+          }
+        ],
+        "rationale": "依〈魏世家〉原紀年與〈六國年表〉魏欄暫換西元年；西元欄屬數位編者對照，未核讀影像，不作精確曆日或已校定史實。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji077-007",
+      "person_id": "u7e_s3g_b9v",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "其歲",
+      "source_term": "魏安釐王亦薨",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-077-weigong",
+          "source_id": "s-shiji-077-weigong",
+          "paragraph_id": "c-shiji-077-weigong:p014",
+          "quote": "秦王患之，乃行金萬斤於魏，求晉鄙客，令毀公子於魏王曰：「公子亡在外十年矣，今為魏將，諸侯將皆屬，諸侯徒聞魏公子，不聞魏王。公子亦欲因此時定南面而王，諸侯畏公子之威，方欲共立之。」秦數使反間，偽賀公子得立為魏王未也。魏王日聞其毀，不能不信，後果使人代公子將。公子自知再以毀廢，乃謝病不朝，與賓客為長夜飲，飲醇酒，多近婦女。日夜為樂飲者四歲，竟病酒而卒。其歲，魏安釐王亦薨。",
+          "person_mention_id": "c-shiji-077-weigong:m014-0178"
+        }
+      ],
+      "interpretation_note": "本段明記死亡實行，保留敘事原句；此前死亡願望、條件式與計畫不當實行，來源年份未明時不補生卒年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 243,
+        "year": -242,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "秦王患之，乃行金萬斤於魏，求晉鄙客，令毀公子於魏王曰：「公子亡在外十年矣，今為魏將，諸侯將皆屬，諸侯徒聞魏公子，不聞魏王。公子亦欲因此時定南面而王，諸侯畏公子之威，方欲共立之。」秦數使反間，偽賀公子得立為魏王未也。魏王日聞其毀，不能不信，後果使人代公子將。公子自知再以毀廢，乃謝病不朝，與賓客為長夜飲，飲醇酒，多近婦女。日夜為樂飲者四歲，竟病酒而卒。其歲，魏安釐王亦薨。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-077-weigong",
+            "source_id": "s-shiji-077-weigong",
+            "paragraph_id": "c-shiji-077-weigong:p014",
+            "quote": "秦王患之，乃行金萬斤於魏，求晉鄙客，令毀公子於魏王曰：「公子亡在外十年矣，今為魏將，諸侯將皆屬，諸侯徒聞魏公子，不聞魏王。公子亦欲因此時定南面而王，諸侯畏公子之威，方欲共立之。」秦數使反間，偽賀公子得立為魏王未也。魏王日聞其毀，不能不信，後果使人代公子將。公子自知再以毀廢，乃謝病不朝，與賓客為長夜飲，飲醇酒，多近婦女。日夜為樂飲者四歲，竟病酒而卒。其歲，魏安釐王亦薨。",
+            "person_mention_id": "c-shiji-077-weigong:m014-0178"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈六國年表〉魏欄原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三十四。信陵君死。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r234-c03"
+          },
+          {
+            "title": "〈六國年表〉數位西元對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "243",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r234-c00"
+          },
+          {
+            "title": "〈魏世家〉同一死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+            "quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "〈魏世家〉事件原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+            "quote": "卅四年",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          }
+        ],
+        "rationale": "依已記錄的跨篇同指，將本篇死亡與〈魏世家〉同一事件逐項對讀，再按〈六國年表〉對照暫換西元年。原日期欄不改寫；無忌飲四歲不當享年或持職時段，安釐王其歲按同年死亡對讀，未知曆日不補。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "魏安釐王亦薨",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+          "reference_event_quote": "卅四年，安釐王卒，太子增立，是爲景湣王。信陵君无忌卒。",
+          "reference_year_quote": "卅四年"
+        }
+      }
     }
   ],
   "life_event_date_decisions": [],

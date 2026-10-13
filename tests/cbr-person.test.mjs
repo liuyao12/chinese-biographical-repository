@@ -61,7 +61,7 @@ test('profile preserves alternative death years and marks the scoped provisional
 test('office event counts stay separate from title duration and retain each source record', () => {
  const title={title:'synthetic office',period:'未定 → 未定',reported_office_event_counts:{departure:{value:3,source_term:'synthetic departure'},reinstatement:{value:3,source_term:'synthetic reinstatement'}}};
  const html=personCard({id:'abc_def_123',label:'synthetic person',titles:[{title:title.title,period:title.period},title]},true);
- assert.match(html,/離相 3 次/);assert.match(html,/復位 3 次/);assert.match(html,/各次起訖未定/);
+ assert.match(html,/離相 3 次/);assert.match(html,/復位 3 次/);assert.doesNotMatch(html,/各次起訖未定/);
  assert.doesNotMatch(html,/任職三年|任職3年/);
 });
 
@@ -72,4 +72,30 @@ test('source JSON links use the deployed exact commit with a bounded fallback', 
  assert.equal(url, 'https://github.com/liuyao12/chinese-biographical-repository/blob/'+ref+'/exports/persons/abc_def_123.json');
  assert.match(personBundleURL('a#b', 'javascript:alert(1)'), /blob\/main\/exports\/persons\/a%23b\.json$/);
  assert.match(personCard({id:'abc_def_123',label:'synthetic'},true,ref), new RegExp('blob/'+ref+'/exports/persons'));
+});
+
+
+test('missing fields and entire empty sections are omitted in both card and profile', () => {
+ const p={id:'abc_def_123',label:'甲'};
+ const family={ancestors:[[],[],[]],mother:[],spouses:[],children:[]};
+ for(const full of [false,true]) {
+  const html=personCard(p,full,'main',family);
+  assert.doesNotMatch(html,/person-aliases|person-life-summary|person-family|person-facts|表中原文|出現篇章|未詳|尚未整理/);
+ }
+});
+test('known grandfather survives a missing father and undated death retains source evidence', () => {
+ const family={ancestors:[[],[{id:'g',label:'祖甲',evidence:[]}],[]],mother:[],spouses:[],children:[]};
+ const p={id:'abc_def_123',label:'甲',life_events:[{person_id:'abc_def_123',event_type:'death',source_term:'甲卒',evidence:[{quote:'甲卒'}]}],age_assertions:[{person_id:'abc_def_123',value:70,evidence:[]}],titles:[{title:'君',period:'未定 → 未定'}]};
+ const html=personCard(p,true,'main',family);
+ assert.match(html,/<dt>祖<\/dt>/);assert.doesNotMatch(html,/<dt>(父|曾祖|生母|配偶|子女|生|卒)<\/dt>/);
+ assert.match(html,/70 歲/);assert.match(html,/甲卒/);assert.match(html,/稱號與持職/);
+ assert.doesNotMatch(html,/起訖未定|原文未明紀年|來源所記地望/);
+});
+test('a dated death shows its available year without an absent birth or Chinese date placeholder', () => {
+ const p={id:'abc_def_123',label:'甲',life_events:[{person_id:'abc_def_123',event_type:'death',normalized_date:{era:'BCE',era_year:243},evidence:[]}]};
+ for(const full of [false,true]) {
+  const html=personCard(p,full);
+  assert.match(html,/<dt>卒<\/dt>/);assert.match(html,/西元前243年/);
+  assert.doesNotMatch(html,/<dt>(生|年齡)<\/dt>|原文未明紀年/);
+ }
 });

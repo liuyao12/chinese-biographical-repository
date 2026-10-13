@@ -14,6 +14,18 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_tangmu_estate_cannot_be_relabelled_native_place(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][4].update(relation='native_place'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_maintenance_allocation_cannot_be_relabelled_tangmu(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][5]['qualifiers'].update(fief_kind='tangmu_estate'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_residence_years_cannot_be_title_years(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][6]['reported_duration'].update(unit='title_year'))
+        self.assertIn('居留來源年數須有數值、原數詞與同項證據，不得當官爵任期或推曆日', v.validate(self.root))
+    def test_residence_duration_cannot_change_source_numeral(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][6]['reported_duration'].update(value=11))
+        self.assertIn('居留來源年數須有數值、原數詞與同項證據，不得當官爵任期或推曆日', v.validate(self.root))
     def test_continuous_address_requires_all_intervening_paragraphs(self):
         self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][3]['evidence'][0]['context'].update(intervening_paragraph_ids=['c-shiji-069-su:p004']))
         self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))

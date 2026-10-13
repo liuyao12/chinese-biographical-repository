@@ -27,3 +27,8 @@ test('chapter links preserve category and source paragraph without injecting URL
   assert.equal(params.get('passage'),'synthetic-p&extra=1');
   assert.equal(params.get('extra'),null);
 });
+test('body names open readable profiles with the exact source paragraph context', () => {
+  const html=chapterParagraph({id:'c-shiji-006-synthetic:p002',text:'甲',mentions:[{id:'synthetic-m',start:0,end:1,surface:'甲',kind:'person',person_id:'synthetic_person'}]});
+  assert.match(html,/person\.html\?chapter=6&amp;passage=c-shiji-006-synthetic%3Ap002#synthetic_person/);
+  assert.doesNotMatch(html,/github\.com/);
+});
