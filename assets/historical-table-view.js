@@ -1,3 +1,4 @@
+import {markCell, bindPersonCards} from './cbr-person.js';
 import {escapeHTML as h} from './core.js';
 import {t, ui, getLocale} from './i18n.js';
 import {safeSourceURL, yearLabel, continuousRows, layoutCells, findCells, parseTableHash} from './historical-tables.js';
@@ -5,6 +6,7 @@ export function mountHistoricalTable(root, tableID) {
 
   const $ = id => root.querySelector('#' + CSS.escape(id));
   const cache = new Map();
+  const removePersonCards = bindPersonCards(root);
   let index, table, state, matches = [], matchIndex = -1, request = 0, destroyed = false;
   function setHash(next) {
     const p = new URLSearchParams(location.hash.slice(1));
@@ -68,7 +70,7 @@ export function mountHistoricalTable(root, tableID) {
     const content = cells.map(c => {
       const western = c.column === 0;
       const text = western ? yearLabel(c.year, getLocale()) : c.text;
-      return `<button type="button" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${western ? 'year-cell' : ''}" style="grid-column:${c.x + (horizontal ? 2 : 1)} / span ${c.width};grid-row:${c.y + (horizontal ? 1 : 2)} / span ${c.height}" aria-label="${h(text || t('Empty source cell'))}" ${western ? 'data-editorial-year="true"' : 'data-source-text'}>${h(text)}${text ? '' : '<span aria-hidden="true">&nbsp;</span>'}</button>`;
+      return `<div tabindex="0" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${western ? 'year-cell' : ''}" style="grid-column:${c.x + (horizontal ? 2 : 1)} / span ${c.width};grid-row:${c.y + (horizontal ? 1 : 2)} / span ${c.height}" aria-label="${h(text || t('Empty source cell'))}" ${western ? 'data-editorial-year="true"' : 'data-source-text'}>${western ? h(text) : markCell(c)}${text ? '' : '<span aria-hidden="true">&nbsp;</span>'}</div>`;
     }).join('');
     const grid = $('table-grid');
     grid.className = 'historical-grid' + (horizontal ? ' horizontal' : '');
@@ -114,12 +116,13 @@ export function mountHistoricalTable(root, tableID) {
       $('year-select').onchange = () => { const row = continuousRows(table).find(r => r.id === $('year-select').value); if (row) focusCell(row.cells[0].id); };
       $('table-search').oninput = search;
       $('search-next').onclick = () => { if (matches.length) focusCell(matches[++matchIndex % matches.length]); };
-      $('table-grid').onclick = e => { const cell = e.target.closest('.source-cell'); if (cell) showCell(cell.id); };
+      $('table-grid').onkeydown = e => {if ((e.target.classList.contains('source-cell') || e.target.classList.contains('table-unresolved-mention')) && ['Enter', ' '].includes(e.key)) {e.preventDefault(); showCell(e.target.closest('.source-cell').id);}};
+      $('table-grid').onclick = e => { const cell = e.target.closest('.source-cell'); if (cell && !e.target.closest('.table-person-link')) showCell(cell.id); };
       window.addEventListener('hashchange', onHash);
       window.addEventListener('renwen:languagechange', onLanguage);
       await open();
     } catch (error) { fail(error); }
   })();
 
-  return {ready, destroy() { destroyed = true; request++; window.removeEventListener('hashchange', onHash); window.removeEventListener('renwen:languagechange', onLanguage); }};
+  return {ready, destroy() { destroyed = true; request++; removePersonCards(); window.removeEventListener('hashchange', onHash); window.removeEventListener('renwen:languagechange', onLanguage); }};
 }

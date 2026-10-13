@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "id": "sf6_0o6_mwx",
+  "canonical_person_id": "sf6_0o6_mwx",
+  "label": "釐公（燕湣公後）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "釐公",
+    "燕釐公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji034-026",
+      "person_id": "sf6_0o6_mwx",
+      "title": "釐公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p016",
+          "quote": "十五年，孝公卒，成公立。成公十六年卒，湣公立。湣公三十一年卒，釐公立。是歳，三晉列爲諸侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji034-026:a001",
+          "paragraph_id": "c-shiji-034-yan:p016",
+          "start": 31,
+          "end": 33,
+          "surface": "釐公",
+          "person_mention_id": "c-shiji-034-yan:m016-0031",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 34,
+      "category": "shijia",
+      "title": "燕召公世家第四",
+      "paragraph_id": "c-shiji-034-yan:p016",
+      "count": 3,
+      "quote": "十五年，孝公卒，成公立。成公十六年卒，湣公立。湣公三十一年卒，釐公立。是歳，三晉列爲諸侯。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r075-c07",
+      "title": "《史記·六國年表》",
+      "quote": "燕釐公元年",
+      "year": {
+        "era": "BCE",
+        "value": 402,
+        "astronomical_year": -401,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "402",
+        "source_cell_id": "shiji-015-r075-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r075-c07-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "燕釐公",
+        "person_id": "sf6_0o6_mwx",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-034-yan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "source_id": "s-shiji-034-yan",
+      "source": {
+        "title": "史記／卷034",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+        "revision_id": 2559287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "为": "為",
+            "时": "時",
+            "与": "與",
+            "乐": "樂",
+            "骑": "騎",
+            "将": "將",
+            "赵": "趙",
+            "齐": "齊",
+            "单": "單",
+            "击": "擊",
+            "败": "敗",
+            "军": "軍",
+            "归": "歸",
+            "复": "復",
+            "闵": "閔",
+            "韩": "韓"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
+          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "sf6_0o6_mwx": "釐公（燕湣公後）"
+  },
+  "dates": []
+}

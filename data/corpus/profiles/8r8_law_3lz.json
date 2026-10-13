@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "id": "8r8_law_3lz",
+  "canonical_person_id": "8r8_law_3lz",
+  "label": "周赧王",
+  "identity_note": "依本卷特定時代與敘事建立；同名與世襲官號不得全庫合併，本名未見不補造。",
+  "review": "ai_provisional",
+  "names": [
+    "赧王延",
+    "王赧",
+    "周赧王",
+    "赧王"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji004-081",
+      "person_id": "8r8_law_3lz",
+      "title": "赧王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p073",
+          "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji004-081:a001",
+          "paragraph_id": "c-shiji-004-zhou:p073",
+          "start": 10,
+          "end": 12,
+          "surface": "赧王",
+          "person_mention_id": "c-shiji-004-zhou:m073-0010",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-004-zhou",
+              "source_id": "s-shiji-004-zhou",
+              "paragraph_id": "c-shiji-004-zhou:p073",
+              "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "立、封與自稱分記；稱伯及致伯保留字面而未定爵等。東周惠公不與西周惠公按同名合併。未知公元年及稱號終點不補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji004-027",
+      "person_id": "8r8_law_3lz",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "西周",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p073",
+          "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+        }
+      ],
+      "source_term": "王赧徙都西周",
+      "interpretation_note": "保存本段徙都目的地，西周不自動換成今日城市。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "王赧徙都西周",
+      "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 4,
+      "category": "benji",
+      "title": "周本紀第四",
+      "paragraph_id": "c-shiji-004-zhou:p073",
+      "count": 5,
+      "quote": "慎靚王立六年，崩，子赧王延立。王赧時東西周分治。王赧徙都西周。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r163-c01",
+      "title": "《史記·六國年表》",
+      "quote": "周赧王元年。。",
+      "year": {
+        "era": "BCE",
+        "value": 314,
+        "astronomical_year": -313,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "314",
+        "source_cell_id": "shiji-015-r163-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r163-c01-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "周赧王",
+        "person_id": "8r8_law_3lz",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r221-c01",
+      "title": "《史記·六國年表》",
+      "quote": "五十九。。赧王卒。",
+      "year": {
+        "era": "BCE",
+        "value": 256,
+        "astronomical_year": -255,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "256",
+        "source_cell_id": "shiji-015-r221-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r221-c01-m005",
+        "start": 5,
+        "end": 7,
+        "surface": "赧王",
+        "person_id": "8r8_law_3lz",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-004-zhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "source_id": "s-shiji-004-zhou",
+      "source": {
+        "title": "史記／卷004",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷004",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
+        "revision_id": 7909147,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-004-zhou:p017",
+              "witness_form": "［左］",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p039",
+              "witness_form": "（又作湦）",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p074",
+              "witness_form": "（賀）［資］",
+              "body_reading": "賀",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p082",
+              "witness_form": "（最）［聚］",
+              "body_reading": "最",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p085",
+              "witness_form": "（西）",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p086",
+              "witness_form": "（我）［於］",
+              "body_reading": "我",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            }
+          ],
+          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji004-068",
+      "subject_person_id": "8r8_law_3lz",
+      "predicate": "father",
+      "object_person_id": "4yr_em4_wid",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p073",
+          "quote": "慎靚王立六年，崩，子赧王延立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "4yr_em4_wid": "慎靚王",
+    "8r8_law_3lz": "周赧王"
+  },
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 256,
+      "year": -255,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p085",
+          "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
+          "person_mention_id": "c-shiji-004-zhou:m085-0003"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》卷五赧王卒",
+          "url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+          "quote": "是歲，赧王崩。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "數位編輯紀年標題",
+          "url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+          "quote": "赧王五十九年（乙巳，西元前二五六年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇承接五十九年秦攻西周而王赧卒；通鑑卷五同年明言赧王崩，數位年標前256年。暫定天文年-255，不補月日，不合併西周君與赧王。固定修訂ID尚未取得，頁面核讀日期2026-10-11。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "周君、王赧卒",
+        "reference_url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+        "reference_event_quote": "是歲，赧王崩。",
+        "reference_year_quote": "赧王五十九年（乙巳，西元前二五六年）"
+      },
+      "record_id": "le-shiji004-079",
+      "person_id": "8r8_law_3lz",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "id": "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
+  "canonical_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
+  "label": "安釐王（魏世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "安釐王",
+    "魏王",
+    "王",
+    "魏安釐王"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p055",
+      "count": 31,
+      "quote": "十九年，昭王卒，子安釐王立。"
+    },
+    {
+      "number": 77,
+      "category": "liezhuan",
+      "title": "魏公子列傳第十七",
+      "paragraph_id": "c-shiji-077-weigong:p001",
+      "count": 33,
+      "quote": "魏公子無忌者，魏昭王子少子而魏安釐王異母弟也。昭王薨，安釐王即位，封公子為信陵君。是時范睢亡魏相秦，以怨魏齊故，秦兵圍大梁，破魏華陽下軍，走芒卯。魏王及公子患之。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r201-c03",
+      "title": "《史記·六國年表》",
+      "quote": "魏安釐王元年。秦拔我兩城。封弟公子無忌為信陵君。",
+      "year": {
+        "era": "BCE",
+        "value": 276,
+        "astronomical_year": -275,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "276",
+        "source_cell_id": "shiji-015-r201-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r201-c03-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "魏安釐王",
+        "person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-077-weigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-077",
+      "source_id": "s-shiji-077-weigong",
+      "source": {
+        "title": "史記／卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷077",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷077&oldid=367917",
+        "revision_id": 367917,
+        "accessed_on": "2026-10-09",
+        "extent": "17段正文，自魏公子無忌至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；未見括號改讀提示，為、釐、籣、埽等原字保留。",
+          "note": "全17段正文及姓名首輪已核讀；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji044-017",
+      "subject_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAAAA",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl_AAAAAA*A*AAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p055",
+          "quote": "十九年，昭王卒，子安釐王立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "昭王卒，子安釐王立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子與繼位語句，不單憑太子繼位推生父；魏王紀年與世系仍待版本及研究覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "6dq_od2_cg1_A": "魏公子無忌（魏公子列傳候選）",
+    "nxl_qt6_cpl_AAAAAA*A*AAAAAA": "昭王（魏世家魏君候選）",
+    "nxl_qt6_cpl_AAAAAA*A*AAAAAAA": "安釐王（魏世家候選）",
+    "u7e_s3g_b9v": "魏安釐王（魏公子列傳候選）"
+  },
+  "dates": []
+}

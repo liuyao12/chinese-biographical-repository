@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "id": "1za_blw_7lb_AA",
+  "canonical_person_id": "1za_blw_7lb_AA",
+  "label": "浣（趙世家獻侯候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "浣",
+    "獻侯",
+    "獻子",
+    "趙獻侯"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-022",
+      "person_id": "1za_blw_7lb_AA",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p042",
+          "quote": "其後娶空同氏，生五子。襄子爲伯魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-022:a001",
+          "paragraph_id": "c-shiji-043-zhao:p042",
+          "start": 53,
+          "end": 55,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-043-zhao:m042-0050",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-043-zhao",
+              "source_id": "s-shiji-043-zhao",
+              "paragraph_id": "c-shiji-043-zhao:p042",
+              "quote": "其後娶空同氏，生五子。襄子爲伯魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+            }
+          ]
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "三十三年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-043-zhao",
+              "source_id": "s-shiji-043-zhao",
+              "paragraph_id": "c-shiji-043-zhao:p042",
+              "quote": "其後娶空同氏，生五子。襄子爲伯魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "授予、既有用稱及追尊分存；不由卒、出奔、自立或短稱推定此前所有任期。相國四年是當時敘事時長，未推曆日。 明示立君為太子身分終點，非以卒年終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 三十三年"
+    },
+    {
+      "id": "th-shiji043-023",
+      "person_id": "1za_blw_7lb_AA",
+      "title": "獻侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p046",
+          "quote": "烈侯元年，魏文侯伐中山，使太子撃守之。六年，魏、韓、趙皆相立爲諸侯，追尊獻子爲獻侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-023:a001",
+          "paragraph_id": "c-shiji-043-zhao:p046",
+          "start": 39,
+          "end": 41,
+          "surface": "獻侯",
+          "person_mention_id": "c-shiji-043-zhao:m046-0039",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-043-zhao",
+              "source_id": "s-shiji-043-zhao",
+              "paragraph_id": "c-shiji-043-zhao:p046",
+              "quote": "烈侯元年，魏文侯伐中山，使太子撃守之。六年，魏、韓、趙皆相立爲諸侯，追尊獻子爲獻侯。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、既有用稱及追尊分存；不由卒、出奔、自立或短稱推定此前所有任期。相國四年是當時敘事時長，未推曆日。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "六年 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji043-014",
+      "person_id": "1za_blw_7lb_AA",
+      "relation": "residence",
+      "place": {
+        "source_name": "中牟",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p043",
+          "quote": "獻侯少卽位，治中牟。",
+          "person_mention_id": "c-shiji-043-zhao:m043-0000"
+        }
+      ],
+      "source_term": "治中牟",
+      "interpretation_note": "來源居處、遷徙或死亡所在；省稱依本段上下文。治所不作籍貫，不補現代位置。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "治中牟",
+      "quote": "獻侯少卽位，治中牟。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p042",
+      "count": 9,
+      "quote": "魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r054-c05",
+      "title": "《史記·六國年表》",
+      "quote": "趙獻侯元年",
+      "year": {
+        "era": "BCE",
+        "value": 423,
+        "astronomical_year": -422,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "423",
+        "source_cell_id": "shiji-015-r054-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r054-c05-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "趙獻侯",
+        "person_id": "1za_blw_7lb_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji043-041",
+      "subject_person_id": "1za_blw_7lb_AA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p042",
+          "quote": "其後娶空同氏，生五子。襄子爲伯魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "代成君子浣",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "1za_blw_7lb_A": "周（趙世家代成君候選）",
+    "1za_blw_7lb_AA": "浣（趙世家獻侯候選）",
+    "1za_blw_7lb_AAA": "籍（趙世家烈侯候選）"
+  },
+  "dates": []
+}

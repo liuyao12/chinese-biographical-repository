@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "id": "c0i_eah_y59_AA",
+  "canonical_person_id": "c0i_eah_y59_AA",
+  "label": "安（韓世家末王候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "王安",
+    "韓王安"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 45,
+      "category": "shijia",
+      "title": "韓世家第十五",
+      "paragraph_id": "c-shiji-045-han:p033",
+      "count": 3,
+      "quote": "三十四年，桓惠王卒，子王安立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r239-c04",
+      "title": "《史記·六國年表》",
+      "quote": "韓王安元年",
+      "year": {
+        "era": "BCE",
+        "value": 238,
+        "astronomical_year": -237,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "238",
+        "source_cell_id": "shiji-015-r239-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r239-c04-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "韓王安",
+        "person_id": "c0i_eah_y59_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r247-c01",
+      "title": "《史記·六國年表》",
+      "quote": "十七。內史騰擊得韓王安，盡取其地，置潁川郡。華陽太后薨。",
+      "year": {
+        "era": "BCE",
+        "value": 230,
+        "astronomical_year": -229,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "230",
+        "source_cell_id": "shiji-015-r247-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r247-c01-m008",
+        "start": 8,
+        "end": 11,
+        "surface": "韓王安",
+        "person_id": "c0i_eah_y59_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r247-c04",
+      "title": "《史記·六國年表》",
+      "quote": "九。秦虜王安，秦滅韓。",
+      "year": {
+        "era": "BCE",
+        "value": 230,
+        "astronomical_year": -229,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "230",
+        "source_cell_id": "shiji-015-r247-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r247-c04-m004",
+        "start": 4,
+        "end": 6,
+        "surface": "王安",
+        "person_id": "c0i_eah_y59_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-045-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-045",
+      "source_id": "s-shiji-045-han",
+      "source": {
+        "title": "史記／卷045",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷045",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
+        "revision_id": 7903607,
+        "accessed_on": "2026-10-09",
+        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
+          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji045-018",
+      "subject_person_id": "c0i_eah_y59_AA",
+      "predicate": "father",
+      "object_person_id": "c0i_eah_y59_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p033",
+          "quote": "三十四年，桓惠王卒，子王安立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "桓惠王卒，子王安立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、弟與三世分型保存，三世不補父子。太子繼位不單獨推生父，與他篇同名世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "c0i_eah_y59_A": "桓惠王（韓世家候選）",
+    "c0i_eah_y59_AA": "安（韓世家末王候選）"
+  },
+  "dates": []
+}
