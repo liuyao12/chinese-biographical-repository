@@ -277,7 +277,6 @@
 | `gfr_toc_lua` | 衞君（田世家接湣王未名者） | [《史記・田敬仲完世家》][28] | [JSON](gfr_toc_lua.json) |
 | `gft_rfa_1uq` | 申繻 | [《史記・魯周公世家》][15] | [JSON](gft_rfa_1uq.json) |
 | `gfy_kw8_8tm` | 城陽共王（本卷未名） | [《史記・孝景本紀》][11] | [JSON](gfy_kw8_8tm.json) |
-| `gg7_gm5_159` | 管夷吾引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](gg7_gm5_159.json) |
 | `gg7_zrf_25b` | 梁父侯未詳名 | [《史記・酈生陸賈列傳》][79] | [JSON](gg7_zrf_25b.json) |
 | `ggi_5lp_87e` | 伯夷 | [《史記・劉敬叔孫通列傳》][81] | [JSON](ggi_5lp_87e.json) |
 | `ggn_i2q_6d5` | 魏錯 | [《史記・秦本紀》][5] | [JSON](ggn_i2q_6d5.json) |
@@ -579,7 +578,6 @@
 | `ic1_x9o_8rb` | 扁鵲 | [《史記・高祖本紀》][8] | [JSON](ic1_x9o_8rb.json) |
 | `ic2_0dp_oms` | 文帝前后（本卷未名） | [《史記・孝景本紀》][11] | [JSON](ic2_0dp_oms.json) |
 | `ic5_uzt_zj1` | 李耳 | [《史記・太史公自序》][112] | [JSON](ic5_uzt_zj1.json) |
-| `ica_cts_5j1` | 桓公引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ica_cts_5j1.json) |
 | `icp_nrn_7pl` | 申差 | [《史記・秦本紀》][5]、[《史記・張儀列傳》][52] | [JSON](icp_nrn_7pl.json) |
 | `id0_ryz_8tv` | 徐姬（齊桓公夫人） | [《史記・齊太公世家》][14] | [JSON](id0_ryz_8tv.json) |
 | `id2_2nb_u2p` | 秦御史（曹相國世家俘虜未名者） | [《史記・曹相國世家》][36] | [JSON](id2_2nb_u2p.json) |
@@ -1838,7 +1836,6 @@
 | `qul_n5i_y0s` | 始皇 | [《史記・太史公自序》][112] | [JSON](qul_n5i_y0s.json) |
 | `qum_azo_0d9` | 西王母 | [《史記・大宛列傳》][105] | [JSON](qum_azo_0d9.json) |
 | `quo_167_x2v` | 田嬰 | [《史記・孟嘗君列傳》][57] | [JSON](quo_167_x2v.json) |
-| `qv2_833_5sf` | 公子糾引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](qv2_833_5sf.json) |
 | `qvb_bff_vk4` | 繆嬴（夷皋母） | [《史記・晉世家》][21] | [JSON](qvb_bff_vk4.json) |
 | `qvb_gjo_odq` | 周宣王 | [《史記・楚世家》][22] | [JSON](qvb_gjo_odq.json) |
 | `qvm_is4_7ub` | 伯夷 | [《史記・孟子荀卿列傳》][56] | [JSON](qvm_is4_7ub.json) |
@@ -2242,6 +2239,9 @@
 | `taz_6jd_auh` | 侯嬴 | [《史記・魏公子列傳》][59] | [JSON](taz_6jd_auh.json) |
 | `tb2_zhz_mol` | 鐘離眛 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](tb2_zhz_mol.json) |
 | `tba_8dy_6gi` | 太史公 | [《史記・三王世家》][42] | [JSON](tba_8dy_6gi.json) |
+| `tbj_acl_sow` | 壯（汲鄭） | [《史記・太史公自序》][112] | [JSON](tbj_acl_sow.json) |
+| `tbv_g3c_03d` | 唐眛 | [《史記・韓世家》][27] | [JSON](tbv_g3c_03d.json) |
+| `tby_8vk_ybz` | 獻善馬者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tby_8vk_ybz.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

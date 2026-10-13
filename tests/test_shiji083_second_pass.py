@@ -61,3 +61,12 @@ class LuZouSecondPassTests(unittest.TestCase):
         self.assertEqual({m['person_id'] for m in c['paragraphs'][15]['mentions'] if m['surface'] in ('燕丹', '太子')}, {'e3o_2bk_lhm'})
         self.assertEqual({m['person_id'] for m in c['paragraphs'][17]['mentions'] if m['surface'] == '丹'}, {'e3o_2bk_lhm'})
         self.assertEqual({m['person_id'] for m in c['paragraphs'][17]['mentions'] if m['surface'] == '王'}, {'caz_735_cfr'})
+
+    def test_guanyiwu_jailing_and_qi_ruler_keep_event_context(self):
+        p = self.chapter()['paragraphs'][12]
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface'] in ('管夷吾', '管子')}, {'h1v_8ap_b9y'})
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface'] == '桓公'}, {'9w2_c77_53m'})
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface'] == '公子糾'}, {'fng_mjp_tdn'})
+        self.assertIn('鄉使管子幽囚而不出', p['text'])
+        later = self.chapter()['paragraphs'][21]
+        self.assertEqual({m['person_id'] for m in later['mentions'] if m['surface'] == '管'}, {'chm_jfj_3y8'})
