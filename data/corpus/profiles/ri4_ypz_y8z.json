@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "ri4_ypz_y8z",
   "canonical_person_id": "ri4_ypz_y8z",
-  "label": "聶政（刺客列傳候選）",
+  "label": "聶政",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -10,8 +10,44 @@
     "政"
   ],
   "titles": [],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji086-004",
+      "person_id": "ri4_ypz_y8z",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "軹深井里",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p013",
+          "quote": "聶政者，軹深井里人也。殺人避仇，與母、姊如齊，以屠爲事。",
+          "person_mention_id": "c-shiji-086-cike:m013-0000"
+        }
+      ],
+      "source_term": "軹深井里人也",
+      "interpretation_note": "保存來源地稱；不等於出生地，不定位現代行政區，不逆推年月或居住時長。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "軹深井里人也",
+      "quote": "聶政者，軹深井里人也。殺人避仇，與母、姊如齊，以屠爲事。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 45,
+      "category": "shijia",
+      "title": "韓世家第十五",
+      "paragraph_id": "c-shiji-045-han:p013",
+      "count": 1,
+      "quote": "列侯三年，聶政殺韓相俠累。九年，秦伐我宜陽，取六邑。十三年，列侯卒，子文侯立。是歳魏文侯卒。"
+    },
     {
       "number": 86,
       "category": "liezhuan",
@@ -23,6 +59,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-045-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-045",
+      "source_id": "s-shiji-045-han",
+      "source": {
+        "title": "史記／卷045",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷045",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
+        "revision_id": 7903607,
+        "accessed_on": "2026-10-09",
+        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
+          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-086-cike",
       "work_id": "w-shiji",
@@ -103,7 +163,7 @@
   "related_people": {
     "0e4_dav_p5t": "聶政母未名（刺客列傳候選）",
     "klu_n74_itc": "榮聶政姊（刺客列傳候選）",
-    "ri4_ypz_y8z": "聶政（刺客列傳候選）"
+    "ri4_ypz_y8z": "聶政"
   },
   "dates": [],
   "name_components": [],
@@ -155,7 +215,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji086-011",
+      "person_id": "ri4_ypz_y8z",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "遂以死",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p016",
+          "quote": "杖劍至韓，韓相俠累方坐府上，持兵戟而衞侍者甚衆。聶政直入，上階刺殺俠累，左右大亂。聶政大呼，所撃殺者數十人，因自皮面決眼，自屠出腸，遂以死。",
+          "person_mention_id": "c-shiji-086-cike:m016-0024"
+        }
+      ],
+      "interpretation_note": "保存本段死亡原語；日期未明者不逆算，不由死亡自動終止全部官爵。未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

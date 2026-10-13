@@ -104,7 +104,7 @@
   "related_people": {
     "gmx_6ao_hg2": "榮夫未名（刺客列傳候選）",
     "klu_n74_itc": "榮聶政姊（刺客列傳候選）",
-    "ri4_ypz_y8z": "聶政（刺客列傳候選）"
+    "ri4_ypz_y8z": "聶政"
   },
   "dates": [],
   "name_components": [],
@@ -156,7 +156,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji086-012",
+      "person_id": "klu_n74_itc",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "卒於邑悲哀而死政之旁",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p018",
+          "quote": "政姊榮聞人有刺殺韓相者，賊不得，國不知其名姓，暴其尸而縣之千金，乃於邑曰：「其是吾弟與？嗟乎，嚴仲子知吾弟！」立起，如韓，之市，而死者果政也，伏尸哭極哀，曰：「是軹深井里所謂聶政者也。」市行者諸衆人皆曰：「此人暴虐吾國相，王縣購其名姓千金，夫人不聞與？何敢來識之也？」榮應之曰：「聞之。然政所以蒙汚辱自棄於市販之閒者，爲老母幸無恙，妾未嫁也。親既以天年下世，妾已嫁夫，嚴仲子乃察舉吾弟困汚之中而交之，澤厚矣，可柰何！士固爲知己者死，今乃以妾尚在之故，重自刑以絶從，妾其柰何畏歿身之誅，終滅賢弟之名！」大驚韓市人。乃大呼天者三，卒於邑悲哀而死政之旁。",
+          "person_mention_id": "c-shiji-086-cike:m018-0002"
+        }
+      ],
+      "interpretation_note": "保存本段死亡原語；日期未明者不逆算，不由死亡自動終止全部官爵。未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

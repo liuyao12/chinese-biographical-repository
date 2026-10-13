@@ -406,6 +406,14 @@ class CorpusTests(unittest.TestCase):
     def test_changed_offsets_rejected(self):
         self.change('corpus/shiji/001.json',lambda d:d['paragraphs'][0]['mentions'][0].update(start=1))
         self.assertTrue(any('位置不符' in e for e in v.validate(self.root)))
+    def test_punctuation_only_person_anchor_rejected(self):
+        def mutate(d):
+            paragraph = next(p for p in d['paragraphs'] if p['id'].endswith(':p018'))
+            mention = next(m for m in paragraph['mentions'] if m['id'].endswith(':m018-0183'))
+            self.assertEqual(paragraph['text'][183:184], '，')
+            mention.update(start=183, end=184, surface='，')
+        self.change('corpus/shiji/086.json', mutate)
+        self.assertIn('人物提及不得僅為標點或空白', v.validate(self.root))
     def test_wrong_book_rejected(self):
         self.change('corpus/shiji/001.json',lambda d:d.update(book_id='b-shiji-002'))
         self.assertTrue(any('歸屬不符' in e for e in v.validate(self.root)))

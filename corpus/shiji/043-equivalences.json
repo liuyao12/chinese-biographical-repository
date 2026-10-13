@@ -306,6 +306,47 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji043-zhi086",
+      "person_ids": [
+        "fks_8ov_okp"
+      ],
+      "canonical_person_id": "fks_8ov_okp",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-005-qin",
+        "c-shiji-043-zhao"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p047",
+          "quote": "厲共公二年，蜀人來賂。十六年，塹河旁。以兵二萬伐大荔，取其王城。二十一年，初縣頻陽。晉取武成。二十四年，晉亂，殺智伯，分其國與趙、韓、魏。二十五年，智開與邑人來奔。三十三年，伐義渠，虜其王。三十四年，日食。厲共公卒，子躁公立。",
+          "mention_ids": [
+            "c-shiji-005-qin:m047-0056"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p039",
+          "quote": "襄子立四年，知伯與趙、韓、魏盡分其范、中行故地。晉出公怒，告齊、魯，欲以伐四卿。四卿恐，遂共攻出公。出公奔齊，道死。知伯乃立昭公曾孫驕，是爲晉懿公。知伯益驕。請地韓、魏，韓、魏與之。請地趙，趙不與，以其圍鄭之辱。知伯怒，遂率韓、魏攻趙。趙襄子懼，乃奔保晉陽。",
+          "mention_ids": [
+            "c-shiji-043-zhao:m039-0006",
+            "c-shiji-043-zhao:m039-0058",
+            "c-shiji-043-zhao:m039-0074",
+            "c-shiji-043-zhao:m039-0106"
+          ]
+        }
+      ],
+      "rationale": "請地趙而圍晉陽、三家反滅知氏之事相配，族滅與個人死亡分別保存。各篇原字、原語與異說分存，同書互見不是獨立史實見證；不跨其他候選批量合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

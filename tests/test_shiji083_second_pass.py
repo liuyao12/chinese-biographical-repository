@@ -39,7 +39,7 @@ class LuZouSecondPassTests(unittest.TestCase):
         self.assertEqual(names['公孫詭'], '2bl_b4d_kfg')
         self.assertEqual(names['鄒陽'], '06n_ttw_xgt')
         p13 = c['paragraphs'][12]
-        self.assertEqual({m['person_id'] for m in p13['mentions'] if m['surface'] == '魯君'}, {'ngn_suh_k03'})
+        self.assertEqual({m['person_id'] for m in p13['mentions'] if m['surface'] == '魯君'}, {'x50_1p7_qkk'})
         self.assertIn('三戰三北', p13['text'])
         parallel = json.loads((ROOT / 'corpus/shiji/086.json').read_text())
         self.assertIn('三敗北', parallel['paragraphs'][0]['text'])
