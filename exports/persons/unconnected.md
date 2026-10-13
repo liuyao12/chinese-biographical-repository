@@ -667,7 +667,7 @@
 | `4cy_oy6_nua` | 田儋 | [《史記・陳涉世家》][30] | [JSON](4cy_oy6_nua.json) |
 | `4d0_phq_cjk` | 申公巫臣 | [《史記・晉世家》][21] | [JSON](4d0_phq_cjk.json) |
 | `4dk_afl_vwx` | 屈侯鮒 | [《史記・魏世家》][26] | [JSON](4dk_afl_vwx.json) |
-| `4dm_2h1_9je` | 屈原（楚篇使齊者） | [《史記・楚世家》][22] | [JSON](4dm_2h1_9je.json) |
+| `4dm_2h1_9je` | 屈原（楚篇使齊者） | [《史記・屈原賈生列傳》][66] | [JSON](4dm_2h1_9je.json) |
 | `4dr_y2e_ta8` | 段干木 | [《史記・魏世家》][26] | [JSON](4dr_y2e_ta8.json) |
 | `4e7_nix_4rh` | 韓宣子 | [《史記・吳太伯世家》][13]、[《史記・晉世家》][21] | [JSON](4e7_nix_4rh.json) |
 | `4ef_u9d_swf` | 董緶 | [《史記・陳涉世家》][30] | [JSON](4ef_u9d_swf.json) |
