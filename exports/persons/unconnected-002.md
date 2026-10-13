@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ek7_93z_gap` | 趙簡子 | [《史記・扁鵲倉公列傳》][87] | [JSON](ek7_93z_gap.json) |
 | `ek7_zwf_lkt` | 武王后（魏世家未名者） | [《史記・魏世家》][26] | [JSON](ek7_zwf_lkt.json) |
 | `ekf_sxz_k88` | 呂太后 | [《史記・太史公自序》][112] | [JSON](ekf_sxz_k88.json) |
 | `ekn_61g_qaz` | 章邯 | [《史記・樊酈滕灌列傳》][77] | [JSON](ekn_61g_qaz.json) |
@@ -1705,7 +1704,6 @@
 | `px7_dns_zoj` | 家仆徒（韓原右者） | [《史記・晉世家》][21] | [JSON](px7_dns_zoj.json) |
 | `pxm_dwu_afr` | 膠西王太后未名 | [《史記・吳王濞列傳》][88] | [JSON](pxm_dwu_afr.json) |
 | `py9_839_ut6` | 王太后 | [《史記・酷吏列傳》][104] | [JSON](py9_839_ut6.json) |
-| `pyc_fs9_nif` | 齊湣王 | [《史記・田單列傳》][64] | [JSON](pyc_fs9_nif.json) |
 | `pyh_4xn_x4s` | 公夏首 | [《史記・仲尼弟子列傳》][49] | [JSON](pyh_4xn_x4s.json) |
 | `pyt_ft7_8h4` | 曹窋 | [《史記・張丞相列傳》][78] | [JSON](pyt_ft7_8h4.json) |
 | `pz6_lqa_ina` | 夏太后 | [《史記・秦始皇本紀》][6] | [JSON](pz6_lqa_ina.json) |
@@ -2242,6 +2240,8 @@
 | `t7d_a7w_vrk` | 郭解母（未名） | [《史記・游俠列傳》][106] | [JSON](t7d_a7w_vrk.json) |
 | `t7i_qd8_pmb` | 蕭何 | [《史記・樊酈滕灌列傳》][77] | [JSON](t7i_qd8_pmb.json) |
 | `t7k_3g1_qp3` | 塗山氏之女 | [《史記・夏本紀》][2] | [JSON](t7k_3g1_qp3.json) |
+| `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][49] | [JSON](t7x_2x7_1fc.json) |
+| `t8b_b8w_pcn` | 國惠子 | [《史記・齊太公世家》][14] | [JSON](t8b_b8w_pcn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
