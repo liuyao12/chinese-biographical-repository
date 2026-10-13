@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tdm_363_0di` | 游（宋君） | [《史記・宋微子世家》][20] | [JSON](tdm_363_0di.json) |
-| `tdu_jkc_cnu` | 呂祿女（後少帝皇后） | [《史記・呂太后本紀》][9] | [JSON](tdu_jkc_cnu.json) |
-| `tdu_n2l_m4p` | 樂乘 | [《史記・樂毅列傳》][62] | [JSON](tdu_n2l_m4p.json) |
-| `tdz_63e_0nm` | 李牧 | [《史記・匈奴列傳》][92] | [JSON](tdz_63e_0nm.json) |
 | `teh_acc_5xb` | 葉公（救楚惠王者） | [《史記・楚世家》][22] | [JSON](teh_acc_5xb.json) |
 | `tem_nwk_wxr` | 范生 | [《史記・酷吏列傳》][104] | [JSON](tem_nwk_wxr.json) |
 | `ten_534_ssn` | 孔文子 | [《史記・孔子世家》][29] | [JSON](ten_534_ssn.json) |
@@ -635,7 +631,6 @@
 | `xop_byp_p7d` | 虙戲 | [《史記・趙世家》][25] | [JSON](xop_byp_p7d.json) |
 | `xox_3lp_sy3` | 祝懽 | [《史記・商君列傳》][50] | [JSON](xox_3lp_sy3.json) |
 | `xp2_dxz_zcn` | 馮敬 | [《史記・屈原賈生列傳》][66] | [JSON](xp2_dxz_zcn.json) |
-| `xp4_n22_648` | 大夫種引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](xp4_n22_648.json) |
 | `xp5_39k_w5w` | 郢 | [《史記・東越列傳》][96] | [JSON](xp5_39k_w5w.json) |
 | `xp8_oo8_cjo` | 大夫種（引古） | [《史記・淮陰侯列傳》][74] | [JSON](xp8_oo8_cjo.json) |
 | `xp9_lok_hz4` | 霍去病 | [《史記・佞幸列傳》][107] | [JSON](xp9_lok_hz4.json) |
