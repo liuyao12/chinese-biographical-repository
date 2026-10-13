@@ -129,6 +129,64 @@
       "interpretation_note": "保存稱號及官職的事件或見證；西帝皆復去之為放棄帝號，白起為士伍為降等，後文仍稱武安君不當復爵。左更、大良造等先沿用官職分類，秦爵制度對應待覆核。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji072-023",
+      "person_id": "vny_0sw_kdz",
+      "title": "西帝",
+      "kind": "imperial_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-072-rang",
+          "source_id": "s-shiji-072-rang",
+          "paragraph_id": "c-shiji-072-rang:p005",
+          "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji072-023:a001",
+          "paragraph_id": "c-shiji-072-rang:p005",
+          "start": 43,
+          "end": 45,
+          "surface": "西帝",
+          "person_mention_id": "c-shiji-072-rang:m005-0035",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "昭王十九年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-072-rang",
+              "source_id": "s-shiji-072-rang",
+              "paragraph_id": "c-shiji-072-rang:p005",
+              "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
+            }
+          ]
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-072-rang",
+              "source_id": "s-shiji-072-rang",
+              "paragraph_id": "c-shiji-072-rang:p005",
+              "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "昭王十九年秦稱西帝依本段昭王錨點保存；月餘齊秦復歸帝為王是西帝稱號明示終止，不停止昭王王位或補死亡。月餘原詞保留，不給精確月數；齊東帝人物尚未本篇明示，原未解錨點保留，不按記憶補姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "昭王十九年 → 未定"
     }
   ],
   "addresses": [
@@ -940,7 +998,17 @@
       ],
       "qualifiers": {
         "source_term": "立其弟為昭王",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "sck_164_3hm",
+          "younger_person_id": "vny_0sw_kdz",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
       "interpretation_note": "依明示母與弟保存；異父長弟以宣太后為參照，同父弟亦以宣太后為參照；同母弟以昭王為參照。限定語不轉成未載父親名字或補造母系世次。原文宣太后非武王母保留作反證；兄弟不自動補父母，繼位不作父子。",
       "reviewer": "Codex（AI 代理）"
