@@ -5,7 +5,7 @@
   "holdings": [
     {
       "id": "th-shiji080-001",
-      "person_id": "ird_cqk_5eh",
+      "person_id": "hnq_jmv_kxf",
       "title": "將",
       "kind": "office",
       "mode": "attestation",
@@ -137,7 +137,60 @@
               "paragraph_id": "c-shiji-080-leyi:p003",
               "quote": "當是時，齊湣王彊，南敗楚相唐眛於重丘，西摧三晉於觀津，遂與三晉擊秦，助趙滅中山，破宋，廣地千餘里。與秦昭王爭重為帝，已而復歸之。諸侯皆欲背秦而服於齊。湣王自矜，百姓弗堪。於是燕昭王問伐齊之事。樂毅對曰：「齊，霸國之餘業也，地大人眾，未易獨攻也。王必欲伐之，莫如與趙及楚、魏。」於是使樂毅約趙惠文王，別使連楚、魏，令趙嚪說秦以伐齊之利。諸侯害齊湣王之驕暴，皆爭合從與燕伐齊。樂毅還報，燕昭王悉起兵，使樂毅為上將軍，趙惠文王以相國印授樂毅。樂毅於是并護趙、楚、韓、魏、燕之兵以伐齊，破之濟西。諸侯兵罷歸，而燕軍樂毅獨追，至于臨菑。齊湣王之敗濟西，亡走，保於莒。樂毅獨留徇齊，齊皆城守。樂毅攻入臨菑，盡取齊寶財物祭器輸之燕。燕昭王大說，親至濟上勞軍，行賞饗士，封樂毅於昌國，號為昌國君。於是燕昭王收齊鹵獲以歸，而使樂毅復以兵平齊城之不下者。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 284,
+            "year": -283,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "燕昭王悉起兵，使樂毅為上將軍",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-080-leyi",
+                "source_id": "s-shiji-080-leyi",
+                "paragraph_id": "c-shiji-080-leyi:p003",
+                "quote": "燕昭王悉起兵，使樂毅為上將軍"
+              }
+            ],
+            "references": [
+              {
+                "title": "〈燕世家〉昭王二十八年任命樂毅",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+                "quote": "二十八年，燕國殷富，士卒樂軼輕戰，於是遂以樂毅爲上將軍，與秦、楚、三晉合謀以伐齊。",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "〈六國年表〉燕欄二十八年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "二十八。與秦、三晉擊齊，燕獨入至臨菑，取其寶器。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r193-c07"
+              },
+              {
+                "title": "〈六國年表〉數位西元對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "284",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r193-c00"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "使樂毅為上將軍",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+              "reference_event_quote": "二十八年，燕國殷富，士卒樂軼輕戰，於是遂以樂毅爲上將軍，與秦、楚、三晉合謀以伐齊。",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_year_quote": "284"
+            },
+            "rationale": "燕世家明繫昭王二十八年任命樂毅上將軍，年表燕欄二十八及濟西戰事與西元對照暫換前284年。只處理上將軍任命，不將同段昌國授封、趙相印或所有後續事件一律套年；五歲與六歲分存，未知終點另核。數位西元對照是編輯層，非古代原文。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "source_event",
@@ -763,7 +816,7 @@
     },
     {
       "id": "th-shiji080-017",
-      "person_id": "twk_t4q_4oy",
+      "person_id": "37j_16p_7n8",
       "title": "相國",
       "kind": "office",
       "mode": "attestation",

@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ei8_u9a_hcx` | 虞初 | [《史記・孝武本紀》][12] | [JSON](ei8_u9a_hcx.json) |
-| `eid_g2a_uis` | 屈固（楚惠王從者） | [《史記・楚世家》][22] | [JSON](eid_g2a_uis.json) |
-| `eim_new_gh3` | 項他 | [《史記・曹相國世家》][36] | [JSON](eim_new_gh3.json) |
-| `eis_8c5_jh2` | 項籍 | [《史記・汲鄭列傳》][102] | [JSON](eis_8c5_jh2.json) |
 | `ej1_app_vbi` | 太史公 | [《史記・陳丞相世家》][38] | [JSON](ej1_app_vbi.json) |
 | `ej1_px0_oja` | 沃甲 | [《史記・殷本紀》][3] | [JSON](ej1_px0_oja.json) |
 | `ej5_85e_5xj` | 息（大行） | [《史記・淮南衡山列傳》][100] | [JSON](ej5_85e_5xj.json) |
@@ -492,7 +488,7 @@
 | `hn4_62t_avw` | 衛君 | [《史記・老子韓非列傳》][45] | [JSON](hn4_62t_avw.json) |
 | `hn4_jh3_9yu` | 郈昭伯 | [《史記・孔子世家》][29] | [JSON](hn4_jh3_9yu.json) |
 | `hnk_p6w_uku` | 季布 | [《史記・太史公自序》][112] | [JSON](hnk_p6w_uku.json) |
-| `hnq_jmv_kxf` | 樂羊 | [《史記・魏世家》][26] | [JSON](hnq_jmv_kxf.json) |
+| `hnq_jmv_kxf` | 樂羊 | [《史記・樂毅列傳》][62] | [JSON](hnq_jmv_kxf.json) |
 | `hnq_xtn_hjk` | 魏齊 | [《史記・魏世家》][26] | [JSON](hnq_xtn_hjk.json) |
 | `hnu_8zd_5n9` | 太公 | [《史記・太史公自序》][112] | [JSON](hnu_8zd_5n9.json) |
 | `hnx_2zc_ixj` | 陳澤 | [《史記・張耳陳餘列傳》][71] | [JSON](hnx_2zc_ixj.json) |
@@ -676,7 +672,6 @@
 | `iqs_91w_s5e` | 少典 | [《史記・五帝本紀》][1] | [JSON](iqs_91w_s5e.json) |
 | `iqz_qdq_27b` | 商瞿母 | [《史記・仲尼弟子列傳》][49] | [JSON](iqz_qdq_27b.json) |
 | `ir9_9eu_qx2` | 太王 | [《史記・太史公自序》][112] | [JSON](ir9_9eu_qx2.json) |
-| `ird_cqk_5eh` | 樂羊 | [《史記・樂毅列傳》][62] | [JSON](ird_cqk_5eh.json) |
 | `irl_hj6_qpd` | 蔡女（陳厲公妻） | [《史記・陳杞世家》][18] | [JSON](irl_hj6_qpd.json) |
 | `irt_r82_b3b` | 帝嚳引古 | [《史記・屈原賈生列傳》][66] | [JSON](irt_r82_b3b.json) |
 | `iry_fvs_zxc` | 欒布 | [《史記・吳王濞列傳》][88] | [JSON](iry_fvs_zxc.json) |
@@ -2242,6 +2237,11 @@
 | `t4i_jir_a3t` | 周成王（引古） | [《史記・蒙恬列傳》][70] | [JSON](t4i_jir_a3t.json) |
 | `t4l_gy5_dpj` | 趙同（被誅者） | [《史記・晉世家》][21] | [JSON](t4l_gy5_dpj.json) |
 | `t4u_no9_s1q` | 啓 | [《史記・夏本紀》][2] | [JSON](t4u_no9_s1q.json) |
+| `t59_hlv_ksa` | 仇牧（宋大夫） | [《史記・宋微子世家》][20] | [JSON](t59_hlv_ksa.json) |
+| `t5c_bkc_aem` | 驪姬 | [《史記・趙世家》][25] | [JSON](t5c_bkc_aem.json) |
+| `t5e_f83_p7l` | 太子未詳名 | [《史記・張丞相列傳》][78] | [JSON](t5e_f83_p7l.json) |
+| `t5i_u1b_9w1` | 蘇厲 | [《史記・陳涉世家》][30] | [JSON](t5i_u1b_9w1.json) |
+| `t5j_h0l_x87` | 倉海君 | [《史記・留侯世家》][37] | [JSON](t5j_h0l_x87.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
