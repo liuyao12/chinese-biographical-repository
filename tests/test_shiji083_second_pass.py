@@ -70,3 +70,18 @@ class LuZouSecondPassTests(unittest.TestCase):
         self.assertIn('鄉使管子幽囚而不出', p['text'])
         later = self.chapter()['paragraphs'][21]
         self.assertEqual({m['person_id'] for m in later['mentions'] if m['surface'] == '管'}, {'chm_jfj_3y8'})
+
+    def test_three_lords_allusion_retains_literal_child_and_king_scope(self):
+        p = self.chapter()['paragraphs'][6]
+        expected = {'九侯':'j9n_viq_5o8', '鄂侯':'pzd_z9m_2de', '文王':'y4i_pjk_4gn_A', '紂':'lwx_9yq_ad7', '子':'lse_2ct_dsn'}
+        for surface, pid in expected.items():
+            self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']==surface}, {pid})
+        self.assertIn('九侯有子而好', p['text'])
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']=='梁王'}, {'nbg_cps_9w9'})
+
+    def test_execution_allusions_do_not_name_unnamed_chu_king(self):
+        p = self.chapter()['paragraphs'][16]
+        expected = {'李斯':'49g_7az_e4i', '胡亥':'ao3_0fy_d45_AAAA', '箕子':'8a9_tj8_6i7', '比干':'xtq_oi8_w82', '子胥':'g9h_5ih_ug1_A', '楚王':'y9v_xi8_8n3'}
+        for surface, pid in expected.items():
+            self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface']==surface}, {pid})
+        self.assertIn('子胥鴟夷', p['text'])

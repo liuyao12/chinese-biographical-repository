@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tcc_rbs_ewo` | 韓將軍（受匈奴攻敗者） | [《史記・衛將軍驃騎列傳》][93] | [JSON](tcc_rbs_ewo.json) |
-| `td8_hn8_05z` | 吳王（子胥敘事） | [《史記・淮南衡山列傳》][100] | [JSON](td8_hn8_05z.json) |
-| `tdc_3s3_yak` | 重耳 | [《史記・越王勾踐世家》][23] | [JSON](tdc_3s3_yak.json) |
-| `tdc_u89_vcd` | 獻謳者未名 | [《史記・孟子荀卿列傳》][56] | [JSON](tdc_u89_vcd.json) |
-| `tdk_stf_mcl` | 越王引古未名 | [《史記・春申君列傳》][60] | [JSON](tdk_stf_mcl.json) |
 | `tdm_363_0di` | 游（宋君） | [《史記・宋微子世家》][20] | [JSON](tdm_363_0di.json) |
 | `tdu_jkc_cnu` | 呂祿女（後少帝皇后） | [《史記・呂太后本紀》][9] | [JSON](tdu_jkc_cnu.json) |
 | `tdu_n2l_m4p` | 樂乘 | [《史記・樂毅列傳》][62] | [JSON](tdu_n2l_m4p.json) |
@@ -387,7 +382,6 @@
 | `vxt_uj1_8ym` | 鄭昌 | [《史記・高祖本紀》][8] | [JSON](vxt_uj1_8ym.json) |
 | `vy3_65g_mwj` | 芮良夫 | [《史記・周本紀》][4] | [JSON](vy3_65g_mwj.json) |
 | `vyj_swb_or9` | 淮南相（七國反時） | [《史記・淮南衡山列傳》][100] | [JSON](vyj_swb_or9.json) |
-| `vz1_0ed_6us` | 文王引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](vz1_0ed_6us.json) |
 | `vz1_n5y_mng` | 呂祿 | [《史記・絳侯周勃世家》][39] | [JSON](vz1_n5y_mng.json) |
 | `vz2_xlj_noq` | 堯引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](vz2_xlj_noq.json) |
 | `vz8_68e_j99` | 孝文帝 | [《史記・儒林列傳》][103] | [JSON](vz8_68e_j99.json) |
@@ -687,7 +681,6 @@
 | `xxq_5y6_8sr` | 狐偃（咎犯） | [《史記・晉世家》][21] | [JSON](xxq_5y6_8sr.json) |
 | `xxq_gha_m5y` | 猶（楚哀王） | [《史記・楚世家》][22] | [JSON](xxq_gha_m5y.json) |
 | `xxs_ub0_7rv` | 龍且 | [《史記・淮陰侯列傳》][74] | [JSON](xxs_ub0_7rv.json) |
-| `xxu_9lb_1z0` | 箕子引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](xxu_9lb_1z0.json) |
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][22] | [JSON](xxw_nqn_rub.json) |
 | `xxy_58r_nto` | 秦惠王 | [《史記・屈原賈生列傳》][66] | [JSON](xxy_58r_nto.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][14] | [JSON](xy0_zdb_ssj.json) |
