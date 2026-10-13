@@ -1011,6 +1011,90 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji081-wangjian",
+      "person_ids": [
+        "gdj_k53_v1x"
+      ],
+      "canonical_person_id": "gdj_k53_v1x",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-073-baiwang",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p009",
+          "quote": "王翦者，頻陽東鄉人也。少而好兵，事秦始皇。始皇十一年，翦將攻趙閼與，破之，拔九城，十八年，翦將攻趙。歲餘，遂拔趙，趙王降，盡定趙地為郡。明年，燕使荊軻為賊於秦，秦王使王翦攻燕。燕王喜走遼東，翦遂定燕薊而還。秦使翦子王賁擊荊，荊兵敗。還擊魏，魏王降，遂定魏地。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m009-0000",
+            "c-shiji-073-baiwang:m009-0027",
+            "c-shiji-073-baiwang:m009-0045",
+            "c-shiji-073-baiwang:m009-0083",
+            "c-shiji-073-baiwang:m009-0095",
+            "c-shiji-073-baiwang:m009-0105"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p026",
+          "quote": "趙王遷七年，秦使王翦攻趙，趙使李牧、司馬尚禦之。秦多與趙王寵臣郭開金，爲反間，言李牧、司馬尚欲反。趙王乃使趙蔥及齊將顏聚代李牧。李牧不受命，趙使人微捕得李牧，斬之。廢司馬尚。後三月，王翦因急撃趙，大破殺趙蔥，虜趙王遷及其將顏聚，遂滅趙。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m026-0008",
+            "c-shiji-081-lianlin:m026-0091"
+          ]
+        }
+      ],
+      "rationale": "兩篇王翦為秦將攻趙，趙王降／被虜而趙地滅定；姓名、所屬、攻趙及王降的具體事件支持同指。列傳歲餘與本篇後三月各存，不以同指調和事件間隔。073其餘未名趙王需另核，不隨王翦同指一併指定。原文、錨點及各篇敘事保留，同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji081-huanyi",
+      "person_ids": [
+        "42c_0ck_iry"
+      ],
+      "canonical_person_id": "42c_0ck_iry",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-006-shihuang",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p013",
+          "quote": "十三年，桓齮攻趙平陽，殺趙將扈輒，斬首十萬。王之河南。正月，彗星見東方。十月，桓齮攻趙。十四年，攻趙軍於平陽，取宜安，破之，殺其將軍。桓齮定平陽、武城。韓非使秦，秦用李斯謀，留非，非死雲陽。韓王請為臣。",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m013-0004",
+            "c-shiji-006-shihuang:m013-0039",
+            "c-shiji-006-shihuang:m013-0067"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p025",
+          "quote": "趙悼襄王元年，廉頗既亡入魏，趙使李牧攻燕，拔武遂、方城。居二年，龐暖破燕軍，殺劇辛。後七年，秦破殺趙將扈輒於武遂，斬首十萬。趙乃以李牧爲大將軍，撃秦軍於宜安，大破秦軍，走秦將桓齮。封李牧爲武安君。居三年，秦攻番吾，李牧撃破秦軍，南距韓、魏。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m025-0085"
+          ]
+        }
+      ],
+      "rationale": "始皇本紀具名秦將桓齮攻趙殺扈輒斬首十萬，次年取宜安；本篇同記秦殺扈輒斬首十萬，繼以李牧宜安破秦走桓齮。姓名、秦將所屬與相接的扈輒／宜安戰事支持暫同指。武遂／平陽、取宜安／走桓齮及相對紀年各存，不因身份接合判定戰事結果或改正文。不得由此等同樊於期，亦不補未知生卒。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

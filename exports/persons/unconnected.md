@@ -208,7 +208,6 @@
 | `1c0_c3k_jno` | 高皇帝 | [《史記・平津侯主父列傳》][94] | [JSON](1c0_c3k_jno.json) |
 | `1c0_cid_jlo` | 棠公妻（本卷未名） | [《史記・齊太公世家》][14] | [JSON](1c0_cid_jlo.json) |
 | `1c2_iac_k9m` | 江上人（未名） | [《史記・龜策列傳》][110] | [JSON](1c2_iac_k9m.json) |
-| `1cl_1rg_gk9` | 桓齮 | [《史記・廉頗藺相如列傳》][63] | [JSON](1cl_1rg_gk9.json) |
 | `1cr_7o7_q01` | 宋莊公 | [《史記・鄭世家》][24] | [JSON](1cr_7o7_q01.json) |
 | `1d2_lvj_esk` | 齊威王 | [《史記・孫子吳起列傳》][47] | [JSON](1d2_lvj_esk.json) |
 | `1dh_qy1_ptc` | 晉獻公 | [《史記・趙世家》][25] | [JSON](1dh_qy1_ptc.json) |
@@ -912,7 +911,6 @@
 | `602_qwv_jz8` | 楚武王（陳篇紀年） | [《史記・陳杞世家》][18] | [JSON](602_qwv_jz8.json) |
 | `608_d7l_epu` | 伋他女（衛宣公另取者） | [《史記・衛康叔世家》][19] | [JSON](608_d7l_epu.json) |
 | `60e_l3p_h3j` | 盛橋 | [《史記・春申君列傳》][60] | [JSON](60e_l3p_h3j.json) |
-| `60u_e89_x8d` | 王翦 | [《史記・廉頗藺相如列傳》][63] | [JSON](60u_e89_x8d.json) |
 | `611_no8_35r` | 呂禮 | [《史記・穰侯列傳》][54] | [JSON](611_no8_35r.json) |
 | `61b_fc5_6h4` | 祖伊 | [《史記・殷本紀》][3] | [JSON](61b_fc5_6h4.json) |
 | `61f_1ub_wdy` | 建（伍子胥提要） | [《史記・太史公自序》][112] | [JSON](61f_1ub_wdy.json) |
@@ -2231,6 +2229,8 @@
 | `ej5_85e_5xj` | 息（大行） | [《史記・淮南衡山列傳》][100] | [JSON](ej5_85e_5xj.json) |
 | `ej5_fv0_qii` | 晉平公 | [《史記・鄭世家》][24] | [JSON](ej5_fv0_qii.json) |
 | `ejl_xm5_780` | 公叔氏（孔子世家蒲畔未名者） | [《史記・孔子世家》][29] | [JSON](ejl_xm5_780.json) |
+| `ejp_e4r_st7` | 石乞 | [《史記・仲尼弟子列傳》][49] | [JSON](ejp_e4r_st7.json) |
+| `ejx_n17_vnl` | 齊中大夫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ejx_n17_vnl.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

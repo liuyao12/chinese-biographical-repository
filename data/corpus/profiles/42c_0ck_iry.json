@@ -6,7 +6,8 @@
   "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
   "review": "ai_provisional",
   "names": [
-    "桓齮"
+    "桓齮",
+    "秦將桓齮"
   ],
   "titles": [
     {
@@ -59,6 +60,48 @@
       "interpretation_note": "明言封、為將軍與以為秦國尉存授予；其他保存用稱見證。呂不韋坐嫪毐免記相國終點，不當文信侯同時被奪爵；昌文君不從並列推任相國。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji081-034",
+      "person_id": "42c_0ck_iry",
+      "title": "秦將",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p025",
+          "quote": "趙悼襄王元年，廉頗既亡入魏，趙使李牧攻燕，拔武遂、方城。居二年，龐暖破燕軍，殺劇辛。後七年，秦破殺趙將扈輒於武遂，斬首十萬。趙乃以李牧爲大將軍，撃秦軍於宜安，大破秦軍，走秦將桓齮。封李牧爲武安君。居三年，秦攻番吾，李牧撃破秦軍，南距韓、魏。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji081-034:a001",
+          "paragraph_id": "c-shiji-081-lianlin:p025",
+          "start": 85,
+          "end": 87,
+          "surface": "秦將",
+          "person_mention_id": "c-shiji-081-lianlin:m025-0085",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "官名、角色及授任分存，各次將兵另列；首次用稱、病、逃亡、被俘或死亡不自動終止所有官爵，未明日期保持未定。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -70,6 +113,14 @@
       "paragraph_id": "c-shiji-006-shihuang:p010",
       "count": 6,
       "quote": "衍氏。彗星見西方，又見北方，從斗以南八十日。十年，相國呂不韋坐嫪毐免。桓齮為將軍。齊、趙來置酒。齊人茅焦說秦王曰：「秦方以天下為事，而大王有遷母太后之名，恐諸侯聞之，由此倍秦也。」秦王乃迎太后於雍而入咸陽，復居甘泉宮。"
+    },
+    {
+      "number": 81,
+      "category": "liezhuan",
+      "title": "廉頗藺相如列傳第二十一",
+      "paragraph_id": "c-shiji-081-lianlin:p025",
+      "count": 1,
+      "quote": "將扈輒於武遂，斬首十萬。趙乃以李牧爲大將軍，撃秦軍於宜安，大破秦軍，走秦將桓齮。封李牧爲武安君。居三年，秦攻番吾，李牧撃破秦軍，南距韓、魏。"
     }
   ],
   "table_occurrences": [
@@ -169,6 +220,30 @@
             }
           ],
           "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-081-lianlin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-081",
+      "source_id": "s-shiji-081-lianlin",
+      "source": {
+        "title": "史記／卷081",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷081",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷081&oldid=8735558",
+        "revision_id": 8735558,
+        "accessed_on": "2026-10-09",
+        "extent": "27段正文，自廉頗者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；全部p按原序；爲、原、繆、脱、盆鮓、許暦與桓齮等原字不擅校。",
+          "note": "全27段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
     }
