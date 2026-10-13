@@ -236,7 +236,51 @@
     "ao3_0fy_d45_AA": "秦莊襄王",
     "pz6_lqa_ina": "夏太后"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 240,
+      "year": -239,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p011",
+          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "七。彗星見北方西方。夏太后薨。蒙驁死。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r237-c01"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "240",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r237-c00"
+        }
+      ],
+      "rationale": "始皇七年夏太后薨與年表同列七年夏太后薨對讀。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji085-005",
+      "person_id": "pz6_lqa_ina",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "pz6_lqa_ina"
@@ -283,6 +327,65 @@
       ],
       "source_term": "夏太后死",
       "interpretation_note": "明言死或梟首記錄；衛尉竭、佐弋竭仍保留不同ID，不因同名合併。嫪毐車裂段落主體及將軍壁句讀另待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji085-005",
+      "person_id": "pz6_lqa_ina",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "始皇七年",
+      "source_term": "夏太后薨",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p011",
+          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+        }
+      ],
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 240,
+        "year": -239,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-085-lubuwei",
+            "source_id": "s-shiji-085-lubuwei",
+            "paragraph_id": "c-shiji-085-lubuwei:p011",
+            "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+            "person_mention_id": "c-shiji-085-lubuwei:m011-0009"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "七。彗星見北方西方。夏太后薨。蒙驁死。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r237-c01"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "240",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r237-c00"
+          }
+        ],
+        "rationale": "始皇七年夏太后薨與年表同列七年夏太后薨對讀。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "interpretation_note": "本篇生卒主張與他篇各存；不據死亡自動終止所有稱號，不補出生年或享年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

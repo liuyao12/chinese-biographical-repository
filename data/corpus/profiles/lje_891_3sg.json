@@ -51,14 +51,118 @@
   "related_people": {
     "lje_891_3sg": "昭王四十年死太子未名（呂不韋列傳候選）"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 267,
+      "year": -266,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
+          "person_mention_id": "c-shiji-085-lubuwei:m002-0007"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "四十。太子質於魏者死，歸葬芷陽。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r210-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "267",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r210-c00"
+        }
+      ],
+      "rationale": "昭王四十年與年表太子質魏死並列對讀。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji085-001",
+      "person_id": "lje_891_3sg",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "lje_891_3sg"
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji085-001",
+      "person_id": "lje_891_3sg",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "秦昭王四十年",
+      "source_term": "太子死",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
+          "person_mention_id": "c-shiji-085-lubuwei:m002-0007"
+        }
+      ],
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 267,
+        "year": -266,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-085-lubuwei",
+            "source_id": "s-shiji-085-lubuwei",
+            "paragraph_id": "c-shiji-085-lubuwei:p002",
+            "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。",
+            "person_mention_id": "c-shiji-085-lubuwei:m002-0007"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "四十。太子質於魏者死，歸葬芷陽。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r210-c02"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "267",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r210-c00"
+          }
+        ],
+        "rationale": "昭王四十年與年表太子質魏死並列對讀。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "interpretation_note": "本篇生卒主張與他篇各存；不據死亡自動終止所有稱號，不補出生年或享年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
