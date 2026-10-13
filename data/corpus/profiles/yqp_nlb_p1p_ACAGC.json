@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAGC",
-  "canonical_person_id": "1c8_u63_bk4_MC",
-  "label": "yqp_nlb_p1p_ACAGC",
+  "canonical_person_id": "yqp_nlb_p1p_ACAGC",
+  "label": "商（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "商",
     "泗水王",
-    "泗水思王商"
+    "泗水思王商",
+    "思王商"
   ],
   "titles": [
     {
       "id": "th-shiji059-061",
-      "person_id": "1c8_u63_bk4_MC",
+      "person_id": "yqp_nlb_p1p_ACAGC",
       "title": "泗水王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -124,7 +125,7 @@
     },
     {
       "id": "th-shiji059-062",
-      "person_id": "1c8_u63_bk4_MC",
+      "person_id": "yqp_nlb_p1p_ACAGC",
       "title": "泗水思王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -176,7 +177,80 @@
       "quote": "。棁以母無寵故，亦不得幸於王。王後修生太子勃。王內多，所幸姬生子平、子商，王后希得幸。及憲王病甚，諸幸姬常侍病，故王后亦以妒媢不常侍病，輒歸舍。醫進藥，太子勃不自嘗藥，又不宿留侍病。及王薨，王后、太子乃至。憲王雅不以長子棁為人數，及薨，又不分與財物。郎或說太子、王后，令諸"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r094-c04",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "思王商元年。商，常山憲王子。",
+      "year": {
+        "era": "BCE",
+        "value": 113,
+        "astronomical_year": -112,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "113",
+        "source_cell_id": "shiji-017-t1-r094-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r094-c04-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "思王商",
+        "person_id": "yqp_nlb_p1p_ACAGC",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p036",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAGC",
+            "quote": "泗水思王商"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r094-c04",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "思王商元年。商，常山憲王子。",
+      "year": {
+        "era": "BCE",
+        "value": 113,
+        "astronomical_year": -112,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "113",
+        "source_cell_id": "shiji-017-t1-r094-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r094-c04-review-006",
+        "start": 6,
+        "end": 7,
+        "surface": "商",
+        "person_id": "yqp_nlb_p1p_ACAGC",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p036",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAGC",
+            "quote": "泗水思王商"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -206,9 +280,9 @@
   "relations": [
     {
       "id": "a-shiji059-042",
-      "subject_person_id": "1c8_u63_bk4_MC",
+      "subject_person_id": "yqp_nlb_p1p_ACAGC",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_M",
+      "object_person_id": "yqp_nlb_p1p_ACAG",
       "status": "source_attested",
       "evidence": [
         {
@@ -227,9 +301,9 @@
     },
     {
       "id": "a-shiji059-043",
-      "subject_person_id": "1c8_u63_bk4_MCA",
+      "subject_person_id": "yqp_nlb_p1p_ACAGCA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_MC",
+      "object_person_id": "yqp_nlb_p1p_ACAGC",
       "status": "source_attested",
       "evidence": [
         {
@@ -248,9 +322,9 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_M": "舜（五宗世家候選）",
-    "1c8_u63_bk4_MC": "商（五宗世家候選）",
-    "1c8_u63_bk4_MCA": "安世（五宗世家候選）"
+    "yqp_nlb_p1p_ACAG": "舜（景帝子）",
+    "yqp_nlb_p1p_ACAGC": "商（五宗世家候選）",
+    "yqp_nlb_p1p_ACAGCA": "安世（五宗世家候選）"
   },
   "dates": [
     {
@@ -282,21 +356,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-061",
-      "person_id": "1c8_u63_bk4_MC",
+      "person_id": "yqp_nlb_p1p_ACAGC",
       "endpoint": "start",
       "title": "泗水王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_MC"
+    "yqp_nlb_p1p_ACAGC"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-042",
-      "subject_person_id": "1c8_u63_bk4_MC",
+      "subject_person_id": "yqp_nlb_p1p_ACAGC",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_M",
+      "object_person_id": "yqp_nlb_p1p_ACAG",
       "status": "source_attested",
       "evidence": [
         {
@@ -315,9 +389,9 @@
     },
     {
       "id": "a-shiji059-043",
-      "subject_person_id": "1c8_u63_bk4_MCA",
+      "subject_person_id": "yqp_nlb_p1p_ACAGCA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_MC",
+      "object_person_id": "yqp_nlb_p1p_ACAGC",
       "status": "source_attested",
       "evidence": [
         {
@@ -339,7 +413,7 @@
   "life_events": [
     {
       "id": "le-shiji059-013",
-      "person_id": "1c8_u63_bk4_MC",
+      "person_id": "yqp_nlb_p1p_ACAGC",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "十一年",

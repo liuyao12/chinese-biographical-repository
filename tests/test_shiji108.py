@@ -10,7 +10,7 @@ class HanSourceTests(unittest.TestCase):
         a = h['attestations'][0]
         p = next(p for p in self.load('')['paragraphs'] if p['id'] == a['paragraph_id'])
         self.assertEqual(p['text'][a['start']:a['end'] + 2], '將軍李廣')
-        self.assertEqual(h['person_id'], 'njk_tl0_6h9')
+        self.assertEqual(h['person_id'], '27j_f4p_jwp')
     def test_acting_chancellor_and_unrealized_hu_sui_offer(self):
         hs = self.load('-titles')['holdings']
         acting = next(h for h in hs if h['id'] == 'th-shiji108-035')
@@ -26,8 +26,8 @@ class HanSourceTests(unittest.TestCase):
         self.assertNotIn(p['id'], [x['paragraph_id'] for x in e['evidence']])
     def test_hanguo_equivalence_contains_matching_appointment_evidence(self):
         e = next(e for e in self.load('-equivalences')['decisions'] if e['id'] == 'eq-shiji108-hanguo')
-        self.assertIn('adb_4so_0qm', e['person_ids'])
-        self.assertIn('6hy_i1z_hu2', e['person_ids'])
+        self.assertEqual(e['person_ids'], ['6hy_i1z_hu2'])
+        self.assertTrue(e['identity_materialized'])
         appointment = [x for x in e['evidence'] if '建元六年' in x['quote']]
         self.assertEqual(len(appointment), 2)
         self.assertTrue(all('御史大夫' in x['quote'] for x in appointment))

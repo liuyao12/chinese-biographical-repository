@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAE",
-  "canonical_person_id": "1c8_u63_bk4_L",
-  "label": "yqp_nlb_p1p_ACAE",
+  "canonical_person_id": "yqp_nlb_p1p_ACAE",
+  "label": "乘（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "乘",
     "清河哀王乘",
-    "清河王"
+    "清河王",
+    "哀王乘"
   ],
   "titles": [
     {
       "id": "th-shiji059-052",
-      "person_id": "1c8_u63_bk4_L",
+      "person_id": "yqp_nlb_p1p_ACAE",
       "title": "清河哀王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -55,7 +56,7 @@
     },
     {
       "id": "th-shiji059-053",
-      "person_id": "1c8_u63_bk4_L",
+      "person_id": "yqp_nlb_p1p_ACAE",
       "title": "清河王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -169,7 +170,44 @@
       "quote": "子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r060-c19",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "三月丁巳，哀王乘元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 147,
+        "astronomical_year": -146,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "147",
+        "source_cell_id": "shiji-017-t1-r060-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r060-c19-review-005",
+        "start": 5,
+        "end": 8,
+        "surface": "哀王乘",
+        "person_id": "yqp_nlb_p1p_ACAE",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p031",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAE",
+            "quote": "清河哀王乘"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -199,9 +237,9 @@
   "relations": [
     {
       "id": "a-shiji059-023",
-      "subject_person_id": "1c8_u63_bk4_L",
+      "subject_person_id": "yqp_nlb_p1p_ACAE",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -220,7 +258,7 @@
     },
     {
       "id": "a-shiji059-024",
-      "subject_person_id": "1c8_u63_bk4_L",
+      "subject_person_id": "yqp_nlb_p1p_ACAE",
       "predicate": "mother",
       "object_person_id": "qms_rcb_628",
       "status": "source_attested",
@@ -241,9 +279,9 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_L": "乘（五宗世家候選）",
-    "qms_rcb_628": "王夫人兒姁（五宗世家候選）"
+    "qms_rcb_628": "王夫人兒姁（五宗世家候選）",
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAE": "乘（五宗世家候選）"
   },
   "dates": [
     {
@@ -275,21 +313,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-053",
-      "person_id": "1c8_u63_bk4_L",
+      "person_id": "yqp_nlb_p1p_ACAE",
       "endpoint": "start",
       "title": "清河王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_L"
+    "yqp_nlb_p1p_ACAE"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-023",
-      "subject_person_id": "1c8_u63_bk4_L",
+      "subject_person_id": "yqp_nlb_p1p_ACAE",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -308,7 +346,7 @@
     },
     {
       "id": "a-shiji059-024",
-      "subject_person_id": "1c8_u63_bk4_L",
+      "subject_person_id": "yqp_nlb_p1p_ACAE",
       "predicate": "mother",
       "object_person_id": "qms_rcb_628",
       "status": "source_attested",
@@ -332,7 +370,7 @@
   "life_events": [
     {
       "id": "le-shiji059-011",
-      "person_id": "1c8_u63_bk4_L",
+      "person_id": "yqp_nlb_p1p_ACAE",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "十二年",

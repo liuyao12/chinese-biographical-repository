@@ -40,7 +40,7 @@ class RoyalTableEvidenceTests(unittest.TestCase):
 
     def test_han_pengzu_does_not_identify_legendary_pengzu(self):
         m = self.mention('shiji-017-t1-r052-c17', '彭祖')
-        self.assertEqual(m['person_id'], '1c8_u63_bk4_G')
+        self.assertEqual(m['person_id'], 'yqp_nlb_p1p_ACAF')
         self.assertNotEqual(m['person_id'], '7hi_gqd_koj')
 
     def test_kan_ji_variant_is_unresolved_and_text_is_preserved(self):
@@ -49,7 +49,7 @@ class RoyalTableEvidenceTests(unittest.TestCase):
         self.assertEqual(cell['person_mentions'], [])
         m = cell['unresolved_mentions'][0]
         self.assertIsNone(m['person_id'])
-        self.assertEqual(m['candidate_person_ids'], ['1c8_u63_bk4_BAA'])
+        self.assertEqual(m['candidate_person_ids'], ['yqp_nlb_p1p_ACABAA'])
         self.assertEqual(m['identity_evidence'][0]['quote'], '子剛王基代立')
 
     def test_identity_reference_rejects_wrong_person_quote_or_revision(self):

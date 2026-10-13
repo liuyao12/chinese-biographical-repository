@@ -1,21 +1,22 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAN",
-  "canonical_person_id": "trv_fic_8ej",
-  "label": "yqp_nlb_p1p_ACAN",
+  "canonical_person_id": "yqp_nlb_p1p_ACAN",
+  "label": "端（景帝子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "皇子端",
     "端",
     "膠西于王端",
     "膠西王",
     "王",
-    "皇子端"
+    "于王端"
   ],
   "titles": [
     {
       "id": "th-shiji011-021",
-      "person_id": "trv_fic_8ej",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "title": "膠西王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -67,7 +68,7 @@
     },
     {
       "id": "th-shiji059-026",
-      "person_id": "1c8_u63_bk4_F",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "title": "膠西于王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -109,7 +110,7 @@
     },
     {
       "id": "th-shiji059-027",
-      "person_id": "1c8_u63_bk4_F",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "title": "膠西王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -232,7 +233,44 @@
       "quote": "人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r053-c10",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "十一。反，誅。六月乙亥，于王端元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 154,
+        "astronomical_year": -153,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "154",
+        "source_cell_id": "shiji-017-t1-r053-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r053-c10-review-012",
+        "start": 12,
+        "end": 15,
+        "surface": "于王端",
+        "person_id": "yqp_nlb_p1p_ACAN",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p013",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAN",
+            "quote": "膠西于王端"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -286,9 +324,9 @@
   "relations": [
     {
       "id": "a-shiji059-011",
-      "subject_person_id": "1c8_u63_bk4_F",
+      "subject_person_id": "yqp_nlb_p1p_ACAN",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -307,7 +345,7 @@
     },
     {
       "id": "a-shiji059-012",
-      "subject_person_id": "1c8_u63_bk4_F",
+      "subject_person_id": "yqp_nlb_p1p_ACAN",
       "predicate": "mother",
       "object_person_id": "dlu_57f_6uq",
       "status": "source_attested",
@@ -328,10 +366,9 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_F": "端（五宗世家候選）",
     "dlu_57f_6uq": "程姬（五宗世家候選）",
-    "trv_fic_8ej": "端（景帝子）"
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAN": "端（景帝子）"
   },
   "dates": [
     {
@@ -363,22 +400,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-027",
-      "person_id": "1c8_u63_bk4_F",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "endpoint": "start",
       "title": "膠西王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_F",
-    "trv_fic_8ej"
+    "yqp_nlb_p1p_ACAN"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-011",
-      "subject_person_id": "1c8_u63_bk4_F",
+      "subject_person_id": "yqp_nlb_p1p_ACAN",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -397,7 +433,7 @@
     },
     {
       "id": "a-shiji059-012",
-      "subject_person_id": "1c8_u63_bk4_F",
+      "subject_person_id": "yqp_nlb_p1p_ACAN",
       "predicate": "mother",
       "object_person_id": "dlu_57f_6uq",
       "status": "source_attested",
@@ -421,7 +457,7 @@
   "life_events": [
     {
       "id": "le-shiji059-017",
-      "person_id": "1c8_u63_bk4_F",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

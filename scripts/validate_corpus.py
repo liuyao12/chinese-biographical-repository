@@ -305,10 +305,12 @@ def validate(root=ROOT):
                     check(bool(hit) and hit[0] == evidence['chapter_id']
                           and evidence['quote'] in hit[1]['text']
                           and chapters[hit[0]]['source_id'] == evidence['source_id'], '編輯世系引句或來源不符')
+        assembly_path = root / 'registry/family-assemblies.json'
+        assembled_ids = {m['person_id'] for a in json.loads(assembly_path.read_text())['assemblies'] for m in a['members']} if assembly_path.exists() else set()
         for person in people:
             path = person.get('family_path')
             if path is None:
-                check(not (FAMILY.fullmatch(person['id']) and len(person['id']) > 11), '家族後代 ID 缺少有來源的親屬路徑')
+                check(not (FAMILY.fullmatch(person['id']) and len(person['id']) > 11) or person['id'] in assembled_ids, '家族後代 ID 缺少有來源的親屬路徑')
                 continue
             parent = path.get('ancestor_person_id', path.get('parent_person_id'))
             check(parent in pids and person['id'] != parent, '家族路徑所據親屬不存在或自環')
@@ -396,7 +398,8 @@ def validate(root=ROOT):
             for decision in d['decisions']:
                 check(decision['id'] not in dids,'身份判斷 ID 重複');dids.add(decision['id'])
                 ids=decision['person_ids'];canonical=decision['canonical_person_id']
-                check(len(ids)>=2 and len(set(ids))==len(ids) and set(ids).issubset(pids),'同指決定端點無效或重複')
+                check((len(ids)>=2 and not decision.get('identity_materialized')) or (len(ids)==1 and decision.get('identity_materialized') is True), '同指決定端點無效或重複')
+                check(len(set(ids))==len(ids) and set(ids).issubset(pids),'同指決定端點無效或重複')
                 check(canonical in ids,'同指決定代表不在端點中')
                 check(decision['status'] in ('source_explicit','contextual_provisional'),'同指決定狀態無效')
                 check(bool(decision['evidence']) and bool(decision['rationale']),'同指決定缺少證據或理由')
@@ -424,10 +427,23 @@ def validate(root=ROOT):
                     supported.update(m['person_id'] for m in selected)
                 check(set(scope_chapters).issubset(evidence_chapters),'同指決定缺少各篇證據')
                 check(set(ids).issubset(supported),'同指決定未有各端點提及證據')
+                if decision.get('identity_materialized'):
+                    check(len({mid for e in decision['evidence'] for mid in e['mention_ids']}) >= 2, '已整併身份仍須有不同來源提及錨點證據')
                 for pid in ids:
                     if pid==canonical:continue
                     check(pid not in canonical_links or canonical_links[pid]==canonical,'同指決定代表衝突')
                     canonical_links[pid]=canonical
+        applied_decisions = {d['id']: d for path in (root/'corpus').glob('*/*-equivalences.json') for d in json.loads(path.read_text())['decisions']}
+        for chapter in chapters.values():
+            seen_cases = {c['id'] for c in chapter.get('annotation', {}).get('unresolved_identity_cases', [])}
+            for case in chapter.get('annotation', {}).get('resolved_identity_cases', []):
+                pid = case.get('person_id')
+                check(case.get('id') and case['id'] not in seen_cases and pid in pids and case.get('status') == 'contextual_provisional' and bool(case.get('note')), '已接合身份案件缺少人物、狀態或說明')
+                seen_cases.add(case.get('id'))
+                references = [applied_decisions.get(i) for i in case.get('identity_equivalence_decision_ids', [])]
+                check(bool(references) and all(d and d.get('identity_materialized') is True and d['person_ids'] == [pid] for d in references), '已接合身份案件缺少已套用的同指證據')
+                refs = case.get('paragraph_ids', [])
+                check(bool(refs) and all(ref in paragraphs for ref in refs) and any(m['person_id'] == pid for ref in refs if ref in paragraphs for m in paragraphs[ref][1]['mentions']), '已接合身份案件缺少原段落人物提及')
         for start in canonical_links:
             seen=set();current=start
             while current in canonical_links:

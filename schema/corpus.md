@@ -84,11 +84,13 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
-## 保留已發 ID 的同指決定
+## 同指判斷與已套用的身份整併
 
-`007-equivalences.json` 的 `person_equivalence_set` 對兩個或以上已發人物 ID 保存有證據的同指判讀。`person_ids` 保留所有原 ID，`canonical_person_id` 為組裝時的代表，必須是其中一員。原人物、異稱、文字與提及 ID 不刪除也不重指，撤回決定即可恢復分開呈現。此為來源判讀，不是同名字串合併規則。
+`person_equivalence_set` 保存有證據的同指判讀。尚未套用時，`person_ids` 包含兩個或以上候選，`canonical_person_id` 必須屬於其中。按使用者最新要求，全部引用更新且驗證通過後撤除重複人物登記與 JSON，不永久保留舊 ID 別名。
 
-每項決定列明所屬篇、來源、精確引句、各端點的提及 ID、理由及代理署名。引句必須實際包住該段所列提及，不能拿同段無關的另一句支撐合併。驗證器檢查代表衝突與循環；使用端遇衝突不能任選第一項。當陽君與黥布在卷七有「當陽君黥布為楚將」明示，本批仍保留兩個早先已發 ID。這些決定尚未接入既有線上閱讀器。
+已套用的判斷標 `identity_materialized: true`，`person_ids` 僅含現行人物 ID。判斷 ID、精確引句、各來源提及錨點、理由及暫定狀態仍保留；至少須有兩個不同提及錨點，不能僅把單一提及標為同指。正文、提及 ID 與字元起訖不變，僅人物引用更新。整併不代表人工覆核或消除來源衝突；撤回使用 Git 歷史及相應引用遷移。
+
+原未決案件因已有同指證據收斂為一人時，移至 `annotation.resolved_identity_cases`，保存案件 ID、原段落、人物 ID、同指判斷 ID 與暫定說明；逐人 JSON 同時匯出案件與原段落，不能只留下結論。
 
 ## 稱號持有、用稱與有效時段
 
@@ -127,7 +129,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.kinship_interpretation_cases` 保存兩端人物ID、原詞、正文證據及各有署名注語支持的 `alternatives`。`default_alternative_id: null` 表示未選定；使用端不得自動轉成確定關係或家族ID路徑。`object_generation_relative_to_subject` 明確標示客體相對主體的世代位置。`reported_variants` 區分已存正文與注家所報、尚未核底本的異文；`adopted: false` 不改正文、不當另一個已核見證。
 
-家族根沒有尾隨分隔符；只有世代路徑前加一個底線。舊連字號家族ID存為人物 `id_aliases`，只作相容入口，不新增人物。人物包以 `canonical_person_id` 明示現行ID，`requested_person_id` 保留請求入口；索引 `id_aliases` 可解析舊新對應，舊JSON檔仍匯出相同來源資料。此格式遷移不表示身份合併、世系修正或新增證據。
+家族根沒有尾隨分隔符；只有世代路徑前加一個底線。舊格式 ID 已在全部引用更新後撤除，不再匯出相容 JSON。人物包以 `canonical_person_id` 明示現行 ID；歷史對照使用 Git。格式遷移本身不表示新增身份或世系證據。
 
 跨缺名世代的 `family_path` 使用 `ancestor_person_id`、`connection: grandfather`（或相符關係）、`generation_distance` 及全為 null 的 `intermediate_person_ids`；`parent_person_id` 為 null。每條路徑須有同端點、同關係的原始陳述與逐段證據。路徑是 AI 編輯判讀，`human_reviewed: false`；不是由ID推導的新增世系。全庫ID對照及未編入路徑的原因見 `registry/person-id-migrations.json`。
 

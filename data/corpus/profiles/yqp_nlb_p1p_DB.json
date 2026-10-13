@@ -1,22 +1,23 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_DB",
-  "canonical_person_id": "zju_pdu_xge_B",
-  "label": "yqp_nlb_p1p_DB",
+  "canonical_person_id": "yqp_nlb_p1p_DB",
+  "label": "禮（楚元王子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "平陸侯禮",
     "楚文王",
     "禮",
     "文王",
     "文",
     "為",
-    "平陸侯禮"
+    "文王禮"
   ],
   "titles": [
     {
       "id": "th-shiji011-020",
-      "person_id": "zju_pdu_xge_B",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "楚王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -68,7 +69,7 @@
     },
     {
       "id": "th-shiji050-014",
-      "person_id": "n7i_i5n_lay_B",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "漢宗正",
       "kind": "office",
       "mode": "attestation",
@@ -116,7 +117,7 @@
     },
     {
       "id": "th-shiji050-015",
-      "person_id": "n7i_i5n_lay_B",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "楚王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -189,7 +190,7 @@
     },
     {
       "id": "th-shiji050-016",
-      "person_id": "n7i_i5n_lay_B",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "楚文王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -237,7 +238,7 @@
     },
     {
       "id": "th-shiji101-031",
-      "person_id": "tan_n80_dof_A",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "平陸侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -279,7 +280,7 @@
     },
     {
       "id": "th-shiji101-032",
-      "person_id": "tan_n80_dof_A",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "楚王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -370,7 +371,7 @@
     },
     {
       "id": "th-shiji106-014",
-      "person_id": "toa_jp7_ex1_A",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "平陸侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -412,7 +413,7 @@
     },
     {
       "id": "th-shiji106-015",
-      "person_id": "toa_jp7_ex1_A",
+      "person_id": "yqp_nlb_p1p_DB",
       "title": "楚王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -496,7 +497,44 @@
       "quote": "吳王首反，并將楚兵，連齊趙。正月起兵，三月皆破，獨趙後下。復置元王少子平陸侯禮為楚王，續元王後。徙汝南王非王吳故地，為江都王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r054-c02",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "文王禮元年。元王子，故平陸侯。",
+      "year": {
+        "era": "BCE",
+        "value": 153,
+        "astronomical_year": -152,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "153",
+        "source_cell_id": "shiji-017-t1-r054-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r054-c02-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "文王禮",
+        "person_id": "yqp_nlb_p1p_DB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-050",
+            "chapter_id": "c-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p005",
+            "source_id": "s-shiji-050-chuyuan",
+            "source_revision": 8737728,
+            "person_id": "yqp_nlb_p1p_DB",
+            "quote": "乃拜禮為楚王，奉元王宗廟，是為楚文王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -598,9 +636,9 @@
   "relations": [
     {
       "id": "a-shiji011-005",
-      "subject_person_id": "zju_pdu_xge_B",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "zju_pdu_xge",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -619,9 +657,9 @@
     },
     {
       "id": "a-shiji050-007",
-      "subject_person_id": "n7i_i5n_lay_B",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -640,9 +678,9 @@
     },
     {
       "id": "a-shiji050-008",
-      "subject_person_id": "n7i_i5n_lay_BA",
+      "subject_person_id": "yqp_nlb_p1p_DBA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_B",
+      "object_person_id": "yqp_nlb_p1p_DB",
       "status": "source_attested",
       "evidence": [
         {
@@ -661,9 +699,9 @@
     },
     {
       "id": "a-shiji101-006",
-      "subject_person_id": "tan_n80_dof_A",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "tan_n80_dof",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -682,9 +720,9 @@
     },
     {
       "id": "a-shiji106-009",
-      "subject_person_id": "toa_jp7_ex1_A",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "toa_jp7_ex1",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -700,7 +738,7 @@
         "birth_order": {
           "ordinal": null,
           "position": "younger_or_youngest",
-          "parent_person_id": "toa_jp7_ex1",
+          "parent_person_id": "yqp_nlb_p1p_D",
           "scope": "sons_of_parent",
           "interpretation_status": "ambiguous",
           "source_term": "少子",
@@ -713,15 +751,9 @@
   ],
   "related_people": {
     "6ds_5ek_8sw": "劉禮（袁盎鼂錯列傳候選）",
-    "n7i_i5n_lay": "劉交（楚元王世家候選）",
-    "n7i_i5n_lay_B": "禮楚文王（楚元王世家候選）",
-    "n7i_i5n_lay_BA": "道（楚元王世家候選）",
-    "tan_n80_dof": "元王未具名（袁盎鼂錯列傳候選）",
-    "tan_n80_dof_A": "禮（元王子）（袁盎鼂錯列傳候選）",
-    "toa_jp7_ex1": "楚元王（吳王濞列傳候選）",
-    "toa_jp7_ex1_A": "平陸侯禮（吳王濞列傳候選）",
-    "zju_pdu_xge": "劉交",
-    "zju_pdu_xge_B": "禮（楚元王子）"
+    "yqp_nlb_p1p_D": "劉交",
+    "yqp_nlb_p1p_DB": "禮（楚元王子）",
+    "yqp_nlb_p1p_DBA": "道（楚元王世家候選）"
   },
   "dates": [
     {
@@ -765,24 +797,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji101-032",
-      "person_id": "tan_n80_dof_A",
+      "person_id": "yqp_nlb_p1p_DB",
       "endpoint": "start",
       "title": "楚王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "n7i_i5n_lay_B",
-    "tan_n80_dof_A",
-    "toa_jp7_ex1_A",
-    "zju_pdu_xge_B"
+    "yqp_nlb_p1p_DB"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji011-005",
-      "subject_person_id": "zju_pdu_xge_B",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "zju_pdu_xge",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -801,9 +830,9 @@
     },
     {
       "id": "a-shiji050-007",
-      "subject_person_id": "n7i_i5n_lay_B",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -822,9 +851,9 @@
     },
     {
       "id": "a-shiji050-008",
-      "subject_person_id": "n7i_i5n_lay_BA",
+      "subject_person_id": "yqp_nlb_p1p_DBA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_B",
+      "object_person_id": "yqp_nlb_p1p_DB",
       "status": "source_attested",
       "evidence": [
         {
@@ -843,9 +872,9 @@
     },
     {
       "id": "a-shiji101-006",
-      "subject_person_id": "tan_n80_dof_A",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "tan_n80_dof",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -864,9 +893,9 @@
     },
     {
       "id": "a-shiji106-009",
-      "subject_person_id": "toa_jp7_ex1_A",
+      "subject_person_id": "yqp_nlb_p1p_DB",
       "predicate": "father",
-      "object_person_id": "toa_jp7_ex1",
+      "object_person_id": "yqp_nlb_p1p_D",
       "status": "source_attested",
       "evidence": [
         {
@@ -882,7 +911,7 @@
         "birth_order": {
           "ordinal": null,
           "position": "younger_or_youngest",
-          "parent_person_id": "toa_jp7_ex1",
+          "parent_person_id": "yqp_nlb_p1p_D",
           "scope": "sons_of_parent",
           "interpretation_status": "ambiguous",
           "source_term": "少子",
@@ -897,7 +926,7 @@
   "life_events": [
     {
       "id": "le-shiji050-007",
-      "person_id": "n7i_i5n_lay_B",
+      "person_id": "yqp_nlb_p1p_DB",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

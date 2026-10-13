@@ -1,20 +1,21 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAMA",
-  "canonical_person_id": "1c8_u63_bk4_KA",
-  "label": "yqp_nlb_p1p_ACAMA",
+  "canonical_person_id": "yqp_nlb_p1p_ACAMA",
+  "label": "賢（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "賢",
     "膠東王",
     "膠東王賢",
-    "哀王"
+    "哀王",
+    "哀王賢"
   ],
   "titles": [
     {
       "id": "th-shiji059-048",
-      "person_id": "1c8_u63_bk4_KA",
+      "person_id": "yqp_nlb_p1p_ACAMA",
       "title": "膠東王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -61,7 +62,7 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。 保存本王原詞在位年數，計年方式未知，不當享年或倒推精確公曆起訖。",
       "reviewer": "Codex（AI 代理）",
       "inheritance": {
-        "predecessor_person_id": "1c8_u63_bk4_K",
+        "predecessor_person_id": "yqp_nlb_p1p_ACAM",
         "predecessor_holding_id": "th-shiji059-047",
         "resolved_title": "膠東王",
         "source_term": "乃以賢為膠東王奉康王嗣",
@@ -99,7 +100,7 @@
     },
     {
       "id": "th-shiji059-050",
-      "person_id": "1c8_u63_bk4_KA",
+      "person_id": "yqp_nlb_p1p_ACAMA",
       "title": "哀王",
       "kind": "honorific",
       "mode": "posthumous_naming",
@@ -173,7 +174,44 @@
       "quote": "於上最親，意傷之，發病而死，不敢置後，於是上（問）［聞］。寄有長子者名賢，母無寵；少子名慶，母愛幸，寄常欲立之，為不次，因有過，遂無言。上憐之，乃以賢為膠東王奉康王嗣，而封慶於故衡山地，為六安王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r087-c11",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "哀王賢元年",
+      "year": {
+        "era": "BCE",
+        "value": 120,
+        "astronomical_year": -119,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "120",
+        "source_cell_id": "shiji-017-t1-r087-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r087-c11-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "哀王賢",
+        "person_id": "yqp_nlb_p1p_ACAMA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p029",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAMA",
+            "quote": "膠東王賢立十四年卒，謚為哀王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -203,9 +241,9 @@
   "relations": [
     {
       "id": "a-shiji059-037",
-      "subject_person_id": "1c8_u63_bk4_KA",
+      "subject_person_id": "yqp_nlb_p1p_ACAMA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_K",
+      "object_person_id": "yqp_nlb_p1p_ACAM",
       "status": "source_attested",
       "evidence": [
         {
@@ -224,9 +262,9 @@
     },
     {
       "id": "a-shiji059-039",
-      "subject_person_id": "1c8_u63_bk4_KAA",
+      "subject_person_id": "yqp_nlb_p1p_ACAMAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_KA",
+      "object_person_id": "yqp_nlb_p1p_ACAMA",
       "status": "source_attested",
       "evidence": [
         {
@@ -245,21 +283,21 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_K": "寄（五宗世家候選）",
-    "1c8_u63_bk4_KA": "賢（五宗世家候選）",
-    "1c8_u63_bk4_KAA": "膠東慶（五宗世家候選）"
+    "yqp_nlb_p1p_ACAM": "寄（景帝子）",
+    "yqp_nlb_p1p_ACAMA": "賢（五宗世家候選）",
+    "yqp_nlb_p1p_ACAMAA": "膠東慶（五宗世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_KA"
+    "yqp_nlb_p1p_ACAMA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-037",
-      "subject_person_id": "1c8_u63_bk4_KA",
+      "subject_person_id": "yqp_nlb_p1p_ACAMA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_K",
+      "object_person_id": "yqp_nlb_p1p_ACAM",
       "status": "source_attested",
       "evidence": [
         {
@@ -278,9 +316,9 @@
     },
     {
       "id": "a-shiji059-039",
-      "subject_person_id": "1c8_u63_bk4_KAA",
+      "subject_person_id": "yqp_nlb_p1p_ACAMAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_KA",
+      "object_person_id": "yqp_nlb_p1p_ACAMA",
       "status": "source_attested",
       "evidence": [
         {
@@ -302,7 +340,7 @@
   "life_events": [
     {
       "id": "le-shiji059-010",
-      "person_id": "1c8_u63_bk4_KA",
+      "person_id": "yqp_nlb_p1p_ACAMA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "十四年",

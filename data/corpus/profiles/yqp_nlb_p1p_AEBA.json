@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_AEBA",
-  "canonical_person_id": "449_z10_mji_A",
-  "label": "yqp_nlb_p1p_AEBA",
+  "canonical_person_id": "yqp_nlb_p1p_AEBA",
+  "label": "福（楚元王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-shiji050-026",
-      "person_id": "449_z10_mji_A",
+      "person_id": "yqp_nlb_p1p_AEBA",
       "title": "哀王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -80,7 +80,44 @@
       "quote": "，立遂弟辟彊，取趙之河閒郡為河閒王，（以）［是］為文王。立十三年卒，子哀王福立。一年卒，無子，絕後，國除，入于漢。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r042-c16",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "哀王福元年。薨，無後，國除為郡。",
+      "year": {
+        "era": "BCE",
+        "value": 165,
+        "astronomical_year": -164,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "165",
+        "source_cell_id": "shiji-017-t1-r042-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r042-c16-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "哀王福",
+        "person_id": "yqp_nlb_p1p_AEBA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-050",
+            "chapter_id": "c-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p008",
+            "source_id": "s-shiji-050-chuyuan",
+            "source_revision": 8737728,
+            "person_id": "yqp_nlb_p1p_AEBA",
+            "quote": "子哀王福立"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-050-chuyuan",
@@ -110,9 +147,9 @@
   "relations": [
     {
       "id": "a-shiji050-014",
-      "subject_person_id": "449_z10_mji_A",
+      "subject_person_id": "yqp_nlb_p1p_AEBA",
       "predicate": "father",
-      "object_person_id": "449_z10_mji",
+      "object_person_id": "yqp_nlb_p1p_AEB",
       "status": "source_attested",
       "evidence": [
         {
@@ -131,20 +168,20 @@
     }
   ],
   "related_people": {
-    "449_z10_mji": "辟彊（楚元王世家候選）",
-    "449_z10_mji_A": "福（楚元王世家候選）"
+    "yqp_nlb_p1p_AEB": "辟彊（趙幽王子）",
+    "yqp_nlb_p1p_AEBA": "福（楚元王世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "449_z10_mji_A"
+    "yqp_nlb_p1p_AEBA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji050-014",
-      "subject_person_id": "449_z10_mji_A",
+      "subject_person_id": "yqp_nlb_p1p_AEBA",
       "predicate": "father",
-      "object_person_id": "449_z10_mji",
+      "object_person_id": "yqp_nlb_p1p_AEB",
       "status": "source_attested",
       "evidence": [
         {
@@ -166,7 +203,7 @@
   "life_events": [
     {
       "id": "le-shiji050-015",
-      "person_id": "449_z10_mji_A",
+      "person_id": "yqp_nlb_p1p_AEBA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

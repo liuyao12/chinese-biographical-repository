@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_DBAA",
-  "canonical_person_id": "n7i_i5n_lay_BAA",
-  "label": "yqp_nlb_p1p_DBAA",
+  "canonical_person_id": "yqp_nlb_p1p_DBAA",
+  "label": "注（楚元王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -13,7 +13,7 @@
   "titles": [
     {
       "id": "th-shiji050-018",
-      "person_id": "n7i_i5n_lay_BAA",
+      "person_id": "yqp_nlb_p1p_DBAA",
       "title": "襄王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -82,7 +82,44 @@
       "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r079-c02",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "襄王注元年",
+      "year": {
+        "era": "BCE",
+        "value": 128,
+        "astronomical_year": -127,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "128",
+        "source_cell_id": "shiji-017-t1-r079-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r079-c02-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "襄王注",
+        "person_id": "yqp_nlb_p1p_DBAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-050",
+            "chapter_id": "c-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "source_id": "s-shiji-050-chuyuan",
+            "source_revision": 8737728,
+            "person_id": "yqp_nlb_p1p_DBAA",
+            "quote": "子襄王注立"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-050-chuyuan",
@@ -112,9 +149,9 @@
   "relations": [
     {
       "id": "a-shiji050-009",
-      "subject_person_id": "n7i_i5n_lay_BAA",
+      "subject_person_id": "yqp_nlb_p1p_DBAA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_BA",
+      "object_person_id": "yqp_nlb_p1p_DBA",
       "status": "source_attested",
       "evidence": [
         {
@@ -133,9 +170,9 @@
     },
     {
       "id": "a-shiji050-010",
-      "subject_person_id": "n7i_i5n_lay_BAAA",
+      "subject_person_id": "yqp_nlb_p1p_DBAAA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_BAA",
+      "object_person_id": "yqp_nlb_p1p_DBAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -154,21 +191,21 @@
     }
   ],
   "related_people": {
-    "n7i_i5n_lay_BA": "道（楚元王世家候選）",
-    "n7i_i5n_lay_BAA": "注（楚元王世家候選）",
-    "n7i_i5n_lay_BAAA": "純（楚元王世家候選）"
+    "yqp_nlb_p1p_DBA": "道（楚元王世家候選）",
+    "yqp_nlb_p1p_DBAA": "注（楚元王世家候選）",
+    "yqp_nlb_p1p_DBAAA": "純（楚元王世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "n7i_i5n_lay_BAA"
+    "yqp_nlb_p1p_DBAA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji050-009",
-      "subject_person_id": "n7i_i5n_lay_BAA",
+      "subject_person_id": "yqp_nlb_p1p_DBAA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_BA",
+      "object_person_id": "yqp_nlb_p1p_DBA",
       "status": "source_attested",
       "evidence": [
         {
@@ -187,9 +224,9 @@
     },
     {
       "id": "a-shiji050-010",
-      "subject_person_id": "n7i_i5n_lay_BAAA",
+      "subject_person_id": "yqp_nlb_p1p_DBAAA",
       "predicate": "father",
-      "object_person_id": "n7i_i5n_lay_BAA",
+      "object_person_id": "yqp_nlb_p1p_DBAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -211,7 +248,7 @@
   "life_events": [
     {
       "id": "le-shiji050-009",
-      "person_id": "n7i_i5n_lay_BAA",
+      "person_id": "yqp_nlb_p1p_DBAA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

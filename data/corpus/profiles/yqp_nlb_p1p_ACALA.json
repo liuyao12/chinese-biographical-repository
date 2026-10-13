@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACALA",
-  "canonical_person_id": "1c8_u63_bk4_DA",
-  "label": "yqp_nlb_p1p_ACALA",
+  "canonical_person_id": "yqp_nlb_p1p_ACALA",
+  "label": "光（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "光",
-    "王"
+    "王",
+    "安王光"
   ],
   "titles": [
     {
       "id": "th-shiji059-018",
-      "person_id": "1c8_u63_bk4_DA",
+      "person_id": "yqp_nlb_p1p_ACALA",
       "title": "王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -59,7 +60,7 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。",
       "reviewer": "Codex（AI 代理）",
       "inheritance": {
-        "predecessor_person_id": "1c8_u63_bk4_D",
+        "predecessor_person_id": "yqp_nlb_p1p_ACAL",
         "predecessor_holding_id": "th-shiji059-017",
         "resolved_title": "魯王",
         "source_term": "子光代為王",
@@ -90,7 +91,44 @@
       "quote": "二十六年卒，子光代為王。初好音輿馬；晚節嗇，惟恐不足於財。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r079-c03",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "安王光元年",
+      "year": {
+        "era": "BCE",
+        "value": 128,
+        "astronomical_year": -127,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "128",
+        "source_cell_id": "shiji-017-t1-r079-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r079-c03-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "安王光",
+        "person_id": "yqp_nlb_p1p_ACALA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p010",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACALA",
+            "quote": "子光代為王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -120,9 +158,9 @@
   "relations": [
     {
       "id": "a-shiji059-030",
-      "subject_person_id": "1c8_u63_bk4_DA",
+      "subject_person_id": "yqp_nlb_p1p_ACALA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_D",
+      "object_person_id": "yqp_nlb_p1p_ACAL",
       "status": "source_attested",
       "evidence": [
         {
@@ -154,20 +192,20 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_D": "餘（五宗世家候選）",
-    "1c8_u63_bk4_DA": "光（五宗世家候選）"
+    "yqp_nlb_p1p_ACAL": "餘（淮陽王）",
+    "yqp_nlb_p1p_ACALA": "光（五宗世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_DA"
+    "yqp_nlb_p1p_ACALA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-030",
-      "subject_person_id": "1c8_u63_bk4_DA",
+      "subject_person_id": "yqp_nlb_p1p_ACALA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_D",
+      "object_person_id": "yqp_nlb_p1p_ACAL",
       "status": "source_attested",
       "evidence": [
         {

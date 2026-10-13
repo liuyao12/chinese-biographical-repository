@@ -23,8 +23,8 @@ def build(root=ROOT):
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
         table_mentions.setdefault(pid, [])
     out = ROOT/'data/corpus/profiles'; out.mkdir(exist_ok=True)
-    # Full exports retain older files for historical links; only the current
-    # registry/index defines which profiles belong in this derived directory.
+    # Only the current registry/index and table mentions define this directory;
+    # retired IDs are removed after all source references have been migrated.
     for path in out.glob('*.json'):
         if path.stem != 'index' and path.stem not in table_mentions: path.unlink()
     for pid, cells in sorted(table_mentions.items()):

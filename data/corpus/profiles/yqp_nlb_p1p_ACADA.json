@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACADA",
-  "canonical_person_id": "1c8_u63_bk4_IA",
-  "label": "yqp_nlb_p1p_ACADA",
+  "canonical_person_id": "yqp_nlb_p1p_ACADA",
+  "label": "庸（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-shiji059-039",
-      "person_id": "1c8_u63_bk4_IA",
+      "person_id": "yqp_nlb_p1p_ACADA",
       "title": "康王",
       "kind": "unclassified",
       "mode": "attestation",
@@ -53,7 +53,7 @@
     },
     {
       "id": "th-shiji059-040",
-      "person_id": "1c8_u63_bk4_IA",
+      "person_id": "yqp_nlb_p1p_ACADA",
       "title": "王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -100,7 +100,7 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。 立、代立支撐承王起點；爵國及諡稱另按所見文字，不補原句未見的完整爵名或精確日。 保存本王原詞在位年數，計年方式未知，不當享年或倒推精確公曆起訖。",
       "reviewer": "Codex（AI 代理）",
       "inheritance": {
-        "predecessor_person_id": "1c8_u63_bk4_I",
+        "predecessor_person_id": "yqp_nlb_p1p_ACAD",
         "predecessor_holding_id": "th-shiji059-038",
         "resolved_title": "長沙王",
         "source_term": "子康王庸立",
@@ -148,7 +148,44 @@
       "quote": "立二十七年卒，子康王庸立。二十八年，卒，子鮒鮈立為長沙王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r079-c27",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "康王庸元年",
+      "year": {
+        "era": "BCE",
+        "value": 128,
+        "astronomical_year": -127,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "128",
+        "source_cell_id": "shiji-017-t1-r079-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r079-c27-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "康王庸",
+        "person_id": "yqp_nlb_p1p_ACADA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p024",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACADA",
+            "quote": "子康王庸立"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -178,9 +215,9 @@
   "relations": [
     {
       "id": "a-shiji059-034",
-      "subject_person_id": "1c8_u63_bk4_IA",
+      "subject_person_id": "yqp_nlb_p1p_ACADA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_I",
+      "object_person_id": "yqp_nlb_p1p_ACAD",
       "status": "source_attested",
       "evidence": [
         {
@@ -212,9 +249,9 @@
     },
     {
       "id": "a-shiji059-035",
-      "subject_person_id": "1c8_u63_bk4_IAA",
+      "subject_person_id": "yqp_nlb_p1p_ACADAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_IA",
+      "object_person_id": "yqp_nlb_p1p_ACADA",
       "status": "source_attested",
       "evidence": [
         {
@@ -233,21 +270,21 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_I": "發（五宗世家候選）",
-    "1c8_u63_bk4_IA": "庸（五宗世家候選）",
-    "1c8_u63_bk4_IAA": "鮒鮈（五宗世家候選）"
+    "yqp_nlb_p1p_ACAD": "發（五宗世家候選）",
+    "yqp_nlb_p1p_ACADA": "庸（五宗世家候選）",
+    "yqp_nlb_p1p_ACADAA": "鮒鮈（五宗世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_IA"
+    "yqp_nlb_p1p_ACADA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-034",
-      "subject_person_id": "1c8_u63_bk4_IA",
+      "subject_person_id": "yqp_nlb_p1p_ACADA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_I",
+      "object_person_id": "yqp_nlb_p1p_ACAD",
       "status": "source_attested",
       "evidence": [
         {
@@ -279,9 +316,9 @@
     },
     {
       "id": "a-shiji059-035",
-      "subject_person_id": "1c8_u63_bk4_IAA",
+      "subject_person_id": "yqp_nlb_p1p_ACADAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_IA",
+      "object_person_id": "yqp_nlb_p1p_ACADA",
       "status": "source_attested",
       "evidence": [
         {
@@ -303,7 +340,7 @@
   "life_events": [
     {
       "id": "le-shiji059-008",
-      "person_id": "1c8_u63_bk4_IA",
+      "person_id": "yqp_nlb_p1p_ACADA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "二十八年",

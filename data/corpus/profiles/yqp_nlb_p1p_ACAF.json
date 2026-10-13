@@ -1,20 +1,22 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAF",
-  "canonical_person_id": "9il_c2d_lan",
-  "label": "yqp_nlb_p1p_ACAF",
+  "canonical_person_id": "yqp_nlb_p1p_ACAF",
+  "label": "廣川王（徙趙王未名）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "廣川王",
     "彭祖",
     "趙王彭祖",
-    "廣川王",
-    "趙王"
+    "趙王",
+    "廣川王彭祖",
+    "敬肅王"
   ],
   "titles": [
     {
       "id": "th-shiji011-027",
-      "person_id": "9il_c2d_lan",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "title": "趙王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -66,7 +68,7 @@
     },
     {
       "id": "th-shiji059-028",
-      "person_id": "1c8_u63_bk4_G",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "title": "廣川王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -153,7 +155,7 @@
     },
     {
       "id": "th-shiji059-029",
-      "person_id": "1c8_u63_bk4_G",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "title": "趙王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -205,7 +207,7 @@
   "addresses": [
     {
       "id": "pa-shiji059-004",
-      "person_id": "1c8_u63_bk4_G",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "relation": "migration_destination",
       "place": {
         "source_name": "邯鄲",
@@ -249,7 +251,116 @@
       "quote": "人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r052-c17",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "三月甲寅，王彭祖元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 155,
+        "astronomical_year": -154,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "155",
+        "source_cell_id": "shiji-017-t1-r052-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r052-c17-review-006",
+        "start": 6,
+        "end": 8,
+        "surface": "彭祖",
+        "person_id": "yqp_nlb_p1p_ACAF",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p017",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAF",
+            "quote": "趙王彭祖"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r055-c15",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "廣川王彭祖徙趙四年。是為敬肅王。",
+      "year": {
+        "era": "BCE",
+        "value": 152,
+        "astronomical_year": -151,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "152",
+        "source_cell_id": "shiji-017-t1-r055-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r055-c15-review-000",
+        "start": 0,
+        "end": 5,
+        "surface": "廣川王彭祖",
+        "person_id": "yqp_nlb_p1p_ACAF",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p017",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAF",
+            "quote": "趙王彭祖"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r055-c15",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "廣川王彭祖徙趙四年。是為敬肅王。",
+      "year": {
+        "era": "BCE",
+        "value": 152,
+        "astronomical_year": -151,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "152",
+        "source_cell_id": "shiji-017-t1-r055-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r055-c15-review-012",
+        "start": 12,
+        "end": 15,
+        "surface": "敬肅王",
+        "person_id": "yqp_nlb_p1p_ACAF",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p017",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAF",
+            "quote": "趙王彭祖"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -303,9 +414,9 @@
   "relations": [
     {
       "id": "a-shiji059-013",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -324,7 +435,7 @@
     },
     {
       "id": "a-shiji059-014",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "mother",
       "object_person_id": "lyq_p1r_87n",
       "status": "source_attested",
@@ -345,9 +456,9 @@
     },
     {
       "id": "a-shiji059-046",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "brother",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {
@@ -366,11 +477,10 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_G": "彭祖（五宗世家候選）",
-    "1c8_u63_bk4_H": "勝（五宗世家候選）",
-    "9il_c2d_lan": "廣川王（徙趙王未名）",
-    "lyq_p1r_87n": "賈夫人（五宗世家候選）"
+    "lyq_p1r_87n": "賈夫人（五宗世家候選）",
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAF": "廣川王（徙趙王未名）",
+    "yqp_nlb_p1p_ACAI": "勝（景帝子）"
   },
   "dates": [
     {
@@ -402,22 +512,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-028",
-      "person_id": "1c8_u63_bk4_G",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "endpoint": "start",
       "title": "廣川王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_G",
-    "9il_c2d_lan"
+    "yqp_nlb_p1p_ACAF"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-013",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -436,7 +545,7 @@
     },
     {
       "id": "a-shiji059-014",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "mother",
       "object_person_id": "lyq_p1r_87n",
       "status": "source_attested",
@@ -457,9 +566,9 @@
     },
     {
       "id": "a-shiji059-046",
-      "subject_person_id": "1c8_u63_bk4_G",
+      "subject_person_id": "yqp_nlb_p1p_ACAF",
       "predicate": "brother",
-      "object_person_id": "1c8_u63_bk4_H",
+      "object_person_id": "yqp_nlb_p1p_ACAI",
       "status": "source_attested",
       "evidence": [
         {

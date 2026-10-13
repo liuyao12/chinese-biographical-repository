@@ -64,6 +64,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
+    resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
     tree_decisions = [decision for record in records if record.get('record_type') == 'family_tree_decision_set'
                       for decision in record['decisions'] if ids.intersection(decision['participant_person_ids'])]
@@ -96,7 +97,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids = {m['paragraph_id'] for m in mentions}
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
-    paragraph_ids.update(pid for case in unresolved_cases for pid in case['paragraph_ids'])
+    paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
@@ -152,6 +153,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'mention_count_policy': {'scope': 'currently_annotated_mentions', 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
+            **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,

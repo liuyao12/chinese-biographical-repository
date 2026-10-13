@@ -1,19 +1,20 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACCAA",
-  "canonical_person_id": "82d_8vl_8i1_CAA",
-  "label": "yqp_nlb_p1p_ACCAA",
+  "canonical_person_id": "yqp_nlb_p1p_ACCAA",
+  "label": "義（梁孝王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "義",
     "代王",
-    "清河王"
+    "清河王",
+    "代王義"
   ],
   "titles": [
     {
       "id": "th-shiji058-010",
-      "person_id": "82d_8vl_8i1_CAA",
+      "person_id": "yqp_nlb_p1p_ACCAA",
       "title": "代王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -100,7 +101,7 @@
     },
     {
       "id": "th-shiji058-011",
-      "person_id": "82d_8vl_8i1_CAA",
+      "person_id": "yqp_nlb_p1p_ACCAA",
       "title": "清河王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -189,7 +190,80 @@
       "quote": "文後二年卒，謚為孝王。子登嗣立，是為代共王。立二十九年，元光二年卒。子義立，是為代王。十九年，漢廣關，以常山為限，而徙代王王清河。清河王徙以元鼎三年也。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r075-c26",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "王義元年",
+      "year": {
+        "era": "BCE",
+        "value": 132,
+        "astronomical_year": -131,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "132",
+        "source_cell_id": "shiji-017-t1-r075-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r075-c26-review-001",
+        "start": 1,
+        "end": 2,
+        "surface": "義",
+        "person_id": "yqp_nlb_p1p_ACCAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-058",
+            "chapter_id": "c-shiji-058-liang",
+            "paragraph_id": "c-shiji-058-liang:p002",
+            "source_id": "s-shiji-058-liang",
+            "source_revision": 8735555,
+            "person_id": "yqp_nlb_p1p_ACCAA",
+            "quote": "子義立，是為代王"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r094-c19",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "二十。代王義徙清河年。是為剛王。",
+      "year": {
+        "era": "BCE",
+        "value": 113,
+        "astronomical_year": -112,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "113",
+        "source_cell_id": "shiji-017-t1-r094-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r094-c19-review-003",
+        "start": 3,
+        "end": 6,
+        "surface": "代王義",
+        "person_id": "yqp_nlb_p1p_ACCAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-058",
+            "chapter_id": "c-shiji-058-liang",
+            "paragraph_id": "c-shiji-058-liang:p002",
+            "source_id": "s-shiji-058-liang",
+            "source_revision": 8735555,
+            "person_id": "yqp_nlb_p1p_ACCAA",
+            "quote": "子義立，是為代王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-058-liang",
@@ -219,9 +293,9 @@
   "relations": [
     {
       "id": "a-shiji058-009",
-      "subject_person_id": "82d_8vl_8i1_CAA",
+      "subject_person_id": "yqp_nlb_p1p_ACCAA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_CA",
+      "object_person_id": "yqp_nlb_p1p_ACCA",
       "status": "source_attested",
       "evidence": [
         {
@@ -240,8 +314,8 @@
     }
   ],
   "related_people": {
-    "82d_8vl_8i1_CA": "登（梁孝王世家候選）",
-    "82d_8vl_8i1_CAA": "義（梁孝王世家候選）"
+    "yqp_nlb_p1p_ACCA": "登（梁孝王世家候選）",
+    "yqp_nlb_p1p_ACCAA": "義（梁孝王世家候選）"
   },
   "dates": [
     {
@@ -273,7 +347,7 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji058-010",
-      "person_id": "82d_8vl_8i1_CAA",
+      "person_id": "yqp_nlb_p1p_ACCAA",
       "endpoint": "end",
       "title": "代王"
     },
@@ -306,21 +380,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji058-011",
-      "person_id": "82d_8vl_8i1_CAA",
+      "person_id": "yqp_nlb_p1p_ACCAA",
       "endpoint": "start",
       "title": "清河王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "82d_8vl_8i1_CAA"
+    "yqp_nlb_p1p_ACCAA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji058-009",
-      "subject_person_id": "82d_8vl_8i1_CAA",
+      "subject_person_id": "yqp_nlb_p1p_ACCAA",
       "predicate": "father",
-      "object_person_id": "82d_8vl_8i1_CA",
+      "object_person_id": "yqp_nlb_p1p_ACCA",
       "status": "source_attested",
       "evidence": [
         {

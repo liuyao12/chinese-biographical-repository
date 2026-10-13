@@ -1,18 +1,19 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAIAA",
-  "canonical_person_id": "1c8_u63_bk4_HAA",
-  "label": "yqp_nlb_p1p_ACAIAA",
+  "canonical_person_id": "yqp_nlb_p1p_ACAIAA",
+  "label": "昆侈（五宗世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "昆侈",
-    "中山王"
+    "中山王",
+    "康王昆侈"
   ],
   "titles": [
     {
       "id": "th-shiji059-036",
-      "person_id": "1c8_u63_bk4_HAA",
+      "person_id": "yqp_nlb_p1p_ACAIAA",
       "title": "中山王",
       "kind": "royal_rank",
       "mode": "accession",
@@ -59,7 +60,7 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。",
       "reviewer": "Codex（AI 代理）",
       "inheritance": {
-        "predecessor_person_id": "1c8_u63_bk4_HA",
+        "predecessor_person_id": "yqp_nlb_p1p_ACAIA",
         "predecessor_holding_id": "th-shiji059-035",
         "resolved_title": "中山王",
         "source_term": "子昆侈代為中山王",
@@ -90,7 +91,44 @@
       "quote": "立四十二年卒，子哀王昌立。一年卒，子昆侈代為中山王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r096-c18",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "康王昆侈元年。",
+      "year": {
+        "era": "BCE",
+        "value": 111,
+        "astronomical_year": -110,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "111",
+        "source_cell_id": "shiji-017-t1-r096-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r096-c18-review-000",
+        "start": 0,
+        "end": 4,
+        "surface": "康王昆侈",
+        "person_id": "yqp_nlb_p1p_ACAIAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p021",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAIAA",
+            "quote": "子昆侈代為中山王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-059-wuzong",
@@ -120,9 +158,9 @@
   "relations": [
     {
       "id": "a-shiji059-033",
-      "subject_person_id": "1c8_u63_bk4_HAA",
+      "subject_person_id": "yqp_nlb_p1p_ACAIAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_HA",
+      "object_person_id": "yqp_nlb_p1p_ACAIA",
       "status": "source_attested",
       "evidence": [
         {
@@ -141,20 +179,20 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4_HA": "昌（五宗世家候選）",
-    "1c8_u63_bk4_HAA": "昆侈（五宗世家候選）"
+    "yqp_nlb_p1p_ACAIA": "昌（五宗世家候選）",
+    "yqp_nlb_p1p_ACAIAA": "昆侈（五宗世家候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_HAA"
+    "yqp_nlb_p1p_ACAIAA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-033",
-      "subject_person_id": "1c8_u63_bk4_HAA",
+      "subject_person_id": "yqp_nlb_p1p_ACAIAA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_HA",
+      "object_person_id": "yqp_nlb_p1p_ACAIA",
       "status": "source_attested",
       "evidence": [
         {

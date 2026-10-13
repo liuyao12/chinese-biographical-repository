@@ -11,7 +11,7 @@ class MengchangEvidenceTests(unittest.TestCase):
 
     def test_capture_and_unknown_birth_year_are_not_filled(self):
         events = self.read('life-events', 'events')
-        self.assertFalse(any(e['person_id'] == '5os_ov1_i72' for e in events))
+        self.assertFalse(any(e['person_id'] == 'egy_txn_xs1' for e in events))
         birth = next(e for e in events if e['event_type'] == 'birth')
         self.assertNotIn('normalized_date', birth)
         anonymous = [e for e in events if e['person_id'] in ('trw_uc5_2fn', 'ika_oa1_ubm')]
@@ -29,6 +29,6 @@ class MengchangEvidenceTests(unittest.TestCase):
 
     def test_residence_does_not_become_origin_or_burial(self):
         addresses = self.read('addresses', 'assertions')
-        own = [a for a in addresses if a['person_id'] == '7s4_7ac_lhn_AA']
+        own = [a for a in addresses if a['person_id'] == '7pl_s0g_rkh']
         self.assertFalse(any(a['relation'] in ('biographical_origin', 'birth_place', 'death_place', 'burial_place') for a in own))
         self.assertFalse(any(a['evidence'][0]['paragraph_id'].endswith(':p005') for a in own))

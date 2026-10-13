@@ -1,20 +1,21 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAJ",
-  "canonical_person_id": "h0v_ih3_0v0",
-  "label": "yqp_nlb_p1p_ACAJ",
+  "canonical_person_id": "yqp_nlb_p1p_ACAJ",
+  "label": "越（景帝子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "皇子越",
     "越",
     "廣川惠王越",
     "廣川王",
-    "皇子越"
+    "惠王越"
   ],
   "titles": [
     {
       "id": "th-shiji011-035",
-      "person_id": "h0v_ih3_0v0",
+      "person_id": "yqp_nlb_p1p_ACAJ",
       "title": "廣川王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -66,7 +67,7 @@
     },
     {
       "id": "th-shiji059-042",
-      "person_id": "1c8_u63_bk4_J",
+      "person_id": "yqp_nlb_p1p_ACAJ",
       "title": "廣川惠王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -108,7 +109,7 @@
     },
     {
       "id": "th-shiji059-043",
-      "person_id": "1c8_u63_bk4_J",
+      "person_id": "yqp_nlb_p1p_ACAJ",
       "title": "廣川王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -205,7 +206,44 @@
       "quote": "于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r059-c17",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月乙巳，惠王越元年。景帝子。",
+      "year": {
+        "era": "BCE",
+        "value": 148,
+        "astronomical_year": -147,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "148",
+        "source_cell_id": "shiji-017-t1-r059-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r059-c17-review-005",
+        "start": 5,
+        "end": 8,
+        "surface": "惠王越",
+        "person_id": "yqp_nlb_p1p_ACAJ",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-059",
+            "chapter_id": "c-shiji-059-wuzong",
+            "paragraph_id": "c-shiji-059-wuzong:p026",
+            "source_id": "s-shiji-059-wuzong",
+            "source_revision": 2621125,
+            "person_id": "yqp_nlb_p1p_ACAJ",
+            "quote": "廣川惠王越"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -259,9 +297,9 @@
   "relations": [
     {
       "id": "a-shiji059-019",
-      "subject_person_id": "1c8_u63_bk4_J",
+      "subject_person_id": "yqp_nlb_p1p_ACAJ",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -280,7 +318,7 @@
     },
     {
       "id": "a-shiji059-020",
-      "subject_person_id": "1c8_u63_bk4_J",
+      "subject_person_id": "yqp_nlb_p1p_ACAJ",
       "predicate": "mother",
       "object_person_id": "qms_rcb_628",
       "status": "source_attested",
@@ -301,9 +339,9 @@
     },
     {
       "id": "a-shiji059-036",
-      "subject_person_id": "1c8_u63_bk4_JA",
+      "subject_person_id": "yqp_nlb_p1p_ACAJA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_J",
+      "object_person_id": "yqp_nlb_p1p_ACAJ",
       "status": "source_attested",
       "evidence": [
         {
@@ -335,11 +373,10 @@
     }
   ],
   "related_people": {
-    "1c8_u63_bk4": "景帝（五宗世家候選）",
-    "1c8_u63_bk4_J": "越（五宗世家候選）",
-    "1c8_u63_bk4_JA": "齊（五宗世家候選）",
-    "h0v_ih3_0v0": "越（景帝子）",
-    "qms_rcb_628": "王夫人兒姁（五宗世家候選）"
+    "qms_rcb_628": "王夫人兒姁（五宗世家候選）",
+    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACAJ": "越（景帝子）",
+    "yqp_nlb_p1p_ACAJA": "齊（五宗世家候選）"
   },
   "dates": [
     {
@@ -371,22 +408,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji059-043",
-      "person_id": "1c8_u63_bk4_J",
+      "person_id": "yqp_nlb_p1p_ACAJ",
       "endpoint": "start",
       "title": "廣川王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "1c8_u63_bk4_J",
-    "h0v_ih3_0v0"
+    "yqp_nlb_p1p_ACAJ"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji059-019",
-      "subject_person_id": "1c8_u63_bk4_J",
+      "subject_person_id": "yqp_nlb_p1p_ACAJ",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4",
+      "object_person_id": "yqp_nlb_p1p_ACA",
       "status": "source_attested",
       "evidence": [
         {
@@ -405,7 +441,7 @@
     },
     {
       "id": "a-shiji059-020",
-      "subject_person_id": "1c8_u63_bk4_J",
+      "subject_person_id": "yqp_nlb_p1p_ACAJ",
       "predicate": "mother",
       "object_person_id": "qms_rcb_628",
       "status": "source_attested",
@@ -426,9 +462,9 @@
     },
     {
       "id": "a-shiji059-036",
-      "subject_person_id": "1c8_u63_bk4_JA",
+      "subject_person_id": "yqp_nlb_p1p_ACAJA",
       "predicate": "father",
-      "object_person_id": "1c8_u63_bk4_J",
+      "object_person_id": "yqp_nlb_p1p_ACAJ",
       "status": "source_attested",
       "evidence": [
         {
@@ -463,7 +499,7 @@
   "life_events": [
     {
       "id": "le-shiji059-020",
-      "person_id": "1c8_u63_bk4_J",
+      "person_id": "yqp_nlb_p1p_ACAJ",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

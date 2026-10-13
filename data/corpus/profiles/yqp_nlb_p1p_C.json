@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "id": "yqp_nlb_p1p_C",
-  "canonical_person_id": "p7f_7ie_ydf",
-  "label": "yqp_nlb_p1p_C",
+  "canonical_person_id": "yqp_nlb_p1p_C",
+  "label": "仲（楚元王世家候選）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -12,7 +12,7 @@
   "titles": [
     {
       "id": "th-shiji008-023",
-      "person_id": "hp2_cuk_57t",
+      "person_id": "yqp_nlb_p1p_C",
       "title": "代王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -70,7 +70,7 @@
     },
     {
       "id": "th-shiji008-024",
-      "person_id": "hp2_cuk_57t",
+      "person_id": "yqp_nlb_p1p_C",
       "title": "合陽侯",
       "kind": "noble_rank",
       "mode": "demotion",
@@ -120,7 +120,7 @@
     },
     {
       "id": "th-shiji050-004",
-      "person_id": "p7f_7ie_ydf",
+      "person_id": "yqp_nlb_p1p_C",
       "title": "王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -170,7 +170,7 @@
     },
     {
       "id": "th-shiji106-001",
-      "person_id": "dlg_vnw_1bi",
+      "person_id": "yqp_nlb_p1p_C",
       "title": "代王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -257,7 +257,7 @@
     },
     {
       "id": "th-shiji106-002",
-      "person_id": "dlg_vnw_1bi",
+      "person_id": "yqp_nlb_p1p_C",
       "title": "郃陽侯",
       "kind": "noble_rank",
       "mode": "demotion",
@@ -309,7 +309,7 @@
   "addresses": [
     {
       "id": "pa-shiji008-188",
-      "person_id": "hp2_cuk_57t",
+      "person_id": "yqp_nlb_p1p_C",
       "relation": "migration_destination",
       "place": {
         "source_name": "雒陽",
@@ -361,7 +361,64 @@
       "quote": "吳王濞者，高帝兄劉仲之子也。高帝已定天下七年，立劉仲為代王。而匈奴攻代，劉仲不能堅守，棄國亡，閒行走雒陽，自歸天子。天子為骨肉故，不忍致法，廢以為郃陽侯。高帝十一年秋，淮南王英布反，東并荊地，劫其國兵，西度淮，擊楚，高帝"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-018",
+      "cell_id": "shiji-018-t1-r095-c02",
+      "title": "《史記·高祖功臣侯者年表》",
+      "quote": "五。八年九月丙子，侯劉仲元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-018-t1-r095-c02-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "劉仲",
+        "person_id": "yqp_nlb_p1p_C",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-018",
+      "cell_id": "shiji-018-t1-r106-c01",
+      "title": "《史記·高祖功臣侯者年表》",
+      "quote": "高祖兄合陽侯劉仲子，侯。",
+      "year": null,
+      "mention": {
+        "id": "shiji-018-t1-r106-c01-m000",
+        "start": 6,
+        "end": 8,
+        "surface": "劉仲",
+        "person_id": "yqp_nlb_p1p_C",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r006-c02",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "尊太公為太上皇。劉仲為代王。立大市。更命咸陽曰長安。",
+      "year": {
+        "era": "BCE",
+        "value": 201,
+        "astronomical_year": -200,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "201",
+        "source_cell_id": "shiji-022-t1-r006-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r006-c02-m000",
+        "start": 8,
+        "end": 10,
+        "surface": "劉仲",
+        "person_id": "yqp_nlb_p1p_C",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-008-gaozu",
@@ -441,7 +498,7 @@
   "relations": [
     {
       "id": "a-shiji008-014",
-      "subject_person_id": "hp2_cuk_57t",
+      "subject_person_id": "yqp_nlb_p1p_C",
       "predicate": "brother",
       "object_person_id": "yqp_nlb_p1p_A",
       "status": "source_attested",
@@ -462,9 +519,9 @@
     },
     {
       "id": "a-shiji050-003",
-      "subject_person_id": "p7f_7ie_ydf",
+      "subject_person_id": "yqp_nlb_p1p_C",
       "predicate": "brother",
-      "object_person_id": "lfb_885_np1",
+      "object_person_id": "yqp_nlb_p1p_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -483,9 +540,9 @@
     },
     {
       "id": "a-shiji106-001",
-      "subject_person_id": "dlg_vnw_1bi_A",
+      "subject_person_id": "yqp_nlb_p1p_CA",
       "predicate": "father",
-      "object_person_id": "dlg_vnw_1bi",
+      "object_person_id": "yqp_nlb_p1p_C",
       "status": "source_attested",
       "evidence": [
         {
@@ -504,12 +561,9 @@
     }
   ],
   "related_people": {
-    "dlg_vnw_1bi": "劉仲（吳王濞列傳候選）",
-    "dlg_vnw_1bi_A": "劉濞（吳王濞列傳候選）",
-    "hp2_cuk_57t": "劉仲",
-    "lfb_885_np1": "高祖（楚元王世家候選）",
-    "p7f_7ie_ydf": "仲（楚元王世家候選）",
-    "yqp_nlb_p1p_A": "沛公（本卷稱呼）"
+    "yqp_nlb_p1p_A": "沛公（本卷稱呼）",
+    "yqp_nlb_p1p_C": "仲（楚元王世家候選）",
+    "yqp_nlb_p1p_CA": "劉濞"
   },
   "dates": [
     {
@@ -541,21 +595,19 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "record_id": "th-shiji106-001",
-      "person_id": "dlg_vnw_1bi",
+      "person_id": "yqp_nlb_p1p_C",
       "endpoint": "start",
       "title": "代王"
     }
   ],
   "name_components": [],
   "person_ids": [
-    "dlg_vnw_1bi",
-    "hp2_cuk_57t",
-    "p7f_7ie_ydf"
+    "yqp_nlb_p1p_C"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji008-014",
-      "subject_person_id": "hp2_cuk_57t",
+      "subject_person_id": "yqp_nlb_p1p_C",
       "predicate": "brother",
       "object_person_id": "yqp_nlb_p1p_A",
       "status": "source_attested",
@@ -576,9 +628,9 @@
     },
     {
       "id": "a-shiji050-003",
-      "subject_person_id": "p7f_7ie_ydf",
+      "subject_person_id": "yqp_nlb_p1p_C",
       "predicate": "brother",
-      "object_person_id": "lfb_885_np1",
+      "object_person_id": "yqp_nlb_p1p_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -597,9 +649,9 @@
     },
     {
       "id": "a-shiji106-001",
-      "subject_person_id": "dlg_vnw_1bi_A",
+      "subject_person_id": "yqp_nlb_p1p_CA",
       "predicate": "father",
-      "object_person_id": "dlg_vnw_1bi",
+      "object_person_id": "yqp_nlb_p1p_C",
       "status": "source_attested",
       "evidence": [
         {
