@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `teh_acc_5xb` | 葉公（救楚惠王者） | [《史記・楚世家》][22] | [JSON](teh_acc_5xb.json) |
-| `tem_nwk_wxr` | 范生 | [《史記・酷吏列傳》][104] | [JSON](tem_nwk_wxr.json) |
-| `ten_534_ssn` | 孔文子 | [《史記・孔子世家》][29] | [JSON](ten_534_ssn.json) |
 | `tf3_lxa_cj1` | 紂 | [《史記・匈奴列傳》][92] | [JSON](tf3_lxa_cj1.json) |
 | `tf4_u8e_55t` | 魏哆 | [《史記・趙世家》][25] | [JSON](tf4_u8e_55t.json) |
 | `tfu_611_q19` | 潁陰侯嬰（本段稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tfu_611_q19.json) |
@@ -193,7 +190,6 @@
 | `upt_y7g_i6w` | 駟鈞 | [《史記・齊悼惠王世家》][34] | [JSON](upt_y7g_i6w.json) |
 | `upx_wco_6uv` | 齊懿仲（欲妻敬仲者） | [《史記・田敬仲完世家》][28] | [JSON](upx_wco_6uv.json) |
 | `uq6_74z_vtv` | 張儀 | [《史記・張儀列傳》][52] | [JSON](uq6_74z_vtv.json) |
-| `uqb_kzh_4me` | 靳尚 | [《史記・屈原賈生列傳》][66] | [JSON](uqb_kzh_4me.json) |
 | `uqj_7pn_biu` | 鄭桓公（初封記事） | [《史記・燕召公世家》][16] | [JSON](uqj_7pn_biu.json) |
 | `uqv_78v_j7w` | 晁錯 | [《史記・楚元王世家》][32] | [JSON](uqv_78v_j7w.json) |
 | `ur3_6rb_cp2` | 趙王遷母未名 | [《史記・張釋之馮唐列傳》][84] | [JSON](ur3_6rb_cp2.json) |
@@ -677,7 +673,6 @@
 | `xxq_gha_m5y` | 猶（楚哀王） | [《史記・楚世家》][22] | [JSON](xxq_gha_m5y.json) |
 | `xxs_ub0_7rv` | 龍且 | [《史記・淮陰侯列傳》][74] | [JSON](xxs_ub0_7rv.json) |
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][22] | [JSON](xxw_nqn_rub.json) |
-| `xxy_58r_nto` | 秦惠王 | [《史記・屈原賈生列傳》][66] | [JSON](xxy_58r_nto.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][14] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][6] | [JSON](xyx_811_vue.json) |
 | `xz1_j5k_z0t` | 審食其 | [《史記・韓信盧綰列傳》][75] | [JSON](xz1_j5k_z0t.json) |

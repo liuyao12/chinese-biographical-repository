@@ -1545,7 +1545,6 @@
 | `ozf_h3v_dmz` | 步叔乘 | [《史記・仲尼弟子列傳》][49] | [JSON](ozf_h3v_dmz.json) |
 | `ozj_rzf_gki` | 太子免 | [《史記・田敬仲完世家》][28] | [JSON](ozj_rzf_gki.json) |
 | `ozm_m75_ta9` | 呂他 | [《史記・呂太后本紀》][9] | [JSON](ozm_m75_ta9.json) |
-| `ozo_bsb_cnj` | 鄭袖 | [《史記・屈原賈生列傳》][66] | [JSON](ozo_bsb_cnj.json) |
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][29] | [JSON](p00_7fd_aoy.json) |
 | `p03_ogp_trh` | 湯（古王引語） | [《史記・酈生陸賈列傳》][79] | [JSON](p03_ogp_trh.json) |
 | `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](p06_lrs_tg7.json) |
@@ -1800,7 +1799,6 @@
 | `qp2_lcv_aui` | 右賢王（未名，弔使所指） | [《史記・匈奴列傳》][92] | [JSON](qp2_lcv_aui.json) |
 | `qpo_0gi_vsj` | 減宣 | [《史記・酷吏列傳》][104] | [JSON](qpo_0gi_vsj.json) |
 | `qpp_zx9_6a8` | 樗裏疾（楚篇合秦議者） | [《史記・楚世家》][22] | [JSON](qpp_zx9_6a8.json) |
-| `qpw_pw5_eqn` | 屈原 | [《史記・屈原賈生列傳》][66] | [JSON](qpw_pw5_eqn.json) |
 | `qpy_4ge_ve0` | 介子推（重耳從亡者） | [《史記・晉世家》][21] | [JSON](qpy_4ge_ve0.json) |
 | `qq3_6ej_sfv` | 專諸 | [《史記・司馬相如列傳》][99] | [JSON](qq3_6ej_sfv.json) |
 | `qqe_yxh_v49` | 常壽過（越大夫） | [《史記・楚世家》][22] | [JSON](qqe_yxh_v49.json) |
@@ -1971,7 +1969,6 @@
 | `rpk_mne_stx` | 楊何 | [《史記・儒林列傳》][103] | [JSON](rpk_mne_stx.json) |
 | `rpq_wnw_7p6` | 契（孔子世家詩傳說） | [《史記・孔子世家》][29] | [JSON](rpq_wnw_7p6.json) |
 | `rpx_tx6_nuq` | 申黨 | [《史記・仲尼弟子列傳》][49] | [JSON](rpx_tx6_nuq.json) |
-| `rq9_a9c_79b` | 張儀 | [《史記・屈原賈生列傳》][66] | [JSON](rq9_a9c_79b.json) |
 | `rqi_av3_iy9` | 閻樂 | [《史記・秦始皇本紀》][6] | [JSON](rqi_av3_iy9.json) |
 | `rqn_ani_vy5` | 高袪 | [《史記・張釋之馮唐列傳》][84] | [JSON](rqn_ani_vy5.json) |
 | `rqv_zm4_apj` | 王蠋 | [《史記・田單列傳》][64] | [JSON](rqv_zm4_apj.json) |
@@ -2241,6 +2238,9 @@
 | `tdu_jkc_cnu` | 呂祿女（後少帝皇后） | [《史記・呂太后本紀》][9] | [JSON](tdu_jkc_cnu.json) |
 | `tdu_n2l_m4p` | 樂乘 | [《史記・樂毅列傳》][62] | [JSON](tdu_n2l_m4p.json) |
 | `tdz_63e_0nm` | 李牧 | [《史記・匈奴列傳》][92] | [JSON](tdz_63e_0nm.json) |
+| `teh_acc_5xb` | 葉公（救楚惠王者） | [《史記・楚世家》][22] | [JSON](teh_acc_5xb.json) |
+| `tem_nwk_wxr` | 范生 | [《史記・酷吏列傳》][104] | [JSON](tem_nwk_wxr.json) |
+| `ten_534_ssn` | 孔文子 | [《史記・孔子世家》][29] | [JSON](ten_534_ssn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

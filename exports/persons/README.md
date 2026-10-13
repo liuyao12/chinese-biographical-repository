@@ -1076,15 +1076,6 @@
 
 </details>
 
-<details><summary><code>f7y_qvp_mch</code> 楚懷王（屈原賈生列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 楚懷王 | [《史記・屈原賈生列傳》][66] | [JSON](f7y_qvp_mch.json) |
-| `B` | 頃襄王 | [《史記・屈原賈生列傳》][66] | [JSON](f7y_qvp_mch_B.json) |
-
-</details>
-
 <details><summary><code>f8d_j5p_nop</code> 孔防叔（孔子世家候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
