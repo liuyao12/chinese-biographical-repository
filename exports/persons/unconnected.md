@@ -448,7 +448,6 @@
 | `32l_gy6_4fi` | 趙奢 | [《史記・秦始皇本紀》][6] | [JSON](32l_gy6_4fi.json) |
 | `32m_9wz_1y5` | 會稽守通 | [《史記・項羽本紀》][7] | [JSON](32m_9wz_1y5.json) |
 | `32w_2ob_y8q` | 句井疆 | [《史記・仲尼弟子列傳》][49] | [JSON](32w_2ob_y8q.json) |
-| `335_2xl_tn8` | 秦皇帝引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](335_2xl_tn8.json) |
 | `335_flt_fs5` | 傳舍長未名 | [《史記・孟嘗君列傳》][57] | [JSON](335_flt_fs5.json) |
 | `339_a7b_n8d` | 周天子（孔子世家踐土未名者） | [《史記・孔子世家》][29] | [JSON](339_a7b_n8d.json) |
 | `33c_qfa_gcj` | 壺黶 | [《史記・仲尼弟子列傳》][49] | [JSON](33c_qfa_gcj.json) |
@@ -1711,7 +1710,6 @@
 | `b8c_ev6_7ax` | 膠東康王（本卷未名） | [《史記・孝武本紀》][12] | [JSON](b8c_ev6_7ax.json) |
 | `bad_bqg_ijn` | 知伯 | [《史記・鄭世家》][24] | [JSON](bad_bqg_ijn.json) |
 | `baj_rkd_i0t` | 陳莊 | [《史記・張儀列傳》][52] | [JSON](baj_rkd_i0t.json) |
-| `ban_njw_2yn` | 燕丹引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ban_njw_2yn.json) |
 | `bas_qk7_iyc` | 后緡 | [《史記・吳太伯世家》][13] | [JSON](bas_qk7_iyc.json) |
 | `bb8_fpc_b3e` | 龍賈 | [《史記・秦本紀》][5] | [JSON](bb8_fpc_b3e.json) |
 | `bb9_ay5_fta` | 晉厲公 | [《史記・趙世家》][25] | [JSON](bb9_ay5_fta.json) |
@@ -2231,6 +2229,8 @@
 | `eku_vg7_a7e` | 樂毅 | [《史記・陳涉世家》][30] | [JSON](eku_vg7_a7e.json) |
 | `elm_iea_s2h` | 嚴彭祖 | [《史記・平津侯主父列傳》][94] | [JSON](elm_iea_s2h.json) |
 | `emm_08p_2n8` | 魏文侯（楚篇三晉記事） | [《史記・楚世家》][22] | [JSON](emm_08p_2n8.json) |
+| `eng_0y0_ha6` | 公孫戎奴 | [《史記・衛將軍驃騎列傳》][93] | [JSON](eng_0y0_ha6.json) |
+| `ens_bv2_oaj` | 齊太醫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ens_bv2_oaj.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
