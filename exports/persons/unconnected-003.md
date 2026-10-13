@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
 | `swf_ksm_2oo` | 宋雍氏女 | [《史記・鄭世家》][24] | [JSON](swf_ksm_2oo.json) |
 | `swy_2d0_4yn` | 驃騎 | [《史記・太史公自序》][112] | [JSON](swy_2d0_4yn.json) |
 | `sx2_wyn_nhr` | 穆王 | [《史記・周本紀》][4] | [JSON](sx2_wyn_nhr.json) |
@@ -1006,7 +1005,6 @@
 | `zfk_w9y_0b8` | 百里奚（引古） | [《史記・淮陰侯列傳》][74] | [JSON](zfk_w9y_0b8.json) |
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][12] | [JSON](zg6_76t_xid.json) |
 | `zg6_7x0_rlx` | 軒轅 | [《史記・司馬相如列傳》][99] | [JSON](zg6_7x0_rlx.json) |
-| `zg8_rjh_2jl` | 主父沙丘 | [《史記・范睢蔡澤列傳》][61] | [JSON](zg8_rjh_2jl.json) |
 | `zgg_ncu_lxg` | 管仲 | [《史記・平津侯主父列傳》][94] | [JSON](zgg_ncu_lxg.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][89] | [JSON](zgm_3w8_12c.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][32] | [JSON](zh2_5e4_ikn.json) |

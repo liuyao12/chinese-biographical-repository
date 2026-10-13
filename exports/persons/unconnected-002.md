@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eet_iph_y41` | 魏王犀首事件 | [《史記・張儀列傳》][52] | [JSON](eet_iph_y41.json) |
 | `eey_euc_j6a` | 荀卿 | [《史記・太史公自序》][112] | [JSON](eey_euc_j6a.json) |
 | `eey_qdy_jzn` | 宋遺（辱齊勇士） | [《史記・楚世家》][22] | [JSON](eey_qdy_jzn.json) |
 | `ef3_dqb_tig` | 盧綰 | [《史記・太史公自序》][112] | [JSON](ef3_dqb_tig.json) |
@@ -2242,6 +2241,7 @@
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 | `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
 | `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
+| `svx_710_4bw` | 宰孔（周葵丘使者） | [《史記・晉世家》][21] | [JSON](svx_710_4bw.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

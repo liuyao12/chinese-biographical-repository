@@ -2223,7 +2223,6 @@
 | `ecn_gan_nzt` | 梁惠王引古 | [《史記・穰侯列傳》][54] | [JSON](ecn_gan_nzt.json) |
 | `ect_8nl_o9f` | 勝屠公 | [《史記・酷吏列傳》][104] | [JSON](ect_8nl_o9f.json) |
 | `ect_ro2_yyf` | 慶封 | [《史記・齊太公世家》][14] | [JSON](ect_ro2_yyf.json) |
-| `edg_w12_1tw` | 楚懷王 | [《史記・范睢蔡澤列傳》][61] | [JSON](edg_w12_1tw.json) |
 | `edi_tx6_0zm` | 召引功 | [《史記・白起王翦列傳》][55] | [JSON](edi_tx6_0zm.json) |
 | `edm_4zm_yh1` | 叔向 | [《史記・晉世家》][21] | [JSON](edm_4zm_yh1.json) |
 | `edz_j1e_1qg` | 孝惠 | [《史記・佞幸列傳》][107] | [JSON](edz_j1e_1qg.json) |
@@ -2231,6 +2230,7 @@
 | `ee9_kk5_7tj` | 師曠 | [《史記・晉世家》][21] | [JSON](ee9_kk5_7tj.json) |
 | `eee_3o6_5s7` | 從史未名（救袁盎） | [《史記・袁盎鼂錯列傳》][83] | [JSON](eee_3o6_5s7.json) |
 | `eep_7t4_31w` | 慎夫人 | [《史記・袁盎鼂錯列傳》][83] | [JSON](eep_7t4_31w.json) |
+| `eet_iph_y41` | 魏王犀首事件 | [《史記・張儀列傳》][52] | [JSON](eet_iph_y41.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

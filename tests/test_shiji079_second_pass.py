@@ -6,6 +6,28 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FanCaiIdentityTests(unittest.TestCase):
+    def test_shaqiu_zhufu_is_resolved_without_harmonizing_duration(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p017'))
+        mention = next(m for m in paragraph['mentions'] if m['surface'] == '主父')
+        self.assertEqual(mention['person_id'], 'txj_z8z_5me_A')
+        self.assertIn('百日而餓死', paragraph['text'])
+        zhao = json.loads((ROOT / 'corpus/shiji/043.json').read_text())
+        account = next(p for p in zhao['paragraphs'] if p['id'].endswith(':p081'))
+        self.assertIn('三月餘而餓死沙丘宮', account['text'])
+        events = json.loads((ROOT / 'corpus/shiji/079-life-events.json').read_text())['events']
+        event = next(e for e in events if e['person_id'] == mention['person_id'])
+        self.assertEqual(event['normalized_date']['era_year'], 295)
+        self.assertEqual(event['normalized_date']['precision'], 'year')
+
+    def test_huaiwang_death_does_not_use_retrospective_qin_year(self):
+        events = json.loads((ROOT / 'corpus/shiji/079-life-events.json').read_text())['events']
+        event = next(e for e in events if e['person_id'] == 'c2w_s7g_en0')
+        self.assertEqual(event['normalized_date']['era_year'], 296)
+        self.assertEqual(event['normalized_date']['basis']['kind'], 'parallel_event')
+        self.assertEqual(event['normalized_date']['basis']['source_event_quote'], '幽死於秦')
+        self.assertTrue(any('頃襄王三年' in r['quote'] for r in event['normalized_date']['references']))
+
     def test_mengchang_short_forms_do_not_relink_other_wenzi(self):
         chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
         selected = [m for p in chapter['paragraphs'] for m in p['mentions']
