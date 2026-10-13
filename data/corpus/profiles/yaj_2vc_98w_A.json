@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "yaj_2vc_98w_A",
+  "canonical_person_id": "yaj_2vc_98w_A",
+  "label": "娃嬴（趙世家孟姚惠后候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "娃嬴",
+    "孟姚",
+    "惠后",
+    "惠后吳娃",
+    "吳娃"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-045",
+      "person_id": "yaj_2vc_98w_A",
+      "title": "惠后",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p064",
+          "quote": "十六年，秦惠王卒。王遊大陵。他日，王夢見處女鼓琴而歌詩曰：「美人熒熒兮，顏若苕之榮。命乎命乎，曾無我嬴！」異日，王飲酒樂，數言所夢，想見其狀。吳廣聞之，因夫人而内其女娃嬴。孟姚也。孟姚甚有寵於王，是爲惠后。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-045:a001",
+          "paragraph_id": "c-shiji-043-zhao:p064",
+          "start": 100,
+          "end": 102,
+          "surface": "惠后",
+          "person_mention_id": "c-shiji-043-zhao:m064-0100",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "官稱、任命與敘事王號分存；不由卒、首次用稱或迎立代推所有任期。「五國相王」趙獨否保留，先前武靈王用稱不等於此年受王號。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p064",
+      "count": 8,
+      "quote": "無我嬴！」異日，王飲酒樂，數言所夢，想見其狀。吳廣聞之，因夫人而内其女娃嬴。孟姚也。孟姚甚有寵於王，是爲惠后。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r176-c05",
+      "title": "《史記·六國年表》",
+      "quote": "二十五。趙攻中山。惠后卒。",
+      "year": {
+        "era": "BCE",
+        "value": 301,
+        "astronomical_year": -300,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "301",
+        "source_cell_id": "shiji-015-r176-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r176-c05-m009",
+        "start": 9,
+        "end": 11,
+        "surface": "惠后",
+        "person_id": "yaj_2vc_98w_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji043-054",
+      "subject_person_id": "yaj_2vc_98w_A",
+      "predicate": "father",
+      "object_person_id": "yaj_2vc_98w",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p064",
+          "quote": "十六年，秦惠王卒。王遊大陵。他日，王夢見處女鼓琴而歌詩曰：「美人熒熒兮，顏若苕之榮。命乎命乎，曾無我嬴！」異日，王飲酒樂，數言所夢，想見其狀。吳廣聞之，因夫人而内其女娃嬴。孟姚也。孟姚甚有寵於王，是爲惠后。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其女娃嬴",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子、女與君主太子上下文來源主張；爭立不推兄弟，未名先王不補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "txj_z8z_5me_AB": "何（趙世家惠文王候選）",
+    "yaj_2vc_98w": "吳廣（趙世家娃嬴父候選）",
+    "yaj_2vc_98w_A": "娃嬴（趙世家孟姚惠后候選）"
+  },
+  "dates": []
+}

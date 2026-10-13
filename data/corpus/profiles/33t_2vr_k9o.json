@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "33t_2vr_k9o",
+  "canonical_person_id": "33t_2vr_k9o",
+  "label": "牟辛（田世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "牟辛"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji046-027",
+      "person_id": "33t_2vr_k9o",
+      "title": "大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p033",
+          "quote": "三十三年，殺其大夫牟辛。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji046-027:a001",
+          "paragraph_id": "c-shiji-046-tian:p033",
+          "start": 7,
+          "end": 9,
+          "surface": "大夫",
+          "person_mention_id": "c-shiji-046-tian:m033-0009",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、任事與文獻用稱分存；欲使為卿且辭未當已任，諡稱不當生前任職，死亡或首次用稱不補任期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "shijia",
+      "title": "田敬仲完世家第十六",
+      "paragraph_id": "c-shiji-046-tian:p033",
+      "count": 1,
+      "quote": "三十三年，殺其大夫牟辛。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r131-c08",
+      "title": "《史記·六國年表》",
+      "quote": "三十三。殺其大夫牟辛。",
+      "year": {
+        "era": "BCE",
+        "value": 346,
+        "astronomical_year": -345,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "346",
+        "source_cell_id": "shiji-015-r131-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r131-c08-m008",
+        "start": 8,
+        "end": 10,
+        "surface": "牟辛",
+        "person_id": "33t_2vr_k9o",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-046-tian",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-046",
+      "source_id": "s-shiji-046-tian",
+      "source": {
+        "title": "史記／卷046",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷046",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷046&oldid=2560838",
+        "revision_id": 2560838,
+        "accessed_on": "2026-10-09",
+        "extent": "55段正文（含太史公論贊）及1段索隱述贊，後者另標witness_appended_suoyin_zan；排除2個dd導覽及現代分節標題。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去除段落外緣空白；保留［二］、（粟）［稟］、晏（孺子）［圉］、（帥）［師］、笔及称等數位見證原字，不暗改。",
+          "note": "已讀全56段數位文字並作明示人名首輪；未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "33t_2vr_k9o": "牟辛（田世家候選）"
+  },
+  "dates": []
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "gts_42q_flu_AAAAA",
+  "canonical_person_id": "gts_42q_flu_AAAAA",
+  "label": "勝（鄭世家聲公候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "聲公勝",
+    "聲公",
+    "鄭聲公"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 42,
+      "category": "shijia",
+      "title": "鄭世家第十二",
+      "paragraph_id": "c-shiji-042-zheng:p048",
+      "count": 4,
+      "quote": "獻公十三年卒，子聲公勝立。當是時，晉六卿彊，侵奪鄭，鄭遂弱。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r014-c04",
+      "title": "《史記·六國年表》",
+      "quote": "鄭聲公卒。",
+      "year": {
+        "era": "BCE",
+        "value": 463,
+        "astronomical_year": -462,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "463",
+        "source_cell_id": "shiji-015-r014-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r014-c04-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "鄭聲公",
+        "person_id": "gts_42q_flu_AAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-042-zheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "source_id": "s-shiji-042-zheng",
+      "source": {
+        "title": "史記／卷042",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷042",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
+        "revision_id": 2016409,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
+          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji042-040",
+      "subject_person_id": "gts_42q_flu_AAAAA",
+      "predicate": "father",
+      "object_person_id": "gts_42q_flu_AAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p048",
+          "quote": "獻公十三年卒，子聲公勝立。當是時，晉六卿彊，侵奪鄭，鄭遂弱。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "獻公十三年卒，子聲公勝立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子、少子及弟保存來源主張，繼位不獨作父子，如兄弟不作血親；不補母名、年代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ei7_fai_lvy": "丑（鄭世家共公候選）",
+    "gts_42q_flu_AAAA": "蠆（鄭世家獻公候選）",
+    "gts_42q_flu_AAAAA": "勝（鄭世家聲公候選）",
+    "gts_42q_flu_AAAAAA": "易（鄭世家哀公候選）"
+  },
+  "dates": []
+}

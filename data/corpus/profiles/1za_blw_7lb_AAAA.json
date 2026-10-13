@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "id": "1za_blw_7lb_AAAA",
+  "canonical_person_id": "1za_blw_7lb_AAAA",
+  "label": "章（趙世家敬侯候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "章",
+    "敬侯",
+    "趙敬侯"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-029",
+      "person_id": "1za_blw_7lb_AAAA",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p048",
+          "quote": "九年，烈侯卒，弟武公立。武公十三年卒，趙復立烈侯太子章，是爲敬侯。是歳，魏文侯卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-029:a001",
+          "paragraph_id": "c-shiji-043-zhao:p048",
+          "start": 24,
+          "end": 26,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-043-zhao:m048-0026",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-043-zhao",
+              "source_id": "s-shiji-043-zhao",
+              "paragraph_id": "c-shiji-043-zhao:p048",
+              "quote": "九年，烈侯卒，弟武公立。武公十三年卒，趙復立烈侯太子章，是爲敬侯。是歳，魏文侯卒。"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "授予、既有用稱及追尊分存；不由卒、出奔、自立或短稱推定此前所有任期。相國四年是當時敘事時長，未推曆日。 明示立君為太子身分終點，非以卒年終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p048",
+      "count": 4,
+      "quote": "九年，烈侯卒，弟武公立。武公十三年卒，趙復立烈侯太子章，是爲敬侯。是歳，魏文侯卒。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r091-c05",
+      "title": "《史記·六國年表》",
+      "quote": "趙敬侯元年。武公子朝作亂，奔魏。",
+      "year": {
+        "era": "BCE",
+        "value": 386,
+        "astronomical_year": -385,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "386",
+        "source_cell_id": "shiji-015-r091-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r091-c05-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "趙敬侯",
+        "person_id": "1za_blw_7lb_AAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji043-047",
+      "subject_person_id": "1za_blw_7lb_AAAA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p048",
+          "quote": "九年，烈侯卒，弟武公立。武公十三年卒，趙復立烈侯太子章，是爲敬侯。是歳，魏文侯卒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "烈侯太子章",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "1za_blw_7lb_AAA": "籍（趙世家烈侯候選）",
+    "1za_blw_7lb_AAAA": "章（趙世家敬侯候選）",
+    "1za_blw_7lb_AAAAA": "種（趙世家成侯候選）"
+  },
+  "dates": []
+}

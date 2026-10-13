@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "ath_xsq_n4i_AA",
+  "canonical_person_id": "ath_xsq_n4i_AA",
+  "label": "寧（魯悼公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "悼公",
+    "寧",
+    "魯悼公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-032",
+      "person_id": "ath_xsq_n4i_AA",
+      "title": "悼公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p089",
+          "quote": "子寧立，是爲悼公。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-032:a001",
+          "paragraph_id": "c-shiji-033-lu:p089",
+          "start": 130,
+          "end": 132,
+          "surface": "悼公",
+          "person_mention_id": "c-shiji-033-lu:m089-0125",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "公號暫作敘事追稱，保存用稱但不將繼位當成當時授予諡號；不補未知曆日或以卒日推終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p089",
+      "count": 4,
+      "quote": "氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r011-c06",
+      "title": "《史記·六國年表》",
+      "quote": "二十三。魯悼公元年。三桓勝，魯如小侯。",
+      "year": {
+        "era": "BCE",
+        "value": 466,
+        "astronomical_year": -465,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "466",
+        "source_cell_id": "shiji-015-r011-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r011-c06-m004",
+        "start": 4,
+        "end": 7,
+        "surface": "魯悼公",
+        "person_id": "ath_xsq_n4i_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r048-c06",
+      "title": "《史記·六國年表》",
+      "quote": "三。魯悼公卒。",
+      "year": {
+        "era": "BCE",
+        "value": 429,
+        "astronomical_year": -428,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "429",
+        "source_cell_id": "shiji-015-r048-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r048-c06-m002",
+        "start": 2,
+        "end": 5,
+        "surface": "魯悼公",
+        "person_id": "ath_xsq_n4i_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-059",
+      "subject_person_id": "ath_xsq_n4i_AA",
+      "predicate": "father",
+      "object_person_id": "ath_xsq_n4i_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p089",
+          "quote": "二十七年春，季康子卒。夏，哀公患三桓，將欲因諸矦以劫之，三桓亦患公作難，故君臣多閒。公游于陵阪，遇孟武伯於街，曰：『請問余及死乎？』對曰：『不知也。』公欲以越伐三桓。八月，哀公如陘氏。三桓攻公，公奔于衛，去如鄒，遂如越。國人迎哀公復歸，卒于有山氏。子寧立，是爲悼公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子寧",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ath_xsq_n4i_A": "魯哀公",
+    "ath_xsq_n4i_AA": "寧（魯悼公）",
+    "ath_xsq_n4i_AAA": "嘉（魯元公）"
+  },
+  "dates": []
+}

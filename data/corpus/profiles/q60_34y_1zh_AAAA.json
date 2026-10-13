@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "q60_34y_1zh_AAAA",
+  "canonical_person_id": "q60_34y_1zh_AAAA",
+  "label": "臧（楚肅王）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "肅王臧",
+    "肅王",
+    "楚肅王臧"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 40,
+      "category": "shijia",
+      "title": "楚世家第十",
+      "paragraph_id": "c-shiji-040-chu:p060",
+      "count": 3,
+      "quote": "一年，三晉伐楚，敗我大梁、楡關。楚厚賂秦，與之平。二十一年，悼王卒，子肅王臧立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r097-c06",
+      "title": "《史記·六國年表》",
+      "quote": "楚肅王臧元年",
+      "year": {
+        "era": "BCE",
+        "value": 380,
+        "astronomical_year": -379,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "380",
+        "source_cell_id": "shiji-015-r097-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r097-c06-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "楚肅王臧",
+        "person_id": "q60_34y_1zh_AAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-040-chu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-040",
+      "source_id": "s-shiji-040-chu",
+      "source": {
+        "title": "史記／卷040",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷040",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+        "revision_id": 8736796,
+        "accessed_on": "2026-10-09",
+        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
+          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji040-076",
+      "subject_person_id": "q60_34y_1zh_AAAA",
+      "predicate": "father",
+      "object_person_id": "q60_34y_1zh_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p060",
+          "quote": "悼王二年，三晉來伐楚，至乘丘而還。四年，楚伐周。鄭殺子陽。九年，伐韓，取負黍。十一年，三晉伐楚，敗我大梁、楡關。楚厚賂秦，與之平。二十一年，悼王卒，子肅王臧立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "42z_cse_1ka": "熊良夫（楚宣王）",
+    "q60_34y_1zh_AAA": "熊疑（楚悼王）",
+    "q60_34y_1zh_AAAA": "臧（楚肅王）"
+  },
+  "dates": []
+}

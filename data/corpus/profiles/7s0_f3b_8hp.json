@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "id": "7s0_f3b_8hp",
+  "canonical_person_id": "7s0_f3b_8hp",
+  "label": "公子政（魏世家太子候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "公子政"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji044-032",
+      "person_id": "7s0_f3b_8hp",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p047",
+          "quote": "二年，齊敗我觀津。五年，秦使樗里子伐取我曲沃，走犀首岸門。六年，秦（求）［來］立公子政爲太子。與秦會臨晉。七年，攻齊。與秦伐燕。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji044-032:a001",
+          "paragraph_id": "c-shiji-044-wei:p047",
+          "start": 44,
+          "end": 46,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-044-wei:m047-0040",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-044-wei",
+              "source_id": "s-shiji-044-wei",
+              "paragraph_id": "c-shiji-044-wei:p047",
+              "quote": "二年，齊敗我觀津。五年，秦使樗里子伐取我曲沃，走犀首岸門。六年，秦（求）［來］立公子政爲太子。與秦會臨晉。七年，攻齊。與秦伐燕。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、文獻用稱及明示去號分開。罷兵或終身不見不推所有爵位終止；移除相位、出質與失兵各不同，未知端點不補曆日。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "六年 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p047",
+      "count": 1,
+      "quote": "我觀津。五年，秦使樗里子伐取我曲沃，走犀首岸門。六年，秦（求）［來］立公子政爲太子。與秦會臨晉。七年，攻齊。與秦伐燕。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r164-c03",
+      "title": "《史記·六國年表》",
+      "quote": "六。秦來立公子政為太子。與秦王會臨晉。",
+      "year": {
+        "era": "BCE",
+        "value": 313,
+        "astronomical_year": -312,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "313",
+        "source_cell_id": "shiji-015-r164-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r164-c03-m005",
+        "start": 5,
+        "end": 8,
+        "surface": "公子政",
+        "person_id": "7s0_f3b_8hp",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "7s0_f3b_8hp": "公子政（魏世家太子候選）"
+  },
+  "dates": []
+}

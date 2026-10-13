@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "id": "tq0_t3t_6i1",
+  "canonical_person_id": "tq0_t3t_6i1",
+  "label": "趙莊（趙世家將軍候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "趙莊"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji043-044",
+      "person_id": "tq0_t3t_6i1",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p063",
+          "quote": "九年，與韓、魏共撃秦，秦敗我，斬首八萬級。齊敗我觀澤。十年，秦取我中都及西陽。齊破燕。燕相子之爲君，君反爲臣。十一年，王召公子職於韓，立以爲燕王，使樂池送之。十三年，秦拔我藺，虜將軍趙莊。楚、魏王來，過邯鄲。十四年，趙何攻魏。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji043-044:a001",
+          "paragraph_id": "c-shiji-043-zhao:p063",
+          "start": 89,
+          "end": 91,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-043-zhao:m063-0091",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "官稱、任命與敘事王號分存；不由卒、首次用稱或迎立代推所有任期。「五國相王」趙獨否保留，先前武靈王用稱不等於此年受王號。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p063",
+      "count": 1,
+      "quote": "一年，王召公子職於韓，立以爲燕王，使樂池送之。十三年，秦拔我藺，虜將軍趙莊。楚、魏王來，過邯鄲。十四年，趙何攻魏。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r164-c05",
+      "title": "《史記·六國年表》",
+      "quote": "十三。秦拔我藺，虜將趙莊。",
+      "year": {
+        "era": "BCE",
+        "value": 313,
+        "astronomical_year": -312,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "313",
+        "source_cell_id": "shiji-015-r164-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r164-c05-m010",
+        "start": 10,
+        "end": 12,
+        "surface": "趙莊",
+        "person_id": "tq0_t3t_6i1",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "tq0_t3t_6i1": "趙莊（趙世家將軍候選）"
+  },
+  "dates": []
+}
