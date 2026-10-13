@@ -147,9 +147,42 @@ def import_general_table(path, number, title):
             'columns': fragments[0]['columns'], 'fragments': fragments}
 
 
+def validate_identity_evidence(mention, root=ROOT, cache=None, allow_legacy=False):
+    """核對表中同指判讀的篇文、固定版本、引句及來源人物錨點。"""
+    cache = {} if cache is None else cache
+    for evidence in mention.get('identity_evidence', []):
+        legacy = set(evidence) == {'chapter_id', 'paragraph_id', 'source_id', 'quote'}
+        assert not legacy or allow_legacy, '新增表的同指證據不得省略版本與來源人物'
+        assert legacy or set(evidence) == {'work_id', 'book_id', 'chapter_id', 'paragraph_id', 'source_id', 'source_revision', 'person_id', 'quote'}
+        chapter_match = re.match(r'c-shiji-(\d{3})-', evidence['chapter_id'])
+        assert chapter_match
+        book = 'b-shiji-' + chapter_match[1] if legacy else evidence['book_id']
+        assert re.fullmatch(r'b-shiji-\d{3}', book)
+        if book not in cache:
+            cache[book] = json.loads((root / ('data/corpus/shiji/' + book[-3:] + '.json')).read_text())
+        chapter = cache[book]
+        for key, source_key in [('work_id', 'work_id'), ('book_id', 'book_id'), ('chapter_id', 'id'), ('source_id', 'source_id')]:
+            if key in evidence:
+                assert evidence[key] == chapter[source_key]
+        if not legacy:
+            assert evidence['source_revision'] == chapter['source']['revision_id']
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'] == evidence['paragraph_id'])
+        quote = evidence['quote']
+        assert quote and quote in paragraph['text'], '同指判讀引句不見於指定篇文'
+        start = paragraph['text'].index(quote)
+        end = start + len(quote)
+        if legacy:
+            continue
+        person = evidence['person_id']
+        allowed = [mention['person_id']] if mention.get('person_id') else mention.get('candidate_person_ids', [])
+        assert person in allowed, '判讀證據與所連人物不一致'
+        assert any(m.get('person_id') == person and m['start'] < end and start < m['end'] for m in paragraph['mentions']), '引句未包含指定人物的來源錨點'
+
+
 def validate():
     index = json.loads(INDEX.read_text())
     count = 0
+    evidence_cache = {}
     persons = json.loads((ROOT/'data/corpus/persons.json').read_text())
     candidate_path = ROOT/'data/historical-tables/person-candidates.json'
     if candidate_path.exists():
@@ -205,6 +238,7 @@ def validate():
                         assert c['text'][m['start']:m['end']] == m['surface'], '人物錨點原文不符'
                         assert m['person_id'] in persons and m['status'] == 'contextual_provisional'
                         assert m['id'] not in ids
+                        validate_identity_evidence(m, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
                         ids.add(m['id']); end = m['end']
                     combined = sorted(c['person_mentions'] + c.get('unresolved_mentions', []), key=lambda m:m['start'])
                     assert not combined or columns[c['column']]['kind'] != 'western_year', '編者西元欄不加原文指稱'
@@ -214,6 +248,7 @@ def validate():
                         end = m['end']
                         if not m.get('person_id'):
                             assert m['kind'] == 'unresolved_reference' and m['status'] == 'awaiting_collation'
+                            validate_identity_evidence(m, cache=evidence_cache, allow_legacy=table['id'] == 'shiji-015')
                     col += c['colspan']
                 assert col <= width if general else col == width
                 count += 1

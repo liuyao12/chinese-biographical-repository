@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "id": "n7i_i5n_lay_BAA",
+  "canonical_person_id": "n7i_i5n_lay_BAA",
+  "label": "注（楚元王世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "襄王注",
+    "襄王",
+    "襄"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji050-018",
+      "person_id": "n7i_i5n_lay_BAA",
+      "title": "襄王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p006",
+          "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji050-018:a001",
+          "paragraph_id": "c-shiji-050-chuyuan:p006",
+          "start": 22,
+          "end": 24,
+          "surface": "襄王",
+          "person_mention_id": "c-shiji-050-chuyuan:m006-0022",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第6段時長原語「襄王立十四年卒」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 14,
+        "unit": "regnal_year",
+        "source_term": "襄王立十四年卒",
+        "source_number": "十四",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-050-chuyuan",
+            "source_id": "s-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。",
+            "person_mention_id": "c-shiji-050-chuyuan:m006-0022"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 50,
+      "category": "shijia",
+      "title": "楚元王世家第二十",
+      "paragraph_id": "c-shiji-050-chuyuan:p006",
+      "count": 3,
+      "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r079-c02",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "襄王注元年",
+      "year": {
+        "era": "BCE",
+        "value": 128,
+        "astronomical_year": -127,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "128",
+        "source_cell_id": "shiji-017-t1-r079-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r079-c02-review-000",
+        "start": 0,
+        "end": 3,
+        "surface": "襄王注",
+        "person_id": "n7i_i5n_lay_BAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-050",
+            "chapter_id": "c-shiji-050-chuyuan",
+            "paragraph_id": "c-shiji-050-chuyuan:p006",
+            "source_id": "s-shiji-050-chuyuan",
+            "source_revision": 8737728,
+            "person_id": "n7i_i5n_lay_BAA",
+            "quote": "子襄王注立"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-050-chuyuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-050",
+      "source_id": "s-shiji-050-chuyuan",
+      "source": {
+        "title": "史記／卷050",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷050",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728",
+        "revision_id": 8737728,
+        "accessed_on": "2026-10-09",
+        "extent": "10段篇文及1段索隱述贊；排除1個空p，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
+          "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji050-009",
+      "subject_person_id": "n7i_i5n_lay_BAA",
+      "predicate": "father",
+      "object_person_id": "n7i_i5n_lay_BA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p006",
+          "quote": "文王立三年卒，子安王道立。安王二十二年卒，子襄王注立。襄王立十四年卒，子王純代立。王純立，地節二年，中人上書告楚王謀反，王自殺，國除，入漢為彭城郡。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子襄王注立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "n7i_i5n_lay_BA": "道（楚元王世家候選）",
+    "n7i_i5n_lay_BAA": "注（楚元王世家候選）",
+    "n7i_i5n_lay_BAAA": "純（楚元王世家候選）"
+  },
+  "dates": []
+}
