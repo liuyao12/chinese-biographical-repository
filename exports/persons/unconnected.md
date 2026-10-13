@@ -226,7 +226,6 @@
 | `1hy_i0l_xfz` | 棼如（喬如弟） | [《史記・魯周公世家》][15] | [JSON](1hy_i0l_xfz.json) |
 | `1i8_vsx_dbq` | 章平 | [《史記・傅靳蒯成列傳》][80] | [JSON](1i8_vsx_dbq.json) |
 | `1ia_b4v_w14` | 單于未詳名（嫚書） | [《史記・季布欒布列傳》][82] | [JSON](1ia_b4v_w14.json) |
-| `1ia_pai_f8d` | 白起 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](1ia_pai_f8d.json) |
 | `1is_5g0_ufp` | 張春 | [《史記・曹相國世家》][36] | [JSON](1is_5g0_ufp.json) |
 | `1iv_bo2_ode` | 齊王畔約未名 | [《史記・吳王濞列傳》][88] | [JSON](1iv_bo2_ode.json) |
 | `1iw_7ww_ynr` | 朱彊 | [《史記・酷吏列傳》][104] | [JSON](1iw_7ww_ynr.json) |
@@ -411,7 +410,6 @@
 | `2r3_3yo_3sa` | 樊於期引古 | [《史記・刺客列傳》][68] | [JSON](2r3_3yo_3sa.json) |
 | `2rc_bl1_v99` | 齊丞相舍人未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](2rc_bl1_v99.json) |
 | `2rj_hat_gfq` | 顏幸 | [《史記・仲尼弟子列傳》][49] | [JSON](2rj_hat_gfq.json) |
-| `2rk_my8_sbg` | 栗腹 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](2rk_my8_sbg.json) |
 | `2rm_drg_ym7` | 柴將軍 | [《史記・齊悼惠王世家》][34] | [JSON](2rm_drg_ym7.json) |
 | `2rz_j0z_ij3` | 澠池趙禦史未名 | [《史記・廉頗藺相如列傳》][63] | [JSON](2rz_j0z_ij3.json) |
 | `2sg_8ra_hq5` | 田廣 | [《史記・酈生陸賈列傳》][79] | [JSON](2sg_8ra_hq5.json) |
@@ -774,7 +772,6 @@
 | `51s_div_vuy` | 繆公 | [《史記・孟子荀卿列傳》][56] | [JSON](51s_div_vuy.json) |
 | `51v_myd_2cd` | 太史公署稱 | [《史記・韓長孺列傳》][90] | [JSON](51v_myd_2cd.json) |
 | `51x_iss_zj5` | 徐來 | [《史記・淮南衡山列傳》][100] | [JSON](51x_iss_zj5.json) |
-| `523_zlc_qfv` | 齊湣王引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](523_zlc_qfv.json) |
 | `52e_gh9_em4` | 灌夫 | [《史記・汲鄭列傳》][102] | [JSON](52e_gh9_em4.json) |
 | `52f_fie_3vj` | 昆吾（陸終長子） | [《史記・楚世家》][22] | [JSON](52f_fie_3vj.json) |
 | `52g_aio_c8a` | 任公 | [《史記・貨殖列傳》][111] | [JSON](52g_aio_c8a.json) |
@@ -2163,7 +2160,6 @@
 | `e79_ty0_mkx` | 春申君 | [《史記・春申君列傳》][60] | [JSON](e79_ty0_mkx.json) |
 | `e7f_ip0_jk1` | 屈原 | [《史記・太史公自序》][112] | [JSON](e7f_ip0_jk1.json) |
 | `e7k_9ni_z3u` | 桓公（鄭） | [《史記・太史公自序》][112] | [JSON](e7k_9ni_z3u.json) |
-| `e7m_t5x_d4z` | 秦昭王 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](e7m_t5x_d4z.json) |
 | `e7u_po2_uqa` | 趙嚪 | [《史記・樂毅列傳》][62] | [JSON](e7u_po2_uqa.json) |
 | `e8g_59i_f6c` | 中行說（匈奴列傳第18至20段） | [《史記・匈奴列傳》][92] | [JSON](e8g_59i_f6c.json) |
 | `e8q_4ar_5bh` | 任囂 | [《史記・南越列傳》][95] | [JSON](e8q_4ar_5bh.json) |
@@ -2231,6 +2227,10 @@
 | `ejp_e4r_st7` | 石乞 | [《史記・仲尼弟子列傳》][49] | [JSON](ejp_e4r_st7.json) |
 | `ejx_n17_vnl` | 齊中大夫未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](ejx_n17_vnl.json) |
 | `ek7_93z_gap` | 趙簡子 | [《史記・扁鵲倉公列傳》][87] | [JSON](ek7_93z_gap.json) |
+| `ek7_zwf_lkt` | 武王后（魏世家未名者） | [《史記・魏世家》][26] | [JSON](ek7_zwf_lkt.json) |
+| `ekf_sxz_k88` | 呂太后 | [《史記・太史公自序》][112] | [JSON](ekf_sxz_k88.json) |
+| `ekn_61g_qaz` | 章邯 | [《史記・樊酈滕灌列傳》][77] | [JSON](ekn_61g_qaz.json) |
+| `ekr_gcm_hox` | 魯昭公 | [《史記・仲尼弟子列傳》][49] | [JSON](ekr_gcm_hox.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

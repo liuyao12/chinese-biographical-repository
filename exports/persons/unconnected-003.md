@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t8b_zxx_6ea` | 田駢 | [《史記・孟子荀卿列傳》][56] | [JSON](t8b_zxx_6ea.json) |
-| `t8k_az0_xk2` | 魏惠王 | [《史記・孫子吳起列傳》][47] | [JSON](t8k_az0_xk2.json) |
-| `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][25] | [JSON](t8t_xtf_6tp.json) |
-| `t90_dfp_2t1` | 項籍 | [《史記・萬石張叔列傳》][85] | [JSON](t90_dfp_2t1.json) |
-| `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][112] | [JSON](t9n_2o5_k16.json) |
-| `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][3] | [JSON](ta6_n0m_glj.json) |
 | `tae_3uh_xsc` | 楚死事相張羽兄未名 | [《史記・吳王濞列傳》][88] | [JSON](tae_3uh_xsc.json) |
 | `tal_mu5_li4` | 孟嘗君母未名 | [《史記・孟嘗君列傳》][57] | [JSON](tal_mu5_li4.json) |
 | `taq_82s_0na` | 景公太子（田世家先卒未名者） | [《史記・田敬仲完世家》][28] | [JSON](taq_82s_0na.json) |

@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ek7_zwf_lkt` | 武王后（魏世家未名者） | [《史記・魏世家》][26] | [JSON](ek7_zwf_lkt.json) |
-| `ekf_sxz_k88` | 呂太后 | [《史記・太史公自序》][112] | [JSON](ekf_sxz_k88.json) |
-| `ekn_61g_qaz` | 章邯 | [《史記・樊酈滕灌列傳》][77] | [JSON](ekn_61g_qaz.json) |
-| `ekr_gcm_hox` | 魯昭公 | [《史記・仲尼弟子列傳》][49] | [JSON](ekr_gcm_hox.json) |
 | `eku_vg7_a7e` | 樂毅 | [《史記・陳涉世家》][30] | [JSON](eku_vg7_a7e.json) |
 | `elm_iea_s2h` | 嚴彭祖 | [《史記・平津侯主父列傳》][94] | [JSON](elm_iea_s2h.json) |
 | `emm_08p_2n8` | 魏文侯（楚篇三晉記事） | [《史記・楚世家》][22] | [JSON](emm_08p_2n8.json) |
@@ -268,7 +264,6 @@
 | `gar_g8m_0lo` | 伍奢（引古） | [《史記・蒙恬列傳》][70] | [JSON](gar_g8m_0lo.json) |
 | `gas_wud_t4m` | 鄭忠 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](gas_wud_t4m.json) |
 | `gaz_1ax_7s7` | 孝文 | [《史記・汲鄭列傳》][102] | [JSON](gaz_1ax_7s7.json) |
-| `gb5_f9t_hd2` | 趙孝成王 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](gb5_f9t_hd2.json) |
 | `gbb_0p6_20p` | 成信 | [《史記・酷吏列傳》][104] | [JSON](gbb_0p6_20p.json) |
 | `gbf_h5a_e3f` | 呂后 | [《史記・蕭相國世家》][35] | [JSON](gbf_h5a_e3f.json) |
 | `gc4_c9w_cfz` | 司馬穰苴 | [《史記・太史公自序》][112] | [JSON](gc4_c9w_cfz.json) |
@@ -460,7 +455,6 @@
 | `hil_73x_nk5` | 女華 | [《史記・秦本紀》][5] | [JSON](hil_73x_nk5.json) |
 | `hil_pvv_3c6` | 秦女（楚平王妻珍母） | [《史記・楚世家》][22] | [JSON](hil_pvv_3c6.json) |
 | `hio_jt3_l3z` | 鐘離眛 | [《史記・樊酈滕灌列傳》][77] | [JSON](hio_jt3_l3z.json) |
-| `hiz_hez_6wg` | 平原君 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](hiz_hez_6wg.json) |
 | `hjk_nm8_og1` | 曹山跗 | [《史記・扁鵲倉公列傳》][87] | [JSON](hjk_nm8_og1.json) |
 | `hjx_5rx_wzu` | 韓信平城下 | [《史記・傅靳蒯成列傳》][80] | [JSON](hjx_5rx_wzu.json) |
 | `hk9_pe7_fm6` | 雍樂成 | [《史記・貨殖列傳》][111] | [JSON](hk9_pe7_fm6.json) |
@@ -2242,6 +2236,12 @@
 | `t7k_3g1_qp3` | 塗山氏之女 | [《史記・夏本紀》][2] | [JSON](t7k_3g1_qp3.json) |
 | `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][49] | [JSON](t7x_2x7_1fc.json) |
 | `t8b_b8w_pcn` | 國惠子 | [《史記・齊太公世家》][14] | [JSON](t8b_b8w_pcn.json) |
+| `t8b_zxx_6ea` | 田駢 | [《史記・孟子荀卿列傳》][56] | [JSON](t8b_zxx_6ea.json) |
+| `t8k_az0_xk2` | 魏惠王 | [《史記・孫子吳起列傳》][47] | [JSON](t8k_az0_xk2.json) |
+| `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][25] | [JSON](t8t_xtf_6tp.json) |
+| `t90_dfp_2t1` | 項籍 | [《史記・萬石張叔列傳》][85] | [JSON](t90_dfp_2t1.json) |
+| `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][112] | [JSON](t9n_2o5_k16.json) |
+| `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][3] | [JSON](ta6_n0m_glj.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
