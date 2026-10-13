@@ -1,0 +1,41 @@
+{
+  "format_version": "0.1",
+  "record_type": "life_event_date_decision_set",
+  "work_id": "w-shiji",
+  "decisions": [
+    {
+      "id": "ld-shiji076-pingyuan-death",
+      "person_ids": [
+        "03v_bhv_img",
+        "lrj_utu_y6w"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji043-055",
+        "le-shiji076-003"
+      ],
+      "preferred_event_id": "le-shiji076-003",
+      "status": "editorial_provisional",
+      "rationale": "預設取〈平原君虞卿列傳〉明記孝成王十五年，與〈六國年表〉趙十五年「平原君卒」對讀相符；本傳對卒年直接具名敘述，作本項使用端暫定依據。〈趙世家〉十四年仍保留為來源異說，非按同一著作的篇數投票或全域作品排名；未核底本、影像或學術校勘，決定可撤回。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p107",
+          "quote": "十年，燕攻昌壯，五月拔之。趙將樂乘、慶舍攻秦信梁軍，破之。太子死。而秦攻西周，拔之。徒父祺出。十一年，城元氏，縣上原。武陽君鄭安平死，收其地。十二年，邯鄲廥燒。十四年，平原君趙勝死。",
+          "person_mention_id": "c-shiji-043-zhao:m107-0084"
+        },
+        {
+          "chapter_id": "c-shiji-076-pingyu",
+          "source_id": "s-shiji-076-pingyu",
+          "paragraph_id": "c-shiji-076-pingyu:p008",
+          "quote": "平原君以趙孝成王十五年卒。",
+          "person_mention_id": "c-shiji-076-pingyu:m008-0000"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

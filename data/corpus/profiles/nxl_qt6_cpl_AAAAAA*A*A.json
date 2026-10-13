@@ -171,5 +171,29 @@
     "nxl_qt6_cpl_AAAAAA*A*A": "都（魏世家文侯候選）",
     "nxl_qt6_cpl_AAAAAA*A*AA": "撃（魏世家文侯子候選）"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji044-004",
+      "person_id": "nxl_qt6_cpl_AAAAAA*A*A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "是歳",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p022",
+          "quote": "卅八年，伐秦，敗我武下，得其將識。是歳，文侯卒，子撃立，是爲武侯。",
+          "person_mention_id": "c-shiji-044-wei:m022-0020"
+        }
+      ],
+      "source_term": "文侯卒",
+      "interpretation_note": "來源明示生死候選；引語回述不借敘事當年，世系生子不補確切年月。數字換算及跨篇紀年續核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

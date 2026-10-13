@@ -693,5 +693,69 @@
     "830_x2v_h3v": "慶封（鄭世家候選）",
     "ect_ro2_yyf": "慶封"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-062",
+      "person_id": "ect_ro2_yyf",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p043",
+          "quote": "景公四年，晉欒書弒其君厲公。十五年，救鄭，敗晉兵於櫟。是時晉悼公為盟主。十八年，晉悼公彊，數會諸侯，率以伐秦，敗秦軍。秦軍走，晉兵追之，遂渡涇，至棫林而還。二十七年，景公如晉，與平公盟，已而背之。三十六年，楚公子圍弒其君而自立，是為靈王。景公母弟後子鍼有寵，景公母弟富，或譖之，恐誅，乃奔晉，車重千乘。晉平公曰：「后子富如此，何以自亡？」對曰：「秦公無道，畏誅，欲待其後世乃歸。」三十九年，楚靈王彊，會諸侯於申，為盟主，殺齊慶封。景公立四十年卒，子哀公立。后子復來歸秦。",
+          "person_mention_id": "c-shiji-005-qin:m043-0211"
+        }
+      ],
+      "source_term": "殺齊慶封",
+      "interpretation_note": "明言卒、弒、殺、自殺或蚤死保存；恐誅與欲誅不是已死亡。齊悼公、秦悼公分ID，不按同稱合併；蚤死未即位與實際繼位另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji040-034",
+      "person_id": "ect_ro2_yyf",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p031",
+          "quote": "七月，楚以諸侯兵伐呉，圍朱方。八月，克之，囚慶封，滅其族。以封徇，曰：「無效齊慶封弒其君而弱其孤，以盟諸大夫！」封反曰：「莫如楚共王庶子圍弒其君兄之子員而代之立！」於是靈王使（棄）疾殺之。",
+          "person_mention_id": "c-shiji-040-chu:m031-0022"
+        }
+      ],
+      "source_term": "靈王使（棄）疾殺之",
+      "interpretation_note": "來源明示生死；回述及敘事未明的年次不借段首日期，群體不補單人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji042-033",
+      "person_id": "830_x2v_h3v",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p041",
+          "quote": "二十七年夏，鄭簡公朝晉。冬，畏楚靈王之彊，又朝楚，子産從。二十八年，鄭君病，使子産會諸侯，與楚靈王盟於申，誅齊慶封。",
+          "person_mention_id": "c-shiji-042-zheng:m041-0054"
+        }
+      ],
+      "source_term": "誅齊慶封",
+      "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

@@ -375,5 +375,59 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji034-045",
+      "person_id": "5pw_05i_uhv_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p028",
+          "quote": "惠王七年卒。韓、魏、楚共伐燕。燕武成王立。",
+          "person_mention_id": "c-shiji-034-yan:m028-0000"
+        }
+      ],
+      "source_term": "惠王七年卒",
+      "interpretation_note": "國君年次依本句，未知公曆日不補。 保存本篇明示死亡，國君紀年與數字年換算待核；被虜、出奔、擊破軍隊或滅國不直接推個人死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 272,
+        "year": -271,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "惠王七年卒。韓、魏、楚共伐燕。燕武成王立。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-034-yan",
+            "source_id": "s-shiji-034-yan",
+            "paragraph_id": "c-shiji-034-yan:p028",
+            "quote": "惠王七年卒。韓、魏、楚共伐燕。燕武成王立。",
+            "person_mention_id": "c-shiji-034-yan:m028-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷015",
+            "quote": "七",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "燕惠王七年對數位年表公元前272年行。公元前年欄為數位編輯參考，只換算年，未知公曆月日不補；未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

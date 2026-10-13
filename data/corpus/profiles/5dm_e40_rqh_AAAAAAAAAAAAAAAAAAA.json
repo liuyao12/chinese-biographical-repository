@@ -218,5 +218,59 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji031-020",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p008",
+          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
+          "person_mention_id": "c-shiji-031-wu:m008-0004"
+        }
+      ],
+      "source_term": "王諸樊卒",
+      "interpretation_note": "諸樊本王年次。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 548,
+        "year": -547,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-031-wu",
+            "source_id": "s-shiji-031-wu",
+            "paragraph_id": "c-shiji-031-wu:p008",
+            "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。",
+            "person_mention_id": "c-shiji-031-wu:m008-0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十四〈十二諸侯年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷014",
+            "quote": "十三諸樊伐楚，迫巢門，傷射以薨。",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "吳諸樊十三年對數位年表公元前548年行。死法仍以本筆世家原句保存，不由年表改寫。 公元前年欄為數位編輯參考，不是古文公元紀年；只換算年，未核曆表或底本影像，未知公曆月日不補。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

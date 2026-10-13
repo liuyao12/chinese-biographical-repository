@@ -1032,5 +1032,49 @@
     "7xy_9gg_opk": "李斯（蒙恬列傳候選）",
     "z4m_xqs_mlu": "李斯（太史公自序候選）"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji006-025",
+      "person_id": "49g_7az_e4i",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p061",
+          "quote": "三年，章邯等將其卒圍鉅鹿，楚上將軍項羽將楚卒往救鉅鹿。冬，趙高為丞相，竟案李斯殺之。夏，章邯等戰數卻，二世使人讓邯，邯恐，使長史欣請事。趙高弗見，又弗信。欣恐，亡去，高使人捕追不及。欣見邯曰：「趙高用事於中，將軍有功亦誅，無功亦誅。」項羽急擊秦軍，虜王離，邯等遂以兵降諸侯。八月己亥，趙高欲為亂，恐群臣不聽，乃先設驗，持鹿獻於二世，曰：「馬也。」二世笑曰：「丞相誤邪？謂鹿為馬。」問左右，左右或默，或言馬以阿順趙高。或言鹿，高因陰中諸言鹿者以法。後群臣皆畏高。",
+          "person_mention_id": "c-shiji-006-shihuang:p061:m0037"
+        }
+      ],
+      "source_term": "竟案李斯殺之",
+      "interpretation_note": "保存本篇明言殺或自殺；周章與章邯分ID。破項梁、滅魏咎不單據動詞另增死亡；李斯就五刑與下一段竟案殺之合讀，不重複建死亡事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-059",
+      "person_id": "49g_7az_e4i",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p110",
+          "quote": "始皇既歿，胡亥極愚，酈山未畢，復作阿房，以遂前策。云「凡所為貴有天下者，肆意極欲，大臣至欲罷先君所為」。誅斯、去疾，任用趙高。痛哉言乎！人頭畜鳴。不威不伐惡，不篤不虛亡，距之不得留，殘虐以促期，雖居形便之國，猶不得存。",
+          "person_mention_id": "c-shiji-006-shihuang:p110:m0053"
+        }
+      ],
+      "source_term": "誅斯、去疾",
+      "interpretation_note": "這是witness_appended_bangu_note附載文字的死亡敘述，與本紀敘事分層分存，不增加一次真實死亡。去疾此層作誅與前文自殺並存，不改寫成一致。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

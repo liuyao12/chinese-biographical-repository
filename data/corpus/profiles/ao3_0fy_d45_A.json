@@ -483,5 +483,49 @@
     "mby_4zh_oni": "安國君（呂不韋列傳候選）",
     "mby_4zh_oni_A": "子楚（呂不韋列傳候選）"
   },
-  "dates": []
+  "dates": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-105",
+      "person_id": "ao3_0fy_d45_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三日辛丑",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p073",
+          "quote": "孝文王元年，赦罪人，修先王功臣，褒厚親戚，弛苑囿。孝文王除喪，十月己亥即位，三日辛丑卒，子莊襄王立。",
+          "person_mention_id": "c-shiji-005-qin:m073-0000"
+        }
+      ],
+      "source_term": "三日辛丑卒",
+      "interpretation_note": "保存本篇原紀年；始皇立十一年而崩是稱帝後計數，不替換為秦王在位總年。子嬰立月餘非精確死亡年月；東周君誅之是否專指誅殺仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-054",
+      "person_id": "ao3_0fy_d45_A",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p094",
+          "quote": "昭襄王享國五十六年。葬茝陽。生孝文王。",
+          "person_mention_id": "c-shiji-006-shihuang:p094:m0015"
+        }
+      ],
+      "source_term": "生孝文王",
+      "interpretation_note": "卷末世系生某人保存出生敘述，未載年日不補造；即位年齡不倒推生日。二世生十二年而立與前段元年二十一保留不一致。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

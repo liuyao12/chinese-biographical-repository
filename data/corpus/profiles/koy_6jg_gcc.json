@@ -3928,5 +3928,59 @@
       "endpoint": "start",
       "title": "武侯"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji057-008",
+      "person_id": "ycd_ixa_ovp",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "孝文帝十一年",
+      "source_term": "孝文帝十一年卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p011",
+          "quote": "絳侯復就國。孝文帝十一年卒，謚為武侯。子勝之代侯。六歲，尚公主，不相中，坐殺人，國除。絕一歲，文帝乃擇絳侯勃子賢者河內守亞夫，封為條侯，續絳侯後。",
+          "person_mention_id": "c-shiji-057-zhou:m011-0000"
+        }
+      ],
+      "interpretation_note": "保存本篇明示死亡及來源人物錨點；擊敗、被得、欲殺與國除不當死亡，不由卒日自動終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 169,
+        "year": -168,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "絳侯復就國。孝文帝十一年卒，謚為武侯。子勝之代侯。六歲，尚公主，不相中，坐殺人，國除。絕一歲，文帝乃擇絳侯勃子賢者河內守亞夫，封為條侯，續絳侯後。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-057-zhou",
+            "source_id": "s-shiji-057-zhou",
+            "paragraph_id": "c-shiji-057-zhou:p011",
+            "quote": "絳侯復就國。孝文帝十一年卒，謚為武侯。子勝之代侯。六歲，尚公主，不相中，坐殺人，國除。絕一歲，文帝乃擇絳侯勃子賢者河內守亞夫，封為條侯，續絳侯後。",
+            "person_mention_id": "c-shiji-057-zhou:m011-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "維基文庫數位紀年對應（僅作換年參考）",
+            "url": "https://zh.wikisource.org/wiki/Module:Year_Link/data/sandbox",
+            "quote": "['前元十一年']=\"前169年\"",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇明示紀年，保存原日期及事件引句；數位紀年僅作換年參考，影像未核，精度限於年，不補月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {markCell, personCard, profileURL, tableOccurrenceURL} from '../assets/cbr-person.js';
+import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL} from '../assets/cbr-person.js';
 test('年表錨點保留原文並連至人物頁，拒絕錯位或交疊',()=>{
  const c={text:'張儀相。',person_mentions:[{start:0,end:2,surface:'張儀',person_id:'abc_def_123'}]};
  const html=markCell(c); assert.match(html,/張儀<\/a>相。/);assert.match(html,/person.html#abc_def_123/);
@@ -46,4 +46,30 @@ test('full person page renders the checked primary passage for a table identity 
   assert.match(html, /chapter=59/);
   assert.match(html, /passage=c-shiji-059-wuzong/);
   assert.match(html, /2621125/);
+});
+
+test('profile preserves alternative death years and marks the scoped provisional default', () => {
+ const p={id:'abc_def_123',label:'synthetic person',dates:[{era:'BCE',era_year:252,record_id:'old',original_quote:'synthetic earlier account'},{era:'BCE',era_year:251,record_id:'new',original_quote:'synthetic other account'}],life_event_date_decisions:[{candidate_event_ids:['old','new'],preferred_event_id:'new',status:'editorial_provisional',rationale:'synthetic comparison <script>',evidence:[]}],life_events:[{event_type:'death',date_expression:'synthetic year',source_term:'synthetic death',evidence:[]}]};
+ const html=personCard(p,true);
+ assert.match(html,/西元前252年/);assert.match(html,/西元前251年/);
+ assert.match(html,/來源異說/);assert.match(html,/本項預設/);assert.ok(html.indexOf('西元前251年') < html.indexOf('西元前252年'));
+ assert.match(html,/來源所記生卒/);assert.match(html,/synthetic comparison &lt;script&gt;/);
+ p.life_event_date_decisions[0].status='unresolved';p.life_event_date_decisions[0].preferred_event_id=null;
+ assert.doesNotMatch(personCard(p,true),/本項預設/);assert.match(personCard(p,true),/取捨未定/);
+});
+
+test('office event counts stay separate from title duration and retain each source record', () => {
+ const title={title:'synthetic office',period:'未定 → 未定',reported_office_event_counts:{departure:{value:3,source_term:'synthetic departure'},reinstatement:{value:3,source_term:'synthetic reinstatement'}}};
+ const html=personCard({id:'abc_def_123',label:'synthetic person',titles:[{title:title.title,period:title.period},title]},true);
+ assert.match(html,/離相 3 次/);assert.match(html,/復位 3 次/);assert.match(html,/各次起訖未定/);
+ assert.doesNotMatch(html,/任職三年|任職3年/);
+});
+
+
+test('source JSON links use the deployed exact commit with a bounded fallback', () => {
+ const ref = 'a'.repeat(40);
+ const url = personBundleURL('abc_def_123', ref);
+ assert.equal(url, 'https://github.com/liuyao12/chinese-biographical-repository/blob/'+ref+'/exports/persons/abc_def_123.json');
+ assert.match(personBundleURL('a#b', 'javascript:alert(1)'), /blob\/main\/exports\/persons\/a%23b\.json$/);
+ assert.match(personCard({id:'abc_def_123',label:'synthetic'},true,ref), new RegExp('blob/'+ref+'/exports/persons'));
 });

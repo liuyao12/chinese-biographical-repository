@@ -405,5 +405,79 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji046-045",
+      "person_id": "zan_qcc_jy5_AAAAAABAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "四十年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p047",
+          "quote": "四十年，燕、秦、楚、三晉合謀，各出鋭師以伐，敗我濟西。王解而卻。燕將樂毅遂入臨淄，盡取齊之寶藏器。湣王出亡，之衞。衞君辟宮捨之，稱臣而共具。湣王不遜，衞人侵之。湣王去，走鄒、魯，有驕色，鄒、魯君弗内，遂走莒。楚使淖齒將兵救齊，因相齊湣王。淖齒遂殺湣王而與燕共分齊之侵地鹵器。",
+          "person_mention_id": "c-shiji-046-tian:m047-0123"
+        }
+      ],
+      "source_term": "淖齒遂殺湣王",
+      "interpretation_note": "依本篇原文明示生死保存；同段回述及群體不重複生成個人事件。原曆、校勘與跨篇身份仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 284,
+        "year": -283,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "四十年，燕、秦、楚、三晉合謀，各出鋭師以伐，敗我濟西。王解而卻。燕將樂毅遂入臨淄，盡取齊之寶藏器。湣王出亡，之衞。衞君辟宮捨之，稱臣而共具。湣王不遜，衞人侵之。湣王去，走鄒、魯，有驕色，鄒、魯君弗内，遂走莒。楚使淖齒將兵救齊，因相齊湣王。淖齒遂殺湣王而與燕共分齊之侵地鹵器。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-046-tian",
+            "source_id": "s-shiji-046-tian",
+            "paragraph_id": "c-shiji-046-tian:p047",
+            "quote": "四十年，燕、秦、楚、三晉合謀，各出鋭師以伐，敗我濟西。王解而卻。燕將樂毅遂入臨淄，盡取齊之寶藏器。湣王出亡，之衞。衞君辟宮捨之，稱臣而共具。湣王不遜，衞人侵之。湣王去，走鄒、魯，有驕色，鄒、魯君弗内，遂走莒。楚使淖齒將兵救齊，因相齊湣王。淖齒遂殺湣王而與燕共分齊之侵地鹵器。",
+            "person_mention_id": "c-shiji-046-tian:m047-0123"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "四十。五國共擊湣王，王走莒。",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇湣王四十年走莒後被殺，年表公元前284年列齊四十年。 僅換算年，數位年欄為編者換算，未核影像或曆表；死亡主張仍取本篇。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji075-006",
+      "person_id": "u68_y0a_f8x",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "遂死焉",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-075-mengchang",
+          "source_id": "s-shiji-075-mengchang",
+          "paragraph_id": "c-shiji-075-mengchang:p013",
+          "quote": "後齊湣王滅宋，益驕，欲去孟嘗君。孟嘗君恐，乃如魏。魏昭王以爲相，西合於秦、趙，與燕共伐破齊。齊湣王亡在莒，遂死焉。齊襄王立，而孟嘗君中立於諸侯，無所屬。齊襄王新立，畏孟嘗君，與連和，復親薛公。文卒，謚爲孟嘗君。諸子爭立，而齊魏共滅薛。孟嘗絶嗣無後也。",
+          "person_mention_id": "c-shiji-075-mengchang:m013-0001"
+        }
+      ],
+      "interpretation_note": "依本篇原文記錄生卒，不以群體遇害補具名名單；兩名自剄者各按已有匿名人物錨點保存，不同人。五月五日不補生年；宣王二年馬陵及梁惠王卒的篇內紀年仍待與其他篇章對讀，不直接套通行年份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

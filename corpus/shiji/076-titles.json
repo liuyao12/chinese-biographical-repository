@@ -7,7 +7,7 @@
       "id": "th-shiji076-001",
       "person_id": "lrj_utu_y6w",
       "title": "相趙",
-      "kind": "unclassified",
+      "kind": "office",
       "mode": "attestation",
       "status": "source_attested",
       "evidence": [
@@ -41,8 +41,40 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授官、爵位、門下用稱與敘事稱呼分存；未知起訖不補，死亡、亡去或爵印評語不直接終止所有稱號。三去相三復位不合成單一任期，擬爲平原請封而不聽不當實授。本筆相趙僅作任事用稱，三次去相與復位各次日期、銜接仍待核，沒有以卒日補終點。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "授官、爵位、門下用稱與敘事稱呼分存；未知起訖不補，死亡、亡去或爵印評語不直接終止所有稱號。三去相三復位不合成單一任期，擬爲平原請封而不聽不當實授。本筆相趙僅作任事用稱，三次去相與復位各次日期、銜接仍待核，沒有以卒日補終點。三去相與三復位分記離相及復位次數，未知原因不當自願辭職，三次復位不包含未明初任；未造各次日期或連續任期。",
+      "reviewer": "Codex（AI 代理）",
+      "reported_office_event_counts": {
+        "departure": {
+          "value": 3,
+          "unit": "office_event",
+          "source_number": "三",
+          "source_term": "三去相",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-076-pingyu",
+              "source_id": "s-shiji-076-pingyu",
+              "paragraph_id": "c-shiji-076-pingyu:p001",
+              "quote": "平原君趙勝者，趙之諸公子也。諸子中勝最賢，喜賓客，賓客蓋至者數千人。平原君相趙惠文王及孝成王，三去相，三復位，封於東武城。"
+            }
+          ]
+        },
+        "reinstatement": {
+          "value": 3,
+          "unit": "office_event",
+          "source_number": "三",
+          "source_term": "三復位",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-076-pingyu",
+              "source_id": "s-shiji-076-pingyu",
+              "paragraph_id": "c-shiji-076-pingyu:p001",
+              "quote": "平原君趙勝者，趙之諸公子也。諸子中勝最賢，喜賓客，賓客蓋至者數千人。平原君相趙惠文王及孝成王，三去相，三復位，封於東武城。"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "th-shiji076-002",

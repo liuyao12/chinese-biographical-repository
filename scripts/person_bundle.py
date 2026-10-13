@@ -55,6 +55,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
+    date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
+                      for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
+    try:
+        from .life_event_dates import selected_dates
+    except ImportError:
+        from life_event_dates import selected_dates
+    selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
@@ -152,6 +159,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),
+            **({'life_event_date_decisions': date_decisions, 'selected_life_event_dates': selected_life_dates} if date_decisions else {}),
             **({'age_assertions': ages} if ages else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,

@@ -1590,5 +1590,56 @@
       "endpoint": "end",
       "title": "太子"
     }
-  ]
+  ],
+  "life_events": [
+    {
+      "id": "le-shiji011-007",
+      "person_id": "b3o_oeg_r5k",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p010",
+          "quote": "中二年二月，匈奴入燕，遂不和親。三月，召臨江王來。即死中尉府中。夏，立皇子越為廣川王，子寄為膠東王。封四侯。九月甲戌，日食。",
+          "person_mention_id": "c-shiji-011-jingdi:m010-0020"
+        }
+      ],
+      "source_term": "即死中尉府中",
+      "interpretation_note": "按本篇明示個人死亡保存；未直接修飾本事件的月份、赦令日期或分封日不移作卒日。群稱不補姓名，未記死法不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji059-004",
+      "person_id": "1c8_u63_bk4_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "王恐，自殺",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p006",
+          "quote": "四年，坐侵廟壖垣為宮，上徵榮。榮行，祖於江陵北門。既已上車，軸折車廢。江陵父老流涕竊言曰：「吾王不反矣！」榮至，詣中尉府簿。中尉郅都責訊王，王恐，自殺。葬藍田。燕數萬銜土置冢上，百姓憐之。",
+          "person_mention_id": "c-shiji-059-wuzong:m006-0013"
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p007",
+          "quote": "榮最長，死無後，國除，地入于漢，為南郡。",
+          "person_mention_id": "c-shiji-059-wuzong:m007-0000"
+        }
+      ],
+      "interpretation_note": "本篇明示死亡；來源王位年數不作享年或生年，同段建自殺與寄病死回述不重複計事件，請誅未實行不作死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

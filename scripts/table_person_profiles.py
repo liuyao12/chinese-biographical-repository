@@ -54,6 +54,9 @@ def build(root=ROOT):
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
         profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people[pid]['label'],'identity_note':people[pid].get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
+        profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])
+        profile['selected_life_event_dates'] = b.get('selected_life_event_dates', [])
         (out/f'{pid}.json').write_text(json.dumps(profile,ensure_ascii=False,indent=2)+'\n')
     entries = []
     for pid in sorted(table_mentions):
