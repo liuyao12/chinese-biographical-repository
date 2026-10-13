@@ -6,18 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `thb_vkl_7xq` | 尹潘 | [《史記・樊酈滕灌列傳》][77] | [JSON](thb_vkl_7xq.json) |
-| `thg_zvp_v5y` | 戚夫人 | [《史記・呂太后本紀》][9] | [JSON](thg_zvp_v5y.json) |
-| `thi_bqo_x8d` | 申包胥 | [《史記・伍子胥列傳》][48] | [JSON](thi_bqo_x8d.json) |
-| `thq_oc7_85d` | 交（楚元王） | [《史記・太史公自序》][112] | [JSON](thq_oc7_85d.json) |
-| `thx_toi_m04` | 秦穆公 | [《史記・匈奴列傳》][92] | [JSON](thx_toi_m04.json) |
-| `tib_iww_tkq` | 齊桓引古 | [《史記・屈原賈生列傳》][66] | [JSON](tib_iww_tkq.json) |
-| `tic_otw_oo2` | 孔父（宋弒君記事） | [《史記・宋微子世家》][20] | [JSON](tic_otw_oo2.json) |
-| `tik_tcq_8l1` | 魏襄王 | [《史記・張儀列傳》][52] | [JSON](tik_tcq_8l1.json) |
-| `tin_46y_do7` | 魏相 | [《史記・張丞相列傳》][78] | [JSON](tin_46y_do7.json) |
-| `tj3_uj7_2tc` | 齊明 | [《史記・陳涉世家》][30] | [JSON](tj3_uj7_2tc.json) |
-| `tjg_uab_cmw` | 蔡女（陳文公妻、佗母） | [《史記・陳杞世家》][18] | [JSON](tjg_uab_cmw.json) |
-| `tjx_q6x_kc7` | 墨翟 | [《史記・秦始皇本紀》][6] | [JSON](tjx_q6x_kc7.json) |
 | `tk3_22k_8aq` | 妲己 | [《史記・外戚世家》][31] | [JSON](tk3_22k_8aq.json) |
 | `tk5_g6e_rh8` | 淮南王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](tk5_g6e_rh8.json) |
 | `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][15] | [JSON](tke_fad_hlp.json) |
@@ -374,7 +362,6 @@
 | `w0d_2f6_1ih` | 曼丘臣 | [《史記・韓信盧綰列傳》][75] | [JSON](w0d_2f6_1ih.json) |
 | `w0i_qc3_tpy` | 許負 | [《史記・絳侯周勃世家》][39] | [JSON](w0i_qc3_tpy.json) |
 | `w0m_43x_610` | 娵訾氏女 | [《史記・五帝本紀》][1] | [JSON](w0m_43x_610.json) |
-| `w0u_fhy_mih` | 趙襄子 | [《史記・刺客列傳》][68] | [JSON](w0u_fhy_mih.json) |
 | `w0v_vvq_ypt` | 臧昭伯 | [《史記・魯周公世家》][15] | [JSON](w0v_vvq_ypt.json) |
 | `w12_vt2_dhx` | 魏獻子 | [《史記・趙世家》][25] | [JSON](w12_vt2_dhx.json) |
 | `w1c_wq9_fly` | 太史公（田世家論贊敘述者） | [《史記・田敬仲完世家》][28] | [JSON](w1c_wq9_fly.json) |
@@ -573,7 +560,6 @@
 | `xgu_xke_x00` | 商鞅引古 | [《史記・李斯列傳》][69] | [JSON](xgu_xke_x00.json) |
 | `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][19] | [JSON](xgw_at7_sju.json) |
 | `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][10] | [JSON](xgx_g4a_c28.json) |
-| `xh0_ri6_7sg` | 餘祭 | [《史記・刺客列傳》][68] | [JSON](xh0_ri6_7sg.json) |
 | `xh0_zdc_cq8` | 季勝 | [《史記・秦本紀》][5] | [JSON](xh0_zdc_cq8.json) |
 | `xhe_1l6_pc9` | 齊王曾陽虛侯未具名 | [《史記・扁鵲倉公列傳》][87] | [JSON](xhe_1l6_pc9.json) |
 | `xhk_2v1_pd8` | 魯君（孔子世家女樂未名者） | [《史記・孔子世家》][29] | [JSON](xhk_2v1_pd8.json) |

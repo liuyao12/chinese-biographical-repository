@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "餘眛",
-    "王餘眛"
+    "王餘眛",
+    "夷眛"
   ],
   "titles": [
     {
@@ -64,6 +65,14 @@
       "paragraph_id": "c-shiji-031-wu:p006",
       "count": 6,
       "quote": "二十五年，王壽夢卒。壽夢有子四人，長曰諸樊，次曰餘祭，次曰餘眛，次曰季札。季札賢，而壽夢欲立之，季札讓不可，於是乃立長子諸樊，攝行事當國。"
+    },
+    {
+      "number": 86,
+      "category": "liezhuan",
+      "title": "刺客列傳第二十六",
+      "paragraph_id": "c-shiji-086-cike:p005",
+      "count": 4,
+      "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；"
     }
   ],
   "table_occurrences": [],
@@ -94,6 +103,38 @@
           "editorial_readings": [],
           "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
           "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-086-cike",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-086",
+      "source_id": "s-shiji-086-cike",
+      "source": {
+        "title": "史記／卷086",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷086",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
+        "revision_id": 2388562,
+        "accessed_on": "2026-10-09",
+        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
+          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
+          "digital_variant_notes": [
+            {
+              "paragraph_number": 17,
+              "body_reading": "縣",
+              "witness_tooltip": "一作「購縣」，又作「縣購」。",
+              "note": "數位見證未標明異文版本，另存，不代替正文。"
+            }
+          ]
         }
       }
     }
@@ -149,10 +190,53 @@
       },
       "interpretation_note": "只保存本篇明示父母、祖父、兄弟或妃關係；夏史引語保留敘事來源，不補未見姓名、闕代或同父同母。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji086-003",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "predicate": "brother",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p005",
+          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次曰夷眛",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅記錄明示父子、母、姊弟、兄弟及局部婚配來源主張；夷眛之子僚等異說尚待跨篇校核，母老子弱與季父不補未名世系。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji086-005",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAACA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p005",
+          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "夷眛之子僚",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅記錄明示父子、母、姊弟、兄弟及局部婚配來源主張；夷眛之子僚等異說尚待跨篇校核，母老子弱與季父不補未名世系。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
     "5dm_e40_rqh_AAAAAAAAAAAAAAAAAA": "壽夢",
+    "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA": "諸樊",
     "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC": "餘眛",
     "5dm_e40_rqh_AAAAAAAAAAAAAAAAAACA": "僚（吳王）"
   },
@@ -247,6 +331,48 @@
       },
       "interpretation_note": "只保存本篇明示父母、祖父、兄弟或妃關係；夏史引語保留敘事來源，不補未見姓名、闕代或同父同母。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji086-003",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA",
+      "predicate": "brother",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p005",
+          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次曰夷眛",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅記錄明示父子、母、姊弟、兄弟及局部婚配來源主張；夷眛之子僚等異說尚待跨篇校核，母老子弱與季父不補未名世系。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji086-005",
+      "subject_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAACA",
+      "predicate": "father",
+      "object_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p005",
+          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "夷眛之子僚",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅記錄明示父子、母、姊弟、兄弟及局部婚配來源主張；夷眛之子僚等異說尚待跨篇校核，母老子弱與季父不補未名世系。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "age_assertions": [],
@@ -300,6 +426,26 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
       }
+    },
+    {
+      "id": "le-shiji086-003",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "夷眛死",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p005",
+          "quote": "光之父曰呉王諸樊。諸樊弟三人：次曰餘祭，次曰夷眛，次曰季子札。諸樊知季子札賢而不立太子，以次傳三弟，欲卒致國于季子札。諸樊既死，傳餘祭。餘祭死，傳夷眛。夷眛死，當傳季子札；季子札逃不肯立，呉人乃立夷眛之子僚爲王。公子光曰：「使以兄弟次邪，季子當立；必以子乎，則光眞適嗣，當立。」故嘗陰養謀臣以求立。",
+          "person_mention_id": "c-shiji-086-cike:m005-0022"
+        }
+      ],
+      "interpretation_note": "保存本段死亡原語；日期未明者不逆算，不由死亡自動終止全部官爵。未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ],
   "life_event_date_decisions": [],

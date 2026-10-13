@@ -181,7 +181,9 @@ def validate(root=ROOT):
                     check(m['start'] >= last, '提及位置重疊或未排序')
                     check(p['text'][m['start']:m['end']] == m['surface'], '提及引句與位置不符')
                     last=m['end']
-                    if m['kind'] == 'person': check(m['person_id'] in pids, '提及引用未知人物 ID')
+                    if m['kind'] == 'person':
+                        check(m['person_id'] in pids, '提及引用未知人物 ID')
+                        check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
                     else: check(False,'未知提及類型')
             if any('annotation_status' in p for p in d['paragraphs']):

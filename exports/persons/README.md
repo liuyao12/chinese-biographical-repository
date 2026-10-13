@@ -121,15 +121,6 @@
 
 </details>
 
-<details><summary><code>1f5_azb_lmy</code> 專諸（刺客列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 專諸 | [《史記・刺客列傳》][68] | [JSON](1f5_azb_lmy.json) |
-| `A` | 專諸子未名 | [《史記・刺客列傳》][68] | [JSON](1f5_azb_lmy_A.json) |
-
-</details>
-
 <details><summary><code>1g3_02y_oor</code> 太公望（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -572,8 +563,8 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 專諸 | [《史記・吳太伯世家》][13] | [JSON](78u_8ii_bnr.json) |
-| `A` | 專諸子（本卷未名） | [《史記・吳太伯世家》][13] | [JSON](78u_8ii_bnr_A.json) |
+| `根` | 專諸 | [《史記・刺客列傳》][68] | [JSON](78u_8ii_bnr.json) |
+| `A` | 專諸子（本卷未名） | [《史記・吳太伯世家》][13]、[《史記・刺客列傳》][68] | [JSON](78u_8ii_bnr_A.json) |
 
 </details>
 
@@ -1635,15 +1626,6 @@
 
 </details>
 
-<details><summary><code>m0z_vep_k8y</code> 諸樊（刺客列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 諸樊 | [《史記・刺客列傳》][68] | [JSON](m0z_vep_k8y.json) |
-| `A` | 公子光 | [《史記・刺客列傳》][68] | [JSON](m0z_vep_k8y_A.json) |
-
-</details>
-
 <details><summary><code>m8d_pnd_ias</code> 惠侯（燕君）（10 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1838,7 +1820,7 @@
 | `根` | 趙武（趙庶子） | [《史記・趙世家》][25] | [JSON](p4b_qf7_603.json) |
 | `A` | 趙景叔 | [《史記・趙世家》][25] | [JSON](p4b_qf7_603_A.json) |
 | `AA` | 趙鞅 | [《史記・趙世家》][25] | [JSON](p4b_qf7_603_AA.json) |
-| `AAA` | 毋卹 | [《史記・趙世家》][25] | [JSON](p4b_qf7_603_AAA.json) |
+| `AAA` | 趙襄子毋卹 | [《史記・趙世家》][25] | [JSON](p4b_qf7_603_AAA.json) |
 
 </details>
 
@@ -2518,15 +2500,6 @@
 | `A` | 揚（衛莊公） | [《史記・衛康叔世家》][19] | [JSON](xrt_zof_cbt_A.json) |
 | `AA` | 州吁（衛君） | [《史記・衛康叔世家》][19] | [JSON](xrt_zof_cbt_AA.json) |
 | `AB` | 完（衛桓公） | [《史記・衛康叔世家》][19] | [JSON](xrt_zof_cbt_AB.json) |
-
-</details>
-
-<details><summary><code>xyg_gxo_6tt</code> 夷眛（刺客列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 夷眛 | [《史記・刺客列傳》][68] | [JSON](xyg_gxo_6tt.json) |
-| `A` | 吳王僚 | [《史記・刺客列傳》][68] | [JSON](xyg_gxo_6tt_A.json) |
 
 </details>
 

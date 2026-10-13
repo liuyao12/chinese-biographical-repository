@@ -113,6 +113,48 @@
       "interpretation_note": "燕王喜敘事二十七年嘉自立代王，保留來源紀年；後段虜代王嘉未自動當廢爵終點。",
       "reviewer": "Codex（AI 代理）",
       "period": "二十七年 → 未定"
+    },
+    {
+      "id": "th-shiji086-016",
+      "person_id": "237_cbp_w2w",
+      "title": "代王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji086-016:a001",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "start": 57,
+          "end": 59,
+          "surface": "代王",
+          "person_mention_id": "c-shiji-086-cike:m035-0057",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -159,6 +201,14 @@
       "paragraph_id": "c-shiji-034-yan:p032",
       "count": 2,
       "quote": "亡歸燕。二十五年，秦虜滅韓王安，置潁川郡。二十七年，秦虜趙王遷，滅趙。趙公子嘉自立爲代王。"
+    },
+    {
+      "number": 86,
+      "category": "liezhuan",
+      "title": "刺客列傳第二十六",
+      "paragraph_id": "c-shiji-086-cike:p035",
+      "count": 1,
+      "quote": "月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。"
     }
   ],
   "table_occurrences": [
@@ -347,6 +397,38 @@
           "editorial_readings": [],
           "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
           "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-086-cike",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-086",
+      "source_id": "s-shiji-086-cike",
+      "source": {
+        "title": "史記／卷086",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷086",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
+        "revision_id": 2388562,
+        "accessed_on": "2026-10-09",
+        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
+          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
+          "digital_variant_notes": [
+            {
+              "paragraph_number": 17,
+              "body_reading": "縣",
+              "witness_tooltip": "一作「購縣」，又作「縣購」。",
+              "note": "數位見證未標明異文版本，另存，不代替正文。"
+            }
+          ]
         }
       }
     }
