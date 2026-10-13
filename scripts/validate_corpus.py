@@ -118,6 +118,14 @@ def validate(root=ROOT):
             check(len(entries) == len(alias_targets)
                   and {e['previous_id']: e['person_id'] for e in entries} == alias_targets,
                   '人物 ID 遷移對照與相容別名不符')
+            retirement = migration.get('alias_retirement')
+            if retirement:
+                check(retirement.get('status') == 'retired_after_reference_update'
+                      and retirement.get('active_reference_count') == 0
+                      and type(retirement.get('retired_alias_count')) is int
+                      and retirement['retired_alias_count'] > 0
+                      and not alias_targets and not entries,
+                      '舊 ID 撤除後不得殘留相容別名或遷移對照')
             migration_count = migration.get('person_count')
             check(type(migration_count) is int
                   and len(set(alias_targets.values())) <= migration_count <= len(people)

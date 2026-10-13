@@ -483,7 +483,7 @@
 | `syq_5uv_2me` | 散宜生 | [《史記・蕭相國世家》][35] | [JSON](syq_5uv_2me.json) |
 | `syy_h2t_4ie` | 郤稱（邳鄭所列者） | [《史記・晉世家》][21] | [JSON](syy_h2t_4ie.json) |
 | `sz3_vzm_j03` | 尾生 | [《史記・陳丞相世家》][38] | [JSON](sz3_vzm_j03.json) |
-| `szm_m1e_tk3` | 秦相應侯 | [《史記・春申君列傳》][60] | [JSON](szm_m1e_tk3.json) |
+| `szm_m1e_tk3` | 秦相應侯 | [《史記・范睢蔡澤列傳》][61] | [JSON](szm_m1e_tk3.json) |
 | `szo_tqq_qr1` | 休屠王（匈奴列傳第36段未名） | [《史記・匈奴列傳》][92] | [JSON](szo_tqq_qr1.json) |
 | `t00_u9v_yvd` | 王公 | [《史記・游俠列傳》][106] | [JSON](t00_u9v_yvd.json) |
 | `t09_bk5_omn` | 神農 | [《史記・貨殖列傳》][111] | [JSON](t09_bk5_omn.json) |

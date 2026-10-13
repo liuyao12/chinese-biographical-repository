@@ -27,7 +27,7 @@
     {
       "id": "a-shiji078-002",
       "subject_person_id": "ow0_2qg_73y",
-      "predicate": "brother",
+      "predicate": "sister",
       "object_person_id": "sc1_1r3_ts0",
       "status": "source_attested",
       "evidence": [
@@ -40,9 +40,15 @@
       ],
       "qualifiers": {
         "source_term": "李園持其女弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "sc1_1r3_ts0",
+          "younger_person_id": "ow0_2qg_73y",
+          "operator": "lt",
+          "scope": "siblings"
+        }
       },
-      "interpretation_note": "來源所載親屬主張，不表示已核定血緣；李園女弟仍未名，陽文君兩子未拆補姓名，太子繼位不單憑次序推父子。",
+      "interpretation_note": "來源所載親屬主張，不表示已核定血緣；李園女弟仍未名，陽文君兩子未拆補姓名，太子繼位不單憑次序推父子。 女弟是妹妹，修正原 brother 類型為 sister；依女弟存李園較年長的相對約束，不補兩人排行序號。",
       "reviewer": "Codex（AI 代理）"
     },
     {
