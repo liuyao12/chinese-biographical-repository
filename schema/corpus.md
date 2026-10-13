@@ -274,3 +274,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 來源年齡的 `report_repetition_of` 指向同篇較早、同人同數值的報齡記錄，用以標示敘事與人物自述的重複，不當獨立證據或兩次不同年齡。不推計歲方式或生年。
 
 人物事件 `diplomatic_service` 保存出使任事與 `polity_source_name`；「事燕三年」的 `reported_duration` 為數值3、`unit: service_year`、`source_number: 三`、`source_term: 事燕三年`、`counting: unspecified_source_years`、`status: source_attested`，證據與事件一致。此年數不屬剛成君爵位任期，不推曆日或起訖年。
+
+兄弟／姐妹陳述的 `qualifiers.shared_father` 可為原文明示同父的 `true`、異父的 `false` 或未知的 `null`。布林值須有相符同父／異父原詞與來源引句，不補具名父親；缺欄與 `null` 均不表示同父。異父兄弟姊妹不得僅因兄弟陳述接到同一父系，來源原詞、母系及未明家系仍保留。

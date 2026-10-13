@@ -745,6 +745,12 @@ def validate(root=ROOT):
                           and any(term in qualifiers.get('source_term', '')
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同母或異母關係須有相符原詞與布林值，不補母親端點')
+                if qualifiers.get('shared_father') is not None:
+                    terms = ('異父',) if qualifiers['shared_father'] is False else ('同父',)
+                    check(a['predicate'] in ('brother', 'sister') and type(qualifiers['shared_father']) is bool
+                          and any(term in qualifiers.get('source_term', '')
+                                  and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
+                          '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
                     if qualifiers.get('kinship_basis') == 'external_clan_affiliation':
                         check('外族' in qualifiers.get('source_term', '')
