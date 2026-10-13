@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eg3_vej_g33` | 虢文公 | [《史記・周本紀》][4] | [JSON](eg3_vej_g33.json) |
-| `ego_1he_n42` | 少帝 | [《史記・外戚世家》][31] | [JSON](ego_1he_n42.json) |
-| `ego_jo3_7bf` | 墨子 | [《史記・太史公自序》][112] | [JSON](ego_jo3_7bf.json) |
-| `egy_txn_xs1` | 申 | [《史記・魏世家》][26] | [JSON](egy_txn_xs1.json) |
 | `egz_t7c_4jf` | 甘般（君奭引述） | [《史記・燕召公世家》][16] | [JSON](egz_t7c_4jf.json) |
 | `eh7_raa_ap6` | 伯夷 | [《史記・伯夷列傳》][43] | [JSON](eh7_raa_ap6.json) |
 | `ehf_uuv_att` | 子西 | [《史記・伍子胥列傳》][48] | [JSON](ehf_uuv_att.json) |
@@ -208,7 +204,6 @@
 | `fqm_332_ccr` | 勸公子忘功客未名 | [《史記・魏公子列傳》][59] | [JSON](fqm_332_ccr.json) |
 | `fqt_y7z_vdn` | 魯哀公 | [《史記・仲尼弟子列傳》][49] | [JSON](fqt_y7z_vdn.json) |
 | `fqw_nka_rjt` | 甘茂 | [《史記・韓世家》][27] | [JSON](fqw_nka_rjt.json) |
-| `fqy_h9x_4nx` | 申包胥引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](fqy_h9x_4nx.json) |
 | `fr3_x62_cai` | 河亶甲 | [《史記・殷本紀》][3] | [JSON](fr3_x62_cai.json) |
 | `fr7_6v8_rjo` | 大任 | [《史記・太史公自序》][112] | [JSON](fr7_6v8_rjo.json) |
 | `frl_sio_pwm` | 太公（引古） | [《史記・淮陰侯列傳》][74] | [JSON](frl_sio_pwm.json) |
@@ -389,7 +384,6 @@
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][56] | [JSON](gvp_kl8_u6o.json) |
 | `gw0_pdi_7ji` | 孔子 | [《史記・留侯世家》][37] | [JSON](gw0_pdi_7ji.json) |
 | `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][29] | [JSON](gwd_nwe_4s7.json) |
-| `gwl_0sh_hcp` | 楚昭王引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](gwl_0sh_hcp.json) |
 | `gwo_lf6_tr7` | 蠡（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](gwo_lf6_tr7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][34] | [JSON](gx0_1xv_0gm.json) |
 | `gxd_15x_9d0` | 班固 | [《史記・秦始皇本紀》][6] | [JSON](gxd_15x_9d0.json) |
@@ -1892,7 +1886,6 @@
 | `qul_n5i_y0s` | 始皇 | [《史記・太史公自序》][112] | [JSON](qul_n5i_y0s.json) |
 | `qum_azo_0d9` | 西王母 | [《史記・大宛列傳》][105] | [JSON](qum_azo_0d9.json) |
 | `quo_167_x2v` | 田嬰 | [《史記・孟嘗君列傳》][57] | [JSON](quo_167_x2v.json) |
-| `qup_ap8_dr6` | 范蠡陶朱公引古 | [《史記・范睢蔡澤列傳》][61] | [JSON](qup_ap8_dr6.json) |
 | `qv2_833_5sf` | 公子糾引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](qv2_833_5sf.json) |
 | `qvb_bff_vk4` | 繆嬴（夷皋母） | [《史記・晉世家》][21] | [JSON](qvb_bff_vk4.json) |
 | `qvb_gjo_odq` | 周宣王 | [《史記・楚世家》][22] | [JSON](qvb_gjo_odq.json) |
@@ -2243,6 +2236,13 @@
 | `sz3_vzm_j03` | 尾生 | [《史記・陳丞相世家》][38] | [JSON](sz3_vzm_j03.json) |
 | `szo_tqq_qr1` | 休屠王（匈奴列傳第36段未名） | [《史記・匈奴列傳》][92] | [JSON](szo_tqq_qr1.json) |
 | `t00_u9v_yvd` | 王公 | [《史記・游俠列傳》][106] | [JSON](t00_u9v_yvd.json) |
+| `t09_bk5_omn` | 神農 | [《史記・貨殖列傳》][111] | [JSON](t09_bk5_omn.json) |
+| `t0c_19x_p5k` | 儒生（譏郭解，未名） | [《史記・游俠列傳》][106] | [JSON](t0c_19x_p5k.json) |
+| `t0d_uf0_f2f` | 孔子 | [《史記・儒林列傳》][103] | [JSON](t0d_uf0_f2f.json) |
+| `t0l_25p_ekd` | 張儀 | [《史記・魏世家》][26] | [JSON](t0l_25p_ekd.json) |
+| `t0n_23a_eiu` | 穰苴 | [《史記・絳侯周勃世家》][39] | [JSON](t0n_23a_eiu.json) |
+| `t0t_f3v_4e2` | 御史大夫劫 | [《史記・秦始皇本紀》][6] | [JSON](t0t_f3v_4e2.json) |
+| `t0v_zp6_if6` | 桓生 | [《史記・儒林列傳》][103] | [JSON](t0v_zp6_if6.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

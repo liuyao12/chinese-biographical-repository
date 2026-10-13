@@ -6,6 +6,31 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class FanCaiIdentityTests(unittest.TestCase):
+    def test_chu_zhao_in_quotation_does_not_replace_qin_zhao(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p020'))
+        chu = next(m for m in paragraph['mentions'] if m['surface'] == '楚昭王')
+        qin = next(m for m in paragraph['mentions'] if m['surface'] == '昭王')
+        self.assertEqual(chu['person_id'], 'qlm_m3s_f3b_B')
+        self.assertEqual(qin['person_id'], 'ao3_0fy_d45')
+        self.assertNotEqual(chu['person_id'], qin['person_id'])
+        self.assertIn('包胥辭不受', paragraph['text'])
+
+    def test_deliberate_wu_aliases_and_qi_huan_are_source_scoped(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        p13 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p013'))
+        helv = next(m for m in p13['mentions'] if m['surface'] == '闔閭')
+        self.assertEqual(helv['person_id'], '5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA')
+        wu = json.loads((ROOT / 'corpus/shiji/031.json').read_text())
+        p8 = next(p for p in wu['paragraphs'] if p['id'].endswith(':p008'))
+        self.assertIn('季札封於延陵，故號曰延陵季子', p8['text'])
+        self.assertEqual(next(m for m in p8['mentions'] if m['surface'] == '延陵季子')['person_id'],
+                         '5dm_e40_rqh_AAAAAAAAAAAAAAAAAAD')
+        p24 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p024'))
+        self.assertEqual(next(m for m in p24['mentions'] if m['surface'] == '齊桓公')['person_id'], '9w2_c77_53m')
+        self.assertEqual(next(m for m in p24['mentions'] if m['surface'] == '管夷吾')['person_id'], 'h1v_8ap_b9y')
+        self.assertIn('以為仲父', p24['text'])
+
     def test_mavfu_short_form_at_changping_is_the_son_not_zhao_she(self):
         chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
         mentions = [m for p in chapter['paragraphs'] for m in p['mentions'] if m['surface'] in ('馬服子', '馬服')]
