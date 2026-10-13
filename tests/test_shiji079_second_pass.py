@@ -167,3 +167,22 @@ class FanCaiIdentityTests(unittest.TestCase):
         names = {m['surface']: m['person_id'] for m in p32['mentions']}
         self.assertEqual(names['周公'], 'y4i_pjk_4gn_AD')
         self.assertEqual(names['成王'], 'qna_m75_pj8')
+
+    def test_boyi_exemplar_is_not_shun_period_ritual_officer(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        names = [m for p in chapter['paragraphs'] for m in p['mentions'] if m['surface'] == '伯夷']
+        self.assertEqual({m['person_id'] for m in names}, {'eh7_raa_ap6'})
+        wudi = json.loads((ROOT / 'corpus/shiji/001.json').read_text())
+        officer = next(p for p in wudi['paragraphs'] if p['id'].endswith(':p024'))
+        ids = {m['person_id'] for m in officer['mentions'] if m['surface'] == '伯夷'}
+        self.assertTrue(ids)
+        self.assertNotIn('eh7_raa_ap6', ids)
+
+    def test_strength_examples_do_not_invent_dated_deaths(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/079.json').read_text())
+        p13 = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p013'))
+        names = {m['surface']:m['person_id'] for m in p13['mentions']}
+        self.assertEqual(names['烏獲'], 'rzv_0ll_3ty')
+        self.assertEqual(names['任鄙'], 'zqy_a21_8d3')
+        events = json.loads((ROOT / 'corpus/shiji/079-life-events.json').read_text())['events']
+        self.assertFalse(any(e['person_id'] in ('rzv_0ll_3ty','zqy_a21_8d3') for e in events))
