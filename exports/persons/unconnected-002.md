@@ -125,7 +125,6 @@
 | `f41_iwq_mkl` | 祖庚 | [《史記・殷本紀》][3] | [JSON](f41_iwq_mkl.json) |
 | `f42_zl0_lkq` | 晉厲公 | [《史記・晉世家》][21] | [JSON](f42_zl0_lkq.json) |
 | `f45_owg_dw1` | 周（引古） | [《史記・淮陰侯列傳》][74] | [JSON](f45_owg_dw1.json) |
-| `f47_ssw_aov` | 文子齊謀伐楚未定 | [《史記・范睢蔡澤列傳》][61] | [JSON](f47_ssw_aov.json) |
 | `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][111] | [JSON](f4b_rfz_gs1.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
 | `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
@@ -2242,6 +2241,7 @@
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 | `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
+| `svc_81f_pkz` | 樂閒（昌國君） | [《史記・樂毅列傳》][62] | [JSON](svc_81f_pkz.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

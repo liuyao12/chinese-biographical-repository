@@ -1196,7 +1196,7 @@
 | `7oz_44p_91g` | 孟賁（引古） | [《史記・淮陰侯列傳》][74] | [JSON](7oz_44p_91g.json) |
 | `7p1_uko_gaz` | 呂后 | [《史記・張丞相列傳》][78] | [JSON](7p1_uko_gaz.json) |
 | `7pf_nqu_pv0` | 栗姬 | [《史記・太史公自序》][112] | [JSON](7pf_nqu_pv0.json) |
-| `7pl_s0g_rkh` | 孟嘗君薛文 | [《史記・孟嘗君列傳》][57] | [JSON](7pl_s0g_rkh.json) |
+| `7pl_s0g_rkh` | 孟嘗君田文 | [《史記・孟嘗君列傳》][57] | [JSON](7pl_s0g_rkh.json) |
 | `7pz_aqk_pf6` | 須賈 | [《史記・穰侯列傳》][54] | [JSON](7pz_aqk_pf6.json) |
 | `7q0_00l_ra0` | 比干引古 | [《史記・李斯列傳》][69] | [JSON](7q0_00l_ra0.json) |
 | `7q5_0n4_mjt` | 趙王 | [《史記・齊悼惠王世家》][34] | [JSON](7q5_0n4_mjt.json) |
