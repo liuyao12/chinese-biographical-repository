@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "hmj_pm8_38e",
+  "canonical_person_id": "hmj_pm8_38e",
+  "label": "壺遂（韓長孺列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "壺遂",
+    "遂"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji108-046",
+      "person_id": "hmj_pm8_38e",
+      "title": "詹事",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p014",
+          "quote": "太史公曰：余與壺遂定律暦，觀韓長孺之義，壺遂之深中隱厚。世之言梁多長者，不虛哉！壺遂官至詹事，天子方倚以爲漢相，會遂卒。不然，壺遂之內廉行修，斯鞠躬君子也。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji108-046:a001",
+          "paragraph_id": "c-shiji-108-han:p014",
+          "start": 44,
+          "end": 46,
+          "surface": "詹事",
+          "person_mention_id": "c-shiji-108-han:m014-0007",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "記來源任官或用稱；未明年月及終止事件保持未知，篇末附載評論不作獨立任官證據。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 108,
+      "category": "liezhuan",
+      "title": "韓長孺列傳第四十八",
+      "paragraph_id": "c-shiji-108-han:p011",
+      "count": 6,
+      "quote": "足以當世取合，而出於忠厚焉。貪嗜於財。所推舉皆廉士，賢於己者也。於梁舉壺遂、臧固、郅他，皆天下名士，士亦以此稱慕之，唯天子以爲國器。安國爲御史大夫四歳餘，丞相田蚡死，安國行丞相事，奉引墮車蹇。天子議置相，欲用安國，使使視之，蹇甚，乃更以平棘侯薛澤爲丞相。安國病免數月，蹇愈，"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-108-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "source_id": "s-shiji-108-han",
+      "source": {
+        "title": "史記／卷108",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷108",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
+        "revision_id": 1765317,
+        "accessed_on": "2026-10-11",
+        "extent": "13段正文、1段太史公論、1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "hmj_pm8_38e": "壺遂（韓長孺列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "hmj_pm8_38e"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji108-hu",
+      "person_id": "hmj_pm8_38e",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p014",
+          "quote": "會遂卒",
+          "person_mention_id": "c-shiji-108-han:m014-0057"
+        }
+      ],
+      "interpretation_note": "保存本文死亡事件；無明示日期不補數值年，不據此終止任何官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

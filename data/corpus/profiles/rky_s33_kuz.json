@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "rky_s33_kuz",
+  "canonical_person_id": "rky_s33_kuz",
+  "label": "公西赤（弟子列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "子華",
+    "公西赤",
+    "赤"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 67,
+      "category": "liezhuan",
+      "title": "仲尼弟子列傳第七",
+      "paragraph_id": "c-shiji-067-disciples:p018",
+      "count": 5,
+      "quote": "「行之。」子路問：「聞斯行諸？」子曰：「有父兄在，如之何其聞斯行之！」子華怪之，「敢問問同而答異？」孔子曰：「求也退，故進之。由也兼人，故退之。」"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-067-disciples",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "source_id": "s-shiji-067-disciples",
+      "source": {
+        "title": "史記／卷067",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷067",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
+        "revision_id": 7869003,
+        "accessed_on": "2026-10-09",
+        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
+          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji067-006",
+      "subject_person_id": "rky_s33_kuz",
+      "predicate": "mother",
+      "object_person_id": "rbe_9wy_8fe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p100",
+          "quote": "子華使於齊，冉有爲其母請粟。孔子曰：「與之釜。」請益，曰：「與之庾。」冉子與之粟五秉。孔子曰：「赤之適齊也，乘肥馬，衣輕裘。吾聞君子周急不繼富。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "冉有爲其母請粟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父母、其子及娶女為夫人保存，未名家屬不補姓名。鯉稱按孔子自述葬子與顏回父子敘事暫定，不以年齡或傳授順序補世系；來源陳述與獨立史實確證分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "rbe_9wy_8fe": "公西赤母（弟子列傳候選）",
+    "rky_s33_kuz": "公西赤（弟子列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rky_s33_kuz"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji067-006",
+      "subject_person_id": "rky_s33_kuz",
+      "predicate": "mother",
+      "object_person_id": "rbe_9wy_8fe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p100",
+          "quote": "子華使於齊，冉有爲其母請粟。孔子曰：「與之釜。」請益，曰：「與之庾。」冉子與之粟五秉。孔子曰：「赤之適齊也，乘肥馬，衣輕裘。吾聞君子周急不繼富。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "冉有爲其母請粟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父母、其子及娶女為夫人保存，未名家屬不補姓名。鯉稱按孔子自述葬子與顏回父子敘事暫定，不以年齡或傳授順序補世系；來源陳述與獨立史實確證分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

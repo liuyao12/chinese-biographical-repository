@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "id": "335_flt_fs5",
+  "canonical_person_id": "335_flt_fs5",
+  "label": "傳舍長未名（孟嘗君列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "傳舍長",
+    "舍長"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji075-017",
+      "person_id": "335_flt_fs5",
+      "title": "傳舍長",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-075-mengchang",
+          "source_id": "s-shiji-075-mengchang",
+          "paragraph_id": "c-shiji-075-mengchang:p014",
+          "quote": "初，馮驩聞孟嘗君好客，躡蹻而見之。孟嘗君曰；「先生遠辱，何以教文也？」馮驩曰：「聞君好士，以貧身歸於君。」孟嘗君置傳舍十日，孟嘗君問傳舍長曰：「客何所爲？」答曰：「馮先生甚貧，猶有一劍耳，又蒯緱。彈其劍而歌曰『長鋏歸來乎，食無魚』。」孟嘗君遷之幸舍，食有魚矣。五日，又問傳舍長。答曰：「客復彈劍而歌曰『長鋏歸來乎，出無輿』。」孟嘗君遷之代舍，出入乘輿車矣。五日，孟嘗君復問傳舍長。舍長答曰：「先生又嘗彈劍而歌曰『長鋏歸來乎，無以爲家』。」孟嘗君不悅。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji075-017:a001",
+          "paragraph_id": "c-shiji-075-mengchang:p014",
+          "start": 66,
+          "end": 69,
+          "surface": "傳舍長",
+          "person_mention_id": "c-shiji-075-mengchang:m014-0066",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授官、授稱、文獻用稱與諡稱分存；未知日期與終點不補。初馮驩段落為回述，不把跨段順序當連續任期，擬請相秦與許以所得封子不當實授；囚、出關或死亡不直接終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 75,
+      "category": "liezhuan",
+      "title": "孟嘗君列傳第十五",
+      "paragraph_id": "c-shiji-075-mengchang:p014",
+      "count": 5,
+      "quote": "文也？」馮驩曰：「聞君好士，以貧身歸於君。」孟嘗君置傳舍十日，孟嘗君問傳舍長曰：「客何所爲？」答曰：「馮先生甚貧，猶有一劍耳，又蒯緱。彈其劍而歌曰『長鋏歸來乎，食無魚』。」孟嘗君遷之幸舍，食有魚矣。五日，又問傳舍長。答曰：「客復彈劍而歌曰『長鋏歸來乎，出無輿』。」孟嘗君遷之代"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-075-mengchang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-075",
+      "source_id": "s-shiji-075-mengchang",
+      "source": {
+        "title": "史記／卷075",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷075",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692",
+        "revision_id": 1965692,
+        "accessed_on": "2026-10-09",
+        "extent": "19段正文，自孟嘗君名文至太史公論贊；排除ws-header人物與百科導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-075-mengchang:p003",
+              "witness_form": "（短）［裋］",
+              "body_reading": "短",
+              "note": "保留數位改讀前短；裋為改讀提示，底本未核，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-075-mengchang:p018",
+              "witness_form": "（朝）趣市［朝］",
+              "body_reading": "朝趣市",
+              "note": "保留改讀前朝在趣市之前的順序；移至市後的朝另記為數位改讀提示，底本未核，不依記憶改為趣市朝。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並分離兩項數位改讀提示；保留爲、歳、倶、戸、髙、虚、鷄等原字。",
+          "note": "全19段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "335_flt_fs5": "傳舍長未名（孟嘗君列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "335_flt_fs5"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

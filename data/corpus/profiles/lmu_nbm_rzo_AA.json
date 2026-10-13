@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "id": "lmu_nbm_rzo_AA",
+  "canonical_person_id": "lmu_nbm_rzo_AA",
+  "label": "佗（陳厲公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "厲公",
+    "陳厲公",
+    "佗"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji036-013",
+      "person_id": "lmu_nbm_rzo_AA",
+      "title": "厲公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p008",
+          "quote": "三十八年正月甲戌己丑，桓公鮑卒。桓公弟佗，其母蔡女，故蔡人為佗殺五父及桓公太子免而立佗，是為厲公。桓公病而亂作，國人分散，故再赴。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji036-013:a001",
+          "paragraph_id": "c-shiji-036-chenqi:p008",
+          "start": 46,
+          "end": 48,
+          "surface": "厲公",
+          "person_mention_id": "c-shiji-036-chenqi:m008-0019",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 36,
+      "category": "shijia",
+      "title": "陳杞世家第六",
+      "paragraph_id": "c-shiji-036-chenqi:p006",
+      "count": 13,
+      "quote": "文公元年，取蔡女，生子佗。十年，文公卒，長子桓公鮑立。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-032-qi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-032",
+      "source_id": "s-shiji-032-qi",
+      "source": {
+        "title": "史記／卷032",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷032",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042",
+        "revision_id": 445042,
+        "accessed_on": "2026-10-09",
+        "extent": "正文85個p區塊，自太公望呂尚者至太史公論贊；排除頂部君主摘要、跨站導覽及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留彨、薄泵、慈母、無忌等原字與姓名，未按熟知讀法改寫。",
+          "note": "固定版本與實讀HTML一致；全85段首輪標註，代詞、版本與身份覆核未完；未核底本、影像或專門研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-036-chenqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-036",
+      "source_id": "s-shiji-036-chenqi",
+      "source": {
+        "title": "史記／卷036",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷036",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525",
+        "revision_id": 2588525,
+        "accessed_on": "2026-10-09",
+        "extent": "32段傳世正文，自陳胡公滿至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。原字、探續、媯／姜及傳（上）［云］等見證字樣不默改。末段以索隱述贊標題辨為附載評論，不作司馬遷正文或已校定作者。",
+          "note": "未核可靠古籍底本及影像；原紀年、世系、卜筮引語及校勘保留。已另存吉本道雅2020年論文第6–7頁的具體辨析摘要，不表示本篇全部身份、版本及現代研究已覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji036-014",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "father",
+      "object_person_id": "lmu_nbm_rzo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p006",
+          "quote": "文公元年，取蔡女，生子佗。十年，文公卒，長子桓公鮑立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-015",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "mother",
+      "object_person_id": "tjg_uab_cmw",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p006",
+          "quote": "文公元年，取蔡女，生子佗。十年，文公卒，長子桓公鮑立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取蔡女，生子佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-017",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "brother",
+      "object_person_id": "lmu_nbm_rzo_AB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p008",
+          "quote": "三十八年正月甲戌己丑，桓公鮑卒。桓公弟佗，其母蔡女，故蔡人為佗殺五父及桓公太子免而立佗，是為厲公。桓公病而亂作，國人分散，故再赴。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "桓公弟佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-019",
+      "subject_person_id": "lmu_nbm_rzo_AAA",
+      "predicate": "father",
+      "object_person_id": "lmu_nbm_rzo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p009",
+          "quote": "厲公二年，生子敬仲完。周太史過陳，陳厲公使以《周易》筮之，卦得觀之否：「是為觀國之光，利用賓于王。此其代陳有國乎？不在此，其在異國？非此其身，在其子孫。若在異國，必姜姓。姜姓，太嶽之後。物莫能兩大，陳衰，此其昌乎？」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子敬仲完",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-020",
+      "subject_person_id": "irl_hj6_qpd",
+      "predicate": "spouse",
+      "object_person_id": "lmu_nbm_rzo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p010",
+          "quote": "厲公取蔡女，蔡女與蔡人亂，厲公數如蔡淫。七年，厲公所殺桓公太子免之三弟，長曰躍，中曰林，少曰杵臼，共令蔡人誘厲公以好女，與蔡人共殺厲公而立躍，是為利公。利公者，桓公子也。利公立五月卒，立中弟林，是為莊公。莊公七年卒，少弟杵臼立，是為宣公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取蔡女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "irl_hj6_qpd": "蔡女（陳厲公妻）",
+    "lmu_nbm_rzo_A": "圉（陳文公）",
+    "lmu_nbm_rzo_AA": "佗（陳厲公）",
+    "lmu_nbm_rzo_AAA": "完（敬仲）",
+    "lmu_nbm_rzo_AB": "鮑（陳桓公）",
+    "q8s_9ap_qhb": "陳厲公",
+    "tjg_uab_cmw": "蔡女（陳文公妻、佗母）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "lmu_nbm_rzo_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji036-014",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "father",
+      "object_person_id": "lmu_nbm_rzo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p006",
+          "quote": "文公元年，取蔡女，生子佗。十年，文公卒，長子桓公鮑立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-015",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "mother",
+      "object_person_id": "tjg_uab_cmw",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p006",
+          "quote": "文公元年，取蔡女，生子佗。十年，文公卒，長子桓公鮑立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取蔡女，生子佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-017",
+      "subject_person_id": "lmu_nbm_rzo_AA",
+      "predicate": "brother",
+      "object_person_id": "lmu_nbm_rzo_AB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p008",
+          "quote": "三十八年正月甲戌己丑，桓公鮑卒。桓公弟佗，其母蔡女，故蔡人為佗殺五父及桓公太子免而立佗，是為厲公。桓公病而亂作，國人分散，故再赴。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "桓公弟佗",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-019",
+      "subject_person_id": "lmu_nbm_rzo_AAA",
+      "predicate": "father",
+      "object_person_id": "lmu_nbm_rzo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p009",
+          "quote": "厲公二年，生子敬仲完。周太史過陳，陳厲公使以《周易》筮之，卦得觀之否：「是為觀國之光，利用賓于王。此其代陳有國乎？不在此，其在異國？非此其身，在其子孫。若在異國，必姜姓。姜姓，太嶽之後。物莫能兩大，陳衰，此其昌乎？」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子敬仲完",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji036-020",
+      "subject_person_id": "irl_hj6_qpd",
+      "predicate": "spouse",
+      "object_person_id": "lmu_nbm_rzo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p010",
+          "quote": "厲公取蔡女，蔡女與蔡人亂，厲公數如蔡淫。七年，厲公所殺桓公太子免之三弟，長曰躍，中曰林，少曰杵臼，共令蔡人誘厲公以好女，與蔡人共殺厲公而立躍，是為利公。利公者，桓公子也。利公立五月卒，立中弟林，是為莊公。莊公七年卒，少弟杵臼立，是為宣公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取蔡女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、生、妻、兄弟及祖先原稱；不由繼位補父子，不把舜／禹之後改直接父親，不補世系闕代或同父同母。未核底本與現代研究，來源主張不表示已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji036-019",
+      "person_id": "lmu_nbm_rzo_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-036-chenqi",
+          "source_id": "s-shiji-036-chenqi",
+          "paragraph_id": "c-shiji-036-chenqi:p010",
+          "quote": "厲公取蔡女，蔡女與蔡人亂，厲公數如蔡淫。七年，厲公所殺桓公太子免之三弟，長曰躍，中曰林，少曰杵臼，共令蔡人誘厲公以好女，與蔡人共殺厲公而立躍，是為利公。利公者，桓公子也。利公立五月卒，立中弟林，是為莊公。莊公七年卒，少弟杵臼立，是為宣公。",
+          "person_mention_id": "c-shiji-036-chenqi:m010-0000"
+        }
+      ],
+      "source_term": "共殺厲公",
+      "interpretation_note": "本篇死亡主張，國君年次及時長保留，未知日期不補；數字年換算待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

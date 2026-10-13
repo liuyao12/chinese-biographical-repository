@@ -1404,6 +1404,27 @@
   ],
   "relations": [
     {
+      "id": "a-shiji009-009",
+      "subject_person_id": "ea5_zvr_hlp_A",
+      "predicate": "father",
+      "object_person_id": "ea5_zvr_hlp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p006",
+          "quote": "留侯子張辟彊",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji055-001",
       "subject_person_id": "31t_28w_hda_A",
       "predicate": "father",
@@ -1443,6 +1464,48 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-003",
+      "subject_person_id": "31t_28w_hda_AA",
+      "predicate": "father",
+      "object_person_id": "31t_28w_hda_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子不疑代侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-006",
+      "subject_person_id": "ltg_z7u_vhb",
+      "predicate": "brother",
+      "object_person_id": "31t_28w_hda_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p001",
+          "quote": "留侯張良者，其先韓人也。大父開地，相韓昭侯、宣惠王、襄哀王。父平，相釐王、悼惠王。悼惠王二十三年，平卒。卒二十歲，秦滅韓。良年少，未宦事韓。韓破，良家僮三百人，弟死不葬，悉以家財求客刺秦王，為韓報仇，以大父、父五世相韓故。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "良家僮三百人，弟死不葬",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "弟依張良局部主語，未補姓名、同父同母或排行。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -1492,6 +1555,121 @@
       "title": "留侯"
     }
   ],
+  "name_components": [],
+  "person_ids": [
+    "31t_28w_hda_A",
+    "9ui_6ki_31p",
+    "ea5_zvr_hlp",
+    "y4n_pw6_7ii"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji009-009",
+      "subject_person_id": "ea5_zvr_hlp_A",
+      "predicate": "father",
+      "object_person_id": "ea5_zvr_hlp",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p006",
+          "quote": "留侯子張辟彊",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-001",
+      "subject_person_id": "31t_28w_hda_A",
+      "predicate": "father",
+      "object_person_id": "31t_28w_hda",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p001",
+          "quote": "留侯張良者，其先韓人也。大父開地，相韓昭侯、宣惠王、襄哀王。父平，相釐王、悼惠王。悼惠王二十三年，平卒。卒二十歲，秦滅韓。良年少，未宦事韓。韓破，良家僮三百人，弟死不葬，悉以家財求客刺秦王，為韓報仇，以大父、父五世相韓故。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父平",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-002",
+      "subject_person_id": "31t_28w_hda_A",
+      "predicate": "grandfather",
+      "object_person_id": "1kw_6ot_aly",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p001",
+          "quote": "留侯張良者，其先韓人也。大父開地，相韓昭侯、宣惠王、襄哀王。父平，相釐王、悼惠王。悼惠王二十三年，平卒。卒二十歲，秦滅韓。良年少，未宦事韓。韓破，良家僮三百人，弟死不葬，悉以家財求客刺秦王，為韓報仇，以大父、父五世相韓故。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "大父開地",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-003",
+      "subject_person_id": "31t_28w_hda_AA",
+      "predicate": "father",
+      "object_person_id": "31t_28w_hda_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p027",
+          "quote": "後八年卒，謚為文成侯。子不疑代侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子不疑代侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji055-006",
+      "subject_person_id": "ltg_z7u_vhb",
+      "predicate": "brother",
+      "object_person_id": "31t_28w_hda_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-055-liu",
+          "source_id": "s-shiji-055-liu",
+          "paragraph_id": "c-shiji-055-liu:p001",
+          "quote": "留侯張良者，其先韓人也。大父開地，相韓昭侯、宣惠王、襄哀王。父平，相釐王、悼惠王。悼惠王二十三年，平卒。卒二十歲，秦滅韓。良年少，未宦事韓。韓破，良家僮三百人，弟死不葬，悉以家財求客刺秦王，為韓報仇，以大父、父五世相韓故。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "良家僮三百人，弟死不葬",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "弟依張良局部主語，未補姓名、同父同母或排行。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji055-005",

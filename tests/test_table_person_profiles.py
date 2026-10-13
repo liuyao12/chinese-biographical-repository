@@ -5,6 +5,19 @@ import unittest
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 class TablePersonProfilesTests(unittest.TestCase):
+    def test_profiles_follow_current_registry_and_index_not_stale_export_files(self):
+        registry = json.loads((ROOT/'data/corpus/persons.json').read_text())
+        bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
+        candidates = json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']
+        expected = set(registry) | {p['person_id'] for p in bundles['persons']} | {p['id'] for p in candidates}
+        profiles = {p.stem for p in (ROOT/'data/corpus/profiles').glob('*.json') if p.stem != 'index'}
+        self.assertEqual(profiles, expected)
+        for pid in registry:
+            profile = json.loads((ROOT/'data/corpus/profiles'/f'{pid}.json').read_text())
+            for relation in profile.get('preferred_relations', []):
+                if relation['predicate'] in {'father','mother','spouse','son','daughter','grandfather','great_grandfather'}:
+                    self.assertIn(relation['subject_person_id'], profiles)
+                    self.assertIn(relation['object_person_id'], profiles)
     def test_every_marked_person_has_a_local_profile_and_index_entry(self):
         index=json.loads((ROOT/'data/corpus/profiles/index.json').read_text())
         profiles={p['id']:p for p in index['profiles']}

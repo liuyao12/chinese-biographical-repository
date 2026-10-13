@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "tgy_zyu_6ro",
+  "canonical_person_id": "tgy_zyu_6ro",
+  "label": "褚大（儒林列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "褚大"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji121-045",
+      "person_id": "tgy_zyu_6ro",
+      "title": "梁相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p024",
+          "quote": "仲舒弟子遂者：蘭陵褚大，廣川殷忠，溫呂步舒。褚大至梁相。步舒至長史，持節使決淮南獄，於諸侯擅專斷，不報，以春秋之義正之，天子皆以為是。弟子通者，至於命大夫；為郎、謁者、掌故者以百數。而董仲舒子及孫皆以學至大官。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-045:a001",
+          "paragraph_id": "c-shiji-121-rulin:p024",
+          "start": 25,
+          "end": 27,
+          "surface": "梁相",
+          "person_mention_id": "c-shiji-121-rulin:m024-0009",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji121-030",
+      "person_id": "tgy_zyu_6ro",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "蘭陵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p024",
+          "quote": "仲舒弟子遂者：蘭陵褚大，廣川殷忠，溫呂步舒。褚大至梁相。步舒至長史，持節使決淮南獄，於諸侯擅專斷，不報，以春秋之義正之，天子皆以為是。弟子通者，至於命大夫；為郎、謁者、掌故者以百數。而董仲舒子及孫皆以學至大官。"
+        }
+      ],
+      "source_term": "蘭陵褚大",
+      "interpretation_note": "保留人物介紹中的人地原稱，不推定出生地、居住日期或現代轄區。相鄰人物不自動承受同一原籍。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "蘭陵褚大",
+      "quote": "仲舒弟子遂者：蘭陵褚大，廣川殷忠，溫呂步舒。褚大至梁相。步舒至長史，持節使決淮南獄，於諸侯擅專斷，不報，以春秋之義正之，天子皆以為是。弟子通者，至於命大夫；為郎、謁者、掌故者以百數。而董仲舒子及孫皆以學至大官。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p024",
+      "count": 2,
+      "quote": "仲舒弟子遂者：蘭陵褚大，廣川殷忠，溫呂步舒。褚大至梁相。步舒至長史，持節使決淮南獄，於諸侯擅專斷，不報，以春秋之義正之，天子皆以為是。弟子通者，至於命大夫；為郎、謁者、掌故者以百數。而董仲舒子及孫皆以學至大官。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "tgy_zyu_6ro": "褚大（儒林列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "tgy_zyu_6ro"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "jru_oiq_x0q_A",
+  "canonical_person_id": "jru_oiq_x0q_A",
+  "label": "商臣（鄭世家楚太子候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "楚太子商臣"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji042-013",
+      "person_id": "jru_oiq_x0q_A",
+      "title": "太子",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p024",
+          "quote": "往年楚太子商臣弒其父成王代立。二十一年，與宋華元伐鄭。華元殺羊食士，不與其御羊斟，怒以馳鄭，鄭囚華元。宋贖華元，元亦亡去。晉使趙穿以兵伐鄭。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji042-013:a001",
+          "paragraph_id": "c-shiji-042-zheng:p024",
+          "start": 3,
+          "end": 5,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-042-zheng:m024-0002",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "往年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-042-zheng",
+              "source_id": "s-shiji-042-zheng",
+              "paragraph_id": "c-shiji-042-zheng:p024",
+              "quote": "往年楚太子商臣弒其父成王代立。二十一年，與宋華元伐鄭。華元殺羊食士，不與其御羊斟，怒以馳鄭，鄭囚華元。宋贖華元，元亦亡去。晉使趙穿以兵伐鄭。"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "授位與既有用稱分開；原相對年份未換算。未知端點不由卒日、入質、逃亡、首次提及或欲自立推造。 本篇明示立君或代立，作太子身分終點；不以死亡自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 往年"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 42,
+      "category": "shijia",
+      "title": "鄭世家第十二",
+      "paragraph_id": "c-shiji-042-zheng:p024",
+      "count": 1,
+      "quote": "往年楚太子商臣弒其父成王代立。二十一年，與宋華元伐鄭。華元殺羊食士，不與其御羊斟，怒以馳鄭，鄭囚華元。宋贖華元，元亦亡去。晉使趙穿以兵伐鄭。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-042-zheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "source_id": "s-shiji-042-zheng",
+      "source": {
+        "title": "史記／卷042",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷042",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409",
+        "revision_id": 2016409,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
+          "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji042-021",
+      "subject_person_id": "jru_oiq_x0q_A",
+      "predicate": "father",
+      "object_person_id": "jru_oiq_x0q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p024",
+          "quote": "往年楚太子商臣弒其父成王代立。二十一年，與宋華元伐鄭。華元殺羊食士，不與其御羊斟，怒以馳鄭，鄭囚華元。宋贖華元，元亦亡去。晉使趙穿以兵伐鄭。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "楚太子商臣弒其父成王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子、母、兄弟及祖系保存來源主張；不把繼位當父子，不由兄弟推同母。傳說及夢中祖先主張保留敘事性，不冒稱已證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "jru_oiq_x0q": "楚成王（鄭世家候選）",
+    "jru_oiq_x0q_A": "商臣（鄭世家楚太子候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "jru_oiq_x0q_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji042-021",
+      "subject_person_id": "jru_oiq_x0q_A",
+      "predicate": "father",
+      "object_person_id": "jru_oiq_x0q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p024",
+          "quote": "往年楚太子商臣弒其父成王代立。二十一年，與宋華元伐鄭。華元殺羊食士，不與其御羊斟，怒以馳鄭，鄭囚華元。宋贖華元，元亦亡去。晉使趙穿以兵伐鄭。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "楚太子商臣弒其父成王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子、母、兄弟及祖系保存來源主張；不把繼位當父子，不由兄弟推同母。傳說及夢中祖先主張保留敘事性，不冒稱已證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

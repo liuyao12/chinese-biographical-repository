@@ -253,6 +253,36 @@
       },
       "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-024",
+      "subject_person_id": "r9u_j0z_xtb_AAA",
+      "predicate": "father",
+      "object_person_id": "r9u_j0z_xtb_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p007",
+          "quote": "秦仲立二十三年，死於戎。有子五人，其長者曰莊公",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "有子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "r9u_j0z_xtb_AA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "其長者",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
+      },
+      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -261,6 +291,64 @@
     "r9u_j0z_xtb_AAA": "秦莊公"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "r9u_j0z_xtb_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-023",
+      "subject_person_id": "r9u_j0z_xtb_AA",
+      "predicate": "father",
+      "object_person_id": "r9u_j0z_xtb_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p006",
+          "quote": "公伯立三年，卒。生秦仲",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-024",
+      "subject_person_id": "r9u_j0z_xtb_AAA",
+      "predicate": "father",
+      "object_person_id": "r9u_j0z_xtb_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p007",
+          "quote": "秦仲立二十三年，死於戎。有子五人，其長者曰莊公",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "有子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "r9u_j0z_xtb_AA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "其長者",
+          "interpretation_note": "中子在明列三子的語境記第二子；少子保留較幼或最幼，不逕給數字。長子限定父親的兒子，不包括女兒。"
+        }
+      },
+      "interpretation_note": "只保存本文明示關係，不由繼位或熟知世系推導；數位見證仍待校勘。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji005-015",

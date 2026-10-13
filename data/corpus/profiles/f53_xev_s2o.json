@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "id": "f53_xev_s2o",
+  "canonical_person_id": "f53_xev_s2o",
+  "label": "紂之母",
+  "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
+  "review": "ai_provisional",
+  "names": [
+    "母"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji003-041",
+      "person_id": "f53_xev_s2o",
+      "title": "正后",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji003-041:a001",
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "start": 23,
+          "end": 25,
+          "surface": "正后",
+          "person_mention_id": "c-shiji-003-yin:m027-0022",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "即位及授任依同段事件保存；高宗明言立廟，正后僅保存母親用稱。三公分記三位受任者，不補三公內部分職、年分或終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 3,
+      "category": "benji",
+      "title": "殷本紀第三",
+      "paragraph_id": "c-shiji-003-yin:p027",
+      "count": 1,
+      "quote": "帝乙長子曰微子啓，啓母賤，不得嗣。少子辛，辛母正后，辛為嗣。帝乙崩，子辛立，是為帝辛，天下謂之紂。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-003-yin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-003",
+      "source_id": "s-shiji-003-yin",
+      "source": {
+        "title": "史記／卷003",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷003",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+        "revision_id": 7909145,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題與註號。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄"
+          },
+          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji003-050",
+      "subject_person_id": "lwx_9yq_ad7",
+      "predicate": "mother",
+      "object_person_id": "f53_xev_s2o",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "quote": "少子辛，辛母正后",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "f53_xev_s2o": "紂之母",
+    "lwx_9yq_ad7": "紂"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "f53_xev_s2o"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji003-050",
+      "subject_person_id": "lwx_9yq_ad7",
+      "predicate": "mother",
+      "object_person_id": "f53_xev_s2o",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "quote": "少子辛，辛母正后",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

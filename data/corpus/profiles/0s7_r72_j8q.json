@@ -138,13 +138,141 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji033-011",
+      "subject_person_id": "0s7_r72_j8q_A",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "quote": "武公九年春，武公與長子括，少子戲，西朝周宣王。宣王愛戲，欲立戲爲魯太子。周之樊仲山父諫宣王曰：『廢長立少，不順；不順，必犯王命；犯王命，必誅之：故出令不可不順也。令之不行，政之不立；行而不順，民將棄上。夫下事上，少事長，所以爲順。今天子建諸矦，立其少，是教民逆也。若魯從之，諸矦效之，王命將有所壅；若弗從而誅之，是自誅王命也。誅之亦失，不誅亦失，王其圖之。』宣王弗聽，卒立戲爲魯太子。夏，武公歸而卒，戲立，是爲懿公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "0s7_r72_j8q",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "長子記兒子序號1；少子保留較幼或最幼歧義，不補絕對序號，也不以家族ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji033-012",
+      "subject_person_id": "0s7_r72_j8q_B",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "quote": "武公九年春，武公與長子括，少子戲，西朝周宣王。宣王愛戲，欲立戲爲魯太子。周之樊仲山父諫宣王曰：『廢長立少，不順；不順，必犯王命；犯王命，必誅之：故出令不可不順也。令之不行，政之不立；行而不順，民將棄上。夫下事上，少事長，所以爲順。今天子建諸矦，立其少，是教民逆也。若魯從之，諸矦效之，王命將有所壅；若弗從而誅之，是自誅王命也。誅之亦失，不誅亦失，王其圖之。』宣王弗聽，卒立戲爲魯太子。夏，武公歸而卒，戲立，是爲懿公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "parent_person_id": "0s7_r72_j8q",
+          "scope": "sons_of_parent",
+          "interpretation_status": "ambiguous",
+          "source_term": "少子",
+          "interpretation_note": "長子記兒子序號1；少子保留較幼或最幼歧義，不補絕對序號，也不以家族ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "0s7_r72_j8q": "魯武公",
     "0s7_r72_j8q_A": "括（魯武公長子）",
     "0s7_r72_j8q_B": "戲（魯懿公）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "0s7_r72_j8q"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji033-011",
+      "subject_person_id": "0s7_r72_j8q_A",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "quote": "武公九年春，武公與長子括，少子戲，西朝周宣王。宣王愛戲，欲立戲爲魯太子。周之樊仲山父諫宣王曰：『廢長立少，不順；不順，必犯王命；犯王命，必誅之：故出令不可不順也。令之不行，政之不立；行而不順，民將棄上。夫下事上，少事長，所以爲順。今天子建諸矦，立其少，是教民逆也。若魯從之，諸矦效之，王命將有所壅；若弗從而誅之，是自誅王命也。誅之亦失，不誅亦失，王其圖之。』宣王弗聽，卒立戲爲魯太子。夏，武公歸而卒，戲立，是爲懿公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "0s7_r72_j8q",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "長子記兒子序號1；少子保留較幼或最幼歧義，不補絕對序號，也不以家族ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji033-012",
+      "subject_person_id": "0s7_r72_j8q_B",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p023",
+          "quote": "武公九年春，武公與長子括，少子戲，西朝周宣王。宣王愛戲，欲立戲爲魯太子。周之樊仲山父諫宣王曰：『廢長立少，不順；不順，必犯王命；犯王命，必誅之：故出令不可不順也。令之不行，政之不立；行而不順，民將棄上。夫下事上，少事長，所以爲順。今天子建諸矦，立其少，是教民逆也。若魯從之，諸矦效之，王命將有所壅；若弗從而誅之，是自誅王命也。誅之亦失，不誅亦失，王其圖之。』宣王弗聽，卒立戲爲魯太子。夏，武公歸而卒，戲立，是爲懿公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "parent_person_id": "0s7_r72_j8q",
+          "scope": "sons_of_parent",
+          "interpretation_status": "ambiguous",
+          "source_term": "少子",
+          "interpretation_note": "長子記兒子序號1；少子保留較幼或最幼歧義，不補絕對序號，也不以家族ID尾碼推定。"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji033-012",

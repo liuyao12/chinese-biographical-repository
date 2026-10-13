@@ -809,7 +809,50 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji009-015",
+      "subject_person_id": "0as_za5_mdt",
+      "predicate": "spouse",
+      "object_person_id": "jo4_4bf_0ra",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p013",
+          "quote": "太后女弟呂媭有女為營陵侯劉澤妻",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "妻",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji051-002",
+      "subject_person_id": "bc3_hmj_aps_A",
+      "predicate": "father",
+      "object_person_id": "bc3_hmj_aps",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-051-jingyan",
+          "source_id": "s-shiji-051-jingyan",
+          "paragraph_id": "c-shiji-051-jingyan:p009",
+          "quote": "澤王燕二年，薨，謚為敬王。傳子嘉，為康王。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "傳子嘉",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示父、子分型；疏屬不補宗族支系，姬姦與弟妻不自動補婚姻或未名父母，定國案不冒稱獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "0as_za5_mdt": "呂媭女（劉澤妻）",
     "bc3_hmj_aps": "劉澤（荊燕世家候選）",
@@ -817,6 +860,56 @@
     "jo4_4bf_0ra": "劉澤"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "bc3_hmj_aps",
+    "jo4_4bf_0ra"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji009-015",
+      "subject_person_id": "0as_za5_mdt",
+      "predicate": "spouse",
+      "object_person_id": "jo4_4bf_0ra",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p013",
+          "quote": "太后女弟呂媭有女為營陵侯劉澤妻",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "妻",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji051-002",
+      "subject_person_id": "bc3_hmj_aps_A",
+      "predicate": "father",
+      "object_person_id": "bc3_hmj_aps",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-051-jingyan",
+          "source_id": "s-shiji-051-jingyan",
+          "paragraph_id": "c-shiji-051-jingyan:p009",
+          "quote": "澤王燕二年，薨，謚為敬王。傳子嘉，為康王。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "傳子嘉",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示父、子分型；疏屬不補宗族支系，姬姦與弟妻不自動補婚姻或未名父母，定國案不冒稱獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji051-004",

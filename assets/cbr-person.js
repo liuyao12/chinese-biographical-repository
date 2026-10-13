@@ -1,6 +1,9 @@
 import {escapeHTML as h} from './core.js';
 import {chapterURL} from './corpus-reader.js';
 import {yearLabel} from './historical-tables.js';
+import {traceFamily} from './person-family.js';
+import {summarizeLife} from './person-life.js';
+export const loadFamily = p => traceFamily(p, loadPerson);
 export function tableOccurrenceURL(x) {
   const match = /^shiji-(\d{3})$/.exec(x.table_id || '');
   if (!match) return '';
@@ -20,7 +23,20 @@ export function personBundleURL(id, sourceRef = 'main') {
   const ref = /^[a-f0-9]{40}$/.test(sourceRef) ? sourceRef : 'main';
   return 'https://github.com/liuyao12/chinese-biographical-repository/blob/' + ref + '/exports/persons/' + encodeURIComponent(id) + '.json';
 }
-export function personCard(p, full = false, sourceRef = 'main') {
+export function personCard(p, full = false, sourceRef = 'main', family = null) {
+  const relativeList = entries => entries?.length ? entries.map(x => `<a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}<details><summary>親屬來源</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>`).join('、') : '來源尚未整理或未記';
+  const familyHTML = family ? `<section class="person-family"><h4>家族</h4><dl>${family.ancestors.map((entries, i) => `<dt>${['父','祖','曾祖'][i]}</dt><dd>${entries.length > 1 ? '<small>多項來源主張，尚未統一</small><br>' : ''}${relativeList(entries)}</dd>`).join('')}<dt>生母</dt><dd>${family.mother.length > 1 ? '<small>多項生母記錄，身份或說法待整合</small><br>' : ''}${relativeList(family.mother)}</dd><dt>配偶</dt><dd>${relativeList(family.spouses)}</dd><dt>子女</dt><dd>${relativeList(family.children)}</dd></dl></section>` : '';
+  const components = p.name_components || [];
+  const names = components.length === 1 ? components[0] : null;
+  const heading = names ? `${names.title || ''} ${names.surname || ''}${names.ming || ''}`.trim() : p.label;
+  const additional = names?.additional_names?.length ? names.additional_names : (p.names || []).filter(x => ![p.label, heading, names?.title, names?.ming, names?.surname + names?.ming].includes(x)).slice(0, 5);
+  const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p></details>` : '';
+  const life = summarizeLife(p);
+  const lifeRow = (label, events) => `<dt>${label}</dt><dd>${events.length ? events.map(e => {
+    const date = e.normalized_date;
+    return `<div>${date?.era_year ? `<strong>西元${date.era === 'BCE' ? '前' : ''}${h(date.era_year)}年</strong> · ` : ''}${h(e.date_expression || '原文未明紀年')}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details></div>`;
+  }).join('') : '未詳'}</dd>`;
+  const lifeHTML = `<section class="person-life-summary"><dl>${lifeRow('生', life.birth)}${lifeRow('卒', life.death)}<dt>年齡</dt><dd>${life.ages.length ? life.ages.map(e => `${h(e.value)} 歲（來源報齡）<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('') : '未詳'}</dd></dl></section>`;
   const grouped = new Map();
   for (const x of p.titles || []) {
     const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null);
@@ -43,7 +59,7 @@ export function personCard(p, full = false, sourceRef = 'main') {
   const officeCounts = x => Object.entries(x.reported_office_event_counts || {}).map(([key, c]) =>
     `<p class="person-office-count">${key === 'departure' ? '離相' : '復位'} ${h(c.value)} 次 <q>${h(c.source_term)}</q> · 各次起訖未定</p>`).join('');
   const relations = p.relations || [], labels = {father:'父',mother:'生母',spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父'};
-  return `<article class="cbr-profile"><p class="eyebrow">人物資料 · ${p.review === 'source_local_candidate' ? '來源局部候選' : '來源辨認暫定'}</p><h${full ? 1 : 3}>${h(p.label)}</h${full ? 1 : 3}><p class="person-aliases">${(p.names || []).filter(x => x !== p.label).slice(0, full ? undefined : 5).map(x => `<span>${h(x)}</span>`).join(' ')}</p>${full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}${principal ? `<blockquote class="person-overview">${h(principal.quote.slice(0, full ? 220 : 110))}</blockquote><p class="person-principal-source"><a href="${h(chapterURL(principal.number, principal.category, principal.paragraph_id))}">《史記·${h(principal.title)}》 →</a><br><small>已標記正文中最多提及的來源</small></p>` : ''}
+  return `<article class="cbr-profile"><p class="eyebrow">人物資料 · ${p.review === 'source_local_candidate' ? '來源局部候選' : '來源辨認暫定'}</p><h${full ? 1 : 3}>${h(heading)}</h${full ? 1 : 3}><p class="person-aliases">${additional.map(x => `<span>${h(x)}</span>`).join(' ')}</p>${nameEvidence}${(p.names || []).length ? `<details class="person-source-names"><summary>來源中的其他稱呼</summary><p>${p.names.map(x => h(x)).join('、')}</p></details>` : ''}${lifeHTML}${familyHTML}${full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}${principal ? `<blockquote class="person-overview">${h(principal.quote.slice(0, full ? 220 : 110))}</blockquote><p class="person-principal-source"><a href="${h(chapterURL(principal.number, principal.category, principal.paragraph_id))}">《史記·${h(principal.title)}》 →</a><br><small>已標記正文中最多提及的來源</small></p>` : ''}
   ${!principal && tableExample ? `<blockquote class="person-overview">${h(tableExample.quote.slice(0, full ? 220 : 150))}</blockquote><p class="person-principal-source"><a href="${h(tableOccurrenceURL(tableExample))}">${h(tableExample.title)} · 查看原格 →</a></p>${!full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}` : ''}
   ${dates.length ? `<section class="person-date-evidence"><h4>紀年對照</h4>${dates.slice(0, full ? undefined : 2).map(x => `<p><strong>西元${x.era === 'BCE' ? '前' : ''}${x.era_year}年</strong> <small>編輯對照 · 暫定${h(dateChoice(x))}</small><br><q>${h(x.original_quote)}</q>${full ? '<br>' + evidenceLinks(x.evidence) : ''}</p>`).join('')}</section>` : ''}
   ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}`).join('')}</section>` : ''}
@@ -71,7 +87,7 @@ export function bindPersonCards(root) {
   async function show(node, focus = false) {
     clearTimeout(timer); const current = ++ticket; card.hidden = false;
     card.innerHTML = '<p role="status">載入人物資料…</p>';
-    try {const p = await loadPerson(node.dataset.personId); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
+    try {const p = await loadPerson(node.dataset.personId); const family = await loadFamily(p); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p, false, 'main', family); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
     catch {if (current === ticket) card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`;}
   }
   function hide() {ticket++; card.hidden = true;}

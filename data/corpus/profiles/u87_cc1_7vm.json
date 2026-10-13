@@ -327,7 +327,136 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji007-006",
+      "subject_person_id": "u87_cc1_7vm_A",
+      "predicate": "father",
+      "object_person_id": "u87_cc1_7vm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-007-xiangyu:p007",
+          "quote": "田榮立田儋子市為齊王",
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存本文明示親屬陳述；不推導闕代、同父同母或未見姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji094-001",
+      "subject_person_id": "t9b_1eg_mqs",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p001",
+          "quote": "田儋者，狄人也，故齊王田氏族也。儋從弟田榮，榮弟田橫，皆豪，宗彊，能得人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "儋從弟田榮",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "relative_birth_order": {
+          "older_person_id": "j80_2bm_4af",
+          "younger_person_id": "t9b_1eg_mqs",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。",
+      "reviewer": "Codex（AI 代理）",
+      "discrepancy_group_id": "kin-shiji094-tianrong"
+    },
+    {
+      "id": "a-shiji094-002",
+      "subject_person_id": "t9b_1eg_mqs",
+      "predicate": "brother",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "儋弟田榮",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "j80_2bm_4af",
+          "younger_person_id": "t9b_1eg_mqs",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。",
+      "reviewer": "Codex（AI 代理）",
+      "discrepancy_group_id": "kin-shiji094-tianrong"
+    },
+    {
+      "id": "a-shiji094-006",
+      "subject_person_id": "j80_2bm_4af_A",
+      "predicate": "father",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。"
+        },
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p004",
+          "quote": "田榮之走東阿，章邯追圍之。項梁聞田榮之急，乃引兵擊破章邯軍東阿下。章邯走而西，項梁因追之。而田榮怒齊之立假，乃引兵歸，擊逐齊王假。假亡走楚。齊相角亡走趙；角弟田閒前求救趙，因留不敢歸。田榮乃立田儋子市為齊王。榮相之，田橫為將，平齊地。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "田儋子市",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。 前段田儋明示姓名與後段田儋子市承接，保留兩段錨點。",
+      "reviewer": "Codex（AI 代理）",
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-shiji-094-tiandan:p003",
+          "c-shiji-094-tiandan:p004"
+        ]
+      }
+    }
+  ],
   "related_people": {
     "j80_2bm_4af": "田儋（田儋列傳候選）",
     "j80_2bm_4af_A": "田市（田儋列傳候選）",
@@ -336,6 +465,142 @@
     "u87_cc1_7vm_A": "田市"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "j80_2bm_4af",
+    "u87_cc1_7vm"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji007-006",
+      "subject_person_id": "u87_cc1_7vm_A",
+      "predicate": "father",
+      "object_person_id": "u87_cc1_7vm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-007-xiangyu:p007",
+          "quote": "田榮立田儋子市為齊王",
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存本文明示親屬陳述；不推導闕代、同父同母或未見姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji094-001",
+      "subject_person_id": "t9b_1eg_mqs",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p001",
+          "quote": "田儋者，狄人也，故齊王田氏族也。儋從弟田榮，榮弟田橫，皆豪，宗彊，能得人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "儋從弟田榮",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "relative_birth_order": {
+          "older_person_id": "j80_2bm_4af",
+          "younger_person_id": "t9b_1eg_mqs",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        }
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。",
+      "reviewer": "Codex（AI 代理）",
+      "discrepancy_group_id": "kin-shiji094-tianrong"
+    },
+    {
+      "id": "a-shiji094-002",
+      "subject_person_id": "t9b_1eg_mqs",
+      "predicate": "brother",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "儋弟田榮",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "j80_2bm_4af",
+          "younger_person_id": "t9b_1eg_mqs",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。",
+      "reviewer": "Codex（AI 代理）",
+      "discrepancy_group_id": "kin-shiji094-tianrong"
+    },
+    {
+      "id": "a-shiji094-006",
+      "subject_person_id": "j80_2bm_4af_A",
+      "predicate": "father",
+      "object_person_id": "j80_2bm_4af",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。"
+        },
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p004",
+          "quote": "田榮之走東阿，章邯追圍之。項梁聞田榮之急，乃引兵擊破章邯軍東阿下。章邯走而西，項梁因追之。而田榮怒齊之立假，乃引兵歸，擊逐齊王假。假亡走楚。齊相角亡走趙；角弟田閒前求救趙，因留不敢歸。田榮乃立田儋子市為齊王。榮相之，田橫為將，平齊地。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "田儋子市",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子孫與弟稱保存；排行只記相對先後，不補確切序號、同母或中間父系。從弟與弟分存，不強行統一親等。 前段田儋明示姓名與後段田儋子市承接，保留兩段錨點。",
+      "reviewer": "Codex（AI 代理）",
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-shiji-094-tiandan:p003",
+          "c-shiji-094-tiandan:p004"
+        ]
+      }
+    }
+  ],
+  "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []

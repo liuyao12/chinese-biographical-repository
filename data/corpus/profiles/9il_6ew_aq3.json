@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "9il_6ew_aq3",
+  "canonical_person_id": "9il_6ew_aq3",
+  "label": "籍（晉獻侯）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "獻侯籍",
+    "獻侯"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 39,
+      "category": "shijia",
+      "title": "晉世家第九",
+      "paragraph_id": "c-shiji-039-jin:p006",
+      "count": 2,
+      "quote": "十八年，釐侯卒，子獻侯籍立。獻侯十一年卒，子穆侯費王立。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-039-jin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-039",
+      "source_id": "s-shiji-039-jin",
+      "source": {
+        "title": "史記／卷039",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷039",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
+        "revision_id": 2588534,
+        "accessed_on": "2026-10-09",
+        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "鲁": "魯",
+            "隐": "隱",
+            "绖": "絰"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
+          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "9il_6ew_aq3": "籍（晉獻侯）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "9il_6ew_aq3"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji039-005",
+      "person_id": "9il_6ew_aq3",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十一年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p006",
+          "quote": "十八年，釐侯卒，子獻侯籍立。獻侯十一年卒，子穆侯費王立。",
+          "person_mention_id": "c-shiji-039-jin:m006-0014"
+        }
+      ],
+      "source_term": "獻侯十一年卒",
+      "interpretation_note": "原文明示生死；保留原君年及回述語境，不由襲擊推定死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

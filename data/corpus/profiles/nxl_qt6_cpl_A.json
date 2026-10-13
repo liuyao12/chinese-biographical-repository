@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "id": "nxl_qt6_cpl_A",
+  "canonical_person_id": "nxl_qt6_cpl_A",
+  "label": "魏武子（魏世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "武子",
+    "魏武子"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji044-004",
+      "person_id": "nxl_qt6_cpl_A",
+      "title": "大夫",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p004",
+          "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji044-004:a001",
+          "paragraph_id": "c-shiji-044-wei:p004",
+          "start": 57,
+          "end": 59,
+          "surface": "大夫",
+          "person_mention_id": "c-shiji-044-wei:m004-0045",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-044-wei",
+              "source_id": "s-shiji-044-wei",
+              "paragraph_id": "c-shiji-044-wei:p004",
+              "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、任事及死後用稱分存；右、御、國政、傅與守鄴保留原用語，制度種類待核。未知端點不由卒、出亡或首次用稱推造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji044-001",
+      "person_id": "nxl_qt6_cpl_A",
+      "relation": "residence",
+      "place": {
+        "source_name": "魏",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p004",
+          "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。",
+          "person_mention_id": "c-shiji-044-wei:m004-0000"
+        }
+      ],
+      "source_term": "治於魏",
+      "interpretation_note": "保留來源治所、出入地、明示死地或人稱出處；省主詞依本段敘事，不補現代位置。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "治於魏",
+      "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p003",
+      "count": 4,
+      "quote": "十一年，晉獻公卒，四子爭更立，晉亂。而畢萬之世彌大，從其國名爲魏氏。生武子。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji044-001",
+      "subject_person_id": "nxl_qt6_cpl_A",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p003",
+          "quote": "畢萬封十一年，晉獻公卒，四子爭更立，晉亂。而畢萬之世彌大，從其國名爲魏氏。生武子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生武子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示生、孫與弟按來源保存；祖孫不改父子，苗裔不補闕代，未依先後繼位推親屬。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji044-002",
+      "subject_person_id": "nxl_qt6_cpl_AA",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p004",
+          "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生悼子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示生、孫與弟按來源保存；祖孫不改父子，苗裔不補闕代，未依先後繼位推親屬。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "nxl_qt6_cpl": "畢萬（魏世家候選）",
+    "nxl_qt6_cpl_A": "魏武子（魏世家候選）",
+    "nxl_qt6_cpl_AA": "魏悼子（魏世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "nxl_qt6_cpl_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji044-001",
+      "subject_person_id": "nxl_qt6_cpl_A",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p003",
+          "quote": "畢萬封十一年，晉獻公卒，四子爭更立，晉亂。而畢萬之世彌大，從其國名爲魏氏。生武子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生武子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示生、孫與弟按來源保存；祖孫不改父子，苗裔不補闕代，未依先後繼位推親屬。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji044-002",
+      "subject_person_id": "nxl_qt6_cpl_AA",
+      "predicate": "father",
+      "object_person_id": "nxl_qt6_cpl_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p004",
+          "quote": "魏武子以魏諸子事晉公子重耳。晉獻公之廿一年，武子從重耳出亡。十九年反，重耳立爲晉文公，而令魏武子襲魏氏之後封，列爲大夫，治於魏。生悼子。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生悼子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示生、孫與弟按來源保存；祖孫不改父子，苗裔不補闕代，未依先後繼位推親屬。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji044-025",
+      "person_id": "nxl_qt6_cpl_A",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p003",
+          "quote": "畢萬封十一年，晉獻公卒，四子爭更立，晉亂。而畢萬之世彌大，從其國名爲魏氏。生武子。",
+          "person_mention_id": "c-shiji-044-wei:m003-0038"
+        }
+      ],
+      "source_term": "生武子",
+      "interpretation_note": "來源明示生死候選；引語回述不借敘事當年，世系生子不補確切年月。數字換算及跨篇紀年續核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

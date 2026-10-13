@@ -260,7 +260,29 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji040-080",
+      "subject_person_id": "k5z_d58_n7p_A",
+      "predicate": "father",
+      "object_person_id": "k5z_d58_n7p",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p091",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "7lc_ham_b1m": "太子完考烈王（春申君列傳候選）",
     "g6c_exa_3pg": "李園女弟子楚幽王（春申君列傳候選）",
@@ -269,6 +291,39 @@
     "zun_s94_rgs": "春申君黃歇（春申君列傳候選）"
   },
   "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "7lc_ham_b1m",
+    "k5z_d58_n7p"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji040-080",
+      "subject_person_id": "k5z_d58_n7p_A",
+      "predicate": "father",
+      "object_person_id": "k5z_d58_n7p",
+      "status": "editorial_preferred",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p091",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition",
+        "parentage_role": "legal_or_dynastic",
+        "biological_parent_status": "unknown"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "source_status": "source_attested",
+      "interpretation_decision_id": "ft-shiji-parent-chuyou"
+    }
+  ],
+  "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji040-068",

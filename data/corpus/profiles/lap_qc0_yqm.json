@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "lap_qc0_yqm",
+  "canonical_person_id": "lap_qc0_yqm",
+  "label": "呂不韋姬（始皇生母）",
+  "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
+  "review": "ai_provisional",
+  "names": [
+    "姬"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 6,
+      "category": "benji",
+      "title": "秦始皇本紀第六",
+      "paragraph_id": "c-shiji-006-shihuang:p001",
+      "count": 1,
+      "quote": "秦始皇帝者，秦莊襄王子也。莊襄王為秦質子於趙，見呂不韋姬，悅而取之，生始皇。以秦昭王四十八年正月生於邯鄲。及生，名為政，姓趙氏。年十三歲，莊襄王死，政代立為秦王。當是之時，秦地已并巴、蜀、漢中，越宛有郢，置南郡矣；北收上郡以東，有河東、太原、上黨郡；東至滎"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-006-shihuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-006",
+      "source_id": "s-shiji-006-shihuang",
+      "source": {
+        "title": "史記／卷006",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷006",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+        "revision_id": 7907969,
+        "accessed_on": "2026-10-09",
+        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+        "image_verified": false,
+        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p010",
+              "witness_form": "（四）［是］",
+              "body_reading": "四",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p016",
+              "witness_form": "（薊）［荊］",
+              "body_reading": "薊",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p051",
+              "witness_form": "（其）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p061",
+              "witness_form": "（者）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            }
+          ],
+          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji006-002",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "莊襄王為秦質子於趙，見呂不韋姬，悅而取之",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-003",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "mother",
+      "object_person_id": "lap_qc0_yqm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "見呂不韋姬，悅而取之，生始皇",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ao3_0fy_d45_AA": "秦莊襄王",
+    "ao3_0fy_d45_AAA": "秦始皇帝",
+    "lap_qc0_yqm": "呂不韋姬（始皇生母）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "lap_qc0_yqm"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji006-002",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "莊襄王為秦質子於趙，見呂不韋姬，悅而取之",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-003",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "mother",
+      "object_person_id": "lap_qc0_yqm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "見呂不韋姬，悅而取之，生始皇",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

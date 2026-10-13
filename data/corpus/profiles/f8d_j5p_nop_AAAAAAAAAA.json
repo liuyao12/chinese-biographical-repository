@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "id": "f8d_j5p_nop_AAAAAAAAAA",
+  "canonical_person_id": "f8d_j5p_nop_AAAAAAAAAA",
+  "label": "子慎（孔子世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "子慎"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji047-033",
+      "person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "title": "魏相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p081",
+          "quote": "子思生白，字子上，年四十七。子上生求，字子家，年四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji047-033:a001",
+          "paragraph_id": "c-shiji-047-kong:p081",
+          "start": 69,
+          "end": 71,
+          "surface": "魏相",
+          "person_mention_id": "c-shiji-047-kong:m081-0059",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "任事、既有用稱與遷為分存；首次用稱、蚤卒、死於陳下或給定年齡不推全部官爵起訖，未名帝稱不補姓名及任期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 47,
+      "category": "shijia",
+      "title": "孔子世家第十七",
+      "paragraph_id": "c-shiji-047-kong:p081",
+      "count": 2,
+      "quote": "四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-047-kong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-047",
+      "source_id": "s-shiji-047-kong",
+      "source": {
+        "title": "史記／卷047",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷047",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷047&oldid=7903609",
+        "revision_id": 7903609,
+        "accessed_on": "2026-10-09",
+        "extent": "85段正文及1段索隱述贊，後者分層；排除2個dd導覽與現代分節標題，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不作古代正文，原字與來源標點保留。",
+          "note": "已核讀全86段數位文字並作首輪明示人名標註；未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji047-016",
+      "subject_person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p081",
+          "quote": "子思生白，字子上，年四十七。子上生求，字子家，年四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子高生子慎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji047-017",
+      "subject_person_id": "f8d_j5p_nop_AAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p082",
+          "quote": "子慎生鮒，年五十七，為陳王涉博士，死於陳下。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子慎生鮒",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "f8d_j5p_nop_AAAAAAAAA": "穿（孔子世家子高候選）",
+    "f8d_j5p_nop_AAAAAAAAAA": "子慎（孔子世家候選）",
+    "f8d_j5p_nop_AAAAAAAAAAA": "鮒（孔子世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "f8d_j5p_nop_AAAAAAAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji047-016",
+      "subject_person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p081",
+          "quote": "子思生白，字子上，年四十七。子上生求，字子家，年四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子高生子慎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji047-017",
+      "subject_person_id": "f8d_j5p_nop_AAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p082",
+          "quote": "子慎生鮒，年五十七，為陳王涉博士，死於陳下。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子慎生鮒",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示生與弟保存世系主張，名／字限本段明示對應；不補闕代、母親及未見配偶，世系真實性與版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji047-030",
+      "person_id": "f8d_j5p_nop_AAAAAAAAAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-047-kong",
+          "source_id": "s-shiji-047-kong",
+          "paragraph_id": "c-shiji-047-kong:p081",
+          "quote": "子思生白，字子上，年四十七。子上生求，字子家，年四十五。子家生箕，字子京，年四十六。子京生穿，字子高，年五十一。子高生子慎，年五十七，嘗為魏相。",
+          "person_mention_id": "c-shiji-047-kong:m081-0059"
+        }
+      ],
+      "source_term": "子高生子慎",
+      "interpretation_note": "保存本篇明示生死，原曆及回述不借其他段落紀年，年齡不自動變死亡年；身份、版本與數字紀年仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

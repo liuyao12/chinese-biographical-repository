@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "id": "r7z_ane_tmt_AB",
+  "canonical_person_id": "r7z_ane_tmt_AB",
+  "label": "昭帝（外戚世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "孝昭帝",
+    "昭帝",
+    "孝昭"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 49,
+      "category": "shijia",
+      "title": "外戚世家第十九",
+      "paragraph_id": "c-shiji-049-waiqi:p042",
+      "count": 3,
+      "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。"
+    },
+    {
+      "number": 60,
+      "category": "shijia",
+      "title": "三王世家第三十",
+      "paragraph_id": "c-shiji-060-sanwang:p025",
+      "count": 7,
+      "quote": "會孝武帝崩，孝昭帝初立，先朝廣陵王胥，厚賞賜金錢財幣，直三千餘萬，益地百里，邑萬戶。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-049-waiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "source_id": "s-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-060-sanwang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-060",
+      "source_id": "s-shiji-060-sanwang",
+      "source": {
+        "title": "史記／卷060",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷060",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290",
+        "revision_id": 7909290,
+        "accessed_on": "2026-10-09",
+        "extent": "32段來源區塊：前17段含奏議、三策及3處右某王策標記，後15段為褚先生附述。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留太仆、承天于、酂、西（湊）［溱］、壃、箸、［立］廣陵王、墝埆、無卹德／無俷德、無修德、闕及滫等見證字與符號。3處dd為策後來源標記，保留在原序，不當導航排除。",
+          "note": "全32段已核讀；褚先生自述求世家不得而編封策，前17段傳承未核定，不冒稱已校定司馬遷原文。未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji049-047",
+      "subject_person_id": "r7z_ane_tmt_AB",
+      "predicate": "mother",
+      "object_person_id": "gd9_jxj_uqe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p042",
+          "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子一人，昭帝是也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-048",
+      "subject_person_id": "r7z_ane_tmt_AB",
+      "predicate": "father",
+      "object_person_id": "r7z_ane_tmt_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p042",
+          "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "武帝年七十，乃生昭帝",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji060-011",
+      "subject_person_id": "oro_evn_khk_D",
+      "predicate": "father",
+      "object_person_id": "oro_evn_khk",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-060-sanwang",
+          "source_id": "s-shiji-060-sanwang",
+          "paragraph_id": "c-shiji-060-sanwang:p030",
+          "quote": "會武帝崩，昭帝初立，旦果作怨而望大臣。自以長子當立，與齊王子劉澤等謀為叛逆，出言曰：「我安得弟在者！今立者乃大將軍子也。」欲發兵。事發覺，當誅。昭帝緣恩寬忍，抑案不揚。公卿使大臣請，遣宗正與太中大夫公戶滿意、御史二人，偕往使燕，風喻之。到燕，各異日，更見責王。宗正者，主宗室諸劉屬籍，先見王，為列陳道昭帝實武帝子狀。侍御史乃復見王，責之以正法，問：「王欲發兵罪名明白，當坐之。漢家有正法，王犯纖介小罪過，即行法直斷耳，安能寬王。」驚動以文法。王意益下，心恐。公戶滿意習於經術，最後見王，稱引古今通義，國家大禮，文章爾雅。謂王曰：「古者天子必內有異姓大夫，所以正骨肉也；外有同姓大夫，所以正異族也。周公輔成王，誅其兩弟，故治。武帝在時，尚能寬王。今昭帝始立，年幼，富於春秋，未臨政，委任大臣。古者誅罰不阿親戚，故天下治。方今大臣輔政，奉法直行，無敢所阿，恐不能寬王。王可自謹，無自令身死國滅，為天下笑。」於是燕王旦乃恐懼服罪，叩頭謝過。大臣欲和合骨肉，難傷之以法。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "昭帝實武帝子狀",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依立子、生子、四子／兩子、少弟及祖先自稱保存來源主張；不同位階的子字不互換，祖先不作直接父親，未名侯子不補姓名。宗正陳昭帝為武帝子與旦指大將軍子的引語分辨，指控不當已確證生平。楚王所稱先元王保留自稱性，不補闕代或爵位三十二城。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "gd9_jxj_uqe": "鉤弋夫人（外戚世家候選）",
+    "oro_evn_khk": "武帝（三王世家候選）",
+    "oro_evn_khk_D": "昭帝（三王世家候選）",
+    "r7z_ane_tmt_A": "武帝（外戚世家候選）",
+    "r7z_ane_tmt_AB": "昭帝（外戚世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "oro_evn_khk_D",
+    "r7z_ane_tmt_AB"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji049-047",
+      "subject_person_id": "r7z_ane_tmt_AB",
+      "predicate": "mother",
+      "object_person_id": "gd9_jxj_uqe",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p042",
+          "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子一人，昭帝是也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-048",
+      "subject_person_id": "r7z_ane_tmt_AB",
+      "predicate": "father",
+      "object_person_id": "r7z_ane_tmt_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p042",
+          "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "武帝年七十，乃生昭帝",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji060-011",
+      "subject_person_id": "oro_evn_khk_D",
+      "predicate": "father",
+      "object_person_id": "oro_evn_khk",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-060-sanwang",
+          "source_id": "s-shiji-060-sanwang",
+          "paragraph_id": "c-shiji-060-sanwang:p030",
+          "quote": "會武帝崩，昭帝初立，旦果作怨而望大臣。自以長子當立，與齊王子劉澤等謀為叛逆，出言曰：「我安得弟在者！今立者乃大將軍子也。」欲發兵。事發覺，當誅。昭帝緣恩寬忍，抑案不揚。公卿使大臣請，遣宗正與太中大夫公戶滿意、御史二人，偕往使燕，風喻之。到燕，各異日，更見責王。宗正者，主宗室諸劉屬籍，先見王，為列陳道昭帝實武帝子狀。侍御史乃復見王，責之以正法，問：「王欲發兵罪名明白，當坐之。漢家有正法，王犯纖介小罪過，即行法直斷耳，安能寬王。」驚動以文法。王意益下，心恐。公戶滿意習於經術，最後見王，稱引古今通義，國家大禮，文章爾雅。謂王曰：「古者天子必內有異姓大夫，所以正骨肉也；外有同姓大夫，所以正異族也。周公輔成王，誅其兩弟，故治。武帝在時，尚能寬王。今昭帝始立，年幼，富於春秋，未臨政，委任大臣。古者誅罰不阿親戚，故天下治。方今大臣輔政，奉法直行，無敢所阿，恐不能寬王。王可自謹，無自令身死國滅，為天下笑。」於是燕王旦乃恐懼服罪，叩頭謝過。大臣欲和合骨肉，難傷之以法。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "昭帝實武帝子狀",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依立子、生子、四子／兩子、少弟及祖先自稱保存來源主張；不同位階的子字不互換，祖先不作直接父親，未名侯子不補姓名。宗正陳昭帝為武帝子與旦指大將軍子的引語分辨，指控不當已確證生平。楚王所稱先元王保留自稱性，不補闕代或爵位三十二城。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji049-038",
+      "person_id": "r7z_ane_tmt_AB",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p042",
+          "quote": "鉤弋夫人姓趙氏，河閒人也。得幸武帝，生子一人，昭帝是也。武帝年七十，乃生昭帝。昭帝立時，年五歲耳。",
+          "person_mention_id": "c-shiji-049-waiqi:m042-0023"
+        }
+      ],
+      "source_term": "生子一人，昭帝是也",
+      "interpretation_note": "來源明記出生；不以母親受幸、父親年齡或鄰近即位倒推生日。群體子女人數不拆造未名者。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji060-004",
+      "person_id": "oro_evn_khk_D",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "昭帝崩",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-060-sanwang",
+          "source_id": "s-shiji-060-sanwang",
+          "paragraph_id": "c-shiji-060-sanwang:p026",
+          "quote": "會昭帝崩，宣帝初立，緣恩行義，以本始元年中，裂漢地，盡以封廣陵王胥四子：一子為朝陽侯；一子為平曲侯；一子為南利侯；最愛少子弘，立以為高密王。",
+          "person_mention_id": "c-shiji-060-sanwang:m026-0001"
+        }
+      ],
+      "interpretation_note": "本篇明示死亡與同篇回述合為單一事件，來源層保存；當誅、請誅、未治、赦免及策書警告不作實際死亡，日期未明示不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

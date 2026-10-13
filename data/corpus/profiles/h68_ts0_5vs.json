@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "id": "h68_ts0_5vs",
+  "canonical_person_id": "h68_ts0_5vs",
+  "label": "齊女（衛莊公夫人）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "齊女",
+    "夫人齊女"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji037-052",
+      "person_id": "h68_ts0_5vs",
+      "title": "夫人",
+      "kind": "unclassified",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p010",
+          "quote": "莊公五年，取齊女爲夫人，好而無子。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji037-052:a001",
+          "paragraph_id": "c-shiji-037-wei:p010",
+          "start": 9,
+          "end": 11,
+          "surface": "夫人",
+          "person_mention_id": "c-shiji-037-wei:m010-0006",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "五年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-037-wei",
+              "source_id": "s-shiji-037-wei",
+              "paragraph_id": "c-shiji-037-wei:p010",
+              "quote": "莊公五年，取齊女爲夫人，好而無子。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "取齊女為夫人，保留莊公紀年，不補女子姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "五年 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 37,
+      "category": "shijia",
+      "title": "衛康叔世家第七",
+      "paragraph_id": "c-shiji-037-wei:p010",
+      "count": 2,
+      "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-037-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-037",
+      "source_id": "s-shiji-037-wei",
+      "source": {
+        "title": "史記／卷037",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷037",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124",
+        "revision_id": 5977124,
+        "accessed_on": "2026-10-09",
+        "extent": "53段傳世正文，自衞康叔名封至太史公論贊，另保留1段數位見證附載索隱述贊並分層；排除2個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "绖": "絰"
+          },
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-037-wei:p027",
+              "rendered": "史Template:按",
+              "wikitext": "史{{按|魚}}",
+              "transcribed": "史魚",
+              "reason": "同一固定版本的按模板失效；取原始標記明示的魚字恢復轉錄，不是依模型補名或底本校勘。"
+            }
+          ],
+          "extraction_note": "固定版本與實讀HTML一致。第31段绖轉絰；第27段失效模板按同版原始標記修復。衞、偼、呉、徴、盂黶等其餘原字不默改。末段標題在h2索隱述贊，另層保留，不把標題添加到原段。",
+          "note": "未核可靠古籍底本及影像，原紀年、世系及異體保留。未以後世研究摘要直接修改親屬或身份。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji037-015",
+      "subject_person_id": "h68_ts0_5vs",
+      "predicate": "spouse",
+      "object_person_id": "xrt_zof_cbt_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p010",
+          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取齊女爲夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "h68_ts0_5vs": "齊女（衛莊公夫人）",
+    "xrt_zof_cbt_A": "揚（衛莊公）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "h68_ts0_5vs"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji037-015",
+      "subject_person_id": "h68_ts0_5vs",
+      "predicate": "spouse",
+      "object_person_id": "xrt_zof_cbt_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p010",
+          "quote": "莊公五年，取齊女爲夫人，好而無子。又取陳女爲夫人，生子，蚤死。陳女女弟亦幸於莊公，而生子完。完母死，莊公令夫人齊女子之，立爲太子。莊公有寵妾，生子州吁。十八年，州吁長，好兵，莊公使將。石碏諫莊公曰：「庶子好兵，使將，亂自此起。」不聽。二十三年，莊公卒，太子完立，是爲桓公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取齊女爲夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

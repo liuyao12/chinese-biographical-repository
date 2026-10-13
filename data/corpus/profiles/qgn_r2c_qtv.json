@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "qgn_r2c_qtv",
+  "canonical_person_id": "qgn_r2c_qtv",
+  "label": "簡狄",
+  "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
+  "review": "ai_provisional",
+  "names": [
+    "簡狄"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji003-002",
+      "person_id": "qgn_r2c_qtv",
+      "title": "次妃",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "quote": "殷契，母曰簡狄，有娀氏之女，為帝嚳次妃。三人行浴，見玄鳥墮其卵，簡狄取吞之，因孕生契。契長而佐禹治水有功。帝舜乃命契曰：「百姓不親，五品不訓，汝為司徒而敬敷五教，五教在寬。」封于商，賜姓子氏。契興於唐、虞、大禹之際，功業著於百姓，百姓以平。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji003-002:a001",
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "start": 17,
+          "end": 19,
+          "surface": "次妃",
+          "person_mention_id": "c-shiji-003-yin:m001-0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "帝舜乃命契保存授任，次妃保留原字、不套後世后妃品秩。未知年月與終點不補造；不由簡狄的配偶關係推契生父。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 3,
+      "category": "benji",
+      "title": "殷本紀第三",
+      "paragraph_id": "c-shiji-003-yin:p001",
+      "count": 2,
+      "quote": "殷契，母曰簡狄，有娀氏之女，為帝嚳次妃。三人行浴，見玄鳥墮其卵，簡狄取吞之，因孕生契。契長而佐禹治水有功。帝舜乃命契曰：「百姓不親，五品不訓，汝為司徒而敬敷五教，五教在寬。」封于商，賜姓子氏。契興於唐、虞、大禹之際"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-003-yin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-003",
+      "source_id": "s-shiji-003-yin",
+      "source": {
+        "title": "史記／卷003",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷003",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+        "revision_id": 7909145,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題與註號。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄"
+          },
+          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji003-001",
+      "subject_person_id": "ea8_yum_lvj",
+      "predicate": "mother",
+      "object_person_id": "qgn_r2c_qtv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "quote": "殷契，母曰簡狄",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji003-002",
+      "subject_person_id": "qgn_r2c_qtv",
+      "predicate": "spouse",
+      "object_person_id": "9qr_quf_02m",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "quote": "簡狄，有娀氏之女，為帝嚳次妃",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次妃",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "9qr_quf_02m": "帝嚳",
+    "ea8_yum_lvj": "契",
+    "qgn_r2c_qtv": "簡狄"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "qgn_r2c_qtv"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji003-001",
+      "subject_person_id": "ea8_yum_lvj",
+      "predicate": "mother",
+      "object_person_id": "qgn_r2c_qtv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "quote": "殷契，母曰簡狄",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji003-002",
+      "subject_person_id": "qgn_r2c_qtv",
+      "predicate": "spouse",
+      "object_person_id": "9qr_quf_02m",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p001",
+          "quote": "簡狄，有娀氏之女，為帝嚳次妃",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次妃",
+        "historicity": "legendary_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

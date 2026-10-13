@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "761_6ot_9wz",
+  "canonical_person_id": "761_6ot_9wz",
+  "label": "管仲父（管晏列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "父"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 62,
+      "category": "liezhuan",
+      "title": "管晏列傳第二",
+      "paragraph_id": "c-shiji-062-guanyan:p002",
+      "count": 1,
+      "quote": "吾幽囚受辱，鮑叔不以我為無恥，知我不羞小節而恥功名不顯于天下也。生我者父母，知我者鮑子也。」"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-062-guanyan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-062",
+      "source_id": "s-shiji-062-guanyan",
+      "source": {
+        "title": "史記／卷062",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷062",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600",
+        "revision_id": 7903600,
+        "accessed_on": "2026-10-09",
+        "extent": "12段正文，排除註釋版及2段維基導覽，無索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；第4段榮辱後的[1]經核HTML為sup.reference腳註連結，抽取正文時排除。保留涂、緦、闚、仆御與忻慕等原字。",
+          "note": "全部12段已核讀，未核底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji062-001",
+      "subject_person_id": "761_6ot_9wz_A",
+      "predicate": "father",
+      "object_person_id": "761_6ot_9wz",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-062-guanyan",
+          "source_id": "s-shiji-062-guanyan",
+          "paragraph_id": "c-shiji-062-guanyan:p002",
+          "quote": "管仲曰：「吾始困時，嘗與鮑叔賈，分財利多自與，鮑叔不以我為貪，知我貧也。吾嘗為鮑叔謀事而更窮困，鮑叔不以我為愚，知時有利不利也。吾嘗三仕三見逐於君，鮑叔不以我為不肖，知我不遭時也。吾嘗三戰三走，鮑叔不以我怯，知我有老母也。公子糾敗，召忽死之，吾幽囚受辱，鮑叔不以我為無恥，知我不羞小節而恥功名不顯于天下也。生我者父母，知我者鮑子也。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生我者父母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按自述生我者父母保存未名父親，不補名或祖先。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "761_6ot_9wz": "管仲父（管晏列傳候選）",
+    "761_6ot_9wz_A": "管仲（管晏列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "761_6ot_9wz"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji062-001",
+      "subject_person_id": "761_6ot_9wz_A",
+      "predicate": "father",
+      "object_person_id": "761_6ot_9wz",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-062-guanyan",
+          "source_id": "s-shiji-062-guanyan",
+          "paragraph_id": "c-shiji-062-guanyan:p002",
+          "quote": "管仲曰：「吾始困時，嘗與鮑叔賈，分財利多自與，鮑叔不以我為貪，知我貧也。吾嘗為鮑叔謀事而更窮困，鮑叔不以我為愚，知時有利不利也。吾嘗三仕三見逐於君，鮑叔不以我為不肖，知我不遭時也。吾嘗三戰三走，鮑叔不以我怯，知我有老母也。公子糾敗，召忽死之，吾幽囚受辱，鮑叔不以我為無恥，知我不羞小節而恥功名不顯于天下也。生我者父母，知我者鮑子也。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生我者父母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按自述生我者父母保存未名父親，不補名或祖先。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
