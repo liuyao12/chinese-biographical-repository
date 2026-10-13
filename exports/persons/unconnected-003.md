@@ -6,14 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `t49_dd6_smz` | 衛太子 | [《史記・衛將軍驃騎列傳》][93] | [JSON](t49_dd6_smz.json) |
-| `t4c_wnk_xx7` | 代王 | [《史記・張儀列傳》][52] | [JSON](t4c_wnk_xx7.json) |
-| `t4f_4gt_n25` | 司徒（晉釐侯） | [《史記・晉世家》][21] | [JSON](t4f_4gt_n25.json) |
-| `t4f_9pu_741` | 趙敬侯（滅晉記事） | [《史記・晉世家》][21] | [JSON](t4f_9pu_741.json) |
-| `t4i_ezb_ooa` | 吳起 | [《史記・儒林列傳》][103] | [JSON](t4i_ezb_ooa.json) |
-| `t4i_jir_a3t` | 周成王（引古） | [《史記・蒙恬列傳》][70] | [JSON](t4i_jir_a3t.json) |
-| `t4l_gy5_dpj` | 趙同（被誅者） | [《史記・晉世家》][21] | [JSON](t4l_gy5_dpj.json) |
-| `t4u_no9_s1q` | 啓 | [《史記・夏本紀》][2] | [JSON](t4u_no9_s1q.json) |
 | `t59_hlv_ksa` | 仇牧（宋大夫） | [《史記・宋微子世家》][20] | [JSON](t59_hlv_ksa.json) |
 | `t5c_bkc_aem` | 驪姬 | [《史記・趙世家》][25] | [JSON](t5c_bkc_aem.json) |
 | `t5e_f83_p7l` | 太子未詳名 | [《史記・張丞相列傳》][78] | [JSON](t5e_f83_p7l.json) |

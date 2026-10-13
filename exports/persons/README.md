@@ -392,7 +392,7 @@
 
 </details>
 
-<details><summary><code>5dm_e40_rqh</code> 古公亶父（29 名）</summary>
+<details><summary><code>5dm_e40_rqh</code> 古公亶父（28 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -418,7 +418,6 @@
 | `AAAAAAAAAAAAAAAAAAA` | 諸樊 | [《史記・吳太伯世家》][13] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAA.json) |
 | `AAAAAAAAAAAAAAAAAAAA` | 闔閭 | [《史記・吳太伯世家》][13] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAA.json) |
 | `AAAAAAAAAAAAAAAAAAAAA` | 夫差 | [《史記・越王勾踐世家》][23] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA.json) |
-| `AAAAAAAAAAAAAAAAAAAAB` | 夫差 | [《史記・伍子胥列傳》][48] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAB.json) |
 | `AAAAAAAAAAAAAAAAAAB` | 餘祭 | [《史記・吳太伯世家》][13] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAB.json) |
 | `AAAAAAAAAAAAAAAAAAC` | 餘眛 | [《史記・吳太伯世家》][13] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAAC.json) |
 | `AAAAAAAAAAAAAAAAAACA` | 僚（吳王） | [《史記・吳太伯世家》][13] | [JSON](5dm_e40_rqh_AAAAAAAAAAAAAAAAAACA.json) |

@@ -221,6 +221,53 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji066-fuchai-wu-line",
+      "person_ids": [
+        "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA"
+      ],
+      "canonical_person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-066-wu",
+        "c-shiji-031-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p014",
+          "quote": "後二歲，闔廬使太子夫差將兵伐楚，取番。楚懼吳復大來，乃去郢，徙於鄀。當是時，吳以伍子胥、孫武之謀，西破彊楚，北威齊晉，南服越人。",
+          "mention_ids": [
+            "c-shiji-066-wu:m014-0007"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p029",
+          "quote": "十年春，越聞吳王之在郢，國空，乃伐吳。吳使別兵撃越。楚告急秦，秦遣兵救楚撃吳，吳師敗。闔廬弟夫槩見秦越交敗吳，吳王留楚不去，夫槩亡歸吳而自立爲吳王。闔廬聞之，乃引兵歸，攻夫槩。夫槩敗奔楚。楚昭王乃得以九月復入郢，而封夫槩於堂谿，爲堂谿氏。十一年，吳王使太子夫差伐楚，取番。楚恐而去郢徙鄀。",
+          "mention_ids": [
+            "c-shiji-031-wu:m029-0126"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p031",
+          "quote": "十九年夏，吳伐越，越王句踐迎撃之槜李。越使死士挑戰，三行造吳師，呼，自剄。吳師觀之，越因伐吳，敗之姑蘇，傷吳王闔廬指，軍卻七里。吳王病傷而死。闔廬使立太子夫差，謂曰：「爾而忘句踐殺汝父乎？」對曰：「不敢！」三年，乃報越。",
+          "mention_ids": [
+            "c-shiji-031-wu:m031-0075"
+          ]
+        }
+      ],
+      "rationale": "兩篇闔廬使太子夫差伐楚取番、楚去郢徙鄀為同一具名人物及事件；吳太伯世家另明示闔廬傷死使立太子夫差與父子稱語。暫接兩候選，先同步親屬、家族與所有引用，再撤除重複ID。不同篇的年序分存，不因同指自行調和。原文及提及錨點保留，未核底本影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
