@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `epd_st0_lry` | 公良孺 | [《史記・孔子世家》][29] | [JSON](epd_st0_lry.json) |
 | `epe_dhb_577` | 齊威王 | [《史記・儒林列傳》][103] | [JSON](epe_dhb_577.json) |
 | `epj_utq_pyg` | 春申（四君稱呼） | [《史記・秦始皇本紀》][6] | [JSON](epj_utq_pyg.json) |
 | `epn_7nx_g1b` | 張恢 | [《史記・袁盎鼂錯列傳》][83] | [JSON](epn_7nx_g1b.json) |
@@ -2241,6 +2240,7 @@
 | `teh_acc_5xb` | 葉公（救楚惠王者） | [《史記・楚世家》][22] | [JSON](teh_acc_5xb.json) |
 | `tem_nwk_wxr` | 范生 | [《史記・酷吏列傳》][104] | [JSON](tem_nwk_wxr.json) |
 | `ten_534_ssn` | 孔文子 | [《史記・孔子世家》][29] | [JSON](ten_534_ssn.json) |
+| `tf3_lxa_cj1` | 紂 | [《史記・匈奴列傳》][92] | [JSON](tf3_lxa_cj1.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

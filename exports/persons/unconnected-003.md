@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tf3_lxa_cj1` | 紂 | [《史記・匈奴列傳》][92] | [JSON](tf3_lxa_cj1.json) |
 | `tf4_u8e_55t` | 魏哆 | [《史記・趙世家》][25] | [JSON](tf4_u8e_55t.json) |
 | `tfu_611_q19` | 潁陰侯嬰（本段稱呼） | [《史記・魏其武安侯列傳》][89] | [JSON](tfu_611_q19.json) |
 | `tfz_fnj_ejn` | 廉頗 | [《史記・廉頗藺相如列傳》][63] | [JSON](tfz_fnj_ejn.json) |
@@ -50,7 +49,6 @@
 | `tpo_l9x_3k6` | 雍渠 | [《史記・孔子世家》][29] | [JSON](tpo_l9x_3k6.json) |
 | `tpz_x3m_e0h` | 湯 | [《史記・殷本紀》][3] | [JSON](tpz_x3m_e0h.json) |
 | `tq0_t3t_6i1` | 趙莊 | [《史記・趙世家》][25] | [JSON](tq0_t3t_6i1.json) |
-| `tq2_jdt_200` | 楚懷王 | [《史記・張儀列傳》][52] | [JSON](tq2_jdt_200.json) |
 | `tqe_7o9_t4k` | 柴武 | [《史記・袁盎鼂錯列傳》][83] | [JSON](tqe_7o9_t4k.json) |
 | `tr0_qvu_64e` | 少康 | [《史記・太史公自序》][112] | [JSON](tr0_qvu_64e.json) |
 | `tr1_c3f_b6q` | 橋牛 | [《史記・五帝本紀》][1] | [JSON](tr1_c3f_b6q.json) |
@@ -825,7 +823,6 @@
 | `ywm_fb0_94l` | 樂毅 | [《史記・太史公自序》][112] | [JSON](ywm_fb0_94l.json) |
 | `ywp_lrf_bs0` | 代王（趙世家未名者） | [《史記・趙世家》][25] | [JSON](ywp_lrf_bs0.json) |
 | `ywz_9xj_buq` | 周襄王 | [《史記・鄭世家》][24] | [JSON](ywz_9xj_buq.json) |
-| `yx1_ywn_ylm` | 屈丐 | [《史記・屈原賈生列傳》][66] | [JSON](yx1_ywn_ylm.json) |
 | `yxe_llo_9h7` | 上官桀 | [《史記・大宛列傳》][105] | [JSON](yxe_llo_9h7.json) |
 | `yxf_zou_iwk` | 張騫 | [《史記・西南夷列傳》][98] | [JSON](yxf_zou_iwk.json) |
 | `yxz_806_xaf` | 景公（齊） | [《史記・太史公自序》][112] | [JSON](yxz_806_xaf.json) |

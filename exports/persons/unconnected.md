@@ -1249,7 +1249,6 @@
 | `86r_v76_3mc` | 大宛王（接待張騫） | [《史記・大宛列傳》][105] | [JSON](86r_v76_3mc.json) |
 | `86t_kt8_pzq` | 要離引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](86t_kt8_pzq.json) |
 | `86x_xyw_vsx` | 雍巫 | [《史記・齊太公世家》][14] | [JSON](86x_xyw_vsx.json) |
-| `87m_0rf_gep` | 屈匄（楚大將軍） | [《史記・楚世家》][22] | [JSON](87m_0rf_gep.json) |
 | `87n_vk2_1ig` | 李少君 | [《史記・孝武本紀》][12] | [JSON](87n_vk2_1ig.json) |
 | `87t_93a_gy8` | 聶翁壹 | [《史記・韓長孺列傳》][90] | [JSON](87t_93a_gy8.json) |
 | `87t_j04_qp3` | 惠后 | [《史記・匈奴列傳》][92] | [JSON](87t_j04_qp3.json) |
@@ -2231,6 +2230,7 @@
 | `eoz_084_vwg` | 商鞅 | [《史記・貨殖列傳》][111] | [JSON](eoz_084_vwg.json) |
 | `eoz_9z7_vgp` | 駟鈞 | [《史記・太史公自序》][112] | [JSON](eoz_9z7_vgp.json) |
 | `epd_7nt_bg9` | 黥布 | [《史記・蕭相國世家》][35] | [JSON](epd_7nt_bg9.json) |
+| `epd_st0_lry` | 公良孺 | [《史記・孔子世家》][29] | [JSON](epd_st0_lry.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

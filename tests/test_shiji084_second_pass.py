@@ -30,3 +30,24 @@ class QuJiaSecondPassTests(unittest.TestCase):
         parallel=json.loads((ROOT/'corpus/shiji/040.json').read_text())['paragraphs'][77]
         self.assertIn('昭雎曰',parallel['text'])
         self.assertEqual({m['person_id'] for m in c['paragraphs'][7]['mentions'] if m['surface']=='頃襄王'}, {'pgu_6kt_nz1'})
+
+    def test_qugai_spellings_share_identity_without_rewriting_fate(self):
+        from scripts.person_bundle import bundle
+        result=bundle('c38_dzq_0o4', include_provisional=True)
+        passages={p['id']:p for p in result['passages']}
+        self.assertIn('虜我大將軍屈匄',passages['c-shiji-040-chu:p072']['text'])
+        self.assertIn('虜楚將屈丐',passages['c-shiji-084-qujia:p004']['text'])
+        self.assertIn('殺屈丐',passages['c-shiji-070-zhang:p022']['text'])
+        for pid,surface in [('c-shiji-040-chu:p072','屈匄'),('c-shiji-084-qujia:p004','楚將屈丐')]:
+            self.assertEqual({m['person_id'] for m in passages[pid]['mentions'] if m['surface']==surface},{'c38_dzq_0o4'})
+        death=next(e for e in result['life_events'] if e['id']=='le-shiji070-002')
+        self.assertEqual(death['source_term'],'殺屈丐')
+        self.assertNotIn('normalized_date',death)
+
+    def test_huai_release_parallel_does_not_identify_zhengxiu_child(self):
+        c=json.loads((ROOT/'corpus/shiji/070.json').read_text())
+        p=c['paragraphs'][22]
+        self.assertEqual({m['person_id'] for m in p['mentions'] if m['surface'] in ('楚懷王','楚王','懷王')},{'c2w_s7g_en0'})
+        self.assertIn('子母俱遷江南',p['text'])
+        relations=json.loads((ROOT/'corpus/shiji/084-assertions.json').read_text())['assertions']
+        self.assertFalse(any(a['predicate']=='mother' and a.get('object_person_id')=='ify_oqo_7fy' for a in relations))
