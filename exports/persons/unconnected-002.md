@@ -656,7 +656,6 @@
 | `jit_l27_rxa` | 張裏 | [《史記・貨殖列傳》][111] | [JSON](jit_l27_rxa.json) |
 | `jj8_r26_ani` | 主父偃 | [《史記・樂毅列傳》][62] | [JSON](jj8_r26_ani.json) |
 | `jjk_vzj_cjd` | 莊助 | [《史記・汲鄭列傳》][102] | [JSON](jjk_vzj_cjd.json) |
-| `jjl_irg_zke` | 盧綰父未名 | [《史記・韓信盧綰列傳》][75] | [JSON](jjl_irg_zke.json) |
 | `jjm_xtb_fcj` | 扈輒 | [《史記・魏豹彭越列傳》][72] | [JSON](jjm_xtb_fcj.json) |
 | `jk8_8gt_vmi` | 楊仆 | [《史記・朝鮮列傳》][97] | [JSON](jk8_8gt_vmi.json) |
 | `jke_ad4_46c` | 夏禹 | [《史記・平津侯主父列傳》][94] | [JSON](jke_ad4_46c.json) |
@@ -879,7 +878,6 @@
 | `l8e_aho_h3v` | 嬰（太僕） | [《史記・孝文本紀》][10] | [JSON](l8e_aho_h3v.json) |
 | `l8u_dr5_a97` | 丙戎 | [《史記・齊太公世家》][14] | [JSON](l8u_dr5_a97.json) |
 | `l9a_lun_z7u` | 路充國（匈奴列傳第48段） | [《史記・匈奴列傳》][92] | [JSON](l9a_lun_z7u.json) |
-| `l9e_fbr_36a` | 倉 | [《史記・韓世家》][27] | [JSON](l9e_fbr_36a.json) |
 | `l9t_94i_2xm` | 郄（晉鄂侯） | [《史記・晉世家》][21] | [JSON](l9t_94i_2xm.json) |
 | `l9w_b0y_aow` | 吳王濞 | [《史記・齊悼惠王世家》][34] | [JSON](l9w_b0y_aow.json) |
 | `l9w_xva_6q0` | 霍公（趙世家未名者） | [《史記・趙世家》][25] | [JSON](l9w_xva_6q0.json) |
@@ -2238,6 +2236,8 @@
 | `ug9_gi9_fvb` | 五大夫陵 | [《史記・白起王翦列傳》][55] | [JSON](ug9_gi9_fvb.json) |
 | `ugq_ldt_klj` | 劇孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](ugq_ldt_klj.json) |
 | `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16]、[《史記・晉世家》][21] | [JSON](uhq_4sb_zzv.json) |
+| `uhy_p4j_wc6` | 秦昭 | [《史記・貨殖列傳》][111] | [JSON](uhy_p4j_wc6.json) |
+| `ui0_pob_f62` | 奉賜死使者未名 | [《史記・蒙恬列傳》][70] | [JSON](ui0_pob_f62.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

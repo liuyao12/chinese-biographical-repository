@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `uhy_p4j_wc6` | 秦昭 | [《史記・貨殖列傳》][111] | [JSON](uhy_p4j_wc6.json) |
-| `ui0_pob_f62` | 奉賜死使者未名 | [《史記・蒙恬列傳》][70] | [JSON](ui0_pob_f62.json) |
 | `uik_lg2_lp8` | 卑梁大夫（吳楚邊童爭桑時） | [《史記・楚世家》][22] | [JSON](uik_lg2_lp8.json) |
 | `uiq_fxy_s78` | 豫且 | [《史記・龜策列傳》][110] | [JSON](uiq_fxy_s78.json) |
 | `uiz_ljv_jv9` | 華陽夫人姊未名 | [《史記・呂不韋列傳》][67] | [JSON](uiz_ljv_jv9.json) |
@@ -456,7 +454,6 @@
 | `xnc_psn_713` | 膠西王端愛幸而殺的郎 | [《史記・五宗世家》][41] | [JSON](xnc_psn_713.json) |
 | `xne_qdl_46g` | 賁 | [《史記・司馬相如列傳》][99] | [JSON](xne_qdl_46g.json) |
 | `xng_f7r_jcu` | 晉文公引文候選 | [《史記・扁鵲倉公列傳》][87] | [JSON](xng_f7r_jcu.json) |
-| `xnj_cjk_pcj` | 韓襄王 | [《史記・韓信盧綰列傳》][75] | [JSON](xnj_cjk_pcj.json) |
 | `xnk_yt8_2uc` | 重耳 | [《史記・太史公自序》][112] | [JSON](xnk_yt8_2uc.json) |
 | `xno_bw1_y99` | 武安君甘羅引古 | [《史記・樗里子甘茂列傳》][53] | [JSON](xno_bw1_y99.json) |
 | `xnz_nos_gyp` | 內史勳 | [《史記・齊悼惠王世家》][34] | [JSON](xnz_nos_gyp.json) |

@@ -904,15 +904,6 @@
 
 </details>
 
-<details><summary><code>cc2_r4q_j5y</code> 盧綰（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 盧綰 | [《史記・韓信盧綰列傳》][75] | [JSON](cc2_r4q_j5y.json) |
-| `*A` | 盧他之 | [《史記・韓信盧綰列傳》][75] | [JSON](cc2_r4q_j5y_%2AA.json) |
-
-</details>
-
 <details><summary><code>cek_1yy_pne</code> 奄父（趙世家候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1297,18 +1288,6 @@
 
 </details>
 
-<details><summary><code>hm1_rqr_l9u</code> 韓王信（韓太尉）（5 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 韓王信（韓太尉） | [《史記・韓信盧綰列傳》][75] | [JSON](hm1_rqr_l9u.json) |
-| `A` | 韓王信太子未名 | [《史記・韓信盧綰列傳》][75] | [JSON](hm1_rqr_l9u_A.json) |
-| `AA` | 韓嬰 | [《史記・韓信盧綰列傳》][75] | [JSON](hm1_rqr_l9u_AA.json) |
-| `B` | 韓穨當 | [《史記・韓信盧綰列傳》][75] | [JSON](hm1_rqr_l9u_B.json) |
-| `B*A` | 韓嫣 | [《史記・韓信盧綰列傳》][75] | [JSON](hm1_rqr_l9u_B%2AA.json) |
-
-</details>
-
 <details><summary><code>i30_mjq_6q8</code> 呂公（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1421,6 +1400,16 @@
 
 </details>
 
+<details><summary><code>jjl_irg_zke</code> 盧綰父未名（韓信盧綰列傳候選）（3 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 盧綰父未名 | [《史記・韓信盧綰列傳》][75] | [JSON](jjl_irg_zke.json) |
+| `A` | 盧綰 | [《史記・韓信盧綰列傳》][75] | [JSON](jjl_irg_zke_A.json) |
+| `A*A` | 盧他之 | [《史記・韓信盧綰列傳》][75] | [JSON](jjl_irg_zke_A%2AA.json) |
+
+</details>
+
 <details><summary><code>jo4_4bf_0ra</code> 劉澤（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1526,6 +1515,19 @@
 |---|---|---|---|
 | `根` | 武公 | [《史記・趙世家》][25] | [JSON](l8e_pxu_xre.json) |
 | `A` | 朝 | [《史記・趙世家》][25] | [JSON](l8e_pxu_xre_A.json) |
+
+</details>
+
+<details><summary><code>l9e_fbr_36a</code> 倉（韓世家襄王候選）（6 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 倉 | [《史記・韓世家》][27] | [JSON](l9e_fbr_36a.json) |
+| `*A` | 韓王信（韓太尉） | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AA.json) |
+| `*AA` | 韓王信太子未名 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAA.json) |
+| `*AAA` | 韓嬰 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAAA.json) |
+| `*AB` | 韓穨當 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAB.json) |
+| `*AB*A` | 韓嫣 | [《史記・佞幸列傳》][107] | [JSON](l9e_fbr_36a_%2AAB%2AA.json) |
 
 </details>
 
@@ -2896,15 +2898,6 @@
 | `根` | 張負 | [《史記・陳丞相世家》][38] | [JSON](zrx_2ip_d1p.json) |
 | `*A` | 張氏女 | [《史記・陳丞相世家》][38] | [JSON](zrx_2ip_d1p_%2AA.json) |
 | `A` | 張仲 | [《史記・陳丞相世家》][38] | [JSON](zrx_2ip_d1p_A.json) |
-
-</details>
-
-<details><summary><code>zw4_jf3_2y1</code> 弓高侯（佞幸列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 弓高侯 | [《史記・佞幸列傳》][107] | [JSON](zw4_jf3_2y1.json) |
-| `*A` | 韓嫣 | [《史記・佞幸列傳》][107] | [JSON](zw4_jf3_2y1_%2AA.json) |
 
 </details>
 
