@@ -23,6 +23,21 @@ class LisiEvidenceTests(unittest.TestCase):
         self.assertNotIn('normalized_date', event)
         self.assertIn('死亡次序', decision['rationale'])
 
+    def test_late_actors_keep_event_and_kinship_limits(self):
+        ds = {d['id']: d for d in self.read('equivalences', 'decisions')}
+        pei = ds['eq-shiji087-late-pei']
+        quotes = [e['quote'] for e in pei['evidence']]
+        self.assertTrue(any('子嬰立三月' in q for q in quotes))
+        self.assertTrue(any('子嬰為秦王四十六日' in q for q in quotes))
+        self.assertTrue(any('以秦王屬吏' in q for q in quotes))
+        wang = ds['eq-shiji087-late-wangli']
+        self.assertEqual(wang['canonical_person_id'], 'gdj_k53_v1x_*A')
+        self.assertTrue(any('王翦之孫王離' in e['quote'] for e in wang['evidence']))
+        self.assertIn('不由被俘補死亡', wang['rationale'])
+        zhang = ds['eq-shiji087-late-zhang']
+        self.assertTrue(any('矯王令以誅吳叔' in e['quote'] for e in zhang['evidence']))
+        self.assertIn('不把「破逐廣等兵」讀成章邯親手殺吳廣', zhang['rationale'])
+
     def test_qin_king_scopes_distinguish_departure_from_successor(self):
         chapter = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
         paragraphs = {p['id'].rsplit(':', 1)[1]: p for p in chapter['paragraphs']}
