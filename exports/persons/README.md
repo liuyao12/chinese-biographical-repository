@@ -1591,7 +1591,7 @@
 | `AAAAAAABAAAAA` | 桓公午 | [《史記・田敬仲完世家》][28] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAA.json) |
 | `AAAAAAABAAAAAA` | 因齊 | [《史記・田敬仲完世家》][28] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
 | `AAAAAAABAAAAAAA` | 辟彊 | [《史記・田敬仲完世家》][28]、[《史記・孟嘗君列傳》][57] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAA.json) |
-| `AAAAAAABAAAAAAAA` | 地 | [《史記・孟嘗君列傳》][57] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAAA.json) |
+| `AAAAAAABAAAAAAAA` | 齊湣王 | [《史記・孟嘗君列傳》][57] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAAA.json) |
 | `AB` | 鮑（陳桓公） | [《史記・陳杞世家》][18] | [JSON](lmu_nbm_rzo_AB.json) |
 | `ABA` | 免（陳桓公太子） | [《史記・陳杞世家》][18] | [JSON](lmu_nbm_rzo_ABA.json) |
 | `ABB` | 躍（陳利公） | [《史記・陳杞世家》][18] | [JSON](lmu_nbm_rzo_ABB.json) |

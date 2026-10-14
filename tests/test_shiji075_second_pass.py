@@ -32,3 +32,21 @@ class MengchangEvidenceTests(unittest.TestCase):
         own = [a for a in addresses if a['person_id'] == '7pl_s0g_rkh']
         self.assertFalse(any(a['relation'] in ('biographical_origin', 'birth_place', 'death_place', 'burial_place') for a in own))
         self.assertFalse(any(a['evidence'][0]['paragraph_id'].endswith(':p005') for a in own))
+
+    def test_retrospective_qi_king_resolves_without_rewriting_source(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/075.json').read_text())
+        paragraphs = {p['id'].rsplit(':', 1)[1]: p for p in chapter['paragraphs']}
+        self.assertTrue(paragraphs['p014']['text'].startswith('初，馮驩'))
+        for key, count in [('p017', 6), ('p018', 1)]:
+            paragraph = paragraphs[key]
+            mentions = [m for m in paragraph['mentions'] if m.get('person_id') == 'lmu_nbm_rzo_AAAAAAABAAAAAAAA']
+            self.assertEqual(len(mentions), count)
+            for mention in mentions:
+                self.assertIn(mention['surface'], ['齊王', '王'])
+                self.assertEqual(paragraph['text'][mention['start']:mention['end']], mention['surface'])
+        # 襄王連和段與馮驩向秦王的發言，不能因同稱王而一起改指。
+        self.assertTrue(any(m.get('person_id') == 'sba_huu_hk2' for m in paragraphs['p013']['mentions']))
+        self.assertTrue(any(m.get('person_id') == 'zp9_5vn_rqb' for m in paragraphs['p017']['mentions']))
+        decision = next(d for d in self.read('equivalences', 'decisions') if d['id'] == 'eq-shiji075-feng-qi-min')
+        self.assertEqual(decision['status'], 'contextual_provisional')
+        self.assertFalse(decision['human_reviewed'])
