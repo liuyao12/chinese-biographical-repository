@@ -25,7 +25,6 @@
 | `03j_syw_e4g` | 湣王（尉繚引述） | [《史記・秦始皇本紀》][6] | [JSON](03j_syw_e4g.json) |
 | `03v_bhv_img` | 平原君趙勝 | [《史記・平原君虞卿列傳》][58] | [JSON](03v_bhv_img.json) |
 | `03x_n5w_br7` | 閼與秦將未名 | [《史記・廉頗藺相如列傳》][63] | [JSON](03x_n5w_br7.json) |
-| `04g_x9a_lho` | 勃（太尉用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](04g_x9a_lho.json) |
 | `04s_md1_e2f` | 薄太后 | [《史記・張釋之馮唐列傳》][84] | [JSON](04s_md1_e2f.json) |
 | `04z_mgy_h00` | 客人 | [《史記・商君列傳》][50] | [JSON](04z_mgy_h00.json) |
 | `052_eu1_tdb` | 建元中上未具名 | [《史記・袁盎鼂錯列傳》][83] | [JSON](052_eu1_tdb.json) |
@@ -1858,7 +1857,6 @@
 | `cnz_t0f_oaz` | 灶 | [《史記・南越列傳》][95] | [JSON](cnz_t0f_oaz.json) |
 | `co1_fld_bmx` | 太史伯 | [《史記・鄭世家》][24] | [JSON](co1_fld_bmx.json) |
 | `cof_m2m_hgi` | 熊麗（楚先祖） | [《史記・楚世家》][22] | [JSON](cof_m2m_hgi.json) |
-| `cok_fra_foo` | 周昌 | [《史記・韓信盧綰列傳》][75] | [JSON](cok_fra_foo.json) |
 | `cou_5k9_mw2` | 吳回 | [《史記・太史公自序》][112] | [JSON](cou_5k9_mw2.json) |
 | `coz_ul3_g8w` | 宰予 | [《史記・孔子世家》][29] | [JSON](coz_ul3_g8w.json) |
 | `cp2_vf3_igr` | 魯昭公 | [《史記・魯周公世家》][15] | [JSON](cp2_vf3_igr.json) |
@@ -2229,6 +2227,9 @@
 | `f3j_nl2_i2g` | 蚡（皇太后弟） | [《史記・孝景本紀》][11]、[《史記・孝武本紀》][12] | [JSON](f3j_nl2_i2g.json) |
 | `f3m_wd5_jgy` | 育 | [《史記・汲鄭列傳》][102] | [JSON](f3m_wd5_jgy.json) |
 | `f3s_h05_04d` | 惠公適夫人（未名） | [《史記・魯周公世家》][15] | [JSON](f3s_h05_04d.json) |
+| `f41_iwq_mkl` | 祖庚 | [《史記・殷本紀》][3] | [JSON](f41_iwq_mkl.json) |
+| `f42_zl0_lkq` | 晉厲公 | [《史記・晉世家》][21] | [JSON](f42_zl0_lkq.json) |
+| `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][111] | [JSON](f4b_rfz_gs1.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

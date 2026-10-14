@@ -101,6 +101,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji093-033",
+      "person_id": "gfr_55l_72s",
+      "title": "趙相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p015",
+          "quote": "豨常告歸過趙，趙相周昌見豨賓客隨之者千餘乘，邯鄲官舍皆滿。豨所以待賓客布衣交，皆出客下。豨還之代，周昌乃求入見。見上，具言豨賓客盛甚，擅兵於外數歲，恐有變。上乃令人覆案豨客居代者財物諸不法事，多連引豨。豨恐，陰令客通使王黃、曼丘臣所。及高祖十年七月，太上皇崩，使人召豨，豨稱病甚。九月，遂與王黃等反，自立為代王，劫略趙、代。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji093-033:a001",
+          "paragraph_id": "c-shiji-093-hanlu:p015",
+          "start": 7,
+          "end": 9,
+          "surface": "趙相",
+          "person_mention_id": "c-shiji-093-hanlu:m015-0007",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "按實授、自立與用稱保存；許韓王在先不作已授。明示相對年月保持原文，死亡、降漢、失侯之後裔敘事不替本人任期補終點。虜綰原字保留，以本段盧綰主語承接授爵，未核底本影像。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji096-012",
       "person_id": "gfr_55l_72s",
       "title": "泗水卒史",
@@ -474,6 +516,14 @@
       "quote": "中元年，封故御史大夫周苛孫平為繩侯，故御史大夫周昌（子）［孫］左車為安陽侯，四月乙巳，赦天下，賜爵一級。除禁錮。地動。衡山、原都雨雹，大者尺八寸。"
     },
     {
+      "number": 93,
+      "category": "liezhuan",
+      "title": "韓信盧綰列傳第三十三",
+      "paragraph_id": "c-shiji-093-hanlu:p015",
+      "count": 6,
+      "quote": "豨常告歸過趙，趙相周昌見豨賓客隨之者千餘乘，邯鄲官舍皆滿。豨所以待賓客布衣交，皆出客下。豨還之代，周昌乃求入見。見上，具言豨賓客盛甚，擅兵於外數歲，恐有變。上乃令人覆案豨客居代者財物諸不法事，多連引豨。豨恐，陰令客通使"
+    },
+    {
       "number": 96,
       "category": "liezhuan",
       "title": "張丞相列傳第三十六",
@@ -586,6 +636,30 @@
           "editorial_readings": [],
           "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
           "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-093-hanlu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-093",
+      "source_id": "s-shiji-093-hanlu",
+      "source": {
+        "title": "史記／卷093",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷093",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
+        "revision_id": 368019,
+        "accessed_on": "2026-10-09",
+        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
+          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
         }
       }
     },

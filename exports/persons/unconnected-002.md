@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f41_iwq_mkl` | 祖庚 | [《史記・殷本紀》][3] | [JSON](f41_iwq_mkl.json) |
-| `f42_zl0_lkq` | 晉厲公 | [《史記・晉世家》][21] | [JSON](f42_zl0_lkq.json) |
-| `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][111] | [JSON](f4b_rfz_gs1.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
 | `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
@@ -1518,7 +1515,6 @@
 | `pph_9jt_i6m` | 太后（趙世家孝成王新立未名者） | [《史記・趙世家》][25] | [JSON](pph_9jt_i6m.json) |
 | `ppk_dnc_f2g` | 白公勝（楚亂記事） | [《史記・陳杞世家》][18] | [JSON](ppk_dnc_f2g.json) |
 | `ppl_k5e_2iw` | 呼毒尼 | [《史記・衛將軍驃騎列傳》][93] | [JSON](ppl_k5e_2iw.json) |
-| `ppl_kwi_gwp` | 共尉 | [《史記・韓信盧綰列傳》][75] | [JSON](ppl_kwi_gwp.json) |
 | `pqt_3m5_2v2` | 李將軍 | [《史記・太史公自序》][112] | [JSON](pqt_3m5_2v2.json) |
 | `pqx_j3h_31a` | 褚廣 | [《史記・酷吏列傳》][104] | [JSON](pqx_j3h_31a.json) |
 | `pr6_r4f_o9t` | 申徒狄引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](pr6_r4f_o9t.json) |
@@ -2239,6 +2235,9 @@
 | `ufz_ayn_ylh` | 魏成子 | [《史記・魏世家》][26] | [JSON](ufz_ayn_ylh.json) |
 | `ug2_2v6_hbv` | 鄭安平 | [《史記・趙世家》][25] | [JSON](ug2_2v6_hbv.json) |
 | `ug6_2ne_9hm` | 犀首書信 | [《史記・蘇秦列傳》][51] | [JSON](ug6_2ne_9hm.json) |
+| `ug9_gi9_fvb` | 五大夫陵 | [《史記・白起王翦列傳》][55] | [JSON](ug9_gi9_fvb.json) |
+| `ugq_ldt_klj` | 劇孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](ugq_ldt_klj.json) |
+| `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16]、[《史記・晉世家》][21] | [JSON](uhq_4sb_zzv.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
