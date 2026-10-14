@@ -141,3 +141,13 @@ class QingbuIdentityTests(unittest.TestCase):
         self.assertFalse(variant['adopted'])
         self.assertFalse(variant['image_verified'])
         self.assertIn('芮之孫固', variant['note'])
+
+    def test_commentary_author_does_not_merge_father_tan(self):
+        p = self.paragraph('091', 'p019')
+        self.assertTrue(any(m['surface'] == '太史公'
+                            and m['person_id'] == 'pme_eis_xqi_*A*AAAAA' for m in p['mentions']))
+        father = [m for m in self.paragraph('130', 'p004')['mentions'] if m['surface'] == '太史公']
+        self.assertTrue(father)
+        self.assertTrue(all(m['person_id'] == 'pme_eis_xqi_*A*AAAA' for m in father))
+        self.assertIn('作黥布列傳第三十一', self.paragraph('130', 'p103')['text'])
+        self.assertIn('百三十篇', self.paragraph('130', 'p143')['text'])

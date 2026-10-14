@@ -1375,6 +1375,71 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji091-review-author",
+      "person_ids": [
+        "pme_eis_xqi_*A*AAAAA"
+      ],
+      "canonical_person_id": "pme_eis_xqi_*A*AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-091-qingbu",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p019",
+          "quote": "太史公曰：英布者，其先豈春秋所見楚滅英、六，皋陶之後哉？身被刑法，何其拔興之暴也！項氏之所阬殺人以千萬數，而布常為首虐。功冠諸侯，用此得王，亦不免於身為世大僇。禍之興自愛姬殖，妒媢生患，竟以滅國！",
+          "mention_ids": [
+            "c-shiji-091-qingbu:m019-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p004",
+          "quote": "太史公既掌天官，不治民。有子曰遷。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m004-0015"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p008",
+          "quote": "太史公曰：「先人有言：『自周公卒五百歲而有孔子。孔子卒後至於今五百歲，有能紹明世，正易傳，繼春秋，本詩書禮樂之際？』意在斯乎！意在斯乎！小子何敢讓焉。」",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m008-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "quote": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m012-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p143",
+          "quote": "太史公曰：余述歷黃帝以來至太初而訖，百三十篇。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m143-0000"
+          ]
+        }
+      ],
+      "rationale": "僅接合黥布篇末太史公曰的作者自稱。自序先記談有子遷、父談臨終托著述，後由子遷稱先人、遭李陵之禍及自述百三十篇；自序目次亦列作黥布列傳第三十一。依此作者敘述配置暫接司馬遷，不把父談的太史公稱謂一律併入，不全域替換同官稱，亦不以此判每條評語形成時代。未核書影，同書篇章不當獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
