@@ -60,3 +60,38 @@ class QingbuIdentityTests(unittest.TestCase):
         self.assertIn('夏，漢誅梁王彭越', self.paragraph('091', 'p013')['text'])
         self.assertIn('十年秋，陳豨反代地', self.paragraph('090', 'p011')['text'])
         self.assertIn('漢十二年秋，黥布反', self.paragraph('053', 'p011')['text'])
+
+    def test_death_events_do_not_turn_suicide_intent_into_death(self):
+        data = json.loads((ROOT / 'corpus/shiji/091-life-events.json').read_text())['events']
+        bu = next(e for e in data if e['person_id'] == 'zxd_afr_2xg')
+        self.assertIn('欲自殺', self.paragraph('091', 'p009')['text'])
+        self.assertEqual(bu['source_term'], '番陽人殺布茲鄉民田舍')
+        self.assertIsNone(bu['date_expression'])
+        self.assertNotIn('normalized_date', bu)
+        yi = next(e for e in data if e['person_id'] == 'c2w_s7g_en0_*A')
+        self.assertEqual(yi['date_expression'], '其八月')
+        self.assertEqual(yi['normalized_date']['era_year'], 206)
+        xin = next(e for e in data if e['person_id'] == 'ofc_8ei_jb7')
+        self.assertEqual(xin['normalized_date']['era_year'], 196)
+        self.assertIn('春，淮陰侯韓信', xin['normalized_date']['basis']['reference_event_quote'])
+
+    def test_native_place_migration_and_death_places_are_separate(self):
+        data = json.loads((ROOT / 'corpus/shiji/091-addresses.json').read_text())['assertions']
+        bu = {(a['relation'], a['place']['source_name']) for a in data if a['person_id'] == 'zxd_afr_2xg'}
+        self.assertEqual(bu, {('biographical_origin', '六'), ('migration_destination', '麗山'),
+                              ('migration_destination', '江中'), ('death_place', '茲鄉民田舍')})
+        self.assertFalse(any(a['relation'] in {'birth_place', 'burial_place'} for a in data))
+        self.assertTrue(all(a['place']['modern_identification'] is None for a in data))
+        titles = json.loads((ROOT / 'corpus/shiji/091-titles.json').read_text())['holdings']
+        start = next(h for h in titles if h['id'] == 'th-shiji091-012')['effective_period']['start']
+        self.assertEqual(start['date_expression'], '四年七月')
+        self.assertEqual(start['normalized_date']['era_year'], 203)
+        self.assertNotIn('month', start['normalized_date'])
+
+    def test_qing_is_not_used_as_surname(self):
+        rows = json.loads((ROOT / 'data/corpus/profile-names.json').read_text())['records']
+        bu = next(r for r in rows if r['person_id'] == 'zxd_afr_2xg')
+        self.assertEqual((bu['surname'], bu['ming']), ('英', '布'))
+        self.assertIn('姓英氏', bu['quote'])
+        self.assertIn('黥布', bu['additional_names'])
+        self.assertIn('英布', self.paragraph('091', 'p002')['text'])
