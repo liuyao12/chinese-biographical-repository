@@ -47,7 +47,6 @@
 | `08j_zgn_g6d` | 東陽侯未名 | [《史記・屈原賈生列傳》][66] | [JSON](08j_zgn_g6d.json) |
 | `08l_wt5_kry` | 伍子胥 | [《史記・仲尼弟子列傳》][49] | [JSON](08l_wt5_kry.json) |
 | `08q_8bd_lr8` | 胡毋生 | [《史記・儒林列傳》][103] | [JSON](08q_8bd_lr8.json) |
-| `09a_teq_6v4` | 吳王夫差（引古） | [《史記・蒙恬列傳》][70] | [JSON](09a_teq_6v4.json) |
 | `09s_wy8_uyj` | 甫假 | [《史記・鄭世家》][24] | [JSON](09s_wy8_uyj.json) |
 | `09x_42a_awj` | 高陵君 | [《史記・范睢蔡澤列傳》][61] | [JSON](09x_42a_awj.json) |
 | `09z_62n_amz` | 楚威王 | [《史記・老子韓非列傳》][45] | [JSON](09z_62n_amz.json) |
@@ -1313,7 +1312,6 @@
 | `8oa_uge_0p6` | 趙高母未名 | [《史記・蒙恬列傳》][70] | [JSON](8oa_uge_0p6.json) |
 | `8ov_spc_ch8` | 重耳母女弟（夷吾母） | [《史記・晉世家》][21] | [JSON](8ov_spc_ch8.json) |
 | `8pi_259_b4u` | 南子 | [《史記・孔子世家》][29] | [JSON](8pi_259_b4u.json) |
-| `8py_u6m_e6a` | 百里奚（引古） | [《史記・蒙恬列傳》][70] | [JSON](8py_u6m_e6a.json) |
 | `8q9_6wj_aid` | 巫臣子（吳行人未名） | [《史記・晉世家》][21] | [JSON](8q9_6wj_aid.json) |
 | `8q9_gld_64b` | 長孺（汲鄭） | [《史記・太史公自序》][112] | [JSON](8q9_gld_64b.json) |
 | `8qn_pes_ndt` | 孔父妻（華督所取者未名） | [《史記・宋微子世家》][20] | [JSON](8qn_pes_ndt.json) |
@@ -1810,7 +1808,6 @@
 | `c4o_fny_0vd` | 堯 | [《史記・劉敬叔孫通列傳》][81] | [JSON](c4o_fny_0vd.json) |
 | `c4w_uo5_66h` | 孟釐子 | [《史記・孔子世家》][29] | [JSON](c4w_uo5_66h.json) |
 | `c56_xgh_owp` | 胡亥 | [《史記・劉敬叔孫通列傳》][81] | [JSON](c56_xgh_owp.json) |
-| `c59_t5o_6dk` | 楚平王（引古） | [《史記・蒙恬列傳》][70] | [JSON](c59_t5o_6dk.json) |
 | `c5j_5bu_v0o` | 魏尚 | [《史記・張釋之馮唐列傳》][84] | [JSON](c5j_5bu_v0o.json) |
 | `c5t_8kk_hd5` | 夏說 | [《史記・張耳陳餘列傳》][71] | [JSON](c5t_8kk_hd5.json) |
 | `c68_rcg_qsu` | 皇太后未名（建元語境） | [《史記・萬石張叔列傳》][85] | [JSON](c68_rcg_qsu.json) |
@@ -2230,6 +2227,10 @@
 | `euc_oun_w4b` | 悼公（燕惠公後） | [《史記・燕召公世家》][16] | [JSON](euc_oun_w4b.json) |
 | `eug_nzm_5pu` | 霍光 | [《史記・平津侯主父列傳》][94] | [JSON](eug_nzm_5pu.json) |
 | `euw_a6w_5kn` | 熊摯紅（熊渠後繼） | [《史記・楚世家》][22] | [JSON](euw_a6w_5kn.json) |
+| `ev5_tf4_yrs` | 偃（崔氏相者） | [《史記・齊太公世家》][14] | [JSON](ev5_tf4_yrs.json) |
+| `ev7_bgb_mtr` | 魏相田文 | [《史記・孫子吳起列傳》][47] | [JSON](ev7_bgb_mtr.json) |
+| `evh_7zu_u3x` | 慎夫人 | [《史記・外戚世家》][31] | [JSON](evh_7zu_u3x.json) |
+| `evn_9i5_s69` | 萊侯（太公就國時未名） | [《史記・齊太公世家》][14] | [JSON](evn_9i5_s69.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

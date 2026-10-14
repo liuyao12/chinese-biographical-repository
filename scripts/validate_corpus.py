@@ -600,10 +600,18 @@ def validate(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
+                    explicit_naming = False
+                    if isinstance(basis, dict) and isinstance(basis.get('source_term'), str):
+                        term = basis['source_term']
+                        explicit_naming = bool(re.search(r'(?:諡|謚)(?:為|爲|曰)?' + re.escape(h['title']), term))
+                        named = re.search(r'立號曰[「『]?' + re.escape(h['title']) + r'[」』]?', term)
+                        death = basis.get('death_term')
+                        if named and isinstance(death, str) and death and death in term:
+                            explicit_naming |= term.index(death) + len(death) <= named.start()
                     valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
                            and set(basis)=={'source_term','death_term','evidence'}
                            and isinstance(basis['source_term'],str)
-                           and bool(re.search(r'(?:諡|謚)(?:為|爲|曰)?' + re.escape(h['title']), basis['source_term']))
+                           and explicit_naming
                            and h['title'] in basis['source_term']
                            and isinstance(basis['death_term'],str)
                            and bool(re.search(r'卒|薨|死',basis['death_term']))
