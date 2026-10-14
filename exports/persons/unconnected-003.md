@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ug9_gi9_fvb` | 五大夫陵 | [《史記・白起王翦列傳》][55] | [JSON](ug9_gi9_fvb.json) |
-| `ugq_ldt_klj` | 劇孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](ugq_ldt_klj.json) |
-| `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16]、[《史記・晉世家》][21] | [JSON](uhq_4sb_zzv.json) |
 | `uhy_p4j_wc6` | 秦昭 | [《史記・貨殖列傳》][111] | [JSON](uhy_p4j_wc6.json) |
 | `ui0_pob_f62` | 奉賜死使者未名 | [《史記・蒙恬列傳》][70] | [JSON](ui0_pob_f62.json) |
 | `uik_lg2_lp8` | 卑梁大夫（吳楚邊童爭桑時） | [《史記・楚世家》][22] | [JSON](uik_lg2_lp8.json) |
@@ -87,7 +84,6 @@
 | `uzb_sfw_uqg` | 竇嬰 | [《史記・梁孝王世家》][40] | [JSON](uzb_sfw_uqg.json) |
 | `v0a_dlz_n5l` | 辰嬴（公子樂母） | [《史記・晉世家》][21] | [JSON](v0a_dlz_n5l.json) |
 | `v0e_wn2_9y3` | 御者妻 | [《史記・管晏列傳》][44] | [JSON](v0e_wn2_9y3.json) |
-| `v0m_yso_2h1` | 趙堯 | [《史記・韓信盧綰列傳》][75] | [JSON](v0m_yso_2h1.json) |
 | `v0q_hjk_mfh` | 王先生 | [《史記・滑稽列傳》][108] | [JSON](v0q_hjk_mfh.json) |
 | `v0z_zyj_fu7` | 王后未名 | [《史記・扁鵲倉公列傳》][87] | [JSON](v0z_zyj_fu7.json) |
 | `v14_tbx_p17` | 侯公 | [《史記・秦始皇本紀》][6] | [JSON](v14_tbx_p17.json) |
@@ -516,7 +512,6 @@
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][22] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][14] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][6] | [JSON](xyx_811_vue.json) |
-| `xz1_j5k_z0t` | 審食其 | [《史記・韓信盧綰列傳》][75] | [JSON](xz1_j5k_z0t.json) |
 | `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][22] | [JSON](xz9_iik_30x.json) |
 | `xzf_77f_8s2` | 公孫弘 | [《史記・齊悼惠王世家》][34] | [JSON](xzf_77f_8s2.json) |
 | `xzf_o56_oi3` | 陳勝 | [《史記・淮南衡山列傳》][100] | [JSON](xzf_o56_oi3.json) |

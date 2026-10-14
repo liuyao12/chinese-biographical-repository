@@ -41,3 +41,19 @@ class HanLuIdentityTests(unittest.TestCase):
             row = next(x for x in rows if x['id'] == 'eq-shiji093-review-' + key)
             self.assertIn('較弱', row['rationale'])
             self.assertFalse(row['human_reviewed'])
+
+    def test_gongwei_uses_the_same_liu_jia_lu_wan_campaign(self):
+        p = self.paragraph('093', 'p009')
+        self.assertEqual(self.ids(p, '共尉'), {'stm_voa_t08'})
+        q = self.paragraph('051', 'p003')
+        self.assertIn('太尉盧綰', q['text'])
+        self.assertIn('臨江王共尉', q['text'])
+    def test_zhao_officers_and_zhoubo_do_not_merge_same_office(self):
+        self.assertEqual(self.ids(self.paragraph('093', 'p015'), '周昌'), {'gfr_55l_72s'})
+        p = self.paragraph('093', 'p011')
+        self.assertEqual(self.ids(p, '審食其'), {'qg7_n12_fne'})
+        self.assertEqual(self.ids(p, '趙堯'), {'afb_ahe_sqp'})
+        self.assertEqual(self.ids(self.paragraph('093', 'p017'), '勃'), {'koy_6jg_gcc'})
+        self.assertIn('徙御史大夫周昌為趙相', self.paragraph('096', 'p006')['text'])
+        self.assertIn('遂拜趙堯為御史大夫', self.paragraph('096', 'p007')['text'])
+        self.assertIn('勃遷為太尉', self.paragraph('057', 'p004')['text'])
