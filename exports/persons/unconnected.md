@@ -1661,7 +1661,6 @@
 | `b5q_cso_92n` | 子孔 | [《史記・鄭世家》][24] | [JSON](b5q_cso_92n.json) |
 | `b5v_sfz_r1u` | 石乞（白公死士） | [《史記・楚世家》][22] | [JSON](b5v_sfz_r1u.json) |
 | `b63_kmr_qa6` | 盧蒲嫳 | [《史記・齊太公世家》][14] | [JSON](b63_kmr_qa6.json) |
-| `b63_rxr_c4f` | 蒯通 | [《史記・高祖本紀》][8] | [JSON](b63_rxr_c4f.json) |
 | `b6b_x4q_wih` | 皇仆 | [《史記・周本紀》][4] | [JSON](b6b_x4q_wih.json) |
 | `b6e_72d_vqf` | 楚王莊舄故事 | [《史記・張儀列傳》][52] | [JSON](b6e_72d_vqf.json) |
 | `b6f_0d0_nbx` | 韓王（田世家煮棗議論未名者） | [《史記・田敬仲完世家》][28] | [JSON](b6f_0d0_nbx.json) |
@@ -2230,6 +2229,7 @@
 | `ew3_ltd_qbv` | 鹵公孺 | [《史記・游俠列傳》][106] | [JSON](ew3_ltd_qbv.json) |
 | `ewb_7x8_5z2` | 中行文子 | [《史記・魏世家》][26] | [JSON](ewb_7x8_5z2.json) |
 | `ewk_5mw_a5n` | 晉襄父（本文用字） | [《史記・魯周公世家》][15] | [JSON](ewk_5mw_a5n.json) |
+| `ex1_pps_iby` | 江陵王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](ex1_pps_iby.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

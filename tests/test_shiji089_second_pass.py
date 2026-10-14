@@ -55,3 +55,24 @@ class ZhangerIdentityTests(unittest.TestCase):
             self.assertTrue(any(m['surface']=='壽' and m['person_id']=='agx_sqm_4ou_AB' for m in p['mentions']))
             self.assertTrue(any(m['surface']=='侈' and m['person_id']=='agx_sqm_4ou_AC' for m in p['mentions']))
         self.assertIn('新都侯',a['text']);self.assertIn('信都侯',b['text']);self.assertIn('信諸侯',b['text'])
+    def test_kuaitong_origins_remain_separate_source_claims(self):
+        for n,end,surface in [('089','p008','蒯通'),('092','p014','蒯通'),('092','p018','蒯通')]:
+            p=self.paragraph(n,end)
+            self.assertTrue(any(m['surface']==surface and m['person_id']=='x9q_ghs_z2s' for m in p['mentions']))
+        places=[]
+        for n in ['089','092']:
+            places.extend(x for x in json.loads((ROOT/f'corpus/shiji/{n}-addresses.json').read_text())['assertions'] if x['person_id']=='x9q_ghs_z2s')
+        self.assertEqual({x['place']['source_name'] for x in places},{'范陽','齊'})
+        self.assertTrue(all(x['relation']=='biographical_origin' and x['place']['modern_identification'] is None for x in places))
+    def test_lvhou_death_keeps_day_and_uses_distinct_year_reference(self):
+        d=json.loads((ROOT/'corpus/shiji/009-life-events.json').read_text())['events']
+        e=next(e for e in d if e['id']=='le-shiji009-020')
+        self.assertEqual(e['date_expression'],'辛巳')
+        self.assertEqual((e['normalized_date']['era_year'],e['normalized_date']['precision']),(180,'year'))
+        self.assertNotIn('month',e['normalized_date'])
+        self.assertTrue(any('八年十月' in r['quote'] for r in e['normalized_date']['references']))
+        d=json.loads((ROOT/'corpus/shiji/089-life-events.json').read_text())['events']
+        e=next(e for e in d if e['id']=='le-shiji089-009')
+        self.assertIsNone(e['date_expression'])
+        self.assertEqual(e['normalized_date']['era_year'],180)
+        self.assertEqual(e['normalized_date']['basis']['kind'],'parallel_event')

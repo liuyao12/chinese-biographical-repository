@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ex1_pps_iby` | 江陵王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](ex1_pps_iby.json) |
 | `exl_e7q_rma` | 車丞相未詳名 | [《史記・張丞相列傳》][78] | [JSON](exl_e7q_rma.json) |
 | `ey4_td6_sc4` | 嫘祖 | [《史記・五帝本紀》][1] | [JSON](ey4_td6_sc4.json) |
 | `ey5_6f2_7to` | 李哆 | [《史記・大宛列傳》][105] | [JSON](ey5_6f2_7to.json) |
@@ -486,7 +485,6 @@
 | `i30_zix_o1p` | 項梁 | [《史記・絳侯周勃世家》][39] | [JSON](i30_zix_o1p.json) |
 | `i35_als_hdv` | 蕢聵 | [《史記・仲尼弟子列傳》][49] | [JSON](i35_als_hdv.json) |
 | `i37_l7b_6n8` | 菑川王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](i37_l7b_6n8.json) |
-| `i3c_26z_spn` | 蒯通 | [《史記・張耳陳餘列傳》][71] | [JSON](i3c_26z_spn.json) |
 | `i3q_5yn_aat` | 餘（衛共伯） | [《史記・衛康叔世家》][19] | [JSON](i3q_5yn_aat.json) |
 | `i3q_rxz_ou9` | 赤（秦將被虜者） | [《史記・晉世家》][21] | [JSON](i3q_rxz_ou9.json) |
 | `i45_w2y_9x9` | 晉悼公 | [《史記・匈奴列傳》][92] | [JSON](i45_w2y_9x9.json) |
@@ -1932,7 +1930,6 @@
 | `s07_jue_39p` | 章邯 | [《史記・黥布列傳》][73] | [JSON](s07_jue_39p.json) |
 | `s0b_5z2_duo` | 秦泗川監平 | [《史記・高祖本紀》][8] | [JSON](s0b_5z2_duo.json) |
 | `s0i_apu_j6d` | 樂頎 | [《史記・孔子世家》][29] | [JSON](s0i_apu_j6d.json) |
-| `s0q_xk9_ho8` | 蒯通 | [《史記・田儋列傳》][76] | [JSON](s0q_xk9_ho8.json) |
 | `s13_zwm_7o1` | 蕭何 | [《史記・酈生陸賈列傳》][79] | [JSON](s13_zwm_7o1.json) |
 | `s1i_t3j_lne` | 秦繆 | [《史記・貨殖列傳》][111] | [JSON](s1i_t3j_lne.json) |
 | `s1z_cdi_4i4` | 俞跗傳說引文候選 | [《史記・扁鵲倉公列傳》][87] | [JSON](s1z_cdi_4i4.json) |
@@ -2238,6 +2235,10 @@
 | `tzq_88y_69k` | 衛長公主 | [《史記・孝武本紀》][12] | [JSON](tzq_88y_69k.json) |
 | `tzz_9l9_f83` | 王容 | [《史記・趙世家》][25] | [JSON](tzz_9l9_f83.json) |
 | `u0a_lyv_mx6` | 教周勃引公主為證之獄吏 | [《史記・絳侯周勃世家》][39] | [JSON](u0a_lyv_mx6.json) |
+| `u1j_dr2_488` | 潘尪（楚入鄭盟者） | [《史記・楚世家》][22] | [JSON](u1j_dr2_488.json) |
+| `u20_r6q_88g` | 安國少季 | [《史記・南越列傳》][95] | [JSON](u20_r6q_88g.json) |
+| `u25_mhc_xap` | 楊喜 | [《史記・項羽本紀》][7] | [JSON](u25_mhc_xap.json) |
+| `u2c_fe5_16n` | 唐勒 | [《史記・屈原賈生列傳》][66] | [JSON](u2c_fe5_16n.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

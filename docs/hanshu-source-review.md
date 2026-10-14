@@ -9,3 +9,11 @@
 固定來源：https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_001.txt
 
 SHA256：`d0fdd46d5d2e50f67e8c9969b6e826ffabca70b803478c4d0fa64071dfa5239f`。未核影像，未完成全文核讀，未提交完整來源轉錄。
+
+## 維基文庫公開正文候選：2026-10-14
+
+另核讀[〈高帝紀〉固定修訂2647884](https://zh.wikisource.org/w/index.php?title=漢書/卷001&oldid=2647884)。固定頁與HTML位元組可讀，HTTP 200，共129103位元組，SHA256為`05ec633884adb662c9cd64c13444e41784336050b040dc4b3e6c0c596f353091`。研究暫存HTML不提交入庫。
+
+卷首正文明示姓劉氏、沛豐邑中陽里人，沒有直接名邦句；不以模型記憶填本名，Kanripo所見荀悅注名邦仍屬另一見證的注文。來源頁將東漢作品列公有領域，數位文字列[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)，後續轉錄保留固定來源與[貢獻者署名鏈](https://zh.wikisource.org/w/index.php?title=漢書/卷001&action=history)。此項聲明不替代Kanripo授權核讀，也不表示已核可靠底本影像。
+
+已建立116個HTML段落節點的候選清單，包含「漢五年以後為下」說明與段末權利模板；這不是116段已驗證古籍正文。分節標題、非段落區塊、注文與正文層仍須完整核對，尚未開始正式人物標註或全文匯入。原字與空白保留，尚不依另一見證校字。
