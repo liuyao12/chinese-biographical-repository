@@ -517,7 +517,6 @@
 | `3la_fcr_q0l` | 武涉 | [《史記・項羽本紀》][7]、[《史記・高祖本紀》][8] | [JSON](3la_fcr_q0l.json) |
 | `3lq_bkx_u08` | 易牙 | [《史記・齊太公世家》][14] | [JSON](3lq_bkx_u08.json) |
 | `3lq_wm9_1ov` | 田子方 | [《史記・魏世家》][26] | [JSON](3lq_wm9_1ov.json) |
-| `3lw_vex_s0b` | 長沙哀王 | [《史記・黥布列傳》][73] | [JSON](3lw_vex_s0b.json) |
 | `3lx_052_bv0` | 秦王反間未名 | [《史記・魏公子列傳》][59] | [JSON](3lx_052_bv0.json) |
 | `3m0_o0z_l0l` | 盧綰 | [《史記・荊燕世家》][33] | [JSON](3m0_o0z_l0l.json) |
 | `3mb_c4b_fqg` | 季康子 | [《史記・仲尼弟子列傳》][49] | [JSON](3mb_c4b_fqg.json) |
@@ -2229,6 +2228,7 @@
 | `ezo_kwy_dw4` | 饕餮 | [《史記・五帝本紀》][1] | [JSON](ezo_kwy_dw4.json) |
 | `ezp_adc_v7h` | 檮杌 | [《史記・五帝本紀》][1] | [JSON](ezp_adc_v7h.json) |
 | `ezu_to5_b2p` | 孟增 | [《史記・秦本紀》][5] | [JSON](ezu_to5_b2p.json) |
+| `f08_kt7_a71` | 公子虔 | [《史記・商君列傳》][50] | [JSON](f08_kt7_a71.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

@@ -39,7 +39,7 @@ class QingbuIdentityTests(unittest.TestCase):
         ids = lambda surface: {m['person_id'] for p in d['paragraphs'] for m in p['mentions']
                                if m['surface'] == surface and m['person_id']}
         self.assertEqual(ids('番君'), {'o0l_em5_5v9'})
-        self.assertEqual(ids('長沙哀王'), {'3lw_vex_s0b'})
+        self.assertEqual(ids('長沙哀王'), {'o0l_em5_5v9_A'})
         self.assertNotEqual(ids('其女'), ids('愛姬'))
         self.assertIn('六年，布與劉賈入九江', self.paragraph('091', 'p010')['text'])
 
@@ -127,3 +127,17 @@ class QingbuIdentityTests(unittest.TestCase):
         assertions = json.loads((ROOT / 'corpus/shiji/091-assertions.json').read_text())['assertions']
         self.assertFalse(any(a['subject_person_id'] == 'zxd_afr_2xg'
                              and a['object_person_id'] == 'p3l_pp3_n6i' for a in assertions))
+
+    def test_changsha_king_keeps_received_reading_and_commentary_difference(self):
+        chapter = self.chapter('091')
+        p = self.paragraph('091', 'p017')
+        self.assertIn('長沙哀王', p['text'])
+        self.assertTrue(any(m['surface'] == '長沙哀王'
+                            and m['person_id'] == 'o0l_em5_5v9_A' for m in p['mentions']))
+        self.assertIn('吳芮子臣為長沙王', self.paragraph('009', 'p003')['text'])
+        variant = next(v for v in chapter['annotation']['reported_variants']
+                       if v['id'] == 'rv-shiji091-changsha-cheng')
+        self.assertEqual((variant['received_reading'], variant['reported_reading']), ('哀王', '成王'))
+        self.assertFalse(variant['adopted'])
+        self.assertFalse(variant['image_verified'])
+        self.assertIn('芮之孫固', variant['note'])

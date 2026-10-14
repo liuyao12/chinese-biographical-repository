@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f08_kt7_a71` | 公子虔 | [《史記・商君列傳》][50] | [JSON](f08_kt7_a71.json) |
 | `f0b_vw6_d85` | 熊勝（楚先祖） | [《史記・楚世家》][22] | [JSON](f0b_vw6_d85.json) |
 | `f0l_i51_7ek` | 張丑（楚威王說客） | [《史記・楚世家》][22] | [JSON](f0l_i51_7ek.json) |
 | `f16_k0n_4q2` | 枚皋 | [《史記・平津侯主父列傳》][94] | [JSON](f16_k0n_4q2.json) |
@@ -2238,6 +2237,7 @@
 | `u7n_hyp_nqf` | 孫臏 | [《史記・孫子吳起列傳》][47] | [JSON](u7n_hyp_nqf.json) |
 | `u7o_pk8_4ra` | 楊干（悼公弟） | [《史記・晉世家》][21] | [JSON](u7o_pk8_4ra.json) |
 | `u7v_btk_ix4` | 羅（孔氏宦者） | [《史記・衛康叔世家》][19] | [JSON](u7v_btk_ix4.json) |
+| `u8l_tag_llb` | 賈生（引文作者） | [《史記・秦始皇本紀》][6] | [JSON](u8l_tag_llb.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
