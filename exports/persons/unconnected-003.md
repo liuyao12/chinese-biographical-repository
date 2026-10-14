@@ -639,7 +639,6 @@
 | `y1m_88m_n1b` | 虢叔 | [《史記・鄭世家》][24] | [JSON](y1m_88m_n1b.json) |
 | `y1q_rxv_87u` | 楚王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](y1q_rxv_87u.json) |
 | `y1s_5hf_3lv` | 子服景伯 | [《史記・仲尼弟子列傳》][49] | [JSON](y1s_5hf_3lv.json) |
-| `y2h_l5o_9qj` | 蒙毅 | [《史記・李斯列傳》][69] | [JSON](y2h_l5o_9qj.json) |
 | `y38_ic5_9vk` | 卜齮 | [《史記・魯周公世家》][15] | [JSON](y38_ic5_9vk.json) |
 | `y39_cg2_ep7` | 春申 | [《史記・貨殖列傳》][111] | [JSON](y39_cg2_ep7.json) |
 | `y3l_45z_mfp` | 帝辛 | [《史記・太史公自序》][112] | [JSON](y3l_45z_mfp.json) |
