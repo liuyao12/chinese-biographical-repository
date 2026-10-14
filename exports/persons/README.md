@@ -1198,16 +1198,6 @@
 
 </details>
 
-<details><summary><code>gh3_d07_hkt</code> 韓說（韓信盧綰列傳候選）（3 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 韓說 | [《史記・韓信盧綰列傳》][75] | [JSON](gh3_d07_hkt.json) |
-| `*A` | 韓曾 | [《史記・韓信盧綰列傳》][75] | [JSON](gh3_d07_hkt_%2AA.json) |
-| `A` | 韓說子未名 | [《史記・韓信盧綰列傳》][75] | [JSON](gh3_d07_hkt_A.json) |
-
-</details>
-
 <details><summary><code>ghg_5p7_q21</code> 遂（杞釐公）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1518,7 +1508,7 @@
 
 </details>
 
-<details><summary><code>l9e_fbr_36a</code> 倉（韓世家襄王候選）（6 名）</summary>
+<details><summary><code>l9e_fbr_36a</code> 倉（韓世家襄王候選）（9 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1528,6 +1518,9 @@
 | `*AAA` | 韓嬰 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAAA.json) |
 | `*AB` | 韓穨當 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAB.json) |
 | `*AB*A` | 韓嫣 | [《史記・佞幸列傳》][107] | [JSON](l9e_fbr_36a_%2AAB%2AA.json) |
+| `*AB*B` | 韓說 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAB%2AB.json) |
+| `*AB*B*A` | 韓曾 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAB%2AB%2AA.json) |
+| `*AB*BA` | 韓說子未名 | [《史記・韓信盧綰列傳》][75] | [JSON](l9e_fbr_36a_%2AAB%2ABA.json) |
 
 </details>
 
