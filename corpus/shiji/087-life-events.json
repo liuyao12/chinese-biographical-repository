@@ -293,7 +293,53 @@
       ],
       "interpretation_note": "保存本篇死亡原語及敘述範圍；來源所傳不等於史實已獨立確證，未核書影，未知日期不補，不由死亡終止全部官爵。留三日是本段行程間隔，不換算死亡日期。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 207,
+        "year": -206,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "留三日，趙高詐詔衛士，令士皆素服持兵內鄉，入告二世曰：「山東群盜兵大至！」二世上觀而見之，恐懼，高既因劫令自殺。引璽而佩之，左右百官莫從；上殿，殿欲壞者三。高自知天弗與，群臣弗許，乃召始皇弟，授之璽。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-087-lisi",
+            "source_id": "s-shiji-087-lisi",
+            "paragraph_id": "c-shiji-087-lisi:p035",
+            "quote": "留三日，趙高詐詔衛士，令士皆素服持兵內鄉，入告二世曰：「山東群盜兵大至！」二世上觀而見之，恐懼，高既因劫令自殺。引璽而佩之，左右百官莫從；上殿，殿欲壞者三。高自知天弗與，群臣弗許，乃召始皇弟，授之璽。",
+            "person_mention_id": "c-shiji-087-lisi:m035-0023"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·六國年表》原紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三趙高反，二世自殺，高立二世兄子嬰。子嬰立，剌殺高，夷三族。諸侯入秦，嬰降，為項羽所殺。尋誅羽，天下屬漢。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r270-c01"
+          },
+          {
+            "title": "《史記·六國年表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "207",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r270-c00"
+          }
+        ],
+        "rationale": "限年表開頭三年趙高反、二世自殺與本篇劫令自殺事件對讀；格內後附「尋誅羽」不是同一年，不能據該格把所有後續事件一律定前207年。 西元數字取固定數位年表編者附加對照，不是正文原有西元；未核書影，只到年，不換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "高既因劫令自殺",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "三趙高反，二世自殺，高立二世兄子嬰。子嬰立，剌殺高，夷三族。諸侯入秦，嬰降，為項羽所殺。尋誅羽，天下屬漢。",
+          "reference_year_quote": "207"
+        }
+      }
     },
     {
       "id": "le-shiji087-011",

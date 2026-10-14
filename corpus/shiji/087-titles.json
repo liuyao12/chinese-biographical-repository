@@ -408,7 +408,7 @@
       "id": "th-shiji087-010",
       "person_id": "ao3_0fy_d45_AAA",
       "title": "皇帝",
-      "kind": "royal_rank",
+      "kind": "imperial_rank",
       "mode": "grant",
       "status": "source_attested",
       "evidence": [
@@ -442,7 +442,52 @@
               "paragraph_id": "c-shiji-087-lisi:p009",
               "quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 221,
+            "year": -220,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-087-lisi",
+                "source_id": "s-shiji-087-lisi",
+                "paragraph_id": "c-shiji-087-lisi:p009",
+                "quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記·六國年表》原紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "二十六。王賁擊齊，虜王建。初并天下，立為皇帝。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r256-c01"
+              },
+              {
+                "title": "《史記·六國年表》數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "221",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r256-c00"
+              }
+            ],
+            "rationale": "以并天下尊皇帝的同一立號事件對讀；不把「二十餘年」當精確任期，不由死亡填稱號終點。 西元數字取固定數位年表編者附加對照，不是正文原有西元；未核書影，只到年，不換算月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "尊主為皇帝",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "二十六。王賁擊齊，虜王建。初并天下，立為皇帝。",
+              "reference_year_quote": "221"
+            }
+          }
         },
         "end": {
           "status": "unknown",
@@ -842,8 +887,8 @@
       "id": "th-shiji087-020",
       "person_id": "ao3_0fy_d45_AAAA",
       "title": "二世皇帝",
-      "kind": "royal_rank",
-      "mode": "grant",
+      "kind": "imperial_rank",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -867,7 +912,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
@@ -876,7 +921,52 @@
               "paragraph_id": "c-shiji-087-lisi:p018",
               "quote": "使者還報，胡亥、斯、高大喜。至咸陽，發喪，太子立為二世皇帝。以趙高為郎中令，常侍中用事。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 210,
+            "year": -209,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "使者還報，胡亥、斯、高大喜。至咸陽，發喪，太子立為二世皇帝。以趙高為郎中令，常侍中用事。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-087-lisi",
+                "source_id": "s-shiji-087-lisi",
+                "paragraph_id": "c-shiji-087-lisi:p018",
+                "quote": "使者還報，胡亥、斯、高大喜。至咸陽，發喪，太子立為二世皇帝。以趙高為郎中令，常侍中用事。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記·六國年表》原紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r267-c01"
+              },
+              {
+                "title": "《史記·六國年表》數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "210",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r267-c00"
+              }
+            ],
+            "rationale": "同一襲位事件在始皇三十七年格，次格才為二世元年；不以元年替即位年，不以同段九月葬始皇定即位月。 西元數字取固定數位年表編者附加對照，不是正文原有西元；未核書影，只到年，不換算月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "太子立為二世皇帝",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+              "reference_year_quote": "210"
+            }
+          }
         },
         "end": {
           "status": "unknown",

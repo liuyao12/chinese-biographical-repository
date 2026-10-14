@@ -50,6 +50,23 @@ class LisiEvidenceTests(unittest.TestCase):
         self.assertIn('引述不等於親聞口授', han['rationale'])
         self.assertFalse(han['human_reviewed'])
 
+    def test_accession_is_not_the_following_regnal_year_or_burial_month(self):
+        titles = {h['id']: h for h in self.read('titles', 'holdings')}
+        hu = titles['th-shiji087-020']
+        self.assertEqual(hu['mode'], 'accession')
+        self.assertEqual(hu['kind'], 'imperial_rank')
+        date = hu['effective_period']['start']['normalized_date']
+        self.assertEqual(date['era_year'], 210)
+        self.assertEqual(date['year'], -209)
+        self.assertNotIn('month', date)
+        self.assertIn('子胡亥立，為二世皇帝', date['basis']['reference_event_quote'])
+        self.assertNotIn('normalized_date', titles['th-shiji087-018']['effective_period']['start'])
+        self.assertEqual(titles['th-shiji087-010']['effective_period']['start']['normalized_date']['era_year'], 221)
+        death = next(e for e in self.read('life-events', 'events') if e['id'] == 'le-shiji087-010')
+        self.assertEqual(death['normalized_date']['era_year'], 207)
+        self.assertEqual(hu['effective_period']['end']['status'], 'unknown')
+        self.assertIn('不能據該格把所有後續事件一律定', death['normalized_date']['rationale'])
+
     def test_qin_king_scopes_distinguish_departure_from_successor(self):
         chapter = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
         paragraphs = {p['id'].rsplit(':', 1)[1]: p for p in chapter['paragraphs']}
