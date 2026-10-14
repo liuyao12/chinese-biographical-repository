@@ -49,6 +49,13 @@ def build(root=ROOT):
             period = x.get('effective_period',{}); bounds=[]
             for key in ('start','end'):
                 z=period.get(key,{}); d=z.get('normalized_date') or {}; value=d.get('era_year')
+                try:
+                    from .date_ranges import year_range_label
+                except ImportError:
+                    from date_ranges import year_range_label
+                if z.get('normalized_date_range'):
+                    bounds.append(year_range_label(z['normalized_date_range']))
+                    continue
                 bounds.append((f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定')
             titles.append(dict(x, period=' → '.join(bounds)))
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]

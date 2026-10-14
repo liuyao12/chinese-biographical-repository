@@ -83,7 +83,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const titleDateSources = x => !full ? '' : [['start', '始年'], ['end', '終年']].map(([key, label]) => {
     const dates = new Map();
     for (const period of x.date_periods) {
-      const date = period?.[key]?.normalized_date;
+      const date = period?.[key]?.normalized_date || period?.[key]?.normalized_date_range;
       const refs = Array.isArray(date?.references) ? date.references.filter(r => r?.quote) : [];
       if (refs.length) dates.set(JSON.stringify([date.original_quote, date.rationale, refs]), {date, refs});
     }
