@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ujh_hyp_nxm` | 太史公署稱 | [《史記・吳王濞列傳》][88] | [JSON](ujh_hyp_nxm.json) |
-| `ujq_cg1_bc8` | 田巴 | [《史記・魏豹彭越列傳》][72] | [JSON](ujq_cg1_bc8.json) |
 | `uk3_s1y_7c7` | 呉回（楚篇祖系） | [《史記・楚世家》][22] | [JSON](uk3_s1y_7c7.json) |
 | `ukp_lkb_cb5` | 主父偃 | [《史記・孝景本紀》][11] | [JSON](ukp_lkb_cb5.json) |
 | `ula_wqu_naa` | 剛武侯（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](ula_wqu_naa.json) |
@@ -437,7 +435,6 @@
 | `xky_ebm_pdy` | 薄太后 | [《史記・吳王濞列傳》][88] | [JSON](xky_ebm_pdy.json) |
 | `xli_xkc_ts4` | 魯襄公 | [《史記・孔子世家》][29] | [JSON](xli_xkc_ts4.json) |
 | `xlp_ihc_qm9` | 辛廖 | [《史記・魏世家》][26] | [JSON](xlp_ihc_qm9.json) |
-| `xlt_9ml_n9i` | 魏公子未詳名（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](xlt_9ml_n9i.json) |
 | `xlz_fdt_se1` | 竇嬰夫人未名 | [《史記・魏其武安侯列傳》][89] | [JSON](xlz_fdt_se1.json) |
 | `xma_4rf_v7v` | 中行文子 | [《史記・趙世家》][25] | [JSON](xma_4rf_v7v.json) |
 | `xmb_506_d88` | 胡傷（本文讀法） | [《史記・秦本紀》][5] | [JSON](xmb_506_d88.json) |

@@ -712,7 +712,6 @@
 | `4we_dkh_dzr` | 賈華（伐屈者） | [《史記・晉世家》][21] | [JSON](4we_dkh_dzr.json) |
 | `4wh_yve_8ul` | 景快 | [《史記・秦本紀》][5]、[《史記・楚世家》][22] | [JSON](4wh_yve_8ul.json) |
 | `4xh_zzy_gyn` | 太史公 | [《史記・屈原賈生列傳》][66] | [JSON](4xh_zzy_gyn.json) |
-| `4xv_p1u_vn2` | 高后 | [《史記・韓信盧綰列傳》][75] | [JSON](4xv_p1u_vn2.json) |
 | `4y3_xk6_8vs` | 富辰 | [《史記・周本紀》][4] | [JSON](4y3_xk6_8vs.json) |
 | `4yg_ete_09a` | 柴武 | [《史記・淮南衡山列傳》][100] | [JSON](4yg_ete_09a.json) |
 | `4ym_j77_5al` | 胥童（晉姬兄） | [《史記・晉世家》][21] | [JSON](4ym_j77_5al.json) |
@@ -2229,6 +2228,7 @@
 | `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][111] | [JSON](f4b_rfz_gs1.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
 | `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
+| `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

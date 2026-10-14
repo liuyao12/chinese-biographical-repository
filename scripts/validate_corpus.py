@@ -390,6 +390,21 @@ def validate(root=ROOT):
                         observed.add(hit[0])
                         check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
+                reading = decision.get('preferred_reading')
+                if reading is not None:
+                    anchor = mentions.get(reading.get('person_mention_id')) if isinstance(reading, dict) else None
+                    variants = [v for cid in allowed for v in chapters[cid]['annotation'].get('reported_variants', [])]
+                    variant = next((v for v in variants if isinstance(reading, dict) and v['id'] == reading.get('variant_id')), None)
+                    check(isinstance(reading, dict) and set(reading) == {'person_mention_id', 'received_surface', 'preferred_surface', 'source_spelling_is_not_alias', 'variant_id', 'status', 'rationale'}
+                          and bool(anchor) and bool(variant)
+                          and anchor[1] == variant['paragraph_id']
+                          and anchor[2]['person_id'] == decision['person_id']
+                          and anchor[2]['surface'] == reading['received_surface'] == variant['received_reading']
+                          and reading['preferred_surface'] == variant['reported_reading']
+                          and decision['person_id'] in variant['person_ids']
+                          and reading['source_spelling_is_not_alias'] is True
+                          and reading['status'] == 'editorial_provisional' and bool(reading['rationale'])
+                          and decision.get('human_reviewed') is False, '人物首選校讀須有同段異文、人物錨點及明示別名限制')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
                 if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
         for path in (root/'corpus').glob('*/*-distinctions.json'):

@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
 | `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
@@ -1959,7 +1958,6 @@
 | `sm1_q0n_pla` | 鄒之孤引古未名 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](sm1_q0n_pla.json) |
 | `smf_oqj_91f` | 王黃 | [《史記・荊燕世家》][33] | [JSON](smf_oqj_91f.json) |
 | `smh_yhl_b8t` | 薄吾 | [《史記・扁鵲倉公列傳》][87] | [JSON](smh_yhl_b8t.json) |
-| `smi_qcr_wtg` | 呂后 | [《史記・韓信盧綰列傳》][75] | [JSON](smi_qcr_wtg.json) |
 | `smu_ylv_x6g` | 虞舜 | [《史記・趙世家》][25] | [JSON](smu_ylv_x6g.json) |
 | `sn2_w9y_1ls` | 南宮括 | [《史記・周本紀》][4] | [JSON](sn2_w9y_1ls.json) |
 | `sng_c8u_vn9` | 宰予 | [《史記・仲尼弟子列傳》][49] | [JSON](sng_c8u_vn9.json) |
@@ -2238,6 +2236,8 @@
 | `uiz_ljv_jv9` | 華陽夫人姊未名 | [《史記・呂不韋列傳》][67] | [JSON](uiz_ljv_jv9.json) |
 | `uj5_nzw_pnc` | 酈生 | [《史記・田儋列傳》][76] | [JSON](uj5_nzw_pnc.json) |
 | `ujc_hbe_sle` | 庸職 | [《史記・齊太公世家》][14] | [JSON](ujc_hbe_sle.json) |
+| `ujh_hyp_nxm` | 太史公署稱 | [《史記・吳王濞列傳》][88] | [JSON](ujh_hyp_nxm.json) |
+| `ujq_cg1_bc8` | 田巴 | [《史記・魏豹彭越列傳》][72] | [JSON](ujq_cg1_bc8.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

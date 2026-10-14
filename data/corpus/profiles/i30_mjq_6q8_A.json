@@ -321,6 +321,14 @@
       "quote": "所，曰：『弟舉兵，吾從此助公。』信乃謀與家臣夜詐詔赦諸官徒奴，欲發以襲呂后、太子。部署已定，待豨報。其舍人得罪於信，信囚，欲殺之。舍人弟上變，告信欲反狀於呂后。呂后欲召，恐其黨不就，乃與蕭相國謀，詐令人從上所來，言豨已得死，列侯群臣皆賀。相國紿信曰：『雖疾，彊入賀。』信入，"
     },
     {
+      "number": 93,
+      "category": "liezhuan",
+      "title": "韓信盧綰列傳第三十三",
+      "paragraph_id": "c-shiji-093-hanlu:p011",
+      "count": 6,
+      "quote": "其幸臣曰：「非劉氏而王，獨我與長沙耳。往年春，漢族淮陰，夏，誅彭越，皆呂后計。今上病，屬任呂后。呂后婦人，專欲以事誅異姓王者及大功臣。」乃遂稱病不行。其左右皆亡匿。語頗泄，辟陽侯聞之，歸具報上，上益怒。又得匈奴降者，降者言張勝亡在匈奴，為燕使。於是上曰：「盧綰果反矣！」使樊"
+    },
+    {
       "number": 99,
       "category": "liezhuan",
       "title": "劉敬叔孫通列傳第三十九",
@@ -735,6 +743,30 @@
           ],
           "extraction_note": "固定HTML一致，只去外緣空白；去腳註[1]，明記連囂恢復連敖及弃轉棄。髙、襍、涂地、（休）與隨（何）等原字括號保留。",
           "note": "全27段正文與HTML篇界已讀；未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-093-hanlu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-093",
+      "source_id": "s-shiji-093-hanlu",
+      "source": {
+        "title": "史記／卷093",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷093",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
+        "revision_id": 368019,
+        "accessed_on": "2026-10-09",
+        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
+          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
         }
       }
     },
@@ -1283,6 +1315,18 @@
       "attestation_id": "th-shiji110-149:a001",
       "date_role": "attestation",
       "title": "高后"
+    }
+  ],
+  "preferred_readings": [
+    {
+      "person_mention_id": "c-shiji-093-hanlu:m012-0032",
+      "received_surface": "高祖",
+      "preferred_surface": "高后",
+      "source_spelling_is_not_alias": true,
+      "variant_id": "rv-shiji093-gaohou",
+      "status": "editorial_provisional",
+      "rationale": "本段高后時、會高后病、為欲置酒見之承接高后主語；三家註數位正文作高后竟崩，首選此讀而保原字，不把該字當呂后真實別名。",
+      "decision_id": "d-shiji093-preferred-gaohou"
     }
   ],
   "name_components": [],
@@ -1858,5 +1902,25 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-shiji093-gaohou",
+      "paragraph_id": "c-shiji-093-hanlu:p012",
+      "person_ids": [
+        "i30_mjq_6q8_A",
+        "eav_dh2_8o8"
+      ],
+      "source_term": "高祖竟崩",
+      "received_reading": "高祖",
+      "reported_reading": "高后",
+      "commentator": "《史記三家註》數位正文（不是注家語）",
+      "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，爲欲置酒見之。高后竟崩，不得見。盧綰妻亦病死。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷093&oldid=2514763",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "revision_id": 2514763
+    }
+  ]
 }
