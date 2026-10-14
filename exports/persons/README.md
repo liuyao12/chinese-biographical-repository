@@ -2622,7 +2622,7 @@
 | `AAAAAAAAAAAAABAAA` | 秦靈公 | [《史記・秦本紀》][5] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAA.json) |
 | `AAAAAAAAAAAAABAAAA` | 秦獻公 | [《史記・秦本紀》][5] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAA.json) |
 | `AAAAAAAAAAAAABAAAAA` | 秦孝公 | [《史記・商君列傳》][50] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAA.json) |
-| `AAAAAAAAAAAAABAAAAAA` | 秦惠王 | [《史記・楚世家》][22] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAA.json) |
+| `AAAAAAAAAAAAABAAAAAA` | 秦惠王 | [《史記・張儀列傳》][52] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAA.json) |
 | `AAAAAAAAAAAAABAAAAAAA` | 秦武王 | [《史記・樗里子甘茂列傳》][53] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA.json) |
 | `AAAAAAAAAAAAABAAAAAAB` | 秦惠王女（燕太子婦） | [《史記・燕召公世家》][16] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAAAAAAB.json) |
 | `AAAAAAAAAAAAABAB` | 秦簡公 | [《史記・秦本紀》][5] | [JSON](y97_huh_vuz_AAAAAAAAAAAAABAB.json) |
@@ -2971,6 +2971,7 @@
 [49]: https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003
 [50]: https://zh.wikisource.org/w/index.php?title=史記/卷068&oldid=8764712
 [51]: https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145
+[52]: https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148
 [53]: https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152
 [55]: https://zh.wikisource.org/w/index.php?title=史記/卷073&oldid=7909285
 [57]: https://zh.wikisource.org/w/index.php?title=史記/卷075&oldid=1965692
