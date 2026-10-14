@@ -311,3 +311,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `kind: work` 表示確定為作品的名稱；保存原提及ID、Unicode位置、原稱、`person_id: null` 及已登記的 `work_id`，XML 對應 `<title ref="…">`。不得以作品名開人物卡，也不能把確定書名假作未定人物。既有誤標轉類時保留原錨點並移除人物別名／證據中的該次引用；其他同字人物提及不變。
 
 僅在來源被提到的作品以 `status: referenced_only`、空 `books` 及 `reference_attestations` 登記。證據含來源、篇、段、書名錨點及完整原文；不表示收錄全文、作者已核定或傳本篇次已校勘。閱讀器以書名呈現，沒有AI辨識或不明確人物卡。
+
+## 每人 JSON 的姓名組件
+
+`person_source_bundle.name_components` 匯出已記錄的 `surname`、`ming`、`additional_names` 及身份辨認用 `title`，直接供家譜程式解析。每項保留原句、篇、段、判讀狀態與未經人工審閱標記，並附 `work_id`、`book_id`、`chapter_id`、`source_id`。其引文及人物須確實出現在所指段落，該段也收進 `passages`；沒有姓名組件時省略此欄，不從名字字數自行拆姓。
+
+頂部 `title` 只供身份辨認，不代表全部敘事時點都持該稱號。各次授爵、持職與用稱時段仍以 `title_holdings` 為準；多項姓名判讀並存，不能把編者拆分當原文明示或已經人工核定。

@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `u7n_hyp_nqf` | 孫臏 | [《史記・孫子吳起列傳》][47] | [JSON](u7n_hyp_nqf.json) |
-| `u7o_pk8_4ra` | 楊干（悼公弟） | [《史記・晉世家》][21] | [JSON](u7o_pk8_4ra.json) |
-| `u7v_btk_ix4` | 羅（孔氏宦者） | [《史記・衛康叔世家》][19] | [JSON](u7v_btk_ix4.json) |
 | `u8l_tag_llb` | 賈生（引文作者） | [《史記・秦始皇本紀》][6] | [JSON](u8l_tag_llb.json) |
 | `u99_jp0_vbq` | 衛孺 | [《史記・衛將軍驃騎列傳》][93] | [JSON](u99_jp0_vbq.json) |
 | `u9a_n9v_y7z` | 呂尚 | [《史記・游俠列傳》][106] | [JSON](u9a_n9v_y7z.json) |
@@ -598,7 +595,6 @@
 | `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][9] | [JSON](y6w_obg_omu.json) |
 | `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][27] | [JSON](y6x_wmu_o70.json) |
 | `y6z_6wd_ezf` | 龍且 | [《史記・田儋列傳》][76] | [JSON](y6z_6wd_ezf.json) |
-| `y70_ech_q74` | 滕公 | [《史記・黥布列傳》][73] | [JSON](y70_ech_q74.json) |
 | `y7w_938_ch8` | 兒寬 | [《史記・平津侯主父列傳》][94] | [JSON](y7w_938_ch8.json) |
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][24] | [JSON](y81_o3y_nw3.json) |
 | `y81_z0r_svc` | 左人郢 | [《史記・仲尼弟子列傳》][49] | [JSON](y81_z0r_svc.json) |

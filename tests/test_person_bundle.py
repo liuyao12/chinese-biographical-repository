@@ -3,6 +3,26 @@ from scripts.person_bundle import bundle
 
 
 class PersonBundleTests(unittest.TestCase):
+    def test_name_components_are_machine_readable_and_have_source_ids(self):
+        result = bundle('li9_cmb_8ci', include_provisional=True)
+        name = next(n for n in result['name_components'] if n['person_id'] == 'li9_cmb_8ci')
+        self.assertEqual((name['surname'], name['ming']), ('夏侯', '嬰'))
+        self.assertEqual((name['work_id'], name['book_id']), ('w-shiji', 'b-shiji-095'))
+        passage = next(p for p in result['passages'] if p['id'] == name['paragraph_id'])
+        self.assertIn(name['quote'], passage['text'])
+        self.assertEqual(passage['source_id'], name['source_id'])
+
+    def test_name_components_reject_another_persons_passage(self):
+        import copy
+        from scripts.person_bundle import load_catalog
+        catalog = copy.deepcopy(load_catalog())
+        names = next(r for r in catalog[1] if r.get('record_type') == 'person_name_component_set')['records']
+        name = next(n for n in names if n['person_id'] == 'li9_cmb_8ci')
+        chapter = next(r for r in catalog[1] if r.get('record_type') == 'marked_chapter' and r['id'] == name['chapter_id'])
+        paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p022'))
+        name.update(paragraph_id=paragraph['id'], quote=paragraph['text'])
+        with self.assertRaisesRegex(ValueError, '姓名組件'):
+            bundle('li9_cmb_8ci', include_provisional=True, catalog=catalog)
     def test_zhangyi_dated_tenures_do_not_turn_point_duration_into_total(self):
         result = bundle('uq6_74z_vtv', include_provisional=True)
         holdings = {h['id']:h for h in result['title_holdings']}

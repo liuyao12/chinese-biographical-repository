@@ -10,6 +10,10 @@ ROOT = Path(__file__).resolve().parents[1]
 def load_catalog(root=ROOT):
     people = {p['id']: p for p in json.loads((root / 'registry/persons.json').read_text())['persons']}
     records = [json.loads(path.read_text()) for path in sorted((root / 'corpus').glob('*/*.json'))]
+    name_path = root / 'data/corpus/profile-names.json'
+    if name_path.exists():
+        records.append({'record_type': 'person_name_component_set',
+                        'records': json.loads(name_path.read_text())['records']})
     return people, records
 
 
@@ -31,6 +35,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             ids = expanded
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
     mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
+    name_components = []
     chapters, paragraphs = {}, {}
     for record in records:
         kind = record.get('record_type')
@@ -53,8 +58,22 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             person_events.extend(e for e in record['events'] if e['person_id'] in ids)
         elif kind == 'title_holding_assertion_set':
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
+        elif kind == 'person_name_component_set':
+            name_components.extend(n for n in record['records'] if n['person_id'] in ids)
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
+    enriched_names = []
+    for name in name_components:
+        hit = paragraphs.get(name.get('paragraph_id'))
+        if (not hit or hit[0]['id'] != name.get('chapter_id')
+                or not isinstance(name.get('quote'), str) or not name['quote']
+                or name['quote'] not in hit[1]['text']
+                or not any(m.get('person_id') == name['person_id'] for m in hit[1]['mentions'])):
+            raise ValueError('姓名組件缺有效人物與來源引句')
+        chapter = hit[0]
+        enriched_names.append(dict(name, work_id=chapter['work_id'],
+                                   book_id=chapter['book_id'], source_id=chapter['source_id']))
+    name_components = enriched_names
     date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
                       for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
     try:
@@ -95,6 +114,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
     paragraph_ids = {m['paragraph_id'] for m in mentions}
+    paragraph_ids.update(n['paragraph_id'] for n in name_components)
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
@@ -159,6 +179,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
+            **({'name_components': name_components} if name_components else {}),
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),
             **({'life_event_date_decisions': date_decisions, 'selected_life_event_dates': selected_life_dates} if date_decisions else {}),
