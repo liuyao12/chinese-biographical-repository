@@ -185,6 +185,8 @@ def validate(root=ROOT):
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
                         check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
+                    elif m['kind'] == 'work':
+                        check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
             if any('annotation_status' in p for p in d['paragraphs']):
                 for p in d['paragraphs']:
@@ -217,13 +219,26 @@ def validate(root=ROOT):
                 if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
-                check(all(e.tag in ('persName','rs') for e in x),'XML 含未知正文標籤')
+                check(all(e.tag in ('persName','rs','title') for e in x),'XML 含未知正文標籤')
                 for e,m in zip(xm,p['mentions']):
                     check(e.get('id')==m['id'] and e.text==m['surface'], 'XML 提及錨點不符')
-                    check(e.tag==('persName' if m['kind']=='person' else 'rs'), 'XML 提及類型不符')
-                    check(e.get('ref')==m['person_id'], 'XML 人物引用不符')
+                    check(e.tag==({'person':'persName','work':'title'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
+                    check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
         check(set(chapter_books)==set(chapters), '著作目錄與文本篇清單不符')
+        for wid, work in works.items():
+            if work.get('status') != 'referenced_only':
+                continue
+            evidence = work.get('reference_attestations', [])
+            check(bool(evidence) and not work['books'], '僅被引用著作須有原文證據且不得冒作已匯入正文')
+            for item in evidence:
+                hit = mentions.get(item.get('mention_id'))
+                check(bool(hit) and hit[0] == item.get('chapter_id')
+                      and hit[1] == item.get('paragraph_id')
+                      and hit[2].get('kind') == 'work' and hit[2].get('work_id') == wid
+                      and chapters.get(hit[0], {}).get('source_id') == item.get('source_id')
+                      and paragraphs.get(hit[1], (None, {}))[1].get('text') == item.get('quote'),
+                      '著作登記證據須對應同一書名錨點及完整原文')
         kinship_case_ids = set()
         for chapter in chapters.values():
             for case in chapter['annotation'].get('kinship_interpretation_cases', []):

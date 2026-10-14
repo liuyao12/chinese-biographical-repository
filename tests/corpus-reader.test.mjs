@@ -32,3 +32,13 @@ test('body names open readable profiles with the exact source paragraph context'
   assert.match(html,/person\.html\?chapter=6&amp;passage=c-shiji-006-synthetic%3Ap002#synthetic_person/);
   assert.doesNotMatch(html,/github\.com/);
 });
+
+test('book title keeps its anchor and does not open a person profile', () => {
+  const chapter = JSON.parse(readFileSync(new URL('../corpus/shiji/063.json', import.meta.url)));
+  const paragraph = chapter.paragraphs.find(p => p.id.endsWith(':p011'));
+  const html = chapterParagraph(paragraph);
+  assert.match(html, /<cite id="c-shiji-063-laohan:m011-0079" class="cbr-work-mention" data-work-id="w-shenzi"/);
+  assert.doesNotMatch(html, /<a id="c-shiji-063-laohan:m011-0079"/);
+  assert.match(html, /<a id="c-shiji-063-laohan:m011-0044"[^>]*data-person-id="vtn_thh_540"/);
+  assert.equal(html.replace(/<[^>]*>/g, ''), paragraph.text);
+});
