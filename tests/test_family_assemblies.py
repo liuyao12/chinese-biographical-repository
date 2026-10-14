@@ -190,3 +190,44 @@ class FamilyAssembliesTests(unittest.TestCase):
         self.assertEqual(rong['person_id'], source['yqp_nlb_p1p_ACAH']['person_id'])
         self.assertEqual(rong['parent_person_id'], source['yqp_nlb_p1p_ACA']['person_id'])
         self.assertEqual(rong['root_person_id'], source['yqp_nlb_p1p_ACAA']['root_person_id'])
+
+    def test_sibling_shared_ancestor_keeps_two_step_proof_and_missing_father(self):
+        catalog = load_catalog(ROOT)
+        source, rows = load_assemblies(ROOT, catalog)
+        person = source['l9e_fbr_36a_*AB*B']
+        self.assertIsNone(person['parent_person_id'])
+        self.assertIsNone(person['source_assertion_id'])
+        self.assertEqual(person['ancestor_person_id'], 'l9e_fbr_36a_*AB')
+        self.assertEqual(person['intermediate_person_ids'], [None])
+        connection = person['ancestor_connection']
+        self.assertEqual(connection['sibling_assertion_id'], 'a-shiji093-006')
+        self.assertEqual(connection['sibling_ancestor_assertion_id'], 'a-shiji093-005')
+        assertions = [a for r in catalog[1] if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
+        self.assertFalse(any(a['subject_person_id'] == person['person_id'] and a['predicate'] in ['father', 'grandfather'] for a in assertions))
+
+    def test_sibling_shared_ancestor_rejects_false_or_missing_proofs(self):
+        original = json.loads((ROOT / 'registry/family-assemblies.json').read_text())
+        original_catalog = load_catalog(ROOT)
+        for alteration in ['wrong_sibling', 'wrong_ancestor', 'cousin', 'different_father', 'missing_reference',
+                           'false_quote', 'false_url', 'wrong_distance', 'pretend_direct', 'missing_connection']:
+            with self.subTest(alteration=alteration):
+                data = copy.deepcopy(original)
+                catalog = copy.deepcopy(original_catalog)
+                member = next(m for f in data['assemblies'] for m in f['members'] if 'ancestor_connection' in m)
+                connection = member['ancestor_connection']
+                brother = next(a for r in catalog[1] if r.get('record_type') == 'person_assertion_set'
+                               for a in r['assertions'] if a['id'] == connection['sibling_assertion_id'])
+                if alteration == 'wrong_sibling': connection['sibling_person_id'] = member['person_id']
+                if alteration == 'wrong_ancestor': member['ancestor_person_id'] = 'l9e_fbr_36a'
+                if alteration == 'cousin': brother['predicate'] = 'agnatic_cousin'
+                if alteration == 'different_father': brother['qualifiers']['shared_father'] = False
+                if alteration == 'missing_reference': connection['references'].pop()
+                if alteration == 'false_quote': connection['references'][0]['quote'] = '不可核對的引文'
+                if alteration == 'false_url': connection['references'][0]['url'] = 'https://example.com/unrelated'
+                if alteration == 'wrong_distance': member['generation_distance'] = 3
+                if alteration == 'pretend_direct': member['source_assertion_id'] = connection['sibling_ancestor_assertion_id']
+                if alteration == 'missing_connection': member.pop('ancestor_connection')
+                with tempfile.TemporaryDirectory() as folder:
+                    root = Path(folder); (root / 'registry').mkdir()
+                    (root / 'registry/family-assemblies.json').write_text(json.dumps(data))
+                    with self.assertRaises(ValueError): load_assemblies(root, catalog)

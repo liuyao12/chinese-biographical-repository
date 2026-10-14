@@ -32,6 +32,19 @@ export async function traceFamily(person, load) {
     if (kind === 'father' && ids.has(p.assembled_identity?.person_id)) {
       assemblyEdge(p.assembled_identity, p.assembled_identity.parent_person_id);
     }
+    if (['grandfather', 'great_grandfather'].includes(kind)) {
+      const row = p.assembled_identity, connection = row?.ancestor_connection;
+      const id = row?.ancestor_person_id;
+      if (row?.connection === kind && ids.has(row.person_id) && id && !ids.has(id)
+          && !result.has(id) && row.assembly_id
+          && ['editorial_preferred', 'contextual_provisional'].includes(row.status)
+          && connection?.type === 'shared_ancestor_through_sibling'
+          && connection.status === 'contextual_provisional'
+          && connection.rationale && connection.references?.length) {
+        result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
+          evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
+      }
+    }
     if (kind === 'children') {
       for (const row of p.assembled_children || []) {
         if (ids.has(row.parent_person_id)) assemblyEdge(row, row.person_id);

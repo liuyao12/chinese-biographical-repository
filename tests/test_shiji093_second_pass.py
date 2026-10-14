@@ -78,27 +78,27 @@ class HanLuIdentityTests(unittest.TestCase):
         self.assertEqual(self.ids(p, '韓嫣'), {'l9e_fbr_36a_*AB*A'})
         self.assertEqual(self.ids(q, '韓嫣'), {'l9e_fbr_36a_*AB*A'})
         self.assertEqual(self.ids(q, '弓高侯'), {'l9e_fbr_36a_*AB'})
-        self.assertEqual(self.ids(q, '韓說'), {'gh3_d07_hkt'})
-        self.assertEqual(self.ids(p, '說'), {'gh3_d07_hkt'})
+        self.assertEqual(self.ids(q, '韓說'), {'l9e_fbr_36a_*AB*B'})
+        self.assertEqual(self.ids(p, '說'), {'l9e_fbr_36a_*AB*B'})
         self.assertEqual(self.ids(self.paragraph('093', 'p001'), '韓襄王'), {'l9e_fbr_36a'})
 
     def test_sibling_grandfather_is_not_fabricated_as_direct_assertion(self):
         rows = json.loads((ROOT / 'corpus/shiji/093-assertions.json').read_text())['assertions']
         brother = next(x for x in rows if x['id'] == 'a-shiji093-006')
         self.assertEqual((brother['subject_person_id'], brother['object_person_id']),
-                         ('gh3_d07_hkt', 'l9e_fbr_36a_*AB*A'))
-        self.assertFalse(any(x['subject_person_id'] == 'gh3_d07_hkt' and x['predicate'] in ['father', 'grandfather'] for x in rows))
+                         ('l9e_fbr_36a_*AB*B', 'l9e_fbr_36a_*AB*A'))
+        self.assertFalse(any(x['subject_person_id'] == 'l9e_fbr_36a_*AB*B' and x['predicate'] in ['father', 'grandfather'] for x in rows))
 
     def test_zi_dai_is_an_unnamed_son_and_succession_verb(self):
         p = self.paragraph('093', 'p007')
         m = next(x for x in p['mentions'] if x['id'] == 'c-shiji-093-hanlu:m007-0137')
         self.assertEqual(m['surface'], '子')
         self.assertEqual(p['text'][m['end']], '代')
-        self.assertEqual(m['person_id'], 'gh3_d07_hkt_A')
+        self.assertEqual(m['person_id'], 'l9e_fbr_36a_*AB*BA')
         people = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
         child = next(x for x in people if x['id'] == m['person_id'])
         self.assertIn('子未名', child['label'])
-        self.assertEqual(child['family_path']['parent_person_id'], 'gh3_d07_hkt')
+        self.assertEqual(child['family_path']['parent_person_id'], 'l9e_fbr_36a_*AB*B')
         self.assertFalse(any(a['surface'] in ['子代', '代', '長君'] for a in child['aliases']))
         rows = json.loads((ROOT / 'corpus/shiji/093-identities.json').read_text())['decisions']
         ref = next(x for x in rows if x['id'] == 'd-shiji093-032')['references'][0]

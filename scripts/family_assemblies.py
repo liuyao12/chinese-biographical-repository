@@ -23,6 +23,7 @@ def load_assemblies(root, catalog):
     people, records = catalog
     assertions = {a['id']: a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']}
     equivalences = {d['id']: d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']}
+    chapters = {r['id']: r for r in records if r.get('record_type') == 'marked_chapter'}
     source_map, assembled = {}, {}
     for assembly in json.loads(path.read_text())['assemblies']:
         rows = {m['person_id']: m for m in assembly['members']}
@@ -50,11 +51,49 @@ def load_assemblies(root, catalog):
             if ancestor is not None:
                 if parent is not None or ancestor not in rows or ancestor == pid:
                     raise ValueError('缺代組裝祖先或父親欄位無效')
-                assertion = assertions[member['source_assertion_id']]
-                if (assertion['predicate'] != member.get('connection')
-                    or assertion['subject_person_id'] not in ids
-                    or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
-                    raise ValueError('缺代組裝祖孫端點與來源不符')
+                connection = member.get('ancestor_connection')
+                if connection:
+                    if not isinstance(connection, dict):
+                        raise ValueError('同父兄弟祖先組裝格式無效')
+                    sibling = rows.get(connection.get('sibling_person_id'))
+                    brother = assertions.get(connection.get('sibling_assertion_id'))
+                    source = assertions.get(connection.get('sibling_ancestor_assertion_id'))
+                    valid = (connection.get('type') == 'shared_ancestor_through_sibling'
+                             and connection.get('status') == 'contextual_provisional'
+                             and bool(connection.get('rationale'))
+                             and member['source_assertion_id'] is None
+                             and member.get('connection') in ('grandfather', 'great_grandfather')
+                             and bool(sibling) and bool(brother) and bool(source)
+                             and sibling.get('ancestor_person_id') == ancestor
+                             and sibling.get('connection') == member.get('connection')
+                             and sibling.get('generation_distance') == member.get('generation_distance')
+                             and sibling.get('source_assertion_id') == source['id']
+                             and brother_connects(brother, ids, sibling['source_person_ids'])
+                             and source['predicate'] == member.get('connection')
+                             and source['subject_person_id'] in sibling['source_person_ids']
+                             and source['object_person_id'] in rows[ancestor]['source_person_ids'])
+                    proofs = {a['id']: a for a in (brother, source) if a}
+                    refs = connection.get('references', [])
+                    valid = (valid and isinstance(refs, list) and bool(refs)
+                             and all(isinstance(ref, dict) for ref in refs)
+                             and {ref.get('assertion_id') for ref in refs} == set(proofs)
+                             and all(ref.get('scope') and ref.get('url', '').startswith(('https://', 'http://'))
+                                     and any(ref.get('quote') == e['quote']
+                                             and ref.get('paragraph_id') == e['paragraph_id']
+                                             and ref.get('chapter_id') == e['chapter_id']
+                                             and ref.get('source_id') == e['source_id']
+                                             and ref.get('url') in [chapters.get(e['chapter_id'], {}).get('source', {}).get('url'),
+                                                                    chapters.get(e['chapter_id'], {}).get('source', {}).get('permalink')]
+                                             for e in proofs.get(ref.get('assertion_id'), {}).get('evidence', []))
+                                     for ref in refs))
+                    if not valid:
+                        raise ValueError('同父兄弟祖先組裝缺少有效兄弟及祖孫證據')
+                else:
+                    assertion = assertions.get(member['source_assertion_id'])
+                    if (not assertion or assertion['predicate'] != member.get('connection')
+                        or assertion['subject_person_id'] not in ids
+                        or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
+                        raise ValueError('缺代組裝祖孫端點與來源不符')
                 if family_path_errors(pid, member):
                     raise ValueError('缺代組裝 ID 與所記世代距離不符')
                 if not member.get('interpretation_note'):

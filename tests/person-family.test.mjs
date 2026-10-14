@@ -60,3 +60,24 @@ test('a separately attributed sibling assembly derives ancestors and reverse chi
  const wrong=await traceFamily({...people.yi,assembled_identity:{...row,person_id:'other'}},async id=>people[id]);
  assert.deepEqual(wrong.ancestors,[[],[],[]]);
 });
+
+test('shared ancestor through a sibling leaves father empty and traces the next generation', async () => {
+  const connection={type:'shared_ancestor_through_sibling',status:'contextual_provisional',rationale:'Two source relations.',references:[{quote:'Sibling and grandfather evidence.'}]};
+  const a={id:'a',assembled_identity:{person_id:'a',assembly_id:'family',status:'editorial_preferred',connection:'grandfather',parent_person_id:null,ancestor_person_id:'g',ancestor_connection:connection},relations:[]};
+  const g={id:'g',relations:[relation('g','father','h')]};
+  const h={id:'h'};
+  const family=await traceFamily(a,async id=>({g,h})[id]);
+  assert.deepEqual(family.ancestors.map(row=>row.map(x=>x.id)),[[],['g'],['h']]);
+  assert.equal(family.ancestors[1][0].role,'assembly_inferred');
+  assert.equal(family.ancestors[1][0].inference_note,connection.rationale);
+  const grandfather=await traceFamily(g,async id=>({a,h})[id]);
+  assert.deepEqual(grandfather.children,[]);
+});
+test('unreviewed shape or missing evidence does not create a shared ancestor edge', async () => {
+  for (const connection of [{type:'other',status:'contextual_provisional',rationale:'x',references:[{quote:'x'}]},
+                            {type:'shared_ancestor_through_sibling',status:'contextual_provisional',rationale:'x',references:[]}]) {
+    const a={id:'a',assembled_identity:{person_id:'a',assembly_id:'family',status:'editorial_preferred',connection:'grandfather',ancestor_person_id:'g',ancestor_connection:connection}};
+    const family=await traceFamily(a,async()=>({id:'g'}));
+    assert.deepEqual(family.ancestors,[[],[],[]]);
+  }
+});
