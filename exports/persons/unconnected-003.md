@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `trw_uc5_2fn` | 夜食客未名 | [《史記・孟嘗君列傳》][57] | [JSON](trw_uc5_2fn.json) |
-| `ts3_cpa_655` | 公冶長 | [《史記・仲尼弟子列傳》][49] | [JSON](ts3_cpa_655.json) |
 | `tsk_1dl_p70` | 孫子 | [《史記・魏世家》][26] | [JSON](tsk_1dl_p70.json) |
 | `tsu_wyg_g69` | 段（楚篇鄭伯弟） | [《史記・楚世家》][22] | [JSON](tsu_wyg_g69.json) |
 | `tt6_j7v_1k6` | 廬江王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](tt6_j7v_1k6.json) |
@@ -506,7 +504,6 @@
 | `xao_0ow_h3w` | 讓（列侯） | [《史記・淮南衡山列傳》][100] | [JSON](xao_0ow_h3w.json) |
 | `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][22] | [JSON](xbl_kip_rw4.json) |
 | `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][31] | [JSON](xbm_dvk_k14.json) |
-| `xbz_sh0_e2m` | 李斯 | [《史記・老子韓非列傳》][45] | [JSON](xbz_sh0_e2m.json) |
 | `xc9_mc4_cdg` | 欒布 | [《史記・魏其武安侯列傳》][89] | [JSON](xc9_mc4_cdg.json) |
 | `xch_o3n_p09` | 司馬遷 | [《史記・平津侯主父列傳》][94] | [JSON](xch_o3n_p09.json) |
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][26] | [JSON](xcs_h9s_rgw.json) |

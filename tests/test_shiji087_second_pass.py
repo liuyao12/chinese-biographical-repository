@@ -38,6 +38,18 @@ class LisiEvidenceTests(unittest.TestCase):
         self.assertTrue(any('矯王令以誅吳叔' in e['quote'] for e in zhang['evidence']))
         self.assertIn('不把「破逐廣等兵」讀成章邯親手殺吳廣', zhang['rationale'])
 
+    def test_shen_han_are_individuals_and_separator_stays_text(self):
+        chapter = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
+        for end, start in [('p023', 67), ('p025', 228), ('p025', 387)]:
+            p = next(p for p in chapter['paragraphs'] if p['id'].endswith(':' + end))
+            self.assertEqual(p['text'][start:start + 3], '申、韓')
+            ms = [m for m in p['mentions'] if start <= m['start'] < start + 3]
+            self.assertEqual([(m['surface'], m['person_id']) for m in ms], [('申', 'vtn_thh_540'), ('韓', 'n2o_l90_fnm')])
+            self.assertEqual([(m['start'], m['end']) for m in ms], [(start, start + 1), (start + 2, start + 3)])
+        han = next(d for d in self.read('equivalences', 'decisions') if d['id'] == 'eq-shiji087-school-han')
+        self.assertIn('引述不等於親聞口授', han['rationale'])
+        self.assertFalse(han['human_reviewed'])
+
     def test_qin_king_scopes_distinguish_departure_from_successor(self):
         chapter = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
         paragraphs = {p['id'].rsplit(':', 1)[1]: p for p in chapter['paragraphs']}

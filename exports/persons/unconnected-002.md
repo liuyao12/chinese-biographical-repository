@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `et8_4b0_91i` | 逢同 | [《史記・越王勾踐世家》][23] | [JSON](et8_4b0_91i.json) |
 | `euc_oun_w4b` | 悼公（燕惠公後） | [《史記・燕召公世家》][16] | [JSON](euc_oun_w4b.json) |
 | `eug_nzm_5pu` | 霍光 | [《史記・平津侯主父列傳》][94] | [JSON](eug_nzm_5pu.json) |
 | `euw_a6w_5kn` | 熊摯紅（熊渠後繼） | [《史記・楚世家》][22] | [JSON](euw_a6w_5kn.json) |
@@ -1470,7 +1469,6 @@
 | `otx_w5y_yup` | 武引古短稱 | [《史記・屈原賈生列傳》][66] | [JSON](otx_w5y_yup.json) |
 | `ou4_46z_3ks` | 子我 | [《史記・田敬仲完世家》][28] | [JSON](ou4_46z_3ks.json) |
 | `ou9_l91_4py` | 呂相（讓秦使者） | [《史記・晉世家》][21] | [JSON](ou9_l91_4py.json) |
-| `oul_55f_fz3` | 韓子引古未定 | [《史記・李斯列傳》][69] | [JSON](oul_55f_fz3.json) |
 | `oun_g6a_0lp` | 文王 | [《史記・越王勾踐世家》][23] | [JSON](oun_g6a_0lp.json) |
 | `ouo_jje_54i` | 紂 | [《史記・龜策列傳》][110] | [JSON](ouo_jje_54i.json) |
 | `ov2_lva_cb3` | 孫子（兵家列傳） | [《史記・太史公自序》][112] | [JSON](ov2_lva_cb3.json) |
@@ -2238,6 +2236,8 @@
 | `tr7_o55_ijl` | 傅說 | [《史記・游俠列傳》][106] | [JSON](tr7_o55_ijl.json) |
 | `tru_v24_8z8` | 鄒陽 | [《史記・太史公自序》][112] | [JSON](tru_v24_8z8.json) |
 | `trv_ybp_bes` | 呂娥姁 | [《史記・外戚世家》][31] | [JSON](trv_ybp_bes.json) |
+| `trw_uc5_2fn` | 夜食客未名 | [《史記・孟嘗君列傳》][57] | [JSON](trw_uc5_2fn.json) |
+| `ts3_cpa_655` | 公冶長 | [《史記・仲尼弟子列傳》][49] | [JSON](ts3_cpa_655.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

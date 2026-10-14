@@ -1119,7 +1119,6 @@
 | `7gf_eb0_0cd` | 王褒 | [《史記・平津侯主父列傳》][94] | [JSON](7gf_eb0_0cd.json) |
 | `7gg_m5f_ub1` | 孝武皇帝 | [《史記・屈原賈生列傳》][66] | [JSON](7gg_m5f_ub1.json) |
 | `7gs_9lq_cdp` | 萬章 | [《史記・孟子荀卿列傳》][56] | [JSON](7gs_9lq_cdp.json) |
-| `7gw_5nr_iqq` | 荀卿 | [《史記・老子韓非列傳》][45] | [JSON](7gw_5nr_iqq.json) |
 | `7gz_q9f_d37` | 鄭莊公 | [《史記・周本紀》][4] | [JSON](7gz_q9f_d37.json) |
 | `7hd_xs5_eks` | 蚩尤 | [《史記・酈生陸賈列傳》][79] | [JSON](7hd_xs5_eks.json) |
 | `7he_05e_e75` | 叔向（楚篇議子比者） | [《史記・楚世家》][22] | [JSON](7he_05e_e75.json) |
@@ -2231,6 +2230,7 @@
 | `esn_e4u_x5x` | 孫良夫（衛救魯記事） | [《史記・衛康叔世家》][19] | [JSON](esn_e4u_x5x.json) |
 | `esn_fxf_cpj` | 孔忠 | [《史記・仲尼弟子列傳》][49] | [JSON](esn_fxf_cpj.json) |
 | `esz_z17_u3u` | 子之 | [《史記・樂毅列傳》][62] | [JSON](esz_z17_u3u.json) |
+| `et8_4b0_91i` | 逢同 | [《史記・越王勾踐世家》][23] | [JSON](et8_4b0_91i.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
