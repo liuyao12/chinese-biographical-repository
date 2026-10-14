@@ -321,7 +321,6 @@
 | `275_ump_um1` | 趙怱 | [《史記・趙世家》][25]、[《史記・廉頗藺相如列傳》][63] | [JSON](275_ump_um1.json) |
 | `279_znq_bwx` | 荊軻 | [《史記・魏世家》][26] | [JSON](279_znq_bwx.json) |
 | `27q_nw7_jv8` | 田閒 | [《史記・田儋列傳》][76] | [JSON](27q_nw7_jv8.json) |
-| `27r_a47_f8b` | 陳勝 | [《史記・魏豹彭越列傳》][72] | [JSON](27r_a47_f8b.json) |
 | `27v_an7_gp2` | 庶長章 | [《史記・秦本紀》][5] | [JSON](27v_an7_gp2.json) |
 | `27w_87k_66k` | 彭越 | [《史記・田儋列傳》][76] | [JSON](27w_87k_66k.json) |
 | `282_wxp_l9r` | 周公 | [《史記・劉敬叔孫通列傳》][81] | [JSON](282_wxp_l9r.json) |
@@ -1384,7 +1383,6 @@
 | `959_qw8_f4y` | 郭縱（匈奴列傳第52段） | [《史記・匈奴列傳》][92] | [JSON](959_qw8_f4y.json) |
 | `95o_n0j_io3` | 唐山（宋司馬） | [《史記・宋微子世家》][20] | [JSON](95o_n0j_io3.json) |
 | `95o_t1b_ren` | 吳起 | [《史記・陳涉世家》][30] | [JSON](95o_t1b_ren.json) |
-| `975_ptr_1sv` | 呂后 | [《史記・淮陰侯列傳》][74] | [JSON](975_ptr_1sv.json) |
 | `977_am7_t53` | 周成王 | [《史記・趙世家》][25] | [JSON](977_am7_t53.json) |
 | `97g_m2u_raa` | 孔父 | [《史記・鄭世家》][24] | [JSON](97g_m2u_raa.json) |
 | `97h_5h5_tks` | 越妻 | [《史記・南越列傳》][95] | [JSON](97h_5h5_tks.json) |
@@ -2230,6 +2228,8 @@
 | `ewb_7x8_5z2` | 中行文子 | [《史記・魏世家》][26] | [JSON](ewb_7x8_5z2.json) |
 | `ewk_5mw_a5n` | 晉襄父（本文用字） | [《史記・魯周公世家》][15] | [JSON](ewk_5mw_a5n.json) |
 | `ex1_pps_iby` | 江陵王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](ex1_pps_iby.json) |
+| `exl_e7q_rma` | 車丞相未詳名 | [《史記・張丞相列傳》][78] | [JSON](exl_e7q_rma.json) |
+| `ey4_td6_sc4` | 嫘祖 | [《史記・五帝本紀》][1] | [JSON](ey4_td6_sc4.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
