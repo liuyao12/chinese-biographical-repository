@@ -1242,6 +1242,215 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji093-review-wendi",
+      "person_ids": [
+        "yqp_nlb_p1p_AC"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_AC",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu",
+        "c-shiji-010-wendi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p007",
+          "quote": "信之入匈奴，與太子俱；及至穨當城，生子，因名曰穨當。韓太子亦生子，命曰嬰。至孝文十四年，穨當及嬰率其眾降漢。漢封穨當為弓高侯，嬰為襄城侯。吳楚軍時，弓高侯功冠諸將。傳子至孫，孫無子，失侯。嬰孫以不敬失侯。穨當孽孫韓嫣，貴幸，名富顯於當世。其弟說，再封，數稱將軍，卒為案道侯。子代，歲餘坐法死。後歲餘，說孫曾拜為龍頟侯，續說後。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m007-0038"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-010-wendi",
+          "source_id": "s-shiji-010-wendi",
+          "paragraph_id": "c-shiji-010-wendi:p001",
+          "quote": "孝文皇帝，高祖中子也。高祖十一年春，已破陳豨軍，定代地，立為代王，都中都。太后薄氏子。即位十七年，高后八年七月，高后崩。九月，諸呂呂產等欲為亂，以危劉氏，大臣共誅之，謀召立代王，事在呂后語中。",
+          "mention_ids": [
+            "c-shiji-010-wendi:m001-0000",
+            "c-shiji-010-wendi:m001-0030",
+            "c-shiji-010-wendi:m001-0086"
+          ]
+        }
+      ],
+      "rationale": "孝文十四年、穨當嬰降漢的漢初時位與孝文皇帝高祖中子相合；不把十四年當其生年。 只接此處帝諱或引古身份，保原稱與敘述，不從引古補會面、死亡紀年或親屬，不設全域省稱別名。同書不同篇不當獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji093-review-jingdi",
+      "person_ids": [
+        "yqp_nlb_p1p_ACA"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ACA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu",
+        "c-shiji-011-jingdi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p013",
+          "quote": "孝景中六年，盧綰孫他之，以東胡王降，封為亞谷侯。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m013-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p001",
+          "quote": "孝景皇帝者，孝文之中子也。母竇太后。孝文在代時，前后有三男，及竇太后得幸，前后死，及三子更死，故孝景得立。",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m001-0000",
+            "c-shiji-011-jingdi:m001-0048"
+          ]
+        }
+      ],
+      "rationale": "孝景中六年、盧他之降漢的時位與漢孝景皇帝相合。 只接此處帝諱或引古身份，保原稱與敘述，不從引古補會面、死亡紀年或親屬，不設全域省稱別名。同書不同篇不當獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji093-review-zhong",
+      "person_ids": [
+        "gu2_fde_5bw"
+      ],
+      "canonical_person_id": "gu2_fde_5bw",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu",
+        "c-shiji-041-yue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p006",
+          "quote": "漢十年，信令王黃等說誤陳豨。十一年春，故韓王信復與胡騎入居參合，距漢。漢使柴將軍擊之，遺信書曰：「陛下寬仁，諸侯雖有畔亡，而復歸，輒復故位號，不誅也。大王所知。今王以敗亡走胡，非有大罪，急自歸！」韓王信報曰：「陛下擢仆起閭巷，南面稱孤，此仆之幸也。滎陽之事，仆不能死，囚於項籍，此一罪也。及寇攻馬邑，仆不能堅守，以城降之，此二罪也。今反為寇將兵，與將軍爭一旦之命，此三罪也。夫種、蠡無一罪，身死亡；今仆有三罪於陛下，而欲求活於世，此伍子胥所以僨於吳也。今仆亡匿山谷閒，旦暮乞貸蠻夷，仆之思歸，如痿人不忘起，盲者不忘視也，勢不可耳。」遂戰。柴將軍屠參合，斬韓王信。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m006-0188"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-041-yue",
+          "source_id": "s-shiji-041-yue",
+          "paragraph_id": "c-shiji-041-yue:p013",
+          "quote": "范蠡遂去，自齊遺大夫種書曰：「蜚鳥盡，良弓藏；狡兔死，走狗烹。越王爲人長頸鳥喙，可與共患難，不可與共樂。子何不去？」種見書，稱病不朝。人或讒種且作亂，越王乃賜種劍曰：「子教寡人伐呉七術，寡人用其三而敗呉，其四在子，子爲我從先王試之。」種遂自殺。",
+          "mention_ids": [
+            "c-shiji-041-yue:m013-0008",
+            "c-shiji-041-yue:m013-0058",
+            "c-shiji-041-yue:m013-0070",
+            "c-shiji-041-yue:m013-0079",
+            "c-shiji-041-yue:m013-0117"
+          ]
+        }
+      ],
+      "rationale": "種蠡並舉的越君臣引古，古注亦指大夫種范蠡；只接此處種，不推同時同案身亡。 只接此處帝諱或引古身份，保原稱與敘述，不從引古補會面、死亡紀年或親屬，不設全域省稱別名。同書不同篇不當獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji093-review-fanli",
+      "person_ids": [
+        "yhm_h9f_8p0"
+      ],
+      "canonical_person_id": "yhm_h9f_8p0",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu",
+        "c-shiji-041-yue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p006",
+          "quote": "漢十年，信令王黃等說誤陳豨。十一年春，故韓王信復與胡騎入居參合，距漢。漢使柴將軍擊之，遺信書曰：「陛下寬仁，諸侯雖有畔亡，而復歸，輒復故位號，不誅也。大王所知。今王以敗亡走胡，非有大罪，急自歸！」韓王信報曰：「陛下擢仆起閭巷，南面稱孤，此仆之幸也。滎陽之事，仆不能死，囚於項籍，此一罪也。及寇攻馬邑，仆不能堅守，以城降之，此二罪也。今反為寇將兵，與將軍爭一旦之命，此三罪也。夫種、蠡無一罪，身死亡；今仆有三罪於陛下，而欲求活於世，此伍子胥所以僨於吳也。今仆亡匿山谷閒，旦暮乞貸蠻夷，仆之思歸，如痿人不忘起，盲者不忘視也，勢不可耳。」遂戰。柴將軍屠參合，斬韓王信。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m006-0190"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-041-yue",
+          "source_id": "s-shiji-041-yue",
+          "paragraph_id": "c-shiji-041-yue:p020",
+          "quote": "范蠡浮海出齊，變姓名，自謂鴟夷子皮，耕于海畔，苦身戮力，父子治産。居無幾何，致産數十萬。齊人聞其賢，以爲相。范蠡喟然嘆曰：「居家則致千金，居官則至卿相，此布衣之極也。久受尊名，不祥。」乃歸相印，盡散其財，以分與知友鄕黨，而懷其重寶，閒行以去，止于陶，以爲此天下之中，交易有無之路通，爲生可以致富矣。於是自謂陶朱公。復約要父子耕畜，廢居，候時轉物，逐什一之利。居無何，則致貲累巨萬。天下稱陶朱公。",
+          "mention_ids": [
+            "c-shiji-041-yue:m020-0000",
+            "c-shiji-041-yue:m020-0013",
+            "c-shiji-041-yue:m020-0054",
+            "c-shiji-041-yue:m020-0153",
+            "c-shiji-041-yue:m020-0193"
+          ]
+        }
+      ],
+      "rationale": "種蠡引古的越君臣配置，保范蠡離去與種死亡不同，不由身死亡創兩人同案被殺。 只接此處帝諱或引古身份，保原稱與敘述，不從引古補會面、死亡紀年或親屬，不設全域省稱別名。同書不同篇不當獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji093-review-wuzixu",
+      "person_ids": [
+        "g9h_5ih_ug1_A"
+      ],
+      "canonical_person_id": "g9h_5ih_ug1_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p006",
+          "quote": "漢十年，信令王黃等說誤陳豨。十一年春，故韓王信復與胡騎入居參合，距漢。漢使柴將軍擊之，遺信書曰：「陛下寬仁，諸侯雖有畔亡，而復歸，輒復故位號，不誅也。大王所知。今王以敗亡走胡，非有大罪，急自歸！」韓王信報曰：「陛下擢仆起閭巷，南面稱孤，此仆之幸也。滎陽之事，仆不能死，囚於項籍，此一罪也。及寇攻馬邑，仆不能堅守，以城降之，此二罪也。今反為寇將兵，與將軍爭一旦之命，此三罪也。夫種、蠡無一罪，身死亡；今仆有三罪於陛下，而欲求活於世，此伍子胥所以僨於吳也。今仆亡匿山谷閒，旦暮乞貸蠻夷，仆之思歸，如痿人不忘起，盲者不忘視也，勢不可耳。」遂戰。柴將軍屠參合，斬韓王信。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m006-0216"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p019",
+          "quote": "吳太宰嚭既與子胥有隙，因讒曰：「子胥為人剛暴，少恩，猜賊，其怨望恐為深禍也。前日王欲伐齊，子胥以為不可，王卒伐之而有大功。子胥恥其計謀不用，乃反怨望。而今王又復伐齊，子胥專愎彊諫，沮毀用事，徒幸吳之敗以自勝其計謀耳。今王自行，悉國中武力以伐齊，而子胥諫不用，因輟謝，詳病不行。王不可不備，此起禍不難。且嚭使人微伺之，其使於齊也，乃屬其子於齊之鮑氏。夫為人臣，內不得意，外倚諸侯，自以為先王之謀臣，今不見用，常鞅鞅怨望。願王早圖之。」吳王曰：「微子之言，吾亦疑之。」乃使使賜伍子胥屬鏤之劍，曰：「子以此死。」伍子胥仰天嘆曰：「嗟乎！讒臣嚭為亂矣，王乃反誅我。我令若父霸。自若未立時，諸公子爭立，我以死爭之於先王，幾不得立。若既得立，欲分吳國予我，我顧不敢望也。然今若聽諛臣言以殺長者。」乃告其舍人曰：「必樹吾墓上以梓，令可以為器；而抉吾眼縣吳東門之上，以觀越寇之入滅吳也。」乃自剄死。吳王聞之大怒，乃取子胥尸盛以鴟夷革，浮之江中。吳人憐之，為立祠於江上，因命曰胥山。",
+          "mention_ids": [
+            "c-shiji-066-wu:m019-0006",
+            "c-shiji-066-wu:m019-0016",
+            "c-shiji-066-wu:m019-0045",
+            "c-shiji-066-wu:m019-0061",
+            "c-shiji-066-wu:m019-0083",
+            "c-shiji-066-wu:m019-0123",
+            "c-shiji-066-wu:m019-0236",
+            "c-shiji-066-wu:m019-0253",
+            "c-shiji-066-wu:m019-0400"
+          ]
+        }
+      ],
+      "rationale": "完整伍子胥及僨於吳的引古與伍員在吳被誅配置相合，不記韓王信與之會面。 只接此處帝諱或引古身份，保原稱與敘述，不從引古補會面、死亡紀年或親屬，不設全域省稱別名。同書不同篇不當獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

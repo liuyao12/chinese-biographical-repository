@@ -8,7 +8,6 @@
 |---|---|---|---|
 | `00c_o71_46y` | 太史公 | [《史記・傅靳蒯成列傳》][80] | [JSON](00c_o71_46y.json) |
 | `00c_uyw_qpw` | 平陽君 | [《史記・白起王翦列傳》][55] | [JSON](00c_uyw_qpw.json) |
-| `00m_y5g_qwy` | 孝景 | [《史記・韓信盧綰列傳》][75] | [JSON](00m_y5g_qwy.json) |
 | `00r_qjv_0yg` | 鄭當時 | [《史記・魏其武安侯列傳》][89] | [JSON](00r_qjv_0yg.json) |
 | `00z_jmb_pug` | 孔子 | [《史記・田叔列傳》][86] | [JSON](00z_jmb_pug.json) |
 | `01d_17p_p7o` | 匈奴主客（未名，郭吉出使時） | [《史記・匈奴列傳》][92] | [JSON](01d_17p_p7o.json) |
@@ -900,7 +899,6 @@
 | `667_fm8_khs` | 微（商先祖） | [《史記・殷本紀》][3] | [JSON](667_fm8_khs.json) |
 | `66i_9gx_pc4` | 商瞿 | [《史記・仲尼弟子列傳》][49] | [JSON](66i_9gx_pc4.json) |
 | `66l_m67_5ie` | 夏育 | [《史記・范睢蔡澤列傳》][61] | [JSON](66l_m67_5ie.json) |
-| `66o_td0_2ox` | 孝文 | [《史記・韓信盧綰列傳》][75] | [JSON](66o_td0_2ox.json) |
 | `66z_79l_gv6` | 桓公（燕襄公後） | [《史記・燕召公世家》][16] | [JSON](66z_79l_gv6.json) |
 | `67a_vl4_hwv` | 項羽 | [《史記・南越列傳》][95] | [JSON](67a_vl4_hwv.json) |
 | `67d_hkx_fvu` | 越女（楚惠王章母） | [《史記・楚世家》][22] | [JSON](67d_hkx_fvu.json) |
@@ -2229,6 +2227,8 @@
 | `f41_iwq_mkl` | 祖庚 | [《史記・殷本紀》][3] | [JSON](f41_iwq_mkl.json) |
 | `f42_zl0_lkq` | 晉厲公 | [《史記・晉世家》][21] | [JSON](f42_zl0_lkq.json) |
 | `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][111] | [JSON](f4b_rfz_gs1.json) |
+| `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
+| `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
