@@ -119,3 +119,30 @@ class HanLuIdentityTests(unittest.TestCase):
         self.assertIn('范蠡浮海出齊', self.paragraph('041', 'p020')['text'])
         self.assertIn('種遂自殺', self.paragraph('041', 'p013')['text'])
         self.assertIn('乃自剄死', self.paragraph('066', 'p019')['text'])
+
+    def test_life_events_keep_two_hanxin_and_relative_dates_distinct(self):
+        x = json.loads((ROOT / 'corpus/shiji/093-life-events.json').read_text())
+        deaths = {e['person_id']: e for e in x['events'] if e['event_type'] == 'death'}
+        self.assertEqual(len(deaths), 6)
+        self.assertNotIn('ofc_8ei_jb7', deaths)
+        self.assertEqual(deaths['l9e_fbr_36a_*A']['normalized_date']['era_year'], 196)
+        self.assertEqual(deaths['l9e_fbr_36a_*A']['normalized_date']['year'], -195)
+        for pid in ('jjl_irg_zke_A', 'eav_dh2_8o8', 'l9e_fbr_36a_*AB*BA', '1xx_s1v_svn'):
+            self.assertNotIn('normalized_date', deaths[pid])
+        child = deaths['l9e_fbr_36a_*AB*BA']
+        self.assertEqual(child['evidence'][0]['person_mention_id'], 'c-shiji-093-hanlu:m007-0137')
+        self.assertEqual(deaths['1xx_s1v_svn']['date_expression'], '高祖十二年冬')
+
+    def test_tuidang_birth_and_hanxin_death_places_have_original_quotes(self):
+        x = json.loads((ROOT / 'corpus/shiji/093-life-events.json').read_text())
+        birth = next(e for e in x['events'] if e['event_type'] == 'birth')
+        self.assertEqual(birth['person_id'], 'l9e_fbr_36a_*AB')
+        self.assertNotIn('normalized_date', birth)
+        addresses = json.loads((ROOT / 'corpus/shiji/093-addresses.json').read_text())['assertions']
+        b = next(a for a in addresses if a['relation'] == 'birth_place')
+        self.assertEqual(b['person_id'], birth['person_id'])
+        self.assertEqual(b['place']['source_name'], '穨當城')
+        self.assertIsNone(b['place']['modern_identification'])
+        d = next(a for a in addresses if a['place']['source_name'] == '參合')
+        self.assertEqual(d['person_id'], 'l9e_fbr_36a_*A')
+        self.assertEqual(d['relation'], 'death_place')
