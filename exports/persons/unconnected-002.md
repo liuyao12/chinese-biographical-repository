@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eqd_qrh_r6x` | 義帝未詳名 | [《史記・酈生陸賈列傳》][79] | [JSON](eqd_qrh_r6x.json) |
-| `eqh_hzf_78x` | 江充 | [《史記・五宗世家》][41] | [JSON](eqh_hzf_78x.json) |
-| `eqp_oer_tei` | 晉孝侯（楚篇曲沃記事） | [《史記・楚世家》][22] | [JSON](eqp_oer_tei.json) |
 | `eqw_b2i_pp0` | 莊生 | [《史記・越王勾踐世家》][23] | [JSON](eqw_b2i_pp0.json) |
 | `eqw_jou_32v` | 逢侯丑（楚裨將軍） | [《史記・楚世家》][22] | [JSON](eqw_jou_32v.json) |
 | `er5_u4u_i79` | 紀翁主 | [《史記・齊悼惠王世家》][34] | [JSON](er5_u4u_i79.json) |
@@ -171,7 +168,6 @@
 | `fu0_u16_g5t` | 武帝 | [《史記・汲鄭列傳》][102] | [JSON](fu0_u16_g5t.json) |
 | `fu9_7ic_bp3` | 楊得意 | [《史記・司馬相如列傳》][99] | [JSON](fu9_7ic_bp3.json) |
 | `fuq_l6p_4ly` | 原憲 | [《史記・貨殖列傳》][111] | [JSON](fuq_l6p_4ly.json) |
-| `fv2_9nj_8b4` | 韓王被虜未名 | [《史記・刺客列傳》][68] | [JSON](fv2_9nj_8b4.json) |
 | `fva_alg_40j` | 句踐 | [《史記・孔子世家》][29] | [JSON](fva_alg_40j.json) |
 | `fvc_9z0_643` | 淖齒 | [《史記・田敬仲完世家》][28] | [JSON](fvc_9z0_643.json) |
 | `fvc_qlq_6o2` | 韓王 | [《史記・老子韓非列傳》][45] | [JSON](fvc_qlq_6o2.json) |
@@ -2240,6 +2236,10 @@
 | `tj3_uj7_2tc` | 齊明 | [《史記・陳涉世家》][30] | [JSON](tj3_uj7_2tc.json) |
 | `tjg_uab_cmw` | 蔡女（陳文公妻、佗母） | [《史記・陳杞世家》][18] | [JSON](tjg_uab_cmw.json) |
 | `tjx_q6x_kc7` | 墨翟 | [《史記・秦始皇本紀》][6] | [JSON](tjx_q6x_kc7.json) |
+| `tk3_22k_8aq` | 妲己 | [《史記・外戚世家》][31] | [JSON](tk3_22k_8aq.json) |
+| `tk5_g6e_rh8` | 淮南王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](tk5_g6e_rh8.json) |
+| `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][15] | [JSON](tke_fad_hlp.json) |
+| `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][78] | [JSON](tks_56f_4ir.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

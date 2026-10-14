@@ -882,7 +882,7 @@
 |---|---|---|---|
 | `根` | 咎 | [《史記・韓世家》][27] | [JSON](c0i_eah_y59.json) |
 | `A` | 桓惠王 | [《史記・韓世家》][27] | [JSON](c0i_eah_y59_A.json) |
-| `AA` | 安 | [《史記・韓世家》][27] | [JSON](c0i_eah_y59_AA.json) |
+| `AA` | 韓王安 | [《史記・韓世家》][27] | [JSON](c0i_eah_y59_AA.json) |
 
 </details>
 
@@ -1919,8 +1919,8 @@
 |---|---|---|---|
 | `根` | 丹 | [《史記・平原君虞卿列傳》][58] | [JSON](q6w_qm5_w2b.json) |
 | `A` | 偃 | [《史記・趙世家》][25] | [JSON](q6w_qm5_w2b_A.json) |
-| `AA` | 遷 | [《史記・趙世家》][25] | [JSON](q6w_qm5_w2b_AA.json) |
-| `AB` | 嘉 | [《史記・趙世家》][25] | [JSON](q6w_qm5_w2b_AB.json) |
+| `AA` | 趙王遷 | [《史記・趙世家》][25] | [JSON](q6w_qm5_w2b_AA.json) |
+| `AB` | 代王嘉 | [《史記・秦始皇本紀》][6] | [JSON](q6w_qm5_w2b_AB.json) |
 
 </details>
 
