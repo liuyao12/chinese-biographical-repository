@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ubt_idy_jr8` | 公劉 | [《史記・周本紀》][4] | [JSON](ubt_idy_jr8.json) |
-| `uc1_bkc_qho` | 雷被 | [《史記・淮南衡山列傳》][100] | [JSON](uc1_bkc_qho.json) |
-| `uc6_slu_fup` | 蘇秦嫂 | [《史記・蘇秦列傳》][51] | [JSON](uc6_slu_fup.json) |
-| `uc7_aa8_117` | 蒙恬 | [《史記・淮南衡山列傳》][100] | [JSON](uc7_aa8_117.json) |
-| `uc7_nlh_gy2` | 齊王（昭陽攻齊未名者） | [《史記・楚世家》][22] | [JSON](uc7_nlh_gy2.json) |
-| `ucb_60l_f3r` | 公西葴 | [《史記・仲尼弟子列傳》][49] | [JSON](ucb_60l_f3r.json) |
-| `ucb_cb1_qc0` | 田單 | [《史記・趙世家》][25] | [JSON](ucb_cb1_qc0.json) |
-| `ucr_vn0_wb1` | 比車耆（王號暫解） | [《史記・衛將軍驃騎列傳》][93] | [JSON](ucr_vn0_wb1.json) |
-| `ud7_fy7_6vl` | 墨翟 | [《史記・孟子荀卿列傳》][56] | [JSON](ud7_fy7_6vl.json) |
-| `udd_rob_10e` | 亳王 | [《史記・秦本紀》][5] | [JSON](udd_rob_10e.json) |
 | `udi_l0u_sbn` | 衛后 | [《史記・滑稽列傳》][108] | [JSON](udi_l0u_sbn.json) |
 | `udu_dyy_4wd` | 季布 | [《史記・季布欒布列傳》][82] | [JSON](udu_dyy_4wd.json) |
 | `udv_t8d_js3` | 王襄 | [《史記・曹相國世家》][36] | [JSON](udv_t8d_js3.json) |
@@ -750,7 +740,6 @@
 | `zev_jx4_vaz` | 樗里子 | [《史記・穰侯列傳》][54] | [JSON](zev_jx4_vaz.json) |
 | `zex_g0x_52d` | 田子莊何 | [《史記・仲尼弟子列傳》][49] | [JSON](zex_g0x_52d.json) |
 | `zf3_s9n_ty5` | 牙（齊太子） | [《史記・齊太公世家》][14] | [JSON](zf3_s9n_ty5.json) |
-| `zfk_w9y_0b8` | 百里奚（引古） | [《史記・淮陰侯列傳》][74] | [JSON](zfk_w9y_0b8.json) |
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][12] | [JSON](zg6_76t_xid.json) |
 | `zg6_7x0_rlx` | 軒轅 | [《史記・司馬相如列傳》][99] | [JSON](zg6_7x0_rlx.json) |
 | `zgg_ncu_lxg` | 管仲 | [《史記・平津侯主父列傳》][94] | [JSON](zgg_ncu_lxg.json) |

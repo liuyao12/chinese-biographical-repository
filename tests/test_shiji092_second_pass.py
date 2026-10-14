@@ -87,3 +87,35 @@ class HanxinIdentityTests(unittest.TestCase):
         decision = next(x for x in rows if x['id'] == 'eq-shiji092-review-fanli')
         self.assertIn('同案被殺', decision['rationale'])
         self.assertFalse(decision['human_reviewed'])
+
+    def test_prince_is_lvhou_son_and_baili_variant_keeps_received_glyph(self):
+        p = self.paragraph('092', 'p025')
+        self.assertEqual(self.ids(p, '太子'), {'yqp_nlb_p1p_AA'})
+        self.assertIn('生孝惠帝', self.paragraph('009', 'p001')['text'])
+        p = self.paragraph('092', 'p012')
+        self.assertEqual(self.ids(p, '百里奚'), {'ylb_ttg_8dr'})
+        self.assertIn('虞君不用子，故亡', self.paragraph('005', 'p022')['text'])
+        self.assertIn('百里傒', self.paragraph('005', 'p022')['text'])
+
+    def test_ancient_allusions_and_zhou_founders_have_scoped_identities(self):
+        p = self.paragraph('092', 'p020')
+        self.assertEqual(self.ids(p, '舜'), {'ddb_l4j_4j2'})
+        self.assertEqual(self.ids(p, '禹'), {'6ip_dr3_fbl'})
+        self.assertEqual(self.ids(p, '孟賁'), {'dwv_5hn_680'})
+        self.assertEqual(self.ids(self.paragraph('092', 'p026'), '堯'), {'oho_r3f_c6y'})
+        p = self.paragraph('092', 'p027')
+        self.assertEqual(self.ids(p, '周'), {'y4i_pjk_4gn_AD'})
+        self.assertEqual(self.ids(p, '召'), {'7m7_qvm_4oj'})
+        self.assertEqual(self.ids(p, '太公'), {'1g3_02y_oor'})
+        self.assertIn('太公望呂尚', self.paragraph('032', 'p001')['text'])
+        self.assertIn('召公奭', self.paragraph('034', 'p001')['text'])
+        rows = json.loads((ROOT / 'corpus/shiji/092-equivalences.json').read_text())['decisions']
+        meng = next(x for x in rows if x['id'] == 'eq-shiji092-review-mengben')
+        self.assertIn('比同事件弱', meng['rationale'])
+        self.assertFalse(meng['human_reviewed'])
+
+    def test_hanxin_commentary_author_does_not_replace_father_tan(self):
+        p = self.paragraph('092', 'p027')
+        self.assertEqual(self.ids(p, '太史公'), {'pme_eis_xqi_*A*AAAAA'})
+        self.assertEqual(self.ids(self.paragraph('130', 'p004'), '太史公'), {'pme_eis_xqi_*A*AAAA'})
+        self.assertIn('余視其母冢', p['text'])
