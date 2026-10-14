@@ -147,6 +147,27 @@
       },
       "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji037-069",
+      "subject_person_id": "qxa_jm7_zmy_ABAAAAA",
+      "predicate": "father",
+      "object_person_id": "qxa_jm7_zmy_ABAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p048",
+          "quote": "平侯八年卒，子嗣君立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子嗣君",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -154,5 +175,78 @@
     "qxa_jm7_zmy_ABAAAA": "平侯（衛成侯子）",
     "qxa_jm7_zmy_ABAAAAA": "嗣君（衛平侯子）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "qxa_jm7_zmy_ABAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji037-068",
+      "subject_person_id": "qxa_jm7_zmy_ABAAAA",
+      "predicate": "father",
+      "object_person_id": "qxa_jm7_zmy_ABAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p047",
+          "quote": "二十九年，成侯卒，子平侯立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子平侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji037-069",
+      "subject_person_id": "qxa_jm7_zmy_ABAAAAA",
+      "predicate": "father",
+      "object_person_id": "qxa_jm7_zmy_ABAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p048",
+          "quote": "平侯八年卒，子嗣君立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子嗣君",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji037-060",
+      "person_id": "qxa_jm7_zmy_ABAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p048",
+          "quote": "平侯八年卒，子嗣君立。",
+          "person_mention_id": "c-shiji-037-wei:m048-0000"
+        }
+      ],
+      "source_term": "平侯八年卒",
+      "interpretation_note": "死亡主張，原年次及時長保留；回述初不借段首年次，復位後元與此前分開。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

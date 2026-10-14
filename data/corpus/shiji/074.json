@@ -29,12 +29,38 @@
     "status": "named_mentions_first_pass",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全12段明示姓名首輪及部分未名個體，150處錨點、53個新增候選與篇內判讀、11項官爵／用稱及11項跨篇暫同指；全部人物、匿名指代、版本與完整時段未完成覆核。",
+    "coverage": "全12段明示姓名首輪及部分未名個體，150處錨點、53個新增候選與篇內判讀、11項官爵／用稱及11項跨篇暫同指；全部人物、匿名指代、版本與完整時段未完成覆核。第二輪補11項來源地望、3項具名者死亡、1項埋葬、荀卿報齡50與祭酒任用次數3，各次任期起訖未定。",
     "limitations": [
       "孟子書與孟子人稱按局部語境辨別。",
       "孫子、夫子、管晏引古與大王去邠不按記憶補全名。",
       "惠王欲以卿相位待淳于髡而謝去不作已任。",
       "荀卿三為祭酒及蘭陵令廢分存，未核日期不補。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji074-001",
+        "person_id": "wuo_ghc_ajx",
+        "value": 50,
+        "source_number": "五十",
+        "source_term": "年五十",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "birth_year": null,
+        "date_expression": null,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-074-mengxun",
+            "source_id": "s-shiji-074-mengxun",
+            "paragraph_id": "c-shiji-074-mengxun:p011",
+            "quote": "荀卿，趙人。年五十始來游學於齊。騶衍之術迂大而閎辯；奭也文具難施；淳于髡久與處，時有得善言。故齊人頌曰：「談天衍，雕龍奭，炙轂過髡。」田駢之屬皆已死齊襄王時，而荀卿最為老師。齊尚修列大夫之缺，而荀卿三為祭酒焉。齊人或讒荀卿，荀卿乃適楚，而春申君以為蘭陵令。春申君死而荀卿廢，因家蘭陵。李斯嘗為弟子，已而相秦。荀卿嫉濁世之政，亡國亂君相屬，不遂大道而營於巫祝，信禨祥，鄙儒小拘，如莊周等又猾稽亂俗，於是推儒、墨、道德之行事興壞，序列著數萬言而卒。因葬蘭陵。",
+            "person_mention_id": "c-shiji-074-mengxun:m011-0000"
+          }
+        ],
+        "interpretation_note": "本版年五十始來游學於齊保存原詞與數值50，計歲方式及來齊曆年未定，不推生年，未核底本或異文。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
@@ -59,7 +85,7 @@
           "end": 15,
           "surface": "梁惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -105,7 +131,7 @@
           "end": 2,
           "surface": "孟軻",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -151,7 +177,7 @@
           "end": 37,
           "surface": "梁惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -178,7 +204,7 @@
           "end": 84,
           "surface": "齊威王",
           "kind": "person",
-          "person_id": "zdt_mka_khc",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -214,7 +240,7 @@
           "end": 123,
           "surface": "孟軻",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -242,7 +268,7 @@
           "end": 156,
           "surface": "仲尼",
           "kind": "person",
-          "person_id": "nu5_o75_tzs",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -279,7 +305,7 @@
           "end": 10,
           "surface": "騶忌",
           "kind": "person",
-          "person_id": "fs9_9td_byt",
+          "person_id": "drb_gcn_28e",
           "status": "contextual_provisional"
         },
         {
@@ -288,7 +314,7 @@
           "end": 17,
           "surface": "威王",
           "kind": "person",
-          "person_id": "zdt_mka_khc",
+          "person_id": "lmu_nbm_rzo_AAAAAAABAAAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -297,7 +323,7 @@
           "end": 35,
           "surface": "孟子",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         }
       ]
@@ -314,7 +340,7 @@
           "end": 4,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -323,7 +349,7 @@
           "end": 8,
           "surface": "孟子",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -332,7 +358,7 @@
           "end": 11,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -387,7 +413,7 @@
           "end": 4,
           "surface": "騶子",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -396,7 +422,7 @@
           "end": 13,
           "surface": "惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -405,7 +431,7 @@
           "end": 28,
           "surface": "平原君",
           "kind": "person",
-          "person_id": "i02_muu_r2s",
+          "person_id": "03v_bhv_img",
           "status": "contextual_provisional"
         },
         {
@@ -423,7 +449,7 @@
           "end": 82,
           "surface": "仲尼",
           "kind": "person",
-          "person_id": "nu5_o75_tzs",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -432,7 +458,7 @@
           "end": 89,
           "surface": "孟軻",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -477,7 +503,7 @@
           "end": 125,
           "surface": "孔子",
           "kind": "person",
-          "person_id": "y54_2ib_yfh",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -486,7 +512,7 @@
           "end": 131,
           "surface": "梁惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -495,7 +521,7 @@
           "end": 138,
           "surface": "孟軻",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -559,7 +585,7 @@
           "end": 209,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         }
       ]
@@ -576,7 +602,7 @@
           "end": 3,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -595,7 +621,7 @@
           "end": 15,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -604,7 +630,7 @@
           "end": 18,
           "surface": "慎到",
           "kind": "person",
-          "person_id": "0qj_puw_myv",
+          "person_id": "ykw_i8p_jh3",
           "status": "contextual_provisional"
         },
         {
@@ -613,7 +639,7 @@
           "end": 21,
           "surface": "環淵",
           "kind": "person",
-          "person_id": "qo2_xlt_6nu",
+          "person_id": "g6i_kby_l4h",
           "status": "contextual_provisional"
         },
         {
@@ -622,7 +648,7 @@
           "end": 24,
           "surface": "接子",
           "kind": "person",
-          "person_id": "gog_539_j1v",
+          "person_id": "kcn_xi0_lu8",
           "status": "contextual_provisional"
         },
         {
@@ -631,7 +657,7 @@
           "end": 27,
           "surface": "田駢",
           "kind": "person",
-          "person_id": "yt5_lmc_jub",
+          "person_id": "t8b_zxx_6ea",
           "status": "contextual_provisional"
         },
         {
@@ -677,7 +703,7 @@
           "end": 3,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -704,7 +730,7 @@
           "end": 43,
           "surface": "髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -713,7 +739,7 @@
           "end": 47,
           "surface": "梁惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -722,7 +748,7 @@
           "end": 50,
           "surface": "惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -741,7 +767,7 @@
           "end": 68,
           "surface": "惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -768,7 +794,7 @@
           "end": 84,
           "surface": "淳于先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -804,7 +830,7 @@
           "end": 121,
           "surface": "髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -813,7 +839,7 @@
           "end": 123,
           "surface": "髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -822,7 +848,7 @@
           "end": 133,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -831,7 +857,7 @@
           "end": 135,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -840,7 +866,7 @@
           "end": 144,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -849,7 +875,7 @@
           "end": 146,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -867,7 +893,7 @@
           "end": 163,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -876,7 +902,7 @@
           "end": 165,
           "surface": "王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -885,7 +911,7 @@
           "end": 178,
           "surface": "淳于先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -894,7 +920,7 @@
           "end": 188,
           "surface": "淳于先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -912,7 +938,7 @@
           "end": 207,
           "surface": "先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -921,7 +947,7 @@
           "end": 212,
           "surface": "先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -939,7 +965,7 @@
           "end": 229,
           "surface": "先生",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -948,7 +974,7 @@
           "end": 251,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -957,7 +983,7 @@
           "end": 265,
           "surface": "惠王",
           "kind": "person",
-          "person_id": "nvv_s6a_cve",
+          "person_id": "eva_gs1_9n5_AA",
           "status": "contextual_provisional"
         },
         {
@@ -966,7 +992,7 @@
           "end": 274,
           "surface": "髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         }
       ]
@@ -983,7 +1009,7 @@
           "end": 2,
           "surface": "慎到",
           "kind": "person",
-          "person_id": "0qj_puw_myv",
+          "person_id": "ykw_i8p_jh3",
           "status": "contextual_provisional"
         },
         {
@@ -992,7 +1018,7 @@
           "end": 8,
           "surface": "田駢",
           "kind": "person",
-          "person_id": "yt5_lmc_jub",
+          "person_id": "t8b_zxx_6ea",
           "status": "contextual_provisional"
         },
         {
@@ -1001,7 +1027,7 @@
           "end": 11,
           "surface": "接子",
           "kind": "person",
-          "person_id": "gog_539_j1v",
+          "person_id": "kcn_xi0_lu8",
           "status": "contextual_provisional"
         },
         {
@@ -1010,7 +1036,7 @@
           "end": 17,
           "surface": "環淵",
           "kind": "person",
-          "person_id": "qo2_xlt_6nu",
+          "person_id": "g6i_kby_l4h",
           "status": "contextual_provisional"
         },
         {
@@ -1029,7 +1055,7 @@
           "end": 41,
           "surface": "慎到",
           "kind": "person",
-          "person_id": "0qj_puw_myv",
+          "person_id": "ykw_i8p_jh3",
           "status": "contextual_provisional"
         },
         {
@@ -1038,7 +1064,7 @@
           "end": 48,
           "surface": "環淵",
           "kind": "person",
-          "person_id": "qo2_xlt_6nu",
+          "person_id": "g6i_kby_l4h",
           "status": "contextual_provisional"
         },
         {
@@ -1047,7 +1073,7 @@
           "end": 56,
           "surface": "田駢",
           "kind": "person",
-          "person_id": "yt5_lmc_jub",
+          "person_id": "t8b_zxx_6ea",
           "status": "contextual_provisional"
         },
         {
@@ -1056,7 +1082,7 @@
           "end": 59,
           "surface": "接子",
           "kind": "person",
-          "person_id": "gog_539_j1v",
+          "person_id": "kcn_xi0_lu8",
           "status": "contextual_provisional"
         }
       ]
@@ -1092,7 +1118,7 @@
           "end": 14,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         }
       ]
@@ -1118,7 +1144,7 @@
           "end": 12,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -1174,7 +1200,7 @@
           "end": 18,
           "surface": "騶衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -1192,7 +1218,7 @@
           "end": 36,
           "surface": "淳于髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -1201,7 +1227,7 @@
           "end": 56,
           "surface": "衍",
           "kind": "person",
-          "person_id": "k22_9pd_uu4",
+          "person_id": "2ip_ioo_pf7",
           "status": "contextual_provisional"
         },
         {
@@ -1219,7 +1245,7 @@
           "end": 65,
           "surface": "髡",
           "kind": "person",
-          "person_id": "bpl_8yn_rrf",
+          "person_id": "22o_cth_7hm",
           "status": "contextual_provisional"
         },
         {
@@ -1228,7 +1254,7 @@
           "end": 69,
           "surface": "田駢",
           "kind": "person",
-          "person_id": "yt5_lmc_jub",
+          "person_id": "t8b_zxx_6ea",
           "status": "contextual_provisional"
         },
         {
@@ -1302,7 +1328,7 @@
           "end": 122,
           "surface": "春申君",
           "kind": "person",
-          "person_id": "lha_b29_fa5",
+          "person_id": "e79_ty0_mkx",
           "status": "contextual_provisional"
         },
         {
@@ -1311,7 +1337,7 @@
           "end": 131,
           "surface": "春申君",
           "kind": "person",
-          "person_id": "lha_b29_fa5",
+          "person_id": "e79_ty0_mkx",
           "status": "contextual_provisional"
         },
         {
@@ -1458,7 +1484,7 @@
           "end": 49,
           "surface": "孟子",
           "kind": "person",
-          "person_id": "1h5_8jc_qp7",
+          "person_id": "saz_old_5fi",
           "status": "contextual_provisional"
         },
         {
@@ -1495,7 +1521,7 @@
           "end": 89,
           "surface": "孔子",
           "kind": "person",
-          "person_id": "y54_2ib_yfh",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {

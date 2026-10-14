@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "zjm_0fv_ke9",
+  "canonical_person_id": "zjm_0fv_ke9",
+  "label": "周幽王（楚篇候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "周幽王",
+    "幽王"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 40,
+      "category": "shijia",
+      "title": "楚世家第十",
+      "paragraph_id": "c-shiji-040-chu:p010",
+      "count": 2,
+      "quote": "若敖二十年，周幽王爲犬戎所弒，周東徙，而秦襄公始列爲諸侯。二十七年，若敖卒，子熊坎立，是爲霄敖。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-040-chu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-040",
+      "source_id": "s-shiji-040-chu",
+      "source": {
+        "title": "史記／卷040",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷040",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+        "revision_id": 8736796,
+        "accessed_on": "2026-10-09",
+        "extent": "96段正文及1段分層索隱述贊；排除2個dd導覽，去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；僅去除段落外緣空白，古代異體及校勘括號保留。 第70段笔轉筆，未將「西取筆秦」疑句自行校讀。",
+          "note": "全97段數位正文已核讀，人物標註與可靠底本、影像覆核尚未完成；不把數位轉錄當版本校定。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "zjm_0fv_ke9": "周幽王（楚篇候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "zjm_0fv_ke9"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji040-011",
+      "person_id": "zjm_0fv_ke9",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "若敖二十年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p010",
+          "quote": "若敖二十年，周幽王爲犬戎所弒，周東徙，而秦襄公始列爲諸侯。二十七年，若敖卒，子熊坎立，是爲霄敖。",
+          "person_mention_id": "c-shiji-040-chu:m010-0006"
+        }
+      ],
+      "source_term": "周幽王爲犬戎所弒",
+      "interpretation_note": "來源死亡主張，回述不借段首年月；與其他篇章異說分存，數位句讀仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

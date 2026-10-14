@@ -222,5 +222,57 @@
     "rex_cs0_mfo_AAABAAAAAA": "剔成（宋君）",
     "sks_90w_uwt": "偃（宋君）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "sks_90w_uwt"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji038-050",
+      "subject_person_id": "sks_90w_uwt",
+      "predicate": "brother",
+      "object_person_id": "rex_cs0_mfo_AAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p056",
+          "quote": "昭公四十七年卒，子悼公購由立。悼公八年卒，子休公田立。休公田二十三年卒，子辟公辟兵立。辟公三年卒，子剔成立。剔成四十一年，剔成弟偃攻襲剔成，剔成敗奔齊，偃自立爲宋君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "剔成弟偃",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-061",
+      "person_id": "sks_90w_uwt",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "王偃立四十七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p058",
+          "quote": "王偃立四十七年，齊湣王與魏、楚伐宋，殺王偃，遂滅宋而三分其地。",
+          "person_mention_id": "c-shiji-038-song:m058-0000"
+        }
+      ],
+      "source_term": "殺王偃",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

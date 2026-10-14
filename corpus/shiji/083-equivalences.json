@@ -6,9 +6,7 @@
     {
       "id": "eq-shiji083-fan",
       "person_ids": [
-        "zus_do8_z1q",
-        "9mw_pdn_ati",
-        "zuk_pbo_x9s"
+        "zus_do8_z1q"
       ],
       "canonical_person_id": "zus_do8_z1q",
       "scope": "cross_chapter",
@@ -78,15 +76,13 @@
       "rationale": "上書引古范睢摺脅折齒於魏、卒為應侯，與本傳魏齊笞擊折脅摺齒及秦封以應事件相配。穰侯篇范睢張祿為既有canonical端點，沿既有ID對應，不調和各篇任相與授侯紀年。 各篇原字、原文與已發ID保留，同書不視為獨立見證；同指不確證所有紀年、任職、親屬或敘事，不按全域同名批量改號。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "identity_materialized": true
     },
     {
       "id": "eq-shiji083-wuji",
       "person_ids": [
-        "h8u_hld_5su",
-        "07x_xmm_xfa",
-        "6dq_od2_cg1_A",
-        "d9w_fkp_wp3"
+        "h8u_hld_5su"
       ],
       "canonical_person_id": "h8u_hld_5su",
       "scope": "cross_chapter",
@@ -144,14 +140,13 @@
       "rationale": "魏公子無忌救邯鄲、信陵君無忌奪晉鄙軍及本傳公子矯令代晉鄙擊秦救趙為配對事件，姓名、國別與軍隊對象相配，沿既有canonical ID。 各篇原字、原文與已發ID保留，同書不視為獨立見證；同指不確證所有紀年、任職、親屬或敘事，不按全域同名批量改號。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "identity_materialized": true
     },
     {
       "id": "eq-shiji083-jin",
       "person_ids": [
-        "dc4_qnx_hp2",
-        "uoy_51x_n1t",
-        "1a2_o78_c2n"
+        "dc4_qnx_hp2"
       ],
       "canonical_person_id": "dc4_qnx_hp2",
       "scope": "cross_chapter",
@@ -196,7 +191,1476 @@
       "rationale": "魏將晉鄙軍被無忌奪以救趙，三篇同一特定軍隊與邯鄲救援事件相配，沿既有canonical ID。 各篇原字、原文與已發ID保留，同書不視為獨立見證；同指不確證所有紀年、任職、親屬或敘事，不按全域同名批量改號。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-xiaocheng",
+      "person_ids": [
+        "q6w_qm5_w2b"
+      ],
+      "canonical_person_id": "q6w_qm5_w2b",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p002",
+          "quote": "趙孝成王時，而秦王使白起破趙長平之軍前後四十餘萬，秦兵遂東圍邯鄲。趙王恐，諸侯之救兵莫敢擊秦軍。魏安釐王使將軍晉鄙救趙，畏秦，止於蕩陰不進。魏王使客將軍新垣衍閒入邯鄲，因平原君謂趙王曰：「秦所為急圍趙者，前與齊湣王爭彊為帝，已而復歸帝；今齊已益弱，方今唯秦雄天下，此非必貪邯鄲，其意欲復求為帝。趙誠發使尊秦昭王為帝，秦必喜，罷兵去。」平原君猶預未有所決。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m002-0000",
+            "c-shiji-083-luzou:m002-0033",
+            "c-shiji-083-luzou:m002-0089"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p014",
+          "quote": "後四年，趙惠文王卒，子孝成王立。七年，秦與趙兵相距長平，時趙奢已死，而藺相如病篤，趙使廉頗將攻秦，秦數敗趙軍，趙軍固壁不戰。秦數挑戰，廉頗不肯。趙王信秦之間。秦之間言曰：「秦之所惡，獨畏馬服君趙奢之子趙括爲將耳。」趙王因以括爲將，代廉頗。藺相如曰：「王以名使括，若膠柱而鼓瑟耳。括徒能讀其父書傳，不知合變也。」趙王不聽，遂將之。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m014-0011"
+          ]
+        }
+      ],
+      "rationale": "083明名趙孝成王、長平白起破趙後圍邯鄲，081惠文卒子孝成立七年長平敘事相接。 原文及錨點保持，未名人物、引古與說話者各按範圍處理；同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-qinzhao",
+      "person_ids": [
+        "ao3_0fy_d45"
+      ],
+      "canonical_person_id": "ao3_0fy_d45",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p002",
+          "quote": "趙孝成王時，而秦王使白起破趙長平之軍前後四十餘萬，秦兵遂東圍邯鄲。趙王恐，諸侯之救兵莫敢擊秦軍。魏安釐王使將軍晉鄙救趙，畏秦，止於蕩陰不進。魏王使客將軍新垣衍閒入邯鄲，因平原君謂趙王曰：「秦所為急圍趙者，前與齊湣王爭彊為帝，已而復歸帝；今齊已益弱，方今唯秦雄天下，此非必貪邯鄲，其意欲復求為帝。趙誠發使尊秦昭王為帝，秦必喜，罷兵去。」平原君猶預未有所決。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m002-0007",
+            "c-shiji-083-luzou:m002-0152"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p002",
+          "quote": "趙惠文王時，得楚和氏璧。秦昭王聞之，使人遺趙王書，原以十五城請易璧。趙王與大將軍廉頗諸大臣謀：欲予秦，秦城恐不可得，徒見欺；欲勿予，即患秦兵之來。計未定，求人可使報秦者，未得。宦者令繆賢曰：「臣舍人藺相如可使。」王問：「何以知之？」對曰：「臣嘗有罪，竊計欲亡走燕，臣舍人相如止臣，曰：『君何以知燕王？』臣語曰：『臣嘗從大王與燕王會境上，燕王私握臣手，曰「願結友」。以此知之，故欲往。』相如謂臣曰：『夫趙彊而燕弱，而君幸於趙王，故燕王欲結於君。今君乃亡趙走燕，燕畏趙，其勢必不敢留君，而束君歸趙矣。君不如肉袒伏斧質請罪，則幸得脱矣。』臣從其計，大王亦幸赦臣。臣竊以爲其人勇士，有智謀，宜可使。」於是王召見，問藺相如曰：「秦王以十五城請易寡人之璧，可予不？」相如曰：「秦彊而趙弱，不可不許。」王曰：「取吾璧，不予我城，奈何？」相如曰：「秦以城求璧而趙不許，曲在趙。趙予璧而秦不予趙城，曲在秦。均之二策，甯許以負秦曲。」王曰：「誰可使者？」相如曰：「王必無人，臣願奉璧往使。城入趙而璧留秦；城不入，臣請完璧歸趙。」趙王於是遂遣相如奉璧西入秦。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m002-0012"
+          ]
+        }
+      ],
+      "rationale": "083秦王與秦昭王在同段帝秦議中明示同指，081明名秦昭王求趙璧；長平時秦君序與073秦王長平事相接。上書所引昭王另存語境，不將秦皇帝同指。 原文及錨點保持，未名人物、引古與說話者各按範圍處理；同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-baiqi",
+      "person_ids": [
+        "2bk_fz6_icl"
+      ],
+      "canonical_person_id": "2bk_fz6_icl",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-073-baiwang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p002",
+          "quote": "趙孝成王時，而秦王使白起破趙長平之軍前後四十餘萬，秦兵遂東圍邯鄲。趙王恐，諸侯之救兵莫敢擊秦軍。魏安釐王使將軍晉鄙救趙，畏秦，止於蕩陰不進。魏王使客將軍新垣衍閒入邯鄲，因平原君謂趙王曰：「秦所為急圍趙者，前與齊湣王爭彊為帝，已而復歸帝；今齊已益弱，方今唯秦雄天下，此非必貪邯鄲，其意欲復求為帝。趙誠發使尊秦昭王為帝，秦必喜，罷兵去。」平原君猶預未有所決。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m002-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p004",
+          "quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m004-0237"
+          ]
+        }
+      ],
+      "rationale": "083明名白起破趙長平，073明名武安君白起受上將軍、截趙軍糧道，姓名所屬及特定戰役支持同指。 原文及錨點保持，未名人物、引古與說話者各按範圍處理；同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-pingyuan",
+      "person_ids": [
+        "03v_bhv_img"
+      ],
+      "canonical_person_id": "03v_bhv_img",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-076-pingyu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p003",
+          "quote": "此時魯仲連適游趙，會秦圍趙，聞魏將欲令趙尊秦為帝，乃見平原君曰：「事將柰何？」平原君曰：「勝也何敢言事！前亡四十萬之眾於外，今又內圍邯鄲而不能去。魏王使客將軍新垣衍令趙帝秦，今其人在是。勝也何敢言事！」魯仲連曰：「吾始以君為天下之賢公子也，吾乃今然後知君非天下之賢公子也。梁客新垣衍安在？吾請為君責而歸之。」平原君曰：「勝請為紹介而見之於先生。」平原君遂見新垣衍曰：「東國有魯仲連先生者，今其人在此，勝請為紹介，交之於將軍。」新垣衍曰：「吾聞魯仲連先生，齊國之高士也。衍人臣也，使事有職，吾不願見魯仲連先生。」平原君曰：「勝既已泄之矣。」新垣衍許諾。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m003-0027",
+            "c-shiji-083-luzou:m003-0039",
+            "c-shiji-083-luzou:m003-0045",
+            "c-shiji-083-luzou:m003-0093",
+            "c-shiji-083-luzou:m003-0154",
+            "c-shiji-083-luzou:m003-0160",
+            "c-shiji-083-luzou:m003-0173",
+            "c-shiji-083-luzou:m003-0200",
+            "c-shiji-083-luzou:m003-0255",
+            "c-shiji-083-luzou:m003-0261"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-076-pingyu",
+          "source_id": "s-shiji-076-pingyu",
+          "paragraph_id": "c-shiji-076-pingyu:p001",
+          "quote": "平原君趙勝者，趙之諸公子也。諸子中勝最賢，喜賓客，賓客蓋至者數千人。平原君相趙惠文王及孝成王，三去相，三復位，封於東武城。",
+          "mention_ids": [
+            "c-shiji-076-pingyu:m001-0000"
+          ]
+        }
+      ],
+      "rationale": "083平原君在邯鄲圍中自稱勝，076明名平原君趙勝並相惠文孝成；國別爵稱、自稱姓名與君序支持同指。 原文及錨點保持，未名人物、引古與說話者各按範圍處理；同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-min",
+      "person_ids": [
+        "lmu_nbm_rzo_AAAAAAABAAAAAAAA"
+      ],
+      "canonical_person_id": "lmu_nbm_rzo_AAAAAAABAAAAAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-046-tian"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0228",
+            "c-shiji-083-luzou:m007-0370"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p047",
+          "quote": "四十年，燕、秦、楚、三晉合謀，各出鋭師以伐，敗我濟西。王解而卻。燕將樂毅遂入臨淄，盡取齊之寶藏器。湣王出亡，之衞。衞君辟宮捨之，稱臣而共具。湣王不遜，衞人侵之。湣王去，走鄒、魯，有驕色，鄒、魯君弗内，遂走莒。楚使淖齒將兵救齊，因相齊湣王。淖齒遂殺湣王而與燕共分齊之侵地鹵器。",
+          "mention_ids": [
+            "c-shiji-046-tian:m047-0049",
+            "c-shiji-046-tian:m047-0070",
+            "c-shiji-046-tian:m047-0080",
+            "c-shiji-046-tian:m047-0115",
+            "c-shiji-046-tian:m047-0123"
+          ]
+        }
+      ],
+      "rationale": "083湣王不納於鄒魯與046逃亡走鄒魯不納遂莒，君稱、國別與特定逃亡敘事支持同指。 書信及引古語境、原文與錨點各存；不藉同指補未名燕王或調和戰事數目及結果。同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-lifu",
+      "person_ids": [
+        "fo2_the_x22"
+      ],
+      "canonical_person_id": "fo2_the_x22",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-080-leyi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p012",
+          "quote": "且楚攻齊之南陽，魏攻平陸，而齊無南面之心，以為亡南陽之害小，不如得濟北之利大，故定計審處之。今秦人下兵，魏不敢東面；衡秦之勢成，楚國之形危；齊棄南陽，斷右壤，定濟北，計猶且為之也。且夫齊之必決於聊城，公勿再計。今楚魏交退於齊，而燕救不至。以全齊之兵，無天下之規，與聊城共據期年之敝，則臣見公之不能得也。且燕國大亂，君臣失計，上下迷惑，栗腹以十萬之眾五折於外，以萬乘之國被圍於趙，壤削主困，為天下僇笑。國敝而禍多，民無所歸心。今公又以敝聊之民距全齊之兵，是墨翟之守也。食人炊骨，士無反外之心，是孫臏之兵也。能見於天下。雖然，為公計者，不如全車甲以報於燕。車甲全而歸燕，燕王必喜；身全而歸於國，士民如見父母，交游攘臂而議於世，功業可明。上輔孤主以制群臣，下養百姓以資說士，矯國更俗，功名可立也。亡意亦捐燕棄世，東游於齊乎？裂地定封，富比乎陶、衛，世世稱孤，與齊久存，又一計也。此兩計者，顯名厚實也，願公詳計而審處一焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m012-0167"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p015",
+          "quote": "樂閒居燕三十餘年，燕王喜用其相栗腹之計，欲攻趙，而問昌國君樂閒。樂閒曰：「趙，四戰之國也，其民習兵，伐之不可。」燕王不聽，遂伐趙。趙使廉頗擊之，大破栗腹之軍於鄗，禽栗腹、樂乘。樂乘者，樂閒之宗也。於是樂閒奔趙，趙遂圍燕。燕重割地以與趙和，趙乃解而去。",
+          "mention_ids": [
+            "c-shiji-080-leyi:m015-0015",
+            "c-shiji-080-leyi:m015-0074",
+            "c-shiji-080-leyi:m015-0082"
+          ]
+        }
+      ],
+      "rationale": "083書信提栗腹軍敗、燕被趙圍割地與080栗腹被廉頗敗、趙圍燕割地和相接，姓名、所屬與特定戰事後果支持同指。 書信及引古語境、原文與錨點各存；不藉同指補未名燕王或調和戰事數目及結果。同書不作獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-liang",
+      "person_ids": [
+        "yqp_nlb_p1p_ACG"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ACG",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-058-liang",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p001",
+          "quote": "梁孝王武者，孝文皇帝子也，而與孝景帝同母。母，竇太后也。",
+          "mention_ids": [
+            "c-shiji-058-liang:m001-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p006",
+          "quote": "孝王，竇太后少子也，愛之，賞賜不可勝道。於是孝王筑東苑，方三百餘里。廣睢陽城七十里。大治宮室，為複道，自宮連屬於平臺三十餘里。得賜天子旌旗，出從千乘萬騎。東西馳獵，擬於天子。出言蹕，入言警。招延四方豪桀，自山以東游說之士。莫不畢至，齊人羊勝、公孫詭、鄒陽之屬。公孫詭多奇邪計，初見王，賜千金，官至中尉，梁號之曰公孫將軍，梁多作兵器弩弓矛數十萬，而府庫金錢且百巨萬，珠玉寶器多於京師。",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0000",
+            "c-shiji-058-liang:m006-0022"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p015",
+          "quote": "鄒陽者，齊人也。游於梁，與故吳人莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0051",
+            "c-shiji-083-luzou:m015-0055"
+          ]
+        }
+      ],
+      "rationale": "兩篇梁孝王與羊勝、公孫詭、鄒陽在同一賓客群及梁廷關係中相配，國別、王稱與三名人物組合支持同指；058首段明名武，083入獄上書獲釋事件仍以本篇為證。不是該上書或受讒的獨立見證；說話者與別篇勝各分，不按全域同名合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-yangsheng",
+      "person_ids": [
+        "fo7_9ev_cht"
+      ],
+      "canonical_person_id": "fo7_9ev_cht",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-058-liang",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p006",
+          "quote": "孝王，竇太后少子也，愛之，賞賜不可勝道。於是孝王筑東苑，方三百餘里。廣睢陽城七十里。大治宮室，為複道，自宮連屬於平臺三十餘里。得賜天子旌旗，出從千乘萬騎。東西馳獵，擬於天子。出言蹕，入言警。招延四方豪桀，自山以東游說之士。莫不畢至，齊人羊勝、公孫詭、鄒陽之屬。公孫詭多奇邪計，初見王，賜千金，官至中尉，梁號之曰公孫將軍，梁多作兵器弩弓矛數十萬，而府庫金錢且百巨萬，珠玉寶器多於京師。",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0118"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p015",
+          "quote": "鄒陽者，齊人也。游於梁，與故吳人莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0034",
+            "c-shiji-083-luzou:m015-0043"
+          ]
+        }
+      ],
+      "rationale": "兩篇梁孝王與羊勝、公孫詭、鄒陽在同一賓客群及梁廷關係中相配，國別、王稱與三名人物組合支持同指；058首段明名武，083入獄上書獲釋事件仍以本篇為證。不是該上書或受讒的獨立見證；說話者與別篇勝各分，不按全域同名合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-gongsun",
+      "person_ids": [
+        "2bl_b4d_kfg"
+      ],
+      "canonical_person_id": "2bl_b4d_kfg",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-058-liang",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p006",
+          "quote": "孝王，竇太后少子也，愛之，賞賜不可勝道。於是孝王筑東苑，方三百餘里。廣睢陽城七十里。大治宮室，為複道，自宮連屬於平臺三十餘里。得賜天子旌旗，出從千乘萬騎。東西馳獵，擬於天子。出言蹕，入言警。招延四方豪桀，自山以東游說之士。莫不畢至，齊人羊勝、公孫詭、鄒陽之屬。公孫詭多奇邪計，初見王，賜千金，官至中尉，梁號之曰公孫將軍，梁多作兵器弩弓矛數十萬，而府庫金錢且百巨萬，珠玉寶器多於京師。",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0121",
+            "c-shiji-058-liang:m006-0130"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p015",
+          "quote": "鄒陽者，齊人也。游於梁，與故吳人莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0037"
+          ]
+        }
+      ],
+      "rationale": "兩篇梁孝王與羊勝、公孫詭、鄒陽在同一賓客群及梁廷關係中相配，國別、王稱與三名人物組合支持同指；058首段明名武，083入獄上書獲釋事件仍以本篇為證。不是該上書或受讒的獨立見證；說話者與別篇勝各分，不按全域同名合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-zouyang",
+      "person_ids": [
+        "06n_ttw_xgt"
+      ],
+      "canonical_person_id": "06n_ttw_xgt",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-058-liang",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p006",
+          "quote": "孝王，竇太后少子也，愛之，賞賜不可勝道。於是孝王筑東苑，方三百餘里。廣睢陽城七十里。大治宮室，為複道，自宮連屬於平臺三十餘里。得賜天子旌旗，出從千乘萬騎。東西馳獵，擬於天子。出言蹕，入言警。招延四方豪桀，自山以東游說之士。莫不畢至，齊人羊勝、公孫詭、鄒陽之屬。公孫詭多奇邪計，初見王，賜千金，官至中尉，梁號之曰公孫將軍，梁多作兵器弩弓矛數十萬，而府庫金錢且百巨萬，珠玉寶器多於京師。",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0125"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p015",
+          "quote": "鄒陽者，齊人也。游於梁，與故吳人莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0000",
+            "c-shiji-083-luzou:m015-0046",
+            "c-shiji-083-luzou:m015-0068"
+          ]
+        }
+      ],
+      "rationale": "兩篇梁孝王與羊勝、公孫詭、鄒陽在同一賓客群及梁廷關係中相配，國別、王稱與三名人物組合支持同指；058首段明名武，083入獄上書獲釋事件仍以本篇為證。不是該上書或受讒的獨立見證；說話者與別篇勝各分，不按全域同名合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-luzhuang",
+      "person_ids": [
+        "x50_1p7_qkk"
+      ],
+      "canonical_person_id": "x50_1p7_qkk",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-086-cike"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p013",
+          "quote": "且吾聞之，規小睗者不能成榮名，惡小恥者不能立大功。昔者管夷吾射桓公中其鉤，篡也；遺公子糾不能死，怯也；束縛桎梏，辱也。若此三行者，世主不臣而鄉里不通。鄉使管子幽囚而不出，身死而不反於齊，則亦名不免為辱人賤行矣。臧獲且羞與之同名矣，況世俗乎！故管子不恥身在縲紲之中而恥天下之不治，不恥不死公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖，三戰之所亡一朝而復之，天下震動，諸侯驚駭，威加吳、越。若此二士者，非不能成小廉而行小睗也，以為殺身亡軀，絕世滅後，功名不立，非智也。故去感忿之怨，立終身之名；棄忿悁之節，定累世之功。是以業與三王爭流，而名與天壤相獘也。願公擇一而行之。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m013-0238"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p001",
+          "quote": "曹沫者，魯人也，以勇力事魯莊公。莊公好力。曹沫爲魯將，與齊戰，三敗北。魯莊公懼，乃獻遂邑之地以和。猶復以爲將。",
+          "mention_ids": [
+            "c-shiji-086-cike:m001-0012",
+            "c-shiji-086-cike:m001-0016",
+            "c-shiji-086-cike:m001-0035"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p002",
+          "quote": "齊桓公許與魯會于柯而盟。桓公與莊公既盟於壇上，曹沫執匕首劫齊桓公，桓公左右莫敢動，而問曰：「子將何欲？」曹沫曰：「齊彊魯弱，而大國侵魯亦甚矣。今魯城壞即壓齊境，君其圖之。」桓公乃許盡歸魯之侵地。既已言，曹沫投其匕首，下壇，北面就群臣之位，顏色不變，辭令如故。桓公怒，欲倍其約。管仲曰：「不可。夫貪小利以自快，棄信於諸侯，失天下之援，不如與之。」於是桓公乃遂割魯侵地，曹沫三戰所亡地盡復予魯。",
+          "mention_ids": [
+            "c-shiji-086-cike:m002-0015"
+          ]
+        }
+      ],
+      "rationale": "083曹子三敗、與魯君計、壇上劫桓公復地，與086曹沫事魯莊公三敗後柯盟劫齊桓復侵地事件相配，具名臣下與特定盟會支持魯君暫指魯莊公。曹子與曹沫已用同一ID，不另造重複接合；不因此等同曹劌，亦不調和失地五百里與遂邑原語。同書不作獨立見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-qinhuang",
+      "person_ids": [
+        "ao3_0fy_d45_AAA"
+      ],
+      "canonical_person_id": "ao3_0fy_d45_AAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-086-cike"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p023",
+          "quote": "是以聖王制世御俗，獨化於陶鈞之上，而不牽於卑亂之語，不奪於眾多之口。故秦皇帝任中庶子蒙嘉之言，以信荊軻之說，而匕首竊發；周文王獵涇、渭，載呂尚而歸，以王天下。故秦信左右而殺，周用烏集而王。何則？以其能越攣拘之語，馳域外之議，獨觀於昭曠之道也。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m023-0035"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p034",
+          "quote": "遂至秦，持千金之資幣物，厚遺秦王寵臣中庶子蒙嘉。嘉爲先言於秦王曰：「燕王誠振怖大王之威，不敢舉兵以逆軍吏，願舉國爲内臣，比諸侯之列，給貢職如郡縣，而得奉守先王之宗廟。恐懼不敢自陳，謹斬樊於期之頭，及獻燕督亢之地圖，函封，燕王拜送于庭，使使以聞大王，唯大王命之。」秦王聞之，大喜，乃朝服，設九賓，見燕使者咸陽宮。荊軻奉樊於期頭函，而秦舞陽奉地圖柙，以次進。至陛，秦舞陽色變振恐，群臣怪之。荊軻顧笑舞陽，前謝曰：「北蕃蠻夷之鄙人，未嘗見天子，故振慴。願大王少假借之，使得畢使於前。」秦王謂軻曰：「取舞陽所持地圖。」軻既取圖奏之，秦王發圖，圖窮而匕首見。因左手把秦王之袖，而右手持匕首揕之。未至身，秦王驚，自引而起，袖絶。拔劍，劍長，操其室。時惶急，劍堅，故不可立拔。荊軻逐秦王，秦王環柱而走。群臣皆愕，卒起不意，盡失其度。而秦法，群臣侍殿上者不得持尺寸之兵；諸郎中執兵皆陳殿下，非有詔召不得上。方急時，不及召下兵，以故荊軻乃逐秦王。而卒惶急，無以撃軻，而以手共搏之。是時侍醫夏無且以其所奉藥囊提荊軻也。秦王方環柱走，卒惶急，不知所爲，左右乃曰：「王負劍！」負劍，遂拔以撃荊軻，斷其左股。荊軻廢，乃引其匕首以擿秦王，不中，中桐柱。秦王復撃軻，軻被八創。軻自知事不就，倚柱而笑，箕踞以罵曰：「事所以不成者，以欲生劫之，必得約契以報太子也。」於是左右既前殺軻，秦王不怡者良久。已而論功，賞群臣及當坐者各有差，而賜夏無且黃金二百溢，曰：「無且愛我，乃以藥囊提荊軻也。」",
+          "mention_ids": [
+            "c-shiji-086-cike:m034-0014",
+            "c-shiji-086-cike:m034-0029",
+            "c-shiji-086-cike:m034-0131",
+            "c-shiji-086-cike:m034-0239",
+            "c-shiji-086-cike:m034-0262",
+            "c-shiji-086-cike:m034-0278",
+            "c-shiji-086-cike:m034-0296",
+            "c-shiji-086-cike:m034-0334",
+            "c-shiji-086-cike:m034-0337",
+            "c-shiji-086-cike:m034-0411",
+            "c-shiji-086-cike:m034-0449",
+            "c-shiji-086-cike:m034-0502",
+            "c-shiji-086-cike:m034-0512",
+            "c-shiji-086-cike:m034-0575"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p026",
+          "quote": "居頃之，會燕太子丹質秦亡歸燕。燕太子丹者，故嘗質於趙，而秦王政生於趙，其少時與丹驩。及政立爲秦王，而丹質於秦。秦王之遇燕太子丹不善，故丹怨而亡歸。歸而求爲報秦王者，國小，力不能。其後秦日出兵山東以伐齊、楚、三晉，稍蠶食諸侯，且至於燕，燕君臣皆恐禍之至。太子丹患之，問其傅鞠武。武對曰：「秦地遍天下，威脅韓、魏、趙氏，北有甘泉、谷口之固，南有涇、渭之沃，擅巴、漢之饒，右隴、蜀之山，左關、殽之險，民衆而士厲，兵革有餘。意有所出，則長城之南，易水以北，未有所定也。柰何以見陵之怨，欲批其逆鱗哉！」丹曰：「然則何由？」對曰：「請入圖之。」",
+          "mention_ids": [
+            "c-shiji-086-cike:m026-0028",
+            "c-shiji-086-cike:m026-0043",
+            "c-shiji-086-cike:m026-0046",
+            "c-shiji-086-cike:m026-0055",
+            "c-shiji-086-cike:m026-0078"
+          ]
+        }
+      ],
+      "rationale": "083秦皇帝任中庶子蒙嘉之言、信荊軻而匕首發，與086蒙嘉先言、秦王接見荊軻而圖窮匕首見的特定事件相配，暫接秦始皇。此處不是前文長平的秦昭王。同書平行事件不作獨立史實見證；保留秦信左右而殺原句，不據此造始皇被刺殺死亡，也不默改疑文。086明言未至身、秦王擊軻及左右殺軻，兩篇原語各存，底本與異文仍待校勘。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-yandan",
+      "person_ids": [
+        "e3o_2bk_lhm"
+      ],
+      "canonical_person_id": "e3o_2bk_lhm",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-086-cike"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p016",
+          "quote": "臣聞忠無不報，信不見疑，臣常以為然，徒虛語耳。昔者荊軻慕燕丹之義，白虹貫日，太子畏之；衛先生為秦畫長平之事，太白蝕昴，而昭王疑之。夫精變天地而信不喻兩主，豈不哀哉！今臣盡忠竭誠，畢議願知，左右不明，卒從吏訊，為世所疑，是使荊軻、衛先生復起，而燕、秦不悟也。願大王孰察之。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m016-0028",
+            "c-shiji-083-luzou:m016-0038"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p018",
+          "quote": "諺曰：「有白頭如新，傾蓋如故。」何則？知與不知也。故昔樊於期逃秦之燕，藉荊軻首以奉丹之事；王奢去齊之魏，臨城自剄以卻齊而存魏。夫王奢、樊於期非新於齊、秦而故於燕、魏也，所以去二國死兩君者，行合於志而慕義無窮也。是以蘇秦不信於天下，而為燕尾生；白圭戰亡六城，為魏取中山。何則？誠有以相知也。蘇秦相燕，燕人惡之於王，王按劍而怒，食以駃騠；白圭顯於中山，中山人惡之魏文侯，文侯投之以夜光之璧。何則？兩主二臣，剖心坼肝相信，豈移於浮辭哉！",
+          "mention_ids": [
+            "c-shiji-083-luzou:m018-0041"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p026",
+          "quote": "居頃之，會燕太子丹質秦亡歸燕。燕太子丹者，故嘗質於趙，而秦王政生於趙，其少時與丹驩。及政立爲秦王，而丹質於秦。秦王之遇燕太子丹不善，故丹怨而亡歸。歸而求爲報秦王者，國小，力不能。其後秦日出兵山東以伐齊、楚、三晉，稍蠶食諸侯，且至於燕，燕君臣皆恐禍之至。太子丹患之，問其傅鞠武。武對曰：「秦地遍天下，威脅韓、魏、趙氏，北有甘泉、谷口之固，南有涇、渭之沃，擅巴、漢之饒，右隴、蜀之山，左關、殽之險，民衆而士厲，兵革有餘。意有所出，則長城之南，易水以北，未有所定也。柰何以見陵之怨，欲批其逆鱗哉！」丹曰：「然則何由？」對曰：「請入圖之。」",
+          "mention_ids": [
+            "c-shiji-086-cike:m026-0005",
+            "c-shiji-086-cike:m026-0015",
+            "c-shiji-086-cike:m026-0039",
+            "c-shiji-086-cike:m026-0050",
+            "c-shiji-086-cike:m026-0059",
+            "c-shiji-086-cike:m026-0067",
+            "c-shiji-086-cike:m026-0126",
+            "c-shiji-086-cike:m026-0246"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p032",
+          "quote": "於是太子豫求天下之利匕首，得趙人徐夫人匕首，取之百金，使工以藥焠之，以試人，血濡縷，人無不立死者。乃裝爲遣荊卿。燕國有勇士秦舞陽，年十三，殺人，人不敢忤視。乃令秦舞陽爲副。荊軻有所待，欲與倶；其人居遠未來，而爲治行。頃之，未發，太子遲之，疑其改悔，乃復請曰：「日已盡矣，荊卿豈有意哉？丹請得先遣秦舞陽。」荊軻怒，叱太子曰：「何太子之遣？往而不返者，豎子也！且提一匕首入不測之彊秦，仆所以留者，待吾客與倶。今太子遲之，請辭決矣！」遂發。",
+          "mention_ids": [
+            "c-shiji-086-cike:m032-0002",
+            "c-shiji-086-cike:m032-0114",
+            "c-shiji-086-cike:m032-0142",
+            "c-shiji-086-cike:m032-0157",
+            "c-shiji-086-cike:m032-0163",
+            "c-shiji-086-cike:m032-0203"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p034",
+          "quote": "遂至秦，持千金之資幣物，厚遺秦王寵臣中庶子蒙嘉。嘉爲先言於秦王曰：「燕王誠振怖大王之威，不敢舉兵以逆軍吏，願舉國爲内臣，比諸侯之列，給貢職如郡縣，而得奉守先王之宗廟。恐懼不敢自陳，謹斬樊於期之頭，及獻燕督亢之地圖，函封，燕王拜送于庭，使使以聞大王，唯大王命之。」秦王聞之，大喜，乃朝服，設九賓，見燕使者咸陽宮。荊軻奉樊於期頭函，而秦舞陽奉地圖柙，以次進。至陛，秦舞陽色變振恐，群臣怪之。荊軻顧笑舞陽，前謝曰：「北蕃蠻夷之鄙人，未嘗見天子，故振慴。願大王少假借之，使得畢使於前。」秦王謂軻曰：「取舞陽所持地圖。」軻既取圖奏之，秦王發圖，圖窮而匕首見。因左手把秦王之袖，而右手持匕首揕之。未至身，秦王驚，自引而起，袖絶。拔劍，劍長，操其室。時惶急，劍堅，故不可立拔。荊軻逐秦王，秦王環柱而走。群臣皆愕，卒起不意，盡失其度。而秦法，群臣侍殿上者不得持尺寸之兵；諸郎中執兵皆陳殿下，非有詔召不得上。方急時，不及召下兵，以故荊軻乃逐秦王。而卒惶急，無以撃軻，而以手共搏之。是時侍醫夏無且以其所奉藥囊提荊軻也。秦王方環柱走，卒惶急，不知所爲，左右乃曰：「王負劍！」負劍，遂拔以撃荊軻，斷其左股。荊軻廢，乃引其匕首以擿秦王，不中，中桐柱。秦王復撃軻，軻被八創。軻自知事不就，倚柱而笑，箕踞以罵曰：「事所以不成者，以欲生劫之，必得約契以報太子也。」於是左右既前殺軻，秦王不怡者良久。已而論功，賞群臣及當坐者各有差，而賜夏無且黃金二百溢，曰：「無且愛我，乃以藥囊提荊軻也。」",
+          "mention_ids": [
+            "c-shiji-086-cike:m034-0561"
+          ]
+        }
+      ],
+      "rationale": "083燕丹與太子、丹在荊軻奉丹之事與樊於期首的引古敘事相承；086明示燕太子丹，令遣荊卿，蒙嘉引見後荊軻奉樊首並自言報太子，同一行刺事件與姓名稱號支持暫接。白虹貫日及太子畏之仍僅依083，不作兩篇均證；不因此把別段蘇秦所事未名燕王等同丹，也不推定父子或任期日期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-guanzhong",
+      "person_ids": [
+        "h1v_8ap_b9y"
+      ],
+      "canonical_person_id": "h1v_8ap_b9y",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-032-qi",
+        "c-shiji-062-guanyan",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p030",
+          "quote": "桓公之中鉤，詳死以誤管仲，已而載溫車中馳行，亦有高、國內應，故得先入立，發兵距魯。秋，與魯戰于乾時，魯兵敗走，齊兵掩絕魯歸道。齊遺魯書曰：「子糾兄弟，弗忍誅，請魯自殺之。召忽、管仲讎也，請得而甘心醢之。不然，將圍魯。」魯人患之，遂殺子糾于笙瀆。召忽自殺，管仲請囚。桓公之立，發兵攻魯，心欲殺管仲。鮑叔牙曰：「臣幸得從君，君竟以立。君之尊，臣無以增君。君將治齊，即高傒與叔牙足也。君且欲霸王，非管夷吾不可。夷吾所居國國重，不可失也。」於是桓公從之。乃詳為召管仲欲甘心，實欲用之。管仲知之，故請往。鮑叔牙迎受管仲，及堂阜而脫桎梏，齋祓而見桓公。桓公厚禮以為大夫，任政。",
+          "mention_ids": [
+            "c-shiji-032-qi:m030-0010",
+            "c-shiji-032-qi:m030-0088",
+            "c-shiji-032-qi:m030-0127",
+            "c-shiji-032-qi:m030-0145",
+            "c-shiji-032-qi:m030-0196",
+            "c-shiji-032-qi:m030-0202",
+            "c-shiji-032-qi:m030-0227",
+            "c-shiji-032-qi:m030-0238",
+            "c-shiji-032-qi:m030-0252"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-062-guanyan",
+          "source_id": "s-shiji-062-guanyan",
+          "paragraph_id": "c-shiji-062-guanyan:p001",
+          "quote": "管仲夷吾者，潁上人也。少時常與鮑叔牙游，鮑叔知其賢。管仲貧困，常欺鮑叔，鮑叔終善遇之，不以為言。已而鮑叔事齊公子小白，管仲事公子糾。及小白立為桓公，公子糾死，管仲囚焉。鮑叔遂進管仲。管仲既用，任政於齊，齊桓公以霸，九合諸侯，一匡天下，管仲之謀也。",
+          "mention_ids": [
+            "c-shiji-062-guanyan:m001-0000",
+            "c-shiji-062-guanyan:m001-0026",
+            "c-shiji-062-guanyan:m001-0059",
+            "c-shiji-062-guanyan:m001-0079",
+            "c-shiji-062-guanyan:m001-0088",
+            "c-shiji-062-guanyan:m001-0091",
+            "c-shiji-062-guanyan:m001-0117"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p013",
+          "quote": "且吾聞之，規小睗者不能成榮名，惡小恥者不能立大功。昔者管夷吾射桓公中其鉤，篡也；遺公子糾不能死，怯也；束縛桎梏，辱也。若此三行者，世主不臣而鄉里不通。鄉使管子幽囚而不出，身死而不反於齊，則亦名不免為辱人賤行矣。臧獲且羞與之同名矣，況世俗乎！故管子不恥身在縲紲之中而恥天下之不治，不恥不死公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖，三戰之所亡一朝而復之，天下震動，諸侯驚駭，威加吳、越。若此二士者，非不能成小廉而行小睗也，以為殺身亡軀，絕世滅後，功名不立，非智也。故去感忿之怨，立終身之名；棄忿悁之節，定累世之功。是以業與三王爭流，而名與天壤相獘也。願公擇一而行之。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m013-0027",
+            "c-shiji-083-luzou:m013-0077",
+            "c-shiji-083-luzou:m013-0121"
+          ]
+        }
+      ],
+      "rationale": "083管夷吾射桓公中鉤、公子糾死而管子囚後相齊的引古，與032中鉤、子糾死、管仲囚而用及062管仲夷吾明名、事公子糾與小白立桓公的具體事件相配。身份暫接；假設幽囚身死不轉為實際死亡。三篇不是獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-qihuan",
+      "person_ids": [
+        "9w2_c77_53m"
+      ],
+      "canonical_person_id": "9w2_c77_53m",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-032-qi",
+        "c-shiji-062-guanyan",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p030",
+          "quote": "桓公之中鉤，詳死以誤管仲，已而載溫車中馳行，亦有高、國內應，故得先入立，發兵距魯。秋，與魯戰于乾時，魯兵敗走，齊兵掩絕魯歸道。齊遺魯書曰：「子糾兄弟，弗忍誅，請魯自殺之。召忽、管仲讎也，請得而甘心醢之。不然，將圍魯。」魯人患之，遂殺子糾于笙瀆。召忽自殺，管仲請囚。桓公之立，發兵攻魯，心欲殺管仲。鮑叔牙曰：「臣幸得從君，君竟以立。君之尊，臣無以增君。君將治齊，即高傒與叔牙足也。君且欲霸王，非管夷吾不可。夷吾所居國國重，不可失也。」於是桓公從之。乃詳為召管仲欲甘心，實欲用之。管仲知之，故請往。鮑叔牙迎受管仲，及堂阜而脫桎梏，齋祓而見桓公。桓公厚禮以為大夫，任政。",
+          "mention_ids": [
+            "c-shiji-032-qi:m030-0000",
+            "c-shiji-032-qi:m030-0132",
+            "c-shiji-032-qi:m030-0218",
+            "c-shiji-032-qi:m030-0267",
+            "c-shiji-032-qi:m030-0270"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-062-guanyan",
+          "source_id": "s-shiji-062-guanyan",
+          "paragraph_id": "c-shiji-062-guanyan:p001",
+          "quote": "管仲夷吾者，潁上人也。少時常與鮑叔牙游，鮑叔知其賢。管仲貧困，常欺鮑叔，鮑叔終善遇之，不以為言。已而鮑叔事齊公子小白，管仲事公子糾。及小白立為桓公，公子糾死，管仲囚焉。鮑叔遂進管仲。管仲既用，任政於齊，齊桓公以霸，九合諸侯，一匡天下，管仲之謀也。",
+          "mention_ids": [
+            "c-shiji-062-guanyan:m001-0053",
+            "c-shiji-062-guanyan:m001-0067",
+            "c-shiji-062-guanyan:m001-0071",
+            "c-shiji-062-guanyan:m001-0101"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p013",
+          "quote": "且吾聞之，規小睗者不能成榮名，惡小恥者不能立大功。昔者管夷吾射桓公中其鉤，篡也；遺公子糾不能死，怯也；束縛桎梏，辱也。若此三行者，世主不臣而鄉里不通。鄉使管子幽囚而不出，身死而不反於齊，則亦名不免為辱人賤行矣。臧獲且羞與之同名矣，況世俗乎！故管子不恥身在縲紲之中而恥天下之不治，不恥不死公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖，三戰之所亡一朝而復之，天下震動，諸侯驚駭，威加吳、越。若此二士者，非不能成小廉而行小睗也，以為殺身亡軀，絕世滅後，功名不立，非智也。故去感忿之怨，立終身之名；棄忿悁之節，定累世之功。是以業與三王爭流，而名與天壤相獘也。願公擇一而行之。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m013-0031",
+            "c-shiji-083-luzou:m013-0242",
+            "c-shiji-083-luzou:m013-0261"
+          ]
+        }
+      ],
+      "rationale": "083管夷吾射桓公中鉤、公子糾死而管子囚後相齊的引古，與032中鉤、子糾死、管仲囚而用及062管仲夷吾明名、事公子糾與小白立桓公的具體事件相配。身份暫接；假設幽囚身死不轉為實際死亡。三篇不是獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-zijiu",
+      "person_ids": [
+        "fng_mjp_tdn"
+      ],
+      "canonical_person_id": "fng_mjp_tdn",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-032-qi",
+        "c-shiji-062-guanyan",
+        "c-shiji-083-luzou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p030",
+          "quote": "桓公之中鉤，詳死以誤管仲，已而載溫車中馳行，亦有高、國內應，故得先入立，發兵距魯。秋，與魯戰于乾時，魯兵敗走，齊兵掩絕魯歸道。齊遺魯書曰：「子糾兄弟，弗忍誅，請魯自殺之。召忽、管仲讎也，請得而甘心醢之。不然，將圍魯。」魯人患之，遂殺子糾于笙瀆。召忽自殺，管仲請囚。桓公之立，發兵攻魯，心欲殺管仲。鮑叔牙曰：「臣幸得從君，君竟以立。君之尊，臣無以增君。君將治齊，即高傒與叔牙足也。君且欲霸王，非管夷吾不可。夷吾所居國國重，不可失也。」於是桓公從之。乃詳為召管仲欲甘心，實欲用之。管仲知之，故請往。鮑叔牙迎受管仲，及堂阜而脫桎梏，齋祓而見桓公。桓公厚禮以為大夫，任政。",
+          "mention_ids": [
+            "c-shiji-032-qi:m030-0070",
+            "c-shiji-032-qi:m030-0116"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-062-guanyan",
+          "source_id": "s-shiji-062-guanyan",
+          "paragraph_id": "c-shiji-062-guanyan:p001",
+          "quote": "管仲夷吾者，潁上人也。少時常與鮑叔牙游，鮑叔知其賢。管仲貧困，常欺鮑叔，鮑叔終善遇之，不以為言。已而鮑叔事齊公子小白，管仲事公子糾。及小白立為桓公，公子糾死，管仲囚焉。鮑叔遂進管仲。管仲既用，任政於齊，齊桓公以霸，九合諸侯，一匡天下，管仲之謀也。",
+          "mention_ids": [
+            "c-shiji-062-guanyan:m001-0062",
+            "c-shiji-062-guanyan:m001-0074"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p013",
+          "quote": "且吾聞之，規小睗者不能成榮名，惡小恥者不能立大功。昔者管夷吾射桓公中其鉤，篡也；遺公子糾不能死，怯也；束縛桎梏，辱也。若此三行者，世主不臣而鄉里不通。鄉使管子幽囚而不出，身死而不反於齊，則亦名不免為辱人賤行矣。臧獲且羞與之同名矣，況世俗乎！故管子不恥身在縲紲之中而恥天下之不治，不恥不死公子糾而恥威之不信於諸侯，故兼三行之過而為五霸首，名高天下而光燭鄰國。曹子為魯將，三戰三北，而亡地五百里。鄉使曹子計不反顧，議不還踵，刎頸而死，則亦名不免為敗軍禽將矣。曹子棄三北之恥，而退與魯君計。桓公朝天下，會諸侯，曹子以一劍之任，枝桓公之心於壇坫之上，顏色不變，辭氣不悖，三戰之所亡一朝而復之，天下震動，諸侯驚駭，威加吳、越。若此二士者，非不能成小廉而行小睗也，以為殺身亡軀，絕世滅後，功名不立，非智也。故去感忿之怨，立終身之名；棄忿悁之節，定累世之功。是以業與三王爭流，而名與天壤相獘也。願公擇一而行之。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m013-0041",
+            "c-shiji-083-luzou:m013-0143"
+          ]
+        }
+      ],
+      "rationale": "083管夷吾射桓公中鉤、公子糾死而管子囚後相齊的引古，與032中鉤、子糾死、管仲囚而用及062管仲夷吾明名、事公子糾與小白立桓公的具體事件相配。身份暫接；假設幽囚身死不轉為實際死亡。三篇不是獨立史實見證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-jiuhou-allusion",
+      "person_ids": [
+        "j9n_viq_5o8"
+      ],
+      "canonical_person_id": "j9n_viq_5o8",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0137",
+            "c-shiji-083-luzou:m007-0152",
+            "c-shiji-083-luzou:m007-0170"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p029",
+          "quote": "百姓怨望而諸侯有畔者，於是紂乃重刑辟，有炮格之法。以西伯昌、九侯、鄂侯為三公。九侯有好女，入之紂。九侯女不憙淫，紂怒，殺之，而醢九侯。鄂侯爭之彊，辨之疾，并脯鄂侯。西伯昌聞之，竊嘆。崇侯虎知之，以告紂，紂囚西伯羑里。西伯之臣閎夭之徒，求美女奇物善馬以獻紂，紂乃赦西伯。西伯出而獻洛西之地，以請除炮格之刑。紂乃許之，賜弓矢斧鉞，使得征伐，為西伯。而用費中為政。費中善諛，好利，殷人弗親。紂又用惡來。惡來善毀讒，諸侯以此益疏。",
+          "mention_ids": [
+            "c-shiji-003-yin:m029-0030",
+            "c-shiji-003-yin:m029-0039",
+            "c-shiji-003-yin:m029-0064"
+          ]
+        }
+      ],
+      "rationale": "九侯鄂侯文王三公、獻子於紂、醢九侯脯鄂侯與文王拘牖里的事件群對照003；083子原語不改成女，003明女另存，原句善惡與拘日等細節不調和。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-ehou-allusion",
+      "person_ids": [
+        "pzd_z9m_2de"
+      ],
+      "canonical_person_id": "pzd_z9m_2de",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0140",
+            "c-shiji-083-luzou:m007-0173",
+            "c-shiji-083-luzou:m007-0185"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p029",
+          "quote": "百姓怨望而諸侯有畔者，於是紂乃重刑辟，有炮格之法。以西伯昌、九侯、鄂侯為三公。九侯有好女，入之紂。九侯女不憙淫，紂怒，殺之，而醢九侯。鄂侯爭之彊，辨之疾，并脯鄂侯。西伯昌聞之，竊嘆。崇侯虎知之，以告紂，紂囚西伯羑里。西伯之臣閎夭之徒，求美女奇物善馬以獻紂，紂乃赦西伯。西伯出而獻洛西之地，以請除炮格之刑。紂乃許之，賜弓矢斧鉞，使得征伐，為西伯。而用費中為政。費中善諛，好利，殷人弗親。紂又用惡來。惡來善毀讒，諸侯以此益疏。",
+          "mention_ids": [
+            "c-shiji-003-yin:m029-0033",
+            "c-shiji-003-yin:m029-0067",
+            "c-shiji-003-yin:m029-0079"
+          ]
+        }
+      ],
+      "rationale": "九侯鄂侯文王三公、獻子於紂、醢九侯脯鄂侯與文王拘牖里的事件群對照003；083子原語不改成女，003明女另存，原句善惡與拘日等細節不調和。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-wenwang-allusion",
+      "person_ids": [
+        "y4i_pjk_4gn_A"
+      ],
+      "canonical_person_id": "y4i_pjk_4gn_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0143",
+            "c-shiji-083-luzou:m007-0188"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p029",
+          "quote": "百姓怨望而諸侯有畔者，於是紂乃重刑辟，有炮格之法。以西伯昌、九侯、鄂侯為三公。九侯有好女，入之紂。九侯女不憙淫，紂怒，殺之，而醢九侯。鄂侯爭之彊，辨之疾，并脯鄂侯。西伯昌聞之，竊嘆。崇侯虎知之，以告紂，紂囚西伯羑里。西伯之臣閎夭之徒，求美女奇物善馬以獻紂，紂乃赦西伯。西伯出而獻洛西之地，以請除炮格之刑。紂乃許之，賜弓矢斧鉞，使得征伐，為西伯。而用費中為政。費中善諛，好利，殷人弗親。紂又用惡來。惡來善毀讒，諸侯以此益疏。",
+          "mention_ids": [
+            "c-shiji-003-yin:m029-0026",
+            "c-shiji-003-yin:m029-0082",
+            "c-shiji-003-yin:m029-0103",
+            "c-shiji-003-yin:m029-0108",
+            "c-shiji-003-yin:m029-0131",
+            "c-shiji-003-yin:m029-0134",
+            "c-shiji-003-yin:m029-0169"
+          ]
+        }
+      ],
+      "rationale": "九侯鄂侯文王三公、獻子於紂、醢九侯脯鄂侯與文王拘牖里的事件群對照003；083子原語不改成女，003明女另存，原句善惡與拘日等細節不調和。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-zhou-allusion",
+      "person_ids": [
+        "lwx_9yq_ad7"
+      ],
+      "canonical_person_id": "lwx_9yq_ad7",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0146",
+            "c-shiji-083-luzou:m007-0162",
+            "c-shiji-083-luzou:m007-0164"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p029",
+          "quote": "百姓怨望而諸侯有畔者，於是紂乃重刑辟，有炮格之法。以西伯昌、九侯、鄂侯為三公。九侯有好女，入之紂。九侯女不憙淫，紂怒，殺之，而醢九侯。鄂侯爭之彊，辨之疾，并脯鄂侯。西伯昌聞之，竊嘆。崇侯虎知之，以告紂，紂囚西伯羑里。西伯之臣閎夭之徒，求美女奇物善馬以獻紂，紂乃赦西伯。西伯出而獻洛西之地，以請除炮格之刑。紂乃許之，賜弓矢斧鉞，使得征伐，為西伯。而用費中為政。費中善諛，好利，殷人弗親。紂又用惡來。惡來善毀讒，諸侯以此益疏。",
+          "mention_ids": [
+            "c-shiji-003-yin:m029-0013",
+            "c-shiji-003-yin:m029-0047",
+            "c-shiji-003-yin:m029-0056",
+            "c-shiji-003-yin:m029-0099",
+            "c-shiji-003-yin:m029-0101",
+            "c-shiji-003-yin:m029-0126",
+            "c-shiji-003-yin:m029-0128",
+            "c-shiji-003-yin:m029-0152",
+            "c-shiji-003-yin:m029-0192"
+          ]
+        }
+      ],
+      "rationale": "九侯鄂侯文王三公、獻子於紂、醢九侯脯鄂侯與文王拘牖里的事件群對照003；083子原語不改成女，003明女另存，原句善惡與拘日等細節不調和。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-jiuhou-child-allusion",
+      "person_ids": [
+        "lse_2ct_dsn"
+      ],
+      "canonical_person_id": "lse_2ct_dsn",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p007",
+          "quote": "新垣衍曰：「先生獨不見夫仆乎？十人而從一人者，寧力不勝而智不若邪？畏之也。」魯仲連曰：「嗚呼！梁之比於秦若仆邪？」新垣衍曰：「然。」魯仲連曰：「吾將使秦王烹醢梁王。」新垣衍怏然不悅，曰：「噫嘻，亦太甚矣先生之言也！先生又惡能使秦王烹醢梁王？」魯仲連曰：「固也，吾將言之。昔者九侯、鄂侯、文王，紂之三公也。九侯有子而好，獻之於紂，紂以為惡，醢九侯。鄂侯爭之彊，辯之疾，故脯鄂侯。文王聞之，喟然而嘆，故拘之牖里之庫百日，欲令之死。曷為與人俱稱王，卒就脯醢之地？齊湣王之魯，夷維子為執策而從，謂魯人曰：『子將何以待吾君？』魯人曰：『吾將以十太牢待子之君。』夷維子曰：『子安取禮而來吾君？彼吾君者，天子也。天子巡狩，諸侯辟舍，納筦籥，攝衽抱机，視膳於堂下，天子已食，乃退而聽朝也。』魯人投其籥，不果納。不得入於魯，將之薛，假途於鄒。當是時，鄒君死，湣王欲入弔，夷維子謂鄒之孤曰：『天子弔，主人必將倍殯棺，設北面於南方，然後天子南面弔也。』鄒之群臣曰：『必若此，吾將伏劍而死。』固不敢入於鄒。鄒、魯之臣，生則不得事養，死則不得賻襚，然且欲行天子之禮於鄒、魯，鄒、魯之臣不果納。今秦萬乘之國也，梁亦萬乘之國也。俱據萬乘之國，各有稱王之名，睹其一戰而勝，欲從而帝之，是使三晉之大臣不如鄒、魯之仆妾也。且秦無已而帝，則且變易諸侯之大臣。彼將奪其所不肖而與其所賢，奪其所憎而與其所愛。彼又將使其子女讒妾為諸侯妃姬。處梁之宮。梁王安得晏然而已乎？而將軍又何以得故寵乎？」",
+          "mention_ids": [
+            "c-shiji-083-luzou:m007-0155"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p029",
+          "quote": "百姓怨望而諸侯有畔者，於是紂乃重刑辟，有炮格之法。以西伯昌、九侯、鄂侯為三公。九侯有好女，入之紂。九侯女不憙淫，紂怒，殺之，而醢九侯。鄂侯爭之彊，辨之疾，并脯鄂侯。西伯昌聞之，竊嘆。崇侯虎知之，以告紂，紂囚西伯羑里。西伯之臣閎夭之徒，求美女奇物善馬以獻紂，紂乃赦西伯。西伯出而獻洛西之地，以請除炮格之刑。紂乃許之，賜弓矢斧鉞，使得征伐，為西伯。而用費中為政。費中善諛，好利，殷人弗親。紂又用惡來。惡來善毀讒，諸侯以此益疏。",
+          "mention_ids": [
+            "c-shiji-003-yin:m029-0042",
+            "c-shiji-003-yin:m029-0049"
+          ]
+        }
+      ],
+      "rationale": "九侯鄂侯文王三公、獻子於紂、醢九侯脯鄂侯與文王拘牖里的事件群對照003；083子原語不改成女，003明女另存，原句善惡與拘日等細節不調和。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-jizi-allusion",
+      "person_ids": [
+        "8a9_tj8_6i7"
+      ],
+      "canonical_person_id": "8a9_tj8_6i7",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p017",
+          "quote": "昔卞和獻寶，楚王刖之；李斯竭忠，胡亥極刑。是以箕子詳狂，接輿辟世，恐遭此患也。願大王孰察卞和、李斯之意，而後楚王、胡亥之聽，無使臣為箕子、接輿所笑。臣聞比干剖心，子胥鴟夷，臣始不信，乃今知之。願大王孰察，少加憐焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0023",
+            "c-shiji-083-luzou:m017-0066"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p031",
+          "quote": "紂愈淫亂不止。微子數諫不聽，乃與大師、少師謀，遂去。比干曰：「為人臣者，不得不以死爭。」迺強諫紂。紂怒曰：「吾聞聖人心有七竅。」剖比干，觀其心。箕子懼，乃詳狂為奴，紂又囚之。殷之大師、少師乃持其祭樂器奔周。周武王於是遂率諸侯伐紂。紂亦發兵距之牧野。甲子日，紂兵敗。紂走，入登鹿臺，衣其寶玉衣，赴火而死。周武王遂斬紂頭，縣之大白旗。殺妲己。釋箕子之囚，封比干之墓，表商容之閭。封紂子武庚祿父，以續殷祀，令修行盤庚之政。殷民大說。於是周武王為天子。其後世貶帝號，號為王。而封殷後為諸侯，屬周。",
+          "mention_ids": [
+            "c-shiji-003-yin:m031-0072",
+            "c-shiji-003-yin:m031-0170"
+          ]
+        }
+      ],
+      "rationale": "083箕子詳狂與003比干剖心後箕子懼而詳狂為奴的敘事相配；上下文人物、反應與行為支持暫接，不把所引態度當新事件日期。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-bigan-allusion",
+      "person_ids": [
+        "xtq_oi8_w82"
+      ],
+      "canonical_person_id": "xtq_oi8_w82",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-003-yin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p017",
+          "quote": "昔卞和獻寶，楚王刖之；李斯竭忠，胡亥極刑。是以箕子詳狂，接輿辟世，恐遭此患也。願大王孰察卞和、李斯之意，而後楚王、胡亥之聽，無使臣為箕子、接輿所笑。臣聞比干剖心，子胥鴟夷，臣始不信，乃今知之。願大王孰察，少加憐焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0076"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p031",
+          "quote": "紂愈淫亂不止。微子數諫不聽，乃與大師、少師謀，遂去。比干曰：「為人臣者，不得不以死爭。」迺強諫紂。紂怒曰：「吾聞聖人心有七竅。」剖比干，觀其心。箕子懼，乃詳狂為奴，紂又囚之。殷之大師、少師乃持其祭樂器奔周。周武王於是遂率諸侯伐紂。紂亦發兵距之牧野。甲子日，紂兵敗。紂走，入登鹿臺，衣其寶玉衣，赴火而死。周武王遂斬紂頭，縣之大白旗。殺妲己。釋箕子之囚，封比干之墓，表商容之閭。封紂子武庚祿父，以續殷祀，令修行盤庚之政。殷民大說。於是周武王為天子。其後世貶帝號，號為王。而封殷後為諸侯，屬周。",
+          "mention_ids": [
+            "c-shiji-003-yin:m031-0026",
+            "c-shiji-003-yin:m031-0065",
+            "c-shiji-003-yin:m031-0176"
+          ]
+        }
+      ],
+      "rationale": "083比干剖心與003紂剖比干觀其心的事件相配，暫接比干；同段箕子詳狂提供相連背景，不由比干之後群體補個人。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-lisi-allusion",
+      "person_ids": [
+        "49g_7az_e4i"
+      ],
+      "canonical_person_id": "49g_7az_e4i",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-087-lisi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p017",
+          "quote": "昔卞和獻寶，楚王刖之；李斯竭忠，胡亥極刑。是以箕子詳狂，接輿辟世，恐遭此患也。願大王孰察卞和、李斯之意，而後楚王、胡亥之聽，無使臣為箕子、接輿所笑。臣聞比干剖心，子胥鴟夷，臣始不信，乃今知之。願大王孰察，少加憐焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0011",
+            "c-shiji-083-luzou:m017-0047"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p033",
+          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+          "mention_ids": [
+            "c-shiji-087-lisi:m033-0008",
+            "c-shiji-087-lisi:m033-0019"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p013",
+          "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+          "mention_ids": [
+            "c-shiji-087-lisi:m013-0070",
+            "c-shiji-087-lisi:m013-0097"
+          ]
+        }
+      ],
+      "rationale": "083李斯竭忠而胡亥極刑，與087胡亥及丞相李斯明名、二世處斯五刑腰斬的事件相配，暫接李斯。竭忠是上書說法，不轉為全庫品評。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-huhai-allusion",
+      "person_ids": [
+        "ao3_0fy_d45_AAAA"
+      ],
+      "canonical_person_id": "ao3_0fy_d45_AAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-087-lisi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p017",
+          "quote": "昔卞和獻寶，楚王刖之；李斯竭忠，胡亥極刑。是以箕子詳狂，接輿辟世，恐遭此患也。願大王孰察卞和、李斯之意，而後楚王、胡亥之聽，無使臣為箕子、接輿所笑。臣聞比干剖心，子胥鴟夷，臣始不信，乃今知之。願大王孰察，少加憐焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0016",
+            "c-shiji-083-luzou:m017-0057"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p033",
+          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+          "mention_ids": [
+            "c-shiji-087-lisi:m033-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p013",
+          "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+          "mention_ids": [
+            "c-shiji-087-lisi:m013-0066"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p018",
+          "quote": "使者還報，胡亥、斯、高大喜。至咸陽，發喪，太子立為二世皇帝。以趙高為郎中令，常侍中用事。",
+          "mention_ids": [
+            "c-shiji-087-lisi:m018-0005",
+            "c-shiji-087-lisi:m018-0021"
+          ]
+        }
+      ],
+      "rationale": "083胡亥極刑李斯，與087胡亥、丞相李斯明名、太子立二世及二世處斯五刑事件相承，暫接胡亥。不是始皇，不能以秦帝泛稱全域替換。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-wuzixu-allusion",
+      "person_ids": [
+        "g9h_5ih_ug1_A"
+      ],
+      "canonical_person_id": "g9h_5ih_ug1_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p017",
+          "quote": "昔卞和獻寶，楚王刖之；李斯竭忠，胡亥極刑。是以箕子詳狂，接輿辟世，恐遭此患也。願大王孰察卞和、李斯之意，而後楚王、胡亥之聽，無使臣為箕子、接輿所笑。臣聞比干剖心，子胥鴟夷，臣始不信，乃今知之。願大王孰察，少加憐焉。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0081"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p019",
+          "quote": "吳太宰嚭既與子胥有隙，因讒曰：「子胥為人剛暴，少恩，猜賊，其怨望恐為深禍也。前日王欲伐齊，子胥以為不可，王卒伐之而有大功。子胥恥其計謀不用，乃反怨望。而今王又復伐齊，子胥專愎彊諫，沮毀用事，徒幸吳之敗以自勝其計謀耳。今王自行，悉國中武力以伐齊，而子胥諫不用，因輟謝，詳病不行。王不可不備，此起禍不難。且嚭使人微伺之，其使於齊也，乃屬其子於齊之鮑氏。夫為人臣，內不得意，外倚諸侯，自以為先王之謀臣，今不見用，常鞅鞅怨望。願王早圖之。」吳王曰：「微子之言，吾亦疑之。」乃使使賜伍子胥屬鏤之劍，曰：「子以此死。」伍子胥仰天嘆曰：「嗟乎！讒臣嚭為亂矣，王乃反誅我。我令若父霸。自若未立時，諸公子爭立，我以死爭之於先王，幾不得立。若既得立，欲分吳國予我，我顧不敢望也。然今若聽諛臣言以殺長者。」乃告其舍人曰：「必樹吾墓上以梓，令可以為器；而抉吾眼縣吳東門之上，以觀越寇之入滅吳也。」乃自剄死。吳王聞之大怒，乃取子胥尸盛以鴟夷革，浮之江中。吳人憐之，為立祠於江上，因命曰胥山。",
+          "mention_ids": [
+            "c-shiji-066-wu:m019-0006",
+            "c-shiji-066-wu:m019-0016",
+            "c-shiji-066-wu:m019-0045",
+            "c-shiji-066-wu:m019-0061",
+            "c-shiji-066-wu:m019-0083",
+            "c-shiji-066-wu:m019-0123",
+            "c-shiji-066-wu:m019-0236",
+            "c-shiji-066-wu:m019-0253",
+            "c-shiji-066-wu:m019-0400"
+          ]
+        }
+      ],
+      "rationale": "083子胥鴟夷與066伍子胥自剄後尸盛鴟夷革浮江的特定事件相配，暫接伍子胥；鴟夷不是另造人物姓名，不從此引古句推定另一次死亡或葬地。同書平行事件不作獨立史實見證，原文及版本疑義各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-shangyang-service",
+      "person_ids": [
+        "2wp_usr_ncd"
+      ],
+      "canonical_person_id": "2wp_usr_ncd",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-068-shang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p021",
+          "quote": "至夫秦用商鞅之法，東弱韓、魏，兵彊天下，而卒車裂之；越用大夫種之謀，禽勁吳，霸中國，而卒誅其身。是以孫叔敖三去相而不悔，於陵子仲辭三公為人灌園。今人主誠能去驕傲之心，懷可報之意，披心腹，見情素，墮肝膽，施德厚，終與之窮達，無愛於士，則桀之狗可使吠堯，而蹠之客可使刺由；況因萬乘之權，假聖王之資乎？然則荊軻之湛七族，要離之燒妻子，豈足道哉！",
+          "mention_ids": [
+            "c-shiji-083-luzou:m021-0004"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-068-shang",
+          "source_id": "s-shiji-068-shang",
+          "paragraph_id": "c-shiji-068-shang:p010",
+          "quote": "後五月而秦孝公卒，太子立。公子虔之徒告商君欲反，發吏捕商君。商君亡至關下，欲舍客舍。客人不知其是商君也，曰：「商君之法，舍人無驗者坐之。」商君喟然嘆曰：「嗟乎，為法自斃一至此哉！」去之魏。魏人怨其欺公子卬而破魏師，弗受。商君欲之他國。魏人曰：「商君，秦之賊。秦彊而賊入魏，弗歸，不可。」遂內秦。商君既復入秦，走商邑，與其徒屬發邑兵北出擊鄭。秦發兵攻商君，殺之於鄭黽池。秦惠王車裂商君以徇，曰：「莫如商鞅反者！」遂滅商君之家。",
+          "mention_ids": [
+            "c-shiji-068-shang:m010-0019",
+            "c-shiji-068-shang:m010-0027",
+            "c-shiji-068-shang:m010-0030",
+            "c-shiji-068-shang:m010-0048",
+            "c-shiji-068-shang:m010-0055",
+            "c-shiji-068-shang:m010-0069",
+            "c-shiji-068-shang:m010-0110",
+            "c-shiji-068-shang:m010-0122",
+            "c-shiji-068-shang:m010-0147",
+            "c-shiji-068-shang:m010-0174",
+            "c-shiji-068-shang:m010-0189",
+            "c-shiji-068-shang:m010-0199",
+            "c-shiji-068-shang:m010-0207"
+          ]
+        }
+      ],
+      "rationale": "秦用商鞅法而後車裂，對照068秦惠車裂商君並明稱商鞅。068先殺後車裂的次序與083概述各存，不因接合調和死亡方式。同書不作獨立見證；日期、死亡與授任各須本身來源。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-wenzhong-service",
+      "person_ids": [
+        "gu2_fde_5bw"
+      ],
+      "canonical_person_id": "gu2_fde_5bw",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-041-yue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p021",
+          "quote": "至夫秦用商鞅之法，東弱韓、魏，兵彊天下，而卒車裂之；越用大夫種之謀，禽勁吳，霸中國，而卒誅其身。是以孫叔敖三去相而不悔，於陵子仲辭三公為人灌園。今人主誠能去驕傲之心，懷可報之意，披心腹，見情素，墮肝膽，施德厚，終與之窮達，無愛於士，則桀之狗可使吠堯，而蹠之客可使刺由；況因萬乘之權，假聖王之資乎？然則荊軻之湛七族，要離之燒妻子，豈足道哉！",
+          "mention_ids": [
+            "c-shiji-083-luzou:m021-0028"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-041-yue",
+          "source_id": "s-shiji-041-yue",
+          "paragraph_id": "c-shiji-041-yue:p013",
+          "quote": "范蠡遂去，自齊遺大夫種書曰：「蜚鳥盡，良弓藏；狡兔死，走狗烹。越王爲人長頸鳥喙，可與共患難，不可與共樂。子何不去？」種見書，稱病不朝。人或讒種且作亂，越王乃賜種劍曰：「子教寡人伐呉七術，寡人用其三而敗呉，其四在子，子爲我從先王試之。」種遂自殺。",
+          "mention_ids": [
+            "c-shiji-041-yue:m013-0008",
+            "c-shiji-041-yue:m013-0058",
+            "c-shiji-041-yue:m013-0070",
+            "c-shiji-041-yue:m013-0079",
+            "c-shiji-041-yue:m013-0117"
+          ]
+        }
+      ],
+      "rationale": "越用大夫種謀敗吳而後誅身，對照041種助越、伐吳七術與賜劍自殺；君主責任概述及自殺的實際敘事各存。同書不作獨立見證；日期、死亡與授任各須本身來源。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-youyu-service",
+      "person_ids": [
+        "iig_8e3_qx2"
+      ],
+      "canonical_person_id": "iig_8e3_qx2",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-005-qin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m019-0283",
+            "c-shiji-083-luzou:m019-0343"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p036",
+          "quote": "戎王使由余於秦。由余，其先晉人也，亡入戎，能晉言。聞繆公賢，故使由余觀秦。秦繆公示以宮室、積聚。由余曰：「使鬼為之，則勞神矣。使人為之，亦苦民矣。」繆公怪之，問曰：「中國以詩書禮樂法度為政，然尚時亂，今戎夷無此，何以為治，不亦難乎？」由余笑曰：「此乃中國所以亂也。夫自上聖黃帝作為禮樂法度，身以先之，僅以小治。及其後世，日以驕淫。阻法度之威，以責督於下，下罷極則以仁義怨望於上，上下交爭怨而相篡弒，至於滅宗，皆以此類也。夫戎夷不然。上含淳德以遇其下，下懷忠信以事其上，一國之政猶一身之治，不知所以治，此真聖人之治也。」於是繆公退而問內史廖曰：「孤聞鄰國有聖人，敵國之憂也。今由余賢，寡人之害，將奈之何？」內史廖曰：「戎王處辟匿，未聞中國之聲。君試遺其女樂，以奪其志；為由余請，以疏其閒；留而莫遣，以失其期。戎王怪之，必疑由余。君臣有閒，乃可虜也。且戎王好樂，必怠於政。」繆公曰：「善。」因與由余曲席而坐，傳器而食，問其地形與其兵勢盡察，而後令內史廖以女樂二八遺戎王。戎王受而說之，終年不還。於是秦乃歸由余。由余數諫不聽，繆公又數使人閒要由余，由余遂去降秦。繆公以客禮禮之，問伐戎之形。",
+          "mention_ids": [
+            "c-shiji-005-qin:m036-0003",
+            "c-shiji-005-qin:m036-0008",
+            "c-shiji-005-qin:m036-0032",
+            "c-shiji-005-qin:m036-0048",
+            "c-shiji-005-qin:m036-0117",
+            "c-shiji-005-qin:m036-0287",
+            "c-shiji-005-qin:m036-0334",
+            "c-shiji-005-qin:m036-0360",
+            "c-shiji-005-qin:m036-0395",
+            "c-shiji-005-qin:m036-0450",
+            "c-shiji-005-qin:m036-0453",
+            "c-shiji-005-qin:m036-0468",
+            "c-shiji-005-qin:m036-0471"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p038",
+          "quote": "三十七年，秦用由余謀伐戎王，益國十二，開地千里，遂霸西戎。天子使召公過賀繆公以金鼓。",
+          "mention_ids": [
+            "c-shiji-005-qin:m038-0007"
+          ]
+        }
+      ],
+      "rationale": "秦用戎人由余霸中國，對照005由余自戎降秦、繆公客禮及問伐戎；所謂霸的原語與範圍不強行等同。同書不作獨立見證；日期、死亡與授任各須本身來源。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-bailixi-service",
+      "person_ids": [
+        "ylb_ttg_8dr"
+      ],
+      "canonical_person_id": "ylb_ttg_8dr",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-005-qin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m019-0127"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p022",
+          "quote": "五年，晉獻公滅虞、虢，虜虞君與其大夫百里傒，以璧馬賂於虞故也。既虜百里傒，以為秦繆公夫人媵於秦。百里傒亡秦走宛，楚鄙人執之。繆公聞百里傒賢，欲重贖之，恐楚人不與，乃使人謂楚曰：「吾媵臣百里傒在焉，請以五羖羊皮贖之。」。楚人遂許與之。當是時，百里傒年已七十餘。繆公釋其囚，與語國事。謝曰：「臣亡國之臣，何足問！」繆公曰：「虞君不用子，故亡，非子罪也。」固問，語三日，繆公大說，授之國政，號曰五羖大夫。百里傒讓曰：「臣不及臣友蹇叔，蹇叔賢而世莫知。臣常游困於齊而乞食銍人，蹇叔收臣。臣因而欲事齊君無知，蹇叔止臣，臣得脫齊難，遂之周。周王子穨好牛，臣以養牛干之。及穨欲用臣，蹇叔止臣，臣去，得不誅。事虞君，蹇叔止臣。臣知虞君不用臣，臣誠私利祿爵，且留。再用其言，得脫，一不用，及虞君難：是以知其賢。」於是繆公使人厚幣迎蹇叔，以為上大夫。",
+          "mention_ids": [
+            "c-shiji-005-qin:m022-0018",
+            "c-shiji-005-qin:m022-0033",
+            "c-shiji-005-qin:m022-0048",
+            "c-shiji-005-qin:m022-0065",
+            "c-shiji-005-qin:m022-0090",
+            "c-shiji-005-qin:m022-0092",
+            "c-shiji-005-qin:m022-0120",
+            "c-shiji-005-qin:m022-0194",
+            "c-shiji-005-qin:m022-0199"
+          ]
+        }
+      ],
+      "rationale": "百里奚乞食而繆公委政，對照005百里傒困齊乞食、繆公釋囚授政；異體各存，國君與臣下配對提供身份證據。同書不作獨立見證；日期、死亡與授任各須本身來源。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji083-qinmu-service",
+      "person_ids": [
+        "y97_huh_vuz_AAAAA"
+      ],
+      "canonical_person_id": "y97_huh_vuz_AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-083-luzou",
+        "c-shiji-005-qin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-083-luzou",
+          "source_id": "s-shiji-083-luzou",
+          "paragraph_id": "c-shiji-083-luzou:p019",
+          "quote": "故女無美惡，入宮見妒；士無賢不肖，入朝見嫉。昔者司馬喜髕腳於宋，卒相中山；范睢摺脅折齒於魏，卒為應侯。此二人者，皆信必然之畫，捐朋黨之私，挾孤獨之位，故不能自免於嫉妒之人也。是以申徒狄自沈於河，徐衍負石入海。不容於世，義不茍取，比周於朝，以移主上之心。故百里奚乞食於路，繆公委之以政；甯戚飯牛車下，而桓公任之以國。此二人者，豈借宦於朝，假譽於左右，然後二主用之哉？感於心，合於行，親於膠漆，昆弟不能離，豈惑於眾口哉？故偏聽生姦，獨任成亂。昔者魯聽季孫之說而逐孔子，宋信子罕之計而囚墨翟。夫以孔、墨之辯，不能自免於讒諛，而二國以危。何則？眾口鑠金，積毀銷骨也。是以秦用戎人由余而霸中國，齊用越人蒙而彊威、宣。此二國，豈拘於俗，牽於世，系阿偏之辭哉？公聽并觀，垂名當世。故意合則胡越為昆弟，由余、越人蒙是矣；不合，則骨肉出逐不收，朱、象、管、蔡是矣。今人主誠能用齊、秦之義，後宋、魯之聽，則五伯不足稱，三王易為也。",
+          "mention_ids": [
+            "c-shiji-083-luzou:m019-0135"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p022",
+          "quote": "五年，晉獻公滅虞、虢，虜虞君與其大夫百里傒，以璧馬賂於虞故也。既虜百里傒，以為秦繆公夫人媵於秦。百里傒亡秦走宛，楚鄙人執之。繆公聞百里傒賢，欲重贖之，恐楚人不與，乃使人謂楚曰：「吾媵臣百里傒在焉，請以五羖羊皮贖之。」。楚人遂許與之。當是時，百里傒年已七十餘。繆公釋其囚，與語國事。謝曰：「臣亡國之臣，何足問！」繆公曰：「虞君不用子，故亡，非子罪也。」固問，語三日，繆公大說，授之國政，號曰五羖大夫。百里傒讓曰：「臣不及臣友蹇叔，蹇叔賢而世莫知。臣常游困於齊而乞食銍人，蹇叔收臣。臣因而欲事齊君無知，蹇叔止臣，臣得脫齊難，遂之周。周王子穨好牛，臣以養牛干之。及穨欲用臣，蹇叔止臣，臣去，得不誅。事虞君，蹇叔止臣。臣知虞君不用臣，臣誠私利祿爵，且留。再用其言，得脫，一不用，及虞君難：是以知其賢。」於是繆公使人厚幣迎蹇叔，以為上大夫。",
+          "mention_ids": [
+            "c-shiji-005-qin:m022-0040",
+            "c-shiji-005-qin:m022-0062",
+            "c-shiji-005-qin:m022-0129",
+            "c-shiji-005-qin:m022-0155",
+            "c-shiji-005-qin:m022-0182",
+            "c-shiji-005-qin:m022-0349"
+          ]
+        }
+      ],
+      "rationale": "繆公委百里奚政，對照005秦繆公百里傒贖囚授政；亦與由余降秦同君背景相接，不按繆公單稱全域猜配。同書不作獨立見證；日期、死亡與授任各須本身來源。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

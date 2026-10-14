@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "2v6_0g1_ve2_AAAAA",
+  "canonical_person_id": "2v6_0g1_ve2_AAAAA",
+  "label": "舉（宋釐公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "釐公舉",
+    "釐公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji038-009",
+      "person_id": "2v6_0g1_ve2_AAAAA",
+      "title": "釐公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p023",
+          "quote": "微子開卒，立其弟衍，是爲微仲。微仲卒，子宋公稽立。宋公稽卒，子丁公申立。丁公申卒，子湣公共立。湣公共卒，弟煬公熙立。煬公即位，湣公子鮒祀弒煬公而自立，曰「我當立」，是爲厲公。厲公卒，子釐公舉立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji038-009:a001",
+          "paragraph_id": "c-shiji-038-song:p023",
+          "start": 92,
+          "end": 94,
+          "surface": "釐公",
+          "person_mention_id": "c-shiji-038-song:m023-0092",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "shijia",
+      "title": "宋微子世家第八",
+      "paragraph_id": "c-shiji-038-song:p023",
+      "count": 3,
+      "quote": "。煬公即位，湣公子鮒祀弒煬公而自立，曰「我當立」，是爲厲公。厲公卒，子釐公舉立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r008-c06",
+      "title": "《史記·三代世表》",
+      "quote": "釐公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r008-c06-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "釐公",
+        "person_id": "2v6_0g1_ve2_AAAAA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-038-song",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-038",
+      "source_id": "s-shiji-038-song",
+      "source": {
+        "title": "史記／卷038",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
+        "revision_id": 8737306,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-038-song:p001",
+              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
+              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
+            },
+            {
+              "paragraph_id": "c-shiji-038-song:p050",
+              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
+              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
+            }
+          ],
+          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
+          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji038-010",
+      "subject_person_id": "2v6_0g1_ve2_AAAAA",
+      "predicate": "father",
+      "object_person_id": "2v6_0g1_ve2_AAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p023",
+          "quote": "微子開卒，立其弟衍，是爲微仲。微仲卒，子宋公稽立。宋公稽卒，子丁公申立。丁公申卒，子湣公共立。湣公共卒，弟煬公熙立。煬公即位，湣公子鮒祀弒煬公而自立，曰「我當立」，是爲厲公。厲公卒，子釐公舉立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子釐公舉",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-011",
+      "subject_person_id": "2v6_0g1_ve2_AAAAAA",
+      "predicate": "father",
+      "object_person_id": "2v6_0g1_ve2_AAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p024",
+          "quote": "釐公十七年，周厲王出奔彘。二十八年，釐公卒，子惠公覵立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子惠公覵",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "2v6_0g1_ve2_AAAA": "鮒祀（宋厲公）",
+    "2v6_0g1_ve2_AAAAA": "舉（宋釐公）",
+    "2v6_0g1_ve2_AAAAAA": "覵（宋惠公）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "2v6_0g1_ve2_AAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji038-010",
+      "subject_person_id": "2v6_0g1_ve2_AAAAA",
+      "predicate": "father",
+      "object_person_id": "2v6_0g1_ve2_AAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p023",
+          "quote": "微子開卒，立其弟衍，是爲微仲。微仲卒，子宋公稽立。宋公稽卒，子丁公申立。丁公申卒，子湣公共立。湣公共卒，弟煬公熙立。煬公即位，湣公子鮒祀弒煬公而自立，曰「我當立」，是爲厲公。厲公卒，子釐公舉立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子釐公舉",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-011",
+      "subject_person_id": "2v6_0g1_ve2_AAAAAA",
+      "predicate": "father",
+      "object_person_id": "2v6_0g1_ve2_AAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p024",
+          "quote": "釐公十七年，周厲王出奔彘。二十八年，釐公卒，子惠公覵立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子惠公覵",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-013",
+      "person_id": "2v6_0g1_ve2_AAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p024",
+          "quote": "釐公十七年，周厲王出奔彘。二十八年，釐公卒，子惠公覵立。",
+          "person_mention_id": "c-shiji-038-song:m024-0000"
+        }
+      ],
+      "source_term": "釐公卒",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -258,6 +258,27 @@
       },
       "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-059",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p047",
+          "quote": "厲共公卒，子躁公立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -266,5 +287,78 @@
     "y97_huh_vuz_AAAAAAAAAAAAAAA": "秦躁公",
     "y97_huh_vuz_AAAAAAAAAAAAAB": "剌龔公（本文字形）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "y97_huh_vuz_AAAAAAAAAAAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-058",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p046",
+          "quote": "秦悼公立十四年卒，子厲共公立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-059",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p047",
+          "quote": "厲共公卒，子躁公立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-074",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p047",
+          "quote": "厲共公二年，蜀人來賂。十六年，塹河旁。以兵二萬伐大荔，取其王城。二十一年，初縣頻陽。晉取武成。二十四年，晉亂，殺智伯，分其國與趙、韓、魏。二十五年，智開與邑人來奔。三十三年，伐義渠，虜其王。三十四年，日食。厲共公卒，子躁公立。",
+          "person_mention_id": "c-shiji-005-qin:m047-0000"
+        }
+      ],
+      "source_term": "厲共公卒",
+      "interpretation_note": "明言卒、弒、殺、自殺或蚤死保存；恐誅與欲誅不是已死亡。齊悼公、秦悼公分ID，不按同稱合併；蚤死未即位與實際繼位另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

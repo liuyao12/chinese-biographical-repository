@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "id": "nuf_tb9_fjs",
+  "canonical_person_id": "nuf_tb9_fjs",
+  "label": "竇嬰父未名（魏其武安侯列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "父"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 107,
+      "category": "liezhuan",
+      "title": "魏其武安列傳第四十七",
+      "paragraph_id": "c-shiji-107-weiqi:p001",
+      "count": 1,
+      "quote": "魏其侯竇嬰者，孝文后從兄子也。父世觀津人。喜賓客。孝文時，嬰為吳相，病免。孝景初即位，為詹事。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-107-weiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "source_id": "s-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji107-001",
+      "subject_person_id": "nuf_tb9_fjs_A",
+      "predicate": "father",
+      "object_person_id": "nuf_tb9_fjs",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p001",
+          "quote": "魏其侯竇嬰者，孝文后從兄子也。父世觀津人。喜賓客。孝文時，嬰為吳相，病免。孝景初即位，為詹事。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父世觀津人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保留本文親屬原稱；同母不表示同父，弟只記相對長幼而不補排行數字。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "nuf_tb9_fjs": "竇嬰父未名（魏其武安侯列傳候選）",
+    "nuf_tb9_fjs_A": "竇嬰（魏其武安侯列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "nuf_tb9_fjs"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji107-001",
+      "subject_person_id": "nuf_tb9_fjs_A",
+      "predicate": "father",
+      "object_person_id": "nuf_tb9_fjs",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p001",
+          "quote": "魏其侯竇嬰者，孝文后從兄子也。父世觀津人。喜賓客。孝文時，嬰為吳相，病免。孝景初即位，為詹事。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父世觀津人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保留本文親屬原稱；同母不表示同父，弟只記相對長幼而不補排行數字。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

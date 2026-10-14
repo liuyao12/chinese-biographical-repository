@@ -154,6 +154,27 @@
       },
       "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji034-020",
+      "subject_person_id": "lt4_hpv_4ku_AA",
+      "predicate": "father",
+      "object_person_id": "lt4_hpv_4ku_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p030",
+          "quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子今王喜",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -196,5 +217,108 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "name_components": [],
+  "person_ids": [
+    "lt4_hpv_4ku_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji034-019",
+      "subject_person_id": "lt4_hpv_4ku_A",
+      "predicate": "father",
+      "object_person_id": "lt4_hpv_4ku",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p029",
+          "quote": "武成王七年，齊田單伐我，拔中陽。十三年，秦敗趙於長平四十餘萬。十四年，武成王卒，子孝王立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子孝王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji034-020",
+      "subject_person_id": "lt4_hpv_4ku_AA",
+      "predicate": "father",
+      "object_person_id": "lt4_hpv_4ku_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p030",
+          "quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子今王喜",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji034-047",
+      "person_id": "lt4_hpv_4ku_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p030",
+          "quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。",
+          "person_mention_id": "c-shiji-034-yan:m030-0000"
+        }
+      ],
+      "source_term": "三年卒",
+      "interpretation_note": "國君年次依本句，未知公曆日不補。 保存本篇明示死亡，國君紀年與數字年換算待核；被虜、出奔、擊破軍隊或滅國不直接推個人死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 255,
+        "year": -254,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-034-yan",
+            "source_id": "s-shiji-034-yan",
+            "paragraph_id": "c-shiji-034-yan:p030",
+            "quote": "孝王元年，秦圍邯鄲者解去。三年卒，子今王喜立。",
+            "person_mention_id": "c-shiji-034-yan:m030-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷015",
+            "quote": "三",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "燕孝王三年對數位年表公元前255年行。公元前年欄為數位編輯參考，只換算年，未知公曆月日不補；未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

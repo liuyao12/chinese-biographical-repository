@@ -192,6 +192,27 @@
       },
       "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji004-067",
+      "subject_person_id": "4yr_em4_wid",
+      "predicate": "father",
+      "object_person_id": "nyj_dya_hs8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p072",
+          "quote": "顯王崩，子慎靚王定立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -199,5 +220,88 @@
     "nyj_dya_hs8": "顯王",
     "pwk_g11_hye": "烈王"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "nyj_dya_hs8"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji004-066",
+      "subject_person_id": "nyj_dya_hs8",
+      "predicate": "brother",
+      "object_person_id": "pwk_g11_hye",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p071",
+          "quote": "烈王崩，弟扁立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "pwk_g11_hye",
+          "younger_person_id": "nyj_dya_hs8",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji004-067",
+      "subject_person_id": "4yr_em4_wid",
+      "predicate": "father",
+      "object_person_id": "nyj_dya_hs8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p072",
+          "quote": "顯王崩，子慎靚王定立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji004-076",
+      "person_id": "nyj_dya_hs8",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p072",
+          "quote": "四十八年，顯王崩，子慎靚王定立。",
+          "person_mention_id": "c-shiji-004-zhou:m072-0005"
+        }
+      ],
+      "source_term": "顯王崩",
+      "interpretation_note": "明言卒、崩或殺保存，三月與五月在位時長不換算起訖月；第69段省略威烈王主詞的崩仍待承接證據模型，不補虛構姓名錨點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

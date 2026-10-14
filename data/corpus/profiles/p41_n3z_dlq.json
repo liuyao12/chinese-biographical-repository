@@ -56,7 +56,7 @@
     },
     {
       "id": "th-shiji072-008",
-      "person_id": "5he_z7b_nzv",
+      "person_id": "p41_n3z_dlq",
       "title": "相秦",
       "kind": "unclassified",
       "mode": "attestation",
@@ -97,15 +97,88 @@
               "paragraph_id": "c-shiji-072-rang:p003",
               "quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 295,
+            "year": -294,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-072-rang",
+                "source_id": "s-shiji-072-rang",
+                "paragraph_id": "c-shiji-072-rang:p003",
+                "quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "秦果免樓緩",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "十二。樓緩免。穰侯魏冉為丞相。",
+              "reference_year_quote": "295"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十二。樓緩免。穰侯魏冉為丞相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r182-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "295",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r182-c00"
+              }
+            ],
+            "rationale": "樓緩免相與年表十二年樓緩免對讀；不把段首七年樗里子死套用到免相。數字年取同列數位編者對照，僅到年，未核印本影像及曆表，來源異說與未知起訖保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         }
       },
-      "interpretation_note": "授封、授官與單純用稱分存，反覆任相各保存來源事件；未知曆日不補，時長保留原引文。免相國不自動終止穰侯爵、將軍或其他官爵，卒與收陶亦不作所有稱號共同終點。",
+      "interpretation_note": "授封、授官與單純用稱分存，反覆任相各保存來源事件；未知曆日不補，時長保留原引文。免相國不自動終止穰侯爵、將軍或其他官爵，卒與收陶亦不作所有稱號共同終點。 樓緩免相與年表十二年樓緩免對讀；不把段首七年樗里子死套用到免相。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "未定 → 西元前295年（暫定）"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji072-002",
+      "person_id": "p41_n3z_dlq",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "趙",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "趙人樓緩",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-072-rang",
+          "source_id": "s-shiji-072-rang",
+          "paragraph_id": "c-shiji-072-rang:p003",
+          "quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。",
+          "person_mention_id": "c-shiji-072-rang:m003-0021"
+        }
+      ],
+      "interpretation_note": "保存原地名與來源範圍；其先是未名祖先，不轉本人出生地。死亡與埋葬、放逐及逃奔分存，不把段首紀年套到整段所有事件，不補現代轄區。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "趙人樓緩",
+      "quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。"
+    }
+  ],
   "occurrences": [
     {
       "number": 5,
@@ -330,8 +403,66 @@
   ],
   "relations": [],
   "related_people": {
-    "5he_z7b_nzv": "樓緩（穰侯列傳候選）",
     "p41_n3z_dlq": "樓緩"
   },
-  "dates": []
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 295,
+      "year": -294,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-072-rang",
+          "source_id": "s-shiji-072-rang",
+          "paragraph_id": "c-shiji-072-rang:p003",
+          "quote": "昭王七年，樗里子死，而使涇陽君質於齊。趙人樓緩來相秦，趙不利，乃使仇液之秦，請以魏冉為秦相。仇液將行，其客宋公謂液曰：「秦不聽公，樓緩必怨公。公不若謂樓緩曰『請為公毋急秦』。秦王見趙請相魏冉之不急，且不聽公。公言而事不成，以德樓子；事成，魏冉故德公矣。」於是仇液從之。而秦果免樓緩而魏冉相秦。"
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "秦果免樓緩",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_event_quote": "十二。樓緩免。穰侯魏冉為丞相。",
+        "reference_year_quote": "295"
+      },
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉事件欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "十二。樓緩免。穰侯魏冉為丞相。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r182-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "295",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r182-c00"
+        }
+      ],
+      "rationale": "樓緩免相與年表十二年樓緩免對讀；不把段首七年樗里子死套用到免相。數字年取同列數位編者對照，僅到年，未核印本影像及曆表，來源異說與未知起訖保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji072-008",
+      "person_id": "p41_n3z_dlq",
+      "endpoint": "end",
+      "title": "相秦"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "p41_n3z_dlq"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

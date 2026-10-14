@@ -63,7 +63,7 @@
     },
     {
       "id": "th-shiji063-008",
-      "person_id": "k5g_3qk_0m4",
+      "person_id": "vtn_thh_540",
       "title": "賤臣",
       "kind": "unclassified",
       "mode": "attestation",
@@ -105,7 +105,7 @@
     },
     {
       "id": "th-shiji063-022",
-      "person_id": "k5g_3qk_0m4",
+      "person_id": "vtn_thh_540",
       "title": "相",
       "kind": "office",
       "mode": "grant",
@@ -174,7 +174,7 @@
   "addresses": [
     {
       "id": "pa-shiji063-008",
-      "person_id": "k5g_3qk_0m4",
+      "person_id": "vtn_thh_540",
       "relation": "biographical_origin",
       "place": {
         "source_name": "京",
@@ -320,8 +320,37 @@
   ],
   "relations": [],
   "related_people": {
-    "k5g_3qk_0m4": "申不害（老韓列傳候選）",
     "vtn_thh_540": "申不害（韓世家候選）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "vtn_thh_540"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji045-016",
+      "person_id": "vtn_thh_540",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十二年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p020",
+          "quote": "十年，韓姬弒其君悼公。十一年，昭侯如秦。二十二年，申不害死。二十四年，秦來拔我宜陽。",
+          "person_mention_id": "c-shiji-045-han:m020-0025"
+        }
+      ],
+      "source_term": "申不害死",
+      "interpretation_note": "依本篇明示死亡保存；原曆不直接換算數字年，跨篇身份及版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "rrj_dpd_03c",
+  "canonical_person_id": "rrj_dpd_03c",
+  "label": "公孫固（宋大司馬）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "大司馬公孫固",
+    "宋司馬公孫固",
+    "宋公孫固"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji038-047",
+      "person_id": "rrj_dpd_03c",
+      "title": "大司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p042",
+          "quote": "成公弟御殺太子及大司馬公孫固而自立爲君。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji038-047:a001",
+          "paragraph_id": "c-shiji-038-song:p042",
+          "start": 16,
+          "end": 19,
+          "surface": "大司馬",
+          "person_mention_id": "c-shiji-038-song:m042-0016",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "大司馬公孫固用稱，未推初任或卒日廢官。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "shijia",
+      "title": "宋微子世家第八",
+      "paragraph_id": "c-shiji-038-song:p042",
+      "count": 1,
+      "quote": "十七年，成公卒。成公弟御殺太子及大司馬公孫固而自立爲君。宋人共殺君御而立成公少子杵臼，是爲昭公。"
+    },
+    {
+      "number": 39,
+      "category": "shijia",
+      "title": "晉世家第九",
+      "paragraph_id": "c-shiji-039-jin:p056",
+      "count": 2,
+      "quote": "去，過宋。宋襄公新困兵於楚，傷於泓，聞重耳賢，乃以國禮禮於重耳。宋司馬公孫固善於咎犯，曰：「宋小國新困，不足以求入，更之大國。」乃去。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-038-song",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-038",
+      "source_id": "s-shiji-038-song",
+      "source": {
+        "title": "史記／卷038",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
+        "revision_id": 8737306,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-038-song:p001",
+              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
+              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
+            },
+            {
+              "paragraph_id": "c-shiji-038-song:p050",
+              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
+              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
+            }
+          ],
+          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
+          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-039-jin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-039",
+      "source_id": "s-shiji-039-jin",
+      "source": {
+        "title": "史記／卷039",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷039",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534",
+        "revision_id": 2588534,
+        "accessed_on": "2026-10-09",
+        "extent": "142段正文，自晉唐叔虞至太史公論贊，另保留1段索隱述贊並分層；排除2個dd導覽及段首尾版面換行。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "鲁": "魯",
+            "隐": "隱",
+            "绖": "絰"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。第14段鲁隐轉魯隱，第46、79段绖轉絰，去除段首尾換行，其餘古字、內外異說及校勘保留。",
+          "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "rrj_dpd_03c": "公孫固（宋大司馬）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rrj_dpd_03c"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-040",
+      "person_id": "rrj_dpd_03c",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p042",
+          "quote": "十七年，成公卒。成公弟御殺太子及大司馬公孫固而自立爲君。宋人共殺君御而立成公少子杵臼，是爲昭公。",
+          "person_mention_id": "c-shiji-038-song:m042-0016"
+        }
+      ],
+      "source_term": "御殺太子及大司馬公孫固",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

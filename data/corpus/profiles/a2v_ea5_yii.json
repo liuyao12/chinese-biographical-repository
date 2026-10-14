@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "a2v_ea5_yii",
+  "canonical_person_id": "a2v_ea5_yii",
+  "label": "齊歸（裯母）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "齊歸"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p071",
+      "count": 1,
+      "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-054",
+      "subject_person_id": "cp2_vf3_igr",
+      "predicate": "mother",
+      "object_person_id": "a2v_ea5_yii",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p071",
+          "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "齊歸之子裯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "a2v_ea5_yii": "齊歸（裯母）",
+    "cp2_vf3_igr": "魯昭公"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "a2v_ea5_yii"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji033-054",
+      "subject_person_id": "cp2_vf3_igr",
+      "predicate": "mother",
+      "object_person_id": "a2v_ea5_yii",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p071",
+          "quote": "三十一年六月，襄公卒。其九月，太子卒。魯人立齊歸之子裯爲君，是爲昭公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "齊歸之子裯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -331,10 +331,10 @@
     },
     {
       "id": "th-shiji085-013",
-      "person_id": "atl_qkh_lx9",
+      "person_id": "ao3_0fy_d45_AAA",
       "title": "王",
       "kind": "royal_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -358,8 +358,8 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
-          "date_expression": null,
+          "event_type": "accession",
+          "date_expression": "莊襄王即位三年",
           "evidence": [
             {
               "chapter_id": "c-shiji-085-lubuwei",
@@ -367,7 +367,45 @@
               "paragraph_id": "c-shiji-085-lubuwei:p008",
               "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 247,
+            "year": -246,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-085-lubuwei",
+                "source_id": "s-shiji-085-lubuwei",
+                "paragraph_id": "c-shiji-085-lubuwei:p008",
+                "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "三。王齮擊上黨。初置太原郡。魏公子無忌率五國卻我軍河外，蒙驁解去，",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r230-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "247",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r230-c00"
+              }
+            ],
+            "rationale": "依本段明示王年與同段繼位、任相及命號順序，對讀年表秦紀年；原日期字串不改。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -375,16 +413,16 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。",
+      "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。 立為王明記繼位事件，不作他人授爵。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前247年（暫定） → 未定"
     },
     {
       "id": "th-shiji086-008",
-      "person_id": "fdc_ofl_z5f",
+      "person_id": "ao3_0fy_d45_AAA",
       "title": "秦王",
       "kind": "royal_rank",
-      "mode": "grant",
+      "mode": "accession",
       "status": "source_attested",
       "evidence": [
         {
@@ -408,7 +446,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "accession",
           "date_expression": null,
           "evidence": [
             {
@@ -425,16 +463,17 @@
           "evidence": []
         }
       },
-      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。",
+      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。 第二輪按明示立王、自立及立號分別記繼位或自立，不混為他人授予。",
       "reviewer": "Codex（AI 代理）",
+      "source_term": "政立爲秦王",
       "period": "未定 → 未定"
     },
     {
       "id": "th-shiji086-017",
-      "person_id": "fdc_ofl_z5f",
+      "person_id": "ao3_0fy_d45_AAA",
       "title": "皇帝",
       "kind": "royal_rank",
-      "mode": "grant",
+      "mode": "self_proclamation",
       "status": "source_attested",
       "evidence": [
         {
@@ -458,7 +497,7 @@
       "effective_period": {
         "start": {
           "status": "source_event",
-          "event_type": "grant",
+          "event_type": "self_proclamation",
           "date_expression": "其明年",
           "evidence": [
             {
@@ -475,8 +514,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。",
+      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。 第二輪按明示立王、自立及立號分別記繼位或自立，不混為他人授予。",
       "reviewer": "Codex（AI 代理）",
+      "source_term": "立號爲皇帝",
       "period": "其明年 → 未定"
     }
   ],
@@ -1715,6 +1755,22 @@
       "quote": "是歲也，秦始皇帝立九年矣。嫪毐亦為亂於秦，覺，夷其三族，而呂不韋廢。"
     },
     {
+      "number": 79,
+      "category": "liezhuan",
+      "title": "范睢蔡澤列傳第十九",
+      "paragraph_id": "c-shiji-079-fancai:p034",
+      "count": 1,
+      "quote": "誅，乃謝病歸相印，號為綱成君。居秦十餘年，事昭王、孝文王、莊襄王。卒事始皇帝，為秦使於燕，三年而燕使太子丹入質於秦。"
+    },
+    {
+      "number": 83,
+      "category": "liezhuan",
+      "title": "魯仲連鄒陽列傳第二十三",
+      "paragraph_id": "c-shiji-083-luzou:p023",
+      "count": 1,
+      "quote": "是以聖王制世御俗，獨化於陶鈞之上，而不牽於卑亂之語，不奪於眾多之口。故秦皇帝任中庶子蒙嘉之言，以信荊軻之說，而匕首竊發；周文王獵涇、渭，載呂尚而歸，以王天下。故秦信左右而殺，周用烏集而王。何則？以其能越攣拘之語，馳域外之議，獨觀於昭曠之道也。"
+    },
+    {
       "number": 85,
       "category": "liezhuan",
       "title": "呂不韋列傳第二十五",
@@ -2113,6 +2169,92 @@
       }
     },
     {
+      "chapter_id": "c-shiji-079-fancai",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-079",
+      "source_id": "s-shiji-079-fancai",
+      "source": {
+        "title": "史記／卷079",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷079",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
+        "revision_id": 2549307,
+        "accessed_on": "2026-10-09",
+        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（止）［足］",
+              "body_reading": "止",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（足）［止］",
+              "body_reading": "足",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
+          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-083-luzou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "source_id": "s-shiji-083-luzou",
+      "source": {
+        "title": "史記／卷083",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷083",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252",
+        "revision_id": 2089252,
+        "accessed_on": "2026-10-09",
+        "extent": "27段正文，自魯仲連者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-083-luzou:p002",
+              "witness_form": "［湣王］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p007",
+              "witness_form": "［待］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p009",
+              "witness_form": "（使）",
+              "body_reading": "使",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p025",
+              "witness_form": "（巖）［藪］",
+              "body_reading": "巖",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd按原序；4項數位增刪改讀另存，正文保留前形，末段巖巖重複不擅校。",
+          "note": "全27段與HTML篇界已核讀；未核底本影像或現代研究，人物待逐段標註。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-085-lubuwei",
       "work_id": "w-shiji",
       "book_id": "b-shiji-085",
@@ -2240,6 +2382,27 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji005-076",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p075",
+          "quote": "始皇帝立十一年而崩，子胡亥立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji006-001",
       "subject_person_id": "ao3_0fy_d45_AAA",
       "predicate": "father",
@@ -2282,6 +2445,92 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji006-004",
+      "subject_person_id": "r5h_mrk_rov",
+      "predicate": "brother",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p009",
+          "quote": "王弟長安君成蟜將軍擊趙",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "ao3_0fy_d45_AAA",
+          "younger_person_id": "r5h_mrk_rov",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-005",
+      "subject_person_id": "ao3_0fy_d45_AAAB",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p046",
+          "quote": "始皇長子扶蘇諫曰",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "ao3_0fy_d45_AAA",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "僅記本段明示親屬主張；不補生母、出生日期或同母關係。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-006",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p048",
+          "quote": "始皇出游。左丞相斯從，右丞相去疾守。少子胡亥愛慕請從",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "ao3_0fy_d45_AAA",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "interpretation_note": "僅記本段明示親屬主張；不補生母、出生日期或同母關係。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji006-038",
       "subject_person_id": "ao3_0fy_d45_AAA",
       "predicate": "father",
@@ -2303,10 +2552,31 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji006-039",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p104",
+          "quote": "始皇享國三十七年。葬酈邑。生二世皇帝。始皇生十三年而立。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji085-003",
-      "subject_person_id": "atl_qkh_lx9",
+      "subject_person_id": "ao3_0fy_d45_AAA",
       "predicate": "mother",
-      "object_person_id": "ie0_5f2_2uz",
+      "object_person_id": "lap_qc0_yqm",
       "status": "source_attested",
       "evidence": [
         {
@@ -2329,14 +2599,8 @@
     "ao3_0fy_d45_AAA": "秦始皇帝",
     "ao3_0fy_d45_AAAA": "胡亥",
     "ao3_0fy_d45_AAAB": "扶蘇",
-    "atl_qkh_lx9": "子政（呂不韋列傳候選）",
-    "fdc_ofl_z5f": "秦王政（刺客列傳候選）",
-    "gpd_9u1_j6l": "秦始皇帝（春申君列傳候選）",
-    "ie0_5f2_2uz": "子政母未名（呂不韋列傳候選）",
     "lap_qc0_yqm": "呂不韋姬（始皇生母）",
-    "r5h_mrk_rov": "成蟜",
-    "rd8_urn_g2l": "秦王政（蒙恬列傳候選）",
-    "t14_tjm_imz": "秦始皇（滑稽列傳候選）"
+    "r5h_mrk_rov": "成蟜"
   },
   "dates": [
     {
@@ -2406,6 +2670,426 @@
       "model": null,
       "record_id": "pa-shiji006-002",
       "person_id": "ao3_0fy_d45_AAA"
+    },
+    {
+      "era": "BCE",
+      "era_year": 247,
+      "year": -246,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p008",
+          "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三。王齮擊上黨。初置太原郡。魏公子無忌率五國卻我軍河外，蒙驁解去，",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r230-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "247",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r230-c00"
+        }
+      ],
+      "rationale": "依本段明示王年與同段繼位、任相及命號順序，對讀年表秦紀年；原日期字串不改。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji085-013",
+      "person_id": "ao3_0fy_d45_AAA",
+      "endpoint": "start",
+      "title": "王"
     }
-  ]
+  ],
+  "name_components": [
+    {
+      "person_id": "ao3_0fy_d45_AAA",
+      "title": "秦始皇帝",
+      "surname": "趙",
+      "ming": "政",
+      "additional_names": [],
+      "chapter_id": "c-shiji-006-shihuang",
+      "paragraph_id": "c-shiji-006-shihuang:p001",
+      "quote": "及生，名為政，姓趙氏。",
+      "note": "依本篇姓趙氏原詞呈現，不以後世通稱改成嬴政；頂部稱號是人物辨認用稱，並非斷言敘事當時已稱皇帝。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
+  "person_ids": [
+    "ao3_0fy_d45_AAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-075",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p074",
+          "quote": "莊襄王卒，子政立，是為秦始皇帝",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-076",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p075",
+          "quote": "始皇帝立十一年而崩，子胡亥立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-001",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "秦始皇帝者，秦莊襄王子也",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-003",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "mother",
+      "object_person_id": "lap_qc0_yqm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "見呂不韋姬，悅而取之，生始皇",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-004",
+      "subject_person_id": "r5h_mrk_rov",
+      "predicate": "brother",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p009",
+          "quote": "王弟長安君成蟜將軍擊趙",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "ao3_0fy_d45_AAA",
+          "younger_person_id": "r5h_mrk_rov",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-005",
+      "subject_person_id": "ao3_0fy_d45_AAAB",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p046",
+          "quote": "始皇長子扶蘇諫曰",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "ao3_0fy_d45_AAA",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "僅記本段明示親屬主張；不補生母、出生日期或同母關係。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-006",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p048",
+          "quote": "始皇出游。左丞相斯從，右丞相去疾守。少子胡亥愛慕請從",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子",
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "ao3_0fy_d45_AAA",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "interpretation_note": "僅記本段明示親屬主張；不補生母、出生日期或同母關係。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-038",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p096",
+          "quote": "莊襄王享國三年。葬茝陽。生始皇帝。呂不韋相。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-039",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p104",
+          "quote": "始皇享國三十七年。葬酈邑。生二世皇帝。始皇生十三年而立。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-003",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "mother",
+      "object_person_id": "lap_qc0_yqm",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p005",
+          "quote": "呂不韋取邯鄲諸姬絕好善舞者與居，知有身。子楚從不韋飲，見而說之，因起為壽，請之。呂不韋怒，念業已破家為子楚，欲以釣奇，乃遂獻其姬。姬自匿有身，至大期時，生子政。子楚遂立姬為夫人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生子政",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-107",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p075",
+          "quote": "秦王政立二十六年，初并天下為三十六郡，號為始皇帝。始皇帝立十一年而崩，子胡亥立，是為二世皇帝。",
+          "person_mention_id": "c-shiji-005-qin:m075-0021"
+        }
+      ],
+      "source_term": "始皇帝立十一年而崩",
+      "interpretation_note": "保存本篇原紀年；始皇立十一年而崩是稱帝後計數，不替換為秦王在位總年。子嬰立月餘非精確死亡年月；東周君誅之是否專指誅殺仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-001",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": "秦昭王四十八年正月",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "秦始皇帝者，秦莊襄王子也。莊襄王為秦質子於趙，見呂不韋姬，悅而取之，生始皇。以秦昭王四十八年正月生於邯鄲。及生，名為政，姓趙氏。年十三歲，莊襄王死，政代立為秦王。當是之時，秦地已并巴、蜀、漢中，越宛有郢，置南郡矣；北收上郡以東，有河東、太原、上黨郡；東至滎陽，滅二周，置三川郡。呂不韋為相，封十萬戶，號曰文信侯。招致賓客游士，欲以并天下。李斯為舍人。蒙驁、王齮、麃公等為將軍。王年少，初即位，委國事大臣。晉陽反。",
+          "person_mention_id": "c-shiji-006-shihuang:m001-0035"
+        }
+      ],
+      "source_term": "生始皇",
+      "interpretation_note": "保存本篇出生或死亡原文；年十三歲不作精確出生日期逆算。王齮與王齕尚未合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-019",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "七月丙寅",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p051",
+          "quote": "至平原津而病。始皇惡言死，群臣莫敢言死事。上病益甚，乃為璽書賜公子扶蘇曰：「與喪會咸陽而葬。」書已封，在中車府令趙高行符璽事所，未授使者。七月丙寅，始皇崩於沙丘平臺。丞相斯為上崩在外，恐諸公子及天下有變，乃祕之，不發喪。棺載輼涼車中，故幸宦者參乘，所至上食。百官奏事如故，宦者輒從輼涼車中可其奏事。獨子胡亥、趙高及所幸宦者五六人知上死。趙高故嘗教胡亥書及獄律令法事，胡亥私幸之。高乃與公子胡亥、丞相斯陰謀破去始皇所封書賜公子扶蘇者，而更詐為丞相斯受始皇遺詔沙丘，立子胡亥為太子。更為書賜公子扶蘇、蒙恬，數以罪，賜死。語具在李斯傳中。行，遂從井陘抵九原。會暑，上輼車臭，乃詔從官令車載一石鮑魚，以亂其臭。",
+          "person_mention_id": "c-shiji-006-shihuang:p051:m0007"
+        }
+      ],
+      "source_term": "始皇崩於沙丘平臺",
+      "interpretation_note": "保存明言崩的年月；賜扶蘇、蒙恬死的詐書先記命令，不據本段認定已執行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-056",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p096",
+          "quote": "莊襄王享國三年。葬茝陽。生始皇帝。呂不韋相。",
+          "person_mention_id": "c-shiji-006-shihuang:p096:m0013"
+        }
+      ],
+      "source_term": "生始皇帝",
+      "interpretation_note": "卷末世系生某人保存出生敘述，未載年日不補造；即位年齡不倒推生日。二世生十二年而立與前段元年二十一保留不一致。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-058",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p110",
+          "quote": "始皇既歿，胡亥極愚，酈山未畢，復作阿房，以遂前策。云「凡所為貴有天下者，肆意極欲，大臣至欲罷先君所為」。誅斯、去疾，任用趙高。痛哉言乎！人頭畜鳴。不威不伐惡，不篤不虛亡，距之不得留，殘虐以促期，雖居形便之國，猶不得存。",
+          "person_mention_id": "c-shiji-006-shihuang:p110:m0000"
+        }
+      ],
+      "source_term": "始皇既歿",
+      "interpretation_note": "這是witness_appended_bangu_note附載文字的死亡敘述，與本紀敘事分層分存，不增加一次真實死亡。去疾此層作誅與前文自殺並存，不改寫成一致。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-063",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p064:block07",
+          "quote": "秦王既沒，餘威振於殊俗。陳涉，罋牖繩樞之子，甿隸之人，而遷徙之徒，才能不及中人，非有仲尼、墨翟之賢，陶朱、猗頓之富，躡足行伍之閒，而倔起什伯之中，率罷散之卒，將數百之眾，而轉攻秦。斬木為兵，揭竿為旗，天下雲集響應，贏糧而景從，山東豪俊遂并起而亡秦族矣。",
+          "person_mention_id": "c-shiji-006-shihuang:p064:block07:m0000"
+        }
+      ],
+      "source_term": "秦王既沒",
+      "interpretation_note": "賈生嵌入引文的死亡回述，與正文見證分存，不當不同死亡。二世戮殺是議論用詞，不覆寫正文自殺方式。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

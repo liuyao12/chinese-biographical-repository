@@ -1,0 +1,227 @@
+{
+  "schema_version": 1,
+  "id": "y3i_rsz_brn_A",
+  "canonical_person_id": "y3i_rsz_brn_A",
+  "label": "韓宣子（韓世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "韓宣子",
+    "宣子"
+  ],
+  "titles": [],
+  "addresses": [
+    {
+      "id": "pa-shiji045-001",
+      "person_id": "y3i_rsz_brn_A",
+      "relation": "residence",
+      "place": {
+        "source_name": "州",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p005",
+          "quote": "晉悼公之七年，韓獻子老。獻子卒，子宣子代。宣子徙居州。",
+          "person_mention_id": "c-shiji-045-han:m005-0017"
+        }
+      ],
+      "source_term": "宣子徙居州",
+      "interpretation_note": "保存本篇明示行程、居處或死地；第27段為引語敘述，不借敘事當年，不補現代位置。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "宣子徙居州",
+      "quote": "晉悼公之七年，韓獻子老。獻子卒，子宣子代。宣子徙居州。"
+    }
+  ],
+  "occurrences": [
+    {
+      "number": 45,
+      "category": "shijia",
+      "title": "韓世家第十五",
+      "paragraph_id": "c-shiji-045-han:p005",
+      "count": 5,
+      "quote": "晉悼公之七年，韓獻子老。獻子卒，子宣子代。宣子徙居州。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r001-c04",
+      "title": "《史記·六國年表》",
+      "quote": "宣子",
+      "year": {
+        "era": "BCE",
+        "value": 476,
+        "astronomical_year": -475,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "476",
+        "source_cell_id": "shiji-015-r001-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r001-c04-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "宣子",
+        "person_id": "y3i_rsz_brn_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-045-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-045",
+      "source_id": "s-shiji-045-han",
+      "source": {
+        "title": "史記／卷045",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷045",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷045&oldid=7903607",
+        "revision_id": 7903607,
+        "accessed_on": "2026-10-09",
+        "extent": "36段正文；排除註釋版導覽、2個dd及現代分節標題，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
+          "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji045-003",
+      "subject_person_id": "y3i_rsz_brn_A",
+      "predicate": "father",
+      "object_person_id": "y3i_rsz_brn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p005",
+          "quote": "晉悼公之七年，韓獻子老。獻子卒，子宣子代。宣子徙居州。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "獻子卒，子宣子代",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、弟與三世分型保存，三世不補父子。太子繼位不單獨推生父，與他篇同名世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji045-004",
+      "subject_person_id": "y3i_rsz_brn_AA",
+      "predicate": "father",
+      "object_person_id": "y3i_rsz_brn_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p006",
+          "quote": "晉平公十四年，吳季札使晉，曰：「晉國之政卒歸於韓、魏、趙矣。」晉頃公十二年，韓宣子與趙、魏共分祁氏、羊舌氏十縣。晉定公十五年，宣子與趙簡子侵伐范、中行氏。宣子卒，子貞子代立。貞子徙居平陽。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "宣子卒，子貞子代立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、弟與三世分型保存，三世不補父子。太子繼位不單獨推生父，與他篇同名世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "y3i_rsz_brn": "韓厥",
+    "y3i_rsz_brn_A": "韓宣子（韓世家候選）",
+    "y3i_rsz_brn_AA": "韓貞子（韓世家候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "y3i_rsz_brn_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji045-003",
+      "subject_person_id": "y3i_rsz_brn_A",
+      "predicate": "father",
+      "object_person_id": "y3i_rsz_brn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p005",
+          "quote": "晉悼公之七年，韓獻子老。獻子卒，子宣子代。宣子徙居州。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "獻子卒，子宣子代",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、弟與三世分型保存，三世不補父子。太子繼位不單獨推生父，與他篇同名世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji045-004",
+      "subject_person_id": "y3i_rsz_brn_AA",
+      "predicate": "father",
+      "object_person_id": "y3i_rsz_brn_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p006",
+          "quote": "晉平公十四年，吳季札使晉，曰：「晉國之政卒歸於韓、魏、趙矣。」晉頃公十二年，韓宣子與趙、魏共分祁氏、羊舌氏十縣。晉定公十五年，宣子與趙簡子侵伐范、中行氏。宣子卒，子貞子代立。貞子徙居平陽。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "宣子卒，子貞子代立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、弟與三世分型保存，三世不補父子。太子繼位不單獨推生父，與他篇同名世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji045-002",
+      "person_id": "y3i_rsz_brn_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p006",
+          "quote": "晉平公十四年，吳季札使晉，曰：「晉國之政卒歸於韓、魏、趙矣。」晉頃公十二年，韓宣子與趙、魏共分祁氏、羊舌氏十縣。晉定公十五年，宣子與趙簡子侵伐范、中行氏。宣子卒，子貞子代立。貞子徙居平陽。",
+          "person_mention_id": "c-shiji-045-han:m006-0077"
+        }
+      ],
+      "source_term": "宣子卒",
+      "interpretation_note": "依本篇明示死亡保存；原曆不直接換算數字年，跨篇身份及版本仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

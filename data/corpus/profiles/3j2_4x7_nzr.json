@@ -380,6 +380,22 @@
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
       }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t2-r002-c14",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "王董翳始，故秦將。",
+      "year": null,
+      "mention": {
+        "id": "shiji-016-t2-r002-c14-m000",
+        "start": 1,
+        "end": 3,
+        "surface": "董翳",
+        "person_id": "3j2_4x7_nzr",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
     }
   ],
   "sources": [
@@ -487,5 +503,35 @@
   "related_people": {
     "3j2_4x7_nzr": "董翳"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "3j2_4x7_nzr"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji007-032",
+      "person_id": "3j2_4x7_nzr",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p037",
+          "quote": "漢果數挑楚軍戰，楚軍不出。使人辱之，五六日，大司馬怒，渡兵汜水。士卒半渡，漢擊之，大破楚軍，盡得楚國貨賂。大司馬咎、長史翳、塞王欣皆自剄汜水上。大司馬咎者，故蘄獄掾，長史欣亦故櫟陽獄吏，兩人嘗有德於項梁，是以項王信任之。當是時，項王在睢陽，聞海春侯軍敗，則引兵還。漢軍方圍鐘離眛於滎陽東，項王至，漢軍畏楚，盡走險阻。",
+          "person_mention_id": "c-shiji-007-xiangyu:m037-0058"
+        }
+      ],
+      "source_term": "皆自剄汜水上",
+      "interpretation_note": "原文三人自剄各存；長史翳依既有身份候選連結，與董翳及另一王翳的區分仍依來源記錄，未重新發ID。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

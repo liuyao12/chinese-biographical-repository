@@ -7,12 +7,14 @@
   "review": "ai_provisional",
   "names": [
     "白起",
-    "起",
-    "武安君",
-    "武安君白起",
     "左更白起",
     "大良造白起",
-    "小豎子"
+    "武安君",
+    "武安君白起",
+    "起",
+    "小豎子",
+    "白公",
+    "秦將白起"
   ],
   "titles": [
     {
@@ -299,7 +301,7 @@
     },
     {
       "id": "th-shiji072-017",
-      "person_id": "ro3_15j_nvb",
+      "person_id": "2bk_fz6_icl",
       "title": "武安君",
       "kind": "noble_rank",
       "mode": "grant",
@@ -335,7 +337,52 @@
               "paragraph_id": "c-shiji-072-rang:p005",
               "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 277,
+            "year": -276,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-072-rang",
+                "source_id": "s-shiji-072-rang",
+                "paragraph_id": "c-shiji-072-rang:p005",
+                "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "乃封白起為武安君",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+              "reference_event_quote": "三十。白起封為武安君。",
+              "reference_year_quote": "277"
+            },
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉事件欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "三十。白起封為武安君。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r200-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "277",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r200-c00"
+              }
+            ],
+            "rationale": "同人授武安君事件與年表三十年白起封武安君對讀，不把拔郢與封爵自動定為同年。數字年取同列數位編者對照，僅到年，未核印本影像及曆表，來源異說與未知起訖保留。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -343,13 +390,13 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授封、授官與單純用稱分存，反覆任相各保存來源事件；未知曆日不補，時長保留原引文。免相國不自動終止穰侯爵、將軍或其他官爵，卒與收陶亦不作所有稱號共同終點。",
+      "interpretation_note": "授封、授官與單純用稱分存，反覆任相各保存來源事件；未知曆日不補，時長保留原引文。免相國不自動終止穰侯爵、將軍或其他官爵，卒與收陶亦不作所有稱號共同終點。 同人授武安君事件與年表三十年白起封武安君對讀，不把拔郢與封爵自動定為同年。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前277年（暫定） → 未定"
     },
     {
       "id": "th-shiji073-001",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "左庶長",
       "kind": "unclassified",
       "mode": "grant",
@@ -385,7 +432,45 @@
               "paragraph_id": "c-shiji-073-baiwang:p001",
               "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 294,
+            "year": -293,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-073-baiwang",
+                "source_id": "s-shiji-073-baiwang",
+                "paragraph_id": "c-shiji-073-baiwang:p001",
+                "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
+              }
+            ],
+            "references": [
+              {
+                "title": "〈六國年表〉秦紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十三。任鄙為漢中守。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r183-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "294",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r183-c00"
+              }
+            ],
+            "rationale": "本篇昭王十三年左庶長，以年表秦十三年及數位年欄對照。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -395,11 +480,11 @@
       },
       "interpretation_note": "授官、授爵、降等與文獻用稱分存；未知日期及終點不補造。因病辭將、拒絕代將、死亡與被虜不自動終止全部官爵；三公及秦王王為蘇代假設，未作實際授予。",
       "reviewer": "Codex（AI 代理）",
-      "period": "昭王十三年 → 未定"
+      "period": "西元前294年（暫定） → 未定"
     },
     {
       "id": "th-shiji073-002",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "左更",
       "kind": "unclassified",
       "mode": "grant",
@@ -427,7 +512,7 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "其明年",
           "evidence": [
             {
               "chapter_id": "c-shiji-073-baiwang",
@@ -435,7 +520,45 @@
               "paragraph_id": "c-shiji-073-baiwang:p001",
               "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 293,
+            "year": -292,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-073-baiwang",
+                "source_id": "s-shiji-073-baiwang",
+                "paragraph_id": "c-shiji-073-baiwang:p001",
+                "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
+              }
+            ],
+            "references": [
+              {
+                "title": "〈六國年表〉秦紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "十四。白起擊伊闕，斬首二十四萬。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r184-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "293",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r184-c00"
+              }
+            ],
+            "rationale": "左更的其明年承接本段昭王十三年，伊闕斬首二十四萬亦與年表十四年同一戰事相應，並非年表明記升左更。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -445,11 +568,11 @@
       },
       "interpretation_note": "授官、授爵、降等與文獻用稱分存；未知日期及終點不補造。因病辭將、拒絕代將、死亡與被虜不自動終止全部官爵；三公及秦王王為蘇代假設，未作實際授予。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前293年（暫定） → 未定"
     },
     {
       "id": "th-shiji073-003",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "國尉",
       "kind": "office",
       "mode": "grant",
@@ -499,7 +622,7 @@
     },
     {
       "id": "th-shiji073-004",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "大良造",
       "kind": "unclassified",
       "mode": "grant",
@@ -549,7 +672,7 @@
     },
     {
       "id": "th-shiji073-005",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "武安君",
       "kind": "noble_rank",
       "mode": "grant",
@@ -607,7 +730,7 @@
     },
     {
       "id": "th-shiji073-006",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "上將軍",
       "kind": "office",
       "mode": "grant",
@@ -635,7 +758,7 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "四十七年",
           "evidence": [
             {
               "chapter_id": "c-shiji-073-baiwang",
@@ -643,7 +766,45 @@
               "paragraph_id": "c-shiji-073-baiwang:p004",
               "quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 260,
+            "year": -259,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-073-baiwang",
+                "source_id": "s-shiji-073-baiwang",
+                "paragraph_id": "c-shiji-073-baiwang:p004",
+                "quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。"
+              }
+            ],
+            "references": [
+              {
+                "title": "〈六國年表〉秦紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "四十七。白起破趙長平，殺卒四十五萬。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r217-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "260",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r217-c00"
+              }
+            ],
+            "rationale": "四十七年本段長平之戰內秘密任白起上將軍，以年表秦四十七年及數位年欄對照。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -653,11 +814,11 @@
       },
       "interpretation_note": "授官、授爵、降等與文獻用稱分存；未知日期及終點不補造。因病辭將、拒絕代將、死亡與被虜不自動終止全部官爵；三公及秦王王為蘇代假設，未作實際授予。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前260年（暫定） → 未定"
     },
     {
       "id": "th-shiji073-007",
-      "person_id": "0xk_jpf_0xw",
+      "person_id": "2bk_fz6_icl",
       "title": "士伍",
       "kind": "unclassified",
       "mode": "demotion",
@@ -704,6 +865,48 @@
       "interpretation_note": "授官、授爵、降等與文獻用稱分存；未知日期及終點不補造。因病辭將、拒絕代將、死亡與被虜不自動終止全部官爵；三公及秦王王為蘇代假設，未作實際授予。士伍只記本篇明示降等，不以自殺反推其終點。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji081-021",
+      "person_id": "2bk_fz6_icl",
+      "title": "秦將",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p016",
+          "quote": "趙括既代廉頗，悉更約束，易置軍吏。秦將白起聞之，縱奇兵，詳敗走，而絶其糧道，分斷其軍爲二，士卒離心。四十餘日，軍餓，趙括出鋭卒自博戰，秦軍射殺趙括。括軍敗，數十萬之衆遂降秦，秦悉阬之。趙前後所亡凡四十五萬。明年，秦兵遂圍邯鄲，歳餘，幾不得脱。賴楚、魏諸侯來救，乃得解邯鄲之圍。趙王亦以括母先言，竟不誅也。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji081-021:a001",
+          "paragraph_id": "c-shiji-081-lianlin:p016",
+          "start": 17,
+          "end": 19,
+          "surface": "秦將",
+          "person_mention_id": "c-shiji-081-lianlin:m016-0017",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "官名、角色及授任分存，各次將兵另列；首次用稱、病、逃亡、被俘或死亡不自動終止所有官爵，未明日期保持未定。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -732,6 +935,114 @@
       "human_reviewed": false,
       "term": "遷陰密",
       "quote": "十三年，向壽伐韓，取武始。左更白起攻新城。五大夫禮出亡奔魏。任鄙為漢中守。十四年，左更白起攻韓、魏於伊闕，斬首二十四萬，虜公孫喜，拔五城。十五年，大良造白起攻魏，取垣，復予之。攻楚，取宛。十六年，左更錯取軹及鄧。冉免，封公子市宛，公子悝鄧，魏冉陶，為諸侯。十七年，城陽君入朝，及東周君來朝。秦以垣為蒲阪、皮氏。王之宜陽。十八年，錯攻垣、河雍，決橋取之。十九年，王為西帝，齊為東帝，皆復去之。呂禮來自歸。齊破宋，宋王在魏，死溫。任鄙卒。二十年，王之漢中，又之上郡、北河。二十一年，錯攻魏河內。魏獻安邑，秦出其人，募徙河東賜爵，赦罪人遷之。涇陽君封宛。二十二年，蒙武伐齊。河東為九縣。與楚王會宛。與趙王會中陽。二十三年，尉斯離與三晉、燕伐齊，破之濟西。王與魏王會宜陽，與韓王會新城。二十四年，與楚王會鄢，又會穰。秦取魏安城，至大梁，燕、趙救之，秦軍去。魏冉免相。二十五年，拔趙二城。與韓王會新城，與魏王會新明邑。二十六年，赦罪人遷之穰。侯冉復相。二十七年，錯攻楚。赦罪人遷之南陽。白起攻趙，取代光狼城。又使司馬錯發隴西，因蜀攻楚黔中，拔之。二十八年，大良造白起攻楚，取鄢、鄧，赦罪人遷之。二十九年，大良造白起攻楚，取郢為南郡，楚王走。周君來。王與楚王會襄陵。白起為武安君。三十年，蜀守若伐楚，取巫郡，及江南為黔中郡。三十一年，白起伐魏，取兩城。楚人反我江南。三十二年，相穰侯攻魏，至大梁，破暴鳶，斬首四萬，鳶走，魏入三縣請和。三十三年，客卿胡傷攻魏卷、蔡陽、長社，取之。擊芒卯華陽，破之，斬首十五萬。魏入南陽以和。三十四年，秦與魏、韓上庸地為一郡，南陽免臣遷居之。三十五年，佐韓、魏、楚伐燕。初置南陽郡。三十六年，客卿灶攻齊，取剛、壽，予穰侯。三十八年，中更胡傷攻趙閼與，不能取。四十年，悼太子死魏，歸葬芷陽。四十一年夏，攻魏，取邢丘、懷。四十二年，安國君為太子。十月，宣太后薨，葬芷陽酈山。九月，穰侯出之陶。四十三年，武安君白起攻韓，拔九城，斬首五萬。四十四年，攻韓南郡，取之。四十五年，五大夫賁攻韓，取十城。葉陽君悝出之國，未至而死。四十七年，秦攻韓上黨，上黨降趙，秦因攻趙，趙發兵擊秦，相距。秦使武安君白起擊，大破趙於長平，四十餘萬盡殺之。四十八年十月，韓獻垣雍。秦軍分為三軍。武安君歸。王齕將伐趙皮牢，拔之。司馬梗北定太原，盡有韓上黨。正月，兵罷，復守上黨。其十月，五大夫陵攻趙邯鄲。四十九年正月，益發卒佐陵。陵戰不善，免，王齕代將。其十月，將軍張唐攻魏，為蔡尉捐弗守，還斬之。五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。齕攻邯鄲，不拔，去，還奔汾軍。二月餘攻晉軍，斬首六千，晉楚流死河二萬人。攻汾城，即從唐拔寧新中，寧新中更名安陽。初作河橋。"
+    },
+    {
+      "id": "pa-shiji073-001",
+      "person_id": "2bk_fz6_icl",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "郿",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "郿人也",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p001",
+          "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+          "person_mention_id": "c-shiji-073-baiwang:m001-0000"
+        }
+      ],
+      "interpretation_note": "保留來源原地名與人物範圍；歸老於頻陽是王翦居留與歸程，始皇自馳如頻陽只記行程，不當始皇居所。白起既行至杜郵後在本段自殺，死地取連續敘事；遷陰密後未能行不作實際抵達。不補現代位置或出生地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "郿人也",
+      "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
+    },
+    {
+      "id": "pa-shiji073-005",
+      "person_id": "2bk_fz6_icl",
+      "relation": "death_place",
+      "place": {
+        "source_name": "杜郵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "至杜郵",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p008",
+          "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+          "person_mention_id": "c-shiji-073-baiwang:m008-0044"
+        }
+      ],
+      "interpretation_note": "保留來源原地名與人物範圍；歸老於頻陽是王翦居留與歸程，始皇自馳如頻陽只記行程，不當始皇居所。白起既行至杜郵後在本段自殺，死地取連續敘事；遷陰密後未能行不作實際抵達。不補現代位置或出生地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "至杜郵",
+      "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。"
+    },
+    {
+      "id": "pa-shiji073-006",
+      "person_id": "2bk_fz6_icl",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "杜郵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "至杜郵",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p008",
+          "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+          "person_mention_id": "c-shiji-073-baiwang:m008-0044"
+        }
+      ],
+      "interpretation_note": "保留來源原地名與人物範圍；歸老於頻陽是王翦居留與歸程，始皇自馳如頻陽只記行程，不當始皇居所。白起既行至杜郵後在本段自殺，死地取連續敘事；遷陰密後未能行不作實際抵達。不補現代位置或出生地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "至杜郵",
+      "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。"
+    },
+    {
+      "id": "pa-shiji079-005",
+      "person_id": "2bk_fz6_icl",
+      "relation": "death_place",
+      "place": {
+        "source_name": "杜郵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "賜劍死於杜郵",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p032",
+          "quote": "白起之勢也。身所服者七十餘城，功已成矣，而遂賜劍死於杜郵。",
+          "person_mention_id": "c-shiji-079-fancai:m032-0957"
+        }
+      ],
+      "interpretation_note": "明記卒地，不補葬地或今日轄域。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "賜劍死於杜郵",
+      "quote": "白起之勢也。身所服者七十餘城，功已成矣，而遂賜劍死於杜郵。"
     }
   ],
   "occurrences": [
@@ -804,8 +1115,24 @@
       "category": "liezhuan",
       "title": "范睢蔡澤列傳第十九",
       "paragraph_id": "c-shiji-079-fancai:p026",
-      "count": 4,
+      "count": 5,
       "quote": "反閒賣趙，趙以其故，令馬服子代廉頗將。秦大破趙於長平，遂圍邯鄲。已而與武安君白起有隙，言而殺之。任鄭安平，使擊趙。鄭安平為趙所圍，急，以兵二萬人降趙。應侯席槁請罪。秦之法，任人而所任不善者，各以其罪罪之。於是應侯罪當收三族。秦昭王恐傷應侯之意，乃下令國中：「有敢言鄭安平事者，以其"
+    },
+    {
+      "number": 81,
+      "category": "liezhuan",
+      "title": "廉頗藺相如列傳第二十一",
+      "paragraph_id": "c-shiji-081-lianlin:p016",
+      "count": 1,
+      "quote": "趙括既代廉頗，悉更約束，易置軍吏。秦將白起聞之，縱奇兵，詳敗走，而絶其糧道，分斷其軍爲二，士卒離心。四十餘日，軍餓，趙括出鋭卒自博戰，秦軍射殺趙括。括軍敗，數十萬之衆遂降秦，秦悉阬之。趙前後所亡凡四十五萬。明年，秦兵遂圍邯鄲，歳餘，幾不得脱。"
+    },
+    {
+      "number": 83,
+      "category": "liezhuan",
+      "title": "魯仲連鄒陽列傳第二十三",
+      "paragraph_id": "c-shiji-083-luzou:p002",
+      "count": 1,
+      "quote": "趙孝成王時，而秦王使白起破趙長平之軍前後四十餘萬，秦兵遂東圍邯鄲。趙王恐，諸侯之救兵莫敢擊秦軍。魏安釐王使將軍晉鄙救趙，畏秦，止於蕩陰不進。魏王使客將軍新垣衍閒入邯鄲，因平原君謂趙王曰：「秦所為急圍趙者，前與齊湣王爭彊為帝，"
     }
   ],
   "table_occurrences": [
@@ -1339,16 +1666,450 @@
           "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-081-lianlin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-081",
+      "source_id": "s-shiji-081-lianlin",
+      "source": {
+        "title": "史記／卷081",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷081",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷081&oldid=8735558",
+        "revision_id": 8735558,
+        "accessed_on": "2026-10-09",
+        "extent": "27段正文，自廉頗者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；全部p按原序；爲、原、繆、脱、盆鮓、許暦與桓齮等原字不擅校。",
+          "note": "全27段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-083-luzou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "source_id": "s-shiji-083-luzou",
+      "source": {
+        "title": "史記／卷083",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷083",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252",
+        "revision_id": 2089252,
+        "accessed_on": "2026-10-09",
+        "extent": "27段正文，自魯仲連者至太史公論贊；排除人物導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-083-luzou:p002",
+              "witness_form": "［湣王］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p007",
+              "witness_form": "［待］",
+              "body_reading": "",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p009",
+              "witness_form": "（使）",
+              "body_reading": "使",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-083-luzou:p025",
+              "witness_form": "（巖）［藪］",
+              "body_reading": "巖",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；上書dd按原序；4項數位增刪改讀另存，正文保留前形，末段巖巖重複不擅校。",
+          "note": "全27段與HTML篇界已核讀；未核底本影像或現代研究，人物待逐段標註。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "0xk_jpf_0xw": "白起（白起王翦列傳候選）",
-    "2bk_fz6_icl": "白起",
-    "enz_lny_xoh": "白起（春申君列傳候選）",
-    "kxu_u93_88u": "白起（平原君虞卿列傳候選）",
-    "ro3_15j_nvb": "白起（穰侯列傳候選）",
-    "v7t_9j0_gec": "白起（范睢蔡澤列傳候選）"
+    "2bk_fz6_icl": "白起"
   },
-  "dates": []
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 257,
+      "year": -256,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p008",
+          "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+          "person_mention_id": "c-shiji-073-baiwang:m008-0044"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "五十。王齕、鄭安平圍邯鄲，及齕還軍，拔新中。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r220-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "257",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r220-c00"
+        },
+        {
+          "title": "《史記》〈秦本紀〉白起死亡敘事",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
+          "quote": "五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。",
+          "scope": "received_chronological_variant",
+          "chapter_id": "c-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p070",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇秦昭王五十年十一月死亡，以年表秦五十及數位年欄換算前257年；秦本紀五十年十二月敘事後亦記死亡，月份時序異說保留。僅為原紀年之年尺度數字對照，不把原十一月或四月當公曆月，不指定公曆日期，未核底本影像及曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji073-003",
+      "person_id": "2bk_fz6_icl",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 277,
+      "year": -276,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-072-rang",
+          "source_id": "s-shiji-072-rang",
+          "paragraph_id": "c-shiji-072-rang:p005",
+          "quote": "穰侯封四歲，為秦將攻魏。魏獻河東方四百里。拔魏之河內，取城大小六十餘。昭王十九年，秦稱西帝，齊稱東帝。月餘，呂禮來，而齊、秦各復歸帝為王。魏冉復相秦，六歲而免。免二歲，復相秦。四歲，而使白起拔楚之郢，秦置南郡。乃封白起為武安君。白起者，穰侯之所任舉也，相善。於是穰侯之富，富於王室。"
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "乃封白起為武安君",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_event_quote": "三十。白起封為武安君。",
+        "reference_year_quote": "277"
+      },
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉事件欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三十。白起封為武安君。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r200-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "277",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r200-c00"
+        }
+      ],
+      "rationale": "同人授武安君事件與年表三十年白起封武安君對讀，不把拔郢與封爵自動定為同年。數字年取同列數位編者對照，僅到年，未核印本影像及曆表，來源異說與未知起訖保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji072-017",
+      "person_id": "2bk_fz6_icl",
+      "endpoint": "start",
+      "title": "武安君"
+    },
+    {
+      "era": "BCE",
+      "era_year": 294,
+      "year": -293,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p001",
+          "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "十三。任鄙為漢中守。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r183-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "294",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r183-c00"
+        }
+      ],
+      "rationale": "本篇昭王十三年左庶長，以年表秦十三年及數位年欄對照。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji073-001",
+      "person_id": "2bk_fz6_icl",
+      "endpoint": "start",
+      "title": "左庶長"
+    },
+    {
+      "era": "BCE",
+      "era_year": 293,
+      "year": -292,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p001",
+          "quote": "白起者，郿人也。善用兵，事秦昭王。昭王十三年，而白起為左庶長，將而擊韓之新城。是歲，穰侯相秦，舉任鄙以為漢中守。其明年，白起為左更，攻韓、魏於伊闕，斬首二十四萬，又虜其將公孫喜，拔五城。起遷為國尉。涉河取韓安邑以東，到乾河。明年，白起為大良造。攻魏，拔之，取城小大六十一。明年，起與客卿錯攻垣城，拔之。後五年，白起攻趙，拔光狼城。後七年，白起攻楚，拔鄢、鄧五城。其明年，攻楚，拔郢，燒夷陵，遂東至竟陵。楚王亡去郢，東走徙陳。秦以郢為南郡。白起遷為武安君。武安君因取楚，定巫、黔中郡。昭王三十四年，白起攻魏，拔華陽，走芒卯，而虜三晉將，斬首十三萬。與趙將賈偃戰，沈其卒二萬人於河中。昭王四十三年，白起攻韓陘城，拔五城，斬首五萬。四十四年，白起攻南陽太行道，絕之。"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "十四。白起擊伊闕，斬首二十四萬。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r184-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "293",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r184-c00"
+        }
+      ],
+      "rationale": "左更的其明年承接本段昭王十三年，伊闕斬首二十四萬亦與年表十四年同一戰事相應，並非年表明記升左更。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji073-002",
+      "person_id": "2bk_fz6_icl",
+      "endpoint": "start",
+      "title": "左更"
+    },
+    {
+      "era": "BCE",
+      "era_year": 260,
+      "year": -259,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p004",
+          "quote": "四十七年，秦使左庶長王龁攻韓，取上黨。上黨民走趙。趙軍長平，以按據上黨民。四月，龁因攻趙。趙使廉頗將。趙軍士卒犯秦斥兵，秦斥兵斬趙裨將茄。六月，陷趙軍，取二鄣四尉。七月，趙軍筑壘壁而守之。秦又攻其壘，取二尉，敗其陣，奪西壘壁。廉頗堅壁以待秦，秦數挑戰，趙兵不出。趙王數以為讓。而秦相應侯又使人行千金於趙為反閒，曰：「秦之所惡，獨畏馬服子趙括將耳，廉頗易與，且降矣。」趙王既怒廉頗軍多失亡，軍數敗，又反堅壁不敢戰，而又聞秦反閒之言，因使趙括代廉頗將以擊秦。秦聞馬服子將，乃陰使武安君白起為上將軍。而王龁為尉裨將，令軍中有敢泄武安君將者斬。趙括至，則出兵擊秦軍。秦軍詳敗而走，張二奇兵以劫之。趙軍逐勝，追造秦壁。壁堅拒不得入，而秦奇兵二萬五千人絕趙軍後，又一軍五千騎絕趙壁閒，趙軍分而為二，糧道絕。而秦出輕兵擊之。趙戰不利，因筑壁堅守，以待救至。秦王聞趙食道絕，王自之河內，賜民爵各一級，發年十五以上悉詣長平，遮絕趙救及糧食。"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "四十七。白起破趙長平，殺卒四十五萬。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r217-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "260",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r217-c00"
+        }
+      ],
+      "rationale": "四十七年本段長平之戰內秘密任白起上將軍，以年表秦四十七年及數位年欄對照。僅保存編輯暫定年尺度，不推曆月日期或未知任職終點，未核印本影像及曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji073-006",
+      "person_id": "2bk_fz6_icl",
+      "endpoint": "start",
+      "title": "上將軍"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "2bk_fz6_icl"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-103",
+      "person_id": "2bk_fz6_icl",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p070",
+          "quote": "十三年，向壽伐韓，取武始。左更白起攻新城。五大夫禮出亡奔魏。任鄙為漢中守。十四年，左更白起攻韓、魏於伊闕，斬首二十四萬，虜公孫喜，拔五城。十五年，大良造白起攻魏，取垣，復予之。攻楚，取宛。十六年，左更錯取軹及鄧。冉免，封公子市宛，公子悝鄧，魏冉陶，為諸侯。十七年，城陽君入朝，及東周君來朝。秦以垣為蒲阪、皮氏。王之宜陽。十八年，錯攻垣、河雍，決橋取之。十九年，王為西帝，齊為東帝，皆復去之。呂禮來自歸。齊破宋，宋王在魏，死溫。任鄙卒。二十年，王之漢中，又之上郡、北河。二十一年，錯攻魏河內。魏獻安邑，秦出其人，募徙河東賜爵，赦罪人遷之。涇陽君封宛。二十二年，蒙武伐齊。河東為九縣。與楚王會宛。與趙王會中陽。二十三年，尉斯離與三晉、燕伐齊，破之濟西。王與魏王會宜陽，與韓王會新城。二十四年，與楚王會鄢，又會穰。秦取魏安城，至大梁，燕、趙救之，秦軍去。魏冉免相。二十五年，拔趙二城。與韓王會新城，與魏王會新明邑。二十六年，赦罪人遷之穰。侯冉復相。二十七年，錯攻楚。赦罪人遷之南陽。白起攻趙，取代光狼城。又使司馬錯發隴西，因蜀攻楚黔中，拔之。二十八年，大良造白起攻楚，取鄢、鄧，赦罪人遷之。二十九年，大良造白起攻楚，取郢為南郡，楚王走。周君來。王與楚王會襄陵。白起為武安君。三十年，蜀守若伐楚，取巫郡，及江南為黔中郡。三十一年，白起伐魏，取兩城。楚人反我江南。三十二年，相穰侯攻魏，至大梁，破暴鳶，斬首四萬，鳶走，魏入三縣請和。三十三年，客卿胡傷攻魏卷、蔡陽、長社，取之。擊芒卯華陽，破之，斬首十五萬。魏入南陽以和。三十四年，秦與魏、韓上庸地為一郡，南陽免臣遷居之。三十五年，佐韓、魏、楚伐燕。初置南陽郡。三十六年，客卿灶攻齊，取剛、壽，予穰侯。三十八年，中更胡傷攻趙閼與，不能取。四十年，悼太子死魏，歸葬芷陽。四十一年夏，攻魏，取邢丘、懷。四十二年，安國君為太子。十月，宣太后薨，葬芷陽酈山。九月，穰侯出之陶。四十三年，武安君白起攻韓，拔九城，斬首五萬。四十四年，攻韓南郡，取之。四十五年，五大夫賁攻韓，取十城。葉陽君悝出之國，未至而死。四十七年，秦攻韓上黨，上黨降趙，秦因攻趙，趙發兵擊秦，相距。秦使武安君白起擊，大破趙於長平，四十餘萬盡殺之。四十八年十月，韓獻垣雍。秦軍分為三軍。武安君歸。王齕將伐趙皮牢，拔之。司馬梗北定太原，盡有韓上黨。正月，兵罷，復守上黨。其十月，五大夫陵攻趙邯鄲。四十九年正月，益發卒佐陵。陵戰不善，免，王齕代將。其十月，將軍張唐攻魏，為蔡尉捐弗守，還斬之。五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。齕攻邯鄲，不拔，去，還奔汾軍。二月餘攻晉軍，斬首六千，晉楚流死河二萬人。攻汾城，即從唐拔寧新中，寧新中更名安陽。初作河橋。",
+          "person_mention_id": "c-shiji-005-qin:m070-0808"
+        }
+      ],
+      "source_term": "武安君白起有罪，死",
+      "interpretation_note": "依明言死亡或斬殺保存，未至而死不當已到封國。蔡尉捐不守後還斬之依敘事指代判讀。軍隊首級數未另造個人人物；未補西曆。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji007-015",
+      "person_id": "2bk_fz6_icl",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p013",
+          "quote": "章邯軍棘原，項羽軍漳南，相持未戰。秦軍數卻，二世使人讓章邯。章邯恐，使長史欣請事。至咸陽，留司馬門三日，趙高不見，有不信之心。長史欣恐，還走其軍，不敢出故道，趙高果使人追之，不及。欣至軍，報曰：「趙高用事於中，下無可為者。今戰能勝，高必疾妒吾功；戰不能勝，不免於死。願將軍孰計之。」陳餘亦遺章邯書曰：「白起為秦將，南征鄢郢，北阬馬服，攻城略地，不可勝計，而竟賜死。蒙恬為秦將，北逐戎人，開榆中地數千里，竟斬陽周。何者？功多，秦不能盡封，因以法誅之。今將軍為秦將三歲矣，所亡失以十萬數，而諸侯并起滋益多。彼趙高素諛日久，今事急，亦恐二世誅之，故欲以法誅將軍以塞責，使人更代將軍以脫其禍。夫將軍居外久，多內卻，有功亦誅，無功亦誅。且天之亡秦，無愚智皆知之。今將軍內不能直諫，外為亡國將，孤特獨立而欲常存，豈不哀哉！將軍何不還兵與諸侯為從，約共攻秦，分王其地，南面稱孤；此孰與身伏鈇質，妻子為僇乎？」章邯狐疑，陰使候始成使項羽，欲約。約未成，項羽使蒲將軍日夜引兵度三戶，軍漳南，與秦戰，再破之。項羽悉引兵擊秦軍汙水上，大破之。",
+          "person_mention_id": "c-shiji-007-xiangyu:m013-0151"
+        }
+      ],
+      "source_term": "而竟賜死",
+      "interpretation_note": "陳餘書中追述，與其他篇死亡見證分存；不當陳餘發出賜死命令。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji073-003",
+      "person_id": "2bk_fz6_icl",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "秦昭王五十年十一月",
+      "source_term": "遂自殺",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p008",
+          "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+          "person_mention_id": "c-shiji-073-baiwang:m008-0044"
+        }
+      ],
+      "interpretation_note": "僅保存具名者明示死亡；被虜、王降、病及群體死亡不轉為個人死亡。秦二世時皆已死是已死陳述，不當兩人同年或秦二世年內死亡；原月日不轉公曆。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 257,
+        "year": -256,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-073-baiwang",
+            "source_id": "s-shiji-073-baiwang",
+            "paragraph_id": "c-shiji-073-baiwang:p008",
+            "quote": "秦王使王龁代陵將，八九月圍邯鄲，不能拔。楚使春申君及魏公子將兵數十萬攻秦軍，秦軍多失亡。武安君言曰：「秦不聽臣計，今如何矣！」秦王聞之，怒，彊起武安君，武安君遂稱病甐。應侯請之，不起。於是免武安君為士伍，遷之陰密。武安君病，未能行。居三月，諸侯攻秦軍急，秦軍數卻，使者日至。秦王乃使人遣白起，不得留咸陽中。武安君既行，出咸陽西門十里，至杜郵。秦昭王與應侯群臣議曰：「白起之遷，其意尚怏怏不服，有餘言。」秦王乃使使者賜之劍，自裁。武安君引劍將自剄，曰：「我何罪于天而至此哉？」良久，曰：「我固當死。長平之戰，趙卒降者數十萬人，我詐而盡阬之，是足以死。」遂自殺。武安君之死也，以秦昭王五十年十一月。死而非其罪，秦人憐之，鄉邑皆祭祀焉。",
+            "person_mention_id": "c-shiji-073-baiwang:m008-0044"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈六國年表〉秦紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "五十。王齕、鄭安平圍邯鄲，及齕還軍，拔新中。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r220-c02"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "257",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r220-c00"
+          },
+          {
+            "title": "《史記》〈秦本紀〉白起死亡敘事",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
+            "quote": "五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。",
+            "scope": "received_chronological_variant",
+            "chapter_id": "c-shiji-005-qin",
+            "paragraph_id": "c-shiji-005-qin:p070",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇秦昭王五十年十一月死亡，以年表秦五十及數位年欄換算前257年；秦本紀五十年十二月敘事後亦記死亡，月份時序異說保留。僅為原紀年之年尺度數字對照，不把原十一月或四月當公曆月，不指定公曆日期，未核底本影像及曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji079-005",
+      "person_id": "2bk_fz6_icl",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "賜劍死於杜郵",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p032",
+          "quote": "白起之勢也。身所服者七十餘城，功已成矣，而遂賜劍死於杜郵。",
+          "person_mention_id": "c-shiji-079-fancai:m032-0957"
+        }
+      ],
+      "interpretation_note": "明記已發生死亡，保存本篇敘事或引古說辭的主張；未明示絕對紀年者不以相鄰事件、年齡預言或條件式推造卒年，不以死亡自動終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

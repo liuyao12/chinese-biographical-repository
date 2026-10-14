@@ -14,6 +14,48 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_adoptive_mother_requires_explicit_received_term(self):
+        self.change('corpus/shiji/085-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='母'))
+        self.assertIn('所母關係須保存原詞，不得由一般母稱推定', v.validate(self.root))
+    def test_household_revenue_cannot_be_relabelled_residence(self):
+        self.change('corpus/shiji/085-addresses.json', lambda d: d['assertions'][1].update(relation='residence'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_household_revenue_requires_full_allocation_wording(self):
+        self.change('corpus/shiji/085-addresses.json', lambda d: d['assertions'][1].update(source_term='食'))
+        self.assertIn('食戶地望須保存食地名與戶數原語，不得當人口或居處', v.validate(self.root))
+    def test_tangmu_estate_cannot_be_relabelled_native_place(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][4].update(relation='native_place'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_maintenance_allocation_cannot_be_relabelled_tangmu(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][5]['qualifiers'].update(fief_kind='tangmu_estate'))
+        self.assertIn('食邑主張須保存湯沐邑或奉原詞及類型，不得改為籍貫', v.validate(self.root))
+    def test_residence_years_cannot_be_title_years(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][6]['reported_duration'].update(unit='title_year'))
+        self.assertIn('居留來源年數須有數值、原數詞與同項證據，不得當官爵任期或推曆日', v.validate(self.root))
+    def test_residence_duration_cannot_change_source_numeral(self):
+        self.change('corpus/shiji/077-addresses.json', lambda d: d['assertions'][6]['reported_duration'].update(value=11))
+        self.assertIn('居留來源年數須有數值、原數詞與同項證據，不得當官爵任期或推曆日', v.validate(self.root))
+    def test_continuous_address_requires_all_intervening_paragraphs(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][3]['evidence'][0]['context'].update(intervening_paragraph_ids=['c-shiji-069-su:p004']))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_continuous_address_cannot_reverse_paragraph_order(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][3]['evidence'][0]['context']['intervening_paragraph_ids'].reverse())
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_continuous_address_cannot_replace_subject_with_local_ruler(self):
+        self.change('corpus/shiji/069-addresses.json', lambda d: d['assertions'][2].update(person_id='ho4_me8_not'))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
+    def test_unspecified_affinity_cannot_invent_connecting_daughter(self):
+        self.change('corpus/shiji/069-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(connecting_person_ids=['invented-daughter']))
+        self.assertIn('未明姻親須保存婚原詞，不得補配偶、連接人物或世代', v.validate(self.root))
+    def test_unspecified_affinity_requires_marriage_wording(self):
+        self.change('corpus/shiji/069-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='燕相子之'))
+        self.assertIn('未明姻親須保存婚原詞，不得補配偶、連接人物或世代', v.validate(self.root))
+    def test_unknown_office_restoration_cannot_bind_known_title(self):
+        self.change('corpus/shiji/069-person-events.json', lambda d: d['events'][1].update(office_title='從約長',title_holding_id='th-shiji069-004'))
+        self.assertIn('未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結', v.validate(self.root))
+    def test_office_non_reinstatement_cannot_be_relabelled_restoration(self):
+        self.change('corpus/shiji/069-person-events.json', lambda d: d['events'][0].update(event_type='office_restoration'))
+        self.assertIn('未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結', v.validate(self.root))
     def test_polity_lineage_address_requires_royal_scope(self):
         self.change('corpus/shiji/068-addresses.json', lambda d: next(a for a in d['assertions'] if a['id']=='pa-shiji068-007').update(qualifiers={}))
         self.assertIn('宗族政體地望須有來源身份詞，不改作出生籍貫', v.validate(self.root))
@@ -41,7 +83,7 @@ class CorpusTests(unittest.TestCase):
         self.change_shang_approximation(lambda d: d.update(source_number='六八',source_term='相秦六八年',approximation={'kind':'adjacent_year_numbers','numbers':[6,8]}))
         self.assertIn('稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字', v.validate(self.root))
     def test_reported_age_group_cannot_switch_person(self):
-        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(person_id='0hj_4kj_cen'))
+        self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(person_id='huf_d39_8pf'))
         self.assertIn('同組報齡須同人物及來源段落', v.validate(self.root))
     def test_reported_age_alternative_cannot_orphan_group(self):
         self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(report_group_id='orphan-report'))
@@ -63,7 +105,7 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/063.json', lambda d: d['annotation']['age_assertions'][1].update(qualified_source_term='二百餘歲'))
         self.assertIn('個人報齡缺來源限定詞或傳聞狀態', v.validate(self.root))
     def test_royal_inheritance_rejects_unrelated_predecessor(self):
-        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(predecessor_person_id='82d_8vl_8i1_C'))
+        self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(predecessor_person_id='yqp_nlb_p1p_ACC'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_royal_inheritance_rejects_changed_kingdom(self):
         self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-026')['inheritance'].update(resolved_title='代王'))
@@ -78,7 +120,7 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/058-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji058-038')['inheritance'].update(predecessor_holding_id='th-shiji058-999'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_life_subject_context_rejects_wrong_person(self):
-        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-015').update(person_id='1c8_u63_bk4_C'))
+        self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-015').update(person_id='yqp_nlb_p1p_ACAC'))
         self.assertIn('生卒主語承接須有近前同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_life_subject_context_requires_intervening_paragraph(self):
         self.change('corpus/shiji/059-life-events.json', lambda d: next(e for e in d['events'] if e['id']=='le-shiji059-017')['evidence'][0]['context'].update(intervening_paragraph_ids=[]))
@@ -114,19 +156,19 @@ class CorpusTests(unittest.TestCase):
             e['context']['paragraph_id']='c-shiji-057-zhou:p002'
             e['context']['person_mention_id']='c-shiji-057-zhou:m002-0009'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_requires_same_person(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
             e['context']['person_mention_id']='c-shiji-057-zhou:m004-0008'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_anchor_must_be_in_quote(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
             e['context']['quote']='以將軍從高帝'
         self.change('corpus/shiji/057-addresses.json', change)
-        self.assertIn('地址主語承接須有前一同篇段落及相符人物引句', v.validate(self.root))
+        self.assertIn('地址主語承接須有同篇人物錨點、引句及完整中間段落', v.validate(self.root))
     def test_address_subject_cannot_be_implicit(self):
         def change(d):
             e=next(a for a in d['assertions'] if 'context' in a['evidence'][0])['evidence'][0]
@@ -152,7 +194,7 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(lower_inclusive=True))
         self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
     def test_group_age_cannot_include_emperor(self):
-        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0]['group_reference']['person_ids'].__setitem__(1, 'aae_mkd_tas'))
+        self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0]['group_reference']['person_ids'].__setitem__(1, 'yqp_nlb_p1p_A'))
         self.assertIn('群體報齡具名名單未見於引句', v.validate(self.root))
     def test_group_age_cannot_infer_birth(self):
         self.change('corpus/shiji/055.json', lambda d: d['annotation']['age_assertions'][0].update(birth_year=-275))
@@ -165,7 +207,7 @@ class CorpusTests(unittest.TestCase):
         self.assertIn('外孫祖母關係須保留母系兩代與原句未名母親', v.validate(self.root))
 
     def test_inheritance_rejects_unrelated_predecessor(self):
-        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(predecessor_person_id='6z2_ipx_avk'))
+        self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(predecessor_person_id='5dd_l1c_6g8'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
     def test_inheritance_rejects_changed_rank(self):
         self.change('corpus/shiji/111-titles.json', lambda d: next(h for h in d['holdings'] if 'inheritance' in h)['inheritance'].update(resolved_title='長平侯'))
@@ -364,6 +406,14 @@ class CorpusTests(unittest.TestCase):
     def test_changed_offsets_rejected(self):
         self.change('corpus/shiji/001.json',lambda d:d['paragraphs'][0]['mentions'][0].update(start=1))
         self.assertTrue(any('位置不符' in e for e in v.validate(self.root)))
+    def test_punctuation_only_person_anchor_rejected(self):
+        def mutate(d):
+            paragraph = next(p for p in d['paragraphs'] if p['id'].endswith(':p018'))
+            mention = next(m for m in paragraph['mentions'] if m['id'].endswith(':m018-0183'))
+            self.assertEqual(paragraph['text'][183:184], '，')
+            mention.update(start=183, end=184, surface='，')
+        self.change('corpus/shiji/086.json', mutate)
+        self.assertIn('人物提及不得僅為標點或空白', v.validate(self.root))
     def test_wrong_book_rejected(self):
         self.change('corpus/shiji/001.json',lambda d:d.update(book_id='b-shiji-002'))
         self.assertTrue(any('歸屬不符' in e for e in v.validate(self.root)))
@@ -589,11 +639,16 @@ class CorpusTests(unittest.TestCase):
         c=json.loads((self.root/'corpus/shiji/007.json').read_text())
         old=[m for p in c['paragraphs'][:12] for m in p['mentions'] if m['surface']=='當陽君']
         self.assertTrue(old)
-        self.assertEqual({m['person_id'] for m in old},{'1cd_mzr_sj4'})
+        self.assertEqual({m['person_id'] for m in old},{'zxd_afr_2xg'})
         decision=json.loads((self.root/'corpus/shiji/007-equivalences.json').read_text())['decisions'][0]
-        self.assertEqual(set(decision['person_ids']),{'1cd_mzr_sj4','zxd_afr_2xg'})
+        self.assertEqual(set(decision['person_ids']),{'zxd_afr_2xg'})
         self.assertEqual(decision['canonical_person_id'],'zxd_afr_2xg')
         self.assertEqual(v.validate(self.root),[])
+    def test_materialized_flag_cannot_accept_multiple_person_ids(self):
+        self.change('corpus/shiji/007-equivalences.json',
+                    lambda d: d['decisions'][0].update(identity_materialized=True, person_ids=['zxd_afr_2xg', 'ao3_0fy_d45_AAA']))
+        self.assertIn('同指決定端點無效或重複', v.validate(self.root))
+
     def test_equivalence_rejects_unrelated_quote(self):
         def mutate(d):d['decisions'][0]['evidence'][0]['quote']='故立布為九江王'
         self.change('corpus/shiji/007-equivalences.json',mutate)
@@ -603,7 +658,7 @@ class CorpusTests(unittest.TestCase):
         self.assertTrue(any('代表不在端點' in e for e in v.validate(self.root)))
     def test_equivalence_rejects_canonical_cycle(self):
         def mutate(d):
-            other=json.loads(json.dumps(d['decisions'][0]));other['id']='synthetic-cycle';other['canonical_person_id']='1cd_mzr_sj4';d['decisions'].append(other)
+            d['decisions'][0].update(person_ids=['zxd_afr_2xg', 'ao3_0fy_d45_AAA'], identity_materialized=False);other=json.loads(json.dumps(d['decisions'][0]));other['id']='synthetic-cycle';other['canonical_person_id']='ao3_0fy_d45_AAA';d['decisions'].append(other)
         self.change('corpus/shiji/007-equivalences.json',mutate)
         self.assertTrue(any('同指決定代表循環' in e for e in v.validate(self.root)))
     def test_xiangyu_verb_ji_and_ritual_names_do_not_create_kin(self):
@@ -819,6 +874,14 @@ class CorpusTests(unittest.TestCase):
     def test_migration_snapshot_rejects_impossible_count(self):
         self.change('registry/person-id-migrations.json', lambda d: d.update(person_count=10**9))
         self.assertTrue(any('全面遷移範圍' in e for e in v.validate(self.root)))
+
+    def test_retired_id_alias_cannot_be_reintroduced(self):
+        self.change('registry/persons.json', lambda d: d['persons'][0].update(id_aliases=['cbr-p999999']))
+        self.assertTrue(any('舊 ID 撤除後' in e for e in v.validate(self.root)))
+
+    def test_retired_id_policy_rejects_unupdated_references(self):
+        self.change('registry/person-id-migrations.json', lambda d: d['alias_retirement'].update(active_reference_count=1))
+        self.assertTrue(any('舊 ID 撤除後' in e for e in v.validate(self.root)))
 
     def test_title_numeric_year_rejects_bce_numbering_error(self):
         def mutate(d):

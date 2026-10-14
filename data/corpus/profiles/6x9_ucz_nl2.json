@@ -133,10 +133,84 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji034-015",
+      "subject_person_id": "5s5_hwm_0gx",
+      "predicate": "spouse",
+      "object_person_id": "6x9_ucz_nl2",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p020",
+          "quote": "易王初立，齊宣王因燕喪伐我，取十城；蘇秦説齊，使復歸燕十城。十年，燕君爲王。蘇秦與燕文公夫人私通，懼誅，乃説王使齊爲反閒，欲以亂齊。易王立十二年卒，子燕噲立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "燕文公夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
     "5s5_hwm_0gx": "燕文公夫人（未名）",
     "6x9_ucz_nl2": "文公（燕桓公後）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "6x9_ucz_nl2"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji034-015",
+      "subject_person_id": "5s5_hwm_0gx",
+      "predicate": "spouse",
+      "object_person_id": "6x9_ucz_nl2",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p020",
+          "quote": "易王初立，齊宣王因燕喪伐我，取十城；蘇秦説齊，使復歸燕十城。十年，燕君爲王。蘇秦與燕文公夫人私通，懼誅，乃説王使齊爲反閒，欲以亂齊。易王立十二年卒，子燕噲立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "燕文公夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji034-037",
+      "person_id": "6x9_ucz_nl2",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十九年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p019",
+          "quote": "二十九年，文公卒，太子立，是爲易王。",
+          "person_mention_id": "c-shiji-034-yan:m019-0005"
+        }
+      ],
+      "source_term": "文公卒",
+      "interpretation_note": "國君年次依本句，未知公曆日不補。 保存本篇明示死亡，國君紀年與數字年換算待核；被虜、出奔、擊破軍隊或滅國不直接推個人死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

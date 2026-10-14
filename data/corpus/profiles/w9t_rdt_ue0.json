@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "id": "w9t_rdt_ue0",
+  "canonical_person_id": "w9t_rdt_ue0",
+  "label": "舜生母",
+  "identity_note": "僅依本篇上下文建立；不因同名自動跨篇合併。",
+  "review": "ai_provisional",
+  "names": [
+    "母"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 1,
+      "category": "benji",
+      "title": "五帝本紀第一",
+      "paragraph_id": "c-shiji-001-wudi:p019",
+      "count": 1,
+      "quote": "舜父瞽叟盲，而舜母死，瞽叟更娶妻而生象，象傲。瞽叟愛後妻子，常欲殺舜，舜避逃；及有小過，則受罪。順事父及後母與弟，日以篤謹，匪有懈。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-001-wudi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-001",
+      "source_id": "s-shiji-001-wudi",
+      "source": {
+        "title": "史記／卷001",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷001",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+        "revision_id": 7903634,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄",
+            "异": "異"
+          },
+          "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji001-027",
+      "subject_person_id": "ddb_l4j_4j2",
+      "predicate": "mother",
+      "object_person_id": "w9t_rdt_ue0",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-001-wudi",
+          "source_id": "s-shiji-001-wudi",
+          "paragraph_id": "c-shiji-001-wudi:p019",
+          "quote": "舜父瞽叟盲，而舜母死，瞽叟更娶妻而生象，象傲。瞽叟愛後妻子，常欲殺舜，舜避逃；及有小過，則受罪。順事父及後母與弟，日以篤謹，匪有懈。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "舜母死"
+      },
+      "interpretation_note": "逐句保存上古傳說的親屬陳述，不作史實確證，不因繼位推父子；後妻為象生母，不是舜生母。其他篇同關係另有來源，不替換原有證據。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "ddb_l4j_4j2": "舜",
+    "w9t_rdt_ue0": "舜生母"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "w9t_rdt_ue0"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji001-027",
+      "subject_person_id": "ddb_l4j_4j2",
+      "predicate": "mother",
+      "object_person_id": "w9t_rdt_ue0",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-001-wudi",
+          "source_id": "s-shiji-001-wudi",
+          "paragraph_id": "c-shiji-001-wudi:p019",
+          "quote": "舜父瞽叟盲，而舜母死，瞽叟更娶妻而生象，象傲。瞽叟愛後妻子，常欲殺舜，舜避逃；及有小過，則受罪。順事父及後母與弟，日以篤謹，匪有懈。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "舜母死"
+      },
+      "interpretation_note": "逐句保存上古傳說的親屬陳述，不作史實確證，不因繼位推父子；後妻為象生母，不是舜生母。其他篇同關係另有來源，不替換原有證據。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji001-008",
+      "person_id": "w9t_rdt_ue0",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-001-wudi",
+          "source_id": "s-shiji-001-wudi",
+          "paragraph_id": "c-shiji-001-wudi:p019",
+          "quote": "舜父瞽叟盲，而舜母死，瞽叟更娶妻而生象，象傲。瞽叟愛後妻子，常欲殺舜，舜避逃；及有小過，則受罪。順事父及後母與弟，日以篤謹，匪有懈。",
+          "person_mention_id": "c-shiji-001-wudi:m019-0008"
+        }
+      ],
+      "source_term": "舜母死",
+      "interpretation_note": "保存上古傳說明言已死的記載；舜母指生母，後母另有ID。欲殺、得不死、以舜爲已死均不記舜死亡。無可驗公元年，保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

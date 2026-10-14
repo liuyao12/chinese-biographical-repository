@@ -128,5 +128,78 @@
     "0ad_dbw_97q_AA": "忌（戴子子）",
     "0ad_dbw_97q_AAA": "驕（晉哀公）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "0ad_dbw_97q_AAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji039-057",
+      "subject_person_id": "0ad_dbw_97q_AAA",
+      "predicate": "father",
+      "object_person_id": "0ad_dbw_97q_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p134",
+          "quote": "哀公大父雍，晉昭公少子也，號爲戴子。戴子生忌。忌善知伯，蚤死，故知伯欲盡并晉，未敢，乃立忌子驕爲君。當是時，晉國政皆決知伯，晉哀公不得有所制。知伯遂有范、中行地，最彊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "忌子驕",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示親屬或生育敘事；不由繼位補父子，不補闕代。母、女弟、庶孫等依原文；人物暫同指及不同篇主張仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji039-058",
+      "subject_person_id": "0ad_dbw_97q_AAA",
+      "predicate": "grandfather",
+      "object_person_id": "0ad_dbw_97q_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p134",
+          "quote": "哀公大父雍，晉昭公少子也，號爲戴子。戴子生忌。忌善知伯，蚤死，故知伯欲盡并晉，未敢，乃立忌子驕爲君。當是時，晉國政皆決知伯，晉哀公不得有所制。知伯遂有范、中行地，最彊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "哀公大父雍",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示親屬或生育敘事；不由繼位補父子，不補闕代。母、女弟、庶孫等依原文；人物暫同指及不同篇主張仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji039-094",
+      "person_id": "0ad_dbw_97q_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p136",
+          "quote": "十八年，哀公卒，子幽公柳立。",
+          "person_mention_id": "c-shiji-039-jin:m136-0004"
+        }
+      ],
+      "source_term": "哀公卒",
+      "interpretation_note": "原文明示死亡；蚤死為回述，道死未記具體地點，不借齊為死亡地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

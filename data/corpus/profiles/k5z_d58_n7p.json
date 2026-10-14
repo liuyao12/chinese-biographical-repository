@@ -6,16 +6,16 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "太子完",
-    "太子",
-    "楚太子",
-    "楚使者御",
+    "太子熊元",
     "考烈王",
     "楚王",
+    "太子",
+    "考烈",
+    "太子完",
+    "楚太子",
+    "楚使者御",
     "楚考烈王",
-    "王",
-    "太子熊元",
-    "考烈"
+    "王"
   ],
   "titles": [
     {
@@ -70,7 +70,7 @@
     },
     {
       "id": "th-shiji078-004",
-      "person_id": "7lc_ham_b1m",
+      "person_id": "k5z_d58_n7p",
       "title": "太子",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -112,7 +112,7 @@
     },
     {
       "id": "th-shiji078-009",
-      "person_id": "7lc_ham_b1m",
+      "person_id": "k5z_d58_n7p",
       "title": "考烈王",
       "kind": "royal_rank",
       "mode": "grant",
@@ -260,13 +260,236 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji040-080",
+      "subject_person_id": "k5z_d58_n7p_A",
+      "predicate": "father",
+      "object_person_id": "k5z_d58_n7p",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p091",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
-    "7lc_ham_b1m": "太子完考烈王（春申君列傳候選）",
-    "g6c_exa_3pg": "李園女弟子楚幽王（春申君列傳候選）",
+    "e79_ty0_mkx": "春申君黃歇",
     "k5z_d58_n7p": "熊元（楚考烈王）",
-    "k5z_d58_n7p_A": "悍（楚幽王）",
-    "zun_s94_rgs": "春申君黃歇（春申君列傳候選）"
+    "k5z_d58_n7p_A": "悍（楚幽王）"
   },
-  "dates": []
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 238,
+      "year": -237,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "後十七日，楚考烈王卒，李園果先入，伏死士於棘門之內。春申君入棘門，園死士俠刺春申君，斬其頭，投之棘門外。於是遂使吏盡滅春申君之家。而李園女弟初幸春申君有身而入之王所生子者遂立，是為楚幽王。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-078-chunshen",
+          "source_id": "s-shiji-078-chunshen",
+          "paragraph_id": "c-shiji-078-chunshen:p020",
+          "quote": "後十七日，楚考烈王卒，李園果先入，伏死士於棘門之內。春申君入棘門，園死士俠刺春申君，斬其頭，投之棘門外。於是遂使吏盡滅春申君之家。而李園女弟初幸春申君有身而入之王所生子者遂立，是為楚幽王。",
+          "person_mention_id": "c-shiji-078-chunshen:m020-0005"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈楚世家〉同一死亡事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "〈楚世家〉原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "quote": "二十五年",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "〈六國年表〉楚欄原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "二十五。李園殺春申君。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r239-c06"
+        },
+        {
+          "title": "〈六國年表〉數位西元對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "238",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r239-c00"
+        }
+      ],
+      "rationale": "本篇死亡事件與〈楚世家〉同一人物及繼位事件逐項對讀，再按〈六國年表〉楚欄原紀年及另列數位西元對照換年。各來源引句與固定版本 URL 分開保存；不冒稱本篇有西元紀年或精確曆日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "楚考烈王卒",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+        "reference_event_quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_year_quote": "238"
+      },
+      "record_id": "le-shiji078-003",
+      "person_id": "k5z_d58_n7p",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "k5z_d58_n7p"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji040-080",
+      "subject_person_id": "k5z_d58_n7p_A",
+      "predicate": "father",
+      "object_person_id": "k5z_d58_n7p",
+      "status": "editorial_preferred",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p091",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition",
+        "parentage_role": "legal_or_dynastic",
+        "biological_parent_status": "unknown"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "source_status": "source_attested",
+      "interpretation_decision_id": "ft-shiji-parent-chuyou"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji040-068",
+      "person_id": "k5z_d58_n7p",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十五年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p091",
+          "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
+          "person_mention_id": "c-shiji-040-chu:m091-0005"
+        }
+      ],
+      "source_term": "考烈王卒",
+      "interpretation_note": "原文明示死亡，保留原君年及相對時長；被虜與滅國不推死亡，與其他篇異說分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji078-003",
+      "person_id": "k5z_d58_n7p",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "楚考烈王卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-078-chunshen",
+          "source_id": "s-shiji-078-chunshen",
+          "paragraph_id": "c-shiji-078-chunshen:p020",
+          "quote": "後十七日，楚考烈王卒，李園果先入，伏死士於棘門之內。春申君入棘門，園死士俠刺春申君，斬其頭，投之棘門外。於是遂使吏盡滅春申君之家。而李園女弟初幸春申君有身而入之王所生子者遂立，是為楚幽王。",
+          "person_mention_id": "c-shiji-078-chunshen:m020-0005"
+        }
+      ],
+      "interpretation_note": "原文明記已發生死亡；同篇之前的病重、殺人計畫與條件式不當死亡實行。原段落未明示絕對紀年，此批不以相鄰授位年份或後十七日推造公曆日；上下文紀年與平行事件換年另待逐項對讀，不以卒日推定所有稱號終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 238,
+        "year": -237,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "後十七日，楚考烈王卒，李園果先入，伏死士於棘門之內。春申君入棘門，園死士俠刺春申君，斬其頭，投之棘門外。於是遂使吏盡滅春申君之家。而李園女弟初幸春申君有身而入之王所生子者遂立，是為楚幽王。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-078-chunshen",
+            "source_id": "s-shiji-078-chunshen",
+            "paragraph_id": "c-shiji-078-chunshen:p020",
+            "quote": "後十七日，楚考烈王卒，李園果先入，伏死士於棘門之內。春申君入棘門，園死士俠刺春申君，斬其頭，投之棘門外。於是遂使吏盡滅春申君之家。而李園女弟初幸春申君有身而入之王所生子者遂立，是為楚幽王。",
+            "person_mention_id": "c-shiji-078-chunshen:m020-0005"
+          }
+        ],
+        "references": [
+          {
+            "title": "〈楚世家〉同一死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+            "quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "〈楚世家〉原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+            "quote": "二十五年",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "〈六國年表〉楚欄原紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "二十五。李園殺春申君。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r239-c06"
+          },
+          {
+            "title": "〈六國年表〉數位西元對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "238",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r239-c00"
+          }
+        ],
+        "rationale": "本篇死亡事件與〈楚世家〉同一人物及繼位事件逐項對讀，再按〈六國年表〉楚欄原紀年及另列數位西元對照換年。各來源引句與固定版本 URL 分開保存；不冒稱本篇有西元紀年或精確曆日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "楚考烈王卒",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796",
+          "reference_event_quote": "二十五年，考烈王卒，子幽王悍立。李園殺春申君。",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_year_quote": "238"
+        }
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

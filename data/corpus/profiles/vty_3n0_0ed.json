@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "vty_3n0_0ed",
+  "canonical_person_id": "vty_3n0_0ed",
+  "label": "病疽卒父（孫吳列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "其父"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 65,
+      "category": "liezhuan",
+      "title": "孫子吳起列傳第五",
+      "paragraph_id": "c-shiji-065-sun:p009",
+      "count": 2,
+      "quote": "。人曰：「子卒也，而將軍自吮其疽，何哭為？」母曰：「非然也。往年吳公吮其父，其父戰不旋踵，遂死於敵。吳公今又吮其子，妾不知其死所矣。是以哭之。」"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-065-sun",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-065",
+      "source_id": "s-shiji-065-sun",
+      "source": {
+        "title": "史記／卷065",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷065",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048",
+        "revision_id": 2567048,
+        "accessed_on": "2026-10-09",
+        "extent": "14段正文，排除註釋版及2段導覽，無索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。已核（即封）是正文括號文字，原樣保留，不當新增授爵事件。保留控棬、搏撠、擣虛、鉆火、贏糧、戰鬬等原字。",
+          "note": "全14段已核讀，未核可靠底本、影像或現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji065-006",
+      "subject_person_id": "vty_3n0_0ed_A",
+      "predicate": "father",
+      "object_person_id": "vty_3n0_0ed",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p009",
+          "quote": "起之為將，與士卒最下者同衣食。臥不設席，行不騎乘，親裹贏糧，與士卒分勞苦。卒有病疽者，起為吮之。卒母聞而哭之。人曰：「子卒也，而將軍自吮其疽，何哭為？」母曰：「非然也。往年吳公吮其父，其父戰不旋踵，遂死於敵。吳公今又吮其子，妾不知其死所矣。是以哭之。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其父",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示取妻、母、其子及故事局部父稱保存。孫武後世子孫只記祖先，不補直接父子；病卒家屬不接吳起親屬，公叔公主不接試延吳起公主。引語與來源故事保留範圍，不作獨立史實確證。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "vty_3n0_0ed": "病疽卒父（孫吳列傳候選）",
+    "vty_3n0_0ed_A": "病疽卒（孫吳列傳候選）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "vty_3n0_0ed"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji065-006",
+      "subject_person_id": "vty_3n0_0ed_A",
+      "predicate": "father",
+      "object_person_id": "vty_3n0_0ed",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun",
+          "paragraph_id": "c-shiji-065-sun:p009",
+          "quote": "起之為將，與士卒最下者同衣食。臥不設席，行不騎乘，親裹贏糧，與士卒分勞苦。卒有病疽者，起為吮之。卒母聞而哭之。人曰：「子卒也，而將軍自吮其疽，何哭為？」母曰：「非然也。往年吳公吮其父，其父戰不旋踵，遂死於敵。吳公今又吮其子，妾不知其死所矣。是以哭之。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其父",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示取妻、母、其子及故事局部父稱保存。孫武後世子孫只記祖先，不補直接父子；病卒家屬不接吳起親屬，公叔公主不接試延吳起公主。引語與來源故事保留範圍，不作獨立史實確證。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji065-005",
+      "person_id": "vty_3n0_0ed",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "遂死於敵",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-065-sun:p009",
+          "quote": "起之為將，與士卒最下者同衣食。臥不設席，行不騎乘，親裹贏糧，與士卒分勞苦。卒有病疽者，起為吮之。卒母聞而哭之。人曰：「子卒也，而將軍自吮其疽，何哭為？」母曰：「非然也。往年吳公吮其父，其父戰不旋踵，遂死於敵。吳公今又吮其子，妾不知其死所矣。是以哭之。」",
+          "person_mention_id": "c-shiji-065-sun:m009-0089",
+          "chapter_id": "c-shiji-065-sun",
+          "source_id": "s-shiji-065-sun"
+        }
+      ],
+      "interpretation_note": "卒母所述丈夫死亡，不推病卒已死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

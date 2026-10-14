@@ -3,11 +3,12 @@ import {t, ui} from './i18n.js';
 import {chapterURL, chapterParagraph, filteredChapters} from './corpus-reader.js';
 import {safeSourceURL} from './historical-tables.js';
 import {mountHistoricalTable} from './historical-table-view.js';
+import {bindPersonCards} from './cbr-person.js';
 import {historicalTableMarkup} from './historical-table-markup.js';
 const $ = id => document.getElementById(id);
 let index, people, selected, category = 'all', ticket = 0;
 const cache = new Map();
-let tableReader;
+let tableReader, removeTextPersonCards;
 const labels = {marked_text: 'Annotated text', table: 'Continuous table', pending: 'Not yet imported'};
 const ext = (url, label) => safeSourceURL(url) ? `<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>` : '';
 function list() {
@@ -19,26 +20,6 @@ function list() {
     return group.length ? `<section class="chapter-group"><h2>${h(c.label)} <small>${group.length}</small></h2>${group.map(e => `<a class="chapter-entry" href="${h(chapterURL(e.number, category))}" aria-current="${selected?.number === e.number ? 'page' : 'false'}"><span class="chapter-number">${String(e.number).padStart(3, '0')}</span><span>${h(e.title)}</span><small>${h(t(labels[e.available]))}</small></a>`).join('')}</section>` : '';
   }).join('') || `<p>${ui('No matching chapters.')}</p>`;
 }
-function personHTML(person, id) {
-  return `<h3>${h(person?.label || id)}</h3><p data-source-text>${h((person?.aliases || []).join(' · '))}</p><p><code>${h(id)}</code></p>${person?.identity_note ? `<p data-original>${h(person.identity_note)}</p>` : ''}<p class="corpus-note">${ui('Source-linked provisional identity; click to inspect context and JSON.')}</p>`;
-}
-function preview(node) {
-  const pane = $('person-preview'), id = node.dataset.personId;
-  pane.innerHTML = personHTML(people?.[id], id);
-  pane.hidden = false;
-  const box = node.getBoundingClientRect();
-  pane.style.left = Math.max(8, Math.min(box.left, window.innerWidth - 320)) + 'px';
-  pane.style.top = Math.max(8, Math.min(box.bottom + 8, window.innerHeight - pane.offsetHeight - 8)) + 'px';
-}
-function showPerson(node) {
-  $('person-preview').hidden = true;
-  const id = node.dataset.personId, paragraph = node.closest('p');
-  const p = selected.chapter.paragraphs.find(p => p.id === paragraph.id);
-  const json = 'https://raw.githubusercontent.com/liuyao12/chinese-biographical-repository/main/exports/persons/' + encodeURIComponent(id) + '.json';
-  const browse = 'https://github.com/liuyao12/chinese-biographical-repository/blob/main/exports/persons/' + encodeURIComponent(id) + '.json';
-  $('corpus-person-details').innerHTML = personHTML(people[id], id) + `<p>${ext(json, 'Full person JSON') } · ${ext(browse, 'View on GitHub')}</p><p><a href="${h(chapterURL(selected.number, category, p.id))}">${ui('Share this source paragraph')}</a></p><blockquote data-source-text>${h(p.text)}</blockquote><p><code>${h(node.id)}</code></p><p>${ext(selected.chapter.source.permalink, 'Fixed source version')}</p>`;
-  $('corpus-person-dialog').showModal();
-}
 function navigation(entry) {
   const prev = index.chapters.find(c => c.number === entry.number - 1), next = index.chapters.find(c => c.number === entry.number + 1);
   return `<nav class="chapter-pagination"><a href="shiji.html#category=${entry.category}">${ui('Back to category')}</a>${prev ? `<a href="${h(chapterURL(prev.number, category))}">← ${h(prev.title)}</a>` : ''}${next ? `<a href="${h(chapterURL(next.number, category))}">${h(next.title)} →</a>` : ''}</nav>`;
@@ -47,6 +28,7 @@ async function render() {
   const current = ++ticket, params = new URLSearchParams(location.hash.slice(1));
   category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
   const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
+  removeTextPersonCards?.(); removeTextPersonCards = null;
   tableReader?.destroy(); tableReader = null;
   selected = entry;
   list();
@@ -79,7 +61,8 @@ async function render() {
   }
   if (current !== ticket) return;
   const chapter = cache.get(number); selected = {...entry, chapter};
-  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover or focus for identity; click for the source context and person JSON.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people)).join('')}</article>${navigation(entry)}`;
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people)).join('')}</article>${navigation(entry)}`;
+  removeTextPersonCards = bindPersonCards($('corpus-content'));
   const passage = params.get('passage');
   if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
   else window.scrollTo(0, 0);
@@ -97,11 +80,6 @@ function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(erro
       render().catch(fail);
     });
     window.addEventListener('renwen:languagechange', () => render().catch(fail));
-    $('corpus-content').addEventListener('pointerover', e => { const node = e.target.closest('.cbr-person-link'); if (node) preview(node); });
-    $('corpus-content').addEventListener('pointerout', e => { if (e.target.closest('.cbr-person-link')) $('person-preview').hidden = true; });
-    $('corpus-content').addEventListener('focusin', e => { const node = e.target.closest('.cbr-person-link'); if (node) preview(node); });
-    $('corpus-content').addEventListener('focusout', () => { $('person-preview').hidden = true; });
-    $('corpus-content').addEventListener('click', e => { const node = e.target.closest('.cbr-person-link'); if (node && !e.metaKey && !e.ctrlKey) { e.preventDefault(); showPerson(node); } });
     await render();
   } catch (error) { fail(error); }
 })();

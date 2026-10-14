@@ -5,9 +5,9 @@
   "assertions": [
     {
       "id": "a-shiji077-001",
-      "subject_person_id": "6dq_od2_cg1_A",
+      "subject_person_id": "h8u_hld_5su",
       "predicate": "father",
-      "object_person_id": "6dq_od2_cg1",
+      "object_person_id": "eva_gs1_9n5_AAAAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -19,16 +19,25 @@
       ],
       "qualifiers": {
         "source_term": "魏昭王子少子",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "birth_order": {
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "parent_person_id": "eva_gs1_9n5_AAAAA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "ambiguous",
+          "source_term": "少子",
+          "interpretation_note": "原轉錄作魏昭王子少子，保留疑文；少子僅記較幼或最幼，不補確切序號、子數，亦不由 ID 字尾推排行。"
+        }
       },
       "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
       "reviewer": "Codex（AI 代理）"
     },
     {
       "id": "a-shiji077-002",
-      "subject_person_id": "6dq_od2_cg1_A",
+      "subject_person_id": "h8u_hld_5su",
       "predicate": "brother",
-      "object_person_id": "u7e_s3g_b9v",
+      "object_person_id": "eva_gs1_9n5_AAAAAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -40,16 +49,27 @@
       ],
       "qualifiers": {
         "source_term": "魏安釐王異母弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "eva_gs1_9n5_AAAAAA",
+          "younger_person_id": "h8u_hld_5su",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "shared_mother": false
       },
       "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
       "reviewer": "Codex（AI 代理）"
     },
     {
       "id": "a-shiji077-003",
-      "subject_person_id": "rcl_hpz_wh0",
-      "predicate": "brother",
-      "object_person_id": "6dq_od2_cg1_A",
+      "subject_person_id": "w68_ebz_0ew",
+      "predicate": "sister",
+      "object_person_id": "h8u_hld_5su",
       "status": "source_attested",
       "evidence": [
         {
@@ -61,16 +81,26 @@
       ],
       "qualifiers": {
         "source_term": "公子姊",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "w68_ebz_0ew",
+          "younger_person_id": "h8u_hld_5su",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
-      "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
+      "interpretation_note": "公子姊為平原君夫人，姊妹端點與年長方向明示；修正此前誤用 brother，保留原陳述 ID。僅此句不補她的父母，也不替她補姓名。",
       "reviewer": "Codex（AI 代理）"
     },
     {
       "id": "a-shiji077-004",
-      "subject_person_id": "rcl_hpz_wh0",
+      "subject_person_id": "w68_ebz_0ew",
       "predicate": "spouse",
-      "object_person_id": "fx4_w1m_tu6",
+      "object_person_id": "03v_bhv_img",
       "status": "source_attested",
       "evidence": [
         {
@@ -89,9 +119,9 @@
     },
     {
       "id": "a-shiji077-005",
-      "subject_person_id": "fx4_w1m_tu6",
+      "subject_person_id": "03v_bhv_img",
       "predicate": "brother",
-      "object_person_id": "efc_pnt_wy1",
+      "object_person_id": "txj_z8z_5me_AB",
       "status": "source_attested",
       "evidence": [
         {
@@ -103,7 +133,17 @@
       ],
       "qualifiers": {
         "source_term": "趙惠文王弟",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "txj_z8z_5me_AB",
+          "younger_person_id": "03v_bhv_img",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
       },
       "interpretation_note": "只存明示父、異母弟、姊及夫人；異母不補兩位母親，軍令父子兄弟不建立個人世系，如姬父仍未名。",
       "reviewer": "Codex（AI 代理）"

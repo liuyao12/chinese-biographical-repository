@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "46a_tvp_dq9_A",
+  "canonical_person_id": "46a_tvp_dq9_A",
+  "label": "秦孝公（魏世家候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "孝公",
+    "秦孝公"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 44,
+      "category": "shijia",
+      "title": "魏世家第十四",
+      "paragraph_id": "c-shiji-044-wei:p030",
+      "count": 3,
+      "quote": "宋儀臺。九年，伐敗韓于澮。與秦戰少梁，虜我將公孫痤，取龐。秦獻公卒，子孝公立。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-044-wei",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "source_id": "s-shiji-044-wei",
+      "source": {
+        "title": "史記／卷044",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷044",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606",
+        "revision_id": 7903606,
+        "accessed_on": "2026-10-09",
+        "extent": "70段正文；排除現代章節標題、斠勘空段與版權告示，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
+          "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji044-013",
+      "subject_person_id": "46a_tvp_dq9_A",
+      "predicate": "father",
+      "object_person_id": "46a_tvp_dq9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p030",
+          "quote": "二年，魏敗韓于馬陵，敗趙于懷。三年，齊敗我觀。五年，與韓會宅陽。城武堵。爲秦所敗。六年，伐取宋儀臺。九年，伐敗韓于澮。與秦戰少梁，虜我將公孫痤，取龐。秦獻公卒，子孝公立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "秦獻公卒，子孝公立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子與繼位語句，傳統魏王世系及紀年疑點留待底本與研究對讀，不改寫原文。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "46a_tvp_dq9": "秦獻公（魏世家候選）",
+    "46a_tvp_dq9_A": "秦孝公（魏世家候選）"
+  },
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 338,
+      "year": -337,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "卅三年，秦孝公卒，商君亡秦歸魏，魏怒，不入。卅五年，與齊宣王會平阿南。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p038",
+          "quote": "卅三年，秦孝公卒，商君亡秦歸魏，魏怒，不入。卅五年，與齊宣王會平阿南。",
+          "person_mention_id": "c-shiji-044-wei:m038-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/wiki/史記/卷015",
+          "quote": "二十四。（秦）大荔圍合陽。孝公薨。商君反，死彤地。",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "魏卅三年及秦孝公卒，對卷十五公元前338年欄。 僅換算年；數位年欄為編者換算，未核影像或曆表。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji044-010",
+      "person_id": "46a_tvp_dq9_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "46a_tvp_dq9_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji044-013",
+      "subject_person_id": "46a_tvp_dq9_A",
+      "predicate": "father",
+      "object_person_id": "46a_tvp_dq9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p030",
+          "quote": "二年，魏敗韓于馬陵，敗趙于懷。三年，齊敗我觀。五年，與韓會宅陽。城武堵。爲秦所敗。六年，伐取宋儀臺。九年，伐敗韓于澮。與秦戰少梁，虜我將公孫痤，取龐。秦獻公卒，子孝公立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "秦獻公卒，子孝公立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子與繼位語句，傳統魏王世系及紀年疑點留待底本與研究對讀，不改寫原文。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji044-010",
+      "person_id": "46a_tvp_dq9_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "卅三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-044-wei",
+          "source_id": "s-shiji-044-wei",
+          "paragraph_id": "c-shiji-044-wei:p038",
+          "quote": "卅三年，秦孝公卒，商君亡秦歸魏，魏怒，不入。卅五年，與齊宣王會平阿南。",
+          "person_mention_id": "c-shiji-044-wei:m038-0004"
+        }
+      ],
+      "source_term": "秦孝公卒",
+      "interpretation_note": "來源明示生死候選；引語回述不借敘事當年，世系生子不補確切年月。數字換算及跨篇紀年續核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 338,
+        "year": -337,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "卅三年，秦孝公卒，商君亡秦歸魏，魏怒，不入。卅五年，與齊宣王會平阿南。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-044-wei",
+            "source_id": "s-shiji-044-wei",
+            "paragraph_id": "c-shiji-044-wei:p038",
+            "quote": "卅三年，秦孝公卒，商君亡秦歸魏，魏怒，不入。卅五年，與齊宣王會平阿南。",
+            "person_mention_id": "c-shiji-044-wei:m038-0004"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/wiki/史記/卷015",
+            "quote": "二十四。（秦）大荔圍合陽。孝公薨。商君反，死彤地。",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "魏卅三年及秦孝公卒，對卷十五公元前338年欄。 僅換算年；數位年欄為編者換算，未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

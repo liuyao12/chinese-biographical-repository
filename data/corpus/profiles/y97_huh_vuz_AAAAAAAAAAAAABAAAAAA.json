@@ -6,13 +6,13 @@
   "identity_note": "依本卷特定時代與敘事建立；同名與世襲官號不得全庫合併，本名未見不補造。",
   "review": "ai_provisional",
   "names": [
-    "太子",
     "秦惠王",
     "惠文君",
     "惠王",
     "惠文王",
     "敝邑之王",
-    "秦王"
+    "秦王",
+    "太子"
   ],
   "titles": [
     {
@@ -162,7 +162,7 @@
     },
     {
       "id": "th-shiji068-006",
-      "person_id": "6aj_h39_deu",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
       "title": "太子",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -204,7 +204,7 @@
     },
     {
       "id": "th-shiji068-021",
-      "person_id": "6aj_h39_deu",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
       "title": "秦惠王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -329,6 +329,14 @@
       "paragraph_id": "c-shiji-068-shang:p006",
       "count": 6,
       "quote": "令行於民朞年，秦民之國都言初令之不便者以千數。於是太子犯法。衛鞅曰：「法之不行，自上犯之。」將法太子。太子，君嗣也，不可施刑，刑其傅公子虔，黥其師公孫賈。明日，秦人皆趨令。行之十年，秦民大說，道不拾遺，山無盜賊，家給人足。民勇於公戰，怯於私斗，鄉邑大治。"
+    },
+    {
+      "number": 84,
+      "category": "liezhuan",
+      "title": "屈原賈生列傳第二十四",
+      "paragraph_id": "c-shiji-084-qujia:p004",
+      "count": 1,
+      "quote": "屈平既絀，其後秦欲伐齊。齊與楚從親，惠王患之。乃令張儀詳去秦，厚幣委質事楚，曰：「秦甚憎齊，齊與楚從親。楚誠能絕齊，秦願獻商、於之地六百里。」楚懷王貪而信張儀，遂絕齊，使使如秦受地。張儀詐之曰：「儀與王約六里，不聞六百里。」楚使怒去，歸告懷"
     }
   ],
   "table_occurrences": [
@@ -674,6 +682,59 @@
           "note": "全11段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-084-qujia",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-084",
+      "source_id": "s-shiji-084-qujia",
+      "source": {
+        "title": "史記／卷084",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷084",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305",
+        "revision_id": 1568305,
+        "accessed_on": "2026-10-09",
+        "extent": "33段正文，屈原、懷沙、賈生及篇末評論；索隱述贊另層待收。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "铦": "銛",
+            "鸮": "鴞"
+          },
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-084-qujia:p017",
+              "witness_form": "（投）［沈］",
+              "body_reading": "投",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-084-qujia:p025",
+              "witness_form": "（微）［徵］",
+              "body_reading": "微",
+              "note": "數位增刪改讀提示另存，正文保留增改前形式，未核影像，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致；兩項改讀前形投、微保留。正文去腳註標記[1]，註文另存。括號曰保留，簡體字形轉換明記。 第13至16段懷沙、第24至25段弔屈原賦及第27至29段服鳥賦按傳世正文次序保留，詩賦引古不視為敘事當時人物；第32段孝昭附述傳承仍待覆核。",
+          "note": "全33段正文與HTML篇界已核讀，明示姓名首輪已存；未核底本影像與現代研究。",
+          "digital_footnotes": [
+            {
+              "block_index": 8,
+              "anchor": "cite_ref-1",
+              "note_id": "cite_note-1",
+              "source_text": "纳",
+              "traditional_display": "納",
+              "character_conversion": {
+                "纳": "納"
+              },
+              "note": "數位腳註提示內讀為納；來源未附校勘書目，正文內不自行替換。"
+            }
+          ]
+        }
+      }
     }
   ],
   "relations": [
@@ -699,6 +760,27 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji005-070",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p067",
+          "quote": "惠王卒，子武王立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji006-034",
       "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
       "predicate": "father",
@@ -718,14 +800,251 @@
       },
       "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-035",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p092",
+          "quote": "惠文王享國二十七年。葬公陵。生悼武王。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji034-013",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAB",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p018",
+          "quote": "文公十九年，齊威王卒。二十八年，蘇秦始來見，説文公。文公予車馬金帛以至趙，趙肅侯用之。因約六國，爲從長。秦惠王以其女爲燕太子婦。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以其女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "6aj_h39_deu": "秦太子（商君列傳候選）",
     "y97_huh_vuz_AAAAAAAAAAAAABAAAAA": "秦孝公",
     "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA": "秦惠王",
     "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA": "秦武王",
     "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAB": "秦惠王女（燕太子婦）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-069",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p063",
+          "quote": "孝公卒，子惠文君立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本文明示關係；不以繼位跳過闕代或推造父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-070",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p067",
+          "quote": "惠王卒，子武王立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-034",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p091",
+          "quote": "孝公享國二十四年。葬弟圉。生惠文王。其十三年，始都咸陽。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-035",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p092",
+          "quote": "惠文王享國二十七年。葬公陵。生悼武王。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji034-013",
+      "subject_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAAB",
+      "predicate": "father",
+      "object_person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p018",
+          "quote": "文公十九年，齊威王卒。二十八年，蘇秦始來見，説文公。文公予車馬金帛以至趙，趙肅侯用之。因約六國，爲從長。秦惠王以其女爲燕太子婦。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以其女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-087",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p067",
+          "quote": "惠王卒，子武王立。韓、魏、齊、楚、越皆賓從。",
+          "person_mention_id": "c-shiji-005-qin:m067-0000"
+        }
+      ],
+      "source_term": "惠王卒",
+      "interpretation_note": "明言卒、死、誅或族誅保存；族孟說不增造未具名族人，惠文后不得良死按死亡敘述存，未指定方式。敗、虜、反不單獨推死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-050",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p091",
+          "quote": "孝公享國二十四年。葬弟圉。生惠文王。其十三年，始都咸陽。",
+          "person_mention_id": "c-shiji-006-shihuang:p091:m0014"
+        }
+      ],
+      "source_term": "生惠文王",
+      "interpretation_note": "卷末世系的生、自殺照存，享國年數不是出生年；出公自殺與前篇出子被殺保留來源差異，不改成一致。生靈公、昭子子也及生簡公的親屬差異仍待編輯判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji033-070",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "平公十二年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p098",
+          "quote": "平公十二年，秦惠王卒。二十二年，平公卒，子賈立，是爲文公。",
+          "person_mention_id": "c-shiji-033-lu:m098-0006"
+        }
+      ],
+      "source_term": "秦惠王卒",
+      "interpretation_note": "保存本段明載生死及國君紀年；數字紀年與跨段上下文待核。回敘往年、轉述、月份與干支各依本句，不借下一事件日期。被囚、葬事、未遂與滅國不直接當死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji040-061",
+      "person_id": "y97_huh_vuz_AAAAAAAAAAAAABAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "是歳",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p074",
+          "quote": "至，懷王不見，因而囚張儀，欲殺之。儀私於靳尚，靳尚爲請懷王曰：「拘張儀，秦王必怒。天下見楚無秦，必輕王矣。」又謂夫人鄭袖曰：「秦王甚愛張儀，而王欲殺之，今將以上庸之地六縣賂楚，以美人聘楚王，以宮中善歌者爲之媵。楚王重地，秦女必貴，而夫人必斥矣。夫人不若言而出之。」鄭袖卒言張儀於王而出之。儀出，懷王因善遇儀，儀因説楚王以叛從約而與秦合親，約婚姻。張儀已去，屈原使從齊來，諫王曰：「何不誅張儀？」懷王悔，使人追儀，弗及。是歳，秦惠王卒。",
+          "person_mention_id": "c-shiji-040-chu:m074-0212"
+        }
+      ],
+      "source_term": "秦惠王卒",
+      "interpretation_note": "原文明示死亡；是年沿本段原君年，跨篇紀年另核，不借後段數位校讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

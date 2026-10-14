@@ -179,5 +179,57 @@
     "zwr_jel_e3l": "齊宣公（田世家候選）",
     "zwr_jel_e3l_A": "康公貸（田世家候選）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "zwr_jel_e3l_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji046-024",
+      "subject_person_id": "zwr_jel_e3l_A",
+      "predicate": "father",
+      "object_person_id": "zwr_jel_e3l",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p022",
+          "quote": "宣公卒，子康公貸立。貸立十四年，淫於酒婦人，不聽政。太公乃遷康公於海上，食一城，以奉其先祀。明年，魯敗齊平陸。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "宣公卒，子康公貸立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "明示子、女及生子語境保存；繼位、太子或後宮數量不單獨補世系，其他篇世系仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji046-035",
+      "person_id": "zwr_jel_e3l_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "是歳",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p025",
+          "quote": "六年，救衞。桓公卒，子威王因齊立。是歳，故齊康公卒，絶無後，奉邑皆入田氏。",
+          "person_mention_id": "c-shiji-046-tian:m025-0021"
+        }
+      ],
+      "source_term": "故齊康公卒",
+      "interpretation_note": "依本篇原文明示生死保存；同段回述及群體不重複生成個人事件。原曆、校勘與跨篇身份仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

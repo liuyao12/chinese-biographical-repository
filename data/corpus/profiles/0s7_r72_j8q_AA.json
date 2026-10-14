@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "id": "0s7_r72_j8q_AA",
+  "canonical_person_id": "0s7_r72_j8q_AA",
+  "label": "伯御（魯君）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "伯御"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-007",
+      "person_id": "0s7_r72_j8q_AA",
+      "title": "君",
+      "kind": "unclassified",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p024",
+          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-007:a001",
+          "paragraph_id": "c-shiji-033-lu:p024",
+          "start": 26,
+          "end": 27,
+          "surface": "君",
+          "person_mention_id": "c-shiji-033-lu:m024-0011",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "懿公九年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-033-lu",
+              "source_id": "s-shiji-033-lu",
+              "paragraph_id": "c-shiji-033-lu:p024",
+              "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "本文在懿公九年攻弒懿公而立伯御為君；保留原紀年，不換算曆日。次段殺其君不自動當爵位終止事件。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "懿公九年 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p024",
+      "count": 4,
+      "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-013",
+      "subject_person_id": "0s7_r72_j8q_AA",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p024",
+          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "之子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "逐項保存本文子、父、母、弟、兄、娣及妻妾的記載。賤妾不改稱夫人；不以繼位、後裔氏族或私通補親屬。原文生子允承接惠公自妻宋女，並非由攝政或繼位推父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "0s7_r72_j8q_A": "括（魯武公長子）",
+    "0s7_r72_j8q_AA": "伯御（魯君）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "0s7_r72_j8q_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji033-013",
+      "subject_person_id": "0s7_r72_j8q_AA",
+      "predicate": "father",
+      "object_person_id": "0s7_r72_j8q_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p024",
+          "quote": "懿公九年，懿公兄括之子伯御與魯人攻弒懿公，而立伯御爲君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "之子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "逐項保存本文子、父、母、弟、兄、娣及妻妾的記載。賤妾不改稱夫人；不以繼位、後裔氏族或私通補親屬。原文生子允承接惠公自妻宋女，並非由攝政或繼位推父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji033-014",
+      "person_id": "0s7_r72_j8q_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十一年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p025",
+          "quote": "伯御即位十一年，周宣王伐魯，殺其君伯御，而問魯公子能道順諸矦者，以爲魯後。樊穆仲曰：『魯懿公弟稱，肅恭明神，敬事耆老；賦事行刑，必問於遺訓而咨於固實；不干所問，不犯所（知）［咨］。』宣王曰：『然，能訓治其民矣。』乃立稱於夷宮，是爲孝公。自是後，諸矦多畔王命。",
+          "person_mention_id": "c-shiji-033-lu:m025-0000"
+        }
+      ],
+      "source_term": "殺其君伯御",
+      "interpretation_note": "保存本段明示死亡及原紀年，未知公曆年、月、日保持未知。回敘不直接借段首年次；釋囚、放逐、病瘳、葬願不當死亡。數字紀年與跨段省略主詞仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

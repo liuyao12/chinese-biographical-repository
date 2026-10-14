@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "id": "qh8_95j_eh2_AAA",
+  "canonical_person_id": "qh8_95j_eh2_AAA",
+  "label": "申（蔡文侯）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "文侯申",
+    "文侯"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji035-015",
+      "person_id": "qh8_95j_eh2_AAA",
+      "title": "文侯",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p012",
+          "quote": "莊侯三年，齊桓公卒。十四年，晉文公敗楚於城濮。二十年，楚太子商臣弒其父成王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji035-015:a001",
+          "paragraph_id": "c-shiji-035-guancai:p012",
+          "start": 71,
+          "end": 73,
+          "surface": "文侯",
+          "person_mention_id": "c-shiji-035-guancai:m012-0071",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 35,
+      "category": "shijia",
+      "title": "管蔡世家第五",
+      "paragraph_id": "c-shiji-035-guancai:p012",
+      "count": 3,
+      "quote": "王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-035-guancai",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-035",
+      "source_id": "s-shiji-035-guancai",
+      "source": {
+        "title": "史記／卷035",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302",
+        "revision_id": 8737302,
+        "accessed_on": "2026-10-09",
+        "extent": "正文43個p區塊，含管蔡世系及曹國世系，自管叔鮮至末尾太史公論贊；排除兩個dd導覽。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致。原字、醳、云及平公（頃）［須］等數位見證校勘字樣保留，不由記憶選改。",
+          "note": "未核可靠底本、影像或現代研究。夢中敘事、蔡曹世系、異字名及爵位時段不據此作已確證史實。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji035-041",
+      "subject_person_id": "qh8_95j_eh2_AAA",
+      "predicate": "father",
+      "object_person_id": "qh8_95j_eh2_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p012",
+          "quote": "莊侯三年，齊桓公卒。十四年，晉文公敗楚於城濮。二十年，楚太子商臣弒其父成王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示親屬稱呼，不由繼位推父子，不補闕代、無名者名字或原文未見的同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji035-042",
+      "subject_person_id": "qh8_95j_eh2_AAAA",
+      "predicate": "father",
+      "object_person_id": "qh8_95j_eh2_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p013",
+          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示親屬稱呼，不由繼位推父子，不補闕代、無名者名字或原文未見的同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "qh8_95j_eh2_AA": "果（蔡莊侯）",
+    "qh8_95j_eh2_AAA": "申（蔡文侯）",
+    "qh8_95j_eh2_AAAA": "固（蔡景侯）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "qh8_95j_eh2_AAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji035-041",
+      "subject_person_id": "qh8_95j_eh2_AAA",
+      "predicate": "father",
+      "object_person_id": "qh8_95j_eh2_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p012",
+          "quote": "莊侯三年，齊桓公卒。十四年，晉文公敗楚於城濮。二十年，楚太子商臣弒其父成王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示親屬稱呼，不由繼位推父子，不補闕代、無名者名字或原文未見的同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji035-042",
+      "subject_person_id": "qh8_95j_eh2_AAAA",
+      "predicate": "father",
+      "object_person_id": "qh8_95j_eh2_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p013",
+          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示親屬稱呼，不由繼位推父子，不補闕代、無名者名字或原文未見的同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji035-027",
+      "person_id": "qh8_95j_eh2_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-035-guancai",
+          "source_id": "s-shiji-035-guancai",
+          "paragraph_id": "c-shiji-035-guancai:p013",
+          "quote": "文侯十四年，楚莊王伐陳，殺夏徵舒。十五年，楚圍鄭，鄭降楚，楚復醳之。二十年，文侯卒，子景侯固立。",
+          "person_mention_id": "c-shiji-035-guancai:m013-0000"
+        }
+      ],
+      "source_term": "文侯卒",
+      "interpretation_note": "本篇明示死亡；保存原國君年次，未知公曆日不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

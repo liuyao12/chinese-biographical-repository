@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "id": "zc4_kie_3tb",
+  "canonical_person_id": "zc4_kie_3tb",
+  "label": "報丁",
+  "identity_note": "依《殷本紀》的特定敘事建立；個別史實及出土材料對應尚未覆核，不按同名跨卷合併。",
+  "review": "ai_provisional",
+  "names": [
+    "報丁"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 3,
+      "category": "benji",
+      "title": "殷本紀第三",
+      "paragraph_id": "c-shiji-003-yin:p002",
+      "count": 2,
+      "quote": "昌若卒，子曹圉立。曹圉卒，子冥立。冥卒，子振立。振卒，子微立。微卒，子報丁立。報丁卒，子報乙立。報乙卒，子報丙立。報丙卒，子主壬立。主壬卒，子主癸立。主癸卒，子天乙立，是為成湯。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t1-r011-c06",
+      "title": "《史記·三代世表》",
+      "quote": "微生報丁。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t1-r011-c06-m001",
+        "start": 2,
+        "end": 4,
+        "surface": "報丁",
+        "person_id": "zc4_kie_3tb",
+        "status": "contextual_provisional",
+        "interpretation_note": "依〈三代世表〉本欄世系與《五帝本紀》《夏本紀》《殷本紀》《周本紀》暫定同指；不跨國別套用同名。"
+      }
+    },
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t1-r012-c06",
+      "title": "《史記·三代世表》",
+      "quote": "報丁生報乙。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t1-r012-c06-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "報丁",
+        "person_id": "zc4_kie_3tb",
+        "status": "contextual_provisional",
+        "interpretation_note": "依〈三代世表〉本欄世系與《五帝本紀》《夏本紀》《殷本紀》《周本紀》暫定同指；不跨國別套用同名。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-003-yin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-003",
+      "source_id": "s-shiji-003-yin",
+      "source": {
+        "title": "史記／卷003",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷003",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145",
+        "revision_id": 7909145,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題與註號。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄"
+          },
+          "note": "只轉換棄字字形；保留中𤳹、筑、犇等來源字形，移除現代註號。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji003-010",
+      "subject_person_id": "zc4_kie_3tb",
+      "predicate": "father",
+      "object_person_id": "667_fm8_khs",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "quote": "微卒，子報丁立",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji003-011",
+      "subject_person_id": "hem_2v5_vo9",
+      "predicate": "father",
+      "object_person_id": "zc4_kie_3tb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "quote": "報丁卒，子報乙立",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "667_fm8_khs": "微（商先祖）",
+    "hem_2v5_vo9": "報乙",
+    "zc4_kie_3tb": "報丁"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "zc4_kie_3tb"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji003-010",
+      "subject_person_id": "zc4_kie_3tb",
+      "predicate": "father",
+      "object_person_id": "667_fm8_khs",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "quote": "微卒，子報丁立",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji003-011",
+      "subject_person_id": "hem_2v5_vo9",
+      "predicate": "father",
+      "object_person_id": "zc4_kie_3tb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "quote": "報丁卒，子報乙立",
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存原文明示關係；不把繼位本身當作父子證據，未與出土材料對讀。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji003-010",
+      "person_id": "zc4_kie_3tb",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-003-yin",
+          "source_id": "s-shiji-003-yin",
+          "paragraph_id": "c-shiji-003-yin:p002",
+          "quote": "契卒，子昭明立。昭明卒，子相土立。相土卒，子昌若立。昌若卒，子曹圉立。曹圉卒，子冥立。冥卒，子振立。振卒，子微立。微卒，子報丁立。報丁卒，子報乙立。報乙卒，子報丙立。報丙卒，子主壬立。主壬卒，子主癸立。主癸卒，子天乙立，是為成湯。",
+          "person_mention_id": "c-shiji-003-yin:m002-0061"
+        }
+      ],
+      "source_term": "報丁卒",
+      "interpretation_note": "保存明言出生或卒的來源敘述；玄鳥故事及商先祖譜系不作獨立史實確證，不補生父或公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

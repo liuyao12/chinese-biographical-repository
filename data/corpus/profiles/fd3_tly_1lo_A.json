@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "id": "fd3_tly_1lo_A",
+  "canonical_person_id": "fd3_tly_1lo_A",
+  "label": "擢（魯厲公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "厲公擢",
+    "厲公"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji033-057",
+      "person_id": "fd3_tly_1lo_A",
+      "title": "厲公",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "quote": "魏公五十年卒，子厲公擢立。",
+          "person_mention_id": "c-shiji-033-lu:m019-0008"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji033-057:a001",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "start": 8,
+          "end": 10,
+          "surface": "厲公",
+          "person_mention_id": "c-shiji-033-lu:m019-0008",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本篇用稱，不以諡稱推即位當日授予。相字保存原稱，不改寫相國；未確任職起點與終點保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 33,
+      "category": "shijia",
+      "title": "魯周公世家第三",
+      "paragraph_id": "c-shiji-033-lu:p019",
+      "count": 2,
+      "quote": "魏公五十年卒，子厲公擢立。"
+    }
+  ],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r007-c01",
+      "title": "《史記·三代世表》",
+      "quote": "厲公",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r007-c01-m000",
+        "start": 0,
+        "end": 2,
+        "surface": "厲公",
+        "person_id": "fd3_tly_1lo_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    },
+    {
+      "table_id": "shiji-013",
+      "cell_id": "shiji-013-t3-r008-c01",
+      "title": "《史記·三代世表》",
+      "quote": "獻公，厲公弟。",
+      "year": null,
+      "mention": {
+        "id": "shiji-013-t3-r008-c01-m001",
+        "start": 3,
+        "end": 5,
+        "surface": "厲公",
+        "person_id": "fd3_tly_1lo_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本欄封國、世代及相應世家暫定同指；不同封國及不同世代的同號者分開辨認。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-033-lu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "source_id": "s-shiji-033-lu",
+      "source": {
+        "title": "史記／魯周公世家",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/魯周公世家",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289",
+        "revision_id": 7909289,
+        "accessed_on": "2026-10-09",
+        "extent": "正文102個p區塊，自周公旦者至太史公論贊；排除導覽dd、現代版權告示及轉向頁。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "笔": "筆",
+            "鸮": "鴞",
+            "龂": "齗",
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "卷033頁為轉向（版本2180467），實讀目標魯周公世家版本7909289。保留矦、歬、髙、爲等異體及校勘符號。",
+          "note": "固定正文與實讀HTML一致。筆昔疑讀未改作其他字；真公記事接武公九年，未補中間文字或武公名。全102段首輪，未核影像、底本及現代研究。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji033-008",
+      "subject_person_id": "fd3_tly_1lo_A",
+      "predicate": "father",
+      "object_person_id": "fd3_tly_1lo",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "quote": "魏公五十年卒，子厲公擢立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji033-009",
+      "subject_person_id": "50h_gqe_1p1",
+      "predicate": "brother",
+      "object_person_id": "fd3_tly_1lo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p020",
+          "quote": "厲公三十七年卒，魯人立其弟具，是爲獻公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "fd3_tly_1lo_A",
+          "younger_person_id": "50h_gqe_1p1",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "50h_gqe_1p1": "具（魯獻公）",
+    "fd3_tly_1lo": "沸（魯魏公）",
+    "fd3_tly_1lo_A": "擢（魯厲公）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "fd3_tly_1lo_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji033-008",
+      "subject_person_id": "fd3_tly_1lo_A",
+      "predicate": "father",
+      "object_person_id": "fd3_tly_1lo",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p019",
+          "quote": "魏公五十年卒，子厲公擢立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji033-009",
+      "subject_person_id": "50h_gqe_1p1",
+      "predicate": "brother",
+      "object_person_id": "fd3_tly_1lo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p020",
+          "quote": "厲公三十七年卒，魯人立其弟具，是爲獻公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "historicity": "historical_tradition",
+        "relative_age": "younger",
+        "relative_birth_order": {
+          "older_person_id": "fd3_tly_1lo_A",
+          "younger_person_id": "50h_gqe_1p1",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "只錄本篇明示父親、兄弟與父系叔父；不從繼位、祭祀祈禱或未錄文字補父子、闕代及姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji033-010",
+      "person_id": "fd3_tly_1lo_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三十七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p020",
+          "quote": "厲公三十七年卒，魯人立其弟具，是爲獻公。",
+          "person_mention_id": "c-shiji-033-lu:m020-0000"
+        }
+      ],
+      "source_term": "厲公三十七年卒",
+      "interpretation_note": "保存本段明示死亡及原紀年，未知公曆年、月、日保持未知。回敘不直接借段首年次；釋囚、放逐、病瘳、葬願不當死亡。數字紀年與跨段省略主詞仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

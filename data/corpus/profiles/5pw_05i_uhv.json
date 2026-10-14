@@ -6,10 +6,10 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "燕昭王",
     "太子平",
     "燕太子平",
     "太子",
+    "燕昭王",
     "昭王",
     "燕王",
     "王",
@@ -279,13 +279,53 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji034-017",
+      "subject_person_id": "5pw_05i_uhv_A",
+      "predicate": "father",
+      "object_person_id": "5pw_05i_uhv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p026",
+          "quote": "昭王三十三年卒，子惠王立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子惠王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji080-001",
+      "subject_person_id": "5pw_05i_uhv_A",
+      "predicate": "father",
+      "object_person_id": "5pw_05i_uhv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p004",
+          "quote": "樂毅留徇齊五歲，下齊七十餘城，皆為郡縣以屬燕，唯獨莒、即墨未服。會燕昭王死，子立為燕惠王。惠王自為太子時嘗不快於樂毅，及即位，齊之田單聞之，乃縱反閒於燕，曰：「齊城不下者兩城耳。然所以不早拔者，聞樂毅與燕新王有隙，欲連兵且留齊，南面而王齊。齊之所患，唯恐他將之來。」於是燕惠王固已疑樂毅，得齊反閒，乃使騎劫代將，而召樂毅。樂毅知燕惠王之不善代之，畏誅，遂西降趙。趙封樂毅於觀津，號曰望諸君。尊寵樂毅以警動於燕、齊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子立為燕惠王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存明示子與父；樂羊先祖、樂叔孫及樂乘宗不補直接父親，師承不當血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
-    "2ui_e50_uz6": "燕昭王（田單列傳候選）",
     "5pw_05i_uhv": "平（本文燕昭王）",
-    "5pw_05i_uhv_A": "惠王（燕昭王子）",
-    "ly0_vry_w1c": "燕昭王（樂毅列傳候選）",
-    "ly0_vry_w1c_A": "燕惠王（樂毅列傳候選）"
+    "5pw_05i_uhv_A": "惠王（燕昭王子）"
   },
   "dates": [
     {
@@ -322,5 +362,108 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "name_components": [],
+  "person_ids": [
+    "5pw_05i_uhv"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji034-017",
+      "subject_person_id": "5pw_05i_uhv_A",
+      "predicate": "father",
+      "object_person_id": "5pw_05i_uhv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p026",
+          "quote": "昭王三十三年卒，子惠王立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子惠王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示子、其女、婦、夫人及祖先說；九世不補闕名或直接父親，未見子字的繼位不自動推父子。太子平／燕昭王身份與攻燕年代尚待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji080-001",
+      "subject_person_id": "5pw_05i_uhv_A",
+      "predicate": "father",
+      "object_person_id": "5pw_05i_uhv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-080-leyi",
+          "source_id": "s-shiji-080-leyi",
+          "paragraph_id": "c-shiji-080-leyi:p004",
+          "quote": "樂毅留徇齊五歲，下齊七十餘城，皆為郡縣以屬燕，唯獨莒、即墨未服。會燕昭王死，子立為燕惠王。惠王自為太子時嘗不快於樂毅，及即位，齊之田單聞之，乃縱反閒於燕，曰：「齊城不下者兩城耳。然所以不早拔者，聞樂毅與燕新王有隙，欲連兵且留齊，南面而王齊。齊之所患，唯恐他將之來。」於是燕惠王固已疑樂毅，得齊反閒，乃使騎劫代將，而召樂毅。樂毅知燕惠王之不善代之，畏誅，遂西降趙。趙封樂毅於觀津，號曰望諸君。尊寵樂毅以警動於燕、齊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子立為燕惠王",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只保存明示子與父；樂羊先祖、樂叔孫及樂乘宗不補直接父親，師承不當血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji034-042",
+      "person_id": "5pw_05i_uhv",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "三十三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p026",
+          "quote": "昭王三十三年卒，子惠王立。",
+          "person_mention_id": "c-shiji-034-yan:m026-0000"
+        }
+      ],
+      "source_term": "昭王三十三年卒",
+      "interpretation_note": "國君年次依本句，未知公曆日不補。 保存本篇明示死亡，國君紀年與數字年換算待核；被虜、出奔、擊破軍隊或滅國不直接推個人死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 279,
+        "year": -278,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "昭王三十三年卒，子惠王立。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-034-yan",
+            "source_id": "s-shiji-034-yan",
+            "paragraph_id": "c-shiji-034-yan:p026",
+            "quote": "昭王三十三年卒，子惠王立。",
+            "person_mention_id": "c-shiji-034-yan:m026-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/zh-hant/史記/卷015",
+            "quote": "三十三",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "燕昭王三十三年對數位年表公元前279年行。公元前年欄為數位編輯參考，只換算年，未知公曆月日不補；未核影像或曆表。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

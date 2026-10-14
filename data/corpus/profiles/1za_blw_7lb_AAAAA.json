@@ -101,5 +101,57 @@
     "1za_blw_7lb_AAAA": "章（趙世家敬侯候選）",
     "1za_blw_7lb_AAAAA": "種（趙世家成侯候選）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "1za_blw_7lb_AAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji043-050",
+      "subject_person_id": "1za_blw_7lb_AAAAA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_AAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p051",
+          "quote": "十一年，魏、韓、趙共滅晉，分其地。伐中山，又戰於中人。十二年，敬侯卒，子成侯種立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子成侯種",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示子、女與君主太子上下文來源主張；爭立不推兄弟，未名先王不補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji043-035",
+      "person_id": "1za_blw_7lb_AAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十五年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p054",
+          "quote": "十七年，成侯與魏惠王遇葛孽。十九年，與齊、宋會平陸，與燕會阿。二十年，魏獻榮椽，因以爲檀臺。二十一年，魏圍我邯鄲。二十二年，魏惠王拔我邯鄲，齊亦敗魏於桂陵。二十四年，魏歸我邯鄲，與魏盟漳水上。秦攻我藺。二十五年，成侯卒。公子紲太子肅侯爭立，紲敗亡奔韓。",
+          "person_mention_id": "c-shiji-043-zhao:m054-0004"
+        }
+      ],
+      "source_term": "成侯卒",
+      "interpretation_note": "來源明示生死；原曆日期保留本段表述，相對年月與跨篇紀年仍待核。回述與初生不借段首年，群體滅族不擴展為所有個人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

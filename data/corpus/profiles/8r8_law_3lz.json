@@ -290,5 +290,101 @@
       "date_role": "life_event",
       "event_type": "death"
     }
-  ]
+  ],
+  "name_components": [],
+  "person_ids": [
+    "8r8_law_3lz"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji004-068",
+      "subject_person_id": "8r8_law_3lz",
+      "predicate": "father",
+      "object_person_id": "4yr_em4_wid",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p073",
+          "quote": "慎靚王立六年，崩，子赧王延立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji004-079",
+      "person_id": "8r8_law_3lz",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p085",
+          "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
+          "person_mention_id": "c-shiji-004-zhou:m085-0003"
+        }
+      ],
+      "source_term": "周君、王赧卒",
+      "interpretation_note": "保存明言死或卒；馬犯所說病若死、犯必死是條件威脅，未記實際死亡。周君未定身份，未與王赧合為一人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 256,
+        "year": -255,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-004-zhou",
+            "source_id": "s-shiji-004-zhou",
+            "paragraph_id": "c-shiji-004-zhou:p085",
+            "quote": "周君、王赧卒，周民遂東亡。秦取九鼎寶器，而遷西周公於憚狐。後七歲，秦莊襄王滅東周。東西周皆入于秦，周既不祀。",
+            "person_mention_id": "c-shiji-004-zhou:m085-0003"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》卷五赧王卒",
+            "url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+            "quote": "是歲，赧王崩。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "數位編輯紀年標題",
+            "url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+            "quote": "赧王五十九年（乙巳，西元前二五六年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇承接五十九年秦攻西周而王赧卒；通鑑卷五同年明言赧王崩，數位年標前256年。暫定天文年-255，不補月日，不合併西周君與赧王。固定修訂ID尚未取得，頁面核讀日期2026-10-11。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "周君、王赧卒",
+          "reference_url": "https://zh.wikisource.org/zh-hant/資治通鑑/卷005",
+          "reference_event_quote": "是歲，赧王崩。",
+          "reference_year_quote": "赧王五十九年（乙巳，西元前二五六年）"
+        }
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

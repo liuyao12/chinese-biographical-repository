@@ -6,12 +6,12 @@
   "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
   "review": "ai_provisional",
   "names": [
-    "始皇弟",
     "子嬰",
-    "秦王子嬰",
     "公子嬰",
     "嬰",
-    "秦王"
+    "秦王子嬰",
+    "秦王",
+    "始皇弟"
   ],
   "titles": [
     {
@@ -155,7 +155,7 @@
     },
     {
       "id": "th-shiji055-021",
-      "person_id": "xow_e7w_ucx",
+      "person_id": "ytl_g1y_wn3",
       "title": "秦王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -407,6 +407,62 @@
         "person_id": "ytl_g1y_wn3",
         "status": "contextual_provisional",
         "interpretation_note": "依此格已具名人物及相鄰敘事指稱暫定，不將單字套用到其他年月或人物。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r028-c01",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "九月子嬰為王。",
+      "year": null,
+      "mention": {
+        "id": "shiji-016-t1-r028-c01-m000",
+        "start": 2,
+        "end": 4,
+        "surface": "子嬰",
+        "person_id": "ytl_g1y_wn3",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r029-c06",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "二十七。漢元年，秦王子嬰降。沛公入破咸陽，平秦，還軍霸上，待諸侯約。",
+      "year": {
+        "era": "BCE",
+        "value": 206,
+        "astronomical_year": -205,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "206",
+        "source_cell_id": "shiji-016-t1-r029-c00"
+      },
+      "mention": {
+        "id": "shiji-016-t1-r029-c06-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "子嬰",
+        "person_id": "ytl_g1y_wn3",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r031-c03",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "十六。至關中，誅秦王子嬰，屠燒咸陽。分天下，立諸侯。",
+      "year": null,
+      "mention": {
+        "id": "shiji-016-t1-r031-c03-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "子嬰",
+        "person_id": "ytl_g1y_wn3",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
       }
     }
   ],
@@ -673,10 +729,97 @@
   ],
   "relations": [],
   "related_people": {
-    "c1q_qcc_hwm": "子嬰（李斯列傳候選）",
-    "xow_e7w_ucx": "子嬰（留侯世家候選）",
-    "ytl_g1y_wn3": "子嬰",
-    "zo2_hd4_x73": "子嬰（蒙恬列傳候選）"
+    "ytl_g1y_wn3": "子嬰"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "ytl_g1y_wn3"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-109",
+      "person_id": "ytl_g1y_wn3",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p076",
+          "quote": "三年，諸侯并起叛秦，趙高殺二世，立子嬰。子嬰立月餘，諸侯誅之，遂滅秦。其語在〈始皇本紀〉中。",
+          "person_mention_id": "c-shiji-005-qin:m076-0017"
+        }
+      ],
+      "source_term": "諸侯誅之",
+      "interpretation_note": "保存本篇原紀年；始皇立十一年而崩是稱帝後計數，不替換為秦王在位總年。子嬰立月餘非精確死亡年月；東周君誅之是否專指誅殺仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-028",
+      "person_id": "ytl_g1y_wn3",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p063",
+          "quote": "閻樂歸報趙高，趙高乃悉召諸大臣公子，告以誅二世之狀。曰：「秦故王國，始皇君天下，故稱帝。今六國復自立，秦地益小，乃以空名為帝，不可。宜為王如故，便。」立二世之兄子公子嬰為秦王。以黔首葬二世杜南宜春苑中。令子嬰齋，當廟見，受王璽。齋五日，子嬰與其子二人謀曰：「丞相高殺二世望夷宮，恐群臣誅之，乃詳以義立我。我聞趙高乃與楚約，滅秦宗室而王關中。今使我齋見廟，此欲因廟中殺我。我稱病不行，丞相必自來，來則殺之。」高使人請子嬰數輩，子嬰不行，高果自往，曰：「宗廟重事，王柰何不行？」子嬰遂刺殺高於齋宮，三族高家以徇咸陽。子嬰為秦王四十六日，楚將沛公破秦軍入武關，遂至霸上，使人約降子嬰。子嬰即系頸以組，白馬素車，奉天子璽符，降軹道旁。沛公遂入咸陽，封宮室府庫，還軍霸上。居月餘，諸侯兵至，項籍為從長，殺子嬰及秦諸公子宗族。遂屠咸陽，燒其宮室，虜其子女，收其珍寶貨財，諸侯共分之。滅秦之後，各分其地為三，名曰雍王、塞王、翟王，號曰三秦。項羽為西楚霸王，主命分天下王諸侯，秦竟滅矣。後五年，天下定於漢。",
+          "person_mention_id": "c-shiji-006-shihuang:p063:m0102"
+        }
+      ],
+      "source_term": "殺子嬰及秦諸公子宗族",
+      "interpretation_note": "依明言自殺、刺殺、殺保存；請為王、萬戶侯皆未許，不增持有稱號。子嬰降秦與後被殺是不同事件，不以投降當死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji007-018",
+      "person_id": "ytl_g1y_wn3",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p020",
+          "quote": "居數日，項羽引兵西屠咸陽，殺秦降王子嬰，燒秦宮室，火三月不滅；收其貨寶婦女而東。人或說項王曰：「關中阻山河四塞，地肥饒，可都以霸。」項王見秦宮皆以燒殘破，又心懷思欲東歸，曰：「富貴不歸故鄉，如衣繡夜行，誰知之者！」說者曰：「人言楚人沐猴而冠耳，果然。」項王聞之，烹說者。",
+          "person_mention_id": "c-shiji-007-xiangyu:m020-0017"
+        }
+      ],
+      "source_term": "殺秦降王子嬰",
+      "interpretation_note": "與秦始皇本紀被殺回述分存來源，不作兩次死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji008-029",
+      "person_id": "ytl_g1y_wn3",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p048",
+          "quote": "楚漢久相持未決，丁壯苦軍旅，老弱罷轉饢。漢王項羽相與臨廣武之閒而語。項羽欲與漢王獨身挑戰。漢王數項羽曰：「始與項羽俱受命懷王，曰先入定關中者王之，項羽負約，王我於蜀漢，罪一。秦項羽矯殺卿子冠軍而自尊，罪二。項羽已救趙，當還報，而擅劫諸侯兵入關，罪三。懷王約入秦無暴掠，項羽燒秦宮室，掘始皇帝冢，私收其財物，罪四。又彊殺秦降王子嬰，罪五。詐阬秦子弟新安二十萬，王其將，罪六。項羽皆王諸將善地，而徙逐故主，令臣下爭叛逆，罪七。項羽出逐義帝彭城，自都之，奪韓王地，并王梁楚，多自予，罪八。項羽使人陰弒義帝江南，罪九。夫為人臣而弒其主，殺已降，為政不平，主約不信，天下所不容，大逆無道，罪十也。吾以義兵從諸侯誅殘賊，使刑餘罪人擊殺項羽，何苦乃與公挑戰！」項羽大怒，伏弩射中漢王。漢王傷匈，乃捫足曰：「虜中吾指！」漢王病創臥，張良彊請漢王起行勞軍，以安士卒，毋令楚乘勝於漢。漢王出行軍，病甚，因馳入成皋。",
+          "person_mention_id": "c-shiji-008-gaozu:m048-0162"
+        }
+      ],
+      "source_term": "彊殺秦降王子嬰",
+      "interpretation_note": "漢王數項羽罪的引語見證，不當本段新死亡或全部指控已確證。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

@@ -84,11 +84,13 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.age_assertions` 保存來源所報年齡，逐人 JSON 同名欄位匯出。數值 `value`、原數詞 `source_number` 與 `source_term` 分開保存；`unit: source_age_years`、`counting: unspecified_source_age`、`birth_year: null` 不推定計歲方式或反推出生年。證據連到人物錨點與原句；`normalized_date` 是報齡所屬事件年，日期索引標 `date_role: age_attestation`，不作出生事件。支援「年」後或「歲／歳」前的一至九十九數詞，保留來源實際字形；其他報齡形式需擴充驗證後保存。
 
-## 保留已發 ID 的同指決定
+## 同指判斷與已套用的身份整併
 
-`007-equivalences.json` 的 `person_equivalence_set` 對兩個或以上已發人物 ID 保存有證據的同指判讀。`person_ids` 保留所有原 ID，`canonical_person_id` 為組裝時的代表，必須是其中一員。原人物、異稱、文字與提及 ID 不刪除也不重指，撤回決定即可恢復分開呈現。此為來源判讀，不是同名字串合併規則。
+`person_equivalence_set` 保存有證據的同指判讀。尚未套用時，`person_ids` 包含兩個或以上候選，`canonical_person_id` 必須屬於其中。按使用者最新要求，全部引用更新且驗證通過後撤除重複人物登記與 JSON，不永久保留舊 ID 別名。
 
-每項決定列明所屬篇、來源、精確引句、各端點的提及 ID、理由及代理署名。引句必須實際包住該段所列提及，不能拿同段無關的另一句支撐合併。驗證器檢查代表衝突與循環；使用端遇衝突不能任選第一項。當陽君與黥布在卷七有「當陽君黥布為楚將」明示，本批仍保留兩個早先已發 ID。這些決定尚未接入既有線上閱讀器。
+已套用的判斷標 `identity_materialized: true`，`person_ids` 僅含現行人物 ID。判斷 ID、精確引句、各來源提及錨點、理由及暫定狀態仍保留；至少須有兩個不同提及錨點，不能僅把單一提及標為同指。正文、提及 ID 與字元起訖不變，僅人物引用更新。整併不代表人工覆核或消除來源衝突；撤回使用 Git 歷史及相應引用遷移。
+
+原未決案件因已有同指證據收斂為一人時，移至 `annotation.resolved_identity_cases`，保存案件 ID、原段落、人物 ID、同指判斷 ID 與暫定說明；逐人 JSON 同時匯出案件與原段落，不能只留下結論。
 
 ## 稱號持有、用稱與有效時段
 
@@ -127,7 +129,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 篇章 `annotation.kinship_interpretation_cases` 保存兩端人物ID、原詞、正文證據及各有署名注語支持的 `alternatives`。`default_alternative_id: null` 表示未選定；使用端不得自動轉成確定關係或家族ID路徑。`object_generation_relative_to_subject` 明確標示客體相對主體的世代位置。`reported_variants` 區分已存正文與注家所報、尚未核底本的異文；`adopted: false` 不改正文、不當另一個已核見證。
 
-家族根沒有尾隨分隔符；只有世代路徑前加一個底線。舊連字號家族ID存為人物 `id_aliases`，只作相容入口，不新增人物。人物包以 `canonical_person_id` 明示現行ID，`requested_person_id` 保留請求入口；索引 `id_aliases` 可解析舊新對應，舊JSON檔仍匯出相同來源資料。此格式遷移不表示身份合併、世系修正或新增證據。
+家族根沒有尾隨分隔符；只有世代路徑前加一個底線。舊格式 ID 已在全部引用更新後撤除，不再匯出相容 JSON。人物包以 `canonical_person_id` 明示現行 ID；歷史對照使用 Git。格式遷移本身不表示新增身份或世系證據。
 
 跨缺名世代的 `family_path` 使用 `ancestor_person_id`、`connection: grandfather`（或相符關係）、`generation_distance` 及全為 null 的 `intermediate_person_ids`；`parent_person_id` 為 null。每條路徑須有同端點、同關係的原始陳述與逐段證據。路徑是 AI 編輯判讀，`human_reviewed: false`；不是由ID推導的新增世系。全庫ID對照及未編入路徑的原因見 `registry/person-id-migrations.json`。
 
@@ -253,3 +255,53 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 
 地址關係 `polity_lineage_affiliation` 保存篇首等來源明記的政體宗族地望，例如「衛之諸庶孽公子」。首批 `qualifiers.affiliation_kind: royal_lineage`，人物 ID 是來源所指公族成員，地名保存原政體名。此類不是出生地、居地或本人籍貫，不據姓氏補具名父母、遠祖或世代；原詞須含政體與公子、公孫或宗室的明示身份。
+
+### 跨段地址主語與未明姻親／官職
+
+地址證據另可使用 `context.kind: prior_paragraph_subject`；人物前錨的 `paragraph_id`、`person_mention_id`、精確 `quote` 及 `intervening_paragraph_ids` 必須保存。中間段清單須按同篇原序完整列出，不得跳段、倒序或借用當地君主錨點。原有 `previous_paragraph_subject` 仍只接受緊鄰前段。驗證證明來源錨點和順序一致，敘事主語是否延續仍是必須說明理由的代理判讀，不由最近人名或段距自動決定。人物 JSON 附全部中間段供複核。
+
+`affinity_unspecified` 保存「婚」所表述的未明姻親，`qualifiers.relationship_basis: marriage_affinity`，`source_term` 保留原句。`spouse_person_ids`、`connecting_person_ids`、`generation_difference` 均為 `null`；不得補女兒、妻子、具體親等或方向，也不得把兩個姻親當作夫妻。
+
+未名官職事件存於 `person_event_assertion_set`：`office_non_reinstatement` 保存「不復官」，`office_restoration` 保存「復就故官」。兩者的 `office_title`、`title_holding_id` 均為 `null`，原句與人物錨點必須可回查。不復任不等於明示免官；未名故官不牽連既有具名官爵時段。
+
+
+### 授予政體、未赴任與來源地稱
+
+稱號 `granting_polity` 保存 `source_name`、`authority_person_id` 及授予者的來源錨點／引句；`place_id`、`modern_identification` 均為 `null`。相同「上卿」由秦、齊分別授予時分存，不能按同名官爵合為同一次授任。`service_realization` 的首批形式為 `status: not_taken_up`、`source_term` 與 `evidence`，用於「甘茂不往」；保留授予，卻不得顯示為已赴任。未知後續不由此補定終點。
+
+地址 `source_locality_designation` 保存「下蔡史舉先生」等以地名稱人的原詞，`qualifiers.designation_kind: geographical_person_reference`、`origin_or_residence: null`；不將未明的地稱改為籍貫、出生地或居所。`service_location` 保存「下蔡之監門」，`qualifiers.source_position` 保留「監門」，任事地與居所分開。
+
+兄弟／姐妹陳述的 `qualifiers.shared_mother` 必須為布林值且附同母或異母原詞。`false` 不補姓名未知的另一位母親。`kinship_unspecified` 的「外族」保留原詞、未定親屬線與世代，不自行改為表兄弟或舅甥。
+
+來源年齡的 `report_repetition_of` 指向同篇較早、同人同數值的報齡記錄，用以標示敘事與人物自述的重複，不當獨立證據或兩次不同年齡。不推計歲方式或生年。
+
+人物事件 `diplomatic_service` 保存出使任事與 `polity_source_name`；「事燕三年」的 `reported_duration` 為數值3、`unit: service_year`、`source_number: 三`、`source_term: 事燕三年`、`counting: unspecified_source_years`、`status: source_attested`，證據與事件一致。此年數不屬剛成君爵位任期，不推曆日或起訖年。
+
+兄弟／姐妹陳述的 `qualifiers.shared_father` 可為原文明示同父的 `true`、異父的 `false` 或未知的 `null`。布林值須有相符同父／異父原詞與來源引句，不補具名父親；缺欄與 `null` 均不表示同父。異父兄弟姊妹不得僅因兄弟陳述接到同一父系，來源原詞、母系及未明家系仍保留。
+
+## 來源明記的任用次數
+
+`reported_appointment_count` 與任期長度分開：`value` 為正整數、`unit: appointment`、`source_number` 為來源數詞、`source_term` 為「數詞＋為＋本筆稱號」、`status: source_attested`，`evidence` 保存持有人所在篇段的原引句。例如荀卿「三為祭酒」保存數值 3；不表示任職三年，也不生成三段虛構任期。這是來源報告的合計次數，各次起訖與間隔未定；使用端不可把同一合計紀錄當成三個已知日期的授任事件。其他數詞或句式須先擴充驗證及測試。
+
+## 離相與復位的來源次數
+
+`reported_office_event_counts` 用 `departure` 與 `reinstatement` 分存「三去相，三復位」兩類次數。每筆含正整數 `value`、`unit: office_event`、原數詞 `source_number`、原詞 `source_term`、`status: source_attested` 與持有人篇段 `evidence`。離相不表示自願辭職；復位不等於全部任用次數，不據此推初任或逐次任期。當前支援數詞＋去相／復位，其他句式須擴充驗證。聚合次數不作已定日期的個別事件，亦不是持職年數。
+
+## 同一生卒事件的紀年取捨
+
+`life_event_date_decision_set` 保存已判同指人物的同一類生卒事件所記不同年份。`person_ids` 與 `candidate_event_ids` 明列範圍，各事件的原句、人物錨點及 `normalized_date` 不改寫。`preferred_event_id` 在 `editorial_provisional` 時須為其中一項；`unresolved` 時為 null。證據完整保留候選事件的來源證據，署名、理由、人工覆核及模型狀態另存。取捨只適用此事件，不成為全域作品權威排序，也不把同一作品多篇記載當獨立見證投票。
+
+逐人來源包在選用暫同指後匯出 `life_event_date_decisions` 與 `selected_life_event_dates`，後者附 `selection_decision_id`。原 `life_events` 及 `date_normalizations` 保留所有來源；未解決定不產生選定日期，未整理的其他事件不據此猜值。使用端以決定的候選事件 ID 範圍套用預設，撤回決定即可恢復並存。本輪為平原君卒年試點，未聲稱已處理全部紀年衝突。
+# 食邑與居留年數
+
+地址陳述的 `relation: fief` 保存食邑來源，不改作籍貫或出生地。`qualifiers.fief_kind` 分為 `tangmu_estate`（原詞須含湯沐邑）及 `maintenance_allocation`（原詞須含奉）。〈魏公子列傳〉鄗湯沐邑與信陵供奉各自保留，未獻的五城不作授邑，食邑記錄不自動新增官爵或其有效時段。
+
+`relation: residence` 的 `reported_duration` 保存來源居留時長：`value` 為數字、`source_number` 為原數詞、`source_term` 為精確原詞，`unit: residence_year`、`counting: unspecified_source_years`、`status: source_attested`，`evidence` 與本地址陳述一致。公子留趙十年記數值10，不當官爵任期，不指定含首尾年或反推精確起訖、曆日。
+
+平行事件換年時，事件與西元對照可能分屬兩個見證。`normalized_date.basis.reference_url` 連事件引句，選填 `reference_year_url` 連數位西元年引句；未填時兩者沿用同一 URL。兩項引句都須出現在各自的 `references` 中，不得為格式便利把引句歸到其他來源。
+
+地望 `relation: fief` 的 `qualifiers.fief_kind` 另支援 `territorial_grant`（保存賜地原詞）與 `approved_enfeoffment`（保存請封及明示許之）。單獨請封不能當准封，地望記錄不自動生成官爵、出生地或葬地；賜地、獻回與就封的時間分別核讀。
+
+食邑的 `qualifiers.fief_kind: household_revenue` 保存「食河南洛陽十萬戶」等食地名與戶數原語。`relation` 為 `fief`，不是籍貫、居住地或人口；本批戶數保留原詞，不推戶均人口或現代邊界。驗證要求完整食地名戶數句式，不能只憑一般食字生成地望。
+
+`adoptive_mother` 主體為子女、客體為原文明示的所母；保留含「所母」的 `qualifiers.source_term` 及逐字引文。這是非生母的來源關係，不推血親或現代法律收養程序，不參與生母欄位及血緣世代推導。

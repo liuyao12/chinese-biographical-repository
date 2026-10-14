@@ -155,5 +155,57 @@
     "rex_cs0_mfo_AAA": "佐（宋元公）",
     "rex_cs0_mfo_AAAA": "頭曼（宋景公）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rex_cs0_mfo_AAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji038-041",
+      "subject_person_id": "rex_cs0_mfo_AAAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p052",
+          "quote": "元公三年，楚公子棄疾弒靈王，自立爲平王。八年，宋火。十年，元公毋信，詐殺諸公子，大夫華、向氏作亂。楚平王太子建來奔，見諸華氏相攻亂，建去如鄭。十五年，元公爲魯昭公避季氏居外，爲之求入魯，行道卒，子景公頭曼立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子景公頭曼",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-054",
+      "person_id": "rex_cs0_mfo_AAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "六十四年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p055",
+          "quote": "六十四年，景公卒。宋公子特攻殺太子而自立，是爲昭公。昭公者，元公之曾庶孫也。昭公父公孫糾，糾父公子褍秦，褍秦即元公少子也。景公殺昭公父糾，故昭公怨殺太子而自立。",
+          "person_mention_id": "c-shiji-038-song:m055-0005"
+        }
+      ],
+      "source_term": "景公卒",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

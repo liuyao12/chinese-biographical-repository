@@ -100,12 +100,106 @@
       },
       "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji040-078",
+      "subject_person_id": "c2w_s7g_en0",
+      "predicate": "father",
+      "object_person_id": "42z_cse_1ka_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p065",
+          "quote": "十一年，威王卒，子懷王熊槐立。魏聞楚喪，伐楚，取我陘山。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
     "42z_cse_1ka": "熊良夫（楚宣王）",
     "42z_cse_1ka_A": "熊商（楚威王）",
-    "42z_cse_1ka_AA": "熊槐（楚懷王候選）"
+    "c2w_s7g_en0": "楚懷王"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "42z_cse_1ka_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji040-077",
+      "subject_person_id": "42z_cse_1ka_A",
+      "predicate": "father",
+      "object_person_id": "42z_cse_1ka",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p062",
+          "quote": "宣王六年，周天子賀秦獻公。秦始復彊，而三晉益大，魏惠王、齊威王尤彊。三十年，秦封衞鞅於商，南侵楚。是年，宣王卒，子威王熊商立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji040-078",
+      "subject_person_id": "c2w_s7g_en0",
+      "predicate": "father",
+      "object_person_id": "42z_cse_1ka_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p065",
+          "quote": "十一年，威王卒，子懷王熊槐立。魏聞楚喪，伐楚，取我陘山。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子、生、弟或母稱",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本段明示生育、兄弟、母子來源主張，未由繼位或同稱補闕代、母名與共有父母；版本及他篇異說仍待核。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji040-060",
+      "person_id": "42z_cse_1ka_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十一年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p065",
+          "quote": "十一年，威王卒，子懷王熊槐立。魏聞楚喪，伐楚，取我陘山。",
+          "person_mention_id": "c-shiji-040-chu:m065-0004"
+        }
+      ],
+      "source_term": "威王卒",
+      "interpretation_note": "原文明示死亡；是年沿本段原君年，跨篇紀年另核，不借後段數位校讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

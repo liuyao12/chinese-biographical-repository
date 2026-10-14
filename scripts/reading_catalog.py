@@ -14,6 +14,8 @@ def outputs():
     contents = json.loads((directory / 'shiji-contents.json').read_text())
     progress = {b['book_id']: b for b in json.loads((ROOT / 'corpus/progress.json').read_text())['books']}
     chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (ROOT / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
+    table_index = json.loads((ROOT / 'data/historical-tables/index.json').read_text())
+    table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables']}
     result, entries = {}, []
     for item in contents['chapters']:
         number = item['number']
@@ -26,7 +28,7 @@ def outputs():
             entry.update({'path': public, 'chapter_id': chapter['id'], 'book_id': chapter['book_id'],
                           'paragraph_count': len(chapter['paragraphs']),
                           'annotation_status': progress[chapter['book_id']]['person_status'], 'available': 'marked_text'})
-        elif number in (14, 15):
+        elif number in table_numbers:
             entry.update({'available': 'table', 'table_id': f'shiji-{number:03d}', 'annotation_status': 'structural_import'})
         else:
             entry.update({'available': 'pending', 'annotation_status': 'not_imported'})

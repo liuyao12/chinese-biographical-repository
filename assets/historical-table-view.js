@@ -1,3 +1,4 @@
+import {sectionMarkup} from './historical-table-sections.js';
 import {markCell, bindPersonCards} from './cbr-person.js';
 import {escapeHTML as h} from './core.js';
 import {t, ui, getLocale} from './i18n.js';
@@ -56,9 +57,23 @@ export function mountHistoricalTable(root, tableID) {
     $('table-title').textContent = table.title;
     document.title = table.title + ' · 人文';
     $('table-coverage').textContent = t('{years} year rows · {cells} source cells · structural import, review pending', {years: rows.length, cells: cells.length});
+    if (table.independent_sections) {
+      $('table-coverage').textContent = getLocale() === 'en' ? `${rows.length} source rows · ${cells.length} source cells · review pending` : `${rows.length} 表列 · ${cells.length} 原文格 · 待逐處覆核`;
+      $('axis-vertical').textContent = getLocale() === 'en' ? 'Vertical · source rows down' : '縱向 · 原列向下';
+      $('axis-horizontal').textContent = getLocale() === 'en' ? 'Horizontal · source rows across' : '橫向 · 原列向右';
+    }
     $('table-source-links').innerHTML = sourceLink('Fixed source version', table.source.revision_url) + `<a href="data/historical-tables/${h(table.id)}.json">${ui('Download table JSON')}</a>`;
     $('table-source-details').innerHTML = `<p data-original>${h(table.source.note)}</p><p data-original>${h(table.source.rights)}</p>${sourceLink('Source licensing', table.source.rights_url)}<p>${ui('Original headings')}: <span data-source-text>${table.columns.map(c => h(c.text)).join(' · ')}</span></p><p>${ui('Source revision')}: <code>${h(table.source.revision)}</code> · ${h(table.source.accessed)}</p><p><code>${h(table.source.response_sha256)}</code></p>`;
     $('year-select').innerHTML = rows.map(row => `<option value="${h(row.id)}">${h(yearLabel(row.year, getLocale()))}</option>`).join('');
+    const grid = $('table-grid');
+    if (table.independent_sections) {
+      grid.className = 'historical-table-sections';
+      grid.style.gridTemplateColumns = '';
+      grid.removeAttribute('role');
+      grid.innerHTML = sectionMarkup(table, horizontal, getLocale());
+      $('year-select').closest('label').hidden = !rows.some(row => row.year);
+    } else {
+      $('year-select').closest('label').hidden = false;
     const heading = (text, x, y, cls) => `<div role="columnheader" class="grid-cell ${cls}" style="grid-column:${x + 1};grid-row:${y + 1}">${text}</div>`;
     let headers = '';
     if (horizontal) {
@@ -72,12 +87,12 @@ export function mountHistoricalTable(root, tableID) {
       const text = western ? yearLabel(c.year, getLocale()) : c.text;
       return `<div tabindex="0" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${western ? 'year-cell' : ''}" style="grid-column:${c.x + (horizontal ? 2 : 1)} / span ${c.width};grid-row:${c.y + (horizontal ? 1 : 2)} / span ${c.height}" aria-label="${h(text || t('Empty source cell'))}" ${western ? 'data-editorial-year="true"' : 'data-source-text'}>${western ? h(text) : markCell(c)}${text ? '' : '<span aria-hidden="true">&nbsp;</span>'}</div>`;
     }).join('');
-    const grid = $('table-grid');
     grid.className = 'historical-grid' + (horizontal ? ' horizontal' : '');
     grid.setAttribute('role', 'table');
     grid.setAttribute('aria-label', table.title);
     grid.style.gridTemplateColumns = horizontal ? `11rem repeat(${rows.length}, 14rem)` : `11rem repeat(${table.columns.length - 1}, 13rem)`;
     grid.innerHTML = headers + content;
+    }
     $('table-scroll').scrollTop = 0;
     $('table-scroll').scrollLeft = 0;
     search();

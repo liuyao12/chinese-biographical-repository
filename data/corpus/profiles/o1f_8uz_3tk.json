@@ -182,6 +182,27 @@
       },
       "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji004-056",
+      "subject_person_id": "mww_f6f_st9",
+      "predicate": "father",
+      "object_person_id": "o1f_8uz_3tk",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p063",
+          "quote": "元王八年，崩，子定王介立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -189,5 +210,78 @@
     "o1f_8uz_3tk": "元王",
     "sq3_9p2_9n3": "敬王"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "o1f_8uz_3tk"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji004-055",
+      "subject_person_id": "o1f_8uz_3tk",
+      "predicate": "father",
+      "object_person_id": "sq3_9p2_9n3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p063",
+          "quote": "敬王崩，子元王仁立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji004-056",
+      "subject_person_id": "mww_f6f_st9",
+      "predicate": "father",
+      "object_person_id": "o1f_8uz_3tk",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-004-zhou:p063",
+          "quote": "元王八年，崩，子定王介立",
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示的親屬主張；不是獨立確證，不由繼位推導血緣。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji004-066",
+      "person_id": "o1f_8uz_3tk",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-004-zhou",
+          "source_id": "s-shiji-004-zhou",
+          "paragraph_id": "c-shiji-004-zhou:p063",
+          "quote": "四十二年，敬王崩，子元王仁立。元王八年，崩，子定王介立。",
+          "person_mention_id": "c-shiji-004-zhou:m063-0015"
+        }
+      ],
+      "source_term": "元王八年，崩",
+      "interpretation_note": "明言卒、崩、殺或弒保存；后太子聖疑讀未拆成假定人物，滅智伯仍保留原敘未單據滅字記死亡。紀年換算待逐項核查。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

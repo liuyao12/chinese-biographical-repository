@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "id": "rex_cs0_mfo_AA",
+  "canonical_person_id": "rex_cs0_mfo_AA",
+  "label": "戌（本版宋平公）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "平公",
+    "戌"
+  ],
+  "titles": [
+    {
+      "id": "th-shiji038-025",
+      "person_id": "rex_cs0_mfo_AA",
+      "title": "平公",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p050",
+          "quote": "共公十年，華元善楚將子重，又善晉將欒書，兩盟晉楚。十三年，共公卒。華元爲右師，魚石爲左師。司馬唐山攻殺太子肥，欲殺華元，華元犇晉，魚石止之，至河乃還，誅唐山。乃立共公少子戌，是爲平公。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji038-025:a001",
+          "paragraph_id": "c-shiji-038-song:p050",
+          "start": 89,
+          "end": 91,
+          "surface": "平公",
+          "person_mention_id": "c-shiji-038-song:m050-0085",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "侯、公及諡號等暫作敘事追稱，不把繼位當當時授予諡號；未知曆日與終點不按卒日補造。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 38,
+      "category": "shijia",
+      "title": "宋微子世家第八",
+      "paragraph_id": "c-shiji-038-song:p050",
+      "count": 4,
+      "quote": "殺太子肥，欲殺華元，華元犇晉，魚石止之，至河乃還，誅唐山。乃立共公少子戌，是爲平公。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-038-song",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-038",
+      "source_id": "s-shiji-038-song",
+      "source": {
+        "title": "史記／卷038",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷038",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306",
+        "revision_id": 8737306,
+        "accessed_on": "2026-10-09",
+        "extent": "59段正文，自微子開至太史公論贊；排除2個dd導覽、正文邊界空白、末端空p與現代版權模板。本見證未見索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-038-song:p001",
+              "witness_note": "〈避漢景帝諱啓，改啓爲開〉",
+              "treatment": "數位見證的避諱說明另存，不作古文或景帝在場人物。"
+            },
+            {
+              "paragraph_id": "c-shiji-038-song:p050",
+              "witness_note": "傳世本「戌」作「成」；數位註釋援引公羊傳及鐘銘主張成為訛字。",
+              "treatment": "移除HTML sup reference註號[1]，正文保留本版戌；註者身份及所引古籍、鐘銘尚未獨立核讀，不直接採為校定。"
+            }
+          ],
+          "extraction_note": "固定版本與實讀HTML一致；只去除段落首尾版面換行、開篇明示數位避諱說明及第50段HTML reference註號。保留段內標點、古字、戌、鮑革、唐山、褍秦、頭曼及（鄭）［楚］命（楚）［鄭］的行內校勘。",
+          "note": "未核可靠古籍底本及影像，古代原紀年、世系與數位見證讀法保留；不以版本註釋或後世研究直接重指人物。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji038-038",
+      "subject_person_id": "rex_cs0_mfo_AA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p050",
+          "quote": "共公十年，華元善楚將子重，又善晉將欒書，兩盟晉楚。十三年，共公卒。華元爲右師，魚石爲左師。司馬唐山攻殺太子肥，欲殺華元，華元犇晉，魚石止之，至河乃還，誅唐山。乃立共公少子戌，是爲平公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "共公少子戌",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-039",
+      "subject_person_id": "rex_cs0_mfo_AAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p051",
+          "quote": "平公三年，楚共王拔宋之彭城，以封宋左師魚石。四年，諸矦共誅魚石，而歸彭城於宋。三十五年，楚公子圍弒其君自立，爲靈王。四十四年，平公卒，子元公佐立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子元公佐",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "rex_cs0_mfo_A": "瑕（宋共公）",
+    "rex_cs0_mfo_AA": "戌（本版宋平公）",
+    "rex_cs0_mfo_AAA": "佐（宋元公）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rex_cs0_mfo_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji038-038",
+      "subject_person_id": "rex_cs0_mfo_AA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p050",
+          "quote": "共公十年，華元善楚將子重，又善晉將欒書，兩盟晉楚。十三年，共公卒。華元爲右師，魚石爲左師。司馬唐山攻殺太子肥，欲殺華元，華元犇晉，魚石止之，至河乃還，誅唐山。乃立共公少子戌，是爲平公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "共公少子戌",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-039",
+      "subject_person_id": "rex_cs0_mfo_AAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p051",
+          "quote": "平公三年，楚共王拔宋之彭城，以封宋左師魚石。四年，諸矦共誅魚石，而歸彭城於宋。三十五年，楚公子圍弒其君自立，爲靈王。四十四年，平公卒，子元公佐立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子元公佐",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-050",
+      "person_id": "rex_cs0_mfo_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "四十四年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p051",
+          "quote": "平公三年，楚共王拔宋之彭城，以封宋左師魚石。四年，諸矦共誅魚石，而歸彭城於宋。三十五年，楚公子圍弒其君自立，爲靈王。四十四年，平公卒，子元公佐立。",
+          "person_mention_id": "c-shiji-038-song:m051-0000"
+        }
+      ],
+      "source_term": "平公卒",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

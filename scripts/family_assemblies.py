@@ -94,6 +94,7 @@ def load_assemblies(root, catalog):
                         if (connection['type'] != 'shared_father_through_sibling' or not sibling
                             or connection['status'] != 'contextual_provisional' or not connection['rationale']
                             or brother['predicate'] != 'brother' or brother['subject_person_id'] not in ids
+                            or brother.get('qualifiers', {}).get('shared_father') is False
                             or brother['object_person_id'] not in sibling['source_person_ids']
                             or father['predicate'] != 'father' or father['subject_person_id'] not in sibling['source_person_ids']
                             or father['object_person_id'] not in rows[parent]['source_person_ids']

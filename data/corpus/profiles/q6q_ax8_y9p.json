@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "id": "q6q_ax8_y9p",
+  "canonical_person_id": "q6q_ax8_y9p",
+  "label": "秦惠王（樗里子甘茂列傳候選）",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "秦惠王",
+    "惠王",
+    "王",
+    "先王"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 71,
+      "category": "liezhuan",
+      "title": "樗里子甘茂列傳第十一",
+      "paragraph_id": "c-shiji-071-chugan:p001",
+      "count": 10,
+      "quote": "樗里子者，名疾，秦惠王之弟也，與惠王異母。母，韓女也。樗里子滑稽多智，秦人號曰「智囊」。"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-shiji-071-chugan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "source_id": "s-shiji-071-chugan",
+      "source": {
+        "title": "史記／卷071",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷071",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152",
+        "revision_id": 2621152,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樗里子者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留樗里／樗裏、于、遯、茍與數位轉錄原字。",
+          "note": "全20段正文已核讀；未核底本、影像或現代研究，人物待逐段標註。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-shiji071-001",
+      "subject_person_id": "r9n_0vc_ywa",
+      "predicate": "brother",
+      "object_person_id": "q6q_ax8_y9p",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p001",
+          "quote": "樗里子者，名疾，秦惠王之弟也，與惠王異母。母，韓女也。樗里子滑稽多智，秦人號曰「智囊」。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "秦惠王之弟也，與惠王異母",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "q6q_ax8_y9p",
+          "younger_person_id": "r9n_0vc_ywa",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "shared_mother": false
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "q6q_ax8_y9p": "秦惠王（樗里子甘茂列傳候選）",
+    "r9n_0vc_ywa": "摢裏疾"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "q6q_ax8_y9p"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji071-001",
+      "subject_person_id": "r9n_0vc_ywa",
+      "predicate": "brother",
+      "object_person_id": "q6q_ax8_y9p",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p001",
+          "quote": "樗里子者，名疾，秦惠王之弟也，與惠王異母。母，韓女也。樗里子滑稽多智，秦人號曰「智囊」。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "秦惠王之弟也，與惠王異母",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "q6q_ax8_y9p",
+          "younger_person_id": "r9n_0vc_ywa",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        },
+        "shared_mother": false
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji071-001",
+      "person_id": "q6q_ax8_y9p",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "秦惠王卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p003",
+          "quote": "秦惠王卒，太子武王立，逐張儀、魏章，而以樗里子、甘茂為左右丞相。秦使甘茂攻韓，拔宜陽。使樗里子以車百乘入周。周以卒迎之，意甚敬。楚王怒，讓周，以其重秦客。游騰為周說楚王曰：「知伯之伐仇猶，遺之廣車，因隨之以兵，仇猶遂亡。何則？無備故也。齊桓公伐蔡，號曰誅楚，其實襲蔡。今秦，虎狼之國，使樗里子以車百乘入周，周以仇猶、蔡觀焉，故使長戟居前，彊弩在後，名曰衛疾，而實囚之。且夫周豈能無憂其社稷哉？恐一旦亡國以憂大王。」楚王乃悅。",
+          "person_mention_id": "c-shiji-071-chugan:m003-0000"
+        },
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p008",
+          "quote": "惠王卒，武王立。張儀、魏章去，東之魏。蜀侯煇、相壯反，秦使甘茂定蜀。還，而以甘茂為左丞相，以樗里子為右丞相。",
+          "person_mention_id": "c-shiji-071-chugan:m008-0000"
+        }
+      ],
+      "interpretation_note": "保留來源明示死亡，不由病、恐死、將殺或國亡推個人死亡；同篇重述合一。未核影像，數字紀年待按原紀年與平行事件判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

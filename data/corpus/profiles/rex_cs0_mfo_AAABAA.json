@@ -170,6 +170,27 @@
       },
       "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-046",
+      "subject_person_id": "rex_cs0_mfo_AAABAAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AAABAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p056",
+          "quote": "昭公四十七年卒，子悼公購由立。悼公八年卒，子休公田立。休公田二十三年卒，子辟公辟兵立。辟公三年卒，子剔成立。剔成四十一年，剔成弟偃攻襲剔成，剔成敗奔齊，偃自立爲宋君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子悼公購由",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -178,5 +199,99 @@
     "rex_cs0_mfo_AAABAA": "特（後宋昭公）",
     "rex_cs0_mfo_AAABAAA": "購由（宋悼公）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "rex_cs0_mfo_AAABAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji038-042",
+      "subject_person_id": "rex_cs0_mfo_AAABAA",
+      "predicate": "great_grandfather",
+      "object_person_id": "rex_cs0_mfo_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p055",
+          "quote": "六十四年，景公卒。宋公子特攻殺太子而自立，是爲昭公。昭公者，元公之曾庶孫也。昭公父公孫糾，糾父公子褍秦，褍秦即元公少子也。景公殺昭公父糾，故昭公怨殺太子而自立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "元公之曾庶孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "原文明示元公曾庶孫，且另列元公→褍秦→糾→特三代父系；保留來源說，不將曾孫縮作直接兒子，也不藉此校定景公六十四年年代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-043",
+      "subject_person_id": "rex_cs0_mfo_AAABAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AAABA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p055",
+          "quote": "六十四年，景公卒。宋公子特攻殺太子而自立，是爲昭公。昭公者，元公之曾庶孫也。昭公父公孫糾，糾父公子褍秦，褍秦即元公少子也。景公殺昭公父糾，故昭公怨殺太子而自立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "昭公父公孫糾",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji038-046",
+      "subject_person_id": "rex_cs0_mfo_AAABAAA",
+      "predicate": "father",
+      "object_person_id": "rex_cs0_mfo_AAABAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p056",
+          "quote": "昭公四十七年卒，子悼公購由立。悼公八年卒，子休公田立。休公田二十三年卒，子辟公辟兵立。辟公三年卒，子剔成立。剔成四十一年，剔成弟偃攻襲剔成，剔成敗奔齊，偃自立爲宋君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子悼公購由",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、兄弟、夫人及曾庶孫說；不由繼位補父子，不補母名、共父母或闕代。來源主張與確證史實分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji038-057",
+      "person_id": "rex_cs0_mfo_AAABAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "四十七年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p056",
+          "quote": "昭公四十七年卒，子悼公購由立。悼公八年卒，子休公田立。休公田二十三年卒，子辟公辟兵立。辟公三年卒，子剔成立。剔成四十一年，剔成弟偃攻襲剔成，剔成敗奔齊，偃自立爲宋君。",
+          "person_mention_id": "c-shiji-038-song:m056-0000"
+        }
+      ],
+      "source_term": "昭公四十七年卒",
+      "interpretation_note": "原文明示死亡或誅殺；原紀年按本段敘事保存，回述不借段首日期，跨篇主張分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

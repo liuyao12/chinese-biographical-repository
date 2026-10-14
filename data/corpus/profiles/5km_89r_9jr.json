@@ -147,6 +147,27 @@
       },
       "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji037-072",
+      "subject_person_id": "5km_89r_9jr_A",
+      "predicate": "father",
+      "object_person_id": "5km_89r_9jr",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p051",
+          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子君角",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -154,5 +175,78 @@
     "5km_89r_9jr_A": "衛君角",
     "qxa_jm7_zmy_ABAAAAA": "嗣君（衛平侯子）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "5km_89r_9jr"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji037-071",
+      "subject_person_id": "5km_89r_9jr",
+      "predicate": "brother",
+      "object_person_id": "qxa_jm7_zmy_ABAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p050",
+          "quote": "懷君三十一年，朝魏，魏囚殺懷君。魏更立嗣君弟，是爲元君。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "嗣君弟",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji037-072",
+      "subject_person_id": "5km_89r_9jr_A",
+      "predicate": "father",
+      "object_person_id": "5km_89r_9jr",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p051",
+          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子君角",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本篇明示父、子、生、夫人與兄弟原稱，不由繼位推父子、不補同父同母或闕代；來源主張並非已確證史實。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji037-063",
+      "person_id": "5km_89r_9jr",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二十五年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-037-wei",
+          "source_id": "s-shiji-037-wei",
+          "paragraph_id": "c-shiji-037-wei:p051",
+          "quote": "元君爲魏婿，故魏立之。元君十四年，秦拔魏東地，秦初置東郡，更徙衞野王縣，而并濮陽爲東郡。二十五年，元君卒，子君角立。",
+          "person_mention_id": "c-shiji-037-wei:m051-0000"
+        }
+      ],
+      "source_term": "元君卒",
+      "interpretation_note": "死亡主張，原年次及時長保留；回述初不借段首年次，復位後元與此前分開。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

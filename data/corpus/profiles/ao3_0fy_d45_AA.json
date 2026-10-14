@@ -6,11 +6,11 @@
   "identity_note": "依本卷特定時代與敘事建立；同名與世襲官號不得全庫合併，本名未見不補造。",
   "review": "ai_provisional",
   "names": [
-    "子楚",
     "秦莊襄王",
     "莊襄王",
     "太上皇",
     "秦質子",
+    "子楚",
     "秦莊襄王楚"
   ],
   "titles": [
@@ -118,7 +118,7 @@
     },
     {
       "id": "th-shiji085-004",
-      "person_id": "mby_4zh_oni_A",
+      "person_id": "ao3_0fy_d45_AA",
       "title": "適嗣",
       "kind": "royal_rank",
       "mode": "grant",
@@ -168,7 +168,7 @@
     },
     {
       "id": "th-shiji085-008",
-      "person_id": "mby_4zh_oni_A",
+      "person_id": "ao3_0fy_d45_AA",
       "title": "太子",
       "kind": "royal_rank",
       "mode": "grant",
@@ -204,7 +204,45 @@
               "paragraph_id": "c-shiji-085-lubuwei:p006",
               "quote": "秦昭王五十年，使王齮圍邯鄲，急，趙欲殺子楚。子楚與呂不韋謀，行金六百斤予守者吏，得脫，亡赴秦軍，遂以得歸。趙欲殺子楚妻子，子楚夫人趙豪家女也，得匿，以故母子竟得活。秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。趙亦奉子楚夫人及子政歸秦。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 251,
+            "year": -250,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "秦昭王五十年，使王齮圍邯鄲，急，趙欲殺子楚。子楚與呂不韋謀，行金六百斤予守者吏，得脫，亡赴秦軍，遂以得歸。趙欲殺子楚妻子，子楚夫人趙豪家女也，得匿，以故母子竟得活。秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。趙亦奉子楚夫人及子政歸秦。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-085-lubuwei",
+                "source_id": "s-shiji-085-lubuwei",
+                "paragraph_id": "c-shiji-085-lubuwei:p006",
+                "quote": "秦昭王五十年，使王齮圍邯鄲，急，趙欲殺子楚。子楚與呂不韋謀，行金六百斤予守者吏，得脫，亡赴秦軍，遂以得歸。趙欲殺子楚妻子，子楚夫人趙豪家女也，得匿，以故母子竟得活。秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。趙亦奉子楚夫人及子政歸秦。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "五十六",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r226-c02"
+              },
+              {
+                "title": "〈六國年表〉數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+                "quote": "251",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-015-r226-c00"
+              }
+            ],
+            "rationale": "依本段明示王年與同段繼位、任相及命號順序，對讀年表秦紀年；原日期字串不改。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -214,7 +252,7 @@
       },
       "interpretation_note": "授任與文獻用稱分存，未知起訖不補造。相國明示免職不終止文信侯，飲酖死亡不推定全部官爵終點；仲父為敬號非父親。篇末嫪毐文信侯歧義不作實授。",
       "reviewer": "Codex（AI 代理）",
-      "period": "秦昭王五十六年 → 未定"
+      "period": "西元前251年（暫定） → 未定"
     }
   ],
   "addresses": [
@@ -269,6 +307,33 @@
       "human_reviewed": false,
       "term": "葬茝陽",
       "quote": "莊襄王享國三年。葬茝陽。生始皇帝。呂不韋相。"
+    },
+    {
+      "id": "pa-shiji085-006",
+      "person_id": "ao3_0fy_d45_AA",
+      "relation": "burial_place",
+      "place": {
+        "source_name": "芷陽",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p011",
+          "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。",
+          "person_mention_id": "c-shiji-085-lubuwei:m011-0005"
+        }
+      ],
+      "source_term": "夏太后子莊襄王葬芷陽",
+      "interpretation_note": "保存明示葬地與同葬原句，不補今日行政區或精確墓址；芷陽與茝陽原字不調和。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "夏太后子莊襄王葬芷陽",
+      "quote": "始皇七年，莊襄王母夏太后薨。孝文王后曰華陽太后，與孝文王會葬壽陵。夏太后子莊襄王葬芷陽，故夏太后獨別葬杜東，曰「東望吾子，西望吾夫。後百年，旁當有萬家邑」。"
     }
   ],
   "occurrences": [
@@ -303,6 +368,22 @@
       "paragraph_id": "c-shiji-040-chu:p090",
       "count": 1,
       "quote": "七年，至新中。秦兵去。十二年，秦昭王卒，楚王使春申君弔祠于秦。十六年，秦莊襄王卒，秦王趙政立。二十二年，與諸侯共伐秦，不利而去。楚東徙都壽春，命曰郢。"
+    },
+    {
+      "number": 78,
+      "category": "liezhuan",
+      "title": "春申君列傳第十八",
+      "paragraph_id": "c-shiji-078-chunshen:p014",
+      "count": 1,
+      "quote": "春申君相十四年，秦莊襄王立，以呂不韋為相，封為文信侯。取東周。"
+    },
+    {
+      "number": 79,
+      "category": "liezhuan",
+      "title": "范睢蔡澤列傳第十九",
+      "paragraph_id": "c-shiji-079-fancai:p034",
+      "count": 1,
+      "quote": "人或惡之，懼誅，乃謝病歸相印，號為綱成君。居秦十餘年，事昭王、孝文王、莊襄王。卒事始皇帝，為秦使於燕，三年而燕使太子丹入質於秦。"
     },
     {
       "number": 85,
@@ -580,6 +661,69 @@
       }
     },
     {
+      "chapter_id": "c-shiji-078-chunshen",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-078",
+      "source_id": "s-shiji-078-chunshen",
+      "source": {
+        "title": "史記／卷078",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷078",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷078&oldid=2089016",
+        "revision_id": 2089016,
+        "accessed_on": "2026-10-09",
+        "extent": "22段正文，自春申君黃歇至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "铚": "銍"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第6段铚轉銍明示記錄；未見括號改讀提示，為、彊、谿、免等原字保留，上書引文區塊依原序保存。",
+          "note": "全22段正文及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-079-fancai",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-079",
+      "source_id": "s-shiji-079-fancai",
+      "source": {
+        "title": "史記／卷079",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷079",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷079&oldid=2549307",
+        "revision_id": 2549307,
+        "accessed_on": "2026-10-09",
+        "extent": "35段正文，自范睢者至太史公論贊；排除人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（止）［足］",
+              "body_reading": "止",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            },
+            {
+              "paragraph_id": "c-shiji-079-fancai:p032",
+              "witness_form": "（足）［止］",
+              "body_reading": "足",
+              "note": "數位改讀提示另存，正文保留改讀前括號內文字，未核底本，不當已校定。"
+            }
+          ],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；第32段止／足兩項數位改讀提示分離，正文保留改讀前原語；睢、厀、檐、繆、甐等原字保留，上書dd引文按原序。",
+          "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-085-lubuwei",
       "work_id": "w-shiji",
       "book_id": "b-shiji-085",
@@ -675,6 +819,69 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji005-075",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p074",
+          "quote": "莊襄王卒，子政立，是為秦始皇帝",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-001",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "秦始皇帝者，秦莊襄王子也",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-002",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "莊襄王為秦質子於趙，見呂不韋姬，悅而取之",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji006-037",
       "subject_person_id": "ao3_0fy_d45_AA",
       "predicate": "father",
@@ -696,10 +903,31 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
-      "id": "a-shiji085-001",
-      "subject_person_id": "mby_4zh_oni_A",
+      "id": "a-shiji006-038",
+      "subject_person_id": "ao3_0fy_d45_AAA",
       "predicate": "father",
-      "object_person_id": "mby_4zh_oni",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p096",
+          "quote": "莊襄王享國三年。葬茝陽。生始皇帝。呂不韋相。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-001",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -718,9 +946,9 @@
     },
     {
       "id": "a-shiji085-002",
-      "subject_person_id": "mby_4zh_oni_A",
+      "subject_person_id": "ao3_0fy_d45_AA",
       "predicate": "mother",
-      "object_person_id": "lef_ipu_r6b",
+      "object_person_id": "pz6_lqa_ina",
       "status": "source_attested",
       "evidence": [
         {
@@ -736,19 +964,544 @@
       },
       "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-004",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p005",
+          "quote": "呂不韋取邯鄲諸姬絕好善舞者與居，知有身。子楚從不韋飲，見而說之，因起為壽，請之。呂不韋怒，念業已破家為子楚，欲以釣奇，乃遂獻其姬。姬自匿有身，至大期時，生子政。子楚遂立姬為夫人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子楚遂立姬為夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-007",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "adoptive_mother",
+      "object_person_id": "jb2_tak_5p8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p007",
+          "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "莊襄王所母華陽后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "所母與真母原文明分；保存華陽的非生母關係，不替代夏姬生母，不推血親或現代收養程序。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "2u0_36z_05q": "子楚（太史公自序候選）",
     "ao3_0fy_d45_A": "秦孝文王",
     "ao3_0fy_d45_AA": "秦莊襄王",
     "ao3_0fy_d45_AAA": "秦始皇帝",
-    "eyp_jnx_te1": "秦莊襄王（蒙恬列傳候選）",
-    "ie0_5f2_2uz": "子政母未名（呂不韋列傳候選）",
+    "jb2_tak_5p8": "華陽夫人（呂不韋列傳候選）",
     "lap_qc0_yqm": "呂不韋姬（始皇生母）",
-    "lef_ipu_r6b": "夏姬（呂不韋列傳候選）",
-    "mby_4zh_oni": "安國君（呂不韋列傳候選）",
-    "mby_4zh_oni_A": "子楚（呂不韋列傳候選）"
+    "pz6_lqa_ina": "夏太后"
   },
-  "dates": []
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 247,
+      "year": -246,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p008",
+          "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+          "person_mention_id": "c-shiji-085-lubuwei:m008-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三。王齮擊上黨。初置太原郡。魏公子無忌率五國卻我軍河外，蒙驁解去，",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r230-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "247",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r230-c00"
+        }
+      ],
+      "rationale": "莊襄王三年對读年表承接莊襄元年的三年；不採秦本紀括注四年改寫本篇。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji085-004",
+      "person_id": "ao3_0fy_d45_AA",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 251,
+      "year": -250,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "秦昭王五十年，使王齮圍邯鄲，急，趙欲殺子楚。子楚與呂不韋謀，行金六百斤予守者吏，得脫，亡赴秦軍，遂以得歸。趙欲殺子楚妻子，子楚夫人趙豪家女也，得匿，以故母子竟得活。秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。趙亦奉子楚夫人及子政歸秦。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p006",
+          "quote": "秦昭王五十年，使王齮圍邯鄲，急，趙欲殺子楚。子楚與呂不韋謀，行金六百斤予守者吏，得脫，亡赴秦軍，遂以得歸。趙欲殺子楚妻子，子楚夫人趙豪家女也，得匿，以故母子竟得活。秦昭王五十六年，薨，太子安國君立為王，華陽夫人為王后，子楚為太子。趙亦奉子楚夫人及子政歸秦。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "五十六",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r226-c02"
+        },
+        {
+          "title": "〈六國年表〉數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "251",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r226-c00"
+        }
+      ],
+      "rationale": "依本段明示王年與同段繼位、任相及命號順序，對讀年表秦紀年；原日期字串不改。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji085-008",
+      "person_id": "ao3_0fy_d45_AA",
+      "endpoint": "start",
+      "title": "太子"
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "ao3_0fy_d45_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji005-074",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p073",
+          "quote": "孝文王除喪，十月己亥即位，三日辛丑卒，子莊襄王立",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji005-075",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p074",
+          "quote": "莊襄王卒，子政立，是為秦始皇帝",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-001",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "秦始皇帝者，秦莊襄王子也",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-002",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "莊襄王為秦質子於趙，見呂不韋姬，悅而取之",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷明示親屬主張；不據此排除其他來源異說，不補生母姓名。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-037",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p095",
+          "quote": "孝文王享國一年。葬壽陵。生莊襄王。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji006-038",
+      "subject_person_id": "ao3_0fy_d45_AAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-006-shihuang:p096",
+          "quote": "莊襄王享國三年。葬茝陽。生始皇帝。呂不韋相。",
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "生",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存卷末文本明示主張；若與本卷或前卷相反，仍分存，不推定此說較優或修改來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-001",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "安國君中男名子楚",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-002",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "mother",
+      "object_person_id": "pz6_lqa_ina",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p002",
+          "quote": "秦昭王四十年，太子死。其四十二年，以其次子安國君為太子。安國君有子二十餘人。安國君有所甚愛姬，立以為正夫人，號曰華陽夫人。華陽夫人無子。安國君中男名子楚，子楚母曰夏姬，毋愛。子楚為秦質子於趙。秦數攻趙，趙不甚禮子楚。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子楚母曰夏姬",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-004",
+      "subject_person_id": "lap_qc0_yqm",
+      "predicate": "spouse",
+      "object_person_id": "ao3_0fy_d45_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p005",
+          "quote": "呂不韋取邯鄲諸姬絕好善舞者與居，知有身。子楚從不韋飲，見而說之，因起為壽，請之。呂不韋怒，念業已破家為子楚，欲以釣奇，乃遂獻其姬。姬自匿有身，至大期時，生子政。子楚遂立姬為夫人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子楚遂立姬為夫人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji085-007",
+      "subject_person_id": "ao3_0fy_d45_AA",
+      "predicate": "adoptive_mother",
+      "object_person_id": "jb2_tak_5p8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p007",
+          "quote": "秦王立一年，薨，謚為孝文王。太子子楚代立，是為莊襄王。莊襄王所母華陽后為華陽太后，真母夏姬尊以為夏太后。莊襄王元年，以呂不韋為丞相，封為文信侯，食河南洛陽十萬戶。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "莊襄王所母華陽后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "所母與真母原文明分；保存華陽的非生母關係，不替代夏姬生母，不推血親或現代收養程序。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-106",
+      "person_id": "ao3_0fy_d45_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "五月丙午",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p074",
+          "quote": "莊襄王元年，大赦罪人，修先王功臣，施德厚骨肉而布惠於民。東周君與諸侯謀秦，秦使相國呂不韋誅之，盡入其國。秦不絕其祀，以陽人地賜周君，奉其祭祀。使蒙驁伐韓，韓獻成皋、鞏。秦界至大梁，初置三川郡。二年，使蒙驁攻趙，定太原。三年，蒙驁攻魏高都、汲，拔之。攻趙榆次、新城、狼孟，取三十七城。四月日食。（四年）王齕攻上黨。初置太原郡。魏將無忌率五國兵擊秦，秦卻於河外。蒙驁敗，解而去。五月丙午，莊襄王卒，子政立，是為秦始皇帝。",
+          "person_mention_id": "c-shiji-005-qin:m074-0000"
+        }
+      ],
+      "source_term": "莊襄王卒",
+      "interpretation_note": "保存本篇原紀年；始皇立十一年而崩是稱帝後計數，不替換為秦王在位總年。子嬰立月餘非精確死亡年月；東周君誅之是否專指誅殺仍待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-002",
+      "person_id": "ao3_0fy_d45_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p001",
+          "quote": "秦始皇帝者，秦莊襄王子也。莊襄王為秦質子於趙，見呂不韋姬，悅而取之，生始皇。以秦昭王四十八年正月生於邯鄲。及生，名為政，姓趙氏。年十三歲，莊襄王死，政代立為秦王。當是之時，秦地已并巴、蜀、漢中，越宛有郢，置南郡矣；北收上郡以東，有河東、太原、上黨郡；東至滎陽，滅二周，置三川郡。呂不韋為相，封十萬戶，號曰文信侯。招致賓客游士，欲以并天下。李斯為舍人。蒙驁、王齮、麃公等為將軍。王年少，初即位，委國事大臣。晉陽反。",
+          "person_mention_id": "c-shiji-006-shihuang:m001-0013"
+        }
+      ],
+      "source_term": "莊襄王死",
+      "interpretation_note": "保存本篇出生或死亡原文；年十三歲不作精確出生日期逆算。王齮與王齕尚未合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji006-055",
+      "person_id": "ao3_0fy_d45_AA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p095",
+          "quote": "孝文王享國一年。葬壽陵。生莊襄王。",
+          "person_mention_id": "c-shiji-006-shihuang:p095:m0013"
+        }
+      ],
+      "source_term": "生莊襄王",
+      "interpretation_note": "卷末世系生某人保存出生敘述，未載年日不補造；即位年齡不倒推生日。二世生十二年而立與前段元年二十一保留不一致。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji040-067",
+      "person_id": "ao3_0fy_d45_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十六年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p090",
+          "quote": "六年，秦圍邯鄲，趙告急楚，楚遣將軍景陽救趙。七年，至新中。秦兵去。十二年，秦昭王卒，楚王使春申君弔祠于秦。十六年，秦莊襄王卒，秦王趙政立。二十二年，與諸侯共伐秦，不利而去。楚東徙都壽春，命曰郢。",
+          "person_mention_id": "c-shiji-040-chu:m090-0057"
+        }
+      ],
+      "source_term": "秦莊襄王卒",
+      "interpretation_note": "原文明示死亡，保留原君年及相對時長；被虜與滅國不推死亡，與其他篇異說分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji085-004",
+      "person_id": "ao3_0fy_d45_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "莊襄王即位三年",
+      "source_term": "莊襄王即位三年，薨",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-085-lubuwei",
+          "source_id": "s-shiji-085-lubuwei",
+          "paragraph_id": "c-shiji-085-lubuwei:p008",
+          "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+          "person_mention_id": "c-shiji-085-lubuwei:m008-0000"
+        }
+      ],
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 247,
+        "year": -246,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-085-lubuwei",
+            "source_id": "s-shiji-085-lubuwei",
+            "paragraph_id": "c-shiji-085-lubuwei:p008",
+            "quote": "莊襄王即位三年，薨，太子政立為王，尊呂不韋為相國，號稱「仲父」。秦王年少，太后時時竊私通呂不韋。不韋家僮萬人。",
+            "person_mention_id": "c-shiji-085-lubuwei:m008-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》卷十五〈六國年表〉秦紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三。王齮擊上黨。初置太原郡。魏公子無忌率五國卻我軍河外，蒙驁解去，",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r230-c02"
+          },
+          {
+            "title": "〈六國年表〉數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "247",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r230-c00"
+          }
+        ],
+        "rationale": "莊襄王三年對读年表承接莊襄元年的三年；不採秦本紀括注四年改寫本篇。 西元數字沿用固定數位年表的編者附加對照，未核書影或曆表；只到年，不換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      },
+      "interpretation_note": "本篇生卒主張與他篇各存；不據死亡自動終止所有稱號，不補出生年或享年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-shiji085-suo-mu",
+      "paragraph_id": "c-shiji-085-lubuwei:p007",
+      "person_ids": [
+        "ao3_0fy_d45_AA",
+        "jb2_tak_5p8",
+        "pz6_lqa_ina"
+      ],
+      "source_term": "莊襄王所母華陽后",
+      "received_reading": "所母",
+      "reported_reading": "所生母",
+      "commentator": "司馬貞〈索隱〉",
+      "quote": "劉氏本作「所生母」，「生」衍字也。今檢諸本並無「生」字。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷085&oldid=2514755",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "revision_id": 2514755,
+      "witness_response_sha256": "32e1406191e0e3e41b0aa9d3d2225226617dcde93729deac2ca55f62355991db"
+    },
+    {
+      "id": "rv-shiji085-chai-yang",
+      "paragraph_id": "c-shiji-085-lubuwei:p015",
+      "person_ids": [
+        "lap_qc0_yqm",
+        "ao3_0fy_d45_AA"
+      ],
+      "source_term": "會葬茝陽",
+      "received_reading": "茝陽",
+      "reported_reading": "芷陽",
+      "commentator": "徐廣（裴駰〈集解〉引）",
+      "quote": "一作『芷陽』。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷085&oldid=2514755",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "revision_id": 2514755,
+      "witness_response_sha256": "32e1406191e0e3e41b0aa9d3d2225226617dcde93729deac2ca55f62355991db"
+    }
+  ]
 }

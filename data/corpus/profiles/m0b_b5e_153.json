@@ -102,7 +102,7 @@
     },
     {
       "id": "th-shiji042-025",
-      "person_id": "37f_nn3_ssi",
+      "person_id": "m0b_b5e_153",
       "title": "相",
       "kind": "office",
       "mode": "attestation",
@@ -243,6 +243,54 @@
     }
   ],
   "table_occurrences": [
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r170-c04",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "十四陳完自陳來奔，田常始此也。",
+      "year": {
+        "era": "BCE",
+        "value": 672,
+        "astronomical_year": -671,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "672",
+        "source_cell_id": "shiji-014-r170-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r170-c04-m000",
+        "start": 9,
+        "end": 11,
+        "surface": "田常",
+        "person_id": "m0b_b5e_153",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r361-c04",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "四田常殺簡公，立其弟驁，為平公，常相之，專國權。",
+      "year": {
+        "era": "BCE",
+        "value": 481,
+        "astronomical_year": -480,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "481",
+        "source_cell_id": "shiji-014-r361-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r361-c04-m000",
+        "start": 1,
+        "end": 3,
+        "surface": "田常",
+        "person_id": "m0b_b5e_153",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
     {
       "table_id": "shiji-015",
       "cell_id": "shiji-015-r013-c08",
@@ -794,13 +842,85 @@
       },
       "interpretation_note": "逐項保存本文母子、兄弟、姊妹、配偶及祖先說；祖不補代數，異母女性不合併，不以史記記載當已確證身世。蔡姬原文弗絕不推婚姻終止。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji032-068",
+      "subject_person_id": "m0b_b5e_153_**A",
+      "predicate": "great_grandfather",
+      "object_person_id": "m0b_b5e_153",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p083",
+          "quote": "康公二年，韓、魏、趙始列為諸侯。十九年，田常曾孫田和始為諸侯，遷康公海濱。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "曾孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "逐項保存本文父母、異母兄弟、婚姻及曾祖關係；無咎父未名，偃之其弟指代未定，不由熟知世系補名或闕代。來源記載不當已確證身世。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "37f_nn3_ssi": "田常（鄭世家齊相候選）",
     "lmu_nbm_rzo_AAA": "完（敬仲）",
     "m0b_b5e_153": "田常",
     "m0b_b5e_153_**A": "田和"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "m0b_b5e_153"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji032-022",
+      "subject_person_id": "m0b_b5e_153",
+      "predicate": "ancestor",
+      "object_person_id": "lmu_nbm_rzo_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p034",
+          "quote": "十四年，陳厲公子完，號敬仲，來奔齊。齊桓公欲以為卿，讓；於是以為工正。田成子常之祖也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "祖",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "逐項保存本文母子、兄弟、姊妹、配偶及祖先說；祖不補代數，異母女性不合併，不以史記記載當已確證身世。蔡姬原文弗絕不推婚姻終止。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji032-068",
+      "subject_person_id": "m0b_b5e_153_**A",
+      "predicate": "great_grandfather",
+      "object_person_id": "m0b_b5e_153",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p083",
+          "quote": "康公二年，韓、魏、趙始列為諸侯。十九年，田常曾孫田和始為諸侯，遷康公海濱。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "曾孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "逐項保存本文父母、異母兄弟、婚姻及曾祖關係；無咎父未名，偃之其弟指代未定，不由熟知世系補名或闕代。來源記載不當已確證身世。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

@@ -233,6 +233,27 @@
       },
       "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-044",
+      "subject_person_id": "1za_blw_7lb_AAA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p045",
+          "quote": "十年，中山武公初立。十三年，城平邑。十五年，獻侯卒，子烈侯籍立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子烈侯籍立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -240,5 +261,78 @@
     "1za_blw_7lb_AA": "浣（趙世家獻侯候選）",
     "1za_blw_7lb_AAA": "籍（趙世家烈侯候選）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "1za_blw_7lb_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji043-041",
+      "subject_person_id": "1za_blw_7lb_AA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p042",
+          "quote": "其後娶空同氏，生五子。襄子爲伯魯之不立也，不肯立子，且必欲傳位與伯魯子代成君。成君先死，乃取代成君子浣立爲太子。襄子立三十三年卒，浣立，是爲獻侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "代成君子浣",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-044",
+      "subject_person_id": "1za_blw_7lb_AAA",
+      "predicate": "father",
+      "object_person_id": "1za_blw_7lb_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p045",
+          "quote": "十年，中山武公初立。十三年，城平邑。十五年，獻侯卒，子烈侯籍立。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子烈侯籍立",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "限本文姊、兄弟、娶、子與曾孫語境；繼位不單獨推父子，五子群體不補名字或母子鏈。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji043-030",
+      "person_id": "1za_blw_7lb_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十五年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p045",
+          "quote": "十年，中山武公初立。十三年，城平邑。十五年，獻侯卒，子烈侯籍立。",
+          "person_mention_id": "c-shiji-043-zhao:m045-0022"
+        }
+      ],
+      "source_term": "獻侯卒",
+      "interpretation_note": "來源明示生死；原曆日期保留本段表述，相對年月與跨篇紀年仍待核。回述與初生不借段首年，群體滅族不擴展為所有個人。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }

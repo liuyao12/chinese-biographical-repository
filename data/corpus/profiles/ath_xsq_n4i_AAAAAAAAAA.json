@@ -278,5 +278,57 @@
     "ath_xsq_n4i_AAAAAAAAA": "賈（魯文公）",
     "ath_xsq_n4i_AAAAAAAAAA": "讎（魯頃公）"
   },
-  "dates": []
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "ath_xsq_n4i_AAAAAAAAAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji033-067",
+      "subject_person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "ath_xsq_n4i_AAAAAAAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p099",
+          "quote": "文公七年，楚懷王死于秦。二十三年，文公卒，子讎立，是爲頃公。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子讎",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本卷二妃生子、其弟、母弟及魯君子嗣的來源主張；不以即位、世增其業或官氏承襲補父子。太子母弟不補母名，也不推同父；文公長妃哀姜與莊公夫人分開。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-shiji033-074",
+      "person_id": "ath_xsq_n4i_AAAAAAAAAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-033-lu",
+          "source_id": "s-shiji-033-lu",
+          "paragraph_id": "c-shiji-033-lu:p100",
+          "quote": "頃公二年，秦拔楚之郢，楚頃王東徙于陳。十九年，楚伐我，取徐州。二十四年，楚考烈王伐滅魯。頃公亡，遷於下邑，爲家人，魯絕祀。頃公卒于柯。",
+          "person_mention_id": "c-shiji-033-lu:m100-0000"
+        }
+      ],
+      "source_term": "頃公卒于柯",
+      "interpretation_note": "保存本段明載生死及國君紀年；數字紀年與跨段上下文待核。回敘往年、轉述、月份與干支各依本句，不借下一事件日期。被囚、葬事、未遂與滅國不直接當死亡。 二十四年明繫滅魯，未直接繫頃公卒，卒年保持未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
 }
