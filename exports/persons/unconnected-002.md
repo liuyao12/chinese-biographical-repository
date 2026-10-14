@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `evw_7hk_sqo` | 白圭 | [《史記・貨殖列傳》][111] | [JSON](evw_7hk_sqo.json) |
 | `ew3_ltd_qbv` | 鹵公孺 | [《史記・游俠列傳》][106] | [JSON](ew3_ltd_qbv.json) |
 | `ewb_7x8_5z2` | 中行文子 | [《史記・魏世家》][26] | [JSON](ewb_7x8_5z2.json) |
 | `ewk_5mw_a5n` | 晉襄父（本文用字） | [《史記・魯周公世家》][15] | [JSON](ewk_5mw_a5n.json) |
@@ -223,7 +222,6 @@
 | `gcj_0vc_72s` | 秦王 | [《史記・匈奴列傳》][92] | [JSON](gcj_0vc_72s.json) |
 | `gd9_jxj_uqe` | 鉤弋夫人 | [《史記・外戚世家》][31] | [JSON](gd9_jxj_uqe.json) |
 | `gde_5zz_7rg` | 熊楊（楚先祖） | [《史記・楚世家》][22] | [JSON](gde_5zz_7rg.json) |
-| `gdl_uc7_0y0` | 延陵季子（引古） | [《史記・張耳陳餘列傳》][71] | [JSON](gdl_uc7_0y0.json) |
 | `gdy_039_7n5` | 子穨 | [《史記・周本紀》][4] | [JSON](gdy_039_7n5.json) |
 | `gec_tof_7li` | 益 | [《史記・夏本紀》][2] | [JSON](gec_tof_7li.json) |
 | `gem_sji_xo8` | 栗姬 | [《史記・五宗世家》][41] | [JSON](gem_sji_xo8.json) |
@@ -2059,7 +2057,6 @@
 | `sp8_b5m_c4b` | 益姑（杞文公） | [《史記・陳杞世家》][18] | [JSON](sp8_b5m_c4b.json) |
 | `spf_7ot_c8s` | 陳渉 | [《史記・陳丞相世家》][38] | [JSON](spf_7ot_c8s.json) |
 | `sph_y7q_7k9` | 周舍 | [《史記・趙世家》][25] | [JSON](sph_y7q_7k9.json) |
-| `spo_czz_jlz` | 魏公子毋忌 | [《史記・張耳陳餘列傳》][71] | [JSON](spo_czz_jlz.json) |
 | `sq3_9p2_9n3` | 敬王 | [《史記・周本紀》][4] | [JSON](sq3_9p2_9n3.json) |
 | `sqb_xdi_hih` | 將行 | [《史記・三王世家》][42] | [JSON](sqb_xdi_hih.json) |
 | `sqf_hxb_q6t` | 張耳妻父客未名 | [《史記・張耳陳餘列傳》][71] | [JSON](sqf_hxb_q6t.json) |
@@ -2239,6 +2236,9 @@
 | `tvk_3qo_6n5` | 太史公 | [《史記・儒林列傳》][103] | [JSON](tvk_3qo_6n5.json) |
 | `tvo_aez_7nt` | 韓說（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](tvo_aez_7nt.json) |
 | `twa_vor_7j0` | 冉求 | [《史記・孔子世家》][29] | [JSON](twa_vor_7j0.json) |
+| `tx2_sj4_xyj` | 卓氏先人 | [《史記・貨殖列傳》][111] | [JSON](tx2_sj4_xyj.json) |
+| `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][37] | [JSON](txk_j5j_jty.json) |
+| `txm_ajy_ue2` | 伯嚭 | [《史記・仲尼弟子列傳》][49] | [JSON](txm_ajy_ue2.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

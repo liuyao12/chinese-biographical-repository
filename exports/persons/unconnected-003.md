@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tx2_sj4_xyj` | 卓氏先人 | [《史記・貨殖列傳》][111] | [JSON](tx2_sj4_xyj.json) |
-| `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][37] | [JSON](txk_j5j_jty.json) |
-| `txm_ajy_ue2` | 伯嚭 | [《史記・仲尼弟子列傳》][49] | [JSON](txm_ajy_ue2.json) |
 | `tyf_tne_3xs` | 歷（太伯避歷） | [《史記・太史公自序》][112] | [JSON](tyf_tne_3xs.json) |
 | `tym_v5p_rqb` | 曹參 | [《史記・齊悼惠王世家》][34] | [JSON](tym_v5p_rqb.json) |
 | `tyr_5uu_zoh` | 蒯聵（衛） | [《史記・太史公自序》][112] | [JSON](tyr_5uu_zoh.json) |
