@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "鄭昌",
-    "韓王昌"
+    "韓王昌",
+    "昌"
   ],
   "titles": [
     {
@@ -201,6 +202,56 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji093-006",
+      "person_id": "vxt_uj1_8ym",
+      "title": "韓王",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p003",
+          "quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji093-006:a001",
+          "paragraph_id": "c-shiji-093-hanlu:p003",
+          "start": 53,
+          "end": 55,
+          "surface": "韓王",
+          "person_mention_id": "c-shiji-093-hanlu:m003-0050",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-093-hanlu",
+              "source_id": "s-shiji-093-hanlu",
+              "paragraph_id": "c-shiji-093-hanlu:p003",
+              "quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "按實授、自立與用稱保存；許韓王在先不作已授。明示相對年月保持原文，死亡、降漢、失侯之後裔敘事不替本人任期補終點。虜綰原字保留，以本段盧綰主語承接授爵，未核底本影像。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -220,6 +271,14 @@
       "paragraph_id": "c-shiji-008-gaozu:p029",
       "count": 2,
       "quote": "王陵兵南陽，以迎太公、呂后於沛。楚聞之，發兵距之陽夏，不得前。令故吳令鄭昌為韓王，距漢兵。"
+    },
+    {
+      "number": 93,
+      "category": "liezhuan",
+      "title": "韓信盧綰列傳第三十三",
+      "paragraph_id": "c-shiji-093-hanlu:p003",
+      "count": 3,
+      "quote": "從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓"
     }
   ],
   "table_occurrences": [
@@ -288,6 +347,30 @@
           "editorial_readings": [],
           "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
           "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-093-hanlu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-093",
+      "source_id": "s-shiji-093-hanlu",
+      "source": {
+        "title": "史記／卷093",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷093",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019",
+        "revision_id": 368019,
+        "accessed_on": "2026-10-09",
+        "extent": "20段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；（與）其與、代（上）谷、虜綰、臧茶、龍頟及高祖竟崩原字保留。",
+          "note": "全23個HTML區塊已讀，未核底本影像，疑字不擅改。"
         }
       }
     }

@@ -351,7 +351,6 @@
 | `2en_16a_r4i` | 虞君（獻公時） | [《史記・秦本紀》][5] | [JSON](2en_16a_r4i.json) |
 | `2eo_3mk_s7c` | 長沮 | [《史記・仲尼弟子列傳》][49] | [JSON](2eo_3mk_s7c.json) |
 | `2eq_s7m_c3v` | 大宮子期 | [《史記・循吏列傳》][101] | [JSON](2eq_s7m_c3v.json) |
-| `2ev_182_3gg` | 冒頓 | [《史記・韓信盧綰列傳》][75] | [JSON](2ev_182_3gg.json) |
 | `2fo_m4u_tux` | 芒卯 | [《史記・穰侯列傳》][54] | [JSON](2fo_m4u_tux.json) |
 | `2gj_2vz_ekz` | 子餘（楚篇晉文公腹心） | [《史記・楚世家》][22] | [JSON](2gj_2vz_ekz.json) |
 | `2gx_dt8_kun` | 呂后 | [《史記・淮南衡山列傳》][100] | [JSON](2gx_dt8_kun.json) |
@@ -570,7 +569,6 @@
 | `3v2_uap_0g0` | 三父 | [《史記・秦本紀》][5] | [JSON](3v2_uap_0g0.json) |
 | `3vk_jr4_vnd` | 齮（南陽守） | [《史記・樊酈滕灌列傳》][77] | [JSON](3vk_jr4_vnd.json) |
 | `3vz_xp9_jrh` | 襄公夫人（衛未名） | [《史記・衛康叔世家》][19] | [JSON](3vz_xp9_jrh.json) |
-| `3w5_mbd_87m` | 鄭昌 | [《史記・韓信盧綰列傳》][75] | [JSON](3w5_mbd_87m.json) |
 | `3w5_zp1_0g6` | 高武侯鰓 | [《史記・高祖本紀》][8] | [JSON](3w5_zp1_0g6.json) |
 | `3wu_5e9_3sk` | 蔡女（田世家厲公母未名者） | [《史記・田敬仲完世家》][28] | [JSON](3wu_5e9_3sk.json) |
 | `3x2_x5v_51q` | 公賓 | [《史記・孔子世家》][29] | [JSON](3x2_x5v_51q.json) |
@@ -1516,7 +1514,6 @@
 | `a6e_50x_v9g` | 章渠（近臣暫解） | [《史記・衛將軍驃騎列傳》][93] | [JSON](a6e_50x_v9g.json) |
 | `a70_h0o_diu` | 富父終甥 | [《史記・魯周公世家》][15] | [JSON](a70_h0o_diu.json) |
 | `a72_80l_b8r` | 穰侯（韓世家未名者） | [《史記・韓世家》][27] | [JSON](a72_80l_b8r.json) |
-| `a7c_94k_tf9` | 曹（蕭曹用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](a7c_94k_tf9.json) |
 | `a7m_05v_rds` | 綰 | [《史記・孝景本紀》][11] | [JSON](a7m_05v_rds.json) |
 | `a82_krd_hlg` | 薄太后 | [《史記・孝文本紀》][10] | [JSON](a82_krd_hlg.json) |
 | `a8j_xnu_ibi` | 通（曹隱公） | [《史記・管蔡世家》][17] | [JSON](a8j_xnu_ibi.json) |
@@ -1762,7 +1759,6 @@
 | `bzw_kmw_yhu` | 武（古王引語） | [《史記・酈生陸賈列傳》][79] | [JSON](bzw_kmw_yhu.json) |
 | `c0b_mpt_epd` | 長公主（賜鄧通） | [《史記・佞幸列傳》][107] | [JSON](c0b_mpt_epd.json) |
 | `c18_pif_asp` | 犖（圉人） | [《史記・魯周公世家》][15] | [JSON](c18_pif_asp.json) |
-| `c1o_5sb_6my` | 韓王成 | [《史記・韓信盧綰列傳》][75] | [JSON](c1o_5sb_6my.json) |
 | `c23_24c_gpm` | 膠西王卬 | [《史記・老子韓非列傳》][45] | [JSON](c23_24c_gpm.json) |
 | `c29_dz7_9t4` | 囊瓦（子常） | [《史記・管蔡世家》][17] | [JSON](c29_dz7_9t4.json) |
 | `c2a_8kr_ki8` | 扈輒 | [《史記・秦始皇本紀》][6] | [JSON](c2a_8kr_ki8.json) |
@@ -2230,6 +2226,9 @@
 | `f32_hqy_au7` | 偃（陳哀公子） | [《史記・陳杞世家》][18] | [JSON](f32_hqy_au7.json) |
 | `f3g_9nj_1ae` | 田常引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](f3g_9nj_1ae.json) |
 | `f3g_x6y_1iy` | 平王 | [《史記・周本紀》][4] | [JSON](f3g_x6y_1iy.json) |
+| `f3j_nl2_i2g` | 蚡（皇太后弟） | [《史記・孝景本紀》][11]、[《史記・孝武本紀》][12] | [JSON](f3j_nl2_i2g.json) |
+| `f3m_wd5_jgy` | 育 | [《史記・汲鄭列傳》][102] | [JSON](f3m_wd5_jgy.json) |
+| `f3s_h05_04d` | 惠公適夫人（未名） | [《史記・魯周公世家》][15] | [JSON](f3s_h05_04d.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

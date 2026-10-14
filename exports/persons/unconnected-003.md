@@ -6,14 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `udu_dyy_4wd` | 季布 | [《史記・季布欒布列傳》][82] | [JSON](udu_dyy_4wd.json) |
-| `udv_t8d_js3` | 王襄 | [《史記・曹相國世家》][36] | [JSON](udv_t8d_js3.json) |
-| `ue1_qha_ehn` | 趙文 | [《史記・趙世家》][25] | [JSON](ue1_qha_ehn.json) |
-| `ueq_svp_knr` | 陳餘 | [《史記・田儋列傳》][76] | [JSON](ueq_svp_knr.json) |
-| `ufi_nzc_w2w` | 陸賈 | [《史記・太史公自序》][112] | [JSON](ufi_nzc_w2w.json) |
-| `ufz_ayn_ylh` | 魏成子 | [《史記・魏世家》][26] | [JSON](ufz_ayn_ylh.json) |
-| `ug2_2v6_hbv` | 鄭安平 | [《史記・趙世家》][25] | [JSON](ug2_2v6_hbv.json) |
-| `ug6_2ne_9hm` | 犀首書信 | [《史記・蘇秦列傳》][51] | [JSON](ug6_2ne_9hm.json) |
 | `ug9_gi9_fvb` | 五大夫陵 | [《史記・白起王翦列傳》][55] | [JSON](ug9_gi9_fvb.json) |
 | `ugq_ldt_klj` | 劇孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](ugq_ldt_klj.json) |
 | `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16]、[《史記・晉世家》][21] | [JSON](uhq_4sb_zzv.json) |
@@ -230,7 +222,7 @@
 | `vx2_svu_k0q` | 白起 | [《史記・趙世家》][25] | [JSON](vx2_svu_k0q.json) |
 | `vx6_rh0_1ao` | 修成君 | [《史記・酷吏列傳》][104] | [JSON](vx6_rh0_1ao.json) |
 | `vxj_epn_sti` | 陳司敗 | [《史記・仲尼弟子列傳》][49] | [JSON](vxj_epn_sti.json) |
-| `vxt_uj1_8ym` | 鄭昌 | [《史記・高祖本紀》][8] | [JSON](vxt_uj1_8ym.json) |
+| `vxt_uj1_8ym` | 鄭昌 | [《史記・韓信盧綰列傳》][75] | [JSON](vxt_uj1_8ym.json) |
 | `vy3_65g_mwj` | 芮良夫 | [《史記・周本紀》][4] | [JSON](vy3_65g_mwj.json) |
 | `vyj_swb_or9` | 淮南相（七國反時） | [《史記・淮南衡山列傳》][100] | [JSON](vyj_swb_or9.json) |
 | `vz1_n5y_mng` | 呂祿 | [《史記・絳侯周勃世家》][39] | [JSON](vz1_n5y_mng.json) |
@@ -553,7 +545,6 @@
 | `y4s_39i_5t3` | 賀 | [《史記・三王世家》][42] | [JSON](y4s_39i_5t3.json) |
 | `y56_c4g_fbf` | 髙昭子 | [《史記・田敬仲完世家》][28] | [JSON](y56_c4g_fbf.json) |
 | `y5g_euj_1xr` | 季文子（魯卿） | [《史記・魯周公世家》][15] | [JSON](y5g_euj_1xr.json) |
-| `y5r_0fi_saz` | 蕭（蕭曹用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](y5r_0fi_saz.json) |
 | `y63_hvf_l13` | 宋湣公 | [《史記・鄭世家》][24] | [JSON](y63_hvf_l13.json) |
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][91] | [JSON](y6f_9v5_dqg.json) |
 | `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][24] | [JSON](y6n_nmo_abl.json) |

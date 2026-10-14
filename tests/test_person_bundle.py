@@ -373,14 +373,18 @@ class PersonBundleTests(unittest.TestCase):
         people = catalog[0]
         def pid(label):
             return next(k for k, v in people.items() if v['label'] == label + '（劉敬叔孫通列傳候選）')
-        modu = '2ev_182_3gg'
+        modu = 'wjt_htu_081_A'
         princess = 'yqp_nlb_p1p_AI'
         sent = pid('實遣家人子未名')
         result = bundle(modu, catalog=catalog)
         self.assertNotEqual(princess, sent)
         self.assertTrue(any(a['predicate'] == 'spouse' and a['subject_person_id'] == sent for a in result['relations']))
         self.assertFalse(any(a['predicate'] == 'spouse' and a['subject_person_id'] == princess for a in result['relations']))
-        self.assertFalse(any(a['predicate'] == 'father' and a['object_person_id'] == modu for a in result['relations']))
+        self.assertFalse(any(a['predicate'] == 'father' and a['object_person_id'] == modu
+                             and any(e['paragraph_id'] == 'c-shiji-099-liushu:p006' for e in a['evidence'])
+                             for a in result['relations']))
+        self.assertTrue(any(a['predicate'] == 'father' and a['subject_person_id'] == 'wjt_htu_081_AA'
+                            and a['object_person_id'] == modu for a in result['relations']))
         hypothetical = next(p for p in result['passages'] if p['id'].endswith(':p006'))
         start = hypothetical['text'].index('生子必為太子') + len('生子必為')
         mention = next(m for m in hypothetical['mentions'] if m['start'] == start)
