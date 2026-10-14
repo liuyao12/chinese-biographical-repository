@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eqw_jou_32v` | 逢侯丑（楚裨將軍） | [《史記・楚世家》][22] | [JSON](eqw_jou_32v.json) |
 | `er5_u4u_i79` | 紀翁主 | [《史記・齊悼惠王世家》][34] | [JSON](er5_u4u_i79.json) |
 | `es4_a59_527` | 熊亶（楚先祖） | [《史記・楚世家》][22] | [JSON](es4_a59_527.json) |
 | `es5_b3z_9kk` | 太后未名（梁案） | [《史記・田叔列傳》][86] | [JSON](es5_b3z_9kk.json) |
@@ -1753,7 +1752,6 @@
 | `qlj_fd6_5mz` | 鬼谷先生 | [《史記・張儀列傳》][52] | [JSON](qlj_fd6_5mz.json) |
 | `qlq_xq2_1sm` | 御史大夫暴 | [《史記・田叔列傳》][86] | [JSON](qlq_xq2_1sm.json) |
 | `qlu_yvc_mtu` | 許負 | [《史記・外戚世家》][31] | [JSON](qlu_yvc_mtu.json) |
-| `qlv_q6m_tgs` | 呂不韋 | [《史記・李斯列傳》][69] | [JSON](qlv_q6m_tgs.json) |
 | `qm1_2k5_hct` | 頎（晉孝公） | [《史記・晉世家》][21] | [JSON](qm1_2k5_hct.json) |
 | `qme_5ae_ovf` | 子胥 | [《史記・滑稽列傳》][108] | [JSON](qme_5ae_ovf.json) |
 | `qms_rcb_628` | 王夫人兒姁 | [《史記・五宗世家》][41] | [JSON](qms_rcb_628.json) |
@@ -1855,7 +1853,6 @@
 | `r6y_t2l_ntc` | 淮陰侯未詳名 | [《史記・張丞相列傳》][78] | [JSON](r6y_t2l_ntc.json) |
 | `r7a_uaf_rry` | 太史公 | [《史記・循吏列傳》][101] | [JSON](r7a_uaf_rry.json) |
 | `r7t_6ys_2oo` | 成侯赤 | [《史記・孝文本紀》][10]、[《史記・匈奴列傳》][92] | [JSON](r7t_6ys_2oo.json) |
-| `r8b_5e8_6pj` | 荀卿 | [《史記・李斯列傳》][69] | [JSON](r8b_5e8_6pj.json) |
 | `r8i_8gc_gvs` | 許由 | [《史記・伯夷列傳》][43] | [JSON](r8i_8gc_gvs.json) |
 | `r8r_74l_t6d` | 司馬季主 | [《史記・日者列傳》][109] | [JSON](r8r_74l_t6d.json) |
 | `r97_1b3_zvn` | 高陵君顯 | [《史記・項羽本紀》][7] | [JSON](r97_1b3_zvn.json) |
@@ -1885,7 +1882,6 @@
 | `rdw_qwe_aa0` | 丞相哙未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](rdw_qwe_aa0.json) |
 | `re9_nb5_fi9` | 蹻 | [《史記・游俠列傳》][106] | [JSON](re9_nb5_fi9.json) |
 | `rec_qtq_9ve` | 司馬錯 | [《史記・秦本紀》][5] | [JSON](rec_qtq_9ve.json) |
-| `rex_y36_0hj` | 李斯 | [《史記・孟子荀卿列傳》][56] | [JSON](rex_y36_0hj.json) |
 | `rf6_xhq_gm3` | 范獻子（止平公自殺者） | [《史記・晉世家》][21] | [JSON](rf6_xhq_gm3.json) |
 | `rfm_591_1ls` | 熊羆 | [《史記・五帝本紀》][1] | [JSON](rfm_591_1ls.json) |
 | `rfo_sjy_tc6` | 后勝 | [《史記・秦始皇本紀》][6] | [JSON](rfo_sjy_tc6.json) |
@@ -2240,6 +2236,10 @@
 | `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][15] | [JSON](tke_fad_hlp.json) |
 | `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][78] | [JSON](tks_56f_4ir.json) |
 | `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][26] | [JSON](tl9_dsb_r6q.json) |
+| `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][30] | [JSON](tlk_hmr_kra.json) |
+| `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][21] | [JSON](tlo_jrj_80q.json) |
+| `tlt_5h1_n6y` | 太丁（湯子） | [《史記・殷本紀》][3] | [JSON](tlt_5h1_n6y.json) |
+| `tmi_4aq_99e` | 襄公夫人王姬（宋弒昭記事） | [《史記・宋微子世家》][20] | [JSON](tmi_4aq_99e.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

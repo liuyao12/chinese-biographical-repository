@@ -337,6 +337,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji074-009",
+      "person_id": "49g_7az_e4i",
+      "title": "相秦",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-074-mengxun",
+          "source_id": "s-shiji-074-mengxun",
+          "paragraph_id": "c-shiji-074-mengxun:p011",
+          "quote": "荀卿，趙人。年五十始來游學於齊。騶衍之術迂大而閎辯；奭也文具難施；淳于髡久與處，時有得善言。故齊人頌曰：「談天衍，雕龍奭，炙轂過髡。」田駢之屬皆已死齊襄王時，而荀卿最為老師。齊尚修列大夫之缺，而荀卿三為祭酒焉。齊人或讒荀卿，荀卿乃適楚，而春申君以為蘭陵令。春申君死而荀卿廢，因家蘭陵。李斯嘗為弟子，已而相秦。荀卿嫉濁世之政，亡國亂君相屬，不遂大道而營於巫祝，信禨祥，鄙儒小拘，如莊周等又猾稽亂俗，於是推儒、墨、道德之行事興壞，序列著數萬言而卒。因葬蘭陵。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji074-009:a001",
+          "paragraph_id": "c-shiji-074-mengxun:p011",
+          "start": 151,
+          "end": 153,
+          "surface": "相秦",
+          "person_mention_id": "c-shiji-074-mengxun:m011-0142",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、文獻用稱與任事分存，未知日期與終點不補；淳于髡欲以卿相位待而謝去不作已任，春申君死亡不直接作全部爵位終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji087-001",
       "person_id": "49g_7az_e4i",
       "title": "郡小吏",
@@ -839,7 +881,62 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji087-001",
+      "person_id": "49g_7az_e4i",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "楚上蔡",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p001",
+          "quote": "李斯者，楚上蔡人也。年少時，為郡小吏；見吏舍廁中鼠食不絜，近人犬，數驚恐之。斯入倉，觀倉中鼠，食積粟；居大廡之下，不見人犬之憂。於是李斯乃歎曰：「人之賢不肖譬如鼠矣，在所自處耳！」",
+          "person_mention_id": "c-shiji-087-lisi:m001-0000"
+        }
+      ],
+      "source_term": "楚上蔡人也",
+      "interpretation_note": "開篇籍貫原詞，非出生地。 保存來源地稱，不定位現代行政區；未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "楚上蔡人也",
+      "quote": "李斯者，楚上蔡人也。年少時，為郡小吏；見吏舍廁中鼠食不絜，近人犬，數驚恐之。斯入倉，觀倉中鼠，食積粟；居大廡之下，不見人犬之憂。於是李斯乃歎曰：「人之賢不肖譬如鼠矣，在所自處耳！」"
+    },
+    {
+      "id": "pa-shiji087-002",
+      "person_id": "49g_7az_e4i",
+      "relation": "death_place",
+      "place": {
+        "source_name": "咸陽市",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p033",
+          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+          "person_mention_id": "c-shiji-087-lisi:m033-0008"
+        }
+      ],
+      "source_term": "論腰斬咸陽市",
+      "interpretation_note": "處刑地，不推葬地。 保存來源地稱，不定位現代行政區；未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "論腰斬咸陽市",
+      "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。"
+    }
+  ],
   "occurrences": [
     {
       "number": 6,
@@ -848,6 +945,14 @@
       "paragraph_id": "c-shiji-006-shihuang:p001",
       "count": 21,
       "quote": "置三川郡。呂不韋為相，封十萬戶，號曰文信侯。招致賓客游士，欲以并天下。李斯為舍人。蒙驁、王齮、麃公等為將軍。王年少，初即位，委國事大臣。晉陽反。"
+    },
+    {
+      "number": 74,
+      "category": "liezhuan",
+      "title": "孟子荀卿列傳第十四",
+      "paragraph_id": "c-shiji-074-mengxun:p011",
+      "count": 1,
+      "quote": "或讒荀卿，荀卿乃適楚，而春申君以為蘭陵令。春申君死而荀卿廢，因家蘭陵。李斯嘗為弟子，已而相秦。荀卿嫉濁世之政，亡國亂君相屬，不遂大道而營於巫祝，信禨祥，鄙儒小拘，如莊周等又猾稽亂俗，於是推儒、墨、道德之行事興壞，序列著數萬言而卒。因葬蘭陵。"
     },
     {
       "number": 83,
@@ -955,6 +1060,30 @@
             }
           ],
           "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-074-mengxun",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-074",
+      "source_id": "s-shiji-074-mengxun",
+      "source": {
+        "title": "史記／卷074",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷074",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷074&oldid=7908177",
+        "revision_id": 7908177,
+        "accessed_on": "2026-10-09",
+        "extent": "12段非空正文，自太史公讀孟子書序至公孫龍等末段；排除ws-header註釋版導覽及空白段，固定頁未附索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白並略空段；保留騶、獘、彊、筑、茍、髡等原字。",
+          "note": "全12段正文及明示姓名首輪已核讀；未核底本、影像或現代研究。"
         }
       }
     },
@@ -1129,8 +1258,73 @@
     "49g_7az_e4i_A": "李由（李斯列傳候選）",
     "49g_7az_e4i_B": "李斯中子未名（李斯列傳候選）"
   },
-  "dates": [],
-  "name_components": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 208,
+      "year": -207,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p033",
+          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+          "person_mention_id": "c-shiji-087-lisi:m033-0008"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·六國年表》原紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "二將軍章邯、長史司馬欣、都尉董翳追楚兵至河。誅丞相斯、去疾，將軍馮劫。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r269-c01"
+        },
+        {
+          "title": "《史記·六國年表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "208",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r269-c00"
+        }
+      ],
+      "rationale": "以沙丘崩／誅丞相斯的平行事件及原紀年對讀；西元年採固定數位表編者對照，不作傳世原文或獨立史證，不換算日月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "論腰斬咸陽市",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_event_quote": "二將軍章邯、長史司馬欣、都尉董翳追楚兵至河。誅丞相斯、去疾，將軍馮劫。",
+        "reference_year_quote": "208"
+      },
+      "record_id": "le-shiji087-007",
+      "person_id": "49g_7az_e4i",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "49g_7az_e4i",
+      "title": "丞相",
+      "surname": "李",
+      "ming": "斯",
+      "additional_names": [],
+      "chapter_id": "c-shiji-087-lisi",
+      "paragraph_id": "c-shiji-087-lisi:p009",
+      "quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。",
+      "note": "依本篇李斯與續稱斯暫分姓李、名斯；并天下後以斯為丞相支持頂部辨認用稱，不代表郡小吏、舍人或長史時已任丞相。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "49g_7az_e4i"
   ],
@@ -1219,6 +1413,72 @@
       "interpretation_note": "這是witness_appended_bangu_note附載文字的死亡敘述，與本紀敘事分層分存，不增加一次真實死亡。去疾此層作誅與前文自殺並存，不改寫成一致。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji087-007",
+      "person_id": "49g_7az_e4i",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "二世二年七月",
+      "source_term": "論腰斬咸陽市",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p033",
+          "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+          "person_mention_id": "c-shiji-087-lisi:m033-0008"
+        }
+      ],
+      "interpretation_note": "保存本篇死亡原語及敘述範圍；來源所傳不等於史實已獨立確證，未核書影，未知日期不補，不由死亡終止全部官爵。五刑、腰斬保留原語，不據上書三十餘年倒算任相起點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 208,
+        "year": -207,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-087-lisi",
+            "source_id": "s-shiji-087-lisi",
+            "paragraph_id": "c-shiji-087-lisi:p033",
+            "quote": "二世二年七月，具斯五刑，論腰斬咸陽市。斯出獄，與其中子俱執，顧謂其中子曰：「吾欲與若復牽黃犬俱出上蔡東門逐狡兔，豈可得乎！」遂父子相哭，而夷三族。",
+            "person_mention_id": "c-shiji-087-lisi:m033-0008"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·六國年表》原紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "二將軍章邯、長史司馬欣、都尉董翳追楚兵至河。誅丞相斯、去疾，將軍馮劫。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r269-c01"
+          },
+          {
+            "title": "《史記·六國年表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "208",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r269-c00"
+          }
+        ],
+        "rationale": "以沙丘崩／誅丞相斯的平行事件及原紀年對讀；西元年採固定數位表編者對照，不作傳世原文或獨立史證，不換算日月。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "論腰斬咸陽市",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "二將軍章邯、長史司馬欣、都尉董翳追楚兵至河。誅丞相斯、去疾，將軍馮劫。",
+          "reference_year_quote": "208"
+        }
+      }
     }
   ],
   "life_event_date_decisions": [],

@@ -64,7 +64,6 @@
 | `0c3_ttl_f14` | 王溫舒 | [《史記・東越列傳》][96] | [JSON](0c3_ttl_f14.json) |
 | `0cl_p1u_mri` | 渾邪（隴西太守） | [《史記・孝景本紀》][11] | [JSON](0cl_p1u_mri.json) |
 | `0ct_rge_697` | 韓舉 | [《史記・韓世家》][27] | [JSON](0ct_rge_697.json) |
-| `0cu_hq2_9t8` | 莊襄王 | [《史記・李斯列傳》][69] | [JSON](0cu_hq2_9t8.json) |
 | `0d8_fpd_jlq` | 高誓 | [《史記・秦始皇本紀》][6] | [JSON](0d8_fpd_jlq.json) |
 | `0dj_gcr_vj7` | 趙良 | [《史記・商君列傳》][50] | [JSON](0dj_gcr_vj7.json) |
 | `0e2_f7l_x0w` | 賈嘉 | [《史記・屈原賈生列傳》][66] | [JSON](0e2_f7l_x0w.json) |
@@ -2231,6 +2230,7 @@
 | `eqh_hzf_78x` | 江充 | [《史記・五宗世家》][41] | [JSON](eqh_hzf_78x.json) |
 | `eqp_oer_tei` | 晉孝侯（楚篇曲沃記事） | [《史記・楚世家》][22] | [JSON](eqp_oer_tei.json) |
 | `eqw_b2i_pp0` | 莊生 | [《史記・越王勾踐世家》][23] | [JSON](eqw_b2i_pp0.json) |
+| `eqw_jou_32v` | 逢侯丑（楚裨將軍） | [《史記・楚世家》][22] | [JSON](eqw_jou_32v.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
