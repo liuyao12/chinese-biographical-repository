@@ -109294,7 +109294,7 @@
       ]
     },
     {
-      "id": "hm1_rqr_l9u",
+      "id": "l9e_fbr_36a_*A",
       "label": "韓王信（韓太尉）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -109718,7 +109718,30 @@
           "paragraph_id": "c-shiji-110-xiongnu:p013",
           "quote": "韓信"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "grandfather",
+        "generation_distance": 2,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-093-hanlu",
+            "source_id": "s-shiji-093-hanlu",
+            "paragraph_id": "c-shiji-093-hanlu:p001",
+            "quote": "韓王信者，故韓襄王孽孫也，長八尺五寸。及項梁之立楚後懷王也，燕、齊、趙、魏皆已前王，唯韓無有後，故立韓諸公子橫陽君成為韓王，欲以撫定韓故地。項梁敗死定陶，成奔懷王。沛公引兵擊陽城，使張良以韓司徒降下韓故地，得信，以為韓將，將其兵從沛公入武關。",
+            "source_term": "韓襄王孽孫"
+          }
+        ],
+        "source_assertion_id": "a-shiji093-001",
+        "interpretation_note": "依受傳正文明示祖孫或父子接合共用家族根；缺代保空，不補父親姓名，不混母系或遠祖。分支字元不表長幼，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": null,
+        "ancestor_person_id": "l9e_fbr_36a",
+        "intermediate_person_ids": [
+          null
+        ]
+      }
     },
     {
       "id": "fs1_3m9_rj3",
@@ -109983,7 +110006,7 @@
       ]
     },
     {
-      "id": "cc2_r4q_j5y",
+      "id": "jjl_irg_zke_A",
       "label": "盧綰",
       "status": "active",
       "historicity": "historical_tradition",
@@ -110332,7 +110355,26 @@
           "paragraph_id": "c-shiji-110-xiongnu:p013",
           "quote": "燕王盧綰"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-093-hanlu",
+            "source_id": "s-shiji-093-hanlu",
+            "paragraph_id": "c-shiji-093-hanlu:p008",
+            "quote": "盧綰者，豐人也，與高祖同里。盧綰親與高祖太上皇相愛，及生男，高祖、盧綰同日生，里中持羊酒賀兩家。及高祖、盧綰壯，俱學書，又相愛也。里中嘉兩家親相愛，生子同日，壯又相愛，復賀兩家羊酒。高祖為布衣時，有吏事辟匿，盧綰常隨出入上下。及高祖初起沛，盧綰以客從，入漢中為將軍，常侍中。從東擊項籍，以太尉常從，出入臥內，衣被飲食賞賜，群臣莫敢望，雖蕭曹等，特以事見禮，至其親幸，莫及盧綰。綰封為長安侯。長安，故咸陽也。",
+            "source_term": "盧綰親"
+          }
+        ],
+        "source_assertion_id": "a-shiji093-009",
+        "interpretation_note": "依受傳正文明示祖孫或父子接合共用家族根；缺代保空，不補父親姓名，不混母系或遠祖。分支字元不表長幼，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "jjl_irg_zke"
+      }
     },
     {
       "id": "x9q_ghs_z2s",
@@ -225908,6 +225950,18 @@
             "c-shiji-045-han:m025-0000",
             "c-shiji-045-han:m029-0033"
           ]
+        },
+        {
+          "surface": "韓襄王",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m001-0006"
+          ]
+        },
+        {
+          "surface": "韓襄",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m021-0006"
+          ]
         }
       ],
       "evidence": [
@@ -225940,6 +225994,18 @@
           "chapter_id": "c-shiji-045-han",
           "paragraph_id": "c-shiji-045-han:p029",
           "quote": "襄王"
+        },
+        {
+          "mention_id": "c-shiji-093-hanlu:m001-0006",
+          "chapter_id": "c-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p001",
+          "quote": "韓襄王"
+        },
+        {
+          "mention_id": "c-shiji-093-hanlu:m021-0006",
+          "chapter_id": "c-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p021",
+          "quote": "韓襄"
         }
       ]
     },
@@ -308022,40 +308088,6 @@
       ]
     },
     {
-      "id": "xnj_cjk_pcj",
-      "label": "韓襄王（韓信盧綰列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "韓襄王",
-          "mention_ids": [
-            "c-shiji-093-hanlu:m001-0006"
-          ]
-        },
-        {
-          "surface": "韓襄",
-          "mention_ids": [
-            "c-shiji-093-hanlu:m021-0006"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-093-hanlu:m001-0006",
-          "chapter_id": "c-shiji-093-hanlu",
-          "paragraph_id": "c-shiji-093-hanlu:p001",
-          "quote": "韓襄王"
-        },
-        {
-          "mention_id": "c-shiji-093-hanlu:m021-0006",
-          "chapter_id": "c-shiji-093-hanlu",
-          "paragraph_id": "c-shiji-093-hanlu:p021",
-          "quote": "韓襄"
-        }
-      ]
-    },
-    {
       "id": "nu6_2qe_oza",
       "label": "周苛（韓信盧綰列傳候選）",
       "status": "active",
@@ -308129,7 +308161,7 @@
       ]
     },
     {
-      "id": "hm1_rqr_l9u_A",
+      "id": "l9e_fbr_36a_*AA",
       "label": "韓王信太子未名（韓信盧綰列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -308178,7 +308210,7 @@
         "source_assertion_id": "a-shiji093-002",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "hm1_rqr_l9u"
+        "parent_person_id": "l9e_fbr_36a_*A"
       }
     },
     {
@@ -308857,7 +308889,7 @@
       ]
     },
     {
-      "id": "hm1_rqr_l9u_B",
+      "id": "l9e_fbr_36a_*AB",
       "label": "韓穨當（韓信盧綰列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -308870,6 +308902,12 @@
             "c-shiji-093-hanlu:m007-0056",
             "c-shiji-093-hanlu:m007-0102",
             "c-shiji-093-hanlu:m021-0026"
+          ]
+        },
+        {
+          "surface": "弓高侯",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0003"
           ]
         }
       ],
@@ -308903,6 +308941,12 @@
           "chapter_id": "c-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p021",
           "quote": "穨當"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0003",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "弓高侯"
         }
       ],
       "family_path": {
@@ -308922,7 +308966,7 @@
         "source_assertion_id": "a-shiji093-003",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "hm1_rqr_l9u"
+        "parent_person_id": "l9e_fbr_36a_*A"
       }
     },
     {
@@ -308948,7 +308992,7 @@
       ]
     },
     {
-      "id": "hm1_rqr_l9u_B*A",
+      "id": "l9e_fbr_36a_*AB*A",
       "label": "韓嫣（韓信盧綰列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -308956,7 +309000,32 @@
         {
           "surface": "韓嫣",
           "mention_ids": [
-            "c-shiji-093-hanlu:m007-0106"
+            "c-shiji-093-hanlu:m007-0106",
+            "c-shiji-125-ningxing:m003-0183",
+            "c-shiji-125-ningxing:m004-0136"
+          ]
+        },
+        {
+          "surface": "韓王孫嫣",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m002-0476"
+          ]
+        },
+        {
+          "surface": "嫣",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0000",
+            "c-shiji-125-ningxing:m003-0018",
+            "c-shiji-125-ningxing:m003-0035",
+            "c-shiji-125-ningxing:m003-0037",
+            "c-shiji-125-ningxing:m003-0056",
+            "c-shiji-125-ningxing:m003-0082",
+            "c-shiji-125-ningxing:m003-0117",
+            "c-shiji-125-ningxing:m003-0153",
+            "c-shiji-125-ningxing:m003-0192",
+            "c-shiji-125-ningxing:m003-0194",
+            "c-shiji-125-ningxing:m003-0220",
+            "c-shiji-125-ningxing:m003-0232"
           ]
         }
       ],
@@ -308965,6 +309034,96 @@
           "mention_id": "c-shiji-093-hanlu:m007-0106",
           "chapter_id": "c-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p007",
+          "quote": "韓嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m002-0476",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p002",
+          "quote": "韓王孫嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0000",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0018",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0035",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0037",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0056",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0082",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0117",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0153",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0183",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "韓嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0192",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0194",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0220",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0232",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m004-0136",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p004",
           "quote": "韓嫣"
         }
       ],
@@ -308985,7 +309144,7 @@
         "source_assertion_id": "a-shiji093-005",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "ancestor_person_id": "hm1_rqr_l9u_B",
+        "ancestor_person_id": "l9e_fbr_36a_*AB",
         "parent_person_id": null,
         "intermediate_person_ids": [
           null
@@ -309439,7 +309598,7 @@
       ]
     },
     {
-      "id": "cc2_r4q_j5y_*A",
+      "id": "jjl_irg_zke_A*A",
       "label": "盧他之（韓信盧綰列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -309476,7 +309635,7 @@
         "source_assertion_id": "a-shiji093-013",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "ancestor_person_id": "cc2_r4q_j5y",
+        "ancestor_person_id": "jjl_irg_zke_A",
         "parent_person_id": null,
         "intermediate_person_ids": [
           null
@@ -309594,7 +309753,7 @@
       ]
     },
     {
-      "id": "hm1_rqr_l9u_AA",
+      "id": "l9e_fbr_36a_*AAA",
       "label": "韓嬰（韓信盧綰列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -309652,7 +309811,7 @@
         "source_assertion_id": "a-shiji093-004",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "hm1_rqr_l9u_A"
+        "parent_person_id": "l9e_fbr_36a_*AA"
       }
     },
     {
@@ -309666,6 +309825,12 @@
           "mention_ids": [
             "c-shiji-093-hanlu:m007-0121",
             "c-shiji-093-hanlu:m007-0160"
+          ]
+        },
+        {
+          "surface": "韓說",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0240"
           ]
         }
       ],
@@ -309681,6 +309846,12 @@
           "chapter_id": "c-shiji-093-hanlu",
           "paragraph_id": "c-shiji-093-hanlu:p007",
           "quote": "說"
+        },
+        {
+          "mention_id": "c-shiji-125-ningxing:m003-0240",
+          "chapter_id": "c-shiji-125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "韓說"
         }
       ]
     },
@@ -379410,158 +379581,6 @@
       ]
     },
     {
-      "id": "zw4_jf3_2y1_*A",
-      "label": "韓嫣（佞幸列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "韓王孫嫣",
-          "mention_ids": [
-            "c-shiji-125-ningxing:m002-0476"
-          ]
-        },
-        {
-          "surface": "嫣",
-          "mention_ids": [
-            "c-shiji-125-ningxing:m003-0000",
-            "c-shiji-125-ningxing:m003-0018",
-            "c-shiji-125-ningxing:m003-0035",
-            "c-shiji-125-ningxing:m003-0037",
-            "c-shiji-125-ningxing:m003-0056",
-            "c-shiji-125-ningxing:m003-0082",
-            "c-shiji-125-ningxing:m003-0117",
-            "c-shiji-125-ningxing:m003-0153",
-            "c-shiji-125-ningxing:m003-0192",
-            "c-shiji-125-ningxing:m003-0194",
-            "c-shiji-125-ningxing:m003-0220",
-            "c-shiji-125-ningxing:m003-0232"
-          ]
-        },
-        {
-          "surface": "韓嫣",
-          "mention_ids": [
-            "c-shiji-125-ningxing:m003-0183",
-            "c-shiji-125-ningxing:m004-0136"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-125-ningxing:m002-0476",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p002",
-          "quote": "韓王孫嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0000",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0018",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0035",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0037",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0056",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0082",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0117",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0153",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0183",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "韓嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0192",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0194",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0220",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0232",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "嫣"
-        },
-        {
-          "mention_id": "c-shiji-125-ningxing:m004-0136",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p004",
-          "quote": "韓嫣"
-        }
-      ],
-      "family_path": {
-        "connection": "grandfather",
-        "generation_distance": 2,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "chapter_id": "c-shiji-125-ningxing",
-            "source_id": "s-shiji125-ningxing",
-            "paragraph_id": "c-shiji-125-ningxing:p003",
-            "quote": "嫣者，弓高侯孽孫也。今上為膠東王時，嫣與上學書相愛。及上為太子，愈益親嫣。嫣善騎射，善佞。上即位，欲事伐匈奴，而嫣先習胡兵，以故益尊貴，官至上大夫，賞賜擬於鄧通。時嫣常與上臥起。江都王入朝，有詔得從入獵上林中。天子車駕蹕道未行，而先使嫣乘副車，從數十百騎，騖馳視獸。江都王望見，以為天子，辟從者，伏謁道傍。嫣驅不見。既過，江都王怒，為皇太后泣曰：「請得歸國入宿衛，比韓嫣。」太后由此嗛嫣。嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。上為謝，終不能得，嫣遂死。而案道侯韓說，其弟也，亦佞幸。"
-          }
-        ],
-        "source_assertion_id": "a-shiji125-001",
-        "interpretation_note": "依明示父子或孽孫共根，缺名一代以星號與null保留，不補父名，分支不表示排行。",
-        "reviewer": "Codex（AI 代理）",
-        "ancestor_person_id": "zw4_jf3_2y1",
-        "parent_person_id": null,
-        "intermediate_person_ids": [
-          null
-        ]
-      }
-    },
-    {
       "id": "qhp_lk5_t1e_A",
       "label": "李延年（佞幸列傳候選）",
       "status": "active",
@@ -379656,28 +379675,6 @@
       }
     },
     {
-      "id": "zw4_jf3_2y1",
-      "label": "弓高侯（佞幸列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "弓高侯",
-          "mention_ids": [
-            "c-shiji-125-ningxing:m003-0003"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0003",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "弓高侯"
-        }
-      ]
-    },
-    {
       "id": "sj1_tvz_ilh",
       "label": "江都王（佞幸列傳候選）",
       "status": "active",
@@ -379758,28 +379755,6 @@
           "chapter_id": "c-shiji-125-ningxing",
           "paragraph_id": "c-shiji-125-ningxing:p003",
           "quote": "皇太后"
-        }
-      ]
-    },
-    {
-      "id": "42s_g0h_qrm",
-      "label": "韓說（佞幸列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "韓說",
-          "mention_ids": [
-            "c-shiji-125-ningxing:m003-0240"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-125-ningxing:m003-0240",
-          "chapter_id": "c-shiji-125-ningxing",
-          "paragraph_id": "c-shiji-125-ningxing:p003",
-          "quote": "韓說"
         }
       ]
     },

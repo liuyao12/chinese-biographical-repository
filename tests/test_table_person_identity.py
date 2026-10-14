@@ -16,7 +16,7 @@ class TablePersonIdentityTests(unittest.TestCase):
         self.assertEqual(people, {'tlt_5h1_n6y', 'bnu_h9l_z1o'})
     def test_han_king_xin_is_not_huaiyin_general(self):
         cell = next(cell for cell in cells(17) if '初王韓信元年' in cell['text'])
-        self.assertEqual(cell['person_mentions'][0]['person_id'], 'hm1_rqr_l9u')
+        self.assertEqual(cell['person_mentions'][0]['person_id'], 'l9e_fbr_36a_*A')
         other = {mention['person_id'] for cell in cells(16) for mention in cell['person_mentions'] if mention['surface'] == '韓信'}
         self.assertEqual(other, {'ofc_8ei_jb7'})
     def test_titled_same_name_in_different_fiefs_is_not_merged(self):

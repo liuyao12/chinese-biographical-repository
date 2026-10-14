@@ -274,7 +274,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertTrue(relative['evidence'])
 
     def test_native_place_keeps_source_and_unknown_geography(self):
-        result = bundle('cc2_r4q_j5y')
+        result = bundle('jjl_irg_zke_A')
         address = next(a for a in result['address_assertions'] if a['id'] == 'pa-shiji093-001')
         self.assertEqual(address['relation'], 'biographical_origin')
         self.assertEqual(address['place']['source_name'], '豐')

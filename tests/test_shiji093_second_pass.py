@@ -12,7 +12,7 @@ class HanLuIdentityTests(unittest.TestCase):
         return {m['person_id'] for m in p['mentions'] if m['surface'] == surface}
     def test_kings_and_two_hanxin_people_stay_distinct(self):
         p = self.paragraph('093', 'p001')
-        self.assertEqual(self.ids(p, '韓王信'), {'hm1_rqr_l9u'})
+        self.assertEqual(self.ids(p, '韓王信'), {'l9e_fbr_36a_*A'})
         self.assertEqual(self.ids(p, '橫陽君成'), {'8i3_5vf_iu9'})
         q = self.paragraph('093', 'p003')
         self.assertEqual(self.ids(q, '鄭昌'), {'vxt_uj1_8ym'})
@@ -57,3 +57,34 @@ class HanLuIdentityTests(unittest.TestCase):
         self.assertIn('徙御史大夫周昌為趙相', self.paragraph('096', 'p006')['text'])
         self.assertIn('遂拜趙堯為御史大夫', self.paragraph('096', 'p007')['text'])
         self.assertIn('勃遷為太尉', self.paragraph('057', 'p004')['text'])
+
+    def test_han_and_lu_direct_paths_keep_unknown_generations(self):
+        people = {p['id']: p for p in json.loads((ROOT / 'registry/persons.json').read_text())['persons']}
+        han = people['l9e_fbr_36a_*A']['family_path']
+        self.assertEqual(han['ancestor_person_id'], 'l9e_fbr_36a')
+        self.assertEqual(han['connection'], 'grandfather')
+        self.assertIsNone(han['parent_person_id'])
+        self.assertEqual(han['intermediate_person_ids'], [None])
+        self.assertEqual(han['source_assertion_id'], 'a-shiji093-001')
+        self.assertEqual(people['l9e_fbr_36a_*AB']['family_path']['parent_person_id'], 'l9e_fbr_36a_*A')
+        self.assertEqual(people['l9e_fbr_36a_*AB*A']['family_path']['ancestor_person_id'], 'l9e_fbr_36a_*AB')
+        self.assertEqual(people['jjl_irg_zke_A']['family_path']['parent_person_id'], 'jjl_irg_zke')
+        self.assertEqual(people['jjl_irg_zke_A*A']['family_path']['intermediate_person_ids'], [None])
+        self.assertFalse(any(p['id'].endswith('_*') for p in people.values()))
+
+    def test_gonggao_and_hanyan_endpoints_match_in_both_chapters(self):
+        p = self.paragraph('093', 'p007')
+        q = self.paragraph('125', 'p003')
+        self.assertEqual(self.ids(p, '韓嫣'), {'l9e_fbr_36a_*AB*A'})
+        self.assertEqual(self.ids(q, '韓嫣'), {'l9e_fbr_36a_*AB*A'})
+        self.assertEqual(self.ids(q, '弓高侯'), {'l9e_fbr_36a_*AB'})
+        self.assertEqual(self.ids(q, '韓說'), {'gh3_d07_hkt'})
+        self.assertEqual(self.ids(p, '說'), {'gh3_d07_hkt'})
+        self.assertEqual(self.ids(self.paragraph('093', 'p001'), '韓襄王'), {'l9e_fbr_36a'})
+
+    def test_sibling_grandfather_is_not_fabricated_as_direct_assertion(self):
+        rows = json.loads((ROOT / 'corpus/shiji/093-assertions.json').read_text())['assertions']
+        brother = next(x for x in rows if x['id'] == 'a-shiji093-006')
+        self.assertEqual((brother['subject_person_id'], brother['object_person_id']),
+                         ('gh3_d07_hkt', 'l9e_fbr_36a_*AB*A'))
+        self.assertFalse(any(x['subject_person_id'] == 'gh3_d07_hkt' and x['predicate'] in ['father', 'grandfather'] for x in rows))
