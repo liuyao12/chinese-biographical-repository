@@ -50,3 +50,26 @@ class LisiEvidenceTests(unittest.TestCase):
         legend = next(a for a in addresses if a['person_id'] == 'z9y_ry1_zee')
         self.assertIn('二世引韓子', legend['interpretation_note'])
         self.assertIsNone(legend['place']['modern_identification'])
+
+    def test_four_qin_rulers_remain_distinct_in_allusion(self):
+        ch = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
+        p = next(p for p in ch['paragraphs'] if p['id'].endswith(':p005'))
+        rulers = {m['person_id'] for m in p['mentions'] if m['surface'] in ['繆公', '孝公', '惠王', '昭王']}
+        self.assertEqual(len(rulers), 4)
+        self.assertIn('ao3_0fy_d45', rulers)
+        shang = [m for p in ch['paragraphs'] for m in p['mentions'] if m['surface'] in ['商鞅', '商君']]
+        self.assertTrue(shang)
+        self.assertTrue(all(m['person_id'] == '2wp_usr_ncd' for m in shang))
+        # 群稱四君不另造人物，也不按王稱批次接到當時的始皇。
+        self.assertTrue(all(m.get('person_id') is None for m in p['mentions'] if m['surface'] == '四君'))
+        self.assertNotIn('ao3_0fy_d45_AAA', rulers)
+
+    def test_huayang_peer_is_not_the_queen(self):
+        ch = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
+        p = next(p for p in ch['paragraphs'] if p['id'].endswith(':p005'))
+        m = next(m for m in p['mentions'] if m['surface'] == '華陽')
+        self.assertEqual(m['person_id'], '4tv_nhj_oxt')
+        source = json.loads((ROOT / 'corpus/shiji/072.json').read_text())
+        p = next(p for p in source['paragraphs'] if p['id'].endswith(':p002'))
+        self.assertIn('同父弟曰羋戎，為華陽君', p['text'])
+        self.assertTrue(any(m['surface'] == '羋戎' and m['person_id'] == '4tv_nhj_oxt' for m in p['mentions']))

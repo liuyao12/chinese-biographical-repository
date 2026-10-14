@@ -91,7 +91,7 @@ class PersonBundleTests(unittest.TestCase):
             self.assertNotIn('normalized_date', period['end'])
         self.assertNotIn('normalized_date', holdings['th-shiji068-005']['effective_period']['start'])
     def test_bailixi_approximate_title_years_keep_unknown_dates(self):
-        result = bundle('ws3_3yb_yzp', include_provisional=True)
+        result = bundle('ylb_ttg_8dr', include_provisional=True)
         holding = next(h for h in result['title_holdings'] if h['id']=='th-shiji068-020')
         duration = holding['reported_duration']
         self.assertIsNone(duration['value'])
