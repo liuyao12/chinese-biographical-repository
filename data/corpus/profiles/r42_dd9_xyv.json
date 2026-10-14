@@ -6,9 +6,53 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "趙午"
+    "趙午",
+    "午"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji104-001",
+      "person_id": "r42_dd9_xyv",
+      "title": "趙相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p001",
+          "quote": "田叔者，趙陘城人也。其先，齊田氏苗裔也。叔喜劍，學黃老術於樂巨公所。叔為人刻廉自喜，喜游諸公。趙人舉之趙相趙午，午言之趙王張敖所，趙王以為郎中。數歲，切直廉平，趙王賢之，未及遷。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji104-001:a001",
+          "paragraph_id": "c-shiji-104-tianshu:p001",
+          "start": 51,
+          "end": 53,
+          "surface": "趙相",
+          "person_mention_id": "c-shiji-104-tianshu:m001-0053",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "正文與褚補分層保存；授官、用稱、俸秩與任務分開，未知年與終點不補造，死亡不自動終止。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -18,6 +62,14 @@
       "paragraph_id": "c-shiji-089-zhanger:p024",
       "count": 2,
       "quote": "朝夕袒韛蔽，自上食，禮甚卑，有子婿禮。髙祖箕踞詈，甚慢易之。趙相貫髙、趙午等年六十餘，故張耳客也。生平爲氣，乃怒曰：「吾王孱王也！」説王曰：「夫天下豪桀并起，能者先立。今王事髙祖甚恭，而髙祖無禮，請爲王殺之！」張敖齧其指出血，曰：「君何言之誤！且先人亡國，賴髙祖得復國，德流"
+    },
+    {
+      "number": 104,
+      "category": "liezhuan",
+      "title": "田叔列傳第四十四",
+      "paragraph_id": "c-shiji-104-tianshu:p001",
+      "count": 4,
+      "quote": "也。叔喜劍，學黃老術於樂巨公所。叔為人刻廉自喜，喜游諸公。趙人舉之趙相趙午，午言之趙王張敖所，趙王以為郎中。數歲，切直廉平，趙王賢之，未及遷。"
     }
   ],
   "table_occurrences": [],
@@ -45,6 +97,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及明記钜轉鉅；髙、渉、脱、黡、黶、信諸侯等原字保留。",
           "note": "33個HTML區塊已全讀；頁面索隱述贊標題確認末段層次。未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-104-tianshu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-104",
+      "source_id": "s-shiji-104-tianshu",
+      "source": {
+        "title": "史記／卷104",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷104",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
+        "revision_id": 8739534,
+        "accessed_on": "2026-10-10",
+        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
         }
       }
     }

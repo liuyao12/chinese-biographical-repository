@@ -1069,7 +1069,6 @@
 | `737_irc_rz7` | 張敖前姬（未名） | [《史記・呂太后本紀》][9] | [JSON](737_irc_rz7.json) |
 | `73a_qx5_k2c` | 豐王 | [《史記・秦本紀》][5] | [JSON](73a_qx5_k2c.json) |
 | `73j_rq4_ugv` | 閼氏 | [《史記・陳丞相世家》][38] | [JSON](73j_rq4_ugv.json) |
-| `741_7st_iab` | 漢孝惠帝 | [《史記・張耳陳餘列傳》][71] | [JSON](741_7st_iab.json) |
 | `746_tyc_8dd` | 黃帝脈書引稱 | [《史記・扁鵲倉公列傳》][87] | [JSON](746_tyc_8dd.json) |
 | `74s_z7l_t28` | 馮敬 | [《史記・淮南衡山列傳》][100] | [JSON](74s_z7l_t28.json) |
 | `74z_fwh_7yq` | 樊穆仲 | [《史記・魯周公世家》][15] | [JSON](74z_fwh_7yq.json) |
@@ -2230,6 +2229,7 @@
 | `evw_7hk_sqo` | 白圭 | [《史記・貨殖列傳》][111] | [JSON](evw_7hk_sqo.json) |
 | `ew3_ltd_qbv` | 鹵公孺 | [《史記・游俠列傳》][106] | [JSON](ew3_ltd_qbv.json) |
 | `ewb_7x8_5z2` | 中行文子 | [《史記・魏世家》][26] | [JSON](ewb_7x8_5z2.json) |
+| `ewk_5mw_a5n` | 晉襄父（本文用字） | [《史記・魯周公世家》][15] | [JSON](ewk_5mw_a5n.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

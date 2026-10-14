@@ -114,6 +114,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji089-022",
+      "person_id": "0hs_fg6_1qj",
+      "title": "齊王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-089-zhanger",
+          "source_id": "s-shiji-089-zhanger",
+          "paragraph_id": "c-shiji-089-zhanger:p020",
+          "quote": "張耳之國，陳餘愈益怒，曰：「張耳與餘功等也，今張耳王，餘獨侯，此項羽不平。」及齊王田榮畔楚，陳餘乃使夏説説田榮曰：「項羽爲天下宰不平，盡王諸將善地，徙故王王惡地，今趙王乃居代！願王假臣兵，請以南皮爲捍蔽。」田榮欲樹黨於趙以反楚，乃遣兵從陳餘。陳餘因悉三縣兵襲常山王張耳。張耳敗走，念諸侯無可歸者，曰：「漢王與我有舊故，而項羽又彊，立我，我欲之楚。」甘公曰：「漢王之入關，五星聚東井。東井者，秦分也。先至必霸。楚雖彊，後必屬漢。」故耳走漢。漢王亦還定三秦，方圍章邯廢丘。張耳謁漢王，漢王厚遇之。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji089-022:a001",
+          "paragraph_id": "c-shiji-089-zhanger:p020",
+          "start": 39,
+          "end": 41,
+          "surface": "齊王",
+          "person_mention_id": "c-shiji-089-zhanger:m020-0039",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存明示授予、改封及用稱；十年追述不補起年，死亡不自動作任期終點；索隱述贊與正文分層。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji090-007",
       "person_id": "0hs_fg6_1qj",
       "title": "齊王",
@@ -322,6 +364,14 @@
       "quote": "，趣義帝行，群臣稍倍叛之，乃陰令衡山王、臨江王擊之，殺義帝江南。項羽怨田榮，立齊將田都為齊王。田榮怒，因自立為齊王，殺田都而反楚；予彭越將軍印，令反梁地。楚令蕭公角擊彭越，彭越大破之。陳餘怨項羽之弗王己也，令夏說說田榮，請兵擊張耳。齊予陳餘兵，擊破常山王張耳，張耳亡歸漢。迎"
     },
     {
+      "number": 89,
+      "category": "liezhuan",
+      "title": "張耳陳餘列傳第二十九",
+      "paragraph_id": "c-shiji-089-zhanger:p020",
+      "count": 3,
+      "quote": "，陳餘愈益怒，曰：「張耳與餘功等也，今張耳王，餘獨侯，此項羽不平。」及齊王田榮畔楚，陳餘乃使夏説説田榮曰：「項羽爲天下宰不平，盡王諸將善地，徙故王王惡地，今趙王乃居代！願王假臣兵，請以南皮爲捍蔽。」田榮欲樹黨於趙以反楚，乃遣兵從陳餘。陳餘因悉三縣兵襲常山王張耳。張耳敗走，念諸侯"
+    },
+    {
       "number": 90,
       "category": "liezhuan",
       "title": "魏豹彭越列傳第三十",
@@ -508,6 +558,32 @@
           "editorial_readings": [],
           "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
           "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-089-zhanger",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-089",
+      "source_id": "s-shiji-089-zhanger",
+      "source": {
+        "title": "史記／卷089",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷089",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143",
+        "revision_id": 8744143,
+        "accessed_on": "2026-10-09",
+        "extent": "30段傳世正文含太史公論，另存1段witness_appended_suoyin_zan；排除導覽與空白段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "钜": "鉅"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及明記钜轉鉅；髙、渉、脱、黡、黶、信諸侯等原字保留。",
+          "note": "33個HTML區塊已全讀；頁面索隱述贊標題確認末段層次。未核底本影像。"
         }
       }
     },

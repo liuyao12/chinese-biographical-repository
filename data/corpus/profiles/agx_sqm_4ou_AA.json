@@ -6,12 +6,67 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "偃",
     "子偃",
     "魯元王",
+    "魯元王偃",
+    "魯王偃",
     "元王",
-    "魯元王偃"
+    "張偃"
   ],
   "titles": [
+    {
+      "id": "th-shiji009-036",
+      "person_id": "agx_sqm_4ou_AA",
+      "title": "魯王",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p008",
+          "quote": "四月，太后欲侯諸呂，乃先封高祖之功臣郎中令無擇為博城侯。魯元公主薨，賜謚為魯元太后。子偃為魯王。魯王父，宣平侯張敖也。封齊悼惠王子章為朱虛侯，以呂祿女妻之。齊丞相壽為平定侯。少府延為梧侯。乃封呂種為沛侯，呂平為扶柳侯，張買為南宮侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji009-036:a001",
+          "paragraph_id": "c-shiji-009-lvhou:p008",
+          "start": 45,
+          "end": 47,
+          "surface": "魯王",
+          "person_mention_id": "c-shiji-009-lvhou:m008-0043",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-009-lvhou",
+              "source_id": "s-shiji-009-lvhou",
+              "paragraph_id": "c-shiji-009-lvhou:p008",
+              "quote": "四月，太后欲侯諸呂，乃先封高祖之功臣郎中令無擇為博城侯。魯元公主薨，賜謚為魯元太后。子偃為魯王。魯王父，宣平侯張敖也。封齊悼惠王子章為朱虛侯，以呂祿女妻之。齊丞相壽為平定侯。少府延為梧侯。乃封呂種為沛侯，呂平為扶柳侯，張買為南宮侯。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文明示官爵用稱；起點未知，死亡不自動當官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji089-033",
       "person_id": "agx_sqm_4ou_AA",
@@ -121,8 +176,44 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji009-022",
+      "person_id": "agx_sqm_4ou_AA",
+      "relation": "residence",
+      "place": {
+        "source_name": "長安",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p024",
+          "quote": "呂祿、呂產欲發亂關中，內憚絳侯、朱虛等，外畏齊、楚兵，又恐灌嬰畔之，欲待灌嬰兵與齊合而發，猶豫未決。當是時，濟川王太、淮陽王武、常山王朝名為少帝弟，及魯元王呂后外孫，皆年少未之國，居長安。趙王祿、梁王產各將兵居南北軍，皆呂氏之人。列侯群臣莫自堅其命。",
+          "person_mention_id": "c-shiji-009-lvhou:m024-0075"
+        }
+      ],
+      "source_term": "皆年少未之國，居長安",
+      "interpretation_note": "未之國明示不在封國；本段長安居處。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "皆年少未之國，居長安",
+      "quote": "呂祿、呂產欲發亂關中，內憚絳侯、朱虛等，外畏齊、楚兵，又恐灌嬰畔之，欲待灌嬰兵與齊合而發，猶豫未決。當是時，濟川王太、淮陽王武、常山王朝名為少帝弟，及魯元王呂后外孫，皆年少未之國，居長安。趙王祿、梁王產各將兵居南北軍，皆呂氏之人。列侯群臣莫自堅其命。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 9,
+      "category": "benji",
+      "title": "呂后本紀第九",
+      "paragraph_id": "c-shiji-009-lvhou:p008",
+      "count": 6,
+      "quote": "呂，乃先封高祖之功臣郎中令無擇為博城侯。魯元公主薨，賜謚為魯元太后。子偃為魯王。魯王父，宣平侯張敖也。封齊悼惠王子章為朱虛侯，以呂祿女妻之。齊丞相壽為平定侯。少府延為梧侯。乃封呂種為沛侯，呂平為扶柳侯，張買為南宮侯。"
+    },
     {
       "number": 89,
       "category": "liezhuan",
@@ -132,8 +223,105 @@
       "quote": "張敖，髙后六年薨。子偃爲魯元王。以母呂后女故，呂后封爲魯元王。元王弱，兄弟少，乃封張敖他姬子二人：壽爲樂昌侯，侈爲信都侯。髙后崩，諸呂無道，大臣誅之，而廢魯元王及樂昌侯、信諸侯。孝文帝即位，復封故魯元王偃爲南宮侯，續張氏。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r020-c03",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月初王張偃元年。偃，高后外孫，故趙王敖子。",
+      "year": {
+        "era": "BCE",
+        "value": 187,
+        "astronomical_year": -186,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "187",
+        "source_cell_id": "shiji-017-t1-r020-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r020-c03-review-004",
+        "start": 4,
+        "end": 6,
+        "surface": "張偃",
+        "person_id": "agx_sqm_4ou_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "chapter_id": "c-shiji-009-lvhou",
+            "paragraph_id": "c-shiji-009-lvhou:p008",
+            "source_id": "s-shiji-009-lvhou",
+            "source_revision": 2087062,
+            "person_id": "agx_sqm_4ou_AA",
+            "quote": "子偃為魯王"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r020-c03",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月初王張偃元年。偃，高后外孫，故趙王敖子。",
+      "year": {
+        "era": "BCE",
+        "value": 187,
+        "astronomical_year": -186,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "187",
+        "source_cell_id": "shiji-017-t1-r020-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r020-c03-review-009",
+        "start": 9,
+        "end": 10,
+        "surface": "偃",
+        "person_id": "agx_sqm_4ou_AA",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格封國、紀年、所載親屬及核讀篇文暫定同指；省稱限本格，不設為全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-009",
+            "chapter_id": "c-shiji-009-lvhou",
+            "paragraph_id": "c-shiji-009-lvhou:p008",
+            "source_id": "s-shiji-009-lvhou",
+            "source_revision": 2087062,
+            "person_id": "agx_sqm_4ou_AA",
+            "quote": "子偃為魯王"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-shiji-009-lvhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-009",
+      "source_id": "s-shiji-009-lvhou",
+      "source": {
+        "title": "史記／卷009",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷009",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+        "revision_id": 2087062,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-089-zhanger",
       "work_id": "w-shiji",
@@ -162,6 +350,27 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-shiji009-010",
+      "subject_person_id": "agx_sqm_4ou_AA",
+      "predicate": "father",
+      "object_person_id": "agx_sqm_4ou_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p008",
+          "quote": "子偃為魯王。魯王父，宣平侯張敖也",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji089-008",
       "subject_person_id": "agx_sqm_4ou_AA",
@@ -216,6 +425,27 @@
     "agx_sqm_4ou_AA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-shiji009-010",
+      "subject_person_id": "agx_sqm_4ou_AA",
+      "predicate": "father",
+      "object_person_id": "agx_sqm_4ou_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-009-lvhou:p008",
+          "quote": "子偃為魯王。魯王父，宣平侯張敖也",
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存原文明示主張，不補闕代、同父同母或未見姓名；不推導少帝生物父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji089-008",
       "subject_person_id": "agx_sqm_4ou_AA",
