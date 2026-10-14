@@ -152,3 +152,15 @@ class HanxinIdentityTests(unittest.TestCase):
         self.assertEqual((zhongli['surname'], zhongli['ming']), ('鐘離', '眛'))
         self.assertIn('鐘離眛', zhongli['quote'])
         self.assertIn('漢王怨眛', zhongli['quote'])
+
+    def test_xiashuo_parallel_campaign_keeps_capture_death_and_place_difference(self):
+        p = self.paragraph('092', 'p008')
+        q = self.paragraph('054', 'p005')
+        self.assertEqual(self.ids(p, '夏說'), {'632_664_al2'})
+        self.assertEqual(self.ids(q, '夏說'), {'632_664_al2'})
+        self.assertIn('禽夏說閼與', p['text'])
+        self.assertIn('夏說軍於鄔東', q['text'])
+        self.assertIn('斬夏說', q['text'])
+        self.assertEqual(self.ids(self.paragraph('008', 'p028'), '夏說'), {'c5t_8kk_hd5'})
+        rows = json.loads((ROOT / 'corpus/shiji/092-life-events.json').read_text())['events']
+        self.assertFalse(any(x['person_id'] == '632_664_al2' for x in rows))
