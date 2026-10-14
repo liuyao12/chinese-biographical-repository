@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ub0_76o_vp6` | 薦髡客未名 | [《史記・孟子荀卿列傳》][56] | [JSON](ub0_76o_vp6.json) |
-| `ub3_cl2_ez9` | 蔡澤御者未名 | [《史記・范睢蔡澤列傳》][61] | [JSON](ub3_cl2_ez9.json) |
-| `ub3_zen_skw` | 餘善 | [《史記・東越列傳》][96] | [JSON](ub3_zen_skw.json) |
-| `ub5_3z9_j2d` | 桀 | [《史記・外戚世家》][31] | [JSON](ub5_3z9_j2d.json) |
 | `ub6_g9c_hvb` | 搖 | [《史記・東越列傳》][96] | [JSON](ub6_g9c_hvb.json) |
 | `ubd_p3l_sji` | 代王 | [《史記・日者列傳》][109] | [JSON](ubd_p3l_sji.json) |
 | `ubm_x3q_md8` | 王翦 | [《史記・太史公自序》][112] | [JSON](ubm_x3q_md8.json) |

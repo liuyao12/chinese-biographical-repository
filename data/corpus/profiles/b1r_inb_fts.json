@@ -10,7 +10,8 @@
     "噲",
     "丞相噲",
     "壯士",
-    "樊噌"
+    "樊噌",
+    "樊將軍噲"
   ],
   "titles": [
     {
@@ -140,6 +141,48 @@
         }
       },
       "interpretation_note": "楚漢授官、爵秩、任事、左右丞相與死後用稱分存；未知端點不由首見、死亡或獨當相職推定。行事與兼職性質、古稱及來源差異仍待制度與版本覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji092-024",
+      "person_id": "b1r_inb_fts",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-092-hanxin",
+          "source_id": "s-shiji-092-hanxin",
+          "paragraph_id": "c-shiji-092-hanxin:p024",
+          "quote": "信知漢王畏惡其能，常稱病不朝從。信由此日夜怨望，居常鞅鞅，羞與絳、灌等列。信嘗過樊將軍噲，噲跪拜送迎，言稱臣，曰：『大王乃肯臨臣！』信出門，笑曰：『生乃與噲等爲伍！』上常從容與信言諸將能不，各有差。上問曰：『如我能將幾何？』信曰：『陛下不過能將十萬。』上曰：『於君何如？』曰：『臣多多而益善耳。』上笑曰：『多多益善，何爲爲我禽？』信曰：『陛下不能將兵，而善將將，此乃言之所以爲陛下禽也。且陛下所謂天授，非人力也。』"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji092-024:a001",
+          "paragraph_id": "c-shiji-092-hanxin:p024",
+          "start": 41,
+          "end": 43,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-092-hanxin:m024-0040",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予與用稱分存；假王請求不作已授，稱病被捕死亡不自動補任期終點。連敖依頁面註記保留改字前形，不宣稱已核底本。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -1198,6 +1241,14 @@
       "quote": "燕王盧綰反，勃以相國代樊噲將，擊下薊，得綰大將抵、丞相偃、守陘、太尉弱、御史大夫施，屠渾都。破綰軍上蘭，復擊破綰軍沮陽。追至長城，定上谷十二縣，右北平十六縣，遼西、遼東二十九縣，漁陽二十二縣。最從高帝得相國一人，丞相二人，將軍"
     },
     {
+      "number": 92,
+      "category": "liezhuan",
+      "title": "淮陰侯列傳第三十二",
+      "paragraph_id": "c-shiji-092-hanxin:p024",
+      "count": 3,
+      "quote": "惡其能，常稱病不朝從。信由此日夜怨望，居常鞅鞅，羞與絳、灌等列。信嘗過樊將軍噲，噲跪拜送迎，言稱臣，曰：『大王乃肯臨臣！』信出門，笑曰：『生乃與噲等爲伍！』上常從容與信言諸將能不，各有差。上問曰：『如我能將幾何？』信曰：『陛下不過能將十萬。』上曰：『於君何如？』曰：『臣多多而益"
+    },
+    {
       "number": 93,
       "category": "liezhuan",
       "title": "韓信盧綰列傳第三十三",
@@ -1376,6 +1427,48 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留泗（川）［水］、潁（陽）［陰］侯、吏［事］、乃［封］、［唯］徐盧、櫡、圂、遬、屍北與鹹克等見證原字及符號，索隱另分層。",
           "note": "全25段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-092-hanxin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-092",
+      "source_id": "s-shiji-092-hanxin",
+      "source": {
+        "title": "史記／卷092",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷092",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147",
+        "revision_id": 2256147,
+        "accessed_on": "2026-10-09",
+        "extent": "27段傳世正文含太史公論；頁面未附索隱述贊。排除導覽、空段、現代標點版權說明與版權告示，腳註分存。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄"
+          },
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-092-hanxin:p004",
+              "witness_form": "連囂",
+              "body_reading": "連敖",
+              "note": "頁面編者腳註明說傳世本作敖，正文依該記錄保留改字前形式；未核底本影像，不宣稱已校定。"
+            }
+          ],
+          "digital_footnotes": [
+            {
+              "block_index": 4,
+              "anchor": "cite_ref-1",
+              "note_id": "cite_note-1",
+              "source_text": "傳世本『囂』作『敖』。曾侯乙墓竹簡、包山楚簡、『連囂之□三』印、『燕客銅量』銘文中該官名皆作『連囂』，據改。",
+              "note": "頁面編者以出土材料改字的註記僅分存為參考，不驗證其論證，不作原文或官名先後定論。"
+            }
+          ],
+          "extraction_note": "固定HTML一致，只去外緣空白；去腳註[1]，明記連囂恢復連敖及弃轉棄。髙、襍、涂地、（休）與隨（何）等原字括號保留。",
+          "note": "全27段正文與HTML篇界已讀；未核底本影像。"
         }
       }
     },
