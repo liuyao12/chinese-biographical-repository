@@ -81,7 +81,6 @@
 | `0ix_wr1_nuo` | 單于 | [《史記・陳丞相世家》][38] | [JSON](0ix_wr1_nuo.json) |
 | `0j3_2uz_7wo` | 秦嘉 | [《史記・項羽本紀》][7] | [JSON](0j3_2uz_7wo.json) |
 | `0jb_r4l_gxr` | 桀引古 | [《史記・田單列傳》][64] | [JSON](0jb_r4l_gxr.json) |
-| `0jj_3xt_ip6` | 太子未名 | [《史記・淮陰侯列傳》][74] | [JSON](0jj_3xt_ip6.json) |
 | `0jo_9fp_dpo` | 孫子（臏腳） | [《史記・太史公自序》][112] | [JSON](0jo_9fp_dpo.json) |
 | `0jo_ejm_n20` | 淳于髡 | [《史記・滑稽列傳》][108] | [JSON](0jo_ejm_n20.json) |
 | `0jy_rdt_zu1` | 石奮姊未名 | [《史記・萬石張叔列傳》][85] | [JSON](0jy_rdt_zu1.json) |
@@ -195,7 +194,6 @@
 | `1ag_0z1_mlq` | 申侯 | [《史記・周本紀》][4] | [JSON](1ag_0z1_mlq.json) |
 | `1bh_uew_js1` | 居股 | [《史記・東越列傳》][96] | [JSON](1bh_uew_js1.json) |
 | `1br_aj6_egz` | 邛君 | [《史記・西南夷列傳》][98] | [JSON](1br_aj6_egz.json) |
-| `1by_i1o_3pu` | 禹（引古） | [《史記・淮陰侯列傳》][74] | [JSON](1by_i1o_3pu.json) |
 | `1bz_2re_b8l` | 毋卹之母（趙世家翟婢未名者） | [《史記・趙世家》][25] | [JSON](1bz_2re_b8l.json) |
 | `1c0_c3k_jno` | 高皇帝 | [《史記・平津侯主父列傳》][94] | [JSON](1c0_c3k_jno.json) |
 | `1c0_cid_jlo` | 棠公妻（本卷未名） | [《史記・齊太公世家》][14] | [JSON](1c0_cid_jlo.json) |
@@ -1135,7 +1133,6 @@
 | `7of_rv0_ayn` | 李克 | [《史記・孫子吳起列傳》][47] | [JSON](7of_rv0_ayn.json) |
 | `7ok_zhn_ztl` | 劇辛 | [《史記・趙世家》][25] | [JSON](7ok_zhn_ztl.json) |
 | `7ou_w2x_zxh` | 宋公 | [《史記・穰侯列傳》][54] | [JSON](7ou_w2x_zxh.json) |
-| `7oz_44p_91g` | 孟賁（引古） | [《史記・淮陰侯列傳》][74] | [JSON](7oz_44p_91g.json) |
 | `7p1_uko_gaz` | 呂后 | [《史記・張丞相列傳》][78] | [JSON](7p1_uko_gaz.json) |
 | `7pf_nqu_pv0` | 栗姬 | [《史記・太史公自序》][112] | [JSON](7pf_nqu_pv0.json) |
 | `7pl_s0g_rkh` | 孟嘗君田文 | [《史記・孟嘗君列傳》][57] | [JSON](7pl_s0g_rkh.json) |
@@ -2229,6 +2226,10 @@
 | `f1n_prq_vmh` | 鄭當時 | [《史記・平津侯主父列傳》][94] | [JSON](f1n_prq_vmh.json) |
 | `f23_b0p_hqg` | 髙渠彌 | [《史記・鄭世家》][24] | [JSON](f23_b0p_hqg.json) |
 | `f2n_1g8_h3m` | 趙倉唐 | [《史記・魏世家》][26] | [JSON](f2n_1g8_h3m.json) |
+| `f2v_ue2_c9t` | 孝惠 | [《史記・儒林列傳》][103] | [JSON](f2v_ue2_c9t.json) |
+| `f30_vxh_z7o` | 隨何 | [《史記・留侯世家》][37] | [JSON](f30_vxh_z7o.json) |
+| `f32_hqy_au7` | 偃（陳哀公子） | [《史記・陳杞世家》][18] | [JSON](f32_hqy_au7.json) |
+| `f3g_9nj_1ae` | 田常引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](f3g_9nj_1ae.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
