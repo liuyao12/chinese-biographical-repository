@@ -669,7 +669,6 @@
 | `4jp_1f7_xgx` | 樓季引古 | [《史記・李斯列傳》][69] | [JSON](4jp_1f7_xgx.json) |
 | `4jv_qte_5p4` | 章邯 | [《史記・項羽本紀》][7] | [JSON](4jv_qte_5p4.json) |
 | `4k0_mri_buk` | 盧綰 | [《史記・樊酈滕灌列傳》][77] | [JSON](4k0_mri_buk.json) |
-| `4ki_y9a_zjy` | 陳澤 | [《史記・淮陰侯列傳》][74] | [JSON](4ki_y9a_zjy.json) |
 | `4kq_1x4_48g` | 鄭君 | [《史記・汲鄭列傳》][102] | [JSON](4kq_1x4_48g.json) |
 | `4ky_3rl_efu` | 侯生 | [《史記・秦始皇本紀》][6] | [JSON](4ky_3rl_efu.json) |
 | `4lf_9lg_slx` | 齊王 | [《史記・平津侯主父列傳》][94] | [JSON](4lf_9lg_slx.json) |
@@ -2176,7 +2175,6 @@
 | `epe_dhb_577` | 齊威王 | [《史記・儒林列傳》][103] | [JSON](epe_dhb_577.json) |
 | `epj_utq_pyg` | 春申（四君稱呼） | [《史記・秦始皇本紀》][6] | [JSON](epj_utq_pyg.json) |
 | `epn_7nx_g1b` | 張恢 | [《史記・袁盎鼂錯列傳》][83] | [JSON](epn_7nx_g1b.json) |
-| `epq_pym_fky` | 句踐（引古） | [《史記・淮陰侯列傳》][74] | [JSON](epq_pym_fky.json) |
 | `eqc_fta_phm` | 王錯 | [《史記・魏世家》][26] | [JSON](eqc_fta_phm.json) |
 | `eqd_9b3_f2r` | 虢射 | [《史記・晉世家》][21] | [JSON](eqd_9b3_f2r.json) |
 | `eqd_qrh_r6x` | 義帝未詳名 | [《史記・酈生陸賈列傳》][79] | [JSON](eqd_qrh_r6x.json) |
@@ -2229,6 +2227,8 @@
 | `f1f_c8i_jm9` | 惠公（西周） | [《史記・周本紀》][4] | [JSON](f1f_c8i_jm9.json) |
 | `f1l_p1w_796` | 叔振鐸 | [《史記・周本紀》][4] | [JSON](f1l_p1w_796.json) |
 | `f1n_prq_vmh` | 鄭當時 | [《史記・平津侯主父列傳》][94] | [JSON](f1n_prq_vmh.json) |
+| `f23_b0p_hqg` | 髙渠彌 | [《史記・鄭世家》][24] | [JSON](f23_b0p_hqg.json) |
+| `f2n_1g8_h3m` | 趙倉唐 | [《史記・魏世家》][26] | [JSON](f2n_1g8_h3m.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

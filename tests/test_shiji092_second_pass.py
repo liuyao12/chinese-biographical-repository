@@ -62,3 +62,28 @@ class HanxinIdentityTests(unittest.TestCase):
         self.assertEqual(guan['status'], 'contextual_provisional')
         self.assertIn('較弱', guan['rationale'])
         self.assertFalse(guan['human_reviewed'])
+
+    def test_zhangliang_grant_and_julu_dispute_keep_parallel_accounts(self):
+        p = self.paragraph('092', 'p016')
+        self.assertEqual(self.ids(p, '張良'), {'ea5_zvr_hlp'})
+        self.assertIn('語在淮陰事中', self.paragraph('055', 'p016')['text'])
+        p = self.paragraph('092', 'p019')
+        self.assertEqual(self.ids(p, '張黶'), {'h1w_580_5oa'})
+        self.assertEqual(self.ids(p, '陳澤'), {'hnx_2zc_ixj'})
+        q = self.paragraph('089', 'p017')
+        self.assertIn('張耳不信，以爲殺之', q['text'])
+        self.assertIn('皆沒不出', q['text'])
+
+    def test_yue_quotation_identity_does_not_erase_death_and_departure_difference(self):
+        p = self.paragraph('092', 'p019')
+        self.assertEqual(self.ids(p, '大夫種'), {'gu2_fde_5bw'})
+        self.assertEqual(self.ids(p, '范蠡'), {'yhm_h9f_8p0'})
+        self.assertEqual(self.ids(p, '句踐'), {'i7a_22p_qda'})
+        self.assertIn('身死亡', p['text'])
+        self.assertIn('種遂自殺', self.paragraph('041', 'p013')['text'])
+        self.assertIn('范蠡浮海出齊', self.paragraph('041', 'p020')['text'])
+        self.assertIn('卒老死于陶', self.paragraph('041', 'p027')['text'])
+        rows = json.loads((ROOT / 'corpus/shiji/092-equivalences.json').read_text())['decisions']
+        decision = next(x for x in rows if x['id'] == 'eq-shiji092-review-fanli')
+        self.assertIn('同案被殺', decision['rationale'])
+        self.assertFalse(decision['human_reviewed'])
