@@ -578,7 +578,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(relation['predicate'], 'paternal_uncle')
         self.assertIsNone(relation['qualifiers']['intermediate_father_person_id'])
         self.assertFalse(any(a['predicate'] == 'father' for a in result['relations']))
-        heir = catalog[0]['qbh_lsz_ipx']
+        heir = catalog[0]['4yg_ete_09a_A']
         child = bundle(heir['id'], catalog=catalog)
         relation = next(a for a in child['relations'] if a['subject_person_id'] == heir['id'] and a['predicate'] == 'father')
         self.assertEqual(relation['qualifiers']['heir_status'], '太子')

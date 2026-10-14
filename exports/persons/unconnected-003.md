@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `uk3_s1y_7c7` | 呉回（楚篇祖系） | [《史記・楚世家》][22] | [JSON](uk3_s1y_7c7.json) |
-| `ukp_lkb_cb5` | 主父偃 | [《史記・孝景本紀》][11] | [JSON](ukp_lkb_cb5.json) |
-| `ula_wqu_naa` | 剛武侯（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](ula_wqu_naa.json) |
-| `ulf_21j_keo` | 李由 | [《史記・傅靳蒯成列傳》][80] | [JSON](ulf_21j_keo.json) |
 | `ull_jgp_wdx` | 孟舒 | [《史記・田叔列傳》][86] | [JSON](ull_jgp_wdx.json) |
 | `ulx_s90_lom` | 丁夫人（方祠者） | [《史記・孝武本紀》][12] | [JSON](ulx_s90_lom.json) |
 | `um1_nbo_c79` | 梁氏女（斑所說） | [《史記・魯周公世家》][15] | [JSON](um1_nbo_c79.json) |
@@ -858,7 +854,6 @@
 [77]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
 [78]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
-[80]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷099&oldid=368013
 [82]: https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696
 [83]: https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092

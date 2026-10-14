@@ -713,7 +713,6 @@
 | `4wh_yve_8ul` | 景快 | [《史記・秦本紀》][5]、[《史記・楚世家》][22] | [JSON](4wh_yve_8ul.json) |
 | `4xh_zzy_gyn` | 太史公 | [《史記・屈原賈生列傳》][66] | [JSON](4xh_zzy_gyn.json) |
 | `4y3_xk6_8vs` | 富辰 | [《史記・周本紀》][4] | [JSON](4y3_xk6_8vs.json) |
-| `4yg_ete_09a` | 柴武 | [《史記・淮南衡山列傳》][100] | [JSON](4yg_ete_09a.json) |
 | `4ym_j77_5al` | 胥童（晉姬兄） | [《史記・晉世家》][21] | [JSON](4ym_j77_5al.json) |
 | `4yr_em4_wid` | 慎靚王 | [《史記・周本紀》][4] | [JSON](4yr_em4_wid.json) |
 | `4ys_iau_gtb` | 蘇武 | [《史記・平津侯主父列傳》][94] | [JSON](4ys_iau_gtb.json) |
@@ -1288,7 +1287,6 @@
 | `8qw_wy4_91g` | 鄧侯（楚文王過鄧時未名） | [《史記・楚世家》][22] | [JSON](8qw_wy4_91g.json) |
 | `8qy_3jw_ikr` | 公孫昆邪 | [《史記・李將軍列傳》][91] | [JSON](8qy_3jw_ikr.json) |
 | `8r1_wnc_n5o` | 西周武公 | [《史記・周本紀》][4] | [JSON](8r1_wnc_n5o.json) |
-| `8r5_zyc_5dx` | 柴將軍未詳名 | [《史記・韓信盧綰列傳》][75] | [JSON](8r5_zyc_5dx.json) |
 | `8r8_law_3lz` | 周赧王 | [《史記・周本紀》][4] | [JSON](8r8_law_3lz.json) |
 | `8rc_l89_zwn` | 斯短稱引古未定 | [《史記・屈原賈生列傳》][66] | [JSON](8rc_l89_zwn.json) |
 | `8rl_z9b_qjh` | 公孫余假 | [《史記・孔子世家》][29] | [JSON](8rl_z9b_qjh.json) |
@@ -2229,6 +2227,8 @@
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
 | `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
+| `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
+| `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

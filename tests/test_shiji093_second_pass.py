@@ -228,3 +228,30 @@ class HanLuIdentityTests(unittest.TestCase):
             d['preferred_reading']['person_mention_id'] = 'c-shiji-093-hanlu:m012-0000'
             p.write_text(json.dumps(x, ensure_ascii=False))
             self.assertTrue(any('首選校讀' in e for e in validate(target)))
+
+    def test_chai_general_preferred_identity_keeps_son_distinct(self):
+        self.assertEqual(self.ids(self.paragraph('093', 'p006'), '柴將軍'), {'4yg_ete_09a'})
+        self.assertEqual(self.ids(self.paragraph('101', 'p004'), '柴武'), {'4yg_ete_09a'})
+        self.assertEqual(self.ids(self.paragraph('118', 'p003'), '棘蒲侯柴武'), {'4yg_ete_09a'})
+        self.assertEqual(self.ids(self.paragraph('118', 'p003'), '太子奇'), {'4yg_ete_09a_A'})
+        people = {p['id']: p for p in json.loads((ROOT / 'registry/persons.json').read_text())['persons']}
+        child = people['4yg_ete_09a_A']
+        self.assertEqual(child['family_path']['parent_person_id'], '4yg_ete_09a')
+        self.assertEqual(child['family_path']['source_assertion_id'], 'a-shiji101-003')
+        self.assertNotIn('候選', people['4yg_ete_09a']['label'])
+        a = json.loads((ROOT / 'corpus/shiji/101-assertions.json').read_text())['assertions']
+        a = next(a for a in a if a['id'] == 'a-shiji101-003')
+        self.assertIsNone(a['qualifiers']['birth_ordinal'])
+
+    def test_chai_general_alternative_is_preserved_not_a_false_name(self):
+        p = json.loads((ROOT / 'data/corpus/profiles/4yg_ete_09a.json').read_text())
+        v = next(v for v in p['reported_variants'] if v['id'] == 'rv-shiji093-chai-general')
+        self.assertIn('柴武', v['quote'])
+        self.assertIn('柴奇', v['quote'])
+        self.assertFalse(v['adopted'])
+        self.assertFalse(v['image_verified'])
+        self.assertNotIn('柴奇', p['names'])
+        ids = {p['id'] for p in json.loads((ROOT / 'registry/persons.json').read_text())['persons']}
+        for pid in ('8r5_zyc_5dx', 'tqe_7o9_t4k', 'qbh_lsz_ipx'):
+            self.assertNotIn(pid, ids)
+            self.assertFalse((ROOT / f'exports/persons/{pid}.json').exists())
