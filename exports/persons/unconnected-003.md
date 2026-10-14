@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `u2w_08q_du4` | 嘉（燕王） | [《史記・孝景本紀》][11] | [JSON](u2w_08q_du4.json) |
-| `u39_e0i_cta` | 大廉 | [《史記・秦本紀》][5] | [JSON](u39_e0i_cta.json) |
-| `u3d_aj2_qbe` | 湯 | [《史記・司馬相如列傳》][99] | [JSON](u3d_aj2_qbe.json) |
-| `u3e_wkp_awl` | 魏安釐王 | [《史記・高祖本紀》][8] | [JSON](u3e_wkp_awl.json) |
-| `u3k_b05_ar4` | 魏文侯 | [《史記・田敬仲完世家》][28] | [JSON](u3k_b05_ar4.json) |
-| `u3z_lrd_8hy` | 張耳 | [《史記・白起王翦列傳》][55] | [JSON](u3z_lrd_8hy.json) |
 | `u4n_65h_uqv` | 庶長奐 | [《史記・秦本紀》][5] | [JSON](u4n_65h_uqv.json) |
 | `u4r_ktr_4qm` | 孫子 | [《史記・田敬仲完世家》][28] | [JSON](u4r_ktr_4qm.json) |
 | `u4t_jyh_ag2` | 河伯婦（未名） | [《史記・滑稽列傳》][108] | [JSON](u4t_jyh_ag2.json) |
@@ -203,7 +197,6 @@
 | `vg4_1z7_894` | 唐姬 | [《史記・五宗世家》][41] | [JSON](vg4_1z7_894.json) |
 | `vgb_hc7_z63` | 周文王 | [《史記・日者列傳》][109] | [JSON](vgb_hc7_z63.json) |
 | `vgh_vi1_iy2` | 曹參 | [《史記・外戚世家》][31] | [JSON](vgh_vi1_iy2.json) |
-| `vgn_ry9_ujs` | 留侯 | [《史記・魏豹彭越列傳》][72] | [JSON](vgn_ry9_ujs.json) |
 | `vhn_2qv_ziz` | 逸（宗正） | [《史記・淮南衡山列傳》][100] | [JSON](vhn_2qv_ziz.json) |
 | `vhq_7q6_k1o` | 吳王未具名 | [《史記・扁鵲倉公列傳》][87] | [JSON](vhq_7q6_k1o.json) |
 | `vht_3iv_u7e` | 周成王 | [《史記・鄭世家》][24] | [JSON](vht_3iv_u7e.json) |
@@ -668,7 +661,7 @@
 | `ykt_rg0_cl9` | 盧綰 | [《史記・朝鮮列傳》][97] | [JSON](ykt_rg0_cl9.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][56] | [JSON](ykw_i8p_jh3.json) |
 | `ykz_dyf_q7h` | 田忌 | [《史記・秦始皇本紀》][6] | [JSON](ykz_dyf_q7h.json) |
-| `ylb_xg7_6t9` | 王恬開 | [《史記・張釋之馮唐列傳》][84] | [JSON](ylb_xg7_6t9.json) |
+| `ylb_xg7_6t9` | 王恬開 | [《史記・魏豹彭越列傳》][72]、[《史記・張釋之馮唐列傳》][84] | [JSON](ylb_xg7_6t9.json) |
 | `ym1_oml_zdw` | 伯宗 | [《史記・鄭世家》][24] | [JSON](ym1_oml_zdw.json) |
 | `yma_ep3_js5` | 魏文侯 | [《史記・樗里子甘茂列傳》][53] | [JSON](yma_ep3_js5.json) |
 | `ymc_cs7_t2f` | 曹宣公 | [《史記・吳太伯世家》][13] | [JSON](ymc_cs7_t2f.json) |
