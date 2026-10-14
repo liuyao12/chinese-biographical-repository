@@ -95,3 +95,35 @@ class QingbuIdentityTests(unittest.TestCase):
         self.assertIn('姓英氏', bu['quote'])
         self.assertIn('黥布', bu['additional_names'])
         self.assertIn('英布', self.paragraph('091', 'p002')['text'])
+
+    def test_tenggong_uses_explicit_alias_and_keeps_compound_surname(self):
+        p = self.paragraph('091', 'p015')
+        self.assertTrue(any(m['surface'] == '滕公' and m['person_id'] == 'li9_cmb_8ci'
+                            for m in p['mentions']))
+        self.assertIn('賜爵封轉為滕公', self.paragraph('095', 'p017')['text'])
+        rows = json.loads((ROOT / 'data/corpus/profile-names.json').read_text())['records']
+        names = next(r for r in rows if r['person_id'] == 'li9_cmb_8ci')
+        self.assertEqual((names['surname'], names['ming']), ('夏侯', '嬰'))
+        guan = [m for m in self.paragraph('095', 'p022')['mentions']
+                if m['surface'].endswith('灌嬰')]
+        self.assertTrue(guan)
+        self.assertTrue(all(m['person_id'] != 'li9_cmb_8ci' for m in guan))
+
+    def test_lvchen_parent_is_from_parallel_source(self):
+        p = self.paragraph('091', 'p002')
+        self.assertTrue(any(m['surface'] == '呂臣' and m['person_id'] == '0bu_skv_qsr_A'
+                            for m in p['mentions']))
+        q = self.paragraph('007', 'p010')
+        self.assertIn('以其父呂青為令尹', q['text'])
+        self.assertTrue(any(m['surface'] == '呂青' and m['person_id'] == '0bu_skv_qsr'
+                            for m in q['mentions']))
+
+    def test_gaotao_name_merge_preserves_ancestry_question(self):
+        p = self.paragraph('091', 'p019')
+        self.assertIn('其先豈', p['text'])
+        self.assertTrue(any(m['surface'] == '皋陶' and m['person_id'] == 'p3l_pp3_n6i'
+                            for m in p['mentions']))
+        self.assertIn('封皋陶之後於英、六', self.paragraph('002', 'p027')['text'])
+        assertions = json.loads((ROOT / 'corpus/shiji/091-assertions.json').read_text())['assertions']
+        self.assertFalse(any(a['subject_person_id'] == 'zxd_afr_2xg'
+                             and a['object_person_id'] == 'p3l_pp3_n6i' for a in assertions))
