@@ -388,7 +388,76 @@
               "paragraph_id": "c-shiji-089-zhanger:p028",
               "quote": "張敖已出，以尚魯元公主故，封爲宣平侯。於是上賢張王諸客，以鉗奴從張王入關，無不爲諸侯相、郡守者。及孝惠、髙后、文帝、孝景時，張王客子孫皆得爲二千石。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 198,
+            "year": -197,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "張敖已出，以尚魯元公主故，封爲宣平侯。於是上賢張王諸客，以鉗奴從張王入關，無不爲諸侯相、郡守者。及孝惠、髙后、文帝、孝景時，張王客子孫皆得爲二千石。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-089-zhanger",
+                "source_id": "s-shiji-089-zhanger",
+                "paragraph_id": "c-shiji-089-zhanger:p028",
+                "quote": "張敖已出，以尚魯元公主故，封爲宣平侯。於是上賢張王諸客，以鉗奴從張王入關，無不爲諸侯相、郡守者。及孝惠、髙后、文帝、孝景時，張王客子孫皆得爲二千石。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記·高祖功臣侯者年表》宣平國原欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+                "quote": "宣平。",
+                "scope": "received_title_context",
+                "table_cell_id": "shiji-018-t1-r103-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·高祖功臣侯者年表》張氏世系原欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+                "quote": "兵初起，張耳誅秦，爲相，合諸侯兵鉅鹿，破秦定趙，爲常山王。陳餘反，襲耳，棄國，與大臣歸漢，漢定趙，爲王。卒，子敖嗣。其臣貫高不善，廢爲侯。",
+                "scope": "received_title_context",
+                "table_cell_id": "shiji-018-t1-r103-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·高祖功臣侯者年表》原帝紀年欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+                "quote": "高祖十二",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·高祖功臣侯者年表》授侯原欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+                "quote": "四。九年四月，武侯張敖元年。",
+                "scope": "received_parallel_event",
+                "table_cell_id": "shiji-018-t1-r103-c02",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "198",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-017-t1-r009-c00",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "封爲宣平侯",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+              "reference_event_quote": "四。九年四月，武侯張敖元年。",
+              "reference_year_quote": "198",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            },
+            "rationale": "年表宣平國名及張耳、敖世系欄，明列高祖九年四月武侯張敖元年；武侯為該表所用謚稱，不改生前爵號或本紀魯元王用稱。 數值西元年是數位編者對照，只到年，不換四月為西曆月日，不由死亡補持爵終年；同書分篇非獨立見證，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -396,9 +465,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "保存明示授予、改封及用稱；十年追述不補起年，死亡不自動作任期終點；索隱述贊與正文分層。",
+      "interpretation_note": "保存明示授予、改封及用稱；十年追述不補起年，死亡不自動作任期終點；索隱述贊與正文分層。 年表宣平國名及張耳、敖世系欄，明列高祖九年四月武侯張敖元年；武侯為該表所用謚稱，不改生前爵號或本紀魯元王用稱。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前198年（暫定） → 未定"
     },
     {
       "id": "th-shiji104-002",
@@ -1056,6 +1125,79 @@
       "person_id": "agx_sqm_4ou_A",
       "endpoint": "start",
       "title": "趙王"
+    },
+    {
+      "era": "BCE",
+      "era_year": 198,
+      "year": -197,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "張敖已出，以尚魯元公主故，封爲宣平侯。於是上賢張王諸客，以鉗奴從張王入關，無不爲諸侯相、郡守者。及孝惠、髙后、文帝、孝景時，張王客子孫皆得爲二千石。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-089-zhanger",
+          "source_id": "s-shiji-089-zhanger",
+          "paragraph_id": "c-shiji-089-zhanger:p028",
+          "quote": "張敖已出，以尚魯元公主故，封爲宣平侯。於是上賢張王諸客，以鉗奴從張王入關，無不爲諸侯相、郡守者。及孝惠、髙后、文帝、孝景時，張王客子孫皆得爲二千石。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·高祖功臣侯者年表》宣平國原欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+          "quote": "宣平。",
+          "scope": "received_title_context",
+          "table_cell_id": "shiji-018-t1-r103-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·高祖功臣侯者年表》張氏世系原欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+          "quote": "兵初起，張耳誅秦，爲相，合諸侯兵鉅鹿，破秦定趙，爲常山王。陳餘反，襲耳，棄國，與大臣歸漢，漢定趙，爲王。卒，子敖嗣。其臣貫高不善，廢爲侯。",
+          "scope": "received_title_context",
+          "table_cell_id": "shiji-018-t1-r103-c01",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·高祖功臣侯者年表》原帝紀年欄題",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+          "quote": "高祖十二",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·高祖功臣侯者年表》授侯原欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+          "quote": "四。九年四月，武侯張敖元年。",
+          "scope": "received_parallel_event",
+          "table_cell_id": "shiji-018-t1-r103-c02",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "198",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-017-t1-r009-c00",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "封爲宣平侯",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+        "reference_event_quote": "四。九年四月，武侯張敖元年。",
+        "reference_year_quote": "198",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+      },
+      "rationale": "年表宣平國名及張耳、敖世系欄，明列高祖九年四月武侯張敖元年；武侯為該表所用謚稱，不改生前爵號或本紀魯元王用稱。 數值西元年是數位編者對照，只到年，不換四月為西曆月日，不由死亡補持爵終年；同書分篇非獨立見證，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji089-032",
+      "person_id": "agx_sqm_4ou_A",
+      "endpoint": "start",
+      "title": "宣平侯"
     }
   ],
   "name_components": [

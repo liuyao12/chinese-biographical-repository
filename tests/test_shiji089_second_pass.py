@@ -76,3 +76,20 @@ class ZhangerIdentityTests(unittest.TestCase):
         self.assertIsNone(e['date_expression'])
         self.assertEqual(e['normalized_date']['era_year'],180)
         self.assertEqual(e['normalized_date']['basis']['kind'],'parallel_event')
+    def test_marquis_dates_use_table_event_and_distinguish_era_start(self):
+        rows=json.loads((ROOT/'corpus/shiji/089-titles.json').read_text())['holdings']
+        for hid,year,quote in [('th-shiji089-032',198,'九年四月'),('th-shiji089-036',179,'元年')]:
+            h=next(h for h in rows if h['id']==hid);s=h['effective_period']['start']
+            self.assertIsNone(s['date_expression'])
+            self.assertEqual(s['normalized_date']['era_year'],year)
+            self.assertIn(quote,s['normalized_date']['basis']['reference_event_quote'])
+            self.assertNotIn('month',s['normalized_date'])
+    def test_named_cohort_ages_preserve_unknown_total_and_birth(self):
+        d=json.loads((ROOT/'corpus/shiji/089.json').read_text())['annotation']['age_assertions']
+        self.assertEqual({a['person_id'] for a in d},{'2t1_1bj_ewv','r42_dd9_xyv'})
+        for a in d:
+            self.assertIsNone(a['value']);self.assertIsNone(a['birth_year'])
+            self.assertEqual(a['bounds'],{'lower':60,'lower_inclusive':False,'upper':None,'upper_inclusive':None})
+            self.assertTrue(a['group_reference']['additional_members_unknown'])
+            self.assertEqual(a['normalized_date']['era_year'],200)
+            self.assertIn('漢七年',a['normalized_date']['original_quote'])

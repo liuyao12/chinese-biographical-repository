@@ -112,3 +112,21 @@ test('place roles distinguish ancestors, residence and death without relabelling
  assert.match(html,/祖先出身：齊/);assert.match(html,/居地：上郡/);assert.match(html,/卒地：陽周/);
  assert.doesNotMatch(html,/出生地：/);assert.doesNotMatch(html,/<script>/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);
 });
+test('title year evidence is shown only when available and source text stays inert',()=>{
+ const p={id:'abc_def_123',label:'張敖',titles:[{title:'宣平侯',evidence:[],effective_period:{start:{normalized_date:{original_quote:'封為宣平侯',rationale:'<判斷>',references:[{title:'<年表>',quote:'九年四月',url:'https://example.org/source?x=1&y=2'},{title:'不合法網址',quote:'<script>',url:'javascript:alert(1)'}]}}}}]};
+ const html=personCard(p,true);
+ assert.match(html,/始年紀年依據/);assert.match(html,/九年四月/);assert.match(html,/&lt;判斷&gt;/);assert.match(html,/&lt;年表&gt;/);assert.match(html,/&lt;script&gt;/);
+ assert.match(html,/https:\/\/example.org\/source\?x=1&amp;y=2/);assert.doesNotMatch(html,/href="javascript:/);assert.doesNotMatch(html,/終年紀年依據/);
+ const second={...p.titles[0],effective_period:{start:{normalized_date:{original_quote:'另一授侯原語',references:[{title:'另一本來源',quote:'另一紀年引句',url:'https://example.org/other'}]}}}};
+ const both=personCard({...p,titles:[p.titles[0],second]},true);assert.match(both,/九年四月/);assert.match(both,/另一紀年引句/);
+ assert.doesNotMatch(personCard(p),/始年紀年依據/);
+ assert.doesNotMatch(personCard({id:p.id,label:p.label,titles:[{title:'宣平侯',evidence:[]}]},true),/紀年依據/);
+});
+test('a dated approximate age identifies the reporting period without inventing lifespan',()=>{
+ const p={id:'abc_def_123',label:'趙午',age_assertions:[{person_id:'abc_def_123',value:null,source_term:'年六十餘',date_expression:'漢七年',normalized_date:{era:'BCE',era_year:200},evidence:[]}]};
+ const html=personCard(p,true);
+ assert.match(html,/年六十餘/);assert.match(html,/漢七年/);assert.match(html,/西元前200年/);assert.match(html,/報齡時/);
+ assert.doesNotMatch(html,/<dt>生<\/dt>|<dt>卒<\/dt>|60 歲|享年/);
+ const unknown=personCard({...p,age_assertions:[{...p.age_assertions[0],date_expression:null,normalized_date:null}]},true);
+ assert.doesNotMatch(unknown,/報齡時|西元|未定/);
+});
