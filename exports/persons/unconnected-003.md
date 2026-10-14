@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ub6_g9c_hvb` | 搖 | [《史記・東越列傳》][96] | [JSON](ub6_g9c_hvb.json) |
-| `ubd_p3l_sji` | 代王 | [《史記・日者列傳》][109] | [JSON](ubd_p3l_sji.json) |
-| `ubm_x3q_md8` | 王翦 | [《史記・太史公自序》][112] | [JSON](ubm_x3q_md8.json) |
-| `ubr_cow_lxx` | 申豐（內昭公議事） | [《史記・魯周公世家》][15] | [JSON](ubr_cow_lxx.json) |
 | `ubt_idy_jr8` | 公劉 | [《史記・周本紀》][4] | [JSON](ubt_idy_jr8.json) |
 | `uc1_bkc_qho` | 雷被 | [《史記・淮南衡山列傳》][100] | [JSON](uc1_bkc_qho.json) |
 | `uc6_slu_fup` | 蘇秦嫂 | [《史記・蘇秦列傳》][51] | [JSON](uc6_slu_fup.json) |
@@ -494,7 +490,6 @@
 | `xox_3lp_sy3` | 祝懽 | [《史記・商君列傳》][50] | [JSON](xox_3lp_sy3.json) |
 | `xp2_dxz_zcn` | 馮敬 | [《史記・屈原賈生列傳》][66] | [JSON](xp2_dxz_zcn.json) |
 | `xp5_39k_w5w` | 郢 | [《史記・東越列傳》][96] | [JSON](xp5_39k_w5w.json) |
-| `xp8_oo8_cjo` | 大夫種（引古） | [《史記・淮陰侯列傳》][74] | [JSON](xp8_oo8_cjo.json) |
 | `xp9_lok_hz4` | 霍去病 | [《史記・佞幸列傳》][107] | [JSON](xp9_lok_hz4.json) |
 | `xpc_di7_68r` | 魏敬 | [《史記・孝文本紀》][10]、[《史記・淮南衡山列傳》][100] | [JSON](xpc_di7_68r.json) |
 | `xpw_io6_vl8` | 黃帝 | [《史記・日者列傳》][109] | [JSON](xpw_io6_vl8.json) |
@@ -569,7 +564,6 @@
 | `y4s_39i_5t3` | 賀 | [《史記・三王世家》][42] | [JSON](y4s_39i_5t3.json) |
 | `y56_c4g_fbf` | 髙昭子 | [《史記・田敬仲完世家》][28] | [JSON](y56_c4g_fbf.json) |
 | `y5g_euj_1xr` | 季文子（魯卿） | [《史記・魯周公世家》][15] | [JSON](y5g_euj_1xr.json) |
-| `y5m_als_o73` | 范蠡（引古） | [《史記・淮陰侯列傳》][74] | [JSON](y5m_als_o73.json) |
 | `y5r_0fi_saz` | 蕭（蕭曹用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](y5r_0fi_saz.json) |
 | `y63_hvf_l13` | 宋湣公 | [《史記・鄭世家》][24] | [JSON](y63_hvf_l13.json) |
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][91] | [JSON](y6f_9v5_dqg.json) |
