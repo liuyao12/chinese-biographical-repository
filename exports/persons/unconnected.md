@@ -658,7 +658,6 @@
 | `4gn_hir_vrl` | 秦王（魏世家增質秦未名者） | [《史記・魏世家》][26] | [JSON](4gn_hir_vrl.json) |
 | `4gs_22r_d9a` | 王恢 | [《史記・西南夷列傳》][98] | [JSON](4gs_22r_d9a.json) |
 | `4gs_evl_a1u` | 秦司馬夷 | [《史記・曹相國世家》][36] | [JSON](4gs_evl_a1u.json) |
-| `4hf_tdv_ju8` | 夏說 | [《史記・淮陰侯列傳》][74] | [JSON](4hf_tdv_ju8.json) |
 | `4i4_lmr_aap` | 秦王義渠事件 | [《史記・張儀列傳》][52] | [JSON](4i4_lmr_aap.json) |
 | `4i4_ywy_p53` | 梁繇靡（韓原御者） | [《史記・晉世家》][21] | [JSON](4i4_ywy_p53.json) |
 | `4ic_qbn_lc9` | 韓昭侯 | [《史記・老子韓非列傳》][45] | [JSON](4ic_qbn_lc9.json) |
@@ -882,7 +881,7 @@
 | `631_4pw_giq` | 示瞇明（救趙盾者） | [《史記・晉世家》][21] | [JSON](631_4pw_giq.json) |
 | `631_ags_hxe` | 鯁 | [《史記・韓世家》][27] | [JSON](631_ags_hxe.json) |
 | `631_j7q_04t` | 天子 | [《史記・商君列傳》][50] | [JSON](631_j7q_04t.json) |
-| `632_664_al2` | 夏說 | [《史記・曹相國世家》][36] | [JSON](632_664_al2.json) |
+| `632_664_al2` | 夏說 | [《史記・淮陰侯列傳》][74] | [JSON](632_664_al2.json) |
 | `639_jt7_ns0` | 周蘭 | [《史記・高祖本紀》][8] | [JSON](639_jt7_ns0.json) |
 | `63o_61u_6tf` | 項冠 | [《史記・傅靳蒯成列傳》][80] | [JSON](63o_61u_6tf.json) |
 | `63o_tsj_qtc` | 泄鈞 | [《史記・趙世家》][25] | [JSON](63o_tsj_qtc.json) |
@@ -2230,6 +2229,7 @@
 | `f30_vxh_z7o` | 隨何 | [《史記・留侯世家》][37] | [JSON](f30_vxh_z7o.json) |
 | `f32_hqy_au7` | 偃（陳哀公子） | [《史記・陳杞世家》][18] | [JSON](f32_hqy_au7.json) |
 | `f3g_9nj_1ae` | 田常引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](f3g_9nj_1ae.json) |
+| `f3g_x6y_1iy` | 平王 | [《史記・周本紀》][4] | [JSON](f3g_x6y_1iy.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

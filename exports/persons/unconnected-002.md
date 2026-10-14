@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f3g_x6y_1iy` | 平王 | [《史記・周本紀》][4] | [JSON](f3g_x6y_1iy.json) |
 | `f3j_nl2_i2g` | 蚡（皇太后弟） | [《史記・孝景本紀》][11]、[《史記・孝武本紀》][12] | [JSON](f3j_nl2_i2g.json) |
 | `f3m_wd5_jgy` | 育 | [《史記・汲鄭列傳》][102] | [JSON](f3m_wd5_jgy.json) |
 | `f3s_h05_04d` | 惠公適夫人（未名） | [《史記・魯周公世家》][15] | [JSON](f3s_h05_04d.json) |
@@ -2238,6 +2237,7 @@
 | `ucr_vn0_wb1` | 比車耆（王號暫解） | [《史記・衛將軍驃騎列傳》][93] | [JSON](ucr_vn0_wb1.json) |
 | `ud7_fy7_6vl` | 墨翟 | [《史記・孟子荀卿列傳》][56] | [JSON](ud7_fy7_6vl.json) |
 | `udd_rob_10e` | 亳王 | [《史記・秦本紀》][5] | [JSON](udd_rob_10e.json) |
+| `udi_l0u_sbn` | 衛后 | [《史記・滑稽列傳》][108] | [JSON](udi_l0u_sbn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
