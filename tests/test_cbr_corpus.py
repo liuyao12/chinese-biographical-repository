@@ -981,4 +981,14 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/105-assertions.json',mutate)
         self.assertTrue(any('排行序列範圍未知' in e for e in v.validate(self.root)))
 
+    def test_named_age_subset_cannot_drop_unknown_members(self):
+        self.change('corpus/shiji/089.json', lambda d: d['annotation']['age_assertions'][0]['group_reference'].update(additional_members_unknown=False))
+        self.assertIn('群體報齡具名範圍或未名成員不符', v.validate(self.root))
+    def test_named_age_subset_cannot_add_another_person(self):
+        self.change('corpus/shiji/089.json', lambda d: d['annotation']['age_assertions'][0]['group_reference']['person_ids'].__setitem__(1,'agx_sqm_4ou_A'))
+        self.assertIn('群體報齡具名名單未見於引句', v.validate(self.root))
+    def test_named_age_subset_cannot_invent_upper_age(self):
+        self.change('corpus/shiji/089.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(upper=69))
+        self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

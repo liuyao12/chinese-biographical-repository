@@ -928,20 +928,31 @@ def validate(root=ROOT):
                     if group is not None:
                         check(age.get('value') is None and parsed is not None and isinstance(bounds, dict)
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
-                              and age.get('source_term') == '年皆' + str(number) + '有餘', '來源年齡界限與有餘原詞不符')
-                        check(isinstance(group, dict) and set(group) == {'source_term', 'naming_term', 'person_ids'}
-                              and group.get('source_term') == '四人從太子'
-                              and isinstance(group.get('person_ids'), list) and len(group['person_ids']) == 4
-                              and len(set(group['person_ids'])) == 4 and age['person_id'] in group['person_ids'],
-                              '群體報齡須有四人具名範圍與本人')
+                              and age.get('source_term') in ('年皆' + str(number) + '有餘', '年' + str(number) + '餘'), '來源年齡界限與有餘原詞不符')
+                        keys = set(group) if isinstance(group, dict) else set()
+                        ids = group.get('person_ids') if isinstance(group, dict) else None
+                        members = ids if isinstance(ids, list) else []
+                        complete_four = (keys == {'source_term', 'naming_term', 'person_ids'}
+                                         and group.get('source_term') == '四人從太子' and len(members) == 4)
+                        named_subset = (keys == {'source_term', 'naming_term', 'person_ids', 'additional_members_unknown'}
+                                        and group.get('additional_members_unknown') is True
+                                        and isinstance(group.get('source_term'), str) and group['source_term'].endswith('等')
+                                        and isinstance(group.get('naming_term'), str) and bool(group['naming_term'])
+                                        and group['naming_term'] in group['source_term'])
+                        check((complete_four or named_subset) and bool(members)
+                              and all(isinstance(i, str) for i in members)
+                              and len(set(members)) == len(members) and age['person_id'] in members,
+                              '群體報齡具名範圍或未名成員不符')
                         for evidence in age.get('evidence', []):
                             hit = paragraphs.get(evidence.get('paragraph_id'))
                             if isinstance(group, dict) and hit:
+                                phrase = group.get('naming_term')
+                                starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(phrase, i)] if isinstance(phrase, str) and phrase else []
                                 named = {m['person_id'] for m in hit[1]['mentions'] if m['kind'] == 'person'
-                                         and m['surface'] in group.get('naming_term', '')
-                                         and group.get('naming_term', '') in evidence.get('quote', '')}
-                                check(bool(group.get('naming_term')) and group.get('source_term', '') in evidence.get('quote', '')
-                                      and named == set(group.get('person_ids', [])), '群體報齡具名名單未見於引句')
+                                         and any(i <= m['start'] and m['end'] <= i + len(phrase) for i in starts)}
+                                check(isinstance(phrase, str) and bool(phrase) and phrase in evidence.get('quote', '')
+                                      and isinstance(group.get('source_term'), str) and group['source_term'] in evidence.get('quote', '')
+                                      and named == {i for i in members if isinstance(i, str)}, '群體報齡具名名單未見於引句')
                     else:
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
