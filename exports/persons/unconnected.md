@@ -497,7 +497,6 @@
 | `3f0_m1h_7ah` | 鄭厲公 | [《史記・周本紀》][4] | [JSON](3f0_m1h_7ah.json) |
 | `3f2_lz0_sod` | 王吉 | [《史記・司馬相如列傳》][99] | [JSON](3f2_lz0_sod.json) |
 | `3fc_m3h_rbp` | 段干木 | [《史記・儒林列傳》][103] | [JSON](3fc_m3h_rbp.json) |
-| `3fo_o8y_1nx` | 王離 | [《史記・張耳陳餘列傳》][71] | [JSON](3fo_o8y_1nx.json) |
 | `3gd_6f0_cnf` | 秦信 | [《史記・扁鵲倉公列傳》][87] | [JSON](3gd_6f0_cnf.json) |
 | `3gd_w8i_skr` | 申侯（孝王時） | [《史記・秦本紀》][5] | [JSON](3gd_w8i_skr.json) |
 | `3gm_vdd_51h` | 呂祿女 | [《史記・外戚世家》][31] | [JSON](3gm_vdd_51h.json) |
@@ -2231,6 +2230,7 @@
 | `esk_795_o9g` | 田豹 | [《史記・齊太公世家》][14] | [JSON](esk_795_o9g.json) |
 | `esn_e4u_x5x` | 孫良夫（衛救魯記事） | [《史記・衛康叔世家》][19] | [JSON](esn_e4u_x5x.json) |
 | `esn_fxf_cpj` | 孔忠 | [《史記・仲尼弟子列傳》][49] | [JSON](esn_fxf_cpj.json) |
+| `esz_z17_u3u` | 子之 | [《史記・樂毅列傳》][62] | [JSON](esz_z17_u3u.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

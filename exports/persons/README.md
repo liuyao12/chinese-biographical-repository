@@ -2720,7 +2720,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 太公（漢王父稱） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p.json) |
-| `A` | 沛公（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p_A.json) |
+| `A` | 高祖 | [《史記・高祖本紀》][8] | [JSON](yqp_nlb_p1p_A.json) |
 | `A*A` | 淮南王安 | [《史記・魏其武安侯列傳》][89] | [JSON](yqp_nlb_p1p_A%2AA.json) |
 | `AA` | 孝惠（本卷稱呼） | [《史記・呂太后本紀》][9] | [JSON](yqp_nlb_p1p_AA.json) |
 | `AB` | 劉肥 | [《史記・齊悼惠王世家》][34] | [JSON](yqp_nlb_p1p_AB.json) |
