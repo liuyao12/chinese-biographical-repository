@@ -77,12 +77,18 @@ def export(root=ROOT):
             label += '（來源候選；預設不接父系）'
         return label
     source_map, assemblies = load_assemblies(root, catalog)
+    assembled_children = {}
+    for member in assemblies.values():
+        if member.get('parent_person_id') and member.get('parent_connection'):
+            assembled_children.setdefault(member['parent_person_id'], []).append(member)
     rows = []
     for pid, person in sorted(catalog[0].items()):
         result = bundle(pid, root=root, include_provisional=True, catalog=catalog)
         assembly = source_map.get(pid)
         if assembly:
             result['assembled_identity'] = assembly
+        if pid in assembled_children:
+            result['assembled_children'] = assembled_children[pid]
         filename = pid + '.json'
         (destination / filename).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
         if assembly and pid != assembly['representative_source_person_id']:
@@ -110,6 +116,9 @@ def export(root=ROOT):
         result['requested_person_id'] = alias
         if source_id in source_map:
             result['assembled_identity'] = source_map[source_id]
+        parent_id = source_map.get(source_id, {}).get('person_id', source_id)
+        if parent_id in assembled_children:
+            result['assembled_children'] = assembled_children[parent_id]
         (destination / (alias + '.json')).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
     expected_ids = set(catalog[0]) | set(assemblies) | set(aliases)
     for path in destination.glob('*.json'):

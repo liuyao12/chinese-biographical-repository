@@ -66,6 +66,10 @@ def build(root=ROOT):
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
+        if b.get('assembled_identity'):
+            profile['assembled_identity'] = b['assembled_identity']
+        if b.get('assembled_children'):
+            profile['assembled_children'] = b['assembled_children']
         profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])

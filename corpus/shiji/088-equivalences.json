@@ -6,9 +6,9 @@
     {
       "id": "eq-shiji088-meng",
       "person_ids": [
-        "yad_hp5_rax"
+        "k2p_5ol_dwh_AA"
       ],
-      "canonical_person_id": "yad_hp5_rax",
+      "canonical_person_id": "k2p_5ol_dwh_AA",
       "scope": "cross_chapter",
       "chapter_ids": [
         "c-shiji-006-shihuang",
@@ -482,6 +482,463 @@
         }
       ],
       "rationale": "秦末子嬰人物與政變後敘事相配；本篇僅記進諫，不把他篇世系或在位時段補入此段。 各篇原字、原文與已發ID保留，同書不視為獨立見證；同指不確證所有紀年、任職、親屬或敘事，不按全域同名批量改號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-zhaoqian",
+      "person_ids": [
+        "q6w_qm5_w2b_AA"
+      ],
+      "canonical_person_id": "q6w_qm5_w2b_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p026",
+          "quote": "趙王遷七年，秦使王翦攻趙，趙使李牧、司馬尚禦之。秦多與趙王寵臣郭開金，爲反間，言李牧、司馬尚欲反。趙王乃使趙蔥及齊將顏聚代李牧。李牧不受命，趙使人微捕得李牧，斬之。廢司馬尚。後三月，王翦因急撃趙，大破殺趙蔥，虜趙王遷及其將顏聚，遂滅趙。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m026-0000",
+            "c-shiji-081-lianlin:m026-0027",
+            "c-shiji-081-lianlin:m026-0049",
+            "c-shiji-081-lianlin:m026-0105"
+          ]
+        }
+      ],
+      "rationale": "趙王遷殺李牧而以顏聚代之、秦滅趙的特定君臣配置相配。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-limu",
+      "person_ids": [
+        "hph_y6n_3zb"
+      ],
+      "canonical_person_id": "hph_y6n_3zb",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0017"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p026",
+          "quote": "趙王遷七年，秦使王翦攻趙，趙使李牧、司馬尚禦之。秦多與趙王寵臣郭開金，爲反間，言李牧、司馬尚欲反。趙王乃使趙蔥及齊將顏聚代李牧。李牧不受命，趙使人微捕得李牧，斬之。廢司馬尚。後三月，王翦因急撃趙，大破殺趙蔥，虜趙王遷及其將顏聚，遂滅趙。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m026-0015",
+            "c-shiji-081-lianlin:m026-0040",
+            "c-shiji-081-lianlin:m026-0061",
+            "c-shiji-081-lianlin:m026-0064",
+            "c-shiji-081-lianlin:m026-0076"
+          ]
+        }
+      ],
+      "rationale": "趙王遷、被殺良臣李牧與代將顏聚共同事件支持同人。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-yanju",
+      "person_ids": [
+        "yja_c73_i8o"
+      ],
+      "canonical_person_id": "yja_c73_i8o",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-081-lianlin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0021"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-081-lianlin",
+          "source_id": "s-shiji-081-lianlin",
+          "paragraph_id": "c-shiji-081-lianlin:p026",
+          "quote": "趙王遷七年，秦使王翦攻趙，趙使李牧、司馬尚禦之。秦多與趙王寵臣郭開金，爲反間，言李牧、司馬尚欲反。趙王乃使趙蔥及齊將顏聚代李牧。李牧不受命，趙使人微捕得李牧，斬之。廢司馬尚。後三月，王翦因急撃趙，大破殺趙蔥，虜趙王遷及其將顏聚，遂滅趙。",
+          "mention_ids": [
+            "c-shiji-081-lianlin:m026-0056",
+            "c-shiji-081-lianlin:m026-0111"
+          ]
+        }
+      ],
+      "rationale": "本傳齊將顏聚代李牧，與子嬰引趙遷用顏聚的角色一致；齊將出身不改作秦將。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-yanxi",
+      "person_ids": [
+        "lt4_hpv_4ku_AA"
+      ],
+      "canonical_person_id": "lt4_hpv_4ku_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-034-yan",
+        "c-shiji-086-cike"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0024"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p031",
+          "quote": "今王喜四年，秦昭王卒。燕王命相栗腹約歡趙，以五百金爲趙王酒。還報燕王曰：「趙王壯者皆死長平，其孤未壯，可伐也。」王召昌國君樂閒問之。對曰：「趙四戰之國，其民習兵，不可伐。」王曰：「吾以五而伐一。」對曰：「不可。」燕王怒，群臣皆以爲可。卒起二軍，車二千乘，栗腹將而攻鄗，卿秦攻代。唯獨大夫將渠謂燕王曰：「與人通關約交，以五百金飲人之王，使者報而反攻之，不祥，兵無成功。」燕王不聽，自將偏軍隨之。將渠引燕王綬止之曰：「王必無自往，往無成功。」王蹵之以足。將渠泣曰：「臣非以自爲，爲王也！」燕軍至宋子，趙使廉頗將，撃破栗腹於鄗。［樂乘］破卿秦（樂乘）於代。樂閒奔趙。廉頗逐之五百餘里，圍其國。燕人請和，趙人不許，必令將渠處和。燕相將渠以處和。趙聽將渠，解燕圍。",
+          "mention_ids": [
+            "c-shiji-034-yan:m031-0000",
+            "c-shiji-034-yan:m031-0011",
+            "c-shiji-034-yan:m031-0032",
+            "c-shiji-034-yan:m031-0056",
+            "c-shiji-034-yan:m031-0086",
+            "c-shiji-034-yan:m031-0106",
+            "c-shiji-034-yan:m031-0146",
+            "c-shiji-034-yan:m031-0184",
+            "c-shiji-034-yan:m031-0199",
+            "c-shiji-034-yan:m031-0219"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。",
+          "mention_ids": [
+            "c-shiji-086-cike:m035-0028",
+            "c-shiji-086-cike:m035-0053",
+            "c-shiji-086-cike:m035-0062",
+            "c-shiji-086-cike:m035-0085",
+            "c-shiji-086-cike:m035-0122",
+            "c-shiji-086-cike:m035-0154"
+          ]
+        }
+      ],
+      "rationale": "秦滅燕前燕王喜及荊軻刺秦後果的特定王名、時局相配；子嬰把陰謀歸王，不抹去其他篇太子丹主謀的記載。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-jingke",
+      "person_ids": [
+        "b83_37f_n0v"
+      ],
+      "canonical_person_id": "b83_37f_n0v",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-086-cike",
+        "c-shiji-034-yan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0029"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p021",
+          "quote": "荊軻者，衞人也。其先乃齊人，徙於衞，衞人謂之慶卿。而之燕，燕人謂之荊卿。",
+          "mention_ids": [
+            "c-shiji-086-cike:m021-0000",
+            "c-shiji-086-cike:m021-0022",
+            "c-shiji-086-cike:m021-0033"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p033",
+          "quote": "燕見秦且滅六國，秦兵臨易水，禍且至燕。太子丹陰養壯士二十人，使荊軻獻督亢地圖於秦，因襲刺秦王。秦王覺，殺軻，使將軍王翦撃燕。二十九年，秦攻拔我薊，燕王亡，徙居遼東，斬丹以獻秦。三十年，秦滅魏。",
+          "mention_ids": [
+            "c-shiji-034-yan:m033-0031",
+            "c-shiji-034-yan:m033-0052"
+          ]
+        }
+      ],
+      "rationale": "燕用荊軻刺秦的特定事件，對讀刺客本傳與燕世家；不由其先齊人改本人出生地。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-qijian",
+      "person_ids": [
+        "1h3_vs7_t8h_AA"
+      ],
+      "canonical_person_id": "1h3_vs7_t8h_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-046-tian"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0039"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p054",
+          "quote": "四十四年，秦兵撃齊。齊王聽相后勝計，不戰，以兵降秦。秦虜王建，遷之共。遂滅齊爲郡。天下壹并於秦，秦王政立號爲皇帝。始，君王后賢，事秦謹，與諸侯信，齊亦東邊海上，秦日夜攻三晉、燕、楚，五國各自救於秦，以故王建立四十餘年不受兵。君王后死，后勝相齊，多受秦閒金，多使賓客入秦，秦又多予金，客皆爲反閒，勸王去從朝秦，不修攻戰之備，不助五國攻秦，秦以故得滅五國。五國已亡，秦兵卒入臨淄，民莫敢格者。王建遂降，遷於共。故齊人怨王建不蚤與諸侯合從攻秦，聽姦臣賓客以亡其國，歌之曰：「松耶柏耶？住建共者客耶？」疾建用客之不詳也。",
+          "mention_ids": [
+            "c-shiji-046-tian:m054-0010",
+            "c-shiji-046-tian:m054-0028",
+            "c-shiji-046-tian:m054-0101",
+            "c-shiji-046-tian:m054-0194",
+            "c-shiji-046-tian:m054-0207"
+          ]
+        }
+      ],
+      "rationale": "齊王建聽后勝之議而亡齊的君臣與亡國事件一致；子嬰所說殺故世忠臣保留為該引語，未以本傳獨立證成。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-housheng",
+      "person_ids": [
+        "9oc_37g_jlc"
+      ],
+      "canonical_person_id": "9oc_37g_jlc",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-046-tian"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p008",
+          "quote": "子嬰進諫曰：「臣聞故趙王遷殺其良臣李牧而用顏聚，燕王喜陰用荊軻之謀而倍秦之約，齊王建殺其故世忠臣而用后勝之議。此三君者，皆各以變古者失其國而殃及其身。今蒙氏，秦之大臣謀士也，而主欲一旦棄去之，臣竊以為不可。臣聞輕慮者不可以治國，獨智者不可以存君。誅殺忠臣而立無節行之人，是內使群臣不相信而外使鬬士之意離也，臣竊以為不可。」",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m008-0050"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-046-tian",
+          "source_id": "s-shiji-046-tian",
+          "paragraph_id": "c-shiji-046-tian:p054",
+          "quote": "四十四年，秦兵撃齊。齊王聽相后勝計，不戰，以兵降秦。秦虜王建，遷之共。遂滅齊爲郡。天下壹并於秦，秦王政立號爲皇帝。始，君王后賢，事秦謹，與諸侯信，齊亦東邊海上，秦日夜攻三晉、燕、楚，五國各自救於秦，以故王建立四十餘年不受兵。君王后死，后勝相齊，多受秦閒金，多使賓客入秦，秦又多予金，客皆爲反閒，勸王去從朝秦，不修攻戰之備，不助五國攻秦，秦以故得滅五國。五國已亡，秦兵卒入臨淄，民莫敢格者。王建遂降，遷於共。故齊人怨王建不蚤與諸侯合從攻秦，聽姦臣賓客以亡其國，歌之曰：「松耶柏耶？住建共者客耶？」疾建用客之不詳也。",
+          "mention_ids": [
+            "c-shiji-046-tian:m054-0014",
+            "c-shiji-046-tian:m054-0117"
+          ]
+        }
+      ],
+      "rationale": "齊王建用后勝及后勝相齊受秦間金的具體君臣配置支持同人，不補未知姓名分拆。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-wangjian",
+      "person_ids": [
+        "gdj_k53_v1x"
+      ],
+      "canonical_person_id": "gdj_k53_v1x",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-073-baiwang",
+        "c-shiji-007-xiangyu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0147"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p012",
+          "quote": "王翦果代李信擊荊。荊聞王翦益軍而來，乃悉國中兵以拒秦。王翦至，堅壁而守之，不肯戰。荊兵數出挑戰，終不出。王翦日休士洗沐，而善飲食撫循之，親與士卒同食。久之，王翦使人問軍中戲乎？對曰：「方投石超距。」於是王翦曰：「士卒可用矣。」荊數挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m012-0000",
+            "c-shiji-073-baiwang:m012-0011",
+            "c-shiji-073-baiwang:m012-0027",
+            "c-shiji-073-baiwang:m012-0052",
+            "c-shiji-073-baiwang:m012-0078",
+            "c-shiji-073-baiwang:m012-0101",
+            "c-shiji-073-baiwang:m012-0127",
+            "c-shiji-073-baiwang:m012-0198"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p001",
+          "quote": "項籍者，下相人也，字羽。初起時，年二十四。其季父項梁，梁父即楚將項燕，為秦將王翦所戮者也。項氏世世為楚將，封於項，故姓項氏。",
+          "mention_ids": [
+            "c-shiji-007-xiangyu:m001-0038"
+          ]
+        }
+      ],
+      "rationale": "秦將王翦攻楚、項燕被殺及楚王被虜的軍事角色對讀，蒙武與王翦功責及敘事年月分存。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-xiangyan",
+      "person_ids": [
+        "5xt_rg8_7zs"
+      ],
+      "canonical_person_id": "5xt_rg8_7zs",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-073-baiwang",
+        "c-shiji-007-xiangyu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0157"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p012",
+          "quote": "王翦果代李信擊荊。荊聞王翦益軍而來，乃悉國中兵以拒秦。王翦至，堅壁而守之，不肯戰。荊兵數出挑戰，終不出。王翦日休士洗沐，而善飲食撫循之，親與士卒同食。久之，王翦使人問軍中戲乎？對曰：「方投石超距。」於是王翦曰：「士卒可用矣。」荊數挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m012-0150"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p001",
+          "quote": "項籍者，下相人也，字羽。初起時，年二十四。其季父項梁，梁父即楚將項燕，為秦將王翦所戮者也。項氏世世為楚將，封於項，故姓項氏。",
+          "mention_ids": [
+            "c-shiji-007-xiangyu:m001-0032"
+          ]
+        }
+      ],
+      "rationale": "蒙武與王翦攻楚所殺項燕，對讀王翦篇項燕被殺及項羽篇梁父楚將項燕為王翦所戮，接既有項氏根；不把項梁季父關係補成項羽父親。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji088-review-fuchu",
+      "person_ids": [
+        "wfm_qvc_ykk"
+      ],
+      "canonical_person_id": "wfm_qvc_ykk",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-088-mengtian",
+        "c-shiji-073-baiwang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0171"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p012",
+          "quote": "王翦果代李信擊荊。荊聞王翦益軍而來，乃悉國中兵以拒秦。王翦至，堅壁而守之，不肯戰。荊兵數出挑戰，終不出。王翦日休士洗沐，而善飲食撫循之，親與士卒同食。久之，王翦使人問軍中戲乎？對曰：「方投石超距。」於是王翦曰：「士卒可用矣。」荊數挑戰而秦不出，乃引而東。翦因舉兵追之，令壯士擊，大破荊軍。至蘄南，殺其將軍項燕，荊兵遂敗走。秦因乘勝略定荊地城邑。歲餘，虜荊王負芻，竟平荊地為郡縣。因南征百越之君。而王翦子王賁，與李信破定燕、齊地。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m012-0176"
+          ]
+        }
+      ],
+      "rationale": "王翦蒙武伐楚後虜楚王的事件，對讀王翦篇明名荊王負芻；原篇二十四年與歲餘敘述不校成同一句，不補虛構王位或死亡。 同書各篇不當獨立見證；子嬰、蒙毅等引述與敘述者所言分開，不由同人統一事蹟、罪責、死亡及軍事年月；原字原文不改，未核書影。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,

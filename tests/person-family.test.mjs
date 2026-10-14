@@ -42,3 +42,21 @@ test('non-birth maternal relations do not replace the birth mother or create bio
   const adopted=await traceFamily(people.adoptive,async id=>id==='child'?child:people[id]);
   assert.deepEqual(adopted.children,[]);
 });
+
+test('a separately attributed sibling assembly derives ancestors and reverse children without inventing source father', async () => {
+ const connection={type:'shared_father_through_sibling',status:'contextual_provisional',rationale:'synthetic inference',references:[{quote:'synthetic sibling and father evidence'}]};
+ const row={person_id:'yi',parent_person_id:'wu',assembly_id:'synthetic-family',status:'editorial_preferred',parent_connection:connection};
+ const people={yi:{id:'yi',assembled_identity:row,relations:[relation('tian','brother','yi')]},wu:{id:'wu',relations:[relation('wu','father','ao')],assembled_children:[row]},ao:{id:'ao'}};
+ const family=await traceFamily(people.yi,async id=>people[id]);
+ assert.deepEqual(family.ancestors.map(r=>r.map(x=>x.id)),[['wu'],['ao'],[]]);
+ assert.equal(family.ancestors[0][0].role,'assembly_inferred');
+ assert.equal(family.ancestors[0][0].inference_note,'synthetic inference');
+ assert.equal(people.yi.relations.some(r=>r.predicate==='father'),false);
+ const parent=await traceFamily(people.wu,async id=>people[id]);
+ assert.deepEqual(parent.children.map(x=>x.id),['yi']);
+ assert.equal(parent.children[0].role,'assembly_inferred');
+ const unaccepted=await traceFamily({...people.yi,assembled_identity:{...row,status:'unresolved'}},async id=>people[id]);
+ assert.deepEqual(unaccepted.ancestors,[[],[],[]]);
+ const wrong=await traceFamily({...people.yi,assembled_identity:{...row,person_id:'other'}},async id=>people[id]);
+ assert.deepEqual(wrong.ancestors,[[],[],[]]);
+});

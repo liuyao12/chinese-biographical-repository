@@ -99,3 +99,9 @@ test('a dated death shows its available year without an absent birth or Chinese 
   assert.doesNotMatch(html,/<dt>(生|年齡)<\/dt>|原文未明紀年/);
  }
 });
+
+test('inferred family edges are visibly provisional and their explanation is escaped',()=>{
+ const family={ancestors:[[{id:'father',label:'synthetic father',role:'assembly_inferred',inference_note:'<script>bad</script>',evidence:[]}],[],[]],mother:[],spouses:[],children:[]};
+ const html=personCard({id:'child',label:'synthetic child'},true,'main',family);
+ assert.match(html,/父系暫定/);assert.match(html,/&lt;script&gt;bad&lt;\/script&gt;/);assert.doesNotMatch(html,/<script>/);
+});

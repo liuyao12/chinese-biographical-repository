@@ -11,14 +11,14 @@ class LisiEvidenceTests(unittest.TestCase):
 
     def test_mengyi_identity_preserves_conflicting_narratives(self):
         decision = next(d for d in self.read('equivalences', 'decisions') if d['id'] == 'eq-shiji087-mengyi')
-        self.assertEqual(decision['person_ids'], ['dxo_6ig_5eg'])
+        self.assertEqual(decision['person_ids'], ['k2p_5ol_dwh_AB'])
         self.assertTrue(decision['identity_materialized'])
         self.assertFalse(decision['human_reviewed'])
         quotes = {e['paragraph_id']: e['quote'] for e in decision['evidence']}
         self.assertIn('且蒙恬已死，蒙毅將兵居外', quotes['c-shiji-087-lisi:p019'])
         self.assertIn('遂殺之', quotes['c-shiji-088-mengtian:p009'])
         self.assertIn('乃吞藥自殺', quotes['c-shiji-088-mengtian:p010'])
-        event = next(e for e in self.read('life-events', 'events') if e['person_id'] == 'dxo_6ig_5eg')
+        event = next(e for e in self.read('life-events', 'events') if e['person_id'] == 'k2p_5ol_dwh_AB')
         self.assertIn('殺大臣蒙毅等', event['source_term'])
         self.assertNotIn('normalized_date', event)
         self.assertIn('死亡次序', decision['rationale'])
@@ -81,7 +81,7 @@ class LisiEvidenceTests(unittest.TestCase):
 
     def test_custody_and_requested_burial_do_not_become_death(self):
         events = self.read('life-events', 'events')
-        self.assertFalse(any(e['person_id'] == 'yad_hp5_rax' and e['evidence'][0]['paragraph_id'].endswith(':p017') for e in events))
+        self.assertFalse(any(e['person_id'] == 'k2p_5ol_dwh_AA' and e['evidence'][0]['paragraph_id'].endswith(':p017') for e in events))
         self.assertFalse(any(e['person_id'] == '172_ij7_8yf' for e in events))
         child = next(e for e in events if e['person_id'] == '49g_7az_e4i_B')
         self.assertNotIn('normalized_date', child)
