@@ -9,6 +9,20 @@ class LisiEvidenceTests(unittest.TestCase):
     def read(self, suffix, key):
         return json.loads((ROOT / ('corpus/shiji/087-' + suffix + '.json')).read_text())[key]
 
+    def test_mengyi_identity_preserves_conflicting_narratives(self):
+        decision = next(d for d in self.read('equivalences', 'decisions') if d['id'] == 'eq-shiji087-mengyi')
+        self.assertEqual(decision['person_ids'], ['dxo_6ig_5eg'])
+        self.assertTrue(decision['identity_materialized'])
+        self.assertFalse(decision['human_reviewed'])
+        quotes = {e['paragraph_id']: e['quote'] for e in decision['evidence']}
+        self.assertIn('且蒙恬已死，蒙毅將兵居外', quotes['c-shiji-087-lisi:p019'])
+        self.assertIn('遂殺之', quotes['c-shiji-088-mengtian:p009'])
+        self.assertIn('乃吞藥自殺', quotes['c-shiji-088-mengtian:p010'])
+        event = next(e for e in self.read('life-events', 'events') if e['person_id'] == 'dxo_6ig_5eg')
+        self.assertIn('殺大臣蒙毅等', event['source_term'])
+        self.assertNotIn('normalized_date', event)
+        self.assertIn('死亡次序', decision['rationale'])
+
     def test_qin_king_scopes_distinguish_departure_from_successor(self):
         chapter = json.loads((ROOT / 'corpus/shiji/087.json').read_text())
         paragraphs = {p['id'].rsplit(':', 1)[1]: p for p in chapter['paragraphs']}
