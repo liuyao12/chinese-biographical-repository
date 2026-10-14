@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][26] | [JSON](tl9_dsb_r6q.json) |
 | `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][30] | [JSON](tlk_hmr_kra.json) |
 | `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][21] | [JSON](tlo_jrj_80q.json) |
 | `tlt_5h1_n6y` | 太丁（湯子） | [《史記・殷本紀》][3] | [JSON](tlt_5h1_n6y.json) |

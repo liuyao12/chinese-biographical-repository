@@ -1638,7 +1638,6 @@
 | `aua_4v4_axs` | 晉靈公 | [《史記・韓世家》][27] | [JSON](aua_4v4_axs.json) |
 | `auy_ue1_w17` | 齊宣王 | [《史記・孟子荀卿列傳》][56] | [JSON](auy_ue1_w17.json) |
 | `av9_5kt_rys` | 孝景帝 | [《史記・酷吏列傳》][104] | [JSON](av9_5kt_rys.json) |
-| `avz_fhq_79h` | 齊王馮驩復孟未定 | [《史記・孟嘗君列傳》][57] | [JSON](avz_fhq_79h.json) |
 | `aw2_i0z_agt` | 公戶滿意 | [《史記・儒林列傳》][103] | [JSON](aw2_i0z_agt.json) |
 | `awg_p4y_84n` | 紀侯（譖齊哀公者） | [《史記・齊太公世家》][14] | [JSON](awg_p4y_84n.json) |
 | `awq_cww_3iz` | 嚭 | [《史記・孔子世家》][29] | [JSON](awq_cww_3iz.json) |
@@ -2231,6 +2230,7 @@
 | `eqd_qrh_r6x` | 義帝未詳名 | [《史記・酈生陸賈列傳》][79] | [JSON](eqd_qrh_r6x.json) |
 | `eqh_hzf_78x` | 江充 | [《史記・五宗世家》][41] | [JSON](eqh_hzf_78x.json) |
 | `eqp_oer_tei` | 晉孝侯（楚篇曲沃記事） | [《史記・楚世家》][22] | [JSON](eqp_oer_tei.json) |
+| `eqw_b2i_pp0` | 莊生 | [《史記・越王勾踐世家》][23] | [JSON](eqw_b2i_pp0.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

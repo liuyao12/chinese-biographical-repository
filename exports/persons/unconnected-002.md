@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eqw_b2i_pp0` | 莊生 | [《史記・越王勾踐世家》][23] | [JSON](eqw_b2i_pp0.json) |
 | `eqw_jou_32v` | 逢侯丑（楚裨將軍） | [《史記・楚世家》][22] | [JSON](eqw_jou_32v.json) |
 | `er5_u4u_i79` | 紀翁主 | [《史記・齊悼惠王世家》][34] | [JSON](er5_u4u_i79.json) |
 | `es4_a59_527` | 熊亶（楚先祖） | [《史記・楚世家》][22] | [JSON](es4_a59_527.json) |
@@ -2240,6 +2239,7 @@
 | `tk5_g6e_rh8` | 淮南王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](tk5_g6e_rh8.json) |
 | `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][15] | [JSON](tke_fad_hlp.json) |
 | `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][78] | [JSON](tks_56f_4ir.json) |
+| `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][26] | [JSON](tl9_dsb_r6q.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
