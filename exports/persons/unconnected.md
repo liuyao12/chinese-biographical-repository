@@ -829,7 +829,6 @@
 | `5k7_otk_r9v` | 盤庚 | [《史記・殷本紀》][3] | [JSON](5k7_otk_r9v.json) |
 | `5k8_ms4_y3k` | 淮陰侯未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](5k8_ms4_y3k.json) |
 | `5kc_wmn_zbj` | 孫臏 | [《史記・陳涉世家》][30] | [JSON](5kc_wmn_zbj.json) |
-| `5kt_ucd_fbz` | 韓信 | [《史記・張耳陳餘列傳》][71] | [JSON](5kt_ucd_fbz.json) |
 | `5kw_jr9_kzn` | 周天子伐梁 | [《史記・張儀列傳》][52] | [JSON](5kw_jr9_kzn.json) |
 | `5ky_x6i_539` | 晏嬰 | [《史記・田敬仲完世家》][28] | [JSON](5ky_x6i_539.json) |
 | `5l3_mwc_fj2` | 衛尉定 | [《史記・孝文本紀》][10] | [JSON](5l3_mwc_fj2.json) |
@@ -2231,6 +2230,7 @@
 | `ev7_bgb_mtr` | 魏相田文 | [《史記・孫子吳起列傳》][47] | [JSON](ev7_bgb_mtr.json) |
 | `evh_7zu_u3x` | 慎夫人 | [《史記・外戚世家》][31] | [JSON](evh_7zu_u3x.json) |
 | `evn_9i5_s69` | 萊侯（太公就國時未名） | [《史記・齊太公世家》][14] | [JSON](evn_9i5_s69.json) |
+| `evw_7hk_sqo` | 白圭 | [《史記・貨殖列傳》][111] | [JSON](evw_7hk_sqo.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
