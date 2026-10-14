@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][30] | [JSON](tlk_hmr_kra.json) |
-| `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][21] | [JSON](tlo_jrj_80q.json) |
-| `tlt_5h1_n6y` | 太丁（湯子） | [《史記・殷本紀》][3] | [JSON](tlt_5h1_n6y.json) |
-| `tmi_4aq_99e` | 襄公夫人王姬（宋弒昭記事） | [《史記・宋微子世家》][20] | [JSON](tmi_4aq_99e.json) |
 | `tmv_5d7_bx2` | 李息 | [《史記・衛將軍驃騎列傳》][93] | [JSON](tmv_5d7_bx2.json) |
 | `tmz_gaj_scc` | 馮王孫（趙世家論贊引述者） | [《史記・趙世家》][25] | [JSON](tmz_gaj_scc.json) |
 | `tmz_ye1_qq7` | 虞舜 | [《史記・司馬相如列傳》][99] | [JSON](tmz_ye1_qq7.json) |
@@ -805,7 +801,6 @@
 | `z00_soe_xo2` | 平都 | [《史記・趙世家》][25] | [JSON](z00_soe_xo2.json) |
 | `z06_jv1_mrf` | 樓煩王（匈奴列傳第31段未名） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](z06_jv1_mrf.json) |
 | `z0a_0yc_o18` | 即墨大夫未名 | [《史記・田單列傳》][64] | [JSON](z0a_0yc_o18.json) |
-| `z0a_bdl_gn5` | 秦王政 | [《史記・李斯列傳》][69] | [JSON](z0a_bdl_gn5.json) |
 | `z0c_6ka_3bd` | 長（皇子） | [《史記・張丞相列傳》][78] | [JSON](z0c_6ka_3bd.json) |
 | `z0v_ish_b9u` | 田光 | [《史記・刺客列傳》][68] | [JSON](z0v_ish_b9u.json) |
 | `z16_hit_u7t` | 魯夫人（襄公女弟） | [《史記・魯周公世家》][15] | [JSON](z16_hit_u7t.json) |

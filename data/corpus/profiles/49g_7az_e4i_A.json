@@ -56,7 +56,38 @@
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji087-004",
+      "person_id": "49g_7az_e4i_A",
+      "relation": "service_location",
+      "place": {
+        "source_name": "三川",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p011",
+          "quote": "斯長男由為三川守，諸男皆尚秦公主，女悉嫁秦諸公子。三川守李由告歸咸陽，李斯置酒於家，百官長皆前為壽，門廷車騎以千數。李斯喟然而歎曰：「嗟乎！吾聞之荀卿曰『物禁大盛』。夫斯乃上蔡布衣，閭巷之黔首，上不知其駑下，遂擢至此。當今人臣之位無居臣上者，可謂富貴極矣。物極則衰，吾未知所稅駕也！」",
+          "person_mention_id": "c-shiji-087-lisi:m011-0003"
+        }
+      ],
+      "source_term": "由為三川守",
+      "interpretation_note": "任守地，非籍貫或居所。 保存來源地稱，不定位現代行政區；未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_position": "三川守"
+      },
+      "term": "由為三川守",
+      "quote": "斯長男由為三川守，諸男皆尚秦公主，女悉嫁秦諸公子。三川守李由告歸咸陽，李斯置酒於家，百官長皆前為壽，門廷車騎以千數。李斯喟然而歎曰：「嗟乎！吾聞之荀卿曰『物禁大盛』。夫斯乃上蔡布衣，閭巷之黔首，上不知其駑下，遂擢至此。當今人臣之位無居臣上者，可謂富貴極矣。物極則衰，吾未知所稅駕也！」"
+    }
+  ],
   "occurrences": [
     {
       "number": 87,
@@ -150,7 +181,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji087-006",
+      "person_id": "49g_7az_e4i_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "則項梁已擊殺之",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p032",
+          "quote": "趙高使其客十餘輩詐為御史、謁者、侍中，更往覆訊斯。斯更以其實對，輒使人復榜之。後二世使人驗斯，斯以為如前，終不敢更言，辭服。奏當上，二世喜曰：「微趙君，幾為丞相所賣。」及二世所使案三川之守至，則項梁已擊殺之。使者來，會丞相下吏，趙高皆妄為反辭。",
+          "person_mention_id": "c-shiji-087-lisi:m032-0090"
+        }
+      ],
+      "interpretation_note": "保存本篇死亡原語及敘述範圍；來源所傳不等於史實已獨立確證，未核書影，未知日期不補，不由死亡終止全部官爵。三川之守依本篇前段李由任三川守的已記身份回指，不把章邯破逐吳廣軍作吳廣死亡。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

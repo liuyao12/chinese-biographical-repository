@@ -608,6 +608,56 @@
       "reviewer": "Codex（AI 代理）",
       "source_term": "立號爲皇帝",
       "period": "西元前221年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji087-010",
+      "person_id": "ao3_0fy_d45_AAA",
+      "title": "皇帝",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p009",
+          "quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji087-010:a001",
+          "paragraph_id": "c-shiji-087-lisi:p009",
+          "start": 38,
+          "end": 40,
+          "surface": "皇帝",
+          "person_mention_id": "c-shiji-087-lisi:m009-0000",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-087-lisi",
+              "source_id": "s-shiji-087-lisi",
+              "paragraph_id": "c-shiji-087-lisi:p009",
+              "quote": "秦王乃除逐客之令，復李斯官，卒用其計謀。官至廷尉。二十餘年，竟并天下，尊主為皇帝，以斯為丞相。夷郡縣城，銷其兵刃，示不復用。使秦無尺土之封，不立子弟為王，功臣為諸侯者，使後無戰攻之患。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實際授任、引古、追述與文獻用稱分存；未定日期、死亡、下獄與首次用稱不推定任期端點。假御史謁者侍中、擬任蒙恬相與擬裂地王不作實授。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -1769,6 +1819,33 @@
       "human_reviewed": false,
       "term": "觀秦皇帝",
       "quote": "高祖常繇咸陽，縱觀，觀秦皇帝，喟然太息曰：「嗟乎，大丈夫當如此也！」"
+    },
+    {
+      "id": "pa-shiji087-003",
+      "person_id": "ao3_0fy_d45_AAA",
+      "relation": "death_place",
+      "place": {
+        "source_name": "沙丘",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p013",
+          "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+          "person_mention_id": "c-shiji-087-lisi:m013-0005"
+        }
+      ],
+      "source_term": "始皇帝至沙丘",
+      "interpretation_note": "同段至沙丘、病甚及始皇崩的敘事，非埋葬地。 保存來源地稱，不定位現代行政區；未核影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "始皇帝至沙丘",
+      "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。"
     }
   ],
   "occurrences": [
@@ -1875,6 +1952,14 @@
       "paragraph_id": "c-shiji-086-cike:p026",
       "count": 37,
       "quote": "居頃之，會燕太子丹質秦亡歸燕。燕太子丹者，故嘗質於趙，而秦王政生於趙，其少時與丹驩。及政立爲秦王，而丹質於秦。秦王之遇燕太子丹不善，故丹怨而亡歸。歸而求爲報秦王者，國小，力不能。其後秦日出兵山東以伐齊、楚、三晉，稍蠶食諸侯，且至於燕，燕君臣皆恐禍之至。太子丹患之"
+    },
+    {
+      "number": 87,
+      "category": "liezhuan",
+      "title": "李斯列傳第二十七",
+      "paragraph_id": "c-shiji-087-lisi:p003",
+      "count": 27,
+      "quote": "，李斯乃求為秦相文信侯呂不韋舍人；不韋賢之，任以為郎。李斯因以得說，說秦王曰：「胥人者，去其幾也。成大功者，在因瑕釁而遂忍之。昔者秦穆公之霸，終不東并六國者，何也？諸侯尚眾，周德未衰，故五伯迭興，更尊周室。自秦孝公以來，周室卑微，諸侯相兼，關東為六國，秦之乘勝役諸侯，蓋六世"
     },
     {
       "number": 88,
@@ -2401,6 +2486,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-087-lisi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-087",
+      "source_id": "s-shiji-087-lisi",
+      "source": {
+        "title": "史記／卷087",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷087",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605",
+        "revision_id": 2364605,
+        "accessed_on": "2026-10-09",
+        "extent": "38個非空正文區塊含兩篇嵌入上書及太史公論，排除導覽、空段、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及空段；保留dd上書區塊，普通異體不擅校。",
+          "note": "全38個正文區塊與HTML篇界已核讀，未核底本影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-088-mengtian",
       "work_id": "w-shiji",
       "book_id": "b-shiji-088",
@@ -2682,6 +2791,48 @@
       },
       "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji087-002",
+      "subject_person_id": "ao3_0fy_d45_AAAB",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p012",
+          "quote": "始皇三十七年十月，行出游會稽，並海上，北抵琅邪。丞相斯、中車府令趙高兼行符璽令事，皆從。始皇有二十餘子，長子扶蘇以數直諫上，上使監兵上郡，蒙恬為將。少子胡亥愛，請從，上許之。餘子莫從。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子扶蘇",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示長男、長子、少子、中子及引古其父的來源主張。子嬰世系、其子指代、妻子群體與閻樂女婿關係尚待補證，不補未名母系或配偶。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji087-003",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p012",
+          "quote": "始皇三十七年十月，行出游會稽，並海上，北抵琅邪。丞相斯、中車府令趙高兼行符璽令事，皆從。始皇有二十餘子，長子扶蘇以數直諫上，上使監兵上郡，蒙恬為將。少子胡亥愛，請從，上許之。餘子莫從。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子胡亥",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示長男、長子、少子、中子及引古其父的來源主張。子嬰世系、其子指代、妻子群體與閻樂女婿關係尚待補證，不補未名母系或配偶。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -2760,6 +2911,56 @@
       "model": null,
       "record_id": "pa-shiji006-002",
       "person_id": "ao3_0fy_d45_AAA"
+    },
+    {
+      "era": "BCE",
+      "era_year": 210,
+      "year": -209,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p013",
+          "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+          "person_mention_id": "c-shiji-087-lisi:m013-0005"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·六國年表》原紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r267-c01"
+        },
+        {
+          "title": "《史記·六國年表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "quote": "210",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-015-r267-c00"
+        }
+      ],
+      "rationale": "以沙丘崩／誅丞相斯的平行事件及原紀年對讀；西元年採固定數位表編者對照，不作傳世原文或獨立史證，不換算日月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "始皇崩",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "reference_event_quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+        "reference_year_quote": "210"
+      },
+      "record_id": "le-shiji087-002",
+      "person_id": "ao3_0fy_d45_AAA",
+      "date_role": "life_event",
+      "event_type": "death"
     },
     {
       "era": "BCE",
@@ -3153,6 +3354,48 @@
       },
       "interpretation_note": "僅保存明示子母姊與婚配來源主張。子政父系先有身敘事待覆核，不新增確證父親；所母華陽與真母夏姬分存，仲父敬號不作父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji087-002",
+      "subject_person_id": "ao3_0fy_d45_AAAB",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p012",
+          "quote": "始皇三十七年十月，行出游會稽，並海上，北抵琅邪。丞相斯、中車府令趙高兼行符璽令事，皆從。始皇有二十餘子，長子扶蘇以數直諫上，上使監兵上郡，蒙恬為將。少子胡亥愛，請從，上許之。餘子莫從。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子扶蘇",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示長男、長子、少子、中子及引古其父的來源主張。子嬰世系、其子指代、妻子群體與閻樂女婿關係尚待補證，不補未名母系或配偶。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji087-003",
+      "subject_person_id": "ao3_0fy_d45_AAAA",
+      "predicate": "father",
+      "object_person_id": "ao3_0fy_d45_AAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p012",
+          "quote": "始皇三十七年十月，行出游會稽，並海上，北抵琅邪。丞相斯、中車府令趙高兼行符璽令事，皆從。始皇有二十餘子，長子扶蘇以數直諫上，上使監兵上郡，蒙恬為將。少子胡亥愛，請從，上許之。餘子莫從。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "少子胡亥",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存明示長男、長子、少子、中子及引古其父的來源主張。子嬰世系、其子指代、妻子群體與閻樂女婿關係尚待補證，不補未名母系或配偶。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "age_assertions": [],
@@ -3276,6 +3519,72 @@
       "interpretation_note": "賈生嵌入引文的死亡回述，與正文見證分存，不當不同死亡。二世戮殺是議論用詞，不覆寫正文自殺方式。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "le-shiji087-002",
+      "person_id": "ao3_0fy_d45_AAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "其年七月",
+      "source_term": "始皇崩",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-087-lisi",
+          "source_id": "s-shiji-087-lisi",
+          "paragraph_id": "c-shiji-087-lisi:p013",
+          "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+          "person_mention_id": "c-shiji-087-lisi:m013-0005"
+        }
+      ],
+      "interpretation_note": "保存本篇死亡原語及敘述範圍；來源所傳不等於史實已獨立確證，未核書影，未知日期不補，不由死亡終止全部官爵。「其年」承接前段始皇三十七年；年表十月是出巡起點，不把死亡月七月改成十月。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 210,
+        "year": -209,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-087-lisi",
+            "source_id": "s-shiji-087-lisi",
+            "paragraph_id": "c-shiji-087-lisi:p013",
+            "quote": "其年七月，始皇帝至沙丘，病甚，令趙高為書賜公子扶蘇曰：「以兵屬蒙恬，與喪會咸陽而葬。」書已封，未授使者，始皇崩。書及璽皆在趙高所，獨子胡亥、丞相李斯、趙高及幸宦者五六人知始皇崩，餘羣臣皆莫知也。李斯以為上在外崩，無真太子，故祕之。置始皇居轀輬車中，百官奏事上食如故，宦者輒從轀輬車中可諸奏事。",
+            "person_mention_id": "c-shiji-087-lisi:m013-0005"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·六國年表》原紀年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r267-c01"
+          },
+          {
+            "title": "《史記·六國年表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+            "quote": "210",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r267-c00"
+          }
+        ],
+        "rationale": "以沙丘崩／誅丞相斯的平行事件及原紀年對讀；西元年採固定數位表編者對照，不作傳世原文或獨立史證，不換算日月。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "始皇崩",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+          "reference_event_quote": "三十七十月，帝之會稽、琅邪，還至沙丘崩。子胡亥立，為二世皇帝。殺蒙恬。道九原入。復行錢。",
+          "reference_year_quote": "210"
+        }
+      }
     }
   ],
   "life_event_date_decisions": [],

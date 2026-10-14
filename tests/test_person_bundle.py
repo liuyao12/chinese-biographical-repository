@@ -267,13 +267,17 @@ class PersonBundleTests(unittest.TestCase):
     def test_birth_death_and_burial_places_are_separate(self):
         result = bundle('ao3_0fy_d45_AAA')
         addresses = result['address_assertions']
+        received = [a for a in addresses if a['evidence'][0]['chapter_id'] == 'c-shiji-006-shihuang']
         def places(relation):
-            return {a['place']['source_name'] for a in addresses if a['relation'] == relation}
+            return {a['place']['source_name'] for a in received if a['relation'] == relation}
         self.assertEqual(places('birth_place'), {'邯鄲'})
         self.assertEqual(places('death_place'), {'沙丘平臺'})
         self.assertEqual(places('burial_place'), {'酈邑', '酈山'})
         self.assertFalse(places('biographical_origin'))
-        burials = [a for a in addresses if a['relation'] == 'burial_place']
+        other_deaths = [a for a in addresses if a['relation'] == 'death_place'
+                        and a['evidence'][0]['chapter_id'] == 'c-shiji-087-lisi']
+        self.assertEqual({a['place']['source_name'] for a in other_deaths}, {'沙丘'})
+        burials = [a for a in received if a['relation'] == 'burial_place']
         self.assertEqual({e['paragraph_id'] for a in burials for e in a['evidence']},
                          {'c-shiji-006-shihuang:p052', 'c-shiji-006-shihuang:p104'})
         for a in addresses:
@@ -283,16 +287,21 @@ class PersonBundleTests(unittest.TestCase):
     def test_numeric_year_keeps_source_and_numbering(self):
         from scripts.validate_corpus import normalized_date_errors
         result = bundle('ao3_0fy_d45_AAA')
-        dates = {d['era_year']: d for d in result['date_normalizations']}
-        self.assertEqual(dates[259]['year'], -258)
-        self.assertEqual(dates[210]['year'], -209)
-        self.assertEqual(dates[259]['original_quote'], '以秦昭王四十八年正月生於邯鄲。')
-        self.assertEqual(len(dates[210]['evidence']), 2)
-        for date in dates.values():
+        dates = result['date_normalizations']
+        birth = next(d for d in dates if d['original_quote'] == '以秦昭王四十八年正月生於邯鄲。')
+        self.assertEqual(birth['era_year'], 259)
+        self.assertEqual(birth['year'], -258)
+        deaths = [d for d in dates if d['era_year'] == 210]
+        self.assertGreaterEqual(len(deaths), 2)
+        self.assertTrue(all(d['year'] == -209 for d in deaths))
+        old_death = next(d for d in deaths if d['original_quote'] == '七月丙寅，始皇崩於沙丘平臺。')
+        self.assertEqual(len(old_death['evidence']), 2)
+        self.assertTrue(any(e['chapter_id'] == 'c-shiji-087-lisi' for d in deaths for e in d['evidence']))
+        for date in dates:
             self.assertEqual(normalized_date_errors(date), [])
-        wrong = dict(dates[259], year=-259)
+        wrong = dict(birth, year=-259)
         self.assertTrue(normalized_date_errors(wrong))
-        self.assertTrue(normalized_date_errors(dict(dates[259], year=True)))
+        self.assertTrue(normalized_date_errors(dict(birth, year=True)))
         burial = next(a for a in result['address_assertions'] if a['relation'] == 'burial_place')
         self.assertNotIn('normalized_date', burial)
 
