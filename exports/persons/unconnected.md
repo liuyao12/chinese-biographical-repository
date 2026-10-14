@@ -135,7 +135,6 @@
 | `0va_zus_2zt` | 商臣（楚穆王） | [《史記・楚世家》][22] | [JSON](0va_zus_2zt.json) |
 | `0w0_eh2_loq` | 王申生 | [《史記・大宛列傳》][105] | [JSON](0w0_eh2_loq.json) |
 | `0w8_6xd_lpn` | 魏讎餘 | [《史記・秦本紀》][5] | [JSON](0w8_6xd_lpn.json) |
-| `0wd_9iu_71i` | 陳渉 | [《史記・張耳陳餘列傳》][71] | [JSON](0wd_9iu_71i.json) |
 | `0wg_9tr_v8o` | 周子家豎 | [《史記・仲尼弟子列傳》][49] | [JSON](0wg_9tr_v8o.json) |
 | `0ws_cpn_uve` | 太史公 | [《史記・司馬相如列傳》][99] | [JSON](0ws_cpn_uve.json) |
 | `0wt_iyc_10n` | 識 | [《史記・魏世家》][26] | [JSON](0wt_iyc_10n.json) |
@@ -759,7 +758,6 @@
 | `52f_fie_3vj` | 昆吾（陸終長子） | [《史記・楚世家》][22] | [JSON](52f_fie_3vj.json) |
 | `52g_aio_c8a` | 任公 | [《史記・貨殖列傳》][111] | [JSON](52g_aio_c8a.json) |
 | `52o_i25_ekg` | 李夫人 | [《史記・外戚世家》][31] | [JSON](52o_i25_ekg.json) |
-| `52v_lww_ywo` | 周章 | [《史記・張耳陳餘列傳》][71] | [JSON](52v_lww_ywo.json) |
 | `52y_wzf_jzz` | 衞皇后 | [《史記・酷吏列傳》][104] | [JSON](52y_wzf_jzz.json) |
 | `531_xn1_ynu` | 灶 | [《史記・穰侯列傳》][54] | [JSON](531_xn1_ynu.json) |
 | `533_rjh_zfr` | 大將軍（張騫所從） | [《史記・大宛列傳》][105] | [JSON](533_rjh_zfr.json) |
@@ -924,7 +922,6 @@
 | `66l_m67_5ie` | 夏育 | [《史記・范睢蔡澤列傳》][61] | [JSON](66l_m67_5ie.json) |
 | `66o_td0_2ox` | 孝文 | [《史記・韓信盧綰列傳》][75] | [JSON](66o_td0_2ox.json) |
 | `66z_79l_gv6` | 桓公（燕襄公後） | [《史記・燕召公世家》][16] | [JSON](66z_79l_gv6.json) |
-| `673_a1m_bhc` | 胡亥 | [《史記・張耳陳餘列傳》][71] | [JSON](673_a1m_bhc.json) |
 | `67a_vl4_hwv` | 項羽 | [《史記・南越列傳》][95] | [JSON](67a_vl4_hwv.json) |
 | `67d_hkx_fvu` | 越女（楚惠王章母） | [《史記・楚世家》][22] | [JSON](67d_hkx_fvu.json) |
 | `67k_3wh_j8c` | 魏絳（和戎臣） | [《史記・晉世家》][21] | [JSON](67k_3wh_j8c.json) |
@@ -2231,6 +2228,8 @@
 | `evh_7zu_u3x` | 慎夫人 | [《史記・外戚世家》][31] | [JSON](evh_7zu_u3x.json) |
 | `evn_9i5_s69` | 萊侯（太公就國時未名） | [《史記・齊太公世家》][14] | [JSON](evn_9i5_s69.json) |
 | `evw_7hk_sqo` | 白圭 | [《史記・貨殖列傳》][111] | [JSON](evw_7hk_sqo.json) |
+| `ew3_ltd_qbv` | 鹵公孺 | [《史記・游俠列傳》][106] | [JSON](ew3_ltd_qbv.json) |
+| `ewb_7x8_5z2` | 中行文子 | [《史記・魏世家》][26] | [JSON](ewb_7x8_5z2.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

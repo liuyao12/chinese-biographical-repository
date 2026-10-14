@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tyf_tne_3xs` | 歷（太伯避歷） | [《史記・太史公自序》][112] | [JSON](tyf_tne_3xs.json) |
-| `tym_v5p_rqb` | 曹參 | [《史記・齊悼惠王世家》][34] | [JSON](tym_v5p_rqb.json) |
-| `tyr_5uu_zoh` | 蒯聵（衛） | [《史記・太史公自序》][112] | [JSON](tyr_5uu_zoh.json) |
-| `tz2_ke2_7l1` | 宰（魯幽公） | [《史記・魯周公世家》][15] | [JSON](tz2_ke2_7l1.json) |
 | `tz3_xgn_rsu` | 魯謁居 | [《史記・酷吏列傳》][104] | [JSON](tz3_xgn_rsu.json) |
 | `tzq_88y_69k` | 衛長公主 | [《史記・孝武本紀》][12] | [JSON](tzq_88y_69k.json) |
 | `tzz_9l9_f83` | 王容 | [《史記・趙世家》][25] | [JSON](tzz_9l9_f83.json) |
