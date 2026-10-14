@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `u9a_n9v_y7z` | 呂尚 | [《史記・游俠列傳》][106] | [JSON](u9a_n9v_y7z.json) |
-| `u9a_v5a_08h` | 公叔 | [《史記・孫子吳起列傳》][47] | [JSON](u9a_v5a_08h.json) |
-| `u9d_wjf_gyl` | 伯士 | [《史記・周本紀》][4] | [JSON](u9d_wjf_gyl.json) |
-| `u9g_hel_37z` | 瑕（衛君） | [《史記・衛康叔世家》][19] | [JSON](u9g_hel_37z.json) |
-| `u9o_qmk_0te` | 午（荊燕提要） | [《史記・太史公自序》][112] | [JSON](u9o_qmk_0te.json) |
-| `u9r_its_tcv` | 齊明 | [《史記・秦始皇本紀》][6] | [JSON](u9r_its_tcv.json) |
-| `ua9_ppz_afj` | 賈誼（附載姓名） | [《史記・秦始皇本紀》][6] | [JSON](ua9_ppz_afj.json) |
-| `uaj_1xw_87k` | 鮑生 | [《史記・蕭相國世家》][35] | [JSON](uaj_1xw_87k.json) |
-| `uaj_dl7_7e4` | 王媼 | [《史記・高祖本紀》][8] | [JSON](uaj_dl7_7e4.json) |
-| `uau_p7f_yfa` | 田常引古 | [《史記・李斯列傳》][69] | [JSON](uau_p7f_yfa.json) |
 | `ub0_76o_vp6` | 薦髡客未名 | [《史記・孟子荀卿列傳》][56] | [JSON](ub0_76o_vp6.json) |
 | `ub3_cl2_ez9` | 蔡澤御者未名 | [《史記・范睢蔡澤列傳》][61] | [JSON](ub3_cl2_ez9.json) |
 | `ub3_zen_skw` | 餘善 | [《史記・東越列傳》][96] | [JSON](ub3_zen_skw.json) |
@@ -551,7 +541,6 @@
 | `xxc_auu_pd9` | 袁生 | [《史記・高祖本紀》][8] | [JSON](xxc_auu_pd9.json) |
 | `xxq_5y6_8sr` | 狐偃（咎犯） | [《史記・晉世家》][21] | [JSON](xxq_5y6_8sr.json) |
 | `xxq_gha_m5y` | 猶（楚哀王） | [《史記・楚世家》][22] | [JSON](xxq_gha_m5y.json) |
-| `xxs_ub0_7rv` | 龍且 | [《史記・淮陰侯列傳》][74] | [JSON](xxs_ub0_7rv.json) |
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][22] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][14] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][6] | [JSON](xyx_811_vue.json) |
