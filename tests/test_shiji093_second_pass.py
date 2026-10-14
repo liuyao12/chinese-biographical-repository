@@ -88,3 +88,34 @@ class HanLuIdentityTests(unittest.TestCase):
         self.assertEqual((brother['subject_person_id'], brother['object_person_id']),
                          ('gh3_d07_hkt', 'l9e_fbr_36a_*AB*A'))
         self.assertFalse(any(x['subject_person_id'] == 'gh3_d07_hkt' and x['predicate'] in ['father', 'grandfather'] for x in rows))
+
+    def test_zi_dai_is_an_unnamed_son_and_succession_verb(self):
+        p = self.paragraph('093', 'p007')
+        m = next(x for x in p['mentions'] if x['id'] == 'c-shiji-093-hanlu:m007-0137')
+        self.assertEqual(m['surface'], '子')
+        self.assertEqual(p['text'][m['end']], '代')
+        self.assertEqual(m['person_id'], 'gh3_d07_hkt_A')
+        people = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
+        child = next(x for x in people if x['id'] == m['person_id'])
+        self.assertIn('子未名', child['label'])
+        self.assertEqual(child['family_path']['parent_person_id'], 'gh3_d07_hkt')
+        self.assertFalse(any(a['surface'] in ['子代', '代', '長君'] for a in child['aliases']))
+        rows = json.loads((ROOT / 'corpus/shiji/093-identities.json').read_text())['decisions']
+        ref = next(x for x in rows if x['id'] == 'd-shiji093-032')['references'][0]
+        self.assertEqual(ref['reported_name'], '長君')
+        self.assertFalse(ref['adopted_as_received_name'])
+
+    def test_han_emperor_short_names_follow_their_reigns(self):
+        self.assertEqual(self.ids(self.paragraph('093', 'p007'), '孝文'), {'yqp_nlb_p1p_AC'})
+        self.assertEqual(self.ids(self.paragraph('093', 'p013'), '孝景'), {'yqp_nlb_p1p_ACA'})
+        self.assertIn('孝文皇帝，高祖中子', self.paragraph('010', 'p001')['text'])
+        self.assertIn('孝景皇帝者，孝文之中子', self.paragraph('011', 'p001')['text'])
+    def test_quoted_yue_and_wu_people_keep_departure_and_death_accounts(self):
+        p = self.paragraph('093', 'p006')
+        self.assertEqual(self.ids(p, '種'), {'gu2_fde_5bw'})
+        self.assertEqual(self.ids(p, '蠡'), {'yhm_h9f_8p0'})
+        self.assertEqual(self.ids(p, '伍子胥'), {'g9h_5ih_ug1_A'})
+        self.assertIn('種、蠡無一罪，身死亡', p['text'])
+        self.assertIn('范蠡浮海出齊', self.paragraph('041', 'p020')['text'])
+        self.assertIn('種遂自殺', self.paragraph('041', 'p013')['text'])
+        self.assertIn('乃自剄死', self.paragraph('066', 'p019')['text'])

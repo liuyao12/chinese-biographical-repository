@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][53] | [JSON](f4j_73i_aup.json) |
-| `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][92] | [JSON](f4n_mh8_0qk.json) |
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
 | `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
@@ -259,7 +257,6 @@
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][56] | [JSON](gvp_kl8_u6o.json) |
 | `gw0_pdi_7ji` | 孔子 | [《史記・留侯世家》][37] | [JSON](gw0_pdi_7ji.json) |
 | `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][29] | [JSON](gwd_nwe_4s7.json) |
-| `gwo_lf6_tr7` | 蠡（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](gwo_lf6_tr7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][34] | [JSON](gx0_1xv_0gm.json) |
 | `gxd_15x_9d0` | 班固 | [《史記・秦始皇本紀》][6] | [JSON](gxd_15x_9d0.json) |
 | `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][72] | [JSON](gxs_1ia_tsp.json) |
@@ -1491,7 +1488,6 @@
 | `pkv_01i_t28` | 政 | [《史記・趙世家》][25] | [JSON](pkv_01i_t28.json) |
 | `pl1_jif_0x2` | 蕭公角 | [《史記・項羽本紀》][7] | [JSON](pl1_jif_0x2.json) |
 | `pm2_ktg_h14` | 允格 | [《史記・鄭世家》][24] | [JSON](pm2_ktg_h14.json) |
-| `pm7_yo7_kdw` | 種（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](pm7_yo7_kdw.json) |
 | `pmi_lcp_ocz` | 胡王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](pmi_lcp_ocz.json) |
 | `pmj_7wv_qbr` | 韓信母未名 | [《史記・淮陰侯列傳》][74] | [JSON](pmj_7wv_qbr.json) |
 | `pmk_eyc_chr` | 公主（趙世家未名者） | [《史記・趙世家》][25] | [JSON](pmk_eyc_chr.json) |
@@ -1886,7 +1882,6 @@
 | `s5o_lxl_fqe` | 項羽 | [《史記・曹相國世家》][36] | [JSON](s5o_lxl_fqe.json) |
 | `s63_f1q_qe0` | 田臣思 | [《史記・田敬仲完世家》][28] | [JSON](s63_f1q_qe0.json) |
 | `s6p_kl2_f9g` | 邴吉 | [《史記・平津侯主父列傳》][94] | [JSON](s6p_kl2_f9g.json) |
-| `s6v_a1w_z3m` | 伍子胥（引古） | [《史記・韓信盧綰列傳》][75] | [JSON](s6v_a1w_z3m.json) |
 | `s74_0jk_msn` | 召公（厲宣時） | [《史記・周本紀》][4] | [JSON](s74_0jk_msn.json) |
 | `s79_jb8_yix` | 妻烏孫王的公主（未名，匈奴列傳） | [《史記・匈奴列傳》][92] | [JSON](s79_jb8_yix.json) |
 | `s7e_or3_oyt` | 韓宣惠王 | [《史記・留侯世家》][37] | [JSON](s7e_or3_oyt.json) |
@@ -2238,6 +2233,11 @@
 | `uhq_4sb_zzv` | 齊威（列國君主） | [《史記・秦本紀》][5]、[《史記・齊太公世家》][14]、[《史記・燕召公世家》][16]、[《史記・晉世家》][21] | [JSON](uhq_4sb_zzv.json) |
 | `uhy_p4j_wc6` | 秦昭 | [《史記・貨殖列傳》][111] | [JSON](uhy_p4j_wc6.json) |
 | `ui0_pob_f62` | 奉賜死使者未名 | [《史記・蒙恬列傳》][70] | [JSON](ui0_pob_f62.json) |
+| `uik_lg2_lp8` | 卑梁大夫（吳楚邊童爭桑時） | [《史記・楚世家》][22] | [JSON](uik_lg2_lp8.json) |
+| `uiq_fxy_s78` | 豫且 | [《史記・龜策列傳》][110] | [JSON](uiq_fxy_s78.json) |
+| `uiz_ljv_jv9` | 華陽夫人姊未名 | [《史記・呂不韋列傳》][67] | [JSON](uiz_ljv_jv9.json) |
+| `uj5_nzw_pnc` | 酈生 | [《史記・田儋列傳》][76] | [JSON](uj5_nzw_pnc.json) |
+| `ujc_hbe_sle` | 庸職 | [《史記・齊太公世家》][14] | [JSON](ujc_hbe_sle.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
