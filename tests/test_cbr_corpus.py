@@ -14,6 +14,15 @@ class CorpusTests(unittest.TestCase):
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
+    def test_work_mention_cannot_link_person(self):
+        self.change('corpus/shiji/063.json', lambda d: next(m for p in d['paragraphs'] for m in p['mentions'] if m['id'].endswith('m011-0079')).update(person_id='vtn_thh_540'))
+        self.assertIn('著作提及須引用已登記著作且不得連人物', v.validate(self.root))
+    def test_work_mention_requires_registered_work(self):
+        self.change('corpus/shiji/063.json', lambda d: next(m for p in d['paragraphs'] for m in p['mentions'] if m['id'].endswith('m011-0079')).update(work_id='w-missing'))
+        self.assertIn('著作提及須引用已登記著作且不得連人物', v.validate(self.root))
+    def test_work_attestation_cannot_point_to_person_occurrence(self):
+        self.change('registry/works.json', lambda d: next(w for w in d['works'] if w['id']=='w-shenzi')['reference_attestations'][0].update(mention_id='c-shiji-063-laohan:m011-0044'))
+        self.assertIn('著作登記證據須對應同一書名錨點及完整原文', v.validate(self.root))
     def test_adoptive_mother_requires_explicit_received_term(self):
         self.change('corpus/shiji/085-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='母'))
         self.assertIn('所母關係須保存原詞，不得由一般母稱推定', v.validate(self.root))

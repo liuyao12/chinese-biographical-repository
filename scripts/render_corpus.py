@@ -26,6 +26,8 @@ def render(chapter):
                 tag = 'persName'; attributes += f' ref="{escape(mention["person_id"])}"'
             elif mention['kind'] == 'unresolved' and mention['person_id'] is None:
                 tag = 'rs'; attributes += ' type="unresolved"'
+            elif mention['kind'] == 'work' and mention['person_id'] is None and mention.get('work_id'):
+                tag = 'title'; attributes += f' ref="{escape(mention["work_id"])}"'
             else:
                 raise ValueError(f'{mention["id"]}: 無效人物或未定類型')
             fragments.append(f'<{tag} {attributes}>{escape(mention["surface"])}</{tag}>')

@@ -18,6 +18,8 @@ export function chapterParagraph(paragraph, people = {}) {
       const context = number ? '?' + new URLSearchParams({chapter: String(number), passage: paragraph.id}) : '';
       const href = 'person.html' + context + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
+    } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
+      fragments.push(`<cite id="${h(mention.id)}" class="cbr-work-mention" data-work-id="${h(mention.work_id)}" title="著作：${text}">${text}</cite>`);
     } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="未定指稱">${text}</span>`);
     end = mention.end;
   }
