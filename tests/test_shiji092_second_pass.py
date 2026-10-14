@@ -119,3 +119,36 @@ class HanxinIdentityTests(unittest.TestCase):
         self.assertEqual(self.ids(p, '太史公'), {'pme_eis_xqi_*A*AAAAA'})
         self.assertEqual(self.ids(self.paragraph('130', 'p004'), '太史公'), {'pme_eis_xqi_*A*AAAA'})
         self.assertIn('余視其母冢', p['text'])
+
+    def test_native_residence_and_death_places_are_separate(self):
+        rows = json.loads((ROOT / 'corpus/shiji/092-addresses.json').read_text())['assertions']
+        self.assertTrue(any(x['person_id'] == 'ofc_8ei_jb7' and x['relation'] == 'biographical_origin'
+                            and x['place']['source_name'] == '淮陰' for x in rows))
+        self.assertTrue(any(x['person_id'] == '23z_9xy_hzo' and x['relation'] == 'residence'
+                            and x['place']['source_name'] == '伊廬' for x in rows))
+        self.assertEqual({x['place']['source_name'] for x in rows if x['person_id'] == 'x9q_ghs_z2s'}, {'范陽', '齊'})
+        self.assertTrue(any(x['person_id'] == 'ofc_8ei_jb7' and x['relation'] == 'death_place'
+                            and x['place']['source_name'] == '長樂鐘室' for x in rows))
+        self.assertFalse(any(x['relation'] in ['birth_place', 'burial_place'] for x in rows))
+
+    def test_death_date_uses_parallel_spring_not_chapter_case_start_year(self):
+        rows = json.loads((ROOT / 'corpus/shiji/092-life-events.json').read_text())['events']
+        han = next(x for x in rows if x['person_id'] == 'ofc_8ei_jb7')
+        self.assertEqual(han['normalized_date']['era_year'], 196)
+        self.assertIn('漢十年', han['evidence'][0]['quote'])
+        self.assertIn('春，淮陰侯韓信', han['normalized_date']['basis']['reference_event_quote'])
+        self.assertFalse(any(x['person_id'] in ['1xx_s1v_svn', 'xk1_q1d_4tc'] for x in rows))
+        mother = next(x for x in rows if x['person_id'] == 'pmj_7wv_qbr')
+        self.assertIsNone(mother['date_expression'])
+        self.assertNotIn('normalized_date', mother)
+
+    def test_han_and_zhongli_names_use_full_and_short_forms(self):
+        rows = json.loads((ROOT / 'data/corpus/profile-names.json').read_text())['records']
+        han = next(x for x in rows if x['person_id'] == 'ofc_8ei_jb7')
+        zhongli = next(x for x in rows if x['person_id'] == '23z_9xy_hzo')
+        self.assertEqual((han['surname'], han['ming']), ('韓', '信'))
+        self.assertIn('淮陰侯韓信', han['quote'])
+        self.assertIn('食時信往', han['quote'])
+        self.assertEqual((zhongli['surname'], zhongli['ming']), ('鐘離', '眛'))
+        self.assertIn('鐘離眛', zhongli['quote'])
+        self.assertIn('漢王怨眛', zhongli['quote'])
