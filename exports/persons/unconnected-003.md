@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tup_86k_24c` | 東郡尉（曹相國世家未名者） | [《史記・曹相國世家》][36] | [JSON](tup_86k_24c.json) |
-| `tup_apk_ufr` | 招（陳司徒） | [《史記・陳杞世家》][18] | [JSON](tup_apk_ufr.json) |
-| `tux_am7_z4u` | 禽滑釐 | [《史記・儒林列傳》][103] | [JSON](tux_am7_z4u.json) |
-| `tv1_g5t_723` | 男子但 | [《史記・淮南衡山列傳》][100] | [JSON](tv1_g5t_723.json) |
-| `tv3_yg5_67n` | 盧胡王（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](tv3_yg5_67n.json) |
-| `tvb_urc_goi` | 參 | [《史記・朝鮮列傳》][97] | [JSON](tvb_urc_goi.json) |
-| `tvi_05j_cxc` | 司馬 | [《史記・東越列傳》][96] | [JSON](tvi_05j_cxc.json) |
-| `tvk_3qo_6n5` | 太史公 | [《史記・儒林列傳》][103] | [JSON](tvk_3qo_6n5.json) |
-| `tvo_aez_7nt` | 韓說（匈奴列傳第54段） | [《史記・匈奴列傳》][92] | [JSON](tvo_aez_7nt.json) |
-| `twa_vor_7j0` | 冉求 | [《史記・孔子世家》][29] | [JSON](twa_vor_7j0.json) |
 | `tx2_sj4_xyj` | 卓氏先人 | [《史記・貨殖列傳》][111] | [JSON](tx2_sj4_xyj.json) |
 | `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][37] | [JSON](txk_j5j_jty.json) |
 | `txm_ajy_ue2` | 伯嚭 | [《史記・仲尼弟子列傳》][49] | [JSON](txm_ajy_ue2.json) |
@@ -202,7 +192,6 @@
 | `v7s_dh4_n43` | 子良 | [《史記・穰侯列傳》][54] | [JSON](v7s_dh4_n43.json) |
 | `v8g_xyw_4v9` | 貫高 | [《史記・淮南衡山列傳》][100] | [JSON](v8g_xyw_4v9.json) |
 | `v8l_ue6_un4` | 弦高 | [《史記・秦本紀》][5]、[《史記・晉世家》][21] | [JSON](v8l_ue6_un4.json) |
-| `v8n_5n1_mxh` | 伍子胥（引古） | [《史記・蒙恬列傳》][70] | [JSON](v8n_5n1_mxh.json) |
 | `v8p_pcs_28s` | 聲子（惠公妾） | [《史記・魯周公世家》][15] | [JSON](v8p_pcs_28s.json) |
 | `v8p_xn6_zmf` | 單于使者（未名） | [《史記・韓長孺列傳》][90] | [JSON](v8p_xn6_zmf.json) |
 | `v8y_9sc_cso` | 簡公（燕平公後） | [《史記・燕召公世家》][16] | [JSON](v8y_9sc_cso.json) |
@@ -694,7 +683,6 @@
 | `ykt_rg0_cl9` | 盧綰 | [《史記・朝鮮列傳》][97] | [JSON](ykt_rg0_cl9.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][56] | [JSON](ykw_i8p_jh3.json) |
 | `ykz_dyf_q7h` | 田忌 | [《史記・秦始皇本紀》][6] | [JSON](ykz_dyf_q7h.json) |
-| `yl3_vu7_xc8` | 周公旦（引古） | [《史記・蒙恬列傳》][70] | [JSON](yl3_vu7_xc8.json) |
 | `ylb_xg7_6t9` | 王恬開 | [《史記・張釋之馮唐列傳》][84] | [JSON](ylb_xg7_6t9.json) |
 | `ym1_oml_zdw` | 伯宗 | [《史記・鄭世家》][24] | [JSON](ym1_oml_zdw.json) |
 | `yma_ep3_js5` | 魏文侯 | [《史記・樗里子甘茂列傳》][53] | [JSON](yma_ep3_js5.json) |

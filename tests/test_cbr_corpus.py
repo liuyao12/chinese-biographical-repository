@@ -23,6 +23,12 @@ class CorpusTests(unittest.TestCase):
     def test_work_attestation_cannot_point_to_person_occurrence(self):
         self.change('registry/works.json', lambda d: next(w for w in d['works'] if w['id']=='w-shenzi')['reference_attestations'][0].update(mention_id='c-shiji-063-laohan:m011-0044'))
         self.assertIn('著作登記證據須對應同一書名錨點及完整原文', v.validate(self.root))
+    def test_later_naming_requires_death_in_its_scoped_source_term(self):
+        self.change('corpus/shiji/088-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji088-017')['naming_basis'].update(source_term='故立號曰『繆』'))
+        self.assertIn('死後諡名缺少相符命名詞、死亡詞與起點證據', v.validate(self.root))
+    def test_later_naming_must_match_received_name(self):
+        self.change('corpus/shiji/088-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji088-017').update(title='穆'))
+        self.assertIn('死後諡名缺少相符命名詞、死亡詞與起點證據', v.validate(self.root))
     def test_adoptive_mother_requires_explicit_received_term(self):
         self.change('corpus/shiji/085-assertions.json', lambda d: d['assertions'][-1]['qualifiers'].update(source_term='母'))
         self.assertIn('所母關係須保存原詞，不得由一般母稱推定', v.validate(self.root))

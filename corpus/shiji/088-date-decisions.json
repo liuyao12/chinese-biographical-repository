@@ -1,0 +1,40 @@
+{
+  "format_version": "0.1",
+  "record_type": "life_event_date_decision_set",
+  "work_id": "w-shiji",
+  "decisions": [
+    {
+      "id": "ld-shiji088-xiangyan-death",
+      "person_ids": [
+        "5xt_rg8_7zs"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji006-018",
+        "le-shiji088-002"
+      ],
+      "preferred_event_id": "le-shiji088-002",
+      "status": "editorial_provisional",
+      "rationale": "本項暫以蒙恬篇明示始皇二十三年、且六國年表將殺項燕列二十三年、虜負芻列二十四年的事件分列作預設，記前224年。保留秦始皇本紀二十四年項燕遂自殺的前223年與死法異說；不以同書篇數投票或當獨立見證。未核底本、書影或現代校勘，這是可撤回的資料預設，不聲稱史實或學界定論。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p018",
+          "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
+          "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+        },
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+          "person_mention_id": "c-shiji-088-mengtian:m001-0157"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

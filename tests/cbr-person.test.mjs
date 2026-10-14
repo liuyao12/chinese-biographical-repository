@@ -105,3 +105,10 @@ test('inferred family edges are visibly provisional and their explanation is esc
  const html=personCard({id:'child',label:'synthetic child'},true,'main',family);
  assert.match(html,/父系暫定/);assert.match(html,/&lt;script&gt;bad&lt;\/script&gt;/);assert.doesNotMatch(html,/<script>/);
 });
+
+test('place roles distinguish ancestors, residence and death without relabelling them birthplaces',()=>{
+ const addresses=[['ancestral_origin','齊'],['residence','上郡'],['death_place','陽周']].map(([relation,source_name])=>({relation,place:{source_name},term:'synthetic received wording',quote:'synthetic quote',interpretation_note:'<script>synthetic</script>'}));
+ const html=personCard({id:'synthetic',label:'synthetic',addresses},true);
+ assert.match(html,/祖先出身：齊/);assert.match(html,/居地：上郡/);assert.match(html,/卒地：陽周/);
+ assert.doesNotMatch(html,/出生地：/);assert.doesNotMatch(html,/<script>/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);
+});

@@ -361,7 +361,46 @@
       "source_term": "項燕遂自殺",
       "interpretation_note": "明言殺、死、卒、得首或自殺保存；太子丹得首只證明已死，不補殺人者。被俘、請降、亡國不當死亡；紀年待核。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 223,
+        "year": -222,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-006-shihuang",
+            "source_id": "s-shiji-006-shihuang",
+            "paragraph_id": "c-shiji-006-shihuang:p018",
+            "quote": "二十三年，秦王復召王翦，彊起之，使將擊荊。取陳以南至平輿，虜荊王。秦王游至郢陳。荊將項燕立昌平君為荊王，反秦於淮南。二十四年，王翦、蒙武攻荊，破荊軍，昌平君死，項燕遂自殺。",
+            "person_mention_id": "c-shiji-006-shihuang:m018-0080"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·六國年表》原紀年欄",
+            "url": "https://zh.wikisource.org/wiki/史記/卷015",
+            "quote": "二十四。王翦、蒙武破楚，虜其王負芻。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r254-c01"
+          },
+          {
+            "title": "《史記·六國年表》數位年欄",
+            "url": "https://zh.wikisource.org/wiki/史記/卷015",
+            "quote": "223",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-015-r254-c00"
+          }
+        ],
+        "rationale": "按本紀原明示二十四年換算；年表同格只支持二十四年的西元年對照，不冒充項燕自殺事件的平行證據。 西元數字是固定數位年表編者對照，非古代正文；未核書影，只到年，不換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     },
     {
       "id": "le-shiji006-019",
