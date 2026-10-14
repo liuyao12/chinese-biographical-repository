@@ -1352,7 +1352,6 @@
 | `o9t_t9k_rc2` | 申之御（魏世家未名者） | [《史記・魏世家》][26] | [JSON](o9t_t9k_rc2.json) |
 | `oah_2x7_t4c` | 石作蜀 | [《史記・仲尼弟子列傳》][49] | [JSON](oah_2x7_t4c.json) |
 | `ob7_g6i_7pp` | 項羽 | [《史記・項羽本紀》][7] | [JSON](ob7_g6i_7pp.json) |
-| `obb_w0p_gfj` | 太史公 | [《史記・黥布列傳》][73] | [JSON](obb_w0p_gfj.json) |
 | `obf_5py_0xk` | 罕父黑 | [《史記・仲尼弟子列傳》][49] | [JSON](obf_5py_0xk.json) |
 | `obz_kz0_ohb` | 王子城父 | [《史記・齊太公世家》][14]、[《史記・魯周公世家》][15] | [JSON](obz_kz0_ohb.json) |
 | `oc0_qrs_w17` | 越王句踐 | [《史記・日者列傳》][109] | [JSON](oc0_qrs_w17.json) |
@@ -2238,6 +2237,7 @@
 | `u7o_pk8_4ra` | 楊干（悼公弟） | [《史記・晉世家》][21] | [JSON](u7o_pk8_4ra.json) |
 | `u7v_btk_ix4` | 羅（孔氏宦者） | [《史記・衛康叔世家》][19] | [JSON](u7v_btk_ix4.json) |
 | `u8l_tag_llb` | 賈生（引文作者） | [《史記・秦始皇本紀》][6] | [JSON](u8l_tag_llb.json) |
+| `u99_jp0_vbq` | 衛孺 | [《史記・衛將軍驃騎列傳》][93] | [JSON](u99_jp0_vbq.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
