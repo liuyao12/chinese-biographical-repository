@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `tk3_22k_8aq` | 妲己 | [《史記・外戚世家》][31] | [JSON](tk3_22k_8aq.json) |
-| `tk5_g6e_rh8` | 淮南王未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](tk5_g6e_rh8.json) |
-| `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][15] | [JSON](tke_fad_hlp.json) |
-| `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][78] | [JSON](tks_56f_4ir.json) |
 | `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][26] | [JSON](tl9_dsb_r6q.json) |
 | `tlk_hmr_kra` | 朱房 | [《史記・陳涉世家》][30] | [JSON](tlk_hmr_kra.json) |
 | `tlo_jrj_80q` | 壺叔（從亡賤臣） | [《史記・晉世家》][21] | [JSON](tlo_jrj_80q.json) |
@@ -696,7 +692,6 @@
 | `y81_z0r_svc` | 左人郢 | [《史記・仲尼弟子列傳》][49] | [JSON](y81_z0r_svc.json) |
 | `y82_gm0_bbt` | 項他 | [《史記・樊酈滕灌列傳》][77] | [JSON](y82_gm0_bbt.json) |
 | `y85_c3n_gfg` | 商鞅 | [《史記・蘇秦列傳》][51] | [JSON](y85_c3n_gfg.json) |
-| `y8v_od8_wtk` | 李信 | [《史記・刺客列傳》][68] | [JSON](y8v_od8_wtk.json) |
 | `y9b_ziu_p6i` | 殷紂 | [《史記・商君列傳》][50] | [JSON](y9b_ziu_p6i.json) |
 | `y9g_4wy_1m9` | 自相太子（魏世家未名者） | [《史記・魏世家》][26] | [JSON](y9g_4wy_1m9.json) |
 | `y9g_gi6_sn7` | 任安 | [《史記・田叔列傳》][86] | [JSON](y9g_gi6_sn7.json) |

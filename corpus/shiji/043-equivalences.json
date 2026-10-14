@@ -347,6 +347,47 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji086-zhaojia",
+      "person_ids": [
+        "q6w_qm5_w2b_AB"
+      ],
+      "canonical_person_id": "q6w_qm5_w2b_AB",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-043-zhao",
+        "c-shiji-006-shihuang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p121",
+          "quote": "太史公曰：吾聞馮王孫曰：「趙王遷，其母倡也，嬖於悼襄王。悼襄王廢適子嘉而立遷。遷素無行，信讒，故誅其良將李牧，用郭開。」豈不繆哉！秦旣虜遷，趙之亡大夫共立嘉爲王，王代六歳，秦進兵破嘉，遂滅趙以爲郡。",
+          "mention_ids": [
+            "c-shiji-043-zhao:m121-0034",
+            "c-shiji-043-zhao:m121-0077",
+            "c-shiji-043-zhao:m121-0090"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p015",
+          "quote": "十八年，大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城。十九年，王翦、羌瘣盡定取趙地東陽，得趙王。引兵欲攻燕，屯中山。秦王之邯鄲，諸嘗與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m015-0112",
+            "c-shiji-006-shihuang:m015-0128"
+          ]
+        }
+      ],
+      "rationale": "秦虜遷後嘉立代王、後秦滅代的次序相配；043明示悼襄王適子嘉，不由王位或國名補父子。同書互見不是獨立見證，不確認全部敘事或年代，不跨其他候選批量改號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

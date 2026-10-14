@@ -2,13 +2,119 @@
   "schema_version": 1,
   "id": "q6w_qm5_w2b_AB",
   "canonical_person_id": "q6w_qm5_w2b_AB",
-  "label": "嘉（趙世家代王候選）",
+  "label": "代王嘉",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "嘉"
+    "趙公子嘉",
+    "代王嘉",
+    "代王",
+    "嘉",
+    "公子嘉",
+    "王嘉"
   ],
   "titles": [
+    {
+      "id": "th-shiji006-020",
+      "person_id": "q6w_qm5_w2b_AB",
+      "title": "代王",
+      "kind": "royal_rank",
+      "mode": "self_proclamation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p015",
+          "quote": "十八年，大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城。十九年，王翦、羌瘣盡定取趙地東陽，得趙王。引兵欲攻燕，屯中山。秦王之邯鄲，諸嘗與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji006-020:a001",
+          "paragraph_id": "c-shiji-006-shihuang:p015",
+          "start": 128,
+          "end": 130,
+          "surface": "代王",
+          "person_mention_id": "c-shiji-006-shihuang:m015-0112",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "self_proclamation",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-006-shihuang",
+              "source_id": "s-shiji-006-shihuang",
+              "paragraph_id": "c-shiji-006-shihuang:p015",
+              "quote": "十八年，大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城。十九年，王翦、羌瘣盡定取趙地東陽，得趙王。引兵欲攻燕，屯中山。秦王之邯鄲，諸嘗與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "假守保留代理性稱謂；代王自立與昌平君被立分記。被俘或死亡不直接推定全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji034-055",
+      "person_id": "q6w_qm5_w2b_AB",
+      "title": "代王",
+      "kind": "royal_rank",
+      "mode": "self_proclamation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-034-yan",
+          "source_id": "s-shiji-034-yan",
+          "paragraph_id": "c-shiji-034-yan:p032",
+          "quote": "二十七年，秦虜趙王遷，滅趙。趙公子嘉自立爲代王。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji034-055:a001",
+          "paragraph_id": "c-shiji-034-yan:p032",
+          "start": 281,
+          "end": 283,
+          "surface": "代王",
+          "person_mention_id": "c-shiji-034-yan:m032-0274",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "self_proclamation",
+          "date_expression": "二十七年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-034-yan",
+              "source_id": "s-shiji-034-yan",
+              "paragraph_id": "c-shiji-034-yan:p032",
+              "quote": "二十七年，秦虜趙王遷，滅趙。趙公子嘉自立爲代王。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "燕王喜敘事二十七年嘉自立代王，保留來源紀年；後段虜代王嘉未自動當廢爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "二十七年 → 未定"
+    },
     {
       "id": "th-shiji043-109",
       "person_id": "q6w_qm5_w2b_AB",
@@ -58,10 +164,95 @@
       "interpretation_note": "任事、授予與明示免職分開。留秦、出奔、死亡或軍敗不推所有爵位終點；假相大將的職稱組合制度待核。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji086-016",
+      "person_id": "q6w_qm5_w2b_AB",
+      "title": "代王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji086-016:a001",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "start": 57,
+          "end": 59,
+          "surface": "代王",
+          "person_mention_id": "c-shiji-086-cike:m035-0057",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實際授任與文獻用稱分存；四月丙子依本段事件，不換算絕對年。皇帝其明年保留相對日期；上客為禮遇。懸賞金邑、職稱首見、死亡、被虜或亡逃不推定任期起訖。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji006-015",
+      "person_id": "q6w_qm5_w2b_AB",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "代",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p015",
+          "quote": "十八年，大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城。十九年，王翦、羌瘣盡定取趙地東陽，得趙王。引兵欲攻燕，屯中山。秦王之邯鄲，諸嘗與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。"
+        }
+      ],
+      "source_term": "之代",
+      "interpretation_note": "使秦、之某地、徙及死亡地按來源分記；游至不當長期居住，郢陳原詞保留不拆成現代地點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "之代",
+      "quote": "十八年，大興兵攻趙，王翦將上地，下井陘，端和將河內，羌瘣伐趙，端和圍邯鄲城。十九年，王翦、羌瘣盡定取趙地東陽，得趙王。引兵欲攻燕，屯中山。秦王之邯鄲，諸嘗與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 6,
+      "category": "benji",
+      "title": "秦始皇本紀第六",
+      "paragraph_id": "c-shiji-006-shihuang:p015",
+      "count": 4,
+      "quote": "與王生趙時母家有仇怨，皆阬之。秦王還，從太原、上郡歸。始皇帝母太后崩。趙公子嘉率其宗數百人之代，自立為代王，東與燕合兵，軍上谷。大饑。"
+    },
+    {
+      "number": 34,
+      "category": "shijia",
+      "title": "燕召公世家第四",
+      "paragraph_id": "c-shiji-034-yan:p032",
+      "count": 2,
+      "quote": "亡歸燕。二十五年，秦虜滅韓王安，置潁川郡。二十七年，秦虜趙王遷，滅趙。趙公子嘉自立爲代王。"
+    },
     {
       "number": 43,
       "category": "shijia",
@@ -69,10 +260,205 @@
       "paragraph_id": "c-shiji-043-zhao:p121",
       "count": 3,
       "quote": "太史公曰：吾聞馮王孫曰：「趙王遷，其母倡也，嬖於悼襄王。悼襄王廢適子嘉而立遷。遷素無行，信讒，故誅其良將李牧，用郭開。」豈不繆哉！秦旣虜遷，趙之亡大夫共立嘉爲王，王代六歳，秦進兵破嘉，遂滅趙以爲郡。"
+    },
+    {
+      "number": 86,
+      "category": "liezhuan",
+      "title": "刺客列傳第二十六",
+      "paragraph_id": "c-shiji-086-cike:p035",
+      "count": 1,
+      "quote": "月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r249-c05",
+      "title": "《史記·六國年表》",
+      "quote": "八。秦王翦虜王遷邯鄲。公子嘉自立為代王。",
+      "year": {
+        "era": "BCE",
+        "value": 228,
+        "astronomical_year": -227,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "228",
+        "source_cell_id": "shiji-015-r249-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r249-c05-m011",
+        "start": 11,
+        "end": 14,
+        "surface": "公子嘉",
+        "person_id": "q6w_qm5_w2b_AB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r250-c05",
+      "title": "《史記·六國年表》",
+      "quote": "代王嘉元年",
+      "year": {
+        "era": "BCE",
+        "value": 227,
+        "astronomical_year": -226,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "227",
+        "source_cell_id": "shiji-015-r250-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r250-c05-m000",
+        "start": 0,
+        "end": 3,
+        "surface": "代王嘉",
+        "person_id": "q6w_qm5_w2b_AB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r255-c01",
+      "title": "《史記·六國年表》",
+      "quote": "二十五。王賁擊燕，虜王喜。又擊得代王嘉。五月，天下大酺。",
+      "year": {
+        "era": "BCE",
+        "value": 222,
+        "astronomical_year": -221,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "222",
+        "source_cell_id": "shiji-015-r255-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r255-c01-m016",
+        "start": 16,
+        "end": 19,
+        "surface": "代王嘉",
+        "person_id": "q6w_qm5_w2b_AB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    },
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r255-c05",
+      "title": "《史記·六國年表》",
+      "quote": "六。秦將王賁虜王嘉，秦滅趙。",
+      "year": {
+        "era": "BCE",
+        "value": 222,
+        "astronomical_year": -221,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "222",
+        "source_cell_id": "shiji-015-r255-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r255-c05-m007",
+        "start": 7,
+        "end": 9,
+        "surface": "王嘉",
+        "person_id": "q6w_qm5_w2b_AB",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-shiji-006-shihuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-006",
+      "source_id": "s-shiji-006-shihuang",
+      "source": {
+        "title": "史記／卷006",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷006",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+        "revision_id": 7907969,
+        "accessed_on": "2026-10-09",
+        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+        "image_verified": false,
+        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p010",
+              "witness_form": "（四）［是］",
+              "body_reading": "四",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p016",
+              "witness_form": "（薊）［荊］",
+              "body_reading": "薊",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p051",
+              "witness_form": "（其）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p061",
+              "witness_form": "（者）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            }
+          ],
+          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-034-yan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "source_id": "s-shiji-034-yan",
+      "source": {
+        "title": "史記／卷034",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+        "revision_id": 2559287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "为": "為",
+            "时": "時",
+            "与": "與",
+            "乐": "樂",
+            "骑": "騎",
+            "将": "將",
+            "赵": "趙",
+            "齐": "齊",
+            "单": "單",
+            "击": "擊",
+            "败": "敗",
+            "军": "軍",
+            "归": "歸",
+            "复": "復",
+            "闵": "閔",
+            "韩": "韓"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
+          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-043-zhao",
       "work_id": "w-shiji",
@@ -94,6 +480,38 @@
           "editorial_readings": [],
           "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
           "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-086-cike",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-086",
+      "source_id": "s-shiji-086-cike",
+      "source": {
+        "title": "史記／卷086",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷086",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
+        "revision_id": 2388562,
+        "accessed_on": "2026-10-09",
+        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
+          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
+          "digital_variant_notes": [
+            {
+              "paragraph_number": 17,
+              "body_reading": "縣",
+              "witness_tooltip": "一作「購縣」，又作「縣購」。",
+              "note": "數位見證未標明異文版本，另存，不代替正文。"
+            }
+          ]
         }
       }
     }
@@ -123,7 +541,7 @@
   ],
   "related_people": {
     "q6w_qm5_w2b_A": "偃（趙世家悼襄王候選）",
-    "q6w_qm5_w2b_AB": "嘉（趙世家代王候選）"
+    "q6w_qm5_w2b_AB": "代王嘉"
   },
   "dates": [],
   "name_components": [],

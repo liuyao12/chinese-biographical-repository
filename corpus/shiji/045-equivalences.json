@@ -270,6 +270,44 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji086-han-an",
+      "person_ids": [
+        "c0i_eah_y59_AA"
+      ],
+      "canonical_person_id": "c0i_eah_y59_AA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-045-han",
+        "c-shiji-006-shihuang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-045-han",
+          "source_id": "s-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p035",
+          "quote": "九年，秦虜王安，盡入其地，爲潁州郡。韓遂亡。",
+          "mention_ids": [
+            "c-shiji-045-han:m035-0005"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p014",
+          "quote": "十五年，大興兵，一軍至鄴，一軍至太原，取狼孟。地動。十六年九月，發卒受地韓南陽假守騰。初令男子書年。魏獻地於秦。秦置麗邑。十七年，內史騰攻韓，得韓王安，盡納其地，以其地為郡，命曰潁川。地動。華陽太后卒。民大饑。",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m014-0072"
+          ]
+        }
+      ],
+      "rationale": "秦得韓王安而盡納其地的同一亡國敘事相配；潁州／潁川原字分存。同書互見不是獨立見證，不確認全部敘事或年代，不跨其他候選批量改號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

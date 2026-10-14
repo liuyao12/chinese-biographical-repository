@@ -66864,7 +66864,7 @@
       "review": "ai_provisional"
     },
     {
-      "id": "999_8x2_oj9",
+      "id": "c0i_eah_y59_AA",
       "label": "韓王安",
       "status": "active",
       "historicity": "historical_tradition",
@@ -66874,6 +66874,20 @@
           "mention_ids": [
             "c-shiji-006-shihuang:m014-0072",
             "c-shiji-034-yan:m032-0251"
+          ]
+        },
+        {
+          "surface": "王安",
+          "mention_ids": [
+            "c-shiji-045-han:m033-0011",
+            "c-shiji-045-han:m034-0000",
+            "c-shiji-045-han:m035-0005"
+          ]
+        },
+        {
+          "surface": "韓王",
+          "mention_ids": [
+            "c-shiji-086-cike:m029-0161"
           ]
         }
       ],
@@ -66889,10 +66903,51 @@
           "chapter_id": "c-shiji-034-yan",
           "paragraph_id": "c-shiji-034-yan:p032",
           "quote": "韓王安"
+        },
+        {
+          "mention_id": "c-shiji-045-han:m033-0011",
+          "chapter_id": "c-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p033",
+          "quote": "王安"
+        },
+        {
+          "mention_id": "c-shiji-045-han:m034-0000",
+          "chapter_id": "c-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p034",
+          "quote": "王安"
+        },
+        {
+          "mention_id": "c-shiji-045-han:m035-0005",
+          "chapter_id": "c-shiji-045-han",
+          "paragraph_id": "c-shiji-045-han:p035",
+          "quote": "王安"
+        },
+        {
+          "mention_id": "c-shiji-086-cike:m029-0161",
+          "chapter_id": "c-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p029",
+          "quote": "韓王"
         }
       ],
-      "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
-      "review": "ai_provisional"
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-045-han",
+            "source_id": "s-shiji-045-han",
+            "paragraph_id": "c-shiji-045-han:p033",
+            "quote": "三十四年，桓惠王卒，子王安立。",
+            "source_term": "桓惠王卒，子王安立"
+          }
+        ],
+        "source_assertion_id": "a-shiji045-018",
+        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "c0i_eah_y59_A"
+      }
     },
     {
       "id": "v6g_qb4_d96",
@@ -66950,8 +67005,8 @@
       "review": "ai_provisional"
     },
     {
-      "id": "237_cbp_w2w",
-      "label": "趙公子嘉",
+      "id": "q6w_qm5_w2b_AB",
+      "label": "代王嘉",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -66975,6 +67030,14 @@
           "surface": "代王",
           "mention_ids": [
             "c-shiji-006-shihuang:m015-0128"
+          ]
+        },
+        {
+          "surface": "嘉",
+          "mention_ids": [
+            "c-shiji-043-zhao:m121-0034",
+            "c-shiji-043-zhao:m121-0077",
+            "c-shiji-043-zhao:m121-0090"
           ]
         }
       ],
@@ -67020,10 +67083,45 @@
           "chapter_id": "c-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p035",
           "quote": "代王嘉"
+        },
+        {
+          "mention_id": "c-shiji-043-zhao:m121-0034",
+          "chapter_id": "c-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p121",
+          "quote": "嘉"
+        },
+        {
+          "mention_id": "c-shiji-043-zhao:m121-0077",
+          "chapter_id": "c-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p121",
+          "quote": "嘉"
+        },
+        {
+          "mention_id": "c-shiji-043-zhao:m121-0090",
+          "chapter_id": "c-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p121",
+          "quote": "嘉"
         }
       ],
-      "identity_note": "依本卷特定時代與事件暫定人物；不以同稱、官號或短名全域合併，未見本名不補造。",
-      "review": "ai_provisional"
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-043-zhao",
+            "source_id": "s-shiji-043-zhao",
+            "paragraph_id": "c-shiji-043-zhao:p121",
+            "quote": "太史公曰：吾聞馮王孫曰：「趙王遷，其母倡也，嬖於悼襄王。悼襄王廢適子嘉而立遷。遷素無行，信讒，故誅其良將李牧，用郭開。」豈不繆哉！秦旣虜遷，趙之亡大夫共立嘉爲王，王代六歳，秦進兵破嘉，遂滅趙以爲郡。",
+            "source_term": "悼襄王廢適子嘉"
+          }
+        ],
+        "source_assertion_id": "a-shiji043-065",
+        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "q6w_qm5_w2b_A"
+      }
     },
     {
       "id": "e3o_2bk_lhm",
@@ -214452,7 +214550,7 @@
     },
     {
       "id": "q6w_qm5_w2b_AA",
-      "label": "遷（趙世家幽繆王候選）",
+      "label": "趙王遷",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -214490,7 +214588,8 @@
           "surface": "趙王",
           "mention_ids": [
             "c-shiji-081-lianlin:m026-0027",
-            "c-shiji-081-lianlin:m026-0049"
+            "c-shiji-081-lianlin:m026-0049",
+            "c-shiji-086-cike:m030-0018"
           ]
         }
       ],
@@ -214566,6 +214665,12 @@
           "chapter_id": "c-shiji-081-lianlin",
           "paragraph_id": "c-shiji-081-lianlin:p026",
           "quote": "趙王遷"
+        },
+        {
+          "mention_id": "c-shiji-086-cike:m030-0018",
+          "chapter_id": "c-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p030",
+          "quote": "趙王"
         }
       ],
       "family_path": {
@@ -214828,61 +214933,6 @@
           "quote": "其母"
         }
       ]
-    },
-    {
-      "id": "q6w_qm5_w2b_AB",
-      "label": "嘉（趙世家代王候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "嘉",
-          "mention_ids": [
-            "c-shiji-043-zhao:m121-0034",
-            "c-shiji-043-zhao:m121-0077",
-            "c-shiji-043-zhao:m121-0090"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-043-zhao:m121-0034",
-          "chapter_id": "c-shiji-043-zhao",
-          "paragraph_id": "c-shiji-043-zhao:p121",
-          "quote": "嘉"
-        },
-        {
-          "mention_id": "c-shiji-043-zhao:m121-0077",
-          "chapter_id": "c-shiji-043-zhao",
-          "paragraph_id": "c-shiji-043-zhao:p121",
-          "quote": "嘉"
-        },
-        {
-          "mention_id": "c-shiji-043-zhao:m121-0090",
-          "chapter_id": "c-shiji-043-zhao",
-          "paragraph_id": "c-shiji-043-zhao:p121",
-          "quote": "嘉"
-        }
-      ],
-      "family_path": {
-        "connection": "father",
-        "generation_distance": 1,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "chapter_id": "c-shiji-043-zhao",
-            "source_id": "s-shiji-043-zhao",
-            "paragraph_id": "c-shiji-043-zhao:p121",
-            "quote": "太史公曰：吾聞馮王孫曰：「趙王遷，其母倡也，嬖於悼襄王。悼襄王廢適子嘉而立遷。遷素無行，信讒，故誅其良將李牧，用郭開。」豈不繆哉！秦旣虜遷，趙之亡大夫共立嘉爲王，王代六歳，秦進兵破嘉，遂滅趙以爲郡。",
-            "source_term": "悼襄王廢適子嘉"
-          }
-        ],
-        "source_assertion_id": "a-shiji043-065",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
-        "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "q6w_qm5_w2b_A"
-      }
     },
     {
       "id": "5x6_bvq_088",
@@ -224129,61 +224179,6 @@
           "quote": "穰侯"
         }
       ]
-    },
-    {
-      "id": "c0i_eah_y59_AA",
-      "label": "安（韓世家末王候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "王安",
-          "mention_ids": [
-            "c-shiji-045-han:m033-0011",
-            "c-shiji-045-han:m034-0000",
-            "c-shiji-045-han:m035-0005"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-045-han:m033-0011",
-          "chapter_id": "c-shiji-045-han",
-          "paragraph_id": "c-shiji-045-han:p033",
-          "quote": "王安"
-        },
-        {
-          "mention_id": "c-shiji-045-han:m034-0000",
-          "chapter_id": "c-shiji-045-han",
-          "paragraph_id": "c-shiji-045-han:p034",
-          "quote": "王安"
-        },
-        {
-          "mention_id": "c-shiji-045-han:m035-0005",
-          "chapter_id": "c-shiji-045-han",
-          "paragraph_id": "c-shiji-045-han:p035",
-          "quote": "王安"
-        }
-      ],
-      "family_path": {
-        "connection": "father",
-        "generation_distance": 1,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "chapter_id": "c-shiji-045-han",
-            "source_id": "s-shiji-045-han",
-            "paragraph_id": "c-shiji-045-han:p033",
-            "quote": "三十四年，桓惠王卒，子王安立。",
-            "source_term": "桓惠王卒，子王安立"
-          }
-        ],
-        "source_assertion_id": "a-shiji045-018",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
-        "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "c0i_eah_y59_A"
-      }
     },
     {
       "id": "rhm_9nf_9q6",
@@ -288156,14 +288151,15 @@
     },
     {
       "id": "k7j_gr6_8nz",
-      "label": "李信（白起王翦列傳候選）",
+      "label": "李信",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
         {
           "surface": "秦將李信",
           "mention_ids": [
-            "c-shiji-073-baiwang:m010-0018"
+            "c-shiji-073-baiwang:m010-0018",
+            "c-shiji-086-cike:m035-0047"
           ]
         },
         {
@@ -288176,7 +288172,9 @@
             "c-shiji-073-baiwang:m010-0233",
             "c-shiji-073-baiwang:m011-0030",
             "c-shiji-073-baiwang:m012-0004",
-            "c-shiji-073-baiwang:m012-0205"
+            "c-shiji-073-baiwang:m012-0205",
+            "c-shiji-086-cike:m029-0194",
+            "c-shiji-086-cike:m035-0111"
           ]
         },
         {
@@ -288270,6 +288268,24 @@
           "chapter_id": "c-shiji-073-baiwang",
           "paragraph_id": "c-shiji-073-baiwang:p010",
           "quote": "將軍"
+        },
+        {
+          "mention_id": "c-shiji-086-cike:m029-0194",
+          "chapter_id": "c-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p029",
+          "quote": "李信"
+        },
+        {
+          "mention_id": "c-shiji-086-cike:m035-0047",
+          "chapter_id": "c-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "秦將李信"
+        },
+        {
+          "mention_id": "c-shiji-086-cike:m035-0111",
+          "chapter_id": "c-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "李信"
         }
       ]
     },
@@ -301336,91 +301352,6 @@
           "chapter_id": "c-shiji-086-cike",
           "paragraph_id": "c-shiji-086-cike:p026",
           "quote": "武"
-        }
-      ]
-    },
-    {
-      "id": "fv2_9nj_8b4",
-      "label": "韓王被虜未名（刺客列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "韓王",
-          "mention_ids": [
-            "c-shiji-086-cike:m029-0161"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-086-cike:m029-0161",
-          "chapter_id": "c-shiji-086-cike",
-          "paragraph_id": "c-shiji-086-cike:p029",
-          "quote": "韓王"
-        }
-      ]
-    },
-    {
-      "id": "y8v_od8_wtk",
-      "label": "李信（刺客列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "李信",
-          "mention_ids": [
-            "c-shiji-086-cike:m029-0194",
-            "c-shiji-086-cike:m035-0111"
-          ]
-        },
-        {
-          "surface": "秦將李信",
-          "mention_ids": [
-            "c-shiji-086-cike:m035-0047"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-086-cike:m029-0194",
-          "chapter_id": "c-shiji-086-cike",
-          "paragraph_id": "c-shiji-086-cike:p029",
-          "quote": "李信"
-        },
-        {
-          "mention_id": "c-shiji-086-cike:m035-0047",
-          "chapter_id": "c-shiji-086-cike",
-          "paragraph_id": "c-shiji-086-cike:p035",
-          "quote": "秦將李信"
-        },
-        {
-          "mention_id": "c-shiji-086-cike:m035-0111",
-          "chapter_id": "c-shiji-086-cike",
-          "paragraph_id": "c-shiji-086-cike:p035",
-          "quote": "李信"
-        }
-      ]
-    },
-    {
-      "id": "5yi_qwl_awr",
-      "label": "趙王被虜未名（刺客列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "趙王",
-          "mention_ids": [
-            "c-shiji-086-cike:m030-0018"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-086-cike:m030-0018",
-          "chapter_id": "c-shiji-086-cike",
-          "paragraph_id": "c-shiji-086-cike:p030",
-          "quote": "趙王"
         }
       ]
     },

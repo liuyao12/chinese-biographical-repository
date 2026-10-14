@@ -2,16 +2,33 @@
   "schema_version": 1,
   "id": "c0i_eah_y59_AA",
   "canonical_person_id": "c0i_eah_y59_AA",
-  "label": "安（韓世家末王候選）",
+  "label": "韓王安",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "韓王安",
     "王安",
-    "韓王安"
+    "韓王"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 6,
+      "category": "benji",
+      "title": "秦始皇本紀第六",
+      "paragraph_id": "c-shiji-006-shihuang:p014",
+      "count": 1,
+      "quote": "南陽假守騰。初令男子書年。魏獻地於秦。秦置麗邑。十七年，內史騰攻韓，得韓王安，盡納其地，以其地為郡，命曰潁川。地動。華陽太后卒。民大饑。"
+    },
+    {
+      "number": 34,
+      "category": "shijia",
+      "title": "燕召公世家第四",
+      "paragraph_id": "c-shiji-034-yan:p032",
+      "count": 1,
+      "quote": "之鄴九城。趙悼襄王卒。二十三年，太子丹質於秦，亡歸燕。二十五年，秦虜滅韓王安，置潁川郡。二十七年，秦虜趙王遷，滅趙。趙公子嘉自立爲代王。"
+    },
     {
       "number": 45,
       "category": "shijia",
@@ -19,6 +36,14 @@
       "paragraph_id": "c-shiji-045-han:p033",
       "count": 3,
       "quote": "三十四年，桓惠王卒，子王安立。"
+    },
+    {
+      "number": 86,
+      "category": "liezhuan",
+      "title": "刺客列傳第二十六",
+      "paragraph_id": "c-shiji-086-cike:p029",
+      "count": 1,
+      "quote": "貪利之心，而欲不可足也。非盡天下之地，臣海内之王者，其意不厭。今秦已虜韓王，盡納其地。又舉兵南伐楚，北臨趙；王翦將數十萬之衆距漳、鄴，而李信出太原、雲中。趙不能支秦，必入臣，入臣則禍至燕。燕小弱，數困於兵，今計舉國不足以當秦。諸侯服秦，莫敢合從。丹之私計愚，以爲誠得天下之勇"
     }
   ],
   "table_occurrences": [
@@ -97,6 +122,96 @@
   ],
   "sources": [
     {
+      "chapter_id": "c-shiji-006-shihuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-006",
+      "source_id": "s-shiji-006-shihuang",
+      "source": {
+        "title": "史記／卷006",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷006",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷006&oldid=7907969",
+        "revision_id": 7907969,
+        "accessed_on": "2026-10-09",
+        "extent": "數位見證127個文字區塊，含16個dd刻辭或嵌入引文及卷末附載班固記；排除導覽、跨站連結與註號。",
+        "image_verified": false,
+        "rights": "古代原文與附載文字；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "note": "正文未改寫；行內校勘標記及附載文字仍待逐處核對。固定版本正文HTML重讀一致。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p010",
+              "witness_form": "（四）［是］",
+              "body_reading": "四",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p016",
+              "witness_form": "（薊）［荊］",
+              "body_reading": "薊",
+              "note": "數位見證行內校勘標記另存；正文保留改讀前的字，不稱已校定底本。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p051",
+              "witness_form": "（其）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            },
+            {
+              "paragraph_id": "c-shiji-006-shihuang:p061",
+              "witness_form": "（者）",
+              "body_reading": "",
+              "note": "數位見證行內刪字標記另存；未核底本，不稱校定讀法。"
+            }
+          ],
+          "extraction_note": "按正文p及dd區塊原有次序錄入；dd用前一段ID加block後綴，既有p段落ID不變。正文前兩個dd為維基百科與文言維基大典導覽，排除。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-034-yan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "source_id": "s-shiji-034-yan",
+      "source": {
+        "title": "史記／卷034",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷034",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287",
+        "revision_id": 2559287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文35個p區塊，自召公奭與周同姓至太史公論贊；排除兩個dd導覽，未混入版權／介面文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "为": "為",
+            "时": "時",
+            "与": "與",
+            "乐": "樂",
+            "骑": "騎",
+            "将": "將",
+            "赵": "趙",
+            "齐": "齊",
+            "单": "單",
+            "击": "擊",
+            "败": "敗",
+            "军": "軍",
+            "归": "歸",
+            "复": "復",
+            "闵": "閔",
+            "韩": "韓"
+          },
+          "editorial_readings": [],
+          "extraction_note": "固定版本與實讀HTML一致；第27段簡體及第28段韓字按明列字形轉換，保留爲、呉、説、歳、髙等異體與校勘括號。",
+          "note": "召王、笆棠、燕王噲死問孤等疑讀未由記憶訂正；第31、32、35段插改字及地名校勘符號保留待核。篇名頁不存在，實讀卷034頁；未核影像、底本或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-045-han",
       "work_id": "w-shiji",
       "book_id": "b-shiji-045",
@@ -117,6 +232,38 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致；現代分節標題及導覽不當古代正文。保留蟣蝨、韓姬、韓嚴、韓非與非等原字。",
           "note": "已讀全36段數位正文；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-086-cike",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-086",
+      "source_id": "s-shiji-086-cike",
+      "source": {
+        "title": "史記／卷086",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷086",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562",
+        "revision_id": 2388562,
+        "accessed_on": "2026-10-09",
+        "extent": "38段正文含太史公論，排除導覽、索隱述贊及現代版權。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；（衆）按普通括號原文保留；第17段tooltip異文提示另存。",
+          "note": "全38段與HTML篇界已核讀，未核底本影像或現代研究。",
+          "digital_variant_notes": [
+            {
+              "paragraph_number": 17,
+              "body_reading": "縣",
+              "witness_tooltip": "一作「購縣」，又作「縣購」。",
+              "note": "數位見證未標明異文版本，另存，不代替正文。"
+            }
+          ]
         }
       }
     }
@@ -146,7 +293,7 @@
   ],
   "related_people": {
     "c0i_eah_y59_A": "桓惠王（韓世家候選）",
-    "c0i_eah_y59_AA": "安（韓世家末王候選）"
+    "c0i_eah_y59_AA": "韓王安"
   },
   "dates": [],
   "name_components": [],
