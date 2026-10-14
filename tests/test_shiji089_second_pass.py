@@ -44,3 +44,14 @@ class ZhangerIdentityTests(unittest.TestCase):
         order=next(x for x in a if x['id']=='a-shiji089-005')['qualifiers']['relative_birth_order']
         self.assertEqual(order['older_person_id'],'uvj_ezk_crm')
         self.assertIsNone(order['older_ordinal']);self.assertIsNone(order['younger_ordinal'])
+    def test_luyuan_posthumous_ao_is_separate_from_yan(self):
+        p=self.paragraph('009','p015')
+        self.assertTrue(any(m['surface']=='魯元王' and m['person_id']=='agx_sqm_4ou_A' for m in p['mentions']))
+        self.assertTrue(any(m['surface']=='子偃' and m['person_id']=='agx_sqm_4ou_AA' for m in p['mentions']))
+        self.assertIn('敖賜謚為魯元王',p['text'])
+    def test_children_with_reversed_enumeration_keep_same_identity(self):
+        a=self.paragraph('009','p019');b=self.paragraph('089','p029')
+        for p in [a,b]:
+            self.assertTrue(any(m['surface']=='壽' and m['person_id']=='agx_sqm_4ou_AB' for m in p['mentions']))
+            self.assertTrue(any(m['surface']=='侈' and m['person_id']=='agx_sqm_4ou_AC' for m in p['mentions']))
+        self.assertIn('新都侯',a['text']);self.assertIn('信都侯',b['text']);self.assertIn('信諸侯',b['text'])

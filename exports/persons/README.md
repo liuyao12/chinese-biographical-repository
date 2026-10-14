@@ -305,17 +305,6 @@
 
 </details>
 
-<details><summary><code>46l_ir2_1cr</code> 敖（趙王）（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 敖（趙王） | [《史記・呂太后本紀》][9] | [JSON](46l_ir2_1cr.json) |
-| `A` | 偃（魯王） | [《史記・呂太后本紀》][9] | [JSON](46l_ir2_1cr_A.json) |
-| `B` | 侈（張敖前姬子） | [《史記・呂太后本紀》][9] | [JSON](46l_ir2_1cr_B.json) |
-| `C` | 壽（張敖前姬子） | [《史記・呂太后本紀》][9] | [JSON](46l_ir2_1cr_C.json) |
-
-</details>
-
 <details><summary><code>49g_7az_e4i</code> 李斯（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -793,7 +782,7 @@
 |---|---|---|---|
 | `根` | 張耳 | [《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou.json) |
 | `A` | 張敖 | [《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou_A.json) |
-| `AA` | 張偃 | [《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou_AA.json) |
+| `AA` | 張偃 | [《史記・呂太后本紀》][9]、[《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou_AA.json) |
 | `AB` | 張壽 | [《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou_AB.json) |
 | `AC` | 張侈 | [《史記・張耳陳餘列傳》][71] | [JSON](agx_sqm_4ou_AC.json) |
 
