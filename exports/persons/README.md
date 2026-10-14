@@ -139,7 +139,7 @@
 |---|---|---|---|
 | `根` | 齊湣王（燕篇） | [《史記・燕召公世家》][16] | [JSON](1h3_vs7_t8h.json) |
 | `A` | 襄王（齊湣王子） | [《史記・田敬仲完世家》][28] | [JSON](1h3_vs7_t8h_A.json) |
-| `AA` | 建 | [《史記・田敬仲完世家》][28] | [JSON](1h3_vs7_t8h_AA.json) |
+| `AA` | 齊王建 | [《史記・田敬仲完世家》][28] | [JSON](1h3_vs7_t8h_AA.json) |
 
 </details>
 
@@ -1461,12 +1461,14 @@
 
 </details>
 
-<details><summary><code>k2p_5ol_dwh</code> 蒙驁（2 名）</summary>
+<details><summary><code>k2p_5ol_dwh</code> 蒙驁（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 蒙驁 | [《史記・蒙恬列傳》][70] | [JSON](k2p_5ol_dwh.json) |
 | `A` | 蒙武 | [《史記・蒙恬列傳》][70] | [JSON](k2p_5ol_dwh_A.json) |
+| `AA` | 蒙恬 | [《史記・蒙恬列傳》][70] | [JSON](k2p_5ol_dwh_AA.json) |
+| `AB` | 蒙毅 | [《史記・蒙恬列傳》][70] | [JSON](k2p_5ol_dwh_AB.json) |
 
 </details>
 

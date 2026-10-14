@@ -24,7 +24,7 @@ export function personBundleURL(id, sourceRef = 'main') {
   return 'https://github.com/liuyao12/chinese-biographical-repository/blob/' + ref + '/exports/persons/' + encodeURIComponent(id) + '.json';
 }
 export function personCard(p, full = false, sourceRef = 'main', family = null) {
-  const relativeList = entries => entries?.length ? entries.map(x => `<a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}<details><summary>親屬來源</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>`).join('、') : '';
+  const relativeList = entries => entries?.length ? entries.map(x => `<a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}${x.role === 'assembly_inferred' ? '（父系暫定）' : ''}<details><summary>親屬來源</summary>${x.inference_note ? `<p>${h(x.inference_note)}</p>` : ''}${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>`).join('、') : '';
   const familyRows = family ? [
     ...family.ancestors.map((entries, i) => [ ['父','祖','曾祖'][i], entries, entries.length > 1 ? '多項來源主張，尚未統一' : '' ]),
     ['生母', family.mother, family.mother.length > 1 ? '多項生母記錄，身份或說法待整合' : ''],

@@ -7,6 +7,15 @@ except ImportError:
     from person_ids import family_path_errors
 
 
+def brother_connects(assertion, first, second):
+    """兄弟端點可反向核對；原斷言方向及長幼限定不改寫。"""
+    a, b = assertion['subject_person_id'], assertion['object_person_id']
+    return (assertion['predicate'] == 'brother'
+            and assertion.get('qualifiers', {}).get('shared_father') is not False
+            and not set(first).intersection(second)
+            and ((a in first and b in second) or (b in first and a in second)))
+
+
 def load_assemblies(root, catalog):
     path = Path(root) / 'registry/family-assemblies.json'
     if not path.exists():
@@ -74,10 +83,7 @@ def load_assemblies(root, catalog):
                                 brother = assertions.get(brother_id)
                                 valid = bool(sibling and brother
                                              and sibling.get('parent_person_id') == parent
-                                             and brother['predicate'] == 'brother'
-                                             and brother.get('qualifiers', {}).get('shared_father') is not False
-                                             and brother['subject_person_id'] in current_ids
-                                             and brother['object_person_id'] in sibling['source_person_ids'])
+                                             and brother_connects(brother, current_ids, sibling['source_person_ids']))
                                 if not valid:
                                     break
                                 current_ids = set(sibling['source_person_ids'])
@@ -93,9 +99,7 @@ def load_assemblies(root, catalog):
                         father = assertions[connection['sibling_father_assertion_id']]
                         if (connection['type'] != 'shared_father_through_sibling' or not sibling
                             or connection['status'] != 'contextual_provisional' or not connection['rationale']
-                            or brother['predicate'] != 'brother' or brother['subject_person_id'] not in ids
-                            or brother.get('qualifiers', {}).get('shared_father') is False
-                            or brother['object_person_id'] not in sibling['source_person_ids']
+                            or not brother_connects(brother, ids, sibling['source_person_ids'])
                             or father['predicate'] != 'father' or father['subject_person_id'] not in sibling['source_person_ids']
                             or father['object_person_id'] not in rows[parent]['source_person_ids']
                             or member['source_assertion_id'] is not None):

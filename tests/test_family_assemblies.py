@@ -10,6 +10,29 @@ from person_bundle import load_catalog, ROOT
 
 
 class FamilyAssembliesTests(unittest.TestCase):
+    def test_meng_family_keeps_reverse_sibling_source_and_inferred_parent_separate(self):
+        catalog = load_catalog(ROOT)
+        source, rows = load_assemblies(ROOT, catalog)
+        yi = source['k2p_5ol_dwh_AB']
+        self.assertEqual(yi['parent_person_id'], 'k2p_5ol_dwh_A')
+        self.assertIsNone(yi['source_assertion_id'])
+        self.assertEqual(yi['parent_connection']['sibling_assertion_id'], 'a-shiji088-003')
+        assertions = next(r for r in catalog[1] if r.get('chapter_id') == 'c-shiji-088-mengtian' and r.get('record_type') == 'person_assertion_set')['assertions']
+        brother = next(a for a in assertions if a['id'] == 'a-shiji088-003')
+        self.assertEqual((brother['subject_person_id'], brother['object_person_id']), ('k2p_5ol_dwh_AA', 'k2p_5ol_dwh_AB'))
+        self.assertEqual(brother['qualifiers']['source_term'], '蒙恬弟毅')
+        self.assertFalse(any(a['subject_person_id'] == 'k2p_5ol_dwh_AB' and a['predicate'] == 'father' for a in assertions))
+        self.assertEqual(source['k2p_5ol_dwh_AA']['source_assertion_id'], 'a-shiji088-002')
+
+    def test_reader_receives_inferred_edges_without_stored_ancestor_chain(self):
+        yi = json.loads((ROOT / 'data/corpus/profiles/k2p_5ol_dwh_AB.json').read_text())
+        wu = json.loads((ROOT / 'data/corpus/profiles/k2p_5ol_dwh_A.json').read_text())
+        self.assertIsNone(yi['assembled_identity']['source_assertion_id'])
+        self.assertEqual(yi['assembled_identity']['parent_connection']['sibling_assertion_id'], 'a-shiji088-003')
+        self.assertTrue(any(r['person_id'] == yi['id'] for r in wu['assembled_children']))
+        self.assertFalse(any(r['predicate'] == 'father' and r['subject_person_id'] == yi['id'] for r in yi['relations']))
+        self.assertNotIn('ancestors', yi)
+
     def test_single_sibling_connection_rejects_explicit_different_father(self):
         data = json.loads((ROOT / 'registry/family-assemblies.json').read_text())
         member = next(m for f in data['assemblies'] for m in f['members']

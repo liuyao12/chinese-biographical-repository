@@ -1,4 +1,4 @@
-// Traverse direct source relations; ancestor chains are never stored in profiles.
+// Traverse source relations and separately attributed assembly edges, never stored ancestor chains.
 export async function traceFamily(person, load) {
   const own = p => new Set(p.person_ids || [p.id]);
   function related(p, kind) {
@@ -17,6 +17,24 @@ export async function traceFamily(person, load) {
       if (id && !ids.has(id)) {
         if (!result.has(id)) result.set(id, {id, evidence: [], role: r.qualifiers?.parentage_role});
         result.get(id).evidence.push(...(r.evidence || []));
+      }
+    }
+    function assemblyEdge(row, id) {
+      const connection = row?.parent_connection;
+      if (!id || ids.has(id) || result.has(id) || !row.assembly_id
+          || !['editorial_preferred', 'contextual_provisional'].includes(row.status)
+          || connection?.status !== 'contextual_provisional'
+          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain'].includes(connection.type)
+          || !connection.rationale || !connection.references?.length) return;
+      result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
+        evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
+    }
+    if (kind === 'father' && ids.has(p.assembled_identity?.person_id)) {
+      assemblyEdge(p.assembled_identity, p.assembled_identity.parent_person_id);
+    }
+    if (kind === 'children') {
+      for (const row of p.assembled_children || []) {
+        if (ids.has(row.parent_person_id)) assemblyEdge(row, row.person_id);
       }
     }
     return [...result.values()];

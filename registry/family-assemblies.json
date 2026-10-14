@@ -1980,6 +1980,88 @@
           "source_assertion_id": "a-shiji111-026"
         }
       ]
+    },
+    {
+      "id": "family-meng-shiji088",
+      "root_person_id": "k2p_5ol_dwh",
+      "label": "蒙氏：蒙驁父系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "依「驁子曰武，武子曰恬」明示父子組接蒙驁、蒙武、蒙恬；蒙毅依明示弟稱及蒙恬父親作暫定共同父系組裝，保留推導層，不另造直接父子原文。分支字元不表示絕對排行，未知母親與遠祖不補。",
+      "members": [
+        {
+          "person_id": "k2p_5ol_dwh",
+          "representative_source_person_id": "k2p_5ol_dwh",
+          "source_person_ids": [
+            "k2p_5ol_dwh"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji088-ao"
+          ],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "k2p_5ol_dwh_A",
+          "representative_source_person_id": "k2p_5ol_dwh_A",
+          "source_person_ids": [
+            "k2p_5ol_dwh_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "k2p_5ol_dwh",
+          "source_assertion_id": "a-shiji088-001"
+        },
+        {
+          "person_id": "k2p_5ol_dwh_AA",
+          "representative_source_person_id": "k2p_5ol_dwh_AA",
+          "source_person_ids": [
+            "k2p_5ol_dwh_AA"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji087-meng",
+            "eq-shiji088-meng"
+          ],
+          "parent_person_id": "k2p_5ol_dwh_A",
+          "source_assertion_id": "a-shiji088-002"
+        },
+        {
+          "person_id": "k2p_5ol_dwh_AB",
+          "representative_source_person_id": "k2p_5ol_dwh_AB",
+          "source_person_ids": [
+            "k2p_5ol_dwh_AB"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji087-mengyi"
+          ],
+          "parent_person_id": "k2p_5ol_dwh_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "k2p_5ol_dwh_AA",
+            "sibling_assertion_id": "a-shiji088-003",
+            "sibling_father_assertion_id": "a-shiji088-002",
+            "status": "contextual_provisional",
+            "rationale": "「武子曰恬」「蒙恬弟毅」在同一家庭敘事中暫按兄弟共父組接蒙毅至蒙武；保留原文兄弟方向與長幼，不新增正文直接說蒙毅父蒙武的陳述，不補生母或絕對排行。",
+            "references": [
+              {
+                "id": "ref-shiji088-meng-brothers",
+                "work_title": "史記",
+                "book_label": "卷八十八",
+                "chapter_title": "蒙恬列傳",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690",
+                "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+                "quality": "text_checked",
+                "image_verified": false,
+                "scope": "同段明示蒙武子恬與蒙恬弟毅；只支持暫定父系組裝，不是獨立見證或新增直接父子原語。",
+                "chapter_id": "c-shiji-088-mengtian",
+                "source_id": "s-shiji-088-mengtian",
+                "paragraph_id": "c-shiji-088-mengtian:p001"
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
