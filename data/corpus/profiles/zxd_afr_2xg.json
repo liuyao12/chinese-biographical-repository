@@ -443,7 +443,45 @@
               "paragraph_id": "c-shiji-091-qingbu:p009",
               "quote": "淮南王至，上方踞床洗，召布入見，布（甚）大怒，悔來，欲自殺。出就舍，帳御飲食從官如漢王居，布又大喜過望。於是乃使人入九江。楚已使項伯收九江兵，盡殺布妻子。布使者頗得故人幸臣，將眾數千人歸漢。漢益分布兵而與俱北，收兵至成皋。四年七月，立布為淮南王，與擊項籍。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 203,
+            "year": -202,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "淮南王至，上方踞床洗，召布入見，布（甚）大怒，悔來，欲自殺。出就舍，帳御飲食從官如漢王居，布又大喜過望。於是乃使人入九江。楚已使項伯收九江兵，盡殺布妻子。布使者頗得故人幸臣，將眾數千人歸漢。漢益分布兵而與俱北，收兵至成皋。四年七月，立布為淮南王，與擊項籍。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-091-qingbu",
+                "source_id": "s-shiji-091-qingbu",
+                "paragraph_id": "c-shiji-091-qingbu:p009",
+                "quote": "淮南王至，上方踞床洗，召布入見，布（甚）大怒，悔來，欲自殺。出就舍，帳御飲食從官如漢王居，布又大喜過望。於是乃使人入九江。楚已使項伯收九江兵，盡殺布妻子。布使者頗得故人幸臣，將眾數千人歸漢。漢益分布兵而與俱北，收兵至成皋。四年七月，立布為淮南王，與擊項籍。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記·漢興以來諸侯王年表》原紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-017-t1-r004-c01"
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "203",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-017-t1-r004-c00"
+              }
+            ],
+            "rationale": "本篇四年七月立英布為淮南王，四年承漢紀年，七月在該公元年內。 數位公元年欄為編者對照；只換算年，不換古曆月日，不推官爵終期，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
         },
         "end": {
           "status": "unknown",
@@ -453,7 +491,7 @@
       },
       "interpretation_note": "四年七月立王與剖符用稱分存；皇子長同爵另立候選，不自動推英布失爵時刻。",
       "reviewer": "Codex（AI 代理）",
-      "period": "四年七月 → 未定"
+      "period": "西元前203年（暫定） → 未定"
     },
     {
       "id": "th-shiji091-015",
@@ -714,6 +752,114 @@
       "human_reviewed": false,
       "term": "追得斬布鄱陽",
       "quote": "漢將別擊布軍洮水南北，皆大破之，追得斬布鄱陽。"
+    },
+    {
+      "id": "pa-shiji091-001",
+      "person_id": "zxd_afr_2xg",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "六",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p001",
+          "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。",
+          "person_mention_id": "c-shiji-091-qingbu:m001-0000"
+        }
+      ],
+      "source_term": "黥布者，六人也",
+      "interpretation_note": "傳首地望，不當出生地。 未核書影，不補出生或埋葬資訊。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "黥布者，六人也",
+      "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。"
+    },
+    {
+      "id": "pa-shiji091-002",
+      "person_id": "zxd_afr_2xg",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "麗山",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p001",
+          "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。",
+          "person_mention_id": "c-shiji-091-qingbu:m001-0000"
+        }
+      ],
+      "source_term": "布已論輸麗山",
+      "interpretation_note": "刑徒被輸送地；麗山原字保存，不改驪山。 未核書影，不補出生或埋葬資訊。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "布已論輸麗山",
+      "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。"
+    },
+    {
+      "id": "pa-shiji091-003",
+      "person_id": "zxd_afr_2xg",
+      "relation": "migration_destination",
+      "place": {
+        "source_name": "江中",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p001",
+          "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。",
+          "person_mention_id": "c-shiji-091-qingbu:m001-0000"
+        }
+      ],
+      "source_term": "亡之江中為群盜",
+      "interpretation_note": "逃亡所至，並非明示固定居地。 未核書影，不補出生或埋葬資訊。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "亡之江中為群盜",
+      "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。"
+    },
+    {
+      "id": "pa-shiji091-008",
+      "person_id": "zxd_afr_2xg",
+      "relation": "death_place",
+      "place": {
+        "source_name": "茲鄉民田舍",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p017",
+          "quote": "遂西，與上兵遇蘄西會甀。布兵精甚，上乃壁庸城，望布軍置陳如項籍軍，上惡之。與布相望見，遙謂布曰：「何苦而反？」布曰：「欲為帝耳。」上怒罵之，遂大戰。布軍敗走，渡淮，數止戰，不利，與百餘人走江南。布故與番君婚，以故長沙哀王使人紿布，偽與亡，誘走越，故信而隨之番陽。番陽人殺布茲鄉民田舍，遂滅黥布。",
+          "person_mention_id": "c-shiji-091-qingbu:m017-0012"
+        }
+      ],
+      "source_term": "番陽人殺布茲鄉民田舍",
+      "interpretation_note": "保留本篇精細地稱及番陽語境，未核現代位置。 未核書影，不補出生或埋葬資訊。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "番陽人殺布茲鄉民田舍",
+      "quote": "遂西，與上兵遇蘄西會甀。布兵精甚，上乃壁庸城，望布軍置陳如項籍軍，上惡之。與布相望見，遙謂布曰：「何苦而反？」布曰：「欲為帝耳。」上怒罵之，遂大戰。布軍敗走，渡淮，數止戰，不利，與百餘人走江南。布故與番君婚，以故長沙哀王使人紿布，偽與亡，誘走越，故信而隨之番陽。番陽人殺布茲鄉民田舍，遂滅黥布。"
     }
   ],
   "occurrences": [
@@ -1019,8 +1165,67 @@
     "o0l_em5_5v9_B": "英布妻未名（黥布列傳候選）",
     "zxd_afr_2xg": "黥布"
   },
-  "dates": [],
-  "name_components": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 203,
+      "year": -202,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "淮南王至，上方踞床洗，召布入見，布（甚）大怒，悔來，欲自殺。出就舍，帳御飲食從官如漢王居，布又大喜過望。於是乃使人入九江。楚已使項伯收九江兵，盡殺布妻子。布使者頗得故人幸臣，將眾數千人歸漢。漢益分布兵而與俱北，收兵至成皋。四年七月，立布為淮南王，與擊項籍。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p009",
+          "quote": "淮南王至，上方踞床洗，召布入見，布（甚）大怒，悔來，欲自殺。出就舍，帳御飲食從官如漢王居，布又大喜過望。於是乃使人入九江。楚已使項伯收九江兵，盡殺布妻子。布使者頗得故人幸臣，將眾數千人歸漢。漢益分布兵而與俱北，收兵至成皋。四年七月，立布為淮南王，與擊項籍。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·漢興以來諸侯王年表》原紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "四",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-017-t1-r004-c01"
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "203",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-017-t1-r004-c00"
+        }
+      ],
+      "rationale": "本篇四年七月立英布為淮南王，四年承漢紀年，七月在該公元年內。 數位公元年欄為編者對照；只換算年，不換古曆月日，不推官爵終期，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji091-012",
+      "person_id": "zxd_afr_2xg",
+      "endpoint": "start",
+      "title": "淮南王"
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "zxd_afr_2xg",
+      "title": "淮南王",
+      "surname": "英",
+      "ming": "布",
+      "additional_names": [
+        "黥布"
+      ],
+      "chapter_id": "c-shiji-091-qingbu",
+      "paragraph_id": "c-shiji-091-qingbu:p001",
+      "quote": "黥布者，六人也，姓英氏。秦時為布衣。少年，有客相之曰：「當刑而王。」及壯，坐法黥。布欣然笑曰；「人相我當刑而王，幾是乎？」人有聞者，共俳笑之。布已論輸麗山，麗山之徒數十萬人，布皆與其徒長豪桀交通，乃率其曹偶，亡之江中為群盜。",
+      "note": "本篇開篇明記姓英氏，主語黥布後續簡稱布，第二段另見全稱英布；據明示姓氏與原稱暫分姓名，黥不是姓氏。淮南王授爵另見第九段，只供身份辨認，不表示所有敘事時點已受封。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "zxd_afr_2xg"
   ],
@@ -1066,6 +1271,26 @@
       ],
       "source_term": "追得斬布鄱陽",
       "interpretation_note": "本篇追斬黥布，原文鄱陽保存，不據外部地名改成他處。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji091-008",
+      "person_id": "zxd_afr_2xg",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "番陽人殺布茲鄉民田舍",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-091-qingbu",
+          "source_id": "s-shiji-091-qingbu",
+          "paragraph_id": "c-shiji-091-qingbu:p017",
+          "quote": "遂西，與上兵遇蘄西會甀。布兵精甚，上乃壁庸城，望布軍置陳如項籍軍，上惡之。與布相望見，遙謂布曰：「何苦而反？」布曰：「欲為帝耳。」上怒罵之，遂大戰。布軍敗走，渡淮，數止戰，不利，與百餘人走江南。布故與番君婚，以故長沙哀王使人紿布，偽與亡，誘走越，故信而隨之番陽。番陽人殺布茲鄉民田舍，遂滅黥布。",
+          "person_mention_id": "c-shiji-091-qingbu:m017-0012"
+        }
+      ],
+      "interpretation_note": "本篇茲鄉民田舍與高祖本紀追得斬布鄱陽各存；須核跨年，不直接套高祖十二年年欄。 未核書影，不以死亡補所有官爵終期；欲自殺不另記死亡。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }
