@@ -42,3 +42,21 @@ class QingbuIdentityTests(unittest.TestCase):
         self.assertEqual(ids('長沙哀王'), {'3lw_vex_s0b'})
         self.assertNotEqual(ids('其女'), ids('愛姬'))
         self.assertIn('六年，布與劉賈入九江', self.paragraph('091', 'p010')['text'])
+
+    def test_han_court_names_resolve_in_their_own_events(self):
+        for suffix, surface, pid in [('p002', '陳勝', 'pom_ycp_ha5'),
+                                     ('p013', '高后', 'i30_mjq_6q8_A'),
+                                     ('p013', '淮陰侯', 'ofc_8ei_jb7'),
+                                     ('p013', '梁王彭越', '9qt_orl_5f2'),
+                                     ('p014', '蕭相國', 'xd8_uww_5ok')]:
+            p = self.paragraph('091', suffix)
+            self.assertTrue(any(m['surface'] == surface and m['person_id'] == pid
+                                for m in p['mentions']))
+        self.assertTrue(any(m['surface'] == '蕭相國何' and m['person_id'] == 'xd8_uww_5ok'
+                            for m in self.paragraph('053', 'p001')['mentions']))
+
+    def test_common_identity_does_not_unify_narrative_years(self):
+        self.assertIn('十一年，高后誅淮陰侯', self.paragraph('091', 'p013')['text'])
+        self.assertIn('夏，漢誅梁王彭越', self.paragraph('091', 'p013')['text'])
+        self.assertIn('十年秋，陳豨反代地', self.paragraph('090', 'p011')['text'])
+        self.assertIn('漢十二年秋，黥布反', self.paragraph('053', 'p011')['text'])
