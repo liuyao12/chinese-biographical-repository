@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `u60_ta3_108` | 郈昭伯 | [《史記・魯周公世家》][15] | [JSON](u60_ta3_108.json) |
-| `u6m_zsb_0ps` | 條侯 | [《史記・游俠列傳》][106] | [JSON](u6m_zsb_0ps.json) |
-| `u7c_vw3_rqc` | 長妾（陳哀公留母） | [《史記・陳杞世家》][18] | [JSON](u7c_vw3_rqc.json) |
-| `u7i_t8j_qye` | 發（夏王） | [《史記・夏本紀》][2] | [JSON](u7i_t8j_qye.json) |
 | `u7n_hyp_nqf` | 孫臏 | [《史記・孫子吳起列傳》][47] | [JSON](u7n_hyp_nqf.json) |
 | `u7o_pk8_4ra` | 楊干（悼公弟） | [《史記・晉世家》][21] | [JSON](u7o_pk8_4ra.json) |
 | `u7v_btk_ix4` | 羅（孔氏宦者） | [《史記・衛康叔世家》][19] | [JSON](u7v_btk_ix4.json) |
@@ -434,7 +430,6 @@
 | `x4b_g9c_33o` | 長桑君 | [《史記・扁鵲倉公列傳》][87] | [JSON](x4b_g9c_33o.json) |
 | `x4k_z5z_vqm` | 費無忌 | [《史記・伍子胥列傳》][48] | [JSON](x4k_z5z_vqm.json) |
 | `x4n_p1z_u9i` | 芮子 | [《史記・田敬仲完世家》][28] | [JSON](x4n_p1z_u9i.json) |
-| `x4t_pbv_z7y` | 蕭相國 | [《史記・黥布列傳》][73] | [JSON](x4t_pbv_z7y.json) |
 | `x5r_2mn_f36` | 任文（匈奴列傳第55段） | [《史記・匈奴列傳》][92] | [JSON](x5r_2mn_f36.json) |
 | `x5u_3mf_dc8` | 王廖 | [《史記・秦始皇本紀》][6] | [JSON](x5u_3mf_dc8.json) |
 | `x6s_mnz_sy3` | 義姁 | [《史記・酷吏列傳》][104] | [JSON](x6s_mnz_sy3.json) |

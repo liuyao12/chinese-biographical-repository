@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `eyc_8y6_02q` | 郭隗（燕招賢者） | [《史記・燕召公世家》][16] | [JSON](eyc_8y6_02q.json) |
-| `ez4_g40_5ja` | 宋君（韓世家被執未名者） | [《史記・韓世家》][27] | [JSON](ez4_g40_5ja.json) |
-| `ez5_fp5_uga` | 衛皇后 | [《史記・平津侯主父列傳》][94] | [JSON](ez5_fp5_uga.json) |
-| `ez6_e2l_0ml` | 騎劫（燕將） | [《史記・樂毅列傳》][62] | [JSON](ez6_e2l_0ml.json) |
 | `ezo_kwy_dw4` | 饕餮 | [《史記・五帝本紀》][1] | [JSON](ezo_kwy_dw4.json) |
 | `ezp_adc_v7h` | 檮杌 | [《史記・五帝本紀》][1] | [JSON](ezp_adc_v7h.json) |
 | `ezu_to5_b2p` | 孟增 | [《史記・秦本紀》][5] | [JSON](ezu_to5_b2p.json) |
@@ -2239,6 +2235,10 @@
 | `u4w_p3a_v09` | 吳起 | [《史記・孟子荀卿列傳》][56] | [JSON](u4w_p3a_v09.json) |
 | `u5g_scl_2bs` | 徇北將軍 | [《史記・東越列傳》][96] | [JSON](u5g_scl_2bs.json) |
 | `u5y_hy5_zv9` | 呂祿女（朱虛侯妻） | [《史記・呂太后本紀》][9] | [JSON](u5y_hy5_zv9.json) |
+| `u60_ta3_108` | 郈昭伯 | [《史記・魯周公世家》][15] | [JSON](u60_ta3_108.json) |
+| `u6m_zsb_0ps` | 條侯 | [《史記・游俠列傳》][106] | [JSON](u6m_zsb_0ps.json) |
+| `u7c_vw3_rqc` | 長妾（陳哀公留母） | [《史記・陳杞世家》][18] | [JSON](u7c_vw3_rqc.json) |
+| `u7i_t8j_qye` | 發（夏王） | [《史記・夏本紀》][2] | [JSON](u7i_t8j_qye.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
