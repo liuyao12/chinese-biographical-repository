@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f1f_c8i_jm9` | 惠公（西周） | [《史記・周本紀》][4] | [JSON](f1f_c8i_jm9.json) |
-| `f1l_p1w_796` | 叔振鐸 | [《史記・周本紀》][4] | [JSON](f1l_p1w_796.json) |
-| `f1n_prq_vmh` | 鄭當時 | [《史記・平津侯主父列傳》][94] | [JSON](f1n_prq_vmh.json) |
 | `f23_b0p_hqg` | 髙渠彌 | [《史記・鄭世家》][24] | [JSON](f23_b0p_hqg.json) |
 | `f2n_1g8_h3m` | 趙倉唐 | [《史記・魏世家》][26] | [JSON](f2n_1g8_h3m.json) |
 | `f2v_ue2_c9t` | 孝惠 | [《史記・儒林列傳》][103] | [JSON](f2v_ue2_c9t.json) |
@@ -822,7 +819,6 @@
 | `kl1_9wf_nmq` | 孟姚 | [《史記・趙世家》][25] | [JSON](kl1_9wf_nmq.json) |
 | `klu_n74_itc` | 榮聶政姊 | [《史記・刺客列傳》][68] | [JSON](klu_n74_itc.json) |
 | `km2_zqy_p8q` | 越王句踐 | [《史記・仲尼弟子列傳》][49] | [JSON](km2_zqy_p8q.json) |
-| `km5_8u3_9yt` | 陳平 | [《史記・淮陰侯列傳》][74] | [JSON](km5_8u3_9yt.json) |
 | `km9_gzd_vly` | 南皮侯 | [《史記・絳侯周勃世家》][39] | [JSON](km9_gzd_vly.json) |
 | `kmo_vp5_qe1` | 黃霸 | [《史記・張丞相列傳》][78] | [JSON](kmo_vp5_qe1.json) |
 | `kmt_ukr_cid` | 筮史（趙世家夢占未名者） | [《史記・趙世家》][25] | [JSON](kmt_ukr_cid.json) |
@@ -2238,6 +2234,10 @@
 | `uaj_1xw_87k` | 鮑生 | [《史記・蕭相國世家》][35] | [JSON](uaj_1xw_87k.json) |
 | `uaj_dl7_7e4` | 王媼 | [《史記・高祖本紀》][8] | [JSON](uaj_dl7_7e4.json) |
 | `uau_p7f_yfa` | 田常引古 | [《史記・李斯列傳》][69] | [JSON](uau_p7f_yfa.json) |
+| `ub0_76o_vp6` | 薦髡客未名 | [《史記・孟子荀卿列傳》][56] | [JSON](ub0_76o_vp6.json) |
+| `ub3_cl2_ez9` | 蔡澤御者未名 | [《史記・范睢蔡澤列傳》][61] | [JSON](ub3_cl2_ez9.json) |
+| `ub3_zen_skw` | 餘善 | [《史記・東越列傳》][96] | [JSON](ub3_zen_skw.json) |
+| `ub5_3z9_j2d` | 桀 | [《史記・外戚世家》][31] | [JSON](ub5_3z9_j2d.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

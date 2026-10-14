@@ -39,3 +39,26 @@ class HanxinIdentityTests(unittest.TestCase):
         self.assertEqual(self.ids(p, '龍且'), {'sr6_5zr_1f3'})
         self.assertIn('騎將灌嬰擊', self.paragraph('008', 'p044')['text'])
         self.assertIn('殺龍且', p['text'])
+
+    def test_chenping_uses_the_same_yunmeng_arrest_account(self):
+        p = self.paragraph('092', 'p023')
+        self.assertEqual(self.ids(p, '陳平'), {'i3f_9l9_g53'})
+        q = self.paragraph('056', 'p011')
+        self.assertIn('僞遊雲夢', q['text'])
+        self.assertIn('赦信以爲淮陰侯', q['text'])
+
+    def test_jiang_guan_keep_distinct_people_and_temporal_evidence(self):
+        p = self.paragraph('092', 'p024')
+        self.assertEqual(self.ids(p, '絳'), {'koy_6jg_gcc'})
+        self.assertEqual(self.ids(p, '灌'), {'sj9_pfu_fwh'})
+        self.assertEqual(self.ids(p, '樊將軍噲'), {'b1r_inb_fts'})
+        self.assertIn('號絳侯', self.paragraph('057', 'p003')['text'])
+        q = self.paragraph('057', 'p011')
+        self.assertIn('孝文帝十一年卒', q['text'])
+        self.assertIn('子勝之代侯', q['text'])
+        self.assertIn('潁陰侯灌嬰', self.paragraph('095', 'p022')['text'])
+        records = json.loads((ROOT / 'corpus/shiji/092-equivalences.json').read_text())['decisions']
+        guan = next(x for x in records if x['id'] == 'eq-shiji092-review-guanying')
+        self.assertEqual(guan['status'], 'contextual_provisional')
+        self.assertIn('較弱', guan['rationale'])
+        self.assertFalse(guan['human_reviewed'])
