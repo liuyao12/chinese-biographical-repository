@@ -36,10 +36,11 @@ class JibuCoreFamilyTests(unittest.TestCase):
   people={p['id'] for p in read('registry/persons.json')['persons']};self.assertFalse(people & RETIRED)
   for pid in RETIRED:
    for folder in ['data/corpus/profiles','exports/persons']:self.assertFalse((ROOT/folder/(pid+'.json')).exists())
- def test_remaining_candidates_are_not_merged_by_name_only(self):
+ def test_social_people_targets_keep_spring_autumn_zhaos_separate(self):
   p=para('100','p005');ids={m['surface']:m['person_id'] for m in p['mentions']}
-  self.assertEqual(ids['灌夫'],'o7j_zzq_frd');self.assertEqual(ids['籍福'],'j9f_i2u_283')
-  self.assertEqual(next(m['person_id'] for m in para('100','p004')['mentions'] if m['surface']=='趙同'),'m0d_n8x_pj8')
+  self.assertEqual(ids['灌夫'],'h1w_44g_vef_A');self.assertEqual(ids['籍福'],'lp5_fix_eqs')
+  self.assertEqual(next(m['person_id'] for m in para('100','p004')['mentions'] if m['surface']=='趙同'),'qyn_07y_0gt')
+  self.assertNotEqual(next(m['person_id'] for m in para('039','p107')['mentions'] if m['surface']=='趙同'),'qyn_07y_0gt')
  def test_kinship_interpretation_and_social_metaphors_remain_separate(self):
   case=read('corpus/shiji/100.json')['annotation']['kinship_interpretation_cases'][0]
   self.assertEqual(case['default_alternative_id'],'shigu-maternal-half-brother');self.assertEqual(len(case['alternatives']),2)
