@@ -42,15 +42,103 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "漢五年",
           "evidence": [
             {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
+              "chapter_id": "c-shiji-099-liushu",
+              "source_id": "s-shiji-099-liushu",
+              "paragraph_id": "c-shiji-099-liushu:p001",
+              "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+              "person_mention_id": "c-shiji-099-liushu:m001-0000"
+            },
+            {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
               "chapter_id": "c-shiji-099-liushu",
               "source_id": "s-shiji-099-liushu",
               "paragraph_id": "c-shiji-099-liushu:p004",
-              "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。"
+              "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+              "person_mention_id": "c-shiji-099-liushu:m004-0012"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+            "evidence": [
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p001",
+                "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+                "person_mention_id": "c-shiji-099-liushu:m001-0000"
+              },
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p004",
+                "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+                "person_mention_id": "c-shiji-099-liushu:m004-0012"
+              }
+            ],
+            "references": [
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表數位西元對照（非原文）",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-022-t1-r005-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "rationale": "依來源漢五年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -58,9 +146,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。",
+      "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。 郎中與奉春君的漢五年取自第一至四段的同一說都敘事，非第四段單句明寫年；日期證據同列兩段。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前203至202年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji099-005",
@@ -92,15 +180,103 @@
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": null,
+          "date_expression": "漢五年",
           "evidence": [
             {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
+              "chapter_id": "c-shiji-099-liushu",
+              "source_id": "s-shiji-099-liushu",
+              "paragraph_id": "c-shiji-099-liushu:p001",
+              "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+              "person_mention_id": "c-shiji-099-liushu:m001-0000"
+            },
+            {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
               "chapter_id": "c-shiji-099-liushu",
               "source_id": "s-shiji-099-liushu",
               "paragraph_id": "c-shiji-099-liushu:p004",
-              "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。"
+              "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+              "person_mention_id": "c-shiji-099-liushu:m004-0012"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+            "evidence": [
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p001",
+                "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+                "person_mention_id": "c-shiji-099-liushu:m001-0000"
+              },
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p004",
+                "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+                "person_mention_id": "c-shiji-099-liushu:m004-0012"
+              }
+            ],
+            "references": [
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表數位西元對照（非原文）",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-022-t1-r005-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "rationale": "依來源漢五年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -108,9 +284,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。",
+      "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。 郎中與奉春君的漢五年取自第一至四段的同一說都敘事，非第四段單句明寫年；日期證據同列兩段。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前203至202年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji099-007",
@@ -145,12 +321,82 @@
           "date_expression": "漢七年",
           "evidence": [
             {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
               "chapter_id": "c-shiji-099-liushu",
               "source_id": "s-shiji-099-liushu",
               "paragraph_id": "c-shiji-099-liushu:p005",
-              "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。"
+              "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+              "person_mention_id": "c-shiji-099-liushu:m005-0073"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 201,
+              "year": -200
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 200,
+              "year": -199
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+            "evidence": [
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p005",
+                "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+                "person_mention_id": "c-shiji-099-liushu:m005-0073"
+              }
+            ],
+            "references": [
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "七",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r007-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表數位西元對照（非原文）",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "200",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-022-t1-r007-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "rationale": "依來源漢七年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -160,7 +406,7 @@
       },
       "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。",
       "reviewer": "Codex（AI 代理）",
-      "period": "漢七年 → 未定"
+      "period": "西元前201至200年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji099-008",
@@ -195,12 +441,82 @@
           "date_expression": "漢七年",
           "evidence": [
             {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-099",
               "chapter_id": "c-shiji-099-liushu",
               "source_id": "s-shiji-099-liushu",
               "paragraph_id": "c-shiji-099-liushu:p005",
-              "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。"
+              "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+              "person_mention_id": "c-shiji-099-liushu:m005-0073"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 201,
+              "year": -200
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 200,
+              "year": -199
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+            "evidence": [
+              {
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-099",
+                "chapter_id": "c-shiji-099-liushu",
+                "source_id": "s-shiji-099-liushu",
+                "paragraph_id": "c-shiji-099-liushu:p005",
+                "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+                "person_mention_id": "c-shiji-099-liushu:m005-0073"
+              }
+            ],
+            "references": [
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "七",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r007-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表數位西元對照（非原文）",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "200",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-022-t1-r007-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "rationale": "依來源漢七年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -210,7 +526,7 @@
       },
       "interpretation_note": "敘事用稱與實授分存；和親建議未實行，不作呂后女已嫁單于。家人子名為長公主不推高祖親生女。叔孫通徙官記任期變動，不以高帝死亡單獨終止所有官爵。秦漢博士分兩次明示授予，儒宗為太史公評稱。",
       "reviewer": "Codex（AI 代理）",
-      "period": "漢七年 → 未定"
+      "period": "西元前201至200年（暫定範圍） → 未定"
     }
   ],
   "addresses": [
@@ -265,6 +581,38 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "term": "齊人也",
+      "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。"
+    },
+    {
+      "id": "pa-shiji099-004",
+      "person_id": "e5s_bwt_y45",
+      "relation": "service_location",
+      "place": {
+        "source_name": "隴西",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": "漢五年",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p001",
+          "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+          "person_mention_id": "c-shiji-099-liushu:m001-0000"
+        }
+      ],
+      "source_term": "戍隴西",
+      "interpretation_note": "漢五年戍地；不是籍貫、出生地、定居地或死亡地，過洛陽亦不轉作籍貫。原紀年保留，未核定精確月份。 戍僅保存原文任事詞，不補具體官名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_position": "戍"
+      },
+      "term": "戍隴西",
       "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。"
     }
   ],
@@ -413,6 +761,314 @@
     "e5s_bwt_y45"
   ],
   "preferred_relations": [],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 203,
+        "year": -202
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 202,
+        "year": -201
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p001",
+          "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+          "person_mention_id": "c-shiji-099-liushu:m001-0000"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p004",
+          "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+          "person_mention_id": "c-shiji-099-liushu:m004-0012"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r005-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位西元對照（非原文）",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "202",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-022-t1-r005-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "依來源漢五年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji099-004",
+      "person_id": "e5s_bwt_y45",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "郎中"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 203,
+        "year": -202
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 202,
+        "year": -201
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p001",
+          "quote": "劉敬者，齊人也。漢五年，戍隴西，過洛陽，高帝在焉。婁敬脫輓輅，衣其羊裘，見齊人虞將軍曰：「臣願見上言便事。」虞將軍欲與之鮮衣，婁敬曰：「臣衣帛，衣帛見；衣褐，衣褐見：終不敢易衣。」於是虞將軍入言上。上召入見，賜食。",
+          "person_mention_id": "c-shiji-099-liushu:m001-0000"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p004",
+          "quote": "於是上曰：「本言都秦地者婁敬，『婁』者乃『劉』也。」賜姓劉氏，拜為郎中，號為奉春君。",
+          "person_mention_id": "c-shiji-099-liushu:m004-0012"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r005-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位西元對照（非原文）",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "202",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-022-t1-r005-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "依來源漢五年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji099-005",
+      "person_id": "e5s_bwt_y45",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "奉春君"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 201,
+        "year": -200
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 200,
+        "year": -199
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p005",
+          "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+          "person_mention_id": "c-shiji-099-liushu:m005-0073"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "七",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r007-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位西元對照（非原文）",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "200",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-022-t1-r007-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "依來源漢七年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji099-007",
+      "person_id": "e5s_bwt_y45",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "關內侯"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 201,
+        "year": -200
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 200,
+        "year": -199
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-099",
+          "chapter_id": "c-shiji-099-liushu",
+          "source_id": "s-shiji-099-liushu",
+          "paragraph_id": "c-shiji-099-liushu:p005",
+          "quote": "漢七年，韓王信反，高帝自往擊之。至晉陽，聞信與匈奴欲共擊漢，上大怒，使人使匈奴。匈奴匿其壯士肥牛馬，但見老弱及羸畜。使者十輩來，皆言匈奴可擊。上使劉敬復往使匈奴，還報曰：「兩國相擊，此宜夸矜見所長。今臣往，徒見羸瘠老弱，此必欲見短，伏奇兵以爭利。愚以為匈奴不可擊也。」是時漢兵已踰句注，二十餘萬兵已業行。上怒，罵劉敬曰：「齊虜！以口舌得官，今乃妄言沮吾軍。」械系敬廣武。遂往，至平城，匈奴果出奇兵圍高帝白登，七日然後得解。高帝至廣武，赦敬，曰：「吾不用公言，以困平城。吾皆已斬前使十輩言可擊者矣。」乃封敬二千戶，為關內侯，號為建信侯。",
+          "person_mention_id": "c-shiji-099-liushu:m005-0073"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "七",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r007-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位西元對照（非原文）",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "200",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-022-t1-r007-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "依來源漢七年及將相表紀年欄、另列的數位西元對照，前太初建亥歲首保留跨公元年範圍。本輪僅作年尺度；本段另見月份不表示已完成曆月換算，也不將並列事件背景年一律當授官年。只換算本職start端點，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji099-008",
+      "person_id": "e5s_bwt_y45",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "建信侯"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
