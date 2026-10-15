@@ -150,8 +150,8 @@ export function bindPersonCards(root) {
     catch {if (current === ticket) card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`;}
   }
   function hide() {ticket++; card.hidden = true;}
-  const over = e => {const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n) show(n);};
-  const out = e => {if (e.relatedTarget && (card.contains(e.relatedTarget) || e.relatedTarget.closest?.('.table-person-link, .cbr-person-link'))) return; timer = setTimeout(hide, 250);};
+  const over = e => {if (e.type === 'pointerover' && e.pointerType === 'touch') return; const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && (e.type !== 'focusin' || n.matches(':focus-visible'))) show(n);};
+  const out = e => {if (e.pointerType === 'touch') return; if (e.relatedTarget && (card.contains(e.relatedTarget) || e.relatedTarget.closest?.('.table-person-link, .cbr-person-link'))) return; timer = setTimeout(hide, 250);};
   const click = e => {const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && !e.metaKey && !e.ctrlKey) {e.preventDefault(); e.stopPropagation(); show(n, true);}};
   root.addEventListener('pointerover', over); root.addEventListener('focusin', over); root.addEventListener('pointerout', out); root.addEventListener('click', click, true);
   card.onpointerenter = () => clearTimeout(timer); card.onpointerleave = out;
