@@ -41,3 +41,28 @@ class TianDanIdentityTests(unittest.TestCase):
             self.assertNotIn(pid,people)
             self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
+
+    def test_opening_people_and_two_huai_kings_stay_distinct(self):
+        self.assertEqual(self.ids(self.paragraph('094',2),'陳涉'),{'pom_ycp_ha5'})
+        self.assertEqual(self.ids(self.paragraph('094',2),'周市'),{'i8y_6lu_30h'})
+        self.assertEqual(self.ids(self.paragraph('094',3),'魏王'),{'kez_re1_kcr'})
+        self.assertEqual(self.ids(self.paragraph('094',3),'魏王咎'),{'kez_re1_kcr'})
+        self.assertEqual(self.ids(self.paragraph('094',4),'項梁'),{'5xt_rg8_7zs_A'})
+        self.assertEqual(self.ids(self.paragraph('094',5),'楚懷王'),{'c2w_s7g_en0_*A'})
+        p=self.paragraph('007',6)
+        self.assertIn('自懷王入秦不反',p['text'])
+        self.assertIn('求楚懷王孫心',p['text'])
+        self.assertEqual(self.ids(p,'懷王'),{'c2w_s7g_en0','c2w_s7g_en0_*A'})
+
+    def test_tian_jian_xian_keeps_literal_characters_and_refusal_attribution(self):
+        self.assertEqual(self.ids(self.paragraph('094',3),'田間'),{'27q_nw7_jv8'})
+        self.assertEqual(self.ids(self.paragraph('094',4),'田閒'),{'27q_nw7_jv8'})
+        self.assertIn('楚懷王曰：「田假與國之王',self.paragraph('094',5)['text'])
+        self.assertIn('項梁曰：「田假為與國之王',self.paragraph('007',7)['text'])
+
+    def test_opening_candidate_files_retired(self):
+        people={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ('qy6_7i9_tgb','8ht_nw8_3lv','is3_9h6_hq6','5dl_6xj_187','okz_ham_pdc','8h7_82d_vjr','ld0_ysw_559','dgh_7wa_4c5'):
+            self.assertNotIn(pid,people)
+            self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
