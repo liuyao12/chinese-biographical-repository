@@ -337,3 +337,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 個人概數如「百有餘歲」可用 `reporting_status: direct_report`、`value: null` 及 `bounds: {lower: 100, lower_inclusive: false, upper: null, upper_inclusive: null}`。`source_number: 百`、`source_term: 百有餘歲` 原字分存，`source_qualification: null` 不補傳聞限定詞，亦不作確切一百歲、上界或已知計歲方式。既有帶蓋／或言的報齡仍另保留限定狀態。
 
 未決身份可保存一個已知候選及未知敘者的可能：`unknown_identity_possible: true` 時仍須至少一個有篇文證據的 `candidate_person_ids`，另以非空且不重複的 `unresolved_mention_ids` 指向所列段落內 `kind: unresolved`、`person_id: null` 的既有錨點。不能用未知可能旗標保留確定人物連結。〈張丞相列傳〉篇末太史公署稱依《索隱》的後人敘論說解除與前段敘者的直接同指，古注說法另存版本固定的 `references`；不因此補出作者姓名或改寫傳世正文。
+
+直接概數報齡亦可保留 `年六十餘` 型原詞：`source_number` 為六十，`source_term` 不補歲字，界限僅記大於六十、上界未知。自報年齡仍是來源主張，不當確切享年，不逆推出生年；各項須有原句與人物錨點。
