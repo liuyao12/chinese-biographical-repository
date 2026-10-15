@@ -1,0 +1,155 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-shiji-100-jibu",
+  "events": [
+    {
+      "id": "le-shiji100-001",
+      "person_id": "7ul_aeb_w4e",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "遂斬丁公",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-100",
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p006",
+          "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」",
+          "person_mention_id": "c-shiji-100-jibu:m006-0004"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "正文斬殺明文；項王滅後的背景不直接補處刑年，無明示死亡地。"
+    },
+    {
+      "id": "le-shiji100-002",
+      "person_id": "9qt_orl_5f2",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "夷三族",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-100",
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p008",
+          "quote": "使於齊，未還，漢召彭越，責以謀反，夷三族。已而梟彭越頭於雒陽下，詔曰：「有敢收視者，輒捕之。」布從齊還，奏事彭越頭下，祠而哭之。吏捕布以聞。上召布，罵曰：「若與彭越反邪？吾禁人勿收，若獨祠而哭之，與越反明矣。趣亨之。」方提趣湯，布顧曰：「願一言而死。」上曰：「何言？」布曰：「方上之困於彭城，敗滎陽、成皋閒，項王所以（遂）不能［遂］西，徒以彭王居梁地，與漢合從苦楚也。當是之時，彭王一顧，與楚則漢破，與漢而楚破。且垓下之會，微彭王，項氏不亡。天下已定，彭王剖符受封，亦欲傳之萬世。今陛下一徵兵於梁，彭王病不行，而陛下疑以爲反，反形未見，以苛小案誅滅之，臣恐功臣人人自危也。今彭王已死，臣生不如死，請就亨。」於是上乃釋布罪，拜爲都尉。",
+          "person_mention_id": "c-shiji-100-jibu:m008-0009"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "夷三族及今彭王已死共同支持死亡；梟首地雒陽不當死亡地。欒布趣亨、願死而後獲釋不是死亡。"
+    },
+    {
+      "id": "le-shiji100-003",
+      "person_id": "jx9_cov_qe0",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "景帝中五年",
+      "source_term": "景帝中五年薨",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-100",
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p010",
+          "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。",
+          "context": {
+            "kind": "prior_paragraph_subject",
+            "paragraph_id": "c-shiji-100-jibu:p009",
+            "person_mention_id": "c-shiji-100-jibu:m009-0090",
+            "quote": "孝文時，爲燕相，至將軍。布乃稱曰：「窮困不能辱身下志，非人也；富貴不能快意，非賢也。」於是嘗有德者厚報之，有怨者必以法滅之。呉（軍）［楚］反時，以軍功封兪侯，復爲燕相。燕齊之閒皆爲欒布立社，號曰欒公社。",
+            "intervening_paragraph_ids": []
+          }
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "承前欒布為死者；景帝是紀年君主。不補生年享年、不以卒年自動終止全部官爵。",
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 146,
+          "year": -145
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 145,
+          "year": -144
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-100",
+            "chapter_id": "c-shiji-100-jibu",
+            "source_id": "s-shiji-100-jibu",
+            "paragraph_id": "c-shiji-100-jibu:p010",
+            "quote": "景帝中五年薨。子賁嗣，爲太常，犧牲不如令，國除。",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-shiji-100-jibu:p009",
+              "person_mention_id": "c-shiji-100-jibu:m009-0090",
+              "quote": "孝文時，爲燕相，至將軍。布乃稱曰：「窮困不能辱身下志，非人也；富貴不能快意，非賢也。」於是嘗有德者厚報之，有怨者必以法滅之。呉（軍）［楚］反時，以軍功封兪侯，復爲燕相。燕齊之閒皆爲欒布立社，號曰欒公社。",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "references": [
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "中元年",
+            "table_cell_id": "shiji-022-t1-r058-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "五",
+            "table_cell_id": "shiji-022-t1-r062-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "145",
+            "table_cell_id": "shiji-022-t1-r062-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          }
+        ],
+        "rationale": "本傳景帝中五年與將相表中元年及五年欄對讀，數位西元145只作編者對照；前太初建亥歲首，未知月日，保存跨公元146至145年的範圍。非精確公曆日期，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}

@@ -257,7 +257,31 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji100-001",
+      "person_id": "7ul_aeb_w4e",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "遂斬丁公",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-100",
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p006",
+          "quote": "季布母弟丁公，爲楚將。丁公爲項羽逐窘髙祖彭城西，短兵接，髙祖急，顧丁公曰：「兩賢豈相戹哉！」於是丁公引兵而還，漢王遂解去。及項王滅，丁公謁見髙祖。髙祖以丁公徇軍中，曰：「丁公爲項王臣不忠，使項王失天下者，乃丁公也。」遂斬丁公，曰：「使後世爲人臣者無效丁公！」",
+          "person_mention_id": "c-shiji-100-jibu:m006-0004"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "正文斬殺明文；項王滅後的背景不直接補處刑年，無明示死亡地。"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

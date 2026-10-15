@@ -30,7 +30,7 @@ class JibuSocialIdentityTests(unittest.TestCase):
  def test_no_blood_kinship_or_life_date_is_added_for_social_metaphor(self):
   social={'cte_yao_v47','j32_wtj_khz_A','h1w_44g_vef_A','lp5_fix_eqs'}
   self.assertFalse(any(a['subject_person_id'] in social and a['object_person_id'] in social for a in read('corpus/shiji/100-assertions.json')['assertions']))
-  self.assertFalse((ROOT/'corpus/shiji/100-life-events.json').exists())
+  self.assertFalse(any(e['person_id'] in social for e in read('corpus/shiji/100-life-events.json')['events']))
  def test_all_five_retired_ids_and_json_files_are_removed(self):
   ids={p['id'] for p in read('registry/persons.json')['persons']};self.assertFalse(ids & OLD)
   for pid in OLD:
