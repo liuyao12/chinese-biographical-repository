@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][41] | [JSON](wl6_i22_vjk.json) |
-| `wl7_s8c_f4l` | 晉定公 | [《史記・趙世家》][26] | [JSON](wl7_s8c_f4l.json) |
-| `wle_6pj_6oo` | 吳起被延公主 | [《史記・孫子吳起列傳》][48] | [JSON](wle_6pj_6oo.json) |
 | `wlx_03b_0j3` | 周苛 | [《史記・魏豹彭越列傳》][73] | [JSON](wlx_03b_0j3.json) |
 | `wmx_rqf_b09` | 慶舍 | [《史記・趙世家》][26] | [JSON](wmx_rqf_b09.json) |
 | `wn0_q61_j1n` | 報丙 | [《史記・殷本紀》][4]、[《史記・三代世表》][114] | [JSON](wn0_q61_j1n.json) |
@@ -501,7 +498,6 @@
 [38]: https://zh.wikisource.org/w/index.php?title=史記/卷055&oldid=2666612
 [39]: https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615
 [40]: https://zh.wikisource.org/w/index.php?title=史記/卷057&oldid=1569360
-[41]: https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555
 [42]: https://zh.wikisource.org/w/index.php?title=史記/卷059&oldid=2621125
 [43]: https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290
 [46]: https://zh.wikisource.org/w/index.php?title=史記/卷063&oldid=7903601

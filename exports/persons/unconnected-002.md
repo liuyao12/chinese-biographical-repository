@@ -481,7 +481,6 @@
 | `jjm_xtb_fcj` | 扈輒 | [《史記・魏豹彭越列傳》][73] | [JSON](jjm_xtb_fcj.json) |
 | `jk8_8gt_vmi` | 楊仆 | [《史記・朝鮮列傳》][98] | [JSON](jk8_8gt_vmi.json) |
 | `jke_ad4_46c` | 夏禹 | [《史記・平津侯主父列傳》][95] | [JSON](jke_ad4_46c.json) |
-| `jko_7a4_o8v` | 薄太后 | [《史記・楚元王世家》][33] | [JSON](jko_7a4_o8v.json) |
 | `jkv_j2g_82m` | 高祖 | [《史記・游俠列傳》][107] | [JSON](jkv_j2g_82m.json) |
 | `jlj_mm0_6xg` | 衛頃 | [《史記・太史公自序》][113] | [JSON](jlj_mm0_6xg.json) |
 | `jlp_iua_bsf` | 齊宣王 | [《史記・魏世家》][27] | [JSON](jlp_iua_bsf.json) |
@@ -1778,7 +1777,6 @@
 | `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][26] | [JSON](t8t_xtf_6tp.json) |
 | `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][113] | [JSON](t9n_2o5_k16.json) |
 | `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][4] | [JSON](ta6_n0m_glj.json) |
-| `tae_3uh_xsc` | 楚死事相張羽兄未名 | [《史記・吳王濞列傳》][89] | [JSON](tae_3uh_xsc.json) |
 | `tal_mu5_li4` | 孟嘗君母未名 | [《史記・孟嘗君列傳》][58] | [JSON](tal_mu5_li4.json) |
 | `taq_82s_0na` | 景公太子（田世家先卒未名者） | [《史記・田敬仲完世家》][29] | [JSON](taq_82s_0na.json) |
 | `taw_n8v_eh1` | 中康 | [《史記・夏本紀》][3] | [JSON](taw_n8v_eh1.json) |
@@ -2220,6 +2218,9 @@
 | `wka_94j_2k5` | 少姬 | [《史記・管晏列傳》][45] | [JSON](wka_94j_2k5.json) |
 | `wkl_tds_yi3` | 子路 | [《史記・儒林列傳》][104] | [JSON](wkl_tds_yi3.json) |
 | `wkq_pb7_afj` | 管 | [《史記・淮南衡山列傳》][101] | [JSON](wkq_pb7_afj.json) |
+| `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][41] | [JSON](wl6_i22_vjk.json) |
+| `wl7_s8c_f4l` | 晉定公 | [《史記・趙世家》][26] | [JSON](wl7_s8c_f4l.json) |
+| `wle_6pj_6oo` | 吳起被延公主 | [《史記・孫子吳起列傳》][48] | [JSON](wle_6pj_6oo.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
