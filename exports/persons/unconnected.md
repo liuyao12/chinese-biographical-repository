@@ -203,7 +203,6 @@
 | `1hq_b3w_91p` | 連稱 | [《史記・齊太公世家》][15] | [JSON](1hq_b3w_91p.json) |
 | `1hy_i0l_xfz` | 棼如（喬如弟） | [《史記・魯周公世家》][16] | [JSON](1hy_i0l_xfz.json) |
 | `1is_5g0_ufp` | 張春 | [《史記・曹相國世家》][37] | [JSON](1is_5g0_ufp.json) |
-| `1iv_bo2_ode` | 齊王畔約未名 | [《史記・吳王濞列傳》][89] | [JSON](1iv_bo2_ode.json) |
 | `1iw_7ww_ynr` | 朱彊 | [《史記・酷吏列傳》][105] | [JSON](1iw_7ww_ynr.json) |
 | `1jv_ziq_uxq` | 魏咎 | [《史記・陳丞相世家》][39] | [JSON](1jv_ziq_uxq.json) |
 | `1jw_cyx_37h` | 齊威王 | [《史記・貨殖列傳》][112] | [JSON](1jw_cyx_37h.json) |
@@ -712,7 +711,6 @@
 | `57o_eji_ods` | 周霸 | [《史記・儒林列傳》][104] | [JSON](57o_eji_ods.json) |
 | `584_79c_2t1` | 蜀王 | [《史記・張儀列傳》][53] | [JSON](584_79c_2t1.json) |
 | `598_66i_v3t` | 叔封 | [《史記・太史公自序》][113] | [JSON](598_66i_v3t.json) |
-| `59b_c0s_5il` | 濟北王劫守未名 | [《史記・吳王濞列傳》][89] | [JSON](59b_c0s_5il.json) |
 | `59m_lub_ftn` | 燕伋 | [《史記・仲尼弟子列傳》][50] | [JSON](59m_lub_ftn.json) |
 | `59o_pnz_um0` | 呂釋之嗣子（未名） | [《史記・呂太后本紀》][10] | [JSON](59o_pnz_um0.json) |
 | `5ad_lr6_exk` | 李牧北邊代將者未名 | [《史記・廉頗藺相如列傳》][64] | [JSON](5ad_lr6_exk.json) |
@@ -1857,7 +1855,6 @@
 | `dnm_d15_o58` | 韓眾 | [《史記・秦始皇本紀》][7] | [JSON](dnm_d15_o58.json) |
 | `dnw_uzl_q9q` | 鄭定公 | [《史記・伍子胥列傳》][49] | [JSON](dnw_uzl_q9q.json) |
 | `dnz_dal_a9s` | 伯氏子（郤宛宗姓奔吳者） | [《史記・楚世家》][23] | [JSON](dnz_dal_a9s.json) |
-| `doj_zhx_nm1` | 韓安國 | [《史記・梁孝王世家》][41] | [JSON](doj_zhx_nm1.json) |
 | `dok_si1_ksk` | 周子 | [《史記・田敬仲完世家》][29] | [JSON](dok_si1_ksk.json) |
 | `dox_ynp_tky` | 太史（鄭世家提要） | [《史記・太史公自序》][113] | [JSON](dox_ynp_tky.json) |
 | `dp1_ei3_tkq` | 韓長孺 | [《史記・太史公自序》][113] | [JSON](dp1_ei3_tkq.json) |
@@ -2176,7 +2173,6 @@
 | `fw7_8k1_43d` | 周最 | [《史記・孟嘗君列傳》][58] | [JSON](fw7_8k1_43d.json) |
 | `fw9_g5w_om8` | 堯 | [《史記・趙世家》][26] | [JSON](fw9_g5w_om8.json) |
 | `fwf_1wp_wzg` | 呂太后 | [《史記・齊悼惠王世家》][35] | [JSON](fwf_1wp_wzg.json) |
-| `fwu_nkh_9qr` | 張羽 | [《史記・吳王濞列傳》][89] | [JSON](fwu_nkh_9qr.json) |
 | `fx4_ybu_7b9` | 長盧 | [《史記・孟子荀卿列傳》][57] | [JSON](fx4_ybu_7b9.json) |
 | `fxa_91g_1cz` | 召滑 | [《史記・樗里子甘茂列傳》][54] | [JSON](fxa_91g_1cz.json) |
 | `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][27] | [JSON](fxh_d0f_a1l.json) |
@@ -2209,6 +2205,10 @@
 | `g2k_ddk_pxs` | 晉悼公 | [《史記・鄭世家》][25] | [JSON](g2k_ddk_pxs.json) |
 | `g2p_biu_r3z` | 湯 | [《史記・貨殖列傳》][112] | [JSON](g2p_biu_r3z.json) |
 | `g2v_d8d_els` | 李兌 | [《史記・趙世家》][26] | [JSON](g2v_d8d_els.json) |
+| `g46_8kv_3i8` | 韓信（韓王） | [《史記・太史公自序》][113] | [JSON](g46_8kv_3i8.json) |
+| `g4k_r0s_xar` | 夷吾 | [《史記・太史公自序》][113] | [JSON](g4k_r0s_xar.json) |
+| `g4n_b86_xmr` | 昭魚 | [《史記・魏世家》][27] | [JSON](g4n_b86_xmr.json) |
+| `g52_2o5_gmy` | 箕子 | [《史記・太史公自序》][113] | [JSON](g52_2o5_gmy.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

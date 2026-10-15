@@ -2671,7 +2671,7 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（120 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（121 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2685,7 +2685,7 @@
 | `ABC` | 興居（齊悼惠王子） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABC.json) |
 | `ABD` | 辟光（濟南王） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABD.json) |
 | `ABE` | 雄渠（膠東王） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABE.json) |
-| `ABF` | 劉章 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABF.json) |
+| `ABF` | 章（城陽景王） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABF.json) |
 | `ABFA` | 喜 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABFA.json) |
 | `ABFAA` | 延校勘建未定 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABFAA.json) |
 | `ABFAAA` | 義 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABFAAA.json) |
@@ -2694,12 +2694,13 @@
 | `ABFAAAAAA` | 恢城陽戴王 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABFAAAAAA.json) |
 | `ABFAAAAAAA` | 景城陽末王 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABFAAAAAAA.json) |
 | `ABG` | 賢（菑川王） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABG.json) |
-| `ABH` | 志（濟北王） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABH.json) |
+| `ABH` | 志（濟北王，後王菑川） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABH.json) |
 | `ABHA` | 建菑川靖王 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABHA.json) |
 | `ABHAA` | 遺 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABHAA.json) |
 | `ABHAAA` | 終古 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABHAAA.json) |
 | `ABHAAAA` | 尚菑川孝王 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABHAAAA.json) |
 | `ABHAAAAA` | 橫 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABHAAAAA.json) |
+| `ABI` | 齊孝王將閭 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABI.json) |
 | `AC` | 恒（高祖子） | [《史記・孝文本紀》][11] | [JSON](yqp_nlb_p1p_AC.json) |
 | `ACA` | 文帝太子（本卷未名） | [《史記・梁孝王世家》][41] | [JSON](yqp_nlb_p1p_ACA.json) |
 | `ACAA` | 徹（景帝子） | [《史記・孝武本紀》][13] | [JSON](yqp_nlb_p1p_ACAA.json) |
