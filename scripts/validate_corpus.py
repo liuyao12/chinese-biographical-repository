@@ -91,6 +91,35 @@ def normalized_date_errors(date):
     return errors
 
 
+def title_proposal_errors(proposal, chapter, person_ids):
+    """未實行稱號提議不計入人物提及或已持有稱號。"""
+    errors = []
+    def check(ok, message):
+        if not ok: errors.append(message)
+    check(proposal.get('person_id') in person_ids, '稱號提議人物未知')
+    check(isinstance(proposal.get('title'), str) and bool(proposal['title']), '稱號提議缺原稱')
+    check(proposal.get('outcome') == 'not_enacted', '稱號提議須明示未實行')
+    check(proposal.get('status') == 'contextual_provisional'
+          and bool(proposal.get('interpretation_note')) and bool(proposal.get('reviewer'))
+          and proposal.get('human_reviewed') is False, '稱號提議缺判讀或冒作人工覆核')
+    evidence = proposal.get('evidence')
+    check(isinstance(evidence, list) and bool(evidence), '稱號提議缺來源證據')
+    for e in evidence if isinstance(evidence, list) else []:
+        p = next((p for p in chapter['paragraphs'] if p['id'] == e.get('paragraph_id')), None)
+        check(bool(p) and e.get('chapter_id') == chapter['id'] and e.get('source_id') == chapter['source_id'], '稱號提議來源不符')
+        if not p: continue
+        quote = e.get('quote'); starts = [i for i in range(len(p['text']) + 1) if isinstance(quote, str) and quote and p['text'].startswith(quote, i)]
+        check(bool(starts), '稱號提議引句不符')
+        mentions = {m['id']: m for m in p['mentions']}
+        role = mentions.get(proposal.get('role_mention_id')); person = mentions.get(proposal.get('person_mention_id'))
+        check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
+              and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
+        check(bool(person) and person.get('kind') == 'person' and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
+        check(bool(role) and bool(person) and any(i <= min(role['start'], person['start'])
+              and max(role['end'], person['end']) <= i + len(quote) for i in starts), '稱號提議引句須涵蓋人物及職稱')
+    return errors
+
+
 def validate(root=ROOT):
     errors = []
     def check(ok, message):
@@ -947,6 +976,12 @@ def validate(root=ROOT):
                     check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
                           and a['subject_person_id'] in quoted_endpoints[1],
                           '人物陳述承接的前段客體及後段主體未見於引句')
+        proposal_ids = set()
+        for chapter in chapters.values():
+            for proposal in chapter['annotation'].get('title_proposals', []):
+                check(proposal.get('id') and proposal['id'] not in proposal_ids, '稱號提議 ID 缺失或重複')
+                proposal_ids.add(proposal.get('id'))
+                errors.extend(title_proposal_errors(proposal, chapter, set(pids)))
         age_ids = set(); age_report_groups = {}
         for chapter in chapters.values():
             for age in chapter['annotation'].get('age_assertions', []):

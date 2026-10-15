@@ -9,6 +9,7 @@
     "如意",
     "趙王",
     "趙王如意",
+    "王",
     "隱王如意"
   ],
   "titles": [
@@ -204,6 +205,14 @@
       "quote": "時高帝病甚，人有惡噲黨於呂氏，即上一日宮車晏駕，則噲欲以兵盡誅滅戚氏、趙王如意之屬。高帝聞之大怒，乃使陳平載絳侯代將，而即軍中斬噲。陳平畏呂后，執噲詣長安。至則高祖已崩，呂后釋噲，使復爵邑。"
     },
     {
+      "number": 96,
+      "category": "liezhuan",
+      "title": "張丞相列傳第三十六",
+      "paragraph_id": "c-shiji-096-zhang:p005",
+      "count": 16,
+      "quote": "「陛下即桀紂之主也。」於是上笑之，然尤憚周昌。及帝欲廢太子，而立戚姬子如意為太子，大臣固爭之，莫能得；上以留侯策即止。而周昌廷爭之彊，上問其說，昌為人吃，又盛怒，曰：「臣口不能言，然臣期期知其不可。陛下雖欲廢太子，臣期期不奉詔。」上欣然而笑。既罷，呂后側耳於東箱聽，見周昌，"
+    },
+    {
       "number": 99,
       "category": "liezhuan",
       "title": "劉敬叔孫通列傳第三十九",
@@ -386,6 +395,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-096-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-096",
+      "source_id": "s-shiji-096-zhang",
+      "source": {
+        "title": "史記／卷096",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷096",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
+        "revision_id": 8770206,
+        "accessed_on": "2026-10-09",
+        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
+          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-099-liushu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-099",
@@ -503,6 +536,27 @@
       },
       "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji096-003",
+      "subject_person_id": "yqp_nlb_p1p_AH",
+      "predicate": "mother",
+      "object_person_id": "thg_zvp_v5y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p005",
+          "quote": "昌為人彊力，敢直言，自蕭、曹等皆卑下之。昌嘗燕時入奏事，高帝方擁戚姬，昌還走，高帝逐得，騎周昌項，問曰：「我何如主也？」昌仰曰：「陛下即桀紂之主也。」於是上笑之，然尤憚周昌。及帝欲廢太子，而立戚姬子如意為太子，大臣固爭之，莫能得；上以留侯策即止。而周昌廷爭之彊，上問其說，昌為人吃，又盛怒，曰：「臣口不能言，然臣期期知其不可。陛下雖欲廢太子，臣期期不奉詔。」上欣然而笑。既罷，呂后側耳於東箱聽，見周昌，為跪謝曰：「微君，太子幾廢。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "戚姬子如意",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -511,6 +565,29 @@
     "yqp_nlb_p1p_AH": "如意（高祖子）"
   },
   "dates": [],
+  "title_proposals": [
+    {
+      "id": "tp-shiji096-001",
+      "person_id": "yqp_nlb_p1p_AH",
+      "title": "太子",
+      "outcome": "not_enacted",
+      "role_mention_id": "c-shiji-096-zhang:m005-0102",
+      "person_mention_id": "c-shiji-096-zhang:m005-0099",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p005",
+          "quote": "昌為人彊力，敢直言，自蕭、曹等皆卑下之。昌嘗燕時入奏事，高帝方擁戚姬，昌還走，高帝逐得，騎周昌項，問曰：「我何如主也？」昌仰曰：「陛下即桀紂之主也。」於是上笑之，然尤憚周昌。及帝欲廢太子，而立戚姬子如意為太子，大臣固爭之，莫能得；上以留侯策即止。而周昌廷爭之彊，上問其說，昌為人吃，又盛怒，曰：「臣口不能言，然臣期期知其不可。陛下雖欲廢太子，臣期期不奉詔。」上欣然而笑。既罷，呂后側耳於東箱聽，見周昌，為跪謝曰：「微君，太子幾廢。」"
+        }
+      ],
+      "status": "contextual_provisional",
+      "interpretation_note": "欲立如意為太子而大臣爭之、留侯策止；保存未實行提議，不列入稱號持有或如意太子任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "yqp_nlb_p1p_AH"
@@ -607,6 +684,27 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按明示父、大父、子及局部主語記來源主張，不把祖父改直接父，不由王位更換推父子；秦將屠者子為張良臣聞引語，未獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji096-003",
+      "subject_person_id": "yqp_nlb_p1p_AH",
+      "predicate": "mother",
+      "object_person_id": "thg_zvp_v5y",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p005",
+          "quote": "昌為人彊力，敢直言，自蕭、曹等皆卑下之。昌嘗燕時入奏事，高帝方擁戚姬，昌還走，高帝逐得，騎周昌項，問曰：「我何如主也？」昌仰曰：「陛下即桀紂之主也。」於是上笑之，然尤憚周昌。及帝欲廢太子，而立戚姬子如意為太子，大臣固爭之，莫能得；上以留侯策即止。而周昌廷爭之彊，上問其說，昌為人吃，又盛怒，曰：「臣口不能言，然臣期期知其不可。陛下雖欲廢太子，臣期期不奉詔。」上欣然而笑。既罷，呂后側耳於東箱聽，見周昌，為跪謝曰：「微君，太子幾廢。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "戚姬子如意",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存；父事不作生父，繼位不自行推父子，不補闕代或同母。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
