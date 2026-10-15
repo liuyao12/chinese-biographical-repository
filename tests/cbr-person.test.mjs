@@ -194,3 +194,17 @@ test('unresolved identities expose candidates and source references on the full 
  assert.doesNotMatch(personCard(p),/person-identity-cases/);
  assert.doesNotMatch(personCard({id:'synthetic_none',label:'無未決案'},true),/身份待考/);
 });
+
+
+test('same wording retains office and honorific types without labelling every ordinary title', () => {
+ const p={id:'synthetic_teng',label:'測試人物',titles:[{title:'滕公',kind:'office',period:'未定 → 未定'},{title:'滕公',kind:'honorific',period:'未定 → 未定'}]};
+ const html=personCard(p,true);assert.match(html,/person-title-kind">官稱/);assert.match(html,/person-title-kind">尊稱/);
+ assert.equal((html.match(/class="person-title"/g)||[]).length,2);
+ assert.doesNotMatch(personCard({...p,titles:[p.titles[0]]},true),/person-title-kind/);
+});
+
+test('name and place reading evidence is readable on the full profile and escapes sources', () => {
+ const p={id:'synthetic_general',label:'雍將軍',reading_decisions:[{rationale:'<script>bad</script>',evidence:[{paragraph_id:'c-shiji-095-fankuang:p012'}],references:[{title:'古注',quote:'縣名。',url:'https://example.com/source'},{quote:'<img>',url:'javascript:alert(1)'}]}]};
+ const html=personCard(p,true);assert.match(html,/名物辨讀/);assert.match(html,/縣名/);assert.match(html,/https:\/\/example.com\/source/);assert.match(html,/來源原文/);
+ assert.doesNotMatch(html,/<script>|<img>|javascript:/);assert.doesNotMatch(personCard(p),/person-reading-evidence/);
+});

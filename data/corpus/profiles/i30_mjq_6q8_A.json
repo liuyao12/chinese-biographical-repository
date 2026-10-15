@@ -1392,6 +1392,58 @@
       "decision_id": "d-shiji093-preferred-gaohou"
     }
   ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji093-preferred-gaohou",
+      "person_id": "i30_mjq_6q8_A",
+      "surfaces": [
+        "高祖"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-093-hanlu:p012",
+          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。"
+        }
+      ],
+      "rationale": "本段高后時、會高后病、為欲置酒見之承接高后主語；三家註數位正文作高后竟崩，首選此讀而保原字，不把該字當呂后真實別名。 僅辨人物指涉，未改正文、未推妻卒年，未核書影。",
+      "references": [
+        {
+          "id": "rv-shiji093-gaohou",
+          "paragraph_id": "c-shiji-093-hanlu:p012",
+          "person_ids": [
+            "i30_mjq_6q8_A",
+            "eav_dh2_8o8"
+          ],
+          "source_term": "高祖竟崩",
+          "received_reading": "高祖",
+          "reported_reading": "高后",
+          "commentator": "《史記三家註》數位正文（不是注家語）",
+          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，爲欲置酒見之。高后竟崩，不得見。盧綰妻亦病死。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷093&oldid=2514763",
+          "status": "reported_not_collated",
+          "adopted": false,
+          "image_verified": false,
+          "revision_id": 2514763
+        }
+      ],
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-093-hanlu:m012-0032",
+        "received_surface": "高祖",
+        "preferred_surface": "高后",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji093-gaohou",
+        "status": "editorial_provisional",
+        "rationale": "本段高后時、會高后病、為欲置酒見之承接高后主語；三家註數位正文作高后竟崩，首選此讀而保原字，不把該字當呂后真實別名。"
+      },
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "i30_mjq_6q8_A"

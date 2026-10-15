@@ -2,13 +2,56 @@
   "schema_version": 1,
   "id": "nlt_msz_iuz",
   "canonical_person_id": "nlt_msz_iuz",
-  "label": "焉氏（雍將軍）（樊酈滕灌列傳候選）",
-  "identity_note": null,
+  "label": "雍將軍（未名）",
+  "identity_note": "本段酈商所破的雍方未名將軍候選；焉氏依古注為縣名，不作姓名。未據此指定周類、蘇駔或其他楚秦將軍。",
   "review": "ai_provisional",
   "names": [
-    "焉氏"
+    "雍將軍"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji095-102",
+      "person_id": "nlt_msz_iuz",
+      "title": "雍將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p012",
+          "quote": "項羽滅秦，立沛公為漢王。漢王賜商爵信成君，以將軍為隴西都尉。別將定北地、上郡。破雍將軍焉氏，周類軍栒邑，蘇駔軍於泥陽。賜食邑武成六千戶。以隴西都尉從擊項籍軍五月，出鉅野，與鐘離眛戰，疾鬬，受梁相國印，益食邑四千戶。以梁相國將從擊項羽二歲三月，攻胡陵。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji095-102:a001",
+          "paragraph_id": "c-shiji-095-fankuang:p012",
+          "start": 40,
+          "end": 43,
+          "surface": "雍將軍",
+          "person_mention_id": "c-shiji-095-fankuang:m012-0043",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅記本處用稱；未知姓名、授職日期、離任及尊稱起訖不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -17,7 +60,7 @@
       "title": "樊酈滕灌列傳第三十五",
       "paragraph_id": "c-shiji-095-fankuang:p012",
       "count": 1,
-      "quote": "為漢王。漢王賜商爵信成君，以將軍為隴西都尉。別將定北地、上郡。破雍將軍焉氏，周類軍栒邑，蘇駔軍於泥陽。賜食邑武成六千戶。以隴西都尉從擊項籍軍五月，出鉅野，與鐘離眛戰，疾鬬，受梁相國印，益食邑四千戶。以梁相國將從擊項羽二歲三月，攻胡陵。"
+      "quote": "立沛公為漢王。漢王賜商爵信成君，以將軍為隴西都尉。別將定北地、上郡。破雍將軍焉氏，周類軍栒邑，蘇駔軍於泥陽。賜食邑武成六千戶。以隴西都尉從擊項籍軍五月，出鉅野，與鐘離眛戰，疾鬬，受梁相國印，益食邑四千戶。以梁相國將從擊項羽二歲三月，攻胡陵。"
     }
   ],
   "table_occurrences": [],
@@ -49,9 +92,49 @@
   ],
   "relations": [],
   "related_people": {
-    "nlt_msz_iuz": "焉氏（雍將軍）（樊酈滕灌列傳候選）"
+    "nlt_msz_iuz": "雍將軍（未名）"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji095-059",
+      "person_id": "nlt_msz_iuz",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-095-fankuang"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "surfaces": [
+        "雍將軍"
+      ],
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-095-fankuang:p012",
+          "quote": "項羽滅秦，立沛公為漢王。漢王賜商爵信成君，以將軍為隴西都尉。別將定北地、上郡。破雍將軍焉氏，周類軍栒邑，蘇駔軍於泥陽。賜食邑武成六千戶。以隴西都尉從擊項籍軍五月，出鉅野，與鐘離眛戰，疾鬬，受梁相國印，益食邑四千戶。以梁相國將從擊項羽二歲三月，攻胡陵。"
+        }
+      ],
+      "rationale": "焉氏據《索隱》縣名及《漢書》破章邯別將於烏氏的平行句辨為地名；將人物錨點移至雍將軍，保留未名對手候選，不補姓名，也不校改正文焉氏為烏氏。",
+      "references": [
+        {
+          "title": "《史記索隱·樊酈滕灌列傳》焉氏注",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷095&oldid=2514765",
+          "quote": "上音於然反，下音支。縣名，屬安定。《漢書》云破章邯別將。",
+          "status": "reported_not_collated",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書·樊酈滕灌傅靳周傳》酈商段",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+          "quote": "別定北地郡，破章邯別將於烏氏、栒邑、泥陽，賜食邑武城六千戶。",
+          "status": "text_checked",
+          "image_verified": false
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "nlt_msz_iuz"
