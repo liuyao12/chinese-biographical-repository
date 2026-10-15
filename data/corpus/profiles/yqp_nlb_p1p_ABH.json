@@ -9,7 +9,8 @@
     "濟北王志",
     "志",
     "安都侯志",
-    "濟北王"
+    "濟北王",
+    "安都侯"
   ],
   "titles": [
     {
@@ -292,7 +293,80 @@
       "quote": "分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r043-c07",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月丙寅，初王志元年。齊悼惠王子，故安都侯。",
+      "year": {
+        "era": "BCE",
+        "value": 164,
+        "astronomical_year": -163,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "164",
+        "source_cell_id": "shiji-017-t1-r043-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r043-c07-review-007",
+        "start": 7,
+        "end": 8,
+        "surface": "志",
+        "person_id": "yqp_nlb_p1p_ABH",
+        "status": "contextual_provisional",
+        "interpretation_note": "本格受封者本名與舊侯號同指，與052本名及前爵對讀；平昌與昌平、扐與勒等字序或字形各依見證保留，不將姓名當全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-052",
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p024",
+            "person_id": "yqp_nlb_p1p_ABH",
+            "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
+            "source_revision": 5977113
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r043-c07",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月丙寅，初王志元年。齊悼惠王子，故安都侯。",
+      "year": {
+        "era": "BCE",
+        "value": 164,
+        "astronomical_year": -163,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "164",
+        "source_cell_id": "shiji-017-t1-r043-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r043-c07-review-018",
+        "start": 18,
+        "end": 21,
+        "surface": "安都侯",
+        "person_id": "yqp_nlb_p1p_ABH",
+        "status": "contextual_provisional",
+        "interpretation_note": "本格受封者本名與舊侯號同指，與052本名及前爵對讀；平昌與昌平、扐與勒等字序或字形各依見證保留，不將姓名當全域別名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-052",
+            "chapter_id": "c-shiji-052-qidaohui",
+            "source_id": "s-shiji-052-qidaohui",
+            "paragraph_id": "c-shiji-052-qidaohui:p024",
+            "person_id": "yqp_nlb_p1p_ABH",
+            "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
+            "source_revision": 5977113
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -340,6 +414,29 @@
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
           "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-017",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source": {
+        "id": "table-witness-shiji-017",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-017",
+        "chapter_id": "table-chapter-shiji-017",
+        "url": "https://zh.wikisource.org/wiki/史記/卷017",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+        "revision": "2607010",
+        "accessed": "2026-10-13",
+        "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],
