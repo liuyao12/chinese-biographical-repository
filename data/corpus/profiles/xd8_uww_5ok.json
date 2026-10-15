@@ -784,6 +784,48 @@
       "interpretation_note": "授予與用稱分存；假王請求不作已授，稱病被捕死亡不自動補任期終點。連敖依頁面註記保留改字前形，不宣稱已核底本。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji096-010",
+      "person_id": "xd8_uww_5ok",
+      "title": "相國",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p002",
+          "quote": "遷為計相，一月，更以列侯為主計四歲。是時蕭何為相國，而張蒼乃自秦時為柱下史，明習天下圖書計籍。蒼又善用算律歷，故令蒼以列侯居相府，領主郡國上計者。黥布反亡，漢立皇子長為淮南王，而張蒼相之。十四年，遷為御史大夫。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji096-010:a001",
+          "paragraph_id": "c-shiji-096-zhang:p002",
+          "start": 23,
+          "end": 25,
+          "surface": "相國",
+          "person_mention_id": "c-shiji-096-zhang:m002-0020",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、轉任、用稱與諡稱分存；未明示時任期起訖未知。欲任竇廣國及欲令周苛將皆不作實授；死亡或首次用稱不自動作任期端點。十四年、四年、二年等先保留原語，不擅定年號或西曆。曹窋免職段含（不）異文，未先強定其終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -1076,6 +1118,14 @@
       "paragraph_id": "c-shiji-095-fankuang:p017",
       "count": 2,
       "quote": "高祖使。上降沛一日，高祖為沛公，賜嬰爵七大夫，以為太僕。從攻胡陵，嬰與蕭何降泗水監平，平以胡陵降，賜嬰爵五大夫。從擊秦軍碭東，攻濟陽，下戶牖，破李由軍雍丘下，以兵車趣攻戰疾，賜爵執帛。常以太僕奉車從擊章邯軍東阿、濮陽下，以兵車趣攻戰疾，破之，賜爵執珪。復常奉車從擊趙賁軍開封"
+    },
+    {
+      "number": 96,
+      "category": "liezhuan",
+      "title": "張丞相列傳第三十六",
+      "paragraph_id": "c-shiji-096-zhang:p002",
+      "count": 4,
+      "quote": "遷為計相，一月，更以列侯為主計四歲。是時蕭何為相國，而張蒼乃自秦時為柱下史，明習天下圖書計籍。蒼又善用算律歷，故令蒼以列侯居相府，領主郡國上計者。黥布反亡，漢立皇子長為淮南王，而張蒼相之。十四年，遷為御史大夫。"
     }
   ],
   "table_occurrences": [
@@ -1418,6 +1468,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
           "note": "全37個HTML區塊已讀，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-096-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-096",
+      "source_id": "s-shiji-096-zhang",
+      "source": {
+        "title": "史記／卷096",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷096",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
+        "revision_id": 8770206,
+        "accessed_on": "2026-10-09",
+        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
+          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
         }
       }
     }
