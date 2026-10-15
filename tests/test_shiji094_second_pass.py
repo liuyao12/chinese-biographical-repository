@@ -159,3 +159,21 @@ class TianDanIdentityTests(unittest.TestCase):
             self.assertTrue(any(m['surface']==surface and m['person_id']==pid for m in cells[cid]['person_mentions']))
         self.assertEqual(cells['shiji-016-t2-r006-c10']['text'],'二十四。田榮擊殺市。')
         self.assertEqual(cells['shiji-016-t2-r007-c09']['text'],'六。田榮擊殺安。')
+
+    def test_tian_xian_parallel_reading_keeps_received_surface(self):
+        c=json.loads((ROOT/'corpus/shiji/094.json').read_text())
+        v=next(v for v in c['annotation']['reported_variants'] if v['id']=='rv-shiji094-tianxian')
+        self.assertEqual(v['received_reading'],'田間')
+        self.assertEqual(v['reported_reading'],'田閒')
+        self.assertEqual(v['person_ids'],['27q_nw7_jv8'])
+        self.assertFalse(v['adopted']);self.assertFalse(v['image_verified'])
+        self.assertIn('田間為將',self.paragraph('094',3)['text'])
+
+    def test_unresolved_commentary_year_does_not_override_table_year(self):
+        rows=json.loads((ROOT/'corpus/shiji/094-life-events.json').read_text())['events']
+        d=next(e for e in rows if e['person_id']=='0hs_fg6_1qj')['normalized_date']
+        self.assertEqual(d['era_year'],205)
+        ref=next(r for r in d['references'] if r['scope']=='commentary_chronology_unresolved_not_adopted')
+        self.assertEqual(ref['quote'],'三年正月。')
+        self.assertEqual(ref['revision_id'],2514764)
+        self.assertIn('所屬紀年尚待核定',d['rationale'])
