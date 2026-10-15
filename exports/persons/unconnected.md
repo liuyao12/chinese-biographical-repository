@@ -1086,7 +1086,6 @@
 | `7w8_il9_9fv` | 宣太后 | [《史記・匈奴列傳》][93] | [JSON](7w8_il9_9fv.json) |
 | `7wj_a59_ofd` | 趙君（京兆尹） | [《史記・張丞相列傳》][79] | [JSON](7wj_a59_ofd.json) |
 | `7wk_awi_f4x` | 單于未詳名 | [《史記・酈生陸賈列傳》][80] | [JSON](7wk_awi_f4x.json) |
-| `7x0_k51_hpv` | 文王醫案候選 | [《史記・扁鵲倉公列傳》][88] | [JSON](7x0_k51_hpv.json) |
 | `7x2_x55_1b6` | 蚩尤 | [《史記・五帝本紀》][2] | [JSON](7x2_x55_1b6.json) |
 | `7xa_un5_pdp` | 昧 | [《史記・鄭世家》][25] | [JSON](7xa_un5_pdp.json) |
 | `7y1_9ih_ndo` | 公叔祖類 | [《史記・周本紀》][5]、[《史記・三代世表》][114] | [JSON](7y1_9ih_ndo.json) |
@@ -2208,6 +2207,8 @@
 | `g1r_0em_2tf` | 莊周 | [《史記・老子韓非列傳》][46] | [JSON](g1r_0em_2tf.json) |
 | `g1z_pgh_00e` | 產（籍若侯） | [《史記・衛將軍驃騎列傳》][94] | [JSON](g1z_pgh_00e.json) |
 | `g22_f2k_eav` | 趙豹 | [《史記・趙世家》][26] | [JSON](g22_f2k_eav.json) |
+| `g2b_tzq_wxz` | 韓非 | [《史記・秦始皇本紀》][7] | [JSON](g2b_tzq_wxz.json) |
+| `g2e_ui5_mts` | 伍徐 | [《史記・陳涉世家》][31] | [JSON](g2e_ui5_mts.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

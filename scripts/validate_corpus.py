@@ -1337,7 +1337,15 @@ def validate(root=ROOT):
                     except ImportError:
                         from date_ranges import year_range_errors
                     check('normalized_date' not in event, '生卒或事件跨年範圍不得另填確定單年')
-                    errors.extend(year_range_errors(event['normalized_date_range'], event['evidence'], expression))
+                    year_window = event['normalized_date_range']
+                    range_expression = expression
+                    if isinstance(year_window, dict) and 'parallel_event' in year_window:
+                        parallel = dict(year_window, basis=year_window['parallel_event'])
+                        valid = expression is None and parallel_event_date(parallel)
+                        check(valid, '生卒跨年範圍平行事件對讀無效')
+                        if valid:
+                            range_expression = year_window['parallel_event']['source_event_quote']
+                    errors.extend(year_range_errors(year_window, event['evidence'], range_expression))
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')

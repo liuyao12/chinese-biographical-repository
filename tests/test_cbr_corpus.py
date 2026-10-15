@@ -165,6 +165,15 @@ class CorpusTests(unittest.TestCase):
     def test_title_bare_month_yu_cannot_be_year(self):
         self.change('corpus/shiji/104-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji104-013')['reported_duration'].update(unit='title_year', counting='unspecified_source_years'))
         self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_parallel_death_window_rejects_unmatched_event(self):
+        self.change('corpus/shiji/105-life-events.json', lambda d: d['events'][-1]['normalized_date_range']['parallel_event'].update(reference_event_quote='虛構死亡'))
+        self.assertIn('生卒跨年範圍平行事件對讀無效', v.validate(self.root))
+    def test_parallel_death_window_rejects_absent_source_quote(self):
+        self.change('corpus/shiji/105-life-events.json', lambda d: d['events'][-1]['normalized_date_range']['parallel_event'].update(source_event_quote='虢太子死'))
+        self.assertIn('生卒跨年範圍平行事件對讀無效', v.validate(self.root))
+    def test_parallel_death_window_rejects_unmatched_year(self):
+        self.change('corpus/shiji/105-life-events.json', lambda d: d['events'][-1]['normalized_date_range']['parallel_event'].update(reference_year_quote='166'))
+        self.assertIn('生卒跨年範圍平行事件對讀無效', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))
