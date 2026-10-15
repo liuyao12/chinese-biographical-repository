@@ -2,7 +2,7 @@ import {escapeHTML as h} from './core.js';
 import {chapterURL} from './corpus-reader.js';
 import {yearLabel} from './historical-tables.js';
 import {traceFamily} from './person-family.js';
-import {summarizeLife, ageLabel} from './person-life.js';
+import {summarizeLife, ageLabel, lifeYearLabel} from './person-life.js';
 export const loadFamily = p => traceFamily(p, loadPerson);
 export function tableOccurrenceURL(x) {
   const match = /^shiji-(\d{3})$/.exec(x.table_id || '');
@@ -38,11 +38,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p></details>` : '';
   const life = summarizeLife(p);
   const lifeRow = (label, events) => {
-    const dated = events.filter(e => e.normalized_date?.era_year || e.date_expression);
+    const dated = events.filter(e => lifeYearLabel(e) || e.date_expression);
     return dated.length ? `<dt>${label}</dt><dd>${dated.map(e => {
-      const date = e.normalized_date;
-      const values = [date?.era_year ? `<strong>西元${date.era === 'BCE' ? '前' : ''}${h(date.era_year)}年</strong>` : '', e.date_expression ? h(e.date_expression) : ''].filter(Boolean);
-      return `<div>${values.join(' · ')}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details></div>`;
+      const values = [lifeYearLabel(e) ? `<strong>${h(lifeYearLabel(e))}</strong>` : '', e.date_expression ? h(e.date_expression) : ''].filter(Boolean);
+      return `<div>${values.join(' · ')}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.normalized_date_range && full ? dateReferences(e.normalized_date_range) : ''}</details></div>`;
     }).join('')}</dd>` : '';
   };
   const ages = life.ages.filter(e => Number.isInteger(e.value) || e.qualified_source_term || e.source_term);
@@ -51,8 +50,6 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     const values = [e.date_expression, date?.era_year ? `西元${date.era === 'BCE' ? '前' : ''}${date.era_year}年` : ''].filter(Boolean);
     return values.length ? `<small> · ${values.map(h).join(' · ')}（報齡時）</small>` : '';
   };
-  const lifeRows = lifeRow('生', life.birth) + lifeRow('卒', life.death) + (ages.length ? `<dt>年齡</dt><dd>${ages.map(e => `${h(ageLabel(e))}${ageWhen(e)}<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('')}</dd>` : '');
-  const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
   const grouped = new Map();
   for (const x of p.titles || []) {
     const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify([x.kind || null, x.jurisdictions || null]);
@@ -120,6 +117,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
       birth_place: '出生地', residence: '居地', service_location: '任事地', death_place: '卒地', burial_place: '葬地'}[x.relation];
     return label && x.place?.source_name ? label + '：' + x.place.source_name : x.term;
   };
+  const lifeRows = lifeRow('生', life.birth) + lifeRow('卒', life.death) + (ages.length ? `<dt>年齡</dt><dd>${ages.map(e => `${h(ageLabel(e))}${ageWhen(e)}<details><summary>報齡原文</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}</details>`).join('')}</dd>` : '');
+  const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
   const variants = p.reported_variants || [];
   const relations = p.relations || [], labels = {father:'父',mother:'生母',stepmother:'後母',adoptive_mother:'所母',spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父'};
   const identityCasesHTML = full && p.unresolved_identity_cases?.length ? `<section class="person-identity-cases"><h4>身份待考</h4>${p.unresolved_identity_cases.map(c => `<details><summary>分開保留的候選人物</summary><p>${h(c.note)}</p><p>${c.candidate_person_ids.map(id => `<a href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`).join('、')}</p>${evidenceLinks(c.paragraph_ids.map(paragraph_id => ({chapter_id:paragraph_id.split(':')[0],paragraph_id})))}${dateReferences(c)}</details>`).join('')}</section>` : '';

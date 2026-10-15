@@ -217,3 +217,11 @@ test('unenacted proposals remain separate from held titles and only appear on th
  assert.doesNotMatch(personCard(p),/person-title-proposals/);
  assert.doesNotMatch(personCard({id:'synthetic_none',label:'無提議'},true),/擬議而未授/);
 });
+
+test('life summary retains explicit year ranges, source age and reference safety', () => {
+ const evidence=[{chapter_id:'c-shiji-096-zhang',paragraph_id:'c-shiji-096-zhang:p014',quote:'孝景前五年，蒼卒。'}];
+ const range={earliest:{era:'BCE',era_year:153,year:-152},latest:{era:'BCE',era_year:152,year:-151},references:[{url:'https://example.com/calendar',title:'曆法',quote:'十月為歲首'},{url:'javascript:alert(1)',quote:'<script>bad</script>'}]};
+ const p={id:'synthetic_cang',label:'測試人物',life_events:[{person_id:'synthetic_cang',event_type:'death',date_expression:'孝景前五年',normalized_date_range:range,evidence}],age_assertions:[{person_id:'synthetic_cang',value:null,source_term:'百有餘歲',bounds:{lower:100,lower_inclusive:false,upper:null},evidence}]};
+ const html=personCard(p,true);assert.match(html,/西元前153至152年（暫定範圍）/);assert.match(html,/孝景前五年/);assert.match(html,/百有餘歲/);assert.match(html,/https:\/\/example.com\/calendar/);
+ assert.doesNotMatch(html,/100 歲|享年|<strong>西元前152年<\/strong>|javascript:|<script>/);
+});

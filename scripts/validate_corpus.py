@@ -1017,6 +1017,12 @@ def validate(root=ROOT):
                                 check(isinstance(phrase, str) and bool(phrase) and phrase in evidence.get('quote', '')
                                       and isinstance(group.get('source_term'), str) and group['source_term'] in evidence.get('quote', '')
                                       and named == {i for i in members if isinstance(i, str)}, '群體報齡具名名單未見於引句')
+                    elif age.get('reporting_status') == 'direct_report':
+                        check(age.get('value') is None and parsed is not None
+                              and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
+                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲')
+                              and age.get('source_qualification') is None and not age.get('report_group_id'),
+                              '直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組')
                     else:
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
@@ -1281,6 +1287,13 @@ def validate(root=ROOT):
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
                         check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')
                     check(expression is None or continuous_date or expression in evidence['quote'], '生卒日期未見於事件引句')
+                if 'normalized_date_range' in event:
+                    try:
+                        from scripts.date_ranges import year_range_errors
+                    except ImportError:
+                        from date_ranges import year_range_errors
+                    check('normalized_date' not in event, '生卒或事件跨年範圍不得另填確定單年')
+                    errors.extend(year_range_errors(event['normalized_date_range'], event['evidence'], expression))
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')

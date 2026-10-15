@@ -1020,7 +1020,6 @@
 | `789_h72_iju` | 項羽 | [《史記・太史公自序》][112] | [JSON](789_h72_iju.json) |
 | `78c_udb_chz` | 周元王 | [《史記・越王勾踐世家》][23] | [JSON](78c_udb_chz.json) |
 | `78j_6yv_eaf` | 黔牟（衛君） | [《史記・衛康叔世家》][19] | [JSON](78j_6yv_eaf.json) |
-| `796_nkw_0jz` | 張蒼父未名 | [《史記・張丞相列傳》][78] | [JSON](796_nkw_0jz.json) |
 | `79h_j8x_96s` | 燕后（趙世家未名者） | [《史記・趙世家》][25] | [JSON](79h_j8x_96s.json) |
 | `79o_p9o_a9a` | 韓公叔 | [《史記・周本紀》][4] | [JSON](79o_p9o_a9a.json) |
 | `79o_zpm_tqe` | 宮門令（陳涉世家未名者） | [《史記・陳涉世家》][30] | [JSON](79o_zpm_tqe.json) |
@@ -1746,7 +1745,6 @@
 | `cez_do1_byp` | 趙平原君 | [《史記・孟嘗君列傳》][57] | [JSON](cez_do1_byp.json) |
 | `cez_le6_frl` | 太史公 | [《史記・酈生陸賈列傳》][79] | [JSON](cez_le6_frl.json) |
 | `cf1_j34_un3` | 子貢 | [《史記・伍子胥列傳》][48] | [JSON](cf1_j34_un3.json) |
-| `cf6_ekq_84s` | 張蒼 | [《史記・太史公自序》][112] | [JSON](cf6_ekq_84s.json) |
 | `cfe_5pa_uvn` | 子閭（楚昭王弟） | [《史記・楚世家》][22] | [JSON](cfe_5pa_uvn.json) |
 | `cfi_c9n_ffr` | 孝惠 | [《史記・龜策列傳》][110] | [JSON](cfi_c9n_ffr.json) |
 | `cfk_4it_4yn` | 郭蒙 | [《史記・高祖本紀》][8] | [JSON](cfk_4it_4yn.json) |
@@ -2228,6 +2226,7 @@
 | `fn4_s0b_4jd` | 趙王書信未名 | [《史記・吳王濞列傳》][88] | [JSON](fn4_s0b_4jd.json) |
 | `fn8_b63_zph` | 膠西王端 | [《史記・淮南衡山列傳》][100] | [JSON](fn8_b63_zph.json) |
 | `fnb_86c_jy4` | 成安君 | [《史記・曹相國世家》][36] | [JSON](fnb_86c_jy4.json) |
+| `fng_mjp_tdn` | 糾（齊公子） | [《史記・齊太公世家》][14] | [JSON](fng_mjp_tdn.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

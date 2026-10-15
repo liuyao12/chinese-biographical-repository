@@ -998,4 +998,20 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/094-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji094-011')['jurisdictions'][0].update(modern_identification='今地'))
         self.assertIn('稱號所屬原地名缺少引句或未保留未知定位',v.validate(self.root))
 
+
+    def test_life_year_range_cannot_also_claim_exact_year(self):
+        def change(d):
+            e=d['events'][3];r=e['normalized_date_range']
+            e['normalized_date']=dict(r['latest'],year_numbering='astronomical',precision='year',status='editorial_provisional',original_quote=r['original_quote'],evidence=r['evidence'],references=r['references'],rationale='測試夾帶單年，應拒絕',reviewer='synthetic',human_reviewed=False)
+        self.change('corpus/shiji/096-life-events.json',change)
+        self.assertIn('生卒或事件跨年範圍不得另填確定單年',v.validate(self.root))
+
+    def test_life_year_range_cannot_collapse_to_one_year(self):
+        self.change('corpus/shiji/096-life-events.json',lambda d: d['events'][3]['normalized_date_range'].update(earliest=d['events'][3]['normalized_date_range']['latest'].copy()))
+        self.assertIn('歲首跨年範圍須涵蓋相鄰兩年，不可倒序或冒作單年',v.validate(self.root))
+
+    def test_direct_bounded_age_cannot_be_exact_hundred(self):
+        self.change('corpus/shiji/096.json',lambda d:d['annotation']['age_assertions'][0].update(value=100))
+        self.assertIn('直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組',v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

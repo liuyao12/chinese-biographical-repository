@@ -123,6 +123,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []))
         for evidence in record.get('evidence', []):
             context = evidence.get('context', {})
             if context.get('paragraph_id'):
@@ -188,6 +189,9 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'age_assertions': ages} if ages else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
+            **({'date_range_normalizations': [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'], date_role=role, event_type=e['event_type'])
+                   for items, role in ((life_events, 'life_event'), (person_events, 'person_event')) for e in items if 'normalized_date_range' in e]}
+               if any('normalized_date_range' in e for e in life_events + person_events) else {}),
             'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='person_event', event_type=e['event_type']) for e in person_events if 'normalized_date' in e]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='life_event', event_type=e['event_type']) for e in life_events if 'normalized_date' in e]

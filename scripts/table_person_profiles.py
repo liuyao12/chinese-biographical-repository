@@ -91,6 +91,8 @@ def build(root=ROOT):
             profile['assembled_identity'] = b['assembled_identity']
         if b.get('assembled_children'):
             profile['assembled_children'] = b['assembled_children']
+        if b.get('date_range_normalizations'):
+            profile['date_ranges'] = [x for x in b['date_range_normalizations'] if x['person_id'] in own]
         profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])

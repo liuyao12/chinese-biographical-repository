@@ -17,3 +17,15 @@ export function summarizeLife(p) {
     ages: (p.age_assertions || []).filter(e => own.has(e.person_id)),
   };
 }
+
+
+// Ranges are explicit data. Never choose either endpoint as an event year.
+export function lifeYearLabel(event) {
+  const date = event.normalized_date;
+  if (date?.era_year) return `西元${date.era === 'BCE' ? '前' : ''}${date.era_year}年`;
+  const range = event.normalized_date_range;
+  const a = range?.earliest, b = range?.latest;
+  if (!a?.era_year || !b?.era_year) return '';
+  const prefix = p => `西元${p.era === 'BCE' ? '前' : ''}`;
+  return `${prefix(a)}${a.era_year}至${a.era === b.era ? '' : prefix(b)}${b.era_year}年（暫定範圍）`;
+}
