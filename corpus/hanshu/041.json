@@ -13,8 +13,10 @@
     "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
     "revision_id": 2342290,
     "accessed_on": "2026-10-15",
-    "extent": "目前僅錄周惞傳文三段；卷內樊、酈、滕、灌、傅、靳傳及贊未匯入，不代表全卷完成。",
+    "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
     "included_sections": [
+      "傅寬傳文",
+      "靳歙傳文",
       "周惞傳文"
     ],
     "text_scope": "partial_chapter",
@@ -24,7 +26,7 @@
     "normalization": {
       "character_conversion": {},
       "editorial_readings": [],
-      "extraction_note": "去除現代網頁周惞小標與Wikipedia模板；三段原字、標點保留。周惞及糨城侯不直接改作其他見證讀法。",
+      "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
       "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
     },
     "review_status": "text_checked",
@@ -35,12 +37,15 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "目前所錄周惞三段的具名、上字稱謂、官爵與父子主張；與史記表傳交叉辨指，非全卷覆核。",
+    "coverage": "目前所錄傅寬、靳歙與周惞十一段具名、可辨官爵及親屬、生卒、任事地；與史記表傳交叉辨指，非全卷覆核。",
     "limitations": [
-      "其餘傳與贊尚未匯入；全書卷目尚未建齊。",
+      "樊、酈、滕、灌傳及贊尚未匯入；全書卷目尚未建齊。",
       "數位本糨城侯與固定WYG轉錄䣙城侯分層記錄，正文不改，首選讀法暫定而非影像校勘。",
       "史記緤子居與漢書應子仲居的父系分存，家譜預設採後者。",
-      "未核底本影像；同書版本及兩書互見不當獨立史實證據。"
+      "未核底本影像；同書版本及兩書互見不當獨立史實證據。",
+      "軍功所記未名軍吏與人數不補造具名人物。",
+      "起橫陽、起宛朐記任事起點，不作出生或籍貫；曾孫偃不補漢書未寫的中間父子。",
+      "兩韓信按陳、平城分辨；朝歌趙賁的趙暫讀國名，名賁接賁郝，與開封秦將趙賁分開。"
     ],
     "reported_variants": [
       {
@@ -60,11 +65,714 @@
         "status": "reported_not_collated",
         "adopted": false,
         "image_verified": false
+      },
+      {
+        "id": "rv-hanshu041-jin-003-place",
+        "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+        "person_ids": [
+          "7dv_lqp_y4z"
+        ],
+        "source_term": "東至觞、郯",
+        "received_reading": "觞",
+        "reported_reading": "鄫",
+        "commentator": "Kanripo《前漢書》文淵閣四庫本數位轉錄",
+        "quote": "地東至鄫郯下邳",
+        "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+        "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+        "source_position": "041-19a",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false
+      },
+      {
+        "id": "rv-hanshu041-jin-004-salary",
+        "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+        "person_ids": [
+          "7dv_lqp_y4z"
+        ],
+        "source_term": "二千石以下至五石三十九人",
+        "received_reading": "五石",
+        "reported_reading": "五百石",
+        "commentator": "Kanripo《前漢書》文淵閣四庫本數位轉錄",
+        "quote": "二千石以下至五百石三十九人",
+        "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+        "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+        "source_position": "041-19b",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false
       }
     ],
     "model": null
   },
   "paragraphs": [
+    {
+      "id": "c-hanshu-041-fanli:p-fu-001",
+      "text": "傅寬，以魏五大夫騎將從，為舍人，起橫陽。從攻安陽、杠里，趙賁軍於開封，及擊楊熊曲遇、陽武，斬首十二級，賜爵卿。從至霸上。沛公為漢王，賜寬封號共德君。從入漢中，為右騎將。定三秦，賜食邑雕陰。從擊項籍，待懷，賜爵通德侯。從擊項冠、周蘭、龍且，所將卒斬騎將一人敖下，益食邑。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅寬",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "五大夫",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "騎將",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "舍人",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0028",
+          "start": 28,
+          "end": 30,
+          "surface": "趙賁",
+          "kind": "person",
+          "person_id": "bwv_p3h_q1j",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0037",
+          "start": 37,
+          "end": 39,
+          "surface": "楊熊",
+          "kind": "person",
+          "person_id": "v4m_7yp_xr3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0053",
+          "start": 53,
+          "end": 54,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0067",
+          "start": 67,
+          "end": 68,
+          "surface": "寬",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0070",
+          "start": 70,
+          "end": 73,
+          "surface": "共德君",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0080",
+          "start": 80,
+          "end": 83,
+          "surface": "右騎將",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0096",
+          "start": 96,
+          "end": 98,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0104",
+          "start": 104,
+          "end": 107,
+          "surface": "通德侯",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0110",
+          "start": 110,
+          "end": 112,
+          "surface": "項冠",
+          "kind": "person",
+          "person_id": "uxv_exs_5k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0113",
+          "start": 113,
+          "end": 115,
+          "surface": "周蘭",
+          "kind": "person",
+          "person_id": "639_jt7_ns0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-001-0116",
+          "start": 116,
+          "end": 118,
+          "surface": "龍且",
+          "kind": "person",
+          "person_id": "sr6_5zr_1f3",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-fu-002",
+      "text": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0001",
+          "start": 1,
+          "end": 3,
+          "surface": "淮陰",
+          "kind": "person",
+          "person_id": "ofc_8ei_jb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "田解",
+          "kind": "person",
+          "person_id": "sac_peq_v1p",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "相國",
+          "kind": "person",
+          "person_id": "37j_16p_7n8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0018",
+          "start": 18,
+          "end": 19,
+          "surface": "參",
+          "kind": "person",
+          "person_id": "37j_16p_7n8",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0040",
+          "start": 40,
+          "end": 43,
+          "surface": "陽陵侯",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0056",
+          "start": 56,
+          "end": 60,
+          "surface": "齊右丞相",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-002-0067",
+          "start": 67,
+          "end": 70,
+          "surface": "齊相國",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-fu-003",
+      "text": "四月，擊陳豨，屬太尉勃，以相國代丞相噲擊豨。一月，徙為代相國，將屯。二歲，為丞相，將屯。孝惠五年薨，諡曰景侯。傳至曾孫偃，謀反，誅，國除。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "陳豨",
+          "kind": "person",
+          "person_id": "1xx_s1v_svn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "太尉",
+          "kind": "person",
+          "person_id": "koy_6jg_gcc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0010",
+          "start": 10,
+          "end": 11,
+          "surface": "勃",
+          "kind": "person",
+          "person_id": "koy_6jg_gcc",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0013",
+          "start": 13,
+          "end": 15,
+          "surface": "相國",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0016",
+          "start": 16,
+          "end": 18,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "b1r_inb_fts",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0018",
+          "start": 18,
+          "end": 19,
+          "surface": "噲",
+          "kind": "person",
+          "person_id": "b1r_inb_fts",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0020",
+          "start": 20,
+          "end": 21,
+          "surface": "豨",
+          "kind": "person",
+          "person_id": "1xx_s1v_svn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0027",
+          "start": 27,
+          "end": 30,
+          "surface": "代相國",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0038",
+          "start": 38,
+          "end": 40,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "孝惠",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "景侯",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-fu-003-0059",
+          "start": 59,
+          "end": 60,
+          "surface": "偃",
+          "kind": "person",
+          "person_id": "w8j_vnd_rs4_AAA",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-jin-001",
+      "text": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "靳歙",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "中涓",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0017",
+          "start": 17,
+          "end": 19,
+          "surface": "李由",
+          "kind": "person",
+          "person_id": "49g_7az_e4i_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0052",
+          "start": 52,
+          "end": 55,
+          "surface": "臨平君",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0091",
+          "start": 91,
+          "end": 93,
+          "surface": "沛公",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0094",
+          "start": 94,
+          "end": 96,
+          "surface": "漢王",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0098",
+          "start": 98,
+          "end": 99,
+          "surface": "歙",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0100",
+          "start": 100,
+          "end": 103,
+          "surface": "建武侯",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-001-0105",
+          "start": 105,
+          "end": 108,
+          "surface": "騎都尉",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-jin-002",
+      "text": "從定三秦。別西擊章平軍於隴西，破之，定隴西六縣，所將卒斬車司馬、候各四人，騎長十二人。從東擊楚，至彭城。漢軍敗還，保雍丘，擊反者王武等。略梁地，別西擊邢說軍菑南，破之，身得說都尉二人，司馬、候十二人，降吏卒四千六百八十人。破楚軍滎陽東。食邑四千二百戶。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-jin-002-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "章平",
+          "kind": "person",
+          "person_id": "fs1_3m9_rj3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-002-0064",
+          "start": 64,
+          "end": 66,
+          "surface": "王武",
+          "kind": "person",
+          "person_id": "qxu_jqe_evi",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-002-0075",
+          "start": 75,
+          "end": 77,
+          "surface": "邢說",
+          "kind": "person",
+          "person_id": "3qe_csy_8ad",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-002-0086",
+          "start": 86,
+          "end": 87,
+          "surface": "說",
+          "kind": "person",
+          "person_id": "3qe_csy_8ad",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-jin-003",
+      "text": "別之河內，擊趙賁軍朝歌，破之，所將卒得騎將二人，車馬二百五十匹。從攻安陽以東，至棘蒲，下十縣。別攻破趙軍，得其將司馬二人，候四人，降吏卒二千四百人。從降下邯鄲。別下平陽，身斬守相，所將卒斬兵守郡一人，降鄴。從攻朝歌、邯鄲，又別擊破趙郡，降邯鄲郡六縣。還軍敖倉，破項籍軍成皋南，擊絕楚饟道，起滎陽至襄邑。破項冠魯下。略地東至觞、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍軍陳下，破之。別定江陵，降柱國、大司馬以下八人，身得江陵王，致雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，為信武侯。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "賁",
+          "kind": "person",
+          "person_id": "phx_lyu_9ym",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0131",
+          "start": 131,
+          "end": 133,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0152",
+          "start": 152,
+          "end": 154,
+          "surface": "項冠",
+          "kind": "person",
+          "person_id": "uxv_exs_5k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0176",
+          "start": 176,
+          "end": 178,
+          "surface": "項悍",
+          "kind": "person",
+          "person_id": "xtl_sr1_di0",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0184",
+          "start": 184,
+          "end": 186,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0212",
+          "start": 212,
+          "end": 215,
+          "surface": "江陵王",
+          "kind": "person",
+          "person_id": "bwv_ob8_6xi_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0230",
+          "start": 230,
+          "end": 233,
+          "surface": "楚王信",
+          "kind": "person",
+          "person_id": "ofc_8ei_jb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-003-0250",
+          "start": 250,
+          "end": 253,
+          "surface": "信武侯",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-jin-004",
+      "text": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0001",
+          "start": 1,
+          "end": 4,
+          "surface": "騎都尉",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "l9e_fbr_36a_*A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0024",
+          "start": 24,
+          "end": 28,
+          "surface": "車騎將軍",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0045",
+          "start": 45,
+          "end": 47,
+          "surface": "陳豨",
+          "kind": "person",
+          "person_id": "1xx_s1v_svn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0047",
+          "start": 47,
+          "end": 49,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "h6b_bxc_9d4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0049",
+          "start": 49,
+          "end": 50,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "h6b_bxc_9d4",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-004-0061",
+          "start": 61,
+          "end": 63,
+          "surface": "黥布",
+          "kind": "person",
+          "person_id": "zxd_afr_2xg",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-jin-005",
+      "text": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-jin-005-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "高后",
+          "kind": "person",
+          "person_id": "i30_mjq_6q8_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-005-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "肅侯",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-jin-005-0013",
+          "start": 13,
+          "end": 14,
+          "surface": "亭",
+          "kind": "person",
+          "person_id": "7dv_lqp_y4z_A",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
     {
       "id": "c-hanshu-041-fanli:p-zhou-001",
       "text": "周惞，沛人也。以舍人從高祖起沛。至霸上，西入蜀漢，還定三秦，常為參乘，賜食邑池陽。從東擊項羽滎陽，絕甬道，從出度平陰，遇韓信軍襄國，戰有利不利，終亡離上心。上以惞為信武侯，食邑三千三百戶。",
@@ -324,5 +1032,5 @@
       ]
     }
   ],
-  "text_sha256": "44191b56613a6486f0b5b3f39dbf6f27bf2233ab8908d10a94bc4690019338c8"
+  "text_sha256": "5bf1c921d0d9b6ab30c181d455f4359b6396a8efb77511aa61d6b3841d01fc61"
 }

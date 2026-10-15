@@ -20,6 +20,53 @@
   ],
   "titles": [
     {
+      "id": "th-hanshu041-fu-008",
+      "person_id": "37j_16p_7n8",
+      "title": "相國",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-fu-002",
+          "quote": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。",
+          "person_mention_id": "c-hanshu-041-fanli:m-fu-002-0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-fu-008:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-fu-002",
+          "start": 16,
+          "end": 18,
+          "surface": "相國",
+          "person_mention_id": "c-hanshu-041-fanli:m-fu-002-0016",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji053-009",
       "person_id": "37j_16p_7n8",
       "title": "平陽侯",
@@ -3809,6 +3856,21 @@
       "quote": "張楚」。諸郡縣皆多殺其長吏以應陳涉。沛令恐，欲以沛應涉。掾、主吏蕭何、曹參乃曰：「君為秦吏，今欲背之，率沛子弟，恐不聽。願君召諸亡在外者，可得數百人，因劫眾，眾不敢不聽。」乃令樊噲召劉季。劉季之眾已數十百人矣。"
     },
     {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-fu-002",
+      "count": 2,
+      "quote": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-fu-002"
+      ]
+    },
+    {
       "number": 53,
       "category": "shijia",
       "title": "蕭相國世家第二十三",
@@ -3940,6 +4002,39 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "傅寬傳文",
+          "靳歙傳文",
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-008-gaozu",
       "work_id": "w-shiji",

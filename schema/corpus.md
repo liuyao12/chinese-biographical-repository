@@ -349,3 +349,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 新作品可先錄明示範圍的部分傳文，`source.text_scope: partial_chapter`、`source.extent` 與進度須明示未錄部分；保留古代卷篇ID，不以現代網頁小標另造古篇。未核完整卷目時可令 `expected_books: null`，不得混用篇數與版本卷數冒稱完成。跨作品引文如附 `work_id`、`book_id`，須與實際段落來源相符；表格同指補證亦按該作品目錄核對，不限定《史記》或以同卷號配對。
 
 首選校讀可對應人物稱號錨點。持職仍保存來源字面 `title`；若同一用稱錨點有明示 `preferred_reading` 決定，人物包另附 `preferred_title_readings`，以 `holding_id`、`decision_id`、`source_mention_id` 連起 `source_title` 與 `preferred_title`，並保留暫定狀態及理由。此為編輯選讀，不改寫來源正文或冒稱影像校勘，使用端以ID關聯套用，不需NLU。
+
+### 嗣位省稱與前任爵位連結
+
+當來源只寫「子亭嗣」而未重寫爵名時，父子陳述的 `qualifiers.succession` 保存 `source_term`、`predecessor_person_id`、`predecessor_holding_id`、`status: contextual_provisional`、`rationale` 與 `human_reviewed: false`。前任須與本項明示父親相同，持職記錄須為爵位或王號，不能是官職或死後諡名；同段精確引文須包含父親錨點及嗣詞內的子名錨點。不是所有父子都自動繼承爵位。
+
+此結構不捏造本人曾被原文稱作某爵的 `attestation`，也不儲存推得的祖先清單、爵名副本或起訖日期。使用端按明示持職ID讀取前任原爵與適用的校讀，呈現為承前爵稱的暫定判讀；未能取得前任資料時省略推得欄位。父親有多項爵位時，須逐案說明選定哪一項，不套用全部官爵。辨認用姓名組件中的爵稱仍須另列出處與推定說明，不代表任何時點都持爵。
+
+人物頁的生卒摘要僅合併原紀年字串相同、正規化日期或年範圍事實相同且取捨層級相同的欄位，並保留全部來源引文。未知日期、不同原紀年、不同日期精度及有別的暫定優先層級不合併。原 `life_events` 記錄不改寫，不把來源數當成獨立史實票數。

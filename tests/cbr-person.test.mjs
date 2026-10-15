@@ -281,3 +281,22 @@ test('同號同起訖的不同來源時長各自保留',()=>{
  const html=personCard({id:'abc_def_123',label:'甲',titles:[{...t,reported_duration:{value:5,unit:'title_year',source_term:'相五歲'}},{...t,reported_duration:{value:6,unit:'title_year',source_term:'相六年'}}]});
  assert.match(html,/>5年</);assert.match(html,/>6年</);
 });
+
+test('同年數的跨書稱號時長合併呈現，保留兩份原句',()=>{
+ const duration={value:5,unit:'title_year',source_number:'五',source_term:'五歲為齊相國',counting:'unspecified_source_years',status:'source_attested'};
+ const t={title:'齊相國',period:'起訖未定'};
+ const html=personCard({id:'abc_def_123',label:'甲',titles:[{...t,evidence:[{quote:'甲書原句'}],reported_duration:{...duration,evidence:[{quote:'甲書原句'}]}},{...t,evidence:[{quote:'乙書原句'}],reported_duration:{evidence:[{quote:'乙書原句'}],...Object.fromEntries(Object.entries(duration).reverse())}}]},true);
+ assert.equal((html.match(/class="person-title-duration"/g)||[]).length,1);assert.match(html,/甲書原句/);assert.match(html,/乙書原句/);
+});
+test('嗣位依明示前任持職ID解析，不捏造嗣字是爵名，也不繼承官職',()=>{
+ const p={id:'child',label:'乙',relations:[{subject_person_id:'child',predicate:'father',object_person_id:'parent',qualifiers:{succession:{source_term:'子乙嗣',predecessor_person_id:'parent',predecessor_holding_id:'source-holding',status:'contextual_provisional',rationale:'明示嗣前爵。'}},evidence:[{quote:'子乙嗣'}]}]};
+ const parent={id:'parent',titles:[{id:'source-holding',title:'甲侯',kind:'noble_rank'}]};
+ const family={ancestors:[[{id:'parent',label:'甲',person:parent,evidence:[]}],[],[]],mother:[],spouses:[],children:[]};
+ const html=personCard(p,true,'main',family);assert.match(html,/來源所記承襲/);assert.match(html,/甲侯/);assert.match(html,/子乙嗣/);
+ parent.titles[0].kind='office';assert.doesNotMatch(personCard(p,true,'main',family),/來源所記承襲/);
+ assert.equal(p.titles,undefined);
+});
+test('曾孫來源的反向關係標示曾祖父，不顛倒成曾孫',()=>{
+ const html=personCard({id:'child',label:'乙',related_people:{parent:'甲'},relations:[{subject_person_id:'child',predicate:'great_grandfather',object_person_id:'parent',qualifiers:{source_term:'曾孫'},evidence:[]}]},true);
+ assert.match(html,/曾祖父/);assert.doesNotMatch(html,/· 曾孫/);
+});

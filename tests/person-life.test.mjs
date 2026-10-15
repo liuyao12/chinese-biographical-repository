@@ -23,3 +23,15 @@ test('year range labels do not select an endpoint or invent a date', () => {
  assert.equal(lifeYearLabel({normalized_date:{era:'CE',era_year:10}}),'西元10年');
  assert.equal(lifeYearLabel({normalized_date_range:{earliest:{era:'BCE',era_year:1},latest:{era:'CE',era_year:1}}}),'西元前1至西元1年（暫定範圍）');
 });
+
+test('identical resolved life dates share a summary row but retain both source quotations',()=>{
+ const range={earliest:{era:'BCE',era_year:191,year:-190},latest:{era:'BCE',era_year:190,year:-189},precision:'year_range'};
+ const p={id:'a',life_events:[{id:'one',person_id:'a',event_type:'death',date_expression:'孝惠五年',normalized_date_range:{...range,references:[{quote:'甲'}]},evidence:[{quote:'甲書卒'}]},{id:'two',person_id:'a',event_type:'death',date_expression:'孝惠五年',normalized_date_range:{...range,references:[{quote:'乙'}]},evidence:[{quote:'乙書薨'}]}]};
+ const life=summarizeLife(p);assert.equal(life.death.length,1);assert.equal(life.death[0].evidence.length,2);
+ assert.equal(p.life_events.length,2);assert.equal(p.life_events[0].evidence.length,1);
+});
+test('date precision, original date expressions and unresolved alternatives prevent life-date merging',()=>{
+ const event={person_id:'a',event_type:'death',date_expression:'五年',normalized_date:{era:'CE',era_year:10}};
+ const p={id:'a',life_events:[{...event,id:'year'},{...event,id:'day',normalized_date:{era:'CE',era_year:10,month:3,day:2}},{...event,id:'other-term',date_expression:'六年'},{id:'unknown-one',person_id:'a',event_type:'death'},{id:'unknown-two',person_id:'a',event_type:'death'}]};
+ assert.equal(summarizeLife(p).death.length,5);
+});

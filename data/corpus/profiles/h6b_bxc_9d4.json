@@ -7,9 +7,57 @@
   "review": "ai_provisional",
   "names": [
     "侯敞",
-    "敞"
+    "敞",
+    "丞相"
   ],
   "titles": [
+    {
+      "id": "th-hanshu041-jin-009",
+      "person_id": "h6b_bxc_9d4",
+      "title": "丞相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "quote": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0047"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-009:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "start": 47,
+          "end": 49,
+          "surface": "丞相",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0047",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji008-127",
       "person_id": "h6b_bxc_9d4",
@@ -108,6 +156,21 @@
       "quote": "十一年，高祖在邯鄲誅豨等未畢，豨將侯敞將萬餘人游行，王黃軍曲逆，張春渡河擊聊城。漢使將軍郭蒙與齊將擊，大破之。太尉周勃道太原入，定代地。至馬邑，馬邑不下，即攻殘之。"
     },
     {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+      "count": 2,
+      "quote": "下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-jin-004"
+      ]
+    },
+    {
       "number": 93,
       "category": "liezhuan",
       "title": "韓信盧綰列傳第三十三",
@@ -134,6 +197,39 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "傅寬傳文",
+          "靳歙傳文",
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-008-gaozu",
       "work_id": "w-shiji",
@@ -269,6 +365,59 @@
   },
   "dates": [],
   "reading_decisions": [
+    {
+      "id": "d-hanshu041-fujin-012",
+      "person_id": "h6b_bxc_9d4",
+      "surfaces": [
+        "丞相",
+        "敞"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-hanshu-041-fanli",
+        "c-shiji-098-fujin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "quote": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+          "mention_ids": [
+            "c-hanshu-041-fanli:m-jin-004-0047",
+            "c-hanshu-041-fanli:m-jin-004-0049"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p008",
+          "quote": "以騎都尉從擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封定食五千三百戶。凡斬首九十級，虜百三十二人；別破軍十四，降城五十九，定郡、國各一，縣二十三；得王、柱國各一人，二千石以下至五百石三十九人。",
+          "mention_ids": [
+            "c-shiji-098-fujin:m008-0050"
+          ]
+        }
+      ],
+      "rationale": "陳豨丞相敞後降曲逆，與史記同役及顏師古注侯敞接合，不接任敞。 兩書及同書版本互見不計獨立史實票數；原字與錨點分存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "漢書顏師古注",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+          "source_position": "041-19b",
+          "quote": "侯敞",
+          "text_layer": "yan_shigu_commentary",
+          "image_verified": false
+        }
+      ]
+    },
     {
       "id": "d-shiji098-036",
       "person_id": "h6b_bxc_9d4",

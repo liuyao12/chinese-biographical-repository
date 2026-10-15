@@ -11,9 +11,29 @@ export function summarizeLife(p) {
     const decision = decisions.find(d => d.candidate_event_ids.includes(e.id));
     return decision?.status === 'editorial_provisional' ? (decision.preferred_event_id === e.id ? 0 : 2) : 1;
   };
+  const provenance=new Set(['evidence','references','original_quote','rationale','reviewer','human_reviewed','model']);
+  const facts=value=>Array.isArray(value)?value.map(facts):value && typeof value==='object'
+    ?Object.fromEntries(Object.keys(value).filter(key=>!provenance.has(key)).sort().map(key=>[key,facts(value[key])])):value;
+  function summary(kind) {
+    const rows=[], grouped=new Map();
+    for (const event of events.filter(e=>e.event_type===kind).sort((a,b)=>rank(a)-rank(b))) {
+      const date=event.normalized_date || event.normalized_date_range;
+      const key=date?JSON.stringify([rank(event),event.date_expression,facts(date)]):null;
+      if (!key || !grouped.has(key)) {
+        const row={...event,evidence:[...(event.evidence || [])]};rows.push(row);
+        if (key) grouped.set(key,row);
+      } else {
+        const row=grouped.get(key);
+        for (const evidence of event.evidence || []) {
+          if (!row.evidence.some(e=>JSON.stringify(e)===JSON.stringify(evidence))) row.evidence.push(evidence);
+        }
+      }
+    }
+    return rows;
+  }
   return {
-    birth: events.filter(e => e.event_type === 'birth').sort((a,b) => rank(a)-rank(b)),
-    death: events.filter(e => e.event_type === 'death').sort((a,b) => rank(a)-rank(b)),
+    birth: summary('birth'),
+    death: summary('death'),
     ages: (p.age_assertions || []).filter(e => own.has(e.person_id)),
   };
 }

@@ -514,7 +514,7 @@
 | `3q1_bhh_ppr` | 奚斯（魯大夫） | [《史記・魯周公世家》][16] | [JSON](3q1_bhh_ppr.json) |
 | `3q4_zsp_jwy` | 樛氏女 | [《史記・南越列傳》][96] | [JSON](3q4_zsp_jwy.json) |
 | `3qd_6c7_i1s` | 呂后舍人未名 | [《史記・魏豹彭越列傳》][73] | [JSON](3qd_6c7_i1s.json) |
-| `3qe_csy_8ad` | 邢說 | [《史記・傅靳蒯成列傳》][81] | [JSON](3qe_csy_8ad.json) |
+| `3qe_csy_8ad` | 邢說 | [《漢書・樊酈滕灌傅靳周傳》][1]、[《史記・傅靳蒯成列傳》][81] | [JSON](3qe_csy_8ad.json) |
 | `3ql_hwu_hx5` | 齊使者（越世家攻楚勸說未名者） | [《史記・越王勾踐世家》][24] | [JSON](3ql_hwu_hx5.json) |
 | `3qx_bkv_c0r` | 褒姒 | [《史記・匈奴列傳》][93] | [JSON](3qx_bkv_c0r.json) |
 | `3r9_0to_we7` | 猗頓 | [《史記・平津侯主父列傳》][95] | [JSON](3r9_0to_we7.json) |
@@ -2228,6 +2228,7 @@
 | `fve_0yd_kml` | 康王姬（荊燕世家未名者） | [《史記・荊燕世家》][34] | [JSON](fve_0yd_kml.json) |
 | `fw5_vd1_4xy` | 禹 | [《史記・龜策列傳》][111] | [JSON](fw5_vd1_4xy.json) |
 
+[1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145
