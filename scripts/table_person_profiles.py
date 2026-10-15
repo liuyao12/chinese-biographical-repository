@@ -76,6 +76,8 @@ def build(root=ROOT):
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
         if preferred_readings:
             profile['preferred_readings'] = preferred_readings
+        if b.get('unresolved_identity_cases'):
+            profile['unresolved_identity_cases'] = b['unresolved_identity_cases']
         profile['name_components'] = [r for r in name_records if r['person_id'] in own]
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']

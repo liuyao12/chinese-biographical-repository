@@ -91,8 +91,91 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji049-050",
+      "subject_person_id": "nza_w1p_x8f",
+      "predicate": "mother",
+      "object_person_id": "6d6_eg1_o3a_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本段列舉保存王太后與三女的母女關係。長女及次的序列限此敘述範圍，另存三女相對先後，不填母親所有女兒的絕對排行；褚先生附載另記民間所生女，不把三女一概當其全部子女，也不據母親身分補父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-052",
+      "subject_person_id": "nad_18h_5jc",
+      "predicate": "sister",
+      "object_person_id": "nza_w1p_x8f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "nad_18h_5jc",
+          "younger_person_id": "nza_w1p_x8f",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "本段長女與次為給出所列三女的相對次序，保存小於約束；未給所有同母女兒的全局序號，不從此句推同父。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-053",
+      "subject_person_id": "nza_w1p_x8f",
+      "predicate": "sister",
+      "object_person_id": "0gy_vl6_l9g",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "nza_w1p_x8f",
+          "younger_person_id": "0gy_vl6_l9g",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "本段長女與次為給出所列三女的相對次序，保存小於約束；未給所有同母女兒的全局序號，不從此句推同父。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
+    "0gy_vl6_l9g": "林慮公主（外戚世家候選）",
+    "6d6_eg1_o3a_A": "王太后（外戚世家候選）",
+    "nad_18h_5jc": "平陽公主",
     "nza_w1p_x8f": "南宮公主（外戚世家候選）"
   },
   "dates": [],
@@ -100,7 +183,87 @@
   "person_ids": [
     "nza_w1p_x8f"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-shiji049-050",
+      "subject_person_id": "nza_w1p_x8f",
+      "predicate": "mother",
+      "object_person_id": "6d6_eg1_o3a_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本段列舉保存王太后與三女的母女關係。長女及次的序列限此敘述範圍，另存三女相對先後，不填母親所有女兒的絕對排行；褚先生附載另記民間所生女，不把三女一概當其全部子女，也不據母親身分補父親。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-052",
+      "subject_person_id": "nad_18h_5jc",
+      "predicate": "sister",
+      "object_person_id": "nza_w1p_x8f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "nad_18h_5jc",
+          "younger_person_id": "nza_w1p_x8f",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "本段長女與次為給出所列三女的相對次序，保存小於約束；未給所有同母女兒的全局序號，不從此句推同父。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji049-053",
+      "subject_person_id": "nza_w1p_x8f",
+      "predicate": "sister",
+      "object_person_id": "0gy_vl6_l9g",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p024",
+          "quote": "景帝十三男，一男為帝，十二男皆為王。而兒姁早卒，其四子皆為王。王太后長女號日平陽公主，次為南宮公主，次為林慮公主。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王太后長女號日平陽公主，次為南宮公主，次為林慮公主",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "nza_w1p_x8f",
+          "younger_person_id": "0gy_vl6_l9g",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "本段長女與次為給出所列三女的相對次序，保存小於約束；未給所有同母女兒的全局序號，不從此句推同父。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

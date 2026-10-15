@@ -1420,7 +1420,7 @@
 
 </details>
 
-<details><summary><code>jx9_cov_qe0</code> 欒布（季布欒布列傳候選）（2 名）</summary>
+<details><summary><code>jx9_cov_qe0</code> 欒布（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|

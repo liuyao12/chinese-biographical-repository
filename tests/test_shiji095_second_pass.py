@@ -130,3 +130,62 @@ class FanLiMilitaryIdentityTests(unittest.TestCase):
         for pid in ['423_9wn_ew3','7st_a3s_dis','ekn_61g_qaz','lwx_fc0_0ce','452_xfy_50i','5ij_409_sfj','vnb_l2e_06w','3vk_jr4_vnd','6sl_m8t_cxz','92t_lra_3r9']:
             self.assertNotIn(pid,people)
             self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
+
+class FanLiCrossChapterFamilyTests(unittest.TestCase):
+    paragraph=FanLiCourtIdentityTests.paragraph
+    ids=FanLiCourtIdentityTests.ids
+
+    def test_royal_and_common_name_actors_follow_named_parallel_events(self):
+        for n,s,pid in [(11,'陳勝','pom_ycp_ha5'),(17,'蕭何','xd8_uww_5ok'),(18,'魯元','yqp_nlb_p1p_AI'),(22,'項梁','5xt_rg8_7zs_A'),(12,'鐘離眛','tb2_zhz_mol'),(23,'塞王','o8z_o5j_2e8'),(23,'殷王','ifc_pry_e72'),(34,'曹','37j_16p_7n8')]:
+            self.assertEqual(self.ids(self.paragraph('095',n),s),{pid})
+        self.assertEqual(self.ids(self.paragraph('095',20),'冒頓'),{'wjt_htu_081_A'})
+
+    def test_baideng_consorte_keeps_other_two_women_distinct(self):
+        self.assertEqual(self.ids(self.paragraph('095',20),'閼氏'),{'32k_yr7_5kv'})
+        self.assertEqual(self.ids(self.paragraph('056',12),'閼氏'),{'32k_yr7_5kv'})
+        self.assertEqual(self.ids(self.paragraph('110',12),'閼氏'),{'32k_yr7_5kv'})
+        self.assertEqual(self.ids(self.paragraph('110',6),'後母'),{'vlp_pem_oj3'})
+        self.assertEqual(self.ids(self.paragraph('110',7),'閼氏'),{'cjk_ll3_0g9'})
+        rows=json.loads((ROOT/'corpus/shiji/110-assertions.json').read_text())['assertions']
+        a=next(x for x in rows if x['id']=='a-shiji110-027')
+        self.assertEqual((a['subject_person_id'],a['predicate'],a['object_person_id']),('32k_yr7_5kv','spouse','wjt_htu_081_A'))
+
+    def test_pingyang_has_sourced_marriages_mother_and_partial_sister_order(self):
+        self.assertEqual(self.ids(self.paragraph('095',21),'平陽公主'),{'921_w24_4mr'})
+        self.assertEqual(self.ids(self.paragraph('054',17),'平陽公主'),{'nad_18h_5jc'})
+        self.assertEqual(self.ids(self.paragraph('125',4),'平陽公主'),{'ase_y0g_7gy'})
+        allrows=[]
+        for n in ('049','054','095'):allrows+=json.loads((ROOT/f'corpus/shiji/{n}-assertions.json').read_text())['assertions']
+        spouses=set()
+        for a in allrows:
+            if a['predicate']=='spouse' and 'nad_18h_5jc' in (a['subject_person_id'],a['object_person_id']):spouses.update({a['subject_person_id'],a['object_person_id']}-{'nad_18h_5jc'})
+        self.assertEqual(spouses,{'37j_16p_7n8_AAA','5dd_l1c_6g8'})
+        mothers=[a for a in allrows if a['id'] in ('a-shiji049-049','a-shiji049-050','a-shiji049-051')]
+        self.assertEqual(len(mothers),3)
+        self.assertTrue(all(a['object_person_id']=='6d6_eg1_o3a_A' and 'birth_order' not in a['qualifiers'] for a in mothers))
+        ordered=[a['qualifiers']['relative_birth_order'] for a in allrows if a['id'] in ('a-shiji049-052','a-shiji049-053')]
+        self.assertEqual([(o['older_person_id'],o['younger_person_id']) for o in ordered],[('nad_18h_5jc','nza_w1p_x8f'),('nza_w1p_x8f','0gy_vl6_l9g')])
+        self.assertTrue(all(o['older_ordinal'] is None and o['younger_ordinal'] is None for o in ordered))
+
+    def test_luanbu_keeps_existing_son_under_one_root(self):
+        self.assertEqual(self.ids(self.paragraph('095',15),'欒布'),{'jx9_cov_qe0'})
+        self.assertEqual(self.ids(self.paragraph('010',27),'欒布'),{'jx9_cov_qe0'})
+        r=json.loads((ROOT/'registry/persons.json').read_text())['persons']
+        son=next(x for x in r if x['id']=='jx9_cov_qe0_A')
+        self.assertEqual(son['family_path']['parent_person_id'],'jx9_cov_qe0')
+
+    def test_family_link_candidates_retired_after_all_references_move(self):
+        people={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ('kki_4ee_3i7','1aa_yn3_kv1','qdl_8tt_r4v','so1_ycw_xkv','g0p_ahe_0bb','73j_rq4_ugv','e4t_vcw_lrt'):
+            self.assertNotIn(pid,people)
+            self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
+
+
+    def test_pingyang_uncertainty_and_hanshu_reference_reach_person_api(self):
+        b=json.loads((ROOT/'exports/persons/921_w24_4mr.json').read_text())
+        c=next(c for c in b['unresolved_identity_cases'] if c['id']=='ic-shiji095-pingyang-princesses')
+        self.assertEqual(set(c['candidate_person_ids']),{'921_w24_4mr','nad_18h_5jc','ase_y0g_7gy'})
+        self.assertIn('號孫公主',c['references'][0]['quote'])
+        self.assertEqual(b['person_ids'],['921_w24_4mr'])
+        p=json.loads((ROOT/'data/corpus/profiles/921_w24_4mr.json').read_text())
+        self.assertEqual(p['unresolved_identity_cases'][0]['candidate_person_ids'],c['candidate_person_ids'])

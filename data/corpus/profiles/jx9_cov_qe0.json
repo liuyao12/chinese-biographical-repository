@@ -2,14 +2,109 @@
   "schema_version": 1,
   "id": "jx9_cov_qe0",
   "canonical_person_id": "jx9_cov_qe0",
-  "label": "欒布（季布欒布列傳候選）",
+  "label": "欒布",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "欒布",
-    "布"
+    "布",
+    "欒公"
   ],
   "titles": [
+    {
+      "id": "th-shiji010-045",
+      "person_id": "jx9_cov_qe0",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-010-wendi",
+          "source_id": "s-shiji-010-wendi",
+          "paragraph_id": "c-shiji-010-wendi:p027",
+          "quote": "十四年冬，匈奴謀入邊為寇，攻朝那塞，殺北地都尉卬。上乃遣三將軍軍隴西、北地、上郡，中尉周舍為衛將軍，郎中令張武為車騎將軍，軍渭北，車千乘，騎卒十萬。帝親自勞軍，勒兵申教令，賜軍吏卒。帝欲自將擊匈奴，群臣諫，皆不聽。皇太后固要帝，帝乃止。於是以東陽侯張相如為大將軍，成侯赤為內史，欒布為將軍，擊匈奴。匈奴遁走。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji010-045:a001",
+          "paragraph_id": "c-shiji-010-wendi:p027",
+          "start": 142,
+          "end": 144,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-010-wendi:m027-0139",
+          "usage": "narrative",
+          "date_expression": "十四年冬"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "十四年冬",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-010-wendi",
+              "source_id": "s-shiji-010-wendi",
+              "paragraph_id": "c-shiji-010-wendi:p027",
+              "quote": "十四年冬，匈奴謀入邊為寇，攻朝那塞，殺北地都尉卬。上乃遣三將軍軍隴西、北地、上郡，中尉周舍為衛將軍，郎中令張武為車騎將軍，軍渭北，車千乘，騎卒十萬。帝親自勞軍，勒兵申教令，賜軍吏卒。帝欲自將擊匈奴，群臣諫，皆不聽。皇太后固要帝，帝乃止。於是以東陽侯張相如為大將軍，成侯赤為內史，欒布為將軍，擊匈奴。匈奴遁走。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文明示官爵用稱；起點未知，死亡不自動當官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "十四年冬 → 未定"
+    },
+    {
+      "id": "th-shiji095-049",
+      "person_id": "jx9_cov_qe0",
+      "title": "俞侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p015",
+          "quote": "孝景前三年，吳、楚、齊、趙反，上以寄為將軍，圍趙城，十月不能下。得俞侯欒布自平齊來，乃下趙城，滅趙，王自殺，除國。孝景中二年，寄欲取平原君為夫人，景帝怒，下寄吏，有罪，奪侯。景帝乃以商他子堅封為繆侯，續酈氏後。繆靖侯卒，子康侯遂成立。遂成卒，子懷侯世宗立。世宗卒，子侯終根立，為太常，坐法，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji095-049:a001",
+          "paragraph_id": "c-shiji-095-fankuang:p015",
+          "start": 33,
+          "end": 35,
+          "surface": "俞侯",
+          "person_mention_id": "c-shiji-095-fankuang:m015-0035",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、敘事用稱及諡稱分存；未明示時任期起訖未知。爵號用字不擅自補足，單稱侯不自動展開爵邑名；死亡、被捕、罷兵不自動作所有官爵終點。欲拜李必駱甲為騎將未作實授，左右校尉據實際令授。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji100-014",
       "person_id": "jx9_cov_qe0",
@@ -377,6 +472,48 @@
       "interpretation_note": "用稱、實授與明示請贖分存；請贖布以爲梁大夫只存敘事，不冒作明示拜授。欲以季布爲御史大夫而見罷不作已任。死亡不自動終止官爵，兪侯保留本見證原字。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji106-010",
+      "person_id": "jx9_cov_qe0",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p010",
+          "quote": "七國反書聞天子，天子乃遣太尉條侯周亞夫將三十六將軍，往擊吳楚；遣曲周侯酈寄擊趙；將軍欒布擊齊；大將軍竇嬰屯滎陽，監齊趙兵。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji106-010:a001",
+          "paragraph_id": "c-shiji-106-wuwang:p010",
+          "start": 40,
+          "end": 42,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-106-wuwang:m010-0042",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、降封與用稱分存；代王廢為郃陽侯記明示終點。吳王受封日期正文與注家另核，不補完整任期。本文死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -409,16 +546,237 @@
   ],
   "occurrences": [
     {
+      "number": 10,
+      "category": "benji",
+      "title": "孝文本紀第十",
+      "paragraph_id": "c-shiji-010-wendi:p027",
+      "count": 1,
+      "quote": "不聽。皇太后固要帝，帝乃止。於是以東陽侯張相如為大將軍，成侯赤為內史，欒布為將軍，擊匈奴。匈奴遁走。"
+    },
+    {
+      "number": 50,
+      "category": "shijia",
+      "title": "楚元王世家第二十",
+      "paragraph_id": "c-shiji-050-chuyuan:p009",
+      "count": 1,
+      "quote": "，城守邯鄲，相距七月。吳楚敗於梁，不能西。匈奴聞之，亦止，不肯入漢邊。欒布自破齊還，乃并兵引水灌趙城。趙城壞，趙王自殺，邯鄲遂降。趙幽王絕後。"
+    },
+    {
+      "number": 52,
+      "category": "shijia",
+      "title": "齊悼惠王世家第二十二",
+      "paragraph_id": "c-shiji-052-qidaohui:p026",
+      "count": 1,
+      "quote": "約未定，會聞路中大夫從漢來，喜，及其大臣乃復勸王毋下三國。居無何，漢將欒布、平陽侯等兵至齊，擊破三國兵，解齊圍。已而復聞齊初與三國有謀，將欲移兵伐齊。齊孝王懼，乃飲藥自殺。景帝聞之，以為齊首善，以迫劫有謀，非其罪也，乃立孝王太子壽為齊王，是為懿王，續齊後。而膠西、膠東、濟南"
+    },
+    {
+      "number": 95,
+      "category": "liezhuan",
+      "title": "樊酈滕灌列傳第三十五",
+      "paragraph_id": "c-shiji-095-fankuang:p015",
+      "count": 1,
+      "quote": "孝景前三年，吳、楚、齊、趙反，上以寄為將軍，圍趙城，十月不能下。得俞侯欒布自平齊來，乃下趙城，滅趙，王自殺，除國。孝景中二年，寄欲取平原君為夫人，景帝怒，下寄吏，有罪，奪侯。景帝乃以商他子堅封為繆侯，續酈氏後。繆靖侯卒，子康侯遂成立。遂成卒，子懷侯世宗立。世宗卒，子侯終根立"
+    },
+    {
       "number": 100,
       "category": "liezhuan",
       "title": "季布欒布列傳第四十",
       "paragraph_id": "c-shiji-100-jibu:p007",
       "count": 16,
       "quote": "欒布者，梁人也。始梁王彭越爲家人時，嘗與布游。窮困，賃傭於齊，爲酒人保。數歳，彭越去之巨野中爲盜，而布爲人所略賣，爲奴於燕。爲其家主報仇，燕將臧荼舉以爲都尉。臧荼後爲燕王，以布爲將。及臧荼反，漢撃燕，虜布"
+    },
+    {
+      "number": 106,
+      "category": "liezhuan",
+      "title": "吳王濞列傳第四十六",
+      "paragraph_id": "c-shiji-106-wuwang:p010",
+      "count": 1,
+      "quote": "，天子乃遣太尉條侯周亞夫將三十六將軍，往擊吳楚；遣曲周侯酈寄擊趙；將軍欒布擊齊；大將軍竇嬰屯滎陽，監齊趙兵。"
+    },
+    {
+      "number": 107,
+      "category": "liezhuan",
+      "title": "魏其武安列傳第四十七",
+      "paragraph_id": "c-shiji-107-weiqi:p003",
+      "count": 1,
+      "quote": "「天下方有急，王孫寧可以讓邪？」乃拜嬰為大將軍，賜金千斤。嬰乃言袁盎、欒布諸名將賢士在家者進之。所賜金，陳之廊廡下，軍吏過，輒令財取為用，金無入家者。竇嬰守滎陽，監齊趙兵。七國兵已盡破，封嬰為魏其侯。諸游士賓客爭歸魏其侯。孝景時每朝議大事，條侯、魏其侯，諸列侯莫敢與亢禮。"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p112",
+      "count": 2,
+      "quote": "能摧剛作柔，卒為列臣；欒公不劫於埶而倍死。作季布欒布列傳第四十。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t4-r008-c02",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "六。六年亖月丁卯，侯欒布元年。中五年，侯布薨。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t4-r008-c02-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "欒布",
+        "person_id": "jx9_cov_qe0",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r041-c04",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "成侯董赤、內史欒布、昌侯盧卿、隆慮侯灶、甯侯鸱皆為將軍，東陽侯張相如為大將軍，皆擊匈奴。中尉周舍、郎中令張武皆為將軍，屯長安旁。",
+      "year": {
+        "era": "BCE",
+        "value": 166,
+        "astronomical_year": -165,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "166",
+        "source_cell_id": "shiji-022-t1-r041-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r041-c04-m000",
+        "start": 7,
+        "end": 9,
+        "surface": "欒布",
+        "person_id": "jx9_cov_qe0",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r053-c04",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "中尉條侯周亞夫。為太尉，擊吳楚；曲周侯酈寄為將軍，擊趙；竇嬰為大將軍，屯滎陽，欒布為將軍，擊齊。",
+      "year": {
+        "era": "BCE",
+        "value": 154,
+        "astronomical_year": -153,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "154",
+        "source_cell_id": "shiji-022-t1-r053-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r053-c04-m003",
+        "start": 39,
+        "end": 41,
+        "surface": "欒布",
+        "person_id": "jx9_cov_qe0",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-shiji-010-wendi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-010",
+      "source_id": "s-shiji-010-wendi",
+      "source": {
+        "title": "史記／卷010",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷010",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷010&oldid=2599229",
+        "revision_id": 2599229,
+        "accessed_on": "2026-10-09",
+        "extent": "正文41個p區塊，自孝文皇帝至太史公論贊；排除前置跨站dd及末尾索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "泽": "澤",
+            "为": "為",
+            "绖": "絰"
+          },
+          "editorial_readings": [],
+          "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
+          "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-050-chuyuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-050",
+      "source_id": "s-shiji-050-chuyuan",
+      "source": {
+        "title": "史記／卷050",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷050",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728",
+        "revision_id": 8737728,
+        "accessed_on": "2026-10-09",
+        "extent": "10段篇文及1段索隱述贊；排除1個空p，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
+          "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-052-qidaohui",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "source_id": "s-shiji-052-qidaohui",
+      "source": {
+        "title": "史記／卷052",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷052",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
+        "revision_id": 5977113,
+        "accessed_on": "2026-10-09",
+        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
+          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-095-fankuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-095",
+      "source_id": "s-shiji-095-fankuang",
+      "source": {
+        "title": "史記／卷095",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷095",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
+        "revision_id": 2298709,
+        "accessed_on": "2026-10-09",
+        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
+          "note": "全37個HTML區塊已讀，未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-100-jibu",
       "work_id": "w-shiji",
@@ -440,6 +798,78 @@
           "editorial_readings": [],
           "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
           "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-106-wuwang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-106",
+      "source_id": "s-shiji-106-wuwang",
+      "source": {
+        "title": "史記／卷106",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷106",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+        "revision_id": 405869,
+        "accessed_on": "2026-10-10",
+        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-107-weiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "source_id": "s-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
         }
       }
     }
@@ -481,7 +911,7 @@
     }
   ],
   "related_people": {
-    "jx9_cov_qe0": "欒布（季布欒布列傳候選）",
+    "jx9_cov_qe0": "欒布",
     "jx9_cov_qe0_A": "賁（欒布子）（季布欒布列傳候選）"
   },
   "dates": [],

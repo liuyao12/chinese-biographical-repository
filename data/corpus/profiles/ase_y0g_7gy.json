@@ -3,7 +3,7 @@
   "id": "ase_y0g_7gy",
   "canonical_person_id": "ase_y0g_7gy",
   "label": "平陽公主（佞幸列傳候選）",
-  "identity_note": null,
+  "identity_note": "李延年進女弟事中所稱平陽公主，暫不僅憑同號接武帝姊或夏侯頗配偶。",
   "review": "ai_provisional",
   "names": [
     "平陽公主"
@@ -67,6 +67,54 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-049-waiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "source_id": "s-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-095-fankuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-095",
+      "source_id": "s-shiji-095-fankuang",
+      "source": {
+        "title": "史記／卷095",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷095",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
+        "revision_id": 2298709,
+        "accessed_on": "2026-10-09",
+        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
+          "note": "全37個HTML區塊已讀，未核底本影像。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
       "book_id": "b-shiji-125",
@@ -93,9 +141,44 @@
   ],
   "relations": [],
   "related_people": {
-    "ase_y0g_7gy": "平陽公主（佞幸列傳候選）"
+    "921_w24_4mr": "平陽公主（樊酈滕灌列傳候選）",
+    "ase_y0g_7gy": "平陽公主（佞幸列傳候選）",
+    "nad_18h_5jc": "平陽公主"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-shiji095-pingyang-princesses",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "921_w24_4mr",
+        "nad_18h_5jc",
+        "ase_y0g_7gy"
+      ],
+      "paragraph_ids": [
+        "c-shiji-095-fankuang:p021",
+        "c-shiji-049-waiqi:p024",
+        "c-shiji-049-waiqi:p028",
+        "c-shiji-125-ningxing:p004"
+      ],
+      "note": "本篇夏侯頗所尚平陽公主，〈漢書·夏侯嬰傳〉又稱其隨外家姓、號孫公主；與〈外戚世家〉王太后女、武帝姊是否同人仍有疑點，暫不接合。李延年段只稱平陽公主，亦先保留候選；不由同號或大致同時推三段婚姻、父母及母家。",
+      "references": [
+        {
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+          "title": "《漢書·樊酈滕灌傅靳周傳》夏侯嬰段",
+          "quote": "初嬰為滕令奉車，故號滕公。及曾孫頗尚主，主隨外家姓，號孫公主，故滕公子孫更為孫氏。",
+          "status": "text_checked",
+          "image_verified": false,
+          "access_note": "核讀現行數位頁相應正文及固定修訂頁尾，未核書影。"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "chapter_id": "c-shiji-095-fankuang",
+      "source_id": "s-shiji-095-fankuang"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "ase_y0g_7gy"
