@@ -114,6 +114,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji052-003",
+      "person_id": "yqp_nlb_p1p_AI",
+      "title": "魯元公主",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p002",
+          "quote": "齊王，孝惠帝兄也。孝惠帝二年，齊王入朝。惠帝與齊王燕飲，亢禮如家人。呂太后怒，且誅齊王。齊王懼不得脫，乃用其內史勳計，獻城陽郡，以為魯元公主湯沐邑。呂太后喜，乃得辭就國。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji052-003:a001",
+          "paragraph_id": "c-shiji-052-qidaohui:p002",
+          "start": 66,
+          "end": 70,
+          "surface": "魯元公主",
+          "person_mention_id": "c-shiji-052-qidaohui:m002-0066",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji089-028",
       "person_id": "yqp_nlb_p1p_AI",
       "title": "公主",
@@ -225,12 +267,28 @@
       "quote": "呂太后者，高祖微時妃也，生孝惠帝、女魯元太后。及高祖為漢王，得定陶戚姬，愛幸，生趙隱王如意。孝惠為人仁弱，高祖以為不類我，常欲廢太子，立戚姬子如意，如意類我。戚姬幸，常從上之關東，日夜啼泣，欲立其子代太子。呂后年長，常留守，希見上，益疏。如意立"
     },
     {
+      "number": 52,
+      "category": "shijia",
+      "title": "齊悼惠王世家第二十二",
+      "paragraph_id": "c-shiji-052-qidaohui:p002",
+      "count": 1,
+      "quote": "家人。呂太后怒，且誅齊王。齊王懼不得脫，乃用其內史勳計，獻城陽郡，以為魯元公主湯沐邑。呂太后喜，乃得辭就國。"
+    },
+    {
       "number": 89,
       "category": "liezhuan",
       "title": "張耳陳餘列傳第二十九",
       "paragraph_id": "c-shiji-089-zhanger:p023",
       "count": 4,
       "quote": "國。漢立張耳爲趙王。漢五年，張耳薨，謚爲景王。子敖嗣立爲趙王。髙祖長女魯元公主爲趙王敖后。"
+    },
+    {
+      "number": 95,
+      "category": "liezhuan",
+      "title": "樊酈滕灌列傳第三十五",
+      "paragraph_id": "c-shiji-095-fankuang:p018",
+      "count": 3,
+      "quote": "還定三秦，從擊項籍。至彭城，項羽大破漢軍。漢王敗，不利，馳去。見孝惠、魯元，載之。漢王急，馬罷，虜在後，常蹶兩兒欲棄之，嬰常收，竟載之，徐行面雍樹乃馳。漢王怒，行欲斬嬰者十餘，卒得脫，而致孝惠、魯元於豐。"
     },
     {
       "number": 99,
@@ -318,6 +376,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-052-qidaohui",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "source_id": "s-shiji-052-qidaohui",
+      "source": {
+        "title": "史記／卷052",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷052",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
+        "revision_id": 5977113,
+        "accessed_on": "2026-10-09",
+        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
+          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-089-zhanger",
       "work_id": "w-shiji",
       "book_id": "b-shiji-089",
@@ -340,6 +422,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML與取得時版本一致，只去外緣空白及明記钜轉鉅；髙、渉、脱、黡、黶、信諸侯等原字保留。",
           "note": "33個HTML區塊已全讀；頁面索隱述贊標題確認末段層次。未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-095-fankuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-095",
+      "source_id": "s-shiji-095-fankuang",
+      "source": {
+        "title": "史記／卷095",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷095",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
+        "revision_id": 2298709,
+        "accessed_on": "2026-10-09",
+        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
+          "note": "全37個HTML區塊已讀，未核底本影像。"
         }
       }
     },

@@ -124,7 +124,7 @@ class HanxinIdentityTests(unittest.TestCase):
         rows = json.loads((ROOT / 'corpus/shiji/092-addresses.json').read_text())['assertions']
         self.assertTrue(any(x['person_id'] == 'ofc_8ei_jb7' and x['relation'] == 'biographical_origin'
                             and x['place']['source_name'] == '淮陰' for x in rows))
-        self.assertTrue(any(x['person_id'] == '23z_9xy_hzo' and x['relation'] == 'residence'
+        self.assertTrue(any(x['person_id'] == 'tb2_zhz_mol' and x['relation'] == 'residence'
                             and x['place']['source_name'] == '伊廬' for x in rows))
         self.assertEqual({x['place']['source_name'] for x in rows if x['person_id'] == 'x9q_ghs_z2s'}, {'范陽', '齊'})
         self.assertTrue(any(x['person_id'] == 'ofc_8ei_jb7' and x['relation'] == 'death_place'
@@ -145,7 +145,7 @@ class HanxinIdentityTests(unittest.TestCase):
     def test_han_and_zhongli_names_use_full_and_short_forms(self):
         rows = json.loads((ROOT / 'data/corpus/profile-names.json').read_text())['records']
         han = next(x for x in rows if x['person_id'] == 'ofc_8ei_jb7')
-        zhongli = next(x for x in rows if x['person_id'] == '23z_9xy_hzo')
+        zhongli = next(x for x in rows if x['person_id'] == 'tb2_zhz_mol')
         self.assertEqual((han['surname'], han['ming']), ('韓', '信'))
         self.assertIn('淮陰侯韓信', han['quote'])
         self.assertIn('食時信往', han['quote'])

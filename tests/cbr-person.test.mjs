@@ -184,3 +184,13 @@ test('touch opens a card after the tap, while mouse hover and keyboard focus sti
     events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,false);
   } finally {dispose?.();globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
 });
+
+
+test('unresolved identities expose candidates and source references on the full profile safely', () => {
+ const p={id:'synthetic_one',label:'測試人物',related_people:{synthetic_one:'甲',synthetic_two:'乙'},unresolved_identity_cases:[{note:'<script>不可執行</script>',candidate_person_ids:['synthetic_one','synthetic_two'],paragraph_ids:['c-shiji-095-fankuang:p021'],references:[{title:'史料',quote:'另號孫公主。',url:'https://example.com/source'},{quote:'<img src=x>',url:'javascript:alert(1)'}]}]};
+ const html=personCard(p,true);
+ assert.match(html,/身份待考/);assert.match(html,/person.html#synthetic_two/);assert.match(html,/https:\/\/example.com\/source/);assert.match(html,/另號孫公主/);
+ assert.match(html,/&lt;script&gt;/);assert.doesNotMatch(html,/<script>|javascript:|<img/);
+ assert.doesNotMatch(personCard(p),/person-identity-cases/);
+ assert.doesNotMatch(personCard({id:'synthetic_none',label:'無未決案'},true),/身份待考/);
+});
