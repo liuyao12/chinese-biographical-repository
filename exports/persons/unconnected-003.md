@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ull_jgp_wdx` | 孟舒 | [《史記・田叔列傳》][86] | [JSON](ull_jgp_wdx.json) |
-| `ulx_s90_lom` | 丁夫人（方祠者） | [《史記・孝武本紀》][12] | [JSON](ulx_s90_lom.json) |
-| `um1_nbo_c79` | 梁氏女（斑所說） | [《史記・魯周公世家》][15] | [JSON](um1_nbo_c79.json) |
-| `umv_4mq_7sy` | 神君（長陵女子敘事） | [《史記・孝武本紀》][12] | [JSON](umv_4mq_7sy.json) |
 | `un4_kak_hvp` | 梅鋗 | [《史記・高祖本紀》][8] | [JSON](un4_kak_hvp.json) |
 | `uni_tuw_ndh` | 商君 | [《史記・孟子荀卿列傳》][56] | [JSON](uni_tuw_ndh.json) |
 | `unm_pqt_ktm` | 辯武 | [《史記・淮南衡山列傳》][100] | [JSON](unm_pqt_ktm.json) |

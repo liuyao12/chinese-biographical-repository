@@ -255,3 +255,21 @@ class HanLuIdentityTests(unittest.TestCase):
         for pid in ('8r5_zyc_5dx', 'tqe_7o9_t4k', 'qbh_lsz_ipx'):
             self.assertNotIn(pid, ids)
             self.assertFalse((ROOT / f'exports/persons/{pid}.json').exists())
+
+    def test_remaining_court_people_match_events_not_generic_titles(self):
+        p=self.paragraph('093','p011')
+        self.assertEqual(self.ids(p,'黥布'),{'zxd_afr_2xg'})
+        self.assertEqual(self.ids(p,'淮陰'),{'ofc_8ei_jb7'})
+        self.assertEqual(self.ids(p,'彭越'),{'9qt_orl_5f2'})
+        self.assertEqual(self.ids(self.paragraph('093','p003'),'周苛'),{'7tm_3ss_4on'})
+        self.assertEqual(self.ids(self.paragraph('093','p003'),'韓王信'),{'l9e_fbr_36a_*A'})
+        self.assertIn('三年',self.paragraph('093','p003')['text'])
+        self.assertIn('漢王四年',self.paragraph('096','p004')['text'])
+        self.assertIn('往年殺彭越，前年殺韓信',self.paragraph('091','p015')['text'])
+
+    def test_remaining_court_candidates_retired_after_references_updated(self):
+        people={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ('ehh_a65_95j','7mw_nab_5z6','ova_rch_fa4','nu6_2qe_oza'):
+            self.assertNotIn(pid,people)
+            self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
