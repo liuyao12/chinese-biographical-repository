@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "qlq_xq2_1sm",
   "canonical_person_id": "qlq_xq2_1sm",
-  "label": "御史大夫暴（田叔列傳候選）",
+  "label": "暴勝之（古注辨識）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -92,9 +92,54 @@
   ],
   "relations": [],
   "related_people": {
-    "qlq_xq2_1sm": "御史大夫暴（田叔列傳候選）"
+    "qlq_xq2_1sm": "暴勝之（古注辨識）"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji104-033",
+      "person_id": "qlq_xq2_1sm",
+      "surfaces": [
+        "御史大夫暴君"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-104-tianshu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-104-tianshu:p015",
+          "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。"
+        }
+      ],
+      "rationale": "集解徐廣明指暴勝之為御史大夫；漢書066同一事件亦明名，但對暴氏責問或阻斬的行動敘述不同，分存不改原文。",
+      "reviewer": "Codex（AI 代理）",
+      "references": [
+        {
+          "title": "《史記三家註》卷104指定古注",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷104&oldid=2514774",
+          "revision_id": 2514774,
+          "quote": "暴勝之爲御史大夫。",
+          "commentator": "集解徐廣曰",
+          "scope": "specified_digital_commentary_only",
+          "image_verified": false,
+          "note": "古注辨識與正文分層；數位古注核讀，不冒稱書影校勘。"
+        },
+        {
+          "title": "《漢書》卷066劉屈氂傳田仁司直事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "revision_id": 5979001,
+          "quote": "會夜司直田仁部閉城門，坐令太子得出，丞相欲斬仁。御史大夫暴勝之謂丞相曰：「司直，吏二千石，當先請，柰何擅斬之。」丞相釋仁。",
+          "scope": "parallel_event_not_silent_text_correction",
+          "image_verified": false,
+          "note": "史記褚補記暴君奉命下責丞相，漢書記暴勝之阻擅斬，兩說不合併為一致行動。"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "qlq_xq2_1sm"

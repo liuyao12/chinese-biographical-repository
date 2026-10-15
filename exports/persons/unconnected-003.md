@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w9t_rdt_ue0` | 舜生母 | [《史記・五帝本紀》][2] | [JSON](w9t_rdt_ue0.json) |
-| `w9v_z3u_iuh` | 魚翁叔 | [《史記・酷吏列傳》][105] | [JSON](w9v_z3u_iuh.json) |
 | `w9y_fgt_kmy` | 卓氏先人妻（未名） | [《史記・貨殖列傳》][112] | [JSON](w9y_fgt_kmy.json) |
 | `wae_xmq_dqk` | 楊干 | [《史記・魏世家》][27] | [JSON](wae_xmq_dqk.json) |
 | `waq_xn7_9gj` | 范蜎 | [《史記・樗里子甘茂列傳》][54] | [JSON](waq_xn7_9gj.json) |
@@ -130,7 +128,7 @@
 | `x6s_mnz_sy3` | 義姁 | [《史記・酷吏列傳》][105] | [JSON](x6s_mnz_sy3.json) |
 | `x85_w53_dyq` | 高皇帝 | [《史記・儒林列傳》][104] | [JSON](x85_w53_dyq.json) |
 | `x89_ryb_yax` | 呂澤 | [《史記・留侯世家》][38] | [JSON](x89_ryb_yax.json) |
-| `x8h_4i8_xwm` | 左相未具名 | [《史記・田叔列傳》][87] | [JSON](x8h_4i8_xwm.json) |
+| `x8h_4i8_xwm` | 劉屈氂（古注辨識） | [《史記・田叔列傳》][87] | [JSON](x8h_4i8_xwm.json) |
 | `x8h_bgr_mc5` | 武（孝惠後宮子稱） | [《史記・呂太后本紀》][10]、[《史記・漢興以來諸侯王年表》][118] | [JSON](x8h_bgr_mc5.json) |
 | `x8n_oxv_xpj` | 衛君 | [《史記・樗里子甘茂列傳》][54] | [JSON](x8n_oxv_xpj.json) |
 | `x8r_9sk_d7a` | 兒寬 | [《史記・儒林列傳》][104] | [JSON](x8r_9sk_d7a.json) |
