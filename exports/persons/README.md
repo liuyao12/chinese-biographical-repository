@@ -819,15 +819,6 @@
 
 </details>
 
-<details><summary><code>awy_adj_c0u</code> 臧茶（韓信盧綰列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 臧茶 | [《史記・韓信盧綰列傳》][75] | [JSON](awy_adj_c0u.json) |
-| `A` | 衍（臧茶子） | [《史記・韓信盧綰列傳》][75] | [JSON](awy_adj_c0u_A.json) |
-
-</details>
-
 <details><summary><code>b1r_inb_fts</code> 樊噲（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2442,6 +2433,15 @@
 |---|---|---|---|
 | `根` | 天漢二年單于（未名） | [《史記・李將軍列傳》][91] | [JSON](x9i_8zv_ker.json) |
 | `A` | 單于女（李陵配偶，未名） | [《史記・李將軍列傳》][91] | [JSON](x9i_8zv_ker_A.json) |
+
+</details>
+
+<details><summary><code>xaa_ewn_4ro</code> 臧荼（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 臧荼 | [《史記・樊酈滕灌列傳》][77] | [JSON](xaa_ewn_4ro.json) |
+| `A` | 衍（臧荼子） | [《史記・韓信盧綰列傳》][75] | [JSON](xaa_ewn_4ro_A.json) |
 
 </details>
 

@@ -146,3 +146,24 @@ class HanLuIdentityTests(unittest.TestCase):
         d = next(a for a in addresses if a['place']['source_name'] == '參合')
         self.assertEqual(d['person_id'], 'l9e_fbr_36a_*A')
         self.assertEqual(d['relation'], 'death_place')
+
+    def test_zangtu_variant_and_later_campaign_references_share_identity(self):
+        self.assertEqual(self.ids(self.paragraph('093', 'p010'), '臧茶'), {'xaa_ewn_4ro'})
+        for suffix in ('p006', 'p013', 'p020', 'p028'):
+            self.assertEqual(self.ids(self.paragraph('095', suffix), '臧荼'), {'xaa_ewn_4ro'})
+        self.assertIn('故燕王臧茶子衍出亡在胡', self.paragraph('093', 'p010')['text'])
+        d = json.loads((ROOT / 'corpus/shiji/093-equivalences.json').read_text())['decisions']
+        d = next(d for d in d if d['id'] == 'eq-shiji093-zangtu-context')
+        self.assertTrue(d['identity_materialized'])
+        self.assertEqual(len(d['chapter_ids']), 3)
+
+    def test_zangtu_child_retains_sourced_father_and_no_old_json(self):
+        people = {p['id']: p for p in json.loads((ROOT / 'registry/persons.json').read_text())['persons']}
+        child = people['xaa_ewn_4ro_A']
+        self.assertEqual(child['family_path']['parent_person_id'], 'xaa_ewn_4ro')
+        self.assertEqual(child['family_path']['source_assertion_id'], 'a-shiji093-011')
+        self.assertNotIn('候選', child['label'])
+        for pid in ('awy_adj_c0u', 'awy_adj_c0u_A', 'un2_jcz_dkt'):
+            self.assertNotIn(pid, people)
+            self.assertFalse((ROOT / f'exports/persons/{pid}.json').exists())
+            self.assertFalse((ROOT / f'data/corpus/profiles/{pid}.json').exists())
