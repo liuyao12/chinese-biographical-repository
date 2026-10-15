@@ -66,3 +66,27 @@ class TianDanIdentityTests(unittest.TestCase):
             self.assertNotIn(pid,people)
             self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
+
+    def test_remaining_campaign_people_use_each_shared_event(self):
+        p=self.paragraph('094',9)
+        for surface,pid in [('龍且','sr6_5zr_1f3'),('彭越','9qt_orl_5f2'),('華無傷','bbt_vs5_5ka'),('田解','sac_peq_v1p'),('田光','pew_ob7_n0k'),('田既','o4h_qq4_taj'),('田吸','kfh_9sk_v4e')]:
+            self.assertEqual(self.ids(p,surface),{pid})
+        self.assertEqual(self.ids(self.paragraph('094',7),'陳餘'),{'rx0_vif_1xq'})
+        self.assertEqual(self.ids(self.paragraph('094',10),'酈商'),{'xny_prn_zyi'})
+        self.assertEqual(self.ids(self.paragraph('054',5),'田廣'),{'0hs_fg6_1qj_B'})
+        self.assertEqual(self.ids(self.paragraph('095',25),'華毋傷'),{'bbt_vs5_5ka'})
+
+    def test_qi_minister_is_not_yan_assassin_and_tian_guang_keeps_father(self):
+        all_mentions=[m for p in json.loads((ROOT/'corpus/shiji/086.json').read_text())['paragraphs'] for m in p['mentions']]
+        self.assertTrue(any(m.get('person_id')=='z0v_ish_b9u' and m['surface']=='田光' for m in all_mentions))
+        self.assertFalse(any(m.get('person_id')=='pew_ob7_n0k' for m in all_mentions))
+        people={p['id']:p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        self.assertEqual(people['0hs_fg6_1qj_B']['family_path']['parent_person_id'],'0hs_fg6_1qj')
+        self.assertIn('立田榮子廣為齊王',self.paragraph('094',8)['text'])
+
+    def test_remaining_campaign_candidate_files_retired(self):
+        people={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ('ueq_svp_knr','y6z_6wd_ezf','qfk_7zb_jtn','zip_jr2_0be','27w_87k_66k','ecl_t01_cwr','14d_o9y_nd0','6mp_d5b_nax','hr1_cou_3hm','nnz_8gm_bdk','dnb_rcf_15u','k96_xfs_8qz','ybx_5gn_njg'):
+            self.assertNotIn(pid,people)
+            self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
