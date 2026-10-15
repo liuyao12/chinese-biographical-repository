@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `un4_kak_hvp` | 梅鋗 | [《史記・高祖本紀》][8] | [JSON](un4_kak_hvp.json) |
-| `uni_tuw_ndh` | 商君 | [《史記・孟子荀卿列傳》][56] | [JSON](uni_tuw_ndh.json) |
-| `unm_pqt_ktm` | 辯武 | [《史記・淮南衡山列傳》][100] | [JSON](unm_pqt_ktm.json) |
-| `unv_qqw_cz7` | 扁鵲 | [《史記・太史公自序》][112] | [JSON](unv_qqw_cz7.json) |
 | `unz_bjb_cyp` | 奢（伍子胥提要） | [《史記・太史公自序》][112] | [JSON](unz_bjb_cyp.json) |
 | `uo0_7bg_poy` | 公子刻 | [《史記・趙世家》][25] | [JSON](uo0_7bg_poy.json) |
 | `uo2_h90_033` | 郎署長未名 | [《史記・袁盎鼂錯列傳》][83] | [JSON](uo2_h90_033.json) |
