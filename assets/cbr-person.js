@@ -55,7 +55,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
   const grouped = new Map();
   for (const x of p.titles || []) {
-    const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null);
+    const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify([x.kind || null, x.jurisdictions || null]);
     if (!grouped.has(key)) grouped.set(key, {...x, evidence: [], date_periods: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
     grouped.get(key).date_periods.push(x.effective_period);
@@ -75,6 +75,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   };
   const officeCounts = x => Object.entries(x.reported_office_event_counts || {}).map(([key, c]) =>
     `<p class="person-office-count">${key === 'departure' ? '離相' : '復位'} ${h(c.value)} 次 <q>${h(c.source_term)}</q></p>`).join('');
+  const titleJurisdictions = x => {
+    const names = Array.isArray(x.jurisdictions) ? x.jurisdictions.map(p => p?.source_name).filter(n => typeof n === 'string' && n) : [];
+    return names.length ? `<br><small class="person-title-jurisdictions">${x.kind === 'royal_rank' ? '所王地' : '所屬地'}：${h(names.join('、'))}</small>` : '';
+  };
   const titlePeriod = x => {
     const bounds = (x.period || '').split(' → ');
     if (bounds.length === 2) return bounds.every(v => !v || v === '未定') ? '' : bounds[0] === '未定' ? '止於 ' + bounds[1] : bounds[1] === '未定' ? '始於 ' + bounds[0] : bounds.join(' → ');
@@ -110,7 +114,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}`).join('')}</section>` : ''}
   ${full && variants.length ? `<section class="person-textual-variants"><h4>校勘參考</h4><p>其他來源所載或注家所議，尚未核書影；未採改正文。</p><ul>${variants.map(v => `<li>正文「${h(v.received_reading)}」 · 所報或所議「${h(v.reported_reading)}」<details><summary>${h(v.commentator)}</summary><blockquote>${h(v.quote)}</blockquote><a href="${h(v.url)}" target="_blank" rel="noopener">異文來源</a></details></li>`).join('')}</ul></section>` : ''}
   ${full && lifeEvents.length ? `<section class="person-life-events"><h4>來源所記生卒</h4>${lifeEvents.map(e => `<div><strong>${e.event_type === 'death' ? '死亡' : '出生'}</strong>${e.date_expression ? ' · ' + h(e.date_expression) : ''}<details><summary>${h(e.source_term || '查看原文')}</summary>${e.evidence.map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.interpretation_note ? `<p>${h(e.interpretation_note)}</p>` : ''}</details></div>`).join('')}</section>` : ''}
-  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title"><strong>${h(x.title)}</strong>${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${officeCounts(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
+  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title"><strong>${h(x.title)}</strong>${titleJurisdictions(x)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${officeCounts(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
   ${addresses.length ? `<section><h4>來源所記地望</h4>${addresses.slice(0, full ? undefined : 2).map(x => `<div class="person-address"><strong>${h(addressHeading(x))}</strong>${full ? `<details><summary>查看原文證據</summary><blockquote>${h(x.quote)}</blockquote>${evidenceLinks(x.evidence)}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}</details>` : ''}</div>`).join('')}</section>` : ''}</div>` : ''}
   ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${h(p.related_people?.[x.subject_person_id] || x.subject_person_id)} · ${h(labels[x.predicate] || x.qualifiers?.source_term || x.predicate)}：${h(p.related_people?.[x.object_person_id] || x.object_person_id)}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full && p.table_occurrences?.length ? `<section><h4>表中原文</h4><ul class="person-occurrences">${(p.table_occurrences || []).map(x => `<li><a href="${h(tableOccurrenceURL(x))}">${h(x.title)} · ${h(yearLabel(x.year))} →</a><blockquote>${h(x.quote)}</blockquote>${x.mention?.identity_evidence?.length ? `<details class="person-identity-evidence"><summary>人物同指的篇文證據 · 暫定</summary>${x.mention.identity_evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}${e.source_revision ? `<p><small>固定修訂 <code>${h(e.source_revision)}</code></small></p>` : ''}`).join('')}</details>` : ''}</li>`).join('')}</ul></section>` : ''}

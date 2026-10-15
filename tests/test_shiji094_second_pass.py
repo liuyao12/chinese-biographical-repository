@@ -126,3 +126,36 @@ class TianDanIdentityTests(unittest.TestCase):
         self.assertTrue(all(a['place']['modern_identification'] is None for a in rows))
         self.assertTrue(any(a['person_id']=='u87_cc1_7vm_A' and a['place']['source_name']=='即墨' for a in rows))
         self.assertTrue(any(a['person_id']=='0hs_fg6_1qj' and a['place']['source_name']=='平原' for a in rows))
+
+    def test_royal_grant_years_keep_original_titles_and_unknown_death_end(self):
+        rows={h['id']:h for h in json.loads((ROOT/'corpus/shiji/094-titles.json').read_text())['holdings']}
+        for hid,year in [('002',209),('008',208),('011',206),('013',206),('014',206),('016',206),('017',205)]:
+            b=rows['th-shiji094-'+hid]['effective_period']['start']
+            self.assertIsNone(b['date_expression'])
+            self.assertEqual(b['normalized_date']['era_year'],year)
+            self.assertEqual(b['normalized_date']['basis']['kind'],'parallel_event')
+        shi=rows['th-shiji094-008']
+        self.assertEqual(shi['effective_period']['end']['event_type'],'deposition')
+        self.assertEqual(shi['effective_period']['end']['normalized_date']['era_year'],206)
+        jiaodong=rows['th-shiji094-011']
+        self.assertEqual(jiaodong['title'],'王')
+        self.assertEqual([x['source_name'] for x in jiaodong['jurisdictions']],['膠東'])
+        self.assertEqual(jiaodong['effective_period']['end']['status'],'unknown')
+
+    def test_tian_rong_grant_preserves_different_event_order(self):
+        rows=json.loads((ROOT/'corpus/shiji/094-titles.json').read_text())['holdings']
+        h=next(h for h in rows if h['id']=='th-shiji094-016')
+        date=h['effective_period']['start']['normalized_date']
+        self.assertIn('本傳先殺田安而後自立',date['rationale'])
+        self.assertIn('六月田榮始、七月殺安',date['rationale'])
+        self.assertTrue(any(r['quote']=='六月' for r in date['references']))
+        p=self.paragraph('094',7)['text']
+        self.assertLess(p.index('還攻殺濟北王安'),p.index('於是田榮乃自立為齊王'))
+
+    def test_month_table_short_names_identify_victims_and_family(self):
+        x=json.loads((ROOT/'data/historical-tables/shiji-016.json').read_text())
+        cells={c['id']:c for f in x['fragments'] for r in f['rows'] for c in r['cells']}
+        for cid,surface,pid in [('shiji-016-t2-r006-c10','市','u87_cc1_7vm_A'),('shiji-016-t2-r007-c09','安','vtu_yuj_kdz_*A'),('shiji-016-t2-r013-c08','項籍','ob7_g6i_7pp'),('shiji-016-t2-r013-c08','榮','0hs_fg6_1qj'),('shiji-016-t1-r003-c05','橫','6r7_9o6_c1i')]:
+            self.assertTrue(any(m['surface']==surface and m['person_id']==pid for m in cells[cid]['person_mentions']))
+        self.assertEqual(cells['shiji-016-t2-r006-c10']['text'],'二十四。田榮擊殺市。')
+        self.assertEqual(cells['shiji-016-t2-r007-c09']['text'],'六。田榮擊殺安。')

@@ -130,3 +130,20 @@ test('a dated approximate age identifies the reporting period without inventing 
  const unknown=personCard({...p,age_assertions:[{...p.age_assertions[0],date_expression:null,normalized_date:null}]},true);
  assert.doesNotMatch(unknown,/報齡時|西元|未定/);
 });
+
+
+test('royal scope and office jurisdiction remain readable without rewriting the title', () => {
+ const p={id:'abc_def_123',label:'synthetic person',titles:[{title:'王',kind:'royal_rank',period:'',jurisdictions:[{source_name:'膠東'}]},{title:'太守',kind:'office',period:'',jurisdictions:[{source_name:'隴西'},{source_name:'<script>'}]}]};
+ const html=personCard(p,true);
+ assert.match(html,/<strong>王<\/strong>/);
+ assert.match(html,/所王地：膠東/);
+ assert.match(html,/所屬地：隴西、&lt;script&gt;/);
+ assert.doesNotMatch(personCard({id:'abc_def_123',label:'synthetic person',titles:[{title:'王',period:''}]},true),/所王地|所屬地/);
+});
+
+test('same title with different territories keeps separate source assertions', () => {
+ const titles=['膠東','齊'].map(source_name=>({title:'王',kind:'royal_rank',period:'',jurisdictions:[{source_name}]}));
+ const html=personCard({id:'abc_def_123',label:'synthetic person',titles},true);
+ assert.equal((html.match(/class="person-title"/g)||[]).length,2);
+ assert.match(html,/所王地：膠東/);assert.match(html,/所王地：齊/);
+});
