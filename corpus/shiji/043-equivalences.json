@@ -388,6 +388,52 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji043-jindaogong",
+      "person_ids": [
+        "6di_ywz_ju4_AAADAAA"
+      ],
+      "canonical_person_id": "6di_ywz_ju4_AAADAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-043-zhao",
+        "c-shiji-039-jin"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-043",
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p019",
+          "quote": "趙氏復位十一年，而晉厲公殺其大夫三郤。欒書畏及，乃遂弒其君厲公，更立襄公曾孫周，是爲悼公。晉由此大夫稍彊。",
+          "mention_ids": [
+            "c-shiji-043-zhao:m019-0036",
+            "c-shiji-043-zhao:m019-0042"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-039",
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p114",
+          "quote": "悼公周者，其大父捷，晉襄公少子也，不得立，號爲桓叔，桓叔最愛。桓叔生惠伯談，談生悼公周。周之立，年十四矣。悼公曰：「大父、父皆不得立而辟難於周，客死焉。寡人自以疎遠，毋幾爲君。今大夫不忘文、襄之意而惠立桓叔之後，賴宗廟大夫之靈，得奉晉祀，豈敢不戰戰乎？大夫其亦佐寡人！」於是逐不臣者七人，修舊功，施德惠，收文公入時功臣後。秋，伐鄭。鄭師敗，遂至陳。",
+          "mention_ids": [
+            "c-shiji-039-jin:m114-0000",
+            "c-shiji-039-jin:m114-0040",
+            "c-shiji-039-jin:m114-0044",
+            "c-shiji-039-jin:m114-0053"
+          ]
+        }
+      ],
+      "rationale": "趙世家襄公曾孫周是為悼公，與晉世家悼公周、大父捷為襄公少子及捷生談談生周的完整三代相配。接合既有父祖鏈，保留趙篇曾孫原主張，不按同名去重或補造中間人；原闕代ID引用更新後撤除，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
