@@ -68,8 +68,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   };
   const ages = life.ages.filter(e => Number.isInteger(e.value) || e.qualified_source_term || e.source_term);
   const ageWhen = e => {
-    const date = e.normalized_date;
-    const values = [e.date_expression, date?.era_year ? `西元${date.era === 'BCE' ? '前' : ''}${date.era_year}年` : ''].filter(Boolean);
+    const values = [e.date_expression, lifeYearLabel(e)].filter(Boolean);
     return values.length ? `<small> · ${values.map(h).join(' · ')}（報齡時）</small>` : '';
   };
   const stableTitleFacts=value=>Array.isArray(value)?value.map(stableTitleFacts):value && typeof value==='object'

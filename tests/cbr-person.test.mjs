@@ -311,3 +311,8 @@ test('table name components render known ming, omit unknown surname and link ori
  const html=personCard({id:'synthetic-person',label:'合成人物',name_components:[{title:'合成侯',surname:null,ming:'甲',additional_names:[],kind:'table_cell',table_id:'shiji-018',table_cell_id:'synthetic-name-cell',quote:'合成甲原文',note:'合成測試資料'}]},true);
  assert.match(html,/<h1>合成侯 甲<\/h1>/);assert.match(html,/姓名依據/);assert.match(html,/chapter=18&amp;category=biao&amp;cell=synthetic-name-cell/);assert.doesNotMatch(html,/null甲|undefined甲/);
 });
+
+test('reported age shows its editorial year window without a birth year',()=>{
+ const p={id:'abc_def_123',label:'測試人物',age_assertions:[{person_id:'abc_def_123',value:62,date_expression:'七國之發',normalized_date_range:{earliest:{era:'BCE',era_year:155,year:-154},latest:{era:'BCE',era_year:154,year:-153}},evidence:[]}]};
+ const html=personCard(p,true);assert.match(html,/西元前155至154年/);assert.match(html,/報齡時/);assert.match(html,/七國之發/);assert.doesNotMatch(html,/<dt>生<\/dt>/);
+});
