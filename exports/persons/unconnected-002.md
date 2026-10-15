@@ -335,7 +335,6 @@
 | `ia8_8tw_gey` | 公山不狃 | [《史記・孔子世家》][30] | [JSON](ia8_8tw_gey.json) |
 | `iaf_rfl_80u` | 太史公 | [《史記・平津侯主父列傳》][95] | [JSON](iaf_rfl_80u.json) |
 | `iai_csf_zlg` | 鄭幽公 | [《史記・韓世家》][28] | [JSON](iai_csf_zlg.json) |
-| `ibh_9if_1dv` | 范蠡 | [《史記・滑稽列傳》][109] | [JSON](ibh_9if_1dv.json) |
 | `ibi_qk6_07w` | 趙利 | [《史記・高祖本紀》][9]、[《史記・匈奴列傳》][93] | [JSON](ibi_qk6_07w.json) |
 | `ic1_x9o_8rb` | 扁鵲 | [《史記・高祖本紀》][9] | [JSON](ic1_x9o_8rb.json) |
 | `ic2_0dp_oms` | 文帝前后（本卷未名） | [《史記・孝景本紀》][12] | [JSON](ic2_0dp_oms.json) |
@@ -753,7 +752,6 @@
 | `lih_9tv_8hf` | 趙梁 | [《史記・龜策列傳》][111] | [JSON](lih_9tv_8hf.json) |
 | `lin_xy2_4my` | 曲宮 | [《史記・蒙恬列傳》][71] | [JSON](lin_xy2_4my.json) |
 | `lit_x7f_ld0` | 周氏未名（濮陽） | [《史記・季布欒布列傳》][83] | [JSON](lit_x7f_ld0.json) |
-| `lix_yk4_xqp` | 范蠡 | [《史記・貨殖列傳》][112] | [JSON](lix_yk4_xqp.json) |
 | `lje_891_3sg` | 昭王四十年死太子未名 | [《史記・呂不韋列傳》][68] | [JSON](lje_891_3sg.json) |
 | `ljt_md6_814` | 徐厲 | [《史記・絳侯周勃世家》][40] | [JSON](ljt_md6_814.json) |
 | `lls_je1_d6d` | 淮南賁生 | [《史記・儒林列傳》][104] | [JSON](lls_je1_d6d.json) |
@@ -826,7 +824,6 @@
 | `m3d_h2d_hni` | 新城三老董公 | [《史記・高祖本紀》][9] | [JSON](m3d_h2d_hni.json) |
 | `m3x_qqp_18q` | 佛肸 | [《史記・孔子世家》][30] | [JSON](m3x_qqp_18q.json) |
 | `m4b_3vy_i2f` | 廉頗 | [《史記・太史公自序》][113] | [JSON](m4b_3vy_i2f.json) |
-| `m5g_nw3_pnt` | 范蠡 | [《史記・田叔列傳》][87] | [JSON](m5g_nw3_pnt.json) |
 | `m5i_yic_yy1` | 太公望 | [《史記・龜策列傳》][111] | [JSON](m5i_yic_yy1.json) |
 | `m61_2wu_0ru` | 王唊 | [《史記・朝鮮列傳》][98] | [JSON](m61_2wu_0ru.json) |
 | `m6a_2rx_afc` | 孝惠 | [《史記・朝鮮列傳》][98] | [JSON](m6a_2rx_afc.json) |
@@ -2221,6 +2218,9 @@
 | `w9b_n1i_kar` | 安王 | [《史記・周本紀》][5] | [JSON](w9b_n1i_kar.json) |
 | `w9t_rdt_ue0` | 舜生母 | [《史記・五帝本紀》][2] | [JSON](w9t_rdt_ue0.json) |
 | `w9v_z3u_iuh` | 魚翁叔 | [《史記・酷吏列傳》][105] | [JSON](w9v_z3u_iuh.json) |
+| `w9y_fgt_kmy` | 卓氏先人妻（未名） | [《史記・貨殖列傳》][112] | [JSON](w9y_fgt_kmy.json) |
+| `wae_xmq_dqk` | 楊干 | [《史記・魏世家》][27] | [JSON](wae_xmq_dqk.json) |
+| `waq_xn7_9gj` | 范蜎 | [《史記・樗里子甘茂列傳》][54] | [JSON](waq_xn7_9gj.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

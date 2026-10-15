@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w9y_fgt_kmy` | 卓氏先人妻（未名） | [《史記・貨殖列傳》][112] | [JSON](w9y_fgt_kmy.json) |
-| `wae_xmq_dqk` | 楊干 | [《史記・魏世家》][27] | [JSON](wae_xmq_dqk.json) |
-| `waq_xn7_9gj` | 范蜎 | [《史記・樗里子甘茂列傳》][54] | [JSON](waq_xn7_9gj.json) |
 | `wb1_g5t_hhz` | 魏侈（范中行之仇） | [《史記・晉世家》][22] | [JSON](wb1_g5t_hhz.json) |
 | `wbf_66x_6s2` | 籍孺 | [《史記・佞幸列傳》][108] | [JSON](wbf_66x_6s2.json) |
 | `wbr_1v1_sld` | 魯哀公 | [《史記・孔子世家》][30] | [JSON](wbr_1v1_sld.json) |
