@@ -154,13 +154,28 @@ def validate_identity_evidence(mention, root=ROOT, cache=None, allow_legacy=Fals
         legacy = set(evidence) == {'chapter_id', 'paragraph_id', 'source_id', 'quote'}
         assert not legacy or allow_legacy, '新增表的同指證據不得省略版本與來源人物'
         assert legacy or set(evidence) == {'work_id', 'book_id', 'chapter_id', 'paragraph_id', 'source_id', 'source_revision', 'person_id', 'quote'}
-        chapter_match = re.match(r'c-shiji-(\d{3})-', evidence['chapter_id'])
-        assert chapter_match
-        book = 'b-shiji-' + chapter_match[1] if legacy else evidence['book_id']
-        assert re.fullmatch(r'b-shiji-\d{3}', book)
-        if book not in cache:
-            cache[book] = json.loads((root / ('data/corpus/shiji/' + book[-3:] + '.json')).read_text())
-        chapter = cache[book]
+        if legacy or evidence.get('work_id') == 'w-shiji':
+            chapter_match = re.match(r'c-shiji-(\d{3})-', evidence['chapter_id'])
+            assert chapter_match
+            book = 'b-shiji-' + chapter_match[1] if legacy else evidence['book_id']
+            assert re.fullmatch(r'b-shiji-\d{3}', book)
+            path = root / ('data/corpus/shiji/' + book[-3:] + '.json')
+        else:
+            book = evidence['book_id']
+            manifest = json.loads((root/'data/corpus/works.json').read_text())
+            work = next((w for w in manifest['works'] if w['id'] == evidence['work_id'] and w['reader_kind'] == 'corpus'),None)
+            assert work, '表格同指證據的著作未列於閱讀目錄'
+            catalog_path = (root/work['catalog_path']).resolve()
+            assert catalog_path.is_relative_to((root/'data/corpus').resolve())
+            catalog = json.loads(catalog_path.read_text())
+            entry = next((c for c in catalog['chapters'] if c['book_id'] == book and c['chapter_id'] == evidence['chapter_id']),None)
+            assert entry, '表格同指證據的卷篇未列於所屬著作'
+            path = (root/entry['path']).resolve()
+            assert path.is_relative_to((root/'data/corpus').resolve()) and path.suffix == '.json'
+        key = (book,evidence['chapter_id'])
+        if key not in cache:
+            cache[key] = json.loads(path.read_text())
+        chapter = cache[key]
         for key, source_key in [('work_id', 'work_id'), ('book_id', 'book_id'), ('chapter_id', 'id'), ('source_id', 'source_id')]:
             if key in evidence:
                 assert evidence[key] == chapter[source_key]

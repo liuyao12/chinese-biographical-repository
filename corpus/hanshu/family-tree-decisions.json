@@ -1,0 +1,48 @@
+{
+  "format_version": "0.1",
+  "record_type": "family_tree_decision_set",
+  "decisions": [
+    {
+      "id": "ft-hanshu041-zhou-ju-parent",
+      "subject_person_id": "fvm_66f_0k3_CA",
+      "participant_person_ids": [
+        "fvm_66f_0k3_CA",
+        "fvm_66f_0k3_C",
+        "fvm_66f_0k3"
+      ],
+      "preferred_assertion_id": "a-hanshu041-zhou-003",
+      "preferred_parent_person_id": "fvm_66f_0k3_C",
+      "excluded_assertion_ids": [
+        "a-shiji098-006"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "漢書明分緤子應、應子仲居兩代，與功臣表先應後居的次序相合，預設採應為父。史記仍作緤子居，原文及其父子陳述不改；表的嗣位次序不是單獨父子證據。兩書文字傳承不當獨立證實，未核書影。",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+          "quote": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p012",
+          "quote": "至孝文五年，緤以壽終，謚為貞侯。子昌代侯，有罪，國除。至孝景中二年，封緤子居代侯。至元鼎三年，居為太常，有罪，國除。"
+        }
+      ],
+      "references": [],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

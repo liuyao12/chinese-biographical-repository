@@ -197,6 +197,35 @@ with sync_playwright() as pw:
         goto('#eccp-zeng-guofan');page.wait_for_selector('#historic-map')
         assert page.evaluate('document.documentElement.scrollWidth')<=391
         report['mobileNoOverflow']=True
+        # Cross-work text must return to its own work, preserving the received
+        # characters and the selected source parentage on real HTTP pages.
+        for width in (1500,390):
+            page.set_viewport_size({'width':width,'height':900})
+            goto('reader.html#work=w-hanshu&book=b-hanshu-041&chapter=c-hanshu-041-fanli&passage=c-hanshu-041-fanli%3Ap-zhou-003')
+            expect(page.locator('.corpus-text p')).to_have_count(3)
+            assert '未匯入' in page.locator('[data-source-scope]').inner_text()
+            han_text=page.locator('.corpus-text p').all_text_contents()
+            assert han_text[0].startswith('周惞，沛人也。') and '糨城侯' in han_text[-1]
+            person=page.locator('.corpus-text [data-person-id="fvm_66f_0k3_CA"]').filter(has_text='仲居').first
+            person.click();page.wait_for_selector('.person-profile-button')
+            page.locator('.person-profile-button').click();page.wait_for_selector('#cbr-profile .person-family')
+            assert page.locator('#cbr-profile .person-family a[href$="#fvm_66f_0k3_C"]').count()==1
+            assert page.locator('#cbr-profile .person-family a[href$="#fvm_66f_0k3"]').count()==1
+            back=page.locator('#cbr-person-table-back')
+            assert back.get_attribute('href').startswith('reader.html#work=w-hanshu') and '漢書' in back.inner_text()
+            back.click();expect(page.locator('.corpus-text p')).to_have_count(3)
+            assert page.locator('.corpus-text p').all_text_contents()==han_text
+            page.locator('#chapter-search').fill('周')
+            before=page.url
+            page.locator('[data-set-locale="en"]').click()
+            expect(page.locator('html')).to_have_attribute('lang','en')
+            assert page.url==before and page.locator('#chapter-search').input_value()=='周'
+            assert page.locator('.corpus-text p').all_text_contents()==han_text
+            page.locator('[data-set-locale="zh-Hant"]').click()
+            expect(page.locator('html')).to_have_attribute('lang','zh-Hant')
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 2')
+            page.screenshot(path=str(a.output/f'hanshu-{width}.png'))
+        report['crossWorkReaderAndDerivedFamily']=True
         assert not report['pageErrors'],report['pageErrors']
         assert not report['failedRequests'],report['failedRequests']
         report['passed']=True

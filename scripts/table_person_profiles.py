@@ -8,6 +8,13 @@ def build(root=ROOT):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
+    manifest_path = ROOT/'data/corpus/works.json'
+    if manifest_path.exists():
+        for work in json.loads(manifest_path.read_text())['works']:
+            if work['reader_kind'] == 'shiji':
+                continue
+            other = json.loads((ROOT/work['catalog_path']).read_text())
+            chapters.update({x['chapter_id']:x for x in other['chapters']})
     people = json.loads((ROOT/'data/corpus/persons.json').read_text())
     name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
@@ -42,7 +49,11 @@ def build(root=ROOT):
             ch = chapters.get(cid)
             if not ch: continue
             m = ms[0]; p = ps[m['paragraph_id']]; start = max(0,m['start']-35)
-            occurrences.append({'number':ch['number'],'category':ch['category'],'title':ch['title'],'paragraph_id':p['id'],'count':len(ms),'quote':p['text'][start:m['end']+100]})
+            occurrence={'number':ch['number'],'category':ch.get('category',''),'title':ch['title'],'paragraph_id':p['id'],'count':len(ms),'quote':p['text'][start:m['end']+100]}
+            if ch.get('work_id') and ch['work_id'] != 'w-shiji':
+                occurrence.update(work_id=ch['work_id'],work_title=ch['work_title'],book_id=ch['book_id'],chapter_id=cid,
+                                  paragraph_ids=sorted({m['paragraph_id'] for m in ms}))
+            occurrences.append(occurrence)
         titles = []
         for x in b['title_holdings']:
             if x['person_id'] not in own: continue
@@ -78,6 +89,8 @@ def build(root=ROOT):
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
         if preferred_readings:
             profile['preferred_readings'] = preferred_readings
+        if b.get('preferred_title_readings'):
+            profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('unresolved_identity_cases'):
             profile['unresolved_identity_cases'] = b['unresolved_identity_cases']
         readings = [d for d in b.get('identity_decisions', []) if d.get('references')]

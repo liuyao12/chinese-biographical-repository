@@ -2350,6 +2350,21 @@
       "quote": "盜兵襲之，亦示項羽無東意。至南鄭，諸將及士卒多道亡歸，士卒皆歌思東歸。韓信說漢王曰：「項羽王諸將之有功者，而王獨居南鄭，是遷也。軍吏士卒皆山東之人也，日夜跂而望歸，及其鋒而用之，可以有大功。天下已定，人皆自寧，不可復用。不如決策東鄉，爭權天下。」"
     },
     {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-zhou-001",
+      "count": 1,
+      "quote": "還定三秦，常為參乘，賜食邑池陽。從東擊項羽滎陽，絕甬道，從出度平陰，遇韓信軍襄國，戰有利不利，終亡離上心。上以惞為信武侯，食邑三千三百戶。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-zhou-001"
+      ]
+    },
+    {
       "number": 50,
       "category": "shijia",
       "title": "楚元王世家第二十",
@@ -2638,9 +2653,68 @@
           }
         ]
       }
+    },
+    {
+      "table_id": "shiji-018",
+      "cell_id": "shiji-018-t1-r063-c01",
+      "title": "《史記·高祖功臣侯者年表》",
+      "quote": "以舍人從起沛，至霸上，侯。入漢，定三秦，食邑池陽。擊項羽軍滎陽，絕甬道，從出，度平陰，遇淮陰侯軍襄國。楚漢約分鴻溝，以惞爲信，戰不利，不敢離上，侯，三千三百戶。",
+      "year": null,
+      "mention": {
+        "id": "shiji-018-t1-r063-c01-m001",
+        "start": 44,
+        "end": 47,
+        "surface": "淮陰侯",
+        "person_id": "ofc_8ei_jb7",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本列傳主、繼侯敘事與所列固定篇文辨省稱；仲居父親據漢書子仲居明文，不由表中嗣位單獨推定。",
+        "identity_evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-041",
+            "chapter_id": "c-hanshu-041-fanli",
+            "paragraph_id": "c-hanshu-041-fanli:p-zhou-001",
+            "source_id": "s-hanshu-041-fanli",
+            "source_revision": 2342290,
+            "person_id": "ofc_8ei_jb7",
+            "quote": "周惞，沛人也。以舍人從高祖起沛。至霸上，西入蜀漢，還定三秦，常為參乘，賜食邑池陽。從東擊項羽滎陽，絕甬道，從出度平陰，遇韓信軍襄國，戰有利不利，終亡離上心。上以惞為信武侯，食邑三千三百戶。"
+          }
+        ]
+      }
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前僅錄周惞傳文三段；卷內樊、酈、滕、灌、傅、靳傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁周惞小標與Wikipedia模板；三段原字、標點保留。周惞及糨城侯不直接改作其他見證讀法。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-007-xiangyu",
       "work_id": "w-shiji",

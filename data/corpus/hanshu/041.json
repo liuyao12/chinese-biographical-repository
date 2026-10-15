@@ -1,0 +1,328 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-hanshu-041-fanli",
+  "work_id": "w-hanshu",
+  "book_id": "b-hanshu-041",
+  "source_id": "s-hanshu-041-fanli",
+  "title": "樊酈滕灌傅靳周傳第十一",
+  "source": {
+    "title": "漢書／卷041",
+    "provider": "維基文庫",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+    "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+    "revision_id": 2342290,
+    "accessed_on": "2026-10-15",
+    "extent": "目前僅錄周惞傳文三段；卷內樊、酈、滕、灌、傅、靳傳及贊未匯入，不代表全卷完成。",
+    "included_sections": [
+      "周惞傳文"
+    ],
+    "text_scope": "partial_chapter",
+    "image_verified": false,
+    "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "normalization": {
+      "character_conversion": {},
+      "editorial_readings": [],
+      "extraction_note": "去除現代網頁周惞小標與Wikipedia模板；三段原字、標點保留。周惞及糨城侯不直接改作其他見證讀法。",
+      "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+    },
+    "review_status": "text_checked",
+    "edition": null,
+    "revision_timestamp": "2023-12-14T05:51:09Z"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI 代理）",
+    "human_reviewed": false,
+    "coverage": "目前所錄周惞三段的具名、上字稱謂、官爵與父子主張；與史記表傳交叉辨指，非全卷覆核。",
+    "limitations": [
+      "其餘傳與贊尚未匯入；全書卷目尚未建齊。",
+      "數位本糨城侯與固定WYG轉錄䣙城侯分層記錄，正文不改，首選讀法暫定而非影像校勘。",
+      "史記緤子居與漢書應子仲居的父系分存，家譜預設採後者。",
+      "未核底本影像；同書版本及兩書互見不當獨立史實證據。"
+    ],
+    "reported_variants": [
+      {
+        "id": "rv-hanshu041-zhou-title",
+        "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+        "person_ids": [
+          "fvm_66f_0k3"
+        ],
+        "source_term": "更封惞為糨城侯",
+        "received_reading": "糨城侯",
+        "reported_reading": "䣙城侯",
+        "commentator": "Kanripo《前漢書》文淵閣四庫本數位轉錄",
+        "quote": "十二年更封緤為䣙城侯",
+        "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+        "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+        "source_position": "KR2a0007_WYG_041-20a",
+        "status": "reported_not_collated",
+        "adopted": false,
+        "image_verified": false
+      }
+    ],
+    "model": null
+  },
+  "paragraphs": [
+    {
+      "id": "c-hanshu-041-fanli:p-zhou-001",
+      "text": "周惞，沛人也。以舍人從高祖起沛。至霸上，西入蜀漢，還定三秦，常為參乘，賜食邑池陽。從東擊項羽滎陽，絕甬道，從出度平陰，遇韓信軍襄國，戰有利不利，終亡離上心。上以惞為信武侯，食邑三千三百戶。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0000",
+          "start": 0,
+          "end": 2,
+          "surface": "周惞",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0008",
+          "start": 8,
+          "end": 10,
+          "surface": "舍人",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0011",
+          "start": 11,
+          "end": 13,
+          "surface": "高祖",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0032",
+          "start": 32,
+          "end": 34,
+          "surface": "參乘",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0044",
+          "start": 44,
+          "end": 46,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0060",
+          "start": 60,
+          "end": 62,
+          "surface": "韓信",
+          "kind": "person",
+          "person_id": "ofc_8ei_jb7",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0078",
+          "start": 78,
+          "end": 79,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0080",
+          "start": 80,
+          "end": 81,
+          "surface": "惞",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-001-0082",
+          "start": 82,
+          "end": 85,
+          "surface": "信武侯",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-zhou-002",
+      "text": "上欲自擊陳豨，惞泣曰：「始秦攻破天下，未曾自行，今上常自行，是亡人可使者乎？」上以為「愛我」，賜入殿門不趨。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-002-0000",
+          "start": 0,
+          "end": 1,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-002-0004",
+          "start": 4,
+          "end": 6,
+          "surface": "陳豨",
+          "kind": "person",
+          "person_id": "1xx_s1v_svn",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-002-0007",
+          "start": 7,
+          "end": 8,
+          "surface": "惞",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-002-0025",
+          "start": 25,
+          "end": 26,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-002-0039",
+          "start": 39,
+          "end": 40,
+          "surface": "上",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional"
+        }
+      ]
+    },
+    {
+      "id": "c-hanshu-041-fanli:p-zhou-003",
+      "text": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0006",
+          "start": 6,
+          "end": 7,
+          "surface": "惞",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0008",
+          "start": 8,
+          "end": 11,
+          "surface": "糨城侯",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0012",
+          "start": 12,
+          "end": 14,
+          "surface": "孝文",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "貞侯",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0024",
+          "start": 24,
+          "end": 25,
+          "surface": "昌",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0033",
+          "start": 33,
+          "end": 35,
+          "surface": "景帝",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0037",
+          "start": 37,
+          "end": 38,
+          "surface": "惞",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0039",
+          "start": 39,
+          "end": 40,
+          "surface": "應",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_C",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0041",
+          "start": 41,
+          "end": 43,
+          "surface": "鄲侯",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_C",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0048",
+          "start": 48,
+          "end": 50,
+          "surface": "康侯",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_C",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0052",
+          "start": 52,
+          "end": 54,
+          "surface": "仲居",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_CA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-041-fanli:m-zhou-003-0058",
+          "start": 58,
+          "end": 60,
+          "surface": "太常",
+          "kind": "person",
+          "person_id": "fvm_66f_0k3_CA",
+          "status": "contextual_provisional"
+        }
+      ]
+    }
+  ],
+  "text_sha256": "44191b56613a6486f0b5b3f39dbf6f27bf2233ab8908d10a94bc4690019338c8"
+}

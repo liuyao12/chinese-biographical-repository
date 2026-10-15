@@ -5,7 +5,29 @@ export function chapterURL(number, category = '', passage = '') {
   if (passage) p.set('passage', passage);
   return 'shiji.html#' + p;
 }
-export function chapterParagraph(paragraph, people = {}) {
+export function sourcePassageURL(source) {
+  if (source.work_id && source.work_id !== 'w-shiji') {
+    if (!/^w-[a-z0-9-]+$/.test(source.work_id) || !source.chapter_id) return '';
+    const params = new URLSearchParams({work:source.work_id, chapter:source.chapter_id});
+    if (source.book_id) params.set('book',source.book_id);
+    if (source.paragraph_id) params.set('passage',source.paragraph_id);
+    return 'reader.html#'+params;
+  }
+  const number = source.number || Number(/shiji-(\d{3})/.exec(source.chapter_id || '')?.[1]);
+  return number ? chapterURL(number,source.category || '',source.paragraph_id || '') : '';
+}
+export function profileSourceContext(person, params) {
+  const work=params.get('work');
+  if (!work || work==='w-shiji') return null;
+  const occurrence=(person.occurrences || []).find(x=>x.work_id===work
+    && x.chapter_id===params.get('chapter') && (!params.has('book') || x.book_id===params.get('book')));
+  if (!occurrence) return null;
+  const requested=params.get('passage');
+  const passage=occurrence.paragraph_ids?.includes(requested)?requested:occurrence.paragraph_id;
+  const href=sourcePassageURL({...occurrence,paragraph_id:passage});
+  return href?{href,text:`回到《${occurrence.work_title}·${occurrence.title}》 →`}:null;
+}
+export function chapterParagraph(paragraph, people = {}, context = null) {
   const chars = Array.from(paragraph.text), fragments = [];
   let end = 0;
   for (const mention of paragraph.mentions) {
@@ -15,8 +37,10 @@ export function chapterParagraph(paragraph, people = {}) {
     if (mention.kind === 'person' && mention.person_id) {
       const person = people[mention.person_id];
       const number = Number(/^c-shiji-(\d{3})-/.exec(paragraph.id || '')?.[1]);
-      const context = number ? '?' + new URLSearchParams({chapter: String(number), passage: paragraph.id}) : '';
-      const href = 'person.html' + context + '#' + encodeURIComponent(mention.person_id);
+      const params = context?.work_id && context.work_id !== 'w-shiji'
+        ? new URLSearchParams({work:context.work_id,book:context.book_id,chapter:context.chapter_id,passage:paragraph.id})
+        : number ? new URLSearchParams({chapter:String(number),passage:paragraph.id}) : null;
+      const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(`<cite id="${h(mention.id)}" class="cbr-work-mention" data-work-id="${h(mention.work_id)}" title="著作：${text}">${text}</cite>`);

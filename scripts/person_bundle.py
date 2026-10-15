@@ -94,6 +94,17 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
+    preferred_titles = []
+    for holding in titles:
+        for decision in identities:
+            reading = decision.get('preferred_reading', {})
+            if (reading.get('received_surface') == holding['title']
+                    and any(a['person_mention_id'] == reading.get('person_mention_id')
+                            and a['surface'] == holding['title'] for a in holding['attestations'])):
+                preferred_titles.append({'holding_id':holding['id'],'person_id':holding['person_id'],
+                    'decision_id':decision['id'],'source_mention_id':reading['person_mention_id'],
+                    'source_title':holding['title'],'preferred_title':reading['preferred_surface'],
+                    'status':reading['status'],'rationale':reading['rationale']})
     tree_decisions = [decision for record in records if record.get('record_type') == 'family_tree_decision_set'
                       for decision in record['decisions'] if ids.intersection(decision['participant_person_ids'])]
     excluded = {aid for decision in tree_decisions for aid in decision['excluded_assertion_ids']}
@@ -213,6 +224,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,
+            **({'preferred_title_readings':preferred_titles} if preferred_titles else {}),
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
