@@ -560,6 +560,49 @@
       "interpretation_note": "正文與褚補分層保存；授官、用稱、俸秩與任務分開，未知年與終點不補造，死亡不自動終止。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji118-001",
+      "person_id": "agx_sqm_4ou_A",
+      "title": "趙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p001",
+          "quote": "淮南厲王長者，高祖少子也，其母故趙王張敖美人。高祖八年，從東垣過趙，趙王獻之美人。厲王母得幸焉，有身。趙王敖弗敢內宮，為筑外宮而捨之。及貫高等謀反柏人事發覺，并逮治王，盡收捕王母兄弟美人，繋之河內。厲王母亦繋，告吏曰：「得幸上，有身。」吏以聞上，上方怒趙王，未理厲王母。厲王母弟趙兼因辟陽侯言呂后，呂后妒，弗肯白，辟陽侯不彊爭。及厲王母已生厲王，恚，即自殺。吏奉厲王詣上，上悔，令呂后母之，而葬厲王母真定。真定，厲王母之家在焉，父世縣也。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-001:a001",
+          "paragraph_id": "c-shiji-118-huainan:p001",
+          "start": 16,
+          "end": 18,
+          "surface": "趙王",
+          "person_mention_id": "c-shiji-118-huainan:m001-0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -597,12 +640,28 @@
       "quote": "不如因而賀之，使急引兵西撃秦。」陳王然之，從其計，徙系武臣等家宮中，封張耳子敖爲成都君。"
     },
     {
+      "number": 96,
+      "category": "liezhuan",
+      "title": "張丞相列傳第三十六",
+      "paragraph_id": "c-shiji-096-zhang:p001",
+      "count": 1,
+      "quote": "餘。趙地已平，漢王以蒼為代相，備邊寇。已而徙為趙相，相趙王耳。耳卒，相趙王敖。復徙相代王。燕王臧荼反，高祖往擊之。蒼以代相從攻臧荼有功，以六年中封為北平侯，食邑千二百戶。"
+    },
+    {
       "number": 104,
       "category": "liezhuan",
       "title": "田叔列傳第四十四",
       "paragraph_id": "c-shiji-104-tianshu:p001",
       "count": 12,
       "quote": "學黃老術於樂巨公所。叔為人刻廉自喜，喜游諸公。趙人舉之趙相趙午，午言之趙王張敖所，趙王以為郎中。數歲，切直廉平，趙王賢之，未及遷。"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p001",
+      "count": 4,
+      "quote": "淮南厲王長者，高祖少子也，其母故趙王張敖美人。高祖八年，從東垣過趙，趙王獻之美人。厲王母得幸焉，有身。趙王敖弗敢內宮，為筑外宮而捨之。及貫高等謀反柏人事發覺，并逮治王，盡收捕王母兄弟美人，繋之河內。厲王母亦繋，告吏曰：「得幸上，有身。」吏以"
     }
   ],
   "table_occurrences": [
@@ -817,6 +876,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-096-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-096",
+      "source_id": "s-shiji-096-zhang",
+      "source": {
+        "title": "史記／卷096",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷096",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
+        "revision_id": 8770206,
+        "accessed_on": "2026-10-09",
+        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
+          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-104-tianshu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-104",
@@ -837,6 +920,30 @@
           "editorial_readings": [],
           "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
         }
       }
     }

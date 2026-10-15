@@ -6,15 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `v9v_sk2_lbn` | 家婦（公儀休） | [《史記・循吏列傳》][101] | [JSON](v9v_sk2_lbn.json) |
-| `va0_zp5_6o9` | 昭魚 | [《史記・韓世家》][27] | [JSON](va0_zp5_6o9.json) |
-| `vaf_6kj_3ee` | 槍 | [《史記・趙世家》][25] | [JSON](vaf_6kj_3ee.json) |
-| `val_3ij_gm1` | 趙梁 | [《史記・趙世家》][25] | [JSON](val_3ij_gm1.json) |
-| `vam_8kp_5bj` | 太幾 | [《史記・秦本紀》][5] | [JSON](vam_8kp_5bj.json) |
-| `vax_w2r_0za` | 孫武 | [《史記・孫子吳起列傳》][47] | [JSON](vax_w2r_0za.json) |
-| `vbr_ff1_yc4` | 主父偃 | [《史記・平津侯主父列傳》][94] | [JSON](vbr_ff1_yc4.json) |
-| `vbv_64z_to1` | 項處 | [《史記・扁鵲倉公列傳》][87] | [JSON](vbv_64z_to1.json) |
-| `vch_9iv_gip` | 平皋侯（項氏） | [《史記・項羽本紀》][7] | [JSON](vch_9iv_gip.json) |
 | `vcv_x4a_x4s` | 太師（微子問去留者） | [《史記・宋微子世家》][20] | [JSON](vcv_x4a_x4s.json) |
 | `vd6_d8h_lr2` | 右賢王（未名，入酒泉張掖者） | [《史記・匈奴列傳》][92] | [JSON](vd6_d8h_lr2.json) |
 | `ve4_anx_qmk` | 蘇射 | [《史記・趙世家》][25] | [JSON](ve4_anx_qmk.json) |
@@ -536,7 +527,6 @@
 | `z00_soe_xo2` | 平都 | [《史記・趙世家》][25] | [JSON](z00_soe_xo2.json) |
 | `z06_jv1_mrf` | 樓煩王（匈奴列傳第31段未名） | [《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](z06_jv1_mrf.json) |
 | `z0a_0yc_o18` | 即墨大夫未名 | [《史記・田單列傳》][64] | [JSON](z0a_0yc_o18.json) |
-| `z0c_6ka_3bd` | 長（皇子） | [《史記・張丞相列傳》][78] | [JSON](z0c_6ka_3bd.json) |
 | `z0v_ish_b9u` | 田光 | [《史記・刺客列傳》][68] | [JSON](z0v_ish_b9u.json) |
 | `z16_hit_u7t` | 魯夫人（襄公女弟） | [《史記・魯周公世家》][15] | [JSON](z16_hit_u7t.json) |
 | `z1h_j3h_k7e` | 髙辛氏 | [《史記・鄭世家》][24] | [JSON](z1h_j3h_k7e.json) |
@@ -637,7 +627,6 @@
 | `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][18] | [JSON](zr7_8hl_01r.json) |
 | `zre_gn0_g9m` | 莊子 | [《史記・日者列傳》][109] | [JSON](zre_gn0_g9m.json) |
 | `zru_24j_blp` | 稷 | [《史記・仲尼弟子列傳》][49] | [JSON](zru_24j_blp.json) |
-| `zs9_uq9_odj` | 趙王張敖 | [《史記・淮南衡山列傳》][100] | [JSON](zs9_uq9_odj.json) |
 | `zsv_bdr_gyu` | 禹 | [《史記・東越列傳》][96] | [JSON](zsv_bdr_gyu.json) |
 | `zt8_dt2_n3j` | 趙王孫 | [《史記・游俠列傳》][106] | [JSON](zt8_dt2_n3j.json) |
 | `zt9_d8y_inq` | 淮南王（謀反） | [《史記・汲鄭列傳》][102] | [JSON](zt9_d8y_inq.json) |
