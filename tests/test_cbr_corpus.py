@@ -383,10 +383,10 @@ class CorpusTests(unittest.TestCase):
         self.assertIn('生卒日期未見於事件引句', v.validate(self.root))
     def test_office_jurisdiction_requires_source_quote(self):
         self.change('corpus/shiji/109-titles.json', lambda d: next(h for h in d['holdings'] if h['id'] == 'th-shiji109-020')['jurisdictions'][0].update(source_name='未見原文的郡'))
-        self.assertIn('官職所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
+        self.assertIn('稱號所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
     def test_office_jurisdiction_cannot_invent_modern_location(self):
         self.change('corpus/shiji/109-titles.json', lambda d: next(h for h in d['holdings'] if h['id'] == 'th-shiji109-020')['jurisdictions'][0].update(modern_identification='今地'))
-        self.assertIn('官職所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
+        self.assertIn('稱號所屬原地名缺少引句或未保留未知定位', v.validate(self.root))
     def test_unresolved_case_requires_local_anchor(self):
         self.change('corpus/shiji/108.json', lambda d: d['annotation']['unresolved_identity_cases'][0].update(paragraph_ids=['c-shiji-107-weiqi:p002', 'c-shiji-107-weiqi:p006']))
         self.assertIn('未決身份段落引用無效', v.validate(self.root))
@@ -990,5 +990,12 @@ class CorpusTests(unittest.TestCase):
     def test_named_age_subset_cannot_invent_upper_age(self):
         self.change('corpus/shiji/089.json', lambda d: d['annotation']['age_assertions'][0]['bounds'].update(upper=69))
         self.assertIn('來源年齡界限與有餘原詞不符', v.validate(self.root))
+
+    def test_royal_territory_requires_reigning_phrase_not_any_locality(self):
+        self.change('corpus/shiji/094-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji094-011')['jurisdictions'][0].update(source_name='臨淄'))
+        self.assertIn('王國範圍須保留王某地原句，不得由任意地名補入',v.validate(self.root))
+    def test_royal_territory_cannot_invent_modern_location(self):
+        self.change('corpus/shiji/094-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji094-011')['jurisdictions'][0].update(modern_identification='今地'))
+        self.assertIn('稱號所屬原地名缺少引句或未保留未知定位',v.validate(self.root))
 
 if __name__=='__main__':unittest.main()

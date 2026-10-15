@@ -757,13 +757,19 @@ def validate(root=ROOT):
                                   and anchor[2]['person_id'] == h['person_id'], '未赴任人物、來源原詞或證據不符')
                 if 'jurisdictions' in h:
                     places=h['jurisdictions']
-                    valid=(h['kind']=='office' and isinstance(places,list) and bool(places)
+                    valid=(h['kind'] in ('office','royal_rank') and isinstance(places,list) and bool(places)
                            and all(isinstance(place,dict) and isinstance(place.get('source_name'),str)
                                    and bool(place['source_name'])
                                    and any(place['source_name'] in e.get('quote','') for e in h['evidence'])
                                    and place.get('place_id') is None and place.get('modern_identification') is None
                                    for place in places))
-                    check(valid,'官職所屬原地名缺少引句或未保留未知定位')
+                    check(valid,'稱號所屬原地名缺少引句或未保留未知定位')
+                    if h['kind']=='royal_rank':
+                        royal=(h['title']=='王' and isinstance(places,list) and bool(places)
+                               and all(isinstance(place,dict) and isinstance(place.get('source_name'),str)
+                                       and any('王'+place['source_name'] in e.get('quote','') for e in h['evidence'])
+                                       for place in places))
+                        check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
                     hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])

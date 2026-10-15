@@ -99,7 +99,69 @@
               "paragraph_id": "c-shiji-094-tiandan:p002",
               "quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 209,
+            "year": -208,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-094-tiandan",
+                "source_id": "s-shiji-094-tiandan",
+                "paragraph_id": "c-shiji-094-tiandan:p002",
+                "quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・秦楚之際月表》授王／徙王事件",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t1-r003-c05"
+              },
+              {
+                "title": "《史記・秦楚之際月表》曆月欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "九月。楚兵至戲。",
+                "scope": "received_calendar_month_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t1-r003-c01"
+              },
+              {
+                "title": "《史記・秦楚之際月表》年首承接",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "二世元年\n七月",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t1-r001-c01"
+              },
+              {
+                "title": "《史記・秦楚之際月表》數位公元年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "209",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t1-r001-c00"
+              }
+            ],
+            "rationale": "本傳授王／徙王事件與月表同人同事對讀，只換算公元年。原曆月及在位月序分列，不把月序當曆月，不以死亡補爵位終年；未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遂自立為齊王",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+              "reference_event_quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+              "reference_year_quote": "209",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+            }
+          }
         },
         "end": {
           "status": "unknown",
@@ -109,7 +171,7 @@
       },
       "interpretation_note": "實授、自立、用稱分存；擬封蒯通安期生及拒受、田橫來大者王小者侯均不作已授。王膠東保留原稱王，不造正文未見膠東王字串；死亡被虜亡走不自動終止爵位。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前209年（暫定） → 未定"
     }
   ],
   "addresses": [
@@ -207,6 +269,38 @@
         "person_id": "u87_cc1_7vm",
         "status": "contextual_provisional",
         "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r003-c05",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+      "year": null,
+      "mention": {
+        "start": 6,
+        "end": 7,
+        "surface": "儋",
+        "person_id": "u87_cc1_7vm",
+        "id": "shiji-016-t1-r003-c05-context-review-000",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r012-c05",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+      "year": null,
+      "mention": {
+        "start": 2,
+        "end": 3,
+        "surface": "儋",
+        "person_id": "u87_cc1_7vm",
+        "id": "shiji-016-t1-r012-c05-context-review-000",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
       }
     },
     {
@@ -529,6 +623,72 @@
       "person_id": "u87_cc1_7vm",
       "date_role": "life_event",
       "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 209,
+      "year": -208,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p002",
+          "quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記・秦楚之際月表》授王／徙王事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r003-c05"
+        },
+        {
+          "title": "《史記・秦楚之際月表》曆月欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "九月。楚兵至戲。",
+          "scope": "received_calendar_month_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r003-c01"
+        },
+        {
+          "title": "《史記・秦楚之際月表》年首承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "二世元年\n七月",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r001-c01"
+        },
+        {
+          "title": "《史記・秦楚之際月表》數位公元年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "209",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r001-c00"
+        }
+      ],
+      "rationale": "本傳授王／徙王事件與月表同人同事對讀，只換算公元年。原曆月及在位月序分列，不把月序當曆月，不以死亡補爵位終年；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "遂自立為齊王",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+        "reference_event_quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+        "reference_year_quote": "209",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+      },
+      "record_id": "th-shiji094-002",
+      "person_id": "u87_cc1_7vm",
+      "endpoint": "start",
+      "title": "齊王"
     }
   ],
   "name_components": [],

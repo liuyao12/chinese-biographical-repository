@@ -277,7 +277,69 @@
               "paragraph_id": "c-shiji-094-tiandan:p007",
               "quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 206,
+            "year": -205,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-094-tiandan",
+                "source_id": "s-shiji-094-tiandan",
+                "paragraph_id": "c-shiji-094-tiandan:p007",
+                "quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・秦楚之際月表》授王／徙王事件",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "齊王田榮始，故齊相。",
+                "scope": "received_parallel_event",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t2-r006-c08"
+              },
+              {
+                "title": "《史記・秦楚之際月表》曆月欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "六月",
+                "scope": "received_calendar_month_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t2-r006-c11"
+              },
+              {
+                "title": "《史記・秦楚之際月表》年首承接",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "一。義帝元年。諸侯尊懷王為義帝。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t2-r001-c01"
+              },
+              {
+                "title": "《史記・秦楚之際月表》數位公元年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+                "quote": "206",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false,
+                "table_cell_id": "shiji-016-t2-r001-c00"
+              }
+            ],
+            "rationale": "本傳授王／徙王事件與月表同人同事對讀，只換算公元年。原曆月及在位月序分列，不把月序當曆月，不以死亡補爵位終年；未核書影。 本傳先殺田安而後自立，表記六月田榮始、七月殺安；兩種次序分存，本項僅對照同年，不宣稱月份已調和。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "於是田榮乃自立為齊王",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+              "reference_event_quote": "齊王田榮始，故齊相。",
+              "reference_year_quote": "206",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+            }
+          }
         },
         "end": {
           "status": "unknown",
@@ -287,7 +349,7 @@
       },
       "interpretation_note": "實授、自立、用稱分存；擬封蒯通安期生及拒受、田橫來大者王小者侯均不作已授。王膠東保留原稱王，不造正文未見膠東王字串；死亡被虜亡走不自動終止爵位。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前206年（暫定） → 未定"
     }
   ],
   "addresses": [
@@ -489,6 +551,54 @@
   "table_occurrences": [
     {
       "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r003-c05",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+      "year": null,
+      "mention": {
+        "start": 18,
+        "end": 19,
+        "surface": "榮",
+        "person_id": "0hs_fg6_1qj",
+        "id": "shiji-016-t1-r003-c05-context-review-001",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r003-c05",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "齊王田儋始。儋，狄人。諸田宗彊。從弟榮，榮弟橫。",
+      "year": null,
+      "mention": {
+        "start": 20,
+        "end": 21,
+        "surface": "榮",
+        "person_id": "0hs_fg6_1qj",
+        "id": "shiji-016-t1-r003-c05-context-review-002",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t1-r012-c05",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+      "year": null,
+      "mention": {
+        "start": 13,
+        "end": 14,
+        "surface": "榮",
+        "person_id": "0hs_fg6_1qj",
+        "id": "shiji-016-t1-r012-c05-context-review-001",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
       "cell_id": "shiji-016-t1-r015-c05",
       "title": "《史記·秦楚之際月表》",
       "quote": "二。田假走楚，楚趨齊救趙。田榮以假故，不肯，謂「楚殺假乃出兵。」項羽怒田榮。",
@@ -581,6 +691,22 @@
         "person_id": "0hs_fg6_1qj",
         "status": "contextual_provisional",
         "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
+      }
+    },
+    {
+      "table_id": "shiji-016",
+      "cell_id": "shiji-016-t2-r013-c08",
+      "title": "《史記·秦楚之際月表》",
+      "quote": "八。項籍擊榮，走平原平原民殺之。",
+      "year": null,
+      "mention": {
+        "start": 5,
+        "end": 6,
+        "surface": "榮",
+        "person_id": "0hs_fg6_1qj",
+        "id": "shiji-016-t2-r013-c08-context-review-001",
+        "status": "contextual_provisional",
+        "interpretation_note": "同格首名田儋與從弟榮、榮弟橫，以及臨濟、膠東田市、濟北田安、平原田榮的共同事件；非全域省稱替換。 同指不統一來源紀年或親屬異說，未核書影。"
       }
     },
     {
@@ -1102,6 +1228,72 @@
       "person_id": "0hs_fg6_1qj",
       "date_role": "life_event",
       "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 206,
+      "year": -205,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p007",
+          "quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記・秦楚之際月表》授王／徙王事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "齊王田榮始，故齊相。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t2-r006-c08"
+        },
+        {
+          "title": "《史記・秦楚之際月表》曆月欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "六月",
+          "scope": "received_calendar_month_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t2-r006-c11"
+        },
+        {
+          "title": "《史記・秦楚之際月表》年首承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "一。義帝元年。諸侯尊懷王為義帝。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t2-r001-c01"
+        },
+        {
+          "title": "《史記・秦楚之際月表》數位公元年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "206",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t2-r001-c00"
+        }
+      ],
+      "rationale": "本傳授王／徙王事件與月表同人同事對讀，只換算公元年。原曆月及在位月序分列，不把月序當曆月，不以死亡補爵位終年；未核書影。 本傳先殺田安而後自立，表記六月田榮始、七月殺安；兩種次序分存，本項僅對照同年，不宣稱月份已調和。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "於是田榮乃自立為齊王",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+        "reference_event_quote": "齊王田榮始，故齊相。",
+        "reference_year_quote": "206",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+      },
+      "record_id": "th-shiji094-016",
+      "person_id": "0hs_fg6_1qj",
+      "endpoint": "start",
+      "title": "齊王"
     }
   ],
   "name_components": [],
