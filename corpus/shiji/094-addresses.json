@@ -50,6 +50,282 @@
       "interpretation_note": "傳首所述出身地與明示死亡地分存，不推今日行政區、制度化籍貫、出生或葬地。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "pa-shiji094-003",
+      "person_id": "u87_cc1_7vm_A",
+      "relation": "death_place",
+      "place": {
+        "source_name": "即墨",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p007",
+          "quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。",
+          "person_mention_id": "c-shiji-094-tiandan:m007-0046"
+        }
+      ],
+      "source_term": "追擊殺齊王市於即墨",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 206,
+        "year": -205,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-094-tiandan",
+            "source_id": "s-shiji-094-tiandan",
+            "paragraph_id": "c-shiji-094-tiandan:p007",
+            "quote": "項王既歸，諸侯各就國，田榮使人將兵助陳餘，令反趙地，而榮亦發兵以距擊田都，田都亡走楚。田榮留齊王市，無令之膠東。市之左右曰：「項王彊暴，而王當之膠東，不就國，必危。」市懼，乃亡就國。田榮怒，追擊殺齊王市於即墨，還攻殺濟北王安。於是田榮乃自立為齊王，盡并三齊之地。",
+            "person_mention_id": "c-shiji-094-tiandan:m007-0046"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記・秦楚之際月表》死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "二十四。田榮擊殺市。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r006-c10"
+          },
+          {
+            "title": "《史記・秦楚之際月表》曆月欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "六月",
+            "scope": "received_calendar_month_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r006-c11"
+          },
+          {
+            "title": "《史記・秦楚之際月表》年首承接",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "一。義帝元年。諸侯尊懷王為義帝。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r001-c01"
+          },
+          {
+            "title": "《史記・秦楚之際月表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "206",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r001-c00"
+          }
+        ],
+        "rationale": "本篇死亡事件對讀月表同人同事，曆月欄為六月；事件格首數字是在位月序，不作曆月。原年首與月欄分存，所列曆月位於公元前206年；只換算年，不換月日，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "追擊殺齊王市於即墨",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "reference_event_quote": "二十四。田榮擊殺市。",
+          "reference_year_quote": "206",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+        }
+      }
+    },
+    {
+      "id": "pa-shiji094-004",
+      "person_id": "0hs_fg6_1qj",
+      "relation": "death_place",
+      "place": {
+        "source_name": "平原",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p008",
+          "quote": "項王聞之，大怒，乃北伐齊。齊王田榮兵敗，走平原，平原人殺榮。項王遂燒夷齊城郭，所過者盡屠之。齊人相聚畔之。榮弟橫，收齊散兵，得數萬人，反擊項羽於城陽。而漢王率諸侯敗楚，入彭城。項羽聞之，乃醳齊而歸，擊漢於彭城，因連與漢戰，相距滎陽。以故田橫復得收齊城邑，立田榮子廣為齊王，而橫相之，專國政，政無巨細皆斷於相。",
+          "person_mention_id": "c-shiji-094-tiandan:m008-0015"
+        }
+      ],
+      "source_term": "走平原，平原人殺榮",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 205,
+        "year": -204,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "項王聞之，大怒，乃北伐齊。齊王田榮兵敗，走平原，平原人殺榮。項王遂燒夷齊城郭，所過者盡屠之。齊人相聚畔之。榮弟橫，收齊散兵，得數萬人，反擊項羽於城陽。而漢王率諸侯敗楚，入彭城。項羽聞之，乃醳齊而歸，擊漢於彭城，因連與漢戰，相距滎陽。以故田橫復得收齊城邑，立田榮子廣為齊王，而橫相之，專國政，政無巨細皆斷於相。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-094-tiandan",
+            "source_id": "s-shiji-094-tiandan",
+            "paragraph_id": "c-shiji-094-tiandan:p008",
+            "quote": "項王聞之，大怒，乃北伐齊。齊王田榮兵敗，走平原，平原人殺榮。項王遂燒夷齊城郭，所過者盡屠之。齊人相聚畔之。榮弟橫，收齊散兵，得數萬人，反擊項羽於城陽。而漢王率諸侯敗楚，入彭城。項羽聞之，乃醳齊而歸，擊漢於彭城，因連與漢戰，相距滎陽。以故田橫復得收齊城邑，立田榮子廣為齊王，而橫相之，專國政，政無巨細皆斷於相。",
+            "person_mention_id": "c-shiji-094-tiandan:m008-0015"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記・秦楚之際月表》死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "八。項籍擊榮，走平原平原民殺之。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r013-c08"
+          },
+          {
+            "title": "《史記・秦楚之際月表》曆月欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "正月",
+            "scope": "received_calendar_month_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r013-c11"
+          },
+          {
+            "title": "《史記・秦楚之際月表》年首承接",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "十月。王至陝。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r010-c11"
+          },
+          {
+            "title": "《史記・秦楚之際月表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "205",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t2-r010-c00"
+          }
+        ],
+        "rationale": "本篇死亡事件對讀月表同人同事，曆月欄為正月；事件格首數字是在位月序，不作曆月。原年首與月欄分存，所列曆月位於公元前205年；只換算年，不換月日，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "平原人殺榮",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "reference_event_quote": "八。項籍擊榮，走平原平原民殺之。",
+          "reference_year_quote": "205",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+        }
+      }
+    },
+    {
+      "id": "pa-shiji094-005",
+      "person_id": "o4h_qq4_taj",
+      "relation": "death_place",
+      "place": {
+        "source_name": "膠東",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p009",
+          "quote": "橫定齊三年，漢王使酈生往說下齊王廣及其相國橫。橫以為然，解其歷下軍。漢將韓信引兵且東擊齊。齊初使華無傷、田解軍於歷下以距漢，漢使至，乃罷守戰備，縱酒，且遣使與漢平。漢將韓信已平趙、燕，用蒯通計，度平原，襲破齊歷下軍，因入臨淄。齊王廣、相橫怒，以酈生賣己，而亨酈生。齊王廣東走高密，相橫走博（陽），守相田光走城陽，將軍田既軍於膠東。楚使龍且救齊，齊王與合軍高密。漢將韓信與曹參破殺龍且，虜齊王廣。漢將灌嬰追得齊守相田光。至博（陽），而橫聞齊王死，自立為齊王，還擊嬰，嬰敗橫之軍於嬴下。田橫亡走梁，歸彭越。彭越是時居梁地，中立，且為漢，且為楚。韓信已殺龍且，因令曹參進兵破殺田既於膠東，使灌嬰破殺齊將田吸於千乘。韓信遂平齊，乞自立為齊假王，漢因而立之。",
+          "person_mention_id": "c-shiji-094-tiandan:m009-0158"
+        }
+      ],
+      "source_term": "破殺田既於膠東",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "pa-shiji094-006",
+      "person_id": "kfh_9sk_v4e",
+      "relation": "death_place",
+      "place": {
+        "source_name": "千乘",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p009",
+          "quote": "橫定齊三年，漢王使酈生往說下齊王廣及其相國橫。橫以為然，解其歷下軍。漢將韓信引兵且東擊齊。齊初使華無傷、田解軍於歷下以距漢，漢使至，乃罷守戰備，縱酒，且遣使與漢平。漢將韓信已平趙、燕，用蒯通計，度平原，襲破齊歷下軍，因入臨淄。齊王廣、相橫怒，以酈生賣己，而亨酈生。齊王廣東走高密，相橫走博（陽），守相田光走城陽，將軍田既軍於膠東。楚使龍且救齊，齊王與合軍高密。漢將韓信與曹參破殺龍且，虜齊王廣。漢將灌嬰追得齊守相田光。至博（陽），而橫聞齊王死，自立為齊王，還擊嬰，嬰敗橫之軍於嬴下。田橫亡走梁，歸彭越。彭越是時居梁地，中立，且為漢，且為楚。韓信已殺龍且，因令曹參進兵破殺田既於膠東，使灌嬰破殺齊將田吸於千乘。韓信遂平齊，乞自立為齊假王，漢因而立之。",
+          "person_mention_id": "c-shiji-094-tiandan:m009-0298"
+        }
+      ],
+      "source_term": "破殺齊將田吸於千乘",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "pa-shiji094-007",
+      "person_id": "6r7_9o6_c1i",
+      "relation": "death_place",
+      "place": {
+        "source_name": "尸鄉廄置",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p011",
+          "quote": "未至三十里，至尸鄉廄置，橫謝使者曰：「人臣見天子當洗沐。」止留。謂其客曰：「橫始與漢王俱南面稱孤，今漢王為天子，而橫乃為亡虜而北面事之，其恥固已甚矣。且吾亨人之兄，與其弟并肩而事其主，縱彼畏天子之詔，不敢動我，我獨不愧於心乎？且陛下所以欲見我者，不過欲一見吾面貌耳。今陛下在洛陽，今斬吾頭，馳三十里閒，形容尚未能敗，猶可觀也。」遂自剄，令客奉其頭，從使者馳奏之高帝。高帝曰：「嗟乎，有以也夫！起自布衣，兄弟三人更王，豈不賢乎哉！」為之流涕，而拜其二客為都尉，發卒二千人，以王者禮葬田橫。",
+          "person_mention_id": "c-shiji-094-tiandan:m011-0012"
+        }
+      ],
+      "source_term": "遂自剄",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "pa-shiji094-008",
+      "person_id": "6r7_9o6_c1i",
+      "relation": "residence",
+      "place": {
+        "source_name": "島中",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p010",
+          "quote": "後歲餘，漢滅項籍，漢王立為皇帝，以彭越為梁王。田橫懼誅，而與其徒屬五百餘人入海，居島中。高帝聞之，以為田橫兄弟本定齊，齊人賢者多附焉，今在海中不收，後恐為亂，乃使使赦田橫罪而召之。田橫因謝曰：「臣亨陛下之使酈生，今聞其弟酈商為漢將而賢，臣恐懼，不敢奉詔，請為庶人，守海島中。」使還報，高皇帝乃詔衛尉酈商曰：「齊王田橫即至，人馬從者敢動搖者致族夷！」乃復使使持節具告以詔商狀，曰：「田橫來，大者王，小者乃侯耳；不來，且舉兵加誅焉。」田橫乃與其客二人乘傳詣雒陽。",
+          "person_mention_id": "c-shiji-094-tiandan:m010-0023"
+        }
+      ],
+      "source_term": "居島中",
+      "interpretation_note": "保留原地稱，島居與死亡地分開，不推出生、葬地或今日行政區；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }

@@ -90,3 +90,39 @@ class TianDanIdentityTests(unittest.TestCase):
             self.assertNotIn(pid,people)
             self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
+
+    def test_death_reports_exclude_intentions_and_preserve_heard_death(self):
+        rows=json.loads((ROOT/'corpus/shiji/094-life-events.json').read_text())['events']
+        self.assertEqual(len(rows),12)
+        self.assertTrue(all(e['event_type']=='death' for e in rows))
+        self.assertFalse(any(e['person_id'] in {'5q3_f2w_w1e','ob7_g6i_7pp'} for e in rows))
+        heard=next(e for e in rows if e['person_id']=='0hs_fg6_1qj_B')
+        self.assertEqual(heard['source_term'],'橫聞齊王死')
+        self.assertIn('死亡消息',heard['interpretation_note'])
+        self.assertNotIn('normalized_date',heard)
+        self.assertNotIn('normalized_date',next(e for e in rows if e['person_id']=='6r7_9o6_c1i'))
+
+    def test_death_years_use_calendar_month_not_regnal_month_sequence(self):
+        rows=json.loads((ROOT/'corpus/shiji/094-life-events.json').read_text())['events']
+        expected={'u87_cc1_7vm':208,'u87_cc1_7vm_A':206,'vtu_yuj_kdz_*A':206,'0hs_fg6_1qj':205}
+        for pid,year in expected.items():
+            e=next(e for e in rows if e['person_id']==pid);d=e['normalized_date']
+            self.assertIsNone(e['date_expression'])
+            self.assertEqual(d['era_year'],year)
+            self.assertEqual(d['year'],1-year)
+            self.assertEqual(d['basis']['kind'],'parallel_event')
+        shi=next(e for e in rows if e['person_id']=='u87_cc1_7vm_A')['normalized_date']
+        self.assertTrue(any(r['quote']=='二十四。田榮擊殺市。' for r in shi['references']))
+        self.assertTrue(any(r['quote']=='六月' and r['scope']=='received_calendar_month_attestation' for r in shi['references']))
+        an=next(e for e in rows if e['person_id']=='vtu_yuj_kdz_*A')['normalized_date']
+        self.assertTrue(any(r['quote']=='六。田榮擊殺安。' for r in an['references']))
+        self.assertTrue(any(r['quote']=='七月' and r['scope']=='received_calendar_month_attestation' for r in an['references']))
+
+    def test_death_places_are_not_birth_or_burial_places(self):
+        rows=json.loads((ROOT/'corpus/shiji/094-addresses.json').read_text())['assertions']
+        heng=[a for a in rows if a['person_id']=='6r7_9o6_c1i']
+        self.assertEqual({(a['relation'],a['place']['source_name']) for a in heng},{('death_place','尸鄉廄置'),('residence','島中')})
+        self.assertFalse(any(a['relation'] in {'birth_place','burial_place'} for a in rows))
+        self.assertTrue(all(a['place']['modern_identification'] is None for a in rows))
+        self.assertTrue(any(a['person_id']=='u87_cc1_7vm_A' and a['place']['source_name']=='即墨' for a in rows))
+        self.assertTrue(any(a['person_id']=='0hs_fg6_1qj' and a['place']['source_name']=='平原' for a in rows))

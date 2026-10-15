@@ -462,7 +462,75 @@
     "u87_cc1_7vm": "田儋",
     "u87_cc1_7vm_A": "田市"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 208,
+      "year": -207,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。",
+          "person_mention_id": "c-shiji-094-tiandan:m003-0023"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記・秦楚之際月表》死亡事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+          "scope": "received_parallel_event",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r012-c05"
+        },
+        {
+          "title": "《史記・秦楚之際月表》曆月欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "六月",
+          "scope": "received_calendar_month_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r012-c01"
+        },
+        {
+          "title": "《史記・秦楚之際月表》年首承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "二年十月",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r004-c01"
+        },
+        {
+          "title": "《史記・秦楚之際月表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "quote": "208",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false,
+          "table_cell_id": "shiji-016-t1-r004-c00"
+        }
+      ],
+      "rationale": "本篇死亡事件對讀月表同人同事，曆月欄為六月；事件格首數字是在位月序，不作曆月。原年首與月欄分存，所列曆月位於公元前208年；只換算年，不換月日，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "殺田儋於臨濟下",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+        "reference_event_quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+        "reference_year_quote": "208",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+      },
+      "record_id": "le-shiji094-002",
+      "person_id": "u87_cc1_7vm",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "u87_cc1_7vm"
@@ -598,7 +666,91 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji094-002",
+      "person_id": "u87_cc1_7vm",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "殺田儋於臨濟下",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p003",
+          "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。",
+          "person_mention_id": "c-shiji-094-tiandan:m003-0023"
+        }
+      ],
+      "interpretation_note": "原文記死亡，不以同段年題或前段背景補年份，不以死亡填所有官爵終期；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 208,
+        "year": -207,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-094-tiandan",
+            "source_id": "s-shiji-094-tiandan",
+            "paragraph_id": "c-shiji-094-tiandan:p003",
+            "quote": "秦將章邯圍魏王咎於臨濟，急。魏王請救於齊，齊王田儋將兵救魏。章邯夜銜枚擊，大破齊、魏軍，殺田儋於臨濟下。儋弟田榮收儋餘兵東走東阿。齊人聞王田儋死，乃立故齊王建之弟田假為齊王、田角為相、田間為將，以距諸侯。",
+            "person_mention_id": "c-shiji-094-tiandan:m003-0023"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記・秦楚之際月表》死亡事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+            "scope": "received_parallel_event",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t1-r012-c05"
+          },
+          {
+            "title": "《史記・秦楚之際月表》曆月欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "六月",
+            "scope": "received_calendar_month_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t1-r012-c01"
+          },
+          {
+            "title": "《史記・秦楚之際月表》年首承接",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "二年十月",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t1-r004-c01"
+          },
+          {
+            "title": "《史記・秦楚之際月表》數位年欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+            "quote": "208",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_cell_id": "shiji-016-t1-r004-c00"
+          }
+        ],
+        "rationale": "本篇死亡事件對讀月表同人同事，曆月欄為六月；事件格首數字是在位月序，不作曆月。原年首與月欄分存，所列曆月位於公元前208年；只換算年，不換月日，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "殺田儋於臨濟下",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007",
+          "reference_event_quote": "十。儋救臨濟，章邯殺田儋。榮走東阿。",
+          "reference_year_quote": "208",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007"
+        }
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
