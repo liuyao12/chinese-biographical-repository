@@ -11,7 +11,7 @@ class FanCaiIdentityTests(unittest.TestCase):
         paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p020'))
         chu = next(m for m in paragraph['mentions'] if m['surface'] == '楚昭王')
         qin = next(m for m in paragraph['mentions'] if m['surface'] == '昭王')
-        self.assertEqual(chu['person_id'], 'qlm_m3s_f3b_B')
+        self.assertEqual(chu['person_id'], 'q8m_d0c_kq3_AEA')
         self.assertEqual(qin['person_id'], 'ao3_0fy_d45')
         self.assertNotEqual(chu['person_id'], qin['person_id'])
         self.assertIn('包胥辭不受', paragraph['text'])

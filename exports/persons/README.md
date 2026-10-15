@@ -1170,15 +1170,6 @@
 
 </details>
 
-<details><summary><code>gau_cq7_7g1</code> 建（楚平王太子候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 建 | [《史記・楚世家》][23] | [JSON](gau_cq7_7g1.json) |
-| `A` | 白公勝 | [《史記・楚世家》][23] | [JSON](gau_cq7_7g1_A.json) |
-
-</details>
-
 <details><summary><code>gcb_rf3_coi</code> 費王（晉穆侯）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1277,15 +1268,6 @@
 |---|---|---|---|
 | `根` | 蟬封 | [《史記・大宛列傳》][106] | [JSON](h4f_d5f_vdl.json) |
 | `A` | 蟬封子（入質，未名） | [《史記・大宛列傳》][106] | [JSON](h4f_d5f_vdl_A.json) |
-
-</details>
-
-<details><summary><code>h69_ln7_f94</code> 太子建（伍胥列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 太子建 | [《史記・伍子胥列傳》][49] | [JSON](h69_ln7_f94.json) |
-| `A` | 勝 | [《史記・伍子胥列傳》][49] | [JSON](h69_ln7_f94_A.json) |
 
 </details>
 
@@ -1930,7 +1912,7 @@
 
 </details>
 
-<details><summary><code>q8m_d0c_kq3</code> 楚莊王（11 名）</summary>
+<details><summary><code>q8m_d0c_kq3</code> 楚莊王（13 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1943,8 +1925,10 @@
 | `AB` | 圍 | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AB.json) |
 | `AC` | 子比（楚初王） | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AC.json) |
 | `AD` | 子皙（楚令尹） | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AD.json) |
-| `AE` | 棄疾 | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AE.json) |
-| `AEA` | 珍（熊珍楚昭王） | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AEA.json) |
+| `AE` | 楚平王 | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AE.json) |
+| `AEA` | 楚昭王 | [《史記・楚世家》][23] | [JSON](q8m_d0c_kq3_AEA.json) |
+| `AEB` | 楚太子建 | [《史記・伍子胥列傳》][49] | [JSON](q8m_d0c_kq3_AEB.json) |
+| `AEBA` | 白公勝 | [《史記・伍子胥列傳》][49] | [JSON](q8m_d0c_kq3_AEBA.json) |
 
 </details>
 
@@ -2003,16 +1987,6 @@
 |---|---|---|---|
 | `根` | 李延年父（未名） | [《史記・佞幸列傳》][108] | [JSON](qhp_lk5_t1e.json) |
 | `A` | 李延年 | [《史記・佞幸列傳》][108] | [JSON](qhp_lk5_t1e_A.json) |
-
-</details>
-
-<details><summary><code>qlm_m3s_f3b</code> 楚平王（3 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 楚平王 | [《史記・伍子胥列傳》][49] | [JSON](qlm_m3s_f3b.json) |
-| `A` | 太子建（楚） | [《史記・秦本紀》][6] | [JSON](qlm_m3s_f3b_A.json) |
-| `B` | 軫 | [《史記・伍子胥列傳》][49] | [JSON](qlm_m3s_f3b_B.json) |
 
 </details>
 
@@ -2085,11 +2059,11 @@
 
 </details>
 
-<details><summary><code>ra9_o4d_rli</code> 竇長君（外戚世家候選）（2 名）</summary>
+<details><summary><code>ra9_o4d_rli</code> 竇長君（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 竇長君 | [《史記・外戚世家》][32] | [JSON](ra9_o4d_rli.json) |
+| `根` | 竇長君 | [《史記・外戚世家》][32]、[《史記・季布欒布列傳》][83] | [JSON](ra9_o4d_rli.json) |
 | `A` | 彭祖 | [《史記・外戚世家》][32] | [JSON](ra9_o4d_rli_A.json) |
 
 </details>
