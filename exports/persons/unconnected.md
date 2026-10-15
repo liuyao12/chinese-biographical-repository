@@ -272,7 +272,6 @@
 | `1vh_24w_d7w` | 鞠武 | [《史記・刺客列傳》][68] | [JSON](1vh_24w_d7w.json) |
 | `1vr_rmi_ay7` | 蓋餘 | [《史記・刺客列傳》][68] | [JSON](1vr_rmi_ay7.json) |
 | `1wa_qpl_7iq` | 安國君 | [《史記・秦本紀》][5] | [JSON](1wa_qpl_7iq.json) |
-| `1wk_2dd_421` | 灌嬰 | [《史記・田儋列傳》][76] | [JSON](1wk_2dd_421.json) |
 | `1wp_coh_osw` | 去疾（晉頃公） | [《史記・晉世家》][21] | [JSON](1wp_coh_osw.json) |
 | `1wq_ksz_p4p` | 莊襄王 | [《史記・陳涉世家》][30] | [JSON](1wq_ksz_p4p.json) |
 | `1wy_ygt_gre` | 薛公未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](1wy_ygt_gre.json) |
@@ -435,7 +434,6 @@
 | `33t_2vr_k9o` | 牟辛 | [《史記・田敬仲完世家》][28] | [JSON](33t_2vr_k9o.json) |
 | `33z_av8_anq` | 鄭弘 | [《史記・張丞相列傳》][78] | [JSON](33z_av8_anq.json) |
 | `348_22z_ti1` | 柏始昌 | [《史記・大宛列傳》][105] | [JSON](348_22z_ti1.json) |
-| `349_zmu_2u4` | 曹參 | [《史記・田儋列傳》][76] | [JSON](349_zmu_2u4.json) |
 | `34q_hne_erk` | 田甲 | [《史記・孟嘗君列傳》][57] | [JSON](34q_hne_erk.json) |
 | `34u_t1e_mvb` | 子産（鄭執政） | [《史記・吳太伯世家》][13] | [JSON](34u_t1e_mvb.json) |
 | `352_9gz_u46` | 慶（救趙） | [《史記・太史公自序》][112] | [JSON](352_9gz_u46.json) |
@@ -2229,6 +2227,8 @@
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
 | `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][100] | [JSON](f5z_kgb_853.json) |
+| `f6b_bwf_4dq` | 救赫 | [《史記・淮南衡山列傳》][100] | [JSON](f6b_bwf_4dq.json) |
+| `f6e_ib9_ktb` | 顏噲 | [《史記・仲尼弟子列傳》][49] | [JSON](f6e_ib9_ktb.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
