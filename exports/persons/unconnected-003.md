@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w5l_qjq_vly` | 衛文公 | [《史記・齊太公世家》][15] | [JSON](w5l_qjq_vly.json) |
-| `w5q_84t_ofs` | 共工（堯時） | [《史記・五帝本紀》][2] | [JSON](w5q_84t_ofs.json) |
-| `w5z_z1e_gts` | 周公 | [《史記・外戚世家》][32] | [JSON](w5z_z1e_gts.json) |
-| `w68_ebz_0ew` | 平原君夫人未名 | [《史記・魏公子列傳》][60] | [JSON](w68_ebz_0ew.json) |
-| `w6w_2q4_c9g` | 商君 | [《史記・魏世家》][27] | [JSON](w6w_2q4_c9g.json) |
 | `w77_e81_zts` | 太史公 | [《史記・汲鄭列傳》][103] | [JSON](w77_e81_zts.json) |
 | `w7a_pl5_1it` | 叔帶 | [《史記・周本紀》][5] | [JSON](w7a_pl5_1it.json) |
 | `w7k_6hz_mb7` | 韓昭侯 | [《史記・孟嘗君列傳》][58] | [JSON](w7k_6hz_mb7.json) |
