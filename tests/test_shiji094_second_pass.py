@@ -177,3 +177,37 @@ class TianDanIdentityTests(unittest.TestCase):
         self.assertEqual(ref['quote'],'三年正月。')
         self.assertEqual(ref['revision_id'],2514764)
         self.assertIn('所屬紀年尚待核定',d['rationale'])
+
+    def test_parent_and_son_names_are_separate_without_replacing_child_anchor(self):
+        for index,mid,parent_name,parent_id,child_name,child_id in [(4,'c-shiji-094-tiandan:m004-0096','田儋','u87_cc1_7vm','市','u87_cc1_7vm_A'),(8,'c-shiji-094-tiandan:m008-0128','田榮','0hs_fg6_1qj','廣','0hs_fg6_1qj_B')]:
+            p=self.paragraph('094',index);child=next(m for m in p['mentions'] if m['id']==mid);parent=next(m for m in p['mentions'] if m['id']==mid+'-parent')
+            self.assertEqual((child['surface'],child['person_id']),(child_name,child_id))
+            self.assertEqual((parent['surface'],parent['person_id']),(parent_name,parent_id))
+            self.assertEqual(p['text'][parent['end']:child['start']],'子')
+            self.assertIn(parent_name+'子'+child_name,p['text'])
+
+    def test_kinship_phrase_is_evidence_but_not_a_sons_name(self):
+        people={p['id']:p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid,phrase,short in [('u87_cc1_7vm_A','田儋子市','市'),('0hs_fg6_1qj_B','田榮子廣','廣')]:
+            self.assertNotIn(phrase,[a['surface'] for a in people[pid]['aliases']])
+            self.assertIn(short,[a['surface'] for a in people[pid]['aliases']])
+        rows=json.loads((ROOT/'corpus/shiji/094-assertions.json').read_text())['assertions']
+        self.assertTrue(any(a['subject_person_id']=='0hs_fg6_1qj_B' and a['object_person_id']=='0hs_fg6_1qj' and a['predicate']=='father' for a in rows))
+
+    def test_adjacent_qi_kings_follow_the_subject_change(self):
+        p=self.paragraph('094',9);marks={m['start']:m for m in p['mentions']}
+        for start,pid in [(172,'0hs_fg6_1qj_B'),(218,'0hs_fg6_1qj_B'),(225,'6r7_9o6_c1i')]:
+            self.assertEqual((marks[start]['surface'],marks[start]['person_id']),('齊王',pid))
+        self.assertIn('橫聞齊王死，自立為齊王',p['text'])
+
+    def test_emperor_address_is_scoped_usage_not_a_new_grant(self):
+        p=self.paragraph('094',11)
+        self.assertEqual(self.ids(p,'天子'),{'yqp_nlb_p1p_A'})
+        self.assertEqual(self.ids(p,'陛下'),{'yqp_nlb_p1p_A'})
+        self.assertEqual(self.ids(self.paragraph('094',10),'皇帝'),{'yqp_nlb_p1p_A'})
+        rows=json.loads((ROOT/'corpus/shiji/094-titles.json').read_text())['holdings']
+        for title in ['天子','陛下']:
+            h=next(h for h in rows if h['title']==title)
+            self.assertEqual(h['mode'],'attestation')
+            self.assertEqual(h['effective_period']['start']['status'],'unknown')
+            self.assertEqual(h['effective_period']['end']['status'],'unknown')
