@@ -111,6 +111,38 @@
         "interpretation_note": "只記來源超過一百的報齡下界；不補上界、計歲方式或出生年，亦不以一百作確切享年。",
         "reviewer": "Codex（AI 代理）"
       }
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji096-final-narrator",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "2ed_ew8_szv"
+        ],
+        "unknown_identity_possible": true,
+        "unresolved_mention_ids": [
+          "c-shiji-096-zhang:m029-0000"
+        ],
+        "paragraph_ids": [
+          "c-shiji-096-zhang:p020",
+          "c-shiji-096-zhang:p029"
+        ],
+        "note": "第20段與第29段同署太史公，不能只由署稱判為同一敘者。索隱指篇末論匡衡以來事為後人所述；其歸褚先生等之說僅記古注判斷，不補未明作者姓名，亦未以此核定全部補文邊界。第29段解除既定連結；原文及 received_chapter 層次保留。",
+        "references": [
+          {
+            "title": "司馬貞《史記索隱》卷二十三·太史公曰深惟注",
+            "url": "https://zh.wikisource.org/w/index.php?oldid=608070&title=史記索隱_(四庫全書本)/卷23",
+            "quote": "按此論匡衡已來事則後人所述也而亦稱太史公其序述淺陋一何誣也",
+            "source_kind": "received_ancient_commentary",
+            "revision_id": 608070,
+            "revision_timestamp": "2016-10-05T10:22:41Z",
+            "image_verified": false
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     ]
   },
   "paragraphs": [
@@ -3607,9 +3639,10 @@
           "start": 0,
           "end": 3,
           "surface": "太史公",
-          "kind": "person",
-          "person_id": "2ed_ew8_szv",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "索隱指出本論敘匡衡以來事而為後人所述；保留太史公署稱，不與第20段敘者直接同指，亦不補為褚少孫本人。"
         },
         {
           "id": "c-shiji-096-zhang:m029-0095",

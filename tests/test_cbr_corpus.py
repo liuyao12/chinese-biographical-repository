@@ -1014,4 +1014,14 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/096.json',lambda d:d['annotation']['age_assertions'][0].update(value=100))
         self.assertIn('直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組',v.validate(self.root))
 
+    def test_unknown_narrator_requires_unlinked_source_anchor(self):
+        self.change('corpus/shiji/096.json', lambda d: d['annotation']['unresolved_identity_cases'][-1].update(unresolved_mention_ids=['c-shiji-096-zhang:m020-0000']))
+        self.assertIn('未知敘者可能須有未連人物的原文錨點',v.validate(self.root))
+    def test_single_known_candidate_requires_unknown_identity_flag(self):
+        self.change('corpus/shiji/096.json', lambda d: d['annotation']['unresolved_identity_cases'][-1].pop('unknown_identity_possible'))
+        self.assertIn('未決身份候選人物無效',v.validate(self.root))
+    def test_unknown_narrator_cannot_have_no_known_candidate(self):
+        self.change('corpus/shiji/096.json', lambda d: d['annotation']['unresolved_identity_cases'][-1].update(candidate_person_ids=[]))
+        self.assertIn('未決身份候選人物無效',v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

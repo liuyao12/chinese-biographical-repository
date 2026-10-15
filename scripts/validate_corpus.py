@@ -228,13 +228,21 @@ def validate(root=ROOT):
                 check(case.get('id') and case['id'] not in case_ids,'未決身份 ID 無效或重複')
                 case_ids.add(case.get('id'))
                 candidates=case.get('candidate_person_ids',[])
-                check(len(candidates)>=2 and len(set(candidates))==len(candidates) and all(pid in pids for pid in candidates),'未決身份候選人物無效')
+                unknown = case.get('unknown_identity_possible') is True
+                check(len(candidates)>=(1 if unknown else 2) and len(set(candidates))==len(candidates) and all(pid in pids for pid in candidates),'未決身份候選人物無效')
                 check(case.get('status')=='unresolved' and bool(case.get('note')),'未決身份狀態或說明缺失')
                 refs=case.get('paragraph_ids',[])
                 local={p['id']:p for p in d['paragraphs']}
                 check(bool(refs) and any(ref in local for ref in refs) and all(ref in case_paragraphs for ref in refs),'未決身份段落引用無效')
                 supported={m['person_id'] for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions'] if m['kind']=='person'}
                 check(set(candidates)<=supported,'未決身份缺少各候選人物的段落證據')
+                if unknown:
+                    unresolved = case.get('unresolved_mention_ids', [])
+                    anchors = {m['id']: m for ref in refs if ref in case_paragraphs for m in case_paragraphs[ref]['mentions']}
+                    check(bool(unresolved) and len(unresolved)==len(set(unresolved))
+                          and all(mid in anchors and anchors[mid]['kind']=='unresolved'
+                                  and anchors[mid].get('person_id') is None for mid in unresolved),
+                          '未知敘者可能須有未連人物的原文錨點')
             xml=ET.parse(path.with_suffix('.xml')).getroot()
             check(xml.tag=='text', 'XML 根元素不符')
             for attr,key in [('work-id','work_id'),('book-id','book_id'),('chapter-id','id'),('source-id','source_id')]:
