@@ -93,3 +93,53 @@ class LiLuLifeEventTests(unittest.TestCase):
         self.assertTrue(any(e['record_id']=='le-shiji097-004' for e in b['date_range_normalizations']))
         b=read('exports/persons/eya_qj3_tev.json')
         self.assertTrue(any(a['id']=='age-shiji097-001' for a in b['age_assertions']))
+
+class LiLuContextTitleTests(unittest.TestCase):
+    def test_king_reference_follows_dialogue_and_excludes_verbs(self):
+        self.assertEqual(ids(6,'王'),{'0hs_fg6_1qj_A'})
+        self.assertEqual(ids(10,'王'),{'r3c_eue_cqn'})
+        self.assertEqual(ids(11,'王'),{'r3c_eue_cqn'})
+        for n,phrase,offset in [(6,'先入咸陽者王之',5),(11,'故王此',1),(10,'君王王南越',2)]:
+            p=para(n);start=p['text'].index(phrase)+offset
+            self.assertEqual(p['text'][start],'王')
+            self.assertFalse(any(m['start']<=start<m['end'] for m in p['mentions']))
+
+    def test_emperor_and_recipient_in_same_speech_are_distinct(self):
+        self.assertEqual(ids(10,'天子'),{'yqp_nlb_p1p_A'})
+        self.assertEqual(ids(10,'君王'),{'r3c_eue_cqn'})
+        self.assertEqual(ids(11,'皇帝'),{'yqp_nlb_p1p_A'})
+        self.assertEqual(ids(5,'上'),{'yqp_nlb_p1p_A'})
+        self.assertEqual(ids(8,'上'),{'yqp_nlb_p1p_A'})
+
+    def test_county_magistrate_reference_does_not_include_hang_verb(self):
+        p=para(23);start=p['text'].index('縣令首於長竿')
+        m=next(m for m in p['mentions'] if m['start']==start+1)
+        self.assertEqual((m['surface'],m['person_id']),('令','wfk_n4m_6x9'))
+        self.assertFalse(any(m['start']<=start<m['end'] for m in p['mentions']))
+        self.assertEqual(ids(23,'令'),{'wfk_n4m_6x9'})
+
+    def test_remaining_leaders_use_source_biography_identities(self):
+        for n,s,pid in [(2,'陳勝','pom_ycp_ha5'),(2,'項梁','5xt_rg8_7zs_A'),(11,'蕭何','xd8_uww_5ok'),(11,'曹參','37j_16p_7n8')]:self.assertEqual(ids(n,s),{pid})
+        for old in ['x8j_rqz_jry','7s0_vhn_yay','s13_zwm_7o1','f8j_w3m_2ep']:
+            self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+    def test_grant_month_and_explicit_abolition_have_separate_boundaries(self):
+        holdings={h['id']:h for h in read('corpus/shiji/097-titles.json')['holdings']}
+        grant=holdings['th-shiji097-005']['effective_period']['start']
+        self.assertEqual(grant['normalized_date']['era_year'],195)
+        self.assertTrue(any('三月丙寅' in r['quote'] for r in grant['normalized_date']['references']))
+        period=holdings['th-shiji097-006']['effective_period']
+        self.assertEqual(period['start']['status'],'unknown')
+        self.assertEqual(period['end']['event_type'],'abolition')
+        d=period['end']['normalized_date_range']
+        self.assertEqual((d['earliest']['era_year'],d['latest']['era_year']),(123,122))
+        self.assertEqual(d['evidence'],period['end']['evidence'])
+        self.assertNotIn('normalized_date',period['end'])
+
+    def test_flattened_title_range_cannot_be_mistaken_for_life_event(self):
+        b=read('exports/persons/oge_g2v_hqw.json')
+        r=next(r for r in b['date_range_normalizations'] if r['record_id']=='th-shiji097-006')
+        self.assertEqual((r['date_role'],r['endpoint'],r['title']),('title_period','end','武遂侯'))
+        self.assertNotIn('event_type',r)
+        self.assertTrue(any(r['record_id']=='le-shiji097-004' and r['date_role']=='life_event' for r in b['date_range_normalizations']))

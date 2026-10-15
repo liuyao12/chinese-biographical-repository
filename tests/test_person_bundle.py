@@ -689,3 +689,15 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(date['era_year'], 126)
         self.assertNotIn('endpoint', date)
         self.assertEqual(result['title_holdings'][0]['effective_period']['start']['date_expression'], '其春')
+
+    def test_title_only_range_is_exported_without_a_life_range(self):
+        import copy
+        from scripts.person_bundle import load_catalog
+        people, records=copy.deepcopy(load_catalog())
+        for record in records:
+            if record.get('record_type')=='person_life_event_assertion_set':
+                record['events']=[e for e in record['events'] if e['person_id']!='oge_g2v_hqw']
+        result=bundle('oge_g2v_hqw',catalog=(people,records))
+        self.assertFalse(result.get('life_events'))
+        row=next(r for r in result['date_range_normalizations'] if r['record_id']=='th-shiji097-006')
+        self.assertEqual((row['date_role'],row['endpoint']),('title_period','end'))

@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fr3_x62_cai` | 河亶甲 | [《史記・殷本紀》][3] | [JSON](fr3_x62_cai.json) |
-| `fr7_6v8_rjo` | 大任 | [《史記・太史公自序》][112] | [JSON](fr7_6v8_rjo.json) |
 | `fs1_3m9_rj3` | 章平 | [《史記・曹相國世家》][36] | [JSON](fs1_3m9_rj3.json) |
 | `fs3_38r_obw` | 須賈 | [《史記・范睢蔡澤列傳》][61] | [JSON](fs3_38r_obw.json) |
 | `fto_fi5_11x` | 大駱 | [《史記・秦本紀》][5] | [JSON](fto_fi5_11x.json) |
@@ -1715,7 +1713,6 @@
 | `s03_xve_mcm` | 老萊子 | [《史記・老子韓非列傳》][45] | [JSON](s03_xve_mcm.json) |
 | `s0b_5z2_duo` | 秦泗川監平 | [《史記・高祖本紀》][8] | [JSON](s0b_5z2_duo.json) |
 | `s0i_apu_j6d` | 樂頎 | [《史記・孔子世家》][29] | [JSON](s0i_apu_j6d.json) |
-| `s13_zwm_7o1` | 蕭何 | [《史記・酈生陸賈列傳》][79] | [JSON](s13_zwm_7o1.json) |
 | `s1i_t3j_lne` | 秦繆 | [《史記・貨殖列傳》][111] | [JSON](s1i_t3j_lne.json) |
 | `s1z_cdi_4i4` | 俞跗傳說引文候選 | [《史記・扁鵲倉公列傳》][87] | [JSON](s1z_cdi_4i4.json) |
 | `s24_ndq_z65` | 孝文 | [《史記・龜策列傳》][110] | [JSON](s24_ndq_z65.json) |
@@ -2235,6 +2232,9 @@
 | `vog_yel_p0d` | 公叔座 | [《史記・商君列傳》][50] | [JSON](vog_yel_p0d.json) |
 | `voy_rog_jbw` | 昭王 | [《史記・周本紀》][4] | [JSON](voy_rog_jbw.json) |
 | `vp2_qeq_33j` | 楚王書信 | [《史記・蘇秦列傳》][51] | [JSON](vp2_qeq_33j.json) |
+| `vp6_3oo_dqh` | 太史公 | [《史記・田叔列傳》][86] | [JSON](vp6_3oo_dqh.json) |
+| `vpb_n9d_e0y` | 鄭伯（楚世家提要） | [《史記・太史公自序》][112] | [JSON](vpb_n9d_e0y.json) |
+| `vqb_tym_qti` | 魏長吏 | [《史記・穰侯列傳》][54] | [JSON](vqb_tym_qti.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

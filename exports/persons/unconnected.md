@@ -1090,7 +1090,6 @@
 | `7rl_p9k_ood` | 褚先生（陳涉世家附載署稱未名者） | [《史記・陳涉世家》][30] | [JSON](7rl_p9k_ood.json) |
 | `7ry_vg8_a0d` | 王廖 | [《史記・陳涉世家》][30] | [JSON](7ry_vg8_a0d.json) |
 | `7s0_f3b_8hp` | 公子政 | [《史記・魏世家》][26] | [JSON](7s0_f3b_8hp.json) |
-| `7s0_vhn_yay` | 項梁 | [《史記・酈生陸賈列傳》][79] | [JSON](7s0_vhn_yay.json) |
 | `7s1_ctn_j9k` | 鄭袖 | [《史記・張儀列傳》][52] | [JSON](7s1_ctn_j9k.json) |
 | `7s1_uqc_cgq` | 墨翟 | [《史記・陳涉世家》][30] | [JSON](7s1_uqc_cgq.json) |
 | `7s4_7ac_lhn` | 齊威王 | [《史記・孟嘗君列傳》][57] | [JSON](7s4_7ac_lhn.json) |
@@ -2154,7 +2153,6 @@
 | `f82_dk6_87k` | 晉頃公 | [《史記・伍子胥列傳》][48] | [JSON](f82_dk6_87k.json) |
 | `f83_k7g_go4` | 范昭子 | [《史記・趙世家》][25] | [JSON](f83_k7g_go4.json) |
 | `f8h_ahy_gjk` | 秦大夫（楚太子所殺未名） | [《史記・楚世家》][22] | [JSON](f8h_ahy_gjk.json) |
-| `f8j_w3m_2ep` | 曹參 | [《史記・酈生陸賈列傳》][79] | [JSON](f8j_w3m_2ep.json) |
 | `f8p_npb_om0` | 齊女（衛宣公正夫人） | [《史記・衛康叔世家》][19] | [JSON](f8p_npb_om0.json) |
 | `f94_8tp_fuq` | 幽王 | [《史記・儒林列傳》][103] | [JSON](f94_8tp_fuq.json) |
 | `f94_gpi_lqs` | 李延年母（未名） | [《史記・佞幸列傳》][107] | [JSON](f94_gpi_lqs.json) |
@@ -2227,6 +2225,8 @@
 | `fqm_332_ccr` | 勸公子忘功客未名 | [《史記・魏公子列傳》][59] | [JSON](fqm_332_ccr.json) |
 | `fqt_y7z_vdn` | 魯哀公 | [《史記・仲尼弟子列傳》][49] | [JSON](fqt_y7z_vdn.json) |
 | `fqw_nka_rjt` | 甘茂 | [《史記・韓世家》][27] | [JSON](fqw_nka_rjt.json) |
+| `fr3_x62_cai` | 河亶甲 | [《史記・殷本紀》][3] | [JSON](fr3_x62_cai.json) |
+| `fr7_6v8_rjo` | 大任 | [《史記・太史公自序》][112] | [JSON](fr7_6v8_rjo.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
