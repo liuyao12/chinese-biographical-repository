@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全30段明示姓名首輪、15條親屬、104條官爵與諡稱、10筆來源出身地、8項跨篇暫定同指；匿名、代詞、其餘同指與版本複核仍待續辦。 開篇九組跨篇同指續核，引用遷移後撤除十二個重複候選；不表示全篇身份與稱號時段已覆核。 續核漢廷十二組同指並補第八段王為如意，仍未完成代詞、匿名者及後段作者辨識。 第五段擬授太子改為非人物職稱錨點，另存未實行稱號提議。 續核張蒼明示父系、自序同指、十六項來源死亡與一項百有餘歲報齡；兩項紀年保留跨西元年範圍。",
+    "coverage": "全30段明示姓名首輪、15條親屬、104條官爵與諡稱、10筆來源出身地、8項跨篇暫定同指；匿名、代詞、其餘同指與版本複核仍待續辦。 開篇九組跨篇同指續核，引用遷移後撤除十二個重複候選；不表示全篇身份與稱號時段已覆核。 續核漢廷十二組同指並補第八段王為如意，仍未完成代詞、匿名者及後段作者辨識。 第五段擬授太子改為非人物職稱錨點，另存未實行稱號提議。 續核張蒼明示父系、自序同指、十六項來源死亡與一項百有餘歲報齡；兩項紀年保留跨西元年範圍。 續核十六組後段跨篇同指，補六處申屠嘉丞相指稱及竇廣國未實行擬相；年表兩處短稱逐人連結。",
     "limitations": [
       "正文前後記述分界與作者傳承未核可靠底本；保留見證，不冒署補作者。",
       "從兄只記父系同輩較年長，親等與共同祖先未知；父事非生父。",
@@ -54,6 +54,27 @@
         ],
         "status": "contextual_provisional",
         "interpretation_note": "欲立如意為太子而大臣爭之、留侯策止；保存未實行提議，不列入稱號持有或如意太子任期。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-shiji096-002",
+        "person_id": "xoj_go3_gl0",
+        "title": "丞相",
+        "outcome": "not_enacted",
+        "role_mention_id": "c-shiji-096-zhang:m016-0121",
+        "person_mention_id": "c-shiji-096-zhang:m016-0117",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-096-zhang",
+            "source_id": "s-shiji-096-zhang",
+            "paragraph_id": "c-shiji-096-zhang:p016",
+            "quote": "申屠丞相嘉者，梁人，以材官蹶張從高帝擊項籍，遷為隊率。從擊黥布軍，為都尉。孝惠時，為淮陽守。孝文帝元年，舉故吏士二千石從高皇帝者，悉以為關內侯，食邑二十四人，而申屠嘉食邑五百戶。張蒼已為丞相，嘉遷為御史大夫。張蒼免相，孝文帝欲用皇后弟竇廣國為丞相，曰：「恐天下以吾私廣國。」廣國賢有行，故欲相之，念久之不可，而高帝時大臣又皆多死，餘見無可者，乃以御史大夫嘉為丞相，因故邑封為故安侯。"
+          }
+        ],
+        "status": "contextual_provisional",
+        "interpretation_note": "文帝欲用竇廣國為相，恐私外戚，念久之不可，遂任御史大夫申屠嘉；只記本次擬任未實行，不生竇廣國相位或任期。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
@@ -2274,6 +2295,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-096-zhang:m016-0121",
+          "start": 121,
+          "end": 123,
+          "surface": "丞相",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "文帝欲任竇廣國而以為不可的擬授職位，另存未實行提議，不當已任丞相。"
+        },
+        {
           "id": "c-shiji-096-zhang:m016-0133",
           "start": 133,
           "end": 135,
@@ -2354,6 +2385,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-096-zhang:m017-0046",
+          "start": 46,
+          "end": 48,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
+        },
+        {
           "id": "c-shiji-096-zhang:m017-0052",
           "start": 52,
           "end": 53,
@@ -2361,6 +2402,16 @@
           "kind": "person",
           "person_id": "qow_wy0_7d2",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-096-zhang:m017-0063",
+          "start": 63,
+          "end": 65,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
         },
         {
           "id": "c-shiji-096-zhang:m017-0118",
@@ -2471,6 +2522,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-096-zhang:m017-0241",
+          "start": 241,
+          "end": 243,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
+        },
+        {
           "id": "c-shiji-096-zhang:m017-0245",
           "start": 245,
           "end": 246,
@@ -2489,6 +2550,16 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-096-zhang:m017-0257",
+          "start": 257,
+          "end": 259,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
+        },
+        {
           "id": "c-shiji-096-zhang:m017-0272",
           "start": 272,
           "end": 274,
@@ -2505,6 +2576,16 @@
           "kind": "person",
           "person_id": "yqp_nlb_p1p_AC",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-096-zhang:m017-0284",
+          "start": 284,
+          "end": 286,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
         }
       ]
     },
@@ -2547,7 +2628,7 @@
           "end": 23,
           "surface": "晁錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2565,7 +2646,7 @@
           "end": 63,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2574,7 +2655,7 @@
           "end": 65,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2601,7 +2682,7 @@
           "end": 104,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2610,7 +2691,7 @@
           "end": 116,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2619,7 +2700,7 @@
           "end": 118,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2628,7 +2709,7 @@
           "end": 122,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2637,7 +2718,7 @@
           "end": 124,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2650,12 +2731,22 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-096-zhang:m018-0140",
+          "start": 140,
+          "end": 142,
+          "surface": "丞相",
+          "kind": "person",
+          "person_id": "yph_dkb_w4w",
+          "status": "contextual_provisional",
+          "note": "本段丞相主語為申屠嘉；不標丞相府的建築詞，也不將擬授職位當現任者。"
+        },
+        {
           "id": "c-shiji-096-zhang:m018-0147",
           "start": 147,
           "end": 148,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2673,7 +2764,7 @@
           "end": 155,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2682,7 +2773,7 @@
           "end": 182,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2700,7 +2791,7 @@
           "end": 202,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2709,7 +2800,7 @@
           "end": 210,
           "surface": "錯",
           "kind": "person",
-          "person_id": "8ve_l7c_yz3",
+          "person_id": "04u_gq0_nke_A",
           "status": "contextual_provisional"
         },
         {
@@ -2771,7 +2862,7 @@
           "end": 16,
           "surface": "陶青",
           "kind": "person",
-          "person_id": "9xr_uju_djo",
+          "person_id": "4nb_0tn_256",
           "status": "contextual_provisional"
         },
         {
@@ -2780,7 +2871,7 @@
           "end": 21,
           "surface": "劉舍",
           "kind": "person",
-          "person_id": "si4_1zk_24j",
+          "person_id": "3p2_0dm_6ra",
           "status": "contextual_provisional"
         },
         {
@@ -2860,7 +2951,7 @@
           "end": 21,
           "surface": "賈生",
           "kind": "person",
-          "person_id": "n1e_bz7_1di",
+          "person_id": "y6v_c03_at3",
           "status": "contextual_provisional"
         },
         {

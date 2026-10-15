@@ -193,3 +193,47 @@ class ZhangFamilyLifeTests(unittest.TestCase):
             self.assertNotIn(old,people)
             self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+class ZhangContinuationTests(unittest.TestCase):
+    def test_bare_chancellor_follows_shentujia_not_office_building(self):
+        for n,starts in [(17,[46,63,241,257,284]),(18,[140])]:
+            p=para(96,n)
+            for start in starts:
+                m=next(m for m in p['mentions'] if m['start']==start)
+                self.assertEqual((m['surface'],m['person_id']),('丞相','yph_dkb_w4w'))
+        self.assertFalse(any(m['start'] in (125,163) for m in para(96,17)['mentions']))
+
+    def test_proposed_chancellorship_is_not_guangguo_appointment(self):
+        c=read('corpus/shiji/096.json')
+        t=next(x for x in c['annotation']['title_proposals'] if x['id']=='tp-shiji096-002')
+        self.assertEqual((t['person_id'],t['outcome']),('xoj_go3_gl0','not_enacted'))
+        m=next(m for m in para(96,16)['mentions'] if m['id']==t['role_mention_id'])
+        self.assertEqual((m['surface'],m['person_id'],m['kind']),('丞相',None,'unresolved'))
+        self.assertFalse(any(h['person_id']=='xoj_go3_gl0' and h['title']=='丞相' for h in read('corpus/shiji/096-titles.json')['holdings']))
+
+    def test_father_poison_and_son_execution_remain_separate(self):
+        ev=read('corpus/shiji/101-life-events.json')['events']
+        father=next(x for x in ev if x['source_term']=='遂飲藥死')
+        son=next(x for x in ev if x['source_term']=='上令鼂錯衣朝衣斬東市')
+        self.assertEqual(father['person_id'],'04u_gq0_nke')
+        self.assertEqual(son['person_id'],'04u_gq0_nke_A')
+        self.assertIsNone(father['date_expression'])
+        self.assertNotIn('normalized_date',father)
+        self.assertEqual(ids(para(96,18),'晁錯'),{'04u_gq0_nke_A'})
+        self.assertEqual(ids(para(101,19),'鼂錯'),{'04u_gq0_nke_A'})
+        self.assertIn('歐血',para(96,18)['text'])
+        self.assertIn('丞相遂發病死',para(101,18)['text'])
+
+    def test_ningxing_rulers_follow_each_narrative_period(self):
+        for surface,pid in [('高祖','yqp_nlb_p1p_A'),('孝惠','yqp_nlb_p1p_AA'),('孝文','yqp_nlb_p1p_AC')]:
+            self.assertEqual(ids(para(125,1),surface),{pid})
+        self.assertEqual(ids(para(125,2),'太子'),{'yqp_nlb_p1p_ACA'})
+        self.assertEqual(ids(para(125,2),'今天子'),{'yqp_nlb_p1p_ACAA'})
+
+    def test_twenty_four_retired_candidates_leave_no_public_alias_files(self):
+        people={p['id'] for p in read('registry/persons.json')['persons']}
+        olds=['8ve_l7c_yz3','uqv_78v_j7w','ccv_1jr_0jn','7mt_qrc_04e','ef9_2e4_amv','z6w_dj2_cmc','cic_28p_bjp','n1e_bz7_1di','eba_45k_rot','5xc_h44_k0y','olo_0sp_7bd','9xr_uju_djo','si4_1zk_24j','ut8_ibh_dll','oye_sta_uwq','ys2_3lx_sdi','qza_o7u_0m7','s6p_kl2_f9g','ut6_wbc_3ca','6fi_7i1_821','948_i7p_bip','oe1_3l9_1fc','qoz_qmk_3kn','edz_j1e_1qg']
+        for old in olds:
+            self.assertNotIn(old,people)
+            self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())

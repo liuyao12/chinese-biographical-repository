@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "04u_gq0_nke_A",
   "canonical_person_id": "04u_gq0_nke_A",
-  "label": "鼂錯（袁盎鼂錯列傳候選）",
+  "label": "鼂錯",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -12,6 +12,56 @@
     "朝錯"
   ],
   "titles": [
+    {
+      "id": "th-shiji096-049",
+      "person_id": "04u_gq0_nke_A",
+      "title": "內史",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p018",
+          "quote": "嘉為丞相五歲，孝文帝崩，孝景帝即位。二年，晁錯為內史，貴幸用事，諸法令多所請變更，議以謫罰侵削諸侯。而丞相嘉自絀所言不用，疾錯。錯為內史，門東出，不便，更穿一門南出。南出者，太上皇廟堧垣。嘉聞之，欲因此以法錯擅穿宗廟垣為門，奏請誅錯。錯客有語錯，錯恐，夜入宮上謁，自歸景帝。至朝，丞相奏請誅內史錯。景帝曰：「錯所穿非真廟垣，乃外堧垣，故他官居其中，且又我使為之，錯無罪。」罷朝，嘉謂長史曰：「吾悔不先斬錯，乃先請之，為錯所賣。」至舍，因歐血而死。謚為節侯。子共侯蔑代，三年卒。子侯去病代，三十一年卒。子侯臾代，六歲，坐為九江太守受故官送有罪，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji096-049:a001",
+          "paragraph_id": "c-shiji-096-zhang:p018",
+          "start": 24,
+          "end": 26,
+          "surface": "內史",
+          "person_mention_id": "c-shiji-096-zhang:m018-0021",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-096-zhang",
+              "source_id": "s-shiji-096-zhang",
+              "paragraph_id": "c-shiji-096-zhang:p018",
+              "quote": "嘉為丞相五歲，孝文帝崩，孝景帝即位。二年，晁錯為內史，貴幸用事，諸法令多所請變更，議以謫罰侵削諸侯。而丞相嘉自絀所言不用，疾錯。錯為內史，門東出，不便，更穿一門南出。南出者，太上皇廟堧垣。嘉聞之，欲因此以法錯擅穿宗廟垣為門，奏請誅錯。錯客有語錯，錯恐，夜入宮上謁，自歸景帝。至朝，丞相奏請誅內史錯。景帝曰：「錯所穿非真廟垣，乃外堧垣，故他官居其中，且又我使為之，錯無罪。」罷朝，嘉謂長史曰：「吾悔不先斬錯，乃先請之，為錯所賣。」至舍，因歐血而死。謚為節侯。子共侯蔑代，三年卒。子侯去病代，三十一年卒。子侯臾代，六歲，坐為九江太守受故官送有罪，國除。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、轉任、用稱與諡稱分存；未明示時任期起訖未知。欲任竇廣國及欲令周苛將皆不作實授；死亡或首次用稱不自動作任期端點。十四年、四年、二年等先保留原語，不擅定年號或西曆。曹窋免職段含（不）異文，未先強定其終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "二年 → 未定"
+    },
     {
       "id": "th-shiji101-024",
       "person_id": "04u_gq0_nke_A",
@@ -529,6 +579,49 @@
       "interpretation_note": "東帝為吳王明示自稱，不作漢廷授爵。少將保留原稱，不套現代軍階。韓安國、張羽為將軍依並列任命記事件；其餘用稱不補起訖。官職、封爵及親屬原詞分存。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji121-028",
+      "person_id": "04u_gq0_nke_A",
+      "title": "掌故",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p014",
+          "quote": "伏生者，濟南人也。故為秦博士。孝文帝時，欲求能治尚書者，天下無有，乃聞伏生能治，欲召之。是時伏生年九十餘，老，不能行，於是乃詔太常使掌故晁錯往受之。秦時焚書，伏生壁藏之。其後兵大起，流亡，漢定，伏生求其書，亡數十篇，獨得二十九篇，即以教于齊魯之閒。學者由是頗能言尚書，諸山東大師無不涉尚書以教矣。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-028:a001",
+          "paragraph_id": "c-shiji-121-rulin:p014",
+          "start": 66,
+          "end": 68,
+          "surface": "掌故",
+          "person_mention_id": "c-shiji-121-rulin:m014-0068",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -636,6 +729,30 @@
       "quote": "王遂、膠西王卬、濟南王辟光、菑川王賢、膠東王雄渠反，發兵西鄉。天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。上乃遣大將軍竇嬰、太尉周亞夫將兵誅之。六月乙亥。赦亡軍及楚元王子藝等與謀反者。封大將軍竇嬰為魏其侯。立楚元王子平陸侯禮為楚王。立皇子端為膠西王，子勝為中山王。徙濟北王志為"
     },
     {
+      "number": 50,
+      "category": "shijia",
+      "title": "楚元王世家第二十",
+      "paragraph_id": "c-shiji-050-chuyuan:p009",
+      "count": 1,
+      "quote": "遂既王趙二十六年，孝景帝時坐晁錯以適削趙王常山之郡。吳楚反，趙王遂與合謀起兵。其相建德、內史王悍諫，不聽。遂燒殺建德、王悍，發兵屯其西界，欲待吳與俱西。北使匈奴，與連和攻漢。漢使曲周侯酈寄擊之。趙王遂還，城守邯鄲，相距七月。吳楚敗於"
+    },
+    {
+      "number": 52,
+      "category": "shijia",
+      "title": "齊悼惠王世家第二十二",
+      "paragraph_id": "c-shiji-052-qidaohui:p025",
+      "count": 1,
+      "quote": "齊孝王十一年，吳王濞、楚王戊反，興兵西，告諸侯曰「將誅漢賊臣晁錯以安宗廟」。膠西、膠東、菑川、濟南皆擅發兵應吳楚。欲與齊，齊孝王狐疑，城守不聽，三國兵共圍齊。齊王使路中大夫告於天子。天子復令路中大夫還告齊王：「善堅守，吾兵今破吳楚矣。」路中大夫至，三國兵圍臨菑數重"
+    },
+    {
+      "number": 96,
+      "category": "liezhuan",
+      "title": "張丞相列傳第三十六",
+      "paragraph_id": "c-shiji-096-zhang:p018",
+      "count": 13,
+      "quote": "嘉為丞相五歲，孝文帝崩，孝景帝即位。二年，晁錯為內史，貴幸用事，諸法令多所請變更，議以謫罰侵削諸侯。而丞相嘉自絀所言不用，疾錯。錯為內史，門東出，不便，更穿一門南出。南出者，太上皇廟堧垣。嘉聞之，欲因此以法錯擅穿宗廟垣為門，奏請誅錯。錯客有語錯，"
+    },
+    {
       "number": 101,
       "category": "liezhuan",
       "title": "袁盎鼂錯列傳第四十一",
@@ -650,9 +767,88 @@
       "paragraph_id": "c-shiji-106-wuwang:p004",
       "count": 20,
       "quote": "晁錯為太子家令，得幸太子，數從容言吳過可削。數上書說孝文帝，文帝寬，不忍罰，以此吳日益橫。及孝景帝即位，錯為御史大夫，說上曰：「昔高帝初定天下，昆弟少，諸子弱，大封同姓，故王孽子悼惠王王齊七十餘城，庶弟元"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p022",
+      "count": 1,
+      "quote": "驕奢易為淫亂，急則阻其彊而合從以逆京師。今以法割削之，則逆節萌起，前日晁錯是也。今諸侯子弟或十數，而適嗣代立，餘雖骨肉，無尺寸地封，則仁孝之道不宣。願陛下令諸侯得推恩分子弟，以地侯之。彼人人喜得所願，上以德施，實分其國，不削而稍弱矣。」於是上從其計。又說上曰：「茂陵初立，天"
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p014",
+      "count": 1,
+      "quote": "乃聞伏生能治，欲召之。是時伏生年九十餘，老，不能行，於是乃詔太常使掌故晁錯往受之。秦時焚書，伏生壁藏之。其後兵大起，流亡，漢定，伏生求其書，亡數十篇，獨得二十九篇，即以教于齊魯之閒。學者由是頗能言尚書，諸山東大師無不涉尚書以教矣。"
+    },
+    {
+      "number": 122,
+      "category": "liezhuan",
+      "title": "酷吏列傳第六十二",
+      "paragraph_id": "c-shiji-122-kuli:p002",
+      "count": 3,
+      "quote": "有侯封，刻轢宗室，侵辱功臣。呂氏已敗，遂（禽）［夷］侯封之家。孝景時，晁錯以刻深頗用術輔其資，而七國之亂，發怒於錯，錯卒以被戮。其後有郅都、寧成之屬。"
+    },
+    {
+      "number": 130,
+      "category": "liezhuan",
+      "title": "太史公自序第七十",
+      "paragraph_id": "c-shiji-130-taishigong:p113",
+      "count": 2,
+      "quote": "敢犯顏色以達主義，不顧其身，為國家樹長畫。作袁盎晁錯列傳第四十一。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r052-c05",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "御史大夫錯。",
+      "year": {
+        "era": "BCE",
+        "value": 155,
+        "astronomical_year": -154,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "155",
+        "source_cell_id": "shiji-022-t1-r052-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r052-c05-m000",
+        "start": 4,
+        "end": 5,
+        "surface": "錯",
+        "person_id": "04u_gq0_nke_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "景帝二年御史大夫錯對讀專傳內史錯、與申屠嘉爭及後遷御史大夫的同一職歷。保留表與本傳用職，不定確切轉任月日。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-101",
+            "chapter_id": "c-shiji-101-yuanchao",
+            "paragraph_id": "c-shiji-101-yuanchao:p018",
+            "source_id": "s-shiji-101-yuanchao",
+            "source_revision": 368092,
+            "person_id": "04u_gq0_nke_A",
+            "quote": "景帝即位，以錯為內史。錯常數請閒言事，輒聽，寵幸傾九卿，法令多所更定。丞相申屠嘉心弗便，力未有以傷。內史府居太上廟壖中，門東出，不便，錯乃穿兩門南出，鑿廟壖垣。丞相嘉聞，大怒，欲因此過為奏請誅錯。錯聞之，即夜請閒，具為上言之。丞相奏事，因言錯擅鑿廟垣為門，請下廷尉誅。上曰：「此非廟垣，乃壖中垣，不致於法。」丞相謝。罷朝，怒謂長史曰：「吾當先斬以聞，乃先請，為兒所賣，固誤。」丞相遂發病死。錯以此愈貴。"
+          },
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-101",
+            "chapter_id": "c-shiji-101-yuanchao",
+            "paragraph_id": "c-shiji-101-yuanchao:p019",
+            "source_id": "s-shiji-101-yuanchao",
+            "source_revision": 368092,
+            "person_id": "04u_gq0_nke_A",
+            "quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -675,6 +871,78 @@
           "editorial_readings": [],
           "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
           "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-050-chuyuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-050",
+      "source_id": "s-shiji-050-chuyuan",
+      "source": {
+        "title": "史記／卷050",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷050",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728",
+        "revision_id": 8737728,
+        "accessed_on": "2026-10-09",
+        "extent": "10段篇文及1段索隱述贊；排除1個空p，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
+          "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-052-qidaohui",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "source_id": "s-shiji-052-qidaohui",
+      "source": {
+        "title": "史記／卷052",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷052",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
+        "revision_id": 5977113,
+        "accessed_on": "2026-10-09",
+        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
+          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-096-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-096",
+      "source_id": "s-shiji-096-zhang",
+      "source": {
+        "title": "史記／卷096",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷096",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
+        "revision_id": 8770206,
+        "accessed_on": "2026-10-09",
+        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
+          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
         }
       }
     },
@@ -725,6 +993,102 @@
           "note": "未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-122-kuli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "source_id": "s-shiji122-kuli",
+      "source": {
+        "title": "史記／卷122",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷122",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
+        "revision_id": 7904124,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文44段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-130-taishigong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "source_id": "s-shiji130-taishigong",
+      "source": {
+        "title": "史記／卷130",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷130",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+        "revision_id": 2609362,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文143段，全部篇文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標，移除維基引文縮排冒號，保留原字，未核影像。",
+          "note": "全文入庫不等於全部提及已標註；目錄段落仍待逐段處理。"
+        }
+      }
     }
   ],
   "relations": [
@@ -752,7 +1116,7 @@
   ],
   "related_people": {
     "04u_gq0_nke": "鼂錯父未名（袁盎鼂錯列傳候選）",
-    "04u_gq0_nke_A": "鼂錯（袁盎鼂錯列傳候選）"
+    "04u_gq0_nke_A": "鼂錯"
   },
   "dates": [
     {
@@ -845,6 +1209,46 @@
       ],
       "source_term": "天子為誅晁錯",
       "interpretation_note": "按本篇明示個人死亡保存；未直接修飾本事件的月份、赦令日期或分封日不移作卒日。群稱不補姓名，未記死法不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji101-003",
+      "person_id": "04u_gq0_nke_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "上令鼂錯衣朝衣斬東市",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p019",
+          "quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
+          "person_mention_id": "c-shiji-101-yuanchao:m019-0050"
+        }
+      ],
+      "interpretation_note": "只據實行斬東市記死亡；此前欲誅、請誅及以誅錯為名不是另一次死亡。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji122-001",
+      "person_id": "04u_gq0_nke_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p002",
+          "quote": "髙后時，酷吏獨有侯封，刻轢宗室，侵辱功臣。呂氏已敗，遂（禽）［夷］侯封之家。孝景時，晁錯以刻深頗用術輔其資，而七國之亂，發怒於錯，錯卒以被戮。其後有郅都、寧成之屬。",
+          "person_mention_id": "c-shiji-122-kuli:m002-0042"
+        }
+      ],
+      "source_term": "錯卒以被戮",
+      "interpretation_note": "原文明示死亡、執行或自殺；各次回顧未另造死亡事件。未知公元年保持未知，後一歳、十餘年等相對時間保留原文待核。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }
