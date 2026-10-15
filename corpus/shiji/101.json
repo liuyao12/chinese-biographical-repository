@@ -29,13 +29,13 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全23段明示姓名與若干明示匿名者首輪。",
+    "coverage": "全23段明示姓名與若干明示匿名者首輪。 十五組跨篇同指及母親記錄按同事接合；賁育依古注拆成逐人兩字錨點，原合稱起點ID保留，另新增育錨點。張恢先與棓生古注固定修訂分層保存。",
     "limitations": [
       "袁盎兄噲不按字同合併樊噲；兄子種不指定噲為父。",
       "君弟去的弟為語詞；太子不等於長子；淮南三子留群體，不補史外姓名。",
-      "申商、賁育、黃老等合稱與匿名指代仍待逐項比對。",
+      "申商、黃老等合稱與匿名指代仍待逐項比對。",
       "官爵任免與文獻用稱分存；死亡不自動終止全部稱號。",
-      "建元中上尚未跨篇核定姓名；精確紀年、身份及底本影像覆核待續。"
+      "建元中上暫接武帝，仍須續核其餘稱謂；精確紀年、身份及底本影像覆核待續。"
     ],
     "name_component_interpretations": [
       {
@@ -54,6 +54,18 @@
             "accessed_on": "2026-10-10",
             "image_verified": false,
             "note": "已核讀數位註文；索隱亦釋作軹縣人張恢先生。原始正文不改。"
+          },
+          {
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷101&oldid=2514771",
+            "revision_id": 2514771,
+            "revision_timestamp": "2025-01-06T08:31:19Z",
+            "response_sha256": "cf92eb44d816d41d69d847483ebf6120d660b015b116ae244d5e9e8dd6ce2fe0",
+            "image_verified": false,
+            "verification_scope": "specified_digital_commentary_passages_only",
+            "title": "《史記集解》張恢先注",
+            "commentator": "徐廣",
+            "quote": "先即先生。",
+            "note": "先釋先生而非名字，原文不補生，僅核指定數位注語。"
           }
         ],
         "status": "contextual_provisional"
@@ -72,6 +84,26 @@
           "c-shiji-101-yuanchao:p016"
         ],
         "note": "同師劉禮與元王子平陸侯禮可能同指，本篇未明示兩身分銜接；暫不僅依同名合併。"
+      }
+    ],
+    "reported_variants": [
+      {
+        "work": "史記集解",
+        "commentator": "徐廣",
+        "source_term": "棓生",
+        "quote": "棓，一作『服』。",
+        "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷101&oldid=2514771",
+        "revision_id": 2514771,
+        "image_verified": false,
+        "person_ids": [
+          "w2n_7g1_30z"
+        ],
+        "paragraph_id": "c-shiji-101-yuanchao:p015",
+        "status": "reported_not_collated",
+        "received_reading": "棓",
+        "reported_reading": "服",
+        "adopted": false,
+        "note": "注家所報異文，未核其所據底本；不改本傳棓字，不建立全域服生別名。"
       }
     ]
   },
@@ -115,7 +147,7 @@
           "end": 24,
           "surface": "高后",
           "kind": "person",
-          "person_id": "ttc_nht_1ih",
+          "person_id": "i30_mjq_6q8_A",
           "status": "contextual_provisional"
         },
         {
@@ -133,7 +165,7 @@
           "end": 31,
           "surface": "呂祿",
           "kind": "person",
-          "person_id": "jgl_hok_5v6",
+          "person_id": "561_608_i0z",
           "status": "contextual_provisional"
         },
         {
@@ -186,7 +218,7 @@
           "end": 2,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -231,7 +263,7 @@
           "end": 56,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -240,7 +272,7 @@
           "end": 82,
           "surface": "呂后",
           "kind": "person",
-          "person_id": "ttc_nht_1ih",
+          "person_id": "i30_mjq_6q8_A",
           "status": "contextual_provisional"
         },
         {
@@ -269,7 +301,7 @@
           "end": 104,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -278,7 +310,7 @@
           "end": 118,
           "surface": "呂后",
           "kind": "person",
-          "person_id": "ttc_nht_1ih",
+          "person_id": "i30_mjq_6q8_A",
           "status": "contextual_provisional"
         },
         {
@@ -316,7 +348,7 @@
           "end": 193,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -360,7 +392,7 @@
           "end": 3,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -398,7 +430,7 @@
           "end": 37,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -407,7 +439,7 @@
           "end": 42,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -425,7 +457,7 @@
           "end": 52,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -460,7 +492,7 @@
           "end": 10,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "31b_36a_313",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -657,7 +689,7 @@
           "end": 102,
           "surface": "太后",
           "kind": "person",
-          "person_id": "kru_906_knc",
+          "person_id": "9zj_vf7_86a_A",
           "status": "contextual_provisional"
         },
         {
@@ -691,12 +723,22 @@
         {
           "id": "c-shiji-101-yuanchao:m005-0182",
           "start": 182,
+          "end": 183,
+          "surface": "賁",
+          "kind": "person",
+          "person_id": "dwv_5hn_680",
+          "status": "contextual_provisional",
+          "note": "原合稱賁育依孟康注拆為兩人；舊起點ID保留於賁，育另有逐人錨點，原文不改。"
+        },
+        {
+          "id": "c-shiji-101-yuanchao:m005-0183",
+          "start": 183,
           "end": 184,
-          "surface": "賁育",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、學說合稱、典故或待辨匿名指代，未補成員及姓名。"
+          "surface": "育",
+          "kind": "person",
+          "person_id": "66l_m67_5ie",
+          "status": "contextual_provisional",
+          "note": "孟康注賁育為孟賁、夏育；此字連夏育，不與孟賁合為一人。"
         },
         {
           "id": "c-shiji-101-yuanchao:m005-0216",
@@ -985,7 +1027,7 @@
           "end": 96,
           "surface": "太后",
           "kind": "person",
-          "person_id": "kru_906_knc",
+          "person_id": "9zj_vf7_86a_A",
           "status": "contextual_provisional"
         },
         {
@@ -1020,7 +1062,7 @@
           "end": 7,
           "surface": "皇后",
           "kind": "person",
-          "person_id": "253_2n7_qs7",
+          "person_id": "ixk_6fg_v6f_A",
           "status": "contextual_provisional"
         },
         {
@@ -1029,7 +1071,7 @@
           "end": 11,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1056,7 +1098,7 @@
           "end": 39,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1065,7 +1107,7 @@
           "end": 44,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1092,7 +1134,7 @@
           "end": 89,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1101,7 +1143,7 @@
           "end": 128,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1129,7 +1171,7 @@
           "end": 158,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1138,7 +1180,7 @@
           "end": 162,
           "surface": "慎夫人",
           "kind": "person",
-          "person_id": "eep_7t4_31w",
+          "person_id": "evh_7zu_u3x",
           "status": "contextual_provisional"
         },
         {
@@ -1191,7 +1233,7 @@
           "end": 55,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -1218,7 +1260,7 @@
           "end": 120,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -1298,7 +1340,7 @@
           "end": 121,
           "surface": "陳平",
           "kind": "person",
-          "person_id": "n9g_zzh_3ss",
+          "person_id": "i3f_9l9_g53",
           "status": "contextual_provisional"
         },
         {
@@ -1307,7 +1349,7 @@
           "end": 124,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -1325,7 +1367,7 @@
           "end": 153,
           "surface": "陳平",
           "kind": "person",
-          "person_id": "n9g_zzh_3ss",
+          "person_id": "i3f_9l9_g53",
           "status": "contextual_provisional"
         },
         {
@@ -1334,7 +1376,7 @@
           "end": 156,
           "surface": "絳侯",
           "kind": "person",
-          "person_id": "tod_lbz_fbe",
+          "person_id": "koy_6jg_gcc",
           "status": "contextual_provisional"
         },
         {
@@ -1488,7 +1530,7 @@
           "end": 59,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         }
       ]
@@ -1532,7 +1574,7 @@
           "end": 21,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -1739,7 +1781,7 @@
           "end": 16,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -1910,7 +1952,7 @@
           "end": 185,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -2053,12 +2095,13 @@
         },
         {
           "id": "c-shiji-101-yuanchao:m014-0015",
-          "start": 15,
-          "end": 16,
-          "surface": "為",
+          "start": 14,
+          "end": 15,
+          "surface": "禮",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_DB",
-          "status": "contextual_provisional"
+          "status": "contextual_provisional",
+          "note": "既有錨點誤落後一為字，本輪移回原文禮；提及ID保留，正文不改，不與張恢同學劉禮合併。"
         },
         {
           "id": "c-shiji-101-yuanchao:m014-0019",
@@ -2084,7 +2127,7 @@
           "end": 61,
           "surface": "劇孟",
           "kind": "person",
-          "person_id": "ugq_ldt_klj",
+          "person_id": "5se_9f5_u2q",
           "status": "contextual_provisional"
         },
         {
@@ -2130,7 +2173,7 @@
           "end": 85,
           "surface": "劇孟",
           "kind": "person",
-          "person_id": "ugq_ldt_klj",
+          "person_id": "5se_9f5_u2q",
           "status": "contextual_provisional"
         },
         {
@@ -2148,7 +2191,7 @@
           "end": 102,
           "surface": "劇孟",
           "kind": "person",
-          "person_id": "ugq_ldt_klj",
+          "person_id": "5se_9f5_u2q",
           "status": "contextual_provisional"
         },
         {
@@ -2157,7 +2200,7 @@
           "end": 108,
           "surface": "母",
           "kind": "person",
-          "person_id": "kxl_a6t_r9a",
+          "person_id": "qel_t1a_itz",
           "status": "contextual_provisional"
         },
         {
@@ -2185,7 +2228,7 @@
           "end": 165,
           "surface": "劇孟",
           "kind": "person",
-          "person_id": "ugq_ldt_klj",
+          "person_id": "5se_9f5_u2q",
           "status": "contextual_provisional"
         },
         {
@@ -2239,7 +2282,7 @@
           "end": 18,
           "surface": "梁王",
           "kind": "person",
-          "person_id": "wai_hue_j42",
+          "person_id": "yqp_nlb_p1p_ACG",
           "status": "contextual_provisional"
         },
         {
@@ -2257,7 +2300,7 @@
           "end": 35,
           "surface": "梁王",
           "kind": "person",
-          "person_id": "wai_hue_j42",
+          "person_id": "yqp_nlb_p1p_ACG",
           "status": "contextual_provisional"
         },
         {
@@ -2312,7 +2355,7 @@
           "end": 76,
           "surface": "梁王",
           "kind": "person",
-          "person_id": "wai_hue_j42",
+          "person_id": "yqp_nlb_p1p_ACG",
           "status": "contextual_provisional"
         },
         {
@@ -2448,7 +2491,7 @@
           "end": 27,
           "surface": "伏生",
           "kind": "person",
-          "person_id": "orq_rdx_tgp",
+          "person_id": "t6q_oe6_hom",
           "status": "contextual_provisional"
         },
         {
@@ -2466,7 +2509,7 @@
           "end": 65,
           "surface": "伏生",
           "kind": "person",
-          "person_id": "orq_rdx_tgp",
+          "person_id": "t6q_oe6_hom",
           "status": "contextual_provisional"
         },
         {
@@ -2881,7 +2924,7 @@
           "end": 62,
           "surface": "吳王",
           "kind": "person",
-          "person_id": "7l9_yz7_nwv",
+          "person_id": "yqp_nlb_p1p_CA",
           "status": "contextual_provisional"
         },
         {
@@ -2970,7 +3013,7 @@
           "end": 17,
           "surface": "上",
           "kind": "person",
-          "person_id": "052_eu1_tdb",
+          "person_id": "yqp_nlb_p1p_ACAA",
           "status": "contextual_provisional"
         },
         {

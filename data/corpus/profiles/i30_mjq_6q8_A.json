@@ -11,9 +11,52 @@
     "太后",
     "皇太后",
     "高后",
-    "髙后"
+    "髙后",
+    "呂娥姁"
   ],
   "titles": [
+    {
+      "id": "th-shiji049-001",
+      "person_id": "i30_mjq_6q8_A",
+      "title": "正后",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p003",
+          "quote": "漢興，呂娥姁為高祖正后，男為太子。及晚節色衰愛弛，而戚夫人有寵，其子如意幾代太子者數矣。及高祖崩，呂后夷戚氏，誅趙王，而高祖後宮唯獨無寵疏遠者得無恙。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji049-001:a001",
+          "paragraph_id": "c-shiji-049-waiqi:p003",
+          "start": 9,
+          "end": 11,
+          "surface": "正后",
+          "person_mention_id": "c-shiji-049-waiqi:m003-0003",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji110-027",
       "person_id": "i30_mjq_6q8_A",
@@ -229,6 +272,33 @@
       "human_reviewed": false,
       "term": "還過軹道",
       "quote": "三月中，呂后祓，還過軹道，見物如蒼犬，據高后掖，忽弗復見。卜之，云趙王如意為祟。高后遂病掖傷。"
+    },
+    {
+      "id": "pa-shiji049-001",
+      "person_id": "i30_mjq_6q8_A",
+      "relation": "burial_place",
+      "place": {
+        "source_name": "長陵",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p005",
+          "quote": "高后崩，合葬長陵。祿、產等懼誅，謀作亂。大臣征之，天誘其統，卒滅呂氏。唯獨置孝惠皇后居北宮。迎立代王，是為孝文帝，奉漢宗廟。此豈非天邪？非天命孰能當之？",
+          "person_mention_id": "c-shiji-049-waiqi:m005-0000"
+        }
+      ],
+      "source_term": "合葬長陵",
+      "interpretation_note": "來源出處、實行行程、居處、死地與葬地分存；不補現代定位，地名承接限本段明示敘事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "合葬長陵",
+      "quote": "高后崩，合葬長陵。祿、產等懼誅，謀作亂。大臣征之，天誘其統，卒滅呂氏。唯獨置孝惠皇后居北宮。迎立代王，是為孝文帝，奉漢宗廟。此豈非天邪？非天命孰能當之？"
     }
   ],
   "occurrences": [
@@ -278,6 +348,14 @@
       "paragraph_ids": [
         "c-hanshu-041-fanli:p-jin-005"
       ]
+    },
+    {
+      "number": 49,
+      "category": "shijia",
+      "title": "外戚世家第十九",
+      "paragraph_id": "c-shiji-049-waiqi:p003",
+      "count": 10,
+      "quote": "漢興，呂娥姁為高祖正后，男為太子。及晚節色衰愛弛，而戚夫人有寵，其子如意幾代太子者數矣。及高祖崩，呂后夷戚氏，誅趙王，而高祖後宮唯獨無寵疏遠者得無恙。"
     },
     {
       "number": 55,
@@ -390,6 +468,14 @@
       "paragraph_id": "c-shiji-100-jibu:p002",
       "count": 4,
       "quote": "孝惠時，爲中郎將。單于嘗爲書嫚呂后，不遜，呂后大怒，召諸將議之。上將軍樊噲曰：「臣願得十萬衆，橫行匈奴中。」諸將皆阿呂后意，曰「然」。季布曰：「樊噲可斬也！夫髙帝將兵四十餘萬衆，困於平城，今噲柰何以十萬衆橫行匈奴中，面欺！且秦以事於胡"
+    },
+    {
+      "number": 101,
+      "category": "liezhuan",
+      "title": "袁盎鼂錯列傳第四十一",
+      "paragraph_id": "c-shiji-101-yuanchao:p001",
+      "count": 3,
+      "quote": "袁盎者，楚人也，字絲。父故為群盜，徙處安陵。高后時，盎嘗為呂祿舍人。及孝文帝即位，盎兄噲任盎為中郎。"
     },
     {
       "number": 110,
@@ -643,6 +729,30 @@
           "editorial_readings": [],
           "extraction_note": "正文均為p，排除sup註號，保留行內校勘符號。",
           "note": "澤、為、絰僅作明記簡繁轉換；保留琅邪及古代異體，未核影像或可靠底本。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-049-waiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "source_id": "s-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
         }
       }
     },
@@ -1033,6 +1143,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-101-yuanchao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-101",
+      "source_id": "s-shiji-101-yuanchao",
+      "source": {
+        "title": "史記／卷101",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷101",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
+        "revision_id": 368092,
+        "accessed_on": "2026-10-10",
+        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
+          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",
       "book_id": "b-shiji-110",
@@ -1292,6 +1426,27 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji049-002",
+      "subject_person_id": "j0g_kpf_v3u",
+      "predicate": "mother",
+      "object_person_id": "i30_mjq_6q8_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p004",
+          "quote": "呂后長女為宣平侯張敖妻，敖女為孝惠皇后。呂太后以重親故，欲其生子萬方，終無子，詐取後宮人子為子。及孝惠帝崩，天下初定未久，繼嗣不明。於是貴外家，王諸呂以為輔，而以呂祿女為少帝后，欲連固根本牢甚，然無益也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "呂后長女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji056-007",
       "subject_person_id": "nix_7ug_wxv",
       "predicate": "sister",
@@ -1413,6 +1568,7 @@
     "c90_m9w_lqu": "呂釋之",
     "i30_mjq_6q8": "呂公",
     "i30_mjq_6q8_A": "呂后",
+    "j0g_kpf_v3u": "呂后長女（外戚世家候選）",
     "nix_7ug_wxv": "呂嬃",
     "yqp_nlb_p1p_A": "高祖",
     "yqp_nlb_p1p_AA": "孝惠（本卷稱呼）",
@@ -1889,6 +2045,27 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji049-002",
+      "subject_person_id": "j0g_kpf_v3u",
+      "predicate": "mother",
+      "object_person_id": "i30_mjq_6q8_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p004",
+          "quote": "呂后長女為宣平侯張敖妻，敖女為孝惠皇后。呂太后以重親故，欲其生子萬方，終無子，詐取後宮人子為子。及孝惠帝崩，天下初定未久，繼嗣不明。於是貴外家，王諸呂以為輔，而以呂祿女為少帝后，欲連固根本牢甚，然無益也。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "呂后長女",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji056-007",
       "subject_person_id": "nix_7ug_wxv",
       "predicate": "sister",
@@ -2161,6 +2338,26 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false
       }
+    },
+    {
+      "id": "le-shiji049-006",
+      "person_id": "i30_mjq_6q8_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p005",
+          "quote": "高后崩，合葬長陵。祿、產等懼誅，謀作亂。大臣征之，天誘其統，卒滅呂氏。唯獨置孝惠皇后居北宮。迎立代王，是為孝文帝，奉漢宗廟。此豈非天邪？非天命孰能當之？",
+          "person_mention_id": "c-shiji-049-waiqi:m005-0000"
+        }
+      ],
+      "source_term": "高后崩",
+      "interpretation_note": "保存本篇明示死亡；回述不借當段其他事件年份，數字紀年及跨篇身份待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     },
     {
       "id": "le-shiji056-007",
