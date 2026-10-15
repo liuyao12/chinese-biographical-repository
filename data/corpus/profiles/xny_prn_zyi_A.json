@@ -120,6 +120,48 @@
       "interpretation_note": "原文實授、敘事用稱及諡稱分存；未明示時任期起訖未知。爵號用字不擅自補足，單稱侯不自動展開爵邑名；死亡、被捕、罷兵不自動作所有官爵終點。欲拜李必駱甲為騎將未作實授，左右校尉據實際令授。",
       "reviewer": "Codex（AI 代理）",
       "period": "孝景前三年 → 未定"
+    },
+    {
+      "id": "th-shiji106-009",
+      "person_id": "xny_prn_zyi_A",
+      "title": "曲周侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p010",
+          "quote": "七國反書聞天子，天子乃遣太尉條侯周亞夫將三十六將軍，往擊吳楚；遣曲周侯酈寄擊趙；將軍欒布擊齊；大將軍竇嬰屯滎陽，監齊趙兵。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji106-009:a001",
+          "paragraph_id": "c-shiji-106-wuwang:p010",
+          "start": 32,
+          "end": 35,
+          "surface": "曲周侯",
+          "person_mention_id": "c-shiji-106-wuwang:m010-0035",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、降封與用稱分存；代王廢為郃陽侯記明示終點。吳王受封日期正文與注家另核，不補完整任期。本文死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -139,6 +181,14 @@
       "paragraph_id": "c-shiji-095-fankuang:p014",
       "count": 9,
       "quote": "商事孝惠、高后時，商病，不治。其子寄，字況，與呂祿善。及高后崩，大臣欲誅諸呂，呂祿為將軍，軍於北軍，太尉勃不得入北軍，於是乃使人劫酈商，令其子況紿呂祿，呂祿信之，故與出游，而太尉勃乃得入據北軍，遂誅諸呂。是歲商卒，謚為景侯。子寄代侯。天"
+    },
+    {
+      "number": 106,
+      "category": "liezhuan",
+      "title": "吳王濞列傳第四十六",
+      "paragraph_id": "c-shiji-106-wuwang:p010",
+      "count": 1,
+      "quote": "七國反書聞天子，天子乃遣太尉條侯周亞夫將三十六將軍，往擊吳楚；遣曲周侯酈寄擊趙；將軍欒布擊齊；大將軍竇嬰屯滎陽，監齊趙兵。"
     }
   ],
   "table_occurrences": [
@@ -213,6 +263,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
           "note": "全37個HTML區塊已讀，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-106-wuwang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-106",
+      "source_id": "s-shiji-106-wuwang",
+      "source": {
+        "title": "史記／卷106",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷106",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+        "revision_id": 405869,
+        "accessed_on": "2026-10-10",
+        "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
         }
       }
     },

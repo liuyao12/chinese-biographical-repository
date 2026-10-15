@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wfj_oof_3mr` | 東武侯 | [《史記・滑稽列傳》][109] | [JSON](wfj_oof_3mr.json) |
-| `wfk_n4m_6x9` | 陳留令未名 | [《史記・酈生陸賈列傳》][80] | [JSON](wfk_n4m_6x9.json) |
-| `wfm_qvc_ykk` | 負芻 | [《史記・白起王翦列傳》][56]、[《史記・蒙恬列傳》][71] | [JSON](wfm_qvc_ykk.json) |
-| `wfn_d71_zaw` | 夔 | [《史記・五帝本紀》][2] | [JSON](wfn_d71_zaw.json) |
-| `wft_r8s_naw` | 申后 | [《史記・周本紀》][5] | [JSON](wft_r8s_naw.json) |
-| `wfu_ts5_cyz` | 長衛姬（無詭母） | [《史記・齊太公世家》][15] | [JSON](wfu_ts5_cyz.json) |
-| `wfy_80o_l8g` | 楚王（受鵠） | [《史記・滑稽列傳》][109] | [JSON](wfy_80o_l8g.json) |
-| `wgh_mmm_fjq` | 燕仲父（惠王記事） | [《史記・燕召公世家》][17] | [JSON](wgh_mmm_fjq.json) |
-| `wh3_77h_m9d` | 公劉 | [《史記・太史公自序》][113] | [JSON](wh3_77h_m9d.json) |
-| `wh6_u2c_0xc` | 楚王 | [《史記・三王世家》][43] | [JSON](wh6_u2c_0xc.json) |
 | `whn_5w1_i1k` | 晏平仲 | [《史記・仲尼弟子列傳》][50] | [JSON](whn_5w1_i1k.json) |
 | `whn_b4z_p9v` | 燕噲 | [《史記・太史公自序》][113] | [JSON](whn_b4z_p9v.json) |
 | `whv_8wm_15e` | 孟説 | [《史記・趙世家》][26] | [JSON](whv_8wm_15e.json) |
@@ -157,7 +147,6 @@
 | `xk1_q1d_4tc` | 韓信舍人未名 | [《史記・淮陰侯列傳》][75] | [JSON](xk1_q1d_4tc.json) |
 | `xkc_rp5_a3d` | 宣帝 | [《史記・三王世家》][43] | [JSON](xkc_rp5_a3d.json) |
 | `xkn_0tx_45l` | 秦孝公 | [《史記・趙世家》][26] | [JSON](xkn_0tx_45l.json) |
-| `xky_ebm_pdy` | 薄太后 | [《史記・吳王濞列傳》][89] | [JSON](xky_ebm_pdy.json) |
 | `xli_xkc_ts4` | 魯襄公 | [《史記・孔子世家》][30] | [JSON](xli_xkc_ts4.json) |
 | `xlp_ihc_qm9` | 辛廖 | [《史記・魏世家》][27] | [JSON](xlp_ihc_qm9.json) |
 | `xlz_fdt_se1` | 竇嬰夫人未名 | [《史記・魏其武安侯列傳》][90] | [JSON](xlz_fdt_se1.json) |
@@ -210,7 +199,6 @@
 | `xw0_62h_nxt` | 家監未名 | [《史記・田叔列傳》][87] | [JSON](xw0_62h_nxt.json) |
 | `xwc_7eh_kj1` | 上官大夫未名 | [《史記・屈原賈生列傳》][67] | [JSON](xwc_7eh_kj1.json) |
 | `xwe_h0r_1x4` | 桃侯（本篇未名） | [《史記・魏其武安侯列傳》][90] | [JSON](xwe_h0r_1x4.json) |
-| `xx0_5ue_hl1` | 劉賈 | [《史記・吳王濞列傳》][89] | [JSON](xx0_5ue_hl1.json) |
 | `xx7_loh_2ge` | 郤克 | [《史記・齊太公世家》][15] | [JSON](xx7_loh_2ge.json) |
 | `xx8_6pg_u24` | 簡公婦人（田世家檀臺未名者） | [《史記・田敬仲完世家》][29] | [JSON](xx8_6pg_u24.json) |
 | `xx9_ni7_l9f` | 祖辛 | [《史記・殷本紀》][4]、[《史記・三代世表》][114] | [JSON](xx9_ni7_l9f.json) |
@@ -234,7 +222,6 @@
 | `y1g_wr7_5l5` | 秦將軍（武關伏兵冒秦王者） | [《史記・楚世家》][23] | [JSON](y1g_wr7_5l5.json) |
 | `y1h_fo3_brs` | 當朝天子 | [《史記・東越列傳》][97] | [JSON](y1h_fo3_brs.json) |
 | `y1m_88m_n1b` | 虢叔 | [《史記・鄭世家》][25] | [JSON](y1m_88m_n1b.json) |
-| `y1q_rxv_87u` | 楚王書信未名 | [《史記・吳王濞列傳》][89] | [JSON](y1q_rxv_87u.json) |
 | `y1s_5hf_3lv` | 子服景伯 | [《史記・仲尼弟子列傳》][50] | [JSON](y1s_5hf_3lv.json) |
 | `y38_ic5_9vk` | 卜齮 | [《史記・魯周公世家》][16] | [JSON](y38_ic5_9vk.json) |
 | `y39_cg2_ep7` | 春申 | [《史記・貨殖列傳》][112] | [JSON](y39_cg2_ep7.json) |
@@ -552,13 +539,11 @@
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562
 [70]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
-[71]: https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [74]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
 [75]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147
 [78]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
-[80]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318
 [85]: https://zh.wikisource.org/w/index.php?title=史記/卷102&oldid=1753957
 [86]: https://zh.wikisource.org/w/index.php?title=史記/卷103&oldid=2096814
@@ -584,7 +569,6 @@
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799
 [107]: https://zh.wikisource.org/w/index.php?title=史記/卷124&oldid=367994
 [108]: https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599
-[109]: https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358
 [110]: https://zh.wikisource.org/w/index.php?title=史記/卷127&oldid=2609359
 [111]: https://zh.wikisource.org/w/index.php?title=史記/卷128&oldid=7904127
 [112]: https://zh.wikisource.org/w/index.php?title=史記/卷129&oldid=7904128

@@ -846,7 +846,6 @@
 | `67a_vl4_hwv` | 項羽 | [《史記・南越列傳》][96] | [JSON](67a_vl4_hwv.json) |
 | `67d_hkx_fvu` | 越女（楚惠王章母） | [《史記・楚世家》][23] | [JSON](67d_hkx_fvu.json) |
 | `67k_3wh_j8c` | 魏絳（和戎臣） | [《史記・晉世家》][22] | [JSON](67k_3wh_j8c.json) |
-| `68g_980_mer` | 劇孟 | [《史記・吳王濞列傳》][89] | [JSON](68g_980_mer.json) |
 | `68o_y46_3mf` | 張羽 | [《史記・汲鄭列傳》][103] | [JSON](68o_y46_3mf.json) |
 | `68y_cvr_pg1` | 呂媭 | [《史記・呂太后本紀》][10] | [JSON](68y_cvr_pg1.json) |
 | `691_4u8_7bw` | 巴姬（楚共王埋璧者） | [《史記・楚世家》][23] | [JSON](691_4u8_7bw.json) |
@@ -960,7 +959,6 @@
 | `6zf_2fu_9xy` | 王賁 | [《史記・趙世家》][26] | [JSON](6zf_2fu_9xy.json) |
 | `6zh_3z5_gsm` | 闔廬 | [《史記・越王勾踐世家》][24] | [JSON](6zh_3z5_gsm.json) |
 | `6zj_q8y_4ic` | 燕昭王 | [《史記・蘇秦列傳》][52] | [JSON](6zj_q8y_4ic.json) |
-| `6zw_vkw_sxz` | 高后 | [《史記・吳王濞列傳》][89] | [JSON](6zw_vkw_sxz.json) |
 | `6zy_q58_1rh` | 栗姬 | [《史記・外戚世家》][32] | [JSON](6zy_q58_1rh.json) |
 | `70v_82v_y7m` | 韓武子 | [《史記・鄭世家》][25] | [JSON](70v_82v_y7m.json) |
 | `716_g9k_cg4` | 穆生 | [《史記・楚元王世家》][33] | [JSON](716_g9k_cg4.json) |
@@ -1804,7 +1802,6 @@
 | `dd0_uda_xje` | 晉平公 | [《史記・趙世家》][26] | [JSON](dd0_uda_xje.json) |
 | `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][78] | [JSON](dda_1pf_g3o.json) |
 | `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][2] | [JSON](ddb_l4j_4j2.json) |
-| `ddd_32x_k8h` | 膠東王書信未名 | [《史記・吳王濞列傳》][89] | [JSON](ddd_32x_k8h.json) |
 | `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][54] | [JSON](ddf_jql_z0y.json) |
 | `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][7] | [JSON](ddp_ol8_1w5.json) |
 | `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][113] | [JSON](ddq_o5z_ic3.json) |
@@ -2143,7 +2140,6 @@
 | `fmk_3kl_4cb` | 宛若 | [《史記・孝武本紀》][13] | [JSON](fmk_3kl_4cb.json) |
 | `fmk_you_bxl` | 太甲 | [《史記・太史公自序》][113] | [JSON](fmk_you_bxl.json) |
 | `fmo_6wd_9wn` | 壽（荼異母兄） | [《史記・齊太公世家》][15] | [JSON](fmo_6wd_9wn.json) |
-| `fn4_s0b_4jd` | 趙王書信未名 | [《史記・吳王濞列傳》][89] | [JSON](fn4_s0b_4jd.json) |
 | `fn8_b63_zph` | 膠西王端 | [《史記・淮南衡山列傳》][101] | [JSON](fn8_b63_zph.json) |
 | `fnb_86c_jy4` | 成安君 | [《史記・曹相國世家》][37] | [JSON](fnb_86c_jy4.json) |
 | `fng_mjp_tdn` | 糾（齊公子） | [《史記・齊太公世家》][15] | [JSON](fng_mjp_tdn.json) |
@@ -2209,6 +2205,10 @@
 | `g22_f2k_eav` | 趙豹 | [《史記・趙世家》][26] | [JSON](g22_f2k_eav.json) |
 | `g2b_tzq_wxz` | 韓非 | [《史記・秦始皇本紀》][7] | [JSON](g2b_tzq_wxz.json) |
 | `g2e_ui5_mts` | 伍徐 | [《史記・陳涉世家》][31] | [JSON](g2e_ui5_mts.json) |
+| `g2j_v25_c9b` | 蟣蝨 | [《史記・韓世家》][28] | [JSON](g2j_v25_c9b.json) |
+| `g2k_ddk_pxs` | 晉悼公 | [《史記・鄭世家》][25] | [JSON](g2k_ddk_pxs.json) |
+| `g2p_biu_r3z` | 湯 | [《史記・貨殖列傳》][112] | [JSON](g2p_biu_r3z.json) |
+| `g2v_d8d_els` | 李兌 | [《史記・趙世家》][26] | [JSON](g2v_d8d_els.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
