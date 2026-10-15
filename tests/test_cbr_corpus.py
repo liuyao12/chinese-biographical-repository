@@ -153,6 +153,18 @@ class CorpusTests(unittest.TestCase):
     def test_brother_inheritance_rejects_unattested_relationship(self):
         self.change('corpus/shiji/059-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji059-065')['inheritance'].update(predecessor_relation='cousin'))
         self.assertIn('承爵判讀缺少相符的前任爵位、父子或原詞證據', v.validate(self.root))
+    def test_title_excess_years_cannot_be_exact(self):
+        self.change('corpus/shiji/104-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji104-005')['reported_duration'].update(value=10))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_excess_years_cannot_change_unit(self):
+        self.change('corpus/shiji/104-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji104-005')['reported_duration'].update(unit='title_month', counting='unspecified_source_months'))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_excess_years_cannot_invent_upper(self):
+        self.change('corpus/shiji/104-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji104-005')['reported_duration']['bounds'].update(upper=20))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
+    def test_title_bare_month_yu_cannot_be_year(self):
+        self.change('corpus/shiji/104-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji104-013')['reported_duration'].update(unit='title_year', counting='unspecified_source_years'))
+        self.assertIn('稱號時長界限須保留餘字、未知精確值及排他下界', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))

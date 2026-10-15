@@ -216,8 +216,33 @@
           "evidence": []
         }
       },
-      "interpretation_note": "正文與褚補分層保存；授官、用稱、俸秩與任務分開，未知年與終點不補造，死亡不自動終止。",
+      "interpretation_note": "正文與褚補分層保存；授官、用稱、俸秩與任務分開，未知年與終點不補造，死亡不自動終止。 原記時長為餘數，保留排他下界及未知上限，不作精確值或推起訖。",
       "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": null,
+        "unit": "title_month",
+        "source_term": "月餘",
+        "source_number": null,
+        "counting": "unspecified_source_months",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-104",
+            "chapter_id": "c-shiji-104-tianshu",
+            "source_id": "s-shiji-104-tianshu",
+            "paragraph_id": "c-shiji-104-tianshu:p008",
+            "quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+            "person_mention_id": "c-shiji-104-tianshu:m008-0056"
+          }
+        ],
+        "bounds": {
+          "lower": 1,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        }
+      },
       "period": "未定 → 未定"
     },
     {
@@ -577,7 +602,174 @@
     "6bn_yfc_lzi": "田叔（梁孝王世家候選）",
     "6bn_yfc_lzi_A": "田仁（田叔列傳候選）"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 91,
+      "year": -90,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p008",
+          "quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+          "person_mention_id": "c-shiji-104-tianshu:m008-0100"
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷066田仁任安死亡",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》卷066劉屈氂傳本年紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "quote": "征和二年春",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "征和元年",
+          "table_cell_id": "shiji-022-t1-r115-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "二",
+          "table_cell_id": "shiji-022-t1-r116-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "七月壬午，太子發兵，殺游擊將軍說、使者江充。",
+          "table_cell_id": "shiji-022-t1-r116-c02",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "91",
+          "table_cell_id": "shiji-022-t1-r116-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "坐縱太子，下吏誅死",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+        "reference_event_quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_year_quote": "91"
+      },
+      "rationale": "本篇田仁司直縱太子及任安受節獲罪之死，與漢書卷066征和二年同事皆要斬相配；另據年表征和二年太子發兵與編者對照前91年。換年為編輯判斷，不將前91年添入本文；暴氏行動及車千秋敘事異說各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji104-004",
+      "person_id": "6bn_yfc_lzi_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 91,
+      "year": -90,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p015",
+          "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
+          "person_mention_id": "c-shiji-104-tianshu:m015-0104"
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷066田仁任安死亡",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》卷066劉屈氂傳本年紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "quote": "征和二年春",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "征和元年",
+          "table_cell_id": "shiji-022-t1-r115-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "二",
+          "table_cell_id": "shiji-022-t1-r116-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "七月壬午，太子發兵，殺游擊將軍說、使者江充。",
+          "table_cell_id": "shiji-022-t1-r116-c02",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "91",
+          "table_cell_id": "shiji-022-t1-r116-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "司直下吏，誅死",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+        "reference_event_quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_year_quote": "91"
+      },
+      "rationale": "本篇田仁司直縱太子及任安受節獲罪之死，與漢書卷066征和二年同事皆要斬相配；另據年表征和二年太子發兵與編者對照前91年。換年為編輯判斷，不將前91年添入本文；暴氏行動及車千秋敘事異說各存。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji104-005",
+      "person_id": "6bn_yfc_lzi_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "6bn_yfc_lzi_A"
@@ -615,7 +807,212 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji104-004",
+      "person_id": "6bn_yfc_lzi_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "坐縱太子，下吏誅死",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p008",
+          "quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+          "person_mention_id": "c-shiji-104-tianshu:m008-0100"
+        }
+      ],
+      "interpretation_note": "正文田仁死亡，與褚補另條來源各存。 不以死亡自動終止全部官爵，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 91,
+        "year": -90,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-104",
+            "chapter_id": "c-shiji-104-tianshu",
+            "source_id": "s-shiji-104-tianshu",
+            "paragraph_id": "c-shiji-104-tianshu:p008",
+            "quote": "仁以壯健為衛將軍舍人，數從擊匈奴。衛將軍進言仁，仁為郎中。數歲，為二千石丞相長史，失官。其後使刺舉三河。上東巡，仁奏事有辭，上說，拜為京輔都尉。月餘，上遷拜為司直。數歲，坐太子事。時左相自將兵，令司直田仁主閉守城門，坐縱太子，下吏誅死。仁發兵，長陵令車千秋上變仁，仁族死。陘城今在中山國。",
+            "person_mention_id": "c-shiji-104-tianshu:m008-0100"
+          }
+        ],
+        "references": [
+          {
+            "title": "《漢書》卷066田仁任安死亡",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+            "quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《漢書》卷066劉屈氂傳本年紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+            "quote": "征和二年春",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "征和元年",
+            "table_cell_id": "shiji-022-t1-r115-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "二",
+            "table_cell_id": "shiji-022-t1-r116-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "七月壬午，太子發兵，殺游擊將軍說、使者江充。",
+            "table_cell_id": "shiji-022-t1-r116-c02",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "91",
+            "table_cell_id": "shiji-022-t1-r116-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "坐縱太子，下吏誅死",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "reference_event_quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "reference_year_quote": "91"
+        },
+        "rationale": "本篇田仁司直縱太子及任安受節獲罪之死，與漢書卷066征和二年同事皆要斬相配；另據年表征和二年太子發兵與編者對照前91年。換年為編輯判斷，不將前91年添入本文；暴氏行動及車千秋敘事異說各存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
+    {
+      "id": "le-shiji104-005",
+      "person_id": "6bn_yfc_lzi_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "司直下吏，誅死",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p015",
+          "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
+          "person_mention_id": "c-shiji-104-tianshu:m015-0104"
+        }
+      ],
+      "interpretation_note": "褚補田仁死亡，不能刪掉正文差異。 不以死亡自動終止全部官爵，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 91,
+        "year": -90,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-104",
+            "chapter_id": "c-shiji-104-tianshu",
+            "source_id": "s-shiji-104-tianshu",
+            "paragraph_id": "c-shiji-104-tianshu:p015",
+            "quote": "其後逢太子有兵事，丞相自將兵，使司直主城門。司直以為太子骨肉之親，父子之閒不甚欲近，去之諸陵過。是時武帝在甘泉，使御史大夫暴君下責丞相「何為縱太子」，丞相對言「使司直部守城門而開太子」。上書以聞，請捕系司直。司直下吏，誅死。",
+            "person_mention_id": "c-shiji-104-tianshu:m015-0104"
+          }
+        ],
+        "references": [
+          {
+            "title": "《漢書》卷066田仁任安死亡",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+            "quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+            "scope": "received_parallel_event",
+            "image_verified": false
+          },
+          {
+            "title": "《漢書》卷066劉屈氂傳本年紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+            "quote": "征和二年春",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "征和元年",
+            "table_cell_id": "shiji-022-t1-r115-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "二",
+            "table_cell_id": "shiji-022-t1-r116-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "七月壬午，太子發兵，殺游擊將軍說、使者江充。",
+            "table_cell_id": "shiji-022-t1-r116-c02",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》太子事件與紀年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "91",
+            "table_cell_id": "shiji-022-t1-r116-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "司直下吏，誅死",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=漢書/卷066&oldid=5979001",
+          "reference_event_quote": "及北軍使者任安，坐受太子節，懷二心，司直田仁縱太子，皆要斬。",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "reference_year_quote": "91"
+        },
+        "rationale": "本篇田仁司直縱太子及任安受節獲罪之死，與漢書卷066征和二年同事皆要斬相配；另據年表征和二年太子發兵與編者對照前91年。換年為編輯判斷，不將前91年添入本文；暴氏行動及車千秋敘事異說各存。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
