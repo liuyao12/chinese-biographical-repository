@@ -333,6 +333,15 @@
 
 </details>
 
+<details><summary><code>4yg_ete_09a</code> 柴武（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 柴武 | [《史記・韓信盧綰列傳》][75] | [JSON](4yg_ete_09a.json) |
+| `A` | 奇（柴武子） | [《史記・淮南衡山列傳》][100] | [JSON](4yg_ete_09a_A.json) |
+
+</details>
+
 <details><summary><code>505_n4y_p39</code> 秦開（匈奴列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

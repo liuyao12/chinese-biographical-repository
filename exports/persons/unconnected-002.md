@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
-| `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
 | `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][100] | [JSON](f5z_kgb_853.json) |
 | `f6b_bwf_4dq` | 救赫 | [《史記・淮南衡山列傳》][100] | [JSON](f6b_bwf_4dq.json) |
@@ -1588,7 +1586,6 @@
 | `qac_69v_ntg` | 龔遂 | [《史記・平津侯主父列傳》][94] | [JSON](qac_69v_ntg.json) |
 | `qah_j22_ega` | 趙武靈王 | [《史記・匈奴列傳》][92] | [JSON](qah_j22_ega.json) |
 | `qao_nbo_y9j` | 野（曹聲公） | [《史記・管蔡世家》][17] | [JSON](qao_nbo_y9j.json) |
-| `qbh_lsz_ipx` | 奇（棘蒲侯太子） | [《史記・淮南衡山列傳》][100] | [JSON](qbh_lsz_ipx.json) |
 | `qbx_d2g_tda` | 息 | [《史記・三王世家》][42] | [JSON](qbx_d2g_tda.json) |
 | `qce_nje_g73` | 豆如意 | [《史記・衛將軍驃騎列傳》][93] | [JSON](qce_nje_g73.json) |
 | `qco_jjb_gz1` | 懷（鄖公弟） | [《史記・楚世家》][22] | [JSON](qco_jjb_gz1.json) |
@@ -2126,7 +2123,6 @@
 | `tpo_l9x_3k6` | 雍渠 | [《史記・孔子世家》][29] | [JSON](tpo_l9x_3k6.json) |
 | `tpz_x3m_e0h` | 湯 | [《史記・殷本紀》][3] | [JSON](tpz_x3m_e0h.json) |
 | `tq0_t3t_6i1` | 趙莊 | [《史記・趙世家》][25] | [JSON](tq0_t3t_6i1.json) |
-| `tqe_7o9_t4k` | 柴武 | [《史記・袁盎鼂錯列傳》][83] | [JSON](tqe_7o9_t4k.json) |
 | `tr0_qvu_64e` | 少康 | [《史記・太史公自序》][112] | [JSON](tr0_qvu_64e.json) |
 | `tr1_c3f_b6q` | 橋牛 | [《史記・五帝本紀》][1] | [JSON](tr1_c3f_b6q.json) |
 | `tr4_ynu_z9k` | 左成 | [《史記・周本紀》][4] | [JSON](tr4_ynu_z9k.json) |
@@ -2238,6 +2234,10 @@
 | `ujc_hbe_sle` | 庸職 | [《史記・齊太公世家》][14] | [JSON](ujc_hbe_sle.json) |
 | `ujh_hyp_nxm` | 太史公署稱 | [《史記・吳王濞列傳》][88] | [JSON](ujh_hyp_nxm.json) |
 | `ujq_cg1_bc8` | 田巴 | [《史記・魏豹彭越列傳》][72] | [JSON](ujq_cg1_bc8.json) |
+| `uk3_s1y_7c7` | 呉回（楚篇祖系） | [《史記・楚世家》][22] | [JSON](uk3_s1y_7c7.json) |
+| `ukp_lkb_cb5` | 主父偃 | [《史記・孝景本紀》][11] | [JSON](ukp_lkb_cb5.json) |
+| `ula_wqu_naa` | 剛武侯（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](ula_wqu_naa.json) |
+| `ulf_21j_keo` | 李由 | [《史記・傅靳蒯成列傳》][80] | [JSON](ulf_21j_keo.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
