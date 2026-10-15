@@ -6,21 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][37] | [JSON](vw5_ynq_5fx.json) |
-| `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][21] | [JSON](vwi_95l_l6d.json) |
-| `vws_wz0_hsv` | 梅免 | [《史記・酷吏列傳》][105] | [JSON](vws_wz0_hsv.json) |
-| `vx2_svu_k0q` | 白起 | [《史記・趙世家》][26] | [JSON](vx2_svu_k0q.json) |
-| `vx6_rh0_1ao` | 修成君 | [《史記・酷吏列傳》][105] | [JSON](vx6_rh0_1ao.json) |
-| `vxj_epn_sti` | 陳司敗 | [《史記・仲尼弟子列傳》][50] | [JSON](vxj_epn_sti.json) |
-| `vxt_uj1_8ym` | 鄭昌 | [《史記・韓信盧綰列傳》][76] | [JSON](vxt_uj1_8ym.json) |
-| `vy3_65g_mwj` | 芮良夫 | [《史記・周本紀》][5] | [JSON](vy3_65g_mwj.json) |
-| `vyj_swb_or9` | 淮南相（七國反時） | [《史記・淮南衡山列傳》][101] | [JSON](vyj_swb_or9.json) |
-| `vz2_xlj_noq` | 堯引古 | [《史記・魯仲連鄒陽列傳》][66] | [JSON](vz2_xlj_noq.json) |
-| `vz8_68e_j99` | 孝文帝 | [《史記・儒林列傳》][104] | [JSON](vz8_68e_j99.json) |
-| `vzn_byk_trr` | 戎王 | [《史記・貨殖列傳》][112] | [JSON](vzn_byk_trr.json) |
-| `w02_19o_60l` | 淮南王書信未名 | [《史記・吳王濞列傳》][89] | [JSON](w02_19o_60l.json) |
-| `w05_x7q_foo` | 繆賢 | [《史記・廉頗藺相如列傳》][64] | [JSON](w05_x7q_foo.json) |
-| `w06_m3y_ctg` | 知伯 | [《史記・田敬仲完世家》][29] | [JSON](w06_m3y_ctg.json) |
 | `w0d_2f6_1ih` | 曼丘臣 | [《史記・韓信盧綰列傳》][76] | [JSON](w0d_2f6_1ih.json) |
 | `w0i_qc3_tpy` | 許負 | [《史記・絳侯周勃世家》][40] | [JSON](w0i_qc3_tpy.json) |
 | `w0m_43x_610` | 娵訾氏女 | [《史記・五帝本紀》][2] | [JSON](w0m_43x_610.json) |
@@ -98,7 +83,6 @@
 | `wka_94j_2k5` | 少姬 | [《史記・管晏列傳》][45] | [JSON](wka_94j_2k5.json) |
 | `wkl_tds_yi3` | 子路 | [《史記・儒林列傳》][104] | [JSON](wkl_tds_yi3.json) |
 | `wkq_pb7_afj` | 管 | [《史記・淮南衡山列傳》][101] | [JSON](wkq_pb7_afj.json) |
-| `wl3_jss_lix` | 奚齊 | [《史記・劉敬叔孫通列傳》][82] | [JSON](wl3_jss_lix.json) |
 | `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][41] | [JSON](wl6_i22_vjk.json) |
 | `wl7_s8c_f4l` | 晉定公 | [《史記・趙世家》][26] | [JSON](wl7_s8c_f4l.json) |
 | `wle_6pj_6oo` | 吳起被延公主 | [《史記・孫子吳起列傳》][48] | [JSON](wle_6pj_6oo.json) |
@@ -273,7 +257,6 @@
 | `xti_6br_ogl` | 契 | [《史記・太史公自序》][113] | [JSON](xti_6br_ogl.json) |
 | `xtl_sr1_di0` | 項悍 | [《漢書・樊酈滕灌傅靳周傳》][1]、[《史記・陳丞相世家》][39]、[《史記・傅靳蒯成列傳》][81] | [JSON](xtl_sr1_di0.json) |
 | `xtq_oi8_w82` | 比干 | [《史記・殷本紀》][4] | [JSON](xtq_oi8_w82.json) |
-| `xu3_wem_5h3` | 紂 | [《史記・劉敬叔孫通列傳》][82] | [JSON](xu3_wem_5h3.json) |
 | `xu5_0nl_f5z` | 盜跖引古 | [《史記・屈原賈生列傳》][67] | [JSON](xu5_0nl_f5z.json) |
 | `xu8_76t_ldg` | 卜偃（晉卜者） | [《史記・晉世家》][22] | [JSON](xu8_76t_ldg.json) |
 | `xuq_4z2_6go` | 殷中 | [《史記・酷吏列傳》][105] | [JSON](xuq_4z2_6go.json) |
@@ -640,7 +623,6 @@
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [80]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318
-[82]: https://zh.wikisource.org/w/index.php?title=史記/卷099&oldid=368013
 [83]: https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696
 [84]: https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092
 [85]: https://zh.wikisource.org/w/index.php?title=史記/卷102&oldid=1753957
