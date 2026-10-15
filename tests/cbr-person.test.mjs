@@ -208,3 +208,12 @@ test('name and place reading evidence is readable on the full profile and escape
  const html=personCard(p,true);assert.match(html,/名物辨讀/);assert.match(html,/縣名/);assert.match(html,/https:\/\/example.com\/source/);assert.match(html,/來源原文/);
  assert.doesNotMatch(html,/<script>|<img>|javascript:/);assert.doesNotMatch(personCard(p),/person-reading-evidence/);
 });
+
+
+test('unenacted proposals remain separate from held titles and only appear on the full profile', () => {
+ const p={id:'synthetic_proposed',label:'測試人物',title_proposals:[{title:'太子',outcome:'not_enacted',interpretation_note:'<script>提議未行</script>',evidence:[{chapter_id:'c-shiji-096-zhang',paragraph_id:'c-shiji-096-zhang:p005',quote:'<img>欲立而止'}]}]};
+ const html=personCard(p,true);assert.match(html,/擬議而未授的稱號/);assert.match(html,/未實行提議/);assert.match(html,/來源原文/);
+ assert.doesNotMatch(html,/<script>|<img>|class="person-title"/);
+ assert.doesNotMatch(personCard(p),/person-title-proposals/);
+ assert.doesNotMatch(personCard({id:'synthetic_none',label:'無提議'},true),/擬議而未授/);
+});

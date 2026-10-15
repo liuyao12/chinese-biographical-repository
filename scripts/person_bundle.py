@@ -83,6 +83,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
+    title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
     tree_decisions = [decision for record in records if record.get('record_type') == 'family_tree_decision_set'
@@ -172,6 +173,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'currently_annotated_mentions', 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'title_proposals': title_proposals} if title_proposals else {}),
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,

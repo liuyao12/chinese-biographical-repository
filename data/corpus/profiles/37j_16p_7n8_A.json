@@ -6,9 +6,56 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "窋"
+    "平陽侯窋",
+    "平陽侯",
+    "窋",
+    "曹窋"
   ],
   "titles": [
+    {
+      "id": "th-shiji009-019",
+      "person_id": "37j_16p_7n8_A",
+      "title": "御史大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p027",
+          "quote": "八月庚申旦，平陽侯窋行御史大夫事，見相國產計事。郎中令賈壽使從齊來，因數產曰：「王不蚤之國，今雖欲行，尚可得邪？」具以灌嬰與齊楚合從，欲誅諸呂告產，乃趣產急入宮。平陽侯頗聞其語，乃馳告丞相、太尉。太尉欲入北軍，不得入。襄平侯通尚符節。乃令持節矯內太尉北軍。太尉復令酈寄與典客劉揭先說呂祿曰：「帝使太尉守北軍，欲足下之國，急歸將印辭去，不然，禍且起。」呂祿以為酈兄不欺己，遂解印屬典客，而以兵授太尉。太尉將之入軍門，行令軍中曰：「為呂氏右袒，為劉氏左袒。」軍中皆左袒為劉氏。太尉行至，將軍呂祿亦已解上將印去，太尉遂將北軍。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji009-019:a001",
+          "paragraph_id": "c-shiji-009-lvhou:p027",
+          "start": 11,
+          "end": 15,
+          "surface": "御史大夫",
+          "person_mention_id": "c-shiji-009-lvhou:m027-0006",
+          "usage": "narrative",
+          "date_expression": "八月庚申"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "行御史大夫事為代行，保留原句，不當正式永久任命。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji054-049",
       "person_id": "37j_16p_7n8_A",
@@ -341,10 +388,110 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji096-030",
+      "person_id": "37j_16p_7n8_A",
+      "title": "平陽侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p010",
+          "quote": "任敖者，故沛獄吏。高祖嘗辟吏，吏系呂后，遇之不謹。任敖素善高祖，怒，擊傷主呂后吏。及高祖初起，敖以客從為御史，守豐二歲，高祖立為漢王，東擊項籍，敖遷為上黨守。陳豨反時，敖堅守，封為廣阿侯，食千八百戶。高后時為御史大夫。三歲免，以平陽侯曹窋為御史大夫。高后崩，（不）與大臣共誅呂祿等。免，以淮南相張蒼為御史大夫。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji096-030:a001",
+          "paragraph_id": "c-shiji-096-zhang:p010",
+          "start": 114,
+          "end": 117,
+          "surface": "平陽侯",
+          "person_mention_id": "c-shiji-096-zhang:m010-0117",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、轉任、用稱與諡稱分存；未明示時任期起訖未知。欲任竇廣國及欲令周苛將皆不作實授；死亡或首次用稱不自動作任期端點。十四年、四年、二年等先保留原語，不擅定年號或西曆。曹窋免職段含（不）異文，未先強定其終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji096-031",
+      "person_id": "37j_16p_7n8_A",
+      "title": "御史大夫",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p010",
+          "quote": "任敖者，故沛獄吏。高祖嘗辟吏，吏系呂后，遇之不謹。任敖素善高祖，怒，擊傷主呂后吏。及高祖初起，敖以客從為御史，守豐二歲，高祖立為漢王，東擊項籍，敖遷為上黨守。陳豨反時，敖堅守，封為廣阿侯，食千八百戶。高后時為御史大夫。三歲免，以平陽侯曹窋為御史大夫。高后崩，（不）與大臣共誅呂祿等。免，以淮南相張蒼為御史大夫。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji096-031:a001",
+          "paragraph_id": "c-shiji-096-zhang:p010",
+          "start": 120,
+          "end": 124,
+          "surface": "御史大夫",
+          "person_mention_id": "c-shiji-096-zhang:m010-0117",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-096-zhang",
+              "source_id": "s-shiji-096-zhang",
+              "paragraph_id": "c-shiji-096-zhang:p010",
+              "quote": "任敖者，故沛獄吏。高祖嘗辟吏，吏系呂后，遇之不謹。任敖素善高祖，怒，擊傷主呂后吏。及高祖初起，敖以客從為御史，守豐二歲，高祖立為漢王，東擊項籍，敖遷為上黨守。陳豨反時，敖堅守，封為廣阿侯，食千八百戶。高后時為御史大夫。三歲免，以平陽侯曹窋為御史大夫。高后崩，（不）與大臣共誅呂祿等。免，以淮南相張蒼為御史大夫。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、轉任、用稱與諡稱分存；未明示時任期起訖未知。欲任竇廣國及欲令周苛將皆不作實授；死亡或首次用稱不自動作任期端點。十四年、四年、二年等先保留原語，不擅定年號或西曆。曹窋免職段含（不）異文，未先強定其終點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 9,
+      "category": "benji",
+      "title": "呂后本紀第九",
+      "paragraph_id": "c-shiji-009-lvhou:p027",
+      "count": 5,
+      "quote": "八月庚申旦，平陽侯窋行御史大夫事，見相國產計事。郎中令賈壽使從齊來，因數產曰：「王不蚤之國，今雖欲行，尚可得邪？」具以灌嬰與齊楚合從，欲誅諸呂告產，乃趣產急入宮。平陽侯頗聞其語，乃馳告丞相、太尉。太尉欲入北軍，不得入。襄"
+    },
     {
       "number": 54,
       "category": "shijia",
@@ -352,10 +499,42 @@
       "paragraph_id": "c-shiji-054-cao:p015",
       "count": 8,
       "quote": "參子窋為中大夫。惠帝怪相國不治事，以為「豈少朕與」？乃謂窋曰：「若歸，試私從容問而父曰：『高帝新棄群臣，帝富於春秋，君為相，日飲，無所請事，何以憂天下乎？』然無言吾告若也。」窋既洗沐歸，窋侍，自從其所諫參。"
+    },
+    {
+      "number": 96,
+      "category": "liezhuan",
+      "title": "張丞相列傳第三十六",
+      "paragraph_id": "c-shiji-096-zhang:p010",
+      "count": 1,
+      "quote": "時，敖堅守，封為廣阿侯，食千八百戶。高后時為御史大夫。三歲免，以平陽侯曹窋為御史大夫。高后崩，（不）與大臣共誅呂祿等。免，以淮南相張蒼為御史大夫。"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-009-lvhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-009",
+      "source_id": "s-shiji-009-lvhou",
+      "source": {
+        "title": "史記／卷009",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷009",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷009&oldid=2087062",
+        "revision_id": 2087062,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇傳世正文32個p區塊，自「呂太后者」至太史公論贊；不含篇名導覽、跨站dd及另署索隱述贊的後出文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "正文均為p，排除前置跨站導覽dd、sup註號與末尾索隱述贊，保留原有校勘符號。",
+          "note": "固定版本HTML與實際所讀正文一致；未核紙本或影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-054-cao",
       "work_id": "w-shiji",
@@ -377,6 +556,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白。保留夷[1]、高祖（三）［二］年、齊故［俗］、田既／田溉、共侯及末段索隱標記。夷後[1]是數位注釋標號，不當古文；同版注釋稱此字作上尸下二，未核底本不改字。",
           "note": "全19段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-096-zhang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-096",
+      "source_id": "s-shiji-096-zhang",
+      "source": {
+        "title": "史記／卷096",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷096",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206",
+        "revision_id": 8770206,
+        "accessed_on": "2026-10-09",
+        "extent": "29段傳世文字含兩處太史公論，另附1段分層索隱述贊；首HTML區塊即正文，不刪頭2段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
+          "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
         }
       }
     }
