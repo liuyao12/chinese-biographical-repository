@@ -770,7 +770,6 @@
 | `5dc_2fb_2bu` | 楚使者 | [《史記・老子韓非列傳》][45] | [JSON](5dc_2fb_2bu.json) |
 | `5dg_lbc_hdn` | 太史公 | [《史記・張釋之馮唐列傳》][84] | [JSON](5dg_lbc_hdn.json) |
 | `5dh_xqg_em0` | 姜氏（晉穆侯夫人） | [《史記・晉世家》][21] | [JSON](5dh_xqg_em0.json) |
-| `5dl_6xj_187` | 魏王咎 | [《史記・田儋列傳》][76] | [JSON](5dl_6xj_187.json) |
 | `5do_703_rfz` | 王陵 | [《史記・陳丞相世家》][38] | [JSON](5do_703_rfz.json) |
 | `5do_gvs_t80` | 叔孫（迎昭公記事未名） | [《史記・魯周公世家》][15] | [JSON](5do_gvs_t80.json) |
 | `5dq_f5i_bkh` | 平陽侯 | [《史記・齊悼惠王世家》][34] | [JSON](5dq_f5i_bkh.json) |
@@ -1251,8 +1250,6 @@
 | `8ge_1zr_lz9` | 冉孺 | [《史記・仲尼弟子列傳》][49] | [JSON](8ge_1zr_lz9.json) |
 | `8gq_slb_ulu` | 瞽叟 | [《史記・五帝本紀》][1] | [JSON](8gq_slb_ulu.json) |
 | `8gy_kn0_9rf` | 長沮 | [《史記・孔子世家》][29] | [JSON](8gy_kn0_9rf.json) |
-| `8h7_82d_vjr` | 項梁 | [《史記・田儋列傳》][76] | [JSON](8h7_82d_vjr.json) |
-| `8ht_nw8_3lv` | 周市 | [《史記・田儋列傳》][76] | [JSON](8ht_nw8_3lv.json) |
 | `8hw_b9c_lvq` | 杜延年 | [《史記・平津侯主父列傳》][94] | [JSON](8hw_b9c_lvq.json) |
 | `8i3_5vf_iu9` | 韓王成 | [《史記・留侯世家》][37] | [JSON](8i3_5vf_iu9.json) |
 | `8i7_3dy_neb` | 斑師（衛君） | [《史記・衛康叔世家》][19] | [JSON](8i7_3dy_neb.json) |
@@ -1939,7 +1936,6 @@
 | `dfz_u6h_g3y` | 衛使（齊頃宴使未名） | [《史記・晉世家》][21] | [JSON](dfz_u6h_g3y.json) |
 | `dg5_xe0_sdd` | 智伯 | [《史記・匈奴列傳》][92] | [JSON](dg5_xe0_sdd.json) |
 | `dg7_r3z_0tk` | 孔子 | [《史記・外戚世家》][31] | [JSON](dg7_r3z_0tk.json) |
-| `dgh_7wa_4c5` | 田間 | [《史記・田儋列傳》][76] | [JSON](dgh_7wa_4c5.json) |
 | `dgz_tme_821` | 魯定公 | [《史記・孔子世家》][29] | [JSON](dgz_tme_821.json) |
 | `dgz_u0d_eu0` | 營陵（封號省稱） | [《史記・太史公自序》][112] | [JSON](dgz_u0d_eu0.json) |
 | `dgz_z4a_to4` | 被虜魏太子（趙世家未名者） | [《史記・趙世家》][25] | [JSON](dgz_z4a_to4.json) |
@@ -2229,6 +2225,10 @@
 | `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][100] | [JSON](f5z_kgb_853.json) |
 | `f6b_bwf_4dq` | 救赫 | [《史記・淮南衡山列傳》][100] | [JSON](f6b_bwf_4dq.json) |
 | `f6e_ib9_ktb` | 顏噲 | [《史記・仲尼弟子列傳》][49] | [JSON](f6e_ib9_ktb.json) |
+| `f6g_596_kog` | 章武侯 | [《史記・絳侯周勃世家》][39] | [JSON](f6g_596_kog.json) |
+| `f6m_8uv_uww` | 城陽王 | [《史記・淮南衡山列傳》][100] | [JSON](f6m_8uv_uww.json) |
+| `f79_cpn_758` | 公子悝 | [《史記・秦本紀》][5] | [JSON](f79_cpn_758.json) |
+| `f82_dk6_87k` | 晉頃公 | [《史記・伍子胥列傳》][48] | [JSON](f82_dk6_87k.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

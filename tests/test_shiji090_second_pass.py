@@ -22,7 +22,7 @@ class WeiPengIdentityTests(unittest.TestCase):
             q = row['qualifiers']
             self.assertEqual(q['discrepancy_group_id'], 'kin-shiji090-wei')
             order = q['relative_birth_order']
-            self.assertEqual(order['older_person_id'], 'okz_ham_pdc')
+            self.assertEqual(order['older_person_id'], 'kez_re1_kcr')
             self.assertEqual(order['younger_person_id'], '6ve_ik8_jv8')
             self.assertIsNone(order['older_ordinal'])
             self.assertIsNone(order['younger_ordinal'])

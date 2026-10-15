@@ -417,6 +417,48 @@
       "interpretation_note": "保存明示授予、改封及用稱；十年追述不補起年，死亡不自動作任期終點；索隱述贊與正文分層。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji094-001",
+      "person_id": "pom_ycp_ha5",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-094-tiandan",
+          "source_id": "s-shiji-094-tiandan",
+          "paragraph_id": "c-shiji-094-tiandan:p002",
+          "quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市軍還去，田儋因率兵東略定齊地。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji094-001:a001",
+          "paragraph_id": "c-shiji-094-tiandan:p002",
+          "start": 5,
+          "end": 6,
+          "surface": "王",
+          "person_mention_id": "c-shiji-094-tiandan:m002-0000",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實授、自立、用稱分存；擬封蒯通安期生及拒受、田橫來大者王小者侯均不作已授。王膠東保留原稱王，不造正文未見膠東王字串；死亡被虜亡走不自動終止爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -798,6 +840,14 @@
       "paragraph_id": "c-shiji-091-qingbu:p002",
       "count": 3,
       "quote": "陳勝之起也，布乃見番君，與其眾叛秦，聚兵數千人。番君以其女妻之。章邯之滅陳勝，破呂臣軍，布乃引兵北擊秦左右校，破之清波，引兵而東。聞項梁定江東會稽，涉江而西。陳嬰以項氏世為楚將，乃以兵屬項梁，渡淮南，英布"
+    },
+    {
+      "number": 94,
+      "category": "liezhuan",
+      "title": "田儋列傳第三十四",
+      "paragraph_id": "c-shiji-094-tiandan:p002",
+      "count": 1,
+      "quote": "陳涉之初起王楚也，使周市略定魏地，北至狄，狄城守。田儋詳為縛其奴，從少年之廷，欲謁殺奴。見狄令，因擊殺令，而召豪吏子弟曰：「諸侯皆反秦自立，齊，古之建國，儋，田氏，當王。」遂自立為齊王，發兵以擊周市。周市"
     }
   ],
   "table_occurrences": [],
@@ -996,6 +1046,32 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML一致，只去外緣空白；范曾、讬、迺及布（甚）大怒原字與括號保留。",
           "note": "全22個HTML區塊已讀並核篇界，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-094-tiandan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-094",
+      "source_id": "s-shiji-094-tiandan",
+      "source": {
+        "title": "史記／卷094",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷094",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷094&oldid=2171897",
+        "revision_id": 2171897,
+        "accessed_on": "2026-10-09",
+        "extent": "13段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "龁": "齕"
+          },
+          "editorial_readings": [],
+          "extraction_note": "只去外緣空白並明記龁轉齕；田間田閒、大田橫之客皆賢及博（陽）原字保留。",
+          "note": "全16個HTML區塊已讀；未核底本影像。"
         }
       }
     }

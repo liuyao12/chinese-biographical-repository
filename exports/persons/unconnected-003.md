@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `unz_bjb_cyp` | 奢（伍子胥提要） | [《史記・太史公自序》][112] | [JSON](unz_bjb_cyp.json) |
-| `uo0_7bg_poy` | 公子刻 | [《史記・趙世家》][25] | [JSON](uo0_7bg_poy.json) |
-| `uo2_h90_033` | 郎署長未名 | [《史記・袁盎鼂錯列傳》][83] | [JSON](uo2_h90_033.json) |
-| `uol_spz_cq8` | 女子豎 | [《史記・扁鵲倉公列傳》][87] | [JSON](uol_spz_cq8.json) |
-| `uon_qea_38x` | 里克 | [《史記・晉世家》][21] | [JSON](uon_qea_38x.json) |
-| `uos_ju4_dzr` | 御史大夫德 | [《史記・秦始皇本紀》][6] | [JSON](uos_ju4_dzr.json) |
-| `up1_nzr_gq1` | 衞青 | [《史記・酷吏列傳》][104] | [JSON](up1_nzr_gq1.json) |
 | `upc_vy1_fjk` | 東方朔 | [《史記・平津侯主父列傳》][94] | [JSON](upc_vy1_fjk.json) |
 | `upk_0j8_ffk` | 外黃徐子 | [《史記・魏世家》][26] | [JSON](upk_0j8_ffk.json) |
 | `upp_fxr_c4e` | 項橐 | [《史記・樗里子甘茂列傳》][53] | [JSON](upp_fxr_c4e.json) |
