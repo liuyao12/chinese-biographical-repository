@@ -790,6 +790,7 @@ def validate(root=ROOT):
                     if boundary['status']=='source_event':
                         expected.add('event_type')
                         if 'normalized_date' in boundary:expected.add('normalized_date')
+                        if 'normalized_date_range' in boundary:expected.add('normalized_date_range')
                     check(set(boundary)==expected,'稱號端點含未定義欄位，不能暗補正規化日期')
                     if boundary['status']=='unknown':
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
@@ -803,6 +804,13 @@ def validate(root=ROOT):
                         if 'normalized_date' in boundary:
                             check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
                             validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date)
+                        if 'normalized_date_range' in boundary:
+                            try:
+                                from scripts.date_ranges import year_range_errors
+                            except ModuleNotFoundError:
+                                from date_ranges import year_range_errors
+                            check('normalized_date' not in boundary, '稱號單年與範圍不可同時採用')
+                            errors.extend(year_range_errors(boundary['normalized_date_range'], boundary['evidence'], date))
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()

@@ -379,7 +379,59 @@
               "paragraph_id": "c-shiji-093-hanlu:p003",
               "quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "status": "editorial_provisional",
+            "original_quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-093-hanlu",
+                "source_id": "s-shiji-093-hanlu",
+                "paragraph_id": "c-shiji-093-hanlu:p003",
+                "quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記·漢興以來諸侯王年表》數位年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "202",
+                "table_cell_id": "shiji-017-t1-r005-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "五",
+                "table_cell_id": "shiji-017-t1-r005-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·曆書》正朔敘述",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷026&oldid=2637674",
+                "quote": "正以十月",
+                "scope": "received_calendar_rule",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·曆書》漢初沿秦正朔",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷026&oldid=2637674",
+                "quote": "故襲秦正朔服色",
+                "scope": "received_calendar_rule",
+                "image_verified": false
+              }
+            ],
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "era": "BCE",
+            "era_year": 202,
+            "year": -201,
+            "precision": "year",
+            "rationale": "本段明示漢五年春或八月，已在年表公元前202年對照年內；不是以段首年份套所有後續事件，不補月日，數位年欄不是傳世正文。"
+          }
         },
         "end": {
           "status": "unknown",
@@ -389,7 +441,7 @@
       },
       "interpretation_note": "按實授、自立與用稱保存；許韓王在先不作已授。明示相對年月保持原文，死亡、降漢、失侯之後裔敘事不替本人任期補終點。虜綰原字保留，以本段盧綰主語承接授爵，未核底本影像。",
       "reviewer": "Codex（AI 代理）",
-      "period": "五年春 → 未定"
+      "period": "西元前202年（暫定） → 未定"
     },
     {
       "id": "th-shiji099-006",
@@ -693,6 +745,62 @@
         "status": "contextual_provisional",
         "interpretation_note": "本格在代欄，西元前205年初立，依《高祖本紀》所述立韓王信對應韓王信；與齊欄的淮陰韓信分開。"
       }
+    },
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t3-r024-c01",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "以匈奴相國降，故韓王信孽子，侯，千二百三十七戶。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t3-r024-c01-review-000",
+        "start": 8,
+        "end": 11,
+        "surface": "韓王信",
+        "person_id": "l9e_fbr_36a_*A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格韓王信子、太子之子父系及本傳同一降漢授侯敘述辨識，太子不作長子，來源原稱保留。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-093",
+            "chapter_id": "c-shiji-093-hanlu",
+            "paragraph_id": "c-shiji-093-hanlu:p001",
+            "source_id": "s-shiji-093-hanlu",
+            "source_revision": 368019,
+            "person_id": "l9e_fbr_36a_*A",
+            "quote": "韓王信者，故韓襄王孽孫也，長八尺五寸。及項梁之立楚後懷王也，燕、齊、趙、魏皆已前王，唯韓無有後，故立韓諸公子橫陽君成為韓王，欲以撫定韓故地。項梁敗死定陶，成奔懷王。沛公引兵擊陽城，使張良以韓司徒降下韓故地，得信，以為韓將，將其兵從沛公入武關。"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t3-r025-c01",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "以匈奴相國降侯，故韓王信太子之子，侯千亖百三十二戶。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t3-r025-c01-review-000",
+        "start": 9,
+        "end": 12,
+        "surface": "韓王信",
+        "person_id": "l9e_fbr_36a_*A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本格韓王信子、太子之子父系及本傳同一降漢授侯敘述辨識，太子不作長子，來源原稱保留。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-093",
+            "chapter_id": "c-shiji-093-hanlu",
+            "paragraph_id": "c-shiji-093-hanlu:p001",
+            "source_id": "s-shiji-093-hanlu",
+            "source_revision": 368019,
+            "person_id": "l9e_fbr_36a_*A",
+            "quote": "韓王信者，故韓襄王孽孫也，長八尺五寸。及項梁之立楚後懷王也，燕、齊、趙、魏皆已前王，唯韓無有後，故立韓諸公子橫陽君成為韓王，欲以撫定韓故地。項梁敗死定陶，成奔懷王。沛公引兵擊陽城，使張良以韓司徒降下韓故地，得信，以為韓將，將其兵從沛公入武關。"
+          }
+        ]
+      }
     }
   ],
   "sources": [
@@ -912,7 +1020,7 @@
     "l9e_fbr_36a": "倉（韓世家襄王候選）",
     "l9e_fbr_36a_*A": "韓王信（韓太尉）",
     "l9e_fbr_36a_*AA": "韓王信太子未名（韓信盧綰列傳候選）",
-    "l9e_fbr_36a_*AB": "韓穨當（韓信盧綰列傳候選）",
+    "l9e_fbr_36a_*AB": "韓穨當",
     "ofc_8ei_jb7": "韓信"
   },
   "dates": [
@@ -958,6 +1066,62 @@
       "person_id": "l9e_fbr_36a_*A",
       "date_role": "life_event",
       "event_type": "death"
+    },
+    {
+      "year_numbering": "astronomical",
+      "status": "editorial_provisional",
+      "original_quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p003",
+          "quote": "項籍之封諸王皆就國，韓王成以不從無功，不遣就國，更以為列侯。及聞漢遣韓信略韓地，乃令故項籍游吳時吳令鄭昌為韓王以距漢。漢二年，韓信略定韓十餘城。漢王至河南，韓信急擊韓王昌陽城。昌降，漢王乃立韓信為韓王，常將韓兵從。三年，漢王出滎陽，韓王信、周苛等守滎陽。及楚敗滎陽，信降楚，已而得亡，復歸漢，漢復立以為韓王，竟從擊破項籍，天下定。五年春，遂與剖符為韓王，王潁川。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·漢興以來諸侯王年表》數位年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "202",
+          "table_cell_id": "shiji-017-t1-r005-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》原紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "五",
+          "table_cell_id": "shiji-017-t1-r005-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·曆書》正朔敘述",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷026&oldid=2637674",
+          "quote": "正以十月",
+          "scope": "received_calendar_rule",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·曆書》漢初沿秦正朔",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷026&oldid=2637674",
+          "quote": "故襲秦正朔服色",
+          "scope": "received_calendar_rule",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "era": "BCE",
+      "era_year": 202,
+      "year": -201,
+      "precision": "year",
+      "rationale": "本段明示漢五年春或八月，已在年表公元前202年對照年內；不是以段首年份套所有後續事件，不補月日，數位年欄不是傳世正文。",
+      "record_id": "th-shiji093-008",
+      "person_id": "l9e_fbr_36a_*A",
+      "endpoint": "start",
+      "title": "韓王"
     }
   ],
   "name_components": [],
