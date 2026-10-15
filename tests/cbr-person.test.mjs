@@ -147,3 +147,18 @@ test('same title with different territories keeps separate source assertions', (
  assert.equal((html.match(/class="person-title"/g)||[]).length,2);
  assert.match(html,/所王地：膠東/);assert.match(html,/所王地：齊/);
 });
+
+test('full lifespan date evidence displays parallel sources and escapes external material', () => {
+ const p={id:'abc_def_123',label:'synthetic person',dates:[{era:'BCE',era_year:205,original_quote:'received passage',evidence:[],rationale:'comparison <script>',references:[{quote:'calendar month',title:'checked table',url:'https://example.com/table'},{quote:'<script>',title:'unresolved note',url:'javascript:alert(1)'}]}]};
+ const html=personCard(p,true);
+ assert.match(html,/person-date-references/);assert.match(html,/紀年依據/);
+ assert.match(html,/calendar month/);assert.match(html,/href="https:\/\/example.com\/table"/);
+ assert.match(html,/comparison &lt;script&gt;/);assert.match(html,/unresolved note/);
+ assert.doesNotMatch(html,/href="javascript:/);assert.doesNotMatch(html,/<script>/);
+ assert.doesNotMatch(personCard(p),/person-date-references|calendar month/);
+});
+
+test('lifespan date without parallel references omits the empty evidence field', () => {
+ const p={id:'abc_def_123',label:'synthetic person',dates:[{era:'BCE',era_year:205,original_quote:'received passage',evidence:[]}]};
+ assert.doesNotMatch(personCard(p,true),/person-date-references|紀年依據/);
+});
