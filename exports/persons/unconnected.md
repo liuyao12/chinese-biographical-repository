@@ -541,7 +541,6 @@
 | `3w5_zp1_0g6` | 高武侯鰓 | [《史記・高祖本紀》][9] | [JSON](3w5_zp1_0g6.json) |
 | `3wu_5e9_3sk` | 蔡女（田世家厲公母未名者） | [《史記・田敬仲完世家》][29] | [JSON](3wu_5e9_3sk.json) |
 | `3x2_x5v_51q` | 公賓 | [《史記・孔子世家》][30] | [JSON](3x2_x5v_51q.json) |
-| `3xa_jvi_o6n` | 趙禹 | [《史記・田叔列傳》][87] | [JSON](3xa_jvi_o6n.json) |
 | `3xj_ut0_ope` | 田豹 | [《史記・田敬仲完世家》][29] | [JSON](3xj_ut0_ope.json) |
 | `3yj_8tp_4mp` | 伊尹 | [《史記・老子韓非列傳》][46] | [JSON](3yj_8tp_4mp.json) |
 | `3yj_sj9_zlz` | 東武侯母（未名） | [《史記・滑稽列傳》][109] | [JSON](3yj_sj9_zlz.json) |
@@ -864,7 +863,6 @@
 | `6af_e19_epo` | 御史光 | [《史記・三王世家》][43] | [JSON](6af_e19_epo.json) |
 | `6au_wbx_fu3` | 韓昭侯 | [《史記・留侯世家》][38] | [JSON](6au_wbx_fu3.json) |
 | `6aw_ppq_4x9` | 曹卹 | [《史記・仲尼弟子列傳》][50] | [JSON](6aw_ppq_4x9.json) |
-| `6bp_mr9_l3w` | 平陽主 | [《史記・田叔列傳》][87] | [JSON](6bp_mr9_l3w.json) |
 | `6bt_r2x_97d` | 楚王（魏世家徙陳未名者） | [《史記・魏世家》][27] | [JSON](6bt_r2x_97d.json) |
 | `6c5_di7_e68` | 孝惠帝 | [《史記・絳侯周勃世家》][40] | [JSON](6c5_di7_e68.json) |
 | `6c6_lvq_rd4` | 大任 | [《史記・外戚世家》][32] | [JSON](6c6_lvq_rd4.json) |
@@ -2208,6 +2206,8 @@
 | `fzo_jum_4s1` | 翟公 | [《史記・汲鄭列傳》][103] | [JSON](fzo_jum_4s1.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][94] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][25] | [JSON](g0f_lnq_gkm.json) |
+| `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][104] | [JSON](g0i_iwm_ld0.json) |
+| `g0j_yhl_z02` | 淮南王（趙兼甥） | [《史記・酷吏列傳》][105] | [JSON](g0j_yhl_z02.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

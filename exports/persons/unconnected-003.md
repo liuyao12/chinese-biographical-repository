@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w8i_dhi_044` | 御史大夫杜 | [《史記・田叔列傳》][87] | [JSON](w8i_dhi_044.json) |
-| `w8q_z9a_0zz` | 陳子禽 | [《史記・仲尼弟子列傳》][50] | [JSON](w8q_z9a_0zz.json) |
-| `w95_we2_wu2` | 仇景 | [《史記・游俠列傳》][107] | [JSON](w95_we2_wu2.json) |
-| `w9b_n1i_kar` | 安王 | [《史記・周本紀》][5] | [JSON](w9b_n1i_kar.json) |
 | `w9t_rdt_ue0` | 舜生母 | [《史記・五帝本紀》][2] | [JSON](w9t_rdt_ue0.json) |
 | `w9v_z3u_iuh` | 魚翁叔 | [《史記・酷吏列傳》][105] | [JSON](w9v_z3u_iuh.json) |
 | `w9y_fgt_kmy` | 卓氏先人妻（未名） | [《史記・貨殖列傳》][112] | [JSON](w9y_fgt_kmy.json) |
