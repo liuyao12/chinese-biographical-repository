@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `utw_e38_exq` | 趙兼 | [《史記・淮南衡山列傳》][100] | [JSON](utw_e38_exq.json) |
-| `utx_gsk_11a` | 懷（項羽本紀提要） | [《史記・太史公自序》][112] | [JSON](utx_gsk_11a.json) |
-| `uvb_oh6_dx1` | 平津侯 | [《史記・三王世家》][42] | [JSON](uvb_oh6_dx1.json) |
-| `uvj_ezk_crm` | 武臣姊未名 | [《史記・張耳陳餘列傳》][71] | [JSON](uvj_ezk_crm.json) |
-| `uw3_qbv_8o0` | 義渠君 | [《史記・張儀列傳》][52] | [JSON](uw3_qbv_8o0.json) |
-| `uw6_a0a_tjp` | 范增 | [《史記・項羽本紀》][7] | [JSON](uw6_a0a_tjp.json) |
 | `uw8_ozw_5ux` | 齊太史少弟（復書獲免未名） | [《史記・齊太公世家》][14] | [JSON](uw8_ozw_5ux.json) |
 | `uwb_l4e_1vn` | 武王 | [《史記・蘇秦列傳》][51] | [JSON](uwb_l4e_1vn.json) |
 | `ux0_nvd_s8f` | 韓太子奐 | [《史記・秦本紀》][5] | [JSON](ux0_nvd_s8f.json) |
@@ -26,7 +20,6 @@
 | `uy6_2ye_ba8` | 梁嬰父 | [《史記・趙世家》][25] | [JSON](uy6_2ye_ba8.json) |
 | `uy7_vln_q60` | 曾參 | [《史記・蘇秦列傳》][51] | [JSON](uy7_vln_q60.json) |
 | `uya_dno_ycg` | 威公（西周） | [《史記・周本紀》][4] | [JSON](uya_dno_ycg.json) |
-| `uyb_9er_yx7` | 平原君未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](uyb_9er_yx7.json) |
 | `uyh_nd0_h9q` | 樂閒 | [《史記・趙世家》][25] | [JSON](uyh_nd0_h9q.json) |
 | `uz9_8ps_vl5` | 鮑子 | [《史記・齊太公世家》][14] | [JSON](uz9_8ps_vl5.json) |
 | `uzb_sfw_uqg` | 竇嬰 | [《史記・梁孝王世家》][40] | [JSON](uzb_sfw_uqg.json) |
@@ -507,7 +500,6 @@
 | `yb7_low_xpl` | 黥布 | [《史記・太史公自序》][112] | [JSON](yb7_low_xpl.json) |
 | `ybb_2c4_8nx` | 公子知趙陰事客未名 | [《史記・魏公子列傳》][59] | [JSON](ybb_2c4_8nx.json) |
 | `ybr_02v_5ux` | 趙王田獵未名 | [《史記・魏公子列傳》][59] | [JSON](ybr_02v_5ux.json) |
-| `ybw_usv_89e` | 齊哀王未詳名 | [《史記・樊酈滕灌列傳》][77] | [JSON](ybw_usv_89e.json) |
 | `ybw_y4h_z69` | 趙俊 | [《史記・趙世家》][25] | [JSON](ybw_y4h_z69.json) |
 | `ycg_exd_6oe` | 秦王（魏世家荊軻刺殺所指未名者） | [《史記・魏世家》][26] | [JSON](ycg_exd_6oe.json) |
 | `ycl_yor_v0t` | 內史保 | [《史記・曹相國世家》][36] | [JSON](ycl_yor_v0t.json) |
@@ -800,7 +792,6 @@
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
 [70]: https://zh.wikisource.org/w/index.php?title=史記/卷088&oldid=1965690
-[71]: https://zh.wikisource.org/w/index.php?title=史記/卷089&oldid=8744143
 [72]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
 [74]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147

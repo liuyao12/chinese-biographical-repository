@@ -49,3 +49,39 @@ class FanLiCourtIdentityTests(unittest.TestCase):
             self.assertNotIn(pid,people)
             self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
+
+class FanLiScopedRoyalIdentityTests(unittest.TestCase):
+    paragraph=FanLiCourtIdentityTests.paragraph
+    ids=FanLiCourtIdentityTests.ids
+    def test_royal_names_follow_the_event_epoch(self):
+        self.assertEqual(self.ids(self.paragraph('095',15),'王'),{'yqp_nlb_p1p_AEA'})
+        self.assertEqual(self.ids(self.paragraph('095',21),'東牟侯'),{'yqp_nlb_p1p_ABC'})
+        self.assertEqual(self.ids(self.paragraph('095',33),'濟北王'),{'yqp_nlb_p1p_ABC'})
+        self.assertEqual(self.ids(self.paragraph('095',21),'少帝'),{'zht_ze7_m2d'})
+        self.assertEqual(self.ids(self.paragraph('052',36),'少帝'),{'zht_ze7_m2d'})
+        self.assertEqual(self.ids(self.paragraph('095',32),'齊王'),{'yqp_nlb_p1p_ABA'})
+        self.assertEqual(self.ids(self.paragraph('095',32),'呂祿'),{'561_608_i0z'})
+
+    def test_pingyuan_is_zanger_with_commentarial_identification(self):
+        self.assertEqual(self.ids(self.paragraph('095',15),'平原君'),{'6ks_x4x_dbf_*A'})
+        ds=json.loads((ROOT/'corpus/shiji/095-equivalences.json').read_text())['decisions']
+        d=next(x for x in ds if x['id']=='eq-shiji095-royal-pingyuan-zanger')
+        self.assertEqual(d['references'][0]['quote'],'景帝王皇后母臧兒也。')
+        self.assertFalse(d['references'][0]['image_verified'])
+        self.assertIn('不據此把授號時間提前',d['rationale'])
+
+    def test_person_boundaries_exclude_verbs_and_split_grandson(self):
+        p=self.paragraph('095',15);m=next(m for m in p['mentions'] if m['id'].endswith('m015-0050'))
+        self.assertEqual((m['surface'],m['start'],m['end']),('王',50,51))
+        p=self.paragraph('095',21);m=next(m for m in p['mentions'] if m['id'].endswith('m021-0152'))
+        self.assertEqual((m['surface'],m['start'],m['end']),('賜',152,153))
+        p=self.paragraph('095',33)
+        self.assertEqual(self.ids(p,'灌嬰'),{'sj9_pfu_fwh'})
+        self.assertEqual(self.ids(p,'賢'),{'sj9_pfu_fwh_*A'})
+        self.assertFalse(any(m['start']<=120<m['end'] for m in p['mentions']))
+        person=json.loads((ROOT/'exports/persons/sj9_pfu_fwh_*A.json').read_text())
+        self.assertNotIn('灌嬰孫賢',[a['surface'] for a in next(x for x in person['persons'] if x['id']=='sj9_pfu_fwh_*A')['aliases']])
+        r=json.loads((ROOT/'registry/persons.json').read_text())['persons']
+        x=next(x for x in r if x['id']=='sj9_pfu_fwh_*A')
+        self.assertEqual(x['family_path']['generation_distance'],2)
+        self.assertIsNone(x['family_path']['parent_person_id'])

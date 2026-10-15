@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL} from '../assets/cbr-person.js';
+import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards} from '../assets/cbr-person.js';
 test('年表錨點保留原文並連至人物頁，拒絕錯位或交疊',()=>{
  const c={text:'張儀相。',person_mentions:[{start:0,end:2,surface:'張儀',person_id:'abc_def_123'}]};
  const html=markCell(c); assert.match(html,/張儀<\/a>相。/);assert.match(html,/person.html#abc_def_123/);
@@ -161,4 +161,26 @@ test('full lifespan date evidence displays parallel sources and escapes external
 test('lifespan date without parallel references omits the empty evidence field', () => {
  const p={id:'abc_def_123',label:'synthetic person',dates:[{era:'BCE',era_year:205,original_quote:'received passage',evidence:[]}]};
  assert.doesNotMatch(personCard(p,true),/person-date-references|紀年依據/);
+});
+
+
+test('touch opens a card after the tap, while mouse hover and keyboard focus still open it', () => {
+  const savedDocument=globalThis.document, savedFetch=globalThis.fetch;
+  const events=new Map(), card={hidden:true,setAttribute(){},remove(){}}, root={append(){},addEventListener(k,v){events.set(k,v);},removeEventListener(){}};
+  let keyboard=false, prevented=false, stopped=false;
+  const node={dataset:{personId:'synthetic_touch_case'},href:'person.html#synthetic_touch_case',matches:()=>keyboard};
+  const target={closest:()=>node};
+  globalThis.document={createElement:()=>card};globalThis.fetch=()=>new Promise(()=>{});
+  let dispose;
+  try {
+    dispose=bindPersonCards(root);
+    events.get('pointerover')({type:'pointerover',pointerType:'touch',target});assert.equal(card.hidden,true);
+    events.get('focusin')({type:'focusin',target});assert.equal(card.hidden,true);
+    events.get('click')({target,preventDefault(){prevented=true;},stopPropagation(){stopped=true;}});
+    assert.equal(card.hidden,false);assert.ok(prevented && stopped);
+    events.get('keydown')({key:'Escape'});assert.equal(card.hidden,true);
+    keyboard=true;events.get('focusin')({type:'focusin',target});assert.equal(card.hidden,false);
+    events.get('keydown')({key:'Escape'});
+    events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,false);
+  } finally {dispose?.();globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
 });
