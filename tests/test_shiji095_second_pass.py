@@ -85,3 +85,48 @@ class FanLiScopedRoyalIdentityTests(unittest.TestCase):
         x=next(x for x in r if x['id']=='sj9_pfu_fwh_*A')
         self.assertEqual(x['family_path']['generation_distance'],2)
         self.assertIsNone(x['family_path']['parent_person_id'])
+
+class FanLiMilitaryIdentityTests(unittest.TestCase):
+    paragraph=FanLiCourtIdentityTests.paragraph
+    ids=FanLiCourtIdentityTests.ids
+
+    def test_shared_campaigns_link_commanders_across_biographies(self):
+        expected={'司馬夷':'m8o_g61_go9','章邯':'4jv_qte_5p4','李由':'49g_7az_e4i_A','趙賁':'bwv_p3h_q1j','楊熊':'v4m_7yp_xr3','章平':'fs1_3m9_rj3','齮':'4oq_2zh_bd2','王武':'qxu_jqe_evi','程處':'k9m_d4o_f34'}
+        pids={}
+        for i in (2,5,17,22,24):
+            for m in self.paragraph('095',i)['mentions']:
+                if m['surface'] in expected:pids.setdefault(m['surface'],set()).add(m['person_id'])
+        self.assertEqual(pids,{k:{v} for k,v in expected.items()})
+        self.assertEqual(self.ids(self.paragraph('054',3),'趙賁'),{'bwv_p3h_q1j'})
+        self.assertEqual(self.ids(self.paragraph('057',3),'章平'),{'fs1_3m9_rj3'})
+        self.assertEqual(self.ids(self.paragraph('098',6),'王武'),{'qxu_jqe_evi'})
+
+    def test_liyou_keeps_lisi_father_branch_and_hanshu_reference(self):
+        r=json.loads((ROOT/'registry/persons.json').read_text())['persons']
+        p=next(x for x in r if x['id']=='49g_7az_e4i_A')
+        self.assertEqual(p['family_path']['parent_person_id'],'49g_7az_e4i')
+        self.assertEqual(self.ids(self.paragraph('007',7),'李由'),{'49g_7az_e4i_A'})
+        self.assertEqual(self.ids(self.paragraph('048',5),'李由'),{'49g_7az_e4i_A'})
+        ds=json.loads((ROOT/'corpus/shiji/095-equivalences.json').read_text())['decisions']
+        d=next(x for x in ds if x['id']=='eq-shiji095-military-liyou')
+        self.assertIn('斬三川守李由',d['references'][0]['quote'])
+        self.assertIn('oldid=2647884',d['references'][0]['url'])
+
+    def test_zhangping_commentarial_son_does_not_override_received_brother(self):
+        rows=json.loads((ROOT/'corpus/shiji/008-assertions.json').read_text())['assertions']
+        a=next(a for a in rows if a['id']=='a-shiji008-008')
+        self.assertEqual((a['subject_person_id'],a['predicate'],a['object_person_id']),('fs1_3m9_rj3','brother','4jv_qte_5p4'))
+        ds=json.loads((ROOT/'corpus/shiji/095-equivalences.json').read_text())['decisions']
+        d=next(x for x in ds if x['id']=='eq-shiji095-military-zhangping')
+        self.assertEqual(d['references'][0]['quote'],'章平即章邯子也。')
+        self.assertFalse(d['references'][0]['image_verified'])
+        self.assertIn('欲自剄',self.paragraph('008',20)['text'])
+
+    def test_retired_military_candidates_are_removed_after_migration(self):
+        ds=json.loads((ROOT/'corpus/shiji/095-equivalences.json').read_text())['decisions']
+        military=[d for d in ds if d['id'].startswith('eq-shiji095-military-')]
+        self.assertEqual(len(military),9)
+        people={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ['423_9wn_ew3','7st_a3s_dis','ekn_61g_qaz','lwx_fc0_0ce','452_xfy_50i','5ij_409_sfj','vnb_l2e_06w','3vk_jr4_vnd','6sl_m8t_cxz','92t_lra_3r9']:
+            self.assertNotIn(pid,people)
+            self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
