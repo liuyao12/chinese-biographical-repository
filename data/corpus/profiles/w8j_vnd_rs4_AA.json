@@ -248,7 +248,31 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji098-003",
+      "person_id": "w8j_vnd_rs4_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十二年",
+      "source_term": "十二年卒",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p004",
+          "quote": "孝惠五年卒，謚為景侯。子頃侯精立，二十四年卒。子共侯則立，十二年卒。子侯偃立，三十一年，坐與淮南王謀反，死，國除。",
+          "person_mention_id": "c-shiji-098-fujin:m004-0026"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "來源相對年數保留；未核定絕對紀年，不以繼侯或國除年當卒年。"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

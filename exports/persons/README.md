@@ -2720,13 +2720,12 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（121 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（120 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 太公（漢王父稱） | [《史記・高祖本紀》][9] | [JSON](yqp_nlb_p1p.json) |
 | `A` | 高祖 | [《史記・高祖本紀》][9] | [JSON](yqp_nlb_p1p_A.json) |
-| `A*A` | 淮南王安 | [《史記・魏其武安侯列傳》][90] | [JSON](yqp_nlb_p1p_A%2AA.json) |
 | `AA` | 孝惠（本卷稱呼） | [《史記・呂太后本紀》][10] | [JSON](yqp_nlb_p1p_AA.json) |
 | `AB` | 劉肥 | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_AB.json) |
 | `ABA` | 齊哀王（本卷未名） | [《史記・齊悼惠王世家》][35] | [JSON](yqp_nlb_p1p_ABA.json) |
@@ -2815,7 +2814,7 @@
 | `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][11]、[《史記・楚元王世家》][33] | [JSON](yqp_nlb_p1p_AEB.json) |
 | `AEBA` | 福 | [《史記・楚元王世家》][33] | [JSON](yqp_nlb_p1p_AEBA.json) |
 | `AF` | 長（高祖子） | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AF.json) |
-| `AFA` | 安（劉長子） | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AFA.json) |
+| `AFA` | 淮南王安 | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AFA.json) |
 | `AFAA` | 陵（淮南王女） | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AFAA.json) |
 | `AFAB` | 不害 | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AFAB.json) |
 | `AFABA` | 建（不害子） | [《史記・淮南衡山列傳》][101] | [JSON](yqp_nlb_p1p_AFABA.json) |

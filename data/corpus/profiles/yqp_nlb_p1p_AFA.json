@@ -2,19 +2,103 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_AFA",
   "canonical_person_id": "yqp_nlb_p1p_AFA",
-  "label": "安（劉長子）（淮南衡山列傳候選）",
-  "identity_note": null,
+  "label": "淮南王安",
+  "identity_note": "傅偃案及魏其篇武安侯霸上迎王、厚遺金財物與淮南衡山篇互見，採劉長子安同人；父子、祖孫各依原主張，未核書影。",
   "review": "ai_provisional",
   "names": [
+    "淮南王",
+    "淮南王安",
     "子安",
     "阜陵侯安",
-    "淮南王",
     "大王",
-    "淮南王安",
     "王",
     "王安"
   ],
   "titles": [
+    {
+      "id": "th-shiji098-023",
+      "person_id": "yqp_nlb_p1p_AFA",
+      "title": "淮南王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p004",
+          "quote": "孝惠五年卒，謚為景侯。子頃侯精立，二十四年卒。子共侯則立，十二年卒。子侯偃立，三十一年，坐與淮南王謀反，死，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji098-023:a001",
+          "paragraph_id": "c-shiji-098-fujin:p004",
+          "start": 46,
+          "end": 49,
+          "surface": "淮南王",
+          "person_mention_id": "c-shiji-098-fujin:m004-0046",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "逐傳區分持有人；用稱與授予分存。五歲、一月、二歲等紀年保持原語待換算，死亡不自動作任期終點，字母不作長幼排行。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji107-042",
+      "person_id": "yqp_nlb_p1p_AFA",
+      "title": "淮南王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p026",
+          "quote": "淮南王安謀反覺，治。王前朝，武安侯為太尉，時迎王至霸上，謂王曰：「上未有太子，大王最賢，高祖孫，即宮車晏駕，非大王立當誰哉！」淮南王大喜，厚遺金財物。上自魏其時不直武安，特為太后故耳。及聞淮南王金事，上曰：「使武安侯在者，族矣。」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji107-042:a001",
+          "paragraph_id": "c-shiji-107-weiqi:p026",
+          "start": 0,
+          "end": 3,
+          "surface": "淮南王",
+          "person_mention_id": "c-shiji-107-weiqi:m026-0000",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "按本段明示用稱記錄，不從任他官、案件、敘事位置或死亡補造爵位授任與終止。潁陰侯嬰及灌何為不同候選，分別記用稱。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji118-019",
       "person_id": "yqp_nlb_p1p_AFA",
@@ -179,6 +263,22 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 98,
+      "category": "liezhuan",
+      "title": "傅靳蒯成列傳第三十八",
+      "paragraph_id": "c-shiji-098-fujin:p004",
+      "count": 1,
+      "quote": "子頃侯精立，二十四年卒。子共侯則立，十二年卒。子侯偃立，三十一年，坐與淮南王謀反，死，國除。"
+    },
+    {
+      "number": 107,
+      "category": "liezhuan",
+      "title": "魏其武安列傳第四十七",
+      "paragraph_id": "c-shiji-107-weiqi:p019",
+      "count": 4,
+      "quote": "，民苦之。請案。上曰：「此丞相事，何請。」灌夫亦持丞相陰事，為奸利，受淮南王金與語言。賓客居間，遂止，俱解。"
+    },
+    {
       "number": 118,
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
@@ -189,6 +289,84 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-098-fujin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-098",
+      "source_id": "s-shiji-098-fujin",
+      "source": {
+        "title": "史記／卷098",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷098",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318",
+        "revision_id": 1490318,
+        "accessed_on": "2026-10-10",
+        "extent": "13段傳世正文含太史公論；排除導覽及空白，無索隱附贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "横": "橫",
+            "户": "戶",
+            "别": "別",
+            "内": "內",
+            "郸": "鄲",
+            "仓": "倉",
+            "荥": "滎",
+            "鲁": "魯",
+            "缯": "繒",
+            "蕲": "蘄",
+            "韩": "韓",
+            "肃": "肅",
+            "夺": "奪",
+            "贞": "貞",
+            "伤": "傷",
+            "谓": "謂",
+            "笃": "篤"
+          },
+          "editorial_readings": [],
+          "digital_footnotes": [
+            {
+              "marker": "1",
+              "paragraph_number": 4,
+              "note": "數位編者稱武英殿二十四史本作二十一年；尚未核該底本，不作已驗證異文。"
+            },
+            {
+              "marker": "2",
+              "paragraph_number": 4,
+              "note": "數位編者依卒年、國除年及前代在位數推算三十一年；只作編者意見，不逕採其校勘與西曆換算。"
+            }
+          ],
+          "extraction_note": "去外緣空白及兩處HTML引用標記；逐字繁體轉換明記，保留緤、歙、饟及度平陰。",
+          "note": "全15個HTML區塊已核讀；數位編者意見分存，不改正文三十一年，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-107-weiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "source_id": "s-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-118-huainan",
       "work_id": "w-shiji",
@@ -215,6 +393,27 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-shiji107-015",
+      "subject_person_id": "yqp_nlb_p1p_AFA",
+      "predicate": "grandfather",
+      "object_person_id": "yqp_nlb_p1p_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p026",
+          "quote": "淮南王安謀反覺，治。王前朝，武安侯為太尉，時迎王至霸上，謂王曰：「上未有太子，大王最賢，高祖孫，即宮車晏駕，非大王立當誰哉！」淮南王大喜，厚遺金財物。上自魏其時不直武安，特為太后故耳。及聞淮南王金事，上曰：「使武安侯在者，族矣。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "高祖孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按本文明示親屬與本段人物承接；昆弟子保存叔伯長幼未定，父親未名。高祖孫只作祖父，不補其父姓名。如父子然及鬼故事不產生親屬或復活事件。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji118-003",
       "subject_person_id": "yqp_nlb_p1p_AFA",
@@ -333,8 +532,9 @@
   ],
   "related_people": {
     "8ie_pfa_02i": "荼（淮南衡山列傳候選）",
+    "yqp_nlb_p1p_A": "高祖",
     "yqp_nlb_p1p_AF": "長（高祖子）",
-    "yqp_nlb_p1p_AFA": "安（劉長子）（淮南衡山列傳候選）",
+    "yqp_nlb_p1p_AFA": "淮南王安",
     "yqp_nlb_p1p_AFAA": "陵（淮南王女）（淮南衡山列傳候選）",
     "yqp_nlb_p1p_AFAB": "不害（淮南衡山列傳候選）",
     "yqp_nlb_p1p_AFC": "賜（劉長子）（淮南衡山列傳候選）"
@@ -412,6 +612,27 @@
     "yqp_nlb_p1p_AFA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-shiji107-015",
+      "subject_person_id": "yqp_nlb_p1p_AFA",
+      "predicate": "grandfather",
+      "object_person_id": "yqp_nlb_p1p_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p026",
+          "quote": "淮南王安謀反覺，治。王前朝，武安侯為太尉，時迎王至霸上，謂王曰：「上未有太子，大王最賢，高祖孫，即宮車晏駕，非大王立當誰哉！」淮南王大喜，厚遺金財物。上自魏其時不直武安，特為太后故耳。及聞淮南王金事，上曰：「使武安侯在者，族矣。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "高祖孫",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按本文明示親屬與本段人物承接；昆弟子保存叔伯長幼未定，父親未名。高祖孫只作祖父，不補其父姓名。如父子然及鬼故事不產生親屬或復活事件。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji118-003",
       "subject_person_id": "yqp_nlb_p1p_AFA",
@@ -528,6 +749,25 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "assembled_identity": {
+    "person_id": "yqp_nlb_p1p_AFA",
+    "representative_source_person_id": "yqp_nlb_p1p_AFA",
+    "source_person_ids": [
+      "yqp_nlb_p1p_AFA"
+    ],
+    "identity_equivalence_decision_ids": [
+      "eq-shiji098-huainan-an"
+    ],
+    "parent_person_id": "yqp_nlb_p1p_AF",
+    "connection": "father",
+    "generation_distance": 1,
+    "source_assertion_id": "a-shiji118-003",
+    "interpretation_note": "跨篇同指後採淮南衡山篇劉長四子、子安為阜陵侯的明示父系；魏其篇高祖孫另存祖父原斷言，不補造父親。",
+    "assembly_id": "family-han-liu-taigong",
+    "root_person_id": "yqp_nlb_p1p",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [
     {

@@ -23315,18 +23315,6 @@
       ]
     },
     {
-      "person_id": "brp_v5i_sjg",
-      "label": "高祖（淮南衡山列傳候選）",
-      "path": "brp_v5i_sjg.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 15,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-shiji118-huainan"
-      ]
-    },
-    {
       "person_id": "brx_0of_9p8",
       "label": "韓懿侯（魏世家候選）",
       "path": "brx_0of_9p8.json",
@@ -59413,18 +59401,6 @@
       ]
     },
     {
-      "person_id": "tk5_g6e_rh8",
-      "label": "淮南王未詳名（傅靳蒯成列傳候選）",
-      "path": "tk5_g6e_rh8.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 1,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-shiji-098-fujin"
-      ]
-    },
-    {
       "person_id": "tkc_9z3_91l",
       "label": "朱建（酈生陸賈列傳候選）",
       "path": "tkc_9z3_91l.json",
@@ -71058,8 +71034,8 @@
       "path": "yqp_nlb_p1p_A.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 1168,
-      "source_count": 43,
+      "mention_count": 1183,
+      "source_count": 44,
       "most_mentioned_source_ids": [
         "s-shiji-008-gaozu"
       ],
@@ -71108,40 +71084,6 @@
         ],
         "parent_person_id": "yqp_nlb_p1p",
         "source_assertion_id": "a-shiji007-014",
-        "assembly_id": "family-han-liu-taigong",
-        "root_person_id": "yqp_nlb_p1p",
-        "status": "editorial_preferred",
-        "human_reviewed": false
-      }
-    },
-    {
-      "person_id": "yqp_nlb_p1p_A*A",
-      "label": "淮南王安（魏其武安侯列傳候選）",
-      "path": "yqp_nlb_p1p_A*A.json",
-      "id_aliases": [],
-      "identity_policy": "contextual_provisional",
-      "mention_count": 4,
-      "source_count": 1,
-      "most_mentioned_source_ids": [
-        "s-shiji-107-weiqi"
-      ],
-      "source_person_id": "yqp_nlb_p1p_A*A",
-      "assembled_identity": {
-        "person_id": "yqp_nlb_p1p_A*A",
-        "representative_source_person_id": "yqp_nlb_p1p_A*A",
-        "source_person_ids": [
-          "yqp_nlb_p1p_A*A"
-        ],
-        "identity_equivalence_decision_ids": [],
-        "parent_person_id": null,
-        "ancestor_person_id": "yqp_nlb_p1p_A",
-        "connection": "grandfather",
-        "generation_distance": 2,
-        "intermediate_person_ids": [
-          null
-        ],
-        "source_assertion_id": "a-shiji107-015",
-        "interpretation_note": "本篇田蚡向淮南王安稱高祖孫，按漢宗室父系敘述暫接高祖以下第二代。未知父親保持空值，星號不是人物，不按其他淮南王稱號補父親。",
         "assembly_id": "family-han-liu-taigong",
         "root_person_id": "yqp_nlb_p1p",
         "status": "editorial_preferred",
@@ -73670,15 +73612,35 @@
     },
     {
       "person_id": "yqp_nlb_p1p_AFA",
-      "label": "安（劉長子）（淮南衡山列傳候選）",
+      "label": "淮南王安",
       "path": "yqp_nlb_p1p_AFA.json",
       "id_aliases": [],
       "identity_policy": "contextual_provisional",
-      "mention_count": 79,
-      "source_count": 1,
+      "mention_count": 84,
+      "source_count": 3,
       "most_mentioned_source_ids": [
         "s-shiji118-huainan"
-      ]
+      ],
+      "source_person_id": "yqp_nlb_p1p_AFA",
+      "assembled_identity": {
+        "person_id": "yqp_nlb_p1p_AFA",
+        "representative_source_person_id": "yqp_nlb_p1p_AFA",
+        "source_person_ids": [
+          "yqp_nlb_p1p_AFA"
+        ],
+        "identity_equivalence_decision_ids": [
+          "eq-shiji098-huainan-an"
+        ],
+        "parent_person_id": "yqp_nlb_p1p_AF",
+        "connection": "father",
+        "generation_distance": 1,
+        "source_assertion_id": "a-shiji118-003",
+        "interpretation_note": "跨篇同指後採淮南衡山篇劉長四子、子安為阜陵侯的明示父系；魏其篇高祖孫另存祖父原斷言，不補造父親。",
+        "assembly_id": "family-han-liu-taigong",
+        "root_person_id": "yqp_nlb_p1p",
+        "status": "editorial_preferred",
+        "human_reviewed": false
+      }
     },
     {
       "person_id": "yqp_nlb_p1p_AFAA",

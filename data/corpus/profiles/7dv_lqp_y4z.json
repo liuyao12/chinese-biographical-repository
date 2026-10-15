@@ -599,8 +599,172 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 184,
+        "year": -183
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 183,
+        "year": -182
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p009",
+          "quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。",
+          "person_mention_id": "c-shiji-098-fujin:m009-0005"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高后元年",
+          "table_cell_id": "shiji-022-t1-r020-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_cell_id": "shiji-022-t1-r024-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "183",
+          "table_cell_id": "shiji-022-t1-r024-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "原文明示高后五年；以將相表原紀年欄及數位編者西元對照辨年。太初前建亥歲首、未知月，保留跨公元年的範圍，不把侯國除年或繼侯年當卒年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji098-005",
+      "person_id": "7dv_lqp_y4z",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji098-005",
+      "person_id": "7dv_lqp_y4z",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "高后五年",
+      "source_term": "歙卒",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p009",
+          "quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。",
+          "person_mention_id": "c-shiji-098-fujin:m009-0005"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 184,
+          "year": -183
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 183,
+          "year": -182
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-098",
+            "chapter_id": "c-shiji-098-fujin",
+            "source_id": "s-shiji-098-fujin",
+            "paragraph_id": "c-shiji-098-fujin:p009",
+            "quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。",
+            "person_mention_id": "c-shiji-098-fujin:m009-0005"
+          }
+        ],
+        "references": [
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "高后元年",
+            "table_cell_id": "shiji-022-t1-r020-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "五",
+            "table_cell_id": "shiji-022-t1-r024-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "183",
+            "table_cell_id": "shiji-022-t1-r024-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          }
+        ],
+        "rationale": "原文明示高后五年；以將相表原紀年欄及數位編者西元對照辨年。太初前建亥歲首、未知月，保留跨公元年的範圍，不把侯國除年或繼侯年當卒年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "死亡記載只繫於本段所述人物，不以卒日自動終止所有官爵。"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
