@@ -1404,6 +1404,48 @@
       "interpretation_note": "授任與文獻用稱分存；卒、出走及降趙不自動終止所有爵位，未見日期保持未定。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji098-011",
+      "person_id": "37j_16p_7n8",
+      "title": "相國",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p002",
+          "quote": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封為陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji098-011:a001",
+          "paragraph_id": "c-shiji-098-fujin:p002",
+          "start": 16,
+          "end": 18,
+          "surface": "相國",
+          "person_mention_id": "c-shiji-098-fujin:m002-0018",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "逐傳區分持有人；用稱與授予分存。五歲、一月、二歲等紀年保持原語待換算，死亡不自動作任期終點，字母不作長幼排行。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -3839,6 +3881,14 @@
       "quote": "然起坐，謝陸生曰：「居蠻夷中久，殊失禮義。」因問陸生曰：「我孰與蕭何、曹參、韓信賢？」陸生曰：「王似賢。」復曰：「我孰與皇帝賢？」陸生曰：「皇帝起豐沛，討暴秦，誅彊楚，為天下興利除害，繼五帝三王之業，統理中國。中國之人以億計，地方萬里，居天下之膏腴，人眾車轝，萬物殷富，政由"
     },
     {
+      "number": 98,
+      "category": "liezhuan",
+      "title": "傅靳蒯成列傳第三十八",
+      "paragraph_id": "c-shiji-098-fujin:p002",
+      "count": 1,
+      "quote": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封為陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。"
+    },
+    {
       "number": 111,
       "category": "liezhuan",
       "title": "衛將軍驃騎列傳第五十一",
@@ -4131,6 +4181,60 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
           "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-098-fujin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-098",
+      "source_id": "s-shiji-098-fujin",
+      "source": {
+        "title": "史記／卷098",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷098",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318",
+        "revision_id": 1490318,
+        "accessed_on": "2026-10-10",
+        "extent": "13段傳世正文含太史公論；排除導覽及空白，無索隱附贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "横": "橫",
+            "户": "戶",
+            "别": "別",
+            "内": "內",
+            "郸": "鄲",
+            "仓": "倉",
+            "荥": "滎",
+            "鲁": "魯",
+            "缯": "繒",
+            "蕲": "蘄",
+            "韩": "韓",
+            "肃": "肅",
+            "夺": "奪",
+            "贞": "貞",
+            "伤": "傷",
+            "谓": "謂",
+            "笃": "篤"
+          },
+          "editorial_readings": [],
+          "digital_footnotes": [
+            {
+              "marker": "1",
+              "paragraph_number": 4,
+              "note": "數位編者稱武英殿二十四史本作二十一年；尚未核該底本，不作已驗證異文。"
+            },
+            {
+              "marker": "2",
+              "paragraph_number": 4,
+              "note": "數位編者依卒年、國除年及前代在位數推算三十一年；只作編者意見，不逕採其校勘與西曆換算。"
+            }
+          ],
+          "extraction_note": "去外緣空白及兩處HTML引用標記；逐字繁體轉換明記，保留緤、歙、饟及度平陰。",
+          "note": "全15個HTML區塊已核讀；數位編者意見分存，不改正文三十一年，未核底本影像。"
         }
       }
     },

@@ -255,7 +255,6 @@
 | `1sw_fyv_g81` | 朱驕如 | [《史記・淮南衡山列傳》][100] | [JSON](1sw_fyv_g81.json) |
 | `1tl_xlo_url` | 楚宣（列國君主） | [《史記・秦本紀》][5] | [JSON](1tl_xlo_url.json) |
 | `1tp_unw_nod` | 鉅鹿趙王 | [《史記・白起王翦列傳》][55] | [JSON](1tp_unw_nod.json) |
-| `1tz_1iv_r3r` | 太尉勃未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](1tz_1iv_r3r.json) |
 | `1u0_up8_swa` | 茀（主屨者） | [《史記・齊太公世家》][14] | [JSON](1u0_up8_swa.json) |
 | `1u5_bgn_fp2` | 司馬尚 | [《史記・廉頗藺相如列傳》][63] | [JSON](1u5_bgn_fp2.json) |
 | `1u7_dot_pe3` | 惠文后 | [《史記・穰侯列傳》][54] | [JSON](1u7_dot_pe3.json) |
@@ -773,7 +772,6 @@
 | `5jy_q5w_acp` | 趙奢 | [《史記・陳涉世家》][30] | [JSON](5jy_q5w_acp.json) |
 | `5k2_i3p_h9m` | 桀比擬 | [《史記・蕭相國世家》][35] | [JSON](5k2_i3p_h9m.json) |
 | `5k7_otk_r9v` | 盤庚 | [《史記・殷本紀》][3] | [JSON](5k7_otk_r9v.json) |
-| `5k8_ms4_y3k` | 淮陰侯未詳名 | [《史記・傅靳蒯成列傳》][80] | [JSON](5k8_ms4_y3k.json) |
 | `5kc_wmn_zbj` | 孫臏 | [《史記・陳涉世家》][30] | [JSON](5kc_wmn_zbj.json) |
 | `5kw_jr9_kzn` | 周天子伐梁 | [《史記・張儀列傳》][52] | [JSON](5kw_jr9_kzn.json) |
 | `5ky_x6i_539` | 晏嬰 | [《史記・田敬仲完世家》][28] | [JSON](5ky_x6i_539.json) |
@@ -2014,7 +2012,6 @@
 | `eb7_5lg_w9q` | 子贛 | [《史記・貨殖列傳》][111] | [JSON](eb7_5lg_w9q.json) |
 | `eb9_g6y_4q6` | 彌子瑕 | [《史記・老子韓非列傳》][45] | [JSON](eb9_g6y_4q6.json) |
 | `ebi_jr2_aky` | 魯王未名 | [《史記・田叔列傳》][86] | [JSON](ebi_jr2_aky.json) |
-| `ebz_s7c_pds` | 相國參未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](ebz_s7c_pds.json) |
 | `ec1_59q_70f` | 少姬（陳哀公偃母） | [《史記・陳杞世家》][18] | [JSON](ec1_59q_70f.json) |
 | `ecc_wdp_4h3` | 亹（衛懷公） | [《史記・衛康叔世家》][19] | [JSON](ecc_wdp_4h3.json) |
 | `ecn_gan_nzt` | 梁惠王引古 | [《史記・穰侯列傳》][54] | [JSON](ecn_gan_nzt.json) |
@@ -2227,6 +2224,10 @@
 | `fs1_3m9_rj3` | 章平 | [《史記・曹相國世家》][36] | [JSON](fs1_3m9_rj3.json) |
 | `fs3_38r_obw` | 須賈 | [《史記・范睢蔡澤列傳》][61] | [JSON](fs3_38r_obw.json) |
 | `fto_fi5_11x` | 大駱 | [《史記・秦本紀》][5] | [JSON](fto_fi5_11x.json) |
+| `fu0_u16_g5t` | 武帝 | [《史記・汲鄭列傳》][102] | [JSON](fu0_u16_g5t.json) |
+| `fu9_7ic_bp3` | 楊得意 | [《史記・司馬相如列傳》][99] | [JSON](fu9_7ic_bp3.json) |
+| `fuq_l6p_4ly` | 原憲 | [《史記・貨殖列傳》][111] | [JSON](fuq_l6p_4ly.json) |
+| `fva_alg_40j` | 句踐 | [《史記・孔子世家》][29] | [JSON](fva_alg_40j.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

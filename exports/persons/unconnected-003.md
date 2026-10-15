@@ -6,18 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vs5_lya_vft` | 市被（燕將軍） | [《史記・燕召公世家》][16] | [JSON](vs5_lya_vft.json) |
-| `vs7_6qq_lwa` | 惠王（周） | [《史記・太史公自序》][112] | [JSON](vs7_6qq_lwa.json) |
-| `vs8_u6b_f8w` | 秦寧公 | [《史記・秦本紀》][5] | [JSON](vs8_u6b_f8w.json) |
-| `vsk_gs2_qzw` | 虞舜 | [《史記・商君列傳》][50] | [JSON](vsk_gs2_qzw.json) |
-| `vsl_ob5_pki` | 太史公 | [《史記・韓信盧綰列傳》][75] | [JSON](vsl_ob5_pki.json) |
-| `vsm_g44_lxu` | 張儀 | [《史記・滑稽列傳》][108] | [JSON](vsm_g44_lxu.json) |
-| `vt0_ktk_oat` | 宋景公 | [《史記・鄭世家》][24] | [JSON](vt0_ktk_oat.json) |
-| `vt0_wpy_kj2` | 太史公 | [《史記・平原君虞卿列傳》][58] | [JSON](vt0_wpy_kj2.json) |
-| `vtc_vuv_ykj` | 析父（楚靈王問鼎答者） | [《史記・楚世家》][22] | [JSON](vtc_vuv_ykj.json) |
-| `vti_9il_trm` | 今上 | [《史記・龜策列傳》][110] | [JSON](vti_9il_trm.json) |
-| `vti_onv_iur` | 秦穆公 | [《史記・扁鵲倉公列傳》][87] | [JSON](vti_onv_iur.json) |
-| `vtj_31m_zlc` | 樂欬 | [《史記・仲尼弟子列傳》][49] | [JSON](vtj_31m_zlc.json) |
 | `vtn_thh_540` | 申不害 | [《史記・老子韓非列傳》][45] | [JSON](vtn_thh_540.json) |
 | `vud_z3k_zfc` | 上黨郡守（韓世家未名者） | [《史記・韓世家》][27] | [JSON](vud_z3k_zfc.json) |
 | `vug_czu_mzb` | 莊生之婦（越世家未名者） | [《史記・越王勾踐世家》][23] | [JSON](vug_czu_mzb.json) |
