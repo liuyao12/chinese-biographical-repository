@@ -203,6 +203,30 @@
           "note": "全16個HTML區塊已讀；未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-097-luli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-097",
+      "source_id": "s-shiji-097-luli",
+      "source": {
+        "title": "史記／卷097",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷097",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
+        "revision_id": 1383195,
+        "accessed_on": "2026-10-09",
+        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
+          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
+        }
+      }
     }
   ],
   "relations": [
@@ -261,9 +285,56 @@
   ],
   "related_people": {
     "27q_nw7_jv8": "田閒",
+    "dqz_ka3_on8": "田閒（酈生陸賈列傳候選）",
     "hb5_4zq_x4c": "田角"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-shiji097-tianxian",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "dqz_ka3_on8",
+        "27q_nw7_jv8"
+      ],
+      "paragraph_ids": [
+        "c-shiji-097-luli:p005",
+        "c-shiji-094-tiandan:p003",
+        "c-shiji-094-tiandan:p004",
+        "c-shiji-094-tiandan:p005"
+      ],
+      "note": "本篇田廣時田閒將兵於歷城；田儋篇較早田角之弟田閒求救趙、留趙不敢歸，田榮要求殺之。尚未讀到其歸齊承接，不因同名與齊將身分直接合併，也未證為不同人。漢書平行作田間，原字分存。林聰舜論文僅記相關背景，不代替兩處身份接合證據。",
+      "references": [
+        {
+          "title": "《漢書》卷043·酈食其相應段",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷043&oldid=7904628",
+          "quote": "今田廣据千里之齊，田間將二十万之眾軍于歷城，諸田宗強，負海岱，阻河濟，南近楚，齊人多變詐，足下雖遣數十万師，未可以歲月破也。臣請得奉明詔說齊王使為漢而稱東籓。」",
+          "revision_id": 7904628,
+          "image_verified": false
+        },
+        {
+          "title": "林聰舜〈齊國的視角──楚漢之際至漢初幾個重要階段的天下變局之詮釋〉",
+          "url": "https://thjcs.site.nthu.edu.tw/var/file/452/1452/img/2921/232567288.pdf",
+          "quote": "田閒（生卒年不詳）亡走趙",
+          "author": "林聰舜",
+          "journal": "清華學報",
+          "volume": 47,
+          "issue": 3,
+          "year": 2017,
+          "pages": "473–508",
+          "relevant_pages": "483–484",
+          "doi": "10.6503/THJCS.2017.47(3).02",
+          "scope": "modern_secondary_context",
+          "note": "僅列背景研究參考；此引句未判定本篇將軍與田角之弟同人。"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "chapter_id": "c-shiji-097-luli",
+      "source_id": "s-shiji-097-luli"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "27q_nw7_jv8"

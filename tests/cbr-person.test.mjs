@@ -233,3 +233,9 @@ test('傳說分類在卡片與人物頁明示，缺資料時省略',()=>{
   assert.doesNotMatch(personCard({...p,historicity:'historical_tradition'},full),/person-historicity/);
  }
 });
+test('未窮盡候選明示於人物頁，不把缺旗標當作完整名單',()=>{
+ const c={candidate_person_ids:['synthetic_candidate'],paragraph_ids:[],note:'合成未決案例',candidate_list_exhaustive:false};
+ const p={id:'synthetic_reference',label:'合成稱呼',unresolved_identity_cases:[c]};
+ assert.match(personCard(p,true),/已列候選人物（未窮盡）/);
+ assert.doesNotMatch(personCard({...p,unresolved_identity_cases:[{...c,candidate_list_exhaustive:undefined}]},true),/未窮盡/);
+});

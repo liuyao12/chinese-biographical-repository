@@ -45,13 +45,85 @@
           "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-110-xiongnu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "source_id": "s-shiji110-xiongnu",
+      "source": {
+        "title": "史記／卷110",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷110",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+        "revision_id": 8735645,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
+          "note": "未核底本影像。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "7wk_awi_f4x": "單于未詳名（酈生陸賈列傳候選）"
+    "7wk_awi_f4x": "單于未詳名（酈生陸賈列傳候選）",
+    "wjt_htu_081_A": "冒頓（匈奴列傳第6段）",
+    "wjt_htu_081_AA": "稽粥（匈奴列傳第18至20段）",
+    "wjt_htu_081_AAA": "軍臣（匈奴列傳第27段）"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-shiji097-unnamed-chanyu",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "7wk_awi_f4x",
+        "wjt_htu_081_A",
+        "wjt_htu_081_AA",
+        "wjt_htu_081_AAA"
+      ],
+      "candidate_list_exhaustive": false,
+      "paragraph_ids": [
+        "c-shiji-097-luli:p020",
+        "c-shiji-110-xiongnu:p018",
+        "c-shiji-110-xiongnu:p019",
+        "c-shiji-110-xiongnu:p027"
+      ],
+      "note": "本篇朱建子使匈奴、罵單于而死，單于未具名且出使、死亡未明年。7wk_awi_f4x為來源局部候選，不是已證另有第四位單于。冒頓、老上稽粥、軍臣是依文帝敘事背景先列的可比對者，不是窮盡名單；尚未排除子傳敘事省略較後年代。不可套父死年或任官年指定單于，亦不將死匈奴中改作單于殺之。",
+      "references": [
+        {
+          "title": "《史記·匈奴列傳》單于承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+          "quote": "後頃之，冒頓死，子稽粥立，號曰老上單于。",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·匈奴列傳》單于承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+          "quote": "老上稽粥單于初立，孝文皇帝復遣宗室女公主爲單于閼氏，使宦者燕人中行說傅公主。說不欲行，漢彊使之。說曰：「必我行也，爲漢患者。」中行說既至，因降單于，單于甚親幸之。",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·匈奴列傳》單于承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+          "quote": "後四歳，老上稽粥單于死，子軍臣立爲單于。既立，孝文皇帝復與匈奴和親。而中行說復事之。",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "chapter_id": "c-shiji-097-luli",
+      "source_id": "s-shiji-097-luli"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "7wk_awi_f4x"

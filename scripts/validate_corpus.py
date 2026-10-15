@@ -229,8 +229,10 @@ def validate(root=ROOT):
                 case_ids.add(case.get('id'))
                 candidates=case.get('candidate_person_ids',[])
                 unknown = case.get('unknown_identity_possible') is True
-                check(len(candidates)>=(1 if unknown else 2) and len(set(candidates))==len(candidates) and all(pid in pids for pid in candidates),'未決身份候選人物無效')
+                check(len(candidates)>=(1 if unknown or case.get('candidate_list_exhaustive') is False else 2) and len(set(candidates))==len(candidates) and all(pid in pids for pid in candidates),'未決身份候選人物無效')
                 check(case.get('status')=='unresolved' and bool(case.get('note')),'未決身份狀態或說明缺失')
+                if 'candidate_list_exhaustive' in case:
+                    check(type(case['candidate_list_exhaustive']) is bool, '候選名單是否窮盡須明示布林值')
                 refs=case.get('paragraph_ids',[])
                 local={p['id']:p for p in d['paragraphs']}
                 check(bool(refs) and any(ref in local for ref in refs) and all(ref in case_paragraphs for ref in refs),'未決身份段落引用無效')
