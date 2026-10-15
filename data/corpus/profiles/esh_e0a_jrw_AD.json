@@ -305,8 +305,24 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授官、爵位、俸秩與敘事用稱分存；未知起訖不補造，卒日不自動終止全部稱號，未准乞骸骨不作辭相。",
+      "interpretation_note": "授官、爵位、俸秩與敘事用稱分存；未知起訖不補造，卒日不自動終止全部稱號，未准乞骸骨不作辭相。 來源持職年數獨立保存，不依公曆相減或自動補終點。",
       "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 7,
+        "unit": "title_year",
+        "source_term": "七歳",
+        "source_number": "七",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-103-wanshi",
+            "source_id": "s-shiji-103-wanshi",
+            "paragraph_id": "c-shiji-103-wanshi:p010",
+            "quote": "元狩元年，上立太子，選群臣可爲傅者，慶自沛守爲太子太傅，七歳遷爲御史大夫。"
+          }
+        ]
+      },
       "period": "西元前122年（暫定） → 未定"
     },
     {
@@ -438,8 +454,24 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授官、爵位、俸秩與敘事用稱分存；未知起訖不補造，卒日不自動終止全部稱號，未准乞骸骨不作辭相。",
+      "interpretation_note": "授官、爵位、俸秩與敘事用稱分存；未知起訖不補造，卒日不自動終止全部稱號，未准乞骸骨不作辭相。 來源持職年數獨立保存，不依公曆相減或自動補終點。",
       "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 9,
+        "unit": "title_year",
+        "source_term": "九歳",
+        "source_number": "九",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-103-wanshi",
+            "source_id": "s-shiji-103-wanshi",
+            "paragraph_id": "c-shiji-103-wanshi:p011",
+            "quote": "元鼎五年秋，丞相有罪，罷。制詔御史：「萬石君先帝尊之，子孫孝，其以御史大夫慶爲丞相，封爲牧丘侯。」是時漢方南誅兩越，東撃朝鮮，北逐匈奴，西伐大宛，中國多事。天子巡狩海内，修上古神祠，封禪，興禮樂。公家用少，桑弘羊等致利，王温舒之屬峻法，兒寬等推文學至九卿，更進用事，事不關決於丞相，丞相醇謹而已。在位九歳，無能有所匡言。嘗欲請治上近臣所忠、九卿咸宣罪，不能服，反受其過，贖罪。"
+          }
+        ]
+      },
       "period": "西元前112年（暫定） → 未定"
     },
     {
@@ -829,6 +861,46 @@
   "dates": [
     {
       "era": "BCE",
+      "era_year": 103,
+      "year": -102,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "rationale": "研究頁124明列太初元年前104年，順推一年為前103年。 只記紀年對照，不推月日或完整公曆區間；正式匯入時各事件另附其段落證據。",
+      "status": "editorial_provisional",
+      "original_quote": "慶文深審謹，然無他大略，爲百姓言。後三歳餘，太初二年中，丞相慶卒，謚爲恬侯。慶中子德，慶愛用之，上以德爲嗣，代侯。後爲太常，坐法當死，贖免爲庶人。慶方爲丞相，諸子孫爲吏更至二千石者十三人。及慶死後，稍以罪去，孝謹益衰矣。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-103",
+          "chapter_id": "c-shiji-103-wanshi",
+          "source_id": "s-shiji-103-wanshi",
+          "paragraph_id": "c-shiji-103-wanshi:p013",
+          "quote": "慶文深審謹，然無他大略，爲百姓言。後三歳餘，太初二年中，丞相慶卒，謚爲恬侯。慶中子德，慶愛用之，上以德爲嗣，代侯。後爲太常，坐法當死，贖免爲庶人。慶方爲丞相，諸子孫爲吏更至二千石者十三人。及慶死後，稍以罪去，孝謹益衰矣。",
+          "person_mention_id": "c-shiji-103-wanshi:m013-0030"
+        }
+      ],
+      "references": [
+        {
+          "title": "漢初月朔考索──以出土簡牘為線索",
+          "author": "許名瑲",
+          "publication": "北市大語文學報",
+          "issue": 12,
+          "published_on": "2014-12",
+          "url": "https://literacy.utaipei.edu.tw/var/file/65/1065/img/1007/256705145.pdf",
+          "image_verified": false,
+          "scope": "regnal_year_equivalence_only",
+          "page": "124"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji103-003",
+      "person_id": "esh_e0a_jrw_AD",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
       "era_year": 139,
       "year": -138,
       "year_numbering": "astronomical",
@@ -1141,7 +1213,67 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji103-003",
+      "person_id": "esh_e0a_jrw_AD",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "太初二年中",
+      "source_term": "丞相慶卒",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-103",
+          "chapter_id": "c-shiji-103-wanshi",
+          "source_id": "s-shiji-103-wanshi",
+          "paragraph_id": "c-shiji-103-wanshi:p013",
+          "quote": "慶文深審謹，然無他大略，爲百姓言。後三歳餘，太初二年中，丞相慶卒，謚爲恬侯。慶中子德，慶愛用之，上以德爲嗣，代侯。後爲太常，坐法當死，贖免爲庶人。慶方爲丞相，諸子孫爲吏更至二千石者十三人。及慶死後，稍以罪去，孝謹益衰矣。",
+          "person_mention_id": "c-shiji-103-wanshi:m013-0030"
+        }
+      ],
+      "interpretation_note": "改曆前後年編碼須逐事核查，不從任期九歳倒推。 未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 103,
+        "year": -102,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "rationale": "研究頁124明列太初元年前104年，順推一年為前103年。 只記紀年對照，不推月日或完整公曆區間；正式匯入時各事件另附其段落證據。",
+        "status": "editorial_provisional",
+        "original_quote": "慶文深審謹，然無他大略，爲百姓言。後三歳餘，太初二年中，丞相慶卒，謚爲恬侯。慶中子德，慶愛用之，上以德爲嗣，代侯。後爲太常，坐法當死，贖免爲庶人。慶方爲丞相，諸子孫爲吏更至二千石者十三人。及慶死後，稍以罪去，孝謹益衰矣。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-103",
+            "chapter_id": "c-shiji-103-wanshi",
+            "source_id": "s-shiji-103-wanshi",
+            "paragraph_id": "c-shiji-103-wanshi:p013",
+            "quote": "慶文深審謹，然無他大略，爲百姓言。後三歳餘，太初二年中，丞相慶卒，謚爲恬侯。慶中子德，慶愛用之，上以德爲嗣，代侯。後爲太常，坐法當死，贖免爲庶人。慶方爲丞相，諸子孫爲吏更至二千石者十三人。及慶死後，稍以罪去，孝謹益衰矣。",
+            "person_mention_id": "c-shiji-103-wanshi:m013-0030"
+          }
+        ],
+        "references": [
+          {
+            "title": "漢初月朔考索──以出土簡牘為線索",
+            "author": "許名瑲",
+            "publication": "北市大語文學報",
+            "issue": 12,
+            "published_on": "2014-12",
+            "url": "https://literacy.utaipei.edu.tw/var/file/65/1065/img/1007/256705145.pdf",
+            "image_verified": false,
+            "scope": "regnal_year_equivalence_only",
+            "page": "124"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
