@@ -886,9 +886,27 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'teacher' or qualifiers.get('relationship_basis') == 'teaching':
+                    term = qualifiers.get('source_term')
+                    valid = (a['predicate'] == 'teacher' and qualifiers.get('relationship_basis') == 'teaching'
+                             and isinstance(term, str) and bool(term)
+                             and any(marker in term for marker in ('學', '教', '受', '傳', '弟子', '師')))
+                    for e in a['evidence']:
+                        hit = paragraphs.get(e.get('paragraph_id'))
+                        if not hit:
+                            valid = False
+                            continue
+                        quote = e.get('quote', '')
+                        starts = [i for i in range(len(hit[1]['text']) + 1) if quote and hit[1]['text'].startswith(quote, i)]
+                        valid = valid and isinstance(term, str) and term in quote
+                        for role, endpoint in (('subject', 'subject_person_id'), ('object', 'object_person_id')):
+                            anchors = [m for m in hit[1]['mentions'] if m['id'] == e.get(role + '_person_mention_id')]
+                            valid = valid and len(anchors) == 1 and anchors[0].get('person_id') == a[endpoint] and any(
+                                i <= anchors[0]['start'] and anchors[0]['end'] <= i + len(quote) for i in starts)
+                    check(valid, '師承須有學教原詞及同引句學生老師雙錨點，不得改作親屬')
                 if 'succession' in qualifiers:
                     try:
                         from scripts.title_successions import succession_valid

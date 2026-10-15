@@ -300,3 +300,9 @@ test('曾孫來源的反向關係標示曾祖父，不顛倒成曾孫',()=>{
  const html=personCard({id:'child',label:'乙',related_people:{parent:'甲'},relations:[{subject_person_id:'child',predicate:'great_grandfather',object_person_id:'parent',qualifiers:{source_term:'曾孫'},evidence:[]}]},true);
  assert.match(html,/曾祖父/);assert.doesNotMatch(html,/· 曾孫/);
 });
+
+test('teaching has a separate linked source section and is excluded from kinship',()=>{
+ const p={id:'student',label:'合成學生',related_people:{student:'合成學生',master:'合成老師'},relations:[{subject_person_id:'student',predicate:'teacher',object_person_id:'master',qualifiers:{relationship_basis:'teaching',source_term:'學於合成老師'},evidence:[{quote:'合成學生學於合成老師。'}]}]};
+ const html=personCard(p,true);assert.match(html,/class="person-teaching"/);assert.match(html,/受業於/);assert.match(html,/person.html#master/);assert.match(html,/合成學生學於合成老師/);assert.doesNotMatch(html,/來源所記親屬/);
+ assert.doesNotMatch(personCard(p),/person-teaching/);
+});

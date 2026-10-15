@@ -185,6 +185,17 @@ class CorpusTests(unittest.TestCase):
     def test_upper_age_requires_not_full_wording(self):
         self.change_upper_age(lambda a: a.update(source_term='年二十'))
         self.assertIn('來源未滿報齡須保存開放上界及原詞，不得補確切歲數', v.validate(self.root))
+    def change_teacher(self, fn):
+        self.change('corpus/shiji/105-assertions.json', lambda d: fn(next(a for a in d['assertions'] if a['predicate']=='teacher')))
+    def test_teacher_cannot_become_father(self):
+        self.change_teacher(lambda a: a.update(predicate='father'))
+        self.assertIn('師承須有學教原詞及同引句學生老師雙錨點，不得改作親屬', v.validate(self.root))
+    def test_teacher_requires_teaching_wording(self):
+        self.change_teacher(lambda a: a['qualifiers'].update(source_term='扁鵲者'))
+        self.assertIn('師承須有學教原詞及同引句學生老師雙錨點，不得改作親屬', v.validate(self.root))
+    def test_teacher_requires_correct_teacher_anchor(self):
+        self.change_teacher(lambda a: a['evidence'][0].update(object_person_mention_id=a['evidence'][0]['subject_person_mention_id']))
+        self.assertIn('師承須有學教原詞及同引句學生老師雙錨點，不得改作親屬', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))

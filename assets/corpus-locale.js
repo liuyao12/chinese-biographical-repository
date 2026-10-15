@@ -1,4 +1,7 @@
 export default {
+  'Teaching and learning':'來源所記師承',
+  'Studied with':'受業於',
+  'Source evidence':'來源證據',
   'Biographical sources':'傳記文獻',
   'Choose a work':'選擇著作',
   'Choose an imported chapter.':'選擇已錄卷篇。',
