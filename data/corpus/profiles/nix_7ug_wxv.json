@@ -2,13 +2,57 @@
   "schema_version": 1,
   "id": "nix_7ug_wxv",
   "canonical_person_id": "nix_7ug_wxv",
-  "label": "呂嬃（陳丞相世家候選）",
+  "label": "呂嬃",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "呂嬃"
+    "呂嬃",
+    "呂須"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji095-028",
+      "person_id": "nix_7ug_wxv",
+      "title": "臨光侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p010",
+          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji095-028:a001",
+          "paragraph_id": "c-shiji-095-fankuang:p010",
+          "start": 26,
+          "end": 29,
+          "surface": "臨光侯",
+          "person_mention_id": "c-shiji-095-fankuang:m010-0022",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文實授、敘事用稱及諡稱分存；未明示時任期起訖未知。爵號用字不擅自補足，單稱侯不自動展開爵邑名；死亡、被捕、罷兵不自動作所有官爵終點。欲拜李必駱甲為騎將未作實授，左右校尉據實際令授。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -18,6 +62,14 @@
       "paragraph_id": "c-shiji-056-chen:p015",
       "count": 6,
       "quote": "人既受詔，馳傳未至軍，行計之曰：「樊噲，帝之故人也，功多，且又乃呂后弟呂嬃之夫，有親且貴，帝以忿怒故，欲斬之，則恐後悔。寧囚而致上，上自誅之。」未至軍，爲壇，以節召樊噲。噲受詔，即反接載檻車，傳詣長安，而令絳侯勃代將，將兵定燕反縣。"
+    },
+    {
+      "number": 95,
+      "category": "liezhuan",
+      "title": "樊酈滕灌列傳第三十五",
+      "paragraph_id": "c-shiji-095-fankuang:p007",
+      "count": 3,
+      "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
     }
   ],
   "table_occurrences": [],
@@ -43,6 +95,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留戸、鄕、爲、渉、衞、歳、説、劎、躶、鍾離眛、共侯與上曰；等原字及符號，索隱標記另分層。",
           "note": "全29段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-095-fankuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-095",
+      "source_id": "s-shiji-095-fankuang",
+      "source": {
+        "title": "史記／卷095",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷095",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
+        "revision_id": 2298709,
+        "accessed_on": "2026-10-09",
+        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
+          "note": "全37個HTML區塊已讀，未核底本影像。"
         }
       }
     }
@@ -89,12 +165,86 @@
       },
       "interpretation_note": "按明示兄、婦、娶、女孫、子、母、女弟與曾孫保存。女孫不推父為張仲，曾孫不作直接子，不補中間世代或同父同母；後段勸語及盜嫂指控的嫂未硬接首段伯婦。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-001",
+      "subject_person_id": "nix_7ug_wxv",
+      "predicate": "sister",
+      "object_person_id": "i30_mjq_6q8_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p007",
+          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "呂后女弟呂須",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "i30_mjq_6q8_A",
+          "younger_person_id": "nix_7ug_wxv",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-002",
+      "subject_person_id": "nix_7ug_wxv",
+      "predicate": "spouse",
+      "object_person_id": "b1r_inb_fts",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p007",
+          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "噲以呂后女弟呂須為婦",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-004",
+      "subject_person_id": "b1r_inb_fts_B",
+      "predicate": "mother",
+      "object_person_id": "nix_7ug_wxv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p010",
+          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "伉母呂須",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
     "b1r_inb_fts": "樊噲",
+    "b1r_inb_fts_B": "樊伉（樊酈滕灌列傳候選）",
     "i30_mjq_6q8_A": "呂后",
-    "nix_7ug_wxv": "呂嬃（陳丞相世家候選）"
+    "nix_7ug_wxv": "呂嬃"
   },
   "dates": [],
   "name_components": [],
@@ -142,6 +292,79 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按明示兄、婦、娶、女孫、子、母、女弟與曾孫保存。女孫不推父為張仲，曾孫不作直接子，不補中間世代或同父同母；後段勸語及盜嫂指控的嫂未硬接首段伯婦。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-001",
+      "subject_person_id": "nix_7ug_wxv",
+      "predicate": "sister",
+      "object_person_id": "i30_mjq_6q8_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p007",
+          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "呂后女弟呂須",
+        "historicity": "historical_tradition",
+        "relative_birth_order": {
+          "older_person_id": "i30_mjq_6q8_A",
+          "younger_person_id": "nix_7ug_wxv",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-002",
+      "subject_person_id": "nix_7ug_wxv",
+      "predicate": "spouse",
+      "object_person_id": "b1r_inb_fts",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p007",
+          "quote": "噲以呂后女弟呂須為婦，生子伉，故其比諸將最親。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "噲以呂后女弟呂須為婦",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji095-004",
+      "subject_person_id": "b1r_inb_fts_B",
+      "predicate": "mother",
+      "object_person_id": "nix_7ug_wxv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-095-fankuang",
+          "source_id": "s-shiji-095-fankuang",
+          "paragraph_id": "c-shiji-095-fankuang:p010",
+          "quote": "孝惠六年，樊噲卒，謚為武侯。子伉代侯。而伉母呂須亦為臨光侯，高后時用事專權，大臣盡畏之。伉代侯九歲，高后崩。大臣誅諸呂、呂須婘屬，因誅伉。舞陽侯中絕數月。孝文帝既立，乃復封噲他庶子市人為舞陽侯，復故爵邑。市人立二十九歲卒，謚為荒侯。子他廣代侯。六歲，侯家舍人得罪他廣，怨之，乃上書曰：「荒侯市人病不能為人，令其夫人與其弟亂而生他廣，他廣實非荒侯子，不當代後。」詔下吏。孝景中六年，他廣奪侯為庶人，國除。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "伉母呂須",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "按原文明示親屬保存，不由繼侯推父子，不補同母、排行數字或闕代。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
