@@ -866,9 +866,7 @@
 | `m9r_3qk_l9z` | 戾（叔孫氏臣） | [《史記・魯周公世家》][16] | [JSON](m9r_3qk_l9z.json) |
 | `ma3_01e_ip2` | 由余 | [《史記・匈奴列傳》][93] | [JSON](ma3_01e_ip2.json) |
 | `mag_1sz_m8r` | 武丁引古 | [《史記・屈原賈生列傳》][67] | [JSON](mag_1sz_m8r.json) |
-| `mag_s6n_b0c` | 廉頗 | [《史記・張釋之馮唐列傳》][85] | [JSON](mag_s6n_b0c.json) |
 | `map_u36_hry` | 唐八子 | [《史記・秦本紀》][6] | [JSON](map_u36_hry.json) |
-| `mb1_jy6_k0x` | 周亞夫 | [《史記・張釋之馮唐列傳》][85] | [JSON](mb1_jy6_k0x.json) |
 | `mbf_ae4_ckc` | 劉敬 | [《史記・太史公自序》][113] | [JSON](mbf_ae4_ckc.json) |
 | `mbg_5br_536` | 景駒 | [《史記・平津侯主父列傳》][95] | [JSON](mbg_5br_536.json) |
 | `mc2_05b_5i5` | 晏子御者 | [《史記・管晏列傳》][45] | [JSON](mc2_05b_5i5.json) |
@@ -1047,7 +1045,6 @@
 | `nlt_msz_iuz` | 雍將軍（未名） | [《史記・樊酈滕灌列傳》][78] | [JSON](nlt_msz_iuz.json) |
 | `nm6_7g0_j96` | 張耳 | [《史記・太史公自序》][113] | [JSON](nm6_7g0_j96.json) |
 | `nmf_bg9_hdz` | 孔子 | [《史記・平原君虞卿列傳》][59] | [JSON](nmf_bg9_hdz.json) |
-| `nml_3oq_o49` | 趙王遷 | [《史記・張釋之馮唐列傳》][85] | [JSON](nml_3oq_o49.json) |
 | `nnj_520_wdk` | 簀中救范守者未名 | [《史記・范睢蔡澤列傳》][62] | [JSON](nnj_520_wdk.json) |
 | `nnq_gau_71f` | 太史公 | [《史記・扁鵲倉公列傳》][88] | [JSON](nnq_gau_71f.json) |
 | `nnw_99z_4e5` | 梁孝王 | [《史記・田叔列傳》][87] | [JSON](nnw_99z_4e5.json) |
@@ -2033,7 +2030,6 @@
 | `upx_wco_6uv` | 齊懿仲（欲妻敬仲者） | [《史記・田敬仲完世家》][29] | [JSON](upx_wco_6uv.json) |
 | `uq6_74z_vtv` | 張儀 | [《史記・張儀列傳》][53] | [JSON](uq6_74z_vtv.json) |
 | `uqj_7pn_biu` | 鄭桓公（初封記事） | [《史記・燕召公世家》][17] | [JSON](uqj_7pn_biu.json) |
-| `ur3_6rb_cp2` | 趙王遷母未名 | [《史記・張釋之馮唐列傳》][85] | [JSON](ur3_6rb_cp2.json) |
 | `ura_fdp_bzb` | 楚先君善秦未定 | [《史記・春申君列傳》][61] | [JSON](ura_fdp_bzb.json) |
 | `urg_hxe_47l` | 虞胡公 | [《史記・孔子世家》][30] | [JSON](urg_hxe_47l.json) |
 | `urm_n3z_r4o` | 鉏商 | [《史記・孔子世家》][30] | [JSON](urm_n3z_r4o.json) |
@@ -2222,6 +2218,10 @@
 | `w2n_7g1_30z` | 棓生 | [《史記・袁盎鼂錯列傳》][84] | [JSON](w2n_7g1_30z.json) |
 | `w2z_v0m_3v8` | 段干子 | [《史記・魏世家》][27] | [JSON](w2z_v0m_3v8.json) |
 | `w35_u3q_sf6` | 丘子明 | [《史記・龜策列傳》][111] | [JSON](w35_u3q_sf6.json) |
+| `w3g_k4m_zrn` | 常山尉未名 | [《史記・韓信盧綰列傳》][76] | [JSON](w3g_k4m_zrn.json) |
+| `w3l_lcg_0qp` | 折蘭王（未名） | [《史記・衛將軍驃騎列傳》][94] | [JSON](w3l_lcg_0qp.json) |
+| `w41_czk_7u6` | 留長孺 | [《史記・日者列傳》][110] | [JSON](w41_czk_7u6.json) |
+| `w49_0we_e97` | 齊王伐梁 | [《史記・張儀列傳》][53] | [JSON](w49_0we_e97.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
