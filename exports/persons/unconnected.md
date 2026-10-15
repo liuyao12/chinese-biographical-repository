@@ -1117,7 +1117,6 @@
 | `7mh_byk_zx4` | 矯子庸疵 | [《史記・仲尼弟子列傳》][49] | [JSON](7mh_byk_zx4.json) |
 | `7mh_pz3_7ja` | 籍秦 | [《史記・趙世家》][25] | [JSON](7mh_pz3_7ja.json) |
 | `7mt_qrc_04e` | 晁錯 | [《史記・平津侯主父列傳》][94] | [JSON](7mt_qrc_04e.json) |
-| `7mw_nab_5z6` | 淮陰（用稱） | [《史記・韓信盧綰列傳》][75] | [JSON](7mw_nab_5z6.json) |
 | `7n2_guq_6ri` | 魏子 | [《史記・孟嘗君列傳》][57] | [JSON](7n2_guq_6ri.json) |
 | `7nr_u9c_hkv` | 濟北王（武帝封禪時未名） | [《史記・孝武本紀》][12] | [JSON](7nr_u9c_hkv.json) |
 | `7o5_xwk_v9c` | 黥布 | [《史記・淮南衡山列傳》][100] | [JSON](7o5_xwk_v9c.json) |
@@ -2124,7 +2123,6 @@
 | `egz_t7c_4jf` | 甘般（君奭引述） | [《史記・燕召公世家》][16] | [JSON](egz_t7c_4jf.json) |
 | `eh7_raa_ap6` | 伯夷 | [《史記・伯夷列傳》][43] | [JSON](eh7_raa_ap6.json) |
 | `ehf_uuv_att` | 子西 | [《史記・伍子胥列傳》][48] | [JSON](ehf_uuv_att.json) |
-| `ehh_a65_95j` | 黥布 | [《史記・韓信盧綰列傳》][75] | [JSON](ehh_a65_95j.json) |
 | `ehi_e39_173` | 荊軻所待客未名 | [《史記・刺客列傳》][68] | [JSON](ehi_e39_173.json) |
 | `eht_523_crr` | 華成 | [《史記・酷吏列傳》][104] | [JSON](eht_523_crr.json) |
 | `ei3_w5i_7ai` | 韓公子長 | [《史記・秦本紀》][5] | [JSON](ei3_w5i_7ai.json) |
@@ -2229,6 +2227,8 @@
 | `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][89] | [JSON](f4q_d6m_ral.json) |
 | `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][91] | [JSON](f4r_7vs_l08.json) |
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][93] | [JSON](f4u_1z7_w4y.json) |
+| `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
+| `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][100] | [JSON](f5z_kgb_853.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

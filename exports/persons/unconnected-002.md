@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][3] | [JSON](f53_xev_s2o.json) |
-| `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][100] | [JSON](f5z_kgb_853.json) |
 | `f6b_bwf_4dq` | 救赫 | [《史記・淮南衡山列傳》][100] | [JSON](f6b_bwf_4dq.json) |
 | `f6e_ib9_ktb` | 顏噲 | [《史記・仲尼弟子列傳》][49] | [JSON](f6e_ib9_ktb.json) |
 | `f6g_596_kog` | 章武侯 | [《史記・絳侯周勃世家》][39] | [JSON](f6g_596_kog.json) |
@@ -1248,7 +1246,6 @@
 | `nu2_ttq_hq0` | 華元御者（宋篇羊羹讀法未定） | [《史記・宋微子世家》][20] | [JSON](nu2_ttq_hq0.json) |
 | `nu4_0wz_9o2` | 宮之奇（虞諫臣） | [《史記・晉世家》][21] | [JSON](nu4_0wz_9o2.json) |
 | `nu5_qeg_7ly` | 董生未名 | [《史記・刺客列傳》][68] | [JSON](nu5_qeg_7ly.json) |
-| `nu6_2qe_oza` | 周苛 | [《史記・韓信盧綰列傳》][75] | [JSON](nu6_2qe_oza.json) |
 | `nuf_v4j_pps` | 潘父（弒昭侯者） | [《史記・晉世家》][21] | [JSON](nuf_v4j_pps.json) |
 | `nuq_wqa_cu6` | 巻章（楚篇祖系） | [《史記・楚世家》][22] | [JSON](nuq_wqa_cu6.json) |
 | `nuz_py4_4la` | 太史公 | [《史記・季布欒布列傳》][82] | [JSON](nuz_py4_4la.json) |
@@ -1385,7 +1382,6 @@
 | `ouo_jje_54i` | 紂 | [《史記・龜策列傳》][110] | [JSON](ouo_jje_54i.json) |
 | `ov2_lva_cb3` | 孫子（兵家列傳） | [《史記・太史公自序》][112] | [JSON](ov2_lva_cb3.json) |
 | `ov9_hou_2hp` | 曾子引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](ov9_hou_2hp.json) |
-| `ova_rch_fa4` | 彭越 | [《史記・韓信盧綰列傳》][75] | [JSON](ova_rch_fa4.json) |
 | `ovj_6cb_2pq` | 魏冉 | [《史記・趙世家》][25] | [JSON](ovj_6cb_2pq.json) |
 | `ovn_rwu_yum` | 平原君 | [《史記・白起王翦列傳》][55] | [JSON](ovn_rwu_yum.json) |
 | `ovs_nhp_dw3` | 齊王（獻鵠） | [《史記・滑稽列傳》][108] | [JSON](ovs_nhp_dw3.json) |
@@ -2238,6 +2234,10 @@
 | `ukp_lkb_cb5` | 主父偃 | [《史記・孝景本紀》][11] | [JSON](ukp_lkb_cb5.json) |
 | `ula_wqu_naa` | 剛武侯（本卷稱呼） | [《史記・高祖本紀》][8] | [JSON](ula_wqu_naa.json) |
 | `ulf_21j_keo` | 李由 | [《史記・傅靳蒯成列傳》][80] | [JSON](ulf_21j_keo.json) |
+| `ull_jgp_wdx` | 孟舒 | [《史記・田叔列傳》][86] | [JSON](ull_jgp_wdx.json) |
+| `ulx_s90_lom` | 丁夫人（方祠者） | [《史記・孝武本紀》][12] | [JSON](ulx_s90_lom.json) |
+| `um1_nbo_c79` | 梁氏女（斑所說） | [《史記・魯周公世家》][15] | [JSON](um1_nbo_c79.json) |
+| `umv_4mq_7sy` | 神君（長陵女子敘事） | [《史記・孝武本紀》][12] | [JSON](umv_4mq_7sy.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
