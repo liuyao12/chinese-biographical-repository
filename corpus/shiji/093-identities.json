@@ -224,10 +224,6 @@
           "quote": "漢十二年，東擊黥布，豨常將兵居代，漢使樊噲擊斬豨。其裨將降，言燕王綰使范齊通計謀於豨所。高祖使使召盧綰，綰稱病。上又使辟陽侯審食其、御史大夫趙堯往迎燕王，因驗問左右。綰愈恐，閉匿，謂其幸臣曰：「非劉氏而王，獨我與長沙耳。往年春，漢族淮陰，夏，誅彭越，皆呂后計。今上病，屬任呂后。呂后婦人，專欲以事誅異姓王者及大功臣。」乃遂稱病不行。其左右皆亡匿。語頗泄，辟陽侯聞之，歸具報上，上益怒。又得匈奴降者，降者言張勝亡在匈奴，為燕使。於是上曰：「盧綰果反矣！」使樊噲擊燕。燕王綰悉將其宮人家屬騎數千居長城下，侯伺，幸上病愈，自入謝。四月，高祖崩，盧綰遂將其眾亡入匈奴，匈奴以為東胡盧王。綰為蠻夷所侵奪，常思復歸。居歲餘，死胡中。"
         },
         {
-          "paragraph_id": "c-shiji-093-hanlu:p012",
-          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。"
-        },
-        {
           "paragraph_id": "c-shiji-093-hanlu:p014",
           "quote": "陳豨者，宛朐人也，不知始所以得從。及高祖七年冬，韓王信反，入匈奴，上至平城還，乃封豨為列侯，以趙相國將監趙、代邊兵，邊兵皆屬焉。"
         },
@@ -582,7 +578,7 @@
     },
     {
       "id": "d-shiji093-021",
-      "person_id": "xlt_9ml_n9i",
+      "person_id": "h8u_hld_5su",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-093-hanlu"
@@ -1146,7 +1142,7 @@
     },
     {
       "id": "d-shiji093-045",
-      "person_id": "smi_qcr_wtg",
+      "person_id": "i30_mjq_6q8_A",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-093-hanlu"
@@ -1166,7 +1162,7 @@
     },
     {
       "id": "d-shiji093-046",
-      "person_id": "4xv_p1u_vn2",
+      "person_id": "i30_mjq_6q8_A",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-093-hanlu"
@@ -1512,6 +1508,56 @@
       ],
       "rationale": "盧綰妻子及盧綰妻亦病死指未名妻，子女不補姓名。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji093-preferred-gaohou",
+      "person_id": "i30_mjq_6q8_A",
+      "surfaces": [
+        "高祖"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-093-hanlu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-093-hanlu:p012",
+          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，為欲置酒見之。高祖竟崩，不得見。盧綰妻亦病死。"
+        }
+      ],
+      "rationale": "本段高后時、會高后病、為欲置酒見之承接高后主語；三家註數位正文作高后竟崩，首選此讀而保原字，不把該字當呂后真實別名。 僅辨人物指涉，未改正文、未推妻卒年，未核書影。",
+      "references": [
+        {
+          "id": "rv-shiji093-gaohou",
+          "paragraph_id": "c-shiji-093-hanlu:p012",
+          "person_ids": [
+            "i30_mjq_6q8_A",
+            "eav_dh2_8o8"
+          ],
+          "source_term": "高祖竟崩",
+          "received_reading": "高祖",
+          "reported_reading": "高后",
+          "commentator": "《史記三家註》數位正文（不是注家語）",
+          "quote": "高后時，盧綰妻子亡降漢，會高后病，不能見，舍燕邸，爲欲置酒見之。高后竟崩，不得見。盧綰妻亦病死。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷093&oldid=2514763",
+          "status": "reported_not_collated",
+          "adopted": false,
+          "image_verified": false,
+          "revision_id": 2514763
+        }
+      ],
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-093-hanlu:m012-0032",
+        "received_surface": "高祖",
+        "preferred_surface": "高后",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji093-gaohou",
+        "status": "editorial_provisional",
+        "rationale": "本段高后時、會高后病、為欲置酒見之承接高后主語；三家註數位正文作高后竟崩，首選此讀而保原字，不把該字當呂后真實別名。"
+      },
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
     }
   ]
 }

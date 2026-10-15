@@ -167,3 +167,64 @@ class HanLuIdentityTests(unittest.TestCase):
             self.assertNotIn(pid, people)
             self.assertFalse((ROOT / f'exports/persons/{pid}.json').exists())
             self.assertFalse((ROOT / f'data/corpus/profiles/{pid}.json').exists())
+
+    def test_lvhou_gaohou_and_weigong_have_contextual_identities(self):
+        self.assertEqual(self.ids(self.paragraph('093', 'p011'), '呂后'), {'i30_mjq_6q8_A'})
+        self.assertEqual(self.ids(self.paragraph('093', 'p012'), '高后'), {'i30_mjq_6q8_A'})
+        self.assertEqual(self.ids(self.paragraph('093', 'p020'), '魏公子'), {'h8u_hld_5su'})
+        decisions = json.loads((ROOT / 'corpus/shiji/093-equivalences.json').read_text())['decisions']
+        for key in ('lvhou', 'gaohou', 'weigong'):
+            d = next(d for d in decisions if d['id'] == 'eq-shiji093-lvhou-weigong-' + key)
+            self.assertTrue(d['identity_materialized'])
+            self.assertEqual(d['status'], 'contextual_provisional')
+            self.assertGreaterEqual(len(d['chapter_ids']), 2)
+        # Preserve received glyphs while recording the preferred referent.
+        self.assertIn('高祖竟崩', self.paragraph('093', 'p012')['text'])
+        self.assertEqual(self.ids(self.paragraph('093', 'p012'), '高祖'), {'i30_mjq_6q8_A'})
+
+    def test_lvhou_weigong_retired_candidates_have_no_json_or_aliases(self):
+        persons = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
+        ids = {p['id'] for p in persons}
+        aliases = {a for p in persons for a in p.get('id_aliases', [])}
+        for pid in ('smi_qcr_wtg', '4xv_p1u_vn2', 'xlt_9ml_n9i'):
+            self.assertNotIn(pid, ids)
+            self.assertNotIn(pid, aliases)
+            self.assertFalse((ROOT / f'exports/persons/{pid}.json').exists())
+            self.assertFalse((ROOT / f'data/corpus/profiles/{pid}.json').exists())
+
+    def test_gaohou_editorial_reading_does_not_become_false_alias(self):
+        p = json.loads((ROOT / 'data/corpus/profiles/i30_mjq_6q8_A.json').read_text())
+        self.assertNotIn('高祖', p['names'])
+        v = next(v for v in p['reported_variants'] if v['id'] == 'rv-shiji093-gaohou')
+        self.assertFalse(v['adopted'])
+        self.assertFalse(v['image_verified'])
+        self.assertIn('高后竟崩', v['quote'])
+        r = next(r for r in p['preferred_readings'] if r['person_mention_id'] == 'c-shiji-093-hanlu:m012-0032')
+        self.assertEqual(r['preferred_surface'], '高后')
+        self.assertTrue(r['source_spelling_is_not_alias'])
+
+    def test_preferred_reading_rejects_unreported_surface(self):
+        import tempfile, shutil
+        from scripts.validate_corpus import validate
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'repo'
+            shutil.copytree(ROOT, target, ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            p = target / 'corpus/shiji/093-identities.json'
+            x = json.loads(p.read_text())
+            d = next(d for d in x['decisions'] if d['id'] == 'd-shiji093-preferred-gaohou')
+            d['preferred_reading']['preferred_surface'] = '高帝'
+            p.write_text(json.dumps(x, ensure_ascii=False))
+            self.assertTrue(any('首選校讀' in e for e in validate(target)))
+
+    def test_preferred_reading_rejects_another_paragraph_anchor(self):
+        import tempfile, shutil
+        from scripts.validate_corpus import validate
+        with tempfile.TemporaryDirectory() as folder:
+            target = Path(folder) / 'repo'
+            shutil.copytree(ROOT, target, ignore=shutil.ignore_patterns('.git', '__pycache__'))
+            p = target / 'corpus/shiji/093-identities.json'
+            x = json.loads(p.read_text())
+            d = next(d for d in x['decisions'] if d['id'] == 'd-shiji093-preferred-gaohou')
+            d['preferred_reading']['person_mention_id'] = 'c-shiji-093-hanlu:m012-0000'
+            p.write_text(json.dumps(x, ensure_ascii=False))
+            self.assertTrue(any('首選校讀' in e for e in validate(target)))

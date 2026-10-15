@@ -52,16 +52,23 @@ def build(root=ROOT):
                 bounds.append((f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定')
             titles.append(dict(x, period=' → '.join(bounds)))
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]
+        non_alias_mentions = {d['preferred_reading']['person_mention_id'] for d in b.get('identity_decisions', [])
+                              if d.get('preferred_reading', {}).get('source_spelling_is_not_alias') is True}
         names=[]
         for p in b['persons']:
             if p['id'] in own:
                 for a in p.get('aliases',[]):
+                    if a.get('mention_ids') and set(a['mention_ids']).issubset(non_alias_mentions):
+                        continue
                     s=a['surface']
                     if s not in names:names.append(s)
         for cell in cells:
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
         profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people.get(pid, {}).get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':people.get(pid, {}).get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
+        if preferred_readings:
+            profile['preferred_readings'] = preferred_readings
         profile['name_components'] = [r for r in name_records if r['person_id'] in own]
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
