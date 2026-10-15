@@ -61,13 +61,20 @@ def export(root=ROOT):
     source_labels = {}
     source_references = []
     for record in catalog[1]:
-        if record.get('record_type') != 'marked_chapter':
+        if record.get('record_type') == 'marked_chapter':
+            title = re.sub(r'第[一二三四五六七八九十百千〇零]+$', '', record['title'])
+            label = '《' + works[record['work_id']] + '・' + title + '》'
+            url = record['source'].get('permalink') or record['source']['url']
+            source_id = record['source_id']
+        elif record.get('record_type') == 'historical_table_source':
+            table = record['table']
+            label = table['title'].replace('·', '・')
+            url = table['source']['revision_url']
+            source_id = table['source']['id']
+        else:
             continue
-        title = re.sub(r'第[一二三四五六七八九十百千〇零]+$', '', record['title'])
-        label = '《' + works[record['work_id']] + '・' + title + '》'
-        url = record['source'].get('permalink') or record['source']['url']
         number = len(source_references) + 1
-        source_labels[record['source_id']] = f'[{label}][{number}]'
+        source_labels[source_id] = f'[{label}][{number}]'
         source_references.append(f'[{number}]: {url}')
     def source_column(row):
         return '、'.join(source_labels[sid] for sid in row['most_mentioned_source_ids']) or '—'
@@ -99,7 +106,10 @@ def export(root=ROOT):
         rows.append({'person_id': output_id, 'label': person['label'], 'path': output_id + '.json',
                      'id_aliases': person.get('id_aliases', []),
                      'identity_policy': result['identity_policy'],
-                     'mention_count': len(result['mentions']), 'source_count': len(result['sources']),
+                     'mention_count': len(result['mentions']) + len(result['table_occurrences']),
+                     'paragraph_mention_count': len(result['mentions']),
+                     'table_mention_count': len(result['table_occurrences']),
+                     'source_count': len(result['sources']),
                      'most_mentioned_source_ids': result['most_mentioned_source_ids']})
         omitted_parent_decisions = [decision['id'] for decision in result['family_tree_decisions']
             if decision['default_view'] == 'omit_unproven_biological_parent_edge'
