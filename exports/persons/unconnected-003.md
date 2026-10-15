@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vnj_9ny_oq5` | 冥（商先祖） | [《史記・殷本紀》][3] | [JSON](vnj_9ny_oq5.json) |
-| `vnm_2mr_2d6` | 周殷 | [《史記・荊燕世家》][33] | [JSON](vnm_2mr_2d6.json) |
-| `vnm_ppc_xjm` | 項梁 | [《史記・劉敬叔孫通列傳》][81] | [JSON](vnm_ppc_xjm.json) |
-| `vo2_2ho_kyz` | 扈輒 | [《史記・廉頗藺相如列傳》][63] | [JSON](vo2_2ho_kyz.json) |
-| `vo4_81a_ot0` | 知伯 | [《史記・韓世家》][27] | [JSON](vo4_81a_ot0.json) |
-| `vo8_9o3_qgz` | 閼與被斬軍中候未名 | [《史記・廉頗藺相如列傳》][63] | [JSON](vo8_9o3_qgz.json) |
-| `voa_fj1_ia2` | 晉悼公 | [《史記・韓世家》][27] | [JSON](voa_fj1_ia2.json) |
 | `vog_yel_p0d` | 公叔座 | [《史記・商君列傳》][50] | [JSON](vog_yel_p0d.json) |
 | `voy_rog_jbw` | 昭王 | [《史記・周本紀》][4] | [JSON](voy_rog_jbw.json) |
 | `vp2_qeq_33j` | 楚王書信 | [《史記・蘇秦列傳》][51] | [JSON](vp2_qeq_33j.json) |
@@ -642,7 +635,6 @@
 [30]: https://zh.wikisource.org/w/index.php?title=史記/卷048&oldid=2531218
 [31]: https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610
 [32]: https://zh.wikisource.org/w/index.php?title=史記/卷050&oldid=8737728
-[33]: https://zh.wikisource.org/w/index.php?title=史記/卷051&oldid=2380315
 [34]: https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113
 [35]: https://zh.wikisource.org/w/index.php?title=史記/卷053&oldid=2087971
 [36]: https://zh.wikisource.org/w/index.php?title=史記/卷054&oldid=1490182

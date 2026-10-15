@@ -50,3 +50,22 @@ class ConsolidationReferenceTests(unittest.TestCase):
     def test_child_id_is_not_changed_by_parent_substring(self):
         child = self.old + 'A'
         self.assertEqual(rewrite({'person_id': child}, self.mapping)['person_id'], child)
+
+    def test_unrelated_consolidation_preserves_unknown_narrator_possibility(self):
+        from unittest.mock import patch
+        from scripts.consolidate_person_ids import stage
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)/'source';out=Path(tmp)/'staged'
+            (root/'registry').mkdir(parents=True);(root/'corpus/book').mkdir(parents=True)
+            case={'id':'synthetic-case','candidate_person_ids':[self.old],
+                  'unknown_identity_possible':True,'unresolved_mention_ids':['synthetic-anchor'],
+                  'status':'unresolved','note':'未知敘者仍可能'}
+            data={'record_type':'synthetic','annotation':{'unresolved_identity_cases':[case],
+                  'resolved_identity_cases':[{'id':'synthetic-previous'}]}}
+            (root/'corpus/book/chapter.json').write_text(json.dumps(data))
+            with patch('scripts.consolidate_person_ids.plan',return_value=([],self.mapping)),patch('scripts.consolidate_person_ids.load_catalog',return_value=({},[])):
+                stage(root,out)
+            actual=json.loads((out/'corpus/book/chapter.json').read_text())['annotation']
+            expected=dict(case,candidate_person_ids=[self.new])
+            self.assertEqual(actual['unresolved_identity_cases'],[expected])
+            self.assertEqual(actual['resolved_identity_cases'],[{'id':'synthetic-previous'}])

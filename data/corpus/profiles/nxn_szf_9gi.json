@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "nxn_szf_9gi",
   "canonical_person_id": "nxn_szf_9gi",
-  "label": "閎孺（佞幸列傳候選）",
+  "label": "閎孺",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -40,6 +40,14 @@
   ],
   "occurrences": [
     {
+      "number": 97,
+      "category": "liezhuan",
+      "title": "酈生陸賈列傳第三十七",
+      "paragraph_id": "c-shiji-097-luli:p018",
+      "count": 2,
+      "quote": "侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是"
+    },
+    {
       "number": 125,
       "category": "liezhuan",
       "title": "佞幸列傳第六十五",
@@ -50,6 +58,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-097-luli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-097",
+      "source_id": "s-shiji-097-luli",
+      "source": {
+        "title": "史記／卷097",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷097",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
+        "revision_id": 1383195,
+        "accessed_on": "2026-10-09",
+        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
+          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
@@ -77,9 +109,131 @@
   ],
   "relations": [],
   "related_people": {
-    "nxn_szf_9gi": "閎孺（佞幸列傳候選）"
+    "nxn_szf_9gi": "閎孺"
   },
   "dates": [],
+  "preferred_readings": [
+    {
+      "person_mention_id": "c-shiji-097-luli:m018-0093",
+      "received_surface": "閎籍孺",
+      "preferred_surface": "閎孺",
+      "source_spelling_is_not_alias": true,
+      "variant_id": "rv-shiji097-hongru",
+      "status": "editorial_provisional",
+      "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
+      "decision_id": "d-shiji097-024"
+    },
+    {
+      "person_mention_id": "c-shiji-097-luli:m018-0196",
+      "received_surface": "閎籍孺",
+      "preferred_surface": "閎孺",
+      "source_spelling_is_not_alias": true,
+      "variant_id": "rv-shiji097-hongru",
+      "status": "editorial_provisional",
+      "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
+      "decision_id": "d-shiji097-hongru-second-mention"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji097-024",
+      "person_id": "nxn_szf_9gi",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-097-luli"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "surfaces": [
+        "閎籍孺"
+      ],
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-097-luli:p018",
+          "quote": "辟陽侯幸呂太后，人或毀辟陽侯於孝惠帝，孝惠帝大怒，下吏，欲誅之。呂太后慚，不可以言。大臣多害辟陽侯行，欲遂誅之。辟陽侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是閎籍孺大恐，從其計，言帝，果出辟陽侯。辟陽侯之囚，欲見平原君，平原君不見辟陽侯，辟陽侯以為倍己，大怒。及其成功出之，乃大驚。"
+        }
+      ],
+      "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
+      "references": [
+        {
+          "id": "rv-shiji097-hongru",
+          "paragraph_id": "c-shiji-097-luli:p018",
+          "person_ids": [
+            "nxn_szf_9gi"
+          ],
+          "source_term": "孝惠幸臣閎籍孺",
+          "received_reading": "閎籍孺",
+          "reported_reading": "閎孺",
+          "commentator": "司馬貞〈索隱〉辨誤（《史記三家註》數位見證）",
+          "quote": "案：佞幸傳云高祖時有籍孺，孝惠時有閎孺。今總言「閎籍孺」，誤也。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷097&oldid=2514767",
+          "status": "reported_not_collated",
+          "adopted": false,
+          "image_verified": false,
+          "revision_id": 2514767
+        }
+      ],
+      "human_reviewed": false,
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-097-luli:m018-0093",
+        "received_surface": "閎籍孺",
+        "preferred_surface": "閎孺",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji097-hongru",
+        "status": "editorial_provisional",
+        "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。"
+      }
+    },
+    {
+      "id": "d-shiji097-hongru-second-mention",
+      "person_id": "nxn_szf_9gi",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-097-luli"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "surfaces": [
+        "閎籍孺"
+      ],
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-097-luli:p018",
+          "quote": "辟陽侯幸呂太后，人或毀辟陽侯於孝惠帝，孝惠帝大怒，下吏，欲誅之。呂太后慚，不可以言。大臣多害辟陽侯行，欲遂誅之。辟陽侯急，因使人欲見平原君。平原君辭曰：「獄急，不敢見君。」乃求見孝惠幸臣閎籍孺，說之曰：「君所以得幸帝，天下莫不聞。今辟陽侯幸太后而下吏，道路皆言君讒，欲殺之。今日辟陽侯誅，旦日太后含怒，亦誅君。何不肉袒為辟陽侯言於帝？帝聽君出辟陽侯，太后大驩。兩主共幸君，君貴富益倍矣。」於是閎籍孺大恐，從其計，言帝，果出辟陽侯。辟陽侯之囚，欲見平原君，平原君不見辟陽侯，辟陽侯以為倍己，大怒。及其成功出之，乃大驚。"
+        }
+      ],
+      "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。",
+      "references": [
+        {
+          "id": "rv-shiji097-hongru",
+          "paragraph_id": "c-shiji-097-luli:p018",
+          "person_ids": [
+            "nxn_szf_9gi"
+          ],
+          "source_term": "孝惠幸臣閎籍孺",
+          "received_reading": "閎籍孺",
+          "reported_reading": "閎孺",
+          "commentator": "司馬貞〈索隱〉辨誤（《史記三家註》數位見證）",
+          "quote": "案：佞幸傳云高祖時有籍孺，孝惠時有閎孺。今總言「閎籍孺」，誤也。",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷097&oldid=2514767",
+          "status": "reported_not_collated",
+          "adopted": false,
+          "image_verified": false,
+          "revision_id": 2514767
+        }
+      ],
+      "human_reviewed": false,
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-097-luli:m018-0196",
+        "received_surface": "閎籍孺",
+        "preferred_surface": "閎孺",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji097-hongru",
+        "status": "editorial_provisional",
+        "rationale": "本篇明孝惠幸臣；佞幸篇區別高祖籍孺與孝惠閎孺，索隱明指閎籍孺混稱有誤。暫辨所指為閎孺，仍保本篇原字並另記首選校讀，不把閎籍孺當閎孺通用別名，不合籍孺。"
+      }
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "nxn_szf_9gi"
@@ -88,5 +242,24 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-shiji097-hongru",
+      "paragraph_id": "c-shiji-097-luli:p018",
+      "person_ids": [
+        "nxn_szf_9gi"
+      ],
+      "source_term": "孝惠幸臣閎籍孺",
+      "received_reading": "閎籍孺",
+      "reported_reading": "閎孺",
+      "commentator": "司馬貞〈索隱〉辨誤（《史記三家註》數位見證）",
+      "quote": "案：佞幸傳云高祖時有籍孺，孝惠時有閎孺。今總言「閎籍孺」，誤也。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷097&oldid=2514767",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "revision_id": 2514767
+    }
+  ]
 }

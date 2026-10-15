@@ -2211,13 +2211,12 @@
 
 </details>
 
-<details><summary><code>tkc_9z3_91l</code> 朱建（酈生陸賈列傳候選）（3 名）</summary>
+<details><summary><code>tkc_9z3_91l</code> 朱建（酈生陸賈列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 朱建 | [《史記・酈生陸賈列傳》][79] | [JSON](tkc_9z3_91l.json) |
-| `A` | 朱建子未名（太史公友） | [《史記・酈生陸賈列傳》][79] | [JSON](tkc_9z3_91l_A.json) |
-| `B` | 朱建子未名（使匈奴） | [《史記・酈生陸賈列傳》][79] | [JSON](tkc_9z3_91l_B.json) |
+| `A` | 朱建子未名 | [《史記・酈生陸賈列傳》][79] | [JSON](tkc_9z3_91l_A.json) |
 
 </details>
 
