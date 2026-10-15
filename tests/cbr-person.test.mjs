@@ -225,3 +225,11 @@ test('life summary retains explicit year ranges, source age and reference safety
  const html=personCard(p,true);assert.match(html,/西元前153至152年（暫定範圍）/);assert.match(html,/孝景前五年/);assert.match(html,/百有餘歲/);assert.match(html,/https:\/\/example.com\/calendar/);
  assert.doesNotMatch(html,/100 歲|享年|<strong>西元前152年<\/strong>|javascript:|<script>/);
 });
+test('傳說分類在卡片與人物頁明示，缺資料時省略',()=>{
+ const p={id:'synthetic_legend',label:'合成傳說人物',historicity:'legendary_tradition'};
+ for(const full of [false,true]){
+  assert.match(personCard(p,full),/class="person-historicity">傳說敘事人物/);
+  assert.doesNotMatch(personCard({...p,historicity:undefined},full),/person-historicity/);
+  assert.doesNotMatch(personCard({...p,historicity:'historical_tradition'},full),/person-historicity/);
+ }
+});

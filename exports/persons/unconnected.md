@@ -1046,7 +1046,6 @@
 | `7gg_m5f_ub1` | 孝武皇帝 | [《史記・屈原賈生列傳》][66] | [JSON](7gg_m5f_ub1.json) |
 | `7gs_9lq_cdp` | 萬章 | [《史記・孟子荀卿列傳》][56] | [JSON](7gs_9lq_cdp.json) |
 | `7gz_q9f_d37` | 鄭莊公 | [《史記・周本紀》][4] | [JSON](7gz_q9f_d37.json) |
-| `7hd_xs5_eks` | 蚩尤 | [《史記・酈生陸賈列傳》][79] | [JSON](7hd_xs5_eks.json) |
 | `7he_05e_e75` | 叔向（楚篇議子比者） | [《史記・楚世家》][22] | [JSON](7he_05e_e75.json) |
 | `7hi_gqd_koj` | 彭祖 | [《史記・五帝本紀》][1] | [JSON](7hi_gqd_koj.json) |
 | `7hl_jbv_m5y` | 子駟 | [《史記・鄭世家》][24] | [JSON](7hl_jbv_m5y.json) |
@@ -1676,13 +1675,11 @@
 | `bxu_47d_1lv` | 子陽 | [《史記・扁鵲倉公列傳》][87] | [JSON](bxu_47d_1lv.json) |
 | `bxw_vv0_1t3` | 吳陽 | [《史記・東越列傳》][96] | [JSON](bxw_vv0_1t3.json) |
 | `bye_bxt_gks` | 季平子 | [《史記・孔子世家》][29] | [JSON](bye_bxt_gks.json) |
-| `byn_obj_9yj` | 夫差 | [《史記・酈生陸賈列傳》][79] | [JSON](byn_obj_9yj.json) |
 | `byo_1xs_pax` | 燕王喜 | [《史記・樗里子甘茂列傳》][53] | [JSON](byo_1xs_pax.json) |
 | `bz6_7ka_tht` | 范齊 | [《史記・韓信盧綰列傳》][75] | [JSON](bz6_7ka_tht.json) |
 | `bz7_7qg_pz7` | 跖 | [《史記・游俠列傳》][106] | [JSON](bz7_7qg_pz7.json) |
 | `bz9_nkh_ebk` | 張儀妻 | [《史記・張儀列傳》][52] | [JSON](bz9_nkh_ebk.json) |
 | `bzo_2h9_2wd` | 齊景公 | [《史記・孔子世家》][29] | [JSON](bzo_2h9_2wd.json) |
-| `bzw_kmw_yhu` | 武（古王引語） | [《史記・酈生陸賈列傳》][79] | [JSON](bzw_kmw_yhu.json) |
 | `c0b_mpt_epd` | 長公主（賜鄧通） | [《史記・佞幸列傳》][107] | [JSON](c0b_mpt_epd.json) |
 | `c18_pif_asp` | 犖（圉人） | [《史記・魯周公世家》][15] | [JSON](c18_pif_asp.json) |
 | `c23_24c_gpm` | 膠西王卬 | [《史記・老子韓非列傳》][45] | [JSON](c23_24c_gpm.json) |
@@ -2227,6 +2224,9 @@
 | `fqw_nka_rjt` | 甘茂 | [《史記・韓世家》][27] | [JSON](fqw_nka_rjt.json) |
 | `fr3_x62_cai` | 河亶甲 | [《史記・殷本紀》][3] | [JSON](fr3_x62_cai.json) |
 | `fr7_6v8_rjo` | 大任 | [《史記・太史公自序》][112] | [JSON](fr7_6v8_rjo.json) |
+| `fs1_3m9_rj3` | 章平 | [《史記・曹相國世家》][36] | [JSON](fs1_3m9_rj3.json) |
+| `fs3_38r_obw` | 須賈 | [《史記・范睢蔡澤列傳》][61] | [JSON](fs3_38r_obw.json) |
+| `fto_fi5_11x` | 大駱 | [《史記・秦本紀》][5] | [JSON](fto_fi5_11x.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
