@@ -12,6 +12,7 @@ class CorpusTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
+        shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):
@@ -1038,5 +1039,16 @@ class CorpusTests(unittest.TestCase):
             case['candidate_person_ids'] = case['candidate_person_ids'][:1]
         self.change('corpus/shiji/097.json', change)
         self.assertNotIn('未決身份候選人物無效', v.validate(self.root))
+
+    def test_table_parent_quote_cannot_be_edited_independently(self):
+        self.change('corpus/shiji/016-assertions.json',lambda d:d['assertions'][0]['evidence'][0].update(quote='敖子'))
+        self.assertIn('親屬表格引句須完整對應原格',v.validate(self.root))
+
+    def test_table_parent_source_requires_registered_book(self):
+        def change(d):
+            work=next(w for w in d['works'] if w['id']=='w-shiji')
+            work['books']=[b for b in work['books'] if b['id']!='b-shiji-016']
+        self.change('registry/works.json',change)
+        self.assertIn('表格證據著作卷篇未登記或歸屬不符',v.validate(self.root))
 
 if __name__=='__main__':unittest.main()

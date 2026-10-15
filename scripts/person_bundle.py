@@ -10,6 +10,12 @@ ROOT = Path(__file__).resolve().parents[1]
 def load_catalog(root=ROOT):
     people = {p['id']: p for p in json.loads((root / 'registry/persons.json').read_text())['persons']}
     records = [json.loads(path.read_text()) for path in sorted((root / 'corpus').glob('*/*.json'))]
+    try:
+        from .table_evidence import load_tables
+    except ImportError:
+        from table_evidence import load_tables
+    records.extend({'record_type': 'historical_table_source', 'table': table}
+                   for table in load_tables(root).values())
     name_path = root / 'data/corpus/profile-names.json'
     if name_path.exists():
         records.append({'record_type': 'person_name_component_set',
@@ -36,7 +42,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     related_equivalences = [d for d in equivalences if ids.intersection(d['person_ids'])]
     mentions, relations, titles, identities, addresses, life_events, ages, person_events, age_differences = [], [], [], [], [], [], [], [], []
     name_components = []
-    chapters, paragraphs = {}, {}
+    chapters, paragraphs, tables = {}, {}, {}
     for record in records:
         kind = record.get('record_type')
         if kind == 'marked_chapter':
@@ -50,6 +56,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                         mentions.append(dict(mention, paragraph_id=paragraph['id'], chapter_id=record['id']))
         elif kind == 'person_assertion_set':
             relations.extend(a for a in record['assertions'] if a['subject_person_id'] in ids or a['object_person_id'] in ids)
+        elif kind == 'historical_table_source':
+            tables[record['table']['id']] = record['table']
         elif kind == 'person_address_assertion_set':
             addresses.extend(a for a in record['assertions'] if a['person_id'] in ids)
         elif kind == 'person_life_event_assertion_set':
@@ -121,7 +129,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
-        paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []))
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []))
         for evidence in record.get('evidence', []):
@@ -141,6 +149,24 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         passages.append(dict(paragraph, chapter_id=chapter['id'], book_id=chapter['book_id'],
                              work_id=chapter['work_id'], source_id=chapter['source_id']))
     chapter_ids = {p['chapter_id'] for p in passages}
+    table_passages, cited_tables = {}, set()
+    for relation in relations:
+        for evidence in relation['evidence']:
+            if evidence.get('kind') != 'table_cell':
+                continue
+            try:
+                from .table_evidence import table_cell, table_evidence_errors
+            except ImportError:
+                from table_evidence import table_cell, table_evidence_errors
+            errors = table_evidence_errors(evidence, tables, relation['subject_person_id'], relation['object_person_id'])
+            if errors:
+                raise ValueError('；'.join(errors))
+            table = tables[evidence['table_id']]
+            cell = table_cell(table, evidence['table_cell_id'])
+            cited_tables.add(table['id'])
+            table_passages[cell['id']] = dict(cell, table_id=table['id'],
+                work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                chapter_id=table['source']['chapter_id'], source_id=table['source']['id'])
     # Counts describe annotated occurrences, not source authority or independent witnesses.
     source_mentions = {}
     for mention in mentions:
@@ -218,9 +244,15 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                         if key in a.get('qualifiers', {})],
             'identity_decisions': identities, 'equivalence_decisions': related_equivalences,
             'passages': passages,
+            **({'table_passages': list(table_passages.values())} if table_passages else {}),
             'sources': [{'chapter_id': cid, 'work_id': chapters[cid]['work_id'],
                          'book_id': chapters[cid]['book_id'], 'source_id': chapters[cid]['source_id'],
-                         'source': chapters[cid]['source']} for cid in sorted(chapter_ids)],
+                         'source': chapters[cid]['source']} for cid in sorted(chapter_ids)]
+                       + [{'chapter_id': tables[tid]['source']['chapter_id'],
+                           'work_id': tables[tid]['source']['work_id'],
+                           'book_id': tables[tid]['source']['book_id'],
+                           'source_id': tables[tid]['source']['id'],
+                           'source': tables[tid]['source']} for tid in sorted(cited_tables)],
             'time_policy': {'unknown_is_not_unbounded': True, 'attestation_is_not_tenure': True,
                             'date_expressions_are_not_normalized': False, 'date_normalization_coverage': 'partial',
                             'normalized_year_numbering': 'astronomical'}}

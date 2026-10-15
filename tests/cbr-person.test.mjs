@@ -239,3 +239,12 @@ test('未窮盡候選明示於人物頁，不把缺旗標當作完整名單',()=
  assert.match(personCard(p,true),/已列候選人物（未窮盡）/);
  assert.doesNotMatch(personCard({...p,unresolved_identity_cases:[{...c,candidate_list_exhaustive:undefined}]},true),/未窮盡/);
 });
+test('親屬表格來源回到原格，不冒作正文段落',()=>{
+ const e={kind:'table_cell',table_id:'shiji-016',table_cell_id:'shiji-016-t2-r033-c04',quote:'合成表格親屬引文'};
+ const p={id:'synthetic_child',label:'合成子',relations:[{subject_person_id:'synthetic_child',object_person_id:'synthetic_parent',predicate:'father',qualifiers:{source_term:'合成關係原詞'},evidence:[e]}]};
+ const html=personCard(p,true);
+ assert.match(html,/來源表格 →/);
+ assert.match(html,/shiji\.html#chapter=16&amp;category=biao&amp;cell=shiji-016-t2-r033-c04/);
+ assert.doesNotMatch(html,/passage=undefined|passage=shiji-016/);
+ assert.doesNotMatch(personCard({...p,relations:[{...p.relations[0],evidence:[{...e,table_id:'javascript:synthetic'}]}]},true),/href="javascript:/);
+});

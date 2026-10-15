@@ -6,18 +6,12 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fvc_9z0_643` | 淖齒 | [《史記・田敬仲完世家》][28] | [JSON](fvc_9z0_643.json) |
-| `fvc_qlq_6o2` | 韓王 | [《史記・老子韓非列傳》][45] | [JSON](fvc_qlq_6o2.json) |
-| `fvd_oal_6gi` | 越王句踐 | [《史記・蘇秦列傳》][51] | [JSON](fvd_oal_6gi.json) |
-| `fve_0yd_kml` | 康王姬（荊燕世家未名者） | [《史記・荊燕世家》][33] | [JSON](fve_0yd_kml.json) |
-| `fw5_vd1_4xy` | 禹 | [《史記・龜策列傳》][110] | [JSON](fw5_vd1_4xy.json) |
 | `fw7_8k1_43d` | 周最 | [《史記・孟嘗君列傳》][57] | [JSON](fw7_8k1_43d.json) |
 | `fw9_g5w_om8` | 堯 | [《史記・趙世家》][25] | [JSON](fw9_g5w_om8.json) |
 | `fwf_1wp_wzg` | 呂太后 | [《史記・齊悼惠王世家》][34] | [JSON](fwf_1wp_wzg.json) |
 | `fwu_nkh_9qr` | 張羽 | [《史記・吳王濞列傳》][88] | [JSON](fwu_nkh_9qr.json) |
 | `fx4_ybu_7b9` | 長盧 | [《史記・孟子荀卿列傳》][56] | [JSON](fx4_ybu_7b9.json) |
 | `fxa_91g_1cz` | 召滑 | [《史記・樗里子甘茂列傳》][53] | [JSON](fxa_91g_1cz.json) |
-| `fxc_ppb_ofs` | 丞相敞未詳姓 | [《史記・傅靳蒯成列傳》][80] | [JSON](fxc_ppb_ofs.json) |
 | `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][26] | [JSON](fxh_d0f_a1l.json) |
 | `fxy_b0h_ssn` | 公子光（楚篇吳伐楚者） | [《史記・楚世家》][22] | [JSON](fxy_b0h_ssn.json) |
 | `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][47] | [JSON](fy2_9h4_gdt.json) |
@@ -1816,7 +1810,6 @@
 | `st2_0ng_tvo` | 樂巨公 | [《史記・田叔列傳》][86] | [JSON](st2_0ng_tvo.json) |
 | `st8_x29_boy` | 公孫弘 | [《史記・李將軍列傳》][91] | [JSON](st8_x29_boy.json) |
 | `st9_wg7_o4r` | 稽沮王（未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](st9_wg7_o4r.json) |
-| `stm_voa_t08` | 共尉 | [《史記・荊燕世家》][33] | [JSON](stm_voa_t08.json) |
 | `stp_bip_036` | 許章 | [《史記・曹相國世家》][36] | [JSON](stp_bip_036.json) |
 | `sua_nwp_l10` | 柱天侯 | [《史記・曹相國世家》][36] | [JSON](sua_nwp_l10.json) |
 | `suw_tds_nwl` | 大長公主 | [《史記・韓長孺列傳》][90] | [JSON](suw_tds_nwl.json) |
@@ -2234,6 +2227,13 @@
 | `vti_9il_trm` | 今上 | [《史記・龜策列傳》][110] | [JSON](vti_9il_trm.json) |
 | `vti_onv_iur` | 秦穆公 | [《史記・扁鵲倉公列傳》][87] | [JSON](vti_onv_iur.json) |
 | `vtj_31m_zlc` | 樂欬 | [《史記・仲尼弟子列傳》][49] | [JSON](vtj_31m_zlc.json) |
+| `vtn_thh_540` | 申不害 | [《史記・老子韓非列傳》][45] | [JSON](vtn_thh_540.json) |
+| `vud_z3k_zfc` | 上黨郡守（韓世家未名者） | [《史記・韓世家》][27] | [JSON](vud_z3k_zfc.json) |
+| `vug_czu_mzb` | 莊生之婦（越世家未名者） | [《史記・越王勾踐世家》][23] | [JSON](vug_czu_mzb.json) |
+| `vug_pb4_94e` | 信（曹相國提要） | [《史記・太史公自序》][112] | [JSON](vug_pb4_94e.json) |
+| `vur_b8c_5er` | 娥 | [《史記・齊悼惠王世家》][34] | [JSON](vur_b8c_5er.json) |
+| `vv0_3wv_i18` | 噲（袁盎兄） | [《史記・袁盎鼂錯列傳》][83] | [JSON](vv0_3wv_i18.json) |
+| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][21] | [JSON](vv9_ss8_28z.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
