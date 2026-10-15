@@ -364,3 +364,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 稱號來源時長界限亦支援 `unit: title_year` 的十餘年、十餘歲、十餘歳，原數詞十存為數字下界10且不含，上限未知；`value: null` 不當精確任期。月份原詞月餘與居月餘均以下界一且不含保存，`source_number: null` 表原文未寫數詞。年、月單位與原字必須相符；不得用授任前等待時長代替持職任期。
 
 生卒原段未載紀年時，`normalized_date_range.parallel_event` 可保存與單年平行事件相同的事件對讀欄位：`kind: parallel_event`、`source_event_quote`、`reference_url`、`reference_event_quote`、`reference_year_quote`，年表網址不同時另列 `reference_year_url`。此時來源 `date_expression: null` 保持，範圍 `basis: regnal_year_crosses_ce_year` 不變，原死亡詞、平行死亡引句、原紀年、數位對照及曆法引文分列。驗證須對應各引文與網址，不得僅憑背景年或空白原日期加入數字；不把平行來源原紀年塞進本文。
+
+來源報齡未滿可用 `reporting_status: upper_bound_report`、`value: null`、`bounds: {lower: null, lower_inclusive: null, upper: 20, upper_inclusive: false}` 保存年未滿二十。原數詞與原詞俱存，`source_qualification: null`，不補確切十九歲、生年或享年；其餘年齡證據、計歲未知及人物錨點檢查不變。

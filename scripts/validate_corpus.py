@@ -1061,6 +1061,12 @@ def validate(root=ROOT):
                                 check(isinstance(phrase, str) and bool(phrase) and phrase in evidence.get('quote', '')
                                       and isinstance(group.get('source_term'), str) and group['source_term'] in evidence.get('quote', '')
                                       and named == {i for i in members if isinstance(i, str)}, '群體報齡具名名單未見於引句')
+                    elif age.get('reporting_status') == 'upper_bound_report':
+                        check(age.get('value') is None and parsed is not None
+                              and bounds == {'lower': None, 'lower_inclusive': None, 'upper': parsed, 'upper_inclusive': False}
+                              and age.get('source_term') in ('年未滿' + str(number), '未滿' + str(number) + '歲', '未滿' + str(number) + '歳')
+                              and age.get('source_qualification') is None and not age.get('report_group_id'),
+                              '來源未滿報齡須保存開放上界及原詞，不得補確切歲數')
                     elif age.get('reporting_status') == 'direct_report':
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
