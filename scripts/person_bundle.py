@@ -100,6 +100,16 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
     enriched_names = []
     for name in name_components:
+        if name.get('kind') == 'table_cell':
+            try:
+                from .table_evidence import table_name_component_errors
+            except ImportError:
+                from table_evidence import table_name_component_errors
+            errors = table_name_component_errors(name, tables)
+            if errors:
+                raise ValueError('；'.join(errors))
+            enriched_names.append(dict(name))
+            continue
         hit = paragraphs.get(name.get('paragraph_id'))
         if (not hit or hit[0]['id'] != name.get('chapter_id')
                 or not isinstance(name.get('quote'), str) or not name['quote']
@@ -162,7 +172,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 'alternative_id': chosen['id'], 'qualifiers': qualifiers,
                 'evidence': case['evidence'], 'selection': case['selection']})
     paragraph_ids = {m['paragraph_id'] for m in mentions}
-    paragraph_ids.update(n['paragraph_id'] for n in name_components)
+    paragraph_ids.update(n['paragraph_id'] for n in name_components if n.get('kind') != 'table_cell')
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case['evidence'])
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])

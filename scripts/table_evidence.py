@@ -52,3 +52,30 @@ def table_evidence_errors(evidence, tables, subject, object_id):
             errors.append('親屬表格端點須有相符的逐人錨點')
             break
     return errors
+
+
+def table_name_component_errors(name, tables):
+    """姓名組件須引用同人的固定年表格及原名錨點。"""
+    table = tables.get(name.get('table_id'))
+    if not table:
+        return ['姓名組件表格不存在']
+    source = table['source']
+    errors = []
+    if ('paragraph_id' in name or name.get('kind') != 'table_cell'
+            or any(name.get(key) != source.get(source_key) for key, source_key in
+                   [('work_id','work_id'), ('book_id','book_id'), ('chapter_id','chapter_id'),
+                    ('source_id','id'), ('source_revision','revision')])):
+        errors.append('姓名組件表格來源或固定修訂不符')
+    cell = table_cell(table, name.get('table_cell_id'))
+    if not cell or not name.get('quote') or name['quote'] != cell['text']:
+        return errors + ['姓名組件表格引句須完整對應原格']
+    mention = next((m for m in cell.get('person_mentions', [])
+                    if m['id'] == name.get('person_mention_id')), None)
+    spelling = ''.join(name.get(key) or '' for key in ('surname', 'ming'))
+    if (not mention or mention.get('person_id') != name.get('person_id')
+            or not spelling or mention.get('surface') != spelling
+            or type(mention.get('start')) is not int or type(mention.get('end')) is not int
+            or not 0 <= mention['start'] < mention['end'] <= len(cell['text'])
+            or cell['text'][mention['start']:mention['end']] != spelling):
+        errors.append('姓名組件須有同人原名錨點，不得由職爵或他人補名')
+    return errors
