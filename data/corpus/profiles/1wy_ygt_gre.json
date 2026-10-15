@@ -23,6 +23,80 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-007-xiangyu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-007",
+      "source_id": "s-shiji-007-xiangyu",
+      "source": {
+        "title": "史記／卷007",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷007",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷007&oldid=5978360",
+        "revision_id": 5978360,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇傳世正文45個p區塊，自「項籍者」至太史公論贊；不含導覽標題、跨站連結與另署【索隱述贊】的後出注家文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "核讀p與dd原有次序；本篇dd僅為正文前跨站導覽，正文45區塊均為p。排除sup註號，保留行內校勘符號待核。",
+          "note": "固定版本正文HTML與所讀頁面重讀一致；未核紙本或影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-008-gaozu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-008",
+      "source_id": "s-shiji-008-gaozu",
+      "source": {
+        "title": "史記／卷008",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷008",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷008&oldid=2440965",
+        "revision_id": 2440965,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇傳世正文91個p區塊，自「高祖，沛豐邑中陽里人」至太史公論贊；不含導覽標題、跨站連結及另署【索隱述贊】的後出文字。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "馕": "饢"
+          },
+          "editorial_readings": [],
+          "extraction_note": "正文91段均為p；前置兩個dd為跨站導覽，不收錄。排除sup註號，保留原有行內校勘符號。",
+          "note": "第48、57段馕僅作明示簡繁轉換為饢，詞義與疑讀待核，不逕改為餉或饟。數位轉錄尚未核紙本或影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-091-qingbu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-091",
+      "source_id": "s-shiji-091-qingbu",
+      "source": {
+        "title": "史記／卷091",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷091",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940",
+        "revision_id": 2509940,
+        "accessed_on": "2026-10-09",
+        "extent": "19段傳世正文含太史公論，另附1段witness_appended_suoyin_zan，排除導覽與空白段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；范曾、讬、迺及布（甚）大怒原字與括號保留。",
+          "note": "全22個HTML區塊已讀並核篇界，未核底本影像。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-095-fankuang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-095",
@@ -49,9 +123,31 @@
   ],
   "relations": [],
   "related_people": {
-    "1wy_ygt_gre": "薛公未詳名（樊酈滕灌列傳候選）"
+    "1wy_ygt_gre": "薛公未詳名（樊酈滕灌列傳候選）",
+    "31y_gr6_mkf": "薛公（楚將）",
+    "sjb_oub_aik": "薛公（黥布列傳候選）"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-shiji095-xuegong-contexts",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "1wy_ygt_gre",
+        "31y_gr6_mkf",
+        "sjb_oub_aik"
+      ],
+      "paragraph_ids": [
+        "c-shiji-095-fankuang:p026",
+        "c-shiji-007-xiangyu:p032",
+        "c-shiji-008-gaozu:p042",
+        "c-shiji-091-qingbu:p015"
+      ],
+      "note": "楚戰場薛公在不同篇有東阿／下邳及彭越／灌嬰斬獲歸屬差異；英布反漢時又有仍在獻策的故楚令尹薛公。同稱不能定同人，先分留候選，不以某處死亡自動刪去其他來源敘述或填一個共同卒年。",
+      "chapter_id": "c-shiji-095-fankuang",
+      "source_id": "s-shiji-095-fankuang"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "1wy_ygt_gre"

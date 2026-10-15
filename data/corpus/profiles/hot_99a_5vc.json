@@ -88,13 +88,55 @@
           "note": "全25段已讀並作明示人物首輪；未核底本、影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-095-fankuang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-095",
+      "source_id": "s-shiji-095-fankuang",
+      "source": {
+        "title": "史記／卷095",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷095",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709",
+        "revision_id": 2298709,
+        "accessed_on": "2026-10-09",
+        "extent": "34段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；樊噌、（肩）［屏］、（博）［傅］、（太卜）太仆、穎陰等原字保留。",
+          "note": "全37個HTML區塊已讀，未核底本影像。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
+    "2k3_1v0_aqi": "程縱（樊酈滕灌列傳候選）",
     "hot_99a_5vc": "程縱（絳侯周勃世家候選）"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-shiji095-chengzong-captures",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "2k3_1v0_aqi",
+        "hot_99a_5vc"
+      ],
+      "paragraph_ids": [
+        "c-shiji-095-fankuang:p013",
+        "c-shiji-057-zhou:p005"
+      ],
+      "note": "兩篇均有代地丞相程縱，但酈商篇安排在太上皇衛及擊陳豨之前，周勃篇在陳豨平叛之中；可能同人再任或記功敘次差異，尚不足以定同一被虜事件，先分留候選，不與貨殖篇程鄭因字音相近合併。",
+      "chapter_id": "c-shiji-095-fankuang",
+      "source_id": "s-shiji-095-fankuang"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "hot_99a_5vc"

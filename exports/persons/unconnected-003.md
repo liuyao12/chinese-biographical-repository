@@ -6,15 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `v8g_xyw_4v9` | 貫高 | [《史記・淮南衡山列傳》][100] | [JSON](v8g_xyw_4v9.json) |
-| `v8l_ue6_un4` | 弦高 | [《史記・秦本紀》][5]、[《史記・晉世家》][21] | [JSON](v8l_ue6_un4.json) |
-| `v8p_pcs_28s` | 聲子（惠公妾） | [《史記・魯周公世家》][15] | [JSON](v8p_pcs_28s.json) |
-| `v8p_xn6_zmf` | 單于使者（未名） | [《史記・韓長孺列傳》][90] | [JSON](v8p_xn6_zmf.json) |
-| `v8y_9sc_cso` | 簡公（燕平公後） | [《史記・燕召公世家》][16] | [JSON](v8y_9sc_cso.json) |
-| `v92_t1u_5l1` | 會稽太守 | [《史記・東越列傳》][96] | [JSON](v92_t1u_5l1.json) |
-| `v94_2qu_ypp` | 公皙哀 | [《史記・仲尼弟子列傳》][49] | [JSON](v94_2qu_ypp.json) |
-| `v9c_s4n_l8v` | 鄡單 | [《史記・仲尼弟子列傳》][49] | [JSON](v9c_s4n_l8v.json) |
-| `v9o_9nn_wtg` | 窮奇 | [《史記・五帝本紀》][1] | [JSON](v9o_9nn_wtg.json) |
 | `v9v_sk2_lbn` | 家婦（公儀休） | [《史記・循吏列傳》][101] | [JSON](v9v_sk2_lbn.json) |
 | `va0_zp5_6o9` | 昭魚 | [《史記・韓世家》][27] | [JSON](va0_zp5_6o9.json) |
 | `vaf_6kj_3ee` | 槍 | [《史記・趙世家》][25] | [JSON](vaf_6kj_3ee.json) |
@@ -601,7 +592,6 @@
 | `zdv_6wm_e1u` | 涇陽君 | [《史記・范睢蔡澤列傳》][61] | [JSON](zdv_6wm_e1u.json) |
 | `ze0_kc1_agc` | 曹氏 | [《史記・齊悼惠王世家》][34] | [JSON](ze0_kc1_agc.json) |
 | `ze3_vzo_049` | 梁伯（德成時） | [《史記・秦本紀》][5] | [JSON](ze3_vzo_049.json) |
-| `zei_7yp_xzr` | 侯敞 | [《史記・樊酈滕灌列傳》][77] | [JSON](zei_7yp_xzr.json) |
 | `zeu_gxt_4pn` | 周市 | [《史記・平津侯主父列傳》][94] | [JSON](zeu_gxt_4pn.json) |
 | `zev_jx4_vaz` | 樗里子 | [《史記・穰侯列傳》][54] | [JSON](zev_jx4_vaz.json) |
 | `zex_g0x_52d` | 田子莊何 | [《史記・仲尼弟子列傳》][49] | [JSON](zex_g0x_52d.json) |

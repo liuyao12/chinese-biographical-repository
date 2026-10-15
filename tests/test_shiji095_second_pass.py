@@ -189,3 +189,53 @@ class FanLiCrossChapterFamilyTests(unittest.TestCase):
         self.assertEqual(b['person_ids'],['921_w24_4mr'])
         p=json.loads((ROOT/'data/corpus/profiles/921_w24_4mr.json').read_text())
         self.assertEqual(p['unresolved_identity_cases'][0]['candidate_person_ids'],c['candidate_person_ids'])
+
+class FanLiNamePlaceReadingTests(unittest.TestCase):
+    paragraph=FanLiCourtIdentityTests.paragraph
+    ids=FanLiCourtIdentityTests.ids
+
+    def test_remaining_commanders_follow_shared_military_networks(self):
+        for i,name,pid in [(25,'田橫','6r7_9o6_c1i'),(24,'項冠','uxv_exs_5k3'),(25,'周蘭','639_jt7_ns0'),(26,'項聲','myr_tln_x5c'),(30,'侯敞','h6b_bxc_9d4'),(30,'敞','h6b_bxc_9d4')]:self.assertEqual(self.ids(self.paragraph('095',i),name),{pid})
+        self.assertEqual(self.ids(self.paragraph('098',1),'項冠'),{'uxv_exs_5k3'})
+        self.assertEqual(self.ids(self.paragraph('100',1),'滕公'),{'li9_cmb_8ci'})
+        self.assertEqual(self.ids(self.paragraph('095',26),'周蘭'),{'639_jt7_ns0'})
+
+    def test_yanshi_place_is_not_a_generals_personal_name(self):
+        p=self.paragraph('095',12);m=next(m for m in p['mentions'] if m['id']=='c-shiji-095-fankuang:m012-0043')
+        self.assertEqual((m['start'],m['end'],m['surface'],m['person_id']),(40,43,'雍將軍','nlt_msz_iuz'))
+        self.assertFalse(any(m['surface']=='焉氏' for m in p['mentions']))
+        self.assertIn('破雍將軍焉氏',p['text'])
+        x=json.loads((ROOT/'data/corpus/profiles/nlt_msz_iuz.json').read_text())
+        self.assertNotIn('焉氏',x['names']);self.assertTrue(x['reading_decisions'])
+        self.assertIn('縣名',x['reading_decisions'][0]['references'][0]['quote'])
+
+    def test_tenggong_office_and_later_honorific_remain_separate(self):
+        a=json.loads((ROOT/'corpus/shiji/095-titles.json').read_text())['holdings']
+        office=next(x for x in a if x['id']=='th-shiji095-066')
+        late=next(x for x in a if x['id']=='th-shiji095-103')
+        self.assertEqual((office['kind'],office['mode']),('office','grant'))
+        self.assertEqual((late['kind'],late['mode']),('honorific','attestation'))
+        self.assertEqual(late['effective_period']['start']['status'],'unknown')
+        a=json.loads((ROOT/'corpus/shiji/100-titles.json').read_text())['holdings']
+        h=next(x for x in a if x['id']=='th-shiji100-003')
+        self.assertEqual((h['person_id'],h['kind']),('li9_cmb_8ci','honorific'))
+
+    def test_xuegong_and_chengzong_candidates_are_not_forced_into_one_actor(self):
+        c=json.loads((ROOT/'corpus/shiji/095.json').read_text())
+        cases={c['id']:c for c in c['annotation']['unresolved_identity_cases']}
+        self.assertEqual(set(cases['ic-shiji095-xuegong-contexts']['candidate_person_ids']),{'1wy_ygt_gre','31y_gr6_mkf','sjb_oub_aik'})
+        self.assertEqual(set(cases['ic-shiji095-chengzong-captures']['candidate_person_ids']),{'2k3_1v0_aqi','hot_99a_5vc'})
+        self.assertNotEqual(next(iter(self.ids(self.paragraph('095',26),'薛公'))),next(iter(self.ids(self.paragraph('091',15),'薛公'))))
+
+    def test_qian_daxin_is_attributed_reference_not_a_new_primary_statement(self):
+        b=json.loads((ROOT/'exports/persons/921_w24_4mr.json').read_text())
+        c=next(c for c in b['unresolved_identity_cases'] if c['id']=='ic-shiji095-pingyang-princesses')
+        r=next(r for r in c['references'] if r.get('author')=='錢大昕')
+        self.assertEqual(r['status'],'reference_only');self.assertFalse(r['image_verified'])
+        self.assertIn('蓋别是一人',r['quote'])
+        self.assertEqual(b['person_ids'],['921_w24_4mr'])
+
+    def test_reconciled_remaining_candidates_have_no_live_old_json(self):
+        ps={p['id'] for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        for pid in ('7v9_n58_3l5','63o_61u_6tf','lwi_l3d_a1t','li0_tpv_g5x','398_14a_ml2','97x_bw8_rqz','3jk_04c_cyw','zei_7yp_xzr','ay6_6gn_kvo'):
+            self.assertNotIn(pid,ps);self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists())
