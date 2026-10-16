@@ -1,3 +1,5 @@
+import {readFileSync} from 'node:fs';
+import {setLocale} from '../assets/i18n.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards} from '../assets/cbr-person.js';
@@ -325,4 +327,13 @@ test('received kinship people link directly to profiles and retain literal sourc
 test('compact title summary shows attested periods while full profile retains undated sources',()=>{
  const p={id:'abc_def_123',label:'測試人物',titles:[{title:'吳王',kind:'royal_rank',period:'未定 → 未定',evidence:[]},{title:'沛侯',kind:'noble_rank',period:'未定 → 未定',evidence:[]},{title:'吳王',kind:'royal_rank',period:'西元前196至195年（暫定範圍） → 未定',evidence:[]}]};
  const compact=personCard(p,false),full=personCard(p,true);assert.match(compact,/西元前196至195年/);assert.equal((compact.match(/<strong>吳王<\/strong>/g)||[]).length,1);assert.equal((full.match(/<strong>吳王<\/strong>/g)||[]).length,2);assert.match(compact,/沛侯/);
+});
+
+test('生卒首選與異說範圍保留並展示古注依據',()=>{
+ setLocale('zh-Hant',{persist:false});
+ const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8'));const html=personCard(p,true);
+ assert.match(html,/data-event-id="le-hanshu006-003" data-choice="preferred"/);assert.match(html,/data-event-id="le-shiji107-003" data-choice="alternative"/);assert.match(html,/西元前132至131年/);assert.match(html,/西元前131至130年/);assert.match(html,/按：五年者，誤也。/);assert.match(html,/oldid=2514777/);
+});
+test('紀年狀態可切英文，取捨參考拒絕腳本連結並轉義引文',()=>{
+ const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8'));const d=p.life_event_date_decisions.find(d=>d.id==='ld-shiji107-death-001');d.references=[{url:'javascript:alert(1)',quote:'<script>synthetic</script>',title:'synthetic'}];setLocale('en',{persist:false});let html=personCard(p,true);assert.match(html,/Provisional preferred date/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);d.status='unresolved';d.preferred_event_id=null;html=personCard(p,true);assert.match(html,/Date choice unresolved/);setLocale('zh-Hant',{persist:false});
 });

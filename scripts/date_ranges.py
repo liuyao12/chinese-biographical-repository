@@ -1,5 +1,33 @@
 # coding: utf-8
 """Explicit year windows; they never supply an exact event year."""
+from urllib.parse import urlparse
+
+def parallel_event_date(date):
+    """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
+    if not isinstance(date, dict):
+        return False
+    basis = date.get('basis')
+    required = {'kind', 'source_event_quote', 'reference_url', 'reference_event_quote', 'reference_year_quote'}
+    if not isinstance(basis, dict) or set(basis) not in (required, required | {'reference_year_url'}):
+        return False
+    original = date.get('original_quote')
+    quote = basis.get('source_event_quote')
+    url = basis.get('reference_url')
+    if (basis.get('kind') != 'parallel_event' or not isinstance(original, str)
+            or not isinstance(quote, str) or not quote or quote not in original
+            or not isinstance(url, str) or urlparse(url).scheme not in ('http', 'https')):
+        return False
+    year_url = basis.get('reference_year_url', url)
+    if not isinstance(year_url, str) or urlparse(year_url).scheme not in ('http', 'https'):
+        return False
+    refs = date.get('references', [])
+    return all(isinstance(basis.get(key), str) and bool(basis[key])
+               and any(isinstance(ref, dict) and ref.get('url') == (year_url if key == 'reference_year_quote' else url)
+                       and ref.get('quote') == basis[key] and ref.get('scope') in scopes
+                       for ref in refs)
+               for key, scopes in [('reference_event_quote', ('received_parallel_event',)),
+                                  ('reference_year_quote', ('digital_editorial_regnal_year_equivalence_only', 'received_regnal_year_attestation'))])
+
 def year_range_errors(value, evidence, expression):
     if not isinstance(value, dict):
         return ['紀年範圍須為物件']

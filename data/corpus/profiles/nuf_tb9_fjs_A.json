@@ -1673,6 +1673,68 @@
       "person_id": "nuf_tb9_fjs_A",
       "date_role": "life_event",
       "event_type": "death"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 131,
+        "year": -130
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 130,
+        "year": -129
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p024",
+          "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+          "person_mention_id": "c-shiji-107-weiqi:m024-0008"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·魏其武安侯列傳》原年及敘事承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+          "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "130",
+          "table_cell_id": "shiji-022-t1-r077-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "原敘事五年十月後的十二月，字仍保存；另候選Han006元光四年冬，須以取捨決定選預設，不能默改原年。 此數字只表按本文字面敘次換年的候選；漢初十月歲首保留兩個西元年端點，月日另待換算，不自動當確日。與其他來源的首選另由紀年取捨資料指定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji107-003",
+      "person_id": "nuf_tb9_fjs_A",
+      "date_role": "life_event",
+      "event_type": "death"
     }
   ],
   "age_assertions": [],
@@ -1764,8 +1826,236 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "le-shiji107-003",
+      "person_id": "nuf_tb9_fjs_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十二月晦",
+      "source_term": "以十二月晦論棄市渭城",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p024",
+          "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+          "person_mention_id": "c-shiji-107-weiqi:m024-0008"
+        }
+      ],
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 131,
+          "year": -130
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 130,
+          "year": -129
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-107",
+            "chapter_id": "c-shiji-107-weiqi",
+            "source_id": "s-shiji-107-weiqi",
+            "paragraph_id": "c-shiji-107-weiqi:p024",
+            "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+            "person_mention_id": "c-shiji-107-weiqi:m024-0008"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          },
+          {
+            "title": "《史記·魏其武安侯列傳》原年及敘事承接",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+            "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表數位年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "130",
+            "table_cell_id": "shiji-022-t1-r077-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "原敘事五年十月後的十二月，字仍保存；另候選Han006元光四年冬，須以取捨決定選預設，不能默改原年。 此數字只表按本文字面敘次換年的候選；漢初十月歲首保留兩個西元年端點，月日另待換算，不自動當確日。與其他來源的首選另由紀年取捨資料指定。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "原敘事五年十月後的十二月，字仍保存；另候選Han006元光四年冬，須以取捨決定選預設，不能默改原年。 本段實際死亡與假設、鬼見及嗣爵後的人物分開；不以死亡終止全部官爵，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
-  "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "life_event_date_decisions": [
+    {
+      "id": "ld-shiji107-death-001",
+      "person_ids": [
+        "nuf_tb9_fjs_A"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji107-003",
+        "le-hanshu006-003"
+      ],
+      "preferred_event_id": "le-hanshu006-003",
+      "status": "editorial_provisional",
+      "rationale": "首選《漢書·武帝紀》元光四年冬魏其侯竇嬰棄巿；本紀直接具名記卒，古注集解存疑、正義明言五年誤，分列參考。 只取本人的死亡紀年，不全域排名《漢書》與《史記》，不以同源記載篇數投票。保留本文五年敘次、原月日與兩個年範圍，並未採改正文或選一個西元端點；未核書影，判斷可撤回。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p024",
+          "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+          "person_mention_id": "c-shiji-107-weiqi:m024-0008"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p039",
+          "quote": "四年冬，魏其侯竇嬰有罪，棄巿。",
+          "person_mention_id": "c-hanshu-006-wudi:m039-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "徐廣〈集解〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "疑非五年，亦非十月。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        },
+        {
+          "title": "張守節〈正義〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "按：五年者，誤也。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "selected_life_event_dates": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 132,
+        "year": -131
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 131,
+        "year": -130
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "四年冬，魏其侯竇嬰有罪，棄巿。",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p039",
+          "quote": "四年冬，魏其侯竇嬰有罪，棄巿。",
+          "person_mention_id": "c-hanshu-006-wudi:m039-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《漢書·武帝紀》原年與上下文",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "四年冬，魏其侯竇嬰有罪，棄巿。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "131",
+          "table_cell_id": "shiji-022-t1-r076-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書·武帝紀》年號承接",
+          "url": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+          "quote": "元光元年冬十一月，初令郡國舉孝廉各一人。",
+          "scope": "received_era_context",
+          "image_verified": false
+        }
+      ],
+      "rationale": "依本紀原年及前文年號承接，與已存將相表數位年對照核對；漢初以十月為歲首。此階段保守保留跨西元年的年範圍，不由月名自動選端點或換算確日；原月日保留，下一步另核可否收窄。表中事件月日及史記列傳卒年異說不覆寫本紀。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-hanshu006-003",
+      "person_id": "nuf_tb9_fjs_A",
+      "date_role": "life_event",
+      "event_type": "death",
+      "selection_decision_id": "ld-shiji107-death-001"
+    }
+  ],
+  "reported_variants": [
+    {
+      "id": "rv-shiji107-death-year",
+      "paragraph_id": "c-shiji-107-weiqi:p024",
+      "person_ids": [
+        "nuf_tb9_fjs_A",
+        "7mz_d13_9ka_A",
+        "h1w_44g_vef_A"
+      ],
+      "source_term": "五年十月，悉論灌夫及家屬",
+      "received_reading": "五年十月",
+      "reported_reading": "元光四年十月",
+      "commentator": "張守節〈正義〉",
+      "quote": "其春，即四年春也。元光四年十月，灌夫弃市。十二月末，魏其弃市。至三月乙卯，田蚡薨。則三人死同在一年明矣。漢以十月爲歲首故也。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "revision_id": 2514777,
+      "witness_response_sha256": "61ba36dd1909155d637a22db47e12b868061a39cd62f5c82d26f05854b64456a"
+    }
+  ]
 }

@@ -1,0 +1,117 @@
+{
+  "format_version": "0.2",
+  "record_type": "life_event_date_decision_set",
+  "work_id": "w-shiji",
+  "work_ids": [
+    "w-shiji",
+    "w-hanshu"
+  ],
+  "decisions": [
+    {
+      "id": "ld-shiji107-death-001",
+      "person_ids": [
+        "nuf_tb9_fjs_A"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji107-003",
+        "le-hanshu006-003"
+      ],
+      "preferred_event_id": "le-hanshu006-003",
+      "status": "editorial_provisional",
+      "rationale": "首選《漢書·武帝紀》元光四年冬魏其侯竇嬰棄巿；本紀直接具名記卒，古注集解存疑、正義明言五年誤，分列參考。 只取本人的死亡紀年，不全域排名《漢書》與《史記》，不以同源記載篇數投票。保留本文五年敘次、原月日與兩個年範圍，並未採改正文或選一個西元端點；未核書影，判斷可撤回。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p024",
+          "quote": "於是上使御史簿責魏其所言灌夫，頗不讎，欺謾。劾系都司空。孝景時，魏其常受遺詔，曰「事有不便，以便宜論上」。及系，灌夫罪至族，事日急，諸公莫敢複明言於上。魏其乃使昆弟子上書言之，幸得複召見。書奏上，而案尚書大行無遺詔。詔書獨藏魏其家，家丞封。乃劾魏其矯先帝詔，罪當棄市。五年十月，悉論灌夫及家屬。魏其良久乃聞，聞即恚，病痱，不食欲死。或聞上無意殺魏其，魏其複食，治病，議定不死矣。乃有蜚語為惡言聞上，故以十二月晦論棄市渭城。",
+          "person_mention_id": "c-shiji-107-weiqi:m024-0008"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p039",
+          "quote": "四年冬，魏其侯竇嬰有罪，棄巿。",
+          "person_mention_id": "c-hanshu-006-wudi:m039-0004"
+        }
+      ],
+      "references": [
+        {
+          "title": "徐廣〈集解〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "疑非五年，亦非十月。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        },
+        {
+          "title": "張守節〈正義〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "按：五年者，誤也。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "ld-shiji107-death-002",
+      "person_ids": [
+        "7mz_d13_9ka_A"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji107-004",
+        "le-hanshu006-004"
+      ],
+      "preferred_event_id": "le-hanshu006-004",
+      "status": "editorial_provisional",
+      "rationale": "首選《漢書·武帝紀》元光四年春三月乙卯田蚡薨；本紀同四年冬與次春承接、正義其春即四年春及十月歲首相互支持。 只取本人的死亡紀年，不全域排名《漢書》與《史記》，不以同源記載篇數投票。保留本文五年敘次、原月日與兩個年範圍，並未採改正文或選一個西元端點；未核書影，判斷可撤回。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p025",
+          "quote": "其春，武安侯病，專呼服謝罪。使巫視鬼者視之，見魏其、灌夫共守，欲殺之。竟死。子恬嗣。元朔三年，武安侯坐衣襜褕入宮，不敬。",
+          "person_mention_id": "c-shiji-107-weiqi:m025-0003"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p040",
+          "quote": "春三月乙卯，丞相蚡薨。",
+          "person_mention_id": "c-hanshu-006-wudi:m040-0006"
+        }
+      ],
+      "references": [
+        {
+          "title": "張守節〈正義〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "其春，即四年春也。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        },
+        {
+          "title": "張守節〈正義〉·魏其武安卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "漢以十月爲歲首故也。",
+          "scope": "ancient_commentary_date_interpretation",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

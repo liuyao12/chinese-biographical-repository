@@ -45,31 +45,11 @@ def reported_office_event_count_valid(count, event_type):
             and all(isinstance(e, dict) and isinstance(e.get('quote'), str)
                     and count['source_term'] in e['quote'] for e in count['evidence']))
 
-def parallel_event_date(date):
-    """原文無紀年時，要求明列事件對讀與參考紀年的不同引句。"""
-    if not isinstance(date, dict):
-        return False
-    basis = date.get('basis')
-    required = {'kind', 'source_event_quote', 'reference_url', 'reference_event_quote', 'reference_year_quote'}
-    if not isinstance(basis, dict) or set(basis) not in (required, required | {'reference_year_url'}):
-        return False
-    original = date.get('original_quote')
-    quote = basis.get('source_event_quote')
-    url = basis.get('reference_url')
-    if (basis.get('kind') != 'parallel_event' or not isinstance(original, str)
-            or not isinstance(quote, str) or not quote or quote not in original
-            or not isinstance(url, str) or urlparse(url).scheme not in ('http', 'https')):
-        return False
-    year_url = basis.get('reference_year_url', url)
-    if not isinstance(year_url, str) or urlparse(year_url).scheme not in ('http', 'https'):
-        return False
-    refs = date.get('references', [])
-    return all(isinstance(basis.get(key), str) and bool(basis[key])
-               and any(isinstance(ref, dict) and ref.get('url') == (year_url if key == 'reference_year_quote' else url)
-                       and ref.get('quote') == basis[key] and ref.get('scope') in scopes
-                       for ref in refs)
-               for key, scopes in [('reference_event_quote', ('received_parallel_event',)),
-                                  ('reference_year_quote', ('digital_editorial_regnal_year_equivalence_only', 'received_regnal_year_attestation'))])
+try:
+    from scripts.date_ranges import parallel_event_date
+except ImportError:
+    from date_ranges import parallel_event_date
+
 
 def normalized_date_errors(date):
     errors = []
@@ -1393,9 +1373,9 @@ def validate(root=ROOT):
                         check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
                         check(date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
         try:
-            from scripts.life_event_dates import date_decision_errors
+            from scripts.life_event_dates import date_decision_errors, date_record_scope_errors
         except ImportError:
-            from life_event_dates import date_decision_errors
+            from life_event_dates import date_decision_errors, date_record_scope_errors
         dated_events = {e['id']: e for path in (root / 'corpus').glob('*/*-life-events.json')
                         for e in json.loads(path.read_text())['events']}
         date_equivalences = [e for path in (root / 'corpus').glob('*/*-equivalences.json')
@@ -1405,6 +1385,7 @@ def validate(root=ROOT):
             record = json.loads(path.read_text())
             check(record['record_type'] == 'life_event_date_decision_set' and record['work_id'] in works,
                   '生卒紀年取捨集格式或著作無效')
+            errors.extend(date_record_scope_errors(record, chapters, works))
             for decision in record['decisions']:
                 check(decision['id'] not in date_decision_ids, '生卒紀年取捨 ID 重複')
                 date_decision_ids.add(decision['id'])
@@ -1412,8 +1393,6 @@ def validate(root=ROOT):
                 candidates = set(decision['candidate_event_ids'])
                 check(not date_candidate_scopes.intersection(candidates), '同一生卒事件不得有多項紀年預設')
                 date_candidate_scopes.update(candidates)
-                check(all(chapters.get(e['chapter_id'], {}).get('work_id') == record['work_id']
-                          for e in decision['evidence']), '生卒紀年取捨證據著作不符')
         try:
             from .family_assemblies import load_assemblies
             from .person_bundle import load_catalog
