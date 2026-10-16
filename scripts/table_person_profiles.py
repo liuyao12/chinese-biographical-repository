@@ -73,6 +73,8 @@ def build(root=ROOT):
             surface = cell['mention']['surface']
             if surface not in names: names.append(surface)
         profile={'schema_version':1,'id':pid,'canonical_person_id':b['canonical_person_id'],'label':people.get(pid, {}).get('label', next((p['label'] for p in b['persons'] if p['id'] == pid), pid)),'identity_note':people.get(pid, {}).get('identity_note'),'review':'ai_provisional','names':names,'titles':titles,'addresses':addresses,'occurrences':occurrences,'table_occurrences':cells,'sources':b['sources'],'relations':[x for x in b['relations'] if x['subject_person_id'] in own],'related_people':{p['id']:p['label'] for p in b['persons']},'dates':[x for x in b['date_normalizations'] if x.get('person_id') in own]}
+        if people.get(pid, {}).get('historicity') == 'legendary_tradition':
+            profile['historicity'] = 'legendary_tradition'
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
         if preferred_readings:
             profile['preferred_readings'] = preferred_readings

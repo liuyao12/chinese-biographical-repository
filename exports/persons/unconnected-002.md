@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fs1_3m9_rj3` | 章平 | [《史記・曹相國世家》][36] | [JSON](fs1_3m9_rj3.json) |
-| `fs3_38r_obw` | 須賈 | [《史記・范睢蔡澤列傳》][61] | [JSON](fs3_38r_obw.json) |
-| `fto_fi5_11x` | 大駱 | [《史記・秦本紀》][5] | [JSON](fto_fi5_11x.json) |
 | `fu0_u16_g5t` | 武帝 | [《史記・汲鄭列傳》][102] | [JSON](fu0_u16_g5t.json) |
 | `fu9_7ic_bp3` | 楊得意 | [《史記・司馬相如列傳》][99] | [JSON](fu9_7ic_bp3.json) |
 | `fuq_l6p_4ly` | 原憲 | [《史記・貨殖列傳》][111] | [JSON](fuq_l6p_4ly.json) |
@@ -1277,7 +1274,6 @@
 | `ozj_rzf_gki` | 太子免 | [《史記・田敬仲完世家》][28] | [JSON](ozj_rzf_gki.json) |
 | `ozm_m75_ta9` | 呂他 | [《史記・呂太后本紀》][9] | [JSON](ozm_m75_ta9.json) |
 | `p00_7fd_aoy` | 正考父 | [《史記・孔子世家》][29] | [JSON](p00_7fd_aoy.json) |
-| `p03_ogp_trh` | 湯（古王引語） | [《史記・酈生陸賈列傳》][79] | [JSON](p03_ogp_trh.json) |
 | `p06_lrs_tg7` | 孫叔敖引古 | [《史記・魯仲連鄒陽列傳》][65] | [JSON](p06_lrs_tg7.json) |
 | `p0f_4cj_em4` | 齊湣王 | [《史記・樗里子甘茂列傳》][53] | [JSON](p0f_4cj_em4.json) |
 | `p0q_m9t_btu` | 舜後母 | [《史記・五帝本紀》][1] | [JSON](p0q_m9t_btu.json) |
@@ -1961,7 +1957,6 @@
 | `to9_mg5_5gi` | 鉗徒（甘泉居室相青者，未名） | [《史記・衛將軍驃騎列傳》][93] | [JSON](to9_mg5_5gi.json) |
 | `tod_lbz_fbe` | 絳侯未具名 | [《史記・袁盎鼂錯列傳》][83] | [JSON](tod_lbz_fbe.json) |
 | `toi_62h_6fm` | 鄒衍（燕招賢記事） | [《史記・燕召公世家》][16] | [JSON](toi_62h_6fm.json) |
-| `tp1_kws_nsp` | 智伯 | [《史記・酈生陸賈列傳》][79] | [JSON](tp1_kws_nsp.json) |
 | `tpa_vui_ddb` | 遼西太守（未名） | [《史記・韓長孺列傳》][90]、[《史記・匈奴列傳》][92]、[《史記・衛將軍驃騎列傳》][93] | [JSON](tpa_vui_ddb.json) |
 | `tpo_l9x_3k6` | 雍渠 | [《史記・孔子世家》][29] | [JSON](tpo_l9x_3k6.json) |
 | `tpz_x3m_e0h` | 湯 | [《史記・殷本紀》][3] | [JSON](tpz_x3m_e0h.json) |
@@ -2235,6 +2230,10 @@
 | `vp6_3oo_dqh` | 太史公 | [《史記・田叔列傳》][86] | [JSON](vp6_3oo_dqh.json) |
 | `vpb_n9d_e0y` | 鄭伯（楚世家提要） | [《史記・太史公自序》][112] | [JSON](vpb_n9d_e0y.json) |
 | `vqb_tym_qti` | 魏長吏 | [《史記・穰侯列傳》][54] | [JSON](vqb_tym_qti.json) |
+| `vqd_bze_fwa` | 賈季（議立公子樂者） | [《史記・晉世家》][21] | [JSON](vqd_bze_fwa.json) |
+| `vqs_vxf_0gt` | 宋孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](vqs_vxf_0gt.json) |
+| `vrl_dy3_665` | 晉平公 | [《史記・孔子世家》][29] | [JSON](vrl_dy3_665.json) |
+| `vs4_jiv_8ps` | 勸周勃歸相印者 | [《史記・絳侯周勃世家》][39] | [JSON](vs4_jiv_8ps.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

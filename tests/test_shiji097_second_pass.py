@@ -143,3 +143,45 @@ class LiLuContextTitleTests(unittest.TestCase):
         self.assertEqual((r['date_role'],r['endpoint'],r['title']),('title_period','end','武遂侯'))
         self.assertNotIn('event_type',r)
         self.assertTrue(any(r['record_id']=='le-shiji097-004' and r['date_role']=='life_event' for r in b['date_range_normalizations']))
+
+class LiLuAllusionScopeTests(unittest.TestCase):
+    def test_founding_kings_and_fuchai_keep_literal_allusion_scope(self):
+        self.assertEqual(ids(12,'湯'),{'tpz_x3m_e0h'})
+        self.assertEqual(ids(12,'武'),{'y4i_pjk_4gn_AA'})
+        self.assertEqual(ids(12,'吳王夫差'),{'5dm_e40_rqh_AAAAAAAAAAAAAAAAAAAAA'})
+        p=para(12);start=p['text'].index('文武并用')
+        self.assertFalse(any(m['start']<start+4 and start<m['end'] for m in p['mentions']))
+
+    def test_zhibo_matches_jinyang_opponent_not_earlier_wenzi(self):
+        self.assertEqual(ids(12,'智伯'),{'fks_8ov_okp'})
+        eq=next(x for x in read('corpus/shiji/097-equivalences.json')['decisions'] if x['id']=='eq-shiji097-allusion-zhibo')
+        self.assertTrue(any(e['paragraph_id']=='c-shiji-086-cike:p009' and '趙襄子與韓、魏合謀滅智伯' in e['quote'] for e in eq['evidence']))
+        self.assertNotIn('n7k_r8y_fkr',eq['person_ids'])
+
+    def test_legendary_comparison_does_not_create_han_participant(self):
+        self.assertEqual(ids(6,'蚩尤'),{'7x2_x55_1b6'})
+        b=read('exports/persons/7x2_x55_1b6.json')
+        who=next(p for p in b['persons'] if p['id']=='7x2_x55_1b6')
+        self.assertEqual(who['historicity'],'legendary_tradition')
+        self.assertEqual(read('data/corpus/profiles/7x2_x55_1b6.json')['historicity'],'legendary_tradition')
+        self.assertFalse(any(e['person_id']=='7x2_x55_1b6' for e in read('corpus/shiji/097-life-events.json')['events']))
+        self.assertFalse(any(h['person_id']=='7x2_x55_1b6' for h in read('corpus/shiji/097-titles.json')['holdings']))
+
+    def test_young_emperor_preserves_competing_office_chronologies(self):
+        case=next(c for c in read('corpus/shiji/097.json')['annotation']['unresolved_identity_cases'] if c['id']=='ic-shiji097-young-emperor')
+        self.assertEqual(case['status'],'unresolved')
+        self.assertEqual(set(case['candidate_person_ids']),{'0bm_5gr_a7x','nc4_msq_h8a','zht_ze7_m2d'})
+        quotes=[r['quote'] for r in case['references']]
+        self.assertTrue(any('孝惠帝六年，置太尉官' in q for q in quotes))
+        self.assertTrue(any('立常山王義為帝' in q and '置太尉官' in q for q in quotes))
+        self.assertTrue(any(r.get('revision_id')==7904628 for r in case['references']))
+        self.assertEqual(ids(14,'少主'),{'0bm_5gr_a7x'})
+        for pid in case['candidate_person_ids']:
+            self.assertTrue(any(c['id']==case['id'] for c in read(f'exports/persons/{pid}.json')['unresolved_identity_cases']))
+
+    def test_five_allusive_candidates_have_no_public_alias_files(self):
+        people={p['id'] for p in read('registry/persons.json')['persons']}
+        for old in ['p03_ogp_trh','bzw_kmw_yhu','byn_obj_9yj','tp1_kws_nsp','7hd_xs5_eks']:
+            self.assertNotIn(old,people)
+            self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())

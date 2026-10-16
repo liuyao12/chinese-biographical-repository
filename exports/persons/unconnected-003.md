@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vqd_bze_fwa` | 賈季（議立公子樂者） | [《史記・晉世家》][21] | [JSON](vqd_bze_fwa.json) |
-| `vqs_vxf_0gt` | 宋孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](vqs_vxf_0gt.json) |
-| `vrl_dy3_665` | 晉平公 | [《史記・孔子世家》][29] | [JSON](vrl_dy3_665.json) |
-| `vs4_jiv_8ps` | 勸周勃歸相印者 | [《史記・絳侯周勃世家》][39] | [JSON](vs4_jiv_8ps.json) |
 | `vs5_lya_vft` | 市被（燕將軍） | [《史記・燕召公世家》][16] | [JSON](vs5_lya_vft.json) |
 | `vs7_6qq_lwa` | 惠王（周） | [《史記・太史公自序》][112] | [JSON](vs7_6qq_lwa.json) |
 | `vs8_u6b_f8w` | 秦寧公 | [《史記・秦本紀》][5] | [JSON](vs8_u6b_f8w.json) |
