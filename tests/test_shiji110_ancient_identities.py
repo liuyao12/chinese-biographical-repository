@@ -30,7 +30,7 @@ class XiongnuAncientIdentities(unittest.TestCase):
  def test_qinwang_and_shihuang_in_specific_events_share_identity(self):
   self.assertEqual(person('110',4,'秦王'),'ao3_0fy_d45_AAA');self.assertEqual(person('110',4,'始皇帝'),'ao3_0fy_d45_AAA');self.assertEqual(person('073',10,'秦始皇'),'ao3_0fy_d45_AAA');self.assertIn('朕為始皇帝',paragraph('006',21)['text'])
  def test_chu_campaign_mengtian_is_not_merged_without_note_review(self):
-  self.assertEqual(person('073',10,'蒙恬'),'eal_ozl_urh');self.assertEqual(person('110',4,'蒙恬'),'k2p_5ol_dwh_AA');self.assertNotEqual(person('073',10,'蒙恬'),person('110',4,'蒙恬'))
+  self.assertEqual(person('073',10,'蒙恬'),'k2p_5ol_dwh_A');self.assertEqual(person('110',4,'蒙恬'),'k2p_5ol_dwh_AA');self.assertNotEqual(person('073',10,'蒙恬'),person('110',4,'蒙恬'))
  def test_42_retired_entries_removed_after_reference_migration(self):
   ids={p['id']for p in load('registry/persons.json')['persons']};self.assertEqual(len(RETIRED),42)
   for pid in RETIRED:
