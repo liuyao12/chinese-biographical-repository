@@ -162,7 +162,36 @@
       "quote": "不能滿觴。」夫怒，因嘻笑曰：「將軍貴人也，屬之！」時武安不肯。行酒次至臨汝侯，臨汝侯方與程不識耳語，又不避席。夫無所發怒，乃罵臨汝侯曰：「生平毀程不識不直一錢，今日長者為壽，乃效女兒呫囁耳語！」武安謂灌夫曰：「程李俱東西宮衛尉，今眾辱程將軍，仲孺獨不為李將軍地乎？」灌夫曰：「"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-018",
+      "cell_id": "shiji-018-t1-r019-c07",
+      "title": "《史記·高祖功臣侯者年表》",
+      "quote": "六。有罪，絕。。九。元光二年，封嬰孫賢爲臨汝侯。侯賢元年。。元朔五年，侯賢行賕罪，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-018-t1-r019-c07-m000",
+        "start": 25,
+        "end": 26,
+        "surface": "賢",
+        "person_id": "sj9_pfu_fwh_*A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依潁陰同侯列的彊及有罪失侯、灌嬰孫賢續臨汝侯與行賕除國對讀卷95；表元光二年、傳元光三年分存，不以同指改紀年或推父親。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-095",
+            "chapter_id": "c-shiji-095-fankuang",
+            "paragraph_id": "c-shiji-095-fankuang:p033",
+            "source_id": "s-shiji-095-fankuang",
+            "source_revision": 2298709,
+            "person_id": "sj9_pfu_fwh_*A",
+            "quote": "三歲，絳侯勃免相就國，嬰為丞相，罷太尉官。是歲，匈奴大入北地、上郡，令丞相嬰將騎八萬五千往擊匈奴。匈奴去，濟北王反，詔乃罷嬰之兵。後歲餘，嬰以丞相卒，謚曰懿侯。子平侯阿代侯。二十八年卒，子彊代侯。十三年，彊有罪，絕二歲。元光三年，天子封灌嬰孫賢為臨汝侯，續灌氏後，八歲，坐行賕有罪，國除。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-095-fankuang",
@@ -210,6 +239,29 @@
           "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
           "note": "未核底本影像。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-018",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-018",
+      "source_id": "table-witness-shiji-018",
+      "source": {
+        "id": "table-witness-shiji-018",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-018",
+        "chapter_id": "table-chapter-shiji-018",
+        "url": "https://zh.wikisource.org/wiki/史記/卷018",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995",
+        "revision": "9484995",
+        "accessed": "2026-10-13",
+        "response_sha256": "e9817647c74a75eaa478d78e30387fe1403da1cc9961ad7947b185af3ae1217c",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],
@@ -368,6 +420,27 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "assembled_identity": {
+    "person_id": "sj9_pfu_fwh_*A",
+    "representative_source_person_id": "sj9_pfu_fwh_*A",
+    "source_person_ids": [
+      "sj9_pfu_fwh_*A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": "a-shiji095-018",
+    "ancestor_person_id": "sj9_pfu_fwh",
+    "connection": "grandfather",
+    "generation_distance": 2,
+    "intermediate_person_ids": [
+      null
+    ],
+    "interpretation_note": "卷95明記灌嬰孫賢，父親未名，缺代保留，不依續爵推父親。",
+    "assembly_id": "family-guanying-shiji095",
+    "root_person_id": "sj9_pfu_fwh",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
