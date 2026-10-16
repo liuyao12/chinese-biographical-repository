@@ -1364,7 +1364,20 @@ def validate(root=ROOT):
             except ModuleNotFoundError:
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
-        load_assemblies(root, load_catalog(root))
+        catalog = load_catalog(root)
+        load_assemblies(root, catalog)
+        def citation_dimensions(value):
+            if isinstance(value, dict):
+                if all(key in value for key in ('paragraph_id','chapter_id','source_id')):
+                    hit = paragraphs.get(value['paragraph_id'])
+                    if hit:
+                        chapter = chapters[hit[0]]
+                        check(all(value[key] == chapter[key] for key in ('work_id','book_id') if key in value),
+                              '引文著作卷ID與實際來源不符')
+                for item in value.values(): citation_dimensions(item)
+            elif isinstance(value, list):
+                for item in value: citation_dimensions(item)
+        for record in catalog[1]: citation_dimensions(record)
         check(progress['active_work_id'] in works,'進度的著作不存在')
         for b in progress['books']:
             check(chapter_books.get(b['chapter_id'])==b['book_id'],'進度卷篇不符')

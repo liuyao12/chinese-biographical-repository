@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "fvm_66f_0k3_A",
   "canonical_person_id": "fvm_66f_0k3_A",
-  "label": "周昌（傅靳蒯成列傳候選）",
+  "label": "周昌（蒯成侯之子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -71,6 +71,21 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+      "count": 1,
+      "quote": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-zhou-003"
+      ]
+    },
+    {
       "number": 98,
       "category": "liezhuan",
       "title": "傅靳蒯成列傳第三十八",
@@ -79,8 +94,68 @@
       "quote": "至孝文五年，緤以壽終，謚為貞侯。子昌代侯，有罪，國除。至孝景中二年，封緤子居代侯。至元鼎三年，居為太常，有罪，國除。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-018",
+      "cell_id": "shiji-018-t1-r063-c05",
+      "title": "《史記·高祖功臣侯者年表》",
+      "quote": "五。惞薨，子昌代。有罪，絕，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-018-t1-r063-c05-m001",
+        "start": 6,
+        "end": 7,
+        "surface": "昌",
+        "person_id": "fvm_66f_0k3_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "依本列傳主、繼侯敘事與所列固定篇文辨省稱；仲居父親據漢書子仲居明文，不由表中嗣位單獨推定。",
+        "identity_evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-041",
+            "chapter_id": "c-hanshu-041-fanli",
+            "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+            "source_id": "s-hanshu-041-fanli",
+            "source_revision": 2342290,
+            "person_id": "fvm_66f_0k3_A",
+            "quote": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前僅錄周惞傳文三段；卷內樊、酈、滕、灌、傅、靳傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁周惞小標與Wikipedia模板；三段原字、標點保留。周惞及糨城侯不直接改作其他見證讀法。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-098-fujin",
       "work_id": "w-shiji",
@@ -138,37 +213,30 @@
   ],
   "relations": [
     {
-      "id": "a-shiji098-005",
+      "id": "a-hanshu041-zhou-001",
       "subject_person_id": "fvm_66f_0k3_A",
       "predicate": "father",
       "object_person_id": "fvm_66f_0k3",
       "status": "source_attested",
       "evidence": [
         {
-          "chapter_id": "c-shiji-098-fujin",
-          "source_id": "s-shiji-098-fujin",
-          "paragraph_id": "c-shiji-098-fujin:p012",
-          "quote": "至孝文五年，緤以壽終，謚為貞侯。子昌代侯，有罪，國除。至孝景中二年，封緤子居代侯。至元鼎三年，居為太常，有罪，國除。"
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+          "quote": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。"
         }
       ],
       "qualifiers": {
-        "source_term": "子昌代侯",
+        "source_term": "子昌嗣",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依明示子字及前句傳主承接；周居依緤子，不作周昌子，分支字元不代表長幼。",
-      "reviewer": "Codex（AI 代理）"
-    }
-  ],
-  "related_people": {
-    "fvm_66f_0k3": "周緤（傅靳蒯成列傳候選）",
-    "fvm_66f_0k3_A": "周昌（傅靳蒯成列傳候選）"
-  },
-  "dates": [],
-  "name_components": [],
-  "person_ids": [
-    "fvm_66f_0k3_A"
-  ],
-  "preferred_relations": [
+      "interpretation_note": "依本段明示父子與前句主語承接，非由嗣位單獨推父子；史記緤子居另一主張仍保留，首選世次另列。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-shiji098-005",
       "subject_person_id": "fvm_66f_0k3_A",
@@ -187,10 +255,81 @@
         "source_term": "子昌代侯",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依明示子字及前句傳主承接；周居依緤子，不作周昌子，分支字元不代表長幼。",
+      "interpretation_note": "依明示子字及前句傳主承接；周居依緤子，不作周昌子，分支字元不代表長幼。 本篇緤子居原主張保留；與漢書應子仲居相異，家譜首選另由ft-hanshu041-zhou-ju-parent決定。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "related_people": {
+    "fvm_66f_0k3": "周緤",
+    "fvm_66f_0k3_A": "周昌（蒯成侯之子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "fvm_66f_0k3_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-hanshu041-zhou-001",
+      "subject_person_id": "fvm_66f_0k3_A",
+      "predicate": "father",
+      "object_person_id": "fvm_66f_0k3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-zhou-003",
+          "quote": "十二年，更封惞為糨城侯，孝文五年薨，諡曰貞侯。子昌嗣，有罪，國除。景帝復封惞子應為鄲侯，薨，諡曰康侯。子仲居嗣，坐為太常有罪，國除。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子昌嗣",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本段明示父子與前句主語承接，非由嗣位單獨推父子；史記緤子居另一主張仍保留，首選世次另列。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shiji098-005",
+      "subject_person_id": "fvm_66f_0k3_A",
+      "predicate": "father",
+      "object_person_id": "fvm_66f_0k3",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p012",
+          "quote": "至孝文五年，緤以壽終，謚為貞侯。子昌代侯，有罪，國除。至孝景中二年，封緤子居代侯。至元鼎三年，居為太常，有罪，國除。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子昌代侯",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子字及前句傳主承接；周居依緤子，不作周昌子，分支字元不代表長幼。 本篇緤子居原主張保留；與漢書應子仲居相異，家譜首選另由ft-hanshu041-zhou-ju-parent決定。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "fvm_66f_0k3_A",
+    "representative_source_person_id": "fvm_66f_0k3_A",
+    "source_person_ids": [
+      "fvm_66f_0k3_A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "fvm_66f_0k3",
+    "source_assertion_id": "a-shiji098-005",
+    "assembly_id": "family-zhou-xie",
+    "root_person_id": "fvm_66f_0k3",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

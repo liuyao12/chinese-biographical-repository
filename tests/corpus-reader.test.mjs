@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {chapterURL, chapterParagraph, filteredChapters} from '../assets/corpus-reader.js';
+import {chapterURL, chapterParagraph, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
 const index = JSON.parse(readFileSync(new URL('../data/corpus/index.json', import.meta.url)));
 test('Shiji contents use five historical categories and retain all 130 entries, including pending texts', () => {
   assert.equal(index.chapters.length,130);
@@ -46,4 +46,27 @@ test('unresolved interpretation notes remain escaped and never become person lin
   const html=chapterParagraph({id:'synthetic-p',text:'某',mentions:[{id:'synthetic-m',start:0,end:1,surface:'某',kind:'unresolved',person_id:null,interpretation_note:'未知敘者 "<script>" & 異說'}]});
   assert.match(html,/title="未知敘者 &quot;&lt;script&gt;&quot; &amp; 異說"/);
   assert.doesNotMatch(html,/<script>|data-person-id|href=/);
+});
+test('different works never share a source route merely because volume numbers match',()=>{
+ const e={work_id:'w-hanshu',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic',paragraph_id:'synthetic-p&extra=1'};
+ const url=sourcePassageURL(e),p=new URLSearchParams(url.split('#')[1]);
+ assert.ok(url.startsWith('reader.html#'));
+ assert.equal(p.get('work'),'w-hanshu');assert.equal(p.get('book'),'b-hanshu-041');
+ assert.equal(p.get('passage'),'synthetic-p&extra=1');assert.equal(p.get('extra'),null);
+ assert.equal(sourcePassageURL({chapter_id:'c-shiji-041-synthetic',paragraph_id:'synthetic-p'}),'shiji.html#chapter=41&passage=synthetic-p');
+ assert.equal(sourcePassageURL({...e,work_id:'https://synthetic.invalid/'}),'');
+});
+test('other-work person links keep received text and explicit source context',()=>{
+ const p={id:'c-hanshu-041-synthetic:p-zhou-001',text:'周惞，',mentions:[{id:'synthetic-m',start:0,end:2,surface:'周惞',kind:'person',person_id:'synthetic_person'}]};
+ const html=chapterParagraph(p,{}, {work_id:'w-hanshu',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic'});
+ assert.equal(html.replace(/<[^>]*>/g,''),'周惞，');
+ assert.match(html,/work=w-hanshu&amp;book=b-hanshu-041&amp;chapter=c-hanshu-041-synthetic/);
+ assert.doesNotMatch(html,/chapter=41(?:&|#)/);
+});
+test('profile source return validates work, book, chapter and recorded passage',()=>{
+ const occurrence={work_id:'w-hanshu',work_title:'漢書',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic',title:'合成篇',paragraph_id:'synthetic-p1',paragraph_ids:['synthetic-p1','synthetic-p2']};
+ const p={occurrences:[occurrence]},params=new URLSearchParams({work:'w-hanshu',book:'b-hanshu-041',chapter:'c-hanshu-041-synthetic',passage:'synthetic-p2'});
+ assert.equal(new URLSearchParams(profileSourceContext(p,params).href.split('#')[1]).get('passage'),'synthetic-p2');
+ params.set('passage','synthetic-forged');assert.equal(new URLSearchParams(profileSourceContext(p,params).href.split('#')[1]).get('passage'),'synthetic-p1');
+ params.set('book','b-shiji-041');assert.equal(profileSourceContext(p,params),null);
 });

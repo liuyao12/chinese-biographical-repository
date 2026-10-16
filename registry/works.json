@@ -1130,6 +1130,25 @@
         }
       ],
       "note": "來源所引書名，不表示已匯入正文或校定傳本。申不害著書的來源敘述另存於該段，不以作品條目確證作者生平。"
+    },
+    {
+      "id": "w-hanshu",
+      "title": "漢書",
+      "author": "班固",
+      "status": "in_progress",
+      "expected_books": null,
+      "numbering_note": "只登記已實錄卷目；完整目錄待依所用見證核定，不混用百篇與百二十卷。",
+      "books": [
+        {
+          "id": "b-hanshu-041",
+          "work_id": "w-hanshu",
+          "number": 41,
+          "title": "卷四十一",
+          "chapter_ids": [
+            "c-hanshu-041-fanli"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

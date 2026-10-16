@@ -1051,4 +1051,8 @@ class CorpusTests(unittest.TestCase):
         self.change('registry/works.json',change)
         self.assertIn('表格證據著作卷篇未登記或歸屬不符',v.validate(self.root))
 
+    def test_cross_work_evidence_cannot_relabel_hanshu_as_shiji(self):
+        self.change('corpus/hanshu/041-assertions.json',lambda d:d['assertions'][0]['evidence'][0].update(work_id='w-shiji'))
+        self.assertIn('引文著作卷ID與實際來源不符',v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

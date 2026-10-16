@@ -3,6 +3,7 @@ from pathlib import Path
 import argparse
 import hashlib
 import json
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 CATEGORIES = [(1, 12, 'benji', '本紀'), (13, 22, 'biao', '表'),
@@ -38,6 +39,44 @@ def outputs():
              'chapters': entries, 'contents_source': contents['source'],
              'policy': '已匯入標註文本不表示逐項審訂完成；未匯入篇目仍列目，不補造正文。'}
     result[directory / 'index.json'] = (json.dumps(index, ensure_ascii=False, indent=2) + '\n').encode()
+    # Work-specific catalogs retain native chapter IDs. The established Shiji
+    # reader (including its tables) remains its own specialized entry point.
+    works = json.loads((ROOT / 'registry/works.json').read_text())['works']
+    manifest = [{'id':'w-shiji','title':'史記','author':'司馬遷',
+                 'reader_kind':'shiji','catalog_path':'data/corpus/index.json'}]
+    other_chapters = []
+    for path in sorted((ROOT / 'corpus').glob('*/*.json')):
+        chapter = json.loads(path.read_text())
+        if chapter.get('record_type') == 'marked_chapter' and chapter['work_id'] != 'w-shiji':
+            other_chapters.append((path,chapter))
+    for work in works:
+        if work['id'] == 'w-shiji':
+            continue
+        selected = []
+        books = {book['id']:book for book in work['books']}
+        for path,chapter in other_chapters:
+            if chapter['work_id'] != work['id']:
+                continue
+            slug = work['id'].removeprefix('w-')
+            assert re.fullmatch('[a-z0-9-]+', slug)
+            public = f'data/corpus/{slug}/{path.name}'
+            result[ROOT / public] = path.read_bytes()
+            book = books[chapter['book_id']]
+            selected.append({'number':book['number'],'book_id':book['id'],'book_title':book['title'],
+                'work_id':work['id'],'work_title':work['title'],'chapter_id':chapter['id'],
+                'title':chapter['title'],'path':public,'available':'marked_text',
+                'text_scope':chapter['source'].get('text_scope','chapter'),
+                'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']),
+                'annotation_status':progress[book['id']]['person_status']})
+        if not selected:
+            continue
+        path = f'data/corpus/{slug}/index.json'
+        other = {'schema_version':1,'work_id':work['id'],'title':work['title'],'author':work.get('author'),
+                 'chapters':selected,'policy':'只列已實錄卷篇；部分傳文不代表整卷或全書完成。'}
+        result[ROOT / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
+        manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
+                         'reader_kind':'corpus','catalog_path':path})
+    result[directory / 'works.json'] = (json.dumps({'schema_version':1,'works':manifest},ensure_ascii=False,indent=2)+'\n').encode()
     people = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
     summaries = {p['id']: {'id': p['id'], 'label': p['label'], 'status': p['status'],
                           'historicity': p.get('historicity'), 'identity_note': p.get('identity_note'),

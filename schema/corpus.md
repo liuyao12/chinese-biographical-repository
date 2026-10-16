@@ -345,3 +345,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 未決案件可選填布林值 `candidate_list_exhaustive`。`false` 明示已列者不是窮盡名單，即使候選數後來縮為一個，也不得自動當作唯一身份；省略不保證已窮盡。來源局部候選不是額外已證人物，已知可能者與原文證據仍分存，不由候選連結推親屬或日期。
 
 親屬陳述的證據可為 `kind: table_cell`，此時所屬篇使用既有表見證的 `chapter_id`，並記 `work_id`、`book_id`、`source_id`、`source_revision`、`table_id`、`table_cell_id`、完整原格 `quote`，以及該格的 `subject_mention_id`、`object_mention_id`。兩端須為同格逐人錨點，關係原詞須見於原格；不得填 `paragraph_id` 冒作正文或用繼位推父子。表文仍以既有表格檔為單一編輯來源。人物包只在引用表格親屬時附 `table_passages` 與表見證來源；正文 `passages` 不加入虛構段落。家族追溯使用同一可解析關係，引用連回表格原格。
+
+新作品可先錄明示範圍的部分傳文，`source.text_scope: partial_chapter`、`source.extent` 與進度須明示未錄部分；保留古代卷篇ID，不以現代網頁小標另造古篇。未核完整卷目時可令 `expected_books: null`，不得混用篇數與版本卷數冒稱完成。跨作品引文如附 `work_id`、`book_id`，須與實際段落來源相符；表格同指補證亦按該作品目錄核對，不限定《史記》或以同卷號配對。
+
+首選校讀可對應人物稱號錨點。持職仍保存來源字面 `title`；若同一用稱錨點有明示 `preferred_reading` 決定，人物包另附 `preferred_title_readings`，以 `holding_id`、`decision_id`、`source_mention_id` 連起 `source_title` 與 `preferred_title`，並保留暫定狀態及理由。此為編輯選讀，不改寫來源正文或冒稱影像校勘，使用端以ID關聯套用，不需NLU。

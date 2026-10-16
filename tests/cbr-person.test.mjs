@@ -248,3 +248,18 @@ test('親屬表格來源回到原格，不冒作正文段落',()=>{
  assert.doesNotMatch(html,/passage=undefined|passage=shiji-016/);
  assert.doesNotMatch(personCard({...p,relations:[{...p.relations[0],evidence:[{...e,table_id:'javascript:synthetic'}]}]},true),/href="javascript:/);
 });
+test('其他作品的主要來源、親屬引用及出現篇章使用實際書名',()=>{
+ const e={work_id:'w-hanshu',book_id:'b-hanshu-041',chapter_id:'c-hanshu-041-synthetic',paragraph_id:'synthetic-p',quote:'合成原句'};
+ const p={id:'synthetic_person',label:'合成人物',occurrences:[{...e,work_title:'漢書',title:'合成篇',count:2}],relations:[{subject_person_id:'synthetic_person',object_person_id:'synthetic_parent',predicate:'father',evidence:[e]}]};
+ const html=personCard(p,true);
+ assert.match(html,/《漢書·合成篇》/);assert.match(html,/reader\.html#work=w-hanshu/);
+ assert.doesNotMatch(html,/《史記·合成篇》|shiji\.html#chapter=41/);
+});
+test('稱號首選校讀與來源原字分列，不改其他持職字面',()=>{
+ const title={id:'synthetic_holding',title:'合成原字',kind:'noble_rank',evidence:[],effective_period:{start:{status:'unknown'},end:{status:'unknown'}}};
+ const p={id:'synthetic_person',label:'合成人物',titles:[title],preferred_title_readings:[{holding_id:'synthetic_holding',source_title:'合成原字',preferred_title:'合成校讀'}]};
+ const html=personCard(p,true);
+ assert.match(html,/<strong>合成校讀<\/strong>/);assert.match(html,/來源原字：合成原字/);
+ assert.equal(title.title,'合成原字');
+ assert.match(personCard({...p,preferred_title_readings:[]},true),/<strong>合成原字<\/strong>/);
+});

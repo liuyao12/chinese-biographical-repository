@@ -1,0 +1,15 @@
+export default {
+  'Biographical sources':'傳記文獻',
+  'Choose a work':'選擇著作',
+  'Choose an imported chapter.':'選擇已錄卷篇。',
+  'Imported chapters':'已錄卷篇',
+  'Partial chapter':'本卷部分傳文',
+  'Only the listed passages have been imported.':'目前僅錄入所列傳文。',
+  'Source text and identity review remain in progress.':'正文與人物辨識仍在整理。',
+  'Read Hanshu →':'閱讀《漢書》 →',
+  'Compare the Zhou lineage in Hanshu and Shiji.':'對讀《漢書》周氏傳文與《史記》。',
+  'Hanshu · volume 41, Zhou biography only':'《漢書》卷四十一，目前僅錄周氏傳文',
+  'Cross-work reader':'跨作品閱讀',
+  'Provisional reading; source spelling: {text}':'暫定校讀；來源原字：{text}',
+  'This source is not available in the imported catalog.':'已錄目錄中尚無此項來源。',
+};
