@@ -69,3 +69,11 @@ class ConsolidationReferenceTests(unittest.TestCase):
             expected=dict(case,candidate_person_ids=[self.new])
             self.assertEqual(actual['unresolved_identity_cases'],[expected])
             self.assertEqual(actual['resolved_identity_cases'],[{'id':'synthetic-previous'}])
+            case.pop('unknown_identity_possible')
+            case['candidate_list_exhaustive']=False
+            (root/'corpus/book/chapter.json').write_text(json.dumps(data))
+            with patch('scripts.consolidate_person_ids.plan',return_value=([],self.mapping)),patch('scripts.consolidate_person_ids.load_catalog',return_value=({},[])):
+                stage(root,Path(tmp)/'staged-nonexhaustive')
+            actual=json.loads((Path(tmp)/'staged-nonexhaustive/corpus/book/chapter.json').read_text())['annotation']
+            self.assertEqual(actual['unresolved_identity_cases'],[dict(case,candidate_person_ids=[self.new])])
+            self.assertEqual(actual['resolved_identity_cases'],[{'id':'synthetic-previous'}])

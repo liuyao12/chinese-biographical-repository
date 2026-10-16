@@ -341,3 +341,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 直接概數報齡亦可保留 `年六十餘` 型原詞：`source_number` 為六十，`source_term` 不補歲字，界限僅記大於六十、上界未知。自報年齡仍是來源主張，不當確切享年，不逆推出生年；各項須有原句與人物錨點。
 
 人物包的 `date_range_normalizations` 同時匯出明示官爵端點範圍：`date_role: title_period`、`record_id`、`endpoint`、`title` 指回原持職記錄。此類不加生卒事件類型，不能當死亡日期；原 `title_holdings` 端點與證據繼續保留。
+
+未決案件可選填布林值 `candidate_list_exhaustive`。`false` 明示已列者不是窮盡名單，即使候選數後來縮為一個，也不得自動當作唯一身份；省略不保證已窮盡。來源局部候選不是額外已證人物，已知可能者與原文證據仍分存，不由候選連結推親屬或日期。

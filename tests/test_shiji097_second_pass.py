@@ -185,3 +185,37 @@ class LiLuAllusionScopeTests(unittest.TestCase):
             self.assertNotIn(old,people)
             self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+class LiLuUnresolvedContextTests(unittest.TestCase):
+    def test_tianxian_parallel_spelling_is_not_an_identity_merger(self):
+        c=read('corpus/shiji/097.json')
+        case=next(c for c in c['annotation']['unresolved_identity_cases'] if c['id']=='ic-shiji097-tianxian')
+        self.assertEqual(case['status'],'unresolved')
+        self.assertEqual(set(case['candidate_person_ids']),{'dqz_ka3_on8','27q_nw7_jv8'})
+        self.assertEqual(ids(5,'田閒'),{'dqz_ka3_on8'})
+        variant=next(v for v in c['annotation']['reported_variants'] if v['id']=='rv-shiji097-tianxian')
+        self.assertEqual((variant['received_reading'],variant['reported_reading']),('田閒','田間'))
+        self.assertFalse(variant['adopted'])
+        study=next(r for r in case['references'] if r.get('scope')=='modern_secondary_context')
+        self.assertEqual((study['year'],study['doi']),(2017,'10.6503/THJCS.2017.47(3).02'))
+
+    def test_chanyu_comparison_list_stays_open_and_unidentified(self):
+        case=next(c for c in read('corpus/shiji/097.json')['annotation']['unresolved_identity_cases'] if c['id']=='ic-shiji097-unnamed-chanyu')
+        self.assertIs(case['candidate_list_exhaustive'],False)
+        self.assertEqual(case['status'],'unresolved')
+        self.assertEqual(ids(20,'單于'),{'7wk_awi_f4x'})
+        self.assertNotIn('preferred_person_id',case)
+        self.assertIn('wjt_htu_081_AAA',case['candidate_person_ids'])
+
+    def test_candidates_can_retrieve_case_without_being_merged(self):
+        for pid,caseid in [('dqz_ka3_on8','ic-shiji097-tianxian'),('27q_nw7_jv8','ic-shiji097-tianxian'),('7wk_awi_f4x','ic-shiji097-unnamed-chanyu'),('wjt_htu_081_AA','ic-shiji097-unnamed-chanyu')]:
+            b=read(f'exports/persons/{pid}.json')
+            self.assertEqual(b['person_ids'],[pid])
+            self.assertTrue(any(c['id']==caseid for c in b['unresolved_identity_cases']))
+
+    def test_progress_records_remaining_work_without_completion_claim(self):
+        progress=read('corpus/progress.json')
+        for n in [96,97]:
+            b=next(b for b in progress['books'] if b['book_id']==f'b-shiji-{n:03}')
+            self.assertFalse(b['complete']);self.assertEqual(b['person_status'],'in_progress')
+        self.assertIn('漢書',progress['policy'])

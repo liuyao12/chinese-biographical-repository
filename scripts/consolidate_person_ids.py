@@ -172,7 +172,8 @@ def stage(root, destination):
         annotation = data.get('annotation', {})
         remaining, resolved = [], annotation.get('resolved_identity_cases', [])
         for case in annotation.get('unresolved_identity_cases', []):
-            if len(case['candidate_person_ids']) != 1 or case.get('unknown_identity_possible') is True:
+            if (len(case['candidate_person_ids']) != 1 or case.get('unknown_identity_possible') is True
+                    or case.get('candidate_list_exhaustive') is False):
                 remaining.append(case)
                 continue
             pid = case['candidate_person_ids'][0]

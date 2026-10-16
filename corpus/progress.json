@@ -2,7 +2,7 @@
   "format_version": "0.2",
   "objective": "逐書收錄歷代正史與《資治通鑑》中全部人物及可追溯的提及。",
   "active_work_id": "w-shiji",
-  "policy": "先完成《史記》的逐卷標註與身份複核，再展開下一部。",
+  "policy": "以《史記》為主逐卷標註與身份複核；核心身份穩定後展開《漢書》交叉核讀，兩書原文、來源與異說分存，不等同全部複核完成。",
   "books": [
     {
       "book_id": "b-shiji-001",
@@ -943,22 +943,23 @@
       "book_id": "b-shiji-096",
       "chapter_id": "c-shiji-096-zhang",
       "text_status": "transcribed",
-      "person_status": "named_mentions_first_pass",
+      "person_status": "in_progress",
       "complete": false,
       "next_tasks": [
-        "同步人物JSON及完整檢查後接續卷九十七。",
-        "匿名者、代詞、其餘跨篇同指及版本複核仍待續辦。"
+        "已續核跨篇身份、張蒼父系、生卒範圍與報齡、擬任而未授稱號及篇末敘者待考，人物JSON與閱讀器同步。",
+        "匿名指代、其他身份、完整官爵時段與底本影像仍待覆核，未宣稱全篇完成。"
       ]
     },
     {
       "book_id": "b-shiji-097",
       "chapter_id": "c-shiji-097-luli",
       "text_status": "transcribed",
-      "person_status": "named_mentions_first_pass",
+      "person_status": "in_progress",
       "complete": false,
       "next_tasks": [
-        "同步人物JSON與完整檢查後接續卷九十八。",
-        "匿名者、代詞、其餘同指與版本複核未完成。"
+        "已續核跨篇與引古身份、二十二處稱謂、十三項死亡、自報年齡、兩項爵年及相應人物JSON。",
+        "少主、田閒與未名單于已存待考；漢書相應段與現代研究分作參考，不強合候選。",
+        "完成本批驗證後接續卷九十八；本篇其餘匿名者、官爵時段及底本影像仍須再核。"
       ]
     },
     {
