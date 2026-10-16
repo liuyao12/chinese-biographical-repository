@@ -57,7 +57,7 @@ class WeiqiSourceTests(unittest.TestCase):
         self.assertEqual(m['kind'], 'unresolved')
         self.assertIsNone(m['person_id'])
         case = next(case for case in c['annotation']['unresolved_identity_cases'] if p['id'] in case['paragraph_ids'])
-        self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'l26_mjw_rwe'})
+        self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'ixk_6fg_v6f_A'})
 
     def test_crown_prince_has_explicit_installation_and_deposition(self):
         h = next(h for h in self.load('-titles')['holdings'] if h['title'] == '太子')
