@@ -120,6 +120,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji060-001",
+      "person_id": "3tw_nq2_gyn",
+      "title": "大司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-060-sanwang",
+          "source_id": "s-shiji-060-sanwang",
+          "paragraph_id": "c-shiji-060-sanwang:p001",
+          "quote": "「大司馬臣去病昧死再拜上疏皇帝陛下：陛下過聽，使臣去病待罪行閒。宜專邊塞之思慮，暴骸中野無以報，乃敢惟他議以干用事者，誠見陛下憂勞天下，哀憐百姓以自忘，虧膳貶樂，損郎員。皇子賴天，能勝衣趨拜，至今無號位師傅官。陛下恭讓不恤，群臣私望，不敢越職而言。臣竊不勝犬馬心，昧死願陛下詔有司，因盛夏吉時定皇子位。唯陛下幸察。臣去病昧死再拜以聞皇帝陛下。」三月乙亥，御史臣光守尚書令奏未央宮。制曰：「下御史。」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji060-001:a001",
+          "paragraph_id": "c-shiji-060-sanwang:p001",
+          "start": 1,
+          "end": 4,
+          "surface": "大司馬",
+          "person_mention_id": "c-shiji-060-sanwang:m001-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依來源用稱保存，首次提及不補授職日；守、行事及兼攝不冒稱正式新授，單名及制度未定者不補姓或官制細節。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji109-068",
       "person_id": "3tw_nq2_gyn",
       "title": "驃騎將軍",
@@ -2986,6 +3028,14 @@
       "quote": "封為長平侯。青三子在襁褓中，皆封為列侯。及衛皇后所謂姊衛少兒，少兒生子霍去病，以軍功封冠軍侯，號驃騎將軍。青號大將軍。立衛皇后子據為太子。衛氏枝屬以軍功起家，五人為侯。"
     },
     {
+      "number": 60,
+      "category": "shijia",
+      "title": "三王世家第三十",
+      "paragraph_id": "c-shiji-060-sanwang:p001",
+      "count": 7,
+      "quote": "「大司馬臣去病昧死再拜上疏皇帝陛下：陛下過聽，使臣去病待罪行閒。宜專邊塞之思慮，暴骸中野無以報，乃敢惟他議以干用事者，誠見陛下憂勞天下，哀憐百姓以自忘，虧膳貶樂，損郎員。皇子賴天，能勝衣趨拜，至今無號位師傅官。陛下"
+    },
+    {
       "number": 109,
       "category": "liezhuan",
       "title": "李將軍列傳第四十九",
@@ -3018,7 +3068,204 @@
       "quote": "右北平擊匈奴。匈奴圍李將軍，軍失亡多；而騫後期當斬，贖為庶人。是歲漢遣驃騎破匈奴西（城）［域］數萬人，至祁連山。其明年，渾邪王率其民降漢，而金城、河西西并南山至鹽澤空無匈奴。匈奴時有候者到，而希矣。其後二年，漢擊走單于於幕北。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r023-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以嫖姚校尉再從大將軍，六年從大將軍擊匈奴，斬相國功侯。元狩二年，以驃騎將軍擊匈奴，至祁連，益封；迎渾邪王，益封；擊左右賢王，益封。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r023-c01-m002",
+        "start": 33,
+        "end": 37,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p011",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "冠軍侯去病既侯三歲，元狩二年春，以冠軍侯去病為驃騎將軍，將萬騎出隴西，有功。天子曰：「驃騎將軍率戎士踰烏盭，討遬濮，涉狐奴，歷五王國，輜重人眾懾慴者弗取，冀獲單于子。轉戰六日，過焉支山千有餘里，合短兵，殺折蘭王，斬盧胡王，誅全甲，執渾邪王子及相國、都尉，首虜八千餘級，收休屠祭天金人，益封去病二千戶。」"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r023-c03",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "一。六年四月壬申，景桓侯霍去病元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r023-c03-m000",
+        "start": 12,
+        "end": 15,
+        "surface": "霍去病",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "interpretation_note": "按本列封侯名、爵號、軍役及傳文對讀；只接具體人物，不以同名或繼侯推血緣，原文與日期差異保留。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p008",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "是歲也，大將軍姊子霍去病年十八，幸，為天子侍中。善騎射，再從大將軍，受詔與壯士，為剽姚校尉，與輕勇騎八百直棄大軍數百里赴利，斬捕首虜過當。於是天子曰：「剽姚校尉去病斬首虜二千二十八級，及相國、當戶，斬單于大父行籍若侯產，生捕季父羅姑比，再冠軍，以千六百戶封去病為冠軍侯。上谷太守郝賢四從大將軍，捕斬首虜二千餘人，以千一百戶封賢為眾利侯。」是歲，失兩將軍軍，亡翕侯，軍功不多，故大將軍不益封。右將軍建至，天子不誅，赦其罪，贖為庶人。"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r026-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以校尉從驃騎將軍二年再出擊匈奴功侯。故匈奴歸義。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r026-c01-m000",
+        "start": 4,
+        "end": 8,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p012",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r027-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以校尉從驃騎將軍二年再出擊匈奴，得王功侯。以校尉從驃騎將軍二年虜五王功，益封。故匈奴歸義。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r027-c01-m000",
+        "start": 4,
+        "end": 8,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p012",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r027-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以校尉從驃騎將軍二年再出擊匈奴，得王功侯。以校尉從驃騎將軍二年虜五王功，益封。故匈奴歸義。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r027-c01-m001",
+        "start": 25,
+        "end": 29,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p012",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r028-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以司馬再從驃騎將軍數深入匈奴，得兩王子騎將功侯。以匈河將軍元封三年擊樓蘭功，復侯。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r028-c01-m000",
+        "start": 5,
+        "end": 9,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p012",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r034-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以右北平太守從驃騎將軍四年擊右王，將重會期，首虜二千七百人功侯。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r034-c01-m000",
+        "start": 7,
+        "end": 11,
+        "surface": "驃騎將軍",
+        "person_id": "3tw_nq2_gyn",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p019",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "3tw_nq2_gyn",
+            "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-049-waiqi",
@@ -3041,6 +3288,30 @@
           "editorial_readings": [],
           "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
           "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-060-sanwang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-060",
+      "source_id": "s-shiji-060-sanwang",
+      "source": {
+        "title": "史記／卷060",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷060",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290",
+        "revision_id": 7909290,
+        "accessed_on": "2026-10-09",
+        "extent": "32段來源區塊：前17段含奏議、三策及3處右某王策標記，後15段為褚先生附述。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留太仆、承天于、酂、西（湊）［溱］、壃、箸、［立］廣陵王、墝埆、無卹德／無俷德、無修德、闕及滫等見證字與符號。3處dd為策後來源標記，保留在原序，不當導航排除。",
+          "note": "全32段已核讀；褚先生自述求世家不得而編封策，前17段傳承未核定，不冒稱已校定司馬遷原文。未核底本、影像或現代研究。"
         }
       }
     },
@@ -3138,6 +3409,29 @@
           "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
           "note": "末段索隱述贊另分層。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],

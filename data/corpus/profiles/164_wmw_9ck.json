@@ -951,6 +951,49 @@
         }
       ],
       "period": "西元前121年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji123-012",
+      "person_id": "164_wmw_9ck",
+      "title": "渾邪王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-123-dayuan",
+          "source_id": "s-shiji123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p016",
+          "quote": "騫以校尉從大將軍擊匈奴，知水草處，軍得以不乏，乃封騫為博望侯。是歲元朔六年也。其明年，騫為衛尉，與李將軍俱出右北平擊匈奴。匈奴圍李將軍，軍失亡多；而騫後期當斬，贖為庶人。是歲漢遣驃騎破匈奴西（城）［域］數萬人，至祁連山。其明年，渾邪王率其民降漢，而金城、河西西并南山至鹽澤空無匈奴。匈奴時有候者到，而希矣。其後二年，漢擊走單于於幕北。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji123-012:a001",
+          "paragraph_id": "c-shiji-123-dayuan:p016",
+          "start": 114,
+          "end": 117,
+          "surface": "渾邪王",
+          "person_mention_id": "c-shiji-123-dayuan:m016-0114",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文授任、繼位與用稱分存；未知起訖保持未知，不因死亡自動終止。從驃侯等原稱不默改。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -978,9 +1021,102 @@
       "paragraph_id": "c-shiji-120-jizheng:p012",
       "count": 3,
       "quote": "居無何，匈奴渾邪王率眾來降，漢發車二萬乘。縣官無錢，從民貰馬。民或匿馬，馬不具。上怒，欲斬長安令。黯曰：「長安令無罪，獨斬黯，民乃肯出馬。且匈奴畔其主而降漢，漢徐以縣次傳之，何至令天下騷動，罷獘中國而以事夷狄之人乎！」"
+    },
+    {
+      "number": 123,
+      "category": "liezhuan",
+      "title": "大宛列傳第六十三",
+      "paragraph_id": "c-shiji-123-dayuan:p016",
+      "count": 4,
+      "quote": "，贖為庶人。是歲漢遣驃騎破匈奴西（城）［域］數萬人，至祁連山。其明年，渾邪王率其民降漢，而金城、河西西并南山至鹽澤空無匈奴。匈奴時有候者到，而希矣。其後二年，漢擊走單于於幕北。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r023-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以嫖姚校尉再從大將軍，六年從大將軍擊匈奴，斬相國功侯。元狩二年，以驃騎將軍擊匈奴，至祁連，益封；迎渾邪王，益封；擊左右賢王，益封。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r023-c01-m003",
+        "start": 49,
+        "end": 52,
+        "surface": "渾邪王",
+        "person_id": "164_wmw_9ck",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p013",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "164_wmw_9ck",
+            "quote": "其秋，單于怒渾邪王居西方數為漢所破，亡數萬人，以驃騎之兵也。單于怒，欲召誅渾邪王。渾邪王與休屠王等謀欲降漢，使人先要邊。是時大行李息將城河上，得渾邪王使，即馳傳以聞。天子聞之，於是恐其以詐降而襲邊，乃令驃騎將軍將兵往迎之。驃騎既渡河，與渾邪王眾相望。渾邪王裨將見漢軍而多欲不降者，頗遁去。驃騎乃馳入與渾邪王相見，斬其欲亡者八千人，遂獨遣渾邪王乘傳先詣行在所，盡將其眾渡河，降者數萬，號稱十萬。既至長安，天子所以賞賜者數十巨萬。封渾邪王萬戶，為漯陰侯。封其裨王呼毒尼為下摩侯，鷹庇為煇渠侯，禽為河綦侯，大當戶銅離為常樂侯。於是天子嘉驃騎之功曰：「驃騎將軍去病率師攻匈奴西域王渾邪，王及厥眾萌咸相奔，率以軍糧接食，并將控弦萬有餘人，誅獟駻，獲首虜八千餘級，降異國之王三十二人，戰士不離傷，十萬之眾咸懷集服，仍與之勞，爰及河塞，庶幾無患，幸既永綏矣。以千七百戶益封驃騎將軍。」減隴西、北地、上郡戍卒之半，以寬天下之繇。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r030-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以匈奴渾邪王將眾十萬降侯，萬戶。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r030-c01-m000",
+        "start": 3,
+        "end": 6,
+        "surface": "渾邪王",
+        "person_id": "164_wmw_9ck",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p013",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "164_wmw_9ck",
+            "quote": "其秋，單于怒渾邪王居西方數為漢所破，亡數萬人，以驃騎之兵也。單于怒，欲召誅渾邪王。渾邪王與休屠王等謀欲降漢，使人先要邊。是時大行李息將城河上，得渾邪王使，即馳傳以聞。天子聞之，於是恐其以詐降而襲邊，乃令驃騎將軍將兵往迎之。驃騎既渡河，與渾邪王眾相望。渾邪王裨將見漢軍而多欲不降者，頗遁去。驃騎乃馳入與渾邪王相見，斬其欲亡者八千人，遂獨遣渾邪王乘傳先詣行在所，盡將其眾渡河，降者數萬，號稱十萬。既至長安，天子所以賞賜者數十巨萬。封渾邪王萬戶，為漯陰侯。封其裨王呼毒尼為下摩侯，鷹庇為煇渠侯，禽為河綦侯，大當戶銅離為常樂侯。於是天子嘉驃騎之功曰：「驃騎將軍去病率師攻匈奴西域王渾邪，王及厥眾萌咸相奔，率以軍糧接食，并將控弦萬有餘人，誅獟駻，獲首虜八千餘級，降異國之王三十二人，戰士不離傷，十萬之眾咸懷集服，仍與之勞，爰及河塞，庶幾無患，幸既永綏矣。以千七百戶益封驃騎將軍。」減隴西、北地、上郡戍卒之半，以寬天下之繇。"
+          }
+        ],
+        "interpretation_note": "依本列封侯名、功事及所從主將識別；省名承同格完整姓名，不由同爵或繼侯補血親；不標數字西元欄。"
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r030-c04",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "四。二年七月壬午，定侯渾邪元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r030-c04-m000",
+        "start": 11,
+        "end": 13,
+        "surface": "渾邪",
+        "person_id": "164_wmw_9ck",
+        "status": "contextual_provisional",
+        "interpretation_note": "按本列封侯名、爵號、軍役及傳文對讀；只接具體人物，不以同名或繼侯推血緣，原文與日期差異保留。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p013",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "164_wmw_9ck",
+            "quote": "其秋，單于怒渾邪王居西方數為漢所破，亡數萬人，以驃騎之兵也。單于怒，欲召誅渾邪王。渾邪王與休屠王等謀欲降漢，使人先要邊。是時大行李息將城河上，得渾邪王使，即馳傳以聞。天子聞之，於是恐其以詐降而襲邊，乃令驃騎將軍將兵往迎之。驃騎既渡河，與渾邪王眾相望。渾邪王裨將見漢軍而多欲不降者，頗遁去。驃騎乃馳入與渾邪王相見，斬其欲亡者八千人，遂獨遣渾邪王乘傳先詣行在所，盡將其眾渡河，降者數萬，號稱十萬。既至長安，天子所以賞賜者數十巨萬。封渾邪王萬戶，為漯陰侯。封其裨王呼毒尼為下摩侯，鷹庇為煇渠侯，禽為河綦侯，大當戶銅離為常樂侯。於是天子嘉驃騎之功曰：「驃騎將軍去病率師攻匈奴西域王渾邪，王及厥眾萌咸相奔，率以軍糧接食，并將控弦萬有餘人，誅獟駻，獲首虜八千餘級，降異國之王三十二人，戰士不離傷，十萬之眾咸懷集服，仍與之勞，爰及河塞，庶幾無患，幸既永綏矣。以千七百戶益封驃騎將軍。」減隴西、北地、上郡戍卒之半，以寬天下之繇。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-110-xiongnu",
@@ -1052,6 +1188,53 @@
           "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
           "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-123-dayuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "source_id": "s-shiji123-dayuan",
+      "source": {
+        "title": "史記／卷123",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷123",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
+        "revision_id": 8736799,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文39段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
+        }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],

@@ -529,7 +529,6 @@
 | `kfu_u3t_85t` | 蘇意（故楚相） | [《史記・孝文本紀》][13] | [JSON](kfu_u3t_85t.json) |
 | `kg1_doo_hgp` | 淳于越 | [《史記・秦始皇本紀》][9] | [JSON](kg1_doo_hgp.json) |
 | `kg6_cm8_v76` | 丑（右宰） | [《史記・衛康叔世家》][22] | [JSON](kg6_cm8_v76.json) |
-| `kgo_dqk_ti0` | 去病 | [《史記・三王世家》][45] | [JSON](kgo_dqk_ti0.json) |
 | `kh0_n9x_w13` | 趙成侯 | [《史記・魏世家》][29] | [JSON](kh0_n9x_w13.json) |
 | `kh7_12u_kei` | 讙兜 | [《史記・五帝本紀》][4] | [JSON](kh7_12u_kei.json) |
 | `kha_v9q_mku` | 子羽 | [《史記・留侯世家》][40] | [JSON](kha_v9q_mku.json) |
@@ -634,7 +633,7 @@
 | `lcu_lvw_vlk` | 子臧 | [《史記・吳太伯世家》][16] | [JSON](lcu_lvw_vlk.json) |
 | `lcy_pp7_2tl` | 成王 | [《史記・梁孝王世家》][43] | [JSON](lcy_pp7_2tl.json) |
 | `ldc_zat_qlt` | 荀櫟 | [《史記・趙世家》][28] | [JSON](ldc_zat_qlt.json) |
-| `ldw_cby_hek` | 郝賢 | [《史記・衛將軍驃騎列傳》][96] | [JSON](ldw_cby_hek.json) |
+| `ldw_cby_hek` | 郝賢 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](ldw_cby_hek.json) |
 | `le1_189_mdi` | 裏克 | [《史記・鄭世家》][27] | [JSON](le1_189_mdi.json) |
 | `le6_hlz_o1r` | 隨侯（楚武王伐隨時未名） | [《史記・楚世家》][25] | [JSON](le6_hlz_o1r.json) |
 | `le8_eqh_ry0` | 夫子引言 | [《史記・孟子荀卿列傳》][59] | [JSON](le8_eqh_ry0.json) |
@@ -1183,7 +1182,7 @@
 | `ppa_vqy_d1e` | 周顯王（楚篇致胙者） | [《史記・楚世家》][25] | [JSON](ppa_vqy_d1e.json) |
 | `pph_9jt_i6m` | 太后（趙世家孝成王新立未名者） | [《史記・趙世家》][28] | [JSON](pph_9jt_i6m.json) |
 | `ppk_dnc_f2g` | 白公勝（楚亂記事） | [《史記・陳杞世家》][21] | [JSON](ppk_dnc_f2g.json) |
-| `ppl_k5e_2iw` | 呼毒尼 | [《史記・衛將軍驃騎列傳》][96] | [JSON](ppl_k5e_2iw.json) |
+| `ppl_k5e_2iw` | 呼毒尼 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](ppl_k5e_2iw.json) |
 | `pqt_3m5_2v2` | 李將軍 | [《史記・太史公自序》][115] | [JSON](pqt_3m5_2v2.json) |
 | `pqx_j3h_31a` | 褚廣 | [《史記・酷吏列傳》][107] | [JSON](pqx_j3h_31a.json) |
 | `pr6_r4f_o9t` | 申徒狄引古 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](pr6_r4f_o9t.json) |
@@ -2338,3 +2337,4 @@
 [120]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
