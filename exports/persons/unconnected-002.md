@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][104] | [JSON](g0i_iwm_ld0.json) |
-| `g0j_yhl_z02` | 淮南王（趙兼甥） | [《史記・酷吏列傳》][105] | [JSON](g0j_yhl_z02.json) |
 | `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][6] | [JSON](g0o_7tz_csx.json) |
 | `g0t_7m5_3bk` | 鄧都尉 | [《史記・吳王濞列傳》][89] | [JSON](g0t_7m5_3bk.json) |
 | `g0x_vmx_2lg` | 當朝天子 | [《史記・南越列傳》][96] | [JSON](g0x_vmx_2lg.json) |
@@ -235,7 +233,6 @@
 | `hm5_fxv_gts` | 賈姬 | [《史記・酷吏列傳》][105] | [JSON](hm5_fxv_gts.json) |
 | `hm9_d4o_xna` | 犯蹕者未名 | [《史記・張釋之馮唐列傳》][85] | [JSON](hm9_d4o_xna.json) |
 | `hmc_rv2_qxm` | 齊宣王（燕篇） | [《史記・蘇秦列傳》][52] | [JSON](hmc_rv2_qxm.json) |
-| `hmf_0gk_k9w` | 衛將軍未具名 | [《史記・田叔列傳》][87] | [JSON](hmf_0gk_k9w.json) |
 | `hmj_pm8_38e` | 壺遂 | [《史記・韓長孺列傳》][91] | [JSON](hmj_pm8_38e.json) |
 | `hmr_3oo_5m5` | 漢宣帝 | [《史記・張丞相列傳》][79] | [JSON](hmr_3oo_5m5.json) |
 | `hmx_ohe_wso` | 楚考烈王（滅魯記事） | [《史記・魯周公世家》][16] | [JSON](hmx_ohe_wso.json) |
@@ -2221,6 +2218,10 @@
 | `w7s_pgt_k77` | 四歲後出征敘事單于（未名） | [《史記・李將軍列傳》][92] | [JSON](w7s_pgt_k77.json) |
 | `w85_8hh_ltq` | 商君 | [《史記・陳涉世家》][31] | [JSON](w85_8hh_ltq.json) |
 | `w87_cay_3gx` | 趙調 | [《史記・游俠列傳》][107] | [JSON](w87_cay_3gx.json) |
+| `w8i_dhi_044` | 御史大夫杜 | [《史記・田叔列傳》][87] | [JSON](w8i_dhi_044.json) |
+| `w8q_z9a_0zz` | 陳子禽 | [《史記・仲尼弟子列傳》][50] | [JSON](w8q_z9a_0zz.json) |
+| `w95_we2_wu2` | 仇景 | [《史記・游俠列傳》][107] | [JSON](w95_we2_wu2.json) |
+| `w9b_n1i_kar` | 安王 | [《史記・周本紀》][5] | [JSON](w9b_n1i_kar.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
