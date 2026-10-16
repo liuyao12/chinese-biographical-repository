@@ -1617,37 +1617,6 @@
       ]
     },
     {
-      "id": "family-shanyu-shiji109-tianhan",
-      "root_person_id": "x9i_8zv_ker",
-      "label": "天漢二年單于父系（本篇未名）",
-      "status": "editorial_preferred",
-      "human_reviewed": false,
-      "reviewer": "Codex（AI 代理）",
-      "rationale": "只據同段其女明示父親接女；不按單于官號合併早年候選，李陵為女配偶而非本父系子。",
-      "members": [
-        {
-          "person_id": "x9i_8zv_ker",
-          "representative_source_person_id": "x9i_8zv_ker",
-          "source_person_ids": [
-            "x9i_8zv_ker"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "source_assertion_id": null
-        },
-        {
-          "person_id": "x9i_8zv_ker_A",
-          "representative_source_person_id": "x9i_8zv_ker_A",
-          "source_person_ids": [
-            "x9i_8zv_ker_A"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": "x9i_8zv_ker",
-          "source_assertion_id": "a-shiji109-011"
-        }
-      ]
-    },
-    {
       "id": "family-qinkai-shiji110",
       "root_person_id": "505_n4y_p39",
       "label": "秦開父系（匈奴列傳）",
@@ -1692,7 +1661,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "本段明示父子與後母弟的敘事承接；分支字元不表示排行，冒頓生母未知。 第18段子稽粥接冒頓，與頭曼共享根；分支不作排行。 第27段子軍臣接稽粥，頭曼至軍臣四代共用根，未補姓氏。 第32段於單按軍臣所屬太子稱謂接第五代；伊稚斜同父連接是另有標記的編輯暫定，不作原文明示。",
+      "rationale": "本段明示父子與後母弟的敘事承接；分支字元不表示排行，冒頓生母未知。 第18段子稽粥接冒頓，與頭曼共享根；分支不作排行。 第27段子軍臣接稽粥，頭曼至軍臣四代共用根，未補姓氏。 第32段於單按軍臣所屬太子稱謂接第五代；伊稚斜同父連接是另有標記的編輯暫定，不作原文明示。 卷一〇九天漢二年李陵降及以女妻陵，依同一事件暫接且鞮侯與已錄之女；兩篇父女原斷言各存，不增母親、本名或排行。",
       "members": [
         {
           "person_id": "wjt_htu_081",
@@ -1850,7 +1819,9 @@
           "source_person_ids": [
             "wjt_htu_081_AABC"
           ],
-          "identity_equivalence_decision_ids": [],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji109-context-qiedihou"
+          ],
           "parent_person_id": "wjt_htu_081_AAB",
           "source_assertion_id": null,
           "parent_connection": {
@@ -1890,7 +1861,9 @@
           "source_person_ids": [
             "wjt_htu_081_AABCA"
           ],
-          "identity_equivalence_decision_ids": [],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji109-context-liling-wife"
+          ],
           "parent_person_id": "wjt_htu_081_AABC",
           "source_assertion_id": "a-shiji110-025",
           "interpretation_note": "單于以其女妻之保存有明文的父女關係，接已作編輯父系組裝的且鞮侯；女兒名、生母、排行未知，A不表示長女。配偶李陵另留來源關係，不改女兒父系。"
