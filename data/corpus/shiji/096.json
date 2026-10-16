@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全30段明示姓名首輪、15條親屬、104條官爵與諡稱、10筆來源出身地、8項跨篇暫定同指；匿名、代詞、其餘同指與版本複核仍待續辦。 開篇九組跨篇同指續核，引用遷移後撤除十二個重複候選；不表示全篇身份與稱號時段已覆核。 續核漢廷十二組同指並補第八段王為如意，仍未完成代詞、匿名者及後段作者辨識。 第五段擬授太子改為非人物職稱錨點，另存未實行稱號提議。",
+    "coverage": "全30段明示姓名首輪、15條親屬、104條官爵與諡稱、10筆來源出身地、8項跨篇暫定同指；匿名、代詞、其餘同指與版本複核仍待續辦。 開篇九組跨篇同指續核，引用遷移後撤除十二個重複候選；不表示全篇身份與稱號時段已覆核。 續核漢廷十二組同指並補第八段王為如意，仍未完成代詞、匿名者及後段作者辨識。 第五段擬授太子改為非人物職稱錨點，另存未實行稱號提議。 續核張蒼明示父系、自序同指、十六項來源死亡與一項百有餘歲報齡；兩項紀年保留跨西元年範圍。",
     "limitations": [
       "正文前後記述分界與作者傳承未核可靠底本；保留見證，不冒署補作者。",
       "從兄只記父系同輩較年長，親等與共同祖先未知；父事非生父。",
@@ -58,6 +58,38 @@
         "human_reviewed": false,
         "model": null
       }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji096-001",
+        "person_id": "796_nkw_0jz_A",
+        "value": null,
+        "source_number": "百",
+        "source_term": "百有餘歲",
+        "bounds": {
+          "lower": 100,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "reporting_status": "direct_report",
+        "source_qualification": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-096-zhang",
+            "source_id": "s-shiji-096-zhang",
+            "paragraph_id": "c-shiji-096-zhang:p015",
+            "quote": "初，張蒼父長不滿五尺，及生蒼，蒼長八尺餘，為侯、丞相。蒼子復長。及孫類，長六尺餘，坐法失侯。蒼之免相後，老，口中無齒，食乳，女子為乳母。妻妾以百數，嘗孕者不復幸。蒼年百有餘歲而卒。",
+            "person_mention_id": "c-shiji-096-zhang:m015-0002"
+          }
+        ],
+        "interpretation_note": "只記來源超過一百的報齡下界；不補上界、計歲方式或出生年，亦不以一百作確切享年。",
+        "reviewer": "Codex（AI 代理）"
+      }
     ]
   },
   "paragraphs": [
@@ -73,7 +105,7 @@
           "end": 4,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -91,7 +123,7 @@
           "end": 44,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -100,7 +132,7 @@
           "end": 52,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -172,7 +204,7 @@
           "end": 136,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -190,7 +222,7 @@
           "end": 149,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -217,7 +249,7 @@
           "end": 162,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -271,7 +303,7 @@
           "end": 209,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -306,7 +338,7 @@
           "end": 29,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -315,7 +347,7 @@
           "end": 48,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -324,7 +356,7 @@
           "end": 58,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -351,7 +383,7 @@
           "end": 91,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         }
       ]
@@ -1686,7 +1718,7 @@
           "end": 149,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         }
       ]
@@ -1703,7 +1735,7 @@
           "end": 1,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1748,7 +1780,7 @@
           "end": 26,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         }
       ]
@@ -1774,7 +1806,7 @@
           "end": 27,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1792,7 +1824,7 @@
           "end": 131,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1801,7 +1833,7 @@
           "end": 133,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         }
       ]
@@ -1818,7 +1850,7 @@
           "end": 2,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1845,7 +1877,7 @@
           "end": 17,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1872,7 +1904,7 @@
           "end": 30,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1898,7 +1930,7 @@
           "end": 1,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1916,7 +1948,7 @@
           "end": 35,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1925,7 +1957,7 @@
           "end": 38,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1952,7 +1984,7 @@
           "end": 82,
           "surface": "張丞相",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1961,7 +1993,7 @@
           "end": 93,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1970,7 +2002,7 @@
           "end": 108,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1979,7 +2011,7 @@
           "end": 110,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -1988,7 +2020,7 @@
           "end": 115,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2006,7 +2038,7 @@
           "end": 131,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2015,7 +2047,7 @@
           "end": 141,
           "surface": "康侯",
           "kind": "person",
-          "person_id": "68u_x4k_2k4_A",
+          "person_id": "796_nkw_0jz_AA",
           "status": "contextual_provisional"
         },
         {
@@ -2024,7 +2056,7 @@
           "end": 149,
           "surface": "類",
           "kind": "person",
-          "person_id": "68u_x4k_2k4_AA",
+          "person_id": "796_nkw_0jz_AAA",
           "status": "contextual_provisional"
         }
       ]
@@ -2041,7 +2073,7 @@
           "end": 4,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2059,7 +2091,7 @@
           "end": 14,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2068,7 +2100,7 @@
           "end": 16,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2077,7 +2109,7 @@
           "end": 28,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2086,7 +2118,7 @@
           "end": 35,
           "surface": "類",
           "kind": "person",
-          "person_id": "68u_x4k_2k4_AA",
+          "person_id": "796_nkw_0jz_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -2095,7 +2127,7 @@
           "end": 47,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2104,7 +2136,7 @@
           "end": 82,
           "surface": "蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         }
       ]
@@ -2193,7 +2225,7 @@
           "end": 91,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2211,7 +2243,7 @@
           "end": 106,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -2819,7 +2851,7 @@
           "end": 7,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {
@@ -3529,7 +3561,7 @@
           "end": 2,
           "surface": "張蒼",
           "kind": "person",
-          "person_id": "68u_x4k_2k4",
+          "person_id": "796_nkw_0jz_A",
           "status": "contextual_provisional"
         },
         {

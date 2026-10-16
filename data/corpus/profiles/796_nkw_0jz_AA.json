@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "68u_x4k_2k4_A",
-  "canonical_person_id": "68u_x4k_2k4_A",
+  "id": "796_nkw_0jz_AA",
+  "canonical_person_id": "796_nkw_0jz_AA",
   "label": "張蒼子未名（康侯）（張丞相列傳候選）",
   "identity_note": null,
   "review": "ai_provisional",
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-shiji096-039",
-      "person_id": "68u_x4k_2k4_A",
+      "person_id": "796_nkw_0jz_AA",
       "title": "康侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -93,9 +93,9 @@
   "relations": [
     {
       "id": "a-shiji096-004",
-      "subject_person_id": "68u_x4k_2k4_A",
+      "subject_person_id": "796_nkw_0jz_AA",
       "predicate": "father",
-      "object_person_id": "68u_x4k_2k4",
+      "object_person_id": "796_nkw_0jz_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -114,9 +114,9 @@
     },
     {
       "id": "a-shiji096-005",
-      "subject_person_id": "68u_x4k_2k4_AA",
+      "subject_person_id": "796_nkw_0jz_AAA",
       "predicate": "father",
-      "object_person_id": "68u_x4k_2k4_A",
+      "object_person_id": "796_nkw_0jz_AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -135,21 +135,21 @@
     }
   ],
   "related_people": {
-    "68u_x4k_2k4": "張蒼",
-    "68u_x4k_2k4_A": "張蒼子未名（康侯）（張丞相列傳候選）",
-    "68u_x4k_2k4_AA": "張類（張丞相列傳候選）"
+    "796_nkw_0jz_A": "張蒼",
+    "796_nkw_0jz_AA": "張蒼子未名（康侯）（張丞相列傳候選）",
+    "796_nkw_0jz_AAA": "張類（張丞相列傳候選）"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "68u_x4k_2k4_A"
+    "796_nkw_0jz_AA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji096-004",
-      "subject_person_id": "68u_x4k_2k4_A",
+      "subject_person_id": "796_nkw_0jz_AA",
       "predicate": "father",
-      "object_person_id": "68u_x4k_2k4",
+      "object_person_id": "796_nkw_0jz_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -168,9 +168,9 @@
     },
     {
       "id": "a-shiji096-005",
-      "subject_person_id": "68u_x4k_2k4_AA",
+      "subject_person_id": "796_nkw_0jz_AAA",
       "predicate": "father",
-      "object_person_id": "68u_x4k_2k4_A",
+      "object_person_id": "796_nkw_0jz_AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -189,7 +189,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji096-005",
+      "person_id": "796_nkw_0jz_AA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "子康侯代，八年卒",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-096-zhang",
+          "source_id": "s-shiji-096-zhang",
+          "paragraph_id": "c-shiji-096-zhang:p014",
+          "quote": "蒼為丞相十餘年，魯人公孫臣上書言漢土德時，其符有黃龍當見。詔下其議張蒼，張蒼以為非是，罷之。其後黃龍見成紀，於是文帝召公孫臣以為博士，草土德之歷制度，更元年。張丞相由此自絀，謝病稱老。蒼任人為中候，大為姦利，上以讓蒼，蒼遂病免。蒼為丞相十五歲而免。孝景前五年，蒼卒，謚為文侯。子康侯代，八年卒。子類代為侯，八年，坐臨諸侯喪後就位不敬，國除。",
+          "person_mention_id": "c-shiji-096-zhang:m014-0139"
+        }
+      ],
+      "interpretation_note": "依本篇明示死亡記載；相對三歲及嗣侯八年等不是公元年，不推未知月日，不以死亡填所有官爵終期。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

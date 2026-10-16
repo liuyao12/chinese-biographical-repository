@@ -45,7 +45,7 @@ class ZhangOpeningIdentityTests(unittest.TestCase):
         self.assertEqual(ids(p,'皇子長'),{'yqp_nlb_p1p_AF'})
         self.assertEqual(ids(para(118,2),'淮南王黥布'),{'zxd_afr_2xg'})
         a=read('corpus/shiji/096-assertions.json')['assertions']
-        father=next(x for x in a if x['subject_person_id']=='68u_x4k_2k4' and x['predicate']=='father')
+        father=next(x for x in a if x['subject_person_id']=='796_nkw_0jz_A' and x['predicate']=='father')
         self.assertEqual(father['object_person_id'],'796_nkw_0jz')
         self.assertNotEqual(father['object_person_id'],'5do_703_rfz')
 
@@ -127,3 +127,69 @@ class ZhangCourtIdentityTests(unittest.TestCase):
             self.assertTrue(title_proposal_errors(broken,c,{'yqp_nlb_p1p_AA','yqp_nlb_p1p_AH'}))
         broken=copy.deepcopy(proposal);broken['evidence'][0]['quote']='太子'
         self.assertTrue(title_proposal_errors(broken,c,{'yqp_nlb_p1p_AH'}))
+
+class ZhangFamilyLifeTests(unittest.TestCase):
+    def test_four_generations_share_evidenced_paths_not_age_order(self):
+        people={p['id']:p for p in read('registry/persons.json')['persons']}
+        line=['796_nkw_0jz','796_nkw_0jz_A','796_nkw_0jz_AA','796_nkw_0jz_AAA']
+        for parent,child in zip(line,line[1:]):
+            path=people[child]['family_path']
+            self.assertEqual((path['parent_person_id'],path['generation_distance'],path['connection']),(parent,1,'father'))
+            self.assertTrue(path['evidence'])
+        self.assertEqual(ids(para(96,15),'父'),{'796_nkw_0jz'})
+        self.assertIn('未名',people[line[0]]['label'])
+        self.assertNotIn('長', [a['surface'] for a in people[line[0]]['aliases']])
+        self.assertEqual(ids(para(96,14),'康侯'),{line[2]})
+        self.assertEqual(ids(para(96,15),'類'),{line[3]})
+
+    def test_self_preface_and_table_name_follow_same_person(self):
+        self.assertEqual(ids(para(130,108),'蒼'),{'796_nkw_0jz_A'})
+        self.assertEqual(ids(para(130,142),'張蒼'),{'796_nkw_0jz_A'})
+        table=read('data/historical-tables/shiji-022.json')
+        cell=next(c for f in table['fragments'] for row in f['rows'] for c in row['cells'] if c['id']=='shiji-022-t1-r055-c02')
+        self.assertEqual({m['person_id'] for m in cell['person_mentions'] if m['surface']=='張蒼'},{'796_nkw_0jz_A'})
+
+    def test_death_ranges_preserve_two_calendar_years_in_api(self):
+        events=read('corpus/shiji/096-life-events.json')['events']
+        self.assertEqual(len(events),16)
+        for pid,earliest,latest in [('796_nkw_0jz_A',153,152),('yph_dkb_w4w',156,155)]:
+            e=next(e for e in events if e['person_id']==pid)
+            self.assertNotIn('normalized_date',e)
+            d=e['normalized_date_range']
+            self.assertEqual((d['earliest']['era_year'],d['latest']['era_year']),(earliest,latest))
+            self.assertEqual(d['earliest']['year'],1-earliest)
+            b=read(f'exports/persons/{pid}.json')
+            self.assertTrue(any(x['record_id']==e['id'] for x in b['date_range_normalizations']))
+            self.assertFalse(any(x['record_id']==e['id'] for x in b['date_normalizations']))
+            self.assertTrue(any(r['scope']=='received_calendar_rule' and '十月為歲首' in r['quote'] for r in d['references']))
+
+    def test_bounded_hundred_age_does_not_create_birth_or_exact_age(self):
+        b=read('exports/persons/796_nkw_0jz_A.json')
+        age=next(a for a in b['age_assertions'] if a['id']=='age-shiji096-001')
+        self.assertIsNone(age['value']);self.assertIsNone(age['birth_year'])
+        self.assertEqual(age['bounds'],{'lower':100,'lower_inclusive':False,'upper':None,'upper_inclusive':None})
+        self.assertEqual((age['source_term'],age['reporting_status']),('百有餘歲','direct_report'))
+        self.assertFalse(any(e['event_type']=='birth' for e in b['life_events']))
+
+    def test_relative_death_intervals_are_not_regnal_years_or_ages(self):
+        events=read('corpus/shiji/096-life-events.json')['events']
+        chang=next(e for e in events if e['person_id']=='gfr_55l_72s')
+        self.assertEqual(chang['date_expression'],'謝病不朝見，三歲而死')
+        self.assertNotIn('normalized_date',chang);self.assertNotIn('normalized_date_range',chang)
+        for pid in ['796_nkw_0jz_AA','yph_dkb_w4w_A','yph_dkb_w4w_AA']:
+            e=next(e for e in events if e['person_id']==pid)
+            self.assertIsNone(e['date_expression'])
+            self.assertNotIn('normalized_date',e)
+
+    def test_death_does_not_fill_all_title_endpoints(self):
+        h=next(h for h in read('corpus/shiji/096-titles.json')['holdings'] if h['id']=='th-shiji096-006')
+        self.assertEqual(h['person_id'],'796_nkw_0jz_A')
+        self.assertEqual(h['effective_period']['end']['status'],'unknown')
+        self.assertNotIn('normalized_date_range',h['effective_period']['end'])
+
+    def test_rebased_and_duplicate_person_ids_are_retired(self):
+        people={p['id'] for p in read('registry/persons.json')['persons']}
+        for old in ['68u_x4k_2k4','68u_x4k_2k4_A','68u_x4k_2k4_AA','cf6_ekq_84s']:
+            self.assertNotIn(old,people)
+            self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())

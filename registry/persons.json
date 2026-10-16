@@ -126042,7 +126042,7 @@
       ]
     },
     {
-      "id": "68u_x4k_2k4",
+      "id": "796_nkw_0jz_A",
       "label": "張蒼",
       "status": "active",
       "historicity": "historical_tradition",
@@ -126066,7 +126066,8 @@
             "c-shiji-096-zhang:m016-0089",
             "c-shiji-096-zhang:m016-0104",
             "c-shiji-096-zhang:m020-0005",
-            "c-shiji-096-zhang:m030-0000"
+            "c-shiji-096-zhang:m030-0000",
+            "c-shiji-130-taishigong:m142-0061"
           ]
         },
         {
@@ -126094,13 +126095,15 @@
             "c-shiji-096-zhang:m015-0015",
             "c-shiji-096-zhang:m015-0027",
             "c-shiji-096-zhang:m015-0046",
-            "c-shiji-096-zhang:m015-0081"
+            "c-shiji-096-zhang:m015-0081",
+            "c-shiji-130-taishigong:m108-0010"
           ]
         },
         {
           "surface": "張丞相",
           "mention_ids": [
-            "c-shiji-096-zhang:m014-0079"
+            "c-shiji-096-zhang:m014-0079",
+            "c-shiji-130-taishigong:m108-0025"
           ]
         }
       ],
@@ -126350,8 +126353,44 @@
           "chapter_id": "c-shiji-096-zhang",
           "paragraph_id": "c-shiji-096-zhang:p030",
           "quote": "張蒼"
+        },
+        {
+          "mention_id": "c-shiji-130-taishigong:m108-0010",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p108",
+          "quote": "蒼"
+        },
+        {
+          "mention_id": "c-shiji-130-taishigong:m108-0025",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p108",
+          "quote": "張丞相"
+        },
+        {
+          "mention_id": "c-shiji-130-taishigong:m142-0061",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p142",
+          "quote": "張蒼"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "parent_person_id": "796_nkw_0jz",
+        "source_assertion_id": "a-shiji096-006",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-096-zhang",
+            "source_id": "s-shiji-096-zhang",
+            "paragraph_id": "c-shiji-096-zhang:p015",
+            "quote": "初，張蒼父長不滿五尺，及生蒼，蒼長八尺餘，為侯、丞相。蒼子復長。及孫類，長六尺餘，坐法失侯。蒼之免相後，老，口中無齒，食乳，女子為乳母。妻妾以百數，嘗孕者不復幸。蒼年百有餘歲而卒。"
+          }
+        ],
+        "status": "contextual_provisional",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "interpretation_note": "張蒼父長不滿五尺明示父子；長是身高敘述，父親姓名未知。父事王陵為尊事，不改此父子。分支字元不是排行。"
+      }
     },
     {
       "id": "lwc_kea_ype",
@@ -313675,7 +313714,7 @@
       ]
     },
     {
-      "id": "68u_x4k_2k4_A",
+      "id": "796_nkw_0jz_AA",
       "label": "張蒼子未名（康侯）（張丞相列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -313712,7 +313751,7 @@
         "source_assertion_id": "a-shiji096-004",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "68u_x4k_2k4"
+        "parent_person_id": "796_nkw_0jz_A"
       }
     },
     {
@@ -314289,7 +314328,7 @@
       ]
     },
     {
-      "id": "68u_x4k_2k4_AA",
+      "id": "796_nkw_0jz_AAA",
       "label": "張類（張丞相列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -314333,7 +314372,7 @@
         "source_assertion_id": "a-shiji096-005",
         "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "68u_x4k_2k4_A"
+        "parent_person_id": "796_nkw_0jz_AA"
       }
     },
     {
@@ -391071,52 +391110,6 @@
           "chapter_id": "c-shiji-130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p115",
           "quote": "張叔"
-        }
-      ]
-    },
-    {
-      "id": "cf6_ekq_84s",
-      "label": "張蒼（太史公自序候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "蒼",
-          "mention_ids": [
-            "c-shiji-130-taishigong:m108-0010"
-          ]
-        },
-        {
-          "surface": "張丞相",
-          "mention_ids": [
-            "c-shiji-130-taishigong:m108-0025"
-          ]
-        },
-        {
-          "surface": "張蒼",
-          "mention_ids": [
-            "c-shiji-130-taishigong:m142-0061"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-130-taishigong:m108-0010",
-          "chapter_id": "c-shiji-130-taishigong",
-          "paragraph_id": "c-shiji-130-taishigong:p108",
-          "quote": "蒼"
-        },
-        {
-          "mention_id": "c-shiji-130-taishigong:m108-0025",
-          "chapter_id": "c-shiji-130-taishigong",
-          "paragraph_id": "c-shiji-130-taishigong:p108",
-          "quote": "張丞相"
-        },
-        {
-          "mention_id": "c-shiji-130-taishigong:m142-0061",
-          "chapter_id": "c-shiji-130-taishigong",
-          "paragraph_id": "c-shiji-130-taishigong:p142",
-          "quote": "張蒼"
         }
       ]
     },

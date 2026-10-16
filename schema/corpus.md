@@ -327,3 +327,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 擬授職稱使用既有非人物錨點格式 `kind: unresolved`、`person_id: null`、`status: unresolved`，保留原錨點與範圍；此類型兼容既有職稱／非人物錨點，不表示尚未判斷提議是否實行。明確的角色及結果由 `title_proposals` 記錄。驗證要求引句同時涵蓋受議人物與職稱，人物錨點須指受議者，職稱不得當成現任者的姓名或異名。
 
 逐人 JSON 另匯出 `title_proposals`；閱讀器在完整人物頁分列「擬議而未授的稱號」，不加入實授稱號或精簡卡片。沒有此資料就不顯示此欄。試點為〈張丞相列傳〉如意擬立太子而止。
+
+## 生卒的跨西元年範圍與直接概數報齡
+
+生卒或人物事件可用 `normalized_date_range` 保存既有相鄰兩年格式，與 `normalized_date` 互斥。十月歲首、月份不明時，年表數位西元欄只是紀年的對照標籤，不自動等於事件的唯一西元年。範圍保留兩端的數字、天文年編號、精度、原句及年欄／數位對照／歲首規則的分層參考；未知曆日不補。
+
+逐人 JSON 將這些範圍另匯為 `date_range_normalizations`，不混入單一年份的 `date_normalizations`。閱讀器生卒列顯示兩年範圍與原紀年，完整頁可展開依據；不選其中一端或由年齡反推出生年。
+
+個人概數如「百有餘歲」可用 `reporting_status: direct_report`、`value: null` 及 `bounds: {lower: 100, lower_inclusive: false, upper: null, upper_inclusive: null}`。`source_number: 百`、`source_term: 百有餘歲` 原字分存，`source_qualification: null` 不補傳聞限定詞，亦不作確切一百歲、上界或已知計歲方式。既有帶蓋／或言的報齡仍另保留限定狀態。

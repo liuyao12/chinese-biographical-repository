@@ -452,16 +452,6 @@
 
 </details>
 
-<details><summary><code>68u_x4k_2k4</code> 張蒼（3 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 張蒼 | [《史記・張丞相列傳》][78] | [JSON](68u_x4k_2k4.json) |
-| `A` | 張蒼子未名（康侯） | [《史記・張丞相列傳》][78] | [JSON](68u_x4k_2k4_A.json) |
-| `AA` | 張類 | [《史記・張丞相列傳》][78] | [JSON](68u_x4k_2k4_AA.json) |
-
-</details>
-
 <details><summary><code>69x_se2_859</code> 邴吉（張丞相列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -563,6 +553,17 @@
 |---|---|---|---|
 | `根` | 專諸 | [《史記・刺客列傳》][68] | [JSON](78u_8ii_bnr.json) |
 | `A` | 專諸子（本卷未名） | [《史記・吳太伯世家》][13]、[《史記・刺客列傳》][68] | [JSON](78u_8ii_bnr_A.json) |
+
+</details>
+
+<details><summary><code>796_nkw_0jz</code> 張蒼父未名（張丞相列傳候選）（4 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 張蒼父未名 | [《史記・張丞相列傳》][78] | [JSON](796_nkw_0jz.json) |
+| `A` | 張蒼 | [《史記・張丞相列傳》][78] | [JSON](796_nkw_0jz_A.json) |
+| `AA` | 張蒼子未名（康侯） | [《史記・張丞相列傳》][78] | [JSON](796_nkw_0jz_AA.json) |
+| `AAA` | 張類 | [《史記・張丞相列傳》][78] | [JSON](796_nkw_0jz_AAA.json) |
 
 </details>
 
