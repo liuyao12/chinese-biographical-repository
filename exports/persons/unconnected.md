@@ -1610,7 +1610,6 @@
 | `bsx_usd_ats` | 伊尹引古 | [《史記・春申君列傳》][62] | [JSON](bsx_usd_ats.json) |
 | `bt2_5iy_rhq` | 太常臧 | [《史記・儒林列傳》][105] | [JSON](bt2_5iy_rhq.json) |
 | `bt3_1wn_4hf` | 綰 | [《史記・孝景本紀》][13] | [JSON](bt3_1wn_4hf.json) |
-| `btq_wmp_kuw` | 趙綰 | [《史記・魏其武安侯列傳》][91] | [JSON](btq_wmp_kuw.json) |
 | `bty_4r4_dtw` | 向壽 | [《史記・穰侯列傳》][56] | [JSON](bty_4r4_dtw.json) |
 | `bu8_4ec_il7` | 陽虎 | [《史記・趙世家》][27] | [JSON](bu8_4ec_il7.json) |
 | `buc_xho_3di` | 武王 | [《史記・孫子吳起列傳》][49] | [JSON](buc_xho_3di.json) |
@@ -2073,7 +2072,6 @@
 | `f4b_rfz_gs1` | 程鄭 | [《史記・貨殖列傳》][113] | [JSON](f4b_rfz_gs1.json) |
 | `f4j_73i_aup` | 秦昭王 | [《史記・樗里子甘茂列傳》][55] | [JSON](f4j_73i_aup.json) |
 | `f4n_mh8_0qk` | 且居雕渠難（匈奴列傳第25段） | [《史記・匈奴列傳》][94] | [JSON](f4n_mh8_0qk.json) |
-| `f4q_d6m_ral` | 程不識 | [《史記・魏其武安侯列傳》][91] | [JSON](f4q_d6m_ral.json) |
 | `f4r_7vs_l08` | 中貴人（未名） | [《史記・李將軍列傳》][93] | [JSON](f4r_7vs_l08.json) |
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][95] | [JSON](f4u_1z7_w4y.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][5] | [JSON](f53_xev_s2o.json) |
@@ -2209,6 +2207,8 @@
 | `g4k_r0s_xar` | 夷吾 | [《史記・太史公自序》][114] | [JSON](g4k_r0s_xar.json) |
 | `g4n_b86_xmr` | 昭魚 | [《史記・魏世家》][28] | [JSON](g4n_b86_xmr.json) |
 | `g52_2o5_gmy` | 箕子 | [《史記・太史公自序》][114] | [JSON](g52_2o5_gmy.json) |
+| `g5b_oty_6le` | 呂更始 | [《史記・呂太后本紀》][11] | [JSON](g5b_oty_6le.json) |
+| `g61_dv0_745` | 狐氏女（重耳母） | [《史記・晉世家》][23] | [JSON](g61_dv0_745.json) |
 
 [2]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

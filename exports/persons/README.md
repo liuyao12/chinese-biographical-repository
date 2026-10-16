@@ -1136,15 +1136,6 @@
 
 </details>
 
-<details><summary><code>fwk_g2h_l3r</code> 燕王未名（魏其武安侯列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 燕王未名 | [《史記・魏其武安侯列傳》][91] | [JSON](fwk_g2h_l3r.json) |
-| `A` | 燕王女未名 | [《史記・魏其武安侯列傳》][91] | [JSON](fwk_g2h_l3r_A.json) |
-
-</details>
-
 <details><summary><code>g9h_5ih_ug1</code> 伍奢（伍胥列傳候選）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1388,14 +1379,15 @@
 
 </details>
 
-<details><summary><code>jo4_4bf_0ra</code> 劉澤（4 名）</summary>
+<details><summary><code>jo4_4bf_0ra</code> 劉澤（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 劉澤 | [《史記・荊燕世家》][35] | [JSON](jo4_4bf_0ra.json) |
-| `A` | 嘉 | [《史記・荊燕世家》][35] | [JSON](jo4_4bf_0ra_A.json) |
+| `A` | 嘉（燕康王） | [《史記・荊燕世家》][35] | [JSON](jo4_4bf_0ra_A.json) |
 | `AA` | 定國 | [《史記・荊燕世家》][35] | [JSON](jo4_4bf_0ra_AA.json) |
 | `AAA` | 定國所生男（荊燕世家未名者） | [《史記・荊燕世家》][35] | [JSON](jo4_4bf_0ra_AAA.json) |
+| `AB` | 田蚡夫人（燕康王女，未名） | [《史記・魏其武安侯列傳》][91] | [JSON](jo4_4bf_0ra_AB.json) |
 
 </details>
 
@@ -1706,11 +1698,11 @@
 
 </details>
 
-<details><summary><code>nuf_tb9_fjs</code> 竇嬰父未名（魏其武安侯列傳候選）（3 名）</summary>
+<details><summary><code>nuf_tb9_fjs</code> 竇嬰父（未名）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 竇嬰父未名 | [《史記・魏其武安侯列傳》][91] | [JSON](nuf_tb9_fjs.json) |
+| `根` | 竇嬰父（未名） | [《史記・魏其武安侯列傳》][91] | [JSON](nuf_tb9_fjs.json) |
 | `A` | 竇嬰 | [《史記・魏其武安侯列傳》][91] | [JSON](nuf_tb9_fjs_A.json) |
 | `AA` | 竇嬰子未名 | [《史記・魏其武安侯列傳》][91] | [JSON](nuf_tb9_fjs_AA.json) |
 

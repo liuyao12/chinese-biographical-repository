@@ -6,14 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wle_6pj_6oo` | 吳起被延公主 | [《史記・孫子吳起列傳》][49] | [JSON](wle_6pj_6oo.json) |
-| `wlx_03b_0j3` | 周苛 | [《史記・魏豹彭越列傳》][74] | [JSON](wlx_03b_0j3.json) |
-| `wmx_rqf_b09` | 慶舍 | [《史記・趙世家》][27] | [JSON](wmx_rqf_b09.json) |
-| `wn0_q61_j1n` | 報丙 | [《史記・殷本紀》][5]、[《史記・三代世表》][115] | [JSON](wn0_q61_j1n.json) |
-| `wnb_fut_1ox` | 蘇秦舍人 | [《史記・張儀列傳》][54] | [JSON](wnb_fut_1ox.json) |
-| `wnf_7c0_qa3` | 陽虎 | [《史記・孔子世家》][31] | [JSON](wnf_7c0_qa3.json) |
-| `wng_nsz_uav` | 公孫龍 | [《史記・仲尼弟子列傳》][51] | [JSON](wng_nsz_uav.json) |
-| `wnj_6yq_aha` | 徐樂 | [《史記・平津侯主父列傳》][96] | [JSON](wnj_6yq_aha.json) |
 | `wnn_236_u9x` | 育 | [《史記・司馬相如列傳》][101] | [JSON](wnn_236_u9x.json) |
 | `wnp_0s3_0eg` | 太尉弱 | [《史記・絳侯周勃世家》][41] | [JSON](wnp_0s3_0eg.json) |
 | `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][51] | [JSON](wnp_vk6_qhe.json) |
@@ -56,7 +48,7 @@
 | `wxg_pg3_wk0` | 路博德（匈奴列傳第54段） | [《史記・衛將軍驃騎列傳》][95] | [JSON](wxg_pg3_wk0.json) |
 | `wxj_wmw_39e` | 彭生 | [《史記・魯周公世家》][17] | [JSON](wxj_wmw_39e.json) |
 | `wxn_bku_mqy` | 絃髙 | [《史記・鄭世家》][26] | [JSON](wxn_bku_mqy.json) |
-| `wxo_k8i_1it` | 申培公 | [《史記・儒林列傳》][105] | [JSON](wxo_k8i_1it.json) |
+| `wxo_k8i_1it` | 申公（申培公） | [《史記・儒林列傳》][105] | [JSON](wxo_k8i_1it.json) |
 | `wxu_0lr_f33` | 齊丞相未名 | [《史記・扁鵲倉公列傳》][89] | [JSON](wxu_0lr_f33.json) |
 | `wxw_hns_6a2` | 齊威王 | [《史記・越王勾踐世家》][25] | [JSON](wxw_hns_6a2.json) |
 | `wyk_owg_0tl` | 越人蒙引古 | [《史記・魯仲連鄒陽列傳》][67] | [JSON](wyk_owg_0tl.json) |
