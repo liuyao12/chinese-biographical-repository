@@ -97,8 +97,8 @@ class LiLuLifeEventTests(unittest.TestCase):
 class LiLuContextTitleTests(unittest.TestCase):
     def test_king_reference_follows_dialogue_and_excludes_verbs(self):
         self.assertEqual(ids(6,'王'),{'0hs_fg6_1qj_A'})
-        self.assertEqual(ids(10,'王'),{'r3c_eue_cqn'})
-        self.assertEqual(ids(11,'王'),{'r3c_eue_cqn'})
+        self.assertEqual(ids(10,'王'),{'bvb_d1z_fd0'})
+        self.assertEqual(ids(11,'王'),{'bvb_d1z_fd0'})
         for n,phrase,offset in [(6,'先入咸陽者王之',5),(11,'故王此',1),(10,'君王王南越',2)]:
             p=para(n);start=p['text'].index(phrase)+offset
             self.assertEqual(p['text'][start],'王')
@@ -106,7 +106,7 @@ class LiLuContextTitleTests(unittest.TestCase):
 
     def test_emperor_and_recipient_in_same_speech_are_distinct(self):
         self.assertEqual(ids(10,'天子'),{'yqp_nlb_p1p_A'})
-        self.assertEqual(ids(10,'君王'),{'r3c_eue_cqn'})
+        self.assertEqual(ids(10,'君王'),{'bvb_d1z_fd0'})
         self.assertEqual(ids(11,'皇帝'),{'yqp_nlb_p1p_A'})
         self.assertEqual(ids(5,'上'),{'yqp_nlb_p1p_A'})
         self.assertEqual(ids(8,'上'),{'yqp_nlb_p1p_A'})
