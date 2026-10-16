@@ -23,7 +23,6 @@
 | `03j_syw_e4g` | 湣王（尉繚引述） | [《史記・秦始皇本紀》][7] | [JSON](03j_syw_e4g.json) |
 | `03v_bhv_img` | 平原君趙勝 | [《史記・平原君虞卿列傳》][59] | [JSON](03v_bhv_img.json) |
 | `03x_n5w_br7` | 閼與秦將未名 | [《史記・廉頗藺相如列傳》][64] | [JSON](03x_n5w_br7.json) |
-| `04s_md1_e2f` | 薄太后 | [《史記・張釋之馮唐列傳》][85] | [JSON](04s_md1_e2f.json) |
 | `04z_mgy_h00` | 客人 | [《史記・商君列傳》][51] | [JSON](04z_mgy_h00.json) |
 | `057_xe9_rab` | 祝融 | [《史記・鄭世家》][25] | [JSON](057_xe9_rab.json) |
 | `063_z1q_xjl` | 傅抵 | [《史記・趙世家》][26] | [JSON](063_z1q_xjl.json) |
@@ -1691,7 +1690,6 @@
 | `cbz_512_ef1` | 趙成季 | [《史記・韓世家》][28] | [JSON](cbz_512_ef1.json) |
 | `cc1_svd_sxi` | 幕（陳篇世系引語） | [《史記・陳杞世家》][19] | [JSON](cc1_svd_sxi.json) |
 | `cc6_hl9_128` | 奮 | [《史記・陳丞相世家》][39] | [JSON](cc6_hl9_128.json) |
-| `ccg_ycv_y85` | 慎夫人 | [《史記・張釋之馮唐列傳》][85] | [JSON](ccg_ycv_y85.json) |
 | `ccx_50c_ssi` | 寧越 | [《史記・秦始皇本紀》][7] | [JSON](ccx_50c_ssi.json) |
 | `cdg_kvt_y0p` | 虞卿 | [《史記・平原君虞卿列傳》][59] | [JSON](cdg_kvt_y0p.json) |
 | `cdl_qsi_xdj` | 張儀 | [《史記・趙世家》][26] | [JSON](cdl_qsi_xdj.json) |
@@ -2208,6 +2206,8 @@
 | `fxh_d0f_a1l` | 趙夙 | [《史記・魏世家》][27] | [JSON](fxh_d0f_a1l.json) |
 | `fxy_b0h_ssn` | 公子光（楚篇吳伐楚者） | [《史記・楚世家》][23] | [JSON](fxy_b0h_ssn.json) |
 | `fy2_9h4_gdt` | 太史公 | [《史記・孫子吳起列傳》][48] | [JSON](fy2_9h4_gdt.json) |
+| `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][7] | [JSON](fyf_enn_4w8.json) |
+| `fyj_7r5_9ws` | 許由 | [《史記・滑稽列傳》][109] | [JSON](fyj_7r5_9ws.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

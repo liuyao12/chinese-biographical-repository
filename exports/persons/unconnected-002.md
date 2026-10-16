@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fyf_enn_4w8` | 陳軫 | [《史記・秦始皇本紀》][7] | [JSON](fyf_enn_4w8.json) |
-| `fyj_7r5_9ws` | 許由 | [《史記・滑稽列傳》][109] | [JSON](fyj_7r5_9ws.json) |
 | `fym_r2o_5u0` | 張釋之 | [《史記・太史公自序》][113] | [JSON](fym_r2o_5u0.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・周本紀》][5] | [JSON](fyu_tcg_kev.json) |
 | `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][93] | [JSON](fyv_cvv_y5b.json) |
@@ -483,7 +481,6 @@
 | `jau_d68_s2w` | 陰陵田父 | [《史記・項羽本紀》][8] | [JSON](jau_d68_s2w.json) |
 | `jaw_b0s_ujn` | 穰苴 | [《史記・司馬穰苴列傳》][47] | [JSON](jaw_b0s_ujn.json) |
 | `jb2_tak_5p8` | 華陽夫人 | [《史記・呂不韋列傳》][68] | [JSON](jb2_tak_5p8.json) |
-| `jb9_8aa_47l` | 周勃 | [《史記・張釋之馮唐列傳》][85] | [JSON](jb9_8aa_47l.json) |
 | `jbn_p40_9ph` | 孝武帝 | [《史記・日者列傳》][110] | [JSON](jbn_p40_9ph.json) |
 | `jc7_nxq_532` | 將閭 | [《史記・齊悼惠王世家》][35] | [JSON](jc7_nxq_532.json) |
 | `jca_07t_vf9` | 魏王降秦 | [《史記・白起王翦列傳》][56] | [JSON](jca_07t_vf9.json) |
@@ -1379,7 +1376,6 @@
 | `q6w_xz2_x9x` | 蒯通 | [《史記・樂毅列傳》][63] | [JSON](q6w_xz2_x9x.json) |
 | `q75_s04_chi` | 寵妾（衛州吁母） | [《史記・衛康叔世家》][20] | [JSON](q75_s04_chi.json) |
 | `q78_d8z_wj2` | 樂臣公 | [《史記・樂毅列傳》][63] | [JSON](q78_d8z_wj2.json) |
-| `q7p_z4x_qee` | 太子未具名 | [《史記・張釋之馮唐列傳》][85] | [JSON](q7p_z4x_qee.json) |
 | `q7s_6hz_yak` | 少正卯 | [《史記・孔子世家》][30] | [JSON](q7s_6hz_yak.json) |
 | `q7s_ogm_yr2` | 呂禮 | [《史記・孟嘗君列傳》][58] | [JSON](q7s_ogm_yr2.json) |
 | `q7v_0kl_74r` | 楚相 | [《史記・張儀列傳》][53] | [JSON](q7v_0kl_74r.json) |
@@ -2221,6 +2217,11 @@
 | `w0v_vvq_ypt` | 臧昭伯 | [《史記・魯周公世家》][16] | [JSON](w0v_vvq_ypt.json) |
 | `w12_vt2_dhx` | 魏獻子 | [《史記・趙世家》][26] | [JSON](w12_vt2_dhx.json) |
 | `w1c_wq9_fly` | 太史公（田世家論贊敘述者） | [《史記・田敬仲完世家》][29] | [JSON](w1c_wq9_fly.json) |
+| `w26_or9_i7l` | 召公 | [《史記・太史公自序》][113] | [JSON](w26_or9_i7l.json) |
+| `w2i_7br_tiv` | 老子 | [《史記・貨殖列傳》][112] | [JSON](w2i_7br_tiv.json) |
+| `w2n_7g1_30z` | 棓生 | [《史記・袁盎鼂錯列傳》][84] | [JSON](w2n_7g1_30z.json) |
+| `w2z_v0m_3v8` | 段干子 | [《史記・魏世家》][27] | [JSON](w2z_v0m_3v8.json) |
+| `w35_u3q_sf6` | 丘子明 | [《史記・龜策列傳》][111] | [JSON](w35_u3q_sf6.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

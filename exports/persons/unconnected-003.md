@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w26_or9_i7l` | 召公 | [《史記・太史公自序》][113] | [JSON](w26_or9_i7l.json) |
-| `w2i_7br_tiv` | 老子 | [《史記・貨殖列傳》][112] | [JSON](w2i_7br_tiv.json) |
-| `w2n_7g1_30z` | 棓生 | [《史記・袁盎鼂錯列傳》][84] | [JSON](w2n_7g1_30z.json) |
-| `w2z_v0m_3v8` | 段干子 | [《史記・魏世家》][27] | [JSON](w2z_v0m_3v8.json) |
-| `w35_u3q_sf6` | 丘子明 | [《史記・龜策列傳》][111] | [JSON](w35_u3q_sf6.json) |
 | `w3g_k4m_zrn` | 常山尉未名 | [《史記・韓信盧綰列傳》][76] | [JSON](w3g_k4m_zrn.json) |
 | `w3l_lcg_0qp` | 折蘭王（未名） | [《史記・衛將軍驃騎列傳》][94] | [JSON](w3l_lcg_0qp.json) |
 | `w41_czk_7u6` | 留長孺 | [《史記・日者列傳》][110] | [JSON](w41_czk_7u6.json) |
@@ -361,7 +356,6 @@
 | `yme_rq2_21q` | 百里奚 | [《史記・孟子荀卿列傳》][57] | [JSON](yme_rq2_21q.json) |
 | `yms_yqu_5yi` | 王齕 | [《史記・白起王翦列傳》][56] | [JSON](yms_yqu_5yi.json) |
 | `ymw_kdn_zpz` | 大畢 | [《史記・周本紀》][5] | [JSON](ymw_kdn_zpz.json) |
-| `ymz_578_wc0` | 秦二世 | [《史記・張釋之馮唐列傳》][85] | [JSON](ymz_578_wc0.json) |
 | `yng_2ws_4d6` | 唐都 | [《史記・平津侯主父列傳》][95] | [JSON](yng_2ws_4d6.json) |
 | `yp3_zjm_vup` | 廧咎如少女（趙世家未名者） | [《史記・趙世家》][26] | [JSON](yp3_zjm_vup.json) |
 | `yp4_wb9_rwg` | 解揚 | [《史記・鄭世家》][25] | [JSON](yp4_wb9_rwg.json) |
@@ -614,7 +608,6 @@
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [80]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318
-[84]: https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092
 [85]: https://zh.wikisource.org/w/index.php?title=史記/卷102&oldid=1753957
 [86]: https://zh.wikisource.org/w/index.php?title=史記/卷103&oldid=2096814
 [87]: https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534
