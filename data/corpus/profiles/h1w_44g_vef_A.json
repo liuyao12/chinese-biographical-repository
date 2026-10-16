@@ -6,10 +6,10 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "灌夫",
     "灌將軍",
     "灌將軍夫",
     "夫",
-    "灌夫",
     "仲孺",
     "灌仲孺"
   ],
@@ -421,16 +421,56 @@
   ],
   "occurrences": [
     {
+      "number": 100,
+      "category": "liezhuan",
+      "title": "季布欒布列傳第四十",
+      "paragraph_id": "c-shiji-100-jibu:p005",
+      "count": 1,
+      "quote": "任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。"
+    },
+    {
       "number": 107,
       "category": "liezhuan",
       "title": "魏其武安列傳第四十七",
       "paragraph_id": "c-shiji-107-weiqi:p011",
       "count": 79,
       "quote": "魏其失竇太后，益疏不用，無勢，諸客稍稍自引而怠傲，唯灌將軍獨不失故。魏其日默默不得志，而獨厚遇灌將軍。"
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p002",
+      "count": 1,
+      "quote": "俠，任氣節，內行修絜，好直諫，數犯主之顏色，常慕傅柏、袁盎之為人也。善灌夫、鄭當時及宗正劉棄。亦以數直諫，不得久居位。"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-100-jibu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-100",
+      "source_id": "s-shiji-100-jibu",
+      "source": {
+        "title": "史記／卷100",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷100",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
+        "revision_id": 1965696,
+        "accessed_on": "2026-10-10",
+        "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
+          "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-107-weiqi",
       "work_id": "w-shiji",
@@ -452,6 +492,30 @@
           "editorial_readings": [],
           "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     }
@@ -557,6 +621,126 @@
       "person_id": "h1w_44g_vef_A",
       "endpoint": "start",
       "title": "燕相"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji100-021",
+      "person_id": "h1w_44g_vef_A",
+      "surfaces": [
+        "灌夫"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-100-jibu",
+        "c-shiji-107-weiqi",
+        "c-shiji-120-jizheng"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p005",
+          "quote": "季布弟季心，氣蓋關中，遇人恭謹，爲任俠，方數千里，士皆爭爲之死。嘗殺人，亡之呉，從袁絲匿。長事袁絲，弟畜灌夫、籍福之屬。嘗爲中司馬，中尉郅都不敢不加禮。少年多時時竊籍其名以行。當是時，季心以勇，布以諾，著聞關中。",
+          "mention_ids": [
+            "c-shiji-100-jibu:m005-0052"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p012",
+          "quote": "灌將軍夫者，潁陰人也。夫父張孟，嘗為潁陰侯嬰舍人，得幸，因進之至二千石，故蒙灌氏姓為灌孟。吳楚反時，潁陰侯灌何為將軍，屬太尉，請灌孟為校尉。夫以千人與父俱。灌孟年老，潁陰侯彊請之，郁郁不得意，故戰常陷堅，遂死吳軍中。軍法，父子俱從軍，有死事，得與喪歸。灌夫不肯隨喪歸，奮曰：「願取吳王若將軍頭，以報父之仇。」於是灌夫被甲持戟，募軍中壯士所善願從者數十人。及出壁門，莫敢前。獨二人及從奴十數騎馳入吳軍，至吳將麾下，所殺傷數十人。不得前，復馳還，走入漢壁，皆亡其奴，獨與一騎歸。夫身中大創十餘，適有萬金良藥，故得無死。夫創少瘳，又復請將軍曰：「吾益知吳壁中曲折，請復往。」將軍壯義之，恐亡夫，乃言太尉，太尉乃固止之。吳已破，灌夫以此名聞天下。",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m012-0000",
+            "c-shiji-107-weiqi:m012-0011",
+            "c-shiji-107-weiqi:m012-0070",
+            "c-shiji-107-weiqi:m012-0126",
+            "c-shiji-107-weiqi:m012-0156",
+            "c-shiji-107-weiqi:m012-0237",
+            "c-shiji-107-weiqi:m012-0257",
+            "c-shiji-107-weiqi:m012-0292",
+            "c-shiji-107-weiqi:m012-0310"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p018",
+          "quote": "丞相嘗使籍福請魏其城南田。魏其大望曰：「老僕雖棄，將軍雖貴，寧可以勢奪乎！」不許。灌夫聞，怒，罵籍福。籍福惡兩人有郤，乃謾自好謝丞相曰：「魏其老且死，易忍，且待之。」已而武安聞魏其、灌夫實怒不予田，亦怒曰：「魏其子嘗殺人，蚡活之。蚡事魏其無所不可，何愛數頃田？且灌夫何與也？吾不敢複求田。」武安由此大怨灌夫、魏其。",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m018-0041",
+            "c-shiji-107-weiqi:m018-0091",
+            "c-shiji-107-weiqi:m018-0131",
+            "c-shiji-107-weiqi:m018-0151"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p020",
+          "quote": "夏，丞相取燕王女為夫人，有太后詔，召列侯宗室皆往賀。魏其侯過灌夫，欲與俱。夫謝曰：「夫數以酒失得過丞相，丞相今者又與夫有郤。」魏其曰：「事已解。」彊與俱。飲酒酣，武安起為壽，坐皆避席伏。已魏其侯為壽，獨故人避席耳，餘半膝席。灌夫不悅。起行酒，至武安，武安膝席曰：「不能滿觴。」夫怒，因嘻笑曰：「將軍貴人也，屬之！」時武安不肯。行酒次至臨汝侯，臨汝侯方與程不識耳語，又不避席。夫無所發怒，乃罵臨汝侯曰：「生平毀程不識不直一錢，今日長者為壽，乃效女兒呫囁耳語！」武安謂灌夫曰：「程李俱東西宮衛尉，今眾辱程將軍，仲孺獨不為李將軍地乎？」灌夫曰：「今日斬頭陷匈，何知程李乎！」坐乃起更衣，稍稍去。魏其侯去，麾灌夫出。武安遂怒曰：「此吾驕灌夫罪。」乃令騎留灌夫。灌夫欲出不得。籍福起為謝，案灌夫項令謝。夫愈怒，不肯謝。武安乃麾騎縛夫置傳舍，召長史曰：「今日召宗室，有詔。」劾灌夫罵坐不敬，系居室。遂按其前事，遣吏分曹逐捕諸灌氏支屬，皆得棄市罪。魏其侯大媿，為資使賓客請，莫能解。武安吏皆為耳目，諸灌氏皆亡匿，夫系，遂不得告言武安陰事。",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m020-0030",
+            "c-shiji-107-weiqi:m020-0037",
+            "c-shiji-107-weiqi:m020-0042",
+            "c-shiji-107-weiqi:m020-0058",
+            "c-shiji-107-weiqi:m020-0112",
+            "c-shiji-107-weiqi:m020-0138",
+            "c-shiji-107-weiqi:m020-0187",
+            "c-shiji-107-weiqi:m020-0232",
+            "c-shiji-107-weiqi:m020-0253",
+            "c-shiji-107-weiqi:m020-0265",
+            "c-shiji-107-weiqi:m020-0300",
+            "c-shiji-107-weiqi:m020-0314",
+            "c-shiji-107-weiqi:m020-0323",
+            "c-shiji-107-weiqi:m020-0326",
+            "c-shiji-107-weiqi:m020-0340",
+            "c-shiji-107-weiqi:m020-0346",
+            "c-shiji-107-weiqi:m020-0360",
+            "c-shiji-107-weiqi:m020-0382",
+            "c-shiji-107-weiqi:m020-0449"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p022",
+          "quote": "魏其之東朝，盛推灌夫之善，言其醉飽得過，乃丞相以他事誣罪之。武安又盛毀灌夫所為橫恣，罪逆不道。魏其度不可奈何，因言丞相短。武安曰：「天下幸而安樂無事，蚡得為肺腑，所好音樂狗馬田宅。蚡所愛倡優巧匠之屬，不如魏其、灌夫日夜招聚天下豪桀壯士與論議，腹誹而心謗，不仰視天而俯畫地，辟倪兩宮間，幸天下有變，而欲有大功。臣乃不知魏其等所為。」於是上問朝臣：「兩人孰是？」御史大夫韓安國曰：「魏其言灌夫父死事，身荷戟馳入不測之吳軍，身被數十創，名冠三軍，此天下壯士，非有大惡，爭杯酒，不足引他過以誅也。魏其言是也。丞相亦言灌夫通奸猾，侵細民，家累巨萬，橫恣潁川，淩轢宗室，侵犯骨肉，此所謂『枝大於本，脛大於股，不折必披』，丞相言亦是。唯明主裁之。」主爵都尉汲黯是魏其。內史鄭當時是魏其，後不敢堅對。餘皆莫敢對。上怒內史曰：「公平生數言魏其、武安長短，今日廷論，局趣效轅下駒，吾並斬若屬矣。」即罷起入，上食太后。太后亦已使人候伺，具以告太后。太后怒，不食，曰：「今我在也，而人皆藉吾弟，令我百歲後，皆魚肉之矣。且帝甯能為石人邪！此特帝在，即錄錄，設百歲後，是屬寧有可信者乎？」上謝曰：「俱宗室外家，故廷辯之。不然，此一獄吏所決耳。」是時郎中令石建為上別言兩人事。",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m022-0008",
+            "c-shiji-107-weiqi:m022-0035",
+            "c-shiji-107-weiqi:m022-0105",
+            "c-shiji-107-weiqi:m022-0192",
+            "c-shiji-107-weiqi:m022-0254"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p002",
+          "quote": "黯為人性倨，少禮，面折，不能容人之過。合己者善待之，不合己者不能忍見，士亦以此不附焉。然好學，游俠，任氣節，內行修絜，好直諫，數犯主之顏色，常慕傅柏、袁盎之為人也。善灌夫、鄭當時及宗正劉棄。亦以數直諫，不得久居位。",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m002-0083"
+          ]
+        }
+      ],
+      "rationale": "季心與袁盎、郅都的文景交往脈絡及灌夫與籍福成對出現，與魏其武安篇吳楚反後灌夫、籍福及汲黯的漢廷賓客網絡相容；汲鄭篇另明汲黯善灌夫。暫按同一灌夫接合，沒有直接跨篇明言同人的句子；身份信度限於此同時代網絡推斷，遇反證可回退，不推生年或實際兄弟。 原詞、引文與錨點分存，同書互見不作獨立史實票數；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記·袁盎鼂錯列傳》袁盎言季心",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
+          "quote": "吳楚已破，上更以元王子平陸侯禮為楚王，袁盎為楚相。嘗上書有所言，不用。袁盎病免居家，與閭里浮沈，相隨行，鬬雞走狗。雒陽劇孟嘗過袁盎，盎善待之。安陵富人有謂盎曰：「吾聞劇孟博徒，將軍何自通之？」盎曰：「劇孟雖博徒，然母死，客送葬車千餘乘，此亦有過人者。且緩急人所有。夫一旦有急叩門，不以親為解，不以存亡為辭，天下所望者，獨季心、劇孟耳。今公常從數騎，一旦有緩急，寧足恃乎！」罵富人，弗與通。諸公聞之，皆多袁盎。",
+          "source_kind": "received_primary_text",
+          "paragraph_id": "c-shiji-101-yuanchao:p014",
+          "scope": "social_network_context_not_direct_identity_statement",
+          "image_verified": false
+        }
+      ]
     }
   ],
   "name_components": [],

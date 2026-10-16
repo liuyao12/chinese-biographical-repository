@@ -697,7 +697,6 @@
 | `51s_div_vuy` | 繆公 | [《史記・孟子荀卿列傳》][57] | [JSON](51s_div_vuy.json) |
 | `51v_myd_2cd` | 太史公署稱 | [《史記・韓長孺列傳》][91] | [JSON](51v_myd_2cd.json) |
 | `51x_iss_zj5` | 徐來 | [《史記・淮南衡山列傳》][101] | [JSON](51x_iss_zj5.json) |
-| `52e_gh9_em4` | 灌夫 | [《史記・汲鄭列傳》][103] | [JSON](52e_gh9_em4.json) |
 | `52f_fie_3vj` | 昆吾（陸終長子） | [《史記・楚世家》][23] | [JSON](52f_fie_3vj.json) |
 | `52g_aio_c8a` | 任公 | [《史記・貨殖列傳》][112] | [JSON](52g_aio_c8a.json) |
 | `52o_i25_ekg` | 李夫人 | [《史記・外戚世家》][32] | [JSON](52o_i25_ekg.json) |
@@ -2160,7 +2159,6 @@
 | `fiy_rdu_4os` | 仲（修成君子） | [《史記・酷吏列傳》][105] | [JSON](fiy_rdu_4os.json) |
 | `fj6_olv_5t0` | 相如 | [《史記・平津侯主父列傳》][95] | [JSON](fj6_olv_5t0.json) |
 | `fji_le1_7p1` | 韓君俠累季父未名 | [《史記・刺客列傳》][69] | [JSON](fji_le1_7p1.json) |
-| `fjt_yam_bfq` | 趙同 | [《史記・佞幸列傳》][108] | [JSON](fjt_yam_bfq.json) |
 | `fk3_j50_onw` | 衰（趙世家提要） | [《史記・太史公自序》][113] | [JSON](fk3_j50_onw.json) |
 | `fks_8ov_okp` | 智伯 | [《史記・刺客列傳》][69] | [JSON](fks_8ov_okp.json) |
 | `fkx_da7_lza` | 白起 | [《史記・太史公自序》][113] | [JSON](fkx_da7_lza.json) |
@@ -2228,6 +2226,7 @@
 | `fzo_jum_4s1` | 翟公 | [《史記・汲鄭列傳》][103] | [JSON](fzo_jum_4s1.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][94] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][25] | [JSON](g0f_lnq_gkm.json) |
+| `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][104] | [JSON](g0i_iwm_ld0.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
