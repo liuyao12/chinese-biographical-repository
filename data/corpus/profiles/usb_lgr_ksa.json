@@ -6,8 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "司馬相如",
     "相如",
+    "司馬相如",
     "長卿",
     "犬子",
     "司馬長卿"
@@ -438,6 +438,14 @@
   ],
   "occurrences": [
     {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p030",
+      "count": 1,
+      "quote": "直則汲黯、卜式，推賢則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣"
+    },
+    {
       "number": 116,
       "category": "liezhuan",
       "title": "西南夷列傳第五十六",
@@ -464,6 +472,54 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-103-wanshi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-103",
+      "source_id": "s-shiji-103-wanshi",
+      "source": {
+        "title": "史記／卷103",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷103",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷103&oldid=2096814",
+        "revision_id": 2096814,
+        "accessed_on": "2026-10-10",
+        "extent": "26段正文含太史公論及1段見證附載索隱贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "僅去外緣空白；髙、衞、温、内、爲、呉、甐及原標點保留。",
+          "note": "已核讀全27段數位正文，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-116-xinanyi",
       "work_id": "w-shiji",
@@ -561,9 +617,42 @@
   ],
   "related_people": {
     "2ph_uqm_vm3": "文君（司馬相如列傳候選）",
+    "c19_xxo_r8f_A": "相如（直不疑子）（萬石張叔列傳候選）",
     "usb_lgr_ksa": "司馬相如（西南夷列傳候選）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "distinct-shiji112-xiangru-not-buyi",
+      "person_ids": [
+        "usb_lgr_ksa",
+        "c19_xxo_r8f_A"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-112-pingjin:p030",
+          "quote": "文章則司馬遷、相如",
+          "chapter_id": "c-shiji-112-pingjin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "source_id": "s-shiji112-pingjin"
+        },
+        {
+          "paragraph_id": "c-shiji-103-wanshi:p020",
+          "quote": "不疑卒，子相如代。孫望，坐酎金失侯。",
+          "chapter_id": "c-shiji-103-wanshi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-103",
+          "source_id": "s-shiji-103-wanshi"
+        }
+      ],
+      "rationale": "112文章司馬遷相如的文學省稱，103是直不疑卒、子相如代侯；親屬與爵位承襲人物不同。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "usb_lgr_ksa"
