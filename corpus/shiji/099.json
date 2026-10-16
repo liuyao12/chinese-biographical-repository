@@ -29,13 +29,35 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全21段明示姓名首輪。 本輪續核引古周先八組身份，與周本紀逐項接合；成康維持兩個人物錨點，身份接合不把引古敘事當獨立實證。",
+    "coverage": "全21段明示姓名首輪。 本輪續核引古周先八組身份，與周本紀逐項接合；成康維持兩個人物錨點，身份接合不把引古敘事當獨立實證。 本輪續核十六組跨篇身份，保留秦二世朝代世數未定讀法；引語晉太子辨為申生，太子太傅職名及和親假設不造人物。",
     "limitations": [
       "婁敬改姓劉氏依本篇敘事同指，不將婁劉單字當人物。",
       "和親建議所說生子外孫為假設，不作實際生育或繼位。",
       "周遠世系只保留原文，不補逐代父系。",
       "匿名者、代詞、親屬、官爵時段與跨篇同指待續。",
       "未核底本影像。"
+    ],
+    "unresolved_identity_cases": [
+      {
+        "id": "ic-shiji099-qin-two-generations",
+        "status": "unresolved",
+        "candidate_person_ids": [
+          "ao3_0fy_d45_AAAA"
+        ],
+        "unknown_identity_possible": true,
+        "candidate_list_exhaustive": false,
+        "unresolved_mention_ids": [
+          "c-shiji-099-liushu:m003-0021"
+        ],
+        "paragraph_ids": [
+          "c-shiji-099-liushu:p003",
+          "c-shiji-099-liushu:p008"
+        ],
+        "note": "周王數百年、秦二世即亡的對比可能在談傳世長短；第八段二世召博士可辨胡亥，但不把該明示身份倒灌本句。保留胡亥為可能讀法，也保留非個人稱謂的可能。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     ]
   },
   "paragraphs": [
@@ -158,7 +180,7 @@
           "end": 58,
           "surface": "堯",
           "kind": "person",
-          "person_id": "c4o_fny_0vd",
+          "person_id": "oho_r3f_c6y",
           "status": "contextual_provisional"
         },
         {
@@ -176,7 +198,7 @@
           "end": 75,
           "surface": "桀",
           "kind": "person",
-          "person_id": "mq3_lev_w2t",
+          "person_id": "65f_dvi_ljt",
           "status": "contextual_provisional"
         },
         {
@@ -203,7 +225,7 @@
           "end": 119,
           "surface": "呂望",
           "kind": "person",
-          "person_id": "71k_260_g1p",
+          "person_id": "1g3_02y_oor",
           "status": "contextual_provisional"
         },
         {
@@ -212,7 +234,7 @@
           "end": 122,
           "surface": "伯夷",
           "kind": "person",
-          "person_id": "ggi_5lp_87e",
+          "person_id": "eh7_raa_ap6",
           "status": "contextual_provisional"
         },
         {
@@ -230,7 +252,7 @@
           "end": 133,
           "surface": "紂",
           "kind": "person",
-          "person_id": "xu3_wem_5h3",
+          "person_id": "lwx_9yq_ad7",
           "status": "contextual_provisional"
         },
         {
@@ -249,7 +271,7 @@
           "end": 150,
           "surface": "紂",
           "kind": "person",
-          "person_id": "xu3_wem_5h3",
+          "person_id": "lwx_9yq_ad7",
           "status": "contextual_provisional"
         },
         {
@@ -276,7 +298,7 @@
           "end": 362,
           "surface": "項羽",
           "kind": "person",
-          "person_id": "9wx_3fi_zk2",
+          "person_id": "ob7_g6i_7pp",
           "status": "contextual_provisional"
         },
         {
@@ -319,9 +341,10 @@
           "start": 21,
           "end": 24,
           "surface": "秦二世",
-          "kind": "person",
-          "person_id": "r5o_rck_hff",
-          "status": "contextual_provisional"
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "與周王數百年對比，可能謂秦傳二世而亡；不以此句單獨指胡亥，保留朝代世數與君主讀法的語義差別。"
         },
         {
           "id": "c-shiji-099-liushu:m003-0039",
@@ -535,7 +558,7 @@
           "end": 73,
           "surface": "父",
           "kind": "person",
-          "person_id": "krx_d9v_3wv",
+          "person_id": "wjt_htu_081",
           "status": "contextual_provisional"
         },
         {
@@ -814,7 +837,7 @@
           "end": 26,
           "surface": "陳勝",
           "kind": "person",
-          "person_id": "01m_8vn_zqy",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -823,7 +846,7 @@
           "end": 37,
           "surface": "二世",
           "kind": "person",
-          "person_id": "r5o_rck_hff",
+          "person_id": "ao3_0fy_d45_AAAA",
           "status": "contextual_provisional"
         },
         {
@@ -852,7 +875,7 @@
           "end": 99,
           "surface": "二世",
           "kind": "person",
-          "person_id": "r5o_rck_hff",
+          "person_id": "ao3_0fy_d45_AAAA",
           "status": "contextual_provisional"
         },
         {
@@ -870,7 +893,7 @@
           "end": 204,
           "surface": "二世",
           "kind": "person",
-          "person_id": "r5o_rck_hff",
+          "person_id": "ao3_0fy_d45_AAAA",
           "status": "contextual_provisional"
         },
         {
@@ -879,7 +902,7 @@
           "end": 230,
           "surface": "二世",
           "kind": "person",
-          "person_id": "r5o_rck_hff",
+          "person_id": "ao3_0fy_d45_AAAA",
           "status": "contextual_provisional"
         },
         {
@@ -915,7 +938,7 @@
           "end": 332,
           "surface": "項梁",
           "kind": "person",
-          "person_id": "vnm_ppc_xjm",
+          "person_id": "5xt_rg8_7zs_A",
           "status": "contextual_provisional"
         },
         {
@@ -933,7 +956,7 @@
           "end": 349,
           "surface": "懷王",
           "kind": "person",
-          "person_id": "ilz_9fs_tfm",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -942,7 +965,7 @@
           "end": 352,
           "surface": "懷王",
           "kind": "person",
-          "person_id": "ilz_9fs_tfm",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -951,7 +974,7 @@
           "end": 355,
           "surface": "義帝",
           "kind": "person",
-          "person_id": "ilz_9fs_tfm",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -969,7 +992,7 @@
           "end": 367,
           "surface": "項王",
           "kind": "person",
-          "person_id": "9wx_3fi_zk2",
+          "person_id": "ob7_g6i_7pp",
           "status": "contextual_provisional"
         },
         {
@@ -1381,7 +1404,7 @@
           "kind": "unresolved",
           "person_id": null,
           "status": "unresolved",
-          "note": "群體、合稱或待辨稱名；和親條件及建議中的未來子孫不當實際人物。"
+          "note": "此太子位於太子太傅職名之內，保留既有錨點但不指派特定太子人物；與後文引古晉太子及漢廷太子分開。"
         },
         {
           "id": "c-shiji-099-liushu:m016-0021",
@@ -1425,7 +1448,7 @@
           "end": 46,
           "surface": "晉獻公",
           "kind": "person",
-          "person_id": "jvl_f6r_3bd",
+          "person_id": "6di_ywz_ju4_AA",
           "status": "contextual_provisional"
         },
         {
@@ -1434,7 +1457,7 @@
           "end": 49,
           "surface": "驪姬",
           "kind": "person",
-          "person_id": "otl_2v4_mdf",
+          "person_id": "oza_c7e_kas",
           "status": "contextual_provisional"
         },
         {
@@ -1442,10 +1465,9 @@
           "start": 52,
           "end": 54,
           "surface": "太子",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved",
-          "note": "群體、合稱或待辨稱名；和親條件及建議中的未來子孫不當實際人物。"
+          "kind": "person",
+          "person_id": "6di_ywz_ju4_AAB",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-099-liushu:m016-0056",
@@ -1453,7 +1475,7 @@
           "end": 58,
           "surface": "奚齊",
           "kind": "person",
-          "person_id": "wl3_jss_lix",
+          "person_id": "6di_ywz_ju4_AAC",
           "status": "contextual_provisional"
         },
         {
@@ -1462,7 +1484,7 @@
           "end": 79,
           "surface": "扶蘇",
           "kind": "person",
-          "person_id": "nzi_rg8_uik",
+          "person_id": "ao3_0fy_d45_AAAB",
           "status": "contextual_provisional"
         },
         {
@@ -1471,7 +1493,7 @@
           "end": 83,
           "surface": "趙高",
           "kind": "person",
-          "person_id": "6in_5g6_f6d",
+          "person_id": "0xx_ozc_454",
           "status": "contextual_provisional"
         },
         {
@@ -1480,7 +1502,7 @@
           "end": 89,
           "surface": "胡亥",
           "kind": "person",
-          "person_id": "c56_xgh_owp",
+          "person_id": "ao3_0fy_d45_AAAA",
           "status": "contextual_provisional"
         },
         {
