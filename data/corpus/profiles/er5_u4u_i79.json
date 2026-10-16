@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "紀翁主",
-    "翁主"
+    "翁主",
+    "姊"
   ],
   "titles": [],
   "addresses": [],
@@ -17,8 +18,16 @@
       "category": "shijia",
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p027",
-      "count": 3,
+      "count": 5,
       "quote": "太后。太后取其弟紀氏女為厲王后。王不愛紀氏女。太后欲其家重寵，令其長女紀翁主入王宮，正其後宮，毋令得近王，欲令愛紀氏女。王因與其姊翁主姦。"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p025",
+      "count": 1,
+      "quote": "；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
     }
   ],
   "table_occurrences": [],
@@ -44,6 +53,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
           "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
     }
@@ -89,6 +122,35 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "明示子、生、母、兄弟姊及婚姻分型，繼位不補未記血親；校勘名、母家與未名家屬不擅定姓名，案件敘事不冒稱獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji112-003",
+      "subject_person_id": "er5_u4u_i79",
+      "predicate": "sister",
+      "object_person_id": "qok_ik2_99j_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p025",
+          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王與姊",
+        "relative_birth_order": {
+          "older_person_id": "er5_u4u_i79",
+          "younger_person_id": "qok_ik2_99j_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "明示姊，只存長幼不補排行、父母或婚姻；姦不作配偶。 身份接合後依schema sister主體為姊妹，紀翁主置主體、齊王置客體；原王與姊、older/younger欄位及未知絕對排行不改，姦不作婚姻。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -143,6 +205,35 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "明示子、生、母、兄弟姊及婚姻分型，繼位不補未記血親；校勘名、母家與未名家屬不擅定姓名，案件敘事不冒稱獨立核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji112-003",
+      "subject_person_id": "er5_u4u_i79",
+      "predicate": "sister",
+      "object_person_id": "qok_ik2_99j_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p025",
+          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王與姊",
+        "relative_birth_order": {
+          "older_person_id": "er5_u4u_i79",
+          "younger_person_id": "qok_ik2_99j_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "interpretation_note": "明示姊，只存長幼不補排行、父母或婚姻；姦不作配偶。 身份接合後依schema sister主體為姊妹，紀翁主置主體、齊王置客體；原王與姊、older/younger欄位及未知絕對排行不改，姦不作婚姻。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
