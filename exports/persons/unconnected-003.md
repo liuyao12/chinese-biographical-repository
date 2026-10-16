@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vp6_3oo_dqh` | 太史公 | [《史記・田叔列傳》][86] | [JSON](vp6_3oo_dqh.json) |
-| `vpb_n9d_e0y` | 鄭伯（楚世家提要） | [《史記・太史公自序》][112] | [JSON](vpb_n9d_e0y.json) |
-| `vqb_tym_qti` | 魏長吏 | [《史記・穰侯列傳》][54] | [JSON](vqb_tym_qti.json) |
 | `vqd_bze_fwa` | 賈季（議立公子樂者） | [《史記・晉世家》][21] | [JSON](vqd_bze_fwa.json) |
 | `vqs_vxf_0gt` | 宋孟 | [《史記・袁盎鼂錯列傳》][83] | [JSON](vqs_vxf_0gt.json) |
 | `vrl_dy3_665` | 晉平公 | [《史記・孔子世家》][29] | [JSON](vrl_dy3_665.json) |
@@ -215,7 +212,6 @@
 | `x89_ryb_yax` | 呂澤 | [《史記・留侯世家》][37] | [JSON](x89_ryb_yax.json) |
 | `x8h_4i8_xwm` | 左相未具名 | [《史記・田叔列傳》][86] | [JSON](x8h_4i8_xwm.json) |
 | `x8h_bgr_mc5` | 武（孝惠後宮子稱） | [《史記・呂太后本紀》][9] | [JSON](x8h_bgr_mc5.json) |
-| `x8j_rqz_jry` | 陳勝 | [《史記・酈生陸賈列傳》][79] | [JSON](x8j_rqz_jry.json) |
 | `x8n_oxv_xpj` | 衛君 | [《史記・樗里子甘茂列傳》][53] | [JSON](x8n_oxv_xpj.json) |
 | `x8r_9sk_d7a` | 兒寬 | [《史記・儒林列傳》][103] | [JSON](x8r_9sk_d7a.json) |
 | `x8s_zva_utk` | 秦將（負芻二年伐楚未名者） | [《史記・楚世家》][22] | [JSON](x8s_zva_utk.json) |

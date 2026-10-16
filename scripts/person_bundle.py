@@ -166,6 +166,15 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
+    date_ranges = [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'],
+                        date_role=role, event_type=e['event_type'])
+                   for items, role in ((life_events, 'life_event'), (person_events, 'person_event'))
+                   for e in items if 'normalized_date_range' in e]
+    date_ranges += [dict(h['effective_period'][endpoint]['normalized_date_range'],
+                         record_id=h['id'], person_id=h['person_id'], date_role='title_period',
+                         endpoint=endpoint, title=h['title'])
+                    for h in titles for endpoint in ('start', 'end')
+                    if 'normalized_date_range' in h['effective_period'][endpoint]]
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
@@ -189,9 +198,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'age_assertions': ages} if ages else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
-            **({'date_range_normalizations': [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'], date_role=role, event_type=e['event_type'])
-                   for items, role in ((life_events, 'life_event'), (person_events, 'person_event')) for e in items if 'normalized_date_range' in e]}
-               if any('normalized_date_range' in e for e in life_events + person_events) else {}),
+            **({'date_range_normalizations': date_ranges} if date_ranges else {}),
             'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='person_event', event_type=e['event_type']) for e in person_events if 'normalized_date' in e]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='life_event', event_type=e['event_type']) for e in life_events if 'normalized_date' in e]
