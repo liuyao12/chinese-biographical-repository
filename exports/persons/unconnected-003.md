@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][13]、[《史記・惠景間侯者年表》][122] | [JSON](xgx_g4a_c28.json) |
 | `xh0_zdc_cq8` | 季勝 | [《史記・秦本紀》][8] | [JSON](xh0_zdc_cq8.json) |
 | `xhk_2v1_pd8` | 魯君（孔子世家女樂未名者） | [《史記・孔子世家》][32] | [JSON](xhk_2v1_pd8.json) |
 | `xhk_b1m_hjb` | 定 | [《史記・南越列傳》][98] | [JSON](xhk_b1m_hjb.json) |
@@ -317,7 +318,7 @@
 | `zph_7fy_7lq` | 郭成 | [《史記・衛將軍驃騎列傳》][96] | [JSON](zph_7fy_7lq.json) |
 | `zpl_q9c_nur` | 智開 | [《史記・秦本紀》][8]、[《史記・六國年表》][118] | [JSON](zpl_q9c_nur.json) |
 | `zpv_ei1_hhy` | 齊湣王（陳篇滅宋記事） | [《史記・陳杞世家》][21]、[《史記・宋微子世家》][23] | [JSON](zpv_ei1_hhy.json) |
-| `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][96] | [JSON](zqj_u2i_r5y.json) |
+| `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](zqj_u2i_r5y.json) |
 | `zqx_760_8l5` | 周敬王 | [《史記・趙世家》][28] | [JSON](zqx_760_8l5.json) |
 | `zqy_a21_8d3` | 任鄙 | [《史記・秦本紀》][8] | [JSON](zqy_a21_8d3.json) |
 | `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][21] | [JSON](zr7_8hl_01r.json) |
@@ -447,3 +448,4 @@
 [119]: https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036

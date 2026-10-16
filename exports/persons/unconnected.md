@@ -188,7 +188,7 @@
 | `1dz_0ef_p4o` | 趙史援 | [《史記・趙世家》][28] | [JSON](1dz_0ef_p4o.json) |
 | `1ec_jmi_32g` | 繻 | [《史記・鄭世家》][27] | [JSON](1ec_jmi_32g.json) |
 | `1ex_se1_yef` | 張湯父（未名） | [《史記・酷吏列傳》][107] | [JSON](1ex_se1_yef.json) |
-| `1fa_jx6_oun` | 句王高不識 | [《史記・衛將軍驃騎列傳》][96] | [JSON](1fa_jx6_oun.json) |
+| `1fa_jx6_oun` | 高不識 | [《史記・衛將軍驃騎列傳》][96] | [JSON](1fa_jx6_oun.json) |
 | `1gj_dvk_m38` | 尚席 | [《史記・絳侯周勃世家》][42] | [JSON](1gj_dvk_m38.json) |
 | `1gk_6c4_iou` | 泰帝（素女敘事） | [《史記・孝武本紀》][15] | [JSON](1gk_6c4_iou.json) |
 | `1hb_k44_h0v` | 利（殺蔡昭侯者） | [《史記・管蔡世家》][20] | [JSON](1hb_k44_h0v.json) |
@@ -1854,7 +1854,7 @@
 | `dxx_6m8_7o6` | 杜周 | [《史記・酷吏列傳》][107] | [JSON](dxx_6m8_7o6.json) |
 | `dxz_9j5_10h` | 秦王政 | [《史記・田敬仲完世家》][31] | [JSON](dxz_9j5_10h.json) |
 | `dy8_rby_5q2` | 伍舉 | [《史記・楚世家》][25] | [JSON](dy8_rby_5q2.json) |
-| `dy9_czc_11p` | 鷹庇 | [《史記・衛將軍驃騎列傳》][96] | [JSON](dy9_czc_11p.json) |
+| `dy9_czc_11p` | 鷹庇 | [《史記・建元以來侯者年表》][123] | [JSON](dy9_czc_11p.json) |
 | `dyh_neb_15u` | 田忌 | [《史記・孫子吳起列傳》][50] | [JSON](dyh_neb_15u.json) |
 | `dym_ay3_38w` | 虢公（伐曲沃者未名） | [《史記・晉世家》][24] | [JSON](dym_ay3_38w.json) |
 | `dys_y6g_ndq` | 種（越） | [《史記・太史公自序》][115] | [JSON](dys_y6g_ndq.json) |
@@ -2328,4 +2328,5 @@
 [118]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038
