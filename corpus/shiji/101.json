@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全23段明示姓名與若干明示匿名者首輪。 十五組跨篇同指及母親記錄按同事接合；賁育依古注拆成逐人兩字錨點，原合稱起點ID保留，另新增育錨點。張恢先與棓生古注固定修訂分層保存。",
+    "coverage": "全23段明示姓名與若干明示匿名者首輪。 十五組跨篇同指及母親記錄按同事接合；賁育依古注拆成逐人兩字錨點，原合稱起點ID保留，另新增育錨點。張恢先與棓生古注固定修訂分層保存。 補五項死亡、伏生九十餘開放年齡下界、鼂錯同役卒年範圍及鄧公九卿一年持職；威脅與假設不當死亡，不推生年及未知終點。",
     "limitations": [
       "袁盎兄噲不按字同合併樊噲；兄子種不指定噲為父。",
       "君弟去的弟為語詞；太子不等於長子；淮南三子留群體，不補史外姓名。",
@@ -104,6 +104,43 @@
         "reported_reading": "服",
         "adopted": false,
         "note": "注家所報異文，未核其所據底本；不改本傳棓字，不建立全域服生別名。"
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji101-001",
+        "person_id": "t6q_oe6_hom",
+        "value": null,
+        "source_number": "九十",
+        "source_term": "年九十餘",
+        "bounds": {
+          "lower": 90,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "reporting_status": "direct_report",
+        "source_qualification": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "孝文帝時",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-101",
+            "chapter_id": "c-shiji-101-yuanchao",
+            "source_id": "s-shiji-101-yuanchao",
+            "paragraph_id": "c-shiji-101-yuanchao:p017",
+            "quote": "錯為人陗直刻深。孝文帝時，天下無治尚書者，獨聞濟南伏生故秦博士，治尚書，年九十餘，老不可徵，乃詔太常使人往受之。太常遣錯受尚書伏生所。還，因上便宜事，以書稱說。詔以為太子舍人、門大夫、家令。以其辯得幸太子，太子家號曰「智囊」。數上書孝文時，言削諸侯事，及法令可更定者。書數十上，孝文不聽，然奇其材，遷為中大夫。當是時，太子善錯計策，袁盎諸大功臣多不好錯。",
+            "person_mention_id": "c-shiji-101-yuanchao:m017-0025"
+          }
+        ],
+        "interpretation_note": "敘事當時報齡，不作享年；孝文帝時為背景，不補具體年或倒推生年。 計歲方式未明，餘字不換精確年齡或上界，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
       }
     ]
   },

@@ -1213,6 +1213,91 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 155,
+        "year": -154
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 154,
+        "year": -153
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-101",
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p019",
+          "quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
+          "person_mention_id": "c-shiji-101-yuanchao:m019-0213"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·孝景本紀》三年同次誅錯事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+          "quote": "天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-011",
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p004",
+          "scope": "parallel_same_event_chronology",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "孝景元年",
+          "table_cell_id": "shiji-022-t1-r051-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "三",
+          "table_cell_id": "shiji-022-t1-r053-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "154",
+          "table_cell_id": "shiji-022-t1-r053-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "本段同次吳楚七國反及斬鼂錯，與孝景本紀三年誅晁錯遣袁盎諭告的同一事件對讀；原文鼂與晁分存。將相表原紀年及數位西元154對照分列，前太初歲首跨年、斬日未明，保留公元前155至154年範圍。不將此年直接套給其父較早十餘日的死亡；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji101-003",
+      "person_id": "04u_gq0_nke_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {
@@ -1240,20 +1325,101 @@
       "person_id": "04u_gq0_nke_A",
       "event_type": "death",
       "status": "source_attested",
-      "date_expression": null,
+      "date_expression": "吳楚七國果反",
       "source_term": "上令鼂錯衣朝衣斬東市",
       "evidence": [
         {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-101",
           "chapter_id": "c-shiji-101-yuanchao",
           "source_id": "s-shiji-101-yuanchao",
           "paragraph_id": "c-shiji-101-yuanchao:p019",
           "quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
-          "person_mention_id": "c-shiji-101-yuanchao:m019-0050"
+          "person_mention_id": "c-shiji-101-yuanchao:m019-0213"
         }
       ],
       "interpretation_note": "只據實行斬東市記死亡；此前欲誅、請誅及以誅錯為名不是另一次死亡。未核書影。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 155,
+          "year": -154
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 154,
+          "year": -153
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-101",
+            "chapter_id": "c-shiji-101-yuanchao",
+            "source_id": "s-shiji-101-yuanchao",
+            "paragraph_id": "c-shiji-101-yuanchao:p019",
+            "quote": "遷為御史大夫，請諸侯之罪過，削其地，收其枝郡。奏上，上令公卿列侯宗室集議，莫敢難，獨竇嬰爭之，由此與錯有卻。錯所更令三十章，諸侯皆諠譁疾鼂錯。錯父聞之，從潁川來，謂錯曰：「上初即位，公為政用事，侵削諸侯，別疏人骨肉，人口議多怨公者，何也？」鼂錯曰：「固也。不如此，天子不尊，宗廟不安。」錯父曰：「劉氏安矣，而鼂氏危矣，吾去公歸矣！」遂飲藥死，曰：「吾不忍見禍及吾身。」死十餘日，吳楚七國果反，以誅錯為名。及竇嬰、袁盎進說，上令鼂錯衣朝衣斬東市。",
+            "person_mention_id": "c-shiji-101-yuanchao:m019-0213"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·孝景本紀》三年同次誅錯事件",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+            "quote": "天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-011",
+            "chapter_id": "c-shiji-011-jingdi",
+            "source_id": "s-shiji-011-jingdi",
+            "paragraph_id": "c-shiji-011-jingdi:p004",
+            "scope": "parallel_same_event_chronology",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "孝景元年",
+            "table_cell_id": "shiji-022-t1-r051-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "三",
+            "table_cell_id": "shiji-022-t1-r053-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "154",
+            "table_cell_id": "shiji-022-t1-r053-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          }
+        ],
+        "rationale": "本段同次吳楚七國反及斬鼂錯，與孝景本紀三年誅晁錯遣袁盎諭告的同一事件對讀；原文鼂與晁分存。將相表原紀年及數位西元154對照分列，前太初歲首跨年、斬日未明，保留公元前155至154年範圍。不將此年直接套給其父較早十餘日的死亡；未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "le-shiji122-001",
