@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `gk2_t8l_zhj` | 緣斯（長翟） | [《史記・魯周公世家》][18]、[《史記・宋微子世家》][23] | [JSON](gk2_t8l_zhj.json) |
 | `gkk_c0y_s45` | 楚王（越世家朱公救子未名者） | [《史記・越王勾踐世家》][26] | [JSON](gkk_c0y_s45.json) |
 | `gkp_6th_pl9` | 禹 | [《史記・趙世家》][28] | [JSON](gkp_6th_pl9.json) |
 | `gkq_5yo_btd` | 蘭（楚世家提要） | [《史記・太史公自序》][115] | [JSON](gkq_5yo_btd.json) |
@@ -739,7 +740,7 @@
 | `m77_8py_m63` | 后處 | [《史記・仲尼弟子列傳》][52] | [JSON](m77_8py_m63.json) |
 | `m77_em2_28k` | 重華引古 | [《史記・屈原賈生列傳》][69] | [JSON](m77_em2_28k.json) |
 | `m77_uww_q13` | 齊威王引古 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](m77_uww_q13.json) |
-| `m77_ykm_b9r` | 安稽 | [《史記・衛將軍驃騎列傳》][96] | [JSON](m77_ykm_b9r.json) |
+| `m77_ykm_b9r` | 安稽 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](m77_ykm_b9r.json) |
 | `m8b_v7x_xat` | 僚（吳王） | [《史記・太史公自序》][115] | [JSON](m8b_v7x_xat.json) |
 | `m8o_g61_go9` | 司馬夷 | [《史記・高祖本紀》][11]、[《史記・曹相國世家》][39]、[《史記・樊酈滕灌列傳》][80] | [JSON](m8o_g61_go9.json) |
 | `m8r_yw1_r4b` | 老上單于閼氏（匈奴列傳第18至20段） | [《史記・匈奴列傳》][95] | [JSON](m8r_yw1_r4b.json) |
@@ -1402,7 +1403,6 @@
 | `rb8_xqe_j0t` | 成 | [《史記・平津侯主父列傳》][97] | [JSON](rb8_xqe_j0t.json) |
 | `rbd_piw_ehz` | 后稷 | [《史記・司馬相如列傳》][102] | [JSON](rbd_piw_ehz.json) |
 | `rbe_9wy_8fe` | 公西赤母 | [《史記・仲尼弟子列傳》][52] | [JSON](rbe_9wy_8fe.json) |
-| `rbh_rw8_8se` | 弓高侯（韓說祖先；未定名） | [《史記・衛將軍驃騎列傳》][96] | [JSON](rbh_rw8_8se.json) |
 | `rbj_hsr_91v` | 扶蘇 | [《史記・陳涉世家》][33] | [JSON](rbj_hsr_91v.json) |
 | `rbm_hun_lhl` | 公肩定 | [《史記・仲尼弟子列傳》][52] | [JSON](rbm_hun_lhl.json) |
 | `rbn_65q_pnb` | 子貢 | [《史記・魯周公世家》][18]、[《史記・十二諸侯年表》][117] | [JSON](rbn_65q_pnb.json) |
@@ -2146,7 +2146,7 @@
 | `wsj_ypn_olf` | 公孫奭 | [《史記・樗里子甘茂列傳》][56] | [JSON](wsj_ypn_olf.json) |
 | `wss_6f8_4rz` | 魏惠王 | [《史記・孟嘗君列傳》][60] | [JSON](wss_6f8_4rz.json) |
 | `wt0_abc_2sk` | 隨會 | [《史記・晉世家》][24] | [JSON](wt0_abc_2sk.json) |
-| `wt3_fvo_jk6` | 復陸支 | [《史記・衛將軍驃騎列傳》][96] | [JSON](wt3_fvo_jk6.json) |
+| `wt3_fvo_jk6` | 復陸支 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](wt3_fvo_jk6.json) |
 | `wt8_3pr_hsd` | 左吳 | [《史記・淮南衡山列傳》][103] | [JSON](wt8_3pr_hsd.json) |
 | `wti_7m6_wi5` | 蘇代 | [《史記・田敬仲完世家》][31] | [JSON](wti_7m6_wi5.json) |
 | `wti_k6m_bak` | 魏犫（文公軍右） | [《史記・晉世家》][24]、[《史記・楚世家》][25] | [JSON](wti_k6m_bak.json) |
@@ -2215,7 +2215,6 @@
 | `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][52] | [JSON](xg5_2en_bvd.json) |
 | `xga_n8f_29q` | 孝惠帝 | [《史記・外戚世家》][34] | [JSON](xga_n8f_29q.json) |
 | `xgn_ado_9u1` | 程伯休甫 | [《史記・太史公自序》][115] | [JSON](xgn_ado_9u1.json) |
-| `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][22] | [JSON](xgw_at7_sju.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

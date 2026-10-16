@@ -2252,6 +2252,57 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji111-hanshuo-gonggao",
+      "person_ids": [
+        "l9e_fbr_36a_*AB"
+      ],
+      "canonical_person_id": "l9e_fbr_36a_*AB",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-111-wei-huo",
+        "c-shiji-093-hanlu",
+        "c-shiji-125-ningxing"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p039",
+          "quote": "將軍韓說，弓高侯庶孫也。以校尉從大將軍有功，為龍頟侯，坐酎金失侯。元鼎六年，以待詔為橫海將軍，擊東越有功，為按道侯。以太初三年為游擊將軍，屯於五原外列城。為光祿勳，掘蠱太子宮，衛太子殺之。",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m039-0005"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-093-hanlu",
+          "source_id": "s-shiji-093-hanlu",
+          "paragraph_id": "c-shiji-093-hanlu:p007",
+          "quote": "信之入匈奴，與太子俱；及至穨當城，生子，因名曰穨當。韓太子亦生子，命曰嬰。至孝文十四年，穨當及嬰率其眾降漢。漢封穨當為弓高侯，嬰為襄城侯。吳楚軍時，弓高侯功冠諸將。傳子至孫，孫無子，失侯。嬰孫以不敬失侯。穨當孽孫韓嫣，貴幸，名富顯於當世。其弟說，再封，數稱將軍，卒為案道侯。子代，歲餘坐法死。後歲餘，說孫曾拜為龍頟侯，續說後。",
+          "mention_ids": [
+            "c-shiji-093-hanlu:m007-0023",
+            "c-shiji-093-hanlu:m007-0044",
+            "c-shiji-093-hanlu:m007-0056",
+            "c-shiji-093-hanlu:m007-0102"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-125-ningxing",
+          "source_id": "s-shiji125-ningxing",
+          "paragraph_id": "c-shiji-125-ningxing:p003",
+          "quote": "嫣者，弓高侯孽孫也。今上為膠東王時，嫣與上學書相愛。及上為太子，愈益親嫣。嫣善騎射，善佞。上即位，欲事伐匈奴，而嫣先習胡兵，以故益尊貴，官至上大夫，賞賜擬於鄧通。時嫣常與上臥起。江都王入朝，有詔得從入獵上林中。天子車駕蹕道未行，而先使嫣乘副車，從數十百騎，騖馳視獸。江都王望見，以為天子，辟從者，伏謁道傍。嫣驅不見。既過，江都王怒，為皇太后泣曰：「請得歸國入宿衛，比韓嫣。」太后由此嗛嫣。嫣侍上，出入永巷不禁，以姦聞皇太后。皇太后怒，使使賜嫣死。上為謝，終不能得，嫣遂死。而案道侯韓說，其弟也，亦佞幸。",
+          "mention_ids": [
+            "c-shiji-125-ningxing:m003-0003"
+          ]
+        }
+      ],
+      "rationale": "本篇韓說為弓高侯庶孫，卷93穨當封弓高侯並續敘孽孫韓嫣與其弟說再封案道侯，卷125亦明韓嫣為弓高侯孽孫、案道侯韓說其弟，三篇爵稱與同一家事相合，暫接弓高侯為穨當。不將庶孫／孽孫強定親孫，原廣義祖裔斷言與既有闕代路徑保留，不補中間父親或生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

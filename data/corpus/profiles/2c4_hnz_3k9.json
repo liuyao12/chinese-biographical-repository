@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "邢山",
-    "山"
+    "山",
+    "衛山"
   ],
   "titles": [
     {
@@ -245,7 +246,36 @@
       "quote": "期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r038-c04",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "三。四年六月丁卯，侯衛山元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r038-c04-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "衛山",
+        "person_id": "2c4_hnz_3k9",
+        "status": "contextual_provisional",
+        "interpretation_note": "表衛山與傳邢山同為北地都尉、從驃騎獲王封義陽侯；集解徐廣明一作衛山，暫接同人，原字分存。不接朝鮮使者衛山。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p019",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "2c4_hnz_3k9",
+            "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-111-wei-huo",
@@ -269,6 +299,29 @@
           "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
           "note": "未核底本影像。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],
@@ -419,6 +472,43 @@
       "attestation_id": "th-shiji111-178:a001",
       "date_role": "attestation",
       "title": "義陽侯"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji111-final-xing",
+      "person_id": "2c4_hnz_3k9",
+      "surfaces": [
+        "邢山"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-111-wei-huo"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        }
+      ],
+      "rationale": "表衛山與傳邢山同為北地都尉、從驃騎獲王封義陽侯；集解徐廣明一作衛山，暫接同人，原字分存。不接朝鮮使者衛山。 未由繼侯推血親；官爵起訖另待核。",
+      "references": [
+        {
+          "title": "《史記集解》卷一百十一（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_111.txt#L230-L233",
+          "quote": "北地都尉邢山徐廣曰一作衛山",
+          "raw_quote": "失期從至檮余山斬首捕虜二千七百級以千六百户¶\n封博徳為符離侯北地都尉邢山(徐廣曰一/作衛山)從驃騎将¶\n<pb:KR2a0002_WYG_111-13b>¶\n軍獲王以千二百户封山為義陽侯故歸義因淳王復¶",
+          "scope": "ancient_commentary_reported_name",
+          "image_verified": false,
+          "response_sha256": "c3ecd2b9384ee793bbad0a2b349ed03eea6f17897e61d91100b3e8b3ecf20988",
+          "source_blob_sha": "29f52a776ee3fec823c3b9c83e025d7e4eb0e7ea",
+          "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "name_components": [],
