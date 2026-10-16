@@ -98,6 +98,49 @@
       "interpretation_note": "按來源用稱保存；公子、相齊、齊相、仆御與公號按原文分辨，不據首次用稱或死亡補任期。公號敘事不當諡號已在生前使用。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji112-013",
+      "person_id": "jcn_rp4_qap",
+      "title": "相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p006",
+          "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji112-013:a001",
+          "paragraph_id": "c-shiji-112-pingjin:p006",
+          "start": 108,
+          "end": 109,
+          "surface": "相",
+          "person_mention_id": "c-shiji-112-pingjin:m006-0106",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -185,6 +228,14 @@
       "paragraph_id": "c-shiji-086-cike:p027",
       "count": 1,
       "quote": "，又況聞樊將軍之所在乎？是謂『委肉當餓虎之蹊』也，禍必不振矣！雖有管、晏，不能爲之謀也。願太子疾遣樊將軍入匈奴以滅口。請西約三晉，南連齊、楚，北購於單于，其後乃可圖也。」太子曰：「太傅之計，曠日彌久，心惛然，恐不能須臾。且非獨於此也，夫樊將軍窮困於天下，歸身於丹，丹終不以"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p006",
+      "count": 1,
+      "quote": "飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
     }
   ],
   "table_occurrences": [],
@@ -383,6 +434,30 @@
               "note": "數位見證未標明異文版本，另存，不代替正文。"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
     }
