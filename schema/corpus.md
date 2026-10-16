@@ -373,7 +373,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 來源報齡亦可附 `normalized_date_range`：格式與生卒跨年範圍相同，保留本筆 `evidence`、`original_quote`、原紀年表述及原年欄／數位對照／曆法來源。不得同時附確定單年 `normalized_date`，不得由報齡推定出生年。
 
-王爵授封／即位的始期跨年範圍，可用 `parallel_event` 對讀固定年表事件；須另存 `table_event`，含完整格文、同人逐人錨點、work/book/chapter/source與固定修訂、同列原年及數位西元欄。只接受已核明示初王之始期，不把原文沒有的日期填入 `date_expression`，不由死亡補終期。`references` 分列事件、原紀年、數位對照及歲首曆法，所有帶表格格ID的引句須對應原格。
+稱號的跨年範圍可用 `parallel_event` 對讀固定年表事件，另存 `table_event`，含完整格文、同人逐人錨點、work/book/chapter/source與固定修訂。王爵授封／即位保留明示初王的規則；官職授任及封侯須有 `title_source_term` 明記為某官／封某侯，不把原有官名、追述或他人授任當本人的始期。端點種類須與本文一致。嗣侯須有同列國名格 `noble_name_cell_id` 與侯某元年；失侯須有同人及國除／失侯原詞。只有明示失爵可補該爵終期，不能由死亡補全部官爵終期。本文未明記端點日期時，`date_expression` 保持null，不能將較前父卒年沿用作兒嗣年。
+
+按年排列的表沿用同列 `regnal_year_cell_id`、`digital_year_cell_id`。按年號分欄的表用 `time_axis: columns`、`era_column_id`、`source_year_term` 保留本格原欄題與年字；另列 `year_mapping`（`kind: table_year_row`），保存紀年對照表的完整來源識別、固定修訂、`era_anchor_cell_id`、原年與數位西元格。對照年號及原年字必須一致，不能將侯某元年的爵年當朝廷元年、只憑同一數字跨年號取值，或把另一列西元數字搬來。西元值與時代依數位欄的已標記年資料核對，不當古籍原文。
+
+`references` 分列事件、原年、原年號欄題、數位對照與歲首曆法。兩表的固定URL、格ID、欄ID及引句分別核對；帶 `table_column_id` 的引文須恰為該原欄題，不造段落。人物來源包補齊稱號紀年所引的原格與各表來源，另以 `table_column_references` 保留原欄物件、位置及來源；這些只是引用證據，不新增人物提及、不影響提及次數或來源頻率。
 
 ## 跨書與範圍生卒紀年取捨
 

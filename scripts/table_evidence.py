@@ -81,31 +81,163 @@ def table_name_component_errors(name, tables):
     return errors
 
 
-def table_title_range_errors(value, holding, endpoint, tables):
-    errors=[];event=value.get('table_event');parallel=value.get('parallel_event')
-    if not isinstance(event,dict)or not isinstance(parallel,dict):return ['稱號平行跨年紀年須有固定表格事件']
-    table=tables.get(event.get('table_id'))
-    if not table:return ['稱號平行紀年表格不存在']
-    source=table['source'];cell=table_cell(table,event.get('table_cell_id'))
-    if event.get('kind')!='table_cell'or any(event.get(k)!=source.get(v)for k,v in [('work_id','work_id'),('book_id','book_id'),('chapter_id','chapter_id'),('source_id','id'),('source_revision','revision')]):errors.append('稱號平行紀年表格來源或固定修訂不符')
-    if not cell or not event.get('quote')or event['quote']!=cell['text']:return errors+['稱號平行紀年引句須完整對應原格']
-    mention=next((m for m in cell.get('person_mentions',[])if m['id']==event.get('person_mention_id')),None);term=event.get('event_source_term')
-    valid=(endpoint=='start'and holding.get('kind')=='royal_rank'and holding.get('mode')in ('grant','accession')and event.get('event_type')==holding.get('mode')and isinstance(term,str)and '初王'in term and term in cell['text']and bool(mention)and mention.get('person_id')==holding.get('person_id'))
-    if valid:
-        valid=(type(mention.get('start'))is int and type(mention.get('end'))is int and cell['text'][mention['start']:mention['end']]==mention.get('surface')and any(i<=mention['start']and mention['end']<=i+len(term)for i in range(len(cell['text']))if cell['text'].startswith(term,i)))
-    if not valid:errors.append('稱號平行授封事件須有同人原名錨點與明示初王原詞')
-    regnal=table_cell(table,event.get('regnal_year_cell_id'));digital=table_cell(table,event.get('digital_year_cell_id'))
-    row=cell['id'].rpartition('-c')[0]
-    if not regnal or not digital or regnal.get('column')!=1 or digital.get('column')!=0 or any(c['id'].rpartition('-c')[0]!=row for c in [regnal,digital]):return errors+['稱號平行紀年須引用同列原年欄及數位對照欄']
-    text=digital['text'];latest=value.get('latest',{})
-    if not text.isascii()or not text.isdigit()or latest.get('era')!='BCE'or latest.get('era_year')!=int(text):errors.append('稱號平行紀年西元對照與範圍端點不符')
-    url=source['revision_url']
-    if parallel.get('reference_url')!=url or parallel.get('reference_year_url',url)!=url or parallel.get('reference_event_quote')!=cell['text']or parallel.get('reference_year_quote')!=digital['text']:errors.append('稱號平行紀年對讀引句或固定網址不符')
-    refs=value.get('references',[])
-    for point,scope in [(cell,'received_parallel_event'),(regnal,'received_regnal_year_attestation'),(digital,'digital_editorial_regnal_year_equivalence_only')]:
-        if not any(ref.get('url')==url and ref.get('table_cell_id')==point['id']and ref.get('quote')==point['text']and ref.get('scope')==scope for ref in refs):errors.append('稱號平行紀年須分列相符表格事件與年欄')
+def table_title_range_errors(value, holding, endpoint, tables, boundary=None):
+    """Bind an explicit title event to received table text and a separate year row."""
+    errors = []
+    event, parallel = value.get('table_event'), value.get('parallel_event')
+    if not isinstance(event, dict) or not isinstance(parallel, dict):
+        return ['稱號平行跨年紀年須有固定表格事件']
+    table = tables.get(event.get('table_id'))
+    if not table:
+        return ['稱號平行紀年表格不存在']
+    source = table['source']
+    source_fields = [('work_id', 'work_id'), ('book_id', 'book_id'),
+                     ('chapter_id', 'chapter_id'), ('source_id', 'id'),
+                     ('source_revision', 'revision')]
+    if event.get('kind') != 'table_cell' or any(event.get(k) != source.get(v) for k, v in source_fields):
+        errors.append('稱號平行紀年表格來源或固定修訂不符')
+    cell = table_cell(table, event.get('table_cell_id'))
+    if not cell or not event.get('quote') or event['quote'] != cell['text']:
+        return errors + ['稱號平行紀年引句須完整對應原格']
+    mention = next((m for m in cell.get('person_mentions', [])
+                    if m['id'] == event.get('person_mention_id')), None)
+    term = event.get('event_source_term')
+    named = (bool(mention) and mention.get('person_id') == holding.get('person_id')
+             and type(mention.get('start')) is int and type(mention.get('end')) is int
+             and cell['text'][mention['start']:mention['end']] == mention.get('surface')
+             and isinstance(term, str) and bool(term) and term in cell['text']
+             and any(i <= mention['start'] and mention['end'] <= i + len(term)
+                     for i in range(len(cell['text'])) if cell['text'].startswith(term, i)))
+    kind, mode, etype = holding.get('kind'), holding.get('mode'), event.get('event_type')
+    if boundary is not None and etype != boundary.get('event_type'):
+        errors.append('稱號平行事件種類與本文端點不符')
+    valid = False
+    if named and endpoint == 'start' and etype == mode:
+        if kind == 'royal_rank' and mode in ('grant', 'accession'):
+            valid = '初王' in term
+        elif kind in ('office', 'noble_rank') and mode == 'grant':
+            phrase = ('為' if kind == 'office' else '封') + holding['title']
+            valid = event.get('title_source_term') == phrase and phrase in term
+            if valid:
+                # An earlier office in the same cell is not the new office. The
+                # named subject must precede this explicit grant, without another
+                # marked person becoming the intervening subject.
+                occurrences = [i for i in range(len(cell['text']))
+                               if cell['text'].startswith(phrase, i)
+                               and mention['end'] <= i]
+                valid = any(not any(other.get('person_id') != holding['person_id']
+                                    and mention['end'] <= other['start'] < i
+                                    for other in cell.get('person_mentions', []))
+                            for i in occurrences)
+        elif kind == 'noble_rank' and mode == 'accession':
+            name_cell = table_cell(table, event.get('noble_name_cell_id'))
+            valid = (bool(name_cell)
+                     and name_cell['id'].rpartition('-c')[0] == cell['id'].rpartition('-c')[0]
+                     and name_cell['text'].rstrip('。') + '侯' == holding['title']
+                     and '侯' + mention['surface'] + '元年' in term)
+    elif named and endpoint == 'end' and kind == 'noble_rank' and etype in ('deposition', 'abolition'):
+        name_cell = table_cell(table, event.get('noble_name_cell_id'))
+        valid = (bool(name_cell)
+                 and name_cell['id'].rpartition('-c')[0] == cell['id'].rpartition('-c')[0]
+                 and name_cell['text'].rstrip('。') + '侯' == holding['title']
+                 and '侯' + mention['surface'] in term
+                 and any(word in term for word in ('國除', '失侯')))
+    if not valid:
+        errors.append('稱號平行授封事件須有同人原名錨點與明示初王原詞' if kind == 'royal_rank'
+                      else '稱號平行事件須有同人錨點及明示授任、嗣侯或失侯原詞')
+
+    def column_for(t, point):
+        for fragment in t['fragments']:
+            if any(c['id'] == point['id'] for row in fragment['rows'] for c in row['cells']):
+                return next((col for i, col in enumerate(fragment.get('columns', []))
+                             if i == point.get('column')), None)
+        return None
+
+    mapping = event.get('year_mapping')
+    if mapping is None:
+        year_table = table
+        regnal_id, digital_id = event.get('regnal_year_cell_id'), event.get('digital_year_cell_id')
+        if event.get('time_axis', 'rows') != 'rows':
+            errors.append('按年欄排列表格須有另存紀年對照列')
+    elif isinstance(mapping, dict):
+        year_table = tables.get(mapping.get('table_id'))
+        if not year_table:
+            return errors + ['稱號紀年對照表不存在']
+        if (event.get('time_axis') != 'columns' or mapping.get('kind') != 'table_year_row'
+                or any(mapping.get(k) != year_table['source'].get(v) for k, v in source_fields)):
+            errors.append('稱號跨表紀年來源或固定修訂不符')
+        regnal_id, digital_id = mapping.get('regnal_year_cell_id'), mapping.get('digital_year_cell_id')
+    else:
+        return errors + ['稱號紀年對照列格式無效']
+    regnal, digital = table_cell(year_table, regnal_id), table_cell(year_table, digital_id)
+    if (not regnal or not digital or regnal.get('column') != 1 or digital.get('column') != 0
+            or regnal['id'].rpartition('-c')[0] != digital['id'].rpartition('-c')[0]):
+        return errors + ['稱號平行紀年須引用同列原年欄及數位對照欄']
+    if mapping is None and regnal['id'].rpartition('-c')[0] != cell['id'].rpartition('-c')[0]:
+        errors.append('稱號平行紀年須引用事件同列紀年')
+    if mapping is not None:
+        col = column_for(table, cell)
+        anchor = table_cell(year_table, mapping.get('era_anchor_cell_id'))
+        year_term = event.get('source_year_term')
+        import re
+        year_tokens = re.findall(r'(?<![元一二三四五六七八九十百廿卅零〇兩])(?:元|[一二三四五六七八九十百廿卅零〇兩]+)年', cell['text'])
+        valid_year = (bool(col) and col.get('kind') == 'source_column'
+                      and col.get('id') == event.get('era_column_id')
+                      and isinstance(year_term, str) and year_term in year_tokens
+                      and isinstance(term, str) and term.startswith(year_term)
+                      and bool(anchor) and anchor.get('column') == 1
+                      and col['text'] + '元年' in anchor['text'])
+        if valid_year:
+            label = regnal['text'].rstrip('。')
+            valid_year = label == year_term[:-1] or label == col['text'] + year_term
+            year_rows = [row for fragment in year_table['fragments'] for row in fragment['rows']]
+            ai = next((i for i, row in enumerate(year_rows) if any(c['id'] == anchor['id'] for c in row['cells'])), None)
+            yi = next((i for i, row in enumerate(year_rows) if any(c['id'] == regnal['id'] for c in row['cells'])), None)
+            valid_year = (valid_year and ai is not None and yi is not None and ai <= yi
+                          and not any(c.get('column') == 1 and '元年' in c['text']
+                                      for row in year_rows[ai+1:yi+1] for c in row['cells']))
+        if not valid_year:
+            errors.append('稱號按欄紀年須有相同原年字、事件欄題與對照年號')
+        if not any(r.get('url') == source['revision_url']
+                   and r.get('table_column_id') == event.get('era_column_id')
+                   and col and r.get('quote') == col['text']
+                   and r.get('scope') == 'received_regnal_year_attestation'
+                   for r in value.get('references', [])):
+            errors.append('稱號按欄紀年須引用原年號欄題')
+    row = next((row for fragment in year_table['fragments'] for row in fragment['rows']
+                if any(c['id'] == digital['id'] for c in row['cells'])), {})
+    year = row.get('year') or {}
+    latest = value.get('latest', {})
+    text = digital['text']
+    if (not text.isascii() or not text.isdigit() or year.get('status') != 'digital_editorial_equivalence'
+            or year.get('source_cell_id') != digital['id'] or year.get('source_quote') != text
+            or year.get('era') not in ('BCE', 'CE') or year.get('value') != int(text)
+            or latest.get('era') != year.get('era') or latest.get('era_year') != year.get('value')
+            or latest.get('year') != year.get('astronomical_year')):
+        errors.append('稱號平行紀年西元對照與範圍端點不符')
+    event_url, year_url = source['revision_url'], year_table['source']['revision_url']
+    if (parallel.get('reference_url') != event_url
+            or parallel.get('reference_year_url', event_url) != year_url
+            or parallel.get('reference_event_quote') != cell['text']
+            or parallel.get('reference_year_quote') != digital['text']):
+        errors.append('稱號平行紀年對讀引句或固定網址不符')
+    refs = value.get('references', [])
+    for point, url, scope in [(cell, event_url, 'received_parallel_event'),
+                              (regnal, year_url, 'received_regnal_year_attestation'),
+                              (digital, year_url, 'digital_editorial_regnal_year_equivalence_only')]:
+        if not any(ref.get('url') == url and ref.get('table_cell_id') == point['id']
+                   and ref.get('quote') == point['text'] and ref.get('scope') == scope for ref in refs):
+            errors.append('稱號平行紀年須分列相符表格事件與年欄')
     for ref in refs:
         if ref.get('table_cell_id'):
-            point=table_cell(table,ref['table_cell_id'])
-            if not point or ref.get('url')!=url or ref.get('quote')!=point['text']:errors.append('稱號平行紀年表格參照不符原格')
+            ref_table = tables.get(ref.get('table_id', event['table_id']))
+            point = table_cell(ref_table, ref['table_cell_id']) if ref_table else None
+            if not point or ref.get('url') != ref_table['source']['revision_url'] or ref.get('quote') != point['text']:
+                errors.append('稱號平行紀年表格參照不符原格')
+        if ref.get('table_column_id'):
+            ref_table = tables.get(ref.get('table_id', event['table_id']))
+            col = next((col for fragment in ref_table['fragments'] for col in fragment['columns']
+                        if col['id'] == ref['table_column_id']), None) if ref_table else None
+            if not col or ref.get('url') != ref_table['source']['revision_url'] or ref.get('quote') != col['text']:
+                errors.append('稱號紀年原欄題參照不符')
     return errors

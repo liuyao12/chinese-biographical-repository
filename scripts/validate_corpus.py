@@ -860,7 +860,7 @@ def validate(root=ROOT):
                                 parallel = dict(year_window, basis=year_window['parallel_event'])
                                 valid = date is None and parallel_event_date(parallel)
                                 check(valid, '稱號跨年範圍平行事件對讀無效')
-                                errors.extend(table_title_range_errors(year_window, h, endpoint, tables))
+                                errors.extend(table_title_range_errors(year_window, h, endpoint, tables, boundary))
                                 if valid:
                                     range_expression = year_window['parallel_event']['source_event_quote']
                             errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression))
