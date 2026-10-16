@@ -643,7 +643,38 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji097-001",
+      "person_id": "eya_qj3_tev",
+      "value": null,
+      "source_number": "六十",
+      "source_term": "年六十餘",
+      "bounds": {
+        "lower": 60,
+        "lower_inclusive": false,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "reporting_status": "direct_report",
+      "source_qualification": null,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p002",
+          "quote": "及陳勝、項梁等起，諸將徇地過高陽者數十人，酈生聞其將皆握齱好苛禮自用，不能聽大度之言，酈生乃深自藏匿。後聞沛公將兵略地陳留郊，沛公麾下騎士適酈生裏中子也，沛公時時問邑中賢士豪俊。騎士歸，酈生見謂之曰：「吾聞沛公慢而易人，多大略，此真吾所願從游，莫為我先。若見沛公，謂曰『臣里中有酈生，年六十餘，長八尺，人皆謂之狂生，生自謂我非狂生』。」騎士曰：「沛公不好儒，諸客冠儒冠來者，沛公輒解其冠，溲溺其中。與人言，常大罵。未可以儒生說也。」酈生曰：「弟言之。」騎士從容言如酈生所誡者。",
+          "person_mention_id": "c-shiji-097-luli:m002-0139"
+        }
+      ],
+      "interpretation_note": "酈生囑騎士轉述的自報年齡，只記超過六十的開放下界，不定上界或出生年，非享年；不補原文沒有的歲字或計歲方式。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji008-024",
@@ -702,6 +733,26 @@
         }
       ],
       "interpretation_note": "原文記死亡，不以同段年題或前段背景補年份，不以死亡填所有官爵終期；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji097-003",
+      "person_id": "eya_qj3_tev",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "齊王遂亨酈生",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p007",
+          "quote": "淮陰侯聞酈生伏軾下齊七十餘城，乃夜度兵平原襲齊。齊王田廣聞漢兵至，以為酈生賣己，乃曰：「汝能止漢軍，我活汝；不然，我將亨汝！」酈生曰：「舉大事不細謹，盛德不辭讓。而公不為若更言！」齊王遂亨酈生，引兵東走。",
+          "person_mention_id": "c-shiji-097-luli:m007-0094"
+        }
+      ],
+      "interpretation_note": "只記遂亨的已行事件，將亨的威脅不另記死亡；前段漢三年秋不直接套給後段卒日。 未核書影。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

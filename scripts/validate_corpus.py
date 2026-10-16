@@ -1028,7 +1028,7 @@ def validate(root=ROOT):
                     elif age.get('reporting_status') == 'direct_report':
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
-                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲')
+                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲', '年' + str(number) + '餘')
                               and age.get('source_qualification') is None and not age.get('report_group_id'),
                               '直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組')
                     else:

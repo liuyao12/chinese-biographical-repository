@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vog_yel_p0d` | 公叔座 | [《史記・商君列傳》][50] | [JSON](vog_yel_p0d.json) |
-| `voy_rog_jbw` | 昭王 | [《史記・周本紀》][4] | [JSON](voy_rog_jbw.json) |
-| `vp2_qeq_33j` | 楚王書信 | [《史記・蘇秦列傳》][51] | [JSON](vp2_qeq_33j.json) |
 | `vp6_3oo_dqh` | 太史公 | [《史記・田叔列傳》][86] | [JSON](vp6_3oo_dqh.json) |
 | `vpb_n9d_e0y` | 鄭伯（楚世家提要） | [《史記・太史公自序》][112] | [JSON](vpb_n9d_e0y.json) |
 | `vqb_tym_qti` | 魏長吏 | [《史記・穰侯列傳》][54] | [JSON](vqb_tym_qti.json) |

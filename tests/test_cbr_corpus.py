@@ -1024,4 +1024,8 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/shiji/096.json', lambda d: d['annotation']['unresolved_identity_cases'][-1].update(candidate_person_ids=[]))
         self.assertIn('未決身份候選人物無效',v.validate(self.root))
 
+    def test_direct_age_year_prefix_cannot_be_tenure_wording(self):
+        self.change('corpus/shiji/097.json', lambda d: d['annotation']['age_assertions'][0].update(source_term='六十年餘'))
+        self.assertIn('直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組',v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

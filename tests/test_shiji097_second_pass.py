@@ -49,3 +49,47 @@ class LiLuSecondPassTests(unittest.TestCase):
             self.assertNotIn(old,people)
             self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+class LiLuLifeEventTests(unittest.TestCase):
+    def test_deaths_keep_actual_subjects_and_not_threats(self):
+        events=read('corpus/shiji/097-life-events.json')['events']
+        self.assertEqual(len(events),13)
+        by_term={e['source_term']:e for e in events}
+        for term,pid in [('平原君母死','clw_2zf_477'),('遂自剄','tkc_9z3_91l'),('遂死匈奴中','tkc_9z3_91l_A'),('淮南厲王殺辟陽侯','qg7_n12_fne'),('病死','oge_g2v_hqw')]:
+            self.assertEqual(by_term[term]['person_id'],pid)
+        self.assertFalse(any(e['evidence'][0]['paragraph_id'].endswith((':p011',':p013',':p018')) for e in events))
+        self.assertFalse(any(e['source_term'] in ('欲自殺','當棄市','卒不誅') for e in events))
+
+    def test_yuanshou_death_uses_year_window_not_the_opening_han_year(self):
+        e=next(e for e in read('corpus/shiji/097-life-events.json')['events'] if e['person_id']=='oge_g2v_hqw')
+        self.assertEqual(e['date_expression'],'元狩元年中')
+        d=e['normalized_date_range']
+        self.assertEqual((d['earliest']['era_year'],d['latest']['era_year']),(123,122))
+        self.assertNotIn('normalized_date',e)
+        self.assertTrue(any(r.get('table_cell_id')=='shiji-022-t1-r085-c00' and r['quote']=='122' for r in d['references']))
+        self.assertTrue(any(r.get('text_layer')=='suoyin_commentary' and r['revision_id']==2514838 for r in d['references']))
+        self.assertIsNone(next(e for e in read('corpus/shiji/097-life-events.json')['events'] if e['person_id']=='tkc_9z3_91l_A')['date_expression'])
+
+    def test_self_reported_age_has_no_invented_death_age_or_birth_year(self):
+        a=read('corpus/shiji/097.json')['annotation']['age_assertions'][0]
+        self.assertEqual((a['person_id'],a['source_term'],a['source_number']),('eya_qj3_tev','年六十餘','六十'))
+        self.assertEqual(a['bounds'],{'lower':60,'lower_inclusive':False,'upper':None,'upper_inclusive':None})
+        self.assertIsNone(a['value']);self.assertIsNone(a['birth_year'])
+        self.assertEqual(a['reporting_status'],'direct_report')
+        self.assertIn(a['source_term'],a['evidence'][0]['quote'])
+        self.assertNotIn('歲',a['source_term'])
+
+    def test_three_title_candidates_reconcile_with_same_events(self):
+        self.assertEqual(ids(6,'義帝'),{'c2w_s7g_en0_*A'})
+        self.assertEqual(ids(6,'成安君'),{'rx0_vif_1xq'})
+        self.assertEqual(ids(20,'辟陽侯'),{'qg7_n12_fne'})
+        for old in ['eqd_qrh_r6x','82r_i62_9f9','697_9f9_d41']:
+            self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
+            self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+    def test_source_bundle_exposes_death_range_and_age_without_nlu(self):
+        b=read('exports/persons/oge_g2v_hqw.json')
+        self.assertTrue(any(e['id']=='le-shiji097-004' for e in b['life_events']))
+        self.assertTrue(any(e['record_id']=='le-shiji097-004' for e in b['date_range_normalizations']))
+        b=read('exports/persons/eya_qj3_tev.json')
+        self.assertTrue(any(a['id']=='age-shiji097-001' for a in b['age_assertions']))

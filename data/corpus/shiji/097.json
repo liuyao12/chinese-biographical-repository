@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全25段明示姓名首輪、5條親屬、5筆來源地點、21條官爵與8項跨篇暫定同指；其餘匿名、代詞、同指與版本複核未完成。 本批續核八組身份，閎籍孺原字保留而所指採閎孺，朱建兩處未名子依索隱暫定同指；非全篇覆核完成。",
+    "coverage": "全25段明示姓名首輪、5條親屬、5筆來源地點、21條官爵與8項跨篇暫定同指；其餘匿名、代詞、同指與版本複核未完成。 本批續核八組身份，閎籍孺原字保留而所指採閎孺，朱建兩處未名子依索隱暫定同指；非全篇覆核完成。 續核十三項死亡原句與酈生自報年齡；元狩元年記跨年範圍，其餘未明卒年保留。",
     "limitations": [
       "弟言之為勸告語，不當騎士與酈生之兄弟證據。",
       "平原君朱建不與戰國趙勝同指；後段陳留敘事不改寫前段。",
@@ -53,6 +53,38 @@
         "adopted": false,
         "image_verified": false,
         "revision_id": 2514767
+      }
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji097-001",
+        "person_id": "eya_qj3_tev",
+        "value": null,
+        "source_number": "六十",
+        "source_term": "年六十餘",
+        "bounds": {
+          "lower": 60,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "reporting_status": "direct_report",
+        "source_qualification": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-097-luli",
+            "source_id": "s-shiji-097-luli",
+            "paragraph_id": "c-shiji-097-luli:p002",
+            "quote": "及陳勝、項梁等起，諸將徇地過高陽者數十人，酈生聞其將皆握齱好苛禮自用，不能聽大度之言，酈生乃深自藏匿。後聞沛公將兵略地陳留郊，沛公麾下騎士適酈生裏中子也，沛公時時問邑中賢士豪俊。騎士歸，酈生見謂之曰：「吾聞沛公慢而易人，多大略，此真吾所願從游，莫為我先。若見沛公，謂曰『臣里中有酈生，年六十餘，長八尺，人皆謂之狂生，生自謂我非狂生』。」騎士曰：「沛公不好儒，諸客冠儒冠來者，沛公輒解其冠，溲溺其中。與人言，常大罵。未可以儒生說也。」酈生曰：「弟言之。」騎士從容言如酈生所誡者。",
+            "person_mention_id": "c-shiji-097-luli:m002-0139"
+          }
+        ],
+        "interpretation_note": "酈生囑騎士轉述的自報年齡，只記超過六十的開放下界，不定上界或出生年，非享年；不補原文沒有的歲字或計歲方式。",
+        "reviewer": "Codex（AI 代理）"
       }
     ]
   },
@@ -604,7 +636,7 @@
           "end": 156,
           "surface": "義帝",
           "kind": "person",
-          "person_id": "eqd_qrh_r6x",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -622,7 +654,7 @@
           "end": 177,
           "surface": "義帝",
           "kind": "person",
-          "person_id": "eqd_qrh_r6x",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -640,7 +672,7 @@
           "end": 254,
           "surface": "義帝",
           "kind": "person",
-          "person_id": "eqd_qrh_r6x",
+          "person_id": "c2w_s7g_en0_*A",
           "status": "contextual_provisional"
         },
         {
@@ -667,7 +699,7 @@
           "end": 382,
           "surface": "成安君",
           "kind": "person",
-          "person_id": "82r_i62_9f9",
+          "person_id": "rx0_vif_1xq",
           "status": "contextual_provisional"
         },
         {
@@ -1755,7 +1787,7 @@
           "end": 32,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -1773,7 +1805,7 @@
           "end": 46,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -1872,7 +1904,7 @@
           "end": 112,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -1899,7 +1931,7 @@
           "end": 127,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -1971,7 +2003,7 @@
           "end": 193,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -1980,7 +2012,7 @@
           "end": 208,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         }
       ]
@@ -1997,7 +2029,7 @@
           "end": 3,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2015,7 +2047,7 @@
           "end": 14,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2051,7 +2083,7 @@
           "end": 49,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2060,7 +2092,7 @@
           "end": 59,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2105,7 +2137,7 @@
           "end": 119,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2123,7 +2155,7 @@
           "end": 142,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2141,7 +2173,7 @@
           "end": 163,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2150,7 +2182,7 @@
           "end": 174,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2177,7 +2209,7 @@
           "end": 214,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2186,7 +2218,7 @@
           "end": 218,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2213,7 +2245,7 @@
           "end": 235,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2222,7 +2254,7 @@
           "end": 239,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         }
       ]
@@ -2248,7 +2280,7 @@
           "end": 14,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
@@ -2301,7 +2333,7 @@
           "end": 13,
           "surface": "辟陽侯",
           "kind": "person",
-          "person_id": "697_9f9_d41",
+          "person_id": "qg7_n12_fne",
           "status": "contextual_provisional"
         },
         {
