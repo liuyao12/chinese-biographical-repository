@@ -2,14 +2,57 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAAA",
   "canonical_person_id": "yqp_nlb_p1p_ACAAA",
-  "label": "閎（三王世家候選）",
+  "label": "閎（齊王）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "齊王",
     "閎",
-    "齊王"
+    "子"
   ],
   "titles": [
+    {
+      "id": "th-shiji049-045",
+      "person_id": "yqp_nlb_p1p_ACAAA",
+      "title": "齊王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p030",
+          "quote": "及衛后色衰，趙之王夫人幸，有子，為齊王。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji049-045:a001",
+          "paragraph_id": "c-shiji-049-waiqi:p030",
+          "start": 17,
+          "end": 19,
+          "surface": "齊王",
+          "person_mention_id": "c-shiji-049-waiqi:m030-0017",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji060-031",
       "person_id": "yqp_nlb_p1p_ACAAA",
@@ -93,16 +136,56 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 49,
+      "category": "shijia",
+      "title": "外戚世家第十九",
+      "paragraph_id": "c-shiji-049-waiqi:p030",
+      "count": 2,
+      "quote": "及衛后色衰，趙之王夫人幸，有子，為齊王。"
+    },
+    {
       "number": 60,
       "category": "shijia",
       "title": "三王世家第三十",
       "paragraph_id": "c-shiji-060-sanwang:p002",
       "count": 15,
       "quote": "等宜奉義遵職，愚憧而不逮事。方今盛夏吉時，臣青翟、臣湯等昧死請立皇子臣閎、臣旦、臣胥為諸侯王。昧死請所立國名。」"
+    },
+    {
+      "number": 126,
+      "category": "liezhuan",
+      "title": "滑稽列傳第六十六",
+      "paragraph_id": "c-shiji-126-huaji:p020",
+      "count": 1,
+      "quote": "王夫人病甚，人主至自往問之曰：「子當為王，欲安所置之？」對曰：「願居洛陽。」人主曰：「不可。洛陽有武庫、敖倉，當關口，天下咽喉。自先帝以來，傳不為置王。然關東國莫大於齊，可以為齊王。」王夫人以手擊頭，呼「幸甚」。王夫人死，號曰「齊王太"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-049-waiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "source_id": "s-shiji-049-waiqi",
+      "source": {
+        "title": "史記／卷049",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷049",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷049&oldid=7903610",
+        "revision_id": 7903610,
+        "accessed_on": "2026-10-09",
+        "extent": "44段史文，前34段篇文，後10段自褚先生曰起為附載文字；數位分節欄題不是古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
+          "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-060-sanwang",
       "work_id": "w-shiji",
@@ -124,6 +207,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留太仆、承天于、酂、西（湊）［溱］、壃、箸、［立］廣陵王、墝埆、無卹德／無俷德、無修德、闕及滫等見證字與符號。3處dd為策後來源標記，保留在原序，不當導航排除。",
           "note": "全32段已核讀；褚先生自述求世家不得而編封策，前17段傳承未核定，不冒稱已校定司馬遷原文。未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-126-huaji",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "source_id": "s-shiji126-huaji",
+      "source": {
+        "title": "史記／卷126",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷126",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358",
+        "revision_id": 2609358,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文27段；篇文12段、褚少孫補文14段、索隱述贊1段。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia導覽模板，維基內鏈只留顯示文字，移除衛后字形選擇包裝而保留后字；未核影像。",
+          "note": "褚先生補與索隱述贊依來源節標分層，不作司馬遷篇文。"
         }
       }
     }
@@ -170,12 +277,32 @@
       },
       "interpretation_note": "依立子、生子、四子／兩子、少弟及祖先自稱保存來源主張；不同位階的子字不互換，祖先不作直接父親，未名侯子不補姓名。宗正陳昭帝為武帝子與旦指大將軍子的引語分辨，指控不當已確證生平。楚王所稱先元王保留自稱性，不補闕代或爵位三十二城。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji126-006",
+      "subject_person_id": "yqp_nlb_p1p_ACAAA",
+      "predicate": "mother",
+      "object_person_id": "3eo_u7e_pxx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-126-huaji",
+          "source_id": "s-shiji126-huaji",
+          "paragraph_id": "c-shiji-126-huaji:p020",
+          "quote": "王夫人病甚，人主至自往問之曰：「子當為王，欲安所置之？」對曰：「願居洛陽。」人主曰：「不可。洛陽有武庫、敖倉，當關口，天下咽喉。自先帝以來，傳不為置王。然關東國莫大於齊，可以為齊王。」王夫人以手擊頭，呼「幸甚」。王夫人死，號曰「齊王太后薨」。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子當為王"
+      },
+      "interpretation_note": "依原句明示親屬保存；未名者不補姓名，乳母不當皇帝生母，受幸不推婚姻。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "3eo_u7e_pxx": "王夫人（三王世家候選）",
+    "3eo_u7e_pxx": "王夫人（齊王閎母）",
     "yqp_nlb_p1p_ACAA": "徹（景帝子）",
-    "yqp_nlb_p1p_ACAAA": "閎（三王世家候選）"
+    "yqp_nlb_p1p_ACAAA": "閎（齊王）"
   },
   "dates": [],
   "name_components": [],
@@ -224,6 +351,26 @@
       },
       "interpretation_note": "依立子、生子、四子／兩子、少弟及祖先自稱保存來源主張；不同位階的子字不互換，祖先不作直接父親，未名侯子不補姓名。宗正陳昭帝為武帝子與旦指大將軍子的引語分辨，指控不當已確證生平。楚王所稱先元王保留自稱性，不補闕代或爵位三十二城。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji126-006",
+      "subject_person_id": "yqp_nlb_p1p_ACAAA",
+      "predicate": "mother",
+      "object_person_id": "3eo_u7e_pxx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-126-huaji",
+          "source_id": "s-shiji126-huaji",
+          "paragraph_id": "c-shiji-126-huaji:p020",
+          "quote": "王夫人病甚，人主至自往問之曰：「子當為王，欲安所置之？」對曰：「願居洛陽。」人主曰：「不可。洛陽有武庫、敖倉，當關口，天下咽喉。自先帝以來，傳不為置王。然關東國莫大於齊，可以為齊王。」王夫人以手擊頭，呼「幸甚」。王夫人死，號曰「齊王太后薨」。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子當為王"
+      },
+      "interpretation_note": "依原句明示親屬保存；未名者不補姓名，乳母不當皇帝生母，受幸不推婚姻。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "assembled_identity": {
@@ -242,6 +389,26 @@
   },
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-shiji049-034",
+      "person_id": "yqp_nlb_p1p_ACAAA",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p030",
+          "quote": "及衛后色衰，趙之王夫人幸，有子，為齊王。",
+          "person_mention_id": "c-shiji-049-waiqi:m030-0017"
+        }
+      ],
+      "source_term": "有子，為齊王",
+      "interpretation_note": "來源明記出生；不以母親受幸、父親年齡或鄰近即位倒推生日。群體子女人數不拆造未名者。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
     {
       "id": "le-shiji060-002",
       "person_id": "yqp_nlb_p1p_ACAAA",
