@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "慶"
+    "慶",
+    "石丞相"
   ],
   "titles": [
     {
@@ -689,6 +690,48 @@
         "source_collective_scope": "石君及四子"
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji104-027",
+      "person_id": "esh_e0a_jrw_AD",
+      "title": "丞相",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p014",
+          "quote": "田仁上書言：「天下郡太守多為姦利，三河尤甚，臣請先刺舉三河。三河太守皆內倚中貴人，與三公有親屬，無所畏憚，宜先正三河以警天下姦吏。」是時河南、河內太守皆御史大夫杜父兄子弟也，河東太守石丞相子孫也。是時石氏九人為二千石，方盛貴。田仁數上書言之。杜大夫及石氏使人謝，謂田少卿曰：「吾非敢有語言也，願少卿無相誣汙也。」仁已刺三河，三河太守皆下吏誅死。仁還奏事，武帝說，以仁為能不畏彊御，拜仁為丞相司直，威振天下。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji104-027:a001",
+          "paragraph_id": "c-shiji-104-tianshu:p014",
+          "start": 92,
+          "end": 94,
+          "surface": "丞相",
+          "person_mention_id": "c-shiji-104-tianshu:m014-0091",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "正文與褚補分層保存；授官、用稱、俸秩與任務分開，未知年與終點不補造，死亡不自動終止。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -700,6 +743,14 @@
       "paragraph_id": "c-shiji-103-wanshi:p002",
       "count": 20,
       "quote": "位，以爲九卿；迫近，憚之，徙奮爲諸侯相。奮長子建，次子甲，次子乙，次子慶，皆以馴行孝謹，官皆至二千石。於是景帝曰：「石君及四子皆二千石，人臣尊寵乃集其門。」號奮爲萬石君。"
+    },
+    {
+      "number": 104,
+      "category": "liezhuan",
+      "title": "田叔列傳第四十四",
+      "paragraph_id": "c-shiji-104-tianshu:p014",
+      "count": 1,
+      "quote": "三河以警天下姦吏。」是時河南、河內太守皆御史大夫杜父兄子弟也，河東太守石丞相子孫也。是時石氏九人為二千石，方盛貴。田仁數上書言之。杜大夫及石氏使人謝，謂田少卿曰：「吾非敢有語言也，願少卿無相誣汙也。」仁已刺三河，三河太守皆下吏誅死。仁還奏事，武帝說，以仁為能不畏彊御，拜仁為丞"
     }
   ],
   "table_occurrences": [],
@@ -725,6 +776,30 @@
           "editorial_readings": [],
           "extraction_note": "僅去外緣空白；髙、衞、温、内、爲、呉、甐及原標點保留。",
           "note": "已核讀全27段數位正文，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-104-tianshu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-104",
+      "source_id": "s-shiji-104-tianshu",
+      "source": {
+        "title": "史記／卷104",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷104",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷104&oldid=8739534",
+        "revision_id": 8739534,
+        "accessed_on": "2026-10-10",
+        "extent": "9段正文含太史公論，7段署褚先生補文與1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
         }
       }
     }

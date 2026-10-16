@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fzo_jum_4s1` | 翟公 | [《史記・汲鄭列傳》][103] | [JSON](fzo_jum_4s1.json) |
-| `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][94] | [JSON](fzx_a7k_725.json) |
-| `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][25] | [JSON](g0f_lnq_gkm.json) |
 | `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][104] | [JSON](g0i_iwm_ld0.json) |
 | `g0j_yhl_z02` | 淮南王（趙兼甥） | [《史記・酷吏列傳》][105] | [JSON](g0j_yhl_z02.json) |
 | `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][6] | [JSON](g0o_7tz_csx.json) |
@@ -559,7 +556,6 @@
 | `jws_b08_hob` | 鄭當時 | [《史記・汲鄭列傳》][103] | [JSON](jws_b08_hob.json) |
 | `jwt_uii_drr` | 契 | [《史記・司馬相如列傳》][100] | [JSON](jwt_uii_drr.json) |
 | `jx1_hxn_rzk` | 夏寬 | [《史記・儒林列傳》][104] | [JSON](jx1_hxn_rzk.json) |
-| `jya_fko_ski` | 陳豨 | [《史記・田叔列傳》][87] | [JSON](jya_fko_ski.json) |
 | `jyn_w3z_sqq` | 桀 | [《史記・龜策列傳》][111] | [JSON](jyn_w3z_sqq.json) |
 | `k00_6q0_ths` | 徙木者 | [《史記・商君列傳》][51] | [JSON](k00_6q0_ths.json) |
 | `k0h_8u3_zm7` | 介子推母（偕隱者） | [《史記・晉世家》][22] | [JSON](k0h_8u3_zm7.json) |
@@ -880,7 +876,6 @@
 | `mgj_ry7_2x5` | 陶朱 | [《史記・陳涉世家》][31] | [JSON](mgj_ry7_2x5.json) |
 | `mgl_q57_d7h` | 樊市人弟未名 | [《史記・樊酈滕灌列傳》][78] | [JSON](mgl_q57_d7h.json) |
 | `mh6_5un_rq0` | 韓康子（殺知伯者） | [《史記・晉世家》][22] | [JSON](mh6_5un_rq0.json) |
-| `mih_vxs_rhx` | 高后 | [《史記・田叔列傳》][87] | [JSON](mih_vxs_rhx.json) |
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][88] | [JSON](mii_pxr_jrl.json) |
 | `mil_8wg_ohj` | 孔子 | [《史記・貨殖列傳》][112] | [JSON](mil_8wg_ohj.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][52] | [JSON](mio_z5f_ri1.json) |
@@ -1038,7 +1033,6 @@
 | `nmf_bg9_hdz` | 孔子 | [《史記・平原君虞卿列傳》][59] | [JSON](nmf_bg9_hdz.json) |
 | `nnj_520_wdk` | 簀中救范守者未名 | [《史記・范睢蔡澤列傳》][62] | [JSON](nnj_520_wdk.json) |
 | `nnq_gau_71f` | 太史公 | [《史記・扁鵲倉公列傳》][88] | [JSON](nnq_gau_71f.json) |
-| `nnw_99z_4e5` | 梁孝王 | [《史記・田叔列傳》][87] | [JSON](nnw_99z_4e5.json) |
 | `no0_6y9_swo` | 齊使者 | [《史記・孫子吳起列傳》][48] | [JSON](no0_6y9_swo.json) |
 | `noa_3ci_b9s` | 鬼谷先生 | [《史記・蘇秦列傳》][52] | [JSON](noa_3ci_b9s.json) |
 | `noi_rkl_11c` | 魏無知 | [《史記・陳丞相世家》][39] | [JSON](noi_rkl_11c.json) |
@@ -2222,6 +2216,11 @@
 | `w6w_2q4_c9g` | 商君 | [《史記・魏世家》][27] | [JSON](w6w_2q4_c9g.json) |
 | `w77_e81_zts` | 太史公 | [《史記・汲鄭列傳》][103] | [JSON](w77_e81_zts.json) |
 | `w7a_pl5_1it` | 叔帶 | [《史記・周本紀》][5] | [JSON](w7a_pl5_1it.json) |
+| `w7k_6hz_mb7` | 韓昭侯 | [《史記・孟嘗君列傳》][58] | [JSON](w7k_6hz_mb7.json) |
+| `w7n_89s_g0v` | 孔子 | [《史記・魏世家》][27] | [JSON](w7n_89s_g0v.json) |
+| `w7s_pgt_k77` | 四歲後出征敘事單于（未名） | [《史記・李將軍列傳》][92] | [JSON](w7s_pgt_k77.json) |
+| `w85_8hh_ltq` | 商君 | [《史記・陳涉世家》][31] | [JSON](w85_8hh_ltq.json) |
+| `w87_cay_3gx` | 趙調 | [《史記・游俠列傳》][107] | [JSON](w87_cay_3gx.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
