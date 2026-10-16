@@ -3,8 +3,8 @@
 以穩定人物 ID 讀取所有已標註的來源材料：
 
 ```sh
-python3 scripts/person_bundle.py cbr-p004937 --output /tmp/mengtian.json
-python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp/lisi.json
+python3 scripts/person_bundle.py udu_dyy_4wd --output /tmp/jibu.json
+python3 scripts/person_bundle.py jx9_cov_qe0 --include-provisional --output /tmp/luanbu.json
 ```
 
 預設僅讀指定 ID。`--include-provisional` 明示選用庫內暫定同指的傳遞集合；輸出保留每項判讀、原人物 ID 與證據，不以同名自動合併。暫定同指不表示各來源的世系與年代全部一致。輸出涵蓋目前已標註材料，不能代表尚未整理的全部史料。
@@ -13,7 +13,7 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 
 `title_holdings` 保留每次官爵或尊稱主張的 `effective_period`、用稱錨點及事件類型。檢視器應分別呈現「當時任職確定」「任期未定、此處有用稱」「諡號或回顧用稱」，不能把未知起訖當無限期有效，也不能把初見當授予、把死亡當罷免。來源年月原文保留在 `date_expression`；已開始逐條年尺度換算，尚未完成全庫曆法換算與按公曆時間篩選，檢視器不得自行把年號字串當可比較日期。
 
-此匯出是可重建的讀取層，權威資料仍是各篇來源與標註。無 AI 或網路處理需求。尚未接入家譜小程式或公開人物頁。
+此匯出是可重建的讀取層，權威資料仍是各篇來源與標註。無 AI 或網路處理需求。閱讀器人物頁使用另行生成的顯示資料；本來源包供程式解析與下載，尚未改接家譜小程式。
 
 關係 `agnatic_cousin` 保存正文「從兄」「從弟」等同宗從兄弟稱呼，親等未定時 `qualifiers.degree` 為 `unknown`；不能由此補第一代表親、共同祖父或父子線。與 `brother` 相異的來源主張並列，`discrepancy_group_id` 可供檢視器連結分歧；該群組只提示差異，不自動選定其中一說。
 
@@ -42,13 +42,13 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 
 `source_mention_summary` 按 `source_id` 統計本人物來源包內已標註的提及，列出 `mention_count`、`passage_count` 及可覆核的錨點與段落 ID，依次數由多至少排列。`most_mentioned_source_ids` 保留所有並列最多的來源；沒有提及則為空陣列。範圍遵循人物包的 `identity_policy`，採暫定同指時包含其候選 ID，但不計關係人物的提及。這是目前標註範圍的統計，不表示史料全文已標完，也不代表可信度、獨立見證數或來源優先次序。
 
-`family_paths` 匯出有來源親屬陳述支持的家族ID路徑及其原文依據；分支字元不是出生排行。已發布序號ID仍永久有效。
+`family_paths` 匯出有來源親屬陳述支持的家族ID路徑及其原文依據；分支字元不是出生排行。完成引用遷移的舊ID已撤除，歷史回查使用Git。
 
 
 `kinship_interpretation_cases` 分存有歧說的親屬詮釋，各候選包含可解析的關係、世代與長幼資訊及注家引句。`default_alternative_id: null` 表示尚未選定；使用端不得自行當成已確定關係或家族路徑。`reported_variants` 保存注家所報異文，`adopted: false` 表示未採入正文或關係，並非已完成底本校勘。
 
 
-家族ID例：根 `abc_def_123`、子 `abc_def_123_A`、孫 `abc_def_123_AA`。`canonical_person_id` 是現行ID；`requested_person_id` 保留呼叫的舊或新入口。舊連字號ID列於 `id_aliases`，相容JSON入口保留；`index.json` 的 `persons` 只計現行人物，另有 `id_aliases` 對照。Markdown索引的ID用等寬字體。
+家族ID例：根 `abc_def_123`、子 `abc_def_123_A`、孫 `abc_def_123_AA`。`canonical_person_id` 是現行ID；`requested_person_id` 保留呼叫的舊或新入口。完成遷移的舊序號或連字號ID不再提供永久相容入口；未完成身份覆核的來源候選仍各自保留。`index.json` 的 `persons` 列現行人物。Markdown索引的ID用等寬字體。
 
 `abc_def_123_*A` 表示源文明示的孫子、中間父親缺名。`family_paths` 另存祖父端點、世代距離及 null 中間世代；星號不代表實際人物、不合併不同缺名位置。Markdown索引以家族 `<details>` 區塊展開／收起後代，所有正式ID以等寬字體顯示；JSON索引完整列出人物，不受展開狀態影響。
 
@@ -62,3 +62,14 @@ python3 scripts/person_bundle.py cbr-p000537 --include-provisional --output /tmp
 稱號有效期間端點若已有 `normalized_date`，同時匯入 `date_normalizations`，附 `record_id`、`person_id`、`endpoint` 與 `title`；原始端點及引句仍保存在 `title_holdings`，證據段落亦納入來源集合。未知端點不生成數字日期。
 
 程式索引的列可另含 `preferred_parent_status: unresolved` 與 `parent_decision_ids`，指明相關編輯決定暫不採用此候選的父系線。Markdown 同列標「來源候選；預設不接父系」，仍保留原 ID 及 JSON。家族式 ID 與表列人數包含來源候選，不代替預設世系；繪圖須讀 `preferred_relations` 並套用有證據的同指決定，不按 ID 前綴推造父子。`relations` 繼續保存被排除的原始主張。
+
+
+## 年表逐人提及
+
+`mentions` 繼續保存正文段落錨點。`table_occurrences` 另列全部目前已標註、符合本包身份範圍的年表人物提及，包含原提及 `id`、`person_id`、`surface`、`start`、`end`，以及 `table_id`、`table_fragment_id`、`table_row_id`、`table_cell_id`、work／book／chapter／source ID、`source_revision` 及完整原格 `quote`。同格多人、多次出現逐一保存，不把整格當成人物，不把格位偽裝成正文段落。
+
+`table_passages` 按原格ID去重，附原格文字與全部標記、分表原欄題 `source_header`、表列座標及 `row_year`。後者保留既有年表的數位編者西元對照與其狀態，不是自動推得的生卒、授爵或官爵起訖。`sources` 同時包含提及及親屬證據所用表格的固定修訂、見證與核讀限制。未標註或未決指代不冒充已辨識人物。
+
+`source_mention_summary` 的提及次數合計正文及年表逐人錨點；`paragraph_ids` 與 `table_cell_ids` 分列，`passage_count` 為不同正文段落與原格的總數。同格兩次出現算兩次提及、一個格位；其他人物在同格的標記不計入本人物頻次。`most_mentioned_source_ids` 仍保留所有並列最多來源，頻次不作史料權重。索引 `mention_count` 合計兩類，另列 `paragraph_mention_count`、`table_mention_count`，可檢查計數。
+
+尚未完成CBR人物登記的年表獨立候選仍在閱讀器人物資料中分存；本來源包不因同名自動建立同指或家族，不能把此次匯出視為年表全部人物身份覆核完成。

@@ -340,11 +340,11 @@ class PersonBundleTests(unittest.TestCase):
     def test_source_frequency_counts_only_focus_mentions_and_preserves_ties(self):
         result = bundle('ao3_0fy_d45_AAA', include_provisional=True)
         rows = result['source_mention_summary']
-        self.assertEqual(sum(r['mention_count'] for r in rows), len(result['mentions']))
-        indexed = {m['id']: m for m in result['mentions']}
+        self.assertEqual(sum(r['mention_count'] for r in rows), len(result['mentions']) + len(result['table_occurrences']))
+        indexed = {m['id']: m for m in result['mentions'] + result['table_occurrences']}
         for row in rows:
             self.assertEqual(row['mention_count'], len(row['mention_ids']))
-            self.assertEqual(row['passage_count'], len(row['paragraph_ids']))
+            self.assertEqual(row['passage_count'], len(row['paragraph_ids']) + len(row['table_cell_ids']))
             self.assertTrue(all(indexed[mid]['chapter_id'] == row['chapter_id'] for mid in row['mention_ids']))
         maximum = max(r['mention_count'] for r in rows)
         self.assertEqual(set(result['most_mentioned_source_ids']), {r['source_id'] for r in rows if r['mention_count'] == maximum})
