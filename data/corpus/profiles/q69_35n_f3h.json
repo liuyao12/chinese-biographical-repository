@@ -1776,6 +1776,38 @@
       "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "record_id": "age-shiji112-002",
+      "person_id": "q69_35n_f3h",
+      "date_role": "age_attestation"
+    },
+    {
+      "era": "BCE",
+      "era_year": 140,
+      "year": -139,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p002",
+          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
+          "quote": "建元元年（辛丑，公元前一四零年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
       "record_id": "th-shiji112-003",
       "person_id": "q69_35n_f3h",
       "endpoint": "start",
@@ -2030,7 +2062,99 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji112-001",
+      "person_id": "q69_35n_f3h",
+      "value": null,
+      "source_number": "四十",
+      "source_term": "年四十餘",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p001",
+          "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。",
+          "person_mention_id": "c-shiji-112-pingjin:m001-0002"
+        }
+      ],
+      "interpretation_note": "只記來源報齡，計歲方式未明，不倒算生年、享年或學習年數；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "bounds": {
+        "lower": 40,
+        "lower_inclusive": false,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "reporting_status": "direct_report",
+      "source_qualification": null
+    },
+    {
+      "id": "age-shiji112-002",
+      "person_id": "q69_35n_f3h",
+      "value": 60,
+      "source_number": "六十",
+      "source_term": "年六十",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "date_expression": "建元元年",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p002",
+          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+          "person_mention_id": "c-shiji-112-pingjin:m002-0021"
+        }
+      ],
+      "interpretation_note": "只記來源報齡，計歲方式未明，不倒算生年、享年或學習年數；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 140,
+        "year": -139,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-112-pingjin",
+            "source_id": "s-shiji112-pingjin",
+            "paragraph_id": "c-shiji-112-pingjin:p002",
+            "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》數位編輯年標",
+            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
+            "quote": "建元元年（辛丑，公元前一四零年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji112-p009-q69_35n_f3h",
