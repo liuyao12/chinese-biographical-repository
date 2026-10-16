@@ -510,6 +510,140 @@
       "model": null,
       "human_reviewed": false,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji109-qinyan-lixin",
+      "person_ids": [
+        "k7j_gr6_8nz"
+      ],
+      "canonical_person_id": "k7j_gr6_8nz",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-109-liguang",
+        "c-shiji-073-baiwang",
+        "c-shiji-086-cike"
+      ],
+      "rationale": "卷一〇九其先李信為秦將、追燕太子丹；卷七十三秦將李信逐丹至衍水，卷八十六李信追丹、丹匿衍水，人物與特定秦燕事件相合，接為同人。卷七十三卒破得丹與卷八十六燕王使使斬丹各存其說，身份接合不判定殺丹者。其先只支持未明世數的祖先主張，不改作李廣父親，不以遠祖主張接合父系根。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-109-liguang",
+          "source_id": "s-shiji-109-liguang",
+          "paragraph_id": "c-shiji-109-liguang:p001",
+          "quote": "李將軍廣者，隴西成紀人也。其先曰李信，秦時爲將，逐得燕太子丹者也。故槐里，徙成紀。廣家世世受射。孝文帝十四年，匈奴大入蕭關，而廣以良家子從軍擊胡，用善騎射，殺首虜多，爲漢中郎。廣從弟李蔡亦爲郎，皆爲武騎常侍，秩八百石。嘗從行，有所衝陷折關及格猛獸，而文帝曰：「惜乎，子不遇時！如令子當高帝時，萬戸侯豈足道哉！」",
+          "mention_ids": [
+            "c-shiji-109-liguang:m001-0016"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p010",
+          "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m010-0018",
+            "c-shiji-073-baiwang:m010-0062",
+            "c-shiji-073-baiwang:m010-0073",
+            "c-shiji-073-baiwang:m010-0084",
+            "c-shiji-073-baiwang:m010-0133",
+            "c-shiji-073-baiwang:m010-0149",
+            "c-shiji-073-baiwang:m010-0178",
+            "c-shiji-073-baiwang:m010-0194",
+            "c-shiji-073-baiwang:m010-0233"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。",
+          "mention_ids": [
+            "c-shiji-086-cike:m035-0047",
+            "c-shiji-086-cike:m035-0111"
+          ]
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "human_reviewed": false,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji109-qinyan-dan",
+      "person_ids": [
+        "e3o_2bk_lhm"
+      ],
+      "canonical_person_id": "e3o_2bk_lhm",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-109-liguang",
+        "c-shiji-073-baiwang",
+        "c-shiji-086-cike",
+        "c-shiji-071-chugan"
+      ],
+      "rationale": "卷一〇九被秦將李信追逐的燕太子丹，與卷七十三及八十六同一追逐事件的丹相合；卷七十一在秦始皇、文信侯敘事中明記燕王喜使太子丹入質秦，與卷八十六燕王喜、太子丹的父子敘事及秦燕背景相合，暫定同指。卷七十一入質及歸燕的敘次保留，不以身份接合強制統一其他篇的入質年代、返燕方式或丹被殺的敘述。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-109-liguang",
+          "source_id": "s-shiji-109-liguang",
+          "paragraph_id": "c-shiji-109-liguang:p001",
+          "quote": "李將軍廣者，隴西成紀人也。其先曰李信，秦時爲將，逐得燕太子丹者也。故槐里，徙成紀。廣家世世受射。孝文帝十四年，匈奴大入蕭關，而廣以良家子從軍擊胡，用善騎射，殺首虜多，爲漢中郎。廣從弟李蔡亦爲郎，皆爲武騎常侍，秩八百石。嘗從行，有所衝陷折關及格猛獸，而文帝曰：「惜乎，子不遇時！如令子當高帝時，萬戸侯豈足道哉！」",
+          "mention_ids": [
+            "c-shiji-109-liguang:m001-0029"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p010",
+          "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m010-0035",
+            "c-shiji-073-baiwang:m010-0048"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-086-cike",
+          "source_id": "s-shiji-086-cike",
+          "paragraph_id": "c-shiji-086-cike:p035",
+          "quote": "於是秦王大怒，益發兵詣趙，詔王翦軍以伐燕。十月而拔薊城。燕王喜、太子丹等盡率其精兵東保於遼東。秦將李信追撃燕王急，代王嘉乃遺燕王喜書曰：「秦所以尤追燕急者，以太子丹故也。今王誠殺丹獻之秦王，秦王必解，而社稷幸得血食。」其後李信追丹，丹匿衍水中，燕王乃使使斬太子丹，欲獻之秦。秦復進兵攻之。後五年，秦卒滅燕，虜燕王喜。",
+          "mention_ids": [
+            "c-shiji-086-cike:m035-0032",
+            "c-shiji-086-cike:m035-0079",
+            "c-shiji-086-cike:m035-0089",
+            "c-shiji-086-cike:m035-0114",
+            "c-shiji-086-cike:m035-0116",
+            "c-shiji-086-cike:m035-0128"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p017",
+          "quote": "秦始皇帝使剛成君蔡澤於燕，三年而燕王喜使太子丹入質於秦。秦使張唐往相燕，欲與燕共伐趙以廣河閒之地。張唐謂文信侯曰：「臣嘗為秦昭王伐趙，趙怨臣，曰：『得唐者與百里之地。』今之燕必經趙，臣不可以行。」文信侯不快，未有以彊也。甘羅曰：「君侯何不快之甚也？」文信侯曰：「吾令剛成君蔡澤事燕三年，燕太子丹已入質矣，吾自請張卿相燕而不肯行。」甘羅曰：「臣請行之。」文信侯叱曰：「去！我身自請之而不肯，女焉能行之？」甘羅曰：「大項橐生七歲為孔子師。今臣生十二歲於茲矣，君其試臣，何遽叱乎？」於是甘羅見張卿曰：「卿之功孰與武安君？」卿曰：「武安君南挫彊楚，北威燕、趙，戰勝攻取，破城墮邑，不知其數，臣之功不如也。」甘羅曰：「應侯之用於秦也，孰與文信侯專？」張卿曰：「應侯不如文信侯專。」甘羅曰：「卿明知其不如文信侯專與？」曰：「知之。」甘羅曰：「應侯欲攻趙，武安君難之，去咸陽七里而立死於杜郵。今文信侯自請卿相燕而不肯行，臣不知卿所死處矣。」張唐曰：「請因孺子行。」令裝治行。",
+          "mention_ids": [
+            "c-shiji-071-chugan:m017-0020",
+            "c-shiji-071-chugan:m017-0143"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p018",
+          "quote": "行有日，甘羅謂文信侯曰：「借臣車五乘，請為張唐先報趙。」文信侯乃入言之於始皇曰：「昔甘茂之孫甘羅，年少耳，然名家之子孫，諸侯皆聞之。今者張唐欲稱疾不肯行，甘羅說而行之。今願先報趙，請許遣之。」始皇召見，使甘羅於趙。趙襄王郊迎甘羅。甘羅說趙王曰：「王聞燕太子丹入質秦歟？」曰：「聞之。」曰：「聞張唐相燕歟？」曰：「聞之。」「燕太子丹入秦者，燕不欺秦也。張唐相燕者，秦不欺燕也。燕、秦不相欺者，伐趙，危矣。燕、秦不相欺無異故，欲攻趙而廣河閒。王不如齎臣五城以廣河閒，請歸燕太子，與彊趙攻弱燕。」趙王立自割五城以廣河閒。秦歸燕太子。趙攻燕，得上谷三十城，令秦有十一。",
+          "mention_ids": [
+            "c-shiji-071-chugan:m018-0125",
+            "c-shiji-071-chugan:m018-0161",
+            "c-shiji-071-chugan:m018-0233",
+            "c-shiji-071-chugan:m018-0259"
+          ]
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "human_reviewed": false,
+      "identity_materialized": true
     }
   ]
 }
