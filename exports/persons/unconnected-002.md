@@ -688,7 +688,7 @@
 | `lso_17e_oj8` | 二世（陳涉世家未名者） | [《史記・陳涉世家》][33] | [JSON](lso_17e_oj8.json) |
 | `lss_951_wm9` | 董仲舒 | [《史記・平津侯主父列傳》][97] | [JSON](lss_951_wm9.json) |
 | `lt5_gcv_iqh` | 宣王 | [《史記・周本紀》][7] | [JSON](lt5_gcv_iqh.json) |
-| `ltc_bon_w6p` | 銅離 | [《史記・衛將軍驃騎列傳》][96] | [JSON](ltc_bon_w6p.json) |
+| `ltc_bon_w6p` | 銅離 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](ltc_bon_w6p.json) |
 | `ltg_z7u_vhb` | 張良弟（留侯世家未名者） | [《史記・留侯世家》][40] | [JSON](ltg_z7u_vhb.json) |
 | `ltn_go2_3eu` | 遠吏故事妾 | [《史記・蘇秦列傳》][54] | [JSON](ltn_go2_3eu.json) |
 | `ltv_hb9_iam` | 猗頓 | [《史記・陳涉世家》][33] | [JSON](ltv_hb9_iam.json) |
