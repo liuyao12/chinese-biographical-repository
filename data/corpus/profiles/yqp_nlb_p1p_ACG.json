@@ -531,6 +531,48 @@
       "period": "六月中 → 未定"
     },
     {
+      "id": "th-shiji101-034",
+      "person_id": "yqp_nlb_p1p_ACG",
+      "title": "梁王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p015",
+          "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生所問占。還，梁刺客後曹輩果遮刺殺盎安陵郭門外。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji101-034:a001",
+          "paragraph_id": "c-shiji-101-yuanchao:p015",
+          "start": 16,
+          "end": 18,
+          "surface": "梁王",
+          "person_mention_id": "c-shiji-101-yuanchao:m015-0016",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實授、任事、敘事用稱與先前官職分存。欲使將而不肯不作已任，九卿只記類別，智囊為稱號，死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji106-031",
       "person_id": "yqp_nlb_p1p_ACG",
       "title": "梁孝王",
@@ -849,6 +891,14 @@
       "paragraph_id": "c-shiji-083-luzou:p015",
       "count": 7,
       "quote": "莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰："
+    },
+    {
+      "number": 101,
+      "category": "liezhuan",
+      "title": "袁盎鼂錯列傳第四十一",
+      "paragraph_id": "c-shiji-101-yuanchao:p015",
+      "count": 3,
+      "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生"
     },
     {
       "number": 106,
@@ -1360,6 +1410,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-101-yuanchao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-101",
+      "source_id": "s-shiji-101-yuanchao",
+      "source": {
+        "title": "史記／卷101",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷101",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092",
+        "revision_id": 368092,
+        "accessed_on": "2026-10-10",
+        "extent": "22段正文含太史公論，另附1段索隱；首區塊即正文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "只去外緣空白；鼂、陗、鬬、擥、棓、諠及（嘗）、（直）隧［直］等原字與見證符號保留。",
+          "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
       "book_id": "b-shiji-106",
@@ -1547,7 +1621,7 @@
       "id": "a-shiji058-002",
       "subject_person_id": "yqp_nlb_p1p_ACG",
       "predicate": "mother",
-      "object_person_id": "q29_h9w_sah",
+      "object_person_id": "ixk_6fg_v6f_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -1795,9 +1869,8 @@
     }
   ],
   "related_people": {
-    "ixk_6fg_v6f_A": "竇太后（外戚世家候選）",
+    "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
     "l26_mjw_rwe": "孝文后／竇太后（魏其武安侯列傳候選）",
-    "q29_h9w_sah": "竇氏（文帝皇后）",
     "yqp_nlb_p1p_AC": "恒（高祖子）",
     "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
     "yqp_nlb_p1p_ACG": "武（文帝子）",
@@ -1914,7 +1987,7 @@
       "id": "a-shiji058-002",
       "subject_person_id": "yqp_nlb_p1p_ACG",
       "predicate": "mother",
-      "object_person_id": "q29_h9w_sah",
+      "object_person_id": "ixk_6fg_v6f_A",
       "status": "source_attested",
       "evidence": [
         {

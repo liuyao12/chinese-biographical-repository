@@ -52,6 +52,56 @@
     "w2n_7g1_30z": "棓生（袁盎鼂錯列傳候選）"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji101-029",
+      "person_id": "w2n_7g1_30z",
+      "surfaces": [
+        "棓生"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-101-yuanchao"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-101-yuanchao:p015",
+          "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生所問占。還，梁刺客後曹輩果遮刺殺盎安陵郭門外。"
+        }
+      ],
+      "rationale": "按本傳明示姓名、字及敘事承接；皇帝上字逐處依文景敘事核定，建元上另留未名。兄噲不合樊噲，兄子種不補具名父親。身份及官稱回指為代理首輪判讀，非人工覆核。 指定古注固定修訂已核讀，與正文分層，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "references": [
+        {
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷101&oldid=2514771",
+          "revision_id": 2514771,
+          "revision_timestamp": "2025-01-06T08:31:19Z",
+          "response_sha256": "cf92eb44d816d41d69d847483ebf6120d660b015b116ae244d5e9e8dd6ce2fe0",
+          "image_verified": false,
+          "verification_scope": "specified_digital_commentary_passages_only",
+          "title": "《史記三家註·袁盎鼂錯列傳》徐廣",
+          "commentator": "徐廣",
+          "quote": "棓，一作『服』。",
+          "scope": "received_commentary_reading",
+          "note": "所報異文，未採入本傳正文，不建立全域服生別名。"
+        },
+        {
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷101&oldid=2514771",
+          "revision_id": 2514771,
+          "revision_timestamp": "2025-01-06T08:31:19Z",
+          "response_sha256": "cf92eb44d816d41d69d847483ebf6120d660b015b116ae244d5e9e8dd6ce2fe0",
+          "image_verified": false,
+          "verification_scope": "specified_digital_commentary_passages_only",
+          "title": "《史記三家註·袁盎鼂錯列傳》韋昭（索隱引）",
+          "commentator": "韋昭（索隱引）",
+          "quote": "棓，姓也。",
+          "scope": "received_commentary_reading",
+          "note": "棓為姓的古注判讀，名仍未明；注家語與正文原稱分存。"
+        }
+      ]
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "w2n_7g1_30z"
@@ -60,5 +110,25 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "work": "史記集解",
+      "commentator": "徐廣",
+      "source_term": "棓生",
+      "quote": "棓，一作『服』。",
+      "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷101&oldid=2514771",
+      "revision_id": 2514771,
+      "image_verified": false,
+      "person_ids": [
+        "w2n_7g1_30z"
+      ],
+      "paragraph_id": "c-shiji-101-yuanchao:p015",
+      "status": "reported_not_collated",
+      "received_reading": "棓",
+      "reported_reading": "服",
+      "adopted": false,
+      "note": "注家所報異文，未核其所據底本；不改本傳棓字，不建立全域服生別名。"
+    }
+  ]
 }

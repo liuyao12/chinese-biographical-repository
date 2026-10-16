@@ -726,7 +726,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 薄氏父 | [《史記・外戚世家》][32] | [JSON](9zj_vf7_86a.json) |
-| `A` | 薄太后 | [《史記・外戚世家》][32] | [JSON](9zj_vf7_86a_A.json) |
+| `A` | 薄太后（孝文帝母） | [《史記・外戚世家》][32] | [JSON](9zj_vf7_86a_A.json) |
 
 </details>
 
@@ -1359,7 +1359,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 竇后父 | [《史記・外戚世家》][32] | [JSON](ixk_6fg_v6f.json) |
-| `A` | 竇太后 | [《史記・外戚世家》][32] | [JSON](ixk_6fg_v6f_A.json) |
+| `A` | 竇太后（孝文帝皇后） | [《史記・梁孝王世家》][41] | [JSON](ixk_6fg_v6f_A.json) |
 
 </details>
 
@@ -2172,7 +2172,7 @@
 
 </details>
 
-<details><summary><code>t6q_oe6_hom</code> 伏生（儒林列傳候選）（2 名）</summary>
+<details><summary><code>t6q_oe6_hom</code> 伏生（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
