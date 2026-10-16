@@ -884,6 +884,13 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'succession' in qualifiers:
+                    try:
+                        from scripts.title_successions import succession_valid
+                    except ModuleNotFoundError:
+                        from title_successions import succession_valid
+                    check(succession_valid(a, title_records, paragraphs),
+                          '嗣位原詞須有父子、前任爵位及同段人物錨點，不得虛構爵名或起訖')
                 if a['predicate'] == 'maternal_uncle':
                     check(qualifiers.get('source_term') == '姊子'
                           and qualifiers.get('generation_difference') == -1

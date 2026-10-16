@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "7dv_lqp_y4z",
   "canonical_person_id": "7dv_lqp_y4z",
-  "label": "靳歙（傅靳蒯成列傳候選）",
+  "label": "靳歙",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -10,9 +10,441 @@
     "靳歙",
     "歙",
     "騎都尉",
-    "車騎將軍"
+    "車騎將軍",
+    "中涓",
+    "臨平君",
+    "建武侯",
+    "肅侯"
   ],
   "titles": [
+    {
+      "id": "th-hanshu041-jin-001",
+      "person_id": "7dv_lqp_y4z",
+      "title": "中涓",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-001:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "start": 4,
+          "end": 6,
+          "surface": "中涓",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0004",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-002",
+      "person_id": "7dv_lqp_y4z",
+      "title": "臨平君",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-002:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "start": 52,
+          "end": 55,
+          "surface": "臨平君",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0052",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+              "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-003",
+      "person_id": "7dv_lqp_y4z",
+      "title": "建武侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-003:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "start": 100,
+          "end": 103,
+          "surface": "建武侯",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0100",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+              "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-004",
+      "person_id": "7dv_lqp_y4z",
+      "title": "騎都尉",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "quote": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0001"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-004:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "start": 105,
+          "end": 108,
+          "surface": "騎都尉",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0105",
+          "usage": "narrative"
+        },
+        {
+          "id": "th-hanshu041-jin-004:a002",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "start": 1,
+          "end": 4,
+          "surface": "騎都尉",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0001",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+              "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-007",
+      "person_id": "7dv_lqp_y4z",
+      "title": "信武侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+          "quote": "別之河內，擊趙賁軍朝歌，破之，所將卒得騎將二人，車馬二百五十匹。從攻安陽以東，至棘蒲，下十縣。別攻破趙軍，得其將司馬二人，候四人，降吏卒二千四百人。從降下邯鄲。別下平陽，身斬守相，所將卒斬兵守郡一人，降鄴。從攻朝歌、邯鄲，又別擊破趙郡，降邯鄲郡六縣。還軍敖倉，破項籍軍成皋南，擊絕楚饟道，起滎陽至襄邑。破項冠魯下。略地東至觞、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍軍陳下，破之。別定江陵，降柱國、大司馬以下八人，身得江陵王，致雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，為信武侯。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-003-0250"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-007:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+          "start": 250,
+          "end": 253,
+          "surface": "信武侯",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-003-0250",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+              "quote": "別之河內，擊趙賁軍朝歌，破之，所將卒得騎將二人，車馬二百五十匹。從攻安陽以東，至棘蒲，下十縣。別攻破趙軍，得其將司馬二人，候四人，降吏卒二千四百人。從降下邯鄲。別下平陽，身斬守相，所將卒斬兵守郡一人，降鄴。從攻朝歌、邯鄲，又別擊破趙郡，降邯鄲郡六縣。還軍敖倉，破項籍軍成皋南，擊絕楚饟道，起滎陽至襄邑。破項冠魯下。略地東至觞、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍軍陳下，破之。別定江陵，降柱國、大司馬以下八人，身得江陵王，致雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，為信武侯。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-003-0250"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-008",
+      "person_id": "7dv_lqp_y4z",
+      "title": "車騎將軍",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "quote": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0001"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-008:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+          "start": 24,
+          "end": 28,
+          "surface": "車騎將軍",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0024",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+              "quote": "以騎都尉擊代，攻韓信平城下，還軍東垣。有功，遷為車騎將軍，并將梁、趙、齊、燕、楚車騎，別擊陳豨丞相敞，破之，因降曲逆。從擊黥布有功，益封，定食邑五千三百戶。凡斬首九十級，虜百四十二人，別破軍十四，降城五十九，定郡、國各一，縣二十三，得王、柱國各一人，二千石以下至五石三十九人。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-004-0001"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hanshu041-jin-010",
+      "person_id": "7dv_lqp_y4z",
+      "title": "肅侯",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-010:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "start": 9,
+          "end": 11,
+          "surface": "肅侯",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-hanshu",
+              "book_id": "b-hanshu-041",
+              "chapter_id": "c-hanshu-041-fanli",
+              "source_id": "s-hanshu-041-fanli",
+              "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+              "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+              "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "薨後明言諡名，命名時日未明；死亡紀年不自動當成諡名授予年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "naming_basis": {
+        "source_term": "薨，諡曰肅侯",
+        "death_term": "薨",
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-041",
+            "chapter_id": "c-hanshu-041-fanli",
+            "source_id": "s-hanshu-041-fanli",
+            "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+            "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+            "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji098-024",
       "person_id": "7dv_lqp_y4z",
@@ -393,8 +825,8 @@
       "id": "th-shiji098-034",
       "person_id": "7dv_lqp_y4z",
       "title": "肅侯",
-      "kind": "unclassified",
-      "mode": "attestation",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -417,9 +849,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-098-fujin",
+              "source_id": "s-shiji-098-fujin",
+              "paragraph_id": "c-shiji-098-fujin:p009",
+              "quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -427,13 +867,77 @@
           "evidence": []
         }
       },
-      "interpretation_note": "逐傳區分持有人；用稱與授予分存。五歲、一月、二歲等紀年保持原語待換算，死亡不自動作任期終點，字母不作長幼排行。",
+      "interpretation_note": "原文卒後明記諡名，與生前陽陵侯或信武侯本爵分開；命名時日未明，不由卒年填授諡年，也不讓子嗣繼承父親諡號。",
       "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "歙卒，謚為肅侯",
+        "death_term": "歙卒",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-098-fujin",
+            "source_id": "s-shiji-098-fujin",
+            "paragraph_id": "c-shiji-098-fujin:p009",
+            "quote": "高后五年，歙卒，謚為肅侯。子亭代侯。二十一年，坐事國人過律，孝文後三年，奪侯，國除。"
+          }
+        ]
+      },
       "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-hanshu041-jin-001",
+      "person_id": "7dv_lqp_y4z",
+      "relation": "service_location",
+      "place": {
+        "source_name": "宛朐",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "以中涓從，起宛朐",
+      "qualifiers": {
+        "source_position": "中涓"
+      },
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+          "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-001-0000"
+        }
+      ],
+      "interpretation_note": "從起的任事起點，不等於某地人也，不作出生、居所或籍貫，不換成現代行政區。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "term": "以中涓從，起宛朐",
+      "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武侯，遷騎都尉。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-jin-001",
+      "count": 10,
+      "quote": "靳歙，以中涓從，起宛朐。攻濟陽。破李由軍。擊秦軍開封東，斬騎千人將一人，首五十七級，捕虜七十三人，賜爵封臨平君。又戰藍田北，斬車司馬二人，騎長一人，首二十八級，捕虜五十七人。至霸上。沛公為漢王，賜歙爵建武",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-jin-001",
+        "c-hanshu-041-fanli:p-jin-003",
+        "c-hanshu-041-fanli:p-jin-004",
+        "c-hanshu-041-fanli:p-jin-005"
+      ]
+    },
     {
       "number": 98,
       "category": "liezhuan",
@@ -474,6 +978,39 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "傅寬傳文",
+          "靳歙傳文",
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-098-fujin",
       "work_id": "w-shiji",
@@ -531,6 +1068,39 @@
   ],
   "relations": [
     {
+      "id": "a-hanshu041-jin-001",
+      "subject_person_id": "7dv_lqp_y4z_A",
+      "predicate": "father",
+      "object_person_id": "7dv_lqp_y4z",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0013"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子亭嗣",
+        "succession": {
+          "source_term": "子亭嗣",
+          "predecessor_person_id": "7dv_lqp_y4z",
+          "predecessor_holding_id": "th-hanshu041-jin-007",
+          "status": "contextual_provisional",
+          "rationale": "明示子與嗣，依前文父親最後明記的本爵接承襲用語；只存前任連結，爵名由使用端讀取，嗣字不假造為本人爵名用稱，不推起訖。",
+          "human_reviewed": false
+        }
+      },
+      "interpretation_note": "以子亭明父子，嗣是繼承用語；爵名連前任記錄，不假造此句寫出信武侯。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-shiji098-004",
       "subject_person_id": "7dv_lqp_y4z_A",
       "predicate": "father",
@@ -553,8 +1123,8 @@
     }
   ],
   "related_people": {
-    "7dv_lqp_y4z": "靳歙（傅靳蒯成列傳候選）",
-    "7dv_lqp_y4z_A": "靳亭（傅靳蒯成列傳候選）"
+    "7dv_lqp_y4z": "靳歙",
+    "7dv_lqp_y4z_A": "靳亭"
   },
   "dates": [],
   "name_components": [
@@ -578,6 +1148,39 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-hanshu041-jin-001",
+      "subject_person_id": "7dv_lqp_y4z_A",
+      "predicate": "father",
+      "object_person_id": "7dv_lqp_y4z",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0013"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子亭嗣",
+        "succession": {
+          "source_term": "子亭嗣",
+          "predecessor_person_id": "7dv_lqp_y4z",
+          "predecessor_holding_id": "th-hanshu041-jin-007",
+          "status": "contextual_provisional",
+          "rationale": "明示子與嗣，依前文父親最後明記的本爵接承襲用語；只存前任連結，爵名由使用端讀取，嗣字不假造為本人爵名用稱，不推起訖。",
+          "human_reviewed": false
+        }
+      },
+      "interpretation_note": "以子亭明父子，嗣是繼承用語；爵名連前任記錄，不假造此句寫出信武侯。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-shiji098-004",
       "subject_person_id": "7dv_lqp_y4z_A",
       "predicate": "father",
@@ -600,6 +1203,77 @@
     }
   ],
   "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 184,
+        "year": -183
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 183,
+        "year": -182
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高后元年",
+          "table_cell_id": "shiji-022-t1-r020-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_cell_id": "shiji-022-t1-r024-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "183",
+          "table_cell_id": "shiji-022-t1-r024-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "漢書此處明記高后五年薨，按已核將相表原紀年、數位西元對照與太初前建亥歲首保留跨年範圍，未知月不作單一公元年，死亡不當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-hanshu041-jin-001",
+      "person_id": "7dv_lqp_y4z",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
     {
       "earliest": {
         "era": "BCE",
@@ -674,6 +1348,96 @@
   ],
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-hanshu041-jin-001",
+      "person_id": "7dv_lqp_y4z",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "高后五年",
+      "source_term": "薨",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+        }
+      ],
+      "interpretation_note": "只繫本句所述人物；傅偃屬傳至曾孫的後段，不套段首傅寬孝惠五年，不以國除或父卒年當其卒年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 184,
+          "year": -183
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 183,
+          "year": -182
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-041",
+            "chapter_id": "c-hanshu-041-fanli",
+            "source_id": "s-hanshu-041-fanli",
+            "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+            "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+            "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0009"
+          }
+        ],
+        "references": [
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "高后元年",
+            "table_cell_id": "shiji-022-t1-r020-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "五",
+            "table_cell_id": "shiji-022-t1-r024-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "將相表紀年對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "183",
+            "table_cell_id": "shiji-022-t1-r024-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          }
+        ],
+        "rationale": "漢書此處明記高后五年薨，按已核將相表原紀年、數位西元對照與太初前建亥歲首保留跨年範圍，未知月不作單一公元年，死亡不當全部官爵終點。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    },
     {
       "id": "le-shiji098-005",
       "person_id": "7dv_lqp_y4z",
@@ -766,5 +1530,43 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-hanshu041-jin-003-place",
+      "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+      "person_ids": [
+        "7dv_lqp_y4z"
+      ],
+      "source_term": "東至觞、郯",
+      "received_reading": "觞",
+      "reported_reading": "鄫",
+      "commentator": "Kanripo《前漢書》文淵閣四庫本數位轉錄",
+      "quote": "地東至鄫郯下邳",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+      "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+      "source_position": "041-19a",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false
+    },
+    {
+      "id": "rv-hanshu041-jin-004-salary",
+      "paragraph_id": "c-hanshu-041-fanli:p-jin-004",
+      "person_ids": [
+        "7dv_lqp_y4z"
+      ],
+      "source_term": "二千石以下至五石三十九人",
+      "received_reading": "五石",
+      "reported_reading": "五百石",
+      "commentator": "Kanripo《前漢書》文淵閣四庫本數位轉錄",
+      "quote": "二千石以下至五百石三十九人",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_041.txt",
+      "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+      "source_position": "041-19b",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false
+    }
+  ]
 }

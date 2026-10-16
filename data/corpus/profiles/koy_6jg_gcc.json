@@ -19,6 +19,53 @@
   ],
   "titles": [
     {
+      "id": "th-hanshu041-fu-012",
+      "person_id": "koy_6jg_gcc",
+      "title": "太尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-fu-003",
+          "quote": "四月，擊陳豨，屬太尉勃，以相國代丞相噲擊豨。一月，徙為代相國，將屯。二歲，為丞相，將屯。孝惠五年薨，諡曰景侯。傳至曾孫偃，謀反，誅，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-fu-003-0008"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-fu-012:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-fu-003",
+          "start": 8,
+          "end": 10,
+          "surface": "太尉",
+          "person_mention_id": "c-hanshu-041-fanli:m-fu-003-0008",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji008-104",
       "person_id": "koy_6jg_gcc",
       "title": "絳侯",
@@ -3751,6 +3798,21 @@
       "quote": "丞相陳平、太尉周勃等使人迎代王。代王問左右郎中令張武等。張武等議曰：「漢大臣皆故高帝時大將，習兵，多謀詐，此其屬意非止此也，特畏高帝、呂太后威耳。今已誅諸呂，新啑血京師，此以迎大王為名，實不可信。願大王稱疾毋往，以"
     },
     {
+      "number": 41,
+      "category": "",
+      "title": "樊酈滕灌傅靳周傳第十一",
+      "paragraph_id": "c-hanshu-041-fanli:p-fu-003",
+      "count": 2,
+      "quote": "四月，擊陳豨，屬太尉勃，以相國代丞相噲擊豨。一月，徙為代相國，將屯。二歲，為丞相，將屯。孝惠五年薨，諡曰景侯。傳至曾孫偃，謀反，誅，國除。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-041",
+      "chapter_id": "c-hanshu-041-fanli",
+      "paragraph_ids": [
+        "c-hanshu-041-fanli:p-fu-003"
+      ]
+    },
+    {
       "number": 56,
       "category": "shijia",
       "title": "陳丞相世家第二十六",
@@ -3906,6 +3968,39 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-041-fanli",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-041",
+      "source_id": "s-hanshu-041-fanli",
+      "source": {
+        "title": "漢書／卷041",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷041",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
+        "revision_id": 2342290,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
+        "included_sections": [
+          "傅寬傳文",
+          "靳歙傳文",
+          "周惞傳文"
+        ],
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
+          "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
+        },
+        "review_status": "text_checked",
+        "edition": null,
+        "revision_timestamp": "2023-12-14T05:51:09Z"
+      }
+    },
     {
       "chapter_id": "c-shiji-008-gaozu",
       "work_id": "w-shiji",

@@ -7,7 +7,8 @@ from scripts.historical_tables import validate_identity_evidence
 ROOT=Path(__file__).resolve().parents[1]
 def read(path):return json.loads((ROOT/path).read_text())
 def han():return read('corpus/hanshu/041.json')
-def ids(n,term):return {m['person_id'] for m in han()['paragraphs'][n-1]['mentions'] if m['surface']==term}
+def zhou(n):return next(p for p in han()['paragraphs'] if p['id'].endswith(f':p-zhou-{n:03}'))
+def ids(n,term):return {m['person_id'] for m in zhou(n)['mentions'] if m['surface']==term}
 def bundle(pid):return read('exports/persons/'+pid+'.json')
 ROOT_ID='fvm_66f_0k3'
 YING=ROOT_ID+'_C'
@@ -16,15 +17,15 @@ JU=ROOT_ID+'_CA'
 class HanshuZhouCrossReadingTests(unittest.TestCase):
     def test_partial_received_text_keeps_actual_digital_characters(self):
         c=han()
-        self.assertEqual(len(c['paragraphs']),3)
-        self.assertTrue(c['paragraphs'][0]['text'].startswith('周惞，沛人也。'))
-        self.assertIn('更封惞為糨城侯',c['paragraphs'][2]['text'])
-        self.assertNotIn('䣙城侯',c['paragraphs'][2]['text'])
+        self.assertEqual(len(c['paragraphs']),11)
+        self.assertTrue(zhou(1)['text'].startswith('周惞，沛人也。'))
+        self.assertIn('更封惞為糨城侯',zhou(3)['text'])
+        self.assertNotIn('䣙城侯',zhou(3)['text'])
         self.assertEqual(c['source']['revision_id'],2342290)
         self.assertEqual(c['source']['text_scope'],'partial_chapter')
         self.assertEqual(c['source']['review_status'],'text_checked')
         self.assertFalse(c['source']['image_verified'])
-        self.assertTrue(all(':p-zhou-' in p['id'] for p in c['paragraphs']))
+        self.assertTrue(len([p for p in c['paragraphs'] if ':p-zhou-' in p['id']])==3)
         progress=next(b for b in read('corpus/progress.json')['books'] if b['book_id']=='b-hanshu-041')
         self.assertFalse(progress['complete'])
         self.assertEqual(progress['person_status'],'in_progress')
@@ -32,9 +33,9 @@ class HanshuZhouCrossReadingTests(unittest.TestCase):
     def test_emperor_references_exclude_bashang_place_and_collective_qin(self):
         self.assertEqual(ids(1,'上'),{'yqp_nlb_p1p_A'})
         self.assertEqual(ids(2,'上'),{'yqp_nlb_p1p_A'})
-        p=han()['paragraphs'][0];at=p['text'].index('霸上')+1
+        p=zhou(1);at=p['text'].index('霸上')+1
         self.assertFalse(any(m['start']<=at<m['end'] for m in p['mentions']))
-        p=han()['paragraphs'][1];at=p['text'].index('秦攻破天下')
+        p=zhou(2);at=p['text'].index('秦攻破天下')
         self.assertFalse(any(m['start']<=at<m['end'] for m in p['mentions']))
         self.assertEqual(ids(1,'韓信'),{'ofc_8ei_jb7'})
 

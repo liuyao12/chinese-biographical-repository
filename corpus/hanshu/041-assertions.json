@@ -21,7 +21,15 @@
       ],
       "qualifiers": {
         "source_term": "子昌嗣",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "succession": {
+          "source_term": "子昌嗣",
+          "predecessor_person_id": "fvm_66f_0k3",
+          "predecessor_holding_id": "th-hanshu041-zhou-004",
+          "status": "contextual_provisional",
+          "rationale": "明示子與嗣，依前文父親最後明記的本爵接承襲用語；只存前任連結，爵名由使用端讀取，嗣字不假造為本人爵名用稱，不推起訖。",
+          "human_reviewed": false
+        }
       },
       "interpretation_note": "依本段明示父子與前句主語承接，非由嗣位單獨推父子；史記緤子居另一主張仍保留，首選世次另列。",
       "reviewer": "Codex（AI 代理）",
@@ -71,9 +79,75 @@
       ],
       "qualifiers": {
         "source_term": "子仲居嗣",
-        "historicity": "historical_tradition"
+        "historicity": "historical_tradition",
+        "succession": {
+          "source_term": "子仲居嗣",
+          "predecessor_person_id": "fvm_66f_0k3_C",
+          "predecessor_holding_id": "th-hanshu041-zhou-006",
+          "status": "contextual_provisional",
+          "rationale": "明示子與嗣，依前文父親最後明記的本爵接承襲用語；只存前任連結，爵名由使用端讀取，嗣字不假造為本人爵名用稱，不推起訖。",
+          "human_reviewed": false
+        }
       },
       "interpretation_note": "依本段明示父子與前句主語承接，非由嗣位單獨推父子；史記緤子居另一主張仍保留，首選世次另列。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-hanshu041-fu-001",
+      "subject_person_id": "w8j_vnd_rs4_AAA",
+      "predicate": "great_grandfather",
+      "object_person_id": "w8j_vnd_rs4",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-fu-003",
+          "quote": "四月，擊陳豨，屬太尉勃，以相國代丞相噲擊豨。一月，徙為代相國，將屯。二歲，為丞相，將屯。孝惠五年薨，諡曰景侯。傳至曾孫偃，謀反，誅，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-fu-003-0059"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "傳至曾孫偃"
+      },
+      "interpretation_note": "漢書明曾孫，只記三代祖孫關係，不把史記的精、則父子鏈抄成漢書明文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-hanshu041-jin-001",
+      "subject_person_id": "7dv_lqp_y4z_A",
+      "predicate": "father",
+      "object_person_id": "7dv_lqp_y4z",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-005",
+          "quote": "高后五年，薨，諡曰肅侯。子亭嗣，有罪，國除。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-005-0013"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子亭嗣",
+        "succession": {
+          "source_term": "子亭嗣",
+          "predecessor_person_id": "7dv_lqp_y4z",
+          "predecessor_holding_id": "th-hanshu041-jin-007",
+          "status": "contextual_provisional",
+          "rationale": "明示子與嗣，依前文父親最後明記的本爵接承襲用語；只存前任連結，爵名由使用端讀取，嗣字不假造為本人爵名用稱，不推起訖。",
+          "human_reviewed": false
+        }
+      },
+      "interpretation_note": "以子亭明父子，嗣是繼承用語；爵名連前任記錄，不假造此句寫出信武侯。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

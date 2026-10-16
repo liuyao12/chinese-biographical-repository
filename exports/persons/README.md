@@ -577,12 +577,12 @@
 
 </details>
 
-<details><summary><code>7dv_lqp_y4z</code> 靳歙（傅靳蒯成列傳候選）（2 名）</summary>
+<details><summary><code>7dv_lqp_y4z</code> 靳歙（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 靳歙 | [《史記・傅靳蒯成列傳》][81] | [JSON](7dv_lqp_y4z.json) |
-| `A` | 靳亭 | [《史記・傅靳蒯成列傳》][81] | [JSON](7dv_lqp_y4z_A.json) |
+| `根` | 靳歙 | [《漢書・樊酈滕灌傅靳周傳》][1] | [JSON](7dv_lqp_y4z.json) |
+| `A` | 靳亭 | [《漢書・樊酈滕灌傅靳周傳》][1]、[《史記・傅靳蒯成列傳》][81] | [JSON](7dv_lqp_y4z_A.json) |
 
 </details>
 
@@ -2387,14 +2387,14 @@
 
 </details>
 
-<details><summary><code>w8j_vnd_rs4</code> 傅寬（傅靳蒯成列傳候選）（4 名）</summary>
+<details><summary><code>w8j_vnd_rs4</code> 傅寬（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 傅寬 | [《史記・傅靳蒯成列傳》][81] | [JSON](w8j_vnd_rs4.json) |
+| `根` | 傅寬 | [《漢書・樊酈滕灌傅靳周傳》][1] | [JSON](w8j_vnd_rs4.json) |
 | `A` | 傅精 | [《史記・傅靳蒯成列傳》][81] | [JSON](w8j_vnd_rs4_A.json) |
 | `AA` | 傅則 | [《史記・傅靳蒯成列傳》][81] | [JSON](w8j_vnd_rs4_AA.json) |
-| `AAA` | 傅偃 | [《史記・傅靳蒯成列傳》][81] | [JSON](w8j_vnd_rs4_AAA.json) |
+| `AAA` | 傅偃 | [《漢書・樊酈滕灌傅靳周傳》][1]、[《史記・傅靳蒯成列傳》][81] | [JSON](w8j_vnd_rs4_AAA.json) |
 
 </details>
 

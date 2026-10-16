@@ -1051,6 +1051,14 @@ class CorpusTests(unittest.TestCase):
         self.change('registry/works.json',change)
         self.assertIn('表格證據著作卷篇未登記或歸屬不符',v.validate(self.root))
 
+    def test_succession_rejects_an_office_as_inherited_noble_title(self):
+        path = self.root / 'corpus/hanshu/041-assertions.json'
+        data = json.loads(path.read_text())
+        claim = next(a for a in data['assertions'] if a['id'] == 'a-hanshu041-jin-001')
+        claim['qualifiers']['succession']['predecessor_holding_id'] = 'th-hanshu041-jin-004'
+        path.write_text(json.dumps(data, ensure_ascii=False))
+        self.assertIn('嗣位原詞須有父子、前任爵位及同段人物錨點，不得虛構爵名或起訖', v.validate(self.root))
+
     def test_cross_work_evidence_cannot_relabel_hanshu_as_shiji(self):
         self.change('corpus/hanshu/041-assertions.json',lambda d:d['assertions'][0]['evidence'][0].update(work_id='w-shiji'))
         self.assertIn('引文著作卷ID與實際來源不符',v.validate(self.root))

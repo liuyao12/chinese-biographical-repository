@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][22] | [JSON](vv9_ss8_28z.json) |
 | `vvf_lzn_pw4` | 東郭先生 | [《史記・滑稽列傳》][109] | [JSON](vvf_lzn_pw4.json) |
 | `vvg_bgl_w1b` | 伯虔 | [《史記・仲尼弟子列傳》][50] | [JSON](vvg_bgl_w1b.json) |
 | `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][31] | [JSON](vvg_rba_nwr.json) |
@@ -277,7 +278,7 @@
 | `xt3_8e7_hvi` | 說秦昭王者未名 | [《史記・孟嘗君列傳》][58] | [JSON](xt3_8e7_hvi.json) |
 | `xt7_zq6_tu6` | 中丁 | [《史記・殷本紀》][4] | [JSON](xt7_zq6_tu6.json) |
 | `xti_6br_ogl` | 契 | [《史記・太史公自序》][113] | [JSON](xti_6br_ogl.json) |
-| `xtl_sr1_di0` | 項悍 | [《史記・陳丞相世家》][39]、[《史記・傅靳蒯成列傳》][81] | [JSON](xtl_sr1_di0.json) |
+| `xtl_sr1_di0` | 項悍 | [《漢書・樊酈滕灌傅靳周傳》][1]、[《史記・陳丞相世家》][39]、[《史記・傅靳蒯成列傳》][81] | [JSON](xtl_sr1_di0.json) |
 | `xtq_oi8_w82` | 比干 | [《史記・殷本紀》][4] | [JSON](xtq_oi8_w82.json) |
 | `xu3_wem_5h3` | 紂 | [《史記・劉敬叔孫通列傳》][82] | [JSON](xu3_wem_5h3.json) |
 | `xu5_0nl_f5z` | 盜跖引古 | [《史記・屈原賈生列傳》][67] | [JSON](xu5_0nl_f5z.json) |
@@ -573,6 +574,7 @@
 | `zy0_phw_hl6` | 門下前對者未名 | [《史記・平原君虞卿列傳》][59] | [JSON](zy0_phw_hl6.json) |
 | `zy7_ewt_vzi` | 韓哀侯 | [《史記・刺客列傳》][69] | [JSON](zy7_ewt_vzi.json) |
 
+[1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145

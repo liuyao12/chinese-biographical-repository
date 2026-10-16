@@ -18,6 +18,53 @@
   ],
   "titles": [
     {
+      "id": "th-hanshu041-jin-006",
+      "person_id": "ofc_8ei_jb7",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-041",
+          "chapter_id": "c-hanshu-041-fanli",
+          "source_id": "s-hanshu-041-fanli",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+          "quote": "別之河內，擊趙賁軍朝歌，破之，所將卒得騎將二人，車馬二百五十匹。從攻安陽以東，至棘蒲，下十縣。別攻破趙軍，得其將司馬二人，候四人，降吏卒二千四百人。從降下邯鄲。別下平陽，身斬守相，所將卒斬兵守郡一人，降鄴。從攻朝歌、邯鄲，又別擊破趙郡，降邯鄲郡六縣。還軍敖倉，破項籍軍成皋南，擊絕楚饟道，起滎陽至襄邑。破項冠魯下。略地東至觞、郯、下邳，南至蘄、竹邑。擊項悍濟陽下。還擊項籍軍陳下，破之。別定江陵，降柱國、大司馬以下八人，身得江陵王，致雒陽，因定南郡。從至陳，取楚王信，剖符世世勿絕，定食四千六百戶，為信武侯。",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-003-0230"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu041-jin-006:a001",
+          "paragraph_id": "c-hanshu-041-fanli:p-jin-003",
+          "start": 230,
+          "end": 232,
+          "surface": "楚王",
+          "person_mention_id": "c-hanshu-041-fanli:m-jin-003-0230",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "僅依本傳用稱或明示授任；未知起訖不補日，不以卒日結束全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji007-041",
       "person_id": "ofc_8ei_jb7",
       "title": "齊王",
@@ -2353,14 +2400,16 @@
       "number": 41,
       "category": "",
       "title": "樊酈滕灌傅靳周傳第十一",
-      "paragraph_id": "c-hanshu-041-fanli:p-zhou-001",
-      "count": 1,
-      "quote": "還定三秦，常為參乘，賜食邑池陽。從東擊項羽滎陽，絕甬道，從出度平陰，遇韓信軍襄國，戰有利不利，終亡離上心。上以惞為信武侯，食邑三千三百戶。",
+      "paragraph_id": "c-hanshu-041-fanli:p-fu-002",
+      "count": 3,
+      "quote": "屬淮陰，擊破齊歷下軍，擊田解。屬相國參，殘博，益食邑。因定齊地，剖符世世勿絕，封陽陵侯，二千六百戶，除前所食。為齊右丞相，備齊。五歲為齊相國。",
       "work_id": "w-hanshu",
       "work_title": "漢書",
       "book_id": "b-hanshu-041",
       "chapter_id": "c-hanshu-041-fanli",
       "paragraph_ids": [
+        "c-hanshu-041-fanli:p-fu-002",
+        "c-hanshu-041-fanli:p-jin-003",
         "c-hanshu-041-fanli:p-zhou-001"
       ]
     },
@@ -2696,8 +2745,10 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290",
         "revision_id": 2342290,
         "accessed_on": "2026-10-15",
-        "extent": "目前僅錄周惞傳文三段；卷內樊、酈、滕、灌、傅、靳傳及贊未匯入，不代表全卷完成。",
+        "extent": "目前錄傅寬三段、靳歙五段、周惞三段，共十一段；卷內樊、酈、滕、灌傳及贊未匯入，不代表全卷完成。",
         "included_sections": [
+          "傅寬傳文",
+          "靳歙傳文",
           "周惞傳文"
         ],
         "text_scope": "partial_chapter",
@@ -2707,7 +2758,7 @@
         "normalization": {
           "character_conversion": {},
           "editorial_readings": [],
-          "extraction_note": "去除現代網頁周惞小標與Wikipedia模板；三段原字、標點保留。周惞及糨城侯不直接改作其他見證讀法。",
+          "extraction_note": "去除現代網頁小標與Wikipedia模板，保留三節十一段原字、標點與數位異文；新補觞、五石等原字不默改，異讀另記。",
           "note": "古代篇名仍為樊酈滕灌傅靳周傳；採節內穩定段ID，日後補前文不重編既有錨點。未核書影。"
         },
         "review_status": "text_checked",
