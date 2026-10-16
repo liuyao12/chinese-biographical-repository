@@ -484,6 +484,14 @@
       "quote": "以為郎，將軍取舍人中富給者，令具鞌馬絳衣玉具劍，欲入奏之。會賢大夫少府趙禹來過衛將軍，將軍呼所舉舍人以示趙禹。趙禹以次問之，十餘人無一人習事有智略者。趙禹曰：「吾聞之，將門之下必有將類。傳曰『不知其君視其所使，不知其子視其所友』。今有詔舉將軍舍人者，欲以觀將軍而能得賢者文武"
     },
     {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p030",
+      "count": 1,
+      "quote": "兒寬，篤行則石建、石慶，質直則汲黯、卜式，推賢則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業"
+    },
+    {
       "number": 122,
       "category": "liezhuan",
       "title": "酷吏列傳第六十二",
@@ -494,6 +502,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-104-tianshu",
       "work_id": "w-shiji",
@@ -515,6 +547,30 @@
           "editorial_readings": [],
           "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
     },
@@ -545,9 +601,42 @@
   ],
   "relations": [],
   "related_people": {
+    "m12_4ic_ro1": "趙禹（趙世家候選）",
     "vkr_lkp_dme": "趙禹（酷吏列傳候選）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "distinct-shiji112-zhaoyu-not-zhao",
+      "person_ids": [
+        "vkr_lkp_dme",
+        "m12_4ic_ro1"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-112-pingjin:p030",
+          "quote": "定令則趙禹、張湯",
+          "chapter_id": "c-shiji-112-pingjin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "source_id": "s-shiji112-pingjin"
+        },
+        {
+          "paragraph_id": "c-shiji-043-zhao:p103",
+          "quote": "趙豹出，王召平原君與趙禹而告之。",
+          "chapter_id": "c-shiji-043-zhao",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-043",
+          "source_id": "s-shiji-043-zhao"
+        }
+      ],
+      "rationale": "112武帝朝定令者趙禹，043在趙孝成王收上黨、廉頗軍長平的戰國事件，時代不同。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "vkr_lkp_dme"
