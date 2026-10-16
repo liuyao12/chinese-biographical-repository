@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全15段轉錄及明示人物首輪；37名來源候選、239處人物及未定錨點、4筆親屬、7筆地址、47筆官爵及秩稱。指代、跨篇同指、完整官爵時段、其他日期及影像覆核未完成。 16項暫定跨篇同指及漢劉、王、田父系接合已建立。 8筆死亡事件已獨立保存，韓安國元朔二年中卒暫換前127年。 四組跨篇身份依事件、官稱及皇室世代覆核；六個重複ID於更新全部引用後撤除，原錨點與四組判讀證據保留。",
+    "coverage": "全15段轉錄及明示人物首輪；37名來源候選、239處人物及未定錨點、4筆親屬、7筆地址、47筆官爵及秩稱。指代、跨篇同指、完整官爵時段、其他日期及影像覆核未完成。 16項暫定跨篇同指及漢劉、王、田父系接合已建立。 8筆死亡事件已獨立保存，韓安國元朔二年中卒暫換前127年。 四組跨篇身份依事件、官稱及皇室世代覆核；六個重複ID於更新全部引用後撤除，原錨點與四組判讀證據保留。 壺遂及本篇改曆自述者依漢書固定正文參考接合，兩處班固附文司馬遷同指分層保存；新增三處臣自稱及天王受號標記。",
     "limitations": [
       "未核底本影像。",
       "田生不因師授韓子而改名韓非；韓子、雜家此處為所受學說，非確定人物提及。",
@@ -49,14 +49,14 @@
       "壺遂欲用漢相為意向，未記成已任官。",
       "行丞相事保留代理性質，病免所終止職務仍待辨。",
       "元朔二年中卒保留原句，已獨立記年尺度數值與參考，不補月日。",
-      "遼西太守未補外部姓名，太史公署稱不自動作具名作者同指。",
+      "遼西太守未補外部姓名；僅本篇余與壺遂定律曆之太史公署稱依同役參考辨作司馬遷，其他未核署稱不全域換人。",
       "皇室同指採跨篇原文及既有身份鏈暫定接合；確認同人的舊ID在全庫引用更新後撤除，原文、錨點及可回查的暫定判讀保留。",
       "元光太后同指王氏不回填建元中未決太后；候選證據與決定適用範圍分開。",
       "公孫詭、羊勝及袁盎按具體事件與既有身份鏈暫定同指，原文單字詭勝盎仍保留原錨點。",
       "衞青與外戚世家衛青暫定同指，原字形與官號保留，不將車騎將軍及大將軍時段混同。",
       "本篇未名越王依同將、殺王與罷兵事件接於郢，東越／南越原詞差異未改寫。",
       "大行王恢與太初元年的浩侯王恢分開；公孫敖身份接合不裁定中將軍／校尉的平行官稱分歧。",
-      "壺遂與太史公自序同名者仍待更直接來源互證，未只憑同名合併。"
+      "壺遂與太史公自序同名者已參考漢書律曆志改曆同役接合；其官爵次序、對話日期未補造。"
     ],
     "unresolved_identity_cases": [
       {
@@ -1670,6 +1670,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-108-han:m009-0230",
+          "start": 230,
+          "end": 232,
+          "surface": "天王",
+          "person_id": "2a2_j2z_xyc",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-108-han:m009-0238",
           "start": 238,
           "end": 240,
@@ -1759,12 +1768,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-108-han:m010-0038",
+          "start": 38,
+          "end": 39,
+          "surface": "臣",
+          "person_id": "z2v_oh4_mhm",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-108-han:m010-0049",
           "start": 49,
           "end": 51,
           "surface": "單于",
           "kind": "person",
           "person_id": "wjt_htu_081_AAA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0058",
+          "start": 58,
+          "end": 59,
+          "surface": "臣",
+          "person_id": "z2v_oh4_mhm",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-108-han:m010-0072",
+          "start": 72,
+          "end": 73,
+          "surface": "臣",
+          "person_id": "z2v_oh4_mhm",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -2257,7 +2293,7 @@
           "end": 3,
           "surface": "太史公",
           "kind": "person",
-          "person_id": "51v_myd_2cd",
+          "person_id": "pme_eis_xqi_*A*AAAAA",
           "status": "contextual_provisional"
         },
         {
@@ -2266,7 +2302,7 @@
           "end": 6,
           "surface": "余",
           "kind": "person",
-          "person_id": "51v_myd_2cd",
+          "person_id": "pme_eis_xqi_*A*AAAAA",
           "status": "contextual_provisional"
         },
         {

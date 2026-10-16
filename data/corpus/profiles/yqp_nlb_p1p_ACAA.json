@@ -2721,6 +2721,64 @@
           "image_verified": false
         }
       ]
+    },
+    {
+      "id": "eq-shiji101-core-014",
+      "person_ids": [
+        "yqp_nlb_p1p_ACAA"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ACAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-101-yuanchao",
+        "c-shiji-012-wudi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-101",
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p021",
+          "quote": "鄧公，成固人也，多奇計。建元中，上招賢良，公卿言鄧公，時鄧公免，起家為九卿。一年，復謝病免歸。其子章以修黃老言顯於諸公閒。",
+          "mention_ids": [
+            "c-shiji-101-yuanchao:m021-0016"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-012",
+          "chapter_id": "c-shiji-012-wudi",
+          "source_id": "s-shiji-012-wudi",
+          "paragraph_id": "c-shiji-012-wudi:p001",
+          "quote": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。",
+          "mention_ids": [
+            "c-shiji-012-wudi:m001-0000",
+            "c-shiji-012-wudi:m001-0024",
+            "c-shiji-012-wudi:m001-0027",
+            "c-shiji-012-wudi:m001-0046",
+            "c-shiji-012-wudi:m001-0050",
+            "c-shiji-012-wudi:m001-0060",
+            "c-shiji-012-wudi:m001-0066",
+            "c-shiji-012-wudi:m001-0071"
+          ]
+        }
+      ],
+      "rationale": "本篇前段景帝與後段建元中分時，孝武本紀p001明即位、p015明一元曰建元，據此識別後段上為武帝，不沿用前景帝。 限所列事件、親屬或稱謂語境；原文異字與各來源引句保留，同書互見不當獨立證據票數，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《史記·孝武本紀第十二》敘事時點參考",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+          "quote": "其後三年，有司言元宜以天瑞命，不宜以一二數。一元曰建元，二元以長星曰元光，三元以郊得一角獸曰元狩云。",
+          "scope": "narrative_context_not_a_person_occurrence",
+          "image_verified": false
+        }
+      ]
     }
   ],
   "name_components": [],

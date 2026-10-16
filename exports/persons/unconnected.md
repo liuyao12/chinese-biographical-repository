@@ -683,7 +683,6 @@
 | `51f_m7q_nuu` | 公儀休 | [《史記・循吏列傳》][104] | [JSON](51f_m7q_nuu.json) |
 | `51q_vfp_w6t` | 狄黑 | [《史記・仲尼弟子列傳》][52] | [JSON](51q_vfp_w6t.json) |
 | `51s_div_vuy` | 繆公 | [《史記・孟子荀卿列傳》][59] | [JSON](51s_div_vuy.json) |
-| `51v_myd_2cd` | 太史公署稱 | [《史記・韓長孺列傳》][93] | [JSON](51v_myd_2cd.json) |
 | `51x_iss_zj5` | 徐來 | [《史記・淮南衡山列傳》][103] | [JSON](51x_iss_zj5.json) |
 | `52f_fie_3vj` | 昆吾（陸終長子） | [《史記・楚世家》][25] | [JSON](52f_fie_3vj.json) |
 | `52g_aio_c8a` | 任公 | [《史記・貨殖列傳》][114] | [JSON](52g_aio_c8a.json) |
@@ -1793,7 +1792,6 @@
 | `dda_1pf_g3o` | 駱甲 | [《史記・樊酈滕灌列傳》][80] | [JSON](dda_1pf_g3o.json) |
 | `ddb_l4j_4j2` | 舜 | [《史記・五帝本紀》][4] | [JSON](ddb_l4j_4j2.json) |
 | `ddf_jql_z0y` | 宣太后 | [《史記・樗里子甘茂列傳》][56] | [JSON](ddf_jql_z0y.json) |
-| `ddp_ol8_1w5` | 司馬遷 | [《史記・秦始皇本紀》][9] | [JSON](ddp_ol8_1w5.json) |
 | `ddq_o5z_ic3` | 惠王（魏） | [《史記・太史公自序》][115] | [JSON](ddq_o5z_ic3.json) |
 | `de9_bqj_6wy` | 屠中少年未名 | [《史記・淮陰侯列傳》][77] | [JSON](de9_bqj_6wy.json) |
 | `dep_bjj_vwe` | 蟜（長公主子） | [《史記・孝景本紀》][14] | [JSON](dep_bjj_vwe.json) |
@@ -2208,6 +2206,8 @@
 | `g6l_rp7_156` | 桀 | [《史記・張丞相列傳》][81] | [JSON](g6l_rp7_156.json) |
 | `g6n_ybc_0r2` | 義伯 | [《史記・殷本紀》][6] | [JSON](g6n_ybc_0r2.json) |
 | `g78_bf1_b8v` | 髙后 | [《史記・酷吏列傳》][107] | [JSON](g78_bf1_b8v.json) |
+| `g7g_fpv_oq5` | 實遣家人子未名 | [《史記・劉敬叔孫通列傳》][84] | [JSON](g7g_fpv_oq5.json) |
+| `g8d_9kf_uqg` | 莊忌夫子 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](g8d_9kf_uqg.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
