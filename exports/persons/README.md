@@ -861,6 +861,15 @@
 
 </details>
 
+<details><summary><code>bvb_d1z_fd0</code> 尉佗（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 尉佗 | [《史記・南越列傳》][98] | [JSON](bvb_d1z_fd0.json) |
+| `*A` | 胡 | [《史記・南越列傳》][98] | [JSON](bvb_d1z_fd0_%2AA.json) |
+
+</details>
+
 <details><summary><code>bwv_ob8_6xi</code> 共敖（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1986,15 +1995,6 @@
 | `B` | 壽（衛宣公子） | [《史記・衛康叔世家》][22] | [JSON](qy1_adc_gam_B.json) |
 | `C` | 朔（衛惠公） | [《史記・衛康叔世家》][22] | [JSON](qy1_adc_gam_C.json) |
 | `CA` | 赤（衛懿公） | [《史記・衛康叔世家》][22] | [JSON](qy1_adc_gam_CA.json) |
-
-</details>
-
-<details><summary><code>r3c_eue_cqn</code> 尉他（酈生陸賈列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 尉他 | [《史記・南越列傳》][98] | [JSON](r3c_eue_cqn.json) |
-| `*A` | 胡 | [《史記・南越列傳》][98] | [JSON](r3c_eue_cqn_%2AA.json) |
 
 </details>
 
