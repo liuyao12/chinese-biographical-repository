@@ -2,15 +2,774 @@
   "schema_version": 1,
   "id": "vib_10x_51n",
   "canonical_person_id": "vib_10x_51n",
-  "label": "路博德（南越列傳候選）",
+  "label": "路博德",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "路博德",
+    "彊弩都尉",
+    "博德",
     "伏波",
     "伏波將軍"
   ],
   "titles": [
+    {
+      "id": "th-shiji110-142",
+      "person_id": "vib_10x_51n",
+      "title": "彊弩都尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p054",
+          "quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。"
+        },
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p059",
+          "quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。"
+        },
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p060",
+          "quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji110-142:a001",
+          "paragraph_id": "c-shiji-110-xiongnu:p054",
+          "start": 56,
+          "end": 60,
+          "surface": "彊弩都尉",
+          "person_mention_id": "c-shiji-110-xiongnu:m054-0060",
+          "usage": "narrative",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 102,
+            "year": -101,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-110-xiongnu",
+                "source_id": "s-shiji110-xiongnu",
+                "paragraph_id": "c-shiji-110-xiongnu:p054",
+                "quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》同次屯防事件",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+                "quote": "上遣光祿勳徐自為出五原塞數百里",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《資治通鑑》數位編輯紀年標題",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+                "quote": "太初三年（己卯，公元前一零二年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "漢使光祿徐自爲出五原塞數百里",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+              "reference_event_quote": "上遣光祿勳徐自為出五原塞數百里",
+              "reference_year_quote": "太初三年（己卯，公元前一零二年）"
+            },
+            "rationale": "呴犁湖繼立後同次五原築塞、韓說衛伉屯防與路博德築居延澤對讀通鑑太初三年，暫前102年；不是授官、授爵或籍貫，紀年標題為數位編輯資料。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        },
+        {
+          "id": "th-shiji110-142:a002",
+          "paragraph_id": "c-shiji-110-xiongnu:p059",
+          "start": 72,
+          "end": 76,
+          "surface": "彊弩都尉",
+          "person_mention_id": "c-shiji-110-xiongnu:m059-0072",
+          "usage": "narrative",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 99,
+            "year": -98,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-110-xiongnu",
+                "source_id": "s-shiji110-xiongnu",
+                "paragraph_id": "c-shiji-110-xiongnu:p059",
+                "quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》平行事件",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+                "quote": "遣貳師將軍廣利以三萬騎出酒泉",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《資治通鑑》數位編輯紀年標題",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+                "quote": "天漢二年（壬午，公元前九九年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "貳師將軍廣利以三萬騎出酒泉",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+              "reference_event_quote": "遣貳師將軍廣利以三萬騎出酒泉",
+              "reference_year_quote": "天漢二年（壬午，公元前九九年）"
+            },
+            "rationale": "其明年三萬騎天山之役對讀通鑑天漢二年，暫前99年；李陵五千人出居延及歸者四百同役。婚姻是後續記載，不補同年婚期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        },
+        {
+          "id": "th-shiji110-142:a003",
+          "paragraph_id": "c-shiji-110-xiongnu:p060",
+          "start": 24,
+          "end": 28,
+          "surface": "彊弩都尉",
+          "person_mention_id": "c-shiji-110-xiongnu:m060-0028",
+          "usage": "narrative",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 97,
+            "year": -96,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-110-xiongnu",
+                "source_id": "s-shiji110-xiongnu",
+                "paragraph_id": "c-shiji-110-xiongnu:p060",
+                "quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》平行事件",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+                "quote": "遣貳師將軍李廣利將騎六萬",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《資治通鑑》數位編輯紀年標題",
+                "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+                "quote": "天漢四年（甲申，公元前九七年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "復使貳師將軍將六萬騎",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+              "reference_event_quote": "遣貳師將軍李廣利將騎六萬",
+              "reference_year_quote": "天漢四年（甲申，公元前九七年）"
+            },
+            "rationale": "後二歳接前99年同役，六萬騎出朔方及余吾十萬匈奴兵對讀通鑑天漢四年，暫前97年。本文步兵十萬與通鑑七萬差異保留，未改文字；廣利家族巫蠱及降匈奴另前90年，不將整段同年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存前102年屯防時原文用稱，未記授任或授爵，不推起訖。光祿不默改光祿勳，彊弩原字保留；築塞與屯防地點不是籍貫、死亡或葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-169",
+      "person_id": "vib_10x_51n",
+      "title": "右北平太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-169:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "start": 219,
+          "end": 224,
+          "surface": "右北平太守",
+          "person_mention_id": "c-shiji-111-wei-huo:m019-0224",
+          "usage": "narrative",
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 119,
+            "year": -118,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-111-wei-huo",
+                "source_id": "s-shiji111-wei-huo",
+                "paragraph_id": "c-shiji-111-wei-huo:p019",
+                "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》數位編輯年標",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+                "quote": "元狩四年（壬戌，公元前一一九年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱、用稱與授予分存，未知端點不補；益封戶數不另作新授爵。少而侍中屬回顧用稱，未據鄰接軍役倒填任命日期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-177",
+      "person_id": "vib_10x_51n",
+      "title": "符離侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        },
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-177:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "start": 266,
+          "end": 269,
+          "surface": "符離侯",
+          "person_mention_id": "c-shiji-111-wei-huo:m019-0263",
+          "usage": "narrative",
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 119,
+            "year": -118,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-111-wei-huo",
+                "source_id": "s-shiji111-wei-huo",
+                "paragraph_id": "c-shiji-111-wei-huo:p019",
+                "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》數位編輯年標",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+                "quote": "元狩四年（壬戌，公元前一一九年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《漢書》同役紀年",
+                "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+                "quote": "是歲元狩四年也。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《漢書》同役敘事／封賞",
+                "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+                "quote": "封博德為邳離侯。",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              }
+            ],
+            "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "封博德為符離侯",
+              "reference_url": "https://zh.wikisource.org/wiki/漢書/卷055",
+              "reference_event_quote": "封博德為邳離侯。",
+              "reference_year_quote": "是歲元狩四年也。"
+            }
+          }
+        },
+        {
+          "id": "th-shiji111-177:a002",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 25,
+          "end": 28,
+          "surface": "符離侯",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0002",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-111-wei-huo",
+              "source_id": "s-shiji111-wei-huo",
+              "paragraph_id": "c-shiji-111-wei-huo:p019",
+              "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+            }
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 119,
+            "year": -118,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-111-wei-huo",
+                "source_id": "s-shiji111-wei-huo",
+                "paragraph_id": "c-shiji-111-wei-huo:p019",
+                "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》數位編輯年標",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+                "quote": "元狩四年（壬戌，公元前一一九年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《漢書》同役紀年",
+                "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+                "quote": "是歲元狩四年也。",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《漢書》同役敘事／封賞",
+                "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+                "quote": "封博德為邳離侯。",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              }
+            ],
+            "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "封博德為符離侯",
+              "reference_url": "https://zh.wikisource.org/wiki/漢書/卷055",
+              "reference_event_quote": "封博德為邳離侯。",
+              "reference_year_quote": "是歲元狩四年也。"
+            }
+          }
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "deposition",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-111-wei-huo",
+              "source_id": "s-shiji111-wei-huo",
+              "paragraph_id": "c-shiji-111-wei-huo:p044",
+              "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "原稱、用稱與授予分存，未知端點不補；益封戶數不另作新授爵。少而侍中屬回顧用稱，未據鄰接軍役倒填任命日期。第44段回顧符離侯原授爵，追加同一持有的用稱；其後坐法失侯保存廢爵事件，年份未定。益封不作新爵號，未補未知戶數。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "西元前119年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji111-287",
+      "person_id": "vib_10x_51n",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-287:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 0,
+          "end": 2,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0002",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱與回顧用稱分存，未知起訖不補造；死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-288",
+      "person_id": "vib_10x_51n",
+      "title": "右北平太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-288:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 11,
+          "end": 16,
+          "surface": "右北平太守",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱與回顧用稱分存，未知起訖不補造；死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-290",
+      "person_id": "vib_10x_51n",
+      "title": "衛尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-290:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 37,
+          "end": 39,
+          "surface": "衛尉",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0034",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱與回顧用稱分存，未知起訖不補造；死亡不自動終止官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-291",
+      "person_id": "vib_10x_51n",
+      "title": "伏波將軍",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-291:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 40,
+          "end": 44,
+          "surface": "伏波將軍",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0034",
+          "usage": "narrative",
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-111-wei-huo",
+                "source_id": "s-shiji111-wei-huo",
+                "paragraph_id": "c-shiji-111-wei-huo:p044",
+                "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》並記事件",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《資治通鑑》數位編輯年標",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+                "quote": "元鼎五年（己巳，公元前一一二年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "以衛尉為伏波將軍，伐破南越",
+              "reference_url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+              "reference_event_quote": "遣伏波將軍路博德出桂陽，下湟水",
+              "reference_year_quote": "元鼎五年（己巳，公元前一一二年）"
+            },
+            "rationale": "依同一人物、官爵及軍役的並記事件暫定用稱年份；數位年標僅供公元年換算。相對年數不作連續加算，未補月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-111-wei-huo",
+              "source_id": "s-shiji111-wei-huo",
+              "paragraph_id": "c-shiji-111-wei-huo:p044",
+              "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱與回顧用稱分存，未知起訖不補造；死亡不自動終止官爵。 並記事件暫定公元前112年用稱年份。這是軍役中的用稱日期，授任起點及終點仍未定。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji111-292",
+      "person_id": "vib_10x_51n",
+      "title": "彊弩都尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji111-292:a001",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "start": 61,
+          "end": 65,
+          "surface": "彊弩都尉",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0034",
+          "usage": "narrative",
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 102,
+            "year": -101,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-111-wei-huo",
+                "source_id": "s-shiji111-wei-huo",
+                "paragraph_id": "c-shiji-111-wei-huo:p044",
+                "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《資治通鑑》並記事件",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+                "quote": "使強弩都尉路博德築居延澤上",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《資治通鑑》數位編輯年標",
+                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+                "quote": "太初三年（己卯，公元前一零二年）",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "為彊弩都尉，屯居延",
+              "reference_url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+              "reference_event_quote": "使強弩都尉路博德築居延澤上",
+              "reference_year_quote": "太初三年（己卯，公元前一零二年）"
+            },
+            "rationale": "依同一人物、官爵及軍役的並記事件暫定用稱年份；數位年標僅供公元年換算。相對年數不作連續加算，未補月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原稱與回顧用稱分存，未知起訖不補造；死亡不自動終止官爵。 並記事件暫定公元前102年用稱年份。這是軍役中的用稱日期，授任起點及終點仍未定。 本篇彊弩與並記強弩字形各自保留。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji113-016",
       "person_id": "vib_10x_51n",
@@ -135,8 +894,51 @@
       "period": "西元前112年（暫定） → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji111-014",
+      "person_id": "vib_10x_51n",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "平州",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "source_term": "平州人",
+      "interpretation_note": "保存本傳原字平州，未改作其他地名、出生地或現代轄區；屯居延不直接作死亡地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "平州人",
+      "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 110,
+      "category": "liezhuan",
+      "title": "匈奴列傳第五十",
+      "paragraph_id": "c-shiji-110-xiongnu:p054",
+      "count": 3,
+      "quote": "餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。"
+    },
+    {
+      "number": 111,
+      "category": "liezhuan",
+      "title": "衛將軍驃騎列傳第五十一",
+      "paragraph_id": "c-shiji-111-wei-huo:p019",
+      "count": 4,
+      "quote": "三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封"
+    },
     {
       "number": 113,
       "category": "liezhuan",
@@ -148,6 +950,54 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-110-xiongnu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "source_id": "s-shiji110-xiongnu",
+      "source": {
+        "title": "史記／卷110",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷110",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+        "revision_id": 8735645,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-111-wei-huo",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "source_id": "s-shiji111-wei-huo",
+      "source": {
+        "title": "史記／卷111",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷111",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225",
+        "revision_id": 8730225,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後48段；末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-113-nanyue",
       "work_id": "w-shiji",
@@ -175,9 +1025,63 @@
   ],
   "relations": [],
   "related_people": {
-    "vib_10x_51n": "路博德（南越列傳候選）"
+    "vib_10x_51n": "路博德"
   },
   "dates": [
+    {
+      "era": "BCE",
+      "era_year": 119,
+      "year": -118,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+          "quote": "元狩四年（壬戌，公元前一一九年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》同役紀年",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+          "quote": "是歲元狩四年也。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》同役敘事／封賞",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+          "quote": "封博德為邳離侯。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        }
+      ],
+      "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "封博德為符離侯",
+        "reference_url": "https://zh.wikisource.org/wiki/漢書/卷055",
+        "reference_event_quote": "封博德為邳離侯。",
+        "reference_year_quote": "是歲元狩四年也。"
+      },
+      "record_id": "th-shiji111-177",
+      "person_id": "vib_10x_51n",
+      "endpoint": "start",
+      "title": "符離侯"
+    },
     {
       "era": "BCE",
       "era_year": 112,
@@ -210,6 +1114,421 @@
       "person_id": "vib_10x_51n",
       "endpoint": "start",
       "title": "伏波將軍"
+    },
+    {
+      "era": "BCE",
+      "era_year": 102,
+      "year": -101,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p054",
+          "quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》同次屯防事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+          "quote": "上遣光祿勳徐自為出五原塞數百里",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》數位編輯紀年標題",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+          "quote": "太初三年（己卯，公元前一零二年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "漢使光祿徐自爲出五原塞數百里",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+        "reference_event_quote": "上遣光祿勳徐自為出五原塞數百里",
+        "reference_year_quote": "太初三年（己卯，公元前一零二年）"
+      },
+      "rationale": "呴犁湖繼立後同次五原築塞、韓說衛伉屯防與路博德築居延澤對讀通鑑太初三年，暫前102年；不是授官、授爵或籍貫，紀年標題為數位編輯資料。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji110-142",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji110-142:a001",
+      "date_role": "attestation",
+      "title": "彊弩都尉"
+    },
+    {
+      "era": "BCE",
+      "era_year": 99,
+      "year": -98,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p059",
+          "quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》平行事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+          "quote": "遣貳師將軍廣利以三萬騎出酒泉",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》數位編輯紀年標題",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+          "quote": "天漢二年（壬午，公元前九九年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "貳師將軍廣利以三萬騎出酒泉",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+        "reference_event_quote": "遣貳師將軍廣利以三萬騎出酒泉",
+        "reference_year_quote": "天漢二年（壬午，公元前九九年）"
+      },
+      "rationale": "其明年三萬騎天山之役對讀通鑑天漢二年，暫前99年；李陵五千人出居延及歸者四百同役。婚姻是後續記載，不補同年婚期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji110-142",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji110-142:a002",
+      "date_role": "attestation",
+      "title": "彊弩都尉"
+    },
+    {
+      "era": "BCE",
+      "era_year": 97,
+      "year": -96,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p060",
+          "quote": "後二歳，復使貳師將軍將六萬騎，步兵十萬，出朔方。彊弩都尉路博德將萬餘人，與貳師會。游擊將軍說將步騎三萬人，出五原。因杅將軍敖將萬騎步兵三萬人，出鴈門。匈奴聞，悉遠其累重於余吾水北，而單于以十萬騎待水南，與貳師將軍接戰。貳師乃解而引歸，與單于連戰十餘日。貳師聞其家以巫蠱族滅，因并眾降匈奴，得來還千人一兩人耳。游擊說無所得。因杅敖與左賢王戰，不利，引歸。是歳漢兵之出擊匈奴者不得言功多少，功不得御。有詔捕太醫令隨但，言貳師將軍家室族滅，使廣利得降匈奴。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》平行事件",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+          "quote": "遣貳師將軍李廣利將騎六萬",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》數位編輯紀年標題",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+          "quote": "天漢四年（甲申，公元前九七年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "復使貳師將軍將六萬騎",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷022&oldid=2459538",
+        "reference_event_quote": "遣貳師將軍李廣利將騎六萬",
+        "reference_year_quote": "天漢四年（甲申，公元前九七年）"
+      },
+      "rationale": "後二歳接前99年同役，六萬騎出朔方及余吾十萬匈奴兵對讀通鑑天漢四年，暫前97年。本文步兵十萬與通鑑七萬差異保留，未改文字；廣利家族巫蠱及降匈奴另前90年，不將整段同年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji110-142",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji110-142:a003",
+      "date_role": "attestation",
+      "title": "彊弩都尉"
+    },
+    {
+      "era": "BCE",
+      "era_year": 119,
+      "year": -118,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+          "quote": "元狩四年（壬戌，公元前一一九年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji111-169",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji111-169:a001",
+      "date_role": "attestation",
+      "title": "右北平太守"
+    },
+    {
+      "era": "BCE",
+      "era_year": 119,
+      "year": -118,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
+          "quote": "元狩四年（壬戌，公元前一一九年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》同役紀年",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+          "quote": "是歲元狩四年也。",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書》同役敘事／封賞",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+          "quote": "封博德為邳離侯。",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        }
+      ],
+      "rationale": "承本篇元狩四年同次出征及還軍封賞；參考漢書同役明示紀年與對應封賞，只取前119年年精度，不改官爵原詞或補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "封博德為符離侯",
+        "reference_url": "https://zh.wikisource.org/wiki/漢書/卷055",
+        "reference_event_quote": "封博德為邳離侯。",
+        "reference_year_quote": "是歲元狩四年也。"
+      },
+      "record_id": "th-shiji111-177",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji111-177:a001",
+      "date_role": "attestation",
+      "title": "符離侯"
+    },
+    {
+      "era": "BCE",
+      "era_year": 112,
+      "year": -111,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》並記事件",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+          "quote": "遣伏波將軍路博德出桂陽，下湟水",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+          "quote": "元鼎五年（己巳，公元前一一二年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "以衛尉為伏波將軍，伐破南越",
+        "reference_url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
+        "reference_event_quote": "遣伏波將軍路博德出桂陽，下湟水",
+        "reference_year_quote": "元鼎五年（己巳，公元前一一二年）"
+      },
+      "rationale": "依同一人物、官爵及軍役的並記事件暫定用稱年份；數位年標僅供公元年換算。相對年數不作連續加算，未補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji111-291",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji111-291:a001",
+      "date_role": "attestation",
+      "title": "伏波將軍"
+    },
+    {
+      "era": "BCE",
+      "era_year": 102,
+      "year": -101,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》並記事件",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+          "quote": "使強弩都尉路博德築居延澤上",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+          "quote": "太初三年（己卯，公元前一零二年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "為彊弩都尉，屯居延",
+        "reference_url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
+        "reference_event_quote": "使強弩都尉路博德築居延澤上",
+        "reference_year_quote": "太初三年（己卯，公元前一零二年）"
+      },
+      "rationale": "依同一人物、官爵及軍役的並記事件暫定用稱年份；數位年標僅供公元年換算。相對年數不作連續加算，未補月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "th-shiji111-292",
+      "person_id": "vib_10x_51n",
+      "attestation_id": "th-shiji111-292:a001",
+      "date_role": "attestation",
+      "title": "彊弩都尉"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji110-019",
+      "person_id": "vib_10x_51n",
+      "surfaces": [
+        "彊弩都尉",
+        "路博德"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-110-xiongnu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-110-xiongnu:p054",
+          "quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。"
+        },
+        {
+          "paragraph_id": "c-shiji-110-xiongnu:p059",
+          "quote": "其明年，漢使貳師將軍廣利以三萬騎出酒泉，擊右賢王於天山，得胡首虜萬餘級而還。匈奴大圍貳師將軍，幾不脫。漢兵物故什六七。漢復使因杅將軍敖出西河，與彊弩都尉會涿涂山，毋所得。又使騎都尉李陵將步騎五千人，出居延北千餘里，與單于會，合戰，陵所殺傷萬餘人，兵及食盡，欲解歸，匈奴圍陵，陵降匈奴，其兵遂沒，得還者四百人。單于乃貴陵，以其女妻之。"
+        }
+      ],
+      "rationale": "此前彊弩都尉路博德全名與本段會涿涂山同役通鑑明記路博德相合，暫同指，不按官號全域合併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《資治通鑑》同役會師全名",
+          "url": "https://zh.wikisource.org/w/index.php?title=資治通鑑/卷021&oldid=1511468",
+          "quote": "與強弩都尉路博德會涿塗山",
+          "scope": "same_event_full_name_context",
+          "image_verified": false
+        }
+      ]
+    },
+    {
+      "id": "eq-shiji111-vib_10x_51n",
+      "person_ids": [
+        "vib_10x_51n"
+      ],
+      "canonical_person_id": "vib_10x_51n",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-111-wei-huo",
+        "c-shiji-110-xiongnu"
+      ],
+      "rationale": "路博德在本篇右北平太守從驃騎受封，漢書其小傳續述彊弩都尉屯居延；卷110路博德彊弩都尉築居延，職官與地點提供傳記橋接，暫同人。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p019",
+          "quote": "驃騎將軍亦將五萬騎，車重與大將軍軍等，而無裨將。悉以李敢等為大校，當裨將，出代、右北平千餘里，直左方兵，所斬捕功已多大將軍。軍既還，天子曰：「驃騎將軍去病率師，躬將所獲葷粥之士，約輕齎，絕大幕，涉獲章渠，以誅比車耆，轉擊左大將，斬獲旗鼓，歷涉離侯。濟弓閭，獲屯頭王、韓王等三人，將軍、相國、當戶、都尉八十三人，封狼居胥山，禪於姑衍，登臨翰海。執鹵獲丑七萬有四百四十三級，師率減什三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封復陸支為壯侯，以千八百戶封伊即靬為眾利侯。從驃侯破奴、昌武侯安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m019-0224",
+            "c-shiji-111-wei-huo:m019-0263"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p054",
+          "quote": "呴犁湖單于立，漢使光祿徐自爲出五原塞數百里，遠者千餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m054-0060"
+          ]
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《漢書》路博德小傳",
+          "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+          "quote": "為彊弩都尉，屯居延，卒。",
+          "scope": "received_parallel_identity_support",
+          "image_verified": false
+        }
+      ],
+      "identity_materialized": true
     }
   ],
   "name_components": [],
@@ -218,7 +1537,45 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji111-p044-vib_10x_51n",
+      "person_id": "vib_10x_51n",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p044",
+          "quote": "將軍路博德，平州人。以右北平太守從驃騎將軍有功，為符離侯。驃騎死後，博德以衛尉為伏波將軍，伐破南越，益封。其後坐法失侯。為彊弩都尉，屯居延，卒。",
+          "person_mention_id": "c-shiji-111-wei-huo:m044-0002"
+        }
+      ],
+      "interpretation_note": "末句卒承路博德主語，卒年未知；屯居延不等於明示卒於居延，未生成卒地，不重複驃騎死後的霍去病死亡事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "paragraph_id": "c-shiji-111-wei-huo:p019",
+      "source_term": "封博德為符離侯",
+      "person_ids": [
+        "vib_10x_51n"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "符離侯",
+      "reported_reading": "邳離侯",
+      "quote": "封博德為邳離侯。",
+      "commentator": "漢書數位正文（同役平行記載）",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷055",
+      "image_verified": false,
+      "interpretation_note": "所報異文與同役平行見證原字另存，不改本篇正文或官爵原稱，不宣稱已核影像。"
+    }
+  ]
 }

@@ -89,7 +89,6 @@
 | `0mi_lxy_dlr` | 東胡王（匈奴列傳第7段） | [《史記・匈奴列傳》][95] | [JSON](0mi_lxy_dlr.json) |
 | `0ml_cvy_pxe` | 韓徐 | [《史記・趙世家》][28] | [JSON](0ml_cvy_pxe.json) |
 | `0ng_one_sdy` | 宋玉 | [《史記・屈原賈生列傳》][69] | [JSON](0ng_one_sdy.json) |
-| `0nh_j0e_l31` | 建（右將軍，匈奴列傳省稱） | [《史記・匈奴列傳》][95] | [JSON](0nh_j0e_l31.json) |
 | `0np_0mp_q1l` | 湯 | [《史記・太史公自序》][115] | [JSON](0np_0mp_q1l.json) |
 | `0o0_6rh_6u5` | 韓公叔 | [《史記・張儀列傳》][55] | [JSON](0o0_6rh_6u5.json) |
 | `0o2_6vg_6es` | 說相國客（蕭相國世家未名者） | [《史記・蕭相國世家》][38] | [JSON](0o2_6vg_6es.json) |
@@ -221,7 +220,6 @@
 | `1mc_b3u_7ab` | 程鄭 | [《史記・司馬相如列傳》][102] | [JSON](1mc_b3u_7ab.json) |
 | `1mi_jrf_gto` | 子魚（教宋湣公者） | [《史記・宋微子世家》][23] | [JSON](1mi_jrf_gto.json) |
 | `1ml_lhf_3h1` | 尉斯離 | [《史記・秦本紀》][8]、[《史記・六國年表》][118] | [JSON](1ml_lhf_3h1.json) |
-| `1n0_bu8_jv2` | 衛伉（匈奴列傳第54段） | [《史記・匈奴列傳》][95] | [JSON](1n0_bu8_jv2.json) |
 | `1n9_5tg_1zs` | 夷王 | [《史記・周本紀》][7] | [JSON](1n9_5tg_1zs.json) |
 | `1ne_07g_3id` | 夏侯勝 | [《史記・平津侯主父列傳》][97] | [JSON](1ne_07g_3id.json) |
 | `1nk_3if_xps` | 荷蕢者（孔子世家未名者） | [《史記・孔子世家》][32] | [JSON](1nk_3if_xps.json) |
@@ -521,7 +519,6 @@
 | `3ti_3ui_sdb` | 杜赫 | [《史記・秦始皇本紀》][9] | [JSON](3ti_3ui_sdb.json) |
 | `3tq_5qz_qb9` | 李陵 | [《史記・太史公自序》][115] | [JSON](3tq_5qz_qb9.json) |
 | `3ty_cnm_mh5` | 上林行人未名 | [《史記・李斯列傳》][72] | [JSON](3ty_cnm_mh5.json) |
-| `3u0_w7q_w9q` | 韓說 | [《史記・衛將軍驃騎列傳》][96] | [JSON](3u0_w7q_w9q.json) |
 | `3u1_ov8_6ry` | 公子范 | [《史記・趙世家》][28]、[《史記・六國年表》][118] | [JSON](3u1_ov8_6ry.json) |
 | `3u2_btf_ob4` | 周舍 | [《史記・孝文本紀》][13]、[《史記・匈奴列傳》][95]、[《史記・漢興以來將相名臣年表》][125] | [JSON](3u2_btf_ob4.json) |
 | `3u4_2bl_u1l` | 公祖句茲 | [《史記・仲尼弟子列傳》][52] | [JSON](3u4_2bl_u1l.json) |
@@ -2209,6 +2206,10 @@
 | `gae_myi_fv0` | 嚭（吳臣） | [《史記・太史公自序》][115] | [JSON](gae_myi_fv0.json) |
 | `gaj_q2w_f4h` | 顏之僕 | [《史記・仲尼弟子列傳》][52] | [JSON](gaj_q2w_f4h.json) |
 | `gas_wud_t4m` | 鄭忠 | [《史記・項羽本紀》][10]、[《史記・高祖本紀》][11] | [JSON](gas_wud_t4m.json) |
+| `gaz_1ax_7s7` | 孝文 | [《史記・汲鄭列傳》][105] | [JSON](gaz_1ax_7s7.json) |
+| `gbb_0p6_20p` | 成信 | [《史記・酷吏列傳》][107] | [JSON](gbb_0p6_20p.json) |
+| `gbf_h5a_e3f` | 呂后 | [《史記・蕭相國世家》][38] | [JSON](gbf_h5a_e3f.json) |
+| `gc4_c9w_cfz` | 司馬穰苴 | [《史記・太史公自序》][115] | [JSON](gc4_c9w_cfz.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
