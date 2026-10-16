@@ -146,6 +146,14 @@
       "paragraph_id": "c-shiji-103-wanshi:p024",
       "count": 7,
       "quote": "御史大夫張叔者，名歐，安丘侯説之庶子也。孝文時以治刑名言事太子。然歐雖治刑名家，其人長者。景帝時尊重，常爲九卿。至武帝元朔四年，韓安國免，詔拜歐爲御史大夫。自歐爲吏，未嘗言案人，專以誠長者處官。官屬以爲長者，亦不"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p005",
+      "count": 1,
+      "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷"
     }
   ],
   "table_occurrences": [],
@@ -171,6 +179,30 @@
           "editorial_readings": [],
           "extraction_note": "僅去外緣空白；髙、衞、温、内、爲、呉、甐及原標點保留。",
           "note": "已核讀全27段數位正文，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
     }
@@ -241,6 +273,65 @@
       "person_id": "afj_vl8_7fu_A",
       "endpoint": "start",
       "title": "御史大夫"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji112-core-zhangou",
+      "person_ids": [
+        "afj_vl8_7fu_A"
+      ],
+      "canonical_person_id": "afj_vl8_7fu_A",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-112-pingjin",
+        "c-shiji-103-wanshi"
+      ],
+      "rationale": "本篇御史大夫張歐免與萬石張叔列傳名歐、武帝朝御史大夫相合，暫同指張歐。卷112元朔三年免、卷103元朔四年拜原文敘年互不順接，身份接合不裁成同一年或改任期，不新增父親；安丘侯之子來源仍按本傳明言。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p005",
+          "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0005"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "chapter_id": "c-shiji-103-wanshi",
+          "source_id": "s-shiji-103-wanshi",
+          "paragraph_id": "c-shiji-103-wanshi:p024",
+          "quote": "御史大夫張叔者，名歐，安丘侯説之庶子也。孝文時以治刑名言事太子。然歐雖治刑名家，其人長者。景帝時尊重，常爲九卿。至武帝元朔四年，韓安國免，詔拜歐爲御史大夫。自歐爲吏，未嘗言案人，專以誠長者處官。官屬以爲長者，亦不敢大欺。上具獄事，有可卻，卻之；不可者，不得已，爲涕泣面對而封之。其愛人如此。",
+          "mention_ids": [
+            "c-shiji-103-wanshi:m024-0004",
+            "c-shiji-103-wanshi:m024-0009",
+            "c-shiji-103-wanshi:m024-0033",
+            "c-shiji-103-wanshi:m024-0071",
+            "c-shiji-103-wanshi:m024-0079"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記集解》卷一百十二（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_112.txt#L35-L38",
+          "quote": "元朔三年張歐免以𢎞為御史大夫",
+          "raw_quote": "謝曰夫知臣者以臣為忠不知臣者以臣為不忠上然¶\n𢎞言左右幸臣每毁𢎞上益厚遇之元朔三年張歐免¶\n以𢎞為御史大夫是時通西南夷東置滄海北築朔方¶\n之郡𢎞數諌以為罷敝中國以奉無用之地願罷之於¶",
+          "scope": "received_parallel_chronology",
+          "image_verified": false,
+          "response_sha256": "de88857d7f20adc1e00bab586fae19c8615df68c55e592d243dc9b9b9a95f1e4",
+          "source_blob_sha": "2b465e6a1b6b48328814f030dbba777e2a916cff",
+          "note": "短引文只除排版括號、換行、小注斜線、段末符與頁標；raw_quote保留原片段。古注轉引他書不當親讀該本，未核書影。"
+        }
+      ],
+      "identity_materialized": true
     }
   ],
   "name_components": [],

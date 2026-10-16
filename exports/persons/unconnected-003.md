@@ -6,18 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][22] | [JSON](xgw_at7_sju.json) |
-| `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][13]、[《史記・惠景間侯者年表》][122] | [JSON](xgx_g4a_c28.json) |
-| `xh0_zdc_cq8` | 季勝 | [《史記・秦本紀》][8] | [JSON](xh0_zdc_cq8.json) |
-| `xhk_2v1_pd8` | 魯君（孔子世家女樂未名者） | [《史記・孔子世家》][32] | [JSON](xhk_2v1_pd8.json) |
-| `xhk_b1m_hjb` | 定 | [《史記・南越列傳》][98] | [JSON](xhk_b1m_hjb.json) |
-| `xhp_h3f_rus` | 緡（晉侯） | [《史記・晉世家》][24] | [JSON](xhp_h3f_rus.json) |
-| `xhs_wj2_zbt` | 商容 | [《史記・殷本紀》][6] | [JSON](xhs_wj2_zbt.json) |
-| `xi5_cuw_xu1` | 壤駟赤 | [《史記・仲尼弟子列傳》][52] | [JSON](xi5_cuw_xu1.json) |
-| `xib_wbp_so4` | 紂 | [《史記・外戚世家》][34] | [JSON](xib_wbp_so4.json) |
-| `xie_13c_5ho` | 趙嬰 | [《史記・秦始皇本紀》][9] | [JSON](xie_13c_5ho.json) |
-| `xih_zlh_ppq` | 蘇厲 | [《史記・周本紀》][7]、[《史記・秦始皇本紀》][9] | [JSON](xih_zlh_ppq.json) |
-| `xip_3lx_rpc` | 大業 | [《史記・趙世家》][28] | [JSON](xip_3lx_rpc.json) |
 | `xix_lzk_s92` | 修 | [《史記・五宗世家》][44] | [JSON](xix_lzk_s92.json) |
 | `xj1_qxh_afa` | 王紲 | [《史記・趙世家》][28] | [JSON](xj1_qxh_afa.json) |
 | `xj3_7eu_xg4` | 王假（魏） | [《史記・太史公自序》][115] | [JSON](xj3_7eu_xg4.json) |
@@ -428,7 +416,6 @@
 [95]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
-[98]: https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632
 [99]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
 [102]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
