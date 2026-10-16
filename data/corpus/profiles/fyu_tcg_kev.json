@@ -6,7 +6,9 @@
   "identity_note": "依本卷特定時代與敘事建立；同名與世襲官號不得全庫合併，本名未見不補造。",
   "review": "ai_provisional",
   "names": [
-    "翟后"
+    "翟后",
+    "戎狄女",
+    "狄后"
   ],
   "titles": [],
   "addresses": [
@@ -45,6 +47,14 @@
       "paragraph_id": "c-shiji-004-zhou:p051",
       "count": 2,
       "quote": "：「平、桓、莊、惠皆受鄭勞，王棄親親翟，不可從。」王不聽。十六年，王絀翟后，翟人來誅，殺譚伯。富辰曰：「吾數諫不從。如是不出，王以我為懟乎？」乃以其屬死之。"
+    },
+    {
+      "number": 110,
+      "category": "liezhuan",
+      "title": "匈奴列傳第五十",
+      "paragraph_id": "c-shiji-110-xiongnu:p002",
+      "count": 4,
+      "quote": "餘年，而戎狄至洛邑，伐周襄王，襄王奔于鄭之氾邑。初，周襄王欲伐鄭，故娶戎狄女爲后，與戎狄兵共伐鄭。已而黜狄后，狄后怨，而襄王後母曰惠后，有子子帶，欲立之，於是惠后與狄后、子帶爲內應，開戎狄，戎狄以故得入，破逐周襄王，而立子帶爲天子。於是戎狄或居于陸渾，東至於衛，侵盜暴虐中國。"
     }
   ],
   "table_occurrences": [],
@@ -108,18 +118,87 @@
           "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-110-xiongnu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "source_id": "s-shiji110-xiongnu",
+      "source": {
+        "title": "史記／卷110",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷110",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+        "revision_id": 8735645,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
+          "note": "未核底本影像。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji110-001",
+      "subject_person_id": "fyu_tcg_kev",
+      "predicate": "spouse",
+      "object_person_id": "gt1_z7d_s3u",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p002",
+          "quote": "夏道衰，而公劉失其稷官，變于西戎，邑于豳。其後三百有餘歳，戎狄攻大王亶父，亶父亡走岐下，而豳人悉從亶父而邑焉，作周。其後百有餘歳，周西伯昌伐畎夷氏。後十有餘年，武王伐紂而營雒邑，復居于酆鄗，放逐戎夷涇、洛之北，以時入貢，命曰「荒服」。其後二百有餘年，周道衰，而穆王伐犬戎，得四白狼四白鹿以歸。自是之後，荒服不至。於是周遂作甫刑之辟。穆王之後二百有餘年，周幽王用寵姬褒姒之故，與申侯有卻。申侯怒而與犬戎共攻殺周幽王于驪山之下，遂取周之焦穫，而居于涇渭之閒，侵暴中國。秦襄公救周，於是周平王去酆鄗而東徙雒邑。當是之時，秦襄公伐戎至岐，始列爲諸侯。是後六十有五年，而山戎越燕而伐齊，齊釐公與戰于齊郊。其後四十四年，而山戎伐燕。燕告急于齊，齊桓公北伐山戎，山戎走。其後二十有餘年，而戎狄至洛邑，伐周襄王，襄王奔于鄭之氾邑。初，周襄王欲伐鄭，故娶戎狄女爲后，與戎狄兵共伐鄭。已而黜狄后，狄后怨，而襄王後母曰惠后，有子子帶，欲立之，於是惠后與狄后、子帶爲內應，開戎狄，戎狄以故得入，破逐周襄王，而立子帶爲天子。於是戎狄或居于陸渾，東至於衛，侵盜暴虐中國。中國疾之，故詩人歌之曰「戎狄是應」，「薄伐獫狁，至於大原」，「出輿彭彭，城彼朔方」。周襄王既居外四年，乃使使告急于晉。晉文公初立，欲修霸業，乃興師伐逐戎翟，誅子帶，迎內周襄王，居于雒邑。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶戎狄女爲后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只依明示娶與有子記婚姻、母子，不將襄王後母補作生母，不由立為天子推父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
-    "fyu_tcg_kev": "翟后"
+    "fyu_tcg_kev": "翟后",
+    "gt1_z7d_s3u": "襄王"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "fyu_tcg_kev"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-shiji110-001",
+      "subject_person_id": "fyu_tcg_kev",
+      "predicate": "spouse",
+      "object_person_id": "gt1_z7d_s3u",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p002",
+          "quote": "夏道衰，而公劉失其稷官，變于西戎，邑于豳。其後三百有餘歳，戎狄攻大王亶父，亶父亡走岐下，而豳人悉從亶父而邑焉，作周。其後百有餘歳，周西伯昌伐畎夷氏。後十有餘年，武王伐紂而營雒邑，復居于酆鄗，放逐戎夷涇、洛之北，以時入貢，命曰「荒服」。其後二百有餘年，周道衰，而穆王伐犬戎，得四白狼四白鹿以歸。自是之後，荒服不至。於是周遂作甫刑之辟。穆王之後二百有餘年，周幽王用寵姬褒姒之故，與申侯有卻。申侯怒而與犬戎共攻殺周幽王于驪山之下，遂取周之焦穫，而居于涇渭之閒，侵暴中國。秦襄公救周，於是周平王去酆鄗而東徙雒邑。當是之時，秦襄公伐戎至岐，始列爲諸侯。是後六十有五年，而山戎越燕而伐齊，齊釐公與戰于齊郊。其後四十四年，而山戎伐燕。燕告急于齊，齊桓公北伐山戎，山戎走。其後二十有餘年，而戎狄至洛邑，伐周襄王，襄王奔于鄭之氾邑。初，周襄王欲伐鄭，故娶戎狄女爲后，與戎狄兵共伐鄭。已而黜狄后，狄后怨，而襄王後母曰惠后，有子子帶，欲立之，於是惠后與狄后、子帶爲內應，開戎狄，戎狄以故得入，破逐周襄王，而立子帶爲天子。於是戎狄或居于陸渾，東至於衛，侵盜暴虐中國。中國疾之，故詩人歌之曰「戎狄是應」，「薄伐獫狁，至於大原」，「出輿彭彭，城彼朔方」。周襄王既居外四年，乃使使告急于晉。晉文公初立，欲修霸業，乃興師伐逐戎翟，誅子帶，迎內周襄王，居于雒邑。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶戎狄女爲后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只依明示娶與有子記婚姻、母子，不將襄王後母補作生母，不由立為天子推父子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

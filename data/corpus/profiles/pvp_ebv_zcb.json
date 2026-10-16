@@ -2,16 +2,104 @@
   "schema_version": 1,
   "id": "pvp_ebv_zcb",
   "canonical_person_id": "pvp_ebv_zcb",
-  "label": "宣太后（穰侯列傳候選）",
+  "label": "宣太后",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "羋氏",
     "宣太后",
-    "羋八子",
+    "王母宣太后",
+    "楚女",
     "太后",
+    "羋八子",
     "秦太后"
   ],
   "titles": [
+    {
+      "id": "th-shiji005-068",
+      "person_id": "pvp_ebv_zcb",
+      "title": "宣太后",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "武王元年，與魏惠王會臨晉。誅蜀相壯。張儀、魏章皆東出之魏。伐義渠、丹、犁。二年，初置丞相，摢裏疾、甘茂為左右丞相。張儀死於魏。三年，與韓襄王會臨晉外。南公揭卒，摢裏疾相韓。武王謂甘茂曰：「寡人欲容車通三川，窺周室，死不恨矣。」其秋，使甘茂、庶長封伐宜陽。四年，拔宜陽，斬首六萬。涉河，城武遂。魏太子來朝。武王有力好戲，力士任鄙、烏獲、孟說皆至大官。王與孟說舉鼎，絕臏。八月，武王死。族孟說。武王取魏女為后，無子。立異母弟，是為昭襄王。昭襄母楚人，姓羋氏，號宣太后。武王死時，昭襄王為質於燕，燕人送歸，得立。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji005-068:a001",
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "start": 228,
+          "end": 231,
+          "surface": "宣太后",
+          "person_mention_id": "c-shiji-005-qin:m068-0228",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "相魏、相秦、相楚各按來源分記；左右丞相只確定二人皆任丞相，不推誰左誰右。未據死亡自動設定官職終點；樓緩與魏冉免相另待期間整理。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji071-012",
+      "person_id": "pvp_ebv_zcb",
+      "title": "太后",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p010",
+          "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰首而不朝，公叔且以國南合於楚。楚、韓為一，魏氏不敢不聽，然則伐秦之形成矣。不識坐而待伐孰與伐人之利？」秦王曰：「善。」乃下師於殽以救韓。楚兵去。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji071-012:a001",
+          "paragraph_id": "c-shiji-071-chugan:p010",
+          "start": 22,
+          "end": 24,
+          "surface": "太后",
+          "person_mention_id": "c-shiji-071-chugan:m010-0019",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源授官、封爵及文獻用稱分存，未知起訖不補曆日；右更、上卿制度種類待核，不因卒或亡去終止全部官爵。秦以相印迎甘茂而甘茂不往，不作實任秦相；齊授上卿另記。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji072-002",
       "person_id": "pvp_ebv_zcb",
@@ -159,10 +247,157 @@
       "interpretation_note": "授任、實際去職及用稱分存，首次出現、降敵、出走、被誅與死亡不自動終止全部官爵；叔父仲父太公為尊稱不推血緣。擬長為應侯、稱孤與黃金印紫綬願望不當實授。只終止本筆持有狀態，其他官爵各待獨立證據。廢太后按本篇記地位廢止，權柄撤除與太后尊稱的其他使用仍待覆核，未補薨日。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji110-009",
+      "person_id": "pvp_ebv_zcb",
+      "title": "宣太后",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p004",
+          "quote": "自是之後百有餘年，晉悼公使魏絳和戎翟，戎翟朝晉。後百有餘年，趙襄子踰句注而破并代以臨胡貉。其後既與韓魏共滅智伯，分晉地而有之，則趙有代、句注之北，魏有河西、上郡，以與戎界邊。其後義渠之戎築城郭以自守，而秦稍蠶食，至於惠王，遂拔義渠二十五城。惠王擊魏，魏盡入西河及上郡于秦。秦昭王時，義渠戎王與宣太后亂，有二子。宣太后詐而殺義渠戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其後燕有賢將秦開，爲質於胡，胡甚信之。歸而襲破走東胡，東胡卻千餘里。與荊軻刺秦王秦舞陽者，開之孫也。燕亦築長城，自造陽至襄平。置上谷、漁陽、右北平、遼西、遼東郡以拒胡。當是之時，冠帶戰國七，而三國邊於匈奴。其後趙將李牧時，匈奴不敢入趙邊。後秦滅六國，而始皇帝使蒙恬將十萬之眾北擊胡，悉收河南地。因河爲塞，築四十四縣城臨河，徙適戍以充之。而通直道，自九原至雲陽，因邊山險塹谿谷可繕者治之，起臨洮至遼東萬餘里。又度河據陽山北假中。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji110-009:a001",
+          "paragraph_id": "c-shiji-110-xiongnu:p004",
+          "start": 146,
+          "end": 149,
+          "surface": "宣太后",
+          "person_mention_id": "c-shiji-110-xiongnu:m004-0146",
+          "usage": "retrospective"
+        },
+        {
+          "id": "th-shiji110-009:a002",
+          "paragraph_id": "c-shiji-110-xiongnu:p004",
+          "start": 155,
+          "end": 158,
+          "surface": "宣太后",
+          "person_mention_id": "c-shiji-110-xiongnu:m004-0155",
+          "usage": "retrospective"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本段完整追述稱號，不拆字補爵位授任或精確任期，跨篇身份另核。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji005-040",
+      "person_id": "pvp_ebv_zcb",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "楚",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "武王元年，與魏惠王會臨晉。誅蜀相壯。張儀、魏章皆東出之魏。伐義渠、丹、犁。二年，初置丞相，摢裏疾、甘茂為左右丞相。張儀死於魏。三年，與韓襄王會臨晉外。南公揭卒，摢裏疾相韓。武王謂甘茂曰：「寡人欲容車通三川，窺周室，死不恨矣。」其秋，使甘茂、庶長封伐宜陽。四年，拔宜陽，斬首六萬。涉河，城武遂。魏太子來朝。武王有力好戲，力士任鄙、烏獲、孟說皆至大官。王與孟說舉鼎，絕臏。八月，武王死。族孟說。武王取魏女為后，無子。立異母弟，是為昭襄王。昭襄母楚人，姓羋氏，號宣太后。武王死時，昭襄王為質於燕，燕人送歸，得立。"
+        }
+      ],
+      "source_term": "昭襄母楚人",
+      "interpretation_note": "籍貫、為質、出奔及死亡地分記。楚懷王死亡地據還之秦即死的連續敘事；歸葬未具地名，不補葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "昭襄母楚人",
+      "quote": "武王元年，與魏惠王會臨晉。誅蜀相壯。張儀、魏章皆東出之魏。伐義渠、丹、犁。二年，初置丞相，摢裏疾、甘茂為左右丞相。張儀死於魏。三年，與韓襄王會臨晉外。南公揭卒，摢裏疾相韓。武王謂甘茂曰：「寡人欲容車通三川，窺周室，死不恨矣。」其秋，使甘茂、庶長封伐宜陽。四年，拔宜陽，斬首六萬。涉河，城武遂。魏太子來朝。武王有力好戲，力士任鄙、烏獲、孟說皆至大官。王與孟說舉鼎，絕臏。八月，武王死。族孟說。武王取魏女為后，無子。立異母弟，是為昭襄王。昭襄母楚人，姓羋氏，號宣太后。武王死時，昭襄王為質於燕，燕人送歸，得立。"
+    },
+    {
+      "id": "pa-shiji005-052",
+      "person_id": "pvp_ebv_zcb",
+      "relation": "burial_place",
+      "place": {
+        "source_name": "芷陽酈山",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p070",
+          "quote": "十三年，向壽伐韓，取武始。左更白起攻新城。五大夫禮出亡奔魏。任鄙為漢中守。十四年，左更白起攻韓、魏於伊闕，斬首二十四萬，虜公孫喜，拔五城。十五年，大良造白起攻魏，取垣，復予之。攻楚，取宛。十六年，左更錯取軹及鄧。冉免，封公子市宛，公子悝鄧，魏冉陶，為諸侯。十七年，城陽君入朝，及東周君來朝。秦以垣為蒲阪、皮氏。王之宜陽。十八年，錯攻垣、河雍，決橋取之。十九年，王為西帝，齊為東帝，皆復去之。呂禮來自歸。齊破宋，宋王在魏，死溫。任鄙卒。二十年，王之漢中，又之上郡、北河。二十一年，錯攻魏河內。魏獻安邑，秦出其人，募徙河東賜爵，赦罪人遷之。涇陽君封宛。二十二年，蒙武伐齊。河東為九縣。與楚王會宛。與趙王會中陽。二十三年，尉斯離與三晉、燕伐齊，破之濟西。王與魏王會宜陽，與韓王會新城。二十四年，與楚王會鄢，又會穰。秦取魏安城，至大梁，燕、趙救之，秦軍去。魏冉免相。二十五年，拔趙二城。與韓王會新城，與魏王會新明邑。二十六年，赦罪人遷之穰。侯冉復相。二十七年，錯攻楚。赦罪人遷之南陽。白起攻趙，取代光狼城。又使司馬錯發隴西，因蜀攻楚黔中，拔之。二十八年，大良造白起攻楚，取鄢、鄧，赦罪人遷之。二十九年，大良造白起攻楚，取郢為南郡，楚王走。周君來。王與楚王會襄陵。白起為武安君。三十年，蜀守若伐楚，取巫郡，及江南為黔中郡。三十一年，白起伐魏，取兩城。楚人反我江南。三十二年，相穰侯攻魏，至大梁，破暴鳶，斬首四萬，鳶走，魏入三縣請和。三十三年，客卿胡傷攻魏卷、蔡陽、長社，取之。擊芒卯華陽，破之，斬首十五萬。魏入南陽以和。三十四年，秦與魏、韓上庸地為一郡，南陽免臣遷居之。三十五年，佐韓、魏、楚伐燕。初置南陽郡。三十六年，客卿灶攻齊，取剛、壽，予穰侯。三十八年，中更胡傷攻趙閼與，不能取。四十年，悼太子死魏，歸葬芷陽。四十一年夏，攻魏，取邢丘、懷。四十二年，安國君為太子。十月，宣太后薨，葬芷陽酈山。九月，穰侯出之陶。四十三年，武安君白起攻韓，拔九城，斬首五萬。四十四年，攻韓南郡，取之。四十五年，五大夫賁攻韓，取十城。葉陽君悝出之國，未至而死。四十七年，秦攻韓上黨，上黨降趙，秦因攻趙，趙發兵擊秦，相距。秦使武安君白起擊，大破趙於長平，四十餘萬盡殺之。四十八年十月，韓獻垣雍。秦軍分為三軍。武安君歸。王齕將伐趙皮牢，拔之。司馬梗北定太原，盡有韓上黨。正月，兵罷，復守上黨。其十月，五大夫陵攻趙邯鄲。四十九年正月，益發卒佐陵。陵戰不善，免，王齕代將。其十月，將軍張唐攻魏，為蔡尉捐弗守，還斬之。五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。齕攻邯鄲，不拔，去，還奔汾軍。二月餘攻晉軍，斬首六千，晉楚流死河二萬人。攻汾城，即從唐拔寧新中，寧新中更名安陽。初作河橋。"
+        }
+      ],
+      "source_term": "葬芷陽酈山",
+      "interpretation_note": "保存原地名及事件類型，不補現代位置；白起遷陰密不據此推死亡地，原文芷陽酈山不改字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "葬芷陽酈山",
+      "quote": "十三年，向壽伐韓，取武始。左更白起攻新城。五大夫禮出亡奔魏。任鄙為漢中守。十四年，左更白起攻韓、魏於伊闕，斬首二十四萬，虜公孫喜，拔五城。十五年，大良造白起攻魏，取垣，復予之。攻楚，取宛。十六年，左更錯取軹及鄧。冉免，封公子市宛，公子悝鄧，魏冉陶，為諸侯。十七年，城陽君入朝，及東周君來朝。秦以垣為蒲阪、皮氏。王之宜陽。十八年，錯攻垣、河雍，決橋取之。十九年，王為西帝，齊為東帝，皆復去之。呂禮來自歸。齊破宋，宋王在魏，死溫。任鄙卒。二十年，王之漢中，又之上郡、北河。二十一年，錯攻魏河內。魏獻安邑，秦出其人，募徙河東賜爵，赦罪人遷之。涇陽君封宛。二十二年，蒙武伐齊。河東為九縣。與楚王會宛。與趙王會中陽。二十三年，尉斯離與三晉、燕伐齊，破之濟西。王與魏王會宜陽，與韓王會新城。二十四年，與楚王會鄢，又會穰。秦取魏安城，至大梁，燕、趙救之，秦軍去。魏冉免相。二十五年，拔趙二城。與韓王會新城，與魏王會新明邑。二十六年，赦罪人遷之穰。侯冉復相。二十七年，錯攻楚。赦罪人遷之南陽。白起攻趙，取代光狼城。又使司馬錯發隴西，因蜀攻楚黔中，拔之。二十八年，大良造白起攻楚，取鄢、鄧，赦罪人遷之。二十九年，大良造白起攻楚，取郢為南郡，楚王走。周君來。王與楚王會襄陵。白起為武安君。三十年，蜀守若伐楚，取巫郡，及江南為黔中郡。三十一年，白起伐魏，取兩城。楚人反我江南。三十二年，相穰侯攻魏，至大梁，破暴鳶，斬首四萬，鳶走，魏入三縣請和。三十三年，客卿胡傷攻魏卷、蔡陽、長社，取之。擊芒卯華陽，破之，斬首十五萬。魏入南陽以和。三十四年，秦與魏、韓上庸地為一郡，南陽免臣遷居之。三十五年，佐韓、魏、楚伐燕。初置南陽郡。三十六年，客卿灶攻齊，取剛、壽，予穰侯。三十八年，中更胡傷攻趙閼與，不能取。四十年，悼太子死魏，歸葬芷陽。四十一年夏，攻魏，取邢丘、懷。四十二年，安國君為太子。十月，宣太后薨，葬芷陽酈山。九月，穰侯出之陶。四十三年，武安君白起攻韓，拔九城，斬首五萬。四十四年，攻韓南郡，取之。四十五年，五大夫賁攻韓，取十城。葉陽君悝出之國，未至而死。四十七年，秦攻韓上黨，上黨降趙，秦因攻趙，趙發兵擊秦，相距。秦使武安君白起擊，大破趙於長平，四十餘萬盡殺之。四十八年十月，韓獻垣雍。秦軍分為三軍。武安君歸。王齕將伐趙皮牢，拔之。司馬梗北定太原，盡有韓上黨。正月，兵罷，復守上黨。其十月，五大夫陵攻趙邯鄲。四十九年正月，益發卒佐陵。陵戰不善，免，王齕代將。其十月，將軍張唐攻魏，為蔡尉捐弗守，還斬之。五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。齕攻邯鄲，不拔，去，還奔汾軍。二月餘攻晉軍，斬首六千，晉楚流死河二萬人。攻汾城，即從唐拔寧新中，寧新中更名安陽。初作河橋。"
+    },
+    {
+      "id": "pa-shiji071-012",
+      "person_id": "pvp_ebv_zcb",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "楚",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "楚女也",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p010",
+          "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰首而不朝，公叔且以國南合於楚。楚、韓為一，魏氏不敢不聽，然則伐秦之形成矣。不識坐而待伐孰與伐人之利？」秦王曰：「善。」乃下師於殽以救韓。楚兵去。",
+          "person_mention_id": "c-shiji-071-chugan:m010-0019"
+        }
+      ],
+      "interpretation_note": "保存原地名、地望、居所、實際行程或死葬地，分型別，不補現代轄區；母親出身不給子女出生地，曾參費地與武安君杜郵屬引語傳承。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "楚女也",
+      "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰首而不朝，公叔且以國南合於楚。楚、韓為一，魏氏不敢不聽，然則伐秦之形成矣。不識坐而待伐孰與伐人之利？」秦王曰：「善。」乃下師於殽以救韓。楚兵去。"
+    }
+  ],
   "occurrences": [
+    {
+      "number": 5,
+      "category": "benji",
+      "title": "秦本紀第五",
+      "paragraph_id": "c-shiji-005-qin:p068",
+      "count": 3,
+      "quote": "死。族孟說。武王取魏女為后，無子。立異母弟，是為昭襄王。昭襄母楚人，姓羋氏，號宣太后。武王死時，昭襄王為質於燕，燕人送歸，得立。"
+    },
+    {
+      "number": 71,
+      "category": "liezhuan",
+      "title": "樗里子甘茂列傳第十一",
+      "paragraph_id": "c-shiji-071-chugan:p010",
+      "count": 4,
+      "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰"
+    },
     {
       "number": 72,
       "category": "liezhuan",
@@ -178,10 +413,155 @@
       "paragraph_id": "c-shiji-079-fancai:p007",
       "count": 10,
       "quote": "穰侯，華陽君，昭王母宣太后之弟也；而涇陽君、高陵君皆昭王同母弟也。穰侯相，三人者更將，有封邑，以太后故，私家富重於王室。及穰侯為秦將，且欲越韓、魏而伐齊綱壽，欲以廣其陶封。范睢乃上書曰："
+    },
+    {
+      "number": 110,
+      "category": "liezhuan",
+      "title": "匈奴列傳第五十",
+      "paragraph_id": "c-shiji-110-xiongnu:p004",
+      "count": 2,
+      "quote": "遂拔義渠二十五城。惠王擊魏，魏盡入西河及上郡于秦。秦昭王時，義渠戎王與宣太后亂，有二子。宣太后詐而殺義渠戎王於甘泉，遂起兵伐殘義渠。於是秦有隴西、北地、上郡，築長城以拒胡。而趙武靈王亦變俗胡服，習騎射，北破林胡、樓煩。築長城，自代并陰山下，至高闕爲塞。而置雲中、鴈門、代郡。其"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-015",
+      "cell_id": "shiji-015-r212-c02",
+      "title": "《史記·六國年表》",
+      "quote": "四十二。宣太后薨。安國君為太子。",
+      "year": {
+        "era": "BCE",
+        "value": 265,
+        "astronomical_year": -264,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "265",
+        "source_cell_id": "shiji-015-r212-c00"
+      },
+      "mention": {
+        "id": "shiji-015-r212-c02-m004",
+        "start": 4,
+        "end": 7,
+        "surface": "宣太后",
+        "person_id": "pvp_ebv_zcb",
+        "status": "contextual_provisional",
+        "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-shiji-005-qin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-005",
+      "source_id": "s-shiji-005-qin",
+      "source": {
+        "title": "史記／卷005",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷005",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
+        "revision_id": 8744286,
+        "accessed_on": "2026-10-09",
+        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "铚": "銍",
+            "绖": "絰",
+            "龁": "齕"
+          },
+          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-005-qin:p009",
+              "witness_form": "（世父）世父",
+              "body_reading": "世父",
+              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p022",
+              "witness_form": "铚",
+              "body_reading": "銍",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p028",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p033",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p072",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p074",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "胡（傷）［陽］",
+              "body_reading": "胡傷",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "南（郡）［陽］",
+              "body_reading": "南郡",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "（武安）",
+              "body_reading": "",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-071-chugan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-071",
+      "source_id": "s-shiji-071-chugan",
+      "source": {
+        "title": "史記／卷071",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷071",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152",
+        "revision_id": 2621152,
+        "accessed_on": "2026-10-09",
+        "extent": "20段正文，自樗里子者至太史公論贊；排除ws-header人物導覽、索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML與取得時版本一致，只去外緣空白；保留樗里／樗裏、于、遯、茍與數位轉錄原字。",
+          "note": "全20段正文已核讀；未核底本、影像或現代研究，人物待逐段標註。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-072-rang",
       "work_id": "w-shiji",
@@ -249,9 +629,124 @@
           "note": "全35段正文、HTML篇界及姓名首輪已核讀；未核底本影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-110-xiongnu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "source_id": "s-shiji110-xiongnu",
+      "source": {
+        "title": "史記／卷110",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷110",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+        "revision_id": 8735645,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-015",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source": {
+        "id": "table-witness-shiji-015",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-015",
+        "chapter_id": "table-chapter-shiji-015",
+        "url": "https://zh.wikisource.org/wiki/史記/卷015",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002",
+        "revision": "2607002",
+        "accessed": "2026-10-12",
+        "response_sha256": "eb0624a019e02c24ce90a40bfa24863f4020878062c6e2efea32355033be5559",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "agent_first_pass_named_entities",
+        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
+      }
     }
   ],
   "relations": [
+    {
+      "id": "a-shiji005-072",
+      "subject_person_id": "ao3_0fy_d45",
+      "predicate": "mother",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "昭襄母楚人，姓羋氏，號宣太后",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji071-004",
+      "subject_person_id": "ao3_0fy_d45",
+      "predicate": "mother",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p010",
+          "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰首而不朝，公叔且以國南合於楚。楚、韓為一，魏氏不敢不聽，然則伐秦之形成矣。不識坐而待伐孰與伐人之利？」秦王曰：「善。」乃下師於殽以救韓。楚兵去。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王母宣太后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji071-007",
+      "subject_person_id": "rx6_krw_dmb",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p011",
+          "quote": "秦使向壽平宜陽，而使樗里子、甘茂伐魏皮氏。向壽者，宣太后外族也，而與昭王少相長，故任用。向壽如楚，楚聞秦之貴向壽，而厚事向壽。向壽為秦守宜陽，將以伐韓。韓公仲使蘇代謂向壽曰：「禽困覆車。公破韓，辱公仲，公仲收國復事秦，自以為必可以封。今公與楚解口地，封小令尹以杜陽。秦楚合，復攻韓，韓必亡。韓亡，公仲且躬率其私徒以閼於秦。願公孰慮之也。」向壽曰：「吾合秦楚非以當韓也，子為壽謁之公仲，曰秦韓之交可合也。」蘇代對曰：「願有謁於公。人曰貴其所以貴者貴。王之愛習公也，不如公孫奭；其智能公也，不如甘茂。今二人者皆不得親於秦事，而公獨與王主斷於國者何？彼有以失之也。公孫奭黨於韓，而甘茂黨於魏，故王不信也。今秦楚爭彊而公黨於楚，是與公孫奭、甘茂同道也，公何以異之？人皆言楚之善變也，而公必亡之，是自為責也。公不如與王謀其變也，善韓以備楚，如此則無患矣。韓氏必先以國從公孫奭而後委國於甘茂。韓，公之讎也。今公言善韓以備楚，是外舉不僻讎也。」向壽曰：「然，吾甚欲韓合。」對曰：「甘茂許公仲以武遂，反宜陽之民，今公徒收之，甚難。」向壽曰：「然則奈何？武遂終不可得也？」對曰：「公奚不以秦為韓求潁川於楚？此韓之寄地也。公求而得之，是令行於楚而以其地德韓也。公求而不得，是韓楚之怨不解而交走秦也。秦楚爭彊，而公徐過楚以收韓，此利於秦。」向壽曰：「柰何？」對曰：「此善事也。甘茂欲以魏取齊，公孫奭欲以韓取齊。今公取宜陽以為功，收楚韓以安之，而誅齊魏之罪，是以公孫奭、甘茂無事也。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "宣太后外族也",
+        "kinship_basis": "external_clan_affiliation",
+        "lineage": "unspecified",
+        "generation_difference": null,
+        "exact_distance": null,
+        "connecting_person_ids": null,
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "原文只記向壽為宣太后外族，保留外族語義，不補具體母系親等、共同祖先、連接人物或世代；不補姻親方向。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji072-002",
       "subject_person_id": "ao3_0fy_d45",
@@ -447,8 +942,9 @@
     "09x_42a_awj": "高陵君（穰侯列傳候選）",
     "4tv_nhj_oxt": "羋戎",
     "ao3_0fy_d45": "秦昭王",
-    "pvp_ebv_zcb": "宣太后（穰侯列傳候選）",
+    "pvp_ebv_zcb": "宣太后",
     "r2f_mtq_05s": "魏冉",
+    "rx6_krw_dmb": "向壽（樗里子甘茂列傳候選）",
     "zdv_6wm_e1u": "涇陽君"
   },
   "dates": [],
@@ -457,6 +953,74 @@
     "pvp_ebv_zcb"
   ],
   "preferred_relations": [
+    {
+      "id": "a-shiji005-072",
+      "subject_person_id": "ao3_0fy_d45",
+      "predicate": "mother",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p068",
+          "quote": "昭襄母楚人，姓羋氏，號宣太后",
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存本文明示血緣；異母弟保留原詞，不補母親身份或日期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji071-004",
+      "subject_person_id": "ao3_0fy_d45",
+      "predicate": "mother",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p010",
+          "quote": "武王竟至周，而卒於周。其弟立，為昭王。王母宣太后，楚女也。楚懷王怨前秦敗楚於丹陽而韓不救，乃以兵圍韓雍氏。韓使公仲侈告急於秦。秦昭王新立，太后楚人，不肯救。公仲因甘茂，茂為韓言於秦昭王曰：「公仲方有得秦救，故敢捍楚也。今雍氏圍，秦師不下殽，公仲且仰首而不朝，公叔且以國南合於楚。楚、韓為一，魏氏不敢不聽，然則伐秦之形成矣。不識坐而待伐孰與伐人之利？」秦王曰：「善。」乃下師於殽以救韓。楚兵去。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "王母宣太后",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只取明示兄弟、母與孫，異母不補同母、兄弟不補父親、孫不補闕代。曾參故事中的同名殺人者分存，不把誣傳當孝子殺人事實；燕王使太子不單據此補父子。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji071-007",
+      "subject_person_id": "rx6_krw_dmb",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "pvp_ebv_zcb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-071-chugan",
+          "source_id": "s-shiji-071-chugan",
+          "paragraph_id": "c-shiji-071-chugan:p011",
+          "quote": "秦使向壽平宜陽，而使樗里子、甘茂伐魏皮氏。向壽者，宣太后外族也，而與昭王少相長，故任用。向壽如楚，楚聞秦之貴向壽，而厚事向壽。向壽為秦守宜陽，將以伐韓。韓公仲使蘇代謂向壽曰：「禽困覆車。公破韓，辱公仲，公仲收國復事秦，自以為必可以封。今公與楚解口地，封小令尹以杜陽。秦楚合，復攻韓，韓必亡。韓亡，公仲且躬率其私徒以閼於秦。願公孰慮之也。」向壽曰：「吾合秦楚非以當韓也，子為壽謁之公仲，曰秦韓之交可合也。」蘇代對曰：「願有謁於公。人曰貴其所以貴者貴。王之愛習公也，不如公孫奭；其智能公也，不如甘茂。今二人者皆不得親於秦事，而公獨與王主斷於國者何？彼有以失之也。公孫奭黨於韓，而甘茂黨於魏，故王不信也。今秦楚爭彊而公黨於楚，是與公孫奭、甘茂同道也，公何以異之？人皆言楚之善變也，而公必亡之，是自為責也。公不如與王謀其變也，善韓以備楚，如此則無患矣。韓氏必先以國從公孫奭而後委國於甘茂。韓，公之讎也。今公言善韓以備楚，是外舉不僻讎也。」向壽曰：「然，吾甚欲韓合。」對曰：「甘茂許公仲以武遂，反宜陽之民，今公徒收之，甚難。」向壽曰：「然則奈何？武遂終不可得也？」對曰：「公奚不以秦為韓求潁川於楚？此韓之寄地也。公求而得之，是令行於楚而以其地德韓也。公求而不得，是韓楚之怨不解而交走秦也。秦楚爭彊，而公徐過楚以收韓，此利於秦。」向壽曰：「柰何？」對曰：「此善事也。甘茂欲以魏取齊，公孫奭欲以韓取齊。今公取宜陽以為功，收楚韓以安之，而誅齊魏之罪，是以公孫奭、甘茂無事也。」"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "宣太后外族也",
+        "kinship_basis": "external_clan_affiliation",
+        "lineage": "unspecified",
+        "generation_difference": null,
+        "exact_distance": null,
+        "connecting_person_ids": null,
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "原文只記向壽為宣太后外族，保留外族語義，不補具體母系親等、共同祖先、連接人物或世代；不補姻親方向。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji072-002",
       "subject_person_id": "ao3_0fy_d45",
@@ -649,7 +1213,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji005-100",
+      "person_id": "pvp_ebv_zcb",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "十月",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-005-qin",
+          "source_id": "s-shiji-005-qin",
+          "paragraph_id": "c-shiji-005-qin:p070",
+          "quote": "十三年，向壽伐韓，取武始。左更白起攻新城。五大夫禮出亡奔魏。任鄙為漢中守。十四年，左更白起攻韓、魏於伊闕，斬首二十四萬，虜公孫喜，拔五城。十五年，大良造白起攻魏，取垣，復予之。攻楚，取宛。十六年，左更錯取軹及鄧。冉免，封公子市宛，公子悝鄧，魏冉陶，為諸侯。十七年，城陽君入朝，及東周君來朝。秦以垣為蒲阪、皮氏。王之宜陽。十八年，錯攻垣、河雍，決橋取之。十九年，王為西帝，齊為東帝，皆復去之。呂禮來自歸。齊破宋，宋王在魏，死溫。任鄙卒。二十年，王之漢中，又之上郡、北河。二十一年，錯攻魏河內。魏獻安邑，秦出其人，募徙河東賜爵，赦罪人遷之。涇陽君封宛。二十二年，蒙武伐齊。河東為九縣。與楚王會宛。與趙王會中陽。二十三年，尉斯離與三晉、燕伐齊，破之濟西。王與魏王會宜陽，與韓王會新城。二十四年，與楚王會鄢，又會穰。秦取魏安城，至大梁，燕、趙救之，秦軍去。魏冉免相。二十五年，拔趙二城。與韓王會新城，與魏王會新明邑。二十六年，赦罪人遷之穰。侯冉復相。二十七年，錯攻楚。赦罪人遷之南陽。白起攻趙，取代光狼城。又使司馬錯發隴西，因蜀攻楚黔中，拔之。二十八年，大良造白起攻楚，取鄢、鄧，赦罪人遷之。二十九年，大良造白起攻楚，取郢為南郡，楚王走。周君來。王與楚王會襄陵。白起為武安君。三十年，蜀守若伐楚，取巫郡，及江南為黔中郡。三十一年，白起伐魏，取兩城。楚人反我江南。三十二年，相穰侯攻魏，至大梁，破暴鳶，斬首四萬，鳶走，魏入三縣請和。三十三年，客卿胡傷攻魏卷、蔡陽、長社，取之。擊芒卯華陽，破之，斬首十五萬。魏入南陽以和。三十四年，秦與魏、韓上庸地為一郡，南陽免臣遷居之。三十五年，佐韓、魏、楚伐燕。初置南陽郡。三十六年，客卿灶攻齊，取剛、壽，予穰侯。三十八年，中更胡傷攻趙閼與，不能取。四十年，悼太子死魏，歸葬芷陽。四十一年夏，攻魏，取邢丘、懷。四十二年，安國君為太子。十月，宣太后薨，葬芷陽酈山。九月，穰侯出之陶。四十三年，武安君白起攻韓，拔九城，斬首五萬。四十四年，攻韓南郡，取之。四十五年，五大夫賁攻韓，取十城。葉陽君悝出之國，未至而死。四十七年，秦攻韓上黨，上黨降趙，秦因攻趙，趙發兵擊秦，相距。秦使武安君白起擊，大破趙於長平，四十餘萬盡殺之。四十八年十月，韓獻垣雍。秦軍分為三軍。武安君歸。王齕將伐趙皮牢，拔之。司馬梗北定太原，盡有韓上黨。正月，兵罷，復守上黨。其十月，五大夫陵攻趙邯鄲。四十九年正月，益發卒佐陵。陵戰不善，免，王齕代將。其十月，將軍張唐攻魏，為蔡尉捐弗守，還斬之。五十年十月，武安君白起有罪，為士伍，遷陰密。張唐攻鄭，拔之。十二月，益發卒軍汾城旁。武安君白起有罪，死。齕攻邯鄲，不拔，去，還奔汾軍。二月餘攻晉軍，斬首六千，晉楚流死河二萬人。攻汾城，即從唐拔寧新中，寧新中更名安陽。初作河橋。",
+          "person_mention_id": "c-shiji-005-qin:m070-0783"
+        }
+      ],
+      "source_term": "宣太后薨",
+      "interpretation_note": "依明言死亡或斬殺保存，未至而死不當已到封國。蔡尉捐不守後還斬之依敘事指代判讀。軍隊首級數未另造個人人物；未補西曆。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

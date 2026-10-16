@@ -6,45 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wyk_owg_0tl` | 越人蒙引古 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](wyk_owg_0tl.json) |
-| `wyx_6d2_xxp` | 李悝 | [《史記・孟子荀卿列傳》][59] | [JSON](wyx_6d2_xxp.json) |
-| `wz9_alv_i3k` | 鄒陽 | [《史記・司馬相如列傳》][102] | [JSON](wz9_alv_i3k.json) |
-| `wze_03m_kra` | 郭昌 | [《史記・大宛列傳》][108] | [JSON](wze_03m_kra.json) |
-| `wzh_fbx_a70` | 兒長卿 | [《史記・游俠列傳》][109] | [JSON](wzh_fbx_a70.json) |
-| `wzh_zgv_rkf` | 薛公 | [《史記・魏公子列傳》][62] | [JSON](wzh_zgv_rkf.json) |
-| `wzo_s8b_vyg` | 胡武 | [《史記・陳涉世家》][33] | [JSON](wzo_s8b_vyg.json) |
-| `wzy_kri_13n` | 條侯 | [《史記・酷吏列傳》][107] | [JSON](wzy_kri_13n.json) |
-| `x06_36x_8rd` | 魯昭公 | [《史記・孔子世家》][32] | [JSON](x06_36x_8rd.json) |
-| `x08_b9c_uj2` | 韓宣子 | [《史記・鄭世家》][27] | [JSON](x08_b9c_uj2.json) |
-| `x0b_9fw_ttm` | 殤公（宋弒君記事） | [《史記・宋微子世家》][23] | [JSON](x0b_9fw_ttm.json) |
-| `x0c_k18_u9m` | 步 | [《史記・衛將軍驃騎列傳》][96] | [JSON](x0c_k18_u9m.json) |
-| `x1n_vdt_l94` | 將渠（燕大夫） | [《史記・燕召公世家》][19] | [JSON](x1n_vdt_l94.json) |
-| `x2m_k5j_fdz` | 共王 | [《史記・周本紀》][7] | [JSON](x2m_k5j_fdz.json) |
-| `x2p_rzw_i2t` | 司空季子（重耳秦婚記事） | [《史記・晉世家》][24] | [JSON](x2p_rzw_i2t.json) |
-| `x2u_81x_m6e` | 仲山甫 | [《史記・周本紀》][7] | [JSON](x2u_81x_m6e.json) |
-| `x2v_zid_ab0` | 叔虞 | [《史記・鄭世家》][27] | [JSON](x2v_zid_ab0.json) |
-| `x3c_d03_60b` | 宓不齊 | [《史記・仲尼弟子列傳》][52] | [JSON](x3c_d03_60b.json) |
-| `x4a_v9q_unl` | 嚴助 | [《史記・平津侯主父列傳》][97] | [JSON](x4a_v9q_unl.json) |
-| `x4b_g9c_33o` | 長桑君 | [《史記・扁鵲倉公列傳》][90] | [JSON](x4b_g9c_33o.json) |
-| `x4k_z5z_vqm` | 費無忌 | [《史記・伍子胥列傳》][51] | [JSON](x4k_z5z_vqm.json) |
-| `x4n_p1z_u9i` | 芮子 | [《史記・田敬仲完世家》][31] | [JSON](x4n_p1z_u9i.json) |
-| `x5r_2mn_f36` | 任文（匈奴列傳第55段） | [《史記・匈奴列傳》][95] | [JSON](x5r_2mn_f36.json) |
-| `x5u_3mf_dc8` | 王廖 | [《史記・秦始皇本紀》][9] | [JSON](x5u_3mf_dc8.json) |
-| `x6s_mnz_sy3` | 義姁 | [《史記・酷吏列傳》][107] | [JSON](x6s_mnz_sy3.json) |
-| `x85_w53_dyq` | 高皇帝 | [《史記・儒林列傳》][106] | [JSON](x85_w53_dyq.json) |
-| `x89_ryb_yax` | 呂澤 | [《史記・留侯世家》][40] | [JSON](x89_ryb_yax.json) |
-| `x8h_4i8_xwm` | 劉屈氂（古注辨識） | [《史記・田叔列傳》][89] | [JSON](x8h_4i8_xwm.json) |
-| `x8h_bgr_mc5` | 武（孝惠後宮子稱） | [《史記・呂太后本紀》][12]、[《史記・漢興以來諸侯王年表》][120] | [JSON](x8h_bgr_mc5.json) |
-| `x8n_oxv_xpj` | 衛君 | [《史記・樗里子甘茂列傳》][56] | [JSON](x8n_oxv_xpj.json) |
-| `x8r_9sk_d7a` | 兒寬 | [《史記・儒林列傳》][106] | [JSON](x8r_9sk_d7a.json) |
-| `x8s_zva_utk` | 秦將（負芻二年伐楚未名者） | [《史記・楚世家》][25] | [JSON](x8s_zva_utk.json) |
-| `x8u_5uo_ch7` | 魏文侯 | [《史記・仲尼弟子列傳》][52] | [JSON](x8u_5uo_ch7.json) |
-| `x99_1e5_dbn` | 楚威王 | [《史記・越王勾踐世家》][26] | [JSON](x99_1e5_dbn.json) |
-| `x99_byd_sfy` | 陳涉 | [《史記・儒林列傳》][106] | [JSON](x99_byd_sfy.json) |
-| `x9l_eux_c3n` | 申陽 | [《史記・項羽本紀》][10]、[《史記・高祖本紀》][11]、[《史記・秦楚之際月表》][119] | [JSON](x9l_eux_c3n.json) |
-| `x9n_lwg_op5` | 騶田生 | [《史記・韓長孺列傳》][93] | [JSON](x9n_lwg_op5.json) |
-| `x9q_ghs_z2s` | 蒯通 | [《史記・淮陰侯列傳》][77] | [JSON](x9q_ghs_z2s.json) |
-| `xao_0ow_h3w` | 讓（列侯） | [《史記・淮南衡山列傳》][103] | [JSON](xao_0ow_h3w.json) |
 | `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][25] | [JSON](xbl_kip_rw4.json) |
 | `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][34] | [JSON](xbm_dvk_k14.json) |
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][29] | [JSON](xcs_h9s_rgw.json) |
@@ -424,7 +385,6 @@
 [23]: https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306
 [24]: https://zh.wikisource.org/w/index.php?title=史記/卷039&oldid=2588534
 [25]: https://zh.wikisource.org/w/index.php?title=史記/卷040&oldid=8736796
-[26]: https://zh.wikisource.org/w/index.php?title=史記/卷041&oldid=2018395
 [27]: https://zh.wikisource.org/w/index.php?title=史記/卷042&oldid=2016409
 [28]: https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603
 [29]: https://zh.wikisource.org/w/index.php?title=史記/卷044&oldid=7903606
@@ -501,6 +461,5 @@
 [116]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
 [118]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
 [119]: https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007
-[120]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
