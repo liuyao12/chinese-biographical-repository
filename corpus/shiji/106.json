@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全21段初讀；64筆新增候選、225處所選錨點、10條親屬、3筆地點、34筆官爵及4項跨篇暫定同指。 七國事書信五組王號依同篇詔書具名接合；不同時期吳太子、膠西太子德與德侯仍分存。 九組跨篇身份依具體事件接合，周亞夫依既有057明示父子接周勃同根，子代沿原路徑遷移。 德侯暫辨名通，與年表原名錨點接合；廣異說及古注閱讀範圍分存，不改正文或補親屬。 八組齊、濟北、城陽祖德及梁方人物跨篇辨識，將閭明示父系接劉肥；敘次差異不抹平。 續核末段八處逐人王號／將軍，保存十五筆死亡及三筆報齡；漢初紀年以跨年範圍分存。 楚死事相依050及古注明指接張尚，050同次喪服事件薄太后接既有人物；張羽弟關係原序保留。 漢書035八段交叉核讀，起兵太子依同諫田祿伯及太子駒亡閩越暫接駒；少子與子華不合併。",
+    "coverage": "全21段初讀；64筆新增候選、225處所選錨點、10條親屬、3筆地點、34筆官爵及4項跨篇暫定同指。 七國事書信五組王號依同篇詔書具名接合；不同時期吳太子、膠西太子德與德侯仍分存。 九組跨篇身份依具體事件接合，周亞夫依既有057明示父子接周勃同根，子代沿原路徑遷移。 德侯暫辨名通，與年表原名錨點接合；廣異說及古注閱讀範圍分存，不改正文或補親屬。 八組齊、濟北、城陽祖德及梁方人物跨篇辨識，將閭明示父系接劉肥；敘次差異不抹平。 續核末段八處逐人王號／將軍，保存十五筆死亡及三筆報齡；漢初紀年以跨年範圍分存。 楚死事相依050及古注明指接張尚，050同次喪服事件薄太后接既有人物；張羽弟關係原序保留。 漢書035八段交叉核讀，起兵太子依同諫田祿伯及太子駒亡閩越暫接駒；少子與子華不合併。 五段續補29處太子、王、大王、主上、太后與太尉之具體回指，九項段內身份判斷。",
     "limitations": [
       "僅為核讀過正文的長名與部分稱謂草稿；短稱、代詞、匿名及共同王號未完成。",
       "已分配來源候選人物 ID；跨篇同指另以事件證據保存，不按同名合併。",
@@ -45,7 +45,8 @@
       "吳王子子華、子駒姓名含子字，不截成華、駒；少子未名不自動同指。",
       "太后、太子德與膠西王卬親屬在其上下文範圍判讀，不把其他王后太子合併。",
       "屬群體的諸將、吳使、楚人師傅仍待補未解錨點；下邳令已保存匿名候選。",
-      "第十七段與楚王遂西敗棘壁的遂可能是連詞，不單按楚王遂字串認作趙王遂或另一楚王姓名。"
+      "第十七段與楚王遂西敗棘壁的遂可能是連詞，不單按楚王遂字串認作趙王遂或另一楚王姓名。",
+      "p004今吳王前有太子之郄之太子仍待辨其指人或事，未將前兩處太子同指機械沿用；國名／軍隊名亦不一律標人。"
     ],
     "age_assertions": [
       {
@@ -677,6 +678,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0026",
           "start": 26,
           "end": 29,
@@ -713,6 +732,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "高帝",
+          "person_id": "yqp_nlb_p1p_A",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0089",
           "start": 89,
           "end": 92,
@@ -731,6 +759,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0112",
+          "start": 112,
+          "end": 113,
+          "surface": "濞",
+          "person_id": "yqp_nlb_p1p_CA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0131",
           "start": 131,
           "end": 133,
@@ -746,6 +783,15 @@
           "surface": "文帝",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0234",
+          "start": 234,
+          "end": 236,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -773,6 +819,15 @@
           "surface": "薄太后",
           "kind": "person",
           "person_id": "9zj_vf7_86a_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0287",
+          "start": 287,
+          "end": 289,
+          "surface": "趙王",
+          "person_id": "yqp_nlb_p1p_AEA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -838,6 +893,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0101",
+          "start": 101,
+          "end": 102,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0111",
           "start": 111,
           "end": 112,
@@ -847,12 +911,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "主上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0199",
           "start": 199,
           "end": 201,
           "surface": "吳王",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_CA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0239",
+          "start": 239,
+          "end": 241,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0269",
+          "start": 269,
+          "end": 270,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -874,6 +965,33 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0320",
+          "start": 320,
+          "end": 322,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0347",
+          "start": 347,
+          "end": 348,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0362",
+          "start": 362,
+          "end": 364,
+          "surface": "主上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0378",
           "start": 378,
           "end": 379,
@@ -889,6 +1007,15 @@
           "surface": "晁錯",
           "kind": "person",
           "person_id": "04u_gq0_nke_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0391",
+          "start": 391,
+          "end": 393,
+          "surface": "天子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -910,12 +1037,66 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0462",
+          "start": 462,
+          "end": 464,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0489",
+          "start": 489,
+          "end": 491,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0500",
           "start": 500,
           "end": 502,
           "surface": "吳王",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_CA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0503",
+          "start": 503,
+          "end": 505,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0527",
+          "start": 527,
+          "end": 529,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0530",
+          "start": 530,
+          "end": 532,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0555",
+          "start": 555,
+          "end": 556,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -953,6 +1134,42 @@
       "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-106-wuwang:m006-0006",
+          "start": 6,
+          "end": 7,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "太后",
+          "person_id": "pxm_dwu_afr",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0071",
+          "start": 71,
+          "end": 72,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
         {
           "id": "c-shiji-106-wuwang:m006-0100",
           "start": 100,
@@ -2077,6 +2294,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m017-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m017-0024",
           "start": 24,
           "end": 27,
@@ -2110,6 +2336,24 @@
           "surface": "條侯",
           "kind": "person",
           "person_id": "koy_6jg_gcc_C",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m017-0071",
+          "start": 71,
+          "end": 72,
+          "surface": "上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m017-0073",
+          "start": 73,
+          "end": 74,
+          "surface": "上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -2257,6 +2501,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m017-0310",
+          "start": 310,
+          "end": 312,
+          "surface": "太尉",
+          "person_id": "koy_6jg_gcc_C",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m017-0316",
           "start": 316,
           "end": 319,
@@ -2397,6 +2650,15 @@
           "surface": "太后",
           "kind": "person",
           "person_id": "pxm_dwu_afr",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0391",
+          "start": 391,
+          "end": 393,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ABBA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
