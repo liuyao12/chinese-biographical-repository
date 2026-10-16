@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ghk_av2_9f8` | 公之魚 | [《史記・孔子世家》][32] | [JSON](ghk_av2_9f8.json) |
-| `ghq_hdt_7iz` | 子結（楚昭王弟） | [《史記・楚世家》][25] | [JSON](ghq_hdt_7iz.json) |
 | `gi7_lw7_z9m` | 韓馮 | [《史記・田敬仲完世家》][31] | [JSON](gi7_lw7_z9m.json) |
 | `gir_5c2_ilu` | 楊中倩待核異稱 | [《史記・扁鵲倉公列傳》][90] | [JSON](gir_5c2_ilu.json) |
 | `gix_plv_xhr` | 子賤 | [《史記・滑稽列傳》][111] | [JSON](gix_plv_xhr.json) |
@@ -510,7 +508,6 @@
 | `k7x_gmp_ffr` | 伯翳 | [《史記・鄭世家》][27] | [JSON](k7x_gmp_ffr.json) |
 | `k8d_2sn_e4f` | 唐雎 | [《史記・魏世家》][29] | [JSON](k8d_2sn_e4f.json) |
 | `k8f_g8u_4xk` | 公子勝 | [《史記・趙世家》][28]、[《史記・六國年表》][118] | [JSON](k8f_g8u_4xk.json) |
-| `k8g_wo9_ejj` | 烏孫王（未名，公主婚配所指） | [《史記・匈奴列傳》][95] | [JSON](k8g_wo9_ejj.json) |
 | `k8p_ptb_xa1` | 武臣 | [《史記・張耳陳餘列傳》][74] | [JSON](k8p_ptb_xa1.json) |
 | `k8q_kv9_k4o` | 趙王如意 | [《史記・淮南衡山列傳》][103] | [JSON](k8q_kv9_k4o.json) |
 | `k9m_d4o_f34` | 程處 | [《史記・曹相國世家》][39]、[《史記・樊酈滕灌列傳》][80] | [JSON](k9m_d4o_f34.json) |
@@ -1027,7 +1024,6 @@
 | `odt_ipa_i2h` | 濟北王未具名 | [《史記・扁鵲倉公列傳》][90] | [JSON](odt_ipa_i2h.json) |
 | `oe2_gjc_vk6` | 趙王（救齊） | [《史記・滑稽列傳》][111] | [JSON](oe2_gjc_vk6.json) |
 | `oe3_qqv_y6t` | 袁盎 | [《史記・汲鄭列傳》][105] | [JSON](oe3_qqv_y6t.json) |
-| `oe4_3q9_y4m` | 大宛王（未名，貳師將軍所斬者） | [《史記・匈奴列傳》][95] | [JSON](oe4_3q9_y4m.json) |
 | `oeb_7jj_w9t` | 閼與秦間未名 | [《史記・廉頗藺相如列傳》][66] | [JSON](oeb_7jj_w9t.json) |
 | `oef_17e_520` | 夫差 | [《史記・蘇秦列傳》][54] | [JSON](oef_17e_520.json) |
 | `ofc_8ei_jb7` | 韓信 | [《史記・淮陰侯列傳》][77] | [JSON](ofc_8ei_jb7.json) |
@@ -1540,7 +1536,6 @@
 | `s5o_lxl_fqe` | 項羽 | [《史記・曹相國世家》][39] | [JSON](s5o_lxl_fqe.json) |
 | `s63_f1q_qe0` | 田臣思 | [《史記・田敬仲完世家》][31] | [JSON](s63_f1q_qe0.json) |
 | `s74_0jk_msn` | 召公（厲宣時） | [《史記・周本紀》][7] | [JSON](s74_0jk_msn.json) |
-| `s79_jb8_yix` | 妻烏孫王的公主（未名，匈奴列傳） | [《史記・匈奴列傳》][95] | [JSON](s79_jb8_yix.json) |
 | `s7e_or3_oyt` | 韓宣惠王 | [《史記・留侯世家》][40] | [JSON](s7e_or3_oyt.json) |
 | `s7q_qps_pba` | 仲行（子輿氏） | [《史記・秦本紀》][8] | [JSON](s7q_qps_pba.json) |
 | `s7w_fi5_1wh` | 楊熊 | [《史記・淮南衡山列傳》][103] | [JSON](s7w_fi5_1wh.json) |
@@ -2218,6 +2213,11 @@
 | `x9n_lwg_op5` | 騶田生 | [《史記・韓長孺列傳》][93] | [JSON](x9n_lwg_op5.json) |
 | `x9q_ghs_z2s` | 蒯通 | [《史記・淮陰侯列傳》][77] | [JSON](x9q_ghs_z2s.json) |
 | `xao_0ow_h3w` | 讓（列侯） | [《史記・淮南衡山列傳》][103] | [JSON](xao_0ow_h3w.json) |
+| `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][25] | [JSON](xbl_kip_rw4.json) |
+| `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][34] | [JSON](xbm_dvk_k14.json) |
+| `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][29] | [JSON](xcs_h9s_rgw.json) |
+| `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][18] | [JSON](xcv_pkj_crw.json) |
+| `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][52] | [JSON](xcz_sby_ker.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
