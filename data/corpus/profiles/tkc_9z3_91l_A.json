@@ -2,22 +2,101 @@
   "schema_version": 1,
   "id": "tkc_9z3_91l_A",
   "canonical_person_id": "tkc_9z3_91l_A",
-  "label": "朱建子未名（太史公友）（酈生陸賈列傳候選）",
+  "label": "朱建子未名",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "子"
+    "子",
+    "其子"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "id": "th-shiji097-021",
+      "person_id": "tkc_9z3_91l_A",
+      "title": "中大夫",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji097-021:a001",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "start": 116,
+          "end": 119,
+          "surface": "中大夫",
+          "person_mention_id": "c-shiji-097-luli:m020-0111",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-097-luli",
+              "source_id": "s-shiji-097-luli",
+              "paragraph_id": "c-shiji-097-luli:p020",
+              "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實授、敘事用稱與自立分存；死亡不自動終止官爵。陸賈病免依官職承接，文帝時陳丞相言陸生為太中大夫保留用稱，不冒作明示拜授。朱建後復事黥布不等於明示復相。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-shiji097-005",
+      "person_id": "tkc_9z3_91l_A",
+      "relation": "death_place",
+      "place": {
+        "source_name": "匈奴中",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+        }
+      ],
+      "source_term": "遂死匈奴中",
+      "interpretation_note": "出身、居住與死亡地分存，不推今日行政區或出生地；好畤可以家焉保留原文，不逕當已居住。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "遂死匈奴中",
+      "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+    }
+  ],
   "occurrences": [
     {
       "number": 97,
       "category": "liezhuan",
       "title": "酈生陸賈列傳第三十七",
-      "paragraph_id": "c-shiji-097-luli:p024",
-      "count": 1,
-      "quote": "羽別而至高陽，得酈生兄弟。余讀陸生新語書十二篇，固當世之辯士。至平原君子與余善，是以得具論之。"
+      "paragraph_id": "c-shiji-097-luli:p020",
+      "count": 2,
+      "quote": "死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
     }
   ],
   "table_occurrences": [],
@@ -49,7 +128,7 @@
   ],
   "relations": [
     {
-      "id": "a-shiji097-005",
+      "id": "a-shiji097-004",
       "subject_person_id": "tkc_9z3_91l_A",
       "predicate": "father",
       "object_person_id": "tkc_9z3_91l",
@@ -58,28 +137,17 @@
         {
           "chapter_id": "c-shiji-097-luli",
           "source_id": "s-shiji-097-luli",
-          "paragraph_id": "c-shiji-097-luli:p024",
-          "quote": "太史公曰：世之傳酈生書，多曰漢王已拔三秦，東擊項籍而引軍於鞏洛之閒，酈生被儒衣往說漢王。乃非也。自沛公未入關，與項羽別而至高陽，得酈生兄弟。余讀陸生新語書十二篇，固當世之辯士。至平原君子與余善，是以得具論之。"
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
         }
       ],
       "qualifiers": {
-        "source_term": "平原君子",
+        "source_term": "乃召其子",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "原文明示親屬，未名人物保留原稱；兩處朱建子未先合併。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
+      "interpretation_note": "原文明示親屬，未名人物保留原稱；朱建兩處未名子依索隱另存暫定同指。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
       "reviewer": "Codex（AI 代理）"
-    }
-  ],
-  "related_people": {
-    "tkc_9z3_91l": "朱建（酈生陸賈列傳候選）",
-    "tkc_9z3_91l_A": "朱建子未名（太史公友）（酈生陸賈列傳候選）"
-  },
-  "dates": [],
-  "name_components": [],
-  "person_ids": [
-    "tkc_9z3_91l_A"
-  ],
-  "preferred_relations": [
+    },
     {
       "id": "a-shiji097-005",
       "subject_person_id": "tkc_9z3_91l_A",
@@ -98,7 +166,60 @@
         "source_term": "平原君子",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "原文明示親屬，未名人物保留原稱；兩處朱建子未先合併。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
+      "interpretation_note": "原文明示親屬，未名人物保留原稱；朱建兩處未名子依索隱另存暫定同指。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "tkc_9z3_91l": "朱建（酈生陸賈列傳候選）",
+    "tkc_9z3_91l_A": "朱建子未名"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "tkc_9z3_91l_A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji097-004",
+      "subject_person_id": "tkc_9z3_91l_A",
+      "predicate": "father",
+      "object_person_id": "tkc_9z3_91l",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "乃召其子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "原文明示親屬，未名人物保留原稱；朱建兩處未名子依索隱另存暫定同指。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji097-005",
+      "subject_person_id": "tkc_9z3_91l_A",
+      "predicate": "father",
+      "object_person_id": "tkc_9z3_91l",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p024",
+          "quote": "太史公曰：世之傳酈生書，多曰漢王已拔三秦，東擊項籍而引軍於鞏洛之閒，酈生被儒衣往說漢王。乃非也。自沛公未入關，與項羽別而至高陽，得酈生兄弟。余讀陸生新語書十二篇，固當世之辯士。至平原君子與余善，是以得具論之。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "平原君子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "原文明示親屬，未名人物保留原稱；朱建兩處未名子依索隱另存暫定同指。疥嗣三世不補中間父系或將武遂侯平直接當疥子。",
       "reviewer": "Codex（AI 代理）"
     }
   ],

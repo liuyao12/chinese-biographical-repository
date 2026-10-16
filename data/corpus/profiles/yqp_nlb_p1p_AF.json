@@ -301,6 +301,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji097-020",
+      "person_id": "yqp_nlb_p1p_AF",
+      "title": "淮南厲王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-097-luli",
+          "source_id": "s-shiji-097-luli",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」乃召其子，拜為中大夫。使匈奴，單于無禮，乃罵單于，遂死匈奴中。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji097-020:a001",
+          "paragraph_id": "c-shiji-097-luli:p020",
+          "start": 5,
+          "end": 9,
+          "surface": "淮南厲王",
+          "person_mention_id": "c-shiji-097-luli:m020-0005",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "實授、敘事用稱與自立分存；死亡不自動終止官爵。陸賈病免依官職承接，文帝時陳丞相言陸生為太中大夫保留用稱，不冒作明示拜授。朱建後復事黥布不等於明示復相。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji101-006",
       "person_id": "yqp_nlb_p1p_AF",
       "title": "淮南厲王",
@@ -571,6 +613,14 @@
       "quote": "籍。蒼又善用算律歷，故令蒼以列侯居相府，領主郡國上計者。黥布反亡，漢立皇子長為淮南王，而張蒼相之。十四年，遷為御史大夫。"
     },
     {
+      "number": 97,
+      "category": "liezhuan",
+      "title": "酈生陸賈列傳第三十七",
+      "paragraph_id": "c-shiji-097-luli:p020",
+      "count": 1,
+      "quote": "孝文帝時，淮南厲王殺辟陽侯，以諸呂故。文帝聞其客平原君為計策，使吏捕欲治。聞吏至門，平原君欲自殺。諸子及吏皆曰：「事未可知，何早自殺為？」平原君曰：「我死禍絕，不及而身矣。」遂自剄。孝文帝聞而惜之，曰：「吾無意殺之。」"
+    },
+    {
       "number": 101,
       "category": "liezhuan",
       "title": "袁盎鼂錯列傳第四十一",
@@ -785,6 +835,30 @@
           "editorial_readings": [],
           "extraction_note": "固定HTML一致，只去外緣空白；亨周苛、（不）、困妯囡及邴丞相等原字保留。",
           "note": "全30個HTML區塊已讀，未核底本影像。後段征和以後丞相記述在此見證未署補作者，不冒署褚先生。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-097-luli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-097",
+      "source_id": "s-shiji-097-luli",
+      "source": {
+        "title": "史記／卷097",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷097",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195",
+        "revision_id": 1383195,
+        "accessed_on": "2026-10-09",
+        "extent": "24段傳世正文含太史公論，另附1段分層索隱述贊；排除導覽與空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML一致，只去外緣空白；亨、尉他及尉佗等原字保留，前後陳留敘事分存。",
+          "note": "全27個HTML區塊已讀；無tooltip/reference/del/s，未核底本影像。"
         }
       }
     },

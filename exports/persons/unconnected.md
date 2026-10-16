@@ -694,7 +694,6 @@
 | `4yy_xd0_rft` | 梁王（魏世家蘇代游説所指未名者） | [《史記・魏世家》][26] | [JSON](4yy_xd0_rft.json) |
 | `4z2_eut_yeu` | 范陽令未名 | [《史記・張耳陳餘列傳》][71] | [JSON](4z2_eut_yeu.json) |
 | `4zn_n9v_k0v` | 戈船將軍 | [《史記・南越列傳》][95] | [JSON](4zn_n9v_k0v.json) |
-| `50g_j9s_2le` | 項羽 | [《史記・酈生陸賈列傳》][79] | [JSON](50g_j9s_2le.json) |
 | `50q_se5_gmw` | 湯 | [《史記・商君列傳》][50] | [JSON](50q_se5_gmw.json) |
 | `50s_src_65d` | 齊湣王（楚篇約從者） | [《史記・楚世家》][22] | [JSON](50s_src_65d.json) |
 | `50y_zbc_5tv` | 伯夷 | [《史記・游俠列傳》][106] | [JSON](50y_zbc_5tv.json) |
@@ -1339,7 +1338,6 @@
 | `9gv_44u_szv` | 孝文帝 | [《史記・酷吏列傳》][104] | [JSON](9gv_44u_szv.json) |
 | `9h9_tgw_47c` | 燕姬（景公夫人） | [《史記・齊太公世家》][14] | [JSON](9h9_tgw_47c.json) |
 | `9hj_6cy_ivu` | 朔（衛） | [《史記・太史公自序》][112] | [JSON](9hj_6cy_ivu.json) |
-| `9hr_p35_zdj` | 閎籍孺 | [《史記・酈生陸賈列傳》][79] | [JSON](9hr_p35_zdj.json) |
 | `9hw_mvo_jk8` | 韓相俠累 | [《史記・刺客列傳》][68] | [JSON](9hw_mvo_jk8.json) |
 | `9i1_0jo_8sa` | 淮南厲王 | [《史記・屈原賈生列傳》][66] | [JSON](9i1_0jo_8sa.json) |
 | `9ib_xph_vc1` | 右賢王（匈奴列傳第15段） | [《史記・匈奴列傳》][92] | [JSON](9ib_xph_vc1.json) |
@@ -2227,6 +2225,8 @@
 | `fpg_x4b_tif` | 冒頓 | [《史記・大宛列傳》][105] | [JSON](fpg_x4b_tif.json) |
 | `fpp_ue3_su5` | 周主鴆（未名） | [《史記・衛康叔世家》][19] | [JSON](fpp_ue3_su5.json) |
 | `fpv_2sb_uay` | 陸賈 | [《史記・酈生陸賈列傳》][79] | [JSON](fpv_2sb_uay.json) |
+| `fq3_1ko_7tz` | 周惠王 | [《史記・鄭世家》][24] | [JSON](fq3_1ko_7tz.json) |
+| `fqj_az4_0ep` | 臣扈（君奭引述） | [《史記・燕召公世家》][16] | [JSON](fqj_az4_0ep.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
