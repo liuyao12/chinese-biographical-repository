@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w3g_k4m_zrn` | 常山尉未名 | [《史記・韓信盧綰列傳》][76] | [JSON](w3g_k4m_zrn.json) |
-| `w3l_lcg_0qp` | 折蘭王（未名） | [《史記・衛將軍驃騎列傳》][94] | [JSON](w3l_lcg_0qp.json) |
-| `w41_czk_7u6` | 留長孺 | [《史記・日者列傳》][110] | [JSON](w41_czk_7u6.json) |
-| `w49_0we_e97` | 齊王伐梁 | [《史記・張儀列傳》][53] | [JSON](w49_0we_e97.json) |
 | `w4q_ozz_a8d` | 於陵子仲引古 | [《史記・魯仲連鄒陽列傳》][66] | [JSON](w4q_ozz_a8d.json) |
 | `w59_f48_cbg` | 魏齊 | [《史記・太史公自序》][113] | [JSON](w59_f48_cbg.json) |
 | `w5h_6ah_6b1` | 勇之 | [《史記・孝武本紀》][13] | [JSON](w5h_6ah_6b1.json) |
@@ -174,7 +170,7 @@
 | `xd0_yc1_jd5` | 齊太史（崔杼弒君書者未名） | [《史記・齊太公世家》][15] | [JSON](xd0_yc1_jd5.json) |
 | `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][31] | [JSON](xd1_b6x_v7v.json) |
 | `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][50] | [JSON](xd1_no8_2ar.json) |
-| `xdq_h9k_zzl` | 遷母（趙世家倡未名者） | [《史記・趙世家》][26] | [JSON](xdq_h9k_zzl.json) |
+| `xdq_h9k_zzl` | 遷母（趙世家倡未名者） | [《史記・趙世家》][26]、[《史記・張釋之馮唐列傳》][85] | [JSON](xdq_h9k_zzl.json) |
 | `xer_mp5_agd` | 楚使者未名 | [《史記・黥布列傳》][74] | [JSON](xer_mp5_agd.json) |
 | `xfe_r6u_pp8` | 噲（樊酈提要） | [《史記・太史公自序》][113] | [JSON](xfe_r6u_pp8.json) |
 | `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][50] | [JSON](xg5_2en_bvd.json) |
@@ -603,7 +599,6 @@
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [74]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
 [75]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147
-[76]: https://zh.wikisource.org/w/index.php?title=史記/卷093&oldid=368019
 [78]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [80]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
