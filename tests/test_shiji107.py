@@ -75,8 +75,8 @@ class WeiqiSourceTests(unittest.TestCase):
 
     def test_office_dismissal_does_not_end_noble_rank(self):
         hs = self.load('-titles')['holdings']
-        office = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '相')
-        rank = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '桃侯')
+        office = next(h for h in hs if h['person_id'] == '3p2_0dm_6ra' and h['title'] == '相')
+        rank = next(h for h in hs if h['person_id'] == '3p2_0dm_6ra' and h['title'] == '桃侯')
         self.assertEqual(office['effective_period']['end']['event_type'], 'deposition')
         self.assertEqual(rank['effective_period']['end']['status'], 'unknown')
 

@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `g65_rlp_udt` | 楚莊王 | [《史記・伍子胥列傳》][50] | [JSON](g65_rlp_udt.json) |
-| `g68_3hl_fiw` | 王衛尉 | [《史記・蕭相國世家》][37] | [JSON](g68_3hl_fiw.json) |
-| `g6e_oyg_ok4` | 司馬子綦 | [《史記・伍子胥列傳》][50] | [JSON](g6e_oyg_ok4.json) |
-| `g6i_kby_l4h` | 環淵 | [《史記・孟子荀卿列傳》][58] | [JSON](g6i_kby_l4h.json) |
-| `g6l_rp7_156` | 桀 | [《史記・張丞相列傳》][80] | [JSON](g6l_rp7_156.json) |
-| `g6n_ybc_0r2` | 義伯 | [《史記・殷本紀》][5] | [JSON](g6n_ybc_0r2.json) |
 | `g78_bf1_b8v` | 髙后 | [《史記・酷吏列傳》][106] | [JSON](g78_bf1_b8v.json) |
 | `g7g_fpv_oq5` | 實遣家人子未名 | [《史記・劉敬叔孫通列傳》][83] | [JSON](g7g_fpv_oq5.json) |
 | `g8d_9kf_uqg` | 莊忌夫子 | [《史記・魯仲連鄒陽列傳》][67] | [JSON](g8d_9kf_uqg.json) |
@@ -1100,7 +1094,6 @@
 | `ohe_hlc_y40` | 閼路（杞哀公） | [《史記・陳杞世家》][20] | [JSON](ohe_hlc_y40.json) |
 | `oho_r3f_c6y` | 堯 | [《史記・五帝本紀》][3] | [JSON](oho_r3f_c6y.json) |
 | `ohw_icg_qzk` | 魯大師（孔子世家未名者） | [《史記・孔子世家》][31] | [JSON](ohw_icg_qzk.json) |
-| `oie_tl5_yxn` | 桃侯舍 | [《史記・萬石張叔列傳》][87] | [JSON](oie_tl5_yxn.json) |
 | `oil_hwe_l58` | 湯 | [《史記・平津侯主父列傳》][96] | [JSON](oil_hwe_l58.json) |
 | `oiq_apr_p95` | 黎 | [《史記・太史公自序》][114] | [JSON](oiq_apr_p95.json) |
 | `oiy_a5y_l1t` | 犀首 | [《史記・魏世家》][28] | [JSON](oiy_a5y_l1t.json) |
@@ -2221,6 +2214,12 @@
 | `wnf_7c0_qa3` | 陽虎 | [《史記・孔子世家》][31] | [JSON](wnf_7c0_qa3.json) |
 | `wng_nsz_uav` | 公孫龍 | [《史記・仲尼弟子列傳》][51] | [JSON](wng_nsz_uav.json) |
 | `wnj_6yq_aha` | 徐樂 | [《史記・平津侯主父列傳》][96] | [JSON](wnj_6yq_aha.json) |
+| `wnn_236_u9x` | 育 | [《史記・司馬相如列傳》][101] | [JSON](wnn_236_u9x.json) |
+| `wnp_0s3_0eg` | 太尉弱 | [《史記・絳侯周勃世家》][41] | [JSON](wnp_0s3_0eg.json) |
+| `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][51] | [JSON](wnp_vk6_qhe.json) |
+| `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][23] | [JSON](wny_01o_f36.json) |
+| `woj_cq6_ajq` | 嘉（呂台嗣王） | [《史記・漢興以來諸侯王年表》][119] | [JSON](woj_cq6_ajq.json) |
+| `won_vq8_gwj` | 蔡 | [《史記・淮南衡山列傳》][102] | [JSON](won_vq8_gwj.json) |
 
 [2]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

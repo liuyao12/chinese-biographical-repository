@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wnn_236_u9x` | 育 | [《史記・司馬相如列傳》][101] | [JSON](wnn_236_u9x.json) |
-| `wnp_0s3_0eg` | 太尉弱 | [《史記・絳侯周勃世家》][41] | [JSON](wnp_0s3_0eg.json) |
-| `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][51] | [JSON](wnp_vk6_qhe.json) |
-| `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][23] | [JSON](wny_01o_f36.json) |
-| `woj_cq6_ajq` | 嘉（呂台嗣王） | [《史記・漢興以來諸侯王年表》][119] | [JSON](woj_cq6_ajq.json) |
-| `won_vq8_gwj` | 蔡 | [《史記・淮南衡山列傳》][102] | [JSON](won_vq8_gwj.json) |
 | `wpf_sw1_wb0` | 嬰（魏其） | [《史記・太史公自序》][114] | [JSON](wpf_sw1_wb0.json) |
 | `wpi_4yz_de2` | 王姬（齊桓公夫人） | [《史記・齊太公世家》][16] | [JSON](wpi_4yz_de2.json) |
 | `wpm_b14_e28` | 楚平王 | [《史記・刺客列傳》][70] | [JSON](wpm_b14_e28.json) |
@@ -177,7 +171,6 @@
 | `xvq_2vi_og2` | 秦昭王 | [《史記・田敬仲完世家》][30] | [JSON](xvq_2vi_og2.json) |
 | `xw0_62h_nxt` | 家監未名 | [《史記・田叔列傳》][88] | [JSON](xw0_62h_nxt.json) |
 | `xwc_7eh_kj1` | 上官大夫未名 | [《史記・屈原賈生列傳》][68] | [JSON](xwc_7eh_kj1.json) |
-| `xwe_h0r_1x4` | 桃侯（本篇未名） | [《史記・魏其武安侯列傳》][91] | [JSON](xwe_h0r_1x4.json) |
 | `xx7_loh_2ge` | 郤克 | [《史記・齊太公世家》][16] | [JSON](xx7_loh_2ge.json) |
 | `xx8_6pg_u24` | 簡公婦人（田世家檀臺未名者） | [《史記・田敬仲完世家》][30] | [JSON](xx8_6pg_u24.json) |
 | `xx9_ni7_l9f` | 祖辛 | [《史記・殷本紀》][5]、[《史記・三代世表》][115] | [JSON](xx9_ni7_l9f.json) |
