@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][22] | [JSON](vv9_ss8_28z.json) |
-| `vvf_lzn_pw4` | 東郭先生 | [《史記・滑稽列傳》][109] | [JSON](vvf_lzn_pw4.json) |
-| `vvg_bgl_w1b` | 伯虔 | [《史記・仲尼弟子列傳》][50] | [JSON](vvg_bgl_w1b.json) |
-| `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][31] | [JSON](vvg_rba_nwr.json) |
-| `vvt_6h5_czb` | 湯引古短稱 | [《史記・屈原賈生列傳》][67] | [JSON](vvt_6h5_czb.json) |
-| `vvv_ws5_he1` | 齊緡王 | [《史記・高祖本紀》][9] | [JSON](vvv_ws5_he1.json) |
-| `vvw_4vz_j9e` | 田常 | [《史記・平津侯主父列傳》][95] | [JSON](vvw_4vz_j9e.json) |
 | `vw5_ynq_5fx` | 田溉 | [《史記・曹相國世家》][37] | [JSON](vw5_ynq_5fx.json) |
 | `vwi_95l_l6d` | 目夷（宋襄公庶兄） | [《史記・宋微子世家》][21] | [JSON](vwi_95l_l6d.json) |
 | `vws_wz0_hsv` | 梅免 | [《史記・酷吏列傳》][105] | [JSON](vws_wz0_hsv.json) |
@@ -286,7 +279,6 @@
 | `xuq_4z2_6go` | 殷中 | [《史記・酷吏列傳》][105] | [JSON](xuq_4z2_6go.json) |
 | `xv2_ujg_1pe` | 楚王割東國未定 | [《史記・孟嘗君列傳》][58] | [JSON](xv2_ujg_1pe.json) |
 | `xv5_hg2_v5w` | 馮劫 | [《史記・秦始皇本紀》][7] | [JSON](xv5_hg2_v5w.json) |
-| `xv9_2k8_d07` | 周成王 | [《史記・劉敬叔孫通列傳》][82] | [JSON](xv9_2k8_d07.json) |
 | `xvc_q9g_mkx` | 臧氏老（季氏所囚未名） | [《史記・魯周公世家》][16] | [JSON](xvc_q9g_mkx.json) |
 | `xvh_vgj_xa2` | 成彊母（崔杼前妻未名） | [《史記・齊太公世家》][15] | [JSON](xvh_vgj_xa2.json) |
 | `xvq_2vi_og2` | 秦昭王 | [《史記・田敬仲完世家》][29] | [JSON](xvq_2vi_og2.json) |
