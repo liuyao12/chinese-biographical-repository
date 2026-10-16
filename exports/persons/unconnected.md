@@ -611,7 +611,6 @@
 | `4eq_1xe_1xg` | 侯家舍人未名 | [《史記・樊酈滕灌列傳》][80] | [JSON](4eq_1xe_1xg.json) |
 | `4fa_1v4_jmc` | 南子 | [《史記・仲尼弟子列傳》][52] | [JSON](4fa_1v4_jmc.json) |
 | `4gn_hir_vrl` | 秦王（魏世家增質秦未名者） | [《史記・魏世家》][29] | [JSON](4gn_hir_vrl.json) |
-| `4gs_22r_d9a` | 王恢 | [《史記・西南夷列傳》][101] | [JSON](4gs_22r_d9a.json) |
 | `4i4_lmr_aap` | 秦王義渠事件 | [《史記・張儀列傳》][55] | [JSON](4i4_lmr_aap.json) |
 | `4i4_ywy_p53` | 梁繇靡（韓原御者） | [《史記・晉世家》][24] | [JSON](4i4_ywy_p53.json) |
 | `4ic_qbn_lc9` | 韓昭侯 | [《史記・老子韓非列傳》][48] | [JSON](4ic_qbn_lc9.json) |
@@ -1353,7 +1352,6 @@
 | `9uc_3ge_wyg` | 衡山王未詳名 | [《史記・酈生陸賈列傳》][82] | [JSON](9uc_3ge_wyg.json) |
 | `9ud_33t_j5m` | 齊王書信 | [《史記・蘇秦列傳》][54] | [JSON](9ud_33t_j5m.json) |
 | `9uw_tzo_yj8` | 悼公 | [《史記・伍子胥列傳》][51] | [JSON](9uw_tzo_yj8.json) |
-| `9v3_xea_50v` | 長公主 | [《史記・孝景本紀》][14] | [JSON](9v3_xea_50v.json) |
 | `9v8_tr9_ikg` | 郤芮 | [《史記・晉世家》][24] | [JSON](9v8_tr9_ikg.json) |
 | `9v9_kk6_129` | 高祖 | [《史記・龜策列傳》][113] | [JSON](9v9_kk6_129.json) |
 | `9ve_k4b_qrj` | 晏子 | [《史記・太史公自序》][115] | [JSON](9ve_k4b_qrj.json) |
@@ -2208,6 +2206,8 @@
 | `g6e_oyg_ok4` | 司馬子綦 | [《史記・伍子胥列傳》][51] | [JSON](g6e_oyg_ok4.json) |
 | `g6i_kby_l4h` | 環淵 | [《史記・孟子荀卿列傳》][59] | [JSON](g6i_kby_l4h.json) |
 | `g6l_rp7_156` | 桀 | [《史記・張丞相列傳》][81] | [JSON](g6l_rp7_156.json) |
+| `g6n_ybc_0r2` | 義伯 | [《史記・殷本紀》][6] | [JSON](g6n_ybc_0r2.json) |
+| `g78_bf1_b8v` | 髙后 | [《史記・酷吏列傳》][107] | [JSON](g78_bf1_b8v.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

@@ -2,13 +2,57 @@
   "schema_version": 1,
   "id": "xp5_39k_w5w",
   "canonical_person_id": "xp5_39k_w5w",
-  "label": "郢（南越列傳候選）",
+  "label": "郢（閩越王）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "郢"
+    "王",
+    "郢",
+    "閩越王"
   ],
   "titles": [
+    {
+      "id": "th-shiji108-023",
+      "person_id": "xp5_39k_w5w",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p006",
+          "quote": "建元中，武安侯田蚡爲漢太尉，親貴用事，安國以五百金物遺蚡。蚡言安國太后，天子亦素聞其賢，即召以爲北地都尉，遷爲大司農。閩越、東越相攻，安國及大行王恢將。未至越，越殺其王降，漢兵亦罷。建元六年，武安侯爲丞相，安國爲御史大夫。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji108-023:a001",
+          "paragraph_id": "c-shiji-108-han:p006",
+          "start": 83,
+          "end": 84,
+          "surface": "王",
+          "person_mention_id": "c-shiji-108-han:m006-0083",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保存本文任官或用稱；未知端點不補日期。邊吏為歷任泛稱，豪與單于暫不套用漢官爵階序。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji113-013",
       "person_id": "xp5_39k_w5w",
@@ -142,6 +186,14 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 108,
+      "category": "liezhuan",
+      "title": "韓長孺列傳第四十八",
+      "paragraph_id": "c-shiji-108-han:p006",
+      "count": 1,
+      "quote": "北地都尉，遷爲大司農。閩越、東越相攻，安國及大行王恢將。未至越，越殺其王降，漢兵亦罷。建元六年，武安侯爲丞相，安國爲御史大夫。"
+    },
+    {
       "number": 113,
       "category": "liezhuan",
       "title": "南越列傳第五十三",
@@ -166,8 +218,69 @@
       "quote": "建元六年，大行王恢擊東越，東越殺王郢以報。恢因兵威使番陽令唐蒙風指曉南越。南越食蒙蜀枸醬，蒙問所從來，曰「道西北牂柯，牂柯江廣數里，出番禺城下」。蒙歸至長安，問蜀賈人，賈人曰：「獨蜀出枸醬，多持竊出市夜郎。夜郎者，臨牂柯江，江廣百餘步，"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r072-c02",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "正月，閩越王反。孝景太后崩。。昌免相。",
+      "year": {
+        "era": "BCE",
+        "value": 135,
+        "astronomical_year": -134,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "135",
+        "source_cell_id": "shiji-022-t1-r072-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r072-c02-m003",
+        "start": 3,
+        "end": 6,
+        "surface": "閩越王",
+        "person_id": "xp5_39k_w5w",
+        "status": "contextual_provisional",
+        "interpretation_note": "本列建元六年閩越王反，與東越列傳建元六年閩越王郢發兵及被殺、韓長孺篇同將戰事對讀，暫定郢；不把表中反字改成列傳攻南越，不把句首正月借給後句太后死亡。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-114",
+            "chapter_id": "c-shiji-114-dongyue",
+            "source_id": "s-shiji114-dongyue",
+            "paragraph_id": "c-shiji-114-dongyue:p004",
+            "source_revision": 8735633,
+            "person_id": "xp5_39k_w5w",
+            "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
+    {
+      "chapter_id": "c-shiji-108-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "source_id": "s-shiji-108-han",
+      "source": {
+        "title": "史記／卷108",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷108",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
+        "revision_id": 1765317,
+        "accessed_on": "2026-10-11",
+        "extent": "13段正文、1段太史公論、1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-113-nanyue",
       "work_id": "w-shiji",
@@ -239,6 +352,29 @@
           "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
@@ -303,7 +439,7 @@
   ],
   "related_people": {
     "ub3_zen_skw": "餘善（南越列傳候選）",
-    "xp5_39k_w5w": "郢（南越列傳候選）"
+    "xp5_39k_w5w": "郢（閩越王）"
   },
   "dates": [
     {

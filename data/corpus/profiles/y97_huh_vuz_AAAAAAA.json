@@ -136,6 +136,66 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-004-zhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "source_id": "s-shiji-004-zhou",
+      "source": {
+        "title": "史記／卷004",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷004",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147",
+        "revision_id": 7909147,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；排除註釋版導覽、現代節標題與註號；行內校勘標記另存。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-004-zhou:p017",
+              "witness_form": "［左］",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p039",
+              "witness_form": "（又作湦）",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p074",
+              "witness_form": "（賀）［資］",
+              "body_reading": "賀",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p082",
+              "witness_form": "（最）［聚］",
+              "body_reading": "最",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p085",
+              "witness_form": "（西）",
+              "body_reading": "",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            },
+            {
+              "paragraph_id": "c-shiji-004-zhou:p086",
+              "witness_form": "（我）［於］",
+              "body_reading": "我",
+              "note": "數位見證行內校勘標記另存；有兩讀時正文保存改讀前的字，不宣稱已完成校勘。"
+            }
+          ],
+          "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-005-qin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-005",
@@ -360,11 +420,42 @@
     }
   ],
   "related_people": {
+    "x2m_k5j_fdz": "共王",
     "y97_huh_vuz_AAAAAA": "秦康公",
     "y97_huh_vuz_AAAAAAA": "秦共公",
     "y97_huh_vuz_AAAAAAAA": "秦桓公"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji005-distinct-002",
+      "person_ids": [
+        "y97_huh_vuz_AAAAAAA",
+        "x2m_k5j_fdz"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p040",
+          "quote": "康公元年。往歲繆公之卒，晉襄公亦卒；襄公之弟名雍，秦出也，在秦。晉趙盾欲立之，使隨會來迎雍，秦以兵送至令狐。晉立襄公子而反擊秦師，秦師敗，隨會來奔。二年，秦伐晉，取武城，報令狐之役。四年，晉伐秦，取少梁。六年，秦伐晉，取羈馬。戰於河曲，大敗晉軍。晉人患隨會在秦為亂，乃使魏讎餘詳反，合謀會，詐而得會，會遂歸晉。康公立十二年卒，子共公立。",
+          "chapter_id": "c-shiji-005-qin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "source_id": "s-shiji-005-qin"
+        },
+        {
+          "paragraph_id": "c-shiji-004-zhou:p029",
+          "quote": "穆王立五十五年，崩，子共王繄扈立。共王游於涇上，密康公從，有三女奔之。其母曰：「必致之王。夫獸三為群，人三為眾，女三為粲。王田不取群，公行不下眾，王御不參一族。夫粲，美之物也。眾以美物歸女，而何德以堪之？王猶不堪，況爾之小醜乎！小醜備物，終必亡。」康公不獻，一年，共王滅密。共王崩，子懿王艱立。",
+          "chapter_id": "c-shiji-004-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-004",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "rationale": "所屬國家、王朝與敘事時代不同，按本文分開登記；共同稱號不足以支持合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "y97_huh_vuz_AAAAAAA"

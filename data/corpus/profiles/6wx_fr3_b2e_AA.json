@@ -178,9 +178,40 @@
   "related_people": {
     "6wx_fr3_b2e_A": "犀侯（陳申公）",
     "6wx_fr3_b2e_AA": "突（陳孝公）",
-    "6wx_fr3_b2e_AAA": "圉戎（陳慎公）"
+    "6wx_fr3_b2e_AAA": "圉戎（陳慎公）",
+    "lmu_nbm_rzo_AA": "佗（陳厲公）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji036-distinct-002",
+      "person_ids": [
+        "6wx_fr3_b2e_AA",
+        "lmu_nbm_rzo_AA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-036-chenqi:p002",
+          "quote": "胡公卒，子申公犀侯立。申公卒，弟相公皋羊立。相公卒，立申公子突，是為孝公。孝公卒，子慎公圉戎立。慎公當周厲王時。慎公卒，子幽公寧立。",
+          "chapter_id": "c-shiji-036-chenqi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-036",
+          "source_id": "s-shiji-036-chenqi"
+        },
+        {
+          "paragraph_id": "c-shiji-036-chenqi:p008",
+          "quote": "三十八年正月甲戌己丑，桓公鮑卒。桓公弟佗，其母蔡女，故蔡人為佗殺五父及桓公太子免而立佗，是為厲公。桓公病而亂作，國人分散，故再赴。",
+          "chapter_id": "c-shiji-036-chenqi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-036",
+          "source_id": "s-shiji-036-chenqi"
+        }
+      ],
+      "rationale": "突為申公子、孝公，佗為文公子、厲公，相隔多代，字形近不合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "6wx_fr3_b2e_AA"

@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `won_vq8_gwj` | 蔡 | [《史記・淮南衡山列傳》][103] | [JSON](won_vq8_gwj.json) |
-| `wpf_sw1_wb0` | 嬰（魏其） | [《史記・太史公自序》][115] | [JSON](wpf_sw1_wb0.json) |
-| `wpi_4yz_de2` | 王姬（齊桓公夫人） | [《史記・齊太公世家》][17] | [JSON](wpi_4yz_de2.json) |
-| `wpm_b14_e28` | 楚平王 | [《史記・刺客列傳》][71] | [JSON](wpm_b14_e28.json) |
-| `wpr_zxu_kt8` | 衡山王書信未名 | [《史記・吳王濞列傳》][91] | [JSON](wpr_zxu_kt8.json) |
-| `wpx_vms_opg` | 公孫光 | [《史記・扁鵲倉公列傳》][90] | [JSON](wpx_vms_opg.json) |
 | `wq3_5dq_hx9` | 陳湣公 | [《史記・孔子世家》][32] | [JSON](wq3_5dq_hx9.json) |
 | `wqd_ft2_k5v` | 林胡王（趙世家未名者） | [《史記・趙世家》][28] | [JSON](wqd_ft2_k5v.json) |
 | `wqf_43e_laj` | 咎如長女（重耳狄妻） | [《史記・晉世家》][24] | [JSON](wqf_43e_laj.json) |
@@ -140,7 +134,7 @@
 | `xop_byp_p7d` | 虙戲 | [《史記・趙世家》][28] | [JSON](xop_byp_p7d.json) |
 | `xox_3lp_sy3` | 祝懽 | [《史記・商君列傳》][53] | [JSON](xox_3lp_sy3.json) |
 | `xp2_dxz_zcn` | 馮敬 | [《史記・屈原賈生列傳》][69] | [JSON](xp2_dxz_zcn.json) |
-| `xp5_39k_w5w` | 郢 | [《史記・東越列傳》][99] | [JSON](xp5_39k_w5w.json) |
+| `xp5_39k_w5w` | 郢（閩越王） | [《史記・東越列傳》][99] | [JSON](xp5_39k_w5w.json) |
 | `xp9_lok_hz4` | 霍去病 | [《史記・佞幸列傳》][110] | [JSON](xp9_lok_hz4.json) |
 | `xpc_di7_68r` | 魏敬 | [《史記・孝文本紀》][13]、[《史記・淮南衡山列傳》][103] | [JSON](xpc_di7_68r.json) |
 | `xpw_io6_vl8` | 黃帝 | [《史記・日者列傳》][112] | [JSON](xpw_io6_vl8.json) |
@@ -333,7 +327,7 @@
 | `z1v_d8t_kr6` | 雍 | [《史記・趙世家》][28] | [JSON](z1v_d8t_kr6.json) |
 | `z2l_ycm_efi` | 太宰未名 | [《史記・黥布列傳》][76] | [JSON](z2l_ycm_efi.json) |
 | `z2t_a1a_pjw` | 魚石（宋左師） | [《史記・宋微子世家》][23] | [JSON](z2t_a1a_pjw.json) |
-| `z2v_oh4_mhm` | 王恢 | [《史記・韓長孺列傳》][93] | [JSON](z2v_oh4_mhm.json) |
+| `z2v_oh4_mhm` | 王恢（大行） | [《史記・韓長孺列傳》][93] | [JSON](z2v_oh4_mhm.json) |
 | `z2v_yh8_x6u` | 楚王辭師未名 | [《史記・李斯列傳》][72] | [JSON](z2v_yh8_x6u.json) |
 | `z37_ti3_yvl` | 孟女（莊公所愛） | [《史記・魯周公世家》][18] | [JSON](z37_ti3_yvl.json) |
 | `z38_7dl_8of` | 史魚（衛篇季子所見者） | [《史記・衛康叔世家》][22] | [JSON](z38_7dl_8of.json) |

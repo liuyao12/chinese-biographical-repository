@@ -1,4 +1,6 @@
 export default {
+  'Distinct people':'同名異人',
+  'Identity distinction evidence':'身份區分依據',
   'Provisional preferred date':'首選紀年（暫定）',
   'Source alternative date':'來源異說',
   'Date choice unresolved':'紀年取捨未定',

@@ -320,9 +320,50 @@
     "ja1_60d_r62": "李太后（梁孝王世家候選）",
     "yqp_nlb_p1p_ACG": "武（文帝子）",
     "yqp_nlb_p1p_ACGA": "買（梁孝王世家候選）",
-    "yqp_nlb_p1p_ACGAA": "襄（梁孝王世家候選）"
+    "yqp_nlb_p1p_ACGAA": "襄（梁孝王世家候選）",
+    "yqp_nlb_p1p_ACGAAA": "無傷（梁孝王世家候選）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji058-distinct-liangwang",
+      "person_ids": [
+        "yqp_nlb_p1p_ACG",
+        "yqp_nlb_p1p_ACGA",
+        "yqp_nlb_p1p_ACGAA",
+        "yqp_nlb_p1p_ACGAAA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-058-liang:p013",
+          "quote": "梁孝王長子買為梁王，是為共王；子明為濟川王；子彭離為濟東王；子定為山陽王；子不識為濟陰王。",
+          "chapter_id": "c-shiji-058-liang",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-058",
+          "source_id": "s-shiji-058-liang"
+        },
+        {
+          "paragraph_id": "c-shiji-058-liang:p015",
+          "quote": "梁共王三年，景帝崩。共王立七年卒，子襄立，是為平王。",
+          "chapter_id": "c-shiji-058-liang",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-058",
+          "source_id": "s-shiji-058-liang"
+        },
+        {
+          "paragraph_id": "c-shiji-058-liang:p017",
+          "quote": "元朔中，睢陽人類犴反者，人有辱其父，而與淮陽太守客出同車。太守客出下車，類犴反殺其仇於車上而去。淮陽太守怒，以讓梁二千石。二千石以下求反甚急，執反親戚。反知國陰事，乃上變事，具告知王與大母爭樽狀。時丞相以下見知之，欲以傷梁長吏，其書聞天子。天子下吏驗問，有之。公卿請廢襄為庶人。天子曰：「李太后有淫行，而梁王襄無良師傅，故陷不義。」乃削梁八城，梟任王后首于市。梁餘尚有十城。襄立三十九年卒，謚為平王。子無傷立為梁王也。",
+          "chapter_id": "c-shiji-058-liang",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-058",
+          "source_id": "s-shiji-058-liang"
+        }
+      ],
+      "rationale": "長子買、子襄及子無傷按世系與繼立分辨；梁王爵號為各代承用，不當同人姓名。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "yqp_nlb_p1p_ACGA"

@@ -705,7 +705,9 @@
     }
   ],
   "related_people": {
+    "gts_42q_flu_AA": "嘉（鄭世家簡公候選）",
     "iij_zqi_k5l": "齊平公",
+    "v8y_9sc_cso": "簡公（燕平公後）",
     "wuz_yxe_b9k_A": "齊悼公",
     "wuz_yxe_b9k_AA": "齊簡公"
   },
@@ -743,6 +745,56 @@
       "person_id": "wuz_yxe_b9k_AA",
       "date_role": "life_event",
       "event_type": "death"
+    }
+  ],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji034-distinct-005",
+      "person_ids": [
+        "v8y_9sc_cso",
+        "wuz_yxe_b9k_AA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-034-yan:p014",
+          "quote": "燕立悼公。悼公七年卒，共公立。共公五年卒，平公立。晉公室卑，六卿始彊大。平公十八年，呉王闔閭破楚入郢。十九年卒，簡公立。簡公十二年卒，獻公立。晉趙鞅圍范、中行於朝歌。獻公十二年，齊田常弒其君簡公。十四年，孔子卒。二十八年，獻公卒，孝公立。",
+          "chapter_id": "c-shiji-034-yan",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-034",
+          "source_id": "s-shiji-034-yan"
+        }
+      ],
+      "rationale": "同段先敘燕簡公繼燕平公，後述齊田常弒齊簡公，國別不能被同字掩蓋。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji042-distinct-003",
+      "person_ids": [
+        "gts_42q_flu_AA",
+        "wuz_yxe_b9k_AA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-042-zheng:p036",
+          "quote": "釐公五年，鄭相子駟朝釐公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。",
+          "chapter_id": "c-shiji-042-zheng",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-042",
+          "source_id": "s-shiji-042-zheng"
+        },
+        {
+          "paragraph_id": "c-shiji-042-zheng:p051",
+          "quote": "十四年，宋景公滅曹。二十年，齊田常弒其君簡公，而常相於齊。二十二年，楚惠王滅陳。孔子卒。",
+          "chapter_id": "c-shiji-042-zheng",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-042",
+          "source_id": "s-shiji-042-zheng"
+        }
+      ],
+      "rationale": "前者為鄭釐公子嘉而立鄭簡公，後者為齊田常所弒齊君，同諡不同國，不以簡公字樣合併。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "name_components": [],
