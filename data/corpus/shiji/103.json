@@ -29,13 +29,41 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全27段明示姓名與若干匿名者首輪。 接合王臧、武帝母皇太后、郅都與韓安國四組跨篇身份；韓安國紀年差異保留，不統一年月。",
+    "coverage": "全27段明示姓名與若干匿名者首輪。 接合王臧、武帝母皇太后、郅都與韓安國四組跨篇身份；韓安國紀年差異保留，不統一年月。 補六項死亡、石奮十五報齡與石慶兩項持職年數；父死後歳餘不作子享年，未知年月不補。",
     "limitations": [
       "甲乙按正義注釋為失名佔位稱呼，保留原文字面，不補本名。",
       "孫望不指定相如為父；中子德不強定排行。",
       "我乃無兄及誣告盜嫂不生成兄嫂人物與親屬關係。",
       "皇帝上先帝太子須依文景武敘事分辨；版本與匿名指代待覆核。",
       "官爵任免、乞骸骨未准及紀年仍待結構化覆核。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji103-001",
+        "person_id": "esh_e0a_jrw_A",
+        "value": 15,
+        "unit": "source_age_years",
+        "source_number": "十五",
+        "source_term": "年十五",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "髙祖東撃項籍，過河内",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-103",
+            "chapter_id": "c-shiji-103-wanshi",
+            "source_id": "s-shiji-103-wanshi",
+            "paragraph_id": "c-shiji-103-wanshi:p001",
+            "quote": "萬石君名奮，其父趙人也，姓石氏。趙亡，徙居温。髙祖東撃項籍，過河内，時奮年十五，爲小吏，侍髙祖。髙祖與語，愛其恭敬，問曰：「若何有？」對曰：「奮獨有母，不幸失明。家貧。有姊，能鼓琴。」髙祖曰：「若能從我乎？」曰：「願盡力。」於是髙祖召其姊爲美人，以奮爲中涓，受書謁，徙其家長安中戚里，以姊爲美人故也。其官至孝文時，積功勞至大中大夫。無文學，恭謹無與比。",
+            "person_mention_id": "c-shiji-103-wanshi:m001-0035"
+          }
+        ],
+        "interpretation_note": "石奮遇高祖時報齡十五；計歲方式及具體年未知，不倒推生年，不作享年。未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
     ]
   },
   "paragraphs": [
