@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vtn_thh_540` | 申不害 | [《史記・老子韓非列傳》][45] | [JSON](vtn_thh_540.json) |
-| `vud_z3k_zfc` | 上黨郡守（韓世家未名者） | [《史記・韓世家》][27] | [JSON](vud_z3k_zfc.json) |
-| `vug_czu_mzb` | 莊生之婦（越世家未名者） | [《史記・越王勾踐世家》][23] | [JSON](vug_czu_mzb.json) |
-| `vug_pb4_94e` | 信（曹相國提要） | [《史記・太史公自序》][112] | [JSON](vug_pb4_94e.json) |
-| `vur_b8c_5er` | 娥 | [《史記・齊悼惠王世家》][34] | [JSON](vur_b8c_5er.json) |
-| `vv0_3wv_i18` | 噲（袁盎兄） | [《史記・袁盎鼂錯列傳》][83] | [JSON](vv0_3wv_i18.json) |
-| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][21] | [JSON](vv9_ss8_28z.json) |
 | `vvf_lzn_pw4` | 東郭先生 | [《史記・滑稽列傳》][108] | [JSON](vvf_lzn_pw4.json) |
 | `vvg_bgl_w1b` | 伯虔 | [《史記・仲尼弟子列傳》][49] | [JSON](vvg_bgl_w1b.json) |
 | `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][30] | [JSON](vvg_rba_nwr.json) |
@@ -216,7 +209,6 @@
 | `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][30] | [JSON](xd1_b6x_v7v.json) |
 | `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][49] | [JSON](xd1_no8_2ar.json) |
 | `xdq_h9k_zzl` | 遷母（趙世家倡未名者） | [《史記・趙世家》][25] | [JSON](xdq_h9k_zzl.json) |
-| `xea_8m8_6dh` | 驩（臨江王） | [《史記・高祖本紀》][8] | [JSON](xea_8m8_6dh.json) |
 | `xer_mp5_agd` | 楚使者未名 | [《史記・黥布列傳》][73] | [JSON](xer_mp5_agd.json) |
 | `xfe_r6u_pp8` | 噲（樊酈提要） | [《史記・太史公自序》][112] | [JSON](xfe_r6u_pp8.json) |
 | `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][49] | [JSON](xg5_2en_bvd.json) |
@@ -285,7 +277,7 @@
 | `xt3_8e7_hvi` | 說秦昭王者未名 | [《史記・孟嘗君列傳》][57] | [JSON](xt3_8e7_hvi.json) |
 | `xt7_zq6_tu6` | 中丁 | [《史記・殷本紀》][3] | [JSON](xt7_zq6_tu6.json) |
 | `xti_6br_ogl` | 契 | [《史記・太史公自序》][112] | [JSON](xti_6br_ogl.json) |
-| `xtl_sr1_di0` | 項悍 | [《史記・陳丞相世家》][38] | [JSON](xtl_sr1_di0.json) |
+| `xtl_sr1_di0` | 項悍 | [《史記・陳丞相世家》][38]、[《史記・傅靳蒯成列傳》][80] | [JSON](xtl_sr1_di0.json) |
 | `xtq_oi8_w82` | 比干 | [《史記・殷本紀》][3] | [JSON](xtq_oi8_w82.json) |
 | `xu3_wem_5h3` | 紂 | [《史記・劉敬叔孫通列傳》][81] | [JSON](xu3_wem_5h3.json) |
 | `xu5_0nl_f5z` | 盜跖引古 | [《史記・屈原賈生列傳》][66] | [JSON](xu5_0nl_f5z.json) |
@@ -653,6 +645,7 @@
 [77]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
 [78]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [79]: https://zh.wikisource.org/w/index.php?title=史記/卷097&oldid=1383195
+[80]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷099&oldid=368013
 [82]: https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696
 [83]: https://zh.wikisource.org/w/index.php?title=史記/卷101&oldid=368092

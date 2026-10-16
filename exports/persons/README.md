@@ -866,6 +866,15 @@
 
 </details>
 
+<details><summary><code>bwv_ob8_6xi</code> 共敖（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 共敖 | [《史記・項羽本紀》][7] | [JSON](bwv_ob8_6xi.json) |
+| `A` | 共尉 | [《史記・荊燕世家》][33] | [JSON](bwv_ob8_6xi_A.json) |
+
+</details>
+
 <details><summary><code>c0i_eah_y59</code> 咎（韓世家釐王候選）（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

@@ -179,6 +179,19 @@ def validate(root=ROOT):
                 for cid in b['chapter_ids']:
                     check(cid not in chapter_books, '篇 ID 屬於多卷')
                     chapter_books[cid] = b['id']
+        try:
+            from scripts.table_evidence import load_tables, table_evidence_errors
+        except ModuleNotFoundError:
+            from table_evidence import load_tables, table_evidence_errors
+        tables = load_tables(root)
+        table_chapters = {table['source']['chapter_id']: table for table in tables.values()}
+        check(len(table_chapters) == len(tables), '表格證據篇ID重複')
+        for table in tables.values():
+            source = table['source']
+            check(source['work_id'] in works
+                  and chapter_books.get(source['chapter_id']) == source['book_id']
+                  and books.get(source['book_id'], {}).get('work_id') == source['work_id'],
+                  '表格證據著作卷篇未登記或歸屬不符')
         mentions = {}; paragraphs = {}; chapters = {}; files = {}
         case_paragraphs = {}
         for candidate_path in sorted((root / 'corpus').glob('*/*.json')):
@@ -264,7 +277,8 @@ def validate(root=ROOT):
                     check(e.tag==({'person':'persName','work':'title'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
-        check(set(chapter_books)==set(chapters), '著作目錄與文本篇清單不符')
+        check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
+        check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():
             if work.get('status') != 'referenced_only':
                 continue
@@ -862,7 +876,7 @@ def validate(root=ROOT):
         for path in (root/'corpus').glob('*/*-assertions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_assertion_set','人物陳述集類型不符')
-            check(d['chapter_id'] in chapters,'人物陳述集篇不存在')
+            check(d['chapter_id'] in chapters or d['chapter_id'] in table_chapters,'人物陳述集篇不存在')
             for a in d['assertions']:
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
@@ -969,6 +983,14 @@ def validate(root=ROOT):
                         check(valid,'人物陳述承接須為同篇依原序相鄰兩段證據')
                         if valid:adjacent=ids
                 for e in a['evidence']:
+                    if e.get('kind') == 'table_cell':
+                        errors.extend(table_evidence_errors(e, tables, a['subject_person_id'], a['object_person_id']))
+                        check(e.get('chapter_id') == d['chapter_id'] and adjacent is None,
+                              '親屬表格證據須屬同一表篇，不得冒作段落承接')
+                        term = qualifiers.get('source_term')
+                        check(isinstance(term, str) and bool(term) and term in e.get('quote', ''),
+                              '親屬表格證據缺少相符關係原詞')
+                        continue
                     hit=paragraphs.get(e['paragraph_id'])
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
                     check(chapters.get(e['chapter_id'],{}).get('source_id')==e['source_id'],'人物陳述來源 ID 不符')

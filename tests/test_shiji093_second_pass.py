@@ -44,10 +44,11 @@ class HanLuIdentityTests(unittest.TestCase):
 
     def test_gongwei_uses_the_same_liu_jia_lu_wan_campaign(self):
         p = self.paragraph('093', 'p009')
-        self.assertEqual(self.ids(p, '共尉'), {'stm_voa_t08'})
+        self.assertEqual(self.ids(p, '共尉'), {'bwv_ob8_6xi_A'})
         q = self.paragraph('051', 'p003')
         self.assertIn('太尉盧綰', q['text'])
         self.assertIn('臨江王共尉', q['text'])
+        self.assertEqual(self.ids(q, '臨江王共尉'), {'bwv_ob8_6xi_A'})
     def test_zhao_officers_and_zhoubo_do_not_merge_same_office(self):
         self.assertEqual(self.ids(self.paragraph('093', 'p015'), '周昌'), {'gfr_55l_72s'})
         p = self.paragraph('093', 'p011')

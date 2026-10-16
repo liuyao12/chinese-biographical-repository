@@ -16,6 +16,10 @@ export async function loadPerson(id) {
   return cache.get(id);
 }
 const evidenceLinks = evidence => (evidence || []).map(e => {
+  if (e.kind === 'table_cell') {
+    const url = tableOccurrenceURL({table_id:e.table_id, cell_id:e.table_cell_id});
+    return url ? `<a href="${h(url)}">來源表格 →</a>` : '';
+  }
   const number = Number(/shiji-(\d{3})/.exec(e.chapter_id || '')?.[1]);
   return number ? `<a href="${h(chapterURL(number, '', e.paragraph_id))}">來源原文 →</a>` : '';
 }).join(' · ');
