@@ -452,7 +452,7 @@
 
 </details>
 
-<details><summary><code>69x_se2_859</code> 邴吉（張丞相列傳候選）（2 名）</summary>
+<details><summary><code>69x_se2_859</code> 邴吉（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2700,7 +2700,7 @@
 
 </details>
 
-<details><summary><code>yph_dkb_w4w</code> 申屠嘉（張丞相列傳候選）（4 名）</summary>
+<details><summary><code>yph_dkb_w4w</code> 申屠嘉（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
