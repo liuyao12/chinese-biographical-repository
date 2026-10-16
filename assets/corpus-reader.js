@@ -20,7 +20,7 @@ export function chapterParagraph(paragraph, people = {}) {
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(`<cite id="${h(mention.id)}" class="cbr-work-mention" data-work-id="${h(mention.work_id)}" title="著作：${text}">${text}</cite>`);
-    } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="未定指稱">${text}</span>`);
+    } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="${h(mention.interpretation_note || '未定指稱')}">${text}</span>`);
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));

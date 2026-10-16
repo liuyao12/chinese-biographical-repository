@@ -335,3 +335,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 逐人 JSON 將這些範圍另匯為 `date_range_normalizations`，不混入單一年份的 `date_normalizations`。閱讀器生卒列顯示兩年範圍與原紀年，完整頁可展開依據；不選其中一端或由年齡反推出生年。
 
 個人概數如「百有餘歲」可用 `reporting_status: direct_report`、`value: null` 及 `bounds: {lower: 100, lower_inclusive: false, upper: null, upper_inclusive: null}`。`source_number: 百`、`source_term: 百有餘歲` 原字分存，`source_qualification: null` 不補傳聞限定詞，亦不作確切一百歲、上界或已知計歲方式。既有帶蓋／或言的報齡仍另保留限定狀態。
+
+未決身份可保存一個已知候選及未知敘者的可能：`unknown_identity_possible: true` 時仍須至少一個有篇文證據的 `candidate_person_ids`，另以非空且不重複的 `unresolved_mention_ids` 指向所列段落內 `kind: unresolved`、`person_id: null` 的既有錨點。不能用未知可能旗標保留確定人物連結。〈張丞相列傳〉篇末太史公署稱依《索隱》的後人敘論說解除與前段敘者的直接同指，古注說法另存版本固定的 `references`；不因此補出作者姓名或改寫傳世正文。

@@ -237,3 +237,22 @@ class ZhangContinuationTests(unittest.TestCase):
             self.assertNotIn(old,people)
             self.assertFalse((ROOT/f'exports/persons/{old}.json').exists())
             self.assertFalse((ROOT/f'data/corpus/profiles/{old}.json').exists())
+
+class ZhangNarratorAttributionTests(unittest.TestCase):
+    def test_final_rubric_does_not_assert_same_narrator_as_earlier_comment(self):
+        earlier=next(m for m in para(96,20)['mentions'] if m['surface']=='太史公')
+        later=next(m for m in para(96,29)['mentions'] if m['surface']=='太史公')
+        self.assertEqual(earlier['person_id'],'2ed_ew8_szv')
+        self.assertEqual((later['kind'],later['person_id']),('unresolved',None))
+        case=next(c for c in read('corpus/shiji/096.json')['annotation']['unresolved_identity_cases'] if c['id']=='ic-shiji096-final-narrator')
+        self.assertTrue(case['unknown_identity_possible'])
+        self.assertEqual(case['unresolved_mention_ids'],[later['id']])
+        self.assertEqual(case['references'][0]['revision_id'],608070)
+        self.assertFalse(case['references'][0]['image_verified'])
+        self.assertIn('後人所述',case['references'][0]['quote'])
+
+    def test_person_bundle_no_longer_counts_final_rubric_as_identified_occurrence(self):
+        b=read('exports/persons/2ed_ew8_szv.json')
+        self.assertFalse(any(m['id']=='c-shiji-096-zhang:m029-0000' for m in b['mentions']))
+        self.assertTrue(any(m['id']=='c-shiji-096-zhang:m020-0000' for m in b['mentions']))
+        self.assertTrue(b['unresolved_identity_cases'])

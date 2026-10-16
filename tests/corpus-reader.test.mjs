@@ -42,3 +42,8 @@ test('book title keeps its anchor and does not open a person profile', () => {
   assert.match(html, /<a id="c-shiji-063-laohan:m011-0044"[^>]*data-person-id="vtn_thh_540"/);
   assert.equal(html.replace(/<[^>]*>/g, ''), paragraph.text);
 });
+test('unresolved interpretation notes remain escaped and never become person links', () => {
+  const html=chapterParagraph({id:'synthetic-p',text:'某',mentions:[{id:'synthetic-m',start:0,end:1,surface:'某',kind:'unresolved',person_id:null,interpretation_note:'未知敘者 "<script>" & 異說'}]});
+  assert.match(html,/title="未知敘者 &quot;&lt;script&gt;&quot; &amp; 異說"/);
+  assert.doesNotMatch(html,/<script>|data-person-id|href=/);
+});
