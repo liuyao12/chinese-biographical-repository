@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `w4q_ozz_a8d` | 於陵子仲引古 | [《史記・魯仲連鄒陽列傳》][66] | [JSON](w4q_ozz_a8d.json) |
-| `w59_f48_cbg` | 魏齊 | [《史記・太史公自序》][113] | [JSON](w59_f48_cbg.json) |
-| `w5h_6ah_6b1` | 勇之 | [《史記・孝武本紀》][13] | [JSON](w5h_6ah_6b1.json) |
 | `w5l_qjq_vly` | 衛文公 | [《史記・齊太公世家》][15] | [JSON](w5l_qjq_vly.json) |
 | `w5q_84t_ofs` | 共工（堯時） | [《史記・五帝本紀》][2] | [JSON](w5q_84t_ofs.json) |
 | `w5z_z1e_gts` | 周公 | [《史記・外戚世家》][32] | [JSON](w5z_z1e_gts.json) |
