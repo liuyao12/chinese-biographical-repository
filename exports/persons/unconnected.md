@@ -1909,7 +1909,6 @@
 | `ea7_lok_3qv` | 慶節 | [《史記・周本紀》][7]、[《史記・三代世表》][116] | [JSON](ea7_lok_3qv.json) |
 | `ea8_yum_lvj` | 契 | [《史記・殷本紀》][6] | [JSON](ea8_yum_lvj.json) |
 | `eaa_jij_k8j` | 秦文 | [《史記・貨殖列傳》][114] | [JSON](eaa_jij_k8j.json) |
-| `eal_ozl_urh` | 蒙恬 | [《史記・白起王翦列傳》][58] | [JSON](eal_ozl_urh.json) |
 | `eaq_bx2_o37` | 芮伯（德成時） | [《史記・秦本紀》][8] | [JSON](eaq_bx2_o37.json) |
 | `eav_dh2_8o8` | 盧綰妻未名 | [《史記・韓信盧綰列傳》][78] | [JSON](eav_dh2_8o8.json) |
 | `eb7_5lg_w9q` | 子贛 | [《史記・貨殖列傳》][114] | [JSON](eb7_5lg_w9q.json) |
@@ -1998,7 +1997,7 @@
 | `exl_e7q_rma` | 車丞相未詳名 | [《史記・張丞相列傳》][81] | [JSON](exl_e7q_rma.json) |
 | `ey4_td6_sc4` | 嫘祖 | [《史記・五帝本紀》][4] | [JSON](ey4_td6_sc4.json) |
 | `ey5_6f2_7to` | 李哆 | [《史記・大宛列傳》][108] | [JSON](ey5_6f2_7to.json) |
-| `ey5_pne_opn` | 郭昌（匈奴列傳第48段） | [《史記・匈奴列傳》][95]、[《史記・衛將軍驃騎列傳》][96] | [JSON](ey5_pne_opn.json) |
+| `ey5_pne_opn` | 郭昌（匈奴列傳第48段） | [《史記・匈奴列傳》][95]、[《史記・衛將軍驃騎列傳》][96]、[《史記・大宛列傳》][108] | [JSON](ey5_pne_opn.json) |
 | `eyc_0n9_y2x` | 士蒍（晉臣） | [《史記・晉世家》][24] | [JSON](eyc_0n9_y2x.json) |
 | `eyc_8y6_02q` | 郭隗（燕招賢者） | [《史記・燕召公世家》][19] | [JSON](eyc_8y6_02q.json) |
 | `ez4_g40_5ja` | 宋君（韓世家被執未名者） | [《史記・韓世家》][30] | [JSON](ez4_g40_5ja.json) |
@@ -2209,6 +2208,7 @@
 | `ghj_5dg_gu1` | 會人（陸終子） | [《史記・楚世家》][25] | [JSON](ghj_5dg_gu1.json) |
 | `ghk_av2_9f8` | 公之魚 | [《史記・孔子世家》][32] | [JSON](ghk_av2_9f8.json) |
 | `ghq_hdt_7iz` | 子結（楚昭王弟） | [《史記・楚世家》][25] | [JSON](ghq_hdt_7iz.json) |
+| `gi7_lw7_z9m` | 韓馮 | [《史記・田敬仲完世家》][31] | [JSON](gi7_lw7_z9m.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

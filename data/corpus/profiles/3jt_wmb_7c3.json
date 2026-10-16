@@ -376,6 +376,49 @@
       "interpretation_note": "原稱、用稱與授予分存，未知端點不補；益封戶數不另作新授爵。少而侍中屬回顧用稱，未據鄰接軍役倒填任命日期。",
       "reviewer": "Codex（AI 代理）",
       "period": "西元前119年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji122-075",
+      "person_id": "3jt_wmb_7c3",
+      "title": "光祿",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p035",
+          "quote": "歳餘，會宛軍發，詔徴豪吏，温舒匿其吏華成，及人有變告温舒受員騎錢，他姦利事，罪至族，自殺。其時兩弟及兩婚家亦各自坐他罪而族。光祿徐自爲曰：「悲夫，夫古有三族，而王温舒罪至同時而五族乎！」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji122-075:a001",
+          "paragraph_id": "c-shiji-122-kuli:p035",
+          "start": 62,
+          "end": 64,
+          "surface": "光祿",
+          "person_mention_id": "c-shiji-122-kuli:m035-0064",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -395,6 +438,14 @@
       "paragraph_id": "c-shiji-111-wei-huo:p019",
       "count": 1,
       "quote": "安稽從驃騎有功，益封各三百戶。校尉敢得旗鼓，為關內侯，食邑二百戶。校尉自為爵大庶長。軍吏卒為官，賞賜甚多。而大將軍不得益封，軍吏卒皆無封侯者。"
+    },
+    {
+      "number": 122,
+      "category": "liezhuan",
+      "title": "酷吏列傳第六十二",
+      "paragraph_id": "c-shiji-122-kuli:p035",
+      "count": 1,
+      "quote": "員騎錢，他姦利事，罪至族，自殺。其時兩弟及兩婚家亦各自坐他罪而族。光祿徐自爲曰：「悲夫，夫古有三族，而王温舒罪至同時而五族乎！」"
     }
   ],
   "table_occurrences": [],
@@ -444,6 +495,30 @@
           "editorial_readings": [],
           "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-122-kuli",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "source_id": "s-shiji122-kuli",
+      "source": {
+        "title": "史記／卷122",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷122",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
+        "revision_id": 7904124,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文44段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標、字形控制外殼而保留其中原字與異文；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     }

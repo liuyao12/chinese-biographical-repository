@@ -871,14 +871,14 @@
     },
     {
       "id": "d-shiji073-036",
-      "person_id": "eal_ozl_urh",
+      "person_id": "k2p_5ol_dwh_A",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-073-baiwang"
       ],
       "status": "contextual_provisional",
       "reviewer": "Codex（AI 代理）",
-      "rationale": "依局部敘事明示姓名、受話稱呼與回指暫接，秦昭王敘事與秦始皇敘事分段，降秦趙王與鉅鹿趙王分候選。周召引功與呂望保存引古，不補周召全名；應侯、春申君及魏公子不從記憶補名。王翦王賁王離依明示分存，孫不推出父親；將軍受話按李信與王翦對話範圍辨認。王氏蒙氏及匿名說話者未全域接個別人物。",
+      "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。",
       "surfaces": [
         "蒙恬"
       ],
@@ -887,7 +887,30 @@
           "paragraph_id": "c-shiji-073-baiwang:p010",
           "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。"
         }
-      ]
+      ],
+      "references": [
+        {
+          "title": "辛德勇〈雲夢睡虎地秦人簡牘與李信、王翦南滅荆楚的地理進程〉，《出土文獻》第五輯，第194頁",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/D/78/76/04587E604BFB45EB0C5E467C51C_AB1DD685_39397C.pdf",
+          "quote": "當是蒙武之誤",
+          "scope": "modern_scholarship_reported_emendation",
+          "text_layer": "modern_study",
+          "image_verified": false,
+          "note": "已核本研究PDF第5頁（書內第194頁）的頁面影像；image_verified為false指未核古籍／簡牘底本。本頁引梁玉繩《史記志疑》卷29第1267頁並接受其說，另列楊寬沿用；未親讀轉引書頁。只讀本題相關頁，不宣稱全文研究結論均已覆核。",
+          "response_sha256": "5f929675178369dbb9898a418b98776eec57c959963f3d5060d61c11e8252973"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-073-baiwang:m010-0152",
+        "received_surface": "蒙恬",
+        "preferred_surface": "蒙武",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji073-mengwu-study",
+        "status": "editorial_provisional",
+        "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。"
+      }
     },
     {
       "id": "d-shiji073-037",
@@ -1076,6 +1099,92 @@
           "quote": "太史公曰：鄙語云「尺有所短，寸有所長」。白起料敵合變，出奇無窮，聲震天下，然不能救患於應侯。王翦為秦將，夷六國，當是時，翦為宿將，始皇師之，然不能輔秦建德，固其根本，偷合取容，以至圽身。及孫王離為項羽所虜，不亦宜乎！彼各有所短也。"
         }
       ]
+    },
+    {
+      "id": "d-shiji073-mengwu-preferred-2",
+      "person_id": "k2p_5ol_dwh_A",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-073-baiwang"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "surfaces": [
+        "蒙恬"
+      ],
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-073-baiwang:p010",
+          "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。"
+        }
+      ],
+      "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。",
+      "references": [
+        {
+          "title": "辛德勇〈雲夢睡虎地秦人簡牘與李信、王翦南滅荆楚的地理進程〉，《出土文獻》第五輯，第194頁",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/D/78/76/04587E604BFB45EB0C5E467C51C_AB1DD685_39397C.pdf",
+          "quote": "當是蒙武之誤",
+          "scope": "modern_scholarship_reported_emendation",
+          "text_layer": "modern_study",
+          "image_verified": false,
+          "note": "已核本研究PDF第5頁（書內第194頁）的頁面影像；image_verified為false指未核古籍／簡牘底本。本頁引梁玉繩《史記志疑》卷29第1267頁並接受其說，另列楊寬沿用；未親讀轉引書頁。只讀本題相關頁，不宣稱全文研究結論均已覆核。",
+          "response_sha256": "5f929675178369dbb9898a418b98776eec57c959963f3d5060d61c11e8252973"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-073-baiwang:m010-0184",
+        "received_surface": "蒙恬",
+        "preferred_surface": "蒙武",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji073-mengwu-study",
+        "status": "editorial_provisional",
+        "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。"
+      }
+    },
+    {
+      "id": "d-shiji073-mengwu-preferred-3",
+      "person_id": "k2p_5ol_dwh_A",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-073-baiwang"
+      ],
+      "status": "contextual_provisional",
+      "reviewer": "Codex（AI 代理）",
+      "surfaces": [
+        "蒙恬"
+      ],
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-073-baiwang:p010",
+          "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。"
+        }
+      ],
+      "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。",
+      "references": [
+        {
+          "title": "辛德勇〈雲夢睡虎地秦人簡牘與李信、王翦南滅荆楚的地理進程〉，《出土文獻》第五輯，第194頁",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/D/78/76/04587E604BFB45EB0C5E467C51C_AB1DD685_39397C.pdf",
+          "quote": "當是蒙武之誤",
+          "scope": "modern_scholarship_reported_emendation",
+          "text_layer": "modern_study",
+          "image_verified": false,
+          "note": "已核本研究PDF第5頁（書內第194頁）的頁面影像；image_verified為false指未核古籍／簡牘底本。本頁引梁玉繩《史記志疑》卷29第1267頁並接受其說，另列楊寬沿用；未親讀轉引書頁。只讀本題相關頁，不宣稱全文研究結論均已覆核。",
+          "response_sha256": "5f929675178369dbb9898a418b98776eec57c959963f3d5060d61c11e8252973"
+        }
+      ],
+      "human_reviewed": false,
+      "model": null,
+      "preferred_reading": {
+        "person_mention_id": "c-shiji-073-baiwang:m010-0211",
+        "received_surface": "蒙恬",
+        "preferred_surface": "蒙武",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "rv-shiji073-mengwu-study",
+        "status": "editorial_provisional",
+        "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。"
+      }
     }
   ]
 }

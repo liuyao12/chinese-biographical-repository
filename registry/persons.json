@@ -302082,8 +302082,8 @@
       ]
     },
     {
-      "id": "eal_ozl_urh",
-      "label": "蒙恬（白起王翦列傳候選）",
+      "id": "k2p_5ol_dwh_A",
+      "label": "蒙武",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -302093,6 +302093,20 @@
             "c-shiji-073-baiwang:m010-0152",
             "c-shiji-073-baiwang:m010-0184",
             "c-shiji-073-baiwang:m010-0211"
+          ]
+        },
+        {
+          "surface": "武",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0116",
+            "c-shiji-088-mengtian:m001-0118"
+          ]
+        },
+        {
+          "surface": "蒙武",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0138",
+            "c-shiji-088-mengtian:m001-0165"
           ]
         }
       ],
@@ -302114,8 +302128,51 @@
           "chapter_id": "c-shiji-073-baiwang",
           "paragraph_id": "c-shiji-073-baiwang:p010",
           "quote": "蒙恬"
+        },
+        {
+          "mention_id": "c-shiji-088-mengtian:m001-0116",
+          "chapter_id": "c-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "武"
+        },
+        {
+          "mention_id": "c-shiji-088-mengtian:m001-0118",
+          "chapter_id": "c-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "武"
+        },
+        {
+          "mention_id": "c-shiji-088-mengtian:m001-0138",
+          "chapter_id": "c-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙武"
+        },
+        {
+          "mention_id": "c-shiji-088-mengtian:m001-0165",
+          "chapter_id": "c-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙武"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-088-mengtian",
+            "source_id": "s-shiji-088-mengtian",
+            "paragraph_id": "c-shiji-088-mengtian:p001",
+            "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+            "source_term": "驁子曰武"
+          }
+        ],
+        "source_assertion_id": "a-shiji088-001",
+        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "reviewer": "Codex（AI 代理）",
+        "parent_person_id": "k2p_5ol_dwh"
+      }
     },
     {
       "id": "wfm_qvc_ykk",
@@ -316311,73 +316368,6 @@
           "quote": "太史公"
         }
       ]
-    },
-    {
-      "id": "k2p_5ol_dwh_A",
-      "label": "蒙武（蒙恬列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "武",
-          "mention_ids": [
-            "c-shiji-088-mengtian:m001-0116",
-            "c-shiji-088-mengtian:m001-0118"
-          ]
-        },
-        {
-          "surface": "蒙武",
-          "mention_ids": [
-            "c-shiji-088-mengtian:m001-0138",
-            "c-shiji-088-mengtian:m001-0165"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-088-mengtian:m001-0116",
-          "chapter_id": "c-shiji-088-mengtian",
-          "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "武"
-        },
-        {
-          "mention_id": "c-shiji-088-mengtian:m001-0118",
-          "chapter_id": "c-shiji-088-mengtian",
-          "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "武"
-        },
-        {
-          "mention_id": "c-shiji-088-mengtian:m001-0138",
-          "chapter_id": "c-shiji-088-mengtian",
-          "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙武"
-        },
-        {
-          "mention_id": "c-shiji-088-mengtian:m001-0165",
-          "chapter_id": "c-shiji-088-mengtian",
-          "paragraph_id": "c-shiji-088-mengtian:p001",
-          "quote": "蒙武"
-        }
-      ],
-      "family_path": {
-        "connection": "father",
-        "generation_distance": 1,
-        "status": "contextual_provisional",
-        "human_reviewed": false,
-        "evidence": [
-          {
-            "chapter_id": "c-shiji-088-mengtian",
-            "source_id": "s-shiji-088-mengtian",
-            "paragraph_id": "c-shiji-088-mengtian:p001",
-            "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
-            "source_term": "驁子曰武"
-          }
-        ],
-        "source_assertion_id": "a-shiji088-001",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
-        "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "k2p_5ol_dwh"
-      }
     },
     {
       "id": "8oa_uge_0p6",
@@ -345362,7 +345352,8 @@
           "surface": "郭昌",
           "mention_ids": [
             "c-shiji-110-xiongnu:m048-0202",
-            "c-shiji-111-wei-huo:m040-0002"
+            "c-shiji-111-wei-huo:m040-0002",
+            "c-shiji-123-dayuan:m023-0117"
           ]
         }
       ],
@@ -345377,6 +345368,12 @@
           "mention_id": "c-shiji-111-wei-huo:m040-0002",
           "chapter_id": "c-shiji-111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p040",
+          "quote": "郭昌"
+        },
+        {
+          "mention_id": "c-shiji-123-dayuan:m023-0117",
+          "chapter_id": "c-shiji-123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p023",
           "quote": "郭昌"
         }
       ]
@@ -346102,7 +346099,8 @@
         {
           "surface": "徐自爲",
           "mention_ids": [
-            "c-shiji-110-xiongnu:m054-0011"
+            "c-shiji-110-xiongnu:m054-0011",
+            "c-shiji-122-kuli:m035-0064"
           ]
         },
         {
@@ -346136,6 +346134,12 @@
           "chapter_id": "c-shiji-111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p019",
           "quote": "自為"
+        },
+        {
+          "mention_id": "c-shiji-122-kuli:m035-0064",
+          "chapter_id": "c-shiji-122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p035",
+          "quote": "徐自爲"
         }
       ]
     },
@@ -371978,28 +371982,6 @@
       ]
     },
     {
-      "id": "q31_96y_x3u",
-      "label": "徐自爲（酷吏列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "徐自爲",
-          "mention_ids": [
-            "c-shiji-122-kuli:m035-0064"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-122-kuli:m035-0064",
-          "chapter_id": "c-shiji-122-kuli",
-          "paragraph_id": "c-shiji-122-kuli:p035",
-          "quote": "徐自爲"
-        }
-      ]
-    },
-    {
       "id": "vws_wz0_hsv",
       "label": "梅免（酷吏列傳候選）",
       "status": "active",
@@ -373343,28 +373325,6 @@
           "chapter_id": "c-shiji-123-dayuan",
           "paragraph_id": "c-shiji-123-dayuan:p023",
           "quote": "呂越人"
-        }
-      ]
-    },
-    {
-      "id": "wze_03m_kra",
-      "label": "郭昌（大宛列傳候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "郭昌",
-          "mention_ids": [
-            "c-shiji-123-dayuan:m023-0117"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-123-dayuan:m023-0117",
-          "chapter_id": "c-shiji-123-dayuan",
-          "paragraph_id": "c-shiji-123-dayuan:p023",
-          "quote": "郭昌"
         }
       ]
     },
