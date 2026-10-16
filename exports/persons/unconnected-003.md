@@ -6,14 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xdq_h9k_zzl` | 遷母（趙世家倡未名者） | [《史記・趙世家》][28]、[《史記・張釋之馮唐列傳》][87] | [JSON](xdq_h9k_zzl.json) |
-| `xer_mp5_agd` | 楚使者未名 | [《史記・黥布列傳》][76] | [JSON](xer_mp5_agd.json) |
-| `xfe_r6u_pp8` | 噲（樊酈提要） | [《史記・太史公自序》][115] | [JSON](xfe_r6u_pp8.json) |
-| `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][52] | [JSON](xg5_2en_bvd.json) |
-| `xga_n8f_29q` | 孝惠帝 | [《史記・外戚世家》][34] | [JSON](xga_n8f_29q.json) |
-| `xgn_ado_9u1` | 程伯休甫 | [《史記・太史公自序》][115] | [JSON](xgn_ado_9u1.json) |
-| `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][22] | [JSON](xgw_at7_sju.json) |
-| `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][13]、[《史記・惠景間侯者年表》][122] | [JSON](xgx_g4a_c28.json) |
 | `xh0_zdc_cq8` | 季勝 | [《史記・秦本紀》][8] | [JSON](xh0_zdc_cq8.json) |
 | `xhk_2v1_pd8` | 魯君（孔子世家女樂未名者） | [《史記・孔子世家》][32] | [JSON](xhk_2v1_pd8.json) |
 | `xhk_b1m_hjb` | 定 | [《史記・南越列傳》][98] | [JSON](xhk_b1m_hjb.json) |

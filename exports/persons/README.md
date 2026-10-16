@@ -2678,7 +2678,7 @@
 | `AC` | 恒（高祖子） | [《史記・孝文本紀》][13] | [JSON](yqp_nlb_p1p_AC.json) |
 | `ACA` | 文帝太子（本卷未名） | [《史記・梁孝王世家》][43] | [JSON](yqp_nlb_p1p_ACA.json) |
 | `ACAA` | 徹（景帝子） | [《史記・孝武本紀》][15] | [JSON](yqp_nlb_p1p_ACAA.json) |
-| `ACAAA` | 閎 | [《史記・三王世家》][45] | [JSON](yqp_nlb_p1p_ACAAA.json) |
+| `ACAAA` | 閎（齊王） | [《史記・三王世家》][45] | [JSON](yqp_nlb_p1p_ACAAA.json) |
 | `ACAAB` | 旦 | [《史記・三王世家》][45] | [JSON](yqp_nlb_p1p_ACAAB.json) |
 | `ACAABA` | 安定侯子 | [《史記・三王世家》][45] | [JSON](yqp_nlb_p1p_ACAABA.json) |
 | `ACAABB` | 建 | [《史記・三王世家》][45] | [JSON](yqp_nlb_p1p_ACAABB.json) |
