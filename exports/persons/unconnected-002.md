@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gmy_6so_66g` | 郁成王 | [《史記・大宛列傳》][108] | [JSON](gmy_6so_66g.json) |
-| `gnd_f77_icz` | 王季 | [《史記・貨殖列傳》][114] | [JSON](gnd_f77_icz.json) |
-| `gnf_v23_0ks` | 枚生未定 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](gnf_v23_0ks.json) |
-| `gni_7gn_c4a` | 朱買臣 | [《史記・酷吏列傳》][107] | [JSON](gni_7gn_c4a.json) |
 | `gns_w0b_kfj` | 所忠 | [《史記・司馬相如列傳》][102] | [JSON](gns_w0b_kfj.json) |
 | `gnt_6z9_vud` | 武王引古 | [《史記・孟子荀卿列傳》][59] | [JSON](gnt_6z9_vud.json) |
 | `go2_1n3_2gu` | 荀欣 | [《史記・趙世家》][28] | [JSON](go2_1n3_2gu.json) |
@@ -104,7 +100,6 @@
 | `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][29] | [JSON](hap_m8c_czz.json) |
 | `hav_xw6_5np` | 陳勝 | [《史記・南越列傳》][98] | [JSON](hav_xw6_5np.json) |
 | `hax_odl_kez` | 徐來兄（未名） | [《史記・淮南衡山列傳》][103] | [JSON](hax_odl_kez.json) |
-| `hb2_xk3_z67` | 齊王姊 | [《史記・平津侯主父列傳》][97] | [JSON](hb2_xk3_z67.json) |
 | `hb5_4zq_x4c` | 田角 | [《史記・田儋列傳》][79] | [JSON](hb5_4zq_x4c.json) |
 | `hbl_n2l_ft3` | 昆莫左夫人（未名） | [《史記・大宛列傳》][108] | [JSON](hbl_n2l_ft3.json) |
 | `hcd_x63_gy5` | 秦祖 | [《史記・仲尼弟子列傳》][52] | [JSON](hcd_x63_gy5.json) |
@@ -772,7 +767,6 @@
 | `mlk_3li_pp1` | 慶 | [《史記・三王世家》][45] | [JSON](mlk_3li_pp1.json) |
 | `mlm_125_vha` | 丞非 | [《史記・三王世家》][45] | [JSON](mlm_125_vha.json) |
 | `mm5_43u_d8f` | 周公 | [《史記・貨殖列傳》][114] | [JSON](mm5_43u_d8f.json) |
-| `mm9_vf1_7o8` | 燕王定國 | [《史記・平津侯主父列傳》][97] | [JSON](mm9_vf1_7o8.json) |
 | `mmc_e8p_5pf` | 玄武侯（項氏） | [《史記・項羽本紀》][10] | [JSON](mmc_e8p_5pf.json) |
 | `mn3_4ru_eqc` | 角里先生 | [《史記・留侯世家》][40] | [JSON](mn3_4ru_eqc.json) |
 | `mn6_y66_bl2` | 博士安 | [《史記・三王世家》][45] | [JSON](mn6_y66_bl2.json) |
@@ -2216,6 +2210,12 @@
 | `xkc_rp5_a3d` | 宣帝 | [《史記・三王世家》][45] | [JSON](xkc_rp5_a3d.json) |
 | `xkn_0tx_45l` | 秦孝公 | [《史記・趙世家》][28] | [JSON](xkn_0tx_45l.json) |
 | `xli_xkc_ts4` | 魯襄公 | [《史記・孔子世家》][32] | [JSON](xli_xkc_ts4.json) |
+| `xlp_ihc_qm9` | 辛廖 | [《史記・魏世家》][29] | [JSON](xlp_ihc_qm9.json) |
+| `xlz_fdt_se1` | 竇嬰夫人未名 | [《史記・魏其武安侯列傳》][92] | [JSON](xlz_fdt_se1.json) |
+| `xma_4rf_v7v` | 中行文子 | [《史記・趙世家》][28] | [JSON](xma_4rf_v7v.json) |
+| `xmb_506_d88` | 胡傷（本文讀法） | [《史記・秦本紀》][8] | [JSON](xmb_506_d88.json) |
+| `xmm_nkr_qbg` | 奉陽君 | [《史記・張儀列傳》][55] | [JSON](xmm_nkr_qbg.json) |
+| `xn7_c7s_lzh` | 子產 | [《史記・太史公自序》][115] | [JSON](xn7_c7s_lzh.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
