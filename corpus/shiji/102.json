@@ -31,13 +31,50 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全15段明示姓名與若干匿名者首輪。 五組跨篇身份按明名及君主親屬語境接合；梁王仍未決，不由同車補名。 再接合周亞夫、廉頗及趙王遷母子四組；母親兩段來源分存，不補姓名與配偶。",
+    "coverage": "全15段明示姓名與若干匿名者首輪。 五組跨篇身份按明名及君主親屬語境接合；梁王仍未決，不由同車補名。 再接合周亞夫、廉頗及趙王遷母子四組；母親兩段來源分存，不補姓名與配偶。 補四項死亡、馮唐九十餘報齡與張釋之騎郎十歳持職；不把判刑當行刑、事景帝歳餘當享年或七年當景帝七年。",
     "limitations": [
       "同名候選不自動跨篇合併；皇帝上與太子等回指仍待覆核。",
       "虎圈嗇夫的上林令任命諫止，不作已任。",
       "馮唐祖父趙人與父徙代各記主體，不改為馮唐籍貫。",
       "七年景帝立待跨篇核定紀年；不當景帝七年。",
       "來源、匿名者、稱號時段與底本影像仍待覆核。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji102-001",
+        "person_id": "rl6_a40_3hj_AA",
+        "value": null,
+        "source_number": "九十",
+        "source_term": "年九十餘",
+        "bounds": {
+          "lower": 90,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "reporting_status": "direct_report",
+        "source_qualification": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "武帝立",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-102",
+            "chapter_id": "c-shiji-102-zhangfeng",
+            "source_id": "s-shiji-102-zhangfeng",
+            "paragraph_id": "c-shiji-102-zhangfeng:p013",
+            "quote": "七年，景帝立，以唐爲楚相，免。武帝立，求賢良，舉馮唐。唐時年九十餘，不能復爲官，乃以唐子馮遂爲郎。遂字王孫，亦奇士，與余善。",
+            "person_mention_id": "c-shiji-102-zhangfeng:m013-0027"
+          }
+        ],
+        "interpretation_note": "武帝立時報齡，下界九十不含端點，無上界、生年、享年。 計歲方式未明，未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     ]
   },
   "paragraphs": [

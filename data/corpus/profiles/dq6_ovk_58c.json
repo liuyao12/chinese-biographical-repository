@@ -51,8 +51,27 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授官與用稱分存，未以後任或死亡推終點。官（卒）［率］將保留校勘符號，不擇定官名。嗇夫上林令任命諫止，不記已任。",
+      "interpretation_note": "授官與用稱分存，未以後任或死亡推終點。官（卒）［率］將保留校勘符號，不擇定官名。嗇夫上林令任命諫止，不記已任。 騎郎事文帝十歳不得調記來源十年持職，不推絕對年月或3650日。",
       "reviewer": "Codex（AI 代理）",
+      "reported_duration": {
+        "value": 10,
+        "unit": "title_year",
+        "source_term": "十歳",
+        "source_number": "十",
+        "counting": "unspecified_source_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-102",
+            "chapter_id": "c-shiji-102-zhangfeng",
+            "source_id": "s-shiji-102-zhangfeng",
+            "paragraph_id": "c-shiji-102-zhangfeng:p001",
+            "quote": "張廷尉釋之者，堵陽人也，字季。有兄仲同居。以訾爲騎郎，事孝文帝，十歳不得調，無所知名。釋之曰：「久宦減仲之產，不遂。」欲自免歸。中郎將袁盎知其賢，惜其去，乃請徙釋之補謁者。釋之既朝畢，因前言便宜事。文帝曰：「卑之，毋甚高論，令今可施行也。」於是釋之言秦漢之閒事，秦所以失而漢所以興者久之。文帝稱善，乃拜釋之爲謁者仆射。",
+            "person_mention_id": "c-shiji-102-zhangfeng:m001-0013"
+          }
+        ]
+      },
       "period": "未定 → 未定"
     },
     {
@@ -592,7 +611,31 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji102-002",
+      "person_id": "dq6_ovk_58c",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "釋之卒",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-102",
+          "chapter_id": "c-shiji-102-zhangfeng",
+          "source_id": "s-shiji-102-zhangfeng",
+          "paragraph_id": "c-shiji-102-zhangfeng:p010",
+          "quote": "張廷尉事景帝歳餘，爲淮南王相，猶尚以前過也。久之，釋之卒。其子曰張摯，字長公，官至大夫，免。以不能取容當世，故終身不仕。",
+          "person_mention_id": "c-shiji-102-zhangfeng:m010-0025"
+        }
+      ],
+      "interpretation_note": "久之無確年，事景帝歳餘不是享年。 只錄本段實際死亡，不補年齡、葬地或未載日期；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
