@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fyw_e6a_8dl` | 公孫弘後母（未名） | [《史記・平津侯主父列傳》][95] | [JSON](fyw_e6a_8dl.json) |
-| `fze_new_7ft` | 衡胡 | [《史記・儒林列傳》][104] | [JSON](fze_new_7ft.json) |
-| `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][23] | [JSON](fzk_mr8_bej.json) |
 | `fzo_jum_4s1` | 翟公 | [《史記・汲鄭列傳》][103] | [JSON](fzo_jum_4s1.json) |
 | `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][94] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][25] | [JSON](g0f_lnq_gkm.json) |
@@ -1829,7 +1826,6 @@
 | `t8b_zxx_6ea` | 田駢 | [《史記・孟子荀卿列傳》][57] | [JSON](t8b_zxx_6ea.json) |
 | `t8k_az0_xk2` | 魏惠王 | [《史記・孫子吳起列傳》][48] | [JSON](t8k_az0_xk2.json) |
 | `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][26] | [JSON](t8t_xtf_6tp.json) |
-| `t90_dfp_2t1` | 項籍 | [《史記・萬石張叔列傳》][86] | [JSON](t90_dfp_2t1.json) |
 | `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][113] | [JSON](t9n_2o5_k16.json) |
 | `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][4] | [JSON](ta6_n0m_glj.json) |
 | `tae_3uh_xsc` | 楚死事相張羽兄未名 | [《史記・吳王濞列傳》][89] | [JSON](tae_3uh_xsc.json) |
@@ -2221,6 +2217,11 @@
 | `w4q_ozz_a8d` | 於陵子仲引古 | [《史記・魯仲連鄒陽列傳》][66] | [JSON](w4q_ozz_a8d.json) |
 | `w59_f48_cbg` | 魏齊 | [《史記・太史公自序》][113] | [JSON](w59_f48_cbg.json) |
 | `w5h_6ah_6b1` | 勇之 | [《史記・孝武本紀》][13] | [JSON](w5h_6ah_6b1.json) |
+| `w5l_qjq_vly` | 衛文公 | [《史記・齊太公世家》][15] | [JSON](w5l_qjq_vly.json) |
+| `w5q_84t_ofs` | 共工（堯時） | [《史記・五帝本紀》][2] | [JSON](w5q_84t_ofs.json) |
+| `w5z_z1e_gts` | 周公 | [《史記・外戚世家》][32] | [JSON](w5z_z1e_gts.json) |
+| `w68_ebz_0ew` | 平原君夫人未名 | [《史記・魏公子列傳》][60] | [JSON](w68_ebz_0ew.json) |
+| `w6w_2q4_c9g` | 商君 | [《史記・魏世家》][27] | [JSON](w6w_2q4_c9g.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
