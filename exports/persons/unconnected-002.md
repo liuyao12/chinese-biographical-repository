@@ -1255,6 +1255,7 @@
 | `qac_69v_ntg` | 龔遂 | [《史記・平津侯主父列傳》][97] | [JSON](qac_69v_ntg.json) |
 | `qao_nbo_y9j` | 野（曹聲公） | [《史記・管蔡世家》][20] | [JSON](qao_nbo_y9j.json) |
 | `qbx_d2g_tda` | 息 | [《史記・三王世家》][45] | [JSON](qbx_d2g_tda.json) |
+| `qcc_x7d_rqk` | 句王（未名，霍去病軍校尉） | [《史記・衛將軍驃騎列傳》][96] | [JSON](qcc_x7d_rqk.json) |
 | `qce_nje_g73` | 豆如意 | [《史記・衛將軍驃騎列傳》][96] | [JSON](qce_nje_g73.json) |
 | `qco_jjb_gz1` | 懷（鄖公弟） | [《史記・楚世家》][25] | [JSON](qco_jjb_gz1.json) |
 | `qdw_na8_gsj` | 田嗇 | [《史記・貨殖列傳》][114] | [JSON](qdw_na8_gsj.json) |
@@ -2216,7 +2217,6 @@
 | `xga_n8f_29q` | 孝惠帝 | [《史記・外戚世家》][34] | [JSON](xga_n8f_29q.json) |
 | `xgn_ado_9u1` | 程伯休甫 | [《史記・太史公自序》][115] | [JSON](xgn_ado_9u1.json) |
 | `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][22] | [JSON](xgw_at7_sju.json) |
-| `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][13]、[《史記・惠景間侯者年表》][122] | [JSON](xgx_g4a_c28.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
