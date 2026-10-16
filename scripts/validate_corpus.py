@@ -180,9 +180,9 @@ def validate(root=ROOT):
                     check(cid not in chapter_books, '篇 ID 屬於多卷')
                     chapter_books[cid] = b['id']
         try:
-            from scripts.table_evidence import load_tables, table_evidence_errors
+            from scripts.table_evidence import load_tables, table_evidence_errors, table_title_range_errors
         except ModuleNotFoundError:
-            from table_evidence import load_tables, table_evidence_errors
+            from table_evidence import load_tables, table_evidence_errors, table_title_range_errors
         tables = load_tables(root)
         table_chapters = {table['source']['chapter_id']: table for table in tables.values()}
         check(len(table_chapters) == len(tables), '表格證據篇ID重複')
@@ -874,7 +874,16 @@ def validate(root=ROOT):
                             except ModuleNotFoundError:
                                 from date_ranges import year_range_errors
                             check('normalized_date' not in boundary, '稱號單年與範圍不可同時採用')
-                            errors.extend(year_range_errors(boundary['normalized_date_range'], boundary['evidence'], date))
+                            year_window = boundary['normalized_date_range']
+                            range_expression = date
+                            if isinstance(year_window, dict) and 'parallel_event' in year_window:
+                                parallel = dict(year_window, basis=year_window['parallel_event'])
+                                valid = date is None and parallel_event_date(parallel)
+                                check(valid, '稱號跨年範圍平行事件對讀無效')
+                                errors.extend(table_title_range_errors(year_window, h, endpoint, tables))
+                                if valid:
+                                    range_expression = year_window['parallel_event']['source_event_quote']
+                            errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression))
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()

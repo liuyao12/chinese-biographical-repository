@@ -321,3 +321,8 @@ test('received kinship people link directly to profiles and retain literal sourc
  const p={id:'abc_def_123',label:'張羽',related_people:{abc_def_123:'張羽',xyz_abc_456:'張尚'},relations:[{subject_person_id:'abc_def_123',predicate:'brother',object_person_id:'xyz_abc_456',qualifiers:{source_term:'楚死事相弟張羽'},evidence:[{quote:'楚死事相弟張羽'}]}]};
  const html=personCard(p,true);assert.match(html,/<a class="person-kinship-link" href="person.html#xyz_abc_456">張尚<\/a>/);assert.match(html,/<a class="person-kinship-link" href="person.html#abc_def_123">張羽<\/a>/);assert.match(html,/楚死事相弟張羽/);assert.doesNotMatch(personCard(p,false),/person-kinship-link/);
 });
+
+test('compact title summary shows attested periods while full profile retains undated sources',()=>{
+ const p={id:'abc_def_123',label:'測試人物',titles:[{title:'吳王',kind:'royal_rank',period:'未定 → 未定',evidence:[]},{title:'沛侯',kind:'noble_rank',period:'未定 → 未定',evidence:[]},{title:'吳王',kind:'royal_rank',period:'西元前196至195年（暫定範圍） → 未定',evidence:[]}]};
+ const compact=personCard(p,false),full=personCard(p,true);assert.match(compact,/西元前196至195年/);assert.equal((compact.match(/<strong>吳王<\/strong>/g)||[]).length,1);assert.equal((full.match(/<strong>吳王<\/strong>/g)||[]).length,2);assert.match(compact,/沛侯/);
+});

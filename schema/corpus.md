@@ -372,3 +372,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 姓名組件亦可用 `kind: table_cell`，保存 `table_id`、`table_cell_id`、`person_mention_id`、`work_id`、`book_id`、`chapter_id`、`source_id`、`source_revision` 與完整 `quote`，不偽造 `paragraph_id`。姓與名拼合須等於同人原名錨點字串，未知姓留空；稱號仍是辨認用稱，不自動成為任職始年。表格姓名來源在人物來源包的 `table_passages` 中回查，人物頁連到原格。
 
 來源報齡亦可附 `normalized_date_range`：格式與生卒跨年範圍相同，保留本筆 `evidence`、`original_quote`、原紀年表述及原年欄／數位對照／曆法來源。不得同時附確定單年 `normalized_date`，不得由報齡推定出生年。
+
+王爵授封／即位的始期跨年範圍，可用 `parallel_event` 對讀固定年表事件；須另存 `table_event`，含完整格文、同人逐人錨點、work/book/chapter/source與固定修訂、同列原年及數位西元欄。只接受已核明示初王之始期，不把原文沒有的日期填入 `date_expression`，不由死亡補終期。`references` 分列事件、原紀年、數位對照及歲首曆法，所有帶表格格ID的引句須對應原格。
