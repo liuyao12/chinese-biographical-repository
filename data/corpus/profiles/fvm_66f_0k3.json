@@ -537,9 +537,79 @@
               "chapter_id": "c-shiji-098-fujin",
               "source_id": "s-shiji-098-fujin",
               "paragraph_id": "c-shiji-098-fujin:p010",
-              "quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。"
+              "quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-098",
+              "person_mention_id": "c-shiji-098-fujin:m010-0000"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 196,
+              "year": -195
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 195,
+              "year": -194
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-098-fujin",
+                "source_id": "s-shiji-098-fujin",
+                "paragraph_id": "c-shiji-098-fujin:p010",
+                "quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-098",
+                "person_mention_id": "c-shiji-098-fujin:m010-0000"
+              }
+            ],
+            "references": [
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表來源紀年欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "十二",
+                "scope": "received_regnal_year_attestation",
+                "table_cell_id": "shiji-022-t1-r012-c01",
+                "image_verified": false
+              },
+              {
+                "title": "將相表數位西元對照（非原文）",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "195",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_cell_id": "shiji-022-t1-r012-c00",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "rationale": "來源明記高祖十二年，對照將相表原紀年欄及另列的數位西元欄。太初前建亥歲首、未知月，保留跨公元年的範圍。只換算此持職的start端點，不作生卒，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -549,7 +619,7 @@
       },
       "interpretation_note": "逐傳區分持有人；用稱與授予分存。五歲、一月、二歲等紀年保持原語待換算，死亡不自動作任期終點，字母不作長幼排行。",
       "reviewer": "Codex（AI 代理）",
-      "period": "高祖十二年 → 未定"
+      "period": "西元前196至195年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji098-041",
@@ -1372,6 +1442,78 @@
       "date_role": "title_period",
       "endpoint": "start",
       "title": "糨城侯"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 196,
+        "year": -195
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 195,
+        "year": -194
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-098-fujin",
+          "source_id": "s-shiji-098-fujin",
+          "paragraph_id": "c-shiji-098-fujin:p010",
+          "quote": "蒯成侯緤者，沛人也，姓周氏。常為高祖參乘，以舍人從起沛。至霸上，西入蜀、漢，還定三秦，食邑池陽。東絕甬道，從出度平陰，遇淮陰侯兵襄國，軍乍利乍不利，終無離上心。以緤為信武侯，食邑三千三百戶。高祖十二年，以緤為蒯成侯，除前所食邑。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-098",
+          "person_mention_id": "c-shiji-098-fujin:m010-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表來源紀年欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "十二",
+          "scope": "received_regnal_year_attestation",
+          "table_cell_id": "shiji-022-t1-r012-c01",
+          "image_verified": false
+        },
+        {
+          "title": "將相表數位西元對照（非原文）",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "195",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_cell_id": "shiji-022-t1-r012-c00",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        }
+      ],
+      "rationale": "來源明記高祖十二年，對照將相表原紀年欄及另列的數位西元欄。太初前建亥歲首、未知月，保留跨公元年的範圍。只換算此持職的start端點，不作生卒，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji098-040",
+      "person_id": "fvm_66f_0k3",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "蒯成侯"
     }
   ],
   "age_assertions": [],

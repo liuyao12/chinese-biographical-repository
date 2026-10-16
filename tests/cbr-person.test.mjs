@@ -263,3 +263,21 @@ test('稱號首選校讀與來源原字分列，不改其他持職字面',()=>{
  assert.equal(title.title,'合成原字');
  assert.match(personCard({...p,preferred_title_readings:[]},true),/<strong>合成原字<\/strong>/);
 });
+
+test('稱號時長顯示來源數字與古注，不當生卒或授官年',()=>{
+ const title={id:'synthetic-holding',title:'齊相國',period:'起訖未定',evidence:[{quote:'五歲為齊相國。'}],reported_duration:{value:5,unit:'title_year',source_term:'五歲為齊相國'},interpretation_note:'來源持職五歲，起訖未知。',references:[{title:'正義',quote:'爲齊悼惠王劉肥相五歲也。',url:'https://example.org/source'}]};
+ const html=personCard({id:'abc_def_123',label:'甲',titles:[title]},true);
+ assert.match(html,/原記時長：<strong>5年<\/strong>/);
+ assert.match(html,/五歲為齊相國/);assert.match(html,/爲齊悼惠王劉肥相五歲也/);
+ assert.doesNotMatch(html,/始於|西元.*5年|年齡/);
+});
+test('不把時長約數或餘月轉成零或確定時長，跨稱號不重複計數',()=>{
+ const t={title:'相',period:'起訖未定',evidence:[],reported_duration:{value:null,unit:'title_month',source_term:'十餘月'},duration_scope:{kind:'multiple_holdings'}};
+ const html=personCard({id:'abc_def_123',label:'甲',titles:[t]});
+ assert.match(html,/十餘月/);assert.match(html,/涵蓋多項稱號/);assert.doesNotMatch(html,/<strong>0月/);
+});
+test('同號同起訖的不同來源時長各自保留',()=>{
+ const t={title:'相',period:'起訖未定',evidence:[]};
+ const html=personCard({id:'abc_def_123',label:'甲',titles:[{...t,reported_duration:{value:5,unit:'title_year',source_term:'相五歲'}},{...t,reported_duration:{value:6,unit:'title_year',source_term:'相六年'}}]});
+ assert.match(html,/>5年</);assert.match(html,/>6年</);
+});
