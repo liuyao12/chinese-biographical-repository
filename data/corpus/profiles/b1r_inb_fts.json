@@ -1152,6 +1152,48 @@
       "interpretation_note": "逐傳區分持有人；用稱與授予分存。五歲、一月、二歲等紀年保持原語待換算，死亡不自動作任期終點，字母不作長幼排行。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji100-005",
+      "person_id": "b1r_inb_fts",
+      "title": "上將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-100-jibu",
+          "source_id": "s-shiji-100-jibu",
+          "paragraph_id": "c-shiji-100-jibu:p002",
+          "quote": "孝惠時，爲中郎將。單于嘗爲書嫚呂后，不遜，呂后大怒，召諸將議之。上將軍樊噲曰：「臣願得十萬衆，橫行匈奴中。」諸將皆阿呂后意，曰「然」。季布曰：「樊噲可斬也！夫髙帝將兵四十餘萬衆，困於平城，今噲柰何以十萬衆橫行匈奴中，面欺！且秦以事於胡，陳勝等起。于今創痍未瘳，噲又面諛，欲搖動天下。」是時殿上皆恐，太后罷朝，遂不復議撃匈奴事。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji100-005:a001",
+          "paragraph_id": "c-shiji-100-jibu:p002",
+          "start": 32,
+          "end": 35,
+          "surface": "上將軍",
+          "person_mention_id": "c-shiji-100-jibu:m002-0035",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "用稱、實授與明示請贖分存；請贖布以爲梁大夫只存敘事，不冒作明示拜授。欲以季布爲御史大夫而見罷不作已任。死亡不自動終止官爵，兪侯保留本見證原字。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -1377,6 +1419,14 @@
       "paragraph_id": "c-shiji-098-fujin:p003",
       "count": 1,
       "quote": "四月，擊陳豨，屬太尉勃，以相國代丞相哙擊豨。一月，徙為代相國，將屯。二歲，為代丞相，將屯。"
+    },
+    {
+      "number": 100,
+      "category": "liezhuan",
+      "title": "季布欒布列傳第四十",
+      "paragraph_id": "c-shiji-100-jibu:p002",
+      "count": 4,
+      "quote": "孝惠時，爲中郎將。單于嘗爲書嫚呂后，不遜，呂后大怒，召諸將議之。上將軍樊噲曰：「臣願得十萬衆，橫行匈奴中。」諸將皆阿呂后意，曰「然」。季布曰：「樊噲可斬也！夫髙帝將兵四十餘萬衆，困於平城，今噲柰何以十萬衆橫行匈奴中，面欺！且秦以事於胡，陳勝等起。于今創痍未瘳，噲又面諛，欲搖"
     },
     {
       "number": 110,
@@ -1718,6 +1768,30 @@
           ],
           "extraction_note": "去外緣空白及兩處HTML引用標記；逐字繁體轉換明記，保留緤、歙、饟及度平陰。",
           "note": "全15個HTML區塊已核讀；數位編者意見分存，不改正文三十一年，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-100-jibu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-100",
+      "source_id": "s-shiji-100-jibu",
+      "source": {
+        "title": "史記／卷100",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷100",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷100&oldid=1965696",
+        "revision_id": 1965696,
+        "accessed_on": "2026-10-10",
+        "extent": "11段正文含太史公論，另附1段索隱；首區塊即正文，無導覽可跳。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "只去外緣空白；髙、爲、呉、歳、説、兪、亨及校勘符號原字保留。",
+          "note": "全12個HTML區塊已核讀，無tooltip/reference/del/s0；未核底本影像。"
         }
       }
     },

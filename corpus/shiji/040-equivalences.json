@@ -736,6 +736,286 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji100-core-taizijian",
+      "person_ids": [
+        "q8m_d0c_kq3_AEB"
+      ],
+      "canonical_person_id": "q8m_d0c_kq3_AEB",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-038-song",
+        "c-shiji-040-chu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-038-song",
+          "source_id": "s-shiji-038-song",
+          "paragraph_id": "c-shiji-038-song:p052",
+          "quote": "元公三年，楚公子棄疾弒靈王，自立爲平王。八年，宋火。十年，元公毋信，詐殺諸公子，大夫華、向氏作亂。楚平王太子建來奔，見諸華氏相攻亂，建去如鄭。十五年，元公爲魯昭公避季氏居外，爲之求入魯，行道卒，子景公頭曼立。",
+          "mention_ids": [
+            "c-shiji-038-song:m052-0052",
+            "c-shiji-038-song:m052-0066"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p041",
+          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。",
+          "mention_ids": [
+            "c-shiji-040-chu:m041-0012",
+            "c-shiji-040-chu:m041-0100",
+            "c-shiji-040-chu:m041-0104",
+            "c-shiji-040-chu:m041-0127"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p002",
+          "quote": "楚平王有太子名曰建，使伍奢為太傅，費無忌為少傅。無忌不忠於太子建。平王使無忌為太子取婦於秦，秦女好，無忌馳歸報平王曰：「秦女絕美，王可自取，而更為太子取婦。」平王遂自取秦女而絕愛幸之，生子軫。更為太子取婦。",
+          "mention_ids": [
+            "c-shiji-066-wu:m002-0004",
+            "c-shiji-066-wu:m002-0008",
+            "c-shiji-066-wu:m002-0029",
+            "c-shiji-066-wu:m002-0039",
+            "c-shiji-066-wu:m002-0073",
+            "c-shiji-066-wu:m002-0098"
+          ]
+        }
+      ],
+      "rationale": "宋、楚及伍胥三篇同述楚平王太子建，楚與伍胥篇並同述為太子娶秦女、平王自娶及太子出奔。三個局部ID接合，父ID同指後按既有明示父子來源遷入楚系；不新增未載父子斷言。 各篇原名、引文及錨點保留，同書互見不作獨立史實票數。未核書影，身份接合不核定全部親屬、官爵時段及事件紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji100-core-zhaowang",
+      "person_ids": [
+        "q8m_d0c_kq3_AEA"
+      ],
+      "canonical_person_id": "q8m_d0c_kq3_AEA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-040-chu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p041",
+          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。",
+          "mention_ids": [
+            "c-shiji-040-chu:m041-0064"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p045",
+          "quote": "十三年，平王卒。將軍子常曰：「太子珍少，且其母乃前太子建所當娶也。」欲立令尹子西。子西，平王之庶弟也，有義。子西曰：「國有常法，更立則亂，言之則致誅。」乃立太子珍，是爲昭王。",
+          "mention_ids": [
+            "c-shiji-040-chu:m045-0015",
+            "c-shiji-040-chu:m045-0078",
+            "c-shiji-040-chu:m045-0084"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p002",
+          "quote": "楚平王有太子名曰建，使伍奢為太傅，費無忌為少傅。無忌不忠於太子建。平王使無忌為太子取婦於秦，秦女好，無忌馳歸報平王曰：「秦女絕美，王可自取，而更為太子取婦。」平王遂自取秦女而絕愛幸之，生子軫。更為太子取婦。",
+          "mention_ids": [
+            "c-shiji-066-wu:m002-0094"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p008",
+          "quote": "五年而楚平王卒。初，平王所奪太子建秦女生子軫，及平王卒，軫竟立為後，是為昭王。吳王僚因楚喪，使二公子將兵往襲楚。楚發兵絕吳兵之後，不得歸。吳國內空，而公子光乃令專諸襲刺吳王僚而自立，是為吳王闔廬。闔廬既立，得志，乃召伍員以為行人，而與謀國事。",
+          "mention_ids": [
+            "c-shiji-066-wu:m008-0021",
+            "c-shiji-066-wu:m008-0028",
+            "c-shiji-066-wu:m008-0036"
+          ]
+        }
+      ],
+      "rationale": "楚篇熊珍與伍胥篇軫均為平王自娶原擬太子婦的秦女所生、平王卒後立為昭王；依父母與繼位事件接合，不因字形近而合。珍／軫原字各存，不默改底本。 各篇原名、引文及錨點保留，同書互見不作獨立史實票數。未核書影，身份接合不核定全部親屬、官爵時段及事件紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji100-core-baigongsheng",
+      "person_ids": [
+        "q8m_d0c_kq3_AEBA"
+      ],
+      "canonical_person_id": "q8m_d0c_kq3_AEBA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-040-chu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p055",
+          "quote": "惠王二年，子西召故平王太子建之子勝於呉，以爲巣大夫，號曰白公。白公好兵而下士，欲報仇。六年，白公請兵令尹子西伐鄭。初，白公父建亡在鄭，鄭殺之，白公亡走呉，子西復召之，故以此怨鄭，欲伐之。子西許而未爲發兵。八年，晉伐鄭，鄭告急楚，楚使子西救鄭，受賂而去。白公勝怒，乃遂與勇力死士石乞等襲殺令尹子西、子綦於朝，因劫惠王，置之髙府，欲弒之。惠王從者屈固負王亡走昭王夫人宮。白公自立爲王。月餘，會葉公來救楚，楚惠王之徒與共攻白公，殺之。惠王乃復位。是歳也，滅陳而縣之。",
+          "mention_ids": [
+            "c-shiji-040-chu:m055-0016",
+            "c-shiji-040-chu:m055-0028",
+            "c-shiji-040-chu:m055-0031",
+            "c-shiji-040-chu:m055-0046",
+            "c-shiji-040-chu:m055-0059",
+            "c-shiji-040-chu:m055-0071",
+            "c-shiji-040-chu:m055-0126",
+            "c-shiji-040-chu:m055-0183",
+            "c-shiji-040-chu:m055-0208"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p007",
+          "quote": "久之，楚平王以其邊邑鐘離與吳邊邑卑梁氏俱蠶，兩女子爭桑相攻，乃大怒，至於兩國舉兵相伐。吳使公子光伐楚，拔其鐘離、居巢而歸。伍子胥說吳王僚曰：「楚可破也。願復遣公子光。」公子光謂吳王曰：「彼伍胥父兄為戮於楚，而勸王伐楚者，欲以自報其讎耳。伐楚未可破也。」伍胥知公子光有內志，欲殺王而自立，未可說以外事，乃進專諸於公子光，退而與太子建之子勝耕於野。",
+          "mention_ids": [
+            "c-shiji-066-wu:m007-0167"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p021",
+          "quote": "伍子胥初所與俱亡故楚太子建之子勝者，在於吳。吳王夫差之時，楚惠王欲召勝歸楚。葉公諫曰：「勝好勇而陰求死士，殆有私乎！」惠王不聽。遂召勝，使居楚之邊邑鄢，號為白公。白公歸楚三年而吳誅子胥。",
+          "mention_ids": [
+            "c-shiji-066-wu:m021-0015",
+            "c-shiji-066-wu:m021-0034",
+            "c-shiji-066-wu:m021-0044",
+            "c-shiji-066-wu:m021-0066",
+            "c-shiji-066-wu:m021-0078",
+            "c-shiji-066-wu:m021-0081"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p022",
+          "quote": "白公勝既歸楚，怨鄭之殺其父，乃陰養死士求報鄭。歸楚五年，請伐鄭，楚令尹子西許之。兵未發而晉伐鄭，鄭請救於楚。楚使子西往救，與盟而還。白公勝怒曰：「非鄭之仇，乃子西也。」勝自礪劍，人問曰：「何以為？」勝曰：「欲以殺子西。」子西聞之，笑曰：「勝如卵耳，何能為也。」",
+          "mention_ids": [
+            "c-shiji-066-wu:m022-0000",
+            "c-shiji-066-wu:m022-0066",
+            "c-shiji-066-wu:m022-0084",
+            "c-shiji-066-wu:m022-0099",
+            "c-shiji-066-wu:m022-0119"
+          ]
+        }
+      ],
+      "rationale": "兩篇明示楚太子建子勝、歸楚號白公及怨鄭殺父而襲子西，據共同親屬與事件接合；巣／鄢及返楚後年數等來源差異另存，不因此改正文。 各篇原名、引文及錨點保留，同書互見不作獨立史實票數。未核書影，身份接合不核定全部親屬、官爵時段及事件紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji100-core-qinnv",
+      "person_ids": [
+        "hil_pvv_3c6"
+      ],
+      "canonical_person_id": "hil_pvv_3c6",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-040-chu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p041",
+          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。",
+          "mention_ids": [
+            "c-shiji-040-chu:m041-0037",
+            "c-shiji-040-chu:m041-0060"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p002",
+          "quote": "楚平王有太子名曰建，使伍奢為太傅，費無忌為少傅。無忌不忠於太子建。平王使無忌為太子取婦於秦，秦女好，無忌馳歸報平王曰：「秦女絕美，王可自取，而更為太子取婦。」平王遂自取秦女而絕愛幸之，生子軫。更為太子取婦。",
+          "mention_ids": [
+            "c-shiji-066-wu:m002-0046",
+            "c-shiji-066-wu:m002-0060",
+            "c-shiji-066-wu:m002-0084"
+          ]
+        }
+      ],
+      "rationale": "只合本次楚平王自娶原擬太子婦、所生昭王的秦女；不按秦女字串跨其他敘事合併，不補未載姓名。 各篇原名、引文及錨點保留，同書互見不作獨立史實票數。未核書影，身份接合不核定全部親屬、官爵時段及事件紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji100-core-caimother",
+      "person_ids": [
+        "fbw_boe_fyu"
+      ],
+      "canonical_person_id": "fbw_boe_fyu",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-031-wu",
+        "c-shiji-040-chu",
+        "c-shiji-066-wu"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p022",
+          "quote": "八年，吳使公子光伐楚，敗楚師，迎楚故太子建母於居巣以歸。因北伐，敗陳、蔡之師。九年，公子光伐楚，拔居巣、鍾離。初，楚邊邑卑梁氏之處女與吳邊邑之女爭桑，二女家怒相滅，兩國邊邑長聞之，怒而相攻，滅吳之邊邑。吳王怒，故遂伐楚，取兩都而去。",
+          "mention_ids": [
+            "c-shiji-031-wu:m022-0021"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-040-chu",
+          "source_id": "s-shiji-040-chu",
+          "paragraph_id": "c-shiji-040-chu:p041",
+          "quote": "平王二年，使費無忌如秦爲太子建取婦。婦好，來，未至，無忌先歸，説平王曰：「秦女好，可自娶，爲太子更求。」平王聽之，卒自娶秦女，生熊珍。更爲太子娶。是時伍奢爲太子太傅，無忌爲少傅。無忌無寵於太子，常讒惡太子建。建時年十五矣，其母蔡女也，無寵於王，王稍益疎外建也。",
+          "mention_ids": [
+            "c-shiji-040-chu:m041-0113"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-066-wu",
+          "source_id": "s-shiji-066-wu",
+          "paragraph_id": "c-shiji-066-wu:p003",
+          "quote": "無忌既以秦女自媚於平王，因去太子而事平王。恐一旦平王卒而太子立，殺己，乃因讒太子建。建母，蔡女也，無寵於平王。平王稍益疏建，使建守城父，備邊兵。",
+          "mention_ids": [
+            "c-shiji-066-wu:m003-0043",
+            "c-shiji-066-wu:m003-0045"
+          ]
+        }
+      ],
+      "rationale": "僅據已辨同一太子建的母子端點接合；蔡女與本卷未名母親的來源原稱分存，不補其他蔡女或秦女。 各篇原名、引文及錨點保留，同書互見不作獨立史實票數。未核書影，身份接合不核定全部親屬、官爵時段及事件紀年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
