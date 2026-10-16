@@ -1644,7 +1644,6 @@
 | `br3_x48_86w` | 秦繆 | [《史記・孔子世家》][30] | [JSON](br3_x48_86w.json) |
 | `brk_sg8_oe9` | 和親宗室女（匈奴列傳第12至13段） | [《史記・匈奴列傳》][93] | [JSON](brk_sg8_oe9.json) |
 | `bro_0ln_j9p` | 春平君（趙世家未名者） | [《史記・趙世家》][26] | [JSON](bro_0ln_j9p.json) |
-| `brp_v5i_sjg` | 高祖 | [《史記・淮南衡山列傳》][101] | [JSON](brp_v5i_sjg.json) |
 | `brx_0of_9p8` | 韓懿侯 | [《史記・魏世家》][27] | [JSON](brx_0of_9p8.json) |
 | `bs4_1ga_74d` | 太任 | [《史記・周本紀》][5] | [JSON](bs4_1ga_74d.json) |
 | `bsf_8kr_gjr` | 鄭桓公 | [《史記・楚世家》][23] | [JSON](bsf_8kr_gjr.json) |
@@ -2227,6 +2226,7 @@
 | `fvc_qlq_6o2` | 韓王 | [《史記・老子韓非列傳》][46] | [JSON](fvc_qlq_6o2.json) |
 | `fvd_oal_6gi` | 越王句踐 | [《史記・蘇秦列傳》][52] | [JSON](fvd_oal_6gi.json) |
 | `fve_0yd_kml` | 康王姬（荊燕世家未名者） | [《史記・荊燕世家》][34] | [JSON](fve_0yd_kml.json) |
+| `fw5_vd1_4xy` | 禹 | [《史記・龜策列傳》][111] | [JSON](fw5_vd1_4xy.json) |
 
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

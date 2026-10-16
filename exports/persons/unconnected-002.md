@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `fw5_vd1_4xy` | 禹 | [《史記・龜策列傳》][111] | [JSON](fw5_vd1_4xy.json) |
 | `fw7_8k1_43d` | 周最 | [《史記・孟嘗君列傳》][58] | [JSON](fw7_8k1_43d.json) |
 | `fw9_g5w_om8` | 堯 | [《史記・趙世家》][26] | [JSON](fw9_g5w_om8.json) |
 | `fwf_1wp_wzg` | 呂太后 | [《史記・齊悼惠王世家》][35] | [JSON](fwf_1wp_wzg.json) |
@@ -1921,7 +1920,6 @@
 | `tjg_uab_cmw` | 蔡女（陳文公妻、佗母） | [《史記・陳杞世家》][19] | [JSON](tjg_uab_cmw.json) |
 | `tjx_q6x_kc7` | 墨翟 | [《史記・秦始皇本紀》][7] | [JSON](tjx_q6x_kc7.json) |
 | `tk3_22k_8aq` | 妲己 | [《史記・外戚世家》][32] | [JSON](tk3_22k_8aq.json) |
-| `tk5_g6e_rh8` | 淮南王未詳名 | [《史記・傅靳蒯成列傳》][81] | [JSON](tk5_g6e_rh8.json) |
 | `tke_fad_hlp` | 哀姜 | [《史記・魯周公世家》][16] | [JSON](tke_fad_hlp.json) |
 | `tks_56f_4ir` | 于定國 | [《史記・張丞相列傳》][79] | [JSON](tks_56f_4ir.json) |
 | `tl9_dsb_r6q` | 白起 | [《史記・魏世家》][27] | [JSON](tl9_dsb_r6q.json) |
@@ -2234,6 +2232,7 @@
 | `vug_pb4_94e` | 信（曹相國提要） | [《史記・太史公自序》][113] | [JSON](vug_pb4_94e.json) |
 | `vur_b8c_5er` | 娥 | [《史記・齊悼惠王世家》][35] | [JSON](vur_b8c_5er.json) |
 | `vv0_3wv_i18` | 噲（袁盎兄） | [《史記・袁盎鼂錯列傳》][84] | [JSON](vv0_3wv_i18.json) |
+| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][22] | [JSON](vv9_ss8_28z.json) |
 
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
 [3]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612

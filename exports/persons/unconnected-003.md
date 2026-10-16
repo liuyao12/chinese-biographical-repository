@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `vv9_ss8_28z` | 圉妻秦女（重耳再取者） | [《史記・晉世家》][22] | [JSON](vv9_ss8_28z.json) |
 | `vvf_lzn_pw4` | 東郭先生 | [《史記・滑稽列傳》][109] | [JSON](vvf_lzn_pw4.json) |
 | `vvg_bgl_w1b` | 伯虔 | [《史記・仲尼弟子列傳》][50] | [JSON](vvg_bgl_w1b.json) |
 | `vvg_rba_nwr` | 翟景 | [《史記・陳涉世家》][31] | [JSON](vvg_rba_nwr.json) |
