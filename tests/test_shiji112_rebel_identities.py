@@ -17,7 +17,7 @@ class RebelIdentities(unittest.TestCase):
  def test_same_name_and_short_name_collisions_stay_separate(self):
   self.assertNotEqual(pid('112',19,'吳廣'),pid('043',64,'吳廣'));self.assertNotEqual(pid('112',19,'周市'),pid('094',4,'市'));self.assertNotEqual(pid('112',19,'項梁'),pid('007',1,'項籍'))
  def test_unresolved_and_source_spelling_unchanged(self):
-  self.assertEqual(pid('112',13,'成進'),'lve_fqh_8v6');self.assertEqual(pid('112',19,'屠睢'),'5ep_xih_trk');self.assertEqual(pid('112',19,'監祿'),'a1r_v0c_ghw');self.assertIsNone(pid('112',19,'尉[佗]'));self.assertIn('景駒舉郢',para('112',19)['text']);self.assertIn('軍彭城東',para('007',5)['text'])
+  self.assertEqual(pid('112',13,'成'),'lve_fqh_8v6');self.assertEqual(pid('112',19,'屠睢'),'5ep_xih_trk');self.assertEqual(pid('112',19,'監祿'),'a1r_v0c_ghw');self.assertEqual(pid('112',19,'尉[佗]'),'bvb_d1z_fd0');self.assertIn('景駒舉郢',para('112',19)['text']);self.assertIn('軍彭城東',para('007',5)['text'])
  def test_fourteen_old_identity_and_path_ids_retired(self):
   old=['5vm_33p_472','qig_axh_3z6','rxf_qqr_to2','8a8_f4u_it7','kd6_4zt_f4n','7qu_l07_81s','5el_35a_36r','0qb_3yw_sge','mbg_5br_536','zeu_gxt_4pn','2kl_5xk_hld','r3c_eue_cqn','k8p_ptb_xa1','r3c_eue_cqn_*A'];ids={p['id']for p in load('registry/persons.json')['persons']}
   for p in old:

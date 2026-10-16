@@ -649,7 +649,7 @@
 | `ltv_hb9_iam` | 猗頓 | [《史記・陳涉世家》][33] | [JSON](ltv_hb9_iam.json) |
 | `ltw_z5b_t1x` | 北海太守（未名） | [《史記・滑稽列傳》][111] | [JSON](ltw_z5b_t1x.json) |
 | `lue_xus_em2` | 公甫文伯 | [《史記・平原君虞卿列傳》][61] | [JSON](lue_xus_em2.json) |
-| `lve_fqh_8v6` | 成進 | [《史記・平津侯主父列傳》][97] | [JSON](lve_fqh_8v6.json) |
+| `lve_fqh_8v6` | 御史成（姓名未詳） | [《史記・平津侯主父列傳》][97] | [JSON](lve_fqh_8v6.json) |
 | `lvy_0pn_yfg` | 熊渠（楚先祖） | [《史記・楚世家》][25] | [JSON](lvy_0pn_yfg.json) |
 | `lvz_tp4_qp3` | 伊稚斜之姊（趙信妻，未名） | [《史記・匈奴列傳》][95] | [JSON](lvz_tp4_qp3.json) |
 | `lwc_kea_ype` | 劉郢 | [《史記・孝文本紀》][13] | [JSON](lwc_kea_ype.json) |

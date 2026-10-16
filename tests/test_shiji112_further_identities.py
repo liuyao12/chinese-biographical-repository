@@ -23,7 +23,7 @@ class FurtherExemplars(unittest.TestCase):
  def test_liyan_keeps_established_paternal_path_and_literal_music_office(self):
   self.assertEqual(pid('112',30,'李延年'),'qhp_lk5_t1e_A');p=next(p for p in load('registry/persons.json')['persons']if p['id']=='qhp_lk5_t1e_A');self.assertEqual(p['family_path']['parent_person_id'],'qhp_lk5_t1e');self.assertIn('號協聲律',para('125',4)['text'])
  def test_editorial_layers_and_unresolved_emperor_are_preserved(self):
-  self.assertEqual(para('112',29)['text_layer'],'witness_appended_edict');self.assertEqual(para('112',30)['text_layer'],'witness_appended_bangu_note');self.assertEqual(para('126',15)['text_layer'],'witness_appended_chu_note');self.assertEqual(pid('112',15,'先帝'),'moo_r04_tz1');self.assertIsNone(pid('112',19,'尉[佗]'))
+  self.assertEqual(para('112',29)['text_layer'],'witness_appended_edict');self.assertEqual(para('112',30)['text_layer'],'witness_appended_bangu_note');self.assertEqual(para('126',15)['text_layer'],'witness_appended_chu_note');self.assertEqual(pid('112',15,'先帝'),'moo_r04_tz1');self.assertEqual(pid('112',19,'尉[佗]'),'bvb_d1z_fd0')
  def test_distinctions_survive_materialization_and_sang_stays_stable(self):
   rows=load('corpus/shiji/112-distinctions.json')['distinctions'];pairs=[set(r['person_ids'])for r in rows];self.assertIn({'usb_lgr_ksa','c19_xxo_r8f_A'},pairs);self.assertIn({'vkr_lkp_dme','m12_4ic_ro1'},pairs);self.assertIn({'e1m_xt0_8w7','f16_k0n_4q2'},pairs);self.assertEqual(pid('112',30,'桑弘羊'),'fi2_2cl_w22');self.assertEqual(pid('112',30,'弘羊'),'fi2_2cl_w22')
 
