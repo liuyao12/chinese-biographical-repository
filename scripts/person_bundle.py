@@ -230,6 +230,57 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             table_passages.setdefault(cell['id'], dict(cell, table_id=table['id'],
                 work_id=table['source']['work_id'], book_id=table['source']['book_id'],
                 chapter_id=table['source']['chapter_id'], source_id=table['source']['id']))
+    date_columns = {}
+    for holding in titles:
+        for endpoint in ('start', 'end'):
+            boundary = holding['effective_period'][endpoint]
+            window = boundary.get('normalized_date_range', {})
+            event = window.get('table_event')
+            if not isinstance(event, dict):
+                continue
+            try:
+                from .table_evidence import table_title_range_errors
+            except ImportError:
+                from table_evidence import table_title_range_errors
+            errors = table_title_range_errors(window, holding, endpoint, tables, boundary)
+            if errors:
+                raise ValueError('；'.join(errors))
+            points = [(event['table_id'], event['table_cell_id'])]
+            for key in ('noble_name_cell_id', 'regnal_year_cell_id', 'digital_year_cell_id'):
+                if event.get(key):
+                    points.append((event['table_id'], event[key]))
+            mapping = event.get('year_mapping', {})
+            for key in ('era_anchor_cell_id', 'regnal_year_cell_id', 'digital_year_cell_id'):
+                if mapping.get(key):
+                    points.append((mapping['table_id'], mapping[key]))
+            for ref in window.get('references', []):
+                if ref.get('table_cell_id'):
+                    points.append((ref.get('table_id', event['table_id']), ref['table_cell_id']))
+                if ref.get('table_column_id'):
+                    table = tables[ref.get('table_id', event['table_id'])]
+                    for fragment in table['fragments']:
+                        for index, col in enumerate(fragment['columns']):
+                            if col['id'] == ref['table_column_id']:
+                                date_columns[col['id']] = dict(col, table_id=table['id'],
+                                    table_fragment_id=fragment['id'], column_index=index,
+                                    work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                                    chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
+                                    source_revision=table['source']['revision'])
+            for tid, cid in points:
+                table = tables[tid]
+                cited_tables.add(tid)
+                for fragment in table['fragments']:
+                    for row in fragment['rows']:
+                        for cell in row['cells']:
+                            if cell['id'] == cid:
+                                table_passages.setdefault(cid, dict(cell, table_id=tid,
+                                    table_fragment_id=fragment['id'], table_row_id=row['id'],
+                                    table_cell_id=cid, work_id=table['source']['work_id'],
+                                    book_id=table['source']['book_id'], chapter_id=table['source']['chapter_id'],
+                                    source_id=table['source']['id'], source_revision=table['source']['revision'],
+                                    source_header=fragment['source_header'], row_year=row.get('year'),
+                                    citation_role='title_date_reference'))
+
     # Counts describe annotated occurrences, not source authority or independent witnesses.
     source_mentions = {}
     for mention in mentions:
@@ -322,6 +373,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'identity_distinctions': distinctions} if distinctions else {}),
             'passages': passages,
             **({'table_passages': list(table_passages.values())} if table_passages else {}),
+            **({'table_column_references': list(date_columns.values())} if date_columns else {}),
             'sources': [{'chapter_id': cid, 'work_id': chapters[cid]['work_id'],
                          'book_id': chapters[cid]['book_id'], 'source_id': chapters[cid]['source_id'],
                          'source': chapters[cid]['source']} for cid in sorted(chapter_ids)]
