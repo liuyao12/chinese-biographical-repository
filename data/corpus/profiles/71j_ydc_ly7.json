@@ -22,6 +22,14 @@
       "quote": "當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣承統，纂修洪業，亦講論六藝，招選"
     },
     {
+      "number": 113,
+      "category": "liezhuan",
+      "title": "南越列傳第五十三",
+      "paragraph_id": "c-shiji-113-nanyue:p005",
+      "count": 3,
+      "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天"
+    },
+    {
       "number": 122,
       "category": "liezhuan",
       "title": "酷吏列傳第六十二",
@@ -57,6 +65,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-113-nanyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-113",
+      "source_id": "s-shiji113-nanyue",
+      "source": {
+        "title": "史記／卷113",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷113",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+        "revision_id": 8735632,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證14段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2及現代節標題，YL紀年模板僅去外殼保留原字。未核底本影像。",
+          "note": "索隱述贊另層，不混作正文。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-122-kuli",
       "work_id": "w-shiji",
       "book_id": "b-shiji-122",
@@ -86,7 +118,85 @@
     "71j_ydc_ly7": "嚴助（酷吏列傳候選）"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji113-core-zhuangzhu",
+      "person_ids": [
+        "71j_ydc_ly7"
+      ],
+      "canonical_person_id": "71j_ydc_ly7",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-113-nanyue",
+        "c-shiji-122-kuli"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0003",
+            "c-shiji-113-nanyue:m005-0046",
+            "c-shiji-113-nanyue:m005-0071"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p017",
+          "quote": "是時上方鄕文學，湯決大獄，欲傅古義，乃請博士弟子治尚書、春秋補廷尉史，亭疑法。奏讞疑事，必豫先爲上分別其原，上所是，受而著讞決法廷尉絜令，揚主之明。奏事卽譴，湯應謝，鄕上意所便，必引正、監、掾史賢者，曰：「固爲臣議，如上責臣，臣弗用，愚抵於此。」罪常釋。（聞）［閒］卽奏事，上善之，曰：「臣非知爲此奏，乃正、監、掾史某爲之。」其欲薦吏，揚人之善蔽人之過如此。所治卽上意所欲罪，予監史深禍者；卽上意所欲釋，與監史輕平者。所治卽豪，必舞文巧詆；卽下戸羸弱，時口言，雖文致法，上財察。於是往往釋湯所言。湯至於大吏，内行修也。通賓客飲食。於故人子弟爲吏及貧昆弟，調護之尤厚。其造請諸公，不避寒暑。是以湯雖文深意忌不專平，然得此聲譽。而刻深吏多爲爪牙用者，依於文學之士。丞相弘數稱其美。及治淮南、衡山、江都反獄，皆窮根本。嚴助及伍被，上欲釋之。湯爭曰：「伍被本畫反謀，而助親幸出入禁闥爪牙臣，乃交私諸侯如此，弗誅，後不可治。」於是上可論之。其治獄所排大臣自爲功，多此類。於是湯益尊任，遷爲御史大夫。",
+          "mention_ids": [
+            "c-shiji-122-kuli:m017-0356",
+            "c-shiji-122-kuli:m017-0380"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "莊助使南越王胡，漢書95同一諭意事件明作嚴助，據此接既有嚴助；莊嚴分源記，不說成生前改名，不混莊參或莊蹻。 依具體時序、角色或事件暫定同指；不據此補生卒、任期、父子或改寫原字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《前漢書》卷95嚴助使南粤（文淵閣數位轉錄）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L266-L267",
+          "quote": "天子使嚴助徃諭意南粤王胡頓首曰天子廼興兵誅閩粤死亡以報德遣太子嬰齊入宿衞謂",
+          "raw_quote": "降於是罷兵天子使嚴助徃諭意南粤王胡頓首曰天¶\n子廼興兵誅閩粤死亡以報德遣太子嬰齊入宿衞謂¶",
+          "scope": "received_same_mission_name_variant",
+          "image_verified": false,
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "ae85076fbcb902242dad85fc3d8b11751e408d228b939c73e8f4c3ee4a879793",
+          "response_extent": {
+            "first_line": 151,
+            "last_line": 300,
+            "partial_file": true
+          }
+        }
+      ],
+      "identity_materialized": true
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "71j_ydc_ly7",
+      "title": null,
+      "surname": "莊",
+      "ming": "助",
+      "additional_names": [
+        "嚴助"
+      ],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p005",
+      "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。",
+      "note": "頂端依本篇莊助用字，漢書同使事作嚴助；分源保存，不斷言生前改姓或改名年月。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "71j_ydc_ly7"
   ],
