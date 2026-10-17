@@ -666,7 +666,7 @@
 | `m3x_qqp_18q` | 佛肸 | [《史記・孔子世家》][33] | [JSON](m3x_qqp_18q.json) |
 | `m4b_3vy_i2f` | 廉頗 | [《史記・太史公自序》][116] | [JSON](m4b_3vy_i2f.json) |
 | `m5i_yic_yy1` | 太公望 | [《史記・龜策列傳》][114] | [JSON](m5i_yic_yy1.json) |
-| `m61_2wu_0ru` | 王唊 | [《史記・朝鮮列傳》][101] | [JSON](m61_2wu_0ru.json) |
+| `m61_2wu_0ru` | 王唊 | [《史記・朝鮮列傳》][101]、[《史記・建元以來侯者年表》][125] | [JSON](m61_2wu_0ru.json) |
 | `m6b_39t_lpp` | 嚴君疾 | [《史記・秦本紀》][9] | [JSON](m6b_39t_lpp.json) |
 | `m6r_c9h_kjq` | 尹齊 | [《史記・酷吏列傳》][108] | [JSON](m6r_c9h_kjq.json) |
 | `m6w_e7i_lf7` | 牢 | [《史記・孔子世家》][33] | [JSON](m6w_e7i_lf7.json) |
@@ -2208,7 +2208,6 @@
 | `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
 | `xzf_o56_oi3` | 陳勝 | [《史記・淮南衡山列傳》][104] | [JSON](xzf_o56_oi3.json) |
 | `xzi_8vn_cnc` | 蘇秦謀齊齊王 | [《史記・張儀列傳》][56] | [JSON](xzi_8vn_cnc.json) |
-| `xzo_t0s_b50` | 王子中同 | [《史記・仲尼弟子列傳》][53] | [JSON](xzo_t0s_b50.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

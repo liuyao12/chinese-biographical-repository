@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `xzo_t0s_b50` | 王子中同 | [《史記・仲尼弟子列傳》][53] | [JSON](xzo_t0s_b50.json) |
 | `xzr_i9s_mnp` | 東甌王（勇之所引） | [《史記・孝武本紀》][16] | [JSON](xzr_i9s_mnp.json) |
 | `xzw_df5_9v1` | 吳起 | [《史記・秦始皇本紀》][10] | [JSON](xzw_df5_9v1.json) |
 | `xzz_lpt_eot` | 陳皇后 | [《史記・酷吏列傳》][108] | [JSON](xzz_lpt_eot.json) |
