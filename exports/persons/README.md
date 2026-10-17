@@ -381,7 +381,7 @@
 
 </details>
 
-<details><summary><code>5dd_l1c_6g8</code> 衛青（外戚世家候選）（5 名）</summary>
+<details><summary><code>5dd_l1c_6g8</code> 衛青（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|

@@ -2,14 +2,15 @@
   "schema_version": 1,
   "id": "yay_w6f_lis_A",
   "canonical_person_id": "yay_w6f_lis_A",
-  "label": "公孫賀（衛將軍驃騎列傳候選）",
+  "label": "公孫賀",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "公孫賀",
     "賀",
     "太僕",
-    "左將軍"
+    "左將軍",
+    "孫叔"
   ],
   "titles": [
     {
@@ -2165,6 +2166,14 @@
       "paragraph_id": "c-shiji-111-wei-huo:p003",
       "count": 14,
       "quote": "。上聞，乃召青為建章監，侍中，及同母昆弟貴，賞賜數日閒累千金。孺為太僕公孫賀妻。少兒故與陳掌通，上召貴掌。公孫敖由此益貴。子夫為夫人。青為大中大夫。"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p020",
+      "count": 1,
+      "quote": "乎背秋涉冬，天子校獵。乘鏤象，六玉虯，拖蜺旌，靡雲旗，前皮軒，後道遊；孫叔奉轡，衛公驂乘，扈從橫行，出乎四校之中。鼓嚴簿，縱獠者，江河為阹，泰山為櫓，車騎雷起，隱天動地，先後陸離，離散別追，淫淫裔裔，緣陵流澤，雲布雨施。」"
     }
   ],
   "table_occurrences": [],
@@ -2240,6 +2249,30 @@
           "note": "未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
     }
   ],
   "relations": [
@@ -2310,7 +2343,7 @@
   "related_people": {
     "u99_jp0_vbq": "衛孺（衛將軍驃騎列傳候選）",
     "yay_w6f_lis": "渾邪（公孫賀父）（衛將軍驃騎列傳候選）",
-    "yay_w6f_lis_A": "公孫賀（衛將軍驃騎列傳候選）",
+    "yay_w6f_lis_A": "公孫賀",
     "yay_w6f_lis_AA": "敬聲（公孫賀子）（衛將軍驃騎列傳候選）"
   },
   "dates": [
@@ -3467,6 +3500,86 @@
           "image_verified": false
         }
       ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji117-commentary-sunshu",
+      "person_id": "yay_w6f_lis_A",
+      "surfaces": [
+        "孫叔"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-111-wei-huo"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "ancient_commentary_explicit_identification",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m020-0038"
+        ],
+        "historical_event_attendance_not_inferred": true
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p020",
+          "quote": "「於是乎背秋涉冬，天子校獵。乘鏤象，六玉虯，拖蜺旌，靡雲旗，前皮軒，後道遊；孫叔奉轡，衛公驂乘，扈從橫行，出乎四校之中。鼓嚴簿，縱獠者，江河為阹，泰山為櫓，車騎雷起，隱天動地，先後陸離，離散別追，淫淫裔裔，緣陵流澤，雲布雨施。」",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m020-0038"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p003",
+          "quote": "青壯，為侯家騎，從平陽主。建元二年春，青姊子夫得入宮幸上。皇后，堂邑大長公主女也，無子，妒。大長公主聞衛子夫幸，有身，妒之，乃使人捕青。青時給事建章，未知名。大長公主執囚青，欲殺之。其友騎郎公孫敖與壯士往篡取之，以故得不死。上聞，乃召青為建章監，侍中，及同母昆弟貴，賞賜數日閒累千金。孺為太僕公孫賀妻。少兒故與陳掌通，上召貴掌。公孫敖由此益貴。子夫為夫人。青為大中大夫。",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m003-0000",
+            "c-shiji-111-wei-huo:m003-0019",
+            "c-shiji-111-wei-huo:m003-0066",
+            "c-shiji-111-wei-huo:m003-0068",
+            "c-shiji-111-wei-huo:m003-0085",
+            "c-shiji-111-wei-huo:m003-0117",
+            "c-shiji-111-wei-huo:m003-0146",
+            "c-shiji-111-wei-huo:m003-0178"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p028",
+          "quote": "將軍公孫賀。賀，義渠人，其先胡種。賀父渾邪，景帝時為平曲侯，坐法失侯。賀，武帝為太子時舍人。武帝立八歲，以太僕為輕車將軍，軍馬邑。後四歲，以輕車將軍出雲中。後五歲，以騎將軍從大將軍有功，封為南窌侯。後一歲，以左將軍再從大將軍出定襄，無功。後四歲，以坐酎金失侯。後八歲，以浮沮將軍出五原二千餘里，無功。後八歲，以太僕為丞相，封葛繹侯。賀七為將軍，出擊匈奴無大功，而再侯，為丞相。坐子敬聲與陽石公主姦，為巫蠱，族滅，無後。",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m028-0002",
+            "c-shiji-111-wei-huo:m028-0006",
+            "c-shiji-111-wei-huo:m028-0017",
+            "c-shiji-111-wei-huo:m028-0035",
+            "c-shiji-111-wei-huo:m028-0087",
+            "c-shiji-111-wei-huo:m028-0109",
+            "c-shiji-111-wei-huo:m028-0166"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記集解》卷117·漢書音義釋孫叔、衛公",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L274",
+          "quote": "衛公驂乗(漢書音義曰孫叔者太僕公孫賀也衛/公者衞青也太僕御大將軍驂乘也)扈從¶",
+          "scope": "ancient_commentary_identification",
+          "image_verified": false,
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+          "response_sha256": "70e5736d466b3defce10ad66b6385e636854bb0b20824a583304e9c783b22ad9",
+          "verified_extent": {
+            "start_line": 226,
+            "end_line": 340
+          }
+        }
+      ],
+      "rationale": "集解所引漢書音義：孫叔者太僕公孫賀也。正文保留原稱；古注另層保存，跨篇正文只支持被釋人物身份與稱號，不把賦中場景改作確定的共同事件，不補官職起訖。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
