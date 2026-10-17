@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "id": "f4l_jyl_oqv",
-  "canonical_person_id": "f4l_jyl_oqv",
-  "label": "嬰齊（南越列傳候選）",
+  "id": "bvb_d1z_fd0_*AA",
+  "canonical_person_id": "bvb_d1z_fd0_*AA",
+  "label": "嬰齊",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -12,7 +12,7 @@
   "titles": [
     {
       "id": "th-shiji113-014",
-      "person_id": "f4l_jyl_oqv",
+      "person_id": "bvb_d1z_fd0_*AA",
       "title": "太子",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -55,7 +55,7 @@
     },
     {
       "id": "th-shiji113-033",
-      "person_id": "f4l_jyl_oqv",
+      "person_id": "bvb_d1z_fd0_*AA",
       "title": "明王",
       "kind": "honorific",
       "mode": "attestation",
@@ -100,6 +100,21 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 20,
+      "category": "",
+      "title": "漢紀十二",
+      "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+      "count": 2,
+      "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣",
+      "work_id": "w-zizhitongjian",
+      "work_title": "資治通鑑",
+      "book_id": "b-zizhitongjian-020",
+      "chapter_id": "c-zizhitongjian-020-han12",
+      "paragraph_ids": [
+        "c-zizhitongjian-020-han12:p-nanyue-001"
+      ]
+    },
+    {
       "number": 113,
       "category": "liezhuan",
       "title": "南越列傳第五十三",
@@ -133,12 +148,50 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-020-han12",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-020",
+      "source_id": "s-zizhitongjian-020-han12",
+      "source": {
+        "title": "資治通鑑卷二十（固定數位轉錄，版本標記待核）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
+        "permalink": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
+        "revision_id": "80174f61e491db29f9921d0d3e54a59649419aa9",
+        "source_commit": "80174f61e491db29f9921d0d3e54a59649419aa9",
+        "source_blob_sha": "71c9f2f93a06f0869cbe807edf3f42524a9ea2a3",
+        "accessed_on": "2026-10-16",
+        "extent": "只錄初南越文王遣其子嬰齊入宿衛至興為嗣一段，作史記南越父子對讀；未錄全卷。",
+        "text_scope": "partial_chapter",
+        "included_sections": [
+          "南越文王與嬰齊、樛氏女及興"
+        ],
+        "image_verified": false,
+        "rights": "古代正文及古注；保留Kanripo數位轉錄與固定提交來源歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_metadata_note": "檔頭BASEEDITION SBCK，頁標WYG；只標固定數位轉錄，不宣稱已核實物版本。",
+        "response_sha256": "f21e05fe0f13c21e1e437b8f793cdf79a9fc0a2daecea645135f9696d940d8c6",
+        "response_extent": {
+          "first_line": 201,
+          "last_line": 350,
+          "partial_file": true
+        },
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定原檔305至310行中截取正文首尾；去括號雙行注、換行、段末符，保留蔵等原字、不補標點。raw_quote保留古注與前後截取範圍；response指紋只涵201至350行，不冒作全卷或圖像校勘。"
+        }
+      }
     }
   ],
   "relations": [
     {
       "id": "a-shiji113-003",
-      "subject_person_id": "f4l_jyl_oqv",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
       "predicate": "spouse",
       "object_person_id": "3q4_zsp_jwy",
       "status": "source_attested",
@@ -158,9 +211,9 @@
     },
     {
       "id": "a-shiji113-004",
-      "subject_person_id": "f4l_jyl_oqv_A",
+      "subject_person_id": "bvb_d1z_fd0_*AAA",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -178,9 +231,9 @@
     },
     {
       "id": "a-shiji113-006",
-      "subject_person_id": "f4l_jyl_oqv_B",
+      "subject_person_id": "bvb_d1z_fd0_*AAB",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -198,9 +251,9 @@
     },
     {
       "id": "a-shiji113-007",
-      "subject_person_id": "f4l_jyl_oqv_C",
+      "subject_person_id": "bvb_d1z_fd0_*AAC",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -213,7 +266,7 @@
       "qualifiers": {
         "source_term": "明王長男",
         "birth_order": {
-          "parent_person_id": "f4l_jyl_oqv",
+          "parent_person_id": "bvb_d1z_fd0_*AA",
           "scope": "sons_of_parent",
           "ordinal": 1,
           "position": "eldest",
@@ -222,24 +275,97 @@
       },
       "interpretation_note": "長男記序號1；明王由第6段嬰齊謚號承接。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-001",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "南越文王遣其子嬰齊"
+      },
+      "interpretation_note": "明其子，不僅因太子或代立推父子。文王與胡的身份對讀另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-002",
+      "subject_person_id": "bvb_d1z_fd0_*AAA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "在長安取邯鄲樛氏女生子興"
+      },
+      "interpretation_note": "本段承接嬰齊在長安取樛氏女，生子興；不改本傳原斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-004",
+      "subject_person_id": "3q4_zsp_jwy",
+      "predicate": "spouse",
+      "object_person_id": "bvb_d1z_fd0_*AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取邯鄲樛氏女"
+      },
+      "interpretation_note": "取妻明文，未推婚年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "3q4_zsp_jwy": "樛氏女（南越列傳候選）",
-    "f4l_jyl_oqv": "嬰齊（南越列傳候選）",
-    "f4l_jyl_oqv_A": "興（南越列傳候選）",
-    "f4l_jyl_oqv_B": "次公（南越列傳候選）",
-    "f4l_jyl_oqv_C": "建德"
+    "bvb_d1z_fd0_*A": "胡",
+    "bvb_d1z_fd0_*AA": "嬰齊",
+    "bvb_d1z_fd0_*AAA": "興（南越列傳候選）",
+    "bvb_d1z_fd0_*AAB": "次公（南越列傳候選）",
+    "bvb_d1z_fd0_*AAC": "建德"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "f4l_jyl_oqv"
+    "bvb_d1z_fd0_*AA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji113-003",
-      "subject_person_id": "f4l_jyl_oqv",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
       "predicate": "spouse",
       "object_person_id": "3q4_zsp_jwy",
       "status": "source_attested",
@@ -259,9 +385,9 @@
     },
     {
       "id": "a-shiji113-004",
-      "subject_person_id": "f4l_jyl_oqv_A",
+      "subject_person_id": "bvb_d1z_fd0_*AAA",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -279,9 +405,9 @@
     },
     {
       "id": "a-shiji113-006",
-      "subject_person_id": "f4l_jyl_oqv_B",
+      "subject_person_id": "bvb_d1z_fd0_*AAB",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -299,9 +425,9 @@
     },
     {
       "id": "a-shiji113-007",
-      "subject_person_id": "f4l_jyl_oqv_C",
+      "subject_person_id": "bvb_d1z_fd0_*AAC",
       "predicate": "father",
-      "object_person_id": "f4l_jyl_oqv",
+      "object_person_id": "bvb_d1z_fd0_*AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -314,7 +440,7 @@
       "qualifiers": {
         "source_term": "明王長男",
         "birth_order": {
-          "parent_person_id": "f4l_jyl_oqv",
+          "parent_person_id": "bvb_d1z_fd0_*AA",
           "scope": "sons_of_parent",
           "ordinal": 1,
           "position": "eldest",
@@ -323,13 +449,85 @@
       },
       "interpretation_note": "長男記序號1；明王由第6段嬰齊謚號承接。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-001",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "南越文王遣其子嬰齊"
+      },
+      "interpretation_note": "明其子，不僅因太子或代立推父子。文王與胡的身份對讀另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-002",
+      "subject_person_id": "bvb_d1z_fd0_*AAA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "在長安取邯鄲樛氏女生子興"
+      },
+      "interpretation_note": "本段承接嬰齊在長安取樛氏女，生子興；不改本傳原斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-004",
+      "subject_person_id": "3q4_zsp_jwy",
+      "predicate": "spouse",
+      "object_person_id": "bvb_d1z_fd0_*AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "取邯鄲樛氏女"
+      },
+      "interpretation_note": "取妻明文，未推婚年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
   "life_events": [
     {
-      "id": "le-shiji113-p006-f4l_jyl_oqv",
-      "person_id": "f4l_jyl_oqv",
+      "id": "le-shiji113-p006-bvb_d1z_fd0_*AA",
+      "person_id": "bvb_d1z_fd0_*AA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

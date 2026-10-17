@@ -1176,6 +1176,25 @@
           ]
         }
       ]
+    },
+    {
+      "id": "w-zizhitongjian",
+      "title": "資治通鑑",
+      "author": "司馬光",
+      "status": "in_progress",
+      "expected_books": null,
+      "numbering_note": "目前只實錄卷二十南越局部一段；不代表全卷或全書開始批量匯入。",
+      "books": [
+        {
+          "id": "b-zizhitongjian-020",
+          "work_id": "w-zizhitongjian",
+          "number": 20,
+          "title": "卷二十",
+          "chapter_ids": [
+            "c-zizhitongjian-020-han12"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

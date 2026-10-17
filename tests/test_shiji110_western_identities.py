@@ -8,7 +8,7 @@ def para(n,k):return next(p for p in load('corpus/shiji/'+n+'.json')['paragraphs
 def who(n,k,s):return next(m['person_id']for m in para(n,k)['mentions']if m['surface']==s)
 class XiongnuWesternIdentities(unittest.TestCase):
  def test_nanyue_king_is_last_king_not_his_predecessor(self):
-  self.assertEqual(who('110',45,'南越王'),'f4l_jyl_oqv_C');self.assertEqual(who('113',9,'建德'),'f4l_jyl_oqv_C');self.assertNotEqual(who('113',7,'王'),'f4l_jyl_oqv_C');self.assertIn('蘇弘得建德',para('113',11)['text']);self.assertIn('頭已懸',para('110',45)['text'])
+  self.assertEqual(who('110',45,'南越王'),'bvb_d1z_fd0_*AAC');self.assertEqual(who('113',9,'建德'),'bvb_d1z_fd0_*AAC');self.assertNotEqual(who('113',7,'王'),'bvb_d1z_fd0_*AAC');self.assertIn('蘇弘得建德',para('113',11)['text']);self.assertIn('頭已懸',para('110',45)['text'])
  def test_mugua_is_not_successors_and_death_agents_stay_distinct(self):
   self.assertEqual(who('110',55,'其王'),'2l2_58b_q4i');self.assertIn('共殺其王毋寡',para('123',33)['text']);self.assertIn('斬其王而還',para('110',55)['text']);self.assertNotEqual(who('123',36,'昧蔡'),'2l2_58b_q4i');self.assertNotEqual(who('123',36,'蟬封'),'2l2_58b_q4i')
  def test_marriage_connects_specific_woman_and_king_without_naming_them(self):
