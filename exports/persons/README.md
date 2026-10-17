@@ -103,7 +103,7 @@
 
 </details>
 
-<details><summary><code>113_odk_emq</code> 衞綰（萬石張叔列傳候選）（2 名）</summary>
+<details><summary><code>113_odk_emq</code> 衞綰（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -193,7 +193,7 @@
 
 </details>
 
-<details><summary><code>27j_f4p_jwp</code> 李廣（李將軍列傳候選）（7 名）</summary>
+<details><summary><code>27j_f4p_jwp</code> 李廣（7 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1089,7 +1089,7 @@
 
 </details>
 
-<details><summary><code>fmh_dmt_cql</code> 汲黯（平津侯主父列傳候選）（2 名）</summary>
+<details><summary><code>fmh_dmt_cql</code> 汲黯（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2116,7 +2116,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 灌嬰 | [《史記・樊酈滕灌列傳》][79] | [JSON](sj9_pfu_fwh.json) |
-| `*A` | 灌賢 | [《史記・樊酈滕灌列傳》][79] | [JSON](sj9_pfu_fwh_%2AA.json) |
+| `*A` | 灌賢 | [《史記・魏其武安侯列傳》][91] | [JSON](sj9_pfu_fwh_%2AA.json) |
 | `A` | 灌阿 | [《史記・樊酈滕灌列傳》][79] | [JSON](sj9_pfu_fwh_A.json) |
 | `AA` | 灌彊 | [《史記・樊酈滕灌列傳》][79] | [JSON](sj9_pfu_fwh_AA.json) |
 

@@ -663,7 +663,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertIsNone(origin['place']['modern_identification'])
 
     def test_usage_year_includes_earlier_chronological_context(self):
-        result = bundle('284_zc9_6fx')
+        result = bundle('fmh_dmt_cql')
         passages = {p['id']: p for p in result['passages']}
         self.assertIn('c-shiji-107-weiqi:p019', passages)
         h = next(h for h in result['title_holdings'] if h['title'] == '主爵都尉')
