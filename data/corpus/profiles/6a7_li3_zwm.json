@@ -134,6 +134,94 @@
           "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-005-qin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-005",
+      "source_id": "s-shiji-005-qin",
+      "source": {
+        "title": "史記／卷005",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷005",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
+        "revision_id": 8744286,
+        "accessed_on": "2026-10-09",
+        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "铚": "銍",
+            "绖": "絰",
+            "龁": "齕"
+          },
+          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-005-qin:p009",
+              "witness_form": "（世父）世父",
+              "body_reading": "世父",
+              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p022",
+              "witness_form": "铚",
+              "body_reading": "銍",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p028",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p033",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p072",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p074",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "胡（傷）［陽］",
+              "body_reading": "胡傷",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "南（郡）［陽］",
+              "body_reading": "南郡",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "（武安）",
+              "body_reading": "",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            }
+          ]
+        }
+      }
     }
   ],
   "relations": [
@@ -183,9 +271,40 @@
   "related_people": {
     "6a7_li3_zwm": "靈王",
     "ary_z8m_f18": "景王",
+    "glu_u6e_lf4": "楚靈王",
     "s4y_bc6_4ay": "簡王"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji005-distinct-004",
+      "person_ids": [
+        "glu_u6e_lf4",
+        "6a7_li3_zwm"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p043",
+          "quote": "景公四年，晉欒書弒其君厲公。十五年，救鄭，敗晉兵於櫟。是時晉悼公為盟主。十八年，晉悼公彊，數會諸侯，率以伐秦，敗秦軍。秦軍走，晉兵追之，遂渡涇，至棫林而還。二十七年，景公如晉，與平公盟，已而背之。三十六年，楚公子圍弒其君而自立，是為靈王。景公母弟後子鍼有寵，景公母弟富，或譖之，恐誅，乃奔晉，車重千乘。晉平公曰：「后子富如此，何以自亡？」對曰：「秦公無道，畏誅，欲待其後世乃歸。」三十九年，楚靈王彊，會諸侯於申，為盟主，殺齊慶封。景公立四十年卒，子哀公立。后子復來歸秦。",
+          "chapter_id": "c-shiji-005-qin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "source_id": "s-shiji-005-qin"
+        },
+        {
+          "paragraph_id": "c-shiji-004-zhou:p058",
+          "quote": "十四年，簡王崩，子靈王泄心立。靈王二十四年，齊崔杼弒其君莊公。",
+          "chapter_id": "c-shiji-004-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-004",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "rationale": "所屬國家、王朝與敘事時代不同，按本文分開登記；共同稱號不足以支持合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "6a7_li3_zwm"

@@ -2,13 +2,13 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACF",
   "canonical_person_id": "yqp_nlb_p1p_ACF",
-  "label": "嫖（外戚世家候選）",
+  "label": "嫖（長公主）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "長公主",
     "嫖",
     "長公主嫖",
-    "長公主",
     "大長公主",
     "堂邑大長公主"
   ],
@@ -64,6 +64,48 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji058-024",
+      "person_id": "yqp_nlb_p1p_ACF",
+      "title": "長公主",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p009",
+          "quote": "其夏四月，上立膠東王為太子。梁王怨袁盎及議臣，乃與羊勝、公孫詭之屬陰使人刺殺袁盎及他議臣十餘人。逐其賊，未得也。於是天子意梁王，逐賊，果梁使之。乃遣使冠蓋相望於道，覆按梁，捕公孫詭、羊勝。公孫詭、羊勝匿王後宮。使者責二千石急，梁相軒丘豹及內史韓安國進諫王，王乃令勝、詭皆自殺，出之。上由此怨望於梁王。梁王恐，乃使韓安國因長公主謝罪太后，然后得釋。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji058-024:a001",
+          "paragraph_id": "c-shiji-058-liang:p009",
+          "start": 160,
+          "end": 163,
+          "surface": "長公主",
+          "person_mention_id": "c-shiji-058-liang:m009-0160",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授封、改封、敘事用稱與諡稱分存；相對年數及來源年號保留，不換算公曆，不從首次用稱或死亡補任期。未名群體不造個別官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji111-006",
       "person_id": "yqp_nlb_p1p_ACF",
       "title": "堂邑大長公主",
@@ -109,12 +151,36 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 11,
+      "category": "benji",
+      "title": "孝景本紀第十一",
+      "paragraph_id": "c-shiji-011-jingdi:p006",
+      "count": 1,
+      "quote": "。五月，募徙陽陵，予錢二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。"
+    },
+    {
       "number": 49,
       "category": "shijia",
       "title": "外戚世家第十九",
       "paragraph_id": "c-shiji-049-waiqi:p012",
       "count": 13,
       "quote": "行。竇姬涕泣，怨其宦者，不欲往，相彊，乃肯行。至代，代王獨幸竇姬，生女嫖，後生兩男。而代王王后生四男。先代王未入立為帝而王后卒。及代王立為帝，而王后所生四男更病死。孝文帝立數月，公卿請立太子，而竇姬長男最長，立為太子。立竇姬為皇后，女嫖為長公主。其明年，立少子武為代王，已"
+    },
+    {
+      "number": 58,
+      "category": "shijia",
+      "title": "梁孝王世家第二十八",
+      "paragraph_id": "c-shiji-058-liang:p009",
+      "count": 3,
+      "quote": "諫王，王乃令勝、詭皆自殺，出之。上由此怨望於梁王。梁王恐，乃使韓安國因長公主謝罪太后，然后得釋。"
+    },
+    {
+      "number": 108,
+      "category": "liezhuan",
+      "title": "韓長孺列傳第四十八",
+      "paragraph_id": "c-shiji-108-han:p002",
+      "count": 3,
+      "quote": "心弗善也。太后知帝不善，乃怒梁使者，弗見，案責王所爲。韓安國爲梁使，見大長公主而泣曰：「何梁王爲人子之孝，爲人臣之忠，太后曾弗省也？夫前日呉、楚、齊、趙七國反時，自關以東皆合從西鄕，惟梁最親爲艱難。梁王念太后、帝在中，而諸侯擾亂，一言泣數行下，跪送臣等六人，將兵擊卻呉楚，呉楚以"
     },
     {
       "number": 111,
@@ -127,6 +193,30 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-011-jingdi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "source_id": "s-shiji-011-jingdi",
+      "source": {
+        "title": "史記／卷011",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷011",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+        "revision_id": 2520527,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
+          "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-049-waiqi",
       "work_id": "w-shiji",
@@ -148,6 +238,54 @@
           "editorial_readings": [],
           "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
           "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-058-liang",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-058",
+      "source_id": "s-shiji-058-liang",
+      "source": {
+        "title": "史記／卷058",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷058",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555",
+        "revision_id": 8735555,
+        "accessed_on": "2026-10-09",
+        "extent": "22段篇文、4段褚先生附述及1段索隱述贊；現代欄題不當古文。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留筑、然后、壹湌、適孫、齊如、應縣、削厲、霸昌廄、闚與旌旂等見證原字。末段依其前索隱述贊欄題分層，不補標籤入正文。",
+          "note": "全27段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-108-han",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "source_id": "s-shiji-108-han",
+      "source": {
+        "title": "史記／卷108",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷108",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317",
+        "revision_id": 1765317,
+        "accessed_on": "2026-10-11",
+        "extent": "13段正文、1段太史公論、1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去介面模板與現代節標題；數位見證的單字語言轉換包裹符號解除，包裹內原字不變。其餘原字、標點與段落次序保留。",
+          "note": "未核底本影像。"
         }
       }
     },
@@ -177,6 +315,27 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-shiji011-006",
+      "subject_person_id": "dep_bjj_vwe",
+      "predicate": "mother",
+      "object_person_id": "yqp_nlb_p1p_ACF",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p006",
+          "quote": "五年三月，作陽陵、渭橋。五月，募徙陽陵，予錢二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存來源明示關係，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji049-007",
       "subject_person_id": "yqp_nlb_p1p_ACF",
@@ -284,11 +443,12 @@
     }
   ],
   "related_people": {
+    "dep_bjj_vwe": "蟜（長公主子）",
     "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
     "mj4_uma_km7": "陳皇后（外戚世家候選）",
     "yqp_nlb_p1p_AC": "恒（高祖子）",
     "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
-    "yqp_nlb_p1p_ACF": "嫖（外戚世家候選）"
+    "yqp_nlb_p1p_ACF": "嫖（長公主）"
   },
   "dates": [],
   "name_components": [],
@@ -296,6 +456,27 @@
     "yqp_nlb_p1p_ACF"
   ],
   "preferred_relations": [
+    {
+      "id": "a-shiji011-006",
+      "subject_person_id": "dep_bjj_vwe",
+      "predicate": "mother",
+      "object_person_id": "yqp_nlb_p1p_ACF",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p006",
+          "quote": "五年三月，作陽陵、渭橋。五月，募徙陽陵，予錢二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "僅保存來源明示關係，不補未見姓名、闕代或同父同母。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji049-007",
       "subject_person_id": "yqp_nlb_p1p_ACF",

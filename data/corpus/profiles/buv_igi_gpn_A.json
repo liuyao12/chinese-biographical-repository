@@ -127,6 +127,30 @@
   ],
   "sources": [
     {
+      "chapter_id": "c-shiji-002-xia",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-002",
+      "source_id": "s-shiji-002-xia",
+      "source": {
+        "title": "史記／卷002",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷002",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612",
+        "revision_id": 7903612,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題、跨維基說明及校勘記",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "内": "內"
+          },
+          "note": "僅轉換內字字形，保留啓、荆、惪、辠等異體；移除現代註號。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-003-yin",
       "work_id": "w-shiji",
       "book_id": "b-shiji-003",
@@ -480,9 +504,40 @@
     "3co_cqa_4uq": "微子啓之母",
     "buv_igi_gpn": "帝乙",
     "buv_igi_gpn_A": "微子啓",
-    "lwx_9yq_ad7": "紂"
+    "lwx_9yq_ad7": "紂",
+    "t4u_no9_s1q": "啓"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji003-distinct-003",
+      "person_ids": [
+        "t4u_no9_s1q",
+        "buv_igi_gpn_A"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-002-xia:p029",
+          "quote": "夏后帝啓，禹之子",
+          "chapter_id": "c-shiji-002-xia",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-002",
+          "source_id": "s-shiji-002-xia"
+        },
+        {
+          "paragraph_id": "c-shiji-003-yin:p027",
+          "quote": "帝乙長子曰微子啓",
+          "chapter_id": "c-shiji-003-yin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-003",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "rationale": "夏啓與帝乙之子微子啓處於不同世系，單字啓不能全域識別人物。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "buv_igi_gpn_A"

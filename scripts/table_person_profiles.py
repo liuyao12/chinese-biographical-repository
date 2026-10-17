@@ -93,6 +93,8 @@ def build(root=ROOT):
             profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('unresolved_identity_cases'):
             profile['unresolved_identity_cases'] = b['unresolved_identity_cases']
+        if b.get('identity_distinctions'):
+            profile['identity_distinctions'] = b['identity_distinctions']
         readings = [d for d in b.get('identity_decisions', []) if d.get('references')]
         if readings:
             profile['reading_decisions'] = readings

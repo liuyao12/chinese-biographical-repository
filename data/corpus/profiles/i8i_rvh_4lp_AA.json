@@ -148,9 +148,40 @@
   "related_people": {
     "i8i_rvh_4lp_A": "鄭（衛成公）",
     "i8i_rvh_4lp_AA": "遫（衛穆公）",
-    "i8i_rvh_4lp_AAA": "臧（衛定公）"
+    "i8i_rvh_4lp_AAA": "臧（衛定公）",
+    "qxa_jm7_zmy_ABAAA": "遫（衛成侯）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji037-distinct-001",
+      "person_ids": [
+        "i8i_rvh_4lp_AA",
+        "qxa_jm7_zmy_ABAAA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-037-wei:p024",
+          "quote": "穆公二年，楚莊王伐陳，殺夏徴舒。三年，楚莊王圍鄭，鄭降，復釋之。十一年，孫良夫救魯伐齊，復得侵地。穆公卒，子定公臧立。定公十二年卒，子獻公衎立。",
+          "chapter_id": "c-shiji-037-wei",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-037",
+          "source_id": "s-shiji-037-wei"
+        },
+        {
+          "paragraph_id": "c-shiji-037-wei:p045",
+          "quote": "聲公十一年卒，子成侯遫立。",
+          "chapter_id": "c-shiji-037-wei",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-037",
+          "source_id": "s-shiji-037-wei"
+        }
+      ],
+      "rationale": "前穆公遫為成公子、定公父；後成侯遫為聲公子，相隔多代，不依同名遫合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "i8i_rvh_4lp_AA"

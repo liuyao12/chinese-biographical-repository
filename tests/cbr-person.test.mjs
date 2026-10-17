@@ -337,3 +337,13 @@ test('生卒首選與異說範圍保留並展示古注依據',()=>{
 test('紀年狀態可切英文，取捨參考拒絕腳本連結並轉義引文',()=>{
  const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/nuf_tb9_fjs_A.json',import.meta.url),'utf8'));const d=p.life_event_date_decisions.find(d=>d.id==='ld-shiji107-death-001');d.references=[{url:'javascript:alert(1)',quote:'<script>synthetic</script>',title:'synthetic'}];setLocale('en',{persist:false});let html=personCard(p,true);assert.match(html,/Provisional preferred date/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/&lt;script&gt;synthetic&lt;\/script&gt;/);d.status='unresolved';d.preferred_event_id=null;html=personCard(p,true);assert.match(html,/Date choice unresolved/);setLocale('zh-Hant',{persist:false});
 });
+
+test('distinct people retain separate profile links and escaped source evidence',()=>{
+ const p={id:'abc_def_123',label:'王恢',names:[],person_ids:['abc_def_123'],related_people:{xyz_abc_456:'另一王恢<script>'},identity_distinctions:[{id:'d',person_ids:['abc_def_123','xyz_abc_456'],rationale:'不同人<理由>',evidence:[{chapter_id:'c-shiji-108-han',paragraph_id:'c-shiji-108-han:p010',quote:'王恢自殺<script>'}]}]};
+ setLocale('zh-Hant');const html=personCard(p,true);assert.match(html,/同名異人/);assert.match(html,/person.html#xyz_abc_456/);assert.match(html,/另一王恢&lt;script&gt;/);assert.match(html,/王恢自殺&lt;script&gt;/);assert.match(html,/chapter=108/);assert.doesNotMatch(html,/<script>/);assert.doesNotMatch(personCard(p),/person-identity-distinctions/);
+ setLocale('en');assert.match(personCard(p,true),/Distinct people/);setLocale('zh-Hant');
+});
+test('people without distinction data omit the section',()=>{
+ assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[]},true),/person-identity-distinctions/);
+ assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[],identity_distinctions:[]},true),/person-identity-distinctions/);
+});

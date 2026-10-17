@@ -24,6 +24,6 @@ class TitleMonthWitnesses(unittest.TestCase):
     def test_same_row_dowager_and_officers_have_contextual_anchors(self):
         t=json.loads((ROOT/'data/historical-tables/shiji-022.json').read_text());r=next(r for f in t['fragments']for r in f['rows']if r['id']=='shiji-022-t1-r072')
         mentions={m['surface']:m for c in r['cells']for m in c['person_mentions']}
-        self.assertEqual({s:m['person_id']for s,m in mentions.items()},{'孝景太后':'ixk_6fg_v6f_A','昌':'jex_mvs_w6d','田蚡':'7mz_d13_9ka_A','青翟':'40p_hkv_oqy','安國':'6hy_i1z_hu2'})
+        self.assertEqual({s:m['person_id']for s,m in mentions.items()},{'閩越王':'xp5_39k_w5w','孝景太后':'ixk_6fg_v6f_A','昌':'jex_mvs_w6d','田蚡':'7mz_d13_9ka_A','青翟':'40p_hkv_oqy','安國':'6hy_i1z_hu2'})
         for m in mentions.values():self.assertTrue(m['identity_evidence'])
         self.assertTrue(all(not c['person_mentions']for c in r['cells']if c['column']==0))

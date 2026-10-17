@@ -160,9 +160,32 @@
     "qdt_1oy_jci": "杵臼（陳宣公）",
     "qdt_1oy_jci_A": "款（陳穆公）",
     "qdt_1oy_jci_AA": "朔（陳共公）",
+    "y97_huh_vuz_AAAAA": "秦穆公",
     "ygr_80w_wp2": "嬖姬（陳宣公款母）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji036-distinct-004",
+      "person_ids": [
+        "qdt_1oy_jci_A",
+        "y97_huh_vuz_AAAAA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-036-chenqi:p014",
+          "quote": "四十五年，宣公卒，子款立，是為穆公。穆公五年，齊桓公卒。十六年，晉文公敗楚師于城濮。是歲，穆公卒，子共公朔立。共公六年，楚太子商臣弒其父成王代立，是為穆王。十一年，秦穆公卒。十八年，共公卒，子靈公平國立。",
+          "chapter_id": "c-shiji-036-chenqi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-036",
+          "source_id": "s-shiji-036-chenqi"
+        }
+      ],
+      "rationale": "同段陳穆公款在城濮之歲卒，十一年秦穆公卒國別明示，不把秦穆公內短字連款。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "qdt_1oy_jci_A"

@@ -98,6 +98,19 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
         elif 'decisions' in record and kind not in ('person_equivalence_set', 'family_tree_decision_set'):
             identities.extend(d for d in record['decisions'] if d.get('person_id') in ids)
+    distinctions = []
+    for record in records:
+        if record.get('record_type') != 'person_distinction_set':
+            continue
+        for decision in record['distinctions']:
+            if not ids.intersection(decision['person_ids']):
+                continue
+            evidence = []
+            for item in decision['evidence']:
+                chapter, _ = paragraphs[item['paragraph_id']]
+                evidence.append(dict(item, chapter_id=chapter['id'], work_id=chapter['work_id'],
+                                     book_id=chapter['book_id'], source_id=chapter['source_id']))
+            distinctions.append(dict(decision, evidence=evidence))
     enriched_names = []
     for name in name_components:
         if name.get('kind') == 'table_cell':
@@ -177,7 +190,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
-    for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions:
+    for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions + distinctions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []))
@@ -250,6 +263,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     most_mentioned = [row['source_id'] for row in mention_summary if row['mention_count'] == maximum]
     neighbor_ids = ids | {a[k] for a in relations for k in ('subject_person_id', 'object_person_id')}
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
+    neighbor_ids.update(p for decision in distinctions for p in decision['person_ids'])
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
     date_ranges = [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'],
@@ -305,6 +319,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                         for a in preferred_relations for key in ('birth_order', 'relative_birth_order')
                                         if key in a.get('qualifiers', {})],
             'identity_decisions': identities, 'equivalence_decisions': related_equivalences,
+            **({'identity_distinctions': distinctions} if distinctions else {}),
             'passages': passages,
             **({'table_passages': list(table_passages.values())} if table_passages else {}),
             'sources': [{'chapter_id': cid, 'work_id': chapters[cid]['work_id'],

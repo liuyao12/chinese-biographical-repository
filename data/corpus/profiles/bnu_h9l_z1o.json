@@ -187,9 +187,40 @@
   "related_people": {
     "bnu_h9l_z1o": "太丁（武乙子）",
     "buv_igi_gpn": "帝乙",
-    "n51_9zm_sqh": "武乙"
+    "n51_9zm_sqh": "武乙",
+    "tlt_5h1_n6y": "太丁（湯子）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji003-distinct-001",
+      "person_ids": [
+        "tlt_5h1_n6y",
+        "bnu_h9l_z1o"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-003-yin:p011",
+          "quote": "太子太丁未立而卒",
+          "chapter_id": "c-shiji-003-yin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-003",
+          "source_id": "s-shiji-003-yin"
+        },
+        {
+          "paragraph_id": "c-shiji-003-yin:p026",
+          "quote": "武乙震死。子帝太丁立",
+          "chapter_id": "c-shiji-003-yin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-003",
+          "source_id": "s-shiji-003-yin"
+        }
+      ],
+      "rationale": "同一篇在相隔多代的不同父系語境提及太丁，兩者分配不同 ID。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "bnu_h9l_z1o"

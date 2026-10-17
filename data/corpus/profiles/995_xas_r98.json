@@ -217,9 +217,40 @@
     "995_xas_r98": "申（蔡昭侯）",
     "995_xas_r98_A": "朔（蔡成侯）",
     "995_xas_r98_B": "蔡昭侯質吳子（未名）",
+    "qh8_95j_eh2_AAA": "申（蔡文侯）",
     "qh8_95j_eh2_AAAAAAA": "東國（蔡悼侯）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji035-distinct-001",
+      "person_ids": [
+        "qh8_95j_eh2_AAA",
+        "995_xas_r98"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-035-guancai:p012",
+          "quote": "莊侯三年，齊桓公卒。十四年，晉文公敗楚於城濮。二十年，楚太子商臣弒其父成王代立。二十五年，秦穆公卒。三十三年，楚莊王即位。三十四年，莊侯卒，子文侯申立。",
+          "chapter_id": "c-shiji-035-guancai",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-035",
+          "source_id": "s-shiji-035-guancai"
+        },
+        {
+          "paragraph_id": "c-shiji-035-guancai:p017",
+          "quote": "平侯九年卒，靈侯般之孫東國攻平侯子而自立，是為悼侯。悼侯父曰隱太子友。隱太子友者，靈侯之太子，平侯立而殺隱太子，故平侯卒而隱太子之子東國攻平侯子而代立，是為悼侯。悼侯三年卒，弟昭侯申立。",
+          "chapter_id": "c-shiji-035-guancai",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-035",
+          "source_id": "s-shiji-035-guancai"
+        }
+      ],
+      "rationale": "蔡文侯申在景侯之前，蔡昭侯申在悼侯之後，相隔多代，不按同名合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "995_xas_r98"

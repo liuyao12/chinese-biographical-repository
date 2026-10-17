@@ -133,6 +133,94 @@
           "note": "有成對改讀標記時正文保留改讀前的字；校勘符號與異讀另存，不稱已核讀底本。保留古代異體與數位見證的疑讀。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-005-qin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-005",
+      "source_id": "s-shiji-005-qin",
+      "source": {
+        "title": "史記／卷005",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷005",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286",
+        "revision_id": 8744286,
+        "accessed_on": "2026-10-09",
+        "extent": "77段數位正文；排除註釋版導覽與註號，見證行內校勘符號暫原樣保留。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "铚": "銍",
+            "绖": "絰",
+            "龁": "齕"
+          },
+          "note": "第9段編者重複標記另存，其餘行內校勘符號仍待逐處分離；不稱已核讀底本。",
+          "editorial_readings": [
+            {
+              "paragraph_id": "c-shiji-005-qin:p009",
+              "witness_form": "（世父）世父",
+              "body_reading": "世父",
+              "note": "數位見證重複的括號標記另存；不作第二個正文人物提及。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p022",
+              "witness_form": "铚",
+              "body_reading": "銍",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p028",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保留字形轉換記錄；未核讀影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p033",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證混入簡體字，轉繁體並保存原字；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p072",
+              "witness_form": "绖",
+              "body_reading": "絰",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p074",
+              "witness_form": "龁",
+              "body_reading": "齕",
+              "note": "數位見證簡體字轉繁體，原字保留；未核影像。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "胡（傷）［陽］",
+              "body_reading": "胡傷",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "南（郡）［陽］",
+              "body_reading": "南郡",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            },
+            {
+              "paragraph_id": "c-shiji-005-qin:p070",
+              "witness_form": "（武安）",
+              "body_reading": "",
+              "note": "行內校勘標記另存，成對讀法保留改讀前的字；身份與底本待核。"
+            }
+          ]
+        }
+      }
     }
   ],
   "relations": [
@@ -192,9 +280,40 @@
   "related_people": {
     "9il_q12_qhj": "考王",
     "imo_djf_mce": "桓公（考王弟）",
-    "uya_dno_ycg": "威公（西周）"
+    "uya_dno_ycg": "威公（西周）",
+    "y97_huh_vuz_AAAAAAAA": "秦桓公"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji005-distinct-003",
+      "person_ids": [
+        "y97_huh_vuz_AAAAAAAA",
+        "imo_djf_mce"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-005-qin:p041",
+          "quote": "共公二年，晉趙穿弒其君靈公。三年，楚莊王彊，北兵至雒，問周鼎。共公立五年卒，子桓公立。",
+          "chapter_id": "c-shiji-005-qin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-005",
+          "source_id": "s-shiji-005-qin"
+        },
+        {
+          "paragraph_id": "c-shiji-004-zhou:p067",
+          "quote": "考王封其弟于河南，是為桓公，以續周公之官職。桓公卒，子威公代立。威公卒，子惠公代立，乃封其少子於鞏以奉王，號東周惠公。",
+          "chapter_id": "c-shiji-004-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-004",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "rationale": "所屬國家、王朝與敘事時代不同，按本文分開登記；共同稱號不足以支持合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "imo_djf_mce"

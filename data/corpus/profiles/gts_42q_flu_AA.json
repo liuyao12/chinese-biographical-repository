@@ -98,9 +98,40 @@
   "related_people": {
     "gts_42q_flu_A": "惲（鄭世家釐公候選）",
     "gts_42q_flu_AA": "嘉（鄭世家簡公候選）",
-    "gts_42q_flu_AAA": "寧（鄭世家定公候選）"
+    "gts_42q_flu_AAA": "寧（鄭世家定公候選）",
+    "wuz_yxe_b9k_AA": "齊簡公"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji042-distinct-003",
+      "person_ids": [
+        "gts_42q_flu_AA",
+        "wuz_yxe_b9k_AA"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-042-zheng:p036",
+          "quote": "釐公五年，鄭相子駟朝釐公，釐公不禮。子駟怒，使廚人藥殺釐公，赴諸侯曰「釐公暴病卒」。立釐公子嘉，嘉時年五歳，是爲簡公。",
+          "chapter_id": "c-shiji-042-zheng",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-042",
+          "source_id": "s-shiji-042-zheng"
+        },
+        {
+          "paragraph_id": "c-shiji-042-zheng:p051",
+          "quote": "十四年，宋景公滅曹。二十年，齊田常弒其君簡公，而常相於齊。二十二年，楚惠王滅陳。孔子卒。",
+          "chapter_id": "c-shiji-042-zheng",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-042",
+          "source_id": "s-shiji-042-zheng"
+        }
+      ],
+      "rationale": "前者為鄭釐公子嘉而立鄭簡公，後者為齊田常所弒齊君，同諡不同國，不以簡公字樣合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "gts_42q_flu_AA"

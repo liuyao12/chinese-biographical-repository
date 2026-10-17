@@ -115,6 +115,31 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-shiji-001-wudi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-001",
+      "source_id": "s-shiji-001-wudi",
+      "source": {
+        "title": "史記／卷001",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷001",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634",
+        "revision_id": 7903634,
+        "accessed_on": "2026-10-09",
+        "extent": "正文全文；不含現代章節標題、跨維基說明與校勘記",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫 CC BY-SA 4.0，保留署名及版本連結。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "弃": "棄",
+            "异": "異"
+          },
+          "note": "保留古代異體；移除現代註號，兩個簡體字形明記轉換。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-004-zhou",
       "work_id": "w-shiji",
       "book_id": "b-shiji-004",
@@ -309,9 +334,40 @@
   ],
   "related_people": {
     "98v_uic_i4i": "孤竹君（伯夷列傳候選）",
-    "eh7_raa_ap6": "伯夷（孔子世家比擬候選）"
+    "eh7_raa_ap6": "伯夷（孔子世家比擬候選）",
+    "uxv_pg9_8rm": "伯夷（舜時）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "d-shiji004-distinct-001",
+      "person_ids": [
+        "uxv_pg9_8rm",
+        "eh7_raa_ap6"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-001-wudi:p025",
+          "quote": "伯夷主禮",
+          "chapter_id": "c-shiji-001-wudi",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-001",
+          "source_id": "s-shiji-001-wudi"
+        },
+        {
+          "paragraph_id": "c-shiji-004-zhou:p007",
+          "quote": "伯夷、叔齊在孤竹，聞西伯善養老",
+          "chapter_id": "c-shiji-004-zhou",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-004",
+          "source_id": "s-shiji-004-zhou"
+        }
+      ],
+      "rationale": "舜朝主禮者與文王時孤竹敘事中的伯夷處於不同時代；保留不同人物 ID，不按同名合併。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "eh7_raa_ap6"
