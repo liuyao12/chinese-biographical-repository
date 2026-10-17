@@ -1,3 +1,4 @@
+import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t, ui} from './i18n.js';
 import {chapterURL, chapterParagraph, filteredChapters} from './corpus-reader.js';
@@ -61,7 +62,7 @@ async function render() {
   }
   if (current !== ticket) return;
   const chapter = cache.get(number); selected = {...entry, chapter};
-  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people)).join('')}</article>${navigation(entry)}`;
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people) + referentInterpretations(chapter, p.id, people)).join('')}</article>${navigation(entry)}`;
   removeTextPersonCards = bindPersonCards($('corpus-content'));
   const passage = params.get('passage');
   if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();

@@ -463,3 +463,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 
 姓名組件可附明示的 `zi` 與 `former_ming`。`zi` 須有字某的引文；初版 `former_ming` 僅接受同一引句同時有名之曰某、以及更名為目前 `ming` 的明示敘述，不由一般別名猜初名、不補改名年。`additional_names` 仍保存原名字串，閱讀器只按這些有據欄位加字或初名標籤。古注的名／字異說使用既有 `component_alternatives`，不覆寫預設，附固定提交、原引文、範圍指紋及未採納狀態。
+
+## 人物、泛稱與神話角色的指稱異說
+
+`annotation.referent_interpretations` 用於同一原稱的古注解釋不全是人物身份的情形。例如陽子有伯樂與仙人陽陵子等說，鄭女曼姬亦有群體泛稱與個別典故的不同解法。案件連到本篇未連人物的 `target_mention_ids`，`source_terms` 逐一保存原稱，`evidence` 保存 work／book／chapter／source、原段及確切引句。
+
+各 `alternatives` 有署名、`referent_kind`、可能為空的 `candidate_person_ids`、解釋與 `source_reference_ids`。人物、傳說人物、身份未定人物、群體泛稱、多個典故分存；不為配合人物模型而補造 ID。古注 `references` 固定提交、blob、實讀行範圍、回應快取雜湊與未核書影狀態。本階段案件為 `unresolved`，`default_alternative_id: null`，不自動選唯一候選。若後續有理由採某讀法，須另擴充採納判斷與驗證，不靠移除異說改成單一事實。
+
+候選人物 JSON 可附此項判讀及原段，供查閱候選依據；不將候選提及加入已採納 `mentions`、出現次數、`person_ids`、世系或生平。閱讀器在正文段落之外顯示「編者指稱異說」，完整人物頁另顯示候選來源；姓名卡的簡要生平不混入異說。此欄位與 `unresolved_identity_cases` 分開，後者處理已具人物候選的身份待辨，不能迫使泛稱或神祇讀法只剩人物候選。

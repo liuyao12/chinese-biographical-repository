@@ -460,3 +460,26 @@ test('courtesy and early given names have typed labels and retain source charact
 test('an untyped alias does not invent courtesy or earlier-name labels and remains escaped', () => {
  const html=personCard({id:'abc_def_123',label:'合成人物',name_components:[{surname:null,ming:'某',additional_names:['<img>']} ]},true);assert.match(html,/&lt;img&gt;/);assert.doesNotMatch(html,/<img>|data-i18n="Courtesy name"|data-i18n="Former given name"/);
 });
+
+test('unrelated pointer exits and stale hide timers cannot close a newly hovered person', async()=>{
+  const saved={document:globalThis.document,fetch:globalThis.fetch,setTimeout:globalThis.setTimeout,clearTimeout:globalThis.clearTimeout};
+  const events=new Map(),pending=new Map();let sequence=0;
+  const button={focus(){}},profile={};
+  const card={hidden:true,setAttribute(){},remove(){},contains(n){return n===this;},querySelector(s){return s==='.person-profile-button'?profile:button;}};
+  const root={append(){},addEventListener(k,v){events.set(k,v);},removeEventListener(){}};
+  const node=id=>({dataset:{personId:id},href:'person.html#'+id,matches:()=>false});
+  const first=node('synthetic_timer_first'),next=node('synthetic_timer_next');
+  const hover=n=>events.get('pointerover')({type:'pointerover',pointerType:'mouse',target:{closest:()=>n}});
+  const exit=n=>events.get('pointerout')({pointerType:'mouse',target:{closest:()=>n},relatedTarget:null});
+  const settle=()=>new Promise(resolve=>setImmediate(resolve));
+  let dispose;
+  globalThis.document={createElement:()=>card};globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  globalThis.setTimeout=callback=>{const id=++sequence;pending.set(id,callback);return id;};globalThis.clearTimeout=id=>pending.delete(id);
+  try {
+    dispose=bindPersonCards(root);
+    exit(null);exit(null);assert.equal(pending.size,0,'summary exits must not start person-card timers');
+    hover(first);await settle();exit(first);exit(first);assert.equal(pending.size,1,'successive exits share one cancellable timer');
+    hover(next);await settle();for(const callback of pending.values())callback();
+    assert.equal(card.hidden,false);assert.equal(profile.href,next.href);
+  } finally {dispose?.();Object.assign(globalThis,saved);}
+});
