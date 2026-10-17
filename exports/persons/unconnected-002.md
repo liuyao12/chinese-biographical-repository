@@ -1748,7 +1748,6 @@
 | `t63_083_cf1` | 蒙恬 | [《史記・太史公自序》][115] | [JSON](t63_083_cf1.json) |
 | `t6d_sky_m3x` | 郭解兄子（未名） | [《史記・游俠列傳》][109] | [JSON](t6d_sky_m3x.json) |
 | `t6k_vke_hya` | 周太史（楚昭王問赤雲者） | [《史記・楚世家》][25] | [JSON](t6k_vke_hya.json) |
-| `t6o_4u4_qj2` | 太子丹 | [《史記・李將軍列傳》][94] | [JSON](t6o_4u4_qj2.json) |
 | `t7d_a7w_vrk` | 郭解母（未名） | [《史記・游俠列傳》][109] | [JSON](t7d_a7w_vrk.json) |
 | `t7k_3g1_qp3` | 塗山氏之女 | [《史記・夏本紀》][5] | [JSON](t7k_3g1_qp3.json) |
 | `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][52] | [JSON](t7x_2x7_1fc.json) |
@@ -2064,7 +2063,6 @@
 | `vlp_pem_oj3` | 閼氏（匈奴列傳第6段） | [《史記・匈奴列傳》][95] | [JSON](vlp_pem_oj3.json) |
 | `vlp_yy3_ufh` | 平（泗水監） | [《史記・樊酈滕灌列傳》][80] | [JSON](vlp_yy3_ufh.json) |
 | `vlq_85b_6qa` | 文王 | [《史記・滑稽列傳》][111] | [JSON](vlq_85b_6qa.json) |
-| `vm4_pus_oa9` | 李信 | [《史記・李將軍列傳》][94] | [JSON](vm4_pus_oa9.json) |
 | `vma_jxj_3e9` | 馮喜 | [《史記・張儀列傳》][55] | [JSON](vma_jxj_3e9.json) |
 | `vnj_9ny_oq5` | 冥（商先祖） | [《史記・殷本紀》][6]、[《史記・三代世表》][116] | [JSON](vnj_9ny_oq5.json) |
 | `vnm_2mr_2d6` | 周殷 | [《史記・荊燕世家》][36] | [JSON](vnm_2mr_2d6.json) |
@@ -2220,6 +2218,8 @@
 | `wq3_5dq_hx9` | 陳湣公 | [《史記・孔子世家》][32] | [JSON](wq3_5dq_hx9.json) |
 | `wqd_ft2_k5v` | 林胡王（趙世家未名者） | [《史記・趙世家》][28] | [JSON](wqd_ft2_k5v.json) |
 | `wqf_43e_laj` | 咎如長女（重耳狄妻） | [《史記・晉世家》][24] | [JSON](wqf_43e_laj.json) |
+| `wqs_z6j_lz7` | 子帶 | [《史記・匈奴列傳》][95] | [JSON](wqs_z6j_lz7.json) |
+| `wr1_5wr_sx5` | 張廷尉未詳名 | [《史記・張丞相列傳》][81] | [JSON](wr1_5wr_sx5.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

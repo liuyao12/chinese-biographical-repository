@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wqs_z6j_lz7` | 子帶 | [《史記・匈奴列傳》][95] | [JSON](wqs_z6j_lz7.json) |
-| `wr1_5wr_sx5` | 張廷尉未詳名 | [《史記・張丞相列傳》][81] | [JSON](wr1_5wr_sx5.json) |
 | `wrh_7px_ox5` | 紂 | [《史記・趙世家》][28] | [JSON](wrh_7px_ox5.json) |
 | `ws8_rns_8zp` | 戚將軍 | [《史記・曹相國世家》][39] | [JSON](ws8_rns_8zp.json) |
 | `wsa_th4_9ud` | 弓高侯 | [《史記・絳侯周勃世家》][42] | [JSON](wsa_th4_9ud.json) |
@@ -269,7 +267,6 @@
 | `ypr_znm_81l` | 桓將軍未具名 | [《史記・吳王濞列傳》][91] | [JSON](ypr_znm_81l.json) |
 | `yq9_p7b_qv4` | 韓不信（范中行之仇） | [《史記・晉世家》][24] | [JSON](yq9_p7b_qv4.json) |
 | `yql_pki_bko` | 鬻子 | [《史記・周本紀》][7] | [JSON](yql_pki_bko.json) |
-| `yqm_g1b_g6u` | 太子丹 | [《史記・樗里子甘茂列傳》][56] | [JSON](yqm_g1b_g6u.json) |
 | `yqr_srv_j0g` | 魏桓子（殺知伯者） | [《史記・晉世家》][24] | [JSON](yqr_srv_j0g.json) |
 | `yr4_cqs_3ya` | 蘇厲 | [《史記・趙世家》][28] | [JSON](yr4_cqs_3ya.json) |
 | `yr6_rws_tx8` | 惠王 | [《史記・周本紀》][7] | [JSON](yr6_rws_tx8.json) |
