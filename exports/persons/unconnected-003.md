@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
+| `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][28] | [JSON](y81_o3y_nw3.json) |
 | `y81_z0r_svc` | 左人郢 | [《史記・仲尼弟子列傳》][53] | [JSON](y81_z0r_svc.json) |
 | `y82_gm0_bbt` | 項他 | [《史記・樊酈滕灌列傳》][81] | [JSON](y82_gm0_bbt.json) |
@@ -27,6 +29,7 @@
 | `ycg_exd_6oe` | 秦王（魏世家荊軻刺殺所指未名者） | [《史記・魏世家》][30] | [JSON](ycg_exd_6oe.json) |
 | `ycl_yor_v0t` | 內史保 | [《史記・曹相國世家》][40] | [JSON](ycl_yor_v0t.json) |
 | `ycr_d4w_b0x` | 則 | [《史記・扁鵲倉公列傳》][91] | [JSON](ycr_d4w_b0x.json) |
+| `ycv_m0m_vbr` | 馮夷 | [《史記・司馬相如列傳》][103] | [JSON](ycv_m0m_vbr.json) |
 | `ycy_hv8_q6d` | 和仲 | [《史記・五帝本紀》][5] | [JSON](ycy_hv8_q6d.json) |
 | `yeg_27z_zzt` | 秦太后（韓世家羋戎姊未名者） | [《史記・韓世家》][31] | [JSON](yeg_27z_zzt.json) |
 | `yen_v2i_ohj` | 尉佗 | [《史記・淮南衡山列傳》][104] | [JSON](yen_v2i_ohj.json) |
@@ -298,6 +301,7 @@
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
+[103]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127

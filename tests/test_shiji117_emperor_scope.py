@@ -15,12 +15,12 @@ def read(path):
     return json.loads((ROOT / path).read_text())
 
 class XiangruEmperorScope(unittest.TestCase):
-    def test_thirty_three_narrative_and_address_occurrences_reach_wudi(self):
+    def test_forty_four_contextual_occurrences_reach_wudi(self):
         chapter = read('corpus/shiji/117.json')
         mentions = [m for p in chapter['paragraphs'] for m in p['mentions']]
         actual = [m for m in mentions if m['person_id'] == WU]
-        self.assertEqual(len(actual), 33)
-        self.assertEqual({m['surface'] for m in actual}, {'上', '天子', '陛下'})
+        self.assertEqual(len(actual), 44)
+        self.assertEqual({m['surface'] for m in actual}, {'上', '天子', '陛下', '君'})
         self.assertFalse(GENERIC & {m['id'] for m in actual})
 
     def test_three_general_roles_remain_unlinked_with_nonexhaustive_case(self):
