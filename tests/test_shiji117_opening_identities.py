@@ -21,7 +21,7 @@ class XiangruOpeningIdentities(unittest.TestCase):
  def test_linxiangru_is_not_sima_xiangru_and_confidence_is_not_overstated(self):
   p=read('corpus/shiji/117.json')['paragraphs'][0];self.assertEqual(next(m['person_id']for m in p['mentions']if m['surface']=='司馬相如'),'usb_lgr_ksa');self.assertEqual(next(m['person_id']for m in p['mentions']if m['surface']=='藺相如'),'sfa_wwl_tt2');d=next(d for d in read('corpus/shiji/117-equivalences.json')['decisions']if d['id']=='eq-shiji117-opening-linxiangru');self.assertEqual(d['confidence_level'],'moderate');self.assertIn('未重敘',d['rationale'])
  def test_emperor_candidate_is_not_blindly_merged_into_wudi(self):
-  c=read('corpus/shiji/117.json');p=next(p for p in c['paragraphs']if p['id'].endswith('p003'));ms=[m for m in p['mentions']if m['surface']in ['上','天子']];self.assertEqual(len(ms),9);self.assertEqual({m['person_id']for m in ms},{'7jv_d9q_x7x'})
+  c=read('corpus/shiji/117.json');p=next(p for p in c['paragraphs']if p['id'].endswith('p003'));ms=[m for m in p['mentions']if m['surface']in ['上','天子']];self.assertEqual(len(ms),9);self.assertEqual(sum(m['person_id']=='yqp_nlb_p1p_ACAA' for m in ms),7);self.assertEqual(sum(m['person_id'] is None for m in ms),2)
  def test_resolved_display_labels_drop_candidate_scaffolding(self):
   people={p['id']:p for p in read('registry/persons.json')['persons']}
   for pid in MAPPING.values():

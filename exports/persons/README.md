@@ -2675,7 +2675,7 @@
 | `ABI` | 齊孝王將閭 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABI.json) |
 | `AC` | 恒（高祖子） | [《史記・孝文本紀》][14] | [JSON](yqp_nlb_p1p_AC.json) |
 | `ACA` | 孝景帝 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACA.json) |
-| `ACAA` | 徹（景帝子） | [《史記・孝武本紀》][16] | [JSON](yqp_nlb_p1p_ACAA.json) |
+| `ACAA` | 孝武皇帝 | [《史記・孝武本紀》][16] | [JSON](yqp_nlb_p1p_ACAA.json) |
 | `ACAAA` | 閎（齊王） | [《史記・三王世家》][46] | [JSON](yqp_nlb_p1p_ACAAA.json) |
 | `ACAAB` | 旦 | [《史記・三王世家》][46] | [JSON](yqp_nlb_p1p_ACAAB.json) |
 | `ACAABA` | 安定侯子 | [《史記・三王世家》][46] | [JSON](yqp_nlb_p1p_ACAABA.json) |

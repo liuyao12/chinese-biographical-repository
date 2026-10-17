@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAA",
   "canonical_person_id": "yqp_nlb_p1p_ACAA",
-  "label": "徹（景帝子）",
+  "label": "孝武皇帝",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -1398,6 +1398,14 @@
       "quote": "，足以行船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易"
     },
     {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p003",
+      "count": 33,
+      "quote": "居久之，蜀人楊得意為狗監，侍上。上讀子虛賦而善之，曰：「朕獨不得與此人同時哉！」得意曰：「臣邑人司馬相如自言為此賦。」上驚，乃召問相如。相如曰：「有是。然此乃諸侯之事，未足觀也。請為天子游獵賦，賦成奏之。」上許，令尚書給筆劄。相如"
+    },
+    {
       "number": 125,
       "category": "liezhuan",
       "title": "佞幸列傳第六十五",
@@ -2141,6 +2149,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
       "book_id": "b-shiji-125",
@@ -2495,7 +2527,7 @@
     "6d6_eg1_o3a_A": "王太后（外戚世家候選）",
     "nad_18h_5jc": "平陽公主",
     "yqp_nlb_p1p_ACA": "孝景帝",
-    "yqp_nlb_p1p_ACAA": "徹（景帝子）",
+    "yqp_nlb_p1p_ACAA": "孝武皇帝",
     "yqp_nlb_p1p_ACAAA": "閎（齊王）",
     "yqp_nlb_p1p_ACAAB": "旦（三王世家候選）",
     "yqp_nlb_p1p_ACAAC": "胥（三王世家候選）",
@@ -2859,6 +2891,33 @@
       "title": "天子"
     }
   ],
+  "unresolved_identity_cases": [
+    {
+      "id": "u-shiji117-imperial-role-and-allusion",
+      "candidate_person_ids": [
+        "yqp_nlb_p1p_ACAA"
+      ],
+      "candidate_list_exhaustive": false,
+      "unknown_identity_possible": true,
+      "unresolved_mention_ids": [
+        "c-shiji-117-xiangru:m003-0160",
+        "c-shiji-117-xiangru:m003-0176",
+        "c-shiji-117-xiangru:m038-0031"
+      ],
+      "paragraph_ids": [
+        "c-shiji-117-xiangru:p003",
+        "c-shiji-117-xiangru:p038"
+      ],
+      "status": "unresolved",
+      "referent_kind_alternatives": [
+        "generic_imperial_role",
+        "literary_allusion_to_reigning_emperor"
+      ],
+      "note": "明天子之義、推天子諸侯之苑囿是賦體角色與苑囿等級的說明；蓋聞天子之於夷狄是虛擬耆老提出的一般君道原則。可影射當朝武帝，但不必是個人指代，故保留武帝候選及非特定人物讀法，不列成已定個人。",
+      "chapter_id": "c-shiji-117-xiangru",
+      "source_id": "s-shiji117-xiangru"
+    }
+  ],
   "reading_decisions": [
     {
       "id": "d-shiji101-043",
@@ -3201,7 +3260,31 @@
       "identity_materialized": true
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_ACAA",
+      "title": "孝武皇帝",
+      "surname": null,
+      "ming": "徹",
+      "additional_names": [],
+      "chapter_id": "c-shiji-011-jingdi",
+      "paragraph_id": "c-shiji-011-jingdi:p008",
+      "quote": "七年冬，廢栗太子為臨江王。（一）十（二）［一］月晦，日有食之。春，免徒隸作陽陵者。丞相青免。二月乙巳，以太尉條侯周亞夫為丞相。四月乙巳，立膠東王太后為皇后。丁巳，立膠東王為太子。名徹。",
+      "references": [
+        {
+          "title": "《史記·孝武本紀》篇首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+          "paragraph_id": "c-shiji-012-wudi:p001",
+          "quote": "孝武皇帝者，孝景中子也。",
+          "scope": "received_heading_title",
+          "image_verified": false
+        }
+      ],
+      "note": "名徹依景帝本紀明文；孝武皇帝為傳世本紀篇首稱呼，不把後出書寫用號當生前授爵起點。本項不另補姓或新紀年。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_ACAA"
   ],

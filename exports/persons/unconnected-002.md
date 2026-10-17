@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][76] | [JSON](gxs_1ia_tsp.json) |
 | `gy6_lx6_eb2` | 趙公子渴 | [《史記・秦本紀》][9] | [JSON](gy6_lx6_eb2.json) |
 | `gyn_ff7_fsv` | 孟但 | [《史記・儒林列傳》][107] | [JSON](gyn_ff7_fsv.json) |
 | `gyz_mj7_l1f` | 鯫生 | [《史記・留侯世家》][41] | [JSON](gyz_mj7_l1f.json) |
@@ -2208,6 +2207,7 @@
 | `y1s_5hf_3lv` | 子服景伯 | [《史記・仲尼弟子列傳》][53] | [JSON](y1s_5hf_3lv.json) |
 | `y38_ic5_9vk` | 卜齮 | [《史記・魯周公世家》][19] | [JSON](y38_ic5_9vk.json) |
 | `y39_cg2_ep7` | 春申 | [《史記・貨殖列傳》][115] | [JSON](y39_cg2_ep7.json) |
+| `y3l_45z_mfp` | 帝辛 | [《史記・太史公自序》][116] | [JSON](y3l_45z_mfp.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
