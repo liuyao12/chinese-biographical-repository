@@ -242,7 +242,40 @@ def table_title_range_errors(value, holding, endpoint, tables, boundary=None):
                 errors.append('稱號紀年原欄題參照不符')
     return errors
 
-def table_regnal_range_errors(value, expression, tables):
+def regnal_reign_designation_valid(proof, value, mentions):
+    """A source-specific reign designation needs an already resolved person anchor."""
+    source = proof.get('source_era_name', proof.get('era_name'))
+    table = proof.get('era_name')
+    claim = proof.get('reign_designation')
+    if not isinstance(source, str) or not source or not isinstance(table, str) or not table:
+        return False
+    if source == table:
+        return claim is None
+    contexts = {('漢', '高皇帝'): ('高帝已定天下', '高帝'),
+                ('孝文帝', '孝文'): ('及孝文帝元年', '孝文帝')}
+    expected = contexts.get((source, table))
+    fields = {'kind', 'source_era_name', 'table_era_name', 'person_id',
+              'person_mention_id', 'source_context_quote', 'status',
+              'rationale', 'human_reviewed'}
+    if (expected is None or not isinstance(claim, dict) or set(claim) != fields
+            or claim.get('kind') != 'same_reign_source_designations'
+            or claim.get('source_era_name') != source or claim.get('table_era_name') != table
+            or claim.get('source_context_quote') != expected[0]
+            or claim.get('status') != 'editorial_provisional'
+            or claim.get('human_reviewed') is not False or not claim.get('rationale')
+            or not isinstance(value.get('original_quote'), str)
+            or expected[0] not in value['original_quote']):
+        return False
+    hit = (mentions or {}).get(claim.get('person_mention_id'))
+    if (not hit or hit[2].get('kind') != 'person'
+            or hit[2].get('person_id') != claim.get('person_id')
+            or hit[2].get('surface') != expected[1]):
+        return False
+    return any(e.get('chapter_id') == hit[0] and e.get('paragraph_id') == hit[1]
+               and expected[0] in e.get('quote', '') for e in value.get('evidence', []))
+
+
+def table_regnal_range_errors(value, expression, tables, mentions=None):
     """Validate a cited year row; it is not a parallel person-event assertion."""
     proof = value.get('regnal_year_table')
     if proof is None:
@@ -265,9 +298,12 @@ def table_regnal_range_errors(value, expression, tables):
             or regnal['id'].rpartition('-c')[0] != digital['id'].rpartition('-c')[0]):
         return errors + ['紀年原年列須有同列原紀年及數位年格']
     era_name, term = proof.get('era_name'), proof.get('year_source_term')
+    source_era_name = proof.get('source_era_name', era_name)
+    if not regnal_reign_designation_valid(proof, value, mentions):
+        errors.append('紀年帝號異稱須有同篇已辨人物錨點及限定語境，不得任意替換年號')
     label = regnal['text'].rstrip('。'); epoch = anchor['text'].rstrip('。')
     valid = (isinstance(era_name,str) and bool(era_name) and isinstance(term,str)
-             and bool(term) and term.endswith('年') and expression == era_name+term
+             and bool(term) and term.endswith('年') and isinstance(source_era_name,str) and expression == source_era_name+term
              and epoch.endswith(era_name+'元年')
              and (label == term[:-1] or label.endswith(era_name+term)))
     rows = [r for f in table['fragments'] for r in f['rows']]

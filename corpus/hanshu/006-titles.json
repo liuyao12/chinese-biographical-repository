@@ -29,7 +29,92 @@
           "surface": "伏波將軍",
           "person_mention_id": "c-hanshu-006-wudi:m133-0005",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0008",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -44,7 +129,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -75,7 +160,92 @@
           "surface": "樓船將軍",
           "person_mention_id": "c-hanshu-006-wudi:m133-0020",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0029",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -90,7 +260,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -121,7 +291,92 @@
           "surface": "戈船將軍",
           "person_mention_id": "c-hanshu-006-wudi:m133-0034",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0053",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -138,7 +393,92 @@
               "paragraph_id": "c-hanshu-006-wudi:p133",
               "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0053",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -146,7 +486,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -177,7 +517,92 @@
           "surface": "下瀨將軍",
           "person_mention_id": "c-hanshu-006-wudi:m133-0049",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0056",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -194,7 +619,92 @@
               "paragraph_id": "c-hanshu-006-wudi:p133",
               "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0056",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -202,7 +712,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -233,7 +743,92 @@
           "surface": "馳義侯",
           "person_mention_id": "c-hanshu-006-wudi:m133-0079",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0076",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -248,7 +843,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -279,7 +874,92 @@
           "surface": "歸義越侯",
           "person_mention_id": "c-hanshu-006-wudi:m133-0034",
           "usage": "narrative",
-          "date_expression": null
+          "date_expression": null,
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+            "evidence": [
+              {
+                "work_id": "w-hanshu",
+                "book_id": "b-hanshu-006",
+                "chapter_id": "c-hanshu-006-wudi",
+                "source_id": "s-hanshu-006-wudi",
+                "paragraph_id": "c-hanshu-006-wudi:p133",
+                "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記・南越列傳》同一南越出兵",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+                "scope": "received_parallel_event",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-113",
+                "chapter_id": "c-shiji-113-nanyue",
+                "source_id": "s-shiji113-nanyue",
+                "paragraph_id": "c-shiji-113-nanyue:p010",
+                "person_mention_id": "c-shiji-113-nanyue:m010-0053",
+                "image_verified": false
+              },
+              {
+                "title": "《史記・南越列傳》原紀年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+                "quote": "元鼎五年秋",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "quote": "元鼎元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "quote": "112",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+              "reference_event_quote": "元鼎五年秋，衛尉路博德為伏波將軍，出桂陽，下匯水；主爵都尉楊仆為樓船將軍，出豫章，下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。",
+              "reference_year_quote": "元鼎五年秋"
+            },
+            "rationale": "漢武紀本段未帶紀年，依既有同人辨識及相同南越出兵職掌、路線，與史記元鼎五年秋對讀；秋屬太初前七至九月，數位年格112另列。只作本次用稱或明示授將年份，不是早已持有侯爵的始年。漢書原日期保持空，不倒推終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -294,7 +974,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "interpretation_note": "漢武紀本段未載年號；本次用稱依史記元鼎五年秋的同一出兵事件另作數字換年，原日期仍空。只有為戈船、下瀨將軍兩件明授任填授將數字；遣既任將軍、歸義越侯與馳義侯用稱不推始年，未知終點不補。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
