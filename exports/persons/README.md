@@ -1065,13 +1065,13 @@
 
 </details>
 
-<details><summary><code>f41_ulg_3u1</code> 滿（朝鮮列傳候選）（3 名）</summary>
+<details><summary><code>f41_ulg_3u1</code> 衛滿（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 滿 | [《史記・朝鮮列傳》][101] | [JSON](f41_ulg_3u1.json) |
+| `根` | 衛滿 | [《史記・朝鮮列傳》][101] | [JSON](f41_ulg_3u1.json) |
 | `*A` | 右渠 | [《史記・朝鮮列傳》][101] | [JSON](f41_ulg_3u1_%2AA.json) |
-| `*AA` | 長降 | [《史記・朝鮮列傳》][101] | [JSON](f41_ulg_3u1_%2AAA.json) |
+| `*AA` | 長（右渠子） | [《史記・朝鮮列傳》][101] | [JSON](f41_ulg_3u1_%2AAA.json) |
 
 </details>
 
@@ -2788,12 +2788,12 @@
 
 </details>
 
-<details><summary><code>z9d_qn5_wg8</code> 路人（朝鮮列傳候選）（2 名）</summary>
+<details><summary><code>z9d_qn5_wg8</code> 路人（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 路人 | [《史記・朝鮮列傳》][101] | [JSON](z9d_qn5_wg8.json) |
-| `A` | 最 | [《史記・朝鮮列傳》][101] | [JSON](z9d_qn5_wg8_A.json) |
+| `A` | 最 | [《史記・朝鮮列傳》][101]、[《史記・建元以來侯者年表》][125] | [JSON](z9d_qn5_wg8_A.json) |
 
 </details>
 

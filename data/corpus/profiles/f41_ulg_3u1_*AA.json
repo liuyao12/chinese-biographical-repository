@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "f41_ulg_3u1_*AA",
   "canonical_person_id": "f41_ulg_3u1_*AA",
-  "label": "長降（朝鮮列傳候選）",
+  "label": "長（右渠子）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -153,7 +153,7 @@
   ],
   "related_people": {
     "f41_ulg_3u1_*A": "右渠（朝鮮列傳候選）",
-    "f41_ulg_3u1_*AA": "長降（朝鮮列傳候選）"
+    "f41_ulg_3u1_*AA": "長（右渠子）"
   },
   "dates": [
     {
@@ -190,7 +190,41 @@
       "title": "幾侯"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "f41_ulg_3u1_*AA",
+      "title": "幾侯",
+      "surname": null,
+      "ming": "長",
+      "additional_names": [
+        "長路"
+      ],
+      "chapter_id": "c-shiji-115-chaoxian",
+      "paragraph_id": "c-shiji-115-chaoxian:p008",
+      "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
+      "references": [
+        {
+          "title": "《漢書》卷九十五·顏師古注",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L489",
+          "quote": "右渠子長(師古曰右渠/之子名長)降相路人子",
+          "scope": "ancient_commentary_name_components",
+          "image_verified": false,
+          "reviewed_exact_line": 489
+        },
+        {
+          "title": "《史記集解》卷一百十五·徐廣引表異名",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_115.txt#L69",
+          "quote": "将軍使右渠子長(徐廣曰表云長路漢/書表云長路音各)降相路人之子",
+          "scope": "ancient_commentary_reported_name_variant",
+          "image_verified": false,
+          "reviewed_exact_line": 69
+        }
+      ],
+      "note": "首選名長依顏師古明示；長路為徐廣引表異名。正文長降與長［降］校記原樣保留，降字不直接當名字。既有闕父／祖父路徑不改，不逕與右渠未名太子合併。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "f41_ulg_3u1_*AA"
   ],
