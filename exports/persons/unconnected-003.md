@@ -6,17 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xu5_0nl_f5z` | 盜跖引古 | [《史記・屈原賈生列傳》][70] | [JSON](xu5_0nl_f5z.json) |
-| `xu8_76t_ldg` | 卜偃（晉卜者） | [《史記・晉世家》][25] | [JSON](xu8_76t_ldg.json) |
-| `xuq_4z2_6go` | 殷中 | [《史記・酷吏列傳》][108] | [JSON](xuq_4z2_6go.json) |
-| `xv2_ujg_1pe` | 楚王割東國未定 | [《史記・孟嘗君列傳》][61] | [JSON](xv2_ujg_1pe.json) |
-| `xv5_hg2_v5w` | 馮劫 | [《史記・秦始皇本紀》][10] | [JSON](xv5_hg2_v5w.json) |
-| `xvc_q9g_mkx` | 臧氏老（季氏所囚未名） | [《史記・魯周公世家》][19] | [JSON](xvc_q9g_mkx.json) |
-| `xvh_vgj_xa2` | 成彊母（崔杼前妻未名） | [《史記・齊太公世家》][18] | [JSON](xvh_vgj_xa2.json) |
-| `xvq_2vi_og2` | 秦昭王 | [《史記・田敬仲完世家》][32] | [JSON](xvq_2vi_og2.json) |
-| `xw0_62h_nxt` | 家監未名 | [《史記・田叔列傳》][90] | [JSON](xw0_62h_nxt.json) |
-| `xwc_7eh_kj1` | 上官大夫未名 | [《史記・屈原賈生列傳》][70] | [JSON](xwc_7eh_kj1.json) |
-| `xx7_loh_2ge` | 郤克 | [《史記・齊太公世家》][18] | [JSON](xx7_loh_2ge.json) |
 | `xx8_6pg_u24` | 簡公婦人（田世家檀臺未名者） | [《史記・田敬仲完世家》][32] | [JSON](xx8_6pg_u24.json) |
 | `xx9_ni7_l9f` | 祖辛 | [《史記・殷本紀》][7]、[《史記・三代世表》][117] | [JSON](xx9_ni7_l9f.json) |
 | `xxc_auu_pd9` | 袁生 | [《史記・高祖本紀》][12] | [JSON](xxc_auu_pd9.json) |

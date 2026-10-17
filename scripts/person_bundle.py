@@ -7,6 +7,18 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_courtesy_name(name):
+    """字須有明示來源，不從顯示名稱推拆或冒作本名。"""
+    if 'zi' not in name:
+        return
+    zi = name['zi']
+    quotes = [name.get('quote', '')] + [r.get('quote', '') for r in name.get('references', [])]
+    if (not isinstance(zi, str) or not zi.strip() or zi != zi.strip()
+            or name.get('ming') == zi
+            or not any(isinstance(q, str) and '字' + zi in q for q in quotes)):
+        raise ValueError('字須有明示字名的引句且不得冒作名')
+
+
 def table_person_occurrences(table, person_ids):
     """保留逐人錨點與原格座標；編者西元欄不轉成人物事件日期。"""
     source = table['source']
@@ -113,6 +125,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             distinctions.append(dict(decision, evidence=evidence))
     enriched_names = []
     for name in name_components:
+        validate_courtesy_name(name)
         if name.get('kind') == 'table_cell':
             try:
                 from .table_evidence import table_name_component_errors

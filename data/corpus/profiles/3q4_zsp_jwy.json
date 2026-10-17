@@ -94,9 +94,9 @@
     },
     {
       "id": "a-shiji113-011",
-      "subject_person_id": "tz9_dhl_ifo",
+      "subject_person_id": "3q4_zsp_jwy",
       "predicate": "sister",
-      "object_person_id": "3q4_zsp_jwy",
+      "object_person_id": "tz9_dhl_ifo",
       "status": "source_attested",
       "evidence": [
         {
@@ -118,7 +118,7 @@
           "interpretation_status": "source_attested"
         }
       },
-      "interpretation_note": "姊為王太后，依本篇承接樛氏女；只存相對長幼。",
+      "interpretation_note": "姊為王太后，依本篇承接樛氏女；只存相對長幼。 按schema sister主體為女性姊妹，改正方向；原有older樛后、younger樛樂與未定數值排行保留，不改原句。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -129,7 +129,30 @@
     "tz9_dhl_ifo": "樛樂（南越列傳候選）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "3q4_zsp_jwy",
+      "title": "王太后",
+      "surname": "樛",
+      "ming": null,
+      "additional_names": [],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p006",
+      "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。",
+      "references": [
+        {
+          "title": "〈南越列傳〉興立與王太后",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+          "quote": "太子興代立，其母為太后。太后自未為嬰齊姬時，嘗與霸陵人安國少季通。及嬰齊薨後，元鼎四年，漢使安國少季往諭王、王太后以入朝，比內諸侯；令辯士諫大夫終軍等宣其辭，勇士魏臣等輔其缺，衛尉路博德將兵屯桂陽，待使者。王年少，太後中國人也，嘗與安國少季通，其使復私焉。國人頗知之，多不附太后。太后恐亂起，亦欲倚漢威，數勸王及群臣求內屬。即因使者上書，請比內諸侯，三歲一朝，除邊關。於是天子許之，賜其丞相呂嘉銀印，及內史、中尉、太傅印，餘得自置。除其故黥劓刑，用漢法，比內諸侯。使者皆留填撫之。王、王太后飭治行裝重齎，為入朝具。",
+          "scope": "received_title_attestation",
+          "image_verified": false
+        }
+      ],
+      "note": "姓氏據邯鄲樛氏女，名未記；王太后據下一段明示太后。未把女字當名，未補父親或其餘孩子生母。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "3q4_zsp_jwy"
   ],
@@ -176,9 +199,9 @@
     },
     {
       "id": "a-shiji113-011",
-      "subject_person_id": "tz9_dhl_ifo",
+      "subject_person_id": "3q4_zsp_jwy",
       "predicate": "sister",
-      "object_person_id": "3q4_zsp_jwy",
+      "object_person_id": "tz9_dhl_ifo",
       "status": "source_attested",
       "evidence": [
         {
@@ -200,7 +223,7 @@
           "interpretation_status": "source_attested"
         }
       },
-      "interpretation_note": "姊為王太后，依本篇承接樛氏女；只存相對長幼。",
+      "interpretation_note": "姊為王太后，依本篇承接樛氏女；只存相對長幼。 按schema sister主體為女性姊妹，改正方向；原有older樛后、younger樛樂與未定數值排行保留，不改原句。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -227,5 +250,33 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-shiji113-jiu-surname-glyph",
+      "paragraph_id": "c-shiji-113-nanyue:p006",
+      "source_term": "樛氏女",
+      "person_ids": [
+        "3q4_zsp_jwy"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "樛",
+      "reported_reading": "摎",
+      "component": "surname",
+      "quote": "嬰齊在長安時取邯鄲摎氏女",
+      "raw_quote": "齊請歸胡薨諡曰文王嬰齊嗣立即臧其先武帝文帝¶\n璽(李奇曰去/其僭號)嬰齊在長安時取邯鄲摎氏女(師古曰摎/音居虬反)¶\n生子興及即位上書請立摎氏女為后興為嗣漢數使¶",
+      "commentator": "《前漢書》卷95文淵閣數位正文",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L274-L276",
+      "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+      "response_sha256": "ae85076fbcb902242dad85fc3d8b11751e408d228b939c73e8f4c3ee4a879793",
+      "response_extent": {
+        "first_line": 151,
+        "last_line": 300,
+        "partial_file": true
+      },
+      "image_verified": false,
+      "interpretation_note": "漢書本段正文作摎，本篇作樛；不是已親核同書另一底本，不改字，不補姓名。"
+    }
+  ]
 }

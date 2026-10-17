@@ -6,6 +6,7 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "蒼梧秦王",
     "趙光"
   ],
   "titles": [
@@ -59,9 +60,9 @@
       "number": 113,
       "category": "liezhuan",
       "title": "南越列傳第五十三",
-      "paragraph_id": "c-shiji-113-nanyue:p012",
-      "count": 1,
-      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世"
+      "paragraph_id": "c-shiji-113-nanyue:p008",
+      "count": 3,
+      "quote": "，相三王，宗族官仕為長吏者七十餘人，男盡尚王女，女盡嫁王子兄弟宗室，及蒼梧秦王有連。其居國中甚重，越人信之，多為耳目者，得眾心愈於王。王之上書，數諫止王，王弗聽。有畔心，數稱病不見漢使者。使者皆注意嘉，勢未能誅。王、王太后亦恐嘉等先事發，乃置酒，介漢使者權，謀誅嘉等。使者皆東鄉"
     }
   ],
   "table_occurrences": [],
@@ -96,7 +97,83 @@
     "b77_ulm_otk": "趙光（南越列傳候選）"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji113-core-cangwuqinwang",
+      "person_ids": [
+        "b77_ulm_otk"
+      ],
+      "canonical_person_id": "b77_ulm_otk",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p008",
+          "quote": "其相呂嘉年長矣，相三王，宗族官仕為長吏者七十餘人，男盡尚王女，女盡嫁王子兄弟宗室，及蒼梧秦王有連。其居國中甚重，越人信之，多為耳目者，得眾心愈於王。王之上書，數諫止王，王弗聽。有畔心，數稱病不見漢使者。使者皆注意嘉，勢未能誅。王、王太后亦恐嘉等先事發，乃置酒，介漢使者權，謀誅嘉等。使者皆東鄉，太后南鄉，王北鄉，相嘉、大臣皆西鄉，侍坐飲。嘉弟為將，將卒居宮外。酒行，太后謂嘉曰：「南越內屬，國之利也，而相君苦不便者，何也？」以激怒使者。使者狐疑相杖，遂莫敢發。嘉見耳目非是，即起而出。太后怒，欲鏦嘉以矛，王止太後。嘉遂出，分其弟兵就舍，稱病，不肯見王及使者。乃陰與大臣作亂。王素無意誅嘉，嘉知之，以故數月不發。太后有淫行，國人不附，欲獨誅嘉等，力又不能。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m008-0042"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p012",
+          "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m012-0003"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "本篇蒼梧秦王與蒼梧王趙光，漢書95晉灼明釋秦王即下趙光也；只合此人稱號，不以越王同姓補父祖或連到趙佗、秦始皇。 依具體時序、角色或事件暫定同指；不據此補生卒、任期、父子或改寫原字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "kind": "cangwuqinwang",
+          "title": "《前漢書》卷九十五古注（文淵閣數位轉錄）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L294-L297",
+          "raw_quote": "王子弟宗室及蒼梧秦王有連(孟康曰蒼梧越中王自/名為秦王連親婚也晉)¶\n<pb:KR2a0007_WYG_095-17a>¶\n(灼曰秦王即下趙光也趙/本與秦同姓故曰秦王)其居國中甚重粤人信之多¶\n為耳目者得衆心愈於王(師古曰/愈勝也)王之上書數諫止王¶",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "ae85076fbcb902242dad85fc3d8b11751e408d228b939c73e8f4c3ee4a879793",
+          "response_extent": {
+            "first_line": 151,
+            "last_line": 300,
+            "partial_file": true
+          },
+          "image_verified": false,
+          "quote": "晉灼曰秦王即下趙光也趙本與秦同姓故曰秦王",
+          "scope": "ancient_commentary_identity_or_name_components",
+          "note": "短引文只除分行、雙行注斜線、括號、段末符與頁標；保留原字。部分回應指紋非全檔hash，Git blob另列。古注亦非影像校勘。"
+        }
+      ],
+      "identity_materialized": true
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "b77_ulm_otk",
+      "title": "蒼梧王",
+      "surname": "趙",
+      "ming": "光",
+      "additional_names": [
+        "蒼梧秦王"
+      ],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p012",
+      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+      "note": "姓名與蒼梧王據本段，蒼梧秦王據已辨同人的前文；同姓不補父祖。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "b77_ulm_otk"
   ],
