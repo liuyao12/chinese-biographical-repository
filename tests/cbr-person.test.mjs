@@ -367,3 +367,9 @@ test('cross-cell family evidence keeps parent label and child name as separate q
  assert.match(html,/synthetic parent label &lt;tag&gt;/);assert.match(html,/class="person-table-subject-quote"/);assert.match(html,/synthetic child name &lt;tag&gt;/);assert.match(html,/cell=synthetic-parent-cell/);assert.match(html,/cell=synthetic-child-cell/);assert.match(html,/同列姓名/);assert.doesNotMatch(html,/<tag>/);
  setLocale('en');assert.match(personCard(profile,true,'main',family),/Name in same row/);setLocale('zh-Hant');
 });
+
+test('name evidence displays the chosen source as well as the separately marked alternative', () => {
+ const n={title:'synthetic title',ming:'synthetic name',quote:'synthetic received sentence',note:'synthetic preference reason',references:[{quote:'chosen component quote <tag>',title:'chosen source',url:'https://example.com/chosen'},{quote:'unsafe source quote',url:'javascript:alert(1)'}],component_alternatives:[{components:{surname:'synthetic surname',ming:'synthetic alternative'},reference:{quote:'alternative component quote',title:'alternative source',url:'https://example.com/alternative'}}]};
+ const html=personCard({id:'abc_def_123',label:'synthetic person',name_components:[n]},true);
+ assert.match(html,/chosen component quote &lt;tag&gt;/);assert.match(html,/href="https:\/\/example.com\/chosen"/);assert.match(html,/alternative component quote/);assert.match(html,/未採為預設/);assert.doesNotMatch(html,/href="javascript:|<tag>/);
+});

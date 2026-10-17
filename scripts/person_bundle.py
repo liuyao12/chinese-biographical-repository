@@ -44,9 +44,13 @@ def validate_name_component_alternatives(name):
         valid = valid and bool(present) and set(terms) == present
         for key in present:
             value, word = components[key], {'surname': '姓', 'ming': '名', 'zi': '字'}.get(key, '')
+            allowed = (value + word + '也', word + value) if isinstance(value, str) else ()
+            if (key == 'surname' and isinstance(value, str)
+                    and isinstance(components.get('ming'), str)
+                    and value + '姓' + components['ming'] + '名也' in quote):
+                allowed += (value + '姓',)
             valid = (valid and isinstance(value, str) and bool(value) and value == value.strip()
-                     and terms[key] in (value + word + '也', word + value)
-                     and terms[key] in quote)
+                     and terms[key] in allowed and terms[key] in quote)
         if not valid:
             raise ValueError('姓名組件異說須有固定來源、原引文與相符名／字原詞')
 
