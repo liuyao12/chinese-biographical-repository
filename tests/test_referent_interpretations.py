@@ -18,10 +18,57 @@ class ReferentInterpretations(unittest.TestCase):
         return c,c['annotation']['referent_interpretations'][0]
     def test_real_readings_have_no_materialized_person_or_default(self):
         self.assertEqual(interpretation_errors(self.chapter,self.people),[])
-        cases=self.chapter['annotation']['referent_interpretations']
+        cases=[c for c in self.chapter['annotation']['referent_interpretations'] if c['source_terms'] in [['陽子'],['纖阿'],['鄭女曼姬']]]
         self.assertEqual([c['source_terms'] for c in cases],[['陽子'],['纖阿'],['鄭女曼姬']])
         self.assertTrue(all(c['default_alternative_id'] is None for c in cases))
         self.assertTrue(any(not a['candidate_person_ids'] for c in cases for a in c['alternatives']))
+    def test_nonpersonal_preferred_readings_do_not_create_people(self):
+        cases={c['id']:c for c in self.chapter['annotation']['referent_interpretations']}
+        for cid,kind in [('ri-shiji117-lieque','natural_phenomenon'),('ri-shiji117-tiandi','divinity')]:
+            case=cases[cid]
+            self.assertEqual(case['status'],'editorial_provisional')
+            chosen=next(a for a in case['alternatives'] if a['id']==case['default_alternative_id'])
+            self.assertEqual(chosen['referent_kind'],kind)
+            self.assertEqual(chosen['candidate_person_ids'],[])
+        case=cases['ri-shiji117-beiqiao']
+        self.assertEqual(case['status'],'unresolved')
+        self.assertIsNone(case['default_alternative_id'])
+        self.assertEqual(len(case['alternatives']),3)
+        self.assertTrue(all(a['candidate_person_ids']==[] for a in case['alternatives']))
+    def test_preferred_reading_cannot_bypass_person_identity_decisions(self):
+        c,case=self.changed()
+        case['status']='editorial_provisional'
+        case['default_alternative_id']=case['alternatives'][0]['id']
+        case['selection']={'rationale':'synthetic test','source_reference_ids':case['alternatives'][0]['source_reference_ids']}
+        self.assertTrue(interpretation_errors(c,self.people))
+    def test_preferred_reading_requires_attributed_rationale(self):
+        for field in ['rationale','source_reference_ids']:
+            c=copy.deepcopy(self.chapter)
+            case=next(c for c in c['annotation']['referent_interpretations'] if c['id']=='ri-shiji117-tiandi')
+            case['selection'].pop(field)
+            self.assertTrue(interpretation_errors(c,self.people))
+    def test_parallel_wording_is_not_a_received_text_correction(self):
+        c=copy.deepcopy(self.chapter)
+        case=next(c for c in c['annotation']['referent_interpretations'] if c['id']=='ri-shiji117-tiandi')
+        self.assertEqual(case['witness_wording']['received_phrase'],'帝以享祉')
+        self.assertEqual(case['witness_wording']['parallel_phrase'],'帝用享祉')
+        case['witness_wording']['adopted_as_text_correction']=True
+        self.assertTrue(interpretation_errors(c,self.people))
+    def test_malformed_parallel_quote_returns_errors(self):
+        c=copy.deepcopy(self.chapter)
+        case=next(c for c in c['annotation']['referent_interpretations'] if c['id']=='ri-shiji117-tiandi')
+        rid=case['witness_wording']['reference_id']
+        next(r for r in case['references'] if r['id']==rid)['quote']=None
+        self.assertTrue(interpretation_errors(c,self.people))
+    def test_daren_named_referents_reuse_existing_legendary_people(self):
+        people={p['id']:p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
+        p=next(p for p in self.chapter['paragraphs'] if p['id']=='c-shiji-117-xiangru:p052')
+        for mid,pid in [('c-shiji-117-xiangru:m052-0094','l4l_iz8_ao0'),('c-shiji-117-xiangru:m052-0089','44s_fyq_t0d')]:
+            m=next(m for m in p['mentions'] if m['id']==mid)
+            self.assertEqual(m['person_id'],pid)
+            self.assertEqual(people[pid]['historicity'],'legendary_tradition')
+            profile=json.loads((ROOT/'data/corpus/profiles'/f'{pid}.json').read_text())
+            self.assertEqual(sum(o['count'] for o in profile['occurrences'] if o['paragraph_id']==p['id']),1)
     def test_candidate_bundle_retains_evidence_without_counting_a_mention(self):
         b=bundle('3go_52y_0mp',include_provisional=True)
         c,=b['referent_interpretations']

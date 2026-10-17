@@ -6,7 +6,8 @@
   "identity_note": "本文求仙敘事所指，傳說性與身份待核，不稱實證歷史人物。",
   "review": "ai_provisional",
   "names": [
-    "羨門"
+    "羨門",
+    "羡門"
   ],
   "titles": [],
   "addresses": [],
@@ -26,6 +27,14 @@
       "paragraph_id": "c-shiji-012-wudi:p017",
       "count": 1,
       "quote": "長美，言多方略，而敢為大言，處之不疑。大言曰：「臣嘗往來海中，見安期、羨門之屬。顧以為臣賤，不信臣。又以為康王諸侯耳，不足予方。臣數言康王，康王又不用臣。臣之師曰：『黃金可成，而河決可塞，不死之藥可得，僊人可致也。』臣恐效文成，則方士皆掩口，惡敢言方哉！」上曰：「文成食馬肝"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p052",
+      "count": 1,
+      "quote": "先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。"
     }
   ],
   "table_occurrences": [],
@@ -102,6 +111,30 @@
           "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -110,6 +143,69 @@
   },
   "dates": [],
   "historicity": "legendary_tradition",
+  "reading_decisions": [
+    {
+      "id": "d-shiji117-daren-xianmen",
+      "person_id": "44s_fyq_t0d",
+      "surfaces": [
+        "羡門"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-006-shihuang"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "named_legendary_referent_with_explicit_commentary",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0089"
+        ],
+        "historical_event_attendance_not_inferred": true
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0089"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-006-shihuang",
+          "source_id": "s-shiji-006-shihuang",
+          "paragraph_id": "c-shiji-006-shihuang:p039",
+          "quote": "三十二年，始皇之碣石，使燕人盧生求羨門、高誓。刻碣石門。壞城郭，決通隄防。其辭曰：",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p039:m0017"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷57下·張揖釋羡門、岐伯，顏師古辨伯僑",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L937-L939",
+          "quote": "厮征伯僑而役羡門兮詔岐伯使尚方(應劭曰厮役也/張揖曰伯僑仙)¶\n(人王子僑也羡門碣石山上仙人羡門髙也尚主也岐/伯者黄帝太醫屬使主方藥也師古曰征伯僑者仙人)¶\n(姓征名伯僑非王子僑也郊祀志征字作/正其音同耳或說云征謂役使之非也)祝融警而蹕¶",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
+          "verified_extent": {
+            "start_line": 851,
+            "end_line": 980
+          },
+          "scope": "ancient_commentary_identification",
+          "image_verified": false
+        }
+      ],
+      "rationale": "張揖釋碣石仙人羡門高，與始皇本紀碣石求羨門的名號及地域互證；保留羡／羨原字，不把高誓併成同名，也不補仙人生卒或任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "44s_fyq_t0d"
