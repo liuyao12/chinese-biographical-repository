@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "rvm_asd_jj3",
   "canonical_person_id": "rvm_asd_jj3",
-  "label": "王織（淮南衡山列傳候選）",
+  "label": "南海王織",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -49,10 +49,43 @@
   ],
   "relations": [],
   "related_people": {
-    "rvm_asd_jj3": "王織（淮南衡山列傳候選）"
+    "rvm_asd_jj3": "南海王織"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "rvm_asd_jj3",
+      "title": "南海王",
+      "surname": null,
+      "ming": "織",
+      "additional_names": [
+        "王織"
+      ],
+      "chapter_id": "c-shiji-118-huainan",
+      "paragraph_id": "c-shiji-118-huainan:p004",
+      "quote": "南海民王織上書獻璧皇帝，忌擅燔其書，不以聞。",
+      "references": [
+        {
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_044.txt#L125-L129",
+          "quote": "南海王織上書獻璧帛皇帝",
+          "read_line_range": [
+            125,
+            129
+          ],
+          "source_blob": "e2143a58b312e7963377044e56322795ef02b5c4",
+          "image_verified": false,
+          "title": "《漢書》卷44同一獻璧、燔書事件",
+          "scope": "received_parallel_person_title",
+          "raw_quote": "日長病陛下心憂之使使者賜棗脯長不肯見拜使者¶\n南海民處廬江界中者反淮南吏卒擊之陛下遣使者¶\n齎帛五十匹以賜吏卒勞苦者長不欲受賜謾曰無勞¶\n苦者南海王織上書獻璧帛皇帝忌擅燔其書不以聞¶\n(文穎曰忌/蕳忌也)吏請召治忌長不遣謾曰忌病長所犯不軌¶",
+          "quote_normalization": "短引僅移除已聲明的Kanripo雙行注斜線、頁碼與換行記號，未改文字。",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454"
+        }
+      ],
+      "note": "《漢書》同一事件明作南海王織，故辨認用爵稱暫取南海王、名織，姓未知；保留本篇南海民王織原字，不以王字當姓，不補授爵年月。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "rvm_asd_jj3"
   ],

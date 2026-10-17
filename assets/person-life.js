@@ -1,6 +1,7 @@
 import {escapeHTML as h} from './core.js';
 // Birth/death summaries use typed events, never office dates or age arithmetic.
 export function ageLabel(age) {
+  if (age.approximation?.kind === 'adjacent_age_numbers' && typeof age.source_number === 'string') return `${age.source_number}歲`;
   if (!Number.isInteger(age.value) || age.reporting_status === 'qualified_report') return age.qualified_source_term || age.source_term || '來源報齡未定';
   return `${age.value} 歲（來源報齡）`;
 }

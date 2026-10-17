@@ -672,7 +672,7 @@ def validate(root=ROOT):
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
-                check(h['mode'] in ('grant','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
+                check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
                 def title_evidence(e):
                     hit=paragraphs.get(e['paragraph_id'])
@@ -748,6 +748,12 @@ def validate(root=ROOT):
                     check(valid, '承爵判讀缺少相符的前任爵位、父子或原詞證據')
                     if valid:
                         for e in inheritance['evidence']:title_evidence(e)
+                if h['mode']=='transfer' or 'transfer_basis' in h:
+                    try:
+                        from scripts.royal_transfers import royal_transfer_errors
+                    except ModuleNotFoundError:
+                        from royal_transfers import royal_transfer_errors
+                    errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions))
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
@@ -972,7 +978,7 @@ def validate(root=ROOT):
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
                     else:
                         check(bool(boundary['evidence']),'稱號時段事件缺少證據')
-                        allowed=('grant','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
+                        allowed=('grant','transfer','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
                         check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']
@@ -1188,7 +1194,17 @@ def validate(root=ROOT):
             for age in chapter['annotation'].get('age_assertions', []):
                 check(age['id'] not in age_ids, '年齡記錄 ID 重複'); age_ids.add(age['id'])
                 number = age.get('source_number'); parsed = source_age_number(number)
-                if 'bounds' in age:
+                if 'approximation' in age:
+                    try:
+                        from scripts.age_approximations import adjacent_age_errors
+                    except ModuleNotFoundError:
+                        from age_approximations import adjacent_age_errors
+                    for evidence in age.get('evidence', []):
+                        hit = paragraphs.get(evidence.get('paragraph_id'))
+                        if hit:
+                            errors.extend(adjacent_age_errors(age, hit[1]))
+                    check(bool(age.get('evidence')), '約數報齡缺少來源證據')
+                elif 'bounds' in age:
                     bounds = age.get('bounds'); group = age.get('group_reference')
                     if group is not None:
                         check(age.get('value') is None and parsed is not None and isinstance(bounds, dict)
@@ -1268,6 +1284,7 @@ def validate(root=ROOT):
                     target = next((r for r in reports[:reports.index(age)] if r['id'] == age['report_repetition_of']), None)
                     check(bool(target) and target['person_id'] == age['person_id']
                           and target.get('value') == age.get('value') and target.get('bounds') == age.get('bounds')
+                          and target.get('approximation') == age.get('approximation')
                           and target.get('unit') == age.get('unit') and target.get('counting') == age.get('counting')
                           and bool(age.get('interpretation_note')), '報齡重述須指同篇前筆同人物及相同年數，不得補年齡變化')
                 if 'normalized_date_range' in age:

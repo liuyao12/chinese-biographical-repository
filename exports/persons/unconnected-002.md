@@ -1366,7 +1366,7 @@
 | `ruz_4q7_qi2` | 軍正 | [《史記・司馬穰苴列傳》][50] | [JSON](ruz_4q7_qi2.json) |
 | `rv1_o3i_m12` | 田常 | [《史記・仲尼弟子列傳》][53] | [JSON](rv1_o3i_m12.json) |
 | `rv7_3a6_au0` | 石慶 | [《史記・平津侯主父列傳》][98] | [JSON](rv7_3a6_au0.json) |
-| `rvm_asd_jj3` | 王織 | [《史記・淮南衡山列傳》][104] | [JSON](rvm_asd_jj3.json) |
+| `rvm_asd_jj3` | 南海王織 | [《史記・淮南衡山列傳》][104] | [JSON](rvm_asd_jj3.json) |
 | `rw1_4gw_1c3` | 乘舒 | [《史記・淮南衡山列傳》][104] | [JSON](rw1_4gw_1c3.json) |
 | `rw2_ntu_kgz` | 內史保 | [《史記・絳侯周勃世家》][43] | [JSON](rw2_ntu_kgz.json) |
 | `rwc_uls_sr7` | 御鞅 | [《史記・田敬仲完世家》][32] | [JSON](rwc_uls_sr7.json) |

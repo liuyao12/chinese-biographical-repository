@@ -483,3 +483,20 @@ test('unrelated pointer exits and stale hide timers cannot close a newly hovered
     assert.equal(card.hidden,false);assert.equal(profile.href,next.href);
   } finally {dispose?.();Object.assign(globalThis,saved);}
 });
+
+test('approximate source ages are labelled as approximations in both interface languages',()=>{
+ const p={id:'synthetic-person',label:'合成人',age_assertions:[{person_id:'synthetic-person',value:null,source_number:'七八',source_term:'皆七八歲',approximation:{kind:'adjacent_age_numbers',numbers:[7,8]},evidence:[{paragraph_id:'synthetic-paragraph',quote:'合成測試：皆七八歲'}]}]};const before=JSON.stringify(p);
+ try {
+  for(const full of [false,true]){
+   setLocale('zh-Hant');let html=personCard(p,full);assert.match(html,/七八歲（<span[^>]*data-i18n="Source age approximation"[^>]*>來源約數/);assert.match(html,/合成測試：皆七八歲/);assert.doesNotMatch(html,/7[–-]8|享年|出生年/);
+   setLocale('en');html=personCard(p,full);assert.match(html,/Source age approximation/);assert.match(html,/七八歲/);
+  }
+ }finally{setLocale('zh-Hant');}
+ assert.equal(JSON.stringify(p),before);
+});
+
+test('unsegmented source names render whole with original spelling below, without invented components',()=>{
+ const p={id:'synthetic-person',label:'合成舊標籤',name_components:[{full_name:'合成姓名',surname:null,ming:null,title:null,additional_names:['合成異文'],quote:'合成史料引句',references:[],note:'不拆姓與名'}]};const before=JSON.stringify(p);
+ for(const full of [false,true]){const html=personCard(p,full);assert.match(html,new RegExp('<h'+(full?1:3)+'>合成姓名</h'));assert.match(html,/person-aliases/);assert.match(html,/合成異文/);assert.doesNotMatch(html,/null|undefined/);}
+ assert.equal(JSON.stringify(p),before);
+});

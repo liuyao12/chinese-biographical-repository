@@ -337,7 +337,7 @@
 | `2mw_zet_vw9` | 將廬（齊王） | [《史記・孝景本紀》][15] | [JSON](2mw_zet_vw9.json) |
 | `2nc_zh1_7ld` | 藺相如 | [《史記・太史公自序》][116] | [JSON](2nc_zh1_7ld.json) |
 | `2ne_w1o_8cu` | 威累（卷末世系） | [《史記・秦始皇本紀》][10] | [JSON](2ne_w1o_8cu.json) |
-| `2nl_q1p_8z0` | 樓緩 | [《史記・淮南衡山列傳》][104] | [JSON](2nl_q1p_8z0.json) |
+| `2nl_q1p_8z0` | 緩（淮南臣） | [《史記・淮南衡山列傳》][104] | [JSON](2nl_q1p_8z0.json) |
 | `2nw_f4l_qld` | 般妻（楚婦未名） | [《史記・管蔡世家》][21] | [JSON](2nw_f4l_qld.json) |
 | `2nx_tda_i4j` | 信（淮陰侯） | [《史記・太史公自序》][116] | [JSON](2nx_tda_i4j.json) |
 | `2oj_wrn_skl` | 褒姒 | [《史記・外戚世家》][35] | [JSON](2oj_wrn_skl.json) |
@@ -1953,7 +1953,7 @@
 | `f4u_1z7_w4y` | 李朔 | [《史記・衛將軍驃騎列傳》][97] | [JSON](f4u_1z7_w4y.json) |
 | `f53_xev_s2o` | 紂之母 | [《史記・殷本紀》][7] | [JSON](f53_xev_s2o.json) |
 | `f5z_kgb_853` | 奚慈 | [《史記・淮南衡山列傳》][104] | [JSON](f5z_kgb_853.json) |
-| `f6b_bwf_4dq` | 救赫 | [《史記・淮南衡山列傳》][104] | [JSON](f6b_bwf_4dq.json) |
+| `f6b_bwf_4dq` | 枚赫 | [《史記・淮南衡山列傳》][104] | [JSON](f6b_bwf_4dq.json) |
 | `f6e_ib9_ktb` | 顏噲 | [《史記・仲尼弟子列傳》][53] | [JSON](f6e_ib9_ktb.json) |
 | `f6g_596_kog` | 章武侯 | [《史記・絳侯周勃世家》][43] | [JSON](f6g_596_kog.json) |
 | `f79_cpn_758` | 公子悝 | [《史記・秦本紀》][9] | [JSON](f79_cpn_758.json) |
