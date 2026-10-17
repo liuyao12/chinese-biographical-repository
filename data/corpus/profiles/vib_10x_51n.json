@@ -14,6 +14,53 @@
   ],
   "titles": [
     {
+      "id": "th-hanshu006-nanyue-001",
+      "person_id": "vib_10x_51n",
+      "title": "伏波將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p133",
+          "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hanshu006-nanyue-001:a001",
+          "paragraph_id": "c-hanshu-006-wudi:p133",
+          "start": 1,
+          "end": 5,
+          "surface": "伏波將軍",
+          "person_mention_id": "c-hanshu-006-wudi:m133-0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只按本段明示為將記授任，遣既任將軍與侯爵用稱不改授封；本段未含年號，未知起訖不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji110-142",
       "person_id": "vib_10x_51n",
       "title": "彊弩都尉",
@@ -924,6 +971,21 @@
   ],
   "occurrences": [
     {
+      "number": 6,
+      "category": "",
+      "title": "武帝紀第六",
+      "paragraph_id": "c-hanshu-006-wudi:p133",
+      "count": 1,
+      "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-006",
+      "chapter_id": "c-hanshu-006-wudi",
+      "paragraph_ids": [
+        "c-hanshu-006-wudi:p133"
+      ]
+    },
+    {
       "number": 110,
       "category": "liezhuan",
       "title": "匈奴列傳第五十",
@@ -1007,6 +1069,43 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-006-wudi",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-006",
+      "source_id": "s-hanshu-006-wudi",
+      "source": {
+        "title": "漢書／卷006",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷006",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+        "revision_id": 2631854,
+        "accessed_on": "2026-10-15",
+        "extent": "目前選錄七個不連續原段，涵蓋既錄親屬、生卒與本批南越出兵姓名；非全卷完成。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML之正文p元素；排除style、script非正文節點，解碼HTML實體及去段首尾空白。保留原字、標點及原段，不合併，未作簡繁轉換。"
+        },
+        "html_sha256": "af4ba4e2d5e73e8c12999497b92ec7bdd9c263c6752391da8d6bfc5cba0e7548",
+        "included_sections": [
+          "固定HTML第1個正文p元素：孝武皇帝，景帝中子也，母曰王美人。年",
+          "固定HTML第24個正文p元素：六年春二月乙未，遼東高廟災。夏四月壬",
+          "固定HTML第25個正文p元素：五月丁亥，太皇太后崩。",
+          "固定HTML第28個正文p元素：元光元年冬十一月，初令郡國舉孝廉各一",
+          "固定HTML第39個正文p元素：四年冬，魏其侯竇嬰有罪，棄巿。",
+          "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。",
+          "固定HTML第133個正文p元素：南越出兵嚴、甲、遺姓名"
+        ],
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "edition": null,
+        "revision_timestamp": null
+      }
+    },
     {
       "chapter_id": "c-shiji-110-xiongnu",
       "work_id": "w-shiji",

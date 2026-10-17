@@ -13,7 +13,7 @@
     "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
     "revision_id": 2631854,
     "accessed_on": "2026-10-15",
-    "extent": "目前選錄六個不連續原段，涵蓋即位親屬、建元六年太皇太后崩與元光四年竇嬰、田蚡卒事；非全卷完成。",
+    "extent": "目前選錄七個不連續原段，涵蓋既錄親屬、生卒與本批南越出兵姓名；非全卷完成。",
     "text_scope": "partial_chapter",
     "image_verified": false,
     "review_status": "text_checked",
@@ -29,7 +29,8 @@
       "固定HTML第25個正文p元素：五月丁亥，太皇太后崩。",
       "固定HTML第28個正文p元素：元光元年冬十一月，初令郡國舉孝廉各一",
       "固定HTML第39個正文p元素：四年冬，魏其侯竇嬰有罪，棄巿。",
-      "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。"
+      "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。",
+      "固定HTML第133個正文p元素：南越出兵嚴、甲、遺姓名"
     ],
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
     "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
@@ -40,14 +41,15 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "六個不連續原段的14處選定人名、君主與母后回稱；並非全篇或全部人稱已標。 另錄四條明示親屬、四項死亡及數值年範圍；未推生年或享年。",
+    "coverage": "六個不連續原段的14處選定人名、君主與母后回稱；並非全篇或全部人稱已標。 另錄四條明示親屬、四項死亡及數值年範圍；未推生年或享年。 另錄p133五個姓名錨點，將嚴、甲、遺接回史記已有官稱人物，未另發ID。",
     "limitations": [
-      "本紀全246候選段，本次只為107對讀收錄六個不連續原段，不標全篇完成",
+      "本紀全246候選段，目前只為史記交叉核讀收錄七個不連續原段，不標全篇完成",
       "p024六年承建元；p039四年承元光，須引用未節錄的年號起點及已存年表作對照，不改原數字",
       "p001立為膠東王／為皇太子／母為皇后／曰太皇太后等授號字樣不當新增人物；甲子太子是已居儲位的武帝",
       "全部見證未核書影；保留棄巿之巿字",
       "死亡紀年取捨須新增範圍支援，不能壓成單年",
-      "原月日保留，跨西元年範圍先保守保存，待曆法與月日另核收窄；本紀與史記列傳五年／其春的差異尚未套首選。"
+      "原月日保留，跨西元年範圍先保守保存，待曆法與月日另核收窄；本紀與史記列傳五年／其春的差異尚未套首選。",
+      "p133未含年號，不由孤立段落硬補授將年份；姓名官稱與Kanripo固定轉錄互讀，非兩份獨立史事證據，未核書影。"
     ]
   },
   "paragraphs": [
@@ -223,7 +225,66 @@
           "status": "contextual_provisional"
         }
       ]
+    },
+    {
+      "id": "c-hanshu-006-wudi:p133",
+      "text": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-hanshu-006-wudi:m133-0005",
+          "start": 5,
+          "end": 8,
+          "surface": "路博德",
+          "person_id": "vib_10x_51n",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-006-wudi:m133-0020",
+          "start": 20,
+          "end": 22,
+          "surface": "楊僕",
+          "person_id": "jk8_8gt_vmi",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-006-wudi:m133-0034",
+          "start": 34,
+          "end": 35,
+          "surface": "嚴",
+          "person_id": "4zn_n9v_k0v",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-006-wudi:m133-0049",
+          "start": 49,
+          "end": 50,
+          "surface": "甲",
+          "person_id": "iw9_udd_jr2",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-hanshu-006-wudi:m133-0079",
+          "start": 79,
+          "end": 80,
+          "surface": "遺",
+          "person_id": "dzl_mvt_l93",
+          "kind": "person",
+          "status": "contextual_provisional"
+        }
+      ],
+      "source_position": {
+        "kind": "fixed_wikisource_html_paragraph",
+        "paragraph_ordinal": 133,
+        "revision_id": 2631854,
+        "html_sha256": "af4ba4e2d5e73e8c12999497b92ec7bdd9c263c6752391da8d6bfc5cba0e7548"
+      }
     }
   ],
-  "text_sha256": "30b93d6e6efa3ca46be0224ece5a0f5f260fa633e29f828980a4fbd7f87ffa93"
+  "text_sha256": "4df0c70d39cc5a784b792b2cd86229d6eaa3679c0c809376515bc2ee97da5d63"
 }

@@ -67,7 +67,7 @@
       "person_id": "bvb_d1z_fd0_*A",
       "title": "文王",
       "kind": "honorific",
-      "mode": "attestation",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -91,9 +91,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-113-nanyue",
+              "source_id": "s-shiji113-nanyue",
+              "paragraph_id": "c-shiji-113-nanyue:p005",
+              "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -101,8 +109,20 @@
           "evidence": []
         }
       },
-      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。",
+      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。 薨後謚為明示命名事件，另記posthumous_naming；仍未記年月，不以死亡補其他王爵終年。",
       "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "胡薨，謚為文王",
+        "death_term": "胡薨",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "paragraph_id": "c-shiji-113-nanyue:p005",
+            "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+          }
+        ]
+      },
       "period": "未定 → 未定"
     }
   ],

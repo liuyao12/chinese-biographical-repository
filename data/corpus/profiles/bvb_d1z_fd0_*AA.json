@@ -58,7 +58,7 @@
       "person_id": "bvb_d1z_fd0_*AA",
       "title": "明王",
       "kind": "honorific",
-      "mode": "attestation",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -82,9 +82,17 @@
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "posthumous_naming",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-113-nanyue",
+              "source_id": "s-shiji113-nanyue",
+              "paragraph_id": "c-shiji-113-nanyue:p006",
+              "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -92,8 +100,20 @@
           "evidence": []
         }
       },
-      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。",
+      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。 薨後謚為明示命名事件，另記posthumous_naming；仍未記年月，不以死亡補其他王爵終年。",
       "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "嬰齊薨，謚為明王",
+        "death_term": "嬰齊薨",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "paragraph_id": "c-shiji-113-nanyue:p006",
+            "quote": "嬰齊代立，即藏其先武帝璽。嬰齊其入宿衛在長安時，取邯鄲樛氏女，生子興。及即位，上書請立樛氏女為后，興為嗣。漢數使使者風諭嬰齊，嬰齊尚樂擅殺生自恣，懼入見要用漢法，比內諸侯，固稱病，遂不入見。遣子次公入宿衛。嬰齊薨，謚為明王。"
+          }
+        ]
+      },
       "period": "未定 → 未定"
     }
   ],
