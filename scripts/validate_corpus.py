@@ -742,14 +742,19 @@ def validate(root=ROOT):
                                     +re.escape(number)+r'(?:年|歲|歳)',duration['source_term']) is not None)
                             check(valid,'稱號相鄰年數約數須保留原數詞、未知精確值及非界限數字')
                         elif bounded:
-                            if number is None and duration['source_term']=='居月餘':parsed=1
+                            implicit_month = (duration['unit']=='title_month' and number is None
+                                and duration['source_term'] in ('居月餘','月餘'))
+                            if implicit_month:parsed=1
                             bounds=duration['bounds']
-                            valid=(common and duration['unit']=='title_month' and duration['value'] is None
-                                and parsed is not None and isinstance(bounds,dict) and type(bounds.get('lower')) is int
-                                and bounds.get('lower_inclusive') is False
+                            literal=(implicit_month or isinstance(number,str) and (
+                                duration['unit']=='title_month' and duration['source_term']==number+'餘月'
+                                or duration['unit']=='title_year' and duration['source_term'] in
+                                    (number+'餘年',number+'餘歲',number+'餘歳')))
+                            valid=(common and duration['unit'] in ('title_month','title_year')
+                                and duration['value'] is None and parsed is not None
+                                and isinstance(bounds,dict) and type(bounds.get('lower')) is int
                                 and bounds=={'lower':parsed,'lower_inclusive':False,'upper':None,'upper_inclusive':None}
-                                and (number is None and duration['source_term']=='居月餘'
-                                     or isinstance(number,str) and duration['source_term']==number+'餘月'))
+                                and literal)
                             check(valid,'稱號時長界限須保留餘字、未知精確值及排他下界')
                         else:
                             valid=(common and type(duration['value']) is int and parsed is not None
