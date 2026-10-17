@@ -2,11 +2,12 @@
   "schema_version": 1,
   "id": "m08_4xt_opo",
   "canonical_person_id": "m08_4xt_opo",
-  "label": "蘇弘（南越列傳候選）",
+  "label": "蘇弘",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "蘇弘"
+    "蘇弘",
+    "弘"
   ],
   "titles": [
     {
@@ -101,7 +102,64 @@
       "quote": "船西去。伏波又因問所得降者貴人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r056-c05",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r056-c05-m000",
+        "start": 11,
+        "end": 13,
+        "surface": "蘇弘",
+        "person_id": "m08_4xt_opo",
+        "status": "contextual_provisional",
+        "interpretation_note": "按同列封國、封爵事由及本傳相同事件接合；不以數位年份作另一件事件證據，授爵與戰役、父死分開。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-113",
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "source_revision": 8735632,
+            "paragraph_id": "c-shiji-113-nanyue:p011",
+            "person_id": "m08_4xt_opo",
+            "quote": "元鼎六年冬，樓船將軍將精卒先陷尋陜，破石門，得越船粟，因推而前，挫越鋒，以數萬人待伏波。伏波將軍將罪人，道遠，會期後，與樓船會乃有千餘人，遂俱進。樓船居前，至番禺。建德、嘉皆城守。樓船自擇便處，居東南面；伏波居西北面。會暮，樓船攻敗越人，縱火燒城。越素聞伏波名，日暮，不知其兵多少。伏波乃為營，遣使者招降者，賜印，復縱令相招。樓船力攻燒敵，反驅而入伏波營中。犁旦，城中皆降伏波。呂嘉、建德已夜與其屬數百人亡入海，以船西去。伏波又因問所得降者貴人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
+          }
+        ]
+      }
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r056-c07",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "太初元年，侯弘死，無後，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r056-c07-m000",
+        "start": 6,
+        "end": 7,
+        "surface": "弘",
+        "person_id": "m08_4xt_opo",
+        "status": "contextual_provisional",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-113",
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "source_revision": 8735632,
+            "paragraph_id": "c-shiji-113-nanyue:p011",
+            "person_id": "m08_4xt_opo",
+            "quote": "元鼎六年冬，樓船將軍將精卒先陷尋陜，破石門，得越船粟，因推而前，挫越鋒，以數萬人待伏波。伏波將軍將罪人，道遠，會期後，與樓船會乃有千餘人，遂俱進。樓船居前，至番禺。建德、嘉皆城守。樓船自擇便處，居東南面；伏波居西北面。會暮，樓船攻敗越人，縱火燒城。越素聞伏波名，日暮，不知其兵多少。伏波乃為營，遣使者招降者，賜印，復縱令相招。樓船力攻燒敵，反驅而入伏波營中。犁旦，城中皆降伏波。呂嘉、建德已夜與其屬數百人亡入海，以船西去。伏波又因問所得降者貴人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
+          }
+        ],
+        "interpretation_note": "本列功臣事由或後續省稱；只標人物原字，保留摎/樛、僕/仆字形，不整格標人，不把子侯當父爵。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-113-nanyue",
@@ -126,11 +184,34 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "m08_4xt_opo": "蘇弘（南越列傳候選）"
+    "m08_4xt_opo": "蘇弘"
   },
   "dates": [
     {

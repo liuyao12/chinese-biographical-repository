@@ -2,11 +2,12 @@
   "schema_version": 1,
   "id": "6m0_ze7_hl0",
   "canonical_person_id": "6m0_ze7_hl0",
-  "label": "都稽（南越列傳候選）",
+  "label": "都稽",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "都稽"
+    "都稽",
+    "孫都"
   ],
   "titles": [
     {
@@ -101,7 +102,36 @@
       "quote": "人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r062-c06",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "六。元年閏月癸卯，侯孫都元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r062-c06-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "孫都",
+        "person_id": "6m0_ze7_hl0",
+        "status": "contextual_provisional",
+        "interpretation_note": "按同列封國、封爵事由及本傳相同事件接合；不以數位年份作另一件事件證據，授爵與戰役、父死分開。 本傳都稽、表孫都，徐廣明釋表曰孫都；保留分源姓名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-113",
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "source_revision": 8735632,
+            "paragraph_id": "c-shiji-113-nanyue:p011",
+            "person_id": "6m0_ze7_hl0",
+            "quote": "元鼎六年冬，樓船將軍將精卒先陷尋陜，破石門，得越船粟，因推而前，挫越鋒，以數萬人待伏波。伏波將軍將罪人，道遠，會期後，與樓船會乃有千餘人，遂俱進。樓船居前，至番禺。建德、嘉皆城守。樓船自擇便處，居東南面；伏波居西北面。會暮，樓船攻敗越人，縱火燒城。越素聞伏波名，日暮，不知其兵多少。伏波乃為營，遣使者招降者，賜印，復縱令相招。樓船力攻燒敵，反驅而入伏波營中。犁旦，城中皆降伏波。呂嘉、建德已夜與其屬數百人亡入海，以船西去。伏波又因問所得降者貴人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-113-nanyue",
@@ -126,11 +156,34 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "6m0_ze7_hl0": "都稽（南越列傳候選）"
+    "6m0_ze7_hl0": "都稽"
   },
   "dates": [
     {
@@ -175,5 +228,34 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-shiji113-duji-sundu",
+      "paragraph_id": "c-shiji-113-nanyue:p011",
+      "source_term": "都稽",
+      "person_ids": [
+        "6m0_ze7_hl0"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "都稽",
+      "reported_reading": "孫都",
+      "component": "personal_name",
+      "quote": "徐廣曰表曰孫都",
+      "commentator": "徐廣《史記集解》引注",
+      "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_113.txt#L146-L149",
+      "raw_quote": "馬蘇宏得建徳封為海常侯(徐廣曰/在東萊)越郎(徐廣曰南/越之郎官)都¶\n稽(徐廣曰表/曰孫都)得嘉封為臨蔡侯曰蒼梧王趙光者越王¶\n同姓聞漢兵至及越掲陽令定(韋昭曰掲/音其逝反)自定屬漢越¶\n桂林監居翁(漢書音義曰桂林郡/中監姓居名翁也)諭甌駱屬漢皆得為¶",
+      "source_blob_sha": "cc1f02cad63298fa8bab8090bf9766f9b7a50e05",
+      "response_sha256": "e6bb267d74b5de47b628b38bc9083f430d8fd4ad8866a193ba6133a9bb502b2d",
+      "response_extent": {
+        "first_line": 1,
+        "last_line": 200,
+        "returned_lines": 168,
+        "partial_file": true
+      },
+      "image_verified": false,
+      "interpretation_note": "古注報告表曰孫都另存；本庫實錄表20臨蔡列侯孫都及同捕呂嘉功另作表格來源，不改本文都稽、不把兩來源混成同一原句。"
+    }
+  ]
 }

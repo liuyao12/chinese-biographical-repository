@@ -36,7 +36,7 @@
 | `h15_bnp_8ii` | 張勝 | [《史記・韓信盧綰列傳》][79] | [JSON](h15_bnp_8ii.json) |
 | `h1i_f19_pf4` | 齊丞相舍人奴未名 | [《史記・扁鵲倉公列傳》][91] | [JSON](h1i_f19_pf4.json) |
 | `h1l_7wr_80t` | 褚先生 | [《史記・田叔列傳》][90] | [JSON](h1l_7wr_80t.json) |
-| `h1o_o6t_3ru` | 居翁 | [《史記・南越列傳》][99] | [JSON](h1o_o6t_3ru.json) |
+| `h1o_o6t_3ru` | 居翁 | [《史記・南越列傳》][99]、[《史記・建元以來侯者年表》][124] | [JSON](h1o_o6t_3ru.json) |
 | `h1s_x8q_27p` | 內史廖 | [《史記・秦本紀》][9] | [JSON](h1s_x8q_27p.json) |
 | `h1v_8ap_b9y` | 管仲 | [《史記・齊太公世家》][18] | [JSON](h1v_8ap_b9y.json) |
 | `h1w_1k2_zgz` | 越王句踐 | [《史記・貨殖列傳》][115] | [JSON](h1w_1k2_zgz.json) |
@@ -663,7 +663,7 @@
 | `lzo_8qz_eqd` | 司馬翦 | [《史記・周本紀》][8] | [JSON](lzo_8qz_eqd.json) |
 | `lzo_cxh_egc` | 盜跖引古 | [《史記・李斯列傳》][73] | [JSON](lzo_cxh_egc.json) |
 | `m07_sq1_i5d` | 黃直 | [《史記・日者列傳》][113] | [JSON](m07_sq1_i5d.json) |
-| `m08_4xt_opo` | 蘇弘 | [《史記・南越列傳》][99] | [JSON](m08_4xt_opo.json) |
+| `m08_4xt_opo` | 蘇弘 | [《史記・建元以來侯者年表》][124] | [JSON](m08_4xt_opo.json) |
 | `m0l_71n_b8f` | 仲姬（牙母） | [《史記・齊太公世家》][18] | [JSON](m0l_71n_b8f.json) |
 | `m0p_dd3_54x` | 樊仲子 | [《史記・游俠列傳》][110] | [JSON](m0p_dd3_54x.json) |
 | `m0s_giw_1h6` | 衛先生引古未定 | [《史記・魯仲連鄒陽列傳》][69] | [JSON](m0s_giw_1h6.json) |
@@ -2143,7 +2143,7 @@
 | `xgx_g4a_c28` | 趙兼 | [《史記・孝文本紀》][14]、[《史記・惠景間侯者年表》][123] | [JSON](xgx_g4a_c28.json) |
 | `xh0_zdc_cq8` | 季勝 | [《史記・秦本紀》][9] | [JSON](xh0_zdc_cq8.json) |
 | `xhk_2v1_pd8` | 魯君（孔子世家女樂未名者） | [《史記・孔子世家》][33] | [JSON](xhk_2v1_pd8.json) |
-| `xhk_b1m_hjb` | 定 | [《史記・南越列傳》][99] | [JSON](xhk_b1m_hjb.json) |
+| `xhk_b1m_hjb` | 史定 | [《史記・南越列傳》][99]、[《史記・建元以來侯者年表》][124] | [JSON](xhk_b1m_hjb.json) |
 | `xhp_h3f_rus` | 緡（晉侯） | [《史記・晉世家》][25] | [JSON](xhp_h3f_rus.json) |
 | `xhs_wj2_zbt` | 商容 | [《史記・殷本紀》][7] | [JSON](xhs_wj2_zbt.json) |
 | `xi5_cuw_xu1` | 壤駟赤 | [《史記・仲尼弟子列傳》][53] | [JSON](xi5_cuw_xu1.json) |
@@ -2210,7 +2210,6 @@
 | `xvq_2vi_og2` | 秦昭王 | [《史記・田敬仲完世家》][32] | [JSON](xvq_2vi_og2.json) |
 | `xw0_62h_nxt` | 家監未名 | [《史記・田叔列傳》][90] | [JSON](xw0_62h_nxt.json) |
 | `xwc_7eh_kj1` | 上官大夫未名 | [《史記・屈原賈生列傳》][70] | [JSON](xwc_7eh_kj1.json) |
-| `xx7_loh_2ge` | 郤克 | [《史記・齊太公世家》][18] | [JSON](xx7_loh_2ge.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

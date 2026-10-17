@@ -665,7 +665,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 韓千秋 | [《史記・南越列傳》][99] | [JSON](8xz_mlj_r3c.json) |
-| `A` | 延年 | [《史記・南越列傳》][99] | [JSON](8xz_mlj_r3c_A.json) |
+| `A` | 延年 | [《史記・建元以來侯者年表》][124] | [JSON](8xz_mlj_r3c_A.json) |
 
 </details>
 
@@ -2201,7 +2201,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 樛樂 | [《史記・南越列傳》][99] | [JSON](tz9_dhl_ifo.json) |
-| `A` | 廣德 | [《史記・南越列傳》][99] | [JSON](tz9_dhl_ifo_A.json) |
+| `A` | 廣德 | [《史記・建元以來侯者年表》][124] | [JSON](tz9_dhl_ifo_A.json) |
 
 </details>
 
@@ -2970,3 +2970,4 @@
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [123]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[124]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
