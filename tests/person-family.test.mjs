@@ -81,3 +81,9 @@ test('unreviewed shape or missing evidence does not create a shared ancestor edg
     assert.deepEqual(family.ancestors,[[],[],[]]);
   }
 });
+
+test('teaching in either direction does not create parents, ancestors, spouse or children', async () => {
+ const p={id:'student',relations:[relation('student','teacher','master'),relation('pupil','teacher','student')]};
+ const family=await traceFamily(p, async () => {throw Error('teaching must not trigger family loading');});
+ assert.deepEqual(family,{ancestors:[[],[],[]],mother:[],spouses:[],children:[]});
+});

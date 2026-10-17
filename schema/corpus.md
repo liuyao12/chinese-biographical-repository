@@ -366,3 +366,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 生卒原段未載紀年時，`normalized_date_range.parallel_event` 可保存與單年平行事件相同的事件對讀欄位：`kind: parallel_event`、`source_event_quote`、`reference_url`、`reference_event_quote`、`reference_year_quote`，年表網址不同時另列 `reference_year_url`。此時來源 `date_expression: null` 保持，範圍 `basis: regnal_year_crosses_ce_year` 不變，原死亡詞、平行死亡引句、原紀年、數位對照及曆法引文分列。驗證須對應各引文與網址，不得僅憑背景年或空白原日期加入數字；不把平行來源原紀年塞進本文。
 
 來源報齡未滿可用 `reporting_status: upper_bound_report`、`value: null`、`bounds: {lower: null, lower_inclusive: null, upper: 20, upper_inclusive: false}` 保存年未滿二十。原數詞與原詞俱存，`source_qualification: null`，不補確切十九歲、生年或享年；其餘年齡證據、計歲未知及人物錨點檢查不變。
+
+師承使用 `predicate: teacher`，方向為學生至老師；`relationship_basis: teaching`，保存學教受傳、師或弟子原詞及同引句兩方人物錨點 `subject_person_mention_id`、`object_person_mention_id`。師承不是親屬，不參與父祖、生母、配偶或子女推導；學習時長不是官爵任期。

@@ -90,8 +90,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "subject_person_id": "qot_kkm_wa4",
+      "predicate": "teacher",
+      "object_person_id": "opr_t0a_l8g",
+      "status": "source_attested",
+      "qualifiers": {
+        "relationship_basis": "teaching",
+        "source_term": "菑川王時遣太倉馬長馮信正方，臣意教以案法逆順"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p047",
+          "quote": "問臣意曰：「吏民嘗有事學意方，及畢盡得意方不？何縣里人？」對曰：「臨菑人宋邑。邑學，臣意教以五診，歲餘。濟北王遣太醫高期、王禹學，臣意教以經脈高下及奇絡結，當論俞所居，及氣當上下出入邪［正］逆順，以宜鑱石，定砭灸處，歲餘。菑川王時遣太倉馬長馮信正方，臣意教以案法逆順，論藥法，定五味及和齊湯法。高永侯家丞杜信，喜脈，來學，臣意教以上下經脈五診，二歲餘。臨菑召裏唐安來學，臣意教以五診上下經脈，奇咳，四時應陰陽重，未成，除為齊王侍醫。」問臣意：「診病決死生，能全無失乎？」臣意對曰：「意治病人，必先切其脈，乃治之。敗逆者不可治，其順者乃治之。心不精脈，所期死生視可治，時時失之，臣意不能全也。」",
+          "subject_person_mention_id": "c-shiji-105-bianque:m047-0120",
+          "object_person_mention_id": "c-shiji-105-bianque:m047-0001"
+        }
+      ],
+      "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-shiji105-014"
+    }
+  ],
   "related_people": {
+    "opr_t0a_l8g": "淳于公（齊太倉令）",
     "qot_kkm_wa4": "馮信（扁鵲倉公列傳候選）"
   },
   "dates": [],
@@ -144,7 +173,35 @@
   "person_ids": [
     "qot_kkm_wa4"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "subject_person_id": "qot_kkm_wa4",
+      "predicate": "teacher",
+      "object_person_id": "opr_t0a_l8g",
+      "status": "source_attested",
+      "qualifiers": {
+        "relationship_basis": "teaching",
+        "source_term": "菑川王時遣太倉馬長馮信正方，臣意教以案法逆順"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p047",
+          "quote": "問臣意曰：「吏民嘗有事學意方，及畢盡得意方不？何縣里人？」對曰：「臨菑人宋邑。邑學，臣意教以五診，歲餘。濟北王遣太醫高期、王禹學，臣意教以經脈高下及奇絡結，當論俞所居，及氣當上下出入邪［正］逆順，以宜鑱石，定砭灸處，歲餘。菑川王時遣太倉馬長馮信正方，臣意教以案法逆順，論藥法，定五味及和齊湯法。高永侯家丞杜信，喜脈，來學，臣意教以上下經脈五診，二歲餘。臨菑召裏唐安來學，臣意教以五診上下經脈，奇咳，四時應陰陽重，未成，除為齊王侍醫。」問臣意：「診病決死生，能全無失乎？」臣意對曰：「意治病人，必先切其脈，乃治之。敗逆者不可治，其順者乃治之。心不精脈，所期死生視可治，時時失之，臣意不能全也。」",
+          "subject_person_mention_id": "c-shiji-105-bianque:m047-0120",
+          "object_person_mention_id": "c-shiji-105-bianque:m047-0001"
+        }
+      ],
+      "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-shiji105-014"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

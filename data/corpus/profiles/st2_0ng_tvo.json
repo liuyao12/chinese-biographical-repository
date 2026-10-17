@@ -47,8 +47,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "subject_person_id": "6bn_yfc_lzi",
+      "predicate": "teacher",
+      "object_person_id": "st2_0ng_tvo",
+      "status": "source_attested",
+      "qualifiers": {
+        "relationship_basis": "teaching",
+        "source_term": "學黃老術於樂巨公所"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p001",
+          "quote": "田叔者，趙陘城人也。其先，齊田氏苗裔也。叔喜劍，學黃老術於樂巨公所。叔為人刻廉自喜，喜游諸公。趙人舉之趙相趙午，午言之趙王張敖所，趙王以為郎中。數歲，切直廉平，趙王賢之，未及遷。",
+          "subject_person_mention_id": "c-shiji-104-tianshu:m001-0000",
+          "object_person_mention_id": "c-shiji-104-tianshu:m001-0029"
+        }
+      ],
+      "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-shiji104-002"
+    }
+  ],
   "related_people": {
+    "6bn_yfc_lzi": "田叔（梁孝王世家候選）",
     "st2_0ng_tvo": "樂巨公（田叔列傳候選）"
   },
   "dates": [],
@@ -56,7 +85,35 @@
   "person_ids": [
     "st2_0ng_tvo"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "subject_person_id": "6bn_yfc_lzi",
+      "predicate": "teacher",
+      "object_person_id": "st2_0ng_tvo",
+      "status": "source_attested",
+      "qualifiers": {
+        "relationship_basis": "teaching",
+        "source_term": "學黃老術於樂巨公所"
+      },
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-104",
+          "chapter_id": "c-shiji-104-tianshu",
+          "source_id": "s-shiji-104-tianshu",
+          "paragraph_id": "c-shiji-104-tianshu:p001",
+          "quote": "田叔者，趙陘城人也。其先，齊田氏苗裔也。叔喜劍，學黃老術於樂巨公所。叔為人刻廉自喜，喜游諸公。趙人舉之趙相趙午，午言之趙王張敖所，趙王以為郎中。數歲，切直廉平，趙王賢之，未及遷。",
+          "subject_person_mention_id": "c-shiji-104-tianshu:m001-0000",
+          "object_person_mention_id": "c-shiji-104-tianshu:m001-0029"
+        }
+      ],
+      "interpretation_note": "依本段授受、師、弟子或學教原詞記師承；不作親屬，不推共同父系，學習年數不當官爵任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-shiji104-002"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
