@@ -413,3 +413,13 @@ test('textual variant study references retain scope and do not invent dates', ()
  const p={id:'abc_def_123',label:'合成人物',reported_variants:[v]};const html=personCard(p,true);assert.match(html,/person-study-references/);assert.match(html,/合成考證/);assert.match(html,/只讀摘頁/);assert.match(html,/研究意見未獨立驗證/);assert.doesNotMatch(html,/（null）/);
  v.study_references=[{display_title:'<svg>',url:'javascript:alert(1)',reference_note:'<script>'}];const safe=personCard(p,true);assert.match(safe,/&lt;svg&gt;/);assert.match(safe,/&lt;script&gt;/);assert.doesNotMatch(safe,/href="javascript:/);
 });
+test('courtesy and early given names have typed labels and retain source characters in both languages', () => {
+ const n={title:null,surname:'司馬',ming:'相如',zi:'長卿',former_ming:'犬子',additional_names:['長卿','犬子']};const p={id:'abc_def_123',label:'合成測試',name_components:[n]};
+ try {
+  setLocale('zh-Hant');const zh=personCard(p,true);assert.match(zh,/<h1>司馬相如<\/h1>/);assert.match(zh,/data-i18n="Courtesy name">字/);assert.match(zh,/data-i18n="Former given name">初名/);assert.match(zh,/長卿/);assert.match(zh,/犬子/);
+  setLocale('en');const en=personCard(p,true);assert.match(en,/Courtesy name/);assert.match(en,/Former given name/);assert.match(en,/<h1>司馬相如<\/h1>/);assert.match(en,/長卿/);assert.match(en,/犬子/);assert.equal(n.additional_names[0],'長卿');
+ } finally {setLocale('zh-Hant');}
+});
+test('an untyped alias does not invent courtesy or earlier-name labels and remains escaped', () => {
+ const html=personCard({id:'abc_def_123',label:'合成人物',name_components:[{surname:null,ming:'某',additional_names:['<img>']} ]},true);assert.match(html,/&lt;img&gt;/);assert.doesNotMatch(html,/<img>|data-i18n="Courtesy name"|data-i18n="Former given name"/);
+});
