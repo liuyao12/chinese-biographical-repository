@@ -1131,6 +1131,13 @@ def validate(root=ROOT):
                           and target.get('value') == age.get('value') and target.get('bounds') == age.get('bounds')
                           and target.get('unit') == age.get('unit') and target.get('counting') == age.get('counting')
                           and bool(age.get('interpretation_note')), '報齡重述須指同篇前筆同人物及相同年數，不得補年齡變化')
+                if 'normalized_date_range' in age:
+                    try:
+                        from scripts.date_ranges import year_range_errors
+                    except ImportError:
+                        from date_ranges import year_range_errors
+                    check('normalized_date' not in age, '來源報齡跨年範圍不得另填確定單年')
+                    errors.extend(year_range_errors(age['normalized_date_range'], age['evidence'], age.get('date_expression')))
                 if 'normalized_date' in age:
                     errors.extend(normalized_date_errors(age['normalized_date']))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')

@@ -370,3 +370,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 師承使用 `predicate: teacher`，方向為學生至老師；`relationship_basis: teaching`，保存學教受傳、師或弟子原詞及同引句兩方人物錨點 `subject_person_mention_id`、`object_person_mention_id`。師承不是親屬，不參與父祖、生母、配偶或子女推導；學習時長不是官爵任期。
 
 姓名組件亦可用 `kind: table_cell`，保存 `table_id`、`table_cell_id`、`person_mention_id`、`work_id`、`book_id`、`chapter_id`、`source_id`、`source_revision` 與完整 `quote`，不偽造 `paragraph_id`。姓與名拼合須等於同人原名錨點字串，未知姓留空；稱號仍是辨認用稱，不自動成為任職始年。表格姓名來源在人物來源包的 `table_passages` 中回查，人物頁連到原格。
+
+來源報齡亦可附 `normalized_date_range`：格式與生卒跨年範圍相同，保留本筆 `evidence`、`original_quote`、原紀年表述及原年欄／數位對照／曆法來源。不得同時附確定單年 `normalized_date`，不得由報齡推定出生年。
