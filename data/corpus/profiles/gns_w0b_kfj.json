@@ -9,7 +9,50 @@
     "所忠",
     "忠"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji059-045",
+      "person_id": "gns_w0b_kfj",
+      "title": "幸臣",
+      "kind": "unclassified",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p027",
+          "quote": "十二年卒，子齊立為王。齊有幸臣桑距。已而有罪，欲誅距，距亡，王因禽其宗族。距怨王，乃上書告王齊與同產姦。自是之後，王齊數上書告言漢公卿及幸臣所忠等。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji059-045:a001",
+          "paragraph_id": "c-shiji-059-wuzong:p027",
+          "start": 68,
+          "end": 70,
+          "surface": "幸臣",
+          "person_mention_id": "c-shiji-059-wuzong:m027-0070",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "幸臣為受寵近臣的敘述用稱，保留未分類與文獻用稱，不作正式官名或授官事件；起訖未知，不以相鄰王年補任期。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -19,6 +62,14 @@
       "paragraph_id": "c-shiji-012-wudi:p021",
       "count": 2,
       "quote": "推筴，後率二十歲得朔旦冬至，凡二十推，三百八十年。黃帝僊登于天。」卿因所忠欲奏之。所忠視其書不經，疑其妄書，謝曰：「寶鼎事已決矣，尚何以為！」卿因嬖人奏之。上大說，召問卿。對曰：「受此書申功，申功已死。」上曰：「申功何人也？」卿曰：「申功，齊人也。與安期生通，受黃帝言，無書"
+    },
+    {
+      "number": 59,
+      "category": "shijia",
+      "title": "五宗世家第二十九",
+      "paragraph_id": "c-shiji-059-wuzong:p027",
+      "count": 1,
+      "quote": "族。距怨王，乃上書告王齊與同產姦。自是之後，王齊數上書告言漢公卿及幸臣所忠等。"
     },
     {
       "number": 103,
@@ -60,6 +111,30 @@
           "editorial_readings": [],
           "extraction_note": "去除正文區塊內嵌style內容，保留同段史文；保留行內校勘符號及公玊帶等原字。",
           "note": "固定版本與實讀HTML一致；未核底本、影像或本紀傳承研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-059-wuzong",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-059",
+      "source_id": "s-shiji-059-wuzong",
+      "source": {
+        "title": "史記／卷059",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷059",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷059&oldid=2621125",
+        "revision_id": 2621125,
+        "accessed_on": "2026-10-09",
+        "extent": "38段篇文及1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留河閒、閼于／閼於、取笔、皁、上（問）［聞］、棁、王後／王后、壖、卑溼、禔與浡等見證原字及符號。取笔中的笔為數位見證所見，不默改為其他版本。",
+          "note": "全39段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
         }
       }
     },
@@ -117,7 +192,96 @@
     "gns_w0b_kfj": "所忠"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji117-suozhong-wuzong",
+      "person_ids": [
+        "gns_w0b_kfj"
+      ],
+      "canonical_person_id": "gns_w0b_kfj",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-059-wuzong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p056",
+          "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m056-0042",
+            "c-shiji-117-xiangru:m056-0124",
+            "c-shiji-117-xiangru:m056-0127"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p027",
+          "quote": "十二年卒，子齊立為王。齊有幸臣桑距。已而有罪，欲誅距，距亡，王因禽其宗族。距怨王，乃上書告王齊與同產姦。自是之後，王齊數上書告言漢公卿及幸臣所忠等。",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m027-0070"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷24下·顏師古釋所忠姓名與跨篇同人",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_024.txt#L880",
+          "quote": "(言平民矣晉灼曰中國被敎齊整之民也師古曰所姓/也忠名也武帝之近臣郊祀志云公孫卿因所忠言寶)¶\n(鼎石慶傳云欲請詔近臣所忠廣川王傳云言漢公卿/及幸臣所忠司馬相如傳云所忠往取書考其蹤迹此)¶\n<pb:KR2a0007_WYG_024-49b>¶\n(並一人也而說者或以為所忠信之/人此釋大謬齊等之義如說是也)廼徵諸犯令相引¶",
+          "scope": "ancient_commentary_name_and_identity",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "4bec54e69ea3d177d511389a28981b85aead48ea",
+          "response_sha256": "7e412e2c99ee582169a187be6e6a470ce614567746e19581b0d732e6ef7bef8c",
+          "verified_extent": {
+            "start_line": 873,
+            "end_line": 886
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "兩篇明稱所忠；顏師古在食貨志明釋所姓忠名，並逐舉郊祀、石慶、廣川王及相如取書之所忠為一人。據此接合五宗篇所忠與既有跨篇人物，不把所忠誤作所忠信之人，亦不把近臣幸臣當正式官名或補任期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "gns_w0b_kfj",
+      "title": null,
+      "surname": "所",
+      "ming": "忠",
+      "additional_names": [],
+      "chapter_id": "c-shiji-117-xiangru",
+      "paragraph_id": "c-shiji-117-xiangru:p056",
+      "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
+      "references": [
+        {
+          "title": "《漢書》卷24下·顏師古釋所忠姓名與跨篇同人",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_024.txt#L880",
+          "quote": "(言平民矣晉灼曰中國被敎齊整之民也師古曰所姓/也忠名也武帝之近臣郊祀志云公孫卿因所忠言寶)¶\n(鼎石慶傳云欲請詔近臣所忠廣川王傳云言漢公卿/及幸臣所忠司馬相如傳云所忠往取書考其蹤迹此)¶\n<pb:KR2a0007_WYG_024-49b>¶\n(並一人也而說者或以為所忠信之/人此釋大謬齊等之義如說是也)廼徵諸犯令相引¶",
+          "scope": "ancient_commentary_name_and_identity",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "4bec54e69ea3d177d511389a28981b85aead48ea",
+          "response_sha256": "7e412e2c99ee582169a187be6e6a470ce614567746e19581b0d732e6ef7bef8c",
+          "verified_extent": {
+            "start_line": 873,
+            "end_line": 886
+          },
+          "image_verified": false
+        }
+      ],
+      "note": "姓所名忠依顏師古明文，不由字數截取；忠的省稱限本篇取書敘事。近臣、幸臣不在此拆作正式官稱，未補任官或生卒年份。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "gns_w0b_kfj"
   ],

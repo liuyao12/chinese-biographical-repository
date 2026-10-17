@@ -1151,7 +1151,7 @@
         "c-shiji-005-qin"
       ],
       "status": "contextual_provisional",
-      "confidence_level": "moderate",
+      "confidence_level": "high",
       "evidence": [
         {
           "chapter_id": "c-shiji-117-xiangru",
@@ -1173,11 +1173,27 @@
           ]
         }
       ],
-      "rationale": "以力稱烏獲，秦本紀亦記武王力士烏獲。依專名及力士語境暫接，未有共同事件，信心中等。 僅接所列錨點的指涉，典故、比喻及神話敘事不是當代活動見證；不補生卒、官爵日期、親屬或出獵事件，原文與傳說層保留。",
+      "rationale": "以力稱烏獲，顏師古明釋秦武王力士，與秦本紀武王時力士烏獲相合。古注與正文分存，不把比喻當共同出獵事件，不補任官、生卒或世系。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
-      "identity_materialized": true
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ]
     },
     {
       "id": "eq-shiji117-allusion-ershi",
@@ -1224,6 +1240,243 @@
         }
       ],
       "rationale": "哀二世行失、亡國失埶及宗廟滅絕的秦亡語境，接秦始皇本紀明文太子胡亥襲位為二世皇帝。僅辨吊古對象，不由此推死亡年、墓址或漢帝出行年份；不合併其他篇的二世候選。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji117-strength-mengben",
+      "person_ids": [
+        "dwv_5hn_680"
+      ],
+      "canonical_person_id": "dwv_5hn_680",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-070-zhang"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "相如口吃而善著書。常有消渴疾。與卓氏婚，饒於財。其進仕宦，未嘗肯與公卿國家之事，稱病間居，不慕官爵。常從上至長楊獵，是時天子方好自擊熊彘，馳逐野獸，相如上疏諫之。其辭曰：\n臣聞物有同類而殊能者，故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。今陛下好陵阻險，射猛獸，卒然遇軼材之獸，駭不存之地，犯屬車之清塵，輿不及還轅，人不暇施巧，雖有烏獲、逢蒙之伎，力不得用，枯木朽株盡為害矣。是胡越起於轂下，而羌夷接軫也，豈不殆哉！雖萬全無患，然本非天子之所宜近也。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0110"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p034",
+          "quote": "張儀去楚，因遂之韓，說韓王曰：「韓地險惡山居，五穀所生，非菽而麥，民之食大抵飯菽飯藿羹。一歲不收，民不饜糟糠。地不過九百里，無二歲之食。料大王之卒，悉之不過三十萬，而廝徒負養在其中矣。除守徼亭鄣塞，見卒不過二十萬而已矣。秦帶甲百餘萬，車千乘，騎萬匹，虎賁之士跿跔科頭貫頤奮戟者，至不可勝計。秦馬之良，戎兵之眾，探前趹後蹄閒三尋騰者，不可勝數。山東之士被甲蒙胄以會戰，秦人捐甲徒裼以趨敵，左挈人頭，右挾生虜。夫秦卒與山東之卒，猶孟賁之與怯夫；以重力相壓，猶烏獲之與嬰兒。夫戰孟賁、烏獲之士以攻不服之弱國，無異垂千鈞之重於鳥卵之上，必無幸矣。",
+          "mention_ids": [
+            "c-shiji-070-zhang:m034-0213",
+            "c-shiji-070-zhang:m034-0236"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇勇士省稱賁依顏師古注接孟賁；另一篇具名勇力比喻支持指涉。古注、正文與比喻層分存，不據此建立共同出獵、死亡年或任官事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji117-strength-xiayu",
+      "person_ids": [
+        "66l_m67_5ie"
+      ],
+      "canonical_person_id": "66l_m67_5ie",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-079-fancai"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "相如口吃而善著書。常有消渴疾。與卓氏婚，饒於財。其進仕宦，未嘗肯與公卿國家之事，稱病間居，不慕官爵。常從上至長楊獵，是時天子方好自擊熊彘，馳逐野獸，相如上疏諫之。其辭曰：\n臣聞物有同類而殊能者，故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。今陛下好陵阻險，射猛獸，卒然遇軼材之獸，駭不存之地，犯屬車之清塵，輿不及還轅，人不暇施巧，雖有烏獲、逢蒙之伎，力不得用，枯木朽株盡為害矣。是胡越起於轂下，而羌夷接軫也，豈不殆哉！雖萬全無患，然本非天子之所宜近也。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0112"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p013",
+          "quote": "秦王屏左右，宮中虛無人。秦王跽而請曰：「先生何以幸教寡人？」范睢曰：「唯唯。」有閒，秦王復跽而請曰：「先生何以幸教寡人？」范睢曰：「唯唯。」若是者三。秦王跽曰：「先生卒不幸教寡人邪？」范睢曰：「非敢然也。臣聞昔者呂尚之遇文王也，身為漁父而釣於渭濱耳。若是者，交疏也。已說而立為太師，載與俱歸者，其言深也。故文王遂收功於呂尚而卒王天下。鄉使文王疏呂尚而不與深言，是周無天子之德，而文武無與成其王業也。今臣羈旅之臣也，交疏於王，而所願陳者皆匡君之事，處人骨肉之閒，願效愚忠而未知王之心也。此所以王三問而不敢對者也。臣非有畏而不敢言也。臣知今日言之於前而明日伏誅於後，然臣不敢避也。大王信行臣之言，死不足以為臣患，亡不足以為臣憂，漆身為厲被髪為狂不足以為臣恥。且以五帝之聖焉而死，三王之仁焉而死，五伯之賢焉而死，烏獲、任鄙之力焉而死，成荊、孟賁、王慶忌、夏育之勇焉而死。死者，人之所必不免也。處必然之勢，可以少有補於秦，此臣之所大願也，臣又何患哉！伍子胥橐載而出昭關，夜行晝伏，至於陵水，無以糊其口，厀行蒲伏，稽首肉袒，鼓腹吹篪，乞食於吳市，卒興吳國，闔閭為伯。使臣得盡謀如伍子胥，加之以幽囚，終身不復見，是臣之說行也，臣又何憂？箕子、接輿漆身為厲，被髪為狂，無益於主。假使臣得同行於箕子，可以有補於所賢之主，是臣之大榮也，臣有何恥？臣之所恐者，獨恐臣死之後，天下見臣之盡忠而身死，因以是杜口裹足，莫肯鄉秦耳。足下上畏太后之嚴，下惑於姦臣之態，居深宮之中，不離阿保之手，終身迷惑，無與昭姦。大者宗廟滅覆，小者身以孤危，此臣之所恐耳。若夫窮辱之事，死亡之患，臣不敢畏也。臣死而秦治，是臣死賢於生。」秦王跽曰：「先生是何言也！夫秦國辟遠，寡人愚不肖，先生乃幸辱至於此，是天以寡人慁先生而存先王之宗廟也。寡人得受命於先生，是天所以幸先王，而不棄其孤也。先生柰何而言若是！事無小大，上及太后，下至大臣，願先生悉以教寡人，無疑寡人也。」范睢拜，秦王亦拜。",
+          "mention_ids": [
+            "c-shiji-079-fancai:m013-0374"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇勇士省稱育依顏師古注接夏育；另一篇具名勇力比喻支持指涉。古注、正文與比喻層分存，不據此建立共同出獵、死亡年或任官事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji117-strength-qingji",
+      "person_ids": [
+        "n7l_j5p_4wl"
+      ],
+      "canonical_person_id": "n7l_j5p_4wl",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-079-fancai"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "相如口吃而善著書。常有消渴疾。與卓氏婚，饒於財。其進仕宦，未嘗肯與公卿國家之事，稱病間居，不慕官爵。常從上至長楊獵，是時天子方好自擊熊彘，馳逐野獸，相如上疏諫之。其辭曰：\n臣聞物有同類而殊能者，故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。今陛下好陵阻險，射猛獸，卒然遇軼材之獸，駭不存之地，犯屬車之清塵，輿不及還轅，人不暇施巧，雖有烏獲、逢蒙之伎，力不得用，枯木朽株盡為害矣。是胡越起於轂下，而羌夷接軫也，豈不殆哉！雖萬全無患，然本非天子之所宜近也。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0105"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p013",
+          "quote": "秦王屏左右，宮中虛無人。秦王跽而請曰：「先生何以幸教寡人？」范睢曰：「唯唯。」有閒，秦王復跽而請曰：「先生何以幸教寡人？」范睢曰：「唯唯。」若是者三。秦王跽曰：「先生卒不幸教寡人邪？」范睢曰：「非敢然也。臣聞昔者呂尚之遇文王也，身為漁父而釣於渭濱耳。若是者，交疏也。已說而立為太師，載與俱歸者，其言深也。故文王遂收功於呂尚而卒王天下。鄉使文王疏呂尚而不與深言，是周無天子之德，而文武無與成其王業也。今臣羈旅之臣也，交疏於王，而所願陳者皆匡君之事，處人骨肉之閒，願效愚忠而未知王之心也。此所以王三問而不敢對者也。臣非有畏而不敢言也。臣知今日言之於前而明日伏誅於後，然臣不敢避也。大王信行臣之言，死不足以為臣患，亡不足以為臣憂，漆身為厲被髪為狂不足以為臣恥。且以五帝之聖焉而死，三王之仁焉而死，五伯之賢焉而死，烏獲、任鄙之力焉而死，成荊、孟賁、王慶忌、夏育之勇焉而死。死者，人之所必不免也。處必然之勢，可以少有補於秦，此臣之所大願也，臣又何患哉！伍子胥橐載而出昭關，夜行晝伏，至於陵水，無以糊其口，厀行蒲伏，稽首肉袒，鼓腹吹篪，乞食於吳市，卒興吳國，闔閭為伯。使臣得盡謀如伍子胥，加之以幽囚，終身不復見，是臣之說行也，臣又何憂？箕子、接輿漆身為厲，被髪為狂，無益於主。假使臣得同行於箕子，可以有補於所賢之主，是臣之大榮也，臣有何恥？臣之所恐者，獨恐臣死之後，天下見臣之盡忠而身死，因以是杜口裹足，莫肯鄉秦耳。足下上畏太后之嚴，下惑於姦臣之態，居深宮之中，不離阿保之手，終身迷惑，無與昭姦。大者宗廟滅覆，小者身以孤危，此臣之所恐耳。若夫窮辱之事，死亡之患，臣不敢畏也。臣死而秦治，是臣死賢於生。」秦王跽曰：「先生是何言也！夫秦國辟遠，寡人愚不肖，先生乃幸辱至於此，是天以寡人慁先生而存先王之宗廟也。寡人得受命於先生，是天所以幸先王，而不棄其孤也。先生柰何而言若是！事無小大，上及太后，下至大臣，願先生悉以教寡人，無疑寡人也。」范睢拜，秦王亦拜。",
+          "mention_ids": [
+            "c-shiji-079-fancai:m013-0370"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        },
+        {
+          "title": "《史記集解》卷79引《吳越春秋》釋慶忌",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_079.txt#L94",
+          "quote": "任鄙之力焉而死成荆(徐廣曰/一作羌)孟賁(許慎曰成荆古/勇士孟賁衛人)王¶\n慶忌(呉越春秋曰呉/王僚子慶忌)夏育(漢書音義曰或云夏/育衛人力舉千鈞)之勇焉¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "8d52b375575b9bbc5f84e02571ef9ae09e1b47e1",
+          "response_sha256": "b0cdf9b2825b1cd593a6bb9e8f56a7e2dd32f1f367023fe63184f3769142d18c",
+          "verified_extent": {
+            "start_line": 80,
+            "end_line": 96
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "兩篇均以古勇士為喻，《集解》引吳越春秋及顏師古均釋慶忌為吳王僚子，故接王慶忌與慶忌。王字保留來源原稱，不拆作姓氏；父子古注暫列來源主張參考，不冒作本篇正文已明父名，不接漢代儒者闕門慶忌。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji117-suozhong-wuzong",
+      "person_ids": [
+        "gns_w0b_kfj"
+      ],
+      "canonical_person_id": "gns_w0b_kfj",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-059-wuzong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p056",
+          "quote": "相如既病免，家居茂陵。天子曰：「司馬相如病甚，可往從悉取其書；若不然，後失之矣。」使所忠往，而相如已死，家無書。問其妻，對曰：「長卿固未嘗有書也。時時著書，人又取去，即空居。長卿未死時，為一卷書，曰有使者來求書，奏之。無他書。」其遺劄書言封禪事，奏所忠。忠奏其書，天子異之。其書曰：",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m056-0042",
+            "c-shiji-117-xiangru:m056-0124",
+            "c-shiji-117-xiangru:m056-0127"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p027",
+          "quote": "十二年卒，子齊立為王。齊有幸臣桑距。已而有罪，欲誅距，距亡，王因禽其宗族。距怨王，乃上書告王齊與同產姦。自是之後，王齊數上書告言漢公卿及幸臣所忠等。",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m027-0070"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷24下·顏師古釋所忠姓名與跨篇同人",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_024.txt#L880",
+          "quote": "(言平民矣晉灼曰中國被敎齊整之民也師古曰所姓/也忠名也武帝之近臣郊祀志云公孫卿因所忠言寶)¶\n(鼎石慶傳云欲請詔近臣所忠廣川王傳云言漢公卿/及幸臣所忠司馬相如傳云所忠往取書考其蹤迹此)¶\n<pb:KR2a0007_WYG_024-49b>¶\n(並一人也而說者或以為所忠信之/人此釋大謬齊等之義如說是也)廼徵諸犯令相引¶",
+          "scope": "ancient_commentary_name_and_identity",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "4bec54e69ea3d177d511389a28981b85aead48ea",
+          "response_sha256": "7e412e2c99ee582169a187be6e6a470ce614567746e19581b0d732e6ef7bef8c",
+          "verified_extent": {
+            "start_line": 873,
+            "end_line": 886
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "兩篇明稱所忠；顏師古在食貨志明釋所姓忠名，並逐舉郊祀、石慶、廣川王及相如取書之所忠為一人。據此接合五宗篇所忠與既有跨篇人物，不把所忠誤作所忠信之人，亦不把近臣幸臣當正式官名或補任期。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,

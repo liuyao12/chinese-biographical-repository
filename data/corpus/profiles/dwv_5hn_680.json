@@ -43,6 +43,14 @@
       "paragraph_id": "c-shiji-101-yuanchao:p005",
       "count": 1,
       "quote": "之，過曾參孝遠矣。夫諸呂用事，大臣專制，然陛下從代乘六傳馳不測之淵，雖賁育之勇不及陛下。陛下至代邸，西向讓天子位者再，南面讓天子位者三。夫許由一讓，而陛下五以天下讓，過許由四矣。且陛下遷淮南王，欲以苦其志，使改過，有司衛不謹，故病死。」於是上乃解，曰：「將柰何？」盎曰：「"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p045",
+      "count": 1,
+      "quote": "如上疏諫之。其辭曰：\n臣聞物有同類而殊能者，故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。今陛下好陵阻險，射猛獸，卒然遇軼材之獸，駭不存之地，犯屬車之清塵，輿不及還轅，人不暇施巧，雖有烏獲、逢蒙之伎，力不得用，枯木朽株盡為害矣。是胡越起於轂下，而羌夷"
     }
   ],
   "table_occurrences": [],
@@ -198,6 +206,30 @@
           "note": "全23段已核讀；無tooltip、reference、del、s0或sup；未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -329,6 +361,62 @@
           "note": "一個合稱分為兩名古勇士，各字各連人物；未核書影。"
         }
       ]
+    },
+    {
+      "id": "eq-shiji117-strength-mengben",
+      "person_ids": [
+        "dwv_5hn_680"
+      ],
+      "canonical_person_id": "dwv_5hn_680",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-117-xiangru",
+        "c-shiji-070-zhang"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p045",
+          "quote": "相如口吃而善著書。常有消渴疾。與卓氏婚，饒於財。其進仕宦，未嘗肯與公卿國家之事，稱病間居，不慕官爵。常從上至長楊獵，是時天子方好自擊熊彘，馳逐野獸，相如上疏諫之。其辭曰：\n臣聞物有同類而殊能者，故力稱烏獲，捷言慶忌，勇期賁、育。臣之愚，竊以為人誠有之，獸亦宜然。今陛下好陵阻險，射猛獸，卒然遇軼材之獸，駭不存之地，犯屬車之清塵，輿不及還轅，人不暇施巧，雖有烏獲、逢蒙之伎，力不得用，枯木朽株盡為害矣。是胡越起於轂下，而羌夷接軫也，豈不殆哉！雖萬全無患，然本非天子之所宜近也。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m045-0110"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-070-zhang",
+          "source_id": "s-shiji-070-zhang",
+          "paragraph_id": "c-shiji-070-zhang:p034",
+          "quote": "張儀去楚，因遂之韓，說韓王曰：「韓地險惡山居，五穀所生，非菽而麥，民之食大抵飯菽飯藿羹。一歲不收，民不饜糟糠。地不過九百里，無二歲之食。料大王之卒，悉之不過三十萬，而廝徒負養在其中矣。除守徼亭鄣塞，見卒不過二十萬而已矣。秦帶甲百餘萬，車千乘，騎萬匹，虎賁之士跿跔科頭貫頤奮戟者，至不可勝計。秦馬之良，戎兵之眾，探前趹後蹄閒三尋騰者，不可勝數。山東之士被甲蒙胄以會戰，秦人捐甲徒裼以趨敵，左挈人頭，右挾生虜。夫秦卒與山東之卒，猶孟賁之與怯夫；以重力相壓，猶烏獲之與嬰兒。夫戰孟賁、烏獲之士以攻不服之弱國，無異垂千鈞之重於鳥卵之上，必無幸矣。",
+          "mention_ids": [
+            "c-shiji-070-zhang:m034-0213",
+            "c-shiji-070-zhang:m034-0236"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《漢書》卷57下·顏師古釋烏獲、慶忌、賁育",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L848",
+          "quote": "其辭曰臣聞物有同類而殊能者故力稱烏獲㨗言慶¶\n忌(師古曰烏獲秦武王力士也慶/忌吳王僚子也射能㨗矢也)勇期賁育(師古曰孟/賁古之勇)¶\n(士也水行不避蛟龍陸行不避豺狼/發怒吐氣聲響動天夏育亦猛士也)臣之愚竊以為人¶",
+          "scope": "ancient_commentary_identification",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "cd7ede101cb8268da5b471d2632d512a1255f22e90b850c326162b8ed516c8ee",
+          "verified_extent": {
+            "start_line": 721,
+            "end_line": 850
+          },
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇勇士省稱賁依顏師古注接孟賁；另一篇具名勇力比喻支持指涉。古注、正文與比喻層分存，不據此建立共同出獵、死亡年或任官事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ],
   "name_components": [],

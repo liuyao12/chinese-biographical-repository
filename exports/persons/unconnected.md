@@ -1060,7 +1060,6 @@
 | `86x_xyw_vsx` | 雍巫 | [《史記・齊太公世家》][18] | [JSON](86x_xyw_vsx.json) |
 | `87n_vk2_1ig` | 李少君 | [《史記・孝武本紀》][16] | [JSON](87n_vk2_1ig.json) |
 | `87t_93a_gy8` | 聶翁壹 | [《史記・韓長孺列傳》][94] | [JSON](87t_93a_gy8.json) |
-| `87x_kxf_d86` | 所忠 | [《史記・五宗世家》][45] | [JSON](87x_kxf_d86.json) |
 | `881_5eh_yg3` | 老子 | [《史記・日者列傳》][113] | [JSON](881_5eh_yg3.json) |
 | `883_auv_cl0` | 姬宋（燕惠公所寵） | [《史記・燕召公世家》][20] | [JSON](883_auv_cl0.json) |
 | `883_mfp_qi1` | 曹姓（陸終子稱） | [《史記・楚世家》][26] | [JSON](883_mfp_qi1.json) |
@@ -1169,7 +1168,6 @@
 | `8zj_5p3_i5y` | 夏桀 | [《史記・孫子吳起列傳》][51] | [JSON](8zj_5p3_i5y.json) |
 | `8zs_p2x_twj` | 臧文仲 | [《史記・仲尼弟子列傳》][53] | [JSON](8zs_p2x_twj.json) |
 | `903_9bw_83a` | 少妾（陳哀公勝母） | [《史記・陳杞世家》][22] | [JSON](903_9bw_83a.json) |
-| `903_fwd_xdq` | 慶忌 | [《史記・司馬相如列傳》][103] | [JSON](903_fwd_xdq.json) |
 | `905_rao_ff0` | 下瀨將軍 | [《史記・東越列傳》][100] | [JSON](905_rao_ff0.json) |
 | `90i_ym7_hnz` | 建德 | [《史記・楚元王世家》][36] | [JSON](90i_ym7_hnz.json) |
 | `90m_2uj_bu6` | 附沮（楚篇祖系） | [《史記・楚世家》][26] | [JSON](90m_2uj_bu6.json) |
@@ -2203,6 +2201,7 @@
 | `gz0_xuu_ont` | 樂毅 | [《史記・樂毅列傳》][66] | [JSON](gz0_xuu_ont.json) |
 | `gz1_n2k_xs6` | 太史公（韓世家論贊敘述者） | [《史記・韓世家》][31] | [JSON](gz1_n2k_xs6.json) |
 | `gza_lsj_fvb` | 布（襲荊吳） | [《史記・太史公自序》][116] | [JSON](gza_lsj_fvb.json) |
+| `gze_eo7_lon` | 孟公綽 | [《史記・仲尼弟子列傳》][53] | [JSON](gze_eo7_lon.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt
