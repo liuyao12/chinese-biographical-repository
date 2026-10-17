@@ -1335,7 +1335,6 @@
 | `9v9_kk6_129` | 高祖 | [《史記・龜策列傳》][113] | [JSON](9v9_kk6_129.json) |
 | `9ve_k4b_qrj` | 晏子 | [《史記・太史公自序》][115] | [JSON](9ve_k4b_qrj.json) |
 | `9vi_vgi_e15` | 景公（宋） | [《史記・太史公自序》][115] | [JSON](9vi_vgi_e15.json) |
-| `9w0_e8e_sdf` | 南越王（未名，北闕懸首所指） | [《史記・匈奴列傳》][95] | [JSON](9w0_e8e_sdf.json) |
 | `9w2_rfm_964` | 羊斟 | [《史記・鄭世家》][27] | [JSON](9w2_rfm_964.json) |
 | `9wa_bax_nos` | 昭侯（韓） | [《史記・太史公自序》][115] | [JSON](9wa_bax_nos.json) |
 | `9wg_gdm_8pd` | 亭長未名 | [《史記・淮陰侯列傳》][77] | [JSON](9wg_gdm_8pd.json) |
@@ -2138,7 +2137,6 @@
 | `fyj_7r5_9ws` | 許由 | [《史記・滑稽列傳》][111] | [JSON](fyj_7r5_9ws.json) |
 | `fym_r2o_5u0` | 張釋之 | [《史記・太史公自序》][115] | [JSON](fym_r2o_5u0.json) |
 | `fyu_tcg_kev` | 翟后 | [《史記・匈奴列傳》][95] | [JSON](fyu_tcg_kev.json) |
-| `fyv_cvv_y5b` | 李廣利 | [《史記・匈奴列傳》][95] | [JSON](fyv_cvv_y5b.json) |
 | `fyw_e6a_8dl` | 公孫弘後母（未名） | [《史記・平津侯主父列傳》][97] | [JSON](fyw_e6a_8dl.json) |
 | `fze_new_7ft` | 衡胡 | [《史記・儒林列傳》][106] | [JSON](fze_new_7ft.json) |
 | `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][25] | [JSON](fzk_mr8_bej.json) |
@@ -2209,6 +2207,8 @@
 | `ggw_ogf_emc` | 桀 | [《史記・留侯世家》][40] | [JSON](ggw_ogf_emc.json) |
 | `gh2_5l2_341` | 禹 | [《史記・司馬相如列傳》][102] | [JSON](gh2_5l2_341.json) |
 | `ghj_5dg_gu1` | 會人（陸終子） | [《史記・楚世家》][25] | [JSON](ghj_5dg_gu1.json) |
+| `ghk_av2_9f8` | 公之魚 | [《史記・孔子世家》][32] | [JSON](ghk_av2_9f8.json) |
+| `ghq_hdt_7iz` | 子結（楚昭王弟） | [《史記・楚世家》][25] | [JSON](ghq_hdt_7iz.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

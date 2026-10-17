@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][25] | [JSON](xbl_kip_rw4.json) |
-| `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][34] | [JSON](xbm_dvk_k14.json) |
-| `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][29] | [JSON](xcs_h9s_rgw.json) |
-| `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][18] | [JSON](xcv_pkj_crw.json) |
-| `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][52] | [JSON](xcz_sby_ker.json) |
 | `xd0_yc1_jd5` | 齊太史（崔杼弒君書者未名） | [《史記・齊太公世家》][17] | [JSON](xd0_yc1_jd5.json) |
 | `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][33] | [JSON](xd1_b6x_v7v.json) |
 | `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][52] | [JSON](xd1_no8_2ar.json) |
