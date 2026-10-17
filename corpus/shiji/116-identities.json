@@ -75,6 +75,60 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji116-nanyue-king-hu",
+      "person_id": "bvb_d1z_fd0_*A",
+      "surfaces": [
+        "南越王",
+        "胡"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-116-xinanyi",
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "parallel_event",
+        "target_mention_ids": [
+          "c-shiji-116-xinanyi:m003-0156"
+        ],
+        "same_event": "閩越王郢侵南越、漢發兵、餘善殺郢",
+        "excluded_person_ids": [
+          "bvb_d1z_fd0",
+          "bvb_d1z_fd0_*AA"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-116-xinanyi:p003",
+          "quote": "建元六年，大行王恢擊東越，東越殺王郢以報。恢因兵威使番陽令唐蒙風指曉南越。南越食蒙蜀枸醬，蒙問所從來，曰「道西北牂柯，牂柯江廣數里，出番禺城下」。蒙歸至長安，問蜀賈人，賈人曰：「獨蜀出枸醬，多持竊出市夜郎。夜郎者，臨牂柯江，江廣百餘步，足以行船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易甚。」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往喻，皆如南夷，為置一都尉，十餘縣，屬蜀。"
+        },
+        {
+          "paragraph_id": "c-shiji-113-nanyue:p004",
+          "quote": "佗孫胡為南越王。此時閩越王郢興兵擊南越邊邑，胡使人上書曰：「兩越俱為藩臣，毋得擅興兵相攻擊。今閩越興兵侵臣，臣不敢興兵，唯天子詔之。」於是天子多南越義，守職約，為興師，遣兩將軍往討閩越。兵未踰嶺，閩越王弟餘善殺郢以降，於是罷兵。"
+        },
+        {
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·南越列傳》尉佗卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+          "paragraph_id": "c-shiji-113-nanyue:p003",
+          "quote": "至建元四年卒。",
+          "scope": "received_predecessor_death_before_campaign",
+          "image_verified": false
+        }
+      ],
+      "rationale": "唐蒙上書承建元六年討越、郢被殺的同一敘事。南越篇先記尉佗建元四年卒，次記佗孫胡為南越王、郢侵邊及被餘善殺，隨後又明稱胡；故此泛稱接胡，不接尉佗或後來的嬰齊。黃屋左纛不作另一姓名，不補授爵日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
