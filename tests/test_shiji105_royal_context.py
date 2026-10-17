@@ -4,7 +4,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 class RoyalContext(unittest.TestCase):
  def test_yangxu_person_references_do_not_split_place(self):
-  c=json.loads((ROOT/'corpus/shiji/105.json').read_text());ps={p['id']:p for p in c['paragraphs']};p=ps['c-shiji-105-bianque:p043'];h=[m for m in p['mentions']if m.get('person_id')=='jc7_nxq_532'];self.assertEqual([m['surface']for m in h],['侯','侯']);self.assertTrue(all(p['text'][m['end']:m['end']+1]!='國'for m in h));q=ps['c-shiji-105-bianque:p037'];self.assertTrue(any(m['surface']=='陽虛侯'and m.get('person_id')=='jc7_nxq_532'for m in q['mentions']))
+  c=json.loads((ROOT/'corpus/shiji/105.json').read_text());ps={p['id']:p for p in c['paragraphs']};p=ps['c-shiji-105-bianque:p043'];h=[m for m in p['mentions']if m.get('person_id')=='yqp_nlb_p1p_ABI'];self.assertEqual([m['surface']for m in h],['侯','侯']);self.assertTrue(all(p['text'][m['end']:m['end']+1]!='國'for m in h));q=ps['c-shiji-105-bianque:p037'];self.assertTrue(any(m['surface']=='陽虛侯'and m.get('person_id')=='yqp_nlb_p1p_ABI'for m in q['mentions']))
  def test_wu_king_is_resolved_only_for_scoped_candidate(self):
   c=json.loads((ROOT/'corpus/shiji/105.json').read_text());m=next(m for p in c['paragraphs']for m in p['mentions']if m['id']=='c-shiji-105-bianque:m043-0062');self.assertEqual(m['person_id'],'yqp_nlb_p1p_CA');persons=json.loads((ROOT/'registry/persons.json').read_text())['persons'];self.assertFalse(any(p['id']=='vhq_7q6_k1o'for p in persons));self.assertFalse((ROOT/'data/corpus/profiles/vhq_7q6_k1o.json').exists());self.assertFalse((ROOT/'exports/persons/vhq_7q6_k1o.json').exists())
  def test_six_persons_table_names_and_old_titles_are_individually_marked(self):

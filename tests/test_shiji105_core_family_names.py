@@ -6,7 +6,7 @@ class CoreFamilyNames(unittest.TestCase):
  def test_opening_persons_and_king_former_title(self):
   c=json.loads((ROOT/'corpus/shiji/105.json').read_text());ms=[m for p in c['paragraphs']for m in p['mentions']]
   for surface,pid in [('趙簡子','p4b_qf7_603_AA'),('董安于','t2m_90g_lng'),('秦穆公','y97_huh_vuz_AAAAA'),('公孫支','1ku_2ry_mri')]:self.assertTrue(any(m['surface']==surface and m.get('person_id')==pid for m in ms))
-  p=next(p for p in c['paragraphs']if p['id'].endswith('p037'));self.assertEqual(next(m['person_id']for m in p['mentions']if m['surface']=='齊王'),'jc7_nxq_532')
+  p=next(p for p in c['paragraphs']if p['id'].endswith('p037'));self.assertEqual(next(m['person_id']for m in p['mentions']if m['surface']=='齊王'),'yqp_nlb_p1p_ABI')
  def test_jin_family_chain_and_direct_daogong_are_shared(self):
   reg=json.loads((ROOT/'registry/persons.json').read_text());people={p['id']:p for p in reg['persons']}
   for child,parent in [('6di_ywz_ju4_AAAD','6di_ywz_ju4_AAA'),('6di_ywz_ju4_AAADA','6di_ywz_ju4_AAAD'),('6di_ywz_ju4_AAADAA','6di_ywz_ju4_AAADA'),('6di_ywz_ju4_AAADAAA','6di_ywz_ju4_AAADAA')]:self.assertEqual(people[child]['family_path']['parent_person_id'],parent)

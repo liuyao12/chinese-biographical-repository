@@ -6,17 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `whn_5w1_i1k` | 晏平仲 | [《史記・仲尼弟子列傳》][50] | [JSON](whn_5w1_i1k.json) |
-| `whn_b4z_p9v` | 燕噲 | [《史記・太史公自序》][113] | [JSON](whn_b4z_p9v.json) |
-| `whv_8wm_15e` | 孟説 | [《史記・趙世家》][26] | [JSON](whv_8wm_15e.json) |
-| `wie_ryy_5wa` | 子產 | [《史記・伍子胥列傳》][49] | [JSON](wie_ryy_5wa.json) |
-| `wir_j3b_dg1` | 市令（未名） | [《史記・循吏列傳》][102] | [JSON](wir_j3b_dg1.json) |
-| `wj3_oa7_o6b` | 杜信 | [《史記・扁鵲倉公列傳》][88] | [JSON](wj3_oa7_o6b.json) |
-| `wjf_wa5_eu9` | 彊（孝惠後宮子稱） | [《史記・漢興以來諸侯王年表》][118] | [JSON](wjf_wa5_eu9.json) |
-| `wjp_1iw_3qf` | 代王嘉 | [《史記・田敬仲完世家》][29] | [JSON](wjp_1iw_3qf.json) |
-| `wka_94j_2k5` | 少姬 | [《史記・管晏列傳》][45] | [JSON](wka_94j_2k5.json) |
-| `wkl_tds_yi3` | 子路 | [《史記・儒林列傳》][104] | [JSON](wkl_tds_yi3.json) |
-| `wkq_pb7_afj` | 管 | [《史記・淮南衡山列傳》][101] | [JSON](wkq_pb7_afj.json) |
 | `wl6_i22_vjk` | 類犴反 | [《史記・梁孝王世家》][41] | [JSON](wl6_i22_vjk.json) |
 | `wl7_s8c_f4l` | 晉定公 | [《史記・趙世家》][26] | [JSON](wl7_s8c_f4l.json) |
 | `wle_6pj_6oo` | 吳起被延公主 | [《史記・孫子吳起列傳》][48] | [JSON](wle_6pj_6oo.json) |
@@ -515,7 +504,6 @@
 [41]: https://zh.wikisource.org/w/index.php?title=史記/卷058&oldid=8735555
 [42]: https://zh.wikisource.org/w/index.php?title=史記/卷059&oldid=2621125
 [43]: https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290
-[45]: https://zh.wikisource.org/w/index.php?title=史記/卷062&oldid=7903600
 [46]: https://zh.wikisource.org/w/index.php?title=史記/卷063&oldid=7903601
 [48]: https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048
 [49]: https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138
