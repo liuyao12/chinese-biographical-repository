@@ -431,7 +431,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ## 原表同列分格父子
 
-`relationship_layout: first_holder_with_parent_label` 限明示父子。`table_cell_id`／`quote` 指父系欄原格，`subject_table_cell_id`／`subject_quote` 分別指同列首位持有人姓名原格及其全文，兩端各有 `object_mention_id`／`subject_mention_id`。必須同表同列固定來源，父系欄精確為該人物錨點加「子。」，姓名格為首位同人侯元年，較前持有人欄不得有文字，同格亦不得已有前任侯元年。不能從承爵順序、孫字或別列借父系。
+`relationship_layout: first_holder_with_parent_label` 限明示父子。`table_cell_id`／`quote` 指父系欄原格，`subject_table_cell_id`／`subject_quote` 分別指同列首位持有人姓名原格及其全文，兩端各有 `object_mention_id`／`subject_mention_id`。必須同表同列固定來源，父系欄精確為該人物錨點加「子。」，姓名格為首位同人侯元年，較前持有人欄不得有文字，同格亦不得已有前任侯元年。不能從承爵順序、孫字或別列借父系。 另接受父系欄精確作「以X子侯。」且X有從第一字以後開始的逐人錨點；這仍限同列首封者，不能泛化為以X孫侯、以X弟侯或任意授侯事由。
 
 據原表配置的 `family_path` 另須有相符 `source_assertion_id`、相同父子端點、原格證據與一代距離；缺少任何一項即拒絕。人物匯出及介面保留兩格原文、位置與返回連結，不將分格拼句當原文。
 
@@ -473,3 +473,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 候選人物 JSON 可附此項判讀及原段，供查閱候選依據；不將候選提及加入已採納 `mentions`、出現次數、`person_ids`、世系或生平。閱讀器在正文段落之外顯示「編者指稱判讀」，完整人物頁另顯示候選來源；姓名卡的簡要生平不混入異說。此欄位與 `unresolved_identity_cases` 分開，後者處理已具人物候選的身份待辨，不能迫使泛稱或神祇讀法只剩人物候選。
 
 神話生靈讀法用 `referent_kind: mythical_creature`，例如《漢書》顏師古解長離為靈鳥；與《集解》陸離神名讀法分存，不據此改寫本篇原字。此類讀法的 `candidate_person_ids` 必為空，不憑生靈稱呼建立人類世系。
+
+## 已辨明的非人物用字
+
+既有誤標可保留提及ID、位置與原字，改為 `kind: non_person`、`person_id: null`、`status: contextual_provisional`。`lexical_role` 目前支援 `verb` 與 `reciprocal_adverb`；`basis_quote` 須包含該次錨點及實際原文語境，另有判讀理由、代理署名及 `human_reviewed: false`。它與仍待辨識的人物分開，不能暗連人物或作品。XML 使用 `<seg type="non-person" subtype="…">`；閱讀器保留原錨點、原字及判讀說明，不畫人名底線或開人物卡。首例為〈淮南衡山列傳〉王濟北、王江北的王與數使使相交的相，不能按王、相單字全域套用。

@@ -751,7 +751,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 金王孫 | [《史記・外戚世家》][35] | [JSON](a7k_sl0_d7u.json) |
-| `A` | 修成君 | [《史記・外戚世家》][35] | [JSON](a7k_sl0_d7u_A.json) |
+| `A` | 修成君 | [《史記・外戚世家》][35]、[《史記・淮南衡山列傳》][104] | [JSON](a7k_sl0_d7u_A.json) |
 
 </details>
 
@@ -2641,7 +2641,7 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（122 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（123 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2742,12 +2742,13 @@
 | `AFAA` | 陵（淮南王女） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFAA.json) |
 | `AFAB` | 不害 | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFAB.json) |
 | `AFABA` | 建（不害子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFABA.json) |
-| `AFB` | 勃（劉長子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFB.json) |
-| `AFC` | 賜（劉長子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFC.json) |
+| `AFAC` | 淮南太子遷 | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFAC.json) |
+| `AFB` | 濟北王勃 | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFB.json) |
+| `AFC` | 衡山王賜 | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFC.json) |
 | `AFCA` | 爽（衡山太子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFCA.json) |
 | `AFCB` | 孝（衡山王子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFCB.json) |
 | `AFCC` | 無采 | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFCC.json) |
-| `AFD` | 良（劉長子） | [《史記・淮南衡山列傳》][104] | [JSON](yqp_nlb_p1p_AFD.json) |
+| `AFD` | 東城侯良 | [《史記・淮南衡山列傳》][104]、[《史記・惠景間侯者年表》][124] | [JSON](yqp_nlb_p1p_AFD.json) |
 | `AG` | 建（高祖子） | [《史記・高祖本紀》][12]、[《史記・呂太后本紀》][13]、[《史記・漢興以來諸侯王年表》][122] | [JSON](yqp_nlb_p1p_AG.json) |
 | `AH` | 如意（高祖子） | [《史記・呂太后本紀》][13] | [JSON](yqp_nlb_p1p_AH.json) |
 | `AI` | 魯元（本卷稱呼） | [《史記・呂太后本紀》][13] | [JSON](yqp_nlb_p1p_AI.json) |

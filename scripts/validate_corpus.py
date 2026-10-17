@@ -285,6 +285,12 @@ def validate(root=ROOT):
                         check(m['person_id'] in pids, '提及引用未知人物 ID')
                         check(any(ch.isalnum() for ch in m['surface']), '人物提及不得僅為標點或空白')
                     elif m['kind'] == 'unresolved': check(m['person_id'] is None and m['status']=='unresolved', '未定提及不得暗選人物')
+                    elif m['kind'] == 'non_person':
+                        try:
+                            from scripts.lexical_annotations import non_person_errors
+                        except ModuleNotFoundError:
+                            from lexical_annotations import non_person_errors
+                        errors.extend(non_person_errors(m, p['text']))
                     elif m['kind'] == 'work':
                         check(m.get('person_id') is None and m.get('work_id') in works and m.get('status') in ('source_explicit', 'contextual_provisional'), '著作提及須引用已登記著作且不得連人物')
                     else: check(False,'未知提及類型')
@@ -334,12 +340,13 @@ def validate(root=ROOT):
                 if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
-                check(all(e.tag in ('persName','rs','title') for e in x),'XML 含未知正文標籤')
+                check(all(e.tag in ('persName','rs','title','seg') for e in x),'XML 含未知正文標籤')
                 for e,m in zip(xm,p['mentions']):
                     check(e.get('id')==m['id'] and e.text==m['surface'], 'XML 提及錨點不符')
-                    check(e.tag==({'person':'persName','work':'title'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
+                    check(e.tag==({'person':'persName','work':'title','non_person':'seg'}.get(m['kind'], 'rs')), 'XML 提及類型不符')
                     check(e.get('ref')==(m.get('work_id') if m['kind']=='work' else m['person_id']), 'XML 人物或著作引用不符')
                     if m['kind']=='unresolved': check(e.get('type')=='unresolved','XML 未定類型不符')
+                    if m['kind']=='non_person': check(e.get('type')=='non-person' and e.get('subtype')==m.get('lexical_role'),'XML 非人物詞性不符')
         check(not set(chapters).intersection(table_chapters), '正文與表格篇ID不得重複')
         check(set(chapter_books)==set(chapters) | set(table_chapters), '著作目錄與文本篇清單不符')
         for wid, work in works.items():

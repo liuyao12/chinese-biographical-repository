@@ -70,3 +70,15 @@ test('profile source return validates work, book, chapter and recorded passage',
  params.set('passage','synthetic-forged');assert.equal(new URLSearchParams(profileSourceContext(p,params).href.split('#')[1]).get('passage'),'synthetic-p1');
  params.set('book','b-shiji-041');assert.equal(profileSourceContext(p,params),null);
 });
+
+test('non-person grammar keeps source anchors without unresolved styling or profile links',()=>{
+ const chapter=JSON.parse(readFileSync(new URL('../corpus/shiji/118.json',import.meta.url)));
+ const p=chapter.paragraphs.find(x=>x.id.endsWith(':p014')),html=chapterParagraph(p);
+ for(const id of ['m014-0163','m014-0191','m014-0201'])assert.match(html,new RegExp('<span id="c-shiji-118-huainan:'+id+'" class="cbr-non-person"'));
+ assert.match(html,/<a id="c-shiji-118-huainan:m014-0197"[^>]*data-person-id="yqp_nlb_p1p_AFC"/);
+ assert.equal(html.replace(/<[^>]*>/g,''),p.text);
+});
+test('non-person classification notes are escaped as inert text',()=>{
+ const html=chapterParagraph({id:'synthetic-p',text:'王',mentions:[{id:'synthetic-m',surface:'王',start:0,end:1,kind:'non_person',person_id:null,lexical_role:'verb',interpretation_note:'"<script>" & note'}]});
+ assert.match(html,/&quot;&lt;script&gt;&quot; &amp; note/);assert.doesNotMatch(html,/<script>|data-person-id|href=|unresolved-mention/);
+});

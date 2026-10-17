@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "a7k_sl0_d7u_A",
   "canonical_person_id": "a7k_sl0_d7u_A",
-  "label": "修成君（外戚世家候選）",
+  "label": "修成君",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -98,6 +98,14 @@
       "paragraph_id": "c-shiji-049-waiqi:p035",
       "count": 1,
       "quote": "謝曰：「為帝費焉。」於是召平陽主、南宮主、林慮主三人俱來謁見姊，因號曰修成君。有子男一人，女一人。男號為修成子仲，女為諸侯王王后。此二子非劉氏，以故太后憐之。修成子仲驕恣，陵折吏民，皆患苦之。"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p016",
+      "count": 1,
+      "quote": "南王几杖，不朝。淮南王王后荼，王愛幸之。王后生太子遷，遷取王皇太后外孫修成君女為妃。王謀為反具，畏太子妃知而內泄事，乃與太子謀，令詐弗愛，三月不同席。王乃詳為怒太子，閉太子使與妃同內三月，太子終不近妃。妃求去，王乃上書謝歸去之。王后荼、太子遷及女陵得愛幸王，擅國權，侵奪民田宅"
     }
   ],
   "table_occurrences": [],
@@ -123,6 +131,30 @@
           "editorial_readings": [],
           "extraction_note": "固定修訂與取得時HTML相同，只去段落外緣空白；保留（寒）［暮］、［及尊］、（子）［一］及號日等數位見證原字與校勘字樣。",
           "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
         }
       }
     }
@@ -190,12 +222,40 @@
       },
       "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-wife-mother",
+      "subject_person_id": "cb7_dmm_znn",
+      "predicate": "mother",
+      "object_person_id": "a7k_sl0_d7u_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "修成君女"
+      },
+      "interpretation_note": "修成君為妃母；女是遷妃，不把修成君錯列為王太后外孫，不補妃父親或姓氏。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
     "6d6_eg1_o3a_A": "王太后（外戚世家候選）",
     "a7k_sl0_d7u": "金王孫（外戚世家候選）",
-    "a7k_sl0_d7u_A": "修成君（外戚世家候選）",
+    "a7k_sl0_d7u_A": "修成君",
+    "cb7_dmm_znn": "修成君女",
     "yer_ylm_r9t": "修成子仲（外戚世家候選）"
   },
   "dates": [],
@@ -265,6 +325,33 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-wife-mother",
+      "subject_person_id": "cb7_dmm_znn",
+      "predicate": "mother",
+      "object_person_id": "a7k_sl0_d7u_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "修成君女"
+      },
+      "interpretation_note": "修成君為妃母；女是遷妃，不把修成君錯列為王太后外孫，不補妃父親或姓氏。",
       "reviewer": "Codex（AI 代理）"
     }
   ],

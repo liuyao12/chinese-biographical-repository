@@ -447,7 +447,9 @@ def first_holder_parent_errors(evidence, tables, subject, parent, predicate):
                 or cell['text'][mention['start']:mention['end']] != mention.get('surface')):
             return ['跨格父子端點須有精確逐人錨點']
         if cell is parent_cell:
-            if mention['start'] != 0 or cell['text'] != mention['surface'] + '子。':
+            direct_child = mention['start'] == 0 and cell['text'] == mention['surface'] + '子。'
+            enfeoffed_child = mention['start'] == 1 and cell['text'] == '以' + mention['surface'] + '子侯。'
+            if not (direct_child or enfeoffed_child):
                 return ['父系原格須明言該人之子，不得由祖孫或繼位改寫']
         else:
             prefix = cell['text'][:mention['start']]

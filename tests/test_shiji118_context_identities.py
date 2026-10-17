@@ -49,7 +49,9 @@ class HuainanContextIdentityTests(unittest.TestCase):
         self.assertIn('ixa_izg_wta',self.people)
         data=json.loads((ROOT/'corpus/shiji/118-identities.json').read_text())
         self.assertEqual(data['record_type'],'identity_decision_set')
-        hypothetical=[d for d in data['decisions'] if d['identification_basis']['hypothetical_accession_not_inferred']]
+        royal=[d for d in data['decisions'] if d['id'].startswith('d-shiji118-royal-context-')]
+        self.assertEqual(len(royal),3)
+        hypothetical=[d for d in royal if d['identification_basis']['hypothetical_accession_not_inferred']]
         self.assertEqual(len(hypothetical),2)
     def test_all_materialized_decisions_have_multiple_source_anchors(self):
         ds=json.loads((ROOT/'corpus/shiji/118-equivalences.json').read_text())['decisions']

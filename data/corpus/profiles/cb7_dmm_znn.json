@@ -2,13 +2,13 @@
   "schema_version": 1,
   "id": "cb7_dmm_znn",
   "canonical_person_id": "cb7_dmm_znn",
-  "label": "太子妃（修成君女）（淮南衡山列傳候選）",
+  "label": "修成君女",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "修成君女",
     "妃",
-    "太子妃"
+    "太子妃",
+    "女"
   ],
   "titles": [],
   "addresses": [],
@@ -19,7 +19,7 @@
       "title": "淮南衡山列傳第五十八",
       "paragraph_id": "c-shiji-118-huainan:p016",
       "count": 6,
-      "quote": "南王几杖，不朝。淮南王王后荼，王愛幸之。王后生太子遷，遷取王皇太后外孫修成君女為妃。王謀為反具，畏太子妃知而內泄事，乃與太子謀，令詐弗愛，三月不同席。王乃詳為怒太子，閉太子使與妃同內三月，太子終不近妃。妃求去，王乃上書謝歸去之。王后荼、太子遷及女陵得愛幸王，擅國權，侵奪民田宅，"
+      "quote": "杖，不朝。淮南王王后荼，王愛幸之。王后生太子遷，遷取王皇太后外孫修成君女為妃。王謀為反具，畏太子妃知而內泄事，乃與太子謀，令詐弗愛，三月不同席。王乃詳為怒太子，閉太子使與妃同內三月，太子終不近妃。妃求去，王乃上書謝歸去之。王后荼、太子遷及女陵得愛幸王，擅國權，侵奪民田宅，"
     }
   ],
   "table_occurrences": [],
@@ -49,16 +49,128 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-shiji118-qian-wife-mother",
+      "subject_person_id": "cb7_dmm_znn",
+      "predicate": "mother",
+      "object_person_id": "a7k_sl0_d7u_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "修成君女"
+      },
+      "interpretation_note": "修成君為妃母；女是遷妃，不把修成君錯列為王太后外孫，不補妃父親或姓氏。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-spouse",
+      "subject_person_id": "yqp_nlb_p1p_AFAC",
+      "predicate": "spouse",
+      "object_person_id": "cb7_dmm_znn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "遷取王皇太后外孫修成君女為妃"
+      },
+      "interpretation_note": "只記曾有婚姻；同段後敘謝歸去之，不假定婚姻延續至卒，不推婚期或離異年月。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "related_people": {
-    "cb7_dmm_znn": "太子妃（修成君女）（淮南衡山列傳候選）"
+    "a7k_sl0_d7u_A": "修成君",
+    "cb7_dmm_znn": "修成君女",
+    "yqp_nlb_p1p_AFAC": "淮南太子遷"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "cb7_dmm_znn"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-shiji118-qian-wife-mother",
+      "subject_person_id": "cb7_dmm_znn",
+      "predicate": "mother",
+      "object_person_id": "a7k_sl0_d7u_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "修成君女"
+      },
+      "interpretation_note": "修成君為妃母；女是遷妃，不把修成君錯列為王太后外孫，不補妃父親或姓氏。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-spouse",
+      "subject_person_id": "yqp_nlb_p1p_AFAC",
+      "predicate": "spouse",
+      "object_person_id": "cb7_dmm_znn",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p016",
+          "quote": "遷取王皇太后外孫修成君女為妃",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0070",
+            "c-shiji-118-huainan:m016-0072",
+            "c-shiji-118-huainan:m016-0078-mother",
+            "c-shiji-118-huainan:m016-0078",
+            "c-shiji-118-huainan:m016-0083"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "遷取王皇太后外孫修成君女為妃"
+      },
+      "interpretation_note": "只記曾有婚姻；同段後敘謝歸去之，不假定婚姻延續至卒，不推婚期或離異年月。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

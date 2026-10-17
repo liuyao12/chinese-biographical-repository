@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `h2o_6n8_bid` | 趙襄子姊 | [《史記・張儀列傳》][56] | [JSON](h2o_6n8_bid.json) |
-| `h3l_xit_ohp` | 佐弋竭 | [《史記・秦始皇本紀》][10] | [JSON](h3l_xit_ohp.json) |
 | `h3x_nrw_uay` | 徐偃王 | [《史記・秦本紀》][9] | [JSON](h3x_nrw_uay.json) |
 | `h40_rtd_6ut` | 樂池 | [《史記・秦本紀》][9] | [JSON](h40_rtd_6ut.json) |
 | `h4c_ia5_qoe` | 五大夫禮 | [《史記・秦本紀》][9] | [JSON](h4c_ia5_qoe.json) |
@@ -475,7 +473,7 @@
 | `kry_3b2_phg` | 孔子 | [《史記・田敬仲完世家》][32] | [JSON](kry_3b2_phg.json) |
 | `ksm_7il_w8n` | 鄴三老（未名） | [《史記・滑稽列傳》][112] | [JSON](ksm_7il_w8n.json) |
 | `ktv_rwx_hp3` | 叔齊 | [《史記・伯夷列傳》][47] | [JSON](ktv_rwx_hp3.json) |
-| `kuc_m3w_ux2` | 厲王母（未名） | [《史記・淮南衡山列傳》][104] | [JSON](kuc_m3w_ux2.json) |
+| `kuc_m3w_ux2` | 厲王母 | [《史記・淮南衡山列傳》][104] | [JSON](kuc_m3w_ux2.json) |
 | `kv5_qey_apg` | 系雩淺（匈奴列傳書信） | [《史記・匈奴列傳》][96] | [JSON](kv5_qey_apg.json) |
 | `kw9_rxv_wx3` | 叔孫輒 | [《史記・孔子世家》][33] | [JSON](kw9_rxv_wx3.json) |
 | `kwa_ew6_bz3` | 衛桓公（楚篇弒君記事） | [《史記・楚世家》][26] | [JSON](kwa_ew6_bz3.json) |
@@ -714,7 +712,7 @@
 | `mua_01m_5ng` | 齊宗女（重耳妻） | [《史記・晉世家》][25] | [JSON](mua_01m_5ng.json) |
 | `muc_6xp_2ap` | 楚王（韓世家雍氏議論未名者） | [《史記・韓世家》][31] | [JSON](muc_6xp_2ap.json) |
 | `muq_vzr_tlr` | 蘇代 | [《史記・穰侯列傳》][58] | [JSON](muq_vzr_tlr.json) |
-| `mux_1ix_zki` | 安（漢中尉） | [《史記・淮南衡山列傳》][104] | [JSON](mux_1ix_zki.json) |
+| `mux_1ix_zki` | 中尉安 | [《史記・淮南衡山列傳》][104] | [JSON](mux_1ix_zki.json) |
 | `mv4_r2m_38j` | 單于太子（被攻） | [《史記・大宛列傳》][109] | [JSON](mv4_r2m_38j.json) |
 | `mvb_r8o_83y` | 葛嬰 | [《史記・陳涉世家》][34] | [JSON](mvb_r8o_83y.json) |
 | `mvd_you_c2g` | 五大夫綰 | [《史記・范睢蔡澤列傳》][65] | [JSON](mvd_you_c2g.json) |
@@ -2208,11 +2206,11 @@
 | `yer_ylm_r9t` | 修成子仲 | [《史記・外戚世家》][35] | [JSON](yer_ylm_r9t.json) |
 | `yes_bzi_dhx` | 衞君（魏世家未名者） | [《史記・魏世家》][30] | [JSON](yes_bzi_dhx.json) |
 | `yfa_10s_1s3` | 馮唐 | [《史記・太史公自序》][116] | [JSON](yfa_10s_1s3.json) |
+| `yfx_myv_qft` | 子西 | [《史記・楚世家》][26] | [JSON](yfx_myv_qft.json) |
+| `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][57] | [JSON](yg1_ml2_61c.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `yfx_myv_qft` | 子西 | [《史記・楚世家》][26] | [JSON](yfx_myv_qft.json) |
-| `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][57] | [JSON](yg1_ml2_61c.json) |
 | `yg3_wq7_tpj` | 武王 | [《史記・貨殖列傳》][115] | [JSON](yg3_wq7_tpj.json) |
 | `ygk_y1u_niv` | 衛慶 | [《史記・淮南衡山列傳》][104] | [JSON](ygk_y1u_niv.json) |
 | `ygr_80w_wp2` | 嬖姬（陳宣公款母） | [《史記・陳杞世家》][22] | [JSON](ygr_80w_wp2.json) |
