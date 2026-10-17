@@ -17,7 +17,7 @@
 
 [第1頁](README.md)
 
-<details><summary><code>04o_yps_sg0</code> 張湯（汲鄭列傳候選）（2 名）</summary>
+<details><summary><code>04o_yps_sg0</code> 張湯（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -527,15 +527,6 @@
 |---|---|---|---|
 | `根` | 秦惠王 | [《史記・蘇秦列傳》][55] | [JSON](6oy_t19_ywe.json) |
 | `A` | 秦惠王女 | [《史記・蘇秦列傳》][55] | [JSON](6oy_t19_ywe_A.json) |
-
-</details>
-
-<details><summary><code>6r8_jki_snj</code> 趙兼（酷吏列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 趙兼 | [《史記・酷吏列傳》][108] | [JSON](6r8_jki_snj.json) |
-| `A` | 周陽由 | [《史記・酷吏列傳》][108] | [JSON](6r8_jki_snj_A.json) |
 
 </details>
 
@@ -2405,6 +2396,15 @@
 
 </details>
 
+<details><summary><code>xgx_g4a_c28</code> 趙兼（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 趙兼 | [《史記・孝文本紀》][14]、[《史記・淮南衡山列傳》][104]、[《史記・酷吏列傳》][108]、[《史記・惠景間侯者年表》][124] | [JSON](xgx_g4a_c28.json) |
+| `A` | 周陽由 | [《史記・酷吏列傳》][108] | [JSON](xgx_g4a_c28_A.json) |
+
+</details>
+
 <details><summary><code>xny_prn_zyi</code> 酈商（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2696,7 +2696,7 @@
 | `ACADA` | 庸 | [《史記・五宗世家》][45]、[《史記・漢興以來諸侯王年表》][122] | [JSON](yqp_nlb_p1p_ACADA.json) |
 | `ACADAA` | 鮒鮈 | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACADAA.json) |
 | `ACAE` | 乘 | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAE.json) |
-| `ACAF` | 廣川王（徙趙王未名） | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAF.json) |
+| `ACAF` | 趙王彭祖 | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAF.json) |
 | `ACAG` | 舜（景帝子） | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAG.json) |
 | `ACAGA` | 棁 | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAGA.json) |
 | `ACAGB` | 平 | [《史記・五宗世家》][45] | [JSON](yqp_nlb_p1p_ACAGB.json) |
