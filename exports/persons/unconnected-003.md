@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wq3_5dq_hx9` | 陳湣公 | [《史記・孔子世家》][32] | [JSON](wq3_5dq_hx9.json) |
-| `wqd_ft2_k5v` | 林胡王（趙世家未名者） | [《史記・趙世家》][28] | [JSON](wqd_ft2_k5v.json) |
-| `wqf_43e_laj` | 咎如長女（重耳狄妻） | [《史記・晉世家》][24] | [JSON](wqf_43e_laj.json) |
 | `wqs_z6j_lz7` | 子帶 | [《史記・匈奴列傳》][95] | [JSON](wqs_z6j_lz7.json) |
 | `wr1_5wr_sx5` | 張廷尉未詳名 | [《史記・張丞相列傳》][81] | [JSON](wr1_5wr_sx5.json) |
 | `wrh_7px_ox5` | 紂 | [《史記・趙世家》][28] | [JSON](wrh_7px_ox5.json) |
@@ -81,7 +78,6 @@
 | `xao_0ow_h3w` | 讓（列侯） | [《史記・淮南衡山列傳》][103] | [JSON](xao_0ow_h3w.json) |
 | `xbl_kip_rw4` | 申鮑胥（楚篇秦救使者） | [《史記・楚世家》][25] | [JSON](xbl_kip_rw4.json) |
 | `xbm_dvk_k14` | 末喜 | [《史記・外戚世家》][34] | [JSON](xbm_dvk_k14.json) |
-| `xch_o3n_p09` | 司馬遷 | [《史記・平津侯主父列傳》][97] | [JSON](xch_o3n_p09.json) |
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][29] | [JSON](xcs_h9s_rgw.json) |
 | `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][18] | [JSON](xcv_pkj_crw.json) |
 | `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][52] | [JSON](xcz_sby_ker.json) |

@@ -627,6 +627,77 @@
       "title": "齊襄公"
     }
   ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji110-qj2_k5a_sq4",
+      "person_ids": [
+        "qj2_k5a_sq4"
+      ],
+      "canonical_person_id": "qj2_k5a_sq4",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-110-xiongnu",
+        "c-shiji-032-qi"
+      ],
+      "rationale": "引詔齊襄公復九世之讎、春秋大之，與齊太公世家襄公時伐紀承接相合；公羊傳莊公四年明記齊滅紀、為襄公諱、哀公被紀侯譖及九世復讎，限定此春秋齊君。連到世家諸兒、襄公的同一人物，不按襄公諡號全域合併。九世為引文的復讎說，未新增九代父子或遠祖關係。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p057",
+          "quote": "漢既誅大宛，威震外國。天子意欲遂困胡，乃下詔曰：「高皇帝遺朕平城之憂，高后時單于書絕悖逆。昔齊襄公復九世之讎，春秋大之。」是歳太初四年也。",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m057-0046"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p025",
+          "quote": "四年，魯桓公與夫人如齊。齊襄公故嘗私通魯夫人。魯夫人者，襄公女弟也，自釐公時嫁為魯桓公婦，及桓公來而襄公復通焉。魯桓公知之，怒夫人，夫人以告齊襄公。齊襄公與魯君飲，醉之，使力士彭生抱上魯君車，因拉殺魯桓公，桓公下車則死矣。魯人以為讓，而齊襄公殺彭生以謝魯。",
+          "mention_ids": [
+            "c-shiji-032-qi:m025-0012",
+            "c-shiji-032-qi:m025-0028",
+            "c-shiji-032-qi:m025-0050",
+            "c-shiji-032-qi:m025-0070",
+            "c-shiji-032-qi:m025-0074",
+            "c-shiji-032-qi:m025-0118"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《春秋公羊傳》莊公四年復讎說",
+          "url": "https://zh.wikisource.org/wiki/春秋公羊傳/莊公",
+          "quote": "何賢乎襄公？復讎也。何讎爾？遠祖也。哀公亨乎周，紀侯譖之。",
+          "scope": "received_identification_context_not_verified_genealogy",
+          "image_verified": false
+        },
+        {
+          "title": "《春秋公羊傳》九世原詞",
+          "url": "https://zh.wikisource.org/wiki/春秋公羊傳/莊公",
+          "quote": "遠祖者，幾世乎？九世矣。",
+          "scope": "received_revenge_claim_not_added_generation_distance",
+          "image_verified": false
+        },
+        {
+          "title": "《史記・齊太公世家》襄公八年伐紀段",
+          "url": "https://github.com/liuyao12/chinese-biographical-repository/blob/main/corpus/shiji/032.json",
+          "chapter_id": "c-shiji-032-qi",
+          "source_id": "s-shiji-032-qi",
+          "paragraph_id": "c-shiji-032-qi:p026",
+          "quote": "八年，伐紀，紀遷去其邑。",
+          "scope": "received_narrative_context_without_explicit_person_mention",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "qj2_k5a_sq4"

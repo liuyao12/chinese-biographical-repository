@@ -234,6 +234,62 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji105-core-007",
+      "person_ids": [
+        "0ad_dbw_97q"
+      ],
+      "canonical_person_id": "0ad_dbw_97q",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-039-jin",
+        "c-shiji-105-bianque"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-039",
+          "chapter_id": "c-shiji-039-jin",
+          "source_id": "s-shiji-039-jin",
+          "paragraph_id": "c-shiji-039-jin:p124",
+          "quote": "昭公六年卒。六卿彊，公室卑。子頃公去疾立。",
+          "mention_ids": [
+            "c-shiji-039-jin:m124-0000"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p002",
+          "quote": "當晉昭公時，諸大夫彊而公族弱，趙簡子為大夫，專國事。簡子疾，五日不知人，大夫皆懼，於是召扁鵲。扁鵲入視病，出，董安于問扁鵲，扁鵲曰：「血脈治也，而何怪！昔秦穆公嘗如此，七日而寤。寤之日，告公孫支與子輿曰：『我之帝所甚樂。吾所以久者，適有所學也。帝告我：「晉國且大亂，五世不安。其後將霸，未老而死。霸者之子且令而國男女無別。」』公孫支書而藏之，秦策於是出。夫獻公之亂，文公之霸，而襄公敗秦師於殽而歸縱淫，此子之所聞。今主君之病與之同，不出三日必閒，閒必有言也。」",
+          "mention_ids": [
+            "c-shiji-105-bianque:m002-0001"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記三家註》卷105指定古注",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷105&oldid=2514775",
+          "revision_id": 2514775,
+          "quote": "案左氏，簡子專國在定、頃二公之時，非當昭公之世。且趙系家敍此事亦在定公之初。",
+          "commentator": "索隱",
+          "image_verified": false,
+          "scope": "specified_digital_commentary_only",
+          "note": "正文原稱保留，平行年代另核。"
+        }
+      ],
+      "rationale": "正文稱晉昭公照原稱辨識；索隱質疑趙簡子事件非昭公世，保留該年代矛盾，不據此換成定公。 原文、夢中引語與古注分層；同一傳承不當獨立史實證成，不補生卒、夢境人物血親或診病絕對年；未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "0ad_dbw_97q"

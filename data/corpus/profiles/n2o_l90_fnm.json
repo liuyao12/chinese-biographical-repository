@@ -230,6 +230,66 @@
     "n2o_l90_fnm": "韓非"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji079-hanfei",
+      "person_ids": [
+        "n2o_l90_fnm"
+      ],
+      "canonical_person_id": "n2o_l90_fnm",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-079-fancai",
+        "c-shiji-063-laohan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p035",
+          "quote": "太史公曰：韓子稱「長袖善舞，多錢善賈」，信哉是言也！范睢、蔡澤世所謂一切辯士，然游說諸侯至白首無所遇者，非計策之拙，所為說力少也。及二人羈旅入秦，繼踵取卿相，垂功於天下者，固彊弱之勢異也。然士亦有偶合，賢者多如此二子，不得盡意，豈可勝道哉！然二子不困緦惡能激乎？",
+          "mention_ids": [
+            "c-shiji-079-fancai:m035-0005"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p013",
+          "quote": "非見韓之削弱，數以書諫韓王，韓王不能用。於是韓非疾治國不務修明其法制，執勢以御其臣下，富國彊兵而以求人任賢，反舉浮淫之蠹而加之於功實之上。以為儒者用文亂法，而俠者以武犯禁。寬則寵名譽之人，急則用介胄之士。今者所養非所用，所用非所養。悲廉直不容於邪枉之臣，觀往者得失之變，故作《孤憤》、《五蠹》、《內外儲》、《說林》、《說難》十餘萬言。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m013-0022"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-063-laohan",
+          "source_id": "s-shiji-063-laohan",
+          "paragraph_id": "c-shiji-063-laohan:p024",
+          "quote": "人或傳其書至秦。秦王見《孤憤》、《五蠹》之書，曰：「嗟乎，寡人得見此人與之游，死不恨矣！」李斯曰：「此韓非之所著書也。」秦因急攻韓。韓王始不用非，及急，乃遣非使秦。秦王悅之，未信用。李斯、姚賈害之，毀之曰：「韓非，韓之諸公子也。今王欲并諸侯，非終為韓不為秦，此人之情也。今王不用，久留而歸之，此自遺患也，不如以過法誅之。」秦王以為然，下吏治非。李斯使人遺非藥，使自殺。韓非欲自陳，不得見。秦王後悔之，使人赦之，非已死矣。",
+          "mention_ids": [
+            "c-shiji-063-laohan:m024-0051",
+            "c-shiji-063-laohan:m024-0104",
+            "c-shiji-063-laohan:m024-0184"
+          ]
+        }
+      ],
+      "rationale": "本篇韓子引長袖善舞多錢善賈與傳世韓非子五蠹同句相配，老子韓非列傳記韓非作五蠹並明示韓非所著書。據傳世著作歸屬暫接韓非，不確證整部韓非子各篇作者與成書時期；五蠹稱此為鄙諺，並非宣稱韓非首創。 原文字句、提及錨點與各篇時間主張分存，不作全域同名替換；未核底本影像。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《韓非子·五蠹》傳世同句",
+          "url": "https://zh.wikisource.org/w/index.php?title=韓非子/五蠹&oldid=2642850",
+          "quote": "鄙諺曰：「長袖善舞，多錢善賈。」",
+          "scope": "received_parallel_phrase_only",
+          "image_verified": false
+        }
+      ],
+      "identity_materialized": true
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "n2o_l90_fnm"

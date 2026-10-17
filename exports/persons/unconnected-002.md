@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `g7g_fpv_oq5` | 實遣家人子未名 | [《史記・劉敬叔孫通列傳》][84] | [JSON](g7g_fpv_oq5.json) |
-| `g8d_9kf_uqg` | 莊忌夫子 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](g8d_9kf_uqg.json) |
 | `g8i_wsz_vkj` | 辛廖（占畢萬者） | [《史記・晉世家》][24] | [JSON](g8i_wsz_vkj.json) |
 | `g95_wsg_ola` | 騎劫 | [《史記・太史公自序》][115] | [JSON](g95_wsg_ola.json) |
 | `g96_owa_8n9` | 武庚 | [《史記・太史公自序》][115] | [JSON](g96_owa_8n9.json) |
@@ -1707,7 +1705,6 @@
 | `sx2_wyn_nhr` | 穆王 | [《史記・周本紀》][7] | [JSON](sx2_wyn_nhr.json) |
 | `sxb_x2z_83z` | 朱英 | [《史記・春申君列傳》][63] | [JSON](sxb_x2z_83z.json) |
 | `sxc_v8z_vpu` | 武 | [《史記・司馬相如列傳》][102] | [JSON](sxc_v8z_vpu.json) |
-| `sxq_1wd_ih9` | 壺遂 | [《史記・太史公自序》][115] | [JSON](sxq_1wd_ih9.json) |
 | `sxx_7h5_sa5` | 施之常 | [《史記・仲尼弟子列傳》][52] | [JSON](sxx_7h5_sa5.json) |
 | `sye_xwh_ac4` | 髙齕（齊臣） | [《史記・魯周公世家》][18] | [JSON](sye_xwh_ac4.json) |
 | `syj_umb_ll5` | 楊贛 | [《史記・酷吏列傳》][107] | [JSON](syj_umb_ll5.json) |
@@ -2220,6 +2217,9 @@
 | `wpm_b14_e28` | 楚平王 | [《史記・刺客列傳》][71] | [JSON](wpm_b14_e28.json) |
 | `wpr_zxu_kt8` | 衡山王書信未名 | [《史記・吳王濞列傳》][91] | [JSON](wpr_zxu_kt8.json) |
 | `wpx_vms_opg` | 公孫光 | [《史記・扁鵲倉公列傳》][90] | [JSON](wpx_vms_opg.json) |
+| `wq3_5dq_hx9` | 陳湣公 | [《史記・孔子世家》][32] | [JSON](wq3_5dq_hx9.json) |
+| `wqd_ft2_k5v` | 林胡王（趙世家未名者） | [《史記・趙世家》][28] | [JSON](wqd_ft2_k5v.json) |
+| `wqf_43e_laj` | 咎如長女（重耳狄妻） | [《史記・晉世家》][24] | [JSON](wqf_43e_laj.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
