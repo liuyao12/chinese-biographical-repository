@@ -1,0 +1,158 @@
+{
+  "format_version": "0.2",
+  "record_type": "identity_decision_set",
+  "chapter_id": "c-shiji-118-huainan",
+  "decisions": [
+    {
+      "id": "d-shiji118-royal-context-01",
+      "person_id": "yqp_nlb_p1p_ACAM",
+      "surfaces": [
+        "膠東王"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan",
+        "c-shiji-059-wuzong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m018-0041"
+        ],
+        "hypothetical_accession_not_inferred": true
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p018",
+          "quote": "廷臣必徵膠東王，不即常山王",
+          "source_id": "s-shiji118-huainan",
+          "mention_ids": [
+            "c-shiji-118-huainan:m018-0041"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p028",
+          "quote": "膠東康王寄，以孝景中二年用皇子為膠東王。二十八年卒。淮南王謀反時，寄微聞其事",
+          "text_sha256": "5344206db1d9d15cf067ff1bc36cfc4a12dfcdf161482b9f4c63e019b4360f4b",
+          "source_id": "s-shiji-059-wuzong",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m028-0000",
+            "c-shiji-059-wuzong:m028-0016",
+            "c-shiji-059-wuzong:m028-0033"
+          ]
+        }
+      ],
+      "rationale": "膠東寄之世家明載與淮南反謀同時的備戰；不能接已即位為武帝的舊膠東王徹，也不接後立之賢。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji118-royal-context-02",
+      "person_id": "yqp_nlb_p1p_ACAG",
+      "surfaces": [
+        "常山王"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan",
+        "c-shiji-059-wuzong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m018-0047"
+        ],
+        "hypothetical_accession_not_inferred": true
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p018",
+          "quote": "廷臣必徵膠東王，不即常山王",
+          "source_id": "s-shiji118-huainan",
+          "mention_ids": [
+            "c-shiji-118-huainan:m018-0047"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p032",
+          "quote": "常山憲王舜，以孝景中五年用皇子為常山王。",
+          "text_sha256": "5344206db1d9d15cf067ff1bc36cfc4a12dfcdf161482b9f4c63e019b4360f4b",
+          "source_id": "s-shiji-059-wuzong",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m032-0000",
+            "c-shiji-059-wuzong:m032-0016"
+          ]
+        }
+      ],
+      "rationale": "在武帝無太子、淮南謀反語境下所指景帝子舜；本段是假設迎立，不是已立皇帝。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji118-royal-context-03",
+      "person_id": "yqp_nlb_p1p_ACA",
+      "surfaces": [
+        "太子"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan",
+        "c-shiji-010-wendi",
+        "c-shiji-011-jingdi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m002-0333"
+        ],
+        "hypothetical_accession_not_inferred": false
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p002",
+          "quote": "薄太后及太子諸大臣皆憚厲王",
+          "source_id": "s-shiji118-huainan",
+          "mention_ids": [
+            "c-shiji-118-huainan:m002-0333"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-010-wendi",
+          "paragraph_id": "c-shiji-010-wendi:p039",
+          "quote": "太子即位于高廟。丁未，襲號曰皇帝。",
+          "source_id": "s-shiji-010-wendi",
+          "mention_ids": [
+            "c-shiji-010-wendi:m039-0000",
+            "c-shiji-010-wendi:m039-0014"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p001",
+          "quote": "孝景皇帝者，孝文之中子也。母竇太后。",
+          "source_id": "s-shiji-011-jingdi",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m001-0000"
+          ]
+        }
+      ],
+      "rationale": "本段文帝三年隨薄太后列述的太子，接後來景帝；不按武帝朝太子遷、劉據解此早期敘事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
