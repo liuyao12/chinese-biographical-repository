@@ -2356,7 +2356,7 @@
 | `AABAAA` | 兒單于之子（未名） | [《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_AABAAA.json) |
 | `AABB` | 呴犁湖（匈奴列傳第53段） | [《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_AABB.json) |
 | `AABC` | 且鞮侯（匈奴列傳第56段） | [《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_AABC.json) |
-| `AABCA` | 且鞮侯之女（未名，妻李陵者） | [《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_AABCA.json) |
+| `AABCA` | 且鞮侯之女（未名，妻李陵者） | [《史記・李將軍列傳》][94]、[《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_AABCA.json) |
 | `B` | 少子（匈奴列傳第6段） | [《史記・匈奴列傳》][95] | [JSON](wjt_htu_081_B.json) |
 
 </details>
@@ -2386,15 +2386,6 @@
 | `BACA` | 黑肱（魯成公） | [《史記・魯周公世家》][18] | [JSON](x50_1p7_qkk_BACA.json) |
 | `BACAA` | 午（魯襄公） | [《史記・魯周公世家》][18] | [JSON](x50_1p7_qkk_BACAA.json) |
 | `C` | 斑（莊公子） | [《史記・魯周公世家》][18] | [JSON](x50_1p7_qkk_C.json) |
-
-</details>
-
-<details><summary><code>x9i_8zv_ker</code> 天漢二年單于（未名）（李將軍列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 天漢二年單于（未名） | [《史記・李將軍列傳》][94] | [JSON](x9i_8zv_ker.json) |
-| `A` | 單于女（李陵配偶，未名） | [《史記・李將軍列傳》][94] | [JSON](x9i_8zv_ker_A.json) |
 
 </details>
 

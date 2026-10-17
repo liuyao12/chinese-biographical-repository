@@ -1186,6 +1186,49 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji116-012",
+      "person_id": "gqj_xdu_8rf",
+      "title": "博望侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p005",
+          "quote": "及元狩元年，博望侯張騫使大夏來，言居大夏時見蜀布、邛竹、杖，使問所從來，曰「從東南身毒國，可數千里，得蜀賈人市」。或聞邛西可二千里有身毒國。騫因盛言大夏在漢西南，慕中國，患匈奴隔其道，誠通蜀，身毒國道便近，有利無害。於是天子乃令王然于、柏始昌、呂越人等，使閒出西夷西，指求身毒國。至滇，滇王嘗羌乃留，為求道西十餘輩。歲餘，皆閉昆明，莫能通身毒國。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji116-012:a001",
+          "paragraph_id": "c-shiji-116-xinanyi:p005",
+          "start": 6,
+          "end": 9,
+          "surface": "博望侯",
+          "person_mention_id": "c-shiji-116-xinanyi:m005-0009",
+          "usage": "narrative",
+          "date_expression": "元狩元年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分開。使其子為令記授任；未名子不補姓名。稱君不擴寫王號，番陽原字保留；未知任期端點不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji123-001",
       "person_id": "gqj_xdu_8rf",
       "title": "郎",
@@ -1644,6 +1687,22 @@
       "quote": "張騫從大將軍，以嘗使大夏，留匈奴中久，導軍，知善水草處，軍得以無饑渴，因前使絕國功，封騫博望侯。"
     },
     {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p030",
+      "count": 1,
+      "quote": "則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣承統，纂修洪業，亦講論六藝，招選茂異，而蕭望之、梁丘賀、夏侯勝、韋玄成、嚴彭祖、尹更始以儒術進，劉向"
+    },
+    {
+      "number": 116,
+      "category": "liezhuan",
+      "title": "西南夷列傳第五十六",
+      "paragraph_id": "c-shiji-116-xinanyi:p005",
+      "count": 2,
+      "quote": "及元狩元年，博望侯張騫使大夏來，言居大夏時見蜀布、邛竹、杖，使問所從來，曰「從東南身毒國，可數千里，得蜀賈人市」。或聞邛西可二千里有身毒國。騫因盛言大夏在漢西南，慕中國，患匈奴隔其道，誠通蜀，身毒國道便近，有利無害。於是天"
+    },
+    {
       "number": 123,
       "category": "liezhuan",
       "title": "大宛列傳第六十三",
@@ -1723,6 +1782,54 @@
           "editorial_readings": [],
           "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-116-xinanyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "source_id": "s-shiji116-xinanyi",
+      "source": {
+        "title": "史記／卷116",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷116",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636",
+        "revision_id": 7903636,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位修訂全文12段，末段索隱述贊另層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標題；YL紀年模板保留第一參數，第二參數編輯年標不納正文。正文原字不改，未核影像。",
+          "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
         }
       }
     },
