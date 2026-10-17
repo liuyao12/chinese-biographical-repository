@@ -17,7 +17,7 @@ class XinanyiCoreIdentities(unittest.TestCase):
    text=p.read_text()
    for old in MAPPING:self.assertNotIn(old,text,str(p))
  def test_unresolved_rulers_and_ancestor_scope_remain_unresolved(self):
-  c=read('corpus/shiji/116.json');actual=[m['id']for p in c['paragraphs']for m in p['mentions']if m.get('person_id')is None];self.assertEqual(actual,UNKNOWN)
+  c=read('corpus/shiji/116.json');actual=[m['id']for p in c['paragraphs']for m in p['mentions']if m.get('person_id')is None];decision=read('corpus/shiji/116-identities.json')['decisions'][0];resolved=set(decision['identification_basis']['target_mention_ids']);self.assertEqual(len(resolved),5);self.assertEqual(actual,[mid for mid in UNKNOWN if mid not in resolved])
  def test_received_words_and_chronology_are_unchanged(self):
   c=read('corpus/shiji/116.json');self.assertEqual(c['text_sha256'],SOURCE_HASH);p=next(p for p in c['paragraphs']if p['id'].endswith('p002'));self.assertIn('始楚威王時',p['text']);self.assertIn('楚莊王苗裔',p['text'])
  def test_person_bundle_connects_specific_chiyi_campaign_across_chapters(self):

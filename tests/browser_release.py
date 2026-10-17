@@ -24,6 +24,8 @@ with sync_playwright() as pw:
     def goto(path):
         target=urljoin(base,path)
         same_document=urldefrag(page.url)[0]==urldefrag(target)[0]
+        # Finish assets of the current document before deliberately leaving it.
+        page.wait_for_load_state('networkidle',timeout=120000)
         response=page.goto(target,wait_until='networkidle',timeout=120000)
         # Fragment navigation has no document response. Do not hide a failed full navigation.
         if response is None:
@@ -62,6 +64,7 @@ with sync_playwright() as pw:
         assert page.locator('#reader p[id]').count()>10
         qsg=page.locator('#reader-biography .profile-source-navigation a')
         assert qsg.count()>0
+        page.wait_for_load_state('networkidle',timeout=120000)
         qsg.first.click()
         page.wait_for_selector('#reader-biography [data-profile-heading]')
         expect(page.locator('#reader-biography')).to_contain_text('李鴻章')
