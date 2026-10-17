@@ -93613,7 +93613,8 @@
             "c-shiji-130-taishigong:m142-0133",
             "c-shiji-130-taishigong:m143-0000",
             "c-shiji-092-hanxin:m027-0000",
-            "c-shiji-108-han:m014-0000"
+            "c-shiji-108-han:m014-0000",
+            "c-shiji-112-pingjin:m028-0000"
           ]
         },
         {
@@ -93768,6 +93769,12 @@
           "chapter_id": "c-shiji-112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p030",
           "quote": "司馬遷"
+        },
+        {
+          "mention_id": "c-shiji-112-pingjin:m028-0000",
+          "chapter_id": "c-shiji-112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p028",
+          "quote": "太史公"
         }
       ],
       "family_path": {
@@ -350141,30 +350148,8 @@
       ]
     },
     {
-      "id": "iaf_rfl_80u",
-      "label": "太史公（平津侯主父列傳末段候選）",
-      "status": "active",
-      "historicity": "historical_tradition",
-      "aliases": [
-        {
-          "surface": "太史公",
-          "mention_ids": [
-            "c-shiji-112-pingjin:m028-0000"
-          ]
-        }
-      ],
-      "evidence": [
-        {
-          "mention_id": "c-shiji-112-pingjin:m028-0000",
-          "chapter_id": "c-shiji-112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p028",
-          "quote": "太史公"
-        }
-      ]
-    },
-    {
-      "id": "38x_hpr_ltp",
-      "label": "太皇太后（平津侯主父列傳末段候選）",
+      "id": "4w5_b4e_vf5_AB",
+      "label": "政君",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -350178,6 +350163,22 @@
           "surface": "朕",
           "mention_ids": [
             "c-shiji-112-pingjin:m029-0543"
+          ]
+        },
+        {
+          "surface": "政君",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0023",
+            "c-hanshu-098-yuanhou:m-kin-002-0029",
+            "c-hanshu-098-yuanhou:m-kin-002-0071"
+          ]
+        },
+        {
+          "surface": "元后",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0026",
+            "c-hanshu-098-yuanhou:m-kin-002-0027",
+            "c-hanshu-098-yuanhou:m-kin-002-0069"
           ]
         }
       ],
@@ -350193,8 +350194,62 @@
           "chapter_id": "c-shiji-112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p029",
           "quote": "朕"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-001-0023",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "政君"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-001-0026",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "元后"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0027",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "元后"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0029",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "政君"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0069",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "元后"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0071",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "政君"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+            "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+            "source_term": "生女政君"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
     },
     {
       "id": "gxd_15x_9d0",
@@ -389677,6 +389732,671 @@
           "chapter_id": "c-shiji-111-wei-huo",
           "paragraph_id": "c-shiji-111-wei-huo:p012",
           "quote": "句王"
+        }
+      ]
+    },
+    {
+      "id": "4w5_b4e_vf5",
+      "label": "王翁孺",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "王翁孺",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-origin-001-0001"
+          ]
+        },
+        {
+          "surface": "翁孺",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0000"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-origin-001-0001",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-origin-001",
+          "quote": "王翁孺"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-001-0000",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "翁孺"
+        }
+      ]
+    },
+    {
+      "id": "4w5_b4e_vf5_A",
+      "label": "王禁",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "禁",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0003",
+            "c-hanshu-098-yuanhou:m-kin-002-0000"
+          ]
+        },
+        {
+          "surface": "稚君",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0005"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-001-0003",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "禁"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-001-0005",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "稚君"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0000",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "禁"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+            "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+            "source_term": "翁孺生禁"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AA",
+      "label": "君俠",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "君俠",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0023"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0023",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "君俠"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "君俠"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AC",
+      "label": "君力",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "君力",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0032"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0032",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "君力"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "君力"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AD",
+      "label": "君弟",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "君弟",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0035"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0035",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "君弟"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "君弟"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AE",
+      "label": "鳳",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "鳳",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0039",
+            "c-hanshu-098-yuanhou:m-kin-002-0066"
+          ]
+        },
+        {
+          "surface": "孝卿",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0040"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0039",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "鳳"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0040",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "孝卿"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0066",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "鳳"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "鳳"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AF",
+      "label": "曼",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "曼",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0043"
+          ]
+        },
+        {
+          "surface": "元卿",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0044"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0043",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "曼"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0044",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "元卿"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "曼"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AG",
+      "label": "譚",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "譚",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0046"
+          ]
+        },
+        {
+          "surface": "子元",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0047"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0046",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "譚"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0047",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "子元"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "譚"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AH",
+      "label": "崇",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "崇",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0049",
+            "c-hanshu-098-yuanhou:m-kin-002-0067"
+          ]
+        },
+        {
+          "surface": "少子",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0050"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0049",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "崇"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0050",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "少子"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0067",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "崇"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "崇"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AI",
+      "label": "商",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "商",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0052"
+          ]
+        },
+        {
+          "surface": "子夏",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0053"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0052",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "商"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0053",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "子夏"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "商"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AJ",
+      "label": "立",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "立",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0055"
+          ]
+        },
+        {
+          "surface": "子叔",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0056"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0055",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "立"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0056",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "子叔"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "立"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AK",
+      "label": "根",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "根",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0058"
+          ]
+        },
+        {
+          "surface": "稚卿",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0059"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0058",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "根"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0059",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "稚卿"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "根"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "4w5_b4e_vf5_AL",
+      "label": "逢時",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "逢時",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0061"
+          ]
+        },
+        {
+          "surface": "季卿",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0063"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0061",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "逢時"
+        },
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0063",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "季卿"
+        }
+      ],
+      "family_path": {
+        "connection": "father",
+        "parent_person_id": "4w5_b4e_vf5_A",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+            "quote": "禁有大志不修㢘隅好酒色多取傍妻凡有四女八男長女君俠次即元后政君次君力次君弟長男鳳孝卿次曼元卿譚子元崇少子商子夏立子叔根稚卿逢時季卿唯鳳崇與元后政君同母母適妻魏郡李氏女也",
+            "source_term": "逢時"
+          }
+        ],
+        "interpretation_note": "父系路徑依本段明示親屬；分支字母非排行，未接遠祖。"
+      }
+    },
+    {
+      "id": "2cf_ibm_2cg",
+      "label": "魏郡李氏（王禁適妻）",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "李氏",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-002-0080"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-hanshu-098-yuanhou:m-kin-002-0080",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-002",
+          "quote": "李氏"
         }
       ]
     }
