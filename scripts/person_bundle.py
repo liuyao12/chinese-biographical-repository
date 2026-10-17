@@ -392,7 +392,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             from table_evidence import table_regnal_range_errors, table_cell
         source_reign = proof.get('source_era_name', proof.get('era_name'))
         term = proof.get('year_source_term')
-        expression = source_reign + term if isinstance(source_reign, str) and isinstance(term, str) else None
+        season = proof.get('season_source_term', '')
+        expression = source_reign + term + season if all(isinstance(v, str) for v in (source_reign, term, season)) else None
         # Only a source-specific designation needs another person's source anchor.
         # Resolve it lazily; most person bundles have no such reign claim.
         claim = proof.get('reign_designation')

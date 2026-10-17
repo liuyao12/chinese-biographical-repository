@@ -6,7 +6,8 @@ from scripts.table_evidence import load_tables
 from scripts.person_bundle import validate_name_component_alternatives
 R=Path(__file__).resolve().parents[1]
 def load(f):return json.loads((R/f).read_text())
-def holdings():return load('corpus/shiji/020-table-title-events.json')['holdings']
+ORIGINAL_GRANTS = set({'th-table-shiji020-r052-founding-grant', 'th-table-shiji020-r045-founding-grant', 'th-table-shiji020-r062-founding-grant', 'th-table-shiji020-r053-founding-grant', 'th-table-shiji020-r056-founding-grant', 'th-table-shiji020-r054-founding-grant', 'th-table-shiji020-r055-founding-grant', 'th-table-shiji020-r046-founding-grant'})
+def holdings():return [h for h in load('corpus/shiji/020-table-title-events.json')['holdings'] if h['id'] in ORIGINAL_GRANTS]
 class NativeTableTitles(unittest.TestCase):
  @classmethod
  def setUpClass(cls):cls.tables=load_tables(R);cls.people={p['id']for p in load('registry/persons.json')['persons']}

@@ -2354,6 +2354,299 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "th-table-shiji020-r060-founding-grant",
+      "person_id": "08e_bwz_ync",
+      "title": "蘌兒侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r060-c00",
+          "quote": "蘌兒。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r060-c01",
+          "quote": "以軍卒斬東越徇北將軍功侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r060-c06",
+          "quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r060-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r060-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r060-c06",
+          "person_mention_id": "shiji-020-t1-r060-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r060-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "蘌兒"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r060-c06",
+              "start": 10,
+              "end": 11,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r060-c06",
+          "quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+          "person_mention_id": "shiji-020-t1-r060-c06-m000",
+          "surface": "轅終古"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r060-c00",
+          "quote": "蘌兒。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r060-c01",
+          "quote": "以軍卒斬東越徇北將軍功侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r060-c06",
+            "text": "元年閏月癸卯",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r097-c01",
+          "digital_year_cell_id": "shiji-022-t1-r097-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封元年閏月癸卯",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r060-c00",
+              "quote": "蘌兒。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r060-c01",
+              "quote": "以軍卒斬東越徇北將軍功侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r060-c06",
+              "quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r060-c06-m000"
+            }
+          ],
+          "normalized_date_range": {
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "status": "editorial_provisional",
+            "original_quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c00",
+                "quote": "蘌兒。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c01",
+                "quote": "以軍卒斬東越徇北將軍功侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c06",
+                "quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r060-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "蘌兒。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以軍卒斬東越徇北將軍功侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "六。元年閏月癸卯，莊侯轅終古元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r060-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "110",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "earliest": {
+              "era": "BCE",
+              "era_year": 111,
+              "year": -110
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "basis": "regnal_year_crosses_ce_year"
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原表蘌兒列轅終古首封元年，與傳斬徇北將軍同事接合；莊侯是表內追稱，不推定生前已有諡。閏幾月未明，保留111至110年範圍；正文御兒字形及未明授日分存，死亡不自動終止此爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
