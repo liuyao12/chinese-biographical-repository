@@ -3811,6 +3811,1182 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "th-table-shiji020-r066-founding-grant",
+      "person_id": "m61_2wu_0ru",
+      "title": "平州侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r066-c00",
+          "quote": "平州。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r066-c01",
+          "quote": "以朝鮮將漢兵至降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r066-c06",
+          "quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r066-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r066-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r066-c06",
+          "person_mention_id": "shiji-020-t1-r066-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r066-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "平州"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r066-c06",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r066-c06",
+          "quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+          "person_mention_id": "shiji-020-t1-r066-c06-m000",
+          "surface": "唊"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r066-c00",
+          "quote": "平州。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r066-c01",
+          "quote": "以朝鮮將漢兵至降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r066-c06",
+            "text": "三年四月丁卯",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r099-c01",
+          "digital_year_cell_id": "shiji-022-t1-r099-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封三年四月丁卯",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r066-c00",
+              "quote": "平州。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r066-c01",
+              "quote": "以朝鮮將漢兵至降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r066-c06",
+              "quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r066-c06-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c00",
+                "quote": "平州。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c01",
+                "quote": "以朝鮮將漢兵至降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c06",
+                "quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r066-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "平州。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以朝鮮將漢兵至降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。三年四月丁卯，侯唊元年。。四年，侯唊薨，無後，國除。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r066-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "108",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》原欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 108,
+            "year": -107
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同列人物與本傳共同官爵及降漢功事對讀。原表首封日期獨立保存，不把本傳右渠被殺的段首夏紀年當此人授爵確年；康等為表內追稱，沒有補授爵時已具諡號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r067-founding-grant",
+      "person_id": "466_pwj_snr",
+      "title": "荻苴侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r067-c00",
+          "quote": "荻苴。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r067-c01",
+          "quote": "以朝鮮相漢兵至圍之降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r067-c06",
+          "quote": "四。三年四月，侯朝鮮相韓陰元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r067-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r067-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r067-c06",
+          "person_mention_id": "shiji-020-t1-r067-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r067-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "荻苴"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r067-c06",
+              "start": 7,
+              "end": 8,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r067-c06",
+          "quote": "四。三年四月，侯朝鮮相韓陰元年。",
+          "person_mention_id": "shiji-020-t1-r067-c06-m000",
+          "surface": "朝鮮相韓陰"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r067-c00",
+          "quote": "荻苴。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r067-c01",
+          "quote": "以朝鮮相漢兵至圍之降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r067-c06",
+            "text": "三年四月",
+            "start": 2,
+            "end": 6
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r099-c01",
+          "digital_year_cell_id": "shiji-022-t1-r099-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封三年四月",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r067-c00",
+              "quote": "荻苴。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r067-c01",
+              "quote": "以朝鮮相漢兵至圍之降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r067-c06",
+              "quote": "四。三年四月，侯朝鮮相韓陰元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r067-c06-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "四。三年四月，侯朝鮮相韓陰元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c00",
+                "quote": "荻苴。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c01",
+                "quote": "以朝鮮相漢兵至圍之降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c06",
+                "quote": "四。三年四月，侯朝鮮相韓陰元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r067-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "荻苴。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以朝鮮相漢兵至圍之降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "四。三年四月，侯朝鮮相韓陰元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r067-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "108",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》原欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 108,
+            "year": -107
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同列人物與本傳共同官爵及降漢功事對讀。原表首封日期獨立保存，不把本傳右渠被殺的段首夏紀年當此人授爵確年；康等為表內追稱，沒有補授爵時已具諡號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r068-founding-grant",
+      "person_id": "tvb_urc_goi",
+      "title": "澅清侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "quote": "澅清。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r068-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r068-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "澅清"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r068-c06",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000",
+          "surface": "朝鮮尼谿相參"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "quote": "澅清。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r068-c06",
+            "text": "三年六月丙辰",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r099-c01",
+          "digital_year_cell_id": "shiji-022-t1-r099-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封三年六月丙辰",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c00",
+              "quote": "澅清。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c01",
+              "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c06",
+              "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r068-c06-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c00",
+                "quote": "澅清。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c01",
+                "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c06",
+                "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r068-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "澅清。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "108",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》原欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 108,
+            "year": -107
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同列人物與本傳共同官爵及降漢功事對讀。原表首封日期獨立保存，不把本傳右渠被殺的段首夏紀年當此人授爵確年；康等為表內追稱，沒有補授爵時已具諡號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r073-founding-grant",
+      "person_id": "z9d_qn5_wg8_A",
+      "title": "涅陽侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r073-c00",
+          "quote": "涅陽。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r073-c01",
+          "quote": "以朝鮮相路人，漢兵至，首先降，道死，其子侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r073-c06",
+          "quote": "三。四年三月壬寅，康侯子最元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r073-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r073-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r073-c06",
+          "person_mention_id": "shiji-020-t1-r073-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r073-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "涅陽"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r073-c06",
+              "start": 10,
+              "end": 11,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r073-c06",
+          "quote": "三。四年三月壬寅，康侯子最元年。",
+          "person_mention_id": "shiji-020-t1-r073-c06-m000",
+          "surface": "子最"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r073-c00",
+          "quote": "涅陽。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r073-c01",
+          "quote": "以朝鮮相路人，漢兵至，首先降，道死，其子侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r073-c06",
+            "text": "四年三月壬寅",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r100-c01",
+          "digital_year_cell_id": "shiji-022-t1-r100-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封四年三月壬寅",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r073-c00",
+              "quote": "涅陽。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r073-c01",
+              "quote": "以朝鮮相路人，漢兵至，首先降，道死，其子侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r073-c06",
+              "quote": "三。四年三月壬寅，康侯子最元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r073-c06-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "三。四年三月壬寅，康侯子最元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c00",
+                "quote": "涅陽。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c01",
+                "quote": "以朝鮮相路人，漢兵至，首先降，道死，其子侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c06",
+                "quote": "三。四年三月壬寅，康侯子最元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r073-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "涅陽。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以朝鮮相路人，漢兵至，首先降，道死，其子侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "三。四年三月壬寅，康侯子最元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r073-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "四",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r100-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "107",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r100-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》原欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 107,
+            "year": -106
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同列人物與本傳共同官爵及降漢功事對讀。原表首封日期獨立保存，不把本傳右渠被殺的段首夏紀年當此人授爵確年；康等為表內追稱，沒有補授爵時已具諡號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

@@ -170,6 +170,123 @@
           "normalization_note": "顯示書目轉繁；原題另存。網址目錄日期不當論文出版年。"
         }
       ]
+    },
+    {
+      "id": "le-table-shiji020-r073-zui",
+      "person_id": "z9d_qn5_wg8_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "source_term": "最死",
+      "date_expression": "太初二年",
+      "date_layout": {
+        "kind": "after_cell_count_and_title",
+        "cell_count_source_term": "二。",
+        "title_source_term": "侯"
+      },
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r073-c07",
+          "person_mention_id": "shiji-020-t1-r073-c07-m000",
+          "quote": "二。太初二年，侯最死，無後，國除。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036"
+        }
+      ],
+      "interpretation_note": "同列首封之最，原格明記太初二年死；無後國除不推生物子女數，不自動終止其全部稱號。二字原欄計數保留，不據此推算任期。其他作品卒年異說仍須分源覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 103,
+          "year": -102
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 102,
+          "year": -101
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "二。太初二年，侯最死，無後，國除。",
+        "evidence": [
+          {
+            "kind": "table_cell",
+            "table_id": "shiji-020",
+            "table_cell_id": "shiji-020-t1-r073-c07",
+            "person_mention_id": "shiji-020-t1-r073-c07-m000",
+            "quote": "二。太初二年，侯最死，無後，國除。",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-020",
+            "chapter_id": "table-chapter-shiji-020",
+            "source_id": "table-witness-shiji-020",
+            "source_revision": "2607036"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·孝武本紀》改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "quote": "夏，漢改歷，以正月為歲首，而色上黃，官名更印章以五字。因為太初元年。是歲，西伐大宛。蝗大起。丁夫人、雒陽虞初等以方祠詛匈奴、大宛焉。",
+            "scope": "received_calendar_rule",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "太初元年",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r103-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "二",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r104-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "103",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r104-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_table": {
+          "kind": "table_year_row",
+          "table_id": "shiji-022",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_name": "太初",
+          "year_source_term": "二年",
+          "era_anchor_cell_id": "shiji-022-t1-r103-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r104-c01",
+          "digital_year_cell_id": "shiji-022-t1-r104-c00",
+          "calendar_rule": "han_first_month_after_taichu"
+        },
+        "rationale": "原紀年與事件同源保存，未明月份；依固定原年列及太初前後的實際歲首保留相鄰公元年範圍，不任取一端或換算月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     }
   ]
 }

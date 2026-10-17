@@ -48,7 +48,7 @@ def table_title_errors(h, tables, person_ids):
  check(column is not None and fragment['columns'][cell['column']].get('id')==date[0].get('table_column_id')and date[0].get('text')==column.get('text'),'紀年原欄題必須是本格所在欄')
  check(part.get('table_cell_id')==cell['id']and type(a)is int and type(z)is int and 0<=a<z<=len(cell['text'])and cell['text'][a:z]==term,'表格日期原詞位置不符')
  check(isinstance(expression,str)and expression==date[0].get('text','')+term,'拼合日期不得冒作連續原句或更改日期')
- m=re.fullmatch(r'(元|[一二三四五六七八九十]+)年(?:(正|[一二三四五六七八九十]+|閏)月[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])?',term)
+ m=re.fullmatch(r'(元|[一二三四五六七八九十]+)年(?:(正|[一二三四五六七八九十]+|閏)月(?:[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])?)?',term)
  if not m:return errors+['首封日期須保留原年字；有月日時須保留月份及干支原詞']
  mapping=b.get('year_mapping',{});yt=tables.get(mapping.get('table_id'))
  if not yt:return errors+['首封缺原年列對照表']
