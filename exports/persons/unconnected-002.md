@@ -523,7 +523,7 @@
 | `l3w_spq_7qn` | 蘇秦 | [《史記・張儀列傳》][56] | [JSON](l3w_spq_7qn.json) |
 | `l3x_dtn_i0u` | 李良 | [《史記・張耳陳餘列傳》][75] | [JSON](l3x_dtn_i0u.json) |
 | `l44_3nw_9xe` | 魯使（齊頃宴使未名） | [《史記・晉世家》][25] | [JSON](l44_3nw_9xe.json) |
-| `l4l_iz8_ao0` | 岐伯 | [《史記・孝武本紀》][16] | [JSON](l4l_iz8_ao0.json) |
+| `l4l_iz8_ao0` | 岐伯 | [《史記・孝武本紀》][16]、[《史記・司馬相如列傳》][103] | [JSON](l4l_iz8_ao0.json) |
 | `l5c_h8i_d5q` | 衛子夫 | [《史記・外戚世家》][35] | [JSON](l5c_h8i_d5q.json) |
 | `l5h_vix_jn2` | 莊舄 | [《史記・張儀列傳》][56] | [JSON](l5h_vix_jn2.json) |
 | `l5k_25n_03y` | 商湯 | [《史記・儒林列傳》][107] | [JSON](l5k_25n_03y.json) |

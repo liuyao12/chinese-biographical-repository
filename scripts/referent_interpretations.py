@@ -3,7 +3,7 @@
 import re
 from urllib.parse import urlparse
 KINDS = {'historical_person', 'legendary_person', 'unspecified_person',
-         'generic_group', 'multiple_allusions'}
+         'generic_group', 'multiple_allusions', 'divinity', 'natural_phenomenon'}
 
 def strings(value, nonempty=True):
     return (isinstance(value,list) and (bool(value) or not nonempty)
@@ -35,8 +35,11 @@ def interpretation_errors(chapter, person_ids):
         cid = case.get('id')
         check(isinstance(cid,str) and bool(cid) and cid not in case_ids, '指稱異說案件 ID 無效或重複')
         if isinstance(cid,str): case_ids.add(cid)
-        check(case.get('status') == 'unresolved' and case.get('default_alternative_id') is None,
-              '未決異說不得預設選人或默認採納一說')
+        status=case.get('status')
+        check(status in ('unresolved','editorial_provisional'), '指稱判讀狀態無效')
+        if status=='unresolved':
+            check(case.get('default_alternative_id') is None and not case.get('selection'),
+                  '未決異說不得預設選人或默認採納一說')
         check(isinstance(case.get('reviewer'),str) and bool(case['reviewer'])
               and case.get('human_reviewed') is False and bool(case.get('note')),
               '異說須有代理署名、限制及未經人工覆核狀態')
@@ -85,7 +88,7 @@ def interpretation_errors(chapter, person_ids):
         alternatives = case.get('alternatives', [])
         if not isinstance(alternatives,list) or not all(isinstance(a,dict) for a in alternatives):
             check(False,'異說須為解釋物件陣列'); alternatives = []
-        check(len(alternatives)>=2 and strings([a.get('id')for a in alternatives]), '異說至少兩項且 ID 不得重複')
+        check(len(alternatives)>=(2 if status=='unresolved' else 1) and strings([a.get('id')for a in alternatives]), '未決異說至少兩項；判讀項目 ID 不得重複')
         for alt in alternatives:
             kind, candidates = alt.get('referent_kind'), alt.get('candidate_person_ids')
             check(isinstance(kind,str) and kind in KINDS and bool(alt.get('attribution'))
@@ -96,4 +99,22 @@ def interpretation_errors(chapter, person_ids):
             source_ids = alt.get('source_reference_ids')
             check(strings(source_ids) and valid_refs and all(rid in ref_ids for rid in source_ids),
                   '各說須連到其古注參考')
+        if status=='editorial_provisional':
+            default=case.get('default_alternative_id')
+            chosen=next((a for a in alternatives if a.get('id')==default),None)if isinstance(default,str)else None
+            check(chosen is not None and chosen.get('referent_kind') in ('divinity','natural_phenomenon','generic_group')
+                  and chosen.get('candidate_person_ids')==[], '採用判讀只分類非個人指稱；個人身份須另有身份判斷與正文標記')
+            selection=case.get('selection');selection=selection if isinstance(selection,dict)else{}
+            selected_refs=selection.get('source_reference_ids')
+            check(isinstance(selection.get('rationale'),str) and bool(selection['rationale'])
+                  and strings(selected_refs) and chosen is not None and strings(chosen.get('source_reference_ids'))
+                  and set(selected_refs).issubset(chosen['source_reference_ids']), '採用判讀須有理由與該讀法的來源依據')
+        if 'witness_wording' in case:
+            wording=case['witness_wording'];wording=wording if isinstance(wording,dict)else{}
+            received,parallel=wording.get('received_phrase'),wording.get('parallel_phrase')
+            ref=next((r for r in refs if r.get('id')==wording.get('reference_id')),None)
+            check(isinstance(received,str) and bool(received) and isinstance(quote,str) and received in quote
+                  and isinstance(parallel,str) and bool(parallel) and ref is not None and isinstance(ref.get('quote'),str) and parallel in ref['quote']
+                  and wording.get('adopted_as_text_correction')is False, '平行見證用字須各有原句，不得冒作已採校字')
+
     return errors

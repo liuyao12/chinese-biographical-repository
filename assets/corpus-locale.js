@@ -1,7 +1,11 @@
 export default {
+  'Divine referent': '神祇用稱',
+  'Natural phenomenon': '自然現象',
+  'Preferred reading (provisional)': '採用讀法（暫定）',
+  'Provisional referent reading; no individual identity is assigned.': '暫採此讀法；未據此連成個別人物。',
   'Received-text evidence': '傳世正文依據',
   'Read source passage': '閱讀原段',
-  'Referent interpretations': '編者指稱異說',
+  'Referent interpretations': '編者指稱判讀',
   'Unresolved: alternatives are not accepted identities.': '尚未定指；以下各說不作已確認身份。',
   'Person reading': '人物讀法',
   'Legendary or divine reading': '傳說或神祇讀法',

@@ -48,7 +48,7 @@
       "王然於保留於字，不默改卷116王然于；壺充國不默改壺字。",
       "第38至43段借父老使者問答為辭；治水的夏後氏暫接夏禹，君王泛稱另辨，均不據文學問答建立漢代史事。",
       "賁育保留單字原稱，依顏師古注分接孟賁、夏育；二世依秦亡語境及秦始皇本紀明稱暫接胡亥，不補吊古事件紀年。",
-      "第52至54段神話與典故專名保留未定；賦辭不作歷史死亡官爵事件。",
+      "第52至54段岐伯、羡門依古注與平行正文接既有傳說人物；其餘神話與自然用語分辨中，賦辭不作歷史死亡官爵事件。",
       "所忠及忠省稱限取書敘事；第45段卓氏婚暫接文君，取書段其妻仍未定，文君只列不窮盡候選。",
       "第59至66段封禪書中的大司馬、天子及君帝用稱留未定，未由想像對話推實任官員。",
       "湯武為並稱，分別存兩處來源名號，不補生平。",
@@ -354,6 +354,247 @@
         "source_terms": [
           "鄭女曼姬"
         ]
+      },
+      {
+        "id": "ri-shiji117-lieque",
+        "paragraph_id": "c-shiji-117-xiangru:p054",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m054-0050"
+        ],
+        "source_terms": [
+          "列缺"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-lieque-lightning",
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p054",
+          "quote": "囘車朅來兮，絕道不周，會食幽都。呼吸沆瀣飱朝霞兮，噍咀芝英兮嘰瓊華。嬐侵潯而高縱兮，紛鴻湧而上厲。貫列缺之倒景兮，涉豐隆之滂沛。馳遊道而脩降兮，騖遺霧而遠逝。迫區中之隘陝兮，舒節出乎北垠。遺屯騎於玄闕兮，軼先驅於寒門。下崢嶸而無地兮，上寥廓而無天。視眩眠而無見兮，聽惝恍而無聞。乘虛無而上假兮，超無友而獨存。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m054-0050"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-lieque-lightning",
+            "attribution": "服虔及《集解》所引《漢書音義》",
+            "referent_kind": "natural_phenomenon",
+            "candidate_person_ids": [],
+            "interpretation": "此句列缺釋為天閃，即閃電，不作歷史人物。",
+            "source_reference_ids": [
+              "han57-lieque",
+              "jijie117-lieque"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "han57-lieque",
+            "title": "《漢書》卷57下·服虔釋列缺",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L988-L989",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "(胡孔反溶/音弋孔反)貫列缺之倒景兮(服䖍曰列缺天閃也人在/天上下向視日月故景倒)¶\n(在下也張揖曰貫穿也陵陽子眀經曰列缺氣去地/二千四百里倒景氣去地四千里其景皆倒在下也)渉¶",
+            "read_line_range": [
+              988,
+              989
+            ],
+            "cached_response_sha256": "31a66d7043140a7f8116bd322413af64314f26df98c79aab9b91f88dc953bf61",
+            "scope": "ancient_commentary_interpretation",
+            "image_verified": false
+          },
+          {
+            "id": "jijie117-lieque",
+            "title": "《史記集解》卷117引漢書音義釋列缺",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L549-L550",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+            "quote": "厲(徐廣曰/嬐音纎)貫列缺之倒景兮渉豐隆之滂沛(漢書音義/曰列缺天)¶\n(閃也倒景/日在下)馳游道而循降兮騖遺霧而逺逝廹區中之¶",
+            "read_line_range": [
+              549,
+              550
+            ],
+            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
+            "scope": "ancient_commentary_interpretation",
+            "image_verified": false
+          }
+        ],
+        "note": "本句列缺依古注釋為天閃，按自然現象處理；不將全庫其他同詞自動分類。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "selection": {
+          "rationale": "本句描寫天上氣象，兩處所引釋義相合；僅採此處非人物分類，不據詞形通套別篇。",
+          "source_reference_ids": [
+            "han57-lieque",
+            "jijie117-lieque"
+          ]
+        }
+      },
+      {
+        "id": "ri-shiji117-tiandi",
+        "paragraph_id": "c-shiji-117-xiangru:p064",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m064-0025"
+        ],
+        "source_terms": [
+          "帝"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-tiandi-divinity",
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p064",
+          "quote": "濯濯之麟，遊彼靈畤。孟冬十月，君俎郊祀。馳我君輿，帝以享祉。三代之前，蓋未嘗有。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m064-0025"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-tiandi-divinity",
+            "attribution": "顏師古，《漢書》卷57所引",
+            "referent_kind": "divinity",
+            "candidate_person_ids": [],
+            "interpretation": "帝用享祉之帝釋為天帝；此處不接漢武帝。",
+            "source_reference_ids": [
+              "han57-tiandi"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "han57-tiandi",
+            "title": "《漢書》卷57下·顏師古釋帝為天帝",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L1117-L1118",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "(反大雅靈臺之/詩云麀鹿濯濯)馳我君輿帝用享祉(文頴曰馳我君車/之前也師古曰帝)¶\n(天帝也以此祭天天/既享之答以祉福也)三代之前葢未嘗有宛宛黄龍興¶",
+            "read_line_range": [
+              1117,
+              1118
+            ],
+            "cached_response_sha256": "773d0bb0c2433501fa5b364bb585e1236df4c7268266da070ed3db9f50d22d61",
+            "scope": "parallel_witness_commentary",
+            "image_verified": false
+          }
+        ],
+        "note": "本篇作帝以享祉，《漢書》作帝用享祉；此引注供釋名，不據此改字，也不補天帝個體姓名。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "selection": {
+          "rationale": "祭天享祉語境與注語相合，按神祇用稱讀；不可因同段我君可能指當朝皇帝便將兩者合併。",
+          "source_reference_ids": [
+            "han57-tiandi"
+          ]
+        },
+        "witness_wording": {
+          "received_phrase": "帝以享祉",
+          "parallel_phrase": "帝用享祉",
+          "reference_id": "han57-tiandi",
+          "adopted_as_text_correction": false
+        }
+      },
+      {
+        "id": "ri-shiji117-beiqiao",
+        "paragraph_id": "c-shiji-117-xiangru:p052",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0085"
+        ],
+        "source_terms": [
+          "北僑"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0085"
+          ]
+        },
+        "alternatives": [
+          {
+            "id": "ri-shiji117-beiqiao-yan",
+            "attribution": "徐廣，《史記集解》所引",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [],
+            "interpretation": "北僑為燕人，形解而仙。",
+            "source_reference_ids": [
+              "jijie117-beiqiao"
+            ]
+          },
+          {
+            "id": "ri-shiji117-beiqiao-wang",
+            "attribution": "張揖（《漢書》伯僑讀法）",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [],
+            "interpretation": "伯僑釋為仙人王子僑。",
+            "source_reference_ids": [
+              "han57-boqiao"
+            ]
+          },
+          {
+            "id": "ri-shiji117-beiqiao-zheng",
+            "attribution": "顏師古（《漢書》征伯僑讀法）",
+            "referent_kind": "legendary_person",
+            "candidate_person_ids": [],
+            "interpretation": "征伯僑為仙人，姓征名伯僑，非王子僑；所報郊祀志正字未另核底本。",
+            "source_reference_ids": [
+              "han57-boqiao"
+            ]
+          }
+        ],
+        "references": [
+          {
+            "id": "jijie117-beiqiao",
+            "title": "《史記集解》卷117·徐廣釋北僑",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L524-L525",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+            "quote": "(也或曰/水神)前陸離而後潏湟(漢書音義/曰皆神名)斯征北僑(徐廣曰/燕人也)¶\n(形解而/僊也)而役羡門兮屬岐伯使尚方(徐廣曰岐伯黄帝/臣駰案漢書音義)¶",
+            "read_line_range": [
+              524,
+              525
+            ],
+            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
+            "scope": "ancient_commentary_interpretation",
+            "image_verified": false
+          },
+          {
+            "id": "han57-boqiao",
+            "title": "《漢書》卷57下·張揖、顏師古釋伯僑",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L937-L939",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "厮征伯僑而役羡門兮詔岐伯使尚方(應劭曰厮役也/張揖曰伯僑仙)¶\n(人王子僑也羡門碣石山上仙人羡門髙也尚主也岐/伯者黄帝太醫屬使主方藥也師古曰征伯僑者仙人)¶\n(姓征名伯僑非王子僑也郊祀志征字作/正其音同耳或說云征謂役使之非也)祝融警而蹕¶",
+            "read_line_range": [
+              937,
+              939
+            ],
+            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
+            "scope": "parallel_witness_commentary_on_variant",
+            "image_verified": false
+          }
+        ],
+        "note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "witness_wording": {
+          "received_phrase": "厮征北僑",
+          "parallel_phrase": "厮征伯僑",
+          "reference_id": "han57-boqiao",
+          "adopted_as_text_correction": false
+        }
       }
     ]
   },
@@ -2776,25 +3017,28 @@
           "surface": "北僑",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本篇北僑與《漢書》伯僑用字不同；各注解釋與分詞並存，未把北、伯或征字自動改寫，也未接成已定人物。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0089",
           "start": 89,
           "end": 91,
           "surface": "羡門",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "44s_fyq_t0d",
+          "status": "contextual_provisional",
+          "interpretation_note": "張揖釋碣石仙人羡門高，與始皇本紀碣石求羨門的名號及地域互證；保留羡／羨原字，不把高誓併成同名，也不補仙人生卒或任期。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0094",
           "start": 94,
           "end": 96,
           "surface": "岐伯",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "l4l_iz8_ao0",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇岐伯主方藥，張揖明釋黃帝太醫；孝武本紀公玉帶亦引黃帝時岐伯，暫接同一傳說人物，不據賦辭增造官職或出行事件。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0100",
@@ -2918,7 +3162,8 @@
           "surface": "列缺",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本句列缺依古注釋為天閃，按自然現象處理；不將全庫其他同詞自動分類。"
         },
         {
           "id": "c-shiji-117-xiangru:m054-0058",
@@ -3349,7 +3594,8 @@
           "surface": "帝",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本篇作帝以享祉，《漢書》作帝用享祉；此引注供釋名，不據此改字，也不補天帝個體姓名。"
         }
       ]
     },

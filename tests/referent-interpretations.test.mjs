@@ -13,14 +13,14 @@ test('attributed alternatives are outside the unchanged received paragraph, with
   assert.doesNotMatch(source,/data-person-id="3go_52y_0mp"/);
   assert.equal(source.replace(/<[^>]*>/g,''),p.text);
   const notes=referentInterpretations(chapter,p.id,{'3go_52y_0mp':{label:'伯樂'}});
-  assert.match(notes,/編者指稱異說/);assert.match(notes,/陽陵/);assert.match(notes,/候選人物/);
+  assert.match(notes,/編者指稱判讀/);assert.match(notes,/陽陵/);assert.match(notes,/候選人物/);
   assert.match(notes,/candidate-profile/);assert.doesNotMatch(notes,/data-person-id=/);
   assert.equal(referentInterpretations(chapter,'missing-paragraph'),'');
 });
 test('profile keeps alternative-source evidence but compact identity card omits it',()=>{
   const profile={id:'3go_52y_0mp',label:'伯樂',names:['伯樂'],titles:[],addresses:[],occurrences:[],sources:[],relations:[],related_people:{'3go_52y_0mp':'伯樂'},referent_interpretations:[chapter.annotation.referent_interpretations[0]]};
   const full=personCard(profile,true),compact=personCard(profile,false);
-  assert.match(full,/編者指稱異說/);assert.match(full,/尚未定指/);assert.match(full,/chapter=117/);
+  assert.match(full,/編者指稱判讀/);assert.match(full,/尚未定指/);assert.match(full,/chapter=117/);
   assert.doesNotMatch(compact,/referent-interpretations/);
 });
 test('untrusted commentary is escaped, unsafe source URLs omitted, and switching language retains source text',()=>{
@@ -29,4 +29,18 @@ test('untrusted commentary is escaped, unsafe source URLs omitted, and switching
   let html=referentCasesHTML([c]);assert.match(html,/&lt;img/);assert.doesNotMatch(html,/<img|href="javascript:/);
   setLocale('en',{persist:false});
   try {html=referentCasesHTML([c]);assert.match(html,/Referent interpretations/);assert.match(html,/陽子/);assert.match(html,/漢書音義/);} finally {setLocale('zh-Hant',{persist:false});}
+});
+test('preferred nonpersonal readings are attributed without person links or changes to received text',()=>{
+  const cases=chapter.annotation.referent_interpretations.filter(c=>c.status==='editorial_provisional');
+  assert.equal(cases.length,2);
+  const html=referentCasesHTML(cases);
+  assert.equal((html.match(/class="referent-preferred"/g)||[]).length,2);
+  assert.match(html,/自然現象/);assert.match(html,/天帝/);
+  assert.doesNotMatch(html,/candidate-profile|data-person-id=/);
+  const p=chapter.paragraphs.find(p=>p.id.endsWith(':p064'));
+  assert.match(p.text,/帝以享祉/);
+  assert.equal(chapterParagraph(p).replace(/<[^>]*>/g,''),p.text);
+  const unresolved=referentCasesHTML(chapter.annotation.referent_interpretations.filter(c=>c.status==='unresolved'));
+  assert.doesNotMatch(unresolved,/class="referent-preferred"/);
+  assert.match(unresolved,/北僑/);assert.match(unresolved,/伯僑/);
 });
