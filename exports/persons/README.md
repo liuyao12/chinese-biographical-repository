@@ -2794,7 +2794,7 @@
 | `DBAA` | 注 | [《史記・楚元王世家》][34] | [JSON](yqp_nlb_p1p_DBAA.json) |
 | `DBAAA` | 純 | [《史記・楚元王世家》][34] | [JSON](yqp_nlb_p1p_DBAAA.json) |
 | `DC` | 郢 | [《史記・楚元王世家》][34] | [JSON](yqp_nlb_p1p_DC.json) |
-| `DCA` | 戊（楚王） | [《史記・楚元王世家》][34] | [JSON](yqp_nlb_p1p_DCA.json) |
+| `DCA` | 戊（楚王） | [《史記・吳王濞列傳》][90] | [JSON](yqp_nlb_p1p_DCA.json) |
 
 </details>
 
