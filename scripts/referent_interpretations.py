@@ -3,7 +3,7 @@
 import re
 from urllib.parse import urlparse
 KINDS = {'historical_person', 'legendary_person', 'unspecified_person',
-         'generic_group', 'multiple_allusions', 'divinity', 'natural_phenomenon'}
+         'generic_group', 'multiple_allusions', 'divinity', 'natural_phenomenon', 'mythical_creature'}
 
 def strings(value, nonempty=True):
     return (isinstance(value,list) and (bool(value) or not nonempty)
@@ -102,7 +102,7 @@ def interpretation_errors(chapter, person_ids):
         if status=='editorial_provisional':
             default=case.get('default_alternative_id')
             chosen=next((a for a in alternatives if a.get('id')==default),None)if isinstance(default,str)else None
-            check(chosen is not None and chosen.get('referent_kind') in ('divinity','natural_phenomenon','generic_group')
+            check(chosen is not None and chosen.get('referent_kind') in ('divinity','natural_phenomenon','generic_group','mythical_creature')
                   and chosen.get('candidate_person_ids')==[], '採用判讀只分類非個人指稱；個人身份須另有身份判斷與正文標記')
             selection=case.get('selection');selection=selection if isinstance(selection,dict)else{}
             selected_refs=selection.get('source_reference_ids')

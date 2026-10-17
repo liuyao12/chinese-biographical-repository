@@ -6,6 +6,12 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `y56_c4g_fbf` | 髙昭子 | [《史記・田敬仲完世家》][32] | [JSON](y56_c4g_fbf.json) |
+| `y5g_euj_1xr` | 季文子（魯卿） | [《史記・魯周公世家》][19] | [JSON](y5g_euj_1xr.json) |
+| `y63_hvf_l13` | 宋湣公 | [《史記・鄭世家》][28] | [JSON](y63_hvf_l13.json) |
+| `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][95] | [JSON](y6f_9v5_dqg.json) |
+| `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][28] | [JSON](y6n_nmo_abl.json) |
+| `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][70] | [JSON](y6v_c03_at3.json) |
 | `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
 | `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][28] | [JSON](y81_o3y_nw3.json) |
@@ -282,6 +288,7 @@
 [67]: https://zh.wikisource.org/w/index.php?title=史記/卷081&oldid=8735558
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷082&oldid=2529471
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252
+[70]: https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305
 [71]: https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911
 [72]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
@@ -297,6 +304,7 @@
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317
+[95]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420

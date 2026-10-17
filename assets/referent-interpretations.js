@@ -3,6 +3,7 @@ import {ui} from './i18n.js';
 import {safeSourceURL} from './historical-tables.js';
 import {sourcePassageURL} from './corpus-reader.js';
 const kinds = {
+  mythical_creature: 'Mythical creature reading',
   historical_person: 'Person reading', legendary_person: 'Legendary or divine reading',
   unspecified_person: 'Unspecified person reading', generic_group: 'Generic group reading',
   multiple_allusions: 'Multiple allusions reading', divinity: 'Divine referent', natural_phenomenon: 'Natural phenomenon'

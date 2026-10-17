@@ -1,3 +1,4 @@
+import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t,ui} from './i18n.js';
@@ -27,7 +28,9 @@ function list() {
 }
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
-  const current=++ticket,scrollY=window.scrollY,params=new URLSearchParams(location.hash.slice(1));
+  const current=++ticket,params=new URLSearchParams(location.hash.slice(1));
+  const readingState=keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter')
+    ? captureReadingState($('corpus-content')) : null;
   removeCards?.();removeCards=null;
   work=manifest.works.find(w=>w.id===params.get('work')) || (!params.has('work')?manifest.works.find(w=>w.reader_kind==='corpus'):null);
   if (!work || work.reader_kind!=='corpus' || !catalogPath(work.catalog_path)) {
@@ -47,10 +50,10 @@ async function render(keepScroll=false) {
   if(chapter.id!==selected.chapter_id || chapter.work_id!==work.id || chapter.book_id!==selected.book_id)throw Error(t('Source text could not be loaded.'));
   document.title=work.title+'·'+selected.title+' · 人文';
   const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id};
-  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p=>chapterParagraph(p,{},context) + referentInterpretations(chapter, p.id)).join('')}</article>`;
+  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p=>chapterParagraph(p,{},context) + referentInterpretations(chapter, p.id)).join('')}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
   const passage=params.get('passage');
-  if(keepScroll)window.scrollTo(0,scrollY);
+  if(readingState)restoreReadingState($('corpus-content'),readingState);
   else if(chapter.paragraphs.some(p=>p.id===passage))document.getElementById(passage).scrollIntoView();
   else window.scrollTo(0,0);
 }
