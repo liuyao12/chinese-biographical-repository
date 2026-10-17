@@ -17,5 +17,5 @@ class HanshuWu(unittest.TestCase):
   people={p['id']for p in read('registry/persons.json')['persons']};self.assertTrue({'yqp_nlb_p1p_CAA','yqp_nlb_p1p_CAB','yqp_nlb_p1p_CAD','yqp_nlb_p1p_CAE'}.issubset(people));self.assertNotIn('yqp_nlb_p1p_CAC',people);self.assertFalse((ROOT/'exports/persons/yqp_nlb_p1p_CAC.json').exists())
  def test_name_is_attested_without_supplying_surname(self):
   n=next(n for n in read('data/corpus/profile-names.json')['records']if n['person_id']=='yqp_nlb_p1p_CAE');self.assertEqual((n['title'],n['surname'],n['ming']),('吳王太子',None,'駒'));self.assertEqual(n['quote'],'吳王太子駒亡走閩越。');self.assertEqual(n['chapter_id'],'c-hanshu-035-jingyanwu');self.assertIn('子駒',n['additional_names'])
- def test_work_catalog_keeps_both_hanshu_books_partial(self):
-  c=read('data/corpus/hanshu/index.json');books={x['number']:x for x in c['chapters']};self.assertEqual(set(books),{35,41});self.assertEqual(books[35]['text_scope'],'partial_chapter');self.assertEqual(books[35]['paragraph_count'],8)
+ def test_work_catalog_tracks_all_imported_hanshu_books(self):
+  c=read('data/corpus/hanshu/index.json');books={x['number']:x for x in c['chapters']};expected={int(json.loads(p.read_text())['book_id'].rsplit('-',1)[1])for p in (ROOT/'corpus/hanshu').glob('[0-9][0-9][0-9].json')};self.assertEqual(set(books),expected);self.assertEqual(books[35]['text_scope'],'partial_chapter');self.assertEqual(books[35]['paragraph_count'],8)
