@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][6] | [JSON](g0o_7tz_csx.json) |
-| `g0t_7m5_3bk` | 鄧都尉 | [《史記・吳王濞列傳》][89] | [JSON](g0t_7m5_3bk.json) |
 | `g0x_vmx_2lg` | 當朝天子 | [《史記・南越列傳》][96] | [JSON](g0x_vmx_2lg.json) |
 | `g14_wpb_odv` | 荀息 | [《史記・晉世家》][22] | [JSON](g14_wpb_odv.json) |
 | `g16_2yo_smd` | 萬石 | [《史記・太史公自序》][113] | [JSON](g16_2yo_smd.json) |
@@ -1414,7 +1412,7 @@
 | `qlb_dp8_dbu` | 叔向 | [《史記・趙世家》][26] | [JSON](qlb_dp8_dbu.json) |
 | `qlj_238_337` | 高祖 | [《史記・汲鄭列傳》][103] | [JSON](qlj_238_337.json) |
 | `qlj_fd6_5mz` | 鬼谷先生 | [《史記・張儀列傳》][53] | [JSON](qlj_fd6_5mz.json) |
-| `qlq_xq2_1sm` | 御史大夫暴 | [《史記・田叔列傳》][87] | [JSON](qlq_xq2_1sm.json) |
+| `qlq_xq2_1sm` | 暴勝之（古注辨識） | [《史記・田叔列傳》][87] | [JSON](qlq_xq2_1sm.json) |
 | `qlu_yvc_mtu` | 許負 | [《史記・外戚世家》][32] | [JSON](qlu_yvc_mtu.json) |
 | `qm1_2k5_hct` | 頎（晉孝公） | [《史記・晉世家》][22] | [JSON](qm1_2k5_hct.json) |
 | `qme_5ae_ovf` | 子胥 | [《史記・滑稽列傳》][109] | [JSON](qme_5ae_ovf.json) |
@@ -2218,10 +2216,11 @@
 | `w7s_pgt_k77` | 四歲後出征敘事單于（未名） | [《史記・李將軍列傳》][92] | [JSON](w7s_pgt_k77.json) |
 | `w85_8hh_ltq` | 商君 | [《史記・陳涉世家》][31] | [JSON](w85_8hh_ltq.json) |
 | `w87_cay_3gx` | 趙調 | [《史記・游俠列傳》][107] | [JSON](w87_cay_3gx.json) |
-| `w8i_dhi_044` | 御史大夫杜 | [《史記・田叔列傳》][87] | [JSON](w8i_dhi_044.json) |
 | `w8q_z9a_0zz` | 陳子禽 | [《史記・仲尼弟子列傳》][50] | [JSON](w8q_z9a_0zz.json) |
 | `w95_we2_wu2` | 仇景 | [《史記・游俠列傳》][107] | [JSON](w95_we2_wu2.json) |
 | `w9b_n1i_kar` | 安王 | [《史記・周本紀》][5] | [JSON](w9b_n1i_kar.json) |
+| `w9t_rdt_ue0` | 舜生母 | [《史記・五帝本紀》][2] | [JSON](w9t_rdt_ue0.json) |
+| `w9v_z3u_iuh` | 魚翁叔 | [《史記・酷吏列傳》][105] | [JSON](w9v_z3u_iuh.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

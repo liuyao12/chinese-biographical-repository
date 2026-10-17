@@ -2735,7 +2735,7 @@
 | `ACAACB` | 平曲侯子 | [《史記・三王世家》][43] | [JSON](yqp_nlb_p1p_ACAACB.json) |
 | `ACAACC` | 南利侯子 | [《史記・三王世家》][43] | [JSON](yqp_nlb_p1p_ACAACC.json) |
 | `ACAACD` | 弘 | [《史記・三王世家》][43] | [JSON](yqp_nlb_p1p_ACAACD.json) |
-| `ACAAD` | 據 | [《史記・外戚世家》][32] | [JSON](yqp_nlb_p1p_ACAAD.json) |
+| `ACAAD` | 據 | [《史記・田叔列傳》][87] | [JSON](yqp_nlb_p1p_ACAAD.json) |
 | `ACAAE` | 昭帝 | [《史記・三王世家》][43] | [JSON](yqp_nlb_p1p_ACAAE.json) |
 | `ACAB` | 德 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAB.json) |
 | `ACABA` | 不害 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACABA.json) |
@@ -2760,7 +2760,7 @@
 | `ACAJA` | 齊 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAJA.json) |
 | `ACAK` | 非（汝南王） | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAK.json) |
 | `ACAKA` | 建 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAKA.json) |
-| `ACAL` | 餘（淮陽王） | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAL.json) |
+| `ACAL` | 餘（淮陽王） | [《史記・田叔列傳》][87] | [JSON](yqp_nlb_p1p_ACAL.json) |
 | `ACALA` | 光 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACALA.json) |
 | `ACAM` | 寄（景帝子） | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAM.json) |
 | `ACAMA` | 賢 | [《史記・五宗世家》][42] | [JSON](yqp_nlb_p1p_ACAMA.json) |

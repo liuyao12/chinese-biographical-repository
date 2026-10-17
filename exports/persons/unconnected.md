@@ -834,7 +834,6 @@
 | `645_hym_djj` | 李夫人子昌邑王 | [《史記・外戚世家》][32] | [JSON](645_hym_djj.json) |
 | `64c_hdt_bl8` | 惠文王 | [《史記・陳涉世家》][31] | [JSON](64c_hdt_bl8.json) |
 | `64q_wka_hx1` | 齊桓引古未定 | [《史記・李斯列傳》][70] | [JSON](64q_wka_hx1.json) |
-| `64t_pmo_3d4` | 太子未具名（兵事） | [《史記・田叔列傳》][87] | [JSON](64t_pmo_3d4.json) |
 | `658_fyo_lfi` | 游孫 | [《史記・周本紀》][5] | [JSON](658_fyo_lfi.json) |
 | `65f_dvi_ljt` | 桀 | [《史記・夏本紀》][3] | [JSON](65f_dvi_ljt.json) |
 | `65g_b5h_fvh` | 主父偃 | [《史記・儒林列傳》][104] | [JSON](65g_b5h_fvh.json) |
@@ -1968,7 +1967,6 @@
 | `eav_dh2_8o8` | 盧綰妻未名 | [《史記・韓信盧綰列傳》][76] | [JSON](eav_dh2_8o8.json) |
 | `eb7_5lg_w9q` | 子贛 | [《史記・貨殖列傳》][112] | [JSON](eb7_5lg_w9q.json) |
 | `eb9_g6y_4q6` | 彌子瑕 | [《史記・老子韓非列傳》][46] | [JSON](eb9_g6y_4q6.json) |
-| `ebi_jr2_aky` | 魯王未名 | [《史記・田叔列傳》][87] | [JSON](ebi_jr2_aky.json) |
 | `ec1_59q_70f` | 少姬（陳哀公偃母） | [《史記・陳杞世家》][19] | [JSON](ec1_59q_70f.json) |
 | `ecc_wdp_4h3` | 亹（衛懷公） | [《史記・衛康叔世家》][20] | [JSON](ecc_wdp_4h3.json) |
 | `ecn_gan_nzt` | 梁惠王引古 | [《史記・穰侯列傳》][55] | [JSON](ecn_gan_nzt.json) |
@@ -2208,6 +2206,8 @@
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][25] | [JSON](g0f_lnq_gkm.json) |
 | `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][104] | [JSON](g0i_iwm_ld0.json) |
 | `g0j_yhl_z02` | 淮南王（趙兼甥） | [《史記・酷吏列傳》][105] | [JSON](g0j_yhl_z02.json) |
+| `g0o_7tz_csx` | 戎胥軒 | [《史記・秦本紀》][6] | [JSON](g0o_7tz_csx.json) |
+| `g0t_7m5_3bk` | 鄧都尉 | [《史記・吳王濞列傳》][89] | [JSON](g0t_7m5_3bk.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
