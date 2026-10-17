@@ -741,6 +741,7 @@
 | `5q3_f2w_w1e` | 田儋奴未名 | [《史記・田儋列傳》][80] | [JSON](5q3_f2w_w1e.json) |
 | `5qk_j3d_hcd` | 董生 | [《史記・太史公自序》][116] | [JSON](5qk_j3d_hcd.json) |
 | `5r6_g5i_kd4` | 遠吏故事夫 | [《史記・蘇秦列傳》][55] | [JSON](5r6_g5i_kd4.json) |
+| `5rm_bw1_128` | 女媧 | [《史記・司馬相如列傳》][103] | [JSON](5rm_bw1_128.json) |
 | `5rp_uvg_yrq` | 信（禽於陳） | [《史記・太史公自序》][116] | [JSON](5rp_uvg_yrq.json) |
 | `5ry_fls_4ob` | 太史公 | [《史記・老子韓非列傳》][49] | [JSON](5ry_fls_4ob.json) |
 | `5s5_hwm_0gx` | 燕文公夫人（未名） | [《史記・蘇秦列傳》][55] | [JSON](5s5_hwm_0gx.json) |
@@ -1557,6 +1558,7 @@
 | `c3r_z15_12i` | 韓相國（韓世家華陽未名者） | [《史記・韓世家》][31] | [JSON](c3r_z15_12i.json) |
 | `c47_gko_qgr` | 魏王須賈引語 | [《史記・穰侯列傳》][58] | [JSON](c47_gko_qgr.json) |
 | `c4w_uo5_66h` | 孟釐子 | [《史記・孔子世家》][33] | [JSON](c4w_uo5_66h.json) |
+| `c4x_npm_q9n` | 屏翳 | [《史記・司馬相如列傳》][103] | [JSON](c4x_npm_q9n.json) |
 | `c5j_5bu_v0o` | 魏尚 | [《史記・張釋之馮唐列傳》][88] | [JSON](c5j_5bu_v0o.json) |
 | `c5t_8kk_hd5` | 夏說 | [《史記・張耳陳餘列傳》][75] | [JSON](c5t_8kk_hd5.json) |
 | `c6o_m5f_ypk` | 陳涉 | [《史記・太史公自序》][116] | [JSON](c6o_m5f_ypk.json) |
@@ -2200,8 +2202,6 @@
 | `gyz_mj7_l1f` | 鯫生 | [《史記・留侯世家》][41] | [JSON](gyz_mj7_l1f.json) |
 | `gz0_xuu_ont` | 樂毅 | [《史記・樂毅列傳》][66] | [JSON](gz0_xuu_ont.json) |
 | `gz1_n2k_xs6` | 太史公（韓世家論贊敘述者） | [《史記・韓世家》][31] | [JSON](gz1_n2k_xs6.json) |
-| `gza_lsj_fvb` | 布（襲荊吳） | [《史記・太史公自序》][116] | [JSON](gza_lsj_fvb.json) |
-| `gze_eo7_lon` | 孟公綽 | [《史記・仲尼弟子列傳》][53] | [JSON](gze_eo7_lon.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt

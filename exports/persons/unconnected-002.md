@@ -6,6 +6,8 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `gza_lsj_fvb` | 布（襲荊吳） | [《史記・太史公自序》][116] | [JSON](gza_lsj_fvb.json) |
+| `gze_eo7_lon` | 孟公綽 | [《史記・仲尼弟子列傳》][53] | [JSON](gze_eo7_lon.json) |
 | `gzj_hsy_5vi` | 甯乘 | [《史記・衛將軍驃騎列傳》][97] | [JSON](gzj_hsy_5vi.json) |
 | `gzq_ays_htq` | 文王 | [《史記・淮南衡山列傳》][104] | [JSON](gzq_ays_htq.json) |
 | `gzs_074_bja` | 李文 | [《史記・酷吏列傳》][108] | [JSON](gzs_074_bja.json) |
@@ -2206,8 +2208,6 @@
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][95] | [JSON](y6f_9v5_dqg.json) |
 | `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][28] | [JSON](y6n_nmo_abl.json) |
 | `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][70] | [JSON](y6v_c03_at3.json) |
-| `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
-| `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
