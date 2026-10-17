@@ -648,7 +648,7 @@
 | `4yr_em4_wid` | 慎靚王 | [《史記・周本紀》][8] | [JSON](4yr_em4_wid.json) |
 | `4yy_xd0_rft` | 梁王（魏世家蘇代游説所指未名者） | [《史記・魏世家》][30] | [JSON](4yy_xd0_rft.json) |
 | `4z2_eut_yeu` | 范陽令未名 | [《史記・張耳陳餘列傳》][75] | [JSON](4z2_eut_yeu.json) |
-| `4zn_n9v_k0v` | 戈船將軍 | [《史記・南越列傳》][99] | [JSON](4zn_n9v_k0v.json) |
+| `4zn_n9v_k0v` | 嚴 | [《史記・南越列傳》][99] | [JSON](4zn_n9v_k0v.json) |
 | `50q_se5_gmw` | 湯 | [《史記・商君列傳》][54] | [JSON](50q_se5_gmw.json) |
 | `50s_src_65d` | 齊湣王（楚篇約從者） | [《史記・楚世家》][26] | [JSON](50s_src_65d.json) |
 | `50y_zbc_5tv` | 伯夷 | [《史記・游俠列傳》][110] | [JSON](50y_zbc_5tv.json) |
@@ -1822,7 +1822,7 @@
 | `dys_y6g_ndq` | 種（越） | [《史記・太史公自序》][116] | [JSON](dys_y6g_ndq.json) |
 | `dzf_ach_247` | 箕子 | [《史記・留侯世家》][41] | [JSON](dzf_ach_247.json) |
 | `dzh_7q4_5aj` | 始成（本卷稱呼） | [《史記・項羽本紀》][11] | [JSON](dzh_7q4_5aj.json) |
-| `dzl_mvt_l93` | 馳義侯 | [《史記・南越列傳》][99] | [JSON](dzl_mvt_l93.json) |
+| `dzl_mvt_l93` | 遺 | [《史記・南越列傳》][99] | [JSON](dzl_mvt_l93.json) |
 | `dzo_7i3_hdh` | 兒良 | [《史記・秦始皇本紀》][10] | [JSON](dzo_7i3_hdh.json) |
 | `e08_fra_mj5` | 劉棄 | [《史記・汲鄭列傳》][106] | [JSON](e08_fra_mj5.json) |
 | `e0c_am8_axw` | 澠池秦禦史未名 | [《史記・廉頗藺相如列傳》][67] | [JSON](e0c_am8_axw.json) |

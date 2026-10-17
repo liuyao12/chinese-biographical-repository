@@ -293,7 +293,7 @@
 | `iv0_705_1c6` | 呂祿女 | [《史記・齊悼惠王世家》][38] | [JSON](iv0_705_1c6.json) |
 | `ivv_l99_uev` | 昧蔡 | [《史記・大宛列傳》][109] | [JSON](ivv_l99_uev.json) |
 | `iw1_34w_8fh` | 昭侯（晉君） | [《史記・齊太公世家》][18]、[《史記・魯周公世家》][19] | [JSON](iw1_34w_8fh.json) |
-| `iw9_udd_jr2` | 下厲將軍 | [《史記・南越列傳》][99] | [JSON](iw9_udd_jr2.json) |
+| `iw9_udd_jr2` | 甲 | [《史記・南越列傳》][99] | [JSON](iw9_udd_jr2.json) |
 | `iwu_5oj_dcv` | 老子 | [《史記・儒林列傳》][107] | [JSON](iwu_5oj_dcv.json) |
 | `iwz_utl_632` | 趙夙（獻公御戎） | [《史記・晉世家》][25] | [JSON](iwz_utl_632.json) |
 | `ix2_thv_ltx` | 遼東太守 | [《史記・朝鮮列傳》][101] | [JSON](ix2_thv_ltx.json) |

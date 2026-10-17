@@ -4,8 +4,8 @@ ROOT=Path(__file__).resolve().parents[1]
 def read(f):return json.loads((ROOT/f).read_text())
 class WudiCrossreading(unittest.TestCase):
  def chapter(self):return read('corpus/hanshu/006.json')
- def test_six_noncontiguous_paragraphs_not_whole_chapter(self):
-  c=self.chapter();self.assertEqual([p['id'].rsplit(':',1)[1]for p in c['paragraphs']],['p001','p024','p025','p028','p039','p040']);self.assertEqual(sum(len(p['mentions'])for p in c['paragraphs']),14);self.assertEqual(c['source']['text_scope'],'partial_chapter');self.assertFalse(c['source']['image_verified']);b=next(b for b in read('corpus/progress.json')['books']if b['book_id']=='b-hanshu-006');self.assertFalse(b['complete']);self.assertEqual(b['text_status'],'partial_transcription')
+ def test_seven_noncontiguous_paragraphs_not_whole_chapter(self):
+  c=self.chapter();self.assertEqual([p['id'].rsplit(':',1)[1]for p in c['paragraphs']],['p001','p024','p025','p028','p039','p040','p133']);self.assertEqual(sum(len(p['mentions'])for p in c['paragraphs']),19);self.assertEqual(c['source']['text_scope'],'partial_chapter');self.assertFalse(c['source']['image_verified']);b=next(b for b in read('corpus/progress.json')['books']if b['book_id']=='b-hanshu-006');self.assertFalse(b['complete']);self.assertEqual(b['text_status'],'partial_transcription')
  def test_seven_cross_book_identities_have_actual_source_anchors(self):
   ds=read('corpus/hanshu/006-identities.json')['decisions'];self.assertEqual(len(ds),7)
   for d in ds:self.assertFalse(d['human_reviewed']);self.assertEqual(d['scope'],'cross_chapter');self.assertIn('c-hanshu-006-wudi',d['chapter_ids']);self.assertTrue(all(e['mention_ids']for e in d['evidence']))
