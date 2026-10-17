@@ -316,3 +316,8 @@ test('reported age shows its editorial year window without a birth year',()=>{
  const p={id:'abc_def_123',label:'測試人物',age_assertions:[{person_id:'abc_def_123',value:62,date_expression:'七國之發',normalized_date_range:{earliest:{era:'BCE',era_year:155,year:-154},latest:{era:'BCE',era_year:154,year:-153}},evidence:[]}]};
  const html=personCard(p,true);assert.match(html,/西元前155至154年/);assert.match(html,/報齡時/);assert.match(html,/七國之發/);assert.doesNotMatch(html,/<dt>生<\/dt>/);
 });
+
+test('received kinship people link directly to profiles and retain literal source evidence',()=>{
+ const p={id:'abc_def_123',label:'張羽',related_people:{abc_def_123:'張羽',xyz_abc_456:'張尚'},relations:[{subject_person_id:'abc_def_123',predicate:'brother',object_person_id:'xyz_abc_456',qualifiers:{source_term:'楚死事相弟張羽'},evidence:[{quote:'楚死事相弟張羽'}]}]};
+ const html=personCard(p,true);assert.match(html,/<a class="person-kinship-link" href="person.html#xyz_abc_456">張尚<\/a>/);assert.match(html,/<a class="person-kinship-link" href="person.html#abc_def_123">張羽<\/a>/);assert.match(html,/楚死事相弟張羽/);assert.doesNotMatch(personCard(p,false),/person-kinship-link/);
+});

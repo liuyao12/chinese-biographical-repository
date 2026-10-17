@@ -1332,6 +1332,113 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji106-chu-minister-001",
+      "person_ids": [
+        "i8p_f0y_kea"
+      ],
+      "canonical_person_id": "i8p_f0y_kea",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-050-chuyuan",
+        "c-shiji-106-wuwang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-050",
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p004",
+          "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0035",
+            "c-shiji-050-chuyuan:m004-0051"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p017",
+          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m017-0095"
+          ]
+        }
+      ],
+      "rationale": "同一七國之役楚國，相而死事；050明記相張尚因諫被殺，106張羽為楚死事相之弟。官職、國別及死事背景一致，不單憑張姓。 集解徐廣及正義明指張尚、羽弟，與正文楚相死諫相合；古注另層保存，不把古注姓名塞入傳世正文，不補父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "集解徐廣·楚死事相身份",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷106&oldid=2514776",
+          "quote": "楚相張尚諫王而死。",
+          "scope": "ancient_commentary_identification",
+          "text_layer": "jijie_commentary",
+          "image_verified": false,
+          "reading_status": "current_page_text_read_fixed_html_unavailable",
+          "limitation": "固定頁此前直接擷取403；未重新擷取固定HTML，不冒稱已核書影。"
+        },
+        {
+          "title": "正義·楚死事相身份",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷106&oldid=2514776",
+          "quote": "按：羽，尚弟也。",
+          "scope": "ancient_commentary_identification",
+          "text_layer": "zhengyi_commentary",
+          "image_verified": false,
+          "reading_status": "current_page_text_read_fixed_html_unavailable",
+          "limitation": "固定頁此前直接擷取403；未重新擷取固定HTML，不冒稱已核書影。"
+        }
+      ]
+    },
+    {
+      "id": "eq-shiji106-chu-minister-002",
+      "person_ids": [
+        "9zj_vf7_86a_A"
+      ],
+      "canonical_person_id": "9zj_vf7_86a_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-050-chuyuan",
+        "c-shiji-106-wuwang"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-050",
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p004",
+          "quote": "王戊立二十年，冬，坐為薄太后服私姦，削東海郡。春，戊與吳王合謀反，其相張尚、太傅趙夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0011"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p004",
+          "quote": "晁錯為太子家令，得幸太子，數從容言吳過可削。數上書說孝文帝，文帝寬，不忍罰，以此吳日益橫。及孝景帝即位，錯為御史大夫，說上曰：「昔高帝初定天下，昆弟少，諸子弱，大封同姓，故王孽子悼惠王王齊七十餘城，庶弟元王王楚四十餘城，兄子濞王吳五十餘城：封三庶孽，分天下半。今吳王前有太子之郄，詐稱病不朝，於古法當誅，文帝弗忍，因賜几杖。德至厚，當改過自新。乃益驕溢，即山鑄錢，煮海水為鹽，誘天下亡人，謀作亂。今削之亦反，不削之亦反。削之，其反亟，禍小；不削，反遲，禍大。」三年冬，楚王朝，晁錯因言楚王戊往年為薄太后服，私姦服舍，請誅之。詔赦，罰削東海郡。因削吳之豫章郡、會稽郡。及前二年趙王有罪，削其河閒郡。膠西王卬以賣爵有姦，削其六縣。",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m004-0248"
+          ]
+        }
+      ],
+      "rationale": "相同王戊、喪服罪及削東海共同事件；須逐篇證據核對，不全域薄太后字串合併",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }
