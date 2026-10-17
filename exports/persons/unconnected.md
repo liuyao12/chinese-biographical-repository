@@ -2001,7 +2001,6 @@
 | `fbj_yol_ei3` | 彊（齊頃公太子） | [《史記・晉世家》][25] | [JSON](fbj_yol_ei3.json) |
 | `fbs_rkc_yim` | 王悍 | [《史記・楚元王世家》][36] | [JSON](fbs_rkc_yim.json) |
 | `fbw_boe_fyu` | 蔡女（楚太子建母） | [《史記・楚世家》][26] | [JSON](fbw_boe_fyu.json) |
-| `fd5_bpe_y1p` | 馳義侯 | [《史記・西南夷列傳》][102] | [JSON](fd5_bpe_y1p.json) |
 | `fd5_uxa_0c9` | 幽王 | [《史記・周本紀》][8] | [JSON](fd5_uxa_0c9.json) |
 | `fd9_3qc_637` | 大費（秦本紀） | [《史記・秦本紀》][9] | [JSON](fd9_3qc_637.json) |
 | `fdi_2l0_u1g` | 薄案 | [《史記・外戚世家》][35] | [JSON](fdi_2l0_u1g.json) |
@@ -2204,6 +2203,7 @@
 | `gv5_znn_7hk` | 屠岸賈 | [《史記・趙世家》][29] | [JSON](gv5_znn_7hk.json) |
 | `gv8_tj5_hcy` | 公孫歸父（宣公時） | [《史記・魯周公世家》][19] | [JSON](gv8_tj5_hcy.json) |
 | `gvf_h1q_fdl` | 魏壽餘（詳反晉者） | [《史記・晉世家》][25] | [JSON](gvf_h1q_fdl.json) |
+| `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][60] | [JSON](gvp_kl8_u6o.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt

@@ -184,6 +184,49 @@
       "interpretation_note": "授受事件與文獻用稱分存；原文沒有確切任期終點則保留未知，死亡不自動終止官爵。故濟北相為追述舊官；去帝制與國內仍用帝號的差異另待處理。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji116-014",
+      "person_id": "dzl_mvt_l93",
+      "title": "馳義侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p007",
+          "quote": "及至南越反，上使馳義侯因犍為發南夷兵。且蘭君恐遠行，旁國虜其老弱，乃與其眾反，殺使者及犍為太守。漢乃發巴蜀罪人嘗擊南越者八校尉擊破之。會越已破，漢八校尉不下，即引兵還，行誅頭蘭。頭蘭，常隔滇道者也。已平頭蘭，遂平南夷為牂柯郡。夜郎侯始倚南越，南越已滅，會還誅反者，夜郎遂入朝。上以為夜郎王。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji116-014:a001",
+          "paragraph_id": "c-shiji-116-xinanyi:p007",
+          "start": 8,
+          "end": 11,
+          "surface": "馳義侯",
+          "person_mention_id": "c-shiji-116-xinanyi:m007-0008",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分開。使其子為令記授任；未名子不補姓名。稱君不擴寫王號，番陽原字保留；未知任期端點不補。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -210,6 +253,14 @@
       "paragraph_id": "c-shiji-113-nanyue:p010",
       "count": 2,
       "quote": "下橫浦；故歸義越侯二人為戈船、下厲將軍，出零陵，或下離水，或柢蒼梧；使馳義侯因巴蜀罪人，發夜郎兵，下牂柯江：咸會番禺。"
+    },
+    {
+      "number": 116,
+      "category": "liezhuan",
+      "title": "西南夷列傳第五十六",
+      "paragraph_id": "c-shiji-116-xinanyi:p007",
+      "count": 1,
+      "quote": "及至南越反，上使馳義侯因犍為發南夷兵。且蘭君恐遠行，旁國虜其老弱，乃與其眾反，殺使者及犍為太守。漢乃發巴蜀罪人嘗擊南越者八校尉擊破之。會越已破，漢八校尉不下，即引兵還，行誅頭蘭。頭蘭，常隔滇道者也。已平頭蘭，遂平南夷為牂柯"
     }
   ],
   "table_occurrences": [],
@@ -272,6 +323,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2及現代節標題，YL紀年模板僅去外殼保留原字。未核底本影像。",
           "note": "索隱述贊另層，不混作正文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-116-xinanyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "source_id": "s-shiji116-xinanyi",
+      "source": {
+        "title": "史記／卷116",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷116",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636",
+        "revision_id": 7903636,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位修訂全文12段，末段索隱述贊另層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標題；YL紀年模板保留第一參數，第二參數編輯年標不納正文。正文原字不改，未核影像。",
+          "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
         }
       }
     }
