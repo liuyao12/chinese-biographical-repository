@@ -1308,6 +1308,7 @@
 | `r56_nsd_loo` | 獻公（燕簡公後） | [《史記・燕召公世家》][20] | [JSON](r56_nsd_loo.json) |
 | `r5h_mrk_rov` | 成蟜 | [《史記・秦始皇本紀》][10] | [JSON](r5h_mrk_rov.json) |
 | `r5i_kqz_a0i` | 趙既 | [《史記・樊酈滕灌列傳》][81] | [JSON](r5i_kqz_a0i.json) |
+| `r5s_lra_wfi` | 東甌王 廣武侯望 | [《史記・漢興以來將相名臣年表》][127] | [JSON](r5s_lra_wfi.json) |
 | `r62_d8z_jhz` | 趙充國 | [《史記・平津侯主父列傳》][98] | [JSON](r62_d8z_jhz.json) |
 | `r6c_fbu_uos` | 嬰 | [《史記・韓世家》][31] | [JSON](r6c_fbu_uos.json) |
 | `r6k_uj1_o5h` | 呂步舒 | [《史記・儒林列傳》][107] | [JSON](r6k_uj1_o5h.json) |
@@ -2208,7 +2209,6 @@
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][26] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][18] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][10] | [JSON](xyx_811_vue.json) |
-| `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
@@ -2332,3 +2332,4 @@
 [124]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
 [126]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037
+[127]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038

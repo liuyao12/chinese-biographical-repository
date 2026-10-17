@@ -344,3 +344,28 @@ def table_regnal_range_errors(value, expression, tables, mentions=None):
                    and r.get('url')==source['revision_url'] for r in refs):
             errors.append('紀年範圍須分列年號起點、原年字與數位年格')
     return errors
+
+
+def table_person_evidence_errors(evidence, tables, person_id):
+    """人物登記可直接引固定原表的逐人錨點，不能偽造正文段落。"""
+    table = tables.get(evidence.get('table_id'))
+    if not table:
+        return ['人物登記表格不存在']
+    source = table['source']
+    if (evidence.get('kind') != 'table_cell' or 'paragraph_id' in evidence
+            or any(evidence.get(k) != source.get(v) for k, v in
+                   [('work_id','work_id'), ('book_id','book_id'), ('chapter_id','chapter_id'),
+                    ('source_id','id'), ('source_revision','revision')])):
+        return ['人物登記表格來源或固定修訂不符']
+    cell = table_cell(table, evidence.get('table_cell_id'))
+    if not cell or evidence.get('source_quote') != cell['text']:
+        return ['人物登記須保留原格全文']
+    mention = next((m for m in cell.get('person_mentions', [])
+                    if m['id'] == evidence.get('mention_id')), None)
+    if (not mention or mention.get('person_id') != person_id
+            or type(mention.get('start')) is not int or type(mention.get('end')) is not int
+            or not 0 <= mention['start'] < mention['end'] <= len(cell['text'])
+            or cell['text'][mention['start']:mention['end']] != mention.get('surface')
+            or evidence.get('quote') != mention.get('surface')):
+        return ['人物登記須有相符逐人錨點及原稱']
+    return []

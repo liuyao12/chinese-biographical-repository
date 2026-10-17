@@ -1,4 +1,5 @@
 export default {
+  'Fixed source revision': '固定來源版本',
   'Name component alternative':'姓名組件另說',
   'Not selected as default':'未採為預設',
   'Surname':'姓',

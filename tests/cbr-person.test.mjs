@@ -347,3 +347,14 @@ test('people without distinction data omit the section',()=>{
  assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[]},true),/person-identity-distinctions/);
  assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[],identity_distinctions:[]},true),/person-identity-distinctions/);
 });
+
+test('native table profile links only the matching fixed witness and rejects unsafe URLs', () => {
+ const evidence={kind:'table_cell',table_id:'shiji-022',table_cell_id:'synthetic-cell',work_id:'w-shiji',book_id:'b-shiji-022',chapter_id:'table-chapter-shiji-022',source_id:'synthetic-witness',source_revision:'42',quote:'synthetic quotation'};
+ const witness={work_id:evidence.work_id,book_id:evidence.book_id,chapter_id:evidence.chapter_id,source_id:evidence.source_id,source:{revision:'42',revision_url:'https://example.com/?oldid=42'}};
+ const profile={id:'abc_def_123',label:'synthetic person',name_components:[{...evidence,title:'synthetic rank',ming:'synthetic name'}],sources:[witness]};
+ setLocale('zh-Hant');assert.match(personCard(profile,true),/person-fixed-table-source/);assert.match(personCard(profile,true),/固定來源版本/);
+ setLocale('en');assert.match(personCard(profile,true),/Fixed source revision/);setLocale('zh-Hant');
+ for(const change of [{source:{...witness.source,revision:'43'}},{chapter_id:'different-chapter'},{source:{revision:'42',revision_url:'javascript:alert(1)'}}]){
+  assert.doesNotMatch(personCard({...profile,sources:[{...witness,...change}]},true),/class="person-fixed-table-source"/);
+ }
+});
