@@ -355,6 +355,72 @@
       "interpretation_note": "授受事件與文獻用稱分存；原文沒有確切任期終點則保留未知，死亡不自動終止官爵。故濟北相為追述舊官；去帝制與國內仍用帝號的差異另待處理。 原先沿段首元鼎六年填授爵年；該段先述冬季戰役再述捕獲與封爵，日期不當端點明載，撤除此推定，按獨立原表授爵日期分源顯示。原句與授爵事件保留。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji113-035",
+      "person_id": "m08_4xt_opo",
+      "title": "校尉司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "source_term": "故校尉司馬",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-113",
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p011",
+          "quote": "元鼎六年冬，樓船將軍將精卒先陷尋陜，破石門，得越船粟，因推而前，挫越鋒，以數萬人待伏波。伏波將軍將罪人，道遠，會期後，與樓船會乃有千餘人，遂俱進。樓船居前，至番禺。建德、嘉皆城守。樓船自擇便處，居東南面；伏波居西北面。會暮，樓船攻敗越人，縱火燒城。越素聞伏波名，日暮，不知其兵多少。伏波乃為營，遣使者招降者，賜印，復縱令相招。樓船力攻燒敵，反驅而入伏波營中。犁旦，城中皆降伏波。呂嘉、建德已夜與其屬數百人亡入海，以船西去。伏波又因問所得降者貴人，以知呂嘉所之，遣人追之。以其故校尉司馬蘇弘得建德，封為海常侯；越郎都稽得嘉，封為臨蔡侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji113-035:a001",
+          "paragraph_id": "c-shiji-113-nanyue:p011",
+          "start": 238,
+          "end": 242,
+          "surface": "校尉司馬",
+          "person_mention_id": "c-shiji-113-nanyue:m011-0242",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只記原稱故校尉司馬為舊職用稱，不拆作兩項正式授任，也不把司馬作姓。漢書校之司馬之注另列，來源弘／宏字形不改。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《漢書》卷95顏師古注校之司馬",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L348-L350",
+          "quote": "校之司馬若今行軍總管司馬也",
+          "raw_quote": "入海伏波又問降者知嘉所之遣人追故其校司馬蘇¶\n<pb:KR2a0007_WYG_095-20a>¶\n宏得建德為海常侯(師古曰校之司馬若/今行軍總管司馬也)粤即都稽得¶",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "defa20130c3e1235164fab6d887a3f2b72894874b5658a6383ad028f356b344a",
+          "response_extent": {
+            "start_line": 301,
+            "end_line": 450,
+            "full_file": false
+          },
+          "scope": "ancient_commentary_office_interpretation",
+          "image_verified": false
+        }
+      ],
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
