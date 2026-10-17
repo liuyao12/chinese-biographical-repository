@@ -15,7 +15,10 @@
     "太尉",
     "丞相",
     "太尉亞夫",
-    "條侯周亞夫"
+    "條侯周亞夫",
+    "太尉周亞夫",
+    "太尉條侯周亞夫",
+    "太尉條侯"
   ],
   "titles": [
     {
@@ -299,6 +302,48 @@
         }
       },
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji052-042",
+      "person_id": "koy_6jg_gcc_C",
+      "title": "太尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p025",
+          "quote": "齊孝王十一年，吳王濞、楚王戊反，興兵西，告諸侯曰「將誅漢賊臣晁錯以安宗廟」。膠西、膠東、菑川、濟南皆擅發兵應吳楚。欲與齊，齊孝王狐疑，城守不聽，三國兵共圍齊。齊王使路中大夫告於天子。天子復令路中大夫還告齊王：「善堅守，吾兵今破吳楚矣。」路中大夫至，三國兵圍臨菑數重，無從入。三國將劫與路中大夫盟，曰：「若反言漢已破矣，齊趣下三國，不且見屠。」路中大夫既許之，至城下，望見齊王，曰：「漢已發兵百萬，使太尉周亞夫擊破吳楚，方引兵救齊，齊必堅守無下！」三國將誅路中大夫。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji052-042:a001",
+          "paragraph_id": "c-shiji-052-qidaohui:p025",
+          "start": 199,
+          "end": 201,
+          "surface": "太尉",
+          "person_mention_id": "c-shiji-052-qidaohui:m025-0199",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、任事、提議、回敘及用稱分開；年號僅留原語，不反算公曆起訖。朱虛、東牟許封趙梁而未實現不記實授，死亡不自動終止全部稱號。章與興居授王兩處年表述各留原段，不擅調和。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -1342,12 +1387,36 @@
       "quote": "西鄉。天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。上乃遣大將軍竇嬰、太尉周亞夫將兵誅之。六月乙亥。赦亡軍及楚元王子藝等與謀反者。封大將軍竇嬰為魏其侯。立楚元王子平陸侯禮為楚王。立皇子端為膠西王，子勝為中山王。徙濟北王志為菑川王，淮陽王餘為魯王，汝南王非為江都王。齊王將廬、燕王嘉"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "荊燕吳王傳第五",
+      "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p010",
+      "count": 10,
+      "quote": "七國反書聞，天子乃遣太尉條侯周亞夫將三十六將軍往擊吳楚；遣曲周侯酈寄擊趙，將軍欒布擊齊，大將軍竇嬰屯滎陽監齊趙兵。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "paragraph_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:p010",
+        "c-hanshu-035-jingyanwu:wuwang:p018"
+      ]
+    },
+    {
       "number": 50,
       "category": "shijia",
       "title": "楚元王世家第二十",
       "paragraph_id": "c-shiji-050-chuyuan:p004",
       "count": 1,
       "quote": "夷吾諫，不聽。戊則殺尚、夷吾，起兵與吳西攻梁，破棘壁。至昌邑南，與漢將周亞夫戰。漢絕吳楚糧道，士卒饑，吳王走，楚王戊自殺，軍遂降漢。"
+    },
+    {
+      "number": 52,
+      "category": "shijia",
+      "title": "齊悼惠王世家第二十二",
+      "paragraph_id": "c-shiji-052-qidaohui:p025",
+      "count": 1,
+      "quote": "，不且見屠。」路中大夫既許之，至城下，望見齊王，曰：「漢已發兵百萬，使太尉周亞夫擊破吳楚，方引兵救齊，齊必堅守無下！」三國將誅路中大夫。"
     },
     {
       "number": 57,
@@ -1378,8 +1447,16 @@
       "category": "liezhuan",
       "title": "吳王濞列傳第四十六",
       "paragraph_id": "c-shiji-106-wuwang:p010",
-      "count": 12,
+      "count": 13,
       "quote": "七國反書聞天子，天子乃遣太尉條侯周亞夫將三十六將軍，往擊吳楚；遣曲周侯酈寄擊趙；將軍欒布擊齊；大將軍竇嬰屯滎陽，監齊趙兵。"
+    },
+    {
+      "number": 107,
+      "category": "liezhuan",
+      "title": "魏其武安列傳第四十七",
+      "paragraph_id": "c-shiji-107-weiqi:p003",
+      "count": 4,
+      "quote": "。七國兵已盡破，封嬰為魏其侯。諸游士賓客爭歸魏其侯。孝景時每朝議大事，條侯、魏其侯，諸列侯莫敢與亢禮。"
     },
     {
       "number": 109,
@@ -1449,6 +1526,37 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "source": {
+        "title": "漢書／卷035",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
+        "revision_id": 2605377,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
+        },
+        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
+        "included_sections": [
+          "吳王傳八個不連續段落"
+        ],
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "edition": null,
+        "revision_timestamp": null
+      }
+    },
     {
       "chapter_id": "c-shiji-010-wendi",
       "work_id": "w-shiji",
@@ -1522,6 +1630,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留辟彊、（以）［是］、防與先生等原字與校勘字樣。",
           "note": "全11段已讀並作明示人物首輪，索隱述贊另分層；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-052-qidaohui",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "source_id": "s-shiji-052-qidaohui",
+      "source": {
+        "title": "史記／卷052",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷052",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
+        "revision_id": 5977113,
+        "accessed_on": "2026-10-09",
+        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
+          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
         }
       }
     },
@@ -1612,6 +1744,30 @@
         "revision_id": 405869,
         "accessed_on": "2026-10-10",
         "extent": "20段正文含書信、制詔與太史公論，1段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
+          "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-107-weiqi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "source_id": "s-shiji-107-weiqi",
+      "source": {
+        "title": "史記／卷107",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷107",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+        "revision_id": 2540571,
+        "accessed_on": "2026-10-11",
+        "extent": "27段正文與太史公論，1段索隱述贊。",
         "image_verified": false,
         "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",

@@ -663,7 +663,7 @@ class PersonBundleTests(unittest.TestCase):
         self.assertIsNone(origin['place']['modern_identification'])
 
     def test_usage_year_includes_earlier_chronological_context(self):
-        result = bundle('284_zc9_6fx')
+        result = bundle('fmh_dmt_cql')
         passages = {p['id']: p for p in result['passages']}
         self.assertIn('c-shiji-107-weiqi:p019', passages)
         h = next(h for h in result['title_holdings'] if h['title'] == '主爵都尉')
@@ -672,12 +672,12 @@ class PersonBundleTests(unittest.TestCase):
         self.assertEqual(h['effective_period']['start']['status'], 'unknown')
 
     def test_unresolved_dowager_is_available_without_identity_merge(self):
-        for pid in ('6d6_eg1_o3a_A', 'l26_mjw_rwe'):
+        for pid in ('6d6_eg1_o3a_A', 'ixk_6fg_v6f_A'):
             result = bundle(pid, include_provisional=True)
             case = next(c for c in result['unresolved_identity_cases'] if c['id'].startswith('u-shiji107-'))
-            self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'l26_mjw_rwe'})
+            self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'ixk_6fg_v6f_A'})
             self.assertIn(pid, result['person_ids'])
-            other = 'l26_mjw_rwe' if pid == '6d6_eg1_o3a_A' else '6d6_eg1_o3a_A'
+            other = 'ixk_6fg_v6f_A' if pid == '6d6_eg1_o3a_A' else '6d6_eg1_o3a_A'
             self.assertNotIn(other, result['person_ids'])
             passages = {p['id']: p for p in result['passages']}
             self.assertTrue(all(p in passages for p in case['paragraph_ids']))

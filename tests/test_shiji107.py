@@ -57,7 +57,7 @@ class WeiqiSourceTests(unittest.TestCase):
         self.assertEqual(m['kind'], 'unresolved')
         self.assertIsNone(m['person_id'])
         case = next(case for case in c['annotation']['unresolved_identity_cases'] if p['id'] in case['paragraph_ids'])
-        self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'l26_mjw_rwe'})
+        self.assertEqual(set(case['candidate_person_ids']), {'6d6_eg1_o3a_A', 'ixk_6fg_v6f_A'})
 
     def test_crown_prince_has_explicit_installation_and_deposition(self):
         h = next(h for h in self.load('-titles')['holdings'] if h['title'] == '太子')
@@ -75,8 +75,8 @@ class WeiqiSourceTests(unittest.TestCase):
 
     def test_office_dismissal_does_not_end_noble_rank(self):
         hs = self.load('-titles')['holdings']
-        office = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '相')
-        rank = next(h for h in hs if h['person_id'] == 'xwe_h0r_1x4' and h['title'] == '桃侯')
+        office = next(h for h in hs if h['person_id'] == '3p2_0dm_6ra' and h['title'] == '相')
+        rank = next(h for h in hs if h['person_id'] == '3p2_0dm_6ra' and h['title'] == '桃侯')
         self.assertEqual(office['effective_period']['end']['event_type'], 'deposition')
         self.assertEqual(rank['effective_period']['end']['status'], 'unknown')
 

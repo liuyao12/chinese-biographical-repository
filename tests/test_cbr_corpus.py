@@ -1106,4 +1106,19 @@ class CorpusTests(unittest.TestCase):
         self.change('corpus/hanshu/041-assertions.json',lambda d:d['assertions'][0]['evidence'][0].update(work_id='w-shiji'))
         self.assertIn('引文著作卷ID與實際來源不符',v.validate(self.root))
 
+
+    def test_age_range_rejects_wrong_numbering(self):
+        self.change('corpus/shiji/106.json', lambda d: d['annotation']['age_assertions'][0]['normalized_date_range']['earliest'].update(year=-197))
+        self.assertIn('紀年範圍端點年編號不符', v.validate(self.root))
+    def test_age_range_requires_own_source_quote(self):
+        self.change('corpus/shiji/106.json', lambda d: d['annotation']['age_assertions'][0]['normalized_date_range'].update(original_quote='他篇原句'))
+        self.assertIn('紀年範圍缺相符原紀年與事件引句', v.validate(self.root))
+    def test_age_range_cannot_also_claim_single_year(self):
+        self.change('corpus/shiji/106.json', lambda d: d['annotation']['age_assertions'][0].update(normalized_date={'era':'BCE','era_year':196,'year':-195}))
+        self.assertIn('來源報齡跨年範圍不得另填確定單年', v.validate(self.root))
+
+    def test_title_parallel_range_requires_fixed_same_person_table_event(self):
+        self.change('corpus/shiji/106-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji106-005')['effective_period']['start']['normalized_date_range']['table_event'].update(source_revision='1'))
+        self.assertIn('稱號平行紀年表格來源或固定修訂不符',v.validate(self.root))
+
 if __name__=='__main__':unittest.main()

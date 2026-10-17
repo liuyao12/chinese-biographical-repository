@@ -1212,6 +1212,22 @@
   ],
   "occurrences": [
     {
+      "number": 6,
+      "category": "",
+      "title": "武帝紀第六",
+      "paragraph_id": "c-hanshu-006-wudi:p001",
+      "count": 3,
+      "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-006",
+      "chapter_id": "c-hanshu-006-wudi",
+      "paragraph_ids": [
+        "c-hanshu-006-wudi:p001",
+        "c-hanshu-006-wudi:p024"
+      ]
+    },
+    {
       "number": 11,
       "category": "benji",
       "title": "孝景本紀第十一",
@@ -1304,7 +1320,7 @@
       "category": "liezhuan",
       "title": "魏其武安列傳第四十七",
       "paragraph_id": "c-shiji-107-weiqi:p006",
-      "count": 27,
+      "count": 28,
       "quote": "，蚡益貴幸，為太中大夫。蚡辯有口，學槃盂諸書，王太后賢之。孝景崩，即日太子立，稱制，所鎮撫多有田蚡賓客計筴，蚡弟田勝，皆以太后弟，孝景後三年封蚡為武安侯，勝為周陽侯。"
     },
     {
@@ -1531,6 +1547,42 @@
     }
   ],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-006-wudi",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-006",
+      "source_id": "s-hanshu-006-wudi",
+      "source": {
+        "title": "漢書／卷006",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷006",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
+        "revision_id": 2631854,
+        "accessed_on": "2026-10-15",
+        "extent": "目前選錄六個不連續原段，涵蓋即位親屬、建元六年太皇太后崩與元光四年竇嬰、田蚡卒事；非全卷完成。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML之正文p元素；排除style、script非正文節點，解碼HTML實體及去段首尾空白。保留原字、標點及原段，不合併，未作簡繁轉換。"
+        },
+        "html_sha256": "af4ba4e2d5e73e8c12999497b92ec7bdd9c263c6752391da8d6bfc5cba0e7548",
+        "included_sections": [
+          "固定HTML第1個正文p元素：孝武皇帝，景帝中子也，母曰王美人。年",
+          "固定HTML第24個正文p元素：六年春二月乙未，遼東高廟災。夏四月壬",
+          "固定HTML第25個正文p元素：五月丁亥，太皇太后崩。",
+          "固定HTML第28個正文p元素：元光元年冬十一月，初令郡國舉孝廉各一",
+          "固定HTML第39個正文p元素：四年冬，魏其侯竇嬰有罪，棄巿。",
+          "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。"
+        ],
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "edition": null,
+        "revision_timestamp": null
+      }
+    },
     {
       "chapter_id": "c-shiji-011-jingdi",
       "work_id": "w-shiji",
@@ -1966,6 +2018,52 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-hanshu006-001",
+      "subject_person_id": "yqp_nlb_p1p_ACAA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ACA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p001",
+          "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "景帝中子也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本句明示父母、同母弟及相對年序；中子不給確切排行，同母不推同父或補生母以外配偶。與既有史記記錄分存來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-hanshu006-002",
+      "subject_person_id": "yqp_nlb_p1p_ACAA",
+      "predicate": "mother",
+      "object_person_id": "6d6_eg1_o3a_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p001",
+          "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母曰王美人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本句明示父母、同母弟及相對年序；中子不給確切排行，同母不推同父或補生母以外配偶。與既有史記記錄分存來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji012-001",
       "subject_person_id": "yqp_nlb_p1p_ACAA",
@@ -2630,6 +2728,52 @@
     "yqp_nlb_p1p_ACAA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-hanshu006-001",
+      "subject_person_id": "yqp_nlb_p1p_ACAA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ACA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p001",
+          "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "景帝中子也",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本句明示父母、同母弟及相對年序；中子不給確切排行，同母不推同父或補生母以外配偶。與既有史記記錄分存來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-hanshu006-002",
+      "subject_person_id": "yqp_nlb_p1p_ACAA",
+      "predicate": "mother",
+      "object_person_id": "6d6_eg1_o3a_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-006",
+          "chapter_id": "c-hanshu-006-wudi",
+          "source_id": "s-hanshu-006-wudi",
+          "paragraph_id": "c-hanshu-006-wudi:p001",
+          "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "母曰王美人",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "只記本句明示父母、同母弟及相對年序；中子不給確切排行，同母不推同父或補生母以外配偶。與既有史記記錄分存來源。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji012-001",
       "subject_person_id": "yqp_nlb_p1p_ACAA",

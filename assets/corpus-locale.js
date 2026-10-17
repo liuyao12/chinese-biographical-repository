@@ -1,4 +1,7 @@
 export default {
+  'Provisional preferred date':'首選紀年（暫定）',
+  'Source alternative date':'來源異說',
+  'Date choice unresolved':'紀年取捨未定',
   'Teaching and learning':'來源所記師承',
   'Studied with':'受業於',
   'Source evidence':'來源證據',

@@ -65,6 +65,21 @@
   ],
   "occurrences": [
     {
+      "number": 35,
+      "category": "",
+      "title": "荊燕吳王傳第五",
+      "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p003",
+      "count": 3,
+      "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕。博爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬吳。吳王慍曰：「天下一宗，死長安即葬長安，何必來葬！」復遣喪之長安葬。吳王由是怨望，稍失藩",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "paragraph_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:p003"
+      ]
+    },
+    {
       "number": 106,
       "category": "liezhuan",
       "title": "吳王濞列傳第四十六",
@@ -75,6 +90,37 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "source": {
+        "title": "漢書／卷035",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
+        "revision_id": 2605377,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
+        },
+        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
+        "included_sections": [
+          "吳王傳八個不連續段落"
+        ],
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "edition": null,
+        "revision_timestamp": null
+      }
+    },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
@@ -119,7 +165,7 @@
         "source_term": "吳太子",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子分存；少子、起兵太子、子華、子駒彼此是否同人仍待核，不以候選 ID 分立宣稱確證不同人物。",
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -151,7 +197,7 @@
         "source_term": "吳太子",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子分存；少子、起兵太子、子華、子駒彼此是否同人仍待核，不以候選 ID 分立宣稱確證不同人物。",
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -170,7 +216,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji106-002",
+      "person_id": "yqp_nlb_p1p_CAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "孝文時",
+      "source_term": "皇太子引博局提吳太子，殺之",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p003",
+          "quote": "孝文時，吳太子入見，得侍皇太子飲博。吳太子師傅皆楚人，輕悍，又素驕，博，爭道，不恭，皇太子引博局提吳太子，殺之。於是遣其喪歸葬。至吳，吳王慍曰：「天下同宗，死長安即葬長安，何必來葬為！」復遣喪之長安葬。吳王由此稍失藩臣之禮，稱病不朝。京師知其以子故稱病不朝，驗問實不病，諸吳使來，輒系責治之。吳王恐，為謀滋甚。及後使人為秋請，上復責問吳使者，使者對曰：「王實不病，漢系治使者數輩，以故遂稱病。且夫『察見淵中魚，不祥』。今王始詐病，及覺，見責急，愈益閉，恐上誅之，計乃無聊。唯上棄之而與更始。」於是天子乃赦吳使者歸之，而賜吳王几杖，老，不朝。吳得釋其罪，謀亦益解。然其居國以銅鹽故，百姓無賦。卒踐更，輒與平賈。歲時存問茂材，賞賜閭里。佗郡國吏欲來捕亡人者，訟共禁弗予。如此者四十餘年，以故能使其眾。",
+          "person_mention_id": "c-shiji-106-wuwang:m003-0049"
+        }
+      ],
+      "interpretation_note": "只記本段實際死亡。未明死因者不補自殺；不以死亡終止全部官爵，不把時長當月名。吳太子僅孝文時，不補確切年；齊王早置發兵段的敘次與052不同，兩篇原文分存。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

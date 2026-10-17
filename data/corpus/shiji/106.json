@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全21段初讀；64筆新增候選、225處所選錨點、10條親屬、3筆地點、34筆官爵及4項跨篇暫定同指。 七國事書信五組王號依同篇詔書具名接合；不同時期吳太子、膠西太子德與德侯仍分存。 九組跨篇身份依具體事件接合，周亞夫依既有057明示父子接周勃同根，子代沿原路徑遷移。 德侯暫辨名通，與年表原名錨點接合；廣異說及古注閱讀範圍分存，不改正文或補親屬。",
+    "coverage": "全21段初讀；64筆新增候選、225處所選錨點、10條親屬、3筆地點、34筆官爵及4項跨篇暫定同指。 七國事書信五組王號依同篇詔書具名接合；不同時期吳太子、膠西太子德與德侯仍分存。 九組跨篇身份依具體事件接合，周亞夫依既有057明示父子接周勃同根，子代沿原路徑遷移。 德侯暫辨名通，與年表原名錨點接合；廣異說及古注閱讀範圍分存，不改正文或補親屬。 八組齊、濟北、城陽祖德及梁方人物跨篇辨識，將閭明示父系接劉肥；敘次差異不抹平。 續核末段八處逐人王號／將軍，保存十五筆死亡及三筆報齡；漢初紀年以跨年範圍分存。 楚死事相依050及古注明指接張尚，050同次喪服事件薄太后接既有人物；張羽弟關係原序保留。 漢書035八段交叉核讀，起兵太子依同諫田祿伯及太子駒亡閩越暫接駒；少子與子華不合併。 五段續補29處太子、王、大王、主上、太后與太尉之具體回指，九項段內身份判斷。",
     "limitations": [
       "僅為核讀過正文的長名與部分稱謂草稿；短稱、代詞、匿名及共同王號未完成。",
       "已分配來源候選人物 ID；跨篇同指另以事件證據保存，不按同名合併。",
@@ -45,7 +45,299 @@
       "吳王子子華、子駒姓名含子字，不截成華、駒；少子未名不自動同指。",
       "太后、太子德與膠西王卬親屬在其上下文範圍判讀，不把其他王后太子合併。",
       "屬群體的諸將、吳使、楚人師傅仍待補未解錨點；下邳令已保存匿名候選。",
-      "第十七段與楚王遂西敗棘壁的遂可能是連詞，不單按楚王遂字串認作趙王遂或另一楚王姓名。"
+      "第十七段與楚王遂西敗棘壁的遂可能是連詞，不單按楚王遂字串認作趙王遂或另一楚王姓名。",
+      "p004今吳王前有太子之郄之太子仍待辨其指人或事，未將前兩處太子同指機械沿用；國名／軍隊名亦不一律標人。"
+    ],
+    "age_assertions": [
+      {
+        "person_id": "yqp_nlb_p1p_CA",
+        "source_term": "年二十",
+        "source_number": "二十",
+        "value": 20,
+        "birth_year": null,
+        "counting": "unspecified_source_age",
+        "id": "age-shiji106-001",
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "date_expression": "高帝十一年秋",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-106",
+            "chapter_id": "c-shiji-106-wuwang",
+            "source_id": "s-shiji-106-wuwang",
+            "paragraph_id": "c-shiji-106-wuwang:p001",
+            "quote": "吳王濞者，高帝兄劉仲之子也。高帝已定天下七年，立劉仲為代王。而匈奴攻代，劉仲不能堅守，棄國亡，閒行走雒陽，自歸天子。天子為骨肉故，不忍致法，廢以為郃陽侯。高帝十一年秋，淮南王英布反，東并荊地，劫其國兵，西度淮，擊楚，高帝自將往誅之。劉仲子沛侯濞年二十，有氣力，以騎將從破布軍蘄西，會甀，布走。荊王劉賈為布所殺，無後。上患吳、會稽輕悍，無壯王以填之，諸子少，乃立濞於沛為吳王，王三郡五十三城。已拜受印，高帝召濞相之，謂曰：「若狀有反相。」心獨悔，業已拜，因拊其背，告曰：「漢後五十年東南有亂者，豈若邪？然天下同姓為一家也，慎無反！」濞頓首曰：「不敢。」",
+            "person_mention_id": "c-shiji-106-wuwang:m001-0121"
+          }
+        ],
+        "interpretation_note": "保存原文報齡，不當享年，不推虛歲或出生年。少子不與後文子華、子駒按稱謂合併。未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "normalized_date_range": {
+          "earliest": {
+            "era": "BCE",
+            "era_year": 197,
+            "year": -196
+          },
+          "latest": {
+            "era": "BCE",
+            "era_year": 196,
+            "year": -195
+          },
+          "year_numbering": "astronomical",
+          "precision": "year_range",
+          "basis": "regnal_year_crosses_ce_year",
+          "status": "editorial_provisional",
+          "original_quote": "吳王濞者，高帝兄劉仲之子也。高帝已定天下七年，立劉仲為代王。而匈奴攻代，劉仲不能堅守，棄國亡，閒行走雒陽，自歸天子。天子為骨肉故，不忍致法，廢以為郃陽侯。高帝十一年秋，淮南王英布反，東并荊地，劫其國兵，西度淮，擊楚，高帝自將往誅之。劉仲子沛侯濞年二十，有氣力，以騎將從破布軍蘄西，會甀，布走。荊王劉賈為布所殺，無後。上患吳、會稽輕悍，無壯王以填之，諸子少，乃立濞於沛為吳王，王三郡五十三城。已拜受印，高帝召濞相之，謂曰：「若狀有反相。」心獨悔，業已拜，因拊其背，告曰：「漢後五十年東南有亂者，豈若邪？然天下同姓為一家也，慎無反！」濞頓首曰：「不敢。」",
+          "evidence": [
+            {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-106",
+              "chapter_id": "c-shiji-106-wuwang",
+              "source_id": "s-shiji-106-wuwang",
+              "paragraph_id": "c-shiji-106-wuwang:p001",
+              "quote": "吳王濞者，高帝兄劉仲之子也。高帝已定天下七年，立劉仲為代王。而匈奴攻代，劉仲不能堅守，棄國亡，閒行走雒陽，自歸天子。天子為骨肉故，不忍致法，廢以為郃陽侯。高帝十一年秋，淮南王英布反，東并荊地，劫其國兵，西度淮，擊楚，高帝自將往誅之。劉仲子沛侯濞年二十，有氣力，以騎將從破布軍蘄西，會甀，布走。荊王劉賈為布所殺，無後。上患吳、會稽輕悍，無壯王以填之，諸子少，乃立濞於沛為吳王，王三郡五十三城。已拜受印，高帝召濞相之，謂曰：「若狀有反相。」心獨悔，業已拜，因拊其背，告曰：「漢後五十年東南有亂者，豈若邪？然天下同姓為一家也，慎無反！」濞頓首曰：「不敢。」",
+              "person_mention_id": "c-shiji-106-wuwang:m001-0121"
+            }
+          ],
+          "references": [
+            {
+              "title": "《史記曆書》索隱·太初改歲首",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+              "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+              "scope": "received_calendar_rule",
+              "text_layer": "suoyin_commentary",
+              "revision_id": 2514838,
+              "image_verified": false
+            },
+            {
+              "title": "〈吳王濞列傳〉原紀年",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+              "quote": "高帝十一年秋",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            },
+            {
+              "title": "將相表數位年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "196",
+              "table_cell_id": "shiji-022-t1-r011-c00",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            }
+          ],
+          "rationale": "據本篇明示紀年及同次事件上下文，原紀年、數位對照及漢初建亥歲首依據分列。保守記錄歲首跨兩個西元年的範圍，不由月名或時長推確日；未知計歲方式，不倒推生年。未核書影。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "person_id": "yqp_nlb_p1p_CA",
+        "source_term": "年六十二",
+        "source_number": "六十二",
+        "value": 62,
+        "birth_year": null,
+        "counting": "unspecified_source_age",
+        "id": "age-shiji106-002",
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "date_expression": "七國之發",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-106",
+            "chapter_id": "c-shiji-106-wuwang",
+            "source_id": "s-shiji-106-wuwang",
+            "paragraph_id": "c-shiji-106-wuwang:p008",
+            "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+            "person_mention_id": "c-shiji-106-wuwang:m008-0006"
+          }
+        ],
+        "interpretation_note": "保存原文報齡，不當享年，不推虛歲或出生年。少子不與後文子華、子駒按稱謂合併。未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "normalized_date_range": {
+          "earliest": {
+            "era": "BCE",
+            "era_year": 155,
+            "year": -154
+          },
+          "latest": {
+            "era": "BCE",
+            "era_year": 154,
+            "year": -153
+          },
+          "year_numbering": "astronomical",
+          "precision": "year_range",
+          "basis": "regnal_year_crosses_ce_year",
+          "status": "editorial_provisional",
+          "original_quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+          "evidence": [
+            {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-106",
+              "chapter_id": "c-shiji-106-wuwang",
+              "source_id": "s-shiji-106-wuwang",
+              "paragraph_id": "c-shiji-106-wuwang:p008",
+              "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+              "person_mention_id": "c-shiji-106-wuwang:m008-0006"
+            }
+          ],
+          "references": [
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "孝景元年",
+              "table_cell_id": "shiji-022-t1-r051-c01",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            },
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "三",
+              "table_cell_id": "shiji-022-t1-r053-c01",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            },
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "154",
+              "table_cell_id": "shiji-022-t1-r053-c00",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            },
+            {
+              "title": "《史記曆書》索隱·太初改歲首",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+              "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+              "scope": "received_calendar_rule",
+              "text_layer": "suoyin_commentary",
+              "revision_id": 2514838,
+              "image_verified": false
+            },
+            {
+              "title": "同篇七國發兵原紀年",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+              "quote": "孝景帝三年正月甲子，初起兵於廣陵。",
+              "paragraph_id": "c-shiji-106-wuwang:p009",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            }
+          ],
+          "rationale": "據本篇明示紀年及同次事件上下文，原紀年、數位對照及漢初建亥歲首依據分列。保守記錄歲首跨兩個西元年的範圍，不由月名或時長推確日；未知計歲方式，不倒推生年。未核書影。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "person_id": "yqp_nlb_p1p_CAB",
+        "source_term": "年十四",
+        "source_number": "十四",
+        "value": 14,
+        "birth_year": null,
+        "counting": "unspecified_source_age",
+        "id": "age-shiji106-003",
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "date_expression": "七國之發",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-106",
+            "chapter_id": "c-shiji-106-wuwang",
+            "source_id": "s-shiji-106-wuwang",
+            "paragraph_id": "c-shiji-106-wuwang:p008",
+            "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+            "person_mention_id": "c-shiji-106-wuwang:m008-0031"
+          }
+        ],
+        "interpretation_note": "保存原文報齡，不當享年，不推虛歲或出生年。少子不與後文子華、子駒按稱謂合併。未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "normalized_date_range": {
+          "earliest": {
+            "era": "BCE",
+            "era_year": 155,
+            "year": -154
+          },
+          "latest": {
+            "era": "BCE",
+            "era_year": 154,
+            "year": -153
+          },
+          "year_numbering": "astronomical",
+          "precision": "year_range",
+          "basis": "regnal_year_crosses_ce_year",
+          "status": "editorial_provisional",
+          "original_quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+          "evidence": [
+            {
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-106",
+              "chapter_id": "c-shiji-106-wuwang",
+              "source_id": "s-shiji-106-wuwang",
+              "paragraph_id": "c-shiji-106-wuwang:p008",
+              "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+              "person_mention_id": "c-shiji-106-wuwang:m008-0031"
+            }
+          ],
+          "references": [
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "孝景元年",
+              "table_cell_id": "shiji-022-t1-r051-c01",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            },
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "三",
+              "table_cell_id": "shiji-022-t1-r053-c01",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            },
+            {
+              "title": "將相表紀年對照",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "quote": "154",
+              "table_cell_id": "shiji-022-t1-r053-c00",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            },
+            {
+              "title": "《史記曆書》索隱·太初改歲首",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+              "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+              "scope": "received_calendar_rule",
+              "text_layer": "suoyin_commentary",
+              "revision_id": 2514838,
+              "image_verified": false
+            },
+            {
+              "title": "同篇七國發兵原紀年",
+              "url": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+              "quote": "孝景帝三年正月甲子，初起兵於廣陵。",
+              "paragraph_id": "c-shiji-106-wuwang:p009",
+              "scope": "received_regnal_year_attestation",
+              "image_verified": false
+            }
+          ],
+          "rationale": "據本篇明示紀年及同次事件上下文，原紀年、數位對照及漢初建亥歲首依據分列。保守記錄歲首跨兩個西元年的範圍，不由月名或時長推確日；未知計歲方式，不倒推生年。未核書影。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      }
     ]
   },
   "paragraphs": [
@@ -386,6 +678,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0010",
+          "start": 10,
+          "end": 12,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0026",
           "start": 26,
           "end": 29,
@@ -422,6 +732,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0065",
+          "start": 65,
+          "end": 67,
+          "surface": "高帝",
+          "person_id": "yqp_nlb_p1p_A",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0089",
           "start": 89,
           "end": 92,
@@ -440,6 +759,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m004-0112",
+          "start": 112,
+          "end": 113,
+          "surface": "濞",
+          "person_id": "yqp_nlb_p1p_CA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m004-0131",
           "start": 131,
           "end": 133,
@@ -455,6 +783,15 @@
           "surface": "文帝",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_AC",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0234",
+          "start": 234,
+          "end": 236,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -482,6 +819,15 @@
           "surface": "薄太后",
           "kind": "person",
           "person_id": "9zj_vf7_86a_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m004-0287",
+          "start": 287,
+          "end": 289,
+          "surface": "趙王",
+          "person_id": "yqp_nlb_p1p_AEA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -547,6 +893,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0101",
+          "start": 101,
+          "end": 102,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0111",
           "start": 111,
           "end": 112,
@@ -556,12 +911,39 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0117",
+          "start": 117,
+          "end": 119,
+          "surface": "主上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0199",
           "start": 199,
           "end": 201,
           "surface": "吳王",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_CA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0239",
+          "start": 239,
+          "end": 241,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0269",
+          "start": 269,
+          "end": 270,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -583,6 +965,33 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0320",
+          "start": 320,
+          "end": 322,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0347",
+          "start": 347,
+          "end": 348,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0362",
+          "start": 362,
+          "end": 364,
+          "surface": "主上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0378",
           "start": 378,
           "end": 379,
@@ -598,6 +1007,15 @@
           "surface": "晁錯",
           "kind": "person",
           "person_id": "04u_gq0_nke_A",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0391",
+          "start": 391,
+          "end": 393,
+          "surface": "天子",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -619,12 +1037,66 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m005-0462",
+          "start": 462,
+          "end": 464,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0489",
+          "start": 489,
+          "end": 491,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m005-0500",
           "start": 500,
           "end": 502,
           "surface": "吳王",
           "kind": "person",
           "person_id": "yqp_nlb_p1p_CA",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0503",
+          "start": 503,
+          "end": 505,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0527",
+          "start": 527,
+          "end": 529,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0530",
+          "start": 530,
+          "end": 532,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m005-0555",
+          "start": 555,
+          "end": 556,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
           "status": "contextual_provisional"
         },
         {
@@ -663,12 +1135,48 @@
       "text_layer": "received_chapter",
       "mentions": [
         {
+          "id": "c-shiji-106-wuwang:m006-0006",
+          "start": 6,
+          "end": 7,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "大王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0062",
+          "start": 62,
+          "end": 64,
+          "surface": "太后",
+          "person_id": "pxm_dwu_afr",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m006-0071",
+          "start": 71,
+          "end": 72,
+          "surface": "王",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m006-0100",
           "start": 100,
           "end": 104,
           "surface": "城陽景王",
           "kind": "person",
-          "person_id": "k2v_k0j_chh",
+          "person_id": "yqp_nlb_p1p_ABF",
           "status": "contextual_provisional"
         }
       ]
@@ -703,7 +1211,7 @@
           "end": 71,
           "surface": "齊王",
           "kind": "person",
-          "person_id": "1iv_bo2_ode",
+          "person_id": "yqp_nlb_p1p_ABI",
           "status": "contextual_provisional"
         },
         {
@@ -712,7 +1220,7 @@
           "end": 85,
           "surface": "濟北王",
           "kind": "person",
-          "person_id": "59b_c0s_5il",
+          "person_id": "yqp_nlb_p1p_ABH",
           "status": "contextual_provisional"
         },
         {
@@ -979,7 +1487,7 @@
           "end": 52,
           "surface": "竇嬰",
           "kind": "person",
-          "person_id": "nvf_r2k_j9y",
+          "person_id": "nuf_tb9_fjs_A",
           "status": "contextual_provisional"
         }
       ]
@@ -996,7 +1504,7 @@
           "end": 12,
           "surface": "竇嬰",
           "kind": "person",
-          "person_id": "nvf_r2k_j9y",
+          "person_id": "nuf_tb9_fjs_A",
           "status": "contextual_provisional"
         },
         {
@@ -1444,7 +1952,7 @@
           "end": 80,
           "surface": "吳王太子",
           "kind": "person",
-          "person_id": "yqp_nlb_p1p_CAC",
+          "person_id": "yqp_nlb_p1p_CAE",
           "status": "contextual_provisional"
         },
         {
@@ -1786,6 +2294,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m017-0009",
+          "start": 9,
+          "end": 11,
+          "surface": "楚王",
+          "person_id": "yqp_nlb_p1p_DCA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m017-0024",
           "start": 24,
           "end": 27,
@@ -1822,6 +2339,24 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m017-0071",
+          "start": 71,
+          "end": 72,
+          "surface": "上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m017-0073",
+          "start": 73,
+          "end": 74,
+          "surface": "上",
+          "person_id": "yqp_nlb_p1p_ACA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m017-0077",
           "start": 77,
           "end": 79,
@@ -1836,7 +2371,7 @@
           "end": 94,
           "surface": "韓安國",
           "kind": "person",
-          "person_id": "hfn_aif_jww",
+          "person_id": "6hy_i1z_hu2",
           "status": "contextual_provisional"
         },
         {
@@ -1845,7 +2380,7 @@
           "end": 99,
           "surface": "楚死事相",
           "kind": "person",
-          "person_id": "tae_3uh_xsc",
+          "person_id": "i8p_f0y_kea",
           "status": "contextual_provisional"
         },
         {
@@ -1854,7 +2389,7 @@
           "end": 102,
           "surface": "張羽",
           "kind": "person",
-          "person_id": "fwu_nkh_9qr",
+          "person_id": "o6h_ba5_gno",
           "status": "contextual_provisional"
         },
         {
@@ -1966,6 +2501,15 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m017-0310",
+          "start": 310,
+          "end": 312,
+          "surface": "太尉",
+          "person_id": "koy_6jg_gcc_C",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
           "id": "c-shiji-106-wuwang:m017-0316",
           "start": 316,
           "end": 319,
@@ -1982,6 +2526,33 @@
       "annotation_status": "named_mentions_first_pass",
       "text_layer": "received_chapter",
       "mentions": [
+        {
+          "id": "c-shiji-106-wuwang:m018-0019",
+          "start": 19,
+          "end": 21,
+          "surface": "膠西",
+          "person_id": "yqp_nlb_p1p_ABB",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0022",
+          "start": 22,
+          "end": 24,
+          "surface": "膠東",
+          "person_id": "yqp_nlb_p1p_ABE",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0025",
+          "start": 25,
+          "end": 28,
+          "surface": "菑川王",
+          "person_id": "yqp_nlb_p1p_ABG",
+          "kind": "person",
+          "status": "context_resolved"
+        },
         {
           "id": "c-shiji-106-wuwang:m018-0047",
           "start": 47,
@@ -2082,12 +2653,66 @@
           "status": "contextual_provisional"
         },
         {
+          "id": "c-shiji-106-wuwang:m018-0391",
+          "start": 391,
+          "end": 393,
+          "surface": "太子",
+          "person_id": "yqp_nlb_p1p_ABBA",
+          "kind": "person",
+          "status": "contextual_provisional"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0396",
+          "start": 396,
+          "end": 398,
+          "surface": "膠東",
+          "person_id": "yqp_nlb_p1p_ABE",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0399",
+          "start": 399,
+          "end": 401,
+          "surface": "菑川",
+          "person_id": "yqp_nlb_p1p_ABG",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0402",
+          "start": 402,
+          "end": 405,
+          "surface": "濟南王",
+          "person_id": "yqp_nlb_p1p_ABD",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0415",
+          "start": 415,
+          "end": 418,
+          "surface": "酈將軍",
+          "person_id": "xny_prn_zyi_A",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
+          "id": "c-shiji-106-wuwang:m018-0426",
+          "start": 426,
+          "end": 428,
+          "surface": "趙王",
+          "person_id": "yqp_nlb_p1p_AEA",
+          "kind": "person",
+          "status": "context_resolved"
+        },
+        {
           "id": "c-shiji-106-wuwang:m018-0431",
           "start": 431,
           "end": 434,
           "surface": "濟北王",
           "kind": "person",
-          "person_id": "59b_c0s_5il",
+          "person_id": "yqp_nlb_p1p_ABH",
           "status": "contextual_provisional"
         }
       ]
@@ -2228,7 +2853,7 @@
           "end": 31,
           "surface": "嬰",
           "kind": "person",
-          "person_id": "nvf_r2k_j9y",
+          "person_id": "nuf_tb9_fjs_A",
           "status": "contextual_provisional"
         },
         {
