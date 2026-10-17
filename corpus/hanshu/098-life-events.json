@@ -1,0 +1,98 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-hanshu-098-yuanhou",
+  "events": [
+    {
+      "id": "le-hanshu098-zhengjun-birth",
+      "person_id": "4w5_b4e_vf5_AB",
+      "event_type": "birth",
+      "status": "source_attested",
+      "date_expression": "本始三年",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-098",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "source_id": "s-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+          "person_mention_id": "c-hanshu-098-yuanhou:m-kin-001-0023"
+        }
+      ],
+      "interpretation_note": "明本始三年生女政君；與前引後八十年預言分開，不由虛歲或外部生平倒算。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 71,
+          "year": -70
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 70,
+          "year": -69
+        },
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
+        "status": "editorial_provisional",
+        "original_quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+        "evidence": [
+          {
+            "work_id": "w-hanshu",
+            "book_id": "b-hanshu-098",
+            "chapter_id": "c-hanshu-098-yuanhou",
+            "source_id": "s-hanshu-098-yuanhou",
+            "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+            "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+            "person_mention_id": "c-hanshu-098-yuanhou:m-kin-001-0023"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "孝宣本始元年",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r134-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "三",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r136-c01",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "71",
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r136-c00",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "《孝武本紀》太初改曆",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷012&oldid=8733061",
+            "quote": "夏，漢改歷，以正月為歲首，而色上黃，官名更印章以五字。因為太初元年。是歲，西伐大宛。蝗大起。丁夫人、雒陽虞初等以方祠詛匈奴、大宛焉。",
+            "chapter_id": "c-shiji-012-wudi",
+            "paragraph_id": "c-shiji-012-wudi:p046",
+            "scope": "received_calendar_rule",
+            "image_verified": false
+          }
+        ],
+        "rationale": "原本始三年生女；將相表孝宣本始元年接同年號三年，數位年格作前71年。此時已在太初以正月為歲首之後，不能沿漢初十月歲首倒加一年：未明月日，保守記中國本始三年可能跨公元前71至70年，不猜公曆生日，亦不把前引後八十年預言當生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ]
+}

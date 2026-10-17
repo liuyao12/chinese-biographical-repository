@@ -3404,6 +3404,146 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji112-taishigong-author",
+      "person_ids": [
+        "pme_eis_xqi_*A*AAAAA"
+      ],
+      "canonical_person_id": "pme_eis_xqi_*A*AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-112-pingjin",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p028",
+          "quote": "太史公曰：公孫弘行義雖修，然亦遇時。漢興八十餘年矣，上方鄉文學，招俊乂，以廣儒墨，弘為舉首。主父偃當路，諸公皆譽之，及名敗身誅，士爭言其惡。悲夫！",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m028-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p008",
+          "quote": "太史公曰：「先人有言：『自周公卒五百歲而有孔子。孔子卒後至於今五百歲，有能紹明世，正易傳，繼春秋，本詩書禮樂之際？』意在斯乎！意在斯乎！小子何敢讓焉。」",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m008-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "quote": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m012-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p004",
+          "quote": "太史公既掌天官，不治民。有子曰遷。",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m004-0015"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p006",
+          "quote": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m006-0034",
+            "c-shiji-130-taishigong:m006-0051",
+            "c-shiji-130-taishigong:m006-0340"
+          ]
+        }
+      ],
+      "rationale": "112論贊以太史公曰署稱，130自序著述目錄作平津侯列傳第五十二，與本篇相應；130父卒、子遷繼太史令後，自署太史公曰先人有言，並記遭李陵之禍、卒述史事，據此暫將112本篇論贊署稱接到司馬遷。只核本處，不把130前部指父司馬談的太史公、其他篇未核署稱或112後附太皇太后詔及班固稱曰合為一人或同一文本層；不宣稱全篇各字均出司馬遷親筆。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《太史公自序》平津侯列傳篇目",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "quote": "大臣宗室以侈靡相高，唯弘用節衣食為百吏先。作平津侯列傳第五十二。",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p124",
+          "scope": "received_work_catalogue",
+          "image_verified": false
+        }
+      ],
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji112-yuanhou-edict",
+      "person_ids": [
+        "4w5_b4e_vf5_AB"
+      ],
+      "canonical_person_id": "4w5_b4e_vf5_AB",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-112-pingjin",
+        "c-hanshu-098-yuanhou"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p029",
+          "quote": "太皇太后詔大司徒大司空：「蓋聞治國之道，富民為始；富民之要，在於節儉。《孝經》曰『安上治民，莫善於禮』。『禮，與奢也寧儉』。昔者管仲相齊桓，霸諸侯，有九合一匡之功，而仲尼謂之不知禮，以其奢泰侈擬於君故也。夏禹卑宮室，惡衣服，后聖不循。由此言之，治之盛也，德優矣，莫高於儉。儉化俗民，則尊卑之序得，而骨肉之恩親，爭訟之原息。斯乃家給人足，刑錯之本也歟？可不務哉！夫三公者，百寮之率，萬民之表也。未有樹直表而得曲影者也。孔子不云乎，『子率而正，孰敢不正』。『舉善而教不能則勸』。維漢興以來，股肱宰臣身行儉約，輕財重義，較然著明，未有若故丞相平津侯公孫弘者也。位在丞相而為布被，脫粟之飯，不過一肉。故人所善賓客皆分奉祿以給之，無有所餘。誠內自克約而外從制。汲黯詰之，乃聞于朝，此可謂減於制度而可施行者也。德優則行，否則止，與內奢泰而外為詭服以釣虛譽者殊科。以病乞骸骨，孝武皇帝即制曰『賞有功，褒有德，善善惡惡，君宜知之。其省思慮，存精神，輔以醫藥』。賜告治病，牛酒雜帛。居數月，有瘳，視事。至元狩二年，竟以善終于相位。夫知臣莫若君，此其效也。弘子度嗣爵，后為山陽太守，坐法失侯。夫表德章義，所以率俗厲化，聖王之制，不易之道也。其賜弘後子孫之次當為後者爵關內侯，食邑三百戶，徵詣公車，上名尚書，朕親臨拜焉。」",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m029-0000",
+            "c-shiji-112-pingjin:m029-0543"
+          ],
+          "text_layer": "witness_appended_edict"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-098",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "source_id": "s-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0023",
+            "c-hanshu-098-yuanhou:m-kin-001-0026"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記集解》卷一百十二（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_112.txt#L259-L262",
+          "quote": "徐廣曰此詔是平帝元始中王元后詔後人寫此及班固所稱以續卷后",
+          "raw_quote": "<pb:KR2a0002_WYG_112-15a>¶\n其惡悲夫　太皇太后詔大司徒大司空(徐廣曰此詔/是平帝元始)¶\n(中王元后詔後人寫此/及班固所稱以續卷后)葢聞治國之道富民為始富民¶\n之要在於節儉孝經曰安上治民莫善於禮禮與奢也¶",
+          "scope": "ancient_commentary_appended_edict_identity",
+          "image_verified": false,
+          "response_sha256": "de88857d7f20adc1e00bab586fae19c8615df68c55e592d243dc9b9b9a95f1e4",
+          "source_blob_sha": "2b465e6a1b6b48328814f030dbba777e2a916cff",
+          "note": "短引文只除排版括號、換行、小注斜線、段末符與頁標；raw_quote保留原片段。古注轉引他書不當親讀該本，未核書影。"
+        }
+      ],
+      "rationale": "集解徐廣明指本篇附詔是平帝元始中王元后詔；漢書元后傳本段明禁生女政君即元后，暫將附詔太皇太后及同詔朕接此人。太皇太后不是司馬遷正文當代發言人；附詔文本層保持，不把元始中改成元始元年，不據遠祖敘述接黃帝或田氏。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
     }
   ]
 }

@@ -249,9 +249,9 @@
       "number": 112,
       "category": "liezhuan",
       "title": "平津侯主父列傳第五十二",
-      "paragraph_id": "c-shiji-112-pingjin:p030",
-      "count": 1,
-      "quote": "石慶，質直則汲黯、卜式，推賢則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及"
+      "paragraph_id": "c-shiji-112-pingjin:p028",
+      "count": 2,
+      "quote": "太史公曰：公孫弘行義雖修，然亦遇時。漢興八十餘年矣，上方鄉文學，招俊乂，以廣儒墨，弘為舉首。主父偃當路，諸公皆譽之，及名敗身誅，士爭言其惡。悲夫！"
     },
     {
       "number": 130,
@@ -594,6 +594,89 @@
       "reviewer": "Codex（AI 代理）",
       "model": null,
       "human_reviewed": false,
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji112-taishigong-author",
+      "person_ids": [
+        "pme_eis_xqi_*A*AAAAA"
+      ],
+      "canonical_person_id": "pme_eis_xqi_*A*AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-112-pingjin",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p028",
+          "quote": "太史公曰：公孫弘行義雖修，然亦遇時。漢興八十餘年矣，上方鄉文學，招俊乂，以廣儒墨，弘為舉首。主父偃當路，諸公皆譽之，及名敗身誅，士爭言其惡。悲夫！",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m028-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p008",
+          "quote": "太史公曰：「先人有言：『自周公卒五百歲而有孔子。孔子卒後至於今五百歲，有能紹明世，正易傳，繼春秋，本詩書禮樂之際？』意在斯乎！意在斯乎！小子何敢讓焉。」",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m008-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p012",
+          "quote": "於是論次其文。七年而太史公遭李陵之禍，幽於縲紲。乃喟然而嘆曰：「是余之罪也夫！是余之罪也夫！身毀不用矣。」退而深惟曰：「夫詩書隱約者，欲遂其志之思也。昔西伯拘羑里，演周易；孔子戹陳蔡，作春秋；屈原放逐，著離騷；左丘失明，厥有國語；孫子臏腳，而論兵法；不韋遷蜀，世傳呂覽；韓非囚秦，說難、孤憤；詩三百篇，大抵賢聖發憤之所為作也。此人皆意有所郁結，不得通其道也，故述往事，思來者。」於是卒述陶唐以來，至于麟止，自黃帝始。",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m012-0010"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p004",
+          "quote": "太史公既掌天官，不治民。有子曰遷。",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m004-0015"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p006",
+          "quote": "是歲天子始建漢家之封，而太史公留滯周南，不得與從事，故發憤且卒。而子遷適使反，見父於河洛之閒。太史公執遷手而泣曰：「余先周室之太史也。自上世嘗顯功名於虞夏，典天官事。後世中衰，絕於予乎？汝復為太史，則續吾祖矣。今天子接千歲之統，封泰山，而余不得從行，是命也夫，命也夫！余死，汝必為太史；為太史，無忘吾所欲論著矣。且夫孝始於事親，中於事君，終於立身。揚名於後世，以顯父母，此孝之大者。夫天下稱誦周公，言其能論歌文武之德，宣周邵之風，達太王王季之思慮，爰及公劉，以尊后稷也。幽厲之後，王道缺，禮樂衰，孔子修舊起廢，論詩書，作春秋，則學者至今則之。自獲麟以來四百有餘歲，而諸侯相兼，史記放絕。今漢興，海內一統，明主賢君忠臣死義之士，余為太史而弗論載，廢天下之史文，余甚懼焉，汝其念哉！」遷俯首流涕曰：「小子不敏，請悉論先人所次舊聞，弗敢闕。」",
+          "text_layer": "received_chapter",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m006-0034",
+            "c-shiji-130-taishigong:m006-0051",
+            "c-shiji-130-taishigong:m006-0340"
+          ]
+        }
+      ],
+      "rationale": "112論贊以太史公曰署稱，130自序著述目錄作平津侯列傳第五十二，與本篇相應；130父卒、子遷繼太史令後，自署太史公曰先人有言，並記遭李陵之禍、卒述史事，據此暫將112本篇論贊署稱接到司馬遷。只核本處，不把130前部指父司馬談的太史公、其他篇未核署稱或112後附太皇太后詔及班固稱曰合為一人或同一文本層；不宣稱全篇各字均出司馬遷親筆。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《太史公自序》平津侯列傳篇目",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "quote": "大臣宗室以侈靡相高，唯弘用節衣食為百吏先。作平津侯列傳第五十二。",
+          "chapter_id": "c-shiji-130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p124",
+          "scope": "received_work_catalogue",
+          "image_verified": false
+        }
+      ],
       "identity_materialized": true
     }
   ],
