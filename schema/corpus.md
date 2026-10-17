@@ -477,3 +477,17 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 已辨明的非人物用字
 
 既有誤標可保留提及ID、位置與原字，改為 `kind: non_person`、`person_id: null`、`status: contextual_provisional`。`lexical_role` 目前支援 `verb` 與 `reciprocal_adverb`；`basis_quote` 須包含該次錨點及實際原文語境，另有判讀理由、代理署名及 `human_reviewed: false`。它與仍待辨識的人物分開，不能暗連人物或作品。XML 使用 `<seg type="non-person" subtype="…">`；閱讀器保留原錨點、原字及判讀說明，不畫人名底線或開人物卡。首例為〈淮南衡山列傳〉王濟北、王江北的王與數使使相交的相，不能按王、相單字全域套用。
+
+## 相鄰數詞的群體約數報齡
+
+`age_assertions[].approximation` 可保存 `kind: adjacent_age_numbers` 與整數原數詞 `numbers: [7, 8]`。原 `source_number: 七八`、`source_term: 皆七八歲` 保留，`value: null`、`reporting_status: approximate_report`，不能同時設 `bounds` 或由此推出生年、確歲或計歲制度。編者判讀另列 `approximation_interpretation`。首例為本篇完整具名四子：`group_reference` 明列原群體詞、名單、成員ID、原人數詞與 `declared_member_count`，須與同段逐人錨點全部相合；不能暗補第五人或把不完全名單當全部。報齡可保存有據的原紀年與公元年，其日期不當出生日期。重述報齡亦須與原筆約數一致。
+
+## 未分拆的姓名全稱
+
+姓名組件可用 `full_name` 保存有來源的完整讀法，並明留 `surname: null`、`ming: null`，不按字數拆姓與名。`full_name_basis` 保存收到原稱、`kind: received_parallel_spelling`、理由及未經人工審閱狀態，須有固定原文短引支持整體讀法，且收到原稱確實是本人物在引用段落中的錨點。原字與提及ID不變，舊讀法留 `additional_names`。人物卡以整體名稱顯示，其他有據組件與原稱依舊可查。首例為收到本文救赫、平行《史記集解》《漢書》作枚赫；沒有據此斷言姓枚名赫。
+
+## 徙王與新舊王號的時段
+
+`mode: transfer` 與起點 `event_type: transfer` 明示徙封，`transfer_basis` 指同人的 `previous_holding_id`、原詞、`title_source_term`、原王號人物錨點及原文證據。前王號須以同一事件和日期記 `explicit_end`，不能由死亡或別人的繼位補終點，也不能把追諡當作在位王號轉封。首版核驗徙為某王，以及徙某王王某地兩種實際句式。後者保存原字王與既有 `jurisdictions`，不在正文虛構重排的國名王錨點；王字在文法上是動詞，仍可作本次王國授任的原詞，與人物錨點分類分層。
+
+原年格附記其他事件時，`regnal_year_table.regnal_year_span` 可用明示位置引用格首年數，後必接原句號；整格仍完整引用，不能借附記事件的月日。首例格首四、後接四月己巳立太子；徙王只知景四年，故存兩年範圍。太初前十月歲首的來源亦可用固定《曆書》本文以十月、故襲秦正朔的相連說明，與古注建亥讀法分源，不要求只能引用某一注本。

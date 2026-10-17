@@ -47,3 +47,9 @@ test('research bibliography escapes text and rejects executable links',()=>{
 test('missing research references produce no empty profile field',()=>{
  assert.equal(studyReferencesHTML(), '');assert.equal(studyReferencesHTML([]),'');assert.equal(studyReferencesHTML([null,{}]),'');
 });
+
+test('adjacent-number source ages remain approximations without a fabricated lifespan',()=>{
+ const age={person_id:'synthetic-person',value:null,source_number:'七八',source_term:'皆七八歲',approximation:{kind:'adjacent_age_numbers',numbers:[7,8]}};
+ assert.equal(ageLabel(age),'七八歲');
+ const life=summarizeLife({id:'synthetic-person',age_assertions:[age]});assert.deepEqual(life.birth,[]);assert.deepEqual(life.death,[]);assert.equal(life.ages[0].value,null);assert.equal(life.ages[0].bounds,undefined);
+});

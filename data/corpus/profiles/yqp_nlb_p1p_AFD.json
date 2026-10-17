@@ -405,6 +405,98 @@
           "image_verified": false
         }
       ],
+      "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。 本筆皆七八歲與同段授封相接，僅標報齡所屬敘事年，不當確歲或推出生年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+        "reference_event_quote": "八年五月丙午，哀侯劉良元年。",
+        "reference_year_quote": "172",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+      },
+      "record_id": "age-shiji118-four-children-0047",
+      "person_id": "yqp_nlb_p1p_AFD",
+      "date_role": "age_attestation"
+    },
+    {
+      "era": "BCE",
+      "era_year": 172,
+      "year": -171,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p011",
+          "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》原表同人同次授封月日",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+          "quote": "八年五月丙午，哀侯劉良元年。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-019",
+          "table_cell_id": "shiji-019-t3-r021-c02",
+          "source_id": "table-witness-shiji-019",
+          "source_revision": "6359260",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "172",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c00",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》漢年列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "八",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》孝文元年起點",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "孝文元年",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r028-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+          "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+          "scope": "received_calendar_rule",
+          "text_layer": "received_text_with_page_markers",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+          "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+          "read_line_range": [
+            53,
+            89
+          ],
+          "image_verified": false
+        }
+      ],
       "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
@@ -478,7 +570,145 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji118-four-children-0047",
+      "person_id": "yqp_nlb_p1p_AFD",
+      "status": "source_attested",
+      "value": null,
+      "source_number": "七八",
+      "source_term": "皆七八歲",
+      "reporting_status": "approximate_report",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "group_reference": {
+        "source_term": "淮南王有子四人",
+        "naming_term": "子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯",
+        "person_ids": [
+          "yqp_nlb_p1p_AFA",
+          "yqp_nlb_p1p_AFB",
+          "yqp_nlb_p1p_AFC",
+          "yqp_nlb_p1p_AFD"
+        ],
+        "declared_member_count": 4,
+        "source_count_term": "四人"
+      },
+      "date_expression": "孝文八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p011",
+          "person_mention_id": "c-shiji-118-huainan:m011-0047",
+          "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+        }
+      ],
+      "approximation": {
+        "kind": "adjacent_age_numbers",
+        "numbers": [
+          7,
+          8
+        ]
+      },
+      "approximation_interpretation": {
+        "status": "editorial_provisional",
+        "rationale": "皆七八歲為四名幼子的相鄰數詞概數，保存七、八兩個數詞，不當嚴格上下界、個別確歲、計歲制度或出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 172,
+        "year": -171,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p011",
+            "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》原表同人同次授封月日",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+            "quote": "八年五月丙午，哀侯劉良元年。",
+            "scope": "received_parallel_event",
+            "table_id": "shiji-019",
+            "table_cell_id": "shiji-019-t3-r021-c02",
+            "source_id": "table-witness-shiji-019",
+            "source_revision": "6359260",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "172",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r035-c00",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》漢年列",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "八",
+            "scope": "received_regnal_year_attestation",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r035-c01",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》孝文元年起點",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "孝文元年",
+            "scope": "received_regnal_year_attestation",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r028-c01",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+            "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+            "scope": "received_calendar_rule",
+            "text_layer": "received_text_with_page_markers",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+            "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+            "read_line_range": [
+              53,
+              89
+            ],
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。 本筆皆七八歲與同段授封相接，僅標報齡所屬敘事年，不當確歲或推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+          "reference_event_quote": "八年五月丙午，哀侯劉良元年。",
+          "reference_year_quote": "172",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+        }
+      }
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji118-005",

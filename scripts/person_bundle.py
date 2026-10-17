@@ -7,6 +7,43 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_full_name(name, paragraph=None):
+    """An unsegmented source name is not an inferred surname/given-name split."""
+    if 'full_name' not in name:
+        return
+    import re
+    value, basis = name.get('full_name'), name.get('full_name_basis')
+    valid = (isinstance(value, str) and bool(value) and value == value.strip()
+             and name.get('surname') is None and name.get('ming') is None
+             and isinstance(basis, dict)
+             and set(basis) == {'kind', 'source_term', 'rationale', 'human_reviewed'}
+             and basis.get('kind') == 'received_parallel_spelling'
+             and isinstance(basis.get('source_term'), str) and bool(basis['source_term'])
+             and isinstance(name.get('quote'), str) and basis['source_term'] in name['quote']
+             and isinstance(basis.get('rationale'), str) and bool(basis['rationale'].strip()) and basis.get('human_reviewed') is False)
+    if paragraph is not None and valid:
+        quote = name['quote']; text = paragraph['text']
+        starts = [i for i in range(len(text)) if text.startswith(quote, i)]
+        valid = any(m.get('person_id') == name.get('person_id') and m.get('kind') == 'person'
+                    and m.get('surface') == basis['source_term']
+                    and any(i <= m['start'] < m['end'] <= i + len(quote) for i in starts)
+                    for m in paragraph['mentions'])
+    supported = False
+    for ref in name.get('references', []):
+        if not isinstance(ref, dict):
+            continue
+        raw, quote, commit = ref.get('raw_quote', ''), ref.get('quote', ''), ref.get('source_commit', '')
+        normalized = re.sub(r'[()/¶\s]', '', re.sub(r'<pb:[^>]*>', '', raw)) if isinstance(raw, str) else ''
+        if (isinstance(quote, str) and bool(quote) and quote in normalized
+                and isinstance(value, str) and value in quote
+                and ref.get('scope') == 'received_parallel_name_spelling'
+                and isinstance(commit, str) and re.fullmatch('[0-9a-f]{40}', commit) is not None
+                and isinstance(ref.get('url'), str) and ref['url'].startswith('https://') and commit in ref['url'] and ref.get('image_verified') is False):
+            supported = True
+    if not valid or not supported:
+        raise ValueError('未分姓名須有原稱、固定平行原文及判讀，不得暗拆姓與名')
+
+
 def validate_courtesy_name(name):
     """字須有明示來源，不從顯示名稱推拆或冒作本名。"""
     if 'zi' not in name:
@@ -175,6 +212,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             distinctions.append(dict(decision, evidence=evidence))
     enriched_names = []
     for name in name_components:
+        name_paragraph = paragraphs.get(name.get('paragraph_id'))
+        validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
         validate_former_given_name(name)
         validate_name_component_alternatives(name)

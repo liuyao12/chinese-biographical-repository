@@ -4,6 +4,24 @@ import re
 from pathlib import Path
 
 
+def calendar_rule_attested(reference, rule, word):
+    quote = reference.get('quote', '')
+    if reference.get('scope') != 'received_calendar_rule' or not isinstance(quote, str):
+        return False
+    if word in quote:
+        return True
+    # The received calendar chapter describes Qin's tenth month and Han's
+    # continuation directly; it need not use the later gloss's word 建亥.
+    commit = reference.get('source_commit', '')
+    return (rule == 'han_tenth_month_before_taichu'
+            and '以十月' in quote and '故襲秦正朔' in quote
+            and reference.get('text_layer') == 'received_text_with_page_markers'
+            and re.fullmatch('[0-9a-f]{40}', commit) is not None
+            and commit in reference.get('url', '')
+            and re.fullmatch('[0-9a-f]{40}', reference.get('source_blob', '')) is not None
+            and reference.get('image_verified') is False)
+
+
 def load_tables(root):
     root = Path(root)
     index = root / 'data/historical-tables/index.json'
@@ -348,11 +366,22 @@ def table_regnal_range_errors(value, expression, tables, mentions=None):
         errors.append('紀年帝號異稱須有同篇已辨人物錨點及限定語境，不得任意替換年號')
     label = regnal['text'].rstrip('。'); epoch = anchor['text'].rstrip('。')
     season = proof.get('season_source_term')
+    year_span = proof.get('regnal_year_span')
+    label_matches = (label == term[:-1] or label.endswith(era_name + term)) if isinstance(term, str) and isinstance(era_name, str) else False
+    if year_span is not None:
+        # A Han-year cell can append an unrelated event. Bind only the leading
+        # year numeral, keeping the whole received cell in references.
+        label_matches = (isinstance(year_span, dict) and set(year_span) == {'start', 'end', 'surface'}
+                         and year_span.get('start') == 0 and type(year_span.get('start')) is int
+                         and type(year_span.get('end')) is int and isinstance(term, str)
+                         and 0 < year_span['end'] < len(regnal['text'])
+                         and regnal['text'][:year_span['end']] == year_span.get('surface') == term[:-1]
+                         and regnal['text'][year_span['end']] == '。')
     valid = (isinstance(era_name,str) and bool(era_name) and isinstance(term,str)
              and bool(term) and term.endswith('年') and isinstance(source_era_name,str)
              and (season is None or season == '冬') and expression == source_era_name+term+(season or '')
              and epoch.endswith(era_name+'元年')
-             and (label == term[:-1] or label.endswith(era_name+term)))
+             and label_matches)
     rows = [r for f in table['fragments'] for r in f['rows']]
     ai = next((i for i,r in enumerate(rows) if any(c['id']==anchor['id'] for c in r['cells'])),None)
     yi = next((i for i,r in enumerate(rows) if any(c['id']==regnal['id'] for c in r['cells'])),None)
@@ -380,7 +409,7 @@ def table_regnal_range_errors(value, expression, tables, mentions=None):
                        else 0<year.get('value',0)<104)
         if (not valid_epoch or value.get('earliest',{}).get('year')!=original_year+a
                 or value.get('latest',{}).get('year')!=original_year+b
-                or not any(r.get('scope')=='received_calendar_rule' and word in r.get('quote','')
+                or not any(calendar_rule_attested(r, rule, word)
                            for r in refs)):
             errors.append('紀年範圍須依太初前後實際歲首及其引文換算')
     for point,scope in [(regnal,'received_regnal_year_attestation'),
