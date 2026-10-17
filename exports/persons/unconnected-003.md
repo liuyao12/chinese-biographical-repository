@@ -8,7 +8,7 @@
 |---|---|---|---|
 | `xx7_loh_2ge` | 郤克 | [《史記・齊太公世家》][18] | [JSON](xx7_loh_2ge.json) |
 | `xx8_6pg_u24` | 簡公婦人（田世家檀臺未名者） | [《史記・田敬仲完世家》][32] | [JSON](xx8_6pg_u24.json) |
-| `xx9_ni7_l9f` | 祖辛 | [《史記・殷本紀》][7]、[《史記・三代世表》][117] | [JSON](xx9_ni7_l9f.json) |
+| `xx9_ni7_l9f` | 祖辛 | [《史記・殷本紀》][7]、[《史記・三代世表》][118] | [JSON](xx9_ni7_l9f.json) |
 | `xxc_auu_pd9` | 袁生 | [《史記・高祖本紀》][12] | [JSON](xxc_auu_pd9.json) |
 | `xxq_5y6_8sr` | 狐偃（咎犯） | [《史記・晉世家》][25] | [JSON](xxq_5y6_8sr.json) |
 | `xxq_gha_m5y` | 猶（楚哀王） | [《史記・楚世家》][26] | [JSON](xxq_gha_m5y.json) |
@@ -45,7 +45,7 @@
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][95] | [JSON](y6f_9v5_dqg.json) |
 | `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][28] | [JSON](y6n_nmo_abl.json) |
 | `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][70] | [JSON](y6v_c03_at3.json) |
-| `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][123] | [JSON](y6w_obg_omu.json) |
+| `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
 | `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][28] | [JSON](y81_o3y_nw3.json) |
 | `y81_z0r_svc` | 左人郢 | [《史記・仲尼弟子列傳》][53] | [JSON](y81_z0r_svc.json) |
@@ -87,14 +87,14 @@
 | `yj8_fds_vq5` | 驁 | [《史記・田敬仲完世家》][32] | [JSON](yj8_fds_vq5.json) |
 | `yja_c73_i8o` | 顏聚 | [《史記・趙世家》][29]、[《史記・廉頗藺相如列傳》][67] | [JSON](yja_c73_i8o.json) |
 | `yjq_7u5_fd1` | 楚懷王 | [《史記・留侯世家》][41] | [JSON](yjq_7u5_fd1.json) |
-| `yjt_8w9_jgx` | 蔡兼 | [《史記・孝文本紀》][14]、[《史記・惠景間侯者年表》][123] | [JSON](yjt_8w9_jgx.json) |
+| `yjt_8w9_jgx` | 蔡兼 | [《史記・孝文本紀》][14]、[《史記・惠景間侯者年表》][124] | [JSON](yjt_8w9_jgx.json) |
 | `yk4_ms3_oy7` | 孟嘗君（楚篇田嬰子） | [《史記・楚世家》][26] | [JSON](yk4_ms3_oy7.json) |
 | `yk7_5u4_rcn` | 魯謁居弟（未名） | [《史記・酷吏列傳》][108] | [JSON](yk7_5u4_rcn.json) |
 | `yka_hay_sdj` | 任敖 | [《史記・張丞相列傳》][82] | [JSON](yka_hay_sdj.json) |
 | `ykk_635_9eq` | 子思 | [《史記・孟子荀卿列傳》][60] | [JSON](ykk_635_9eq.json) |
 | `ykt_rg0_cl9` | 盧綰 | [《史記・朝鮮列傳》][101] | [JSON](ykt_rg0_cl9.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][60] | [JSON](ykw_i8p_jh3.json) |
-| `ykz_dyf_q7h` | 田忌 | [《史記・六國年表》][119] | [JSON](ykz_dyf_q7h.json) |
+| `ykz_dyf_q7h` | 田忌 | [《史記・六國年表》][120] | [JSON](ykz_dyf_q7h.json) |
 | `ylb_xg7_6t9` | 王恬開 | [《史記・魏豹彭越列傳》][76]、[《史記・張釋之馮唐列傳》][88] | [JSON](ylb_xg7_6t9.json) |
 | `ym1_oml_zdw` | 伯宗 | [《史記・鄭世家》][28] | [JSON](ym1_oml_zdw.json) |
 | `yma_ep3_js5` | 魏文侯 | [《史記・樗里子甘茂列傳》][57] | [JSON](yma_ep3_js5.json) |
@@ -131,7 +131,7 @@
 | `yti_e9l_fle` | 高厚 | [《史記・齊太公世家》][18] | [JSON](yti_e9l_fle.json) |
 | `ytl_g1y_wn3` | 子嬰 | [《史記・秦始皇本紀》][10] | [JSON](ytl_g1y_wn3.json) |
 | `ytl_vvq_glw` | 左賢王（未名，與因杅敖戰者） | [《史記・匈奴列傳》][96] | [JSON](ytl_vvq_glw.json) |
-| `ytp_z6e_7yd` | 靳彊 | [《史記・項羽本紀》][11]、[《史記・高祖功臣侯者年表》][122] | [JSON](ytp_z6e_7yd.json) |
+| `ytp_z6e_7yd` | 靳彊 | [《史記・項羽本紀》][11]、[《史記・高祖功臣侯者年表》][123] | [JSON](ytp_z6e_7yd.json) |
 | `yu4_0gm_gje` | 武臣 | [《史記・張耳陳餘列傳》][75] | [JSON](yu4_0gm_gje.json) |
 | `yuo_kpg_rhg` | 閎夭 | [《史記・蕭相國世家》][39] | [JSON](yuo_kpg_rhg.json) |
 | `yuq_yq1_oq6` | 公叔發（衞） | [《史記・吳太伯世家》][17] | [JSON](yuq_yq1_oq6.json) |
@@ -198,7 +198,7 @@
 | `zbs_mps_pf5` | 衛共姬（雍巫所寵） | [《史記・齊太公世家》][18] | [JSON](zbs_mps_pf5.json) |
 | `zbu_bun_98q` | 魯姬子 | [《史記・秦本紀》][9] | [JSON](zbu_bun_98q.json) |
 | `zbw_7zu_gv6` | 趙綰（武帝初公卿） | [《史記・孝武本紀》][16] | [JSON](zbw_7zu_gv6.json) |
-| `zc4_kie_3tb` | 報丁 | [《史記・殷本紀》][7]、[《史記・三代世表》][117] | [JSON](zc4_kie_3tb.json) |
+| `zc4_kie_3tb` | 報丁 | [《史記・殷本紀》][7]、[《史記・三代世表》][118] | [JSON](zc4_kie_3tb.json) |
 | `zca_oth_gyj` | 侍者（徐來） | [《史記・淮南衡山列傳》][104] | [JSON](zca_oth_gyj.json) |
 | `zcn_zyw_flp` | 竇太后 | [《史記・酷吏列傳》][108] | [JSON](zcn_zyw_flp.json) |
 | `zd5_eyz_mxn` | 徐福 | [《史記・淮南衡山列傳》][104] | [JSON](zd5_eyz_mxn.json) |
@@ -231,7 +231,7 @@
 | `zmn_o2u_kwm` | 周宣王 | [《史記・趙世家》][29] | [JSON](zmn_o2u_kwm.json) |
 | `zn2_vwj_e9n` | 北地都尉卬 | [《史記・孝文本紀》][14]、[《史記・匈奴列傳》][96] | [JSON](zn2_vwj_e9n.json) |
 | `zn6_9ne_atr` | 趙王遷（楚篇秦虜者） | [《史記・楚世家》][26] | [JSON](zn6_9ne_atr.json) |
-| `zno_zup_85b` | 昌若 | [《史記・殷本紀》][7]、[《史記・三代世表》][117] | [JSON](zno_zup_85b.json) |
+| `zno_zup_85b` | 昌若 | [《史記・殷本紀》][7]、[《史記・三代世表》][118] | [JSON](zno_zup_85b.json) |
 | `zoh_v2m_0ol` | 甫侯 | [《史記・周本紀》][8] | [JSON](zoh_v2m_0ol.json) |
 | `zoj_xz1_a2c` | 白羊王（匈奴列傳第31段未名） | [《史記・匈奴列傳》][96]、[《史記・衛將軍驃騎列傳》][97] | [JSON](zoj_xz1_a2c.json) |
 | `zp1_fiy_44m` | 秦非 | [《史記・仲尼弟子列傳》][53] | [JSON](zp1_fiy_44m.json) |
@@ -240,9 +240,9 @@
 | `zpb_vdo_mka` | 大王去邠 | [《史記・孟子荀卿列傳》][60] | [JSON](zpb_vdo_mka.json) |
 | `zpc_ufe_fc2` | 趙始成 | [《史記・大宛列傳》][109] | [JSON](zpc_ufe_fc2.json) |
 | `zph_7fy_7lq` | 郭成 | [《史記・衛將軍驃騎列傳》][97] | [JSON](zph_7fy_7lq.json) |
-| `zpl_q9c_nur` | 智開 | [《史記・秦本紀》][9]、[《史記・六國年表》][119] | [JSON](zpl_q9c_nur.json) |
+| `zpl_q9c_nur` | 智開 | [《史記・秦本紀》][9]、[《史記・六國年表》][120] | [JSON](zpl_q9c_nur.json) |
 | `zpv_ei1_hhy` | 齊湣王（陳篇滅宋記事） | [《史記・陳杞世家》][22]、[《史記・宋微子世家》][24] | [JSON](zpv_ei1_hhy.json) |
-| `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][97]、[《史記・建元以來侯者年表》][124] | [JSON](zqj_u2i_r5y.json) |
+| `zqj_u2i_r5y` | 僕多 | [《史記・衛將軍驃騎列傳》][97]、[《史記・建元以來侯者年表》][125] | [JSON](zqj_u2i_r5y.json) |
 | `zqx_760_8l5` | 周敬王 | [《史記・趙世家》][29] | [JSON](zqx_760_8l5.json) |
 | `zqy_a21_8d3` | 任鄙 | [《史記・秦本紀》][9] | [JSON](zqy_a21_8d3.json) |
 | `zr7_8hl_01r` | 皋羊（陳相公） | [《史記・陳杞世家》][22] | [JSON](zr7_8hl_01r.json) |
@@ -361,8 +361,8 @@
 [114]: https://zh.wikisource.org/w/index.php?title=史記/卷128&oldid=7904127
 [115]: https://zh.wikisource.org/w/index.php?title=史記/卷129&oldid=7904128
 [116]: https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362
-[117]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
-[119]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
-[122]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
-[123]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
-[124]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
+[118]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
+[120]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
+[124]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[125]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036

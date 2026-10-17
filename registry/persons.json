@@ -140165,7 +140165,8 @@
         {
           "surface": "武帝",
           "mention_ids": [
-            "c-shiji-113-nanyue:m006-0009"
+            "c-shiji-113-nanyue:m006-0009",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0035"
           ]
         },
         {
@@ -140482,6 +140483,12 @@
           "chapter_id": "c-shiji-112-pingjin",
           "paragraph_id": "c-shiji-112-pingjin:p019",
           "quote": "尉[佗]"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0035",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "武帝"
         }
       ]
     },
@@ -346835,7 +346842,7 @@
       ]
     },
     {
-      "id": "f4l_jyl_oqv_C",
+      "id": "bvb_d1z_fd0_*AAC",
       "label": "建德",
       "status": "active",
       "historicity": "historical_tradition",
@@ -346911,7 +346918,7 @@
         "source_assertion_id": "a-shiji113-007",
         "interpretation_note": "分支字元不表排行；只接明示父系來源，闕代不造父親。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "f4l_jyl_oqv"
+        "parent_person_id": "bvb_d1z_fd0_*AA"
       }
     },
     {
@@ -352974,7 +352981,7 @@
     },
     {
       "id": "bvb_d1z_fd0_*A",
-      "label": "胡（南越列傳候選）",
+      "label": "胡",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -352989,6 +352996,18 @@
             "c-shiji-113-nanyue:m005-0139",
             "c-shiji-113-nanyue:m005-0153",
             "c-shiji-113-nanyue:m005-0165"
+          ]
+        },
+        {
+          "surface": "南越文王",
+          "mention_ids": [
+            "c-zizhitongjian-020-han12:m-nanyue-001-0001"
+          ]
+        },
+        {
+          "surface": "文王",
+          "mention_ids": [
+            "c-zizhitongjian-020-han12:m-nanyue-001-0025"
           ]
         }
       ],
@@ -353040,6 +353059,18 @@
           "chapter_id": "c-shiji-113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p005",
           "quote": "胡"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0001",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "南越文王"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0025",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "文王"
         }
       ],
       "family_path": {
@@ -353186,8 +353217,8 @@
       ]
     },
     {
-      "id": "f4l_jyl_oqv",
-      "label": "嬰齊（南越列傳候選）",
+      "id": "bvb_d1z_fd0_*AA",
+      "label": "嬰齊",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -353203,7 +353234,9 @@
             "c-shiji-113-nanyue:m006-0103",
             "c-shiji-113-nanyue:m007-0017",
             "c-shiji-113-nanyue:m007-0034",
-            "c-shiji-113-nanyue:m013-0047"
+            "c-shiji-113-nanyue:m013-0047",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0008",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0028"
           ]
         },
         {
@@ -353279,8 +353312,41 @@
           "chapter_id": "c-shiji-113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p013",
           "quote": "嬰齊"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0008",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "嬰齊"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0028",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "嬰齊"
         }
-      ]
+      ],
+      "family_path": {
+        "connection": "father",
+        "generation_distance": 1,
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "parent_person_id": "bvb_d1z_fd0_*A",
+        "source_assertion_id": "a-zizhitongjian020-nanyue-001",
+        "evidence": [
+          {
+            "work_id": "w-zizhitongjian",
+            "book_id": "b-zizhitongjian-020",
+            "chapter_id": "c-zizhitongjian-020-han12",
+            "source_id": "s-zizhitongjian-020-han12",
+            "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+            "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣",
+            "source_term": "南越文王遣其子嬰齊"
+          }
+        ],
+        "interpretation_note": "依新錄通鑑明其子接父，原胡與趙佗祖孫闕代不變；分支字元非排行。",
+        "reviewer": "Codex（AI 代理）"
+      }
     },
     {
       "id": "3q4_zsp_jwy",
@@ -353292,7 +353358,9 @@
           "surface": "樛氏女",
           "mention_ids": [
             "c-shiji-113-nanyue:m006-0027",
-            "c-shiji-113-nanyue:m006-0043"
+            "c-shiji-113-nanyue:m006-0043",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0019",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0042"
           ]
         },
         {
@@ -353475,11 +353543,23 @@
           "chapter_id": "c-shiji-113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p013",
           "quote": "樛女"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0019",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "樛氏女"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0042",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "樛氏女"
         }
       ]
     },
     {
-      "id": "f4l_jyl_oqv_A",
+      "id": "bvb_d1z_fd0_*AAA",
       "label": "興（南越列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -353489,7 +353569,9 @@
           "mention_ids": [
             "c-shiji-113-nanyue:m006-0033",
             "c-shiji-113-nanyue:m006-0049",
-            "c-shiji-113-nanyue:m007-0002"
+            "c-shiji-113-nanyue:m007-0002",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0024",
+            "c-zizhitongjian-020-han12:m-nanyue-001-0047"
           ]
         },
         {
@@ -353614,6 +353696,18 @@
           "chapter_id": "c-shiji-113-nanyue",
           "paragraph_id": "c-shiji-113-nanyue:p009",
           "quote": "王"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0024",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "興"
+        },
+        {
+          "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0047",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "興"
         }
       ],
       "family_path": {
@@ -353632,11 +353726,11 @@
         "source_assertion_id": "a-shiji113-004",
         "interpretation_note": "分支字元不表排行；只接明示父系來源，闕代不造父親。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "f4l_jyl_oqv"
+        "parent_person_id": "bvb_d1z_fd0_*AA"
       }
     },
     {
-      "id": "f4l_jyl_oqv_B",
+      "id": "bvb_d1z_fd0_*AAB",
       "label": "次公（南越列傳候選）",
       "status": "active",
       "historicity": "historical_tradition",
@@ -353672,7 +353766,7 @@
         "source_assertion_id": "a-shiji113-006",
         "interpretation_note": "分支字元不表排行；只接明示父系來源，闕代不造父親。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "f4l_jyl_oqv"
+        "parent_person_id": "bvb_d1z_fd0_*AA"
       }
     },
     {
