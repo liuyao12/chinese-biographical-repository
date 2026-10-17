@@ -14,7 +14,7 @@
     {
       "id": "pa-shiji105-003",
       "person_id": "1y5_eke_4gl",
-      "relation": "native_place",
+      "relation": "source_locality_designation",
       "place": {
         "source_name": "同郡元里",
         "place_id": null,
@@ -31,9 +31,13 @@
         }
       ],
       "source_term": "更受師同郡元里公乘陽慶",
-      "interpretation_note": "依原文人物前所記郡縣里或籍貫保存；不推定出生地，不補今日行政區。同郡保留相對稱謂；鄭、裏、氾等字不據注家改寫。",
+      "interpretation_note": "來源以地名指稱此人，保留實際地稱；原句未明示出生、出身或居留關係，不將臨時任事、治病地或現代轄區填成籍貫。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
       "term": "更受師同郡元里公乘陽慶",
       "quote": "太倉公者，齊太倉長，臨菑人也，姓淳于氏，名意。少而喜醫方術。高后八年，更受師同郡元里公乘陽慶。慶年七十餘，無子，使意盡去其故方，更悉以禁方予之，傳黃帝、扁鵲之脈書，五色診病，知人死生，決嫌疑，定可治，及藥論，甚精。受之三年，為人治病，決死生多驗。然左右行游諸侯，不以家為家，或不為人治病，病家多怨之者。"
     }
@@ -130,7 +134,52 @@
       "reviewer": "Codex（AI 代理）"
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji105-001",
+      "person_id": "1y5_eke_4gl",
+      "value": null,
+      "source_number": "七十",
+      "source_term": "年七十餘",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "date_expression": "高后八年",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p010",
+          "quote": "太倉公者，齊太倉長，臨菑人也，姓淳于氏，名意。少而喜醫方術。高后八年，更受師同郡元里公乘陽慶。慶年七十餘，無子，使意盡去其故方，更悉以禁方予之，傳黃帝、扁鵲之脈書，五色診病，知人死生，決嫌疑，定可治，及藥論，甚精。受之三年，為人治病，決死生多驗。然左右行游諸侯，不以家為家，或不為人治病，病家多怨之者。",
+          "person_mention_id": "c-shiji-105-bianque:m010-0047"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p014",
+          "quote": "自意少時，喜醫藥，醫藥方試之多不驗者。至高后八年，得見師臨菑元里公乘陽慶。慶年七十餘，意得見事之。謂意曰：「盡去而方書，非是也。慶有古先道遺傳黃帝、扁鵲之脈書，五色診病，知人生死，決嫌疑，定可治，及藥論書，甚精。我家給富，心愛公，欲盡以我禁方書悉教公。」臣意即曰：「幸甚，非意之所敢望也。」臣意即避席再拜謁，受其脈書上下經、五色診、奇咳術、揆度陰陽外變、藥論、石神、接陰陽禁書，受讀解驗之，可一年所。明歲即驗之，有驗，然尚未精也。要事之三年所，即嘗已為人治，診病決死生，有驗，精良。今慶已死十年所，臣意年盡三年，年三十九歲也。",
+          "person_mention_id": "c-shiji-105-bianque:m014-0037"
+        }
+      ],
+      "interpretation_note": "保存來源報齡及未知計歲方式，不當享年，不倒推出生年。陽慶授學同事兩段引文合存；倉公年盡三年疑句原字保留；文王未滿二十保留開放上界，轉聞不作親診。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "bounds": {
+        "lower": 70,
+        "lower_inclusive": false,
+        "upper": null,
+        "upper_inclusive": null
+      },
+      "reporting_status": "direct_report",
+      "source_qualification": null
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji105-003",

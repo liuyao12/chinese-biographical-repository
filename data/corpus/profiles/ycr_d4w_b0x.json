@@ -308,7 +308,43 @@
       "event_type": "death"
     }
   ],
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji105-003",
+      "person_id": "ycr_d4w_b0x",
+      "value": null,
+      "source_number": "二十",
+      "source_term": "年未滿二十",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p044",
+          "quote": "問臣意：「知文王所以得病不起之狀？」臣意對曰：「不見文王病，然竊聞文王病喘，頭痛，目不明。臣意心論之，以為非病也。以為肥而蓄精，身體不得搖，骨肉不相任，故喘，不當醫治。脈法曰『年二十脈氣當趨，年三十當疾步，年四十當安坐，年五十當安臥，年六十已上氣當大董』。文王年未滿二十，方脈氣之趨也而徐之，不應天道四時。後聞醫灸之即篤，此論病之過也。臣意論之，以為神氣爭而邪氣入，非年少所能復之也，以故死。所謂氣者，當調飲食，擇晏日，車步廣志，以適筋骨肉血脈，以瀉氣。故年二十，是謂『易眢』。法不當砭灸，砭灸至氣逐。」",
+          "person_mention_id": "c-shiji-105-bianque:m044-0128"
+        }
+      ],
+      "interpretation_note": "保存來源報齡及未知計歲方式，不當享年，不倒推出生年。陽慶授學同事兩段引文合存；倉公年盡三年疑句原字保留；文王未滿二十保留開放上界，轉聞不作親診。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "bounds": {
+        "lower": null,
+        "lower_inclusive": null,
+        "upper": 20,
+        "upper_inclusive": false
+      },
+      "reporting_status": "upper_bound_report",
+      "source_qualification": null
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji052-010",

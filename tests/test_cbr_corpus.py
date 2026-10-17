@@ -174,6 +174,17 @@ class CorpusTests(unittest.TestCase):
     def test_parallel_death_window_rejects_unmatched_year(self):
         self.change('corpus/shiji/105-life-events.json', lambda d: d['events'][-1]['normalized_date_range']['parallel_event'].update(reference_year_quote='166'))
         self.assertIn('生卒跨年範圍平行事件對讀無效', v.validate(self.root))
+    def change_upper_age(self, fn):
+        self.change('corpus/shiji/105.json', lambda d: fn(d['annotation']['age_assertions'][2]))
+    def test_upper_age_cannot_be_exact_nineteen(self):
+        self.change_upper_age(lambda a: a.update(value=19))
+        self.assertIn('來源未滿報齡須保存開放上界及原詞，不得補確切歲數', v.validate(self.root))
+    def test_upper_age_cannot_include_twenty(self):
+        self.change_upper_age(lambda a: a['bounds'].update(upper_inclusive=True))
+        self.assertIn('來源未滿報齡須保存開放上界及原詞，不得補確切歲數', v.validate(self.root))
+    def test_upper_age_requires_not_full_wording(self):
+        self.change_upper_age(lambda a: a.update(source_term='年二十'))
+        self.assertIn('來源未滿報齡須保存開放上界及原詞，不得補確切歲數', v.validate(self.root))
     def test_corpus(self):self.assertEqual(v.validate(self.root),[])
     def test_title_excess_months_cannot_be_exact(self):
         self.change('corpus/shiji/057-titles.json', lambda d: next(h for h in d['holdings'] if h['id']=='th-shiji057-045')['reported_duration'].update(value=10))
