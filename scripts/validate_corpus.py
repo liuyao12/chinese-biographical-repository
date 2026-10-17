@@ -857,7 +857,7 @@ def validate(root=ROOT):
                         check('normalized_date' not in a, '用稱跨年範圍不得另填確定單年')
                         expression = a.get('date_expression')
                         errors.extend(year_range_errors(a['normalized_date_range'], h['evidence'], expression))
-                        errors.extend(table_regnal_range_errors(a['normalized_date_range'], expression, tables))
+                        errors.extend(table_regnal_range_errors(a['normalized_date_range'], expression, tables, mentions))
                 period=h['effective_period']
                 for endpoint in ('start','end'):
                     boundary=period[endpoint]
@@ -896,7 +896,7 @@ def validate(root=ROOT):
                                 if valid:
                                     range_expression = year_window['parallel_event']['source_event_quote']
                             errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression))
-                            errors.extend(table_regnal_range_errors(year_window, date, tables))
+                            errors.extend(table_regnal_range_errors(year_window, date, tables, mentions))
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()
@@ -1177,7 +1177,7 @@ def validate(root=ROOT):
                         from date_ranges import year_range_errors
                     check('normalized_date' not in age, '來源報齡跨年範圍不得另填確定單年')
                     errors.extend(year_range_errors(age['normalized_date_range'], age['evidence'], age.get('date_expression')))
-                    errors.extend(table_regnal_range_errors(age['normalized_date_range'], age.get('date_expression'), tables))
+                    errors.extend(table_regnal_range_errors(age['normalized_date_range'], age.get('date_expression'), tables, mentions))
                 if 'normalized_date' in age:
                     errors.extend(normalized_date_errors(age['normalized_date']))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
@@ -1417,7 +1417,7 @@ def validate(root=ROOT):
                         if valid:
                             range_expression = year_window['parallel_event']['source_event_quote']
                     errors.extend(year_range_errors(year_window, event['evidence'], range_expression))
-                    errors.extend(table_regnal_range_errors(year_window, expression, tables))
+                    errors.extend(table_regnal_range_errors(year_window, expression, tables, mentions))
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')

@@ -381,8 +381,18 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             from .table_evidence import table_regnal_range_errors, table_cell
         except ImportError:
             from table_evidence import table_regnal_range_errors, table_cell
-        expression = proof['era_name'] + proof['year_source_term']
-        errors = table_regnal_range_errors(window, expression, tables)
+        source_reign = proof.get('source_era_name', proof.get('era_name'))
+        term = proof.get('year_source_term')
+        expression = source_reign + term if isinstance(source_reign, str) and isinstance(term, str) else None
+        # Only a source-specific designation needs another person's source anchor.
+        # Resolve it lazily; most person bundles have no such reign claim.
+        claim = proof.get('reign_designation')
+        mid = claim.get('person_mention_id') if isinstance(claim, dict) else None
+        anchor = next(((chapter['id'], paragraph['id'], mention)
+                       for chapter, paragraph in paragraphs.values()
+                       for mention in paragraph['mentions'] if mention['id'] == mid), None) if mid else None
+        reign_mentions = {mid: anchor} if anchor is not None else {}
+        errors = table_regnal_range_errors(window, expression, tables, reign_mentions)
         if errors:
             raise ValueError('；'.join(errors))
         table = tables[proof['table_id']]

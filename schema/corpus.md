@@ -416,3 +416,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 匯出仍使用 `title_holdings`，另帶所有被引原格、年號欄與來源。紀年格不計作人物提及；人物卡可同時顯示西元年與原表紀年，來源連結返回原格。本傳段首戰役紀年不自動成為段末授爵之年。
 
 姓名組件可另存 `component_alternatives`，每項含 `components`（姓、名、字的獨立值）、`source_terms`、固定來源 `reference`、`status: source_claim_not_selected` 與取捨理由。原注短引須可由保留的排版原句得到，名／字組件原詞與值逐項核查。首選組件與其他來源主張分存，不將兩種分類當作兩個人物或生前更名。試點為顏師古以少季為字、《索隱》以少季為名；原始正文及兩注字句不變。
+
+## 同篇君主錨點限定的紀年帝號對照
+
+`regnal_year_table.era_name` 保存表內帝號；選填 `source_era_name` 保存本文原紀年稱謂，二者不同時須有 `reign_designation`。其 `kind: same_reign_source_designations`、`source_era_name`、`table_era_name`、`person_id`、`person_mention_id`、`source_context_quote`、`status: editorial_provisional`、`rationale` 與 `human_reviewed: false` 綁定同篇已辨人物錨點及限定語境。原 `date_expression` 不改寫成表內稱號。驗證器目前只接受〈南越列傳〉高帝已定天下下的漢／高皇帝，以及孝文帝／孝文兩組明列語境；不作全書通用別名或任意年號替換。
+
+原段未含年號的稱號用稱，可依既有 `normalized_date.basis.kind: parallel_event` 分列本段原事件、平行事件及其原紀年，再附固定數位對照與曆法引用。原 `date_expression: null` 保持。授任起點只有來源已明示授任者才可依同一事件定年；同次用兵的既任官爵只增加用稱日期，不產生持有始期或未知終期。

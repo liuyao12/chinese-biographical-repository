@@ -1,5 +1,6 @@
 # coding: utf-8
 import json, unittest, hashlib
+from scripts.date_ranges import parallel_event_date
 from pathlib import Path
 R=Path(__file__).resolve().parents[1]
 def load(p):return json.loads((R/p).read_text())
@@ -18,7 +19,7 @@ class Han006NanyueGenerals(unittest.TestCase):
  def test_grants_are_distinct_from_attestations_and_not_falsely_dated(self):
   hs=load('corpus/hanshu/006-titles.json')['holdings'];self.assertEqual(len(hs),6);self.assertEqual([h['title']for h in hs if h['mode']=='grant'],['戈船將軍','下瀨將軍'])
   for h in hs:
-   self.assertIsNone(h['effective_period']['start']['date_expression']);self.assertNotIn('normalized_date',h['effective_period']['start']);self.assertEqual(h['effective_period']['end']['status'],'unknown');self.assertTrue(all(e['chapter_id']=='c-hanshu-006-wudi'for e in h['evidence']))
+   self.assertIsNone(h['effective_period']['start']['date_expression']);self.assertTrue('normalized_date'not in h['effective_period']['start']or parallel_event_date(h['effective_period']['start']['normalized_date']));self.assertEqual(h['effective_period']['end']['status'],'unknown');self.assertTrue(all(e['chapter_id']=='c-hanshu-006-wudi'for e in h['evidence']))
  def test_posthumous_names_require_explicit_death_and_naming(self):
   hs=[h for h in load('corpus/shiji/113-titles.json')['holdings']if h['id']in ['th-shiji113-032','th-shiji113-033']];self.assertEqual(len(hs),2)
   for h in hs:self.assertEqual(h['mode'],'posthumous_naming');self.assertIn(h['naming_basis']['source_term'],h['evidence'][0]['quote']);self.assertEqual(h['effective_period']['start']['event_type'],'posthumous_naming');self.assertEqual(h['effective_period']['end']['status'],'unknown')
