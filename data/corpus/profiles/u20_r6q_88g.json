@@ -87,9 +87,30 @@
           "quote": "師古曰姓安國字少季",
           "scope": "ancient_commentary_identity_or_name_components",
           "note": "短引文只除分行、雙行注斜線、括號、段末符與頁標；保留原字。部分回應指紋非全檔hash，Git blob另列。古注亦非影像校勘。"
+        },
+        {
+          "title": "《史記索隱》卷25安國少季條",
+          "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_025.txt#L136-L138",
+          "quote": "安國姓也少季名也",
+          "raw_quote": "(昭云誘/怵好語)樛氏女(上紀虬反樛/姓出邯鄲)藏其先武帝璽(李奇云去/其僭號)¶\n安國少季(安國姓也/少季名也)蒼梧秦王有連(按蒼梧越中王自/名為秦王即下趙)¶\n(光是也故云有連連者連姻/也趙與秦同姓故稱秦王)介漢使者(韋昭曰恃使者/為介胄志林云)¶",
+          "source_commit": "85cc2d3b1952d7a66280628c8d2141d4f1593fc7",
+          "source_blob_sha": "71e26bc770f73521aca26003b5b86edb720878a6",
+          "response_sha256": "9bc292ea0f2b249eb1b5053367e72454e135001e0ca740364fd5dd91089b3ffa",
+          "response_extent": {
+            "full_file": true,
+            "reviewed_line_ranges": [
+              [
+                119,
+                155
+              ]
+            ],
+            "reviewed_full_chapter": false
+          },
+          "scope": "ancient_commentary_alternative_name_components",
+          "image_verified": false
         }
       ],
-      "rationale": "漢書師古明姓安國字少季；不拆姓安名國少季，不把字少季當本名，未知名留空。",
+      "rationale": "本傳安國少季未明名與字；漢書師古注姓安國字少季，索隱另稱少季名也。姓安國相合，名／字分歧保留，暫沿漢書注字說；不拆姓安名國少季，不推改名年月或不同人物。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
@@ -126,10 +147,46 @@
           "note": "短引文只除分行、雙行注斜線、括號、段末符與頁標；保留原字。部分回應指紋非全檔hash，Git blob另列。古注亦非影像校勘。"
         }
       ],
-      "note": "安國為複姓，少季為字，據已讀漢書師古注；名未見，不把字當名。",
+      "note": "本傳未明少季是名或字；漢書師古注明姓安國字少季，索隱另曰安國姓也少季名也。暫沿前者，名留空，但不是斷言所有來源均未記名；另一說另存可解析組件，未核書影。",
       "status": "editorial_provisional",
       "human_reviewed": false,
-      "zi": "少季"
+      "zi": "少季",
+      "component_alternatives": [
+        {
+          "components": {
+            "surname": "安國",
+            "ming": "少季",
+            "zi": null
+          },
+          "source_terms": {
+            "surname": "安國姓也",
+            "ming": "少季名也"
+          },
+          "reference": {
+            "title": "《史記索隱》卷25安國少季條",
+            "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_025.txt#L136-L138",
+            "quote": "安國姓也少季名也",
+            "raw_quote": "(昭云誘/怵好語)樛氏女(上紀虬反樛/姓出邯鄲)藏其先武帝璽(李奇云去/其僭號)¶\n安國少季(安國姓也/少季名也)蒼梧秦王有連(按蒼梧越中王自/名為秦王即下趙)¶\n(光是也故云有連連者連姻/也趙與秦同姓故稱秦王)介漢使者(韋昭曰恃使者/為介胄志林云)¶",
+            "source_commit": "85cc2d3b1952d7a66280628c8d2141d4f1593fc7",
+            "source_blob_sha": "71e26bc770f73521aca26003b5b86edb720878a6",
+            "response_sha256": "9bc292ea0f2b249eb1b5053367e72454e135001e0ca740364fd5dd91089b3ffa",
+            "response_extent": {
+              "full_file": true,
+              "reviewed_line_ranges": [
+                [
+                  119,
+                  155
+                ]
+              ],
+              "reviewed_full_chapter": false
+            },
+            "scope": "ancient_commentary_alternative_name_components",
+            "image_verified": false
+          },
+          "status": "source_claim_not_selected",
+          "rationale": "索隱明以少季為名，分源保存；暫沿漢書師古注明字作預設，不據此推生前改名或另建人物。"
+        }
+      ]
     }
   ],
   "person_ids": [

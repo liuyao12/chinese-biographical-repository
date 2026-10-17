@@ -1,0 +1,2359 @@
+{
+  "format_version": "0.1",
+  "record_type": "table_title_holding_assertion_set",
+  "table_id": "shiji-020",
+  "chapter_id": "table-chapter-shiji-020",
+  "holdings": [
+    {
+      "id": "th-table-shiji020-r045-founding-grant",
+      "person_id": "tz9_dhl_ifo_A",
+      "title": "龍亢侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r045-c00",
+          "quote": "龍亢。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r045-c01",
+          "quote": "以校尉摎樂擊南越，死事，子侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r045-c05",
+          "quote": "二。五年三月壬午，侯廣德元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r045-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r045-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r045-c05",
+          "person_mention_id": "shiji-020-t1-r045-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r045-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "龍亢"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r045-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r045-c05",
+          "quote": "二。五年三月壬午，侯廣德元年。",
+          "person_mention_id": "shiji-020-t1-r045-c05-m000",
+          "surface": "廣德"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r045-c00",
+          "quote": "龍亢。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r045-c01",
+          "quote": "以校尉摎樂擊南越，死事，子侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r045-c05",
+            "text": "五年三月壬午",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r095-c01",
+          "digital_year_cell_id": "shiji-022-t1-r095-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎五年三月壬午",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r045-c00",
+              "quote": "龍亢。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r045-c01",
+              "quote": "以校尉摎樂擊南越，死事，子侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r045-c05",
+              "quote": "二。五年三月壬午，侯廣德元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r045-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "二。五年三月壬午，侯廣德元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c00",
+                "quote": "龍亢。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c01",
+                "quote": "以校尉摎樂擊南越，死事，子侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c05",
+                "quote": "二。五年三月壬午，侯廣德元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r045-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "龍亢。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以校尉摎樂擊南越，死事，子侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "二。五年三月壬午，侯廣德元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r045-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "112",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r046-founding-grant",
+      "person_id": "8xz_mlj_r3c_A",
+      "title": "成安侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r046-c00",
+          "quote": "成安。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r046-c01",
+          "quote": "以校尉韓千秋擊南越死事，子侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r046-c05",
+          "quote": "二。五年三月壬子，侯延年元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r046-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r046-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r046-c05",
+          "person_mention_id": "shiji-020-t1-r046-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r046-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "成安"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r046-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r046-c05",
+          "quote": "二。五年三月壬子，侯延年元年。",
+          "person_mention_id": "shiji-020-t1-r046-c05-m000",
+          "surface": "延年"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r046-c00",
+          "quote": "成安。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r046-c01",
+          "quote": "以校尉韓千秋擊南越死事，子侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r046-c05",
+            "text": "五年三月壬子",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r095-c01",
+          "digital_year_cell_id": "shiji-022-t1-r095-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎五年三月壬子",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r046-c00",
+              "quote": "成安。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r046-c01",
+              "quote": "以校尉韓千秋擊南越死事，子侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r046-c05",
+              "quote": "二。五年三月壬子，侯延年元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r046-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "二。五年三月壬子，侯延年元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c00",
+                "quote": "成安。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c01",
+                "quote": "以校尉韓千秋擊南越死事，子侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c05",
+                "quote": "二。五年三月壬子，侯延年元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r046-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "成安。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以校尉韓千秋擊南越死事，子侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "二。五年三月壬子，侯延年元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r046-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "112",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r095-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 112,
+            "year": -111
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r052-founding-grant",
+      "person_id": "jk8_8gt_vmi",
+      "title": "將梁侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r052-c00",
+          "quote": "將梁。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r052-c01",
+          "quote": "以樓船將軍擊南越，椎鋒卻敵侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r052-c05",
+          "quote": "一。六年三月乙酉，侯楊僕元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r052-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r052-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r052-c05",
+          "person_mention_id": "shiji-020-t1-r052-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r052-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "將梁"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r052-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r052-c05",
+          "quote": "一。六年三月乙酉，侯楊僕元年。",
+          "person_mention_id": "shiji-020-t1-r052-c05-m000",
+          "surface": "楊僕"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r052-c00",
+          "quote": "將梁。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r052-c01",
+          "quote": "以樓船將軍擊南越，椎鋒卻敵侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r052-c05",
+            "text": "六年三月乙酉",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年三月乙酉",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r052-c00",
+              "quote": "將梁。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r052-c01",
+              "quote": "以樓船將軍擊南越，椎鋒卻敵侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r052-c05",
+              "quote": "一。六年三月乙酉，侯楊僕元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r052-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年三月乙酉，侯楊僕元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c00",
+                "quote": "將梁。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c01",
+                "quote": "以樓船將軍擊南越，椎鋒卻敵侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c05",
+                "quote": "一。六年三月乙酉，侯楊僕元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r052-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "將梁。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以樓船將軍擊南越，椎鋒卻敵侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年三月乙酉，侯楊僕元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r052-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r053-founding-grant",
+      "person_id": "xhk_b1m_hjb",
+      "title": "安道侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r053-c00",
+          "quote": "安道。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r053-c01",
+          "quote": "以南越揭陽令聞漢兵至自定降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r053-c05",
+          "quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r053-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r053-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r053-c05",
+          "person_mention_id": "shiji-020-t1-r053-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r053-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "安道"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r053-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r053-c05",
+          "quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+          "person_mention_id": "shiji-020-t1-r053-c05-m000",
+          "surface": "史定"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r053-c00",
+          "quote": "安道。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r053-c01",
+          "quote": "以南越揭陽令聞漢兵至自定降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r053-c05",
+            "text": "六年三月乙酉",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年三月乙酉",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r053-c00",
+              "quote": "安道。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r053-c01",
+              "quote": "以南越揭陽令聞漢兵至自定降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r053-c05",
+              "quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r053-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c00",
+                "quote": "安道。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c01",
+                "quote": "以南越揭陽令聞漢兵至自定降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c05",
+                "quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r053-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "安道。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以南越揭陽令聞漢兵至自定降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年三月乙酉，侯揭陽令史定元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r053-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r054-founding-grant",
+      "person_id": "b77_ulm_otk",
+      "title": "隨桃侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "quote": "隨桃。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "quote": "以南越蒼梧王聞漢兵至降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r054-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r054-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "隨桃"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r054-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000",
+          "surface": "趙光"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "quote": "隨桃。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "quote": "以南越蒼梧王聞漢兵至降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r054-c05",
+            "text": "六年四月癸亥",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年四月癸亥",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c00",
+              "quote": "隨桃。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c01",
+              "quote": "以南越蒼梧王聞漢兵至降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c05",
+              "quote": "一。六年四月癸亥，侯趙光元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r054-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年四月癸亥，侯趙光元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c00",
+                "quote": "隨桃。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c01",
+                "quote": "以南越蒼梧王聞漢兵至降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c05",
+                "quote": "一。六年四月癸亥，侯趙光元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r054-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "隨桃。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以南越蒼梧王聞漢兵至降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年四月癸亥，侯趙光元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r055-founding-grant",
+      "person_id": "h1o_o6t_3ru",
+      "title": "湘成侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "quote": "湘成。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r055-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r055-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "湘成"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r055-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000",
+          "surface": "居翁"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "quote": "湘成。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r055-c05",
+            "text": "六年五月壬申",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年五月壬申",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c00",
+              "quote": "湘成。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c01",
+              "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c05",
+              "quote": "一。六年五月壬申，侯監居翁。元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r055-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年五月壬申，侯監居翁。元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c00",
+                "quote": "湘成。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c01",
+                "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c05",
+                "quote": "一。六年五月壬申，侯監居翁。元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r055-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "湘成。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年五月壬申，侯監居翁。元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r056-founding-grant",
+      "person_id": "m08_4xt_opo",
+      "title": "海常侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r056-c00",
+          "quote": "海常。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r056-c01",
+          "quote": "以伏波司馬捕得南越王建德功侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r056-c05",
+          "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r056-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r056-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r056-c05",
+          "person_mention_id": "shiji-020-t1-r056-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r056-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "海常"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r056-c05",
+              "start": 10,
+              "end": 11,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r056-c05",
+          "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+          "person_mention_id": "shiji-020-t1-r056-c05-m000",
+          "surface": "蘇弘"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r056-c00",
+          "quote": "海常。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r056-c01",
+          "quote": "以伏波司馬捕得南越王建德功侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r056-c05",
+            "text": "六年七月乙酉",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年七月乙酉",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r056-c00",
+              "quote": "海常。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r056-c01",
+              "quote": "以伏波司馬捕得南越王建德功侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r056-c05",
+              "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r056-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c00",
+                "quote": "海常。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c01",
+                "quote": "以伏波司馬捕得南越王建德功侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c05",
+                "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r056-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "海常。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以伏波司馬捕得南越王建德功侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年七月乙酉，莊侯蘇弘元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r056-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "th-table-shiji020-r062-founding-grant",
+      "person_id": "6m0_ze7_hl0",
+      "title": "臨蔡侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r062-c00",
+          "quote": "臨蔡。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r062-c01",
+          "quote": "以故南越郎聞漢兵破番禺，為伏波得南越相呂嘉功侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r062-c06",
+          "quote": "六。元年閏月癸卯，侯孫都元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r062-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r062-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r062-c06",
+          "person_mention_id": "shiji-020-t1-r062-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r062-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "臨蔡"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r062-c06",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r062-c06",
+          "quote": "六。元年閏月癸卯，侯孫都元年。",
+          "person_mention_id": "shiji-020-t1-r062-c06-m000",
+          "surface": "孫都"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r062-c00",
+          "quote": "臨蔡。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r062-c01",
+          "quote": "以故南越郎聞漢兵破番禺，為伏波得南越相呂嘉功侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r062-c06",
+            "text": "元年閏月癸卯",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r097-c01",
+          "digital_year_cell_id": "shiji-022-t1-r097-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封元年閏月癸卯",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r062-c00",
+              "quote": "臨蔡。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r062-c01",
+              "quote": "以故南越郎聞漢兵破番禺，為伏波得南越相呂嘉功侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r062-c06",
+              "quote": "六。元年閏月癸卯，侯孫都元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r062-c06-m000"
+            }
+          ],
+          "normalized_date_range": {
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "status": "editorial_provisional",
+            "original_quote": "六。元年閏月癸卯，侯孫都元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c00",
+                "quote": "臨蔡。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c01",
+                "quote": "以故南越郎聞漢兵破番禺，為伏波得南越相呂嘉功侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c06",
+                "quote": "六。元年閏月癸卯，侯孫都元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r062-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "臨蔡。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以故南越郎聞漢兵破番禺，為伏波得南越相呂嘉功侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "六。元年閏月癸卯，侯孫都元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r062-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "110",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "earliest": {
+              "era": "BCE",
+              "era_year": 111,
+              "year": -110
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "basis": "regnal_year_crosses_ce_year"
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

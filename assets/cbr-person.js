@@ -57,7 +57,13 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const names = components.length === 1 ? components[0] : null;
   const heading = names ? `${names.title || ''} ${names.surname || ''}${names.ming || ''}`.trim() : p.label;
   const additional = names?.additional_names?.length ? names.additional_names : (p.names || []).filter(x => ![p.label, heading, names?.title, names?.ming, names?.surname + names?.ming].includes(x)).slice(0, 5);
-  const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p></details>` : '';
+  const componentAlternatives = (names?.component_alternatives || []).map(a => {
+    const c=a.components || {}, labels=[['surname','Surname'],['ming','Given name'],['zi','Courtesy name']].filter(([k])=>c[k]).map(([k,label])=>`${ui(label)} ${h(c[k])}`);
+    const ref=a.reference || {}; let url='';
+    try {const u=new URL(ref.url);if(['http:','https:'].includes(u.protocol))url=u.href;}catch{}
+    return `<p class="person-name-alternative">${ui('Name component alternative')}：${labels.join('、')}（${ui('Not selected as default')}）</p><blockquote>${h(ref.quote || '')}</blockquote>${url?`<a href="${h(url)}" target="_blank" rel="noopener">${ref.title?h(ref.title):ui('Source')}</a>`:''}`;
+  }).join('');
+  const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p>${componentAlternatives}</details>` : '';
   const life = summarizeLife(p);
   const lifeChoice = event => {
     const d=(p.life_event_date_decisions || []).find(d=>d.candidate_event_ids.includes(event.id));

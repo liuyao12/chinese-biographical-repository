@@ -1,4 +1,9 @@
 export default {
+  'Name component alternative':'姓名組件另說',
+  'Not selected as default':'未採為預設',
+  'Surname':'姓',
+  'Given name':'名',
+  'Courtesy name':'字',
   'Distinct people':'同名異人',
   'Identity distinction evidence':'身份區分依據',
   'Provisional preferred date':'首選紀年（暫定）',

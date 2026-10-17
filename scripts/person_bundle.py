@@ -19,6 +19,38 @@ def validate_courtesy_name(name):
         raise ValueError('字須有明示字名的引句且不得冒作名')
 
 
+def validate_name_component_alternatives(name):
+    """Keep separately cited name/zi claims without silently replacing a preferred reading."""
+    import re
+    for alternative in name.get('component_alternatives', []):
+        components = alternative.get('components', {})
+        terms = alternative.get('source_terms', {})
+        ref = alternative.get('reference', {})
+        valid = (set(components) == {'surname', 'ming', 'zi'}
+                 and alternative.get('status') == 'source_claim_not_selected'
+                 and isinstance(alternative.get('rationale'), str) and bool(alternative['rationale'])
+                 and ref.get('image_verified') is False
+                 and isinstance(ref.get('url'), str) and ref['url'].startswith('https://')
+                 and re.fullmatch('[0-9a-f]{40}', ref.get('source_commit', '')) is not None
+                 and ref['source_commit'] in ref['url']
+                 and re.fullmatch('[0-9a-f]{40}', ref.get('source_blob_sha', '')) is not None
+                 and re.fullmatch('[0-9a-f]{64}', ref.get('response_sha256', '')) is not None)
+        raw = ref.get('raw_quote', '')
+        quote = ref.get('quote', '')
+        normalized = re.sub(r'<pb:[^>]*>', '', raw) if isinstance(raw, str) else ''
+        normalized = re.sub(r'[()/¶\s]', '', normalized)
+        valid = valid and isinstance(quote, str) and bool(quote) and quote in normalized
+        present = {key for key, value in components.items() if value is not None}
+        valid = valid and bool(present) and set(terms) == present
+        for key in present:
+            value, word = components[key], {'surname': '姓', 'ming': '名', 'zi': '字'}.get(key, '')
+            valid = (valid and isinstance(value, str) and bool(value) and value == value.strip()
+                     and terms[key] in (value + word + '也', word + value)
+                     and terms[key] in quote)
+        if not valid:
+            raise ValueError('姓名組件異說須有固定來源、原引文與相符名／字原詞')
+
+
 def table_person_occurrences(table, person_ids):
     """保留逐人錨點與原格座標；編者西元欄不轉成人物事件日期。"""
     source = table['source']
@@ -104,7 +136,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             life_events.extend(e for e in record['events'] if e['person_id'] in ids)
         elif kind == 'person_event_assertion_set':
             person_events.extend(e for e in record['events'] if e['person_id'] in ids)
-        elif kind == 'title_holding_assertion_set':
+        elif kind in ('title_holding_assertion_set', 'table_title_holding_assertion_set'):
             titles.extend(t for t in record['holdings'] if t['person_id'] in ids)
         elif kind == 'person_name_component_set':
             name_components.extend(n for n in record['records'] if n['person_id'] in ids)
@@ -126,6 +158,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     enriched_names = []
     for name in name_components:
         validate_courtesy_name(name)
+        validate_name_component_alternatives(name)
         if name.get('kind') == 'table_cell':
             try:
                 from .table_evidence import table_name_component_errors
@@ -205,8 +238,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions + distinctions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
-        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []))
-        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []))
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []) if e.get('kind') != 'table_cell')
         for evidence in record.get('evidence', []):
             context = evidence.get('context', {})
             if context.get('paragraph_id'):
@@ -214,10 +247,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             paragraph_ids.update(context.get('intervening_paragraph_ids', []))
     for holding in titles:
         for attestation in holding.get('attestations', []):
-            paragraph_ids.update(e['paragraph_id'] for e in attestation.get('normalized_date', {}).get('evidence', []))
+            paragraph_ids.update(e['paragraph_id'] for e in attestation.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
         for boundary in holding['effective_period'].values():
-            paragraph_ids.update(e['paragraph_id'] for e in boundary['evidence'])
-            paragraph_ids.update(e['paragraph_id'] for e in boundary.get('normalized_date', {}).get('evidence', []))
+            paragraph_ids.update(e['paragraph_id'] for e in boundary['evidence'] if e.get('kind') != 'table_cell')
+            paragraph_ids.update(e['paragraph_id'] for e in boundary.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
     passages = []
     for pid in sorted(paragraph_ids):
         chapter, paragraph = paragraphs[pid]
@@ -244,6 +277,46 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 work_id=table['source']['work_id'], book_id=table['source']['book_id'],
                 chapter_id=table['source']['chapter_id'], source_id=table['source']['id']))
     date_columns = {}
+    # A table's fief, person/event and year cells are source material, not prose paragraphs.
+    for holding in titles:
+        if holding.get('source_representation') != 'table_cells':
+            continue
+        try:
+            from .table_title_holdings import table_title_errors
+        except ImportError:
+            from table_title_holdings import table_title_errors
+        errors = table_title_errors(holding, tables, set(people))
+        if errors:
+            raise ValueError('；'.join(errors))
+        refs = []
+        for endpoint in ('start', 'end'):
+            boundary = holding['effective_period'][endpoint]
+            date = boundary.get('normalized_date') or boundary.get('normalized_date_range') or {}
+            refs.extend(date.get('references', []))
+        for ref in refs:
+            tid = ref.get('table_id')
+            if tid not in tables:
+                continue
+            table = tables[tid]; cited_tables.add(tid)
+            for fragment in table['fragments']:
+                for index, col in enumerate(fragment['columns']):
+                    if col['id'] == ref.get('table_column_id'):
+                        date_columns[col['id']] = dict(col, table_id=tid,
+                            table_fragment_id=fragment['id'], column_index=index,
+                            work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                            chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
+                            source_revision=table['source']['revision'])
+                for row in fragment['rows']:
+                    for cell in row['cells']:
+                        if cell['id'] == ref.get('table_cell_id'):
+                            table_passages.setdefault(cell['id'], dict(cell, table_id=tid,
+                                table_fragment_id=fragment['id'], table_row_id=row['id'],
+                                table_cell_id=cell['id'], work_id=table['source']['work_id'],
+                                book_id=table['source']['book_id'], chapter_id=table['source']['chapter_id'],
+                                source_id=table['source']['id'], source_revision=table['source']['revision'],
+                                source_header=fragment['source_header'], row_year=row.get('year'),
+                                citation_role='native_table_title_reference'))
+
     for holding in titles:
         for endpoint in ('start', 'end'):
             boundary = holding['effective_period'][endpoint]

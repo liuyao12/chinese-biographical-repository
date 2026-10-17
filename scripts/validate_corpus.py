@@ -900,6 +900,23 @@ def validate(root=ROOT):
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()
+        # Table-native title assertions retain cells and composed column dates.
+        for path in (root/'corpus').glob('*/*-table-title-events.json'):
+            d=json.loads(path.read_text(encoding='utf-8'))
+            table=tables.get(d.get('table_id'))
+            check(d.get('record_type')=='table_title_holding_assertion_set' and bool(table)
+                  and d.get('chapter_id')==table['source']['chapter_id'], '表格原生稱號集來源或篇ID不符')
+            try:
+                from scripts.table_title_holdings import table_title_errors
+            except ImportError:
+                from table_title_holdings import table_title_errors
+            for h in d.get('holdings',[]):
+                check(h.get('table_title_basis',{}).get('table_id')==d.get('table_id'),'表格稱號不得跨集換來源')
+                check(h.get('id') not in title_ids,'稱號持有 ID 重複');title_ids.add(h.get('id'))
+                errors.extend(table_title_errors(h,tables,pids))
+                for a in h.get('attestations',[]):
+                    check(a.get('id') not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a.get('id'))
+
         for path in (root/'corpus').glob('*/*-assertions.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             check(d['record_type']=='person_assertion_set','人物陳述集類型不符')

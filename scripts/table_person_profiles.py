@@ -65,9 +65,11 @@ def build(root=ROOT):
                 except ImportError:
                     from date_ranges import year_range_label
                 if z.get('normalized_date_range'):
-                    bounds.append(year_range_label(z['normalized_date_range']))
+                    label = year_range_label(z['normalized_date_range'])
+                    bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
                     continue
-                bounds.append((f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定')
+                label = (f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定'
+                bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
             titles.append(dict(x, period=' → '.join(bounds)))
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]
         non_alias_mentions = {d['preferred_reading']['person_mention_id'] for d in b.get('identity_decisions', [])
