@@ -1247,7 +1247,7 @@ def validate(root=ROOT):
             for address in record['assertions']:
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
-                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
+                check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'capital_location', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
                 if address['relation'] == 'fief' or 'fief_kind' in address.get('qualifiers', {}):
                     kind = address.get('qualifiers', {}).get('fief_kind')
                     word = {'tangmu_estate':'湯沐邑', 'maintenance_allocation':'奉', 'territorial_grant':'賜', 'approved_enfeoffment':'許之', 'household_revenue':'食'}.get(kind)
@@ -1277,6 +1277,12 @@ def validate(root=ROOT):
                           and 'origin_or_residence' in scope and scope['origin_or_residence'] is None
                           and address['place']['source_name'] in address['source_term'],
                           '來源地稱須保留未明籍貫或居所，不得轉成出生地')
+                if address['relation'] == 'capital_location':
+                    scope = address.get('qualifiers', {})
+                    check(scope.get('seat_kind') == 'royal_capital'
+                          and scope.get('source_action') == '都'
+                          and address.get('source_term') == '都' + address['place']['source_name'],
+                          '王都須有都與原地名，不得當籍貫或個人居所')
                 if address['relation'] == 'service_location':
                     position = address.get('qualifiers', {}).get('source_position')
                     check(bool(position) and position in address['source_term']
