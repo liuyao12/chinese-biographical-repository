@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gze_eo7_lon` | 孟公綽 | [《史記・仲尼弟子列傳》][53] | [JSON](gze_eo7_lon.json) |
 | `gzj_hsy_5vi` | 甯乘 | [《史記・衛將軍驃騎列傳》][97] | [JSON](gzj_hsy_5vi.json) |
 | `gzq_ays_htq` | 文王 | [《史記・淮南衡山列傳》][104] | [JSON](gzq_ays_htq.json) |
 | `gzs_074_bja` | 李文 | [《史記・酷吏列傳》][108] | [JSON](gzs_074_bja.json) |
@@ -786,7 +785,7 @@
 | `n79_99b_tpt` | 魏哀王 | [《史記・張儀列傳》][56] | [JSON](n79_99b_tpt.json) |
 | `n7c_afk_6o2` | 樓緩 | [《史記・趙世家》][29] | [JSON](n7c_afk_6o2.json) |
 | `n7k_r8y_fkr` | 知伯文子 | [《史記・趙世家》][29] | [JSON](n7k_r8y_fkr.json) |
-| `n7l_j5p_4wl` | 王慶忌引古 | [《史記・范睢蔡澤列傳》][65] | [JSON](n7l_j5p_4wl.json) |
+| `n7l_j5p_4wl` | 慶忌 | [《史記・范睢蔡澤列傳》][65]、[《史記・司馬相如列傳》][103] | [JSON](n7l_j5p_4wl.json) |
 | `n7m_j5e_bt2` | 蒲守 | [《史記・樗里子甘茂列傳》][57] | [JSON](n7m_j5e_bt2.json) |
 | `n7v_qo9_v4f` | 冉耕 | [《史記・仲尼弟子列傳》][53] | [JSON](n7v_qo9_v4f.json) |
 | `n82_e6r_7z2` | 孫臏引古 | [《史記・魯仲連鄒陽列傳》][69] | [JSON](n82_e6r_7z2.json) |
@@ -2009,7 +2008,6 @@
 | `wnf_7c0_qa3` | 陽虎 | [《史記・孔子世家》][33] | [JSON](wnf_7c0_qa3.json) |
 | `wng_nsz_uav` | 公孫龍 | [《史記・仲尼弟子列傳》][53] | [JSON](wng_nsz_uav.json) |
 | `wnj_6yq_aha` | 徐樂 | [《史記・平津侯主父列傳》][98] | [JSON](wnj_6yq_aha.json) |
-| `wnn_236_u9x` | 育 | [《史記・司馬相如列傳》][103] | [JSON](wnn_236_u9x.json) |
 | `wnp_0s3_0eg` | 太尉弱 | [《史記・絳侯周勃世家》][43] | [JSON](wnp_0s3_0eg.json) |
 | `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][53] | [JSON](wnp_vk6_qhe.json) |
 | `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][25] | [JSON](wny_01o_f36.json) |
@@ -2130,7 +2128,6 @@
 | `xn7_c7s_lzh` | 子產 | [《史記・太史公自序》][116] | [JSON](xn7_c7s_lzh.json) |
 | `xna_g4h_5iz` | 樂毅 | [《史記・趙世家》][29] | [JSON](xna_g4h_5iz.json) |
 | `xnc_psn_713` | 膠西王端愛幸而殺的郎 | [《史記・五宗世家》][45] | [JSON](xnc_psn_713.json) |
-| `xne_qdl_46g` | 賁 | [《史記・司馬相如列傳》][103] | [JSON](xne_qdl_46g.json) |
 | `xnk_yt8_2uc` | 重耳 | [《史記・太史公自序》][116] | [JSON](xnk_yt8_2uc.json) |
 | `xno_bw1_y99` | 武安君甘羅引古 | [《史記・樗里子甘茂列傳》][57] | [JSON](xno_bw1_y99.json) |
 | `xnz_nos_gyp` | 內史勳 | [《史記・齊悼惠王世家》][38] | [JSON](xnz_nos_gyp.json) |
@@ -2209,6 +2206,8 @@
 | `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][95] | [JSON](y6f_9v5_dqg.json) |
 | `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][28] | [JSON](y6n_nmo_abl.json) |
 | `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][70] | [JSON](y6v_c03_at3.json) |
+| `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
+| `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

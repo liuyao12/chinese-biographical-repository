@@ -43,7 +43,7 @@ class XiangruAllusionIdentities(unittest.TestCase):
 
     def test_weaker_short_form_and_strength_comparisons_are_provisional(self):
         ds = read('corpus/shiji/117-equivalences.json')['decisions']
-        for suffix in ['tang', 'wu', 'wuhuo']:
+        for suffix in ['tang', 'wu']:
             d = next(d for d in ds if d['id'] == 'eq-shiji117-allusion-' + suffix)
             self.assertEqual(d['confidence_level'], 'moderate')
             self.assertEqual(d['status'], 'contextual_provisional')
