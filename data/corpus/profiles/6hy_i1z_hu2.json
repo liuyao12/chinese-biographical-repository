@@ -1499,7 +1499,44 @@
       "quote": "信之，而貪馬邑財物，乃以十萬騎入武州塞。漢伏兵三十餘萬馬邑旁，御史大夫韓安國爲護軍，護四將軍以伏單于。單于既入漢塞，未至馬邑百餘里，見畜布野而無人牧者，怪之，乃攻亭。是時鴈門尉史行徼，見寇，葆此亭，知漢兵謀，單于得，欲殺之，尉史乃告單于漢兵所居。單于大驚曰：「吾固疑之。」乃引"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-022",
+      "cell_id": "shiji-022-t1-r072-c05",
+      "title": "《史記·漢興以來將相名臣年表》",
+      "quote": "御史大夫安國。",
+      "year": {
+        "era": "BCE",
+        "value": 135,
+        "astronomical_year": -134,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "135",
+        "source_cell_id": "shiji-022-t1-r072-c00"
+      },
+      "mention": {
+        "id": "shiji-022-t1-r072-c05-m004",
+        "start": 4,
+        "end": 6,
+        "surface": "安國",
+        "person_id": "6hy_i1z_hu2",
+        "status": "contextual_provisional",
+        "interpretation_note": "同列御史大夫安國與專傳以大司農韓安國為御史大夫同人同職。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-107",
+            "source_id": "s-shiji-107-weiqi",
+            "chapter_id": "c-shiji-107-weiqi",
+            "paragraph_id": "c-shiji-107-weiqi:p009",
+            "source_revision": 2540571,
+            "person_id": "6hy_i1z_hu2",
+            "quote": "武安侯雖不任職，以王太后故，親幸，數言事多效，天下吏士趨勢利者，皆去魏其歸武安，武安日益橫。建元六年，竇太后崩，丞相昌、御史大夫青翟坐喪事不辦，免。以武安侯蚡為丞相，以大司農韓安國為御史大夫。天下士郡諸侯愈益附武安。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-hanshu-035-jingyanwu",
@@ -1698,6 +1735,29 @@
           "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
           "note": "未核底本影像。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
     }
   ],
