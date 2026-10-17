@@ -306,3 +306,8 @@ test('teaching has a separate linked source section and is excluded from kinship
  const html=personCard(p,true);assert.match(html,/class="person-teaching"/);assert.match(html,/受業於/);assert.match(html,/person.html#master/);assert.match(html,/合成學生學於合成老師/);assert.doesNotMatch(html,/來源所記親屬/);
  assert.doesNotMatch(personCard(p),/person-teaching/);
 });
+
+test('table name components render known ming, omit unknown surname and link original cell',()=>{
+ const html=personCard({id:'synthetic-person',label:'合成人物',name_components:[{title:'合成侯',surname:null,ming:'甲',additional_names:[],kind:'table_cell',table_id:'shiji-018',table_cell_id:'synthetic-name-cell',quote:'合成甲原文',note:'合成測試資料'}]},true);
+ assert.match(html,/<h1>合成侯 甲<\/h1>/);assert.match(html,/姓名依據/);assert.match(html,/chapter=18&amp;category=biao&amp;cell=synthetic-name-cell/);assert.doesNotMatch(html,/null甲|undefined甲/);
+});
