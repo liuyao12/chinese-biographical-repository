@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `g2b_tzq_wxz` | 韓非 | [《史記・秦始皇本紀》][7] | [JSON](g2b_tzq_wxz.json) |
-| `g2e_ui5_mts` | 伍徐 | [《史記・陳涉世家》][31] | [JSON](g2e_ui5_mts.json) |
 | `g2j_v25_c9b` | 蟣蝨 | [《史記・韓世家》][28] | [JSON](g2j_v25_c9b.json) |
 | `g2k_ddk_pxs` | 晉悼公 | [《史記・鄭世家》][25] | [JSON](g2k_ddk_pxs.json) |
 | `g2p_biu_r3z` | 湯 | [《史記・貨殖列傳》][112] | [JSON](g2p_biu_r3z.json) |
@@ -2221,6 +2219,8 @@
 | `we8_mkq_luc` | 閔損 | [《史記・仲尼弟子列傳》][50] | [JSON](we8_mkq_luc.json) |
 | `wef_drj_j44` | 孝文帝 | [《史記・淮南衡山列傳》][101] | [JSON](wef_drj_j44.json) |
 | `wex_fkp_gc1` | 舜 | [《史記・鄭世家》][25] | [JSON](wex_fkp_gc1.json) |
+| `wf4_hj5_nah` | 屈原 | [《史記・張儀列傳》][53] | [JSON](wf4_hj5_nah.json) |
+| `wf8_9b9_kcq` | 周霸 | [《史記・孝武本紀》][13] | [JSON](wf8_9b9_kcq.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

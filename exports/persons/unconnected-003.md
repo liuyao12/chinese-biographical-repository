@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wf4_hj5_nah` | 屈原 | [《史記・張儀列傳》][53] | [JSON](wf4_hj5_nah.json) |
-| `wf8_9b9_kcq` | 周霸 | [《史記・孝武本紀》][13] | [JSON](wf8_9b9_kcq.json) |
 | `wfj_i4s_mq5` | 離婁引古 | [《史記・屈原賈生列傳》][67] | [JSON](wfj_i4s_mq5.json) |
 | `wfj_oof_3mr` | 東武侯 | [《史記・滑稽列傳》][109] | [JSON](wfj_oof_3mr.json) |
 | `wfk_n4m_6x9` | 陳留令未名 | [《史記・酈生陸賈列傳》][80] | [JSON](wfk_n4m_6x9.json) |
@@ -278,7 +276,7 @@
 | `ybw_y4h_z69` | 趙俊 | [《史記・趙世家》][26] | [JSON](ybw_y4h_z69.json) |
 | `ycg_exd_6oe` | 秦王（魏世家荊軻刺殺所指未名者） | [《史記・魏世家》][27] | [JSON](ycg_exd_6oe.json) |
 | `ycl_yor_v0t` | 內史保 | [《史記・曹相國世家》][37] | [JSON](ycl_yor_v0t.json) |
-| `ycr_d4w_b0x` | 則 | [《史記・齊悼惠王世家》][35] | [JSON](ycr_d4w_b0x.json) |
+| `ycr_d4w_b0x` | 則 | [《史記・扁鵲倉公列傳》][88] | [JSON](ycr_d4w_b0x.json) |
 | `ycy_hv8_q6d` | 和仲 | [《史記・五帝本紀》][2] | [JSON](ycy_hv8_q6d.json) |
 | `yeg_27z_zzt` | 秦太后（韓世家羋戎姊未名者） | [《史記・韓世家》][28] | [JSON](yeg_27z_zzt.json) |
 | `yen_v2i_ohj` | 尉佗 | [《史記・淮南衡山列傳》][101] | [JSON](yen_v2i_ohj.json) |
