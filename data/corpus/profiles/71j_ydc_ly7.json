@@ -10,7 +10,51 @@
     "助",
     "莊助"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji114-008",
+      "person_id": "71j_ydc_ly7",
+      "title": "中大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji114-008:a001",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "start": 105,
+          "end": 108,
+          "surface": "中大夫",
+          "person_mention_id": "c-shiji-114-dongyue:m003-0108",
+          "usage": "narrative",
+          "date_expression": "建元三年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -28,6 +72,14 @@
       "paragraph_id": "c-shiji-113-nanyue:p005",
       "count": 3,
       "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天"
+    },
+    {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p003",
+      "count": 3,
+      "quote": "攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃"
     },
     {
       "number": 122,
@@ -85,6 +137,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2及現代節標題，YL紀年模板僅去外殼保留原字。未核底本影像。",
           "note": "索隱述贊另層，不混作正文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
     },
@@ -175,6 +251,72 @@
             "last_line": 300,
             "partial_file": true
           }
+        }
+      ],
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji114-core-zhuangzhu",
+      "person_ids": [
+        "71j_ydc_ly7"
+      ],
+      "canonical_person_id": "71j_ydc_ly7",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-114-dongyue",
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m003-0108",
+            "c-shiji-114-dongyue:m003-0211",
+            "c-shiji-114-dongyue:m003-0231"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-113",
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0003",
+            "c-shiji-113-nanyue:m005-0046",
+            "c-shiji-113-nanyue:m005-0071"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "同為武帝中大夫莊助；漢書95同一救東甌事作嚴助，分源保留莊／嚴，不斷言生前改姓。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《前漢書》卷95救東甌（固定數位見證）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L374-L379",
+          "quote": "中大夫嚴助詰蚡言當救",
+          "raw_quote": "建元三年閩粤發兵圍東甌東甌使人告急天子天子¶\n問太尉田蚡蚡對曰粤人相攻擊固其常不足以煩中¶\n<pb:KR2a0007_WYG_095-21b>¶\n國徃救也中大夫嚴助詰蚡言當救天子遣助發會稽¶\n郡兵浮海救之語具在助傳漢兵未至閩粤引兵去東¶\n粤請舉國徙中國廼悉與衆處江淮之間六年閩粤擊¶",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "defa20130c3e1235164fab6d887a3f2b72894874b5658a6383ad028f356b344a",
+          "response_extent": {
+            "first_line": 301,
+            "last_line": 450,
+            "partial_file": true
+          },
+          "scope": "received_parallel_person_identity",
+          "image_verified": false
         }
       ],
       "identity_materialized": true
