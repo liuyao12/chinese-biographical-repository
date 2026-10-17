@@ -139,7 +139,7 @@
 | `106_acx_xuq` | 范吉射 | [《史記・趙世家》][29] | [JSON](106_acx_xuq.json) |
 | `11c_2n2_xqq` | 子綦（楚亂記事） | [《史記・陳杞世家》][22] | [JSON](11c_2n2_xqq.json) |
 | `11c_i8z_674` | 逢蒙 | [《史記・司馬相如列傳》][103] | [JSON](11c_i8z_674.json) |
-| `11q_2yl_qzt` | 柏始昌 | [《史記・西南夷列傳》][102] | [JSON](11q_2yl_qzt.json) |
+| `11q_2yl_qzt` | 柏始昌 | [《史記・西南夷列傳》][102]、[《史記・大宛列傳》][109] | [JSON](11q_2yl_qzt.json) |
 | `11t_oop_uck` | 翟景 | [《史記・秦始皇本紀》][10] | [JSON](11t_oop_uck.json) |
 | `126_sy4_j11` | 新垣平 | [《史記・孝文本紀》][14] | [JSON](126_sy4_j11.json) |
 | `12c_x1u_m8d` | 楚王東徙陳 | [《史記・白起王翦列傳》][59] | [JSON](12c_x1u_m8d.json) |
@@ -392,7 +392,6 @@
 | `33j_itf_q0q` | 蔡昭公 | [《史記・孔子世家》][33] | [JSON](33j_itf_q0q.json) |
 | `33t_2vr_k9o` | 牟辛 | [《史記・田敬仲完世家》][32]、[《史記・六國年表》][120] | [JSON](33t_2vr_k9o.json) |
 | `33z_av8_anq` | 鄭弘 | [《史記・張丞相列傳》][82] | [JSON](33z_av8_anq.json) |
-| `348_22z_ti1` | 柏始昌 | [《史記・大宛列傳》][109] | [JSON](348_22z_ti1.json) |
 | `34q_hne_erk` | 田甲 | [《史記・孟嘗君列傳》][61]、[《史記・六國年表》][120] | [JSON](34q_hne_erk.json) |
 | `34u_t1e_mvb` | 子産（鄭執政） | [《史記・吳太伯世家》][17] | [JSON](34u_t1e_mvb.json) |
 | `352_9gz_u46` | 慶（救趙） | [《史記・太史公自序》][116] | [JSON](352_9gz_u46.json) |
@@ -1687,7 +1686,6 @@
 | `d4q_icw_co6` | 灌何 | [《史記・魏其武安侯列傳》][93] | [JSON](d4q_icw_co6.json) |
 | `d54_3hk_joc` | 李醯 | [《史記・扁鵲倉公列傳》][91] | [JSON](d54_3hk_joc.json) |
 | `d5a_qyv_5a6` | 子服景伯 | [《史記・魯周公世家》][19]、[《史記・十二諸侯年表》][119] | [JSON](d5a_qyv_5a6.json) |
-| `d65_9vi_t06` | 呂越人 | [《史記・大宛列傳》][109] | [JSON](d65_9vi_t06.json) |
 | `d70_b62_mly` | 知伯 | [《史記・樗里子甘茂列傳》][57] | [JSON](d70_b62_mly.json) |
 | `d75_oh8_6xl` | 霍伯（襄公六年卒者） | [《史記・晉世家》][25] | [JSON](d75_oh8_6xl.json) |
 | `d77_fah_85y` | 燕悼（列國君主） | [《史記・秦本紀》][9] | [JSON](d77_fah_85y.json) |
@@ -2204,6 +2202,8 @@
 | `gv8_tj5_hcy` | 公孫歸父（宣公時） | [《史記・魯周公世家》][19] | [JSON](gv8_tj5_hcy.json) |
 | `gvf_h1q_fdl` | 魏壽餘（詳反晉者） | [《史記・晉世家》][25] | [JSON](gvf_h1q_fdl.json) |
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][60] | [JSON](gvp_kl8_u6o.json) |
+| `gw0_pdi_7ji` | 孔子 | [《史記・留侯世家》][41] | [JSON](gw0_pdi_7ji.json) |
+| `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][33] | [JSON](gwd_nwe_4s7.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt

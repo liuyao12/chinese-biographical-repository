@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gw0_pdi_7ji` | 孔子 | [《史記・留侯世家》][41] | [JSON](gw0_pdi_7ji.json) |
-| `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][33] | [JSON](gwd_nwe_4s7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][38] | [JSON](gx0_1xv_0gm.json) |
 | `gxd_15x_9d0` | 班固 | [《史記・秦始皇本紀》][10]、[《史記・平津侯主父列傳》][98] | [JSON](gxd_15x_9d0.json) |
 | `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][76] | [JSON](gxs_1ia_tsp.json) |
@@ -708,7 +706,7 @@
 | `mii_pxr_jrl` | 破石 | [《史記・扁鵲倉公列傳》][91] | [JSON](mii_pxr_jrl.json) |
 | `mil_8wg_ohj` | 孔子 | [《史記・貨殖列傳》][115] | [JSON](mil_8wg_ohj.json) |
 | `mio_z5f_ri1` | 楚威王 | [《史記・蘇秦列傳》][55] | [JSON](mio_z5f_ri1.json) |
-| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][102]、[《史記・司馬相如列傳》][103] | [JSON](miw_t0v_k64.json) |
+| `miw_t0v_k64` | 呂越人 | [《史記・西南夷列傳》][102]、[《史記・司馬相如列傳》][103]、[《史記・大宛列傳》][109] | [JSON](miw_t0v_k64.json) |
 | `mj1_mir_ncl` | 昌（成弟） | [《史記・扁鵲倉公列傳》][91] | [JSON](mj1_mir_ncl.json) |
 | `mj4_uma_km7` | 陳皇后 | [《史記・外戚世家》][35] | [JSON](mj4_uma_km7.json) |
 | `mjm_mzj_yye` | 召平 | [《史記・齊悼惠王世家》][38] | [JSON](mjm_mzj_yye.json) |
@@ -2208,6 +2206,8 @@
 | `xzw_df5_9v1` | 吳起 | [《史記・秦始皇本紀》][10] | [JSON](xzw_df5_9v1.json) |
 | `xzz_lpt_eot` | 陳皇后 | [《史記・酷吏列傳》][108] | [JSON](xzz_lpt_eot.json) |
 | `y0f_bts_55y` | 湯引古 | [《史記・穰侯列傳》][58] | [JSON](y0f_bts_55y.json) |
+| `y16_e24_bef` | 景監 | [《史記・商君列傳》][54] | [JSON](y16_e24_bef.json) |
+| `y1b_i8y_w08` | 臧荼 | [《史記・陳丞相世家》][42] | [JSON](y1b_i8y_w08.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

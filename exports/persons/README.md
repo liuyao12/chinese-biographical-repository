@@ -669,7 +669,7 @@
 
 </details>
 
-<details><summary><code>98i_dd4_aof</code> 多同（西南夷列傳候選）（2 名）</summary>
+<details><summary><code>98i_dd4_aof</code> 多同（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
