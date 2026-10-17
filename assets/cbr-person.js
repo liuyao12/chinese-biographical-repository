@@ -36,6 +36,27 @@ export function personBundleURL(id, sourceRef = 'main') {
   const ref = /^[a-f0-9]{40}$/.test(sourceRef) ? sourceRef : 'main';
   return 'https://github.com/liuyao12/chinese-biographical-repository/blob/' + ref + '/exports/persons/' + encodeURIComponent(id) + '.json';
 }
+export function titleUsageHTML(usages = [], full = false, sources = []) {
+  const unique = new Map();
+  for (const usage of usages) {
+    const a = usage.attestation || {};
+    const date = lifeYearLabel(a);
+    if (!a.date_expression && !date) continue;
+    const evidence = (usage.evidence || []).filter(e => !a.paragraph_id || e.paragraph_id === a.paragraph_id);
+    const value = {a, date, evidence};
+    unique.set(JSON.stringify([a.date_expression, a.normalized_date, a.normalized_date_range, evidence]), value);
+  }
+  return [...unique.values()].map(({a, date, evidence}) => {
+    const d = a.normalized_date || a.normalized_date_range;
+    const refs = full ? (d?.references || []).filter(r => r?.quote).map(r => {
+      let url = '';
+      try { const u = new URL(r.url); if (['http:', 'https:'].includes(u.protocol)) url = u.href; } catch {}
+      return `<blockquote>${h(r.quote)}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : ''}`;
+    }).join('') : '';
+    return `<div class="person-title-usage"><p>來源用稱：${[a.date_expression, date].filter(Boolean).map(h).join(' · ')}</p>${full ? `<details><summary>用稱紀年依據</summary>${evidence.map(e => `<blockquote>${h(e.quote || '')}</blockquote>`).join('')}${sourceEvidenceLinks(evidence, sources)}${d?.rationale ? `<p>${h(d.rationale)}</p>` : ''}${refs}</details>` : ''}</div>`;
+  }).join('');
+}
+
 export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const evidenceLinks = evidence => sourceEvidenceLinks(evidence, p.sources || []);
   const evidenceQuotes = e => `<blockquote>${h(e.quote)}</blockquote>` + (e.kind === 'table_cell' && e.subject_quote ? `<blockquote class="person-table-subject-quote">${h(e.subject_quote)}</blockquote>` : '');
@@ -100,9 +121,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     const duration=x.reported_duration?Object.fromEntries(Object.entries(x.reported_duration).filter(([key])=>key!=='evidence')):null;
     const factsKey = x.title + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null]));
     const key = factsKey + '|' + x.period;
-    if (!grouped.has(key)) grouped.set(key, {...x, factsKey, evidence: [], date_periods: []});
+    if (!grouped.has(key)) grouped.set(key, {...x, factsKey, evidence: [], date_periods: [], source_usages: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
     grouped.get(key).date_periods.push(x.effective_period);
+    if (x.mode === 'attestation') grouped.get(key).source_usages.push(...(x.attestations || []).map(a => ({attestation: a, evidence: x.evidence || []})));
   }
   const titleGroups = [...grouped.values()];
   const hasPeriod = x => (x.period || '').split(' → ').some(v => !['', '未定', '起訖未定'].includes(v));
@@ -192,9 +214,9 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   ${!principal && tableExample ? `<blockquote class="person-overview">${h(tableExample.quote.slice(0, full ? 220 : 150))}</blockquote><p class="person-principal-source"><a href="${h(tableOccurrenceURL(tableExample))}">${h(tableExample.title)} · 查看原格 →</a></p>${!full && p.identity_note ? `<p class="note">${h(p.identity_note)}</p>` : ''}` : ''}
   ${dates.length ? `<section class="person-date-evidence"><h4>紀年對照</h4>${dates.slice(0, full ? undefined : 2).map(x => `<div class="person-date-item"><p><strong>西元${x.era === 'BCE' ? '前' : ''}${x.era_year}年</strong> <small>編輯對照 · 暫定${h(dateChoice(x))}</small><br><q>${h(x.original_quote)}</q>${full ? '<br>' + evidenceLinks(x.evidence) : ''}</p>${lifeDateSources(x)}</div>`).join('')}</section>` : ''}
   ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}${dateReferences(d)}`).join('')}</section>` : ''}
-  ${full && variants.length ? `<section class="person-textual-variants"><h4>校勘參考</h4><p>其他來源所載或注家所議，尚未核書影；未採改正文。</p><ul>${variants.map(v => `<li>正文「${h(v.received_reading)}」 · 所報或所議「${h(v.reported_reading)}」<details><summary>${h(v.commentator)}</summary><blockquote>${h(v.quote)}</blockquote><a href="${h(v.url)}" target="_blank" rel="noopener">異文來源</a></details></li>`).join('')}</ul></section>` : ''}
+  ${full && variants.length ? `<section class="person-textual-variants"><h4>校勘參考</h4><p>其他來源所載或注家所議，尚未核書影；未採改正文。</p><ul>${variants.map(v => `<li>正文「${h(v.received_reading)}」 · 所報或所議「${h(v.reported_reading)}」<details><summary>${h(v.commentator)}</summary><blockquote>${h(v.quote)}</blockquote><a href="${h(v.url)}" target="_blank" rel="noopener">異文來源</a>${v.interpretation_note ? `<p>${h(v.interpretation_note)}</p>` : ''}</details></li>`).join('')}</ul></section>` : ''}
   ${full && lifeEvents.length ? `<section class="person-life-events"><h4>來源所記生卒</h4>${lifeEvents.map(e => `<div><strong>${e.event_type === 'death' ? '死亡' : '出生'}</strong>${e.date_expression ? ' · ' + h(e.date_expression) : ''}<details><summary>${h(e.source_term || '查看原文')}</summary>${e.evidence.map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.interpretation_note ? `<p>${h(e.interpretation_note)}</p>` : ''}</details>${studyReferencesHTML(e.study_references)}</div>`).join('')}</section>` : ''}
-  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title">${titleLabel(x)}${titleKind(x)}${titleJurisdictions(x)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${officeCounts(x)}${titleDuration(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}${dateReferences(x)}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
+  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title">${titleLabel(x)}${titleKind(x)}${titleJurisdictions(x)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${titleUsageHTML(x.source_usages, full, p.sources || [])}${officeCounts(x)}${titleDuration(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}${dateReferences(x)}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
   ${addresses.length ? `<section><h4>來源所記地望</h4>${addresses.slice(0, full ? undefined : 2).map(x => `<div class="person-address"><strong>${h(addressHeading(x))}</strong>${full ? `<details><summary>查看原文證據</summary><blockquote>${h(x.quote)}</blockquote>${evidenceLinks(x.evidence)}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}</details>` : ''}</div>`).join('')}</section>` : ''}</div>` : ''}
   ${full && teaching.length ? `<section class="person-teaching"><h4>${ui('Teaching and learning')}</h4><ul>${teaching.map(x => `<li><a href="${h(profileURL(x.subject_person_id))}">${h(p.related_people?.[x.subject_person_id] || x.subject_person_id)}</a> · ${ui('Studied with')} <a href="${h(profileURL(x.object_person_id))}">${h(p.related_people?.[x.object_person_id] || x.object_person_id)}</a><details><summary>${ui('Source evidence')}</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${relationPersonLink(x.subject_person_id)} · ${h(labels[x.predicate] || x.qualifiers?.source_term || x.predicate)}：${relationPersonLink(x.object_person_id)}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}

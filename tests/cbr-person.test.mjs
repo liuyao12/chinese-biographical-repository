@@ -2,7 +2,7 @@ import {readFileSync} from 'node:fs';
 import {setLocale} from '../assets/i18n.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards} from '../assets/cbr-person.js';
+import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards, titleUsageHTML} from '../assets/cbr-person.js';
 test('年表錨點保留原文並連至人物頁，拒絕錯位或交疊',()=>{
  const c={text:'張儀相。',person_mentions:[{start:0,end:2,surface:'張儀',person_id:'abc_def_123'}]};
  const html=markCell(c); assert.match(html,/張儀<\/a>相。/);assert.match(html,/person.html#abc_def_123/);
@@ -372,4 +372,28 @@ test('name evidence displays the chosen source as well as the separately marked 
  const n={title:'synthetic title',ming:'synthetic name',quote:'synthetic received sentence',note:'synthetic preference reason',references:[{quote:'chosen component quote <tag>',title:'chosen source',url:'https://example.com/chosen'},{quote:'unsafe source quote',url:'javascript:alert(1)'}],component_alternatives:[{components:{surname:'synthetic surname',ming:'synthetic alternative'},reference:{quote:'alternative component quote',title:'alternative source',url:'https://example.com/alternative'}}]};
  const html=personCard({id:'abc_def_123',label:'synthetic person',name_components:[n]},true);
  assert.match(html,/chosen component quote &lt;tag&gt;/);assert.match(html,/href="https:\/\/example.com\/chosen"/);assert.match(html,/alternative component quote/);assert.match(html,/未採為預設/);assert.doesNotMatch(html,/href="javascript:|<tag>/);
+});
+
+// Synthetic title-use records: they do not assert historical facts.
+test('source title use shows a date window without inventing effective tenure', () => {
+ const a={date_expression:'元封二年',normalized_date_range:{earliest:{era:'BCE',era_year:110},latest:{era:'BCE',era_year:109}}};
+ const html=titleUsageHTML([{attestation:a}]);assert.match(html,/來源用稱/);assert.match(html,/元封二年/);assert.match(html,/110至109/);assert.doesNotMatch(html,/始於|止於|用稱紀年依據/);
+ assert.equal(titleUsageHTML([{attestation:{}}]),'');
+});
+test('source title use deduplicates matching evidence and escapes untrusted text and links', () => {
+ const u={attestation:{date_expression:'<img>',normalized_date:{era:'BCE',era_year:109,references:[{quote:'<script>',url:'javascript:alert(1)',title:'unsafe'}]}},evidence:[{quote:'<svg>',chapter_id:'c-shiji-115-chaoxian',paragraph_id:'c-shiji-115-chaoxian:p003'}]};
+ const html=titleUsageHTML([u,u],true);assert.equal((html.match(/class="person-title-usage"/g)||[]).length,1);assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;svg&gt;/);assert.match(html,/&lt;script&gt;/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/chapter=115/);
+});
+test('grouped titles preserve each source use and keep grant records separate', () => {
+ const title=expression=>({title:'測試官',kind:'office',mode:'attestation',period:'未定 → 未定',attestations:[{date_expression:expression}],evidence:[]});
+ const p={id:'abc_def_123',label:'測試人物',titles:[title('甲年'),title('乙年')]};
+ const html=personCard(p,true);assert.match(html,/來源用稱：甲年/);assert.match(html,/來源用稱：乙年/);assert.doesNotMatch(html,/始於|止於/);
+ assert.doesNotMatch(personCard({...p,titles:[{...title('甲年'),mode:'grant'}]},true),/來源用稱/);
+});
+
+test('source title use keeps fixed table witness links on the full profile', () => {
+ const source={source_id:'synthetic-table-source',work_id:'w-shiji',source:{revision:123,revision_url:'https://example.org/fixed-table?oldid=123'}};
+ const evidence={kind:'table_cell',table_id:'shiji-020',table_cell_id:'synthetic-cell',source_id:source.source_id,work_id:'w-shiji',source_revision:123,quote:'合成用稱原文'};
+ const p={id:'abc_def_123',label:'合成人物',sources:[source],titles:[{title:'合成稱號',mode:'attestation',period:'未定 → 未定',attestations:[{date_expression:'合成年'}],evidence:[evidence]}]};
+ const html=personCard(p,true);assert.match(html,/來源用稱：合成年/);assert.match(html,/class="person-fixed-table-source" href="https:\/\/example.org\/fixed-table\?oldid=123"/);
 });
