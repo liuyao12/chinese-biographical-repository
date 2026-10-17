@@ -103,6 +103,29 @@
           "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
@@ -410,6 +433,21 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "本始",
+        "year_source_term": "三年",
+        "era_anchor_cell_id": "shiji-022-t1-r134-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r136-c01",
+        "digital_year_cell_id": "shiji-022-t1-r136-c00",
+        "calendar_rule": "han_first_month_after_taichu"
+      },
       "record_id": "le-hanshu098-zhengjun-birth",
       "person_id": "4w5_b4e_vf5_AB",
       "date_role": "life_event",
@@ -506,7 +544,22 @@
         "rationale": "原本始三年生女；將相表孝宣本始元年接同年號三年，數位年格作前71年。此時已在太初以正月為歲首之後，不能沿漢初十月歲首倒加一年：未明月日，保守記中國本始三年可能跨公元前71至70年，不猜公曆生日，亦不把前引後八十年預言當生年。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
-        "model": null
+        "model": null,
+        "regnal_year_table": {
+          "kind": "table_year_row",
+          "table_id": "shiji-022",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_name": "本始",
+          "year_source_term": "三年",
+          "era_anchor_cell_id": "shiji-022-t1-r134-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r136-c01",
+          "digital_year_cell_id": "shiji-022-t1-r136-c00",
+          "calendar_rule": "han_first_month_after_taichu"
+        }
       }
     }
   ],

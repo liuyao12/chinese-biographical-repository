@@ -388,3 +388,16 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 決定的選填 `references` 分存古注或研究的標題、HTTP(S)網址、原引句、適用範圍與書影核驗狀態；不得混入候選主證據。原候選事件及本文不改寫，取捨只限該人該次生卒。人物卡標示首選、來源異說或未定，完整頁另列引用依據。
 
 人物來源包與閱讀器人物 JSON 可含 `identity_distinctions`，逐項保留相關的 `person_distinction_set` 判斷、不同人物ID、理由與逐段引文。來源包補齊各引文的作品／卷篇／來源ID，含其他端點標籤及證據段落，但不把其他端點的名字加入本人的提及、別名或家族。無區分記錄時省略此欄；完整人物頁顯示同名異人、另一人物入口及原文依據。
+
+
+## 明示職終、用稱範圍與原年列綁定
+
+官職持有記錄可用 `end_basis.kind: died_in_named_office` 保存「竟以某官終」這類明指終於此職的原詞。`source_term`、同人逐人錨點與完整 `evidence` 必須與 `effective_period.end` 的 `explicit_end` 一致；官名要匹配持職、人物須在該職終語之前且無別人插入。這不是一般死亡可結束全部官爵的規則，不適用只有卒字或未明其職的材料。
+
+`attestations[].normalized_date_range` 與單年 `normalized_date` 互斥，保存原 `date_expression`、持職原句與證據、兩端數字及三種分層來源。用稱的日期只表該處用稱，不使 `mode: attestation` 變成授任，也不改未知職期。人物包以 `date_role: title_attestation`、`record_id` 指持職記錄、`attestation_id` 指用稱，另存 `title`、`usage`，不加職期 `endpoint`。來源報齡範圍以 `date_role: age_attestation` 匯出，不能當出生年或死亡年。
+
+明載紀年而只借表換算時，可附 `normalized_date_range.regnal_year_table`：`kind: table_year_row`、著作／卷／篇／來源ID及固定修訂、`table_id`、`era_name`、`year_source_term`、`era_anchor_cell_id`、`regnal_year_cell_id`、`digital_year_cell_id` 與 `calendar_rule`。原年號與原年字須匹配本筆 `date_expression`，對照列不能跨另一年號，數位年格須與該列的年資料一致；這些年格不被說成人物事件格。
+
+目前曆制綁定限於已核讀的漢代案例：`han_tenth_month_before_taichu` 用於太初以前、數位年標前104年之前的建亥歲首，數位年標為相鄰範圍較晚端；`han_first_month_after_taichu` 用於太初以後、數位年標前104年之後的正月歲首，數位年標為較早端。太初改曆當年不以此兩種簡式自動換算。兩種都須有相符曆制引文；不推精確公曆日，也不是各時代通用的固定加減法。對照原年字、年號起點、數位格與固定網址分列於 `references`。
+
+人物包補齊這些用稱、生卒及報齡範圍所引的年格與表來源，不新增人物提及或獨立史實證據票數，最多提及來源的計數仍只採實際人物標記。
