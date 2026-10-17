@@ -76,12 +76,18 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const grouped = new Map();
   for (const x of p.titles || []) {
     const duration=x.reported_duration?Object.fromEntries(Object.entries(x.reported_duration).filter(([key])=>key!=='evidence')):null;
-    const key = x.title + '|' + x.period + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null]));
-    if (!grouped.has(key)) grouped.set(key, {...x, evidence: [], date_periods: []});
+    const factsKey = x.title + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null]));
+    const key = factsKey + '|' + x.period;
+    if (!grouped.has(key)) grouped.set(key, {...x, factsKey, evidence: [], date_periods: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
     grouped.get(key).date_periods.push(x.effective_period);
   }
-  const titles = [...grouped.values()], occurrences = p.occurrences || [];
+  const titleGroups = [...grouped.values()];
+  const hasPeriod = x => (x.period || '').split(' → ').some(v => !['', '未定', '起訖未定'].includes(v));
+  const datedFacts = new Set(titleGroups.filter(hasPeriod).map(x => x.factsKey));
+  const titles = full ? titleGroups : titleGroups.filter(x => hasPeriod(x) || !datedFacts.has(x.factsKey))
+    .sort((a,b) => Number(hasPeriod(b)) - Number(hasPeriod(a)));
+  const occurrences = p.occurrences || [];
   const principal = [...occurrences].sort((a,b) => b.count - a.count)[0];
   const tableExample = (p.table_occurrences || [])[0];
   const lifeEvents = p.life_events || [], dateDecisions = p.life_event_date_decisions || [];
