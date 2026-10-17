@@ -6,11 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xzo_t0s_b50` | 王子中同 | [《史記・仲尼弟子列傳》][53] | [JSON](xzo_t0s_b50.json) |
-| `xzr_i9s_mnp` | 東甌王（勇之所引） | [《史記・孝武本紀》][16] | [JSON](xzr_i9s_mnp.json) |
-| `xzw_df5_9v1` | 吳起 | [《史記・秦始皇本紀》][10] | [JSON](xzw_df5_9v1.json) |
-| `xzz_lpt_eot` | 陳皇后 | [《史記・酷吏列傳》][108] | [JSON](xzz_lpt_eot.json) |
-| `y0f_bts_55y` | 湯引古 | [《史記・穰侯列傳》][58] | [JSON](y0f_bts_55y.json) |
 | `y16_e24_bef` | 景監 | [《史記・商君列傳》][54] | [JSON](y16_e24_bef.json) |
 | `y1b_i8y_w08` | 臧荼 | [《史記・陳丞相世家》][42] | [JSON](y1b_i8y_w08.json) |
 | `y1g_wr7_5l5` | 秦將軍（武關伏兵冒秦王者） | [《史記・楚世家》][26] | [JSON](y1g_wr7_5l5.json) |
