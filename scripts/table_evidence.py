@@ -241,3 +241,70 @@ def table_title_range_errors(value, holding, endpoint, tables, boundary=None):
             if not col or ref.get('url') != ref_table['source']['revision_url'] or ref.get('quote') != col['text']:
                 errors.append('稱號紀年原欄題參照不符')
     return errors
+
+def table_regnal_range_errors(value, expression, tables):
+    """Validate a cited year row; it is not a parallel person-event assertion."""
+    proof = value.get('regnal_year_table')
+    if proof is None:
+        return []
+    if not isinstance(proof, dict):
+        return ['紀年原年列綁定須為物件']
+    table = tables.get(proof.get('table_id'))
+    if not table:
+        return ['紀年原年列所據表格不存在']
+    source = table['source']; errors = []
+    fields = [('work_id','work_id'),('book_id','book_id'),('chapter_id','chapter_id'),
+              ('source_id','id'),('source_revision','revision')]
+    if proof.get('kind') != 'table_year_row' or any(proof.get(k) != source.get(v) for k,v in fields):
+        errors.append('紀年原年列來源或固定修訂不符')
+    regnal = table_cell(table, proof.get('regnal_year_cell_id'))
+    digital = table_cell(table, proof.get('digital_year_cell_id'))
+    anchor = table_cell(table, proof.get('era_anchor_cell_id'))
+    if (not regnal or not digital or not anchor or regnal.get('column') != 1
+            or anchor.get('column') != 1 or digital.get('column') != 0
+            or regnal['id'].rpartition('-c')[0] != digital['id'].rpartition('-c')[0]):
+        return errors + ['紀年原年列須有同列原紀年及數位年格']
+    era_name, term = proof.get('era_name'), proof.get('year_source_term')
+    label = regnal['text'].rstrip('。'); epoch = anchor['text'].rstrip('。')
+    valid = (isinstance(era_name,str) and bool(era_name) and isinstance(term,str)
+             and bool(term) and term.endswith('年') and expression == era_name+term
+             and epoch.endswith(era_name+'元年')
+             and (label == term[:-1] or label.endswith(era_name+term)))
+    rows = [r for f in table['fragments'] for r in f['rows']]
+    ai = next((i for i,r in enumerate(rows) if any(c['id']==anchor['id'] for c in r['cells'])),None)
+    yi = next((i for i,r in enumerate(rows) if any(c['id']==regnal['id'] for c in r['cells'])),None)
+    valid = (valid and ai is not None and yi is not None and ai <= yi
+             and not any(c.get('column')==1 and '元年' in c['text']
+                         for r in rows[ai+1:yi+1] for c in r['cells']))
+    if not valid:
+        errors.append('紀年原年字、年號起點或原日期表述不符')
+    row = rows[yi] if yi is not None else {}; year = row.get('year') or {}
+    text = digital['text']; original_year = year.get('astronomical_year')
+    if (not text.isascii() or not text.isdigit() or year.get('status')!='digital_editorial_equivalence'
+            or year.get('source_cell_id')!=digital['id'] or year.get('source_quote')!=text
+            or year.get('era')!='BCE' or year.get('value')!=int(text)
+            or type(original_year) is not int or original_year!=1-int(text)):
+        errors.append('紀年數位對照須匹配表內原年列元資料')
+    refs = value.get('references',[])
+    rule = proof.get('calendar_rule')
+    rules = {'han_tenth_month_before_taichu':(-1,0,'建亥'),
+             'han_first_month_after_taichu':(0,1,'以正月為歲首')}
+    if rule not in rules:
+        errors.append('紀年歲首規則未知')
+    elif type(original_year) is int:
+        a,b,word = rules[rule]
+        valid_epoch = (year.get('value',0)>104 if rule=='han_tenth_month_before_taichu'
+                       else 0<year.get('value',0)<104)
+        if (not valid_epoch or value.get('earliest',{}).get('year')!=original_year+a
+                or value.get('latest',{}).get('year')!=original_year+b
+                or not any(r.get('scope')=='received_calendar_rule' and word in r.get('quote','')
+                           for r in refs)):
+            errors.append('紀年範圍須依太初前後實際歲首及其引文換算')
+    for point,scope in [(regnal,'received_regnal_year_attestation'),
+                        (anchor,'received_regnal_year_attestation'),
+                        (digital,'digital_editorial_regnal_year_equivalence_only')]:
+        if not any(r.get('table_id')==table['id'] and r.get('table_cell_id')==point['id']
+                   and r.get('scope')==scope and r.get('quote')==point['text']
+                   and r.get('url')==source['revision_url'] for r in refs):
+            errors.append('紀年範圍須分列年號起點、原年字與數位年格')
+    return errors

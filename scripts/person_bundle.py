@@ -281,6 +281,36 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                     source_header=fragment['source_header'], row_year=row.get('year'),
                                     citation_role='title_date_reference'))
 
+    # Directly dated attestations and life/age events cite year rows without
+    # pretending that a calendar cell names the person or records an event.
+    direct_dates = [h['effective_period'][endpoint].get('normalized_date_range', {})
+                    for h in titles for endpoint in ('start', 'end')]
+    direct_dates += [a.get('normalized_date_range', {}) for h in titles for a in h['attestations']]
+    direct_dates += [e.get('normalized_date_range', {}) for e in life_events + person_events + ages]
+    for window in direct_dates:
+        proof = window.get('regnal_year_table')
+        if not isinstance(proof, dict):
+            continue
+        try:
+            from .table_evidence import table_regnal_range_errors, table_cell
+        except ImportError:
+            from table_evidence import table_regnal_range_errors, table_cell
+        expression = proof['era_name'] + proof['year_source_term']
+        errors = table_regnal_range_errors(window, expression, tables)
+        if errors:
+            raise ValueError('；'.join(errors))
+        table = tables[proof['table_id']]
+        cited_tables.add(table['id'])
+        for key in ('era_anchor_cell_id', 'regnal_year_cell_id', 'digital_year_cell_id'):
+            cell = table_cell(table, proof[key])
+            row = next(row for f in table['fragments'] for row in f['rows']
+                       if any(c['id'] == cell['id'] for c in row['cells']))
+            table_passages.setdefault(cell['id'], dict(cell, table_id=table['id'],
+                work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
+                source_revision=table['source']['revision'], table_row_id=row['id'],
+                row_year=row.get('year'), citation_role='regnal_year_reference'))
+
     # Counts describe annotated occurrences, not source authority or independent witnesses.
     source_mentions = {}
     for mention in mentions:
@@ -326,6 +356,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                          endpoint=endpoint, title=h['title'])
                     for h in titles for endpoint in ('start', 'end')
                     if 'normalized_date_range' in h['effective_period'][endpoint]]
+    date_ranges += [dict(a['normalized_date_range'], record_id=h['id'], attestation_id=a['id'],
+                         person_id=h['person_id'], date_role='title_attestation', title=h['title'], usage=a['usage'])
+                    for h in titles for a in h['attestations'] if 'normalized_date_range' in a]
+    date_ranges += [dict(a['normalized_date_range'], record_id=a['id'], person_id=a['person_id'], date_role='age_attestation')
+                    for a in ages if 'normalized_date_range' in a]
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',

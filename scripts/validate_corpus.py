@@ -21,6 +21,27 @@ def source_age_number(number):
         return (digits.index(match[1]) + 1 if match[1] else 1) * 100 + (source_age_number(match[2]) if match[2] else 0)
     return None
 
+def named_office_end_valid(holding, paragraphs, mentions):
+    """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
+    basis = holding.get('end_basis'); end = holding.get('effective_period',{}).get('end',{})
+    if (not isinstance(basis,dict) or set(basis)!={'kind','source_term','evidence'}
+            or holding.get('kind')!='office' or basis.get('kind')!='died_in_named_office'
+            or basis.get('source_term')!='竟以'+holding.get('title','')+'終'
+            or end.get('status')!='source_event' or end.get('event_type')!='explicit_end'
+            or not basis.get('evidence') or basis['evidence']!=end.get('evidence')):
+        return False
+    for e in basis['evidence']:
+        hit=paragraphs.get(e.get('paragraph_id')); m=mentions.get(e.get('person_mention_id'))
+        quote=e.get('quote','');term=basis['source_term']
+        if (not hit or not m or m[1]!=e.get('paragraph_id')
+                or m[2].get('person_id')!=holding.get('person_id')
+                or not quote or quote not in hit[1]['text'] or term not in quote):return False
+        positions=[i for i in range(len(hit[1]['text']))if hit[1]['text'].startswith(term,i)]
+        if not any(m[2]['end']<=i and not any(other.get('person_id') not in (None,holding['person_id'])
+                    and m[2]['end']<=other['start']<i+len(term) for other in hit[1]['mentions'])for i in positions):return False
+    return True
+
+
 def reported_appointment_count_valid(count, title):
     return (isinstance(count, dict)
              and set(count) == {'value', 'unit', 'source_number', 'source_term', 'status', 'evidence'}
@@ -160,9 +181,9 @@ def validate(root=ROOT):
                     check(cid not in chapter_books, '篇 ID 屬於多卷')
                     chapter_books[cid] = b['id']
         try:
-            from scripts.table_evidence import load_tables, table_evidence_errors, table_title_range_errors
+            from scripts.table_evidence import load_tables, table_evidence_errors, table_title_range_errors, table_regnal_range_errors
         except ModuleNotFoundError:
-            from table_evidence import load_tables, table_evidence_errors, table_title_range_errors
+            from table_evidence import load_tables, table_evidence_errors, table_title_range_errors, table_regnal_range_errors
         tables = load_tables(root)
         table_chapters = {table['source']['chapter_id']: table for table in tables.values()}
         check(len(table_chapters) == len(tables), '表格證據篇ID重複')
@@ -579,6 +600,8 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'end_basis' in h:
+                    check(named_office_end_valid(h, paragraphs, mentions), '明示終職須綁同人此職原詞，不得以一般死亡補所有職爵')
                 if 'inheritance' in h:
                     inheritance = h['inheritance']
                     valid = isinstance(inheritance, dict) and set(inheritance) - {'predecessor_relation'} == {
@@ -826,6 +849,15 @@ def validate(root=ROOT):
                         expression = a.get('date_expression')
                         check(expression is None or isinstance(expression, str) and bool(expression), '用稱日期表述無效')
                         validate_date_evidence(a['normalized_date'], h['evidence'], expression)
+                    if 'normalized_date_range' in a:
+                        try:
+                            from scripts.date_ranges import year_range_errors
+                        except ImportError:
+                            from date_ranges import year_range_errors
+                        check('normalized_date' not in a, '用稱跨年範圍不得另填確定單年')
+                        expression = a.get('date_expression')
+                        errors.extend(year_range_errors(a['normalized_date_range'], h['evidence'], expression))
+                        errors.extend(table_regnal_range_errors(a['normalized_date_range'], expression, tables))
                 period=h['effective_period']
                 for endpoint in ('start','end'):
                     boundary=period[endpoint]
@@ -864,6 +896,7 @@ def validate(root=ROOT):
                                 if valid:
                                     range_expression = year_window['parallel_event']['source_event_quote']
                             errors.extend(year_range_errors(year_window, boundary['evidence'], range_expression))
+                            errors.extend(table_regnal_range_errors(year_window, date, tables))
                 check(period['start']['status']==('unknown' if h['mode']=='attestation' else 'source_event'),'稱號起點與授予／用稱種類不符')
                 if h['mode']!='attestation':check(period['start'].get('event_type')==h['mode'],'稱號起點與事件種類不符')
         aids=set()
@@ -1127,6 +1160,7 @@ def validate(root=ROOT):
                         from date_ranges import year_range_errors
                     check('normalized_date' not in age, '來源報齡跨年範圍不得另填確定單年')
                     errors.extend(year_range_errors(age['normalized_date_range'], age['evidence'], age.get('date_expression')))
+                    errors.extend(table_regnal_range_errors(age['normalized_date_range'], age.get('date_expression'), tables))
                 if 'normalized_date' in age:
                     errors.extend(normalized_date_errors(age['normalized_date']))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
@@ -1366,6 +1400,7 @@ def validate(root=ROOT):
                         if valid:
                             range_expression = year_window['parallel_event']['source_event_quote']
                     errors.extend(year_range_errors(year_window, event['evidence'], range_expression))
+                    errors.extend(table_regnal_range_errors(year_window, expression, tables))
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date))
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
