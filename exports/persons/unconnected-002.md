@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `gv5_znn_7hk` | 屠岸賈 | [《史記・趙世家》][29] | [JSON](gv5_znn_7hk.json) |
 | `gv8_tj5_hcy` | 公孫歸父（宣公時） | [《史記・魯周公世家》][19] | [JSON](gv8_tj5_hcy.json) |
 | `gvf_h1q_fdl` | 魏壽餘（詳反晉者） | [《史記・晉世家》][25] | [JSON](gvf_h1q_fdl.json) |
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][60] | [JSON](gvp_kl8_u6o.json) |
@@ -2208,7 +2209,6 @@
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][26] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][18] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][10] | [JSON](xyx_811_vue.json) |
-| `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

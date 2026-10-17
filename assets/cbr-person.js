@@ -73,7 +73,6 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     try {const u=new URL(ref.url);if(['http:','https:'].includes(u.protocol))url=u.href;}catch{}
     return `<p class="person-name-alternative">${ui('Name component alternative')}：${labels.join('、')}（${ui('Not selected as default')}）</p><blockquote>${h(ref.quote || '')}</blockquote>${url?`<a href="${h(url)}" target="_blank" rel="noopener">${ref.title?h(ref.title):ui('Source')}</a>`:''}`;
   }).join('');
-  const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p>${componentAlternatives}</details>` : '';
   const life = summarizeLife(p);
   const lifeChoice = event => {
     const d=(p.life_event_date_decisions || []).find(d=>d.candidate_event_ids.includes(event.id));
@@ -152,6 +151,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     try { const parsed = new URL(r.url); if (['http:', 'https:'].includes(parsed.protocol)) url = parsed.href; } catch {}
     return `<blockquote>${h(r.quote)}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : h(r.title || '')}`;
   }).join('');
+  const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p>${dateReferences(names)}${componentAlternatives}</details>` : '';
   const lifeDateSources = date => {
     const refs = full ? dateReferences(date) : '';
     return refs ? `<details class="person-date-references"><summary>紀年依據</summary>${date.rationale ? `<p>${h(date.rationale)}</p>` : ''}${refs}</details>` : '';
