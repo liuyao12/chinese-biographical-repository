@@ -456,3 +456,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 原表死亡格在日期前有計數、人物前有侯字時，`date_layout` 可記 `kind: after_cell_count_and_title`、`cell_count_source_term`（如二。）、`title_source_term: 侯`。格首至姓名的原文須精確等於計數、日期、逗號與侯字，不可借其他人物紀年；計數只是原詞，不在此推算任期。直接以紀年起句的舊模型保持原限制。
 
 地址 `capital_location` 表示所都之地，與個人 `residence`、籍貫分存；`source_term` 精確保存「都」加原地名，`qualifiers.seat_kind: royal_capital`、`source_action: 都`。不由建都推個人出生、居留年月或死亡地，不補現代轄區。
+
+稱號提議另容 `proposal_kind: agreed_appointment`、`outcome: not_reported`，保存任官約定而不聲稱已授或未實行。`agreement_anchor` 與 `role_anchor` 為同段原字元錨點，前者須保存約詞，後者須指原職稱；`person_mention_id` 連到約定對象，`source_term` 精確記「使某人為職」。引句須同時涵蓋前置約詞、對象與職稱。不把此記錄列入已持有稱號，已有 `not_enacted` 記錄仍須維持其原本的未實行判讀。
