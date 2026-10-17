@@ -411,7 +411,7 @@ def validate(root=ROOT):
                 check(any(a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
-                          and any(e['paragraph_id'] == evidence.get('paragraph_id') for e in a['evidence'])
+                          and any(e.get('kind') != 'table_cell' and e.get('paragraph_id') == evidence.get('paragraph_id') for e in a['evidence'])
                           for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
         mention_ids_by_person = {}
         for mid, hit in mentions.items():

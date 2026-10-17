@@ -1,6 +1,8 @@
 # coding:utf-8
 import copy,json,unittest
 from pathlib import Path
+from unittest.mock import patch
+from scripts.validate_corpus import validate
 from scripts.table_evidence import load_tables,table_evidence_errors,table_family_path_errors
 from scripts.person_bundle import bundle
 R=Path(__file__).resolve().parents[1];CHI='yqp_nlb_p1p_ABFAC';JOY='yqp_nlb_p1p_ABFA';FU='yqp_nlb_p1p_ABFAB'
@@ -42,4 +44,9 @@ class CrossCellChengyangFather(unittest.TestCase):
   self.assertNotIn('v3b_rv7_5cd',{p['id']for p in load('registry/persons.json')['persons']})
   for directory,pattern in [('corpus','*/*.json'),('registry','*.json'),('data/historical-tables','*.json')]:
    for p in (R/directory).glob(pattern):self.assertNotIn('v3b_rv7_5cd',p.read_text(),str(p))
+ def test_native_and_prose_father_evidence_is_independent_of_file_order(self):
+  original=Path.glob
+  for reverse in [False,True]:
+   def ordered(path,pattern):return iter(sorted(original(path,pattern),key=str,reverse=reverse))
+   with patch.object(Path,'glob',ordered):self.assertEqual(validate(R),[],reverse)
 if __name__=='__main__':unittest.main()
