@@ -316,6 +316,12 @@ def regnal_reign_designation_valid(proof, value, mentions, tables=None):
 
 def table_regnal_range_errors(value, expression, tables, mentions=None):
     """Validate a cited year row; it is not a parallel person-event assertion."""
+    if value.get('basis') == 'calendar_reform_transition_year':
+        try:
+            from .calendar_reform import transition_table_errors
+        except ImportError:
+            from calendar_reform import transition_table_errors
+        return transition_table_errors(value, tables)
     proof = value.get('regnal_year_table')
     if proof is None:
         return []

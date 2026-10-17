@@ -1,0 +1,175 @@
+{
+  "format_version": "0.1",
+  "record_type": "table_person_life_event_assertion_set",
+  "table_id": "shiji-020",
+  "chapter_id": "table-chapter-shiji-020",
+  "events": [
+    {
+      "id": "le-table-shiji020-r060-zhonggu",
+      "person_id": "08e_bwz_ync",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "source_term": "終古死",
+      "date_expression": "太初元年",
+      "received_date": {
+        "calendar": "Chinese_lunisolar",
+        "era_source_term": "太初",
+        "regnal_year_number": 1,
+        "month": null,
+        "day": null,
+        "common_era_conversion_status": "editorial_provisional_year_range"
+      },
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r060-c07",
+          "person_mention_id": "shiji-020-t1-r060-c07-m000",
+          "quote": "太初元年，終古死，無後，國除。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036"
+        }
+      ],
+      "interpretation_note": "原表明記終古死，非由無後國除推死亡；無後不作生物子女數，國除不自動填全部稱號終點。太初元年因改曆跨三個公元年，死亡月份未明，保存來源限定暫定範圍。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date_range": {
+        "basis": "calendar_reform_transition_year",
+        "year_numbering": "astronomical",
+        "precision": "year_range",
+        "status": "editorial_provisional",
+        "earliest": {
+          "era": "BCE",
+          "era_year": 105,
+          "year": -104
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 103,
+          "year": -102
+        },
+        "calendar_reform": {
+          "kind": "taichu_first_year_15_months",
+          "astronomical_table_year": -103,
+          "first_month_date": "-11-26",
+          "last_month_date": "13-12",
+          "western_calendar": "proleptic_julian",
+          "event_month": "unknown"
+        },
+        "original_quote": "太初元年，終古死，無後，國除。",
+        "evidence": [
+          {
+            "kind": "table_cell",
+            "table_id": "shiji-020",
+            "table_cell_id": "shiji-020-t1-r060-c07",
+            "person_mention_id": "shiji-020-t1-r060-c07-m000",
+            "quote": "太初元年，終古死，無後，國除。",
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-020",
+            "chapter_id": "table-chapter-shiji-020",
+            "source_id": "table-witness-shiji-020",
+            "source_revision": "2607036"
+          }
+        ],
+        "references": [
+          {
+            "title": "《漢書》卷六·太初改歲首",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_006.txt#L606-L610",
+            "quote": "正歴㠯正月為嵗首",
+            "scope": "received_calendar_rule",
+            "image_verified": false
+          },
+          {
+            "title": "秦漢復原曆表·太初元年及前後年符號規則",
+            "url": "https://github.com/ytliu0/ChineseCalendar/blob/719e02ff011ab122aad5fb29084e3f6ee8b65390/src/table.js#L538",
+            "quote": "-11-26",
+            "scope": "calendar_reconstruction_first_month",
+            "image_verified": false
+          },
+          {
+            "title": "秦漢復原曆表·太初元年及前後年符號規則",
+            "url": "https://github.com/ytliu0/ChineseCalendar/blob/719e02ff011ab122aad5fb29084e3f6ee8b65390/src/table.js#L540",
+            "quote": "13-12",
+            "scope": "calendar_reconstruction_last_month",
+            "image_verified": false
+          },
+          {
+            "title": "秦漢復原曆表·太初元年及前後年符號規則",
+            "url": "https://github.com/ytliu0/ChineseCalendar/blob/719e02ff011ab122aad5fb29084e3f6ee8b65390/src/table.js#L465",
+            "quote": "month in the previous year",
+            "scope": "calendar_reconstruction_previous_year_notation",
+            "image_verified": false
+          },
+          {
+            "title": "秦漢復原曆表·太初元年及前後年符號規則",
+            "url": "https://github.com/ytliu0/ChineseCalendar/blob/719e02ff011ab122aad5fb29084e3f6ee8b65390/src/table.js#L465",
+            "quote": "January in the following Julian year",
+            "scope": "calendar_reconstruction_next_year_notation",
+            "image_verified": false
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "太初元年",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false,
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r103-c01"
+          },
+          {
+            "title": "《史記·漢興以來將相名臣年表》",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "quote": "104",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false,
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r103-c00"
+          }
+        ],
+        "rationale": "原表僅記太初元年，不記死亡月份。傳世紀年含改曆前冬，復原曆表以負月指前一年、13指次年一月，首末月跨入公元前105與103年；暫存105至103的整年可能範圍，不以表列104冒充確切卒年。不換死亡月日，未核書影；復原模型及年號實際施行與史籍追稱仍分開。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "study_references": [
+        {
+          "id": "ref-xiaoyao-taichu-2022",
+          "kind": "modern_study_reference",
+          "display_title": "試論太初改曆中的曆元確定與藉半日法問題",
+          "source_title": "试论太初改历中的历元确定与藉半日法问题",
+          "display_author": "肖堯",
+          "source_author": "肖尧",
+          "journal": "中國科技史雜誌",
+          "year": 2022,
+          "volume": 43,
+          "issue": 1,
+          "pages": "77–88",
+          "publication_date": "2022-03-15",
+          "url": "https://zgks.cbpt.cnki.net/portal/journal/portal/client/paper/599ea5ed139a3162394f7fca040c7de2",
+          "reviewed_scope": "期刊官方頁的書目、摘要及註6至9、註13；未取得論文全文",
+          "reference_note": "註文區分太初改曆前所頒舊曆與新曆安排，可供過渡年月份範圍判讀；僅存研究參考，不宣稱已驗證其推算。",
+          "opinion_validation": "not_attempted",
+          "normalization_note": "顯示書目轉繁；原題與原署名分存。"
+        },
+        {
+          "id": "ref-xindeyong-westernhan-xin-chronology",
+          "kind": "modern_study_reference",
+          "display_title": "改訂西漢新莽紀年表",
+          "source_title": "改订西汉新莽纪年表",
+          "author": "辛德勇",
+          "publication_year": null,
+          "url": "https://zggds.pku.edu.cn/docs/2020-06/20200628200956862123.pdf",
+          "host": "北京大學中國古代史研究中心",
+          "reviewed_scope": "PDF文字抽取的檔案第6頁太初條腳注及第12頁說明；未逐頁核讀表格圖像",
+          "reference_note": "作者區分史籍追記年號與當時改元實行情形，太初條另論五月改制及舊曆十一月；僅列為現代研究意見，不回寫收到的紀年字串。",
+          "opinion_validation": "not_attempted",
+          "normalization_note": "顯示書目轉繁；原題另存。網址目錄日期不當論文出版年。"
+        }
+      ]
+    }
+  ]
+}
