@@ -278,7 +278,6 @@
 | `25o_mn8_27w` | 衛少兒 | [《史記・外戚世家》][35]、[《史記・衛將軍驃騎列傳》][97] | [JSON](25o_mn8_27w.json) |
 | `261_d2j_rm9` | 任王后 | [《史記・梁孝王世家》][44] | [JSON](261_d2j_rm9.json) |
 | `26f_e5j_68s` | 堯（孔子世家形貌比擬傳說） | [《史記・孔子世家》][33] | [JSON](26f_e5j_68s.json) |
-| `26o_acg_bzw` | 高后 | [《史記・朝鮮列傳》][101] | [JSON](26o_acg_bzw.json) |
 | `26q_bpg_wb6` | 田常母（田世家祭辭未名者） | [《史記・田敬仲完世家》][32] | [JSON](26q_bpg_wb6.json) |
 | `26r_t32_9rn` | 卜子夏 | [《史記・魏世家》][30] | [JSON](26r_t32_9rn.json) |
 | `26s_7sw_89e` | 臧文仲（魯弔宋水者） | [《史記・宋微子世家》][24] | [JSON](26s_7sw_89e.json) |
@@ -523,7 +522,6 @@
 | `3yz_ws9_5dw` | 匡王 | [《史記・周本紀》][8] | [JSON](3yz_ws9_5dw.json) |
 | `3z8_zue_k0k` | 句望 | [《史記・五帝本紀》][5]、[《史記・三代世表》][118] | [JSON](3z8_zue_k0k.json) |
 | `3zd_pcq_fta` | 開章 | [《史記・淮南衡山列傳》][104] | [JSON](3zd_pcq_fta.json) |
-| `3zz_xwh_g2j` | 太史公 | [《史記・朝鮮列傳》][101] | [JSON](3zz_xwh_g2j.json) |
 | `40h_sbg_kpj` | 慶鄭（惠公諫臣） | [《史記・晉世家》][25] | [JSON](40h_sbg_kpj.json) |
 | `40l_mfp_yr6` | 司馬安 | [《史記・酷吏列傳》][108] | [JSON](40l_mfp_yr6.json) |
 | `40p_hkv_oqy` | 莊青翟 | [《史記・三王世家》][46] | [JSON](40p_hkv_oqy.json) |
@@ -761,7 +759,6 @@
 | `5v3_lxk_shh` | 胡兒（未名） | [《史記・李將軍列傳》][95] | [JSON](5v3_lxk_shh.json) |
 | `5vz_50g_h50` | 汲黯 | [《史記・梁孝王世家》][44] | [JSON](5vz_50g_h50.json) |
 | `5w4_qju_qbd` | 客卿錯 | [《史記・白起王翦列傳》][59] | [JSON](5w4_qju_qbd.json) |
-| `5w8_533_9xk` | 當朝天子 | [《史記・朝鮮列傳》][101] | [JSON](5w8_533_9xk.json) |
 | `5wb_odp_wx1` | 任不齊 | [《史記・仲尼弟子列傳》][53] | [JSON](5wb_odp_wx1.json) |
 | `5wp_sih_p2e` | 韓武子 | [《史記・韓世家》][31] | [JSON](5wp_sih_p2e.json) |
 | `5x1_l5n_39c` | 趙桓子 | [《史記・魏世家》][30] | [JSON](5x1_l5n_39c.json) |
@@ -2204,6 +2201,9 @@
 | `gub_mns_uyh` | 燕將未名 | [《史記・張耳陳餘列傳》][75] | [JSON](gub_mns_uyh.json) |
 | `guh_2ns_rmq` | 髙漸離 | [《史記・刺客列傳》][72] | [JSON](guh_2ns_rmq.json) |
 | `gv0_6h6_ek6` | 龐涓 | [《史記・孫子吳起列傳》][51] | [JSON](gv0_6h6_ek6.json) |
+| `gv5_znn_7hk` | 屠岸賈 | [《史記・趙世家》][29] | [JSON](gv5_znn_7hk.json) |
+| `gv8_tj5_hcy` | 公孫歸父（宣公時） | [《史記・魯周公世家》][19] | [JSON](gv8_tj5_hcy.json) |
+| `gvf_h1q_fdl` | 魏壽餘（詳反晉者） | [《史記・晉世家》][25] | [JSON](gvf_h1q_fdl.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt
