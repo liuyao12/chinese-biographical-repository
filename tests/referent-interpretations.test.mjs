@@ -31,7 +31,7 @@ test('untrusted commentary is escaped, unsafe source URLs omitted, and switching
   try {html=referentCasesHTML([c]);assert.match(html,/Referent interpretations/);assert.match(html,/陽子/);assert.match(html,/漢書音義/);} finally {setLocale('zh-Hant',{persist:false});}
 });
 test('preferred nonpersonal readings are attributed without person links or changes to received text',()=>{
-  const cases=chapter.annotation.referent_interpretations.filter(c=>c.status==='editorial_provisional');
+  const cases=chapter.annotation.referent_interpretations.filter(c=>['ri-shiji117-lieque','ri-shiji117-tiandi'].includes(c.id));
   assert.equal(cases.length,2);
   const html=referentCasesHTML(cases);
   assert.equal((html.match(/class="referent-preferred"/g)||[]).length,2);
@@ -43,4 +43,14 @@ test('preferred nonpersonal readings are attributed without person links or chan
   const unresolved=referentCasesHTML(chapter.annotation.referent_interpretations.filter(c=>c.status==='unresolved'));
   assert.doesNotMatch(unresolved,/class="referent-preferred"/);
   assert.match(unresolved,/北僑/);assert.match(unresolved,/伯僑/);
+});
+test('Luli retains divine and mythical-bird readings in both UI languages without individual links',()=>{
+  const c=chapter.annotation.referent_interpretations.find(c=>c.id==='ri-shiji117-luli');
+  let html=referentCasesHTML([c]);assert.match(html,/神話生靈讀法/);assert.match(html,/陸離/);assert.match(html,/長離/);assert.doesNotMatch(html,/candidate-profile|class="referent-preferred"/);
+  setLocale('en',{persist:false});
+  try{html=referentCasesHTML([c]);assert.match(html,/Mythical creature reading/);assert.match(html,/陸離/);assert.match(html,/長離/);}finally{setLocale('zh-Hant',{persist:false});}
+});
+test('the five celestial emperors are classified as a group without materializing five people',()=>{
+  const c=chapter.annotation.referent_interpretations.find(c=>c.id==='ri-shiji117-five-celestial-emperors');
+  const html=referentCasesHTML([c]);assert.match(html,/群體泛稱讀法/);assert.equal((html.match(/class="referent-preferred"/g)||[]).length,1);assert.doesNotMatch(html,/candidate-profile|data-person-id=/);assert.match(html,/五畤/);assert.match(html,/五時/);
 });

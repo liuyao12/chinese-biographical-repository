@@ -1,4 +1,5 @@
 export default {
+  'Mythical creature reading': '神話生靈讀法',
   'Divine referent': '神祇用稱',
   'Natural phenomenon': '自然現象',
   'Preferred reading (provisional)': '採用讀法（暫定）',

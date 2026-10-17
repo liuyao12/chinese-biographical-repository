@@ -1,3 +1,4 @@
+import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t, ui} from './i18n.js';
@@ -25,10 +26,12 @@ function navigation(entry) {
   const prev = index.chapters.find(c => c.number === entry.number - 1), next = index.chapters.find(c => c.number === entry.number + 1);
   return `<nav class="chapter-pagination"><a href="shiji.html#category=${entry.category}">${ui('Back to category')}</a>${prev ? `<a href="${h(chapterURL(prev.number, category))}">← ${h(prev.title)}</a>` : ''}${next ? `<a href="${h(chapterURL(next.number, category))}">${h(next.title)} →</a>` : ''}</nav>`;
 }
-async function render() {
+async function render(keepReadingState = false) {
   const current = ++ticket, params = new URLSearchParams(location.hash.slice(1));
   category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
   const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
+  const readingState = keepReadingState && selected?.number === number && selected?.chapter
+    ? captureReadingState($('corpus-content')) : null;
   removeTextPersonCards?.(); removeTextPersonCards = null;
   tableReader?.destroy(); tableReader = null;
   selected = entry;
@@ -62,10 +65,11 @@ async function render() {
   }
   if (current !== ticket) return;
   const chapter = cache.get(number); selected = {...entry, chapter};
-  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text">${chapter.paragraphs.map(p => chapterParagraph(p, people) + referentInterpretations(chapter, p.id, people)).join('')}</article>${navigation(entry)}`;
+  $('corpus-content').innerHTML = heading + `<p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><p class="corpus-note">${ui('Annotation in progress · no independently reviewed edition claimed')}</p><nav class="chapter-pagination">${ext(chapter.source.permalink, 'Fixed source version')}<a href="${h(entry.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p data-original>${h(chapter.source.extent)}</p><p data-original>${h(chapter.source.rights)}</p><p data-original>${h(chapter.source.normalization?.note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p => chapterParagraph(p, people) + referentInterpretations(chapter, p.id, people)).join('')}</article>${navigation(entry)}`;
   removeTextPersonCards = bindPersonCards($('corpus-content'));
   const passage = params.get('passage');
-  if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
+  if (readingState) restoreReadingState($('corpus-content'), readingState);
+  else if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
   else window.scrollTo(0, 0);
 }
 function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(error.message)}</p>`; }
@@ -80,7 +84,7 @@ function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(erro
       if (tableReader && Number(p.get('chapter')) === selected?.number && (p.get('category') || 'all') === category) return;
       render().catch(fail);
     });
-    window.addEventListener('renwen:languagechange', () => render().catch(fail));
+    window.addEventListener('renwen:languagechange', () => render(true).catch(fail));
     await render();
   } catch (error) { fail(error); }
 })();

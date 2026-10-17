@@ -264,6 +264,7 @@
 | `1zn_1kz_5fj` | 長安令（未名） | [《史記・汲鄭列傳》][106] | [JSON](1zn_1kz_5fj.json) |
 | `1zr_pe3_6jo` | 親弗 | [《史記・孟嘗君列傳》][61] | [JSON](1zr_pe3_6jo.json) |
 | `21a_kok_ndw` | 虢君未名 | [《史記・扁鵲倉公列傳》][91] | [JSON](21a_kok_ndw.json) |
+| `21k_m7f_sxc` | 含靁 | [《史記・司馬相如列傳》][103] | [JSON](21k_m7f_sxc.json) |
 | `220_2hx_s8j` | 蔡侯（楚靈王醉殺者未名） | [《史記・楚世家》][26] | [JSON](220_2hx_s8j.json) |
 | `224_en7_aho` | 王朔 | [《史記・李將軍列傳》][95] | [JSON](224_en7_aho.json) |
 | `227_8fc_jvj` | 悼惠（齊） | [《史記・太史公自序》][116] | [JSON](227_8fc_jvj.json) |
@@ -1696,6 +1697,7 @@
 | `d9r_fyd_lvn` | 夷姜（衛宣公夫人） | [《史記・衛康叔世家》][23] | [JSON](d9r_fyd_lvn.json) |
 | `d9t_tnl_qbw` | 堯 | [《史記・蘇秦列傳》][55] | [JSON](d9t_tnl_qbw.json) |
 | `da9_8rf_0us` | 涉 | [《史記・孔子世家》][33] | [JSON](da9_8rf_0us.json) |
+| `dal_xne_xt3` | 玄冥 | [《史記・司馬相如列傳》][103] | [JSON](dal_xne_xt3.json) |
 | `dao_82z_c24` | 屯頭王（未名） | [《史記・衛將軍驃騎列傳》][97] | [JSON](dao_82z_c24.json) |
 | `db0_yyf_4td` | 許暦 | [《史記・廉頗藺相如列傳》][67] | [JSON](db0_yyf_4td.json) |
 | `db9_3sk_h2i` | 秦昭王幸姬未名 | [《史記・孟嘗君列傳》][61] | [JSON](db9_3sk_h2i.json) |
@@ -2200,8 +2202,6 @@
 | `gy6_lx6_eb2` | 趙公子渴 | [《史記・秦本紀》][9] | [JSON](gy6_lx6_eb2.json) |
 | `gyn_ff7_fsv` | 孟但 | [《史記・儒林列傳》][107] | [JSON](gyn_ff7_fsv.json) |
 | `gyz_mj7_l1f` | 鯫生 | [《史記・留侯世家》][41] | [JSON](gyz_mj7_l1f.json) |
-| `gz0_xuu_ont` | 樂毅 | [《史記・樂毅列傳》][66] | [JSON](gz0_xuu_ont.json) |
-| `gz1_n2k_xs6` | 太史公（韓世家論贊敘述者） | [《史記・韓世家》][31] | [JSON](gz1_n2k_xs6.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt

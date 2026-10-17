@@ -55,7 +55,8 @@
       "平陵侯依集解徐廣釋名及卷111授爵正文暫接蘇建；五公子由著作題名引出仍未定，不猜補。",
       "第68段卒後五歲八年為相對時間，不直接轉作公元年。",
       "第30段無是公言天子上林的天子屬賦辭角色，不套當朝天子；賦奏天子以為郎的省略主語隔完整賦文，待支援跨段上下文證據後記授任，不偽造姓名錨點。",
-      "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，未據賦辭新增親屬、任職、生卒或神遊史事；風伯、雨師、玉女、西王母仍待辨。"
+      "第53段靈媧、馮夷、屏翳依古注登記為具名傳說角色，未據賦辭新增親屬、任職、生卒或神遊史事；風伯、雨師、玉女、西王母仍待辨。",
+      "第52、54段陵陽、玄冥、含靁、潏湟、勾芒、豐隆依古注登記具名傳說角色；本篇原稱與古注字形分存，不補歷史官職或世系。陸離保留神名與靈鳥異說，五帝僅作神帝群稱分類。"
     ],
     "unresolved_identity_cases": [
       {
@@ -595,6 +596,162 @@
           "parallel_phrase": "厮征伯僑",
           "reference_id": "han57-boqiao",
           "adopted_as_text_correction": false
+        }
+      },
+      {
+        "id": "ri-shiji117-luli",
+        "paragraph_id": "c-shiji-117-xiangru:p052",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0076"
+        ],
+        "source_terms": [
+          "陸離"
+        ],
+        "status": "unresolved",
+        "default_alternative_id": null,
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0076"
+          ]
+        },
+        "references": [
+          {
+            "id": "jijie117-luli",
+            "title": "《集解》引漢書音義釋陸離潏湟",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L523-L525",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+            "quote": "(音義曰仙人/陵陽子明也)左𤣥㝠而右含靁兮(漢書音義曰含雷黔/嬴也天上造化神名)¶\n(也或曰/水神)前陸離而後潏湟(漢書音義/曰皆神名)斯征北僑(徐廣曰/燕人也)¶\n(形解而/僊也)而役羡門兮屬岐伯使尚方(徐廣曰岐伯黄帝/臣駰案漢書音義)¶",
+            "read_line_range": [
+              523,
+              525
+            ],
+            "cached_response_sha256": "4439fef65c32a0f4f6ca021386d9a2721502ea5d636016bd2f7fb215a2f0fd95",
+            "image_verified": false
+          },
+          {
+            "id": "han57-changli",
+            "title": "《漢書》服虔、顏師古釋長離矞皇",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L934-L935",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "黔雷兮(張揖曰𤣥㝠北方黑帝佐也黔雷黔嬴也天上/造化神名也楚辭曰召黔嬴而見之或曰水神)¶\n(也/)前長離而後矞皇(服䖍曰皆神名也師古曰長離靈/鳥也解在禮樂志矞音以出反)¶",
+            "read_line_range": [
+              934,
+              935
+            ],
+            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
+            "image_verified": false
+          }
+        ],
+        "alternatives": [
+          {
+            "id": "ri-shiji117-luli-jijie-divine",
+            "attribution": "漢書音義（《集解》引）",
+            "referent_kind": "divinity",
+            "candidate_person_ids": [],
+            "interpretation": "本篇陸離、潏湟所引釋為神名；保留本篇用字。",
+            "source_reference_ids": [
+              "jijie117-luli"
+            ]
+          },
+          {
+            "id": "ri-shiji117-luli-fuqian-divine",
+            "attribution": "服虔（《漢書》注）",
+            "referent_kind": "divinity",
+            "candidate_person_ids": [],
+            "interpretation": "平行文長離、矞皇皆釋神名；不將平行見證改成本篇字形。",
+            "source_reference_ids": [
+              "han57-changli"
+            ]
+          },
+          {
+            "id": "ri-shiji117-luli-shigu-bird",
+            "attribution": "顏師古（《漢書》注）",
+            "referent_kind": "mythical_creature",
+            "candidate_person_ids": [],
+            "interpretation": "長離釋靈鳥，與前說神名有別；此說所據為《漢書》的長離用字。",
+            "source_reference_ids": [
+              "han57-changli"
+            ]
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "note": "古注讀法與本篇原字各存，未核書影；不據此補人物史事。",
+        "witness_wording": {
+          "received_phrase": "前陸離而後潏湟",
+          "parallel_phrase": "前長離而後矞皇",
+          "reference_id": "han57-changli",
+          "adopted_as_text_correction": false
+        }
+      },
+      {
+        "id": "ri-shiji117-five-celestial-emperors",
+        "paragraph_id": "c-shiji-117-xiangru:p052",
+        "target_mention_ids": [
+          "c-shiji-117-xiangru:m052-0052"
+        ],
+        "source_terms": [
+          "五帝"
+        ],
+        "status": "editorial_provisional",
+        "default_alternative_id": "ri-shiji117-five-celestial-emperors-group",
+        "evidence": {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-117",
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p052",
+          "quote": "邪絕少陽而登太陰兮，與真人乎相求。互折窈窕以右轉兮，橫厲飛泉以正東。悉徵靈圉而選之兮，部乘眾神於瑤光。使五帝先導兮，反太一而從陵陽。左玄冥而右含靁兮，前陸離而後潏湟。厮征北僑而役羡門兮，屬岐伯使尚方。祝融驚而蹕御兮，清氛氣而後行。屯余車其萬乘兮，綷雲蓋而樹華旗。使勾芒其將行兮，吾欲往乎南嬉。",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m052-0052"
+          ]
+        },
+        "references": [
+          {
+            "id": "han57-five-emperors",
+            "title": "《漢書》應劭釋五帝及宋祁轉報五時",
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L931-L933",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+            "quote": "於揺光(張揖曰揺光北/斗杓頭第一星)使五帝先導兮反大壹而從陵¶\n陽(應劭曰五帝五畤太皥之屬也如淳曰天極大星一/眀者太一常居也張揖曰陵陽仙人陵陽子眀也師)¶\n(古曰令太一反其所居而使陵陽侍從於/已○宋祁曰注文五畤當從浙本作五時)左𤣥㝠而右¶",
+            "read_line_range": [
+              931,
+              933
+            ],
+            "cached_response_sha256": "024b03fcdb819f2edf0c84f816d618653f6fdafa4b48e6c2c36ec8fbe2ce1210",
+            "image_verified": false
+          }
+        ],
+        "alternatives": [
+          {
+            "id": "ri-shiji117-five-celestial-emperors-group",
+            "attribution": "編者依本句神遊語境及《漢書》注分類",
+            "referent_kind": "generic_group",
+            "candidate_person_ids": [],
+            "interpretation": "領行的神帝群稱；應劭釋五畤太皥之屬，宋祁轉報浙本五時用字。不據此指定五個人或接入五帝世系。",
+            "source_reference_ids": [
+              "han57-five-emperors"
+            ]
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "note": "古注讀法與本篇原字各存，未核書影；不據此補人物史事。",
+        "selection": {
+          "rationale": "本段先選眾神，五帝先導；只採神帝群稱分類，注語五畤／五時不作已親核異本。",
+          "source_reference_ids": [
+            "han57-five-emperors"
+          ]
         }
       }
     ]
@@ -2955,7 +3112,8 @@
           "surface": "五帝",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本句神帝群稱，不指定五個世系人物；五畤與古注轉報五時分存。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0059",
@@ -2971,27 +3129,30 @@
           "start": 63,
           "end": 65,
           "surface": "陵陽",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "i4v_y28_wx0",
+          "status": "contextual_provisional",
+          "interpretation_note": "古注明稱仙人陵陽子明，與陽子古注所述陽陵子不能倒字合併。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0067",
           "start": 67,
           "end": 69,
           "surface": "玄冥",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "dal_xne_xt3",
+          "status": "contextual_provisional",
+          "interpretation_note": "古注稱北方黑帝之佐，只記神話身份，不補官爵任期或與其他祖系相接。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0071",
           "start": 71,
           "end": 73,
           "surface": "含靁",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "21k_m7f_sxc",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇含靁依所引注為黔嬴，造化神與水神兩說分存；不改原字，不將外部用字冒作本文別名。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0076",
@@ -3000,16 +3161,18 @@
           "surface": "陸離",
           "kind": "unresolved",
           "person_id": null,
-          "status": "unresolved"
+          "status": "unresolved",
+          "interpretation_note": "本篇陸離與漢書長離的神名／靈鳥解釋分存，未改字或強接個人。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0080",
           "start": 80,
           "end": 82,
           "surface": "潏湟",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "oj8_zfy_dkl",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇潏湟依注為神名；漢書矞皇用字另存，不先作跨見證別名定論。"
         },
         {
           "id": "c-shiji-117-xiangru:m052-0085",
@@ -3055,9 +3218,10 @@
           "start": 132,
           "end": 134,
           "surface": "勾芒",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "hd8_aho_qei",
+          "status": "contextual_provisional",
+          "interpretation_note": "本篇勾芒與漢書句芒各存，古注稱東方青帝之佐；不按造形補生平或親屬。"
         }
       ]
     },
@@ -3174,9 +3338,10 @@
           "start": 58,
           "end": 60,
           "surface": "豐隆",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "hnj_ut6_7z4",
+          "status": "contextual_provisional",
+          "interpretation_note": "應劭明釋雲師；只作神話專名，不新增掌雨歷史官職；轉引楚辭、淮南子未獨立核讀。"
         }
       ]
     },

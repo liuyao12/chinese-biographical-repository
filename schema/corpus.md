@@ -468,6 +468,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `annotation.referent_interpretations` 用於同一原稱的古注解釋不全是人物身份的情形。例如陽子有伯樂與仙人陽陵子等說，鄭女曼姬亦有群體泛稱與個別典故的不同解法。案件連到本篇未連人物的 `target_mention_ids`，`source_terms` 逐一保存原稱，`evidence` 保存 work／book／chapter／source、原段及確切引句。
 
-各 `alternatives` 有署名、`referent_kind`、可能為空的 `candidate_person_ids`、解釋與 `source_reference_ids`。人物、傳說人物、身份未定人物、群體泛稱、多個典故分存；不為配合人物模型而補造 ID。古注 `references` 固定提交、blob、實讀行範圍、回應快取雜湊與未核書影狀態。未決案件為 `unresolved`，`default_alternative_id: null`，不自動選唯一候選。非個人指稱可用 `editorial_provisional` 暫採神祇、自然現象或群體讀法：指定 `default_alternative_id`，以 `selection` 保留理由與該說的來源 ID，所選讀法不得帶人物候選。個人身份仍須另有身份判斷及正文標記，不能藉此欄位逕行採納。`witness_wording` 分存本篇與平行見證的確切片語、參考 ID 及 `adopted_as_text_correction: false`，不改寫正文。
+各 `alternatives` 有署名、`referent_kind`、可能為空的 `candidate_person_ids`、解釋與 `source_reference_ids`。人物、傳說人物、身份未定人物、群體泛稱、多個典故、神祇、自然現象與神話生靈分存；不為配合人物模型而補造 ID。古注 `references` 固定提交、blob、實讀行範圍、回應快取雜湊與未核書影狀態。未決案件為 `unresolved`，`default_alternative_id: null`，不自動選唯一候選。非個人指稱可用 `editorial_provisional` 暫採神祇、自然現象、神話生靈或群體讀法：指定 `default_alternative_id`，以 `selection` 保留理由與該說的來源 ID，所選讀法不得帶人物候選。個人身份仍須另有身份判斷及正文標記，不能藉此欄位逕行採納。`witness_wording` 分存本篇與平行見證的確切片語、參考 ID 及 `adopted_as_text_correction: false`，不改寫正文。
 
 候選人物 JSON 可附此項判讀及原段，供查閱候選依據；不將候選提及加入已採納 `mentions`、出現次數、`person_ids`、世系或生平。閱讀器在正文段落之外顯示「編者指稱判讀」，完整人物頁另顯示候選來源；姓名卡的簡要生平不混入異說。此欄位與 `unresolved_identity_cases` 分開，後者處理已具人物候選的身份待辨，不能迫使泛稱或神祇讀法只剩人物候選。
+
+神話生靈讀法用 `referent_kind: mythical_creature`，例如《漢書》顏師古解長離為靈鳥；與《集解》陸離神名讀法分存，不據此改寫本篇原字。此類讀法的 `candidate_person_ids` 必為空，不憑生靈稱呼建立人類世系。
