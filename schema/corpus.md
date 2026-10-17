@@ -454,3 +454,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 原表首封日期若只有月份而沒有干支，`date_parts` 精確保存原月詞，日部分省略；不得為適配格式補日。年精度的公元換算仍由原欄題、原年列及歲首來源判定。
 
 原表死亡格在日期前有計數、人物前有侯字時，`date_layout` 可記 `kind: after_cell_count_and_title`、`cell_count_source_term`（如二。）、`title_source_term: 侯`。格首至姓名的原文須精確等於計數、日期、逗號與侯字，不可借其他人物紀年；計數只是原詞，不在此推算任期。直接以紀年起句的舊模型保持原限制。
+
+地址 `capital_location` 表示所都之地，與個人 `residence`、籍貫分存；`source_term` 精確保存「都」加原地名，`qualifiers.seat_kind: royal_capital`、`source_action: 都`。不由建都推個人出生、居留年月或死亡地，不補現代轄區。
