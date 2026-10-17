@@ -2,12 +2,14 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ABFA",
   "canonical_person_id": "yqp_nlb_p1p_ABFA",
-  "label": "喜（齊悼惠王世家候選）",
+  "label": "喜（城陽共王）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "城陽共王",
     "喜",
-    "共王"
+    "共王",
+    "成陽共王"
   ],
   "titles": [
     {
@@ -56,16 +58,56 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 11,
+      "category": "benji",
+      "title": "孝景本紀第十一",
+      "paragraph_id": "c-shiji-011-jingdi:p014",
+      "count": 1,
+      "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉"
+    },
+    {
       "number": 52,
       "category": "shijia",
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p033",
       "count": 3,
       "quote": "封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。"
+    },
+    {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p009",
+      "count": 1,
+      "quote": "越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-011-jingdi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "source_id": "s-shiji-011-jingdi",
+      "source": {
+        "title": "史記／卷011",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷011",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+        "revision_id": 2520527,
+        "accessed_on": "2026-10-09",
+        "extent": "本篇18個p區塊，自孝景皇帝者至太史公論贊；排除跨站導覽dd、索隱述贊及其後現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "保留行內（弋）［易］、（子）［孫］及其他校勘符號，不把改讀當已校定原文。",
+          "note": "固定版本正文與實讀HTML一致；未核底本、影像或現代專門研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-052-qidaohui",
       "work_id": "w-shiji",
@@ -87,6 +129,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
           "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
     }
@@ -133,15 +199,183 @@
       },
       "interpretation_note": "明示子、生、母、兄弟姊及婚姻分型，繼位不補未記血親；校勘名、母家與未名家屬不擅定姓名，案件敘事不冒稱獨立核定。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji114-005",
+      "subject_person_id": "yqp_nlb_p1p_ABFAB",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p009",
+          "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "成陽共王子"
+      },
+      "interpretation_note": "明記王子，保留成陽原字，不補父親具名及生母。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
     "yqp_nlb_p1p_ABF": "章（城陽景王）",
-    "yqp_nlb_p1p_ABFA": "喜（齊悼惠王世家候選）",
-    "yqp_nlb_p1p_ABFAA": "延校勘建未定（齊悼惠王世家候選）"
+    "yqp_nlb_p1p_ABFA": "喜（城陽共王）",
+    "yqp_nlb_p1p_ABFAA": "延校勘建未定（齊悼惠王世家候選）",
+    "yqp_nlb_p1p_ABFAB": "劉福"
   },
-  "dates": [],
-  "name_components": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 144,
+      "year": -143,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p014",
+          "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+          "person_mention_id": "c-shiji-011-jingdi:m014-0030"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷016",
+          "quote": "景帝中六年（丁酉，公元前一四四年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "同段開頭明示景帝二年、中六年或後三年，事件原月日另存；以核讀數位年標對照公元年，只保存年精度。漢曆跨公曆年的限制保留，未核天文曆表，不直接把漢曆月或干支日轉為公曆日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji011-009",
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji114-chengyang-gongwang",
+      "person_ids": [
+        "yqp_nlb_p1p_ABFA"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ABFA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-114-dongyue",
+        "c-shiji-052-qidaohui",
+        "c-shiji-011-jingdi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p009",
+          "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m009-0179"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-052",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p033",
+          "quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m033-0082",
+            "c-shiji-052-qidaohui:m033-0087"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-011",
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p014",
+          "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m014-0030"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·建元已來王子侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037",
+          "quote": "海常。",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r099-c00",
+          "scope": "received_parallel_fief_and_parent_identity",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元已來王子侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037",
+          "quote": "城陽共王子。",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r099-c01",
+          "scope": "received_parallel_fief_and_parent_identity",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元已來王子侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037",
+          "quote": "三。四年三月乙丑，侯劉福元年。",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r099-c03",
+          "scope": "received_parallel_fief_and_parent_identity",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇福之父成陽共王，與王子侯表海常列劉福城陽共王子對讀；齊悼惠世家明記章之子喜是為共王，景紀同一城陽共王卒在中六年。爵國、父子與時序相合暫接喜；成／城原字分存，不用死亡補其他任期，也不把凡三十三年強作城陽連續王期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "title": "城陽共王",
+      "surname": null,
+      "ming": "喜",
+      "additional_names": [],
+      "chapter_id": "c-shiji-052-qidaohui",
+      "paragraph_id": "c-shiji-052-qidaohui:p033",
+      "quote": "城陽景王章，齊悼惠王子，以朱虛侯與大臣共誅諸呂，而章身首先斬相國呂王產於未央宮。孝文帝既立，益封章二千戶，賜金千斤。孝文二年，以齊之城陽郡立章為城陽王。立二年卒，子喜立，是為共王。",
+      "references": [
+        {
+          "title": "《史記》平行稱名",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷011&oldid=2520527",
+          "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+          "scope": "received_parallel_name_or_title",
+          "image_verified": false
+        }
+      ],
+      "note": "名喜據子喜立，是為共王；城陽共王原稱據景紀，父系沿已有章之子斷言，未補生母。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_ABFA"
   ],
@@ -187,6 +421,26 @@
       },
       "interpretation_note": "明示子、生、母、兄弟姊及婚姻分型，繼位不補未記血親；校勘名、母家與未名家屬不擅定姓名，案件敘事不冒稱獨立核定。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji114-005",
+      "subject_person_id": "yqp_nlb_p1p_ABFAB",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p009",
+          "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "成陽共王子"
+      },
+      "interpretation_note": "明記王子，保留成陽原字，不補父親具名及生母。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "assembled_identity": {
@@ -205,6 +459,56 @@
   },
   "age_assertions": [],
   "life_events": [
+    {
+      "id": "le-shiji011-009",
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "四月",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-011-jingdi",
+          "source_id": "s-shiji-011-jingdi",
+          "paragraph_id": "c-shiji-011-jingdi:p014",
+          "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+          "person_mention_id": "c-shiji-011-jingdi:m014-0030"
+        }
+      ],
+      "source_term": "梁孝王、城陽共王、汝南王皆薨",
+      "interpretation_note": "按本篇明示個人死亡保存；未直接修飾本事件的月份、赦令日期或分封日不移作卒日。群稱不補姓名，未記死法不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 144,
+        "year": -143,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-011-jingdi",
+            "source_id": "s-shiji-011-jingdi",
+            "paragraph_id": "c-shiji-011-jingdi:p014",
+            "quote": "中六年二月己卯，行幸雍，郊見五帝。三月，雨雹。四月，梁孝王、城陽共王、汝南王皆薨。立梁孝王子明為濟川王，子彭離為濟東王，子定為山陽王，子不識為濟陰王。梁分為五。封四侯。更命廷尉為大理，將作少府為將作大匠，主爵中尉為都尉，長信詹事為長信少府，將行為大長秋，大行為行人，奉常為太常，典客為大行，治粟內史為大農。以大內為二千石，置左右內官，屬大內。七月辛亥，日食。八月，匈奴入上郡。",
+            "person_mention_id": "c-shiji-011-jingdi:m014-0030"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》數位編輯年標",
+            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷016",
+            "quote": "景帝中六年（丁酉，公元前一四四年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "同段開頭明示景帝二年、中六年或後三年，事件原月日另存；以核讀數位年標對照公元年，只保存年精度。漢曆跨公曆年的限制保留，未核天文曆表，不直接把漢曆月或干支日轉為公曆日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
+      }
+    },
     {
       "id": "le-shiji052-017",
       "person_id": "yqp_nlb_p1p_ABFA",

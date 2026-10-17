@@ -14,7 +14,8 @@
     "將軍",
     "丞相",
     "君",
-    "丞相蚡"
+    "丞相蚡",
+    "太尉"
   ],
   "titles": [
     {
@@ -668,6 +669,49 @@
       "interpretation_note": "保存本文任官或用稱；未知端點不補日期。邊吏為歷任泛稱，豪與單于暫不套用漢官爵階序。",
       "reviewer": "Codex（AI 代理）",
       "period": "西元前135年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji114-007",
+      "person_id": "7mz_d13_9ka_A",
+      "title": "太尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji114-007:a001",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "start": 60,
+          "end": 62,
+          "surface": "太尉",
+          "person_mention_id": "c-shiji-114-dongyue:m003-0062",
+          "usage": "narrative",
+          "date_expression": "建元三年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -746,6 +790,14 @@
       "paragraph_id": "c-shiji-111-wei-huo:p047",
       "count": 1,
       "quote": "大夫毋稱焉，願將軍觀古名將所招選擇賢者，勉之哉。大將軍謝曰：『自魏其、武安之厚賓客，天子常切齒。彼親附士大夫，招賢絀不肖者，人主之柄也。人臣奉法遵職而已，何與招士！』」驃騎亦放此意，其為將如此。"
+    },
+    {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p003",
+      "count": 4,
+      "quote": "元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗"
     }
   ],
   "table_occurrences": [
@@ -917,6 +969,30 @@
           "editorial_readings": [],
           "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
     },
@@ -1385,6 +1461,70 @@
       "person_id": "7mz_d13_9ka_A",
       "endpoint": "start",
       "title": "丞相"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji114-core-tianfen",
+      "person_ids": [
+        "7mz_d13_9ka_A"
+      ],
+      "canonical_person_id": "7mz_d13_9ka_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-114-dongyue",
+        "c-shiji-107-weiqi"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m003-0062",
+            "c-shiji-114-dongyue:m003-0065",
+            "c-shiji-114-dongyue:m003-0111"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-107",
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p006",
+          "quote": "武安侯田蚡者，孝景后同母弟也，生長陵。魏其已為大將軍後，方盛，蚡為諸郎，未貴，往來侍酒魏其，跪起如子姓。及孝景晚節，蚡益貴幸，為太中大夫。蚡辯有口，學槃盂諸書，王太后賢之。孝景崩，即日太子立，稱制，所鎮撫多有田蚡賓客計筴，蚡弟田勝，皆以太后弟，孝景後三年封蚡為武安侯，勝為周陽侯。",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m006-0000",
+            "c-shiji-107-weiqi:m006-0031",
+            "c-shiji-107-weiqi:m006-0058",
+            "c-shiji-107-weiqi:m006-0069",
+            "c-shiji-107-weiqi:m006-0104",
+            "c-shiji-107-weiqi:m006-0111",
+            "c-shiji-107-weiqi:m006-0128",
+            "c-shiji-107-weiqi:m006-0130"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "建元初廷議救東甌之太尉田蚡，與魏其武安侯傳田蚡同人；本傳建元三年用太尉，與彼篇二年免太尉的時序差異分存，不改年以求調和。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《史記・魏其武安侯列傳》建元二年免太尉",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571",
+          "quote": "魏其、武安俱好儒術，推轂趙綰為御史大夫，王臧為郎中令。迎魯申公，欲設明堂，令列侯就國，除關，以禮為服制，以興太平。舉適諸竇宗室毋節行者，除其屬籍。時諸外家為列侯，列侯多尚公主，皆不欲就國，以故毀日至竇太后。太后好黃老之言，而魏其、武安、趙綰、王臧等務隆推儒術，貶道家言，是以竇太后滋不說魏其等。及建元二年，御史大夫趙綰請無奏事東宮。竇太后大怒，乃罷逐趙綰、王臧等，而免丞相、太尉，以柏至侯許昌為丞相，武彊侯莊青翟為御史大夫。魏其、武安由此以侯家居。",
+          "scope": "received_parallel_office_chronology",
+          "image_verified": false
+        }
+      ]
     }
   ],
   "name_components": [],

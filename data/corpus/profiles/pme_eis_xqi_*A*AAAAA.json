@@ -254,6 +254,14 @@
       "quote": "太史公曰：公孫弘行義雖修，然亦遇時。漢興八十餘年矣，上方鄉文學，招俊乂，以廣儒墨，弘為舉首。主父偃當路，諸公皆譽之，及名敗身誅，士爭言其惡。悲夫！"
     },
     {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p011",
+      "count": 1,
+      "quote": "太史公曰：越雖蠻夷，其先豈嘗有大功德於民哉，何其久也！歷數代常為君王，句踐一稱伯。然餘善至大逆，滅國遷眾，其先苗裔繇王居股等猶尚封為萬戶侯，由此知越世世為公侯矣。蓋禹之餘烈也。"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -424,6 +432,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
           "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
     },
@@ -674,6 +706,59 @@
           "chapter_id": "c-shiji-130-taishigong",
           "paragraph_id": "c-shiji-130-taishigong:p124",
           "scope": "received_work_catalogue",
+          "image_verified": false
+        }
+      ],
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji114-core-taishigong",
+      "person_ids": [
+        "pme_eis_xqi_*A*AAAAA"
+      ],
+      "canonical_person_id": "pme_eis_xqi_*A*AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-114-dongyue",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p011",
+          "quote": "太史公曰：越雖蠻夷，其先豈嘗有大功德於民哉，何其久也！歷數代常為君王，句踐一稱伯。然餘善至大逆，滅國遷眾，其先苗裔繇王居股等猶尚封為萬戶侯，由此知越世世為公侯矣。蓋禹之餘烈也。",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m011-0000"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-130",
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p007",
+          "quote": "卒三歲而遷為太史令，紬史記石室金匱之書。五年而當太初元年，十一月甲子朔旦冬至，天歷始改，建於明堂，諸神受紀。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m007-0004"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "本篇太史公署論，依自序遷繼太史令及自序明列作東越列傳對讀作者司馬遷；不混其父談或後附索隱作者。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記・太史公自序》作東越列傳",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "quote": "吳之叛逆，甌人斬濞，葆守封禺為臣。作東越列傳第五十四。",
+          "scope": "received_chapter_composition_attestation",
           "image_verified": false
         }
       ],

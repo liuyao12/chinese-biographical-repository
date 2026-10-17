@@ -1190,15 +1190,6 @@
 
 </details>
 
-<details><summary><code>gcy_833_xmx</code> 成陽共王（東越列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 成陽共王 | [《史記・東越列傳》][100] | [JSON](gcy_833_xmx.json) |
-| `A` | 福 | [《史記・東越列傳》][100] | [JSON](gcy_833_xmx_A.json) |
-
-</details>
-
 <details><summary><code>gdj_k53_v1x</code> 王翦（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1929,15 +1920,6 @@
 
 </details>
 
-<details><summary><code>qfq_48j_lpj</code> 濞（東越列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 濞 | [《史記・東越列傳》][100] | [JSON](qfq_48j_lpj.json) |
-| `A` | 子駒 | [《史記・東越列傳》][100] | [JSON](qfq_48j_lpj_A.json) |
-
-</details>
-
 <details><summary><code>qg7_n12_fne</code> 審食其（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2659,7 +2641,7 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（120 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（121 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2674,13 +2656,14 @@
 | `ABD` | 辟光（濟南王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABD.json) |
 | `ABE` | 雄渠（膠東王） | [《史記・齊悼惠王世家》][38]、[《史記・吳王濞列傳》][92] | [JSON](yqp_nlb_p1p_ABE.json) |
 | `ABF` | 章（城陽景王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABF.json) |
-| `ABFA` | 喜 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFA.json) |
+| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFA.json) |
 | `ABFAA` | 延校勘建未定 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAA.json) |
 | `ABFAAA` | 義 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAA.json) |
 | `ABFAAAA` | 武城陽惠王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAA.json) |
 | `ABFAAAAA` | 順 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAAA.json) |
 | `ABFAAAAAA` | 恢城陽戴王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAAAA.json) |
 | `ABFAAAAAAA` | 景城陽末王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAAAAA.json) |
+| `ABFAB` | 劉福 | [《史記・東越列傳》][100]、[《史記・建元以來侯者年表》][125]、[《史記・建元已來王子侯者年表》][126] | [JSON](yqp_nlb_p1p_ABFAB.json) |
 | `ABG` | 賢（菑川王） | [《史記・齊悼惠王世家》][38]、[《史記・吳王濞列傳》][92] | [JSON](yqp_nlb_p1p_ABG.json) |
 | `ABH` | 志（濟北王，後王菑川） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABH.json) |
 | `ABHA` | 建菑川靖王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABHA.json) |
@@ -2964,3 +2947,4 @@
 [123]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [124]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
+[126]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037

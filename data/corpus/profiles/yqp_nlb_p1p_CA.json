@@ -469,9 +469,79 @@
       "interpretation_note": "東帝為吳王明示自稱，不作漢廷授爵。少將保留原稱，不套現代軍階。韓安國、張羽為將軍依並列任命記事件；其餘用稱不補起訖。官職、封爵及親屬原詞分存。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji114-006",
+      "person_id": "yqp_nlb_p1p_CA",
+      "title": "吳王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji114-006:a001",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "start": 10,
+          "end": 12,
+          "surface": "吳王",
+          "person_mention_id": "c-shiji-114-dongyue:m002-0010",
+          "usage": "narrative",
+          "date_expression": "孝景三年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-shiji114-001",
+      "person_id": "yqp_nlb_p1p_CA",
+      "relation": "death_place",
+      "place": {
+        "source_name": "丹徒",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": "孝景三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+        }
+      ],
+      "source_term": "殺吳王丹徒",
+      "interpretation_note": "明示被殺處丹徒，不換現代轄區、不作籍貫或葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "殺吳王丹徒",
+      "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+    }
+  ],
   "occurrences": [
     {
       "number": 8,
@@ -573,6 +643,14 @@
       "paragraph_id": "c-shiji-107-weiqi:p012",
       "count": 1,
       "quote": "軍中。軍法，父子俱從軍，有死事，得與喪歸。灌夫不肯隨喪歸，奮曰：「願取吳王若將軍頭，以報父之仇。」於是灌夫被甲持戟，募軍中壯士所善願從者數十人。及出壁門，莫敢前。獨二人及從奴十數騎馳入吳軍，至吳將麾下，所殺傷數十人。不得前，復馳還，走入漢壁，皆亡其奴，獨與一騎歸。夫身中大創"
+    },
+    {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p002",
+      "count": 3,
+      "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
     }
   ],
   "table_occurrences": [
@@ -944,6 +1022,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
@@ -1125,6 +1227,39 @@
       },
       "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji114-003",
+      "subject_person_id": "yqp_nlb_p1p_CAE",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_CA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+        },
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "吳王子子駒"
+      },
+      "interpretation_note": "吳王子承接上段濞及東甌殺其父，子駒為姓名，不作排行。",
+      "reviewer": "Codex（AI 代理）",
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-shiji-114-dongyue:p002",
+          "c-shiji-114-dongyue:p003"
+        ]
+      }
     }
   ],
   "related_people": {
@@ -1135,7 +1270,42 @@
     "yqp_nlb_p1p_CAD": "子華（吳王濞列傳候選）",
     "yqp_nlb_p1p_CAE": "駒（吳王太子；《史記》作子駒）"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 154,
+      "year": -153,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+          "person_mention_id": "c-shiji-114-dongyue:m002-0010"
+        }
+      ],
+      "references": [
+        {
+          "title": "《資治通鑑》數位編輯年標",
+          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷016",
+          "quote": "景帝前三年（丁亥，公元前一五四年）",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "原文明示所屬紀年，通鑑數位編輯年標僅供公元年份換算，未補公曆月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "record_id": "le-shiji114-p002-yqp_nlb_p1p_CA",
+      "person_id": "yqp_nlb_p1p_CA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "yqp_nlb_p1p_CA"
@@ -1275,6 +1445,39 @@
       },
       "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji114-003",
+      "subject_person_id": "yqp_nlb_p1p_CAE",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_CA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+        },
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p003",
+          "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "吳王子子駒"
+      },
+      "interpretation_note": "吳王子承接上段濞及東甌殺其父，子駒為姓名，不作排行。",
+      "reviewer": "Codex（AI 代理）",
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-shiji-114-dongyue:p002",
+          "c-shiji-114-dongyue:p003"
+        ]
+      }
     }
   ],
   "assembled_identity": {
@@ -1900,6 +2103,55 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
+      }
+    },
+    {
+      "id": "le-shiji114-p002-yqp_nlb_p1p_CA",
+      "person_id": "yqp_nlb_p1p_CA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": "孝景三年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p002",
+          "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+          "person_mention_id": "c-shiji-114-dongyue:m002-0010"
+        }
+      ],
+      "interpretation_note": "被殺、斬或誅按明示個人死亡記錄，三校尉群體不拆姓名；未記地點不補，死亡不自動終止所有稱號。第9段日期承接尚待另核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 154,
+        "year": -153,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-114-dongyue",
+            "source_id": "s-shiji114-dongyue",
+            "paragraph_id": "c-shiji-114-dongyue:p002",
+            "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+            "person_mention_id": "c-shiji-114-dongyue:m002-0010"
+          }
+        ],
+        "references": [
+          {
+            "title": "《資治通鑑》數位編輯年標",
+            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷016",
+            "quote": "景帝前三年（丁亥，公元前一五四年）",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "rationale": "原文明示所屬紀年，通鑑數位編輯年標僅供公元年份換算，未補公曆月日。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false
       }
     }
   ],
