@@ -982,7 +982,6 @@
 | `7j8_d3i_ond` | 公子卬 | [《史記・趙世家》][29]、[《史記・魏世家》][30]、[《史記・六國年表》][120] | [JSON](7j8_d3i_ond.json) |
 | `7jn_lg6_yg9` | 賈生（陳涉世家褚氏引文署稱未名者） | [《史記・陳涉世家》][34] | [JSON](7jn_lg6_yg9.json) |
 | `7js_9iu_itl` | 南宮敬叔 | [《史記・孔子世家》][33] | [JSON](7js_9iu_itl.json) |
-| `7jv_d9q_x7x` | 當朝天子 | [《史記・司馬相如列傳》][103] | [JSON](7jv_d9q_x7x.json) |
 | `7jv_pwp_se2` | 少康 | [《史記・吳太伯世家》][17] | [JSON](7jv_pwp_se2.json) |
 | `7kx_pw4_7mz` | 公甫家相室未名 | [《史記・平原君虞卿列傳》][62] | [JSON](7kx_pw4_7mz.json) |
 | `7l6_9t8_q1p` | 莊王 | [《史記・周本紀》][8] | [JSON](7l6_9t8_q1p.json) |
@@ -2203,6 +2202,7 @@
 | `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][33] | [JSON](gwd_nwe_4s7.json) |
 | `gx0_1xv_0gm` | 呂產 | [《史記・齊悼惠王世家》][38] | [JSON](gx0_1xv_0gm.json) |
 | `gxd_15x_9d0` | 班固 | [《史記・秦始皇本紀》][10]、[《史記・平津侯主父列傳》][98] | [JSON](gxd_15x_9d0.json) |
+| `gxs_1ia_tsp` | 太仆未名 | [《史記・魏豹彭越列傳》][76] | [JSON](gxs_1ia_tsp.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt
