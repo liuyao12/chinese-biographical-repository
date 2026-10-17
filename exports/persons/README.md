@@ -1437,7 +1437,7 @@
 
 </details>
 
-<details><summary><code>koy_6jg_gcc</code> 周勃（4 名）</summary>
+<details><summary><code>koy_6jg_gcc</code> 周勃（6 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -1445,6 +1445,8 @@
 | `A` | 勝之 | [《史記・絳侯周勃世家》][40] | [JSON](koy_6jg_gcc_A.json) |
 | `B` | 堅 | [《史記・絳侯周勃世家》][40] | [JSON](koy_6jg_gcc_B.json) |
 | `BA` | 建德 | [《史記・絳侯周勃世家》][40] | [JSON](koy_6jg_gcc_BA.json) |
+| `C` | 周亞夫 | [《史記・絳侯周勃世家》][40] | [JSON](koy_6jg_gcc_C.json) |
+| `CA` | 亞夫子 | [《史記・絳侯周勃世家》][40] | [JSON](koy_6jg_gcc_CA.json) |
 
 </details>
 
@@ -1711,15 +1713,6 @@
 | `根` | 竇嬰父未名 | [《史記・魏其武安侯列傳》][90] | [JSON](nuf_tb9_fjs.json) |
 | `A` | 竇嬰 | [《史記・魏其武安侯列傳》][90] | [JSON](nuf_tb9_fjs_A.json) |
 | `AA` | 竇嬰子未名 | [《史記・魏其武安侯列傳》][90] | [JSON](nuf_tb9_fjs_AA.json) |
-
-</details>
-
-<details><summary><code>nwx_f88_xfu</code> 周亞夫（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 周亞夫 | [《史記・絳侯周勃世家》][40] | [JSON](nwx_f88_xfu.json) |
-| `A` | 亞夫子 | [《史記・絳侯周勃世家》][40] | [JSON](nwx_f88_xfu_A.json) |
 
 </details>
 
