@@ -408,3 +408,8 @@ test('agreed appointment evidence and notes are escaped', () => {
  const html=personCard({id:'abc_def_123',label:'合成人物',title_proposals:[{title:'<img>',proposal_kind:'agreed_appointment',outcome:'not_reported',interpretation_note:'<script>',evidence:[{quote:'<svg>'}]}]},true);
  assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;script&gt;/);assert.match(html,/&lt;svg&gt;/);assert.doesNotMatch(html,/<script>|<svg>|<img>/);
 });
+test('textual variant study references retain scope and do not invent dates', () => {
+ const v={received_reading:'甲',reported_reading:'乙',commentator:'合成注家',quote:'合成引句',url:'https://example.org/primary',study_references:[{display_title:'合成考證',display_author:'合成作者',url:'https://example.org/study',publication_year:null,reviewed_scope:'只讀摘頁',opinion_validation:'not_attempted'}]};
+ const p={id:'abc_def_123',label:'合成人物',reported_variants:[v]};const html=personCard(p,true);assert.match(html,/person-study-references/);assert.match(html,/合成考證/);assert.match(html,/只讀摘頁/);assert.match(html,/研究意見未獨立驗證/);assert.doesNotMatch(html,/（null）/);
+ v.study_references=[{display_title:'<svg>',url:'javascript:alert(1)',reference_note:'<script>'}];const safe=personCard(p,true);assert.match(safe,/&lt;svg&gt;/);assert.match(safe,/&lt;script&gt;/);assert.doesNotMatch(safe,/href="javascript:/);
+});

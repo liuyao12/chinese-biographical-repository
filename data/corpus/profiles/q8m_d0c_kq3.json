@@ -920,5 +920,37 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-shiji116-zhuang-qiao-kinship-commentary",
+      "paragraph_id": "c-shiji-116-xinanyi:p002",
+      "source_term": "故楚莊王苗裔也",
+      "person_ids": [
+        "b1y_l5y_xmz",
+        "q8m_d0c_kq3"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "苗裔",
+      "reported_reading": "楚莊王弟",
+      "component": "reported_kinship",
+      "quote": "楚莊王弟為盜者",
+      "raw_quote": "(汶江郡本冉/駹音亾江反)白馬最大(按夷邑名/即白馬氐)莊蹻(音炬灼反楚莊/王弟為盜者)¶",
+      "quote_normalization": "僅抽取注中原詞，去原數位雙行斜線與段末符，不改字。",
+      "commentator": "司馬貞《史記索隱》",
+      "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_025.txt#L191",
+      "image_verified": false,
+      "reported_relationship": {
+        "predicate": "brother",
+        "subject_person_id": "b1y_l5y_xmz",
+        "object_person_id": "q8m_d0c_kq3",
+        "object_generation_relative_to_subject": 0,
+        "older_person_id": "q8m_d0c_kq3",
+        "younger_person_id": "b1y_l5y_xmz",
+        "status": "commentary_claim_not_adopted"
+      },
+      "interpretation_note": "古注把莊蹻說成楚莊王弟為盜者，與正文苗裔及楚威王時敘事不合。分層保存，不據此新增同輩父系、改寫苗裔或與其他同名莊蹻強接；報告未採納關係供機讀，非已採用家族邊。"
+    }
+  ]
 }

@@ -92,6 +92,39 @@ def normalized_date_errors(date):
     return errors
 
 
+def reported_relationship_errors(variant, paragraph):
+    """未採納的古注弟說保持獨立，不得轉成已採用的家族邊。"""
+    if 'reported_relationship' not in variant:
+        return []
+    r = variant['reported_relationship']
+    if not isinstance(r, dict):
+        return ['古注親屬異說格式無效']
+    errors = []
+    expected = {'predicate', 'subject_person_id', 'object_person_id', 'object_generation_relative_to_subject',
+                'older_person_id', 'younger_person_id', 'status'}
+    subject, obj = r.get('subject_person_id'), r.get('object_person_id')
+    valid = (set(r) == expected and r.get('predicate') == 'brother'
+             and r.get('status') == 'commentary_claim_not_adopted'
+             and variant.get('adopted') is False and variant.get('status') == 'reported_not_collated'
+             and isinstance(subject, str) and bool(subject) and isinstance(obj, str) and bool(obj)
+             and subject != obj and {subject, obj}.issubset(set(variant.get('person_ids', [])))
+             and type(r.get('object_generation_relative_to_subject')) is int
+             and r['object_generation_relative_to_subject'] == 0
+             and r.get('older_person_id') == obj and r.get('younger_person_id') == subject)
+    if not valid:
+        errors.append('古注弟說須保留同輩、長幼方向及未採納狀態')
+    raw = variant.get('raw_quote', '')
+    cleaned = re.sub(r'[/¶\s]', '', re.sub(r'<pb:[^>]*>', '', raw)) if isinstance(raw, str) else ''
+    mentions = paragraph.get('mentions', []) if isinstance(paragraph, dict) else []
+    subjects = [m['surface'] for m in mentions if m.get('person_id') == subject]
+    objects = [m['surface'] for m in mentions if m.get('person_id') == obj]
+    if (not isinstance(variant.get('quote'), str) or not variant['quote'] or variant['quote'] not in cleaned
+            or not any(word + '(' in cleaned for word in subjects)
+            or not any(variant.get('reported_reading') == word + '弟' for word in objects)):
+        errors.append('古注弟說原引文、注語詞頭或對象不符')
+    return errors
+
+
 def title_proposal_errors(proposal, chapter, person_ids):
     """區分未實行提議與實行情況未載的任官約定，不計入實授稱號。"""
     errors = []
@@ -362,6 +395,7 @@ def validate(root=ROOT):
                       and variant['received_reading'] in variant['source_term']
                       and variant['reported_reading'] in variant['quote'], '所報異文未區分原文或冒作採用')
                 check(bool(variant['commentator']) and variant['url'].startswith(('https://', 'http://')), '所報異文缺注家來源')
+                errors.extend(reported_relationship_errors(variant, hit[1] if hit else None))
         family_relations = [a for path in (root / 'corpus').glob('*/*-assertions.json')
                             for a in json.loads(path.read_text()).get('assertions', [])]
         assertion_index = {a['id']: a for a in family_relations}
