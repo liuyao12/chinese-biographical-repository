@@ -267,15 +267,20 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 from .table_evidence import table_cell, table_evidence_errors
             except ImportError:
                 from table_evidence import table_cell, table_evidence_errors
-            errors = table_evidence_errors(evidence, tables, relation['subject_person_id'], relation['object_person_id'])
+            errors = table_evidence_errors(evidence, tables, relation['subject_person_id'], relation['object_person_id'], relation['predicate'])
             if errors:
                 raise ValueError('；'.join(errors))
             table = tables[evidence['table_id']]
-            cell = table_cell(table, evidence['table_cell_id'])
             cited_tables.add(table['id'])
-            table_passages.setdefault(cell['id'], dict(cell, table_id=table['id'],
-                work_id=table['source']['work_id'], book_id=table['source']['book_id'],
-                chapter_id=table['source']['chapter_id'], source_id=table['source']['id']))
+            points = [evidence['table_cell_id']]
+            if evidence.get('subject_table_cell_id'):
+                points.append(evidence['subject_table_cell_id'])
+            for point in points:
+                cell = table_cell(table, point)
+                table_passages.setdefault(cell['id'], dict(cell, table_id=table['id'],
+                    work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                    chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
+                    source_revision=table['source']['revision']))
     date_columns = {}
     # A table's fief, person/event and year cells are source material, not prose paragraphs.
     for holding in titles:

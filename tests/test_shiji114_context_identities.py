@@ -41,12 +41,15 @@ class DongyueContextTests(unittest.TestCase):
   self.assertIsNone(self.people['e00_pe1_zri'].get('family_path'));self.assertIsNone(self.people['ub6_g9c_hvb'].get('family_path'));a=load('corpus/shiji/114-assertions.json')['assertions'];self.assertEqual({x['object_person_id']for x in a if x['predicate']=='ancestor'},{'i7a_22p_qda'})
  def test_three_table_candidates_retired_and_six_anchors_relinked(self):
   ids={p['id']for p in load('data/historical-tables/person-candidates.json')['persons']};self.assertFalse(ids&TABLE_OLD);found=[]
-  for num,rows,pid in [('020',['r059'],'yqp_nlb_p1p_ABFAB'),('021',['r099'],'yqp_nlb_p1p_ABFAB'),('021',['r098'],'v3b_rv7_5cd')]:
+  for num,rows,pid in [('020',['r059'],'yqp_nlb_p1p_ABFAB'),('021',['r099'],'yqp_nlb_p1p_ABFAB'),('021',['r098'],'yqp_nlb_p1p_ABFAC')]:
    t=load('data/historical-tables/shiji-'+num+'.json')
    for f in t['fragments']:
     for row in f['rows']:
      if row['id'].rsplit('-',1)[-1]in rows:
       for cell in row['cells']:
+       # These are the six migrated child-name anchors; the parent-label
+       # anchors added later have their own cross-cell relationship tests.
+       if cell['column'] == 1:continue
        for m in cell['person_mentions']:self.assertEqual(m['person_id'],pid);self.assertEqual(m['identity_evidence'][0]['person_id'],pid);found.append(m['id'])
   self.assertEqual(len(found),6)
  def test_same_haichang_fief_does_not_merge_su_hong_with_liu_fu(self):
@@ -54,7 +57,7 @@ class DongyueContextTests(unittest.TestCase):
   self.assertEqual(person('020','shiji-020-t1-r056-c05'),'m08_4xt_opo');self.assertEqual(person('021','shiji-021-t1-r099-c03'),'yqp_nlb_p1p_ABFAB')
  def test_name_components_have_actual_sources_and_received_variants(self):
   ns={x['person_id']:x for x in load('data/corpus/profile-names.json')['records']}
-  for pid,ming in [('yqp_nlb_p1p_ABFAB','福'),('v3b_rv7_5cd','齒')]:self.assertEqual(ns[pid]['kind'],'table_cell');self.assertEqual(ns[pid]['surname'],'劉');self.assertEqual(ns[pid]['ming'],ming);self.assertIn('劉'+ming,ns[pid]['quote'])
+  for pid,ming in [('yqp_nlb_p1p_ABFAB','福'),('yqp_nlb_p1p_ABFAC','齒')]:self.assertEqual(ns[pid]['kind'],'table_cell');self.assertEqual(ns[pid]['surname'],'劉');self.assertEqual(ns[pid]['ming'],ming);self.assertIn('劉'+ming,ns[pid]['quote'])
   self.assertIsNone(ns['yqp_nlb_p1p_ABFA']['surname']);self.assertEqual(ns['yqp_nlb_p1p_ABFA']['ming'],'喜');self.assertIn('王温舒',ns['6ym_eva_k4a']['additional_names']);self.assertIn('王溫舒',self.c['paragraphs'][7]['text'])
  def test_old_haichang_loss_does_not_end_liaoying_title(self):
   hs=[h for h in load('corpus/shiji/114-titles.json')['holdings']if h['person_id']=='yqp_nlb_p1p_ABFAB'];old=next(h for h in hs if h['title']=='海常侯');new=next(h for h in hs if h['title']=='繚嫈侯');self.assertEqual(old['effective_period']['end']['event_type'],'deposition');self.assertEqual(new['effective_period']['end']['status'],'unknown')

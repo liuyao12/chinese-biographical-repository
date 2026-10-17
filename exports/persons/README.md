@@ -2641,7 +2641,7 @@
 
 </details>
 
-<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（121 名）</summary>
+<details><summary><code>yqp_nlb_p1p</code> 太公（漢王父稱）（122 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2664,6 +2664,7 @@
 | `ABFAAAAAA` | 恢城陽戴王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAAAA.json) |
 | `ABFAAAAAAA` | 景城陽末王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAAAAA.json) |
 | `ABFAB` | 劉福 | [《史記・東越列傳》][100]、[《史記・建元以來侯者年表》][125]、[《史記・建元已來王子侯者年表》][126] | [JSON](yqp_nlb_p1p_ABFAB.json) |
+| `ABFAC` | 劉齒 | [《史記・建元已來王子侯者年表》][126] | [JSON](yqp_nlb_p1p_ABFAC.json) |
 | `ABG` | 賢（菑川王） | [《史記・齊悼惠王世家》][38]、[《史記・吳王濞列傳》][92] | [JSON](yqp_nlb_p1p_ABG.json) |
 | `ABH` | 志（濟北王，後王菑川） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABH.json) |
 | `ABHA` | 建菑川靖王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABHA.json) |

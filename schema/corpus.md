@@ -428,3 +428,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 人物可直接據原表逐人錨點登記，不必偽造正文段落。登記採 `evidence_scope: corpus_and_native_table_mentions`，其 `evidence` 的表格項保存 `kind: table_cell`、表與原格ID、固定著作／卷／篇及來源修訂、`mention_id`、原名 `quote` 與全格 `source_quote`；該人物全部正文及原表提及須與登記證據雙向齊備。未宣告此範圍的既有登記仍以正文提及驗證。別名不得借別人的表格錨點。
 
 原格明列姓名前的王侯稱號可存 `table_title_basis.kind: inline_title_attestation`；用稱只記 `mode: attestation`，起訖未知，不由「來降」變授封。每個稱號分存其同格字元位置與同人名字錨點，不能跨另一人物或敘事句子拼接；原表的編者數位年份不能藉此直接填入任期。原有分欄首封模型保持各自驗證。
+
+## 原表同列分格父子
+
+`relationship_layout: first_holder_with_parent_label` 限明示父子。`table_cell_id`／`quote` 指父系欄原格，`subject_table_cell_id`／`subject_quote` 分別指同列首位持有人姓名原格及其全文，兩端各有 `object_mention_id`／`subject_mention_id`。必須同表同列固定來源，父系欄精確為該人物錨點加「子。」，姓名格為首位同人侯元年，較前持有人欄不得有文字，同格亦不得已有前任侯元年。不能從承爵順序、孫字或別列借父系。
+
+據原表配置的 `family_path` 另須有相符 `source_assertion_id`、相同父子端點、原格證據與一代距離；缺少任何一項即拒絕。人物匯出及介面保留兩格原文、位置與返回連結，不將分格拼句當原文。

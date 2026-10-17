@@ -396,6 +396,13 @@ def validate(root=ROOT):
                 check(path['family_tree_decision_id'] in tree_decision_ids, '家族路徑所據編輯決定不存在')
             check(bool(path.get('evidence')) and bool(path.get('interpretation_note')), '家族路徑缺少證據或判讀')
             for evidence in path.get('evidence', []):
+                if evidence.get('kind') == 'table_cell':
+                    try:
+                        from scripts.table_evidence import table_family_path_errors
+                    except ImportError:
+                        from table_evidence import table_family_path_errors
+                    errors.extend(table_family_path_errors(person['id'], path, tables, family_relations))
+                    continue
                 hit = paragraphs.get(evidence.get('paragraph_id'))
                 check(bool(hit) and hit[0] == evidence.get('chapter_id')
                       and evidence.get('quote') == hit[1]['text']
@@ -404,7 +411,7 @@ def validate(root=ROOT):
                 check(any(a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
-                          and any(e['paragraph_id'] == evidence.get('paragraph_id') for e in a['evidence'])
+                          and any(e.get('kind') != 'table_cell' and e.get('paragraph_id') == evidence.get('paragraph_id') for e in a['evidence'])
                           for a in family_relations), '家族路徑缺少相符的來源親屬陳述')
         mention_ids_by_person = {}
         for mid, hit in mentions.items():
@@ -1076,7 +1083,7 @@ def validate(root=ROOT):
                         if valid:adjacent=ids
                 for e in a['evidence']:
                     if e.get('kind') == 'table_cell':
-                        errors.extend(table_evidence_errors(e, tables, a['subject_person_id'], a['object_person_id']))
+                        errors.extend(table_evidence_errors(e, tables, a['subject_person_id'], a['object_person_id'], a['predicate']))
                         check(e.get('chapter_id') == d['chapter_id'] and adjacent is None,
                               '親屬表格證據須屬同一表篇，不得冒作段落承接')
                         term = qualifiers.get('source_term')

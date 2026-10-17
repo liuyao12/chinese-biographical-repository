@@ -1831,7 +1831,6 @@
 | `v2q_x8x_vdu` | 德侯子 | [《史記・楚元王世家》][36] | [JSON](v2q_x8x_vdu.json) |
 | `v2z_2j9_d5o` | 袁盎 | [《史記・太史公自序》][116] | [JSON](v2z_2j9_d5o.json) |
 | `v35_hyj_z4u` | 高傒 | [《史記・齊太公世家》][18] | [JSON](v35_hyj_z4u.json) |
-| `v3b_rv7_5cd` | 劉齒 | [《史記・建元已來王子侯者年表》][126] | [JSON](v3b_rv7_5cd.json) |
 | `v3e_767_ofn` | 蘇秦（楚篇約從者） | [《史記・楚世家》][26] | [JSON](v3e_767_ofn.json) |
 | `v3p_uo6_w9s` | 蔡女（田世家厲公妻未名者） | [《史記・田敬仲完世家》][32] | [JSON](v3p_uo6_w9s.json) |
 | `v3z_8l6_18t` | 公孫頎 | [《史記・魏世家》][30] | [JSON](v3z_8l6_18t.json) |
@@ -2209,6 +2208,7 @@
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][26] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][18] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][10] | [JSON](xyx_811_vue.json) |
+| `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
@@ -2331,5 +2331,4 @@
 [123]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [124]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
-[126]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037
 [127]: https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038
