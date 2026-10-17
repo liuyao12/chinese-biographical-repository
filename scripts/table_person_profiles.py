@@ -15,7 +15,7 @@ def build(root=ROOT):
                 continue
             other = json.loads((ROOT/work['catalog_path']).read_text())
             chapters.update({x['chapter_id']:x for x in other['chapters']})
-    people = json.loads((ROOT/'data/corpus/persons.json').read_text())
+    people = {p['id']: p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
     name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
     table_mentions = defaultdict(list)
