@@ -422,3 +422,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `regnal_year_table.era_name` 保存表內帝號；選填 `source_era_name` 保存本文原紀年稱謂，二者不同時須有 `reign_designation`。其 `kind: same_reign_source_designations`、`source_era_name`、`table_era_name`、`person_id`、`person_mention_id`、`source_context_quote`、`status: editorial_provisional`、`rationale` 與 `human_reviewed: false` 綁定同篇已辨人物錨點及限定語境。原 `date_expression` 不改寫成表內稱號。驗證器目前只接受〈南越列傳〉高帝已定天下下的漢／高皇帝，以及孝文帝／孝文兩組明列語境；不作全書通用別名或任意年號替換。
 
 原段未含年號的稱號用稱，可依既有 `normalized_date.basis.kind: parallel_event` 分列本段原事件、平行事件及其原紀年，再附固定數位對照與曆法引用。原 `date_expression: null` 保持。授任起點只有來源已明示授任者才可依同一事件定年；同次用兵的既任官爵只增加用稱日期，不產生持有始期或未知終期。
+
+## 只有原表明名的人物
+
+人物可直接據原表逐人錨點登記，不必偽造正文段落。登記採 `evidence_scope: corpus_and_native_table_mentions`，其 `evidence` 的表格項保存 `kind: table_cell`、表與原格ID、固定著作／卷／篇及來源修訂、`mention_id`、原名 `quote` 與全格 `source_quote`；該人物全部正文及原表提及須與登記證據雙向齊備。未宣告此範圍的既有登記仍以正文提及驗證。別名不得借別人的表格錨點。
+
+原格明列姓名前的王侯稱號可存 `table_title_basis.kind: inline_title_attestation`；用稱只記 `mode: attestation`，起訖未知，不由「來降」變授封。每個稱號分存其同格字元位置與同人名字錨點，不能跨另一人物或敘事句子拼接；原表的編者數位年份不能藉此直接填入任期。原有分欄首封模型保持各自驗證。

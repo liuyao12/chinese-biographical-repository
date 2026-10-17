@@ -409,19 +409,42 @@ def validate(root=ROOT):
         mention_ids_by_person = {}
         for mid, hit in mentions.items():
             mention_ids_by_person.setdefault(hit[2]['person_id'], set()).add(mid)
+        registry_mentions = dict(mentions)
+        table_mids_by_person = {}
+        for table in tables.values():
+            for fragment in table['fragments']:
+                for row in fragment['rows']:
+                    for cell in row['cells']:
+                        for mention in cell.get('person_mentions', []):
+                            mid = mention['id']
+                            check(mid not in registry_mentions, '人物登記提及ID跨來源重複')
+                            registry_mentions[mid] = (table['source']['chapter_id'], None, mention)
+                            table_mids_by_person.setdefault(mention['person_id'], set()).add(mid)
         for p in people:
+            scope = p.get('evidence_scope', 'corpus_mentions')
+            check(scope in ('corpus_mentions', 'corpus_and_native_table_mentions'), '人物登記證據範圍未知')
             check(bool(p['evidence']), f'{p["id"]}: 人物沒有原文證據')
             evidenced=set()
             for e in p['evidence']:
-                hit=mentions.get(e['mention_id'])
-                check(bool(hit) and hit[0]==e['chapter_id'] and hit[1]==e['paragraph_id'] and hit[2]['person_id']==p['id'] and hit[2]['surface']==e['quote'], '人物證據與提及不符')
+                if e.get('kind') == 'table_cell':
+                    try:
+                        from scripts.table_evidence import table_person_evidence_errors
+                    except ImportError:
+                        from table_evidence import table_person_evidence_errors
+                    check(scope == 'corpus_and_native_table_mentions', '表格人物登記須明示原表證據範圍')
+                    errors.extend(table_person_evidence_errors(e, tables, p['id']))
+                else:
+                    hit=mentions.get(e['mention_id'])
+                    check(bool(hit) and hit[0]==e['chapter_id'] and hit[1]==e['paragraph_id'] and hit[2]['person_id']==p['id'] and hit[2]['surface']==e['quote'], '人物證據與提及不符')
                 evidenced.add(e['mention_id'])
             for alias in p['aliases']:
                 check(bool(alias['mention_ids']), '異稱沒有證據')
                 for mid in alias['mention_ids']:
-                    hit=mentions.get(mid)
+                    hit=registry_mentions.get(mid)
                     check(mid in evidenced and bool(hit) and hit[2]['surface']==alias['surface'], '異稱證據不符')
-            expected=mention_ids_by_person.get(p['id'], set())
+            expected=set(mention_ids_by_person.get(p['id'], set()))
+            if scope == 'corpus_and_native_table_mentions':
+                expected.update(table_mids_by_person.get(p['id'], set()))
             check(expected==evidenced, '人物提及與證據雙向索引不完整')
         dids=set()
         for path in (root/'corpus').glob('*/*-identities.json'):

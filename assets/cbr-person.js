@@ -16,10 +16,16 @@ export async function loadPerson(id) {
   if (!cache.has(id)) cache.set(id, fetch('data/corpus/profiles/' + encodeURIComponent(id) + '.json').then(r => {if (!r.ok) throw Error('人物資料尚未載入'); return r.json();}).catch(e => {cache.delete(id); throw e;}));
   return cache.get(id);
 }
-const evidenceLinks = evidence => (evidence || []).map(e => {
+const sourceEvidenceLinks = (evidence, sources = []) => (evidence || []).map(e => {
   if (e.kind === 'table_cell') {
     const url = tableOccurrenceURL({table_id:e.table_id, cell_id:e.table_cell_id});
-    return url ? `<a href="${h(url)}">來源表格 →</a>` : '';
+    const witness = sources.find(x => x.source_id === e.source_id && x.work_id === e.work_id
+      && x.book_id === e.book_id && x.chapter_id === e.chapter_id
+      && x.source?.revision === e.source_revision);
+    let fixed = '';
+    try {const u = new URL(witness?.source?.revision_url); if (['http:', 'https:'].includes(u.protocol)) fixed = u.href;} catch {}
+    return (url ? `<a href="${h(url)}">來源表格 →</a>` : '')
+      + (fixed ? ` · <a class="person-fixed-table-source" href="${h(fixed)}" target="_blank" rel="noopener">${ui('Fixed source revision')}</a>` : '');
   }
   const url=sourcePassageURL(e);
   return url ? `<a href="${h(url)}">來源原文 →</a>` : '';
@@ -29,6 +35,7 @@ export function personBundleURL(id, sourceRef = 'main') {
   return 'https://github.com/liuyao12/chinese-biographical-repository/blob/' + ref + '/exports/persons/' + encodeURIComponent(id) + '.json';
 }
 export function personCard(p, full = false, sourceRef = 'main', family = null) {
+  const evidenceLinks = evidence => sourceEvidenceLinks(evidence, p.sources || []);
   const titleReadings=new Map((p.preferred_title_readings || []).map(x=>[x.holding_id,x]));
   const titleLabel=x=>{
     const reading=titleReadings.get(x.id);

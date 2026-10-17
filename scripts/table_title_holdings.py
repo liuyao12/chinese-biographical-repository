@@ -7,6 +7,8 @@ except ImportError:
  from table_evidence import table_cell
 
 def table_title_errors(h, tables, person_ids):
+ if h.get('table_title_basis',{}).get('kind') == 'inline_title_attestation':
+  return inline_title_errors(h, tables, person_ids)
  errors=[]
  def check(ok,message):
   if not ok:errors.append(message)
@@ -70,4 +72,56 @@ def table_title_errors(h, tables, person_ids):
  elif m[2]=='閏':
   check(isinstance(window,dict)and window.get('earliest')==dict(era='BCE',era_year=bce+1,year=-bce)and window.get('latest')==dict(era='BCE',era_year=bce,year=1-bce)and window.get('precision')=='year_range','未明閏幾月須保跨年範圍，不任選單一年')
  else:errors.append('十月至十二月須另處理，不套本試點單年規則')
+ return errors
+
+
+def inline_title_errors(h, tables, person_ids):
+ """同格姓名前的明示王侯稱號只證明用稱，不自動構成授爵。"""
+ errors=[]
+ def check(ok,message):
+  if not ok:errors.append(message)
+ b=h.get('table_title_basis',{});t=tables.get(b.get('table_id'))
+ if not t:return ['用稱表格不存在']
+ source=t['source'];event=b.get('event',{});cell=table_cell(t,event.get('table_cell_id'))
+ check(isinstance(h.get('id'),str) and bool(h['id']) and h.get('person_id') in person_ids
+       and h.get('source_representation')=='table_cells' and h.get('mode')=='attestation'
+       and h.get('status')=='source_attested','表格用稱須有已登記人物且不得當授爵')
+ check(h.get('kind') in ('royal_rank','noble_rank') and isinstance(h.get('title'),str)
+       and bool(h.get('title')) and h['title'].endswith('王' if h.get('kind')=='royal_rank' else '侯'),'王侯用稱種類與原詞不符')
+ if not cell or event.get('quote')!=cell['text']:return errors+['用稱須保留原格全文']
+ mention=next((m for m in cell['person_mentions']if m['id']==event.get('person_mention_id')),None)
+ if not mention:return errors+['用稱人物須有逐人錨點']
+ check(mention['person_id']==h.get('person_id') and event.get('surface')==mention['surface']
+       and type(mention.get('start')) is int and type(mention.get('end')) is int
+       and 0<=mention['start']<mention['end']<=len(cell['text'])
+       and cell['text'][mention['start']:mention['end']]==mention['surface'],'用稱人物與字元位置不符')
+ evidence=h.get('evidence',[])
+ check(len(evidence)==1,'同格用稱須有一筆原格證據')
+ if len(evidence)==1:
+  e=evidence[0]
+  check(e.get('kind')=='table_cell' and 'paragraph_id' not in e and e.get('table_id')==t['id']
+        and e.get('table_cell_id')==cell['id'] and e.get('quote')==cell['text']
+        and e.get('person_mention_id')==mention['id']
+        and all(e.get(k)==source.get(v) for k,v in [('work_id','work_id'),('book_id','book_id'),('chapter_id','chapter_id'),('source_id','id'),('source_revision','revision')]),'用稱證據原格、人物或固定版本不符')
+ ats=h.get('attestations',[]);check(len(ats)==1,'同格用稱須有一組稱號錨點')
+ if len(ats)==1:
+  a=ats[0];parts=a.get('source_parts',[])
+  check(isinstance(a.get('id'),str) and bool(a['id']) and a.get('kind')=='table_title'
+        and a.get('table_id')==t['id'] and a.get('table_cell_id')==cell['id']
+        and a.get('person_mention_id')==mention['id'] and a.get('usage')=='narrative'
+        and len(parts)==1,'同格用稱錨點不符')
+  if len(parts)==1:
+   part=parts[0];start,end=part.get('start'),part.get('end')
+   valid=(part.get('table_cell_id')==cell['id'] and type(start)is int and type(end)is int
+          and 0<=start<end<=mention['start'] and cell['text'][start:end]==part.get('surface')==h.get('title'))
+   check(valid,'用稱原詞須精確位於同人姓名之前')
+   if valid:
+    # Only a consecutive sequence of rank terms can intervene; never cross a
+    # verb, punctuation, or a different named person to claim their title.
+    gap=cell['text'][end:mention['start']]
+    check(not gap or re.fullmatch(r'[^，。；：、！？王侯]{1,8}[王侯](?:[^，。；：、！？王侯]{1,8}[王侯])*',gap) is not None,'稱號與姓名之間不得跨敘事或其他句子')
+    check(not any(m['person_id']!=h['person_id'] and start<=m['start']<mention['start'] for m in cell['person_mentions']),'稱號與姓名之間不得出現另一人')
+  check(a.get('date_expression') is None and 'normalized_date' not in a and 'normalized_date_range' not in a,'本用稱模型不以原表數位對照年冒充精確用稱年份')
+ period=h.get('effective_period',{})
+ check(set(period)=={'start','end'} and all(period.get(key)==dict(status='unknown',date_expression=None,evidence=[]) for key in ('start','end')),'用稱不能推定授封、死亡或廢黜起訖')
  return errors
