@@ -442,3 +442,5 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `reign_designation.kind: same_person_source_and_table_designations` 只為本次紀年判讀。來源內 `person_mention_id` 與原表紀年起點格的 `table_person_mention_id` 必須連到相同人物，原表錨點精確覆蓋帝號且其後為元年；來源限定引文須包含原日期與該人物稱呼，並在事件原文及同段證據內。`source_era_name` 與 `table_era_name` 分存，不能由此建立全書通用文字別名，亦不能把帝號的回溯紀年當稱帝事件。
 
 `regnal_year_table.season_source_term: 冬` 保留只明冬季的來源日期；它與年號、原年詞組合後須精確對應本筆 `date_expression`。太初前未明月的冬季仍保相鄰公元年，不把秋季誤放成同一跨年模型；有據的秋季數值紀年依原年列與曆法參照另存，原秋字不得刪去。
+
+原表首封日期可只存年詞（例如欄題元封、格內元年），仍以 `table_columns_composed` 與兩份原位置保存，不能補出月日。太初以前未明月時使用既有相鄰兩年範圍；有月份、干支者則完整保留。首封功臣事由可保留以「侯，萬戶」結尾的戶數原句，不能由此推居處、人口或生物子女數。

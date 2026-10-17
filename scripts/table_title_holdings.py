@@ -25,7 +25,7 @@ def table_title_errors(h, tables, person_ids):
  mention=next((m for m in cell['person_mentions']if m['id']==event.get('person_mention_id')),None)
  if not mention:return errors+['授侯持有人須有原格逐人錨點']
  check(mention['person_id']==person and mention['surface']==event.get('surface')and cell['text'][mention['start']:mention['end']]==mention['surface'],'授侯人物或字元錨點不符')
- check('元年'in cell['text'][mention['end']:]and '侯'in cell['text'][:mention['start']]and mc['text'].rstrip('。').endswith('侯'),'首封須有功臣事由及同人侯元年，不能以父死當父封')
+ check('元年'in cell['text'][mention['end']:]and '侯'in cell['text'][:mention['start']]and bool(re.search(r'侯(?:，[一二三四五六七八九十百千萬億]+戶)?$',mc['text'].rstrip('。'))),'首封須有功臣事由及同人侯元年，不能以父死當父封')
  check(all(not c['text'].strip()for c in row['cells']if 2<=c['column']<cell['column']),'已有前期爵位記錄不得當首封')
  e=h.get('evidence',[])
  check(len(e)==3 and {x.get('source_role')for x in e}=={'fief_name','merit','grant_event'},'稱號須分列封國、事由與授侯原格')
@@ -48,8 +48,8 @@ def table_title_errors(h, tables, person_ids):
  check(column is not None and fragment['columns'][cell['column']].get('id')==date[0].get('table_column_id')and date[0].get('text')==column.get('text'),'紀年原欄題必須是本格所在欄')
  check(part.get('table_cell_id')==cell['id']and type(a)is int and type(z)is int and 0<=a<z<=len(cell['text'])and cell['text'][a:z]==term,'表格日期原詞位置不符')
  check(isinstance(expression,str)and expression==date[0].get('text','')+term,'拼合日期不得冒作連續原句或更改日期')
- m=re.fullmatch(r'(元|[一二三四五六七八九十]+)年(正|[一二三四五六七八九十]+|閏)月[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥]',term)
- if not m:return errors+['首封日期須保留原年字、月份及干支原詞']
+ m=re.fullmatch(r'(元|[一二三四五六七八九十]+)年(?:(正|[一二三四五六七八九十]+|閏)月[甲乙丙丁戊己庚辛壬癸][子丑寅卯辰巳午未申酉戌亥])?',term)
+ if not m:return errors+['首封日期須保留原年字；有月日時須保留月份及干支原詞']
  mapping=b.get('year_mapping',{});yt=tables.get(mapping.get('table_id'))
  if not yt:return errors+['首封缺原年列對照表']
  ys=yt['source'];check(all(mapping.get(k)==ys.get(v)for k,v in [('work_id','work_id'),('book_id','book_id'),('chapter_id','chapter_id'),('source_id','id'),('source_revision','revision')]),'紀年對照來源或固定修訂不符')
@@ -69,8 +69,8 @@ def table_title_errors(h, tables, person_ids):
  check(column is not None and any(r.get('table_id')==t['id']and r.get('table_column_id')==column['id']and r.get('quote')==column['text']and r.get('url')==s['revision_url']for r in refs),'首封日期缺原年號欄題參照')
  if m[2]in ['正','一','二','三','四','五','六','七','八','九']:
   check(isinstance(scalar,dict)and scalar.get('era')=='BCE'and scalar.get('era_year')==bce and scalar.get('year')==1-bce and scalar.get('precision')=='year','太初前三至七月等正月至九月須在數位所列西元年，不能粗加一年')
- elif m[2]=='閏':
-  check(isinstance(window,dict)and window.get('earliest')==dict(era='BCE',era_year=bce+1,year=-bce)and window.get('latest')==dict(era='BCE',era_year=bce,year=1-bce)and window.get('precision')=='year_range','未明閏幾月須保跨年範圍，不任選單一年')
+ elif m[2] in ('閏',None):
+  check(isinstance(window,dict)and window.get('earliest')==dict(era='BCE',era_year=bce+1,year=-bce)and window.get('latest')==dict(era='BCE',era_year=bce,year=1-bce)and window.get('precision')=='year_range','未明月份或閏幾月須保跨年範圍，不任選單一年')
  else:errors.append('十月至十二月須另處理，不套本試點單年規則')
  return errors
 
