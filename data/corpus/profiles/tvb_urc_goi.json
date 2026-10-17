@@ -13,6 +13,301 @@
   ],
   "titles": [
     {
+      "id": "th-table-shiji020-r068-founding-grant",
+      "person_id": "tvb_urc_goi",
+      "title": "澅清侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "quote": "澅清。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r068-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r068-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "澅清"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r068-c06",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000",
+          "surface": "朝鮮尼谿相參"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "quote": "澅清。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r068-c06",
+            "text": "三年六月丙辰",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r099-c01",
+          "digital_year_cell_id": "shiji-022-t1-r099-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封三年六月丙辰",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c00",
+              "quote": "澅清。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c01",
+              "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r068-c06",
+              "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r068-c06-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c00",
+                "quote": "澅清。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c01",
+                "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c06",
+                "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r068-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "澅清。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r068-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "108",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r099-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》原欄題",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 108,
+            "year": -107
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "同列人物與本傳共同官爵及降漢功事對讀。原表首封日期獨立保存，不把本傳右渠被殺的段首夏紀年當此人授爵確年；康等為表內追稱，沒有補授爵時已具諡號。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元前108年（暫定） · 元封三年六月丙辰 → 未定"
+    },
+    {
       "id": "th-shiji115-013",
       "person_id": "tvb_urc_goi",
       "title": "尼谿相",
@@ -79,14 +374,14 @@
           "surface": "澅清侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0024",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -94,36 +389,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -131,9 +397,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前108年（暫定） → 未定"
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -252,6 +518,29 @@
         "review_status": "partial_named_entity_review",
         "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
@@ -260,34 +549,131 @@
   },
   "dates": [
     {
-      "era": "BCE",
-      "era_year": 108,
-      "year": -107,
       "year_numbering": "astronomical",
       "precision": "year",
       "status": "editorial_provisional",
-      "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
+      "original_quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
       "evidence": [
         {
-          "chapter_id": "c-shiji-115-chaoxian",
-          "source_id": "s-shiji115-chaoxian",
-          "paragraph_id": "c-shiji-115-chaoxian:p008",
-          "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "quote": "澅清。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r068-c06-m000"
         }
       ],
       "references": [
         {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-          "quote": "元封三年（癸酉，公元前一零八年）",
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "澅清。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c00",
+          "scope": "received_table_fief_name",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "以朝鮮尼谿相使人殺其王右渠來降侯。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c01",
+          "scope": "received_table_merit",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "四。三年六月丙辰，侯朝鮮尼谿相參元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r068-c06",
+          "scope": "received_table_title_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元封元年。",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r097-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "三",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r099-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "108",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r099-c00",
           "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》原欄題",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元封",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-6",
+          "scope": "received_regnal_year_attestation",
           "image_verified": false
         }
       ],
-      "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
+      "rationale": "原表封國、事由與首封格、原欄題分列；日期保原年字與月份，有干支則保干支，僅換算公元年，不補原格未載的日。首封、後記薨死及康等追稱分開，不自動終止其他爵位。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "record_id": "th-shiji115-016",
+      "model": null,
+      "era": "BCE",
+      "era_year": 108,
+      "year": -107,
+      "record_id": "th-table-shiji020-r068-founding-grant",
       "person_id": "tvb_urc_goi",
       "endpoint": "start",
       "title": "澅清侯"

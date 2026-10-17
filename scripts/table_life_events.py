@@ -29,7 +29,15 @@ def native_death_errors(record,event,tables,people):
  term=event.get('source_term');date=event.get('date_expression')
  # 僅接受明示同一人物「名死」；未死、當死、死罪不符合此句式。
  check(isinstance(term,str)and term==m['surface']+'死'and cell['text'][m['start']:].startswith(term+'，'),'原表須明記錨點人物已死，不由無後國除推死亡')
- check(isinstance(date,str)and bool(re.fullmatch(r'.+(元|[一二三四五六七八九十]+)年',date))and cell['text'][:m['start']]==date+'，','死亡原紀年須在同句前綴，不借後任紀年')
+ layout=event.get('date_layout')
+ prefix_ok=isinstance(date,str)and cell['text'][:m['start']]==date+'，'
+ if layout is not None:
+  count=layout.get('cell_count_source_term')if isinstance(layout,dict)else None
+  prefix_ok=(isinstance(layout,dict)and set(layout)=={'kind','cell_count_source_term','title_source_term'}
+   and layout.get('kind')=='after_cell_count_and_title'and isinstance(count,str)
+   and bool(re.fullmatch(r'[一二三四五六七八九十百]+。',count))and layout.get('title_source_term')=='侯'
+   and isinstance(date,str)and cell['text'][:m['start']]==count+date+'，侯')
+ check(isinstance(date,str)and bool(re.fullmatch(r'.+(元|[一二三四五六七八九十]+)年',date))and prefix_ok,'死亡原紀年須在同句前綴，不借後任紀年')
  window=event.get('normalized_date_range')
  check('normalized_date' not in event and isinstance(window,dict),'原表死亡須有明示換年範圍，不填假精確年')
  if isinstance(window,dict):
