@@ -245,7 +245,41 @@ def table_title_range_errors(value, holding, endpoint, tables, boundary=None):
                 errors.append('稱號紀年原欄題參照不符')
     return errors
 
-def regnal_reign_designation_valid(proof, value, mentions):
+def dual_anchor_reign_designation_valid(proof, value, mentions, tables):
+    """兩源人物錨點對應帝號；不把國號登記為全書通用別名。"""
+    claim = proof.get('reign_designation', {})
+    fields = {'kind', 'source_era_name', 'table_era_name', 'person_id',
+              'person_mention_id', 'table_person_mention_id', 'source_context_quote',
+              'status', 'rationale', 'human_reviewed'}
+    source, designation = proof.get('source_era_name'), proof.get('era_name')
+    context, original = claim.get('source_context_quote'), value.get('original_quote')
+    if (set(claim) != fields or claim.get('kind') != 'same_person_source_and_table_designations'
+            or claim.get('source_era_name') != source or claim.get('table_era_name') != designation
+            or claim.get('status') != 'editorial_provisional' or claim.get('human_reviewed') is not False
+            or not claim.get('rationale') or not isinstance(source, str) or not isinstance(designation, str)
+            or not isinstance(context, str) or not context or not isinstance(original, str)
+            or context not in original or not isinstance(proof.get('year_source_term'), str)
+            or source + proof['year_source_term'] not in context):
+        return False
+    body = (mentions or {}).get(claim.get('person_mention_id'))
+    table = (tables or {}).get(proof.get('table_id'))
+    cell = table_cell(table, proof.get('era_anchor_cell_id')) if table else None
+    marked = next((m for m in cell.get('person_mentions', [])
+                   if m['id'] == claim.get('table_person_mention_id')), None) if cell else None
+    if (not body or body[2].get('kind') != 'person' or not marked
+            or body[2].get('person_id') != claim.get('person_id')
+            or marked.get('person_id') != claim.get('person_id')
+            or not isinstance(body[2].get('surface'), str) or body[2]['surface'] not in context
+            or type(marked.get('start')) is not int or type(marked.get('end')) is not int
+            or marked['start'] != 0 or marked['end'] != len(designation)
+            or cell['text'][marked['start']:marked['end']] != marked.get('surface')
+            or marked['surface'] != designation or cell['text'].rstrip('。') != designation + '元年'):
+        return False
+    return any(e.get('chapter_id') == body[0] and e.get('paragraph_id') == body[1]
+               and context in e.get('quote', '') for e in value.get('evidence', []))
+
+
+def regnal_reign_designation_valid(proof, value, mentions, tables=None):
     """A source-specific reign designation needs an already resolved person anchor."""
     source = proof.get('source_era_name', proof.get('era_name'))
     table = proof.get('era_name')
@@ -254,6 +288,8 @@ def regnal_reign_designation_valid(proof, value, mentions):
         return False
     if source == table:
         return claim is None
+    if isinstance(claim, dict) and claim.get('kind') == 'same_person_source_and_table_designations':
+        return dual_anchor_reign_designation_valid(proof, value, mentions, tables)
     contexts = {('漢', '高皇帝'): ('高帝已定天下', '高帝'),
                 ('孝文帝', '孝文'): ('及孝文帝元年', '孝文帝')}
     expected = contexts.get((source, table))
@@ -302,11 +338,13 @@ def table_regnal_range_errors(value, expression, tables, mentions=None):
         return errors + ['紀年原年列須有同列原紀年及數位年格']
     era_name, term = proof.get('era_name'), proof.get('year_source_term')
     source_era_name = proof.get('source_era_name', era_name)
-    if not regnal_reign_designation_valid(proof, value, mentions):
+    if not regnal_reign_designation_valid(proof, value, mentions, tables):
         errors.append('紀年帝號異稱須有同篇已辨人物錨點及限定語境，不得任意替換年號')
     label = regnal['text'].rstrip('。'); epoch = anchor['text'].rstrip('。')
+    season = proof.get('season_source_term')
     valid = (isinstance(era_name,str) and bool(era_name) and isinstance(term,str)
-             and bool(term) and term.endswith('年') and isinstance(source_era_name,str) and expression == source_era_name+term
+             and bool(term) and term.endswith('年') and isinstance(source_era_name,str)
+             and (season is None or season == '冬') and expression == source_era_name+term+(season or '')
              and epoch.endswith(era_name+'元年')
              and (label == term[:-1] or label.endswith(era_name+term)))
     rows = [r for f in table['fragments'] for r in f['rows']]
