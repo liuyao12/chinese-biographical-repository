@@ -2674,7 +2674,7 @@
 | `ABHAAAAA` | 橫 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABHAAAAA.json) |
 | `ABI` | 齊孝王將閭 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABI.json) |
 | `AC` | 恒（高祖子） | [《史記・孝文本紀》][14] | [JSON](yqp_nlb_p1p_AC.json) |
-| `ACA` | 文帝太子（本卷未名） | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACA.json) |
+| `ACA` | 孝景帝 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACA.json) |
 | `ACAA` | 徹（景帝子） | [《史記・孝武本紀》][16] | [JSON](yqp_nlb_p1p_ACAA.json) |
 | `ACAAA` | 閎（齊王） | [《史記・三王世家》][46] | [JSON](yqp_nlb_p1p_ACAAA.json) |
 | `ACAAB` | 旦 | [《史記・三王世家》][46] | [JSON](yqp_nlb_p1p_ACAAB.json) |
@@ -2724,7 +2724,7 @@
 | `ACD` | 勝 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACD.json) |
 | `ACE` | 孝文帝女公主 | [《史記・絳侯周勃世家》][43] | [JSON](yqp_nlb_p1p_ACE.json) |
 | `ACF` | 嫖（長公主） | [《史記・外戚世家》][35] | [JSON](yqp_nlb_p1p_ACF.json) |
-| `ACG` | 武（文帝子） | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACG.json) |
+| `ACG` | 梁孝王武 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACG.json) |
 | `ACGA` | 買 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACGA.json) |
 | `ACGAA` | 襄 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACGAA.json) |
 | `ACGAAA` | 無傷 | [《史記・梁孝王世家》][44] | [JSON](yqp_nlb_p1p_ACGAAA.json) |

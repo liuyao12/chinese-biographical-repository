@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACA",
   "canonical_person_id": "yqp_nlb_p1p_ACA",
-  "label": "文帝太子（本卷未名）",
+  "label": "孝景帝",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -331,6 +331,49 @@
         }
       },
       "interpretation_note": "保存來源回顧用稱，不以孝景帝立推定孝字稱號在即位時授予；趙王遂陰使人與反亂的具體用稱年尚待核，不套文帝死亡年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji117-003",
+      "person_id": "yqp_nlb_p1p_ACA",
+      "title": "孝景帝",
+      "kind": "imperial_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p001",
+          "quote": "司馬相如者，蜀郡成都人也，字長卿。少時好讀書，學擊劍，故其親名之曰犬子。相如既學，慕藺相如之為人，更名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生游士居數歲，乃著子虛之賦。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji117-003:a001",
+          "paragraph_id": "c-shiji-117-xiangru:p001",
+          "start": 60,
+          "end": 63,
+          "surface": "孝景帝",
+          "person_mention_id": "c-shiji-117-xiangru:m001-0060",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分存；受金失官與歲餘復召為郎分事件。原文未明示公元日期，不補年份或任期；死亡不自動終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -722,6 +765,14 @@
       "paragraph_id": "c-shiji-114-dongyue:p002",
       "count": 1,
       "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p001",
+      "count": 2,
+      "quote": "劍，故其親名之曰犬子。相如既學，慕藺相如之為人，更名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生游士居數歲，乃著子虛之賦。"
     },
     {
       "number": 125,
@@ -2027,6 +2078,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-125-ningxing",
       "work_id": "w-shiji",
       "book_id": "b-shiji-125",
@@ -2667,7 +2742,7 @@
   "related_people": {
     "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
     "yqp_nlb_p1p_AC": "恒（高祖子）",
-    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
+    "yqp_nlb_p1p_ACA": "孝景帝",
     "yqp_nlb_p1p_ACAA": "徹（景帝子）",
     "yqp_nlb_p1p_ACAB": "德（五宗世家候選）",
     "yqp_nlb_p1p_ACAC": "閼于（五宗世家候選）",
@@ -2683,7 +2758,7 @@
     "yqp_nlb_p1p_ACAM": "寄（景帝子）",
     "yqp_nlb_p1p_ACAN": "端（景帝子）",
     "yqp_nlb_p1p_ACF": "嫖（長公主）",
-    "yqp_nlb_p1p_ACG": "武（文帝子）"
+    "yqp_nlb_p1p_ACG": "梁孝王武"
   },
   "dates": [
     {
