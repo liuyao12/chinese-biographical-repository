@@ -142,6 +142,32 @@
       "human_reviewed": false,
       "term": "犬戎殺幽王於驪山下",
       "quote": "二歳，犬戎殺幽王於驪山下，并殺桓公。鄭人共立其子掘突，是爲武公。"
+    },
+    {
+      "id": "pa-shiji110-001",
+      "person_id": "fd5_uxa_0c9",
+      "relation": "death_place",
+      "place": {
+        "source_name": "驪山之下",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p002",
+          "quote": "申侯怒而與犬戎共攻殺周幽王于驪山之下"
+        }
+      ],
+      "source_term": "申侯怒而與犬戎共攻殺周幽王于驪山之下",
+      "interpretation_note": "原文明示殺害地點，保存原地名；不推出生地、籍貫、葬地或現代行政區，年月未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "申侯怒而與犬戎共攻殺周幽王于驪山之下",
+      "quote": "申侯怒而與犬戎共攻殺周幽王于驪山之下"
     }
   ],
   "occurrences": [
@@ -232,6 +258,14 @@
       "paragraph_id": "c-shiji-042-zheng:p001",
       "count": 3,
       "quote": "子而宣王庶弟也。宣王立二十二年，友初封于鄭。封三十三歳，百姓皆便愛之。幽王以爲司徒。和集周民，周民皆説，河雒之閒，人便思之。爲司徒一歳，幽王以褒后故，王室治多邪，諸侯或畔之。於是桓公問太史伯曰：「王室多故，予安逃死乎？」太史伯對曰：「獨雒之東土，河濟之南可居。」公曰：「何以"
+    },
+    {
+      "number": 110,
+      "category": "liezhuan",
+      "title": "匈奴列傳第五十",
+      "paragraph_id": "c-shiji-110-xiongnu:p002",
+      "count": 2,
+      "quote": "白鹿以歸。自是之後，荒服不至。於是周遂作甫刑之辟。穆王之後二百有餘年，周幽王用寵姬褒姒之故，與申侯有卻。申侯怒而與犬戎共攻殺周幽王于驪山之下，遂取周之焦穫，而居于涇渭之閒，侵暴中國。秦襄公救周，於是周平王去酆鄗而東徙雒邑。當是之時，秦襄公伐戎至岐，始列爲諸侯。是後六十有五年，"
     }
   ],
   "table_occurrences": [],
@@ -646,6 +680,30 @@
           "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-110-xiongnu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "source_id": "s-shiji110-xiongnu",
+      "source": {
+        "title": "史記／卷110",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷110",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645",
+        "revision_id": 8735645,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證去介面及現代節標題後61段，末段為太史公論。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去 header2 介面及現代單于節標題、太史公曰節標題；移除單字語言轉換包裹與下劃線標籤，紀年 YL 模板保留顯示原詞。其餘原字、標點及段落次序保留，不從小標題補正文人名。",
+          "note": "未核底本影像。"
+        }
+      }
     }
   ],
   "relations": [
@@ -1050,6 +1108,25 @@
       ],
       "source_term": "犬戎殺幽王於驪山下",
       "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji110-you",
+      "person_id": "fd5_uxa_0c9",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-110-xiongnu",
+          "source_id": "s-shiji110-xiongnu",
+          "paragraph_id": "c-shiji-110-xiongnu:p002",
+          "quote": "申侯怒而與犬戎共攻殺周幽王于驪山之下",
+          "person_mention_id": "c-shiji-110-xiongnu:m002-0203"
+        }
+      ],
+      "interpretation_note": "明示被殺、被誅，年月未明，不據相對年數補數字年或自動終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }
