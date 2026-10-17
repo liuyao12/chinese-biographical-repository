@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
-| `xzf_o56_oi3` | 陳勝 | [《史記・淮南衡山列傳》][104] | [JSON](xzf_o56_oi3.json) |
-| `xzi_8vn_cnc` | 蘇秦謀齊齊王 | [《史記・張儀列傳》][56] | [JSON](xzi_8vn_cnc.json) |
-| `xzo_t0s_b50` | 王子中同 | [《史記・仲尼弟子列傳》][53] | [JSON](xzo_t0s_b50.json) |
 | `xzr_i9s_mnp` | 東甌王（勇之所引） | [《史記・孝武本紀》][16] | [JSON](xzr_i9s_mnp.json) |
 | `xzw_df5_9v1` | 吳起 | [《史記・秦始皇本紀》][10] | [JSON](xzw_df5_9v1.json) |
 | `xzz_lpt_eot` | 陳皇后 | [《史記・酷吏列傳》][108] | [JSON](xzz_lpt_eot.json) |
@@ -82,7 +78,6 @@
 | `yk7_5u4_rcn` | 魯謁居弟（未名） | [《史記・酷吏列傳》][108] | [JSON](yk7_5u4_rcn.json) |
 | `yka_hay_sdj` | 任敖 | [《史記・張丞相列傳》][82] | [JSON](yka_hay_sdj.json) |
 | `ykk_635_9eq` | 子思 | [《史記・孟子荀卿列傳》][60] | [JSON](ykk_635_9eq.json) |
-| `ykt_rg0_cl9` | 盧綰 | [《史記・朝鮮列傳》][101] | [JSON](ykt_rg0_cl9.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][60] | [JSON](ykw_i8p_jh3.json) |
 | `ykz_dyf_q7h` | 田忌 | [《史記・六國年表》][120] | [JSON](ykz_dyf_q7h.json) |
 | `ylb_xg7_6t9` | 王恬開 | [《史記・魏豹彭越列傳》][76]、[《史記・張釋之馮唐列傳》][88] | [JSON](ylb_xg7_6t9.json) |
@@ -335,7 +330,6 @@
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
-[101]: https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220
 [103]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123

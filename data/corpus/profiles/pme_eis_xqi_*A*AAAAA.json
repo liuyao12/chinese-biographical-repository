@@ -262,6 +262,14 @@
       "quote": "太史公曰：越雖蠻夷，其先豈嘗有大功德於民哉，何其久也！歷數代常為君王，句踐一稱伯。然餘善至大逆，滅國遷眾，其先苗裔繇王居股等猶尚封為萬戶侯，由此知越世世為公侯矣。蓋禹之餘烈也。"
     },
     {
+      "number": 115,
+      "category": "liezhuan",
+      "title": "朝鮮列傳第五十五",
+      "paragraph_id": "c-shiji-115-chaoxian:p010",
+      "count": 1,
+      "quote": "太史公曰：右渠負固，國以絕祀。涉何誣功，為兵發首。樓船將狹，及難離咎。悔失番禺，乃反見疑。荀彘爭勞，與遂皆誅。兩軍俱辱，將率莫侯矣。"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -455,6 +463,30 @@
           "character_conversion": {},
           "editorial_readings": [],
           "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-115-chaoxian",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-115",
+      "source_id": "s-shiji115-chaoxian",
+      "source": {
+        "title": "史記／卷115",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷115",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷115&oldid=439220",
+        "revision_id": 439220,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證10段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與分類標籤，移除后字防轉換外殼，保留正文及括號校記，未核底本影像。",
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
@@ -759,6 +791,53 @@
           "url": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
           "quote": "吳之叛逆，甌人斬濞，葆守封禺為臣。作東越列傳第五十四。",
           "scope": "received_chapter_composition_attestation",
+          "image_verified": false
+        }
+      ],
+      "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji115-core-qian",
+      "person_ids": [
+        "pme_eis_xqi_*A*AAAAA"
+      ],
+      "canonical_person_id": "pme_eis_xqi_*A*AAAAA",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-115-chaoxian",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-115-chaoxian",
+          "source_id": "s-shiji115-chaoxian",
+          "paragraph_id": "c-shiji-115-chaoxian:p010",
+          "quote": "太史公曰：右渠負固，國以絕祀。涉何誣功，為兵發首。樓船將狹，及難離咎。悔失番禺，乃反見疑。荀彘爭勞，與遂皆誅。兩軍俱辱，將率莫侯矣。",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m010-0000"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p007",
+          "quote": "卒三歲而遷為太史令，紬史記石室金匱之書。五年而當太初元年，十一月甲子朔旦冬至，天歷始改，建於明堂，諸神受紀。",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m007-0004"
+          ]
+        }
+      ],
+      "rationale": "篇末太史公論贊據自序子遷承太史令及作朝鮮列傳第五十五接作者司馬遷；自序另記父卒與父子囑託，不將其父談稱太史公者混入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記·太史公自序》作篇次序",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362",
+          "quote": "燕丹散亂遼閒，滿收其亡民，厥聚海東，以集真藩，葆塞為外臣。作朝鮮列傳第五十五。",
+          "scope": "received_authorship_attestation",
           "image_verified": false
         }
       ],

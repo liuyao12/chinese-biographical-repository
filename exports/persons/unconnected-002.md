@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gv5_znn_7hk` | 屠岸賈 | [《史記・趙世家》][29] | [JSON](gv5_znn_7hk.json) |
-| `gv8_tj5_hcy` | 公孫歸父（宣公時） | [《史記・魯周公世家》][19] | [JSON](gv8_tj5_hcy.json) |
-| `gvf_h1q_fdl` | 魏壽餘（詳反晉者） | [《史記・晉世家》][25] | [JSON](gvf_h1q_fdl.json) |
 | `gvp_kl8_u6o` | 莊周 | [《史記・孟子荀卿列傳》][60] | [JSON](gvp_kl8_u6o.json) |
 | `gw0_pdi_7ji` | 孔子 | [《史記・留侯世家》][41] | [JSON](gw0_pdi_7ji.json) |
 | `gwd_nwe_4s7` | 少連 | [《史記・孔子世家》][33] | [JSON](gwd_nwe_4s7.json) |
@@ -670,7 +667,6 @@
 | `m4b_3vy_i2f` | 廉頗 | [《史記・太史公自序》][116] | [JSON](m4b_3vy_i2f.json) |
 | `m5i_yic_yy1` | 太公望 | [《史記・龜策列傳》][114] | [JSON](m5i_yic_yy1.json) |
 | `m61_2wu_0ru` | 王唊 | [《史記・朝鮮列傳》][101] | [JSON](m61_2wu_0ru.json) |
-| `m6a_2rx_afc` | 孝惠 | [《史記・朝鮮列傳》][101] | [JSON](m6a_2rx_afc.json) |
 | `m6b_39t_lpp` | 嚴君疾 | [《史記・秦本紀》][9] | [JSON](m6b_39t_lpp.json) |
 | `m6r_c9h_kjq` | 尹齊 | [《史記・酷吏列傳》][108] | [JSON](m6r_c9h_kjq.json) |
 | `m6w_e7i_lf7` | 牢 | [《史記・孔子世家》][33] | [JSON](m6w_e7i_lf7.json) |
@@ -2209,6 +2205,10 @@
 | `xxw_nqn_rub` | 昭子 | [《史記・楚世家》][26] | [JSON](xxw_nqn_rub.json) |
 | `xy0_zdb_ssj` | 子餘（太史） | [《史記・齊太公世家》][18] | [JSON](xy0_zdb_ssj.json) |
 | `xyx_811_vue` | 馮毋擇 | [《史記・秦始皇本紀》][10] | [JSON](xyx_811_vue.json) |
+| `xz9_iik_30x` | 衛鞅（楚篇封商者） | [《史記・楚世家》][26] | [JSON](xz9_iik_30x.json) |
+| `xzf_o56_oi3` | 陳勝 | [《史記・淮南衡山列傳》][104] | [JSON](xzf_o56_oi3.json) |
+| `xzi_8vn_cnc` | 蘇秦謀齊齊王 | [《史記・張儀列傳》][56] | [JSON](xzi_8vn_cnc.json) |
+| `xzo_t0s_b50` | 王子中同 | [《史記・仲尼弟子列傳》][53] | [JSON](xzo_t0s_b50.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
