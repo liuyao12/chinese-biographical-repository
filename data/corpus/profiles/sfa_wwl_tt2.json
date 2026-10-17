@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "sfa_wwl_tt2",
   "canonical_person_id": "sfa_wwl_tt2",
-  "label": "藺相如（趙世家候選）",
+  "label": "藺相如",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -212,6 +212,14 @@
       "paragraph_id": "c-shiji-081-lianlin:p001",
       "count": 53,
       "quote": "文王十六年，廉頗爲趙將伐齊，大破之，取陽晉，拜爲上卿，以勇氣聞於諸侯。藺相如者，趙人也，爲趙宦者令繆賢舍人。"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p001",
+      "count": 1,
+      "quote": "郡成都人也，字長卿。少時好讀書，學擊劍，故其親名之曰犬子。相如既學，慕藺相如之為人，更名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生"
     }
   ],
   "table_occurrences": [
@@ -314,6 +322,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-015",
       "work_id": "w-shiji",
       "book_id": "b-shiji-015",
@@ -339,7 +371,7 @@
   ],
   "relations": [],
   "related_people": {
-    "sfa_wwl_tt2": "藺相如（趙世家候選）"
+    "sfa_wwl_tt2": "藺相如"
   },
   "dates": [],
   "name_components": [],
