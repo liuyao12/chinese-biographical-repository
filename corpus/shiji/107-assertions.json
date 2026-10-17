@@ -28,7 +28,7 @@
       "id": "a-shiji107-002",
       "subject_person_id": "yqp_nlb_p1p_ACG",
       "predicate": "mother",
-      "object_person_id": "l26_mjw_rwe",
+      "object_person_id": "ixk_6fg_v6f_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -188,7 +188,7 @@
       "id": "a-shiji107-008",
       "subject_person_id": "nau_948_2gt",
       "predicate": "brother",
-      "object_person_id": "l26_mjw_rwe",
+      "object_person_id": "ixk_6fg_v6f_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -249,9 +249,9 @@
     },
     {
       "id": "a-shiji107-011",
-      "subject_person_id": "fwk_g2h_l3r_A",
+      "subject_person_id": "jo4_4bf_0ra_AB",
       "predicate": "father",
-      "object_person_id": "fwk_g2h_l3r",
+      "object_person_id": "jo4_4bf_0ra_A",
       "status": "source_attested",
       "evidence": [
         {
@@ -270,7 +270,7 @@
     },
     {
       "id": "a-shiji107-012",
-      "subject_person_id": "fwk_g2h_l3r_A",
+      "subject_person_id": "jo4_4bf_0ra_AB",
       "predicate": "spouse",
       "object_person_id": "7mz_d13_9ka_A",
       "status": "source_attested",
@@ -352,6 +352,56 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按本文明示親屬與本段人物承接；昆弟子保存叔伯長幼未定，父親未名。高祖孫只作祖父，不補其父姓名。如父子然及鬼故事不產生親屬或復活事件。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji107-016",
+      "subject_person_id": "nuf_tb9_fjs",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "ixk_6fg_v6f_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p001",
+          "quote": "魏其侯竇嬰者，孝文后從兄子也。父世觀津人。喜賓客。孝文時，嬰為吳相，病免。孝景初即位，為詹事。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從兄",
+        "historicity": "historical_tradition",
+        "degree": "unknown",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "older"
+        },
+        "relative_birth_order": {
+          "older_person_id": "nuf_tb9_fjs",
+          "younger_person_id": "ixk_6fg_v6f_A",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "agnatic_cousins",
+          "interpretation_status": "source_attested",
+          "comparison_basis": "birth_chronology"
+        }
+      },
+      "interpretation_note": "從兄子與下句父連讀：竇嬰是孝文后從兄之子，從兄端點為竇嬰未名之父，不是竇嬰。只記同輩父系旁親及年長，不補共同祖先、親等、確切排行或父名；父世觀津不把世當姓名。",
+      "references": [
+        {
+          "title": "索隱·父世觀津人",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷107&oldid=2514777",
+          "quote": "以言其累葉在觀津，故云「父世」也。",
+          "scope": "ancient_commentary_lexical_reading",
+          "text_layer": "suoyin_commentary",
+          "image_verified": false
+        }
+      ],
       "reviewer": "Codex（AI 代理）"
     }
   ]
