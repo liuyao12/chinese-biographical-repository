@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "kat_48c_thr_AAA",
-  "canonical_person_id": "kat_48c_thr_AAA",
+  "id": "6di_ywz_ju4_AAADAAA",
+  "canonical_person_id": "6di_ywz_ju4_AAADAAA",
   "label": "晉悼公",
   "identity_note": "依本卷特定時代與敘事建立；同名與世襲官號不得全庫合併，本名未見不補造。",
   "review": "ai_provisional",
@@ -11,12 +11,13 @@
     "周",
     "公子周",
     "悼公周",
-    "子周"
+    "子周",
+    "曾孫周"
   ],
   "titles": [
     {
       "id": "th-shiji004-058",
-      "person_id": "kat_48c_thr_AAA",
+      "person_id": "6di_ywz_ju4_AAADAAA",
       "title": "悼公",
       "kind": "noble_rank",
       "mode": "accession",
@@ -107,6 +108,14 @@
       "paragraph_id": "c-shiji-039-jin:p112",
       "count": 18,
       "quote": "遂敗楚，乃使人閒謝楚。楚來詐厲公曰：「鄢陵之戰，實至召楚，欲作亂，内子周立之。會與國不具，是以事不成。」厲公告欒書。欒書曰：「其殆有矣！願公試使人之周微考之。」果使郤至於周。欒書又使公子周見郤至，郤至不知見賣也。厲公驗之，信然，遂怨郤至，欲殺之。八年，厲公獵，與姬飲，郤至"
+    },
+    {
+      "number": 43,
+      "category": "shijia",
+      "title": "趙世家第十三",
+      "paragraph_id": "c-shiji-043-zhao:p019",
+      "count": 2,
+      "quote": "氏復位十一年，而晉厲公殺其大夫三郤。欒書畏及，乃遂弒其君厲公，更立襄公曾孫周，是爲悼公。晉由此大夫稍彊。"
     }
   ],
   "table_occurrences": [],
@@ -339,14 +348,38 @@
           "note": "同版原始標記亦作子胛桓叔，不默補代字或莊伯名字。保留冀芮／郤芮、郤鉤、欒逞、示瞇明、歩陽、郤臻、砹、六（卿）［軍］、［復］等見證字；未核可靠底本、影像或專門研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-043-zhao",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "source_id": "s-shiji-043-zhao",
+      "source": {
+        "title": "史記／卷043",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷043&oldid=7903603",
+        "revision_id": 7903603,
+        "accessed_on": "2026-10-09",
+        "extent": "121段正文及1段分層索隱述贊；排除2個dd導覽，只去除段落外緣空白。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定修訂與取得時HTML一致；保留古代異體及五世而（生）［至］趙夙等校勘符號。造父以下六世與叔帶以下五世不補闕代。",
+          "note": "已讀全121段數位正文及1段附載索隱述贊，後者另層保存；未核古籍影像、可靠底本或現代研究，首輪不是完成覆核。"
+        }
+      }
     }
   ],
   "relations": [
     {
       "id": "a-shiji039-053",
-      "subject_person_id": "kat_48c_thr_AAA",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
       "predicate": "father",
-      "object_person_id": "kat_48c_thr_AA",
+      "object_person_id": "6di_ywz_ju4_AAADAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -365,9 +398,9 @@
     },
     {
       "id": "a-shiji039-054",
-      "subject_person_id": "kat_48c_thr_AAA",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
       "predicate": "grandfather",
-      "object_person_id": "kat_48c_thr_A",
+      "object_person_id": "6di_ywz_ju4_AAADA",
       "status": "source_attested",
       "evidence": [
         {
@@ -382,25 +415,47 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "保存本段明示親屬或生育敘事；不由繼位補父子，不補闕代。母、女弟、庶孫等依原文；人物暫同指及不同篇主張仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-030",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
+      "predicate": "great_grandfather",
+      "object_person_id": "6di_ywz_ju4_AAAD",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p019",
+          "quote": "趙氏復位十一年，而晉厲公殺其大夫三郤。欒書畏及，乃遂弒其君厲公，更立襄公曾孫周，是爲悼公。晉由此大夫稍彊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "襄公曾孫周",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "kat_48c_thr_A": "捷（晉襄公少子桓叔）",
-    "kat_48c_thr_AA": "談（惠伯）",
-    "kat_48c_thr_AAA": "晉悼公"
+    "6di_ywz_ju4_AAAD": "晉襄公",
+    "6di_ywz_ju4_AAADA": "捷（晉襄公少子桓叔）",
+    "6di_ywz_ju4_AAADAA": "談（惠伯）",
+    "6di_ywz_ju4_AAADAAA": "晉悼公"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "kat_48c_thr_AAA"
+    "6di_ywz_ju4_AAADAAA"
   ],
   "preferred_relations": [
     {
       "id": "a-shiji039-053",
-      "subject_person_id": "kat_48c_thr_AAA",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
       "predicate": "father",
-      "object_person_id": "kat_48c_thr_AA",
+      "object_person_id": "6di_ywz_ju4_AAADAA",
       "status": "source_attested",
       "evidence": [
         {
@@ -419,9 +474,9 @@
     },
     {
       "id": "a-shiji039-054",
-      "subject_person_id": "kat_48c_thr_AAA",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
       "predicate": "grandfather",
-      "object_person_id": "kat_48c_thr_A",
+      "object_person_id": "6di_ywz_ju4_AAADA",
       "status": "source_attested",
       "evidence": [
         {
@@ -436,6 +491,27 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "保存本段明示親屬或生育敘事；不由繼位補父子，不補闕代。母、女弟、庶孫等依原文；人物暫同指及不同篇主張仍待覆核。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji043-030",
+      "subject_person_id": "6di_ywz_ju4_AAADAAA",
+      "predicate": "great_grandfather",
+      "object_person_id": "6di_ywz_ju4_AAAD",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-043-zhao",
+          "source_id": "s-shiji-043-zhao",
+          "paragraph_id": "c-shiji-043-zhao:p019",
+          "quote": "趙氏復位十一年，而晉厲公殺其大夫三郤。欒書畏及，乃遂弒其君厲公，更立襄公曾孫周，是爲悼公。晉由此大夫稍彊。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "襄公曾孫周",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "保存明示生、子、妻、兄弟與祖系敘事；闕代不補父子，兄弟不推同母。下宮故事及遺腹命名脈絡是來源主張，未當成已覆核的史實或年代。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -443,7 +519,7 @@
   "life_events": [
     {
       "id": "le-shiji039-081",
-      "person_id": "kat_48c_thr_AAA",
+      "person_id": "6di_ywz_ju4_AAADAAA",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "冬",

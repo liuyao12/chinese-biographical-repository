@@ -162,15 +162,6 @@
 
 </details>
 
-<details><summary><code>1oe_02j_wh7</code> 晉襄公（趙世家候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 晉襄公 | [《史記・趙世家》][26] | [JSON](1oe_02j_wh7.json) |
-| `**A` | 周 | [《史記・趙世家》][26] | [JSON](1oe_02j_wh7_%2A%2AA.json) |
-
-</details>
-
 <details><summary><code>1pc_mnq_z0c</code> 懿公（燕文公後）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -480,7 +471,7 @@
 
 </details>
 
-<details><summary><code>6di_ywz_ju4</code> 莊伯（晉曲沃弒君記事）（9 名）</summary>
+<details><summary><code>6di_ywz_ju4</code> 莊伯（晉曲沃弒君記事）（13 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -491,6 +482,10 @@
 | `AAAA` | 伯鯈（重耳子） | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAAA.json) |
 | `AAAB` | 叔劉（重耳子） | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAAB.json) |
 | `AAAC` | 黑臀（晉成公） | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAAC.json) |
+| `AAAD` | 晉襄公 | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAAD.json) |
+| `AAADA` | 捷（晉襄公少子桓叔） | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAADA.json) |
+| `AAADAA` | 談（惠伯） | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAADAA.json) |
+| `AAADAAA` | 晉悼公 | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAADAAA.json) |
 | `AAB` | 申生 | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAB.json) |
 | `AAC` | 奚齊 | [《史記・晉世家》][22] | [JSON](6di_ywz_ju4_AAC.json) |
 
@@ -1442,17 +1437,6 @@
 
 </details>
 
-<details><summary><code>kat_48c_thr</code> 晉襄公（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 晉襄公 | [《史記・晉世家》][22] | [JSON](kat_48c_thr.json) |
-| `A` | 捷（晉襄公少子桓叔） | [《史記・晉世家》][22] | [JSON](kat_48c_thr_A.json) |
-| `AA` | 談（惠伯） | [《史記・晉世家》][22] | [JSON](kat_48c_thr_AA.json) |
-| `AAA` | 晉悼公 | [《史記・晉世家》][22] | [JSON](kat_48c_thr_AAA.json) |
-
-</details>
-
 <details><summary><code>koy_6jg_gcc</code> 周勃（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1567,7 +1551,7 @@
 | `AAAAAAABAA` | 田襄子盤 | [《史記・田敬仲完世家》][29] | [JSON](lmu_nbm_rzo_AAAAAAABAA.json) |
 | `AAAAAAABAAA` | 田莊子白 | [《史記・田敬仲完世家》][29] | [JSON](lmu_nbm_rzo_AAAAAAABAAA.json) |
 | `AAAAAAABAAAA` | 太公和 | [《史記・田敬仲完世家》][29] | [JSON](lmu_nbm_rzo_AAAAAAABAAAA.json) |
-| `AAAAAAABAAAAA` | 桓公午 | [《史記・田敬仲完世家》][29] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAA.json) |
+| `AAAAAAABAAAAA` | 桓公午 | [《史記・扁鵲倉公列傳》][88] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAA.json) |
 | `AAAAAAABAAAAAA` | 因齊 | [《史記・田敬仲完世家》][29] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAA.json) |
 | `AAAAAAABAAAAAAA` | 辟彊 | [《史記・田敬仲完世家》][29]、[《史記・孟嘗君列傳》][58] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAA.json) |
 | `AAAAAAABAAAAAAAA` | 齊湣王 | [《史記・孟嘗君列傳》][58] | [JSON](lmu_nbm_rzo_AAAAAAABAAAAAAAA.json) |
