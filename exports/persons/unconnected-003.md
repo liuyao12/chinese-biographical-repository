@@ -6,19 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `y3p_prx_r3j` | 石 | [《史記・趙世家》][29] | [JSON](y3p_prx_r3j.json) |
-| `y3u_g30_6et` | 鯀 | [《史記・夏本紀》][6] | [JSON](y3u_g30_6et.json) |
-| `y3y_neg_36e` | 張次公 | [《史記・酷吏列傳》][108] | [JSON](y3y_neg_36e.json) |
-| `y4b_zoh_zh7` | 卿秦（燕將） | [《史記・燕召公世家》][20] | [JSON](y4b_zoh_zh7.json) |
-| `y4i_umd_sg2` | 說（武丁得說） | [《史記・太史公自序》][116] | [JSON](y4i_umd_sg2.json) |
-| `y4k_kjc_vi6` | 燕王旦 | [《史記・外戚世家》][35] | [JSON](y4k_kjc_vi6.json) |
-| `y4s_39i_5t3` | 賀 | [《史記・三王世家》][46] | [JSON](y4s_39i_5t3.json) |
-| `y56_c4g_fbf` | 髙昭子 | [《史記・田敬仲完世家》][32] | [JSON](y56_c4g_fbf.json) |
-| `y5g_euj_1xr` | 季文子（魯卿） | [《史記・魯周公世家》][19] | [JSON](y5g_euj_1xr.json) |
-| `y63_hvf_l13` | 宋湣公 | [《史記・鄭世家》][28] | [JSON](y63_hvf_l13.json) |
-| `y6f_9v5_dqg` | 程不識 | [《史記・李將軍列傳》][95] | [JSON](y6f_9v5_dqg.json) |
-| `y6n_nmo_abl` | 韓景侯 | [《史記・鄭世家》][28] | [JSON](y6n_nmo_abl.json) |
-| `y6v_c03_at3` | 賈誼 | [《史記・屈原賈生列傳》][70] | [JSON](y6v_c03_at3.json) |
 | `y6w_obg_omu` | 呂榮 | [《史記・呂太后本紀》][13]、[《史記・惠景間侯者年表》][124] | [JSON](y6w_obg_omu.json) |
 | `y6x_wmu_o70` | 趙簡子 | [《史記・韓世家》][31] | [JSON](y6x_wmu_o70.json) |
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][28] | [JSON](y81_o3y_nw3.json) |
@@ -182,7 +169,6 @@
 | `zex_g0x_52d` | 田子莊何 | [《史記・仲尼弟子列傳》][53] | [JSON](zex_g0x_52d.json) |
 | `zf3_s9n_ty5` | 牙（齊太子） | [《史記・齊太公世家》][18] | [JSON](zf3_s9n_ty5.json) |
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][16] | [JSON](zg6_76t_xid.json) |
-| `zg6_7x0_rlx` | 軒轅 | [《史記・司馬相如列傳》][103] | [JSON](zg6_7x0_rlx.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][93] | [JSON](zgm_3w8_12c.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][36] | [JSON](zh2_5e4_ikn.json) |
 | `zht_ze7_m2d` | 山／義／弘（後少帝） | [《史記・呂太后本紀》][13] | [JSON](zht_ze7_m2d.json) |
@@ -244,7 +230,6 @@
 | `zy7_ewt_vzi` | 韓哀侯 | [《史記・刺客列傳》][72] | [JSON](zy7_ewt_vzi.json) |
 
 [5]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
-[6]: https://zh.wikisource.org/w/index.php?title=史記/卷002&oldid=7903612
 [7]: https://zh.wikisource.org/w/index.php?title=史記/卷003&oldid=7909145
 [8]: https://zh.wikisource.org/w/index.php?title=史記/卷004&oldid=7909147
 [9]: https://zh.wikisource.org/w/index.php?title=史記/卷005&oldid=8744286
@@ -277,7 +262,6 @@
 [41]: https://zh.wikisource.org/w/index.php?title=史記/卷055&oldid=2666612
 [42]: https://zh.wikisource.org/w/index.php?title=史記/卷056&oldid=1961615
 [43]: https://zh.wikisource.org/w/index.php?title=史記/卷057&oldid=1569360
-[46]: https://zh.wikisource.org/w/index.php?title=史記/卷060&oldid=7909290
 [49]: https://zh.wikisource.org/w/index.php?title=史記/卷063&oldid=7903601
 [51]: https://zh.wikisource.org/w/index.php?title=史記/卷065&oldid=2567048
 [52]: https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138
@@ -297,7 +281,6 @@
 [67]: https://zh.wikisource.org/w/index.php?title=史記/卷081&oldid=8735558
 [68]: https://zh.wikisource.org/w/index.php?title=史記/卷082&oldid=2529471
 [69]: https://zh.wikisource.org/w/index.php?title=史記/卷083&oldid=2089252
-[70]: https://zh.wikisource.org/w/index.php?title=史記/卷084&oldid=1568305
 [71]: https://zh.wikisource.org/w/index.php?title=史記/卷085&oldid=2027911
 [72]: https://zh.wikisource.org/w/index.php?title=史記/卷086&oldid=2388562
 [73]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
@@ -313,12 +296,10 @@
 [92]: https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869
 [93]: https://zh.wikisource.org/w/index.php?title=史記/卷107&oldid=2540571
 [94]: https://zh.wikisource.org/w/index.php?title=史記/卷108&oldid=1765317
-[95]: https://zh.wikisource.org/w/index.php?title=史記/卷109&oldid=1765440
 [96]: https://zh.wikisource.org/w/index.php?title=史記/卷110&oldid=8735645
 [97]: https://zh.wikisource.org/w/index.php?title=史記/卷111&oldid=8730225
 [98]: https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420
 [100]: https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633
-[103]: https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549
 [104]: https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122
 [105]: https://zh.wikisource.org/w/index.php?title=史記/卷119&oldid=7904123
 [106]: https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127

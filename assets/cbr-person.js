@@ -239,19 +239,21 @@ export function markCell(cell) {
 }
 export function bindPersonCards(root) {
   const card = document.createElement('aside'); card.className = 'table-person-card'; card.hidden = true; card.setAttribute('aria-label', '人物資料'); root.append(card);
-  let ticket = 0, timer;
+  let ticket = 0, timer, pinned = false, hoverArmed = true;
   async function show(node, focus = false) {
     clearTimeout(timer); const current = ++ticket; card.hidden = false;
     card.innerHTML = '<p role="status">載入人物資料…</p>';
     try {const p = await loadPerson(node.dataset.personId); const family = await loadFamily(p); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p, false, 'main', family); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
     catch {if (current === ticket) card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`;}
   }
-  function hide() {ticket++; card.hidden = true;}
-  const over = e => {if (e.type === 'pointerover' && e.pointerType === 'touch') return; const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && (e.type !== 'focusin' || n.matches(':focus-visible'))) show(n);};
-  const out = e => {if (e.pointerType === 'touch') return; if (e.relatedTarget && (card.contains(e.relatedTarget) || e.relatedTarget.closest?.('.table-person-link, .cbr-person-link'))) return; timer = setTimeout(hide, 250);};
-  const click = e => {const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && !e.metaKey && !e.ctrlKey) {e.preventDefault(); e.stopPropagation(); show(n, true);}};
-  root.addEventListener('pointerover', over); root.addEventListener('focusin', over); root.addEventListener('pointerout', out); root.addEventListener('click', click, true);
+  function hide() {ticket++; pinned = false; hoverArmed = false; card.hidden = true;}
+  const over = e => {if (e.type !== 'focusin' && (!hoverArmed || pinned || e.pointerType === 'touch')) return; const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && (e.type !== 'focusin' || n.matches(':focus-visible'))) {if (e.type === 'focusin') {pinned = false; hoverArmed = true;} show(n);}};
+  const move = e => {if (!hoverArmed && e.pointerType !== 'touch') {hoverArmed = true; over(e);}};
+  const out = e => {if (pinned || e.pointerType === 'touch') return; if (e.relatedTarget && (card.contains(e.relatedTarget) || e.relatedTarget.closest?.('.table-person-link, .cbr-person-link'))) return; timer = setTimeout(hide, 250);};
+  const click = e => {const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && !e.metaKey && !e.ctrlKey) {e.preventDefault(); e.stopPropagation(); pinned = true; show(n, true);}};
+  root.addEventListener('pointerover', over); root.addEventListener('pointermove', move); root.addEventListener('focusin', over); root.addEventListener('pointerout', out); root.addEventListener('click', click, true);
   card.onpointerenter = () => clearTimeout(timer); card.onpointerleave = out;
-  const key = e => {if (e.key === 'Escape') hide();}; root.addEventListener('keydown', key);
-  return () => {hide(); clearTimeout(timer); root.removeEventListener('pointerover', over); root.removeEventListener('focusin', over); root.removeEventListener('pointerout', out); root.removeEventListener('click', click, true); root.removeEventListener('keydown', key); card.remove();};
+  const keyTarget = root.ownerDocument || root;
+  const key = e => {if (e.key === 'Escape' && !card.hidden) hide();}; keyTarget.addEventListener('keydown', key);
+  return () => {hide(); clearTimeout(timer); root.removeEventListener('pointerover', over); root.removeEventListener('pointermove', move); root.removeEventListener('focusin', over); root.removeEventListener('pointerout', out); root.removeEventListener('click', click, true); keyTarget.removeEventListener('keydown', key); card.remove();};
 }

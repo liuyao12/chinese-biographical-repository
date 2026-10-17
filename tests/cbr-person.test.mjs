@@ -183,8 +183,45 @@ test('touch opens a card after the tap, while mouse hover and keyboard focus sti
     events.get('keydown')({key:'Escape'});assert.equal(card.hidden,true);
     keyboard=true;events.get('focusin')({type:'focusin',target});assert.equal(card.hidden,false);
     events.get('keydown')({key:'Escape'});
-    events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,false);
+    events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,true);
+    events.get('pointermove')({type:'pointermove',pointerType:'mouse',target});assert.equal(card.hidden,false);
   } finally {dispose?.();globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
+});
+
+test('a clicked person remains selected through incidental mouse hover until closed or another click', async () => {
+  const savedDocument=globalThis.document, savedFetch=globalThis.fetch;
+  const events=new Map(), documentEvents=new Map(), closeButton={focus(){}}, profileButton={};
+  const card={hidden:true,setAttribute(){},remove(){},contains(){return false;},
+    querySelector(selector){return selector==='.person-profile-button'?profileButton:closeButton;}};
+  const ownerDocument={createElement:()=>card,addEventListener(k,v){documentEvents.set(k,v);},removeEventListener(k){documentEvents.delete(k);}};
+  const root={ownerDocument,append(){},addEventListener(k,v){events.set(k,v);},removeEventListener(){}};
+  let keyboard=false;
+  const node=id=>({dataset:{personId:id},href:'person.html#'+id,matches:()=>keyboard});
+  const chosen=node('synthetic_pinned_chosen'), incidental=node('synthetic_pinned_incidental');
+  const hover=n=>events.get('pointerover')({type:'pointerover',pointerType:'mouse',target:{closest:()=>n}});
+  const click=n=>events.get('click')({target:{closest:()=>n},preventDefault(){},stopPropagation(){}});
+  const settle=()=>new Promise(resolve=>setImmediate(resolve));
+  globalThis.document=ownerDocument;
+  globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  let dispose;
+  try {
+    dispose=bindPersonCards(root);
+    hover(incidental);await settle();
+    click(chosen);hover(incidental);await settle();
+    assert.equal(profileButton.href,chosen.href);
+    events.get('pointerout')({pointerType:'mouse',relatedTarget:null});
+    await new Promise(resolve=>setTimeout(resolve,280));
+    assert.equal(card.hidden,false);
+    click(incidental);await settle();assert.equal(profileButton.href,incidental.href);
+    keyboard=true;events.get('focusin')({type:'focusin',target:{closest:()=>chosen}});
+    await settle();assert.equal(profileButton.href,chosen.href);keyboard=false;
+    closeButton.onclick();assert.equal(card.hidden,true);
+    hover(chosen);await settle();assert.equal(card.hidden,true);
+    events.get('pointermove')({type:'pointermove',pointerType:'mouse',target:{closest:()=>chosen}});
+    await settle();assert.equal(profileButton.href,chosen.href);assert.equal(card.hidden,false);
+    documentEvents.get('keydown')({key:'Escape'});assert.equal(card.hidden,true);
+    assert.equal(events.has('keydown'),false);
+  } finally {dispose?.();assert.equal(documentEvents.size,0);globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
 });
 
 
