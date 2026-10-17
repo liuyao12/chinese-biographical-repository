@@ -24,7 +24,8 @@ class XiangruCommentaryIdentities(unittest.TestCase):
             self.assertEqual(m['status'], 'contextual_provisional')
 
     def test_every_identification_keeps_commentary_and_parallel_evidence(self):
-        decisions = read('corpus/shiji/117-identities.json')['decisions']
+        decisions = [d for d in read('corpus/shiji/117-identities.json')['decisions']
+                     if d['id'].startswith('d-shiji117-commentary-')]
         self.assertEqual(len(decisions), 3)
         for d in decisions:
             self.assertEqual(set(d['chapter_ids']), {'c-shiji-117-xiangru', 'c-shiji-111-wei-huo'})
