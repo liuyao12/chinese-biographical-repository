@@ -397,3 +397,14 @@ test('source title use keeps fixed table witness links on the full profile', () 
  const p={id:'abc_def_123',label:'合成人物',sources:[source],titles:[{title:'合成稱號',mode:'attestation',period:'未定 → 未定',attestations:[{date_expression:'合成年'}],evidence:[evidence]}]};
  const html=personCard(p,true);assert.match(html,/來源用稱：合成年/);assert.match(html,/class="person-fixed-table-source" href="https:\/\/example.org\/fixed-table\?oldid=123"/);
 });
+
+test('agreed appointment with unreported outcome is shown separately from actual titles', () => {
+ const proposal={title:'令',proposal_kind:'agreed_appointment',outcome:'not_reported',interpretation_note:'合成安排，不推履任。',evidence:[{quote:'合成約定使其子為令',chapter_id:'c-shiji-116-xinanyi',paragraph_id:'c-shiji-116-xinanyi:p003'}]};
+ const p={id:'abc_def_123',label:'合成未名者',title_proposals:[proposal]};const html=personCard(p,true);
+ assert.match(html,/person-appointment-arrangements/);assert.match(html,/實行情況未載/);assert.match(html,/合成約定使其子為令/);assert.match(html,/chapter=116/);assert.doesNotMatch(html,/class="person-title"|擬議而未授/);
+ assert.doesNotMatch(personCard(p),/person-appointment-arrangements/);assert.doesNotMatch(personCard({...p,title_proposals:[]},true),/person-appointment-arrangements/);
+});
+test('agreed appointment evidence and notes are escaped', () => {
+ const html=personCard({id:'abc_def_123',label:'合成人物',title_proposals:[{title:'<img>',proposal_kind:'agreed_appointment',outcome:'not_reported',interpretation_note:'<script>',evidence:[{quote:'<svg>'}]}]},true);
+ assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;script&gt;/);assert.match(html,/&lt;svg&gt;/);assert.doesNotMatch(html,/<script>|<svg>|<img>/);
+});

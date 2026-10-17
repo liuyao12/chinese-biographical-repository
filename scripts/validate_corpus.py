@@ -93,13 +93,16 @@ def normalized_date_errors(date):
 
 
 def title_proposal_errors(proposal, chapter, person_ids):
-    """未實行稱號提議不計入人物提及或已持有稱號。"""
+    """區分未實行提議與實行情況未載的任官約定，不計入實授稱號。"""
     errors = []
     def check(ok, message):
         if not ok: errors.append(message)
     check(proposal.get('person_id') in person_ids, '稱號提議人物未知')
     check(isinstance(proposal.get('title'), str) and bool(proposal['title']), '稱號提議缺原稱')
-    check(proposal.get('outcome') == 'not_enacted', '稱號提議須明示未實行')
+    agreed = proposal.get('proposal_kind') == 'agreed_appointment'
+    check(proposal.get('proposal_kind') in (None, 'agreed_appointment'), '稱號安排類型未知')
+    check(proposal.get('outcome') == ('not_reported' if agreed else 'not_enacted'),
+          '任官約定須保存實行情況未載' if agreed else '稱號提議須明示未實行')
     check(proposal.get('status') == 'contextual_provisional'
           and bool(proposal.get('interpretation_note')) and bool(proposal.get('reviewer'))
           and proposal.get('human_reviewed') is False, '稱號提議缺判讀或冒作人工覆核')
@@ -112,9 +115,30 @@ def title_proposal_errors(proposal, chapter, person_ids):
         quote = e.get('quote'); starts = [i for i in range(len(p['text']) + 1) if isinstance(quote, str) and quote and p['text'].startswith(quote, i)]
         check(bool(starts), '稱號提議引句不符')
         mentions = {m['id']: m for m in p['mentions']}
-        role = mentions.get(proposal.get('role_mention_id')); person = mentions.get(proposal.get('person_mention_id'))
-        check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
-              and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
+        person = mentions.get(proposal.get('person_mention_id'))
+        if agreed:
+            def source_anchor(value):
+                if not isinstance(value, dict) or set(value) != {'paragraph_id', 'start', 'end', 'surface'}:
+                    return None
+                start, end = value['start'], value['end']
+                return value if (value['paragraph_id'] == p['id'] and type(start) is int and type(end) is int
+                    and 0 <= start < end <= len(p['text']) and p['text'][start:end] == value['surface']) else None
+            role = source_anchor(proposal.get('role_anchor'))
+            agreement = source_anchor(proposal.get('agreement_anchor'))
+            check(bool(role) and role['surface'] == proposal.get('title'), '任官約定職稱字元錨點不符')
+            check(bool(agreement) and agreement['surface'].startswith('約'), '任官約定須有原約詞錨點')
+            clause = '使' + person['surface'] + '為' + proposal['title'] if person and isinstance(proposal.get('title'), str) else None
+            check(bool(role) and bool(person) and proposal.get('source_term') == clause
+                  and person['start'] > 0 and p['text'][person['start']-1:role['end']] == clause,
+                  '任官約定須逐字連到使某人為職的原句')
+            check(bool(agreement) and bool(role) and bool(person)
+                  and agreement['end'] <= person['start']
+                  and any(i <= agreement['start'] and role['end'] <= i + len(quote) for i in starts),
+                  '任官約定引句須涵蓋前置約詞及職稱')
+        else:
+            role = mentions.get(proposal.get('role_mention_id'))
+            check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
+                  and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
         check(bool(person) and person.get('kind') == 'person' and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
         check(bool(role) and bool(person) and any(i <= min(role['start'], person['start'])
               and max(role['end'], person['end']) <= i + len(quote) for i in starts), '稱號提議引句須涵蓋人物及職稱')
