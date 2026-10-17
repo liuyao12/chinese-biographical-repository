@@ -6,10 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gaz_1ax_7s7` | 孝文 | [《史記・汲鄭列傳》][105] | [JSON](gaz_1ax_7s7.json) |
-| `gbb_0p6_20p` | 成信 | [《史記・酷吏列傳》][107] | [JSON](gbb_0p6_20p.json) |
-| `gbf_h5a_e3f` | 呂后 | [《史記・蕭相國世家》][38] | [JSON](gbf_h5a_e3f.json) |
-| `gc4_c9w_cfz` | 司馬穰苴 | [《史記・太史公自序》][115] | [JSON](gc4_c9w_cfz.json) |
 | `gcj_0vc_72s` | 秦王 | [《史記・匈奴列傳》][95] | [JSON](gcj_0vc_72s.json) |
 | `gd9_jxj_uqe` | 鉤弋夫人 | [《史記・外戚世家》][34] | [JSON](gd9_jxj_uqe.json) |
 | `gde_5zz_7rg` | 熊楊（楚先祖） | [《史記・楚世家》][25] | [JSON](gde_5zz_7rg.json) |
@@ -145,7 +141,6 @@
 | `h8w_d3k_5bf` | 泗水守（曹相國世家未名者） | [《史記・曹相國世家》][39] | [JSON](h8w_d3k_5bf.json) |
 | `h9h_k94_pst` | 慎夫人 | [《史記・孝文本紀》][13] | [JSON](h9h_k94_pst.json) |
 | `h9o_8gw_05e` | 褚先生 | [《史記・梁孝王世家》][43] | [JSON](h9o_8gw_05e.json) |
-| `haa_dor_26n` | 韓說 | [《史記・東越列傳》][99] | [JSON](haa_dor_26n.json) |
 | `hae_1o6_08a` | 孔甲 | [《史記・儒林列傳》][106] | [JSON](hae_1o6_08a.json) |
 | `hae_ws1_2ad` | 秦舞陽 | [《史記・刺客列傳》][71] | [JSON](hae_ws1_2ad.json) |
 | `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][29] | [JSON](hap_m8c_czz.json) |
@@ -1820,7 +1815,6 @@
 | `tvb_urc_goi` | 參 | [《史記・朝鮮列傳》][100] | [JSON](tvb_urc_goi.json) |
 | `tvi_05j_cxc` | 司馬 | [《史記・東越列傳》][99] | [JSON](tvi_05j_cxc.json) |
 | `tvk_3qo_6n5` | 太史公 | [《史記・儒林列傳》][106] | [JSON](tvk_3qo_6n5.json) |
-| `tvo_aez_7nt` | 韓說（匈奴列傳第54段） | [《史記・匈奴列傳》][95] | [JSON](tvo_aez_7nt.json) |
 | `twa_vor_7j0` | 冉求 | [《史記・孔子世家》][32] | [JSON](twa_vor_7j0.json) |
 | `tx2_sj4_xyj` | 卓氏先人 | [《史記・貨殖列傳》][114] | [JSON](tx2_sj4_xyj.json) |
 | `txk_j5j_jty` | 景駒 | [《史記・留侯世家》][40] | [JSON](txk_j5j_jty.json) |
@@ -2220,6 +2214,12 @@
 | `wwb_4f9_co0` | 張良 | [《史記・齊悼惠王世家》][37] | [JSON](wwb_4f9_co0.json) |
 | `wwc_yic_y3q` | 葉公 | [《史記・孔子世家》][32] | [JSON](wwc_yic_y3q.json) |
 | `wwf_ocm_23f` | 太史公 | [《史記・留侯世家》][40] | [JSON](wwf_ocm_23f.json) |
+| `wwz_8n8_w33` | 息侯（陳婚記事） | [《史記・管蔡世家》][20] | [JSON](wwz_8n8_w33.json) |
+| `wxj_wmw_39e` | 彭生 | [《史記・魯周公世家》][18] | [JSON](wxj_wmw_39e.json) |
+| `wxn_bku_mqy` | 絃髙 | [《史記・鄭世家》][27] | [JSON](wxn_bku_mqy.json) |
+| `wxo_k8i_1it` | 申公（申培公） | [《史記・儒林列傳》][106] | [JSON](wxo_k8i_1it.json) |
+| `wxu_0lr_f33` | 齊丞相未名 | [《史記・扁鵲倉公列傳》][90] | [JSON](wxu_0lr_f33.json) |
+| `wxw_hns_6a2` | 齊威王 | [《史記・越王勾踐世家》][26] | [JSON](wxw_hns_6a2.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

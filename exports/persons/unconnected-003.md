@@ -6,13 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wwz_8n8_w33` | 息侯（陳婚記事） | [《史記・管蔡世家》][20] | [JSON](wwz_8n8_w33.json) |
-| `wxg_pg3_wk0` | 路博德（匈奴列傳第54段） | [《史記・衛將軍驃騎列傳》][96] | [JSON](wxg_pg3_wk0.json) |
-| `wxj_wmw_39e` | 彭生 | [《史記・魯周公世家》][18] | [JSON](wxj_wmw_39e.json) |
-| `wxn_bku_mqy` | 絃髙 | [《史記・鄭世家》][27] | [JSON](wxn_bku_mqy.json) |
-| `wxo_k8i_1it` | 申公（申培公） | [《史記・儒林列傳》][106] | [JSON](wxo_k8i_1it.json) |
-| `wxu_0lr_f33` | 齊丞相未名 | [《史記・扁鵲倉公列傳》][90] | [JSON](wxu_0lr_f33.json) |
-| `wxw_hns_6a2` | 齊威王 | [《史記・越王勾踐世家》][26] | [JSON](wxw_hns_6a2.json) |
 | `wyk_owg_0tl` | 越人蒙引古 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](wyk_owg_0tl.json) |
 | `wyx_6d2_xxp` | 李悝 | [《史記・孟子荀卿列傳》][59] | [JSON](wyx_6d2_xxp.json) |
 | `wz9_alv_i3k` | 鄒陽 | [《史記・司馬相如列傳》][102] | [JSON](wz9_alv_i3k.json) |
@@ -426,7 +419,6 @@
 [17]: https://zh.wikisource.org/w/index.php?title=史記/卷032&oldid=445042
 [18]: https://zh.wikisource.org/w/index.php?title=史記/魯周公世家&oldid=7909289
 [19]: https://zh.wikisource.org/w/index.php?title=史記/卷034&oldid=2559287
-[20]: https://zh.wikisource.org/w/index.php?title=史記/卷035&oldid=8737302
 [21]: https://zh.wikisource.org/w/index.php?title=史記/卷036&oldid=2588525
 [22]: https://zh.wikisource.org/w/index.php?title=史記/卷037&oldid=5977124
 [23]: https://zh.wikisource.org/w/index.php?title=史記/卷038&oldid=8737306
