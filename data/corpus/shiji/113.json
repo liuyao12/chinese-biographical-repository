@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "14段全文及47名來源候選姓名初標，代詞、親屬、稱號日期與跨篇身份仍待覆核。 十二組漢廷與蒼梧身份暫接、十三個來源重複ID更新全部引用後撤除；隆慮表周灶接本傳灶，一個表格候選撤除。樛后姊弟方向修正；安國複姓少季字、灶竈及樛摎字形分源。",
+    "coverage": "14段全文及47名來源候選姓名初標，代詞、親屬、稱號日期與跨篇身份仍待覆核。 十二組漢廷與蒼梧身份暫接、十三個來源重複ID更新全部引用後撤除；隆慮表周灶接本傳灶，一個表格候選撤除。樛后姊弟方向修正；安國複姓少季字、灶竈及樛摎字形分源。 南越戰事八位表格候選接回本傳人物，新增四處功臣事由／省稱逐人錨點；都稽與表孫都分源。",
     "limitations": [
       "未核影像與版本，初標不等於全部人物覆核。",
       "尉佗與趙佗按同段姓趙氏及敘事暫同指，保留原字。",
@@ -89,6 +89,33 @@
         },
         "image_verified": false,
         "interpretation_note": "漢書本段正文作摎，本篇作樛；不是已親核同書另一底本，不改字，不補姓名。"
+      },
+      {
+        "id": "v-shiji113-duji-sundu",
+        "paragraph_id": "c-shiji-113-nanyue:p011",
+        "source_term": "都稽",
+        "person_ids": [
+          "6m0_ze7_hl0"
+        ],
+        "status": "reported_not_collated",
+        "adopted": false,
+        "received_reading": "都稽",
+        "reported_reading": "孫都",
+        "component": "personal_name",
+        "quote": "徐廣曰表曰孫都",
+        "commentator": "徐廣《史記集解》引注",
+        "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_113.txt#L146-L149",
+        "raw_quote": "馬蘇宏得建徳封為海常侯(徐廣曰/在東萊)越郎(徐廣曰南/越之郎官)都¶\n稽(徐廣曰表/曰孫都)得嘉封為臨蔡侯曰蒼梧王趙光者越王¶\n同姓聞漢兵至及越掲陽令定(韋昭曰掲/音其逝反)自定屬漢越¶\n桂林監居翁(漢書音義曰桂林郡/中監姓居名翁也)諭甌駱屬漢皆得為¶",
+        "source_blob_sha": "cc1f02cad63298fa8bab8090bf9766f9b7a50e05",
+        "response_sha256": "e6bb267d74b5de47b628b38bc9083f430d8fd4ad8866a193ba6133a9bb502b2d",
+        "response_extent": {
+          "first_line": 1,
+          "last_line": 200,
+          "returned_lines": 168,
+          "partial_file": true
+        },
+        "image_verified": false,
+        "interpretation_note": "古注報告表曰孫都另存；本庫實錄表20臨蔡列侯孫都及同捕呂嘉功另作表格來源，不改本文都稽、不把兩來源混成同一原句。"
       }
     ]
   },

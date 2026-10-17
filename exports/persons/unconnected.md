@@ -860,7 +860,7 @@
 | `6lf_vzz_61d` | 不降 | [《史記・夏本紀》][6]、[《史記・三代世表》][117] | [JSON](6lf_vzz_61d.json) |
 | `6lu_kih_t5b` | 齊襄王 | [《史記・孟子荀卿列傳》][60] | [JSON](6lu_kih_t5b.json) |
 | `6m0_g4r_x9t` | 董仲舒 | [《史記・儒林列傳》][107] | [JSON](6m0_g4r_x9t.json) |
-| `6m0_ze7_hl0` | 都稽 | [《史記・南越列傳》][99] | [JSON](6m0_ze7_hl0.json) |
+| `6m0_ze7_hl0` | 都稽 | [《史記・南越列傳》][99]、[《史記・建元以來侯者年表》][124] | [JSON](6m0_ze7_hl0.json) |
 | `6mc_kd4_izc` | 劉賈 | [《史記・太史公自序》][116] | [JSON](6mc_kd4_izc.json) |
 | `6mm_oky_qqa` | 仲孫（齊使） | [《史記・齊太公世家》][18] | [JSON](6mm_oky_qqa.json) |
 | `6mp_ckp_omx` | 侍者（楚靈王問愛子者） | [《史記・楚世家》][26] | [JSON](6mp_ckp_omx.json) |
