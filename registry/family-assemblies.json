@@ -1495,44 +1495,6 @@
       ]
     },
     {
-      "id": "family-yingyin-shiji109",
-      "root_person_id": "gqv_vyi_jao",
-      "label": "潁陰侯祖孫：本篇未名",
-      "status": "editorial_preferred",
-      "human_reviewed": false,
-      "reviewer": "Codex（AI 代理）",
-      "rationale": "依本篇故潁陰侯孫的祖孫陳述暫作父系接合，不補侯孫姓名、缺代父親或外部世系；屏字斷讀仍待核。",
-      "members": [
-        {
-          "person_id": "gqv_vyi_jao",
-          "representative_source_person_id": "gqv_vyi_jao",
-          "source_person_ids": [
-            "gqv_vyi_jao"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "source_assertion_id": null
-        },
-        {
-          "person_id": "gqv_vyi_jao_*A",
-          "representative_source_person_id": "gqv_vyi_jao_*A",
-          "source_person_ids": [
-            "gqv_vyi_jao_*A"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "ancestor_person_id": "gqv_vyi_jao",
-          "connection": "grandfather",
-          "generation_distance": 2,
-          "intermediate_person_ids": [
-            null
-          ],
-          "source_assertion_id": "a-shiji109-003",
-          "interpretation_note": "暫按侯孫父系祖孫陳述接合，父親未知保持空值，星號不是人物；不補姓名或跨篇同指。"
-        }
-      ]
-    },
-    {
       "id": "family-li-guang-shiji109",
       "root_person_id": "27j_f4p_jwp",
       "label": "李廣父子：本篇明示",
@@ -2276,6 +2238,68 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "fvm_66f_0k3_C",
           "source_assertion_id": "a-hanshu041-zhou-003"
+        }
+      ]
+    },
+    {
+      "id": "family-guanying-shiji095",
+      "root_person_id": "sj9_pfu_fwh",
+      "label": "灌嬰父系：傳文與侯孫古注對讀",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "卷95明示阿為嬰子、彊為阿子，賢另為嬰孫但父親未名；卷109古注侯孫名強暫接彊，保留祖父原斷言，不混彊賢。",
+      "members": [
+        {
+          "person_id": "sj9_pfu_fwh",
+          "representative_source_person_id": "sj9_pfu_fwh",
+          "source_person_ids": [
+            "sj9_pfu_fwh"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji109-commentary-yingyin"
+          ],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "sj9_pfu_fwh_A",
+          "representative_source_person_id": "sj9_pfu_fwh_A",
+          "source_person_ids": [
+            "sj9_pfu_fwh_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "sj9_pfu_fwh",
+          "source_assertion_id": "a-shiji095-016"
+        },
+        {
+          "person_id": "sj9_pfu_fwh_AA",
+          "representative_source_person_id": "sj9_pfu_fwh_AA",
+          "source_person_ids": [
+            "sj9_pfu_fwh_AA"
+          ],
+          "identity_equivalence_decision_ids": [
+            "eq-shiji109-commentary-yingyin-grandson"
+          ],
+          "parent_person_id": "sj9_pfu_fwh_A",
+          "source_assertion_id": "a-shiji095-017"
+        },
+        {
+          "person_id": "sj9_pfu_fwh_*A",
+          "representative_source_person_id": "sj9_pfu_fwh_*A",
+          "source_person_ids": [
+            "sj9_pfu_fwh_*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": "a-shiji095-018",
+          "ancestor_person_id": "sj9_pfu_fwh",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "interpretation_note": "卷95明記灌嬰孫賢，父親未名，缺代保留，不依續爵推父親。"
         }
       ]
     }
