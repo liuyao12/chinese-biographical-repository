@@ -82,7 +82,40 @@
       "quote": "越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-021",
+      "cell_id": "shiji-021-t1-r098-c01",
+      "title": "《史記·建元已來王子侯者年表》",
+      "quote": "城陽共王子。",
+      "year": null,
+      "mention": {
+        "id": "shiji-021-t1-r098-c01-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "城陽共王",
+        "person_id": "yqp_nlb_p1p_ABFA",
+        "status": "contextual_provisional",
+        "interpretation_note": "同列父系欄記城陽共王子；據齊悼惠世家章之子喜與東越篇福父成陽共王接同人，不與吳王濞父代王喜混同。"
+      }
+    },
+    {
+      "table_id": "shiji-021",
+      "cell_id": "shiji-021-t1-r099-c01",
+      "title": "《史記·建元已來王子侯者年表》",
+      "quote": "城陽共王子。",
+      "year": null,
+      "mention": {
+        "id": "shiji-021-t1-r099-c01-m000",
+        "start": 0,
+        "end": 4,
+        "surface": "城陽共王",
+        "person_id": "yqp_nlb_p1p_ABFA",
+        "status": "contextual_provisional",
+        "interpretation_note": "同列父系欄記城陽共王子；據齊悼惠世家章之子喜與東越篇福父成陽共王接同人，不與吳王濞父代王喜混同。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-011-jingdi",
@@ -155,9 +188,92 @@
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-021",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-021",
+      "source_id": "table-witness-shiji-021",
+      "source": {
+        "id": "table-witness-shiji-021",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-021",
+        "chapter_id": "table-chapter-shiji-021",
+        "url": "https://zh.wikisource.org/wiki/史記/卷021",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037",
+        "revision": "2607037",
+        "accessed": "2026-10-13",
+        "response_sha256": "8a4257fca6c24fe8a7561002594d7afdd9dcfa14578886e10def6fea7ac8b3a8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
+    {
+      "id": "a-table-shiji021-chengyang-1",
+      "subject_person_id": "yqp_nlb_p1p_ABFAC",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r098-c01",
+          "subject_table_cell_id": "shiji-021-t1-r098-c03",
+          "quote": "城陽共王子。",
+          "subject_quote": "三。四年三月乙丑，侯劉齒元年。",
+          "subject_mention_id": "shiji-021-t1-r098-c03-m000",
+          "object_mention_id": "shiji-021-t1-r098-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-021",
+          "chapter_id": "table-chapter-shiji-021",
+          "source_id": "table-witness-shiji-021",
+          "source_revision": "2607037"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "城陽共王子"
+      },
+      "interpretation_note": "原表同列父系欄與首位持有人名分格保存；不是由先後承爵推父子，不推生母、長幼或同母兄弟。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-table-shiji021-chengyang-2",
+      "subject_person_id": "yqp_nlb_p1p_ABFAB",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r099-c01",
+          "subject_table_cell_id": "shiji-021-t1-r099-c03",
+          "quote": "城陽共王子。",
+          "subject_quote": "三。四年三月乙丑，侯劉福元年。",
+          "subject_mention_id": "shiji-021-t1-r099-c03-m000",
+          "object_mention_id": "shiji-021-t1-r099-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-021",
+          "chapter_id": "table-chapter-shiji-021",
+          "source_id": "table-witness-shiji-021",
+          "source_revision": "2607037"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "城陽共王子"
+      },
+      "interpretation_note": "原表同列父系欄與首位持有人名分格保存；不是由先後承爵推父子，不推生母、長幼或同母兄弟。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji052-018",
       "subject_person_id": "yqp_nlb_p1p_ABFA",
@@ -225,7 +341,8 @@
     "yqp_nlb_p1p_ABF": "章（城陽景王）",
     "yqp_nlb_p1p_ABFA": "喜（城陽共王）",
     "yqp_nlb_p1p_ABFAA": "延校勘建未定（齊悼惠王世家候選）",
-    "yqp_nlb_p1p_ABFAB": "劉福"
+    "yqp_nlb_p1p_ABFAB": "劉福",
+    "yqp_nlb_p1p_ABFAC": "劉齒"
   },
   "dates": [
     {
@@ -380,6 +497,66 @@
     "yqp_nlb_p1p_ABFA"
   ],
   "preferred_relations": [
+    {
+      "id": "a-table-shiji021-chengyang-1",
+      "subject_person_id": "yqp_nlb_p1p_ABFAC",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r098-c01",
+          "subject_table_cell_id": "shiji-021-t1-r098-c03",
+          "quote": "城陽共王子。",
+          "subject_quote": "三。四年三月乙丑，侯劉齒元年。",
+          "subject_mention_id": "shiji-021-t1-r098-c03-m000",
+          "object_mention_id": "shiji-021-t1-r098-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-021",
+          "chapter_id": "table-chapter-shiji-021",
+          "source_id": "table-witness-shiji-021",
+          "source_revision": "2607037"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "城陽共王子"
+      },
+      "interpretation_note": "原表同列父系欄與首位持有人名分格保存；不是由先後承爵推父子，不推生母、長幼或同母兄弟。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-table-shiji021-chengyang-2",
+      "subject_person_id": "yqp_nlb_p1p_ABFAB",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_ABFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-021",
+          "table_cell_id": "shiji-021-t1-r099-c01",
+          "subject_table_cell_id": "shiji-021-t1-r099-c03",
+          "quote": "城陽共王子。",
+          "subject_quote": "三。四年三月乙丑，侯劉福元年。",
+          "subject_mention_id": "shiji-021-t1-r099-c03-m000",
+          "object_mention_id": "shiji-021-t1-r099-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-021",
+          "chapter_id": "table-chapter-shiji-021",
+          "source_id": "table-witness-shiji-021",
+          "source_revision": "2607037"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "城陽共王子"
+      },
+      "interpretation_note": "原表同列父系欄與首位持有人名分格保存；不是由先後承爵推父子，不推生母、長幼或同母兄弟。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji052-018",
       "subject_person_id": "yqp_nlb_p1p_ABFA",

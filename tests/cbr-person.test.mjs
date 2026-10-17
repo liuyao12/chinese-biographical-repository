@@ -358,3 +358,12 @@ test('native table profile links only the matching fixed witness and rejects uns
   assert.doesNotMatch(personCard({...profile,sources:[{...witness,...change}]},true),/class="person-fixed-table-source"/);
  }
 });
+
+test('cross-cell family evidence keeps parent label and child name as separate quotations and links', () => {
+ const e={kind:'table_cell',table_id:'shiji-021',table_cell_id:'synthetic-parent-cell',subject_table_cell_id:'synthetic-child-cell',quote:'synthetic parent label <tag>',subject_quote:'synthetic child name <tag>'};
+ const family={ancestors:[[{id:'xyz_abc_456',label:'synthetic father',evidence:[e]}],[],[]],mother:[],spouses:[],children:[]};
+ const profile={id:'abc_def_123',label:'synthetic child'};
+ setLocale('zh-Hant');const html=personCard(profile,true,'main',family);
+ assert.match(html,/synthetic parent label &lt;tag&gt;/);assert.match(html,/class="person-table-subject-quote"/);assert.match(html,/synthetic child name &lt;tag&gt;/);assert.match(html,/cell=synthetic-parent-cell/);assert.match(html,/cell=synthetic-child-cell/);assert.match(html,/同列姓名/);assert.doesNotMatch(html,/<tag>/);
+ setLocale('en');assert.match(personCard(profile,true,'main',family),/Name in same row/);setLocale('zh-Hant');
+});

@@ -1,5 +1,6 @@
 """以固定表格核查親屬、姓名與稱號紀年；不重建或改寫原表。"""
 import json
+import re
 from pathlib import Path
 
 
@@ -27,7 +28,9 @@ def table_cell(table, cell_id):
                  if cell['id'] == cell_id), None)
 
 
-def table_evidence_errors(evidence, tables, subject, object_id):
+def table_evidence_errors(evidence, tables, subject, object_id, predicate=None):
+    if 'subject_table_cell_id' in evidence or 'relationship_layout' in evidence:
+        return first_holder_parent_errors(evidence, tables, subject, object_id, predicate)
     table = tables.get(evidence.get('table_id'))
     if not table:
         return ['親屬表格證據不存在']
@@ -369,3 +372,63 @@ def table_person_evidence_errors(evidence, tables, person_id):
             or evidence.get('quote') != mention.get('surface')):
         return ['人物登記須有相符逐人錨點及原稱']
     return []
+
+
+def first_holder_parent_errors(evidence, tables, subject, parent, predicate):
+    """同列原父系欄只連首位持有人；後世承爵不當原王之子。"""
+    table = tables.get(evidence.get('table_id'))
+    if not table:
+        return ['跨格親屬表格不存在']
+    source = table['source']
+    if (evidence.get('kind') != 'table_cell' or 'paragraph_id' in evidence
+            or evidence.get('relationship_layout') != 'first_holder_with_parent_label'
+            or predicate != 'father' or any(evidence.get(k) != source.get(v) for k, v in
+                [('work_id','work_id'), ('book_id','book_id'), ('chapter_id','chapter_id'),
+                 ('source_id','id'), ('source_revision','revision')])):
+        return ['跨格父子須有正確關係種類、原表與固定版本']
+    parent_cell = table_cell(table, evidence.get('table_cell_id'))
+    child_cell = table_cell(table, evidence.get('subject_table_cell_id'))
+    if (not parent_cell or not child_cell or parent_cell['column'] != 1 or child_cell['column'] < 2
+            or parent_cell['id'].rpartition('-c')[0] != child_cell['id'].rpartition('-c')[0]):
+        return ['父系欄與首位姓名須在同列原格']
+    if evidence.get('quote') != parent_cell['text'] or evidence.get('subject_quote') != child_cell['text']:
+        return ['跨格父子須分別保留兩個原格全文']
+    row = next(r for f in table['fragments'] for r in f['rows'] if parent_cell in r['cells'])
+    if any(c['text'].strip() for c in row['cells'] if 2 <= c['column'] < child_cell['column']):
+        return ['已有前任持有人，不能把後世嗣爵者當原王之子']
+    for cell, key, pid in [(parent_cell, 'object_mention_id', parent), (child_cell, 'subject_mention_id', subject)]:
+        mention = next((m for m in cell.get('person_mentions', []) if m['id'] == evidence.get(key)), None)
+        if (not mention or mention.get('person_id') != pid or type(mention.get('start')) is not int
+                or type(mention.get('end')) is not int or not 0 <= mention['start'] < mention['end'] <= len(cell['text'])
+                or cell['text'][mention['start']:mention['end']] != mention.get('surface')):
+            return ['跨格父子端點須有精確逐人錨點']
+        if cell is parent_cell:
+            if mention['start'] != 0 or cell['text'] != mention['surface'] + '子。':
+                return ['父系原格須明言該人之子，不得由祖孫或繼位改寫']
+        else:
+            prefix = cell['text'][:mention['start']]
+            if (not prefix.endswith('侯') or not cell['text'][mention['end']:].startswith('元年')
+                    or any(other.get('person_id') != subject and other['start'] < mention['start']
+                           for other in cell.get('person_mentions', []))
+                    or re.search(r'侯[^，。；、]{1,12}元年', prefix)):
+                return ['姓名格須明記首位同人侯元年，不得借同格前任或後世承爵']
+    return []
+
+
+def table_family_path_errors(person_id, path, tables, relations):
+    """原表父系路徑須綁定同一筆有效來源陳述。"""
+    assertion = next((a for a in relations if a['id'] == path.get('source_assertion_id')), None)
+    if (path.get('connection') != 'father' or path.get('generation_distance') != 1
+            or not assertion or assertion.get('predicate') != 'father'
+            or assertion.get('subject_person_id') != person_id
+            or assertion.get('object_person_id') != path.get('parent_person_id')):
+        return ['表格父系路徑未對應同一筆明示父子陳述']
+    native = [e for e in path.get('evidence', []) if e.get('kind') == 'table_cell']
+    if not native:
+        return ['表格父系路徑缺原格證據']
+    errors = []
+    for evidence in native:
+        if evidence not in assertion.get('evidence', []):
+            errors.append('家族路徑原格證據與來源陳述不符')
+        errors.extend(table_evidence_errors(evidence, tables, person_id, path['parent_person_id'], 'father'))
+    return errors
