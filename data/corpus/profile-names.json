@@ -1701,6 +1701,90 @@
       "note": "正文佗孫胡為南越王及胡薨謚為文王支持名與稱號；本項不另補姓，亦不把後出的謚號當生前即位稱號。",
       "status": "editorial_provisional",
       "human_reviewed": false
+    },
+    {
+      "person_id": "g8d_9kf_uqg",
+      "title": "夫子",
+      "surname": "莊",
+      "ming": "忌",
+      "additional_names": [
+        "嚴忌"
+      ],
+      "chapter_id": "c-shiji-117-xiangru",
+      "paragraph_id": "c-shiji-117-xiangru:p001",
+      "quote": "從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒",
+      "references": [
+        {
+          "title": "《漢書》卷五十七上·顏師古注",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L21-L23",
+          "raw_quote": "是時梁孝王來朝從游説之士齊人鄒陽淮隂枚乗吳¶\n嚴忌夫子之徒(師古曰嚴忌本姓莊當時尊尚號曰/夫子史家避漢明帝諱故遂為嚴耳)相¶\n如見而説之(師古曰説/讀曰悦)因病免客游梁得與諸侯游士¶",
+          "quote": "嚴忌本姓莊",
+          "scope": "ancient_commentary_name_and_avoidance",
+          "image_verified": false,
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "response_sha256": "5bf61d952a80006912de5185a7859b7defe4818c78c1702401789b47f0ecf064",
+          "response_extent": {
+            "first_line": 1,
+            "last_line": 95,
+            "partial_file": true
+          }
+        }
+      ],
+      "note": "顏師古明言本姓莊、夫子為尊號，暫以其有具體尊尚說明為顯示預設；徐廣名忌字夫子另列未採納成分說，不稱注家一致。嚴忌為漢書避諱書寫，不當本人改名或普遍改姓史實。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "component_alternatives": [
+        {
+          "components": {
+            "surname": null,
+            "ming": "忌",
+            "zi": "夫子"
+          },
+          "status": "source_claim_not_selected",
+          "reference": {
+            "title": "《史記集解》卷一百十七·徐廣注",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L17-L19",
+            "raw_quote": "景帝不好辭賦是時梁孝王來朝從游說之士齊人鄒¶\n陽淮隂枚乘呉莊忌夫子之徒(徐廣曰名/忌字夫子)相如見而說¶\n之因病免客遊梁梁孝王令與諸生同舍相如得與諸¶",
+            "quote": "名忌字夫子",
+            "quote_normalization": "僅移除雙行注斜線及換行；未改文字",
+            "scope": "ancient_commentary_component_alternative",
+            "image_verified": false,
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob_sha": "ccded97eee2542083010172d857d6251a09a126c",
+            "response_sha256": "c1ac3c7fa1eec92edc267bd6fd0316450dac4010f46598e5683d8b416632e7ff",
+            "response_extent": {
+              "first_line": 1,
+              "last_line": 100,
+              "partial_file": true
+            }
+          },
+          "source_terms": {
+            "ming": "名忌",
+            "zi": "字夫子"
+          },
+          "rationale": "徐廣作字夫子，與顏師古當時尊尚號曰夫子之解分存；此項不作預設。"
+        }
+      ]
+    },
+    {
+      "person_id": "usb_lgr_ksa",
+      "title": null,
+      "surname": "司馬",
+      "ming": "相如",
+      "zi": "長卿",
+      "former_ming": "犬子",
+      "additional_names": [
+        "長卿",
+        "犬子"
+      ],
+      "chapter_id": "c-shiji-117-xiangru",
+      "paragraph_id": "c-shiji-117-xiangru:p001",
+      "quote": "司馬相如者，蜀郡成都人也，字長卿。少時好讀書，學擊劍，故其親名之曰犬子。相如既學，慕藺相如之為人，更名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生游士居數歲，乃著子虛之賦。",
+      "references": [],
+      "note": "完整姓名司馬相如與明示更名相如界定複姓及名；字長卿、少名犬子分存，不以字或初名代替本名，不補更名年份。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
     }
   ]
 }

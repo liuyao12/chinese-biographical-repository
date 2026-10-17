@@ -460,3 +460,6 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 稱號提議另容 `proposal_kind: agreed_appointment`、`outcome: not_reported`，保存任官約定而不聲稱已授或未實行。`agreement_anchor` 與 `role_anchor` 為同段原字元錨點，前者須保存約詞，後者須指原職稱；`person_mention_id` 連到約定對象，`source_term` 精確記「使某人為職」。引句須同時涵蓋前置約詞、對象與職稱。不把此記錄列入已持有稱號，已有 `not_enacted` 記錄仍須維持其原本的未實行判讀。
 
 所報異文可附 `reported_relationship` 保存未採納的古注親屬主張；目前弟說限定 `predicate: brother`、同輩數值0、主體為弟而客體為兄，並須保存 `commentary_claim_not_adopted`、原數位注語詞頭及弟字所指對象。它不加入實際親屬陳述或家族邊；原文與古注的不同說法不靠改寫源字解決。異文的 `study_references` 僅列後出考證書目，未知出版年不補，閱讀範圍及未獨立驗證狀態分記。
+
+
+姓名組件可附明示的 `zi` 與 `former_ming`。`zi` 須有字某的引文；初版 `former_ming` 僅接受同一引句同時有名之曰某、以及更名為目前 `ming` 的明示敘述，不由一般別名猜初名、不補改名年。`additional_names` 仍保存原名字串，閱讀器只按這些有據欄位加字或初名標籤。古注的名／字異說使用既有 `component_alternatives`，不覆寫預設，附固定提交、原引文、範圍指紋及未採納狀態。

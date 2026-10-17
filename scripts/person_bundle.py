@@ -19,6 +19,20 @@ def validate_courtesy_name(name):
         raise ValueError('字須有明示字名的引句且不得冒作名')
 
 
+def validate_former_given_name(name):
+    """初名只在同一引句明示名之曰與更名時採用，不從別名猜定。"""
+    if 'former_ming' not in name:
+        return
+    former, current = name['former_ming'], name.get('ming')
+    quotes = [name.get('quote', '')] + [r.get('quote', '') for r in name.get('references', [])]
+    if (not isinstance(former, str) or not former.strip() or former != former.strip()
+            or not isinstance(current, str) or not current.strip() or current != current.strip()
+            or former == current
+            or not any(isinstance(q, str) and '名之曰' + former in q
+                       and '更名' + current in q for q in quotes)):
+        raise ValueError('初名須有同一引文內名之曰與更名的明示敘述，不得與現名相同')
+
+
 def validate_name_component_alternatives(name):
     """Keep separately cited name/zi claims without silently replacing a preferred reading."""
     import re
@@ -162,6 +176,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     enriched_names = []
     for name in name_components:
         validate_courtesy_name(name)
+        validate_former_given_name(name)
         validate_name_component_alternatives(name)
         if name.get('kind') == 'table_cell':
             try:
