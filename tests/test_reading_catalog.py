@@ -11,10 +11,15 @@ class ReadingCatalogTests(unittest.TestCase):
         hanshu=next(w for w in manifest['works'] if w['id']=='w-hanshu')
         self.assertEqual(next(w for w in manifest['works'] if w['id']=='w-shiji')['reader_kind'],'shiji')
         catalog=json.loads(outputs[root/hanshu['catalog_path']])
-        self.assertEqual(len(catalog['chapters']),1)
-        chapter=catalog['chapters'][0]
-        self.assertEqual(chapter['text_scope'],'partial_chapter')
-        self.assertEqual(outputs[root/chapter['path']],(root/'corpus/hanshu/041.json').read_bytes())
+        sources={json.loads(p.read_text())['id']:p for p in (root/'corpus/hanshu').glob('*.json') if json.loads(p.read_text()).get('record_type')=='marked_chapter'}
+        self.assertEqual({c['chapter_id'] for c in catalog['chapters']},set(sources))
+        for chapter in catalog['chapters']:
+            source=sources[chapter['chapter_id']]
+            native=json.loads(source.read_text())
+            self.assertEqual(chapter['work_id'],native['work_id'])
+            self.assertEqual(chapter['book_id'],native['book_id'])
+            self.assertEqual(chapter['text_scope'],native['source'].get('text_scope','chapter'))
+            self.assertEqual(outputs[root/chapter['path']],source.read_bytes())
 
     def test_derived_reader_copies_match_authoritative_chapter_bytes(self):
         reading_catalog.run(check=True)

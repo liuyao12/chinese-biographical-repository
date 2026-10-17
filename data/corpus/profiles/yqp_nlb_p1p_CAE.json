@@ -2,26 +2,75 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_CAE",
   "canonical_person_id": "yqp_nlb_p1p_CAE",
-  "label": "子駒（吳王濞列傳候選）",
+  "label": "駒（吳王太子；《史記》作子駒）",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "子駒"
+    "吳王太子",
+    "子駒",
+    "吳王太子駒"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
     {
+      "number": 35,
+      "category": "",
+      "title": "荊燕吳王傳第五",
+      "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p014",
+      "count": 2,
+      "quote": "得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，人亦且反王，柰何？且擅兵而別，多它利害，徒自損耳。」吳王即不許田祿伯。",
+      "work_id": "w-hanshu",
+      "work_title": "漢書",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "paragraph_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:p014",
+        "c-hanshu-035-jingyanwu:wuwang:p018"
+      ]
+    },
+    {
       "number": 106,
       "category": "liezhuan",
       "title": "吳王濞列傳第四十六",
-      "paragraph_id": "c-shiji-106-wuwang:p017",
-      "count": 1,
-      "quote": "越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+      "paragraph_id": "c-shiji-106-wuwang:p013",
+      "count": 2,
+      "quote": "得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "source": {
+        "title": "漢書／卷035",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/漢書/卷035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷035&oldid=2605377",
+        "revision_id": 2605377,
+        "accessed_on": "2026-10-15",
+        "extent": "目前錄吳王傳八個不連續段落；荊王、燕王、其他吳王段及贊未錄，不代表全卷完成。",
+        "text_scope": "partial_chapter",
+        "image_verified": false,
+        "review_status": "text_checked",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定HTML的p元素，去段首尾空白、解碼HTML實體，不合併原段，不改古字。"
+        },
+        "html_sha256": "2e018b66d35e2de08408e9123eeb1e48966d649e98c66f2b89d4e11ef4811f9f",
+        "included_sections": [
+          "吳王傳八個不連續段落"
+        ],
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
+        "edition": null,
+        "revision_timestamp": null
+      }
+    },
     {
       "chapter_id": "c-shiji-106-wuwang",
       "work_id": "w-shiji",
@@ -49,7 +98,7 @@
   ],
   "relations": [
     {
-      "id": "a-shiji106-007",
+      "id": "a-shiji106-005",
       "subject_person_id": "yqp_nlb_p1p_CAE",
       "predicate": "father",
       "object_person_id": "yqp_nlb_p1p_CA",
@@ -58,28 +107,17 @@
         {
           "chapter_id": "c-shiji-106-wuwang",
           "source_id": "s-shiji-106-wuwang",
-          "paragraph_id": "c-shiji-106-wuwang:p017",
-          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+          "paragraph_id": "c-shiji-106-wuwang:p013",
+          "quote": "吳王之初發也，吳臣田祿伯為大將軍。田祿伯曰：「兵屯聚而西，無佗奇道，難以就功。臣願得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。"
         }
       ],
       "qualifiers": {
-        "source_term": "吳王子子華、子駒",
+        "source_term": "吳王太子",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子分存；少子、起兵太子、子華、子駒彼此是否同人仍待核，不以候選 ID 分立宣稱確證不同人物。",
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
-    }
-  ],
-  "related_people": {
-    "yqp_nlb_p1p_CA": "劉濞",
-    "yqp_nlb_p1p_CAE": "子駒（吳王濞列傳候選）"
-  },
-  "dates": [],
-  "name_components": [],
-  "person_ids": [
-    "yqp_nlb_p1p_CAE"
-  ],
-  "preferred_relations": [
+    },
     {
       "id": "a-shiji106-007",
       "subject_person_id": "yqp_nlb_p1p_CAE",
@@ -98,7 +136,76 @@
         "source_term": "吳王子子華、子駒",
         "historicity": "historical_tradition"
       },
-      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子分存；少子、起兵太子、子華、子駒彼此是否同人仍待核，不以候選 ID 分立宣稱確證不同人物。",
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
+      "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "related_people": {
+    "yqp_nlb_p1p_CA": "劉濞",
+    "yqp_nlb_p1p_CAE": "駒（吳王太子；《史記》作子駒）"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_CAE",
+      "title": "吳王太子",
+      "surname": null,
+      "ming": "駒",
+      "additional_names": [
+        "子駒"
+      ],
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p018",
+      "quote": "吳王太子駒亡走閩越。",
+      "note": "漢書明稱駒，史記原文作子駒，原字與來源分存；不由家族路徑補姓，不推出生時名。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
+  "person_ids": [
+    "yqp_nlb_p1p_CAE"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-shiji106-005",
+      "subject_person_id": "yqp_nlb_p1p_CAE",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_CA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p013",
+          "quote": "吳王之初發也，吳臣田祿伯為大將軍。田祿伯曰：「兵屯聚而西，無佗奇道，難以就功。臣願得五萬人，別循江淮而上，收淮南、長沙，入武關，與大王會，此亦一奇也。」吳王太子諫曰：「王以反為名，此兵難以藉人，藉人亦且反王，柰何？且擅兵而別，多佗利害，未可知也，徒自損耳。」吳王即不許田祿伯。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "吳王太子",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji106-007",
+      "subject_person_id": "yqp_nlb_p1p_CAE",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_CA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p017",
+          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "吳王子子華、子駒",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依本文子、少子或所事王的太子稱謂保存父子；未記母親。被殺太子與起兵太子駒分存；少子是否為駒或子華仍待核，子華與駒不合併。起兵太子與駒依漢書035平行事件暫接，不以候選分槽當排行或確證不同人物。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -108,7 +215,9 @@
     "source_person_ids": [
       "yqp_nlb_p1p_CAE"
     ],
-    "identity_equivalence_decision_ids": [],
+    "identity_equivalence_decision_ids": [
+      "eq-hanshu035-wuwang-prince-001"
+    ],
     "parent_person_id": "yqp_nlb_p1p_CA",
     "source_assertion_id": "a-shiji106-007",
     "assembly_id": "family-han-liu-taigong",
