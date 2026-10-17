@@ -1,3 +1,4 @@
+import {escapeHTML as h} from './core.js';
 // Birth/death summaries use typed events, never office dates or age arithmetic.
 export function ageLabel(age) {
   if (!Number.isInteger(age.value) || age.reporting_status === 'qualified_report') return age.qualified_source_term || age.source_term || '來源報齡未定';
@@ -48,4 +49,18 @@ export function lifeYearLabel(event) {
   if (!a?.era_year || !b?.era_year) return '';
   const prefix = p => `西元${p.era === 'BCE' ? '前' : ''}`;
   return `${prefix(a)}${a.era_year}至${a.era === b.era ? '' : prefix(b)}${b.era_year}年（暫定範圍）`;
+}
+
+// Bibliography is reference material, separate from the received event quote.
+export function studyReferencesHTML(refs) {
+  if (!Array.isArray(refs) || !refs.length) return '';
+  const rows=refs.filter(r=>r && (r.display_title || r.source_title)).map(r=>{
+    let url='';
+    try {const u=new URL(r.url);if (['http:','https:'].includes(u.protocol)) url=u.href;} catch {}
+    const title=h(r.display_title || r.source_title);
+    const author=r.display_author || r.author || r.source_author;
+    const year=r.year || r.publication_year;
+    return `<li>${author ? h(author)+'：' : ''}${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${title}</a>` : title}${year ? '（'+h(year)+'）' : ''}${r.reviewed_scope ? `<p>已閱範圍：${h(r.reviewed_scope)}</p>` : ''}${r.reference_note ? `<p>${h(r.reference_note)}</p>` : ''}${r.opinion_validation === 'not_attempted' ? '<small>研究意見未獨立驗證</small>' : ''}</li>`;
+  });
+  return rows.length ? `<details class="person-study-references"><summary>研究參考</summary><ul>${rows.join('')}</ul></details>` : '';
 }

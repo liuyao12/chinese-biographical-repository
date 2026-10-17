@@ -31,6 +31,12 @@ def parallel_event_date(date):
 def year_range_errors(value, evidence, expression):
     if not isinstance(value, dict):
         return ['紀年範圍須為物件']
+    if value.get('basis') == 'calendar_reform_transition_year':
+        try:
+            from .calendar_reform import transition_year_errors
+        except ImportError:
+            from calendar_reform import transition_year_errors
+        return transition_year_errors(value, evidence, expression)
     errors = []
     endpoints = [value.get(k) for k in ('earliest', 'latest')]
     for point in endpoints:

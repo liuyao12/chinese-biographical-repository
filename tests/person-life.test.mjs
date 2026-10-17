@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {summarizeLife, ageLabel, lifeYearLabel} from '../assets/person-life.js';
+import {summarizeLife, ageLabel, lifeYearLabel, studyReferencesHTML} from '../assets/person-life.js';
 test('bounded or qualified reported ages retain their source wording', () => {
   assert.equal(ageLabel({value:null,source_term:'百有六十餘歲',qualified_source_term:'蓋老子百有六十餘歲'}),'蓋老子百有六十餘歲');
   assert.equal(ageLabel({value:70,source_term:'年七十'}),'70 歲（來源報齡）');
@@ -34,4 +34,16 @@ test('date precision, original date expressions and unresolved alternatives prev
  const event={person_id:'a',event_type:'death',date_expression:'五年',normalized_date:{era:'CE',era_year:10}};
  const p={id:'a',life_events:[{...event,id:'year'},{...event,id:'day',normalized_date:{era:'CE',era_year:10,month:3,day:2}},{...event,id:'other-term',date_expression:'六年'},{id:'unknown-one',person_id:'a',event_type:'death'},{id:'unknown-two',person_id:'a',event_type:'death'}]};
  assert.equal(summarizeLife(p).death.length,5);
+});
+
+test('research references expose scope and unverified status without inventing publication year',()=>{
+ const html=studyReferencesHTML([{display_title:'改訂紀年表',author:'辛德勇',publication_year:null,url:'https://example.org/paper',reviewed_scope:'第六頁腳注',opinion_validation:'not_attempted'}]);
+ assert.match(html,/辛德勇/);assert.match(html,/第六頁腳注/);assert.match(html,/研究意見未獨立驗證/);assert.doesNotMatch(html,/null|undefined|2020/);
+});
+test('research bibliography escapes text and rejects executable links',()=>{
+ const html=studyReferencesHTML([{display_title:'<img src=x>',author:'<b>',url:'javascript:alert(1)',reference_note:'<script>'}]);
+ assert.doesNotMatch(html,/<a|<img|<script>/);assert.match(html,/&lt;img/);assert.match(html,/&lt;b/);
+});
+test('missing research references produce no empty profile field',()=>{
+ assert.equal(studyReferencesHTML(), '');assert.equal(studyReferencesHTML([]),'');assert.equal(studyReferencesHTML([null,{}]),'');
 });

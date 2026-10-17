@@ -136,7 +136,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 occurrence_cells[cell['id']] = cell
         elif kind == 'person_address_assertion_set':
             addresses.extend(a for a in record['assertions'] if a['person_id'] in ids)
-        elif kind == 'person_life_event_assertion_set':
+        elif kind in ('person_life_event_assertion_set', 'table_person_life_event_assertion_set'):
             life_events.extend(e for e in record['events'] if e['person_id'] in ids)
         elif kind == 'person_event_assertion_set':
             person_events.extend(e for e in record['events'] if e['person_id'] in ids)
@@ -285,6 +285,33 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                     work_id=table['source']['work_id'], book_id=table['source']['book_id'],
                     chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
                     source_revision=table['source']['revision']))
+    for record in records:
+        if record.get('record_type') != 'table_person_life_event_assertion_set':
+            continue
+        for event in record['events']:
+            if event['person_id'] not in ids:
+                continue
+            try:
+                from .table_life_events import native_death_errors
+                from .table_evidence import table_cell
+            except ImportError:
+                from table_life_events import native_death_errors
+                from table_evidence import table_cell
+            errors = native_death_errors(record, event, tables, set(people))
+            if errors:
+                raise ValueError('；'.join(errors))
+            refs = event['evidence'] + event['normalized_date_range']['references']
+            for ref in refs:
+                tid = ref.get('table_id')
+                if tid not in tables:
+                    continue
+                table = tables[tid]; cited_tables.add(tid)
+                cell = table_cell(table, ref.get('table_cell_id'))
+                if cell:
+                    table_passages.setdefault(cell['id'], dict(cell, table_id=tid,
+                        work_id=table['source']['work_id'], book_id=table['source']['book_id'],
+                        chapter_id=table['source']['chapter_id'], source_id=table['source']['id'],
+                        source_revision=table['source']['revision']))
     date_columns = {}
     # A table's fief, person/event and year cells are source material, not prose paragraphs.
     for holding in titles:

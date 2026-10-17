@@ -1339,6 +1339,15 @@ def validate(root=ROOT):
         life_event_ids = set()
         for path in list((root / 'corpus').glob('*/*-life-events.json')) + list((root / 'corpus').glob('*/*-person-events.json')):
             record = json.loads(path.read_text(encoding='utf-8'))
+            if record.get('record_type') == 'table_person_life_event_assertion_set':
+                try:
+                    from scripts.table_life_events import native_death_errors
+                except ImportError:
+                    from table_life_events import native_death_errors
+                for event in record['events']:
+                    check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
+                    errors.extend(native_death_errors(record, event, tables, pids))
+                continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
