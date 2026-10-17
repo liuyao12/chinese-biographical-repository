@@ -294,6 +294,11 @@ def validate(root=ROOT):
                     if p.get('annotation_status')=='pending':check(not p['mentions'],'待標註段落不得混入已接受的提及')
                 if any(p.get('annotation_status') in ('pending','in_progress') for p in d['paragraphs']):
                     check(d['annotation']['status']=='in_progress','篇仍有待標註段落，不得宣稱首輪完成')
+            try:
+                from scripts.referent_interpretations import interpretation_errors
+            except ModuleNotFoundError:
+                from referent_interpretations import interpretation_errors
+            errors.extend(interpretation_errors(d, pids))
             case_ids=set()
             for case in d['annotation'].get('unresolved_identity_cases',[]):
                 check(case.get('id') and case['id'] not in case_ids,'未決身份 ID 無效或重複')

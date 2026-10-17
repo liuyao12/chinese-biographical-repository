@@ -2,8 +2,8 @@
   "schema_version": 1,
   "id": "3go_52y_0mp",
   "canonical_person_id": "3go_52y_0mp",
-  "label": "伯樂引古（屈原賈生列傳候選）",
-  "identity_note": null,
+  "label": "伯樂",
+  "identity_note": "卷84為伯樂的引古用稱；卷117陽子有伯樂及仙人陽陵子等古注，伯樂只列候選，尚未接成已確認提及。",
   "review": "ai_provisional",
   "names": [
     "伯樂"
@@ -74,13 +74,133 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "3go_52y_0mp": "伯樂引古（屈原賈生列傳候選）"
+    "3go_52y_0mp": "伯樂"
   },
   "dates": [],
+  "referent_interpretations": [
+    {
+      "id": "ri-shiji117-yangzi",
+      "paragraph_id": "c-shiji-117-xiangru:p007",
+      "target_mention_ids": [
+        "c-shiji-117-xiangru:m007-0066"
+      ],
+      "status": "unresolved",
+      "default_alternative_id": null,
+      "evidence": {
+        "chapter_id": "c-shiji-117-xiangru",
+        "source_id": "s-shiji117-xiangru",
+        "paragraph_id": "c-shiji-117-xiangru:p007",
+        "quote": "「『於是乃使專諸之倫，手格此獸。楚王乃駕馴駁之駟，乘雕玉之輿，靡魚須之橈旃，曳明月之珠旗，建干將之雄戟，左烏嗥之雕弓，右夏服之勁箭；陽子驂乘，纖阿為禦；案節未舒，即陵狡獸，轔邛邛，蹵距虛，軼野馬而𨎥騊駼，乘遺風而射遊騏；儵眒淒浰，靁動熛至，星流霆擊，弓不虛發，中必決眥，洞胷達腋，絕乎心繫，獲若雨獸，揜草蔽地。於是楚王乃弭節裴回，翱翔容與，覽乎陰林，觀壯士之暴怒，與猛獸之恐懼，徼𧮬受詘，殫睹衆物之變態。",
+        "mention_ids": [
+          "c-shiji-117-xiangru:m007-0066"
+        ],
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-117"
+      },
+      "alternatives": [
+        {
+          "id": "ri-shiji117-yangzi-1",
+          "attribution": "張揖，《漢書》卷57所引",
+          "referent_kind": "historical_person",
+          "candidate_person_ids": [
+            "3go_52y_0mp"
+          ],
+          "interpretation": "陽子伯樂也，秦繆公臣姓孫名陽",
+          "source_reference_ids": [
+            "han57"
+          ]
+        },
+        {
+          "id": "ri-shiji117-yangzi-2",
+          "attribution": "《史記集解》引《漢書音義》",
+          "referent_kind": "legendary_person",
+          "candidate_person_ids": [],
+          "interpretation": "陽子僊人陽陵子",
+          "source_reference_ids": [
+            "jijie117"
+          ]
+        },
+        {
+          "id": "ri-shiji117-yangzi-3",
+          "attribution": "韋昭，《史記集解》所引",
+          "referent_kind": "unspecified_person",
+          "candidate_person_ids": [],
+          "interpretation": "陽子古賢也",
+          "source_reference_ids": [
+            "jijie117"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_057.txt#L162-L163",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "44cd0a168123204ab8369c8382018dbaaa846a86",
+          "quote": "(曰服盛箭器也夏后氏之良弓名煩弱其矢亦良/即煩弱箭服也故曰夏服○宋祁曰南本勁作良)陽子¶\n驂乘孅阿為御(張揖曰陽子伯樂也秦繆公臣姓孫名/陽郭璞曰孅阿古之善御者孅音纎)¶",
+          "read_line_range": [
+            162,
+            163
+          ],
+          "cached_response_sha256": "3c62abcaf4adc4a496265bcfe7ddde0d386536b36d8f20a83b60e3207db27573",
+          "image_verified": false,
+          "id": "han57",
+          "scope": "ancient_commentary_interpretation"
+        },
+        {
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_117.txt#L112-L113",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "ccded97eee2542083010172d857d6251a09a126c",
+          "quote": "(謂之/服也)陽子驂乘纎阿為御(漢書音義曰陽子僊人陽陵/子纎阿月御也韋昭曰陽子)¶\n(古賢/也)按節未舒即陵狡獸轔卭卭蹵距虚(郭璞曰卭卭/似馬而青距)¶",
+          "read_line_range": [
+            112,
+            113
+          ],
+          "cached_response_sha256": "15ee75f05d9c9ded49f9b56df8caebfaeb0facd47e5be3b4a762acce856dfda5",
+          "image_verified": false,
+          "id": "jijie117",
+          "scope": "ancient_commentary_interpretation"
+        }
+      ],
+      "note": "候選不窮盡，不將陽陵子與陵陽子明按倒字自動接合；不建立實際同車事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "source_terms": [
+        "陽子"
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "chapter_id": "c-shiji-117-xiangru",
+      "source_id": "s-shiji117-xiangru"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "3go_52y_0mp"

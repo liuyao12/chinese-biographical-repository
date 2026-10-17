@@ -207,6 +207,18 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     selected_life_dates = selected_dates(life_events, date_decisions)
     kinship_cases = [case for chapter in chapters.values() for case in chapter['annotation'].get('kinship_interpretation_cases', []) if ids.intersection((case['subject_person_id'], case['object_person_id']))]
     unresolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('unresolved_identity_cases', []) if ids.intersection(case['candidate_person_ids'])]
+    referent_cases = [dict(case, work_id=chapter['work_id'], book_id=chapter['book_id'], chapter_id=chapter['id'], source_id=chapter['source_id'])
+                      for chapter in chapters.values() for case in chapter['annotation'].get('referent_interpretations', [])
+                      if any(ids.intersection(a['candidate_person_ids']) for a in case['alternatives'])]
+    if referent_cases:
+        try:
+            from .referent_interpretations import interpretation_errors
+        except ImportError:
+            from referent_interpretations import interpretation_errors
+        for chapter_id in {c['chapter_id'] for c in referent_cases}:
+            errors = interpretation_errors(chapters[chapter_id], set(people))
+            if errors:
+                raise ValueError('；'.join(errors))
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
@@ -255,6 +267,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     paragraph_ids.update(e['paragraph_id'] for case in kinship_cases for e in case.get('selection', {}).get('comparative_evidence', []))
     paragraph_ids.update(pid for case in unresolved_cases + resolved_cases for pid in case['paragraph_ids'])
     paragraph_ids.update(v['paragraph_id'] for v in reported_variants)
+    paragraph_ids.update(c['paragraph_id'] for c in referent_cases)
     for record in relations + titles + identities + addresses + life_events + person_events + ages + age_differences + related_equivalences + tree_decisions + distinctions:
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
@@ -494,6 +507,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
     neighbor_ids.update(p for decision in distinctions for p in decision['person_ids'])
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
+    neighbor_ids.update(p for case in referent_cases for a in case['alternatives'] for p in a['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
     date_ranges = [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'],
                         date_role=role, event_type=e['event_type'])
@@ -517,6 +531,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'currently_annotated_mentions', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),

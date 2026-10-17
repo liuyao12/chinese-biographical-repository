@@ -436,7 +436,7 @@
 | `3gd_6f0_cnf` | 秦信 | [《史記・扁鵲倉公列傳》][91] | [JSON](3gd_6f0_cnf.json) |
 | `3gd_w8i_skr` | 申侯（孝王時） | [《史記・秦本紀》][9] | [JSON](3gd_w8i_skr.json) |
 | `3gm_vdd_51h` | 呂祿女 | [《史記・外戚世家》][35] | [JSON](3gm_vdd_51h.json) |
-| `3go_52y_0mp` | 伯樂引古 | [《史記・屈原賈生列傳》][70] | [JSON](3go_52y_0mp.json) |
+| `3go_52y_0mp` | 伯樂 | [《史記・屈原賈生列傳》][70] | [JSON](3go_52y_0mp.json) |
 | `3hy_4xq_wqu` | 定王（瑜） | [《史記・周本紀》][8] | [JSON](3hy_4xq_wqu.json) |
 | `3i8_q7r_0px` | 趙王遷（燕王喜記事） | [《史記・燕召公世家》][20] | [JSON](3i8_q7r_0px.json) |
 | `3i9_kae_h9x` | 樂池 | [《史記・趙世家》][29] | [JSON](3i9_kae_h9x.json) |
