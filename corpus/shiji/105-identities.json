@@ -1648,7 +1648,7 @@
     },
     {
       "id": "d-shiji105-068",
-      "person_id": "vhq_7q6_k1o",
+      "person_id": "yqp_nlb_p1p_CA",
       "surfaces": [
         "吳王"
       ],
@@ -1931,6 +1931,60 @@
       ],
       "rationale": "依本篇姓名、原稱及敘事回指暫定；醫案引語與附載注釋分層，未按同名自動跨篇合併。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji105-yangxu-context",
+      "person_id": "jc7_nxq_532",
+      "surfaces": [
+        "陽虛侯",
+        "侯"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-105-bianque",
+        "c-shiji-052-qidaohui"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p037",
+          "quote": "齊王故為陽虛侯時，病甚，眾醫皆以為蹷。臣意診脈，以為痹，根在右脅下，大如覆杯，令人喘，逆氣不能食。臣意即以火齊粥且飲，六日氣下；即令更服丸藥，出入六日，病已。病得之內。診之時不能識其經解，大識其病所在。",
+          "mention_ids": [
+            "c-shiji-105-bianque:m037-0004"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-105",
+          "chapter_id": "c-shiji-105-bianque",
+          "source_id": "s-shiji-105-bianque",
+          "paragraph_id": "c-shiji-105-bianque:p043",
+          "quote": "問臣意：「意方能知病死生，論藥用所宜，諸侯王大臣有嘗問意者不？及文王病時，不求意診治，何故？」對曰：「趙王、膠西王、濟南王、吳王皆使人來召臣意，臣意不敢往。文王病時，臣意家貧，欲為人治病，誠恐吏以除拘臣意也，故移名數，左右不修家生，出行游國中，問善為方數者事之久矣，見事數師，悉受其要事，盡其方書意，及解論之。身居陽虛侯國，因事侯。侯入朝，臣意從之長安，以故得診安陵項處等病也。」",
+          "mention_ids": [
+            "c-shiji-105-bianque:m043-0164",
+            "c-shiji-105-bianque:m043-0166"
+          ]
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-052",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p024",
+          "quote": "後一歲，孝文帝以所封悼惠王子分齊為王，齊孝王將閭以悼惠王子楊虛侯為齊王。故齊別郡盡以王悼惠王子：子志為濟北王，子辟光為濟南王，子賢為菑川王，子卬為膠西王，子雄渠為膠東王，與城陽、齊凡七王。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m024-0019"
+          ]
+        }
+      ],
+      "rationale": "本篇齊王故為陽虛侯與052楊虛侯將閭為齊王相合；文王病時倉公居陽虛侯國並事侯、隨侯入朝，兩處侯承該封侯人物。陽楊原字分存，侯國為地名不拆人名；不據本病案補醫治絕對年或整章齊王身份。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

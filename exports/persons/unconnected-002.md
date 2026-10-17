@@ -2087,7 +2087,6 @@
 | `vgb_hc7_z63` | 周文王 | [《史記・日者列傳》][110] | [JSON](vgb_hc7_z63.json) |
 | `vgh_vi1_iy2` | 曹參 | [《史記・外戚世家》][32] | [JSON](vgh_vi1_iy2.json) |
 | `vhn_2qv_ziz` | 逸（宗正） | [《史記・淮南衡山列傳》][101] | [JSON](vhn_2qv_ziz.json) |
-| `vhq_7q6_k1o` | 吳王未具名 | [《史記・扁鵲倉公列傳》][88] | [JSON](vhq_7q6_k1o.json) |
 | `vht_3iv_u7e` | 周成王 | [《史記・鄭世家》][25] | [JSON](vht_3iv_u7e.json) |
 | `vi0_7ws_jn8` | 申公 | [《史記・魏其武安侯列傳》][90] | [JSON](vi0_7ws_jn8.json) |
 | `vi8_p4p_cwj` | 校長未名 | [《史記・魏豹彭越列傳》][73] | [JSON](vi8_p4p_cwj.json) |
@@ -2221,6 +2220,7 @@
 | `wex_fkp_gc1` | 舜 | [《史記・鄭世家》][25] | [JSON](wex_fkp_gc1.json) |
 | `wf4_hj5_nah` | 屈原 | [《史記・張儀列傳》][53] | [JSON](wf4_hj5_nah.json) |
 | `wf8_9b9_kcq` | 周霸 | [《史記・孝武本紀》][13] | [JSON](wf8_9b9_kcq.json) |
+| `wfj_i4s_mq5` | 離婁引古 | [《史記・屈原賈生列傳》][67] | [JSON](wfj_i4s_mq5.json) |
 
 [1]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [2]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634

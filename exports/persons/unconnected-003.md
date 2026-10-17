@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `wfj_i4s_mq5` | 離婁引古 | [《史記・屈原賈生列傳》][67] | [JSON](wfj_i4s_mq5.json) |
 | `wfj_oof_3mr` | 東武侯 | [《史記・滑稽列傳》][109] | [JSON](wfj_oof_3mr.json) |
 | `wfk_n4m_6x9` | 陳留令未名 | [《史記・酈生陸賈列傳》][80] | [JSON](wfk_n4m_6x9.json) |
 | `wfm_qvc_ykk` | 負芻 | [《史記・白起王翦列傳》][56]、[《史記・蒙恬列傳》][71] | [JSON](wfm_qvc_ykk.json) |
