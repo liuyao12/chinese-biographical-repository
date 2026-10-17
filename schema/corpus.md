@@ -404,3 +404,15 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 目前曆制綁定限於已核讀的漢代案例：`han_tenth_month_before_taichu` 用於太初以前、數位年標前104年之前的建亥歲首，數位年標為相鄰範圍較晚端；`han_first_month_after_taichu` 用於太初以後、數位年標前104年之後的正月歲首，數位年標為較早端。太初改曆當年不以此兩種簡式自動換算。兩種都須有相符曆制引文；不推精確公曆日，也不是各時代通用的固定加減法。對照原年字、年號起點、數位格與固定網址分列於 `references`。
 
 人物包補齊這些用稱、生卒及報齡範圍所引的年格與表來源，不新增人物提及或獨立史實證據票數，最多提及來源的計數仍只採實際人物標記。
+
+## 年表原生稱號與分欄紀年
+
+`table_title_holding_assertion_set` 保存直接出自原表的持職／封爵主張，試點檔案為 `020-table-title-events.json`。`chapter_id` 沿用該表已有的來源篇ID，不偽造正文段落。首封試點只處理 `noble_rank`、`grant`，以同列封國、功臣事由、持有人錨點及先前年欄空白核查；嗣侯、失侯與改曆過渡年另待擴充。
+
+持有項保留一般 `title`、`effective_period`，另有 `source_representation: table_cells`。`table_title_basis` 分列 `event`、`noble_name`、`merit` 及 `year_mapping`；各格保存全文、穩定格ID、固定來源修訂與人物錨點。`attestations.kind: table_title` 的 `source_parts` 分存封國字與侯字原格位置，不假稱兩字本來連寫，也不把前置官稱納入姓名。
+
+`date_expression_kind: table_columns_composed` 明示 `date_expression` 由原年號欄題與事件格日期合讀，`date_parts` 保存欄ID、原詞、原格與字元位置。數字紀年的 `original_quote` 仍是完整事件格，不把拼合字串塞回原文。固定原年列與數位西元格分引；漢太初前十月歲首下，已明正月至九月可存該數位年所對照的同一西元年，僅以年為數字精度，不冒作已換算公曆月日。未明閏幾月保跨年範圍。太初元年改曆過渡不套本試點規則。
+
+匯出仍使用 `title_holdings`，另帶所有被引原格、年號欄與來源。紀年格不計作人物提及；人物卡可同時顯示西元年與原表紀年，來源連結返回原格。本傳段首戰役紀年不自動成為段末授爵之年。
+
+姓名組件可另存 `component_alternatives`，每項含 `components`（姓、名、字的獨立值）、`source_terms`、固定來源 `reference`、`status: source_claim_not_selected` 與取捨理由。原注短引須可由保留的排版原句得到，名／字組件原詞與值逐項核查。首選組件與其他來源主張分存，不將兩種分類當作兩個人物或生前更名。試點為顏師古以少季為字、《索隱》以少季為名；原始正文及兩注字句不變。
