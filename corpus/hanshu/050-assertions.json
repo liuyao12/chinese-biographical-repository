@@ -1,0 +1,90 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-hanshu-050-zhangfengjizheng",
+  "assertions": [
+    {
+      "id": "a-hanshu050-kin-001",
+      "subject_person_id": "rc7_4i0_7tp",
+      "predicate": "brother",
+      "object_person_id": "fmh_dmt_cql",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-050",
+          "chapter_id": "c-hanshu-050-zhangfengjizheng",
+          "source_id": "s-hanshu-050-zhangfengjizheng",
+          "paragraph_id": "c-hanshu-050-zhangfengjizheng:jian:p003",
+          "quote": "居淮陽十歳而卒卒後上以黯故官其弟仁至九卿子偃至諸侯相黯姊子司馬安亦少與黯為太子洗馬安文深巧善宦四至九卿以河南太守卒昆弟以安故同時至二千石十人濮陽段宏始事蓋侯信信任宏官亦再至九卿然衞人仕者皆嚴憚汲黯出其下"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "其弟仁",
+        "relative_birth_order": {
+          "older_person_id": "fmh_dmt_cql",
+          "younger_person_id": "rc7_4i0_7tp",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "弟僅明相對年幼，不補同母或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-hanshu050-kin-002",
+      "subject_person_id": "fmh_dmt_cql_A",
+      "predicate": "father",
+      "object_person_id": "fmh_dmt_cql",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-050",
+          "chapter_id": "c-hanshu-050-zhangfengjizheng",
+          "source_id": "s-hanshu-050-zhangfengjizheng",
+          "paragraph_id": "c-hanshu-050-zhangfengjizheng:jian:p003",
+          "quote": "居淮陽十歳而卒卒後上以黯故官其弟仁至九卿子偃至諸侯相黯姊子司馬安亦少與黯為太子洗馬安文深巧善宦四至九卿以河南太守卒昆弟以安故同時至二千石十人濮陽段宏始事蓋侯信信任宏官亦再至九卿然衞人仕者皆嚴憚汲黯出其下"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子偃"
+      },
+      "interpretation_note": "承上黯故所記子偃，不補生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-hanshu050-kin-003",
+      "subject_person_id": "84g_35d_vcn",
+      "predicate": "maternal_uncle",
+      "object_person_id": "fmh_dmt_cql",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-050",
+          "chapter_id": "c-hanshu-050-zhangfengjizheng",
+          "source_id": "s-hanshu-050-zhangfengjizheng",
+          "paragraph_id": "c-hanshu-050-zhangfengjizheng:jian:p003",
+          "quote": "居淮陽十歳而卒卒後上以黯故官其弟仁至九卿子偃至諸侯相黯姊子司馬安亦少與黯為太子洗馬安文深巧善宦四至九卿以河南太守卒昆弟以安故同時至二千石十人濮陽段宏始事蓋侯信信任宏官亦再至九卿然衞人仕者皆嚴憚汲黯出其下"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姊子",
+        "lineage": "maternal",
+        "generation_difference": -1,
+        "mother_person_id": null
+      },
+      "interpretation_note": "本書姊子記甥舅，不填母名；史記姑姊子原字及歧義分存，不改史記原陳述。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
