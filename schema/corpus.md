@@ -564,3 +564,13 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ### 未採入家族的遠祖聲稱
 
 來源確有「某十一世孫」而未採用其遠祖系時，仍可保存 `ancestor` 陳述，以 `qualifiers.adopted_for_family_tree: false` 明示。`source_number`及`reported_generation_number`保存原世孫數；`generation_distance: null`不把來源世次直接當已採納的精確父系距離。原詞、逐人錨點及引文照存，人物JSON可讀此來源聲稱；家族路徑、組裝與閱讀器追祖均不得採用這筆未採聲稱。家族根仍依可接合的近支資料決定，不補遠祖間的缺名人物。
+
+### 年號內未定年與爵號改封（荀氏跨史試點）
+
+`normalized_date_range.basis: within_named_era` 專記「咸熙中」等年號內未定年。`calendar: chinese_civil`、`precision: year_range`；`earliest`／`latest` 是該年號中國曆年度的外界，沒有單一 `year`，也不表示整段任期。`era_span_mapping` 保存政體、年號、年號起迄數字及對照來源索引；來源須分列政體與年號，以免把西晉泰始與劉宋泰始混用。現先接受「年號＋中」，不將「中」硬分成中央一年或中間三分之一。這與原有中國曆歲首跨公曆年的兩年投影是不同類型。
+
+爵位 `mode: transfer` 可使用 `transfer_basis.kind: noble_rank_change`，保存「改封」原詞、持有人錨點、起點引文、判讀及前爵狀態。前爵可確定時，以 `previous_holding_id` 接同人的實際爵位；前爵明示終點與新爵始點須同證、同日期。前爵未確定時為 `null` 且 `previous_title_status: not_identified`，不得借父親諡號補成所承前爵。「荀崧改封曲陵公」與「改封愷南頓子」各自存證，不強迫兩者同樣具備已名的前爵。王號徙封仍用既有規則。
+
+明記「追贈＋稱號」可作 `posthumous_grant`；其 `posthumous_basis` 須保存相符原詞及同一授予起點證據。不是以死後出現一次稱呼推定曾有追贈。
+
+`clan_style` 用於本名未知的氏稱顯示，不能濫用未分姓名 `full_name`。`ming` 保持null，`value`須為已記姓加氏。`received_clan_appellation` 要求原文人物錨點直接作該氏稱；`sibling_clan_appellation` 為代理依具名兄弟之妹暫稱，須引用同段的姊妹陳述ID及原詞，且不得有已知異父限定。兩者保存判讀、狀態及未人工審閱標記。鍾氏字琰的琰在 `zi`，不填入 `ming`；荀霬妻暫稱司馬氏，不補本名或子女生母關係。

@@ -2,6 +2,21 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {traceFamily} from '../assets/person-family.js';
 const relation = (subject_person_id, predicate, object_person_id) => ({subject_person_id, predicate, object_person_id, evidence: []});
+test('maternal ancestors stay outside the paternal three generations even when the mother is unnamed', async () => {
+  const people = {
+    child: {id:'child', relations:[relation('child','father','father'),
+      {...relation('child','grandfather','maternal'), qualifiers:{lineage:'maternal'}},
+      {...relation('child','great_grandfather','maternalGreat'), qualifiers:{lineage:'maternal'}}]},
+    father: {id:'father',relations:[relation('father','father','paternal')]},
+    paternal: {id:'paternal'}, maternal:{id:'maternal',relations:[relation('maternal','father','maternalGreat')]},
+    maternalGreat:{id:'maternalGreat'},
+  };
+  const loaded=[];
+  const family=await traceFamily(people.child,async id=>{loaded.push(id);return people[id];});
+  assert.deepEqual(family.ancestors.map(row=>row.map(p=>p.id)),[['father'],['paternal'],[]]);
+  assert.deepEqual(family.mother,[]);
+  assert(!loaded.includes('maternal') && !loaded.includes('maternalGreat'));
+});
 test('an explicitly recorded grandfather leaves the missing father empty', async () => {
   const a={id:'a',relations:[relation('a','grandfather','g')]};
   const g={id:'g',relations:[relation('g','father','h')]};

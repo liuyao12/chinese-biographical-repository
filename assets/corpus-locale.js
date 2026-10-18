@@ -1,4 +1,5 @@
 export default {
+  'Maternal grandfather': '外祖父',
   'Paternal uncle': '伯叔父',
   'Paternal same-generation collateral relative': '父系同輩旁親',
   'Relationship claim not adopted into family tree': '來源說法，未接入家族',

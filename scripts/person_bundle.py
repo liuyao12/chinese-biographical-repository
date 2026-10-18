@@ -7,6 +7,46 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def validate_clan_style(name, paragraph=None, relations=()):
+    """A clan appellation preserves an unknown ming; it is not an unsplit name."""
+    if 'clan_style' not in name:
+        return
+    style = name['clan_style']
+    keys = {'kind', 'value', 'source_term', 'assertion_ids', 'status', 'rationale', 'human_reviewed'}
+    valid = (isinstance(style, dict) and set(style) == keys
+             and isinstance(name.get('surname'), str) and bool(name['surname'])
+             and name.get('ming') is None and 'full_name' not in name
+             and style.get('value') == name['surname'] + '氏'
+             and style.get('human_reviewed') is False and bool(style.get('rationale'))
+             and isinstance(name.get('quote'), str)
+             and isinstance(style.get('source_term'), str) and bool(style['source_term'])
+             and style['source_term'] in name.get('quote', '')
+             and isinstance(style.get('assertion_ids'), list) and paragraph is not None
+             and name.get('quote') in paragraph.get('text', ''))
+    if valid and style['kind'] == 'received_clan_appellation':
+        valid = (style['status'] == 'source_attested' and style['assertion_ids'] == []
+                 and style['source_term'] == style['value']
+                 and any(m.get('person_id') == name.get('person_id')
+                         and m.get('surface') == style['source_term'] for m in paragraph.get('mentions', [])))
+    elif valid and style['kind'] == 'sibling_clan_appellation':
+        selected = [a for a in relations if a.get('id') in style['assertion_ids']]
+        valid = (style['status'] == 'editorial_provisional' and bool(selected)
+                 and len(selected) == len(style['assertion_ids'])
+                 and all(a.get('predicate') == 'sister'
+                         and a.get('subject_person_id') == name.get('person_id')
+                         and a.get('qualifiers', {}).get('shared_father') is not False
+                         and a.get('qualifiers', {}).get('source_term') == style['source_term']
+                         and any(e.get('paragraph_id') == name.get('paragraph_id')
+                                 and style['source_term'] in e.get('quote', '') for e in a.get('evidence', []))
+                         for a in selected)
+                 and style['source_term'].startswith(name['surname'])
+                 and style['source_term'].endswith(('之妹也', '之妺也')))
+    else:
+        valid = False
+    if not valid:
+        raise ValueError('氏稱須保留未知本名、原文或具名兄弟之妹證據，不得把字作名')
+
+
 def validate_full_name(name, paragraph=None):
     """An unsegmented source name is not an inferred surname/given-name split."""
     if 'full_name' not in name:
@@ -213,6 +253,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     enriched_names = []
     for name in name_components:
         name_paragraph = paragraphs.get(name.get('paragraph_id'))
+        validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
         validate_former_given_name(name)

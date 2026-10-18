@@ -72,6 +72,8 @@ def load_assemblies(root, catalog):
                              and sibling.get('source_assertion_id') == source['id']
                              and brother_connects(brother, ids, sibling['source_person_ids'])
                              and source['predicate'] == member.get('connection')
+                             and source.get('qualifiers', {}).get('lineage') != 'maternal'
+                             and source.get('qualifiers', {}).get('adopted_for_family_tree') is not False
                              and source['subject_person_id'] in sibling['source_person_ids']
                              and source['object_person_id'] in rows[ancestor]['source_person_ids'])
                     proofs = {a['id']: a for a in (brother, source) if a}
@@ -93,6 +95,7 @@ def load_assemblies(root, catalog):
                 else:
                     assertion = assertions.get(member['source_assertion_id'])
                     if (not assertion or assertion.get('qualifiers', {}).get('adopted_for_family_tree') is False
+                        or assertion.get('qualifiers', {}).get('lineage') == 'maternal'
                         or assertion['predicate'] != member.get('connection')
                         or assertion['subject_person_id'] not in ids
                         or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):

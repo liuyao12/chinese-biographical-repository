@@ -21,6 +21,13 @@ export function profileSourceContext(person, params) {
   const table=nativeProfileReturn(person,params);
   if(table)return table;
   const work=params.get('work');
+  if (!work && !params.toString()) {
+    const principal=[...(person.occurrences || [])].sort((a,b)=>(b.count || 0)-(a.count || 0))[0];
+    if (principal?.work_id && principal.work_id!=='w-shiji') {
+      return profileSourceContext(person,new URLSearchParams({work:principal.work_id,
+        book:principal.book_id,chapter:principal.chapter_id,passage:principal.paragraph_id}));
+    }
+  }
   if (!work || work==='w-shiji') return null;
   const occurrence=(person.occurrences || []).find(x=>x.work_id===work
     && x.chapter_id===params.get('chapter') && (!params.has('book') || x.book_id===params.get('book')));

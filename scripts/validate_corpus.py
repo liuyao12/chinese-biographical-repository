@@ -511,6 +511,7 @@ def validate(root=ROOT):
                       and evidence.get('source_term', '') in hit[1]['text']
                       and chapters[hit[0]]['source_id'] == evidence.get('source_id'), '家族路徑來源與原文不符')
                 check(any(a.get('qualifiers', {}).get('adopted_for_family_tree') is not False
+                          and a.get('qualifiers', {}).get('lineage') != 'maternal'
                           and a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
@@ -794,11 +795,18 @@ def validate(root=ROOT):
                     if valid:
                         for e in inheritance['evidence']:title_evidence(e)
                 if h['mode']=='transfer' or 'transfer_basis' in h:
-                    try:
-                        from scripts.royal_transfers import royal_transfer_errors
-                    except ModuleNotFoundError:
-                        from royal_transfers import royal_transfer_errors
-                    errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions))
+                    if h['kind'] == 'noble_rank':
+                        try:
+                            from scripts.noble_transfers import noble_transfer_errors
+                        except ModuleNotFoundError:
+                            from noble_transfers import noble_transfer_errors
+                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions))
+                    else:
+                        try:
+                            from scripts.royal_transfers import royal_transfer_errors
+                        except ModuleNotFoundError:
+                            from royal_transfers import royal_transfer_errors
+                        errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions))
                 if 'chronology_source_choice' in h:
                     try:
                         from scripts.royal_transfers import chronology_choice_errors
@@ -809,7 +817,8 @@ def validate(root=ROOT):
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
                         and set(basis)=={'source_term','evidence'}
-                        and isinstance(basis.get('source_term'),str) and '追尊' in basis['source_term'])
+                        and isinstance(basis.get('source_term'),str)
+                        and ('追尊' in basis['source_term'] or '追贈' + h['title'] in basis['source_term']))
                     death_then_grant=(isinstance(basis,dict)
                         and set(basis)=={'source_term','death_term','grant_term','evidence'}
                         and all(isinstance(basis.get(k),str) and basis[k] for k in ('source_term','death_term','grant_term'))
