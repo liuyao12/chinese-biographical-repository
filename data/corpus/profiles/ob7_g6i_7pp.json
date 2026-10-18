@@ -3486,6 +3486,28 @@
         "c-shiji-114-dongyue:m001-0085",
         "c-shiji-114-dongyue:m001-0101"
       ]
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p015",
+      "count": 4,
+      "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p015"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m015-0018",
+        "c-shiji-120-jizheng:m015-0022",
+        "c-shiji-120-jizheng:m015-0039",
+        "c-shiji-120-jizheng:m015-0052"
+      ]
     }
   ],
   "table_occurrences": [
@@ -5401,6 +5423,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-hanshu-016",
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-016",
@@ -5700,6 +5746,25 @@
         }
       ],
       "interpretation_note": "陸賈對南越王的引語回顧；來源說遂誅項羽，不據此抹平項羽篇死因與行事。 未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji120-004",
+      "person_id": "ob7_g6i_7pp",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。",
+          "person_mention_id": "c-shiji-120-jizheng:m015-0018"
+        }
+      ],
+      "interpretation_note": "來源明示死亡；七歲、數歲與孝文時等敘事時間保留於原文，未反推確切公元年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }
