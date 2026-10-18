@@ -57,6 +57,13 @@ def resumption_valid(holding, previous, holdings, mentions):
                and a.get('context_role')=='pre_transfer_rank' for a in holding.get('attestations',[]))
 
 def royal_transfer_errors(holding, holdings, paragraphs, mentions):
+    if (isinstance(holding.get('transfer_basis'), dict)
+            and holding['transfer_basis'].get('kind') == 'elided_rank_regrant'):
+        try:
+            from scripts.elided_royal_regrants import elided_royal_regrant_errors
+        except ImportError:
+            from elided_royal_regrants import elided_royal_regrant_errors
+        return elided_royal_regrant_errors(holding, holdings, paragraphs, mentions)
     basis = holding.get('transfer_basis')
     keys = {'previous_holding_id', 'source_term', 'title_source_term', 'actor_mention_id', 'evidence'}
     if not isinstance(basis, dict) or set(basis) != keys:

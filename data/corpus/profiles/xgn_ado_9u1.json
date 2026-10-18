@@ -2,15 +2,35 @@
   "schema_version": 1,
   "id": "xgn_ado_9u1",
   "canonical_person_id": "xgn_ado_9u1",
-  "label": "程伯休甫（太史公自序候選）",
-  "identity_note": null,
+  "label": "程伯休甫",
+  "identity_note": "史記自序作程伯休甫，晉書宣帝本紀作程伯休父；同為周宣王時司馬氏先人稱名，暫辨同一敘事人物，原字與祖系說法不合併改寫。",
   "review": "ai_provisional",
   "names": [
-    "程伯休甫"
+    "程伯休甫",
+    "程伯休父"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 1,
+      "category": "",
+      "title": "宣帝紀（家世選段）",
+      "paragraph_id": "c-jinshu-001-sima-near-ancestry:p001",
+      "count": 1,
+      "quote": "重黎，為夏官祝融。歷唐、虞、夏、商，世序其職。及周，以夏官為司馬。其後程伯休父，周宣王時，以世官克平徐方，錫以官族，因而為氏。楚漢間，司馬卬為趙將，與諸侯伐秦。秦亡，立為殷王，都河內。漢以其地為郡，子孫遂家焉。自卬八世，生征西將軍鈞，字叔平。鈞生豫章太守量，字公度。量生潁川太守",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-001",
+      "chapter_id": "c-jinshu-001-sima-near-ancestry",
+      "source_id": "s-jinshu-001-sima-near-ancestry",
+      "work_title": "晉書",
+      "paragraph_ids": [
+        "c-jinshu-001-sima-near-ancestry:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-001-sima-near-ancestry:p001:m0068"
+      ]
+    },
     {
       "number": 130,
       "category": "liezhuan",
@@ -33,6 +53,56 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-001-sima-near-ancestry",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-001",
+      "source_id": "s-jinshu-001-sima-near-ancestry",
+      "source": {
+        "title": "《晉書》卷001（宣帝紀家世選段）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?oldid=2603565",
+        "permalink": "https://zh.wikisource.org/w/index.php?oldid=2603565",
+        "revision_id": 2603565,
+        "accessed_on": "2026-10-18",
+        "extent": "宣帝本紀傳首一原段；包含原稱遠祖說法，但非全本紀或全部帝室世系。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留見證歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，底本影像未核",
+        "wikitext_sha256": "707b6117e29077a805763a4c1f1f074768f93768b80deace6223af9f93bfaa9a",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白及ref校注外殼；正文原字不改。ref內容另列later_critical_apparatus，不當作晉書正文人物。",
+          "excerpts": [
+            {
+              "proposed_paragraph_id": "c-jinshu-001-sima-near-ancestry:p001",
+              "source_lines": [
+                11,
+                11
+              ],
+              "raw_quote": "　　宣皇帝諱懿，字仲達，河內溫縣孝敬里人，姓司馬氏。其先出自帝高陽之子重黎，為夏官祝融。歷唐、虞、夏、商，世序其職。及周，以夏官為司馬。其後程伯休父，周宣王時，以世官克平徐方，錫以官族，因而為氏。楚漢間，司馬卬為趙將，與諸侯伐秦。秦亡，立為殷王，都河內。漢以其地為郡，子孫遂家焉。自卬八世，生征西將軍鈞，字叔平。鈞生豫章太守量，字公度。量生潁川太守儁，字元異。儁生京兆尹防，字建公。帝即防之第二子也。少有奇節，聰朗多大略，博學洽聞，伏膺儒教。漢末大亂，常慨然有憂天下心。南陽太守同郡楊俊名知人，<ref>南陽太守同郡楊俊　「南陽」，各本皆作「南郡」。錢大昕《廿二史考異》{{*|以下簡稱考異}}：「魏志俊為南陽太守，非南郡。」今據改。</ref>見帝，未弱冠，以為非常之器。尚書清河崔琰與帝兄朗善，亦謂朗曰：「君弟聰亮明允，剛斷英特，非子所及也。」",
+              "raw_quote_sha256": "5575da666f9e169c2b0750e72d4cfc9419bd35cd77758dc9e36bd77c0396ef6b",
+              "selected_text_sha256": "c423833b1b98943bb19918e6ed6564f4d5c90ad401b61f8fa4f2fc20abd95026",
+              "begin_anchor": "宣皇帝諱懿，字仲達，河內溫縣孝",
+              "end_anchor": "明允，剛斷英特，非子所及也。」"
+            }
+          ],
+          "removed_apparatus": [
+            {
+              "text_layer": "later_critical_apparatus",
+              "source_line": 11,
+              "raw_note": "南陽太守同郡楊俊　「南陽」，各本皆作「南郡」。錢大昕《廿二史考異》{{*|以下簡稱考異}}：「魏志俊為南陽太守，非南郡。」今據改。",
+              "raw_note_sha256": "513ca7dcf0235998e3ab2871e1ba0f3821ae3c017af3c9a2e3e7a8acff1ed2b3",
+              "scope": "digital_note_reports_yangjun_commandery_variant",
+              "collated_by_current_agent": false
+            }
+          ]
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",
@@ -60,7 +130,7 @@
   ],
   "relations": [],
   "related_people": {
-    "xgn_ado_9u1": "程伯休甫（太史公自序候選）"
+    "xgn_ado_9u1": "程伯休甫"
   },
   "dates": [],
   "name_components": [],

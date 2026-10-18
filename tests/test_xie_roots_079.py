@@ -43,7 +43,7 @@ class XieRoots079(unittest.TestCase):
     def test_uncle_inference_rejects_conflicting_father_or_wrong_nephew(self):
         member = self.rows[self.people['謝據']]
         bad = copy.deepcopy(self.assertions)
-        bad['conflict'] = dict(predicate='father', subject_person_id=self.people['謝據'], object_person_id=self.people['王蒙'])
+        bad['conflict'] = dict(predicate='father', subject_person_id=self.people['謝據'], object_person_id=self.people['王濛'])
         self.assertFalse(parent_through_paternal_uncle_valid(member, self.rows, bad, {self.c['id']: self.c}))
         bad = copy.deepcopy(member); bad['parent_connection']['nephew_person_id'] = self.people['謝絢']
         self.assertFalse(parent_through_paternal_uncle_valid(bad, self.rows, self.assertions, {self.c['id']: self.c}))
@@ -124,6 +124,17 @@ class XieRoots079(unittest.TestCase):
         self.assertEqual(title['title'], '東陽太守')
         self.assertEqual(title['effective_period']['end']['status'], 'unknown')
 
+    def test_wang_meng_canonical_label_preserves_received_meng_spelling(self):
+        person = self.people['王濛']
+        mentions = [m for p in self.c['paragraphs'] for m in p['mentions']
+                    if m.get('person_id') == person]
+        self.assertTrue(any(m['surface'] == '王蒙' for m in mentions))
+        self.assertTrue(any(m['surface'] == '蒙' for m in mentions))
+        self.assertFalse(any(m['surface'] == '王濛' for m in mentions))
+        names = next(n for n in read('data/corpus/profile-names.json')['records']
+                     if n['person_id'] == person)
+        self.assertEqual(names['ming'], '濛')
+
     def test_selected_tree_traces_new_ancestors_and_keeps_siblings(self):
         _, assembled = load_assemblies(ROOT, load_catalog(ROOT))
         for child, parent in [('謝安', '謝裒'), ('謝據', '謝裒'), ('謝朗', '謝據'),
@@ -132,8 +143,8 @@ class XieRoots079(unittest.TestCase):
         self.assertEqual(len(self.rows), 8)
         self.assertNotIn(self.people['謝玄'], self.rows)
         self.assertNotIn(self.people['謝尚'], self.rows)
-        self.assertEqual(assembled[self.people['王修']]['parent_person_id'], self.people['王蒙'])
-        self.assertNotEqual(assembled[self.people['王蒙']]['root_person_id'], self.people['王仁'])
+        self.assertEqual(assembled[self.people['王修']]['parent_person_id'], self.people['王濛'])
+        self.assertNotEqual(assembled[self.people['王濛']]['root_person_id'], self.people['王仁'])
 
 
 if __name__ == '__main__':

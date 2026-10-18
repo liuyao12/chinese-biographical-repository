@@ -11,6 +11,10 @@ def non_person_errors(mention, text):
         role_valid = mention.get('surface') == '太子' and isinstance(term, str) and term.endswith('無太子')
     elif role == 'sovereign_status':
         role_valid = mention.get('surface') == '天子' and term in ('刻天子璽', '求即天子位')
+    elif role == 'office_title_component':
+        role_valid = (mention.get('surface') == '太子'
+                      and term in ('太子太傅', '太子太保', '太子少傅', '太子少保', '太子中庶子', '太子舍人')
+                      and any(i == start for i in starts))
     valid = (mention.get('kind') == 'non_person' and mention.get('person_id') is None
              and 'work_id' not in mention and mention.get('status') == 'contextual_provisional'
              and role_valid

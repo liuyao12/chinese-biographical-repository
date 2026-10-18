@@ -1,7 +1,7 @@
 """An explicit noble-rank change may leave the former title unidentified."""
 
 
-def noble_transfer_errors(holding, holdings, paragraphs, mentions):
+def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None):
     basis = holding.get('transfer_basis')
     keys = {'kind', 'previous_holding_id', 'previous_title_status', 'source_term',
             'actor_mention_id', 'evidence', 'rationale', 'status', 'human_reviewed'}
@@ -22,16 +22,28 @@ def noble_transfer_errors(holding, holdings, paragraphs, mentions):
              and anchor[2].get('person_id') == holding.get('person_id'))
     if not valid:
         return ['爵號改封須屬同人明示爵位變更，不得借王號或官職轉任通過']
-    if term not in ('改封' + title, '改封' + anchor[2]['surface'] + title):
+    if term not in tuple(v + t for v in ('改封', '更封', '徙封') for t in (title, anchor[2]['surface'] + title)):
         return ['爵號改封原詞與新爵或承敘人物不符']
     for e in basis['evidence']:
         if not isinstance(e, dict):
             return ['爵號改封證據須為原段引句']
         hit = paragraphs.get(e.get('paragraph_id'))
-        if (not hit or hit[0] != e.get('chapter_id') or anchor[1] != e.get('paragraph_id')
+        carried = False
+        if anchor[1] != e.get('paragraph_id') and chapters:
+            try:
+                from scripts.subject_continuation import title_attestation_subject_valid
+            except ModuleNotFoundError:
+                from subject_continuation import title_attestation_subject_valid
+            chapter = chapters.get(e.get('chapter_id'))
+            carried = bool(chapter) and any(
+                a.get('paragraph_id') == e.get('paragraph_id')
+                and a.get('person_mention_id') == basis.get('actor_mention_id')
+                and title_attestation_subject_valid(a, holding, chapter)
+                for a in holding.get('attestations', []))
+        if (not hit or hit[0] != e.get('chapter_id') or (anchor[1] != e.get('paragraph_id') and not carried)
                 or not isinstance(e.get('quote'), str) or term not in e['quote']
                 or e['quote'] not in hit[1].get('text', '')
-                or anchor[2]['surface'] not in e['quote']):
+                or (not carried and anchor[2]['surface'] not in e['quote'])):
             return ['爵號改封與人物錨點須在同一實存原段']
     previous_id = basis.get('previous_holding_id')
     if previous_id is None:

@@ -1,6 +1,12 @@
 export default {
+  'Caregiver': '撫養人',
+  'Ritual predecessor': '所繼者',
   'Maternal grandfather': '外祖父',
   'Paternal uncle': '伯叔父',
+  'Maternal uncle': '舅父',
+  'Elder sister': '姊',
+  'Younger sister': '妹',
+  'Paternal collateral relative one generation senior': '父系長一輩旁親',
   'Paternal same-generation collateral relative': '父系同輩旁親',
   'Maternal aunt cousin': '母系姨表親',
   'Separate record of appointment not taken up': '另見未赴任記載',

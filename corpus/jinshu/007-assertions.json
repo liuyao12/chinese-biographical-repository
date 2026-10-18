@@ -1,0 +1,41 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-007-chengdi-family",
+  "assertions": [
+    {
+      "id": "a-jinshu007-chengdi-father",
+      "subject_person_id": "dkn_ge4_286_AAAAAAAAA",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAAAAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "明帝長子",
+        "lineage": "paternal",
+        "birth_order": {
+          "scope": "sons_of_parent",
+          "parent_person_id": "dkn_ge4_286_AAAAAAAA",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-007",
+          "chapter_id": "c-jinshu-007-chengdi-family",
+          "source_id": "s-jinshu-007-chengdi-family",
+          "paragraph_id": "c-jinshu-007-chengdi-family:p001",
+          "quote": "成皇帝諱衍，字世根，明帝長子也。",
+          "subject_person_mention_id": "c-jinshu-007-chengdi-family:p001:m0000",
+          "object_person_mention_id": "c-jinshu-007-chengdi-family:p001:m0010"
+        }
+      ],
+      "interpretation_note": "本紀傳首明記父明帝；長子不補其他兄弟人數。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
