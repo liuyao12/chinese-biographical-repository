@@ -19,13 +19,20 @@ def build(root=ROOT):
     name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
     table_mentions = defaultdict(list)
-    for path in sorted((ROOT/'data/historical-tables').glob('shiji-*.json')):
-        table = json.loads(path.read_text())
+    try:
+        from .table_evidence import load_tables
+    except ImportError:
+        from table_evidence import load_tables
+    for table in load_tables(ROOT).values():
         for fragment in table['fragments']:
             for row in fragment['rows']:
                 for cell in row['cells']:
                     for m in cell['person_mentions']:
-                        table_mentions[m['person_id']].append({'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m})
+                        occurrence = {'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m}
+                        if table['source']['work_id'] != 'w-shiji':
+                            occurrence.update({k:table['source'][k] for k in ('work_id','book_id','chapter_id')})
+                            occurrence.update(source_id=table['source']['id'],source_revision=table['source']['revision'])
+                        table_mentions[m['person_id']].append(occurrence)
     bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
         table_mentions.setdefault(pid, [])

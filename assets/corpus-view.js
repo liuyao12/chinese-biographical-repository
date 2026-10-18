@@ -1,3 +1,5 @@
+import {mountHistoricalTable} from './historical-table-view.js';
+import {historicalTableMarkup} from './historical-table-markup.js';
 import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
@@ -7,7 +9,7 @@ import {safeSourceURL} from './historical-tables.js';
 import {bindPersonCards} from './cbr-person.js';
 
 const $=id=>document.getElementById(id);
-let manifest,work,index,selected,ticket=0,removeCards;
+let manifest,work,index,selected,ticket=0,removeCards,tableView;
 const cache=new Map();
 const catalogPath=path=>/^data\/corpus\/[a-z0-9-]+\/index\.json$/.test(path);
 const chapterPath=path=>/^data\/corpus\/[a-z0-9-]+\/[a-zA-Z0-9_-]+\.json$/.test(path);
@@ -24,7 +26,7 @@ function list() {
   $('corpus-work-list').innerHTML=manifest.works.map(w=>`<a href="${h(w.reader_kind==='shiji'?'shiji.html':'reader.html#'+new URLSearchParams({work:w.id}))}" aria-current="${w.id===work?.id?'page':'false'}">${h(w.title)}</a>`).join('');
   const entries=index?filteredChapters(index,'all',$('chapter-search').value):[];
   $('chapter-count').textContent=t('{count} chapters',{count:entries.length});
-  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(e.title)}</span>${e.text_scope==='partial_chapter'?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
+  $('chapter-list').innerHTML=entries.map(e=>`<a class="chapter-entry" href="${h(sourcePassageURL(e))}" aria-current="${e.chapter_id===selected?.chapter_id?'page':'false'}"><span class="chapter-number">${h(e.book_title)}</span><span>${h(e.title)}</span>${['partial_chapter','partial_table'].includes(e.text_scope)?`<small>${ui('Partial chapter')}</small>`:''}</a>`).join('');
 }
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
@@ -32,6 +34,7 @@ async function render(keepScroll=false) {
   const readingState=keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter')
     ? captureReadingState($('corpus-content')) : null;
   removeCards?.();removeCards=null;
+  tableView?.destroy();tableView=null;
   work=manifest.works.find(w=>w.id===params.get('work')) || (!params.has('work')?manifest.works.find(w=>w.reader_kind==='corpus'):null);
   if (!work || work.reader_kind!=='corpus' || !catalogPath(work.catalog_path)) {
     index=null;selected=null;list();$('corpus-content').innerHTML=`<p>${ui('This source is not available in the imported catalog.')}</p>`;return;
@@ -43,6 +46,14 @@ async function render(keepScroll=false) {
   if (!selected) {
     document.title=work.title+' · 人文';
     $('corpus-content').innerHTML=`<div class="chapter-intro"><h1>${h(work.title)}</h1><p>${ui('Choose an imported chapter.')}</p><p>${ui('Only the listed passages have been imported.')}</p><p>${h(index.policy)}</p></div>`;return;
+  }
+  if(selected.available==='table') {
+    if(!/^[a-z][a-z0-9-]*-\d{3}[a-z]?$/.test(selected.table_id))throw Error(t('Table data could not be loaded.'));
+    document.title=work.title+'·'+selected.title+' · 人文';
+    $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(selected.title)}</h1><p class="corpus-note" data-source-scope>${h(selected.scope_note)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><section data-native-table>${historicalTableMarkup}</section>`;
+    tableView=mountHistoricalTable($('corpus-content').querySelector('[data-native-table]'),selected.table_id);
+    await tableView.ready;
+    return;
   }
   if(!chapterPath(selected.path))throw Error(t('Source text could not be loaded.'));
   const chapter=await json(selected.path);

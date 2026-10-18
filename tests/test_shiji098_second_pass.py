@@ -95,10 +95,12 @@ class FuJinTableKinshipTests(unittest.TestCase):
         self.assertTrue(any(a['id']=='a-shiji016-linjiang-father' for a in parent['relations']))
 
     def test_existing_ten_tables_have_registered_work_book_chapter_ids(self):
-        work=next(w for w in read('registry/works.json')['works'] if w['id']=='w-shiji')
-        books={b['id']:b for b in work['books']}
+        works=read('registry/works.json')['works']
+        books={b['id']:b for work in works for b in work['books']}
         index=read('data/historical-tables/index.json')['tables']
-        self.assertEqual(len(index),10)
+        shiji=[item for item in index if read(item['path'])['source']['work_id']=='w-shiji']
+        self.assertEqual({item['id']for item in shiji},{f'shiji-{n:03d}'for n in range(13,23)})
+        self.assertEqual(len(shiji),10)
         for item in index:
             source=read(item['path'])['source']
             self.assertEqual(books[source['book_id']]['work_id'],source['work_id'])

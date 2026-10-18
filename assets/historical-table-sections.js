@@ -20,7 +20,7 @@ export function sectionMarkup(table, horizontal, language = 'zh-Hant') {
       const isYear = columns[c.column]?.kind === 'western_year';
       const text = isYear && c.year ? yearLabel(c.year, language) : c.text;
       const x = c.x + (horizontal ? 2 : 1), y = c.y + (horizontal ? (western ? 1 : 2) : 2);
-      return `<div tabindex="0" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${isYear ? 'year-cell' : ''}" style="grid-column:${x} / span ${c.width};grid-row:${y} / span ${c.height}" aria-label="${h(text)}" ${isYear ? 'data-editorial-year="true"' : 'data-source-text'}>${isYear ? h(text) : markCell(c)}</div>`;
+      return `<div tabindex="0" role="cell" id="${h(c.id)}" data-row="${h(c.row_id)}" class="grid-cell source-cell ${isYear ? 'year-cell' : ''}" style="grid-column:${x} / span ${c.width};grid-row:${y} / span ${c.height}" aria-label="${h(text)}" ${isYear ? 'data-editorial-year="true"' : 'data-source-text'}>${isYear ? h(text) : markCell(c, {...table.source,table_id:table.id,axis:horizontal?'horizontal':'vertical'})}</div>`;
     }).join('');
     const widths = horizontal ? `11rem repeat(${fragment.rows.length}, 14rem)` : `repeat(${columns.length}, 13rem)`;
     const label = language === 'en' ? `Source table section ${sectionIndex + 1}` : `原表分組 ${sectionIndex + 1}`;

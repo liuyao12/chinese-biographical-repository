@@ -508,3 +508,17 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 徙王可以返回先前王地，而來源省略新王號。`resumption_basis` 連到此前同人的 `earlier_holding_id`，保存目前原稱、`return_source_term`、未經人工審閱的編者理由。首例「徙淮南王喜復故城陽」：稱號用原王字，王地另存城陽；原王字屬 `context_role: pre_transfer_rank`，不虛構城陽王連續字串。前段城陽王、徙淮南王地、復故城陽為三段持爵，兩次轉封前後共享事件及日期；原有循環、同人與不借死亡補終期的檢查仍適用。
 
 `chronology_source_choice` 明列首選篇、日期原詞、另篇原記與同人原文，以及固定平行見證及理由。喜的本筆按118篇帝年暫存時段；52篇喜王年八／四及漢書38十二／五分列，不冒稱已消除差異。月份未知的轉封不借同段其他受封者月日。本筆未知初授與末終留空，不由父親死年、諡號或續計王年補全。人物頁展示暫取來源及另篇原句，引用顯示可去數位排版標記，原排版另存。
+
+### 原表的始封者世代欄
+
+`relationship_layout: founder_generation_column` 用於保留原表「號謚姓名／子／孫／曾孫／玄孫」欄式。兩端必須是同一原列的始封者格與實際具名後裔格，兩格全文、固定 work／book／chapter／source／revision 及逐人錨點均須保存。`generation_source_term` 必須等於原欄題；`generation_distance` 分別為 1、2、3、4，對應 `father`、`grandfather`、`great_grandfather`、`ancestor`。陳述的限定詞、家族路徑與原格世代距離必須一致。
+
+子、孫等欄的首位具名「侯／矦某嗣」可作本欄後裔，不將同格後世或另一人套入欄題；位於前面的帝王紀年錨點不算前任嗣侯。玄孫另須本格祖名及玄孫原詞，不從相鄰欄推中間三代。空的曾孫欄題不建立人物。既有 `first_holder_with_parent_label` 的直接父子驗證保持原規則。
+
+其他著作的原表由原生表格索引供應，閱讀目錄的 `available: table` 指向 `table_id`，不建立虛構段落檔。`text_scope: partial_table` 與 `scope_note` 明列實錄範圍。人物提及與人物頁來源返回連結保留明確 work／book／chapter／table／cell，不能只憑卷號推著作；沒有來源西元紀年的世系表不補造年列。
+
+### 身份已暫定、爵年仍有衝突
+
+身份判讀可附 `chronology_caution`：`kind: unresolved_title_chronology`、`status: unresolved`、`identity_basis: explicit_commentary`、`no_tenure_interpolation: true`。本事須有固定篇文全文、日期及事件原詞、同人提及錨點；`table_accounts` 逐項保存至少兩個不重複原格的完整文字、固定來源、同人錨點與封免原詞。它通知一般程式不可把此身份判讀當作已證明事件當時在爵，既不生成持職時段，也不消去不同來源紀年。原表疑字保持原字，引用注家明名不等於年表任期已獲調和；人工審閱仍為 `false`。
+
+這類判讀的 Kanripo 注說可另存 `quote_format: kanripo_line_wrapped` 與 `display_quote`。原 `quote` 不改；顯示字串只可去除頁標、分行斜線、`¶` 與空白，須與原字逐字相符且引用固定提交。一般引文及未標格式的斜線不得套用此清理，顯示端遇不相符字串回退原文。人物卡僅在已記錄的未定警示存在時顯示爵年提示，不從文字臆測新增警示。

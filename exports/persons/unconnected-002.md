@@ -802,7 +802,6 @@
 | `ngf_f1j_cj9` | 太公 | [《史記・伯夷列傳》][47] | [JSON](ngf_f1j_cj9.json) |
 | `ngh_196_gz6` | 畢公 | [《史記・周本紀》][8] | [JSON](ngh_196_gz6.json) |
 | `ngh_hjf_xnr` | 齊威王 | [《史記・魏世家》][30] | [JSON](ngh_hjf_xnr.json) |
-| `ngj_d5e_402` | 曲城侯 | [《史記・淮南衡山列傳》][104] | [JSON](ngj_d5e_402.json) |
 | `ngl_ime_tgu` | 太史公 | [《史記・田儋列傳》][80] | [JSON](ngl_ime_tgu.json) |
 | `nh2_z0q_c1e` | 西門豹 | [《史記・滑稽列傳》][112] | [JSON](nh2_z0q_c1e.json) |
 | `nhk_xgq_7qk` | 燕王聊城未名 | [《史記・魯仲連鄒陽列傳》][69] | [JSON](nhk_xgq_7qk.json) |
@@ -2208,10 +2207,10 @@
 | `yfa_10s_1s3` | 馮唐 | [《史記・太史公自序》][116] | [JSON](yfa_10s_1s3.json) |
 | `yfx_myv_qft` | 子西 | [《史記・楚世家》][26] | [JSON](yfx_myv_qft.json) |
 | `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][57] | [JSON](yg1_ml2_61c.json) |
+| `yg3_wq7_tpj` | 武王 | [《史記・貨殖列傳》][115] | [JSON](yg3_wq7_tpj.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `yg3_wq7_tpj` | 武王 | [《史記・貨殖列傳》][115] | [JSON](yg3_wq7_tpj.json) |
 | `ygk_y1u_niv` | 衛慶 | [《史記・淮南衡山列傳》][104] | [JSON](ygk_y1u_niv.json) |
 | `ygr_80w_wp2` | 嬖姬（陳宣公款母） | [《史記・陳杞世家》][22] | [JSON](ygr_80w_wp2.json) |
 | `yi5_jym_uoz` | 西伯 | [《史記・太史公自序》][116] | [JSON](yi5_jym_uoz.json) |

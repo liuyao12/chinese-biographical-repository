@@ -1,4 +1,6 @@
 export default {
+  'Ancestor': '先祖',
+  'Title chronology unresolved; no tenure inferred for this event.': '爵年尚有異說，未據此推定本事時在爵。',
   'Title chronology source choice': '稱號紀年來源判讀',
   'Other source wording': '另篇原記',
   'Acting appointment': '代理任事',

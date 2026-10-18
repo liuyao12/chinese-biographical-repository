@@ -1295,6 +1295,27 @@
           }
         ]
       }
+    },
+    {
+      "table_id": "hanshu-016",
+      "cell_id": "hanshu-016-t1-r068-c04",
+      "title": "《漢書·髙惠髙后文功臣表》曲成列",
+      "quote": "孝文元年，矦捷嗣，八年，有罪，免。十亖年，捷復封，十八年，復免。戶九千三百。孝景中五年，矦捷復封，五年薨。",
+      "year": null,
+      "mention": {
+        "start": 38,
+        "end": 40,
+        "surface": "孝景",
+        "person_id": "yqp_nlb_p1p_ACA",
+        "status": "contextual_provisional",
+        "interpretation_note": "本表文景武年序中之景帝，對照孝景本紀首段。",
+        "id": "hanshu-016-t1-r068-c04-m003"
+      },
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-016",
+      "chapter_id": "table-chapter-hanshu-016",
+      "source_id": "table-witness-hanshu-016",
+      "source_revision": "2374254"
     }
   ],
   "sources": [
@@ -2154,6 +2175,39 @@
           "editorial_readings": [],
           "extraction_note": "去header2與現代節標；移除字形選擇包裝而保留姦字，原字未轉換，未核影像。",
           "note": "全篇收到正文，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-hanshu-016",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-016",
+      "source_id": "table-witness-hanshu-016",
+      "source": {
+        "id": "table-witness-hanshu-016",
+        "work_id": "w-hanshu",
+        "book_id": "b-hanshu-016",
+        "chapter_id": "table-chapter-hanshu-016",
+        "url": "https://zh.wikisource.org/wiki/漢書/髙惠髙后文功臣表",
+        "revision_url": "https://zh.wikisource.org/w/index.php?oldid=2374254&title=漢書/髙惠髙后文功臣表",
+        "revision": "2374254",
+        "accessed": "2026-10-17",
+        "response_sha256": "50cbb532ec3f6f5c85a5c810d3fe962e6263f058147d832c30478d939c3c17cb",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；數位轉錄保留維基文庫貢獻者署名，按來源頁所示授權。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_structural_source_review",
+        "text_scope": "partial_table",
+        "extent": "僅錄髙祖功臣表曲成一列與八個原欄題，未錄其他功臣列、全卷或書影。",
+        "note": "從固定HTML第1個wikitable第69原列（不含欄題的第68列）選取，保留八欄欄序、原字及位次注語；只去格外緣空白。僅錄一列，不代表全卷已轉錄或影像已核。未明曆年不補西元軸。",
+        "selection": {
+          "source_table_number": 1,
+          "source_row_numbers": [
+            69
+          ],
+          "source_body_row_count": 218,
+          "source_section_title": "髙祖功臣表"
         }
       }
     },
