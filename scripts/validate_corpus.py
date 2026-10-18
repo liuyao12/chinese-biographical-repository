@@ -700,6 +700,12 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'punctuation_attribution' in h:
+                    try:
+                        from scripts.office_attributions import punctuation_attribution_errors
+                    except ModuleNotFoundError:
+                        from office_attributions import punctuation_attribution_errors
+                    errors.extend(punctuation_attribution_errors(h, paragraphs, mentions))
                 if 'end_basis' in h:
                     check(named_office_end_valid(h, paragraphs, mentions), '明示終職須綁同人此職原詞，不得以一般死亡補所有職爵')
                 if 'inheritance' in h:
@@ -754,6 +760,12 @@ def validate(root=ROOT):
                     except ModuleNotFoundError:
                         from royal_transfers import royal_transfer_errors
                     errors.extend(royal_transfer_errors(h, title_records, paragraphs, mentions))
+                if 'chronology_source_choice' in h:
+                    try:
+                        from scripts.royal_transfers import chronology_choice_errors
+                    except ModuleNotFoundError:
+                        from royal_transfers import chronology_choice_errors
+                    errors.extend(chronology_choice_errors(h, paragraphs, chapters))
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
@@ -936,6 +948,8 @@ def validate(root=ROOT):
                                and all(isinstance(place,dict) and isinstance(place.get('source_name'),str)
                                        and any('王'+place['source_name'] in e.get('quote','') for e in h['evidence'])
                                        for place in places))
+                        if not royal and h.get('mode') == 'transfer' and 'resumption_basis' in h:
+                            royal = not royal_transfer_errors(h, title_records, paragraphs, mentions)
                         check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])

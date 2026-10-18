@@ -35,7 +35,7 @@
       "首段上限定高祖敘事，其後皇帝須逐段重辨。",
       "呂后母之為養育行為，不混入生母。",
       "獻美人與得幸不直接記婚姻；父世縣也待版本核讀，不猜父名。",
-      "第二段上依及孝文帝轉折分高祖與孝文帝；太子未猜姓名，擬於天子為泛稱。第三段太子奇屬柴武，不與第二段太子自動合併。",
+      "第二段上依及孝文帝轉折分高祖與孝文帝；太子依孝文時序辨為後來的景帝啟，擬於天子仍為泛稱。第三段太子奇屬柴武，不與第二段太子自動合併。",
       "奏議中的長安尉奇與柴武太子奇分人；逸賀福只保留原名，不猜姓。嬰僅按議者候選登記，不由單字猜灌嬰。第四段擬於天子泛稱留未定。",
       "第10段劉長對話侍者按個人候選保存，末句不發封餽侍者是否同人待核；丞相御史不直接按前奏議姓名連接。子安勃賜良均不由列舉次序推長幼。堯舜周公管蔡典故不當當朝死亡事件。",
       "第10段末句不發封餽侍者保留未定，不與對話中的侍者預接。",
@@ -44,7 +44,8 @@
       "不害建與淮南王安、太子遷分人；審卿的大父按故辟陽侯敘事，缺父代不補。大將軍青候選由第21段明名承接第20段大將軍，同指仍待覆核。騎上下山及上書的上不標皇帝。太子自剄不殊不直接記死亡。謀殺與偽印不作已發生官爵授任。",
       "第25段乘舒三子有明示次序，徐來四子及厥姬二子仍是群體；不按外部家譜補姓名。謀反被族群體不全數拆個人。淮南王安與衡山王賜按第24段兄弟明示分人。",
       "第27段徐來兄、假母及善舞侍者分別保存；廣按其子指徐來子，未補母之外的關係。第29段安為漢中尉，不連淮南王安；不孝的孝為普通詞，待逐處篩除。第28段上書的上為動詞。",
-      "第29段立孝為太子中的太子指擬議繼承人孝；只記來源提及，不作已授封，不連爽。"
+      "第29段立孝為太子中的太子指擬議繼承人孝；只記來源提及，不作已授封，不連爽。",
+      "已逐項將三處上無太子的太子及刻天子璽、求即天子位的天子分為缺位／帝位制度用語；第21段末謀議中的兩處大將軍與兩處丞相依青、弘原文辨人。未據謀議新增死亡、說降或授職事件；偽印、偽請書清單另留待核。"
     ],
     "age_assertions": [
       {
@@ -3103,9 +3104,14 @@
           "start": 97,
           "end": 99,
           "surface": "太子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "vacant_office",
+          "basis_quote": "方今上無太子",
+          "interpretation_note": "方今上無太子明示當時沒有太子，這個太子是未存在的職位，不應建立或連結人物。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-shiji-118-huainan:m015-0100",
@@ -3202,9 +3208,14 @@
           "start": 228,
           "end": 230,
           "surface": "太子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "vacant_office",
+          "basis_quote": "王心以為上無太子",
+          "interpretation_note": "王心以為上無太子再述同一缺位判斷；非某一位已存在的皇太子。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-shiji-118-huainan:m015-0236",
@@ -4279,9 +4290,14 @@
           "start": 28,
           "end": 30,
           "surface": "太子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "vacant_office",
+          "basis_quote": "上無太子",
+          "interpretation_note": "上無太子宮車即晏駕為反事假設前提；不指淮南太子遷或衡山太子爽。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-shiji-118-huainan:m018-0037",
@@ -5671,9 +5687,9 @@
           "start": 579,
           "end": 582,
           "surface": "大將軍",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "5dd_l1c_6g8",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-118-huainan:m021-0586",
@@ -5869,18 +5885,18 @@
           "start": 899,
           "end": 902,
           "surface": "大將軍",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "5dd_l1c_6g8",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-118-huainan:m021-0903",
           "start": 903,
           "end": 905,
           "surface": "丞相",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
         },
         {
           "id": "c-shiji-118-huainan:m021-0916",
@@ -5896,9 +5912,9 @@
           "start": 923,
           "end": 925,
           "surface": "丞相",
-          "kind": "unresolved",
-          "person_id": null,
-          "status": "unresolved"
+          "kind": "person",
+          "person_id": "q69_35n_f3h",
+          "status": "contextual_provisional"
         }
       ]
     },
@@ -7519,9 +7535,14 @@
           "start": 531,
           "end": 533,
           "surface": "天子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "sovereign_status",
+          "basis_quote": "刻天子璽",
+          "interpretation_note": "刻天子璽為偽造帝璽的身分制度用語，不能由天子二字自動連到武帝；同段求即天子位亦為所欲身分。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         },
         {
           "id": "c-shiji-118-huainan:m027-0548",
@@ -7555,9 +7576,14 @@
           "start": 577,
           "end": 579,
           "surface": "天子",
-          "kind": "unresolved",
+          "kind": "non_person",
           "person_id": null,
-          "status": "unresolved"
+          "status": "contextual_provisional",
+          "lexical_role": "sovereign_status",
+          "basis_quote": "求即天子位",
+          "interpretation_note": "求即天子位明示淮南王所求之位，無現實任職者指涉。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
         }
       ]
     },

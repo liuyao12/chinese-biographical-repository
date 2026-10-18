@@ -1,4 +1,10 @@
 export default {
+  'Title chronology source choice': '稱號紀年來源判讀',
+  'Other source wording': '另篇原記',
+  'Acting appointment': '代理任事',
+  'Office punctuation reading': '官職句讀判讀',
+  'Received punctuation': '收到句讀',
+  'Preferred segmentation': '暫取分讀',
   'Source age approximation': '來源約數',
   'Mythical creature reading': '神話生靈讀法',
   'Divine referent': '神祇用稱',

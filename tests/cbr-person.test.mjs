@@ -500,3 +500,23 @@ test('unsegmented source names render whole with original spelling below, withou
  for(const full of [false,true]){const html=personCard(p,full);assert.match(html,new RegExp('<h'+(full?1:3)+'>合成姓名</h'));assert.match(html,/person-aliases/);assert.match(html,/合成異文/);assert.doesNotMatch(html,/null|undefined/);}
  assert.equal(JSON.stringify(p),before);
 });
+
+test('acting office is explicit and kept separate from an undifferentiated office',()=>{
+ const source=JSON.parse(readFileSync(new URL('../corpus/shiji/118-titles.json',import.meta.url),'utf8'));
+ const acting=source.holdings.find(h=>h.id==='th-shiji118-fengjing-acting-yushi');const regular={...acting,id:'synthetic-regular',appointment_role:undefined,punctuation_attribution:undefined};
+ const p={id:'synthetic-person',label:'合成測試',titles:[acting,regular]};const html=personCard(p,true);assert.equal((html.match(/class="person-title"/g)||[]).length,2);assert.match(html,/person-acting-office/);assert.match(html,/代理任事/);assert.match(html,/官職句讀判讀/);assert.match(html,/典客臣馮敬行御史大夫事、宗正臣逸/);assert.match(html,/683113d4baf6febecaf2ccb7913df87c4d68d454/);
+ assert.doesNotMatch(personCard(p),/person-office-attribution/);
+});
+test('office punctuation evidence escapes text and refuses script URLs',()=>{
+ const a={received_segment:'<script>bad</script>',preferred_segmentation:'<img>',rationale:'<b>',references:[{url:'javascript:alert(1)',quote:'<svg>',title:'<i>'}]};const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'合成官',appointment_role:'acting',punctuation_attribution:a,evidence:[]}]},true);assert.match(html,/&lt;script&gt;/);assert.match(html,/&lt;svg&gt;/);assert.doesNotMatch(html,/href="javascript:|<img>|<svg>/);
+});
+test('acting label changes language without translating source office wording',()=>{
+ try{setLocale('en');const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'御史大夫',appointment_role:'acting'}]});assert.match(html,/Acting appointment/);assert.match(html,/御史大夫/);}finally{setLocale('zh-Hant');}
+});
+
+test('title chronology retains a readable alternative chapter and fixed primary evidence',()=>{
+ const data=JSON.parse(readFileSync(new URL('../corpus/shiji/118-titles.json',import.meta.url),'utf8'));const h=data.holdings.find(h=>h.id==='th-shiji118-xi-chengyang-return');const p={id:'synthetic-person',label:'合成測試',titles:[h]};const html=personCard(p,true);assert.match(html,/稱號紀年來源判讀/);assert.match(html,/孝文十六年/);assert.match(html,/四年，復還王城陽/);assert.match(html,/chapter=52/);assert.match(html,/KR2a0007_038/);assert.doesNotMatch(personCard(p),/person-title-chronology-choice/);
+});
+test('title chronology escapes source alternatives and rejects executable links',()=>{
+ const c={preferred_source_expression:'<x>',alternative_source_term:'<img>',alternative_evidence:{quote:'<svg>'},rationale:'<script>',references:[{quote:'<iframe>',url:'javascript:alert(1)',title:'bad'}]};const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'王',evidence:[],chronology_source_choice:c}]},true);assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;iframe&gt;/);assert.doesNotMatch(html,/href="javascript:|<svg>|<img>/);
+});
