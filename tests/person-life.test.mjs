@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, studyReferencesHTML} from '../assets/person-life.js';
+test('an era window remains a Chinese civil-year range without choosing either endpoint',()=>{
+ const event={normalized_date_range:{basis:'within_named_era',calendar:'chinese_civil',earliest:{era:'CE',era_year:100,year:100},latest:{era:'CE',era_year:108,year:108}}};
+ assert.equal(lifeYearLabel(event),'西元100至108年（中國曆年範圍）');
+ assert.equal(civilYearLabelData(event),null);
+});
 test('bounded or qualified reported ages retain their source wording', () => {
   assert.equal(ageLabel({value:null,source_term:'百有六十餘歲',qualified_source_term:'蓋老子百有六十餘歲'}),'蓋老子百有六十餘歲');
   assert.equal(ageLabel({value:70,source_term:'年七十'}),'70 歲（來源報齡）');

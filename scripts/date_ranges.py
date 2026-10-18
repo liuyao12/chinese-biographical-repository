@@ -31,6 +31,12 @@ def parallel_event_date(date):
 def year_range_errors(value, evidence, expression):
     if not isinstance(value, dict):
         return ['紀年範圍須為物件']
+    if value.get('basis') == 'within_named_era':
+        try:
+            from .civil_era_ranges import civil_era_range_errors
+        except ImportError:
+            from civil_era_ranges import civil_era_range_errors
+        return civil_era_range_errors(value, evidence, expression)
     if value.get('basis') == 'calendar_reform_transition_year':
         try:
             from .calendar_reform import transition_year_errors
@@ -62,4 +68,5 @@ def year_range_label(value):
     a, b = value['earliest'], value['latest']
     prefix = lambda p: '西元' + ('前' if p['era'] == 'BCE' else '')
     last = str(b['era_year']) if a['era'] == b['era'] else prefix(b) + str(b['era_year'])
-    return f"{prefix(a)}{a['era_year']}至{last}年（暫定範圍）"
+    suffix = '中國曆年範圍' if value.get('basis') == 'within_named_era' and value.get('calendar') == 'chinese_civil' else '暫定範圍'
+    return f"{prefix(a)}{a['era_year']}至{last}年（{suffix}）"

@@ -3,6 +3,15 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {chapterURL, chapterParagraph, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
 const index = JSON.parse(readFileSync(new URL('../data/corpus/index.json', import.meta.url)));
+test('a direct native-work profile returns to its principal source without overriding an explicit context',()=>{
+ const native={work_id:'w-jinshu',work_title:'晉書',book_id:'b-jinshu-075',chapter_id:'c-jinshu-075-synthetic',paragraph_id:'synthetic-p1',paragraph_ids:['synthetic-p1'],title:'Synthetic source',count:10};
+ const person={occurrences:[native,{work_id:'w-shiji',chapter_id:'c-shiji-075-synthetic',count:2}]};
+ const result=profileSourceContext(person,new URLSearchParams());
+ assert.match(result.text,/晉書/);
+ assert.equal(new URLSearchParams(result.href.split('#')[1]).get('book'),'b-jinshu-075');
+ assert.equal(profileSourceContext(person,new URLSearchParams({work:'w-jinshu',chapter:native.chapter_id,book:'b-jinshu-999'})),null);
+ assert.equal(profileSourceContext({occurrences:[{work_id:'w-shiji',count:20},native]},new URLSearchParams()),null);
+});
 test('Shiji contents use five historical categories and retain all 130 entries, including pending texts', () => {
   assert.equal(index.chapters.length,130);
   for (const [category,count] of [['benji',12],['biao',10],['shu',8],['shijia',30],['liezhuan',70]]) assert.equal(filteredChapters(index,category).length,count);

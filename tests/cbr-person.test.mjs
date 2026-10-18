@@ -3,6 +3,17 @@ import {setLocale} from '../assets/i18n.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards, titleUsageHTML} from '../assets/cbr-person.js';
+test('a sourced clan appellation heads the profile while zi remains separate and ming unknown',()=>{
+ const name={surname:'鍾',ming:null,zi:'琰',clan_style:{value:'鍾氏'},quote:'鍾氏，字琰。',additional_names:[]};
+ const html=personCard({id:'synthetic-woman',label:'Synthetic woman',name_components:[name]},true);
+ assert.match(html,/<h1>鍾氏<\/h1>/);
+ assert.match(html.replace(/<[^>]*>/g,''),/字 琰/);
+ assert.doesNotMatch(html,/<h1>鍾琰<\/h1>/);
+});
+test('maternal grandfather retains the source relation with its own label',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',related_people:{'synthetic-grand':'Synthetic grandfather'},relations:[{subject_person_id:'synthetic-child',predicate:'grandfather',object_person_id:'synthetic-grand',qualifiers:{lineage:'maternal',source_term:'外祖'},evidence:[]}]};
+ assert.match(personCard(p,true),/外祖父/);
+});
 test('年表錨點保留原文並連至人物頁，拒絕錯位或交疊',()=>{
  const c={text:'張儀相。',person_mentions:[{start:0,end:2,surface:'張儀',person_id:'abc_def_123'}]};
  const html=markCell(c); assert.match(html,/張儀<\/a>相。/);assert.match(html,/person.html#abc_def_123/);

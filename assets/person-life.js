@@ -60,7 +60,8 @@ export function lifeYearLabel(event) {
   const a = range?.earliest, b = range?.latest;
   if (!a?.era_year || !b?.era_year) return '';
   const prefix = p => `西元${p.era === 'BCE' ? '前' : ''}`;
-  return `${prefix(a)}${a.era_year}至${a.era === b.era ? '' : prefix(b)}${b.era_year}年（暫定範圍）`;
+  const suffix=range.basis==='within_named_era'&&range.calendar==='chinese_civil'?'中國曆年範圍':'暫定範圍';
+  return `${prefix(a)}${a.era_year}至${a.era === b.era ? '' : prefix(b)}${b.era_year}年（${suffix}）`;
 }
 
 // Bibliography is reference material, separate from the received event quote.

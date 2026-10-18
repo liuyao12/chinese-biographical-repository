@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "荀勖",
-    "公曾"
+    "公曾",
+    "勖"
   ],
   "titles": [],
   "addresses": [
@@ -47,7 +48,7 @@
       "category": "",
       "title": "王沈荀顗荀勖馮紞列傳第九",
       "paragraph_id": "c-jinshu-039-wangxun-feng:xu-intro:p001",
-      "count": 2,
+      "count": 3,
       "quote": "荀勖，字公曾，潁川潁陰人，漢司空爽曾孫也。祖棐，射聲校尉。父肸，早亡。",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-039",
@@ -55,11 +56,13 @@
       "source_id": "s-jinshu-039-wangxun-feng",
       "work_title": "晉書",
       "paragraph_ids": [
-        "c-jinshu-039-wangxun-feng:xu-intro:p001"
+        "c-jinshu-039-wangxun-feng:xu-intro:p001",
+        "c-jinshu-039-wangxun-feng:xu-sons:p001"
       ],
       "mention_ids": [
         "c-jinshu-039-wangxun-feng:xu-intro:p001:m0000",
-        "c-jinshu-039-wangxun-feng:xu-intro:p001:m0004"
+        "c-jinshu-039-wangxun-feng:xu-intro:p001:m0004",
+        "c-jinshu-039-wangxun-feng:xu-sons:p001:m0000"
       ]
     }
   ],
@@ -117,6 +120,17 @@
                 "begin_anchor": "荀勖，字公曾，潁川潁",
                 "end_anchor": "聲校尉。父肸，早亡。"
               }
+            },
+            {
+              "proposed_paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+              "source_lines": [
+                100,
+                100
+              ],
+              "raw_quote": "　　勖久管機密，有才思，探得人主微旨，不犯顏忤爭，故得始終全其寵祿。{{YL|太康十年}}卒，詔贈司徒，賜東園秘器、朝服一具、錢五十萬、布百匹。遣兼御史持節護喪，諡曰成。勖有十子，其達者輯、藩、組。",
+              "raw_quote_sha256": "60d32a3b8a8b0d7a80ee5a7fab36d8db6c0743c787e560b87545df107938d6dc",
+              "begin_anchor": "勖有十子，其達者輯、藩、組。",
+              "end_anchor": "勖有十子，其達者輯、藩、組。"
             }
           ],
           "extraction_note": "按明列首尾選錄；保留原字，Kanripo正文與括號古注、頁標分離，維基文庫選句沒有模板轉換。未核書影，未完成全卷。"
@@ -202,13 +216,91 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-001",
+      "subject_person_id": "yoo_ox0_545_FAAAB",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-002",
+      "subject_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-003",
+      "subject_person_id": "yoo_ox0_545_FAAAC",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "yoo_ox0_545_F": "荀爽",
     "yoo_ox0_545_FA": "荀棐",
     "yoo_ox0_545_FAA": "荀肸",
-    "yoo_ox0_545_FAAA": "荀勖"
+    "yoo_ox0_545_FAAA": "荀勖",
+    "yoo_ox0_545_FAAAA": "荀藩",
+    "yoo_ox0_545_FAAAB": "荀輯",
+    "yoo_ox0_545_FAAAC": "荀組"
   },
   "dates": [],
   "name_components": [
@@ -305,6 +397,81 @@
         "lineage": "paternal"
       },
       "interpretation_note": "只記本段明示的親屬與世次；原文與編輯組裝分開，不補未知婚姻、生母或年代。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-001",
+      "subject_person_id": "yoo_ox0_545_FAAAB",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-002",
+      "subject_person_id": "yoo_ox0_545_FAAAA",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu039-xun-sons-003",
+      "subject_person_id": "yoo_ox0_545_FAAAC",
+      "predicate": "father",
+      "object_person_id": "yoo_ox0_545_FAAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-sons:p001",
+          "quote": "勖有十子，其達者輯、藩、組。"
+        }
+      ],
+      "qualifiers": {
+        "lineage": "paternal",
+        "source_term": "勖有十子，其達者輯、藩、組。"
+      },
+      "interpretation_note": "其達者只是本段選列三人，不能據列舉順序填絕對排行；另七名未列者不造姓名。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

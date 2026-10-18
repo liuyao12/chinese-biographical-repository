@@ -20,7 +20,8 @@ export async function traceFamily(person, load) {
       // A source's son/daughter assertion does not establish the parent's sex.
       // Only explicitly typed father/mother edges are used for upper generations.
       if (kind === 'mother' && subject && r.predicate === 'mother') id = r.object_person_id;
-      if (['grandfather', 'great_grandfather'].includes(kind) && subject && r.predicate === kind) id = r.object_person_id;
+      if (['grandfather', 'great_grandfather'].includes(kind) && subject && r.predicate === kind
+          && r.qualifiers?.lineage !== 'maternal') id = r.object_person_id;
       if (kind === 'spouse' && r.predicate === 'spouse') id = subject ? r.object_person_id : object ? r.subject_person_id : null;
       if (kind === 'children' && object && ['father', 'mother'].includes(r.predicate)) id = r.subject_person_id;
       if (kind === 'children' && subject && ['son', 'daughter'].includes(r.predicate)) id = r.object_person_id;
