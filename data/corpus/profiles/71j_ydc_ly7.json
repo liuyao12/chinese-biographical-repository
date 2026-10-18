@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "71j_ydc_ly7",
   "canonical_person_id": "71j_ydc_ly7",
-  "label": "嚴助（酷吏列傳候選）",
+  "label": "莊助",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -201,6 +201,26 @@
       ]
     },
     {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p004",
+      "count": 2,
+      "quote": "黯多病，病且滿三月，上常賜告者數，終不愈。最後病，莊助為請告。上曰：「汲黯何如人哉？」助曰：「使黯任職居官，無以踰人。然至其輔少主，守城深堅，招之不來，麾之不去，雖自謂賁育亦不能奪之矣。」上曰：「然。古有社稷之臣，至如黯，近之矣。」",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m004-0025",
+        "c-shiji-120-jizheng:m004-0043"
+      ]
+    },
+    {
       "number": 122,
       "category": "liezhuan",
       "title": "酷吏列傳第六十二",
@@ -300,6 +320,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-122-kuli",
       "work_id": "w-shiji",
       "book_id": "b-shiji-122",
@@ -349,10 +393,69 @@
   ],
   "relations": [],
   "related_people": {
-    "71j_ydc_ly7": "嚴助（酷吏列傳候選）"
+    "71j_ydc_ly7": "莊助"
   },
   "dates": [],
   "reading_decisions": [
+    {
+      "id": "d-shiji120-additional-06",
+      "person_id": "71j_ydc_ly7",
+      "surfaces": [
+        "莊助",
+        "助"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-122-kuli"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m004-0025",
+          "c-shiji-120-jizheng:m004-0043"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p004",
+          "quote": "黯多病，病且滿三月，上常賜告者數，終不愈。最後病，莊助為請告。上曰：「汲黯何如人哉？」助曰：「使黯任職居官，無以踰人。然至其輔少主，守城深堅，招之不來，麾之不去，雖自謂賁育亦不能奪之矣。」上曰：「然。古有社稷之臣，至如黯，近之矣。」"
+        },
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p023",
+          "quote": "莊助使人言買臣"
+        },
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p023",
+          "quote": "治淮南獄，排擠莊助"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L175-L177",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "辱朝廷何黯多病病且滿三月上常賜告者數終不瘉¶\n(如淳曰杜欽所謂病滿賜告詔恩也數者/非一也師古曰數音所角反瘉與愈同)最後嚴助為¶\n請告上曰汲黯何如人也曰使黯任職居官亡以瘉人¶",
+          "display_claim": "最後嚴助為請告",
+          "display_claim_is_paraphrase": true,
+          "scope": "received_parallel_same_leave_request",
+          "image_verified": false
+        }
+      ],
+      "rationale": "汲黯病滿請告的同一事件在漢書作嚴助，史記作莊助；連到武帝朝同姓變體的侍臣，不把請告解為實際輔佐少主。",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "eq-shiji113-core-zhuangzhu",
       "person_ids": [

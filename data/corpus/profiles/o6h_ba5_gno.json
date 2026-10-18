@@ -189,6 +189,25 @@
         "c-shiji-108-han:m001-0066",
         "c-shiji-108-han:m001-0092"
       ]
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p016",
+      "count": 1,
+      "quote": "鄭莊以任俠自喜，脫張羽於緦聲聞梁楚之閒。孝景時，為太子舍人。每五日洗沐，常置驛馬安諸郊，存諸故人，請謝賓客，夜以繼日，至其明旦，常恐不遍。莊好黃老之言，其慕長者如恐不見。年少官薄，然其游知交皆其大父行，天下有名之士也。武帝",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p016"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m016-0009"
+      ]
     }
   ],
   "table_occurrences": [],
@@ -295,6 +314,30 @@
           "note": "未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
     }
   ],
   "relations": [
@@ -335,6 +378,78 @@
     "o6h_ba5_gno": "張羽"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji120-additional-07",
+      "person_id": "o6h_ba5_gno",
+      "surfaces": [
+        "張羽"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-058-liang",
+        "c-shiji-108-han"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m016-0009"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p016",
+          "quote": "鄭莊以任俠自喜，脫張羽於緦聲聞梁楚之閒。孝景時，為太子舍人。每五日洗沐，常置驛馬安諸郊，存諸故人，請謝賓客，夜以繼日，至其明旦，常恐不遍。莊好黃老之言，其慕長者如恐不見。年少官薄，然其游知交皆其大父行，天下有名之士也。武帝立，莊稍遷為魯中尉、濟南太守、江都相，至九卿為右內史。以武安侯魏其時議，貶秩為詹事，遷為大農令。"
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p005",
+          "quote": "使韓安國、張羽等為大將軍"
+        },
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p001",
+          "quote": "孝王使安國及張羽爲將"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0002_120.txt",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_120.txt#L128-L128",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "a6a4d66d0a60f2d80cd7b7ab0941b146036f3aa6",
+          "raw_file_sha256": "6be7ed594e386ab1e9d4bb6d36eb70be191f97fe0da2db99e430afe915e5fa82",
+          "raw_quote": "鄭莊以任俠自喜脫張羽於戹(服䖍曰梁孝王之/將楚相之弟也)聲聞¶",
+          "display_claim": "服䖍曰梁孝王之將楚相之弟也",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_role_and_unnamed_brother",
+          "image_verified": false
+        },
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L264-L265",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "者為大夫而逐鄭君鄭君死孝文時當時以任侠自喜¶\n脫張羽於阸(服䖍曰梁孝王将楚相之弟也師/古曰喜音許吏反脱音佗活反)聲聞梁¶",
+          "display_claim": "服䖍曰梁孝王將楚相之弟也",
+          "display_claim_is_paraphrase": true,
+          "scope": "parallel_commentary_same_attribution_not_independent_vote",
+          "image_verified": false
+        }
+      ],
+      "rationale": "鄭當時所救張羽有古注明釋梁孝王將，與梁、韓安國篇同名同主將領相合；楚相之弟只存原說，不補兄名或援救日期。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "o6h_ba5_gno"

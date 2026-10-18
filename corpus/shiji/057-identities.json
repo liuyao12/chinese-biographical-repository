@@ -1393,7 +1393,7 @@
     },
     {
       "id": "d-shiji057-057",
-      "person_id": "jvf_vfb_six",
+      "person_id": "6d6_eg1_o3a_B",
       "surfaces": [
         "信",
         "王信"
@@ -1715,6 +1715,61 @@
       ],
       "rationale": "按明示姓名、軍事近接、父子承爵與局部皇帝敘事暫接。周勃和勝之的絳侯分開，亞夫條侯與平曲支不混；代地韓信依韓王信近接而不接淮陰侯。未名人物、單名官員不補姓，校勘字不作定本，相術預言不作史實已驗。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "d-shiji057-wangxin-cross-chapter",
+      "person_id": "6d6_eg1_o3a_B",
+      "surfaces": [
+        "王信",
+        "信"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-057-zhou",
+        "c-shiji-049-waiqi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-057-zhou:m018-0009",
+          "c-shiji-057-zhou:m018-0042",
+          "c-shiji-057-zhou:m018-0097",
+          "c-shiji-057-zhou:m018-0156",
+          "c-shiji-057-zhou:m023-0013"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p018",
+          "quote": "竇太后曰：「皇后兄王信可侯也。」景帝讓曰：「始南皮、章武侯先帝不侯，及臣即位乃侯之。信未得封也。」竇太后曰：「人主各以時行耳。自竇長君在時，竟不得侯，死後乃［封］其子彭祖顧得侯。吾甚恨之。帝趣侯信也！」景帝曰：「請得與丞相議之。」丞相議之，亞夫曰：「高皇帝約『非劉氏不得王，非有功不得侯。不如約，天下共擊之』。今信雖皇后兄，無功，侯之，非約也。」景帝默然而止。"
+        },
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p023",
+          "quote": "條侯果餓死。死後，景帝乃封王信為蓋侯。"
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p022",
+          "quote": "封皇后兄信為蓋侯。"
+        },
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p023",
+          "quote": "景帝乃封王信為蓋侯。"
+        }
+      ],
+      "references": [],
+      "rationale": "同為景帝皇后兄、封蓋侯，接王仲家族中之信；不把兩篇相異授封敘次調成同一確切年月。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
