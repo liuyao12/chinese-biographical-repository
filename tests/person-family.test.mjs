@@ -176,3 +176,16 @@ test('a maternal aunt cousin is not a paternal parent or an invented maternal an
   assert.deepEqual(family.children,[]);
   assert(!loaded.includes('emperor'));
 });
+
+test('a senior-generation collateral relative is not an inferred father',async()=>{
+ const child={id:'junior',relations:[{...relation('junior','agnatic_senior_kin','senior'),qualifiers:{kinship_structure:{lineage:'paternal',generation_difference:-1,distance:null,common_ancestor_person_id:null}}}]};
+ const f=await traceFamily(child,async id=>({id}));assert.deepEqual(f.ancestors,[[],[],[]]);
+});
+
+test('care and ritual succession do not replace biological parents or create descendants',async()=>{
+ const child={id:'child',relations:[relation('child','father','father'),relation('child','mother','mother'),relation('child','raised_by','care'),relation('child','ritual_successor_of','prior')]};
+ const loaded=[];const f=await traceFamily(child,async id=>{loaded.push(id);return {id};});
+ assert.deepEqual(f.ancestors.map(g=>g.map(x=>x.id)),[['father'],[],[]]);assert.deepEqual(f.mother.map(x=>x.id),['mother']);assert.deepEqual(f.children,[]);assert(!loaded.includes('care'));assert(!loaded.includes('prior'));
+ const caregiver={id:'care',relations:[relation('child','raised_by','care')]};
+ const other=await traceFamily(caregiver,async id=>({id}));assert.deepEqual(other.children,[]);assert.deepEqual(other.ancestors,[[],[],[]]);
+});

@@ -4,15 +4,15 @@
 
 `witness_appended_edict` 保存數位見證附載的詔書文字層；只表示文本層次，不自行確定發布者、發布年或編入者。JSON 與 XML 的文字層必須一致，不能把後附詔書改作收到的篇正文。
 
-第一目標為逐書收錄歷代正史與《資治通鑑》中出現的全部人物。目前只展開《史記》，不以取得一份全文等同完成人物收錄。
+總目標為逐書、逐篇收錄歷代正史與《資治通鑑》中出現的全部人物。目前依使用者調整的優先次序整理三國、兩晉、南北朝士族的跨史家系；《史記》《漢書》未完成工作仍保留，不以取得一份全文等同完成人物收錄。
 
 ## ID 與原文
 
 `registry/works.json` 登記著作 `w-shiji`、原書卷 `b-shiji-001` 與篇 `c-shiji-001-wudi`。卷與篇恰好一對一時仍各有 ID；現代網頁便覽標題不當成古代篇。新增卷先登記歸屬，再錄正文。
 
-`registry/persons.json` 登記永久人物 ID，例如 `cbr-p000001`。標籤可修訂，ID 不改、不重用；它不是權威生平表。每個異稱與人物提及都附正文錨點。分拆或合併須另寫有證據的遷移決定並維護既有引用，不得靜默重指舊 ID。
+`registry/persons.json` 登記現行人物 ID，採 `abc_def_123`、`abc_def_123_A` 等家族形式；字母不是排行，`*` 只標未名中間世代。ID 不重用給另一人；新家世證據需要上溯、合族或接合身份時，須更新全部引用後撤除舊號，保留可追溯的判讀及原文錨點，不設永久舊號別名或把舊號靜默重指另一人。每個異稱與人物提及都附來源；人物登記本身不是權威生平表。
 
-`corpus/shiji/001.json` 保存正文、見證版本、權利、指紋、審閱狀態與提及位置。`source_id` 為本卷見證識別碼，來源資訊就地保存在 `source`；它目前不引用舊 `sources/` 目錄。這個區別須在舊資料遷移時明確處理。
+`corpus/shiji/001.json` 保存正文、見證版本、權利、指紋、審閱狀態與提及位置。`source_id` 為本卷見證識別碼，來源資訊就地保存在 `source`；它目前不引用舊 `sources/` 目錄。這個區別須在舊資料遷移時明確處理。同一原卷可以有多個數位見證或選段，沿用原卷 `book_id`，各有獨立 `source_id` 與 `chapter_id`。平行版本不是另一獨立史書，不能當成多份獨立見證投票；引用哪一版就指向哪一版原段，不把另一版字句補進通行正文。
 
 每個段落有唯一 ID，每個提及有唯一 ID、`start`、`end`、`surface`。位置為段落內 Unicode code point，起點含、終點不含；JavaScript 使用 `Array.from(text)`，不可直接把 UTF-16 字串位置當此格式的位置。所有提及不重疊，依起點排列。人物提及含 `person_id`；未定指代的 `person_id` 為 `null`。
 
@@ -606,3 +606,61 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 先敘死亡、後明言「贈某官」可存 `posthumous_basis.kind: death_then_explicit_gift`，不替正文補追字。保存完整同段 `source_term`、`death_term`、`grant_term`、`recipient_person_mention_id` 及與持職起點相同的 `evidence`。受贈者須為死亡原詞前最後具名人物，授贈在死亡後、每筆官稱屬明贈清單且與同人職稱錨點相合；未知年份不補。此型與僅死後被用稱不同，不把全人生官職一律視為追贈。
 
 `title_proposals` 另容 `proposal_kind: unassumed_appointment`、`outcome: not_assumed`，區分「任用而未受／未赴」與原有 `not_enacted` 的未實行立號提議。`appointment_anchor`、`non_assumption_anchor` 分別保存任用詞與「並不行」「苦讓，遂不受」「以疾固辭，未行而卒」等已核原詞；職稱仍是非人物錨點，當事人、任用詞、職稱及未任原詞都須在同一完整引句中。`non_assumption_kind: declined` 或 `did_not_take_up` 分存辭讓與未赴，不能由此推為已任職期。人物頁以「辭讓／未赴任記錄」另列；同名來源用稱僅提示另見未赴任記載，不將一次未赴擴成此人所有任期的判斷。
+
+
+## 父系晚一代旁親
+
+`agnatic_senior_kin` 以晚輩為 `subject_person_id`、長一代旁親為 `object_person_id`，例如劉傭指向劉隗。`kinship_structure.generation_difference: -1` 表示主體比對象晚一代，`lineage: paternal`、`collateral: true`；`distance` 與 `common_ancestor_person_id` 留 `null`，`subject_relative_age: unknown`。晚輩不必年齡較小；`從子` 不等於兒子，也不單獨證明其父或共同祖先。用雙人物錨點及本段「隗舉其從子傭」核定說話／敘事主體，這項關係不直接組裝父子。
+
+母舅的人名之前可以夾地望，例如 `舅濮陽吳氏`。`intervening_place_name: 濮陽` 必須逐字綁定舅字與同一人名之間的片段，不能跨過另一人物提及；原母名仍空，不自行接舅之女為表親。
+
+## 來源所列姊妹群的排行
+
+`qualifiers.source_sibling_group` 記錄 `id`、`count_scope: reported_sisters`、原字 `source_number`、數值 `reported_count`、`member_person_ids` 及各人的 `member_roles`。群組原詞有 `source_anchor`；每位成員有同段人物錨點、`source_term`、`ordinal`、`position` 與判讀狀態。它是該段所列的姊妹群，不宣稱父母一生全部子女數。
+
+`relative_birth_order.ordinal_scope: reported_sibling_group` 與 `group_id` 指明序號屬哪個來源群。鄭阿春段的 `后最長` 存第1，`第三者` 存第3；`中者` 不直接存第2，`小者` 只作語境最幼、序號留空，不直接存第4。來源人數與序號約束可以交由處理演算法求解，不能把求解結果冒作原文明載。姊妹的同父接合另用可撤回的編輯推導，不把本群排行混成獨立父子原句。
+
+## 未採遠祖的報稱世數
+
+遠祖報稱若作「自某八世，生某」，`ancestor` 陳述可用 `ancestry_precision: reported_generation_formula`、`source_number: 八`、`reported_generation_number: 8` 保存原數；`generation_distance: null`、`adopted_for_family_tree: false` 保留世數口徑未定及未採樹狀態。完整原段須綁定自字後祖先與生字後後裔的實際人物錨點。這與同段明言「鈞生量、量生儁、儁生防」的逐代父子分開，不補中間七代，也不按同姓接上古族源。
+
+## 撫養與宗祀承繼
+
+`raised_by` 的主體是被撫養者，客體是撫養人；`care_basis` 區分 `explicit_yang`（養之）、`speaker_recalls_rearing`（本人詔語追述撫育）及 `welcomed_like_children`（迎與共居、恩同其子）。須保存完整原段、雙人錨點、`source_term`；詔語另綁 `speaker_identity_mention_id`，不能將前後不同皇帝混為同一個「朕」。
+
+`ritual_successor_of` 的主體是承繼者，客體是所繼者，分存 `succession_kind: ji_named_relative` 或 `si_named_predecessor_hou`。`legal_adoption_status: not_stated` 表示本項沒有明言法定收養，並非斷言歷史上不存在收養；`parentage_inference: not_inferred` 不從此項產生生父、養父或祖先。撫養與宗祀都不改寫另有來源的父母，也不參與父系三代推導。
+
+死亡事件的 `reported_reign_interval` 可記「某立，未逾年薨」：`reference_event: accession`、`upper_years: 1`、`upper_inclusive: false`、`unit: source_year`、`counting: unspecified_source_years`、`normalized_years: null`。這是承位後的來源年數上界，須綁定本人名字後的原句；不是生齡，也不能借父親卒年補此人的確切卒年。
+
+## 來源群組的匿名氏稱
+
+匿名姊妹的氏稱另可用 `clan_style.kind: source_sibling_group_appellation`，狀態限 `editorial_provisional`、本名保持 `null`。它須綁定該人的姊妹斷言及完整來源群，核驗群組人數、各成員錨點和排行，並從同段已具名姊妹的「某氏」或「某氏女」提及取得姓氏；不能只據四人同列、丈夫姓氏或郡望補姓。氏稱的編輯推導不等於每位姊妹都在原文明書此氏稱，也不產生新的父子斷言。
+
+## 省略主語與固定底本空行
+
+未受任另保留「不拜」「皆不就」「讓不拜」原詞；前二者作 `did_not_take_up`，明載讓不拜作 `declined`，不得截掉讓字改列原因未明。任用詞與拒受詞各有同段字元錨點，職稱錨點不連人物，也不列入實任持職。
+
+省略受任者時，`evidence.context` 可引用相鄰前段具名主語，保存段落、人物錨點及引文。若固定底本只隔空行，`source.normalization.verified_blank_line_gaps` 保存 `source_lines`、`raw_quote`、`raw_quote_sha256`、`revision_id`，核對空行數、空白字元、雜湊及修訂。這是核讀固定原文後錄入的證據，不能代替未讀正文，也不能跨過標題、古注或其他非空文字。持職見證用 `previous_paragraph_subject`；未受任證據用 `prior_paragraph_subject` 並列中間段落。
+
+完整官名中的「太子」可用 `kind: non_person`、`lexical_role: office_title_component`，以 `basis_quote` 綁定已核官名及同一起點，例如「太子太傅」。不能據官名片段推定某位皇太子的人物提及；既有錨點及原字保留。
+
+
+### 傳主承接的死後贈號
+
+`posthumous_basis.kind: biography_topic_death_then_gift` 用於同一原段中編者已辨定傳主，但贈號前穿插他人的敘事。須明存 `topic_person_mention_id`、`recipient_person_mention_id`、`death_event_id`、完整 `source_term`、精確 `death_term`、`grant_term` 與共用來源證據。傳主、受贈人及死亡事件必須同人，死亡事件亦須連同一原段；不能因最近出現另一位君主或妃而改換受贈人。
+
+`grant_recipient_kind` 分為 `topic_continuation`（如「贈車騎大將軍，加侍中」）、`named_recipient`（如「贈裒太保」）及 `deictic_recipient`（如「其贈豫章郡君」）。這是有明示錨點的編輯判讀，不是把每段第一個人自動當作全文主語；驗證要求段首傳主錨點與已錄死亡事件相合，各贈號均落在其精確贈句內。所引「建武元年薨」證明死亡，不直接證明後來穆帝更贈之年。每次贈號另立記錄，未知起年保留空值。原有 `death_then_explicit_gift` 的近接主語規則維持不變。
+
+
+### 更封目的地省略爵字
+
+`transfer_basis.kind: elided_rank_regrant` 保存「更封裒琅邪」等沒有重寫王字的原句。新記錄以 `title: 王`、`jurisdictions[].source_name: 琅邪` 分存爵與封地；`actor_mention_id` 指更封句受封人，`rank_mention_id` 指同人的實存爵字原稱，`realm_source_start`／`realm_source_end` 指目的地的實際字位。不能在正文或用稱錨點補造「琅邪王」。若爵字取自「琅邪孝王裒」等敘事原稱，王字用稱標為 `retrospective`、不附授號年，孝字不併入生前授號。
+
+這一類更封必須連同人的前爵 `previous_holding_id`，前爵明示終點與新爵起點共用原文證據及同一日期精度；未知日期維持未知。「徙封宣城郡公」則可使用既有 `noble_rank_change`，前爵未辨明時 `previous_holding_id: null`、`previous_title_status: not_identified`。不能借用叔父爵位填補空白。
+
+
+### 人物頁子女次序
+
+閱讀器由實際載入的父母、子女 JSON 套用長幼約束，不從家族 ID 字母取排行。`relative_birth_order` 只在 `scope: siblings`、`operator: lt` 且兩端確在子女列表時加入先後約束；絕對排行僅比較同父母、同 `sons_of_parent`／`daughters_of_parent`／`children_of_parent` 範圍的數字。未記性別或排行者不因鄰人的長子記錄而補數字。
+
+完整的小型 `source_sibling_group` 可結合明載排行、最長／最幼及相對次序計算必然的顯示先後，例如四姊妹中的一、三及最幼。推導只影響顯示，不寫回來源排行。缺員、重複身份或互異群體報告不作完整槽位推導。相互矛盾的有向約束折為衝突組，保留組內輸入次序與所有人物，於 `child_order_conflicts` 回傳成員，其他可確定的先後仍有效。無約束的平手沿用輸入次序。

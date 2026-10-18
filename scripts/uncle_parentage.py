@@ -83,7 +83,14 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                  and q.get('source_term') == '舅' + obj['surface'])
         unnamed = (obj['surface'] == '舅' and q.get('source_term') == '舅'
                    and q.get('object_name_status') == 'not_recorded')
-        if not (named or unnamed):
+        place = q.get('intervening_place_name')
+        gap_start = obj['start'] - len(place) if isinstance(place, str) else obj['start']
+        named_with_place = (isinstance(place, str) and bool(place) and gap_start > 0
+                            and q.get('source_term') == '舅' + place + obj['surface']
+                            and p['text'][gap_start - 1:obj['start']] == '舅' + place
+                            and not any(m.get('kind') == 'person' and m['start'] < obj['start']
+                                        and m['end'] > gap_start for m in p.get('mentions', [])))
+        if not (named or unnamed or named_with_place):
             return False
         if not any(e['quote'] == p['text'][i:i + len(e['quote'])] and i <= subject['start']
                    and obj['end'] <= i + len(e['quote']) for i in range(len(p['text']))):

@@ -4,6 +4,27 @@ import hashlib
 import re
 
 
+def accession_death_interval_valid(event, paragraphs, mentions):
+    """A reign interval after 立 is neither an age nor an exact calendar date."""
+    interval = event.get('reported_reign_interval')
+    expected = {'source_term':'未逾年', 'reference_event':'accession', 'bound_type':'upper_bound',
+                'upper_years':1, 'upper_inclusive':False, 'unit':'source_year',
+                'counting':'unspecified_source_years', 'status':'contextual_provisional',
+                'normalized_years':None}
+    if (interval != expected or type(interval.get('upper_years')) is not int
+            or interval.get('upper_inclusive') is not False
+            or event.get('event_type') != 'death' or event.get('date_expression') is not None
+            or 'normalized_date' in event or len(event.get('evidence', [])) != 1):
+        return False
+    e = event['evidence'][0]; hit = paragraphs.get(e.get('paragraph_id'))
+    m = mentions.get(e.get('person_mention_id'))
+    return (bool(hit) and bool(m) and hit[0] == e.get('chapter_id')
+            and m[1] == e.get('paragraph_id') and m[2].get('kind') == 'person'
+            and m[2].get('person_id') == event.get('person_id')
+            and e.get('quote') == hit[1].get('text')
+            and hit[1]['text'].startswith('立，未逾年薨', m[2]['end']))
+
+
 def received_body(raw):
     """Remove separately attributed parenthetical notes and layout, preserving glyphs."""
     if not isinstance(raw, str):

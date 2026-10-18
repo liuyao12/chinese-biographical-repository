@@ -191,6 +191,20 @@ def title_proposal_errors(proposal, chapter, person_ids):
         check(bool(starts), '稱號提議引句不符')
         mentions = {m['id']: m for m in p['mentions']}
         person = mentions.get(proposal.get('person_mention_id'))
+        carried_proposal = False
+        if unassumed and e.get('context') is not None:
+            try:
+                from scripts.subject_continuation import prior_subject_valid
+            except ModuleNotFoundError:
+                from subject_continuation import prior_subject_valid
+            context = e['context']
+            carried_proposal = prior_subject_valid(context, e, proposal.get('person_id'), chapter)
+            if carried_proposal and context.get('person_mention_id') == proposal.get('person_mention_id'):
+                prior = next(p for p in chapter['paragraphs'] if p['id'] == context['paragraph_id'])
+                person = next((m for m in prior['mentions'] if m['id'] == context['person_mention_id']), None)
+            else:
+                carried_proposal = False
+                check(False, '未赴任省略主語缺少有效前段錨點')
         if agreed:
             def source_anchor(value):
                 if not isinstance(value, dict) or set(value) != {'paragraph_id', 'start', 'end', 'surface'}:
@@ -215,8 +229,8 @@ def title_proposal_errors(proposal, chapter, person_ids):
             check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
                   and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
         check(bool(person) and person.get('kind') == 'person' and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
-        check(bool(role) and bool(person) and any(i <= min(role['start'], person['start'])
-              and max(role['end'], person['end']) <= i + len(quote) for i in starts), '稱號提議引句須涵蓋人物及職稱')
+        check(bool(role) and bool(person) and any(i <= (role['start'] if carried_proposal else min(role['start'], person['start']))
+              and (role['end'] if carried_proposal else max(role['end'], person['end'])) <= i + len(quote) for i in starts), '稱號提議引句須涵蓋人物及職稱')
     return errors
 
 
@@ -720,6 +734,8 @@ def validate(root=ROOT):
                 check(isinstance(date.get('original_quote'), str)
                       and expression in date['original_quote'], '紀年換算原句未含本筆日期表述')
 
+        gift_life_events = {e['id']: e for path in (root/'corpus').glob('*/*-life-events.json')
+                            for e in json.loads(path.read_text(encoding='utf-8')).get('events', [])}
         title_ids=set();title_occurrence_ids=set()
         title_records = {h['id']: h for path in (root/'corpus').glob('*/*-titles.json')
                          for h in json.loads(path.read_text(encoding='utf-8'))['holdings']}
@@ -820,7 +836,7 @@ def validate(root=ROOT):
                             from scripts.noble_transfers import noble_transfer_errors
                         except ModuleNotFoundError:
                             from noble_transfers import noble_transfer_errors
-                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions))
+                        errors.extend(noble_transfer_errors(h, title_records, paragraphs, mentions, chapters))
                     else:
                         try:
                             from scripts.royal_transfers import royal_transfer_errors
@@ -851,7 +867,7 @@ def validate(root=ROOT):
                         from scripts.posthumous_gifts import posthumous_gift_valid
                     except ImportError:
                         from posthumous_gifts import posthumous_gift_valid
-                    explicit_gift = posthumous_gift_valid(h, paragraphs, mentions)
+                    explicit_gift = posthumous_gift_valid(h, paragraphs, mentions, gift_life_events)
                     valid=(h['mode']=='posthumous_grant' and (explicit_retrospective or death_then_grant or explicit_gift)
                            and isinstance(basis['evidence'],list) and bool(basis['evidence'])
                            and basis['evidence']==h['effective_period']['start']['evidence']
@@ -1021,7 +1037,8 @@ def validate(root=ROOT):
                                and all(isinstance(place,dict) and isinstance(place.get('source_name'),str)
                                        and any('王'+place['source_name'] in e.get('quote','') for e in h['evidence'])
                                        for place in places))
-                        if not royal and h.get('mode') == 'transfer' and 'resumption_basis' in h:
+                        if not royal and h.get('mode') == 'transfer' and (
+                                'resumption_basis' in h or h.get('transfer_basis', {}).get('kind') == 'elided_rank_regrant'):
                             royal = not royal_transfer_errors(h, title_records, paragraphs, mentions)
                         check(royal,'王國範圍須保留王某地原句，不得由任意地名補入')
                 for a in h['attestations']:
@@ -1126,13 +1143,27 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers:
+                    try:
+                        from scripts.non_parental_family import non_parental_relation_valid
+                    except ModuleNotFoundError:
+                        from non_parental_family import non_parental_relation_valid
+                    check(non_parental_relation_valid(a, paragraphs), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                if a['predicate'] == 'agnatic_senior_kin':
+                    check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
                     check('kinship_structure' in qualifiers, '母系姨表關係缺原路徑結構')
                 if 'adopted_for_family_tree' in qualifiers:
-                    if qualifiers.get('ancestry_precision') == 'unspecified_descent':
+                    if qualifiers.get('ancestry_precision') == 'reported_generation_formula':
+                        try:
+                            from scripts.unspecified_ancestry import reported_generation_formula_valid
+                        except ImportError:
+                            from unspecified_ancestry import reported_generation_formula_valid
+                        check(reported_generation_formula_valid(a, paragraphs, source_age_number), '自某幾世生某須分存原數與未採遠系，不得補精確世距或接入家族')
+                    elif qualifiers.get('ancestry_precision') == 'unspecified_descent':
                         try:
                             from scripts.unspecified_ancestry import unspecified_ancestry_valid
                         except ImportError:
@@ -1241,7 +1272,13 @@ def validate(root=ROOT):
                           '未明姻親須保存婚原詞，不得補配偶、連接人物或世代')
                 if 'kinship_structure' in qualifiers:
                     structure = qualifiers['kinship_structure']
-                    if a['predicate'] == 'maternal_cousin':
+                    if a['predicate'] == 'agnatic_senior_kin':
+                        try:
+                            from scripts.collateral_kinship import agnatic_senior_kin_valid
+                        except ImportError:
+                            from collateral_kinship import agnatic_senior_kin_valid
+                        check(agnatic_senior_kin_valid(a, paragraphs), '父系晚一代稱謂須有從子原詞與雙人物錨點，不得補父親、親等或年齡')
+                    elif a['predicate'] == 'maternal_cousin':
                         try:
                             from scripts.maternal_cousins import maternal_cousin_valid
                         except ImportError:
@@ -1273,6 +1310,12 @@ def validate(root=ROOT):
                     check(order.get('position') in ('eldest', 'youngest', 'younger_or_youngest', 'unspecified'), '排行位置未知')
                     if order.get('position') == 'eldest': check(ordinal == 1, '長子排行須為一')
                     check(order.get('interpretation_status') in ('source_attested', 'ambiguous'), '排行判讀狀態無效')
+                if 'source_sibling_group' in qualifiers or qualifiers.get('relative_birth_order', {}).get('ordinal_scope') == 'reported_sibling_group':
+                    try:
+                        from scripts.collateral_kinship import source_sibling_group_valid
+                    except ImportError:
+                        from collateral_kinship import source_sibling_group_valid
+                    check(source_sibling_group_valid(a, paragraphs, pids, source_age_number), '來源姊妹群排行須保留人數、逐人稱詞與本群序號，不得補中者或小者序號')
                 if 'relative_birth_order' in qualifiers:
                     order = qualifiers['relative_birth_order']
                     check(a['predicate'] in ('brother', 'sister', 'agnatic_cousin', 'maternal_cousin'), '相對排行須為同輩親屬')
@@ -1624,6 +1667,12 @@ def validate(root=ROOT):
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
+                if 'reported_reign_interval' in event:
+                    try:
+                        from scripts.regnal_relationships import accession_death_interval_valid
+                    except ModuleNotFoundError:
+                        from regnal_relationships import accession_death_interval_valid
+                    check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
                     check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
                 if event['event_type'] == 'diplomatic_service':

@@ -1,3 +1,4 @@
+import {orderChildren} from './sibling-order.js';
 // Traverse source relations and separately attributed assembly edges, never stored ancestor chains.
 export async function traceFamily(person, load) {
   const own = p => new Set(p.person_ids || [p.id]);
@@ -102,5 +103,7 @@ export async function traceFamily(person, load) {
     ancestors.push([...unique.values()]); frontier = next;
   }
   const [mother, spouses, children] = await Promise.all(['mother', 'spouse', 'children'].map(kind => resolve(related(person, kind))));
-  return {ancestors, mother, spouses, children};
+  const ordered = orderChildren(children, person);
+  return {ancestors, mother, spouses, children: ordered.entries,
+    ...(ordered.conflicts.length ? {child_order_conflicts: ordered.conflicts} : {})};
 }

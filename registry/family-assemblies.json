@@ -2828,6 +2828,17 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "yoo_ox0_545_BABAAABAA",
           "source_assertion_id": "a-songshu060-family-003"
+        },
+        {
+          "person_id": "yoo_ox0_545_BABAAAAA",
+          "representative_source_person_id": "yoo_ox0_545_BABAAAAA",
+          "source_person_ids": [
+            "yoo_ox0_545_BABAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yoo_ox0_545_BABAAAA",
+          "source_assertion_id": "a-jinshu075-wyg-xunji-father",
+          "connection": "father"
         }
       ]
     },
@@ -3546,6 +3557,763 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "2pg_br4_mcl",
           "source_assertion_id": "a-jinshu079-xie-003"
+        }
+      ]
+    },
+    {
+      "id": "family-zheng-he-achun",
+      "root_person_id": "ll1_7jh_vr0",
+      "label": "鄭合、鄭愷與阿春",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅依所錄家世明文及標明的連續祖先推導；不據同姓或年齡補祖。",
+      "members": [
+        {
+          "person_id": "ll1_7jh_vr0",
+          "representative_source_person_id": "ll1_7jh_vr0",
+          "source_person_ids": [
+            "ll1_7jh_vr0"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "ll1_7jh_vr0_A",
+          "representative_source_person_id": "ll1_7jh_vr0_A",
+          "source_person_ids": [
+            "ll1_7jh_vr0_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ll1_7jh_vr0",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "ll1_7jh_vr0_AA",
+            "nearer_ancestor_assertion_id": "a-jinshu-032-family-001",
+            "farther_ancestor_assertion_id": "a-jinshu-032-family-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "阿春父愷、祖合是連續具名父系祖先，推導愷父合；不偽造原句父合。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:p001",
+                "quote": "簡文宣鄭太后諱阿春，河南滎陽人也。世為冠族。祖合，臨濟令。父愷，字祖元，安豐太守。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0000",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0030",
+                "assertion_id": "a-jinshu-032-family-001",
+                "scope": "同一後裔之連續父系祖先，愷父合屬推導",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:p001",
+                "quote": "簡文宣鄭太后諱阿春，河南滎陽人也。世為冠族。祖合，臨濟令。父愷，字祖元，安豐太守。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0000",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0023",
+                "assertion_id": "a-jinshu-032-family-002",
+                "scope": "同一後裔之連續父系祖先，愷父合屬推導",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "ll1_7jh_vr0_AA",
+          "representative_source_person_id": "ll1_7jh_vr0_AA",
+          "source_person_ids": [
+            "ll1_7jh_vr0_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ll1_7jh_vr0_A",
+          "source_assertion_id": "a-jinshu-032-family-001",
+          "connection": "father"
+        },
+        {
+          "person_id": "ll1_7jh_vr0_AB",
+          "representative_source_person_id": "ll1_7jh_vr0_AB",
+          "source_person_ids": [
+            "ll1_7jh_vr0_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ll1_7jh_vr0_A",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "ll1_7jh_vr0_AA",
+            "sibling_assertion_id": "a-jinshu-032-marriage-kin-011",
+            "sibling_father_assertion_id": "a-jinshu-032-family-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原載阿春四姊妹，依阿春父愷推同父，不冒作三位妹妹各有獨立父愷原句或同母證據。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001",
+                "quote": "后少孤，無兄弟，唯姊妹四人，后最長。先適渤海田氏，生一男而寡，依于舅濮陽吳氏。元帝為丞相，敬后先崩，將納吳氏女為夫人。后及吳氏女並游後園，或見之，言於帝曰：「鄭氏女雖嫠，賢於吳氏遠矣。」建武元年，納為琅邪王夫人，甚有寵。后雖貴幸，而恒有憂色。帝問其故，對曰：「妾有妹，中者已適長沙王褒，餘二妹未有所適，恐姊為人妾，無復求者。」帝因從容謂劉隗曰：「鄭氏二妹，卿可為求佳對，使不失舊。」隗舉其從子傭娶第三者，以小者適漢中李氏，皆得舊門。帝召王褒為尚書郎，以悅后意。后生琅邪悼王、簡文帝、尋陽公主。帝稱尊號，后雖為夫人，詔太子及東海、武陵王皆母事之。帝崩，后稱建平國夫人。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0134",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0000",
+                "assertion_id": "a-jinshu-032-marriage-kin-011",
+                "scope": "四姊妹與阿春父愷，父系為編輯推導",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:p001",
+                "quote": "簡文宣鄭太后諱阿春，河南滎陽人也。世為冠族。祖合，臨濟令。父愷，字祖元，安豐太守。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0000",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0030",
+                "assertion_id": "a-jinshu-032-family-001",
+                "scope": "阿春父愷原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "ll1_7jh_vr0_AC",
+          "representative_source_person_id": "ll1_7jh_vr0_AC",
+          "source_person_ids": [
+            "ll1_7jh_vr0_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ll1_7jh_vr0_A",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "ll1_7jh_vr0_AA",
+            "sibling_assertion_id": "a-jinshu-032-marriage-kin-013",
+            "sibling_father_assertion_id": "a-jinshu-032-family-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原載阿春四姊妹，依阿春父愷推同父，不冒作三位妹妹各有獨立父愷原句或同母證據。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001",
+                "quote": "后少孤，無兄弟，唯姊妹四人，后最長。先適渤海田氏，生一男而寡，依于舅濮陽吳氏。元帝為丞相，敬后先崩，將納吳氏女為夫人。后及吳氏女並游後園，或見之，言於帝曰：「鄭氏女雖嫠，賢於吳氏遠矣。」建武元年，納為琅邪王夫人，甚有寵。后雖貴幸，而恒有憂色。帝問其故，對曰：「妾有妹，中者已適長沙王褒，餘二妹未有所適，恐姊為人妾，無復求者。」帝因從容謂劉隗曰：「鄭氏二妹，卿可為求佳對，使不失舊。」隗舉其從子傭娶第三者，以小者適漢中李氏，皆得舊門。帝召王褒為尚書郎，以悅后意。后生琅邪悼王、簡文帝、尋陽公主。帝稱尊號，后雖為夫人，詔太子及東海、武陵王皆母事之。帝崩，后稱建平國夫人。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0198",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0000",
+                "assertion_id": "a-jinshu-032-marriage-kin-013",
+                "scope": "四姊妹與阿春父愷，父系為編輯推導",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:p001",
+                "quote": "簡文宣鄭太后諱阿春，河南滎陽人也。世為冠族。祖合，臨濟令。父愷，字祖元，安豐太守。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0000",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0030",
+                "assertion_id": "a-jinshu-032-family-001",
+                "scope": "阿春父愷原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "ll1_7jh_vr0_AD",
+          "representative_source_person_id": "ll1_7jh_vr0_AD",
+          "source_person_ids": [
+            "ll1_7jh_vr0_AD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "ll1_7jh_vr0_A",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "ll1_7jh_vr0_AA",
+            "sibling_assertion_id": "a-jinshu-032-marriage-kin-015",
+            "sibling_father_assertion_id": "a-jinshu-032-family-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原載阿春四姊妹，依阿春父愷推同父，不冒作三位妹妹各有獨立父愷原句或同母證據。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001",
+                "quote": "后少孤，無兄弟，唯姊妹四人，后最長。先適渤海田氏，生一男而寡，依于舅濮陽吳氏。元帝為丞相，敬后先崩，將納吳氏女為夫人。后及吳氏女並游後園，或見之，言於帝曰：「鄭氏女雖嫠，賢於吳氏遠矣。」建武元年，納為琅邪王夫人，甚有寵。后雖貴幸，而恒有憂色。帝問其故，對曰：「妾有妹，中者已適長沙王褒，餘二妹未有所適，恐姊為人妾，無復求者。」帝因從容謂劉隗曰：「鄭氏二妹，卿可為求佳對，使不失舊。」隗舉其從子傭娶第三者，以小者適漢中李氏，皆得舊門。帝召王褒為尚書郎，以悅后意。后生琅邪悼王、簡文帝、尋陽公主。帝稱尊號，后雖為夫人，詔太子及東海、武陵王皆母事之。帝崩，后稱建平國夫人。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0203",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:zheng-marriages:p001:m0000",
+                "assertion_id": "a-jinshu-032-marriage-kin-015",
+                "scope": "四姊妹與阿春父愷，父系為編輯推導",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-032",
+                "chapter_id": "c-jinshu-032-zheng-achun-family",
+                "source_id": "s-jinshu-032-zheng-achun-family",
+                "paragraph_id": "c-jinshu-032-zheng-achun-family:p001",
+                "quote": "簡文宣鄭太后諱阿春，河南滎陽人也。世為冠族。祖合，臨濟令。父愷，字祖元，安豐太守。",
+                "subject_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0000",
+                "object_person_mention_id": "c-jinshu-032-zheng-achun-family:p001:m0030",
+                "assertion_id": "a-jinshu-032-family-001",
+                "scope": "阿春父愷原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7032&oldid=1543614"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "family-tian-zheng-achun-prior",
+      "root_person_id": "vs9_1es_k35",
+      "label": "鄭阿春前婚田氏",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅以本批已錄家世及婚生語境組裝，姓名未載者不補。",
+      "members": [
+        {
+          "person_id": "vs9_1es_k35",
+          "representative_source_person_id": "vs9_1es_k35",
+          "source_person_ids": [
+            "vs9_1es_k35"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "vs9_1es_k35_A",
+          "representative_source_person_id": "vs9_1es_k35_A",
+          "source_person_ids": [
+            "vs9_1es_k35_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vs9_1es_k35",
+          "source_assertion_id": "a-jinshu-032-marriage-kin-006",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-yu-yu-mengmu",
+      "root_person_id": "jqx_jns_jae",
+      "label": "虞豫與孟母",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅以本批已錄家世及婚生語境組裝，姓名未載者不補。",
+      "members": [
+        {
+          "person_id": "jqx_jns_jae",
+          "representative_source_person_id": "jqx_jns_jae",
+          "source_person_ids": [
+            "jqx_jns_jae"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "jqx_jns_jae_A",
+          "representative_source_person_id": "jqx_jns_jae_A",
+          "source_person_ids": [
+            "jqx_jns_jae_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "jqx_jns_jae",
+          "source_assertion_id": "a-jinshu-032-marriage-kin-001",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-yu-chen-wenjun",
+      "root_person_id": "4qr_wrk_3vd",
+      "label": "庾琛與文君",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅以本批已錄家世及婚生語境組裝，姓名未載者不補。",
+      "members": [
+        {
+          "person_id": "4qr_wrk_3vd",
+          "representative_source_person_id": "4qr_wrk_3vd",
+          "source_person_ids": [
+            "4qr_wrk_3vd"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "4qr_wrk_3vd_A",
+          "representative_source_person_id": "4qr_wrk_3vd_A",
+          "source_person_ids": [
+            "4qr_wrk_3vd_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "4qr_wrk_3vd",
+          "source_assertion_id": "a-jinshu-032-marriage-kin-002",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-xun-kui-two-sons",
+      "root_person_id": "1ay_9qe_u4h",
+      "label": "荀馗與二子",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "原文二息明示父馗；荀崧迎居照育另記，不改生父。從弟不單獨給出共同祖先的姓名與距離，故不強接荀崧父系根。ID字母不代排行。",
+      "members": [
+        {
+          "person_id": "1ay_9qe_u4h",
+          "representative_source_person_id": "1ay_9qe_u4h",
+          "source_person_ids": [
+            "1ay_9qe_u4h"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "1ay_9qe_u4h_A",
+          "representative_source_person_id": "1ay_9qe_u4h_A",
+          "source_person_ids": [
+            "1ay_9qe_u4h_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "1ay_9qe_u4h",
+          "source_assertion_id": "a-jinshu075-xunsong-008",
+          "connection": "father"
+        },
+        {
+          "person_id": "1ay_9qe_u4h_B",
+          "representative_source_person_id": "1ay_9qe_u4h_B",
+          "source_person_ids": [
+            "1ay_9qe_u4h_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "1ay_9qe_u4h",
+          "source_assertion_id": "a-jinshu075-xunsong-009",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-sima-jun-near-ancestry",
+      "root_person_id": "dkn_ge4_286",
+      "label": "司馬鈞近系與琅邪王、東晉宗室",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只接本段明言近世父子，朗經有標記的同父兄弟推導。殷王八世及上古族源另存，沒有拼成缺代家族ID。字母不代表排行。 卷38明載宣帝九男、伷子覲等及覲子睿、渾，故接同一父系根；原元帝支的生母、撫養與承祀仍分開，不改為父子。",
+      "members": [
+        {
+          "person_id": "dkn_ge4_286",
+          "representative_source_person_id": "dkn_ge4_286",
+          "source_person_ids": [
+            "dkn_ge4_286"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "dkn_ge4_286_A",
+          "representative_source_person_id": "dkn_ge4_286_A",
+          "source_person_ids": [
+            "dkn_ge4_286_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286",
+          "source_assertion_id": "a-jinshu001-near-father-1",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AA",
+          "representative_source_person_id": "dkn_ge4_286_AA",
+          "source_person_ids": [
+            "dkn_ge4_286_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_A",
+          "source_assertion_id": "a-jinshu001-near-father-2",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAA",
+          "representative_source_person_id": "dkn_ge4_286_AAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AA",
+          "source_assertion_id": "a-jinshu001-near-father-3",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAA",
+          "source_assertion_id": "a-jinshu001-near-father-4",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAA",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "dkn_ge4_286_AAAA",
+            "sibling_assertion_id": "a-jinshu001-lang-elder-brother",
+            "sibling_father_assertion_id": "a-jinshu001-near-father-4",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "依帝兄朗與帝父防推同父，並非另造原句朗父防；若有異父材料另覆核。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-001",
+                "chapter_id": "c-jinshu-001-sima-near-ancestry",
+                "source_id": "s-jinshu-001-sima-near-ancestry",
+                "paragraph_id": "c-jinshu-001-sima-near-ancestry:p001",
+                "quote": "宣皇帝諱懿，字仲達，河內溫縣孝敬里人，姓司馬氏。其先出自帝高陽之子重黎，為夏官祝融。歷唐、虞、夏、商，世序其職。及周，以夏官為司馬。其後程伯休父，周宣王時，以世官克平徐方，錫以官族，因而為氏。楚漢間，司馬卬為趙將，與諸侯伐秦。秦亡，立為殷王，都河內。漢以其地為郡，子孫遂家焉。自卬八世，生征西將軍鈞，字叔平。鈞生豫章太守量，字公度。量生潁川太守儁，字元異。儁生京兆尹防，字建公。帝即防之第二子也。少有奇節，聰朗多大略，博學洽聞，伏膺儒教。漢末大亂，常慨然有憂天下心。南陽太守同郡楊俊名知人，見帝，未弱冠，以為非常之器。尚書清河崔琰與帝兄朗善，亦謂朗曰：「君弟聰亮明允，剛斷英特，非子所及也。」",
+                "subject_person_mention_id": "c-jinshu-001-sima-near-ancestry:p001:m0204",
+                "object_person_mention_id": "c-jinshu-001-sima-near-ancestry:p001:m0000",
+                "assertion_id": "a-jinshu001-lang-elder-brother",
+                "scope": "原文帝兄朗，同父為編輯推導",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2603565"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-001",
+                "chapter_id": "c-jinshu-001-sima-near-ancestry",
+                "source_id": "s-jinshu-001-sima-near-ancestry",
+                "paragraph_id": "c-jinshu-001-sima-near-ancestry:p001",
+                "quote": "宣皇帝諱懿，字仲達，河內溫縣孝敬里人，姓司馬氏。其先出自帝高陽之子重黎，為夏官祝融。歷唐、虞、夏、商，世序其職。及周，以夏官為司馬。其後程伯休父，周宣王時，以世官克平徐方，錫以官族，因而為氏。楚漢間，司馬卬為趙將，與諸侯伐秦。秦亡，立為殷王，都河內。漢以其地為郡，子孫遂家焉。自卬八世，生征西將軍鈞，字叔平。鈞生豫章太守量，字公度。量生潁川太守儁，字元異。儁生京兆尹防，字建公。帝即防之第二子也。少有奇節，聰朗多大略，博學洽聞，伏膺儒教。漢末大亂，常慨然有憂天下心。南陽太守同郡楊俊名知人，見帝，未弱冠，以為非常之器。尚書清河崔琰與帝兄朗善，亦謂朗曰：「君弟聰亮明允，剛斷英特，非子所及也。」",
+                "subject_person_mention_id": "c-jinshu-001-sima-near-ancestry:p001:m0000",
+                "object_person_mention_id": "c-jinshu-001-sima-near-ancestry:p001:m0183",
+                "assertion_id": "a-jinshu001-near-father-4",
+                "scope": "帝即防之第二子明示父防",
+                "url": "https://zh.wikisource.org/w/index.php?oldid=2603565"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-19",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-30",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-36",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-42",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAE",
+          "representative_source_person_id": "dkn_ge4_286_AAAAE",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-48",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAF",
+          "representative_source_person_id": "dkn_ge4_286_AAAAF",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-56",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAG",
+          "representative_source_person_id": "dkn_ge4_286_AAAAG",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-64",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAA",
+          "source_assertion_id": "a-jinshu038-zhou-son-104",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAA",
+          "source_assertion_id": "a-jinshu038-zhou-son-110",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAA",
+          "source_assertion_id": "a-jinshu038-zhou-son-116",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAA",
+          "source_assertion_id": "a-jinshu038-zhou-son-97",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAA",
+          "source_assertion_id": "a-jinshu038-hun-father-jin",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAH",
+          "representative_source_person_id": "dkn_ge4_286_AAAAH",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAH"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-10",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAI",
+          "representative_source_person_id": "dkn_ge4_286_AAAAI",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAI"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAA",
+          "source_assertion_id": "a-jinshu038-nine-son-13",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAA",
+          "source_assertion_id": "a-jinshu038-rui-father-jin",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-001",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAB",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAB",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-003",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAC",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAC",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-005",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAD",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAD",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-007",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAE",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAE",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-009",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAF",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAF",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAF"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-064-family-011",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAG",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAG",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAG"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAA",
+          "source_assertion_id": "a-jinshu-032-marriage-kin-004",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAFA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAFA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAFA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAAF",
+          "source_assertion_id": "a-jinshu-032-marriage-kin-003",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAAAA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAAAA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAAA",
+          "source_assertion_id": "a-jinshu007-chengdi-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dkn_ge4_286_AAAAAAABA",
+          "representative_source_person_id": "dkn_ge4_286_AAAAAAABA",
+          "source_person_ids": [
+            "dkn_ge4_286_AAAAAAABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dkn_ge4_286_AAAAAAAB",
+          "source_assertion_id": "a-jinshu064-anguo-pou-father",
+          "connection": "father"
         }
       ]
     }

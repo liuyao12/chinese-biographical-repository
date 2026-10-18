@@ -83,13 +83,13 @@ class SongshuXunFamilyTests(unittest.TestCase):
             for a in read('corpus/songshu/060-assertions.json')['assertions']))
 
     def test_wei_posthumous_emperor_uses_existing_identity(self):
-        d = next(d for d in read('corpus/songshu/060-identities.json')['decisions'] if d['person_id'] == 'bis_ydq_yeg')
+        d = next(d for d in read('corpus/songshu/060-identities.json')['decisions'] if d['person_id'] == 'dkn_ge4_286_AAAAI')
         self.assertIn('太祖文皇帝', d['surfaces'])
         self.assertIn('文王', d['surfaces'])
         self.assertIn('追尊號曰文皇帝', d['references'][0]['quote'])
         new_chapter = read('corpus/songshu/060.json')
         self.assertEqual(next(m['person_id'] for p in new_chapter['paragraphs'] for m in p['mentions']
-                              if m['surface'] == '太祖文皇帝'), 'bis_ydq_yeg')
+                              if m['surface'] == '太祖文皇帝'), 'dkn_ge4_286_AAAAI')
 
     def test_received_text_and_digital_apparatus_remain_separate(self):
         c = read('corpus/songshu/060.json')

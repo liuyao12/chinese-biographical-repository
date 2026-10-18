@@ -248,10 +248,17 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const lifeHTML = lifeRows ? `<section class="person-life-summary"><dl>${lifeRows}</dl></section>` : '';
   const variants = p.reported_variants || [];
   const teaching = (p.relations || []).filter(r => r.predicate === 'teacher');
-  const relations = (p.relations || []).filter(r => r.predicate !== 'teacher'), labels = {father:'父',mother:'生母',stepmother:'後母',adoptive_mother:'所母',spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父',great_grandfather:'曾祖父',ancestor:t('Ancestor'),paternal_uncle:t('Paternal uncle'),agnatic_cousin:t('Paternal same-generation collateral relative'),maternal_cousin:t('Maternal aunt cousin')};
+  const relations = (p.relations || []).filter(r => r.predicate !== 'teacher'), labels = {raised_by:t('Caregiver'),ritual_successor_of:t('Ritual predecessor'),father:'父',mother:'生母',stepmother:'後母',adoptive_mother:'所母',spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父',great_grandfather:'曾祖父',ancestor:t('Ancestor'),paternal_uncle:t('Paternal uncle'),maternal_uncle:t('Maternal uncle'),agnatic_senior_kin:t('Paternal collateral relative one generation senior'),agnatic_cousin:t('Paternal same-generation collateral relative'),maternal_cousin:t('Maternal aunt cousin')};
   const relationPersonLink = id => `<a class="person-kinship-link" href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`;
-  const relationLabel = x => x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal'
-    ? ui('Maternal grandfather') : labels[x.predicate] || x.qualifiers?.source_term || x.predicate;
+  const relationLabel = x => {
+    if (x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal') return t('Maternal grandfather');
+    const order=x.qualifiers?.relative_birth_order;
+    if(x.predicate==='sister' && order?.operator==='lt') {
+      if(order.older_person_id===x.object_person_id && order.younger_person_id===x.subject_person_id) return t('Elder sister');
+      if(order.younger_person_id===x.object_person_id && order.older_person_id===x.subject_person_id) return t('Younger sister');
+    }
+    return labels[x.predicate] || x.qualifiers?.source_term || x.predicate;
+  };
   const referentCases = full ? referentCasesHTML(p.referent_interpretations || [], Object.fromEntries(Object.entries(p.related_people || {}).map(([id,label])=>[id,{label}]))) : '';
   const identityCasesHTML = full && p.unresolved_identity_cases?.length ? `<section class="person-identity-cases"><h4>身份待考</h4>${p.unresolved_identity_cases.map(c => `<details><summary>${c.candidate_list_exhaustive === false ? '已列候選人物（未窮盡）' : '分開保留的候選人物'}</summary><p>${h(c.note)}</p><p>${c.candidate_person_ids.map(id => `<a href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`).join('、')}</p>${evidenceLinks(c.paragraph_ids.map(paragraph_id => ({chapter_id:paragraph_id.split(':')[0],paragraph_id})))}${dateReferences(c)}</details>`).join('')}</section>` : '';
   const distinctionsHTML = full && p.identity_distinctions?.length ? `<section class="person-identity-distinctions"><h4>${ui('Distinct people')}</h4>${p.identity_distinctions.map(d => `<details><summary>${ui('Identity distinction evidence')}</summary><p>${h(d.rationale)}</p><p>${d.person_ids.filter(id => !(p.person_ids || [p.id]).includes(id)).map(id => `<a href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`).join('、')}</p>${(d.evidence || []).map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details>`).join('')}</section>` : '';

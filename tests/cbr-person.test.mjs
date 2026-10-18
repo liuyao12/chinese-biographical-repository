@@ -593,3 +593,22 @@ test('new appointment and maternal labels switch language without changing sourc
   assert.match(html,/<p>姨弟<\/p>/);
  } finally {setLocale('zh-Hant');}
 });
+
+test('junior collateral source points to a senior generation without treating it as father',()=>{
+ const p={id:'junior',label:'Junior',related_people:{junior:'Junior',senior:'Senior'},relations:[{subject_person_id:'junior',predicate:'agnatic_senior_kin',object_person_id:'senior',qualifiers:{source_term:'從子傭',kinship_structure:{generation_difference:-1,subject_relative_age:'unknown'}},evidence:[]}]};
+ const html=personCard(p,true);assert.match(html,/父系長一輩旁親/);assert.match(html,/從子傭/);
+});
+test('a source-ordered sister relation labels the object correctly',()=>{
+ const p={id:'younger',label:'Younger',related_people:{younger:'Younger',older:'Older'},relations:[{subject_person_id:'younger',predicate:'sister',object_person_id:'older',qualifiers:{source_term:'姊妹四人',relative_birth_order:{older_person_id:'older',younger_person_id:'younger',operator:'lt'}},evidence:[]}]};
+ assert.match(personCard(p,true).replace(/<[^>]*>/g,''),/Younger · 姊：Older/);
+});
+
+test('care and ritual succession have separate readable labels in both languages',()=>{
+ const p={id:'child',label:'Synthetic child',related_people:{care:'Synthetic caregiver',prior:'Synthetic predecessor'},relations:[
+  {subject_person_id:'child',predicate:'raised_by',object_person_id:'care',qualifiers:{source_term:'虞妃養之',legal_adoption_status:'not_stated'},evidence:[]},
+  {subject_person_id:'child',predicate:'ritual_successor_of',object_person_id:'prior',qualifiers:{source_term:'嗣恭王后',parentage_inference:'not_inferred'},evidence:[]}]};
+ try{
+  setLocale('zh-Hant');const zh=personCard(p,true);assert.match(zh,/撫養人/);assert.match(zh,/所繼者/);assert.match(zh,/虞妃養之/);assert.doesNotMatch(zh,/· 父：|· 生母：|&lt;span/);
+  setLocale('en');const en=personCard(p,true);assert.match(en,/Caregiver/);assert.match(en,/Ritual predecessor/);assert.match(en,/虞妃養之/);assert.match(en,/嗣恭王后/);
+ }finally{setLocale('zh-Hant');}
+});

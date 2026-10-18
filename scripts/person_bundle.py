@@ -41,6 +41,27 @@ def validate_clan_style(name, paragraph=None, relations=()):
                          for a in selected)
                  and style['source_term'].startswith(name['surname'])
                  and style['source_term'].endswith(('之妹也', '之妺也')))
+    elif valid and style['kind'] == 'source_sibling_group_appellation':
+        try:
+            from scripts.collateral_kinship import source_sibling_group_valid
+            from scripts.chinese_civil_years import numeral
+        except ModuleNotFoundError:
+            from collateral_kinship import source_sibling_group_valid
+            from chinese_civil_years import numeral
+        selected = [a for a in relations if a.get('id') in style['assertion_ids']]
+        chapter_id = name.get('chapter_id')
+        known_people = {m.get('person_id') for m in paragraph.get('mentions', []) if m.get('kind') == 'person'}
+        valid = (style['status'] == 'editorial_provisional' and len(selected) == 1
+                 and style['assertion_ids'] == [selected[0]['id']] and bool(chapter_id)
+                 and selected[0].get('predicate') == 'sister'
+                 and selected[0].get('subject_person_id') == name.get('person_id')
+                 and selected[0].get('qualifiers', {}).get('shared_father') is not False
+                 and selected[0].get('qualifiers', {}).get('source_sibling_group', {}).get('source_term') == style['source_term']
+                 and source_sibling_group_valid(selected[0], {paragraph['id']:(chapter_id,paragraph)}, known_people, numeral)
+                 and any(m.get('kind') == 'person'
+                         and m.get('person_id') == selected[0].get('object_person_id')
+                         and m.get('surface') in (style['value'], style['value'] + '女')
+                         for m in paragraph.get('mentions', [])))
     elif valid and style['kind'] == 'wife_sibling_clan_appellation':
         selected = [a for a in relations if a.get('id') in style['assertion_ids']]
         valid = (style['status'] == 'editorial_provisional' and len(selected) == 1
