@@ -100,13 +100,62 @@ def validate_full_name(name, paragraph=None):
 def validate_courtesy_name(name):
     """字須有明示來源，不從顯示名稱推拆或冒作本名。"""
     if 'zi' not in name:
+        if 'zi_basis' in name:
+            raise ValueError('稱字判讀須有相符字名')
         return
     zi = name['zi']
     quotes = [name.get('quote', '')] + [r.get('quote', '') for r in name.get('references', [])]
+    basis = name.get('zi_basis')
+    called_by_zi = False
+    if basis is not None:
+        required = {'kind', 'status', 'human_reviewed', 'rationale', 'subject_anchor', 'marker_anchor'}
+        quote = name.get('quote', '')
+        called_by_zi = isinstance(basis, dict) and set(basis) == required and isinstance(quote, str)
+        if called_by_zi:
+            subject, marker = basis['subject_anchor'], basis['marker_anchor']
+            def valid_anchor(a):
+                return (isinstance(a, dict) and set(a) == {'paragraph_id', 'start', 'end', 'surface'}
+                        and a['paragraph_id'] == name.get('paragraph_id')
+                        and type(a['start']) is int and type(a['end']) is int
+                        and 0 <= a['start'] < a['end'] <= len(quote)
+                        and quote[a['start']:a['end']] == a['surface'])
+            called_by_zi = (basis['kind'] == 'biographical_subject_called_by_courtesy_name'
+                            and basis['status'] == 'source_attested' and basis['human_reviewed'] is False
+                            and bool(basis['rationale']) and valid_anchor(subject) and valid_anchor(marker)
+                            and subject['start'] == 0 and isinstance(name.get('surname'), str)
+                            and isinstance(zi, str) and subject['surface'] == name['surname'] + zi
+                            and marker['surface'] == '故稱字' and subject['end'] <= marker['start'])
+        if not called_by_zi:
+            raise ValueError('稱字記載須連到傳首人物及故稱字原詞，不能據顯示名猜字')
     if (not isinstance(zi, str) or not zi.strip() or zi != zi.strip()
             or name.get('ming') == zi
-            or not any(isinstance(q, str) and '字' + zi in q for q in quotes)):
+            or not (called_by_zi or any(isinstance(q, str) and '字' + zi in q for q in quotes))):
         raise ValueError('字須有明示字名的引句且不得冒作名')
+
+
+def validate_parallel_given_name(name):
+    """平行正文首名有原字與固定版本；不從同諱或數位節題截短本名。"""
+    import hashlib
+    import re
+    from urllib.parse import parse_qs, urlparse
+    for ref in name.get('references', []):
+        if ref.get('scope') != 'primary_parallel_explicit_given_name_and_same_named_ancestors':
+            continue
+        surname, ming = name.get('surname'), name.get('ming')
+        raw, quote = ref.get('raw_context_quote'), ref.get('quote')
+        pos, revision = ref.get('source_position', {}), ref.get('source_revision')
+        valid = (isinstance(surname, str) and isinstance(ming, str) and bool(ming)
+                 and quote == surname + ming and isinstance(raw, str) and raw.startswith(quote + '字')
+                 and hashlib.sha256(raw.encode()).hexdigest() == ref.get('raw_context_quote_sha256')
+                 and bool(re.fullmatch(r'[0-9a-f]{64}', ref.get('wikitext_sha256', '')))
+                 and type(revision) is int and revision > 0 and ref.get('image_verified') is False
+                 and type(pos.get('first_line')) is int and pos['first_line'] > 0
+                 and pos.get('last_line') == pos['first_line']
+                 and type(pos.get('start')) is int and type(pos.get('end')) is int
+                 and pos['start'] >= 0 and pos['end'] - pos['start'] == len(quote))
+        link = urlparse(ref.get('url', ''))
+        if not (valid and link.scheme == 'https' and parse_qs(link.query).get('oldid') == [str(revision)]):
+            raise ValueError('平行姓名須完整匹配正文首名與字原詞、原行雜湊及固定修訂，不得截名或以章題補名')
 
 
 def validate_former_given_name(name):
@@ -269,6 +318,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
+        validate_parallel_given_name(name)
         validate_former_given_name(name)
         validate_name_component_alternatives(name)
         if name.get('kind') == 'table_cell':

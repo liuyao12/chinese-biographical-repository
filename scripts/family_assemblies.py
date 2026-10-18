@@ -114,6 +114,13 @@ def load_assemblies(root, catalog):
                     if connection.get('type') == 'parent_between_consecutive_ancestors':
                         if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
+                    elif connection.get('type') == 'parent_through_paternal_uncle':
+                        try:
+                            from .uncle_parentage import parent_through_paternal_uncle_valid
+                        except ImportError:
+                            from uncle_parentage import parent_through_paternal_uncle_valid
+                        if not parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
+                            raise ValueError('叔父接合須有侄之父、叔父及叔父之父的具名正文，不得拿數位標題補父系')
                     elif connection['type'] == 'shared_father_through_sibling_chain':
                         sibling_ids = connection.get('sibling_person_ids')
                         brother_ids = connection.get('sibling_assertion_ids')

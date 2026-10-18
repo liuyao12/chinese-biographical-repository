@@ -1,4 +1,62 @@
 """核對完整連續傳文中的子嗣承接；不以遠段或補字代替證據。"""
+import hashlib
+import re
+
+
+def digital_paratext_errors(chapter):
+    """只允許另存的空行與數位節題；不能藉此略去傳文。"""
+    errors = []
+    records = chapter.get('source', {}).get('normalization', {}).get('omitted_digital_paratext', [])
+    if not isinstance(records, list):
+        return ['數位節題記錄須為列表']
+    occupied = set()
+    for record in records:
+        if not isinstance(record, dict):
+            errors.append('數位節題記錄須為物件'); continue
+        span, raw = record.get('source_lines'), record.get('raw_quote')
+        valid = (isinstance(span, list) and len(span) == 2
+                 and all(type(n) is int and n > 0 for n in span)
+                 and span[0] <= span[1] and isinstance(raw, str)
+                 and record.get('kind') == 'digital_section_heading'
+                 and record.get('not_received_text') is True
+                 and record.get('source_revision') == chapter.get('source', {}).get('revision_id'))
+        if valid:
+            lines = raw.split('\n')
+            nonblank = [line.strip() for line in lines if line.strip()]
+            valid = (len(lines) == span[1] - span[0] + 1 and bool(nonblank)
+                     and all(re.fullmatch(r'(?P<marks>={2,6})[^=\n]+(?P=marks)', line) for line in nonblank)
+                     and hashlib.sha256(raw.encode()).hexdigest() == record.get('raw_quote_sha256')
+                     and not occupied.intersection(range(span[0], span[1] + 1)))
+            if valid:
+                for para in chapter.get('paragraphs', []):
+                    position = para.get('source_position', {})
+                    first, last = position.get('first_line'), position.get('last_line')
+                    if type(first) is int and type(last) is int and first <= span[1] and span[0] <= last:
+                        valid = False
+                occupied.update(range(span[0], span[1] + 1))
+        if not valid:
+            errors.append('數位節題須有相符固定版本、原行雜湊與純節題文字，不得混入或略去正文')
+    return errors
+
+
+def received_paragraphs_contiguous(chapter, first, second):
+    a, b = first.get('source_position', {}), second.get('source_position', {})
+    end, start = a.get('last_line'), b.get('first_line')
+    if type(end) is not int or type(start) is not int or start <= end:
+        return False
+    if end + 1 == start:
+        return True
+    if digital_paratext_errors(chapter):
+        return False
+    records = chapter.get('source', {}).get('normalization', {}).get('omitted_digital_paratext', [])
+    spans = sorted(record['source_lines'] for record in records
+                   if end < record['source_lines'][0] and record['source_lines'][1] < start)
+    cursor = end + 1
+    for left, right in spans:
+        if left != cursor:
+            return False
+        cursor = right + 1
+    return cursor == start
 
 def child_continuation_errors(assertion, chapter):
     errors = []
@@ -34,8 +92,7 @@ def child_continuation_errors(assertion, chapter):
                       and position.get('revision_id') == chapter.get('source', {}).get('revision_id'))
         if valid:
             for a, b in zip(ids, ids[1:]):
-                pa, pb = byid[a]['source_position'], byid[b]['source_position']
-                valid &= pa['last_line'] + 1 == pb['first_line']
+                valid &= received_paragraphs_contiguous(chapter, byid[a], byid[b])
     if not valid:
         return ['傳主子嗣承接須保留同一固定見證的完整連續原段、原行與判讀']
     anchor = next((m for m in byid[ids[0]].get('mentions', [])

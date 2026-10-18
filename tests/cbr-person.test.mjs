@@ -540,3 +540,56 @@ test('unadopted distant ancestry remains readable as a source claim on the full 
  assert.match(html,/Synthetic received genealogy claim/);
  assert.doesNotMatch(html,/class="person-family"/);
 });
+
+test('an aunt cousin uses a symmetric display label while the original younger-cousin term remains cited',()=>{
+ const p={id:'younger',label:'Synthetic younger',related_people:{older:'Synthetic older'},relations:[
+  {subject_person_id:'younger',predicate:'maternal_cousin',object_person_id:'older',qualifiers:{source_term:'姨弟',kinship_structure:{lineage:'maternal',maternal_path:'mother_sister_son',subject_relative_age:'younger'}},evidence:[]} ]};
+ const html=personCard(p,true);
+ assert.match(html,/母系姨表親/);
+ assert.match(html,/<p>姨弟<\/p>/);
+ assert.doesNotMatch(html,/· 姨弟：/);
+ assert.doesNotMatch(html,/class="person-family"/);
+});
+
+test('the received courtesy-name label does not replace the separately sourced full given name',()=>{
+ const records=JSON.parse(readFileSync(new URL('../data/corpus/profile-names.json',import.meta.url),'utf8')).records;
+ const name=records.find(n=>n.surname==='王'&&n.ming==='裕之'&&n.zi==='敬弘');
+ assert(name);
+ const html=personCard({id:name.person_id,label:'王敬弘',name_components:[name]},true);
+ assert.match(html,/<h1>王裕之<\/h1>/);
+ assert.match(html.replace(/<[^>]*>/g,''),/字 敬弘/);
+ assert.doesNotMatch(html,/<h1>王裕<\/h1>|<h1>王敬弘<\/h1>/);
+});
+
+test('an appointment not taken up is distinct from a proposal and does not turn a source usage into service',()=>{
+ const c=JSON.parse(readFileSync(new URL('../corpus/jinshu/076.json',import.meta.url),'utf8'));
+ const appointments=c.annotation.title_proposals;
+ const usage=JSON.parse(readFileSync(new URL('../corpus/songshu/066-titles.json',import.meta.url),'utf8')).holdings.find(h=>h.title==='司州刺史');
+ const html=personCard({id:usage.person_id,label:'Synthetic received-office reader',title_proposals:appointments,titles:[usage,{...usage,id:'different-phase',mode:'grant'}]},true);
+ assert.match(html,/person-unassumed-appointments/);
+ assert.match(html,/辭讓／未赴任記錄/);
+ assert.match(html,/以疾固辭，未行而卒/);
+ assert.doesNotMatch(html,/class="person-title-proposals"/);
+ assert.equal((html.match(/class="person-unassumed-office"/g)||[]).length,1);
+ assert.match(html,/另見未赴任記載/);
+ const brief=personCard({id:usage.person_id,label:'Synthetic source usage',title_proposals:appointments,titles:[usage]});
+ assert.match(brief,/另見未赴任記載/);
+ assert.doesNotMatch(brief,/person-unassumed-appointments/);
+});
+
+test('new appointment and maternal labels switch language without changing source terms',()=>{
+ try {
+  setLocale('en');
+  const c=JSON.parse(readFileSync(new URL('../corpus/jinshu/076.json',import.meta.url),'utf8'));
+  const q=c.annotation.title_proposals;
+  const usage=JSON.parse(readFileSync(new URL('../corpus/songshu/066-titles.json',import.meta.url),'utf8')).holdings.find(h=>h.title==='司州刺史');
+  const html=personCard({id:usage.person_id,label:'Synthetic person',titles:[usage],title_proposals:q,relations:[
+   {subject_person_id:'synthetic-younger',predicate:'maternal_cousin',object_person_id:'synthetic-older',qualifiers:{source_term:'姨弟'},evidence:[]} ]},true);
+  assert.match(html,/Declined or unassumed appointments/);
+  assert.match(html,/Separate record of appointment not taken up/);
+  assert.match(html,/Maternal aunt cousin/);
+  assert.match(html,/司州刺史/);
+  assert.match(html,/以疾固辭，未行而卒/);
+  assert.match(html,/<p>姨弟<\/p>/);
+ } finally {setLocale('zh-Hant');}
+});

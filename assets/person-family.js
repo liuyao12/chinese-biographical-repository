@@ -35,7 +35,7 @@ export async function traceFamily(person, load) {
       if (!id || ids.has(id) || result.has(id) || !row.assembly_id
           || !['editorial_preferred', 'contextual_provisional'].includes(row.status)
           || connection?.status !== 'contextual_provisional'
-          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors'].includes(connection.type)
+          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors', 'parent_through_paternal_uncle'].includes(connection.type)
           || !connection.rationale || !connection.references?.length) return;
       result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
         evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});

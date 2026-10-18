@@ -555,7 +555,7 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 ### 明載年號的中國曆年度換算
 
-除原有年表試點外，`normalized_date.calendar: chinese_civil` 可明示原紀年對應的中國曆年度；`year`、`era_year` 是年度標號，不是精確公曆日期。當前新增的 `regnal_year_mapping.kind: ce_regnal_era_span` 限於正公元年的年號起迄對照，保存 `era_name`、`source_number`、`regnal_year`、`start_ce_year`、`end_ce_year` 及 `reference_index`。原紀年必須見於 `source_expression` 與原文引句，年序及換算結果須落在所引起迄範圍。
+除原有年表試點外，`normalized_date.calendar: chinese_civil` 可明示原紀年對應的中國曆年度；`year`、`era_year` 是年度標號，不是精確公曆日期。當前新增的 `regnal_year_mapping.kind: ce_regnal_era_span` 限於正公元年的年號起迄對照，保存 `era_name`、`source_number`、`regnal_year`、`start_ce_year`、`end_ce_year` 及 `reference_index`。原紀年必須見於 `source_expression` 與原文引句，年序及換算結果須落在所引起迄範圍。 原文年號字形與對照表不同時，`regnal_year_mapping.source_era_name` 可分存原字形；目前僅明確容許正文「昇平」對照表「升平」，不改正文或偽造對照表引句。原文紀年以 `source_era_name` 組成，表格名稱仍以 `era_name` 核對；其他字形差異須另核並增補規則。
 
 引用的現代對照須標 `scope: modern_era_year_equivalence_only`，保留其 `columns.era_name`、`first_year`、`last_year`、URL及實際閱覽日；不能把對照表的數字冒作古代正文。`status: editorial_provisional`、原句、事件證據、換算理由與未人工審閱狀態仍必備。未明示 `calendar` 的舊數字或跨年範圍，不因此自動改標中國曆年。
 
@@ -588,3 +588,21 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 未名妻由「妻弟謝晦」辨氏時，姓名資料可用 `clan_style.kind: wife_sibling_clan_appellation`。須有本段具名妻弟錨點、相符的姊弟斷言與原詞，並保持 `ming: null`；不據此新增孩子的生母關係。
 
 `end_basis.kind: died_in_last_named_office` 限定原文在該官名後直接接「。某年，卒官」；完整原詞、同一持職證據、人物主語錨點及官名字元位置須相合。僅此最後明示官職可有 `explicit_end`，日期另附原紀年及換算證據；其他先前官職不得一併取此卒年為終點。
+
+來源只有「吉之後」之類泛稱而未採為父系時，另用 `qualifiers.ancestry_precision: unspecified_descent`，`source_number`、`reported_generation_number`及`generation_distance`均明列null，`adopted_for_family_tree: false`。原詞「某之後」須逐字連到客體人物錨點及引句；不能由未知變成任意世數，也不生成缺代路徑。原有明載十一世孫等數字的未採主張，仍必須保留其原數。
+
+`stepmother` 可保存原文「後母」或「繼母」，兩者均須有相符引句。繼母角色不轉成生母；同一人物在另一子女傳中明載為母時，各條關係分開保存。
+
+`source.normalization.omitted_digital_paratext` 分存固定數位見證中的節題與相鄰空行：`kind: digital_section_heading`、`not_received_text: true`、`source_lines`、`source_revision`、`raw_quote`、`raw_quote_sha256`。只容許維基式節題與空行，雜湊及行數須相符，不能與已錄正文原行重疊。`biographical_child_continuation` 可跨這些逐行完整記錄的數位節題，不能跨未記錄文字或拿節題本身證父子。正文段落的原行界線及實際文字不改。
+
+`parent_connection.type: parent_through_paternal_uncle` 是可撤回的父系組裝，須同時引用具名侄的父親、同段叔父及叔父父親三項正文斷言。`nephew_person_id`、`uncle_person_id` 與三個 `*_assertion_id` 必須和各節點的已選直接父系吻合，三份補證逐項連回原文；四個人物身份不可重疊，不能默蓋另一個明載父親。組裝邊的 `source_assertion_id` 保持 null，不能另外創造明載父子的假斷言。此處不以數位「安兄據子朗」標題證謝據為謝裒子。
+
+`maternal_uncle` 除原有「姊子」格式，也可由明示「舅某」保存甥舅：同一證據有 `subject_person_mention_id`、`object_person_mention_id`，前者指甥、後者指接在舅字後的具名人物，`source_term` 為舅加原稱。未名舅以原字「舅」作人物錨點、`source_term: 舅`、`object_name_status: not_recorded`；不補姓名。兩種格式均保留 `lineage: maternal`、`generation_difference: -1`、`mother_person_id: null`，不能把兩代不同舅父或外祖父混為同人。
+
+`maternal_cousin` 目前保存明示「姨弟」：`kinship_structure.lineage: maternal`、`generation_difference: 0`、`collateral: true`、`maternal_path: mother_sister_son`、`subject_relative_age: younger`。原路徑與長幼分存，未名母親及共同祖先不填身份，`distance`、`common_ancestor_person_id` 保持null；不能誤作父系從弟或接進共同父系。證據含主客體人物雙錨點，原詞須緊接客體原稱；相對排行使用 `scope: maternal_cousins`，不推絕對排行。
+
+姓名組件的 `zi_basis.kind: biographical_subject_called_by_courtesy_name` 保存傳首明言「故稱字」的情形。`subject_anchor` 指傳首姓加字，`marker_anchor` 指同段「故稱字」，兩者均保留段落ID及Unicode位置；附 `status: source_attested`、`human_reviewed: false`、理由，不將字冒作名。直接「字某」仍依原格式。平行正文補定本名的參考用 `scope: primary_parallel_explicit_given_name_and_same_named_ancestors`，保存完整姓加名、以此首名後接字的 `raw_context_quote` 及其雜湊、原行字元位置、固定修訂與全文雜湊；所選名必須逐字相符，不從「同諱」截出一個字，也不能用數位章題冒作正文。未親核圖像須保留false。
+
+先敘死亡、後明言「贈某官」可存 `posthumous_basis.kind: death_then_explicit_gift`，不替正文補追字。保存完整同段 `source_term`、`death_term`、`grant_term`、`recipient_person_mention_id` 及與持職起點相同的 `evidence`。受贈者須為死亡原詞前最後具名人物，授贈在死亡後、每筆官稱屬明贈清單且與同人職稱錨點相合；未知年份不補。此型與僅死後被用稱不同，不把全人生官職一律視為追贈。
+
+`title_proposals` 另容 `proposal_kind: unassumed_appointment`、`outcome: not_assumed`，區分「任用而未受／未赴」與原有 `not_enacted` 的未實行立號提議。`appointment_anchor`、`non_assumption_anchor` 分別保存任用詞與「並不行」「苦讓，遂不受」「以疾固辭，未行而卒」等已核原詞；職稱仍是非人物錨點，當事人、任用詞、職稱及未任原詞都須在同一完整引句中。`non_assumption_kind: declined` 或 `did_not_take_up` 分存辭讓與未赴，不能由此推為已任職期。人物頁以「辭讓／未赴任記錄」另列；同名來源用稱僅提示另見未赴任記載，不將一次未赴擴成此人所有任期的判斷。
