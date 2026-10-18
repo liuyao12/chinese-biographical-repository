@@ -201,7 +201,6 @@
 | `1kg_k0w_4dm` | 賈嘉 | [《史記・儒林列傳》][107] | [JSON](1kg_k0w_4dm.json) |
 | `1kj_vhc_cx9` | 上官桀 | [《史記・三王世家》][46] | [JSON](1kj_vhc_cx9.json) |
 | `1kl_hvr_p01` | 丹 | [《史記・五宗世家》][45] | [JSON](1kl_hvr_p01.json) |
-| `1kr_t55_e8m` | 楚莊王 | [《史記・循吏列傳》][105] | [JSON](1kr_t55_e8m.json) |
 | `1ku_2ry_mri` | 公孫支 | [《史記・秦本紀》][9] | [JSON](1ku_2ry_mri.json) |
 | `1kw_6ot_aly` | 開地 | [《史記・留侯世家》][41] | [JSON](1kw_6ot_aly.json) |
 | `1kx_lop_9k1` | 長史（未名） | [《史記・李將軍列傳》][95] | [JSON](1kx_lop_9k1.json) |
@@ -870,7 +869,6 @@
 | `6q3_5d1_jsc` | 友 | [《史記・齊悼惠王世家》][38] | [JSON](6q3_5d1_jsc.json) |
 | `6qb_spt_uc1` | 宣（齊） | [《史記・太史公自序》][116] | [JSON](6qb_spt_uc1.json) |
 | `6qu_ijl_anf` | 季姬（季康子妹） | [《史記・齊太公世家》][18] | [JSON](6qu_ijl_anf.json) |
-| `6r6_00u_xxf` | 晉文公 | [《史記・循吏列傳》][105] | [JSON](6r6_00u_xxf.json) |
 | `6r7_9o6_c1i` | 田橫 | [《史記・田儋列傳》][80] | [JSON](6r7_9o6_c1i.json) |
 | `6rk_dgb_df6` | 韓萬（曲沃殺哀侯者） | [《史記・晉世家》][25] | [JSON](6rk_dgb_df6.json) |
 | `6rp_jqd_p41` | 武安侯蚡 | [《史記・汲鄭列傳》][106] | [JSON](6rp_jqd_p41.json) |
@@ -1656,7 +1654,6 @@
 | `d0c_mzc_xon` | 魏無忌 | [《史記・六國年表》][120] | [JSON](d0c_mzc_xon.json) |
 | `d0s_8m9_sci` | 太姜 | [《史記・周本紀》][8] | [JSON](d0s_8m9_sci.json) |
 | `d0z_er0_gco` | 王離 | [《史記・曹相國世家》][40] | [JSON](d0z_er0_gco.json) |
-| `d1k_jtj_7sy` | 楚昭王 | [《史記・循吏列傳》][105] | [JSON](d1k_jtj_7sy.json) |
 | `d1q_nn7_fvn` | 趙夷吾 | [《史記・楚元王世家》][36] | [JSON](d1q_nn7_fvn.json) |
 | `d1r_5dd_9tm` | 燕質子 | [《史記・蘇秦列傳》][55] | [JSON](d1r_5dd_9tm.json) |
 | `d1r_k0x_tin` | 陳喜 | [《史記・淮南衡山列傳》][104] | [JSON](d1r_k0x_tin.json) |
@@ -2202,6 +2199,9 @@
 | `h2h_z86_a3d` | 吳廣 | [《史記・陳涉世家》][34] | [JSON](h2h_z86_a3d.json) |
 | `h2o_6n8_bid` | 趙襄子姊 | [《史記・張儀列傳》][56] | [JSON](h2o_6n8_bid.json) |
 | `h3l_xit_ohp` | 佐弋竭 | [《史記・秦始皇本紀》][10] | [JSON](h3l_xit_ohp.json) |
+| `h3x_nrw_uay` | 徐偃王 | [《史記・秦本紀》][9] | [JSON](h3x_nrw_uay.json) |
+| `h40_rtd_6ut` | 樂池 | [《史記・秦本紀》][9] | [JSON](h40_rtd_6ut.json) |
+| `h4c_ia5_qoe` | 五大夫禮 | [《史記・秦本紀》][9] | [JSON](h4c_ia5_qoe.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt
