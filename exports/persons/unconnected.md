@@ -2134,7 +2134,7 @@
 | `fze_new_7ft` | 衡胡 | [《史記・儒林列傳》][106] | [JSON](fze_new_7ft.json) |
 | `fzk_mr8_bej` | 秦獻公（楚篇周賀者） | [《史記・楚世家》][25] | [JSON](fzk_mr8_bej.json) |
 | `fzo_jum_4s1` | 翟公 | [《史記・汲鄭列傳》][105] | [JSON](fzo_jum_4s1.json) |
-| `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][96] | [JSON](fzx_a7k_725.json) |
+| `fzx_a7k_725` | 伊即靬 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](fzx_a7k_725.json) |
 | `g0f_lnq_gkm` | 褒后 | [《史記・鄭世家》][27] | [JSON](g0f_lnq_gkm.json) |
 | `g0i_iwm_ld0` | 澹臺子羽 | [《史記・儒林列傳》][106] | [JSON](g0i_iwm_ld0.json) |
 | `g0j_yhl_z02` | 淮南王（趙兼甥） | [《史記・酷吏列傳》][107] | [JSON](g0j_yhl_z02.json) |
@@ -2207,7 +2207,6 @@
 | `gix_plv_xhr` | 子賤 | [《史記・滑稽列傳》][111] | [JSON](gix_plv_xhr.json) |
 | `gj7_qds_jsk` | 卿秦 | [《史記・趙世家》][28] | [JSON](gj7_qds_jsk.json) |
 | `gjf_egt_qju` | 周被 | [《史記・淮南衡山列傳》][103] | [JSON](gjf_egt_qju.json) |
-| `gk2_t8l_zhj` | 緣斯（長翟） | [《史記・魯周公世家》][18]、[《史記・宋微子世家》][23] | [JSON](gk2_t8l_zhj.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
