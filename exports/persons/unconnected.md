@@ -188,7 +188,7 @@
 | `1dz_0ef_p4o` | 趙史援 | [《史記・趙世家》][28] | [JSON](1dz_0ef_p4o.json) |
 | `1ec_jmi_32g` | 繻 | [《史記・鄭世家》][27] | [JSON](1ec_jmi_32g.json) |
 | `1ex_se1_yef` | 張湯父（未名） | [《史記・酷吏列傳》][107] | [JSON](1ex_se1_yef.json) |
-| `1fa_jx6_oun` | 高不識 | [《史記・衛將軍驃騎列傳》][96] | [JSON](1fa_jx6_oun.json) |
+| `1fa_jx6_oun` | 高不識 | [《史記・衛將軍驃騎列傳》][96]、[《史記・建元以來侯者年表》][123] | [JSON](1fa_jx6_oun.json) |
 | `1gj_dvk_m38` | 尚席 | [《史記・絳侯周勃世家》][42] | [JSON](1gj_dvk_m38.json) |
 | `1gk_6c4_iou` | 泰帝（素女敘事） | [《史記・孝武本紀》][15] | [JSON](1gk_6c4_iou.json) |
 | `1hb_k44_h0v` | 利（殺蔡昭侯者） | [《史記・管蔡世家》][20] | [JSON](1hb_k44_h0v.json) |
@@ -267,7 +267,6 @@
 | `1zm_8zk_4hh` | 非子 | [《史記・秦本紀》][8] | [JSON](1zm_8zk_4hh.json) |
 | `1zn_1kz_5fj` | 長安令（未名） | [《史記・汲鄭列傳》][105] | [JSON](1zn_1kz_5fj.json) |
 | `1zr_pe3_6jo` | 親弗 | [《史記・孟嘗君列傳》][60] | [JSON](1zr_pe3_6jo.json) |
-| `20n_l53_kkr` | 渾邪王 | [《史記・大宛列傳》][108] | [JSON](20n_l53_kkr.json) |
 | `21a_kok_ndw` | 虢君未名 | [《史記・扁鵲倉公列傳》][90] | [JSON](21a_kok_ndw.json) |
 | `220_2hx_s8j` | 蔡侯（楚靈王醉殺者未名） | [《史記・楚世家》][25] | [JSON](220_2hx_s8j.json) |
 | `224_en7_aho` | 王朔 | [《史記・李將軍列傳》][94] | [JSON](224_en7_aho.json) |
