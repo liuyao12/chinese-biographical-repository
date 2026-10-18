@@ -1,4 +1,5 @@
 import {escapeHTML as h} from './core.js';
+import {t} from './i18n.js';
 // Birth/death summaries use typed events, never office dates or age arithmetic.
 export function ageLabel(age) {
   if (age.approximation?.kind === 'adjacent_age_numbers' && typeof age.source_number === 'string') return `${age.source_number}歲`;
@@ -20,7 +21,8 @@ export function summarizeLife(p) {
     const rows=[], grouped=new Map();
     for (const event of events.filter(e=>e.event_type===kind).sort((a,b)=>rank(a)-rank(b))) {
       const date=event.normalized_date || event.normalized_date_range;
-      const key=date?JSON.stringify([rank(event),event.date_expression,facts(date)]):null;
+      const civil=event.chinese_civil_year;
+      const key=date || civil?JSON.stringify([rank(event),event.date_expression,facts(date),facts(civil)]):null;
       if (!key || !grouped.has(key)) {
         const row={...event,evidence:[...(event.evidence || [])]};rows.push(row);
         if (key) grouped.set(key,row);
@@ -42,7 +44,16 @@ export function summarizeLife(p) {
 
 
 // Ranges are explicit data. Never choose either endpoint as an event year.
+export function civilYearLabelData(event) {
+  const civil=event?.chinese_civil_year;
+  if (civil?.calendar!=='chinese_civil' || civil.year_numbering!=='astronomical' || civil.precision!=='year'
+      || !['BCE','CE'].includes(civil.era) || !Number.isSafeInteger(civil.era_year) || civil.era_year<=0
+      || !Number.isSafeInteger(civil.year) || civil.year!==(civil.era==='BCE'?1-civil.era_year:civil.era_year)) return null;
+  return {key:civil.era==='BCE'?'{year} BCE (Chinese civil year)':'{year} CE (Chinese civil year)',params:{year:civil.era_year}};
+}
 export function lifeYearLabel(event) {
+  const civil=civilYearLabelData(event);
+  if (civil) return t(civil.key,civil.params);
   const date = event.normalized_date;
   if (date?.era_year) return `西元${date.era === 'BCE' ? '前' : ''}${date.era_year}年`;
   const range = event.normalized_date_range;

@@ -311,6 +311,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         paragraph_ids.update(e['paragraph_id'] for e in record.get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date', {}).get('evidence', []) if e.get('kind') != 'table_cell')
         paragraph_ids.update(e['paragraph_id'] for e in record.get('normalized_date_range', {}).get('evidence', []) if e.get('kind') != 'table_cell')
+        paragraph_ids.update(e['paragraph_id'] for e in record.get('chinese_civil_year', {}).get('context_evidence', []))
         for evidence in record.get('evidence', []):
             context = evidence.get('context', {})
             if context.get('paragraph_id'):
@@ -330,6 +331,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     chapter_ids = {p['chapter_id'] for p in passages}
     table_passages = dict(occurrence_cells)
     cited_tables = {m['table_id'] for m in table_occurrences}
+    for event in life_events + person_events:
+        table_id = event.get('chinese_civil_year', {}).get('year_equivalence', {}).get('table_id')
+        if table_id in tables:
+            cited_tables.add(table_id)
     for relation in relations:
         for evidence in relation['evidence']:
             if evidence.get('kind') != 'table_cell':
@@ -583,6 +588,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'name_components': name_components} if name_components else {}),
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),
+            **({'chinese_civil_year_normalizations': [dict(e['chinese_civil_year'], record_id=e['id'], person_id=e['person_id'],
+                date_role='life_event' if e['event_type'] in ('birth', 'death') else 'person_event', event_type=e['event_type'])
+                for e in life_events + person_events if 'chinese_civil_year' in e]}
+               if any('chinese_civil_year' in e for e in life_events + person_events) else {}),
             **({'life_event_date_decisions': date_decisions, 'selected_life_event_dates': selected_life_dates} if date_decisions else {}),
             **({'age_assertions': ages} if ages else {}),
             **({'age_difference_assertions': age_differences} if age_differences else {}),
@@ -621,7 +630,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                            'source': tables[tid]['source']} for tid in sorted(cited_tables)],
             'time_policy': {'unknown_is_not_unbounded': True, 'attestation_is_not_tenure': True,
                             'date_expressions_are_not_normalized': False, 'date_normalization_coverage': 'partial',
-                            'normalized_year_numbering': 'astronomical'}}
+                            'normalized_year_numbering': 'astronomical',
+                            'civil_year_label_field': 'chinese_civil_year',
+                            'civil_year_label_coverage': 'partial',
+                            'regnal_year_crosses_ce_year_is_gregorian_projection': True}}
 
 
 def main():
