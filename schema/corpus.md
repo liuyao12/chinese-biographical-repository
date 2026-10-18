@@ -574,3 +574,17 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 明記「追贈＋稱號」可作 `posthumous_grant`；其 `posthumous_basis` 須保存相符原詞及同一授予起點證據。不是以死後出現一次稱呼推定曾有追贈。
 
 `clan_style` 用於本名未知的氏稱顯示，不能濫用未分姓名 `full_name`。`ming` 保持null，`value`須為已記姓加氏。`received_clan_appellation` 要求原文人物錨點直接作該氏稱；`sibling_clan_appellation` 為代理依具名兄弟之妹暫稱，須引用同段的姊妹陳述ID及原詞，且不得有已知異父限定。兩者保存判讀、狀態及未人工審閱標記。鍾氏字琰的琰在 `zi`，不填入 `ming`；荀霬妻暫稱司馬氏，不補本名或子女生母關係。
+
+## 完整傳文的子嗣承接與省略主語
+
+`context.kind: biographical_child_continuation` 用於原段連續敘傳主、卒官、再以段首「子某」附載子嗣。只接受父親斷言；`paragraph_ids` 與全部證據段完全一致、依正文順序連續，各證據引用完整原段，原行與固定修訂也須連續。`parent_mention_id` 位於首段，`child_mention_id` 位於末段「子」後；另列暫定狀態、判讀理由及非人工審閱。不得跳過中間段、截句掩去主語轉換、跨版本或向正文添父名。這是可覆核的閱讀判斷，不是驗證器自動理解古文。
+
+報齡原段省略姓名時，可在證據用 `prior_paragraph_subject`，保留前段原引句、人物錨點及全部中間段（最多一段）；有原行位置的選錄不得跳行冒作連續。來源報齡與出生年仍分開。
+
+稱號用稱的姓名省略時，`attestations.context` 可用 `previous_paragraph_subject`，同時必須與該持職本段來源證據的承接完全一致。用稱字元位置仍在實際官稱所在段，人物錨點另指直接前段；不得把前段姓名偽作官稱本段原字。
+
+`agnatic_cousin` 的 `qualifiers.mourning_separation` 保存「絕服五世」之類的服制原數：`value`、`source_number`、`source_term`、`unit: reported_mourning_generations`、`common_ancestor_distance: null`。不能以服制世數填共同祖先親等。
+
+未名妻由「妻弟謝晦」辨氏時，姓名資料可用 `clan_style.kind: wife_sibling_clan_appellation`。須有本段具名妻弟錨點、相符的姊弟斷言與原詞，並保持 `ming: null`；不據此新增孩子的生母關係。
+
+`end_basis.kind: died_in_last_named_office` 限定原文在該官名後直接接「。某年，卒官」；完整原詞、同一持職證據、人物主語錨點及官名字元位置須相合。僅此最後明示官職可有 `explicit_end`，日期另附原紀年及換算證據；其他先前官職不得一併取此卒年為終點。

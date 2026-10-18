@@ -148,7 +148,7 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 夷仲年 | [《史記・齊太公世家》][27]、[《史記・十二諸侯年表》][131] | [JSON](1hf_1k0_bnj.json) |
+| `根` | 夷仲年 | [《史記・齊太公世家》][27]、[《史記・十二諸侯年表》][134] | [JSON](1hf_1k0_bnj.json) |
 | `A` | 公孫無知 | [《史記・齊太公世家》][27] | [JSON](1hf_1k0_bnj_A.json) |
 
 </details>
@@ -243,6 +243,15 @@
 | `AAAAAAAAA` | 司空（宋武公） | [《史記・宋微子世家》][33] | [JSON](2v6_0g1_ve2_AAAAAAAAA.json) |
 | `AAAAAAAAAA` | 宋女（魯惠公夫人） | [《史記・宋微子世家》][33] | [JSON](2v6_0g1_ve2_AAAAAAAAAA.json) |
 | `AAAAAAAAAB` | 力（宋宣公） | [《史記・宋微子世家》][33] | [JSON](2v6_0g1_ve2_AAAAAAAAAB.json) |
+
+</details>
+
+<details><summary><code>2ya_f42_kcq</code> 荀昶（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 荀昶 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](2ya_f42_kcq.json) |
+| `A` | 荀萬秋 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](2ya_f42_kcq_A.json) |
 
 </details>
 
@@ -379,7 +388,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 具（魯獻公） | [《史記・魯周公世家》][28] | [JSON](50h_gqe_1p1.json) |
-| `A` | 濞（魯真公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][130] | [JSON](50h_gqe_1p1_A.json) |
+| `A` | 濞（魯真公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][133] | [JSON](50h_gqe_1p1_A.json) |
 
 </details>
 
@@ -466,11 +475,23 @@
 
 </details>
 
+<details><summary><code>5t2_x7g_6iv</code> 謝朗（5 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 謝朗 | [《宋書・謝晦列傳》][127] | [JSON](5t2_x7g_6iv.json) |
+| `A` | 謝重 | [《宋書・謝晦列傳》][127] | [JSON](5t2_x7g_6iv_A.json) |
+| `AA` | 謝晦 | [《宋書・謝晦列傳》][127]、[《宋書・王韶之荀伯子等列傳》][128] | [JSON](5t2_x7g_6iv_AA.json) |
+| `AB` | 謝絢 | [《宋書・謝晦列傳》][127] | [JSON](5t2_x7g_6iv_AB.json) |
+| `AC` | 謝氏（荀伯子妻） | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](5t2_x7g_6iv_AC.json) |
+
+</details>
+
 <details><summary><code>5xt_rg8_7zs</code> 項燕（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 項燕 | [《史記・秦始皇本紀》][19]、[《史記・六國年表》][132] | [JSON](5xt_rg8_7zs.json) |
+| `根` | 項燕 | [《史記・秦始皇本紀》][19]、[《史記・六國年表》][135] | [JSON](5xt_rg8_7zs.json) |
 | `A` | 項梁 | [《史記・項羽本紀》][20] | [JSON](5xt_rg8_7zs_A.json) |
 
 </details>
@@ -600,7 +621,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 靳歙 | [《漢書・樊酈滕灌傅靳周傳》][4] | [JSON](7dv_lqp_y4z.json) |
-| `A` | 靳亭 | [《史記・高祖功臣侯者年表》][135] | [JSON](7dv_lqp_y4z_A.json) |
+| `A` | 靳亭 | [《史記・高祖功臣侯者年表》][138] | [JSON](7dv_lqp_y4z_A.json) |
 
 </details>
 
@@ -644,6 +665,17 @@
 
 </details>
 
+<details><summary><code>85v_6zd_x1s</code> 王導（4 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 王導 | [《晉書・卷七十五·列傳》][11]、[《宋書・王弘列傳》][126] | [JSON](85v_6zd_x1s.json) |
+| `A` | 王洽 | [《宋書・王弘列傳》][126] | [JSON](85v_6zd_x1s_A.json) |
+| `AA` | 王珣 | [《宋書・王弘列傳》][126] | [JSON](85v_6zd_x1s_AA.json) |
+| `AAA` | 王弘 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](85v_6zd_x1s_AAA.json) |
+
+</details>
+
 <details><summary><code>8im_m5e_cpy</code> 甘茂（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -667,7 +699,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 韓千秋 | [《史記・南越列傳》][108] | [JSON](8xz_mlj_r3c.json) |
-| `A` | 延年 | [《史記・建元以來侯者年表》][137] | [JSON](8xz_mlj_r3c_A.json) |
+| `A` | 延年 | [《史記・建元以來侯者年表》][140] | [JSON](8xz_mlj_r3c_A.json) |
 
 </details>
 
@@ -686,7 +718,7 @@
 |---|---|---|---|
 | `根` | 申（蔡昭侯） | [《史記・管蔡世家》][30] | [JSON](995_xas_r98.json) |
 | `A` | 朔（蔡成侯） | [《史記・管蔡世家》][30] | [JSON](995_xas_r98_A.json) |
-| `AA` | 產（蔡聲侯） | [《史記・管蔡世家》][30]、[《史記・六國年表》][132] | [JSON](995_xas_r98_AA.json) |
+| `AA` | 產（蔡聲侯） | [《史記・管蔡世家》][30]、[《史記・六國年表》][135] | [JSON](995_xas_r98_AA.json) |
 | `AAA` | 元侯（蔡君） | [《史記・管蔡世家》][30] | [JSON](995_xas_r98_AAA.json) |
 | `AAAA` | 齊（蔡末侯） | [《史記・管蔡世家》][30] | [JSON](995_xas_r98_AAAA.json) |
 | `B` | 蔡昭侯質吳子（未名） | [《史記・管蔡世家》][30] | [JSON](995_xas_r98_B.json) |
@@ -901,8 +933,8 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 共敖 | [《史記・項羽本紀》][20]、[《史記・秦楚之際月表》][133] | [JSON](bwv_ob8_6xi.json) |
-| `A` | 共尉 | [《史記・荊燕世家》][46]、[《史記・秦楚之際月表》][133] | [JSON](bwv_ob8_6xi_A.json) |
+| `根` | 共敖 | [《史記・項羽本紀》][20]、[《史記・秦楚之際月表》][136] | [JSON](bwv_ob8_6xi.json) |
+| `A` | 共尉 | [《史記・荊燕世家》][46]、[《史記・秦楚之際月表》][136] | [JSON](bwv_ob8_6xi_A.json) |
 
 </details>
 
@@ -912,7 +944,7 @@
 |---|---|---|---|
 | `根` | 咎 | [《史記・韓世家》][40] | [JSON](c0i_eah_y59.json) |
 | `A` | 桓惠王 | [《史記・韓世家》][40] | [JSON](c0i_eah_y59_A.json) |
-| `AA` | 韓王安 | [《史記・韓世家》][40]、[《史記・六國年表》][132] | [JSON](c0i_eah_y59_AA.json) |
+| `AA` | 韓王安 | [《史記・韓世家》][40]、[《史記・六國年表》][135] | [JSON](c0i_eah_y59_AA.json) |
 
 </details>
 
@@ -967,10 +999,10 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 蟲達（史表作蠱逢） | [《漢書・髙惠髙后文功臣表》曲成列][140] | [JSON](d7u_bgr_wdi.json) |
-| `***A` | 宣（蟲達玄孫） | [《漢書・髙惠髙后文功臣表》曲成列][140] | [JSON](d7u_bgr_wdi_%2A%2A%2AA.json) |
-| `*A` | 皇柔（史表作皋柔） | [《史記・高祖功臣侯者年表》][135] | [JSON](d7u_bgr_wdi_%2AA.json) |
-| `A` | 捷（曲城侯） | [《漢書・髙惠髙后文功臣表》曲成列][140]、[《史記・高祖功臣侯者年表》][135] | [JSON](d7u_bgr_wdi_A.json) |
+| `根` | 蟲達（史表作蠱逢） | [《漢書・髙惠髙后文功臣表》曲成列][143] | [JSON](d7u_bgr_wdi.json) |
+| `***A` | 宣（蟲達玄孫） | [《漢書・髙惠髙后文功臣表》曲成列][143] | [JSON](d7u_bgr_wdi_%2A%2A%2AA.json) |
+| `*A` | 皇柔（史表作皋柔） | [《史記・高祖功臣侯者年表》][138] | [JSON](d7u_bgr_wdi_%2AA.json) |
+| `A` | 捷（曲城侯） | [《漢書・髙惠髙后文功臣表》曲成列][143]、[《史記・高祖功臣侯者年表》][138] | [JSON](d7u_bgr_wdi_A.json) |
 
 </details>
 
@@ -1112,7 +1144,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 沸（魯魏公） | [《史記・魯周公世家》][28] | [JSON](fd3_tly_1lo.json) |
-| `A` | 擢（魯厲公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][130] | [JSON](fd3_tly_1lo_A.json) |
+| `A` | 擢（魯厲公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][133] | [JSON](fd3_tly_1lo_A.json) |
 
 </details>
 
@@ -1166,9 +1198,9 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 周緤 | [《史記・傅靳蒯成列傳》][93] | [JSON](fvm_66f_0k3.json) |
-| `A` | 周昌（蒯成侯之子） | [《漢書・樊酈滕灌傅靳周傳》][4]、[《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][135] | [JSON](fvm_66f_0k3_A.json) |
+| `A` | 周昌（蒯成侯之子） | [《漢書・樊酈滕灌傅靳周傳》][4]、[《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][138] | [JSON](fvm_66f_0k3_A.json) |
 | `C` | 周應 | [《漢書・樊酈滕灌傅靳周傳》][4] | [JSON](fvm_66f_0k3_C.json) |
-| `CA` | 周仲居 | [《史記・高祖功臣侯者年表》][135] | [JSON](fvm_66f_0k3_CA.json) |
+| `CA` | 周仲居 | [《史記・高祖功臣侯者年表》][138] | [JSON](fvm_66f_0k3_CA.json) |
 
 </details>
 
@@ -1413,7 +1445,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 欒布 | [《史記・季布欒布列傳》][95] | [JSON](jx9_cov_qe0.json) |
-| `A` | 賁（欒布子） | [《史記・季布欒布列傳》][95]、[《史記・惠景間侯者年表》][136] | [JSON](jx9_cov_qe0_A.json) |
+| `A` | 賁（欒布子） | [《史記・季布欒布列傳》][95]、[《史記・惠景間侯者年表》][139] | [JSON](jx9_cov_qe0_A.json) |
 
 </details>
 
@@ -1587,7 +1619,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 田常 | [《史記・齊太公世家》][27] | [JSON](m0b_b5e_153.json) |
-| `**A` | 田和 | [《史記・六國年表》][132] | [JSON](m0b_b5e_153_%2A%2AA.json) |
+| `**A` | 田和 | [《史記・六國年表》][135] | [JSON](m0b_b5e_153_%2A%2AA.json) |
 
 </details>
 
@@ -1746,7 +1778,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 吳芮 | [《史記・高祖本紀》][21] | [JSON](o0l_em5_5v9.json) |
-| `A` | 臣（吳芮子） | [《史記・呂太后本紀》][22]、[《史記・黥布列傳》][86]、[《史記・漢興以來諸侯王年表》][134] | [JSON](o0l_em5_5v9_A.json) |
+| `A` | 臣（吳芮子） | [《史記・呂太后本紀》][22]、[《史記・黥布列傳》][86]、[《史記・漢興以來諸侯王年表》][137] | [JSON](o0l_em5_5v9_A.json) |
 | `B` | 英布妻未名 | [《史記・黥布列傳》][86] | [JSON](o0l_em5_5v9_B.json) |
 
 </details>
@@ -1876,7 +1908,7 @@
 | `根` | 丹 | [《史記・平原君虞卿列傳》][71] | [JSON](q6w_qm5_w2b.json) |
 | `A` | 偃 | [《史記・趙世家》][38] | [JSON](q6w_qm5_w2b_A.json) |
 | `AA` | 趙王遷 | [《史記・趙世家》][38] | [JSON](q6w_qm5_w2b_AA.json) |
-| `AB` | 代王嘉 | [《史記・秦始皇本紀》][19]、[《史記・六國年表》][132] | [JSON](q6w_qm5_w2b_AB.json) |
+| `AB` | 代王嘉 | [《史記・秦始皇本紀》][19]、[《史記・六國年表》][135] | [JSON](q6w_qm5_w2b_AB.json) |
 
 </details>
 
@@ -1962,7 +1994,7 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 公子發 | [《春秋左傳注疏・襄公九年（杜預注節錄）》][129] | [JSON](qjs_3hl_6ck.json) |
+| `根` | 公子發 | [《春秋左傳注疏・襄公九年（杜預注節錄）》][132] | [JSON](qjs_3hl_6ck.json) |
 | `A` | 子産 | [《史記・鄭世家》][37] | [JSON](qjs_3hl_6ck_A.json) |
 
 </details>
@@ -2188,7 +2220,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 樛樂 | [《史記・南越列傳》][108] | [JSON](tz9_dhl_ifo.json) |
-| `A` | 廣德 | [《史記・建元以來侯者年表》][137] | [JSON](tz9_dhl_ifo_A.json) |
+| `A` | 廣德 | [《史記・建元以來侯者年表》][140] | [JSON](tz9_dhl_ifo_A.json) |
 
 </details>
 
@@ -2334,9 +2366,9 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 傅寬 | [《漢書・樊酈滕灌傅靳周傳》][4] | [JSON](w8j_vnd_rs4.json) |
-| `A` | 傅精 | [《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][135] | [JSON](w8j_vnd_rs4_A.json) |
-| `AA` | 傅則 | [《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][135] | [JSON](w8j_vnd_rs4_AA.json) |
-| `AAA` | 傅偃 | [《史記・高祖功臣侯者年表》][135] | [JSON](w8j_vnd_rs4_AAA.json) |
+| `A` | 傅精 | [《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][138] | [JSON](w8j_vnd_rs4_A.json) |
+| `AA` | 傅則 | [《史記・傅靳蒯成列傳》][93]、[《史記・高祖功臣侯者年表》][138] | [JSON](w8j_vnd_rs4_AA.json) |
+| `AAA` | 傅偃 | [《史記・高祖功臣侯者年表》][138] | [JSON](w8j_vnd_rs4_AAA.json) |
 
 </details>
 
@@ -2421,7 +2453,7 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 趙兼 | [《史記・孝文本紀》][23]、[《史記・淮南衡山列傳》][113]、[《史記・酷吏列傳》][117]、[《史記・惠景間侯者年表》][136] | [JSON](xgx_g4a_c28.json) |
+| `根` | 趙兼 | [《史記・孝文本紀》][23]、[《史記・淮南衡山列傳》][113]、[《史記・酷吏列傳》][117]、[《史記・惠景間侯者年表》][139] | [JSON](xgx_g4a_c28.json) |
 | `A` | 周陽由 | [《史記・酷吏列傳》][117] | [JSON](xgx_g4a_c28_A.json) |
 
 </details>
@@ -2518,7 +2550,7 @@
 | `ACAAAAAAAAAAA` | 封人（蔡桓侯） | [《史記・管蔡世家》][30] | [JSON](y4i_pjk_4gn_ACAAAAAAAAAAA.json) |
 | `AD` | 周公 | [《史記・魯周公世家》][28] | [JSON](y4i_pjk_4gn_AD.json) |
 | `ADA` | 伯禽 | [《史記・魯周公世家》][28] | [JSON](y4i_pjk_4gn_ADA.json) |
-| `ADAA` | 酋（魯考公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][130] | [JSON](y4i_pjk_4gn_ADAA.json) |
+| `ADAA` | 酋（魯考公） | [《史記・魯周公世家》][28]、[《史記・三代世表》][133] | [JSON](y4i_pjk_4gn_ADAA.json) |
 | `AE` | 衛康叔封 | [《史記・衛康叔世家》][32] | [JSON](y4i_pjk_4gn_AE.json) |
 | `AEA` | 康伯（衛康叔子） | [《史記・衛康叔世家》][32] | [JSON](y4i_pjk_4gn_AEA.json) |
 | `AEAA` | 考伯（衛君） | [《史記・衛康叔世家》][32] | [JSON](y4i_pjk_4gn_AEAA.json) |
@@ -2588,7 +2620,7 @@
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 吳廣 | [《史記・趙世家》][38]、[《史記・六國年表》][132] | [JSON](yaj_2vc_98w.json) |
+| `根` | 吳廣 | [《史記・趙世家》][38]、[《史記・六國年表》][135] | [JSON](yaj_2vc_98w.json) |
 | `A` | 娃嬴 | [《史記・趙世家》][38] | [JSON](yaj_2vc_98w_A.json) |
 
 </details>
@@ -2651,7 +2683,7 @@
 
 </details>
 
-<details><summary><code>yoo_ox0_545</code> 荀淑（29 名）</summary>
+<details><summary><code>yoo_ox0_545</code> 荀淑（32 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -2666,7 +2698,10 @@
 | `BABAA` | 荀頵 | [《晉書・卷七十五·列傳》][11] | [JSON](yoo_ox0_545_BABAA.json) |
 | `BABAAA` | 荀崧 | [《晉書・卷七十五·列傳》][11] | [JSON](yoo_ox0_545_BABAAA.json) |
 | `BABAAAA` | 荀蕤 | [《晉書・卷七十五·列傳》][11] | [JSON](yoo_ox0_545_BABAAAA.json) |
-| `BABAAAB` | 荀羨 | [《晉書・卷七十五·列傳》][11] | [JSON](yoo_ox0_545_BABAAAB.json) |
+| `BABAAAB` | 荀羨 | [《晉書・卷七十五·列傳》][11]、[《宋書・王韶之荀伯子等列傳》][128] | [JSON](yoo_ox0_545_BABAAAB.json) |
+| `BABAAABA` | 荀猗 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](yoo_ox0_545_BABAAABA.json) |
+| `BABAAABAA` | 荀伯子 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](yoo_ox0_545_BABAAABAA.json) |
+| `BABAAABAAA` | 荀赤松 | [《宋書・王韶之荀伯子等列傳》][128] | [JSON](yoo_ox0_545_BABAAABAAA.json) |
 | `BABAAAC` | 荀灌 | [《晉書・列女傳·列傳》][12] | [JSON](yoo_ox0_545_BABAAAC.json) |
 | `BABB` | 荀霬 | [《三國志・荀彧荀攸賈詡傳》][13] | [JSON](yoo_ox0_545_BABB.json) |
 | `BABBA` | 荀愷 | [《三國志・荀彧荀攸賈詡傳》][13] | [JSON](yoo_ox0_545_BABBA.json) |
@@ -2713,15 +2748,15 @@
 | `ABD` | 辟光（濟南王） | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABD.json) |
 | `ABE` | 雄渠（膠東王） | [《史記・齊悼惠王世家》][47]、[《史記・吳王濞列傳》][101] | [JSON](yqp_nlb_p1p_ABE.json) |
 | `ABF` | 章（城陽景王） | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABF.json) |
-| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][47]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_ABFA.json) |
+| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][47]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_ABFA.json) |
 | `ABFAA` | 延校勘建未定 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAA.json) |
 | `ABFAAA` | 義 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAAA.json) |
 | `ABFAAAA` | 武城陽惠王 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAAAA.json) |
 | `ABFAAAAA` | 順 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAAAAA.json) |
 | `ABFAAAAAA` | 恢城陽戴王 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAAAAAA.json) |
 | `ABFAAAAAAA` | 景城陽末王 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABFAAAAAAA.json) |
-| `ABFAB` | 劉福 | [《史記・東越列傳》][109]、[《史記・建元以來侯者年表》][137]、[《史記・建元已來王子侯者年表》][138] | [JSON](yqp_nlb_p1p_ABFAB.json) |
-| `ABFAC` | 劉齒 | [《史記・建元已來王子侯者年表》][138] | [JSON](yqp_nlb_p1p_ABFAC.json) |
+| `ABFAB` | 劉福 | [《史記・東越列傳》][109]、[《史記・建元以來侯者年表》][140]、[《史記・建元已來王子侯者年表》][141] | [JSON](yqp_nlb_p1p_ABFAB.json) |
+| `ABFAC` | 劉齒 | [《史記・建元已來王子侯者年表》][141] | [JSON](yqp_nlb_p1p_ABFAC.json) |
 | `ABG` | 賢（菑川王） | [《史記・齊悼惠王世家》][47]、[《史記・吳王濞列傳》][101] | [JSON](yqp_nlb_p1p_ABG.json) |
 | `ABH` | 志（濟北王，後王菑川） | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABH.json) |
 | `ABHA` | 建菑川靖王 | [《史記・齊悼惠王世家》][47] | [JSON](yqp_nlb_p1p_ABHA.json) |
@@ -2749,10 +2784,10 @@
 | `ACAB` | 德 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAB.json) |
 | `ACABA` | 不害 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACABA.json) |
 | `ACABAA` | 基 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACABAA.json) |
-| `ACABAAA` | 授 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_ACABAAA.json) |
+| `ACABAAA` | 授 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_ACABAAA.json) |
 | `ACAC` | 閼于 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAC.json) |
 | `ACAD` | 發 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAD.json) |
-| `ACADA` | 庸 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_ACADA.json) |
+| `ACADA` | 庸 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_ACADA.json) |
 | `ACADAA` | 鮒鮈 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACADAA.json) |
 | `ACAE` | 乘 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAE.json) |
 | `ACAF` | 趙王彭祖 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAF.json) |
@@ -2763,7 +2798,7 @@
 | `ACAGCA` | 安世 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAGCA.json) |
 | `ACAH` | 栗太子（本卷未名） | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAH.json) |
 | `ACAI` | 勝（景帝子） | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAI.json) |
-| `ACAIA` | 昌 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_ACAIA.json) |
+| `ACAIA` | 昌 | [《史記・五宗世家》][54]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_ACAIA.json) |
 | `ACAIAA` | 昆侈 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAIAA.json) |
 | `ACAJ` | 越（景帝子） | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAJ.json) |
 | `ACAJA` | 齊 | [《史記・五宗世家》][54] | [JSON](yqp_nlb_p1p_ACAJA.json) |
@@ -2794,8 +2829,8 @@
 | `AD` | 恢（高祖子） | [《史記・呂太后本紀》][22] | [JSON](yqp_nlb_p1p_AD.json) |
 | `AE` | 友（高祖子） | [《史記・呂太后本紀》][22] | [JSON](yqp_nlb_p1p_AE.json) |
 | `AEA` | 遂（趙幽王子） | [《史記・楚元王世家》][45] | [JSON](yqp_nlb_p1p_AEA.json) |
-| `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][23]、[《史記・楚元王世家》][45]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_AEB.json) |
-| `AEBA` | 福 | [《史記・楚元王世家》][45]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_AEBA.json) |
+| `AEB` | 辟彊（趙幽王子） | [《史記・孝文本紀》][23]、[《史記・楚元王世家》][45]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_AEB.json) |
+| `AEBA` | 福 | [《史記・楚元王世家》][45]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_AEBA.json) |
 | `AF` | 長（高祖子） | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AF.json) |
 | `AFA` | 淮南王安 | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AFA.json) |
 | `AFAA` | 陵（淮南王女） | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AFAA.json) |
@@ -2807,8 +2842,8 @@
 | `AFCA` | 爽（衡山太子） | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AFCA.json) |
 | `AFCB` | 孝（衡山王子） | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AFCB.json) |
 | `AFCC` | 無采 | [《史記・淮南衡山列傳》][113] | [JSON](yqp_nlb_p1p_AFCC.json) |
-| `AFD` | 東城侯良 | [《史記・淮南衡山列傳》][113]、[《史記・惠景間侯者年表》][136] | [JSON](yqp_nlb_p1p_AFD.json) |
-| `AG` | 建（高祖子） | [《史記・高祖本紀》][21]、[《史記・呂太后本紀》][22]、[《史記・漢興以來諸侯王年表》][134] | [JSON](yqp_nlb_p1p_AG.json) |
+| `AFD` | 東城侯良 | [《史記・淮南衡山列傳》][113]、[《史記・惠景間侯者年表》][139] | [JSON](yqp_nlb_p1p_AFD.json) |
+| `AG` | 建（高祖子） | [《史記・高祖本紀》][21]、[《史記・呂太后本紀》][22]、[《史記・漢興以來諸侯王年表》][137] | [JSON](yqp_nlb_p1p_AG.json) |
 | `AH` | 如意（高祖子） | [《史記・呂太后本紀》][22] | [JSON](yqp_nlb_p1p_AH.json) |
 | `AI` | 魯元（本卷稱呼） | [《史記・呂太后本紀》][22] | [JSON](yqp_nlb_p1p_AI.json) |
 | `B` | 伯 | [《史記・楚元王世家》][45] | [JSON](yqp_nlb_p1p_B.json) |
@@ -2853,7 +2888,7 @@
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
 | `根` | 路人 | [《史記・朝鮮列傳》][110] | [JSON](z9d_qn5_wg8.json) |
-| `A` | 最 | [《史記・建元以來侯者年表》][137] | [JSON](z9d_qn5_wg8_A.json) |
+| `A` | 最 | [《史記・建元以來侯者年表》][140] | [JSON](z9d_qn5_wg8_A.json) |
 
 </details>
 
@@ -3009,13 +3044,16 @@
 [120]: https://zh.wikisource.org/w/index.php?title=史記/卷125&oldid=2273599
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷126&oldid=2609358
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷130&oldid=2609362
-[129]: https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L776-L776
-[130]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
-[131]: https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001
-[132]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
-[133]: https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007
-[134]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
-[135]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
-[136]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
-[137]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
-[138]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037
+[126]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B742&oldid=1478172
+[127]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033
+[128]: https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694
+[132]: https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L776-L776
+[133]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
+[134]: https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001
+[135]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
+[136]: https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007
+[137]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
+[138]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
+[139]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
+[140]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036
+[141]: https://zh.wikisource.org/w/index.php?title=史記/卷021&oldid=2607037

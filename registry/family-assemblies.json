@@ -2310,7 +2310,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以三史所錄父子及具名祖先世次接合；不按姓氏預接荀卿遠祖，八子字母路徑不表示年序。",
+      "rationale": "以後漢書、三國志、晉書、宋書所載父子及具名祖先世次逐條接合；不按同姓或服制世數填遠祖，字母不表示年序。",
       "members": [
         {
           "person_id": "yoo_ox0_545",
@@ -2764,6 +2764,377 @@
             "sibling_person_id": "yoo_ox0_545_BAA",
             "sibling_assertion_id": "a-sanguozhi010-descendants-008",
             "sibling_father_assertion_id": "a-jinshu039-xun-001"
+          }
+        },
+        {
+          "person_id": "yoo_ox0_545_BABAAABA",
+          "representative_source_person_id": "yoo_ox0_545_BABAAABA",
+          "source_person_ids": [
+            "yoo_ox0_545_BABAAABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yoo_ox0_545_BABAAAB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "yoo_ox0_545_BABAAABAA",
+            "nearer_ancestor_assertion_id": "a-songshu060-family-001",
+            "farther_ancestor_assertion_id": "a-songshu060-family-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段傳主父、祖、曾祖為連續具名父系祖先；中間父子為編輯推導，不增造正文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-060",
+                "source_id": "s-songshu-060-xunbozi",
+                "chapter_id": "c-songshu-060-xunbozi",
+                "paragraph_id": "c-songshu-060-xunbozi:p001",
+                "quote": "荀伯子，潁川潁陰人也。祖羨，驃騎將軍。父猗，祕書郎。",
+                "assertion_id": "a-songshu060-family-001",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-060",
+                "source_id": "s-songshu-060-xunbozi",
+                "chapter_id": "c-songshu-060-xunbozi",
+                "paragraph_id": "c-songshu-060-xunbozi:p001",
+                "quote": "荀伯子，潁川潁陰人也。祖羨，驃騎將軍。父猗，祕書郎。",
+                "assertion_id": "a-songshu060-family-002",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "yoo_ox0_545_BABAAABAA",
+          "representative_source_person_id": "yoo_ox0_545_BABAAABAA",
+          "source_person_ids": [
+            "yoo_ox0_545_BABAAABAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yoo_ox0_545_BABAAABA",
+          "source_assertion_id": "a-songshu060-family-001"
+        },
+        {
+          "person_id": "yoo_ox0_545_BABAAABAAA",
+          "representative_source_person_id": "yoo_ox0_545_BABAAABAAA",
+          "source_person_ids": [
+            "yoo_ox0_545_BABAAABAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "yoo_ox0_545_BABAAABAA",
+          "source_assertion_id": "a-songshu060-family-003"
+        }
+      ]
+    },
+    {
+      "id": "family-xun-chang-song",
+      "label": "荀昶已見支系；與荀伯子之共同祖先未明",
+      "root_person_id": "2ya_f42_kcq",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅接有原文及獨立編輯推導的已見支系；未核更早祖系，不宣稱全族完備，字母不表示出生順序。",
+      "members": [
+        {
+          "person_id": "2ya_f42_kcq",
+          "representative_source_person_id": "2ya_f42_kcq",
+          "source_person_ids": [
+            "2ya_f42_kcq"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "2ya_f42_kcq_A",
+          "representative_source_person_id": "2ya_f42_kcq_A",
+          "source_person_ids": [
+            "2ya_f42_kcq_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "2ya_f42_kcq",
+          "source_assertion_id": "a-songshu060-family-007"
+        }
+      ]
+    },
+    {
+      "id": "family-langye-wang-dao",
+      "label": "琅邪王氏：王導至王弘已見支系",
+      "root_person_id": "85v_6zd_x1s",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅接有原文及獨立編輯推導的已見支系；未核更早祖系，不宣稱全族完備，字母不表示出生順序。",
+      "members": [
+        {
+          "person_id": "85v_6zd_x1s",
+          "representative_source_person_id": "85v_6zd_x1s",
+          "source_person_ids": [
+            "85v_6zd_x1s"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "85v_6zd_x1s_A",
+          "representative_source_person_id": "85v_6zd_x1s_A",
+          "source_person_ids": [
+            "85v_6zd_x1s_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85v_6zd_x1s",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "85v_6zd_x1s_AAA",
+            "nearer_ancestor_assertion_id": "a-songshu042-family-002",
+            "farther_ancestor_assertion_id": "a-songshu042-family-003",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段傳主父、祖、曾祖為連續具名父系祖先；中間父子為編輯推導，不增造正文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-042",
+                "source_id": "s-songshu-042-wanghong",
+                "chapter_id": "c-songshu-042-wanghong",
+                "paragraph_id": "c-songshu-042-wanghong:p001",
+                "quote": "王弘字休元，琅邪臨沂人也。曾祖導，晉丞相。祖洽，中領軍。父珣，司徒。",
+                "assertion_id": "a-songshu042-family-002",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B742&oldid=1478172"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-042",
+                "source_id": "s-songshu-042-wanghong",
+                "chapter_id": "c-songshu-042-wanghong",
+                "paragraph_id": "c-songshu-042-wanghong:p001",
+                "quote": "王弘字休元，琅邪臨沂人也。曾祖導，晉丞相。祖洽，中領軍。父珣，司徒。",
+                "assertion_id": "a-songshu042-family-003",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B742&oldid=1478172"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "85v_6zd_x1s_AA",
+          "representative_source_person_id": "85v_6zd_x1s_AA",
+          "source_person_ids": [
+            "85v_6zd_x1s_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85v_6zd_x1s_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "85v_6zd_x1s_AAA",
+            "nearer_ancestor_assertion_id": "a-songshu042-family-001",
+            "farther_ancestor_assertion_id": "a-songshu042-family-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段傳主父、祖、曾祖為連續具名父系祖先；中間父子為編輯推導，不增造正文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-042",
+                "source_id": "s-songshu-042-wanghong",
+                "chapter_id": "c-songshu-042-wanghong",
+                "paragraph_id": "c-songshu-042-wanghong:p001",
+                "quote": "王弘字休元，琅邪臨沂人也。曾祖導，晉丞相。祖洽，中領軍。父珣，司徒。",
+                "assertion_id": "a-songshu042-family-001",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B742&oldid=1478172"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-042",
+                "source_id": "s-songshu-042-wanghong",
+                "chapter_id": "c-songshu-042-wanghong",
+                "paragraph_id": "c-songshu-042-wanghong:p001",
+                "quote": "王弘字休元，琅邪臨沂人也。曾祖導，晉丞相。祖洽，中領軍。父珣，司徒。",
+                "assertion_id": "a-songshu042-family-002",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B742&oldid=1478172"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "85v_6zd_x1s_AAA",
+          "representative_source_person_id": "85v_6zd_x1s_AAA",
+          "source_person_ids": [
+            "85v_6zd_x1s_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "85v_6zd_x1s_AA",
+          "source_assertion_id": "a-songshu042-family-001"
+        }
+      ]
+    },
+    {
+      "id": "family-chenjun-xie-lang",
+      "label": "陳郡謝氏：謝朗至謝晦已見支系",
+      "root_person_id": "5t2_x7g_6iv",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "僅接有原文及獨立編輯推導的已見支系；未核更早祖系，不宣稱全族完備，字母不表示出生順序。",
+      "members": [
+        {
+          "person_id": "5t2_x7g_6iv",
+          "representative_source_person_id": "5t2_x7g_6iv",
+          "source_person_ids": [
+            "5t2_x7g_6iv"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "5t2_x7g_6iv_A",
+          "representative_source_person_id": "5t2_x7g_6iv_A",
+          "source_person_ids": [
+            "5t2_x7g_6iv_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5t2_x7g_6iv",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "5t2_x7g_6iv_AA",
+            "nearer_ancestor_assertion_id": "a-songshu044-family-001",
+            "farther_ancestor_assertion_id": "a-songshu044-family-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段傳主父、祖、曾祖為連續具名父系祖先；中間父子為編輯推導，不增造正文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-044",
+                "source_id": "s-songshu-044-xiehui",
+                "chapter_id": "c-songshu-044-xiehui",
+                "paragraph_id": "c-songshu-044-xiehui:p001",
+                "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+                "assertion_id": "a-songshu044-family-001",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-044",
+                "source_id": "s-songshu-044-xiehui",
+                "chapter_id": "c-songshu-044-xiehui",
+                "paragraph_id": "c-songshu-044-xiehui:p001",
+                "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+                "assertion_id": "a-songshu044-family-002",
+                "scope": "同一人物之連續父系祖先世次",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "5t2_x7g_6iv_AA",
+          "representative_source_person_id": "5t2_x7g_6iv_AA",
+          "source_person_ids": [
+            "5t2_x7g_6iv_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5t2_x7g_6iv_A",
+          "source_assertion_id": "a-songshu044-family-001"
+        },
+        {
+          "person_id": "5t2_x7g_6iv_AB",
+          "representative_source_person_id": "5t2_x7g_6iv_AB",
+          "source_person_ids": [
+            "5t2_x7g_6iv_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5t2_x7g_6iv_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "5t2_x7g_6iv_AA",
+            "sibling_assertion_id": "a-songshu044-family-003",
+            "sibling_father_assertion_id": "a-songshu044-family-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "以明示姊弟／兄弟及謝晦父重暫接父系；未明同母，不另造原文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-044",
+                "source_id": "s-songshu-044-xiehui",
+                "chapter_id": "c-songshu-044-xiehui",
+                "paragraph_id": "c-songshu-044-xiehui:p001",
+                "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+                "assertion_id": "a-songshu044-family-003",
+                "scope": "明示姊弟／兄弟與謝晦父重；同父為編輯推導，未知母親不補",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-044",
+                "source_id": "s-songshu-044-xiehui",
+                "chapter_id": "c-songshu-044-xiehui",
+                "paragraph_id": "c-songshu-044-xiehui:p001",
+                "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+                "assertion_id": "a-songshu044-family-001",
+                "scope": "明示姊弟／兄弟與謝晦父重；同父為編輯推導，未知母親不補",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "5t2_x7g_6iv_AC",
+          "representative_source_person_id": "5t2_x7g_6iv_AC",
+          "source_person_ids": [
+            "5t2_x7g_6iv_AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "5t2_x7g_6iv_A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "5t2_x7g_6iv_AA",
+            "sibling_assertion_id": "a-songshu060-family-005",
+            "sibling_father_assertion_id": "a-songshu044-family-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "以明示姊弟／兄弟及謝晦父重暫接父系；未明同母，不另造原文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-060",
+                "source_id": "s-songshu-060-xunbozi",
+                "chapter_id": "c-songshu-060-xunbozi",
+                "paragraph_id": "c-songshu-060-xunbozi:p005",
+                "quote": "伯子為世子征虜功曹，國子博士。妻弟謝晦薦達之，入為尚書左丞，出補臨川內史。車騎將軍王弘稱之曰：「沈重不華，有平陽侯之風。」伯子常自矜廕籍之美，謂弘曰：「天下膏粱，唯使君與下官耳。宣明之徒，不足數也。」遷散騎常侍，本邑大中正。又上表曰：「伏見百官位次，陳留王在零陵王上，臣愚竊以為疑。昔武王剋殷，封神農之後於焦，黃帝之後於祝，帝堯之後於薊，帝舜之後於陳，夏後於𣏌，殷後於宋。𣏌、陳並為列國，而薊、祝、焦無聞焉。斯則褒崇所承，優於遠代之顯驗也。是以春秋次序諸侯，宋居𣏌、陳之上。考之近世，事亦有徵。晉泰始元年，詔賜山陽公劉康子弟一人爵關內侯，衞公姬署、宋侯孔紹子一人駙馬都尉。又泰始三年，太常上博士劉憙等議，稱衞公署於大晉在三恪之數，應降稱侯。臣以零陵王位宜在陳留之上。」從之。",
+                "assertion_id": "a-songshu060-family-005",
+                "scope": "明示姊弟／兄弟與謝晦父重；同父為編輯推導，未知母親不補",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B760&oldid=1996694"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-044",
+                "source_id": "s-songshu-044-xiehui",
+                "chapter_id": "c-songshu-044-xiehui",
+                "paragraph_id": "c-songshu-044-xiehui:p001",
+                "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。",
+                "assertion_id": "a-songshu044-family-001",
+                "scope": "明示姊弟／兄弟與謝晦父重；同父為編輯推導，未知母親不補",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8/%E5%8D%B744&oldid=1746033"
+              }
+            ]
           }
         }
       ]

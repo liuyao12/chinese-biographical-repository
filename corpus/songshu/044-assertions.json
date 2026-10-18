@@ -1,0 +1,89 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-songshu-044-xiehui",
+  "assertions": [
+    {
+      "id": "a-songshu044-family-001",
+      "subject_person_id": "5t2_x7g_6iv_AA",
+      "predicate": "father",
+      "object_person_id": "5t2_x7g_6iv_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui",
+          "chapter_id": "c-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "父重",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "按本段原文與敘事主體保存，不補未名中間人、絕對排行或共同母親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-songshu044-family-002",
+      "subject_person_id": "5t2_x7g_6iv_AA",
+      "predicate": "grandfather",
+      "object_person_id": "5t2_x7g_6iv",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui",
+          "chapter_id": "c-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "祖朗",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "按本段原文與敘事主體保存，不補未名中間人、絕對排行或共同母親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-songshu044-family-003",
+      "subject_person_id": "5t2_x7g_6iv_AA",
+      "predicate": "brother",
+      "object_person_id": "5t2_x7g_6iv_AB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui",
+          "chapter_id": "c-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "兄絢",
+        "relative_birth_order": {
+          "older_person_id": "5t2_x7g_6iv_AB",
+          "younger_person_id": "5t2_x7g_6iv_AA",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "按本段原文與敘事主體保存，不補未名中間人、絕對排行或共同母親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

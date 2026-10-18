@@ -41,10 +41,23 @@ def validate_clan_style(name, paragraph=None, relations=()):
                          for a in selected)
                  and style['source_term'].startswith(name['surname'])
                  and style['source_term'].endswith(('之妹也', '之妺也')))
+    elif valid and style['kind'] == 'wife_sibling_clan_appellation':
+        selected = [a for a in relations if a.get('id') in style['assertion_ids']]
+        valid = (style['status'] == 'editorial_provisional' and len(selected) == 1
+                 and style['assertion_ids'] == [selected[0]['id']]
+                 and selected[0].get('predicate') == 'sister'
+                 and selected[0].get('subject_person_id') == name.get('person_id')
+                 and selected[0].get('qualifiers', {}).get('shared_father') is not False
+                 and selected[0].get('qualifiers', {}).get('source_term') == style['source_term']
+                 and any(e.get('paragraph_id') == paragraph.get('id')
+                         and style['source_term'] in e.get('quote', '') for e in selected[0].get('evidence', []))
+                 and any(m.get('kind') == 'person' and m.get('person_id') == selected[0].get('object_person_id')
+                         and m.get('surface', '').startswith(name['surname'])
+                         and style['source_term'] == '妻弟' + m.get('surface', '') for m in paragraph.get('mentions', [])))
     else:
         valid = False
     if not valid:
-        raise ValueError('氏稱須保留未知本名、原文或具名兄弟之妹證據，不得把字作名')
+        raise ValueError('氏稱須保留未知本名、原文或具名兄弟的姊妹證據，不得把字作名')
 
 
 def validate_full_name(name, paragraph=None):

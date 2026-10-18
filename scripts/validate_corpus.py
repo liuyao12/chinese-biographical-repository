@@ -24,6 +24,12 @@ def source_age_number(number):
 def named_office_end_valid(holding, paragraphs, mentions):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
     basis = holding.get('end_basis'); end = holding.get('effective_period',{}).get('end',{})
+    if isinstance(basis, dict) and basis.get('kind') == 'died_in_last_named_office':
+        try:
+            from scripts.current_office_death import current_office_death_valid
+        except ImportError:
+            from current_office_death import current_office_death_valid
+        return current_office_death_valid(holding, paragraphs, mentions)
     if (not isinstance(basis,dict) or set(basis)!={'kind','source_term','evidence'}
             or holding.get('kind')!='office' or basis.get('kind')!='died_in_named_office'
             or basis.get('source_term')!='竟以'+holding.get('title','')+'終'
@@ -1003,7 +1009,15 @@ def validate(root=ROOT):
                     check(a['id'] not in title_occurrence_ids,'稱號用稱 ID 重複');title_occurrence_ids.add(a['id'])
                     hit=paragraphs.get(a['paragraph_id']);m=mentions.get(a['person_mention_id'])
                     check(bool(hit) and hit[0]==d['chapter_id'],'稱號用稱段落不符')
-                    check(bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
+                    carried_title_subject = False
+                    if 'context' in a:
+                        try:
+                            from scripts.subject_continuation import title_attestation_subject_valid
+                        except ImportError:
+                            from subject_continuation import title_attestation_subject_valid
+                        carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
+                        check(carried_title_subject, '稱號用稱省略主語承接無效')
+                    check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
                     check(a['surface']==h['title'] and a['usage'] in ('narrative','retrospective','posthumous_usage'),'稱號用稱文字或種類不符')
                     if hit:
                         check(isinstance(a['start'],int) and isinstance(a['end'],int) and 0<=a['start']<a['end']<=len(hit[1]['text']) and hit[1]['text'][a['start']:a['end']]==a['surface'],'稱號用稱字元位置不符')
@@ -1011,7 +1025,7 @@ def validate(root=ROOT):
                         for e in h['evidence']:
                             if e['paragraph_id']!=a['paragraph_id']:continue
                             starts=[i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(e['quote'],i)]
-                            if m and any(i<=a['start'] and a['end']<=i+len(e['quote']) and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote']) for i in starts):enclosed=True
+                            if any(i<=a['start'] and a['end']<=i+len(e['quote']) and (carried_title_subject or m and i<=m[2]['start'] and m[2]['end']<=i+len(e['quote'])) for i in starts):enclosed=True
                         check(enclosed,'稱號用稱及持有人不在精確引句範圍')
                     if 'normalized_date' in a:
                         expression = a.get('date_expression')
@@ -1197,6 +1211,19 @@ def validate(root=ROOT):
                     check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
                     check(structure.get('distance') is None and structure.get('common_ancestor_person_id') is None, '未定從親不可補親等或共同祖先')
                     check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
+                if 'mourning_separation' in qualifiers:
+                    separation = qualifiers['mourning_separation']
+                    valid_separation = isinstance(separation, dict)
+                    if valid_separation:
+                        number = separation.get('source_number')
+                        valid_separation = (a['predicate'] == 'agnatic_cousin'
+                            and type(separation.get('value')) is int
+                            and source_age_number(number) == separation['value']
+                            and separation.get('source_term') == '絕服' + str(number) + '世'
+                            and separation.get('unit') == 'reported_mourning_generations'
+                            and 'common_ancestor_distance' in separation and separation['common_ancestor_distance'] is None
+                            and any(separation['source_term'] in e.get('quote', '') for e in a['evidence']))
+                    check(valid_separation, '絕服世數須保留原詞與數字，不得換成共同祖先距離')
                 if 'birth_order' in qualifiers:
                     order = qualifiers['birth_order']
                     check(a['predicate'] in ('father', 'mother') and order.get('parent_person_id') == a['object_person_id'], '排行父母端點不符')
@@ -1230,6 +1257,14 @@ def validate(root=ROOT):
                             context_errors = regnal_spouse_errors(a, chapters.get(d['chapter_id'], {}))
                             errors.extend(context_errors)
                             if not context_errors: adjacent=ids
+                        elif context.get('kind') == 'biographical_child_continuation':
+                            try:
+                                from scripts.biographical_kinship import child_continuation_errors
+                            except ImportError:
+                                from biographical_kinship import child_continuation_errors
+                            context_errors = child_continuation_errors(a, chapters.get(d['chapter_id'], {}))
+                            errors.extend(context_errors)
+                            if not context_errors: adjacent = ids
                         else:
                             valid=(context.get('kind')=='adjacent_paragraphs' and isinstance(ids,list)
                                    and len(ids)==2 and all(isinstance(i,str) and i in order for i in ids)
@@ -1273,8 +1308,8 @@ def validate(root=ROOT):
                                     and any(i<=m['start'] and m['end']<=i+len(quote) for i in starts)}
                             quoted_endpoints.append(quoted)
                 if adjacent is not None:
-                    check(len(quoted_endpoints)==2 and a['object_person_id'] in quoted_endpoints[0]
-                          and a['subject_person_id'] in quoted_endpoints[1],
+                    check(len(quoted_endpoints)==len(adjacent) and a['object_person_id'] in quoted_endpoints[0]
+                          and a['subject_person_id'] in quoted_endpoints[-1],
                           '人物陳述承接的前段客體及後段主體未見於引句')
         proposal_ids = set()
         for chapter in chapters.values():
@@ -1371,7 +1406,15 @@ def validate(root=ROOT):
                     check(bool(hit) and hit[0] == chapter['id'] == evidence['chapter_id']
                           and evidence['source_id'] == chapter['source_id'] and evidence['quote'] in hit[1]['text']
                           and age['source_term'] in evidence['quote'], '來源年齡引句不符')
-                    check(bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
+                    carried_age_subject = False
+                    if 'context' in evidence:
+                        try:
+                            from scripts.subject_continuation import prior_subject_valid
+                        except ImportError:
+                            from subject_continuation import prior_subject_valid
+                        carried_age_subject = prior_subject_valid(evidence['context'], evidence, age['person_id'], chapter)
+                        check(carried_age_subject, '來源年齡省略主語承接無效')
+                    check(carried_age_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == age['person_id'], '來源年齡人物錨點不符')
                 if 'report_repetition_of' in age:
                     reports = chapter['annotation']['age_assertions']
                     target = next((r for r in reports[:reports.index(age)] if r['id'] == age['report_repetition_of']), None)
