@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "l5c_h8i_d5q",
   "canonical_person_id": "l5c_h8i_d5q",
-  "label": "衛子夫（外戚世家候選）",
+  "label": "衛子夫",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -412,6 +412,49 @@
       "interpretation_note": "是時承還軍敘事暫前123年，保存用稱及明示拜官；初見王夫人不作始封或獲寵起點，不補任期終點。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji120-009",
+      "person_id": "l5c_h8i_d5q",
+      "title": "皇后",
+      "kind": "imperial_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p008",
+          "quote": "大將軍青既益尊，姊為皇后，然黯與亢禮。人或說黯曰：「自天子欲群臣下大將軍，大將軍尊重益貴，君不可以不拜。」黯曰：「夫以大將軍有揖客，反不重邪？」大將軍聞，愈賢黯，數請問國家朝廷所疑，遇黯過於平生。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji120-009:a001",
+          "paragraph_id": "c-shiji-120-jizheng:p008",
+          "start": 10,
+          "end": 12,
+          "surface": "皇后",
+          "person_mention_id": "c-shiji-120-jizheng:m008-0008",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。莊為太史保留底本，不校改為大農。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -450,7 +493,38 @@
       "title": "外戚世家第十九",
       "paragraph_id": "c-shiji-049-waiqi:p026",
       "count": 17,
-      "quote": "衛皇后字子夫，生微矣。蓋其家號曰衛氏，出平陽侯邑。子夫為平陽主謳者。武帝初即位，數歲無子。平陽主求諸良家子女十餘人，飾置家。武帝祓霸上還，因過平陽主。主見所侍美人。上弗說。既飲，謳者進，上望見，獨說衛子夫。"
+      "quote": "衛皇后字子夫，生微矣。蓋其家號曰衛氏，出平陽侯邑。子夫為平陽主謳者。武帝初即位，數歲無子。平陽主求諸良家子女十餘人，飾置家。武帝祓霸上還，因過平陽主。主見所侍美人。上弗說。既飲，謳者進，上望見，獨說衛子夫。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "chapter_id": "c-shiji-049-waiqi",
+      "source_id": "s-shiji-049-waiqi",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-049-waiqi:p026",
+        "c-shiji-049-waiqi:p027",
+        "c-shiji-049-waiqi:p029",
+        "c-shiji-049-waiqi:p030",
+        "c-shiji-049-waiqi:p036"
+      ],
+      "mention_ids": [
+        "c-shiji-049-waiqi:m026-0000",
+        "c-shiji-049-waiqi:m026-0004",
+        "c-shiji-049-waiqi:m026-0025",
+        "c-shiji-049-waiqi:m026-0099",
+        "c-shiji-049-waiqi:m026-0112",
+        "c-shiji-049-waiqi:m026-0141",
+        "c-shiji-049-waiqi:m026-0148",
+        "c-shiji-049-waiqi:m026-0204",
+        "c-shiji-049-waiqi:m026-0244",
+        "c-shiji-049-waiqi:m027-0056",
+        "c-shiji-049-waiqi:m027-0097",
+        "c-shiji-049-waiqi:m029-0000",
+        "c-shiji-049-waiqi:m029-0050",
+        "c-shiji-049-waiqi:m029-0089",
+        "c-shiji-049-waiqi:m030-0001",
+        "c-shiji-049-waiqi:m036-0000",
+        "c-shiji-049-waiqi:m036-0104"
+      ]
     },
     {
       "number": 60,
@@ -458,7 +532,18 @@
       "title": "三王世家第三十",
       "paragraph_id": "c-shiji-060-sanwang:p020",
       "count": 1,
-      "quote": "王夫人者，趙人也，與衛夫人并幸武帝，而生子閎。閎且立為王時，其母病，武帝自臨問之。曰：「子當為王，欲安所置之？」王夫人曰：「陛下在，妾又何等可言者。」帝曰：「雖然，意所欲，欲於何所王之？」王夫人曰：「願置之雒陽。」武帝曰：「雒"
+      "quote": "王夫人者，趙人也，與衛夫人并幸武帝，而生子閎。閎且立為王時，其母病，武帝自臨問之。曰：「子當為王，欲安所置之？」王夫人曰：「陛下在，妾又何等可言者。」帝曰：「雖然，意所欲，欲於何所王之？」王夫人曰：「願置之雒陽。」武帝曰：「雒",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-060",
+      "chapter_id": "c-shiji-060-sanwang",
+      "source_id": "s-shiji-060-sanwang",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-060-sanwang:p020"
+      ],
+      "mention_ids": [
+        "c-shiji-060-sanwang:m020-0010"
+      ]
     },
     {
       "number": 111,
@@ -466,7 +551,30 @@
       "title": "衛將軍驃騎列傳第五十一",
       "paragraph_id": "c-shiji-111-wei-huo:p001",
       "count": 9,
-      "quote": "其父鄭季，為吏，給事平陽侯家，與侯妾衛媼通，生青。青同母兄衛長子，而姊衛子夫自平陽公主家得幸天子，故冒姓為衛氏。字仲卿。長子更字長君。長君母號為衛媼。媼長女衛孺，次女少兒，次女即子夫。後子夫男弟步、廣皆冒衛氏。"
+      "quote": "其父鄭季，為吏，給事平陽侯家，與侯妾衛媼通，生青。青同母兄衛長子，而姊衛子夫自平陽公主家得幸天子，故冒姓為衛氏。字仲卿。長子更字長君。長君母號為衛媼。媼長女衛孺，次女少兒，次女即子夫。後子夫男弟步、廣皆冒衛氏。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "chapter_id": "c-shiji-111-wei-huo",
+      "source_id": "s-shiji111-wei-huo",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-111-wei-huo:p001",
+        "c-shiji-111-wei-huo:p003",
+        "c-shiji-111-wei-huo:p005",
+        "c-shiji-111-wei-huo:p009",
+        "c-shiji-111-wei-huo:p048"
+      ],
+      "mention_ids": [
+        "c-shiji-111-wei-huo:m001-0047",
+        "c-shiji-111-wei-huo:m001-0101",
+        "c-shiji-111-wei-huo:m001-0105",
+        "c-shiji-111-wei-huo:m003-0021",
+        "c-shiji-111-wei-huo:m003-0051",
+        "c-shiji-111-wei-huo:m003-0172",
+        "c-shiji-111-wei-huo:m005-0006",
+        "c-shiji-111-wei-huo:m009-0052",
+        "c-shiji-111-wei-huo:m048-0026"
+      ]
     },
     {
       "number": 112,
@@ -474,7 +582,37 @@
       "title": "平津侯主父列傳第五十二",
       "paragraph_id": "c-shiji-112-pingjin:p023",
       "count": 1,
-      "quote": "尊立衛皇后，及發燕王定國陰事，蓋偃有功焉。大臣皆畏其口，賂遺累千金。人或說偃曰：「太橫矣。」主父曰：「臣結發游學四十餘年，身不得遂，親不以為子，昆弟不收，賓客棄我，我阸日久矣。且丈夫生不五鼎食，死即五鼎烹耳。吾"
+      "quote": "尊立衛皇后，及發燕王定國陰事，蓋偃有功焉。大臣皆畏其口，賂遺累千金。人或說偃曰：「太橫矣。」主父曰：「臣結發游學四十餘年，身不得遂，親不以為子，昆弟不收，賓客棄我，我阸日久矣。且丈夫生不五鼎食，死即五鼎烹耳。吾",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p023"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m023-0002"
+      ]
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p008",
+      "count": 1,
+      "quote": "大將軍青既益尊，姊為皇后，然黯與亢禮。人或說黯曰：「自天子欲群臣下大將軍，大將軍尊重益貴，君不可以不拜。」黯曰：「夫以大將軍有揖客，反不重邪？」大將軍聞，愈賢黯，數請問國家朝廷所疑，遇黯過於平生。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p008"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m008-0008"
+      ]
     },
     {
       "number": 126,
@@ -482,7 +620,18 @@
       "title": "滑稽列傳第六十六",
       "paragraph_id": "c-shiji-126-huaji:p019",
       "count": 1,
-      "quote": "武帝時，大將軍衛青者，衛后兄也，封為長平侯。從軍擊匈奴，至余吾水上而還，斬首捕虜，有功來歸，詔賜金千斤。將軍出宮門，齊人東郭先生以方士待詔公車，當道遮衛將軍車，拜謁曰：「願白事。」將軍止車前，東郭先生旁車言曰：「王夫人新得幸於"
+      "quote": "武帝時，大將軍衛青者，衛后兄也，封為長平侯。從軍擊匈奴，至余吾水上而還，斬首捕虜，有功來歸，詔賜金千斤。將軍出宮門，齊人東郭先生以方士待詔公車，當道遮衛將軍車，拜謁曰：「願白事。」將軍止車前，東郭先生旁車言曰：「王夫人新得幸於",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-126",
+      "chapter_id": "c-shiji-126-huaji",
+      "source_id": "s-shiji126-huaji",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-126-huaji:p019"
+      ],
+      "mention_ids": [
+        "c-shiji-126-huaji:m019-0011"
+      ]
     }
   ],
   "table_occurrences": [],
@@ -580,6 +729,30 @@
           "editorial_readings": [],
           "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
           "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     },
@@ -773,6 +946,56 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji111-wei-empress-spouse",
+      "subject_person_id": "l5c_h8i_d5q",
+      "predicate": "spouse",
+      "object_person_id": "yqp_nlb_p1p_ACAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p005",
+          "quote": "元朔元年春，衛夫人有男，立為皇后。其秋，青為車騎將軍，出雁門，三萬騎擊匈奴，斬首虜數千人。明年，匈奴入殺遼西太守，虜略漁陽二千餘人，敗韓將軍軍。漢令將軍李息擊之，出代；令車騎將軍青出雲中以西至高闕。遂略河南地，至于隴西，捕首虜數千，畜數十萬，走白羊、樓煩王。遂以河南地為朔方郡。以三千八百戶封青為長平侯。青校尉蘇建有功，以千一百戶封建為平陵侯。使建筑朔方城。青校尉張次公有功，封為岸頭侯。天子曰：「匈奴逆天理，亂人倫，暴長虐老，以盜竊為務，行詐諸蠻夷，造謀藉兵，數為邊害，故興師遣將，以征厥罪。詩不云乎：『薄伐玁狁，至于太原』，『出車彭彭，城彼朔方』。今車騎將軍青度西河至高闕，獲首虜二千三百級，車輜畜產畢收為鹵，已封為列侯，遂西定河南地，按榆谿舊塞，絕梓領，梁北河，討蒲泥，破符離，斬輕銳之卒，捕伏聽者三千七十一級，執訊獲醜，驅馬牛羊百有餘萬，全甲兵而還，益封青三千戶。」其明年，匈奴入殺代郡太守友，入略鴈門千餘人。其明年，匈奴大入代、定襄、上郡，殺略漢數千人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "立為皇后"
+      },
+      "interpretation_note": "本篇立衛夫人為皇后明示其為當朝武帝配偶；此為身分關係，不以立后年當作始婚年月，不由配偶關係補任何子女生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shiji120-003",
+      "subject_person_id": "l5c_h8i_d5q",
+      "predicate": "sister",
+      "object_person_id": "5dd_l1c_6g8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p008",
+          "quote": "大將軍青既益尊，姊為皇后，然黯與亢禮。人或說黯曰：「自天子欲群臣下大將軍，大將軍尊重益貴，君不可以不拜。」黯曰：「夫以大將軍有揖客，反不重邪？」大將軍聞，愈賢黯，數請問國家朝廷所疑，遇黯過於平生。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姊",
+        "relative_birth_order": {
+          "older_person_id": "l5c_h8i_d5q",
+          "younger_person_id": "5dd_l1c_6g8",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "姊為皇后承接大將軍青；sister主體為姊衛后、客體為衛青。本篇明示相對長幼，其他篇相反年序仍分存，不補絕對排行或出生年。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji126-005",
       "subject_person_id": "5dd_l1c_6g8",
       "predicate": "brother",
@@ -805,8 +1028,9 @@
     "25o_mn8_27w": "衛少兒（外戚世家候選）",
     "5dd_l1c_6g8": "衛青",
     "5nt_1fk_g2o": "衛長君（外戚世家候選）",
-    "l5c_h8i_d5q": "衛子夫（外戚世家候選）",
+    "l5c_h8i_d5q": "衛子夫",
     "qvp_drq_pf5": "衛媼（衛將軍驃騎列傳候選）",
+    "yqp_nlb_p1p_ACAA": "孝武皇帝",
     "yqp_nlb_p1p_ACAAD": "據"
   },
   "dates": [
@@ -999,7 +1223,24 @@
       "title": "皇后"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "l5c_h8i_d5q",
+      "title": "皇后",
+      "surname": "衛",
+      "ming": null,
+      "zi": "子夫",
+      "additional_names": [
+        "子夫"
+      ],
+      "chapter_id": "c-shiji-049-waiqi",
+      "paragraph_id": "c-shiji-049-waiqi:p026",
+      "quote": "衛皇后字子夫，生微矣。蓋其家號曰衛氏，出平陽侯邑。",
+      "note": "依本篇家號曰衛氏記衛氏用稱，字子夫與名分開，名未見此處記載；不據此推父族。皇后為辨認用稱，不表示全部敘事時點皆已立后。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "l5c_h8i_d5q"
   ],
@@ -1165,6 +1406,56 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "本句明記生母；跨篇身份按eq-shiji111-household-ju暫接據，不由本句補父親或出生序號，原句不改。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji111-wei-empress-spouse",
+      "subject_person_id": "l5c_h8i_d5q",
+      "predicate": "spouse",
+      "object_person_id": "yqp_nlb_p1p_ACAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-111-wei-huo",
+          "source_id": "s-shiji111-wei-huo",
+          "paragraph_id": "c-shiji-111-wei-huo:p005",
+          "quote": "元朔元年春，衛夫人有男，立為皇后。其秋，青為車騎將軍，出雁門，三萬騎擊匈奴，斬首虜數千人。明年，匈奴入殺遼西太守，虜略漁陽二千餘人，敗韓將軍軍。漢令將軍李息擊之，出代；令車騎將軍青出雲中以西至高闕。遂略河南地，至于隴西，捕首虜數千，畜數十萬，走白羊、樓煩王。遂以河南地為朔方郡。以三千八百戶封青為長平侯。青校尉蘇建有功，以千一百戶封建為平陵侯。使建筑朔方城。青校尉張次公有功，封為岸頭侯。天子曰：「匈奴逆天理，亂人倫，暴長虐老，以盜竊為務，行詐諸蠻夷，造謀藉兵，數為邊害，故興師遣將，以征厥罪。詩不云乎：『薄伐玁狁，至于太原』，『出車彭彭，城彼朔方』。今車騎將軍青度西河至高闕，獲首虜二千三百級，車輜畜產畢收為鹵，已封為列侯，遂西定河南地，按榆谿舊塞，絕梓領，梁北河，討蒲泥，破符離，斬輕銳之卒，捕伏聽者三千七十一級，執訊獲醜，驅馬牛羊百有餘萬，全甲兵而還，益封青三千戶。」其明年，匈奴入殺代郡太守友，入略鴈門千餘人。其明年，匈奴大入代、定襄、上郡，殺略漢數千人。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "立為皇后"
+      },
+      "interpretation_note": "本篇立衛夫人為皇后明示其為當朝武帝配偶；此為身分關係，不以立后年當作始婚年月，不由配偶關係補任何子女生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-shiji120-003",
+      "subject_person_id": "l5c_h8i_d5q",
+      "predicate": "sister",
+      "object_person_id": "5dd_l1c_6g8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p008",
+          "quote": "大將軍青既益尊，姊為皇后，然黯與亢禮。人或說黯曰：「自天子欲群臣下大將軍，大將軍尊重益貴，君不可以不拜。」黯曰：「夫以大將軍有揖客，反不重邪？」大將軍聞，愈賢黯，數請問國家朝廷所疑，遇黯過於平生。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "姊",
+        "relative_birth_order": {
+          "older_person_id": "l5c_h8i_d5q",
+          "younger_person_id": "5dd_l1c_6g8",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "姊為皇后承接大將軍青；sister主體為姊衛后、客體為衛青。本篇明示相對長幼，其他篇相反年序仍分存，不補絕對排行或出生年。",
       "reviewer": "Codex（AI 代理）"
     },
     {

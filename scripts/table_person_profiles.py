@@ -8,9 +8,13 @@ def build(root=ROOT):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
+    work_titles = {}
+    if catalog.get('work_id') and catalog.get('title'):
+        work_titles[catalog['work_id']] = catalog['title']
     manifest_path = ROOT/'data/corpus/works.json'
     if manifest_path.exists():
         for work in json.loads(manifest_path.read_text())['works']:
+            work_titles[work['id']] = work['title']
             if work['reader_kind'] == 'shiji':
                 continue
             other = json.loads((ROOT/work['catalog_path']).read_text())
@@ -29,9 +33,8 @@ def build(root=ROOT):
                 for cell in row['cells']:
                     for m in cell['person_mentions']:
                         occurrence = {'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m}
-                        if table['source']['work_id'] != 'w-shiji':
-                            occurrence.update({k:table['source'][k] for k in ('work_id','book_id','chapter_id')})
-                            occurrence.update(source_id=table['source']['id'],source_revision=table['source']['revision'])
+                        occurrence.update({k:table['source'][k] for k in ('work_id','book_id','chapter_id')})
+                        occurrence.update(source_id=table['source']['id'],source_revision=table['source']['revision'])
                         table_mentions[m['person_id']].append(occurrence)
     bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
@@ -54,12 +57,14 @@ def build(root=ROOT):
         occurrences = []
         for cid, ms in sorted(groups.items(), key=lambda x:chapters.get(x[0],{}).get('number',999)):
             ch = chapters.get(cid)
-            if not ch: continue
+            if not ch:
+                raise ValueError(f'人物提及的卷篇未列入閱讀目錄：{cid}')
             m = ms[0]; p = ps[m['paragraph_id']]; start = max(0,m['start']-35)
             occurrence={'number':ch['number'],'category':ch.get('category',''),'title':ch['title'],'paragraph_id':p['id'],'count':len(ms),'quote':p['text'][start:m['end']+100]}
-            if ch.get('work_id') and ch['work_id'] != 'w-shiji':
-                occurrence.update(work_id=ch['work_id'],work_title=ch['work_title'],book_id=ch['book_id'],chapter_id=cid,
-                                  paragraph_ids=sorted({m['paragraph_id'] for m in ms}))
+            occurrence.update({k:p[k] for k in ('work_id','book_id','chapter_id','source_id')})
+            occurrence.update(work_title=work_titles[p['work_id']],
+                              paragraph_ids=sorted({m['paragraph_id'] for m in ms}),
+                              mention_ids=[m['id'] for m in ms])
             occurrences.append(occurrence)
         titles = []
         for x in b['title_holdings']:
