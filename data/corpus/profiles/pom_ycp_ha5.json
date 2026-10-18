@@ -1249,6 +1249,30 @@
         "c-shiji-118-huainan:m021-0504",
         "c-shiji-118-huainan:m021-0596"
       ]
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p003",
+      "count": 6,
+      "quote": "及至秦之季世，焚詩書，阬術士，六藝從此缺焉。陳涉之王也，而魯諸儒持孔氏之禮器往歸陳王。於是孔甲為陳涉博士，卒與涉俱死。陳涉起匹夫，驅瓦合適戍，旬月以王楚，不滿半歲竟滅亡，其事至微淺，然而縉紳先生之徒負孔子禮器往委質為臣者，何也？以秦焚其業，積怨而發",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m003-0022",
+        "c-shiji-121-rulin:m003-0040",
+        "c-shiji-121-rulin:m003-0048",
+        "c-shiji-121-rulin:m003-0055",
+        "c-shiji-121-rulin:m003-0059",
+        "c-shiji-121-rulin:m003-0126"
+      ]
     }
   ],
   "table_occurrences": [],
@@ -1667,6 +1691,30 @@
           "note": "全部身份與版本仍待覆核。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -1758,6 +1806,25 @@
       ],
       "source_term": "其御莊賈殺以降秦",
       "interpretation_note": "依本篇明示死亡保存，敗軍、被虜與欲誅未行不作死亡，原曆及數字紀年待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji121-002",
+      "person_id": "pom_ycp_ha5",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p003",
+          "quote": "及至秦之季世，焚詩書，阬術士，六藝從此缺焉。陳涉之王也，而魯諸儒持孔氏之禮器往歸陳王。於是孔甲為陳涉博士，卒與涉俱死。陳涉起匹夫，驅瓦合適戍，旬月以王楚，不滿半歲竟滅亡，其事至微淺，然而縉紳先生之徒負孔子禮器往委質為臣者，何也？以秦焚其業，積怨而發憤于陳王也。",
+          "person_mention_id": "c-shiji-121-rulin:m003-0022"
+        }
+      ],
+      "interpretation_note": "原文明示卒、死或崩；先存本篇來源記錄，未由敘事時長反推公元年或合併其他來源的死亡說法。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

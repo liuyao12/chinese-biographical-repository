@@ -7,7 +7,9 @@
   "review": "ai_provisional",
   "names": [
     "夷王郢",
-    "夷王"
+    "夷王",
+    "劉郢",
+    "郢"
   ],
   "titles": [
     {
@@ -68,6 +70,57 @@
         ]
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji121-008",
+      "person_id": "yqp_nlb_p1p_DC",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-008:a001",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "start": 51,
+          "end": 53,
+          "surface": "楚王",
+          "person_mention_id": "c-shiji-121-rulin:m007-0042",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-121-rulin",
+              "source_id": "s-shiji121-rulin",
+              "paragraph_id": "c-shiji-121-rulin:p007",
+              "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -90,6 +143,27 @@
       "mention_ids": [
         "c-shiji-050-chuyuan:m003-0035",
         "c-shiji-050-chuyuan:m003-0040"
+      ]
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p007",
+      "count": 3,
+      "quote": "。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p007"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m007-0042",
+        "c-shiji-121-rulin:m007-0049",
+        "c-shiji-121-rulin:m007-0074"
       ]
     }
   ],
@@ -162,6 +236,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
@@ -227,6 +325,26 @@
       },
       "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji121-001",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_DC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "令申公傅其太子戊"
+      },
+      "interpretation_note": "其太子戊承接郢為楚王，且郢卒戊立；記明示父子，不補生母或出生排行。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -235,7 +353,47 @@
     "yqp_nlb_p1p_DCA": "戊（楚王）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_DC",
+      "title": "楚夷王",
+      "surname": "劉",
+      "ming": "郢",
+      "additional_names": [],
+      "chapter_id": "c-shiji-121-rulin",
+      "paragraph_id": "c-shiji-121-rulin:p007",
+      "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+      "note": "劉郢為本篇明書姓名，楚夷王合楚王國名及楚元王篇夷王郢之諡號；分項證據另列。頂端是辨認用稱，不斷言敘事當時已得諡。",
+      "component_evidence": [
+        {
+          "field_names": [
+            "title"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-050",
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p003",
+          "quote": "高祖六年，已禽楚王韓信於陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。"
+        },
+        {
+          "field_names": [
+            "surname",
+            "ming"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-121",
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+          "basis": "explicit_full_name"
+        }
+      ],
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_DC"
   ],
@@ -281,6 +439,26 @@
       },
       "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji121-001",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_DC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "令申公傅其太子戊"
+      },
+      "interpretation_note": "其太子戊承接郢為楚王，且郢卒戊立；記明示父子，不補生母或出生排行。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "assembled_identity": {
@@ -316,6 +494,25 @@
       ],
       "source_term": "夷王四年卒",
       "interpretation_note": "來源明示死亡；同段省略主體按前後繼位敘事判讀。立若干年是來源任期，不倒推生日或完整公曆時長，數字紀年待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji121-005",
+      "person_id": "yqp_nlb_p1p_DC",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+          "person_mention_id": "c-shiji-121-rulin:m007-0042"
+        }
+      ],
+      "interpretation_note": "原文明示卒或後皆自殺；數年及帝號時段不直接反推公元年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

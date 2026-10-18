@@ -1313,15 +1313,6 @@
 
 </details>
 
-<details><summary><code>ibz_19q_kow</code> 劉郢（儒林列傳候選）（2 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 劉郢 | [《史記・儒林列傳》][108] | [JSON](ibz_19q_kow.json) |
-| `A` | 楚太子戊 | [《史記・儒林列傳》][108] | [JSON](ibz_19q_kow_A.json) |
-
-</details>
-
 <details><summary><code>iij_zqi_k5l</code> 齊平公（3 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -2785,7 +2776,7 @@
 | `DBA` | 道 | [《史記・楚元王世家》][37] | [JSON](yqp_nlb_p1p_DBA.json) |
 | `DBAA` | 注 | [《史記・楚元王世家》][37] | [JSON](yqp_nlb_p1p_DBAA.json) |
 | `DBAAA` | 純 | [《史記・楚元王世家》][37] | [JSON](yqp_nlb_p1p_DBAAA.json) |
-| `DC` | 郢 | [《史記・楚元王世家》][37] | [JSON](yqp_nlb_p1p_DC.json) |
+| `DC` | 郢 | [《史記・儒林列傳》][108] | [JSON](yqp_nlb_p1p_DC.json) |
 | `DCA` | 戊（楚王） | [《史記・吳王濞列傳》][93] | [JSON](yqp_nlb_p1p_DCA.json) |
 
 </details>
