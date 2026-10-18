@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "zqj_u2i_r5y",
   "canonical_person_id": "zqj_u2i_r5y",
-  "label": "僕多（衛將軍驃騎列傳候選）",
+  "label": "僕多",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -241,7 +241,36 @@
       "quote": "屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r027-c04",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "五。二年二月乙丑，忠侯僕多。。元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r027-c04-m000",
+        "start": 11,
+        "end": 13,
+        "surface": "僕多",
+        "person_id": "zqj_u2i_r5y",
+        "status": "contextual_provisional",
+        "interpretation_note": "煇渠各列分人：僕多依同名同侯與本役接本傳；扁訾按集解鷹庇一云篇訾與同爵降侯暫接鷹庇，篇／扁及元狩二／三年差保存，不合另一煇渠侯。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-111",
+            "chapter_id": "c-shiji-111-wei-huo",
+            "paragraph_id": "c-shiji-111-wei-huo:p012",
+            "source_id": "s-shiji111-wei-huo",
+            "source_revision": 8730225,
+            "person_id": "zqj_u2i_r5y",
+            "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+          }
+        ]
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-111-wei-huo",
@@ -266,11 +295,34 @@
           "note": "未核底本影像。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "zqj_u2i_r5y": "僕多（衛將軍驃騎列傳候選）"
+    "zqj_u2i_r5y": "僕多"
   },
   "dates": [
     {
@@ -414,6 +466,65 @@
       "title": "煇渠侯"
     }
   ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji111-puduo-commentary",
+      "person_id": "zqj_u2i_r5y",
+      "surfaces": [
+        "僕多"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-111-wei-huo"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-111-wei-huo:p012",
+          "quote": "其夏，驃騎將軍與合騎侯敖俱出北地，異道；博望侯張騫、郎中令李廣俱出右北平，異道：皆擊匈奴。郎中令將四千騎先至，博望侯將萬騎在後至。匈奴左賢王將數萬騎圍郎中令，郎中令與戰二日，死者過半，所殺亦過當。博望侯至，匈奴兵引去。博望侯坐行留，當斬，贖為庶人。而驃騎將軍出北地，已遂深入，與合騎侯失道，不相得，驃騎將軍踰居延至祁連山，捕首虜甚多。天子曰：「驃騎將軍踰居延，遂過小月氏，攻祁連山，得酋涂王，以眾降者二千五百人，斬首虜三萬二百級，獲五王，五王母，單于閼氏、王子五十九人，相國、將軍、當戶、都尉六十三人，師大率減什三，益封去病五千戶。賜校尉從至小月氏爵左庶長。鷹擊司馬破奴再從驃騎將軍斬遬濮王，捕稽沮王，千騎將得王、王母各一人，王子以下四十一人，捕虜三千三百三十人，前行捕虜千四百人，以千五百戶封破奴為從驃侯。校尉句王高不識，從驃騎將軍捕呼于屠王王子以下十一人，捕虜千七百六十八人，以千一百戶封不識為宜冠侯。校尉僕多有功，封為煇渠侯。」合騎侯敖坐行留不與驃騎會，當斬，贖為庶人。諸宿將所將士馬兵亦不如驃騎，驃騎所將常選，然亦敢深入，常與壯騎先其大（將）軍，軍亦有天幸，未嘗困絕也。然而諸宿將常坐留落不遇。由此驃騎日以親貴，比大將軍。"
+        }
+      ],
+      "rationale": "本篇具名封煇渠侯，按敘事各存人物。 固定數位古注用字及煇渠兩侯年代差另存；不以同爵合併僕多與鷹庇，不改本篇原字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記索隱》卷二十四（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_024.txt#L189-L192",
+          "quote": "按漢百官表作僕明疑多是誤",
+          "raw_quote": "(王及王母也或云右千/騎將即匈奴王之名)校尉句王髙不識(按二人並/匈奴人也)呼¶\n于屠王(按三字共/為王號)僕多(按漢百官表作/僕明疑多是誤)煇渠侯(上音/暉)所¶\n將常選(音宣變反謂驃騎/常選擇取精兵)留落不遇(按謂遲留零/落不偶合也)先要¶\n邊(按謂先於邊境要/候漢人言其欲降)漯陰侯(上音他合反按地理/志縣名在平原郡)鷹庇¶",
+          "scope": "reported_other_work_reading",
+          "image_verified": false,
+          "response_sha256": "d000b181020fb06243b548ffc8a459db14a5c756dedfdde86c8f5595a9f6c213",
+          "source_blob_sha": "cd81dd5397f7c9e11abb7f4dc2f40cb3733652d9",
+          "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。"
+        },
+        {
+          "title": "《前漢書》卷五十五（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_055.txt#L191-L194",
+          "quote": "功臣侯表作僕朋今此作多轉冩者誤也",
+          "raw_quote": "一人捕虜千七百六十八人封不識為宜冠侯校尉僕¶\n多有功封為煇渠侯(師古曰功臣侯表作僕朋今此作/多轉冩者誤也煇音暉也○宋祁)¶\n(曰注末也/字當刪)合騎侯敖坐行留不與票騎將軍㑹當斬贖¶\n為庶人諸宿將所將士馬兵亦不如去病(師古曰宿舊/也兵兵器也)¶",
+          "scope": "reported_other_work_reading",
+          "image_verified": false,
+          "response_sha256": "e5150a788fd023e53d3c9f77ecf624c746ab12969be59f3ebbc711a083bef022",
+          "source_blob_sha": "0e7d8c6f15cd103ea92556d99c05e974f3498bb9",
+          "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。"
+        },
+        {
+          "title": "《史記索隱》卷二十四（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_024.txt#L192-L195",
+          "quote": "按漢書功臣表云元狩二年以煇渠封僕明至三年又封鷹庇其地俱屬魯陽未詳所以",
+          "raw_quote": "邊(按謂先於邊境要/候漢人言其欲降)漯陰侯(上音他合反按地理/志縣名在平原郡)鷹庇¶\n為煇渠侯(漢書鷹作雍庇音必二反又音疋履反按漢/書功臣表云元狩二年以煇渠封僕明至三)¶\n(年又封鷹庇其地俱/屬魯陽未詳所以)禽棃(按表作/鳥棃)大當户銅離(徐廣一/作稠離)¶\n(與漢書功臣表同此/文云銅離文異也)獟駻(上音邱昭反説文作趬行遮/貎遮一作疾駻音胡旦反)¶",
+          "scope": "reported_other_work_chronology",
+          "image_verified": false,
+          "response_sha256": "d000b181020fb06243b548ffc8a459db14a5c756dedfdde86c8f5595a9f6c213",
+          "source_blob_sha": "cd81dd5397f7c9e11abb7f4dc2f40cb3733652d9",
+          "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。"
+        }
+      ]
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "zqj_u2i_r5y"
@@ -422,5 +533,43 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "rv-shiji111-puming",
+      "paragraph_id": "c-shiji-111-wei-huo:p012",
+      "person_ids": [
+        "zqj_u2i_r5y"
+      ],
+      "source_term": "僕多",
+      "received_reading": "僕多",
+      "reported_reading": "僕明",
+      "commentator": "《史記索隱》卷二十四（文淵閣數位見證）轉引《漢書》功臣表，非本次親見該表",
+      "quote": "按漢百官表作僕明疑多是誤",
+      "url": "https://github.com/kanripo/KR2a0003/blob/85cc2d3b1952d7a66280628c8d2141d4f1593fc7/KR2a0003_024.txt#L189-L192",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。",
+      "raw_quote": "(王及王母也或云右千/騎將即匈奴王之名)校尉句王髙不識(按二人並/匈奴人也)呼¶\n于屠王(按三字共/為王號)僕多(按漢百官表作/僕明疑多是誤)煇渠侯(上音/暉)所¶\n將常選(音宣變反謂驃騎/常選擇取精兵)留落不遇(按謂遲留零/落不偶合也)先要¶\n邊(按謂先於邊境要/候漢人言其欲降)漯陰侯(上音他合反按地理/志縣名在平原郡)鷹庇¶"
+    },
+    {
+      "id": "rv-shiji111-pupeng",
+      "paragraph_id": "c-shiji-111-wei-huo:p012",
+      "person_ids": [
+        "zqj_u2i_r5y"
+      ],
+      "source_term": "僕多",
+      "received_reading": "僕多",
+      "reported_reading": "僕朋",
+      "commentator": "《前漢書》卷五十五（文淵閣數位見證）轉引《漢書》功臣表，非本次親見該表",
+      "quote": "功臣侯表作僕朋今此作多轉冩者誤也",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_055.txt#L191-L194",
+      "status": "reported_not_collated",
+      "adopted": false,
+      "image_verified": false,
+      "note": "文淵閣數位見證；引文僅去除分段小注括號並合併換行、雙行小注斜線與段末排版符，不改古字。raw_quote保存原檔片段。未核書影；轉引他書不當親見其底本。",
+      "raw_quote": "一人捕虜千七百六十八人封不識為宜冠侯校尉僕¶\n多有功封為煇渠侯(師古曰功臣侯表作僕朋今此作/多轉冩者誤也煇音暉也○宋祁)¶\n(曰注末也/字當刪)合騎侯敖坐行留不與票騎將軍㑹當斬贖¶\n為庶人諸宿將所將士馬兵亦不如去病(師古曰宿舊/也兵兵器也)¶"
+    }
+  ]
 }
