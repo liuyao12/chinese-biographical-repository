@@ -6,9 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `h3x_nrw_uay` | 徐偃王 | [《史記・秦本紀》][9] | [JSON](h3x_nrw_uay.json) |
-| `h40_rtd_6ut` | 樂池 | [《史記・秦本紀》][9] | [JSON](h40_rtd_6ut.json) |
-| `h4c_ia5_qoe` | 五大夫禮 | [《史記・秦本紀》][9] | [JSON](h4c_ia5_qoe.json) |
 | `h4f_jdj_gwf` | 王烏（匈奴列傳第46至48段） | [《史記・匈奴列傳》][96] | [JSON](h4f_jdj_gwf.json) |
 | `h4r_ffb_ma9` | 仲尼 | [《史記・游俠列傳》][110] | [JSON](h4r_ffb_ma9.json) |
 | `h4s_bj9_3tm` | 旁皋 | [《史記・秦本紀》][9] | [JSON](h4s_bj9_3tm.json) |
@@ -2208,12 +2205,12 @@
 | `yg1_ml2_61c` | 莊豹 | [《史記・樗里子甘茂列傳》][57] | [JSON](yg1_ml2_61c.json) |
 | `yg3_wq7_tpj` | 武王 | [《史記・貨殖列傳》][115] | [JSON](yg3_wq7_tpj.json) |
 | `ygk_y1u_niv` | 衛慶 | [《史記・淮南衡山列傳》][104] | [JSON](ygk_y1u_niv.json) |
-
-| 人物 ID | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
 | `ygr_80w_wp2` | 嬖姬（陳宣公款母） | [《史記・陳杞世家》][22] | [JSON](ygr_80w_wp2.json) |
 | `yi5_jym_uoz` | 西伯 | [《史記・太史公自序》][116] | [JSON](yi5_jym_uoz.json) |
 | `yj2_zd2_kbu` | 國 | [《史記・趙世家》][29] | [JSON](yj2_zd2_kbu.json) |
+
+| 人物 ID | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
 | `yj8_fds_vq5` | 驁 | [《史記・田敬仲完世家》][32] | [JSON](yj8_fds_vq5.json) |
 | `yja_c73_i8o` | 顏聚 | [《史記・趙世家》][29]、[《史記・廉頗藺相如列傳》][67] | [JSON](yja_c73_i8o.json) |
 | `yjq_7u5_fd1` | 楚懷王 | [《史記・留侯世家》][41] | [JSON](yjq_7u5_fd1.json) |
