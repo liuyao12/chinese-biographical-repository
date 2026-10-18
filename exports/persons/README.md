@@ -2726,7 +2726,7 @@
 | `ACAMA` | 賢 | [《史記・五宗世家》][46] | [JSON](yqp_nlb_p1p_ACAMA.json) |
 | `ACAMAA` | 膠東慶 | [《史記・五宗世家》][46] | [JSON](yqp_nlb_p1p_ACAMAA.json) |
 | `ACAMB` | 六安慶 | [《史記・五宗世家》][46] | [JSON](yqp_nlb_p1p_ACAMB.json) |
-| `ACAN` | 端（景帝子） | [《史記・五宗世家》][46] | [JSON](yqp_nlb_p1p_ACAN.json) |
+| `ACAN` | 端 | [《史記・五宗世家》][46] | [JSON](yqp_nlb_p1p_ACAN.json) |
 | `ACB` | 梁懷王 | [《史記・屈原賈生列傳》][71] | [JSON](yqp_nlb_p1p_ACB.json) |
 | `ACC` | 參 | [《史記・梁孝王世家》][45] | [JSON](yqp_nlb_p1p_ACC.json) |
 | `ACCA` | 登 | [《史記・梁孝王世家》][45] | [JSON](yqp_nlb_p1p_ACCA.json) |
@@ -2790,7 +2790,7 @@
 
 </details>
 
-<details><summary><code>z8l_wje_08d</code> 卜商（弟子列傳候選）（2 名）</summary>
+<details><summary><code>z8l_wje_08d</code> 卜商（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|

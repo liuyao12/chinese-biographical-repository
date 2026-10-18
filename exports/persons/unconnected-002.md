@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `hax_odl_kez` | 徐來兄（未名） | [《史記・淮南衡山列傳》][105] | [JSON](hax_odl_kez.json) |
 | `hb5_4zq_x4c` | 田角 | [《史記・田儋列傳》][81] | [JSON](hb5_4zq_x4c.json) |
 | `hbl_n2l_ft3` | 昆莫左夫人（未名） | [《史記・大宛列傳》][110] | [JSON](hbl_n2l_ft3.json) |
 | `hcd_x63_gy5` | 秦祖 | [《史記・仲尼弟子列傳》][54] | [JSON](hcd_x63_gy5.json) |
@@ -1503,7 +1502,7 @@
 | `t6k_vke_hya` | 周太史（楚昭王問赤雲者） | [《史記・楚世家》][27] | [JSON](t6k_vke_hya.json) |
 | `t7d_a7w_vrk` | 郭解母（未名） | [《史記・游俠列傳》][111] | [JSON](t7d_a7w_vrk.json) |
 | `t7k_3g1_qp3` | 塗山氏之女 | [《史記・夏本紀》][7] | [JSON](t7k_3g1_qp3.json) |
-| `t7x_2x7_1fc` | 仲由（毀三桓城記事） | [《史記・仲尼弟子列傳》][54] | [JSON](t7x_2x7_1fc.json) |
+| `t7x_2x7_1fc` | 仲由 | [《史記・仲尼弟子列傳》][54] | [JSON](t7x_2x7_1fc.json) |
 | `t8b_b8w_pcn` | 國惠子 | [《史記・齊太公世家》][19] | [JSON](t8b_b8w_pcn.json) |
 | `t8b_zxx_6ea` | 田駢 | [《史記・孟子荀卿列傳》][61] | [JSON](t8b_zxx_6ea.json) |
 | `t8k_az0_xk2` | 魏惠王 | [《史記・孫子吳起列傳》][52] | [JSON](t8k_az0_xk2.json) |
@@ -2205,10 +2204,10 @@
 | `ytp_z6e_7yd` | 靳彊 | [《史記・項羽本紀》][12]、[《史記・高祖功臣侯者年表》][127] | [JSON](ytp_z6e_7yd.json) |
 | `yu4_0gm_gje` | 武臣 | [《史記・張耳陳餘列傳》][76] | [JSON](yu4_0gm_gje.json) |
 | `yuo_kpg_rhg` | 閎夭 | [《史記・蕭相國世家》][40] | [JSON](yuo_kpg_rhg.json) |
+| `yuq_yq1_oq6` | 公叔發（衞） | [《史記・吳太伯世家》][18] | [JSON](yuq_yq1_oq6.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `yuq_yq1_oq6` | 公叔發（衞） | [《史記・吳太伯世家》][18] | [JSON](yuq_yq1_oq6.json) |
 | `yuy_gbn_g7e` | 王同 | [《史記・儒林列傳》][108] | [JSON](yuy_gbn_g7e.json) |
 | `yvl_zaq_8e0` | 韓宣子 | [《史記・趙世家》][30] | [JSON](yvl_zaq_8e0.json) |
 | `yvr_2ue_51d` | 干（魏世家提要） | [《史記・太史公自序》][117] | [JSON](yvr_2ue_51d.json) |

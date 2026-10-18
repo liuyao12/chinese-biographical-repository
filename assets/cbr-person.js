@@ -93,7 +93,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const names = components.length === 1 ? components[0] : null;
   const personalName = names?.full_name || (names ? `${names.surname || ''}${names.ming || ''}` : '');
   const heading = names ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
-  const additional = names?.additional_names?.length ? names.additional_names : (p.names || []).filter(x => ![p.label, heading, names?.title, names?.ming, names?.surname + names?.ming].includes(x)).slice(0, 5);
+  const additional = names ? [...new Set([...(names.additional_names || []), names.zi, names.hao, names.former_ming].filter(Boolean))] : (p.names || []).filter(x => ![p.label, heading].includes(x)).slice(0, 5);
   const componentAlternatives = (names?.component_alternatives || []).map(a => {
     const c=a.components || {}, labels=[['surname','Surname'],['ming','Given name'],['zi','Courtesy name']].filter(([k])=>c[k]).map(([k,label])=>`${ui(label)} ${h(c[k])}`);
     const ref=a.reference || {}; let url='';

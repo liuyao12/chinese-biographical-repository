@@ -827,7 +827,6 @@
 | `6hd_nol_p5r` | 狐毛（重耳從者） | [《史記・晉世家》][26] | [JSON](6hd_nol_p5r.json) |
 | `6hn_lac_kwl` | 尉繚 | [《史記・秦始皇本紀》][11] | [JSON](6hn_lac_kwl.json) |
 | `6hq_bb2_3rb` | 扁鵲 | [《史記・扁鵲倉公列傳》][92] | [JSON](6hq_bb2_3rb.json) |
-| `6hs_665_32d` | 膠西王 | [《史記・儒林列傳》][108] | [JSON](6hs_665_32d.json) |
 | `6hu_5eu_5t3` | 馮梁 | [《史記・樊酈滕灌列傳》][82] | [JSON](6hu_5eu_5t3.json) |
 | `6hy_i1z_hu2` | 韓安國 | [《史記・韓長孺列傳》][95] | [JSON](6hy_i1z_hu2.json) |
 | `6i8_efe_yzr` | 燕將保聊城未名 | [《史記・魯仲連鄒陽列傳》][70] | [JSON](6i8_efe_yzr.json) |
@@ -932,7 +931,7 @@
 | `7bk_jpm_vgm` | 荀櫟（范中行之仇） | [《史記・晉世家》][26] | [JSON](7bk_jpm_vgm.json) |
 | `7bs_2iz_9rk` | 公歛處父 | [《史記・孔子世家》][34] | [JSON](7bs_2iz_9rk.json) |
 | `7bu_r9j_p1d` | 孟嘗齊君 | [《史記・平原君虞卿列傳》][63] | [JSON](7bu_r9j_p1d.json) |
-| `7c4_6v2_yvm` | 子貢 | [《史記・仲尼弟子列傳》][54] | [JSON](7c4_6v2_yvm.json) |
+| `7c4_6v2_yvm` | 端木賜 | [《史記・仲尼弟子列傳》][54] | [JSON](7c4_6v2_yvm.json) |
 | `7c7_u2o_px7` | 蘇代 | [《史記・白起王翦列傳》][60] | [JSON](7c7_u2o_px7.json) |
 | `7cf_b22_wao` | 范痤 | [《史記・魏世家》][31] | [JSON](7cf_b22_wao.json) |
 | `7ck_5iz_er1` | 張春 | [《史記・高祖本紀》][13] | [JSON](7ck_5iz_er1.json) |
@@ -2197,6 +2196,7 @@
 | `h9o_8gw_05e` | 褚先生 | [《史記・梁孝王世家》][45] | [JSON](h9o_8gw_05e.json) |
 | `hae_1o6_08a` | 孔甲 | [《史記・儒林列傳》][108] | [JSON](hae_1o6_08a.json) |
 | `hap_m8c_czz` | 西門豹 | [《史記・魏世家》][31] | [JSON](hap_m8c_czz.json) |
+| `hax_odl_kez` | 徐來兄（未名） | [《史記・淮南衡山列傳》][105] | [JSON](hax_odl_kez.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt

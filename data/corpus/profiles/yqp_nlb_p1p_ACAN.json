@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAN",
   "canonical_person_id": "yqp_nlb_p1p_ACAN",
-  "label": "端（景帝子）",
+  "label": "端",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -13,6 +13,7 @@
     "王",
     "膠西王臣端",
     "臣端",
+    "繆西王",
     "于王端"
   ],
   "titles": [
@@ -333,6 +334,26 @@
         "c-shiji-118-huainan:m024-0167",
         "c-shiji-118-huainan:m024-0235"
       ]
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p021",
+      "count": 2,
+      "quote": "世用事，位至公卿。董仲舒以弘為從諛。弘疾之，乃言上曰：「獨董仲舒可使相繆西王。」膠西王素聞董仲舒有行，亦善待之。董仲舒恐久獲罪，疾免居家。至卒，終不治產業，以修學著書為事。故漢興至于五世之閒，唯董仲舒名為明於春秋，其傳公羊氏也。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p021"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m021-0066",
+        "c-shiji-121-rulin:m021-0071"
+      ]
     }
   ],
   "table_occurrences": [
@@ -452,6 +473,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
@@ -522,7 +567,7 @@
   "related_people": {
     "dlu_57f_6uq": "程姬（五宗世家候選）",
     "yqp_nlb_p1p_ACA": "孝景帝",
-    "yqp_nlb_p1p_ACAN": "端（景帝子）"
+    "yqp_nlb_p1p_ACAN": "端"
   },
   "dates": [
     {
@@ -559,7 +604,52 @@
       "title": "膠西王"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_ACAN",
+      "title": "膠西于王",
+      "surname": "劉",
+      "ming": "端",
+      "additional_names": [],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-059",
+      "chapter_id": "c-shiji-059-wuzong",
+      "source_id": "s-shiji-059-wuzong",
+      "paragraph_id": "c-shiji-059-wuzong:p013",
+      "quote": "膠西于王端，以孝景前三年吳楚七國反破後，端用皇子為膠西王。端為人賊戾，又陰痿，一近婦人，病之數月。而有愛幸少年為郎。為郎者頃之與後宮亂，端禽滅之，及殺其子母。數犯上法，漢公卿數請誅端，天子為兄弟之故不忍，而端所為滋甚。有司再請削其國，去太半。端心慍，遂為無訾省。府庫壞漏盡，腐財物以巨萬計，終不得收徙。令吏毋得收租賦。端皆去衛，封其宮門，從一門出游。數變名姓，為布衣，之他郡國。",
+      "component_evidence": [
+        {
+          "field_names": [
+            "title",
+            "ming"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-059",
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p013",
+          "quote": "膠西于王端，以孝景前三年吳楚七國反破後，端用皇子為膠西王。端為人賊戾，又陰痿，一近婦人，病之數月。而有愛幸少年為郎。為郎者頃之與後宮亂，端禽滅之，及殺其子母。數犯上法，漢公卿數請誅端，天子為兄弟之故不忍，而端所為滋甚。有司再請削其國，去太半。端心慍，遂為無訾省。府庫壞漏盡，腐財物以巨萬計，終不得收徙。令吏毋得收租賦。端皆去衛，封其宮門，從一門出游。數變名姓，為布衣，之他郡國。",
+          "basis": "received_title_and_name"
+        },
+        {
+          "field_names": [
+            "surname"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-059",
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p001",
+          "quote": "孝景皇帝子凡十三人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。",
+          "basis": "documented_paternal_lineage_context",
+          "source_assertion_id": "a-shiji059-011"
+        }
+      ],
+      "note": "膠西于王端為本篇明書；劉姓依景帝明示父系與漢宗室既有來源作編者判讀，不稱本段逐字連書劉端。于字照錄，頁首諡稱不冒作生前授爵年。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_ACAN"
   ],
