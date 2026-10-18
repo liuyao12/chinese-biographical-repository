@@ -785,6 +785,207 @@
       "rationale": "太后弟武安侯蚡按明示親屬及武帝母為王太后辨識，不因武帝初年亦有竇太后而取最近帝后；原親屬與年代各存。",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji120-final-context-01",
+      "person_id": "ob7_g6i_7pp",
+      "surfaces": [
+        "項籍",
+        "籍"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-007-xiangyu"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m015-0018",
+          "c-shiji-120-jizheng:m015-0022",
+          "c-shiji-120-jizheng:m015-0039",
+          "c-shiji-120-jizheng:m015-0052"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。"
+        },
+        {
+          "chapter_id": "c-shiji-007-xiangyu",
+          "source_id": "s-shiji-007-xiangyu",
+          "paragraph_id": "c-shiji-007-xiangyu:p001",
+          "quote": "項籍者，下相人也，字羽。"
+        }
+      ],
+      "rationale": "鄭君先為項籍將、項籍敗死後歸漢，對應項羽本紀明示籍字羽的楚將領袖；不是同名推合。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-final-context-02",
+      "person_id": "yqp_nlb_p1p_A",
+      "surfaces": [
+        "高祖"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-008-gaozu"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m015-0030"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。"
+        },
+        {
+          "chapter_id": "c-shiji-008-gaozu",
+          "source_id": "s-shiji-008-gaozu",
+          "paragraph_id": "c-shiji-008-gaozu:p001",
+          "quote": "高祖，沛豐邑中陽里人，姓劉氏，字季。"
+        }
+      ],
+      "rationale": "項籍死後歸漢及高祖令舊臣直呼籍名的漢初敘事，辨漢高祖；不與其他朝代高祖或當朝武帝合。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-final-context-03",
+      "person_id": "yqp_nlb_p1p_AC",
+      "surfaces": [
+        "孝文"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-010-wendi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m015-0066"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p015",
+          "quote": "鄭當時者，字莊，陳人也。其先鄭君嘗為項籍將；籍死，已而屬漢。高祖令諸故項籍臣名籍，鄭君獨不奉詔。詔盡拜名籍者為大夫，而逐鄭君。鄭君死孝文時。"
+        },
+        {
+          "chapter_id": "c-shiji-010-wendi",
+          "source_id": "s-shiji-010-wendi",
+          "paragraph_id": "c-shiji-010-wendi:p001",
+          "quote": "孝文皇帝，高祖中子也。"
+        }
+      ],
+      "rationale": "鄭君在項籍死而屬漢後卒於孝文時，下一段孝景再武帝連續漢初語境指漢文帝；不從受傳卒時一語補具體卒年。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-final-context-04",
+      "person_id": "nuf_tb9_fjs_A",
+      "surfaces": [
+        "魏其"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-107-weiqi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m016-0142"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p016",
+          "quote": "鄭莊以任俠自喜，脫張羽於緦聲聞梁楚之閒。孝景時，為太子舍人。每五日洗沐，常置驛馬安諸郊，存諸故人，請謝賓客，夜以繼日，至其明旦，常恐不遍。莊好黃老之言，其慕長者如恐不見。年少官薄，然其游知交皆其大父行，天下有名之士也。武帝立，莊稍遷為魯中尉、濟南太守、江都相，至九卿為右內史。以武安侯魏其時議，貶秩為詹事，遷為大農令。"
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p001",
+          "quote": "魏其侯竇嬰者，孝文后從兄子也。"
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p022",
+          "quote": "內史鄭當時是魏其，後不敢堅對。"
+        }
+      ],
+      "rationale": "武安侯魏其時議導致鄭當時貶秩，與魏其武安侯篇鄭當時廷議同事互證；接竇嬰，不補被貶年月。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-final-context-05",
+      "person_id": "pme_eis_xqi_*A*AAAAA",
+      "surfaces": [
+        "太史公"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-130-taishigong"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m020-0000"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p020",
+          "quote": "太史公曰：夫以汲、鄭之賢，有勢則賓客十倍，無勢則否，況眾人乎！下邽翟公有言，始翟公為廷尉，賓客闐門；及廢，門外可設雀羅。翟公復為廷尉，賓客欲往，翟公乃人署其門曰：「一死一生，乃知交情。一貧一富，乃知交態。一貴一賤，交情乃見。」汲、鄭亦云，悲夫！"
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p007",
+          "quote": "卒三歲而遷為太史令"
+        },
+        {
+          "chapter_id": "c-shiji-130-taishigong",
+          "source_id": "s-shiji130-taishigong",
+          "paragraph_id": "c-shiji-130-taishigong:p008",
+          "quote": "太史公曰：「先人有言"
+        }
+      ],
+      "rationale": "篇末太史公曰作史記傳統作者敘述聲音接司馬遷，參自序遷繼太史令及稱先人。此判斷只辨傳統署稱，不證本段親撰或文本真偽；自序前段父談亦稱太史公，不以全書同字批量替換。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

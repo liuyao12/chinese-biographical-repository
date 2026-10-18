@@ -1853,7 +1853,6 @@
 | `ei8_u9a_hcx` | 虞初 | [《史記・孝武本紀》][16] | [JSON](ei8_u9a_hcx.json) |
 | `eid_g2a_uis` | 屈固（楚惠王從者） | [《史記・楚世家》][26] | [JSON](eid_g2a_uis.json) |
 | `eim_new_gh3` | 項他 | [《史記・曹相國世家》][40] | [JSON](eim_new_gh3.json) |
-| `eis_8c5_jh2` | 項籍 | [《史記・汲鄭列傳》][106] | [JSON](eis_8c5_jh2.json) |
 | `ej1_app_vbi` | 太史公 | [《史記・陳丞相世家》][42] | [JSON](ej1_app_vbi.json) |
 | `ej1_px0_oja` | 沃甲 | [《史記・殷本紀》][7] | [JSON](ej1_px0_oja.json) |
 | `ej5_fv0_qii` | 晉平公 | [《史記・鄭世家》][28] | [JSON](ej5_fv0_qii.json) |
@@ -2084,7 +2083,6 @@
 | `gae_myi_fv0` | 嚭（吳臣） | [《史記・太史公自序》][116] | [JSON](gae_myi_fv0.json) |
 | `gaj_q2w_f4h` | 顏之僕 | [《史記・仲尼弟子列傳》][53] | [JSON](gaj_q2w_f4h.json) |
 | `gas_wud_t4m` | 鄭忠 | [《史記・項羽本紀》][11]、[《史記・高祖本紀》][12] | [JSON](gas_wud_t4m.json) |
-| `gaz_1ax_7s7` | 孝文 | [《史記・汲鄭列傳》][106] | [JSON](gaz_1ax_7s7.json) |
 | `gbb_0p6_20p` | 成信 | [《史記・酷吏列傳》][108] | [JSON](gbb_0p6_20p.json) |
 | `gbf_h5a_e3f` | 呂后 | [《史記・蕭相國世家》][39] | [JSON](gbf_h5a_e3f.json) |
 | `gc4_c9w_cfz` | 司馬穰苴 | [《史記・太史公自序》][116] | [JSON](gc4_c9w_cfz.json) |
@@ -2201,6 +2199,8 @@
 | `h68_ts0_5vs` | 齊女（衛莊公夫人） | [《史記・衛康叔世家》][23] | [JSON](h68_ts0_5vs.json) |
 | `h6b_bxc_9d4` | 侯敞 | [《漢書・樊酈滕灌傅靳周傳》][3]、[《史記・樊酈滕灌列傳》][81] | [JSON](h6b_bxc_9d4.json) |
 | `h6b_wgh_gr9` | 商瞿 | [《史記・儒林列傳》][107] | [JSON](h6b_wgh_gr9.json) |
+| `h6m_d9k_vzq` | 蘇代 | [《史記・樗里子甘茂列傳》][57] | [JSON](h6m_d9k_vzq.json) |
+| `h6s_hqj_u6k` | 卜式 | [《史記・平津侯主父列傳》][98] | [JSON](h6s_hqj_u6k.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt
