@@ -1,0 +1,49 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-songshu-066-wangjinghong",
+  "decisions": [
+    {
+      "id": "d-songshu-066-cross-001",
+      "person_id": "3dv_ken_w58",
+      "surfaces": [
+        "高祖"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-songshu-066-wangjinghong",
+        "c-songshu-044-xiehui"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "medium",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-066-wangjinghong:p001:m0012",
+          "c-songshu-044-xiehui:p001:m0037"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-066",
+          "chapter_id": "c-songshu-066-wangjinghong",
+          "source_id": "s-songshu-066-wangjinghong",
+          "paragraph_id": "c-songshu-066-wangjinghong:p001",
+          "quote": "王敬弘，琅邪臨沂人也。與高祖諱同，故稱字。曾祖廙，晉驃騎將軍。祖胡之，司州刺史。父茂之，晉陵太守。"
+        },
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "chapter_id": "c-songshu-044-xiehui",
+          "source_id": "s-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。"
+        }
+      ],
+      "rationale": "宋書66本書高祖的同諱語境接已有宋高祖裕，不連史記漢高祖；敬弘本名另據南史原文明裕之，不能按同諱只補裕。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

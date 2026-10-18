@@ -137,3 +137,42 @@ test('unadopted source claims remain in the payload without becoming family edge
  const relative=await traceFamily({id:'remote',relations:[claim]},async id=>({id}));
  assert.deepEqual(relative.children,[]);
 });
+
+test('an accepted paternal-uncle inference traces source JSON and reverse children without converting maternal kin', async () => {
+  const proof={type:'parent_through_paternal_uncle',status:'contextual_provisional',human_reviewed:false,
+    rationale:'Separately attributed father, paternal uncle and uncle father.',
+    references:[{quote:'Named father and paternal uncle.'},{quote:'Named uncle father.'}]};
+  const inferred={person_id:'father',parent_person_id:'grand',assembly_id:'family',status:'editorial_preferred',parent_connection:proof};
+  const people={child:{id:'child',relations:[relation('child','father','father'),relation('child','paternal_uncle','uncle'),
+      {...relation('child','grandfather','maternal'),qualifiers:{lineage:'maternal'}}]},
+    father:{id:'father',assembled_identity:inferred},grand:{id:'grand',assembled_children:[inferred],relations:[relation('uncle','father','grand')]},
+    uncle:{id:'uncle',relations:[relation('uncle','father','grand')]},maternal:{id:'maternal'}};
+  const loaded=[];
+  const family=await traceFamily(people.child,async id=>{loaded.push(id);return people[id];});
+  assert.deepEqual(family.ancestors.map(g=>g.map(x=>x.id)),[['father'],['grand'],[]]);
+  assert.equal(family.ancestors[1][0].role,'assembly_inferred');
+  assert.equal(family.ancestors[1][0].inference_note,proof.rationale);
+  assert(!loaded.includes('maternal'));
+  assert.equal(people.father.relations,undefined);
+  const grand=await traceFamily(people.grand,async id=>people[id]);
+  assert.deepEqual(grand.children.map(x=>x.id),['uncle','father']);
+  assert.equal(grand.children.find(x=>x.id==='father').role,'assembly_inferred');
+  for (const invalid of [{...inferred,status:'unresolved'},
+    {...inferred,parent_connection:{...proof,references:[]}},
+    {...inferred,parent_connection:{...proof,type:'maternal_uncle_parent'}}]) {
+    const missing=await traceFamily({...people.father,assembled_identity:invalid},async id=>people[id]);
+    assert.deepEqual(missing.ancestors,[[],[],[]]);
+  }
+});
+
+test('a maternal aunt cousin is not a paternal parent or an invented maternal ancestor', async()=>{
+  const person={id:'p',relations:[relation('p','father','f'),
+    {...relation('p','maternal_cousin','emperor'),qualifiers:{kinship_structure:{lineage:'maternal',maternal_path:'mother_sister_son'}}}]};
+  const loaded=[];
+  const family=await traceFamily(person,async id=>{loaded.push(id);return {id};});
+  assert.deepEqual(family.ancestors.map(g=>g.map(x=>x.id)),[['f'],[],[]]);
+  assert.deepEqual(family.mother,[]);
+  assert.deepEqual(family.spouses,[]);
+  assert.deepEqual(family.children,[]);
+  assert(!loaded.includes('emperor'));
+});
