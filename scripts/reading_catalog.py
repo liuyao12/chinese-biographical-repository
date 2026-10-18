@@ -10,12 +10,13 @@ CATEGORIES = [(1, 12, 'benji', '本紀'), (13, 22, 'biao', '表'),
               (23, 30, 'shu', '書'), (31, 60, 'shijia', '世家'), (61, 130, 'liezhuan', '列傳')]
 
 
-def outputs():
-    directory = ROOT / 'data/corpus'
+def outputs(root=None):
+    root = Path(root) if root is not None else ROOT
+    directory = root / 'data/corpus'
     contents = json.loads((directory / 'shiji-contents.json').read_text())
-    progress = {b['book_id']: b for b in json.loads((ROOT / 'corpus/progress.json').read_text())['books']}
-    chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (ROOT / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
-    table_index = json.loads((ROOT / 'data/historical-tables/index.json').read_text())
+    progress = {b['book_id']: b for b in json.loads((root / 'corpus/progress.json').read_text())['books']}
+    chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (root / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
+    table_index = json.loads((root / 'data/historical-tables/index.json').read_text())
     table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables'] if re.fullmatch(r'shiji-\d{3}', t['id'])}
     result, entries = {}, []
     for item in contents['chapters']:
@@ -25,7 +26,7 @@ def outputs():
         if number in chapters:
             path, chapter = chapters[number]
             public = 'data/corpus/shiji/' + path.name
-            result[ROOT / public] = path.read_bytes()
+            result[root / public] = path.read_bytes()
             entry.update({'path': public, 'chapter_id': chapter['id'], 'book_id': chapter['book_id'],
                           'paragraph_count': len(chapter['paragraphs']),
                           'annotation_status': progress[chapter['book_id']]['person_status'], 'available': 'marked_text'})
@@ -41,11 +42,11 @@ def outputs():
     result[directory / 'index.json'] = (json.dumps(index, ensure_ascii=False, indent=2) + '\n').encode()
     # Work-specific catalogs retain native chapter IDs. The established Shiji
     # reader (including its tables) remains its own specialized entry point.
-    works = json.loads((ROOT / 'registry/works.json').read_text())['works']
+    works = json.loads((root / 'registry/works.json').read_text())['works']
     manifest = [{'id':'w-shiji','title':'史記','author':'司馬遷',
                  'reader_kind':'shiji','catalog_path':'data/corpus/index.json'}]
     other_chapters = []
-    for path in sorted((ROOT / 'corpus').glob('*/*.json')):
+    for path in sorted((root / 'corpus').glob('*/*.json')):
         chapter = json.loads(path.read_text())
         if chapter.get('record_type') == 'marked_chapter' and chapter['work_id'] != 'w-shiji':
             other_chapters.append((path,chapter))
@@ -62,7 +63,7 @@ def outputs():
             slug = work['id'].removeprefix('w-')
             assert re.fullmatch('[a-z0-9-]+', slug)
             public = f'data/corpus/{slug}/{path.name}'
-            result[ROOT / public] = path.read_bytes()
+            result[root / public] = path.read_bytes()
             book = books[chapter['book_id']]
             selected.append({'number':book['number'],'book_id':book['id'],'book_title':book['title'],
                 'work_id':work['id'],'work_title':work['title'],'chapter_id':chapter['id'],
@@ -71,7 +72,7 @@ def outputs():
                 'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']),
                 'annotation_status':progress[book['id']]['person_status']})
         for item in table_index['tables']:
-            table = json.loads((ROOT / item['path']).read_text())
+            table = json.loads((root / item['path']).read_text())
             source = table['source']
             if source['work_id'] != work['id']:
                 continue
@@ -87,11 +88,11 @@ def outputs():
         path = f'data/corpus/{slug}/index.json'
         other = {'schema_version':1,'work_id':work['id'],'title':work['title'],'author':work.get('author'),
                  'chapters':selected,'policy':'只列已實錄卷篇；部分傳文不代表整卷或全書完成。'}
-        result[ROOT / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
+        result[root / path] = (json.dumps(other,ensure_ascii=False,indent=2)+'\n').encode()
         manifest.append({'id':work['id'],'title':work['title'],'author':work.get('author'),
                          'reader_kind':'corpus','catalog_path':path})
     result[directory / 'works.json'] = (json.dumps({'schema_version':1,'works':manifest},ensure_ascii=False,indent=2)+'\n').encode()
-    people = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
+    people = json.loads((root / 'registry/persons.json').read_text())['persons']
     summaries = {p['id']: {'id': p['id'], 'label': p['label'], 'status': p['status'],
                           'historicity': p.get('historicity'), 'identity_note': p.get('identity_note'),
                           'aliases': list(dict.fromkeys(a['surface'] for a in p['aliases']))[:8],
@@ -100,8 +101,8 @@ def outputs():
     return result
 
 
-def run(check=False):
-    generated = outputs()
+def run(check=False, root=None):
+    generated = outputs(root)
     for path, data in generated.items():
         if check:
             assert path.exists() and path.read_bytes() == data, '閱讀器匯出不同步：' + str(path)

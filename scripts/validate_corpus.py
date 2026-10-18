@@ -87,6 +87,33 @@ def normalized_date_errors(date):
         errors.append('紀年換算原句、證據、參考或判讀狀態缺失')
     if not date.get('rationale') or not date.get('reviewer') or date.get('human_reviewed') is not False:
         errors.append('紀年换算判讀或覆核狀態無效'.replace('换','換'))
+    if 'calendar' in date:
+        if date.get('calendar') != 'chinese_civil':
+            errors.append('明示年度曆法未知')
+        else:
+            mapping = date.get('regnal_year_mapping')
+            valid = isinstance(mapping, dict)
+            if valid:
+                refs = date.get('references'); index = mapping.get('reference_index')
+                ref = refs[index] if isinstance(refs, list) and type(index) is int and 0 <= index < len(refs) else {}
+                first, last, n = mapping.get('start_ce_year'), mapping.get('end_ce_year'), mapping.get('regnal_year')
+                number, name = mapping.get('source_number'), mapping.get('era_name')
+                parsed = 1 if number == '元' else source_age_number(number)
+                expression = name + str(number) + '年' if isinstance(name, str) else None
+                valid = (mapping.get('kind') == 'ce_regnal_era_span' and era == 'CE'
+                         and type(first) is int and type(last) is int and 0 < first <= last
+                         and type(n) is int and n > 0 and n == parsed
+                         and year == first + n - 1 and year <= last
+                         and expression == date.get('source_expression')
+                         and isinstance(date.get('original_quote'), str) and expression in date['original_quote']
+                         and isinstance(ref, dict) and ref.get('scope') == 'modern_era_year_equivalence_only'
+                         and ref.get('quote') == name and isinstance(ref.get('url'), str) and ref['url'].startswith('https://')
+                         and isinstance(ref.get('columns'), dict)
+                         and ref.get('columns', {}).get('era_name') == name
+                         and ref.get('columns', {}).get('first_year') == str(first)
+                         and ref.get('columns', {}).get('last_year') == str(last))
+            if not valid:
+                errors.append('中國曆年度換算須有原紀年、相符年序及現代年號起迄對照')
     if 'basis' in date and not parallel_event_date(date):
         errors.append('平行事件定年缺少原句或分層參考證據')
     return errors
@@ -483,7 +510,8 @@ def validate(root=ROOT):
                       and evidence.get('quote') == hit[1]['text']
                       and evidence.get('source_term', '') in hit[1]['text']
                       and chapters[hit[0]]['source_id'] == evidence.get('source_id'), '家族路徑來源與原文不符')
-                check(any(a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
+                check(any(a.get('qualifiers', {}).get('adopted_for_family_tree') is not False
+                          and a['predicate'] == path.get('connection') and a['subject_person_id'] == person['id']
                           and a['object_person_id'] == parent
                           and (a['predicate'] != 'ancestor' or a.get('qualifiers', {}).get('generation_distance') == path.get('generation_distance'))
                           and any(e.get('kind') != 'table_cell' and e.get('paragraph_id') == evidence.get('paragraph_id') for e in a['evidence'])
@@ -1059,6 +1087,15 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'adopted_for_family_tree' in qualifiers:
+                    number = qualifiers.get('source_number')
+                    check(qualifiers.get('adopted_for_family_tree') is False and a['predicate'] == 'ancestor'
+                          and qualifiers.get('generation_distance') is None
+                          and type(qualifiers.get('reported_generation_number')) is int
+                          and source_age_number(number) == qualifiers['reported_generation_number']
+                          and isinstance(number, str) and number + '世孫' in qualifiers.get('source_term', '')
+                          and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']),
+                          '未採遠祖說須保留原世孫數，不得補成已採納的精確父系距離')
                 if a['predicate'] == 'teacher' or qualifiers.get('relationship_basis') == 'teaching':
                     term = qualifiers.get('source_term')
                     valid = (a['predicate'] == 'teacher' and qualifiers.get('relationship_basis') == 'teaching'

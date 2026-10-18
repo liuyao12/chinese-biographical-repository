@@ -164,6 +164,11 @@ def export(root=ROOT):
     candidate_path = root / 'data/historical-tables/person-candidates.json'
     if candidate_path.exists():
         try:
+            from .reading_catalog import run as export_reading_catalog
+        except ImportError:
+            from reading_catalog import run as export_reading_catalog
+        export_reading_catalog(root=root)
+        try:
             from .table_person_profiles import build as build_table_person_profiles
         except ImportError:
             from table_person_profiles import build as build_table_person_profiles
@@ -173,8 +178,3 @@ def export(root=ROOT):
 
 if __name__ == '__main__':
     export()
-    try:
-        from .reading_catalog import run as export_reading_catalog
-    except ImportError:
-        from reading_catalog import run as export_reading_catalog
-    export_reading_catalog()

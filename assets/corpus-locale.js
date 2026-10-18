@@ -1,4 +1,7 @@
 export default {
+  'Paternal uncle': '伯叔父',
+  'Paternal same-generation collateral relative': '父系同輩旁親',
+  'Relationship claim not adopted into family tree': '來源說法，未接入家族',
   '{year} BCE (Chinese civil year)': '西元前{year}年（中國曆年）',
   '{year} CE (Chinese civil year)': '西元{year}年（中國曆年）',
   'Chinese civil year evidence': '中國曆年依據',

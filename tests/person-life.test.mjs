@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {summarizeLife, ageLabel, lifeYearLabel, studyReferencesHTML} from '../assets/person-life.js';
+import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, studyReferencesHTML} from '../assets/person-life.js';
 test('bounded or qualified reported ages retain their source wording', () => {
   assert.equal(ageLabel({value:null,source_term:'百有六十餘歲',qualified_source_term:'蓋老子百有六十餘歲'}),'蓋老子百有六十餘歲');
   assert.equal(ageLabel({value:70,source_term:'年七十'}),'70 歲（來源報齡）');
@@ -52,4 +52,19 @@ test('adjacent-number source ages remain approximations without a fabricated lif
  const age={person_id:'synthetic-person',value:null,source_number:'七八',source_term:'皆七八歲',approximation:{kind:'adjacent_age_numbers',numbers:[7,8]}};
  assert.equal(ageLabel(age),'七八歲');
  const life=summarizeLife({id:'synthetic-person',age_assertions:[age]});assert.deepEqual(life.birth,[]);assert.deepEqual(life.death,[]);assert.equal(life.ages[0].value,null);assert.equal(life.ages[0].bounds,undefined);
+});
+
+
+test('explicitly normalized Chinese civil years retain calendar meaning without an exact day',()=>{
+ const event={normalized_date:{era:'CE',era_year:149,year:149,year_numbering:'astronomical',precision:'year',calendar:'chinese_civil'}};
+ assert.deepEqual(civilYearLabelData(event),{key:'{year} CE (Chinese civil year)',params:{year:149}});
+ assert.match(lifeYearLabel(event),/149/);
+ assert.equal(civilYearLabelData({normalized_date:{...event.normalized_date,calendar:'gregorian'}}),null);
+ assert.equal(civilYearLabelData({normalized_date:{...event.normalized_date,precision:'day'}}),null);
+ assert.equal(event.normalized_date.day,undefined);
+});
+test('an explicitly Chinese projection window still cannot supply a single event year',()=>{
+ const range={calendar:'chinese_civil',earliest:{era:'CE',era_year:149,year:149},latest:{era:'CE',era_year:150,year:150}};
+ assert.equal(civilYearLabelData({normalized_date_range:range}),null);
+ assert.match(lifeYearLabel({normalized_date_range:range}),/149.*150/);
 });

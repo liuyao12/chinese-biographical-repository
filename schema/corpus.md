@@ -544,3 +544,23 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `context.kind: regnal_empress_context` 僅用於帝紀明書冊立皇后的配偶關係。兩條完整證據分別連到即位者與皇后，並保存 `monarch_mention_id`、`empress_mention_id`、即位及冊后原詞、原段順序與固定數位見證。`witness_interval` 保存兩段及省略部分的全部原行、提交、blob、行號、原文字串與指紋，古注及頁標與正文分層；它不是兩段原文相鄰的宣稱。首例《昭帝紀》為第21至69行。
 
 驗證核對原詞內的兩端人物、已登記選錄與區間對應、行號及版本，並拒絕在位區間內另見即位、崩等更替用語。這是附證的編者判讀，不是自動判定歷史真相；狀態保持 `contextual_provisional`、`human_reviewed: false`，不補婚日、子女或生母。其他親屬不能套用此模型。已知原行有省略的選錄，也不能只把種類改成 `adjacent_paragraphs` 來略過此證據。
+
+### 連續具名祖先的中間父子推導
+
+`parent_connection.type: parent_between_consecutive_ancestors` 是編輯組裝，不能另造一條 `source_attested` 的父子陳述。它引用同一已錄正文段落、同一後裔人物的兩項父系祖先陳述；`father`、`grandfather`、`great_grandfather` 所示距離必須恰差一代。`chain_subject_person_id` 指共同後裔，`nearer_ancestor_assertion_id` 與 `farther_ancestor_assertion_id` 指較近與較遠祖先的來源斷言；本組裝人物須是較近祖先，組裝父親須是較遠祖先。不得跨缺代、混用母系、跨不同來源段落或默蓋明載另一父親。
+
+兩份 `references` 各明指斷言 ID，保存同段完整引文、work／book／chapter／source／paragraph ID、固定來源 URL 與限定範圍。段落須有共同後裔及兩位祖先的逐人錨點。`status: contextual_provisional`、`human_reviewed: false`、具體 `rationale` 必備，組裝節點的 `source_assertion_id` 留空。人物頁據此追父祖及反向列子女，標為推導；不儲存手工三代名單。
+
+《晉書》荀勖選段明記父肸、祖棐、曾祖爽。本次將肸—棐與棐—爽作此種推導，三項原始世次陳述各自保留；不是把原文改寫為兩句父子記載。
+
+### 明載年號的中國曆年度換算
+
+除原有年表試點外，`normalized_date.calendar: chinese_civil` 可明示原紀年對應的中國曆年度；`year`、`era_year` 是年度標號，不是精確公曆日期。當前新增的 `regnal_year_mapping.kind: ce_regnal_era_span` 限於正公元年的年號起迄對照，保存 `era_name`、`source_number`、`regnal_year`、`start_ce_year`、`end_ce_year` 及 `reference_index`。原紀年必須見於 `source_expression` 與原文引句，年序及換算結果須落在所引起迄範圍。
+
+引用的現代對照須標 `scope: modern_era_year_equivalence_only`，保留其 `columns.era_name`、`first_year`、`last_year`、URL及實際閱覽日；不能把對照表的數字冒作古代正文。`status: editorial_provisional`、原句、事件證據、換算理由與未人工審閱狀態仍必備。未明示 `calendar` 的舊數字或跨年範圍，不因此自動改標中國曆年。
+
+本批荀淑卒年以原文建和三年，配教育部年號表建和元年147、末年149，暫存149。未換算日月，不由六十七歲倒推生日。原有前公元紀年與跨公曆年範圍的處理不由此正公元年模式取代。
+
+### 未採入家族的遠祖聲稱
+
+來源確有「某十一世孫」而未採用其遠祖系時，仍可保存 `ancestor` 陳述，以 `qualifiers.adopted_for_family_tree: false` 明示。`source_number`及`reported_generation_number`保存原世孫數；`generation_distance: null`不把來源世次直接當已採納的精確父系距離。原詞、逐人錨點及引文照存，人物JSON可讀此來源聲稱；家族路徑、組裝與閱讀器追祖均不得採用這筆未採聲稱。家族根仍依可接合的近支資料決定，不補遠祖間的缺名人物。

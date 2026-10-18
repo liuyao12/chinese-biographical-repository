@@ -87,3 +87,38 @@ test('teaching in either direction does not create parents, ancestors, spouse or
  const family=await traceFamily(p, async () => {throw Error('teaching must not trigger family loading');});
  assert.deepEqual(family,{ancestors:[[],[],[]],mother:[],spouses:[],children:[]});
 });
+
+test('consecutive ancestral evidence supplies separately labelled intermediate parents and reverse children', async () => {
+  const proof={type:'parent_between_consecutive_ancestors',status:'contextual_provisional',human_reviewed:false,
+    chain_subject_person_id:'descendant',nearer_ancestor_assertion_id:'near',farther_ancestor_assertion_id:'far',
+    rationale:'Synthetic consecutive paternal ancestor statements.',references:[{quote:'Synthetic source passage.',chapter_id:'c',paragraph_id:'p'}]};
+  const row=(id,parent)=>({person_id:id,parent_person_id:parent,assembly_id:'synthetic',status:'editorial_preferred',parent_connection:proof});
+  const people={descendant:{id:'descendant',relations:[relation('descendant','father','father'),{...relation('descendant','grandfather','grand'),evidence:[{quote:'Direct grandfather statement.'}]},{...relation('descendant','great_grandfather','great'),evidence:[{quote:'Direct great-grandfather statement.'}]}]},
+    father:{id:'father',assembled_identity:row('father','grand')},grand:{id:'grand',assembled_identity:row('grand','great'),assembled_children:[row('father','grand')]},great:{id:'great'}};
+  const family=await traceFamily(people.descendant,async id=>people[id]);
+  assert.deepEqual(family.ancestors.map(g=>g.map(p=>p.id)),[['father'],['grand'],['great']]);
+  assert.notEqual(family.ancestors[1][0].role,'assembly_inferred');
+  assert.notEqual(family.ancestors[2][0].role,'assembly_inferred');
+  assert.equal(family.ancestors[1][0].explicitAncestor,true);
+  assert(family.ancestors[1][0].evidence.some(e=>e.quote==='Direct grandfather statement.'));
+  assert(family.ancestors[1][0].evidence.some(e=>e.quote==='Synthetic source passage.'));
+  const father=await traceFamily(people.father,async id=>people[id]);
+  assert.deepEqual(father.ancestors.map(g=>g.map(p=>p.id)),[['grand'],['great'],[]]);
+  assert.equal(father.ancestors[0][0].role,'assembly_inferred');
+  assert.equal(father.ancestors[0][0].inference_note,proof.rationale);
+  const grandfather=await traceFamily(people.grand,async id=>people[id]);
+  assert.deepEqual(grandfather.children.map(p=>p.id),['father']);
+  assert.equal(people.father.relations,undefined);
+  const unaccepted=await traceFamily({...people.father,assembled_identity:{...row('father','grand'),status:'unresolved'}},async id=>people[id]);
+  assert.deepEqual(unaccepted.ancestors,[[],[],[]]);
+});
+
+test('unadopted source claims remain in the payload without becoming family edges', async()=>{
+ const claim={...relation('child','grandfather','remote'),qualifiers:{adopted_for_family_tree:false}};
+ const child={id:'child',relations:[claim]};
+ const family=await traceFamily(child,async id=>({id}));
+ assert.deepEqual(family.ancestors,[[],[],[]]);
+ assert.equal(child.relations[0],claim);
+ const relative=await traceFamily({id:'remote',relations:[claim]},async id=>({id}));
+ assert.deepEqual(relative.children,[]);
+});

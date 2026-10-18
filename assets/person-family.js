@@ -1,9 +1,19 @@
 // Traverse source relations and separately attributed assembly edges, never stored ancestor chains.
 export async function traceFamily(person, load) {
   const own = p => new Set(p.person_ids || [p.id]);
+  function mergeEvidence(map, entry) {
+    const previous = map.get(entry.id);
+    if (!previous) { map.set(entry.id, entry); return; }
+    const direct = previous.role === 'assembly_inferred' && entry.role !== 'assembly_inferred'
+      && !entry.unavailable && !entry.cycle;
+    if (direct) map.set(entry.id, {...entry, evidence: [...entry.evidence, ...previous.evidence]});
+    else previous.evidence.push(...entry.evidence);
+  }
+
   function related(p, kind) {
     const ids = own(p), result = new Map();
     for (const r of p.preferred_relations || p.relations || []) {
+      if (r.qualifiers?.adopted_for_family_tree === false) continue;
       const subject = ids.has(r.subject_person_id), object = ids.has(r.object_person_id);
       let id;
       if (kind === 'father' && subject && r.predicate === 'father') id = r.object_person_id;
@@ -24,7 +34,7 @@ export async function traceFamily(person, load) {
       if (!id || ids.has(id) || result.has(id) || !row.assembly_id
           || !['editorial_preferred', 'contextual_provisional'].includes(row.status)
           || connection?.status !== 'contextual_provisional'
-          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain'].includes(connection.type)
+          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors'].includes(connection.type)
           || !connection.rationale || !connection.references?.length) return;
       result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
         evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
@@ -58,10 +68,7 @@ export async function traceFamily(person, load) {
       catch {return {...entry, label: person.related_people?.[entry.id] || entry.id, unavailable: true};}
     }));
     const unique = new Map();
-    for (const entry of resolved) {
-      if (!unique.has(entry.id)) unique.set(entry.id, entry);
-      else unique.get(entry.id).evidence.push(...entry.evidence);
-    }
+    for (const entry of resolved) mergeEvidence(unique, entry);
     return [...unique.values()];
   }
   const ancestors = [];
@@ -90,10 +97,7 @@ export async function traceFamily(person, load) {
       if (parent.person && !cycle) next.push({person: parent.person, path: new Set([...path, ...own(parent.person)])});
     }
     const unique = new Map();
-    for (const entry of row) {
-      if (!unique.has(entry.id)) unique.set(entry.id, entry);
-      else unique.get(entry.id).evidence.push(...entry.evidence);
-    }
+    for (const entry of row) mergeEvidence(unique, entry);
     ancestors.push([...unique.values()]); frontier = next;
   }
   const [mother, spouses, children] = await Promise.all(['mother', 'spouse', 'children'].map(kind => resolve(related(person, kind))));
