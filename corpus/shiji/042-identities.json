@@ -2417,7 +2417,7 @@
     },
     {
       "id": "d-shiji042-097",
-      "person_id": "9g0_ueo_x4u",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAD",
       "scope": "same_chapter",
       "chapter_ids": [
         "c-shiji-042-zheng"
@@ -3277,6 +3277,45 @@
         }
       ],
       "rationale": "依本篇名字、是為、世系及連續事件暫接異稱；同諡不同國分開，建子勝與聲公勝不合併，如兄弟為譬喻不作親屬。述贊與正文不算獨立來源，省稱、古字與校勘仍待核。"
+    },
+    {
+      "id": "d-shiji-zichan-crossrefs-07",
+      "person_id": "5dm_e40_rqh_AAAAAAAAAAAAAAAAAAD",
+      "surfaces": [
+        "延陵季子",
+        "季子"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-042-zheng",
+        "c-shiji-031-wu"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-042-zheng:m039-0061",
+          "c-shiji-042-zheng:m039-0117"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p039",
+          "quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。十九年，簡公如晉請衞君還，而封子産以六邑。子産讓，受其三邑。二十二年，呉使延陵季子於鄭，見子産如舊交，謂子産曰：「鄭之執政者侈，難將至，政將及子。子爲政，必以禮；不然，鄭將敗。」子産厚遇季子。二十三年，諸公子爭寵相殺，又欲殺子産。公子或諫曰：「子産仁人，鄭所以存者子産也，勿殺！」乃止。"
+        },
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p008",
+          "quote": "十三年，王諸樊卒。有命授弟餘祭，欲傳以次，必致國於季札而止，以稱先王壽夢之意，且嘉季札之義，兄弟皆欲致國，令以漸至焉。季札封於延陵，故號曰延陵季子。"
+        }
+      ],
+      "rationale": "吳世家明說季札號延陵季子；鄭世家同一出使行程稱延陵季子與季子。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

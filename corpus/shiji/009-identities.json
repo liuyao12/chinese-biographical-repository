@@ -1026,7 +1026,6 @@
         "呂王產",
         "呂產",
         "太傅產",
-        "子產",
         "梁王產",
         "產",
         "相國產"
@@ -1923,6 +1922,36 @@
       "interpretation_note": "呂王產徙梁王，梁王不之國為帝太傅，連續主體是呂產。 只限定本處，不以同字全域連結。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "d-shiji009-kin-prefix-boundary",
+      "person_id": "acg_se3_w5x_B",
+      "surfaces": [
+        "產"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-009-lvhou"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-009-lvhou:m002-0050"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-009-lvhou",
+          "source_id": "s-shiji-009-lvhou",
+          "paragraph_id": "c-shiji-009-lvhou:p002",
+          "quote": "呂后為人剛毅，佐高祖定天下，所誅大臣多呂后力。呂后兄二人，皆為將。長兄周呂侯死事，封其子呂台為酈侯，子產為交侯；次兄呂釋之為建成侯。"
+        }
+      ],
+      "rationale": "本句子為親屬詞，原人名錨點誤含此前綴；只縮正本錨點及別稱索引，原句與提及ID不改。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
