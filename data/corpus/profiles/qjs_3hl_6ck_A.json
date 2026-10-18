@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "子産",
-    "子產"
+    "子產",
+    "子"
   ],
   "titles": [
     {
@@ -48,7 +49,56 @@
               "paragraph_id": "c-shiji-042-zheng:p039",
               "quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。十九年，簡公如晉請衞君還，而封子産以六邑。子産讓，受其三邑。二十二年，呉使延陵季子於鄭，見子産如舊交，謂子産曰：「鄭之執政者侈，難將至，政將及子。子爲政，必以禮；不然，鄭將敗。」子産厚遇季子。二十三年，諸公子爭寵相殺，又欲殺子産。公子或諫曰：「子産仁人，鄭所以存者子産也，勿殺！」乃止。"
             }
-          ]
+          ],
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 554,
+            "year": -553,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-042-zheng",
+                "source_id": "s-shiji-042-zheng",
+                "paragraph_id": "c-shiji-042-zheng:p039",
+                "quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。十九年，簡公如晉請衞君還，而封子産以六邑。子産讓，受其三邑。二十二年，呉使延陵季子於鄭，見子産如舊交，謂子産曰：「鄭之執政者侈，難將至，政將及子。子爲政，必以禮；不然，鄭將敗。」子産厚遇季子。二十三年，諸公子爭寵相殺，又欲殺子産。公子或諫曰：「子産仁人，鄭所以存者子産也，勿殺！」乃止。"
+              }
+            ],
+            "references": [
+              {
+                "title": "十二諸侯年表鄭簡公十二年授卿原格",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+                "quote": "十二子產為卿。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-014",
+                "table_cell_id": "shiji-014-r288-c13",
+                "image_verified": false
+              },
+              {
+                "title": "另列數位西元對照",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+                "quote": "554",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-014",
+                "table_cell_id": "shiji-014-r288-c00",
+                "image_verified": false
+              }
+            ],
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "以子産爲卿",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+              "reference_event_quote": "十二子產為卿。",
+              "reference_year_quote": "554",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+            },
+            "rationale": "同為鄭簡公十二年授子產為卿；原文與原表事件相對，西元554另屬數位編者對照。只記授位年，不以此填相的始年，不由卒年補卿終年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -56,9 +106,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授位與既有用稱分開；原相對年份未換算。未知端點不由卒日、入質、逃亡、首次提及或欲自立推造。",
+      "interpretation_note": "授卿始年暫按同一授位原格與另列西元對照換年；任職終點仍未知，卿與相分開，不由卒年或治鄭二十六年補起訖。",
       "reviewer": "Codex（AI 代理）",
-      "period": "十二年 → 未定"
+      "period": "西元前554年（暫定） → 未定"
     },
     {
       "id": "th-shiji042-024",
@@ -141,7 +191,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與來源用稱分存。三月為相為敘事相對時間，三得相三去相及治鄭二十六年不直接反推確切任期。死亡不自動終止全部官爵。",
+      "interpretation_note": "列大夫為本篇對子產身份的用稱；未明記授任年月，起訖保持未知。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     },
@@ -310,7 +360,224 @@
       "quote": "桓公之東，太史是庸。及侵周禾，王人是議。祭仲要盟，鄭久不昌。子產之仁，紹世稱賢。三晉侵伐，鄭納於韓。嘉厲公納惠王，作鄭世家第十二。"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r279-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "三晉率諸侯伐我，楚來救。子孔作亂，子產攻之",
+      "year": {
+        "era": "BCE",
+        "value": 563,
+        "astronomical_year": -562,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "563",
+        "source_cell_id": "shiji-014-r279-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r279-c13-m000",
+        "start": 17,
+        "end": 19,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r288-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "十二子產為卿。",
+      "year": {
+        "era": "BCE",
+        "value": 554,
+        "astronomical_year": -553,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "554",
+        "source_cell_id": "shiji-014-r288-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r288-c13-m000",
+        "start": 2,
+        "end": 4,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r298-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "二十二吳季札謂子產曰：「政將歸子，子以禮，幸脫於厄矣。」",
+      "year": {
+        "era": "BCE",
+        "value": 544,
+        "astronomical_year": -543,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "544",
+        "source_cell_id": "shiji-014-r298-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r298-c13-m001",
+        "start": 7,
+        "end": 9,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r298-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "二十二吳季札謂子產曰：「政將歸子，子以禮，幸脫於厄矣。」",
+      "year": {
+        "era": "BCE",
+        "value": 544,
+        "astronomical_year": -543,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "544",
+        "source_cell_id": "shiji-014-r298-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r298-c13-m002",
+        "start": 15,
+        "end": 16,
+        "surface": "子",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "季札謂子產曰的引語中，歸子的子為受話人子產。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r298-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "二十二吳季札謂子產曰：「政將歸子，子以禮，幸脫於厄矣。」",
+      "year": {
+        "era": "BCE",
+        "value": 544,
+        "astronomical_year": -543,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "544",
+        "source_cell_id": "shiji-014-r298-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r298-c13-m003",
+        "start": 17,
+        "end": 18,
+        "surface": "子",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "同一引語子以禮的子仍為受話人子產，不以普通子字全格標記。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r299-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "二十三諸公子爭寵相殺，又欲殺子產，子成止之。",
+      "year": {
+        "era": "BCE",
+        "value": 543,
+        "astronomical_year": -542,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "543",
+        "source_cell_id": "shiji-014-r299-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r299-c13-m000",
+        "start": 14,
+        "end": 16,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r304-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "二十八子產曰：三國不會。",
+      "year": {
+        "era": "BCE",
+        "value": 538,
+        "astronomical_year": -537,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "538",
+        "source_cell_id": "shiji-014-r304-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r304-c13-m000",
+        "start": 3,
+        "end": 5,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r317-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "五火，欲禳之，子產曰：不如脩德。",
+      "year": {
+        "era": "BCE",
+        "value": 525,
+        "astronomical_year": -524,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "525",
+        "source_cell_id": "shiji-014-r317-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r317-c13-m000",
+        "start": 7,
+        "end": 9,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    },
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r346-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "五子產卒。",
+      "year": {
+        "era": "BCE",
+        "value": 496,
+        "astronomical_year": -495,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "496",
+        "source_cell_id": "shiji-014-r346-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r346-c13-m000",
+        "start": 1,
+        "end": 3,
+        "surface": "子產",
+        "person_id": "qjs_3hl_6ck_A",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭欄子產敘事與鄭世家同指；只接人物，不據身份接合消除年表與他書紀年的衝突。"
+      }
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-031-wu",
@@ -574,6 +841,29 @@
           "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-014",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-014",
+      "source_id": "table-witness-shiji-014",
+      "source": {
+        "id": "table-witness-shiji-014",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-014",
+        "chapter_id": "table-chapter-shiji-014",
+        "url": "https://zh.wikisource.org/wiki/史記/卷014",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+        "revision": "2607001",
+        "accessed": "2026-10-12",
+        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
+      }
     }
   ],
   "relations": [
@@ -654,7 +944,188 @@
     "qjs_3hl_6ck": "公子發",
     "qjs_3hl_6ck_A": "子産"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "BCE",
+      "era_year": 496,
+      "year": -495,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p049",
+          "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+          "person_mention_id": "c-shiji-042-zheng:m049-0007"
+        }
+      ],
+      "references": [
+        {
+          "title": "十二諸侯年表鄭欄子產卒",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "五子產卒。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r346-c13",
+          "image_verified": false
+        },
+        {
+          "title": "年表另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "496",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r346-c00",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "鄭相子産卒",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+        "reference_event_quote": "五子產卒。",
+        "reference_year_quote": "496",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+      },
+      "rationale": "本筆僅將聲公五年按年表鄭欄子產卒與另列數位西元對照換為前496年；古文無西元數字，此年不作預設卒年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji042-040",
+      "person_id": "qjs_3hl_6ck_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 522,
+      "year": -521,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-119-xunli",
+          "source_id": "s-shiji119-xunli",
+          "paragraph_id": "c-shiji-119-xunli:p006",
+          "quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+          "person_mention_id": "c-shiji-119-xunli:m006-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "左傳昭公二十年子產卒與孔子聞卒",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+          "quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+          "scope": "received_parallel_event",
+          "source_commit": "dc3dc18e0039e05679d98bc650c2f980f8dcabac",
+          "source_blob": "2b2028719db319b3792a763b881480ee52e218d1",
+          "raw_file_sha256": "b79d6129e6bd7b1ad9b51cbea8a182e459475573b54ae73cdd1e678cfb192730",
+          "image_verified": false,
+          "quote_format": "kanripo_line_wrapped",
+          "display_quote": "及子產卒，仲尼聞之，出涕曰：「古之遺愛也。」"
+        },
+        {
+          "title": "左傳昭公二十年傳的原年次起句",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L9671-L9676",
+          "quote": "二十年春，",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "年表魯欄二十年原詞",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "二十齊景公與晏子狩，入魯問禮。",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c03",
+          "image_verified": false
+        },
+        {
+          "title": "年表另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "522",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c00",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "治鄭二十六年而死",
+        "reference_url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+        "reference_event_quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+        "reference_year_quote": "522",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+      },
+      "rationale": "以昭公二十年的編年敘事為首選年級日期；西元數字對照另標編輯性，不冒充古文原字。病數月及孔子聞卒敘事不提供確切月日。 治鄭二十六年與紀年異說各存，不由卒年減去任期反推始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji119-001",
+      "person_id": "qjs_3hl_6ck_A",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "era": "BCE",
+      "era_year": 554,
+      "year": -553,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p039",
+          "quote": "十二年，簡公怒相子孔專國權，誅之，而以子産爲卿。十九年，簡公如晉請衞君還，而封子産以六邑。子産讓，受其三邑。二十二年，呉使延陵季子於鄭，見子産如舊交，謂子産曰：「鄭之執政者侈，難將至，政將及子。子爲政，必以禮；不然，鄭將敗。」子産厚遇季子。二十三年，諸公子爭寵相殺，又欲殺子産。公子或諫曰：「子産仁人，鄭所以存者子産也，勿殺！」乃止。"
+        }
+      ],
+      "references": [
+        {
+          "title": "十二諸侯年表鄭簡公十二年授卿原格",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "十二子產為卿。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r288-c13",
+          "image_verified": false
+        },
+        {
+          "title": "另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "554",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r288-c00",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "以子産爲卿",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+        "reference_event_quote": "十二子產為卿。",
+        "reference_year_quote": "554",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+      },
+      "rationale": "同為鄭簡公十二年授子產為卿；原文與原表事件相對，西元554另屬數位編者對照。只記授位年，不以此填相的始年，不由卒年補卿終年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji042-018",
+      "person_id": "qjs_3hl_6ck_A",
+      "endpoint": "start",
+      "title": "卿"
+    }
+  ],
   "reading_decisions": [
     {
       "id": "eq-shiji119-zichan",
@@ -749,7 +1220,23 @@
       ]
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "qjs_3hl_6ck_A",
+      "title": null,
+      "surname": null,
+      "ming": null,
+      "additional_names": [
+        "子産"
+      ],
+      "chapter_id": "c-shiji-119-xunli",
+      "paragraph_id": "c-shiji-119-xunli:p006",
+      "quote": "子産者，鄭之列大夫也。",
+      "note": "子產沿用人物標籤，子産列為原文字形；本處不明姓與名的成分，不填僑或姓氏。受話人子只列來源中的稱呼，不作字號。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "qjs_3hl_6ck_A"
   ],
@@ -823,9 +1310,59 @@
         }
       ],
       "source_term": "鄭相子産卒",
-      "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
+      "interpretation_note": "原紀年、來源事件與引文不改；數字換年、平行來源及首選另列。本記錄不補月日、不延伸任職時段，亦不由治鄭二十六年倒算起年。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 496,
+        "year": -495,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-042-zheng",
+            "source_id": "s-shiji-042-zheng",
+            "paragraph_id": "c-shiji-042-zheng:p049",
+            "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+            "person_mention_id": "c-shiji-042-zheng:m049-0007"
+          }
+        ],
+        "references": [
+          {
+            "title": "十二諸侯年表鄭欄子產卒",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "五子產卒。",
+            "scope": "received_parallel_event",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r346-c13",
+            "image_verified": false
+          },
+          {
+            "title": "年表另列數位西元對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "496",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r346-c00",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "鄭相子産卒",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "reference_event_quote": "五子產卒。",
+          "reference_year_quote": "496",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+        },
+        "rationale": "本筆僅將聲公五年按年表鄭欄子產卒與另列數位西元對照換為前496年；古文無西元數字，此年不作預設卒年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "le-shiji119-001",
@@ -842,11 +1379,246 @@
           "person_mention_id": "c-shiji-119-xunli:m006-0000"
         }
       ],
-      "interpretation_note": "來源明示死亡；治鄭二十六年為敘事時長，未據此反推公元死亡年。論贊回顧不當獨立新死亡事件。",
+      "interpretation_note": "原紀年、來源事件與引文不改；數字換年、平行來源及首選另列。本記錄不補月日、不延伸任職時段，亦不由治鄭二十六年倒算起年。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 522,
+        "year": -521,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-119-xunli",
+            "source_id": "s-shiji119-xunli",
+            "paragraph_id": "c-shiji-119-xunli:p006",
+            "quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+            "person_mention_id": "c-shiji-119-xunli:m006-0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "左傳昭公二十年子產卒與孔子聞卒",
+            "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+            "quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+            "scope": "received_parallel_event",
+            "source_commit": "dc3dc18e0039e05679d98bc650c2f980f8dcabac",
+            "source_blob": "2b2028719db319b3792a763b881480ee52e218d1",
+            "raw_file_sha256": "b79d6129e6bd7b1ad9b51cbea8a182e459475573b54ae73cdd1e678cfb192730",
+            "image_verified": false,
+            "quote_format": "kanripo_line_wrapped",
+            "display_quote": "及子產卒，仲尼聞之，出涕曰：「古之遺愛也。」"
+          },
+          {
+            "title": "左傳昭公二十年傳的原年次起句",
+            "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L9671-L9676",
+            "quote": "二十年春，",
+            "scope": "received_regnal_year_attestation",
+            "image_verified": false
+          },
+          {
+            "title": "年表魯欄二十年原詞",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "二十齊景公與晏子狩，入魯問禮。",
+            "scope": "received_regnal_year_attestation",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r320-c03",
+            "image_verified": false
+          },
+          {
+            "title": "年表另列數位西元對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "522",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r320-c00",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "治鄭二十六年而死",
+          "reference_url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+          "reference_event_quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+          "reference_year_quote": "522",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+        },
+        "rationale": "以昭公二十年的編年敘事為首選年級日期；西元數字對照另標編輯性，不冒充古文原字。病數月及孔子聞卒敘事不提供確切月日。 治鄭二十六年與紀年異說各存，不由卒年減去任期反推始年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     }
   ],
-  "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "life_event_date_decisions": [
+    {
+      "id": "ld-shiji119-zichan-death",
+      "person_ids": [
+        "qjs_3hl_6ck_A"
+      ],
+      "event_type": "death",
+      "candidate_event_ids": [
+        "le-shiji042-040",
+        "le-shiji119-001"
+      ],
+      "preferred_event_id": "le-shiji119-001",
+      "status": "editorial_provisional",
+      "rationale": "暫採左傳昭公二十年的病卒及孔子聞卒敘事，以另列西元對照記前522年；史記原記聲公五年，按年表數位對照換得的前496年保留為另一來源日期，不以同書兩處記載投票。只定年級，不補月日，也不由治鄭二十六年反推持職始年。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p049",
+          "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+          "person_mention_id": "c-shiji-042-zheng:m049-0007"
+        },
+        {
+          "chapter_id": "c-shiji-119-xunli",
+          "source_id": "s-shiji119-xunli",
+          "paragraph_id": "c-shiji-119-xunli:p006",
+          "quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+          "person_mention_id": "c-shiji-119-xunli:m006-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "十二諸侯年表鄭欄子產卒",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "五子產卒。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r346-c13",
+          "image_verified": false
+        },
+        {
+          "title": "年表另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "496",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r346-c00",
+          "image_verified": false
+        },
+        {
+          "title": "左傳昭公二十年子產卒與孔子聞卒",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+          "quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+          "scope": "received_parallel_event",
+          "source_commit": "dc3dc18e0039e05679d98bc650c2f980f8dcabac",
+          "source_blob": "2b2028719db319b3792a763b881480ee52e218d1",
+          "raw_file_sha256": "b79d6129e6bd7b1ad9b51cbea8a182e459475573b54ae73cdd1e678cfb192730",
+          "image_verified": false,
+          "quote_format": "kanripo_line_wrapped",
+          "display_quote": "及子產卒，仲尼聞之，出涕曰：「古之遺愛也。」"
+        },
+        {
+          "title": "左傳昭公二十年傳的原年次起句",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L9671-L9676",
+          "quote": "二十年春，",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "年表魯欄二十年原詞",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "二十齊景公與晏子狩，入魯問禮。",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c03",
+          "image_verified": false
+        },
+        {
+          "title": "年表另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "522",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c00",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "selected_life_event_dates": [
+    {
+      "era": "BCE",
+      "era_year": 522,
+      "year": -521,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-119-xunli",
+          "source_id": "s-shiji119-xunli",
+          "paragraph_id": "c-shiji-119-xunli:p006",
+          "quote": "子産者，鄭之列大夫也。鄭昭君之時，以所愛徐贄爲相，國亂，上下不親，父子不和。大宮子期言之君，以子産爲相。爲相一年，豎子不戲狎，斑白不提挈，僮子不犁畔。二年，市不豫賈。三年，門不夜關，道不拾遺。四年，田器不歸。五年，士無尺籍，喪期不令而治。治鄭二十六年而死，丁壯號哭，老人兒啼，曰：「子産去我死乎！民將安歸？」",
+          "person_mention_id": "c-shiji-119-xunli:m006-0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "左傳昭公二十年子產卒與孔子聞卒",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+          "quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+          "scope": "received_parallel_event",
+          "source_commit": "dc3dc18e0039e05679d98bc650c2f980f8dcabac",
+          "source_blob": "2b2028719db319b3792a763b881480ee52e218d1",
+          "raw_file_sha256": "b79d6129e6bd7b1ad9b51cbea8a182e459475573b54ae73cdd1e678cfb192730",
+          "image_verified": false,
+          "quote_format": "kanripo_line_wrapped",
+          "display_quote": "及子產卒，仲尼聞之，出涕曰：「古之遺愛也。」"
+        },
+        {
+          "title": "左傳昭公二十年傳的原年次起句",
+          "url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L9671-L9676",
+          "quote": "二十年春，",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "年表魯欄二十年原詞",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "二十齊景公與晏子狩，入魯問禮。",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c03",
+          "image_verified": false
+        },
+        {
+          "title": "年表另列數位西元對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "quote": "522",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-014",
+          "table_cell_id": "shiji-014-r320-c00",
+          "image_verified": false
+        }
+      ],
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "治鄭二十六年而死",
+        "reference_url": "https://github.com/kanripo/KR1e0001/blob/dc3dc18e0039e05679d98bc650c2f980f8dcabac/KR1e0001_010.txt#L10524-L10527",
+        "reference_event_quote": "及子產卒，¶\n仲尼聞之，¶\n出涕曰：¶\n「古之遺愛也。」<pb:KR1e0001_tls_010-500a>¶",
+        "reference_year_quote": "522",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+      },
+      "rationale": "以昭公二十年的編年敘事為首選年級日期；西元數字對照另標編輯性，不冒充古文原字。病數月及孔子聞卒敘事不提供確切月日。 治鄭二十六年與紀年異說各存，不由卒年減去任期反推始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji119-001",
+      "person_id": "qjs_3hl_6ck_A",
+      "date_role": "life_event",
+      "event_type": "death",
+      "selection_decision_id": "ld-shiji119-zichan-death"
+    }
+  ]
 }

@@ -1265,6 +1265,7 @@
 | `r8r_74l_t6d` | 司馬季主 | [《史記・日者列傳》][113] | [JSON](r8r_74l_t6d.json) |
 | `r97_1b3_zvn` | 高陵君顯 | [《史記・項羽本紀》][11] | [JSON](r97_1b3_zvn.json) |
 | `r99_eaa_u70` | 文王 | [《史記・龜策列傳》][114] | [JSON](r99_eaa_u70.json) |
+| `r9c_dxo_iab` | 子成 | [《史記・十二諸侯年表》][122] | [JSON](r9c_dxo_iab.json) |
 | `r9f_r04_uk4` | 徐尚 | [《史記・秦始皇本紀》][10] | [JSON](r9f_r04_uk4.json) |
 | `r9n_0vc_ywa` | 摢裏疾 | [《史記・樗里子甘茂列傳》][57] | [JSON](r9n_0vc_ywa.json) |
 | `r9t_e2f_if5` | 皇欣 | [《史記・高祖本紀》][12] | [JSON](r9t_e2f_if5.json) |
@@ -2206,10 +2207,10 @@
 | `yjq_7u5_fd1` | 楚懷王 | [《史記・留侯世家》][41] | [JSON](yjq_7u5_fd1.json) |
 | `yjt_8w9_jgx` | 蔡兼 | [《史記・孝文本紀》][14]、[《史記・惠景間侯者年表》][127] | [JSON](yjt_8w9_jgx.json) |
 | `yk4_ms3_oy7` | 孟嘗君（楚篇田嬰子） | [《史記・楚世家》][26] | [JSON](yk4_ms3_oy7.json) |
-| `yk7_5u4_rcn` | 魯謁居弟（未名） | [《史記・酷吏列傳》][108] | [JSON](yk7_5u4_rcn.json) |
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `yk7_5u4_rcn` | 魯謁居弟（未名） | [《史記・酷吏列傳》][108] | [JSON](yk7_5u4_rcn.json) |
 | `yka_hay_sdj` | 任敖 | [《史記・張丞相列傳》][82] | [JSON](yka_hay_sdj.json) |
 | `ykk_635_9eq` | 子思 | [《史記・孟子荀卿列傳》][60] | [JSON](ykk_635_9eq.json) |
 | `ykw_i8p_jh3` | 愼到 | [《史記・孟子荀卿列傳》][60] | [JSON](ykw_i8p_jh3.json) |
