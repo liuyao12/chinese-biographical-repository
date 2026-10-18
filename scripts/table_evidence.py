@@ -47,6 +47,8 @@ def table_cell(table, cell_id):
 
 
 def table_evidence_errors(evidence, tables, subject, object_id, predicate=None):
+    if evidence.get('relationship_layout') == 'founder_generation_column':
+        return founder_generation_errors(evidence, tables, subject, object_id, predicate)
     if 'subject_table_cell_id' in evidence or 'relationship_layout' in evidence:
         return first_holder_parent_errors(evidence, tables, subject, object_id, predicate)
     table = tables.get(evidence.get('table_id'))
@@ -490,14 +492,66 @@ def first_holder_parent_errors(evidence, tables, subject, parent, predicate):
     return []
 
 
+def founder_generation_errors(evidence,tables,subject,ancestor,predicate):
+    table=tables.get(evidence.get('table_id'))
+    if not table:return ['原表不存在']
+    source=table['source']
+    if (evidence.get('kind')!='table_cell' or 'paragraph_id'in evidence
+            or evidence.get('relationship_layout')!='founder_generation_column'
+            or any(evidence.get(k)!=source.get(v)for k,v in [('work_id','work_id'),('book_id','book_id'),('chapter_id','chapter_id'),('source_id','id'),('source_revision','revision')])):
+        return ['世系原表來源、版本或欄式不符']
+    parent=child=fragment=None
+    for f in table['fragments']:
+        for row in f['rows']:
+            cells={c['id']:c for c in row['cells']}
+            if evidence.get('table_cell_id')in cells and evidence.get('subject_table_cell_id')in cells:
+                parent=cells[evidence['table_cell_id']];child=cells[evidence['subject_table_cell_id']];fragment=f
+    if not parent or not child or parent['column']!=0:return ['各世代須相對同列始封者原格，不得把前欄嗣侯當父親']
+    columns=fragment['columns'];labels={i:c['text']for i,c in enumerate(columns)}
+    headers={'子':(1,'father'),'孫':(2,'grandfather'),'曾孫':(3,'great_grandfather'),'玄孫':(4,'ancestor')}
+    term=labels.get(child['column']);expected=headers.get(term)
+    if not (labels.get(0)=='號謚姓名' and expected and evidence.get('generation_source_term')==term
+            and type(evidence.get('generation_distance'))is int and evidence['generation_distance']==expected[0] and predicate==expected[1]):
+        return ['子孫欄與親屬謂詞或世代距離不符，不能改祖孫為父子']
+    if evidence.get('quote')!=parent['text'] or evidence.get('subject_quote')!=child['text']:return ['兩個原格須分別完整保存']
+    def anchor(cell,key,pid):
+        m=next((m for m in cell.get('person_mentions',[])if m['id']==evidence.get(key)),None)
+        return m if(m and m.get('person_id')==pid and type(m.get('start'))is int and type(m.get('end'))is int and 0<=m['start']<m['end']<=len(cell['text'])and cell['text'][m['start']:m['end']]==m.get('surface'))else None
+    p=anchor(parent,'object_mention_id',ancestor);c=anchor(child,'subject_mention_id',subject)
+    if not p or not c or subject==ancestor:return ['世系兩端須有同列的實際逐人錨點']
+    if term!='玄孫':
+        first = re.search(r'[侯矦]([^，。；、]{1,12})嗣', child['text'])
+        if (not first or (c['start'],c['end']) != first.span(1)
+                or first.group(1) != c['surface']):
+            return ['只核原欄首位具名嗣侯，不把同格後世或旁人套入欄題']
+    else:
+        local=anchor(child,'local_ancestor_mention_id',ancestor)
+        if (not local or local['end']>=c['start'] or not child['text'][local['end']:].startswith(term)
+                or evidence.get('source_kinship_term')!=local['surface']+term
+                or any(z in child['text'][local['end']:c['start']]for z in '。；')
+                or not child['text'][c['end']:].startswith('詔復家')):
+            return ['玄孫須有本格原祖名、玄孫原詞及本人的復家語境']
+    return []
+
+
 def table_family_path_errors(person_id, path, tables, relations):
-    """原表父系路徑須綁定同一筆有效來源陳述。"""
+    """Bind direct or explicitly gapped native-table paths to the same assertion."""
     assertion = next((a for a in relations if a['id'] == path.get('source_assertion_id')), None)
-    if (path.get('connection') != 'father' or path.get('generation_distance') != 1
-            or not assertion or assertion.get('predicate') != 'father'
+    connection = path.get('connection')
+    distance = path.get('generation_distance')
+    ancestor = path.get('parent_person_id') if connection == 'father' else path.get('ancestor_person_id')
+    expected = {'father': 1, 'grandfather': 2, 'great_grandfather': 3}.get(connection)
+    if (connection not in ('father', 'grandfather', 'great_grandfather', 'ancestor')
+            or type(distance) is not int or distance < 1
+            or expected is not None and distance != expected
+            or not assertion or assertion.get('predicate') != connection
             or assertion.get('subject_person_id') != person_id
-            or assertion.get('object_person_id') != path.get('parent_person_id')):
-        return ['表格父系路徑未對應同一筆明示父子陳述']
+            or assertion.get('object_person_id') != ancestor):
+        return ['表格父系路徑未對應同一筆明示世代陳述']
+    if distance > 1 and (path.get('parent_person_id') is not None
+            or path.get('intermediate_person_ids') != [None] * (distance - 1)
+            or assertion.get('qualifiers', {}).get('generation_distance') != distance):
+        return ['表格闕代須與來源陳述同距離並保持中間世代空值']
     native = [e for e in path.get('evidence', []) if e.get('kind') == 'table_cell']
     if not native:
         return ['表格父系路徑缺原格證據']
@@ -505,5 +559,7 @@ def table_family_path_errors(person_id, path, tables, relations):
     for evidence in native:
         if evidence not in assertion.get('evidence', []):
             errors.append('家族路徑原格證據與來源陳述不符')
-        errors.extend(table_evidence_errors(evidence, tables, person_id, path['parent_person_id'], 'father'))
+        if evidence.get('relationship_layout') == 'founder_generation_column' and evidence.get('generation_distance') != distance:
+            errors.append('原欄世代距離與家族路徑不符')
+        errors.extend(table_evidence_errors(evidence, tables, person_id, ancestor, connection))
     return errors

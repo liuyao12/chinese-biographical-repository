@@ -12,8 +12,21 @@ class ReadingCatalogTests(unittest.TestCase):
         self.assertEqual(next(w for w in manifest['works'] if w['id']=='w-shiji')['reader_kind'],'shiji')
         catalog=json.loads(outputs[root/hanshu['catalog_path']])
         sources={json.loads(p.read_text())['id']:p for p in (root/'corpus/hanshu').glob('*.json') if json.loads(p.read_text()).get('record_type')=='marked_chapter'}
-        self.assertEqual({c['chapter_id'] for c in catalog['chapters']},set(sources))
+        from scripts.table_evidence import load_tables
+        native_tables={t['source']['chapter_id']:t for t in load_tables(root).values()
+                       if t['source']['work_id']=='w-hanshu'}
+        self.assertEqual({c['chapter_id'] for c in catalog['chapters']},set(sources)|set(native_tables))
         for chapter in catalog['chapters']:
+            if chapter['available']=='table':
+                table=native_tables[chapter['chapter_id']]
+                self.assertEqual(chapter['table_id'],table['id'])
+                self.assertEqual(chapter['work_id'],table['source']['work_id'])
+                self.assertEqual(chapter['book_id'],table['source']['book_id'])
+                self.assertEqual(chapter['text_scope'],table['source'].get('text_scope','table'))
+                self.assertEqual(chapter['scope_note'],table['source'].get('extent',table['source']['note']))
+                self.assertNotIn('path',chapter)
+                self.assertFalse((root/'corpus/hanshu'/f"{chapter['number']:03d}.json").exists())
+                continue
             source=sources[chapter['chapter_id']]
             native=json.loads(source.read_text())
             self.assertEqual(chapter['work_id'],native['work_id'])

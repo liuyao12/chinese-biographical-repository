@@ -952,6 +952,17 @@
 
 </details>
 
+<details><summary><code>d7u_bgr_wdi</code> 蟲達（史表作蠱逢）（4 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 蟲達（史表作蠱逢） | [《漢書・髙惠髙后文功臣表》曲成列][128] | [JSON](d7u_bgr_wdi.json) |
+| `***A` | 宣（蟲達玄孫） | [《漢書・髙惠髙后文功臣表》曲成列][128] | [JSON](d7u_bgr_wdi_%2A%2A%2AA.json) |
+| `*A` | 皇柔（史表作皋柔） | [《史記・高祖功臣侯者年表》][123] | [JSON](d7u_bgr_wdi_%2AA.json) |
+| `A` | 捷（曲城侯） | [《漢書・髙惠髙后文功臣表》曲成列][128]、[《史記・高祖功臣侯者年表》][123] | [JSON](d7u_bgr_wdi_A.json) |
+
+</details>
+
 <details><summary><code>dm0_58v_50i</code> 趙衰（5 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

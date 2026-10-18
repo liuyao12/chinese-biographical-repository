@@ -16,7 +16,7 @@ def outputs():
     progress = {b['book_id']: b for b in json.loads((ROOT / 'corpus/progress.json').read_text())['books']}
     chapters = {int(p.stem): (p, json.loads(p.read_text())) for p in (ROOT / 'corpus/shiji').glob('*.json') if p.stem.isdigit()}
     table_index = json.loads((ROOT / 'data/historical-tables/index.json').read_text())
-    table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables']}
+    table_numbers = {int(t['id'].split('-')[-1]) for t in table_index['tables'] if re.fullmatch(r'shiji-\d{3}', t['id'])}
     result, entries = {}, []
     for item in contents['chapters']:
         number = item['number']
@@ -53,6 +53,8 @@ def outputs():
         if work['id'] == 'w-shiji':
             continue
         selected = []
+        slug = work['id'].removeprefix('w-')
+        assert re.fullmatch('[a-z0-9-]+', slug)
         books = {book['id']:book for book in work['books']}
         for path,chapter in other_chapters:
             if chapter['work_id'] != work['id']:
@@ -68,6 +70,18 @@ def outputs():
                 'text_scope':chapter['source'].get('text_scope','chapter'),
                 'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']),
                 'annotation_status':progress[book['id']]['person_status']})
+        for item in table_index['tables']:
+            table = json.loads((ROOT / item['path']).read_text())
+            source = table['source']
+            if source['work_id'] != work['id']:
+                continue
+            book = books[source['book_id']]
+            selected.append({'number':book['number'], 'book_id':book['id'], 'book_title':book['title'],
+                'work_id':work['id'], 'work_title':work['title'], 'chapter_id':source['chapter_id'],
+                'title':table['title'], 'available':'table', 'table_id':table['id'],
+                'text_scope':source.get('text_scope','table'), 'scope_note':source.get('extent',source['note']),
+                'annotation_status':source['review_status']})
+        selected.sort(key=lambda c:(c['number'],c['chapter_id']))
         if not selected:
             continue
         path = f'data/corpus/{slug}/index.json'

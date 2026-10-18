@@ -1,3 +1,4 @@
+import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
 export function chapterURL(number, category = '', passage = '') {
   const p = new URLSearchParams({chapter: String(number)});
@@ -17,6 +18,8 @@ export function sourcePassageURL(source) {
   return number ? chapterURL(number,source.category || '',source.paragraph_id || '') : '';
 }
 export function profileSourceContext(person, params) {
+  const table=nativeProfileReturn(person,params);
+  if(table)return table;
   const work=params.get('work');
   if (!work || work==='w-shiji') return null;
   const occurrence=(person.occurrences || []).find(x=>x.work_id===work

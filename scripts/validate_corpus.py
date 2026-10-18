@@ -544,6 +544,12 @@ def validate(root=ROOT):
                         observed.add(hit[0])
                         check(any(m['person_id']==decision['person_id'] for m in hit[1]['mentions']),'身份判斷段落未提及該人物')
                 check(set(allowed).issubset(observed),'跨篇身份判斷未列各篇證據')
+                if 'chronology_caution' in decision:
+                    try:
+                        from scripts.title_chronology_cautions import chronology_caution_errors
+                    except ImportError:
+                        from title_chronology_cautions import chronology_caution_errors
+                    errors.extend(chronology_caution_errors(decision, tables, chapters, paragraphs))
                 reading = decision.get('preferred_reading')
                 if reading is not None:
                     anchor = mentions.get(reading.get('person_mention_id')) if isinstance(reading, dict) else None
@@ -1177,8 +1183,14 @@ def validate(root=ROOT):
                         check(e.get('chapter_id') == d['chapter_id'] and adjacent is None,
                               '親屬表格證據須屬同一表篇，不得冒作段落承接')
                         term = qualifiers.get('source_term')
-                        check(isinstance(term, str) and bool(term) and term in e.get('quote', ''),
-                              '親屬表格證據缺少相符關係原詞')
+                        if e.get('relationship_layout') == 'founder_generation_column':
+                            check(term == e.get('generation_source_term')
+                                  and type(qualifiers.get('generation_distance')) is int
+                                  and qualifiers['generation_distance'] == e.get('generation_distance'),
+                                  '原表世代欄題與親屬限定詞、距離不符')
+                        else:
+                            check(isinstance(term, str) and bool(term) and term in e.get('quote', ''),
+                                  '親屬表格證據缺少相符關係原詞')
                         continue
                     hit=paragraphs.get(e['paragraph_id'])
                     check(bool(hit) and hit[0]==d['chapter_id']==e['chapter_id'] and e['quote'] in hit[1]['text'],'人物陳述引句與所屬篇不符')
