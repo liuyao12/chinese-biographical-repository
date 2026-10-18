@@ -64,7 +64,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const titleReadings=new Map((p.preferred_title_readings || []).map(x=>[x.holding_id,x]));
   const titleLabel=x=>{
     const reading=titleReadings.get(x.id);
-    return reading?`<strong>${h(reading.preferred_title)}</strong><br><small>${ui('Provisional reading; source spelling: {text}',{text:reading.source_title})}</small>`:`<strong>${h(x.title)}</strong>`;
+    const label=reading?`<strong>${h(reading.preferred_title)}</strong><br><small>${ui('Provisional reading; source spelling: {text}',{text:reading.source_title})}</small>`:`<strong>${h(x.title)}</strong>`;
+    return label+(x.appointment_role==='acting'?` <small class="person-acting-office">${ui('Acting appointment')}</small>`:'');
   };
   const relativeList = entries => entries?.length ? entries.map(x => `<a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}${x.role === 'assembly_inferred' ? '（父系暫定）' : ''}<details><summary>親屬來源</summary>${x.inference_note ? `<p>${h(x.inference_note)}</p>` : ''}${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details>`).join('、') : '';
   const familyRows = family ? [
@@ -121,7 +122,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const grouped = new Map();
   for (const x of p.titles || []) {
     const duration=x.reported_duration?Object.fromEntries(Object.entries(x.reported_duration).filter(([key])=>key!=='evidence')):null;
-    const factsKey = x.title + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null]));
+    const factsKey = x.title + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null, x.appointment_role || null, x.punctuation_attribution || null]));
     const key = factsKey + '|' + x.period;
     if (!grouped.has(key)) grouped.set(key, {...x, factsKey, evidence: [], date_periods: [], source_usages: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
@@ -129,6 +130,24 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     if (x.mode === 'attestation') grouped.get(key).source_usages.push(...(x.attestations || []).map(a => ({attestation: a, evidence: x.evidence || []})));
   }
   const titleGroups = [...grouped.values()];
+  const titleChronology = x => {
+    const c=x.chronology_source_choice;
+    if (!full || !c) return '';
+    const refs=(c.references || []).map(r=>{
+      let url='';try{const u=new URL(r.url);if(['http:','https:'].includes(u.protocol))url=u.href;}catch{}
+      return `<blockquote>${h(r.display_quote || r.quote || '')}</blockquote>${url?`<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>`:''}`;
+    }).join('');
+    return `<details class="person-title-chronology-choice"><summary>${ui('Title chronology source choice')}</summary><p>${ui('Provisional preferred date')}：${h(c.preferred_source_expression)}</p><p>${ui('Other source wording')}：<q>${h(c.alternative_source_term)}</q></p><blockquote>${h(c.alternative_evidence?.quote || '')}</blockquote>${c.alternative_evidence?evidenceLinks([c.alternative_evidence]):''}<p>${h(c.rationale)}</p>${refs}</details>`;
+  };
+  const officeAttribution = x => {
+    const a=x.punctuation_attribution;
+    if (!full || !a) return '';
+    const refs=(a.references || []).map(r=>{
+      let url='';try{const u=new URL(r.url);if(['http:','https:'].includes(u.protocol))url=u.href;}catch{}
+      return `<blockquote>${h(r.display_quote || r.quote || '')}</blockquote>${url?`<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>`:''}`;
+    }).join('');
+    return `<div class="person-office-attribution"><h5>${ui('Office punctuation reading')}</h5><p>${ui('Received punctuation')}：<q>${h(a.received_segment)}</q></p><p>${ui('Preferred segmentation')}：<q>${h(a.preferred_segmentation)}</q></p><p>${h(a.rationale)}</p>${refs}</div>`;
+  };
   const hasPeriod = x => (x.period || '').split(' → ').some(v => !['', '未定', '起訖未定'].includes(v));
   const datedFacts = new Set(titleGroups.filter(hasPeriod).map(x => x.factsKey));
   const titles = full ? titleGroups : titleGroups.filter(x => hasPeriod(x) || !datedFacts.has(x.factsKey))
@@ -223,7 +242,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   ${full && dateDecisions.length ? `<section class="person-date-decisions"><h4>生卒紀年取捨 · 暫定</h4>${dateDecisions.map(d => `<p>${h(d.rationale)}</p>${evidenceLinks(d.evidence)}${dateReferences(d)}`).join('')}</section>` : ''}
   ${full && variants.length ? `<section class="person-textual-variants"><h4>校勘參考</h4><p>其他來源所載或注家所議，尚未核書影；未採改正文。</p><ul>${variants.map(v => `<li>正文「${h(v.received_reading)}」 · 所報或所議「${h(v.reported_reading)}」<details><summary>${h(v.commentator)}</summary><blockquote>${h(v.quote)}</blockquote><a href="${h(v.url)}" target="_blank" rel="noopener">異文來源</a>${v.interpretation_note ? `<p>${h(v.interpretation_note)}</p>` : ''}${studyReferencesHTML(v.study_references)}</details></li>`).join('')}</ul></section>` : ''}
   ${full && lifeEvents.length ? `<section class="person-life-events"><h4>來源所記生卒</h4>${lifeEvents.map(e => `<div><strong>${e.event_type === 'death' ? '死亡' : '出生'}</strong>${e.date_expression ? ' · ' + h(e.date_expression) : ''}<details><summary>${h(e.source_term || '查看原文')}</summary>${e.evidence.map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.interpretation_note ? `<p>${h(e.interpretation_note)}</p>` : ''}</details>${studyReferencesHTML(e.study_references)}</div>`).join('')}</section>` : ''}
-  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title">${titleLabel(x)}${titleKind(x)}${titleJurisdictions(x)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${titleUsageHTML(x.source_usages, full, p.sources || [])}${officeCounts(x)}${titleDuration(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}${dateReferences(x)}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
+  ${titles.length || addresses.length ? `<div class="person-facts">${titles.length ? `<section><h4>稱號與持職</h4>${titles.slice(0, full ? undefined : 2).map(x => `<div class="person-title">${titleLabel(x)}${titleKind(x)}${titleJurisdictions(x)}${titlePeriod(x) ? `<br><small>${h(titlePeriod(x))}</small>` : ''}${titleUsageHTML(x.source_usages, full, p.sources || [])}${officeCounts(x)}${titleDuration(x)}${full ? `<details><summary>${x.evidence.length} 筆來源證據</summary>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}${officeAttribution(x)}${titleChronology(x)}${dateReferences(x)}</details>` : ''}${titleDateSources(x)}</div>`).join('')}</section>` : ''}
   ${addresses.length ? `<section><h4>來源所記地望</h4>${addresses.slice(0, full ? undefined : 2).map(x => `<div class="person-address"><strong>${h(addressHeading(x))}</strong>${full ? `<details><summary>查看原文證據</summary><blockquote>${h(x.quote)}</blockquote>${evidenceLinks(x.evidence)}${x.interpretation_note ? `<p>${h(x.interpretation_note)}</p>` : ''}</details>` : ''}</div>`).join('')}</section>` : ''}</div>` : ''}
   ${full && teaching.length ? `<section class="person-teaching"><h4>${ui('Teaching and learning')}</h4><ul>${teaching.map(x => `<li><a href="${h(profileURL(x.subject_person_id))}">${h(p.related_people?.[x.subject_person_id] || x.subject_person_id)}</a> · ${ui('Studied with')} <a href="${h(profileURL(x.object_person_id))}">${h(p.related_people?.[x.object_person_id] || x.object_person_id)}</a><details><summary>${ui('Source evidence')}</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${relationPersonLink(x.subject_person_id)} · ${h(labels[x.predicate] || x.qualifiers?.source_term || x.predicate)}：${relationPersonLink(x.object_person_id)}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}

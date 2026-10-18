@@ -2656,7 +2656,7 @@
 | `ABD` | 辟光（濟南王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABD.json) |
 | `ABE` | 雄渠（膠東王） | [《史記・齊悼惠王世家》][38]、[《史記・吳王濞列傳》][92] | [JSON](yqp_nlb_p1p_ABE.json) |
 | `ABF` | 章（城陽景王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABF.json) |
-| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFA.json) |
+| `ABFA` | 喜（城陽共王） | [《史記・齊悼惠王世家》][38]、[《史記・漢興以來諸侯王年表》][122] | [JSON](yqp_nlb_p1p_ABFA.json) |
 | `ABFAA` | 延校勘建未定 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAA.json) |
 | `ABFAAA` | 義 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAA.json) |
 | `ABFAAAA` | 武城陽惠王 | [《史記・齊悼惠王世家》][38] | [JSON](yqp_nlb_p1p_ABFAAAA.json) |
