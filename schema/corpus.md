@@ -530,3 +530,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 來源 `text_scope: partial_chapter` 及 `extent` 明示只錄古注片段，不冒作全年、整卷或全書正文；此型目前未核影像，人工審閱為false。原年次題頭用於定位，不自動轉作人物出生年或父子關係始年。署名、數位轉錄與是否親見影像分開記錄。
 
 來源父系與編輯首選仍各存一層。例如《史記》成公少子說保留為原陳述，杜注子國說有獨立來源陳述；`family_tree_decision_set` 選擇預設父邊，不改寫受傳字句，也不把被排除來源的「少子」套到首選父親家中的排行。
+
+### 人物公開 JSON 的逐項來源範圍
+
+`data/corpus/profiles/` 的正文 `occurrences` 一律保存實際來源段落的 `work_id`、`book_id`、`chapter_id`、`source_id`，包括《史記》。另列全部 `paragraph_ids`、`mention_ids`，`count` 等於該篇提及錨點數。既有 `number`、`category`、首段 `paragraph_id` 及短引 `quote` 仍供閱讀器呈現；它們不能代替完整引用範圍，也不能用卷號推算著作或篇 ID。
+
+`table_occurrences` 一律附原表的作品、卷篇、見證 ID 及 `source_revision`，包含《史記》原表；`table_id`、`cell_id`、原格 `quote` 與逐人 `mention` 保持可回查。人物資料匯出遇未登記於閱讀目錄的提及篇須失敗，不默默略去該來源。
