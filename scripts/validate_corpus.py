@@ -1176,12 +1176,28 @@ def validate(root=ROOT):
                     if isinstance(context,dict):
                         ids=context.get('paragraph_ids')
                         order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
-                        valid=(context.get('kind')=='adjacent_paragraphs' and isinstance(ids,list)
-                               and len(ids)==2 and all(isinstance(i,str) and i in order for i in ids)
-                               and ids==[e['paragraph_id'] for e in a['evidence']]
-                               and order.index(ids[1])==order.index(ids[0])+1)
-                        check(valid,'人物陳述承接須為同篇依原序相鄰兩段證據')
-                        if valid:adjacent=ids
+                        if context.get('kind') == 'regnal_empress_context':
+                            try:
+                                from scripts.regnal_relationships import regnal_spouse_errors
+                            except ImportError:
+                                from regnal_relationships import regnal_spouse_errors
+                            context_errors = regnal_spouse_errors(a, chapters.get(d['chapter_id'], {}))
+                            errors.extend(context_errors)
+                            if not context_errors: adjacent=ids
+                        else:
+                            valid=(context.get('kind')=='adjacent_paragraphs' and isinstance(ids,list)
+                                   and len(ids)==2 and all(isinstance(i,str) and i in order for i in ids)
+                                   and ids==[e['paragraph_id'] for e in a['evidence']]
+                                   and order.index(ids[1])==order.index(ids[0])+1)
+                            if valid:
+                                selected = {p['id']: p for p in chapters[d['chapter_id']]['paragraphs']}
+                                positions = [selected[i].get('source_position', {}) for i in ids]
+                                if all(p.get('editorial_excerpt_boundary') is True
+                                       and type(p.get('first_line')) is int and type(p.get('last_line')) is int
+                                       for p in positions):
+                                    valid = positions[1]['first_line'] <= positions[0]['last_line'] + 1
+                            check(valid,'人物陳述承接須為同篇依原序相鄰兩段證據；不可把省略原行的選錄冒作原文相鄰')
+                            if valid:adjacent=ids
                 for e in a['evidence']:
                     if e.get('kind') == 'table_cell':
                         errors.extend(table_evidence_errors(e, tables, a['subject_person_id'], a['object_person_id'], a['predicate']))

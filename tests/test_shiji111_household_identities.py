@@ -13,7 +13,7 @@ class WeiHouseholdIdentities(unittest.TestCase):
   for n,k in [('111',9),('049',30),('060',20),('126',20)]:self.assertEqual(person(n,k,'王夫人'),'3eo_u7e_pxx')
   self.assertNotEqual(person('049',18,'王夫人'),'3eo_u7e_pxx');self.assertIn('趙人也',para('060',20)['text']);self.assertIn('生子閎',para('060',20)['text'])
  def test_hong_and_changyi_children_use_exact_anaphor_anchors(self):
-  self.assertEqual(person('126',20,'子'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',30,'子'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',30,'齊王'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',31,'男一人'),'645_hym_djj');self.assertEqual(person('049',31,'昌邑王'),'645_hym_djj');self.assertNotEqual(person('049',30,'子'),person('049',31,'男一人'))
+  self.assertEqual(person('126',20,'子'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',30,'子'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',30,'齊王'),'yqp_nlb_p1p_ACAAA');self.assertEqual(person('049',31,'男一人'),'yqp_nlb_p1p_ACAAF');self.assertEqual(person('049',31,'昌邑王'),'yqp_nlb_p1p_ACAAF');self.assertNotEqual(person('049',30,'子'),person('049',31,'男一人'))
  def test_advisors_stay_separate_and_layers_and_money_stay_literal(self):
   self.assertNotEqual(person('111',9,'甯乘'),person('126',19,'東郭先生'));self.assertIn('五百金',para('111',9)['text']);self.assertIn('五百金',para('126',19)['text']);self.assertEqual(para('111',9)['text_layer'],'received_chapter');self.assertEqual(para('126',19)['text_layer'],'witness_appended_chu_note');self.assertEqual(para('060',20)['text_layer'],'witness_appended_chu_note')
  def test_weihou_same_person_but_conflicting_sibling_order_preserved(self):

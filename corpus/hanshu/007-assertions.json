@@ -1,0 +1,127 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-hanshu-007-zhaodi",
+  "assertions": [
+    {
+      "id": "a-hanshu007-001",
+      "subject_person_id": "1kj_vhc_cx9_A",
+      "predicate": "father",
+      "object_person_id": "1kj_vhc_cx9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-007",
+          "chapter_id": "c-hanshu-007-zhaodi",
+          "source_id": "s-hanshu-007-zhaodi",
+          "paragraph_id": "c-hanshu-007-zhaodi:conspiracy:p001",
+          "quote": "九月鄂邑長公主燕王旦與左將軍上官桀桀子票騎將軍安御史大夫桑𢎞羊皆謀反伏誅"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "桀子票騎將軍安"
+      },
+      "interpretation_note": "正文明書桀子安，不單憑古注；不補生母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-hanshu007-002",
+      "subject_person_id": "1kj_vhc_cx9_AA",
+      "predicate": "father",
+      "object_person_id": "1kj_vhc_cx9_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-007",
+          "chapter_id": "c-hanshu-007-zhaodi",
+          "source_id": "s-hanshu-007-zhaodi",
+          "paragraph_id": "c-hanshu-007-zhaodi:empress-father:p001",
+          "quote": "六月封皇后父驃騎將軍上官安為桑樂侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "皇后父驃騎將軍上官安"
+      },
+      "interpretation_note": "明書皇后父上官安，不補其母或祖母。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-hanshu007-003",
+      "subject_person_id": "6it_qfa_gdg",
+      "predicate": "sister",
+      "object_person_id": "yqp_nlb_p1p_ACAAE",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-007",
+          "chapter_id": "c-hanshu-007-zhaodi",
+          "source_id": "s-hanshu-007-zhaodi",
+          "paragraph_id": "c-hanshu-007-zhaodi:accession:p001",
+          "quote": "明日武帝崩戊辰太子即皇帝位謁高廟帝姊鄂邑公主益湯沐邑為長公主共養省中"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "帝姊鄂邑公主"
+      },
+      "interpretation_note": "只記昭帝姊，父母及絕對排行不由姊字補造。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-hanshu007-004",
+      "subject_person_id": "1kj_vhc_cx9_AA",
+      "predicate": "spouse",
+      "object_person_id": "yqp_nlb_p1p_ACAAE",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-007",
+          "chapter_id": "c-hanshu-007-zhaodi",
+          "source_id": "s-hanshu-007-zhaodi",
+          "paragraph_id": "c-hanshu-007-zhaodi:accession:p001",
+          "quote": "明日武帝崩戊辰太子即皇帝位謁高廟帝姊鄂邑公主益湯沐邑為長公主共養省中"
+        },
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-007",
+          "chapter_id": "c-hanshu-007-zhaodi",
+          "source_id": "s-hanshu-007-zhaodi",
+          "paragraph_id": "c-hanshu-007-zhaodi:empress:p001",
+          "quote": "四年春三月甲寅立皇后上官氏赦天下"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "立皇后上官氏"
+      },
+      "interpretation_note": "依昭帝紀在位期間冊立皇后所示帝后配偶關係，不補婚日或生子。 在位者由明示即位段及保存原行的語境承接，屬附證AI判讀。",
+      "reviewer": "Codex（AI 代理）",
+      "context": {
+        "kind": "regnal_empress_context",
+        "paragraph_ids": [
+          "c-hanshu-007-zhaodi:accession:p001",
+          "c-hanshu-007-zhaodi:empress:p001"
+        ],
+        "monarch_mention_id": "c-hanshu-007-zhaodi:accession:p001:m0007",
+        "empress_mention_id": "c-hanshu-007-zhaodi:empress:p001:m0008",
+        "accession_term": "太子即皇帝位",
+        "witness_interval": {
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "01c5ad835eecb21f14b8cd9693df6734ba2e97f1",
+          "first_line": 21,
+          "last_line": 69,
+          "raw_quote": "明日武帝崩戊辰太子即皇帝位謁高廟帝姊鄂邑公¶\n主益湯沐邑為長公主(應劭曰鄂縣名屬江夏公主所/食曰邑師古曰鄂音五各反帝)¶\n(之姊妹則稱長公主儀比諸/王又以供養天子故益邑也)共養省中(伏儼曰蔡邕云/本為禁中門閤)¶\n(有禁非侍御之臣不得妄入行道豹尾中亦為禁中孝/元皇后父名禁避之故曰省中師古曰省察也言入此)¶\n<pb:KR2a0007_WYG_007-2a>¶\n(中皆當察視不可妄也共讀曰供/音居用反餋音弋亮反他皆類此)大將軍光秉政領尚¶\n書事車騎將軍金日磾左將軍上官桀副焉夏六月赦¶\n天下(○劉攽曰是年二月有赦紀/失載宣紀及丙吉傳可考)秋七月有星孛于東¶\n方濟北王寛有罪自殺賜長公主及宗室昆弟各有差¶\n追尊趙倢伃為皇太后起雲陵(文頴曰倢伃先葬於雲/陽是以就雲陽為起雲)¶\n(陵/)冬匈奴入朔方殺畧吏民發軍屯西河左將軍桀行¶\n北邊(師古曰行/音下更反)¶\n始元元年春二月黃鵠下建章宫太液池中(如淳曰謂/之液者言)¶\n<pb:KR2a0007_WYG_007-2b>¶\n(天地和液之氣所為也臣瓉曰時漢用土德服色尚黄/鵠色皆白而今更黄以為土德之瑞故紀之也太液池)¶\n(言承隂陽津液以作池也師古曰如瓉之說皆非也黄/鵠大鳥也一舉千里者非白鵠也太液池者言其津潤)¶\n(所及廣也鵠/音胡篤反)公卿上壽賜諸侯王列侯宗室金錢各有¶\n差己亥上耕于鉤盾弄田(應劭曰時帝年九嵗未能親/耕帝籍鉤盾宦者近署故往)¶\n(試耕為戲弄也臣瓉曰西京故事弄田在未央宫中師/古曰弄田為宴游之田天子所戲弄耳非為昭帝年幼)¶\n(創有/此名)益封燕王廣陵王及鄂邑長公主各萬三千户夏¶\n為太后起園廟雲陵益州廉頭姑繒牂柯談指同並二¶\n十四邑皆反(蘇林曰皆西南夷别種名也師古曰/並音伴○宋祁曰景德本柯作牁)遣水¶\n<pb:KR2a0007_WYG_007-3a>¶\n衡都尉呂破胡募吏民及發犍為蜀郡犇命擊益州大¶\n破之(應劭曰舊時郡國皆有材官騎士以赴急難今夷/反常兵不足以討之故權選取精勇聞命奔走故)¶\n(謂之奔命李斐曰平居發者二十以上至五十為甲卒/今者五十以上六十以下為奔命奔命言急也師古曰)¶\n(應說是也犇古奔字耳/犍音䖍又音鉅言反)有司請河内屬冀州河東屬并¶\n州(文頴曰本屬司州師古/曰蓋屬京師司隸所部)秋七月赦天下賜民百户牛¶\n酒大雨渭橋絶八月齊孝王孫劉澤謀反欲殺青州刺¶\n史雋不疑(師古曰雋音材兗/反又音辭兗反)發覺皆伏誅遷不疑為京¶\n兆尹賜錢百萬九月丙子車騎將軍日磾薨閏月遣故¶\n<pb:KR2a0007_WYG_007-3b>¶\n廷尉王平等五人(師古曰前為此官今/不居者皆謂之故也)持節行郡國(師/古)¶\n(曰行音/下更反)舉賢良問民所疾苦冤失職者冬無氷¶\n二年春正月大將軍光左將軍桀皆以前捕斬反虜重¶\n合侯馬通功封光為博陸侯桀為安陽侯以宗室毋在¶\n位者舉茂材劉辟彊劉長樂皆為光祿大夫辟彊守長¶\n樂衞尉(師古曰長樂/宫之衞尉也)三月遣使者賑貸貧民毋種食者¶\n(師古曰貸音吐/戴反其下並同)秋八月詔曰往年災害多今年𧖟麥傷¶\n所振貸種食勿收責毋令民出今年田租冬發習戰射¶\n<pb:KR2a0007_WYG_007-4a>¶\n士詣朔方調故吏將屯田張掖郡(師古曰調謂發選也/故吏前為官職者令)¶\n(其部率習戰射士於張掖為屯/田也調音徒釣反將音子亮反)¶\n三年春二月有星孛于西北秋募民徙雲陵賜錢田宅¶\n冬十月鳳皇集東海遣使者祠其處十一月壬辰朔日¶\n有蝕之¶\n四年春三月甲寅立皇后上官氏(文頴曰上官/桀孫安之女)赦天下¶\n辭訟在後二年前皆勿聽治(孟康曰武/帝後二年)夏六月皇后見¶\n高廟賜長公主丞相將軍列侯中二千石以下及郎吏¶",
+          "raw_quote_sha256": "c4d730140276cdc1eb6a178acd967cc634c1454510ad62eda779b1da1de14af9",
+          "body": "明日武帝崩戊辰太子即皇帝位謁高廟帝姊鄂邑公主益湯沐邑為長公主共養省中大將軍光秉政領尚書事車騎將軍金日磾左將軍上官桀副焉夏六月赦天下秋七月有星孛于東方濟北王寛有罪自殺賜長公主及宗室昆弟各有差追尊趙倢伃為皇太后起雲陵冬匈奴入朔方殺畧吏民發軍屯西河左將軍桀行北邊始元元年春二月黃鵠下建章宫太液池中公卿上壽賜諸侯王列侯宗室金錢各有差己亥上耕于鉤盾弄田益封燕王廣陵王及鄂邑長公主各萬三千户夏為太后起園廟雲陵益州廉頭姑繒牂柯談指同並二十四邑皆反遣水衡都尉呂破胡募吏民及發犍為蜀郡犇命擊益州大破之有司請河内屬冀州河東屬并州秋七月赦天下賜民百户牛酒大雨渭橋絶八月齊孝王孫劉澤謀反欲殺青州刺史雋不疑發覺皆伏誅遷不疑為京兆尹賜錢百萬九月丙子車騎將軍日磾薨閏月遣故廷尉王平等五人持節行郡國舉賢良問民所疾苦冤失職者冬無氷二年春正月大將軍光左將軍桀皆以前捕斬反虜重合侯馬通功封光為博陸侯桀為安陽侯以宗室毋在位者舉茂材劉辟彊劉長樂皆為光祿大夫辟彊守長樂衞尉三月遣使者賑貸貧民毋種食者秋八月詔曰往年災害多今年𧖟麥傷所振貸種食勿收責毋令民出今年田租冬發習戰射士詣朔方調故吏將屯田張掖郡三年春二月有星孛于西北秋募民徙雲陵賜錢田宅冬十月鳳皇集東海遣使者祠其處十一月壬辰朔日有蝕之四年春三月甲寅立皇后上官氏赦天下辭訟在後二年前皆勿聽治夏六月皇后見高廟賜長公主丞相將軍列侯中二千石以下及郎吏"
+        },
+        "status": "contextual_provisional",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "rationale": "依本紀明書武帝崩後太子即皇帝位，至四年冊立皇后上官氏，兩段之間的數位見證原行完整保留。這是在位語境的編者判讀，不冒稱兩段原文相鄰，不補婚日或生子。"
+      }
+    }
+  ]
+}
