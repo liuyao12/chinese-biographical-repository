@@ -243,12 +243,28 @@
       "quote": "二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。"
     },
     {
+      "number": 52,
+      "category": "shijia",
+      "title": "齊悼惠王世家第二十二",
+      "paragraph_id": "c-shiji-052-qidaohui:p030",
+      "count": 1,
+      "quote": "是時趙王懼主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。"
+    },
+    {
       "number": 59,
       "category": "shijia",
       "title": "五宗世家第二十九",
       "paragraph_id": "c-shiji-059-wuzong:p001",
       "count": 16,
       "quote": "人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p026",
+      "count": 1,
+      "quote": "主父始為布衣時，嘗游燕、趙，及其貴，發燕事。趙王恐其為國患，欲上書言其陰事，為偃居中，不敢發。及為齊相，出關，即使人上書，告言主父偃受諸侯金，以故諸侯子弟多以得封者。及齊王自殺，上聞大怒，以為主父劫其王令自殺，乃徵下吏治。主父服受諸侯金，實不劫王令"
     }
   ],
   "table_occurrences": [
@@ -387,6 +403,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-052-qidaohui",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "source_id": "s-shiji-052-qidaohui",
+      "source": {
+        "title": "史記／卷052",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷052",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷052&oldid=5977113",
+        "revision_id": 5977113,
+        "accessed_on": "2026-10-09",
+        "extent": "44段篇文及1段索隱述贊，數位分節欄題不作古文段落。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留衛衛王、高后立諸呂諸呂、（西）［迺］、［建］延、硃虛等原字與校勘字樣，不擅刪重字或選讀法。",
+          "note": "全45段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-059-wuzong",
       "work_id": "w-shiji",
       "book_id": "b-shiji-059",
@@ -407,6 +447,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留河閒、閼于／閼於、取笔、皁、上（問）［聞］、棁、王後／王后、壖、卑溼、禔與浡等見證原字及符號。取笔中的笔為數位見證所見，不默改為其他版本。",
           "note": "全39段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
         }
       }
     },
@@ -538,6 +602,151 @@
       "person_id": "yqp_nlb_p1p_ACAF",
       "endpoint": "start",
       "title": "廣川王"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji112-royals-zhao",
+      "person_ids": [
+        "yqp_nlb_p1p_ACAF"
+      ],
+      "canonical_person_id": "yqp_nlb_p1p_ACAF",
+      "status": "contextual_provisional",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-112-pingjin",
+        "c-shiji-052-qidaohui",
+        "c-shiji-059-wuzong"
+      ],
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p026",
+          "quote": "主父始為布衣時，嘗游燕、趙，及其貴，發燕事。趙王恐其為國患，欲上書言其陰事，為偃居中，不敢發。及為齊相，出關，即使人上書，告言主父偃受諸侯金，以故諸侯子弟多以得封者。及齊王自殺，上聞大怒，以為主父劫其王令自殺，乃徵下吏治。主父服受諸侯金，實不劫王令自殺。上欲勿誅，是時公孫弘為御史大夫，乃言曰：「齊王自殺無後，國除為郡，入漢，主父偃本首惡，陛下不誅主父偃，無以謝天下。」乃遂族主父偃。",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0022"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui",
+          "paragraph_id": "c-shiji-052-qidaohui:p030",
+          "quote": "是時趙王懼主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0002"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p017",
+          "quote": "趙王彭祖，以孝景前二年用皇子為廣川王。趙王遂反破後，彭祖王廣川。四年，徙為趙王。十五年，孝景帝崩。彭祖為人巧佞卑諂，足恭而心刻深。好法律，持詭辯以中人。彭祖多內寵姬及子孫。相、二千石欲奉漢法以治，則害於王家。是以每相、二千石至，彭祖衣皁布衣，自行迎，除二千石舍，多設疑事以作動之，得二千石失言，中忌諱，輒書之。二千石欲治者，則以此迫劫；不聽，乃上書告，及汙以姦利事。彭祖立五十餘年，相、二千石無能滿二歲，輒以罪去，大者死，小者刑，以故二千石莫敢治。而趙王擅權，使使即縣為賈人榷會，入多於國經租稅。以是趙王家多金錢，然所賜姬諸子，亦盡之矣。彭祖取笔江都易王寵姬王建所盜與姦淖姬者為姬，甚愛之。",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0000",
+            "c-shiji-059-wuzong:m017-0015",
+            "c-shiji-059-wuzong:m017-0026",
+            "c-shiji-059-wuzong:m017-0037",
+            "c-shiji-059-wuzong:m017-0049",
+            "c-shiji-059-wuzong:m017-0076",
+            "c-shiji-059-wuzong:m017-0114",
+            "c-shiji-059-wuzong:m017-0183",
+            "c-shiji-059-wuzong:m017-0225",
+            "c-shiji-059-wuzong:m017-0250",
+            "c-shiji-059-wuzong:m017-0269"
+          ]
+        }
+      ],
+      "rationale": "本篇前段元朔二年齊王案後趙王告偃受諸侯金，與齊世家同案告發者為同一人。五宗世家彭祖為景帝子徙趙且長期在位；年表原趙欄明彭祖徙趙，之後連續王年接元朔二年，補強暫指彭祖。不以趙王一號跨代合併，不精定五十餘年或原四年指涉起訖，不借數位西元欄作原文。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "title": "《史記·漢興以來諸侯王年表》原欄・shiji-017-t1-r055-c15",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "廣川王彭祖徙趙四年。是為敬肅王。",
+          "scope": "royal_table_original_regnal_context",
+          "image_verified": false,
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r055-c15",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-017",
+          "chapter_id": "table-chapter-shiji-017",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "note": "原漢紀年與趙欄，西元數位對照不作原文；彭祖徙趙後至元朔二年已逐格讀本欄連續王年。"
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》原欄・shiji-017-t1-r079-c01",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "元朔元年",
+          "scope": "royal_table_original_regnal_context",
+          "image_verified": false,
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r079-c01",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-017",
+          "chapter_id": "table-chapter-shiji-017",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "note": "原漢紀年與趙欄，西元數位對照不作原文；彭祖徙趙後至元朔二年已逐格讀本欄連續王年。"
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》原欄・shiji-017-t1-r079-c15",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "二十八",
+          "scope": "royal_table_original_regnal_context",
+          "image_verified": false,
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r079-c15",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-017",
+          "chapter_id": "table-chapter-shiji-017",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "note": "原漢紀年與趙欄，西元數位對照不作原文；彭祖徙趙後至元朔二年已逐格讀本欄連續王年。"
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》原欄・shiji-017-t1-r080-c01",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "二",
+          "scope": "royal_table_original_regnal_context",
+          "image_verified": false,
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r080-c01",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-017",
+          "chapter_id": "table-chapter-shiji-017",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "note": "原漢紀年與趙欄，西元數位對照不作原文；彭祖徙趙後至元朔二年已逐格讀本欄連續王年。"
+        },
+        {
+          "title": "《史記·漢興以來諸侯王年表》原欄・shiji-017-t1-r080-c15",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "二十九",
+          "scope": "royal_table_original_regnal_context",
+          "image_verified": false,
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r080-c15",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-017",
+          "chapter_id": "table-chapter-shiji-017",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "note": "原漢紀年與趙欄，西元數位對照不作原文；彭祖徙趙後至元朔二年已逐格讀本欄連續王年。"
+        },
+        {
+          "title": "《史記》卷112前段紀年語境",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
+          "scope": "preceding_source_chronological_context_only",
+          "image_verified": false,
+          "note": "本段未提趙王，僅供下一段事件紀年承接，不造人物提及或當趙王原段。"
+        }
+      ],
+      "identity_materialized": true
     }
   ],
   "name_components": [],

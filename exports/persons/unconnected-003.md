@@ -6,12 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xlp_ihc_qm9` | 辛廖 | [《史記・魏世家》][29] | [JSON](xlp_ihc_qm9.json) |
-| `xlz_fdt_se1` | 竇嬰夫人未名 | [《史記・魏其武安侯列傳》][92] | [JSON](xlz_fdt_se1.json) |
-| `xma_4rf_v7v` | 中行文子 | [《史記・趙世家》][28] | [JSON](xma_4rf_v7v.json) |
-| `xmb_506_d88` | 胡傷（本文讀法） | [《史記・秦本紀》][8] | [JSON](xmb_506_d88.json) |
-| `xmm_nkr_qbg` | 奉陽君 | [《史記・張儀列傳》][55] | [JSON](xmm_nkr_qbg.json) |
-| `xn7_c7s_lzh` | 子產 | [《史記・太史公自序》][115] | [JSON](xn7_c7s_lzh.json) |
 | `xna_g4h_5iz` | 樂毅 | [《史記・趙世家》][28] | [JSON](xna_g4h_5iz.json) |
 | `xnc_psn_713` | 膠西王端愛幸而殺的郎 | [《史記・五宗世家》][44] | [JSON](xnc_psn_713.json) |
 | `xne_qdl_46g` | 賁 | [《史記・司馬相如列傳》][102] | [JSON](xne_qdl_46g.json) |
