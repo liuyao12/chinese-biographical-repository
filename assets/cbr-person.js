@@ -264,16 +264,49 @@ export function markCell(cell, context = null) {
   }
   out.push(h(chars.slice(end).join(''))); return out.join('');
 }
+export function personCardPosition(anchor, viewport, width, height) {
+  const margin = 16, gap = 12;
+  const cardWidth = Math.max(1, Math.min(width, viewport.width - 2 * margin));
+  const cardHeight = Math.max(1, Math.min(height, viewport.height - 2 * margin));
+  const clamp = (value, low, high) => Math.max(low, Math.min(value, Math.max(low, high)));
+  const left = clamp(anchor.left, margin, viewport.width - margin - cardWidth);
+  const maxHeight = Math.max(1, viewport.height - 2 * margin);
+  if (viewport.width - margin - anchor.right - gap >= cardWidth) {
+    return {left: anchor.right + gap, top: clamp(anchor.top, margin, viewport.height - margin - cardHeight), width: cardWidth, maxHeight};
+  }
+  if (anchor.left - gap - margin >= cardWidth) {
+    return {left: anchor.left - gap - cardWidth, top: clamp(anchor.top, margin, viewport.height - margin - cardHeight), width: cardWidth, maxHeight};
+  }
+  const below = viewport.height - margin - anchor.bottom - gap;
+  if (below >= Math.min(240, maxHeight / 2) || below >= anchor.top - gap - margin) {
+    const top = clamp(anchor.bottom + gap, margin, viewport.height - margin - 1);
+    return {left, top, width: cardWidth, maxHeight: Math.max(1, viewport.height - margin - top)};
+  }
+  const available = Math.max(1, Math.min(maxHeight, anchor.top - gap - margin));
+  return {left, top: clamp(anchor.top - gap - Math.min(cardHeight, available), margin,
+    viewport.height - margin - Math.min(cardHeight, available)), width: cardWidth, maxHeight: available};
+}
+
 export function bindPersonCards(root) {
   const card = document.createElement('aside'); card.className = 'table-person-card'; card.hidden = true; card.setAttribute('aria-label', '人物資料'); root.append(card);
-  let ticket = 0, timer, pinned = false, hoverArmed = true;
-  async function show(node, focus = false) {
-    clearTimeout(timer); const current = ++ticket; card.hidden = false;
-    card.innerHTML = '<p role="status">載入人物資料…</p>';
-    try {const p = await loadPerson(node.dataset.personId); const family = await loadFamily(p); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p, false, 'main', family); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
-    catch {if (current === ticket) card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`;}
+  let ticket = 0, timer, pinned = false, hoverArmed = true, activeAnchor = null;
+  const view = root.ownerDocument?.defaultView || (typeof window === 'undefined' ? null : window);
+  function place() {
+    if (card.hidden || !activeAnchor?.getBoundingClientRect || !card.getBoundingClientRect || !card.style || !view) return;
+    card.style.width = '';
+    card.style.maxHeight = `${Math.max(1, view.innerHeight - 32)}px`;
+    const size = card.getBoundingClientRect();
+    const p = personCardPosition(activeAnchor.getBoundingClientRect(), {width: view.innerWidth, height: view.innerHeight}, size.width, size.height);
+    Object.assign(card.style, {left: `${p.left}px`, right: 'auto', top: `${p.top}px`, width: `${p.width}px`, maxHeight: `${p.maxHeight}px`});
   }
-  function hide() {clearTimeout(timer); ticket++; pinned = false; hoverArmed = false; card.hidden = true;}
+  async function show(node, focus = false) {
+    clearTimeout(timer); const current = ++ticket; activeAnchor = node; card.hidden = false;
+    card.innerHTML = '<p role="status">載入人物資料…</p>';
+    place();
+    try {const p = await loadPerson(node.dataset.personId); const family = await loadFamily(p); if (current !== ticket) return; card.innerHTML = `<button type="button" class="close-person-card" aria-label="關閉人物資料">關閉</button>` + personCard(p, false, 'main', family); card.querySelector('button').onclick = hide; card.querySelector('.person-profile-button').href = node.href; card.scrollTop = 0; place(); if (focus) card.querySelector('.close-person-card').focus({preventScroll:true});}
+    catch {if (current === ticket) {card.innerHTML = `<p>人物資料尚未載入。</p><a href="${h(profileURL(node.dataset.personId))}">開啟人物頁</a>`; place();}}
+  }
+  function hide() {clearTimeout(timer); ticket++; pinned = false; hoverArmed = false; activeAnchor = null; card.hidden = true;}
   const over = e => {if (e.type !== 'focusin' && (!hoverArmed || pinned || e.pointerType === 'touch')) return; const n = e.target.closest('.table-person-link, .cbr-person-link'); if (n && (e.type !== 'focusin' || n.matches(':focus-visible'))) {if (e.type === 'focusin') {pinned = false; hoverArmed = true;} show(n);}};
   const move = e => {if (!hoverArmed && e.pointerType !== 'touch') {hoverArmed = true; over(e);}};
   const out = e => {if (pinned || e.pointerType === 'touch') return; if (!e.target?.closest?.('.table-person-link, .cbr-person-link') && !card.contains(e.target)) return; if (e.relatedTarget && (card.contains(e.relatedTarget) || e.relatedTarget.closest?.('.table-person-link, .cbr-person-link'))) return; clearTimeout(timer); timer = setTimeout(hide, 250);};
@@ -282,5 +315,7 @@ export function bindPersonCards(root) {
   card.onpointerenter = () => clearTimeout(timer); card.onpointerleave = out;
   const keyTarget = root.ownerDocument || root;
   const key = e => {if (e.key === 'Escape' && !card.hidden) hide();}; keyTarget.addEventListener('keydown', key);
-  return () => {hide(); clearTimeout(timer); root.removeEventListener('pointerover', over); root.removeEventListener('pointermove', move); root.removeEventListener('focusin', over); root.removeEventListener('pointerout', out); root.removeEventListener('click', click, true); keyTarget.removeEventListener('keydown', key); card.remove();};
+  view?.addEventListener?.('resize', place);
+  view?.addEventListener?.('scroll', place, {passive:true});
+  return () => {hide(); clearTimeout(timer); root.removeEventListener('pointerover', over); root.removeEventListener('pointermove', move); root.removeEventListener('focusin', over); root.removeEventListener('pointerout', out); root.removeEventListener('click', click, true); keyTarget.removeEventListener('keydown', key); view?.removeEventListener?.('resize', place); view?.removeEventListener?.('scroll', place); card.remove();};
 }
