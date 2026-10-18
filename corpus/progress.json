@@ -2,7 +2,7 @@
   "format_version": "0.2",
   "objective": "逐書收錄歷代正史與《資治通鑑》中全部人物及可追溯的提及。",
   "active_work_id": "w-shiji",
-  "policy": "以《史記》為主逐卷標註與身份複核；核心身份穩定後展開《漢書》交叉核讀，兩書原文、來源與異說分存，不等同全部複核完成。",
+  "policy": "2026-10-18依使用者優先次序，完成在手張湯家族批次後，主要轉入三國、兩晉、南北朝士族跨史接合，先以潁川荀氏試點，再及琅邪王氏、陳郡謝氏；逐篇保存各史原文與異說。史記、漢書既有進度保留，未宣稱完成。詳見 docs/early-medieval-family-priorities.md。",
   "books": [
     {
       "book_id": "b-shiji-001",
@@ -1509,6 +1509,40 @@
         "本文十世、十歳、姊子、大司農、大吏原字分存；不改史記七世、七歲、姑姊子、大農令、太史。",
         "本次未核書影，卷末考證與夾注未冒作班固正文。",
         "已存汲黯濮陽、鄭當時陳兩項傳首籍貫；其他地望、死亡與官爵時段續核，不推現代地點。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-059",
+      "chapter_id": "c-hanshu-059-zhangtang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四段66處人物與9處未定錨點，非全卷首輪完成。",
+        "續登昭帝紀及武五子傳平行證據、賀與上官氏等身份、張氏父系ID與安世跨篇同人；不合劉氏同名安世。",
+        "補其餘傳文、來源關係、官爵時段及紀年，未核書影。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-007",
+      "chapter_id": "c-hanshu-007-zhaodi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四處平行身份附證，非全卷首輪完成。",
+        "續錄全文、未名者、官爵時段與紀年；未核書影。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-063",
+      "chapter_id": "c-hanshu-063-wuwuzi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四處平行身份附證，非全卷首輪完成。",
+        "續錄全文、未名者、官爵時段與紀年；未核書影。"
       ]
     }
   ],

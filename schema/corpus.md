@@ -538,3 +538,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 `data/corpus/profiles/` 的正文 `occurrences` 一律保存實際來源段落的 `work_id`、`book_id`、`chapter_id`、`source_id`，包括《史記》。另列全部 `paragraph_ids`、`mention_ids`，`count` 等於該篇提及錨點數。既有 `number`、`category`、首段 `paragraph_id` 及短引 `quote` 仍供閱讀器呈現；它們不能代替完整引用範圍，也不能用卷號推算著作或篇 ID。
 
 `table_occurrences` 一律附原表的作品、卷篇、見證 ID 及 `source_revision`，包含《史記》原表；`table_id`、`cell_id`、原格 `quote` 與逐人 `mention` 保持可回查。人物資料匯出遇未登記於閱讀目錄的提及篇須失敗，不默默略去該來源。
+
+## 帝紀在位語境的冊后關係
+
+`context.kind: regnal_empress_context` 僅用於帝紀明書冊立皇后的配偶關係。兩條完整證據分別連到即位者與皇后，並保存 `monarch_mention_id`、`empress_mention_id`、即位及冊后原詞、原段順序與固定數位見證。`witness_interval` 保存兩段及省略部分的全部原行、提交、blob、行號、原文字串與指紋，古注及頁標與正文分層；它不是兩段原文相鄰的宣稱。首例《昭帝紀》為第21至69行。
+
+驗證核對原詞內的兩端人物、已登記選錄與區間對應、行號及版本，並拒絕在位區間內另見即位、崩等更替用語。這是附證的編者判讀，不是自動判定歷史真相；狀態保持 `contextual_provisional`、`human_reviewed: false`，不補婚日、子女或生母。其他親屬不能套用此模型。已知原行有省略的選錄，也不能只把種類改成 `adjacent_paragraphs` 來略過此證據。
