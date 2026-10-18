@@ -305,6 +305,11 @@ def validate(root=ROOT):
             except ModuleNotFoundError:
                 from referent_interpretations import interpretation_errors
             errors.extend(interpretation_errors(d, pids))
+            try:
+                from scripts.source_excerpts import excerpt_errors
+            except ImportError:
+                from source_excerpts import excerpt_errors
+            errors.extend(excerpt_errors(d))
             case_ids=set()
             for case in d['annotation'].get('unresolved_identity_cases',[]):
                 check(case.get('id') and case['id'] not in case_ids,'未決身份 ID 無效或重複')
@@ -337,7 +342,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs','title','seg') for e in x),'XML 含未知正文標籤')

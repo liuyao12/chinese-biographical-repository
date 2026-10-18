@@ -522,3 +522,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 身份判讀可附 `chronology_caution`：`kind: unresolved_title_chronology`、`status: unresolved`、`identity_basis: explicit_commentary`、`no_tenure_interpolation: true`。本事須有固定篇文全文、日期及事件原詞、同人提及錨點；`table_accounts` 逐項保存至少兩個不重複原格的完整文字、固定來源、同人錨點與封免原詞。它通知一般程式不可把此身份判讀當作已證明事件當時在爵，既不生成持職時段，也不消去不同來源紀年。原表疑字保持原字，引用注家明名不等於年表任期已獲調和；人工審閱仍為 `false`。
 
 這類判讀的 Kanripo 注說可另存 `quote_format: kanripo_line_wrapped` 與 `display_quote`。原 `quote` 不改；顯示字串只可去除頁標、分行斜線、`¶` 與空白，須與原字逐字相符且引用固定提交。一般引文及未標格式的斜線不得套用此清理，顯示端遇不相符字串回退原文。人物卡僅在已記錄的未定警示存在時顯示爵年提示，不從文字臆測新增警示。
+
+### 固定版本古注節錄
+
+`text_layer: witness_duyu_annotation_excerpt` 表示節錄杜預注原句；`witness_received_text_and_duyu_annotation_excerpt` 表示原文與所附杜注同錄，保留「注」標記。這兩層必須有 `source_excerpt.kind: fixed_git_literal_span`，保存固定提交、blob、全文SHA-256、原行號、原行全文、Unicode code point的 `start`／`end`，以及連續的署注上下行與原年次題頭。節錄文字須逐字等於原行的該字元範圍，作品／卷篇另有實際登記。
+
+來源 `text_scope: partial_chapter` 及 `extent` 明示只錄古注片段，不冒作全年、整卷或全書正文；此型目前未核影像，人工審閱為false。原年次題頭用於定位，不自動轉作人物出生年或父子關係始年。署名、數位轉錄與是否親見影像分開記錄。
+
+來源父系與編輯首選仍各存一層。例如《史記》成公少子說保留為原陳述，杜注子國說有獨立來源陳述；`family_tree_decision_set` 選擇預設父邊，不改寫受傳字句，也不把被排除來源的「少子」套到首選父親家中的排行。
