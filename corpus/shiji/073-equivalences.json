@@ -464,6 +464,61 @@
       "human_reviewed": false,
       "model": null,
       "identity_materialized": true
+    },
+    {
+      "id": "eq-shiji073-mengwu-emendation",
+      "person_ids": [
+        "k2p_5ol_dwh_A"
+      ],
+      "canonical_person_id": "k2p_5ol_dwh_A",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-073-baiwang",
+        "c-shiji-088-mengtian"
+      ],
+      "status": "contextual_provisional",
+      "rationale": "攻楚段三稱蒙恬，暫採辛德勇第194頁所接受的蒙武校讀。卷88明記蒙武在始皇二十三、二十四年攻楚，而蒙恬二十六年因家世為將攻齊。這是限於三處的編輯首選，不是兩個人整體同人，也不把蒙恬作蒙武通用別名；原字不改，北征蒙恬仍為另一人。辛文轉引梁玉繩及楊寬的意見，僅以已讀現代論文為研究參考，未親核梁氏頁面、古籍或簡牘書影。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-073-baiwang",
+          "source_id": "s-shiji-073-baiwang",
+          "paragraph_id": "c-shiji-073-baiwang:p010",
+          "quote": "秦始皇既滅三晉，走燕王，而數破荊師。秦將李信者，年少壯勇，嘗以兵數千逐燕太子丹至於衍水中，卒破得丹，始皇以為賢勇。於是始皇問李信：「吾欲攻取荊，於將軍度用幾何人而足？」李信曰：「不過用二十萬人。」始皇問王翦，王翦曰：「非六十萬人不可。」始皇曰：「王將軍老矣，何怯也！李將軍果勢壯勇，其言是也。」遂使李信及蒙恬將二十萬南伐荊。王翦言不用，因謝病，歸老於頻陽。李信攻平與，蒙恬攻寢，大破荊軍。信又攻鄢郢，破之，於是引兵而西，與蒙恬會城父。荊人因隨之，三日三夜不頓舍，大破李信軍，入兩壁，殺七都尉，秦軍走。",
+          "mention_ids": [
+            "c-shiji-073-baiwang:m010-0152",
+            "c-shiji-073-baiwang:m010-0184",
+            "c-shiji-073-baiwang:m010-0211"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-088-mengtian",
+          "source_id": "s-shiji-088-mengtian",
+          "paragraph_id": "c-shiji-088-mengtian:p001",
+          "quote": "蒙恬者，其先齊人也。恬大父蒙驁，自齊事秦昭王，官至上卿。秦莊襄王元年，蒙驁為秦將，伐韓，取成皋、滎陽，作置三川郡。二年，蒙驁攻趙，取三十七城。始皇三年，蒙驁攻韓，取十三城。五年，蒙驁攻魏，取二十城，作置東郡。始皇七年，蒙驁卒。驁子曰武，武子曰恬。恬嘗書獄典文學。始皇二十三年，蒙武為秦裨將軍，與王翦攻楚，大破之，殺項燕。二十四年，蒙武攻楚，虜楚王。蒙恬弟毅。",
+          "mention_ids": [
+            "c-shiji-088-mengtian:m001-0116",
+            "c-shiji-088-mengtian:m001-0118",
+            "c-shiji-088-mengtian:m001-0138",
+            "c-shiji-088-mengtian:m001-0165"
+          ]
+        }
+      ],
+      "references": [
+        {
+          "title": "辛德勇〈雲夢睡虎地秦人簡牘與李信、王翦南滅荆楚的地理進程〉，《出土文獻》第五輯，第194頁",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/D/78/76/04587E604BFB45EB0C5E467C51C_AB1DD685_39397C.pdf",
+          "quote": "當是蒙武之誤",
+          "scope": "modern_scholarship_reported_emendation",
+          "text_layer": "modern_study",
+          "image_verified": false,
+          "note": "已核本研究PDF第5頁（書內第194頁）的頁面影像；image_verified為false指未核古籍／簡牘底本。本頁引梁玉繩《史記志疑》卷29第1267頁並接受其說，另列楊寬沿用；未親讀轉引書頁。只讀本題相關頁，不宣稱全文研究結論均已覆核。",
+          "response_sha256": "5f929675178369dbb9898a418b98776eec57c959963f3d5060d61c11e8252973"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "model": null,
+      "human_reviewed": false,
+      "identity_materialized": true
     }
   ]
 }

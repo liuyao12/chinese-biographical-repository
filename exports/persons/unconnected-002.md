@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gi7_lw7_z9m` | 韓馮 | [《史記・田敬仲完世家》][31] | [JSON](gi7_lw7_z9m.json) |
 | `gir_5c2_ilu` | 楊中倩待核異稱 | [《史記・扁鵲倉公列傳》][90] | [JSON](gir_5c2_ilu.json) |
 | `gix_plv_xhr` | 子賤 | [《史記・滑稽列傳》][111] | [JSON](gix_plv_xhr.json) |
 | `gj7_qds_jsk` | 卿秦 | [《史記・趙世家》][28] | [JSON](gj7_qds_jsk.json) |
@@ -1235,7 +1234,6 @@
 | `q26_0h6_k7d` | 李齊 | [《史記・張釋之馮唐列傳》][87] | [JSON](q26_0h6_k7d.json) |
 | `q2q_a6e_9hs` | 雍齒 | [《史記・高祖本紀》][11] | [JSON](q2q_a6e_9hs.json) |
 | `q2r_2vh_ic0` | 周最（本文讀法） | [《史記・周本紀》][7] | [JSON](q2r_2vh_ic0.json) |
-| `q31_96y_x3u` | 徐自爲 | [《史記・酷吏列傳》][107] | [JSON](q31_96y_x3u.json) |
 | `q35_54a_f2z` | 趙悼襄王 | [《史記・燕召公世家》][19] | [JSON](q35_54a_f2z.json) |
 | `q44_hia_lao` | 景翠 | [《史記・越王勾踐世家》][26] | [JSON](q44_hia_lao.json) |
 | `q4a_jzq_0xh` | 李園（殺春申君者） | [《史記・春申君列傳》][63] | [JSON](q4a_jzq_0xh.json) |
@@ -2177,7 +2175,6 @@
 | `wyk_owg_0tl` | 越人蒙引古 | [《史記・魯仲連鄒陽列傳》][68] | [JSON](wyk_owg_0tl.json) |
 | `wyx_6d2_xxp` | 李悝 | [《史記・孟子荀卿列傳》][59] | [JSON](wyx_6d2_xxp.json) |
 | `wz9_alv_i3k` | 鄒陽 | [《史記・司馬相如列傳》][102] | [JSON](wz9_alv_i3k.json) |
-| `wze_03m_kra` | 郭昌 | [《史記・大宛列傳》][108] | [JSON](wze_03m_kra.json) |
 | `wzh_fbx_a70` | 兒長卿 | [《史記・游俠列傳》][109] | [JSON](wzh_fbx_a70.json) |
 | `wzh_zgv_rkf` | 薛公 | [《史記・魏公子列傳》][62] | [JSON](wzh_zgv_rkf.json) |
 | `wzo_s8b_vyg` | 胡武 | [《史記・陳涉世家》][33] | [JSON](wzo_s8b_vyg.json) |
@@ -2218,6 +2215,9 @@
 | `xcs_h9s_rgw` | 公孫痤 | [《史記・魏世家》][29] | [JSON](xcs_h9s_rgw.json) |
 | `xcv_pkj_crw` | 汝賈（內昭公議事） | [《史記・魯周公世家》][18] | [JSON](xcv_pkj_crw.json) |
 | `xcz_sby_ker` | 季孫 | [《史記・仲尼弟子列傳》][52] | [JSON](xcz_sby_ker.json) |
+| `xd0_yc1_jd5` | 齊太史（崔杼弒君書者未名） | [《史記・齊太公世家》][17] | [JSON](xd0_yc1_jd5.json) |
+| `xd1_b6x_v7v` | 孝文王 | [《史記・陳涉世家》][33] | [JSON](xd1_b6x_v7v.json) |
+| `xd1_no8_2ar` | 蘧伯玉 | [《史記・仲尼弟子列傳》][52] | [JSON](xd1_no8_2ar.json) |
 
 [3]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [4]: https://zh.wikisource.org/w/index.php?title=史記/卷001&oldid=7903634
