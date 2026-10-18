@@ -10,9 +10,9 @@ except ImportError:
 
 
 def brother_connects(assertion, first, second):
-    """兄弟端點可反向核對；原斷言方向及長幼限定不改寫。"""
+    """兄弟姊妹端點可反向核對；父系仍為明示可撤回的編輯推導。"""
     a, b = assertion['subject_person_id'], assertion['object_person_id']
-    return (assertion['predicate'] == 'brother'
+    return (assertion['predicate'] in ('brother', 'sister')
             and assertion.get('qualifiers', {}).get('shared_father') is not False
             and not set(first).intersection(second)
             and ((a in first and b in second) or (b in first and a in second)))

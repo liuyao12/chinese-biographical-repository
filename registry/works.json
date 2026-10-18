@@ -1335,6 +1335,43 @@
           ]
         }
       ]
+    },
+    {
+      "id": "w-songshu",
+      "title": "宋書",
+      "author": "沈約",
+      "status": "in_progress",
+      "expected_books": null,
+      "numbering_note": "依跨史士族次序選錄；已錄傳不等於全卷或全書完成。",
+      "books": [
+        {
+          "id": "b-songshu-060",
+          "work_id": "w-songshu",
+          "number": 60,
+          "title": "卷60",
+          "chapter_ids": [
+            "c-songshu-060-xunbozi"
+          ]
+        },
+        {
+          "id": "b-songshu-044",
+          "work_id": "w-songshu",
+          "number": 44,
+          "title": "卷44",
+          "chapter_ids": [
+            "c-songshu-044-xiehui"
+          ]
+        },
+        {
+          "id": "b-songshu-042",
+          "work_id": "w-songshu",
+          "number": 42,
+          "title": "卷42",
+          "chapter_ids": [
+            "c-songshu-042-wanghong"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

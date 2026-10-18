@@ -1,0 +1,54 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-songshu-044-xiehui",
+  "decisions": [
+    {
+      "id": "d-songshu044-imperial-001",
+      "person_id": "3dv_ken_w58",
+      "surfaces": [
+        "高祖"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-044-xiehui"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-044-xiehui:p001:m0037"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-044",
+          "source_id": "s-songshu-044-xiehui",
+          "chapter_id": "c-songshu-044-xiehui",
+          "paragraph_id": "c-songshu-044-xiehui:p001",
+          "quote": "謝晦字宣明，陳郡陽夏人也。祖朗，東陽太守。父重，會稽王道子驃騎長史。兄絢，高祖鎮軍長史，蚤卒。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《宋書》卷1",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B71&oldid=2228879",
+          "source_revision": 2228879,
+          "source_position": {
+            "first_line": 12,
+            "last_line": 12
+          },
+          "quote": "高祖武皇帝諱裕，字德輿，小名寄奴",
+          "source_line_sha256": "b699576c1bf7f9fc0b139621b016fa1dd4b398791c3e6a3a3576e39971583a71",
+          "scope": "primary_parallel_identification_only",
+          "image_verified": false
+        }
+      ],
+      "rationale": "謝絢高祖鎮軍長史的高祖為宋高祖裕；不同於衞璵表臣高祖璪及漢祖引古。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}
