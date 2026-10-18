@@ -3,8 +3,10 @@ import json
 from pathlib import Path
 try:
     from .person_ids import family_path_errors
+    from .ancestry_chain import consecutive_ancestor_parent_valid
 except ImportError:
     from person_ids import family_path_errors
+    from ancestry_chain import consecutive_ancestor_parent_valid
 
 
 def brother_connects(assertion, first, second):
@@ -90,7 +92,8 @@ def load_assemblies(root, catalog):
                         raise ValueError('同父兄弟祖先組裝缺少有效兄弟及祖孫證據')
                 else:
                     assertion = assertions.get(member['source_assertion_id'])
-                    if (not assertion or assertion['predicate'] != member.get('connection')
+                    if (not assertion or assertion.get('qualifiers', {}).get('adopted_for_family_tree') is False
+                        or assertion['predicate'] != member.get('connection')
                         or assertion['subject_person_id'] not in ids
                         or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
                         raise ValueError('缺代組裝祖孫端點與來源不符')
@@ -105,7 +108,10 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection['type'] == 'shared_father_through_sibling_chain':
+                    if connection.get('type') == 'parent_between_consecutive_ancestors':
+                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
+                            raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
+                    elif connection['type'] == 'shared_father_through_sibling_chain':
                         sibling_ids = connection.get('sibling_person_ids')
                         brother_ids = connection.get('sibling_assertion_ids')
                         valid = (isinstance(sibling_ids, list) and isinstance(brother_ids, list)

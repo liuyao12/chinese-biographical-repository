@@ -520,3 +520,12 @@ test('title chronology retains a readable alternative chapter and fixed primary 
 test('title chronology escapes source alternatives and rejects executable links',()=>{
  const c={preferred_source_expression:'<x>',alternative_source_term:'<img>',alternative_evidence:{quote:'<svg>'},rationale:'<script>',references:[{quote:'<iframe>',url:'javascript:alert(1)',title:'bad'}]};const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'王',evidence:[],chronology_source_choice:c}]},true);assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;iframe&gt;/);assert.doesNotMatch(html,/href="javascript:|<svg>|<img>/);
 });
+
+test('unadopted distant ancestry remains readable as a source claim on the full profile',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',related_people:{'synthetic-ancestor':'Synthetic remote ancestor'},relations:[{subject_person_id:'synthetic-child',object_person_id:'synthetic-ancestor',predicate:'ancestor',qualifiers:{adopted_for_family_tree:false,source_term:'Synthetic received genealogy claim'},evidence:[{quote:'Synthetic received genealogy claim'}]}]};
+ const html=personCard(p,true);
+ assert.match(html,/person-unadopted-ancestry/);
+ assert.match(html,/Synthetic remote ancestor/);
+ assert.match(html,/Synthetic received genealogy claim/);
+ assert.doesNotMatch(html,/class="person-family"/);
+});

@@ -45,7 +45,7 @@ export function summarizeLife(p) {
 
 // Ranges are explicit data. Never choose either endpoint as an event year.
 export function civilYearLabelData(event) {
-  const civil=event?.chinese_civil_year;
+  const civil=event?.chinese_civil_year || (event?.normalized_date?.calendar==='chinese_civil' ? event.normalized_date : null);
   if (civil?.calendar!=='chinese_civil' || civil.year_numbering!=='astronomical' || civil.precision!=='year'
       || !['BCE','CE'].includes(civil.era) || !Number.isSafeInteger(civil.era_year) || civil.era_year<=0
       || !Number.isSafeInteger(civil.year) || civil.year!==(civil.era==='BCE'?1-civil.era_year:civil.era_year)) return null;
