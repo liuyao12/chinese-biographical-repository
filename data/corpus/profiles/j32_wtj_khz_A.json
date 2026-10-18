@@ -1180,6 +1180,25 @@
         "c-shiji-118-huainan:m010-0206",
         "c-shiji-118-huainan:m010-0232"
       ]
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p002",
+      "count": 1,
+      "quote": "附焉。然好學，游俠，任氣節，內行修絜，好直諫，數犯主之顏色，常慕傅柏、袁盎之為人也。善灌夫、鄭當時及宗正劉棄。亦以數直諫，不得久居位。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m002-0075"
+      ]
     }
   ],
   "table_occurrences": [],
@@ -1484,6 +1503,30 @@
           "note": "全部身份與版本仍待覆核。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
     }
   ],
   "relations": [
@@ -1660,6 +1703,59 @@
       "person_id": "j32_wtj_khz_A",
       "endpoint": "start",
       "title": "楚相"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "d-shiji120-additional-05",
+      "person_id": "j32_wtj_khz_A",
+      "surfaces": [
+        "袁盎"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-101-yuanchao"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m002-0075"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p002",
+          "quote": "黯為人性倨，少禮，面折，不能容人之過。合己者善待之，不合己者不能忍見，士亦以此不附焉。然好學，游俠，任氣節，內行修絜，好直諫，數犯主之顏色，常慕傅柏、袁盎之為人也。善灌夫、鄭當時及宗正劉棄。亦以數直諫，不得久居位。"
+        },
+        {
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p001",
+          "quote": "袁盎者，楚人也，字絲。"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L164-L166",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "士亦以此不附焉然好游俠任氣節行修絜其諫犯主¶\n之顔色常慕傅伯爰盎之為人(應劭曰傅伯梁人為/孝王将素抗直也)善¶\n灌夫鄭當時及宗正劉棄疾亦以數直諫不得久居位¶",
+          "display_claim": "常慕傅伯爰盎之為人",
+          "display_claim_is_paraphrase": true,
+          "scope": "received_parallel_recalled_person",
+          "image_verified": false
+        }
+      ],
+      "rationale": "汲黯慕前代袁盎的直諫行誼，漢書平行句作爰盎；暫接袁盎本傳，不據此說袁盎在武帝時仍在世。",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "name_components": [],

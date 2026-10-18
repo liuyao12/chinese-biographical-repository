@@ -2,13 +2,14 @@
   "schema_version": 1,
   "id": "6d6_eg1_o3a_B",
   "canonical_person_id": "6d6_eg1_o3a_B",
-  "label": "信（外戚世家候選）",
+  "label": "王信",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "蓋侯信",
     "信",
-    "蓋侯"
+    "蓋侯",
+    "王信"
   ],
   "titles": [
     {
@@ -62,6 +63,56 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji057-081",
+      "person_id": "6d6_eg1_o3a_B",
+      "title": "蓋侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p023",
+          "quote": "條侯果餓死。死後，景帝乃封王信為蓋侯。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji057-081:a001",
+          "paragraph_id": "c-shiji-057-zhou:p023",
+          "start": 16,
+          "end": 18,
+          "surface": "蓋侯",
+          "person_mention_id": "c-shiji-057-zhou:m023-0013",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-057-zhou",
+              "source_id": "s-shiji-057-zhou",
+              "paragraph_id": "c-shiji-057-zhou:p023",
+              "quote": "條侯果餓死。死後，景帝乃封王信為蓋侯。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授官、爵秩、追稱、承爵與一般用稱分存；相對年數按原段，不換算公曆或推定所有官爵同時終止。未知官員姓名與制度性質不補。 條侯死後實封與第18段勸封提議分辨，不把可侯當已封。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji107-041",
       "person_id": "6d6_eg1_o3a_B",
       "title": "蓋侯",
@@ -102,6 +153,49 @@
       "interpretation_note": "按本段明示用稱記錄，不從任他官、案件、敘事位置或死亡補造爵位授任與終止。潁陰侯嬰及灌何為不同候選，分別記用稱。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji120-018",
+      "person_id": "6d6_eg1_o3a_B",
+      "title": "蓋侯",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji120-018:a001",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "start": 84,
+          "end": 86,
+          "surface": "蓋侯",
+          "person_mention_id": "c-shiji-120-jizheng:m014-0084",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。莊為太史保留底本，不校改為大農。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -130,6 +224,30 @@
       ]
     },
     {
+      "number": 57,
+      "category": "shijia",
+      "title": "絳侯周勃世家第二十七",
+      "paragraph_id": "c-shiji-057-zhou:p018",
+      "count": 5,
+      "quote": "竇太后曰：「皇后兄王信可侯也。」景帝讓曰：「始南皮、章武侯先帝不侯，及臣即位乃侯之。信未得封也。」竇太后曰：「人主各以時行耳。自竇長君在時，竟不得侯，死後乃［封］其子彭祖顧得侯。吾甚恨之。帝趣侯信也！」景帝曰：「請得與丞相",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-057",
+      "chapter_id": "c-shiji-057-zhou",
+      "source_id": "s-shiji-057-zhou",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-057-zhou:p018",
+        "c-shiji-057-zhou:p023"
+      ],
+      "mention_ids": [
+        "c-shiji-057-zhou:m018-0009",
+        "c-shiji-057-zhou:m018-0042",
+        "c-shiji-057-zhou:m018-0097",
+        "c-shiji-057-zhou:m018-0156",
+        "c-shiji-057-zhou:m023-0013"
+      ]
+    },
+    {
       "number": 107,
       "category": "liezhuan",
       "title": "魏其武安列傳第四十七",
@@ -146,6 +264,26 @@
       ],
       "mention_ids": [
         "c-shiji-107-weiqi:m010-0142"
+      ]
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p014",
+      "count": 2,
+      "quote": "官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p014"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m014-0084",
+        "c-shiji-120-jizheng:m014-0088"
       ]
     }
   ],
@@ -176,6 +314,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-057-zhou",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-057",
+      "source_id": "s-shiji-057-zhou",
+      "source": {
+        "title": "史記／卷057",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷057",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷057&oldid=1569360",
+        "revision_id": 1569360,
+        "accessed_on": "2026-10-09",
+        "extent": "24段篇文及1段索隱述贊，無需排除數位欄題。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留泗（川）［水］、潁（陽）［陰］侯、吏［事］、乃［封］、［唯］徐盧、櫡、圂、遬、屍北與鹹克等見證原字及符號，索隱另分層。",
+          "note": "全25段已讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-107-weiqi",
       "work_id": "w-shiji",
       "book_id": "b-shiji-107",
@@ -196,6 +358,30 @@
           "editorial_readings": [],
           "extraction_note": "去標題與介面模板，原字、標點及段落次序保留。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     }
@@ -244,6 +430,27 @@
       "reviewer": "Codex（AI 代理）"
     },
     {
+      "id": "a-shiji057-010",
+      "subject_person_id": "6d6_eg1_o3a_B",
+      "predicate": "brother",
+      "object_person_id": "gp0_e9b_qin",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p018",
+          "quote": "竇太后曰：「皇后兄王信可侯也。」景帝讓曰：「始南皮、章武侯先帝不侯，及臣即位乃侯之。信未得封也。」竇太后曰：「人主各以時行耳。自竇長君在時，竟不得侯，死後乃［封］其子彭祖顧得侯。吾甚恨之。帝趣侯信也！」景帝曰：「請得與丞相議之。」丞相議之，亞夫曰：「高皇帝約『非劉氏不得王，非有功不得侯。不如約，天下共擊之』。今信雖皇后兄，無功，侯之，非約也。」景帝默然而止。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "皇后兄王信",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子、兄、女、尚、夫人與局部主語保存，不由承爵本身補父子，不補未見姓名、同母或排行；文帝女公主與亞夫家屬保留本篇未名稱呼。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji107-006",
       "subject_person_id": "7mz_d13_9ka_A",
       "predicate": "brother",
@@ -275,12 +482,88 @@
   ],
   "related_people": {
     "6d6_eg1_o3a": "王仲（外戚世家候選）",
-    "6d6_eg1_o3a_B": "信（外戚世家候選）",
+    "6d6_eg1_o3a_B": "王信",
     "6ks_x4x_dbf_*A": "臧兒（外戚世家候選）",
-    "7mz_d13_9ka_A": "田蚡（外戚世家候選）"
+    "7mz_d13_9ka_A": "田蚡（外戚世家候選）",
+    "gp0_e9b_qin": "皇后（絳侯周勃世家候選）"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji120-additional-02",
+      "person_id": "6d6_eg1_o3a_B",
+      "surfaces": [
+        "蓋侯信",
+        "信"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-049-waiqi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m014-0084",
+          "c-shiji-120-jizheng:m014-0088"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。"
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p025",
+          "quote": "蓋侯信好酒。"
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p022",
+          "quote": "封皇后兄信為蓋侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0002_120.txt",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_120.txt#L122-L122",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "a6a4d66d0a60f2d80cd7b7ab0941b146036f3aa6",
+          "raw_file_sha256": "6be7ed594e386ab1e9d4bb6d36eb70be191f97fe0da2db99e430afe915e5fa82",
+          "raw_quote": "千石者十人濮陽段宏始事葢侯信(徐廣曰太/后兄王信)信任宏¶",
+          "display_claim": "徐廣曰太后兄王信",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_name_and_kinship",
+          "image_verified": false
+        }
+      ],
+      "rationale": "段宏所事蓋侯信由徐廣明釋太后兄王信，接外戚篇同爵同名及皇后兄，不另置田氏父系。",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "6d6_eg1_o3a_B",
+      "title": "蓋侯",
+      "surname": "王",
+      "ming": "信",
+      "additional_names": [],
+      "chapter_id": "c-shiji-057-zhou",
+      "paragraph_id": "c-shiji-057-zhou:p023",
+      "quote": "死後，景帝乃封王信為蓋侯。",
+      "note": "本篇明書王信，外戚篇王仲妻生男信並稱皇后兄信；依具體家事分姓與名，不把田蚡父系移給王信。蓋侯為辨認用稱，不以兩篇壓縮敘事次序補定授爵年。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "6d6_eg1_o3a_B"
   ],
@@ -325,6 +608,27 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "按明示子女、生、母、兄弟姊及婚姻的局部敘事保存；祖孫不作父子，不補未名者姓名。衛青子數各層原語並存，親屬判讀不代表數量已核定。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji057-010",
+      "subject_person_id": "6d6_eg1_o3a_B",
+      "predicate": "brother",
+      "object_person_id": "gp0_e9b_qin",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-057-zhou",
+          "source_id": "s-shiji-057-zhou",
+          "paragraph_id": "c-shiji-057-zhou:p018",
+          "quote": "竇太后曰：「皇后兄王信可侯也。」景帝讓曰：「始南皮、章武侯先帝不侯，及臣即位乃侯之。信未得封也。」竇太后曰：「人主各以時行耳。自竇長君在時，竟不得侯，死後乃［封］其子彭祖顧得侯。吾甚恨之。帝趣侯信也！」景帝曰：「請得與丞相議之。」丞相議之，亞夫曰：「高皇帝約『非劉氏不得王，非有功不得侯。不如約，天下共擊之』。今信雖皇后兄，無功，侯之，非約也。」景帝默然而止。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "皇后兄王信",
+        "historicity": "historical_tradition"
+      },
+      "interpretation_note": "依明示子、兄、女、尚、夫人與局部主語保存，不由承爵本身補父子，不補未見姓名、同母或排行；文帝女公主與亞夫家屬保留本篇未名稱呼。",
       "reviewer": "Codex（AI 代理）"
     },
     {

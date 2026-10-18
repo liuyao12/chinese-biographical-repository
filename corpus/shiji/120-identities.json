@@ -400,6 +400,391 @@
       "rationale": "同一淮南謀反故事說丞相如發蒙；本篇稱弘及難惑汲黯，不混厲王或已行刺事實。",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "d-shiji120-additional-02",
+      "person_id": "6d6_eg1_o3a_B",
+      "surfaces": [
+        "蓋侯信",
+        "信"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-049-waiqi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m014-0084",
+          "c-shiji-120-jizheng:m014-0088"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p014",
+          "quote": "卒後，上以黯故，官其弟汲仁至九卿，子汲偃至諸侯相。黯姑姊子司馬安亦少與黯為太子洗馬。安文深巧善宦，官四至九卿，以河南太守卒。昆弟以安故，同時至二千石者十人。濮陽段宏始事蓋侯信，信任宏，宏亦再至九卿。然衛人仕者皆嚴憚汲黯，出其下。"
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p025",
+          "quote": "蓋侯信好酒。"
+        },
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p022",
+          "quote": "封皇后兄信為蓋侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0002_120.txt",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_120.txt#L122-L122",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "a6a4d66d0a60f2d80cd7b7ab0941b146036f3aa6",
+          "raw_file_sha256": "6be7ed594e386ab1e9d4bb6d36eb70be191f97fe0da2db99e430afe915e5fa82",
+          "raw_quote": "千石者十人濮陽段宏始事葢侯信(徐廣曰太/后兄王信)信任宏¶",
+          "display_claim": "徐廣曰太后兄王信",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_name_and_kinship",
+          "image_verified": false
+        }
+      ],
+      "rationale": "段宏所事蓋侯信由徐廣明釋太后兄王信，接外戚篇同爵同名及皇后兄，不另置田氏父系。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-additional-03",
+      "person_id": "dwv_5hn_680",
+      "surfaces": [
+        "賁"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-079-fancai"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m004-0084"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p004",
+          "quote": "黯多病，病且滿三月，上常賜告者數，終不愈。最後病，莊助為請告。上曰：「汲黯何如人哉？」助曰：「使黯任職居官，無以踰人。然至其輔少主，守城深堅，招之不來，麾之不去，雖自謂賁育亦不能奪之矣。」上曰：「然。古有社稷之臣，至如黯，近之矣。」"
+        },
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p013",
+          "quote": "成荊、孟賁、王慶忌、夏育之勇"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L179-L180",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "(師古曰瘉勝/也讀與愈同)然至其輔少主守成雖自謂賁育弗能奪¶\n也(師古曰孟賁夏育皆/古之勇士也賁音奔)上曰然古有社稷之臣至如汲¶",
+          "display_claim": "師古曰孟賁夏育皆古之勇士也",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_abbreviated_names",
+          "image_verified": false
+        }
+      ],
+      "rationale": "同一輔少主比擬在漢書附注明釋孟賁；只解所比古人，不作武帝朝實任、在世或參與輔政。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-additional-04",
+      "person_id": "66l_m67_5ie",
+      "surfaces": [
+        "育"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-079-fancai"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m004-0085"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p004",
+          "quote": "黯多病，病且滿三月，上常賜告者數，終不愈。最後病，莊助為請告。上曰：「汲黯何如人哉？」助曰：「使黯任職居官，無以踰人。然至其輔少主，守城深堅，招之不來，麾之不去，雖自謂賁育亦不能奪之矣。」上曰：「然。古有社稷之臣，至如黯，近之矣。」"
+        },
+        {
+          "chapter_id": "c-shiji-079-fancai",
+          "source_id": "s-shiji-079-fancai",
+          "paragraph_id": "c-shiji-079-fancai:p013",
+          "quote": "成荊、孟賁、王慶忌、夏育之勇"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L179-L180",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "(師古曰瘉勝/也讀與愈同)然至其輔少主守成雖自謂賁育弗能奪¶\n也(師古曰孟賁夏育皆/古之勇士也賁音奔)上曰然古有社稷之臣至如汲¶",
+          "display_claim": "師古曰孟賁夏育皆古之勇士也",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_abbreviated_names",
+          "image_verified": false
+        }
+      ],
+      "rationale": "同一輔少主比擬在漢書附注明釋夏育；不以對比句新增實際輔政事件或官職。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-additional-05",
+      "person_id": "j32_wtj_khz_A",
+      "surfaces": [
+        "袁盎"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-101-yuanchao"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m002-0075"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p002",
+          "quote": "黯為人性倨，少禮，面折，不能容人之過。合己者善待之，不合己者不能忍見，士亦以此不附焉。然好學，游俠，任氣節，內行修絜，好直諫，數犯主之顏色，常慕傅柏、袁盎之為人也。善灌夫、鄭當時及宗正劉棄。亦以數直諫，不得久居位。"
+        },
+        {
+          "chapter_id": "c-shiji-101-yuanchao",
+          "source_id": "s-shiji-101-yuanchao",
+          "paragraph_id": "c-shiji-101-yuanchao:p001",
+          "quote": "袁盎者，楚人也，字絲。"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L164-L166",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "士亦以此不附焉然好游俠任氣節行修絜其諫犯主¶\n之顔色常慕傅伯爰盎之為人(應劭曰傅伯梁人為/孝王将素抗直也)善¶\n灌夫鄭當時及宗正劉棄疾亦以數直諫不得久居位¶",
+          "display_claim": "常慕傅伯爰盎之為人",
+          "display_claim_is_paraphrase": true,
+          "scope": "received_parallel_recalled_person",
+          "image_verified": false
+        }
+      ],
+      "rationale": "汲黯慕前代袁盎的直諫行誼，漢書平行句作爰盎；暫接袁盎本傳，不據此說袁盎在武帝時仍在世。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-additional-06",
+      "person_id": "71j_ydc_ly7",
+      "surfaces": [
+        "莊助",
+        "助"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-122-kuli"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m004-0025",
+          "c-shiji-120-jizheng:m004-0043"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p004",
+          "quote": "黯多病，病且滿三月，上常賜告者數，終不愈。最後病，莊助為請告。上曰：「汲黯何如人哉？」助曰：「使黯任職居官，無以踰人。然至其輔少主，守城深堅，招之不來，麾之不去，雖自謂賁育亦不能奪之矣。」上曰：「然。古有社稷之臣，至如黯，近之矣。」"
+        },
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p023",
+          "quote": "莊助使人言買臣"
+        },
+        {
+          "chapter_id": "c-shiji-122-kuli",
+          "source_id": "s-shiji122-kuli",
+          "paragraph_id": "c-shiji-122-kuli:p023",
+          "quote": "治淮南獄，排擠莊助"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L175-L177",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "辱朝廷何黯多病病且滿三月上常賜告者數終不瘉¶\n(如淳曰杜欽所謂病滿賜告詔恩也數者/非一也師古曰數音所角反瘉與愈同)最後嚴助為¶\n請告上曰汲黯何如人也曰使黯任職居官亡以瘉人¶",
+          "display_claim": "最後嚴助為請告",
+          "display_claim_is_paraphrase": true,
+          "scope": "received_parallel_same_leave_request",
+          "image_verified": false
+        }
+      ],
+      "rationale": "汲黯病滿請告的同一事件在漢書作嚴助，史記作莊助；連到武帝朝同姓變體的侍臣，不把請告解為實際輔佐少主。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-additional-07",
+      "person_id": "o6h_ba5_gno",
+      "surfaces": [
+        "張羽"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-058-liang",
+        "c-shiji-108-han"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m016-0009"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p016",
+          "quote": "鄭莊以任俠自喜，脫張羽於緦聲聞梁楚之閒。孝景時，為太子舍人。每五日洗沐，常置驛馬安諸郊，存諸故人，請謝賓客，夜以繼日，至其明旦，常恐不遍。莊好黃老之言，其慕長者如恐不見。年少官薄，然其游知交皆其大父行，天下有名之士也。武帝立，莊稍遷為魯中尉、濟南太守、江都相，至九卿為右內史。以武安侯魏其時議，貶秩為詹事，遷為大農令。"
+        },
+        {
+          "chapter_id": "c-shiji-058-liang",
+          "source_id": "s-shiji-058-liang",
+          "paragraph_id": "c-shiji-058-liang:p005",
+          "quote": "使韓安國、張羽等為大將軍"
+        },
+        {
+          "chapter_id": "c-shiji-108-han",
+          "source_id": "s-shiji-108-han",
+          "paragraph_id": "c-shiji-108-han:p001",
+          "quote": "孝王使安國及張羽爲將"
+        }
+      ],
+      "references": [
+        {
+          "title": "KR2a0002_120.txt",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_120.txt#L128-L128",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "a6a4d66d0a60f2d80cd7b7ab0941b146036f3aa6",
+          "raw_file_sha256": "6be7ed594e386ab1e9d4bb6d36eb70be191f97fe0da2db99e430afe915e5fa82",
+          "raw_quote": "鄭莊以任俠自喜脫張羽於戹(服䖍曰梁孝王之/將楚相之弟也)聲聞¶",
+          "display_claim": "服䖍曰梁孝王之將楚相之弟也",
+          "display_claim_is_paraphrase": true,
+          "scope": "commentary_explicit_role_and_unnamed_brother",
+          "image_verified": false
+        },
+        {
+          "title": "KR2a0007_050.txt",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt#L264-L265",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob": "883ed25b93ffce6f13fe4f1ce42f0519ded60cf3",
+          "raw_file_sha256": "66f4315e7a774ed459726c0c96ec28f6333da84d9e81d2411b34450a89b224b9",
+          "raw_quote": "者為大夫而逐鄭君鄭君死孝文時當時以任侠自喜¶\n脫張羽於阸(服䖍曰梁孝王将楚相之弟也師/古曰喜音許吏反脱音佗活反)聲聞梁¶",
+          "display_claim": "服䖍曰梁孝王將楚相之弟也",
+          "display_claim_is_paraphrase": true,
+          "scope": "parallel_commentary_same_attribution_not_independent_vote",
+          "image_verified": false
+        }
+      ],
+      "rationale": "鄭當時所救張羽有古注明釋梁孝王將，與梁、韓安國篇同名同主將領相合；楚相之弟只存原說，不補兄名或援救日期。",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-shiji120-wang-taihou",
+      "person_id": "6d6_eg1_o3a_A",
+      "surfaces": [
+        "太后"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-120-jizheng",
+        "c-shiji-107-weiqi",
+        "c-shiji-012-wudi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-120-jizheng:m003-0004"
+        ]
+      },
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-120-jizheng",
+          "source_id": "s-shiji120-jizheng",
+          "paragraph_id": "c-shiji-120-jizheng:p003",
+          "quote": "當是時，太后弟武安侯蚡為丞相，中二千石來拜謁，蚡不為禮。然黯見蚡未嘗拜，常揖之。天子方招文學儒者，上曰吾欲云云，黯對曰：「陛下內多欲而外施仁義，柰何欲效唐虞之治乎！」上默然，怒，變色而罷朝。公卿皆為黯懼。上退，謂左右曰：「甚矣，汲黯之戇也！」群臣或數黯，黯曰：「天子置公卿輔弼之臣，寧令從諛承意，陷主於不義乎？且已在其位，縱愛身，柰辱朝廷何！」"
+        },
+        {
+          "chapter_id": "c-shiji-107-weiqi",
+          "source_id": "s-shiji-107-weiqi",
+          "paragraph_id": "c-shiji-107-weiqi:p006",
+          "quote": "武安侯田蚡者，孝景后同母弟也"
+        },
+        {
+          "chapter_id": "c-shiji-012-wudi",
+          "source_id": "s-shiji-012-wudi",
+          "paragraph_id": "c-shiji-012-wudi:p001",
+          "quote": "母曰王太后"
+        }
+      ],
+      "rationale": "太后弟武安侯蚡按明示親屬及武帝母為王太后辨識，不因武帝初年亦有竇太后而取最近帝后；原親屬與年代各存。",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }
