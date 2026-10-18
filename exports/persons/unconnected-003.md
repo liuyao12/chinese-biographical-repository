@@ -6,16 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `xix_lzk_s92` | 修 | [《史記・五宗世家》][44] | [JSON](xix_lzk_s92.json) |
-| `xj1_qxh_afa` | 王紲 | [《史記・趙世家》][28] | [JSON](xj1_qxh_afa.json) |
-| `xj3_7eu_xg4` | 王假（魏） | [《史記・太史公自序》][115] | [JSON](xj3_7eu_xg4.json) |
-| `xj8_5eq_dtl` | 酈山之女 | [《史記・秦本紀》][8] | [JSON](xj8_5eq_dtl.json) |
-| `xjk_0i9_vc2` | 楚懷王 | [《史記・樗里子甘茂列傳》][56] | [JSON](xjk_0i9_vc2.json) |
-| `xjx_97m_qss` | 郭同 | [《史記・樊酈滕灌列傳》][80] | [JSON](xjx_97m_qss.json) |
-| `xk1_q1d_4tc` | 韓信舍人未名 | [《史記・淮陰侯列傳》][77] | [JSON](xk1_q1d_4tc.json) |
-| `xkc_rp5_a3d` | 宣帝 | [《史記・三王世家》][45] | [JSON](xkc_rp5_a3d.json) |
-| `xkn_0tx_45l` | 秦孝公 | [《史記・趙世家》][28] | [JSON](xkn_0tx_45l.json) |
-| `xli_xkc_ts4` | 魯襄公 | [《史記・孔子世家》][32] | [JSON](xli_xkc_ts4.json) |
 | `xlp_ihc_qm9` | 辛廖 | [《史記・魏世家》][29] | [JSON](xlp_ihc_qm9.json) |
 | `xlz_fdt_se1` | 竇嬰夫人未名 | [《史記・魏其武安侯列傳》][92] | [JSON](xlz_fdt_se1.json) |
 | `xma_4rf_v7v` | 中行文子 | [《史記・趙世家》][28] | [JSON](xma_4rf_v7v.json) |
@@ -275,7 +265,6 @@
 | `zf3_s9n_ty5` | 牙（齊太子） | [《史記・齊太公世家》][17] | [JSON](zf3_s9n_ty5.json) |
 | `zg6_76t_xid` | 少翁 | [《史記・孝武本紀》][15] | [JSON](zg6_76t_xid.json) |
 | `zg6_7x0_rlx` | 軒轅 | [《史記・司馬相如列傳》][102] | [JSON](zg6_7x0_rlx.json) |
-| `zgg_ncu_lxg` | 管仲 | [《史記・平津侯主父列傳》][97] | [JSON](zgg_ncu_lxg.json) |
 | `zgm_3w8_12c` | 趙女未名 | [《史記・魏其武安侯列傳》][92] | [JSON](zgm_3w8_12c.json) |
 | `zh2_5e4_ikn` | 酈寄 | [《史記・楚元王世家》][35] | [JSON](zh2_5e4_ikn.json) |
 | `zht_ze7_m2d` | 山／義／弘（後少帝） | [《史記・呂太后本紀》][12] | [JSON](zht_ze7_m2d.json) |
@@ -401,7 +390,6 @@
 [72]: https://zh.wikisource.org/w/index.php?title=史記/卷087&oldid=2364605
 [75]: https://zh.wikisource.org/w/index.php?title=史記/卷090&oldid=376055
 [76]: https://zh.wikisource.org/w/index.php?title=史記/卷091&oldid=2509940
-[77]: https://zh.wikisource.org/w/index.php?title=史記/卷092&oldid=2256147
 [80]: https://zh.wikisource.org/w/index.php?title=史記/卷095&oldid=2298709
 [81]: https://zh.wikisource.org/w/index.php?title=史記/卷096&oldid=8770206
 [83]: https://zh.wikisource.org/w/index.php?title=史記/卷098&oldid=1490318

@@ -29,7 +29,7 @@
     "status": "in_progress",
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
-    "coverage": "全31段轉錄與姓名／部分稱呼初標104名來源候選；代詞、跨篇身份、家族、官爵時段、版本與影像覆核未完成。 首批七組身份對讀，十二個重複ID更新全部引用後撤除；班固贊、附詔及索隱層保持。",
+    "coverage": "全31段轉錄與姓名／部分稱呼初標104名來源候選；代詞、跨篇身份、家族、官爵時段、版本與影像覆核未完成。 首批七組身份對讀，十二個重複ID更新全部引用後撤除；班固贊、附詔及索隱層保持。 十組引古人物按事件暫接，十個舊ID撤除；另存公孫弘兩筆來源報齡，未倒算生年。",
     "limitations": [
       "文字取得不等於人物覆核完成；未核底本影像。",
       "字季按明文連到公孫弘；後母不作生母，不補父親或父親配偶。",
@@ -38,7 +38,101 @@
       "第2至9段：弘按公孫弘敘事省名連結；后母承開篇後母，保留見證字形。管仲、桓公、晏嬰、景公為引語典故人物，先設來源候選；太常與淮南衡山、三王文武的具體指涉續核。泛稱君臣不作親屬，請歸侯乞骸骨未獲准不作官爵終止，恐病死不作死亡事件。元光五年原文保留，不能以漢書其他徵召紀年覆寫。",
       "第10至20段上書分層：成進引語陛下暫指高帝，其後主父偃陛下回指當朝；司馬法為書名，弘游燕之囿不作公孫弘。秦王與秦皇帝按本段統一與攻胡敘事暫同指，陳涉與陳勝按同一反秦事件暫同指；未改原字。尉[佗]校字片段未解，尉佗、屠睢、監祿分存來源候選，不補姓名或把並列軍役作親屬。五伯、六卿、七國等群體未補成員；先帝另設來源候選，未憑熟知時序自動合併。",
       "第21至31段初標：齊王與姊保存姊弟長幼，不作婚姻；燕王省稱依同篇定國敘事暫連，趙王未名另存。太皇太后、太史公未強定具名身份；關內侯後裔受詔的當為後者未定，未將爵位派給全部子孫。後附班固贊姓名列舉分武帝與孝宣語境，弘羊、日磾等省稱只在本段暫解，不全域套用。未由詔書追述重建新的授任或死亡事件。",
-      "武帝、衛青、霍去病、衛皇后、張歐、朱買臣與主父偃按具體家事、軍職、仕歷及事件暫接；張歐元朔三年免／四年拜、元光元年衛將軍稱謂的時點不強行統一。成進引語高帝、先帝、後附太皇太后及孝宣各保原指，班固贊不當司馬遷正文或獨立證據票數。"
+      "武帝、衛青、霍去病、衛皇后、張歐、朱買臣與主父偃按具體家事、軍職、仕歷及事件暫接；張歐元朔三年免／四年拜、元光元年衛將軍稱謂的時點不強行統一。成進引語高帝、先帝、後附太皇太后及孝宣各保原指，班固贊不當司馬遷正文或獨立證據票數。",
+      "管仲、晏嬰及其所相齊桓／景公、統一秦王及李斯蒙恬、高祖、陳勝與孔子依具體引古語境暫接；古人稱引不作當朝存世或授任證據。年四十餘保存開放下界四十，年六十為徵召時報齡；度山陽太守十餘歲為持職年數，不混為人物年齡，亦不推完整公曆任期或終止全部爵官。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-shiji112-001",
+        "person_id": "q69_35n_f3h",
+        "value": null,
+        "source_number": "四十",
+        "source_term": "年四十餘",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-112",
+            "chapter_id": "c-shiji-112-pingjin",
+            "source_id": "s-shiji112-pingjin",
+            "paragraph_id": "c-shiji-112-pingjin:p001",
+            "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。",
+            "person_mention_id": "c-shiji-112-pingjin:m001-0002"
+          }
+        ],
+        "interpretation_note": "只記來源報齡，計歲方式未明，不倒算生年、享年或學習年數；未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "bounds": {
+          "lower": 40,
+          "lower_inclusive": false,
+          "upper": null,
+          "upper_inclusive": null
+        },
+        "reporting_status": "direct_report",
+        "source_qualification": null
+      },
+      {
+        "id": "age-shiji112-002",
+        "person_id": "q69_35n_f3h",
+        "value": 60,
+        "source_number": "六十",
+        "source_term": "年六十",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "建元元年",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-112",
+            "chapter_id": "c-shiji-112-pingjin",
+            "source_id": "s-shiji112-pingjin",
+            "paragraph_id": "c-shiji-112-pingjin:p002",
+            "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+            "person_mention_id": "c-shiji-112-pingjin:m002-0021"
+          }
+        ],
+        "interpretation_note": "只記來源報齡，計歲方式未明，不倒算生年、享年或學習年數；未核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "normalized_date": {
+          "era": "BCE",
+          "era_year": 140,
+          "year": -139,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "status": "editorial_provisional",
+          "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-112-pingjin",
+              "source_id": "s-shiji112-pingjin",
+              "paragraph_id": "c-shiji-112-pingjin:p002",
+              "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+            }
+          ],
+          "references": [
+            {
+              "title": "《資治通鑑》數位編輯年標",
+              "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
+              "quote": "建元元年（辛丑，公元前一四零年）",
+              "scope": "digital_editorial_regnal_year_equivalence_only",
+              "image_verified": false
+            }
+          ],
+          "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false
+        }
+      }
     ]
   },
   "paragraphs": [
@@ -598,7 +692,7 @@
           "end": 83,
           "surface": "管仲",
           "kind": "person",
-          "person_id": "zgg_ncu_lxg",
+          "person_id": "h1v_8ap_b9y",
           "status": "contextual_provisional"
         },
         {
@@ -607,7 +701,7 @@
           "end": 97,
           "surface": "桓公",
           "kind": "person",
-          "person_id": "6ua_ti1_4bc",
+          "person_id": "9w2_c77_53m",
           "status": "contextual_provisional"
         },
         {
@@ -616,7 +710,7 @@
           "end": 108,
           "surface": "晏嬰",
           "kind": "person",
-          "person_id": "811_det_o9f",
+          "person_id": "jcn_rp4_qap",
           "status": "contextual_provisional"
         },
         {
@@ -625,7 +719,7 @@
           "end": 111,
           "surface": "景公",
           "kind": "person",
-          "person_id": "i8v_5et_i28",
+          "person_id": "wuz_yxe_b9k",
           "status": "contextual_provisional"
         },
         {
@@ -1069,7 +1163,7 @@
           "end": 119,
           "surface": "秦皇帝",
           "kind": "person",
-          "person_id": "ny0_svo_ifn",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1078,7 +1172,7 @@
           "end": 157,
           "surface": "李斯",
           "kind": "person",
-          "person_id": "62u_sdu_1e9",
+          "person_id": "49g_7az_e4i",
           "status": "contextual_provisional"
         },
         {
@@ -1087,7 +1181,7 @@
           "end": 259,
           "surface": "秦皇帝",
           "kind": "person",
-          "person_id": "ny0_svo_ifn",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1096,7 +1190,7 @@
           "end": 266,
           "surface": "蒙恬",
           "kind": "person",
-          "person_id": "8kz_4ad_0fq",
+          "person_id": "k2p_5ol_dwh_AA",
           "status": "contextual_provisional"
         }
       ]
@@ -1113,7 +1207,7 @@
           "end": 5,
           "surface": "高皇帝",
           "kind": "person",
-          "person_id": "1c0_c3k_jno",
+          "person_id": "yqp_nlb_p1p_A",
           "status": "contextual_provisional"
         },
         {
@@ -1131,7 +1225,7 @@
           "end": 61,
           "surface": "陛下",
           "kind": "person",
-          "person_id": "1c0_c3k_jno",
+          "person_id": "yqp_nlb_p1p_A",
           "status": "contextual_provisional"
         },
         {
@@ -1140,7 +1234,7 @@
           "end": 75,
           "surface": "高帝",
           "kind": "person",
-          "person_id": "1c0_c3k_jno",
+          "person_id": "yqp_nlb_p1p_A",
           "status": "contextual_provisional"
         },
         {
@@ -1149,7 +1243,7 @@
           "end": 95,
           "surface": "高皇帝",
           "kind": "person",
-          "person_id": "1c0_c3k_jno",
+          "person_id": "yqp_nlb_p1p_A",
           "status": "contextual_provisional"
         },
         {
@@ -1255,7 +1349,7 @@
           "end": 36,
           "surface": "陳涉",
           "kind": "person",
-          "person_id": "b74_xpn_elo",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -1264,7 +1358,7 @@
           "end": 67,
           "surface": "孔",
           "kind": "person",
-          "person_id": "wsh_uzd_aj3",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -1309,7 +1403,7 @@
           "end": 140,
           "surface": "陳涉",
           "kind": "person",
-          "person_id": "b74_xpn_elo",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -1327,7 +1421,7 @@
           "end": 254,
           "surface": "陳涉",
           "kind": "person",
-          "person_id": "b74_xpn_elo",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -1345,7 +1439,7 @@
           "end": 334,
           "surface": "陳涉",
           "kind": "person",
-          "person_id": "b74_xpn_elo",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -1602,7 +1696,7 @@
           "end": 4,
           "surface": "秦王",
           "kind": "person",
-          "person_id": "ny0_svo_ifn",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1611,7 +1705,7 @@
           "end": 62,
           "surface": "明天子",
           "kind": "person",
-          "person_id": "ny0_svo_ifn",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1620,7 +1714,7 @@
           "end": 176,
           "surface": "蒙恬",
           "kind": "person",
-          "person_id": "8kz_4ad_0fq",
+          "person_id": "k2p_5ol_dwh_AA",
           "status": "contextual_provisional"
         },
         {
@@ -1665,7 +1759,7 @@
           "end": 332,
           "surface": "秦皇帝",
           "kind": "person",
-          "person_id": "ny0_svo_ifn",
+          "person_id": "ao3_0fy_d45_AAA",
           "status": "contextual_provisional"
         },
         {
@@ -1674,7 +1768,7 @@
           "end": 341,
           "surface": "陳勝",
           "kind": "person",
-          "person_id": "b74_xpn_elo",
+          "person_id": "pom_ycp_ha5",
           "status": "contextual_provisional"
         },
         {
@@ -2047,7 +2141,7 @@
           "end": 15,
           "surface": "蒙恬",
           "kind": "person",
-          "person_id": "8kz_4ad_0fq",
+          "person_id": "k2p_5ol_dwh_AA",
           "status": "contextual_provisional"
         },
         {
@@ -2501,7 +2595,7 @@
           "end": 66,
           "surface": "管仲",
           "kind": "person",
-          "person_id": "zgg_ncu_lxg",
+          "person_id": "h1v_8ap_b9y",
           "status": "contextual_provisional"
         },
         {
@@ -2510,7 +2604,7 @@
           "end": 69,
           "surface": "齊桓",
           "kind": "person",
-          "person_id": "6ua_ti1_4bc",
+          "person_id": "9w2_c77_53m",
           "status": "contextual_provisional"
         },
         {
@@ -2519,7 +2613,7 @@
           "end": 85,
           "surface": "仲尼",
           "kind": "person",
-          "person_id": "wsh_uzd_aj3",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
@@ -2537,7 +2631,7 @@
           "end": 210,
           "surface": "孔子",
           "kind": "person",
-          "person_id": "wsh_uzd_aj3",
+          "person_id": "fp6_ia6_7yw",
           "status": "contextual_provisional"
         },
         {
