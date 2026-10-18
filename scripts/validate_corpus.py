@@ -1470,6 +1470,7 @@ def validate(root=ROOT):
                     from table_life_events import native_death_errors
                 for event in record['events']:
                     check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
+                    check('chinese_civil_year' not in event, '年表原生事件尚不支援段落型中文紀年證據；不可略過驗證')
                     errors.extend(native_death_errors(record, event, tables, pids))
                 continue
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
@@ -1503,6 +1504,12 @@ def validate(root=ROOT):
                           and all(key in event and event[key] is None for key in ('office_title', 'title_holding_id'))
                           and any(term in e.get('quote', '') for e in event.get('evidence', [])),
                           '未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結')
+                if 'chinese_civil_year' in event:
+                    try:
+                        from scripts.chinese_civil_years import civil_year_errors
+                    except ImportError:
+                        from chinese_civil_years import civil_year_errors
+                    errors.extend(civil_year_errors(event, chapters, tables))
                 expression = event.get('date_expression')
                 check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
                 date_context = event.get('date_context')

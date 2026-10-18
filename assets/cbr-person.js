@@ -3,7 +3,7 @@ import {escapeHTML as h} from './core.js';
 import {sourcePassageURL} from './corpus-reader.js';
 import {yearLabel} from './historical-tables.js';
 import {traceFamily} from './person-family.js';
-import {summarizeLife, ageLabel, lifeYearLabel, studyReferencesHTML} from './person-life.js';
+import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, studyReferencesHTML} from './person-life.js';
 import {t,ui} from './i18n.js';
 export const loadFamily = p => traceFamily(p, loadPerson);
 export {nativeTableURL as tableOccurrenceURL} from './native-table-links.js';
@@ -111,8 +111,9 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const lifeRow = (label, events) => {
     const dated = events.filter(e => lifeYearLabel(e) || e.date_expression);
     return dated.length ? `<dt>${label}</dt><dd>${dated.map(e => {
-      const values = [lifeYearLabel(e) ? `<strong>${h(lifeYearLabel(e))}</strong>` : '', e.date_expression ? h(e.date_expression) : ''].filter(Boolean);
-      return `<div>${values.join(' · ')}${lifeChoice(e)}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${e.normalized_date_range && full ? dateReferences(e.normalized_date_range) : ''}</details></div>`;
+      const civil=civilYearLabelData(e);
+      const values = [lifeYearLabel(e) ? `<strong>${civil?ui(civil.key,civil.params):h(lifeYearLabel(e))}</strong>` : '', e.date_expression ? h(e.date_expression) : ''].filter(Boolean);
+      return `<div>${values.join(' · ')}${lifeChoice(e)}<details><summary>原文與紀年依據</summary>${(e.evidence || []).map(x => `<blockquote>${h(x.quote)}</blockquote>${evidenceLinks([x])}`).join('')}${civil?civilYearEvidence(e):e.normalized_date_range && full ? dateReferences(e.normalized_date_range) : ''}</details></div>`;
     }).join('')}</dd>` : '';
   };
   const ages = life.ages.filter(e => Number.isInteger(e.value) || e.qualified_source_term || e.source_term);
@@ -198,6 +199,18 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     return `<blockquote>${h(sourceReferenceQuote(r))}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : h(r.title || '')}`;
   }).join('');
   const nameEvidence = names ? `<details class="person-name-evidence"><summary>姓名依據</summary><blockquote>${h(names.quote)}</blockquote>${evidenceLinks([names])}<p>${h(names.note)}</p>${dateReferences(names)}${componentAlternatives}</details>` : '';
+  const civilYearEvidence = event => {
+    const value=event.chinese_civil_year, eq=value?.year_equivalence;
+    if (!eq || typeof eq!=='object' || Array.isArray(eq)) return '';
+    const labels={regnal_era:'Received era anchor',regnal_year:'Received regnal year',event:'Received year events',editorial_year:'Digital editorial year label'};
+    const tableRefs=Object.entries(labels).map(([stem,label])=>{
+      const citation={kind:'table_cell',table_id:eq.table_id,table_cell_id:eq[stem+'_cell_id'],quote:eq[stem+'_quote'],work_id:eq.work_id,book_id:eq.book_id,chapter_id:eq.chapter_id,source_id:eq.source_id,source_revision:eq.source_revision};
+      return `<p>${ui(label)}</p><blockquote>${h(citation.quote)}</blockquote>${evidenceLinks([citation])}`;
+    }).join('');
+    const context=(value.context_evidence || []).map(e=>`<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}`).join('');
+    const window=full && event.normalized_date_range?`<details class="person-gregorian-window"><summary>${ui('Gregorian projection window')} · ${h(lifeYearLabel({...event,chinese_civil_year:undefined}))}</summary>${dateReferences(event.normalized_date_range)}</details>`:'';
+    return `<section class="person-civil-year-evidence"><h5>${ui('Chinese civil year evidence')}</h5><p>${ui('Original calendar expression')}：<q>${h(value.source_expression)}</q></p><p>${ui('Year label, not an exact Gregorian date')}</p>${context}${tableRefs}<p>${h(value.rationale)}</p>${window}</section>`;
+  };
   const lifeDateSources = date => {
     const refs = full ? dateReferences(date) : '';
     return refs ? `<details class="person-date-references"><summary>紀年依據</summary>${date.rationale ? `<p>${h(date.rationale)}</p>` : ''}${refs}</details>` : '';
