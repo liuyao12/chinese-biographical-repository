@@ -388,6 +388,56 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "ft-shiji-zichan-parent",
+      "subject_person_id": "qjs_3hl_6ck_A",
+      "participant_person_ids": [
+        "qjs_3hl_6ck_A",
+        "qjs_3hl_6ck",
+        "gts_42q_flu"
+      ],
+      "preferred_assertion_id": "a-zuozhuan-zhushu-030-xiang008-zichan-father",
+      "preferred_parent_person_id": "qjs_3hl_6ck",
+      "excluded_assertion_ids": [
+        "a-shiji042-041"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "high",
+      "confidence_scope": "preferred_reading_of_received_text_and_commentary",
+      "rationale": "針對本父系，採杜預逐文注明說子產子國子，並由發子產父及公子發注子國兩注互證身份。史記成公少子原說保留，不把古注一概置於正文之上，也不從父系選擇推任期或出生年。",
+      "evidence": [
+        {
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+          "quote": "子産子國子"
+        },
+        {
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+          "quote": "發子産父"
+        },
+        {
+          "chapter_id": "c-shiji-042-zheng",
+          "source_id": "s-shiji-042-zheng",
+          "paragraph_id": "c-shiji-042-zheng:p049",
+          "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」"
+        }
+      ],
+      "references": [],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

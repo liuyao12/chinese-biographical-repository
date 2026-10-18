@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "id": "gts_42q_flu_B",
-  "canonical_person_id": "gts_42q_flu_B",
-  "label": "子産（鄭世家候選）",
-  "identity_note": null,
+  "id": "qjs_3hl_6ck_A",
+  "canonical_person_id": "qjs_3hl_6ck_A",
+  "label": "子産",
+  "identity_note": "《史記》作鄭成公少子，杜預注明言子國之子；編輯世系首選子國，兩說及引文分存，不補未知生卒。",
   "review": "ai_provisional",
   "names": [
     "子産"
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-shiji042-018",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "title": "卿",
       "kind": "office",
       "mode": "grant",
@@ -61,7 +61,7 @@
     },
     {
       "id": "th-shiji042-024",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "title": "相",
       "kind": "office",
       "mode": "attestation",
@@ -103,7 +103,7 @@
     },
     {
       "id": "th-shiji119-003",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "title": "列大夫",
       "kind": "office",
       "mode": "attestation",
@@ -146,7 +146,7 @@
     },
     {
       "id": "th-shiji119-005",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "title": "相",
       "kind": "office",
       "mode": "grant",
@@ -215,6 +215,36 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 30,
+      "category": "",
+      "title": "襄公五年（杜預注節錄）",
+      "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+      "count": 1,
+      "quote": "發子産父",
+      "work_id": "w-zuozhuan-zhushu",
+      "work_title": "春秋左傳注疏",
+      "book_id": "b-zuozhuan-zhushu-030",
+      "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+      "paragraph_ids": [
+        "c-zuozhuan-zhushu-030-xiang-005:p001"
+      ]
+    },
+    {
+      "number": 30,
+      "category": "",
+      "title": "襄公八年（杜預注節錄）",
+      "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+      "count": 1,
+      "quote": "子産子國子",
+      "work_id": "w-zuozhuan-zhushu",
+      "work_title": "春秋左傳注疏",
+      "book_id": "b-zuozhuan-zhushu-030",
+      "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+      "paragraph_ids": [
+        "c-zuozhuan-zhushu-030-xiang-008:p001"
+      ]
+    },
+    {
       "number": 42,
       "category": "shijia",
       "title": "鄭世家第十二",
@@ -280,12 +310,78 @@
           "note": "最後太史公論贊為收到的篇文，無索隱述贊。"
         }
       }
+    },
+    {
+      "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+      "work_id": "w-zuozhuan-zhushu",
+      "book_id": "b-zuozhuan-zhushu-030",
+      "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
+      "source": {
+        "title": "春秋左傳注疏／卷三十／襄公五年（杜預注節錄）",
+        "provider": "Kanripo（轉錄所標文淵閣四庫全書）",
+        "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt",
+        "permalink": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L12-L12",
+        "revision_id": "685a6ddca22d98535cac38038afdff7308273d23",
+        "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
+        "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
+        "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
+        "accessed_on": "2026-10-17",
+        "text_scope": "partial_chapter",
+        "extent": "僅此注節錄，非該年傳文全文。",
+        "image_verified": false,
+        "rights": "所摘為晉唐古注原句，按古代公有領域文字記錄；不將Kanripo數位轉錄整體另標MIT或宣稱其授權已核。",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_scope": "古代原文分類，非Kanripo整庫授權聲明",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "依固定原行Unicode字元範圍節錄；産字及原注標記不改。非該年傳文全文，未核影像。",
+          "note": "正文、杜注及編輯判斷分層；節錄範圍與原行均可回查。"
+        },
+        "attribution_header": {
+          "line_number": 10,
+          "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+      "work_id": "w-zuozhuan-zhushu",
+      "book_id": "b-zuozhuan-zhushu-030",
+      "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
+      "source": {
+        "title": "春秋左傳注疏／卷三十／襄公八年（杜預注節錄）",
+        "provider": "Kanripo（轉錄所標文淵閣四庫全書）",
+        "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt",
+        "permalink": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L366-L366",
+        "revision_id": "685a6ddca22d98535cac38038afdff7308273d23",
+        "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
+        "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
+        "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
+        "accessed_on": "2026-10-17",
+        "text_scope": "partial_chapter",
+        "extent": "僅此注節錄，非該年傳文全文。",
+        "image_verified": false,
+        "rights": "所摘為晉唐古注原句，按古代公有領域文字記錄；不將Kanripo數位轉錄整體另標MIT或宣稱其授權已核。",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "license_scope": "古代原文分類，非Kanripo整庫授權聲明",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "依固定原行Unicode字元範圍節錄；産字及原注標記不改。非該年傳文全文，未核影像。",
+          "note": "正文、杜注及編輯判斷分層；節錄範圍與原行均可回查。"
+        },
+        "attribution_header": {
+          "line_number": 10,
+          "raw_line": "　　晉杜氏注　唐陸德明音義　孔穎達疏¶"
+        }
+      }
     }
   ],
   "relations": [
     {
       "id": "a-shiji042-041",
-      "subject_person_id": "gts_42q_flu_B",
+      "subject_person_id": "qjs_3hl_6ck_A",
       "predicate": "father",
       "object_person_id": "gts_42q_flu",
       "status": "source_attested",
@@ -303,20 +399,71 @@
       },
       "interpretation_note": "依明示子、少子及弟保存來源主張，繼位不獨作父子，如兄弟不作血親；不補母名、年代或同父同母。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-zuozhuan-zhushu-030-xiang005-zichan-father",
+      "subject_person_id": "qjs_3hl_6ck_A",
+      "predicate": "father",
+      "object_person_id": "qjs_3hl_6ck",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+          "quote": "發子産父"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "發子産父"
+      },
+      "interpretation_note": "杜預注的明示父系；所屬襄公年次為原篇位置，不作出生年或父子關係始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zuozhuan-zhushu-030-xiang008-zichan-father",
+      "subject_person_id": "qjs_3hl_6ck_A",
+      "predicate": "father",
+      "object_person_id": "qjs_3hl_6ck",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+          "quote": "子産子國子"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子産子國子"
+      },
+      "interpretation_note": "杜預注的明示父系；所屬襄公年次為原篇位置，不作出生年或父子關係始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "gts_42q_flu": "睔（鄭世家成公候選）",
-    "gts_42q_flu_B": "子産（鄭世家候選）"
+    "qjs_3hl_6ck": "公子發",
+    "qjs_3hl_6ck_A": "子産"
   },
   "dates": [],
   "reading_decisions": [
     {
       "id": "eq-shiji119-zichan",
       "person_ids": [
-        "gts_42q_flu_B"
+        "qjs_3hl_6ck_A"
       ],
-      "canonical_person_id": "gts_42q_flu_B",
+      "canonical_person_id": "qjs_3hl_6ck_A",
       "scope": "cross_chapter",
       "chapter_ids": [
         "c-shiji-042-zheng",
@@ -348,7 +495,7 @@
           ]
         }
       ],
-      "rationale": "兩篇同記鄭執政子産死亡後鄭民號哭的特定敘事，姓名、國屬、政職及死亡反應支持暫同指；鄭世家聲公五年與循吏列傳鄭昭君、治鄭二十六年各保留，未據此校定年代或君名。來源提及錨點保留，同書平行敘事不是獨立見證，來源差異待核。",
+      "rationale": "兩篇同記鄭執政子産死亡後鄭民號哭的特定敘事，姓名、國屬、政職及死亡反應支持暫同指；鄭世家聲公五年與循吏列傳鄭昭君、治鄭二十六年各保留，未據此校定年代或君名。來源提及錨點保留，同書平行敘事不是獨立見證，來源差異待核。 父系另依杜預注暫採子國說，保留成公原斷言，未由父系採擇校定君名或生卒年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
@@ -373,42 +520,98 @@
           "quote_format": "kanripo_line_wrapped",
           "display_quote": "子産鄭昭君之時(按鄭系家云子産鄭成公之少子事簡公定公簡公封子産以六邑子産)(受其半子産不事昭君亦無徐摯作相之事葢别有所出太史記異耳)太官子期(子期亦鄭之公)(子也左傳國語亦無其説按系家鄭相子駟子孔與子産同時葢亦子期之兄弟也)子産死(按左傳及)",
           "title": "《史記索隱》卷二十七：子產與鄭昭君敘事差異"
+        },
+        {
+          "title": "《春秋左傳注疏》卷三十·襄公五年（杜預注節錄）",
+          "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L12-L12",
+          "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
+          "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
+          "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
+          "quote": "發子産父",
+          "image_verified": false
+        },
+        {
+          "title": "《春秋左傳注疏》卷三十·襄公八年（杜預注節錄）",
+          "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L366-L366",
+          "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
+          "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
+          "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
+          "quote": "子産子國子",
+          "image_verified": false
+        },
+        {
+          "title": "《春秋左傳注疏》卷三十·襄公九年（杜預注節錄）",
+          "url": "https://github.com/kanripo/KR1e0004/blob/685a6ddca22d98535cac38038afdff7308273d23/KR1e0004_030.txt#L776-L776",
+          "source_commit": "685a6ddca22d98535cac38038afdff7308273d23",
+          "source_blob": "0629cd96de40c09a76ba25f97cb234a99ed183a4",
+          "raw_file_sha256": "a7d7523595d7114588a8e73b022b112cd5c44fb52434296099911bda8991c47d",
+          "quote": "公子發注子國",
+          "image_verified": false
         }
       ]
     }
   ],
   "name_components": [],
   "person_ids": [
-    "gts_42q_flu_B"
+    "qjs_3hl_6ck_A"
   ],
   "preferred_relations": [
     {
-      "id": "a-shiji042-041",
-      "subject_person_id": "gts_42q_flu_B",
+      "id": "a-zuozhuan-zhushu-030-xiang005-zichan-father",
+      "subject_person_id": "qjs_3hl_6ck_A",
       "predicate": "father",
-      "object_person_id": "gts_42q_flu",
+      "object_person_id": "qjs_3hl_6ck",
       "status": "source_attested",
       "evidence": [
         {
-          "chapter_id": "c-shiji-042-zheng",
-          "source_id": "s-shiji-042-zheng",
-          "paragraph_id": "c-shiji-042-zheng:p049",
-          "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」"
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-005-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+          "quote": "發子産父"
         }
       ],
       "qualifiers": {
-        "source_term": "子産者，鄭成公少子",
-        "historicity": "historical_tradition"
+        "source_term": "發子産父"
       },
-      "interpretation_note": "依明示子、少子及弟保存來源主張，繼位不獨作父子，如兄弟不作血親；不補母名、年代或同父同母。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "杜預注的明示父系；所屬襄公年次為原篇位置，不作出生年或父子關係始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-zuozhuan-zhushu-030-xiang008-zichan-father",
+      "subject_person_id": "qjs_3hl_6ck_A",
+      "predicate": "father",
+      "object_person_id": "qjs_3hl_6ck",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zuozhuan-zhushu",
+          "book_id": "b-zuozhuan-zhushu-030",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+          "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
+          "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+          "quote": "子産子國子"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子産子國子"
+      },
+      "interpretation_note": "杜預注的明示父系；所屬襄公年次為原篇位置，不作出生年或父子關係始年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],
   "life_events": [
     {
       "id": "le-shiji042-040",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "聲公五年",
@@ -428,7 +631,7 @@
     },
     {
       "id": "le-shiji119-001",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": null,

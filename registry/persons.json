@@ -219308,8 +219308,8 @@
       ]
     },
     {
-      "id": "gts_42q_flu_B",
-      "label": "子産（鄭世家候選）",
+      "id": "qjs_3hl_6ck_A",
+      "label": "子産",
       "status": "active",
       "historicity": "historical_tradition",
       "aliases": [
@@ -219339,7 +219339,9 @@
             "c-shiji-119-xunli:m006-0000",
             "c-shiji-119-xunli:m006-0047",
             "c-shiji-119-xunli:m006-0141",
-            "c-shiji-119-xunli:m012-0016"
+            "c-shiji-119-xunli:m012-0016",
+            "c-zuozhuan-zhushu-030-xiang-005:m001-0001",
+            "c-zuozhuan-zhushu-030-xiang-008:m001-0000"
           ]
         }
       ],
@@ -219487,6 +219489,18 @@
           "chapter_id": "c-shiji-119-xunli",
           "paragraph_id": "c-shiji-119-xunli:p012",
           "quote": "子産"
+        },
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-005:m001-0001",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+          "quote": "子産"
+        },
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-008:m001-0000",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+          "quote": "子産"
         }
       ],
       "family_path": {
@@ -219496,18 +219510,21 @@
         "human_reviewed": false,
         "evidence": [
           {
-            "chapter_id": "c-shiji-042-zheng",
-            "source_id": "s-shiji-042-zheng",
-            "paragraph_id": "c-shiji-042-zheng:p049",
-            "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
-            "source_term": "子産者，鄭成公少子"
+            "work_id": "w-zuozhuan-zhushu",
+            "book_id": "b-zuozhuan-zhushu-030",
+            "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+            "source_id": "s-zuozhuan-zhushu-030-xiang-008-wyg",
+            "source_revision": "685a6ddca22d98535cac38038afdff7308273d23",
+            "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+            "quote": "子産子國子"
           }
         ],
-        "source_assertion_id": "a-shiji042-041",
-        "interpretation_note": "以此受傳正文的明示近親主張配置局部家族；不合併跨篇候選身份、不補闕名世代，不表示遠祖世系已核實。分支字元不是長幼排行。",
+        "source_assertion_id": "a-zuozhuan-zhushu-030-xiang008-zichan-father",
+        "interpretation_note": "編輯父系首選杜預注子國說；史記成公少子原斷言保留為異說，不把少子移作子國家中排行。",
         "reviewer": "Codex（AI 代理）",
-        "parent_person_id": "gts_42q_flu"
-      }
+        "parent_person_id": "qjs_3hl_6ck"
+      },
+      "identity_note": "《史記》作鄭成公少子，杜預注明言子國之子；編輯世系首選子國，兩說及引文分存，不補未知生卒。"
     },
     {
       "id": "9g0_ueo_x4u",
@@ -391668,6 +391685,60 @@
       },
       "evidence_scope": "corpus_and_native_table_mentions",
       "identity_note": "漢表明言達玄孫茂陵公乘宣；距離四代，中間三代不明，不假定必經捷或皇柔。"
+    },
+    {
+      "id": "qjs_3hl_6ck",
+      "label": "公子發",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "發",
+          "mention_ids": [
+            "c-zuozhuan-zhushu-030-xiang-005:m001-0000"
+          ]
+        },
+        {
+          "surface": "子國",
+          "mention_ids": [
+            "c-zuozhuan-zhushu-030-xiang-008:m001-0002",
+            "c-zuozhuan-zhushu-030-xiang-009:m001-0004"
+          ]
+        },
+        {
+          "surface": "公子發",
+          "mention_ids": [
+            "c-zuozhuan-zhushu-030-xiang-009:m001-0000"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-005:m001-0000",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-005:p001",
+          "quote": "發"
+        },
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-008:m001-0002",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-008",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-008:p001",
+          "quote": "子國"
+        },
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-009:m001-0000",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-009",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-009:p001",
+          "quote": "公子發"
+        },
+        {
+          "mention_id": "c-zuozhuan-zhushu-030-xiang-009:m001-0004",
+          "chapter_id": "c-zuozhuan-zhushu-030-xiang-009",
+          "paragraph_id": "c-zuozhuan-zhushu-030-xiang-009:p001",
+          "quote": "子國"
+        }
+      ],
+      "identity_note": "杜預注以公子發釋子國，並明記為子產父；不從公子之稱補姓氏、籍貫或出生年。"
     }
   ]
 }
