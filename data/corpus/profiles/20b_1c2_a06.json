@@ -12,7 +12,56 @@
     "之",
     "其"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-phase4-j-070",
+      "person_id": "20b_1c2_a06",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "source_id": "s-jinshu-059-liang-yang",
+          "chapter_id": "c-jinshu-059-liang-yang",
+          "paragraph_id": "c-jinshu-059-liang-yang:line026",
+          "quote": "楚王瑋有勳而好立威，亮憚之，欲奪其兵權。瑋甚憾，乃承賈后旨，誣亮與瓘有廢立之謀，矯詔遣其長史公孫宏與積弩將軍李肇夜以兵圍之。帳下督李龍白外有變，請距之，亮不聽。俄然楚兵登牆而呼，亮驚曰：「吾無二心，何至於是！若有詔書，其可見乎？」宏等不許，促兵攻之。長史劉准謂亮曰：「觀此必是奸謀，府中俊乂如林，猶可盡力距戰。」又弗聽，遂為肇所執，而歎曰：「我之忠心，可破示天下也，如何無道，枉殺不辜！」是時大熱，兵人坐亮于車下，時人憐之，為之交扇。將及日中，無敢害者。瑋出令曰：「能斬亮者，賞布千匹。」遂為亂兵所害，投於北門之壁，鬢髮耳鼻皆悉毀焉。及瑋誅，追復亮爵位，給東園溫明秘器，朝服一襲，錢三百萬，布絹三百匹，喪葬之禮如安平獻王孚故事，廟設軒懸之樂。",
+          "person_mention_id": "c-jinshu-059-liang-yang:line026:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-phase4-j-070:a001",
+          "paragraph_id": "c-jinshu-059-liang-yang:line026",
+          "start": 0,
+          "end": 2,
+          "surface": "楚王",
+          "person_mention_id": "c-jinshu-059-liang-yang:line026:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源限定用稱或任授；不把未載紀年補成單年，不以死亡結束全部職爵。兼領與職掌按原詞保留。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -677,6 +726,29 @@
         }
       ],
       "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-phase4-j-005",
+      "person_id": "20b_1c2_a06",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "及瑋誅",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-059",
+          "source_id": "s-jinshu-059-liang-yang",
+          "chapter_id": "c-jinshu-059-liang-yang",
+          "paragraph_id": "c-jinshu-059-liang-yang:line026",
+          "quote": "楚王瑋有勳而好立威，亮憚之，欲奪其兵權。瑋甚憾，乃承賈后旨，誣亮與瓘有廢立之謀，矯詔遣其長史公孫宏與積弩將軍李肇夜以兵圍之。帳下督李龍白外有變，請距之，亮不聽。俄然楚兵登牆而呼，亮驚曰：「吾無二心，何至於是！若有詔書，其可見乎？」宏等不許，促兵攻之。長史劉准謂亮曰：「觀此必是奸謀，府中俊乂如林，猶可盡力距戰。」又弗聽，遂為肇所執，而歎曰：「我之忠心，可破示天下也，如何無道，枉殺不辜！」是時大熱，兵人坐亮于車下，時人憐之，為之交扇。將及日中，無敢害者。瑋出令曰：「能斬亮者，賞布千匹。」遂為亂兵所害，投於北門之壁，鬢髮耳鼻皆悉毀焉。及瑋誅，追復亮爵位，給東園溫明秘器，朝服一襲，錢三百萬，布絹三百匹，喪葬之禮如安平獻王孚故事，廟設軒懸之樂。",
+          "person_mention_id": "c-jinshu-059-liang-yang:line026:m0000"
+        }
+      ],
+      "interpretation_note": "保留本篇死亡原詞及敘事主語。紀年未直接明載則不補單年；不倒推出生年，不改官爵終點。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null

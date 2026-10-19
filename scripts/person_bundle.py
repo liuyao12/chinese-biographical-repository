@@ -701,6 +701,19 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                     for h in titles for a in h['attestations'] if 'normalized_date_range' in a]
     date_ranges += [dict(a['normalized_date_range'], record_id=a['id'], person_id=a['person_id'], date_role='age_attestation')
                     for a in ages if 'normalized_date_range' in a]
+    def context_ids(value):
+        found = set()
+        if isinstance(value, dict):
+            if isinstance(value.get('calendar_context'), dict):
+                found.add(value['calendar_context']['context_id'])
+            for item in value.values(): found.update(context_ids(item))
+        elif isinstance(value, list):
+            for item in value: found.update(context_ids(item))
+        return found
+    used_context_ids = context_ids(titles + life_events + person_events)
+    calendar_context_assertions = [c for record in records
+        if record.get('record_type') == 'calendar_context_assertion_set'
+        for c in record['records'] if c['id'] in used_context_ids]
     return {'format_version': '0.1', 'record_type': 'person_source_bundle', 'requested_person_id': requested_id,
             'canonical_person_id': person_id, 'id_aliases': people[person_id].get('id_aliases', []),
             'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id',
@@ -733,6 +746,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'mentions': mentions, 'relations': relations, 'title_holdings': titles, 'address_assertions': addresses,
             'table_occurrences': table_occurrences,
             **({'date_range_normalizations': date_ranges} if date_ranges else {}),
+            **({'calendar_context_assertions': calendar_context_assertions} if calendar_context_assertions else {}),
             'date_normalizations': ([dict(a['normalized_date'], record_id=a['id'], person_id=a['person_id']) for a in addresses if 'normalized_date' in a]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='person_event', event_type=e['event_type']) for e in person_events if 'normalized_date' in e]
                                     + [dict(e['normalized_date'], record_id=e['id'], person_id=e['person_id'], date_role='life_event', event_type=e['event_type']) for e in life_events if 'normalized_date' in e]

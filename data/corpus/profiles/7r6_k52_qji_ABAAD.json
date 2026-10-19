@@ -9,7 +9,115 @@
     "協",
     "敬祖"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wangdao4-96-7-108",
+      "person_id": "7r6_k52_qji_ABAAD",
+      "title": "撫軍參軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+          "quote": "協字敬祖，元帝撫軍參軍，襲爵武岡侯，早卒，無子，以弟劭子謐爲嗣。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-wangdao4-96-7-108",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+          "start": 7,
+          "end": 11,
+          "surface": "撫軍參軍",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文授予、任職或用稱分存；未知任期不補，不以死亡終止全部官爵，不補省略的正式全稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-wangdao4-96-14-109",
+      "person_id": "7r6_k52_qji_ABAAD",
+      "title": "武岡侯",
+      "kind": "noble_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+          "quote": "協字敬祖，元帝撫軍參軍，襲爵武岡侯，早卒，無子，以弟劭子謐爲嗣。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-wangdao4-96-14-109",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+          "start": 14,
+          "end": 17,
+          "surface": "武岡侯",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-065",
+              "chapter_id": "c-jinshu-065-wangdao-family",
+              "source_id": "s-jinshu-065-wangdao-family",
+              "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+              "quote": "協字敬祖，元帝撫軍參軍，襲爵武岡侯，早卒，無子，以弟劭子謐爲嗣。",
+              "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文授予、任職或用稱分存；未知任期不補，不以死亡終止全部官爵，不補省略的正式全稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -896,7 +1004,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-wangdao4-96-18-11",
+      "person_id": "7r6_k52_qji_ABAAD",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "早卒",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line096",
+          "quote": "協字敬祖，元帝撫軍參軍，襲爵武岡侯，早卒，無子，以弟劭子謐爲嗣。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line096:m0002"
+        }
+      ],
+      "interpretation_note": "只錄此處來源所言死亡；敘事時點與死亡年分開，不以死亡終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

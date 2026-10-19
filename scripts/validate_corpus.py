@@ -141,6 +141,12 @@ def normalized_date_errors(date, chapters=None):
                 valid = (annal_regnal_year_valid(date, source_age_number)
                          and isinstance(chapters, dict)
                          and annal_year_binding_valid(date, chapters.get(date['evidence'][0]['chapter_id'], {})))
+            if 'calendar_context' in date:
+                try:
+                    from scripts.calendar_wiring import date_shape_valid
+                except ImportError:
+                    from calendar_wiring import date_shape_valid
+                valid = date_shape_valid(date)
             if not valid:
                 errors.append('中國曆年度換算須有原紀年、相符年序及現代年號起迄對照')
     if 'basis' in date and not parallel_event_date(date):
@@ -1956,6 +1962,21 @@ def validate(root=ROOT):
             if b['complete']: check(b['person_status']=='reviewed','初步標註不得宣稱完成')
     except (KeyError,ValueError,TypeError,OSError,ET.ParseError) as exc:
         errors.append(f'資料結構或 XML 無效：{exc}')
+    try:
+        from scripts import calendar_contexts
+    except ImportError:
+        import calendar_contexts
+    errors.extend(calendar_contexts.validate(root))
+    try:
+        from scripts import calendar_wiring
+    except ImportError:
+        import calendar_wiring
+    errors.extend(calendar_wiring.validate(root))
+    try:
+        from scripts.pending_research import validate as validate_pending_research
+    except ImportError:
+        from pending_research import validate as validate_pending_research
+    errors.extend(validate_pending_research(root))
     return errors
 
 def main():

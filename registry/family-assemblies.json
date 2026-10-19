@@ -6212,6 +6212,116 @@
           }
         }
       ]
+    },
+    {
+      "id": "family-phase5-pengcheng",
+      "root_person_id": "b40_a73_d0e",
+      "label": "彭城王系：馗、權、植、釋、雄、紘",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只納本段明文父子。母親未知；分支槽位不代表排行，馗父未定，沒有強接防。",
+      "members": [
+        {
+          "person_id": "b40_a73_d0e",
+          "representative_source_person_id": "b40_a73_d0e",
+          "source_person_ids": [
+            "b40_a73_d0e"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "b40_a73_d0e_A",
+          "representative_source_person_id": "b40_a73_d0e_A",
+          "source_person_ids": [
+            "b40_a73_d0e_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "b40_a73_d0e",
+          "source_assertion_id": "a-phase5-037-權-father-馗",
+          "connection": "father"
+        },
+        {
+          "person_id": "b40_a73_d0e_AA",
+          "representative_source_person_id": "b40_a73_d0e_AA",
+          "source_person_ids": [
+            "b40_a73_d0e_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "b40_a73_d0e_A",
+          "source_assertion_id": "a-phase5-037-植-father-權",
+          "connection": "father"
+        },
+        {
+          "person_id": "b40_a73_d0e_AAA",
+          "representative_source_person_id": "b40_a73_d0e_AAA",
+          "source_person_ids": [
+            "b40_a73_d0e_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "b40_a73_d0e_AA",
+          "source_assertion_id": "a-phase5-037-釋-father-植",
+          "connection": "father"
+        },
+        {
+          "person_id": "b40_a73_d0e_AAAA",
+          "representative_source_person_id": "b40_a73_d0e_AAAA",
+          "source_person_ids": [
+            "b40_a73_d0e_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "b40_a73_d0e_AAA",
+          "source_assertion_id": "a-phase5-037-雄-father-釋",
+          "connection": "father"
+        },
+        {
+          "person_id": "b40_a73_d0e_AAAB",
+          "representative_source_person_id": "b40_a73_d0e_AAAB",
+          "source_person_ids": [
+            "b40_a73_d0e_AAAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "b40_a73_d0e_AAA",
+          "source_assertion_id": "a-phase5-037-紘-father-釋",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-phase5-sujun",
+      "root_person_id": "lrg_cze_g1l",
+      "label": "蘇峻與明文子碩",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只納本段明文父子。母親未知；分支槽位不代表排行，馗父未定，沒有強接防。",
+      "members": [
+        {
+          "person_id": "lrg_cze_g1l",
+          "representative_source_person_id": "lrg_cze_g1l",
+          "source_person_ids": [
+            "lrg_cze_g1l"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "lrg_cze_g1l_A",
+          "representative_source_person_id": "lrg_cze_g1l_A",
+          "source_person_ids": [
+            "lrg_cze_g1l_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "lrg_cze_g1l",
+          "source_assertion_id": "a-phase5-100-碩-father-峻",
+          "connection": "father"
+        }
+      ]
     }
   ]
 }

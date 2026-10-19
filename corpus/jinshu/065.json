@@ -703,7 +703,7 @@
     "reviewer": "Codex（AI 代理）",
     "human_reviewed": false,
     "model": null,
-    "coverage": "完整數位正文逐段首輪人名標記，沿用既有4段錨點；代詞、泛稱與異字尚有未決。",
+    "coverage": "完整數位正文逐段首輪人名標記，沿用既有4段錨點；代詞、泛稱與異字尚有未決。 phase4已逐段補錄稱號任職、生卒報齡、地望與紀年；未決語式另存，不稱全數身份已定。",
     "limitations": [
       "章首數位notes誤列子珣，正文列六子悅恬洽協邵薈；只依正文建立父子。",
       "王洽中書令苦讓遂不受，另記未任提議，不作已任官職。",
@@ -711,7 +711,8 @@
       "未親核影像，未宣稱全卷校定。",
       "完整附傳的收養、離婚、同名子孫須分型，現schema不支援者留候選。",
       "劭／邵、旬／珣、恆／桓、紀贍／紀瞻、周圮／周顗原字不改。",
-      "未從王敦從兄、王謐從弟諶或王獻之族弟推未知父親。"
+      "未從王敦從兄、王謐從弟諶或王獻之族弟推未知父親。",
+      "王珣卒時歳餘不唯一換算401；王導六年與曹氏是歳未補年號；不以死亡統一結束官爵。"
     ],
     "title_proposals": [
       {
@@ -902,6 +903,94 @@
           "end": 109,
           "surface": "並不行"
         }
+      },
+      {
+        "id": "tp-wangdao4-80-4",
+        "person_id": "7r6_k52_qji_ABAAAA",
+        "title": "散騎常侍",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "start": 56,
+          "end": 60,
+          "surface": "散騎常侍"
+        },
+        "person_mention_id": "c-jinshu-065-wangdao-family:line080:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "start": 55,
+          "end": 56,
+          "surface": "除"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "start": 61,
+          "end": 63,
+          "surface": "不拜"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+            "quote": "珣兄弟皆謝氏婿，以猜嫌致隙。太傅安既與珣絶婚，又離瑉妻，由是二族遂成仇釁。時希安旨，乃出珣爲豫章太守，不之官。除散騎常侍，不拜。遷秘書監。安卒後，遷侍中，孝武深杖之。轉輔國將軍、呉國內史，在郡爲士庶所悅。徵爲尚書右僕射，領吏部，轉左僕射，加征虜將軍，復領太子詹事。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line080:m0000"
+          }
+        ],
+        "interpretation_note": "任用與明示不受／不赴分存，不列實任持職。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-wangdao4-110-6",
+        "person_id": "7r6_k52_qji_ABAAF",
+        "title": "中領軍",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line110",
+          "start": 70,
+          "end": 73,
+          "surface": "中領軍"
+        },
+        "person_mention_id": "c-jinshu-065-wangdao-family:line110:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line110",
+          "start": 68,
+          "end": 70,
+          "surface": "征補"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-065-wangdao-family:line110",
+          "start": 74,
+          "end": 76,
+          "surface": "不拜"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line110",
+            "quote": "薈字敬文。恬虛守靖，不競榮利，少曆清官，除吏部郎、侍中、建威將軍、呉國內史。時年饑粟貴，人多餓死，薈以私米作饘粥，以飴餓者，所濟活甚眾。征補中領軍，不拜。徙尚書，領中護軍，復爲征虜將軍、呉國內史。頃之，桓沖表請薈爲江州刺史，固辭不拜。轉督浙江東五郡、左將軍、會稽內史，進號鎮軍將軍，加散騎常侍。卒于官，贈衞將軍。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line110:m0000"
+          }
+        ],
+        "interpretation_note": "任用與明示不受／不赴分存，不列實任持職。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
       }
     ],
     "age_assertions": [
@@ -980,6 +1069,160 @@
           }
         ],
         "interpretation_note": "王洽卒時原報年齡，與卒年分開，不推生年或既定計歲法。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wangdao4-12-35",
+        "person_id": "7r6_k52_qji_ABAA",
+        "value": 14,
+        "source_number": "十四",
+        "source_term": "年十四",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:p001",
+            "quote": "王導，字茂弘，光祿大夫覽之孫也。父裁，鎮軍司馬。導少有風鑒，識量清遠。年十四，陳留高士張公見而奇之，謂其從兄敦曰：「此兒容貌志氣，將相之器也。」初襲祖爵即丘子。司空劉實尋引爲東閣祭酒，遷秘書郎、太子舍人、尚書郎，並不行。後參東海王越軍事。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:p001:m0024"
+          }
+        ],
+        "age_context": {
+          "kind": "during_life"
+        },
+        "interpretation_note": "報齡原數與時點分存；不倒推生年，不用未來預測作實際報齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wangdao4-58-6",
+        "person_id": "7r6_k52_qji_ABAA",
+        "value": 64,
+        "source_number": "六十四",
+        "source_term": "年六十四",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line058",
+            "quote": "咸康五年薨，時年六十四。帝舉哀於朝堂三日，遣大鴻臚持節監護喪事，賵襚之禮，一依漢博陸侯及安平獻王故事。及葬，給九游轀輬車、黃屋左纛、前後羽葆鼓吹、武賁班劍百人，中興名臣莫與爲比。冊曰：「蓋高位以酬明德，厚爵以答懋勳；至乎闔棺標跡，莫尚號諡，風流百代，於是乎在。惟公邁達沖虛，玄鑒劭邈；夷淡以約其心，體仁以流其惠；棲遲務外，則名雋中夏，應期濯纓，則潛算獨運。昔我中宗、肅祖之基中興也，下帷委誠而策定江左，拱己宅心而庶績咸熙。故能威之所振，寇虐改心，化之所鼓，檮杌易質；調陰陽之和，通彝倫之紀，遼隴承風，丹穴景附。隆高世之功，復宣武之績，舊物不失，公協其猷。若乃荷負顧命，保朕沖人，遭遇艱圮，夷險委順；拯其淪墜而濟之以道，扶其頹傾而弘之以仁，經緯三朝而蘊道彌曠。方賴高謨，以穆四海，昊天不吊，奄忽薨殂，朕用震慟於心。雖有殷之殞保衡，有周之喪二南，曷諭茲懷！今遣使持節、謁者僕射任瞻錫諡曰文獻，祠乙太牢。魂而有靈，嘉茲榮寵！」",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line058:m0131"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-wangdao4-58-4-1"
+        },
+        "interpretation_note": "報齡原數與時點分存；不倒推生年，不用未來預測作實際報齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wangdao4-86-13",
+        "person_id": "7r6_k52_qji_ABAAAA",
+        "value": 52,
+        "source_number": "五十二",
+        "source_term": "年五十二",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line086",
+            "quote": "四年，以疾解職。歳餘，卒，時年五十二。追贈車騎將軍、開府，諡曰獻穆。桓玄與會稽王道子書曰：「珣神情朗悟，經史明徹，風流之美，公私所寄。雖逼嫌謗，才用不盡；然君子在朝，弘益自多。時事艱難，忽爾喪失，歎懼之深，豈但風流相悼而已！其崎嶇九折，風霜備經，雖賴明公神鑒，亦識會居之故也。卒以壽終，殆無所哀。但情發去來，置之未易耳。」玄輔政，改贈司徒。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line086:m0046"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-wangdao4-86-11-9"
+        },
+        "interpretation_note": "報齡原數與時點分存；不倒推生年，不用未來預測作實際報齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wangdao4-92-197",
+        "person_id": "7r6_k52_qji_ABAAAB",
+        "value": 38,
+        "source_number": "三十八",
+        "source_term": "年三十八",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line092",
+            "quote": "瑉字季琰。少有才藝，善行書，名出珣右。時人爲之語曰：「法護非不佳，僧彌難爲兄。」僧彌，瑉小字也。時有外國沙門，名提婆，妙解法理，爲珣兄弟講《毗曇經》。瑉時尚幼，講未半，便雲已解，即於別室與沙門法綱等數人自講。法綱歎曰：「大義皆是，但小未精耳。」辟州主簿，舉秀才，不行。後曆著作、散騎郎、國子博士、黃門侍郎、侍中，代王獻之爲長兼中書令。二人素齊名，世謂獻之爲「大令」，瑉爲「小令」。太元十三年卒，時年三十八，追贈太常。二子：朗、練。義熙中，並歷侍中。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line092:m0186"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-wangdao4-92-195-10"
+        },
+        "interpretation_note": "報齡原數與時點分存；不倒推生年，不用未來預測作實際報齡。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wangdao4-102-228",
+        "person_id": "3c9_d1d_870",
+        "value": 48,
+        "source_number": "四十八",
+        "source_term": "年四十八",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-065",
+            "chapter_id": "c-jinshu-065-wangdao-family",
+            "source_id": "s-jinshu-065-wangdao-family",
+            "paragraph_id": "c-jinshu-065-wangdao-family:line102",
+            "quote": "初，劉裕爲布衣，眾未之識也，惟謐獨奇貴之，嘗謂裕曰：「卿當爲一代英雄。」及裕破恆玄，謐以本官加侍中，領揚州刺史、録尚書事。謐既受寵桓氏，常不自安。護軍將軍劉毅嘗問謐曰：「璽綬何在？」謐益懼。會王綏以桓氏甥自疑，謀反，父子兄弟皆伏誅。謐從弟諶，少驍果輕俠，欲誘謐還呉，起兵爲亂，乃説謐曰：「王綏無罪，而義旗誅之，是除時望也。兄少立名譽，加位地如此，欲不危，得乎！」謐懼而出奔。劉裕箋詣大將軍、武陵王遵，遣人追躡，謐既還，委任如先，加謐班劍二十人。義熙三年卒，時年四十八。追贈侍中、司徒，諡曰文恭。三子：瓘、球、琇。入宋，皆至大官。",
+            "person_mention_id": "c-jinshu-065-wangdao-family:line102:m0215"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-wangdao4-102-226-12"
+        },
+        "interpretation_note": "報齡原數與時點分存；不倒推生年，不用未來預測作實際報齡。",
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
