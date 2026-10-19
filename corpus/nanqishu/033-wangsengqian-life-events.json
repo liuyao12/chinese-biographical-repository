@@ -1,0 +1,102 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-nanqishu-033-wangsengqian",
+  "events": [
+    {
+      "id": "le-wang25-92",
+      "person_id": "7r6_k52_qji_ABAAAAEB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p013",
+          "quote": "永明三年薨僧䖍頗解星文夜坐見豫章分野當有事故時僧䖍子慈為豫章内史慮其有公事少時僧䖍薨慈棄郡奔赴僧䖍時年六十追贈司空侍中如故諡簡穆",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p013:m0005"
+        }
+      ],
+      "interpretation_note": "永明3中國曆年485，非由報齡反推出生。 不補未知起訖，不以死亡終止其他官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "source_term": "薨",
+      "date_expression": "永明三年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 485,
+        "year": 485,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "永明三年",
+        "status": "editorial_provisional",
+        "original_quote": "永明三年薨僧䖍頗解星文夜坐見豫章分野當有事故時僧䖍子慈為豫章内史慮其有公事少時僧䖍薨慈棄郡奔赴僧䖍時年六十追贈司空侍中如故諡簡穆",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p013",
+            "quote": "永明三年薨僧䖍頗解星文夜坐見豫章分野當有事故時僧䖍子慈為豫章内史慮其有公事少時僧䖍薨慈棄郡奔赴僧䖍時年六十追贈司空侍中如故諡簡穆",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p013:m0005"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表（固定轉存於phase24）",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "永明",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "era_name": "永明",
+              "first_year": "483",
+              "last_year": "493"
+            },
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "永明",
+          "source_number": "三",
+          "regnal_year": 3,
+          "start_ce_year": 483,
+          "end_ce_year": 493,
+          "reference_index": 0
+        },
+        "rationale": "只依本段明寫年號年序及固定現代對照表，數值為中國曆年；不倒算生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    },
+    {
+      "id": "le-wang25-115",
+      "person_id": "7r6_k52_qji_ABAAAAEBB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+          "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+        }
+      ],
+      "interpretation_note": "卒年二十一是報齡，不是公元21年；不把建武初染為卒年。 不補未知起訖，不以死亡終止其他官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": null
+    }
+  ]
+}

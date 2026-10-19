@@ -8,7 +8,8 @@ def relative_regnal_year_valid(date, parse_number, chapters=None):
     evidence, refs = date.get('evidence', []), date.get('references', [])
     term = context.get('source_term')
     offset = {'明年': 1, '其年': 0}.get(term)
-    omitted_era = (context.get('kind') == 'omitted_era_regnal_year'
+    staged_era = context.get('kind') == 'omitted_era_regnal_year_after_era_stage'
+    omitted_era = (context.get('kind') in ('omitted_era_regnal_year', 'omitted_era_regnal_year_after_era_stage')
                    and term == str(mapping.get('source_number')) + '年')
     if omitted_era:
         offset = 0
@@ -40,15 +41,23 @@ def relative_regnal_year_valid(date, parse_number, chapters=None):
         return False
     prior = context.get('antecedent_expression')
     era_term = context.get('era_expression')
+    stage_term = staged_era and era_term in (name + '初', name + '中', name + '末')
     if (prior not in (str(number) + '年', name + str(number) + '年')
             or not isinstance(era_term, str) or not era_term.startswith(name)
-            or not era_term.endswith('年')
-            or (1 if era_term[len(name):-1] == '元' else parse_number(era_term[len(name):-1])) is None
+            or not (stage_term or era_term.endswith('年')
+                    and (1 if era_term[len(name):-1] == '元' else parse_number(era_term[len(name):-1])) is not None)
             or era_term not in era_e.get('quote', '')
             or prior not in prior_e.get('quote', '') or term not in event_e.get('quote', '')):
         return False
     if not omitted_era and indices[1] == indices[2] and prior_e['quote'].index(prior) >= event_e['quote'].index(term):
         return False
+    if staged_era:
+        try:
+            from scripts.era_stage_dates import staged_scope_valid
+        except ImportError:
+            from era_stage_dates import staged_scope_valid
+        if not staged_scope_valid(date, chapters):
+            return False
     if number == '元' and 'narrative_era_scope' not in date:
         return False
     if 'narrative_era_scope' in date:

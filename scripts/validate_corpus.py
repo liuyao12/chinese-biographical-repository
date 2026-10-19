@@ -7,6 +7,10 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 from urllib.parse import urlparse
+try:
+    from scripts.era_stage_dates import binding_valid
+except ImportError:
+    from era_stage_dates import binding_valid
 ROOT = Path(__file__).resolve().parents[1]
 
 def source_age_number(number):
@@ -20,6 +24,12 @@ def source_age_number(number):
     if match:
         return (digits.index(match[1]) + 1 if match[1] else 1) * 100 + (source_age_number(match[2]) if match[2] else 0)
     return None
+
+def direct_source_age_valid(age):
+    number = age.get('source_number'); parsed = source_age_number(number)
+    return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
+            and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
+
 
 def named_office_end_valid(holding, paragraphs, mentions):
     """明言終於此職的終期，不能以一般死亡替代所有官爵終期。"""
@@ -777,8 +787,10 @@ def validate(root=ROOT):
                 if current in seen:
                     check(False,'同指決定代表循環');break
                 seen.add(current);current=canonical_links[current]
-        def validate_date_evidence(date, context_evidence, expression=None):
+        def validate_date_evidence(date, context_evidence, expression=None, bound_record=None, bound_role=None):
             errors.extend(normalized_date_errors(date, chapters))
+            if isinstance(date, dict):
+                check(binding_valid(date, bound_record, bound_role), '初中末年號紀年須綁實際同人同官授任／生卒記錄')
             if not isinstance(date, dict):
                 return
             context_ids = {e['paragraph_id'] for e in context_evidence}
@@ -1148,7 +1160,7 @@ def validate(root=ROOT):
                     if 'normalized_date' in a:
                         expression = a.get('date_expression')
                         check(expression is None or isinstance(expression, str) and bool(expression), '用稱日期表述無效')
-                        validate_date_evidence(a['normalized_date'], h['evidence'], expression)
+                        validate_date_evidence(a['normalized_date'], h['evidence'], expression, h, 'attestation')
                     if 'normalized_date_range' in a:
                         try:
                             from scripts.date_ranges import year_range_errors
@@ -1179,7 +1191,7 @@ def validate(root=ROOT):
                         check(date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
                         if 'normalized_date' in boundary:
                             check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
-                            validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date)
+                            validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date, h, endpoint)
                         if 'normalized_date_range' in boundary:
                             try:
                                 from scripts.date_ranges import year_range_errors
@@ -1607,8 +1619,7 @@ def validate(root=ROOT):
                               and age['qualified_source_term'].endswith(str(age.get('source_term')))
                               and any(age['qualified_source_term'] in e.get('quote', '') for e in age.get('evidence', [])), '個人報齡缺來源限定詞或傳聞狀態')
                 else:
-                    check(type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-                          and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳'), '來源年齡數值與原詞不符')
+                    check(direct_source_age_valid(age), '來源年齡數值與原詞不符')
                 check(age.get('counting') == 'unspecified_source_age' and age.get('unit') == 'source_age_years'
                       and age.get('birth_year') is None and age.get('status') == 'source_attested',
                       '來源年齡不得推定計歲方式或出生年')
@@ -1913,6 +1924,7 @@ def validate(root=ROOT):
                     errors.extend(table_regnal_range_errors(year_window, expression, tables, mentions))
                 if 'normalized_date' in event:
                     date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters))
+                    check(binding_valid(date, event, 'life_event'), '初中末年號紀年須綁實際同人死亡事件')
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
                         check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')

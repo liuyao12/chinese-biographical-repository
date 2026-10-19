@@ -11,7 +11,67 @@
     "之",
     "汝"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wang25-114",
+      "person_id": "7r6_k52_qji_ABAAAAEBB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+          "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+        }
+      ],
+      "interpretation_note": "初是早先官歷，不把前建武初作其任官年。 不補未知起訖，不以死亡終止其他官爵。 原任事動作：appointment；初為祕書郎。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "祕書郎",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-wang25-114:a001",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+          "start": 67,
+          "end": 70,
+          "surface": "祕書郎",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-nanqishu",
+              "book_id": "b-nanqishu-033",
+              "source_id": "s-nanqishu-033-wangsengqian",
+              "chapter_id": "c-nanqishu-033-wangsengqian",
+              "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+              "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+              "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+            }
+          ],
+          "event_type": "grant"
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -3221,7 +3281,28 @@
     "7r6_k52_qji_ABAAAAEBC": "王志"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "7r6_k52_qji_ABAAAAEBB",
+      "title": null,
+      "surname": null,
+      "ming": "寂",
+      "additional_names": [
+        "字子𤣥"
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-033",
+      "chapter_id": "c-nanqishu-033-wangsengqian",
+      "source_id": "s-nanqishu-033-wangsengqian",
+      "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+      "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+      "note": "不因父姓替本句補姓名證據原字；僧虔／志主體之外明載構件另列。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "zi": "子𤣥"
+    }
+  ],
   "person_ids": [
     "7r6_k52_qji_ABAAAAEBB"
   ],
@@ -3325,8 +3406,58 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
-  "life_events": [],
+  "age_assertions": [
+    {
+      "id": "age-wang25-115",
+      "person_id": "7r6_k52_qji_ABAAAAEBB",
+      "value": 21,
+      "source_number": "二十一",
+      "source_term": "年二十一",
+      "counting": "unspecified_source_age",
+      "unit": "source_age_years",
+      "birth_year": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+          "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "life_events": [
+    {
+      "id": "le-wang25-115",
+      "person_id": "7r6_k52_qji_ABAAAAEBB",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-033",
+          "source_id": "s-nanqishu-033-wangsengqian",
+          "chapter_id": "c-nanqishu-033-wangsengqian",
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+          "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+          "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+        }
+      ],
+      "interpretation_note": "卒年二十一是報齡，不是公元21年；不把建武初染為卒年。 不補未知起訖，不以死亡終止其他官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "source_term": "卒",
+      "date_expression": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
