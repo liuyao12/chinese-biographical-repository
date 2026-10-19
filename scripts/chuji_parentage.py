@@ -3,6 +3,12 @@
 
 def chuji_parentage_valid(a, paragraphs, assertions):
     q = a.get('qualifiers', {})
+    if q.get('adoption_basis') == 'named_younger_brother_son_as_heir':
+        try:
+            from scripts.named_heir_parentage import named_brother_son_heir_valid
+        except ImportError:
+            from named_heir_parentage import named_brother_son_heir_valid
+        return named_brother_son_heir_valid(a, paragraphs, assertions)
     evidence = a.get('evidence', [])
     if (a.get('predicate') != 'adoptive_father'
             or a.get('status') != 'source_attested'
