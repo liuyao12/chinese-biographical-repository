@@ -101,3 +101,9 @@ test('unknown or differently qualified ages are not silently merged',()=>{
  const dated={...age,normalized_date:{year:447,era:'CE'}};
  assert.equal(summarizeLife({id:'synthetic-person',age_assertions:[dated,{...dated,reporting_status:'qualified_report',qualified_source_term:'蓋年八十八'}]}).ages.length,2);
 });
+
+test('annal section dating displays the stored reign year without rewriting source wording',()=>{
+ const event={date_expression:'秋七月壬午',normalized_date:{regnal_year_mapping:{kind:'annal_ce_regnal_era_span',era_name:'元嘉',target_regnal_year:25}}};
+ assert.equal(sourceDateLabel(event),'元嘉二十五年（原文：秋七月壬午）');
+ assert.equal(event.date_expression,'秋七月壬午');
+});

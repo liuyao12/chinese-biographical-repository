@@ -19,7 +19,8 @@ class NanshiWangFamily(unittest.TestCase):
         self.a = {a['id']: a for a in read('corpus/nanshi/024-assertions.json')['assertions']}
 
     def test_complete_selected_paragraphs_preserve_raw_spelling(self):
-        self.assertEqual(sorted(self.p), [19, 21, 29, 33, 37, 43, 45, 53, 57, 61, 67])
+        self.assertEqual(sorted(self.p), [15, 17, 19, 21, 23, 25, 29, 33, 35, 37,
+                                         39, 43, 45, 47, 49, 53, 57, 61, 63, 67])
         excerpts = {e['proposed_paragraph_id']: e for e in self.c['source']['normalization']['excerpts']}
         for p in self.c['paragraphs']:
             e = excerpts[p['id']]
