@@ -1280,7 +1280,7 @@ def validate(root=ROOT):
                           and qualifiers.get('mother_person_id') is None
                           and any('姊子' in e.get('quote', '') for e in a['evidence']))
                           or explicit_maternal_uncle_valid(a, paragraphs),
-                          '甥舅關係須有姊子原詞或舅某雙人物錨點，保留母系世代與未名母親')
+                          '甥舅關係須有姊子原詞、舅某或相鄰具名某之外甥錨點，保留母系世代與未名母親')
                 if a['predicate'] == 'grandmother':
                     check(qualifiers.get('source_term') == '外孫'
                           and qualifiers.get('generation_difference') == -2

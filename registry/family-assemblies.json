@@ -2880,7 +2880,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。",
+      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。",
       "members": [
         {
           "person_id": "7r6_k52_qji",
@@ -3607,6 +3607,180 @@
           "parent_person_id": "7r6_k52_qji_ABDABAA",
           "source_assertion_id": "a-songshu093-wang-daughter-father",
           "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDAC",
+          "representative_source_person_id": "7r6_k52_qji_ABDAC",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "chain_subject_person_id": "7r6_k52_qji_ABDACAA",
+            "nearer_ancestor_assertion_id": "a-songshu092-zhenzhi-grandfather",
+            "farther_ancestor_assertion_id": "a-songshu092-zhenzhi-great-grandfather",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0031",
+                "assertion_id": "a-songshu092-zhenzhi-grandfather",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0022",
+                "assertion_id": "a-songshu092-zhenzhi-great-grandfather",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              }
+            ],
+            "rationale": "宋書王鎮之傳首同段列父、祖、曾祖連續具名世次；父子邊為編輯推導，不捏造該父子直接原句。"
+          },
+          "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDACA",
+          "representative_source_person_id": "7r6_k52_qji_ABDACA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDACA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDAC",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "chain_subject_person_id": "7r6_k52_qji_ABDACAA",
+            "nearer_ancestor_assertion_id": "a-songshu092-zhenzhi-father",
+            "farther_ancestor_assertion_id": "a-songshu092-zhenzhi-grandfather",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0039",
+                "assertion_id": "a-songshu092-zhenzhi-father",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0031",
+                "assertion_id": "a-songshu092-zhenzhi-grandfather",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              }
+            ],
+            "rationale": "宋書王鎮之傳首同段列父、祖、曾祖連續具名世次；父子邊為編輯推導，不捏造該父子直接原句。"
+          },
+          "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDACAA",
+          "representative_source_person_id": "7r6_k52_qji_ABDACAA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDACAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDACA",
+          "source_assertion_id": "a-songshu092-zhenzhi-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDACAB",
+          "representative_source_person_id": "7r6_k52_qji_ABDACAB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDACAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDACA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "7r6_k52_qji_ABDACAA",
+            "sibling_assertion_id": "a-songshu092-zhenzhi-hongzhi-brother",
+            "sibling_father_assertion_id": "a-songshu092-zhenzhi-father",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0015",
+                "assertion_id": "a-songshu092-zhenzhi-hongzhi-brother",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-092",
+                "source_id": "s-songshu-092-wangzhenzhi",
+                "chapter_id": "c-songshu-092-wangzhenzhi",
+                "paragraph_id": "c-songshu-092-wangzhenzhi:line012",
+                "quote": "王鎮之字伯重，琅邪臨沂人，徵士弘之兄也。曾祖廙，晉驃騎將軍。祖耆之，中書郎。父隨之，上虞令。",
+                "subject_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0000",
+                "object_person_mention_id": "c-songshu-092-wangzhenzhi:line012:m0039",
+                "assertion_id": "a-songshu092-zhenzhi-father",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B792&oldid=2195614"
+              }
+            ],
+            "rationale": "王鎮之明載為弘之兄，鎮之父隨之明載；暫按同父兄弟接合，不由兄弟稱謂推成同母。"
+          },
+          "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDACAAA",
+          "representative_source_person_id": "7r6_k52_qji_ABDACAAA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDACAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDACAA",
+          "source_assertion_id": "a-songshu092-biaozhi-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDACABA",
+          "representative_source_person_id": "7r6_k52_qji_ABDACABA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDACABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDACAB",
+          "source_assertion_id": "a-songshu093-tansheng-father"
         }
       ]
     },
@@ -4822,6 +4996,68 @@
             null
           ],
           "interpretation_note": "南齊書明言裕玄孫，記四代父系距離；三個中間世代姓名未知，星號不是虛構人物，父親保持未知。"
+        }
+      ]
+    },
+    {
+      "id": "family-wang-yu-sui",
+      "label": "王愉、王綏：傳文明載父子",
+      "root_person_id": "jiu_zvj_hbl",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "宋書92明言愉子綏；只接本段父子，不因同姓接琅邪王氏。桓玄為母舅另存，母親未名不補人物。",
+      "members": [
+        {
+          "person_id": "jiu_zvj_hbl",
+          "representative_source_person_id": "jiu_zvj_hbl",
+          "source_person_ids": [
+            "jiu_zvj_hbl"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "jiu_zvj_hbl_A",
+          "representative_source_person_id": "jiu_zvj_hbl_A",
+          "source_person_ids": [
+            "jiu_zvj_hbl_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "jiu_zvj_hbl",
+          "source_assertion_id": "a-songshu092-wangsui-father"
+        }
+      ]
+    },
+    {
+      "id": "family-he-zhun-fani",
+      "label": "何准、何法倪：何皇后父系",
+      "root_person_id": "3ea_uzt_2n2",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "何皇后傳明載父準；與已據外戚傳辨識的何准合接。王弘之之外祖關係另存，不將何皇后補為其母。",
+      "members": [
+        {
+          "person_id": "3ea_uzt_2n2",
+          "representative_source_person_id": "3ea_uzt_2n2",
+          "source_person_ids": [
+            "3ea_uzt_2n2"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "3ea_uzt_2n2_A",
+          "representative_source_person_id": "3ea_uzt_2n2_A",
+          "source_person_ids": [
+            "3ea_uzt_2n2_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "3ea_uzt_2n2",
+          "source_assertion_id": "a-jinshu032-he-empress-father"
         }
       ]
     }

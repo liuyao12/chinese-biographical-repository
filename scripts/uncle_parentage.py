@@ -90,7 +90,14 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
                             and p['text'][gap_start - 1:obj['start']] == '舅' + place
                             and not any(m.get('kind') == 'person' and m['start'] < obj['start']
                                         and m['end'] > gap_start for m in p.get('mentions', [])))
-        if not (named or unnamed or named_with_place):
+        # 「綏，玄之外甥」 states the same directed relationship in reverse.
+        nephew_end = obj['end'] + len('之外甥')
+        named_nephew_of = (q.get('source_term') == obj['surface'] + '之外甥'
+                          and p['text'][obj['end']:nephew_end] == '之外甥'
+                          and p['text'][subject['end']:obj['start']] in ('', '，', '、')
+                          and (nephew_end == len(p['text'])
+                               or p['text'][nephew_end] in '，。；、'))
+        if not (named or unnamed or named_with_place or named_nephew_of):
             return False
         if not any(e['quote'] == p['text'][i:i + len(e['quote'])] and i <= subject['start']
                    and obj['end'] <= i + len(e['quote']) for i in range(len(p['text']))):

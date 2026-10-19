@@ -334,7 +334,7 @@ class CorpusTests(unittest.TestCase):
         self.assertIn('大父行只記祖父輩，不得補直系祖父或親等', v.validate(self.root))
     def test_jiezi_keeps_maternal_generation(self):
         self.change('corpus/shiji/111-assertions.json', lambda d: next(a for a in d['assertions'] if a['predicate'] == 'maternal_uncle')['qualifiers'].update(lineage='paternal'))
-        self.assertIn('甥舅關係須有姊子原詞或舅某雙人物錨點，保留母系世代與未名母親', v.validate(self.root))
+        self.assertIn('甥舅關係須有姊子原詞、舅某或相鄰具名某之外甥錨點，保留母系世代與未名母親', v.validate(self.root))
     def test_title_month_rejects_number_mismatch(self):
         self.change('corpus/shiji/048-titles.json', lambda d: next(h for h in d['holdings'] if h.get('reported_duration', {}).get('unit') == 'title_month')['reported_duration'].update(value=7))
         self.assertIn('稱號來源在位年數或原詞證據無效', v.validate(self.root))

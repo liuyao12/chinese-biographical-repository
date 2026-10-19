@@ -619,6 +619,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 `maternal_uncle` 除原有「姊子」格式，也可由明示「舅某」保存甥舅：同一證據有 `subject_person_mention_id`、`object_person_mention_id`，前者指甥、後者指接在舅字後的具名人物，`source_term` 為舅加原稱。未名舅以原字「舅」作人物錨點、`source_term: 舅`、`object_name_status: not_recorded`；不補姓名。兩種格式均保留 `lineage: maternal`、`generation_difference: -1`、`mother_person_id: null`，不能把兩代不同舅父或外祖父混為同人。
 
+反向原句「綏，玄之外甥」亦可保存同一方向的 `maternal_uncle`，主體為綏、客體為玄。`source_term` 保留客體原稱加「之外甥」，兩端錨點須相鄰（可隔原逗號或頓號），並逐字綁定完整「之外甥」與句界；不將泛稱「甥」或同段任意兩人自動轉成母舅。母系世代與未名母親欄位要求不變。
+
 `maternal_cousin` 目前保存明示「姨弟」：`kinship_structure.lineage: maternal`、`generation_difference: 0`、`collateral: true`、`maternal_path: mother_sister_son`、`subject_relative_age: younger`。原路徑與長幼分存，未名母親及共同祖先不填身份，`distance`、`common_ancestor_person_id` 保持null；不能誤作父系從弟或接進共同父系。證據含主客體人物雙錨點，原詞須緊接客體原稱；相對排行使用 `scope: maternal_cousins`，不推絕對排行。
 
 姓名組件的 `zi_basis.kind: biographical_subject_called_by_courtesy_name` 保存傳首明言「故稱字」的情形。`subject_anchor` 指傳首姓加字，`marker_anchor` 指同段「故稱字」，兩者均保留段落ID及Unicode位置；附 `status: source_attested`、`human_reviewed: false`、理由，不將字冒作名。直接「字某」仍依原格式。平行正文補定本名的參考用 `scope: primary_parallel_explicit_given_name_and_same_named_ancestors`，保存完整姓加名、以此首名後接字的 `raw_context_quote` 及其雜湊、原行字元位置、固定修訂與全文雜湊；所選名必須逐字相符，不從「同諱」截出一個字，也不能用數位章題冒作正文。未親核圖像須保留false。
@@ -659,6 +661,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 ## 省略主語與固定底本空行
 
 未受任另保留「不拜」「皆不就」「讓不拜」原詞；前二者作 `did_not_take_up`，明載讓不拜作 `declined`，不得截掉讓字改列原因未明。任用詞與拒受詞各有同段字元錨點，職稱錨點不連人物，也不列入實任持職。
+
+未受任的 `appointment_stage` 可分為 `invitation` 與 `appointment`；既有未分類記錄可省略。明載「請為／請爲」須標 `invitation`，不能改稱已授官；「命為／命爲」等原詞另保留任用錨點。邀請與任用後「並不就」均不列實任，所有當事人與職稱位置檢查照常執行。省稱「庶子」保留實際徵召原詞，前奏文「太子庶子」留在同段引文及判讀說明，不把建議本身當授官。
 
 省略受任者時，`evidence.context` 可引用相鄰前段具名主語，保存段落、人物錨點及引文。若固定底本只隔空行，`source.normalization.verified_blank_line_gaps` 保存 `source_lines`、`raw_quote`、`raw_quote_sha256`、`revision_id`，核對空行數、空白字元、雜湊及修訂。這是核讀固定原文後錄入的證據，不能代替未讀正文，也不能跨過標題、古注或其他非空文字。持職見證用 `previous_paragraph_subject`；未受任證據用 `prior_paragraph_subject` 並列中間段落。
 
