@@ -556,7 +556,7 @@ test('the received courtesy-name label does not replace the separately sourced f
  const name=records.find(n=>n.surname==='王'&&n.ming==='裕之'&&n.zi==='敬弘');
  assert(name);
  const html=personCard({id:name.person_id,label:'王敬弘',name_components:[name]},true);
- assert.match(html,/<h1>王裕之<\/h1>/);
+ assert.match(html,/<h1>文貞公 王裕之<\/h1>/);
  assert.match(html.replace(/<[^>]*>/g,''),/字 敬弘/);
  assert.doesNotMatch(html,/<h1>王裕<\/h1>|<h1>王敬弘<\/h1>/);
 });
@@ -611,4 +611,50 @@ test('care and ritual succession have separate readable labels in both languages
   setLocale('zh-Hant');const zh=personCard(p,true);assert.match(zh,/撫養人/);assert.match(zh,/所繼者/);assert.match(zh,/虞妃養之/);assert.doesNotMatch(zh,/· 父：|· 生母：|&lt;span/);
   setLocale('en');const en=personCard(p,true);assert.match(en,/Caregiver/);assert.match(en,/Ritual predecessor/);assert.match(en,/虞妃養之/);assert.match(en,/嗣恭王后/);
  }finally{setLocale('zh-Hant');}
+});
+
+test('chuji family rows show separate parents and disappear when absent in both locales',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',relations:[]};
+ const entry=id=>({id,label:id,evidence:[]});
+ const family={ancestors:[[entry('birth')],[],[]],mother:[],spouses:[],children:[],adoptive_father:[entry('adoptive')]};
+ try {
+  setLocale('zh-Hant');
+  const zh=personCard(p,true,'main',family);
+  assert.match(zh,/<dt>父<\/dt>/);assert.match(zh,/<dt>出繼父<\/dt>/);
+  assert.doesNotMatch(zh,/<dt>出繼子女<\/dt>/);
+  setLocale('en');
+  assert.match(personCard(p,true,'main',family),/Adoptive father \(source-attested chuji\)/);
+  assert.doesNotMatch(personCard(p,true,'main',{...family,adoptive_father:[]}),/Adoptive father/);
+ } finally {setLocale('zh-Hant');}
+});
+
+test('former marriage has a readable sourced divorce note in both languages',()=>{
+ const p={id:'synthetic-person',label:'Synthetic person'};
+ const family={ancestors:[[],[],[]],mother:[],children:[],spouses:[{id:'synthetic-former-spouse',label:'Former spouse',evidence:[],marriage_status:'source_attested_divorce'}]};
+ try {
+  setLocale('zh-Hant');assert.match(personCard(p,true,'main',family),/離婚（據原文）/);
+  setLocale('en');assert.match(personCard(p,true,'main',family),/Divorced \(source-attested\)/);
+ } finally {setLocale('zh-Hant');}
+});
+
+test('event-specific title chronology choice shows preference and preserves the other source',()=>{
+ const boundary=(year,expression)=>({status:'source_event',date_expression:expression,normalized_date:{year,era:'CE',era_year:year,precision:'year'}});
+ const preferred={id:'synthetic-preferred',title:'Synthetic office',period:'480 onward',effective_period:{start:boundary(480,'建元二年')},evidence:[],chronology_preference:{preferred_holding_id:'synthetic-preferred',candidate_holding_ids:['synthetic-preferred','synthetic-alternate'],rationale:'Synthetic <unsafe> reason'}};
+ const alternate={id:'synthetic-alternate',title:'Synthetic office',period:'479 onward',effective_period:{start:boundary(479,'建元元年')},evidence:[{quote:'Synthetic alternative quotation'}]};
+ const p={id:'synthetic-person',label:'Synthetic person',titles:[preferred,alternate]};
+ try {
+  setLocale('zh-Hant');const full=personCard(p,true);
+  assert.match(full,/首選紀年（暫定）/);assert.match(full,/建元二年/);assert.match(full,/建元元年/);
+  assert.match(full,/Synthetic alternative quotation/);assert.match(full,/&lt;unsafe&gt;/);assert.ok(full.indexOf('person-title-preferred-date')<full.indexOf('筆來源證據'));
+  assert.match(personCard(p,false),/首選紀年（暫定）/);
+  setLocale('en');assert.match(personCard(p,true),/Provisional preferred date/);
+ } finally {setLocale('zh-Hant');}
+});
+
+
+test('source-backed customary titles head the new Wang profiles',()=>{
+ for (const [id,title,ming] of [['7r6_k52_qji_ABDABAA','文貞公','裕之'],['7r6_k52_qji_ABDABAACA','簡子','延之'],['7r6_k52_qji_ABDABAAB','貞子','瓚之']]) {
+  const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/'+id+'.json',import.meta.url),'utf8'));
+  const heading=personCard(p,true).match(/<h1>([\s\S]*?)<\/h1>/)?.[1];assert(heading);assert(heading.includes(title));assert(heading.includes(ming));
+ }
 });

@@ -106,7 +106,8 @@ def normalized_date_errors(date):
                 number, name = mapping.get('source_number'), mapping.get('era_name')
                 parsed = 1 if number == '元' else source_age_number(number)
                 source_name = mapping.get('source_era_name', name)
-                spelling_ok = (source_name == name or (source_name, name) == ('昇平', '升平'))
+                spelling_ok = (source_name == name or (source_name, name) in
+                               (('昇平', '升平'), ('升明', '昇明')))
                 expression = source_name + str(number) + '年' if isinstance(source_name, str) else None
                 valid = (mapping.get('kind') == 'ce_regnal_era_span' and era == 'CE'
                          and type(first) is int and type(last) is int and 0 < first <= last
@@ -120,6 +121,12 @@ def normalized_date_errors(date):
                          and ref.get('columns', {}).get('era_name') == name
                          and ref.get('columns', {}).get('first_year') == str(first)
                          and ref.get('columns', {}).get('last_year') == str(last))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'relative_ce_regnal_era_span':
+                try:
+                    from scripts.relative_regnal_year import relative_regnal_year_valid
+                except ImportError:
+                    from relative_regnal_year import relative_regnal_year_valid
+                valid = relative_regnal_year_valid(date, source_age_number)
             if not valid:
                 errors.append('中國曆年度換算須有原紀年、相符年序及現代年號起迄對照')
     if 'basis' in date and not parallel_event_date(date):
@@ -226,6 +233,12 @@ def title_proposal_errors(proposal, chapter, person_ids):
                   '任官約定引句須涵蓋前置約詞及職稱')
         else:
             role = mentions.get(proposal.get('role_mention_id'))
+            if unassumed and role is None:
+                try:
+                    from scripts.unassumed_appointments import unassumed_role
+                except ImportError:
+                    from unassumed_appointments import unassumed_role
+                role = unassumed_role(proposal, p)
             check(bool(role) and role.get('kind') == 'unresolved' and role.get('person_id') is None
                   and role.get('surface') == proposal.get('title'), '稱號提議職稱不得當人物')
         check(bool(person) and person.get('kind') == 'person' and person.get('person_id') == proposal.get('person_id'), '稱號提議人物錨點不符')
@@ -592,12 +605,25 @@ def validate(root=ROOT):
                 expected.update(table_mids_by_person.get(p['id'], set()))
             check(expected==evidenced, '人物提及與證據雙向索引不完整')
         dids=set()
+        identity_decisions_by_id = {}
         for path in (root/'corpus').glob('*/*-identities.json'):
             d=json.loads(path.read_text(encoding='utf-8'))
             for decision in d['decisions']:
+                identity_decisions_by_id[decision['id']] = decision
                 check(decision['id'] not in dids,'身份判斷 ID 重複');dids.add(decision['id'])
                 check(decision['person_id'] in pids,'身份判斷引用未知人物')
                 check(bool(decision['evidence']),'身份判斷無證據')
+                if 'ancestor_reference' in decision:
+                    try:
+                        from scripts.ancestor_reference import ancestor_reference_valid
+                    except ImportError:
+                        from ancestor_reference import ancestor_reference_valid
+                    reference_assertions = {
+                        a['id']: a for source_path in (root / 'corpus').glob('*/*-assertions.json')
+                        for a in json.loads(source_path.read_text(encoding='utf-8'))['assertions']}
+                    reference_families = json.loads((root / 'registry/family-assemblies.json').read_text(encoding='utf-8'))['assemblies']
+                    check(ancestor_reference_valid(decision, chapters, reference_assertions, reference_families),
+                          '引語曾祖須有正確發言人及三代來源父系路徑，不得由ID字母或錯誤主語推定')
                 scope=decision.get('scope','same_chapter')
                 allowed=decision.get('chapter_ids',[d['chapter_id']])
                 check(scope in ('same_chapter','cross_chapter'),'身份判斷範圍未知')
@@ -849,6 +875,13 @@ def validate(root=ROOT):
                     except ModuleNotFoundError:
                         from royal_transfers import chronology_choice_errors
                     errors.extend(chronology_choice_errors(h, paragraphs, chapters))
+                if 'chronology_preference' in h:
+                    try:
+                        from scripts.title_chronology_preference import title_chronology_preference_valid
+                    except ImportError:
+                        from title_chronology_preference import title_chronology_preference_valid
+                    check(title_chronology_preference_valid(h, title_records),
+                          '稱號紀年首選須保留同人同次事件的各來源與不同數字紀年，不得改抹異說')
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
@@ -1143,9 +1176,34 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if 'marriage_termination' in qualifiers:
+                    try:
+                        from scripts.marriage_termination import marriage_termination_valid
+                    except ImportError:
+                        from marriage_termination import marriage_termination_valid
+                    check(marriage_termination_valid(a, paragraphs),
+                          '離婚須保留同段婚配原句及具名夫妻錨點，不得刪婚配或虛填離婚日期')
+                if 'resolved_subject_identity_decision_id' in qualifiers:
+                    resolution = identity_decisions_by_id.get(qualifiers['resolved_subject_identity_decision_id'], {})
+                    ancestor_ref = resolution.get('ancestor_reference', {})
+                    valid = (a['predicate'] == 'grandfather' and qualifiers.get('lineage') == 'maternal'
+                             and qualifiers.get('source_term') == '外孫'
+                             and qualifiers.get('generation_difference') == -2
+                             and 'mother_person_id' in qualifiers and qualifiers['mother_person_id'] is None
+                             and resolution.get('person_id') == a['subject_person_id']
+                             and bool(ancestor_ref) and len(a['evidence']) == 1)
+                    for e in a['evidence']:
+                        hit = paragraphs.get(e.get('paragraph_id'))
+                        ms = {m['id']: m for m in hit[1]['mentions']} if hit else {}
+                        obj = ms.get(e.get('object_person_mention_id'), {})
+                        valid = (valid and e.get('paragraph_id') == ancestor_ref.get('paragraph_id')
+                                 and e.get('subject_person_mention_id') == ancestor_ref.get('ancestor_mention_id')
+                                 and obj.get('person_id') == a['object_person_id']
+                                 and '曾祖是' + obj.get('surface', '') + '外孫' in e.get('quote', ''))
+                    check(valid, '外孫主體指涉須連到已驗三代判讀，外祖錨點及未名母親分存')
                 if a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers:
                     try:
                         from scripts.non_parental_family import non_parental_relation_valid
@@ -1231,6 +1289,13 @@ def validate(root=ROOT):
                           and qualifiers.get('exact_distance') is None
                           and any('大父行' in e.get('quote', '') for e in a['evidence']),
                           '大父行只記祖父輩，不得補直系祖父或親等')
+                if a['predicate'] == 'adoptive_father':
+                    try:
+                        from scripts.chuji_parentage import chuji_parentage_valid
+                    except ImportError:
+                        from chuji_parentage import chuji_parentage_valid
+                    check(chuji_parentage_valid(a, paragraphs, d['assertions']),
+                          '出繼父須有出繼伯父原詞、具名雙錨點及同段生父伯父證據，不得覆蓋生父')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -1408,13 +1473,13 @@ def validate(root=ROOT):
                 number = age.get('source_number'); parsed = source_age_number(number)
                 if 'approximation' in age:
                     try:
-                        from scripts.age_approximations import adjacent_age_errors
+                        from scripts.age_approximations import age_approximation_errors
                     except ModuleNotFoundError:
-                        from age_approximations import adjacent_age_errors
+                        from age_approximations import age_approximation_errors
                     for evidence in age.get('evidence', []):
                         hit = paragraphs.get(evidence.get('paragraph_id'))
                         if hit:
-                            errors.extend(adjacent_age_errors(age, hit[1]))
+                            errors.extend(age_approximation_errors(age, hit[1]))
                     check(bool(age.get('evidence')), '約數報齡缺少來源證據')
                 elif 'bounds' in age:
                     bounds = age.get('bounds'); group = age.get('group_reference')

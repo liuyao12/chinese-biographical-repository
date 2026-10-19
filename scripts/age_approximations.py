@@ -2,6 +2,41 @@
 """Source-bound adjacent age numerals; never convert approximations to bounds."""
 DIGITS = '一二三四五六七八九'
 
+def age_approximation_errors(age, paragraph):
+    if age.get('approximation', {}).get('kind') != 'approaching_age':
+        return adjacent_age_errors(age, paragraph)
+    number = age.get('source_number')
+    # Current source form is a whole tens numeral, not a range or exact age.
+    target = (DIGITS.index(number[0]) + 1) * 10 if isinstance(number, str) and len(number) == 2 and number[0] in DIGITS and number[1] == '十' else None
+    if (target is None or age.get('approximation') != {'kind': 'approaching_age', 'target': target}
+            or age.get('value') is not None or 'bounds' in age or 'source_number_bounds' in age
+            or age.get('source_term') != '年向' + number
+            or age.get('reporting_status') != 'approximate_report'
+            or age.get('birth_year') is not None or age.get('unit') != 'source_age_years'
+            or age.get('counting') != 'unspecified_source_age' or age.get('status') != 'source_attested'):
+        return ['年向報齡須保留趨近數字，不得補確歲、嚴格界限或生年']
+    interpretation = age.get('approximation_interpretation', {})
+    if (interpretation.get('status') != 'editorial_provisional'
+            or interpretation.get('human_reviewed') is not False
+            or not interpretation.get('reviewer') or not interpretation.get('rationale')):
+        return ['年向報齡缺少分存的編者判讀']
+    scope = age.get('speaker_scope', {})
+    ms = {m['id']: m for m in paragraph.get('mentions', [])}
+    speaker = ms.get(scope.get('speaker_person_mention_id'), {})
+    anchor = scope.get('speech_start_anchor', {})
+    text = paragraph['text']
+    start, end = anchor.get('start'), anchor.get('end')
+    if (scope.get('kind') != 'self_report_in_memorial'
+            or speaker.get('person_id') != age.get('person_id') or speaker.get('surface') != '臣'
+            or type(start) is not int or type(end) is not int or not 0 <= start < end <= len(text)
+            or anchor.get('paragraph_id') != paragraph['id'] or anchor.get('surface') != '又表曰：「'
+            or text[start:end] != anchor['surface']):
+        return ['年向自報須連到奏表起點及本人臣字錨點']
+    at = text.find(age['source_term'], end)
+    if at < 0 or not end <= speaker['start'] < speaker['end'] <= at or '」' in text[end:at]:
+        return ['年向報齡不在該本人奏表範圍']
+    return []
+
 def adjacent_age_errors(age, paragraph):
     errors = []
     number = age.get('source_number')

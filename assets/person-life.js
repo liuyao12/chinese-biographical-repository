@@ -1,5 +1,16 @@
 import {escapeHTML as h} from './core.js';
 import {t} from './i18n.js';
+import {chineseNumber} from './person-display.js';
+export function sourceDateLabel(event) {
+  const raw = event.date_expression || '';
+  const date = event.normalized_date, mapping = date?.regnal_year_mapping;
+  if (mapping?.kind !== 'relative_ce_regnal_era_span'
+      || !Number.isSafeInteger(mapping.target_regnal_year) || mapping.target_regnal_year < 1
+      || typeof mapping.era_name !== 'string' || !mapping.era_name) return raw;
+  const resolved = `${mapping.era_name}${mapping.target_regnal_year === 1 ? '元' : chineseNumber(mapping.target_regnal_year)}年`;
+  return raw && raw !== resolved ? `${resolved}（${t('Source wording: {text}', {text:raw})}）` : resolved;
+}
+
 // Birth/death summaries use typed events, never office dates or age arithmetic.
 export function ageLabel(age) {
   if (age.approximation?.kind === 'adjacent_age_numbers' && typeof age.source_number === 'string') return `${age.source_number}歲`;
@@ -14,7 +25,7 @@ export function summarizeLife(p) {
     const decision = decisions.find(d => d.candidate_event_ids.includes(e.id));
     return decision?.status === 'editorial_provisional' ? (decision.preferred_event_id === e.id ? 0 : 2) : 1;
   };
-  const provenance=new Set(['evidence','references','original_quote','rationale','reviewer','human_reviewed','model']);
+  const provenance=new Set(['evidence','references','original_quote','rationale','reviewer','human_reviewed','model','relative_year_reference']);
   const facts=value=>Array.isArray(value)?value.map(facts):value && typeof value==='object'
     ?Object.fromEntries(Object.keys(value).filter(key=>!provenance.has(key)).sort().map(key=>[key,facts(value[key])])):value;
   function summary(kind) {
@@ -35,10 +46,26 @@ export function summarizeLife(p) {
     }
     return rows;
   }
+  const ages = [], ageGroups = new Map();
+  for (const age of (p.age_assertions || []).filter(e => own.has(e.person_id))) {
+    const date = age.normalized_date || age.normalized_date_range;
+    const key = date ? JSON.stringify(facts([age.value, age.unit, age.counting, age.reporting_status,
+      age.source_number, age.source_term, age.qualified_source_term, age.bounds,
+      age.approximation, age.group_reference, age.date_expression, date])) : null;
+    if (!key || !ageGroups.has(key)) {
+      const row = {...age, evidence:[...(age.evidence || [])]}; ages.push(row);
+      if (key) ageGroups.set(key,row);
+    } else {
+      const row = ageGroups.get(key);
+      for (const evidence of age.evidence || []) {
+        if (!row.evidence.some(e=>JSON.stringify(e)===JSON.stringify(evidence))) row.evidence.push(evidence);
+      }
+    }
+  }
   return {
     birth: summary('birth'),
     death: summary('death'),
-    ages: (p.age_assertions || []).filter(e => own.has(e.person_id)),
+    ages,
   };
 }
 

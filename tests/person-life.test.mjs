@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, studyReferencesHTML} from '../assets/person-life.js';
+import {summarizeLife, ageLabel, lifeYearLabel, civilYearLabelData, sourceDateLabel, studyReferencesHTML} from '../assets/person-life.js';
 test('an era window remains a Chinese civil-year range without choosing either endpoint',()=>{
  const event={normalized_date_range:{basis:'within_named_era',calendar:'chinese_civil',earliest:{era:'CE',era_year:100,year:100},latest:{era:'CE',era_year:108,year:108}}};
  assert.equal(lifeYearLabel(event),'西元100至108年（中國曆年範圍）');
@@ -72,4 +72,32 @@ test('an explicitly Chinese projection window still cannot supply a single event
  const range={calendar:'chinese_civil',earliest:{era:'CE',era_year:149,year:149},latest:{era:'CE',era_year:150,year:150}};
  assert.equal(civilYearLabelData({normalized_date_range:range}),null);
  assert.match(lifeYearLabel({normalized_date_range:range}),/149.*150/);
+});
+
+
+test('relative reign labels preserve literal source words without natural language processing',()=>{
+ const event={date_expression:'明年',normalized_date:{regnal_year_mapping:{kind:'relative_ce_regnal_era_span',era_name:'元嘉',target_regnal_year:24}}};
+ assert.match(sourceDateLabel(event),/元嘉二十四年/);assert.match(sourceDateLabel(event),/明年/);
+ assert.equal(sourceDateLabel({date_expression:'未詳'}),'未詳');
+ assert.match(sourceDateLabel({date_expression:'其年',normalized_date:{regnal_year_mapping:{kind:'relative_ce_regnal_era_span',era_name:'永明',target_regnal_year:2}}}),/永明二年/);
+});
+
+test('identical dated reports merge evidence despite different reference indices, preserving original data',()=>{
+ const date={year:447,era:'CE',era_year:447,calendar:'chinese_civil',precision:'year',relative_year_reference:{event_evidence_index:2}};
+ const date2={...date,relative_year_reference:{event_evidence_index:1}};
+ const p={id:'synthetic-person',life_events:[{id:'one',person_id:'synthetic-person',event_type:'death',date_expression:'明年',normalized_date:date,evidence:[{quote:'Synthetic first source'}]},
+  {id:'two',person_id:'synthetic-person',event_type:'death',date_expression:'明年',normalized_date:date2,evidence:[{quote:'Synthetic second source'}]}],
+ age_assertions:[{id:'age-one',person_id:'synthetic-person',value:88,source_number:'八十八',source_term:'年八十八',normalized_date:date,evidence:[{quote:'Synthetic first age'}]},
+  {id:'age-two',person_id:'synthetic-person',value:88,source_number:'八十八',source_term:'年八十八',normalized_date:date2,evidence:[{quote:'Synthetic second age'}]},
+  {id:'approx',person_id:'synthetic-person',value:null,source_term:'年向九十',approximation:{kind:'approaching_age',target:90},normalized_date:{year:446,era:'CE'},evidence:[]}]};
+ const life=summarizeLife(p);assert.equal(life.death.length,1);assert.equal(life.death[0].evidence.length,2);
+ assert.equal(life.ages.length,2);assert.equal(life.ages.find(a=>a.value===88).evidence.length,2);
+ assert.equal(p.life_events.length,2);assert.equal(p.age_assertions.length,3);assert.equal(p.age_assertions[0].evidence.length,1);
+});
+
+test('unknown or differently qualified ages are not silently merged',()=>{
+ const age={person_id:'synthetic-person',value:88,source_term:'年八十八'};
+ assert.equal(summarizeLife({id:'synthetic-person',age_assertions:[age,{...age}]}).ages.length,2);
+ const dated={...age,normalized_date:{year:447,era:'CE'}};
+ assert.equal(summarizeLife({id:'synthetic-person',age_assertions:[dated,{...dated,reporting_status:'qualified_report',qualified_source_term:'蓋年八十八'}]}).ages.length,2);
 });
