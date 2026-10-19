@@ -24,8 +24,39 @@ def agnatic_senior_kin_valid(assertion, paragraphs):
         term = q.get('source_term', '')
         if (not child or not senior or child.get('kind') != 'person' or senior.get('kind') != 'person'
                 or child.get('person_id') != assertion.get('subject_person_id')
-                or senior.get('person_id') != assertion.get('object_person_id')
-                or term not in ('從子' + child['surface'], '族子' + child['surface'])):
+                or senior.get('person_id') != assertion.get('object_person_id')):
+            return False
+        binding = q.get('source_clause_binding')
+        if binding is not None:
+            # Explicit biographical subject + courtesy name + senior + 從子也.
+            # Identity is bound by mention IDs; never inferred from equal names.
+            courtesy = mentions.get(binding.get('courtesy_name_mention_id')) if isinstance(binding, dict) else None
+            if (set(q) != {'source_term', 'kinship_structure', 'source_clause_binding'}
+                    or not isinstance(binding, dict)
+                    or set(binding) != {'pattern', 'courtesy_name_mention_id'}
+                    or binding.get('pattern') != 'biographical_subject_courtesy_senior_congzi'
+                    or not courtesy or courtesy.get('kind') != 'person'
+                    or courtesy.get('person_id') != child['person_id']
+                    or child['person_id'] == senior['person_id']
+                    or text[child['start']:child['end']] != child['surface']
+                    or text[courtesy['start']:courtesy['end']] != courtesy['surface']
+                    or text[senior['start']:senior['end']] != senior['surface']
+                    or text[child['end']:courtesy['start']] != '字'
+                    or courtesy['end'] != senior['start']
+                    or term != senior['surface'] + '從子也'
+                    or text[senior['start']:senior['end'] + 3] != term):
+                return False
+            end = senior['end'] + 3
+            local = [m for m in p.get('mentions', []) if m.get('kind') == 'person'
+                     and child['start'] <= m['start'] < end]
+            if {m['id'] for m in local} != {child['id'], courtesy['id'], senior['id']}:
+                return False
+            quote = e.get('quote', '')
+            if not quote or not any(text.startswith(quote, i) and i <= child['start']
+                                    and end <= i + len(quote) for i in range(len(text))):
+                return False
+            continue
+        if term not in ('從子' + child['surface'], '族子' + child['surface']):
             return False
         start = child['start'] - 2
         preceding = [m for m in p.get('mentions', []) if m.get('kind') == 'person'

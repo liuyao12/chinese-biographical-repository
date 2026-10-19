@@ -648,37 +648,12 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 source_revision=table['source']['revision'], table_row_id=row['id'],
                 row_year=row.get('year'), citation_role='regnal_year_reference'))
 
-    # Counts describe annotated occurrences, not source authority or independent witnesses.
-    source_mentions = {}
-    for mention in mentions:
-        chapter = chapters[mention['chapter_id']]
-        key = chapter['source_id']
-        row = source_mentions.setdefault(key, {
-            'source_id': key, 'work_id': chapter['work_id'],
-            'book_id': chapter['book_id'], 'chapter_id': chapter['id'],
-            'mention_count': 0, 'mention_ids': [], 'paragraph_ids': set(), 'table_cell_ids': set()})
-        row['mention_count'] += 1
-        row['mention_ids'].append(mention['id'])
-        row['paragraph_ids'].add(mention['paragraph_id'])
-    for mention in table_occurrences:
-        key = mention['source_id']
-        row = source_mentions.setdefault(key, {
-            'source_id': key, 'work_id': mention['work_id'],
-            'book_id': mention['book_id'], 'chapter_id': mention['chapter_id'],
-            'mention_count': 0, 'mention_ids': [], 'paragraph_ids': set(), 'table_cell_ids': set()})
-        row['mention_count'] += 1
-        row['mention_ids'].append(mention['id'])
-        row['table_cell_ids'].add(mention['table_cell_id'])
-    mention_summary = []
-    for row in source_mentions.values():
-        row['paragraph_ids'] = sorted(row['paragraph_ids'])
-        row['table_cell_ids'] = sorted(row['table_cell_ids'])
-        row['passage_count'] = len(row['paragraph_ids']) + len(row['table_cell_ids'])
-        row['mention_ids'].sort()
-        mention_summary.append(row)
-    mention_summary.sort(key=lambda row: (-row['mention_count'], row['source_id']))
-    maximum = mention_summary[0]['mention_count'] if mention_summary else 0
-    most_mentioned = [row['source_id'] for row in mention_summary if row['mention_count'] == maximum]
+    # Fixed-witness concordance affects counts only; all raw mentions remain.
+    try:
+        from .occurrence_concordance import summarize_occurrences
+    except ImportError:
+        from occurrence_concordance import summarize_occurrences
+    mention_summary, most_mentioned = summarize_occurrences(mentions, table_occurrences, chapters, root, records, set(people))
     neighbor_ids = ids | {a[k] for a in relations for k in ('subject_person_id', 'object_person_id')}
     neighbor_ids.update(p for decision in tree_decisions for p in decision['participant_person_ids'])
     neighbor_ids.update(p for decision in distinctions for p in decision['person_ids'])
@@ -720,7 +695,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'person_ids': sorted(ids), 'persons': [people[p] for p in sorted(neighbor_ids)],
             'source_mention_summary': mention_summary,
             'most_mentioned_source_ids': most_mentioned,
-            'mention_count_policy': {'scope': 'currently_annotated_mentions', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
+            'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),

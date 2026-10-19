@@ -5,6 +5,10 @@ import html
 import json
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
+try:
+    from .reading_layout import partition
+except ImportError:
+    from reading_layout import partition
 
 
 def render(chapter):
@@ -14,7 +18,7 @@ def render(chapter):
         ('chapter-id', 'id'), ('source-id', 'source_id')))
     lines = ['<?xml version="1.0" encoding="UTF-8"?>',
              f'<text format-version="0.2" {attributes}>']
-    for paragraph in chapter['paragraphs']:
+    for paragraph, reading_role, reading_index in partition(chapter):
         text = paragraph['text']; fragments = []; end = 0
         for mention in paragraph['mentions']:
             start, stop = mention['start'], mention['end']
@@ -37,6 +41,7 @@ def render(chapter):
         fragments.append(escape(text[end:]))
         status = f' annotation-status="{escape(paragraph["annotation_status"])}"' if 'annotation_status' in paragraph else ''
         if 'text_layer' in paragraph: status += f' text-layer="{escape(paragraph["text_layer"])}"'
+        if reading_role is not None: status += f' reading-role="{reading_role}" reading-index="{reading_index}"'
         lines.append(f'  <p id="{escape(paragraph["id"])}"{status}>'+''.join(fragments)+'</p>')
     return '\n'.join(lines+['</text>'])+'\n'
 

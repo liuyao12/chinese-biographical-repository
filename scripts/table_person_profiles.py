@@ -4,7 +4,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-def build(root=ROOT):
+def build(root=ROOT, person_ids=None):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
@@ -39,11 +39,15 @@ def build(root=ROOT):
     bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
         table_mentions.setdefault(pid, [])
+    if person_ids is not None:
+        selected = set(person_ids)
+        if not selected <= set(table_mentions): raise ValueError('未知partial profile ID')
+        table_mentions = {pid:cells for pid,cells in table_mentions.items() if pid in selected}
     out = ROOT/'data/corpus/profiles'; out.mkdir(exist_ok=True)
     # Only the current registry/index and table mentions define this directory;
     # retired IDs are removed after all source references have been migrated.
     for path in out.glob('*.json'):
-        if path.stem != 'index' and path.stem not in table_mentions: path.unlink()
+        if person_ids is None and path.stem != 'index' and path.stem not in table_mentions: path.unlink()
     for pid, cells in sorted(table_mentions.items()):
         if pid in candidates:
             candidate = candidates[pid]
@@ -52,20 +56,11 @@ def build(root=ROOT):
             continue
         b = json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text())
         own = set(b['person_ids']); ps = {p['id']:p for p in b['passages']}
-        groups = defaultdict(list)
-        for m in b['mentions']: groups[m['chapter_id']].append(m)
-        occurrences = []
-        for cid, ms in sorted(groups.items(), key=lambda x:chapters.get(x[0],{}).get('number',999)):
-            ch = chapters.get(cid)
-            if not ch:
-                raise ValueError(f'人物提及的卷篇未列入閱讀目錄：{cid}')
-            m = ms[0]; p = ps[m['paragraph_id']]; start = max(0,m['start']-35)
-            occurrence={'number':ch['number'],'category':ch.get('category',''),'title':ch['title'],'paragraph_id':p['id'],'count':len(ms),'quote':p['text'][start:m['end']+100]}
-            occurrence.update({k:p[k] for k in ('work_id','book_id','chapter_id','source_id')})
-            occurrence.update(work_title=work_titles[p['work_id']],
-                              paragraph_ids=sorted({m['paragraph_id'] for m in ms}),
-                              mention_ids=[m['id'] for m in ms])
-            occurrences.append(occurrence)
+        try:
+            from .profile_occurrence_counts import profile_occurrences
+        except ImportError:
+            from profile_occurrence_counts import profile_occurrences
+        occurrences = profile_occurrences(b, chapters, work_titles)
         titles = []
         for x in b['title_holdings']:
             if x['person_id'] not in own: continue
@@ -139,6 +134,8 @@ def build(root=ROOT):
     for pid in sorted(table_mentions):
         p = json.loads((out/f'{pid}.json').read_text())
         entries.append({'id':pid,'label':p['label'],'names':p['names'],'path':f'data/corpus/profiles/{pid}.json','review':p['review']})
+    if person_ids is not None and (out/'index.json').exists():
+        entries = [x for x in json.loads((out/'index.json').read_text())['profiles'] if x['id'] not in person_ids] + entries
     (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
     print('閱讀器人物資料：', len(table_mentions), '份 ID 檔（含同指別名，不是不同人物總數）')
 if __name__=='__main__': build()

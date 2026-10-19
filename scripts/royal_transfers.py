@@ -36,7 +36,7 @@ def resumption_valid(holding, previous, holdings, mentions):
     dest=holding.get('jurisdictions',[]);origin=previous.get('jurisdictions',[]) if previous else []
     if not (earlier and anchor and previous and holding.get('title')=='王' and previous.get('title')=='王'
             and earlier.get('person_id')==holding.get('person_id') and earlier.get('kind')=='royal_rank'
-            and earlier.get('mode')not in ('posthumous_grant','posthumous_naming')
+            and earlier.get('mode')not in ('posthumous_grant','posthumous_enfeoffment','posthumous_naming')
             and previous.get('transfer_basis',{}).get('previous_holding_id')==earlier.get('id')
             and isinstance(dest,list) and len(dest)==1 and isinstance(origin,list) and len(origin)==1
             and isinstance(dest[0],dict) and isinstance(origin[0],dict)
@@ -73,7 +73,7 @@ def royal_transfer_errors(holding, holdings, paragraphs, mentions):
     if not (holding.get('mode') == 'transfer' and holding.get('kind') == 'royal_rank'
             and previous and previous.get('id') != holding.get('id')
             and previous.get('person_id') == holding.get('person_id') and previous.get('kind') == 'royal_rank'
-            and previous.get('mode') not in ('posthumous_grant', 'posthumous_naming')
+            and previous.get('mode') not in ('posthumous_grant', 'posthumous_enfeoffment', 'posthumous_naming')
             and start.get('status') == 'source_event' and start.get('event_type') == 'transfer'
             and basis.get('evidence') == start.get('evidence') and bool(basis['evidence'])):
         return ['徙王須指同人的原王號與明示徙封起點，不得當繼位或跨人移接']

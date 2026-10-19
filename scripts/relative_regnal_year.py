@@ -2,7 +2,7 @@
 """Validate 明年/其年 using explicit era and preceding regnal-year evidence."""
 
 
-def relative_regnal_year_valid(date, parse_number):
+def relative_regnal_year_valid(date, parse_number, chapters=None):
     mapping = date.get('regnal_year_mapping', {})
     context = date.get('relative_year_reference', {})
     evidence, refs = date.get('evidence', []), date.get('references', [])
@@ -32,7 +32,7 @@ def relative_regnal_year_valid(date, parse_number):
     number = mapping.get('source_number')
     n = mapping.get('regnal_year')
     first, last = mapping.get('start_ce_year'), mapping.get('end_ce_year')
-    if (not isinstance(name, str) or not name or parse_number(number) != n
+    if (not isinstance(name, str) or not name or (1 if number == '元' else parse_number(number)) != n
             or type(n) is not int or n < 1 or type(first) is not int or type(last) is not int
             or not 0 < first <= last or mapping.get('target_regnal_year') != n + offset
             or date.get('era') != 'CE' or date.get('year') != first + n + offset - 1
@@ -43,12 +43,21 @@ def relative_regnal_year_valid(date, parse_number):
     if (prior not in (str(number) + '年', name + str(number) + '年')
             or not isinstance(era_term, str) or not era_term.startswith(name)
             or not era_term.endswith('年')
-            or parse_number(era_term[len(name):-1]) is None
+            or (1 if era_term[len(name):-1] == '元' else parse_number(era_term[len(name):-1])) is None
             or era_term not in era_e.get('quote', '')
             or prior not in prior_e.get('quote', '') or term not in event_e.get('quote', '')):
         return False
     if not omitted_era and indices[1] == indices[2] and prior_e['quote'].index(prior) >= event_e['quote'].index(term):
         return False
+    if number == '元' and 'narrative_era_scope' not in date:
+        return False
+    if 'narrative_era_scope' in date:
+        try:
+            from scripts.relative_biography_scope import valid
+        except ImportError:
+            from relative_biography_scope import valid
+        if not valid(date, chapters):
+            return False
     ref = refs[ri]
     return (ref.get('scope') == 'modern_era_year_equivalence_only'
             and ref.get('quote') == name and str(ref.get('url', '')).startswith('https://')

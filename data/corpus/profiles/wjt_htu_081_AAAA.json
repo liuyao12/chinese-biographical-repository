@@ -221,12 +221,10 @@
       "title": "匈奴列傳第五十",
       "paragraph_id": "c-shiji-110-xiongnu:p032",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "後冬，匈奴軍臣單于死。軍臣單于弟左谷蠡王伊稚斜自立爲單于，攻破軍臣單于太子於單。於單亡降漢，漢封於單爲涉安侯，數月而死。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-110",
-      "chapter_id": "c-shiji-110-xiongnu",
-      "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p032"
       ],
@@ -234,7 +232,41 @@
         "c-shiji-110-xiongnu:m032-0036",
         "c-shiji-110-xiongnu:m032-0041",
         "c-shiji-110-xiongnu:m032-0049"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-110-xiongnu:m032-0036": "c-shiji-110-xiongnu:p032",
+        "c-shiji-110-xiongnu:m032-0041": "c-shiji-110-xiongnu:p032",
+        "c-shiji-110-xiongnu:m032-0049": "c-shiji-110-xiongnu:p032"
+      },
+      "mention_id": "c-shiji-110-xiongnu:m032-0036",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m032-0036",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m032-0036"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m032-0041",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m032-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m032-0049",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m032-0049"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "chapter_id": "c-shiji-110-xiongnu",
+      "source_id": "s-shiji110-xiongnu",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

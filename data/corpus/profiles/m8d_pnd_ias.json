@@ -61,12 +61,10 @@
       "title": "燕召公世家第四",
       "paragraph_id": "c-shiji-034-yan:p004",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "自召公已下九世至惠侯。燕惠侯當周厲王奔彘，共和之時。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-034",
-      "chapter_id": "c-shiji-034-yan",
-      "source_id": "s-shiji-034-yan",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-034-yan:p004",
         "c-shiji-034-yan:p005"
@@ -75,7 +73,41 @@
         "c-shiji-034-yan:m004-0008",
         "c-shiji-034-yan:m004-0011",
         "c-shiji-034-yan:m005-0000"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-034-yan:m004-0008": "c-shiji-034-yan:p004",
+        "c-shiji-034-yan:m004-0011": "c-shiji-034-yan:p004",
+        "c-shiji-034-yan:m005-0000": "c-shiji-034-yan:p005"
+      },
+      "mention_id": "c-shiji-034-yan:m004-0008",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-034-yan:m004-0008",
+          "mention_ids": [
+            "c-shiji-034-yan:m004-0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-034-yan:m004-0011",
+          "mention_ids": [
+            "c-shiji-034-yan:m004-0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-034-yan:m005-0000",
+          "mention_ids": [
+            "c-shiji-034-yan:m005-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "chapter_id": "c-shiji-034-yan",
+      "source_id": "s-shiji-034-yan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

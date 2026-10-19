@@ -70,12 +70,10 @@
       "title": "大宛列傳第六十三",
       "paragraph_id": "c-shiji-123-dayuan:p034",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "謂曰：「郁成王漢國所毒，今生將去，卒失大事。」欲殺，莫敢先擊。上邽騎士趙弟最少，拔劍擊之，斬郁成王，齎頭。弟、桀等逐及大將軍。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-123",
-      "chapter_id": "c-shiji-123-dayuan",
-      "source_id": "s-shiji123-dayuan",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p034",
         "c-shiji-123-dayuan:p035"
@@ -84,7 +82,41 @@
         "c-shiji-123-dayuan:m034-0226",
         "c-shiji-123-dayuan:m034-0244",
         "c-shiji-123-dayuan:m035-0192"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m034-0226": "c-shiji-123-dayuan:p034",
+        "c-shiji-123-dayuan:m034-0244": "c-shiji-123-dayuan:p034",
+        "c-shiji-123-dayuan:m035-0192": "c-shiji-123-dayuan:p035"
+      },
+      "mention_id": "c-shiji-123-dayuan:m034-0226",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m034-0226",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m034-0226"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m034-0244",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m034-0244"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m035-0192",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m035-0192"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

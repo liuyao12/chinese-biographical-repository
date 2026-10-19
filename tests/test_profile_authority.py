@@ -11,6 +11,6 @@ class ProfileAuthority(unittest.TestCase):
    put('data/corpus/persons.json',{pid:{'id':pid,'label':'舊稱','identity_note':None}})
    put('registry/persons.json',{'persons':[{'id':pid,'label':'新稱','identity_note':'同人暫定；不能排除更替。','historicity':'legendary_tradition'}]})
    put('exports/persons/index.json',{'persons':[{'person_id':pid}]})
-   put('exports/persons/'+pid+'.json',{'canonical_person_id':pid,'person_ids':[pid],'passages':[],'mentions':[],'title_holdings':[],'address_assertions':[],'persons':[{'id':pid,'label':'新稱','aliases':[]}],'sources':[],'relations':[],'date_normalizations':[]})
+   put('exports/persons/'+pid+'.json',{'canonical_person_id':pid,'person_ids':[pid],'passages':[],'most_mentioned_source_ids':[],'source_mention_summary':[],'table_occurrences':[],'mentions':[],'title_holdings':[],'address_assertions':[],'persons':[{'id':pid,'label':'新稱','aliases':[]}],'sources':[],'relations':[],'date_normalizations':[]})
    build(r);p=json.loads((r/'data/corpus/profiles'/f'{pid}.json').read_text());self.assertEqual(p['label'],'新稱');self.assertEqual(p['identity_note'],'同人暫定；不能排除更替。');self.assertEqual(p['historicity'],'legendary_tradition')
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,353 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+  "assertions": [
+    {
+      "id": "a-xunyou11-001",
+      "subject_person_id": "eb0_d56_aa1",
+      "predicate": "grandfather",
+      "object_person_id": "696_456_df6",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u001",
+          "quote": "荀攸字公達彧從子也祖父曇廣陵太守"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "祖父曇",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只錄明文親屬；不補未知父母、生母、生年或配偶。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-002",
+      "subject_person_id": "eb0_d56_aa1",
+      "predicate": "father",
+      "object_person_id": "1a8_567_07a",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+          "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "攸父彞",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只錄明文親屬；不補未知父母、生母、生年或配偶。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-003",
+      "subject_person_id": "1f1_f1a_b17",
+      "predicate": "brother",
+      "object_person_id": "696_456_df6",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+          "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "曇字元智兄昱",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "1f1_f1a_b17",
+          "younger_person_id": "696_456_df6",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "interpretation_note": "昱為曇兄，不由兄弟詞補共同父親或生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-004",
+      "subject_person_id": "1a8_567_07a",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "yoo_ox0_545_BA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002",
+          "quote": "荀氏家傳曰曇字元智兄昱字伯修張璠漢紀稱昱曇並傑俊有殊才昱與李膺王暢杜宻等號為八俊位至沛相攸父彞州從事彛于彧為從祖兄弟"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "彛于彧為從祖兄弟",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "unknown"
+        }
+      },
+      "interpretation_note": "保留從祖兄弟原詞；本模型的agnatic_cousin為未定親等同輩父系旁親，不解成精確堂兄弟、不推共同父親或誰年長。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-005",
+      "subject_person_id": "eb0_d56_aa1",
+      "predicate": "paternal_uncle",
+      "object_person_id": "a1f_f17_ccb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u003",
+          "quote": "攸少孤及曇卒故吏張權求守曇墓攸年十三疑之謂叔父衢曰此吏有非常之色殆将有姦衢寤乃推問果殺人亡命由是異之"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "謂叔父衢"
+      },
+      "interpretation_note": "只錄明文親屬；不補未知父母、生母、生年或配偶。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-006",
+      "subject_person_id": "a1f_f17_ccb_A",
+      "predicate": "father",
+      "object_person_id": "a1f_f17_ccb",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004",
+          "quote": "魏書曰攸年七八嵗衢曽醉誤傷攸耳而攸出入遊戯常避䕶不欲令衢見衢後聞之乃驚其夙智如此荀氏家傳曰衢子祈字伯旗與族父愔俱著名祈與孔融論肉刑愔與孔融論聖人優劣並在融集祈位至濟隂太守愔後徴有道至丞相祭酒"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "衢子祈",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只錄明文親屬；不補未知父母、生母、生年或配偶。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-007",
+      "subject_person_id": "eb0_d56_aa1_A",
+      "predicate": "father",
+      "object_person_id": "eb0_d56_aa1",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021",
+          "quote": "長子緝有攸風早没次子適嗣無子絶黄初中紹封攸孫彪為陵樹亭侯邑三百戸後轉封丘陽亭侯正始中追諡攸曰敬侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "長子緝",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "eb0_d56_aa1",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "原文明記長子/次子，限兒子序列；不把ID字母當排行，不推全部子女數。"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "本傳末以攸為傳主列長子緝、次子適；攸風、攸孫及追諡攸同段維持主體，不據嗣爵倒推父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-008",
+      "subject_person_id": "eb0_d56_aa1_B",
+      "predicate": "father",
+      "object_person_id": "eb0_d56_aa1",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021",
+          "quote": "長子緝有攸風早没次子適嗣無子絶黄初中紹封攸孫彪為陵樹亭侯邑三百戸後轉封丘陽亭侯正始中追諡攸曰敬侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "次子適",
+        "birth_order": {
+          "ordinal": 2,
+          "position": "unspecified",
+          "parent_person_id": "eb0_d56_aa1",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "次子",
+          "interpretation_note": "原文明記長子/次子，限兒子序列；不把ID字母當排行，不推全部子女數。"
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "本傳末以攸為傳主列長子緝、次子適；攸風、攸孫及追諡攸同段維持主體，不據嗣爵倒推父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-009",
+      "subject_person_id": "eb0_d56_aa1_*A",
+      "predicate": "grandfather",
+      "object_person_id": "eb0_d56_aa1",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021",
+          "quote": "長子緝有攸風早没次子適嗣無子絶黄初中紹封攸孫彪為陵樹亭侯邑三百戸後轉封丘陽亭侯正始中追諡攸曰敬侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "攸孫彪",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記孫，父親不明；適明言無子，不能因嗣爵把彪接在適下，也不自動補緝為父。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-010",
+      "subject_person_id": "288_149_559",
+      "predicate": "brother",
+      "object_person_id": "3d4_926_480",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u013",
+          "quote": "太祖曰誰可使攸曰徐晃可乃遣晃及史渙邀擊破走之燒其輜重㑹許攸來降言紹遣淳于瓊等将萬餘兵迎運糧将驕卒惰可要擊也衆皆疑唯攸與賈詡勸太祖太祖乃留攸及曹洪守太祖自將攻破之盡斬瓊等紹将張郃髙覽燒攻櫓降紹遂棄軍走郃之來洪疑不敢受攸謂洪曰郃計不用怒而來君何疑乃受之七年從討袁譚尚於黎陽明年太祖方征劉表譚尚争冀州譚遣辛毗乞降請救太祖将許之以問羣下羣下多以為表强宜先平之譚尚不足憂也攸曰天下方有事而劉表坐保江漢之間其無四方志可知矣袁氏據四州之地帶甲數萬紹以寛厚得衆借使二子和睦以守其成業則天下之難未息也今兄弟遘惡此勢不兩全若有所并則力專力專則難圖也及其亂而取之天下定矣此時不可失也太祖曰善乃許譚和親遂還擊破尚其後譚叛從斬譚於南皮冀州平太祖表封攸曰軍師荀攸自初佐臣無征不從前後克敵皆攸之謀也於是封陵樹亭侯十二年下令大論功行封太祖曰忠正宻謀撫寧内外文若是也公達其次也増邑四百并前七百戸"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "二子和睦以守其成業則天下之難未息也今兄弟遘惡"
+      },
+      "interpretation_note": "袁氏二子/兄弟承接袁譚尚；不推同母或絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-011",
+      "subject_person_id": "288_149_559",
+      "predicate": "father",
+      "object_person_id": "102_884_39d",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u013",
+          "quote": "太祖曰誰可使攸曰徐晃可乃遣晃及史渙邀擊破走之燒其輜重㑹許攸來降言紹遣淳于瓊等将萬餘兵迎運糧将驕卒惰可要擊也衆皆疑唯攸與賈詡勸太祖太祖乃留攸及曹洪守太祖自將攻破之盡斬瓊等紹将張郃髙覽燒攻櫓降紹遂棄軍走郃之來洪疑不敢受攸謂洪曰郃計不用怒而來君何疑乃受之七年從討袁譚尚於黎陽明年太祖方征劉表譚尚争冀州譚遣辛毗乞降請救太祖将許之以問羣下羣下多以為表强宜先平之譚尚不足憂也攸曰天下方有事而劉表坐保江漢之間其無四方志可知矣袁氏據四州之地帶甲數萬紹以寛厚得衆借使二子和睦以守其成業則天下之難未息也今兄弟遘惡此勢不兩全若有所并則力專力專則難圖也及其亂而取之天下定矣此時不可失也太祖曰善乃許譚和親遂還擊破尚其後譚叛從斬譚於南皮冀州平太祖表封攸曰軍師荀攸自初佐臣無征不從前後克敵皆攸之謀也於是封陵樹亭侯十二年下令大論功行封太祖曰忠正宻謀撫寧内外文若是也公達其次也増邑四百并前七百戸"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u016",
+          "quote": "自太祖之迎天子也袁紹内懐不服紹既并河朔天下畏其强太祖方東憂呂布南拒張繡而繡敗太祖軍於宛紹益驕與太祖書其辭悖慢太祖大怒出入動静變於常衆皆謂以失利於張繡故也鍾繇以問彧彧曰公之聪明必不追咎往事殆有他慮則見太祖問之太祖乃以紹書示彧曰今将討不義而力不敵何如彧曰古之成敗者誠有其才雖弱必強茍非其人雖强易弱劉項之存亡足以觀矣今與公争天下者唯袁紹爾紹貌外寛而内忌任人而疑其心公明達不拘唯才所宜此度勝也紹遲重少決失在後機公能斷大事應變無方此謀勝也紹御軍寛緩法令不立士卒雖衆其實難用公法令既明賞罰必行士卒雖寡皆争致死此武勝也紹憑世資從容飾智以收名譽故士之寡能好問者多歸之公以至仁待人推誠心不為虛美行己謹儉而與有功者無所恡惜故天下忠正效實之士咸願為用此徳勝也夫以四勝輔天子扶義征伐誰敢不從紹之强其何能為太祖悅彧曰不先取呂布河北亦未易圖也太祖曰然吾所惑者又恐紹侵擾關中亂羌胡南誘蜀漢是我獨以兗豫抗天下六分之五也為将柰何彧曰關中将帥以十數莫能相一唯韓遂馬超最强彼見山東方争必各擁衆自保今若撫以恩徳遣使連和相持雖不能久安比公安定山東足以不動鍾繇可屬以西事則公無憂矣三年太祖既破張繡東禽呂布定徐州遂與袁紹相拒孔融謂彧曰紹地廣兵强田豊許攸智計之士也為之謀審配逢紀盡忠之臣也任其事顔良文醜勇冠三軍統其兵殆難克乎彧曰紹兵雖多而法不整田豊剛而犯上許攸貪而不治審配專而無謀逢紀果而自用此二人留知後事若攸家犯其法必不能縱也不縱攸必為變顔良文醜一夫之勇耳可一戰而禽也五年與紹連戰太祖保官渡紹圍之太祖軍糧方盡書與彧議欲還許以引紹彧曰今軍食雖少未若楚漢在榮陽成臯閒也是時劉項莫肯先退先退者勢屈也公以十分居一之衆畫地而守之扼其喉而不得進已半年矣情見勢竭必将有變此用奇之時不可失也太祖乃住遂以奇兵襲紹别屯斬其将淳于瓊等紹退走審配以許攸家不法收其妻子攸怒叛紹顔良文醜臨陣授首田豐以諫見誅皆如彧所筞六年太祖就穀東平之安民糧少不足與河北相支欲因紹新破以其間擊討劉表彧曰今紹敗其衆離心宜乘其困遂定之而背兖豫逺師江漢若紹收其餘燼承虚以出人後則公事去矣太祖復次于河上紹病死太祖渡河擊紹子譚尚而髙幹郭援侵略河東關右震動鍾繇帥馬騰等擊破之語在繇傳八年太祖錄彧前後功表封彧為萬歲亭侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "紹以寛厚得衆借使二子和睦",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "本段紹及二子承接譚尚；並保留既有荀彧單元明文紹子譚尚作雙端支持，並非由同姓推父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-xunyou11-012",
+      "subject_person_id": "3d4_926_480",
+      "predicate": "father",
+      "object_person_id": "102_884_39d",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u013",
+          "quote": "太祖曰誰可使攸曰徐晃可乃遣晃及史渙邀擊破走之燒其輜重㑹許攸來降言紹遣淳于瓊等将萬餘兵迎運糧将驕卒惰可要擊也衆皆疑唯攸與賈詡勸太祖太祖乃留攸及曹洪守太祖自將攻破之盡斬瓊等紹将張郃髙覽燒攻櫓降紹遂棄軍走郃之來洪疑不敢受攸謂洪曰郃計不用怒而來君何疑乃受之七年從討袁譚尚於黎陽明年太祖方征劉表譚尚争冀州譚遣辛毗乞降請救太祖将許之以問羣下羣下多以為表强宜先平之譚尚不足憂也攸曰天下方有事而劉表坐保江漢之間其無四方志可知矣袁氏據四州之地帶甲數萬紹以寛厚得衆借使二子和睦以守其成業則天下之難未息也今兄弟遘惡此勢不兩全若有所并則力專力專則難圖也及其亂而取之天下定矣此時不可失也太祖曰善乃許譚和親遂還擊破尚其後譚叛從斬譚於南皮冀州平太祖表封攸曰軍師荀攸自初佐臣無征不從前後克敵皆攸之謀也於是封陵樹亭侯十二年下令大論功行封太祖曰忠正宻謀撫寧内外文若是也公達其次也増邑四百并前七百戸"
+        },
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-010",
+          "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+          "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u016",
+          "quote": "自太祖之迎天子也袁紹内懐不服紹既并河朔天下畏其强太祖方東憂呂布南拒張繡而繡敗太祖軍於宛紹益驕與太祖書其辭悖慢太祖大怒出入動静變於常衆皆謂以失利於張繡故也鍾繇以問彧彧曰公之聪明必不追咎往事殆有他慮則見太祖問之太祖乃以紹書示彧曰今将討不義而力不敵何如彧曰古之成敗者誠有其才雖弱必強茍非其人雖强易弱劉項之存亡足以觀矣今與公争天下者唯袁紹爾紹貌外寛而内忌任人而疑其心公明達不拘唯才所宜此度勝也紹遲重少決失在後機公能斷大事應變無方此謀勝也紹御軍寛緩法令不立士卒雖衆其實難用公法令既明賞罰必行士卒雖寡皆争致死此武勝也紹憑世資從容飾智以收名譽故士之寡能好問者多歸之公以至仁待人推誠心不為虛美行己謹儉而與有功者無所恡惜故天下忠正效實之士咸願為用此徳勝也夫以四勝輔天子扶義征伐誰敢不從紹之强其何能為太祖悅彧曰不先取呂布河北亦未易圖也太祖曰然吾所惑者又恐紹侵擾關中亂羌胡南誘蜀漢是我獨以兗豫抗天下六分之五也為将柰何彧曰關中将帥以十數莫能相一唯韓遂馬超最强彼見山東方争必各擁衆自保今若撫以恩徳遣使連和相持雖不能久安比公安定山東足以不動鍾繇可屬以西事則公無憂矣三年太祖既破張繡東禽呂布定徐州遂與袁紹相拒孔融謂彧曰紹地廣兵强田豊許攸智計之士也為之謀審配逢紀盡忠之臣也任其事顔良文醜勇冠三軍統其兵殆難克乎彧曰紹兵雖多而法不整田豊剛而犯上許攸貪而不治審配專而無謀逢紀果而自用此二人留知後事若攸家犯其法必不能縱也不縱攸必為變顔良文醜一夫之勇耳可一戰而禽也五年與紹連戰太祖保官渡紹圍之太祖軍糧方盡書與彧議欲還許以引紹彧曰今軍食雖少未若楚漢在榮陽成臯閒也是時劉項莫肯先退先退者勢屈也公以十分居一之衆畫地而守之扼其喉而不得進已半年矣情見勢竭必将有變此用奇之時不可失也太祖乃住遂以奇兵襲紹别屯斬其将淳于瓊等紹退走審配以許攸家不法收其妻子攸怒叛紹顔良文醜臨陣授首田豐以諫見誅皆如彧所筞六年太祖就穀東平之安民糧少不足與河北相支欲因紹新破以其間擊討劉表彧曰今紹敗其衆離心宜乘其困遂定之而背兖豫逺師江漢若紹收其餘燼承虚以出人後則公事去矣太祖復次于河上紹病死太祖渡河擊紹子譚尚而髙幹郭援侵略河東關右震動鍾繇帥馬騰等擊破之語在繇傳八年太祖錄彧前後功表封彧為萬歲亭侯"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "紹以寛厚得衆借使二子和睦",
+        "lineage": "paternal"
+      },
+      "interpretation_note": "本段紹及二子承接譚尚；並保留既有荀彧單元明文紹子譚尚作雙端支持，並非由同姓推父親。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

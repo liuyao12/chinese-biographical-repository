@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {principalOccurrences,occurrenceCountLabel} from '../assets/occurrence-counts.js';
+import {personCard} from '../assets/cbr-person.js';
+assert.equal(occurrenceCountLabel({count:145}), '145 處標記');
+const row={count:143,raw_count:145,duplicate_count:2,counting_policy:'independent_fixed_witness_occurrences'};
+assert.match(occurrenceCountLabel(row),/143.*145.*重出 2/);
+assert.equal(occurrenceCountLabel({...row,count:0,raw_count:0,duplicate_count:0}),'0 處獨立位置');
+assert.deepEqual(principalOccurrences([{count:1,id:'a'},{count:2,id:'b'},{count:2,id:'c'}]).map(x=>x.id),['b','c']);
+assert.deepEqual(principalOccurrences([]),[]);
+const occurrence={...row,work_id:'w-sanguozhi',work_title:'三國志',book_id:'b-010',chapter_id:'c-010',paragraph_id:'old-paragraph',paragraph_ids:['old-paragraph','new-paragraph'],title:'荀彧',quote:'荀彧字文若'};
+const p={id:'unit',label:'甲',names:[],titles:[],addresses:[],dates:[],relations:[],related_people:{},sources:[],occurrences:[occurrence,{...occurrence,chapter_id:'c-other',title:'同數來源'}]};
+const html=personCard(p,true);
+assert.match(html,/143 處獨立位置/);assert.match(html,/145 個原始錨點/);assert.match(html,/同數來源/);assert.match(html,/不代表來源權威度/);assert.match(html,/passage=old-paragraph/);
+console.log('profile/card count tests PASS: raw, independent, ties, legacy, source backlink');

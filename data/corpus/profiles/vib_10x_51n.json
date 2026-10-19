@@ -1090,18 +1090,34 @@
       "title": "武帝紀第六",
       "paragraph_id": "c-hanshu-006-wudi:p133",
       "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "遣伏波將軍路博德出桂陽，下湟水；樓船將軍楊僕出豫章，下湞水；歸義越侯嚴為戈船將軍，出零陵，下離水；甲為下瀨將軍，下蒼梧。皆將罪人，江淮以南樓船十萬人。越馳義侯遺別將巴蜀罪人，發夜郎兵，下牂柯江，咸會番禺。",
-      "work_id": "w-hanshu",
-      "book_id": "b-hanshu-006",
-      "chapter_id": "c-hanshu-006-wudi",
-      "source_id": "s-hanshu-006-wudi",
-      "work_title": "漢書",
       "paragraph_ids": [
         "c-hanshu-006-wudi:p133"
       ],
       "mention_ids": [
         "c-hanshu-006-wudi:m133-0005"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-006-wudi:m133-0005": "c-hanshu-006-wudi:p133"
+      },
+      "mention_id": "c-hanshu-006-wudi:m133-0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-006-wudi:m133-0005",
+          "mention_ids": [
+            "c-hanshu-006-wudi:m133-0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-006",
+      "chapter_id": "c-hanshu-006-wudi",
+      "source_id": "s-hanshu-006-wudi",
+      "work_title": "漢書"
     },
     {
       "number": 110,
@@ -1109,12 +1125,10 @@
       "title": "匈奴列傳第五十",
       "paragraph_id": "c-shiji-110-xiongnu:p054",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "餘里，築城鄣列亭至廬朐，而使游擊將軍韓說、長平侯衛伉屯其旁，使彊弩都尉路博德築居延澤上。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-110",
-      "chapter_id": "c-shiji-110-xiongnu",
-      "source_id": "s-shiji110-xiongnu",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-110-xiongnu:p054",
         "c-shiji-110-xiongnu:p059",
@@ -1124,7 +1138,41 @@
         "c-shiji-110-xiongnu:m054-0060",
         "c-shiji-110-xiongnu:m059-0072",
         "c-shiji-110-xiongnu:m060-0028"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-110-xiongnu:m054-0060": "c-shiji-110-xiongnu:p054",
+        "c-shiji-110-xiongnu:m059-0072": "c-shiji-110-xiongnu:p059",
+        "c-shiji-110-xiongnu:m060-0028": "c-shiji-110-xiongnu:p060"
+      },
+      "mention_id": "c-shiji-110-xiongnu:m054-0060",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m054-0060",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m054-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m059-0072",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m059-0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m060-0028",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m060-0028"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "chapter_id": "c-shiji-110-xiongnu",
+      "source_id": "s-shiji110-xiongnu",
+      "work_title": "史記"
     },
     {
       "number": 111,
@@ -1132,12 +1180,10 @@
       "title": "衛將軍驃騎列傳第五十一",
       "paragraph_id": "c-shiji-111-wei-huo:p019",
       "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "三，取食於敵，閒行殊遠而糧不絕，以五千八百戶益封驃騎將軍。」右北平太守路博德屬驃騎將軍，會與城，不失期，從至梼余山，斬首捕虜二千七百級，以千六百戶封博德為符離侯。北地都尉邢山從驃騎將軍獲王，以千二百戶封山為義陽侯。故歸義因淳王復陸支、樓專王伊即靬皆從驃騎將軍有功，以千三百戶封",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-111",
-      "chapter_id": "c-shiji-111-wei-huo",
-      "source_id": "s-shiji111-wei-huo",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-111-wei-huo:p019",
         "c-shiji-111-wei-huo:p044"
@@ -1147,7 +1193,49 @@
         "c-shiji-111-wei-huo:m019-0263",
         "c-shiji-111-wei-huo:m044-0002",
         "c-shiji-111-wei-huo:m044-0034"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-111-wei-huo:m019-0224": "c-shiji-111-wei-huo:p019",
+        "c-shiji-111-wei-huo:m019-0263": "c-shiji-111-wei-huo:p019",
+        "c-shiji-111-wei-huo:m044-0002": "c-shiji-111-wei-huo:p044",
+        "c-shiji-111-wei-huo:m044-0034": "c-shiji-111-wei-huo:p044"
+      },
+      "mention_id": "c-shiji-111-wei-huo:m019-0224",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m019-0224",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m019-0224"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m019-0263",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m019-0263"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m044-0002",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m044-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m044-0034",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m044-0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "chapter_id": "c-shiji-111-wei-huo",
+      "source_id": "s-shiji111-wei-huo",
+      "work_title": "史記"
     },
     {
       "number": 113,
@@ -1155,12 +1243,10 @@
       "title": "南越列傳第五十三",
       "paragraph_id": "c-shiji-113-nanyue:p007",
       "count": 12,
+      "raw_count": 12,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "太后以入朝，比內諸侯；令辯士諫大夫終軍等宣其辭，勇士魏臣等輔其缺，衛尉路博德將兵屯桂陽，待使者。王年少，太後中國人也，嘗與安國少季通，其使復私焉。國人頗知之，多不附太后。太后恐亂起，亦欲倚漢威，數勸王及群臣求內屬。即因使者上書，請比內諸侯，三歲一朝，除邊關。於是天子許之，賜其",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-113",
-      "chapter_id": "c-shiji-113-nanyue",
-      "source_id": "s-shiji113-nanyue",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-113-nanyue:p007",
         "c-shiji-113-nanyue:p010",
@@ -1181,7 +1267,113 @@
         "c-shiji-113-nanyue:m011-0211",
         "c-shiji-113-nanyue:m012-0076",
         "c-shiji-113-nanyue:m013-0082"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-113-nanyue:m007-0090": "c-shiji-113-nanyue:p007",
+        "c-shiji-113-nanyue:m010-0008": "c-shiji-113-nanyue:p010",
+        "c-shiji-113-nanyue:m011-0041": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0044": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0102": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0127": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0141": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0174": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0186": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m011-0211": "c-shiji-113-nanyue:p011",
+        "c-shiji-113-nanyue:m012-0076": "c-shiji-113-nanyue:p012",
+        "c-shiji-113-nanyue:m013-0082": "c-shiji-113-nanyue:p013"
+      },
+      "mention_id": "c-shiji-113-nanyue:m007-0090",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m007-0090",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m007-0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m010-0008",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m010-0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0041",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0044",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0102",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0102"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0127",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0127"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0141",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0174",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0174"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0186",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0186"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m011-0211",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m011-0211"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m012-0076",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m012-0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m013-0082",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m013-0082"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-113",
+      "chapter_id": "c-shiji-113-nanyue",
+      "source_id": "s-shiji113-nanyue",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

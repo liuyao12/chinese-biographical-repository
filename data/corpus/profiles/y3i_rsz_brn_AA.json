@@ -45,12 +45,10 @@
       "title": "韓世家第十五",
       "paragraph_id": "c-shiji-045-han:p006",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "祁氏、羊舌氏十縣。晉定公十五年，宣子與趙簡子侵伐范、中行氏。宣子卒，子貞子代立。貞子徙居平陽。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-045",
-      "chapter_id": "c-shiji-045-han",
-      "source_id": "s-shiji-045-han",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-045-han:p006",
         "c-shiji-045-han:p007"
@@ -59,7 +57,41 @@
         "c-shiji-045-han:m006-0082",
         "c-shiji-045-han:m006-0087",
         "c-shiji-045-han:m007-0000"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-045-han:m006-0082": "c-shiji-045-han:p006",
+        "c-shiji-045-han:m006-0087": "c-shiji-045-han:p006",
+        "c-shiji-045-han:m007-0000": "c-shiji-045-han:p007"
+      },
+      "mention_id": "c-shiji-045-han:m006-0082",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-045-han:m006-0082",
+          "mention_ids": [
+            "c-shiji-045-han:m006-0082"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-045-han:m006-0087",
+          "mention_ids": [
+            "c-shiji-045-han:m006-0087"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-045-han:m007-0000",
+          "mention_ids": [
+            "c-shiji-045-han:m007-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-045",
+      "chapter_id": "c-shiji-045-han",
+      "source_id": "s-shiji-045-han",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

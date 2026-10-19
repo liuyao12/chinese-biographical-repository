@@ -18,12 +18,10 @@
       "title": "蘇秦列傳第九",
       "paragraph_id": "c-shiji-069-su:p002",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "得周書陰符，伏而讀之。期年，以出揣摩，曰：「此可以說當世之君矣。」求說周顯王。顯王左右素習知蘇秦，皆少之。弗信。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-069",
-      "chapter_id": "c-shiji-069-su",
-      "source_id": "s-shiji-069-su",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-069-su:p002",
         "c-shiji-069-su:p037"
@@ -32,7 +30,41 @@
         "c-shiji-069-su:m002-0149",
         "c-shiji-069-su:m002-0153",
         "c-shiji-069-su:m037-0031"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-069-su:m002-0149": "c-shiji-069-su:p002",
+        "c-shiji-069-su:m002-0153": "c-shiji-069-su:p002",
+        "c-shiji-069-su:m037-0031": "c-shiji-069-su:p037"
+      },
+      "mention_id": "c-shiji-069-su:m002-0149",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-069-su:m002-0149",
+          "mention_ids": [
+            "c-shiji-069-su:m002-0149"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m002-0153",
+          "mention_ids": [
+            "c-shiji-069-su:m002-0153"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-069-su:m037-0031",
+          "mention_ids": [
+            "c-shiji-069-su:m037-0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-069",
+      "chapter_id": "c-shiji-069-su",
+      "source_id": "s-shiji-069-su",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

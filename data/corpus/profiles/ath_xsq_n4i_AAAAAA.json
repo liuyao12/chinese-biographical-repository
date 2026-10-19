@@ -62,12 +62,10 @@
       "title": "魯周公世家第三",
       "paragraph_id": "c-shiji-033-lu:p095",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "共公二十二年卒，子屯立，是爲康公。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-033",
-      "chapter_id": "c-shiji-033-lu",
-      "source_id": "s-shiji-033-lu",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-033-lu:p095",
         "c-shiji-033-lu:p096"
@@ -76,7 +74,41 @@
         "c-shiji-033-lu:m095-0009",
         "c-shiji-033-lu:m095-0014",
         "c-shiji-033-lu:m096-0000"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-033-lu:m095-0009": "c-shiji-033-lu:p095",
+        "c-shiji-033-lu:m095-0014": "c-shiji-033-lu:p095",
+        "c-shiji-033-lu:m096-0000": "c-shiji-033-lu:p096"
+      },
+      "mention_id": "c-shiji-033-lu:m095-0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-033-lu:m095-0009",
+          "mention_ids": [
+            "c-shiji-033-lu:m095-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-033-lu:m095-0014",
+          "mention_ids": [
+            "c-shiji-033-lu:m095-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-033-lu:m096-0000",
+          "mention_ids": [
+            "c-shiji-033-lu:m096-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-033",
+      "chapter_id": "c-shiji-033-lu",
+      "source_id": "s-shiji-033-lu",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

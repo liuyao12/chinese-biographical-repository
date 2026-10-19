@@ -68,12 +68,10 @@
       "title": "晉世家第九",
       "paragraph_id": "c-shiji-039-jin:p103",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "晉景公爲王，景公讓不敢。晉始作六（卿）［軍］，韓厥、鞏朔、趙穿、荀騅、趙括、趙旃皆爲卿。智罃自楚歸。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-039",
-      "chapter_id": "c-shiji-039-jin",
-      "source_id": "s-shiji-039-jin",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-039-jin:p103",
         "c-shiji-039-jin:p107"
@@ -81,7 +79,33 @@
       "mention_ids": [
         "c-shiji-039-jin:m103-0049",
         "c-shiji-039-jin:m107-0008"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-039-jin:m103-0049": "c-shiji-039-jin:p103",
+        "c-shiji-039-jin:m107-0008": "c-shiji-039-jin:p107"
+      },
+      "mention_id": "c-shiji-039-jin:m103-0049",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m103-0049",
+          "mention_ids": [
+            "c-shiji-039-jin:m103-0049"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m107-0008",
+          "mention_ids": [
+            "c-shiji-039-jin:m107-0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-039",
+      "chapter_id": "c-shiji-039-jin",
+      "source_id": "s-shiji-039-jin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

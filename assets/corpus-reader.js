@@ -12,6 +12,7 @@ export function sourcePassageURL(source) {
     const params = new URLSearchParams({work:source.work_id, chapter:source.chapter_id});
     if (source.book_id) params.set('book',source.book_id);
     if (source.paragraph_id) params.set('passage',source.paragraph_id);
+    if (source.mention_id) params.set('mention',source.mention_id);
     return 'reader.html#'+params;
   }
   const number = source.number || Number(/shiji-(\d{3})/.exec(source.chapter_id || '')?.[1]);
@@ -34,7 +35,10 @@ export function profileSourceContext(person, params) {
   if (!occurrence) return null;
   const requested=params.get('passage');
   const passage=occurrence.paragraph_ids?.includes(requested)?requested:occurrence.paragraph_id;
-  const href=sourcePassageURL({...occurrence,paragraph_id:passage});
+  const requestedMention=params.get('mention') || (occurrence.mention_ids?.includes(requested)?requested:null);
+  const mention=requestedMention && occurrence.mention_ids?.includes(requestedMention)?requestedMention:null;
+  const actualPassage=mention?occurrence.mention_paragraph_ids?.[mention] || passage:passage;
+  const href=sourcePassageURL({...occurrence,paragraph_id:actualPassage,mention_id:mention});
   return href?{href,text:`回到《${occurrence.work_title}·${occurrence.title}》 →`}:null;
 }
 export function chapterParagraph(paragraph, people = {}, context = null) {
@@ -50,6 +54,7 @@ export function chapterParagraph(paragraph, people = {}, context = null) {
       const params = context?.work_id && context.work_id !== 'w-shiji'
         ? new URLSearchParams({work:context.work_id,book:context.book_id,chapter:context.chapter_id,passage:paragraph.id})
         : number ? new URLSearchParams({chapter:String(number),passage:paragraph.id}) : null;
+      if(params && context?.reading_layout)params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {

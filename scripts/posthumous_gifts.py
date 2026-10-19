@@ -8,6 +8,12 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     if (isinstance(holding.get('posthumous_basis'), dict)
             and holding['posthumous_basis'].get('kind') == 'continued_subject_death_then_gift'):
         return continued_subject_gift_valid(holding, paragraphs, mentions, life_events or {})
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'explicit_topic_scoped_gift':
+        try:
+            from scripts.explicit_topic_gifts import explicit_topic_gift_valid
+        except ImportError:
+            from explicit_topic_gifts import explicit_topic_gift_valid
+        return explicit_topic_gift_valid(holding, paragraphs, mentions, life_events or {})
     b = holding.get('posthumous_basis')
     if (not isinstance(b, dict) or set(b) != {'kind', 'source_term', 'death_term', 'grant_term', 'recipient_person_mention_id', 'evidence'}
             or b.get('kind') != 'death_then_explicit_gift' or holding.get('mode') != 'posthumous_grant'

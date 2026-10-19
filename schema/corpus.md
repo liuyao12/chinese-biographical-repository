@@ -746,3 +746,64 @@ validator核同篇同source、直接相鄰段、原行只隔一空行、同固�
 ## 裴松之注的固定見證文字層
 
 `text_layer: witness_appended_pei_songzhi_note` 保存已固定數位見證中的裴注所引文字、裴案與引書，不冒作陳壽正文。`received_authority`為該選段可見的引書／作者標記，七個編輯分段不宣稱底本原有七段。來源原行、外層括號、頁標與編輯去排版步驟完整另存；引書中的再引、書信與自稱依完整敘事單元判讀，不能以段落字面最近人名自動掛號。沒有親見影像，仍image_verified:false。
+
+### 明示主題下的死亡贈官
+
+`posthumous_basis.kind: explicit_topic_scoped_gift` 不按最近人物推受贈者。
+`topic_person_mention_id` 可在非零字位，但必須是句界後的明示主語，前面只可有已列時序詞；`topic_span`、`death_anchor`、`gift_anchor` 均保存實際字元。
+同人死亡事件須已有記錄，死亡先於贈官，贈官清單必須逐字包含本稱號。
+中間他人只可逐項列為 `sovereign_replies`，並須是「上／帝／天子」的孤立不許／許之答覆，不能含死亡或代換主題；未列出的其他人物使驗證失敗。
+這是經編者標定的局部主語承接，並非任意略過帝王或自動將傳主套進所有贈官句。
+
+### 傳紀年語境與事件原句分層
+
+`calendar_context_assertion_set` 新增 `basis.kind: biographical_regnal_context`。
+固定見證、原行雜湊、單元數位題頭與明示傳主錨點保存於 context；數位題頭不是正文。
+`timeline.paragraph_ids` 必須完整列入該單元從開頭至本事件的所有既有段落，不得跳段、倒序或越過另一傳題。
+`accession_anchor` 必須明示即位主語；獨立 `era_context` 必須以來源人物錨點指向同一君主，並包含明文年號。
+即位至事件間若有相競年號即拒絕；現代年號表只供數值換算，不能代替古代來源的君主／事件判讀。
+`event_binding` 綁定單一既有death或posthumous_enfeoffment記錄、人物及其實際事件詞字位。
+事件 `normalized_date.evidence` 與 `original_quote` 仍只留實際事件原段，年號支持另存context，不把遠段年號拼進事件引句，也不改報齡的死亡時點或倒算生年。
+所有判讀為 `editorial_provisional`，數值是中國曆年，不改為公曆月日。
+
+### 追封與追贈分開
+
+`mode: posthumous_enfeoffment` 與同名起點事件表示明文「追封＋原爵號」。
+只限noble_rank，須有同人同段先前已記死亡、精確追封詞及爵號字位，`enfeoffment_basis` 保存death_event_id與相同授封證據。
+一般封、死後一次用稱、追贈官職均不能改當追封；此類爵不得作生前轉封的前職。
+未知終點仍為unknown，不因死亡自動截斷其他官職。
+
+傳紀年另核 `subject_death_anchor` 的局部死亡主語：同段最後明示回到傳主後，其他具名者只能是上述孤立君主答覆；若事件段未具名傳主，僅接受段首原年詞後直接卒／薨的省主語形態。正文若明記另一死者，不得只憑傳題覆寫。`death_event_id` 必須綁定本死亡；追封語境必須再連至同人已驗的死亡context支持，不可援引另一人的死亡。
+
+
+### 從叔無後具名為嗣，連續本傳另明出繼
+
+`adoptive_father` 增加 `adoption_basis: named_agnatic_senior_no_heir_as_successor`，不改既有伯父或弟子為嗣分支。具名「從叔」須與「無後以〔子名〕為嗣」同段，次段須明言「年〔報齡〕歲／嵗出繼」及「所繼父於〔子名〕本緦麻」。兩段均須完整正文引文、同篇同修訂及相連原行，逐人錨點一致，不得跳過正文或跨傳主。報齡只留原詞，不倒推生年。
+
+`biological_father_assertion_id` 必須指向首段明文生父；`biological_father_preserved: true` 保留生父，不以嗣父取代。`source_term` 和 `chuji_source_term` 保留兩項原詞；`modern_legal_status: not_inferred` 不作現代法律判定。只嗣爵、只同族、無出繼、錯名或錯版本均拒絕。本型別不產生生母、嗣母或排行。
+
+
+### 明言反向從子句（局部模型擴充）
+
+`agnatic_senior_kin` 原語義不變：主體晚一代父系旁親，`generation_difference: -1`，親等及共同祖先為 null，年齡先後未知。新增 `source_clause_binding` 的 `pattern: biographical_subject_courtesy_senior_congzi` 與 `courtesy_name_mention_id`，只認雙端人物錨點加同一主體的字號錨點，精確原句「主體字字號對象從子也」。不依同姓或同名猜身份、不補中介父親；不同代與同代不得互換。「彞于彧為從祖兄弟」仍獨立為同輩父系旁親，不能改成親兄弟。此句型不擴及族父、姑子或未知其他倒裝句。
+
+
+### 固定見證同位置對應
+
+`source_occurrence_concordance_set` 以sources/witnesses內固定UTF-8 raw檔（URL、revision、SHA256、git blob）和雙端原Unicode錨點記錄同位置重出。`resolved_person_occurrence_alias`雙端須同一現行person ID；`unresolved_text_span_correspondence`僅存未解文本位置，不當個人。兩端各自以literal witness_fragments或已存Kanripo括注正文節引投影到同一原行欄位，不准跨source／revision／位置。單一canonical與duplicate一對一、無自連、重用、鏈或循環。原段、提及、引用不改。
+
+bundle的mention_count為獨立位置，raw_mention_count與duplicate_mention_count及occurrence_groups保存原始錨點與對應；most-mentioned依獨立數並列。source_count仍是來源記錄數，passage_count仍是註記容器數。來源頻次不是權威度。未解合稱不投入人物頻次。
+
+
+### 元年承前與固定本傳嵌入引語的省年號語境
+
+`relative_regnal_year_valid` 只在紀年解析將「元」讀為一年，不修改報齡 `source_age_number`。新增元年承前必須提供 `narrative_era_scope`，明年/其年仍分別偏移一/零年；「次年」原詞未建模型，不靜默等同明年。既有非元年分支保留。
+
+`narrative_era_scope.kind: same_biographical_timeline_with_embedded_quotations` 保存同篇固定修訂、傳主段首錨點、完整相鄰段序及各段原文/原行位置、年號與事件日期獨立錨點、具名君主參考與受檢的君主/年號清單。引語或賦文的確切範圍另列 `embedded_quotation_scopes`；其中引古不改敘事年號。不得跳正文、改版本、取後出的年號、跨傳主或換君主；事件引文仍為原事件完整段，不把年號語境拼進原文。這是有理由且可撤回的語境判讀，不是通用自然語言斷代器；來源的引語邊界和君主指涉仍須核讀。
+
+新資料省略年號採此較嚴格語境；年號名稱清單及公元起迄對照來自固定保存的教育部年號表，只作換年，不聲稱該現代表驗證古代事件。所有數值為中國曆年，年精度不生成月日、生日或全部任職終期。
+
+
+### 原生reading_layout
+
+version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所有paragraph IDs。原JSON paragraphs／text_sha256仍存原實體順序；不刪任何錨點。archival只允許同fixedraw完整逐字range對應，含原行／SHA／revision及concordance，不能憑文字相似封存。XML以主文後archival順序序列化原p及行內ID，reading-role/index可追溯；無layout章位元輸出不變。runtime封存區預設摺疊、舊paragraph／mention深連結先展開再定位，人物返回鏈保留原ID。
