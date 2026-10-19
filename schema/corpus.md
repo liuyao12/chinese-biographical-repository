@@ -700,3 +700,11 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 身後明贈官號可按原文「贈甲、乙，加丙」逐項保存；保留完整並列贈授句、同段死亡詞與受贈人物標記。特進等榮號列 `honorific`，不得因此將未受任或生前見稱改為贈官，亦不據死亡自動補授贈年份。
 
 省略主語的「即以某官為贈」以 `continued_subject_death_then_gift` 連結同人同段死亡事件及緊接前段人物標記；須保留兩段引文、原死亡紀年與完整贈官句。不得將前段別人的死亡、較遠段落主語或生前未拜的其他並列官號套入贈授。
+
+「年垂五十」等傳文報齡沿用 `approximation.kind: approaching_age`、數值 `target` 及 `approximate_report`，確歲與生年留空，不改為嚴格上下界。`subject_scope.kind: named_subject_in_biography` 連到本段具名人物，須與報齡前最近具名人物一致，完整原段與本人錨點同存；不可把祖先報齡移給傳主，也不可套入奏表自報。
+
+原紀年前明記朝代（如「宋元嘉十三年」）時，`regnal_year_mapping.source_polity_prefix` 保存宋，`era_name` 仍為元嘉，`source_expression` 保留完整朝代加紀年；前綴須與現代對照表的 dynasty 欄一致，不能靜默刪去宋或把宋充作年號的一部分。
+
+暫定身份判斷可用 `alternatives` 保存仍未排除的其他人物，每項明記不同的 `person_id`、`status: not_preferred_but_not_excluded` 與理由。主項 `person_id` 是首選，狀態維持 `contextual_provisional`、`human_reviewed: false`；候選不是同指合併。主項與候選各自的人物來源包均收錄該判斷及原段，但不把候選當確定提及、親屬或身份別名。
+
+`maternal_role` 保存原文母親稱謂，方向為子女至被稱母者。`role: mother_unspecified` 保留「母某」；`role: prior_mother` 保留「前母」。兩者均須具同段雙人物錨點，`biological_mother: null`、`father_person_id: null`，不列入生母或自動生成配偶／父系。前母不可直接改作後母、繼母或生母；原文追贈提議是否採納另記。

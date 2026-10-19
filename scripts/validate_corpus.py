@@ -108,12 +108,18 @@ def normalized_date_errors(date, chapters=None):
                 source_name = mapping.get('source_era_name', name)
                 spelling_ok = (source_name == name or (source_name, name) in
                                (('昇平', '升平'), ('升明', '昇明')))
-                expression = source_name + str(number) + '年' if isinstance(source_name, str) else None
+                prefix = mapping.get('source_polity_prefix', '')
+                prefix_ok = ('source_polity_prefix' not in mapping or
+                             (isinstance(prefix, str) and bool(prefix) and isinstance(ref, dict)
+                              and isinstance(ref.get('columns'), dict)
+                              and ref['columns'].get('dynasty') == prefix))
+                expression = ((prefix if isinstance(prefix, str) else '') + source_name + str(number) + '年'
+                              if isinstance(source_name, str) else None)
                 valid = (mapping.get('kind') == 'ce_regnal_era_span' and era == 'CE'
                          and type(first) is int and type(last) is int and 0 < first <= last
                          and type(n) is int and n > 0 and n == parsed
                          and year == first + n - 1 and year <= last
-                         and spelling_ok and expression == date.get('source_expression')
+                         and spelling_ok and prefix_ok and expression == date.get('source_expression')
                          and isinstance(date.get('original_quote'), str) and expression in date['original_quote']
                          and isinstance(ref, dict) and ref.get('scope') == 'modern_era_year_equivalence_only'
                          and ref.get('quote') == name and isinstance(ref.get('url'), str) and ref['url'].startswith('https://')
@@ -621,6 +627,12 @@ def validate(root=ROOT):
                 check(decision['id'] not in dids,'身份判斷 ID 重複');dids.add(decision['id'])
                 check(decision['person_id'] in pids,'身份判斷引用未知人物')
                 check(bool(decision['evidence']),'身份判斷無證據')
+                if 'alternatives' in decision:
+                    try:
+                        from scripts.identity_alternatives import identity_alternative_errors
+                    except ImportError:
+                        from identity_alternatives import identity_alternative_errors
+                    errors.extend(identity_alternative_errors(decision, pids))
                 if 'ancestor_reference' in decision:
                     try:
                         from scripts.ancestor_reference import ancestor_reference_valid
@@ -1190,7 +1202,7 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
                 if 'marriage_termination' in qualifiers:
@@ -1310,6 +1322,12 @@ def validate(root=ROOT):
                         from chuji_parentage import chuji_parentage_valid
                     check(chuji_parentage_valid(a, paragraphs, d['assertions']),
                           '出繼父須有出繼伯父原詞、具名雙錨點及同段生父伯父證據，不得覆蓋生父')
+                if a['predicate'] == 'maternal_role':
+                    try:
+                        from scripts.maternal_roles import maternal_role_valid
+                    except ImportError:
+                        from maternal_roles import maternal_role_valid
+                    check(maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
