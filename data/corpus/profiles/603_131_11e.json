@@ -1649,6 +1649,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1667,7 +1678,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-042-21-7",
+      "person_id": "603_131_11e",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "誅楊駿",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-042",
+          "chapter_id": "c-jinshu-042-taiyuan-wang",
+          "source_id": "s-jinshu-042-taiyuan-wang",
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line021",
+          "quote": "太熙初，遷司徒。惠帝即位，加侍中，又京陵置士官，如睢陵比。及誅楊駿，崇重舊臣，乃加渾兵。渾以司徒文官，主史不持兵，持兵乃吏屬絳衣。自以偶因時寵，權得持兵，非是舊典，皆令皁服。論者美其謙而識體。",
+          "person_mention_id": "c-jinshu-042-taiyuan-wang:line021:m0031"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

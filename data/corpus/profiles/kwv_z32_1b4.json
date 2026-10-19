@@ -11,7 +11,56 @@
     "安西",
     "其"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jinshu079-phase2-070",
+      "person_id": "kwv_z32_1b4",
+      "title": "安西將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p003",
+          "quote": "遷會稽王友，入補給事黃門侍郎，出為建武將軍、曆陽太守，轉督江夏義陽隨三郡軍事、江夏相，將軍如故。時安西將軍庾翼鎮武昌，尚數詣翼咨謀軍事。嘗與翼共射，翼曰：「卿若破的，當以鼓吹相賞。」尚應聲中之，翼即以其副鼓吹給之。尚為政清簡，始到官，郡府以布四十匹為尚造烏布帳。尚壞之，以為軍士褚襦袴。建元二年，詔曰：「尚往以戎戍事要，故輟黃散，以授軍旅。所處險要，宜崇其威望。今以為南中郎將，餘官如故。」會庾冰薨，復以本號督豫州四郡，領江州刺史。俄而復轉西中郎將、督揚州之六郡諸軍事、豫州刺史、假節，鎮曆陽。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0053"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jinshu079-phase2-070:a001",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p003",
+          "start": 49,
+          "end": 53,
+          "surface": "安西將軍",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p003:m0053",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明文記官爵；起訖年份未載，不以卒年結束所有官爵，不把地域官名當籍貫。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1656,6 +1705,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -2144,7 +2204,38 @@
     "kwv_z32_1b4": "庾翼"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "kwv_z32_1b4",
+      "title": null,
+      "surname": "庾",
+      "ming": "翼",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line098",
+      "quote": "成帝疾篤，時有妄為尚書符，敕宮門宰相不得前，左右皆失色。冰神氣自若，曰：「是必虛妄。」推問，果詐，眾心乃定。進號左將軍。康帝即位，又進車騎將軍。冰懼權盛，乃求外出。會弟翼當伐石季龍，於是以本號除都督江荊甯益梁交廣七州豫州之四郡軍事、領江州刺史、假節，鎮武昌，以為翼援。冰臨發，上疏曰：",
+      "note": "弟翼承本完整庾氏家族敘事；只拆省名，不由兄弟填共同父親。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line092",
+          "quote": "冰字季堅。兄亮以名德流訓，冰以雅素垂風，諸弟相率莫不好禮，為世論所重，亮常以為庾氏之寶。司徒辟，不就，征秘書郎。預討華軼功，封都鄉侯。王導請為司徒右長史，出補吳國內史。",
+          "scope": "editorial_surname_from_biographical_family_context",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=2296501",
+          "image_verified": false
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "kwv_z32_1b4"
   ],

@@ -171,7 +171,6 @@
 | `151_npt_4sa` | 驪姬 | [《史記・龜策列傳》][148] | [JSON](151_npt_4sa.json) |
 | `15h_34z_4to` | 太嶽（姜姓祖先引語） | [《史記・陳杞世家》][56] | [JSON](15h_34z_4to.json) |
 | `164_wmw_9ck` | 渾邪王（匈奴列傳第37段未名） | [《史記・衛將軍驃騎列傳》][131] | [JSON](164_wmw_9ck.json) |
-| `169_279_d9c` | 司馬越 | [《晉書・王湛、王承、王述、王坦之及附傳完整敘事單元》][23] | [JSON](169_279_d9c.json) |
 | `16c_ysj_x0r` | 子家 | [《史記・鄭世家》][62] | [JSON](16c_ysj_x0r.json) |
 | `16n_czk_thg` | 田忌 | [《史記・田敬仲完世家》][66] | [JSON](16n_czk_thg.json) |
 | `16v_9b1_4bn` | 桀溺 | [《史記・孔子世家》][67] | [JSON](16v_9b1_4bn.json) |
@@ -1405,7 +1404,7 @@
 | `9nc_i02_15v` | 徐巿（本文字形） | [《史記・秦始皇本紀》][44] | [JSON](9nc_i02_15v.json) |
 | `9np_rzc_2gg` | 伯夷 | [《史記・鄭世家》][62] | [JSON](9np_rzc_2gg.json) |
 | `9o2_2ov_exd` | 帶他 | [《史記・陳涉世家》][68] | [JSON](9o2_2ov_exd.json) |
-| `9o2_vhv_r7y` | 東海王越 | [《晉書・王導家世及王洽、王珣接合選段》][21]、[《宋書・王韶之荀伯子等列傳》][155] | [JSON](9o2_vhv_r7y.json) |
+| `9o2_vhv_r7y` | 司馬越 | [《晉書・王湛、王承、王述、王坦之及附傳完整敘事單元》][23] | [JSON](9o2_vhv_r7y.json) |
 | `9o3_tsd_zsk` | 申侯（楚成王伐齊將） | [《史記・楚世家》][60] | [JSON](9o3_tsd_zsk.json) |
 | `9o5_pap_blt` | 趙疵 | [《史記・趙世家》][63] | [JSON](9o5_pap_blt.json) |
 | `9o6_1ag_i9m` | 孝公（秦） | [《史記・太史公自序》][150] | [JSON](9o6_1ag_i9m.json) |
@@ -2109,6 +2108,7 @@
 | `ejp_e4r_st7` | 石乞 | [《史記・仲尼弟子列傳》][87] | [JSON](ejp_e4r_st7.json) |
 | `ejx_n17_vnl` | 齊中大夫未名 | [《史記・扁鵲倉公列傳》][125] | [JSON](ejx_n17_vnl.json) |
 | `ek7_zwf_lkt` | 武王后（魏世家未名者） | [《史記・魏世家》][64] | [JSON](ek7_zwf_lkt.json) |
+| `ekf_sxz_k88` | 呂太后 | [《史記・太史公自序》][150] | [JSON](ekf_sxz_k88.json) |
 
 [2]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_007.txt
 [4]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
@@ -2124,7 +2124,6 @@
 [17]: https://zh.wikisource.org/w/index.php?oldid=2444513
 [19]: https://zh.wikisource.org/w/index.php?title=晉書/卷042&oldid=2180524
 [20]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7064&oldid=2622004
-[21]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7065&oldid=1756144
 [22]: https://zh.wikisource.org/w/index.php?oldid=2296501
 [23]: https://zh.wikisource.org/w/index.php?title=晉書/卷075&oldid=2645530
 [25]: https://zh.wikisource.org/w/index.php?title=晉書/卷075&oldid=2645530

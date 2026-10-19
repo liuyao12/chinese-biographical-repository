@@ -16,7 +16,56 @@
     "聖聽",
     "天聰"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-yu2-j098-60-qpk_4pt_y6r",
+      "person_id": "qpk_4pt_y6r",
+      "title": "康帝",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line098",
+          "quote": "成帝疾篤，時有妄為尚書符，敕宮門宰相不得前，左右皆失色。冰神氣自若，曰：「是必虛妄。」推問，果詐，眾心乃定。進號左將軍。康帝即位，又進車騎將軍。冰懼權盛，乃求外出。會弟翼當伐石季龍，於是以本號除都督江荊甯益梁交廣七州豫州之四郡軍事、領江州刺史、假節，鎮武昌，以為翼援。冰臨發，上疏曰：",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line098:m0060"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-j098-60-qpk_4pt_y6r:a001",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line098",
+          "start": 60,
+          "end": 62,
+          "surface": "康帝",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line098:m0060",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1670,6 +1719,17 @@
               "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
               "kind": "blank_line",
               "not_received_text": true
+            }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
             }
           ]
         },

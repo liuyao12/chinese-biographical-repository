@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `ekf_sxz_k88` | 呂太后 | [《史記・太史公自序》][150] | [JSON](ekf_sxz_k88.json) |
 | `ekr_gcm_hox` | 魯昭公 | [《史記・仲尼弟子列傳》][87] | [JSON](ekr_gcm_hox.json) |
 | `eku_vg7_a7e` | 樂毅 | [《史記・陳涉世家》][68] | [JSON](eku_vg7_a7e.json) |
 | `el1_amk_djh` | 始興王鑒 | [《南齊書・阮韜傳》][34]、[《南史・王氏跨史家系選段》][37] | [JSON](el1_amk_djh.json) |
@@ -2175,6 +2174,7 @@
 | `ut1_rtj_ckz` | 楚惠王 | [《史記・伍子胥列傳》][86] | [JSON](ut1_rtj_ckz.json) |
 | `utj_s5y_tae` | 毛叔鄭 | [《史記・周本紀》][42] | [JSON](utj_s5y_tae.json) |
 | `utx_gsk_11a` | 懷（項羽本紀提要） | [《史記・太史公自序》][150] | [JSON](utx_gsk_11a.json) |
+| `uvb_oh6_dx1` | 平津侯 | [《史記・三王世家》][80] | [JSON](uvb_oh6_dx1.json) |
 
 [4]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt

@@ -10,7 +10,56 @@
     "恭",
     "自"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jinshu079-phase2-122",
+      "person_id": "50j_txw_zn0",
+      "title": "吏部郎",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p002",
+          "quote": "兄安薨，石遷衛將軍，加散騎常侍。以公事與吏部郎王恭互相短長，恭甚忿恨，自陳褊厄不允，且疾源深固，乞還私門。石亦上疏遜位。有司奏，石輒去職，免官。詔曰：「石以疾求退，豈准之常制！其喻令還。」歲餘不起。表十餘上，帝不許。石乞依故尚書令王彪之例，於府綜攝，詔聽之。疾篤，進位開府儀同三司，加鼓吹，未拜，卒，時年六十二。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p002:m0023"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jinshu079-phase2-122:a001",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshi-p002",
+          "start": 20,
+          "end": 23,
+          "surface": "吏部郎",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshi-p002:m0023",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明文記官爵；起訖年份未載，不以卒年結束所有官爵，不把地域官名當籍貫。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1317,6 +1366,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -2261,7 +2321,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-075-100-11",
+      "person_id": "50j_txw_zn0",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "伏法",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line100",
+          "quote": "道子既不能距諸侯，欲委罪國寶，乃遣譙王尚之收國寶，付廷尉，賜死，並斬緒於市。以謝王恭。國寶貪縱聚斂，不知紀極，後房伎妾以百數，天下珍玩充滿其室。及王恭伏法，詔追復國寶本官。元興初，桓玄得志，表徙其家屬于交州。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line100:m0040"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

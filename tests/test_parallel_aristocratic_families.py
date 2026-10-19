@@ -54,3 +54,20 @@ class ParallelAristocraticFamilies(unittest.TestCase):
             self.assertNotIn(pid,self.people)
             self.assertFalse((ROOT / 'exports/persons' / (pid+'.json')).exists())
             self.assertFalse(any(pid in p.get('id_aliases',[]) for p in self.people.values()))
+
+    def test_east_sea_prince_yue_has_one_identity_across_received_passages(self):
+        pid = '9o2_vhv_r7y'
+        self.assertNotIn('169_279_d9c', self.people)
+        decision = read('corpus/jinshu/075-simayue-identities.json')['decisions'][0]
+        self.assertEqual(decision['person_id'], pid)
+        self.assertEqual(set(decision['chapter_ids']), {
+            'c-songshu-060-xunbozi', 'c-jinshu-065-wangdao-family',
+            'c-jinshu-075-taiyuan-wang'})
+        for path in ['songshu/060', 'jinshu/065', 'jinshu/075-taiyuan-wang']:
+            chapter = read('corpus/' + path + '.json')
+            mentions = [m for p in chapter['paragraphs'] for m in p['mentions']
+                        if m.get('surface') == '東海王越']
+            self.assertTrue(mentions)
+            self.assertTrue(all(m.get('person_id') == pid for m in mentions))
+        self.assertFalse(any('169_279_d9c' in p.get('id_aliases', [])
+                             for p in self.people.values()))

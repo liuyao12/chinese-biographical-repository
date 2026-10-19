@@ -433,7 +433,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-042-15-6",
+      "person_id": "e21_0be_337",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "臨陣斬二將",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-042",
+          "chapter_id": "c-jinshu-042-taiyuan-wang",
+          "source_id": "s-jinshu-042-taiyuan-wang",
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line015",
+          "quote": "及大舉伐吳，渾率師出橫江，遣參軍陳慎、都尉張喬攻尋陽瀨鄉，又擊吳牙門將孔忠，皆破之，獲吳將周興等五人。又遣殄吳護軍李純據高望城，討吳將俞恭，破之，多所斬獲。吳曆武將軍陳代、平虜將軍硃明懼而來降。吳丞相張悌、大將軍孫震等率眾數萬指城陽，渾遣司馬孫疇、揚州刺史周浚擊破之，臨陣斬二將，及首虜七千八百級，吳人大震。",
+          "person_mention_id": "c-jinshu-042-taiyuan-wang:line015:m0106"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

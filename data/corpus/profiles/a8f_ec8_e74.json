@@ -8,7 +8,56 @@
   "names": [
     "澤"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-075-112-65-82",
+      "person_id": "a8f_ec8_e74",
+      "title": "雁門太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+          "quote": "初，綏與王謐、桓胤齊名，為後進之秀。謐位官既極，保身而終。胤以從坐誅，聲稱猶全。綏身死，名論殆盡，亦以薄行矜峭而尚人故也。自昶父漢雁門太守澤已有名稱，忱又秀出，綏亦著稱，八葉繼軌，軒冕莫與為比焉。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line112:m0069"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-112-65-82",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+          "start": 65,
+          "end": 69,
+          "surface": "雁門太守",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line112:m0069",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1240,6 +1289,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1281,7 +1341,33 @@
     "a8f_ec8_e74_A": "王昶"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "a8f_ec8_e74",
+      "title": null,
+      "surname": "王",
+      "ming": "澤",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+      "quote": "初，綏與王謐、桓胤齊名，為後進之秀。謐位官既極，保身而終。胤以從坐誅，聲稱猶全。綏身死，名論殆盡，亦以薄行矜峭而尚人故也。自昶父漢雁門太守澤已有名稱，忱又秀出，綏亦著稱，八葉繼軌，軒冕莫與為比焉。",
+      "note": "本名原字及已整合身份分存；王姓沿用既有身份與已證家族語境，不據此補父母、字號或日期。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_anchors": {
+        "ming": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+          "start": 69,
+          "end": 70,
+          "surface": "澤"
+        }
+      }
+    }
+  ],
   "person_ids": [
     "a8f_ec8_e74"
   ],
