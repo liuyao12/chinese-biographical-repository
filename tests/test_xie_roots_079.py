@@ -142,8 +142,10 @@ class XieRoots079(unittest.TestCase):
         for child, parent in [('謝安', '謝裒'), ('謝據', '謝裒'), ('謝朗', '謝據'),
                               ('謝重', '謝朗'), ('謝晦', '謝重'), ('謝絢', '謝重')]:
             self.assertEqual(assembled[self.people[child]]['parent_person_id'], self.people[parent])
-        self.assertEqual(len(self.rows), 8)
-        self.assertNotIn(self.people['謝玄'], self.rows)
+        original_branch = ['謝裒', '謝據', '謝安', '謝朗', '謝重', '謝晦', '謝絢', '謝氏（荀伯子妻）']
+        self.assertTrue({self.people[name] for name in original_branch} <= set(self.rows))
+        self.assertEqual(self.rows[self.people['謝玄']]['parent_person_id'], self.people['謝奕'])
+        self.assertEqual(self.rows[self.people['謝奕']]['parent_person_id'], self.people['謝裒'])
         self.assertNotIn(self.people['謝尚'], self.rows)
         self.assertEqual(assembled[self.people['王修']]['parent_person_id'], self.people['王濛'])
         self.assertNotEqual(assembled[self.people['王濛']]['root_person_id'], self.people['王仁'])

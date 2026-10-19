@@ -18,7 +18,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
     def test_cross_history_parent_paths_are_traced_from_evidence(self):
         for start, expected in [
             ('a8f_ec8_e74_AAAAABA', ['王綏','王愉','王坦之','王述','王承','王湛','王昶','王澤']),
-            ('2r1_zso_fl1_DAA', ['謝靈運','謝瑍','謝玄','謝奕']),
+            ('aa6_83c_juy_CDAA', ['謝靈運','謝瑍','謝玄','謝奕','謝裒']),
             ('4qr_wrk_3vd_DDBA', ['庾登之','庾廓（宋書原稱）','庾蘊','庾冰','庾琛'])]:
             names=[];seen=set();pid=start
             while pid:

@@ -141,6 +141,12 @@ def normalized_date_errors(date, chapters=None):
                 valid = (annal_regnal_year_valid(date, source_age_number)
                          and isinstance(chapters, dict)
                          and annal_year_binding_valid(date, chapters.get(date['evidence'][0]['chapter_id'], {})))
+            if isinstance(mapping, dict) and mapping.get('kind') == 'era_only_antecedent_ce_span':
+                try:
+                    from scripts.era_only_dates import valid as era_only_valid
+                except ImportError:
+                    from era_only_dates import valid as era_only_valid
+                valid = era_only_valid(date, source_age_number, chapters)
             if 'calendar_context' in date:
                 try:
                     from scripts.calendar_wiring import date_shape_valid
@@ -436,7 +442,7 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan'),'文字層次無效')
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs','title','seg') for e in x),'XML 含未知正文標籤')

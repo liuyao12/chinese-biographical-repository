@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "儁",
-    "元異"
+    "元異",
+    "雋"
   ],
   "titles": [
     {
@@ -88,6 +89,26 @@
         "c-jinshu-001-sima-near-ancestry:p001:m0175",
         "c-jinshu-001-sima-near-ancestry:p001:m0178"
       ]
+    },
+    {
+      "number": 15,
+      "category": "",
+      "title": "裴注引司馬彪序傳",
+      "paragraph_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note",
+      "count": 2,
+      "quote": "司馬彪序傳曰：朗祖父雋，字元異，博學好古，倜儻有大度。長八尺三寸，腰帶十圍，儀狀魁岸，與眾有異，鄉黨宗族咸景附焉。位至穎川太守。父防，字建公，性質直公方，雖閑居宴處，威儀不忒。雅好《漢書名臣列傳》，所諷誦者數十萬言。少仕州",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "chapter_id": "c-sanguozhi-015-pei-simabiao-xuzhuan",
+      "source_id": "s-sanguozhi-015-pei-simabiao-xuzhuan",
+      "work_title": "三國志",
+      "paragraph_ids": [
+        "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0010",
+        "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0013"
+      ]
     }
   ],
   "table_occurrences": [],
@@ -137,6 +158,49 @@
               "raw_note_sha256": "513ca7dcf0235998e3ab2871e1ba0f3821ae3c017af3c9a2e3e7a8acff1ed2b3",
               "scope": "digital_note_reports_yangjun_commandery_variant",
               "collated_by_current_agent": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-015-pei-simabiao-xuzhuan",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "source_id": "s-sanguozhi-015-pei-simabiao-xuzhuan",
+      "source": {
+        "title": "《三國志》卷十五裴松之注引司馬彪序傳（完整一注）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%9C%8B%E5%BF%97%2F%E5%8D%B715&oldid=2085075",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%9C%8B%E5%BF%97%2F%E5%8D%B715&oldid=2085075",
+        "revision_id": 2085075,
+        "accessed_on": "2026-10-19",
+        "extent": "只收完整裴注引司馬彪序傳，不把古注冒作陳壽正文或整篇司馬朗傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文與維基文庫數位轉錄；保留歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，未核底本影像",
+        "wikitext_sha256": "14c5fdc791492f2d8ecf996874e797f53b25dd411419062d717890b8139befc0",
+        "response_sha256": "9bfbe44768bee70248329a8dd179831aecd911f8d9b66736b6b9cb24d959cc64",
+        "normalization": {
+          "character_conversion": {
+            "骑": "騎"
+          },
+          "extraction_note": "完整原段含正文和裴注存source-receipt；此章只抽完整司馬彪序傳引文，去注模板包裝及維基連結，骑→騎顯式轉換，未改爲、穎、雋等原字。",
+          "excerpts": [
+            {
+              "proposed_paragraph_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note",
+              "source_lines": [
+                23,
+                24
+              ],
+              "raw_quote": "司馬彪序傳曰：朗祖父雋，字元異，博學好古，倜儻有大度。長八尺三寸，腰帶十圍，儀狀魁岸，與眾有異，鄉黨宗族咸景附焉。位至穎川太守。父防，字建公，性質直公方，雖閑居宴處，威儀不忒。雅好《[[漢書#列傳|漢書名臣列傳]]》，所諷誦者數十萬言。少仕州郡，歷官洛陽令、京兆尹，以年老轉拜骑都尉。養志閭巷，闔門自守。諸子雖冠成人，不命曰進不敢進，不命曰坐不敢坐，不指有所問不敢言，父子之間肅如也。年七十一，{{YL|建安二十四年}}終。有子八人，朗最長，次即晉宣皇帝也。",
+              "raw_quote_sha256": "9e1ba4f60dc189fdbd9bb251dffa5820c662c5d06ac55d8ac550fa3798bab28a",
+              "selected_text_sha256": "b6f80c3600d879ed65d5e13bac5e74effb44645f1d919c0ae015f4507b14fa45",
+              "begin_anchor": "司馬彪序傳曰：朗祖父雋，字元異，",
+              "end_anchor": "子八人，朗最長，次即晉宣皇帝也。"
             }
           ]
         }
@@ -197,12 +261,41 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "a-phase6-kuai-15-朗-grandfather-雋",
+      "subject_person_id": "dkn_ge4_286_AAAB",
+      "predicate": "grandfather",
+      "object_person_id": "dkn_ge4_286_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "朗祖父雋",
+        "lineage": "paternal",
+        "generation_distance": 2
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-pei-simabiao-xuzhuan",
+          "chapter_id": "c-sanguozhi-015-pei-simabiao-xuzhuan",
+          "paragraph_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note",
+          "quote": "司馬彪序傳曰：朗祖父雋，字元異，博學好古，倜儻有大度。長八尺三寸，腰帶十圍，儀狀魁岸，與眾有異，鄉黨宗族咸景附焉。位至穎川太守。父防，字建公，性質直公方，雖閑居宴處，威儀不忒。雅好《漢書名臣列傳》，所諷誦者數十萬言。少仕州郡，歷官洛陽令、京兆尹，以年老轉拜騎都尉。養志閭巷，闔門自守。諸子雖冠成人，不命曰進不敢進，不命曰坐不敢坐，不指有所問不敢言，父子之間肅如也。年七十一，建安二十四年終。有子八人，朗最長，次即晉宣皇帝也。",
+          "subject_person_mention_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0007",
+          "object_person_mention_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0010"
+        }
+      ],
+      "interpretation_note": "雋與001儁原字分存；同字元異及防父子鏈相合的跨篇身份判讀，不由近音字形強併。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "dkn_ge4_286_A": "司馬量",
     "dkn_ge4_286_AA": "司馬儁",
-    "dkn_ge4_286_AAA": "司馬防"
+    "dkn_ge4_286_AAA": "司馬防",
+    "dkn_ge4_286_AAAB": "司馬朗"
   },
   "dates": [],
   "name_components": [
@@ -279,6 +372,34 @@
         }
       ],
       "interpretation_note": "本傳明言生子或父子，近世所列直接關係與遠祖報稱分存；姓名分姓據傳首司馬氏，不把各人皆補同一出生地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-phase6-kuai-15-朗-grandfather-雋",
+      "subject_person_id": "dkn_ge4_286_AAAB",
+      "predicate": "grandfather",
+      "object_person_id": "dkn_ge4_286_AA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "朗祖父雋",
+        "lineage": "paternal",
+        "generation_distance": 2
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-pei-simabiao-xuzhuan",
+          "chapter_id": "c-sanguozhi-015-pei-simabiao-xuzhuan",
+          "paragraph_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note",
+          "quote": "司馬彪序傳曰：朗祖父雋，字元異，博學好古，倜儻有大度。長八尺三寸，腰帶十圍，儀狀魁岸，與眾有異，鄉黨宗族咸景附焉。位至穎川太守。父防，字建公，性質直公方，雖閑居宴處，威儀不忒。雅好《漢書名臣列傳》，所諷誦者數十萬言。少仕州郡，歷官洛陽令、京兆尹，以年老轉拜騎都尉。養志閭巷，闔門自守。諸子雖冠成人，不命曰進不敢進，不命曰坐不敢坐，不指有所問不敢言，父子之間肅如也。年七十一，建安二十四年終。有子八人，朗最長，次即晉宣皇帝也。",
+          "subject_person_mention_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0007",
+          "object_person_mention_id": "c-sanguozhi-015-pei-simabiao-xuzhuan:line023-pei-note:m0010"
+        }
+      ],
+      "interpretation_note": "雋與001儁原字分存；同字元異及防父子鏈相合的跨篇身份判讀，不由近音字形強併。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
