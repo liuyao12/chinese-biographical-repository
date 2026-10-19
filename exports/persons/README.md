@@ -17,6 +17,15 @@
 
 [第1頁](README.md)
 
+<details><summary><code>03n_n2r_8rt</code> 阮裕（韜玄祖）（2 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 阮裕（韜玄祖） | [《南齊書・阮韜傳》][23]、[《南史・王氏跨史家系選段》][26] | [JSON](03n_n2r_8rt.json) |
+| `***A` | 阮韜 | [《南史・王氏跨史家系選段》][26] | [JSON](03n_n2r_8rt_%2A%2A%2AA.json) |
+
+</details>
+
 <details><summary><code>04u_gq0_nke</code> 鼂錯父未名（袁盎鼂錯列傳候選）（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -3129,6 +3138,7 @@
 [20]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7076&oldid=2180533
 [21]: https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7079&oldid=2645985
 [22]: https://zh.wikisource.org/w/index.php?title=晉書/卷096&oldid=2625341
+[23]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E9%BD%8A%E6%9B%B8%2F%E5%8D%B732&oldid=1513918
 [24]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E9%BD%8A%E6%9B%B8%2F%E5%8D%B732&oldid=1513918
 [25]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E9%BD%8A%E6%9B%B8%2F%E5%8D%B746&oldid=1511897
 [26]: https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B724&oldid=1765279

@@ -97,6 +97,8 @@ def load_assemblies(root, catalog):
                     if (not assertion or assertion.get('qualifiers', {}).get('adopted_for_family_tree') is False
                         or assertion.get('qualifiers', {}).get('lineage') == 'maternal'
                         or assertion['predicate'] != member.get('connection')
+                        or (assertion['predicate'] == 'ancestor'
+                            and assertion.get('qualifiers', {}).get('generation_distance') != member.get('generation_distance'))
                         or assertion['subject_person_id'] not in ids
                         or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
                         raise ValueError('缺代組裝祖孫端點與來源不符')

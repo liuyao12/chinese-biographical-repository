@@ -20,7 +20,6 @@
 | `03b_ss3_7qu` | 落下閎 | [《史記・平津侯主父列傳》][121] | [JSON](03b_ss3_7qu.json) |
 | `03g_103_ofy` | 亞夫 | [《史記・太史公自序》][139] | [JSON](03g_103_ofy.json) |
 | `03j_syw_e4g` | 湣王（尉繚引述） | [《史記・秦始皇本紀》][33] | [JSON](03j_syw_e4g.json) |
-| `03n_n2r_8rt` | 阮裕（韜玄祖） | [《南齊書・阮韜傳》][23]、[《南史・王氏跨史家系選段》][26] | [JSON](03n_n2r_8rt.json) |
 | `03v_bhv_img` | 平原君趙勝 | [《史記・平原君虞卿列傳》][85] | [JSON](03v_bhv_img.json) |
 | `03x_n5w_br7` | 閼與秦將未名 | [《史記・廉頗藺相如列傳》][90] | [JSON](03x_n5w_br7.json) |
 | `04z_mgy_h00` | 客人 | [《史記・商君列傳》][77] | [JSON](04z_mgy_h00.json) |
@@ -2175,6 +2174,7 @@
 | `gf2_bab_2ln` | 田乞 | [《史記・齊太公世家》][41] | [JSON](gf2_bab_2ln.json) |
 | `gff_emk_26f` | 倉公 | [《史記・太史公自序》][139] | [JSON](gff_emk_26f.json) |
 | `gfi_mo5_imd` | 代郡太守友 | [《史記・衛將軍驃騎列傳》][120] | [JSON](gfi_mo5_imd.json) |
+| `gfr_55l_72s` | 周昌 | [《史記・張丞相列傳》][105] | [JSON](gfr_55l_72s.json) |
 
 [2]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_007.txt
 [4]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290

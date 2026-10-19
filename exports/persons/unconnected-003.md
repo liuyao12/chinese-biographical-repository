@@ -6,8 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `x8h_4i8_xwm` | 劉屈氂（古注辨識） | [《史記・田叔列傳》][113] | [JSON](x8h_4i8_xwm.json) |
-| `x8h_bgr_mc5` | 武（孝惠後宮子稱） | [《史記・呂太后本紀》][36]、[《史記・漢興以來諸侯王年表》][154] | [JSON](x8h_bgr_mc5.json) |
 | `x8n_oxv_xpj` | 衛君 | [《史記・樗里子甘茂列傳》][80] | [JSON](x8n_oxv_xpj.json) |
 | `x8r_9sk_d7a` | 兒寬 | [《史記・儒林列傳》][130] | [JSON](x8r_9sk_d7a.json) |
 | `x8s_zva_utk` | 秦將（負芻二年伐楚未名者） | [《史記・楚世家》][49] | [JSON](x8s_zva_utk.json) |
@@ -469,7 +467,6 @@
 [150]: https://zh.wikisource.org/w/index.php?title=史記/卷013&oldid=2606991
 [152]: https://zh.wikisource.org/w/index.php?title=史記/卷015&oldid=2607002
 [153]: https://zh.wikisource.org/w/index.php?title=史記/卷016&oldid=2607007
-[154]: https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010
 [155]: https://zh.wikisource.org/w/index.php?title=史記/卷018&oldid=9484995
 [156]: https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260
 [157]: https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036

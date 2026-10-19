@@ -220,7 +220,7 @@ class WangXiuzhiReceived(unittest.TestCase):
 
     def test_biographical_name_components_are_parseable_in_person_bundles(self):
         for pid, surname, ming, zi in [('7r6_k52_qji_ABDABAABA', '王', '秀之', '伯奮'),
-                                       ('tal_b32_si0', '阮', '韜', '長明'),
+                                       ('03n_n2r_8rt_***A', '阮', '韜', '長明'),
                                        ('vhw_07a_wzm_AA', '孔', '淳之', '彦深')]:
             names = bundle(pid, ROOT, catalog=self.catalog)['name_components']
             name = next(n for n in names if surname + ming + '字' + zi in n['quote'])

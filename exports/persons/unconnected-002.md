@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `gfr_55l_72s` | 周昌 | [《史記・張丞相列傳》][105] | [JSON](gfr_55l_72s.json) |
 | `gfr_toc_lua` | 衞君（田世家接湣王未名者） | [《史記・田敬仲完世家》][55] | [JSON](gfr_toc_lua.json) |
 | `gft_rfa_1uq` | 申繻 | [《史記・魯周公世家》][42] | [JSON](gft_rfa_1uq.json) |
 | `gg7_zrf_25b` | 梁父侯未詳名 | [《史記・酈生陸賈列傳》][106] | [JSON](gg7_zrf_25b.json) |
@@ -1692,7 +1691,6 @@
 | `t8t_xtf_6tp` | 傅豹 | [《史記・趙世家》][52] | [JSON](t8t_xtf_6tp.json) |
 | `t9n_2o5_k16` | 王氏（外戚） | [《史記・太史公自序》][139] | [JSON](t9n_2o5_k16.json) |
 | `ta6_n0m_glj` | 太戊 | [《史記・殷本紀》][30] | [JSON](ta6_n0m_glj.json) |
-| `tal_b32_si0` | 阮韜 | [《南史・王氏跨史家系選段》][26] | [JSON](tal_b32_si0.json) |
 | `tal_mu5_li4` | 孟嘗君母未名 | [《史記・孟嘗君列傳》][84] | [JSON](tal_mu5_li4.json) |
 | `taq_82s_0na` | 景公太子（田世家先卒未名者） | [《史記・田敬仲完世家》][55] | [JSON](taq_82s_0na.json) |
 | `taw_n8v_eh1` | 中康 | [《史記・夏本紀》][29] | [JSON](taw_n8v_eh1.json) |
@@ -2188,6 +2186,8 @@
 | `x5u_3mf_dc8` | 王廖 | [《史記・秦始皇本紀》][33] | [JSON](x5u_3mf_dc8.json) |
 | `x6s_mnz_sy3` | 義姁 | [《史記・酷吏列傳》][131] | [JSON](x6s_mnz_sy3.json) |
 | `x89_ryb_yax` | 呂澤 | [《史記・留侯世家》][64] | [JSON](x89_ryb_yax.json) |
+| `x8h_4i8_xwm` | 劉屈氂（古注辨識） | [《史記・田叔列傳》][113] | [JSON](x8h_4i8_xwm.json) |
+| `x8h_bgr_mc5` | 武（孝惠後宮子稱） | [《史記・呂太后本紀》][36]、[《史記・漢興以來諸侯王年表》][154] | [JSON](x8h_bgr_mc5.json) |
 
 [4]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290
 [5]: https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_050.txt
