@@ -56,11 +56,30 @@ class WangBridges065(unittest.TestCase):
 
     def test_refused_offices_are_not_held_or_life_endpoints(self):
         proposals = self.c['annotation']['title_proposals']
-        self.assertEqual(len(proposals), 5)
+        original_ids=['tp-jinshu065-wangqia-zhongshuling', 'tp-jinshu065-wangdao-87', 'tp-jinshu065-wangdao-93', 'tp-jinshu065-wangdao-97', 'tp-jinshu065-wangdao-102']
+        self.assertEqual(len([p for p in proposals if p['id'] in original_ids]),5)
+        self.assertEqual({p['id']for p in proposals},set(original_ids)|{'tp-wangdao4-80-4','tp-wangdao4-110-6'})
         for p in proposals:
             self.assertEqual(title_proposal_errors(p, self.c, set(self.people.values())), [])
-            self.assertFalse(any(h['person_id'] == p['person_id'] and h['title'] == p['title'] for h in self.holdings))
-        self.assertTrue(all(h['effective_period']['end']['status'] == 'unknown' for h in self.holdings))
+            if p['id'] in original_ids:
+                self.assertFalse(any(h['person_id']==p['person_id'] and h['title']==p['title'] for h in self.holdings))
+            else:
+                self.assertFalse(any(h['person_id']==p['person_id'] and h['title']==p['title'] and any(a['paragraph_id']==p['role_anchor']['paragraph_id'] and a['start']==p['role_anchor']['start'] and a['end']==p['role_anchor']['end'] for a in h['attestations'])for h in self.holdings))
+        # Later grant is a distinct event; refusal cannot erase it.
+        later=next(h for h in self.holdings if h['id']=='th-wangdao4-84-213-098')
+        self.assertEqual((later['person_id'],later['title'],later['mode']),('7r6_k52_qji_ABAAAA','散騎常侍','grant'))
+        self.assertEqual(later['attestations'][0]['paragraph_id'],'c-jinshu-065-wangdao-family:line084')
+        original_holding_ids=['th-jinshu065-wang-001', 'th-jinshu065-wang-002', 'th-jinshu065-wang-003', 'th-jinshu065-wang-004', 'th-jinshu065-wang-005', 'th-jinshu065-wang-006', 'th-jinshu065-wang-007', 'th-jinshu065-wang-008', 'th-jinshu065-wang-009', 'th-jinshu065-wang-010', 'th-jinshu065-wang-011']
+        self.assertEqual(len([h for h in self.holdings if h['id'] in original_holding_ids]),11)
+        self.assertTrue(all(h['effective_period']['end']['status']=='unknown'for h in self.holdings if h['id'] in original_holding_ids))
+        expected_ends={'th-wangdao4-20-225-015': '後坐事除節', 'th-wangdao4-20-184-009': '解揚州', 'th-wangdao4-36-237-032': '解大司馬', 'th-wangdao4-50-16-035': '解大司馬', 'th-wangdao4-36-76-028': '罷司徒官以並之', 'th-wangdao4-84-188-095': '上所假節'}
+        ended={h['id']:h for h in self.holdings if h['effective_period']['end']['status']!='unknown'}
+        self.assertEqual(set(ended),set(expected_ends))
+        for hid,term in expected_ends.items():
+            end=ended[hid]['effective_period']['end']
+            self.assertEqual(end['status'],'source_event')
+            self.assertTrue(any(term in e['quote']for e in end['evidence']))
+            self.assertNotIn(end['event_type'],['death','life_end'])
         self.assertTrue(any(h['person_id'] == self.people['王洽'] and h['title'] == '中書郎' for h in self.holdings))
 
     def test_death_keeps_original_spelling_and_age_without_birth_estimate(self):

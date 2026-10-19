@@ -10,7 +10,42 @@
     "咸"
   ],
   "titles": [],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-yu4-33-0-e46_f76_e83-source_locality_designation",
+      "person_id": "e46_f76_e83",
+      "relation": "source_locality_designation",
+      "place": {
+        "source_name": "琅邪",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "琅邪人卞咸",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "source_id": "s-jinshu-073-yuliang",
+          "chapter_id": "c-jinshu-073-yuliang",
+          "paragraph_id": "c-jinshu-073-yuliang:line033",
+          "quote": "琅邪人卞咸，宗之黨也，與宗俱誅。咸兄闡亡奔蘇峻，亮符峻送闡，而峻保匿之。峻又多納亡命，專用威刑，亮知峻必為禍亂，徵為大司農。舉朝謂之不可，平南將軍溫嶠亦累書止之，皆不納。峻遂與祖約俱舉兵反。溫嶠聞峻不受詔，便欲下衛京都，三吳又欲起義兵，亮並不聽，而報嶠書曰：「吾憂西陲過於曆陽，足下無過雷池一步也。」既而峻將韓晃寇宣城，亮遣距之，不能制，峻乘勝至於京都。詔假亮節、都督征討諸軍事，戰于建陽門外。軍未及陣，士眾棄甲而走。亮乘小船西奔，亂兵相剝掠，亮左右射賊，誤中柂工，應弦而倒，船上咸失色欲散。亮不動容，徐曰：「此手何可使著賊！」眾心乃安。",
+          "person_mention_id": "c-jinshu-073-yuliang:line033:m0003"
+        }
+      ],
+      "interpretation_note": "按原文分地望、行止或任事轄地，不補現代行政區、座標或出生地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
+      "term": "琅邪人卞咸",
+      "quote": "琅邪人卞咸，宗之黨也，與宗俱誅。咸兄闡亡奔蘇峻，亮符峻送闡，而峻保匿之。峻又多納亡命，專用威刑，亮知峻必為禍亂，徵為大司農。舉朝謂之不可，平南將軍溫嶠亦累書止之，皆不納。峻遂與祖約俱舉兵反。溫嶠聞峻不受詔，便欲下衛京都，三吳又欲起義兵，亮並不聽，而報嶠書曰：「吾憂西陲過於曆陽，足下無過雷池一步也。」既而峻將韓晃寇宣城，亮遣距之，不能制，峻乘勝至於京都。詔假亮節、都督征討諸軍事，戰于建陽門外。軍未及陣，士眾棄甲而走。亮乘小船西奔，亂兵相剝掠，亮左右射賊，誤中柂工，應弦而倒，船上咸失色欲散。亮不動容，徐曰：「此手何可使著賊！」眾心乃安。"
+    }
+  ],
   "occurrences": [
     {
       "number": 73,
@@ -572,7 +607,31 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-yu4-033-e46_f76_e83",
+      "person_id": "e46_f76_e83",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "與宗俱誅",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "source_id": "s-jinshu-073-yuliang",
+          "chapter_id": "c-jinshu-073-yuliang",
+          "paragraph_id": "c-jinshu-073-yuliang:line033",
+          "quote": "琅邪人卞咸，宗之黨也，與宗俱誅。咸兄闡亡奔蘇峻，亮符峻送闡，而峻保匿之。峻又多納亡命，專用威刑，亮知峻必為禍亂，徵為大司農。舉朝謂之不可，平南將軍溫嶠亦累書止之，皆不納。峻遂與祖約俱舉兵反。溫嶠聞峻不受詔，便欲下衛京都，三吳又欲起義兵，亮並不聽，而報嶠書曰：「吾憂西陲過於曆陽，足下無過雷池一步也。」既而峻將韓晃寇宣城，亮遣距之，不能制，峻乘勝至於京都。詔假亮節、都督征討諸軍事，戰于建陽門外。軍未及陣，士眾棄甲而走。亮乘小船西奔，亂兵相剝掠，亮左右射賊，誤中柂工，應弦而倒，船上咸失色欲散。亮不動容，徐曰：「此手何可使著賊！」眾心乃安。",
+          "person_mention_id": "c-jinshu-073-yuliang:line033:m0003"
+        }
+      ],
+      "interpretation_note": "本篇明載死亡的來源見證；不以疾篤、應弦而倒、擬議自殺或史家比喻作死亡，不反算生年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

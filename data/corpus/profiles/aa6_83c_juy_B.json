@@ -17,7 +17,56 @@
     "臣安",
     "宰相"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wangdao4-80-14-084",
+      "person_id": "aa6_83c_juy_B",
+      "title": "太傅",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "quote": "珣兄弟皆謝氏婿，以猜嫌致隙。太傅安既與珣絶婚，又離瑉妻，由是二族遂成仇釁。時希安旨，乃出珣爲豫章太守，不之官。除散騎常侍，不拜。遷秘書監。安卒後，遷侍中，孝武深杖之。轉輔國將軍、呉國內史，在郡爲士庶所悅。徵爲尚書右僕射，領吏部，轉左僕射，加征虜將軍，復領太子詹事。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line080:m0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-wangdao4-80-14-084",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "start": 14,
+          "end": 16,
+          "surface": "太傅",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line080:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文授予、任職或用稱分存；未知任期不補，不以死亡終止全部官爵，不補省略的正式全稱。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -3339,7 +3388,54 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-wangdao4-80-69-22",
+      "person_id": "aa6_83c_juy_B",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "安卒後",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:line080",
+          "quote": "珣兄弟皆謝氏婿，以猜嫌致隙。太傅安既與珣絶婚，又離瑉妻，由是二族遂成仇釁。時希安旨，乃出珣爲豫章太守，不之官。除散騎常侍，不拜。遷秘書監。安卒後，遷侍中，孝武深杖之。轉輔國將軍、呉國內史，在郡爲士庶所悅。徵爲尚書右僕射，領吏部，轉左僕射，加征虜將軍，復領太子詹事。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:line080:m0039"
+        }
+      ],
+      "interpretation_note": "只錄此處來源所言死亡；敘事時點與死亡年分開，不以死亡終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "le-wangdao4-88-13-23",
+      "person_id": "aa6_83c_juy_B",
+      "event_type": "death",
+      "status": "source_attested",
+      "source_term": "安薨",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-065",
+          "chapter_id": "c-jinshu-065-wangdao-family",
+          "source_id": "s-jinshu-065-wangdao-family",
+          "paragraph_id": "c-jinshu-065-wangdao-family:p004",
+          "quote": "初，珣既與謝安有隙，在東聞安薨，便出京師，詣族弟獻之，曰：「吾欲哭謝公。」獻之驚曰：「所望於法護。」於是直前哭之甚慟。法護，珣小字也。珣五子：弘、虞、柳、孺、曇首，宋世並有高名。",
+          "person_mention_id": "c-jinshu-065-wangdao-family:p004:m0005"
+        }
+      ],
+      "interpretation_note": "只錄此處來源所言死亡；敘事時點與死亡年分開，不以死亡終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

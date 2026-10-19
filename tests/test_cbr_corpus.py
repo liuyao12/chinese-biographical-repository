@@ -12,6 +12,7 @@ class CorpusTests(unittest.TestCase):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
         for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
+        shutil.copytree(ROOT/'sources/calendar-context',self.root/'sources/calendar-context')
         shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))

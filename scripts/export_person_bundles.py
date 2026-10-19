@@ -54,6 +54,11 @@ def table_blocks(rows):
 
 
 def export(root=ROOT):
+    try:
+        from .calendar_wiring import export_calendar_contexts
+    except ImportError:
+        from calendar_wiring import export_calendar_contexts
+    export_calendar_contexts(root)
     catalog = load_catalog(root)
     destination = root / 'exports/persons'
     destination.mkdir(parents=True, exist_ok=True)
