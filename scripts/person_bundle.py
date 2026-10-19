@@ -383,6 +383,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             errors = interpretation_errors(chapters[chapter_id], set(people))
             if errors:
                 raise ValueError('；'.join(errors))
+    source_reading_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('source_reading_cases', []) if case['person_id'] in ids]
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
@@ -702,6 +703,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'kinship_interpretation_cases': kinship_cases,
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),
+            **({'source_reading_cases': source_reading_cases} if source_reading_cases else {}),
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,

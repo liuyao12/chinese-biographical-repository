@@ -1,0 +1,74 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_assertion_set",
+  "chapter_id": "c-jinshu-076-wangleng",
+  "assertions": [
+    {
+      "id": "a-jinshu076-leng-father",
+      "subject_person_id": "7r6_k52_qji_ABFA",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABF",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "琛之子也",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "source_id": "s-jinshu-076-wangleng",
+          "chapter_id": "c-jinshu-076-wangleng",
+          "paragraph_id": "c-jinshu-076-wangleng:line092",
+          "quote": "棱字文子，彬季父國子祭酒琛之子也。少曆清官。渡江，為元帝丞相從事中郎。從兄導以棱有政事，宜守大郡，乃出為豫章太守，加廣武將軍。棱知從兄敦驕傲自負，有罔上心，日夕諫諍，以為宜自抑損，推崇盟主，且群從一門，並相與服事，應務相崇高，以隆勳業。每言苦切。敦不能容，潛使人害之。",
+          "subject_person_mention_id": "c-jinshu-076-wangleng:line092:m0000",
+          "object_person_mention_id": "c-jinshu-076-wangleng:line092:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jinshu076-kan-leng-brother",
+      "subject_person_id": "7r6_k52_qji_ABFB",
+      "predicate": "brother",
+      "object_person_id": "7r6_k52_qji_ABFA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "弟侃",
+        "older_person_id": "7r6_k52_qji_ABFA",
+        "younger_person_id": "7r6_k52_qji_ABFB"
+      },
+      "context": {
+        "kind": "adjacent_paragraphs",
+        "paragraph_ids": [
+          "c-jinshu-076-wangleng:line092",
+          "c-jinshu-076-wangleng:line094"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "source_id": "s-jinshu-076-wangleng",
+          "chapter_id": "c-jinshu-076-wangleng",
+          "paragraph_id": "c-jinshu-076-wangleng:line092",
+          "quote": "棱字文子，彬季父國子祭酒琛之子也。少曆清官。渡江，為元帝丞相從事中郎。從兄導以棱有政事，宜守大郡，乃出為豫章太守，加廣武將軍。棱知從兄敦驕傲自負，有罔上心，日夕諫諍，以為宜自抑損，推崇盟主，且群從一門，並相與服事，應務相崇高，以隆勳業。每言苦切。敦不能容，潛使人害之。"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-076",
+          "source_id": "s-jinshu-076-wangleng",
+          "chapter_id": "c-jinshu-076-wangleng",
+          "paragraph_id": "c-jinshu-076-wangleng:line094",
+          "quote": "弟侃，亦知名，少曆顯職，位至吳國內史。"
+        }
+      ],
+      "interpretation_note": "前段傳主棱，緊接下一完整原段弟侃；不捏造後段不存在的棱字，不推同母或絕對排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

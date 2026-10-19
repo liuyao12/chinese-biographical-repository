@@ -107,3 +107,15 @@ test('annal section dating displays the stored reign year without rewriting sour
  assert.equal(sourceDateLabel(event),'元嘉二十五年（原文：秋七月壬午）');
  assert.equal(event.date_expression,'秋七月壬午');
 });
+
+test('same-year lifetime age and death age stay distinct while same-kind source evidence combines',()=>{
+ const age={person_id:'a',value:73,unit:'source_age_years',counting:'unspecified_source_age',source_number:'七十三',source_term:'年七十三',normalized_date:{year:377,era:'CE'}};
+ const rows=[{...age,age_context:{kind:'at_death',life_event_id:'death-a'},evidence:[{quote:'source-a'}]},
+  {...age,age_context:{kind:'during_life'},evidence:[{quote:'source-b'}]},
+  {...age,age_context:{kind:'at_death',life_event_id:'death-c'},evidence:[{quote:'source-c'}]}];
+ const life=summarizeLife({id:'a',age_assertions:rows});
+ assert.equal(life.ages.length,2);
+ assert.equal(life.ages.find(a=>a.age_context.kind==='at_death').evidence.length,2);
+ assert.equal(life.ages.find(a=>a.age_context.kind==='during_life').evidence.length,1);
+ assert.equal(rows[0].evidence.length,1);
+});
