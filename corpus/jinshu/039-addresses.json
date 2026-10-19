@@ -56,6 +56,168 @@
       "interpretation_note": "只記本傳介紹的地望原詞，不當出生地，不換今日轄區，潁隂／潁陰字形各存。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "pa-jin039-xu30-fan-death_place",
+      "person_id": "yoo_ox0_545_FAAAA",
+      "relation": "death_place",
+      "place": {
+        "source_name": "開封",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": "建興元年",
+      "source_term": "薨於開封",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l107",
+          "quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l107:m0000"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 313,
+        "year": 313,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "建興元年",
+        "status": "editorial_provisional",
+        "original_quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-039",
+            "source_id": "s-jinshu-039-wangxun-feng",
+            "chapter_id": "c-jinshu-039-wangxun-feng",
+            "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l107",
+            "quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+            "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l107:m0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "建興",
+            "columns": {
+              "dynasty": "晉",
+              "period": "西晉",
+              "era_name": "建興",
+              "first_year": "313",
+              "last_year": "316"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "read_on": "2026-10-19",
+            "web_extracted_line": 68,
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "建興",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 313,
+          "end_ce_year": 316,
+          "reference_index": 0
+        },
+        "rationale": "傳文明載年號年序，參照教育部年號起訖換中國曆年度，不移公曆邊界、不倒出生。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "亡所為原葬地詞，同句承死地開封；不以編者推定替換原詞或補現地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "pa-jin039-xu30-fan-burial_place",
+      "person_id": "yoo_ox0_545_FAAAA",
+      "relation": "burial_place",
+      "place": {
+        "source_name": "亡所",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": "建興元年",
+      "source_term": "因葬亡所",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l107",
+          "quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l107:m0000"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 313,
+        "year": 313,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "建興元年",
+        "status": "editorial_provisional",
+        "original_quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-039",
+            "source_id": "s-jinshu-039-wangxun-feng",
+            "chapter_id": "c-jinshu-039-wangxun-feng",
+            "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l107",
+            "quote": "藩字大堅。元康中，為黃門侍郎，受詔成父所治鐘磬。以從駕討齊王冏勳，封西華縣公。累遷尚書令。永嘉末，轉司空，未拜而洛陽陷沒，藩出奔密。王浚承制，奉藩為留台太尉。及愍帝為太子，委藩督攝遠近。建興元年薨於開封，年六十九，因葬亡所。諡曰成，追贈太保。藩二子：邃、闓。",
+            "person_mention_id": "c-jinshu-039-wangxun-feng:xu-full:l107:m0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "建興",
+            "columns": {
+              "dynasty": "晉",
+              "period": "西晉",
+              "era_name": "建興",
+              "first_year": "313",
+              "last_year": "316"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "read_on": "2026-10-19",
+            "web_extracted_line": 68,
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "建興",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 313,
+          "end_ce_year": 316,
+          "reference_index": 0
+        },
+        "rationale": "傳文明載年號年序，參照教育部年號起訖換中國曆年度，不移公曆邊界、不倒出生。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "亡所為原葬地詞，同句承死地開封；不以編者推定替換原詞或補現地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

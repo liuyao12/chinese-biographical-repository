@@ -807,3 +807,14 @@ bundle的mention_count為獨立位置，raw_mention_count與duplicate_mention_co
 ### 原生reading_layout
 
 version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所有paragraph IDs。原JSON paragraphs／text_sha256仍存原實體順序；不刪任何錨點。archival只允許同fixedraw完整逐字range對應，含原行／SHA／revision及concordance，不能憑文字相似封存。XML以主文後archival順序序列化原p及行內ID，reading-role/index可追溯；無layout章位元輸出不變。runtime封存區預設摺疊、舊paragraph／mention深連結先展開再定位，人物返回鏈保留原ID。
+
+
+### 年號初中末與原行內主語承接（受限結構）
+
+`relative_year_reference.kind: omitted_era_regnal_year_after_era_stage` 可讓明示「年號＋初／中／末」僅提供年號，不把初定為元年。仍須 `relative_ce_regnal_era_span`、原年序數字及現代對照。`narrative_era_scope` 保留完整固定附傳、連續段列、原字位、君主、明名傳主與嵌入引語；另列 `quotation_introducers` 精確到曰，引用末須緊接主敘事年詞。`event_binding` 綁實際record/person、同段明名主語、日期後的授/卒觸發及逐職錨點；驗證不接受任意最近人名、跳段、換題、換年號或用後出年詞回填。初中末的本身日期不會成為確年。
+
+相鄰編輯段若同用一原行，可在 `prior_paragraph_subject.source_continuity` 明列 `kind: same_raw_line_nonoverlapping_fragments`、固定修訂、共享原行、首段無競爭人名的事件prefix與後段首個同人具名恢復。來源normalization兩完整抽取單元必須相鄰，正文全量雜湊、body字位及每個原行內片段原字位均相接且不重疊。只有相同raw行號不能證連續，也不能當作一律拒絕依據；缺字、倒序、重疊、他人或換題都拒絕。
+
+未拜原詞 `固辭不拜` 以整詞記 `non_assumption_kind: declined`，不能截成不拜而移除辭讓。報齡原字 `數詞＋嵗` 與歲/歳並存，數值須由原數詞驗證；不藉報齡推生年或改作死亡年齡。
+
+新原詞「固辭不拜」若隔直接對話，`refusal_subject_scope` 必須為 `same_named_speaker_after_direct_speech`，保留 `subject_mention_id`、`speech_introducer_anchor`、`speech_anchor`、`resumption_anchor` 及 `human_reviewed: false`。任職角色後的同人具名「某謂…曰」、引語及「乃固辭不拜」必須逐字相接；不接受把對話受話者當辭授者。沒有這種明確speaker/speech/resumption鏈時，只容無曰字且沒有其他具名主語介入的直接辭授。

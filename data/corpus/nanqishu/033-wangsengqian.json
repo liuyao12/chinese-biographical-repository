@@ -3034,6 +3034,322 @@
       "未核書影；WYG原字與他本對照分層。",
       "僧謙與僧虔分人，王融與馬超分時；所有舊ID沿phase21 canonical。",
       "母／生母不補，撫侄非收養，官爵／生卒另facts包。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-wang25-93",
+        "person_id": "7r6_k52_qji_ABAAAAEB",
+        "value": 60,
+        "source_number": "六十",
+        "source_term": "年六十",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p013",
+            "quote": "永明三年薨僧䖍頗解星文夜坐見豫章分野當有事故時僧䖍子慈為豫章内史慮其有公事少時僧䖍薨慈棄郡奔赴僧䖍時年六十追贈司空侍中如故諡簡穆",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p013:m0047"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "age-wang25-115",
+        "person_id": "7r6_k52_qji_ABAAAAEBB",
+        "value": 21,
+        "source_number": "二十一",
+        "source_term": "年二十一",
+        "counting": "unspecified_source_age",
+        "unit": "source_age_years",
+        "birth_year": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p015",
+            "quote": "第九子寂字子𤣥性迅勤好文章讀范滂傳未常不歎挹王融敗後賔客多歸之建武初欲獻中興頌兄志謂之曰汝膏梁年少何患不達不鎭之以静將恐貽譏寂乃止初為祕書郎卒年二十一",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p015:m0062"
+          }
+        ],
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-wang26-55",
+        "person_id": "7r6_k52_qji_ABAAAAEB",
+        "title": "左衛將軍",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "declined",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p009",
+          "start": 18,
+          "end": 22,
+          "surface": "左衛將軍"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p009",
+          "start": 16,
+          "end": 18,
+          "surface": "進號"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p009",
+          "start": 22,
+          "end": 26,
+          "surface": "固讓不拜"
+        },
+        "person_mention_id": "c-nanqishu-033-wangsengqian:p008:m0000",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p009",
+            "quote": "建元元年轉侍中撫軍將軍丹陽尹二年進號左衛將軍固讓不拜改授左光禄大夫侍中尹如故郡縣獄相承有上湯殺囚僧䖍上疏言之曰湯本以救疾而實行寃暴或以肆忿若罪必入重自有正刑若去惡宜疾則應先啟豈有死生大命而潛制下邑愚謂治下囚病必先刺郡求職司與醫對共診驗逺縣家人省視然後處理可使死者不恨生者無怨上納其言",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p008:m0000",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-nanqishu-033-wangsengqian:p008",
+              "person_mention_id": "c-nanqishu-033-wangsengqian:p008:m0000",
+              "quote": "僧䖍尋加散騎常侍轉右僕射昇明元年遷尚書僕射尋轉中書令左僕射二年為尚書令僧䖍好文史解音律以朝廷禮樂多違正典民間競造新聲雜曲時太祖輔政僧䖍上表曰夫懸鍾之器以雅為用凱容之禮八佾為儀今總章羽佾音服舛異又歌鍾一肆克諧女樂以歌為務非雅器也大明中即以宫懸合和鞞拂節數雖會慮乖雅體將來知音或譏聖世若謂鍾舞已諧重違成憲更立歌鍾不參舊例四縣所奏謹依雅條即義㳂理如或可附又今之清商實由銅爵三祖風流遺音盈耳京洛相髙江左彌貴諒以金石干羽事絶私室桑濮鄭衛訓隔紳冕中庸和雅莫復於斯而情變聽移稍復銷落十數年間亡者將半自頃家競新哇人尚謡俗務在唯殺不顧音紀流宕無崖未知所極排斥正曲崇長煩滛士有等差無故不可去樂禮有攸序長幼不可共聞故喧醜之制日盛於廛里風味之響獨盡於衣冠宜命有司務勤功課緝理遺逸迭相開曉所經漏忘悉加補綴曲全者禄厚藝妙者位優利以動之則人思刻厲反本還源庶可跂踵事見納",
+              "intervening_paragraph_ids": [],
+              "source_continuity": {
+                "kind": "same_raw_line_nonoverlapping_fragments",
+                "source_revision": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+                "boundary_raw_line": 109,
+                "target_prefix_anchor": {
+                  "paragraph_id": "c-nanqishu-033-wangsengqian:p009",
+                  "start": 0,
+                  "end": 26,
+                  "surface": "建元元年轉侍中撫軍將軍丹陽尹二年進號左衛將軍固讓不拜"
+                },
+                "target_resumption_mention_id": "c-nanqishu-033-wangsengqian:p009:m0048",
+                "subject_person_id": "7r6_k52_qji_ABAAAAEB",
+                "human_reviewed": false
+              }
+            }
+          }
+        ],
+        "interpretation_note": "明進號左衛將軍而固讓不拜；傳主沿同raw109不重疊原字位前段承接，後有明名僧䖍恢復。不刪侍中/丹陽尹。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-wang26-64",
+        "person_id": "7r6_k52_qji_ABAAAAEB",
+        "title": "侍中",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "declined",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 51,
+          "end": 53,
+          "surface": "侍中"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 50,
+          "end": 51,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 133,
+          "end": 137,
+          "surface": "固辭不拜"
+        },
+        "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "quote": "其年冬遷持節都督湘州諸軍征南將軍湘州刺史侍中如故清簡無所欲不營財産百姓安之世祖即位僧䖍以風疾欲陳解㑹遷侍中左光禄大夫開府儀同三司僧䖍少時羣從宗族並㑹客有相之者云僧䖍年位最髙仕當至公餘人莫及也及授僧䖍謂兄子儉曰汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼乃固辭不拜上優而許之改授侍中特進左光禄大夫客問僧䖍固讓之意僧䖍曰君子所憂無徳不憂無寵吾衣食周身榮位已過所慙庸薄無以報國豈容更受髙爵方貽官謗邪兄子儉為朝宰起長梁齋制度小過僧䖍視之不悦竟不入户儉即毁之",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041"
+          }
+        ],
+        "interpretation_note": "同一遷侍中左光禄大夫開府儀同三司授案，後明乃固辭不拜；整組未拜與改授後實任分列，不撤原侍中。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "refusal_subject_scope": {
+          "kind": "same_named_speaker_after_direct_speech",
+          "subject_mention_id": "c-nanqishu-033-wangsengqian:p012:m0097",
+          "speech_introducer_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 97,
+            "end": 104,
+            "surface": "僧䖍謂兄子儉曰"
+          },
+          "speech_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 104,
+            "end": 132,
+            "surface": "汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼"
+          },
+          "resumption_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 132,
+            "end": 137,
+            "surface": "乃固辭不拜"
+          },
+          "human_reviewed": false
+        }
+      },
+      {
+        "id": "tp-wang26-65",
+        "person_id": "7r6_k52_qji_ABAAAAEB",
+        "title": "左光禄大夫",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "declined",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 53,
+          "end": 58,
+          "surface": "左光禄大夫"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 50,
+          "end": 51,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 133,
+          "end": 137,
+          "surface": "固辭不拜"
+        },
+        "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "quote": "其年冬遷持節都督湘州諸軍征南將軍湘州刺史侍中如故清簡無所欲不營財産百姓安之世祖即位僧䖍以風疾欲陳解㑹遷侍中左光禄大夫開府儀同三司僧䖍少時羣從宗族並㑹客有相之者云僧䖍年位最髙仕當至公餘人莫及也及授僧䖍謂兄子儉曰汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼乃固辭不拜上優而許之改授侍中特進左光禄大夫客問僧䖍固讓之意僧䖍曰君子所憂無徳不憂無寵吾衣食周身榮位已過所慙庸薄無以報國豈容更受髙爵方貽官謗邪兄子儉為朝宰起長梁齋制度小過僧䖍視之不悦竟不入户儉即毁之",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041"
+          }
+        ],
+        "interpretation_note": "同一遷侍中左光禄大夫開府儀同三司授案，後明乃固辭不拜；整組未拜與改授後實任分列，不撤原侍中。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "refusal_subject_scope": {
+          "kind": "same_named_speaker_after_direct_speech",
+          "subject_mention_id": "c-nanqishu-033-wangsengqian:p012:m0097",
+          "speech_introducer_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 97,
+            "end": 104,
+            "surface": "僧䖍謂兄子儉曰"
+          },
+          "speech_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 104,
+            "end": 132,
+            "surface": "汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼"
+          },
+          "resumption_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 132,
+            "end": 137,
+            "surface": "乃固辭不拜"
+          },
+          "human_reviewed": false
+        }
+      },
+      {
+        "id": "tp-wang26-66",
+        "person_id": "7r6_k52_qji_ABAAAAEB",
+        "title": "開府儀同三司",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "non_assumption_kind": "declined",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 58,
+          "end": 64,
+          "surface": "開府儀同三司"
+        },
+        "appointment_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 50,
+          "end": 51,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+          "start": 133,
+          "end": 137,
+          "surface": "固辭不拜"
+        },
+        "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041",
+        "evidence": [
+          {
+            "work_id": "w-nanqishu",
+            "book_id": "b-nanqishu-033",
+            "source_id": "s-nanqishu-033-wangsengqian",
+            "chapter_id": "c-nanqishu-033-wangsengqian",
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "quote": "其年冬遷持節都督湘州諸軍征南將軍湘州刺史侍中如故清簡無所欲不營財産百姓安之世祖即位僧䖍以風疾欲陳解㑹遷侍中左光禄大夫開府儀同三司僧䖍少時羣從宗族並㑹客有相之者云僧䖍年位最髙仕當至公餘人莫及也及授僧䖍謂兄子儉曰汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼乃固辭不拜上優而許之改授侍中特進左光禄大夫客問僧䖍固讓之意僧䖍曰君子所憂無徳不憂無寵吾衣食周身榮位已過所慙庸薄無以報國豈容更受髙爵方貽官謗邪兄子儉為朝宰起長梁齋制度小過僧䖍視之不悦竟不入户儉即毁之",
+            "person_mention_id": "c-nanqishu-033-wangsengqian:p012:m0041"
+          }
+        ],
+        "interpretation_note": "同一遷侍中左光禄大夫開府儀同三司授案，後明乃固辭不拜；整組未拜與改授後實任分列，不撤原侍中。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "refusal_subject_scope": {
+          "kind": "same_named_speaker_after_direct_speech",
+          "subject_mention_id": "c-nanqishu-033-wangsengqian:p012:m0097",
+          "speech_introducer_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 97,
+            "end": 104,
+            "surface": "僧䖍謂兄子儉曰"
+          },
+          "speech_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 104,
+            "end": 132,
+            "surface": "汝任重於朝行當有八命之禮我若復此授則一門有二台司實可畏懼"
+          },
+          "resumption_anchor": {
+            "paragraph_id": "c-nanqishu-033-wangsengqian:p012",
+            "start": 132,
+            "end": 137,
+            "surface": "乃固辭不拜"
+          },
+          "human_reviewed": false
+        }
+      }
     ]
   },
   "paragraphs": [

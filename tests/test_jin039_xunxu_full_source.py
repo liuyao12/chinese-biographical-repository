@@ -16,9 +16,9 @@ def valid(c,proof=None):
  except(KeyError,IndexError,TypeError):return False
 class XunXuFull(unittest.TestCase):
  def test_full_fixed_body_and_boundary(self):
-  self.assertTrue(valid(C));self.assertEqual(LINES[64],'==荀勖==');self.assertEqual(LINES[135],'==馮紞==');self.assertEqual(len(P['units']),34);self.assertEqual(sum(len(u['display_text'])for u in P['units']),4903);self.assertTrue(C['paragraphs'][-1]['text'].endswith('諡曰定。'))
+  self.assertTrue(valid(C));self.assertEqual(LINES[64],'==荀勖==');self.assertEqual(LINES[135],'==馮紞==');self.assertEqual(len(P['units']),34);self.assertEqual(sum(len(u['display_text'])for u in P['units']),4903);self.assertTrue(next(p for p in C['paragraphs'] if p['id']=='c-jinshu-039-wangxun-feng:xu-full:l134')['text'].endswith('諡曰定。'))
  def test_all_old_paragraph_objects_mentions_unchanged(self):
-  self.assertTrue(all(p in C['paragraphs']for p in P['old_paragraphs_preserved']));self.assertEqual(C['paragraphs'][:8],P['old_paragraphs_preserved'][:8]);self.assertEqual(C['paragraphs'][8],P['old_paragraphs_preserved'][8]);self.assertEqual(len(C['paragraphs'][8]['text']),35);self.assertEqual(len(P['old_paragraphs_preserved'][9]['text']),14)
+  self.assertTrue(all(p in C['paragraphs']for p in P['old_paragraphs_preserved']));old_ids={p['id'] for p in P['old_paragraphs_preserved']};self.assertEqual([p for p in C['paragraphs'] if p['id'] in old_ids],P['old_paragraphs_preserved']);self.assertEqual(PS[P['old_paragraphs_preserved'][8]['id']],P['old_paragraphs_preserved'][8]);self.assertEqual(len(PS[P['old_paragraphs_preserved'][8]['id']]['text']),35);self.assertEqual(len(P['old_paragraphs_preserved'][9]['text']),14)
  def test_order_no_duplicate_old_raw_positions(self):
   for u in P['units']:
    a=0
