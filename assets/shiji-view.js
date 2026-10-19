@@ -1,4 +1,4 @@
-import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
+import {createLanguageReadingTransition, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t, ui} from './i18n.js';
@@ -10,6 +10,7 @@ import {historicalTableMarkup} from './historical-table-markup.js';
 const $ = id => document.getElementById(id);
 let index, people, selected, category = 'all', ticket = 0;
 const cache = new Map();
+const languageReading = createLanguageReadingTransition(()=>$('corpus-content'),()=>({ticket,hash:location.hash}));
 let tableReader, removeTextPersonCards;
 const labels = {marked_text: 'Annotated text', table: 'Continuous table', pending: 'Not yet imported'};
 const ext = (url, label) => safeSourceURL(url) ? `<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>` : '';
@@ -30,8 +31,7 @@ async function render(keepReadingState = false) {
   const current = ++ticket, params = new URLSearchParams(location.hash.slice(1));
   category = index.categories.some(c => c.id === params.get('category')) ? params.get('category') : 'all';
   const number = Number(params.get('chapter')), entry = index.chapters.find(e => e.number === number);
-  const readingState = keepReadingState && selected?.number === number && selected?.chapter
-    ? captureReadingState($('corpus-content')) : null;
+  const readingState = languageReading.start(keepReadingState && selected?.number === number,current);
   removeTextPersonCards?.(); removeTextPersonCards = null;
   tableReader?.destroy(); tableReader = null;
   selected = entry;
@@ -71,6 +71,7 @@ async function render(keepReadingState = false) {
   if (readingState) restoreReadingState($('corpus-content'), readingState);
   else if (passage && chapter.paragraphs.some(p => p.id === passage)) document.getElementById(passage).scrollIntoView();
   else window.scrollTo(0, 0);
+  languageReading.finish(current);
 }
 function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(error.message)}</p>`; }
 (async () => {
@@ -84,6 +85,7 @@ function fail(error) { $('corpus-content').innerHTML = `<p role="alert">${h(erro
       if (tableReader && Number(p.get('chapter')) === selected?.number && (p.get('category') || 'all') === category) return;
       render().catch(fail);
     });
+    window.addEventListener('renwen:beforelanguagechange',()=>languageReading.before());
     window.addEventListener('renwen:languagechange', () => render(true).catch(fail));
     await render();
   } catch (error) { fail(error); }

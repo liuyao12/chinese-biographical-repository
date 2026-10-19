@@ -66,6 +66,8 @@ export function setLocale(value, {persist = true} = {}) {
   const next = normalizeLocale(value), changed = next !== locale; locale = next;
   if (typeof document === 'undefined') return locale;
   if (persist) { try { window.localStorage.setItem(STORAGE_KEY, locale); } catch { /* Keep session preference. */ } }
+  // Readers capture geometry before translated chrome can reflow.
+  if (changed) window.dispatchEvent(new CustomEvent('renwen:beforelanguagechange', {detail:{locale}}));
   document.documentElement.lang = locale;
   applyTranslations();
   for (const button of document.querySelectorAll('[data-set-locale]')) button.setAttribute('aria-pressed', String(button.dataset.setLocale === locale));
