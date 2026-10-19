@@ -401,8 +401,8 @@
       }
     },
     {
-      "id": "pa-yu2-s49-137-dae_159_a76-service_location",
-      "person_id": "dae_159_a76",
+      "id": "pa-yu2-s49-137-4qr_wrk_3vd_DDBB-service_location",
+      "person_id": "4qr_wrk_3vd_DDBB",
       "relation": "service_location",
       "place": {
         "source_name": "臨川",
@@ -461,6 +461,96 @@
       "qualifiers": {
         "source_position": "豫章太守"
       }
+    },
+    {
+      "id": "pa-yu8-song-death-home",
+      "person_id": "4qr_wrk_3vd_DDBB",
+      "relation": "death_place",
+      "place": {
+        "source_name": "家",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": "二十七年",
+      "source_term": "卒於家",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "source_id": "s-songshu-053-yu-dengzhi",
+          "chapter_id": "c-songshu-053-yu-dengzhi",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line068",
+          "quote": "太祖乃可有司之奏，免炳之官。是歲，元嘉二十五年也。二十七年，卒於家。時年六十三。太祖錄其宿誠，追復本官。二子季遠、弘遠。",
+          "person_mention_id": "c-songshu-053-yu-dengzhi:line068:m0010"
+        }
+      ],
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 450,
+        "year": 450,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "二十七年",
+        "status": "editorial_provisional",
+        "original_quote": "太祖乃可有司之奏，免炳之官。是歲，元嘉二十五年也。二十七年，卒於家。時年六十三。太祖錄其宿誠，追復本官。二子季遠、弘遠。",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-053",
+            "source_id": "s-songshu-053-yu-dengzhi",
+            "chapter_id": "c-songshu-053-yu-dengzhi",
+            "paragraph_id": "c-songshu-053-yu-dengzhi:line068",
+            "quote": "太祖乃可有司之奏，免炳之官。是歲，元嘉二十五年也。二十七年，卒於家。時年六十三。太祖錄其宿誠，追復本官。二子季遠、弘遠。",
+            "person_mention_id": "c-songshu-053-yu-dengzhi:line068:m0010"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "元嘉",
+              "first_year": "424",
+              "last_year": "453"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-19",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "relative_ce_regnal_era_span",
+          "era_name": "元嘉",
+          "source_number": "二十七",
+          "regnal_year": 27,
+          "target_regnal_year": 27,
+          "year_offset": 0,
+          "start_ce_year": 424,
+          "end_ce_year": 453,
+          "reference_index": 0
+        },
+        "relative_year_reference": {
+          "kind": "omitted_era_regnal_year",
+          "source_term": "二十七年",
+          "antecedent_expression": "二十七年",
+          "era_expression": "元嘉二十五年",
+          "era_evidence_index": 0,
+          "antecedent_evidence_index": 0,
+          "event_evidence_index": 0
+        },
+        "rationale": "同傳主、同年號連續敘事，明文年序換算中國曆年度；不補月日、不移公曆跨年、不倒算出生。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "interpretation_note": "家為未名私宅，非已識別地名或葬地。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ]
 }

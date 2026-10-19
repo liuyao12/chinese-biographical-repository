@@ -30,7 +30,11 @@ class WangBridges065(unittest.TestCase):
                              (self.people[child], self.people[parent]))
             self.assertNotIn('parent_connection', m)
         song = read('corpus/songshu/042-assertions.json')['assertions']
-        self.assertEqual({a['predicate'] for a in song}, {'father', 'grandfather', 'great_grandfather'})
+        original_song_ids={'a-songshu042-family-001','a-songshu042-family-002','a-songshu042-family-003'}
+        original_song=[a for a in song if a['id'] in original_song_ids]
+        self.assertEqual({a['id']for a in original_song},original_song_ids)
+        self.assertEqual({a['predicate']for a in original_song},{'father','grandfather','great_grandfather'})
+        self.assertTrue(any(a['predicate']=='mother'for a in song if a['id']not in original_song_ids))
 
     def test_body_six_sons_does_not_repeat_digital_header_error(self):
         sons = {a['subject_person_id'] for a in self.rels if a['predicate'] == 'father'

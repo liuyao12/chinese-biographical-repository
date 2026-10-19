@@ -47,6 +47,6 @@ class CrossCellChengyangFather(unittest.TestCase):
  def test_native_and_prose_father_evidence_is_independent_of_file_order(self):
   original=Path.glob
   for reverse in [False,True]:
-   def ordered(path,pattern):return iter(sorted(original(path,pattern),key=str,reverse=reverse))
+   def ordered(path,pattern,**kwargs):return iter(sorted(original(path,pattern,**kwargs),key=str,reverse=reverse))
    with patch.object(Path,'glob',ordered):self.assertEqual(validate(R),[],reverse)
 if __name__=='__main__':unittest.main()
