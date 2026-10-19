@@ -76,6 +76,8 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 相對紀年「明年」「其年」使用 `regnal_year_mapping.kind: relative_ce_regnal_era_span`，保存前述原數詞、`regnal_year`、`target_regnal_year` 及 `year_offset`（分別為一、零）。`source_expression` 保留相對原詞；`relative_year_reference` 保存明示年號、承接年次的原字及各自證據索引，與事件原句一起驗證。不得把補出的完整年號年份寫成原文；跨段須保存連續原段的紀年證據及人物承接。仍按中國曆年度存公元數字，不由報齡倒推出生年，也不以任官背景年填卒年。
 
+本紀在一年的月日條目省略年號時，可用 `regnal_year_mapping.kind: annal_ce_regnal_era_span`。本段原詞仍存於 `source_expression`；`annal_year_reference` 指向原段 ID、原行及 `source.annal_year_sections` 的年段 ID。年段保存固定修訂、首尾行、完整原始上下文及 SHA-256，須同時包含明示年號年次的年段標題、正文相符的年次起點和下一年界線；原段必須逐字位於其間，不能跨年或借用另一篇的年段。`context_reference_index` 指向這份分列的原始來源上下文，`reference_index` 指向現代年號起迄對照。驗證同時核算年份及綁定登記篇章，不能只讓數字算式相合。此上下文不是已完成逐人標記的整年正文，也不會把補出的年號寫回月日原句；仍只存中國曆年度，不推公曆日或出生年。
+
 省略年號而明載「六年」等年次時，`relative_year_reference.kind: omitted_era_regnal_year` 保存原年次，`year_offset: 0`，並引用前文明示年號的原段。事件只採其直接任用語段所屬的年次；後文轉任不一律套同年，跨改元敘事不能反取後段年號。
 
 「年向九十」的 `approximation.kind: approaching_age` 保存 `target: 90`，`value`、`birth_year` 為 `null`，不存嚴格上下界。`speaker_scope` 保存奏表開頭及本人「臣」字錨點，避免把引禮的七十或君主稱謂當作本人報齡；來源的精確或其他約略報齡各自保留，不互相改寫。

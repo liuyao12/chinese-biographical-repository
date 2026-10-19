@@ -3596,6 +3596,17 @@
           "parent_person_id": "7r6_k52_qji_ABDABAACAA",
           "source_assertion_id": "a-nanshi024-xin-father",
           "connection": "father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDABAAE",
+          "representative_source_person_id": "7r6_k52_qji_ABDABAAE",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDABAAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDABAA",
+          "source_assertion_id": "a-songshu093-wang-daughter-father",
+          "connection": "father"
         }
       ]
     },
@@ -4586,6 +4597,190 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "fjm_eo3_0zz",
           "source_assertion_id": "a-nanshi024-fanchang-father",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-kong-chunzhi-received",
+      "root_person_id": "vhw_07a_wzm",
+      "label": "孔淳之、默之與尚、熙先",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "限本傳近世具名父祖、兄弟與子嗣，不接孔氏遠祖譜；連續祖先與同父推導分層保存。",
+      "members": [
+        {
+          "person_id": "vhw_07a_wzm",
+          "representative_source_person_id": "vhw_07a_wzm",
+          "source_person_ids": [
+            "vhw_07a_wzm"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "vhw_07a_wzm_A",
+          "representative_source_person_id": "vhw_07a_wzm_A",
+          "source_person_ids": [
+            "vhw_07a_wzm_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vhw_07a_wzm",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "chain_subject_person_id": "vhw_07a_wzm_AA",
+            "nearer_ancestor_assertion_id": "a-songshu093-chunzhi-father",
+            "farther_ancestor_assertion_id": "a-songshu093-chunzhi-grandfather",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "chapter_id": "c-songshu-093-recluses",
+                "source_id": "s-songshu-093-recluses",
+                "paragraph_id": "c-songshu-093-recluses:line078",
+                "quote": "孔淳之字彦深，魯郡魯人也。祖惔，尚書祠部郎。父粲，祕書監徴，不就。",
+                "subject_person_mention_id": "c-songshu-093-recluses:line078:m0000",
+                "object_person_mention_id": "c-songshu-093-recluses:line078:m0023",
+                "assertion_id": "a-songshu093-chunzhi-father",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B793&oldid=1962755"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "chapter_id": "c-songshu-093-recluses",
+                "source_id": "s-songshu-093-recluses",
+                "paragraph_id": "c-songshu-093-recluses:line078",
+                "quote": "孔淳之字彦深，魯郡魯人也。祖惔，尚書祠部郎。父粲，祕書監徴，不就。",
+                "subject_person_mention_id": "c-songshu-093-recluses:line078:m0000",
+                "object_person_mention_id": "c-songshu-093-recluses:line078:m0014",
+                "assertion_id": "a-songshu093-chunzhi-grandfather",
+                "scope": "same_received_paragraph_consecutive_paternal_ancestors",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B793&oldid=1962755"
+              }
+            ],
+            "rationale": "孔淳之傳首同段明言祖惔、父粲，兩具名祖先相差一代；粲父惔為分層編輯推導，不捏造直接父子原句。"
+          }
+        },
+        {
+          "person_id": "vhw_07a_wzm_AA",
+          "representative_source_person_id": "vhw_07a_wzm_AA",
+          "source_person_ids": [
+            "vhw_07a_wzm_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vhw_07a_wzm_A",
+          "source_assertion_id": "a-songshu093-chunzhi-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vhw_07a_wzm_AB",
+          "representative_source_person_id": "vhw_07a_wzm_AB",
+          "source_person_ids": [
+            "vhw_07a_wzm_AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vhw_07a_wzm_A",
+          "source_assertion_id": null,
+          "connection": "father",
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "sibling_person_id": "vhw_07a_wzm_AA",
+            "sibling_assertion_id": "a-songshu093-mozhi-brother",
+            "sibling_father_assertion_id": "a-songshu093-chunzhi-father",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "chapter_id": "c-songshu-093-recluses",
+                "source_id": "s-songshu-093-recluses",
+                "paragraph_id": "c-songshu-093-recluses:line082",
+                "quote": "居喪至孝，廬于墓側。服闋，與徴士戴顒、王弘之及王敬弘等共爲人外之游。敬弘以女適淳之子尚。會稽太守謝方明苦要入郡，終不肯往。茅室蓬戸，庭草蕪逕，唯牀上有數巻書。元嘉初，復徴爲散騎侍郎，乃逃于上虞縣界，家人莫知所之。弟默之爲廣州刺史，出都與別。司徒王弘要淳之集冶城，即日命駕東歸，遂不顧也。元嘉七年，卒，時年五十九。默之儒學，注穀梁春秋。",
+                "subject_person_mention_id": "c-songshu-093-recluses:line082:m0107",
+                "object_person_mention_id": "c-songshu-093-recluses:line082:m0039",
+                "assertion_id": "a-songshu093-mozhi-brother",
+                "scope": "兄弟及明言父親的來源推導，非另有默之父粲原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B793&oldid=1962755"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-093",
+                "chapter_id": "c-songshu-093-recluses",
+                "source_id": "s-songshu-093-recluses",
+                "paragraph_id": "c-songshu-093-recluses:line078",
+                "quote": "孔淳之字彦深，魯郡魯人也。祖惔，尚書祠部郎。父粲，祕書監徴，不就。",
+                "subject_person_mention_id": "c-songshu-093-recluses:line078:m0000",
+                "object_person_mention_id": "c-songshu-093-recluses:line078:m0023",
+                "assertion_id": "a-songshu093-chunzhi-father",
+                "scope": "兄弟及明言父親的來源推導，非另有默之父粲原句",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B793&oldid=1962755"
+              }
+            ],
+            "rationale": "默之為淳之弟，淳之父粲明載於傳首；暫按同父兄弟接合，原弟稱與長幼分存，未說兩人生母同人。"
+          }
+        },
+        {
+          "person_id": "vhw_07a_wzm_AAA",
+          "representative_source_person_id": "vhw_07a_wzm_AAA",
+          "source_person_ids": [
+            "vhw_07a_wzm_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vhw_07a_wzm_AA",
+          "source_assertion_id": "a-songshu093-shang-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vhw_07a_wzm_ABA",
+          "representative_source_person_id": "vhw_07a_wzm_ABA",
+          "source_person_ids": [
+            "vhw_07a_wzm_ABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vhw_07a_wzm_AB",
+          "source_assertion_id": "a-songshu093-xixian-father",
+          "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-wang-yuan-sengyou",
+      "root_person_id": "p93_tgr_t8r",
+      "label": "王遠與僧祐",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "只接原文明言父遠。宗人與儉從祖兄保留原稱，未據此補未名祖先接王導。",
+      "members": [
+        {
+          "person_id": "p93_tgr_t8r",
+          "representative_source_person_id": "p93_tgr_t8r",
+          "source_person_ids": [
+            "p93_tgr_t8r"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "connection": null
+        },
+        {
+          "person_id": "p93_tgr_t8r_A",
+          "representative_source_person_id": "p93_tgr_t8r_A",
+          "source_person_ids": [
+            "p93_tgr_t8r_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "p93_tgr_t8r",
+          "source_assertion_id": "a-nanqishu046-sengyou-father",
           "connection": "father"
         }
       ]

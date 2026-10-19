@@ -10,7 +10,82 @@
     "茂遠",
     "下官"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-nanshi024-jun-huizi",
+      "person_id": "7r6_k52_qji_ABDABAABAA",
+      "title": "惠子",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wang-family",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line063",
+          "quote": "峻性詳雅，無趨競心，嘗與謝覽約，官至侍中，不復謀進仕。覽自吏部尚書出爲呉興郡，平心不畏強禦，亦由處俗情薄故也。峻爲侍中已後，雖不退身，亦淡然自守，無所營務。遷金紫光祿大夫，未拜，卒，諡惠子。",
+          "person_mention_id": "c-nanshi-024-wang-family:line063:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-nanshi024-jun-huizi:a001",
+          "paragraph_id": "c-nanshi-024-wang-family:line063",
+          "start": 92,
+          "end": 94,
+          "surface": "惠子",
+          "person_mention_id": "c-nanshi-024-wang-family:line063:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-nanshi",
+              "book_id": "b-nanshi-024",
+              "source_id": "s-nanshi-024-wang-family",
+              "chapter_id": "c-nanshi-024-wang-family",
+              "paragraph_id": "c-nanshi-024-wang-family:line063",
+              "quote": "峻性詳雅，無趨競心，嘗與謝覽約，官至侍中，不復謀進仕。覽自吏部尚書出爲呉興郡，平心不畏強禦，亦由處俗情薄故也。峻爲侍中已後，雖不退身，亦淡然自守，無所營務。遷金紫光祿大夫，未拜，卒，諡惠子。",
+              "person_mention_id": "c-nanshi-024-wang-family:line063:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "逐項保存原文任用、用稱及先後；未知年月留空，不以死亡終止所有官職。師、府職與府主官爵不混記為本人軍號。未拜、未就另列，不充作實任。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "naming_basis": {
+        "source_term": "諡惠子",
+        "death_term": "卒",
+        "evidence": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-024",
+            "source_id": "s-nanshi-024-wang-family",
+            "chapter_id": "c-nanshi-024-wang-family",
+            "paragraph_id": "c-nanshi-024-wang-family:line063",
+            "quote": "峻性詳雅，無趨競心，嘗與謝覽約，官至侍中，不復謀進仕。覽自吏部尚書出爲呉興郡，平心不畏強禦，亦由處俗情薄故也。峻爲侍中已後，雖不退身，亦淡然自守，無所營務。遷金紫光祿大夫，未拜，卒，諡惠子。",
+            "person_mention_id": "c-nanshi-024-wang-family:line063:m0000"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -18,7 +93,7 @@
       "category": "",
       "title": "王氏跨史家系選段",
       "paragraph_id": "c-nanshi-024-wang-family:line061",
-      "count": 5,
+      "count": 7,
       "quote": "峻字茂遠，秀之子也。少美風姿，善容止。仕齊爲桂陽內史。梁天監初，爲中書侍郎。武帝甚悅其風采，與陳郡謝覽同見賞擢。累遷侍中，吏部尚書。處選甚得名譽。",
       "work_id": "w-nanshi",
       "book_id": "b-nanshi-024",
@@ -27,11 +102,14 @@
       "work_title": "南史",
       "paragraph_ids": [
         "c-nanshi-024-wang-family:line061",
+        "c-nanshi-024-wang-family:line063",
         "c-nanshi-024-wang-family:line067"
       ],
       "mention_ids": [
         "c-nanshi-024-wang-family:line061:m0000",
         "c-nanshi-024-wang-family:line061:m0002",
+        "c-nanshi-024-wang-family:line063:m0000",
+        "c-nanshi-024-wang-family:line063:m0055",
         "c-nanshi-024-wang-family:line067:m0030",
         "c-nanshi-024-wang-family:line067:m0051",
         "c-nanshi-024-wang-family:line067:m0055"
@@ -52,7 +130,7 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B724&oldid=1765279",
         "revision_id": 1765279,
         "accessed_on": "2026-10-19",
-        "extent": "選錄王敬弘、瓚之、秀之、延之、綸之、昕、峻、琮相關十一個完整原段；並非本傳或全卷完整錄入。",
+        "extent": "固定數位見證中王裕之（敬弘）及本支子孫一節完整二十原段；同卷王鎭之以後未錄，不代表全卷或底本影像覆核。",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "image_verified": false,
@@ -66,6 +144,42 @@
           "extraction_note": "只展開維基不轉換字形外殼，保留升、鎭等原字；完整選段不改標點，不取數位節題作正文。",
           "excerpts": [
             {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line015",
+              "source_lines": [
+                15,
+                15
+              ],
+              "raw_quote": "敬弘少有清尚，起家本國左常侍、衞軍參軍。性恬靜，樂山水，求爲天門太守。及之郡，妻弟荊州刺史桓玄遣信要令過己，敬弘至巴陵，謂人曰：「靈寶正當欲見其姊，我不能爲桓氏贅婿。」乃遣別船送妻往江陵，彌年不迎。山郡無事，恣其遊適，意甚好之。後爲南平太守，去官，居作唐縣界。玄輔政及篡位，屢召不下。宋武帝以爲車騎從事中郎、徐州中從事史、征西將軍道規諮議參軍。時府主簿宗協亦有高趣，道規並以事外相期。嘗共酣飲，敬弘因醉失禮，爲外司所白，道規即更引還，重申初燕。",
+              "raw_quote_sha256": "b593cd7b050d4a4290703921b088c7c3b92d366d7eb159da72968bb403364701",
+              "selected_text_sha256": "b593cd7b050d4a4290703921b088c7c3b92d366d7eb159da72968bb403364701",
+              "begin_anchor": "敬弘少有清尚，起家本國左常侍、衞軍參",
+              "end_anchor": "爲外司所白，道規即更引還，重申初燕。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line017",
+              "source_lines": [
+                17,
+                17
+              ],
+              "raw_quote": "永初中，累遷吏部尚書，敬弘毎被召，即便祗奉，既到宜退，旋復解官。武帝嘉其志，不苟違也。除廬陵王師，加散騎常侍。自陳無德，不可師範令王，固讓不拜。",
+              "raw_quote_sha256": "6f95ddf518f393f79bf9f41f862ce59fdad399744dc018ab2f4be8f7f20b2504",
+              "selected_text_sha256": "6f95ddf518f393f79bf9f41f862ce59fdad399744dc018ab2f4be8f7f20b2504",
+              "begin_anchor": "永初中，累遷吏部尚書，敬弘毎被召，即",
+              "end_anchor": "。自陳無德，不可師範令王，固讓不拜。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line019",
+              "source_lines": [
+                19,
+                19
+              ],
+              "raw_quote": "元嘉三年，爲尚書僕射，關署文案，初不省讀。嘗豫聽訟，上問疑獄，敬弘不對。上變色問左右：「何故不以訊牒副僕射？」敬弘曰：「臣乃得訊牒讀之，正自不解。」上甚不悅。雖加禮敬，亦不以時務及之。六年，遷尚書令，固讓，表求還東。上不能奪。改授侍中、特進、左光祿大夫，給親信三十人。及東歸，車駕幸冶亭餞送。",
+              "raw_quote_sha256": "c91cd7ca80dd7e7829059331722c4dc23869fbbca966dbed3b1b3e86c1ef1e20",
+              "selected_text_sha256": "c91cd7ca80dd7e7829059331722c4dc23869fbbca966dbed3b1b3e86c1ef1e20",
+              "begin_anchor": "元嘉三年，爲尚書僕射，關署文案，初不",
+              "end_anchor": "親信三十人。及東歸，車駕幸冶亭餞送。"
+            },
+            {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line021",
               "source_lines": [
                 21,
@@ -76,6 +190,30 @@
               "selected_text_sha256": "7bf728f50e9f23a80d1f214a37d5b9f968c4b01133b6cf62e5175de0da37a9c1",
               "begin_anchor": "十二年，徵爲太子少傅，敬弘詣都上表固",
               "end_anchor": "年八十八。順帝升明三年，追諡文貞公。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line023",
+              "source_lines": [
+                23,
+                23
+              ],
+              "raw_quote": "敬弘形狀短而起坐端方，桓玄謂之「彈棋發八勢」。所居舍亭山，林澗環周，備登臨之美，故時人謂之王東山。文帝嘗問爲政得失，對曰：「天下有道，庶人不議。」上高其言。左右嘗使二老婦女，戴五條辮，著青紋絝袼，飾以朱粉。女適尚書僕射何尚之弟述之。敬弘嘗往何氏看女，遇尚之不在，因寄齋中臥。俄頃尚之還，敬弘使二婦女守合，不聽尚之入，云：「正熱不堪相見，君可且去」。尚之於是移於他室。上將爲廬陵王納其女，辭曰：「臣女幼，既許孔淳之息。」子恢之被召爲祕書郎，敬弘爲求奉朝請，與恢之書曰：「彼-{祕}-書有限故有競，朝請無限故無競，吾欲使汝處不競之地。」文帝嘉之，並見許。",
+              "raw_quote_sha256": "182767f7fb760843bc8c622395374603be94645bc20efeb978f294079e933a68",
+              "selected_text_sha256": "6d87deecb2f748a3ee0fd429bf6ed0897977688140ba29b7396befe2e88822c7",
+              "begin_anchor": "敬弘形狀短而起坐端方，桓玄謂之「彈棋",
+              "end_anchor": "使汝處不競之地。」文帝嘉之，並見許。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line025",
+              "source_lines": [
+                25,
+                25
+              ],
+              "raw_quote": "敬弘見兒孫，歳中不過一再相見，見輒克日。未嘗教子孫學問，各隨所欲。人或問之，答曰：「丹朱不應乏教，甯越不聞被捶。」恢之位新安太守，嘗請假定省。敬弘克日見之，至日輒不果。假日將盡，恢之求辭，敬弘呼前至合，復不見。恢之於合外拜辭流涕而去。",
+              "raw_quote_sha256": "fd35e73d514abb9dbd3b3271e2bab857decfc012e95d7f7067afb53f7dcd9ddf",
+              "selected_text_sha256": "fd35e73d514abb9dbd3b3271e2bab857decfc012e95d7f7067afb53f7dcd9ddf",
+              "begin_anchor": "敬弘見兒孫，歳中不過一再相見，見輒克",
+              "end_anchor": "合，復不見。恢之於合外拜辭流涕而去。"
             },
             {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line029",
@@ -102,6 +240,18 @@
               "end_anchor": "乃上表請代。時人以爲王晉平恐富求歸。"
             },
             {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line035",
+              "source_lines": [
+                35,
+                35
+              ],
+              "raw_quote": "仕齊爲豫章王嶷驃騎長史。嶷於荊州立學，以秀之領儒林祭酒。武帝即位，累遷侍中祭酒，轉都官尚書。",
+              "raw_quote_sha256": "b1e98d5c769050cd6f35e1974b9730cf7acf6323525720540b069df51cb67d40",
+              "selected_text_sha256": "b1e98d5c769050cd6f35e1974b9730cf7acf6323525720540b069df51cb67d40",
+              "begin_anchor": "仕齊爲豫章王嶷驃騎長史。嶷於荊州立學",
+              "end_anchor": "武帝即位，累遷侍中祭酒，轉都官尚書。"
+            },
+            {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line037",
               "source_lines": [
                 37,
@@ -112,6 +262,18 @@
               "selected_text_sha256": "f608c519379dd660f741f53e8815b25c8903d09e94c6cf92fbe5f487595b4570",
               "begin_anchor": "秀之祖父敬弘性貞正，徐羨之、傅亮當朝",
               "end_anchor": "權貴，時人稱之。轉侍中，領射聲校尉。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line039",
+              "source_lines": [
+                39,
+                39
+              ],
+              "raw_quote": "出爲隨王鎭西長史、南郡內史。後爲輔國將軍、呉興太守。秀之先爲諸王長史、行事，便歎曰：「仲祖之識，見於已多。」便無復仕進，止營理舍亭山宅，有終焉之志。及除呉興郡，隱業所在，心願爲之。到郡修舊山，移置輜重。隆昌元年卒，遺令「朱服不得入棺，祭則酒脯而已。世人以僕妾直靈助哭，當由喪主不能淳至，欲以多聲相亂。魂而有靈，吾當笑之」。諡曰簡子。",
+              "raw_quote_sha256": "3aa102c898f2ed3cd656ebe23cb26ae0398ed6d38acee6e892c620ac0989c203",
+              "selected_text_sha256": "3aa102c898f2ed3cd656ebe23cb26ae0398ed6d38acee6e892c620ac0989c203",
+              "begin_anchor": "出爲隨王鎭西長史、南郡內史。後爲輔國",
+              "end_anchor": "亂。魂而有靈，吾當笑之」。諡曰簡子。"
             },
             {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line043",
@@ -136,6 +298,30 @@
               "selected_text_sha256": "482184f4bfd880cff41191e6a1ed6b24d898f9d5518ce5d8fe8198ab7348829e",
               "begin_anchor": "宋德既衰，齊高帝輔政，朝野之情，人懷",
               "end_anchor": "，加都督。齊建元元年，進號鎭南將軍。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line047",
+              "source_lines": [
+                47,
+                47
+              ],
+              "raw_quote": "延之與金紫光祿大夫阮韜俱宋領軍將軍劉湛外甥，並有早譽，湛甚愛之，曰：「韜後當爲第一，延之爲次也。」延之甚不平。毎致餉下都，韜與朝士同例，高帝聞之，與延之書曰：「韜雲卿未嘗有別意，當由劉家月旦故邪。」韜字長明，陳留人，晉金紫光祿大夫裕玄孫也。爲南兗州別駕，刺史江夏王義恭逆求資費錢，韜曰：「此朝廷物。」執不與。宋孝武選侍中四人，並以風貌，王彧、謝莊爲一雙，韜與何偃爲一雙。常充兼假，至始興王師，卒。",
+              "raw_quote_sha256": "f8cb8520c91de27727b20e5e2ffe29a1a290dcf0dc0602ea6fc6e5fc16232823",
+              "selected_text_sha256": "f8cb8520c91de27727b20e5e2ffe29a1a290dcf0dc0602ea6fc6e5fc16232823",
+              "begin_anchor": "延之與金紫光祿大夫阮韜俱宋領軍將軍劉",
+              "end_anchor": "偃爲一雙。常充兼假，至始興王師，卒。"
+            },
+            {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line049",
+              "source_lines": [
+                49,
+                49
+              ],
+              "raw_quote": "延之居身簡素，清靜寡-{慾}-，凡所經歷，務存不擾。在江州，祿俸外一無所納。獨處齋內，未嘗出戸，吏人罕得見焉，雖子弟亦不妄前。時時見親舊，未嘗及世事，從容談詠而已。後爲尚書左僕射，尋領竟陵王師，卒諡簡子。",
+              "raw_quote_sha256": "6b5837e007de01923d88d407c0263fdeec8a9eeb1fe376035297f30168309f9e",
+              "selected_text_sha256": "70f13f22100aefa8921cea02b53ea821126780901763f5d48b0e94e7b92c61f7",
+              "begin_anchor": "延之居身簡素，清靜寡慾，凡所經歷，務",
+              "end_anchor": "尚書左僕射，尋領竟陵王師，卒諡簡子。"
             },
             {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line053",
@@ -174,6 +360,18 @@
               "end_anchor": "。累遷侍中，吏部尚書。處選甚得名譽。"
             },
             {
+              "proposed_paragraph_id": "c-nanshi-024-wang-family:line063",
+              "source_lines": [
+                63,
+                63
+              ],
+              "raw_quote": "峻性詳雅，無趨競心，嘗與謝覽約，官至侍中，不復謀進仕。覽自吏部尚書出爲呉興郡，平心不畏強禦，亦由處俗情薄故也。峻爲侍中已後，雖不退身，亦淡然自守，無所營務。遷金紫光祿大夫，未拜，卒，諡惠子。",
+              "raw_quote_sha256": "31bb89a6e0418bcfba786cba17eea9563cef042459b4e12ab5c48f7636985f23",
+              "selected_text_sha256": "31bb89a6e0418bcfba786cba17eea9563cef042459b4e12ab5c48f7636985f23",
+              "begin_anchor": "峻性詳雅，無趨競心，嘗與謝覽約，官至",
+              "end_anchor": "。遷金紫光祿大夫，未拜，卒，諡惠子。"
+            },
+            {
               "proposed_paragraph_id": "c-nanshi-024-wang-family:line067",
               "source_lines": [
                 67,
@@ -184,18 +382,6 @@
               "selected_text_sha256": "77facdc6b11b4769b8087797912799da9475e2b3f212f285f236b63b4f733773",
               "begin_anchor": "子琮爲國子生，尚始興王女繁昌主。琮不",
               "end_anchor": "仁祖外孫，亦不藉殿下姻媾爲門戸耳。」"
-            },
-            {
-              "proposed_paragraph_id": "c-nanshi-024-wang-family:line019",
-              "source_lines": [
-                19,
-                19
-              ],
-              "raw_quote": "元嘉三年，爲尚書僕射，關署文案，初不省讀。嘗豫聽訟，上問疑獄，敬弘不對。上變色問左右：「何故不以訊牒副僕射？」敬弘曰：「臣乃得訊牒讀之，正自不解。」上甚不悅。雖加禮敬，亦不以時務及之。六年，遷尚書令，固讓，表求還東。上不能奪。改授侍中、特進、左光祿大夫，給親信三十人。及東歸，車駕幸冶亭餞送。",
-              "raw_quote_sha256": "c91cd7ca80dd7e7829059331722c4dc23869fbbca966dbed3b1b3e86c1ef1e20",
-              "selected_text_sha256": "c91cd7ca80dd7e7829059331722c4dc23869fbbca966dbed3b1b3e86c1ef1e20",
-              "begin_anchor": "元嘉三年，爲尚書僕射，關署文案，初不",
-              "end_anchor": "親信三十人。及東歸，車駕幸冶亭餞送。"
             }
           ]
         }
@@ -262,6 +448,51 @@
     "7r6_k52_qji_ABDABAABAAA": "王琮"
   },
   "dates": [],
+  "title_proposals": [
+    {
+      "id": "tp-nanshi024-jun-jinzi-unassumed",
+      "person_id": "7r6_k52_qji_ABDABAABAA",
+      "title": "金紫光祿大夫",
+      "outcome": "not_assumed",
+      "proposal_kind": "unassumed_appointment",
+      "non_assumption_kind": "did_not_take_up",
+      "role_anchor": {
+        "paragraph_id": "c-nanshi-024-wang-family:line063",
+        "start": 79,
+        "end": 85,
+        "surface": "金紫光祿大夫"
+      },
+      "person_mention_id": "c-nanshi-024-wang-family:line063:m0000",
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wang-family",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line063",
+          "quote": "峻性詳雅，無趨競心，嘗與謝覽約，官至侍中，不復謀進仕。覽自吏部尚書出爲呉興郡，平心不畏強禦，亦由處俗情薄故也。峻爲侍中已後，雖不退身，亦淡然自守，無所營務。遷金紫光祿大夫，未拜，卒，諡惠子。",
+          "person_mention_id": "c-nanshi-024-wang-family:line063:m0000"
+        }
+      ],
+      "appointment_anchor": {
+        "paragraph_id": "c-nanshi-024-wang-family:line063",
+        "start": 78,
+        "end": 79,
+        "surface": "遷"
+      },
+      "non_assumption_anchor": {
+        "paragraph_id": "c-nanshi-024-wang-family:line063",
+        "start": 86,
+        "end": 88,
+        "surface": "未拜"
+      },
+      "interpretation_note": "任用與未受任原詞分存；同段後來實任同名官職須另筆，不把此筆列入實任。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [
     {
       "person_id": "7r6_k52_qji_ABDABAABAA",

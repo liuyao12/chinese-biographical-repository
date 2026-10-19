@@ -4,7 +4,7 @@ import {chineseNumber} from './person-display.js';
 export function sourceDateLabel(event) {
   const raw = event.date_expression || '';
   const date = event.normalized_date, mapping = date?.regnal_year_mapping;
-  if (mapping?.kind !== 'relative_ce_regnal_era_span'
+  if (!['relative_ce_regnal_era_span', 'annal_ce_regnal_era_span'].includes(mapping?.kind)
       || !Number.isSafeInteger(mapping.target_regnal_year) || mapping.target_regnal_year < 1
       || typeof mapping.era_name !== 'string' || !mapping.era_name) return raw;
   const resolved = `${mapping.era_name}${mapping.target_regnal_year === 1 ? '元' : chineseNumber(mapping.target_regnal_year)}年`;
