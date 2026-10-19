@@ -132,7 +132,7 @@ def normalized_date_errors(date, chapters=None):
                     from scripts.relative_regnal_year import relative_regnal_year_valid
                 except ImportError:
                     from relative_regnal_year import relative_regnal_year_valid
-                valid = relative_regnal_year_valid(date, source_age_number)
+                valid = relative_regnal_year_valid(date, source_age_number, chapters)
             if isinstance(mapping, dict) and mapping.get('kind') == 'annal_ce_regnal_era_span':
                 try:
                     from scripts.annal_year_context import annal_regnal_year_valid, annal_year_binding_valid
@@ -438,7 +438,12 @@ def validate(root=ROOT):
                 check(xml.get(attr)==d[key], 'XML 著作卷篇來源 ID 不符')
             xp=xml.findall('p')
             check(len(xp)==len(d['paragraphs']), 'XML 段落數不符')
-            for x,p in zip(xp,d['paragraphs']):
+            try:
+                from scripts.reading_layout import partition
+            except ImportError:
+                from reading_layout import partition
+            for x,(p,reading_role,reading_index) in zip(xp,partition(d)):
+                check(x.get('reading-role')==reading_role and x.get('reading-index')==(str(reading_index) if reading_index is not None else None),'XML 閱讀角色／次序不符')
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
@@ -806,7 +811,7 @@ def validate(root=ROOT):
                 check(h['person_id'] in pids and bool(h['title']),'稱號持有人或用稱無效')
                 check(h['status']=='source_attested','稱號持有狀態無效')
                 check(h['kind'] in ('royal_rank','imperial_rank','noble_rank','office','honorific','unclassified'),'稱號種類無效')
-                check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
+                check(h['mode'] in ('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion','attestation'),'稱號事件種類無效')
                 check(bool(h['evidence']) and bool(h['attestations']),'稱號缺少來源或用稱錨點')
                 def title_evidence(e):
                     hit=paragraphs.get(e['paragraph_id'])
@@ -920,6 +925,12 @@ def validate(root=ROOT):
                         from title_chronology_preference import title_chronology_preference_valid
                     check(title_chronology_preference_valid(h, title_records),
                           '稱號紀年首選須保留同人同次事件的各來源與不同數字紀年，不得改抹異說')
+                if h['mode']=='posthumous_enfeoffment' or 'enfeoffment_basis' in h:
+                    try:
+                        from scripts.posthumous_enfeoffments import valid as enfeoffment_valid
+                    except ImportError:
+                        from posthumous_enfeoffments import valid as enfeoffment_valid
+                    check(enfeoffment_valid(h, paragraphs, mentions, gift_life_events), '追封須有同人已記死亡、明文追封爵號及相符字位')
                 if h['mode']=='posthumous_grant' or 'posthumous_basis' in h:
                     basis=h.get('posthumous_basis')
                     explicit_retrospective=(isinstance(basis,dict)
@@ -1161,7 +1172,7 @@ def validate(root=ROOT):
                         check(boundary['date_expression'] is None and not boundary['evidence'] and 'event_type' not in boundary,'未知稱號端點不得暗補日期或事件')
                     else:
                         check(bool(boundary['evidence']),'稱號時段事件缺少證據')
-                        allowed=('grant','transfer','posthumous_grant','posthumous_naming','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
+                        allowed=('grant','transfer','posthumous_grant','posthumous_enfeoffment','posthumous_naming','self_proclamation','accession','demotion') if endpoint=='start' else ('deposition','renunciation','abolition','explicit_end')
                         check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']
@@ -1333,7 +1344,7 @@ def validate(root=ROOT):
                     except ImportError:
                         from chuji_parentage import chuji_parentage_valid
                     check(chuji_parentage_valid(a, paragraphs, d['assertions']),
-                          '出繼父須有出繼伯父原詞、具名雙錨點及同段生父伯父證據，不得覆蓋生父')
+                          '嗣父須符合具名出繼或無子為嗣的限定來源模型，保留生父及完整連續原文，不得僅據嗣爵')
                 if a['predicate'] == 'maternal_role':
                     try:
                         from scripts.maternal_roles import maternal_role_valid
@@ -1983,6 +1994,16 @@ def validate(root=ROOT):
     except ImportError:
         from pending_research import validate as validate_pending_research
     errors.extend(validate_pending_research(root))
+    try:
+        from scripts.occurrence_concordance import validate as validate_occurrence_concordance
+    except ImportError:
+        from occurrence_concordance import validate as validate_occurrence_concordance
+    errors.extend(validate_occurrence_concordance(root))
+    try:
+        from scripts.reading_layout import validate as validate_reading_layout
+    except ImportError:
+        from reading_layout import validate as validate_reading_layout
+    errors.extend(validate_reading_layout(root))
     return errors
 
 def main():

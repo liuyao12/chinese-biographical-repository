@@ -17,12 +17,10 @@
       "title": "五帝本紀第一",
       "paragraph_id": "c-shiji-001-wudi:p008",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "帝嚳高辛者，黃帝之曾孫也。高辛父曰蟜極，蟜極父曰玄囂，玄囂父曰黃帝。自玄囂與蟜極皆不得在位，至高辛即帝位。高辛於顓頊爲族子。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-001",
-      "chapter_id": "c-shiji-001-wudi",
-      "source_id": "s-shiji-001-wudi",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-001-wudi:p008"
       ],
@@ -30,7 +28,41 @@
         "c-shiji-001-wudi:m008-0017",
         "c-shiji-001-wudi:m008-0020",
         "c-shiji-001-wudi:m008-0038"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-001-wudi:m008-0017": "c-shiji-001-wudi:p008",
+        "c-shiji-001-wudi:m008-0020": "c-shiji-001-wudi:p008",
+        "c-shiji-001-wudi:m008-0038": "c-shiji-001-wudi:p008"
+      },
+      "mention_id": "c-shiji-001-wudi:m008-0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m008-0017",
+          "mention_ids": [
+            "c-shiji-001-wudi:m008-0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m008-0020",
+          "mention_ids": [
+            "c-shiji-001-wudi:m008-0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m008-0038",
+          "mention_ids": [
+            "c-shiji-001-wudi:m008-0038"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-001",
+      "chapter_id": "c-shiji-001-wudi",
+      "source_id": "s-shiji-001-wudi",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

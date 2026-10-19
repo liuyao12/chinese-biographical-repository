@@ -52,7 +52,7 @@ def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None
     if (not previous or previous_id == holding.get('id')
             or previous.get('person_id') != holding.get('person_id')
             or previous.get('kind') != 'noble_rank'
-            or previous.get('mode') in ('posthumous_grant', 'posthumous_naming')
+            or previous.get('mode') in ('posthumous_grant', 'posthumous_enfeoffment', 'posthumous_naming')
             or basis.get('previous_title_status') != 'source_context'):
         return ['已接前爵須屬同人實際爵位，不得借他人或死後諡號']
     end = previous.get('effective_period', {}).get('end', {})

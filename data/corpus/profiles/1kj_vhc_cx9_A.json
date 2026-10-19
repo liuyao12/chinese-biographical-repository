@@ -18,12 +18,10 @@
       "title": "昭帝紀第七",
       "paragraph_id": "c-hanshu-007-zhaodi:empress-father:p001",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "六月封皇后父驃騎將軍上官安為桑樂侯",
-      "work_id": "w-hanshu",
-      "book_id": "b-hanshu-007",
-      "chapter_id": "c-hanshu-007-zhaodi",
-      "source_id": "s-hanshu-007-zhaodi",
-      "work_title": "漢書",
       "paragraph_ids": [
         "c-hanshu-007-zhaodi:conspiracy:p001",
         "c-hanshu-007-zhaodi:empress-father:p001"
@@ -31,7 +29,33 @@
       "mention_ids": [
         "c-hanshu-007-zhaodi:empress-father:p001:m0010",
         "c-hanshu-007-zhaodi:conspiracy:p001:m0023"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-007-zhaodi:empress-father:p001:m0010": "c-hanshu-007-zhaodi:empress-father:p001",
+        "c-hanshu-007-zhaodi:conspiracy:p001:m0023": "c-hanshu-007-zhaodi:conspiracy:p001"
+      },
+      "mention_id": "c-hanshu-007-zhaodi:empress-father:p001:m0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-007-zhaodi:empress-father:p001:m0010",
+          "mention_ids": [
+            "c-hanshu-007-zhaodi:empress-father:p001:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-007-zhaodi:conspiracy:p001:m0023",
+          "mention_ids": [
+            "c-hanshu-007-zhaodi:conspiracy:p001:m0023"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-007",
+      "chapter_id": "c-hanshu-007-zhaodi",
+      "source_id": "s-hanshu-007-zhaodi",
+      "work_title": "漢書"
     }
   ],
   "table_occurrences": [],

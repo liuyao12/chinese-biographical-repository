@@ -70,12 +70,10 @@
       "title": "周本紀第四",
       "paragraph_id": "c-shiji-004-zhou:p057",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "二十一年，定王崩，子簡王夷立。簡王十三年，晉殺其君厲公，迎子周於周，立為悼公。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-004",
-      "chapter_id": "c-shiji-004-zhou",
-      "source_id": "s-shiji-004-zhou",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-004-zhou:p057",
         "c-shiji-004-zhou:p058"
@@ -84,7 +82,41 @@
         "c-shiji-004-zhou:m057-0010",
         "c-shiji-004-zhou:m057-0015",
         "c-shiji-004-zhou:m058-0004"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-004-zhou:m057-0010": "c-shiji-004-zhou:p057",
+        "c-shiji-004-zhou:m057-0015": "c-shiji-004-zhou:p057",
+        "c-shiji-004-zhou:m058-0004": "c-shiji-004-zhou:p058"
+      },
+      "mention_id": "c-shiji-004-zhou:m057-0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m057-0010",
+          "mention_ids": [
+            "c-shiji-004-zhou:m057-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m057-0015",
+          "mention_ids": [
+            "c-shiji-004-zhou:m057-0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m058-0004",
+          "mention_ids": [
+            "c-shiji-004-zhou:m058-0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "chapter_id": "c-shiji-004-zhou",
+      "source_id": "s-shiji-004-zhou",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

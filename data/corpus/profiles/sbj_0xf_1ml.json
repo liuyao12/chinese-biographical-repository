@@ -17,12 +17,10 @@
       "title": "趙世家第十三",
       "paragraph_id": "c-shiji-043-zhao:p023",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "趙簡子在位，晉頃公之九年，簡子將合諸侯戍于周。其明年，入周敬王于周，辟弟子朝之故也。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-043",
-      "chapter_id": "c-shiji-043-zhao",
-      "source_id": "s-shiji-043-zhao",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-043-zhao:p023",
         "c-shiji-043-zhao:p024"
@@ -30,7 +28,33 @@
       "mention_ids": [
         "c-shiji-043-zhao:m023-0006",
         "c-shiji-043-zhao:m024-0000"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-043-zhao:m023-0006": "c-shiji-043-zhao:p023",
+        "c-shiji-043-zhao:m024-0000": "c-shiji-043-zhao:p024"
+      },
+      "mention_id": "c-shiji-043-zhao:m023-0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-043-zhao:m023-0006",
+          "mention_ids": [
+            "c-shiji-043-zhao:m023-0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-043-zhao:m024-0000",
+          "mention_ids": [
+            "c-shiji-043-zhao:m024-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-043",
+      "chapter_id": "c-shiji-043-zhao",
+      "source_id": "s-shiji-043-zhao",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

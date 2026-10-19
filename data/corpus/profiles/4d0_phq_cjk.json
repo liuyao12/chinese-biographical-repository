@@ -169,18 +169,34 @@
       "title": "吳太伯世家第一",
       "paragraph_id": "c-shiji-031-wu:p005",
       "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "王壽夢二年，楚之亡大夫申公巫臣怨楚將子反而犇晉，自晉使吳，教吳用兵乘車，令其子爲吳行人，吳於是始通於中國。吳伐楚。十六年，楚共王伐吳，至衡山。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-031",
-      "chapter_id": "c-shiji-031-wu",
-      "source_id": "s-shiji-031-wu",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-031-wu:p005"
       ],
       "mention_ids": [
         "c-shiji-031-wu:m005-0011"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-031-wu:m005-0011": "c-shiji-031-wu:p005"
+      },
+      "mention_id": "c-shiji-031-wu:m005-0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-031-wu:m005-0011",
+          "mention_ids": [
+            "c-shiji-031-wu:m005-0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-031",
+      "chapter_id": "c-shiji-031-wu",
+      "source_id": "s-shiji-031-wu",
+      "work_title": "史記"
     },
     {
       "number": 39,
@@ -188,12 +204,10 @@
       "title": "晉世家第九",
       "paragraph_id": "c-shiji-039-jin:p102",
       "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "楚申公巫臣盜夏姬以奔晉，晉以巫臣爲邢大夫。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-039",
-      "chapter_id": "c-shiji-039-jin",
-      "source_id": "s-shiji-039-jin",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-039-jin:p102",
         "c-shiji-039-jin:p106"
@@ -203,7 +217,49 @@
         "c-shiji-039-jin:m102-0014",
         "c-shiji-039-jin:m106-0009",
         "c-shiji-039-jin:m106-0016"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-039-jin:m102-0000": "c-shiji-039-jin:p102",
+        "c-shiji-039-jin:m102-0014": "c-shiji-039-jin:p102",
+        "c-shiji-039-jin:m106-0009": "c-shiji-039-jin:p106",
+        "c-shiji-039-jin:m106-0016": "c-shiji-039-jin:p106"
+      },
+      "mention_id": "c-shiji-039-jin:m102-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m102-0000",
+          "mention_ids": [
+            "c-shiji-039-jin:m102-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m102-0014",
+          "mention_ids": [
+            "c-shiji-039-jin:m102-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m106-0009",
+          "mention_ids": [
+            "c-shiji-039-jin:m106-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-039-jin:m106-0016",
+          "mention_ids": [
+            "c-shiji-039-jin:m106-0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-039",
+      "chapter_id": "c-shiji-039-jin",
+      "source_id": "s-shiji-039-jin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

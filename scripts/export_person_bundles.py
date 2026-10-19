@@ -13,6 +13,12 @@ except ImportError:
     from family_assemblies import load_assemblies
 
 
+try:
+    from .occurrence_concordance import index_counts
+except ImportError:
+    from occurrence_concordance import index_counts
+
+
 def write_reading_pages(destination, first_path, continuation_prefix, heading, introduction, blocks, references):
     """按完整表格區塊分頁；入口不改名，來源註只帶入本頁使用者。"""
     pages = [[]]
@@ -111,11 +117,7 @@ def export(root=ROOT):
         rows.append({'person_id': output_id, 'label': person['label'], 'path': output_id + '.json',
                      'id_aliases': person.get('id_aliases', []),
                      'identity_policy': result['identity_policy'],
-                     'mention_count': len(result['mentions']) + len(result['table_occurrences']),
-                     'paragraph_mention_count': len(result['mentions']),
-                     'table_mention_count': len(result['table_occurrences']),
-                     'source_count': len(result['sources']),
-                     'most_mentioned_source_ids': result['most_mentioned_source_ids']})
+                     **index_counts(result)})
         omitted_parent_decisions = [decision['id'] for decision in result['family_tree_decisions']
             if decision['default_view'] == 'omit_unproven_biological_parent_edge'
             and set(result['person_ids']).intersection(decision.get('subject_person_ids', [decision['subject_person_id']]))]
@@ -141,7 +143,7 @@ def export(root=ROOT):
             path.unlink()
     lines = ['# 人物 JSON 索引', '', '可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。', '',
              '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。', '',
-             '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。', '',
+             '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。', '',
              '已接合父系見 [家族組裝資料](../../registry/family-assemblies.json)。`assembled_identity.person_id` 是共用家族根的組裝 ID，`source_person_ids` 保留各篇候選；父子及同指證據可由記錄 ID 回查。缺代節點另有 `ancestor_person_id`、`generation_distance` 與空值中間世代；父親空值不表示它另成一族。', '',
              '點選家族標題可展開或收起後代。`*` 表示缺名世代，不建立人物，也不表示不同缺名位置是同一人。表內只列家族根後的 ID 尾碼；根人物以「根」表示，完整 ID 保留於家族標題及 JSON。最多提及來源另列一欄，同數並列；提及次數不代表史料優先權。已完成格式遷移的舊 ID 與 JSON 入口已撤除；待身份覆核的來源候選仍分存。', '', '尚未連入同族的人物見 [獨立人物索引](unconnected.md)。', '', '## 可展開家族', '']
     family_blocks = []

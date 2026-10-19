@@ -17,12 +17,10 @@
       "title": "五帝本紀第一",
       "paragraph_id": "c-shiji-001-wudi:p013",
       "count": 11,
+      "raw_count": 11,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "堯曰：「誰可順此事？」放齊曰：「嗣子丹朱開明。」堯曰：「吁！頑凶，不用。」堯又曰：「誰可者？」讙兜曰：「共工旁聚布功，可用。」堯曰：「共工善言，其用僻，似恭漫天，不可。」堯又曰：「嗟！四嶽：湯湯洪水滔天，浩浩懷山襄陵，下民其憂，有能使治者？",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-001",
-      "chapter_id": "c-shiji-001-wudi",
-      "source_id": "s-shiji-001-wudi",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-001-wudi:p013",
         "c-shiji-001-wudi:p017",
@@ -41,7 +39,105 @@
         "c-shiji-001-wudi:m017-0187",
         "c-shiji-001-wudi:m024-0067",
         "c-shiji-001-wudi:m026-0160"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-001-wudi:m013-0018": "c-shiji-001-wudi:p013",
+        "c-shiji-001-wudi:m017-0065": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0094": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0099": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0107": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0149": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0164": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0175": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m017-0187": "c-shiji-001-wudi:p017",
+        "c-shiji-001-wudi:m024-0067": "c-shiji-001-wudi:p024",
+        "c-shiji-001-wudi:m026-0160": "c-shiji-001-wudi:p026"
+      },
+      "mention_id": "c-shiji-001-wudi:m013-0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m013-0018",
+          "mention_ids": [
+            "c-shiji-001-wudi:m013-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0065",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0065"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0094",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0099",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0099"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0107",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0107"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0149",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0149"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0164",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0164"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0175",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0175"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m017-0187",
+          "mention_ids": [
+            "c-shiji-001-wudi:m017-0187"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m024-0067",
+          "mention_ids": [
+            "c-shiji-001-wudi:m024-0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-001-wudi:m026-0160",
+          "mention_ids": [
+            "c-shiji-001-wudi:m026-0160"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-001",
+      "chapter_id": "c-shiji-001-wudi",
+      "source_id": "s-shiji-001-wudi",
+      "work_title": "史記"
     },
     {
       "number": 2,
@@ -49,18 +145,34 @@
       "title": "夏本紀第二",
       "paragraph_id": "c-shiji-002-xia:p023",
       "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "帝曰：「毋若丹朱傲，維慢游是好，毋水行舟，朋淫于家，用絕其世。予不能順是。」禹曰：「予娶塗山，辛壬癸甲；生啓，予不子，以故能成水土功。輔成五服，至于五千里，州十二師，外薄四海，咸建五長，各道有功。苗頑不即功，帝其念哉",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-002",
-      "chapter_id": "c-shiji-002-xia",
-      "source_id": "s-shiji-002-xia",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-002-xia:p023"
       ],
       "mention_ids": [
         "c-shiji-002-xia:m023-0006"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-002-xia:m023-0006": "c-shiji-002-xia:p023"
+      },
+      "mention_id": "c-shiji-002-xia:m023-0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-002-xia:m023-0006",
+          "mention_ids": [
+            "c-shiji-002-xia:m023-0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-002",
+      "chapter_id": "c-shiji-002-xia",
+      "source_id": "s-shiji-002-xia",
+      "work_title": "史記"
     },
     {
       "number": 24,
@@ -68,18 +180,34 @@
       "title": "王氏跨史家系選段",
       "paragraph_id": "c-nanshi-024-wang-family:line025",
       "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "中不過一再相見，見輒克日。未嘗教子孫學問，各隨所欲。人或問之，答曰：「丹朱不應乏教，甯越不聞被捶。」恢之位新安太守，嘗請假定省。敬弘克日見之，至日輒不果。假日將盡，恢之求辭，敬弘呼前至合，復不見。恢之於合外拜辭流涕而去。",
-      "work_id": "w-nanshi",
-      "book_id": "b-nanshi-024",
-      "chapter_id": "c-nanshi-024-wang-family",
-      "source_id": "s-nanshi-024-wang-family",
-      "work_title": "南史",
       "paragraph_ids": [
         "c-nanshi-024-wang-family:line025"
       ],
       "mention_ids": [
         "c-nanshi-024-wang-family:line025:m0042"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-024-wang-family:line025:m0042": "c-nanshi-024-wang-family:line025"
+      },
+      "mention_id": "c-nanshi-024-wang-family:line025:m0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-024-wang-family:line025:m0042",
+          "mention_ids": [
+            "c-nanshi-024-wang-family:line025:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-024",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "source_id": "s-nanshi-024-wang-family",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],

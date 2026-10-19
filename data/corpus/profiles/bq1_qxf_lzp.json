@@ -18,12 +18,10 @@
       "title": "大宛列傳第六十三",
       "paragraph_id": "c-shiji-123-dayuan:p002",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "曰：「月氏在吾北，漢何以得往使？吾欲使越，漢肯聽我乎？」留騫十餘歲，與妻，有子，然騫持漢節不失。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-123",
-      "chapter_id": "c-shiji-123-dayuan",
-      "source_id": "s-shiji123-dayuan",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p002",
         "c-shiji-123-dayuan:p004"
@@ -31,7 +29,33 @@
       "mention_ids": [
         "c-shiji-123-dayuan:m002-0165",
         "c-shiji-123-dayuan:m004-0048"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m002-0165": "c-shiji-123-dayuan:p002",
+        "c-shiji-123-dayuan:m004-0048": "c-shiji-123-dayuan:p004"
+      },
+      "mention_id": "c-shiji-123-dayuan:m002-0165",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m002-0165",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m002-0165"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m004-0048",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m004-0048"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

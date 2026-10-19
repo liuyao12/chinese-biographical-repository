@@ -9,6 +9,12 @@ def chuji_parentage_valid(a, paragraphs, assertions):
         except ImportError:
             from named_heir_parentage import named_brother_son_heir_valid
         return named_brother_son_heir_valid(a, paragraphs, assertions)
+    if q.get('adoption_basis') == 'named_agnatic_senior_no_heir_as_successor':
+        try:
+            from scripts.named_agnatic_adoption import named_agnatic_adoption_valid
+        except ImportError:
+            from named_agnatic_adoption import named_agnatic_adoption_valid
+        return named_agnatic_adoption_valid(a, paragraphs, assertions)
     evidence = a.get('evidence', [])
     if (a.get('predicate') != 'adoptive_father'
             or a.get('status') != 'source_attested'

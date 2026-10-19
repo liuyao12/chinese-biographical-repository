@@ -44,5 +44,5 @@ class SongWangConnectedFacts(unittest.TestCase):
   d=read(P/'wang-chronology.json');self.assertTrue(any(x['scope'].startswith('王華卒') and x['year']==427 and x['original_expression']=='四年'for x in d));self.assertTrue(any(x['scope']=='王曇首卒'and x['year']==430 for x in d));self.assertTrue(any(x['scope']=='太保／中書監／其年薨'and x['year']==432 for x in d));self.assertTrue(all(x['year']is None for x in d if x['original_expression'].endswith(('中','末'))))
 
  def test_wrong_regnal_arithmetic_rejected(self):
-  n=next(x['normalized_date']for x in L if 'normalized_date'in x);bad=copy.deepcopy(n);bad['year']+=1;bad['era_year']+=1;self.assertTrue(normalized_date_errors(bad));self.assertFalse(normalized_date_errors(n))
+  n=next(x['normalized_date']for x in L if 'normalized_date'in x and 'regnal_year_mapping'in x['normalized_date']);bad=copy.deepcopy(n);bad['year']+=1;bad['era_year']+=1;self.assertTrue(normalized_date_errors(bad));self.assertFalse(normalized_date_errors(n))
 

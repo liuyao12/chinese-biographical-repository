@@ -24,7 +24,59 @@
       "interpretation_note": "只記原文死亡陳述及報告時點；不由報齡倒出生，不因此終止全部官爵。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 432,
+        "year": 432,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "其年",
+        "status": "editorial_provisional",
+        "original_quote": "其後弘寢疾，弘表屢乞骸骨，上輒優詔不許。九年，進位太保，領中書監，餘如故。其年，薨。時年五十四。即贈太保、中書監，給節，加羽葆、鼓吹，增班劍為六十人，侍中、錄尚書、刺史如故。諡曰文昭公。配食高祖廟廷。其年，詔曰：「乃者三逆煽禍，實繁有徒，爰初遵養，暨于明罰，外虞內慮，實惟艱難。故太保華容縣公弘、故衞將軍華、故左光祿大夫曇首，抱義懷忠，乃情同至，籌謀廟堂，竭盡智力，經綸夷險，簡自朕心。國恥既雪，允膺茅土，而並執謙挹，志不命踰，故用佇朝典，將有後命。盛業不究，相係殞落，永懷傷歎，痛恨無已。弘可增封千戶，華、曇首封開國縣侯，食邑各千戶。護軍將軍建昌公彥之，深誠密謨，比蹤齊望，其復先食邑，以酬忠勳。」又詔：「聞王太保家便已匱乏，清約之美，同規古人。言念始終，情增悽歎。可賜錢百萬，米千斛。」",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-042",
+            "chapter_id": "c-songshu-042-wanghong",
+            "source_id": "s-songshu-042-wanghong",
+            "paragraph_id": "c-songshu-042-wanghong:line087",
+            "quote": "其後弘寢疾，弘表屢乞骸骨，上輒優詔不許。九年，進位太保，領中書監，餘如故。其年，薨。時年五十四。即贈太保、中書監，給節，加羽葆、鼓吹，增班劍為六十人，侍中、錄尚書、刺史如故。諡曰文昭公。配食高祖廟廷。其年，詔曰：「乃者三逆煽禍，實繁有徒，爰初遵養，暨于明罰，外虞內慮，實惟艱難。故太保華容縣公弘、故衞將軍華、故左光祿大夫曇首，抱義懷忠，乃情同至，籌謀廟堂，竭盡智力，經綸夷險，簡自朕心。國恥既雪，允膺茅土，而並執謙挹，志不命踰，故用佇朝典，將有後命。盛業不究，相係殞落，永懷傷歎，痛恨無已。弘可增封千戶，華、曇首封開國縣侯，食邑各千戶。護軍將軍建昌公彥之，深誠密謨，比蹤齊望，其復先食邑，以酬忠勳。」又詔：「聞王太保家便已匱乏，清約之美，同規古人。言念始終，情增悽歎。可賜錢百萬，米千斛。」",
+            "person_mention_id": "c-songshu-042-wanghong:line087:m0002"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "元嘉424—453",
+            "scope": "modern_era_year_equivalence_only",
+            "image_verified": false
+          },
+          {
+            "title": "固定宋書完整單元年號語境",
+            "url": "https://zh.wikisource.org/w/index.php?title=宋書/卷63&oldid=2118589",
+            "quote": "甯子與華並有富貴之願，自羨之等秉權，日夜構之於太祖。甯子嘗東歸，至金昌亭，左右欲泊船，甯子命去之，曰：「此弒君亭，不可泊也。」華每閑居諷詠，常誦王粲登樓賦曰：「冀王道之一平，假高衢而騁力。」出入逢羨之等，每切齒憤咤，歎曰：「當見太平時不？」元嘉二年，甯子病卒。三年，誅羨之等，華遷護軍，侍中如故。",
+            "scope": "primary_same_emperor_regnal_context",
+            "context_id": "cal-songwang9-1",
+            "image_verified": false
+          }
+        ],
+        "calendar_context": {
+          "context_id": "cal-songwang9-1",
+          "event_anchor": {
+            "paragraph_id": "c-songshu-042-wanghong:line087",
+            "start": 40,
+            "end": 41,
+            "surface": "薨"
+          }
+        },
+        "rationale": "事件引句保持原段，年號取固定完整單元中同一明示即位君主的獨立語境；逐段連續、不同年號與單元界線皆驗證。數值是中國曆年，不倒出生。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "le-songwang7-42-49-14",

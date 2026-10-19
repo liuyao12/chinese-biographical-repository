@@ -62,12 +62,10 @@
       "title": "大宛列傳第六十三",
       "paragraph_id": "c-shiji-123-dayuan:p024",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "，至匈河水，欲以擊胡，胡皆去。其明年，擊姑師，破奴與輕騎七百餘先至，虜樓蘭王，遂破姑師。因舉兵威以困烏孫、大宛之屬。還，封破奴為浞野侯。王恢數使，為樓蘭所苦，言天子，天子發兵令恢佐破奴擊破之，封恢為浩侯。於是酒泉列亭鄣至玉門矣。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-123",
-      "chapter_id": "c-shiji-123-dayuan",
-      "source_id": "s-shiji123-dayuan",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-123-dayuan:p024",
         "c-shiji-123-dayuan:p030"
@@ -75,7 +73,33 @@
       "mention_ids": [
         "c-shiji-123-dayuan:m024-0340",
         "c-shiji-123-dayuan:m030-0020"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m024-0340": "c-shiji-123-dayuan:p024",
+        "c-shiji-123-dayuan:m030-0020": "c-shiji-123-dayuan:p030"
+      },
+      "mention_id": "c-shiji-123-dayuan:m024-0340",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m024-0340",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m024-0340"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m030-0020",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m030-0020"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

@@ -1,3 +1,4 @@
+import {chapterReadingLayout,revealSourceTarget} from './reading-layout.js';
 import {mountHistoricalTable} from './historical-table-view.js';
 import {historicalTableMarkup} from './historical-table-markup.js';
 import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
@@ -60,13 +61,14 @@ async function render(keepScroll=false) {
   if(current!==ticket)return;
   if(chapter.id!==selected.chapter_id || chapter.work_id!==work.id || chapter.book_id!==selected.book_id)throw Error(t('Source text could not be loaded.'));
   document.title=work.title+'·'+selected.title+' · 人文';
-  const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id};
-  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${chapter.paragraphs.map(p=>chapterParagraph(p,{},context) + referentInterpretations(chapter, p.id)).join('')}</article>`;
+  const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id,reading_layout:!!chapter.reading_layout};
+  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context)+referentInterpretations(chapter,p.id);
+  const readingHTML=layout.primary.map(paragraphHTML).join('')+layout.archival.map(({entry,paragraph})=>`<details class="corpus-archival-excerpt" data-archival-excerpt><summary>${h(entry.label)}</summary><p class="corpus-note">這是同一固定底本的歷史節引；主文已按原行展開，原錨點與引用保留。</p>${paragraphHTML(paragraph)}</details>`).join('');
+  $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
   const passage=params.get('passage');
   if(readingState)restoreReadingState($('corpus-content'),readingState);
-  else if(chapter.paragraphs.some(p=>p.id===passage))document.getElementById(passage).scrollIntoView();
-  else window.scrollTo(0,0);
+  else if(!revealSourceTarget($('corpus-content'),chapter,params))window.scrollTo(0,0);
 }
 const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.message)}</p>`;};
 (async()=>{

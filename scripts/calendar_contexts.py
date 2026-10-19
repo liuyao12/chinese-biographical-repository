@@ -11,6 +11,13 @@ def errors(record, root, paragraphs=None):
         ck(record['record_type']=='calendar_context_assertion_set' and record['schema_version']==1,'紀年集型別不符')
         ck(len({r['id'] for r in record['records']})==len(record['records']),'紀年ID重複')
         for r in record['records']:
+            if r.get('basis', {}).get('kind') == 'biographical_regnal_context':
+                try:
+                    from scripts.biography_calendar_context import context_errors
+                except ImportError:
+                    from biography_calendar_context import context_errors
+                es.extend(context_errors(r, root))
+                continue
             s=r['source'];path=Path(root)/s['file']
             ck(not Path(s['file']).is_absolute() and '..' not in Path(s['file']).parts,'來源路徑不得逸出root')
             raw=path.read_bytes();ls=raw.decode().splitlines()

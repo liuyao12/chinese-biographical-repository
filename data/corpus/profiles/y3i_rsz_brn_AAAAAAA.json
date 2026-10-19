@@ -62,12 +62,10 @@
       "title": "韓世家第十五",
       "paragraph_id": "c-shiji-045-han:p009",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "武子二年，伐鄭，殺其君幽公。十六年，武子卒，子景侯立。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-045",
-      "chapter_id": "c-shiji-045-han",
-      "source_id": "s-shiji-045-han",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-045-han:p009",
         "c-shiji-045-han:p010",
@@ -77,7 +75,41 @@
         "c-shiji-045-han:m009-0023",
         "c-shiji-045-han:m010-0000",
         "c-shiji-045-han:m012-0009"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-045-han:m009-0023": "c-shiji-045-han:p009",
+        "c-shiji-045-han:m010-0000": "c-shiji-045-han:p010",
+        "c-shiji-045-han:m012-0009": "c-shiji-045-han:p012"
+      },
+      "mention_id": "c-shiji-045-han:m009-0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-045-han:m009-0023",
+          "mention_ids": [
+            "c-shiji-045-han:m009-0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-045-han:m010-0000",
+          "mention_ids": [
+            "c-shiji-045-han:m010-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-045-han:m012-0009",
+          "mention_ids": [
+            "c-shiji-045-han:m012-0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-045",
+      "chapter_id": "c-shiji-045-han",
+      "source_id": "s-shiji-045-han",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

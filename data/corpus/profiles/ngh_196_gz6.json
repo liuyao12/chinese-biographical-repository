@@ -17,12 +17,10 @@
       "title": "周本紀第四",
       "paragraph_id": "c-shiji-004-zhou:p012",
       "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "武王即位，太公望為師，周公旦為輔，召公、畢公之徒左右王，師修文王緒業。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-004",
-      "chapter_id": "c-shiji-004-zhou",
-      "source_id": "s-shiji-004-zhou",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-004-zhou:p012",
         "c-shiji-004-zhou:p017",
@@ -35,7 +33,57 @@
         "c-shiji-004-zhou:m018-0049",
         "c-shiji-004-zhou:m024-0018",
         "c-shiji-004-zhou:m024-0154"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-004-zhou:m012-0020": "c-shiji-004-zhou:p012",
+        "c-shiji-004-zhou:m017-0044": "c-shiji-004-zhou:p017",
+        "c-shiji-004-zhou:m018-0049": "c-shiji-004-zhou:p018",
+        "c-shiji-004-zhou:m024-0018": "c-shiji-004-zhou:p024",
+        "c-shiji-004-zhou:m024-0154": "c-shiji-004-zhou:p024"
+      },
+      "mention_id": "c-shiji-004-zhou:m012-0020",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m012-0020",
+          "mention_ids": [
+            "c-shiji-004-zhou:m012-0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m017-0044",
+          "mention_ids": [
+            "c-shiji-004-zhou:m017-0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m018-0049",
+          "mention_ids": [
+            "c-shiji-004-zhou:m018-0049"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m024-0018",
+          "mention_ids": [
+            "c-shiji-004-zhou:m024-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m024-0154",
+          "mention_ids": [
+            "c-shiji-004-zhou:m024-0154"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "chapter_id": "c-shiji-004-zhou",
+      "source_id": "s-shiji-004-zhou",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

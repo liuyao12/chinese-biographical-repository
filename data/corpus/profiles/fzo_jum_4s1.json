@@ -147,19 +147,43 @@
       "title": "張馮汲鄭傳第二十",
       "paragraph_id": "c-hanshu-050-zhangfengjizheng:digong:p001",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "先是下邽翟公為廷尉賔客亦塡門及廢門外可設爵羅後復為廷尉客欲往翟公大署其門曰一死一生迺知交情一貧一富迺知交態一貴一賤交情迺見",
-      "work_id": "w-hanshu",
-      "book_id": "b-hanshu-050",
-      "chapter_id": "c-hanshu-050-zhangfengjizheng",
-      "source_id": "s-hanshu-050-zhangfengjizheng",
-      "work_title": "漢書",
       "paragraph_ids": [
         "c-hanshu-050-zhangfengjizheng:digong:p001"
       ],
       "mention_ids": [
         "c-hanshu-050-zhangfengjizheng:digong:m001-0004",
         "c-hanshu-050-zhangfengjizheng:digong:m001-0030"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-050-zhangfengjizheng:digong:m001-0004": "c-hanshu-050-zhangfengjizheng:digong:p001",
+        "c-hanshu-050-zhangfengjizheng:digong:m001-0030": "c-hanshu-050-zhangfengjizheng:digong:p001"
+      },
+      "mention_id": "c-hanshu-050-zhangfengjizheng:digong:m001-0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-050-zhangfengjizheng:digong:m001-0004",
+          "mention_ids": [
+            "c-hanshu-050-zhangfengjizheng:digong:m001-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-050-zhangfengjizheng:digong:m001-0030",
+          "mention_ids": [
+            "c-hanshu-050-zhangfengjizheng:digong:m001-0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-050",
+      "chapter_id": "c-hanshu-050-zhangfengjizheng",
+      "source_id": "s-hanshu-050-zhangfengjizheng",
+      "work_title": "漢書"
     },
     {
       "number": 120,
@@ -167,12 +191,10 @@
       "title": "汲鄭列傳第六十",
       "paragraph_id": "c-shiji-120-jizheng:p020",
       "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "太史公曰：夫以汲、鄭之賢，有勢則賓客十倍，無勢則否，況眾人乎！下邽翟公有言，始翟公為廷尉，賓客闐門；及廢，門外可設雀羅。翟公復為廷尉，賓客欲往，翟公乃人署其門曰：「一死一生，乃知交情。一貧一富，乃知交態。一貴一賤，交情乃見。」汲、鄭亦云，悲夫！",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-120",
-      "chapter_id": "c-shiji-120-jizheng",
-      "source_id": "s-shiji120-jizheng",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-120-jizheng:p020",
         "c-shiji-120-jizheng:p021"
@@ -183,7 +205,57 @@
         "c-shiji-120-jizheng:m020-0060",
         "c-shiji-120-jizheng:m020-0072",
         "c-shiji-120-jizheng:m021-0045"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m020-0033": "c-shiji-120-jizheng:p020",
+        "c-shiji-120-jizheng:m020-0039": "c-shiji-120-jizheng:p020",
+        "c-shiji-120-jizheng:m020-0060": "c-shiji-120-jizheng:p020",
+        "c-shiji-120-jizheng:m020-0072": "c-shiji-120-jizheng:p020",
+        "c-shiji-120-jizheng:m021-0045": "c-shiji-120-jizheng:p021"
+      },
+      "mention_id": "c-shiji-120-jizheng:m020-0033",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m020-0033",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m020-0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m020-0039",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m020-0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m020-0060",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m020-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m020-0072",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m020-0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m021-0045",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m021-0045"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

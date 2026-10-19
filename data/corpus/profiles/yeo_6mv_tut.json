@@ -44,12 +44,10 @@
       "title": "秦本紀第五",
       "paragraph_id": "c-shiji-005-qin:p003",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "其玄孫曰中潏，在西戎，保西垂。生蜚廉。蜚廉生惡來。惡來有力，蜚廉善走，父子俱以材力事殷紂。周武王之伐紂，并殺惡來。是時蜚廉為紂石北方，還，無所報，為壇霍太山而報，得石棺，銘曰「帝令處父不與殷亂，賜爾石棺以華氏」。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-005",
-      "chapter_id": "c-shiji-005-qin",
-      "source_id": "s-shiji-005-qin",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-005-qin:p003",
         "c-shiji-005-qin:p004"
@@ -57,7 +55,33 @@
       "mention_ids": [
         "c-shiji-005-qin:m003-0004",
         "c-shiji-005-qin:m004-0091"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-005-qin:m003-0004": "c-shiji-005-qin:p003",
+        "c-shiji-005-qin:m004-0091": "c-shiji-005-qin:p004"
+      },
+      "mention_id": "c-shiji-005-qin:m003-0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-005-qin:m003-0004",
+          "mention_ids": [
+            "c-shiji-005-qin:m003-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-005-qin:m004-0091",
+          "mention_ids": [
+            "c-shiji-005-qin:m004-0091"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-005",
+      "chapter_id": "c-shiji-005-qin",
+      "source_id": "s-shiji-005-qin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

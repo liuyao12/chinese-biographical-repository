@@ -17,12 +17,10 @@
       "title": "周本紀第四",
       "paragraph_id": "c-shiji-004-zhou:p003",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "。百姓懷之，多徙而保歸焉。周道之興自此始，故詩人歌樂思其德。公劉卒，子慶節立，國於豳。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-004",
-      "chapter_id": "c-shiji-004-zhou",
-      "source_id": "s-shiji-004-zhou",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-004-zhou:p003",
         "c-shiji-004-zhou:p004"
@@ -30,7 +28,33 @@
       "mention_ids": [
         "c-shiji-004-zhou:m003-0139",
         "c-shiji-004-zhou:m004-0000"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-004-zhou:m003-0139": "c-shiji-004-zhou:p003",
+        "c-shiji-004-zhou:m004-0000": "c-shiji-004-zhou:p004"
+      },
+      "mention_id": "c-shiji-004-zhou:m003-0139",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m003-0139",
+          "mention_ids": [
+            "c-shiji-004-zhou:m003-0139"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m004-0000",
+          "mention_ids": [
+            "c-shiji-004-zhou:m004-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "chapter_id": "c-shiji-004-zhou",
+      "source_id": "s-shiji-004-zhou",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

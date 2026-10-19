@@ -63,12 +63,10 @@
       "title": "齊太公世家第二",
       "paragraph_id": "c-shiji-032-qi:p043",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "君。」公曰：「易牙如何？」對曰：「殺子以適君，非人情，不可。」公曰：「開方如何？」對曰：「倍親以適君，非人情，難近。」公曰：「豎刀如何？」對曰：「自宮以適君，非人情，難親。」管仲死，而桓公不用管仲言，卒近用三子，三子專權。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-032",
-      "chapter_id": "c-shiji-032-qi",
-      "source_id": "s-shiji-032-qi",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-032-qi:p043",
         "c-shiji-032-qi:p049"
@@ -76,7 +74,33 @@
       "mention_ids": [
         "c-shiji-032-qi:m043-0090",
         "c-shiji-032-qi:m049-0012"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-032-qi:m043-0090": "c-shiji-032-qi:p043",
+        "c-shiji-032-qi:m049-0012": "c-shiji-032-qi:p049"
+      },
+      "mention_id": "c-shiji-032-qi:m043-0090",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-032-qi:m043-0090",
+          "mention_ids": [
+            "c-shiji-032-qi:m043-0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-032-qi:m049-0012",
+          "mention_ids": [
+            "c-shiji-032-qi:m049-0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-032",
+      "chapter_id": "c-shiji-032-qi",
+      "source_id": "s-shiji-032-qi",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [

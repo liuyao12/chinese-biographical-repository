@@ -10,6 +10,11 @@ CATEGORIES = [(1, 12, 'benji', '本紀'), (13, 22, 'biao', '表'),
               (23, 30, 'shu', '書'), (31, 60, 'shijia', '世家'), (61, 130, 'liezhuan', '列傳')]
 
 
+def reading_counts(chapter):
+    if 'reading_layout' not in chapter: return {}
+    return {'primary_paragraph_count':len(chapter['reading_layout']['primary_paragraph_ids']),'archival_excerpt_count':len(chapter['reading_layout']['archival_excerpts'])}
+
+
 def outputs(root=None):
     root = Path(root) if root is not None else ROOT
     directory = root / 'data/corpus'
@@ -28,7 +33,7 @@ def outputs(root=None):
             public = 'data/corpus/shiji/' + path.name
             result[root / public] = path.read_bytes()
             entry.update({'path': public, 'chapter_id': chapter['id'], 'book_id': chapter['book_id'],
-                          'paragraph_count': len(chapter['paragraphs']),
+                          'paragraph_count': len(chapter['paragraphs']), **reading_counts(chapter),
                           'annotation_status': progress[chapter['book_id']]['person_status'], 'available': 'marked_text'})
         elif number in table_numbers:
             entry.update({'available': 'table', 'table_id': f'shiji-{number:03d}', 'annotation_status': 'structural_import'})
@@ -69,7 +74,7 @@ def outputs(root=None):
                 'work_id':work['id'],'work_title':work['title'],'chapter_id':chapter['id'],
                 'title':chapter['title'],'path':public,'available':'marked_text',
                 'text_scope':chapter['source'].get('text_scope','chapter'),
-                'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']),
+                'scope_note':chapter['source']['extent'],'paragraph_count':len(chapter['paragraphs']), **reading_counts(chapter),
                 'annotation_status':progress[book['id']]['person_status']})
         for item in table_index['tables']:
             table = json.loads((root / item['path']).read_text())

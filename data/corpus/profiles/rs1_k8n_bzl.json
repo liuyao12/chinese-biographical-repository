@@ -60,12 +60,10 @@
       "title": "陳涉世家第十八",
       "paragraph_id": "c-shiji-048-chenshe:p014",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "臘月，陳王之汝陰，還至下城父，其御莊賈殺以降秦。陳勝葬碭，謚曰隱王。",
-      "work_id": "w-shiji",
-      "book_id": "b-shiji-048",
-      "chapter_id": "c-shiji-048-chenshe",
-      "source_id": "s-shiji-048-chenshe",
-      "work_title": "史記",
       "paragraph_ids": [
         "c-shiji-048-chenshe:p014",
         "c-shiji-048-chenshe:p015"
@@ -73,7 +71,33 @@
       "mention_ids": [
         "c-shiji-048-chenshe:m014-0017",
         "c-shiji-048-chenshe:m015-0024"
-      ]
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-048-chenshe:m014-0017": "c-shiji-048-chenshe:p014",
+        "c-shiji-048-chenshe:m015-0024": "c-shiji-048-chenshe:p015"
+      },
+      "mention_id": "c-shiji-048-chenshe:m014-0017",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-048-chenshe:m014-0017",
+          "mention_ids": [
+            "c-shiji-048-chenshe:m014-0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-048-chenshe:m015-0024",
+          "mention_ids": [
+            "c-shiji-048-chenshe:m015-0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-048",
+      "chapter_id": "c-shiji-048-chenshe",
+      "source_id": "s-shiji-048-chenshe",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
