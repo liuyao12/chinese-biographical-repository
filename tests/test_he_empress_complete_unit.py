@@ -40,6 +40,18 @@ class HeEmpressCompleteUnitTests(unittest.TestCase):
         registry = json.loads((ROOT / 'registry/persons.json').read_text())['persons']
         self.assertFalse(any(p['id'] == 'l65_l8v_5ku' for p in registry))
 
+    def test_two_officials_use_native_identity_evidence_and_keep_original_anchors(self):
+        chapter = json.loads((ROOT / 'corpus/jinshu/032-he-empress.json').read_text())
+        mentions = {m['surface']: m for m in chapter['paragraphs'][0]['mentions']}
+        for surface, pid, mid in [('彪之', '7r6_k52_qji_ABDBB', 'c-jinshu-032-he-empress:line053:m0099'),
+                                  ('洽', '7r6_k52_qji_ABAAA', 'c-jinshu-032-he-empress:line053:m0207')]:
+            self.assertEqual(mentions[surface]['kind'], 'person')
+            self.assertEqual((mentions[surface]['person_id'], mentions[surface]['id']), (pid, mid))
+        decisions = json.loads((ROOT / 'corpus/jinshu/032-he-empress-identities.json').read_text())['decisions']
+        self.assertEqual(len(decisions), 2)
+        self.assertEqual({d['references'][0]['book_id'] for d in decisions}, {'b-jinshu-065', 'b-jinshu-076'})
+        self.assertEqual(mentions['綜']['kind'], 'unresolved')
+
     def test_existing_jin32_selection_is_preserved(self):
         earlier = json.loads((ROOT / 'corpus/jinshu/032.json').read_text())
         self.assertEqual(earlier['id'], 'c-jinshu-032-zheng-achun-family')

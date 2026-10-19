@@ -8,8 +8,8 @@ def current_office_death_valid(holding, paragraphs, mentions):
             or basis.get('kind') != 'died_in_last_named_office'
             or holding.get('kind') != 'office'
             or not isinstance(title, str) or not title
-            or not isinstance(date, str) or not date
-            or basis.get('source_term') != title + '。' + date + '，卒官'
+            or not (date is None or isinstance(date, str) and bool(date))
+            or basis.get('source_term') != title + '。' + (date + '，' if date else '') + '卒官'
             or end.get('status') != 'source_event' or end.get('event_type') != 'explicit_end'
             or not basis.get('evidence') or basis['evidence'] != end.get('evidence')
             or basis['evidence'] != holding.get('evidence')):

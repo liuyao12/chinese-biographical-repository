@@ -323,6 +323,25 @@ class CorpusTests(unittest.TestCase):
     def test_source_age_rejects_wrong_number(self):
         self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(value=19))
         self.assertIn('來源年齡數值與原詞不符', v.validate(self.root))
+    def test_chu_age_report_keeps_strict_open_lower_bound(self):
+        def mutate(d):
+            age = next(a for a in d['annotation']['age_assertions'] if a['id'] == 'age-jin076-xiaowu-over-ten')
+            age['bounds']['lower_inclusive'] = True
+        self.change('corpus/jinshu/076-wangbiaozhi.json', mutate)
+        self.assertIn('直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組', v.validate(self.root))
+    def test_chu_age_report_cannot_claim_exact_age(self):
+        def mutate(d):
+            age = next(a for a in d['annotation']['age_assertions'] if a['id'] == 'age-jin076-xiaowu-over-ten')
+            age['value'] = 11
+        self.change('corpus/jinshu/076-wangbiaozhi.json', mutate)
+        self.assertIn('直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組', v.validate(self.root))
+    def test_lifetime_age_cannot_be_exported_as_death_age(self):
+        def mutate(d):
+            ages = d['annotation']['age_assertions']
+            first = next(a for a in ages if a['value'] == 20)
+            first['age_context'] = next(a for a in ages if a['value'] == 73)['age_context']
+        self.change('corpus/jinshu/076-wangbiaozhi.json', mutate)
+        self.assertIn('報齡時點須區分生前與同人同段死亡事件，不得把生前年齡充享年', v.validate(self.root))
     def test_source_age_cannot_infer_birth_year(self):
         self.change('corpus/shiji/111.json', lambda d: d['annotation']['age_assertions'][0].update(birth_year=-139))
         self.assertIn('來源年齡不得推定計歲方式或出生年', v.validate(self.root))

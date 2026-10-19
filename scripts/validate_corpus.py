@@ -864,7 +864,13 @@ def validate(root=ROOT):
                     check(valid, '承爵判讀缺少相符的前任爵位、父子或原詞證據')
                     if valid:
                         for e in inheritance['evidence']:title_evidence(e)
-                if h['mode']=='transfer' or 'transfer_basis' in h:
+                if h['mode'] == 'transfer' and h['kind'] == 'office':
+                    try:
+                        from scripts.office_transfers import office_transfer_valid
+                    except ImportError:
+                        from office_transfers import office_transfer_valid
+                    check(office_transfer_valid(h, paragraphs, mentions), '官職轉任須有同人原詞、逐職錨點及相符任用證據，不作王爵徙封')
+                if (h['mode']=='transfer' and h['kind'] != 'office') or 'transfer_basis' in h:
                     if h['kind'] == 'noble_rank':
                         try:
                             from scripts.noble_transfers import noble_transfer_errors
@@ -1528,7 +1534,7 @@ def validate(root=ROOT):
                     elif age.get('reporting_status') == 'direct_report':
                         check(age.get('value') is None and parsed is not None
                               and bounds == {'lower': parsed, 'lower_inclusive': False, 'upper': None, 'upper_inclusive': None}
-                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲', '年' + str(number) + '餘')
+                              and age.get('source_term') in (str(number) + '餘歲', str(number) + '有餘歲', '年' + str(number) + '餘', '年出' + str(number) + '歲', '年出' + str(number) + '歳')
                               and age.get('source_qualification') is None and not age.get('report_group_id'),
                               '直接報齡餘歲須保存開放下界及原詞，不得補限定詞或傳聞分組')
                     else:
@@ -1868,6 +1874,14 @@ def validate(root=ROOT):
             from life_event_dates import date_decision_errors, date_record_scope_errors
         dated_events = {e['id']: e for path in (root / 'corpus').glob('*/*-life-events.json')
                         for e in json.loads(path.read_text())['events']}
+        try:
+            from scripts.age_context import age_context_valid
+        except ImportError:
+            from age_context import age_context_valid
+        for chapter in chapters.values():
+            for age in chapter['annotation'].get('age_assertions', []):
+                if 'age_context' in age:
+                    check(age_context_valid(age, dated_events), '報齡時點須區分生前與同人同段死亡事件，不得把生前年齡充享年')
         date_equivalences = [e for path in (root / 'corpus').glob('*/*-equivalences.json')
                              for e in json.loads(path.read_text())['decisions']]
         date_decision_ids = set(); date_candidate_scopes = set()
