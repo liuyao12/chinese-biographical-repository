@@ -8,8 +8,91 @@
   "names": [
     "玄之"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "id": "th-yu2-j088-74-41a_690_7ba_AA",
+      "person_id": "41a_690_7ba_AA",
+      "title": "宣城內史",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line088",
+          "quote": "統字長仁，少有令名，司空、太尉辟，皆不就。調補撫軍、會稽王司馬，出為建威將軍、甯夷護軍、尋陽太守。年二十九，卒，時人稱其才器，甚痛惜之。子玄之，官至宣城內史。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line088:m0069"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-j088-74-41a_690_7ba_AA:a001",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line088",
+          "start": 74,
+          "end": 78,
+          "surface": "宣城內史",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line088:m0069",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-yu2-j88-74-41a_690_7ba_AA-service_location",
+      "person_id": "41a_690_7ba_AA",
+      "relation": "service_location",
+      "place": {
+        "source_name": "宣城",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "宣城內史",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line088",
+          "quote": "統字長仁，少有令名，司空、太尉辟，皆不就。調補撫軍、會稽王司馬，出為建威將軍、甯夷護軍、尋陽太守。年二十九，卒，時人稱其才器，甚痛惜之。子玄之，官至宣城內史。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line088:m0069"
+        }
+      ],
+      "interpretation_note": "原職稱明載轄地；只作任事關聯地，不推實際到任、居地、出生地或現代行政區。若本筆僅任命而未明到任，並不據此斷言已赴。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "qualifiers": {
+        "source_position": "宣城內史"
+      },
+      "term": "宣城內史",
+      "quote": "統字長仁，少有令名，司空、太尉辟，皆不就。調補撫軍、會稽王司馬，出為建威將軍、甯夷護軍、尋陽太守。年二十九，卒，時人稱其才器，甚痛惜之。子玄之，官至宣城內史。"
+    }
+  ],
   "occurrences": [
     {
       "number": 73,
@@ -297,7 +380,38 @@
     "41a_690_7ba_AA": "庾玄之"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "41a_690_7ba_AA",
+      "title": null,
+      "surname": "庾",
+      "ming": "玄之",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line088",
+      "quote": "統字長仁，少有令名，司空、太尉辟，皆不就。調補撫軍、會稽王司馬，出為建威將軍、甯夷護軍、尋陽太守。年二十九，卒，時人稱其才器，甚痛惜之。子玄之，官至宣城內史。",
+      "note": "同一完整庾氏傳文與已存近親辨識的省名承姓；冰段原稱庾氏之寶、登之傳首全稱庾登之提供家族語境。這是編輯拆分，非每段都明寫庾姓；不由承姓增補生父、同母或未見名字。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line092",
+          "quote": "冰字季堅。兄亮以名德流訓，冰以雅素垂風，諸弟相率莫不好禮，為世論所重，亮常以為庾氏之寶。司徒辟，不就，征秘書郎。預討華軼功，封都鄉侯。王導請為司徒右長史，出補吳國內史。",
+          "scope": "editorial_surname_from_biographical_family_context",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=2296501",
+          "image_verified": false
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "41a_690_7ba_AA"
   ],

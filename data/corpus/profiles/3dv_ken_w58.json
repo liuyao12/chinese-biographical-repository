@@ -13,7 +13,104 @@
     "髙祖",
     "劉裕"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-yu2-s045-30-3dv_ken_w58",
+      "person_id": "3dv_ken_w58",
+      "title": "鎮軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "chapter_id": "c-songshu-053-yu-dengzhi",
+          "source_id": "s-songshu-053-yu-dengzhi",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line045",
+          "quote": "登之少以強濟自立。初為晉會稽王道子太傅參軍。義旗初，又為高祖鎮軍參軍。以預討桓玄功，封曲江縣五等男。參大司馬琅邪王軍事，豫州別駕從事史，大司馬主簿，司徒左西曹屬。登之雖不涉學，善於世事，王弘、謝晦、江夷之徒，皆相知友。轉太尉主簿。義熙十二年，高祖北伐，登之擊節驅馳，退告劉穆之，以母老求郡。于時士庶咸憚遠役，而登之二三其心，高祖大怒，除吏名。大軍發後，乃以補鎮蠻護軍、西陽太守。入為太子庶子，尚書左丞。出為新安太守。",
+          "person_mention_id": "c-songshu-053-yu-dengzhi:line045:m0028"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-s045-30-3dv_ken_w58:a001",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line045",
+          "start": 30,
+          "end": 32,
+          "surface": "鎮軍",
+          "person_mention_id": "c-songshu-053-yu-dengzhi:line045:m0028",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-yu2-s045-28-3dv_ken_w58",
+      "person_id": "3dv_ken_w58",
+      "title": "高祖",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-053",
+          "chapter_id": "c-songshu-053-yu-dengzhi",
+          "source_id": "s-songshu-053-yu-dengzhi",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line045",
+          "quote": "登之少以強濟自立。初為晉會稽王道子太傅參軍。義旗初，又為高祖鎮軍參軍。以預討桓玄功，封曲江縣五等男。參大司馬琅邪王軍事，豫州別駕從事史，大司馬主簿，司徒左西曹屬。登之雖不涉學，善於世事，王弘、謝晦、江夷之徒，皆相知友。轉太尉主簿。義熙十二年，高祖北伐，登之擊節驅馳，退告劉穆之，以母老求郡。于時士庶咸憚遠役，而登之二三其心，高祖大怒，除吏名。大軍發後，乃以補鎮蠻護軍、西陽太守。入為太子庶子，尚書左丞。出為新安太守。",
+          "person_mention_id": "c-songshu-053-yu-dengzhi:line045:m0028"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-s045-28-3dv_ken_w58:a001",
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line045",
+          "start": 28,
+          "end": 30,
+          "surface": "高祖",
+          "person_mention_id": "c-songshu-053-yu-dengzhi:line045:m0028",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1479,6 +1576,17 @@
               "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
               "kind": "blank_line",
               "not_received_text": true
+            }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
             }
           ]
         },

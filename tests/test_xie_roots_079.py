@@ -114,12 +114,14 @@ class XieRoots079(unittest.TestCase):
         self.assertTrue(any(m['surface'] == '支遁' for m in p['mentions']))
 
     def test_death_is_father_ju_and_terminal_office_is_not_a_death_date(self):
-        events = read('corpus/jinshu/079-life-events.json')['events']
+        all_events = read('corpus/jinshu/079-life-events.json')['events']
+        events = [event for event in all_events
+                  if event['id'] == 'le-jinshu079-xieju-death']
         self.assertEqual(len(events), 1)
         self.assertEqual(events[0]['person_id'], self.people['謝據'])
         self.assertIsNone(events[0]['date_expression'])
         self.assertNotIn('normalized_date', events[0])
-        self.assertFalse(any(a['person_id'] == self.people['謝朗'] for a in events))
+        self.assertFalse(any(a['person_id'] == self.people['謝朗'] for a in all_events))
         title = next(h for h in read('corpus/jinshu/079-titles.json')['holdings'] if h['person_id'] == self.people['謝朗'])
         self.assertEqual(title['title'], '東陽太守')
         self.assertEqual(title['effective_period']['end']['status'], 'unknown')

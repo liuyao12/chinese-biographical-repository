@@ -1208,6 +1208,17 @@
           "kind": "blank_line",
           "not_received_text": true
         }
+      ],
+      "verified_blank_line_gaps": [
+        {
+          "source_lines": [
+            24,
+            24
+          ],
+          "raw_quote": "",
+          "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "revision_id": 2645530
+        }
       ]
     },
     "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1219,7 +1230,396 @@
     "human_reviewed": false,
     "model": null,
     "reviewer": "Codex（AI 代理）",
-    "completion_note": "兩完整傳文單元之首輪與續核；非專名代詞、匿名群體、影像及身份候選未完成，不宣稱全族完成。"
+    "completion_note": "兩完整傳文單元之首輪與續核；非專名代詞、匿名群體、影像及身份候選未完成，不宣稱全族完成。",
+    "age_assertions": [
+      {
+        "id": "age-taiyuan2-075-15-37",
+        "person_id": "a8f_ec8_e74_AA",
+        "value": 47,
+        "source_number": "四十七",
+        "source_term": "年四十七",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line015",
+            "quote": "湛少仕歷秦王文學、太子洗馬、尚書郎、太子中庶子，出為汝南內史。元康五年卒，年四十七。子承嗣。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line015:m0000"
+          }
+        ],
+        "interpretation_note": "來源報齡獨立保存；原文未明計歲法，不倒推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-taiyuan2-075-15-1"
+        }
+      },
+      {
+        "id": "age-taiyuan2-075-20-144",
+        "person_id": "a8f_ec8_e74_AAA",
+        "value": 46,
+        "source_number": "四十六",
+        "source_term": "年四十六",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line020",
+            "quote": "尋去官，東渡江。是時道路梗澀，人懷危懼，承每遇艱險，處之夷然，雖家人近習，不見其憂喜之色。既至下邳，登山北望，歎曰：「人言愁，我始欲愁矣。」及至建鄴，為元帝鎮東府從事中郎，甚見優禮。承少有重譽，而推誠接物，盡弘恕之理，故眾咸親愛焉。渡江名臣王導、衛玠、周顗、庾亮之徒皆出其下，為中興第一。年四十六卒，朝野痛惜之。自昶至承，世有高名，論者以為祖不及孫，孫不及父。子述嗣。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line020:m0020"
+          }
+        ],
+        "interpretation_note": "來源報齡獨立保存；原文未明計歲法，不倒推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-taiyuan2-075-20-2"
+        }
+      },
+      {
+        "id": "age-taiyuan2-075-37-192",
+        "person_id": "a8f_ec8_e74_AAAA",
+        "value": 66,
+        "source_number": "六十六",
+        "source_term": "年六十六",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line037",
+            "quote": "太和二年，以年迫懸車，上疏乞骸骨，曰：「臣曾祖父魏司空昶白箋于文皇帝曰：'昔與南陽宗世林共為東宮官屬。世林少得好名，州裏瞻敬。及其年老，汲汲自勵，恐見廢棄，時人咸共笑之。若天假其壽，致仕之年，不為此公婆娑之事。'情旨慷慨，深所鄙薄。雖是箋書，乃實訓誡。臣忝端右，而以疾患，禮敬廢替。猶謂可有差理，日復一日，而年衰疾痼，永無復瞻華幄之期。乞奉先誡，歸老丘園。」不許。述竟不起。三年卒，時年六十六。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line037:m0020"
+          }
+        ],
+        "interpretation_note": "來源報齡獨立保存；原文未明計歲法，不倒推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-taiyuan2-075-37-3"
+        }
+      },
+      {
+        "id": "age-taiyuan2-075-23-52",
+        "person_id": "a8f_ec8_e74_AAAA",
+        "value": 30,
+        "source_number": "三十",
+        "source_term": "年三十",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line023",
+            "quote": "述字懷祖。少孤，事母以孝聞。安貧守約，不求聞達。性沈靜，每坐客馳辨，異端競起，而述處之恬如也。少襲父爵。年三十，尚未知名，人或謂之癡。司徒王導以門地辟為中兵屬。既見，無他言，惟問以江東米價。述但張目不答。導曰：「王掾不癡，人何言癡也？」嘗見導每發言，一坐莫不讚美，述正色曰：「人非堯舜，何得每事盡善！」導改容謝之，庾亮曰：「懷祖清貞簡貴，不減祖、父，但曠淡微不及耳。」",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line023:m0000"
+          }
+        ],
+        "interpretation_note": "來源報齡獨立保存；原文未明計歲法，不倒推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "during_life"
+        }
+      },
+      {
+        "id": "age-taiyuan2-075-76-79",
+        "person_id": "a8f_ec8_e74_AAAAA",
+        "value": 46,
+        "source_number": "四十六",
+        "source_term": "年四十六",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line076",
+            "quote": "初，坦之與沙門竺法師甚厚，每共論幽明報應。便要先死者當報其事。後經年，師忽來云：「貧道已死，罪福皆不虛。惟當勤修道德，以升濟神明耳。」言訖不見。坦之尋亦卒，時年四十六。臨終，與謝安、桓沖書，言不及私，惟憂國家之事，朝野甚痛惜之。追贈安北將軍，諡曰獻。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line076:m0002"
+          }
+        ],
+        "interpretation_note": "來源報齡獨立保存；原文未明計歲法，不倒推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-taiyuan2-075-76-4"
+        }
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-taiyuan2-075-18-105",
+        "person_id": "a8f_ec8_e74_AAA",
+        "title": "尚書郎",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line018",
+          "start": 105,
+          "end": 108,
+          "surface": "尚書郎"
+        },
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line018:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line018",
+          "start": 104,
+          "end": 105,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line018",
+          "start": 109,
+          "end": 111,
+          "surface": "不就"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line018",
+            "quote": "承字安期。清虛寡欲，無所修尚。言理辯物，但明其指要而不飾文辭，有識者服其約而能通。弱冠知名。太尉王衍雅貴異之，比南陽樂廣焉。永寧初，為驃騎參軍。值天下將亂，乃避難南下。遷司空從事中郎。豫迎大駕，賜爵藍田縣侯。遷尚書郎，不就。東海王越鎮許，以為記室參軍。雅相知重，敕其子毗曰：「夫學之所益者淺，體之所安者深。閑習禮度，不如式瞻儀形；諷味遺言，不若親承音旨。王參軍人倫之表，汝其師之。」在府數年，見朝政漸替，辭以母老，求出。越不許。久之，遷東海太守，政尚清淨，不為細察。小吏有盜池不魚者，綱紀推之，承曰：「文王之囿與眾共之，池魚復何足惜耶！」有犯夜者，為吏所拘，承問其故，答曰：「從師受書，不覺日暮。」承曰：「鞭撻寧越以立威名，非政化之本。」使吏送，令歸家。其從容寬恕若此。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line018:m0000"
+          }
+        ],
+        "interpretation_note": "明示任用後未受／未赴；只存原詞，不列入實任任期，原因、主動固辭與道路不行分開。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-taiyuan2-075-25-29",
+        "person_id": "a8f_ec8_e74_AAAA",
+        "title": "尚書吏部郎",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line025",
+          "start": 29,
+          "end": 34,
+          "surface": "尚書吏部郎"
+        },
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line023:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line025",
+          "start": 27,
+          "end": 29,
+          "surface": "又除"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line025",
+          "start": 35,
+          "end": 38,
+          "surface": "並不行"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line025",
+            "quote": "康帝為驃騎將軍，召補功曹，出為宛陵令。太尉、司空頻辟，又除尚書吏部郎，並不行。曆庾冰征虜長史。時庾翼鎮武昌，以累有妖怪，又猛獸入府，欲移鎮避之。述與冰箋曰：",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line023:m0000",
+            "context": {
+              "kind": "prior_paragraph_subject",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line023",
+              "person_mention_id": "c-jinshu-075-taiyuan-wang:line023:m0000",
+              "quote": "述字懷祖。少孤，事母以孝聞。安貧守約，不求聞達。性沈靜，每坐客馳辨，異端競起，而述處之恬如也。少襲父爵。年三十，尚未知名，人或謂之癡。司徒王導以門地辟為中兵屬。既見，無他言，惟問以江東米價。述但張目不答。導曰：「王掾不癡，人何言癡也？」嘗見導每發言，一坐莫不讚美，述正色曰：「人非堯舜，何得每事盡善！」導改容謝之，庾亮曰：「懷祖清貞簡貴，不減祖、父，但曠淡微不及耳。」",
+              "intervening_paragraph_ids": []
+            }
+          }
+        ],
+        "interpretation_note": "明示任用後未受／未赴；只存原詞，不列入實任任期，原因、主動固辭與道路不行分開。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-taiyuan2-075-33-93",
+        "person_id": "a8f_ec8_e74_AAAA",
+        "title": "中書監",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "declined",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line033",
+          "start": 93,
+          "end": 96,
+          "surface": "中書監"
+        },
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line033:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line033",
+          "start": 91,
+          "end": 93,
+          "surface": "尋加"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line033",
+          "start": 97,
+          "end": 99,
+          "surface": "固讓"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line033",
+            "quote": "述出補臨海太守，遷建威將軍、會稽內史。蒞政清肅，終日無事。母憂去職。服闋，代殷浩為揚州刺史，加征虜將軍。初至，主簿請諱。報曰：「亡祖先君，名播海內，遠近所知；內諱不出門，餘無所諱。」尋加中書監，固讓，經年不拜。復加征虜將軍，進都督揚州徐州之琅邪諸軍事、衛將軍、並冀幽平四州大中正，刺史如故。尋遷散騎常侍、尚書令，將軍如故。述每受職，不為虛讓，其有所辭，必於不受。至是，子坦之諫，以為故事應讓。述曰：「汝謂我不堪邪？」坦之曰：「非也。但克讓自美事耳。」述曰：「既云堪，何為復讓！人言汝勝我，定不及也。」坦之為桓溫長史。溫欲為子求婚於坦之。及還家省父，而述愛坦之。雖長大，猶抱置膝上。坦之因言溫意。述大怒，遽排下，曰：「汝竟癡邪！詎可畏溫面而以女妻兵也。」坦之乃辭以他故。溫曰：「此尊君不肯耳。」遂止。簡文帝每言述才既不長，直以真率便敵人耳。謝安亦歎美之。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line033:m0000"
+          }
+        ],
+        "interpretation_note": "明示任用後未受／未赴；只存原詞，不列入實任任期，原因、主動固辭與道路不行分開。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-taiyuan2-075-115-195",
+        "person_id": "8e8_ca8_29d_A",
+        "title": "太子中舍人",
+        "proposal_kind": "unassumed_appointment",
+        "outcome": "not_assumed",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "status": "contextual_provisional",
+        "role_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "start": 195,
+          "end": 200,
+          "surface": "太子中舍人"
+        },
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line115:m0000",
+        "appointment_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "start": 194,
+          "end": 195,
+          "surface": "遷"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "start": 202,
+          "end": 204,
+          "surface": "不拜"
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+            "quote": "嶠字開山。祖默，魏尚書。父佑，以才智稱，為楊駿腹心。駿之排汝南王亮，退衛瓘，皆佑之謀也。位至北軍中候。嶠少有風尚，並、司二州交辟，不就。永嘉末，攜其二弟避亂渡江。時元帝鎮建鄴，教曰：「王佑三息始至，名德之胄，並有操行，宜蒙飾敘。且可給錢三十萬，帛三百匹，米五十斛，親兵二十人。」尋以嶠參世子東中郎軍事。不就。湣帝徵拜著作郎，右丞相南陽王保辟，皆以道險不行。元帝作相，以為水曹屬，除長山令，遷太子中舍人以疾不拜。王敦請為參軍，爵九原縣公。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line115:m0000"
+          }
+        ],
+        "interpretation_note": "明示任用後未受／未赴；只存原詞，不列入實任任期，原因、主動固辭與道路不行分開。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-taiyuan2-unenacted-075-59",
+        "person_id": "a8f_ec8_e74_AAAAA",
+        "title": "尚書郎",
+        "outcome": "not_enacted",
+        "status": "contextual_provisional",
+        "role_mention_id": "c-jinshu-075-taiyuan-wang:line042:phase2-role-0059",
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line042:m0000",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line042",
+            "quote": "坦之字文度。弱冠與郗超俱有重名，時人為之語曰：「盛德絕倫郗嘉賓，江東獨步王文度。」嘉賓，超小字也。僕射江虨領選，將擬為尚書郎。坦之聞曰：「自過江來，尚書郎正用第二人，何得以此見擬！」虨遂止。簡文帝為撫軍將軍，辟為掾。累遷參軍、從事中郎，仍為司馬，加散騎常侍。出為大司馬桓溫長史。尋以父憂去職，服闋。徵拜侍中，襲父爵。時卒士韓悵逃之歸首，云「失牛故叛。」有司劾悵偷牛，考掠服罪。坦之以為悵束身自歸，而法外加罪，懈怠失牛，事或可恕，加之木石，理有自誣，宜附罪疑從輕之例，遂以見原。海西公廢，領左衛將軍。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line042:m0000"
+          }
+        ],
+        "interpretation_note": "原文僅將擬，後虨遂止；不是已授或辭後實任。 原文只記擬議或轉求別官，不列實任。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      {
+        "id": "tp-taiyuan2-unenacted-075-197",
+        "person_id": "8e8_ca8_29d_A",
+        "title": "丹陽尹",
+        "outcome": "not_enacted",
+        "status": "contextual_provisional",
+        "role_mention_id": "c-jinshu-075-taiyuan-wang:line117:phase2-role-0197",
+        "person_mention_id": "c-jinshu-075-taiyuan-wang:line117:m0034",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line117",
+            "quote": "敦在石頭，欲禁私伐蔡洲荻，以問群下。時王師新敗，士庶震懼，莫敢異議。嶠獨曰：「中原有菽，庶人采之。百姓不足，君孰與足！若禁人樵伐，未知其可。」敦不悅。敦將殺周顗、戴若思，嶠於坐諫曰：「濟濟多士，交王以寧。安可戮諸名士，以自全生！」敦大怒，欲斬嶠，賴謝鯤以免。敦猶銜之，出為領軍長史。敦平後，除中書侍郎，兼大著作，固辭。轉越騎校尉，頻遷吏部郎、御史中丞、秘書監，領本州大中正。咸和初，朝議欲以嶠為丹陽尹。嶠以京尹望重，不宜以疾居之，求補廬陵郡，乃拜嶠廬陵太守。以嶠家貧，無以上道，賜布百匹。錢十萬。尋卒官，諡曰穆。子淡嗣，歷位右衛將軍、侍中、中護軍、尚書、廣州刺史。淡子度世，驍騎將軍。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line117:m0034"
+          }
+        ],
+        "interpretation_note": "朝議欲以，隨後求補廬陵；本句是未實行安排，不當持職。 原文只記擬議或轉求別官，不列實任。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {
@@ -1828,7 +2228,7 @@
           "end": 116,
           "surface": "東海王越",
           "kind": "person",
-          "person_id": "169_279_d9c",
+          "person_id": "9o2_vhv_r7y",
           "status": "contextual_provisional",
           "resolution_note": "逐段核讀本名、短稱、官爵或引語上下文。"
         },
@@ -1868,7 +2268,7 @@
           "end": 211,
           "surface": "越",
           "kind": "person",
-          "person_id": "169_279_d9c",
+          "person_id": "9o2_vhv_r7y",
           "status": "contextual_provisional",
           "resolution_note": "逐段核讀本名、短稱、官爵或引語上下文。"
         },
@@ -2946,6 +3346,16 @@
           "person_id": "eb9_035_485",
           "status": "contextual_provisional",
           "resolution_note": "逐段核讀本名、短稱、官爵或引語上下文。"
+        },
+        {
+          "id": "c-jinshu-075-taiyuan-wang:line042:phase2-role-0059",
+          "start": 59,
+          "end": 62,
+          "surface": "尚書郎",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "未實行官職安排的原職稱，不作人物身份。"
         },
         {
           "id": "c-jinshu-075-taiyuan-wang:line042:m0063",
@@ -6933,6 +7343,16 @@
           "kind": "person",
           "person_id": "8e8_ca8_29d_A",
           "status": "contextual_provisional"
+        },
+        {
+          "id": "c-jinshu-075-taiyuan-wang:line117:phase2-role-0197",
+          "start": 197,
+          "end": 200,
+          "surface": "丹陽尹",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "note": "未實行官職安排的原職稱，不作人物身份。"
         },
         {
           "id": "c-jinshu-075-taiyuan-wang:line117:m0201",

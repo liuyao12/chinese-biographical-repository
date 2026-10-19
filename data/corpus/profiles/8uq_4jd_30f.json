@@ -64,6 +64,54 @@
       "human_reviewed": false,
       "model": null,
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jinshu079-phase2-071",
+      "person_id": "8uq_4jd_30f",
+      "title": "大司馬",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p004",
+          "quote": "大司馬桓溫欲有事中原，使尚率眾向壽春，進號安西將軍。初，苻健將張遇降尚，尚不能綏懷之。遇怒，據許昌叛。尚討之，為遇所敗，收付廷尉。時康獻皇后臨朝，即尚之甥也，特令降號為建威將軍。初，尚之行也，使建武將軍、濮陽太守戴施據枋頭。會冉閔之子智與其大將蔣幹來附，復遣行人劉猗詣尚請救。施止猗，求傳國璽，猗歸，以告幹。幹謂尚已敗，慮不能救己，猶豫不許。施遣參軍何融率壯士百入鄴，登三台助戍，譎之曰：「今且可出璽付我。凶寇在外，道路梗澀，亦未敢送璽，當遣單使馳白。天子聞璽已在吾許，知卿等至誠，必遣重軍相救，並厚相餉。」幹乃出璽付融，融齎璽馳還枋頭。尚遣振武將軍胡彬率騎三百迎璽致諸京師。時苻健將楊平戍許昌，尚遣兵襲破之，征授給事中，賜軺車、鼓吹，戍石頭。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0003"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jinshu079-phase2-071:a001",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p004",
+          "start": 0,
+          "end": 3,
+          "surface": "大司馬",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p004:m0003",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明文記官爵；起訖年份未載，不以卒年結束所有官爵，不把地域官名當籍貫。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -1828,6 +1876,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -2943,7 +3002,18 @@
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null,
-      "note": "姓名與稱號分存；原文原字保留，未載任官年份不補。 同段桓温及溫、温辨同一人；姓名欄取溫，逐字正文不改。"
+      "note": "姓名與稱號分存；原文原字保留，未載任官年份不補。 同段桓温及溫、温辨同一人；姓名欄取溫，逐字正文不改。",
+      "references": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+          "quote": "希字始彥。初拜秘書郎，累遷司徒右長史、黃門侍郎、建安太守，未拜，復為長史兼右衛將軍，遷侍中，出為輔國將軍、吳國內史。希既後之戚屬，冰女又為海西公妃，故希兄弟並顯貴。太和中，希為北中郎將、徐兗二州刺史，蘊為廣州刺史，並假節，友東陽太守，倩太宰長史，邈會稽王參軍，柔散騎常侍。倩最有才器，桓溫深忌之。",
+          "scope": "additional_source_name_attestation"
+        }
+      ]
     }
   ],
   "person_ids": [

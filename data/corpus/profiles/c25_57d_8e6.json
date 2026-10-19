@@ -8,7 +8,133 @@
   "names": [
     "禕之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-075-78-17-44",
+      "person_id": "c25_57d_8e6",
+      "title": "中書侍郎",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-78-17-44",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "start": 17,
+          "end": 21,
+          "surface": "中書侍郎",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-taiyuan2-075-78-30-108",
+      "person_id": "c25_57d_8e6",
+      "title": "散騎常侍",
+      "kind": "office",
+      "mode": "posthumous_grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-78-30-108",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "start": 30,
+          "end": 34,
+          "surface": "散騎常侍",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+              "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+              "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "posthumous_basis": {
+        "kind": "death_then_explicit_gift",
+        "source_term": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+        "death_term": "卒",
+        "grant_term": "贈散騎常侍",
+        "recipient_person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-075",
+            "chapter_id": "c-jinshu-075-taiyuan-wang",
+            "source_id": "s-jinshu-075-taiyuan-wang",
+            "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+            "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+            "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1240,6 +1366,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1252,13 +1389,70 @@
     "c25_57d_8e6": "王禕之"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "c25_57d_8e6",
+      "title": null,
+      "surname": "王",
+      "ming": "禕之",
+      "zi": "文邵",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+      "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+      "note": "名與字依本傳明載字某及已核人物身份分存；王姓承已核定明載父系／傳主身份，不按同姓另行合併。未將字作名，不推生卒或授爵日期。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_anchors": {
+        "ming": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "start": 0,
+          "end": 2,
+          "surface": "禕之"
+        },
+        "zi": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "start": 3,
+          "end": 5,
+          "surface": "文邵"
+        }
+      }
+    }
+  ],
   "person_ids": [
     "c25_57d_8e6"
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-075-78-5",
+      "person_id": "c25_57d_8e6",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "卒",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line078",
+          "quote": "禕之字文邵。少知名，尚尋陽公主，歷中書侍郎。年未三十而卒，贈散騎常侍。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line078:m0000"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

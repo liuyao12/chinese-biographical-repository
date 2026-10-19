@@ -9,7 +9,56 @@
     "佑",
     "王佑"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-075-115-46-84",
+      "person_id": "8e8_ca8_29d",
+      "title": "北軍中候",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "quote": "嶠字開山。祖默，魏尚書。父佑，以才智稱，為楊駿腹心。駿之排汝南王亮，退衛瓘，皆佑之謀也。位至北軍中候。嶠少有風尚，並、司二州交辟，不就。永嘉末，攜其二弟避亂渡江。時元帝鎮建鄴，教曰：「王佑三息始至，名德之胄，並有操行，宜蒙飾敘。且可給錢三十萬，帛三百匹，米五十斛，親兵二十人。」尋以嶠參世子東中郎軍事。不就。湣帝徵拜著作郎，右丞相南陽王保辟，皆以道險不行。元帝作相，以為水曹屬，除長山令，遷太子中舍人以疾不拜。王敦請為參軍，爵九原縣公。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line115:m0013"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-115-46-84",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "start": 46,
+          "end": 50,
+          "surface": "北軍中候",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line115:m0013",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1243,6 +1292,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1284,7 +1344,33 @@
     "8e8_ca8_29d_A": "王嶠"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "8e8_ca8_29d",
+      "title": null,
+      "surname": "王",
+      "ming": "佑",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+      "quote": "嶠字開山。祖默，魏尚書。父佑，以才智稱，為楊駿腹心。駿之排汝南王亮，退衛瓘，皆佑之謀也。位至北軍中候。嶠少有風尚，並、司二州交辟，不就。永嘉末，攜其二弟避亂渡江。時元帝鎮建鄴，教曰：「王佑三息始至，名德之胄，並有操行，宜蒙飾敘。且可給錢三十萬，帛三百匹，米五十斛，親兵二十人。」尋以嶠參世子東中郎軍事。不就。湣帝徵拜著作郎，右丞相南陽王保辟，皆以道險不行。元帝作相，以為水曹屬，除長山令，遷太子中舍人以疾不拜。王敦請為參軍，爵九原縣公。",
+      "note": "本名原字及已整合身份分存；王姓沿用既有身份與已證家族語境，不據此補父母、字號或日期。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_anchors": {
+        "ming": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line115",
+          "start": 13,
+          "end": 14,
+          "surface": "佑"
+        }
+      }
+    }
+  ],
   "person_ids": [
     "8e8_ca8_29d"
   ],

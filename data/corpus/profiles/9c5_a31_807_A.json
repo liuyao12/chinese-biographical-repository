@@ -299,7 +299,25 @@
     "9c5_a31_807_A": "武遵"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "9c5_a31_807_A",
+      "title": null,
+      "surname": "武",
+      "ming": "遵",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+      "quote": "及海西公廢，桓溫陷倩及柔以武陵王黨，殺之。希聞難，便與弟邈及子攸之逃於海陵陂澤中。蘊于廣州飲鴆而死。及友當伏誅，友子婦，桓秘女也，請溫，故得免。故青州刺史武沈，希之從母兄也，潛餉給希經年。溫後知逾之，遣兵捕希。武沈之子遵與希聚眾于海濱，略漁人船，夜人京口城。平北司馬卞耽逾城奔曲阿，吏士皆散走。希放城內囚徒數百人，配以器杖，遵於外聚眾，宣令雲逆賊醒溫廢帝殺王，稱海西公密旨，誅除凶逆。京都震擾，內外戒嚴，屯備六門。平北參軍劉奭與高平太守郗逸之、遊軍督護郭龍等集眾距之。卞耽又與典阿人弘戎發諸縣兵二千，並力屯新城以擊希。希戰敗，閉城自守。溫遣東海太守周少孫討之，城陷，被擒。希、邈及子侄五人斬于建康市，遵及黨與並伏誅，唯友及蘊諸子獲全。",
+      "note": "原文明言武沈之子遵；武姓承父系敘事，正文遵字前不添武字，不與武陵王遵／晞混同。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "person_ids": [
     "9c5_a31_807_A"
   ],
@@ -347,7 +365,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-yu2-j113-9c5_a31_807_A",
+      "person_id": "9c5_a31_807_A",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "並伏誅",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+          "quote": "及海西公廢，桓溫陷倩及柔以武陵王黨，殺之。希聞難，便與弟邈及子攸之逃於海陵陂澤中。蘊于廣州飲鴆而死。及友當伏誅，友子婦，桓秘女也，請溫，故得免。故青州刺史武沈，希之從母兄也，潛餉給希經年。溫後知逾之，遣兵捕希。武沈之子遵與希聚眾于海濱，略漁人船，夜人京口城。平北司馬卞耽逾城奔曲阿，吏士皆散走。希放城內囚徒數百人，配以器杖，遵於外聚眾，宣令雲逆賊醒溫廢帝殺王，稱海西公密旨，誅除凶逆。京都震擾，內外戒嚴，屯備六門。平北參軍劉奭與高平太守郗逸之、遊軍督護郭龍等集眾距之。卞耽又與典阿人弘戎發諸縣兵二千，並力屯新城以擊希。希戰敗，閉城自守。溫遣東海太守周少孫討之，城陷，被擒。希、邈及子侄五人斬于建康市，遵及黨與並伏誅，唯友及蘊諸子獲全。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line113:m0109"
+        }
+      ],
+      "interpretation_note": "僅存本段實際死亡陳述，不把疾篤、夢兆、犬斃、宣言指控殺王當此人死亡；不從死年倒推生年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

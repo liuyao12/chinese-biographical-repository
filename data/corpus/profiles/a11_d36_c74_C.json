@@ -8,8 +8,91 @@
   "names": [
     "友"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "id": "th-yu2-j109-112-a11_d36_c74_C",
+      "person_id": "a11_d36_c74_C",
+      "title": "東陽太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+          "quote": "希字始彥。初拜秘書郎，累遷司徒右長史、黃門侍郎、建安太守，未拜，復為長史兼右衛將軍，遷侍中，出為輔國將軍、吳國內史。希既後之戚屬，冰女又為海西公妃，故希兄弟並顯貴。太和中，希為北中郎將、徐兗二州刺史，蘊為廣州刺史，並假節，友東陽太守，倩太宰長史，邈會稽王參軍，柔散騎常侍。倩最有才器，桓溫深忌之。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line109:m0111"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-j109-112-a11_d36_c74_C:a001",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+          "start": 112,
+          "end": 116,
+          "surface": "東陽太守",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line109:m0111",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "id": "pa-yu2-j109-112-a11_d36_c74_C-service_location",
+      "person_id": "a11_d36_c74_C",
+      "relation": "service_location",
+      "place": {
+        "source_name": "東陽",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "東陽太守",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+          "quote": "希字始彥。初拜秘書郎，累遷司徒右長史、黃門侍郎、建安太守，未拜，復為長史兼右衛將軍，遷侍中，出為輔國將軍、吳國內史。希既後之戚屬，冰女又為海西公妃，故希兄弟並顯貴。太和中，希為北中郎將、徐兗二州刺史，蘊為廣州刺史，並假節，友東陽太守，倩太宰長史，邈會稽王參軍，柔散騎常侍。倩最有才器，桓溫深忌之。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line109:m0111"
+        }
+      ],
+      "interpretation_note": "原職稱明載轄地；只作任事關聯地，不推實際到任、居地、出生地或現代行政區。若本筆僅任命而未明到任，並不據此斷言已赴。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "qualifiers": {
+        "source_position": "東陽太守"
+      },
+      "term": "東陽太守",
+      "quote": "希字始彥。初拜秘書郎，累遷司徒右長史、黃門侍郎、建安太守，未拜，復為長史兼右衛將軍，遷侍中，出為輔國將軍、吳國內史。希既後之戚屬，冰女又為海西公妃，故希兄弟並顯貴。太和中，希為北中郎將、徐兗二州刺史，蘊為廣州刺史，並假節，友東陽太守，倩太宰長史，邈會稽王參軍，柔散騎常侍。倩最有才器，桓溫深忌之。"
+    }
+  ],
   "occurrences": [
     {
       "number": 73,
@@ -334,7 +417,38 @@
     "a11_d36_c74_CA": "庾叔宣"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "a11_d36_c74_C",
+      "title": null,
+      "surname": "庾",
+      "ming": "友",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line106",
+      "quote": "冰天性清慎，常以儉約自居。中子襲嘗貸官絹十匹，冰怒，捶之，市絹還官。臨卒，謂長史江[A170]曰：「吾將逝矣，恨報國之志不展，命也如何！死之日，斂以時服，無以官物也。」及卒，無絹為衾。又室無妾媵，家無私積，世以此稱之。冰七子：希、襲、友、蘊、倩、邈、柔。",
+      "note": "同一完整庾氏傳文與已存近親辨識的省名承姓；冰段原稱庾氏之寶、登之傳首全稱庾登之提供家族語境。這是編輯拆分，非每段都明寫庾姓；不由承姓增補生父、同母或未見名字。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line092",
+          "quote": "冰字季堅。兄亮以名德流訓，冰以雅素垂風，諸弟相率莫不好禮，為世論所重，亮常以為庾氏之寶。司徒辟，不就，征秘書郎。預討華軼功，封都鄉侯。王導請為司徒右長史，出補吳國內史。",
+          "scope": "editorial_surname_from_biographical_family_context",
+          "url": "https://zh.wikisource.org/w/index.php?oldid=2296501",
+          "image_verified": false
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "a11_d36_c74_C"
   ],

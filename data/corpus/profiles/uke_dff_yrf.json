@@ -1516,6 +1516,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -2257,7 +2268,31 @@
       }
     }
   ],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-075-94-8",
+      "person_id": "uke_dff_yrf",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "崩",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line094",
+          "quote": "是時王雅亦有寵，薦王珣於帝。帝夜與國寶及雅宴，帝微有酒，令召珣，將至，國寶自知才出珣下，恐至，傾其寵，因曰：「王珣當今名流，不可以酒色見。」帝遂止，而以國寶為忠。將納國寶女為琅邪王妃，未婚，而帝崩。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line094:m0012"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

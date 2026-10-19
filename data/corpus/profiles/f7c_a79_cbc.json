@@ -8,7 +8,67 @@
   "names": [
     "緒"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-075-96-18-71",
+      "person_id": "f7c_a79_cbc",
+      "title": "琅邪內史",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line096",
+          "quote": "安帝即位，國寶復事道子，進從祖弟緒為琅邪內史，亦以佞邪見知。道子復惑之，倚為心腹，並為時之所疾。國寶遂參管朝權，威震內外。遷尚書左僕射。領選，加後將軍、丹陽尹，道子悉以東宮兵配之。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line096:m0016"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-96-18-71",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line096",
+          "start": 18,
+          "end": 22,
+          "surface": "琅邪內史",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line096:m0016",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-075",
+              "chapter_id": "c-jinshu-075-taiyuan-wang",
+              "source_id": "s-jinshu-075-taiyuan-wang",
+              "paragraph_id": "c-jinshu-075-taiyuan-wang:line096",
+              "quote": "安帝即位，國寶復事道子，進從祖弟緒為琅邪內史，亦以佞邪見知。道子復惑之，倚為心腹，並為時之所疾。國寶遂參管朝權，威震內外。遷尚書左僕射。領選，加後將軍、丹陽尹，道子悉以東宮兵配之。",
+              "person_mention_id": "c-jinshu-075-taiyuan-wang:line096:m0016"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1244,6 +1304,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1262,7 +1333,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-075-100-10",
+      "person_id": "f7c_a79_cbc",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "斬緒於市",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line100",
+          "quote": "道子既不能距諸侯，欲委罪國寶，乃遣譙王尚之收國寶，付廷尉，賜死，並斬緒於市。以謝王恭。國寶貪縱聚斂，不知紀極，後房伎妾以百數，天下珍玩充滿其室。及王恭伏法，詔追復國寶本官。元興初，桓玄得志，表徙其家屬于交州。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line100:m0034"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -8,7 +8,56 @@
   "names": [
     "度世"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-075-117-287-100",
+      "person_id": "8e8_ca8_29d_AAA",
+      "title": "驍騎將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line117",
+          "quote": "敦在石頭，欲禁私伐蔡洲荻，以問群下。時王師新敗，士庶震懼，莫敢異議。嶠獨曰：「中原有菽，庶人采之。百姓不足，君孰與足！若禁人樵伐，未知其可。」敦不悅。敦將殺周顗、戴若思，嶠於坐諫曰：「濟濟多士，交王以寧。安可戮諸名士，以自全生！」敦大怒，欲斬嶠，賴謝鯤以免。敦猶銜之，出為領軍長史。敦平後，除中書侍郎，兼大著作，固辭。轉越騎校尉，頻遷吏部郎、御史中丞、秘書監，領本州大中正。咸和初，朝議欲以嶠為丹陽尹。嶠以京尹望重，不宜以疾居之，求補廬陵郡，乃拜嶠廬陵太守。以嶠家貧，無以上道，賜布百匹。錢十萬。尋卒官，諡曰穆。子淡嗣，歷位右衛將軍、侍中、中護軍、尚書、廣州刺史。淡子度世，驍騎將軍。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line117:m0284"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-075-117-287-100",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line117",
+          "start": 287,
+          "end": 291,
+          "surface": "驍騎將軍",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line117:m0284",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1240,6 +1289,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1281,7 +1341,33 @@
     "8e8_ca8_29d_AAA": "王度世"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "8e8_ca8_29d_AAA",
+      "title": null,
+      "surname": "王",
+      "ming": "度世",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "source_id": "s-jinshu-075-taiyuan-wang",
+      "paragraph_id": "c-jinshu-075-taiyuan-wang:line117",
+      "quote": "敦在石頭，欲禁私伐蔡洲荻，以問群下。時王師新敗，士庶震懼，莫敢異議。嶠獨曰：「中原有菽，庶人采之。百姓不足，君孰與足！若禁人樵伐，未知其可。」敦不悅。敦將殺周顗、戴若思，嶠於坐諫曰：「濟濟多士，交王以寧。安可戮諸名士，以自全生！」敦大怒，欲斬嶠，賴謝鯤以免。敦猶銜之，出為領軍長史。敦平後，除中書侍郎，兼大著作，固辭。轉越騎校尉，頻遷吏部郎、御史中丞、秘書監，領本州大中正。咸和初，朝議欲以嶠為丹陽尹。嶠以京尹望重，不宜以疾居之，求補廬陵郡，乃拜嶠廬陵太守。以嶠家貧，無以上道，賜布百匹。錢十萬。尋卒官，諡曰穆。子淡嗣，歷位右衛將軍、侍中、中護軍、尚書、廣州刺史。淡子度世，驍騎將軍。",
+      "note": "本名原字及已整合身份分存；王姓沿用既有身份與已證家族語境，不據此補父母、字號或日期。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_anchors": {
+        "ming": {
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line117",
+          "start": 284,
+          "end": 286,
+          "surface": "度世"
+        }
+      }
+    }
+  ],
   "person_ids": [
     "8e8_ca8_29d_AAA"
   ],

@@ -16,7 +16,56 @@
     "成",
     "顯宗"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-yu2-j086-7-dkn_ge4_286_AAAAAAAAA",
+      "person_id": "dkn_ge4_286_AAAAAAAAA",
+      "title": "成帝",
+      "kind": "honorific",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
+          "quote": "懌嘗以白羽扇獻成帝，帝嫌其非新，反之。侍中劉劭曰：「柏梁雲構，大匠先居其下；管弦繁奏，夔牙先聆其音。懌之上扇，以好不以新。」後懌聞之，曰：「此人宜在帝之左右。」又嘗以毒酒餉江州刺史王允之。王允之覺其有毒，飲犬，犬斃，乃密奏之。帝曰：「大舅已亂天下，小舅復欲爾邪！」懌聞，遂飲鴆而卒，時年五十。贈侍中、衛將軍，諡曰簡。子統嗣。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line086:m0007"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-j086-7-dkn_ge4_286_AAAAAAAAA:a001",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
+          "start": 7,
+          "end": 9,
+          "surface": "成帝",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line086:m0007",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -1738,6 +1787,17 @@
               "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
               "kind": "blank_line",
               "not_received_text": true
+            }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
             }
           ]
         },

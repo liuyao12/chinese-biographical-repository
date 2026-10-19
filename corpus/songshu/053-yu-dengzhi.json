@@ -654,8 +654,150 @@
       "未核底本影像。",
       "嵌入引語及代詞仍待細核。",
       "缺字及數位轉錄疑字不改寫。",
-      "未由報齡倒算出生。"
+      "未由報齡倒算出生。",
+      "Phase 2官爵、未受任、姓名、死亡報齡與地望已分層；數位注太和／隆和紀年爭議及未支援語式保留，不宣稱全面校勘完成。"
     ],
-    "import_review_note": "完整原21段第二輪資料；未定人物及群體保留，不宣稱全部身份完成。"
+    "import_review_note": "完整原21段第二輪資料；未定人物及群體保留，不宣稱全部身份完成。",
+    "age_assertions": [
+      {
+        "id": "age-yu2-s49-a11_d36_c74_DBA",
+        "person_id": "a11_d36_c74_DBA",
+        "value": 62,
+        "source_number": "六十二",
+        "source_term": "年六十二",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": "二十年",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-053",
+            "chapter_id": "c-songshu-053-yu-dengzhi",
+            "source_id": "s-songshu-053-yu-dengzhi",
+            "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+            "quote": "元嘉五年，起為衡陽王義季征虜長史。義季年少，未親政，眾事一以委之。尋加南東海太守。入為司徒右長史，尚書吏部郎，司徒左長史，南東海太守。府公彭城王義康專覽政事，不欲自下厝懷，而登之性剛，每陳己意，義康甚不悅，出為吳郡太守。州郡相臨，執意無改，因其莅任贓貨，以事免官。弟炳之時為臨川內史，登之隨弟之郡，優游自適。俄而除豫章太守，便道之官。登之初至臨川，吏民咸相輕侮，豫章與臨川接境，郡又華大，儀迓光赫，土人並驚歎焉。十八年，遷江州刺史。疾篤，徵為中護軍，未拜。二十年，卒，時年六十二。即以為贈。",
+            "person_mention_id": "c-songshu-053-yu-dengzhi:line049:m0087"
+          }
+        ],
+        "interpretation_note": "原文報齡；不把來源未說的計歲法填成已確證，絕不倒算出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-yu2-s49-a11_d36_c74_DBA"
+        },
+        "normalized_date": {
+          "era": "CE",
+          "era_year": 443,
+          "year": 443,
+          "year_numbering": "astronomical",
+          "precision": "year",
+          "calendar": "chinese_civil",
+          "source_expression": "二十年",
+          "status": "editorial_provisional",
+          "original_quote": "元嘉五年，起為衡陽王義季征虜長史。義季年少，未親政，眾事一以委之。尋加南東海太守。入為司徒右長史，尚書吏部郎，司徒左長史，南東海太守。府公彭城王義康專覽政事，不欲自下厝懷，而登之性剛，每陳己意，義康甚不悅，出為吳郡太守。州郡相臨，執意無改，因其莅任贓貨，以事免官。弟炳之時為臨川內史，登之隨弟之郡，優游自適。俄而除豫章太守，便道之官。登之初至臨川，吏民咸相輕侮，豫章與臨川接境，郡又華大，儀迓光赫，土人並驚歎焉。十八年，遷江州刺史。疾篤，徵為中護軍，未拜。二十年，卒，時年六十二。即以為贈。",
+          "evidence": [
+            {
+              "work_id": "w-songshu",
+              "book_id": "b-songshu-053",
+              "chapter_id": "c-songshu-053-yu-dengzhi",
+              "source_id": "s-songshu-053-yu-dengzhi",
+              "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+              "quote": "元嘉五年，起為衡陽王義季征虜長史。義季年少，未親政，眾事一以委之。尋加南東海太守。入為司徒右長史，尚書吏部郎，司徒左長史，南東海太守。府公彭城王義康專覽政事，不欲自下厝懷，而登之性剛，每陳己意，義康甚不悅，出為吳郡太守。州郡相臨，執意無改，因其莅任贓貨，以事免官。弟炳之時為臨川內史，登之隨弟之郡，優游自適。俄而除豫章太守，便道之官。登之初至臨川，吏民咸相輕侮，豫章與臨川接境，郡又華大，儀迓光赫，土人並驚歎焉。十八年，遷江州刺史。疾篤，徵為中護軍，未拜。二十年，卒，時年六十二。即以為贈。",
+              "person_mention_id": "c-songshu-053-yu-dengzhi:line049:m0087"
+            }
+          ],
+          "references": [
+            {
+              "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+              "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+              "quote": "元嘉",
+              "columns": {
+                "dynasty": "宋",
+                "era_name": "元嘉",
+                "first_year": "424",
+                "last_year": "453"
+              },
+              "scope": "modern_era_year_equivalence_only",
+              "accessed_on": "2026-10-19",
+              "image_verified": false
+            }
+          ],
+          "regnal_year_mapping": {
+            "kind": "relative_ce_regnal_era_span",
+            "era_name": "元嘉",
+            "source_number": "二十",
+            "regnal_year": 20,
+            "start_ce_year": 424,
+            "end_ce_year": 453,
+            "reference_index": 0,
+            "target_regnal_year": 20,
+            "year_offset": 0
+          },
+          "rationale": "本篇劉宋語境；依已核教育部元嘉424–453年表保存中國曆年度，不補公曆月日，不從報齡倒推出生。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null,
+          "relative_year_reference": {
+            "kind": "omitted_era_regnal_year",
+            "source_term": "二十年",
+            "antecedent_expression": "二十年",
+            "era_expression": "元嘉五年",
+            "era_evidence_index": 0,
+            "antecedent_evidence_index": 0,
+            "event_evidence_index": 0
+          }
+        }
+      }
+    ],
+    "title_proposals": [
+      {
+        "id": "tp-yu2-s49-221",
+        "person_id": "a11_d36_c74_DBA",
+        "title": "中護軍",
+        "outcome": "not_assumed",
+        "proposal_kind": "unassumed_appointment",
+        "appointment_stage": "appointment",
+        "non_assumption_kind": "did_not_take_up",
+        "role_anchor": {
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+          "start": 221,
+          "end": 224,
+          "surface": "中護軍"
+        },
+        "person_mention_id": "c-songshu-053-yu-dengzhi:line049:m0087",
+        "status": "contextual_provisional",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-053",
+            "chapter_id": "c-songshu-053-yu-dengzhi",
+            "source_id": "s-songshu-053-yu-dengzhi",
+            "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+            "quote": "元嘉五年，起為衡陽王義季征虜長史。義季年少，未親政，眾事一以委之。尋加南東海太守。入為司徒右長史，尚書吏部郎，司徒左長史，南東海太守。府公彭城王義康專覽政事，不欲自下厝懷，而登之性剛，每陳己意，義康甚不悅，出為吳郡太守。州郡相臨，執意無改，因其莅任贓貨，以事免官。弟炳之時為臨川內史，登之隨弟之郡，優游自適。俄而除豫章太守，便道之官。登之初至臨川，吏民咸相輕侮，豫章與臨川接境，郡又華大，儀迓光赫，土人並驚歎焉。十八年，遷江州刺史。疾篤，徵為中護軍，未拜。二十年，卒，時年六十二。即以為贈。",
+            "person_mention_id": "c-songshu-053-yu-dengzhi:line049:m0087"
+          }
+        ],
+        "appointment_anchor": {
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+          "start": 219,
+          "end": 221,
+          "surface": "徵為"
+        },
+        "non_assumption_anchor": {
+          "paragraph_id": "c-songshu-053-yu-dengzhi:line049",
+          "start": 225,
+          "end": 227,
+          "surface": "未拜"
+        },
+        "interpretation_note": "只記本次未受／未赴，不列為實任，也不推此人所有同職任期均未任。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   }
 }

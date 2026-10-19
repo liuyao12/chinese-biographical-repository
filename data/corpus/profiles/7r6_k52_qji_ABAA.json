@@ -217,6 +217,54 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-jinshu079-phase2-069",
+      "person_id": "7r6_k52_qji_ABAA",
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "quote": "謝尚，字仁祖，豫章太守鯤之子也。幼有至性。七歲喪兄，哀慟過禮，親戚異之。八歲神悟夙成。鯤嘗攜之送客，或曰：「此兒一坐之顏回也。」尚應聲答曰：「坐無尼父，焉別顏回！」席賓莫不歎異。十餘歲，遭父憂，丹陽尹溫嶠吊之，尚號咷極哀。既而收涕告訴，舉止有異常童，嶠甚奇之。及長，開率穎秀，辨悟絕倫，脫略細行，不為流俗之事。好衣刺文袴，諸父責之，而因自改，遂知名。善音樂，博綜眾藝。司徒王導深器之，比之王戎，常呼為「小安豐」，辟為掾。襲父爵咸亭侯。始到府通謁，導以其有勝會，謂曰：「聞君能作鴝鵒舞，一坐傾想，寧有此理不？」尚曰：「佳。」便著衣幘而舞，導令坐者撫掌擊節，尚俯仰在中，傍若無人，其率詣如此。",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0186"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jinshu079-phase2-069:a001",
+          "paragraph_id": "c-jinshu-079-xielang-family:exp-xieshang-p001",
+          "start": 184,
+          "end": 186,
+          "surface": "司徒",
+          "person_mention_id": "c-jinshu-079-xielang-family:exp-xieshang-p001:m0186",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明文記官爵；起訖年份未載，不以卒年結束所有官爵，不把地域官名當籍貫。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-songshu042-family-028",
       "person_id": "7r6_k52_qji_ABAA",
       "title": "丞相",
@@ -2222,6 +2270,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -4211,6 +4270,15 @@
           "quote": "王導，字茂弘，光祿大夫覽之孫也。父裁，鎮軍司馬。導少有風鑒，識量清遠。年十四，陳留高士張公見而奇之，謂其從兄敦曰：「此兒容貌志氣，將相之器也。」初襲祖爵即丘子。司空劉實尋引爲東閣祭酒，遷秘書郎、太子舍人、尚書郎，並不行。後參東海王越軍事。",
           "scope": "explicit_courtesy_name_only",
           "image_verified": false
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line092",
+          "quote": "冰字季堅。兄亮以名德流訓，冰以雅素垂風，諸弟相率莫不好禮，為世論所重，亮常以為庾氏之寶。司徒辟，不就，征秘書郎。預討華軼功，封都鄉侯。王導請為司徒右長史，出補吳國內史。",
+          "scope": "additional_source_name_attestation"
         }
       ]
     }
@@ -4654,7 +4722,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-yu2-j96-7r6_k52_qji_ABAA",
+      "person_id": "7r6_k52_qji_ABAA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "王導新喪",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line096",
+          "quote": "是時王導新喪，人情恇然。冰兄亮既固辭不入，眾望歸冰。既當重任，經綸時務，不舍夙夜，賓禮朝賢，升擢後進，由是朝野注心，咸曰賢相。初，導輔政，每從寬惠，冰頗任威刑。殷融諫之，冰曰：「前相之賢，猶不堪其弘，況吾者哉！」范汪謂冰曰：「頃天文錯度，足下宜盡消禦之道。」冰曰：「玄象豈吾所測，正當勤盡人事耳。」又隱實戶口，料出無名萬餘人，以充軍實。詔復論前功，冰上疏曰：「臣門戶不幸，以短才贊務，釁及天庭，殃流邦族，若晉典休明，夷戮久矣。而于時顛沛，刑憲暫墜，遂令臣等復得為時陳力。徇國之臣，因之而奮，立功於大罪之後，建義于顛覆之餘，此是臣等所以復得視息于天壤，王憲不復必明於往愆也。此之厚幸，可謂弘矣，豈復得計勞納封，受賞司勳哉！願陛下曲降靈澤，哀恕由中，申命有司，惠臣所乞，則愚臣之願于此畢矣。」許之。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line096:m0002"
+        }
+      ],
+      "interpretation_note": "僅存本段實際死亡陳述，不把疾篤、夢兆、犬斃、宣言指控殺王當此人死亡；不從死年倒推生年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -8,7 +8,67 @@
   "names": [
     "尚"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-taiyuan2-042-13-106-17",
+      "person_id": "a8f_ec8_e74_ABA",
+      "title": "關內侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-042",
+          "chapter_id": "c-jinshu-042-taiyuan-wang",
+          "source_id": "s-jinshu-042-taiyuan-wang",
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line013",
+          "quote": "轉征虜將軍、監豫州諸軍事、假節，領豫州刺史。渾與吳接境，宣佈威信，前後降附甚多。吳將薛瑩、魯淑眾號十萬，淑向弋陽，瑩向新息。時州兵並放休息，眾裁一旅，浮淮潛濟，出其不意，瑩等不虞晉師之至。渾擊破之，以功封次子尚為關內侯。遷安東將軍、都督揚州諸軍事，鎮壽春。吳人大佃皖城，圖為邊害。渾遣揚州刺史應綽督淮南諸軍攻破之，並破諸別屯，焚其積穀百八十餘萬斛、稻苗四千餘頃、船六百餘艘。渾遂陳兵東疆，視其地形險易，曆觀敵城，察攻取之勢。",
+          "person_mention_id": "c-jinshu-042-taiyuan-wang:line013:m0104"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "ta-taiyuan2-042-13-106-17",
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line013",
+          "start": 106,
+          "end": 109,
+          "surface": "關內侯",
+          "person_mention_id": "c-jinshu-042-taiyuan-wang:line013:m0104",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line013",
+              "quote": "轉征虜將軍、監豫州諸軍事、假節，領豫州刺史。渾與吳接境，宣佈威信，前後降附甚多。吳將薛瑩、魯淑眾號十萬，淑向弋陽，瑩向新息。時州兵並放休息，眾裁一旅，浮淮潛濟，出其不意，瑩等不虞晉師之至。渾擊破之，以功封次子尚為關內侯。遷安東將軍、都督揚州諸軍事，鎮壽春。吳人大佃皖城，圖為邊害。渾遣揚州刺史應綽督淮南諸軍攻破之，並破諸別屯，焚其積穀百八十餘萬斛、稻苗四千餘頃、船六百餘艘。渾遂陳兵東疆，視其地形險易，曆觀敵城，察攻取之勢。",
+              "person_mention_id": "c-jinshu-042-taiyuan-wang:line013:m0104"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本段明示官爵、任用或見稱分存；精確任期未知留空，不以卒年結束全部官爵，不把府主官號當受任者職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -517,7 +577,33 @@
     "a8f_ec8_e74_ABA": "王尚"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "a8f_ec8_e74_ABA",
+      "title": null,
+      "surname": "王",
+      "ming": "尚",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-042",
+      "chapter_id": "c-jinshu-042-taiyuan-wang",
+      "source_id": "s-jinshu-042-taiyuan-wang",
+      "paragraph_id": "c-jinshu-042-taiyuan-wang:line025",
+      "quote": "渾所曆之職，前後著稱，及居台輔，聲望日減。元康七年薨，時年七十五，諡曰元。長子尚早亡，次子濟嗣。",
+      "note": "本名原字及已整合身份分存；王姓沿用既有身份與已證家族語境，不據此補父母、字號或日期。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "component_anchors": {
+        "ming": {
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line025",
+          "start": 39,
+          "end": 40,
+          "surface": "尚"
+        }
+      }
+    }
+  ],
   "person_ids": [
     "a8f_ec8_e74_ABA"
   ],
@@ -625,7 +711,31 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-042-25-2",
+      "person_id": "a8f_ec8_e74_ABA",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "早亡",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-042",
+          "chapter_id": "c-jinshu-042-taiyuan-wang",
+          "source_id": "s-jinshu-042-taiyuan-wang",
+          "paragraph_id": "c-jinshu-042-taiyuan-wang:line025",
+          "quote": "渾所曆之職，前後著稱，及居台輔，聲望日減。元康七年薨，時年七十五，諡曰元。長子尚早亡，次子濟嗣。",
+          "person_mention_id": "c-jinshu-042-taiyuan-wang:line025:m0039"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

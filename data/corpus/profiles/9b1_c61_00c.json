@@ -9,7 +9,56 @@
     "劉劭",
     "此人"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-yu2-j086-19-9b1_c61_00c",
+      "person_id": "9b1_c61_00c",
+      "title": "侍中",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-073",
+          "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+          "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
+          "quote": "懌嘗以白羽扇獻成帝，帝嫌其非新，反之。侍中劉劭曰：「柏梁雲構，大匠先居其下；管弦繁奏，夔牙先聆其音。懌之上扇，以好不以新。」後懌聞之，曰：「此人宜在帝之左右。」又嘗以毒酒餉江州刺史王允之。王允之覺其有毒，飲犬，犬斃，乃密奏之。帝曰：「大舅已亂天下，小舅復欲爾邪！」懌聞，遂飲鴆而卒，時年五十。贈侍中、衛將軍，諡曰簡。子統嗣。",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line086:m0021"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-yu2-j086-19-9b1_c61_00c:a001",
+          "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
+          "start": 19,
+          "end": 21,
+          "surface": "侍中",
+          "person_mention_id": "c-jinshu-073-yu-yi-bing-tiao:line086:m0021",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "分錄原文用稱、任命、轉任、降職及死後贈諡；授命不補到任日，未知年留空，不以死亡終止全部官爵，不把府主的官職算作受任者本官。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -270,7 +319,25 @@
     "9b1_c61_00c": "劉劭（晉侍中）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "9b1_c61_00c",
+      "title": null,
+      "surname": "劉",
+      "ming": "劭",
+      "additional_names": [],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line086",
+      "quote": "懌嘗以白羽扇獻成帝，帝嫌其非新，反之。侍中劉劭曰：「柏梁雲構，大匠先居其下；管弦繁奏，夔牙先聆其音。懌之上扇，以好不以新。」後懌聞之，曰：「此人宜在帝之左右。」又嘗以毒酒餉江州刺史王允之。王允之覺其有毒，飲犬，犬斃，乃密奏之。帝曰：「大舅已亂天下，小舅復欲爾邪！」懌聞，遂飲鴆而卒，時年五十。贈侍中、衛將軍，諡曰簡。子統嗣。",
+      "note": "原文具名用稱分錄姓、名；不把官名、王號或字當本名，不改寫原字。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "person_ids": [
     "9b1_c61_00c"
   ],

@@ -1242,6 +1242,17 @@
               "kind": "blank_line",
               "not_received_text": true
             }
+          ],
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                24,
+                24
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645530
+            }
           ]
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
@@ -1260,7 +1271,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-taiyuan2-075-112-16",
+      "person_id": "624_801_009",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "從坐誅",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-075",
+          "chapter_id": "c-jinshu-075-taiyuan-wang",
+          "source_id": "s-jinshu-075-taiyuan-wang",
+          "paragraph_id": "c-jinshu-075-taiyuan-wang:line112",
+          "quote": "初，綏與王謐、桓胤齊名，為後進之秀。謐位官既極，保身而終。胤以從坐誅，聲稱猶全。綏身死，名論殆盡，亦以薄行矜峭而尚人故也。自昶父漢雁門太守澤已有名稱，忱又秀出，綏亦著稱，八葉繼軌，軒冕莫與為比焉。",
+          "person_mention_id": "c-jinshu-075-taiyuan-wang:line112:m0007"
+        }
+      ],
+      "interpretation_note": "只存原文明載此人的死亡；敘事回述不混作當年，未載確年保持null，不把死亡當全部官爵終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

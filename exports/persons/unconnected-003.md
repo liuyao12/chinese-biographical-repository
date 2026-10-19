@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `uvb_oh6_dx1` | 平津侯 | [《史記・三王世家》][80] | [JSON](uvb_oh6_dx1.json) |
 | `uvj_ezk_crm` | 武臣姊未名 | [《史記・張耳陳餘列傳》][109] | [JSON](uvj_ezk_crm.json) |
 | `uw3_qbv_8o0` | 義渠君 | [《史記・張儀列傳》][90] | [JSON](uw3_qbv_8o0.json) |
 | `uw6_a0a_tjp` | 范增 | [《史記・項羽本紀》][45] | [JSON](uw6_a0a_tjp.json) |
