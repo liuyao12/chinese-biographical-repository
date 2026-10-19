@@ -136,7 +136,8 @@ class WangYiJinghongBridges(unittest.TestCase):
         self.assertEqual({e['person_id'] for e in events},{self.people[n] for n in ['王廙母（未名）','王廙','石季龍','王胡之']})
         self.assertTrue(all(e['date_expression']is None and 'normalized_date'not in e for e in events))
         self.assertFalse(any(a['predicate']=='spouse' and a['subject_person_id']==self.people['王廙母（未名）'] for a in self.jrels))
-        origin=read('corpus/songshu/066-addresses.json')['assertions']
+        origin=[a for a in read('corpus/songshu/066-addresses.json')['assertions']
+                if a['relation']=='biographical_origin']
         self.assertEqual(len(origin),1)
         self.assertEqual(origin[0]['person_id'],self.people['王敬弘'])
         self.assertIsNone(origin[0]['place']['modern_identification'])

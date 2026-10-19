@@ -189,3 +189,27 @@ test('care and ritual succession do not replace biological parents or create des
  const caregiver={id:'care',relations:[relation('child','raised_by','care')]};
  const other=await traceFamily(caregiver,async id=>({id}));assert.deepEqual(other.children,[]);assert.deepEqual(other.ancestors,[[],[],[]]);
 });
+
+test('explicit chuji is a separate navigable family relation, not biological ancestry', async()=>{
+ const birth=relation('child','father','birth');
+ const adoption=relation('child','adoptive_father','adoptive');
+ const people={child:{id:'child',relations:[birth,adoption]},birth:{id:'birth'},adoptive:{id:'adoptive',relations:[adoption]}};
+ const family=await traceFamily(people.child,async id=>people[id]);
+ assert.deepEqual(family.ancestors.map(g=>g.map(p=>p.id)),[['birth'],[],[]]);
+ assert.deepEqual(family.adoptive_father.map(p=>p.id),['adoptive']);
+ const parent=await traceFamily(people.adoptive,async id=>people[id]);
+ assert.deepEqual(parent.children,[]);
+ assert.deepEqual(parent.adopted_children.map(p=>p.id),['child']);
+ const missing=await traceFamily(people.birth,async id=>people[id]);
+ assert(!Object.hasOwn(missing,'adoptive_father'));
+ assert(!Object.hasOwn(missing,'adopted_children'));
+});
+
+test('a sourced divorce retains the spouse link and evidence in both directions',async()=>{
+ const claim={...relation('husband','spouse','wife'),qualifiers:{marriage_termination:{kind:'divorce',source_term:'遂離婚',date:null}}};
+ for (const [id,other] of [['husband','wife'],['wife','husband']]) {
+  const f=await traceFamily({id,relations:[claim]},async id=>({id}));
+  assert.equal(f.spouses[0].id,other);
+  assert.equal(f.spouses[0].marriage_status,'source_attested_divorce');
+ }
+});

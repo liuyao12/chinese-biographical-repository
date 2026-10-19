@@ -1,5 +1,9 @@
 export default {
+  'Source wording: {text}': '原文：{text}',
   'Caregiver': '撫養人',
+  'Divorced (source-attested)': '離婚（據原文）',
+  'Adoptive father (source-attested chuji)': '出繼父',
+  'Adopted children (source-attested chuji)': '出繼子女',
   'Ritual predecessor': '所繼者',
   'Maternal grandfather': '外祖父',
   'Paternal uncle': '伯叔父',

@@ -68,6 +68,22 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 來源親屬主張可用 `sister` 表示主體為客體的姊或妹；`qualifiers.source_term` 保留「姊」「女弟」等原詞。與 `brother` 一樣，不單據兄弟姊妹稱呼推定同父同母，不補原文未見姓名。
 
+`adoptive_father` 的首種受支援來源形式為明言「出繼伯父」：主體為出繼者，客體為具名出繼父。`adoption_basis: chuji_named_paternal_uncle` 保存此判讀，`source_term` 保留包括名字及其間官稱的完整原詞；`biological_father_assertion_id` 與 `paternal_uncle_assertion_id` 須指向同段、同一主體的生父與伯父記錄。三項證據均須保留具名人物錨點，不覆蓋生父，也不把一般伯父或宗祀承繼一律改作出繼。`modern_legal_status: not_inferred` 表示不推定現代法律地位。其他出繼語式須另行核讀及擴充驗證，不能套用此特定格式。
+
+引語中「下官曾祖」可在人物身份判讀另存 `ancestor_reference.kind: speaker_paternal_great_grandfather`：保存發言人自稱及發言人姓名錨點、所指曾祖錨點、四人的 `person_path` 與三條 `steps`。每條須有明載父子斷言，或已驗證的「同段連續具名祖先」編輯接合；不得從 ID 字母或最近的人名猜測世系。此身份解析不改寫原句，也不把編輯父子推導冒作直接原文。由此記錄「曾祖是某外孫」時，使用母系 `grandfather`，`resolved_subject_identity_decision_id` 連到上述判讀；未名母親保持 `mother_person_id: null`。所指外祖不得併入父系三代。
+
+婚配斷言仍用 `spouse`。目前受驗證的「尚某主……遂離婚」同段格式，另存 `qualifiers.marriage_termination: {kind: "divorce", source_term: "遂離婚", date: null}`；保留婚配原詞及夫妻雙錨點，不以離婚刪去曾有婚姻，也不補年月。人物卡保留可導航的配偶並註明據原文離婚。其他終止形式或有年可考的事件須擴充驗證後另記，不把喪偶或分居自動當作離婚。
+
+相對紀年「明年」「其年」使用 `regnal_year_mapping.kind: relative_ce_regnal_era_span`，保存前述原數詞、`regnal_year`、`target_regnal_year` 及 `year_offset`（分別為一、零）。`source_expression` 保留相對原詞；`relative_year_reference` 保存明示年號、承接年次的原字及各自證據索引，與事件原句一起驗證。不得把補出的完整年號年份寫成原文；跨段須保存連續原段的紀年證據及人物承接。仍按中國曆年度存公元數字，不由報齡倒推出生年，也不以任官背景年填卒年。
+
+省略年號而明載「六年」等年次時，`relative_year_reference.kind: omitted_era_regnal_year` 保存原年次，`year_offset: 0`，並引用前文明示年號的原段。事件只採其直接任用語段所屬的年次；後文轉任不一律套同年，跨改元敘事不能反取後段年號。
+
+「年向九十」的 `approximation.kind: approaching_age` 保存 `target: 90`，`value`、`birth_year` 為 `null`，不存嚴格上下界。`speaker_scope` 保存奏表開頭及本人「臣」字錨點，避免把引禮的七十或君主稱謂當作本人報齡；來源的精確或其他約略報齡各自保留，不互相改寫。
+
+同一次授號或追諡事件的跨史紀年取捨，可在首選持職記錄存 `chronology_preference.kind: same_event_source_preference`：`preferred_holding_id` 指本筆，`candidate_holding_ids` 列全部候選持職 ID。各筆須屬同一人物、相同事件種類及稱號，並各存原句與不同數字年份；「鎮／鎭」原字不改。`rationale` 記該事件的來源判斷，`status: editorial_provisional`、`human_reviewed: false` 不冒充終局裁決。人物卡標出首選，人物頁仍呈現另篇原記及取捨理由；此欄不給整部書永久優先權，也不消去其他候選時段。
+
+未受任記錄可用 `role_anchor` 保存原段職稱的獨立字元範圍，免於在人物提及層插入整段職稱，尤其職稱內已有府主的人物標記時。其欄位為 `paragraph_id`、`start`、`end`、`surface`，須逐字等於 `title`；舊有 `role_mention_id` 仍支援。「廬陵王師」等格式另用 `patron_person_mention_ids` 指一位職稱內、前綴位置的具名王號；它是府主而非另一受任者，不能拿來略過任用句中任意其他人物。任用詞、未受詞及本人或前段本人承接錨點仍須完整驗證。未拜的職位與後來實任同職各自記錄，不合成連續任期。
+
 ## 數位見證附載文字
 
 有分層需要時，段落保存 `text_layer`，XML 同步 `text-layer`。`received_chapter` 為本篇所錄傳世文本；`witness_appended_bangu_note` 表示數位見證附載的班固記，不能冒稱司馬遷原文。保留原有次序與引用錨點；分層判斷仍需版本核查，不據此宣稱已校定作者或年代。
@@ -125,7 +141,9 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 
 以來源可靠性及關係判讀配置家族，不限父子。明示祖孫等有世代距離的近親，即使中間缺名亦可同根；例如祖父 `abc_def_123` 與孫 `abc_def_123_*A`。`*` 只標記缺名世代，不建立人物；不同星號位置不自動指同一人。遠祖牽合、親等未定及有爭議世系分存來源主張，是否同族須另作有證據的判讀，不能由編碼自動推定。配偶、母系及收養關係另記。
 
-已發布序號ID保留為永久相容別名，不重用；正式人物ID已全面轉換為家族式格式，舊 `next_number` 僅保留序號游標。已發布身份後來合併、分拆或改父系，必須保留舊入口與有證據的遷移決定，不靜默改名。
+人物 ID 為目前版本的內部識別碼，不承諾永久外部入口。合併、分拆或改父系需要改號時，須更新全部人物端點、正文提及、來源判讀、家族組裝及衍生索引，驗證後撤除舊登記與舊 JSON；不維護永久別名、轉址或舊號對照表，也不將舊號重用給另一人。外部查詢流程是每次搜尋、辨識並選取目前人物，再使用當前 ID 讀取資料；不以保存的舊查詢或人物 ID 作相容性要求。來源與身份判讀理由仍保留，過往版本由 Git 歷史回查。
+
+關係記錄同時保存 `subject_person_id` 與 `object_person_id`，每人 JSON 由這些來源記錄產生，收錄本人出現在任一端的關係。父子、婚姻等因此可從兩端查閱同一筆來源斷言，不手工維護兩筆互為反向而可能失步的事實。人物登記的提及證據與正文標記也作雙向核對；改號後必須重新生成並檢查全部引用，而不只修改人物自己的 JSON。
 
 ## 親屬詮釋分歧
 

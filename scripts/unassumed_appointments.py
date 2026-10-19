@@ -1,6 +1,21 @@
 """任用後未受或未赴任，與未實行的立號提議分開。"""
 
 
+def unassumed_role(proposal, paragraph):
+    role = next((m for m in paragraph.get('mentions', [])
+                 if m['id'] == proposal.get('role_mention_id')), None)
+    if role:
+        return role
+    anchor = proposal.get('role_anchor')
+    if (not isinstance(anchor, dict) or set(anchor) != {'paragraph_id', 'start', 'end', 'surface'}
+            or anchor['paragraph_id'] != paragraph['id']
+            or type(anchor['start']) is not int or type(anchor['end']) is not int
+            or not 0 <= anchor['start'] < anchor['end'] <= len(paragraph['text'])
+            or paragraph['text'][anchor['start']:anchor['end']] != anchor['surface']):
+        return None
+    return dict(anchor, kind='unresolved', person_id=None)
+
+
 def unassumed_appointment_valid(proposal, chapter):
     if (proposal.get('proposal_kind') != 'unassumed_appointment' or proposal.get('outcome') != 'not_assumed'
             or proposal.get('status') != 'contextual_provisional' or proposal.get('human_reviewed') is not False
@@ -15,7 +30,7 @@ def unassumed_appointment_valid(proposal, chapter):
     if not isinstance(quote, str) or not quote or quote not in p['text']:
         return False
     ms = {m['id']: m for m in p['mentions']}
-    person, role = ms.get(proposal.get('person_mention_id')), ms.get(proposal.get('role_mention_id'))
+    person, role = ms.get(proposal.get('person_mention_id')), unassumed_role(proposal, p)
     carried = False
     if e.get('context') is not None:
         try:
@@ -41,16 +56,32 @@ def unassumed_appointment_valid(proposal, chapter):
     appointment, refusal = proposal.get('appointment_anchor'), proposal.get('non_assumption_anchor')
     if not anchor(appointment) or not anchor(refusal):
         return False
-    verbs = ['引為','引爲','遷','尋加','轉','除','加','以為','征補','以'+person['surface']+'為','以'+person['surface']+'爲']
-    terms = {'declined':['以疾固辭，未行而卒','苦讓，遂不受','讓不拜'], 'did_not_take_up':['並不行','不拜','皆不就']}
+    verbs = ['引為','引爲','遷','尋加','轉','除','加','以為','征補','徵為','徵爲','補','辟','復除','又除','出為','出爲',
+             '以'+person['surface']+'為','以'+person['surface']+'爲']
+    terms = {'declined':['以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
+             'did_not_take_up':['並不行','不拜','皆不就','不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
     if (appointment['surface'] not in verbs or refusal['surface'] not in terms.get(proposal.get('non_assumption_kind'), [])
             or (not carried and person['end'] > role['start']) or appointment['end'] > role['start']
             or role['end'] > refusal['start']):
         return False
     if refusal['surface'] == '不拜' and refusal['start'] > 0 and p['text'][refusal['start']-1] == '讓':
         return False
-    # A different named recipient in the assignment list cannot be silently bypassed.
+    # A named prince inside 廬陵王師 is the patron, not another appointee.
+    patrons = proposal.get('patron_person_mention_ids', [])
+    if (not isinstance(patrons, list) or len(set(patrons)) != len(patrons)
+            or any(mid not in ms for mid in patrons)):
+        return False
+    if patrons:
+        if len(patrons) != 1:
+            return False
+        patron = ms[patrons[0]]
+        if (patron.get('kind') != 'person' or patron.get('person_id') == proposal['person_id']
+                or patron['start'] != role['start'] or patron['end'] >= role['end']
+                or role['surface'] != patron['surface'] + '師'):
+            return False
+    # Other named recipients still cannot be silently bypassed.
     if any(m.get('kind') == 'person' and m.get('person_id') != proposal['person_id']
+           and m['id'] not in patrons
            and appointment['end'] <= m['start'] < role['end'] for m in p['mentions']):
         return False
     return any(i <= (appointment['start'] if carried else min(person['start'], appointment['start'])) and refusal['end'] <= i + len(quote)

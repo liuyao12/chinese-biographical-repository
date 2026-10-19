@@ -1463,6 +1463,44 @@
           ]
         }
       ]
+    },
+    {
+      "id": "w-nanqishu",
+      "title": "南齊書",
+      "author": "蕭子顯",
+      "status": "in_progress",
+      "expected_books": null,
+      "numbering_note": "依士族跨史選錄；本次只錄卷32王延之及子倫之傳，不代表全卷或全書完成。",
+      "books": [
+        {
+          "id": "b-nanqishu-032",
+          "work_id": "w-nanqishu",
+          "number": 32,
+          "title": "卷32",
+          "chapter_ids": [
+            "c-nanqishu-032-wangyanzhi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-nanshi",
+      "title": "南史",
+      "author": "李延壽",
+      "status": "in_progress",
+      "expected_books": null,
+      "numbering_note": "依王氏跨史家系選錄卷24完整原段，不代表全卷或全書完成。",
+      "books": [
+        {
+          "id": "b-nanshi-024",
+          "work_id": "w-nanshi",
+          "number": 24,
+          "title": "卷24",
+          "chapter_ids": [
+            "c-nanshi-024-wang-family"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"
