@@ -1,7 +1,7 @@
 import {chapterReadingLayout,revealSourceTarget} from './reading-layout.js';
 import {mountHistoricalTable} from './historical-table-view.js';
 import {historicalTableMarkup} from './historical-table-markup.js';
-import {captureReadingState, restoreReadingState} from './corpus-reading-state.js';
+import {createLanguageReadingTransition, restoreReadingState} from './corpus-reading-state.js';
 import {referentInterpretations} from './referent-interpretations.js';
 import {escapeHTML as h} from './core.js';
 import {t,ui} from './i18n.js';
@@ -12,6 +12,7 @@ import {bindPersonCards} from './cbr-person.js';
 const $=id=>document.getElementById(id);
 let manifest,work,index,selected,ticket=0,removeCards,tableView;
 const cache=new Map();
+const languageReading = createLanguageReadingTransition(()=>$('corpus-content'),()=>({ticket,hash:location.hash}));
 const catalogPath=path=>/^data\/corpus\/[a-z0-9-]+\/index\.json$/.test(path);
 const chapterPath=path=>/^data\/corpus\/[a-z0-9-]+\/[a-zA-Z0-9_-]+\.json$/.test(path);
 async function json(path) {
@@ -32,8 +33,7 @@ function list() {
 const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))}" rel="noopener" target="_blank">${ui(label)} ↗</a>`:'';
 async function render(keepScroll=false) {
   const current=++ticket,params=new URLSearchParams(location.hash.slice(1));
-  const readingState=keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter')
-    ? captureReadingState($('corpus-content')) : null;
+  const readingState=languageReading.start(keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter'),current);
   removeCards?.();removeCards=null;
   tableView?.destroy();tableView=null;
   work=manifest.works.find(w=>w.id===params.get('work')) || (!params.has('work')?manifest.works.find(w=>w.reader_kind==='corpus'):null);
@@ -69,6 +69,7 @@ async function render(keepScroll=false) {
   const passage=params.get('passage');
   if(readingState)restoreReadingState($('corpus-content'),readingState);
   else if(!revealSourceTarget($('corpus-content'),chapter,params))window.scrollTo(0,0);
+  languageReading.finish(current);
 }
 const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.message)}</p>`;};
 (async()=>{
@@ -76,6 +77,7 @@ const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.mess
     manifest=await json('data/corpus/works.json');
     $('chapter-search').oninput=list;
     window.addEventListener('hashchange',()=>render().catch(fail));
+    window.addEventListener('renwen:beforelanguagechange',()=>languageReading.before());
     window.addEventListener('renwen:languagechange',()=>render(true).catch(fail));
     await render();
   } catch(error) {fail(error);}

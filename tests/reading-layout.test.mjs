@@ -14,5 +14,5 @@ assert.equal(revealSourceTarget(root,c,new URLSearchParams({passage:'p',mention:
 const occurrence={work_id:'w-sanguozhi',chapter_id:'c',book_id:'b',paragraph_id:'p',paragraph_ids:['p','archive'],mention_ids:['m','old-m'],mention_paragraph_ids:{m:'p','old-m':'archive'},work_title:'三國志',title:'篇'};
 const returned=profileSourceContext({occurrences:[occurrence]},new URLSearchParams({work:'w-sanguozhi',chapter:'c',book:'b',passage:'archive',mention:'old-m'}));assert.match(returned.href,/passage=archive/);assert.match(returned.href,/mention=old-m/);
 const html=chapterParagraph(p,{}, {work_id:'w-sanguozhi',book_id:'b',chapter_id:'c',reading_layout:true});assert.match(html,/mention=m/);assert.match(html,/id="m"/);
-assert(!chapterParagraph(p,{}, {work_id:'w-sanguozhi',book_id:'b',chapter_id:'c'}).includes('mention='));
+assert.match(chapterParagraph(p,{}, {work_id:'w-sanguozhi',book_id:'b',chapter_id:'c'}),/mention=m/);
 console.log('reading layout JS PASS: partition, nested disclosure, exact old ID, card return, legacy fallback');

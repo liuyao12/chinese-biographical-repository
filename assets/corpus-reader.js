@@ -54,7 +54,7 @@ export function chapterParagraph(paragraph, people = {}, context = null) {
       const params = context?.work_id && context.work_id !== 'w-shiji'
         ? new URLSearchParams({work:context.work_id,book:context.book_id,chapter:context.chapter_id,passage:paragraph.id})
         : number ? new URLSearchParams({chapter:String(number),passage:paragraph.id}) : null;
-      if(params && context?.reading_layout)params.set('mention',mention.id);
+      if(params && context?.work_id && context.work_id !== 'w-shiji')params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {

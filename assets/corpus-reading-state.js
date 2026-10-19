@@ -33,3 +33,27 @@ export function restoreReadingState(root, state, viewport = globalThis.window) {
   }
   viewport?.scrollTo(state.scrollX, targetY);
 }
+
+/** Capture before translated chrome reflows; only the matching render may consume it. */
+export function createLanguageReadingTransition(getRoot, getContext) {
+  let pending = null, active = null;
+  return {
+    before() {
+      const context = getContext();
+      const state = active?.ticket === context.ticket && active.hash === context.hash
+        ? active.state : captureReadingState(getRoot());
+      pending = {...context, state};
+    },
+    start(keep, current) {
+      const saved = pending, context = getContext();
+      pending = null; active = null;
+      if (!keep) return null;
+      const state = saved
+        ? (saved.ticket === current - 1 && saved.hash === context.hash ? saved.state : null)
+        : captureReadingState(getRoot());
+      if (state) active = {ticket:current, hash:context.hash, state};
+      return state;
+    },
+    finish(current) { if (active?.ticket === current) active = null; }
+  };
+}
