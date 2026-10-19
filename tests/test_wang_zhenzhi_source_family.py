@@ -173,7 +173,9 @@ class WangZhenzhiSourceFamily(unittest.TestCase):
         labels = {p['label']: p['id'] for p in catalog[0].values()}
         _, assembled = load_assemblies(ROOT, catalog)
         self.assertEqual(assembled[labels['王綏']]['parent_person_id'], labels['王愉'])
-        self.assertEqual(assembled[labels['王綏']]['root_person_id'], labels['王愉'])
+        self.assertEqual(assembled[labels['王綏']]['root_person_id'], labels['王澤'])
+        self.assertEqual(assembled[labels['王愉']]['parent_person_id'], labels['王坦之'])
+        self.assertNotEqual(assembled[labels['王綏']]['root_person_id'], '7r6_k52_qji')
         self.assertNotEqual(labels['王愉'], '7r6_k52_qji')
         data = bundle(labels['王綏'], ROOT, catalog=catalog)
         uncle = next(a for a in data['relations'] if a['id'] == 'a-songshu092-wangsui-maternal-uncle')

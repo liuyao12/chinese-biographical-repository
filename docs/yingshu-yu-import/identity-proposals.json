@@ -1,0 +1,60 @@
+{
+  "status": "ai_provisional",
+  "human_reviewed": false,
+  "model": null,
+  "proposals": [
+    {
+      "type": "cross_chapter_identity",
+      "person_id": "a11_d36_c74",
+      "reason": "《晉書》冰與子蘊、蘊子廓之；《宋書》登之曾祖冰官晉司空、祖蘊官廣州刺史、父廓官東陽太守；三代親屬及官位成組對應。",
+      "source_paragraphs": [
+        "c-jinshu-073-yu-yi-bing-tiao:line106",
+        "c-jinshu-073-yu-yi-bing-tiao:line115",
+        "c-songshu-053-yu-dengzhi:line043"
+      ]
+    },
+    {
+      "type": "possible_equivalence_not_materialized",
+      "person_ids": [
+        "a11_d36_c74_DA",
+        "a11_d36_c74_DB"
+      ],
+      "reason": "兩文同為蘊之子、同官東陽太守；宋書數位注又明報晉書作廓之。但數位校勘注未經底本覆核，本交付保留兩候選，建議整合者審閱後決定；不永久保留重複ID。",
+      "source_paragraphs": [
+        "c-jinshu-073-yu-yi-bing-tiao:line115",
+        "c-songshu-053-yu-dengzhi:line043"
+      ]
+    },
+    {
+      "type": "do_not_merge",
+      "names": [
+        "庾信",
+        "庾肩吾",
+        "庾亮"
+      ],
+      "reason": "本批無把庾信、庾肩吾接入庾亮父系之證；未建這類關係。"
+    },
+    {
+      "type": "unresolved",
+      "surface": "江[A170]",
+      "reason": "底本數位轉錄殘缺記號原樣保存；不猜姓名。"
+    },
+    {
+      "type": "unresolved",
+      "surface": "後",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+      "reason": "「希既後之戚屬」保留數位見證後字，不暗改后字；具體指涉待核。"
+    },
+    {
+      "type": "possible_transcription_errors",
+      "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+      "surfaces": [
+        "溫後知逾之",
+        "夜人京口城",
+        "雲逆賊醒溫",
+        "典阿人"
+      ],
+      "reason": "疑有數位轉錄問題，原字不改；不從醒溫切割溫字做人名（另於驗證時排除）。"
+    }
+  ]
+}
