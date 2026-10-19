@@ -15,7 +15,7 @@ class RelativeRegnalYear(unittest.TestCase):
         for f in ['songshu/066', 'nanqishu/032', 'nanshi/024']:
             self.dates += [e['normalized_date'] for e in json.loads(
                 (ROOT / ('corpus/' + f + '-life-events.json')).read_text())['events']
-                           if 'normalized_date' in e]
+                           if 'relative_year_reference' in e.get('normalized_date', {})]
 
     def test_source_relative_words_preserved_with_numeric_years(self):
         self.assertEqual(sorted(d['year'] for d in self.dates), [447, 447, 484])
@@ -23,6 +23,15 @@ class RelativeRegnalYear(unittest.TestCase):
             self.assertTrue(relative_regnal_year_valid(d, source_age_number))
             self.assertEqual(normalized_date_errors(d), [])
             self.assertIn(d['source_expression'], ['明年', '其年'])
+
+    def test_explicit_regnal_year_remains_distinct_from_relative_years(self):
+        events = json.loads((ROOT / 'corpus/nanshi/024-life-events.json').read_text())['events']
+        date = next(e['normalized_date'] for e in events
+                    if e['id'] == 'le-nanshi-024-81-wang-received')
+        self.assertEqual(date['source_expression'], '元嘉四年')
+        self.assertEqual(date['year'], 427)
+        self.assertEqual(normalized_date_errors(date), [])
+        self.assertFalse(relative_regnal_year_valid(date, source_age_number))
 
     def test_wrong_offset_wrong_era_and_missing_antecedent_fail(self):
         for date in self.dates:
