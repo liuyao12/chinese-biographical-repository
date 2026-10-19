@@ -266,6 +266,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const relations = (p.relations || []).filter(r => r.predicate !== 'teacher'), labels = {raised_by:t('Caregiver'),ritual_successor_of:t('Ritual predecessor'),father:'父',mother:'生母',stepmother:'後母',adoptive_mother:'所母',adoptive_father:t('Adoptive father (source-attested chuji)'),spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父',great_grandfather:'曾祖父',ancestor:t('Ancestor'),paternal_uncle:t('Paternal uncle'),maternal_uncle:t('Maternal uncle'),agnatic_senior_kin:t('Paternal collateral relative one generation senior'),agnatic_cousin:t('Paternal same-generation collateral relative'),maternal_cousin:t('Maternal aunt cousin')};
   const relationPersonLink = id => `<a class="person-kinship-link" href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`;
   const relationLabel = x => {
+    if (x.predicate === 'maternal_role') return x.qualifiers?.role === 'prior_mother' ? t('Prior mother (source wording)') : t('Mother (birth unspecified)');
     if (x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal') return t('Maternal grandfather');
     const order=x.qualifiers?.relative_birth_order;
     if(x.predicate==='sister' && order?.operator==='lt') {
