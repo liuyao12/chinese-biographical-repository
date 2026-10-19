@@ -818,3 +818,17 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 未拜原詞 `固辭不拜` 以整詞記 `non_assumption_kind: declined`，不能截成不拜而移除辭讓。報齡原字 `數詞＋嵗` 與歲/歳並存，數值須由原數詞驗證；不藉報齡推生年或改作死亡年齡。
 
 新原詞「固辭不拜」若隔直接對話，`refusal_subject_scope` 必須為 `same_named_speaker_after_direct_speech`，保留 `subject_mention_id`、`speech_introducer_anchor`、`speech_anchor`、`resumption_anchor` 及 `human_reviewed: false`。任職角色後的同人具名「某謂…曰」、引語及「乃固辭不拜」必須逐字相接；不接受把對話受話者當辭授者。沒有這種明確speaker/speech/resumption鏈時，只容無曰字且沒有其他具名主語介入的直接辭授。
+
+
+### 共同侍從後的事件時間語與贈官
+
+`posthumous_basis.kind: coordinated_attendance_death_then_gift` 只承載已標明「A與B、C並侍D于E。X平後卒，贈T」的受限形狀。subject_context分清傳首明名主題、恢復的A、共同參與者、所侍對象與亂事X；作亂的全名與平後的省稱須同一既有身份。角色、原句、動作、處所與標點須逐字相接；不能因最近出現X、D或C就改死亡／受贈者。本分支沒有引語scope例外，傳首至時間句若有曰或中文引號須另案，不讓引語繼承外層傳主。死亡須連既有同人原生death事件，death/grant各有精確字位與全段hash、固定修訂，贈號用稱必須恰在贈詞之後。原文全段及全部其他人物保留，不將贈改寫成追贈，不填確年或終止其他持職。
+
+## Phase38 fixed-paragraph era-stage
+
+`narrative_era_scope.kind: same_fixed_paragraph_era_stage` 僅為同一固定完整段、同傳主的「年號初／中／末→明數年→除官」提供年號。保留source_id、revision_id、witness_sha256、full_paragraph、source_position、傳主原mention及精確era/event/verb/title錨點；不填君主，不容任意ruler欄。必須無主語切換、插敘/引語、其他年號或介入數年；binding另驗實際record/person/title與授任起點。本分支不放寬既有跨段且須君主的timeline模型。
+
+`within_named_era` 範圍可保存初／中／末；初、末須另有相符`source_stage`，仍只給整個年號範圍，不將初定元年或量化為前若干年。中原有資料保持可讀。所有端點、政體、參考表及原句守衛維持。
+
+
+後漢書固定見證分層：`witness_appended_lixian_note`（唐李賢注）、`witness_appended_liuban_collation`（宋劉攽校）、`witness_appended_qing_siku_collation`（清四庫考證）。三層必備 `layer_attribution` 的 `attributed_author`、`period`、`received_authority`、`quotation_dependencies` 及 false 覆核資格；清層 `scope` 限 `independent_volume_appendix`，署名館臣／被引何焯分存。轉引不當獨立原著核讀；原文 p 之外標層，不改 Unicode 字位。

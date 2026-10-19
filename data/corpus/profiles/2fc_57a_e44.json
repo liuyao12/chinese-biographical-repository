@@ -9,7 +9,67 @@
     "李惲",
     "惲"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin039-rest37-141",
+      "person_id": "2fc_57a_e44",
+      "title": "青州",
+      "kind": "office",
+      "mode": "grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040",
+          "quote": "時劉琨大為劉聰所迫，諸避亂遊士多歸於浚。浚日以強盛，乃設壇告類，建立皇太子，備置眾官。浚自領尚書令，以棗嵩、裴憲並為尚書，使其子居王宮，持節，領護匈奴中郎將，以妻舅崔毖為東夷校尉。又使嵩監司冀并兗諸軍事、行安北將軍，以田徽為兗州，李惲為青州。惲為石勒所殺，以薄盛代之。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0115"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin039-rest37-141:a001",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040",
+          "start": 118,
+          "end": 120,
+          "surface": "青州",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0115",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-039",
+              "source_id": "s-jinshu-039-wangxun-feng",
+              "chapter_id": "c-jinshu-039-wangxun-feng",
+              "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040",
+              "quote": "時劉琨大為劉聰所迫，諸避亂遊士多歸於浚。浚日以強盛，乃設壇告類，建立皇太子，備置眾官。浚自領尚書令，以棗嵩、裴憲並為尚書，使其子居王宮，持節，領護匈奴中郎將，以妻舅崔毖為東夷校尉。又使嵩監司冀并兗諸軍事、行安北將軍，以田徽為兗州，李惲為青州。惲為石勒所殺，以薄盛代之。",
+              "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0115"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依完整傳主及本句語法，非按官名詞表套人。 原動作：wangjun_appointment；任期未明不補；不以死亡截止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -11929,7 +11989,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin039-rest37-143",
+      "person_id": "2fc_57a_e44",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "惲為石勒所殺",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040",
+          "quote": "時劉琨大為劉聰所迫，諸避亂遊士多歸於浚。浚日以強盛，乃設壇告類，建立皇太子，備置眾官。浚自領尚書令，以棗嵩、裴憲並為尚書，使其子居王宮，持節，領護匈奴中郎將，以妻舅崔毖為東夷校尉。又使嵩監司冀并兗諸軍事、行安北將軍，以田徽為兗州，李惲為青州。惲為石勒所殺，以薄盛代之。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0121"
+        }
+      ],
+      "interpretation_note": "依完整傳主及本句語法，非按官名詞表套人。 不補死因/年齡/出生或官職終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

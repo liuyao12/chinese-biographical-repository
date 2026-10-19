@@ -131,3 +131,54 @@ def shared_line_subject_bridge(chapter, before, after, context, person_id):
         return True
     except (KeyError, ValueError, TypeError, IndexError, StopIteration):
         return False
+
+
+
+def coordinated_attendance_aftermath_subject_valid(context, paragraph, person_id):
+    """Exact A與B、C並侍D于E; X平後 is a temporal actor, not the decedent.
+
+    No name/ID is hard-coded and no nearest-person rule is used.
+    """
+    required = {'kind','topic_mention_id','lead_subject_mention_id','companion_mention_ids',
+                'authority_mention_id','antecedent_actor_mention_id','temporal_actor_mention_id',
+                'disturbance_anchor','attendance_anchor','place_anchor','temporal_anchor','human_reviewed'}
+    try:
+        if (set(context) != required or context['kind'] != 'coordinated_attendance_then_actor_aftermath'
+                or context['human_reviewed'] is not False):
+            return False
+        text = paragraph['text']; ms = {m['id']:m for m in paragraph['mentions']}
+        topic, lead, authority, actor, temporal = [ms[context[k]] for k in ['topic_mention_id',
+            'lead_subject_mention_id','authority_mention_id','antecedent_actor_mention_id','temporal_actor_mention_id']]
+        companions = [ms[x] for x in context['companion_mention_ids']]
+        roles = [topic,lead,*companions,authority,actor,temporal]
+        if (not companions or len({m['id'] for m in roles}) != len(roles)
+                or any(m.get('kind') != 'person' for m in roles)
+                or topic['start'] != 0 or topic.get('person_id') != person_id or lead.get('person_id') != person_id
+                or min((m for m in paragraph['mentions'] if m.get('kind') == 'person'),key=lambda m:m['start'])['id'] != topic['id']
+                or actor.get('person_id') != temporal.get('person_id')
+                or len({m['person_id'] for m in [lead,*companions,authority,actor]}) != len(companions)+3):
+            return False
+        def anchored(a):
+            return (set(a)=={'paragraph_id','start','end','surface'} and a['paragraph_id']==paragraph['id']
+                and type(a['start'])is int and type(a['end'])is int and 0<=a['start']<a['end']<=len(text)
+                and text[a['start']:a['end']]==a['surface'])
+        disturbance, attendance, place, when = [context[k]for k in ['disturbance_anchor','attendance_anchor','place_anchor','temporal_anchor']]
+        if not all(anchored(x) for x in [disturbance,attendance,place,when]):
+            return False
+        # This branch has no speech-scope override. An unlayered quotation must
+        # not inherit the outer biography topic merely from this exact template.
+        if any(mark in text[:when['end']] for mark in ('曰','「','」','『','』')):
+            return False
+        expected = lead['surface']+'與'+'、'.join(m['surface']for m in companions)+'並侍'+authority['surface']+'于'+place['surface']
+        if (disturbance['surface'] != actor['surface']+'作亂' or disturbance['start'] != actor['start']
+                or attendance['surface'] != expected or attendance['start'] != lead['start']
+                or disturbance['end']+1 != attendance['start'] or text[disturbance['end']:attendance['start']] != '，'
+                or place['end'] != attendance['end'] or authority['end']+1 != place['start']
+                or attendance['end']+1 != when['start'] or text[attendance['end']:when['start']] != '。'
+                or when['surface'] != temporal['surface']+'平後' or when['start'] != temporal['start']):
+            return False
+        actual = [m['id']for m in sorted(paragraph['mentions'],key=lambda m:m['start'])
+                  if m.get('kind')=='person'and attendance['start']<=m['start']<when['end']]
+        return actual == [lead['id'],*[m['id']for m in companions],authority['id'],temporal['id']]
+    except (KeyError,TypeError,ValueError,StopIteration):
+        return False

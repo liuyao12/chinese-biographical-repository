@@ -2,7 +2,7 @@
   "format_version": "0.2",
   "record_type": "person_registry",
   "allocation": "人物根 ID 採三組隨機識別碼；家族成員使用家族後綴。ID 可依身份辨識、父系接合或使用者重置調整；調整時須完整更新引用並移除舊 ID 檔案，不設公開舊 ID 別名。後綴表示資料位置，不等於排行。",
-  "next_number": 6020,
+  "next_number": 6036,
   "persons": [
     {
       "id": "8jz_o3s_obt",
@@ -359574,7 +359574,9 @@
             "c-shiji-121-rulin:m021-0128",
             "c-shiji-121-rulin:m023-0025",
             "c-shiji-121-rulin:m024-0092",
-            "c-jinshu-075-xunsong-families:xunsong-body-138:p001:m0183"
+            "c-jinshu-075-xunsong-families:xunsong-body-138:p001:m0183",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0005",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0015"
           ]
         },
         {
@@ -359700,6 +359702,24 @@
           "source_id": "s-jinshu-075-xunsong-families",
           "paragraph_id": "c-jinshu-075-xunsong-families:xunsong-body-138:p001",
           "mention_id": "c-jinshu-075-xunsong-families:xunsong-body-138:p001:m0183",
+          "quote": "董仲舒"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0005",
+          "quote": "董仲舒"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0015",
           "quote": "董仲舒"
         }
       ]
@@ -361884,7 +361904,8 @@
             "c-shiji-112-pingjin:m030-0227",
             "c-shiji-126-huaji:m017-0045",
             "c-shiji-126-huaji:m018-0066",
-            "c-songshu-067-xielingyun:p006:m04244"
+            "c-songshu-067-xielingyun:p006:m04244",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-01-1:m0003"
           ]
         },
         {
@@ -362039,6 +362060,15 @@
           "source_id": "s-songshu-067-xielingyun",
           "paragraph_id": "c-songshu-067-xielingyun:p006",
           "mention_id": "c-songshu-067-xielingyun:p006:m04244",
+          "quote": "東方朔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-01-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-01-1:m0003",
           "quote": "東方朔"
         }
       ]
@@ -395708,13 +395738,18 @@
             "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0104",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0004",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0037",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0183"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0183",
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0005"
           ]
         },
         {
           "surface": "荀淑",
           "mention_ids": [
-            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000"
+            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1:m0007",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0000"
           ]
         },
         {
@@ -395802,6 +395837,51 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0183",
           "quote": "淑"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0005",
+          "quote": "淑"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1:m0007",
+          "quote": "荀淑"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01:m0000",
+          "quote": "荀淑"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0000",
+          "quote": "荀淑"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0000",
+          "quote": "荀淑"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -395820,7 +395900,8 @@
             "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0004",
             "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0008",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0094",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u019:m0199"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u019:m0199",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0004"
           ]
         }
       ],
@@ -395869,6 +395950,15 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u019",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u019:m0199",
           "quote": "儉"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0004",
+          "quote": "儉"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -395907,7 +395997,8 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0095",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004:m0026",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004:m0089",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004:m0224"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004:m0224",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0005"
           ]
         }
       ],
@@ -395965,6 +396056,15 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u004:m0224",
           "quote": "緄"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0005",
+          "quote": "緄"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -396001,7 +396101,8 @@
             "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0184",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0096",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0210",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0237"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0237",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0006"
           ]
         },
         {
@@ -396066,6 +396167,15 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0254",
           "quote": "叔慈"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0006",
+          "quote": "靖"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -396100,7 +396210,8 @@
           "surface": "燾",
           "mention_ids": [
             "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0185",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0097"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0097",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0007"
           ]
         }
       ],
@@ -396121,6 +396232,15 @@
           "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0097",
+          "quote": "燾"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0007",
           "quote": "燾"
         }
       ],
@@ -396155,7 +396275,9 @@
         {
           "surface": "汪",
           "mention_ids": [
-            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0186"
+            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0186",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0008",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0025"
           ]
         }
       ],
@@ -396167,6 +396289,24 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0186",
+          "quote": "汪"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0008",
+          "quote": "汪"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0025",
           "quote": "汪"
         }
       ],
@@ -396213,7 +396353,9 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0221",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0239",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0431",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0442"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0442",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0009",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0003"
           ]
         },
         {
@@ -396424,6 +396566,24 @@
           "paragraph_id": "c-jinshu-039-wangxun-feng:appraisal:l146",
           "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0297",
           "quote": "慈明"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0009",
+          "quote": "爽"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-03:m0003",
+          "quote": "爽"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -396458,7 +396618,8 @@
           "surface": "肅",
           "mention_ids": [
             "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0188",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0100"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0100",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0010"
           ]
         }
       ],
@@ -396479,6 +396640,15 @@
           "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0100",
+          "quote": "肅"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0010",
           "quote": "肅"
         }
       ],
@@ -396513,7 +396683,11 @@
         {
           "surface": "專",
           "mention_ids": [
-            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0189"
+            "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0189",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0011",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0028",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0035",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0041"
           ]
         }
       ],
@@ -396525,6 +396699,42 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0189",
+          "quote": "專"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0011",
+          "quote": "專"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0028",
+          "quote": "專"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0035",
+          "quote": "專"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0041",
           "quote": "專"
         }
       ],
@@ -398868,7 +399078,8 @@
           "mention_ids": [
             "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0000",
             "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0011",
-            "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0060"
+            "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0060",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0003"
           ]
         },
         {
@@ -398974,6 +399185,15 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u023",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u023:m0401",
           "quote": "荀悅"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0003",
+          "quote": "恱"
         }
       ],
       "identity_note": "依本次固定三史選段及上下文辨識；未補本段未載姓名、生卒或親屬。",
@@ -399984,7 +400204,8 @@
           "surface": "靈帝",
           "mention_ids": [
             "c-houhanshu-062-xunhan-zhongchen:yue-intro:p001:m0047",
-            "c-sanguozhi-022-chenqun-chentai:p003:m0032"
+            "c-sanguozhi-022-chenqun-chentai:p003:m0032",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0457"
           ]
         }
       ],
@@ -400005,6 +400226,15 @@
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p003",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p003:m0032",
+          "quote": "靈帝"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0457",
           "quote": "靈帝"
         }
       ],
@@ -402295,6 +402525,24 @@
           "chapter_id": "c-jinshu-042-taiyuan-wang",
           "paragraph_id": "c-jinshu-042-taiyuan-wang:line042",
           "mention_id": "c-jinshu-042-taiyuan-wang:line042:m0058",
+          "quote": "濟"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangji",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangji:m0006",
+          "quote": "子"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0011",
           "quote": "濟"
         }
       ],
@@ -405238,6 +405486,24 @@
           "paragraph_id": "c-jinshu-039-wangxun-feng:xu-full:l115",
           "quote": "王渾",
           "mention_id": "c-jinshu-039-wangxun-feng:xu-full:l115:m0042"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangji",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangji:m0004",
+          "quote": "渾"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0012",
+          "quote": "父"
         }
       ],
       "identity_note": "依固定晉書選段與敘事上下文辨識；不補未載本名、日期、父母或婚姻。",
@@ -460844,6 +461110,42 @@
           "paragraph_id": "c-jinshu-079-xielang-family:phase6-line045",
           "quote": "王坦之",
           "mention_id": "c-jinshu-079-xielang-family:phase6-line045:m0028"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan:m0019",
+          "quote": "文度"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan:m0026",
+          "quote": "王文度"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan:m0030",
+          "quote": "坦之"
+        },
+        {
+          "work_id": "w-gujin-tongxingminglu",
+          "book_id": "b-gujin-tongxingminglu-001",
+          "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+          "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+          "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan",
+          "mention_id": "c-gujin-tongxingminglu-001-wang-entries:wangtan:m0037",
+          "quote": "王坦"
         }
       ],
       "identity_note": "此為批次暫存鍵，匯入時由主代理配置正式ID；不代表已發新ID。 本批身份只限固定見證，未經人工覆核。",
@@ -476452,14 +476754,19 @@
             "c-sanguozhi-022-chenqun-chentai:p008:m0057",
             "c-sanguozhi-022-chenqun-chentai:p009:m0172",
             "c-sanguozhi-022-chenqun-chentai:p015:m0020",
-            "c-sanguozhi-022-chenqun-chentai:p016:m0004"
+            "c-sanguozhi-022-chenqun-chentai:p016:m0004",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0345",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0017",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0027"
           ]
         },
         {
           "surface": "長文",
           "mention_ids": [
             "c-sanguozhi-022-chenqun-chentai:p001:m0003",
-            "c-sanguozhi-022-chenqun-chentai:p006:m0085"
+            "c-sanguozhi-022-chenqun-chentai:p006:m0085",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0002"
           ]
         },
         {
@@ -476545,6 +476852,12 @@
           "surface": "司空羣",
           "mention_ids": [
             "c-sanguozhi-022-chenqun-chentai:p015:m0017"
+          ]
+        },
+        {
+          "surface": "公",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0354"
           ]
         }
       ],
@@ -477186,6 +477499,60 @@
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0004",
+          "quote": "羣"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0345",
+          "quote": "羣"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0354",
+          "quote": "公"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0000",
+          "quote": "羣"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0002",
+          "quote": "長文"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0017",
+          "quote": "羣"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0027",
           "quote": "羣"
         }
       ],
@@ -493047,7 +493414,8 @@
             "c-sanguozhi-010-osaka1670-ni-heng-interface:u004:m0006",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0060",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u004:m0067",
-            "c-sanguozhi-022-chenqun-chentai:p001:m0046"
+            "c-sanguozhi-022-chenqun-chentai:p001:m0046",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0009"
           ]
         },
         {
@@ -493207,6 +493575,15 @@
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p001",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p001:m0046",
+          "quote": "孔融"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0009",
           "quote": "孔融"
         }
       ],
@@ -493553,7 +493930,8 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u002:m0032",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u019:m0208",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u002:m0014",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0000"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0021"
           ]
         }
       ],
@@ -493592,6 +493970,15 @@
           "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0000",
+          "quote": "張璠"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0021",
           "quote": "張璠"
         }
       ],
@@ -497053,7 +497440,8 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u008:m0008",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u005:m0022",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u005:m0056",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0411"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0411",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0097"
           ]
         },
         {
@@ -497063,7 +497451,21 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u005:m0189",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u005:m0030",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u007:m0008",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u008:m0007"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u008:m0007",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0128",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0273"
+          ]
+        },
+        {
+          "surface": "公",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0208"
+          ]
+        },
+        {
+          "surface": "自",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0260"
           ]
         }
       ],
@@ -497174,6 +497576,51 @@
           "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u008",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u008:m0007",
+          "quote": "卓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0097",
+          "quote": "董卓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0128",
+          "quote": "卓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0208",
+          "quote": "公"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0260",
+          "quote": "自"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0273",
           "quote": "卓"
         }
       ],
@@ -497511,7 +497958,8 @@
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u021:m0010",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:full:u023:m0756",
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u006:m0086",
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u011:m0125"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u011:m0125",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0322"
           ]
         },
         {
@@ -497951,6 +498399,15 @@
           "paragraph_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u013",
           "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u013:m0216",
           "quote": "紹"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0322",
+          "quote": "袁紹"
         }
       ],
       "identity_note": "本固定卷010單元及獨立大阪1670接口內辨識；正文與裴注、引古、書信及作者分域。未補本傳之外出生、母親、任職年代；異名疑讀另留未決。",
@@ -501674,7 +502131,10 @@
           "mention_ids": [
             "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u005:m0000",
             "c-sanguozhi-022-chenqun-chentai:p003:m0035",
-            "c-sanguozhi-022-chenqun-chentai:p005:m0008"
+            "c-sanguozhi-022-chenqun-chentai:p005:m0008",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0709",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0779",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-07-1:m0007"
           ]
         }
       ],
@@ -501704,6 +502164,33 @@
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p005",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p005:m0008",
+          "quote": "何進"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0709",
+          "quote": "何進"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0779",
+          "quote": "何進"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-07-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-07-1:m0007",
           "quote": "何進"
         }
       ],
@@ -516968,25 +517455,52 @@
             "c-sanguozhi-022-chenqun-chentai:p004:m0003",
             "c-sanguozhi-022-chenqun-chentai:p005:m0022",
             "c-sanguozhi-022-chenqun-chentai:p005:m0062",
-            "c-sanguozhi-022-chenqun-chentai:p015:m0010"
+            "c-sanguozhi-022-chenqun-chentai:p015:m0010",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0090",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0157",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0180",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0202",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0281",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0339",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0364",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0431",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0439",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0502",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0515",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0521",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0576",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0634",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0692",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0718",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0727",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0733",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0012"
           ]
         },
         {
           "surface": "吾",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p001:m0042"
+            "c-sanguozhi-022-chenqun-chentai:p001:m0042",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0441"
           ]
         },
         {
           "surface": "仲弓",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p002:m0002"
+            "c-sanguozhi-022-chenqun-chentai:p002:m0002",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0003"
           ]
         },
         {
           "surface": "之",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p003:m0031"
+            "c-sanguozhi-022-chenqun-chentai:p003:m0031",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0060",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0123",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0257",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0421",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0700",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0752"
           ]
         },
         {
@@ -516998,13 +517512,16 @@
         {
           "surface": "其",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p004:m0010"
+            "c-sanguozhi-022-chenqun-chentai:p004:m0010",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0296",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0570"
           ]
         },
         {
           "surface": "文範先生",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p005:m0016"
+            "c-sanguozhi-022-chenqun-chentai:p005:m0016",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0807"
           ]
         },
         {
@@ -517016,7 +517533,49 @@
         {
           "surface": "長",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p015:m0052"
+            "c-sanguozhi-022-chenqun-chentai:p015:m0052",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0359"
+          ]
+        },
+        {
+          "surface": "陳寔",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0000"
+          ]
+        },
+        {
+          "surface": "陳君",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0239",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0267",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0388",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0557",
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0006"
+          ]
+        },
+        {
+          "surface": "己",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0278"
+          ]
+        },
+        {
+          "surface": "父",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0053",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0011"
+          ]
+        },
+        {
+          "surface": "陳先生",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-discussion:m0051"
+          ]
+        },
+        {
+          "surface": "太丘",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0018"
           ]
         }
       ],
@@ -517191,6 +517750,384 @@
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p015",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p015:m0052",
           "quote": "長"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0000",
+          "quote": "陳寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0003",
+          "quote": "仲弓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0060",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0090",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0123",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0157",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0180",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0202",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0239",
+          "quote": "陳君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0257",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0267",
+          "quote": "陳君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0278",
+          "quote": "己"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0281",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0296",
+          "quote": "其"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0339",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0364",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0388",
+          "quote": "陳君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0421",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0431",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0439",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0441",
+          "quote": "吾"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0502",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0515",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0521",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0557",
+          "quote": "陳君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0570",
+          "quote": "其"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0576",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0634",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0692",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0700",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0718",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0727",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0733",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0752",
+          "quote": "之"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0807",
+          "quote": "文範先生"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0053",
+          "quote": "父"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0359",
+          "quote": "長"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0011",
+          "quote": "父"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0012",
+          "quote": "寔"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-discussion",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-discussion:m0051",
+          "quote": "陳先生"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0006",
+          "quote": "陳君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0018",
+          "quote": "太丘"
         }
       ],
       "review": "ai_provisional",
@@ -517216,7 +518153,20 @@
             "c-sanguozhi-022-chenqun-chentai:p003:m0066",
             "c-sanguozhi-022-chenqun-chentai:p005:m0023",
             "c-sanguozhi-022-chenqun-chentai:p005:m0063",
-            "c-sanguozhi-022-chenqun-chentai:p015:m0015"
+            "c-sanguozhi-022-chenqun-chentai:p015:m0015",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0814",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0000",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0137",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0179",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0279",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0293",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0329",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0330",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0018",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0023",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0031",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0006",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0013"
           ]
         },
         {
@@ -517240,7 +518190,9 @@
         {
           "surface": "元方",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p002:m0006"
+            "c-sanguozhi-022-chenqun-chentai:p002:m0006",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0002",
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1:m0002"
           ]
         },
         {
@@ -517252,7 +518204,8 @@
         {
           "surface": "陳子",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p003:m0085"
+            "c-sanguozhi-022-chenqun-chentai:p003:m0085",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0039"
           ]
         },
         {
@@ -517265,7 +518218,16 @@
           "surface": "卿",
           "mention_ids": [
             "c-sanguozhi-022-chenqun-chentai:p015:m0049",
-            "c-sanguozhi-022-chenqun-chentai:p015:m0050"
+            "c-sanguozhi-022-chenqun-chentai:p015:m0050",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0356",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0357"
+          ]
+        },
+        {
+          "surface": "其",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0024",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0082"
           ]
         }
       ],
@@ -517458,6 +518420,186 @@
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p015",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p015:m0050",
           "quote": "卿"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0814",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0000",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0002",
+          "quote": "元方"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0024",
+          "quote": "其"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0039",
+          "quote": "陳子"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0082",
+          "quote": "其"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0137",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0179",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0279",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0293",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0329",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0330",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0356",
+          "quote": "卿"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0357",
+          "quote": "卿"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0018",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0023",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-05-1:m0031",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0006",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0013",
+          "quote": "紀"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-1:m0002",
+          "quote": "元方"
         }
       ],
       "review": "ai_provisional",
@@ -517478,13 +518620,18 @@
             "c-sanguozhi-022-chenqun-chentai:p003:m0059",
             "c-sanguozhi-022-chenqun-chentai:p005:m0029",
             "c-sanguozhi-022-chenqun-chentai:p005:m0064",
-            "c-sanguozhi-022-chenqun-chentai:p016:m0011"
+            "c-sanguozhi-022-chenqun-chentai:p016:m0011",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0815",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0001",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0042",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0014"
           ]
         },
         {
           "surface": "季方",
           "mention_ids": [
-            "c-sanguozhi-022-chenqun-chentai:p002:m0010"
+            "c-sanguozhi-022-chenqun-chentai:p002:m0010",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0003"
           ]
         }
       ],
@@ -517559,6 +518706,51 @@
           "source_id": "s-sanguozhi-022-chenqun-chentai",
           "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
           "mention_id": "c-sanguozhi-022-chenqun-chentai:p016:m0011",
+          "quote": "諶"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0815",
+          "quote": "諶"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0001",
+          "quote": "諶"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0003",
+          "quote": "季方"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body:m0042",
+          "quote": "諶"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-1:m0014",
           "quote": "諶"
         }
       ],
@@ -522088,6 +523280,638 @@
       ],
       "identity_note": "固定WS2108782卷039完整敘事原字辨識；未載父母/出生/字名構件不補。身份/異文與族根接合提案分層；字母不表排行。",
       "review": "ai_provisional"
+    },
+    {
+      "id": "us8_ru4_8xj",
+      "label": "鄧邵",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "鄧邵",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0054"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0054",
+          "quote": "鄧邵"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "2mn_g8v_76p",
+      "label": "侯覽",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "侯覽",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0141"
+          ]
+        },
+        {
+          "surface": "侯常侍",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0174",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0234"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0141",
+          "quote": "侯覽"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0174",
+          "quote": "侯常侍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0234",
+          "quote": "侯常侍"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "rrg_6v0_7l0",
+      "label": "髙倫",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "髙倫",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0146",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-01-1:m0005"
+          ]
+        },
+        {
+          "surface": "倫",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0150",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0191",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0207",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0225",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-02-1:m0009"
+          ]
+        },
+        {
+          "surface": "吾",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0231"
+          ]
+        },
+        {
+          "surface": "君",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0274"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0146",
+          "quote": "髙倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0150",
+          "quote": "倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0191",
+          "quote": "倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0207",
+          "quote": "倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0225",
+          "quote": "倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0231",
+          "quote": "吾"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0274",
+          "quote": "君"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-01-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-01-1:m0005",
+          "quote": "髙倫"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body-note-02-1:m0009",
+          "quote": "倫"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "fdg_9lt_n54",
+      "label": "黄瓊",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "黄瓊",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0300"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0300",
+          "quote": "黄瓊"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "fm2_09a_e2z",
+      "label": "竇武",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "竇武",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0463"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0463",
+          "quote": "竇武"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "27r_ui1_fod",
+      "label": "張讓",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "張讓",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0474"
+          ]
+        },
+        {
+          "surface": "讓",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0480",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0498",
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0513"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0474",
+          "quote": "張讓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0480",
+          "quote": "讓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0498",
+          "quote": "讓"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0513",
+          "quote": "讓"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "zal_4gf_dzs",
+      "label": "楊賜",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "楊賜",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0674"
+          ]
+        },
+        {
+          "surface": "賜",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0688"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0674",
+          "quote": "楊賜"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0688",
+          "quote": "賜"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "uei_fs3_fxn",
+      "label": "陳耽",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "陳耽",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0678"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0678",
+          "quote": "陳耽"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "ong_olf_f39",
+      "label": "袁隗",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "袁隗",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0713"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body:m0713",
+          "quote": "袁隗"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "y2c_5yn_lpn",
+      "label": "沈尹戍",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "沈尹戍",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-02-1:m0004"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-02-1",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body-note-02-1:m0004",
+          "quote": "沈尹戍"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "foc_gnk_id0",
+      "label": "鍾皓",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "皓",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0009"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0009",
+          "quote": "皓"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "r9j_2e4_j6o",
+      "label": "韓韶",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "韓韶",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0010",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-07:m0000"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium:m0010",
+          "quote": "韓韶"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-07",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-07:m0000",
+          "quote": "韓韶"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "y0r_blj_zn7",
+      "label": "劉攽",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "劉攽",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-2:m0001",
+            "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-2:m0001"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-2",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-chen-body-note-02-2:m0001",
+          "quote": "劉攽"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-2",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:author-encomium-note-02-2:m0001",
+          "quote": "劉攽"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "ebk_50i_uo2",
+      "label": "何焯",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "何焯",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-04:m0011"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-04",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-04:m0011",
+          "quote": "何焯"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "c8y_h6s_hea",
+      "label": "世駿",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "世駿",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01:m0022",
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0014"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-01:m0022",
+          "quote": "世駿"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-02:m0014",
+          "quote": "世駿"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
+    },
+    {
+      "id": "xig_nem_77z",
+      "label": "良裘",
+      "status": "active",
+      "historicity": "historical_tradition",
+      "aliases": [
+        {
+          "surface": "良裘",
+          "mention_ids": [
+            "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0016"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:qing-collation-05:m0016",
+          "quote": "良裘"
+        }
+      ],
+      "review": "ai_provisional",
+      "identity_note": "固定卷062來源人物；清署名不補姓，原文異體保留。"
     }
   ]
 }

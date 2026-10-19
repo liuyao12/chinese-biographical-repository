@@ -21,7 +21,9 @@ def civil_era_range_errors(value, evidence, expression):
              and isinstance(polity, str) and bool(polity)
              and type(first) is int and type(last) is int and 0 < first < last
              and mapping.get('kind') == 'ce_regnal_era_span'
-             and expression == name + '中' == value.get('source_expression')
+             and expression in tuple(name + stage for stage in ('初', '中', '末'))
+             and expression == value.get('source_expression')
+             and (expression.endswith('中') or value.get('source_stage') == expression[-1])
              and value.get('evidence') == evidence and isinstance(evidence, list) and bool(evidence)
              and isinstance(value.get('original_quote'), str)
              and all(isinstance(e, dict) and isinstance(e.get('quote'), str) for e in evidence)
@@ -35,7 +37,7 @@ def civil_era_range_errors(value, evidence, expression):
              and bool(value.get('rationale')) and bool(value.get('reviewer'))
              and value.get('human_reviewed') is False)
     if not valid:
-        errors.append('中國曆年號範圍須保留中原詞、政體及相符年號起迄，不得選定單年')
+        errors.append('中國曆年號範圍須保留初中末原詞、政體及相符年號起迄，不得選定單年')
     for key, year in [('earliest', first), ('latest', last)]:
         point = value.get(key)
         if (point != {'era': 'CE', 'era_year': year, 'year': year}

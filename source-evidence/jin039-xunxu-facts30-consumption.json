@@ -1841,12 +1841,13 @@
         "full_context": "邃字道玄，解音樂，善談論。弱冠辟趙王倫相國掾，遷太子洗馬。長沙王乂以為參軍。乂敗，成都王為皇太弟，精選僚屬，以邃為中舍人。鄴城不守，隨藩在密。元帝召為丞相從事中郎，以道險不就。愍帝就加左將軍、陳留相。父憂去職，服闋，襲封。愍帝欲納邃女，先徵為散騎常侍。邃懼西都危逼，故不應命，而東渡江，元帝以為軍諮祭酒。太興初，拜侍中。邃與刁協婚親，時協執權，欲以邃為吏部尚書，邃深距之。尋而王敦討協，協黨與並及於難，唯邃以疏協獲免。敦表為廷尉，以疾不拜。遷太常，轉尚書。蘇峻作亂，邃與王導、荀崧並侍天子于石頭。峻平後卒，贈金紫光祿大夫，諡曰靖。子汪嗣。",
         "date": null,
         "period_end": null,
-        "note": "相對事件年待固定橋；死亡null可記，不填出生",
+        "note": "相對事件年待固定橋；死亡null可記，不填出生；金紫光祿大夫已由受限共同動作/事件後語境模型原生追贈，無確年。",
         "human_reviewed": false,
         "image_verified": false,
         "native_targets": [
           "th-jin039-xu30-047",
-          "le-jin039-xu30-sui"
+          "le-jin039-xu30-sui",
+          "th-wang27-xunsui-jinzi"
         ],
         "reused_targets": [],
         "typed_targets": [
@@ -5218,7 +5219,8 @@
           ],
           "native_targets": [
             "th-jin039-xu30-047",
-            "le-jin039-xu30-sui"
+            "le-jin039-xu30-sui",
+            "th-wang27-xunsui-jinzi"
           ],
           "interpretation": "相對事件年待固定橋；死亡null可記，不填出生",
           "date_expression": null,
@@ -5227,8 +5229,9 @@
           "action": "posthumous_gift",
           "title": "金紫光祿大夫",
           "recipient_person_id": "yoo_ox0_545_FAAAAA",
-          "native_supported": false,
-          "reason": "current death_then_gift helper rejects intervening other people; no new model requested"
+          "native_supported": true,
+          "reason": "具名邃與他人共同侍天子的主語、峻平後時間角色及既有同人死亡逐字綁定，已原生追贈，不以nearest person判斷。",
+          "model_consumption_holding_id": "th-wang27-xunsui-jinzi"
         },
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,

@@ -8,7 +8,56 @@
   "names": [
     "劉亮"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin039-rest37-145",
+      "person_id": "fa4_571_a59",
+      "title": "渤海太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042",
+          "quote": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042:m0051"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin039-rest37-145:a001",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042",
+          "start": 47,
+          "end": 51,
+          "surface": "渤海太守",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042:m0051",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "前只修飾渤海太守；不把籍貫燕國當王悌官署。 原動作：former_attested_office；任期未明不補；不以死亡截止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -11919,7 +11968,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin039-rest37-149",
+      "person_id": "fa4_571_a59",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "並切諫，浚怒，誅之",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-039",
+          "source_id": "s-jinshu-039-wangxun-feng",
+          "chapter_id": "c-jinshu-039-wangxun-feng",
+          "paragraph_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042",
+          "quote": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。",
+          "person_mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l042:m0051"
+        }
+      ],
+      "interpretation_note": "之承並切諫三人，分三死亡但共享原句，不合三人身份。 不補死因/年齡/出生或官職終止。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

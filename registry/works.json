@@ -1795,6 +1795,36 @@
         }
       ],
       "note": "本卷書/篇名用例，不表示已匯入其全文或校定傳本；王沈魏書不合魏收魏書，詩篇不補全文。"
+    },
+    {
+      "id": "w-gujin-tongxingminglu",
+      "title": "古今同姓名錄",
+      "author": "傳梁元帝撰、唐陸善經續、元葉森補（依WYG卷題，原本未校）",
+      "genre": "姓名辨識類書",
+      "source_role": "historical_name_disambiguation_reference_compilation",
+      "status": "in_progress",
+      "expected_books": 2,
+      "scope_note": "選收五個完整同名條目；非正史，不稱全書已處理；提要與未署按語分層，未核書影。",
+      "books": [
+        {
+          "id": "b-gujin-tongxingminglu-001",
+          "work_id": "w-gujin-tongxingminglu",
+          "number": 1,
+          "title": "卷上",
+          "chapter_ids": [
+            "c-gujin-tongxingminglu-001-wang-entries"
+          ]
+        },
+        {
+          "id": "b-gujin-tongxingminglu-002",
+          "work_id": "w-gujin-tongxingminglu",
+          "number": 2,
+          "title": "卷下",
+          "chapter_ids": [
+            "c-gujin-tongxingminglu-002-wang-entries"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

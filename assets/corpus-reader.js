@@ -65,7 +65,10 @@ export function chapterParagraph(paragraph, people = {}, context = null) {
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  return `<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
+  const layerLabels={witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
+  const label=layerLabels[paragraph.text_layer];
+  const layerLabel=label?`<div class="corpus-text-layer" data-text-layer-label="${h(paragraph.text_layer)}">${h(label)}</div>`:'';
+  return layerLabel+`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();

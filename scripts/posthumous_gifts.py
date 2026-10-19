@@ -14,6 +14,8 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
         except ImportError:
             from explicit_topic_gifts import explicit_topic_gift_valid
         return explicit_topic_gift_valid(holding, paragraphs, mentions, life_events or {})
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'coordinated_attendance_death_then_gift':
+        return coordinated_attendance_gift_valid(holding, paragraphs, mentions, life_events or {})
     b = holding.get('posthumous_basis')
     if (not isinstance(b, dict) or set(b) != {'kind', 'source_term', 'death_term', 'grant_term', 'recipient_person_mention_id', 'evidence'}
             or b.get('kind') != 'death_then_explicit_gift' or holding.get('mode') != 'posthumous_grant'
@@ -168,3 +170,52 @@ def continued_subject_gift_valid(holding, paragraphs, mentions, life_events):
                    and text[a['start']:a['end']] == holding['title'] for a in holding.get('attestations', [])):
             return False
     return True
+
+
+
+def coordinated_attendance_gift_valid(holding, paragraphs, mentions, life_events):
+    """A bound coordinated action and actor-aftermath clause, not a free topic override."""
+    try:
+        from scripts.subject_continuation import coordinated_attendance_aftermath_subject_valid
+    except ImportError:
+        from subject_continuation import coordinated_attendance_aftermath_subject_valid
+    b = holding.get('posthumous_basis', {})
+    keys = {'kind','source_term','death_term','grant_term','recipient_person_mention_id','death_event_id',
+            'death_anchor','grant_anchor','subject_context','source_revision','paragraph_sha256','evidence'}
+    try:
+        import hashlib
+        if (set(b)!=keys or holding.get('mode')!='posthumous_grant' or holding.get('kind')!='office'
+                or len(b['evidence'])!=1 or b['evidence']!=holding.get('evidence')
+                or b['evidence']!=holding.get('effective_period',{}).get('start',{}).get('evidence')
+                or holding.get('effective_period',{}).get('start',{}).get('status')!='source_event'
+                or holding.get('effective_period',{}).get('start',{}).get('event_type')!='posthumous_grant'):
+            return False
+        e=b['evidence'][0];hit=paragraphs[e['paragraph_id']];p=hit[1];text=p['text'];event=life_events[b['death_event_id']]
+        recipient=mentions[b['recipient_person_mention_id']]
+        if (p.get('text_layer')!='received_chapter' or e['quote']!=text or b['source_term']!=text
+                or b['paragraph_sha256']!=hashlib.sha256(text.encode()).hexdigest()
+                or b['source_revision']!=p['source_position']['revision_id']
+                or recipient[1]!=p['id'] or recipient[2].get('person_id')!=holding['person_id']
+                or b['subject_context']['topic_mention_id']!=recipient[2]['id']
+                or e.get('person_mention_id')!=recipient[2]['id']
+                or not coordinated_attendance_aftermath_subject_valid(b['subject_context'],p,holding['person_id'])
+                or event.get('person_id')!=holding['person_id'] or event.get('event_type')!='death'
+                or event.get('status')!='source_attested' or e not in event.get('evidence',[])):
+            return False
+        def anchored(a):
+            return (set(a)=={'paragraph_id','start','end','surface'}and a['paragraph_id']==p['id']
+                and type(a['start'])is int and type(a['end'])is int and 0<=a['start']<a['end']<=len(text)
+                and text[a['start']:a['end']]==a['surface'])
+        d,g=b['death_anchor'],b['grant_anchor'];when=b['subject_context']['temporal_anchor']
+        if (not anchored(d) or not anchored(g) or d['start']!=when['start']
+                or d['surface']!=when['surface']+'卒' or b['death_term']!=d['surface']
+                or event.get('source_term')!=d['surface'] or event.get('date_expression')!=when['surface']
+                or g['surface']!='贈'+holding['title'] or b['grant_term']!=g['surface']
+                or d['end']+1!=g['start'] or text[d['end']:g['start']]!='，'):
+            return False
+        return any(a.get('paragraph_id')==p['id']and a.get('person_mention_id')==recipient[2]['id']
+                and a.get('surface')==holding['title']and a.get('start')==g['start']+1
+                and a.get('end')==g['end']and a.get('usage')=='posthumous_usage'and text[a['start']:a['end']]==holding['title']
+                for a in holding.get('attestations',[]))
+    except (KeyError,TypeError,ValueError,IndexError):
+        return False

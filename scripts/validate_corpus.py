@@ -457,7 +457,12 @@ def validate(root=ROOT):
                 check(x.get('id')==p['id'] and ''.join(x.itertext())==p['text'], 'XML 正文還原與 JSON 不符')
                 check(x.get('annotation-status')==p.get('annotation_status'),'XML 段落標註狀態不符')
                 check(x.get('text-layer')==p.get('text_layer'),'XML 文字層次不符')
-                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan'),'文字層次無效')
+                if 'text_layer' in p: check(p['text_layer'] in ('received_chapter','witness_appended_pei_songzhi_note','witness_appended_bangu_note','witness_appended_suoyin_zan','witness_appended_chu_note','witness_appended_zhengyi_note','witness_appended_edict','witness_duyu_annotation_excerpt','witness_received_text_and_duyu_annotation_excerpt','witness_peisongzhi_quoted_simabiao_xuzhuan','witness_appended_lixian_note','witness_appended_liuban_collation','witness_appended_qing_siku_collation'),'文字層次無效')
+                try:
+                    from scripts.houhan_text_layers import layer_errors
+                except ImportError:
+                    from houhan_text_layers import layer_errors
+                for issue in layer_errors(p): check(False,issue)
                 xm=list(x)
                 check(len(xm)==len(p['mentions']), 'XML 提及數不符')
                 check(all(e.tag in ('persName','rs','title','seg') for e in x),'XML 含未知正文標籤')

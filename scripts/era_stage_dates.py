@@ -37,6 +37,8 @@ def staged_scope_valid(date, chapters):
         from scripts.relative_biography_scope import valid
     except ImportError:
         from relative_biography_scope import valid
+    if date.get('narrative_era_scope', {}).get('kind') == 'same_fixed_paragraph_era_stage':
+        return local_scope_valid(date, chapters)
     if not valid(date, chapters):
         return False
     try:
@@ -108,3 +110,39 @@ def staged_scope_valid(date, chapters):
 
 # 固定教育部年號表page2 SHA193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65
 KNOWN_ERAS = ['中大同', '中大通', '中興', '五鳳', '元嘉', '元康', '元徽', '元熙', '元興', '光大', '光熙', '升平', '咸和', '咸安', '咸寧', '咸康', '大同', '大寶', '大明', '大通', '天嘉', '天康', '天成', '天正', '天璽', '天監', '天紀', '天興', '天賜', '太元', '太和', '太安', '太寧', '太平', '太康', '太延', '太建', '太清', '太熙', '太興', '始光', '孝建', '寧康', '寶鼎', '延和', '延興', '建元', '建武', '建興', '建衡', '承聖', '昇明', '普通', '景和', '景平', '永元', '永光', '永初', '永和', '永嘉', '永安', '永定', '永寧', '永平', '永康', '永昌', '永明', '永泰', '永熙', '永興', '泰始', '泰常', '泰豫', '甘露', '登國', '皇始', '神瑞', '神鳳', '禎明', '紹泰', '義熙', '至德', '興寧', '隆和', '隆安', '隆昌', '鳳凰']
+
+
+def local_scope_valid(date, chapters):
+    """No ruler inferred: exact single paragraph and explicitly bound biography subject."""
+    try:
+        s=date['narrative_era_scope'];ch=chapters[s['chapter_id']]
+        p=next(x for x in ch['paragraphs'] if x['id']==s['paragraph_id'])
+        if (s['source_id']!=ch['source_id'] or s['revision_id']!=ch['source']['revision_id']
+            or s['witness_sha256']!=ch['source']['wikitext_sha256']
+            or s['full_paragraph']!=p['text'] or s['source_position']!=p['source_position']
+            or s['human_reviewed'] is not False or any('ruler' in k for k in s)):
+            return False
+        def exact(a):
+            return (set(a)=={'paragraph_id','start','end','surface'} and a['paragraph_id']==p['id']
+                    and type(a['start'])is int and type(a['end'])is int
+                    and 0<=a['start']<a['end']<=len(p['text']) and p['text'][a['start']:a['end']]==a['surface'])
+        a,d=s['era_anchor'],s['event_date_anchor'];b=s['event_binding'];tr=b['source_term_anchor'];t=b['title_anchor']
+        m=date['regnal_year_mapping'];r=date['relative_year_reference']
+        sm=next(x for x in p['mentions'] if x['id']==s['unit_subject_mention_id'])
+        if (sm.get('kind')!='person' or sm.get('person_id')!=s['unit_subject_person_id'] or sm['start']!=0
+            or b['person_id']!=s['unit_subject_person_id'] or b['human_reviewed'] is not False
+            or b['subject_mention_id']!=sm['id'] or b['subject_paragraph_id']!=p['id']
+            or b['event_type']!='title_grant' or not all(exact(x) for x in (a,d,tr,t))
+            or not sm['end']<=a['start']<a['end']<=d['start']<d['end']<=tr['start']<tr['end']<=t['start']
+            or a['surface']!=r['era_expression'] or a['surface'] not in tuple(m['era_name']+x for x in ('初','中','末'))
+            or d['surface']!=date['source_expression'] or tr['surface']!='除'
+            or m['year_offset']!=0 or p['text'][d['end']:tr['start']] not in ('', '，', '來朝，')):return False
+        # This narrow grammar allows narrative actions, but no switched subject, quotation or new era/date.
+        between=p['text'][a['end']:tr['start']]
+        if any(x.get('kind')=='person' and x.get('person_id')!=b['person_id'] and a['end']<=x['start']<tr['end'] for x in p['mentions']):return False
+        if any(x in between for x in ('曰','云','言','初，','先是')):return False
+        if any(e in between for e in KNOWN_ERAS):return False
+        dates=list(re.finditer('[元一二三四五六七八九十]+年',between))
+        if len(dates)!=1 or a['end']+dates[0].start()!=d['start'] or a['end']+dates[0].end()!=d['end']:return False
+        return date['evidence'][-1]['paragraph_id']==p['id'] and date['evidence'][-1]['quote']==p['text']
+    except (KeyError,TypeError,ValueError,StopIteration,IndexError):return False

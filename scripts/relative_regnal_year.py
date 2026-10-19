@@ -60,7 +60,7 @@ def relative_regnal_year_valid(date, parse_number, chapters=None):
             return False
     if number == '元' and 'narrative_era_scope' not in date:
         return False
-    if 'narrative_era_scope' in date:
+    if 'narrative_era_scope' in date and date['narrative_era_scope'].get('kind') != 'same_fixed_paragraph_era_stage':
         try:
             from scripts.relative_biography_scope import valid
         except ImportError:

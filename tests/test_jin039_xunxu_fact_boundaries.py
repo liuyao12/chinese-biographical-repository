@@ -19,11 +19,23 @@ class XunxuFactBoundaries(unittest.TestCase):
     def test_declined_appointments_are_not_active_holdings(self):
         holdings = read("corpus/jinshu/039-titles.json")["holdings"]
         rejected = {("yoo_ox0_545_FAAAA", "司空"), ("yoo_ox0_545_FAAAC", "太子太保"), ("yoo_ox0_545_FAAACA", "中舍人"), ("yoo_ox0_545_FAAACA", "散騎侍郎")}
-        for holding in holdings:
-            self.assertNotIn((holding["person_id"], holding["title"]), rejected)
+        # Only the declined-source increment is prohibited from creating these
+        # holdings. Another passage may attest the same title without proving
+        # the declined appointment was accepted.
         added = [h for h in holdings if h["id"].startswith("th-jin039-xu30-")]
+        for holding in added:
+            self.assertNotIn((holding["person_id"], holding["title"]), rejected)
         self.assertEqual(len(added), 100)
         self.assertFalse(any(h["title"] == "濟北郡公" for h in added))
+
+    def test_separate_narrative_title_is_not_a_grant(self):
+        holdings = read("corpus/jinshu/039-titles.json")["holdings"]
+        record = next(h for h in holdings if h["id"] == "th-jin039-rest37-115")
+        self.assertEqual((record["person_id"], record["title"], record["mode"]),
+                         ("yoo_ox0_545_FAAAA", "司空", "attestation"))
+        self.assertIn("以司空荀藩為太尉", record["evidence"][0]["quote"])
+        self.assertEqual(record["effective_period"]["start"]["status"], "unknown")
+        self.assertEqual(record["effective_period"]["end"]["status"], "unknown")
 
     def test_consumption_anchors_match_received_text(self):
         audit = read("source-evidence/jin039-xunxu-facts30-consumption.json")
