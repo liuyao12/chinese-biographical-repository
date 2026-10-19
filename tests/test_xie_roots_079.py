@@ -93,13 +93,13 @@ class XieRoots079(unittest.TestCase):
             bad = copy.deepcopy(a)
             bad['object_person_id'] = self.people['王胡之']
             self.assertFalse(explicit_maternal_uncle_valid(bad, self.paragraphs))
-        p = self.c['paragraphs'][-1]
+        p = next(p for p in self.c['paragraphs'] if p['id'] == 'c-jinshu-079-xielang-family:p005')
         mentions = [m for m in p['mentions'] if m['surface'] == '舅']
         self.assertEqual(len(mentions), 2)
         self.assertEqual({m['person_id'] for m in mentions}, {self.people['謝重之舅（未名）']})
 
     def test_complete_name_huzhi_is_not_misparsed_as_possessive(self):
-        p = self.c['paragraphs'][-1]
+        p = next(p for p in self.c['paragraphs'] if p['id'] == 'c-jinshu-079-xielang-family:p005')
         m = next(m for m in p['mentions'] if m['person_id'] == self.people['王胡之'])
         self.assertEqual(m['surface'], '王胡之')
         name = next(n for n in read('data/corpus/profile-names.json')['records']
