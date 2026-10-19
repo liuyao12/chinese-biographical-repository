@@ -38,7 +38,8 @@ class WangBridges065(unittest.TestCase):
         self.assertEqual(sons, {self.people[n] for n in ['王悅', '王恬', '王洽', '王協', '王邵', '王薈']})
         self.assertNotIn(self.people['王珣'], sons)
         self.assertTrue(all('notes=' not in p['text'] for p in self.c['paragraphs']))
-        self.assertTrue(all('birth_order' not in a['qualifiers'] for a in self.rels if a['predicate'] == 'father'))
+        self.assertTrue(all('birth_order' not in a['qualifiers'] for a in self.rels
+                            if a['predicate'] == 'father' and a['object_person_id'] == self.people['王導']))
 
     def test_cousin_age_is_preserved_without_fabricated_distance(self):
         cousins = [a for a in self.rels if a['predicate'] == 'agnatic_cousin']
@@ -100,9 +101,12 @@ class WangBridges065(unittest.TestCase):
         import hashlib
         for p, x in zip(self.c['paragraphs'], self.c['source']['normalization']['excerpts']):
             self.assertEqual(hashlib.sha256(p['text'].encode()).hexdigest(), x['selected_text_sha256'])
-        self.assertEqual([p['source_position']['first_line'] for p in self.c['paragraphs']], [12, 60, 74, 88])
-        self.assertIn('邵', self.c['paragraphs'][1]['text'])
-        self.assertIn('昇平二年', self.c['paragraphs'][2]['text'])
+        paragraphs_by_source_line = {p['source_position']['first_line']: p for p in self.c['paragraphs']}
+        self.assertEqual(len(self.c['paragraphs']), 45)
+        self.assertTrue({12, 60, 74, 88}.issubset(paragraphs_by_source_line))
+        self.assertEqual(self.c['source']['text_scope'], 'full_chapter')
+        self.assertIn('邵', paragraphs_by_source_line[60]['text'])
+        self.assertIn('昇平二年', paragraphs_by_source_line[74]['text'])
         self.assertEqual(self.c['source']['revision_id'], 1756144)
 
 

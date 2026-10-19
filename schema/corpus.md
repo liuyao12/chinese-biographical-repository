@@ -708,3 +708,30 @@ XML 是 JSON 的同步可讀表示，使用本庫自訂的小型格式，不冒�
 暫定身份判斷可用 `alternatives` 保存仍未排除的其他人物，每項明記不同的 `person_id`、`status: not_preferred_but_not_excluded` 與理由。主項 `person_id` 是首選，狀態維持 `contextual_provisional`、`human_reviewed: false`；候選不是同指合併。主項與候選各自的人物來源包均收錄該判斷及原段，但不把候選當確定提及、親屬或身份別名。
 
 `maternal_role` 保存原文母親稱謂，方向為子女至被稱母者。`role: mother_unspecified` 保留「母某」；`role: prior_mother` 保留「前母」。兩者均須具同段雙人物錨點，`biological_mother: null`、`father_person_id: null`，不列入生母或自動生成配偶／父系。前母不可直接改作後母、繼母或生母；原文追贈提議是否採納另記。
+
+`context.kind: biographical_children_list` 保存完整傳主單元末的「有幾子：甲、乙。」明列名單。`father` 仍為子女至父親，原詞保留於 `qualifiers.source_term`、父系 `lineage: paternal`。名單順序只對照來源字位，不自動生成出生排行；另有長子、第幾子等明文應另記。
+
+`paragraph_ids` 依完整原序列出從正文開首具名傳主至名單的所有段；`evidence` 一段一個完整引文。`parent_mention_id` 必須是首段字位零的傳主，`child_mention_id` 是名單中的本子女；`list_member_mention_ids` 依原字位完整列出所有不同子女。各段同一 `unit_id`、固定修訂、原行與傳世正文文字層必須一致。
+
+`opening_heading_source_lines` 引用 `source.normalization.omitted_digital_paratext` 中同名數位節題的固定原行，節題緊接正文傳首。這只驗證單元邊界，父親身份仍來自正文人物錨點。中段同名人物或其他王侯不能替換傳主。
+
+段間只能直接相鄰，或由已核純空行 `verified_blank_line_gaps`、純數位節題補足；兩者均須有原行、原字、雜湊及同一修訂號，不能將被略正文改標空行或節題。`context` 另有 `rationale`、`status: contextual_provisional`、`human_reviewed: false`。本類型不處理不完整名單、未明示人數的泛稱或跨世系推測。
+
+
+### 明列子名單的完整單元證據
+
+`context.kind: biographical_children_list` 保存完整傳主單元末的「有幾子：甲、乙。」明列名單。`father` 仍為子女至父親，原詞保留於 `qualifiers.source_term`、父系 `lineage: paternal`。名單順序只對照來源字位，不自動生成出生排行；另有長子、第幾子等明文應另記。
+
+`paragraph_ids` 依完整原序列出從正文開首具名傳主至名單的所有段；`evidence` 一段一個完整引文。`parent_mention_id` 必須是首段字位零的傳主，`child_mention_id` 是名單中的本子女；`list_member_mention_ids` 依原字位完整列出所有不同子女。各段同一 `unit_id`、固定修訂、原行與傳世正文文字層必須一致。
+
+`opening_heading_source_lines` 引用 `source.normalization.omitted_digital_paratext` 中同名數位節題的固定原行，節題緊接正文傳首。這只驗證單元邊界，父親身份仍來自正文人物錨點。中段同名人物或其他王侯不能替換傳主。
+
+段間只能直接相鄰，或由已核純空行 `verified_blank_line_gaps`、純數位節題補足；兩者均須有原行、原字、雜湊及同一修訂號，不能將被略正文改標空行或節題。`context` 另有 `rationale`、`status: contextual_provisional`、`human_reviewed: false`。本類型不處理不完整名單、未明示人數的泛稱或跨世系推測。
+
+### 具名弟子承嗣
+
+保留現有 `adoptive_father` 謂詞及原「出繼伯父」分支，僅另增 `qualifiers.adoption_basis: named_younger_brother_son_as_heir`。這是來源所述承嗣父角色，不推現代法律資格，也不由「嗣爵」「奉祀」推父親。
+
+新式必須同時具有：正文段首具名承嗣父；同段其「無子」與「以弟〔具名生父〕子〔具名承嗣者〕爲嗣／為嗣」完整原詞；兩端及生父各自精確人物錨點；同段既有、有據的父親陳述ID，並保留其孩子／父親錨點。source term中的生父與子名必須恰好接於「弟」「子」之後，末詞必須確為爲嗣／為嗣。數位題頭不滿足來源層要求，從弟亦不冒充弟。
+
+兩項父親角色並存，`modern_legal_status: not_inferred`；此型別不決定人物ID應置於生父或嗣父分支。

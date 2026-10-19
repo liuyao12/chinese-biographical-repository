@@ -19,7 +19,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
         for start, expected in [
             ('a8f_ec8_e74_AAAAABA', ['王綏','王愉','王坦之','王述','王承','王湛','王昶','王澤']),
             ('2r1_zso_fl1_DAA', ['謝靈運','謝瑍','謝玄','謝奕']),
-            ('a11_d36_c74_DBA', ['庾登之','庾廓（宋書原稱）','庾蘊','庾冰'])]:
+            ('4qr_wrk_3vd_DDBA', ['庾登之','庾廓（宋書原稱）','庾蘊','庾冰','庾琛'])]:
             names=[];seen=set();pid=start
             while pid:
                 self.assertNotIn(pid, seen);seen.add(pid)
@@ -44,7 +44,7 @@ class ParallelAristocraticFamilies(unittest.TestCase):
     def test_cross_packet_identifications_are_one_identity_with_all_passages(self):
         ds=read('corpus/jinshu/079-parallel-family-identities.json')['decisions']
         self.assertEqual(len(ds),3)
-        for label,pid in [('庾冰','a11_d36_c74'),('王戎','48e_04a_3d8'),('郗超','57b_1cb_a1b')]:
+        for label,pid in [('庾冰','4qr_wrk_3vd_D'),('王戎','48e_04a_3d8'),('郗超','57b_1cb_a1b')]:
             self.assertEqual([p['id'] for p in self.people.values() if p['label']==label],[pid])
             d=next(d for d in ds if d['person_id']==pid)
             self.assertGreaterEqual(len(d['chapter_ids']),2)
@@ -54,6 +54,24 @@ class ParallelAristocraticFamilies(unittest.TestCase):
             self.assertNotIn(pid,self.people)
             self.assertFalse((ROOT / 'exports/persons' / (pid+'.json')).exists())
             self.assertFalse(any(pid in p.get('id_aliases',[]) for p in self.people.values()))
+
+    def test_reviewed_cross_history_identities_reach_exported_source_passages(self):
+        decisions = []
+        for name in ['065-parallel-family-identities', '073-yuliang-parallel-identities']:
+            decisions.extend(read('corpus/jinshu/' + name + '.json')['decisions'])
+        self.assertEqual(len(decisions), 10)
+        for decision in decisions:
+            pid = decision['person_id']
+            self.assertIn(pid, self.people)
+            exported = read('exports/persons/' + pid + '.json')
+            self.assertEqual(exported['canonical_person_id'], pid)
+            self.assertIn(decision['id'], {d['id'] for d in exported['identity_decisions']})
+            mentions = {m['id'] for m in exported['mentions']}
+            self.assertTrue(set(decision['identification_basis']['target_mention_ids']).issubset(mentions))
+            self.assertGreaterEqual(len(decision['evidence']), 2)
+            for evidence in decision['evidence']:
+                self.assertTrue(evidence['quote'])
+                self.assertIn(evidence['chapter_id'], decision['chapter_ids'])
 
     def test_east_sea_prince_yue_has_one_identity_across_received_passages(self):
         pid = '9o2_vhv_r7y'

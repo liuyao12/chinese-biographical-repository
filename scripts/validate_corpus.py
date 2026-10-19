@@ -1438,6 +1438,14 @@ def validate(root=ROOT):
                             context_errors = regnal_spouse_errors(a, chapters.get(d['chapter_id'], {}))
                             errors.extend(context_errors)
                             if not context_errors: adjacent=ids
+                        elif context.get('kind') == 'biographical_children_list':
+                            try:
+                                from scripts.biographical_children_lists import children_list_errors
+                            except ModuleNotFoundError:
+                                from biographical_children_lists import children_list_errors
+                            context_errors = children_list_errors(a, chapters.get(d['chapter_id'], {}), source_age_number)
+                            errors.extend(context_errors)
+                            if not context_errors: adjacent = ids
                         elif context.get('kind') == 'biographical_child_continuation':
                             try:
                                 from scripts.biographical_kinship import child_continuation_errors
