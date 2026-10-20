@@ -951,3 +951,10 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `normalized_date.event_evidence_binding.kind: named_group_execution_after_biographical_year_chain` 保留既有 `relative_biography_scope` 的正始五年、九年冬、十年正月證據鏈，再以完整連續原段綁定後續十人「皆伏誅」。每人須有死亡名單內自己的精確錨點，十名原序及不同人物身份全部保留；不得從「等」「夷三族」增加人。
 
 後續正文、裴注引書、先帝追述分層明列，段落不得跳過。本文「湏三月中欲發」僅為所陳陰謀的未來行動，不是行刑月。此限定模型只提供249中國曆年，`precision: year`、`calendar: chinese_civil`，不填月日或 `source_date_parts`；不能將該年套給其他段落的死亡。教育部年號表只支持正始240–249的對照，不作死亡事件的權威來源。
+
+
+## 固定本紀同事件的官職年度對讀
+
+`archived_title_year` 僅為官職授任／免職的固定原文對讀。原篇 holding ID、人物、起／終點、完整引句與原官稱錨點，須與封存本紀 raw SHA256、固定提交、去古注頁碼空白後的年欄／年號／明名人物／官名逐字位置相符；表述本身與本紀同一明授、同一點名免職或明示「代之」承前官名分別標示。年欄至事件之間不可越過另一年或改元；年號起迄只引用現代對照表。無關史事、夢境、死亡、追稱均不供實任端點。數值為中國曆年，不依公曆月日移至次年。
+
+`local_title_year` 的 `source_orthographic_ce_regnal_span` 目前只接受原文「黄初三年還京都以真為」同一連續任命句；黃／黄僅為年號字形對讀，保留原字、三項各自官稱及人物錨點，不推到後文轉拜。此模型沒有放寬其他年號字形或相對紀年。

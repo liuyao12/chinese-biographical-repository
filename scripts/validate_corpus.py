@@ -88,7 +88,7 @@ except ImportError:
     from date_ranges import parallel_event_date
 
 
-def normalized_date_errors(date, chapters=None, root=ROOT):
+def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bound_role=None):
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
@@ -163,6 +163,14 @@ def normalized_date_errors(date, chapters=None, root=ROOT):
                 except ImportError:
                     from era_only_dates import valid as era_only_valid
                 valid = era_only_valid(date, source_age_number, chapters)
+            if isinstance(mapping, dict) and mapping.get('kind') in ('archived_parallel_title_ce_span', 'source_orthographic_ce_regnal_span'):
+                try:
+                    from scripts.archived_title_years import valid as archived_title_year_valid, local_valid as local_title_year_valid
+                except ImportError:
+                    from archived_title_years import valid as archived_title_year_valid, local_valid as local_title_year_valid
+                valid = (archived_title_year_valid(date, bound_record, bound_role, chapters or {}, root)
+                         if mapping['kind'] == 'archived_parallel_title_ce_span'
+                         else local_title_year_valid(date, bound_record, bound_role, chapters or {}))
             if 'calendar_context' in date:
                 try:
                     from scripts.calendar_wiring import date_shape_valid
@@ -805,7 +813,7 @@ def validate(root=ROOT):
                     check(False,'同指決定代表循環');break
                 seen.add(current);current=canonical_links[current]
         def validate_date_evidence(date, context_evidence, expression=None, bound_record=None, bound_role=None):
-            errors.extend(normalized_date_errors(date, chapters, root=root))
+            errors.extend(normalized_date_errors(date, chapters, root=root, bound_record=bound_record, bound_role=bound_role))
             if isinstance(date, dict):
                 check(binding_valid(date, bound_record, bound_role), '初中末年號紀年須綁實際同人同官授任／生卒記錄')
             if not isinstance(date, dict):
