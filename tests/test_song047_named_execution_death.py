@@ -86,7 +86,7 @@ class NamedExecutionDeath(unittest.TestCase):
    e,c=self.pair();e['normalized_date'][key]=value;self.assertFalse(self.valid(e,c),(key,value))
   e,c=self.pair();e['normalized_date']['regnal_year_mapping']['era_name']='太元';self.assertFalse(self.valid(e,c))
  def test_mismatched_monarch_scope_rejected(self):
-  e,c=self.pair();e['normalized_date']['narrative_era_scope']['event_ruler_person_id']='3dv_ken_w58';self.assertFalse(self.valid(e,c))
+  e,c=self.pair();e['normalized_date']['narrative_era_scope']['event_ruler_person_id']='3qs_nqa_ioa_AAA';self.assertFalse(self.valid(e,c))
  def test_unsupported_scope_cannot_fall_back(self):
   e,c=self.pair();e['normalized_date']['event_evidence_binding']['death_subject_scope']['kind']='anything';self.assertFalse(self.valid(e,c))
  def test_non_death_rejected(self):

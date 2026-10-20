@@ -37,7 +37,40 @@
     "human_reviewed": false,
     "model": null,
     "reviewer": "Codex（AI代理）",
-    "completion_note": "完整選定單元正文及旁涉人名/稱謂初讀；未冒稱全書/全卷/已圖校或親讀底本；未決與史料衝突留原文，親屬65項仍提案未消費。"
+    "completion_note": "完整選定單元逐人初讀；親屬依來源斷言與未決記錄分存，生卒／官爵等逐項補錄；未圖校，不代表全卷或全書已完成。",
+    "age_assertions": [
+      {
+        "id": "age-jin099-huanxuan-death",
+        "person_id": "u9s_w6j_8mc_AAF",
+        "source_number": "三十六",
+        "source_term": "年三十六",
+        "value": 36,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "date_expression": null,
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-099",
+            "source_id": "s-jinshu-099-huanxuan-ws2644703",
+            "chapter_id": "c-jinshu-099-huanxuan",
+            "paragraph_id": "c-jinshu-099-huanxuan:p032",
+            "quote": "時益州刺史毛璩使其從孫祐之、參軍費恬送弟璠喪葬江陵，有眾二百，璩弟子脩之為玄屯騎校尉，誘玄以入蜀，玄從之。達枚回洲，恬與祐之迎擊玄，矢下如雨。玄嬖人丁仙期、萬蓋等以身敝玄，並中數十箭而死。玄被箭，其子升輒拔去之。益州督護馮遷抽刀而前，玄拔頭上玉導與之，仍曰：「是何人邪？敢殺天子！」遷曰：「欲殺天子之賊耳。」遂斬之，時年三十六。又斬石康及浚等五級，庾頤之戰死。升云：「我是豫章王，諸君勿見殺。」送至江陵市斬之。",
+            "person_mention_id": "c-jinshu-099-huanxuan:p032:m0037"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-jin099-huanxuan-death"
+        },
+        "interpretation_note": "原文明報年齡；計歲方式未明，不反推生年，死亡年待紀年原證。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {
@@ -12399,7 +12432,7 @@
           "end": 99,
           "surface": "劉裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -12429,7 +12462,7 @@
           "end": 113,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -12499,7 +12532,7 @@
           "end": 167,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13022,7 +13055,7 @@
           "end": 1,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13092,7 +13125,7 @@
           "end": 84,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13262,7 +13295,7 @@
           "end": 279,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13282,7 +13315,7 @@
           "end": 310,
           "surface": "裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13312,7 +13345,7 @@
           "end": 371,
           "surface": "劉裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13598,7 +13631,7 @@
           "end": 2,
           "surface": "劉裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -13628,7 +13661,7 @@
           "end": 26,
           "surface": "劉道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -14948,7 +14981,7 @@
           "end": 77,
           "surface": "劉道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -15078,7 +15111,7 @@
           "end": 220,
           "surface": "劉裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -15521,7 +15554,7 @@
           "end": 31,
           "surface": "道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -17033,7 +17066,7 @@
           "end": 40,
           "surface": "道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -17126,7 +17159,7 @@
           "end": 119,
           "surface": "道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -17239,7 +17272,7 @@
           "end": 225,
           "surface": "道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -17835,7 +17868,7 @@
           "end": 97,
           "surface": "道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -18346,7 +18379,7 @@
           "end": 50,
           "surface": "劉裕",
           "kind": "person",
-          "person_id": "3dv_ken_w58",
+          "person_id": "3qs_nqa_ioa_AAA",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },
@@ -18396,7 +18429,7 @@
           "end": 107,
           "surface": "劉道規",
           "kind": "person",
-          "person_id": "1ut_j9y_xn7",
+          "person_id": "3qs_nqa_ioa_AAC",
           "status": "contextual_provisional",
           "interpretation_note": "依完整單元、引語範圍及平行來源作AI暫定辨識，未圖校。"
         },

@@ -598,9 +598,12 @@ test('junior collateral source points to a senior generation without treating it
  const p={id:'junior',label:'Junior',related_people:{junior:'Junior',senior:'Senior'},relations:[{subject_person_id:'junior',predicate:'agnatic_senior_kin',object_person_id:'senior',qualifiers:{source_term:'從子傭',kinship_structure:{generation_difference:-1,subject_relative_age:'unknown'}},evidence:[]}]};
  const html=personCard(p,true);assert.match(html,/父系長一輩旁親/);assert.match(html,/從子傭/);
 });
-test('a source-ordered sister relation labels the object correctly',()=>{
+test('a source-ordered sister relation labels its recorded subject without inferring the object gender',()=>{
  const p={id:'younger',label:'Younger',related_people:{younger:'Younger',older:'Older'},relations:[{subject_person_id:'younger',predicate:'sister',object_person_id:'older',qualifiers:{source_term:'姊妹四人',relative_birth_order:{older_person_id:'older',younger_person_id:'younger',operator:'lt'}},evidence:[]}]};
- assert.match(personCard(p,true).replace(/<[^>]*>/g,''),/Younger · 姊：Older/);
+ const text=personCard(p,true).replace(/<[^>]*>/g,'');
+ assert.match(text,/Younger · 為對方之妹：Older/);
+ assert.match(text,/姊妹四人/);
+ assert.doesNotMatch(text,/Younger · 姊：Older/);
 });
 
 test('care and ritual succession have separate readable labels in both languages',()=>{

@@ -552,7 +552,64 @@
     "u9s_w6j_8mc_AB*A": "桓放之",
     "u9s_w6j_8mc_ABA": "桓序"
   },
-  "dates": [],
+  "dates": [
+    {
+      "era": "CE",
+      "era_year": 360,
+      "year": 360,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "calendar": "chinese_civil",
+      "source_expression": "昇平四年",
+      "status": "editorial_provisional",
+      "original_quote": "雲字雲子。初為驃騎何充參軍、尚書郎，不拜。襲爵萬寧男，歷位建武將軍、義成太守。遭母憂去職。葬畢，起為江州刺史，稱疾，廬於墓次。詔書敦逼，固辭不行，服闋，然後蒞職。加都督司豫二州軍事、領鎮蠻護軍、西陽太守、假節。雲招集眾力，志在足兵，多所枉濫，眾皆嗟怨。時溫執權，有司不敢彈劾。昇平四年卒，贈平南將軍，諡曰貞。子序嗣，官至宣城內史。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p006",
+          "quote": "雲字雲子。初為驃騎何充參軍、尚書郎，不拜。襲爵萬寧男，歷位建武將軍、義成太守。遭母憂去職。葬畢，起為江州刺史，稱疾，廬於墓次。詔書敦逼，固辭不行，服闋，然後蒞職。加都督司豫二州軍事、領鎮蠻護軍、西陽太守、假節。雲招集眾力，志在足兵，多所枉濫，眾皆嗟怨。時溫執權，有司不敢彈劾。昇平四年卒，贈平南將軍，諡曰貞。子序嗣，官至宣城內史。",
+          "person_mention_id": "c-jinshu-074-huan-family:p006:m0000"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "升平",
+          "columns": {
+            "dynasty": "東晉",
+            "era_name": "升平",
+            "first_year": "357",
+            "last_year": "361"
+          },
+          "scope": "modern_era_year_equivalence_only",
+          "accessed_on": "2026-10-20",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "升平",
+        "source_era_name": "昇平",
+        "source_number": "四",
+        "regnal_year": 4,
+        "start_ce_year": 357,
+        "end_ce_year": 361,
+        "reference_index": 0
+      },
+      "rationale": "原傳昇平四年，年號對照表作升平，保留原字並依既有異體規則解析；357年起第四年為360中國曆年，未換公曆日期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-jin074-huanyun-death",
+      "person_id": "u9s_w6j_8mc_AB",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "u9s_w6j_8mc_AB"
@@ -652,7 +709,89 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-jin074-huanyun-death",
+      "person_id": "u9s_w6j_8mc_AB",
+      "event_type": "death",
+      "source_term": "卒",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-074-huan-family:p006",
+        "start": 142,
+        "end": 143,
+        "surface": "卒"
+      },
+      "date_expression": "昇平四年",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p006",
+          "quote": "雲字雲子。初為驃騎何充參軍、尚書郎，不拜。襲爵萬寧男，歷位建武將軍、義成太守。遭母憂去職。葬畢，起為江州刺史，稱疾，廬於墓次。詔書敦逼，固辭不行，服闋，然後蒞職。加都督司豫二州軍事、領鎮蠻護軍、西陽太守、假節。雲招集眾力，志在足兵，多所枉濫，眾皆嗟怨。時溫執權，有司不敢彈劾。昇平四年卒，贈平南將軍，諡曰貞。子序嗣，官至宣城內史。",
+          "person_mention_id": "c-jinshu-074-huan-family:p006:m0000"
+        }
+      ],
+      "interpretation_note": "本傳明記昇平四年卒；以教育部年號表升平357–361及既有昇／升異體契約換算360中國曆年，不推生日、報齡或公曆月日。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 360,
+        "year": 360,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "昇平四年",
+        "status": "editorial_provisional",
+        "original_quote": "雲字雲子。初為驃騎何充參軍、尚書郎，不拜。襲爵萬寧男，歷位建武將軍、義成太守。遭母憂去職。葬畢，起為江州刺史，稱疾，廬於墓次。詔書敦逼，固辭不行，服闋，然後蒞職。加都督司豫二州軍事、領鎮蠻護軍、西陽太守、假節。雲招集眾力，志在足兵，多所枉濫，眾皆嗟怨。時溫執權，有司不敢彈劾。昇平四年卒，贈平南將軍，諡曰貞。子序嗣，官至宣城內史。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-074",
+            "source_id": "s-jinshu-074-ws1536331",
+            "chapter_id": "c-jinshu-074-huan-family",
+            "paragraph_id": "c-jinshu-074-huan-family:p006",
+            "quote": "雲字雲子。初為驃騎何充參軍、尚書郎，不拜。襲爵萬寧男，歷位建武將軍、義成太守。遭母憂去職。葬畢，起為江州刺史，稱疾，廬於墓次。詔書敦逼，固辭不行，服闋，然後蒞職。加都督司豫二州軍事、領鎮蠻護軍、西陽太守、假節。雲招集眾力，志在足兵，多所枉濫，眾皆嗟怨。時溫執權，有司不敢彈劾。昇平四年卒，贈平南將軍，諡曰貞。子序嗣，官至宣城內史。",
+            "person_mention_id": "c-jinshu-074-huan-family:p006:m0000"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "升平",
+            "columns": {
+              "dynasty": "東晉",
+              "era_name": "升平",
+              "first_year": "357",
+              "last_year": "361"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "升平",
+          "source_era_name": "昇平",
+          "source_number": "四",
+          "regnal_year": 4,
+          "start_ce_year": 357,
+          "end_ce_year": 361,
+          "reference_index": 0
+        },
+        "rationale": "原傳昇平四年，年號對照表作升平，保留原字並依既有異體規則解析；357年起第四年為360中國曆年，未換公曆日期。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -77,6 +77,12 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'biographical_zu_fu_sequence':
+        try:
+            from .biographical_ancestry import biographical_zu_fu_parent_valid
+        except ImportError:
+            from biographical_ancestry import biographical_zu_fu_parent_valid
+        return biographical_zu_fu_parent_valid(member, rows, assertions, chapters)
     near = assertions.get(c.get('nearer_ancestor_assertion_id'))
     far = assertions.get(c.get('farther_ancestor_assertion_id'))
     witness = rows.get(c.get('chain_subject_person_id'))
