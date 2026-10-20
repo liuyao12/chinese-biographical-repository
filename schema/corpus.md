@@ -941,3 +941,7 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `ritual_successor_of` 的 `succession_kind: named_zusun_feng_hou` 保「封前人族孫承繼者為新昌亭侯邑三百戸以奉前人後」，不推父子、法定收養或族孫精確世數。`legal_adoption_status: not_stated`、`parentage_inference: not_inferred`。
 
 `agnatic_cousin` 的具名「客體從弟主體」保父系同輩且主體年幼，親等及共祖 null；不補共同父親。三類均用 `source_clause_binding` 的 `kind/start/end`、完整原段及精確雙人物錨點；奉後另有前人 antecedent 錨點，不能以該前文位置替換奉後賓語。原文未知與異說不變。
+
+## 明示子女的個人相鄰數詞約齡
+
+「有一男年五六嵗」保留 `approximation.kind: adjacent_age_numbers` 及 `numbers: [5, 6]`，`value`、`birth_year` 均為空，不設嚴格上下界、不推虛歲或周歲。`subject_scope.kind: immediate_child_age` 保存完整子女名詞及報齡原句字位，證據連到子女而非前述父親。`approximation_interpretation` 分存AI判讀；不據前述死亡事件的背景年反推出生年。其餘語式仍須逐項擴充。
