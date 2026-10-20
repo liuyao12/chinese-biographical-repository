@@ -933,3 +933,11 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 師承的學生至教師方向不變。`teaching_clause_binding` 可保存傳首具名教師、「太宗初拜博士祭酒賜爵武城子」之朝代轉承錨點，以及緊接「常授太宗經書」的完整原詞字位。學生錨點須位於授經賓語，教師為傳首主體；不能把前一句授官的君主當教師，也不按最近姓名決定方向。全文、字位或角色不符即拒絕，不概括放寬所有「授」字為師承。
 
 `kinship_unspecified` 的 `kinship_basis: explicit_weiqin_pair` 僅支援「三人别祖而甲乙為親」之兩具名連續人物。`kinship_clause_binding` 保存原詞字位。`generation_difference`、`exact_distance`、`lineage`、`common_ancestor_person_id`、`connecting_person_ids` 均為 null，不能由別祖、為親或相次年齡推造世代、父系、共祖或接樹。兩類均須完整原段、雙人物錨點與 AI 審閱限定；既有師承及其他未定親屬分支保持。
+
+## 明示収養、族孫奉後與從弟子句
+
+`adoptive_father` 可由 `adoption_basis: explicit_shouyang`、`adoption_kind: historical_shouyang` 保存原文明言収養，子女至養父；`modern_legal_status: not_inferred`、`parentage_inference: not_inferred`。不覆寫生父或將納母推成生父。限定「養者哀子女少孤収養」與「養者為司空時納子女母并収養子女」，後者須指向収養賓語而非嵌套母稱中的子女；同住、寵如公子、複數未定承受者不可套用。
+
+`ritual_successor_of` 的 `succession_kind: named_zusun_feng_hou` 保「封前人族孫承繼者為新昌亭侯邑三百戸以奉前人後」，不推父子、法定收養或族孫精確世數。`legal_adoption_status: not_stated`、`parentage_inference: not_inferred`。
+
+`agnatic_cousin` 的具名「客體從弟主體」保父系同輩且主體年幼，親等及共祖 null；不補共同父親。三類均用 `source_clause_binding` 的 `kind/start/end`、完整原段及精確雙人物錨點；奉後另有前人 antecedent 錨點，不能以該前文位置替換奉後賓語。原文未知與異說不變。

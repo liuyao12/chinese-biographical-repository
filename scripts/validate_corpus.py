@@ -1486,6 +1486,12 @@ def validate(root=ROOT):
                         check(maternal_cousin_valid(a, paragraphs), '姨表旁親須有母系路徑、雙人物錨點及姨弟原詞，不得接成父系')
                     else:
                         check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
+                    if a['predicate'] == 'agnatic_cousin' and 'source_clause_binding' in qualifiers:
+                        try:
+                            from scripts.historical_family_clauses import explicit_congdi_valid
+                        except ImportError:
+                            from historical_family_clauses import explicit_congdi_valid
+                        check(explicit_congdi_valid(a, paragraphs), '從弟須有具名雙端、原詞字位與完整引文，不得補親等共祖')
                     check(structure.get('distance') is None and structure.get('common_ancestor_person_id') is None, '未定從親不可補親等或共同祖先')
                     check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
                 if 'mourning_separation' in qualifiers:
