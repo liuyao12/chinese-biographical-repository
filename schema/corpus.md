@@ -832,3 +832,7 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 
 
 後漢書固定見證分層：`witness_appended_lixian_note`（唐李賢注）、`witness_appended_liuban_collation`（宋劉攽校）、`witness_appended_qing_siku_collation`（清四庫考證）。三層必備 `layer_attribution` 的 `attributed_author`、`period`、`received_authority`、`quotation_dependencies` 及 false 覆核資格；清層 `scope` 限 `independent_volume_appendix`，署名館臣／被引何焯分存。轉引不當獨立原著核讀；原文 p 之外標層，不改 Unicode 字位。
+
+## Phase39 named recipient gift
+
+`posthumous_basis.kind: named_recipient_after_same_paragraph_death` 僅支持同一完整固定原段已綁同人死亡、後「明年」及「贈＋明名受者＋官」的追贈。保存source_clause_anchor的原「其贈」，不補追字；grant_anchor完整含贈、名及官，recipient mention緊隨贈且緊接title原字。保死亡事件ID／原詞／字位、明年字位、修訂與全文SHA及全文證據；生前任職、錯死者、段首帝、泛稱或最近人名均不能替代受者。日期須通過既有relative_regnal_year模型且為同人死亡年後一年，證據相同；不改死亡或其他任期。舊biography_topic、coordinated attendance及subject continuation分支維持。

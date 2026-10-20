@@ -5,7 +5,7 @@ P=Path(__file__).resolve().parents[1];R=P;J=lambda f:json.loads(f.read_text());s
 from scripts.person_bundle import load_catalog,bundle
 from scripts.occurrence_concordance import occurrence_catalog,summarize_occurrences,index_counts,validate
 from scripts.export_person_bundles import index_counts as export_index_counts
-CAT=load_catalog(R);RECORDS=CAT[1];D=next(r for r in RECORDS if r.get('id')=='c-sanguozhi-010-xunyu-xunyou-jiaxu');C=next(r for r in RECORDS if r.get('record_type')=='source_occurrence_concordance_set');SID=D['source_id'];PID='yoo_ox0_545_BA'
+CAT=load_catalog(R);RECORDS=CAT[1];D=next(r for r in RECORDS if r.get('id')=='c-sanguozhi-010-xunyu-xunyou-jiaxu');SID=D['source_id'];C=next(r for r in RECORDS if r.get('record_type')=='source_occurrence_concordance_set' and r['source']['source_id']==SID);PID='yoo_ox0_545_BA'
 BASE_PARAGRAPHS={p['id']for p in J(R/'tests/fixtures/occurrence-concordance/original-anchors.json')}
 def scoped_rows(b):
  return summarize_occurrences([m for m in b['mentions']if m['paragraph_id']in BASE_PARAGRAPHS],[],{D['id']:D},R,RECORDS)[0]
@@ -15,7 +15,15 @@ class Concordance(unittest.TestCase):
   d,c=copy.deepcopy(D),copy.deepcopy(C);fn(d,c);records=[d if r is D else c if r is C else r for r in RECORDS]
   with self.assertRaises((ValueError,KeyError,TypeError)):occurrence_catalog(R,records)
  def test_32_person_aliases_one_collective(self):
-  a,details=occurrence_catalog(R,RECORDS);self.assertEqual(len(a),32);self.assertEqual(len(details),32);self.assertEqual(sum(r['kind']=='unresolved_text_span_correspondence'for r in C['records']),1)
+  a,details=occurrence_catalog(R,[r for r in RECORDS if r.get('record_type')!='source_occurrence_concordance_set' or r is C]);self.assertEqual(len(a),32);self.assertEqual(len(details),32);self.assertEqual(sum(r['kind']=='unresolved_text_span_correspondence'for r in C['records']),1)
+ def test_all_sources_form_disjoint_exact_alias_union(self):
+  expected={SID:32,'s-houhanshu-062-xunhan-zhongchen':30};union={};all_details={}
+  sets=[r for r in RECORDS if r.get('record_type')=='source_occurrence_concordance_set']
+  self.assertEqual({r['source']['source_id']for r in sets},set(expected))
+  for selected in sets:
+   aliases,details=occurrence_catalog(R,[r for r in RECORDS if r.get('record_type')!='source_occurrence_concordance_set' or r is selected])
+   self.assertEqual(len(aliases),expected[selected['source']['source_id']]);self.assertFalse(set(union)&set(aliases));union.update(aliases);all_details.update(details)
+  aliases,details=occurrence_catalog(R,RECORDS);self.assertEqual(aliases,union);self.assertEqual(details,all_details);self.assertEqual(len(aliases),62)
  def test_wrong_record_type_cannot_silently_disable_dedup(self):self.bad(lambda d,c:c.update(record_type='typo'))
  def test_empty_record_id(self):self.bad(lambda d,c:c['records'][0].update(id=''))
  def test_wrong_person(self):self.bad(lambda d,c:c['records'][0].update(person_id='dad_b77_b38'))

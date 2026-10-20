@@ -11,7 +11,7 @@ class CorpusTests(unittest.TestCase):
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory();self.addCleanup(self.tmp.cleanup)
         self.root=Path(self.tmp.name)
-        for folder in ('registry','corpus'):shutil.copytree(ROOT/folder,self.root/folder)
+        for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
         shutil.copytree(ROOT/'sources/calendar-context',self.root/'sources/calendar-context')
         shutil.copytree(ROOT/'sources/witnesses',self.root/'sources/witnesses')

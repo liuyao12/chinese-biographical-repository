@@ -9,7 +9,42 @@
     "魏諷"
   ],
   "titles": [],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-wang35-094",
+      "person_id": "vhp_i3i_jj4",
+      "relation": "source_locality_designation",
+      "place": {
+        "source_name": "濟隂",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "濟隂魏諷",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-027",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit009",
+          "quote": "人或毁已當退而求之於身若己有可毁之行則彼言當矣若己無可毁之行則彼言妄矣當則無怨於彼妄則無害於身又何反報焉且聞人毁己而忿者惡醜聲之加人也人報者滋甚不如黙而自脩己也諺曰救寒莫如重裘止謗莫如自脩斯言信矣若與是非之士凶險之人近猶不可况與對校乎其害深矣夫虛偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
+          "person_mention_id": "c-sanguozhi-027-wangchang:unit009:m0158"
+        }
+      ],
+      "interpretation_note": "原籍、來源地域稱法與任所分開；不作出生地、不補現代定位、不從故吏地名補官。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
+      "term": "濟隂魏諷",
+      "quote": "人或毁已當退而求之於身若己有可毁之行則彼言當矣若己無可毁之行則彼言妄矣當則無怨於彼妄則無害於身又何反報焉且聞人毁己而忿者惡醜聲之加人也人報者滋甚不如黙而自脩己也諺曰救寒莫如重裘止謗莫如自脩斯言信矣若與是非之士凶險之人近猶不可况與對校乎其害深矣夫虛偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與"
+    }
+  ],
   "occurrences": [
     {
       "number": 22,
@@ -45,6 +80,51 @@
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
       "work_title": "三國志"
+    },
+    {
+      "number": 27,
+      "category": "",
+      "title": "卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-027-wangchang:unit009",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
+      "paragraph_ids": [
+        "c-sanguozhi-027-wangchang:unit009",
+        "c-sanguozhi-027-wangchang:unit014"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-027-wangchang:unit009:m0158",
+        "c-sanguozhi-027-wangchang:unit014:m0017"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-027-wangchang:unit009:m0158": "c-sanguozhi-027-wangchang:unit009",
+        "c-sanguozhi-027-wangchang:unit014:m0017": "c-sanguozhi-027-wangchang:unit014"
+      },
+      "mention_id": "c-sanguozhi-027-wangchang:unit009:m0158",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit009:m0158",
+          "mention_ids": [
+            "c-sanguozhi-027-wangchang:unit009:m0158"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit014:m0017",
+          "mention_ids": [
+            "c-sanguozhi-027-wangchang:unit014:m0017"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -75,6 +155,36 @@
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
         }
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "source": {
+        "title": "三國志／魏書卷二十七／王昶傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
+        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
+        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [],
@@ -82,7 +192,22 @@
     "vhp_i3i_jj4": "魏諷"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "vhp_i3i_jj4",
+      "title": null,
+      "surname": "魏",
+      "ming": "諷",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "paragraph_id": "c-sanguozhi-027-wangchang:unit009",
+      "quote": "人或毁已當退而求之於身若己有可毁之行則彼言當矣若己無可毁之行則彼言妄矣當則無怨於彼妄則無害於身又何反報焉且聞人毁己而忿者惡醜聲之加人也人報者滋甚不如黙而自脩己也諺曰救寒莫如重裘止謗莫如自脩斯言信矣若與是非之士凶險之人近猶不可况與對校乎其害深矣夫虛偽之人言不根道行不顧言其為浮淺較可識别而世人惑焉猶不檢之以言行也近濟隂魏諷山陽曹偉皆以傾邪敗沒熒惑當世挾持姦慝驅動後生雖刑於鈇鉞大為烱戒然所汙染固以衆矣可不慎與",
+      "note": "本源姓名構件追加出處，不覆寫既有主名、姓或字；異體各存。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "source_proposal_id": "proposal-wang34-017"
+    }
+  ],
   "person_ids": [
     "vhp_i3i_jj4"
   ],
