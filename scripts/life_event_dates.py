@@ -36,7 +36,7 @@ def date_decision_errors(decision, events, equivalences, people):
     required = {'id', 'person_ids', 'event_type', 'candidate_event_ids', 'preferred_event_id',
                 'status', 'rationale', 'evidence', 'reviewer', 'human_reviewed', 'model'}
     if (not isinstance(decision, dict) or not required.issubset(decision)
-            or not set(decision).issubset(required | {'references'})):
+            or not set(decision).issubset(required | {'references', 'comparison_scope'})):
         return ['生卒紀年取捨欄位不完整']
     if 'references' in decision:
         refs = decision['references']
@@ -70,9 +70,17 @@ def date_decision_errors(decision, events, equivalences, people):
           and all(e['event_type'] == decision['event_type'] and e['person_id'] in ids for e in selected)
           and {e['person_id'] for e in selected} == set(ids), '生卒紀年取捨事件種類或人物不符')
     windows = [date_window(e) for e in selected]
-    check(all(w is not None for w in windows)
-          and len({w for w in windows if w is not None}) >= 2,
-          '生卒紀年取捨須有不同的已存數字換年')
+    if decision.get('comparison_scope') == 'source_calendar_day':
+        try:
+            from scripts.song041_source_context import same_year_birth_day_conflict_valid
+        except ImportError:
+            from song041_source_context import same_year_birth_day_conflict_valid
+        check(same_year_birth_day_conflict_valid(decision, selected, windows), '同年生日異說只保兩則明示不同原月日，未解不得任選')
+    else:
+        check('comparison_scope' not in decision, '未知日期比較範圍')
+        check(all(w is not None for w in windows)
+              and len({w for w in windows if w is not None}) >= 2,
+              '生卒紀年取捨須有不同的已存數字換年')
     check((decision['status'] == 'editorial_provisional' and decision['preferred_event_id'] in candidates)
           or (decision['status'] == 'unresolved' and decision['preferred_event_id'] is None),
           '生卒紀年取捨預設須屬候選；未解不得選定')

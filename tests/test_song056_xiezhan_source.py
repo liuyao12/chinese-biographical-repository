@@ -43,7 +43,7 @@ class XiezhanSource(unittest.TestCase):
  def test_langye_title_resolved_by_fixed_chronology(self):
   m=next(m for m in ms(1)if m['surface']=='琅邪王');self.assertEqual(m['person_id'],'ije_ngm_cmj');b=J(ROOT/'source-evidence/song056-langye-dewen-identity.json');self.assertEqual(b['person_id'],m['person_id']);self.assertEqual(b['fixed_witness']['commit'],'82291520954e5af1fdade894971a2f5810fd4e31');self.assertEqual(len(b['complete_contexts']),5);raw=(ROOT/b['fixed_witness']['raw_path']).read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),b['fixed_witness']['raw_sha256']);self.assertTrue(any('道子為桓玄所害'in e['projected_quote']for e in b['complete_contexts']));self.assertTrue(any('以琅邪王徳文為大司馬'in e['projected_quote']for e in b['complete_contexts']));self.assertTrue(any('恭帝諱徳文' in e['projected_quote']for e in b['complete_contexts']));self.assertTrue(any(x['person_id']=='dkn_ge4_286_AAAAAAAFA'for x in b['rejected_candidates']))
  def test_langye_not_liuyu_or_dead_daozi(self):
-  self.assertNotIn(pid(1,'琅邪王'),['3dv_ken_w58','dkn_ge4_286_AAAAAAAFA']);b=J(ROOT/'source-evidence/song056-langye-dewen-identity.json');self.assertEqual(b['local_evidence']['sequence'],['楚臺祕書郎','髙祖鎮軍','琅邪王大司馬參軍'])
+  self.assertNotIn(pid(1,'琅邪王'),['3qs_nqa_ioa_AAA','dkn_ge4_286_AAAAAAAFA']);b=J(ROOT/'source-evidence/song056-langye-dewen-identity.json');self.assertEqual(b['local_evidence']['sequence'],['楚臺祕書郎','髙祖鎮軍','琅邪王大司馬參軍'])
  def test_langye_exact_context_anchors(self):
   b=J(ROOT/'source-evidence/song056-langye-dewen-identity.json')
   for e in b['complete_contexts']:
@@ -55,7 +55,7 @@ class XiezhanSource(unittest.TestCase):
  def test_no_agnatic_cousin_made_sibling(self):
   self.assertFalse(any({a['subject_person_id'],a['object_person_id']}=={'aa6_83c_juy_AAAD','aa6_83c_juy_CDAA'}and a['predicate']=='brother'for a in A));self.assertTrue(any(q['kind']=='agnatic_uncle_and_cousin_source_terms'for q in Q))
  def test_inherited_067_and_053_identities_preserved(self):
-  ps={p['id']:p for p in J(ROOT/'registry/persons.json')['persons']};self.assertIn('apr_7dg_tdd_A',ps);self.assertIn('262_d54_a5e',ps);self.assertEqual(ps['aa6_83c_juy_AAAD']['label'],'謝瞻');self.assertTrue((ROOT/'corpus/songshu/053-xiefangming.json').exists());self.assertTrue((ROOT/'corpus/songshu/053-yu-dengzhi.json').exists())
+  ps={p['id']:p for p in J(ROOT/'registry/persons.json')['persons']};self.assertIn('apr_7dg_tdd_A',ps);self.assertIn('3qs_nqa_ioa_AAB',ps);self.assertEqual(ps['aa6_83c_juy_AAAD']['label'],'謝瞻');self.assertTrue((ROOT/'corpus/songshu/053-xiefangming.json').exists());self.assertTrue((ROOT/'corpus/songshu/053-yu-dengzhi.json').exists())
  def test_source_only_no_office_age_records(self):
   f=ROOT/'source-evidence/song056-f20-consumption-review.json';baseline=J(f)['source_only_annotation']if f.exists()else C['annotation']
   self.assertNotIn('title_proposals',baseline);self.assertNotIn('age_assertions',baseline);self.assertFalse(C['source']['image_verified']);self.assertTrue(all(a['human_reviewed']is False for a in A))

@@ -12,7 +12,7 @@ class ZhangMaoduSource(unittest.TestCase):
   self.assertEqual(''.join(raw[x['line']-1][x['column']]for x in f['raw_character_positions']),T)
  def test_all_person_markings_remain_provisional(self):self.assertEqual(len(P['mentions']),61);self.assertTrue(all(m['status']=='contextual_provisional'for m in P['mentions']))
  def test_ancestor_high_not_emperor(self):self.assertIsNone(at('髙祖嘉'));self.assertEqual(at('髙祖嘉',2)['person_id'],'d50_8f5_wul')
- def test_later_emperor_resumption(self):self.assertEqual(at('髙祖西伐劉毅')['person_id'],'3dv_ken_w58')
+ def test_later_emperor_resumption(self):self.assertEqual(at('髙祖西伐劉毅')['person_id'],'3qs_nqa_ioa_AAA')
  def test_era_name_not_person_jia(self):self.assertIsNone(at('元嘉元年'))
  def test_langyawang_has_fixed_primary_bridge(self):
   self.assertEqual(at('琅邪王')['person_id'],'ije_ngm_cmj');ref=json.loads((R/'source-evidence/song053-zhangmaodu-native/langyawang-identity-reference.json').read_bytes());self.assertIn('恭帝諱徳文',ref['complete_unit_read']);self.assertFalse(ref['wikipedia_used_as_authority'])

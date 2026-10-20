@@ -2,6 +2,12 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') in ('heading_title_confirmed_by_posthumous_notice', 'coordinated_recollected_posthumous_gift'):
+        try:
+            from scripts.song041_title_semantics import heading_posthumous_valid, recalled_gift_valid
+        except ImportError:
+            from song041_title_semantics import heading_posthumous_valid, recalled_gift_valid
+        return heading_posthumous_valid(holding, paragraphs, life_events or {}) if holding['posthumous_basis']['kind'] == 'heading_title_confirmed_by_posthumous_notice' else recalled_gift_valid(holding, paragraphs)
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') in ('imperial_named_serial_gift', 'imperial_decree_topic_death_gift'):
         try:
             from scripts.song047_title_semantics import imperial_gift_valid

@@ -20,7 +20,7 @@ class Song041ParentsSourceTests(unittest.TestCase):
     for m in p['mentions']:
      self.assertGreaterEqual(m['start'],end);end=m['end'];self.assertEqual(p['text'][m['start']:m['end']],m['surface'])
  def test_adopted_parent_identity_names_and_independent_birth_role(self):
-  f=self.reg['fd4_ult_nsi'];m=self.reg['ntw_hsm_9iv'];self.assertEqual(f['label'],'翹〔孝皇帝；高祖之父〕');self.assertEqual(m['label'],'趙安〔孝穆皇后；本見證，高祖之母〕')
+  f=self.reg['3qs_nqa_ioa_AA'];m=self.reg['r5n_x7v_cwf_AB'];self.assertEqual(f['label'],'翹〔孝皇帝；高祖之父〕');self.assertEqual(m['label'],'趙安〔孝穆皇后；本見證，高祖之母〕')
   mother=json.loads((R/'corpus/songshu/041-parents-assertions.json').read_text())['assertions'][0];self.assertEqual(mother['predicate'],'mother');self.assertEqual(mother['object_person_id'],m['id']);self.assertEqual(mother['qualifiers']['source_term'],'生高祖其日后以産疾殂')
   father=json.loads((R/'corpus/songshu/001-parents-reference-assertions.json').read_text())['assertions'][0];self.assertEqual(father['predicate'],'father');self.assertEqual(father['qualifiers']['source_term'],'翹是為皇考')
   names=json.loads((R/'corpus/songshu/001-parents-reference-name-components.json').read_text())['records'];self.assertIsNone(names[0]['surname']);self.assertEqual(names[0]['ming'],'翹')
@@ -34,7 +34,7 @@ class Song041ParentsSourceTests(unittest.TestCase):
   for r in proposals['records']:
    e,=r['evidence'];p=self.ps[e['paragraph_id']];a=r['source_anchor'];self.assertEqual(e['quote'],p['text']);self.assertEqual(p['text'][a['start']:a['end']],r['source_term']);self.assertEqual(a['surface'],r['source_term'])
    self.assertNotIn(r['status'],('source_attested','editorial_preferred'))
- def test_lingwen_candidates_not_merged_and_fanzhong_primary_reference(self):
-  u=self.c['annotation']['unresolved_identity_cases'][0];self.assertEqual(u['candidate_person_ids'],['9zj_vf7_86a','fdi_2l0_u1g']);self.assertIn('9zj_vf7_86a',self.reg);self.assertIn('fdi_2l0_u1g',self.reg)
+ def test_lingwen_identity_materialized_and_fanzhong_primary_reference(self):
+  u=next(x for x in self.c['annotation']['resolved_identity_cases']if x['id']=='ui-song041-lingwen-preexisting-duplicate');self.assertEqual(u['person_id'],'9zj_vf7_86a');self.assertIn('9zj_vf7_86a',self.reg);self.assertNotIn('fdi_2l0_u1g',self.reg)
   receipt=json.loads((R/'source-evidence/song041-parents/shouzhang-primary-reading.json').read_text());self.assertEqual(hashlib.sha256((R/receipt['path']).read_bytes()).hexdigest(),receipt['sha256']);self.assertIn('十五年定封宏夀張侯',receipt['complete_read_narrative']);self.assertIn('祠重墓追爵諡為夀張敬侯',receipt['complete_read_narrative']);self.assertEqual(receipt['role'],'identity_reference_only_not_imported_houhan_chapter')
 if __name__=='__main__':unittest.main()

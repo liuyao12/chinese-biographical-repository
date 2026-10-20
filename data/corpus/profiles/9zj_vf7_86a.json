@@ -2,13 +2,77 @@
   "schema_version": 1,
   "id": "9zj_vf7_86a",
   "canonical_person_id": "9zj_vf7_86a",
-  "label": "薄氏父（外戚世家候選）",
-  "identity_note": null,
+  "label": "薄氏〔薄太后之父；靈文侯〕",
+  "identity_note": "同篇父親與薄案按生育、死亡、葬地及父母兩園敘事同指；薄案為本數位見證原字，不據此補名案。",
   "review": "ai_provisional",
   "names": [
-    "父吳人"
+    "父",
+    "薄案",
+    "靈文"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-shiji049-008",
+      "person_id": "9zj_vf7_86a",
+      "title": "靈文侯",
+      "kind": "noble_rank",
+      "mode": "posthumous_grant",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p010",
+          "quote": "薄太后母亦前死，葬櫟陽北。於是乃追尊薄案為靈文侯，會稽郡置園邑三百家，長丞已下吏奉守冢，寢廟上食祠如法。而櫟陽北亦置靈文侯夫人園，如靈文侯園儀。薄太后以為母家魏王後，早失父母，其奉薄太后諸魏有力者，於是召復魏氏，［及尊］賞賜各以親疏受之。薄氏侯者凡一人。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji049-008:a001",
+          "paragraph_id": "c-shiji-049-waiqi:p010",
+          "start": 21,
+          "end": 24,
+          "surface": "靈文侯",
+          "person_mention_id": "c-shiji-049-waiqi:m010-0018",
+          "usage": "posthumous_usage"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-049-waiqi",
+              "source_id": "s-shiji-049-waiqi",
+              "paragraph_id": "c-shiji-049-waiqi:p010",
+              "quote": "薄太后母亦前死，葬櫟陽北。於是乃追尊薄案為靈文侯，會稽郡置園邑三百家，長丞已下吏奉守冢，寢廟上食祠如法。而櫟陽北亦置靈文侯夫人園，如靈文侯園儀。薄太后以為母家魏王後，早失父母，其奉薄太后諸魏有力者，於是召復魏氏，［及尊］賞賜各以親疏受之。薄氏侯者凡一人。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授予、廢黜、追尊、制度秩比與一般用稱分開；未知時段不由卒日或首次提及推算。原段相對時序保留，未換算年月或選定篇文與褚氏附載的衝突。 追尊為死後授號，不能當生前任職。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊薄案為靈文侯",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-049-waiqi",
+            "source_id": "s-shiji-049-waiqi",
+            "paragraph_id": "c-shiji-049-waiqi:p010",
+            "quote": "薄太后母亦前死，葬櫟陽北。於是乃追尊薄案為靈文侯，會稽郡置園邑三百家，長丞已下吏奉守冢，寢廟上食祠如法。而櫟陽北亦置靈文侯夫人園，如靈文侯園儀。薄太后以為母家魏王後，早失父母，其奉薄太后諸魏有力者，於是召復魏氏，［及尊］賞賜各以親疏受之。薄氏侯者凡一人。"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [
     {
       "id": "pa-shiji049-003",
@@ -36,27 +100,121 @@
       "human_reviewed": false,
       "term": "父吳人",
       "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。"
+    },
+    {
+      "id": "pa-shiji049-004",
+      "person_id": "9zj_vf7_86a",
+      "relation": "death_place",
+      "place": {
+        "source_name": "山陰",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p006",
+          "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。",
+          "person_mention_id": "c-shiji-049-waiqi:m006-0030"
+        }
+      ],
+      "source_term": "薄案死山陰",
+      "interpretation_note": "來源出處、實行行程、居處、死地與葬地分存；不補現代定位，地名承接限本段明示敘事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "薄案死山陰",
+      "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。"
+    },
+    {
+      "id": "pa-shiji049-005",
+      "person_id": "9zj_vf7_86a",
+      "relation": "burial_place",
+      "place": {
+        "source_name": "山陰",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p006",
+          "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。",
+          "person_mention_id": "c-shiji-049-waiqi:m006-0030"
+        }
+      ],
+      "source_term": "薄案死山陰，因葬焉",
+      "interpretation_note": "來源出處、實行行程、居處、死地與葬地分存；不補現代定位，地名承接限本段明示敘事。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "薄案死山陰，因葬焉",
+      "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。"
     }
   ],
   "occurrences": [
+    {
+      "number": 41,
+      "category": "",
+      "title": "孝穆趙皇后、孝懿蕭皇后完整傳記單元",
+      "paragraph_id": "c-songshu-041-parents:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹",
+      "paragraph_ids": [
+        "c-songshu-041-parents:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-041-parents:p001:m0123"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-041-parents:p001:m0123": "c-songshu-041-parents:p001"
+      },
+      "mention_id": "c-songshu-041-parents:p001:m0123",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-041-parents:p001:m0123",
+          "mention_ids": [
+            "c-songshu-041-parents:p001:m0123"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "chapter_id": "c-songshu-041-parents",
+      "source_id": "s-songshu-041-parents",
+      "work_title": "宋書"
+    },
     {
       "number": 49,
       "category": "shijia",
       "title": "外戚世家第十九",
       "paragraph_id": "c-shiji-049-waiqi:p006",
-      "count": 1,
-      "raw_count": 1,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。",
       "paragraph_ids": [
-        "c-shiji-049-waiqi:p006"
+        "c-shiji-049-waiqi:p006",
+        "c-shiji-049-waiqi:p010"
       ],
       "mention_ids": [
-        "c-shiji-049-waiqi:m006-0004"
+        "c-shiji-049-waiqi:m006-0004",
+        "c-shiji-049-waiqi:m006-0030",
+        "c-shiji-049-waiqi:m010-0018"
       ],
       "mention_paragraph_ids": {
-        "c-shiji-049-waiqi:m006-0004": "c-shiji-049-waiqi:p006"
+        "c-shiji-049-waiqi:m006-0004": "c-shiji-049-waiqi:p006",
+        "c-shiji-049-waiqi:m006-0030": "c-shiji-049-waiqi:p006",
+        "c-shiji-049-waiqi:m010-0018": "c-shiji-049-waiqi:p010"
       },
       "mention_id": "c-shiji-049-waiqi:m006-0004",
       "occurrence_groups": [
@@ -64,6 +222,20 @@
           "canonical_mention_id": "c-shiji-049-waiqi:m006-0004",
           "mention_ids": [
             "c-shiji-049-waiqi:m006-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m006-0030",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m006-0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m010-0018",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m010-0018"
           ],
           "kind": "paragraph"
         }
@@ -153,34 +325,10 @@
     }
   ],
   "related_people": {
-    "9zj_vf7_86a": "薄氏父（外戚世家候選）",
-    "9zj_vf7_86a_A": "薄太后（孝文帝母）",
-    "fdi_2l0_u1g": "薄案（外戚世家候選）"
+    "9zj_vf7_86a": "薄氏〔薄太后之父；靈文侯〕",
+    "9zj_vf7_86a_A": "薄太后（孝文帝母）"
   },
   "dates": [],
-  "unresolved_identity_cases": [
-    {
-      "id": "ui-song041-lingwen-preexisting-duplicate",
-      "status": "unresolved",
-      "candidate_person_ids": [
-        "9zj_vf7_86a",
-        "fdi_2l0_u1g"
-      ],
-      "candidate_list_exhaustive": false,
-      "unknown_identity_possible": false,
-      "unresolved_mention_ids": [
-        "c-songshu-041-parents:p001:m0123"
-      ],
-      "paragraph_ids": [
-        "c-songshu-041-parents:p001",
-        "c-shiji-049-waiqi:p006",
-        "c-shiji-049-waiqi:p010"
-      ],
-      "note": "本句外祖追榮典故可判角色，但既有父／薄案ID尚未整併；另具同事件案，不改既有資料。",
-      "chapter_id": "c-songshu-041-parents",
-      "source_id": "s-songshu-041-parents"
-    }
-  ],
   "name_components": [],
   "person_ids": [
     "9zj_vf7_86a"
@@ -209,7 +357,28 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji049-007",
+      "person_id": "9zj_vf7_86a",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-049-waiqi",
+          "source_id": "s-shiji-049-waiqi",
+          "paragraph_id": "c-shiji-049-waiqi:p006",
+          "quote": "薄太后，父吳人，姓薄氏，秦時與故魏王宗家女魏媼通，生薄姬，而薄案死山陰，因葬焉。",
+          "person_mention_id": "c-shiji-049-waiqi:m006-0030"
+        }
+      ],
+      "source_term": "薄案死山陰",
+      "interpretation_note": "保存本篇明示死亡；回述不借當段其他事件年份，數字紀年及跨篇身份待核。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

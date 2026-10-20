@@ -23,7 +23,7 @@ class Song075WangsengdaSource(unittest.TestCase):
   p=B[28];s=p['text'].index('注以為己子')+3;m=at(28,s);self.assertIsNone(m['person_id']);self.assertEqual(set(m['candidate_person_ids']),{I['sengda'],I['zuoyong']})
   p=B[32];m=at(32,p['text'].index('靈寶'));self.assertIsNone(m['person_id']);self.assertEqual(m['candidate_person_ids'],[I['lingbao']])
  def test_contemporaries_reuse_ids_and_homonyms_stay_distinct(self):
-  self.assertEqual(I['shen'],'408_ce3_5d8');self.assertEqual(I['sengqian'],'7r6_k52_qji_ABAAAAEB');self.assertNotEqual(I['wangtian'],'7r6_k52_qji_ABAAC');self.assertEqual(I['jun'],'3b1_39e_aa6');self.assertNotEqual(I['lingbao'],'lf6_f95_379');self.assertEqual(I['shao'],'fof_k8v_7md')
+  self.assertEqual(I['shen'],'408_ce3_5d8');self.assertEqual(I['sengqian'],'7r6_k52_qji_ABAAAAEB');self.assertNotEqual(I['wangtian'],'7r6_k52_qji_ABAAC');self.assertEqual(I['jun'],'3b1_39e_aa6');self.assertNotEqual(I['lingbao'],'u9s_w6j_8mc_AAF');self.assertEqual(I['shao'],'fof_k8v_7md')
  def test_no_fake_father_adoption_or_mother_from_fraud(self):
   self.assertTrue({f'a-song075-sengda-{i:03d}'for i in range(1,11)}<={a['id']for a in A});self.assertFalse(any(a['subject_person_id']in[I['lingbao'],I['que']]and a['predicate']in['father','adoptive_father']for a in A));self.assertFalse(any(a['predicate']=='adoptive_father'for a in A));self.assertFalse(any(a['subject_person_id']==I['daoyan']and a['predicate']=='mother'for a in A))
  def test_mother_role_not_forced_biological(self):

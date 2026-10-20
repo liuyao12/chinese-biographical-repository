@@ -20,6 +20,13 @@ def maternal_role_valid(assertion, paragraphs):
         from biographical_maternal_title import maternal_title_scope_valid
     if maternal_title_scope_valid(assertion, paragraphs):
         return True
+    # Source-scoped Jin maternal clauses; preserve unspecified role.
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') in ('biography_head_mother_following_named_father', 'opening_mother_death_child_burial_resumption', 'named_child_mother_in_title_formula'):
+        try:
+            from scripts.huan_kinship_clauses import mother_valid
+        except ImportError:
+            from huan_kinship_clauses import mother_valid
+        return mother_valid(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
     if (assertion.get('predicate') != 'maternal_role'
             or set(q) != {'source_term', 'role', 'biological_mother', 'father_person_id'}
