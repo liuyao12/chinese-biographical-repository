@@ -1314,6 +1314,15 @@
           "chapter_ids": [
             "c-sanguozhi-022-chenqun-chentai"
           ]
+        },
+        {
+          "id": "b-sanguozhi-027",
+          "work_id": "w-sanguozhi",
+          "number": 27,
+          "title": "魏書卷二十七",
+          "chapter_ids": [
+            "c-sanguozhi-027-wangchang"
+          ]
         }
       ]
     },
@@ -1825,6 +1834,39 @@
           ]
         }
       ]
+    },
+    {
+      "id": "w-sunzi-bingfa",
+      "title": "孫子兵法",
+      "status": "referenced_only",
+      "books": [],
+      "reference_attestations": [
+        {
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit004",
+          "mention_id": "c-sanguozhi-027-wangchang:unit004:m0000",
+          "quote": "孫子兵法曰兵以正合以竒勝竒正還相生若循環之無窮"
+        }
+      ],
+      "note": "裴注只引書名及句；不表示已收此書正文，不以書名推定孫武傳記身份。"
+    },
+    {
+      "id": "w-chenzi",
+      "title": "陳子",
+      "author": "陳紀",
+      "status": "referenced_only",
+      "books": [],
+      "reference_attestations": [
+        {
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body",
+          "mention_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-ji-body:m0039",
+          "quote": "紀字元方亦以至徳稱兄弟孝養閨門廱和後進之士皆推慕其風及遭黨錮發憤著書數萬言號曰陳子黨禁解四府並命無所屈就遭父憂每哀至輙歐血絶氣雖衰服己除而積毁消瘠殆將滅性豫州刺史嘉其至行表上尚書圖象百城以厲風俗董卓入洛陽乃使就家拜五官中郎將不得已到京師遷侍中出為平原相徃謁卓時欲徙都長安乃謂紀曰三輔平敞四面險固土地肥羙號為陸海今關東兵起恐洛陽不可久居長安猶有宫室今欲西遷何如紀曰天下有道守在四夷宜脩徳政以懐不附遷移至尊誠計之末者愚以公宜事委公卿專精外任其有違命則威之以武今關東兵起民不堪命若謙逺朝政率師討伐則塗炭之民庶幾可全若欲徙萬乘以自安將有累卵之危崢嶸之險也卓意甚忤而敬紀名行無所復言時議欲以為司徒紀見禍亂方作不復辨嚴即時之郡璽書追拜太僕又徴為尚書令建安初袁紹為太尉讓於紀紀不受拜大鴻臚年七十一卒於官子羣為魏司空天下以為公慙卿卿慚長"
+        }
+      ],
+      "note": "只登記062陳紀傳明言著書號曰的書名，不表示已收正文或確定傳本；022世謂之陳子仍為人物稱呼。"
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

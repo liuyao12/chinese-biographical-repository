@@ -13,22 +13,20 @@ def partition(chapter):
     for a in archives:need(a.get('default_collapsed') is True and a.get('reason')=='same_fixed_witness_expanded_reading_unit' and bool(a.get('label')),'封存角色或說明無效')
     return [(by[p],'primary',i+1)for i,p in enumerate(primary)]+[(by[a['paragraph_id']],'archival-excerpt',i+1)for i,a in enumerate(archives)]
 
-def _body_positions(chapter,p,lines):
-    e=next(e for e in chapter['source']['normalization']['excerpts']if e['proposed_paragraph_id']==p['id']);first,last=e['source_lines'];raw='\n'.join(lines[first-1:last]);q=e['raw_quote']
-    if q not in (raw,raw+'\n')or hashlib.sha256(q.encode()).hexdigest()!=e['raw_quote_sha256']:raise ValueError('閱讀版面：節引原行／SHA不符')
-    positions=[];chars=[];depth=0
-    for n in range(first,last+1):
-        i=0;line=lines[n-1]
-        while i<len(line):
-            if line.startswith('<pb:',i):i=line.index('>',i)+1;continue
-            c=line[i]
-            if c=='(':depth+=1
-            elif c==')':depth-=1
-            elif depth==0 and c not in '¶\r\n':chars.append(c);positions.append((n,i))
-            if depth<0:raise ValueError('閱讀版面：括注不平衡')
-            i+=1
-    if depth or ''.join(chars)!=p['text']:raise ValueError('閱讀版面：節引正文投影不符')
-    return positions
+try:
+    from .witness_projection import body_positions as _body_positions, repository_positions
+except ImportError:
+    from witness_projection import body_positions as _body_positions, repository_positions
+
+def _positions(chapter,p,lines,root,literal=False):
+    if p.get('witness_fragments'):
+        return _fragments(p,lines,literal)
+    if p.get('source_position',{}).get('raw_projection_ref'):
+        points,digest=repository_positions(root,p,lines)
+        if digest!=chapter['source']['response_sha256']:
+            raise ValueError('閱讀版面：投影raw SHA不符')
+        return points
+    return _body_positions(chapter,p,lines)
 
 def _fragments(p,lines,literal):
     chars=[];positions=[]
@@ -59,14 +57,14 @@ def validate_chapter(chapter,root):
     lines=raw.decode().splitlines();by={p['id']:p for p in chapter['paragraphs']};primary=set(layout['primary_paragraph_ids']);order=[]
     for p,role,_ in rows:
         if role=='primary':
-            pts=_fragments(p,lines,False)if p.get('witness_fragments')else _body_positions(chapter,p,lines);order.append(pts[0])
+            pts=_positions(chapter,p,lines,root);order.append(pts[0])
     if order!=sorted(order)or len(order)!=len(set(order)):raise ValueError('閱讀版面：主文不是fixedraw順序')
     for a in layout['archival_excerpts']:
         p=by[a['paragraph_id']];oldpos=_body_positions(chapter,p,lines);cursor=0;targets=set()
         for seg in a['canonical_segments']:
             start,end,cs,ce=seg['excerpt_start'],seg['excerpt_end'],seg['canonical_start'],seg['canonical_end'];target=by[seg['canonical_paragraph_id']]
             if any(type(x)is not int for x in (start,end,cs,ce))or start!=cursor or not start<end<=len(p['text'])or target['id']not in primary or not 0<=cs<ce<=len(target['text']):raise ValueError('閱讀版面：封存映射須完整逐字覆蓋')
-            if p['text'][start:end]!=seg['quote']or target['text'][cs:ce]!=seg['quote']or oldpos[start:end]!=_fragments(target,lines,True)[cs:ce]:raise ValueError('閱讀版面：不同字／raw位置不得封存')
+            if p['text'][start:end]!=seg['quote']or target['text'][cs:ce]!=seg['quote']or oldpos[start:end]!=_positions(chapter,target,lines,root,True)[cs:ce]:raise ValueError('閱讀版面：不同字／raw位置不得封存')
             cursor=end;targets.add(target['id'])
         if cursor!=len(p['text']):raise ValueError('閱讀版面：封存未完整覆蓋')
         links=[r for r in concordance['records']if r['duplicate']['paragraph_id']==p['id']]

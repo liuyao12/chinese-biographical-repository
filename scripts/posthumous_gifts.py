@@ -3,6 +3,9 @@
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
     if (isinstance(holding.get('posthumous_basis'), dict)
+            and holding['posthumous_basis'].get('kind') == 'named_recipient_after_same_paragraph_death'):
+        return named_recipient_prior_death_valid(holding, paragraphs, mentions, life_events or {})
+    if (isinstance(holding.get('posthumous_basis'), dict)
             and holding['posthumous_basis'].get('kind') == 'biography_topic_death_then_gift'):
         return biography_topic_gift_valid(holding, paragraphs, mentions, life_events or {})
     if (isinstance(holding.get('posthumous_basis'), dict)
@@ -219,3 +222,67 @@ def coordinated_attendance_gift_valid(holding, paragraphs, mentions, life_events
                 for a in holding.get('attestations',[]))
     except (KeyError,TypeError,ValueError,IndexError):
         return False
+
+
+def named_recipient_prior_death_valid(holding, paragraphs, mentions, life_events):
+    """Bind 贈+named recipient+office to a same-person, earlier death; no topic guessing."""
+    import hashlib
+    try:
+        from scripts.relative_regnal_year import relative_regnal_year_valid
+        from scripts.validate_corpus import source_age_number
+    except ImportError:
+        from relative_regnal_year import relative_regnal_year_valid
+        from validate_corpus import source_age_number
+    b=holding.get('posthumous_basis',{})
+    keys={'kind','source_term','death_event_id','death_anchor','relative_date_anchor','grant_anchor',
+          'source_clause_anchor','recipient_person_mention_id','source_revision','paragraph_sha256','evidence'}
+    try:
+        start=holding['effective_period']['start'];date=start['normalized_date']
+        if (set(b)!=keys or holding['kind']!='office' or holding['mode']!='posthumous_grant'
+            or holding['status']!='source_attested' or len(b['evidence'])!=1
+            or b['evidence']!=holding['evidence'] or b['evidence']!=start['evidence']
+            or start['status']!='source_event' or start['event_type']!='posthumous_grant'
+            or start['date_expression']!='明年' or date['source_expression']!='明年'):
+            return False
+        e=b['evidence'][0];cid,p=paragraphs[e['paragraph_id']];text=p['text']
+        rec=mentions[b['recipient_person_mention_id']];event=life_events[b['death_event_id']]
+        if (e['chapter_id']!=cid or rec[0]!=cid or rec[1]!=p['id'] or rec[2].get('kind')!='person'
+            or rec[2].get('person_id')!=holding['person_id'] or e['person_mention_id']!=rec[2]['id']
+            or rec[2]['surface'] in ('帝','公','王','其','之','子','父','母','君','陛下')
+            or p.get('text_layer')!='received_chapter' or e['quote']!=text or b['source_term']!=text
+            or b['source_revision']!=p['source_position']['revision_id']
+            or b['paragraph_sha256']!=hashlib.sha256(text.encode()).hexdigest()
+            or event['person_id']!=holding['person_id'] or event['event_type']!='death'
+            or event['status']!='source_attested'
+            or not any(x['paragraph_id']==p['id'] and x['quote']==text and x['chapter_id']==cid and x.get('source_id')==e.get('source_id') for x in event['evidence'])):
+            return False
+        def exact(a):
+            return(set(a)=={'paragraph_id','start','end','surface'} and a['paragraph_id']==p['id']
+                   and type(a['start'])is int and type(a['end'])is int and 0<=a['start']<a['end']<=len(text)
+                   and text[a['start']:a['end']]==a['surface'])
+        d,y,g,c=[b[k]for k in ['death_anchor','relative_date_anchor','grant_anchor','source_clause_anchor']]
+        if (not all(exact(a)for a in (d,y,g,c)) or event['source_term']!=d['surface']
+            or not d['surface'].endswith(('卒','薨','死')) or y['surface']!='明年'
+            or not d['end']<=y['start']<y['end']<c['start']<=g['start']<g['end']
+            or g['surface']!='贈'+rec[2]['surface']+holding['title']
+            or c['surface'] not in (g['surface'],'其'+g['surface']) or c['end']!=g['end']
+            or g['start']!=c['start']+len(c['surface'])-len(g['surface'])
+            or rec[2]['start']!=g['start']+1 or rec[2]['end']!=g['start']+1+len(rec[2]['surface'])
+            or (c['start']>0 and text[c['start']-1] not in '。，；：「')
+            or any(mark in text[:d['end']] for mark in ('曰','「','」','『','』'))):return False
+        # Date is independently validated by the existing native relative-year model.
+        rr=date['relative_year_reference'];mapping=date['regnal_year_mapping'];death_date=event['normalized_date']
+        if (date['evidence']!=b['evidence'] or date['original_quote']!=text
+            or rr['source_term']!='明年' or rr['antecedent_expression']!=event['date_expression']
+            or rr['era_expression']!=event['date_expression'] or date['year']!=death_date['year']+1
+            or death_date['source_expression']!=event['date_expression']
+            or not d['surface'].startswith(event['date_expression'])
+            or text.find('明年',d['end'])!=y['start']
+            or re.search(r'明年|其年|[元一二三四五六七八九十]+年',text[y['end']:g['start']])
+            or not relative_regnal_year_valid(date,source_age_number)):
+            return False
+        return any(a.get('paragraph_id')==p['id'] and a.get('person_mention_id')==rec[2]['id']
+                   and a.get('surface')==holding['title'] and a.get('start')==rec[2]['end']
+                   and a.get('end')==g['end'] and a.get('usage')=='posthumous_usage'
+                   and text[a['start']:a['end']]==holding['title'] for a in holding['attestations'])
+    except (KeyError,TypeError,ValueError,IndexError):return False

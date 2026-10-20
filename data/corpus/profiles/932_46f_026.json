@@ -13,7 +13,56 @@
     "天王",
     "之"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wang35-110",
+      "person_id": "932_46f_026",
+      "title": "眀帝",
+      "kind": "imperial_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-027",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit003",
+          "quote": "少與同郡王凌俱知名凌年長昶兄事之文帝在東宫昶為太子文學遷中庶子文帝踐阼徙散騎侍郎為洛陽典農時都畿樹木成林昶斫開荒萊勤勸百姓墾田特多遷兖州刺史眀帝即位加揚烈將軍賜爵關内侯昶雖在外任心存朝廷以為魏承秦漢之弊法制苛碎不大釐改國典以凖先王之風而望治化復興不可得也乃著治論略依古制而合於時務者二十餘篇又著兵書十餘篇言竒正之用",
+          "person_mention_id": "c-sanguozhi-027-wangchang:unit003:m0070"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-wang35-110:a001",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit003",
+          "start": 70,
+          "end": 72,
+          "surface": "眀帝",
+          "person_mention_id": "c-sanguozhi-027-wangchang:unit003:m0070",
+          "usage": "retrospective",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保本源原官／爵用詞及完整段落；來源重出不當獨立史實票數。無明終職不補終期，死亡不結束任何官爵。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -175,6 +224,41 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
+      "work_title": "三國志"
+    },
+    {
+      "number": 27,
+      "category": "",
+      "title": "卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-027-wangchang:unit003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徙散騎侍郎為洛陽典農時都畿樹木成林昶斫開荒萊勤勸百姓墾田特多遷兖州刺史眀帝即位加揚烈將軍賜爵關内侯昶雖在外任心存朝廷以為魏承秦漢之弊法制苛碎不大釐改國典以凖先王之風而望治化復興不可得也乃著治論略依古制而合於時務者二十餘篇又著兵書十餘篇言竒正之用",
+      "paragraph_ids": [
+        "c-sanguozhi-027-wangchang:unit003"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-027-wangchang:unit003:m0070"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-027-wangchang:unit003:m0070": "c-sanguozhi-027-wangchang:unit003"
+      },
+      "mention_id": "c-sanguozhi-027-wangchang:unit003:m0070",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-027-wangchang:unit003:m0070",
+          "mention_ids": [
+            "c-sanguozhi-027-wangchang:unit003:m0070"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "source_id": "s-sanguozhi-027-wangchang",
       "work_title": "三國志"
     },
     {
@@ -12106,6 +12190,36 @@
         "normalization": {
           "character_conversion": "none",
           "extraction_note": "正文兩完整傳主分段，古注十四層另段；去¶、頁碼、古注逐行括號包裝，原字不校改。完整raw與逐字runs另存。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-027-wangchang",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-027",
+      "source_id": "s-sanguozhi-027-wangchang",
+      "source": {
+        "title": "三國志／魏書卷二十七／王昶傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_027.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "5305506e7094013caff1247f971797655b3839fe",
+        "raw_file_sha256": "022fc5dba059f0b330510848ef58d10b96ce10fc09a466c73cf45aaf52139998",
+        "raw_path": "sources/sanguozhi/KR2a0012_027-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "117–260完整王昶傳及九裴注；402–404四傳合評；410–418完整王昶相關清考證，不稱全卷完成",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；Kanripo固定數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
+          "excerpts": []
         }
       }
     }

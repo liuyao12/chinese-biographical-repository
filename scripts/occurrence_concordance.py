@@ -35,27 +35,15 @@ def occurrence_catalog(root, records, person_ids=None):
                 need(f['text'] == f['raw_fragment'] == lines[n-1][a:b], 'literal原行不符')
                 text += f['text']; points.extend((n, i) for i in range(a, b))
         elif mode == 'kanripo_parenthesized_commentary_body_projection':
-            excerpt = next(e for e in chapter['source']['normalization']['excerpts']
-                           if e['proposed_paragraph_id'] == paragraph['id'])
-            first, last = excerpt['source_lines']; raw = '\n'.join(lines[first-1:last])
-            need(type(first) is int and type(last) is int and 1 <= first <= last <= len(lines), '節引原行無效')
-            need(raw == excerpt['raw_quote'] and hashlib.sha256(raw.encode()).hexdigest()
-                 == excerpt['raw_quote_sha256'], '節引raw quote或SHA不符')
-            points, chars, depth = [], [], 0
-            for n in range(first, last+1):
-                line = lines[n-1]; i = 0
-                while i < len(line):
-                    if line.startswith('<pb:', i):
-                        i = line.index('>', i)+1; continue
-                    ch = line[i]
-                    if ch == '(':
-                        depth += 1
-                    elif ch == ')':
-                        depth -= 1; need(depth >= 0, '括注不平衡')
-                    elif depth == 0 and ch not in '¶\n\r':
-                        chars.append(ch); points.append((n, i))
-                    i += 1
-            need(depth == 0, '括注不平衡'); text = ''.join(chars)
+            try: from .witness_projection import body_positions
+            except ImportError: from witness_projection import body_positions
+            points = body_positions(chapter, paragraph, lines); text = paragraph['text']
+        elif mode == 'repository_raw_projection_ref':
+            try: from .witness_projection import repository_positions
+            except ImportError: from witness_projection import repository_positions
+            points, digest = repository_positions(root, paragraph, lines)
+            need(digest == chapter['source']['response_sha256'], '投影raw SHA不符')
+            text = paragraph['text']
         else:
             raise ValueError('來源位置對應：未知projection')
         need(text == paragraph['text'], 'projection不是原段正文')
