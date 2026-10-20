@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "id": "q2y_1wy_vgd",
+  "canonical_person_id": "q2y_1wy_vgd",
+  "label": "李休",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "休",
+    "子朗"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 9,
+      "category": "",
+      "title": "曹真曹爽完整本傳及附敘",
+      "paragraph_id": "c-sanguozhi-009-caozhen:p032",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "李勝字公昭父休字子朗有智略張魯前為鎮北將軍休為司馬家南鄭時漢中有甘露降子朗見張魯精兵數萬人有四塞之固遂建言赤氣久衰黄家當興欲魯舉號魯不聼㑹魯破太祖以其勸魯内附賜爵闗内侯署散官騎從詣鄴至黄初中仕歴上黨鉅鹿二郡太守後以",
+      "paragraph_ids": [
+        "c-sanguozhi-009-caozhen:p032"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-009-caozhen:p032:m0006",
+        "c-sanguozhi-009-caozhen:p032:m0008",
+        "c-sanguozhi-009-caozhen:p032:m0021",
+        "c-sanguozhi-009-caozhen:p032:m0035"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-009-caozhen:p032:m0006": "c-sanguozhi-009-caozhen:p032",
+        "c-sanguozhi-009-caozhen:p032:m0008": "c-sanguozhi-009-caozhen:p032",
+        "c-sanguozhi-009-caozhen:p032:m0021": "c-sanguozhi-009-caozhen:p032",
+        "c-sanguozhi-009-caozhen:p032:m0035": "c-sanguozhi-009-caozhen:p032"
+      },
+      "mention_id": "c-sanguozhi-009-caozhen:p032:m0006",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p032:m0006",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p032:m0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p032:m0008",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p032:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p032:m0021",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p032:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p032:m0035",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p032:m0035"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "chapter_id": "c-sanguozhi-009-caozhen",
+      "source_id": "s-sanguozhi-009-caozhen",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-009-caozhen",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caozhen",
+      "source": {
+        "title": "三國志卷九曹真曹爽完整本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "accessed_on": "2026-10-20",
+        "edition": "四庫全書數位固定見證；未核影像",
+        "extent": "固定原行309–563；564夏侯尚不含。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://github.com/kanripo/KR2a0012",
+        "rights": "古代正文與公開Kanripo轉錄",
+        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-sgz009-caozhen-recovery-020",
+      "subject_person_id": "rnj_yeg_1ii",
+      "predicate": "father",
+      "object_person_id": "q2y_1wy_vgd",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "李勝字公昭父休字子朗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p032",
+          "quote": "李勝字公昭父休字子朗有智略張魯前為鎮北將軍休為司馬家南鄭時漢中有甘露降子朗見張魯精兵數萬人有四塞之固遂建言赤氣久衰黄家當興欲魯舉號魯不聼㑹魯破太祖以其勸魯内附賜爵闗内侯署散官騎從詣鄴至黄初中仕歴上黨鉅鹿二郡太守後以年老還拜議郎勝少游京師雅有才智與曹爽善明帝禁浮華而人白勝堂有四窻八逹各有主名用是被収以其所連引者多故得原禁錮數嵗帝崩曹爽輔政勝為洛陽令夏侯玄為征西将軍以勝為長史玄亦宿與勝厚駱谷之役議從勝出由是司馬宣王不悦於勝累遷熒陽太守河南尹勝前後所宰守未甞不稱職為尹嵗餘㕔事前屠蘇壊令人更治之小材一枚激墮正撾受符吏石虎頭斷之後旬日遷為荆州刺史未及之官而敗也",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p032:m0000"
+        }
+      ]
+    }
+  ],
+  "related_people": {
+    "q2y_1wy_vgd": "李休",
+    "rnj_yeg_1ii": "李勝"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "q2y_1wy_vgd"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-sgz009-caozhen-recovery-020",
+      "subject_person_id": "rnj_yeg_1ii",
+      "predicate": "father",
+      "object_person_id": "q2y_1wy_vgd",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "李勝字公昭父休字子朗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p032",
+          "quote": "李勝字公昭父休字子朗有智略張魯前為鎮北將軍休為司馬家南鄭時漢中有甘露降子朗見張魯精兵數萬人有四塞之固遂建言赤氣久衰黄家當興欲魯舉號魯不聼㑹魯破太祖以其勸魯内附賜爵闗内侯署散官騎從詣鄴至黄初中仕歴上黨鉅鹿二郡太守後以年老還拜議郎勝少游京師雅有才智與曹爽善明帝禁浮華而人白勝堂有四窻八逹各有主名用是被収以其所連引者多故得原禁錮數嵗帝崩曹爽輔政勝為洛陽令夏侯玄為征西将軍以勝為長史玄亦宿與勝厚駱谷之役議從勝出由是司馬宣王不悦於勝累遷熒陽太守河南尹勝前後所宰守未甞不稱職為尹嵗餘㕔事前屠蘇壊令人更治之小材一枚激墮正撾受符吏石虎頭斷之後旬日遷為荆州刺史未及之官而敗也",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p032:m0000"
+        }
+      ]
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

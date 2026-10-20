@@ -2126,6 +2126,61 @@
       "work_title": "史記"
     },
     {
+      "number": 35,
+      "category": "",
+      "title": "卷三十五：崔浩完整本傳、史臣論及清考證",
+      "paragraph_id": "c-weishu-weishou-035-cuihao:p005",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "欲行荆揚之化於三秦之地譬無翼而欲飛無足而欲走不可得也若留衆守之必資於宼孔子曰善人為邦百年可以勝殘去殺今以秦之難制一二年間豈裕所能哉且可治戎束甲息民備境以待其歸秦地亦當終為國有可坐而守也太宗曰裕已入闗不能進退我遣精騎南襲彭城夀春裕亦何能自立浩曰今西北二宼未殄陛下不可親御六師兵",
+      "paragraph_ids": [
+        "c-weishu-weishou-035-cuihao:p005",
+        "c-weishu-weishou-035-cuihao:p007",
+        "c-weishu-weishou-035-cuihao:p027"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-035-cuihao:p005:m0294",
+        "c-weishu-weishou-035-cuihao:p007:m0152",
+        "c-weishu-weishou-035-cuihao:p027:m0100"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-035-cuihao:p005:m0294": "c-weishu-weishou-035-cuihao:p005",
+        "c-weishu-weishou-035-cuihao:p007:m0152": "c-weishu-weishou-035-cuihao:p007",
+        "c-weishu-weishou-035-cuihao:p027:m0100": "c-weishu-weishou-035-cuihao:p027"
+      },
+      "mention_id": "c-weishu-weishou-035-cuihao:p005:m0294",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-035-cuihao:p005:m0294",
+          "mention_ids": [
+            "c-weishu-weishou-035-cuihao:p005:m0294"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-035-cuihao:p007:m0152",
+          "mention_ids": [
+            "c-weishu-weishou-035-cuihao:p007:m0152"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-035-cuihao:p027:m0100",
+          "mention_ids": [
+            "c-weishu-weishou-035-cuihao:p027:m0100"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-035",
+      "chapter_id": "c-weishu-weishou-035-cuihao",
+      "source_id": "s-weishu-weishou-035-cuihao",
+      "work_title": "魏書（魏收）"
+    },
+    {
       "number": 36,
       "category": "shijia",
       "title": "陳杞世家第六",
@@ -14470,6 +14525,35 @@
           "editorial_readings": [],
           "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
           "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-weishu-weishou-035-cuihao",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-035",
+      "source_id": "s-weishu-weishou-035-cuihao",
+      "source": {
+        "title": "魏書／卷三十五／崔浩",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_035.txt",
+        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "raw_file_sha256": "190464d83516b3ce4ba11cfcde8cf2a25714bf0acfa86ec67bbf54c46fbc1422",
+        "raw_path": "sources/weishu-weishou/KR2a0020_035-17b6525.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "完整崔浩本傳、史臣論及附清考證；不含空白、卷題、頁標",
+        "text_scope": "complete_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去物理空白、¶、頁標；原字及一對一座標保留。",
+          "excerpts": []
         }
       }
     }

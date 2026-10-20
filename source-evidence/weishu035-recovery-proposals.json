@@ -1,0 +1,63 @@
+[
+  {
+    "id": "p-weishu035-recovery-001",
+    "predicate": "teacher",
+    "subject_person_id": "19f_55e_8b2",
+    "object_person_id": "yd9_rqt_a0v_AAB",
+    "source_term": "常授太宗經書",
+    "term_anchor": {
+      "paragraph_id": "c-weishu-weishou-035-cuihao:p001",
+      "start": 148,
+      "end": 154,
+      "surface": "常授太宗經書"
+    },
+    "evidence": {
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-035",
+      "chapter_id": "c-weishu-weishou-035-cuihao",
+      "source_id": "s-weishu-weishou-035-cuihao",
+      "paragraph_id": "c-weishu-weishou-035-cuihao:p001",
+      "quote": "崔浩字伯淵清河人也白馬公𤣥伯之長子少好文學博覽經史𤣥象隂陽百家之言無不闗綜研精義理時人莫及弱冠為通直郎天興中給事祕書轉著作郎太祖以其工書常置左右太祖季年威嚴頗峻宮省左右多以㣲過得罪莫不逃隐避目下之變浩獨恭勤不怠或終日不歸太祖知之輒命賜以御粥其砥直任時不為窮通改節皆此類也太宗初拜博士祭酒賜爵武城子常授太宗經書每至郊祠父子竝乘軒軺時人榮之太宗好隂陽術數聞浩説易及洪範五行善之因命浩筮吉凶參觀天文考定疑惑浩綜覈天人之際舉其綱紀諸所處决多有應驗恒與軍國大謀甚為寵密是時有兔在後宫驗問門官無從得入太宗怪之命浩推其咎徴浩以為當有隣國貢嬪嬙者善應也明年姚興果獻女",
+      "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p001:m0135",
+      "object_person_mention_id": "c-weishu-weishou-035-cuihao:p001:m0000"
+    },
+    "status": "typed_source_proposal_pending_model",
+    "reason": "現有 teacher 原詞只收學教受傳弟子師；授經的授字未收，不冒寫為授官，也不在來源包擴validator。",
+    "human_reviewed": false,
+    "model": null,
+    "teaching_clause": {
+      "instructor_person_id": "yd9_rqt_a0v_AAB",
+      "learner_person_id": "19f_55e_8b2"
+    }
+  },
+  {
+    "id": "p-weishu035-recovery-002",
+    "predicate": "kinship_unspecified",
+    "subject_person_id": "0cc_b35_67f",
+    "object_person_id": "5af_e9c_93c",
+    "source_term": "模頤為親",
+    "term_anchor": {
+      "paragraph_id": "c-weishu-weishou-035-cuihao:p033",
+      "start": 30,
+      "end": 34,
+      "surface": "模頤為親"
+    },
+    "evidence": {
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-035",
+      "chapter_id": "c-weishu-weishou-035-cuihao",
+      "source_id": "s-weishu-weishou-035-cuihao",
+      "paragraph_id": "c-weishu-weishou-035-cuihao:p033",
+      "quote": "始浩與冀州刺史頤滎陽太守模等年皆相次浩為長次模次頤三人别祖而模頤為親浩恃其家世魏晉公卿常侮模頤模謂人曰桃簡正可欺我何合輕我家周兒也浩小名桃簡頤小名周兒世祖頗聞之故誅浩時二家獲免浩既不信佛道模深所歸向每雖糞土之中禮拜形像浩大笑之云持此頭顱不淨處跪是胡神也",
+      "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0012",
+      "object_person_mention_id": "c-weishu-weishou-035-cuihao:p033:m0007"
+    },
+    "status": "typed_source_proposal_pending_model",
+    "reason": "現有generic雖可容納，但為親未有窄範圍原詞與雙人綁定專門驗證；不補距離、世代或父系。",
+    "human_reviewed": false,
+    "model": null,
+    "generation_distance": null,
+    "common_ancestor_person_id": null,
+    "lineage": null
+  }
+]
