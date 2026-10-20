@@ -3,6 +3,12 @@
 
 def maternal_role_valid(assertion, paragraphs):
     try:
+        from scripts.maternal_clauses import maternal_clause_valid
+    except ImportError:
+        from maternal_clauses import maternal_clause_valid
+    if maternal_clause_valid(assertion, paragraphs):
+        return True
+    try:
         from scripts.biographical_maternal_title import maternal_title_scope_valid
     except ImportError:
         from biographical_maternal_title import maternal_title_scope_valid

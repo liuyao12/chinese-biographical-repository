@@ -921,3 +921,9 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 `chain_subject_person_id`、兩個祖先 assertion IDs、四個 `*_mention_id`、`source_revision`、雙來源完整 `references` 與理由均必填。`raw_projection_ref` 指向具有 `raw_file`（同目錄檔名）、raw SHA、完整 raw 行窗、分層 unit 與逐字投影的證據；正文與注的 raw 投影緊接，不得跨另一人物單元、跳過正文或版本。當前此窄型只接受 `witness_appended_pei_songzhi_note`，不能冒用唐注或一般附錄。父系不明、族父歧義、另父衝突、身份未定或循環均拒絕。
 
 API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, assertions, chapters, root)` 由原生 family assembly validator 消費；瀏覽器 `person-family.js` 只增加此已驗證型別白名單，顯示 `assembly_inferred` 及雙引文，不能顯示為原文明父。舊 `parent_between_consecutive_ancestors` 同段規則維持不變；family assembly 尚無獨立 JSON schema enum，結構契約在本節及原生 validator，不需要放寬一般來源 schema。
+
+## 局部母稱子句
+
+`maternal_role` 的 `mother_unspecified` 可另帶 `qualifiers.maternal_clause`，其 `kind`、`start`、`end` 固定原段內原詞位置；仍須 `biological_mother: null`、`father_person_id: null`、完整原段引文、同段雙人物錨點及 `human_reviewed: false`。不得由這些母稱生成生母、父親或配偶。
+
+支援的限定語式為：傳首「甲乙孫也母丙」的甲至丙；具名子女緊接「亦隨母」；具名子女緊接「賢謂其母丙」；具名子女緊接「於是竊入寢室以刀斷鼻䝉被而卧其母呼與語不應」。最後一類只處理已核完整行為子句，不按最近的其他姓名猜主體。各型須精確驗證相應字串、兩端人物及原詞位置，插入否定或截引文即拒絕。傳首所稱祖父不是子女主體，亦不因此補闕名父親。一般直接母稱、封母及前母舊分支保持。
