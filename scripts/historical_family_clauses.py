@@ -44,6 +44,13 @@ def named_zusun_fenghou_valid(a,paragraphs):
     except(KeyError,TypeError,ValueError,StopIteration):return False
 
 def explicit_congdi_valid(a,paragraphs):
+    # Qualified indirect congdi clauses.
+    if a.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
+        try:
+            from scripts.huan_kinship_clauses import cousin_valid
+        except ImportError:
+            from huan_kinship_clauses import cousin_valid
+        return cousin_valid(a, paragraphs)
     if a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='named_subject_congxiong_group':
         try:
             from scripts.song059_kinship import named_congxiong_group_valid

@@ -17,7 +17,7 @@ class XiezhanFacts(unittest.TestCase):
  def setUpClass(cls):cls.cat=load_catalog(ROOT)
  def test_scoped_counts(self):self.assertEqual((len(HS),len(N),len(LE),len(AG),len(AD),len(TP)),(23,19,4,3,4,1));self.assertEqual(REVIEW['formal_record_count'],54)
  def test_source_and_ner_exactly_preserved(self):
-  self.assertEqual(H(E(P)),REVIEW['source_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
+  fidelity=J(ROOT/'source-evidence/huan-family-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256']);self.assertEqual(H(E(P)),fidelity['after_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
  def test_original_source_annotation_evidence_bound(self):
   b=REVIEW['source_only_annotation'];self.assertEqual(H(E(b)),REVIEW['source_only_annotation_sha256']);self.assertNotIn('age_assertions',b);self.assertNotIn('title_proposals',b);self.assertFalse(b['human_reviewed']);self.assertEqual(len(REVIEW['source_chapter_sha256']),64)
  def test_zhan_two_names_and_courtesy_pairings(self):
@@ -34,7 +34,7 @@ class XiezhanFacts(unittest.TestCase):
  def test_hongwei_not_fabricated_ming(self):
   n=next(n for n in N if n['person_id']=='b60_740_5f6_A');self.assertIsNone(n['ming']);self.assertEqual(n['additional_names'],['𢎞微'])
  def test_patron_titles_belong_to_patrons(self):
-  self.assertTrue(any(h['title']=='安西'and h['person_id']=='9j5_n7n_c3u'for h in HS));self.assertTrue(any(h['title']=='鎮軍'and h['person_id']=='3dv_ken_w58'for h in HS));self.assertTrue(any(h['title']=='大司馬'and h['person_id']=='ije_ngm_cmj'for h in HS));self.assertFalse(any(h['person_id']=='aa6_83c_juy_AAAD'and h['title']in ['安西','鎮軍','大司馬']for h in HS))
+  self.assertTrue(any(h['title']=='安西'and h['person_id']=='u9s_w6j_8mc_AAE'for h in HS));self.assertTrue(any(h['title']=='鎮軍'and h['person_id']=='3dv_ken_w58'for h in HS));self.assertTrue(any(h['title']=='大司馬'and h['person_id']=='ije_ngm_cmj'for h in HS));self.assertFalse(any(h['person_id']=='aa6_83c_juy_AAAD'and h['title']in ['安西','鎮軍','大司馬']for h in HS))
  def test_princess_title_does_not_add_imperial_father(self):
   h=next(h for h in HS if h['title']=='南郡公主');self.assertEqual(h['person_id'],who(1,'晉南郡公主'));self.assertEqual(h['mode'],'attestation');self.assertTrue(all(x['attestations'][0]['date_expression']is None for x in HS if x['person_id']==h['person_id']))
  def test_unassumed_secretary_positive(self):

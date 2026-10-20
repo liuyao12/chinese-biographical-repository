@@ -1539,6 +1539,12 @@ def validate(root=ROOT):
                         check(explicit_congdi_valid(a, paragraphs), '從弟須有具名雙端、原詞字位與完整引文，不得補親等共祖')
                     check(structure.get('distance') is None and structure.get('common_ancestor_person_id') is None, '未定從親不可補親等或共同祖先')
                     check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
+                if qualifiers.get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
+                    try:
+                        from scripts.huan_kinship_clauses import cousin_valid
+                    except ImportError:
+                        from huan_kinship_clauses import cousin_valid
+                    check(cousin_valid(a, paragraphs), '話語回指從弟須保完整傳文與雙端，不得按近名或補親等')
                 if 'mourning_separation' in qualifiers:
                     separation = qualifiers['mourning_separation']
                     valid_separation = isinstance(separation, dict)
