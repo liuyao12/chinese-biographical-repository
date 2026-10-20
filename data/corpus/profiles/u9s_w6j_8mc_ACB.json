@@ -375,8 +375,70 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
-  "life_events": [],
+  "age_assertions": [
+    {
+      "id": "age-jin074-huanshixiu-death",
+      "person_id": "u9s_w6j_8mc_ACB",
+      "source_number": "四十三",
+      "source_term": "年四十三",
+      "value": 43,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p016",
+          "quote": "石秀，幼有令名，風韻秀徹，博涉君書尤善《老》《莊》。常獨處一室，簡于應接，時人方之庾純。甚為簡文帝所重。豁為荊州，請為鷹揚將軍、竟陵太守，非其好也。尋代叔父沖為甯遠將軍、江州刺史、領鎮蠻護軍、西陽太守，居尋陽。性放曠，常弋釣林澤，不以榮爵嬰心。善騎射，發則命中。嘗從沖獵，登九井山，徒旅甚盛，觀者傾坐，石秀未嘗屬目，止嘯詠而已。謝安嘗訪以世務，默然不答，安甚怪之。他日，安以語其從弟嗣，嗣以問之，石秀曰：「世事此公所諳，吾又何言哉！」在州五年，以疾去職。年四十三卒於家，朝野悼惜之。追贈後將軍，後改贈太常。子稚玉嗣。玄之篡也，以石秀一門之令，封稚玉為臨沅王。",
+          "person_mention_id": "c-jinshu-074-huan-family:p016:m0000"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-jin074-huanshixiu-death"
+      },
+      "interpretation_note": "原文明報年齡；計歲方式未明，不反推生年，死亡年待紀年原證。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "life_events": [
+    {
+      "id": "le-jin074-huanshixiu-death",
+      "person_id": "u9s_w6j_8mc_ACB",
+      "event_type": "death",
+      "source_term": "年四十三卒於家",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-074-huan-family:p016",
+        "start": 227,
+        "end": 234,
+        "surface": "年四十三卒於家"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p016",
+          "quote": "石秀，幼有令名，風韻秀徹，博涉君書尤善《老》《莊》。常獨處一室，簡于應接，時人方之庾純。甚為簡文帝所重。豁為荊州，請為鷹揚將軍、竟陵太守，非其好也。尋代叔父沖為甯遠將軍、江州刺史、領鎮蠻護軍、西陽太守，居尋陽。性放曠，常弋釣林澤，不以榮爵嬰心。善騎射，發則命中。嘗從沖獵，登九井山，徒旅甚盛，觀者傾坐，石秀未嘗屬目，止嘯詠而已。謝安嘗訪以世務，默然不答，安甚怪之。他日，安以語其從弟嗣，嗣以問之，石秀曰：「世事此公所諳，吾又何言哉！」在州五年，以疾去職。年四十三卒於家，朝野悼惜之。追贈後將軍，後改贈太常。子稚玉嗣。玄之篡也，以石秀一門之令，封稚玉為臨沅王。",
+          "person_mention_id": "c-jinshu-074-huan-family:p016:m0000"
+        }
+      ],
+      "interpretation_note": "本段明記死亡與報齡，未明記卒年；保留來源年齡，不從前文背景年或年齡推定生卒年。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

@@ -12293,8 +12293,69 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-jin099-huanxuan-death",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "source_number": "三十六",
+      "source_term": "年三十六",
+      "value": 36,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p032",
+          "quote": "時益州刺史毛璩使其從孫祐之、參軍費恬送弟璠喪葬江陵，有眾二百，璩弟子脩之為玄屯騎校尉，誘玄以入蜀，玄從之。達枚回洲，恬與祐之迎擊玄，矢下如雨。玄嬖人丁仙期、萬蓋等以身敝玄，並中數十箭而死。玄被箭，其子升輒拔去之。益州督護馮遷抽刀而前，玄拔頭上玉導與之，仍曰：「是何人邪？敢殺天子！」遷曰：「欲殺天子之賊耳。」遂斬之，時年三十六。又斬石康及浚等五級，庾頤之戰死。升云：「我是豫章王，諸君勿見殺。」送至江陵市斬之。",
+          "person_mention_id": "c-jinshu-099-huanxuan:p032:m0037"
+        }
+      ],
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-jin099-huanxuan-death"
+      },
+      "interpretation_note": "原文明報年齡；計歲方式未明，不反推生年，死亡年待紀年原證。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "life_events": [
+    {
+      "id": "le-jin099-huanxuan-death",
+      "person_id": "u9s_w6j_8mc_AAF",
+      "event_type": "death",
+      "source_term": "遂斬之，時年三十六",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-099-huanxuan:p032",
+        "start": 154,
+        "end": 163,
+        "surface": "遂斬之，時年三十六"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p032",
+          "quote": "時益州刺史毛璩使其從孫祐之、參軍費恬送弟璠喪葬江陵，有眾二百，璩弟子脩之為玄屯騎校尉，誘玄以入蜀，玄從之。達枚回洲，恬與祐之迎擊玄，矢下如雨。玄嬖人丁仙期、萬蓋等以身敝玄，並中數十箭而死。玄被箭，其子升輒拔去之。益州督護馮遷抽刀而前，玄拔頭上玉導與之，仍曰：「是何人邪？敢殺天子！」遷曰：「欲殺天子之賊耳。」遂斬之，時年三十六。又斬石康及浚等五級，庾頤之戰死。升云：「我是豫章王，諸君勿見殺。」送至江陵市斬之。",
+          "person_mention_id": "c-jinshu-099-huanxuan:p032:m0037"
+        }
+      ],
+      "interpretation_note": "本段明記死亡與報齡，未明記卒年；保留來源年齡，不從前文背景年或年齡推定生卒年。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
     {
       "id": "le-song047-huanxuan-death",
       "person_id": "u9s_w6j_8mc_AAF",
