@@ -21,7 +21,7 @@
       "person_id": "yoo_ox0_545",
       "title": "郎中",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -31,6 +31,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
         }
       ],
       "attestations": [
@@ -43,13 +52,34 @@
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000",
           "usage": "narrative",
           "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-001:xun44:3",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 47,
+          "end": 49,
+          "surface": "郎中",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039",
+          "usage": "narrative",
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "安帝時",
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -57,17 +87,17 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：安帝時徴拜郎中，據此記grant，日期仍依原表述不補數值。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "period": "未定 → 未定"
+      "period": "安帝時 → 未定"
     },
     {
       "id": "th-houhanshu062-xun-002",
       "person_id": "yoo_ox0_545",
       "title": "當塗長",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -77,6 +107,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
         }
       ],
       "attestations": [
@@ -89,21 +128,53 @@
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000",
           "usage": "narrative",
           "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-002:xun44:4",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 52,
+          "end": 55,
+          "surface": "當塗長",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039",
+          "usage": "narrative",
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "renunciation",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：後再遷當塗長，據此記grant，日期仍依原表述不補數值。 本篇明去職還鄉里，只終止此一職；相對詞不算確年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "period": "未定 → 未定"
@@ -113,7 +184,7 @@
       "person_id": "yoo_ox0_545",
       "title": "朗陵侯相",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -123,6 +194,24 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
         }
       ],
       "attestations": [
@@ -133,6 +222,88 @@
           "end": 125,
           "surface": "朗陵侯相",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0104",
+          "usage": "narrative",
+          "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-003:xun44:11",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 121,
+          "end": 125,
+          "surface": "朗陵侯相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104"
+            }
+          ]
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "renunciation",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
+            }
+          ]
+        }
+      },
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：出補朗陵侯相，據此記grant，日期仍依原表述不補數值。 本篇明頃之弃官歸，只終止此一職；相對詞不算確年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-houhan062-xun44-012",
+      "person_id": "yoo_ox0_545",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
+        }
+      ],
+      "interpretation_note": "原文received_biography：稱為神君。治績民稱，不作官方爵位、諡號或授職。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "神君",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-012:xun44:12",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 131,
+          "end": 133,
+          "surface": "神君",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131",
           "usage": "narrative",
           "date_expression": null
         }
@@ -149,9 +320,6 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
       "period": "未定 → 未定"
     },
     {
@@ -230,6 +398,40 @@
       "human_reviewed": false,
       "term": "潁川潁隂人也",
       "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+    },
+    {
+      "id": "pa-houhan062-xun44-028",
+      "person_id": "yoo_ox0_545",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0170"
+        }
+      ],
+      "interpretation_note": "原文received_biography：初荀氏舊里名西豪。家族舊里，非生地；原詞西豪不得改字西毫。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "relation": "ancestral_origin",
+      "place": {
+        "source_name": "西豪",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "source_term": "初荀氏舊里名西豪",
+      "qualifiers": {
+        "subject_scope": "ancestors_unspecified",
+        "ancestor_person_id": null,
+        "generation_distance": null
+      },
+      "term": "初荀氏舊里名西豪",
+      "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身"
     }
   ],
   "occurrences": [
@@ -5016,6 +5218,15 @@
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
         }
       ],
       "references": [
@@ -5641,7 +5852,11 @@
       ],
       "interpretation_note": "荀淑為卒時報齡；恱與爽為幼年學習報齡。原文明記歲數，未確認計歲方式，不倒算生年或精確生日。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "age_context": {
+        "kind": "at_death",
+        "life_event_id": "le-houhanshu062-xun-001"
+      }
     }
   ],
   "life_events": [
@@ -5660,6 +5875,15 @@
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
         }
       ],
       "source_term": "年六十七建和三年卒",
@@ -5685,6 +5909,15 @@
             "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
             "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍",
             "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000"
+          },
+          {
+            "work_id": "w-houhanshu",
+            "book_id": "b-houhanshu-062",
+            "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+            "source_id": "s-houhanshu-062-xunhan-zhongchen",
+            "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+            "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+            "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
           }
         ],
         "references": [

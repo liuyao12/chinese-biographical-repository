@@ -2,6 +2,12 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    try:
+        from scripts.biographical_maternal_title import maternal_title_scope_valid
+    except ImportError:
+        from biographical_maternal_title import maternal_title_scope_valid
+    if maternal_title_scope_valid(assertion, paragraphs):
+        return True
     q = assertion.get('qualifiers', {})
     if (assertion.get('predicate') != 'maternal_role'
             or set(q) != {'source_term', 'role', 'biological_mother', 'father_person_id'}
@@ -25,6 +31,24 @@ def maternal_role_valid(assertion, paragraphs):
         term = q['source_term']
         if q['role'] == 'mother_unspecified':
             if term != '母' + obj['surface'] or p['text'][obj['start']-1:obj['end']] != term:
+                return False
+            # Bind the mother word to the child, rather than any marked person
+            # elsewhere in the same paragraph. A documented biography's opening
+            # plus its explicit 封母 formula is the separate existing scope.
+            local_child = any(m.get('kind') == 'person'
+                              and m.get('person_id') == assertion['subject_person_id']
+                              and m.get('end') == obj['start'] - 1
+                              for m in p.get('mentions', []))
+            opening = next((m for m in p.get('mentions', [])
+                            if m.get('kind') == 'person' and m.get('start') == 0
+                            and m.get('person_id') == assertion['subject_person_id']), None)
+            biography_enfeoffment = (opening is not None
+                and p['text'][opening['end']:].startswith(('諱', '字'))
+                and p['text'][obj['start']-2:obj['start']] == '封母'
+                and p['text'][obj['end']:].startswith('為')
+                and '立為皇后' in p['text'][opening['end']:obj['start']-2]
+                and not any(mark in p['text'][:obj['start']] for mark in ('曰', '云', '：', '「', '『')))
+            if not (local_child or biography_enfeoffment):
                 return False
         else:
             # 前母 is retained literally: it does not select birth/step/adoptive status.

@@ -58,8 +58,8 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     verbs = ['進號','引為','引爲','召為','召爲','徙','遷','尋加','轉','除','改除','加','以為','征補','徵','徴','徵為','徵爲','命為','命爲','請為','請爲','補','辟','復除','又除','出為','出爲',
              '以'+person['surface']+'為','以'+person['surface']+'爲']
-    terms = {'declined':['固辭開府','固辭不拜','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
-             'did_not_take_up':['並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
+    terms = {'declined':['固辭不起','固辭開府','固辭不拜','以疾固辭，未行而卒','苦讓，遂不受','讓不拜','固讓不拜','固讓'],
+             'did_not_take_up':['稱疾不起','並不行','未之職','不拜','皆不就','不就','並不就','竝不就','竝不拜','未拜','終以不拜','竟不拜','又不就']}
     stage = proposal.get('appointment_stage')
     invitation = appointment['surface'] in ('請為', '請爲')
     if (stage not in (None, 'invitation', 'appointment')
@@ -76,6 +76,20 @@ def unassumed_appointment_valid(proposal, chapter):
         return False
     if carried and 'source_continuity' in e['context']:
         if e['context']['source_continuity']['target_prefix_anchor']['end'] < refusal['end']:
+            return False
+    if refusal['surface'] == '固辭不起':
+        try:
+            from .jin_facts_boundaries import resumed_invitation_refusal_valid
+        except ImportError:
+            from jin_facts_boundaries import resumed_invitation_refusal_valid
+        if not resumed_invitation_refusal_valid(proposal,p,person,role,appointment,refusal,carried):
+            return False
+    if refusal['surface'] == '稱疾不起':
+        try:
+            from .jin_facts_boundaries import grouped_non_assumption_valid
+        except ImportError:
+            from jin_facts_boundaries import grouped_non_assumption_valid
+        if not grouped_non_assumption_valid(proposal, p, person, role, appointment, refusal, carried):
             return False
     if refusal['surface'] == '固辭不拜' and not full_declining_subject_valid(proposal, p, person, refusal):
         return False

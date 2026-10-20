@@ -213,7 +213,37 @@ def explicit_maternal_uncle_valid(assertion, paragraphs):
         if (not subject or not obj or subject.get('kind') != 'person' or obj.get('kind') != 'person'
                 or subject.get('person_id') != assertion.get('subject_person_id')
                 or obj.get('person_id') != assertion.get('object_person_id')
-                or subject['start'] >= obj['start'] or obj['start'] < 1):
+                or e.get('chapter_id') != hit[0] or obj['start'] < 0):
+            return False
+        # Prefix 外甥 alone is lexically ambiguous. This branch requires the
+        # same complete paragraph's explicit 舅甥 corroboration and exact pair.
+        named_nephew = next((m for m in p.get('mentions', [])
+                             if m.get('kind') == 'person'
+                             and m.get('person_id') == assertion['subject_person_id']
+                             and m.get('start') == obj['end'] + len('外甥')
+                             and p['text'][m['start']:m['end']] == m.get('surface')), None)
+        named_nephew = named_nephew or subject
+        prefix = obj['surface'] + '外甥' + named_nephew['surface']
+        prefix_end = named_nephew['end']
+        following = p['text'][prefix_end:]
+        prefix_nephew = (e.get('quote') == p['text']
+            and q.get('source_term') == prefix
+            and p['text'][obj['start']:prefix_end] == prefix
+            and obj['end'] + len('外甥') == named_nephew['start']
+            and (subject['id'] == named_nephew['id']
+                 or subject['surface'] == '外甥' and subject['start'] == obj['end']
+                 and subject['end'] == named_nephew['start'])
+            and '舅甥並典兵' in following
+            and not any(mark in following.split('舅甥並典兵')[0] for mark in ('曰', '云', '：', '「', '『'))
+            and not any(m.get('kind') == 'person' and prefix_end <= m['start']
+                        < prefix_end + following.index('舅甥並典兵')
+                        for m in p.get('mentions', []))
+            and '舅甥並典兵' in following
+            and following.count('舅甥並典兵') == 1
+            and '外甥' not in following[:following.index('舅甥並典兵')])
+        if prefix_nephew:
+            continue
+        if subject['start'] >= obj['start'] or obj['start'] < 1:
             return False
         named = (p['text'][obj['start'] - 1:obj['start']] == '舅'
                  and q.get('source_term') == '舅' + obj['surface'])

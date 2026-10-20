@@ -8,7 +8,7 @@
       "person_id": "yoo_ox0_545",
       "title": "郎中",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -18,6 +18,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
         }
       ],
       "attestations": [
@@ -30,13 +39,34 @@
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000",
           "usage": "narrative",
           "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-001:xun44:3",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 47,
+          "end": 49,
+          "surface": "郎中",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039",
+          "usage": "narrative",
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "安帝時",
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -44,7 +74,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：安帝時徴拜郎中，據此記grant，日期仍依原表述不補數值。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     },
@@ -53,7 +83,7 @@
       "person_id": "yoo_ox0_545",
       "title": "當塗長",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -63,6 +93,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
         }
       ],
       "attestations": [
@@ -75,21 +114,53 @@
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0000",
           "usage": "narrative",
           "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-002:xun44:4",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 52,
+          "end": 55,
+          "surface": "當塗長",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039",
+          "usage": "narrative",
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "renunciation",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0039"
+            }
+          ]
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：後再遷當塗長，據此記grant，日期仍依原表述不補數值。 本篇明去職還鄉里，只終止此一職；相對詞不算確年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     },
@@ -98,7 +169,7 @@
       "person_id": "yoo_ox0_545",
       "title": "朗陵侯相",
       "kind": "office",
-      "mode": "attestation",
+      "mode": "grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -108,6 +179,24 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
         }
       ],
       "attestations": [
@@ -120,21 +209,53 @@
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0104",
           "usage": "narrative",
           "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-003:xun44:11",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 121,
+          "end": 125,
+          "surface": "朗陵侯相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104",
+          "usage": "narrative",
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "grant",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0104"
+            }
+          ]
         },
         "end": {
-          "status": "unknown",
+          "status": "source_event",
+          "event_type": "renunciation",
           "date_expression": null,
-          "evidence": []
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+              "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
+            }
+          ]
         }
       },
-      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
+      "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。 本完整正文補明授任原詞：出補朗陵侯相，據此記grant，日期仍依原表述不補數值。 本篇明頃之弃官歸，只終止此一職；相對詞不算確年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     },
@@ -153,6 +274,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0097"
         }
       ],
       "attestations": [
@@ -163,6 +293,16 @@
           "end": 97,
           "surface": "光禄勲",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0097",
+          "usage": "narrative",
+          "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-004:xun44:7",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 94,
+          "end": 97,
+          "surface": "光禄勲",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0097",
           "usage": "narrative",
           "date_expression": null
         }
@@ -198,6 +338,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0101"
         }
       ],
       "attestations": [
@@ -208,6 +357,16 @@
           "end": 101,
           "surface": "少府",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0101",
+          "usage": "narrative",
+          "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-005:xun44:8",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 99,
+          "end": 101,
+          "surface": "少府",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0101",
           "usage": "narrative",
           "date_expression": null
         }
@@ -243,6 +402,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0115"
         }
       ],
       "attestations": [
@@ -253,6 +421,16 @@
           "end": 115,
           "surface": "大將軍",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0115",
+          "usage": "narrative",
+          "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-006:xun44:9",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 112,
+          "end": 115,
+          "surface": "大將軍",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0115",
           "usage": "narrative",
           "date_expression": null
         }
@@ -288,6 +466,15 @@
           "source_id": "s-houhanshu-062-xunhan-zhongchen",
           "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001",
           "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0162"
         }
       ],
       "attestations": [
@@ -298,6 +485,16 @@
           "end": 168,
           "surface": "尚書",
           "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:eight-sons:p001:m0162",
+          "usage": "narrative",
+          "date_expression": null
+        },
+        {
+          "id": "th-houhanshu062-xun-007:xun44:17",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 166,
+          "end": 168,
+          "surface": "尚書",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0162",
           "usage": "narrative",
           "date_expression": null
         }
@@ -317,6 +514,1748 @@
       "interpretation_note": "只記來源用稱；未知授免時點保持未知，不能以卒年終止所有官職。朗陵侯相為侯國相的官職，不把荀淑當朗陵侯。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "th-houhan062-xun44-012",
+      "person_id": "yoo_ox0_545",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131"
+        }
+      ],
+      "interpretation_note": "原文received_biography：稱為神君。治績民稱，不作官方爵位、諡號或授職。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "神君",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-012:xun44:12",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 131,
+          "end": 133,
+          "surface": "神君",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0131",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-029",
+      "person_id": "6a5_fe4_5de",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0212"
+        }
+      ],
+      "interpretation_note": "原文received_biography：潁隂令渤海苑康。 source designation，不補任命日期。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "潁隂令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-029:xun44:29",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 207,
+          "end": 210,
+          "surface": "潁隂令",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0212",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-038",
+      "person_id": "1f1_f1a_b17",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0268"
+        }
+      ],
+      "interpretation_note": "原文received_biography：昱為沛相。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "沛相",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-038:xun44:38",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 270,
+          "end": 272,
+          "surface": "沛相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0268",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-039",
+      "person_id": "696_456_df6",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0272"
+        }
+      ],
+      "interpretation_note": "原文received_biography：曇為廣陵太守。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "廣陵太守",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-039:xun44:39",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 274,
+          "end": 278,
+          "surface": "廣陵太守",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0272",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-041",
+      "person_id": "fm2_09a_e2z",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0309"
+        }
+      ],
+      "interpretation_note": "原文received_biography：大將軍竇武。當句稱官，非授任。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-041:xun44:41",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 306,
+          "end": 309,
+          "surface": "大將軍",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0309",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-047",
+      "person_id": "wuo_ghc_ajx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0002"
+        }
+      ],
+      "interpretation_note": "原文lixian_commentary：為楚蘭陵令。楚為政權／地理語境，不接近代行政位置或淑的朗陵。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "蘭陵令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-047:xun44:47",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "start": 8,
+          "end": 11,
+          "surface": "蘭陵令",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-069",
+      "person_id": "jef_b3o_60j",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+          "quote": "皇甫謐髙士傳曰靖字叔慈少有俊才動止以禮靖弟爽亦以才顯於當時或問汝南許章曰爽與靖孰賢章曰皆玉也慈明外朗叔慈内潤及卒學士惜之誄靖者二十六人潁隂令丘禎追號靖曰𤣥行先生也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0070"
+        }
+      ],
+      "interpretation_note": "原文lixian_commentary：潁隂令丘禎。當句稱官無授官日期。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "潁隂令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-069:xun44:69",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+          "start": 67,
+          "end": 70,
+          "surface": "潁隂令",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0070",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-074",
+      "person_id": "tv8_40r_4ru",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0022"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：太尉杜喬見而稱之。稱號用例，可能追敘；不把杜喬太尉任期硬定在爽12歲。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "太尉",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-074:xun44:74",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 20,
+          "end": 22,
+          "surface": "太尉",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0022",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-076",
+      "person_id": "ebx_w4b_9bc",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0067"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：延熹元年太常趙典舉爽至孝。158為此稱官見證年，不是趙典授太常始年。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "太常",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-076:xun44:76",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 65,
+          "end": 67,
+          "surface": "太常",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0067",
+          "usage": "narrative",
+          "date_expression": "延熹元年",
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 158,
+            "year": 158,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "source_expression": "延熹元年",
+            "status": "editorial_provisional",
+            "original_quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+            "evidence": [
+              {
+                "work_id": "w-houhanshu",
+                "book_id": "b-houhanshu-062",
+                "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+                "source_id": "s-houhanshu-062-xunhan-zhongchen",
+                "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+                "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0067"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部中國歷代年號表（延熹）",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+                "quote": "延熹",
+                "columns": {
+                  "dynasty": "東漢",
+                  "era_name": "延熹",
+                  "first_year": "158",
+                  "last_year": "167"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-19",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "延熹",
+              "source_number": "元",
+              "regnal_year": 1,
+              "start_ce_year": 158,
+              "end_ce_year": 167,
+              "reference_index": 0
+            },
+            "rationale": "原文延熹元年；以實讀教育部年號表換算中國曆年，不轉移至公曆跨年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-078",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0070"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1182"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：延熹元年太常趙典舉爽至孝拜郎中。同一直接延熹元年框拜郎中；不借趙典作荀爽主語。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 本篇明奏聞即弃官去，只終止此一職；相對詞不算確年。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "郎中",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-078:xun44:78",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 74,
+          "end": 76,
+          "surface": "郎中",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0070",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "延熹元年",
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+              "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0070"
+            }
+          ],
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 158,
+            "year": 158,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "source_expression": "延熹元年",
+            "status": "editorial_provisional",
+            "original_quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+            "evidence": [
+              {
+                "work_id": "w-houhanshu",
+                "book_id": "b-houhanshu-062",
+                "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+                "source_id": "s-houhanshu-062-xunhan-zhongchen",
+                "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+                "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0070"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部中國歷代年號表（延熹）",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+                "quote": "延熹",
+                "columns": {
+                  "dynasty": "東漢",
+                  "era_name": "延熹",
+                  "first_year": "158",
+                  "last_year": "167"
+                },
+                "scope": "modern_era_year_equivalence_only",
+                "accessed_on": "2026-10-19",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "延熹",
+              "source_number": "元",
+              "regnal_year": 1,
+              "start_ce_year": 158,
+              "end_ce_year": 167,
+              "reference_index": 0
+            },
+            "rationale": "原文延熹元年；以實讀教育部年號表換算中國曆年，不轉移至公曆跨年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "renunciation",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+              "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1182"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-081",
+      "person_id": "sha_fnn_77c",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0392"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：昔翟方進以自備宰相而不敢踰制。宰相稱呼原語；唐注為丞相作不同來源稱號，不改正文。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 唐注／疏引古人物的用稱證據，非本傳時代的任官事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "宰相",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-081:xun44:81",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 398,
+          "end": 400,
+          "surface": "宰相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0392",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-097",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1182"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：遂稱為碩儒。學者稱譽不是冊授官爵。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "碩儒",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-097:xun44:97",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1480,
+          "end": 1482,
+          "surface": "碩儒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1182",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-099",
+      "person_id": "7kc_s50_29k",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1491"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：司空袁逄舉有道不應。司空屬袁逄，非荀爽本句受司空；稱官無授任年。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "司空",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-099:xun44:99",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1489,
+          "end": 1491,
+          "surface": "司空",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1491",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-106",
+      "person_id": "0db_22c_332",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1568"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：大將軍何進。本句稱官，勿給荀爽；沒有授何進大將軍之日。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-106:xun44:106",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1565,
+          "end": 1568,
+          "surface": "大將軍",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1568",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-111",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：因復就拜平原相。就拜是受任；未言已至平原辦公，不補到任日或治所居住。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 就拜明受任；未明已在平原視事，actual_service_at_destination未知。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "平原相",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-111:xun44:111",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1618,
+          "end": 1621,
+          "surface": "平原相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+              "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-113",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：復追為光禄勲。追為是追回改任，爽在世；不當追贈。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "光禄勲",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-113:xun44:113",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1628,
+          "end": 1631,
+          "surface": "光禄勲",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+              "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-115",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：進拜司空。進是升進動詞，不是已敗的何進；不給精確年、日或另造相。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 009中平六年十二月光禄勳荀爽為司空為同次授官編輯橋；數值189，十二月原詞另保typed，未捏造戊戌或自動截止其他職。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "司空",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-115:xun44:115",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1637,
+          "end": 1639,
+          "surface": "司空",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "中平六年",
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+              "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609"
+            }
+          ],
+          "normalized_date": {
+            "era": "CE",
+            "era_year": 189,
+            "year": 189,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "calendar": "chinese_civil",
+            "source_expression": "中平六年",
+            "status": "editorial_provisional",
+            "original_quote": "孝獻皇帝諱協靈帝中子也母王羙人為何皇后所害中平六年四月少帝即位封帝爲渤海王徙封陳留王九月甲戌即皇帝位年九嵗遷皇太后於永安宮大赦天下改昭寜為永漢丙子董卓殺皇太后何氏初令侍中給事黄門侍郎員各六人賜公卿以下至黄門侍郎家一人為郎以補宦官所領諸署侍於殿上乙酉以太尉劉虞為大司馬董卓自為太尉加鈇鉞虎賁丙戍太中大夫楊彪為司空甲午豫州牧黄琬為司徒遣使弔祠故太傅陳蕃大將軍竇武等冬十月乙巳葬靈思皇后白波賊宼河東董卓遣其將牛輔擊之十一月癸酉董卓為相國十二月戊戍司徒黄琬為太尉司空楊彪為司徒光禄勳荀爽為司空省扶風都尉置漢安都護詔除光熹昭寜永漢三號還復中平六年",
+            "evidence": [
+              {
+                "work_id": "w-houhanshu",
+                "book_id": "b-houhanshu-009",
+                "chapter_id": "c-houhanshu-009-xiandi-early",
+                "source_id": "s-houhanshu-009-xiandi-early",
+                "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                "quote": "孝獻皇帝諱協靈帝中子也母王羙人為何皇后所害中平六年四月少帝即位封帝爲渤海王徙封陳留王九月甲戌即皇帝位年九嵗遷皇太后於永安宮大赦天下改昭寜為永漢丙子董卓殺皇太后何氏初令侍中給事黄門侍郎員各六人賜公卿以下至黄門侍郎家一人為郎以補宦官所領諸署侍於殿上乙酉以太尉劉虞為大司馬董卓自為太尉加鈇鉞虎賁丙戍太中大夫楊彪為司空甲午豫州牧黄琬為司徒遣使弔祠故太傅陳蕃大將軍竇武等冬十月乙巳葬靈思皇后白波賊宼河東董卓遣其將牛輔擊之十一月癸酉董卓為相國十二月戊戍司徒黄琬為太尉司空楊彪為司徒光禄勳荀爽為司空省扶風都尉置漢安都護詔除光熹昭寜永漢三號還復中平六年",
+                "person_mention_id": "c-houhanshu-009-xiandi-early:accession-zhongping06:m0237"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部中國歷代年號表（中平）",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+                "scope": "modern_era_year_equivalence_only",
+                "quote": "中平",
+                "columns": {
+                  "dynasty": "東漢",
+                  "era_name": "中平",
+                  "first_year": "184",
+                  "last_year": "189"
+                },
+                "accessed_on": "2026-10-19",
+                "image_verified": false
+              },
+              {
+                "title": "教育部中國歷代年號表（初平）",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+                "scope": "modern_era_year_equivalence_only",
+                "quote": "初平",
+                "columns": {
+                  "dynasty": "東漢",
+                  "era_name": "初平",
+                  "first_year": "190",
+                  "last_year": "193"
+                },
+                "accessed_on": "2026-10-19",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_mapping": {
+              "kind": "ce_regnal_era_span",
+              "era_name": "中平",
+              "source_number": "六",
+              "regnal_year": 6,
+              "start_ce_year": 184,
+              "end_ce_year": 189,
+              "reference_index": 0
+            },
+            "rationale": "依本完整received_annal年單元原年詞及實讀教育部年號對照；中國曆年不移公曆年。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "cross_chapter_event_binding": {
+              "kind": "same_event_fixed_work_annal_date",
+              "record_id": "th-houhan062-xun44-115",
+              "person_id": "yoo_ox0_545_F",
+              "role": "start",
+              "origin": {
+                "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+                "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                "fingerprint": {
+                  "source_id": "s-houhanshu-062-xunhan-zhongchen",
+                  "revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+                  "blob": "614feff3bc8a94d5dc145f9cbdfcc3b5e43857dc",
+                  "raw_sha256": "55aac81cecc80987ab95b4bab053720595f4124c8fcb6f3c3ac3ebe7725018c6"
+                },
+                "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1609",
+                "event_anchor": {
+                  "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                  "start": 1635,
+                  "end": 1639,
+                  "surface": "進拜司空"
+                },
+                "subject_clause_anchor": {
+                  "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                  "start": 1609,
+                  "end": 1639,
+                  "surface": "之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空"
+                }
+              },
+              "annal": {
+                "chapter_id": "c-houhanshu-009-xiandi-early",
+                "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                "fingerprint": {
+                  "source_id": "s-houhanshu-009-xiandi-early",
+                  "revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+                  "blob": "1d565549277da141b973c906f61aeef06cff7d7e",
+                  "raw_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5"
+                },
+                "person_mention_id": "c-houhanshu-009-xiandi-early:accession-zhongping06:m0237",
+                "event_anchor": {
+                  "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                  "start": 239,
+                  "end": 242,
+                  "surface": "為司空"
+                },
+                "subject_clause_anchor": {
+                  "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                  "start": 237,
+                  "end": 242,
+                  "surface": "荀爽為司空"
+                },
+                "year_anchor": {
+                  "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                  "start": 21,
+                  "end": 25,
+                  "surface": "中平六年"
+                },
+                "date_clause_anchor": {
+                  "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+                  "start": 234,
+                  "end": 242,
+                  "surface": "光禄勳荀爽為司空"
+                }
+              },
+              "status": "editorial_provisional",
+              "human_reviewed": false,
+              "rationale": "同固定後漢書、同既有人物，062已存本次進拜司空／唯一病薨與009完整年段明名同授／薨事件互證；保原事件與全年不同證據，不由歲數倒年。",
+              "linkage": {
+                "kind": "unique_appointment_episode_with_shared_relocation",
+                "biography_head_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m0000",
+                "origin_attestation_id": "th-houhan062-xun44-115:xun44:115",
+                "origin_episode_anchor": {
+                  "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                  "start": 1625,
+                  "end": 1639,
+                  "surface": "復追為光禄勲視事三日進拜司空"
+                },
+                "origin_relocation_anchor": {
+                  "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+                  "start": 1652,
+                  "end": 1658,
+                  "surface": "因從遷都長安"
+                },
+                "origin_prior_office": "光禄勲",
+                "annal_prior_office": "光禄勳",
+                "annal_followup": {
+                  "chapter_id": "c-houhanshu-009-xiandi-early",
+                  "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+                  "year_anchor": {
+                    "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+                    "start": 0,
+                    "end": 4,
+                    "surface": "初平元年"
+                  },
+                  "relocation_anchor": {
+                    "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+                    "start": 85,
+                    "end": 89,
+                    "surface": "遷都長安"
+                  }
+                },
+                "following_year_reference_index": 1
+              }
+            }
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-118",
+      "person_id": "8xv_6ak_y28",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1688"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：司徒王允。王允當句稱官，不作爽司徒。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "司徒",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-118:xun44:118",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1686,
+          "end": 1688,
+          "surface": "司徒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1688",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-119",
+      "person_id": "573_c2d_68f",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "quote": "爽字慈明一名諝幼而好學年十二能通春秋論語太尉杜喬見而稱之曰可為人師爽遂耽思經書慶弔不行徴命不應潁川為之語曰荀氏八龍慈明無䨇延熹元年太常趙典舉爽至孝拜郎中對䇿陳便宜曰臣聞之於師曰漢為火徳火生於木木盛於火故其徳為孝其象在周易之離夫在地為火在天為日在天者用其精在地者用其形夏則火王其精在天温暖之氣養生百木是其孝也冬時則廢其形在地酷烈之氣焚燒山林是其不孝也故漢制使天下誦孝經選吏舉孝廉夫喪親自盡孝之終也今之公卿及二千石三年之喪不得即去殆非所以增崇孝道而克稱火徳者也徃者孝文勞謙行過乎儉故其遺詔以日易月此當時之宜不可貫之萬世古今之制雖有損益而諒闇之禮未嘗改移以示天下莫遺其親今公卿羣寮皆政教所瞻而父母之喪不得奔赴夫仁義之行自上而始敦厚之俗以應乎下傳曰喪祭之禮闕則人臣之恩薄背死忘生者衆矣曾子曰人未有自致者必也親喪乎春秋傳曰上之所為民之歸也夫上所不為而民或為之故加刑罰若上之所為民亦為之又何誅焉昔翟方進以自備宰相而不敢踰制至遭母憂三十六日而除夫失禮之源自上而始古者大喪三年不呼其門所以崇國厚俗篤化之道也事失宜正過勿憚改天下通喪可如舊禮臣聞有夫婦然後有父子有父子然後有君臣有君臣然後有上下有上下然後有禮義禮義備則人知所厝矣夫婦人倫之始王化之端故文王作易上經首乾坤下經首咸恒孔子曰天尊地卑乾坤定矣夫婦之道所謂順也堯典曰釐降二女於媯汭嬪于虞降者下也嬪者婦也言雖帝堯之女下嫁於虞猶屈體降下勤脩婦道易曰帝乙歸妹以祉元吉婦人謂嫁曰歸言湯以娶禮歸其妹於諸侯也春秋之義王姬嫁齊使魯主之不以天子之尊加於諸侯也今漢承秦法設尚主之儀以妻制夫以卑臨尊違乾坤之道失陽唱之義孔子曰昔聖人之作易也仰則觀象於天俯則察法於地覩鳥獸之文與地之宜近取諸身逺取諸物以通神明之徳以類萬物之情今觀法於天則北極至尊四星妃后察法於地則崐山象夫卑澤象妻覩鳥獸之文鳥則雄者鳴雊雌能順服獸則牡為唱導牝乃相從近取諸身則乾為人首坤為人腹逺取諸物則木實屬天根荄屬地陽尊隂卑蓋乃天性且詩初篇實首關雎禮始冠婚先正夫婦天地六經其㫖一揆宜改尚主之制以稱乾坤之性遵法堯湯式是周孔合之天地而不謬質之鬼神而不疑人事如此則嘉瑞降天吉符出地五韙咸備各以其叙矣昔者聖人建天地之中而謂之禮禮者所以興福祥之本而止禍亂之源也人能枉欲從禮者則福歸之順情廢禮者則禍歸之推禍福之所應知興廢之所由來也衆禮之中婚禮為首故天子娶十二天之數也諸侯以下各有等差事之降也陽性純而能施隂體順而能化以禮濟樂節宣其氣故能豐子孫之祥致老夀之福及三代之季淫而無節瑶臺傾宫陳妾數百陽竭於上隂隔於下故周公之戒曰不知稼穡之艱難不聞小人之勞惟耽樂之從時亦罔或克夀是其明戒後世之人好福不務其本惡禍不易其軌傳曰截趾適屨孰云其愚何與斯人追欲喪軀誠可痛也臣竊聞後宫采女五六千人從官侍使復在其外冬夏衣服朝夕稟糧耗費縑帛空竭府藏徴調增倍十而稅一空賦不辜之民以供無用之女百姓窮困於外隂陽隔塞於内故感動和氣災異屢臻臣愚以為諸非禮聘未曾幸御者一皆遣出使成妃合一曰通怨曠和隂陽二曰省財用實府庫三曰脩禮制綏眉夀四曰配陽施祈螽斯五曰寛役賦安黎民此誠國家之𢎞利天人之大福也夫寒熱晦明所以為嵗尊卑奢儉所以為禮故以晦明寒暑之氣尊卑侈約之禮為其節也易曰天地節而四時成春秋傳曰唯器與名不可以假人孝經曰安上治民莫善於禮禮者尊卑之差上下之制也昔季氏八佾舞於庭非有傷害困於人物而孔子猶曰是可忍也孰不可忍洪範曰惟辟作威惟辟作福惟辟玉食凡此三者君所獨行而臣不得同也今臣僭君服下食上珍所謂害于而家凶于而國者也宜略依古禮尊卑之差及董仲舒制度之别嚴督有司必行其命此則禁亂善俗足用之要奏聞即弃官去後遭黨錮隠於海上又南遁漢濵積十餘年以著述為事遂稱為碩儒黨禁解五府並辟司空袁逄舉有道不應及逢卒爽制服三年當世徃徃化以為俗時人多不行妻服雖在親憂猶有弔問喪疾者又私諡其君父及諸名士爽皆引據大義正之經典雖不悉變亦頗有改後公車徴為大將軍何進從事中郎進恐其不至迎薦為侍中及進敗而詔命中絶獻帝即位董卓輔政復徴之爽欲遁命吏持之急不得去因復就拜平原相行至宛陵復追為光禄勲視事三日進拜司空爽自被徴命及登台司九十五日因從遷都長安爽見董卓忍暴滋甚必危社稷其所辟舉皆取才略之士將共圗之亦與司徒王允及卓長史何顒等為内謀㑹病薨年六十三著禮易傳詩傳尚書正經春秋條例又集漢事成敗可為鑒戒者謂之漢語又作公羊問及辨讖并它所論叙題為新書凡百餘篇今多所亡缺兄子恱彧並知名彧自有傳",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1694"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：卓長史何顒。董卓長史是屬官關係，不把長史給董卓；任命日期未明。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "長史",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-119:xun44:119",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang",
+          "start": 1692,
+          "end": 1694,
+          "surface": "長史",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang:m1694",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-133",
+      "person_id": "yoo_ox0_545_F",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "quote": "論曰荀爽鄭𤣥申屠蟠俱以儒行為處士累徴並謝病不詣及董卓當朝復備禮召之蟠𤣥竟不屈以全其髙爽己黄髮矣獨至焉未十旬而取卿相意者疑其乖趣舍余竊商其情以為出處君子之大致也平運則𢎞道以求志陵夷則濡跡以匡時荀公之急急自勵其濡跡乎不然何為違貞吉而履虎尾焉觀其遜言遷都之議以救楊黄之禍及其潛圖董氏幾振國命所謂大直若屈道固逶迤也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0002"
+        }
+      ],
+      "interpretation_note": "原文historian_discussion：俱以儒行為處士。三人社會身份，不作朝廷授處士官。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "處士",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-133:xun44:133",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "start": 14,
+          "end": 16,
+          "surface": "處士",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-135",
+      "person_id": "95f_p0e_7s8",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "quote": "論曰荀爽鄭𤣥申屠蟠俱以儒行為處士累徴並謝病不詣及董卓當朝復備禮召之蟠𤣥竟不屈以全其髙爽己黄髮矣獨至焉未十旬而取卿相意者疑其乖趣舍余竊商其情以為出處君子之大致也平運則𢎞道以求志陵夷則濡跡以匡時荀公之急急自勵其濡跡乎不然何為違貞吉而履虎尾焉觀其遜言遷都之議以救楊黄之禍及其潛圖董氏幾振國命所謂大直若屈道固逶迤也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0004"
+        }
+      ],
+      "interpretation_note": "原文historian_discussion：俱以儒行為處士。三人社會身份，不作朝廷授處士官。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "處士",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-135:xun44:135",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "start": 14,
+          "end": 16,
+          "surface": "處士",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0004",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-137",
+      "person_id": "qrn_w3m_6z9",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "quote": "論曰荀爽鄭𤣥申屠蟠俱以儒行為處士累徴並謝病不詣及董卓當朝復備禮召之蟠𤣥竟不屈以全其髙爽己黄髮矣獨至焉未十旬而取卿相意者疑其乖趣舍余竊商其情以為出處君子之大致也平運則𢎞道以求志陵夷則濡跡以匡時荀公之急急自勵其濡跡乎不然何為違貞吉而履虎尾焉觀其遜言遷都之議以救楊黄之禍及其潛圖董氏幾振國命所謂大直若屈道固逶迤也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0006"
+        }
+      ],
+      "interpretation_note": "原文historian_discussion：俱以儒行為處士。三人社會身份，不作朝廷授處士官。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "處士",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-137:xun44:137",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang",
+          "start": 14,
+          "end": 16,
+          "surface": "處士",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:discussion-xunshuang:m0006",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-149",
+      "person_id": "dad_b77_b38",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0084"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：鎮東將軍曹操府。曹操的官號，不給恱；任年、受任日無明載。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "鎮東將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-149:xun44:149",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "start": 80,
+          "end": 84,
+          "surface": "鎮東將軍",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0084",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-151",
+      "person_id": "yoo_ox0_545_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0069"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：遷黄門侍郎。原字黄，不補始終年。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "黄門侍郎",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-151:xun44:151",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "start": 88,
+          "end": 92,
+          "surface": "黄門侍郎",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0069",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+              "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0069"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-155",
+      "person_id": "1e4_e5b_007",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0104"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：少府孔融。孔融當句見稱，不是恱少府。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "少府",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-155:xun44:155",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "start": 102,
+          "end": 104,
+          "surface": "少府",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0104",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-156",
+      "person_id": "yoo_ox0_545_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：累遷祕書監侍中。與侍中同源序列，無足夠明文使所有兼職自動終止。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "祕書監",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-156:xun44:156",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "start": 116,
+          "end": 119,
+          "surface": "祕書監",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+              "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-157",
+      "person_id": "yoo_ox0_545_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098"
+        }
+      ],
+      "interpretation_note": "原文received_attached_biography：累遷祕書監侍中。累遷序列；非何進前推薦荀爽侍中事件。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "侍中",
+      "kind": "office",
+      "mode": "grant",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-157:xun44:157",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+          "start": 119,
+          "end": 121,
+          "surface": "侍中",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue",
+              "quote": "恱字仲豫儉之子也儉早卒恱年十二能說春秋家貧無書每之人間所見篇牘一覽多能誦記性沈静羙姿容尤好著述靈帝時閹官用權士多退身窮處恱乃託疾隠居時人莫之識從弟彧特稱敬焉初辟鎮東將軍曹操府遷黄門侍郎獻帝頗好文學恱與彧及少府孔融侍講禁中旦夕談論累遷祕書監侍中時政移曹氏天子恭己而已恱志在獻替而謀無所用乃作申鑒五篇其所論辨通見政體既成而奏之其大略曰夫道之本仁義而已矣五典以經之羣籍以緯之詠之歌之弦之舞之前監既明後復申之故古之聖王其於仁義也申重而已致政之術先屏四患乃崇五政一曰偽二曰私三曰放四曰奢偽亂俗私壊法放越軌奢敗制四者不除則政末由行矣夫俗亂則道荒雖天地不得保其性矣法壊則世傾雖人主不得守其度矣軌越則禮亡雖聖人不得全其道矣制敗則欲肆雖四表不得充其求矣是謂四患興農桑以養其性審好惡以正其俗宣文敎以章其化立武備以秉其威明賞罰以統其法是謂五政人不畏死不可懼以罪人不樂生不可勸以善雖使契布五敎臯陶作士政不行焉故在上者先豐人財以定其志帝耕籍田后桑蠶宫國無遊人野無荒業財不賈用力不妄加以周人事是謂養生君子之所以動天地應神明正萬物而成王化者必乎眞定而已故在上者審定好醜焉善惡要乎功罪毁譽効於凖驗聽言責事舉名察實無惑詐偽以蕩衆心故事無不覈物無不切善無不顯惡無不章俗無姦怪民無淫風百姓上下覩利害之存乎已也故肅恭其心愼脩其行内不回惑外無異望則民志平矣是謂正俗君子以情用小人以刑用榮辱者賞罰之精華也故禮敎榮辱以加君子化其情也桎梏鞭撲以加小人化其刑也君子不犯辱况於刑乎小人不忌刑况於辱乎若敎化之廢推中人而墜於小人之域教化之行引中人而納於君子之塗是謂章化小人之情緩則驕驕則恣恣則怨怨則叛危則謀亂安則思欲非威强無以懲之故在上者必有武備以戒不虞以遏寇虐安居則寄之内政有事則用之軍旅是謂秉威賞罰政之柄也明賞必罰審信慎令賞以勸善罰以懲惡人主不妄賞非徒愛其財也賞妄行則善不勸矣不妄罰非矜其人也妄罰行則惡不懲矣賞不勸謂之止善罰不懲謂之縱惡在上者能不止下為善不縱下為惡則國法立矣是謂統法四患既蠲五政又立行之以誠守之以固簡而不怠疎而不失無為為之使自施之無事事之使自交之不肅而成不嚴而化垂拱揖譲而海内平矣是謂為政之方又言尚主之制非古也釐降二女陶唐之典歸妹元吉帝乙之訓王姬歸齊宗周之禮以隂乗陽違天以婦陵夫違人違天不祥違人不義又古者天子諸侯有事必告于廟朝有二史左史記言右史書事事為春秋言為尚書君舉必記善惡成敗無不存焉下及士庶茍有茂異咸在載籍或欲顯而不得或欲隠而名章得失一朝而榮辱千載善人勸焉淫人懼焉宜於今者備置史官掌其典丈紀其行事每於嵗盡舉之尚書以助賞罰以𢎞法敎帝覽而善之帝好典籍常以班固漢書文繁難省乃令恱依左氏傳體以為漢紀三十篇詔尚書給筆札辭約事詳論辨多羙其序之曰昔在上聖惟建皇極經緯天地觀象立法乃作書契以通宇宙揚于王庭厥用大焉先王光演大業肆于時夏亦惟厥後永世作典夫立典有五志焉一曰達道義二曰章法式三曰通古今四曰著功勲五曰表賢能於是天人之際事物之宜粲然顯著罔不備矣世濟其軌不隕其業損益盈虚與時消息臧否不同其揆一也漢四百有六載撥亂反正統武興文永惟祖宗之洪業思光啓乎萬嗣聖上穆然惟文之恤瞻前顧後是紹是繼闡崇大猷命立國典於是綴叙舊書以述漢紀中興以前明主賢臣得失之軌亦足以觀矣又著崇徳正論及諸論數十篇年六十二建安十四年卒",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunyue:m0098"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-174",
+      "person_id": "sha_fnn_77c",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang-note-11-1",
+          "quote": "前書翟方進為丞相遭後母憂行服三十六日起視事曰不敢踰國制也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang-note-11-1:m0002"
+        }
+      ],
+      "interpretation_note": "原文lixian_commentary：翟方進為丞相。唐轉引前書明丞相；與正文宰相不同字詞保留，不補授年。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 唐注／疏引古人物的用稱證據，非本傳時代的任官事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "丞相",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-174:xun44:174",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang-note-11-1",
+          "start": 6,
+          "end": 8,
+          "surface": "丞相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang-note-11-1:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      }
+    },
+    {
+      "id": "th-houhan062-xun44-jing-posthumous-name",
+      "person_id": "yoo_ox0_545_C",
+      "title": "𤣥行先生",
+      "kind": "honorific",
+      "mode": "posthumous_naming",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+          "quote": "皇甫謐髙士傳曰靖字叔慈少有俊才動止以禮靖弟爽亦以才顯於當時或問汝南許章曰爽與靖孰賢章曰皆玉也慈明外朗叔慈内潤及卒學士惜之誄靖者二十六人潁隂令丘禎追號靖曰𤣥行先生也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0074"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-jing-posthumous-name:note",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+          "start": 76,
+          "end": 80,
+          "surface": "𤣥行先生",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0074",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-houhanshu",
+              "book_id": "b-houhanshu-062",
+              "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+              "source_id": "s-houhanshu-062-xunhan-zhongchen",
+              "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+              "quote": "皇甫謐髙士傳曰靖字叔慈少有俊才動止以禮靖弟爽亦以才顯於當時或問汝南許章曰爽與靖孰賢章曰皆玉也慈明外朗叔慈内潤及卒學士惜之誄靖者二十六人潁隂令丘禎追號靖曰𤣥行先生也",
+              "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0074"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "naming_basis": {
+        "kind": "named_recipient_after_death",
+        "source_term": "皇甫謐髙士傳曰靖字叔慈少有俊才動止以禮靖弟爽亦以才顯於當時或問汝南許章曰爽與靖孰賢章曰皆玉也慈明外朗叔慈内潤及卒學士惜之誄靖者二十六人潁隂令丘禎追號靖曰𤣥行先生也",
+        "death_event_id": "le-houhan062-xun43-jing-death",
+        "death_anchor": {
+          "start": 54,
+          "end": 56,
+          "surface": "及卒"
+        },
+        "death_subject_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0050",
+        "naming_anchor": {
+          "start": 72,
+          "end": 80,
+          "surface": "追號靖曰𤣥行先生"
+        },
+        "issuer_person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0070",
+        "recipient_person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0074",
+        "evidence": [
+          {
+            "work_id": "w-houhanshu",
+            "book_id": "b-houhanshu-062",
+            "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+            "source_id": "s-houhanshu-062-xunhan-zhongchen",
+            "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1",
+            "quote": "皇甫謐髙士傳曰靖字叔慈少有俊才動止以禮靖弟爽亦以才顯於當時或問汝南許章曰爽與靖孰賢章曰皆玉也慈明外朗叔慈内潤及卒學士惜之誄靖者二十六人潁隂令丘禎追號靖曰𤣥行先生也",
+            "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-08-1:m0074"
+          }
+        ]
+      },
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "唐注明丘禎追號靖曰𤣥行先生；正文號曰為同稱號的平行用例，不另造生前任官。"
     }
   ]
 }

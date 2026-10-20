@@ -13,6 +13,53 @@
   ],
   "titles": [
     {
+      "id": "th-houhan062-xun44-047",
+      "person_id": "wuo_ghc_ajx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0002"
+        }
+      ],
+      "interpretation_note": "原文lixian_commentary：為楚蘭陵令。楚為政權／地理語境，不接近代行政位置或淑的朗陵。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "蘭陵令",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-047:xun44:47",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "start": 8,
+          "end": 11,
+          "surface": "蘭陵令",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0002",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji074-006",
       "person_id": "wuo_ghc_ajx",
       "title": "祭酒",
@@ -179,6 +226,35 @@
     }
   ],
   "addresses": [
+    {
+      "id": "pa-houhan062-xun44-046",
+      "person_id": "wuo_ghc_ajx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0002"
+        }
+      ],
+      "interpretation_note": "原文lixian_commentary：趙人也。唐注述荀卿，不當荀淑籍貫。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "趙",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "source_term": "趙人也",
+      "term": "趙人也",
+      "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也"
+    },
     {
       "id": "pa-shiji074-007",
       "person_id": "wuo_ghc_ajx",
@@ -1035,7 +1111,33 @@
     "yoo_ox0_545": "荀淑"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "wuo_ghc_ajx",
+      "title": null,
+      "surname": null,
+      "ming": "况",
+      "additional_names": [],
+      "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+      "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+      "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也",
+      "note": "原文lixian_commentary：卿名况。原字况；不改況。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。 本來源補證：卿名况（c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1），不推其他構件。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "references": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1",
+          "quote": "卿名况趙人也為楚蘭陵令著書二十二篇號荀卿子避宣帝諱故改曰孫也",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu-note-01-1:m0000",
+          "scope": "additional_source_name_attestation"
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "wuo_ghc_ajx"
   ],

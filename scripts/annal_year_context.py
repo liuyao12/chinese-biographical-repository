@@ -8,6 +8,12 @@ import re
 
 
 def annal_regnal_year_valid(date, parse_number):
+    if date.get('annal_year_reference', {}).get('format') == 'kanripo_continuous_year':
+        try:
+            from .jin_facts_boundaries import continuous_annal_valid
+        except ImportError:
+            from jin_facts_boundaries import continuous_annal_valid
+        return continuous_annal_valid(date, parse_number)
     mapping = date.get('regnal_year_mapping', {})
     context = date.get('annal_year_reference', {})
     refs = date.get('references', [])
@@ -79,6 +85,12 @@ def annal_year_binding_valid(date, chapter):
     """The arithmetic check also needs this binding to the marked source file."""
     if not isinstance(chapter, dict):
         return False
+    if date.get('annal_year_reference', {}).get('format') == 'kanripo_continuous_year':
+        try:
+            from .jin_facts_boundaries import continuous_annal_binding_valid
+        except ImportError:
+            from jin_facts_boundaries import continuous_annal_binding_valid
+        return continuous_annal_binding_valid(date, chapter)
     mapping = date.get('regnal_year_mapping', {})
     refs = date.get('references', [])
     if not isinstance(mapping, dict) or not isinstance(refs, list):

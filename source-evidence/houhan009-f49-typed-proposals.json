@@ -1,0 +1,2130 @@
+{
+  "record_type": "typed_unadopted_or_partial_consumption",
+  "records": [
+    {
+      "proposal_id": "hhs009-f49-013",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "中子來源可讀；不可判唯一絕對排行，ordinal null不是模型缺資料。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-013",
+        "source_layer": "received_annal",
+        "kind": "birth_order_word",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 6,
+          "end": 11,
+          "surface": "靈帝中子也"
+        },
+        "value": {
+          "source_term": "中子",
+          "ordinal": null,
+          "parent_person_id": "0wg_vtn_yqb"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_semantic_boundary",
+        "interpretation": "中子保原詞，不按現代中間／第二子硬給排行。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-015",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-015",
+        "source_layer": "received_annal",
+        "kind": "accession",
+        "subject_person_id": "7q8_xsg_xif",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 21,
+          "end": 31,
+          "surface": "中平六年四月少帝即位"
+        },
+        "value": {
+          "source_term": "即位",
+          "title_literal": null
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": 4,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_title_not_literal",
+        "interpretation": "只即位，當句無皇帝字，不虛造title attestation。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-021",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-021",
+        "source_layer": "received_annal",
+        "kind": "amnesty",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 61,
+          "end": 65,
+          "surface": "大赦天下"
+        },
+        "value": {
+          "source_term": "大赦天下"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": 9,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_enum",
+        "interpretation": "不是生卒。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-022",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-022",
+        "source_layer": "received_annal",
+        "kind": "era_renaming",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 65,
+          "end": 71,
+          "surface": "改昭寜為永漢"
+        },
+        "value": {
+          "from": "昭寜",
+          "to": "永漢"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": 9,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_global_event",
+        "interpretation": "同一中國年內改元，不另生個人任官。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-024",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-024",
+        "source_layer": "received_annal",
+        "kind": "institution_staffing",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 81,
+          "end": 95,
+          "surface": "初令侍中給事黄門侍郎員各六人"
+        },
+        "value": {
+          "offices": [
+            "侍中",
+            "給事黄門侍郎"
+          ],
+          "count_each": 6
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度員額，不為無名人發號。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-025",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-025",
+        "source_layer": "received_annal",
+        "kind": "collective_grant",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 95,
+          "end": 110,
+          "surface": "賜公卿以下至黄門侍郎家一人為郎"
+        },
+        "value": {
+          "count_per_family": 1,
+          "office": "郎"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "未名群體任命，不造個體官職。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-026",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-026",
+        "source_layer": "received_annal",
+        "kind": "institutional_replacement",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 110,
+          "end": 122,
+          "surface": "以補宦官所領諸署侍於殿上"
+        },
+        "value": {
+          "prior_group": "宦官",
+          "new_group": "士人（唐注明言）"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "不同於所有宦者死亡或免職。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-043",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-043",
+        "source_layer": "received_annal",
+        "kind": "honorary_privilege",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 139,
+          "end": 144,
+          "surface": "加鈇鉞虎賁"
+        },
+        "value": {
+          "source_terms": [
+            "鈇鉞",
+            "虎賁"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_privilege",
+        "interpretation": "鈇鉞／虎賁是儀衛權力加賜，不當董卓職銜。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-044",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-044",
+        "source_layer": "received_annal",
+        "kind": "memorial_action",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 165,
+          "end": 180,
+          "surface": "遣使弔祠故太傅陳蕃大將軍竇武等"
+        },
+        "value": {
+          "recipients": [
+            "7tn_3cc_phw",
+            "fm2_09a_e2z"
+          ],
+          "source_term": "弔祠"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "故銜不在本句另填兩人卒年。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-046",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-046",
+        "source_layer": "received_annal",
+        "kind": "military_dispatch",
+        "subject_person_id": "rt1_gfl_6sd",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 196,
+          "end": 205,
+          "surface": "董卓遣其將牛輔擊之"
+        },
+        "value": {
+          "issuer": "a50_1e6_4bf",
+          "source_role": "其將",
+          "opponent_group": "白波賊"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_enum",
+        "interpretation": "其將不擴成具體將軍品名。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-047",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "將為角色泛稱非具體官號。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-047",
+        "source_layer": "received_annal",
+        "kind": "title_usage",
+        "subject_person_id": "rt1_gfl_6sd",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 199,
+          "end": 203,
+          "surface": "其將牛輔"
+        },
+        "value": {
+          "title_literal": "將",
+          "kind": "role"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_generic_role",
+        "interpretation": "未具名將軍官號，不造武衛／中郎等職。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-048",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-048",
+        "source_layer": "received_annal",
+        "kind": "collective_war_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 190,
+          "end": 196,
+          "surface": "白波賊宼河東"
+        },
+        "value": {
+          "place": "河東"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "群體與地點，不當郭泰本人行程。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-049",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-049",
+        "source_layer": "received_annal",
+        "kind": "institutional_or_era_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 242,
+          "end": 247,
+          "surface": "省扶風都尉"
+        },
+        "value": {
+          "office": "扶風都尉",
+          "action": "abolish"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "無具名個人持任；原文字年框保留。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-050",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-050",
+        "source_layer": "received_annal",
+        "kind": "institutional_or_era_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 247,
+          "end": 252,
+          "surface": "置漢安都護"
+        },
+        "value": {
+          "office": "漢安都護",
+          "action": "establish"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "無具名個人持任；原文字年框保留。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-051",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-051",
+        "source_layer": "received_annal",
+        "kind": "institutional_or_era_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06",
+          "start": 252,
+          "end": 268,
+          "surface": "詔除光熹昭寜永漢三號還復中平六年"
+        },
+        "value": {
+          "cancel_eras": [
+            "光熹",
+            "昭寜",
+            "永漢"
+          ],
+          "restore": "中平六年"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": null,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "無具名個人持任；原文字年框保留。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-052",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-052",
+        "source_layer": "received_annal",
+        "kind": "collective_war_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 7,
+          "end": 17,
+          "surface": "山東州郡起兵以討董卓"
+        },
+        "value": {
+          "opponent_person_id": "a50_1e6_4bf",
+          "region": "山東州郡"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 1,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "不擅列未具名討卓將領。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-053",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-053",
+        "source_layer": "received_annal",
+        "kind": "amnesty",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 17,
+          "end": 23,
+          "surface": "辛亥大赦天下"
+        },
+        "value": {
+          "source_term": "大赦天下"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 1,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_enum",
+        "interpretation": "不是生卒。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-055",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-055",
+        "source_layer": "received_annal",
+        "kind": "collective_war_event",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 31,
+          "end": 37,
+          "surface": "白波賊宼東郡"
+        },
+        "value": {
+          "place": "東郡"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": null,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "不得以集體行動補郭泰個人位置。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-069",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-069",
+        "source_layer": "received_annal",
+        "kind": "forced_collective_migration",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 89,
+          "end": 101,
+          "surface": "董卓驅徙京師百姓悉西入關"
+        },
+        "value": {
+          "moved_group": "京師百姓",
+          "destination": "關西"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 2,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "不把百姓目的地當董卓自居。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-071",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-071",
+        "source_layer": "received_annal",
+        "kind": "omen",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 107,
+          "end": 113,
+          "surface": "壬辰白虹貫日"
+        },
+        "value": {
+          "source_term": "白虹貫日"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 2,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_nonpersonal",
+        "interpretation": "無具名人物事實。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-072",
+      "consumption": "native_added_with_typed_visit",
+      "native_ids": [
+        "pa-hhs009-f49-072"
+      ],
+      "reason": "未央宮幸訪保typed，不當常住；其他按原遷入／屯／人也。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-072",
+        "source_layer": "received_annal",
+        "kind": "imperial_movement",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 113,
+          "end": 126,
+          "surface": "三月乙巳車駕入長安幸未央宫"
+        },
+        "value": {
+          "arrival": "長安",
+          "visited_palace": "未央宫"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 3,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "existing_address",
+        "interpretation": "長安為遷居／到達；未央宮只是幸，不硬當籍貫或死亡地。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-073",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-073",
+        "source_layer": "received_annal",
+        "kind": "destructive_action",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 126,
+          "end": 138,
+          "surface": "己酉董卓焚洛陽宫廟及人家"
+        },
+        "value": {
+          "place": "洛陽",
+          "targets": [
+            "宫廟",
+            "人家"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 3,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_enum",
+        "interpretation": "不是董卓生卒。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-078",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-078",
+        "source_layer": "received_annal",
+        "kind": "collective_killing",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 151,
+          "end": 154,
+          "surface": "夷其族"
+        },
+        "value": {
+          "victim_clans": [
+            "袁隗族",
+            "袁基族"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 3,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "不造未名親屬／每名死者。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-090",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "現diplomatic_service只驗事某國N年；安集関東沒有年數，完整具名使者列與任務結構保留，不能假填service_year。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-090",
+        "source_layer": "received_annal",
+        "kind": "diplomatic_service",
+        "subject_person_id": "2i1_5qk_vfp",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 175,
+          "end": 206,
+          "surface": "大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東"
+        },
+        "value": {
+          "destination": "関東",
+          "source_term": "安集関東"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 6,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "requires_diplomatic_service_without_duration",
+        "interpretation": "具名五使，未有至各郡確日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-091",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "現diplomatic_service只驗事某國N年；安集関東沒有年數，完整具名使者列與任務結構保留，不能假填service_year。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-091",
+        "source_layer": "received_annal",
+        "kind": "diplomatic_service",
+        "subject_person_id": "xtx_7mz_dt4",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 175,
+          "end": 206,
+          "surface": "大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東"
+        },
+        "value": {
+          "destination": "関東",
+          "source_term": "安集関東"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 6,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "requires_diplomatic_service_without_duration",
+        "interpretation": "具名五使，未有至各郡確日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-092",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "現diplomatic_service只驗事某國N年；安集関東沒有年數，完整具名使者列與任務結構保留，不能假填service_year。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-092",
+        "source_layer": "received_annal",
+        "kind": "diplomatic_service",
+        "subject_person_id": "al5_e32_vh6",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 175,
+          "end": 206,
+          "surface": "大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東"
+        },
+        "value": {
+          "destination": "関東",
+          "source_term": "安集関東"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 6,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "requires_diplomatic_service_without_duration",
+        "interpretation": "具名五使，未有至各郡確日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-093",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "現diplomatic_service只驗事某國N年；安集関東沒有年數，完整具名使者列與任務結構保留，不能假填service_year。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-093",
+        "source_layer": "received_annal",
+        "kind": "diplomatic_service",
+        "subject_person_id": "nwk_eh7_2as",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 175,
+          "end": 206,
+          "surface": "大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東"
+        },
+        "value": {
+          "destination": "関東",
+          "source_term": "安集関東"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 6,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "requires_diplomatic_service_without_duration",
+        "interpretation": "具名五使，未有至各郡確日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-094",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "現diplomatic_service只驗事某國N年；安集関東沒有年數，完整具名使者列與任務結構保留，不能假填service_year。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-094",
+        "source_layer": "received_annal",
+        "kind": "diplomatic_service",
+        "subject_person_id": "70s_vkj_ypa",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 175,
+          "end": 206,
+          "surface": "大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東"
+        },
+        "value": {
+          "destination": "関東",
+          "source_term": "安集関東"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 6,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "requires_diplomatic_service_without_duration",
+        "interpretation": "具名五使，未有至各郡確日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-099",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-099",
+        "source_layer": "received_annal",
+        "kind": "release_or_escape",
+        "subject_person_id": "2i1_5qk_vfp",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 222,
+          "end": 227,
+          "surface": "唯韓融獲免"
+        },
+        "value": {
+          "source_term": "獲免"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": null,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_enum",
+        "interpretation": "不是死亡；勿由五使列出把韓融算死者。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-100",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-100",
+        "source_layer": "received_annal",
+        "kind": "monetary_policy",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 227,
+          "end": 237,
+          "surface": "董卓壞五銖錢更鑄小錢"
+        },
+        "value": {
+          "destroyed": "五銖錢",
+          "issued": "小錢"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": null,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_global_event",
+        "interpretation": "不是姓名或官爵。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-101",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-101",
+        "source_layer": "received_annal",
+        "kind": "astronomical_notice",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01",
+          "start": 237,
+          "end": 252,
+          "surface": "冬十一月庚戍鎮星熒惑太白合於尾"
+        },
+        "value": {
+          "source_term": "鎮星熒惑太白合於尾"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": 11,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_nonpersonal",
+        "interpretation": "星名不當人物。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-113",
+      "consumption": "excluded_individual_fact",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-113",
+        "source_layer": "lixian_commentary",
+        "kind": "lexical_gloss",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-01-1",
+          "start": 0,
+          "end": 14,
+          "surface": "謚法曰聰明睿智曰獻協之字曰合"
+        },
+        "value": {
+          "source_term": "協之字曰合"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "excluded_person_fact",
+        "interpretation": "字為字義，不是協字合；不能造字合姓名。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-114",
+      "consumption": "native_reused_with_typed_naming_reason",
+      "native_ids": [
+        "profile-names:e49_8a5_738"
+      ],
+      "reason": "正文諱協已明；張璠命名原因保別層typed，不據像父造出生資訊。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-114",
+        "source_layer": "lixian_commentary",
+        "kind": "name_origin",
+        "subject_person_id": "e49_8a5_738",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-01-1",
+          "start": 14,
+          "end": 28,
+          "surface": "張璠記曰靈帝以帝似已故名曰協"
+        },
+        "value": {
+          "ming": "協",
+          "named_by_person_id": "0wg_vtn_yqb",
+          "reason": "以帝似已"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "existing_name_evidence",
+        "interpretation": "張璠記引文層，不覆寫主文。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-116",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-116",
+        "source_layer": "lixian_commentary",
+        "kind": "migration_agent",
+        "subject_person_id": "xyk_ml8_ans",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-02-1",
+          "start": 0,
+          "end": 4,
+          "surface": "董卓遷也"
+        },
+        "value": {
+          "agent_person_id": "a50_1e6_4bf",
+          "destination": "永安宮"
+        },
+        "date": {
+          "chinese_calendar_year": 189,
+          "chinese_calendar_month": 9,
+          "source_year_term": "中平六年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_qualification",
+        "interpretation": "只為何后被遷補明施事，不轉何后任官。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-117",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-117",
+        "source_layer": "lixian_commentary",
+        "kind": "place_description",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-02-1",
+          "start": 4,
+          "end": 29,
+          "surface": "洛陽宫殿名曰永安宮周逥六百九十八丈故基在洛陽故城中"
+        },
+        "value": {
+          "place": "永安宮",
+          "location": "洛陽故城",
+          "circumference": 698,
+          "unit": "丈"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_topography",
+        "interpretation": "地物尺度非人物生卒。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-118",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-118",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 0,
+          "end": 12,
+          "surface": "續漢志曰侍中比二千石無員"
+        },
+        "value": {
+          "office": "侍中",
+          "rank": "比二千石",
+          "staff_count": null
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-119",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-119",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 12,
+          "end": 31,
+          "surface": "漢官儀曰侍中左蟬右貂夲秦丞相史往来殿中"
+        },
+        "value": {
+          "office": "侍中",
+          "origin_claim": "秦丞相史",
+          "insignia": [
+            "左蟬",
+            "右貂"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-120",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-120",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 36,
+          "end": 50,
+          "surface": "分掌乗輿服物下至褻器虎子之屬"
+        },
+        "value": {
+          "duties": "分掌乗輿服物下至褻器虎子之屬"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-121",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-121",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 74,
+          "end": 84,
+          "surface": "至東京時屬少府亦無員"
+        },
+        "value": {
+          "reporting_office": "少府",
+          "staff_count": null
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-122",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-122",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 84,
+          "end": 105,
+          "surface": "駕出則一人負傳國璽操斬蛇劒乗輿中官俱止禁中"
+        },
+        "value": {
+          "duties": "駕出負傳國璽操斬蛇劒",
+          "number_per_exit": 1
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-123",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-123",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 107,
+          "end": 131,
+          "surface": "給事黄門侍郎六百石無員掌侍從左右給事中使關通中外"
+        },
+        "value": {
+          "office": "給事黄門侍郎",
+          "rank": "六百石",
+          "staff_count": null,
+          "duties": "侍從左右給事中使關通中外"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-124",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-124",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 131,
+          "end": 150,
+          "surface": "應劭曰黄門侍郎每日暮向青瑣門拜謂之夕郎"
+        },
+        "value": {
+          "office": "黄門侍郎",
+          "other_designation": "夕郎",
+          "ritual": "每日暮向青瑣門拜"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-125",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-125",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 150,
+          "end": 170,
+          "surface": "輿服志曰禁門曰黄闥以中人主之故號曰黄門令"
+        },
+        "value": {
+          "office": "黄門令",
+          "etymology": "禁門曰黄闥"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-126",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-126",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_definition",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 186,
+          "end": 197,
+          "surface": "夲既無員於此各置六人也"
+        },
+        "value": {
+          "staff_count_each": 6
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "制度引文不為未名任職者造ID／holding。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-128",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-128",
+        "source_layer": "lixian_commentary",
+        "kind": "office_duty",
+        "subject_person_id": "9dt_8rh_m9a",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 59,
+          "end": 74,
+          "surface": "以其儒者特聽掌御坐唾壺朝廷榮之"
+        },
+        "value": {
+          "source_term": "特聽掌御坐唾壺"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_office_duty",
+        "interpretation": "不是另項官號或實物賞賜。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-129",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-129",
+        "source_layer": "lixian_commentary",
+        "kind": "policy_proposal",
+        "subject_person_id": "8xv_6ak_y28",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-1",
+          "start": 222,
+          "end": 242,
+          "surface": "王允乃奏侍中黄門不得出入不通賔客自此始也"
+        },
+        "value": {
+          "proposal": "侍中黄門不得出入不通賔客"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_policy",
+        "interpretation": "引獻帝起居注，不因位於189附注就給精年。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-130",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-130",
+        "source_layer": "liu_ban_collation",
+        "kind": "textual_correction",
+        "subject_person_id": "y0r_blj_zn7",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-03-2",
+          "start": 13,
+          "end": 34,
+          "surface": "案文當云參乘與中官俱止禁中少一參字誤一輿字"
+        },
+        "value": {
+          "suggested_reading": "參乘與中官俱止禁中",
+          "omitted": "參",
+          "incorrect": "輿"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_textual_layer",
+        "interpretation": "宋校不回改正文或唐注原字。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-131",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-131",
+        "source_layer": "lixian_commentary",
+        "kind": "institutional_renaming",
+        "subject_person_id": "0wg_vtn_yqb",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-04-1",
+          "start": 0,
+          "end": 17,
+          "surface": "靈帝熹平四年改平凖為中凖使宦官為令"
+        },
+        "value": {
+          "from": "平凖",
+          "to": "中凖",
+          "appointee_group": "宦官",
+          "source_year": "熹平四年",
+          "candidate_year": 175
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "引古制度；非189新任。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-132",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-132",
+        "source_layer": "lixian_commentary",
+        "kind": "institutional_replacement",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-04-1",
+          "start": 17,
+          "end": 39,
+          "surface": "自是諸内署令丞悉以閹人為之故今並令士人代領之"
+        },
+        "value": {
+          "prior_group": "閹人",
+          "replacement_group": "士人"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "非每個未名閹人個人免官證據。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-133",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-133",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_or_lexical_gloss",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-05-1",
+          "start": 0,
+          "end": 34,
+          "surface": "禮記曰諸侯賜鈇鉞然後専殺説文曰鈇莝刀也蒼頡篇曰鈇斧也加鈇鉞者與専殺也"
+        },
+        "value": {
+          "privilege": "専殺",
+          "object": "鈇鉞"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "不將鈇／斧／蒼頡篇當新人物或官號。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-134",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-134",
+        "source_layer": "lixian_commentary",
+        "kind": "military_origin",
+        "subject_person_id": "zni_5qt_ep7",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-06-1",
+          "start": 0,
+          "end": 22,
+          "surface": "薛瑩書曰黄巾郭泰等起於西河白波谷時謂之白波賊"
+        },
+        "value": {
+          "place": "西河白波谷",
+          "group_designation": "白波賊"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_event_with_possible_address",
+        "interpretation": "起事地≠籍貫；不把外部169名士死接於此人。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-135",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-135",
+        "source_layer": "lixian_commentary",
+        "kind": "institution_history",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:accession-zhongping06-note-07-1",
+          "start": 0,
+          "end": 37,
+          "surface": "扶風都尉比二千石武帝元鼎四年置中興不改至此以羌擾三輔故省之置都護令總統西方"
+        },
+        "value": {
+          "office": "扶風都尉",
+          "rank": "比二千石",
+          "established_term": "武帝元鼎四年",
+          "candidate_era": "BCE",
+          "candidate_era_year": 113,
+          "candidate_astronomical_year": -112,
+          "abolition_context": "以羌擾三輔故省之",
+          "replacement": "都護"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_institution",
+        "interpretation": "年號元鼎四年為公元前113（無年零實作需按現規則）；不造漢武帝任此官。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-136",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-136",
+        "source_layer": "lixian_commentary",
+        "kind": "phonetic_gloss",
+        "subject_person_id": "37a_4e4_9ge",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-01-1",
+          "start": 0,
+          "end": 3,
+          "surface": "珌音必"
+        },
+        "value": {
+          "character": "珌",
+          "reading_gloss": "必"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_phonetics",
+        "interpretation": "音必不是新名必。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-137",
+      "consumption": "native_alias_reused_typed_orthography",
+      "native_ids": [
+        "37a_4e4_9ge:alias:毖"
+      ],
+      "reason": "48 registry已保原注毖錨點；竝作毖是異寫不是名毖命名句，不偽裝component_alternatives明名公式。完整orthographic variant與引書權威保typed。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-137",
+        "source_layer": "lixian_commentary",
+        "kind": "name_variant",
+        "subject_person_id": "37a_4e4_9ge",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-01-1",
+          "start": 17,
+          "end": 27,
+          "surface": "續漢書魏志竝作毖音祕"
+        },
+        "value": {
+          "form": "毖",
+          "qualified_full_form": null,
+          "reading_gloss": "祕",
+          "authorities": [
+            "續漢書",
+            "魏志"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "existing_name_alternative",
+        "interpretation": "只原注確切毖字，不把讀音祕當另名。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-142",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-142",
+        "source_layer": "lixian_commentary",
+        "kind": "construction",
+        "subject_person_id": "xd8_uww_5ok",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-03-1",
+          "start": 0,
+          "end": 8,
+          "surface": "未央宫蕭何所造也"
+        },
+        "value": {
+          "place": "未央宫"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_activity",
+        "interpretation": "引古蕭何，非190任官／住所。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-143",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-143",
+        "source_layer": "lixian_commentary",
+        "kind": "omen",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-03-1",
+          "start": 8,
+          "end": 27,
+          "surface": "張璠記曰将入宫日大雨晝晦翟雉飛入長安宮"
+        },
+        "value": {
+          "place": "長安宮",
+          "source_term": "大雨晝晦翟雉飛入長安宮"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_nonpersonal",
+        "interpretation": "非鳥名人物，將入宮只語境不補具體新日。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-144",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-144",
+        "source_layer": "lixian_commentary",
+        "kind": "reported_motive",
+        "subject_person_id": "a50_1e6_4bf",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+          "start": 11,
+          "end": 27,
+          "surface": "卓以山東兵起依紹術為主故誅其親屬"
+        },
+        "value": {
+          "reported_reason": "山東兵起依紹術為主",
+          "target": "其親屬"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_activity",
+        "interpretation": "紹術為山東兵依主不表示在當段被殺。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-145",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-145",
+        "source_layer": "lixian_commentary",
+        "kind": "collective_killing",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+          "start": 32,
+          "end": 46,
+          "surface": "尺口以上男女五千餘人皆下獄死"
+        },
+        "value": {
+          "victim_count_lower_bound": 5000,
+          "count_qualification": "餘",
+          "group": "袁氏男女"
+        },
+        "date": {
+          "chinese_calendar_year": 190,
+          "chinese_calendar_month": null,
+          "source_year_term": "初平元年",
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_collective",
+        "interpretation": "尺口原字保留，無具名人不可逐人造生卒。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-146",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "族姓遠祖說非胡母班個體父系，歷史資格不容直接接樹。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-146",
+        "source_layer": "lixian_commentary",
+        "kind": "clan_origin_claim",
+        "subject_person_id": "al5_e32_vh6",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-05-1",
+          "start": 4,
+          "end": 14,
+          "surface": "胡母姓夲陳胡公之後也"
+        },
+        "value": {
+          "claimed_ancestor": "6wx_fr3_b2e",
+          "generation_distance": null,
+          "adopted_for_family_tree": false
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_clan_not_person_descent",
+        "interpretation": "姓源說不能把胡母班個人父系接陳胡公。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-147",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-147",
+        "source_layer": "lixian_commentary",
+        "kind": "historical_retrospection",
+        "subject_person_id": "lmu_nbm_rzo_AAA",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-05-1",
+          "start": 14,
+          "end": 23,
+          "surface": "公子完奔齊遂有齊國"
+        },
+        "value": {
+          "place": "齊",
+          "reported_outcome": "遂有齊國"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_ancestral_retrospection",
+        "interpretation": "不當完本人為王或實際同時代官爵。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-148",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-148",
+        "source_layer": "lixian_commentary",
+        "kind": "unresolved_kinship_and_enfeoffment",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-05-1",
+          "start": 23,
+          "end": 32,
+          "surface": "齊宣王母弟别封母鄉"
+        },
+        "value": {
+          "relative_to": "lmu_nbm_rzo_AAAAAAABAAAAAAA",
+          "source_term": "母弟",
+          "enfeoffment_place": "母鄉",
+          "unknown_person_id": null
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_unknown_identity",
+        "interpretation": "未名母弟不發號、不拿同姓候選塞人。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-149",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-149",
+        "source_layer": "lixian_commentary",
+        "kind": "surname_etymology",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-05-1",
+          "start": 32,
+          "end": 46,
+          "surface": "逺夲胡公近取母邑故曰胡母氏也"
+        },
+        "value": {
+          "surname": "胡母",
+          "claimed_sources": [
+            "胡公",
+            "母邑"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_clan_etymology",
+        "interpretation": "不是胡母班名字字號或八子別名。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-152",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-152",
+        "source_layer": "lixian_commentary",
+        "kind": "character_assessment",
+        "subject_person_id": "ph1_kpk_evr",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1",
+          "start": 12,
+          "end": 20,
+          "surface": "輕財好施以任侠聞"
+        },
+        "value": {
+          "source_term": "輕財好施以任侠聞"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_assessment",
+        "interpretation": "不當官號俠。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-154",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-154",
+        "source_layer": "lixian_commentary",
+        "kind": "monetary_reform",
+        "subject_person_id": "6c9_c43_555",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-07-1",
+          "start": 0,
+          "end": 14,
+          "surface": "光武中興除王莾貨泉更用五銖錢"
+        },
+        "value": {
+          "replaced": "王莾貨泉",
+          "new_currency": "五銖錢"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_global_event",
+        "interpretation": "光武不是009獻帝；不把王莾當在190任職。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-166",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-166",
+        "source_layer": "lixian_commentary",
+        "kind": "reported_interpersonal_assessment",
+        "subject_person_id": "xxz_awi_y21",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-09-1",
+          "start": 18,
+          "end": 24,
+          "surface": "叡素遇堅無禮"
+        },
+        "value": {
+          "object_person_id": "ki7_rgz_3l4",
+          "source_term": "素遇堅無禮"
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_assessment",
+        "interpretation": "引吳録的因果評語，不當正式親屬。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-167",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-167",
+        "source_layer": "lixian_commentary",
+        "kind": "intention",
+        "subject_person_id": "ki7_rgz_3l4",
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-09-1",
+          "start": 24,
+          "end": 30,
+          "surface": "堅此時欲殺叡"
+        },
+        "value": {
+          "target": "xxz_awi_y21",
+          "action": "殺",
+          "realized_at_this_clause": false
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_intention",
+        "interpretation": "欲殺不單獨當已殺；死亡另有刮金飲死／正文殺證。",
+        "human_reviewed": false
+      }
+    },
+    {
+      "proposal_id": "hhs009-f49-168",
+      "consumption": "typed_retained",
+      "native_ids": [],
+      "reason": "目前個人facts模型未支援此制度／群體／活動／校語型別，完整typed結構與精確錨點保留；非來源不可讀。",
+      "proposal": {
+        "proposal_id": "hhs009-f49-168",
+        "source_layer": "lixian_commentary",
+        "kind": "reported_dialogue",
+        "subject_person_id": null,
+        "source_anchor": {
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-09-1",
+          "start": 30,
+          "end": 42,
+          "surface": "叡曰我何罪堅曰坐無所知罪"
+        },
+        "value": {
+          "speakers": [
+            "xxz_awi_y21",
+            "ki7_rgz_3l4"
+          ]
+        },
+        "date": {
+          "chinese_calendar_year": null,
+          "chinese_calendar_month": null,
+          "source_year_term": null,
+          "not_gregorian_month": true
+        },
+        "model_support": "typed_dialogue",
+        "interpretation": "對話我=叡；何為疑問，不造何姓人。",
+        "human_reviewed": false
+      }
+    }
+  ],
+  "not_global_pending": true
+}

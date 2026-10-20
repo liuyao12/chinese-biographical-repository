@@ -1,0 +1,57 @@
+{
+  "record_type": "source_proposal_consumption_followup",
+  "source_packet": "sealed Wang41",
+  "preserved_original_ledger_sha256": "2262619564c94c760d517872e795e87d90301cec0e389ee4e2db5ceae3e9b85c",
+  "records": [
+    {
+      "proposal_id": "proposal-sanguozhi028-wangling-118",
+      "life_event_id": "le-wang41-118",
+      "status": "native_date_consumed",
+      "year": 251,
+      "source_date_expression": "三年春",
+      "event_source_term_unchanged": true,
+      "new_event": false,
+      "event_quote_anchor": {
+        "paragraph_id": "c-sanguozhi-028-wangling:unit009",
+        "start": 157,
+        "end": 163,
+        "surface": "凌至項飲藥死"
+      },
+      "date_chain_count": 7,
+      "human_reviewed": false
+    },
+    {
+      "proposal_id": "proposal-sanguozhi028-wangling-120",
+      "life_event_id": "le-wang41-120",
+      "status": "native_date_consumed",
+      "year": 251,
+      "source_date_expression": "其年八月",
+      "event_source_term_unchanged": true,
+      "new_event": false,
+      "event_quote_anchor": {
+        "paragraph_id": "c-sanguozhi-028-wangling:unit010",
+        "start": 444,
+        "end": 458,
+        "surface": "太傅有疾夢凌逵為厲甚惡之遂薨"
+      },
+      "date_chain_count": 8,
+      "human_reviewed": false
+    }
+  ],
+  "source_month": {
+    "historical_status": "explicitly_attested",
+    "source_term": "八月",
+    "source_anchor": {
+      "paragraph_id": "c-sanguozhi-028-wangling:unit010",
+      "start": 442,
+      "end": 444,
+      "surface": "八月"
+    },
+    "numeric_month_candidate": 8,
+    "current_native_numeric_month": null,
+    "model_gap": "general paragraph source_date_parts not yet supported",
+    "calendar": "chinese_civil",
+    "not_gregorian_month": true,
+    "no_claim_of_historical_uncertainty": true
+  }
+}

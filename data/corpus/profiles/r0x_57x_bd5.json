@@ -6,11 +6,47 @@
   "identity_note": "固定HHS062完整來源具名身份；不據同字合併或補生父。",
   "review": "ai_provisional",
   "names": [
-    "王莽"
+    "王莽",
+    "王莾"
   ],
   "titles": [],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 9,
+      "category": "",
+      "title": "孝獻帝紀第九（開篇、中平六年及初平元年）",
+      "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-07-1",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "光武中興除王莾貨泉更用五銖錢",
+      "paragraph_ids": [
+        "c-houhanshu-009-xiandi-early:chuping01-note-07-1"
+      ],
+      "mention_ids": [
+        "c-houhanshu-009-xiandi-early:chuping01-note-07-1:m0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-houhanshu-009-xiandi-early:chuping01-note-07-1:m0005": "c-houhanshu-009-xiandi-early:chuping01-note-07-1"
+      },
+      "mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-07-1:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-07-1:m0005",
+          "mention_ids": [
+            "c-houhanshu-009-xiandi-early:chuping01-note-07-1:m0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-009",
+      "chapter_id": "c-houhanshu-009-xiandi-early",
+      "source_id": "s-houhanshu-009-xiandi-early",
+      "work_title": "後漢書"
+    },
     {
       "number": 62,
       "category": "",
@@ -49,6 +85,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-houhanshu-009-xiandi-early",
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-009",
+      "source_id": "s-houhanshu-009-xiandi-early",
+      "source": {
+        "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "accessed_on": "2026-10-19",
+        "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；固定WYG數位見證，未校圖。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
+        },
+        "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
+        "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
+        "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
+      }
+    },
     {
       "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
       "work_id": "w-houhanshu",
@@ -227,7 +290,21 @@
     "r0x_57x_bd5": "王莽"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "r0x_57x_bd5",
+      "title": null,
+      "surname": "王",
+      "ming": "莽",
+      "additional_names": [],
+      "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+      "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshuang-note-04-1",
+      "quote": "平帝時王莽作書八篇戒子孫令學官以教授吏能誦者比孝經音義云言用之得選舉之也",
+      "note": "以本完整單元具名角色作編輯姓名構件拆分；非registry label猜補。source_full_name",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "r0x_57x_bd5"
   ],

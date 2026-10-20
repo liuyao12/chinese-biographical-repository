@@ -8,9 +8,93 @@
   "names": [
     "齊威王"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-wang41-109",
+      "person_id": "wxw_hns_6a2",
+      "title": "齊威王",
+      "kind": "noble_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-028",
+          "source_id": "s-sanguozhi-028-wangling",
+          "chapter_id": "c-sanguozhi-028-wangling",
+          "paragraph_id": "c-sanguozhi-028-wangling:appraisal-note",
+          "quote": "史記曰越王無彊與中國爭彊當楚威王時越北伐齊齊威王使人說越云越王不納齊使者曰幸也越之不亡也吾不貴其用智之如目目見毫毛而不自見其睫也今王知晉之失而不自知越之失是目論也",
+          "person_mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0021"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "tha-wang41-109",
+          "paragraph_id": "c-sanguozhi-028-wangling:appraisal-note",
+          "start": 21,
+          "end": 24,
+          "surface": "齊威王",
+          "person_mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0021",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "保原官爵原字位與完整原段；授予、遷轉、兼領與敘述用稱分開。無明終職不補終期，不以死亡截職。 本句任用／用稱原詞：None。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 28,
+      "category": "",
+      "title": "卷二十八：王凌完整傳及裴注、全卷共評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-028-wangling:appraisal-note",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "史記曰越王無彊與中國爭彊當楚威王時越北伐齊齊威王使人說越云越王不納齊使者曰幸也越之不亡也吾不貴其用智之如目目見毫毛而不自見其睫也今王知晉之失而不自知越之失是目論也",
+      "paragraph_ids": [
+        "c-sanguozhi-028-wangling:appraisal-note"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-028-wangling:appraisal-note:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-028-wangling:appraisal-note:m0021": "c-sanguozhi-028-wangling:appraisal-note"
+      },
+      "mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0021",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-028-wangling:appraisal-note:m0021",
+          "mention_ids": [
+            "c-sanguozhi-028-wangling:appraisal-note:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-028",
+      "chapter_id": "c-sanguozhi-028-wangling",
+      "source_id": "s-sanguozhi-028-wangling",
+      "work_title": "三國志"
+    },
     {
       "number": 41,
       "category": "shijia",
@@ -49,6 +133,36 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-sanguozhi-028-wangling",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-028",
+      "source_id": "s-sanguozhi-028-wangling",
+      "source": {
+        "title": "三國志／魏書卷二十八／王凌完整傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "d1d192e3e36be8919fa86563bd8e1fd82a3f4638",
+        "raw_file_sha256": "0d69bbb981b5dd31bbeee865d503179979226e2d2ce7c42aeac0fe0fc6e868f7",
+        "raw_path": "sources/sanguozhi/KR2a0012_028-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "raw22–104王凌正文及裴注完整；858–865共評及引注；870–874兩清考證，不稱全卷處理",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
+          "excerpts": []
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-041-yue",
       "work_id": "w-shiji",

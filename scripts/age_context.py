@@ -17,7 +17,8 @@ def age_context_valid(age, events):
         return False
     def scope(evidence):
         return tuple(evidence.get(key) for key in ('source_id', 'chapter_id', 'paragraph_id', 'quote'))
+    # Each age quote must attest this same death; other death witnesses need not repeat the age.
     age_scopes = {scope(e) for e in age.get('evidence', [])}
     death_scopes = {scope(e) for e in event.get('evidence', [])}
-    return (bool(age_scopes) and age_scopes == death_scopes
+    return (bool(age_scopes) and age_scopes <= death_scopes
             and all(all(isinstance(value, str) and value for value in row) for row in age_scopes))

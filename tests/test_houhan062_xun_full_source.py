@@ -24,6 +24,15 @@ class Houhan062XunFullSource(unittest.TestCase):
    for key in ('start','end','surface','kind'):self.assertEqual(actual[m['id']][key],m[key])
  def test_prior_native_annotations_preserved(self):
   c=self.chapter()
+  age_contexts = {
+   'age-houhanshu062-xun-001': {'kind':'at_death','life_event_id':'le-houhanshu062-xun-001'},
+   'age-houhanshu062-xun-002': {'kind':'during_life'},
+   'age-houhanshu062-xun-003': {'kind':'during_life'},
+  }
   for key,rows in FIX['prior_annotation_lists'].items():
-   self.assertTrue(all(row in c['annotation'].get(key,[])for row in rows),key)
+   for row in rows:
+    expected = dict(row) if isinstance(row,dict) else row
+    if key == 'age_assertions' and row['id'] in age_contexts:
+     expected['age_context'] = age_contexts[row['id']]
+    self.assertIn(expected,c['annotation'].get(key,[]),(key,row))
 if __name__=='__main__':unittest.main()

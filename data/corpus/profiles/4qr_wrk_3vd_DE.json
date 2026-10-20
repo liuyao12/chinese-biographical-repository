@@ -6,7 +6,8 @@
   "identity_note": "按本批完整傳文單元辨識；不由同姓合併，不補未見父母、生母、生卒。",
   "review": "ai_provisional",
   "names": [
-    "倩"
+    "倩",
+    "庾倩"
   ],
   "titles": [
     {
@@ -122,6 +123,41 @@
       "book_id": "b-jinshu-073",
       "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
       "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "work_title": "晉書"
+    },
+    {
+      "number": 77,
+      "category": "",
+      "title": "殷浩完整本傳",
+      "paragraph_id": "c-jinshu-077-yinhao:p012",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "paragraph_ids": [
+        "c-jinshu-077-yinhao:p012"
+      ],
+      "mention_ids": [
+        "c-jinshu-077-yinhao:p012:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-077-yinhao:p012:m0026": "c-jinshu-077-yinhao:p012"
+      },
+      "mention_id": "c-jinshu-077-yinhao:p012:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p012:m0026",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p012:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "chapter_id": "c-jinshu-077-yinhao",
+      "source_id": "s-jinshu-077-yinhao",
       "work_title": "晉書"
     }
   ],
@@ -355,6 +391,31 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-077-yinhao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "source_id": "s-jinshu-077-yinhao",
+      "source": {
+        "title": "晉書/卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "revision_id": "8750392",
+        "accessed_on": "2026-10-19",
+        "edition": "固定數位原文；未圖像核驗",
+        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
+        }
+      }
     }
   ],
   "relations": [
@@ -421,6 +482,28 @@
           "image_verified": false
         }
       ]
+    },
+    {
+      "id": "name-jin077-f51-052",
+      "person_id": "4qr_wrk_3vd_DE",
+      "title": null,
+      "surname": "庾",
+      "ming": "倩",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-077-yinhao",
+      "paragraph_id": "c-jinshu-077-yinhao:p012",
+      "person_mention_id": "c-jinshu-077-yinhao:p012:m0026",
+      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p012",
+        "start": 26,
+        "end": 28,
+        "surface": "庾倩"
+      },
+      "note": "明冠姓名按原字；略名不由父姓或既有label倒填本句未見之姓，保留字形差異。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "person_ids": [
@@ -469,6 +552,72 @@
     "status": "contextual_provisional",
     "human_reviewed": false
   },
+  "date_ranges": [
+    {
+      "basis": "within_named_era",
+      "calendar": "chinese_civil",
+      "precision": "year_range",
+      "year_numbering": "astronomical",
+      "status": "editorial_provisional",
+      "source_expression": "咸安初",
+      "source_stage": "初",
+      "earliest": {
+        "era": "CE",
+        "era_year": 371,
+        "year": 371
+      },
+      "latest": {
+        "era": "CE",
+        "era_year": 372,
+        "year": 372
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0026"
+        }
+      ],
+      "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "scope": "modern_era_year_equivalence_only",
+          "quote": "咸安",
+          "columns": {
+            "dynasty": "晉",
+            "era_name": "咸安",
+            "first_year": "371",
+            "last_year": "372"
+          },
+          "source_file": "sources/calendar-context/moe-era-table-page2.html",
+          "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+          "image_verified": false
+        }
+      ],
+      "era_span_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "咸安",
+        "polity_source_name": "晉",
+        "start_ce_year": 371,
+        "end_ce_year": 372,
+        "reference_index": 0
+      },
+      "rationale": "只限原年號起迄中國曆年；初不等於元年，不選單一年、不由此補精確日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-jin077-f51-014",
+      "person_id": "4qr_wrk_3vd_DE",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
   "age_assertions": [],
   "life_events": [
     {
@@ -493,6 +642,95 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "le-jin077-f51-014",
+      "person_id": "4qr_wrk_3vd_DE",
+      "event_type": "death",
+      "source_term": "害之",
+      "date_expression": "咸安初",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p012",
+        "start": 33,
+        "end": 35,
+        "surface": "害之"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0026"
+        }
+      ],
+      "interpretation_note": "原死亡主語；不倒出生年，不以此終止所有官職，誤判／謀誅／引古不作死亡。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date_range": {
+        "basis": "within_named_era",
+        "calendar": "chinese_civil",
+        "precision": "year_range",
+        "year_numbering": "astronomical",
+        "status": "editorial_provisional",
+        "source_expression": "咸安初",
+        "source_stage": "初",
+        "earliest": {
+          "era": "CE",
+          "era_year": 371,
+          "year": 371
+        },
+        "latest": {
+          "era": "CE",
+          "era_year": 372,
+          "year": 372
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-077",
+            "chapter_id": "c-jinshu-077-yinhao",
+            "source_id": "s-jinshu-077-yinhao",
+            "paragraph_id": "c-jinshu-077-yinhao:p012",
+            "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+            "person_mention_id": "c-jinshu-077-yinhao:p012:m0026"
+          }
+        ],
+        "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "咸安",
+            "columns": {
+              "dynasty": "晉",
+              "era_name": "咸安",
+              "first_year": "371",
+              "last_year": "372"
+            },
+            "source_file": "sources/calendar-context/moe-era-table-page2.html",
+            "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+            "image_verified": false
+          }
+        ],
+        "era_span_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "咸安",
+          "polity_source_name": "晉",
+          "start_ce_year": 371,
+          "end_ce_year": 372,
+          "reference_index": 0
+        },
+        "rationale": "只限原年號起迄中國曆年；初不等於元年，不選單一年、不由此補精確日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     }
   ],
   "life_event_date_decisions": [],
