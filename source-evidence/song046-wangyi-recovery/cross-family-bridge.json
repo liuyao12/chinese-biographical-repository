@@ -1,0 +1,74 @@
+{
+  "person_id": "864_b79_ed2",
+  "sister_person_id": "380_854_d21",
+  "sister_husband_person_id": "735_5aa_87e",
+  "source_assertions_preserved": [
+    {
+      "id": "a-weishu035-recovery-005",
+      "subject_person_id": "380_854_d21",
+      "object_person_id": "735_5aa_87e",
+      "predicate": "spouse",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "逸妻王氏"
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-035",
+          "chapter_id": "c-weishu-weishou-035-cuihao",
+          "source_id": "s-weishu-weishou-035-cuihao",
+          "paragraph_id": "c-weishu-weishou-035-cuihao:p029",
+          "quote": "浩始弱冠大原郭逸以女妻之浩晚成不曜華采故時人未知逸妻王氏劉義隆鎮北將軍王仲徳姉也每竒浩才能自以為得壻俄而女亡王深以傷恨復以少女繼婚逸及親屬以為不可王固執與之逸不能違遂重結好浩非毁佛法而妻郭氏敬好釋典時時讀誦浩怒取而焚之捐灰於厠中及浩幽執置之檻内送於城南使衛士數十人溲其上呼聲嗷嗷聞于行路自宰司之被戮辱未有如浩者世皆以為報應之驗也",
+          "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p029:m0026",
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p029:m0006"
+        }
+      ],
+      "interpretation_note": "原文直接婚配，非由子女反推。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null
+    },
+    {
+      "id": "a-weishu035-recovery-006",
+      "subject_person_id": "380_854_d21",
+      "object_person_id": "864_b79_ed2",
+      "predicate": "sister",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "王仲徳姉",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "380_854_d21",
+          "younger_person_id": "864_b79_ed2",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-035",
+          "chapter_id": "c-weishu-weishou-035-cuihao",
+          "source_id": "s-weishu-weishou-035-cuihao",
+          "paragraph_id": "c-weishu-weishou-035-cuihao:p029",
+          "quote": "浩始弱冠大原郭逸以女妻之浩晚成不曜華采故時人未知逸妻王氏劉義隆鎮北將軍王仲徳姉也每竒浩才能自以為得壻俄而女亡王深以傷恨復以少女繼婚逸及親屬以為不可王固執與之逸不能違遂重結好浩非毁佛法而妻郭氏敬好釋典時時讀誦浩怒取而焚之捐灰於厠中及浩幽執置之檻内送於城南使衛士數十人溲其上呼聲嗷嗷聞于行路自宰司之被戮辱未有如浩者世皆以為報應之驗也",
+          "subject_person_mention_id": "c-weishu-weishou-035-cuihao:p029:m0026",
+          "object_person_mention_id": "c-weishu-weishou-035-cuihao:p029:m0035"
+        }
+      ],
+      "interpretation_note": "主體王氏為客體王仲徳的姊；不反轉長幼。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "model": null
+    }
+  ],
+  "identity_decision_id": "d-song046-wangyi-001",
+  "not_new_claims": [
+    "不推王氏為仲德同父或同母",
+    "不以妻郭氏歧指選定崔浩某一任妻",
+    "不合7f4_977_10c"
+  ],
+  "human_reviewed": false
+}
