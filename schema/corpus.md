@@ -927,3 +927,9 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `maternal_role` 的 `mother_unspecified` 可另帶 `qualifiers.maternal_clause`，其 `kind`、`start`、`end` 固定原段內原詞位置；仍須 `biological_mother: null`、`father_person_id: null`、完整原段引文、同段雙人物錨點及 `human_reviewed: false`。不得由這些母稱生成生母、父親或配偶。
 
 支援的限定語式為：傳首「甲乙孫也母丙」的甲至丙；具名子女緊接「亦隨母」；具名子女緊接「賢謂其母丙」；具名子女緊接「於是竊入寢室以刀斷鼻䝉被而卧其母呼與語不應」。最後一類只處理已核完整行為子句，不按最近的其他姓名猜主體。各型須精確驗證相應字串、兩端人物及原詞位置，插入否定或截引文即拒絕。傳首所稱祖父不是子女主體，亦不因此補闕名父親。一般直接母稱、封母及前母舊分支保持。
+
+## 授經與別祖為親的限定子句
+
+師承的學生至教師方向不變。`teaching_clause_binding` 可保存傳首具名教師、「太宗初拜博士祭酒賜爵武城子」之朝代轉承錨點，以及緊接「常授太宗經書」的完整原詞字位。學生錨點須位於授經賓語，教師為傳首主體；不能把前一句授官的君主當教師，也不按最近姓名決定方向。全文、字位或角色不符即拒絕，不概括放寬所有「授」字為師承。
+
+`kinship_unspecified` 的 `kinship_basis: explicit_weiqin_pair` 僅支援「三人别祖而甲乙為親」之兩具名連續人物。`kinship_clause_binding` 保存原詞字位。`generation_difference`、`exact_distance`、`lineage`、`common_ancestor_person_id`、`connecting_person_ids` 均為 null，不能由別祖、為親或相次年齡推造世代、父系、共祖或接樹。兩類均須完整原段、雙人物錨點與 AI 審閱限定；既有師承及其他未定親屬分支保持。

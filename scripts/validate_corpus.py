@@ -1358,6 +1358,12 @@ def validate(root=ROOT):
                             anchors = [m for m in hit[1]['mentions'] if m['id'] == e.get(role + '_person_mention_id')]
                             valid = valid and len(anchors) == 1 and anchors[0].get('person_id') == a[endpoint] and any(
                                 i <= anchors[0]['start'] and anchors[0]['end'] <= i + len(quote) for i in starts)
+                    if 'teaching_clause_binding' in qualifiers:
+                        try:
+                            from scripts.contextual_relations import teaching_clause_valid
+                        except ImportError:
+                            from contextual_relations import teaching_clause_valid
+                        valid = teaching_clause_valid(a, paragraphs)
                     check(valid, '師承須有學教原詞及同引句學生老師雙錨點，不得改作親屬')
                 if 'succession' in qualifiers:
                     try:
@@ -1439,7 +1445,13 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'external_clan_affiliation':
+                    if qualifiers.get('kinship_basis') == 'explicit_weiqin_pair':
+                        try:
+                            from scripts.contextual_relations import weiqin_pair_valid
+                        except ImportError:
+                            from contextual_relations import weiqin_pair_valid
+                        check(weiqin_pair_valid(a, paragraphs), '為親須保存原詞雙端、完整引文及未知親等，不得接成父系')
+                    elif qualifiers.get('kinship_basis') == 'external_clan_affiliation':
                         check('外族' in qualifiers.get('source_term', '')
                               and qualifiers.get('lineage') == 'unspecified'
                               and all(key in qualifiers and qualifiers[key] is None for key in
