@@ -6,7 +6,8 @@
   "identity_note": "全庫label及alias未找到同名登記；本段明載此身份，未補其父母、日期或未見本名。 本批身份只限固定見證，未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "王戎"
+    "王戎",
+    "戎"
   ],
   "titles": [],
   "addresses": [],
@@ -114,6 +115,50 @@
       "book_id": "b-jinshu-079",
       "chapter_id": "c-jinshu-079-xielang-family",
       "source_id": "s-jinshu-079-xielang-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 89,
+      "category": "",
+      "title": "嵇紹本傳（卷089忠義傳選錄）",
+      "paragraph_id": "c-jinshu-089-jishao:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "紹始入洛，或謂王戎曰：「昨于稠人中始見嵇紹，昂昂然如野鶴之在雞群。」戎曰：「君復未見其父耳。」累遷汝陰太守。尚書左僕射裴頠亦深器之，每曰：「使延祖為吏部尚書，可使天下無復遺才矣。」沛國戴晞少有才智，與紹從子含相友善，時",
+      "paragraph_ids": [
+        "c-jinshu-089-jishao:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-089-jishao:p002:m0007",
+        "c-jinshu-089-jishao:p002:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-089-jishao:p002:m0007": "c-jinshu-089-jishao:p002",
+        "c-jinshu-089-jishao:p002:m0034": "c-jinshu-089-jishao:p002"
+      },
+      "mention_id": "c-jinshu-089-jishao:p002:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-089-jishao:p002:m0007",
+          "mention_ids": [
+            "c-jinshu-089-jishao:p002:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-089-jishao:p002:m0034",
+          "mention_ids": [
+            "c-jinshu-089-jishao:p002:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-089",
+      "chapter_id": "c-jinshu-089-jishao",
+      "source_id": "s-jinshu-089-jishao",
       "work_title": "晉書"
     }
   ],
@@ -1137,6 +1182,31 @@
             "-{面}-": "面",
             "-{沖}-": "沖"
           }
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-089-jishao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-089",
+      "source_id": "s-jinshu-089-jishao",
+      "source": {
+        "title": "晉書卷089嵇紹本傳",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7089&oldid=2835777",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7089&oldid=2835777",
+        "revision_id": "2835777",
+        "accessed_on": "2026-10-19",
+        "edition": "維基文庫固定數位正文；未圖像核驗",
+        "extent": "只收嵇紹完整本傳原行17–31八段；不含33起嵇含附傳或卷內其餘忠義傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "八個原始完整正文段；不含節題／空行，原字、標點不更改。疑萬姓顒／祠乙及長子軫對平行本眕另層。"
         }
       }
     },

@@ -12,6 +12,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 28,
+      "category": "",
+      "title": "卷二十八：王凌完整傳及裴注、全卷共評與清考證選錄",
+      "paragraph_id": "c-sanguozhi-028-wangling:qing-01",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王凌宣王將中軍乘水道討凌○何焯曰此中軍猶言禁軍不及徴調外軍故以中軍進也",
+      "paragraph_ids": [
+        "c-sanguozhi-028-wangling:qing-01"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-028-wangling:qing-01:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-028-wangling:qing-01:m0013": "c-sanguozhi-028-wangling:qing-01"
+      },
+      "mention_id": "c-sanguozhi-028-wangling:qing-01:m0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-028-wangling:qing-01:m0013",
+          "mention_ids": [
+            "c-sanguozhi-028-wangling:qing-01:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-028",
+      "chapter_id": "c-sanguozhi-028-wangling",
+      "source_id": "s-sanguozhi-028-wangling",
+      "work_title": "三國志"
+    },
+    {
       "number": 62,
       "category": "",
       "title": "荀韓鍾陳列傳第五十二",
@@ -220,6 +255,36 @@
         },
         "numbering_note": "通行卷六十二、列傳第五十二；此固定WYG數位見證題卷九十二，檔名KR2a0009_092.txt，兩者分存，不改原檔。"
       }
+    },
+    {
+      "chapter_id": "c-sanguozhi-028-wangling",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-028",
+      "source_id": "s-sanguozhi-028-wangling",
+      "source": {
+        "title": "三國志／魏書卷二十八／王凌完整傳",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_028.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "d1d192e3e36be8919fa86563bd8e1fd82a3f4638",
+        "raw_file_sha256": "0d69bbb981b5dd31bbeee865d503179979226e2d2ce7c42aeac0fe0fc6e868f7",
+        "raw_path": "sources/sanguozhi/KR2a0012_028-214fcaf.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "raw22–104王凌正文及裴注完整；858–865共評及引注；870–874兩清考證，不稱全卷處理",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面符號、縮排及注括號；原字與逐字raw位置保存。",
+          "excerpts": []
+        }
+      }
     }
   ],
   "relations": [],
@@ -227,7 +292,22 @@
     "ebk_50i_uo2": "何焯"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "ebk_50i_uo2",
+      "title": null,
+      "surname": "何",
+      "ming": "焯",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-028-wangling",
+      "paragraph_id": "c-sanguozhi-028-wangling:qing-01",
+      "quote": "王凌宣王將中軍乘水道討凌○何焯曰此中軍猶言禁軍不及徴調外軍故以中軍進也",
+      "note": "保本源原字姓名構件，不改既有主名或其他來源證。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "source_proposal_id": "proposal-sanguozhi028-wangling-039"
+    }
+  ],
   "person_ids": [
     "ebk_50i_uo2"
   ],

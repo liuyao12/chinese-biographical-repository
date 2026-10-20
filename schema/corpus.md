@@ -836,3 +836,69 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 ## Phase39 named recipient gift
 
 `posthumous_basis.kind: named_recipient_after_same_paragraph_death` 僅支持同一完整固定原段已綁同人死亡、後「明年」及「贈＋明名受者＋官」的追贈。保存source_clause_anchor的原「其贈」，不補追字；grant_anchor完整含贈、名及官，recipient mention緊隨贈且緊接title原字。保死亡事件ID／原詞／字位、明年字位、修訂與全文SHA及全文證據；生前任職、錯死者、段首帝、泛稱或最近人名均不能替代受者。日期須通過既有relative_regnal_year模型且為同人死亡年後一年，證據相同；不改死亡或其他任期。舊biography_topic、coordinated attendance及subject continuation分支維持。
+
+### 具名施號者追號具名死者
+
+`mode: posthumous_naming` 可另用 `naming_basis.kind: named_recipient_after_death`，只接受同完整來源段中的 `施號者 + 追號 + 受者 + 曰 + 本筆title`。不將一般「號」、自號、名譽用稱或在世授號當死後命名，與原有諡／謚／立號曰分支分開。
+
+此型別的 `naming_basis` 必含且僅含 `kind`、`source_term`（完整段）、`death_event_id`、`death_anchor`、`death_subject_mention_id`、`naming_anchor`、`issuer_person_mention_id`、`recipient_person_mention_id`、`evidence`。兩個anchor皆為 `{start,end,surface}`，使用Unicode code point。死亡anchor只接受卒／薨／死及前置「及」，死亡前最近的具體人物mention須是同一死者；施號者與受者須為不同person。施號者mention末端緊接追號，受者mention須恰在追號之後，隨後曰與完整title；title attestation須精確對齊，usage為posthumous_usage且person_mention_id指受者。不可以施號者官名當受號者。
+
+`death_event_id`須指同person的已驗證death事件，且事件evidence含同完整段／同source_id；命名evidence須等於holding及起點evidence。事件的主source_term可以來自同死的另一正文證據，不強迫抹除主證或造第二次死亡；此helper不豁免現有life-event及age-context驗證。未載年日維持null，不由追號倒推出卒年。原始𤣥等字形不得改寫。
+
+## 同一死亡事件的多來源報齡證據
+
+`age_context.kind: at_death` 仍以 `life_event_id` 指向同人且 `source_attested` 的唯一死亡事件。每一項報齡證據的 `source_id`、`chapter_id`、`paragraph_id`、完整 `quote` 必須出現在該死亡事件的證據中；報齡證據集合非空，但死亡事件可另有未載年齡的來源附證。這只允許報齡範圍是同一死亡事件證據的非空子集，不允許跨人、跨事件或改換引句。各報齡的原數詞、人物錨點與數值仍由原生驗證器逐項核對；不從年齡倒推生年，也不拆出重複死亡事件。
+
+
+## 局部死亡證據與完整敘事紀年鏈
+
+死亡`event.evidence`可保存實際死亡與同人主語的局部原句；`normalized_date.evidence`另保存固定同篇完整敘事段序。此窄型別只支援既有`relative_ce_regnal_era_span`及`same_biographical_timeline_with_embedded_quotations`，不是任意擴大日期證據。
+
+採用時新增`normalized_date.event_evidence_binding`，`kind: local_death_in_fixed_narrative_year_chain`。必填`life_event_id`、`person_id`、`source_term`、`source_fingerprint`（source_id/source_commit/source_blob_sha/response_sha256）、`event_evidence_index:0`、最後一段的`date_evidence_index`、`event_person_mention_id`。`death_subject_scope`另限具名死亡原詞起首主語，或同一主語「有疾…遂薨／卒／死」完整子句，防止把同段其他人物借作死者；不是只要段中出現人物便可。三個精確錨點`event_quote_anchor`、`event_term_anchor`、`event_date_expression_anchor`均含paragraph_id/start/end/surface；分別保存局部原句、死亡原詞及本事件原日期（可含季/月），不改原字。
+
+當前首批只處理一份局部死亡證據；原同死多來源模型不變，不將其他時代或篇章硬併入本鏈。日期鏈全段逐字、順序不跳段、同固定commit與raw SHA、同事件ID及人物，並仍受既有年號／相對年／君主及引語範圍驗證。傳主可與所記死亡人物不同，但事件及日期的具名錨點必指同一人（王凌傳敘司馬懿死亡即例）。這是可追溯的編輯身份判讀，非自動NLU、人工核定或權威度提升。
+
+未用此binding的舊模型繼續要求原有證據一致；無效binding不回退舊寬鬆路徑。此型別不自動授權跨篇或本紀年單元橋接；相關能力須另有原生模型與固定來源。
+
+`death_subject_scope`恰含`kind`與`clause_anchor`。`named_subject_in_death_term`要求子句錨點等於死亡原詞，死者具名提及在原詞起首；`illness_clause_ending_in_death`要求子句從同人提及起首接「有疾」，以所錨定「遂薨／薨／遂卒／卒／遂死／死」結束。夢中或敘事中插入的其他人物不能取代起首患病者。
+
+
+## 來源明示中國曆月的獨立構件
+
+死亡事件`source_date_parts`可保存原文明示月份，和`normalized_date.precision:year`分開。首批只支援45型別同版本／同事件的完整敘事日期鏈，不能借別人的月、跨篇補月或由春夏秋冬推月。
+
+欄位恰為`kind:explicit_chinese_calendar_month`、`calendar:chinese_civil`、`precision:month`、`life_event_id`、`person_id`、`month`（1–12整數）、`source_number`、`source_term`、`leap_month`、`source_anchor`、`evidence`、`status:source_attested`、`reviewer`、`human_reviewed:false`，可另有`day:null`，未知日亦可省略。沒有數字日或西曆日期換算。
+
+`source_anchor`具paragraph_id/start/end/surface，原月詞只收明示數詞月（含正月、明示閏月）。錨點須完全位於45的本事件原日期範圍，`evidence`恰為日期鏈中完整事件段及同人mention。明文「閏八月」為month8、leap_month:true；未標閏的「八月」存month8、leap_month:null，表示只記未標，不另推曆法是否置閏。不得把明載八月寫成史實未明，也不得當公曆八月。
+
+本型別不改年精度或人物／事件身份。JSON bundle的life_events保留整個source_date_parts供無NLU消費；既有年份date_normalizations不改定義。未帶新欄的舊事件不變，錯誤新欄必拒，不能以已存在正確年份略過月份驗證。
+
+### 完整紀年段與殷浩來源事實的窄邊界
+
+`age_assertions.source_term` 可用逐字 `年登`＋`source_number` 表達原報齡；僅沿既有歲數解析，`元` 仍不是報齡數字。`age_context: during_life` 不作享年或倒推出生。
+
+`unassumed_appointment` 的 `稱疾不起` 僅適用「除甲、乙，並稱疾不起」完整連列，須有既有完整前段主語及同人後續明示承接。每職保存任用、職稱與拒任三錨點，不生成 active holding。不能泛把「不起」或其他人的疾辭套到同段所有任官。
+
+`office_restoration` 新窄分支 `restoration_kind: posthumous_restore_unnamed_office` 綁定 `death_event_id` 與逐字「詔追復某本官」。受者必為本句具名人物，同人來源死亡須在同篇前段；`office_title`、`title_holding_id` 均為 `null`，日期未知。請求「若使…崇復本官」不符合詔准，不填全部已知舊官。
+
+既有 `annal_ce_regnal_era_span` 新容 `annal_year_reference.format: kanripo_continuous_year`：固定 raw 起年到下年完整引文、行號、修訂、雜湊、同年全段投影及連續年號鏈均須相符；完整 section 同存原生 chapter.source.annal_year_sections，原正文仍保「五年」。原 Wiki 單行節題分支不改。年度數值屬中國曆年；attestation 的年度只放用稱，不替未知起點填授任年。
+
+上述事實形狀由 `validate_corpus.py` 與窄 helper 驗證；通用 `records.schema.json` 未列這些事實型別，沒有移除其既有規則。
+
+「請為某職」經完整長書後，關引號再具名同人「固辭不起」，可用 `appointment_stage: invitation`、`non_assumption_kind: declined`。須驗前段主題、請為與職稱緊接，以及拒絕前一字位恰為同一具名受邀人。不得把邀請改成除授，或套到插入書信中其他人的官稱。
+
+### 同固定作品跨篇同一事件的年段日期／祖母原稱
+
+`normalized_date.cross_chapter_event_binding.kind = same_event_fixed_work_annal_date`僅支援已存death或已存grant的start：必須有原record ID、同person ID、同作品同固定revision但各自raw SHA/blob、兩個原文人物mention、原事件詞與受控主語句、完整received_annal正文及其原年詞精確字位。原event／holding evidence不替換成全年；date.evidence獨立保存完整全年。死亡annal句型為具名人物緊接薨；授官為具名人物緊接為某官，原傳進拜同一官。這是可撤回編輯same-event判斷，不是NLU、名人名單或年份白名單。跨篇日期不可增加第二次死亡。`source_date_parts`仍使用中國曆月明文，day/leap不明保持null；可依該已驗binding的annal date_clause_anchor驗月詞。
+
+`grandmother`的限定新分支以`relationship_basis=literal_grandmother_title_clause`驗「具名子孫尊祖母具名祖母」雙人物原字。保`lineage=unspecified`、`generation_difference=-2`及`parent_person_id=null`，不當外祖母，不填中介父母；原外孫分支不變。
+
+母稱的另兩個限定分支：同一已標人物緊接「尊母具名母親」；或本傳開篇「傳主諱…中子也母具名母親」。必須保雙mention、完整原段、mother_unspecified、biological_mother=null及father_person_id=null，不將先前其他帝王錯接為孩子，也不自動加入生母或配偶。一般直接子母／封母及前母舊分支保留。報齡仍可沿既有「九嵗」原詞，完整年九嵗句在證據中，不改報齡模型。
+
+叔父原模型另加兩個倒裝小分支：「具名叔＋具名侄＋之叔父」兩名緊接；以及具名伯父開篇字…（已標同人字及侄的官銜）具名侄伯父也。詞序按叔侄端點驗，保未名父親為null；不把伯父視為生父，不給父親排行或新中介人。原季父／叔父／兄子等分支及根端浩叔父融範圍不變。
+
+同次授官不能僅憑同人同官：另綁原生用稱occurrence ID及該官字位、前官（勲／勳字形分存）、視事三日進拜的完整episode、其後因從遷都長安，與009次年完整年段遷都長安相對照，次年以已讀年號參考獨立驗算。原傳或年段有第二次相同進拜、原生用稱指向另一次官字位、失去這個共同事件序列都拒絕。死亡另限既有傳主病薨原詞；未／欲／疑等不當已死。明月限定完整單一「季節＋月＋官銜＋具名人物＋薨」句，不能跨另一紀年、另一人或借前句月份。
+
+三后授號新增`posthumous_basis.named_parent_honorific.kind=retrospective_parent_empress_honorific`，保具名授予者／受者mention、母或祖母原詞、尊…曰…皇后全句及后號精確錨點。此為後出唐注所記親尊后號授予，mode=posthumous_grant、kind=honorific，未知授號年／死亡年維持null；原詞尊不補追，無新增死亡事件。不能改成在世皇后實任、太后位、任意他人或不具名授號。
+
+父母／祖母后號的 `named_parent_honorific.primary_context` 必有同固定公開primary見證的完整單元：原raw全文與SHA、精確原行投影及單元SHA、subject/death/grant/identity逐字錨點，明示先死後尊。009單獨的尊母／祖母稱句不能證死後；缺此橋拒絕。完整橋只資格性地支持posthumous，不建立新死亡、死亡年或授號年。敬隠后／敬隱皇后保原源字形，以明示同人完整慶傳的編輯橋解釋，不改正文。所有橋AI provisional、human=false、image=false。

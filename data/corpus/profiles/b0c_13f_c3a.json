@@ -6,7 +6,10 @@
   "identity_note": "全庫label及alias未找到同名登記；本段明載此身份，未補其父母、日期或未見本名。 本批身份只限固定見證，未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "王衍"
+    "王衍",
+    "王夷甫",
+    "其",
+    "甫"
   ],
   "titles": [
     {
@@ -128,6 +131,68 @@
       "book_id": "b-jinshu-075",
       "chapter_id": "c-jinshu-075-taiyuan-wang",
       "source_id": "s-jinshu-075-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 77,
+      "category": "",
+      "title": "殷浩完整本傳",
+      "paragraph_id": "c-jinshu-077-yinhao:p003",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "利貞，斯理難全。且夫濟一時之務，須一時之勝，何必德均古人，韻齊先達邪！王夷甫，先朝風流士也，然吾薄其立名非真，而始終莫取。若以道非虞夏，自當超然獨往，而不能謀始，大合聲譽，極致名位，正當抑揚名教，以靜亂源。而乃高談《莊》《老》，說空終日，雖云談道，實長華競。及其末年，人望猶存",
+      "paragraph_ids": [
+        "c-jinshu-077-yinhao:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-077-yinhao:p003:m0228",
+        "c-jinshu-077-yinhao:p003:m0242",
+        "c-jinshu-077-yinhao:p003:m0323",
+        "c-jinshu-077-yinhao:p003:m0343"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-077-yinhao:p003:m0228": "c-jinshu-077-yinhao:p003",
+        "c-jinshu-077-yinhao:p003:m0242": "c-jinshu-077-yinhao:p003",
+        "c-jinshu-077-yinhao:p003:m0323": "c-jinshu-077-yinhao:p003",
+        "c-jinshu-077-yinhao:p003:m0343": "c-jinshu-077-yinhao:p003"
+      },
+      "mention_id": "c-jinshu-077-yinhao:p003:m0228",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p003:m0228",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p003:m0228"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p003:m0242",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p003:m0242"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p003:m0323",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p003:m0323"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p003:m0343",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p003:m0343"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "chapter_id": "c-jinshu-077-yinhao",
+      "source_id": "s-jinshu-077-yinhao",
       "work_title": "晉書"
     }
   ],
@@ -13214,6 +13279,31 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-077-yinhao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "source_id": "s-jinshu-077-yinhao",
+      "source": {
+        "title": "晉書/卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "revision_id": "8750392",
+        "accessed_on": "2026-10-19",
+        "edition": "固定數位原文；未圖像核驗",
+        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -13221,7 +13311,50 @@
     "b0c_13f_c3a": "王衍"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "name-jin077-f51-057",
+      "person_id": "b0c_13f_c3a",
+      "title": null,
+      "surname": "王",
+      "ming": null,
+      "additional_names": [
+        "字夷甫"
+      ],
+      "chapter_id": "c-jinshu-077-yinhao",
+      "paragraph_id": "c-jinshu-077-yinhao:p003",
+      "person_mention_id": "c-jinshu-077-yinhao:p003:m0228",
+      "quote": "三府辟，皆不就。征西將軍庾亮引為記室參軍，累遷司徒左長史。安西庾翼復請為司馬。除侍中、安西軍司，並稱疾不起。遂屏居墓所，幾將十年，于時擬之管、葛。王蒙、謝尚猶伺其出處，以卜江左興亡，因相與省之，知浩有確然之志。既反，相謂曰：「深源不起，當如蒼生何！」庾翼貽浩書曰：「當今江東社稷安危，內委何、褚諸君，外托庾、桓數族，恐不得百年無憂，亦朝夕而弊。足下少標令名，十餘年間，位經內外，而欲潛居利貞，斯理難全。且夫濟一時之務，須一時之勝，何必德均古人，韻齊先達邪！王夷甫，先朝風流士也，然吾薄其立名非真，而始終莫取。若以道非虞夏，自當超然獨往，而不能謀始，大合聲譽，極致名位，正當抑揚名教，以靜亂源。而乃高談《莊》《老》，說空終日，雖云談道，實長華競。及其末年，人望猶存，思安懼亂，寄命推務。而甫自申述，徇小好名，既身囚胡虜，棄言非所。凡明德君子，遇會處際，寧可然乎？而世皆然之。益知名實之未定，弊風之未革也。」浩固辭不起。",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p003",
+        "start": 228,
+        "end": 231,
+        "surface": "王夷甫"
+      },
+      "note": "字分類據已核外部固定043衍字夷甫完整姓名橋；本077原稱不當諱夷甫，不倒填衍。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "zi": "夷甫",
+      "references": [
+        {
+          "scope": "external_primary_explicit_courtesy_name",
+          "title": "晉書卷043王衍完整敘事段",
+          "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+          "source_revision": 2618531,
+          "quote": "　　衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而衍幼年無屈下之色，眾咸異之。楊駿欲以女妻焉，衍恥之，遂陽狂自免。武帝聞其名，問戎曰：「夷甫當世誰比？」戎曰：「未見其比，當從古人中求之。」",
+          "raw_file": "source-evidence/jin008077/jin043-fixed.txt",
+          "raw_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+          "source_lines": [
+            93,
+            93
+          ],
+          "image_verified": false,
+          "qualification": "完整段明衍字夷甫，與已核同人身份相接；不冒全卷已標記。"
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "b0c_13f_c3a"
   ],

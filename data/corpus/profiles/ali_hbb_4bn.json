@@ -6,7 +6,9 @@
   "identity_note": "《晉書》康獻褚皇后完整傳文人物；名、字與生母不由稱號推補，群體典故及待定人物另存。",
   "review": "ai_provisional",
   "names": [
-    "殷融"
+    "殷融",
+    "叔父",
+    "融"
   ],
   "titles": [],
   "addresses": [],
@@ -79,6 +81,68 @@
       "book_id": "b-jinshu-073",
       "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
       "source_id": "s-jinshu-073-yu-yi-bing-tiao",
+      "work_title": "晉書"
+    },
+    {
+      "number": 77,
+      "category": "",
+      "title": "殷浩完整本傳",
+      "paragraph_id": "c-jinshu-077-yinhao:p002",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "浩識度清遠，弱冠有美名，尤善玄言，與叔父融俱好《老》《易》。融與浩口談則辭屈，著篇則融勝，浩由是為風流談論者所宗。或問浩曰：「將蒞官而夢棺，將得財而夢糞，何也？」浩曰：「官本臭腐，故將得官而夢屍，錢本糞土，故將得錢而夢穢。」時人以為名言。",
+      "paragraph_ids": [
+        "c-jinshu-077-yinhao:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-077-yinhao:p002:m0018",
+        "c-jinshu-077-yinhao:p002:m0020",
+        "c-jinshu-077-yinhao:p002:m0030",
+        "c-jinshu-077-yinhao:p002:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-077-yinhao:p002:m0018": "c-jinshu-077-yinhao:p002",
+        "c-jinshu-077-yinhao:p002:m0020": "c-jinshu-077-yinhao:p002",
+        "c-jinshu-077-yinhao:p002:m0030": "c-jinshu-077-yinhao:p002",
+        "c-jinshu-077-yinhao:p002:m0042": "c-jinshu-077-yinhao:p002"
+      },
+      "mention_id": "c-jinshu-077-yinhao:p002:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p002:m0018",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p002:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p002:m0020",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p002:m0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p002:m0030",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p002:m0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p002:m0042",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p002:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "chapter_id": "c-jinshu-077-yinhao",
+      "source_id": "s-jinshu-077-yinhao",
       "work_title": "晉書"
     }
   ],
@@ -427,11 +491,70 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-077-yinhao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "source_id": "s-jinshu-077-yinhao",
+      "source": {
+        "title": "晉書/卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "revision_id": "8750392",
+        "accessed_on": "2026-10-19",
+        "edition": "固定數位原文；未圖像核驗",
+        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jinshu-077-yinhao-2-paternal_uncle",
+      "subject_person_id": "djo_u3b_i9w_A",
+      "predicate": "paternal_uncle",
+      "object_person_id": "ali_hbb_4bn",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "叔父融"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p002",
+          "quote": "浩識度清遠，弱冠有美名，尤善玄言，與叔父融俱好《老》《易》。融與浩口談則辭屈，著篇則融勝，浩由是為風流談論者所宗。或問浩曰：「將蒞官而夢棺，將得財而夢糞，何也？」浩曰：「官本臭腐，故將得官而夢屍，錢本糞土，故將得錢而夢穢。」時人以為名言。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p002",
+            "start": 18,
+            "end": 21,
+            "surface": "叔父融"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p002:m0000",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p002:m0020"
+        }
+      ],
+      "interpretation_note": "明叔父，沒有羨／融兄弟年序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "ali_hbb_4bn": "殷融"
+    "ali_hbb_4bn": "殷融",
+    "djo_u3b_i9w_A": "殷浩"
   },
   "dates": [],
   "name_components": [
@@ -451,12 +574,67 @@
       "status": "editorial_provisional",
       "human_reviewed": false,
       "model": null
+    },
+    {
+      "id": "name-jin077-f51-027",
+      "person_id": "ali_hbb_4bn",
+      "title": null,
+      "surname": null,
+      "ming": "融",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-077-yinhao",
+      "paragraph_id": "c-jinshu-077-yinhao:p002",
+      "person_mention_id": "c-jinshu-077-yinhao:p002:m0020",
+      "quote": "浩識度清遠，弱冠有美名，尤善玄言，與叔父融俱好《老》《易》。融與浩口談則辭屈，著篇則融勝，浩由是為風流談論者所宗。或問浩曰：「將蒞官而夢棺，將得財而夢糞，何也？」浩曰：「官本臭腐，故將得官而夢屍，錢本糞土，故將得錢而夢穢。」時人以為名言。",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p002",
+        "start": 20,
+        "end": 21,
+        "surface": "融"
+      },
+      "note": "明冠姓名按原字；略名不由父姓或既有label倒填本句未見之姓，保留字形差異。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "person_ids": [
     "ali_hbb_4bn"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jinshu-077-yinhao-2-paternal_uncle",
+      "subject_person_id": "djo_u3b_i9w_A",
+      "predicate": "paternal_uncle",
+      "object_person_id": "ali_hbb_4bn",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "叔父融"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p002",
+          "quote": "浩識度清遠，弱冠有美名，尤善玄言，與叔父融俱好《老》《易》。融與浩口談則辭屈，著篇則融勝，浩由是為風流談論者所宗。或問浩曰：「將蒞官而夢棺，將得財而夢糞，何也？」浩曰：「官本臭腐，故將得官而夢屍，錢本糞土，故將得錢而夢穢。」時人以為名言。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p002",
+            "start": 18,
+            "end": 21,
+            "surface": "叔父融"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p002:m0000",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p002:m0020"
+        }
+      ],
+      "interpretation_note": "明叔父，沒有羨／融兄弟年序。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

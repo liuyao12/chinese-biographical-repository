@@ -13,6 +13,60 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 9,
+      "category": "",
+      "title": "孝獻帝紀第九（開篇、中平六年及初平元年）",
+      "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "隗紹之叔父基袁術之母兄卓以山東兵起依紹術為主故誅其親屬獻帝春秋曰尺口以上男女五千餘人皆下獄死",
+      "paragraph_ids": [
+        "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+        "c-houhanshu-009-xiandi-early:chuping01-note-06-1"
+      ],
+      "mention_ids": [
+        "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001",
+        "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0018",
+        "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0021"
+      ],
+      "mention_paragraph_ids": {
+        "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+        "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0018": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+        "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0021": "c-houhanshu-009-xiandi-early:chuping01-note-06-1"
+      },
+      "mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001",
+          "mention_ids": [
+            "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0018",
+          "mention_ids": [
+            "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0021",
+          "mention_ids": [
+            "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0021"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-009",
+      "chapter_id": "c-houhanshu-009-xiandi-early",
+      "source_id": "s-houhanshu-009-xiandi-early",
+      "work_title": "後漢書"
+    },
+    {
       "number": 10,
       "category": "",
       "title": "荀彧荀攸賈詡傳第十",
@@ -479,6 +533,33 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-houhanshu-009-xiandi-early",
+      "work_id": "w-houhanshu",
+      "book_id": "b-houhanshu-009",
+      "source_id": "s-houhanshu-009-xiandi-early",
+      "source": {
+        "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+        "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+        "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "accessed_on": "2026-10-19",
+        "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文；固定WYG數位見證，未校圖。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
+        },
+        "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
+        "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
+        "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
+      }
+    },
     {
       "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
       "work_id": "w-houhanshu",
@@ -4392,6 +4473,34 @@
   ],
   "relations": [
     {
+      "id": "a-hhs009-f49-007",
+      "subject_person_id": "102_884_39d",
+      "predicate": "paternal_uncle",
+      "object_person_id": "ong_olf_f39",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-009",
+          "chapter_id": "c-houhanshu-009-xiandi-early",
+          "source_id": "s-houhanshu-009-xiandi-early",
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+          "quote": "隗紹之叔父基袁術之母兄卓以山東兵起依紹術為主故誅其親屬獻帝春秋曰尺口以上男女五千餘人皆下獄死",
+          "subject_person_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001",
+          "object_person_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "叔父",
+        "lineage": "paternal",
+        "father_person_id": null
+      },
+      "interpretation_note": "叔父明言，不填父名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-xunyou11-011",
       "subject_person_id": "288_149_559",
       "predicate": "father",
@@ -4461,7 +4570,8 @@
   "related_people": {
     "102_884_39d": "袁紹",
     "288_149_559": "袁譚",
-    "3d4_926_480": "袁尚"
+    "3d4_926_480": "袁尚",
+    "ong_olf_f39": "袁隗"
   },
   "dates": [],
   "name_components": [],
@@ -4469,6 +4579,34 @@
     "102_884_39d"
   ],
   "preferred_relations": [
+    {
+      "id": "a-hhs009-f49-007",
+      "subject_person_id": "102_884_39d",
+      "predicate": "paternal_uncle",
+      "object_person_id": "ong_olf_f39",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-009",
+          "chapter_id": "c-houhanshu-009-xiandi-early",
+          "source_id": "s-houhanshu-009-xiandi-early",
+          "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1",
+          "quote": "隗紹之叔父基袁術之母兄卓以山東兵起依紹術為主故誅其親屬獻帝春秋曰尺口以上男女五千餘人皆下獄死",
+          "subject_person_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0001",
+          "object_person_mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-04-1:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "叔父",
+        "lineage": "paternal",
+        "father_person_id": null
+      },
+      "interpretation_note": "叔父明言，不填父名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-xunyou11-011",
       "subject_person_id": "288_149_559",

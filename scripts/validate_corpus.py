@@ -28,7 +28,7 @@ def source_age_number(number):
 def direct_source_age_valid(age):
     number = age.get('source_number'); parsed = source_age_number(number)
     return (type(age.get('value')) is int and parsed is not None and age['value'] == parsed
-            and age.get('source_term') in ('年' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
+            and age.get('source_term') in ('年' + str(number), '年登' + str(number), str(number) + '歲', str(number) + '歳', str(number) + '嵗'))
 
 
 def named_office_end_valid(holding, paragraphs, mentions):
@@ -809,6 +809,14 @@ def validate(root=ROOT):
                     original = date.get('original_quote')
                     anchored |= (evidence['paragraph_id'] in context_ids
                                  and isinstance(original, str) and original in evidence['quote'])
+            if 'cross_chapter_event_binding' in date:
+                try:
+                    from scripts.cross_chapter_annal_date import cross_chapter_annal_date_valid
+                except ImportError:
+                    from cross_chapter_annal_date import cross_chapter_annal_date_valid
+                cross_event_date = cross_chapter_annal_date_valid(date, bound_record, bound_role, chapters)
+                check(cross_event_date, '跨篇同事件紀年須有固定同版雙主語及精確原事件／全年日期錨點')
+                anchored = anchored or cross_event_date
             check(anchored, '紀年換算原句未見於本筆事件證據')
             if expression is not None:
                 check(isinstance(date.get('original_quote'), str)
@@ -967,7 +975,12 @@ def validate(root=ROOT):
                     except ImportError:
                         from posthumous_gifts import posthumous_gift_valid
                     explicit_gift = posthumous_gift_valid(h, paragraphs, mentions, gift_life_events)
-                    valid=(h['mode']=='posthumous_grant' and (explicit_retrospective or death_then_grant or explicit_gift)
+                    try:
+                        from scripts.retrospective_parent_honorific import parent_honorific_grant_valid
+                    except ImportError:
+                        from retrospective_parent_honorific import parent_honorific_grant_valid
+                    parent_honorific = parent_honorific_grant_valid(h, paragraphs)
+                    valid=(h['mode']=='posthumous_grant' and (explicit_retrospective or death_then_grant or explicit_gift or parent_honorific)
                            and isinstance(basis['evidence'],list) and bool(basis['evidence'])
                            and basis['evidence']==h['effective_period']['start']['evidence']
                            and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
@@ -977,26 +990,33 @@ def validate(root=ROOT):
                         for e in basis['evidence']:title_evidence(e)
                 if h['mode']=='posthumous_naming' or 'naming_basis' in h:
                     basis=h.get('naming_basis')
-                    explicit_naming = False
-                    if isinstance(basis, dict) and isinstance(basis.get('source_term'), str):
-                        term = basis['source_term']
-                        explicit_naming = bool(re.search(r'(?:諡|謚)(?:為|爲|曰)?' + re.escape(h['title']), term))
-                        named = re.search(r'立號曰[「『]?' + re.escape(h['title']) + r'[」』]?', term)
-                        death = basis.get('death_term')
-                        if named and isinstance(death, str) and death and death in term:
-                            explicit_naming |= term.index(death) + len(death) <= named.start()
-                    valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
-                           and set(basis)=={'source_term','death_term','evidence'}
-                           and isinstance(basis['source_term'],str)
-                           and explicit_naming
-                           and h['title'] in basis['source_term']
-                           and isinstance(basis['death_term'],str)
-                           and bool(re.search(r'卒|薨|死',basis['death_term']))
-                           and isinstance(basis['evidence'],list) and bool(basis['evidence'])
-                           and basis['evidence']==h['effective_period']['start']['evidence']
-                           and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
-                                   and basis['source_term'] in e['quote'] and basis['death_term'] in e['quote']
-                                   for e in basis['evidence']))
+                    if isinstance(basis, dict) and basis.get('kind') == 'named_recipient_after_death':
+                        try:
+                            from scripts.named_posthumous_naming import named_posthumous_naming_valid
+                        except ImportError:
+                            from named_posthumous_naming import named_posthumous_naming_valid
+                        valid = named_posthumous_naming_valid(h, paragraphs, mentions, gift_life_events)
+                    else:
+                        explicit_naming = False
+                        if isinstance(basis, dict) and isinstance(basis.get('source_term'), str):
+                            term = basis['source_term']
+                            explicit_naming = bool(re.search(r'(?:諡|謚)(?:為|爲|曰)?' + re.escape(h['title']), term))
+                            named = re.search(r'立號曰[「『]?' + re.escape(h['title']) + r'[」』]?', term)
+                            death = basis.get('death_term')
+                            if named and isinstance(death, str) and death and death in term:
+                                explicit_naming |= term.index(death) + len(death) <= named.start()
+                        valid=(h['mode']=='posthumous_naming' and isinstance(basis,dict)
+                               and set(basis)=={'source_term','death_term','evidence'}
+                               and isinstance(basis['source_term'],str)
+                               and explicit_naming
+                               and h['title'] in basis['source_term']
+                               and isinstance(basis['death_term'],str)
+                               and bool(re.search(r'卒|薨|死',basis['death_term']))
+                               and isinstance(basis['evidence'],list) and bool(basis['evidence'])
+                               and basis['evidence']==h['effective_period']['start']['evidence']
+                               and all(isinstance(e,dict) and isinstance(e.get('quote'),str)
+                                       and basis['source_term'] in e['quote'] and basis['death_term'] in e['quote']
+                                       for e in basis['evidence']))
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1193,7 +1213,14 @@ def validate(root=ROOT):
                         check(boundary['event_type'] in allowed,'稱號端點事件類型無效，死亡或首次用稱不得自動替代起訖')
                         for e in boundary['evidence']:title_evidence(e)
                         date=boundary['date_expression']
-                        check(date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
+                        cross_endpoint_date = False
+                        if 'cross_chapter_event_binding' in boundary.get('normalized_date', {}):
+                            try:
+                                from scripts.cross_chapter_annal_date import cross_chapter_annal_date_valid
+                            except ImportError:
+                                from cross_chapter_annal_date import cross_chapter_annal_date_valid
+                            cross_endpoint_date = cross_chapter_annal_date_valid(boundary['normalized_date'], h, endpoint, chapters)
+                        check(cross_endpoint_date or date is None or isinstance(date,str) and bool(date) and any(date in e['quote'] for e in boundary['evidence']),'稱號日期表述不在端點證據')
                         if 'normalized_date' in boundary:
                             check(isinstance(date, str) and bool(date) or parallel_event_date(boundary['normalized_date']), '稱號數字紀年須有原始日期表述')
                             validate_date_evidence(boundary['normalized_date'], boundary['evidence'], date, h, endpoint)
@@ -1327,6 +1354,13 @@ def validate(root=ROOT):
                         from title_successions import succession_valid
                     check(succession_valid(a, title_records, paragraphs),
                           '嗣位原詞須有父子、前任爵位及同段人物錨點，不得虛構爵名或起訖')
+                if a['predicate'] == 'paternal_uncle':
+                    try:
+                        from scripts.directed_uncle_roles import paternal_uncle_direction_valid
+                    except ImportError:
+                        from directed_uncle_roles import paternal_uncle_direction_valid
+                    check(paternal_uncle_direction_valid(a, paragraphs),
+                          '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:
                         from scripts.uncle_parentage import explicit_maternal_uncle_valid
@@ -1340,11 +1374,16 @@ def validate(root=ROOT):
                           or explicit_maternal_uncle_valid(a, paragraphs),
                           '甥舅關係須有姊子原詞、舅某或相鄰具名某之外甥錨點，保留母系世代與未名母親')
                 if a['predicate'] == 'grandmother':
-                    check(qualifiers.get('source_term') == '外孫'
+                    try:
+                        from scripts.reported_grandmother import reported_grandmother_valid
+                    except ImportError:
+                        from reported_grandmother import reported_grandmother_valid
+                    explicit_grandmother = reported_grandmother_valid(a, paragraphs)
+                    check(explicit_grandmother or (qualifiers.get('source_term') == '外孫'
                           and qualifiers.get('generation_difference') == -2
                           and qualifiers.get('lineage') == 'maternal'
                           and qualifiers.get('mother_person_id') is None
-                          and any('外孫' in e.get('quote', '') for e in a['evidence']),
+                          and any('外孫' in e.get('quote', '') for e in a['evidence'])),
                           '外孫祖母關係須保留母系兩代與原句未名母親')
                 if a['predicate'] == 'kinship_generation' or qualifiers.get('source_term') == '大父行':
                     check(a['predicate'] == 'kinship_generation'
@@ -1839,7 +1878,15 @@ def validate(root=ROOT):
                 if event['event_type'] in ('office_non_reinstatement', 'office_restoration'):
                     term = event.get('source_term')
                     required = '不復官' if event['event_type'] == 'office_non_reinstatement' else '復就故官'
-                    check(isinstance(term, str) and required in term
+                    restoration = False
+                    if event['event_type'] == 'office_restoration' and event.get('restoration_kind') == 'posthumous_restore_unnamed_office':
+                        try:
+                            from .jin_facts_boundaries import posthumous_restoration_valid
+                        except ImportError:
+                            from jin_facts_boundaries import posthumous_restoration_valid
+                        restoration_deaths = {item['id']: item for life_path in (root / 'corpus').glob('*/*-life-events.json') for item in json.loads(life_path.read_text())['events']}
+                        restoration = posthumous_restoration_valid(event, chapters, restoration_deaths)
+                    check(isinstance(term, str) and (required in term or restoration)
                           and all(key in event and event[key] is None for key in ('office_title', 'title_holding_id'))
                           and any(term in e.get('quote', '') for e in event.get('evidence', [])),
                           '未名官職不復任或恢復須保留原詞，不得補官名或已知持職連結')
@@ -1849,8 +1896,23 @@ def validate(root=ROOT):
                     except ImportError:
                         from chinese_civil_years import civil_year_errors
                     errors.extend(civil_year_errors(event, chapters, tables))
+                if 'source_date_parts' in event:
+                    try:
+                        from scripts.source_date_parts import source_date_parts_valid
+                    except ImportError:
+                        from source_date_parts import source_date_parts_valid
+                    check(source_date_parts_valid(event, chapters, source_age_number), '原文明示曆月須有同死事件日期鏈與逐字月詞錨點，不得補日或西曆月')
                 expression = event.get('date_expression')
                 check(expression is None or isinstance(expression, str) and bool(expression), '生卒日期表述無效')
+                local_death_date = False
+                event_date = event.get('normalized_date')
+                if isinstance(event_date, dict) and ('event_evidence_binding' in event_date or 'cross_chapter_event_binding' in event_date):
+                    try:
+                        from scripts.local_death_date_evidence import local_death_date_evidence_valid
+                    except ImportError:
+                        from local_death_date_evidence import local_death_date_evidence_valid
+                    local_death_date = local_death_date_evidence_valid(event_date, event, chapters, source_age_number)
+                    check(local_death_date, '局部死亡與完整紀年證據鏈須有同版同人同事件精確綁定')
                 date_context = event.get('date_context')
                 continuous_date = False
                 if date_context is not None:
@@ -1910,7 +1972,7 @@ def validate(root=ROOT):
                     if valid and mention:
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
                         check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')
-                    check(expression is None or continuous_date or expression in evidence['quote'], '生卒日期未見於事件引句')
+                    check(expression is None or continuous_date or local_death_date or expression in evidence['quote'], '生卒日期未見於事件引句')
                 if 'normalized_date_range' in event:
                     try:
                         from scripts.date_ranges import year_range_errors
@@ -1932,8 +1994,8 @@ def validate(root=ROOT):
                     check(binding_valid(date, event, 'life_event'), '初中末年號紀年須綁實際同人死亡事件')
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):
-                        check(date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
-                        check(date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
+                        check(local_death_date or date.get('original_quote') in [e['quote'] for e in event['evidence']], '生卒數字紀年原句不符')
+                        check(local_death_date or date.get('evidence') == event['evidence'], '生卒数值證據與事件不符'.replace('数','數'))
         try:
             from scripts.life_event_dates import date_decision_errors, date_record_scope_errors
         except ImportError:

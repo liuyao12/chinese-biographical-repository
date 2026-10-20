@@ -15,7 +15,8 @@
     "穆",
     "孝宗",
     "陛下",
-    "晉穆帝"
+    "晉穆帝",
+    "聖上"
   ],
   "titles": [
     {
@@ -589,6 +590,50 @@
       "book_id": "b-jinshu-076",
       "chapter_id": "c-jinshu-076-wangbiaozhi",
       "source_id": "s-jinshu-076-wangbiaozhi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 77,
+      "category": "",
+      "title": "殷浩完整本傳",
+      "paragraph_id": "c-jinshu-077-yinhao:p008",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "所以忘寢屏營，啟處無地。夫率正顯義，所以致訓，明罰敕法，所以齊眾，伏願陛下上追唐堯放命之刑下鑒《春秋》無君之典。若聖上含弘，末忍誅殛，且宜遐棄，擯之荒裔。雖未足以塞山海之責，粗可以宣誡於將來矣。",
+      "paragraph_ids": [
+        "c-jinshu-077-yinhao:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-077-yinhao:p008:m0463",
+        "c-jinshu-077-yinhao:p008:m0485"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-077-yinhao:p008:m0463": "c-jinshu-077-yinhao:p008",
+        "c-jinshu-077-yinhao:p008:m0485": "c-jinshu-077-yinhao:p008"
+      },
+      "mention_id": "c-jinshu-077-yinhao:p008:m0463",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p008:m0463",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p008:m0463"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p008:m0485",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p008:m0485"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "chapter_id": "c-jinshu-077-yinhao",
+      "source_id": "s-jinshu-077-yinhao",
       "work_title": "晉書"
     }
   ],
@@ -3806,6 +3851,31 @@
               "end_anchor": "子：越之，撫軍參軍；臨之，東陽太守。"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-077-yinhao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "source_id": "s-jinshu-077-yinhao",
+      "source": {
+        "title": "晉書/卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "revision_id": "8750392",
+        "accessed_on": "2026-10-19",
+        "edition": "固定數位原文；未圖像核驗",
+        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
         }
       }
     },

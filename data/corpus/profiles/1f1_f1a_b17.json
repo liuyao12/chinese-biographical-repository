@@ -10,7 +10,55 @@
     "伯修",
     "伯條"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-houhan062-xun44-038",
+      "person_id": "1f1_f1a_b17",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0268"
+        }
+      ],
+      "interpretation_note": "原文received_biography：昱為沛相。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "title": "沛相",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-houhan062-xun44-038:xun44:38",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "start": 270,
+          "end": 272,
+          "surface": "沛相",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0268",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -4158,7 +4206,45 @@
     "yoo_ox0_545": "荀淑"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "1f1_f1a_b17",
+      "title": null,
+      "surname": null,
+      "ming": "昱",
+      "additional_names": [],
+      "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+      "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+      "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+      "note": "本篇昱字伯條與既有三國稱伯修分存；不選唯一字，不據家族補姓。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "component_alternatives": [
+        {
+          "components": {
+            "surname": null,
+            "ming": null,
+            "zi": "伯條"
+          },
+          "source_terms": {
+            "zi": "字伯條"
+          },
+          "status": "source_claim_not_selected",
+          "rationale": "此固定後漢書原文昱字伯條，保留既有三國來源伯修，不選作覆寫；來源異文不是第二人。",
+          "reference": {
+            "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_092.txt",
+            "source_commit": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+            "source_blob_sha": "614feff3bc8a94d5dc145f9cbdfcc3b5e43857dc",
+            "response_sha256": "55aac81cecc80987ab95b4bab053720595f4124c8fcb6f3c3ac3ebe7725018c6",
+            "raw_quote": "兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄¶\n",
+            "quote": "昱字伯條",
+            "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+            "image_verified": false
+          }
+        }
+      ]
+    }
+  ],
   "person_ids": [
     "1f1_f1a_b17"
   ],
@@ -4264,7 +4350,30 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-houhan062-xun44-yu-death",
+      "person_id": "1f1_f1a_b17",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu",
+          "quote": "荀淑字季和潁川潁隂人也荀卿十一世孫也少有髙行博學而不好章句多為俗儒所非而州里稱其知人安帝時徴拜郎中後再遷當塗長去職還鄉里當世名賢李固李膺等皆師宗之及梁太后臨朝有日食地震之變詔公卿舉賢良方正光禄勲杜喬少府房植舉淑對䇿譏刺貴倖為大將軍梁冀所忌出補朗陵侯相莅事明理稱為神君頃之弃官歸閒居養志產業每增輒以贍宗族知友年六十七建和三年卒李膺時為尚書自表師喪二縣皆為立祠有子八人儉緄靖燾汪爽肅專並有名稱時人謂八龍初荀氏舊里名西豪潁隂令渤海苑康以為昔髙陽氏有才子八人今荀氏亦有八子故改其里曰髙陽里靖有至行不仕年五十而終號曰𤣥行先生淑兄子昱字伯條曇字元智昱為沛相曇為廣陵太守兄弟皆正身疾惡志除閹官其支黨賔客有在二郡者纎罪必誅昱後共大將軍竇武謀誅中官與李膺俱死曇亦禁錮終身",
+          "person_mention_id": "c-houhanshu-062-xunhan-zhongchen:xun-full:xunshu:m0303"
+        }
+      ],
+      "interpretation_note": "原文received_biography：昱後共大將軍竇武謀誅中官與李膺俱死。死亡明言；本單元無年及死因具體執行方式，不自補168。 未載年月保持未知；不由死亡終止其他任職，不倒算生日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "昱後共大將軍竇武謀誅中官與李膺俱死"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

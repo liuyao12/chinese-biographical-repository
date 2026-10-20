@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "id": "djo_u3b_i9w_AA",
+  "canonical_person_id": "djo_u3b_i9w_AA",
+  "label": "殷涓",
+  "identity_note": "限008全年及077完整本傳的來源辨識；不補缺父母、生年或排行。曹顏遠字橋另存外部固定090，不作姓名構件。",
+  "review": "ai_provisional",
+  "names": [
+    "子",
+    "涓"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 77,
+      "category": "",
+      "title": "殷浩完整本傳",
+      "paragraph_id": "c-jinshu-077-yinhao:p012",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "paragraph_ids": [
+        "c-jinshu-077-yinhao:p012"
+      ],
+      "mention_ids": [
+        "c-jinshu-077-yinhao:p012:m0000",
+        "c-jinshu-077-yinhao:p012:m0001",
+        "c-jinshu-077-yinhao:p012:m0024"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-077-yinhao:p012:m0000": "c-jinshu-077-yinhao:p012",
+        "c-jinshu-077-yinhao:p012:m0001": "c-jinshu-077-yinhao:p012",
+        "c-jinshu-077-yinhao:p012:m0024": "c-jinshu-077-yinhao:p012"
+      },
+      "mention_id": "c-jinshu-077-yinhao:p012:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p012:m0000",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p012:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p012:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-077-yinhao:p012:m0024",
+          "mention_ids": [
+            "c-jinshu-077-yinhao:p012:m0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "chapter_id": "c-jinshu-077-yinhao",
+      "source_id": "s-jinshu-077-yinhao",
+      "work_title": "晉書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-jinshu-077-yinhao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-077",
+      "source_id": "s-jinshu-077-yinhao",
+      "source": {
+        "title": "晉書/卷077",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7077&oldid=8750392",
+        "revision_id": "8750392",
+        "accessed_on": "2026-10-19",
+        "edition": "固定數位原文；未圖像核驗",
+        "extent": "殷浩完整本傳；不稱全卷完成，不含其他本傳／附傳",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；數位轉錄保留來源歸屬",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "008除頁碼連接同一完整紀年；077僅去除維基排版前綴，原字／標點不校改。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-jinshu-077-yinhao-012-father",
+      "subject_person_id": "djo_u3b_i9w_AA",
+      "predicate": "father",
+      "object_person_id": "djo_u3b_i9w_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-jinshu-077-yinhao:p011",
+          "c-jinshu-077-yinhao:p012"
+        ],
+        "parent_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+        "child_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+        "rationale": "同固定本傳完整相鄰原段；浩卒後子涓承主語，不跳正文。原行last含段後空行，投影另存。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p011",
+          "quote": "浩雖被黜放，口無怨言，夷神委命，談詠不輟，雖家人不見其有流放之戚。但終日書空，作「咄咄怪事」四字而已。浩甥韓伯，浩素賞愛之，隨至徙所，經歲還都，浩送至渚側，詠曹顏遠詩云：「富貴他人合，貧賤親戚離。」因而泣下。後溫將以浩為尚書令，遺書告之，浩欣然許焉。將答書，慮有謬誤，開閉者數十，竟達空函，大忤溫意，由是遂絕。永和十二年卒。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p011",
+            "start": 0,
+            "end": 1,
+            "surface": "浩"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p012",
+            "start": 0,
+            "end": 1,
+            "surface": "子"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "djo_u3b_i9w_A": "殷浩",
+    "djo_u3b_i9w_AA": "殷涓"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "name-jin077-f51-056",
+      "person_id": "djo_u3b_i9w_AA",
+      "title": null,
+      "surname": null,
+      "ming": "涓",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-077-yinhao",
+      "paragraph_id": "c-jinshu-077-yinhao:p012",
+      "person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+      "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p012",
+        "start": 1,
+        "end": 2,
+        "surface": "涓"
+      },
+      "note": "明冠姓名按原字；略名不由父姓或既有label倒填本句未見之姓，保留字形差異。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "person_ids": [
+    "djo_u3b_i9w_AA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-jinshu-077-yinhao-012-father",
+      "subject_person_id": "djo_u3b_i9w_AA",
+      "predicate": "father",
+      "object_person_id": "djo_u3b_i9w_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子",
+        "lineage": "paternal"
+      },
+      "context": {
+        "kind": "biographical_child_continuation",
+        "paragraph_ids": [
+          "c-jinshu-077-yinhao:p011",
+          "c-jinshu-077-yinhao:p012"
+        ],
+        "parent_mention_id": "c-jinshu-077-yinhao:p011:m0000",
+        "child_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+        "rationale": "同固定本傳完整相鄰原段；浩卒後子涓承主語，不跳正文。原行last含段後空行，投影另存。",
+        "status": "contextual_provisional",
+        "human_reviewed": false
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p011",
+          "quote": "浩雖被黜放，口無怨言，夷神委命，談詠不輟，雖家人不見其有流放之戚。但終日書空，作「咄咄怪事」四字而已。浩甥韓伯，浩素賞愛之，隨至徙所，經歲還都，浩送至渚側，詠曹顏遠詩云：「富貴他人合，貧賤親戚離。」因而泣下。後溫將以浩為尚書令，遺書告之，浩欣然許焉。將答書，慮有謬誤，開閉者數十，竟達空函，大忤溫意，由是遂絕。永和十二年卒。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p011",
+            "start": 0,
+            "end": 1,
+            "surface": "浩"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+        },
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "relationship_anchor": {
+            "paragraph_id": "c-jinshu-077-yinhao:p012",
+            "start": 0,
+            "end": 1,
+            "surface": "子"
+          },
+          "subject_person_mention_id": "c-jinshu-077-yinhao:p012:m0001",
+          "object_person_mention_id": "c-jinshu-077-yinhao:p011:m0000"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "djo_u3b_i9w_AA",
+    "representative_source_person_id": "djo_u3b_i9w_AA",
+    "source_person_ids": [
+      "djo_u3b_i9w_AA"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "djo_u3b_i9w_A",
+    "source_assertion_id": "a-jinshu-077-yinhao-012-father",
+    "assembly_id": "family-jin008077-yinhao",
+    "root_person_id": "djo_u3b_i9w",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "date_ranges": [
+    {
+      "basis": "within_named_era",
+      "calendar": "chinese_civil",
+      "precision": "year_range",
+      "year_numbering": "astronomical",
+      "status": "editorial_provisional",
+      "source_expression": "咸安初",
+      "source_stage": "初",
+      "earliest": {
+        "era": "CE",
+        "era_year": 371,
+        "year": 371
+      },
+      "latest": {
+        "era": "CE",
+        "era_year": 372,
+        "year": 372
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+        }
+      ],
+      "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "scope": "modern_era_year_equivalence_only",
+          "quote": "咸安",
+          "columns": {
+            "dynasty": "晉",
+            "era_name": "咸安",
+            "first_year": "371",
+            "last_year": "372"
+          },
+          "source_file": "sources/calendar-context/moe-era-table-page2.html",
+          "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+          "image_verified": false
+        }
+      ],
+      "era_span_mapping": {
+        "kind": "ce_regnal_era_span",
+        "era_name": "咸安",
+        "polity_source_name": "晉",
+        "start_ce_year": 371,
+        "end_ce_year": 372,
+        "reference_index": 0
+      },
+      "rationale": "只限原年號起迄中國曆年；初不等於元年，不選單一年、不由此補精確日。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-jin077-f51-013",
+      "person_id": "djo_u3b_i9w_AA",
+      "date_role": "life_event",
+      "event_type": "death"
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-jin077-f51-013",
+      "person_id": "djo_u3b_i9w_AA",
+      "event_type": "death",
+      "source_term": "害之",
+      "date_expression": "咸安初",
+      "status": "source_attested",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-077-yinhao:p012",
+        "start": 33,
+        "end": 35,
+        "surface": "害之"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-077",
+          "chapter_id": "c-jinshu-077-yinhao",
+          "source_id": "s-jinshu-077-yinhao",
+          "paragraph_id": "c-jinshu-077-yinhao:p012",
+          "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+          "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+        }
+      ],
+      "interpretation_note": "原死亡主語；不倒出生年，不以此終止所有官職，誤判／謀誅／引古不作死亡。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "normalized_date_range": {
+        "basis": "within_named_era",
+        "calendar": "chinese_civil",
+        "precision": "year_range",
+        "year_numbering": "astronomical",
+        "status": "editorial_provisional",
+        "source_expression": "咸安初",
+        "source_stage": "初",
+        "earliest": {
+          "era": "CE",
+          "era_year": 371,
+          "year": 371
+        },
+        "latest": {
+          "era": "CE",
+          "era_year": 372,
+          "year": 372
+        },
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-077",
+            "chapter_id": "c-jinshu-077-yinhao",
+            "source_id": "s-jinshu-077-yinhao",
+            "paragraph_id": "c-jinshu-077-yinhao:p012",
+            "quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+            "person_mention_id": "c-jinshu-077-yinhao:p012:m0000"
+          }
+        ],
+        "original_quote": "子涓，亦有美名，咸安初，桓溫廢太宰、武陵王晞，誣涓及庾倩與晞謀反，害之。",
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "scope": "modern_era_year_equivalence_only",
+            "quote": "咸安",
+            "columns": {
+              "dynasty": "晉",
+              "era_name": "咸安",
+              "first_year": "371",
+              "last_year": "372"
+            },
+            "source_file": "sources/calendar-context/moe-era-table-page2.html",
+            "sha256": "193f33b9351675fe6b1e72cab84f5b88977a91c37717cf67e611262cad09ac65",
+            "image_verified": false
+          }
+        ],
+        "era_span_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "咸安",
+          "polity_source_name": "晉",
+          "start_ce_year": 371,
+          "end_ce_year": 372,
+          "reference_index": 0
+        },
+        "rationale": "只限原年號起迄中國曆年；初不等於元年，不選單一年、不由此補精確日。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
