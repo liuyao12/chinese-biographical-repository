@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "id": "qsd_v11_ya1_AAA",
+  "canonical_person_id": "qsd_v11_ya1_AAA",
+  "label": "正脩（王懿子）",
+  "identity_note": "只依完整王懿傳上下文辨識；後補正文資格與自述遠祖限制另記。",
+  "review": "ai_provisional",
+  "names": [
+    "正脩"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "王懿（王仲德）完整後補傳單元",
+      "paragraph_id": "c-songshu-046-wangyi:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "遇也十三年進號鎮北大將軍十五年卒諡曰桓侯亦於廟立白狼童子壇每祭必祠之子正脩嗣為家僮所殺",
+      "paragraph_ids": [
+        "c-songshu-046-wangyi:p009"
+      ],
+      "mention_ids": [
+        "c-songshu-046-wangyi:p009:m0083"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-wangyi:p009:m0083": "c-songshu-046-wangyi:p009"
+      },
+      "mention_id": "c-songshu-046-wangyi:p009:m0083",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-wangyi:p009:m0083",
+          "mention_ids": [
+            "c-songshu-046-wangyi:p009:m0083"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-wangyi",
+      "source_id": "s-songshu-046-wangyi",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-046-wangyi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-wangyi",
+      "source": {
+        "title": "宋書／卷四十六／王懿",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "9f973762548f2e077297a0621457461bf0749d0bbc81389ec7dc175f0d68e3ef",
+        "raw_path": "sources/songshu/KR2a0016_046-e80c057-identity-reference.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "王懿（王仲德）完整傳主單元，原檔41–104行，至張邵之前；全卷僅此選段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去空白、¶與頁標；原字逐字座標保留。全選傳為後補傳世正文，非假定沈約原篇。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song046-wangyi-005",
+      "subject_person_id": "qsd_v11_ya1_AAA",
+      "object_person_id": "qsd_v11_ya1_AA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子正脩"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "source_id": "s-songshu-046-wangyi",
+          "chapter_id": "c-songshu-046-wangyi",
+          "paragraph_id": "c-songshu-046-wangyi:p009",
+          "quote": "九年又為鎮北將軍徐州刺史明年加領兖州刺史仲德三臨徐州威德著於彭城立佛寺作白狼童子像於塔中以河北所遇也十三年進號鎮北大將軍十五年卒諡曰桓侯亦於廟立白狼童子壇每祭必祠之子正脩嗣為家僮所殺",
+          "subject_person_mention_id": "c-songshu-046-wangyi:p009:m0083",
+          "object_person_mention_id": "c-songshu-046-wangyi:p009:m0020"
+        }
+      ],
+      "interpretation_note": "後補傳世正文直接明言的近親，不由嗣爵或同姓倒推。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "related_people": {
+    "qsd_v11_ya1_AA": "王仲徳〔劉義隆鎮北將軍〕",
+    "qsd_v11_ya1_AAA": "正脩（王懿子）"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "qsd_v11_ya1_AAA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song046-wangyi-005",
+      "subject_person_id": "qsd_v11_ya1_AAA",
+      "object_person_id": "qsd_v11_ya1_AA",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子正脩"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "source_id": "s-songshu-046-wangyi",
+          "chapter_id": "c-songshu-046-wangyi",
+          "paragraph_id": "c-songshu-046-wangyi:p009",
+          "quote": "九年又為鎮北將軍徐州刺史明年加領兖州刺史仲德三臨徐州威德著於彭城立佛寺作白狼童子像於塔中以河北所遇也十三年進號鎮北大將軍十五年卒諡曰桓侯亦於廟立白狼童子壇每祭必祠之子正脩嗣為家僮所殺",
+          "subject_person_mention_id": "c-songshu-046-wangyi:p009:m0083",
+          "object_person_mention_id": "c-songshu-046-wangyi:p009:m0020"
+        }
+      ],
+      "interpretation_note": "後補傳世正文直接明言的近親，不由嗣爵或同姓倒推。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "qsd_v11_ya1_AAA",
+    "representative_source_person_id": "qsd_v11_ya1_AAA",
+    "source_person_ids": [
+      "qsd_v11_ya1_AAA"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "qsd_v11_ya1_AA",
+    "source_assertion_id": "a-song046-wangyi-005",
+    "assembly_id": "family-song046-wangyi-hong",
+    "root_person_id": "qsd_v11_ya1",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [
+    {
+      "id": "le-song046-wangyi-003",
+      "person_id": "qsd_v11_ya1_AAA",
+      "event_type": "death",
+      "source_term": "為家僮所殺",
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "source_id": "s-songshu-046-wangyi",
+          "chapter_id": "c-songshu-046-wangyi",
+          "paragraph_id": "c-songshu-046-wangyi:p009",
+          "quote": "九年又為鎮北將軍徐州刺史明年加領兖州刺史仲德三臨徐州威德著於彭城立佛寺作白狼童子像於塔中以河北所遇也十三年進號鎮北大將軍十五年卒諡曰桓侯亦於廟立白狼童子壇每祭必祠之子正脩嗣為家僮所殺",
+          "person_mention_id": "c-songshu-046-wangyi:p009:m0083"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-046-wangyi:p009",
+        "start": 86,
+        "end": 91,
+        "surface": "為家僮所殺"
+      },
+      "interpretation_note": "局部原句明載死亡；只第一項按完整年號序年鏈換算，其他年份保持未知；不反推生年或終止所有官爵。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
