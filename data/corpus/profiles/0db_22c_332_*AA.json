@@ -158,7 +158,54 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-sgz009-heyan-son-wuliu",
+      "person_id": "0db_22c_332_*AA",
+      "source_number": "五六",
+      "source_term": "年五六嵗",
+      "value": null,
+      "birth_year": null,
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "status": "source_attested",
+      "reporting_status": "approximate_report",
+      "approximation": {
+        "kind": "adjacent_age_numbers",
+        "numbers": [
+          5,
+          6
+        ]
+      },
+      "subject_scope": {
+        "kind": "immediate_child_age",
+        "paragraph_id": "c-sanguozhi-009-caozhen:p042",
+        "start": 48,
+        "end": 55,
+        "source_term": "有一男年五六嵗"
+      },
+      "approximation_interpretation": {
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "rationale": "五六為相鄰數詞約齡；原文明指晏男，不當何晏卒齡或嚴格上下界，不推生年。"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p042",
+          "quote": "魏末傳曰晏婦金鄉公主即晏同母妹公主賢謂其母沛王太妃曰晏為惡日甚将何保身母笑曰汝得無妬晏邪俄而晏死有一男年五六嵗宣王遣人録之晏母歸藏其子王宫中向使者搏頰乞白活之使者具以白宣王宣王亦聞晏婦有先見之言心常嘉之且為沛王故特原不殺",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p042:m0050"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "life_events": [],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []

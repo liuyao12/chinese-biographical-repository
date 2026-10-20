@@ -18,8 +18,8 @@
       "category": "",
       "title": "曹真曹爽完整本傳及附敘",
       "paragraph_id": "c-sanguozhi-009-caozhen:p020",
-      "count": 13,
-      "raw_count": 13,
+      "count": 14,
+      "raw_count": 14,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "往言昔趙高極意秦氏以滅呂霍早斷漢祚永世此乃陛下之大鑒臣受命之時也太尉臣濟尚書令臣孚等皆以爽為有無君之心兄弟不宜典兵宿衞奏永寧宮皇太后令勑臣如奏施行臣輒勑主者及黄門令罷爽羲訓吏兵以侯就第不得逗遛以稽車駕敢有稽留便以軍法從事臣輙力疾將兵屯洛水浮橋伺察非常",
@@ -43,7 +43,8 @@
         "c-sanguozhi-009-caozhen:p033:m0318",
         "c-sanguozhi-009-caozhen:p033:m0334",
         "c-sanguozhi-009-caozhen:p033:m0345",
-        "c-sanguozhi-009-caozhen:p038:m0005"
+        "c-sanguozhi-009-caozhen:p038:m0005",
+        "c-sanguozhi-009-caozhen:p038:m0022"
       ],
       "mention_paragraph_ids": {
         "c-sanguozhi-009-caozhen:p020:m0270": "c-sanguozhi-009-caozhen:p020",
@@ -58,7 +59,8 @@
         "c-sanguozhi-009-caozhen:p033:m0318": "c-sanguozhi-009-caozhen:p033",
         "c-sanguozhi-009-caozhen:p033:m0334": "c-sanguozhi-009-caozhen:p033",
         "c-sanguozhi-009-caozhen:p033:m0345": "c-sanguozhi-009-caozhen:p033",
-        "c-sanguozhi-009-caozhen:p038:m0005": "c-sanguozhi-009-caozhen:p038"
+        "c-sanguozhi-009-caozhen:p038:m0005": "c-sanguozhi-009-caozhen:p038",
+        "c-sanguozhi-009-caozhen:p038:m0022": "c-sanguozhi-009-caozhen:p038"
       },
       "mention_id": "c-sanguozhi-009-caozhen:p020:m0270",
       "occurrence_groups": [
@@ -150,6 +152,13 @@
           "canonical_mention_id": "c-sanguozhi-009-caozhen:p038:m0005",
           "mention_ids": [
             "c-sanguozhi-009-caozhen:p038:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p038:m0022",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p038:m0022"
           ],
           "kind": "paragraph"
         }
@@ -723,7 +732,31 @@
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-sgz009-p038-m0022",
+      "person_id": "79d_0b7_853",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "濟又病其言之失信於爽發病卒",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p038",
+          "quote": "干寳晉記曰蒋濟以曹真之勲力不宜絶祀故以熙為後濟又病其言之失信於爽發病卒",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p038:m0022"
+        }
+      ],
+      "interpretation_note": "死亡主體為蔣濟，曹爽為失信對象；不把同段奉後概略時段當精確卒年。 本批尚未完成死亡紀年之證據綁定，未知年份不以背景年補值；不由死亡截斷全部官爵。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }
