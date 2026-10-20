@@ -20,7 +20,6 @@ def build(root=ROOT, person_ids=None):
             other = json.loads((ROOT/work['catalog_path']).read_text())
             chapters.update({x['chapter_id']:x for x in other['chapters']})
     people = {p['id']: p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
-    name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
     table_mentions = defaultdict(list)
     try:
@@ -111,7 +110,7 @@ def build(root=ROOT, person_ids=None):
             profile['reading_decisions'] = readings
         if b.get('title_proposals'):
             profile['title_proposals'] = b['title_proposals']
-        profile['name_components'] = [r for r in name_records if r['person_id'] in own]
+        profile['name_components'] = b.get('name_components', [])
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])

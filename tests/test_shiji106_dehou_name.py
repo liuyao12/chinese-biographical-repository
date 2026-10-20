@@ -13,7 +13,7 @@ class DeHouName(unittest.TestCase):
  def test_alternative_name_is_not_unconditional_alias_or_father(self):
   b=bundle(PID,catalog=self.catalog);d=next(d for d in b['identity_decisions']if d['id']=='d-shiji106-040'and d['person_id']==PID);self.assertEqual(d['name_identification']['alternative_reported_ming'],['廣']);p=next(p for p in b['persons']if p['id']==PID);self.assertNotIn('廣',[a['surface']for a in p['aliases']]);self.assertFalse(any(r['predicate']=='father'and r['subject_person_id']==PID for r in b['relations']))
  def changed_name(self, fn):
-  c=copy.deepcopy(self.catalog);names=next(r['records']for r in c[1]if r.get('record_type')=='person_name_component_set');n=next(n for n in names if n['person_id']==PID);fn(n);return c
+  c=copy.deepcopy(self.catalog);n=next(n for r in c[1]if r.get('record_type')=='person_name_component_set'for n in r['records']if n['person_id']==PID);fn(n);return c
  def test_wrong_fixed_revision_rejected(self):
   with self.assertRaisesRegex(ValueError,'姓名組件'):bundle(PID,catalog=self.changed_name(lambda n:n.update(source_revision='1')))
  def test_another_persons_named_cell_rejected(self):

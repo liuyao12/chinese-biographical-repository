@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "id": "q7q_j3y_nhj",
+  "canonical_person_id": "q7q_j3y_nhj",
+  "label": "張暢（桓玄時輔國將軍）",
+  "identity_note": "只依完整王懿傳上下文辨識；後補正文資格與自述遠祖限制另記。",
+  "review": "ai_provisional",
+  "names": [
+    "張暢"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "王懿（王仲德）完整後補傳單元",
+      "paragraph_id": "c-songshu-046-wangyi:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事",
+      "paragraph_ids": [
+        "c-songshu-046-wangyi:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-046-wangyi:p003:m0097"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-wangyi:p003:m0097": "c-songshu-046-wangyi:p003"
+      },
+      "mention_id": "c-songshu-046-wangyi:p003:m0097",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-wangyi:p003:m0097",
+          "mention_ids": [
+            "c-songshu-046-wangyi:p003:m0097"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-wangyi",
+      "source_id": "s-songshu-046-wangyi",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-046-wangyi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-wangyi",
+      "source": {
+        "title": "宋書／卷四十六／王懿",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "9f973762548f2e077297a0621457461bf0749d0bbc81389ec7dc175f0d68e3ef",
+        "raw_path": "sources/songshu/KR2a0016_046-e80c057-identity-reference.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "王懿（王仲德）完整傳主單元，原檔41–104行，至張邵之前；全卷僅此選段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去空白、¶與頁標；原字逐字座標保留。全選傳為後補傳世正文，非假定沈約原篇。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [],
+  "related_people": {
+    "q7q_j3y_nhj": "張暢（桓玄時輔國將軍）"
+  },
+  "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-song046-wangyi-003",
+      "person_id": "q7q_j3y_nhj",
+      "surfaces": [
+        "張暢"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-046-wangyi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-046-wangyi:p003:m0097"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "source_id": "s-songshu-046-wangyi",
+          "chapter_id": "c-songshu-046-wangyi",
+          "paragraph_id": "c-songshu-046-wangyi:p003",
+          "quote": "晉太元末徙居彭城兄弟名犯晉宣元二帝諱並以字稱叡字元德北土重同姓謂之骨肉有逺來相投者莫不竭力營贍若不至者以為不義不為鄉里所容仲德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事"
+        }
+      ],
+      "rationale": "補讀固定宋059完整張暢本傳後，元嘉二十七年彭城／李孝伯事件與046附傳、085相合，支持a16為字少微、邵兄子。059大明元年卒、時年五十，與固定宋001元興二三年桓玄篡／王元德謀襲被誅所繫早輔國張暢場景有死亡年齡反證，首選q7與a16分立；不把約408推算存成原文生年。047江夏相張暢之及孫虨考論轉引只作q7候選，原文未明示異名，不合ID。完整原單元與資格見source-evidence/zhangchang-primary-review/identity-review.json。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "scope": "fixed_primary_age_and_parallel_context_identity_review",
+          "review_id": "review-zhangchang-primary-001",
+          "path": "source-evidence/zhangchang-primary-review/identity-review.json",
+          "source_units_path": "source-evidence/zhangchang-primary-review/fixed-units.json",
+          "human_reviewed": false
+        }
+      ]
+    }
+  ],
+  "name_components": [],
+  "person_ids": [
+    "q7q_j3y_nhj"
+  ],
+  "preferred_relations": [],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

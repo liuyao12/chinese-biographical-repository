@@ -382,6 +382,41 @@
       "work_title": "魏書（魏收）"
     },
     {
+      "number": 46,
+      "category": "",
+      "title": "王懿（王仲德）完整後補傳單元",
+      "paragraph_id": "c-songshu-046-wangyi:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏事石季龍父苖事苻堅皆為二千石",
+      "paragraph_ids": [
+        "c-songshu-046-wangyi:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-046-wangyi:p001:m0028"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-wangyi:p001:m0028": "c-songshu-046-wangyi:p001"
+      },
+      "mention_id": "c-songshu-046-wangyi:p001:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-wangyi:p001:m0028",
+          "mention_ids": [
+            "c-songshu-046-wangyi:p001:m0028"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-wangyi",
+      "source_id": "s-songshu-046-wangyi",
+      "work_title": "宋書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -2221,6 +2256,34 @@
       }
     },
     {
+      "chapter_id": "c-songshu-046-wangyi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-wangyi",
+      "source": {
+        "title": "宋書／卷四十六／王懿",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "9f973762548f2e077297a0621457461bf0749d0bbc81389ec7dc175f0d68e3ef",
+        "raw_path": "sources/songshu/KR2a0016_046-e80c057-identity-reference.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "王懿（王仲德）完整傳主單元，原檔41–104行，至張邵之前；全卷僅此選段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去空白、¶與頁標；原字逐字座標保留。全選傳為後補傳世正文，非假定沈約原篇。",
+          "excerpts": []
+        }
+      }
+    },
+    {
       "chapter_id": "c-weishu-weishou-024-cuixuanbo",
       "work_id": "w-weishu-weishou",
       "book_id": "b-weishu-weishou-024",
@@ -2592,7 +2655,10 @@
       "note": "源以季龍稱人，不在本句明諱／字；不把季龍當本名或由既有身份倒填虎。",
       "status": "editorial_provisional",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-008",
+      "source_id": "s-jinshu-008-yonghe5"
     }
   ],
   "person_ids": [
