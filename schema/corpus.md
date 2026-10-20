@@ -945,3 +945,9 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ## 明示子女的個人相鄰數詞約齡
 
 「有一男年五六嵗」保留 `approximation.kind: adjacent_age_numbers` 及 `numbers: [5, 6]`，`value`、`birth_year` 均為空，不設嚴格上下界、不推虛歲或周歲。`subject_scope.kind: immediate_child_age` 保存完整子女名詞及報齡原句字位，證據連到子女而非前述父親。`approximation_interpretation` 分存AI判讀；不據前述死亡事件的背景年反推出生年。其餘語式仍須逐項擴充。
+
+## 傳記紀年後續的逐名群體行刑
+
+`normalized_date.event_evidence_binding.kind: named_group_execution_after_biographical_year_chain` 保留既有 `relative_biography_scope` 的正始五年、九年冬、十年正月證據鏈，再以完整連續原段綁定後續十人「皆伏誅」。每人須有死亡名單內自己的精確錨點，十名原序及不同人物身份全部保留；不得從「等」「夷三族」增加人。
+
+後續正文、裴注引書、先帝追述分層明列，段落不得跳過。本文「湏三月中欲發」僅為所陳陰謀的未來行動，不是行刑月。此限定模型只提供249中國曆年，`precision: year`、`calendar: chinese_civil`，不填月日或 `source_date_parts`；不能將該年套給其他段落的死亡。教育部年號表只支持正始240–249的對照，不作死亡事件的權威來源。
