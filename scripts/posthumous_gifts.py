@@ -2,7 +2,7 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
-    if holding.get('posthumous_basis', {}).get('kind') in ('imperial_named_serial_gift', 'imperial_decree_topic_death_gift'):
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') in ('imperial_named_serial_gift', 'imperial_decree_topic_death_gift'):
         try:
             from scripts.song047_title_semantics import imperial_gift_valid
         except ImportError:
