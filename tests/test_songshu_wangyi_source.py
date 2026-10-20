@@ -28,9 +28,9 @@ class WangYiSourceBoundaries(unittest.TestCase):
         distant = next(m['person_id'] for m in p['mentions'] if m['surface'] == '懋')
         self.assertFalse(any(a['object_person_id'] == distant for a in self.relations))
         father = next(a for a in self.relations
-                      if a['subject_person_id'] == '864_b79_ed2' and a['predicate'] == 'father')
+                      if a['subject_person_id'] == 'qsd_v11_ya1_AA' and a['predicate'] == 'father')
         self.assertEqual(father['qualifiers']['source_term'], '父苖')
-        self.assertEqual(father['object_person_id'], 'ymz_r2c_cek')
+        self.assertEqual(father['object_person_id'], 'qsd_v11_ya1_A')
 
     def test_unresolved_zhangchang_is_not_a_claim_of_distinct_people(self):
         review = read('source-evidence/song046-wangyi-recovery-v2/zhangchang-candidates.json')

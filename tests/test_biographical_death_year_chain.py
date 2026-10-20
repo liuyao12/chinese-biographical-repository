@@ -12,9 +12,9 @@ class Binding(unittest.TestCase):
  def test_wrong_year(self):
   e=copy.deepcopy(event);e['normalized_date']['year']=439;self.assertFalse(self.check(e))
  def test_child_cannot_inherit_father_death_year(self):
-  e=copy.deepcopy(event);e['person_id']='d1p_4ah_jgs';e['normalized_date']['event_evidence_binding']['person_id']=e['person_id'];self.assertFalse(self.check(e))
+  e=copy.deepcopy(event);e['person_id']='qsd_v11_ya1_AAA';e['normalized_date']['event_evidence_binding']['person_id']=e['person_id'];self.assertFalse(self.check(e))
  def test_subject_switch(self):
-  ch=copy.deepcopy(chapter);p=next(p for p in ch['paragraphs']if p['id'].endswith(':p009'));next(m for m in p['mentions']if m['surface']=='仲德')['person_id']='d1p_4ah_jgs';self.assertFalse(self.check(chs={ch['id']:ch}))
+  ch=copy.deepcopy(chapter);p=next(p for p in ch['paragraphs']if p['id'].endswith(':p009'));next(m for m in p['mentions']if m['surface']=='仲德')['person_id']='qsd_v11_ya1_AAA';self.assertFalse(self.check(chs={ch['id']:ch}))
  def test_extra_named_subject_within_death_scope(self):
   ch=copy.deepcopy(chapter);p=next(p for p in ch['paragraphs']if p['id'].endswith(':p009'));p['mentions'].append({'id':p['id']+':synthetic-subject','kind':'person','person_id':'synthetic-other','start':30,'end':31,'surface':p['text'][30:31]});self.assertFalse(self.check(chs={ch['id']:ch}))
  def test_mingnian_cannot_replace_fifteenth(self):

@@ -9762,6 +9762,90 @@
           "source_assertion_id": "a-sgz009-caozhen-recovery-012"
         }
       ]
+    },
+    {
+      "id": "family-song046-wangyi-hong",
+      "root_person_id": "qsd_v11_ya1",
+      "label": "宋王懿近世父系：宏以下四代",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI 代理）",
+      "rationale": "限宏、苖、王懿與正脩的近世家族。苖接宏由同段父與祖的相鄰世次編輯推導，王懿父與祖及正脩父的原斷言照存；不把兄叡或姊王氏強作同父，不接自言王懋七世遠祖，不合降魏齊郡太守。",
+      "members": [
+        {
+          "person_id": "qsd_v11_ya1",
+          "representative_source_person_id": "qsd_v11_ya1",
+          "source_person_ids": [
+            "qsd_v11_ya1"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "qsd_v11_ya1_A",
+          "representative_source_person_id": "qsd_v11_ya1_A",
+          "source_person_ids": [
+            "qsd_v11_ya1_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qsd_v11_ya1",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "qsd_v11_ya1_AA",
+            "nearer_ancestor_assertion_id": "a-song046-wangyi-001",
+            "farther_ancestor_assertion_id": "a-song046-wangyi-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "王懿同段明記祖宏、父苖，採連續父系世次判讀推導苖之父為宏；這是編輯組裝，不另造正文直接父子斷言。傳本文字後補資格保留。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-046",
+                "source_id": "s-songshu-046-wangyi",
+                "chapter_id": "c-songshu-046-wangyi",
+                "paragraph_id": "c-songshu-046-wangyi:p001",
+                "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏事石季龍父苖事苻堅皆為二千石",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+                "assertion_id": "a-song046-wangyi-001",
+                "scope": "同一人物之連續父系祖先世次"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-046",
+                "source_id": "s-songshu-046-wangyi",
+                "chapter_id": "c-songshu-046-wangyi",
+                "paragraph_id": "c-songshu-046-wangyi:p001",
+                "quote": "王懿字仲德太原祁人自言漢司徒允弟幽州刺史懋七世孫也祖宏事石季龍父苖事苻堅皆為二千石",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+                "assertion_id": "a-song046-wangyi-002",
+                "scope": "同一人物之連續父系祖先世次"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "qsd_v11_ya1_AA",
+          "representative_source_person_id": "qsd_v11_ya1_AA",
+          "source_person_ids": [
+            "qsd_v11_ya1_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qsd_v11_ya1_A",
+          "source_assertion_id": "a-song046-wangyi-001"
+        },
+        {
+          "person_id": "qsd_v11_ya1_AAA",
+          "representative_source_person_id": "qsd_v11_ya1_AAA",
+          "source_person_ids": [
+            "qsd_v11_ya1_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "qsd_v11_ya1_AA",
+          "source_assertion_id": "a-song046-wangyi-005"
+        }
+      ]
     }
   ]
 }

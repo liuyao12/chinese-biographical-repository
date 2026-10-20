@@ -1,14 +1,21 @@
 {
-  "not_applied": true,
+  "not_applied": false,
   "root_person_id": "qsd_v11_ya1",
-  "root_id_proposal": "qsd_v11_ya1",
-  "mapping_proposal": {
-    "ymz_r2c_cek": "qsd_v11_ya1_A",
-    "864_b79_ed2": "qsd_v11_ya1_AA",
-    "d1p_4ah_jgs": "qsd_v11_ya1_AAA"
-  },
-  "editorial_connection_required": "苖接宏需沿同段王懿父與祖的相鄰祖先模型，不能新增冒稱原文直接父子；兄叡與姊王氏未明父，不在此草案強造同父路徑。",
+  "assembly_id": "family-song046-wangyi-hong",
+  "member_person_ids": [
+    "qsd_v11_ya1",
+    "qsd_v11_ya1_A",
+    "qsd_v11_ya1_AA",
+    "qsd_v11_ya1_AAA"
+  ],
+  "native_assembly_applied": true,
+  "derived_rebuild_required": true,
+  "editorial_connection": "苖接宏為parent_between_consecutive_ancestors，保留父與祖原斷言，不冒稱直接來源。",
   "excluded_remote_ancestry": "cqk_f8b_cjq",
+  "excluded_same_father_inferences": [
+    "lrq_cdc_wxj",
+    "380_854_d21"
+  ],
   "no_id_reuse": true,
-  "root_integration_required": true
+  "human_reviewed": false
 }
