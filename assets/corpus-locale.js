@@ -64,6 +64,7 @@ export default {
   'Given name':'名',
   'Courtesy name':'字',
   'Childhood name':'小字',
+  'Childhood name (xiaoming)':'小名',
   'Former given name':'初名',
   'Distinct people':'同名異人',
   'Identity distinction evidence':'身份區分依據',

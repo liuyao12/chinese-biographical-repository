@@ -1,0 +1,86 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-songshu-059-zhangchang",
+  "events": [
+    {
+      "id": "le-song059-zhangchang-death",
+      "person_id": "d50_8f5_wul_AAABA",
+      "event_type": "death",
+      "source_term": "大明元年卒官",
+      "date_expression": "大明元年",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-059",
+          "source_id": "s-songshu-059-zhangchang",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p016",
+          "quote": "孝建二年出為㑹稽太守大明元年卒官時年五十顔竣表世祖張暢遂不救疾東南之秀蚤樹風範聞問悽愴深切常懐諡曰宣子",
+          "person_mention_id": "c-songshu-059-zhangchang:p016:m0025"
+        }
+      ],
+      "source_anchor": {
+        "paragraph_id": "c-songshu-059-zhangchang:p016",
+        "start": 10,
+        "end": 16,
+        "surface": "大明元年卒官"
+      },
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 457,
+        "year": 457,
+        "calendar": "chinese_civil",
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "source_expression": "大明元年",
+        "original_quote": "孝建二年出為㑹稽太守大明元年卒官時年五十顔竣表世祖張暢遂不救疾東南之秀蚤樹風範聞問悽愴深切常懐諡曰宣子",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-059",
+            "source_id": "s-songshu-059-zhangchang",
+            "chapter_id": "c-songshu-059-zhangchang",
+            "paragraph_id": "c-songshu-059-zhangchang:p016",
+            "quote": "孝建二年出為㑹稽太守大明元年卒官時年五十顔竣表世祖張暢遂不救疾東南之秀蚤樹風範聞問悽愴深切常懐諡曰宣子",
+            "person_mention_id": "c-songshu-059-zhangchang:p016:m0025"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "大明",
+            "columns": {
+              "dynasty": "宋",
+              "era_name": "大明",
+              "first_year": "457",
+              "last_year": "464"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "大明",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 457,
+          "end_ce_year": 464,
+          "reference_index": 0
+        },
+        "rationale": "本傳明示大明元年卒官，年號表對應457中國曆年；不推月日，報齡五十不當原文出生年。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null
+      },
+      "interpretation_note": "張暢傳連續敘事及顔竣表世祖張暢遂不救疾指同一死亡；不把後附子淹軍敗見殺誤歸張暢。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ]
+}

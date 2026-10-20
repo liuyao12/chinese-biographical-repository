@@ -1,6 +1,72 @@
 # coding: utf-8
 """Validate an editorial parent edge between two explicitly consecutive paternal ancestors."""
 
+def explicit_four_ancestor_sequence_valid(near, far, assertions, chapters):
+    """Only a full same-subject 髙祖/曾祖/祖/父 named sequence adds distance4."""
+    if (near.get('predicate') != 'great_grandfather' or far.get('predicate') != 'ancestor'
+            or far.get('qualifiers', {}).get('generation_distance') != 4
+            or near.get('subject_person_id') != far.get('subject_person_id')):
+        return False
+    subject = far.get('subject_person_id')
+    candidates = [[a for a in assertions.values() if a.get('predicate') == kind
+                   and a.get('subject_person_id') == subject
+                   and a.get('status') == 'source_attested'
+                   and a.get('qualifiers', {}).get('lineage') == 'paternal']
+                  for kind in ('grandfather', 'father')]
+    shared = {(e.get('chapter_id'), e.get('paragraph_id'), e.get('source_id'), e.get('quote'))
+              for e in near.get('evidence', [])} & {
+              (e.get('chapter_id'), e.get('paragraph_id'), e.get('source_id'), e.get('quote'))
+              for e in far.get('evidence', [])}
+    for cid, paraid, sid, quote in shared:
+        ch = chapters.get(cid, {})
+        p = next((p for p in ch.get('paragraphs', []) if p['id'] == paraid), None)
+        if (not p or p.get('text_layer') != 'received_chapter' or p.get('text') != quote
+                or ch.get('source_id') != sid
+                or not any(m.get('kind') == 'person' and m.get('person_id') == subject
+                           and m.get('start') == 0 for m in p.get('mentions', []))):
+            continue
+        for grand in candidates[0]:
+            for father in candidates[1]:
+                chain = [far, near, grand, father]
+                if len({subject} | {a.get('object_person_id') for a in chain}) != 5:
+                    continue
+                if not all(any((e.get('chapter_id'),e.get('paragraph_id'),e.get('source_id'),e.get('quote'))
+                               == (cid,paraid,sid,quote) for e in a.get('evidence', [])) for a in chain):
+                    continue
+                bound = []; previous = -1
+                for a, roles in zip(chain, [('髙祖', '高祖'), ('曾祖',), ('祖',), ('父',)]):
+                    options = []
+                    for m in p.get('mentions', []):
+                        if (m.get('kind') != 'person' or m.get('person_id') != a.get('object_person_id')
+                                or m.get('surface') in ('其','我','吾','臣','父','祖','曾祖','髙祖','高祖')
+                                or quote[m.get('start',0):m.get('end',0)] != m.get('surface')):
+                            continue
+                        for role in roles:
+                            start = m['start'] - len(role)
+                            term = role + m['surface']
+                            if (start >= previous and quote[start:m['start']] == role
+                                    and a.get('qualifiers', {}).get('source_term','').startswith(term)):
+                                options.append((start, m['end']))
+                    if not options:
+                        break
+                    chosen = min(options);bound.append(chosen);previous = chosen[1]
+                if len(bound) != 4:
+                    continue
+                # A different named person or quoted transfer inside the four
+                # explicit role clauses invalidates a single genealogical list.
+                segment = quote[bound[0][0]:bound[-1][1]]
+                ancestors = {a['object_person_id'] for a in chain}
+                if (any(c in segment for c in '曰「」『』。；！？')
+                        or any(term in segment for term in ('非','未','不','或云','一云','又云'))):
+                    continue
+                if any(m.get('kind') == 'person' and m.get('person_id') not in ancestors
+                       and bound[0][0] <= m.get('start',-1) < bound[-1][1]
+                       for m in p.get('mentions', [])):
+                    continue
+                return True
+    return False
+
+
 def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
     c = member.get('parent_connection')
     if not isinstance(c, dict):
@@ -20,6 +86,8 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
         return False
     distance = {'father': 1, 'grandfather': 2, 'great_grandfather': 3}
     n, f = distance.get(near.get('predicate')), distance.get(far.get('predicate'))
+    if n == 3 and explicit_four_ancestor_sequence_valid(near, far, assertions, chapters):
+        f = 4
     if (n is None or f != n + 1
             or near.get('subject_person_id') != far.get('subject_person_id')
             or near.get('subject_person_id') not in witness['source_person_ids']

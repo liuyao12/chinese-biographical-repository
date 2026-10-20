@@ -4,7 +4,7 @@ export function summarizeNameComponents(value) {
   const records = Array.isArray(value) ? value.filter(x => x && typeof x === 'object' && !Array.isArray(x)) : [];
   if (!records.length) return {names:null, records, conflicts:[], coreConflict:false, canHead:false};
   const names = {}, conflicts = [];
-  const fields = ['surname','ming','zi','xiaozhi','hao','former_ming','full_name'];
+  const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'];
   for (const field of fields) {
     const values = [...new Set(records.map(x => text(x[field])).filter(Boolean))];
     if (values.length === 1) names[field] = values[0];
@@ -26,7 +26,7 @@ export function summarizeNameComponents(value) {
   const coreConflict = conflicts.some(x => ['surname','ming','full_name','clan_style'].includes(x.field));
   const additional = records.flatMap(x => Array.isArray(x.additional_names) ? x.additional_names : []).map(text).filter(Boolean);
   // Only an explicitly typed courtesy name justifies this exact display deduplication.
-  names.additional_names = [...new Set(additional.filter(x => (!names.zi || x !== '字' + names.zi) && (!names.xiaozhi || x !== '小字' + names.xiaozhi)))];
+  names.additional_names = [...new Set(additional.filter(x => (!names.zi || x !== '字' + names.zi) && (!names.xiaozhi || x !== '小字' + names.xiaozhi) && (!names.xiaoming || x !== '小名' + names.xiaoming)))];
   // Preserve the established single-source title display; never promote multi-source
   // titles (possibly from different periods) into a generic name/title consensus.
   if (records.length === 1 && text(records[0].title)) names.title = text(records[0].title);
@@ -38,7 +38,7 @@ export function summarizeNameComponents(value) {
 // additional_names and typed personal-name fields enter the main alias row.
 export function nameAliases(names) {
   if (!names) return [];
-  const typed = ['zi','xiaozhi','hao','former_ming'].filter(kind => text(names[kind])).map(kind => ({kind, value:text(names[kind])}));
+  const typed = ['zi','xiaozhi','xiaoming','hao','former_ming'].filter(kind => text(names[kind])).map(kind => ({kind, value:text(names[kind])}));
   const typedValues = new Set(typed.map(x => x.value));
   const raw = (names.additional_names || []).filter(value => !typedValues.has(value)).map(value => ({kind:null,value}));
   const result = [], seen = new Set();

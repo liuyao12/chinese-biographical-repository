@@ -350,6 +350,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         except ImportError:
             from name_childhood import validate_childhood_name
         validate_childhood_name(name, name_paragraph[1] if name_paragraph else None)
+        try:
+            from .name_xiaoming import validate_xiaoming
+        except ImportError:
+            from name_xiaoming import validate_xiaoming
+        validate_xiaoming(name, name_paragraph[1] if name_paragraph else None)
         validate_parallel_given_name(name)
         validate_former_given_name(name)
         validate_name_component_alternatives(name)

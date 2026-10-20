@@ -11,5 +11,6 @@ test('formal names keep generic source expressions out of additional names witho
   const courtesy=personCard({...synthetic,name_components:[{...synthetic.name_components[0],zi:'子丙'}]},true);
   assert.equal(courtesy.match(/<p class="person-aliases">(.*?)<\/p>/)[1].replace(/<[^>]*>/g,''),'字 子丙');
   assert.match(courtesy,/<p>王、某王<\/p>/);
-  assert.match(personCard({...synthetic,name_components:[]}),/<p class="person-aliases">/);
+  assert.doesNotMatch(personCard({...synthetic,name_components:[]}),/<p class="person-aliases">/);
+  assert.match(personCard({...synthetic,name_components:[]}),/<p>王、某王<\/p>/);
 });

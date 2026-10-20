@@ -116,7 +116,8 @@ test('consecutive ancestral evidence supplies separately labelled intermediate p
   assert.notEqual(family.ancestors[2][0].role,'assembly_inferred');
   assert.equal(family.ancestors[1][0].explicitAncestor,true);
   assert(family.ancestors[1][0].evidence.some(e=>e.quote==='Direct grandfather statement.'));
-  assert(family.ancestors[1][0].evidence.some(e=>e.quote==='Synthetic source passage.'));
+  assert(!family.ancestors[1][0].evidence.some(e=>e.quote==='Synthetic source passage.'));
+  assert(family.ancestors[1][0].ancestry_paths.some(p=>p.qualification==='assembly_inferred' && p.steps.some(s=>s.evidence.some(e=>e.quote==='Synthetic source passage.'))));
   const father=await traceFamily(people.father,async id=>people[id]);
   assert.deepEqual(father.ancestors.map(g=>g.map(p=>p.id)),[['grand'],['great'],[]]);
   assert.equal(father.ancestors[0][0].role,'assembly_inferred');

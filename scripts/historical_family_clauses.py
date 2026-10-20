@@ -44,6 +44,12 @@ def named_zusun_fenghou_valid(a,paragraphs):
     except(KeyError,TypeError,ValueError,StopIteration):return False
 
 def explicit_congdi_valid(a,paragraphs):
+    if a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='named_subject_congxiong_group':
+        try:
+            from scripts.song059_kinship import named_congxiong_group_valid
+        except ImportError:
+            from song059_kinship import named_congxiong_group_valid
+        return named_congxiong_group_valid(a,paragraphs)
     try:
         t,q,b,ms,s,o,start,end=_parts(a,paragraphs);k=q['kinship_structure']
         return (a['predicate']=='agnatic_cousin'and set(q)=={'source_term','kinship_structure','source_clause_binding'}

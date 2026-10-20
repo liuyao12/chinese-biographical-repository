@@ -1530,6 +1530,12 @@ def validate(root=ROOT):
                     except ImportError:
                         from collateral_kinship import source_sibling_group_valid
                     check(source_sibling_group_valid(a, paragraphs, pids, source_age_number), '來源姊妹群排行須保留人數、逐人稱詞與本群序號，不得補中者或小者序號')
+                if 'source_explicit_father_assertion_id' in qualifiers or qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_head_uncle_xiongzi_named_father':
+                    try:
+                        from scripts.song059_father_brother import explicit_father_elder_brother_valid
+                    except ImportError:
+                        from song059_father_brother import explicit_father_elder_brother_valid
+                    check(explicit_father_elder_brother_valid(a, paragraphs, d['assertions']), '兄子與明示父名須有完整傳首、三端原詞及父子來源，不得補排行或祖父')
                 if 'relative_birth_order' in qualifiers:
                     order = qualifiers['relative_birth_order']
                     check(a['predicate'] in ('brother', 'sister', 'agnatic_cousin', 'maternal_cousin'), '相對排行須為同輩親屬')
@@ -2121,6 +2127,11 @@ def validate(root=ROOT):
     except ImportError:
         from reading_layout import validate as validate_reading_layout
     errors.extend(validate_reading_layout(root))
+    try:
+        from scripts.name_xiaoming import validate_records as validate_xiaoming_records
+    except ImportError:
+        from name_xiaoming import validate_records as validate_xiaoming_records
+    errors.extend(validate_xiaoming_records(root))
     return errors
 
 def main():
