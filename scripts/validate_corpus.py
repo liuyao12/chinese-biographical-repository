@@ -217,8 +217,14 @@ def reported_relationship_errors(variant, paragraph):
     return errors
 
 
-def title_proposal_errors(proposal, chapter, person_ids):
+def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
     """區分未實行提議與實行情況未載的任官約定，不計入實授稱號。"""
+    if proposal.get('proposal_kind') == 'memorial_request':
+        try:
+            from scripts.song041_title_semantics import memorial_errors
+        except ImportError:
+            from song041_title_semantics import memorial_errors
+        return memorial_errors(proposal, chapter, person_ids, holdings or {})
     errors = []
     def check(ok, message):
         if not ok: errors.append(message)
@@ -895,6 +901,12 @@ def validate(root=ROOT):
                                               for i in range(len(text)) if text.startswith(quote,i))
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
+                if 'source_grant_basis' in h:
+                    try:
+                        from scripts.song041_title_semantics import conferment_valid
+                    except ImportError:
+                        from song041_title_semantics import conferment_valid
+                    check(conferment_valid(h, paragraphs), '明授名號須有拜／加／封與同人原位，不得以奏請充實授或借近年')
                 if 'punctuation_attribution' in h:
                     try:
                         from scripts.office_attributions import punctuation_attribution_errors
@@ -952,6 +964,12 @@ def validate(root=ROOT):
                         except ImportError:
                             from collateral_title_succession import valid as collateral_succession_valid
                         valid = collateral_succession_valid(h, title_records, paragraphs, family_relations)
+                    if isinstance(inheritance, dict) and inheritance.get('predecessor_relation') == 'named_source_line_succession':
+                        try:
+                            from scripts.song041_title_semantics import line_succession_valid
+                        except ImportError:
+                            from song041_title_semantics import line_succession_valid
+                        valid = line_succession_valid(h, title_records, paragraphs, family_relations)
                     check(valid, '承爵判讀缺少相符的前任爵位、父子或原詞證據')
                     if valid:
                         for e in inheritance['evidence']:title_evidence(e)
@@ -1033,6 +1051,12 @@ def validate(root=ROOT):
                         except ImportError:
                             from named_posthumous_naming import named_posthumous_naming_valid
                         valid = named_posthumous_naming_valid(h, paragraphs, mentions, gift_life_events)
+                    elif isinstance(basis, dict) and basis.get('kind') == 'heading_title_confirmed_by_posthumous_notice':
+                        try:
+                            from scripts.song041_title_semantics import heading_posthumous_valid
+                        except ImportError:
+                            from song041_title_semantics import heading_posthumous_valid
+                        valid = heading_posthumous_valid(h, paragraphs, gift_life_events)
                     else:
                         explicit_naming = False
                         if isinstance(basis, dict) and isinstance(basis.get('source_term'), str):
@@ -1671,7 +1695,14 @@ def validate(root=ROOT):
             for proposal in chapter['annotation'].get('title_proposals', []):
                 check(proposal.get('id') and proposal['id'] not in proposal_ids, '稱號提議 ID 缺失或重複')
                 proposal_ids.add(proposal.get('id'))
-                errors.extend(title_proposal_errors(proposal, chapter, set(pids)))
+                errors.extend(title_proposal_errors(proposal, chapter, set(pids), title_records))
+        try:
+            from scripts.song041_title_semantics import source_use_errors
+        except ImportError:
+            from song041_title_semantics import source_use_errors
+        for chapter in chapters.values():
+            for use in chapter['annotation'].get('source_title_uses', []):
+                errors.extend(source_use_errors(use, chapter, pids, title_records))
         age_ids = set(); age_report_groups = {}
         for chapter in chapters.values():
             for age in chapter['annotation'].get('age_assertions', []):

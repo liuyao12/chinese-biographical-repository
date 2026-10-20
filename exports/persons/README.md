@@ -3115,6 +3115,52 @@
 
 </details>
 
+<details><summary><code>u9s_w6j_8mc</code> 桓顥（39 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 桓顥 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc.json) |
+| `A` | 桓彝 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_A.json) |
+| `AA` | 桓溫 | [《晉書・桓溫完整本傳單元》][46] | [JSON](u9s_w6j_8mc_AA.json) |
+| `AAA` | 桓熙 | [《晉書・桓溫完整本傳單元》][46] | [JSON](u9s_w6j_8mc_AAA.json) |
+| `AAB` | 桓濟 | [《晉書・桓溫完整本傳單元》][46] | [JSON](u9s_w6j_8mc_AAB.json) |
+| `AABA` | 桓亮 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AABA.json) |
+| `AAC` | 桓歆 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAC.json) |
+| `AAD` | 桓禕 | [《晉書・桓溫完整本傳單元》][46] | [JSON](u9s_w6j_8mc_AAD.json) |
+| `AAE` | 桓偉 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAE.json) |
+| `AAEA` | 桓浚 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAEA.json) |
+| `AAEB` | 桓邈 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAEB.json) |
+| `AAF` | 桓玄 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAF.json) |
+| `AAFA` | 桓升 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AAFA.json) |
+| `AB` | 桓雲 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AB.json) |
+| `AB*A` | 桓放之 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AB%2AA.json) |
+| `ABA` | 桓序 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ABA.json) |
+| `AC` | 桓豁 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AC.json) |
+| `ACA` | 桓石虔 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACA.json) |
+| `ACAA` | 桓誕 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACAA.json) |
+| `ACAB` | 桓洪 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACAB.json) |
+| `ACAC` | 桓振 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACAC.json) |
+| `ACB` | 桓石秀 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACB.json) |
+| `ACBA` | 桓稚玉 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACBA.json) |
+| `ACC` | 桓石民 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACC.json) |
+| `ACD` | 桓石生 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACD.json) |
+| `ACE` | 桓石綏 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_ACE.json) |
+| `ACF` | 桓石康 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_ACF.json) |
+| `ACG` | 桓權 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_ACG.json) |
+| `AD` | 桓秘 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AD.json) |
+| `ADA` | 桓蔚 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_ADA.json) |
+| `AE` | 桓沖 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AE.json) |
+| `AEA` | 桓嗣 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AEA.json) |
+| `AEAA` | 桓胤 | [《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AEAA.json) |
+| `AEB` | 桓謙 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AEB.json) |
+| `AEC` | 桓修 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AEC.json) |
+| `AED` | 桓崇 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AED.json) |
+| `AEE` | 桓弘 | [《晉書・桓彝及附桓氏家族完整單元》][31]、[《晉書・桓玄完整本傳單元》][47] | [JSON](u9s_w6j_8mc_AEE.json) |
+| `AEF` | 桓羨 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AEF.json) |
+| `AEG` | 桓怡 | [《晉書・桓彝及附桓氏家族完整單元》][31] | [JSON](u9s_w6j_8mc_AEG.json) |
+
+</details>
+
 <details><summary><code>uay_2h8_ps8</code> 師（陳悼太子）（4 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |

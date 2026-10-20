@@ -81,16 +81,85 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-huan-close-001",
+      "subject_person_id": "u9s_w6j_8mc_A",
+      "predicate": "father",
+      "object_person_id": "u9s_w6j_8mc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p001",
+          "quote": "桓彝，字茂倫，譙國龍亢人，漢五更榮之九世孫也。父顥，官至郎中。彝少孤貧，雖簞瓢，處之晏如。性通朗，早獲盛名。有人倫識鑒，拔才取士，或出於無聞，或得之孩抱，時人方之許、郭。少與庾亮深交，雅為周顗所重。顗嘗歎曰：「茂倫嶔崎歷落，固可笑人也。」起家州主簿。赴齊王冏義，拜騎都尉。元帝為安東將軍，版行逡遒令。尋辟丞相中兵屬，累遷中書郎、尚書吏部郎，名顯朝廷。",
+          "subject_person_mention_id": "c-jinshu-074-huan-family:p001:m0000",
+          "object_person_mention_id": "c-jinshu-074-huan-family:p001:m0024"
+        }
+      ],
+      "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "u9s_w6j_8mc": "桓顥"
+    "u9s_w6j_8mc": "桓顥",
+    "u9s_w6j_8mc_A": "桓彝"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "u9s_w6j_8mc"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-huan-close-001",
+      "subject_person_id": "u9s_w6j_8mc_A",
+      "predicate": "father",
+      "object_person_id": "u9s_w6j_8mc",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-074",
+          "source_id": "s-jinshu-074-ws1536331",
+          "chapter_id": "c-jinshu-074-huan-family",
+          "paragraph_id": "c-jinshu-074-huan-family:p001",
+          "quote": "桓彝，字茂倫，譙國龍亢人，漢五更榮之九世孫也。父顥，官至郎中。彝少孤貧，雖簞瓢，處之晏如。性通朗，早獲盛名。有人倫識鑒，拔才取士，或出於無聞，或得之孩抱，時人方之許、郭。少與庾亮深交，雅為周顗所重。顗嘗歎曰：「茂倫嶔崎歷落，固可笑人也。」起家州主簿。赴齊王冏義，拜騎都尉。元帝為安東將軍，版行逡遒令。尋辟丞相中兵屬，累遷中書郎、尚書吏部郎，名顯朝廷。",
+          "subject_person_mention_id": "c-jinshu-074-huan-family:p001:m0000",
+          "object_person_mention_id": "c-jinshu-074-huan-family:p001:m0024"
+        }
+      ],
+      "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "u9s_w6j_8mc",
+    "representative_source_person_id": "u9s_w6j_8mc",
+    "source_person_ids": [
+      "u9s_w6j_8mc"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-qiaoguo-huan-hao-near",
+    "root_person_id": "u9s_w6j_8mc",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

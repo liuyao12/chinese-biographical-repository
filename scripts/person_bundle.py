@@ -720,6 +720,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         return found
     source_temporal_attestations = [r for record in records if record.get('record_type') == 'source_temporal_attestation_set' for r in record['records'] if r['person_id'] in ids]
     unresolved_kinship_references = [r for chapter in chapters.values() for r in chapter['annotation'].get('unresolved_kinship_references', []) if r['person_id'] in ids or ids.intersection(r['reference_person_candidates'])]
+    source_title_uses = [u for chapter in chapters.values() for u in chapter['annotation'].get('source_title_uses', []) if u['person_id'] in ids]
     used_context_ids = context_ids(titles + life_events + person_events)
     calendar_context_assertions = [c for record in records
         if record.get('record_type') == 'calendar_context_assertion_set'
@@ -732,6 +733,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'source_title_uses': source_title_uses} if source_title_uses else {}),
             **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
             **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),

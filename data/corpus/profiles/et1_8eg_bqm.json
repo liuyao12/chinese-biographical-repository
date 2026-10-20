@@ -100,16 +100,87 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-huan-close-041",
+      "subject_person_id": "u9s_w6j_8mc_AAF",
+      "predicate": "maternal_role",
+      "object_person_id": "et1_8eg_bqm",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "其母馬氏",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_clause_binding": {
+          "kind": "biography_head_mother_following_named_father",
+          "start": 21,
+          "end": 25
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p001",
+          "quote": "桓玄，字敬道，一名靈寶，大司馬溫之孽子也。其母馬氏嘗與同輩夜坐，於月下見流星墜銅盆水中，忽如二寸火珠，冏然明淨，競以瓢接取，馬氏得而吞之，若有感，遂有娠。及生玄，有光照室，占者奇之，故小名靈寶。妳媼每抱詣溫，輒易人而後至，云其重兼常兒，溫甚愛異之。臨終，命以為嗣，襲爵南郡公。年七歲，溫服終，府州文武辭其叔父沖，沖撫玄頭曰：「此汝家之故吏也。」玄因涕淚覆面，眾並異之。及長，形貌瑰奇，風神疏朗，博綜藝術，善屬文。常負其才地，以雄豪自處，眾咸憚之，朝廷亦疑而未用。年二十三，始拜太子洗馬，時議謂溫有不臣之跡，故折玄兄弟而為素官。",
+          "subject_person_mention_id": "c-jinshu-099-huanxuan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023"
+        }
+      ],
+      "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "et1_8eg_bqm": "馬氏〔桓玄母〕"
+    "et1_8eg_bqm": "馬氏〔桓玄母〕",
+    "u9s_w6j_8mc_AAF": "桓玄"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "et1_8eg_bqm"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-huan-close-041",
+      "subject_person_id": "u9s_w6j_8mc_AAF",
+      "predicate": "maternal_role",
+      "object_person_id": "et1_8eg_bqm",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "其母馬氏",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "source_clause_binding": {
+          "kind": "biography_head_mother_following_named_father",
+          "start": 21,
+          "end": 25
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-099",
+          "source_id": "s-jinshu-099-huanxuan-ws2644703",
+          "chapter_id": "c-jinshu-099-huanxuan",
+          "paragraph_id": "c-jinshu-099-huanxuan:p001",
+          "quote": "桓玄，字敬道，一名靈寶，大司馬溫之孽子也。其母馬氏嘗與同輩夜坐，於月下見流星墜銅盆水中，忽如二寸火珠，冏然明淨，競以瓢接取，馬氏得而吞之，若有感，遂有娠。及生玄，有光照室，占者奇之，故小名靈寶。妳媼每抱詣溫，輒易人而後至，云其重兼常兒，溫甚愛異之。臨終，命以為嗣，襲爵南郡公。年七歲，溫服終，府州文武辭其叔父沖，沖撫玄頭曰：「此汝家之故吏也。」玄因涕淚覆面，眾並異之。及長，形貌瑰奇，風神疏朗，博綜藝術，善屬文。常負其才地，以雄豪自處，眾咸憚之，朝廷亦疑而未用。年二十三，始拜太子洗馬，時議謂溫有不臣之跡，故折玄兄弟而為素官。",
+          "subject_person_mention_id": "c-jinshu-099-huanxuan:p001:m0000",
+          "object_person_mention_id": "c-jinshu-099-huanxuan:p001:m0023"
+        }
+      ],
+      "interpretation_note": "依完整原段與具體錨點辨識；未補原文未述父母、配偶、世系或排行。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

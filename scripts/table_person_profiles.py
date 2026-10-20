@@ -113,6 +113,7 @@ def build(root=ROOT, person_ids=None):
         if b.get('unresolved_title_attestations'):
             profile['unresolved_title_attestations'] = b['unresolved_title_attestations']
         profile['name_components'] = b.get('name_components', [])
+        if 'source_title_uses' in b: profile['source_title_uses'] = b['source_title_uses']
         for key in ('source_temporal_attestations', 'unresolved_kinship_references'):
             if key in b: profile[key] = b[key]
         profile['person_ids'] = b['person_ids']
