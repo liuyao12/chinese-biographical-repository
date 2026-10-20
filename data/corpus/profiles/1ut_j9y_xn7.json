@@ -124,6 +124,50 @@
       "work_title": "南史"
     },
     {
+      "number": 38,
+      "category": "",
+      "title": "卷三十八：王慧龍及寶興、瓊、遵業、松年完整附敘與共評",
+      "paragraph_id": "c-weishu-weishou-038-wanghuilong:unit001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "公土人王騰等謀舉兵推慧龍為盟主尅日襲州城而劉裕聞詠之卒亦懼江陵有變遣其弟道規為荆州衆遂不果羅脩將慧龍又與僧彬北詣襄陽司馬徳宗雍州刺史魯宗之資給慧龍送渡江遂自虎牢奔于姚興其自言也如此",
+      "paragraph_ids": [
+        "c-weishu-weishou-038-wanghuilong:unit001"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-038-wanghuilong:unit001:m0206",
+        "c-weishu-weishou-038-wanghuilong:unit001:m0207"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-038-wanghuilong:unit001:m0206": "c-weishu-weishou-038-wanghuilong:unit001",
+        "c-weishu-weishou-038-wanghuilong:unit001:m0207": "c-weishu-weishou-038-wanghuilong:unit001"
+      },
+      "mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0206",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0206",
+          "mention_ids": [
+            "c-weishu-weishou-038-wanghuilong:unit001:m0206"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0207",
+          "mention_ids": [
+            "c-weishu-weishou-038-wanghuilong:unit001:m0207"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-038",
+      "chapter_id": "c-weishu-weishou-038-wanghuilong",
+      "source_id": "s-weishu-weishou-038-wanghuilong",
+      "work_title": "魏書（魏收）"
+    },
+    {
       "number": 66,
       "category": "",
       "title": "王敬弘傳",
@@ -776,11 +820,79 @@
         },
         "response_sha256": "9013a139e290c6c7da1b1ef4a8b30f374a0a9547a08e52d14455811dfa5358f7"
       }
+    },
+    {
+      "chapter_id": "c-weishu-weishou-038-wanghuilong",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-038",
+      "source_id": "s-weishu-weishou-038-wanghuilong",
+      "source": {
+        "title": "魏書／卷三十八／王慧龍完整傳及附敘",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt",
+        "permalink": "https://github.com/kanripo/KR2a0020/blob/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_038.txt",
+        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "source_blob": "c3fddb10227cd450724cb39a7d4c3ec86a3f7fef",
+        "raw_file_sha256": "07faab280233959bfa89a0354119c2b67f7ad1f23c1e1b8ebd67deb6927e6deb",
+        "raw_path": "sources/weishu-weishou/KR2a0020_038-17b6525.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "raw225–339完整王慧龍至遵業子松年；375–380完整四傳共評。非全卷處理。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去物理空白、¶及頁碼；保(闕/)四字與全部原字，逐字raw座標另存。",
+          "excerpts": []
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-weishu038-wanghuilong-001",
+      "subject_person_id": "1ut_j9y_xn7",
+      "predicate": "brother",
+      "object_person_id": "3dv_ken_w58",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "其弟道規",
+        "older_person_id": "3dv_ken_w58",
+        "younger_person_id": "1ut_j9y_xn7",
+        "relative_birth_order": {
+          "older_person_id": "3dv_ken_w58",
+          "younger_person_id": "1ut_j9y_xn7",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-038",
+          "source_id": "s-weishu-weishou-038-wanghuilong",
+          "chapter_id": "c-weishu-weishou-038-wanghuilong",
+          "paragraph_id": "c-weishu-weishou-038-wanghuilong:unit001",
+          "quote": "王慧龍自云太原晉陽人司馬徳宗尚書僕射愉之孫散騎侍郎緝之子也㓜聰慧愉以為諸孫之龍故名焉初劉裕㣲時愉不為禮及得志愉合家見誅慧龍年十四為沙門僧彬所匿百餘日將慧龍過江為津人所疑曰行意怱怱徬徨得非王氏諸子乎僧彬曰貧道從師有年止西岸今暫欲定省還期無逺此隨吾受業者何至如君言既濟遂西上江陵依叔祖忱故吏荆州前治中習辟疆時刺史魏詠之卒辟疆與江陵令羅脩前别駕劉期公土人王騰等謀舉兵推慧龍為盟主尅日襲州城而劉裕聞詠之卒亦懼江陵有變遣其弟道規為荆州衆遂不果羅脩將慧龍又與僧彬北詣襄陽司馬徳宗雍州刺史魯宗之資給慧龍送渡江遂自虎牢奔于姚興其自言也如此",
+          "subject_person_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0206",
+          "object_person_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0043"
+        }
+      ],
+      "interpretation_note": "僅本源明言，不補未知父母、不以自述身世接愉根，不推生母。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "related_people": {
-    "1ut_j9y_xn7": "臨川王道規"
+    "1ut_j9y_xn7": "臨川王道規",
+    "3dv_ken_w58": "宋高祖裕"
   },
   "dates": [],
   "reading_decisions": [
@@ -841,7 +953,44 @@
   "person_ids": [
     "1ut_j9y_xn7"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-weishu038-wanghuilong-001",
+      "subject_person_id": "1ut_j9y_xn7",
+      "predicate": "brother",
+      "object_person_id": "3dv_ken_w58",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "其弟道規",
+        "older_person_id": "3dv_ken_w58",
+        "younger_person_id": "1ut_j9y_xn7",
+        "relative_birth_order": {
+          "older_person_id": "3dv_ken_w58",
+          "younger_person_id": "1ut_j9y_xn7",
+          "operator": "lt",
+          "scope": "siblings",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-038",
+          "source_id": "s-weishu-weishou-038-wanghuilong",
+          "chapter_id": "c-weishu-weishou-038-wanghuilong",
+          "paragraph_id": "c-weishu-weishou-038-wanghuilong:unit001",
+          "quote": "王慧龍自云太原晉陽人司馬徳宗尚書僕射愉之孫散騎侍郎緝之子也㓜聰慧愉以為諸孫之龍故名焉初劉裕㣲時愉不為禮及得志愉合家見誅慧龍年十四為沙門僧彬所匿百餘日將慧龍過江為津人所疑曰行意怱怱徬徨得非王氏諸子乎僧彬曰貧道從師有年止西岸今暫欲定省還期無逺此隨吾受業者何至如君言既濟遂西上江陵依叔祖忱故吏荆州前治中習辟疆時刺史魏詠之卒辟疆與江陵令羅脩前别駕劉期公土人王騰等謀舉兵推慧龍為盟主尅日襲州城而劉裕聞詠之卒亦懼江陵有變遣其弟道規為荆州衆遂不果羅脩將慧龍又與僧彬北詣襄陽司馬徳宗雍州刺史魯宗之資給慧龍送渡江遂自虎牢奔于姚興其自言也如此",
+          "subject_person_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0206",
+          "object_person_mention_id": "c-weishu-weishou-038-wanghuilong:unit001:m0043"
+        }
+      ],
+      "interpretation_note": "僅本源明言，不補未知父母、不以自述身世接愉根，不推生母。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

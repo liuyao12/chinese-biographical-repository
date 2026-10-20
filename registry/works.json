@@ -1332,6 +1332,15 @@
           "chapter_ids": [
             "c-sanguozhi-028-wangling"
           ]
+        },
+        {
+          "id": "b-sanguozhi-009",
+          "work_id": "w-sanguozhi",
+          "number": 9,
+          "title": "卷009",
+          "chapter_ids": [
+            "c-sanguozhi-009-caoxiu"
+          ]
         }
       ]
     },
@@ -1568,6 +1577,15 @@
           "title": "卷077",
           "chapter_ids": [
             "c-jinshu-077-yinhao"
+          ]
+        },
+        {
+          "id": "b-jinshu-090",
+          "work_id": "w-jinshu",
+          "number": 90,
+          "title": "卷090",
+          "chapter_ids": [
+            "c-jinshu-090-caoshu"
           ]
         }
       ]
@@ -1912,6 +1930,51 @@
         }
       ],
       "note": "只登記062陳紀傳明言著書號曰的書名，不表示已收正文或確定傳本；022世謂之陳子仍為人物稱呼。"
+    },
+    {
+      "id": "w-weishu-weishou",
+      "title": "魏書（魏收）",
+      "author": "魏收（傳世本題署）",
+      "status": "in_progress",
+      "expected_books": 114,
+      "books": [
+        {
+          "id": "b-weishu-weishou-038",
+          "work_id": "w-weishu-weishou",
+          "number": 38,
+          "title": "卷三十八：列傳第二十六",
+          "chapter_ids": [
+            "c-weishu-weishou-038-wanghuilong"
+          ]
+        },
+        {
+          "id": "b-weishu-weishou-024",
+          "work_id": "w-weishu-weishou",
+          "number": 24,
+          "title": "卷二十四 列傳第十二",
+          "chapter_ids": [
+            "c-weishu-weishou-024-cuixuanbo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-beishi",
+      "title": "北史",
+      "author": "李延壽（傳世本題署）",
+      "status": "in_progress",
+      "expected_books": 100,
+      "books": [
+        {
+          "id": "b-beishi-021",
+          "work_id": "w-beishi",
+          "number": 21,
+          "title": "卷二十一 列傳第九",
+          "chapter_ids": [
+            "c-beishi-021-cuihong"
+          ]
+        }
+      ]
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"

@@ -116,6 +116,13 @@ def load_assemblies(root, catalog):
                     if connection.get('type') == 'parent_between_consecutive_ancestors':
                         if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
+                    elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':
+                        try:
+                            from .body_note_ancestry import body_note_ancestor_parent_valid
+                        except ImportError:
+                            from body_note_ancestry import body_note_ancestor_parent_valid
+                        if not body_note_ancestor_parent_valid(member, rows, assertions, chapters, root):
+                            raise ValueError('正文與所附裴注祖先接合須有同一人物單元及逐字雙來源，不能補造明父')
                     elif connection.get('type') == 'parent_through_paternal_uncle':
                         try:
                             from .uncle_parentage import parent_through_paternal_uncle_valid

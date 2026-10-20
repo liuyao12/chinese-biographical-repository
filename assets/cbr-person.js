@@ -70,7 +70,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const titleLabel=x=>{
     const reading=titleReadings.get(x.id);
     const label=reading?`<strong>${h(reading.preferred_title)}</strong><br><small>${ui('Provisional reading; source spelling: {text}',{text:reading.source_title})}</small>`:`<strong>${h(x.title)}</strong>`;
-    return label+(x.appointment_role==='acting'?` <small class="person-acting-office">${ui('Acting appointment')}</small>`:'')
+    return label+(x.mode === 'posthumous_grant' ? ' <small class="person-posthumous-grant">追贈（非生前實任）</small>' : '')+(x.appointment_role==='acting'?` <small class="person-acting-office">${ui('Acting appointment')}</small>`:'')
       +(x.mode==='attestation'&&unassumedAppointments.some(a=>a.title===x.title)?` <small class="person-unassumed-office">${ui('Separate record of appointment not taken up')}</small>`:'');
   };
   const relativeList = entries => entries?.length ? entries.map(x => `<div class="person-family-member"><a href="${h(profileURL(x.person?.id || x.id))}">${h(x.label)}</a>${x.cycle ? '（世系循環，停止追溯）' : ''}${x.unavailable ? '（資料未載入）' : ''}${x.role === 'legal_or_dynastic' ? '（法定／宗統）' : ''}${x.role === 'assembly_inferred' ? '（父系暫定）' : ''}${x.marriage_status === 'source_attested_divorce' ? ` <small>（${h(t('Divorced (source-attested)'))}）</small>` : ''}<details><summary>親屬來源</summary>${x.inference_note ? `<p>${h(x.inference_note)}</p>` : ''}${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></div>`).join('') : '';
@@ -81,7 +81,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     [t('Adopted children (source-attested chuji)'), family.adopted_children || [], ''],
     ['配偶', family.spouses, ''], ['子女', family.children, '']
   ].filter(([, entries]) => entries.length).map(([label, entries, note]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries)}</dd>`).join('') : '';
-  const familyHTML = familyRows ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl></section>` : '';
+  const unresolvedSpouses = (family?.unresolved_spouse_groups || []).map(g => `<div class="person-pending-spouse-group" data-identity-group="${h(g.id)}"><strong>配偶指涉未決：是否同一人尚未判定</strong><p>${h(g.rationale)}</p><ul>${g.references.map(r => `<li>來源稱法：${h(r.span.surface)}${evidenceQuotes(r)}${evidenceLinks([r])}</li>`).join('')}</ul><small>此組不表示已證一人或兩人；原始配偶陳述均保留。</small></div>`).join('');
+  const familyHTML = familyRows || unresolvedSpouses ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl>${unresolvedSpouses}</section>` : '';
   const ownIDs = new Set(p.person_ids || [p.id]);
   const successions = (p.relations || []).filter(r => ownIDs.has(r.subject_person_id) && r.qualifiers?.succession).map(r => {
     const s=r.qualifiers.succession;
@@ -132,7 +133,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   for (const x of p.titles || []) {
     const duration=x.reported_duration?Object.fromEntries(Object.entries(x.reported_duration).filter(([key])=>key!=='evidence')):null;
     const factsKey = x.title + '|' + JSON.stringify(x.reported_office_event_counts || null) + '|' + JSON.stringify(stableTitleFacts([x.kind || null, x.jurisdictions || null, duration, x.duration_scope || null, x.appointment_role || null, x.punctuation_attribution || null]));
-    const key = factsKey + '|' + x.period;
+    const key = factsKey + '|' + x.period + (x.mode === 'posthumous_grant' ? '|posthumous_grant' : '');
     if (!grouped.has(key)) grouped.set(key, {...x, factsKey, evidence: [], date_periods: [], source_usages: []});
     grouped.get(key).evidence.push(...(x.evidence || []));
     grouped.get(key).date_periods.push(x.effective_period);

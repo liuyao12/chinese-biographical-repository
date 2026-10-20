@@ -406,7 +406,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                     'status':reading['status'],'rationale':reading['rationale']})
     tree_decisions = [decision for record in records if record.get('record_type') == 'family_tree_decision_set'
                       for decision in record['decisions'] if ids.intersection(decision['participant_person_ids'])]
+    try:
+        from .unresolved_relation_identity import relevant_groups
+    except ImportError:
+        from unresolved_relation_identity import relevant_groups
+    unresolved_relation_groups = relevant_groups(chapters, {a['id']: a for record in records for a in record.get('assertions', [])}, set(people), ids)
     excluded = {aid for decision in tree_decisions for aid in decision['excluded_assertion_ids']}
+    excluded.update(aid for group in unresolved_relation_groups for aid in group['assertion_ids'])
     preferred_relations = []
     for assertion in relations:
         if assertion['id'] in excluded:
@@ -704,6 +710,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),
             'reported_variants': reported_variants,
             **({'preferred_title_readings':preferred_titles} if preferred_titles else {}),
+            **({'unresolved_relation_identity_groups': unresolved_relation_groups} if unresolved_relation_groups else {}),
             'family_tree_decisions': tree_decisions, 'preferred_relations': preferred_relations,
             'family_tree_policy': {'default': 'editorial_preferred', 'original_assertions_preserved': True,
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},

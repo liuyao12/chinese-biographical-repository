@@ -88,7 +88,7 @@ except ImportError:
     from date_ranges import parallel_event_date
 
 
-def normalized_date_errors(date, chapters=None):
+def normalized_date_errors(date, chapters=None, root=ROOT):
     errors = []
     if not isinstance(date, dict):
         return ['紀年換算須為物件']
@@ -118,6 +118,12 @@ def normalized_date_errors(date, chapters=None):
                 source_name = mapping.get('source_era_name', name)
                 spelling_ok = (source_name == name or (source_name, name) in
                                (('昇平', '升平'), ('升明', '昇明')))
+                if 'era_name_bridge' in date:
+                    try:
+                        from scripts.primary_era_abbreviation import valid as era_abbreviation_valid
+                    except ImportError:
+                        from primary_era_abbreviation import valid as era_abbreviation_valid
+                    spelling_ok = era_abbreviation_valid(date, chapters or {}, root)
                 prefix = mapping.get('source_polity_prefix', '')
                 prefix_ok = ('source_polity_prefix' not in mapping or
                              (isinstance(prefix, str) and bool(prefix) and isinstance(ref, dict)
@@ -536,6 +542,12 @@ def validate(root=ROOT):
         family_relations = [a for path in (root / 'corpus').glob('*/*-assertions.json')
                             for a in json.loads(path.read_text()).get('assertions', [])]
         assertion_index = {a['id']: a for a in family_relations}
+        try:
+            from scripts.unresolved_relation_identity import group_errors
+        except ImportError:
+            from unresolved_relation_identity import group_errors
+        for grouped_chapter in chapters.values():
+            errors.extend(group_errors(grouped_chapter, assertion_index, pids))
         equivalence_index = {d['id']: d for path in (root / 'corpus').glob('*/*-equivalences.json')
                              for d in json.loads(path.read_text()).get('decisions', [])}
         tree_decision_ids = set()
@@ -793,7 +805,7 @@ def validate(root=ROOT):
                     check(False,'同指決定代表循環');break
                 seen.add(current);current=canonical_links[current]
         def validate_date_evidence(date, context_evidence, expression=None, bound_record=None, bound_role=None):
-            errors.extend(normalized_date_errors(date, chapters))
+            errors.extend(normalized_date_errors(date, chapters, root=root))
             if isinstance(date, dict):
                 check(binding_valid(date, bound_record, bound_role), '初中末年號紀年須綁實際同人同官授任／生卒記錄')
             if not isinstance(date, dict):
@@ -1699,7 +1711,7 @@ def validate(root=ROOT):
                     errors.extend(year_range_errors(age['normalized_date_range'], age['evidence'], age.get('date_expression')))
                     errors.extend(table_regnal_range_errors(age['normalized_date_range'], age.get('date_expression'), tables, mentions))
                 if 'normalized_date' in age:
-                    errors.extend(normalized_date_errors(age['normalized_date'], chapters))
+                    errors.extend(normalized_date_errors(age['normalized_date'], chapters, root=root))
                     check(age['normalized_date'].get('original_quote') in [e['quote'] for e in age['evidence']], '來源年齡紀年原句不符')
             for age in chapter['annotation'].get('age_difference_assertions', []):
                 check(age['id'] not in age_ids, '年齡差記錄ID重複'); age_ids.add(age['id'])
@@ -1789,7 +1801,7 @@ def validate(root=ROOT):
                 check(bool(address['place']['source_name']) and bool(address['evidence']), '地址原地名或證據缺失')
                 if 'normalized_date' in address:
                     date = address['normalized_date']
-                    errors.extend(normalized_date_errors(date, chapters))
+                    errors.extend(normalized_date_errors(date, chapters, root=root))
                     if isinstance(date, dict):
                         for evidence in date.get('evidence', []):
                             hit = paragraphs.get(evidence['paragraph_id'])
@@ -1990,7 +2002,7 @@ def validate(root=ROOT):
                     errors.extend(year_range_errors(year_window, event['evidence'], range_expression))
                     errors.extend(table_regnal_range_errors(year_window, expression, tables, mentions))
                 if 'normalized_date' in event:
-                    date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters))
+                    date = event['normalized_date']; errors.extend(normalized_date_errors(date, chapters, root=root))
                     check(binding_valid(date, event, 'life_event'), '初中末年號紀年須綁實際同人死亡事件')
                     check(isinstance(expression, str) and bool(expression) or parallel_event_date(date), '生卒數字紀年缺原日期表述')
                     if isinstance(date, dict):

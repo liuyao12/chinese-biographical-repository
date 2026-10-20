@@ -2,6 +2,12 @@
 
 
 def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'bound_death_serial_gift':
+        try:
+            from scripts.bound_serial_posthumous import valid
+        except ImportError:
+            from bound_serial_posthumous import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
     if (isinstance(holding.get('posthumous_basis'), dict)
             and holding['posthumous_basis'].get('kind') == 'named_recipient_after_same_paragraph_death'):
         return named_recipient_prior_death_valid(holding, paragraphs, mentions, life_events or {})
