@@ -995,3 +995,19 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ### 旁親提供其子嗣封的爵位鏈
 
 既有holding.inheritance沿predecessor_holding_id機讀；source title仍為嗣封／嗣，resolved_title為前爵省稱判讀。named_collateral_succession只接受同段「無子弟具名兄弟以子具名承繼者嗣封」、已驗兄弟與明父兩斷言，以及該傳主同段明授爵holding及原位。其前任不是父親，此項不生成收養、叔侄或同母。之後明子嗣可用既有father繼爵鏈。承爵始末未知，不因前任卒或後文元嘉末補年；原文用稱與解析爵名分存。bundle附holding即前任人物以供名稱與連結，卡片可循既有inheritance展示前任及來源，父系trace不循承爵鏈。
+
+
+### 傳記開篇明列小名
+
+`xiaoming_basis.kind: explicit_biographical_name_sequence` 保存原段開篇「某諱某字某小名某」。主體、名、字、小名四處人物錨點必須互異而同人物ID；諱、字、小名三個原詞及整句位置完整相接，保原段全文。`ming`、`zi`、`xiaoming` 分別對應原詞，不由別名清單猜測。此型不要求原文同時出現父名，與既有父子小名對舉模型分開；不放寬其四錨、主客、父子及原詞檢查。來源中未明姓者保持未知，跨來源明姓另存姓名記錄，不反寫到原句。
+
+
+### 宋041原文時間、同年生日分歧與未決弟孫
+
+`source_temporal_attestation_set` 的 records 逐項保存人物、原詞字位、完整原段、事件語境及原生換年或時長。`date_role: source_context_not_title_boundary` 明示不是持職端點或另造實際生卒事件；年號字形興寜可對教育部興寧，原字不改。其年須接本段永初二年，踐阼／即大位須接同段元熙二年入朝受禪；義熙十二年為插敘，不能誤接宋王年序。五年是整段在外時長，不配給兩城各五年；背世五十餘年只存gt50距離，不算死年；百嵗後為prospective葬令，不生報齡100。
+
+`unresolved_kinship_references` 保存弟孫襲之原詞及裔／宣之兩個指涉候選，preferred_reference_person_id、father、共祖、世代與親等均null。這不是生父或養父，不加入trace。`ritual_successor_of` 的 ji_named_predecessor 窄句型只接受具名襲之繼宣之雙錨，不推出收養。
+
+`kinship_unspecified` 的 stepfamily_grandparent_appellation 保存蕭光祿外祖用稱，綁同源蕭后之父與聘為繼室兩斷言，生系端點null，不進父系或生母父。婚生父稱 marital_biographical_birth_context 需同句聘繼室生二明名子及明生母、同配偶原證，與母明生直接語法分層，不能泛由配偶推父。
+
+`life_event_date_decision_set` 可窄用 comparison_scope: source_calendar_day，僅兩筆同人birth、同一已換數字中國曆年、原文明三月壬寅／四月二日的不同月日claim；只可unresolved且preferred_event_id=null，不換算西曆日。原有不同年份契約不變。原報21／81歲綁同人死亡，birth_year維持null。

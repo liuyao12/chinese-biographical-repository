@@ -48,8 +48,13 @@ class HeEmpressCompleteUnitTests(unittest.TestCase):
             self.assertEqual(mentions[surface]['kind'], 'person')
             self.assertEqual((mentions[surface]['person_id'], mentions[surface]['id']), (pid, mid))
         decisions = json.loads((ROOT / 'corpus/jinshu/032-he-empress-identities.json').read_text())['decisions']
-        self.assertEqual(len(decisions), 2)
-        self.assertEqual({d['references'][0]['book_id'] for d in decisions}, {'b-jinshu-065', 'b-jinshu-076'})
+        officials = [d for d in decisions if d['id'] != 'd-jin032-he-aidi']
+        self.assertEqual(len(officials), 2)
+        self.assertEqual({d['references'][0]['book_id'] for d in officials}, {'b-jinshu-065', 'b-jinshu-076'})
+        emperor = next(d for d in decisions if d['id'] == 'd-jin032-he-aidi')
+        second = {m['surface']: m for m in chapter['paragraphs'][1]['mentions']}
+        self.assertEqual(second['哀帝']['person_id'], 'emb_vx4_gm9')
+        self.assertIn(second['哀帝']['id'], emperor['identification_basis']['target_mention_ids'])
         self.assertEqual(mentions['綜']['kind'], 'unresolved')
 
     def test_existing_jin32_selection_is_preserved(self):

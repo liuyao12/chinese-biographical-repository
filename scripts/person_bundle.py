@@ -690,6 +690,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in referent_cases for a in case['alternatives'] for p in a['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
+    for chapter in chapters.values():
+        for case in chapter['annotation'].get('unresolved_kinship_references', []):
+            if case['person_id'] in ids or ids.intersection(case['reference_person_candidates']):
+                neighbor_ids.update([case['person_id']] + case['reference_person_candidates'])
     neighbor_ids.update(h['inheritance']['predecessor_person_id'] for h in titles if 'inheritance' in h)
     date_ranges = [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'],
                         date_role=role, event_type=e['event_type'])
@@ -714,6 +718,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         elif isinstance(value, list):
             for item in value: found.update(context_ids(item))
         return found
+    source_temporal_attestations = [r for record in records if record.get('record_type') == 'source_temporal_attestation_set' for r in record['records'] if r['person_id'] in ids]
+    unresolved_kinship_references = [r for chapter in chapters.values() for r in chapter['annotation'].get('unresolved_kinship_references', []) if r['person_id'] in ids or ids.intersection(r['reference_person_candidates'])]
     used_context_ids = context_ids(titles + life_events + person_events)
     calendar_context_assertions = [c for record in records
         if record.get('record_type') == 'calendar_context_assertion_set'
@@ -726,6 +732,8 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'source_temporal_attestations': source_temporal_attestations} if source_temporal_attestations else {}),
+            **({'unresolved_kinship_references': unresolved_kinship_references} if unresolved_kinship_references else {}),
             **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),

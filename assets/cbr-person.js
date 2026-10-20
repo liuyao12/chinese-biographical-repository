@@ -110,6 +110,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     try {const u=new URL(ref.url);if(['http:','https:'].includes(u.protocol))url=u.href;}catch{}
     return `<p class="person-name-alternative">${ui('Name component alternative')}：${labels.join('、')}（${ui('Not selected as default')}）</p><blockquote>${h(ref.quote || '')}</blockquote>${url?`<a href="${h(url)}" target="_blank" rel="noopener">${ref.title?h(ref.title):ui('Source')}</a>`:''}`;
   }).join('');
+  const contextEvidence = [...(p.source_temporal_attestations || []), ...(p.unresolved_kinship_references || [])];
+  const contextHTML = contextEvidence.length ? `<details class="person-source-context"><summary>來源中的時間與未決親屬</summary>${contextEvidence.map(x => `<p><q>${h(x.source_term)}</q>${x.normalized_date ? ` · 西元${h(x.normalized_date.era_year)}年（中國曆年）` : ''}${x.prospective ? ' · 身後令，非實際報齡' : ''}</p><p>${h(x.event_context || x.rationale || '')}</p>${(x.evidence || []).map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}`).join('')}</details>` : '';
   const life = summarizeLife(p);
   const lifeChoice = event => {
     const d=(p.life_event_date_decisions || []).find(d=>d.candidate_event_ids.includes(event.id));
@@ -283,6 +285,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   const relations = (p.relations || []).filter(r => r.predicate !== 'teacher'), labels = {raised_by:t('Caregiver'),ritual_successor_of:t('Ritual predecessor'),father:'父',mother:'生母',stepmother:'後母',adoptive_mother:'所母',adoptive_father:t('Adoptive father (source-attested chuji)'),spouse:'配偶',son:'子',daughter:'女',brother:'兄弟',grandfather:'祖父',great_grandfather:'曾祖父',ancestor:t('Ancestor'),paternal_uncle:t('Paternal uncle'),maternal_uncle:t('Maternal uncle'),maternal_aunt:t('Maternal aunt'),agnatic_senior_kin:t('Paternal collateral relative one generation senior'),agnatic_cousin:t('Paternal same-generation collateral relative'),maternal_cousin:t('Maternal aunt cousin')};
   const relationPersonLink = id => `<a class="person-kinship-link" href="${h(profileURL(id))}">${h(p.related_people?.[id] || id)}</a>`;
   const relationLabel = x => {
+    if (x.qualifiers?.kinship_basis === 'stepfamily_grandparent_appellation') return '繼室母家外祖稱（非已證生系）';
     if (x.predicate === 'maternal_role') return x.qualifiers?.role === 'prior_mother' ? t('Prior mother (source wording)') : t('Mother (birth unspecified)');
     if (x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal') return t('Maternal grandfather');
     const order=x.qualifiers?.relative_birth_order;
@@ -314,6 +317,7 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   ${full && relations.length ? `<section><h4>來源所記親屬</h4><ul>${relations.map(x => `<li>${relationPersonLink(x.subject_person_id)} · ${h(relationLabel(x))}：${relationPersonLink(x.object_person_id)}${x.qualifiers?.adopted_for_family_tree === false ? ' <small class="person-unadopted-ancestry">'+ui('Relationship claim not adopted into family tree')+'</small>' : ''}<details><summary>來源與關係原詞</summary><p>${h(x.qualifiers?.source_term || '')}</p>${x.evidence.map(e => `${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details></li>`).join('')}</ul></section>` : ''}
   ${full && p.table_occurrences?.length ? `<section><h4>表中原文</h4><ul class="person-occurrences">${(p.table_occurrences || []).map(x => `<li><a href="${h(tableOccurrenceURL(x))}">${h(x.title)} · ${h(yearLabel(x.year))} →</a><blockquote>${h(x.quote)}</blockquote>${x.mention?.identity_evidence?.length ? `<details class="person-identity-evidence"><summary>人物同指的篇文證據 · 暫定</summary>${x.mention.identity_evidence.map(e => `<blockquote>${h(e.quote)}</blockquote>${evidenceLinks([e])}${e.source_revision ? `<p><small>固定修訂 <code>${h(e.source_revision)}</code></small></p>` : ''}`).join('')}</details>` : ''}</li>`).join('')}</ul></section>` : ''}
   ${occurrences.length ? `<section><h4>出現篇章</h4><ul class="person-occurrences">${occurrences.slice(0, full ? undefined : 3).map(x => `<li><a href="${h(sourcePassageURL(x))}">《${h(x.work_title || '史記')}·${h(x.title)}》 →</a>${full ? `<p><q>${h(x.quote)}</q></p>` : ''}<small>${h(occurrenceCountLabel(x))}</small></li>`).join('')}</ul></section>` : ''}
+  ${contextHTML}
   ${full ? `<details class="person-data-download"><summary>資料識別與機讀檔案</summary><code>${h(p.id)}</code><p><a href="data/corpus/profiles/${encodeURIComponent(p.id)}.json">人物頁 JSON</a>${p.review !== 'source_local_candidate' ? ` · <a class="person-source-bundle-link" href="${h(personBundleURL(p.id, sourceRef))}">CBR 完整來源包</a>` : ''}</p></details>` : `<a class="person-profile-button" href="${h(profileURL(p.id))}">閱讀完整人物頁 →</a>`}</article>`;
 }
 export function markCell(cell, context = null) {

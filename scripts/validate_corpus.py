@@ -117,7 +117,7 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 parsed = 1 if number == '元' else source_age_number(number)
                 source_name = mapping.get('source_era_name', name)
                 spelling_ok = (source_name == name or (source_name, name) in
-                               (('昇平', '升平'), ('升明', '昇明')))
+                               (('昇平', '升平'), ('升明', '昇明'), ('興寜', '興寧')))
                 if 'era_name_bridge' in date:
                     try:
                         from scripts.primary_era_abbreviation import valid as era_abbreviation_valid
@@ -1317,6 +1317,12 @@ def validate(root=ROOT):
                     check(valid(a, paragraphs), '母系旁親／哺養須有固定原句與雙人物錨點，不得補父母或親等')
                     if 'relative_age_interpretation' in qualifiers:
                         check(chronology_caution_valid(a, root), '從母兄年代張力須綁既有407／41／363原證，不得默採長幼或推生日')
+                if qualifiers.get('parentage_basis') == 'marital_biographical_birth_context':
+                    try:
+                        from scripts.song041_source_context import marital_birth_context_valid
+                    except ImportError:
+                        from song041_source_context import marital_birth_context_valid
+                    check(marital_birth_context_valid(a, paragraphs, d['assertions']), '婚生父稱判讀須有同句婚配、明生母與兩個明名孩子，不得由配偶泛推父親')
                 if 'marriage_termination' in qualifiers:
                     try:
                         from scripts.marriage_termination import marriage_termination_valid
@@ -1484,6 +1490,12 @@ def validate(root=ROOT):
                         except ImportError:
                             from contextual_relations import weiqin_pair_valid
                         check(weiqin_pair_valid(a, paragraphs), '為親須保存原詞雙端、完整引文及未知親等，不得接成父系')
+                    elif qualifiers.get('kinship_basis') == 'stepfamily_grandparent_appellation':
+                        try:
+                            from scripts.song041_source_context import kin_clause_valid
+                        except ImportError:
+                            from song041_source_context import kin_clause_valid
+                        check(kin_clause_valid(a, paragraphs, d['assertions']), '繼室母家外祖稱須有婚配與明父原證，不得作生系')
                     elif qualifiers.get('kinship_basis') == 'external_clan_affiliation':
                         check('外族' in qualifiers.get('source_term', '')
                               and qualifiers.get('lineage') == 'unspecified'
@@ -1799,6 +1811,16 @@ def validate(root=ROOT):
                         check(age.get('source_term') in terms and age.get('source_term') in quote, '年齡差原詞與參考人物不符')
         for report in age_report_groups.values():
             check('qualified_report' in report['statuses'], '報齡替代傳聞缺同組主報齡')
+        try:
+            from scripts.song041_source_context import temporal_errors, unresolved_kin_errors
+        except ImportError:
+            from song041_source_context import temporal_errors, unresolved_kin_errors
+        context_events = {e['id']:e for path in (root / 'corpus').glob('*/*-life-events.json') for e in json.loads(path.read_text())['events']}
+        for path in (root / 'corpus').glob('*/*-temporal.json'):
+            errors.extend(temporal_errors(json.loads(path.read_text()), chapters, pids, normalized_date_errors, context_events))
+        for chapter in chapters.values():
+            for case in chapter['annotation'].get('unresolved_kinship_references', []):
+                errors.extend(unresolved_kin_errors(case, chapters, pids))
         address_ids = set()
         for path in (root / 'corpus').glob('*/*-addresses.json'):
             record = json.loads(path.read_text(encoding='utf-8'))

@@ -1,0 +1,87 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-songshu-001-parents-reference",
+  "events": [
+    {
+      "id": "le-song001-yu-birth",
+      "person_id": "3dv_ken_w58",
+      "event_type": "birth",
+      "source_term": "髙祖以晉哀帝興寜元年嵗次癸亥三月壬寅夜生",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-001-parents-reference:p002",
+        "start": 8,
+        "end": 28,
+        "surface": "髙祖以晉哀帝興寜元年嵗次癸亥三月壬寅夜生"
+      },
+      "date_expression": "興寜元年嵗次癸亥三月壬寅",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-001",
+          "source_id": "s-songshu-001-parents-reference",
+          "chapter_id": "c-songshu-001-parents-reference",
+          "paragraph_id": "c-songshu-001-parents-reference:p002",
+          "quote": "郡功曹翹是為皇考髙祖以晉哀帝興寜元年嵗次癸亥三月壬寅夜生",
+          "person_mention_id": "c-songshu-001-parents-reference:p002:m0008"
+        }
+      ],
+      "interpretation_note": "原文明詞保存；未知紀年不補、報齡不推生日。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 363,
+        "year": 363,
+        "calendar": "chinese_civil",
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "source_expression": "興寜元年",
+        "original_quote": "郡功曹翹是為皇考髙祖以晉哀帝興寜元年嵗次癸亥三月壬寅夜生",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-001",
+            "source_id": "s-songshu-001-parents-reference",
+            "chapter_id": "c-songshu-001-parents-reference",
+            "paragraph_id": "c-songshu-001-parents-reference:p002",
+            "quote": "郡功曹翹是為皇考髙祖以晉哀帝興寜元年嵗次癸亥三月壬寅夜生",
+            "person_mention_id": "c-songshu-001-parents-reference:p002:m0008"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "興寧",
+            "columns": {
+              "dynasty": "晉",
+              "era_name": "興寧",
+              "first_year": "363",
+              "last_year": "365"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "興寧",
+          "source_number": "元",
+          "regnal_year": 1,
+          "start_ce_year": 363,
+          "end_ce_year": 365,
+          "reference_index": 0,
+          "source_era_name": "興寜"
+        },
+        "rationale": "依明年號與教育部年號起訖對應中國曆年，不換算月日、不推生齡。",
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null
+      }
+    }
+  ]
+}

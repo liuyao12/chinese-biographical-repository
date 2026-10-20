@@ -1,9 +1,8 @@
 {
   "id": "case-song041-lingwen-shiji049-preexisting-duplicate",
-  "status": "unresolved_not_merged_in_this_package",
+  "status": "resolved_identity_materialized",
   "person_ids": [
-    "9zj_vf7_86a",
-    "fdi_2l0_u1g"
+    "9zj_vf7_86a"
   ],
   "trigger": {
     "chapter_id": "c-songshu-041-parents",
@@ -76,7 +75,7 @@
           "end": 32,
           "surface": "薄案",
           "kind": "person",
-          "person_id": "fdi_2l0_u1g",
+          "person_id": "9zj_vf7_86a",
           "status": "contextual_provisional"
         }
       ]
@@ -110,7 +109,7 @@
           "end": 20,
           "surface": "薄案",
           "kind": "person",
-          "person_id": "fdi_2l0_u1g",
+          "person_id": "9zj_vf7_86a",
           "status": "contextual_provisional"
         },
         {
@@ -167,5 +166,10 @@
   "reason": "049同敘薄太后父吳人、生薄姬、薄案死山陰及追尊靈文侯，很強支持同人。現父與薄案兩ID分立，本包只列兩候選；將來可保原字而採身份同指，父吳人marker亦需獨立縮詞與保原ID。",
   "source_word_change": false,
   "public_alias_added": false,
-  "human_reviewed": false
+  "human_reviewed": false,
+  "canonical_person_id": "9zj_vf7_86a",
+  "identity_equivalence_decision_ids": [
+    "eq-shiji049-bo-father-lingwen"
+  ],
+  "resolution_note": "按史記同篇生育、死亡、葬地及父母兩園敘事接合；薄案原字保留，不以案作名。人物提及與身份ID全層更新，舊公開檔待本批匯出撤除。"
 }

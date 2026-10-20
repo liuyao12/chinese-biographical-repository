@@ -86,18 +86,212 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-song041-kin-009",
+      "subject_person_id": "lc5_nwz_ikf",
+      "object_person_id": "bmu_ige_b8v",
+      "predicate": "ritual_successor_of",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "襲之繼宣之",
+        "succession_kind": "ji_named_predecessor",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred",
+        "source_clause_binding": {
+          "kind": "named_successor_ji_named_predecessor",
+          "start": 294,
+          "end": 299
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "subject_person_mention_id": "c-songshu-041-parents:p001:m0294",
+          "object_person_mention_id": "c-songshu-041-parents:p001:m0297"
+        }
+      ],
+      "interpretation_note": "原文明稱；不由此推未知親屬或年月。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-song041-kin-010",
+      "subject_person_id": "c7k_wg2_a9m",
+      "object_person_id": "lc5_nwz_ikf",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "襲之卒子祖憐嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "subject_person_mention_id": "c-songshu-041-parents:p001:m0305",
+          "object_person_mention_id": "c-songshu-041-parents:p001:m0294"
+        }
+      ],
+      "interpretation_note": "原文明稱；不由此推未知親屬或年月。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "related_people": {
-    "lc5_nwz_ikf": "襲之〔宣之繼者〕"
+    "bmu_ige_b8v": "宣之〔趙裔長子〕",
+    "c7k_wg2_a9m": "祖憐〔襲之子〕",
+    "lc5_nwz_ikf": "襲之〔宣之繼者〕",
+    "own_emy_xoj": "趙裔"
   },
   "dates": [],
   "name_components": [],
+  "unresolved_kinship_references": [
+    {
+      "id": "uk-song041-dishu-xizhi",
+      "person_id": "lc5_nwz_ikf",
+      "reference_person_candidates": [
+        "bmu_ige_b8v",
+        "own_emy_xoj"
+      ],
+      "source_term": "無子以弟孫襲之繼宣之紹封",
+      "source_kin_term": "弟孫",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-041-parents:p001",
+        "start": 289,
+        "end": 301,
+        "surface": "無子以弟孫襲之繼宣之紹封"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "person_mention_id": "c-songshu-041-parents:p001:m0294"
+        }
+      ],
+      "status": "unresolved",
+      "preferred_reference_person_id": null,
+      "father_person_id": null,
+      "common_ancestor_person_id": null,
+      "generation_difference": null,
+      "exact_distance": null,
+      "rationale": "無子以弟孫襲之繼宣之的弟孫原詞保留；承裔或宣之未定，中介未名，不用繼爵反推父或收養。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "person_ids": [
     "lc5_nwz_ikf"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-song041-kin-009",
+      "subject_person_id": "lc5_nwz_ikf",
+      "object_person_id": "bmu_ige_b8v",
+      "predicate": "ritual_successor_of",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "襲之繼宣之",
+        "succession_kind": "ji_named_predecessor",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred",
+        "source_clause_binding": {
+          "kind": "named_successor_ji_named_predecessor",
+          "start": 294,
+          "end": 299
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "subject_person_mention_id": "c-songshu-041-parents:p001:m0294",
+          "object_person_mention_id": "c-songshu-041-parents:p001:m0297"
+        }
+      ],
+      "interpretation_note": "原文明稱；不由此推未知親屬或年月。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-song041-kin-010",
+      "subject_person_id": "c7k_wg2_a9m",
+      "object_person_id": "lc5_nwz_ikf",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "襲之卒子祖憐嗣"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "subject_person_mention_id": "c-songshu-041-parents:p001:m0305",
+          "object_person_mention_id": "c-songshu-041-parents:p001:m0294"
+        }
+      ],
+      "interpretation_note": "原文明稱；不由此推未知親屬或年月。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-song041-xizhi-death",
+      "person_id": "lc5_nwz_ikf",
+      "event_type": "death",
+      "source_term": "襲之卒子祖憐嗣",
+      "source_anchor": {
+        "paragraph_id": "c-songshu-041-parents:p001",
+        "start": 301,
+        "end": 308,
+        "surface": "襲之卒子祖憐嗣"
+      },
+      "date_expression": null,
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-041",
+          "source_id": "s-songshu-041-parents",
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "person_mention_id": "c-songshu-041-parents:p001:m0294"
+        }
+      ],
+      "interpretation_note": "原文明詞保存；未知紀年不補、報齡不推生日。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

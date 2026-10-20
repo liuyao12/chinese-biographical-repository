@@ -1023,7 +1023,6 @@
 | `fd9_3qc_637` | 大費（秦本紀） | [《史記・秦本紀》][66] | [JSON](fd9_3qc_637.json) |
 | `fde_f88_c96` | 郭滿 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][39] | [JSON](fde_f88_c96.json) |
 | `fdg_9lt_n54` | 黄瓊 | [《後漢書・荀韓鍾陳列傳》][13] | [JSON](fdg_9lt_n54.json) |
-| `fdi_2l0_u1g` | 薄案 | [《史記・外戚世家》][92] | [JSON](fdi_2l0_u1g.json) |
 | `fdm_96x_l9b` | 羽公子 | [《史記・游俠列傳》][167] | [JSON](fdm_96x_l9b.json) |
 | `fe0_6ra_d9a` | 榮伯 | [《史記・周本紀》][65] | [JSON](fe0_6ra_d9a.json) |
 | `fe8_04d_e71` | 何謙 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][39] | [JSON](fe8_04d_e71.json) |
@@ -2017,6 +2016,7 @@
 | `m9p_g06_c6t` | 王國 | [《晉書・荀崧及荀蕤、荀羨傳》][33] | [JSON](m9p_g06_c6t.json) |
 | `m9r_3qk_l9z` | 戾（叔孫氏臣） | [《史記・魯周公世家》][76] | [JSON](m9r_3qk_l9z.json) |
 | `mag_1sz_m8r` | 武丁引古 | [《史記・屈原賈生列傳》][127] | [JSON](mag_1sz_m8r.json) |
+| `map_u36_hry` | 唐八子 | [《史記・秦本紀》][66] | [JSON](map_u36_hry.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [7]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290

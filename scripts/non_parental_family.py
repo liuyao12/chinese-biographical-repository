@@ -9,6 +9,12 @@ def non_parental_relation_valid(assertion, paragraphs):
             from song047_collateral_care import valid
         return valid(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
+    if q.get('succession_kind') == 'ji_named_predecessor':
+        try:
+            from scripts.song041_source_context import kin_clause_valid
+        except ImportError:
+            from song041_source_context import kin_clause_valid
+        return kin_clause_valid(assertion, paragraphs, [])
     if q.get('succession_kind') == 'named_zusun_feng_hou':
         try:
             from scripts.historical_family_clauses import named_zusun_fenghou_valid

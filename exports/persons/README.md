@@ -1234,11 +1234,11 @@
 
 </details>
 
-<details><summary><code>9zj_vf7_86a</code> 薄氏父（外戚世家候選）（2 名）</summary>
+<details><summary><code>9zj_vf7_86a</code> 薄氏〔薄太后之父；靈文侯〕（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `根` | 薄氏父 | [《史記・外戚世家》][92] | [JSON](9zj_vf7_86a.json) |
+| `根` | 薄氏〔薄太后之父；靈文侯〕 | [《史記・外戚世家》][92] | [JSON](9zj_vf7_86a.json) |
 | `A` | 薄太后（孝文帝母） | [《史記・外戚世家》][92] | [JSON](9zj_vf7_86a_A.json) |
 
 </details>

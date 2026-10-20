@@ -16,6 +16,7 @@ class CorpusTests(unittest.TestCase):
         shutil.copytree(ROOT/'sources/calendar-context',self.root/'sources/calendar-context')
         shutil.copytree(ROOT/'sources/witnesses',self.root/'sources/witnesses')
         shutil.copytree(ROOT/'sources/weishu-weishou',self.root/'sources/weishu-weishou')
+        shutil.copytree(ROOT/'sources/songshu',self.root/'sources/songshu')
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):
