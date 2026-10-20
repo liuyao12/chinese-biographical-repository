@@ -83,6 +83,50 @@
     "q7q_j3y_nhj": "張暢（桓玄時輔國將軍）"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "d-song046-wangyi-003",
+      "person_id": "q7q_j3y_nhj",
+      "surfaces": [
+        "張暢"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-046-wangyi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-046-wangyi:p003:m0097"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "source_id": "s-songshu-046-wangyi",
+          "chapter_id": "c-songshu-046-wangyi",
+          "paragraph_id": "c-songshu-046-wangyi:p003",
+          "quote": "晉太元末徙居彭城兄弟名犯晉宣元二帝諱並以字稱叡字元德北土重同姓謂之骨肉有逺來相投者莫不竭力營贍若不至者以為不義不為鄉里所容仲德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事"
+        }
+      ],
+      "rationale": "補讀固定宋059完整張暢本傳後，元嘉二十七年彭城／李孝伯事件與046附傳、085相合，支持a16為字少微、邵兄子。059大明元年卒、時年五十，與固定宋001元興二三年桓玄篡／王元德謀襲被誅所繫早輔國張暢場景有死亡年齡反證，首選q7與a16分立；不把約408推算存成原文生年。047江夏相張暢之及孫虨考論轉引只作q7候選，原文未明示異名，不合ID。完整原單元與資格見source-evidence/zhangchang-primary-review/identity-review.json。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "scope": "fixed_primary_age_and_parallel_context_identity_review",
+          "review_id": "review-zhangchang-primary-001",
+          "path": "source-evidence/zhangchang-primary-review/identity-review.json",
+          "source_units_path": "source-evidence/zhangchang-primary-review/fixed-units.json",
+          "human_reviewed": false
+        }
+      ]
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "q7q_j3y_nhj"
