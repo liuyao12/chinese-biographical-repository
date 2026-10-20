@@ -21,7 +21,7 @@ def valid(date,chapters):
         if a['surface']!=date['relative_year_reference']['era_expression']:return False
         if len(s['full_paragraphs'])!=ib-ia+1:return False
         for p,q in zip(ps[ia:ib+1],s['full_paragraphs']):
-            if q!={'paragraph_id':p['id'],'quote':p['text'],'source_position':p['source_position']} or p['source_position'].get('source_commit',p['source_position'].get('revision_id'))!=commit:return False
+            if q!={'paragraph_id':p['id'],'quote':p['text'],'source_position':p['source_position']} or p['source_position'].get('source_commit',p['source_position'].get('revision_id',p['source_position'].get('source_revision')))!=commit:return False
         topic=s['unit_topic'];tp=by[topic['paragraph_id']];tm=next(m for m in tp['mentions']if m['id']==topic['person_mention_id'])
         if tm['start']!=0 or tm.get('person_id')!=s['unit_subject_person_id'] or ids.index(tp['id'])>ia:return False
         ruler=s['era_ruler_person_id']

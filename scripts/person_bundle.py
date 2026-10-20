@@ -403,6 +403,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     title_proposals = [proposal for chapter in chapters.values() for proposal in chapter['annotation'].get('title_proposals', []) if proposal['person_id'] in ids]
     resolved_cases = [dict(case, chapter_id=chapter['id'], source_id=chapter['source_id']) for chapter in chapters.values() for case in chapter['annotation'].get('resolved_identity_cases', []) if case['person_id'] in ids]
     reported_variants = [variant for chapter in chapters.values() for variant in chapter['annotation'].get('reported_variants', []) if ids.intersection(variant['person_ids'])]
+    unresolved_titles = [dict(a, chapter_id=ch['id'], source_id=ch['source_id']) for ch in chapters.values() for a in ch.get('annotation', {}).get('unresolved_title_attestations', []) if ids.intersection(a['candidate_person_ids'])]
     preferred_titles = []
     for holding in titles:
         for decision in identities:
@@ -423,11 +424,22 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     unresolved_relation_groups = relevant_groups(chapters, {a['id']: a for record in records for a in record.get('assertions', [])}, set(people), ids)
     excluded = {aid for decision in tree_decisions for aid in decision['excluded_assertion_ids']}
     excluded.update(aid for group in unresolved_relation_groups for aid in group['assertion_ids'])
+    try:
+        from .relative_birth_order_decisions import relevant_decisions, preferred_relation
+    except ImportError:
+        from relative_birth_order_decisions import relevant_decisions, preferred_relation
+    order_decisions = relevant_decisions(chapters, ids)
     preferred_relations = []
     for assertion in relations:
         if assertion['id'] in excluded:
             continue
-        preferred = dict(assertion)
+        preferred = preferred_relation(assertion, order_decisions)
+        if 'relative_age_interpretation' in assertion.get('qualifiers', {}):
+            try:
+                from scripts.song047_collateral_care import preferred_relation as preferred_age_relation
+            except ImportError:
+                from song047_collateral_care import preferred_relation as preferred_age_relation
+            preferred = preferred_age_relation(preferred)
         for decision in tree_decisions:
             if decision['preferred_assertion_id'] == assertion['id'] and decision['parentage_role'] == 'legal_or_dynastic':
                 preferred.update(status='editorial_preferred', source_status=assertion['status'], interpretation_decision_id=decision['id'])
@@ -678,6 +690,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     neighbor_ids.update(p for case in unresolved_cases for p in case['candidate_person_ids'])
     neighbor_ids.update(p for case in referent_cases for a in case['alternatives'] for p in a['candidate_person_ids'])
     neighbor_ids.update(p for case in kinship_cases for p in (case['subject_person_id'], case['object_person_id']))
+    neighbor_ids.update(h['inheritance']['predecessor_person_id'] for h in titles if 'inheritance' in h)
     date_ranges = [dict(e['normalized_date_range'], record_id=e['id'], person_id=e['person_id'],
                         date_role=role, event_type=e['event_type'])
                    for items, role in ((life_events, 'life_event'), (person_events, 'person_event'))
@@ -713,8 +726,10 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
             'most_mentioned_source_ids': most_mentioned,
             'mention_count_policy': {'scope': 'independent_fixed_witness_occurrences', 'raw_mentions_preserved': True, 'passage_count_scope': 'annotation_containers', 'explanation': '頻次依已驗同底本同位置去重；原始錨點完整保留，頻次不代表來源權威度。', 'included_kinds': ['paragraph', 'table_cell'], 'identity_policy': 'contextual_provisional' if include_provisional else 'exact_id', 'ties': 'all_maxima', 'frequency_is_not_authority': True},
             'kinship_interpretation_cases': kinship_cases,
+            **({'relative_birth_order_decisions': order_decisions} if order_decisions else {}),
             **({'referent_interpretations': referent_cases} if referent_cases else {}),
             **({'title_proposals': title_proposals} if title_proposals else {}),
+            **({'unresolved_title_attestations': unresolved_titles} if unresolved_titles else {}),
             **({'source_reading_cases': source_reading_cases} if source_reading_cases else {}),
             **({'unresolved_identity_cases': unresolved_cases} if unresolved_cases else {}),
             **({'resolved_identity_cases': resolved_cases} if resolved_cases else {}),

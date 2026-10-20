@@ -110,10 +110,14 @@ def build(root=ROOT, person_ids=None):
             profile['reading_decisions'] = readings
         if b.get('title_proposals'):
             profile['title_proposals'] = b['title_proposals']
+        if b.get('unresolved_title_attestations'):
+            profile['unresolved_title_attestations'] = b['unresolved_title_attestations']
         profile['name_components'] = b.get('name_components', [])
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
+        if b.get('relative_birth_order_decisions'):
+            profile['relative_birth_order_decisions'] = b['relative_birth_order_decisions']
         if b.get('unresolved_relation_identity_groups'):
             profile['unresolved_relation_identity_groups'] = b['unresolved_relation_identity_groups']
         if b.get('assembled_identity'):

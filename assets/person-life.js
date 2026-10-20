@@ -87,6 +87,7 @@ export function lifeYearLabel(event) {
   const a = range?.earliest, b = range?.latest;
   if (!a?.era_year || !b?.era_year) return '';
   const prefix = p => `西元${p.era === 'BCE' ? '前' : ''}`;
+  if (a.era===b.era && a.era_year===b.era_year && range.basis==='within_named_era' && range.calendar==='chinese_civil') return t(a.era==='BCE'?'{year} BCE (Chinese civil year)':'{year} CE (Chinese civil year)',{year:a.era_year});
   const suffix=range.basis==='within_named_era'&&range.calendar==='chinese_civil'?'中國曆年範圍':'暫定範圍';
   return `${prefix(a)}${a.era_year}至${a.era === b.era ? '' : prefix(b)}${b.era_year}年（${suffix}）`;
 }

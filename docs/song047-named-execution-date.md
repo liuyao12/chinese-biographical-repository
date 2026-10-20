@@ -1,0 +1,9 @@
+# 具名受害者死亡與局部固定紀年鏈
+
+`local_death_in_fixed_narrative_year_chain`新增`named_victim_in_execution_term`限定。只接受同版完整連續日期證據、既有relative-regnal與biography-scope驗證，以及有明名施事者的窄正向斬／梟句。受害人錨點必緊接斬／梟，止於人名；完整局部句只能為「施事人〔進撃／擊大破之於地〕斬／梟受害人〔并數級〕」，不可借近處另一人。否定、意圖／命令、引語、下一具名主體或新的年號／年份介入均拒絕。這是明示原文讀法的資料綁定，不是閱讀時做NLU。
+
+新scope的fixed fingerprint直接保留既有source_id、source_revision（source.revision_id值）及完整raw_file_sha256，不以本地Git blob算法聲稱remote核驗。舊scope原四欄fingerprint不變。source_position僅當source_commit與revision_id欄都未提供時，才fallback原source_revision；primary有矛盾或明填null不被蓋過。
+
+047的死亡主證為p007「方眀進撃大破之於濁水斬𢎞祖并三千餘級」，具名受害者為𢎞祖。p006元嘉十三年與p007十四／十八／十九年的完整段落是紀年上下文，不冒作受害者在p006的死亡或人物證據。段首「懷敬子真道」以父名標支；同一附傳主線敘真道及裴方明的軍事，並非說懷敬本人或受害者當時在場。沈演之奏表以完整嵌引範圍明記，元嘉十九年對照442中國曆年，不補月日或生年。
+
+原十段正文、markers、source metadata、十段source_position及先前十四項死亡事件不變；新第十五項只增加規範紀年／binding、縮成同段同人的局部主證及更新判讀note。既有全域生命事件／日期規則沒有放寬。

@@ -2,6 +2,12 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'senior_dead_then_congzi_named_junior':
+        try:
+            from scripts.song047_collateral_care import valid
+        except ImportError:
+            from song047_collateral_care import valid
+        return valid(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
     k = q.get('kinship_structure', {})
     if (not isinstance(k, dict) or set(k) != {'lineage', 'generation_difference', 'collateral',

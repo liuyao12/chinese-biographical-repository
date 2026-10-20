@@ -2,6 +2,12 @@
 
 
 def maternal_cousin_valid(a, paragraphs):
+    if a.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_subject_maternal_aunt_older_cousin':
+        try:
+            from scripts.song047_collateral_care import valid
+        except ImportError:
+            from song047_collateral_care import valid
+        return valid(a, paragraphs)
     q = a.get('qualifiers', {}); k = q.get('kinship_structure', {})
     if (a.get('predicate') != 'maternal_cousin' or q.get('source_term') != '姨弟'
             or k.get('lineage') != 'maternal' or k.get('generation_difference') != 0

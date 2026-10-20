@@ -558,6 +558,17 @@ def validate(root=ROOT):
             errors.extend(group_errors(grouped_chapter, assertion_index, pids))
         equivalence_index = {d['id']: d for path in (root / 'corpus').glob('*/*-equivalences.json')
                              for d in json.loads(path.read_text()).get('decisions', [])}
+        try:
+            from scripts.relative_birth_order_decisions import decision_errors as relative_order_errors
+        except ImportError:
+            from relative_birth_order_decisions import decision_errors as relative_order_errors
+        errors.extend(relative_order_errors(root, chapters, assertion_index, pids))
+        try:
+            from scripts.song047_title_semantics import unresolved_title_errors
+        except ImportError:
+            from song047_title_semantics import unresolved_title_errors
+        for chapter in chapters.values():
+            errors.extend(unresolved_title_errors(chapter, pids))
         tree_decision_ids = set()
         for path in (root / 'corpus').glob('*/family-tree-decisions.json'):
             record = json.loads(path.read_text())
@@ -935,6 +946,12 @@ def validate(root=ROOT):
                                     and any(e['paragraph_id'] == ie.get('paragraph_id')
                                             for e in a['evidence'] for ie in inheritance['evidence'])
                                     for a in family_relations))
+                    if isinstance(inheritance, dict) and inheritance.get('predecessor_relation') == 'named_collateral_succession':
+                        try:
+                            from scripts.collateral_title_succession import valid as collateral_succession_valid
+                        except ImportError:
+                            from collateral_title_succession import valid as collateral_succession_valid
+                        valid = collateral_succession_valid(h, title_records, paragraphs, family_relations)
                     check(valid, '承爵判讀缺少相符的前任爵位、父子或原詞證據')
                     if valid:
                         for e in inheritance['evidence']:title_evidence(e)
@@ -1289,9 +1306,17 @@ def validate(root=ROOT):
                 check(a['id'] not in aids,'人物陳述 ID 重複');aids.add(a['id'])
                 check(a['subject_person_id'] in pids and a['object_person_id'] in pids,'人物陳述引用未知人物')
                 check(a['subject_person_id']!=a['object_person_id'],'人物陳述關係自環')
-                check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
+                check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if a['predicate'] == 'maternal_aunt' or 'relative_age_interpretation' in qualifiers:
+                    try:
+                        from scripts.song047_collateral_care import valid, chronology_caution_valid
+                    except ImportError:
+                        from song047_collateral_care import valid, chronology_caution_valid
+                    check(valid(a, paragraphs), '母系旁親／哺養須有固定原句與雙人物錨點，不得補父母或親等')
+                    if 'relative_age_interpretation' in qualifiers:
+                        check(chronology_caution_valid(a, root), '從母兄年代張力須綁既有407／41／363原證，不得默採長幼或推生日')
                 if 'marriage_termination' in qualifiers:
                     try:
                         from scripts.marriage_termination import marriage_termination_valid
