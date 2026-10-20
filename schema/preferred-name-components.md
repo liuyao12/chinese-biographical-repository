@@ -1,0 +1,5 @@
+# Source-scoped display name reading
+
+`preferred_name_component_reading_set.readings` is a display choice, never a transcription correction or identity merge. The first implementation accepts only `field: ming`, two one-character attested source values, one selected attested value, exact source-record locators and exact person anchors. Every currently known record bearing either declared spelling must be listed. A new third spelling is preserved and remains a display conflict. Original records and quotes remain unchanged. Status is editorial_provisional; human_reviewed must be boolean. AI-authored records remain false; a real review may be true without changing source semantics. No commentator or reported-variant assertion is created.
+
+The authoritative narrow validation is `scripts/preferred_name_components.py`; bundle and physical CLI both validate before consumption. The profile adapter forwards the decision; compact/full cards use the same source-scoped name summarizer, retaining raw source rows. A null legacy record ID is permitted only with exact person/chapter/paragraph/surname/ming/quote locator.

@@ -1377,7 +1377,7 @@ def validate(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(non_parental_relation_valid(a, paragraphs), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -2164,6 +2164,13 @@ def validate(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:
+            from scripts.preferred_name_components import validated_readings
+        except ImportError:
+            from preferred_name_components import validated_readings
+        validated_readings(catalog[1],
+            [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']],
+            {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'})
         load_assemblies(root, catalog)
         def citation_dimensions(value):
             if isinstance(value, dict):
