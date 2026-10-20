@@ -34,7 +34,7 @@ class XiezhanFacts(unittest.TestCase):
  def test_hongwei_not_fabricated_ming(self):
   n=next(n for n in N if n['person_id']=='b60_740_5f6_A');self.assertIsNone(n['ming']);self.assertEqual(n['additional_names'],['𢎞微'])
  def test_patron_titles_belong_to_patrons(self):
-  self.assertTrue(any(h['title']=='安西'and h['person_id']=='9j5_n7n_c3u'for h in HS));self.assertTrue(any(h['title']=='鎮軍'and h['person_id']=='3dv_ken_w58'for h in HS));self.assertTrue(any(h['title']=='大司馬'and h['person_id']=='ije_ngm_cmj'for h in HS));self.assertFalse(any(h['person_id']=='aa6_83c_juy_AAAD'and h['title']in ['安西','鎮軍','大司馬']for h in HS))
+  self.assertTrue(any(h['title']=='安西'and h['person_id']=='9j5_n7n_c3u'for h in HS));self.assertTrue(any(h['title']=='鎮軍'and h['person_id']=='3qs_nqa_ioa_AAA'for h in HS));self.assertTrue(any(h['title']=='大司馬'and h['person_id']=='ije_ngm_cmj'for h in HS));self.assertFalse(any(h['person_id']=='aa6_83c_juy_AAAD'and h['title']in ['安西','鎮軍','大司馬']for h in HS))
  def test_princess_title_does_not_add_imperial_father(self):
   h=next(h for h in HS if h['title']=='南郡公主');self.assertEqual(h['person_id'],who(1,'晉南郡公主'));self.assertEqual(h['mode'],'attestation');self.assertTrue(all(x['attestations'][0]['date_expression']is None for x in HS if x['person_id']==h['person_id']))
  def test_unassumed_secretary_positive(self):

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "pai_34n_x2t",
-  "canonical_person_id": "pai_34n_x2t",
+  "id": "r5n_x7v_cwf_AC",
+  "canonical_person_id": "r5n_x7v_cwf_AC",
   "label": "倫之〔宣之弟〕",
   "identity_note": "本041局部身份，傳內指稱已標；親屬官爵生卒地望另提案，不宣稱跨史全定。",
   "review": "ai_provisional",
@@ -80,15 +80,15 @@
   "relations": [
     {
       "id": "a-song041-kin-011",
-      "subject_person_id": "pai_34n_x2t",
-      "object_person_id": "bmu_ige_b8v",
+      "subject_person_id": "r5n_x7v_cwf_AC",
+      "object_person_id": "r5n_x7v_cwf_AA",
       "predicate": "brother",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "宣之弟倫之",
         "relative_birth_order": {
-          "older_person_id": "bmu_ige_b8v",
-          "younger_person_id": "pai_34n_x2t",
+          "older_person_id": "r5n_x7v_cwf_AA",
+          "younger_person_id": "r5n_x7v_cwf_AC",
           "operator": "lt",
           "scope": "siblings",
           "older_ordinal": null,
@@ -115,26 +115,26 @@
     }
   ],
   "related_people": {
-    "bmu_ige_b8v": "宣之〔趙裔長子〕",
-    "pai_34n_x2t": "倫之〔宣之弟〕"
+    "r5n_x7v_cwf_AA": "宣之〔趙裔長子〕",
+    "r5n_x7v_cwf_AC": "倫之〔宣之弟〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "pai_34n_x2t"
+    "r5n_x7v_cwf_AC"
   ],
   "preferred_relations": [
     {
       "id": "a-song041-kin-011",
-      "subject_person_id": "pai_34n_x2t",
-      "object_person_id": "bmu_ige_b8v",
+      "subject_person_id": "r5n_x7v_cwf_AC",
+      "object_person_id": "r5n_x7v_cwf_AA",
       "predicate": "brother",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "宣之弟倫之",
         "relative_birth_order": {
-          "older_person_id": "bmu_ige_b8v",
-          "younger_person_id": "pai_34n_x2t",
+          "older_person_id": "r5n_x7v_cwf_AA",
+          "younger_person_id": "r5n_x7v_cwf_AC",
           "operator": "lt",
           "scope": "siblings",
           "older_ordinal": null,
@@ -160,6 +160,51 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "r5n_x7v_cwf_AC",
+    "representative_source_person_id": "r5n_x7v_cwf_AC",
+    "source_person_ids": [
+      "r5n_x7v_cwf_AC"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "r5n_x7v_cwf_A",
+    "source_assertion_id": null,
+    "parent_connection": {
+      "type": "shared_father_through_sibling",
+      "sibling_person_id": "r5n_x7v_cwf_AA",
+      "sibling_assertion_id": "a-song041-kin-011",
+      "sibling_father_assertion_id": "a-song041-kin-007",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "宣之弟倫之與裔長子宣之，編輯暫採共享父裔；不冒稱正文直接明倫之父，不推同母或絕對排行。",
+      "references": [
+        {
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "source_id": "s-songshu-041-parents",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "assertion_id": "a-song041-kin-011",
+          "scope": "完整received傳段；父系組裝判讀，原始親屬斷言資格不改",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_041.txt",
+          "image_verified": false
+        },
+        {
+          "chapter_id": "c-songshu-041-parents",
+          "paragraph_id": "c-songshu-041-parents:p001",
+          "source_id": "s-songshu-041-parents",
+          "quote": "孝穆趙皇后諱安下邳僮人也祖彪字世範治書侍御史父裔字彦胄平原太守后以晉穆帝升平四年嬪孝皇晉哀帝興寧元年四月二日生高祖其日后以産疾殂於丹徒官舍時年二十一葬晉陵丹徒縣東鄉練璧里雩山宋初追崇號謚陵曰興寧永初二年有司奏曰大孝之德盛於榮親一人有慶光被萬國是以靈文寵於西京夀張顯於隆漢故平原太守趙裔故洮陽令蕭卓並外屬尊戚不逮休寵臣等仰述聖思逺稽舊章並可追贈光祿大夫加金章紫綬裔命婦孫可豫章郡建昌縣君卓命婦趙可吳郡夀昌縣君孫氏東莞人也其年又詔曰推恩之禮在情所同故内樹宗子外崇后屬爰自漢魏咸遵斯典外祖趙光祿蕭光祿名噐雖隆茅土未建並宜追封開國縣侯食邑五百戸於是追封裔臨賀縣侯裔長子宣之仕至江乘令蚤卒無子以弟孫襲之繼宣之紹封襲之卒子祖憐嗣齊受禪國除宣之弟倫之自有傳",
+          "assertion_id": "a-song041-kin-007",
+          "scope": "完整received傳段；父系組裝判讀，原始親屬斷言資格不改",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_041.txt",
+          "image_verified": false
+        }
+      ]
+    },
+    "assembly_id": "family-song041-zhao-biao",
+    "root_person_id": "r5n_x7v_cwf",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

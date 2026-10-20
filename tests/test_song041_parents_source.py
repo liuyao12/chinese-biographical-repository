@@ -20,7 +20,7 @@ class Song041ParentsSourceTests(unittest.TestCase):
     for m in p['mentions']:
      self.assertGreaterEqual(m['start'],end);end=m['end'];self.assertEqual(p['text'][m['start']:m['end']],m['surface'])
  def test_adopted_parent_identity_names_and_independent_birth_role(self):
-  f=self.reg['fd4_ult_nsi'];m=self.reg['ntw_hsm_9iv'];self.assertEqual(f['label'],'翹〔孝皇帝；高祖之父〕');self.assertEqual(m['label'],'趙安〔孝穆皇后；本見證，高祖之母〕')
+  f=self.reg['3qs_nqa_ioa_AA'];m=self.reg['r5n_x7v_cwf_AB'];self.assertEqual(f['label'],'翹〔孝皇帝；高祖之父〕');self.assertEqual(m['label'],'趙安〔孝穆皇后；本見證，高祖之母〕')
   mother=json.loads((R/'corpus/songshu/041-parents-assertions.json').read_text())['assertions'][0];self.assertEqual(mother['predicate'],'mother');self.assertEqual(mother['object_person_id'],m['id']);self.assertEqual(mother['qualifiers']['source_term'],'生高祖其日后以産疾殂')
   father=json.loads((R/'corpus/songshu/001-parents-reference-assertions.json').read_text())['assertions'][0];self.assertEqual(father['predicate'],'father');self.assertEqual(father['qualifiers']['source_term'],'翹是為皇考')
   names=json.loads((R/'corpus/songshu/001-parents-reference-name-components.json').read_text())['records'];self.assertIsNone(names[0]['surname']);self.assertEqual(names[0]['ming'],'翹')

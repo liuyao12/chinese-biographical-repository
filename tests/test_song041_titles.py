@@ -22,7 +22,7 @@ class Song041TitleTests(unittest.TestCase):
  def test_posthumous_notice_needs_heading_same_person_and_death(self):
   for key in('zhao-empress','zhao-shimu'):
    h=self.h['th-song041-'+key];self.assertTrue(heading_posthumous_valid(h,self.ps,self.events));self.assertFalse(heading_posthumous_valid(h,self.ps,{}))
-   bad=copy.deepcopy(h);bad['person_id']='z9t_scz_pgk';self.assertFalse(heading_posthumous_valid(bad,self.ps,self.events));bad=copy.deepcopy(h);bad['effective_period']['start']['normalized_date']={'year':420};self.assertFalse(heading_posthumous_valid(bad,self.ps,self.events))
+   bad=copy.deepcopy(h);bad['person_id']='ph1_ms8_hyq_AA';self.assertFalse(heading_posthumous_valid(bad,self.ps,self.events));bad=copy.deepcopy(h);bad['effective_period']['start']['normalized_date']={'year':420};self.assertFalse(heading_posthumous_valid(bad,self.ps,self.events))
   self.assertEqual(self.h['th-song041-xiao-shiyi']['mode'],'attestation')
  def test_recalled_gifts_are_enacted_but_do_not_borrow_request_year(self):
   for key in('zhuo-jinzi','yi-jinzi'):
@@ -38,8 +38,8 @@ class Song041TitleTests(unittest.TestCase):
   for q in [q for q in qs if q['title']=='開國縣侯']:
    self.assertEqual(q['requested_households']['enactment_status'],'not_confirmed');bad=copy.deepcopy(q);bad['requested_households']['enactment_status']='granted';self.assertTrue(memorial_errors(bad,self.c,self.people,self.h))
  def test_source_line_root_and_ritual_predecessor_are_not_parentage(self):
-  h=self.h['th-song041-xizhi-line-succession'];self.assertTrue(line_succession_valid(h,self.h,self.ps,self.rel));i=h['inheritance'];self.assertEqual(i['predecessor_person_id'],'own_emy_xoj');self.assertEqual(i['ritual_predecessor_person_id'],'bmu_ige_b8v');self.assertEqual(i['intervening_holding_status'],'not_asserted');self.assertFalse(any(a['subject_person_id']=='lc5_nwz_ikf'and a['predicate']in('father','adoptive_father')for a in self.rel))
-  for key,value in [('predecessor_person_id','bmu_ige_b8v'),('intervening_holding_status','attested')]:
+  h=self.h['th-song041-xizhi-line-succession'];self.assertTrue(line_succession_valid(h,self.h,self.ps,self.rel));i=h['inheritance'];self.assertEqual(i['predecessor_person_id'],'r5n_x7v_cwf_A');self.assertEqual(i['ritual_predecessor_person_id'],'r5n_x7v_cwf_AA');self.assertEqual(i['intervening_holding_status'],'not_asserted');self.assertFalse(any(a['subject_person_id']=='lc5_nwz_ikf'and a['predicate']in('father','adoptive_father')for a in self.rel))
+  for key,value in [('predecessor_person_id','r5n_x7v_cwf_AA'),('intervening_holding_status','attested')]:
    bad=copy.deepcopy(h);bad['inheritance'][key]=value;self.assertFalse(line_succession_valid(bad,self.h,self.ps,self.rel))
   bad=copy.deepcopy(h);bad['effective_period']['start']['date_expression']='永初二年';self.assertFalse(line_succession_valid(bad,self.h,self.ps,self.rel))
   z=self.h['th-song041-zulian-succession'];self.assertEqual(z['effective_period']['end']['event_type'],'abolition');self.assertNotIn('normalized_date',z['effective_period']['end'])

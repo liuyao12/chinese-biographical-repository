@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "fd4_ult_nsi",
-  "canonical_person_id": "fd4_ult_nsi",
+  "id": "3qs_nqa_ioa_AA",
+  "canonical_person_id": "3qs_nqa_ioa_AA",
   "label": "翹〔孝皇帝；高祖之父〕",
   "identity_note": "父母姓名依固定001/041採納；趙后名安僅本見證，未加未核安宗；父名翹未證姓。",
   "review": "ai_provisional",
@@ -14,7 +14,7 @@
   "titles": [
     {
       "id": "th-song041-qiao-gongcao",
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "title": "郡功曹",
       "kind": "office",
       "mode": "attestation",
@@ -62,7 +62,7 @@
     },
     {
       "id": "th-song041-qiao-xiaohuang",
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "title": "孝皇",
       "kind": "honorific",
       "mode": "attestation",
@@ -167,7 +167,7 @@
     },
     {
       "id": "th-song041-qiao-xiaohuangdi",
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "title": "孝皇帝",
       "kind": "honorific",
       "mode": "attestation",
@@ -216,6 +216,41 @@
   ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 1,
+      "category": "",
+      "title": "武帝近祖混、靖、翹引用片段",
+      "paragraph_id": "c-songshu-001-near-ancestors:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "混始過江居晉陵郡丹徒縣之京口里官至武原令混生東安太守靖靖生郡功曹翹",
+      "paragraph_ids": [
+        "c-songshu-001-near-ancestors:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-001-near-ancestors:p001:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-001-near-ancestors:p001:m0032": "c-songshu-001-near-ancestors:p001"
+      },
+      "mention_id": "c-songshu-001-near-ancestors:p001:m0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-001-near-ancestors:p001:m0032",
+          "mention_ids": [
+            "c-songshu-001-near-ancestors:p001:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-001",
+      "chapter_id": "c-songshu-001-near-ancestors",
+      "source_id": "s-songshu-001-near-ancestors",
+      "work_title": "宋書"
+    },
     {
       "number": 1,
       "category": "",
@@ -371,6 +406,33 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-songshu-001-near-ancestors",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-001",
+      "source_id": "s-songshu-001-near-ancestors",
+      "source": {
+        "title": "宋書／卷001／近祖引用片段",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_001.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_001.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "f63a5a97a343876afb278e04fbe4c9b30710f5b15d56da2af7a656c9393792d9",
+        "raw_path": "sources/songshu/KR2a0016_001-e80c057-zhangchang-reference.txt",
+        "edition": "文淵閣四庫全書數位轉錄；未核影像",
+        "extent": "只錄混始過江至靖生翹近系原句；非完整本紀、非漢以來遠系。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去換行空白、¶、pb頁標；安不補宗，三月／四月各見證保留。"
+        },
+        "rights": "古代正文，固定數位見證；保留提供者歸屬。",
+        "accessed_on": "2026-10-20",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    },
+    {
       "chapter_id": "c-songshu-001-parents-reference",
       "work_id": "w-songshu",
       "book_id": "b-songshu-001",
@@ -454,9 +516,35 @@
   ],
   "relations": [
     {
+      "id": "a-song001-near-qiao-father",
+      "subject_person_id": "3qs_nqa_ioa_AA",
+      "object_person_id": "3qs_nqa_ioa_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "靖生郡功曹翹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-001",
+          "source_id": "s-songshu-001-near-ancestors",
+          "chapter_id": "c-songshu-001-near-ancestors",
+          "paragraph_id": "c-songshu-001-near-ancestors:p001",
+          "quote": "混始過江居晉陵郡丹徒縣之京口里官至武原令混生東安太守靖靖生郡功曹翹",
+          "subject_person_mention_id": "c-songshu-001-near-ancestors:p001:m0032",
+          "object_person_mention_id": "c-songshu-001-near-ancestors:p001:m0027"
+        }
+      ],
+      "interpretation_note": "原文明某生某，僅採此近系，不延伸遠祖。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
       "id": "a-song001-parents-father",
-      "subject_person_id": "3dv_ken_w58",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAA",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -481,8 +569,8 @@
     },
     {
       "id": "a-song041-kin-003",
-      "subject_person_id": "ntw_hsm_9iv",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "r5n_x7v_cwf_AB",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "spouse",
       "status": "source_attested",
       "qualifiers": {
@@ -508,8 +596,8 @@
     },
     {
       "id": "a-song041-kin-014",
-      "subject_person_id": "z9t_scz_pgk",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "ph1_ms8_hyq_AA",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "spouse",
       "status": "source_attested",
       "qualifiers": {
@@ -535,8 +623,8 @@
     },
     {
       "id": "a-song041-kin-016-daolian",
-      "subject_person_id": "262_d54_a5e",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAB",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -563,8 +651,8 @@
     },
     {
       "id": "a-song041-kin-016-daogui",
-      "subject_person_id": "1ut_j9y_xn7",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAC",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -591,17 +679,18 @@
     }
   ],
   "related_people": {
-    "1ut_j9y_xn7": "臨川王道規",
-    "262_d54_a5e": "道憐",
-    "3dv_ken_w58": "宋高祖裕",
-    "fd4_ult_nsi": "翹〔孝皇帝；高祖之父〕",
-    "ntw_hsm_9iv": "趙安〔孝穆皇后；本見證，高祖之母〕",
-    "z9t_scz_pgk": "蕭文夀〔孝懿皇后〕"
+    "3qs_nqa_ioa_A": "靖〔翹父；東安太守〕",
+    "3qs_nqa_ioa_AA": "翹〔孝皇帝；高祖之父〕",
+    "3qs_nqa_ioa_AAA": "宋高祖裕",
+    "3qs_nqa_ioa_AAB": "道憐",
+    "3qs_nqa_ioa_AAC": "臨川王道規",
+    "ph1_ms8_hyq_AA": "蕭文夀〔孝懿皇后〕",
+    "r5n_x7v_cwf_AB": "趙安〔孝穆皇后；本見證，高祖之母〕"
   },
   "dates": [],
   "name_components": [
     {
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "surname": null,
       "ming": "翹",
       "title": null,
@@ -617,7 +706,7 @@
       "source_id": "s-songshu-001-parents-reference"
     },
     {
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "surname": null,
       "ming": null,
       "title": "孝皇帝",
@@ -636,7 +725,7 @@
   "source_temporal_attestations": [
     {
       "id": "ta-song041-110",
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "source_term": "孝皇背世五十餘年",
       "source_anchor": {
         "paragraph_id": "c-songshu-041-parents:p002",
@@ -675,13 +764,39 @@
     }
   ],
   "person_ids": [
-    "fd4_ult_nsi"
+    "3qs_nqa_ioa_AA"
   ],
   "preferred_relations": [
     {
+      "id": "a-song001-near-qiao-father",
+      "subject_person_id": "3qs_nqa_ioa_AA",
+      "object_person_id": "3qs_nqa_ioa_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "靖生郡功曹翹"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-001",
+          "source_id": "s-songshu-001-near-ancestors",
+          "chapter_id": "c-songshu-001-near-ancestors",
+          "paragraph_id": "c-songshu-001-near-ancestors:p001",
+          "quote": "混始過江居晉陵郡丹徒縣之京口里官至武原令混生東安太守靖靖生郡功曹翹",
+          "subject_person_mention_id": "c-songshu-001-near-ancestors:p001:m0032",
+          "object_person_mention_id": "c-songshu-001-near-ancestors:p001:m0027"
+        }
+      ],
+      "interpretation_note": "原文明某生某，僅採此近系，不延伸遠祖。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
       "id": "a-song001-parents-father",
-      "subject_person_id": "3dv_ken_w58",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAA",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -706,8 +821,8 @@
     },
     {
       "id": "a-song041-kin-003",
-      "subject_person_id": "ntw_hsm_9iv",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "r5n_x7v_cwf_AB",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "spouse",
       "status": "source_attested",
       "qualifiers": {
@@ -733,8 +848,8 @@
     },
     {
       "id": "a-song041-kin-014",
-      "subject_person_id": "z9t_scz_pgk",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "ph1_ms8_hyq_AA",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "spouse",
       "status": "source_attested",
       "qualifiers": {
@@ -760,8 +875,8 @@
     },
     {
       "id": "a-song041-kin-016-daolian",
-      "subject_person_id": "262_d54_a5e",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAB",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -788,8 +903,8 @@
     },
     {
       "id": "a-song041-kin-016-daogui",
-      "subject_person_id": "1ut_j9y_xn7",
-      "object_person_id": "fd4_ult_nsi",
+      "subject_person_id": "3qs_nqa_ioa_AAC",
+      "object_person_id": "3qs_nqa_ioa_AA",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -815,11 +930,25 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "3qs_nqa_ioa_AA",
+    "representative_source_person_id": "3qs_nqa_ioa_AA",
+    "source_person_ids": [
+      "3qs_nqa_ioa_AA"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "3qs_nqa_ioa_A",
+    "source_assertion_id": "a-song001-near-qiao-father",
+    "assembly_id": "family-song041-qiao",
+    "root_person_id": "3qs_nqa_ioa",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [
     {
       "id": "le-song041-qiao-death",
-      "person_id": "fd4_ult_nsi",
+      "person_id": "3qs_nqa_ioa_AA",
       "event_type": "death",
       "source_term": "孝皇背世五十餘年",
       "source_anchor": {

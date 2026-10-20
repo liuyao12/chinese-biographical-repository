@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "id": "tsr_0le_7q5",
-  "canonical_person_id": "tsr_0le_7q5",
+  "id": "ph1_ms8_hyq_AB",
+  "canonical_person_id": "ph1_ms8_hyq_AB",
   "label": "源之〔蕭卓子〕",
   "identity_note": "本041局部身份，傳內指稱已標；親屬官爵生卒地望另提案，不宣稱跨史全定。",
   "review": "ai_provisional",
@@ -11,7 +11,7 @@
   "titles": [
     {
       "id": "th-song041-yuanzhi-succession",
-      "person_id": "tsr_0le_7q5",
+      "person_id": "ph1_ms8_hyq_AB",
       "title": "襲爵",
       "kind": "noble_rank",
       "mode": "accession",
@@ -67,7 +67,7 @@
       "reviewer": "Codex（AI代理）",
       "model": null,
       "inheritance": {
-        "predecessor_person_id": "c45_0t2_9m8",
+        "predecessor_person_id": "ph1_ms8_hyq_A",
         "predecessor_holding_id": "th-song041-zhuo-fengyang",
         "resolved_title": "封陽縣侯",
         "source_term": "卓子源之襲爵",
@@ -169,8 +169,8 @@
   "relations": [
     {
       "id": "a-song041-kin-017",
-      "subject_person_id": "tsr_0le_7q5",
-      "object_person_id": "c45_0t2_9m8",
+      "subject_person_id": "ph1_ms8_hyq_AB",
+      "object_person_id": "ph1_ms8_hyq_A",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -195,8 +195,8 @@
     },
     {
       "id": "a-song041-kin-018",
-      "subject_person_id": "p10_7ng_8l6",
-      "object_person_id": "tsr_0le_7q5",
+      "subject_person_id": "ph1_ms8_hyq_ABA",
+      "object_person_id": "ph1_ms8_hyq_AB",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -221,20 +221,20 @@
     }
   ],
   "related_people": {
-    "c45_0t2_9m8": "蕭卓",
-    "p10_7ng_8l6": "蕭思話",
-    "tsr_0le_7q5": "源之〔蕭卓子〕"
+    "ph1_ms8_hyq_A": "蕭卓",
+    "ph1_ms8_hyq_AB": "源之〔蕭卓子〕",
+    "ph1_ms8_hyq_ABA": "蕭思話"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "tsr_0le_7q5"
+    "ph1_ms8_hyq_AB"
   ],
   "preferred_relations": [
     {
       "id": "a-song041-kin-017",
-      "subject_person_id": "tsr_0le_7q5",
-      "object_person_id": "c45_0t2_9m8",
+      "subject_person_id": "ph1_ms8_hyq_AB",
+      "object_person_id": "ph1_ms8_hyq_A",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -259,8 +259,8 @@
     },
     {
       "id": "a-song041-kin-018",
-      "subject_person_id": "p10_7ng_8l6",
-      "object_person_id": "tsr_0le_7q5",
+      "subject_person_id": "ph1_ms8_hyq_ABA",
+      "object_person_id": "ph1_ms8_hyq_AB",
       "predicate": "father",
       "status": "source_attested",
       "qualifiers": {
@@ -284,6 +284,20 @@
       "model": null
     }
   ],
+  "assembled_identity": {
+    "person_id": "ph1_ms8_hyq_AB",
+    "representative_source_person_id": "ph1_ms8_hyq_AB",
+    "source_person_ids": [
+      "ph1_ms8_hyq_AB"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "ph1_ms8_hyq_A",
+    "source_assertion_id": "a-song041-kin-017",
+    "assembly_id": "family-song041-xiao-liang",
+    "root_person_id": "ph1_ms8_hyq",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

@@ -10,7 +10,7 @@ class Song047CollateralCareTests(unittest.TestCase):
   self.assertEqual(len(self.rows),4)
   for a in self.rows.values():self.assertTrue(valid(a,self.ps),a['id'])
   self.assertTrue(chronology_caution_valid(self.rows['001'],R))
-  self.assertEqual(self.rows['008']['subject_person_id'],'3dv_ken_w58');self.assertEqual(self.rows['009']['subject_person_id'],'3dv_ken_w58')
+  self.assertEqual(self.rows['008']['subject_person_id'],'3qs_nqa_ioa_AAA');self.assertEqual(self.rows['009']['subject_person_id'],'3qs_nqa_ioa_AAA')
   self.assertIsNone(self.rows['008']['qualifiers']['mother_person_id'])
   self.assertEqual(self.rows['013']['qualifiers']['kinship_structure']['generation_difference'],-1)
  def test_wrong_direction_parentage_distance_and_source_rejected(self):
