@@ -19,7 +19,7 @@ def civil_era_range_errors(value, evidence, expression):
              and value.get('status') == 'editorial_provisional'
              and isinstance(name, str) and bool(name)
              and isinstance(polity, str) and bool(polity)
-             and type(first) is int and type(last) is int and 0 < first < last
+             and type(first) is int and type(last) is int and 0 < first <= last
              and mapping.get('kind') == 'ce_regnal_era_span'
              and expression in tuple(name + stage for stage in ('初', '中', '末'))
              and expression == value.get('source_expression')
@@ -44,6 +44,8 @@ def civil_era_range_errors(value, evidence, expression):
                 or not isinstance(point, dict)
                 or type(point.get('era_year')) is not int or type(point.get('year')) is not int):
             errors.append('中國曆年號範圍端點與年號對照不符')
+    if first == last and any(value.get(k) is not None for k in ('month', 'day', 'lunar_month', 'lunar_day')):
+        errors.append('單一年號範圍不能據初中末推月日')
     if 'year' in value or 'era_year' in value:
         errors.append('年號內未定年不得另填確定年份')
     return errors

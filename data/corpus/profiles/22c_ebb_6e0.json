@@ -14,7 +14,8 @@
     "上",
     "太祖",
     "大駕",
-    "陛下"
+    "陛下",
+    "予"
   ],
   "titles": [],
   "addresses": [],
@@ -239,6 +240,80 @@
       "work_title": "宋書"
     },
     {
+      "number": 47,
+      "category": "",
+      "title": "劉懷肅及附家族完整選錄單元",
+      "paragraph_id": "c-songshu-047-liuhuaisu:p004",
+      "count": 5,
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蔚祖卒子道存嗣太祖元嘉末為太尉江夏王義恭諮議参軍世祖伐元凶義軍至新亭道存出奔元凶殺其母以徇前廢帝景和中為義恭太宰從事中郎義恭敗以黨與下獄死",
+      "paragraph_ids": [
+        "c-songshu-047-liuhuaisu:p004",
+        "c-songshu-047-liuhuaisu:p006",
+        "c-songshu-047-liuhuaisu:p007",
+        "c-songshu-047-liuhuaisu:p008"
+      ],
+      "mention_ids": [
+        "c-songshu-047-liuhuaisu:p004:m0007",
+        "c-songshu-047-liuhuaisu:p006:m0017",
+        "c-songshu-047-liuhuaisu:p006:m0167",
+        "c-songshu-047-liuhuaisu:p007:m0039",
+        "c-songshu-047-liuhuaisu:p008:m0126"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-047-liuhuaisu:p004:m0007": "c-songshu-047-liuhuaisu:p004",
+        "c-songshu-047-liuhuaisu:p006:m0017": "c-songshu-047-liuhuaisu:p006",
+        "c-songshu-047-liuhuaisu:p006:m0167": "c-songshu-047-liuhuaisu:p006",
+        "c-songshu-047-liuhuaisu:p007:m0039": "c-songshu-047-liuhuaisu:p007",
+        "c-songshu-047-liuhuaisu:p008:m0126": "c-songshu-047-liuhuaisu:p008"
+      },
+      "mention_id": "c-songshu-047-liuhuaisu:p004:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-047-liuhuaisu:p004:m0007",
+          "mention_ids": [
+            "c-songshu-047-liuhuaisu:p004:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuhuaisu:p006:m0017",
+          "mention_ids": [
+            "c-songshu-047-liuhuaisu:p006:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuhuaisu:p006:m0167",
+          "mention_ids": [
+            "c-songshu-047-liuhuaisu:p006:m0167"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuhuaisu:p007:m0039",
+          "mention_ids": [
+            "c-songshu-047-liuhuaisu:p007:m0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-047-liuhuaisu:p008:m0126",
+          "mention_ids": [
+            "c-songshu-047-liuhuaisu:p008:m0126"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "chapter_id": "c-songshu-047-liuhuaisu",
+      "source_id": "s-songshu-047-liuhuaisu",
+      "work_title": "宋書"
+    },
+    {
       "number": 53,
       "category": "",
       "title": "張茂度完整本傳及陸仲元插敘（卷053選錄）",
@@ -401,6 +476,33 @@
         "edition": "文淵閣四庫全書數位轉錄；未圖校",
         "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
         "rights": "古籍原文；固定Kanripo數位見證"
+      }
+    },
+    {
+      "chapter_id": "c-songshu-047-liuhuaisu",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-047",
+      "source_id": "s-songshu-047-liuhuaisu",
+      "source": {
+        "title": "宋書／卷四十七／劉懷肅及附傳",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "65a0020c6b4d8d37522ce325f0d28bdbec5921125cdd94e3c1f741d90b63e6f6",
+        "edition": "文淵閣四庫全書數位轉錄；未核影像",
+        "extent": "raw13–94，至孟懷玉前；完整選錄單元1535字，不含全卷餘傳及史論。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "去換行空白、¶與pb頁標；保留子月神、升卿、洛陽符昭、千萬及&KR缺字碼。"
+        },
+        "rights": "古代正文，固定數位見證；保留提供者歸屬。",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_047.txt",
+        "raw_path": "sources/songshu/KR2a0016_047-e80c057-zhangchang-reference.txt",
+        "accessed_on": "2026-10-20",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
       }
     },
     {

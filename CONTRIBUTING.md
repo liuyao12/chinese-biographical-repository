@@ -89,6 +89,8 @@ Record bibliographical identity, the actual import method, source URL/revision, 
 
 Compare incoming source corrections with the saved unannotated baseline and our working version. The `merge` command makes a candidate file, never silently applies it. Different historical editions and quotations are separate witnesses; a biography in another work is another account, not automatically a textual variant.
 
+For extracted wikitext, output-to-source character offsets alone do not prove completeness: a truncated output can still have correct offsets. Account for all characters in each selected raw unit as retained visible text or explicitly excluded markup/apparatus, and reject unclassified gaps. Parse paired templates before removing delimiters; check visible text after templates, links and references, including at paragraph endings. Keep a regression where a character-display template is followed by ordinary narrative and confirm that the whole suffix survives. Preserve the failed extraction and its fixed source when repairing an omission; do not relabel a truncated unit as complete because its remaining quotations validate.
+
 ## Present limits
 
 The seed annotations and events are proposals, not independently human-reviewed facts. No historical jurisdiction geometry is included. ctext XML support is raw staging/inspection only; submit a legally reusable real export fixture and its provenance before adding semantic mapping. Never commit API tokens or third-party data with unresolved redistribution rights.

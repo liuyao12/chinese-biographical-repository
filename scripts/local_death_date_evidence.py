@@ -35,7 +35,7 @@ def local_death_date_evidence_valid(date, event, chapters, parse_number):
                 or event.get('event_type')!='death' or event.get('status')!='source_attested'
                 or b['life_event_id']!=event.get('id') or b['person_id']!=event.get('person_id')
                 or b['source_term']!=event.get('source_term') or not b['source_term']
-                or not any(t in b['source_term'] for t in ('死','卒','薨'))
+                or not (any(t in b['source_term'] for t in ('死','卒','薨')) or b.get('death_subject_scope',{}).get('kind')=='named_victim_in_execution_term' and b['source_term'][:1]in('斬','梟'))
                 or not isinstance(scope,dict) or scope.get('kind')!='same_biographical_timeline_with_embedded_quotations'
                 or not relative_regnal_year_valid(date,parse_number,chapters)
                 or not biography_scope_valid(date,chapters)):
@@ -47,12 +47,19 @@ def local_death_date_evidence_valid(date, event, chapters, parse_number):
                 or [e['paragraph_id']for e in es]!=ids or len(set(ids))!=len(ids)):
             return False
         expected={'source_id':ch['source_id'],'source_commit':source.get('source_commit',source.get('revision_id')),'source_blob_sha':source.get('source_blob_sha',source.get('source_blob')),'response_sha256':source.get('response_sha256',source.get('raw_file_sha256'))}
+        execution_scope=b.get('death_subject_scope',{}).get('kind')=='named_victim_in_execution_term'
+        if execution_scope:
+            if date.get('era_year')!=date.get('year'):
+                return False
+            # This scope uses the existing fixed raw witness revision/SHA256;
+            # no locally computed object ID is claimed to verify a remote blob.
+            expected={'source_id':ch['source_id'],'source_revision':source.get('revision_id',source.get('source_commit')),'raw_file_sha256':source.get('raw_file_sha256',source.get('response_sha256'))}
         if (b['source_fingerprint']!=expected or not all(isinstance(v,str)and v for v in expected.values())):
             return False
         for e in es:
             p=ps[e['paragraph_id']]
             if (e.get('quote')!=p['text'] or any(e.get(k)!=ch[k]for k in ('work_id','book_id','source_id'))
-                    or e.get('chapter_id')!=ch['id'] or p['source_position'].get('source_commit',p['source_position'].get('revision_id'))!=expected['source_commit']):
+                    or e.get('chapter_id')!=ch['id'] or p['source_position'].get('source_commit',p['source_position'].get('revision_id',p['source_position'].get('source_revision')if execution_scope else None))!=(expected['source_revision']if execution_scope else expected['source_commit'])):
                 return False
         e=locals_[0];full=es[b['date_evidence_index']];p=ps[full['paragraph_id']]
         if (e.get('paragraph_id')!=p['id'] or any(e.get(k)!=full.get(k)for k in ('work_id','book_id','chapter_id','source_id'))
@@ -72,7 +79,7 @@ def local_death_date_evidence_valid(date, event, chapters, parse_number):
             return False
         m=next(m for m in p['mentions']if m['id']==b['event_person_mention_id'])
         subject=b['death_subject_scope']
-        if not isinstance(subject,dict)or set(subject)!={'kind','clause_anchor'}or not exact(subject['clause_anchor']):
+        if not isinstance(subject,dict)or set(subject)!=({'kind','clause_anchor','actor_person_mention_id'}if execution_scope else {'kind','clause_anchor'})or not exact(subject['clause_anchor']):
             return False
         ca=subject['clause_anchor']
         named=(subject['kind']=='named_subject_in_death_term'and ca==ta
@@ -81,8 +88,30 @@ def local_death_date_evidence_valid(date, event, chapters, parse_number):
              and ca['start']==m['start']and ca['end']==ta['end']
              and ca['surface'].startswith(m['surface']+'有疾')
              and ta['surface']in('遂薨','薨','遂卒','卒','遂死','死'))
+        execution=False
+        if execution_scope:
+            import re
+            actor=next((a for a in p['mentions']if a['id']==subject['actor_person_mention_id']),None)
+            before=p['text'][max(0,ca['start']-2):ca['start']]
+            direct=(actor is not None and actor.get('kind')=='person'and actor.get('person_id')!=m.get('person_id')
+                    and actor['start']==ca['start']and actor['end']<=ta['start'])
+            if direct:
+                prefix=p['text'][actor['end']:ta['start']]
+                # A reusable positive battle/execution clause, not a free NLU
+                # claim: named actor [advances and routs at named place] kills victim.
+                battle=re.fullmatch(r'進[擊撃]大破之於[^曰云言詔非未不欲將當議請免可宜應令命遣使若如恐斬梟。；！？：「」『』\s]{1,8}',prefix)
+                suffix=p['text'][m['end']:ca['end']]
+                execution=(ta['surface']in('斬'+m['surface'],'梟'+m['surface'])
+                    and m['start']==ta['start']+1 and m['end']==ta['end']
+                    and (prefix==''or battle is not None)
+                    and re.fullmatch(r'(?:[并並][一二三四五六七八九十百千萬兩零〇餘]+級)?',suffix)is not None
+                    and not any(x in before for x in ('未','不','非','欲','將','當','議','請','免','可','宜','應','令','命','遣','使','若','如','恐'))
+                    and not any(x in p['text'][da['end']:ca['start']]for x in ('曰','云','詔','「','」','『','』'))
+                    and re.search(r'(?:元|[一二三四五六七八九十百]+)年|明年|翌年|其年',p['text'][da['end']:ta['start']])is None
+                    and not any(era!=date['regnal_year_mapping']['era_name']and era in p['text'][da['end']:ta['start']]for era in scope['known_era_names'])
+                    and not any(a.get('kind')=='person'and ca['start']<=a['start']<ca['end']and a['id']not in(actor['id'],m['id'])for a in p['mentions']))
         return (m.get('kind')=='person'and m.get('person_id')==event.get('person_id')
                 and qa['start']<=m['start']<m['end']<=qa['end']and m['end']<=ta['end']
-                and qa['start']<=ca['start']<ca['end']<=qa['end']and(named or ill))
+                and qa['start']<=ca['start']<ca['end']<=qa['end']and(named or ill or execution))
     except(KeyError,ValueError,TypeError,IndexError,StopIteration,AttributeError):
         return False

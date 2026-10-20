@@ -68,5 +68,7 @@ def year_range_label(value):
     a, b = value['earliest'], value['latest']
     prefix = lambda p: '西元' + ('前' if p['era'] == 'BCE' else '')
     last = str(b['era_year']) if a['era'] == b['era'] else prefix(b) + str(b['era_year'])
+    if a == b and value.get('basis') == 'within_named_era' and value.get('calendar') == 'chinese_civil':
+        return f"{prefix(a)}{a['era_year']}年（中國曆年；月日未定）"
     suffix = '中國曆年範圍' if value.get('basis') == 'within_named_era' and value.get('calendar') == 'chinese_civil' else '暫定範圍'
     return f"{prefix(a)}{a['era_year']}至{last}年（{suffix}）"

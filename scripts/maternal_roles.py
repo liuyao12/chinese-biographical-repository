@@ -3,6 +3,12 @@
 
 def maternal_role_valid(assertion, paragraphs):
     try:
+        from scripts.song047_maternal import clause_valid
+    except ImportError:
+        from song047_maternal import clause_valid
+    if clause_valid(assertion, paragraphs):
+        return True
+    try:
         from scripts.maternal_clauses import maternal_clause_valid
     except ImportError:
         from maternal_clauses import maternal_clause_valid

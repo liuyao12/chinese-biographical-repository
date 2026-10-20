@@ -17,6 +17,12 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if 'elided_appointment_context' in proposal:
+        try:
+            from scripts.song047_title_semantics import elided_decline_valid
+        except ImportError:
+            from song047_title_semantics import elided_decline_valid
+        return elided_decline_valid(proposal, chapter)
     if (proposal.get('proposal_kind') != 'unassumed_appointment' or proposal.get('outcome') != 'not_assumed'
             or proposal.get('status') != 'contextual_provisional' or proposal.get('human_reviewed') is not False
             or len(proposal.get('evidence', [])) != 1):

@@ -199,13 +199,64 @@
           "note": "全44段已讀並作明示人名首輪；未核底本、影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-songshu-041-parents",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-041",
+      "source_id": "s-songshu-041-parents",
+      "source": {
+        "title": "宋書／卷041／父母身份選錄",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_041.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_041.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "884a0efd9c6bf475cbda069b8fb6cb6d3938338673533ba080607eb53c6e9408",
+        "raw_path": "sources/songshu/KR2a0016_041-e80c057-parents-reference.txt",
+        "edition": "文淵閣四庫全書數位轉錄；未核影像",
+        "extent": "完整選錄孝穆趙皇后raw195–212及孝懿蕭皇后raw213–236，共746字；非全卷后妃傳。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去換行空白、¶、pb頁標；安不補宗，三月／四月各見證保留。"
+        },
+        "rights": "古代正文，固定數位見證；保留提供者歸屬。",
+        "accessed_on": "2026-10-20",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
     }
   ],
   "relations": [],
   "related_people": {
+    "9zj_vf7_86a": "薄氏父（外戚世家候選）",
     "fdi_2l0_u1g": "薄案（外戚世家候選）"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ui-song041-lingwen-preexisting-duplicate",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "9zj_vf7_86a",
+        "fdi_2l0_u1g"
+      ],
+      "candidate_list_exhaustive": false,
+      "unknown_identity_possible": false,
+      "unresolved_mention_ids": [
+        "c-songshu-041-parents:p001:m0123"
+      ],
+      "paragraph_ids": [
+        "c-songshu-041-parents:p001",
+        "c-shiji-049-waiqi:p006",
+        "c-shiji-049-waiqi:p010"
+      ],
+      "note": "本句外祖追榮典故可判角色，但既有父／薄案ID尚未整併；另具同事件案，不改既有資料。",
+      "chapter_id": "c-songshu-041-parents",
+      "source_id": "s-songshu-041-parents"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "fdi_2l0_u1g"

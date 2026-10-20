@@ -2,6 +2,12 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'congmu_weans_child_and_nurses_named_child':
+        try:
+            from scripts.song047_collateral_care import valid
+        except ImportError:
+            from song047_collateral_care import valid
+        return valid(assertion, paragraphs)
     q = assertion.get('qualifiers', {})
     if q.get('succession_kind') == 'named_zusun_feng_hou':
         try:

@@ -973,3 +973,25 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ## 明示小名的姓名欄位
 
 `name_components.xiaoming`（小名）與 `xiaozhi`（小字）、`zi`（字）獨立。本限定模型只消費同一完整原段的「具名子小名某父具名父小名某」。`xiaoming_basis.kind=explicit_child_father_xiaoming`，`subject_role=child|father` 決定本筆屬誰；保存 `child_name_anchor`、`child_value_anchor`、`father_name_anchor`、`father_value_anchor` 四個同ID成對的人物錨點，兩個 `child_marker_anchor` / `father_marker_anchor`、一個 `father_role_anchor` 及完整 `clause_anchor` 原詞字位。錨點含 paragraph_id/start/end/surface，四人物錨再含 person_mention_id。狀態 source_attested、human_reviewed=false、rationale 必備。姓名組件 quote 必須為完整實存段。不能從查何如梨等果名譬喻、額外稱呼、字／小字標記升格小名，不能把父子四錨反綁或以相同字形代替同一人物ID。bundle原樣保留來源，卡片／人物頁顯「小名」，異說不任選；沒有值時不顯示。既有小字模型及黙的小字欄不變。
+
+
+### 相反正文長幼記載
+
+`annotation.relative_birth_order_decisions` 保存同一兄弟斷言的雙端錨點、兩個固定見證的相反 `older_person_id`／`younger_person_id`、原檔 SHA256、行範圍、精確引文位置及兩端字串位置。`preferred_claim_id: null` 只抑制該斷言的首選相對年序，不刪原兄弟關係或原始年序；`relations`／`birth_order_constraints` 保留原證，`preferred_relations` 複本刪該項 `relative_birth_order`，並附判讀ID，`preferred_birth_order_constraints` 不產生方向。閱讀器須優先使用存在的首選陣列（包括空陣列），不可退回原始方向。此窄模型只接受「甲次弟乙」和「乙甲之弟也」兩種相反正文句式，未支援其他句式或選定首選；不得拿通鑑正文冒充注家詮釋。
+
+
+### 未決持有人官稱與省略任官受詞
+
+`annotation.unresolved_title_attestations` 僅存person_id:null及職名原位、相鄰unresolved姓名錨點、既有未決identity case及同一候選名單，不入title_holdings或首選實授。候選人的bundle/profile可顯示這條未決來源，不代表候選人已持該官。`title_proposals` 的 `elided_appointment_context` 只支援「以甲為將軍、刺史，乙將軍、刺史，乙辭不拜」兩個具名受詞與同名拒受者的逐字連續綁定；兩筆乙職名均為not_assumed，不輸入實授holding，無文據不補紀年。
+
+追贈的窄契約另支援 imperial_named_serial_gift（可贈＋兩具名受詞／職名逐字連續，並以下一具名補官邊界封閉）與 imperial_decree_topic_death_gift（詔文單一具名主題、原位殞身鋒鏑及既有死亡事件、可贈職名）。兩者保持可贈原字，不創造死亡或授任年月；每筆須綁同一固定原文、人物錨點、職名原位與同值evidence。
+
+
+### 宋047的從母、從母兄、哺養與從子
+
+`maternal_aunt` 主體為甥輩，客體為母之姊妹，`maternal_path: mother_sister`、`generation_difference: -1`、`mother_person_id: null`；不能從姨表稱把某姨連作所有兄弟之母。`maternal_cousin` 的從母兄保存母系同代及原稱older，未知親等／共祖；其 `relative_age_interpretation` 僅支持 chronology_unresolved、preferred_subject_relative_age:null 與固定既有407卒／41報齡／363高祖生年來源case。raw relative_birth_order不改，preferred_relations刪該相對排序並令preferred結構長幼unknown，preferred constraints不含它。原稱與張力皆呈現，不造反向原證或生日。`raised_by` 仍被養者→養者，care_basis的斷乳自養句只依具名從母、兩個同指被斷乳兒及自養對象逐字綁定，不是生母或法律收養。`agnatic_senior_kin` 仍晚輩→父系長一代旁親，新增「某既死從子某」精確句型，不補其父、不限親兄弟之子。四類均保存完整段落、固定revision/hash與雙人物錨點，不參父母三代trace。
+
+
+### 旁親提供其子嗣封的爵位鏈
+
+既有holding.inheritance沿predecessor_holding_id機讀；source title仍為嗣封／嗣，resolved_title為前爵省稱判讀。named_collateral_succession只接受同段「無子弟具名兄弟以子具名承繼者嗣封」、已驗兄弟與明父兩斷言，以及該傳主同段明授爵holding及原位。其前任不是父親，此項不生成收養、叔侄或同母。之後明子嗣可用既有father繼爵鏈。承爵始末未知，不因前任卒或後文元嘉末補年；原文用稱與解析爵名分存。bundle附holding即前任人物以供名稱與連結，卡片可循既有inheritance展示前任及來源，父系trace不循承爵鏈。
