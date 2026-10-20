@@ -115,6 +115,8 @@ def build(root=ROOT, person_ids=None):
         profile['person_ids'] = b['person_ids']
         profile['relations'] = b['relations']
         profile['preferred_relations'] = b.get('preferred_relations', b['relations'])
+        if b.get('unresolved_relation_identity_groups'):
+            profile['unresolved_relation_identity_groups'] = b['unresolved_relation_identity_groups']
         if b.get('assembled_identity'):
             profile['assembled_identity'] = b['assembled_identity']
         if b.get('assembled_children'):

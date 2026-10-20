@@ -13,7 +13,9 @@ export async function traceFamily(person, load) {
 
   function related(p, kind) {
     const ids = own(p), result = new Map();
+    const pending = (p.unresolved_relation_identity_groups || []).filter(g => g.status === 'unresolved' && g.predicate === 'spouse' && g.same_person === null && g.distinct_people === null);
     for (const r of p.preferred_relations || p.relations || []) {
+      if (pending.some(g => g.assertion_ids.includes(r.id))) continue;
       if (r.qualifiers?.adopted_for_family_tree === false) continue;
       const subject = ids.has(r.subject_person_id), object = ids.has(r.object_person_id);
       let id;
@@ -41,7 +43,7 @@ export async function traceFamily(person, load) {
       if (!id || ids.has(id) || result.has(id) || !row.assembly_id
           || !['editorial_preferred', 'contextual_provisional'].includes(row.status)
           || connection?.status !== 'contextual_provisional'
-          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors', 'parent_through_paternal_uncle'].includes(connection.type)
+          || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors', 'parent_between_body_and_attached_note_ancestors', 'parent_through_paternal_uncle'].includes(connection.type)
           || !connection.rationale || !connection.references?.length) return;
       result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
         evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
@@ -111,7 +113,9 @@ export async function traceFamily(person, load) {
   const ordered = orderChildren(children, person);
   const [adoptiveFather, adoptedChildren] = await Promise.all(
     ['adoptive_father', 'adopted_children'].map(kind => resolve(related(person, kind))));
+  const unresolvedSpouseGroups = (person.unresolved_relation_identity_groups || []).filter(g => g.status === 'unresolved' && g.predicate === 'spouse' && g.same_person === null && g.distinct_people === null && [g.common_person_id, ...g.candidate_person_ids].some(id => own(person).has(id)));
   return {ancestors, mother, spouses, children: ordered.entries,
+    ...(unresolvedSpouseGroups.length ? {unresolved_spouse_groups: unresolvedSpouseGroups} : {}),
     ...(adoptiveFather.length ? {adoptive_father: adoptiveFather} : {}),
     ...(adoptedChildren.length ? {adopted_children: adoptedChildren} : {}),
     ...(ordered.conflicts.length ? {child_order_conflicts: ordered.conflicts} : {})};

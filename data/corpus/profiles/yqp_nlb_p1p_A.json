@@ -28,7 +28,8 @@
     "髙帝",
     "高皇",
     "漢祖",
-    "劉"
+    "劉",
+    "漢髙祖"
   ],
   "titles": [
     {
@@ -1928,6 +1929,53 @@
       },
       "interpretation_note": "保存本文用稱；授任、起訖、死亡自動終止均不補。",
       "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-cui53-f095",
+      "person_id": "yqp_nlb_p1p_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-weishu-weishou",
+          "book_id": "b-weishu-weishou-024",
+          "chapter_id": "c-weishu-weishou-024-cuixuanbo",
+          "source_id": "s-weishu-weishou-024-cuixuanbo",
+          "paragraph_id": "c-weishu-weishou-024-cuixuanbo:p003",
+          "quote": "時司馬徳宗遣使來朝太祖將報之詔有司博議國號𤣥伯議曰三皇五帝之立號也或因所生之土或即封國之名故虞夏商周始皆諸侯及聖徳既隆萬國宗戴稱號隨本不復更立唯商人屢徙改號曰殷然猶兼行不廢始基之稱故詩云殷商之旅又云天命𤣥鳥降而生商宅殷土茫茫此其義也昔漢髙祖以漢王定三秦滅彊楚故遂以漢為號國家雖統北方廣漠之土逮于陛下應運龍飛雖曰舊邦受命惟新是以登極之初改代曰魏又慕容永亦奉進魏土夫魏者大名神州之上國斯乃革命之徵驗利見之𤣥符也臣愚以為宜號為魏太祖從之於是四方賔王之貢咸稱大魏矣",
+          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p003:m0117"
+        }
+      ],
+      "interpretation_note": "原語 漢髙祖。 不由死亡截止全部官職，不補生日或缺年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "title": "漢髙祖",
+      "kind": "honorific",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "id": "th-cui53-f095:cui53-f095",
+          "paragraph_id": "c-weishu-weishou-024-cuixuanbo:p003",
+          "start": 117,
+          "end": 120,
+          "surface": "漢髙祖",
+          "person_mention_id": "c-weishu-weishou-024-cuixuanbo:p003:m0117",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
       "period": "未定 → 未定"
     }
   ],
@@ -9722,6 +9770,41 @@
       "work_title": "史記"
     },
     {
+      "number": 21,
+      "category": "",
+      "title": "卷二十一：崔宏完整本傳（浩傳以前）",
+      "paragraph_id": "c-beishi-021-cuihong:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "諛茍容及道武季年大臣多犯威怒宏獨無譴者由於此也帝曾引宏講論漢書至婁敬説漢祖欲以魯元公主妻匈奴善之嗟嘆者良久是以諸公主皆嫁于賔附之國朝臣子弟良族美彦不得尚焉尚書職罷賜宏爵白馬侯加周兵將軍與舊功臣庾岳奚斤等同班而信寵過之道武崩明元未即位清河王紹因人心不安大出財帛班賜朝士宏獨不受",
+      "paragraph_ids": [
+        "c-beishi-021-cuihong:p001"
+      ],
+      "mention_ids": [
+        "c-beishi-021-cuihong:p001:m0689"
+      ],
+      "mention_paragraph_ids": {
+        "c-beishi-021-cuihong:p001:m0689": "c-beishi-021-cuihong:p001"
+      },
+      "mention_id": "c-beishi-021-cuihong:p001:m0689",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-beishi-021-cuihong:p001:m0689",
+          "mention_ids": [
+            "c-beishi-021-cuihong:p001:m0689"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-beishi",
+      "book_id": "b-beishi-021",
+      "chapter_id": "c-beishi-021-cuihong",
+      "source_id": "s-beishi-021-cuihong",
+      "work_title": "北史"
+    },
+    {
       "number": 22,
       "category": "",
       "title": "《三國志》魏書卷二十二陳羣及泰完整單元（編輯選錄題）",
@@ -9755,6 +9838,60 @@
       "chapter_id": "c-sanguozhi-022-chenqun-chentai",
       "source_id": "s-sanguozhi-022-chenqun-chentai",
       "work_title": "三國志"
+    },
+    {
+      "number": 24,
+      "category": "",
+      "title": "卷二十四：崔𤣥伯完整本傳及簡、恬、徽附敘",
+      "paragraph_id": "c-weishu-weishou-024-cuixuanbo:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "兼行不廢始基之稱故詩云殷商之旅又云天命𤣥鳥降而生商宅殷土茫茫此其義也昔漢髙祖以漢王定三秦滅彊楚故遂以漢為號國家雖統北方廣漠之土逮于陛下應運龍飛雖曰舊邦受命惟新是以登極之初改代曰魏又慕容永亦奉進魏土夫魏者大名神州之上國斯乃革命之徵驗利見之𤣥符也臣愚以為宜號為魏太祖從之於是四方賔",
+      "paragraph_ids": [
+        "c-weishu-weishou-024-cuixuanbo:p003",
+        "c-weishu-weishou-024-cuixuanbo:p006"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-024-cuixuanbo:p003:m0117",
+        "c-weishu-weishou-024-cuixuanbo:p003:m0121",
+        "c-weishu-weishou-024-cuixuanbo:p006:m0013"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-024-cuixuanbo:p003:m0117": "c-weishu-weishou-024-cuixuanbo:p003",
+        "c-weishu-weishou-024-cuixuanbo:p003:m0121": "c-weishu-weishou-024-cuixuanbo:p003",
+        "c-weishu-weishou-024-cuixuanbo:p006:m0013": "c-weishu-weishou-024-cuixuanbo:p006"
+      },
+      "mention_id": "c-weishu-weishou-024-cuixuanbo:p003:m0117",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-024-cuixuanbo:p003:m0117",
+          "mention_ids": [
+            "c-weishu-weishou-024-cuixuanbo:p003:m0117"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-024-cuixuanbo:p003:m0121",
+          "mention_ids": [
+            "c-weishu-weishou-024-cuixuanbo:p003:m0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-024-cuixuanbo:p006:m0013",
+          "mention_ids": [
+            "c-weishu-weishou-024-cuixuanbo:p006:m0013"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-024",
+      "chapter_id": "c-weishu-weishou-024-cuixuanbo",
+      "source_id": "s-weishu-weishou-024-cuixuanbo",
+      "work_title": "魏書（魏收）"
     },
     {
       "number": 35,
@@ -19650,6 +19787,36 @@
   ],
   "sources": [
     {
+      "chapter_id": "c-beishi-021-cuihong",
+      "work_id": "w-beishi",
+      "book_id": "b-beishi-021",
+      "source_id": "s-beishi-021-cuihong",
+      "source": {
+        "title": "北史／卷二十一／崔宏",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt",
+        "revision_id": "1a20a4b4c6ed0200ac8c1638634ec610bdea2eea",
+        "source_commit": "1a20a4b4c6ed0200ac8c1638634ec610bdea2eea",
+        "source_blob": "8b114d5885cb7762ebe6ff0f9d672a4bedfd3175",
+        "raw_file_sha256": "f0b9178df723b132cddb2bb09b1d276c143171d9154cb40a0c75987603ec8eb6",
+        "raw_path": "sources/beishi/KR2a0025_021-1a20a4b.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "raw55–120宏完整單元，121浩字伯深起未收；非北史全卷",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
+          "excerpts": []
+        }
+      }
+    },
+    {
       "chapter_id": "c-hanshu-035-jingyanwu",
       "work_id": "w-hanshu",
       "book_id": "b-hanshu-035",
@@ -26671,6 +26838,36 @@
               "digital_editorial_notes": []
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-weishu-weishou-024-cuixuanbo",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-024",
+      "source_id": "s-weishu-weishou-024-cuixuanbo",
+      "source": {
+        "title": "魏書／卷二十四／崔𤣥伯",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0020/17b6525eb5aaa878b9640f5a61e90da934ce5fc4/KR2a0020_024.txt",
+        "revision_id": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "source_commit": "17b6525eb5aaa878b9640f5a61e90da934ce5fc4",
+        "source_blob": "7af3a614996d40af52d5b8fefc3c79dd18022fff",
+        "raw_file_sha256": "be3d212cef7e47f3d64ee8089e95bc4d7ae37af28022ea6883e1ca8a0a57df5a",
+        "raw_path": "sources/weishu-weishou/KR2a0020_024-17b6525.txt",
+        "accessed_on": "2026-10-19",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "raw244至357首字惜；完整本傳及簡恬徽，不含崔寛等後續附支／卷末史評／清考證",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去物理空白、¶與頁標；逐字座標保存，不改元伯/𤣥伯、悦/恱/悅、誅等源字。",
+          "excerpts": []
         }
       }
     },

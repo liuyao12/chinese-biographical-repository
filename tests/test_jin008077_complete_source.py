@@ -35,7 +35,7 @@ class CompleteSources(unittest.TestCase):
  def test_uncertainties_preserved_as_typed(self):
   p=read('source-evidence/jin008077/retained-proposals.json');types={x['kind']for x in p['proposals']};self.assertTrue({'mistaken_belief','conditional_offer','unrealized_appointment','kinship_unspecified','chronology_source_doubt'}<=types)
  def test_caoyanyuan_complete_fixed_primary_bridge(self):
-  p=read('source-evidence/jin008077/caoyanyuan-name-bridge.json');raw=(self.e/'jin090-fixed.txt').read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),p['primary_context']['raw_sha256']);self.assertIn('曹攄，字顏遠',p['primary_context']['complete_unit']);self.assertFalse(p['image_verified']);self.assertEqual(p['person_id'],'hhc_gtv_i8s')
+  p=read('source-evidence/jin008077/caoyanyuan-name-bridge.json');raw=(self.e/'jin090-fixed.txt').read_bytes();self.assertEqual(hashlib.sha256(raw).hexdigest(),p['primary_context']['raw_sha256']);self.assertIn('曹攄，字顏遠',p['primary_context']['complete_unit']);self.assertFalse(p['image_verified']);self.assertEqual(p['person_id'],'h7n_w5t_i1c_AAA*A')
 
  def test_wangxizhi_is_not_wuling_xi(self):
   p=self.b['paragraphs'][4];m=next(m for m in p['mentions']if m['surface']=='王羲之');self.assertEqual(m['person_id'],'326_faf_cd3');self.assertNotEqual(m['person_id'],'dkn_ge4_286_AAAAAAAD')

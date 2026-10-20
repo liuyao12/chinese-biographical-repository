@@ -593,6 +593,41 @@
       "work_title": "晉書"
     },
     {
+      "number": 9,
+      "category": "",
+      "title": "曹休完整本傳及附敘",
+      "paragraph_id": "c-sanguozhi-009-caoxiu:p005",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "詣休降增邑四百并前五千五百戸遷大司馬都督揚州如故太和二年帝為二道征呉遣司馬宣王從漢水下督休諸軍向尋陽賊將偽降休深入戰不利退還宿石亭軍夜驚士卒亂棄甲兵輜重甚多休上書謝罪帝遣屯騎校尉楊暨慰喻禮賜益隆休因此癰發背薨諡曰壮侯子肇嗣",
+      "paragraph_ids": [
+        "c-sanguozhi-009-caoxiu:p005"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-009-caoxiu:p005:m0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-009-caoxiu:p005:m0111": "c-sanguozhi-009-caoxiu:p005"
+      },
+      "mention_id": "c-sanguozhi-009-caoxiu:p005:m0111",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caoxiu:p005:m0111",
+          "mention_ids": [
+            "c-sanguozhi-009-caoxiu:p005:m0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "chapter_id": "c-sanguozhi-009-caoxiu",
+      "source_id": "s-sanguozhi-009-caoxiu",
+      "work_title": "三國志"
+    },
+    {
       "number": 10,
       "category": "",
       "title": "荀彧荀攸賈詡傳第十",
@@ -15218,6 +15253,33 @@
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-009-caoxiu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caoxiu",
+      "source": {
+        "title": "三國志卷九曹休完整本傳及附敘",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "accessed_on": "2026-10-19",
+        "edition": "四庫全書數位固定見證；未核影像",
+        "extent": "曹休本傳及肇、纂附敘與裴注引文；原行272–308，下一曹真309不含。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://github.com/kanripo/KR2a0012",
+        "rights": "古代正文與公開Kanripo轉錄",
+        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪原行尾¶與頁標並串接；各注層只移除行內注釋括號語法，原字符逐字映射；不改顔逺/襄陽/呉等字。",
+          "excerpts": []
+        }
       }
     },
     {

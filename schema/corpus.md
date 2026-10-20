@@ -902,3 +902,22 @@ version 1以primary_paragraph_ids及archival_excerpts完整、不重複分割所
 三后授號新增`posthumous_basis.named_parent_honorific.kind=retrospective_parent_empress_honorific`，保具名授予者／受者mention、母或祖母原詞、尊…曰…皇后全句及后號精確錨點。此為後出唐注所記親尊后號授予，mode=posthumous_grant、kind=honorific，未知授號年／死亡年維持null；原詞尊不補追，無新增死亡事件。不能改成在世皇后實任、太后位、任意他人或不具名授號。
 
 父母／祖母后號的 `named_parent_honorific.primary_context` 必有同固定公開primary見證的完整單元：原raw全文與SHA、精確原行投影及單元SHA、subject/death/grant/identity逐字錨點，明示先死後尊。009單獨的尊母／祖母稱句不能證死後；缺此橋拒絕。完整橋只資格性地支持posthumous，不建立新死亡、死亡年或授號年。敬隠后／敬隱皇后保原源字形，以明示同人完整慶傳的編輯橋解釋，不改正文。所有橋AI provisional、human=false、image=false。
+
+
+## 未決同人配偶指涉組
+
+`annotation.unresolved_relation_identity_groups` 僅將同一共同配偶之多個來源人物槽分組；status=unresolved、predicate=spouse、same_person=null、distinct_people=null。候選ID與原spouse assertion端點精確聯集；每項reference有完整原段與局部span、原主張雙人錨點，不能用分組捏造婚配。原relations、mentions及ID不變；preferred_relations排除此組具名主張，另輸出完整組。traceFamily/card以同一未決組列各來源稱法，明言不判一人或多人，不建立確定配偶項目。無case之既有行為不變，其他親屬類型不適用此契約。
+
+
+## 同傳主死亡後無標點贈官與年號省稱橋
+
+`bound_death_serial_gift`只綁已驗同人死亡事件、傳主起首（可有原紀年或長子前綴）及同固定全段；贈官title_parts逐字連續分段，不改正文標點。死亡到贈之間只容明列直接承接、無他人錨點的議者評語／下詔痛惜，或完整臨沒遺言—請葬—詔許之結構；不以最近人名決定受者，不補授者人名或贈年。`era_name_bridge`同work/commit固定帝紀raw SHA及原字位年號全稱與皇帝本紀標題，對讀傳內原短稱及現代年號表，源字不更動；不能將初中範圍硬定點或任意省字當元年。
+
+
+### 正文與所附裴注的連續祖先
+
+`parent_connection.type: parent_between_body_and_attached_note_ancestors` 為可撤回編輯父系邊，`source_assertion_id` 必須為 null，不生成直接父子來源陳述。它僅消費已驗證同一後裔的父與父系祖父兩條來源斷言：父在完整正文、祖父在該段明確所附的裴注。兩段須有同一 `source_position.source_unit_id` 與 `biography_subject_person_id`、注的 `attached_note_to_paragraph_id` 明確指向正文；身份錨點與父／祖父錨點須各自在原文有確切人物提及，不接受未決候選。
+
+`chain_subject_person_id`、兩個祖先 assertion IDs、四個 `*_mention_id`、`source_revision`、雙來源完整 `references` 與理由均必填。`raw_projection_ref` 指向具有 `raw_file`（同目錄檔名）、raw SHA、完整 raw 行窗、分層 unit 與逐字投影的證據；正文與注的 raw 投影緊接，不得跨另一人物單元、跳過正文或版本。當前此窄型只接受 `witness_appended_pei_songzhi_note`，不能冒用唐注或一般附錄。父系不明、族父歧義、另父衝突、身份未定或循環均拒絕。
+
+API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, assertions, chapters, root)` 由原生 family assembly validator 消費；瀏覽器 `person-family.js` 只增加此已驗證型別白名單，顯示 `assembly_inferred` 及雙引文，不能顯示為原文明父。舊 `parent_between_consecutive_ancestors` 同段規則維持不變；family assembly 尚無獨立 JSON schema enum，結構契約在本節及原生 validator，不需要放寬一般來源 schema。
