@@ -6,7 +6,8 @@
   "identity_note": "宋書66完整本傳人物，依上下文逐段辨識；親屬組裝及有據家族ID整合續錄，不從本段列序補排行，不補未知本名。",
   "review": "ai_provisional",
   "names": [
-    "司馬休之"
+    "司馬休之",
+    "休之"
   ],
   "titles": [],
   "addresses": [],
@@ -47,6 +48,50 @@
       "work_title": "魏書（魏收）"
     },
     {
+      "number": 53,
+      "category": "",
+      "title": "張茂度完整本傳及陸仲元插敘（卷053選錄）",
+      "paragraph_id": "c-songshu-053-zhangmaodu:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "轉主簿揚州治中從事史髙祖西伐劉毅茂度居守留州事悉委之軍還遷中書侍郎出為司馬休之平西司馬河南太守高祖將討休之茂度聞知乘輕船逃下逢高祖於中路以為錄事參軍太守如故江陵平驃騎將軍道憐為荆州茂度仍為咨議參軍太守如故還為揚州别駕從事史高祖北伐關洛復任留州事出為使持節督廣交二州諸軍事建武將軍",
+      "paragraph_ids": [
+        "c-songshu-053-zhangmaodu:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-053-zhangmaodu:p001:m0239",
+        "c-songshu-053-zhangmaodu:p001:m0255"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-053-zhangmaodu:p001:m0239": "c-songshu-053-zhangmaodu:p001",
+        "c-songshu-053-zhangmaodu:p001:m0255": "c-songshu-053-zhangmaodu:p001"
+      },
+      "mention_id": "c-songshu-053-zhangmaodu:p001:m0239",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-053-zhangmaodu:p001:m0239",
+          "mention_ids": [
+            "c-songshu-053-zhangmaodu:p001:m0239"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-053-zhangmaodu:p001:m0255",
+          "mention_ids": [
+            "c-songshu-053-zhangmaodu:p001:m0255"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-053",
+      "chapter_id": "c-songshu-053-zhangmaodu",
+      "source_id": "s-songshu-053-zhangmaodu",
+      "work_title": "宋書"
+    },
+    {
       "number": 66,
       "category": "",
       "title": "王敬弘傳",
@@ -84,6 +129,32 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-songshu-053-zhangmaodu",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-053",
+      "source_id": "s-songshu-053-zhangmaodu",
+      "source": {
+        "title": "宋書卷053張茂度及陸氏插敘單元",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_path": "sources/songshu/KR2a0016_053-e80c057.txt",
+        "raw_file_sha256": "209d89c88b99935a849223d7e61575ba2ad3eb0122ff4858409cd89fcf101780",
+        "extent": "raw13:0–57:4，止皆有盛名並早卒，不截取後續鏡弟永及永傳；非全卷。",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去頁標、¶與排版空白；原字不改，未圖校。"
+        },
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_053.txt"
+      }
+    },
     {
       "chapter_id": "c-songshu-066-wangjinghong",
       "work_id": "w-songshu",

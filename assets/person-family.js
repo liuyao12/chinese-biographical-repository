@@ -5,10 +5,30 @@ export async function traceFamily(person, load) {
   function mergeEvidence(map, entry) {
     const previous = map.get(entry.id);
     if (!previous) { map.set(entry.id, entry); return; }
+    const paths = [...(previous.ancestry_paths || []), ...(entry.ancestry_paths || [])];
+    if (paths.some(p => p.qualification === 'assembly_inferred')) {
+      const rank = x => x.cycle ? 0 : x.role === 'assembly_inferred' ? 1 : 2;
+      const best = rank(entry) > rank(previous) ? entry : previous;
+      // Do not relabel an inferred route's quotation as the selected direct
+      // grandparent assertion. Both routes retain their original step evidence.
+      const directEvidence = [previous, entry].filter(x => rank(x) === 2).flatMap(x => x.evidence);
+      const allPaths = [...new Map(paths.map(p => [JSON.stringify(p), p])).values()];
+      const merged = {...best, evidence: rank(best) === 2 ? directEvidence : best.evidence,
+        ancestry_paths: allPaths};
+      const available = [previous, entry].find(x => x.person && !x.unavailable && !x.cycle);
+      if (available) {
+        merged.person = available.person; merged.label = available.label;
+        delete merged.unavailable;
+        merged.ancestry_paths = allPaths.map(p => ({...p, unavailable: false}));
+      }
+      map.set(entry.id, merged);
+      return;
+    }
     const direct = previous.role === 'assembly_inferred' && entry.role !== 'assembly_inferred'
       && !entry.unavailable && !entry.cycle;
     if (direct) map.set(entry.id, {...entry, evidence: [...entry.evidence, ...previous.evidence]});
     else previous.evidence.push(...entry.evidence);
+    if (paths.length) map.get(entry.id).ancestry_paths = paths;
   }
 
   function related(p, kind) {
@@ -46,7 +66,7 @@ export async function traceFamily(person, load) {
           || !['shared_father_through_sibling', 'shared_father_through_sibling_chain', 'parent_between_consecutive_ancestors', 'parent_between_body_and_attached_note_ancestors', 'parent_through_paternal_uncle'].includes(connection.type)
           || !connection.rationale || !connection.references?.length) return;
       result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
-        evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
+        evidence: connection.references.map(ref => ({...ref}))});
     }
     if (kind === 'father' && ids.has(p.assembled_identity?.person_id)) {
       assemblyEdge(p.assembled_identity, p.assembled_identity.parent_person_id);
@@ -61,7 +81,7 @@ export async function traceFamily(person, load) {
           && connection.status === 'contextual_provisional'
           && connection.rationale && connection.references?.length) {
         result.set(id, {id, role: 'assembly_inferred', inference_note: connection.rationale,
-          evidence: connection.references.map(ref => ({quote: ref.quote, chapter_id: ref.chapter_id, paragraph_id: ref.paragraph_id}))});
+          evidence: connection.references.map(ref => ({...ref}))});
       }
     }
     if (kind === 'children') {
@@ -80,34 +100,66 @@ export async function traceFamily(person, load) {
     for (const entry of resolved) mergeEvidence(unique, entry);
     return [...unique.values()];
   }
+  function qualifyAncestor(parent, branch, relationship, distance) {
+    const step = {from_person_id: branch.resolvedId || branch.person.id, to_person_id: parent.id,
+      from_label: branch.person.label || branch.person.id, to_label: parent.label || parent.id,
+      relationship, generation_distance: distance,
+      qualification: parent.role === 'assembly_inferred' ? 'assembly_inferred' : 'source_linked',
+      inference_note: parent.inference_note || null, evidence: [...parent.evidence]};
+    const steps = [...(branch.ancestrySteps || []), step];
+    const inferred = steps.some(x => x.qualification === 'assembly_inferred');
+    const cycle = Boolean(parent.person && [...own(parent.person)].some(id => branch.path.has(id)));
+    const route = {person_ids: [steps[0].from_person_id, ...steps.map(x => x.to_person_id)],
+      qualification: inferred ? 'assembly_inferred' : 'source_linked',
+      cycle, unavailable: Boolean(parent.unavailable), lookup_unavailable: Boolean(parent.unavailable), steps};
+    const out = {...parent, cycle, ancestry_paths: [route]};
+    if (inferred) {
+      out.role = 'assembly_inferred';
+      out.inference_note = steps.filter(x => x.qualification === 'assembly_inferred')
+        .map(x => x.inference_note).filter(Boolean).join('；');
+    }
+    return out;
+  }
   const ancestors = [];
   const deferred = new Map();
-  let frontier = [{person, path: own(person)}];
+  let frontier = [{person, path: own(person), resolvedId: person.id, ancestrySteps: []}];
   for (let generation = 1; generation <= 3; generation++) {
-    const next = [], row = [];
+    const next = [], row = [], nextCandidates = [];
     for (const branch of frontier) {
       for (const [offset, kind] of [[1, 'grandfather'], [2, 'great_grandfather']]) {
         const target = generation + offset;
         if (target > 3) continue;
         const explicit = await resolve(related(branch.person, kind));
         if (!deferred.has(target)) deferred.set(target, []);
-        deferred.get(target).push(...explicit.map(parent => ({parent, path: branch.path})));
+        deferred.get(target).push(...explicit.map(parent => ({parent: qualifyAncestor(parent, branch, kind, offset + 1), path: branch.path})));
       }
       const parents = await resolve(related(branch.person, 'father'));
       for (const parent of parents) {
-        const cycle = parent.person && [...own(parent.person)].some(id => branch.path.has(id));
-        row.push({...parent, cycle: Boolean(cycle)});
-        if (parent.person && !cycle) next.push({person: parent.person, path: new Set([...branch.path, ...own(parent.person)])});
+        const qualified = qualifyAncestor(parent, branch, 'father', 1);
+        row.push(qualified);
+        nextCandidates.push({parent: qualified, path: branch.path});
       }
     }
     for (const {parent, path} of deferred.get(generation) || []) {
-      const cycle = parent.person && [...own(parent.person)].some(id => path.has(id));
-      row.push({...parent, cycle: Boolean(cycle), explicitAncestor: true});
-      if (parent.person && !cycle) next.push({person: parent.person, path: new Set([...path, ...own(parent.person)])});
+      row.push({...parent, explicitAncestor: true});
+      nextCandidates.push({parent, path});
     }
     const unique = new Map();
     for (const entry of row) mergeEvidence(unique, entry);
-    ancestors.push([...unique.values()]); frontier = next;
+    for (const candidate of nextCandidates) {
+      const merged = unique.get(candidate.parent.id);
+      const recovery = merged?.ancestry_paths?.some(p => p.qualification === 'assembly_inferred');
+      const loaded = candidate.parent.person || (recovery ? merged.person : null);
+      if (loaded && !candidate.parent.cycle) next.push({person: loaded,
+        path: new Set([...candidate.path, ...own(loaded)]), resolvedId: candidate.parent.id,
+        ancestrySteps: candidate.parent.ancestry_paths[0].steps});
+    }
+    ancestors.push([...unique.values()].map(entry => {
+      if (entry.ancestry_paths?.some(p => p.qualification === 'assembly_inferred')) return entry;
+      // Pure source-linked routes keep the exact pre-extension public shape.
+      const {ancestry_paths, ...legacy} = entry;
+      return legacy;
+    })); frontier = next;
   }
   const [mother, spouses, children] = await Promise.all(['mother', 'spouse', 'children'].map(kind => resolve(related(person, kind))));
   const ordered = orderChildren(children, person);

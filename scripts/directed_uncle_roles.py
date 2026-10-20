@@ -14,8 +14,46 @@ def _biographical_head(p, marks):
                for m in marks)
 
 
+def _resumed_child_elder_uncle(p, subjects, objects, term):
+    """完整子傳的字名開頭與服喪段復見其名，雙重綁定伯父，不能跨轉主體。"""
+    t = p['text']
+    for head in subjects:
+        if head['surface'] in ('其', '我', '吾', '臣', '父', '子', '弟', '兄'):
+            continue
+        if not t[head['end']:].startswith('字'):
+            continue
+        prefix = t[:head['start']]
+        if prefix and not re.fullmatch(r'子[^曰。；！？「」『』]{1,12}有名於世', prefix):
+            continue
+        for obj in objects:
+            a = obj['start'] - len('伯父')
+            if a < head['end'] or t[a:obj['start']] != '伯父':
+                continue
+            if term != '伯父' + obj['surface'] + '每譬止之':
+                continue
+            # A named biography child resumes immediately after the uncle's
+            # admonition. The nearby mourning clause remains the same subject;
+            # another named person or quoted speech invalidates that binding.
+            resumed = [m for m in subjects if m['start'] == obj['end'] + len('每譬止之')]
+            if not resumed or not t[obj['end']:resumed[0]['start']].startswith('每譬止之'):
+                continue
+            local = t.rfind('未拜父在', head['end'], a)
+            if local < 0:
+                continue
+            between = t[local:a]
+            if not re.fullmatch(r'未拜父在[^曰。；！？「」『』]{1,12}亡成服[^曰。；！？「」『』]{1,16}𦵏畢[^曰。；！？「」『』]{1,20}遂[^曰。；！？「」『』]{1,12}', between):
+                continue
+            if any(m.get('kind') == 'person' and m.get('person_id') != head.get('person_id')
+                   and local <= m.get('start', -1) < a for m in p.get('mentions', [])):
+                continue
+            return True
+    return False
+
+
 def _direction(p, subjects, objects, term):
     t = p['text']
+    if _resumed_child_elder_uncle(p, subjects, objects, term):
+        return True
     # A paragraph resumes its named subject, gives descriptive clauses, then
     # directly coordinates 與叔父某. No other marked person or quoted speech
     # may intervene; the named uncle must immediately follow the literal role.
@@ -121,6 +159,12 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_head_named_uncle_xiongzi':
+        try:
+            from scripts.song059_kinship import inverse_xiongzi_valid
+        except ImportError:
+            from song059_kinship import inverse_xiongzi_valid
+        return inverse_xiongzi_valid(assertion, paragraphs)
     if assertion.get('predicate') != 'paternal_uncle' or not assertion.get('evidence'):
         return False
     for e in assertion['evidence']:

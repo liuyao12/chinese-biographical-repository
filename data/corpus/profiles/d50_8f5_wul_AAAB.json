@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "id": "d50_8f5_wul_AAAB",
+  "canonical_person_id": "d50_8f5_wul_AAAB",
+  "label": "張褘〔059亦禕，046偉；張暢父〕",
+  "identity_note": "059完整單元與固定平行來源上下文暫定辨識；不用同姓／同字自動接族。",
+  "review": "ai_provisional",
+  "names": [
+    "褘",
+    "禕"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 59,
+      "category": "",
+      "title": "張暢完整本傳與附家族",
+      "paragraph_id": "c-songshu-059-zhangchang:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所",
+      "paragraph_ids": [
+        "c-songshu-059-zhangchang:p001"
+      ],
+      "mention_ids": [
+        "c-songshu-059-zhangchang:p001:m0018",
+        "c-songshu-059-zhangchang:p001:m0052",
+        "c-songshu-059-zhangchang:p001:m0058"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-059-zhangchang:p001:m0018": "c-songshu-059-zhangchang:p001",
+        "c-songshu-059-zhangchang:p001:m0052": "c-songshu-059-zhangchang:p001",
+        "c-songshu-059-zhangchang:p001:m0058": "c-songshu-059-zhangchang:p001"
+      },
+      "mention_id": "c-songshu-059-zhangchang:p001:m0018",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-059-zhangchang:p001:m0018",
+          "mention_ids": [
+            "c-songshu-059-zhangchang:p001:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-059-zhangchang:p001:m0052",
+          "mention_ids": [
+            "c-songshu-059-zhangchang:p001:m0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-059-zhangchang:p001:m0058",
+          "mention_ids": [
+            "c-songshu-059-zhangchang:p001:m0058"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-059",
+      "chapter_id": "c-songshu-059-zhangchang",
+      "source_id": "s-songshu-059-zhangchang",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-059-zhangchang",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-059",
+      "source_id": "s-songshu-059-zhangchang",
+      "source": {
+        "title": "宋書／卷五十九／張暢",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "bfcc7c097a1bf4ccaf653367f8de331d2bd1f961edcae23ef202419a82f0a32c",
+        "raw_path": "sources/songshu/KR2a0016_059-e80c057-zhangchang-reference.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "完整張暢及附家族單元，原檔36–258行，至何偃前；非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去空白、¶、頁標；保留每字原行列及父名褘／禕等異體，不把046後補異文換入。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song059-zhangchang-001",
+      "subject_person_id": "d50_8f5_wul_AAABA",
+      "object_person_id": "d50_8f5_wul_AAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父褘"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-059",
+          "source_id": "s-songshu-059-zhangchang",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p001",
+          "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+          "subject_person_mention_id": "c-songshu-059-zhangchang:p001:m0000",
+          "object_person_mention_id": "c-songshu-059-zhangchang:p001:m0018"
+        }
+      ],
+      "interpretation_note": "本傳明示父子／弟及長幼；不藉繼位、同姓或從兄關係造父。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-song059-zhangchang-011",
+      "subject_person_id": "d50_8f5_wul_AAAB",
+      "object_person_id": "d50_8f5_wul_AAAC",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "邵兄子也父褘",
+        "source_clause_binding": {
+          "kind": "biography_head_uncle_xiongzi_named_father",
+          "start": 13,
+          "end": 19,
+          "child_person_mention_id": "c-songshu-059-zhangchang:p001:m0000",
+          "father_role_start": 17,
+          "father_role_end": 19
+        },
+        "source_explicit_father_assertion_id": "a-song059-zhangchang-001",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "d50_8f5_wul_AAAB",
+          "younger_person_id": "d50_8f5_wul_AAAC",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-059",
+          "source_id": "s-songshu-059-zhangchang",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p001",
+          "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+          "subject_person_mention_id": "c-songshu-059-zhangchang:p001:m0018",
+          "object_person_mention_id": "c-songshu-059-zhangchang:p001:m0013"
+        }
+      ],
+      "interpretation_note": "傳首邵兄子也與緊接父褘共同明示張暢之父褘是邵之兄；只記相對年序，不補絕對排行或祖父。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "related_people": {
+    "d50_8f5_wul_AAAB": "張褘〔059亦禕，046偉；張暢父〕",
+    "d50_8f5_wul_AAABA": "張暢",
+    "d50_8f5_wul_AAAC": "張邵"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "d50_8f5_wul_AAAB"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song059-zhangchang-001",
+      "subject_person_id": "d50_8f5_wul_AAABA",
+      "object_person_id": "d50_8f5_wul_AAAB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "父褘"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-059",
+          "source_id": "s-songshu-059-zhangchang",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p001",
+          "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+          "subject_person_mention_id": "c-songshu-059-zhangchang:p001:m0000",
+          "object_person_mention_id": "c-songshu-059-zhangchang:p001:m0018"
+        }
+      ],
+      "interpretation_note": "本傳明示父子／弟及長幼；不藉繼位、同姓或從兄關係造父。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-song059-zhangchang-011",
+      "subject_person_id": "d50_8f5_wul_AAAB",
+      "object_person_id": "d50_8f5_wul_AAAC",
+      "predicate": "brother",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "邵兄子也父褘",
+        "source_clause_binding": {
+          "kind": "biography_head_uncle_xiongzi_named_father",
+          "start": 13,
+          "end": 19,
+          "child_person_mention_id": "c-songshu-059-zhangchang:p001:m0000",
+          "father_role_start": 17,
+          "father_role_end": 19
+        },
+        "source_explicit_father_assertion_id": "a-song059-zhangchang-001",
+        "relative_birth_order": {
+          "operator": "lt",
+          "scope": "siblings",
+          "older_person_id": "d50_8f5_wul_AAAB",
+          "younger_person_id": "d50_8f5_wul_AAAC",
+          "older_ordinal": null,
+          "younger_ordinal": null
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-059",
+          "source_id": "s-songshu-059-zhangchang",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p001",
+          "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+          "subject_person_mention_id": "c-songshu-059-zhangchang:p001:m0018",
+          "object_person_mention_id": "c-songshu-059-zhangchang:p001:m0013"
+        }
+      ],
+      "interpretation_note": "傳首邵兄子也與緊接父褘共同明示張暢之父褘是邵之兄；只記相對年序，不補絕對排行或祖父。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "d50_8f5_wul_AAAB",
+    "representative_source_person_id": "d50_8f5_wul_AAAB",
+    "source_person_ids": [
+      "d50_8f5_wul_AAAB"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "d50_8f5_wul_AAA",
+    "source_assertion_id": null,
+    "interpretation_note": "059父褘與邵為兄弟，046明邵父敞；連同059暢為邵兄子之叔侄橋，首選把褘接敞，僅為共享父編輯推論。046偉／059褘禕同指另已有同故事資格，非按同姓合。",
+    "parent_connection": {
+      "type": "shared_father_through_sibling",
+      "sibling_person_id": "d50_8f5_wul_AAAC",
+      "sibling_assertion_id": "a-song059-zhangchang-011",
+      "sibling_father_assertion_id": "a-song046-zhangshao-001",
+      "status": "contextual_provisional",
+      "confidence": "moderate",
+      "human_reviewed": false,
+      "rationale": "059父褘與邵為兄弟，046明邵父敞；連同059暢為邵兄子之叔侄橋，首選把褘接敞，僅為共享父編輯推論。046偉／059褘禕同指另已有同故事資格，非按同姓合。",
+      "references": [
+        {
+          "assertion_id": "a-song059-zhangchang-011",
+          "chapter_id": "c-songshu-059-zhangchang",
+          "paragraph_id": "c-songshu-059-zhangchang:p001",
+          "source_id": "s-songshu-059-zhangchang",
+          "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+          "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+        },
+        {
+          "assertion_id": "a-song046-zhangshao-001",
+          "chapter_id": "c-songshu-046-zhangshao",
+          "paragraph_id": "c-songshu-046-zhangshao:p001",
+          "source_id": "s-songshu-046-zhangshao",
+          "quote": "張邵字茂宗會稽太守裕之弟也初為晉琅邪内史王誕龍驤府功曹桓𤣥徙誕於廣州親故咸離棄之惟邵情意彌謹流涕追送時變亂饑饉又饋送其妻子桓𤣥簒位父敞先為尚書以答事微謬降為廷尉卿及武帝討𤣥邵白敞表獻誠欵帝大說命署其門曰有犯張廷尉者以軍法論後以敞為呉郡太守王謐為揚州召邵為主簿劉毅為亞相愛才好士當世莫不輻湊獨邵不徃或問之邵曰主公命世人傑何煩多問劉穆之聞以白帝益親之轉太尉參軍署長流賊曹盧循寇迫京師使邵守南城時百姓臨水望賊帝怪而問邵邵曰若節鉞未反奔散之不暇亦何能觀望今當無復恐耳尋補州主簿邵悉心政事精力絶人及誅劉藩邵時在西州直廬即夜誡衆曹曰大軍當大討可各脩舟船倉庫及曉取辦旦日帝求諸簿署應時即至怪問其速諸曹答曰昨夜受張主簿處分帝曰張邵可謂同我憂慮矣九年世子始開征虜府補邵録事參軍轉號中軍遷咨議參軍領記室十二年武帝北伐邵請見曰人生危脆必當逺慮穆之若邂逅不幸誰可代之尊業如此茍有不諱事將如何帝曰此自委穆之及卿耳青州刺史檀祗鎮廣陵時滁州結聚亡命祗率衆掩之劉穆之恐以為變將𤼵軍邵曰檀韶據中流道濟為軍首若疑狀𤼵露恐生大變宜且遣慰勞以觀其意既而祗果不動及穆之卒朝廷恇懼便欲𤼵詔以司馬徐羡之代之邵對曰今誠急病任終在徐且世子無專命宜湏北咨信反方使世子出命曰朝廷及大府事悉咨徐司馬其餘啟還武帝重其臨事不撓有大臣體十四年以世子鎮荆州邵諫曰儲貳之重四海所繫不宜處外敢以死請從之文帝為中郎將荆州刺史以邵為司馬領南郡相衆事悉決於邵武帝受命以佐命功封臨沮伯分荆州立湘州以邵為刺史將署府邵以為長沙内地非用武之國置署妨人乖為政要帝從之謝晦反遺書要邵邵不發函馳使呈帝元嘉五年轉征虜將軍領寧蠻校尉雝州刺史加都督初王華與邵有隙及華參要親舊為之危心邵曰子陵方𢎞至公必不以私讐害正義是任也華實舉之及至襄陽築長圍修立隄堰開田數千頃郡人頼之富贍丹淅二州蠻屢為寇邵誘其帥因大會誅之悉掩其徒黨既失信羣蠻所在並起水陸斷絶子敷至襄陽定省當還都羣蠻伺欲取之會蠕蠕國遣使朝貢賊以為敷遂執之邵坐降號揚烈將軍江夏王義恭鎮江陵以邵為撫軍長史持節南蠻校尉坐在雝州營私蓄取贓貨二百四十五萬下廷尉免官削爵土後為呉興太守卒追復爵邑諡曰簡伯邵臨終遺命祭以菜果葦蓆為轜車諸子從焉",
+          "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+          "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+        }
+      ],
+      "counterevidence_limits": [
+        "未明同父全兄弟；無異父、收養或出繼反證不等於證明同父。",
+        "若新增明確親屬反證，撤回本編輯邊；原兄弟與父子來源斷言保留。"
+      ]
+    },
+    "assembly_id": "family-song053-wujun-zhang-jia",
+    "root_person_id": "d50_8f5_wul",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "d50_8f5_wul_AAABB",
+      "representative_source_person_id": "d50_8f5_wul_AAABB",
+      "source_person_ids": [
+        "d50_8f5_wul_AAABB"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "d50_8f5_wul_AAAB",
+      "source_assertion_id": null,
+      "interpretation_note": "059暢弟牧、父褘，首選牧共享父褘；不把弟之字當明言父親。",
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "d50_8f5_wul_AAABA",
+        "sibling_assertion_id": "a-song059-zhangchang-002",
+        "sibling_father_assertion_id": "a-song059-zhangchang-001",
+        "status": "contextual_provisional",
+        "confidence": "moderate",
+        "human_reviewed": false,
+        "rationale": "059暢弟牧、父褘，首選牧共享父褘；不把弟之字當明言父親。",
+        "references": [
+          {
+            "assertion_id": "a-song059-zhangchang-002",
+            "chapter_id": "c-songshu-059-zhangchang",
+            "paragraph_id": "c-songshu-059-zhangchang:p001",
+            "source_id": "s-songshu-059-zhangchang",
+            "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+            "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+          },
+          {
+            "assertion_id": "a-song059-zhangchang-001",
+            "chapter_id": "c-songshu-059-zhangchang",
+            "paragraph_id": "c-songshu-059-zhangchang:p001",
+            "source_id": "s-songshu-059-zhangchang",
+            "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+            "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+          }
+        ],
+        "counterevidence_limits": [
+          "未明同父全兄弟；無異父、收養或出繼反證不等於證明同父。",
+          "若新增明確親屬反證，撤回本編輯邊；原兄弟與父子來源斷言保留。"
+        ]
+      },
+      "assembly_id": "family-song053-wujun-zhang-jia",
+      "root_person_id": "d50_8f5_wul",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    },
+    {
+      "person_id": "d50_8f5_wul_AAABC",
+      "representative_source_person_id": "d50_8f5_wul_AAABC",
+      "source_person_ids": [
+        "d50_8f5_wul_AAABC"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "d50_8f5_wul_AAAB",
+      "source_assertion_id": null,
+      "interpretation_note": "059暢弟說、父褘，首選說共享父褘；046悦之同指另存原字資格，不補母系。",
+      "parent_connection": {
+        "type": "shared_father_through_sibling",
+        "sibling_person_id": "d50_8f5_wul_AAABA",
+        "sibling_assertion_id": "a-song059-zhangchang-006",
+        "sibling_father_assertion_id": "a-song059-zhangchang-001",
+        "status": "contextual_provisional",
+        "confidence": "moderate",
+        "human_reviewed": false,
+        "rationale": "059暢弟說、父褘，首選說共享父褘；046悦之同指另存原字資格，不補母系。",
+        "references": [
+          {
+            "assertion_id": "a-song059-zhangchang-006",
+            "chapter_id": "c-songshu-059-zhangchang",
+            "paragraph_id": "c-songshu-059-zhangchang:p018",
+            "source_id": "s-songshu-059-zhangchang",
+            "quote": "暢弟說亦有羙稱歴中書吏部郎侍中臨海王子頊前軍長史南郡太守晋安王子勛建偽號於尋陽召為吏部尚書與鄧琬共輔偽政事敗殺琬歸降事在琬傳復為太子庶子仍除巴陵王休若衛軍長史襄陽太守四年即代休若為雍州刺史寧逺将軍復為休若征西長史南郡太守六年太宗於巴郡置三巴校尉以補之加持節輔師将軍領巴郡太守未拜卒",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+            "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+          },
+          {
+            "assertion_id": "a-song059-zhangchang-001",
+            "chapter_id": "c-songshu-059-zhangchang",
+            "paragraph_id": "c-songshu-059-zhangchang:p001",
+            "source_id": "s-songshu-059-zhangchang",
+            "quote": "張暢字少微呉郡呉人呉興太守邵兄子也父褘少有孝行歴宦州府為琅邪王國郎中令從琅邪王至洛還京都髙祖封藥酒一甖付禕使宻加酖毒禕受命既還於道自飲而卒暢少與從兄敷演鏡齊名為後進之秀起家為太守徐佩之主簿佩之被誅暢馳出奔赴制服盡哀為論者所羙弟牧嘗為猘犬所傷醫云宜食蝦蟇膾牧甚難之暢含笑先嘗牧因此乃食創亦即愈",
+            "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+            "scope": "原始來源主張，供編輯接合核查，非新增明言父子。"
+          }
+        ],
+        "counterevidence_limits": [
+          "未明同父全兄弟；無異父、收養或出繼反證不等於證明同父。",
+          "若新增明確親屬反證，撤回本編輯邊；原兄弟與父子來源斷言保留。"
+        ]
+      },
+      "assembly_id": "family-song053-wujun-zhang-jia",
+      "root_person_id": "d50_8f5_wul",
+      "status": "editorial_preferred",
+      "human_reviewed": false
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

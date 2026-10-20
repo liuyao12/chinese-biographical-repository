@@ -6,7 +6,8 @@
   "identity_note": "本批完整傳文來源候選；不因同姓或同名接族。",
   "review": "ai_provisional",
   "names": [
-    "晉安王子勛"
+    "晉安王子勛",
+    "晋安王子勛"
   ],
   "titles": [
     {
@@ -93,6 +94,51 @@
       "book_id": "b-songshu-042",
       "chapter_id": "c-songshu-042-wanghong",
       "source_id": "s-songshu-042-wanghong",
+      "work_title": "宋書"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "張暢完整本傳與附家族",
+      "paragraph_id": "c-songshu-059-zhangchang:p017",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吏燒臂照佛民有辠使禮佛動至數千拜免官禁錮起為光禄勲臨川内史太宗㤗始初與晋安王子勛同逆率衆至鄱陽軍敗見殺",
+      "paragraph_ids": [
+        "c-songshu-059-zhangchang:p017",
+        "c-songshu-059-zhangchang:p018"
+      ],
+      "mention_ids": [
+        "c-songshu-059-zhangchang:p017:m0101",
+        "c-songshu-059-zhangchang:p018:m0028"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-059-zhangchang:p017:m0101": "c-songshu-059-zhangchang:p017",
+        "c-songshu-059-zhangchang:p018:m0028": "c-songshu-059-zhangchang:p018"
+      },
+      "mention_id": "c-songshu-059-zhangchang:p017:m0101",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-059-zhangchang:p017:m0101",
+          "mention_ids": [
+            "c-songshu-059-zhangchang:p017:m0101"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-059-zhangchang:p018:m0028",
+          "mention_ids": [
+            "c-songshu-059-zhangchang:p018:m0028"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-059",
+      "chapter_id": "c-songshu-059-zhangchang",
+      "source_id": "s-songshu-059-zhangchang",
       "work_title": "宋書"
     },
     {
@@ -572,6 +618,34 @@
               "biographical_unit": "王弘"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-059-zhangchang",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-059",
+      "source_id": "s-songshu-059-zhangchang",
+      "source": {
+        "title": "宋書／卷五十九／張暢",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_059.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_file_sha256": "bfcc7c097a1bf4ccaf653367f8de331d2bd1f961edcae23ef202419a82f0a32c",
+        "raw_path": "sources/songshu/KR2a0016_059-e80c057-zhangchang-reference.txt",
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "extent": "完整張暢及附家族單元，原檔36–258行，至何偃前；非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去空白、¶、頁標；保留每字原行列及父名褘／禕等異體，不把046後補異文換入。",
+          "excerpts": []
         }
       }
     },

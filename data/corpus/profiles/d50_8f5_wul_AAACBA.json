@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "d50_8f5_wul_AAACBA",
+  "canonical_person_id": "d50_8f5_wul_AAACBA",
+  "label": "張式〔柬子〕",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "式"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 46,
+      "category": "",
+      "title": "張邵及敷、柬附傳（卷046選錄）",
+      "paragraph_id": "c-songshu-046-zhangshao:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "襲父封位通直郎柬有勇力手格猛獸元凶以為輔國將軍孝武至新亭柬出奔墜淮死子式嗣",
+      "paragraph_ids": [
+        "c-songshu-046-zhangshao:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-046-zhangshao:p003:m0038"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-046-zhangshao:p003:m0038": "c-songshu-046-zhangshao:p003"
+      },
+      "mention_id": "c-songshu-046-zhangshao:p003:m0038",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-046-zhangshao:p003:m0038",
+          "mention_ids": [
+            "c-songshu-046-zhangshao:p003:m0038"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "chapter_id": "c-songshu-046-zhangshao",
+      "source_id": "s-songshu-046-zhangshao",
+      "work_title": "宋書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-songshu-046-zhangshao",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-046",
+      "source_id": "s-songshu-046-zhangshao",
+      "source": {
+        "title": "宋書卷046張邵及附傳",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0016/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_046.txt",
+        "revision_id": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_path": "sources/songshu/KR2a0016_046-e80c057-identity-reference.txt",
+        "raw_file_sha256": "9f973762548f2e077297a0621457461bf0749d0bbc81389ec7dc175f0d68e3ef",
+        "extent": "raw105–180張邵及敷、柬三完整單元；不含後張暢附傳或整卷046。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "received_text_qualification": "received_later_supplemented_biography",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "只去頁標、¶與排版空白，原字不改；046親屬歧句與053平行父系分層保存，不靜默加標點。"
+        },
+        "accessed_on": "2026-10-20",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "rights": "古籍原文；固定Kanripo數位見證"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-song046-zhangshao-006",
+      "subject_person_id": "d50_8f5_wul_AAACBA",
+      "object_person_id": "d50_8f5_wul_AAACB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "柬出奔墜淮死子式嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhangshao",
+          "source_id": "s-songshu-046-zhangshao",
+          "paragraph_id": "c-songshu-046-zhangshao:p003",
+          "quote": "敷弟柬襲父封位通直郎柬有勇力手格猛獸元凶以為輔國將軍孝武至新亭柬出奔墜淮死子式嗣",
+          "subject_person_mention_id": "c-songshu-046-zhangshao:p003:m0038",
+          "object_person_mention_id": "c-songshu-046-zhangshao:p003:m0002"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "直接近親原詞；候選身份狀態仍屬上下文暫定，不由同姓、嗣爵或歧句補父。"
+    }
+  ],
+  "related_people": {
+    "d50_8f5_wul_AAACB": "張柬〔敷弟〕",
+    "d50_8f5_wul_AAACBA": "張式〔柬子〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "d50_8f5_wul_AAACBA"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-song046-zhangshao-006",
+      "subject_person_id": "d50_8f5_wul_AAACBA",
+      "object_person_id": "d50_8f5_wul_AAACB",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "柬出奔墜淮死子式嗣",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-046",
+          "chapter_id": "c-songshu-046-zhangshao",
+          "source_id": "s-songshu-046-zhangshao",
+          "paragraph_id": "c-songshu-046-zhangshao:p003",
+          "quote": "敷弟柬襲父封位通直郎柬有勇力手格猛獸元凶以為輔國將軍孝武至新亭柬出奔墜淮死子式嗣",
+          "subject_person_mention_id": "c-songshu-046-zhangshao:p003:m0038",
+          "object_person_mention_id": "c-songshu-046-zhangshao:p003:m0002"
+        }
+      ],
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null,
+      "interpretation_note": "直接近親原詞；候選身份狀態仍屬上下文暫定，不由同姓、嗣爵或歧句補父。"
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "d50_8f5_wul_AAACBA",
+    "representative_source_person_id": "d50_8f5_wul_AAACBA",
+    "source_person_ids": [
+      "d50_8f5_wul_AAACBA"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": "d50_8f5_wul_AAACB",
+    "source_assertion_id": "a-song046-zhangshao-006",
+    "interpretation_note": "原文明稱父子；來源原詞保留。",
+    "assembly_id": "family-song053-wujun-zhang-jia",
+    "root_person_id": "d50_8f5_wul",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

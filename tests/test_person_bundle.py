@@ -16,8 +16,9 @@ class PersonBundleTests(unittest.TestCase):
         import copy
         from scripts.person_bundle import load_catalog
         catalog = copy.deepcopy(load_catalog())
-        names = next(r for r in catalog[1] if r.get('record_type') == 'person_name_component_set')['records']
-        name = next(n for n in names if n['person_id'] == 'li9_cmb_8ci')
+        name = next(n for r in catalog[1]
+                    if r.get('record_type') == 'person_name_component_set'
+                    for n in r['records'] if n['person_id'] == 'li9_cmb_8ci')
         chapter = next(r for r in catalog[1] if r.get('record_type') == 'marked_chapter' and r['id'] == name['chapter_id'])
         paragraph = next(p for p in chapter['paragraphs'] if p['id'].endswith(':p022'))
         name.update(paragraph_id=paragraph['id'], quote=paragraph['text'])

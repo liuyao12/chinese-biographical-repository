@@ -968,3 +968,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ## 明示小字的姓名欄位
 
 `name_components.xiaozhi` 為小字，與 `zi` 字、`ming` 名、`former_ming` 初名分開。第一個限定模型只消費同一實存段「小字值者人物小字也」：`xiaozhi_basis` 保存原詞、完整段引文、值與人物各自同人的既有mention、code point字位及小字標記位置。不得從一般來源稱呼、官號或父姓推小字。人物包匯出時驗證雙人物錨點與原字；其他語序尚未支援，須另行校讀，不冒稱模型已通解小字。
+
+
+## 明示小名的姓名欄位
+
+`name_components.xiaoming`（小名）與 `xiaozhi`（小字）、`zi`（字）獨立。本限定模型只消費同一完整原段的「具名子小名某父具名父小名某」。`xiaoming_basis.kind=explicit_child_father_xiaoming`，`subject_role=child|father` 決定本筆屬誰；保存 `child_name_anchor`、`child_value_anchor`、`father_name_anchor`、`father_value_anchor` 四個同ID成對的人物錨點，兩個 `child_marker_anchor` / `father_marker_anchor`、一個 `father_role_anchor` 及完整 `clause_anchor` 原詞字位。錨點含 paragraph_id/start/end/surface，四人物錨再含 person_mention_id。狀態 source_attested、human_reviewed=false、rationale 必備。姓名組件 quote 必須為完整實存段。不能從查何如梨等果名譬喻、額外稱呼、字／小字標記升格小名，不能把父子四錨反綁或以相同字形代替同一人物ID。bundle原樣保留來源，卡片／人物頁顯「小名」，異說不任選；沒有值時不顯示。既有小字模型及黙的小字欄不變。
