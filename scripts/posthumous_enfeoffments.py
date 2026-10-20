@@ -1,6 +1,12 @@
 """Explicit 追封 is an event distinct from lifetime granting and 追贈."""
 
 def valid(h,paragraphs,mentions,events):
+    if isinstance(h.get('enfeoffment_basis'), dict) and h['enfeoffment_basis'].get('kind') == 'explicit_named_or_continued_posthumous_enfeoffment':
+        try:
+            from scripts.song041_title_semantics import enfeoffment_valid
+        except ImportError:
+            from song041_title_semantics import enfeoffment_valid
+        return enfeoffment_valid(h, paragraphs)
     b=h.get('enfeoffment_basis',{})
     if not isinstance(b,dict):return False
     if (set(b)!={'kind','source_term','death_event_id','evidence'} or b.get('kind')!='explicit_posthumous_enfeoffment'

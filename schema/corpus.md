@@ -1011,3 +1011,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `kinship_unspecified` 的 stepfamily_grandparent_appellation 保存蕭光祿外祖用稱，綁同源蕭后之父與聘為繼室兩斷言，生系端點null，不進父系或生母父。婚生父稱 marital_biographical_birth_context 需同句聘繼室生二明名子及明生母、同配偶原證，與母明生直接語法分層，不能泛由配偶推父。
 
 `life_event_date_decision_set` 可窄用 comparison_scope: source_calendar_day，僅兩筆同人birth、同一已換數字中國曆年、原文明三月壬寅／四月二日的不同月日claim；只可unresolved且preferred_event_id=null，不換算西曆日。原有不同年份契約不變。原報21／81歲綁同人死亡，birth_year維持null。
+
+
+### 宋041實授、奏請回證與宗祧爵位來源
+
+原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱或命婦類稱、人物mention及可核holding，后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
