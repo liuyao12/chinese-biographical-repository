@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "s31_tdu_skd",
+  "canonical_person_id": "s31_tdu_skd",
+  "label": "秦朗母",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "母"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 9,
+      "category": "",
+      "title": "曹真曹爽完整本傳及附敘",
+      "paragraph_id": "c-sanguozhi-009-caozhen:p041",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "魏略曰太祖為司空時納晏母并収養晏其時秦宜禄兒阿蘇亦隨母在公家並見寵如公子蘇即朗也蘇性謹慎而晏無所顧惮服飾擬於太子故文帝特憎之每不呼其姓字嘗謂之為假子晏尚主又好色故黄初時無所事任及明帝立頗為冗官至正始初曲合於曹爽亦以才能故爽用為散騎侍郎遷侍中尚書晏前以尚主",
+      "paragraph_ids": [
+        "c-sanguozhi-009-caozhen:p041"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-009-caozhen:p041:m0026"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-009-caozhen:p041:m0026": "c-sanguozhi-009-caozhen:p041"
+      },
+      "mention_id": "c-sanguozhi-009-caozhen:p041:m0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-009-caozhen:p041:m0026",
+          "mention_ids": [
+            "c-sanguozhi-009-caozhen:p041:m0026"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "chapter_id": "c-sanguozhi-009-caozhen",
+      "source_id": "s-sanguozhi-009-caozhen",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-009-caozhen",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-009",
+      "source_id": "s-sanguozhi-009-caozhen",
+      "source": {
+        "title": "三國志卷九曹真曹爽完整本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_009.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "accessed_on": "2026-10-20",
+        "edition": "四庫全書數位固定見證；未核影像",
+        "extent": "固定原行309–563；564夏侯尚不含。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://github.com/kanripo/KR2a0012",
+        "rights": "古代正文與公開Kanripo轉錄",
+        "raw_sha256": "dd430a2e31130eb1c392b1e2a034686685fed0366ff713ece75226ba8cdedf03",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
+          "excerpts": []
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-sgz009-caozhen-maternal-041",
+      "subject_person_id": "q71_dto_v57_A",
+      "predicate": "maternal_role",
+      "object_person_id": "s31_tdu_skd",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_term": "阿蘇亦隨母",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "maternal_clause": {
+          "kind": "named_child_yisui_mother",
+          "start": 22,
+          "end": 27
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p041",
+          "quote": "魏略曰太祖為司空時納晏母并収養晏其時秦宜禄兒阿蘇亦隨母在公家並見寵如公子蘇即朗也蘇性謹慎而晏無所顧惮服飾擬於太子故文帝特憎之每不呼其姓字嘗謂之為假子晏尚主又好色故黄初時無所事任及明帝立頗為冗官至正始初曲合於曹爽亦以才能故爽用為散騎侍郎遷侍中尚書晏前以尚主得賜爵為列侯又其母在内晏性自喜動静粉白不去手行歩顧影晏為尚書主選舉其宿與之有舊者多被拔擢",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p041:m0022",
+          "subject_person_mention_id": "c-sanguozhi-009-caozhen:p041:m0022",
+          "object_person_mention_id": "c-sanguozhi-009-caozhen:p041:m0026"
+        }
+      ]
+    }
+  ],
+  "related_people": {
+    "q71_dto_v57_A": "秦朗",
+    "s31_tdu_skd": "秦朗母"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "s31_tdu_skd"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-sgz009-caozhen-maternal-041",
+      "subject_person_id": "q71_dto_v57_A",
+      "predicate": "maternal_role",
+      "object_person_id": "s31_tdu_skd",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_term": "阿蘇亦隨母",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null,
+        "maternal_clause": {
+          "kind": "named_child_yisui_mother",
+          "start": 22,
+          "end": 27
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p041",
+          "quote": "魏略曰太祖為司空時納晏母并収養晏其時秦宜禄兒阿蘇亦隨母在公家並見寵如公子蘇即朗也蘇性謹慎而晏無所顧惮服飾擬於太子故文帝特憎之每不呼其姓字嘗謂之為假子晏尚主又好色故黄初時無所事任及明帝立頗為冗官至正始初曲合於曹爽亦以才能故爽用為散騎侍郎遷侍中尚書晏前以尚主得賜爵為列侯又其母在内晏性自喜動静粉白不去手行歩顧影晏為尚書主選舉其宿與之有舊者多被拔擢",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p041:m0022",
+          "subject_person_mention_id": "c-sanguozhi-009-caozhen:p041:m0022",
+          "object_person_mention_id": "c-sanguozhi-009-caozhen:p041:m0026"
+        }
+      ]
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}
