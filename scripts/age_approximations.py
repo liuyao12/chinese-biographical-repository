@@ -3,6 +3,12 @@
 DIGITS = '一二三四五六七八九'
 
 def age_approximation_errors(age, paragraph):
+    if isinstance(age.get('subject_scope'), dict) and age['subject_scope'].get('kind') == 'immediate_child_age':
+        try:
+            from scripts.individual_adjacent_age import individual_adjacent_age_errors
+        except ImportError:
+            from individual_adjacent_age import individual_adjacent_age_errors
+        return individual_adjacent_age_errors(age, paragraph)
     if age.get('approximation', {}).get('kind') != 'approaching_age':
         return adjacent_age_errors(age, paragraph)
     number = age.get('source_number')

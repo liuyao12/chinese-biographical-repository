@@ -933,3 +933,28 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 師承的學生至教師方向不變。`teaching_clause_binding` 可保存傳首具名教師、「太宗初拜博士祭酒賜爵武城子」之朝代轉承錨點，以及緊接「常授太宗經書」的完整原詞字位。學生錨點須位於授經賓語，教師為傳首主體；不能把前一句授官的君主當教師，也不按最近姓名決定方向。全文、字位或角色不符即拒絕，不概括放寬所有「授」字為師承。
 
 `kinship_unspecified` 的 `kinship_basis: explicit_weiqin_pair` 僅支援「三人别祖而甲乙為親」之兩具名連續人物。`kinship_clause_binding` 保存原詞字位。`generation_difference`、`exact_distance`、`lineage`、`common_ancestor_person_id`、`connecting_person_ids` 均為 null，不能由別祖、為親或相次年齡推造世代、父系、共祖或接樹。兩類均須完整原段、雙人物錨點與 AI 審閱限定；既有師承及其他未定親屬分支保持。
+
+## 明示収養、族孫奉後與從弟子句
+
+`adoptive_father` 可由 `adoption_basis: explicit_shouyang`、`adoption_kind: historical_shouyang` 保存原文明言収養，子女至養父；`modern_legal_status: not_inferred`、`parentage_inference: not_inferred`。不覆寫生父或將納母推成生父。限定「養者哀子女少孤収養」與「養者為司空時納子女母并収養子女」，後者須指向収養賓語而非嵌套母稱中的子女；同住、寵如公子、複數未定承受者不可套用。
+
+`ritual_successor_of` 的 `succession_kind: named_zusun_feng_hou` 保「封前人族孫承繼者為新昌亭侯邑三百戸以奉前人後」，不推父子、法定收養或族孫精確世數。`legal_adoption_status: not_stated`、`parentage_inference: not_inferred`。
+
+`agnatic_cousin` 的具名「客體從弟主體」保父系同輩且主體年幼，親等及共祖 null；不補共同父親。三類均用 `source_clause_binding` 的 `kind/start/end`、完整原段及精確雙人物錨點；奉後另有前人 antecedent 錨點，不能以該前文位置替換奉後賓語。原文未知與異說不變。
+
+## 明示子女的個人相鄰數詞約齡
+
+「有一男年五六嵗」保留 `approximation.kind: adjacent_age_numbers` 及 `numbers: [5, 6]`，`value`、`birth_year` 均為空，不設嚴格上下界、不推虛歲或周歲。`subject_scope.kind: immediate_child_age` 保存完整子女名詞及報齡原句字位，證據連到子女而非前述父親。`approximation_interpretation` 分存AI判讀；不據前述死亡事件的背景年反推出生年。其餘語式仍須逐項擴充。
+
+## 傳記紀年後續的逐名群體行刑
+
+`normalized_date.event_evidence_binding.kind: named_group_execution_after_biographical_year_chain` 保留既有 `relative_biography_scope` 的正始五年、九年冬、十年正月證據鏈，再以完整連續原段綁定後續十人「皆伏誅」。每人須有死亡名單內自己的精確錨點，十名原序及不同人物身份全部保留；不得從「等」「夷三族」增加人。
+
+後續正文、裴注引書、先帝追述分層明列，段落不得跳過。本文「湏三月中欲發」僅為所陳陰謀的未來行動，不是行刑月。此限定模型只提供249中國曆年，`precision: year`、`calendar: chinese_civil`，不填月日或 `source_date_parts`；不能將該年套給其他段落的死亡。教育部年號表只支持正始240–249的對照，不作死亡事件的權威來源。
+
+
+## 固定本紀同事件的官職年度對讀
+
+`archived_title_year` 僅為官職授任／免職的固定原文對讀。原篇 holding ID、人物、起／終點、完整引句與原官稱錨點，須與封存本紀 raw SHA256、固定提交、去古注頁碼空白後的年欄／年號／明名人物／官名逐字位置相符；表述本身與本紀同一明授、同一點名免職或明示「代之」承前官名分別標示。年欄至事件之間不可越過另一年或改元；年號起迄只引用現代對照表。無關史事、夢境、死亡、追稱均不供實任端點。數值為中國曆年，不依公曆月日移至次年。
+
+`local_title_year` 的 `source_orthographic_ce_regnal_span` 目前只接受原文「黄初三年還京都以真為」同一連續任命句；黃／黄僅為年號字形對讀，保留原字、三項各自官稱及人物錨點，不推到後文轉拜。此模型沒有放寬其他年號字形或相對紀年。

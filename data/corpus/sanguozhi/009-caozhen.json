@@ -32,7 +32,55 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "coverage": "完整選段正文與裴注第一輪；泛稱及古注細節仍逐項覆核，非全卷完成。",
-    "limitations": "非影像校勘；母稱不擅定生母；收養、宗祀與生父分開；未定泛稱保留候選。"
+    "limitations": "非影像校勘；母稱不擅定生母；收養、宗祀與生父分開；未定泛稱保留候選。",
+    "age_assertions": [
+      {
+        "id": "age-sgz009-heyan-son-wuliu",
+        "person_id": "0db_22c_332_*AA",
+        "source_number": "五六",
+        "source_term": "年五六嵗",
+        "value": null,
+        "birth_year": null,
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "status": "source_attested",
+        "reporting_status": "approximate_report",
+        "approximation": {
+          "kind": "adjacent_age_numbers",
+          "numbers": [
+            5,
+            6
+          ]
+        },
+        "subject_scope": {
+          "kind": "immediate_child_age",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p042",
+          "start": 48,
+          "end": 55,
+          "source_term": "有一男年五六嵗"
+        },
+        "approximation_interpretation": {
+          "status": "editorial_provisional",
+          "human_reviewed": false,
+          "reviewer": "Codex（AI代理）",
+          "rationale": "五六為相鄰數詞約齡；原文明指晏男，不當何晏卒齡或嚴格上下界，不推生年。"
+        },
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-009",
+            "source_id": "s-sanguozhi-009-caozhen",
+            "chapter_id": "c-sanguozhi-009-caozhen",
+            "paragraph_id": "c-sanguozhi-009-caozhen:p042",
+            "quote": "魏末傳曰晏婦金鄉公主即晏同母妹公主賢謂其母沛王太妃曰晏為惡日甚将何保身母笑曰汝得無妬晏邪俄而晏死有一男年五六嵗宣王遣人録之晏母歸藏其子王宫中向使者搏頰乞白活之使者具以白宣王宣王亦聞晏婦有先見之言心常嘉之且為沛王故特原不殺",
+            "person_mention_id": "c-sanguozhi-009-caozhen:p042:m0050"
+          }
+        ],
+        "human_reviewed": false,
+        "reviewer": "Codex（AI代理）",
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {
@@ -4493,6 +4541,26 @@
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
         {
+          "id": "c-sanguozhi-009-caozhen:p028:m0019",
+          "start": 19,
+          "end": 20,
+          "surface": "當",
+          "kind": "person",
+          "person_id": "7kn_bns_npz",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p028:m0022",
+          "start": 22,
+          "end": 23,
+          "surface": "當",
+          "kind": "person",
+          "person_id": "7kn_bns_npz",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
           "id": "c-sanguozhi-009-caozhen:p028:m0024",
           "start": 24,
           "end": 25,
@@ -4559,6 +4627,16 @@
           "surface": "颺",
           "kind": "person",
           "person_id": "o5w_eyp_jhb",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p028:m0104",
+          "start": 104,
+          "end": 105,
+          "surface": "當",
+          "kind": "person",
+          "person_id": "7kn_bns_npz",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },
@@ -4659,6 +4737,16 @@
           "surface": "範",
           "kind": "person",
           "person_id": "vwm_w8o_188",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p028:m0133",
+          "start": 133,
+          "end": 134,
+          "surface": "當",
+          "kind": "person",
+          "person_id": "7kn_bns_npz",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         }
@@ -7287,6 +7375,16 @@
           "surface": "熙",
           "kind": "person",
           "person_id": "b3l_rk3_cg2",
+          "status": "contextual_provisional",
+          "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
+        },
+        {
+          "id": "c-sanguozhi-009-caozhen:p038:m0022",
+          "start": 22,
+          "end": 23,
+          "surface": "濟",
+          "kind": "person",
+          "person_id": "79d_0b7_853",
           "status": "contextual_provisional",
           "interpretation_note": "完整曹真曹爽敘事與本段引文語境辨識；AI判讀，未圖校。"
         },

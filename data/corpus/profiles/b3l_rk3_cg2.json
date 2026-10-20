@@ -87,8 +87,47 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-sgz009-historical-family-003",
+      "subject_person_id": "b3l_rk3_cg2",
+      "object_person_id": "30k_jzz_tpd_A",
+      "predicate": "ritual_successor_of",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_term": "以奉真後",
+        "source_clause_binding": {
+          "start": 21,
+          "end": 25,
+          "kind": "feng_named_zusun_yifenghou",
+          "antecedent_mention_id": "c-sanguozhi-009-caozhen:p037:m0008"
+        },
+        "succession_kind": "named_zusun_feng_hou",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p037",
+          "quote": "嘉平中紹功臣世封真族孫熙為新昌亭侯邑三百戸以奉真後",
+          "subject_person_mention_id": "c-sanguozhi-009-caozhen:p037:m0011",
+          "object_person_mention_id": "c-sanguozhi-009-caozhen:p037:m0023",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p037:m0011"
+        }
+      ],
+      "source_proposal": {
+        "path": "source-evidence/sgz009-caozhen-recovery/pending-family-model.json",
+        "record_index": 2
+      }
+    }
+  ],
   "related_people": {
+    "30k_jzz_tpd_A": "曹真",
     "b3l_rk3_cg2": "曹熙"
   },
   "dates": [],
@@ -96,7 +135,45 @@
   "person_ids": [
     "b3l_rk3_cg2"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-sgz009-historical-family-003",
+      "subject_person_id": "b3l_rk3_cg2",
+      "object_person_id": "30k_jzz_tpd_A",
+      "predicate": "ritual_successor_of",
+      "status": "source_attested",
+      "human_reviewed": false,
+      "qualifiers": {
+        "source_term": "以奉真後",
+        "source_clause_binding": {
+          "start": 21,
+          "end": 25,
+          "kind": "feng_named_zusun_yifenghou",
+          "antecedent_mention_id": "c-sanguozhi-009-caozhen:p037:m0008"
+        },
+        "succession_kind": "named_zusun_feng_hou",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-009",
+          "chapter_id": "c-sanguozhi-009-caozhen",
+          "source_id": "s-sanguozhi-009-caozhen",
+          "paragraph_id": "c-sanguozhi-009-caozhen:p037",
+          "quote": "嘉平中紹功臣世封真族孫熙為新昌亭侯邑三百戸以奉真後",
+          "subject_person_mention_id": "c-sanguozhi-009-caozhen:p037:m0011",
+          "object_person_mention_id": "c-sanguozhi-009-caozhen:p037:m0023",
+          "person_mention_id": "c-sanguozhi-009-caozhen:p037:m0011"
+        }
+      ],
+      "source_proposal": {
+        "path": "source-evidence/sgz009-caozhen-recovery/pending-family-model.json",
+        "record_index": 2
+      }
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

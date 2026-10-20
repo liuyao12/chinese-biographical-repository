@@ -3,6 +3,12 @@
 
 def non_parental_relation_valid(assertion, paragraphs):
     q = assertion.get('qualifiers', {})
+    if q.get('succession_kind') == 'named_zusun_feng_hou':
+        try:
+            from scripts.historical_family_clauses import named_zusun_fenghou_valid
+        except ImportError:
+            from historical_family_clauses import named_zusun_fenghou_valid
+        return named_zusun_fenghou_valid(assertion, paragraphs)
     evidence = assertion.get('evidence', [])
     if (assertion.get('predicate') not in ('raised_by', 'ritual_successor_of')
             or assertion.get('status') != 'source_attested'

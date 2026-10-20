@@ -3,6 +3,12 @@
 
 def chuji_parentage_valid(a, paragraphs, assertions):
     q = a.get('qualifiers', {})
+    if q.get('adoption_basis') == 'explicit_shouyang':
+        try:
+            from scripts.historical_family_clauses import explicit_shouyang_valid
+        except ImportError:
+            from historical_family_clauses import explicit_shouyang_valid
+        return explicit_shouyang_valid(a, paragraphs)
     if q.get('adoption_basis') == 'named_younger_brother_son_as_heir':
         try:
             from scripts.named_heir_parentage import named_brother_son_heir_valid
