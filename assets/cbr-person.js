@@ -289,9 +289,10 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     if (x.predicate === 'maternal_role') return x.qualifiers?.role === 'prior_mother' ? t('Prior mother (source wording)') : t('Mother (birth unspecified)');
     if (x.predicate === 'grandfather' && x.qualifiers?.lineage === 'maternal') return t('Maternal grandfather');
     const order=x.qualifiers?.relative_birth_order;
-    if(x.predicate==='sister' && order?.operator==='lt') {
-      if(order.older_person_id===x.object_person_id && order.younger_person_id===x.subject_person_id) return t('Elder sister');
-      if(order.younger_person_id===x.object_person_id && order.older_person_id===x.subject_person_id) return t('Younger sister');
+    if(x.predicate==='sister') {
+      if(order?.operator==='lt' && order.older_person_id===x.subject_person_id && order.younger_person_id===x.object_person_id) return t('Is the elder sister of');
+      if(order?.operator==='lt' && order.younger_person_id===x.subject_person_id && order.older_person_id===x.object_person_id) return t('Is the younger sister of');
+      return t('Is a sister of');
     }
     return labels[x.predicate] || x.qualifiers?.source_term || x.predicate;
   };
