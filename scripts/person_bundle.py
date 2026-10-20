@@ -345,6 +345,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         validate_clan_style(name, name_paragraph[1] if name_paragraph else None, relations)
         validate_full_name(name, name_paragraph[1] if name_paragraph else None)
         validate_courtesy_name(name)
+        try:
+            from .name_childhood import validate_childhood_name
+        except ImportError:
+            from name_childhood import validate_childhood_name
+        validate_childhood_name(name, name_paragraph[1] if name_paragraph else None)
         validate_parallel_given_name(name)
         validate_former_given_name(name)
         validate_name_component_alternatives(name)

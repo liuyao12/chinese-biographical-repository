@@ -963,3 +963,8 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ## 傳主省主語死亡與明示年號序年鏈
 
 `biographical_subject_ordinal_chain_death` 保留固定完整局部敘事、卷首傳主與局部主體兩端錨點、明示年號至局部死亡的全部序年／明年，禁止改換主體或把子代死亡承接父親年份；不要求虛構同段君主。年號對照須明記朝代、固定引用與中國曆年，背景疑年原字保留，不自動修訂軍事事件年份。
+
+
+## 明示小字的姓名欄位
+
+`name_components.xiaozhi` 為小字，與 `zi` 字、`ming` 名、`former_ming` 初名分開。第一個限定模型只消費同一實存段「小字值者人物小字也」：`xiaozhi_basis` 保存原詞、完整段引文、值與人物各自同人的既有mention、code point字位及小字標記位置。不得從一般來源稱呼、官號或父姓推小字。人物包匯出時驗證雙人物錨點與原字；其他語序尚未支援，須另行校讀，不冒稱模型已通解小字。

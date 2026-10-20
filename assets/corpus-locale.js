@@ -63,6 +63,7 @@ export default {
   'Surname':'姓',
   'Given name':'名',
   'Courtesy name':'字',
+  'Childhood name':'小字',
   'Former given name':'初名',
   'Distinct people':'同名異人',
   'Identity distinction evidence':'身份區分依據',
