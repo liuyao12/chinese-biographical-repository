@@ -2,15 +2,44 @@
   "schema_version": 1,
   "id": "aly_3ph_2la",
   "canonical_person_id": "aly_3ph_2la",
-  "label": "田何（儒林列傳候選）",
+  "label": "田何",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "田何",
-    "子莊"
+    "子莊",
+    "田子莊何",
+    "何"
   ],
   "titles": [],
   "addresses": [
+    {
+      "id": "pa-shiji067-018",
+      "person_id": "aly_3ph_2la",
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "齊",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "齊人田子莊何",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-067-disciples",
+          "source_id": "s-shiji-067-disciples",
+          "paragraph_id": "c-shiji-067-disciples:p083",
+          "quote": "孔子傳《易》於瞿，瞿傳楚人馯臂子弘，弘傳江東人矯子庸疵，疵傳燕人周子家豎，豎傳淳于人光子乘羽，羽傳齊人田子莊何，何傳東武人王子中同，同傳菑川人楊何。何元朔中以治易爲漢中大夫。",
+          "person_mention_id": "c-shiji-067-disciples:m083-0051"
+        }
+      ],
+      "interpretation_note": "按傳首或本段明示原地名保存，不將籍貫、居所、遷移與死亡地互換；傳授鏈每人各存來源地，不推共同到訪。未知年月與現代位置不補。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "term": "齊人田子莊何",
+      "quote": "孔子傳《易》於瞿，瞿傳楚人馯臂子弘，弘傳江東人矯子庸疵，疵傳燕人周子家豎，豎傳淳于人光子乘羽，羽傳齊人田子莊何，何傳東武人王子中同，同傳菑川人楊何。何元朔中以治易爲漢中大夫。"
+    },
     {
       "id": "pa-shiji121-020",
       "person_id": "aly_3ph_2la",
@@ -40,16 +69,129 @@
   ],
   "occurrences": [
     {
+      "number": 67,
+      "category": "liezhuan",
+      "title": "仲尼弟子列傳第七",
+      "paragraph_id": "c-shiji-067-disciples:p083",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弘，弘傳江東人矯子庸疵，疵傳燕人周子家豎，豎傳淳于人光子乘羽，羽傳齊人田子莊何，何傳東武人王子中同，同傳菑川人楊何。何元朔中以治易爲漢中大夫。",
+      "paragraph_ids": [
+        "c-shiji-067-disciples:p083"
+      ],
+      "mention_ids": [
+        "c-shiji-067-disciples:m083-0051",
+        "c-shiji-067-disciples:m083-0056"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-067-disciples:m083-0051": "c-shiji-067-disciples:p083",
+        "c-shiji-067-disciples:m083-0056": "c-shiji-067-disciples:p083"
+      },
+      "mention_id": "c-shiji-067-disciples:m083-0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-067-disciples:m083-0051",
+          "mention_ids": [
+            "c-shiji-067-disciples:m083-0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-067-disciples:m083-0056",
+          "mention_ids": [
+            "c-shiji-067-disciples:m083-0056"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "chapter_id": "c-shiji-067-disciples",
+      "source_id": "s-shiji-067-disciples",
+      "work_title": "史記"
+    },
+    {
       "number": 121,
       "category": "liezhuan",
       "title": "儒林列傳第六十一",
       "paragraph_id": "c-shiji-121-rulin:p019",
       "count": 3,
-      "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "自魯商瞿受易孔子，孔子卒，商瞿傳易，六世至齊人田何，字子莊，而漢興。田何傳東武人王同子仲，子仲傳菑川人楊何。何以易，元光元年徵，官至中大夫。齊人即墨成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p019"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m019-0023",
+        "c-shiji-121-rulin:m019-0027",
+        "c-shiji-121-rulin:m019-0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m019-0023": "c-shiji-121-rulin:p019",
+        "c-shiji-121-rulin:m019-0027": "c-shiji-121-rulin:p019",
+        "c-shiji-121-rulin:m019-0034": "c-shiji-121-rulin:p019"
+      },
+      "mention_id": "c-shiji-121-rulin:m019-0023",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m019-0023",
+          "mention_ids": [
+            "c-shiji-121-rulin:m019-0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m019-0027",
+          "mention_ids": [
+            "c-shiji-121-rulin:m019-0027"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m019-0034",
+          "mention_ids": [
+            "c-shiji-121-rulin:m019-0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-067-disciples",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "source_id": "s-shiji-067-disciples",
+      "source": {
+        "title": "史記／卷067",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷067",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003",
+        "revision_id": 7869003,
+        "accessed_on": "2026-10-09",
+        "extent": "152段正文，自孔子曰受業身通者至太史公論贊；排除ws-header中的導覽名單、後附索隱述贊及現代版權告示。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留髙、歳、衞、漆彫、曾蒧等原字。導覽名單與正文異體不混接。",
+          "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-121-rulin",
       "work_id": "w-shiji",
@@ -77,7 +219,7 @@
   ],
   "relations": [],
   "related_people": {
-    "aly_3ph_2la": "田何（儒林列傳候選）"
+    "aly_3ph_2la": "田何"
   },
   "dates": [],
   "name_components": [],

@@ -192,7 +192,74 @@
       "title": "秦始皇本紀第六",
       "paragraph_id": "c-shiji-006-shihuang:p016",
       "count": 5,
-      "quote": "徇，而使王翦、辛勝攻燕。燕、代發兵擊秦軍，秦軍破燕易水之西。二十一年，王賁攻薊。乃益發卒詣王翦軍，遂破燕太子軍，取燕薊城，得太子丹之首。燕王東收遼東而王之。王翦謝病老歸。新鄭反。昌平君徙於郢。大雨雪，深二尺五寸。"
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徇，而使王翦、辛勝攻燕。燕、代發兵擊秦軍，秦軍破燕易水之西。二十一年，王賁攻薊。乃益發卒詣王翦軍，遂破燕太子軍，取燕薊城，得太子丹之首。燕王東收遼東而王之。王翦謝病老歸。新鄭反。昌平君徙於郢。大雨雪，深二尺五寸。",
+      "paragraph_ids": [
+        "c-shiji-006-shihuang:p016",
+        "c-shiji-006-shihuang:p017",
+        "c-shiji-006-shihuang:p019",
+        "c-shiji-006-shihuang:p020",
+        "c-shiji-006-shihuang:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-006-shihuang:m016-0067",
+        "c-shiji-006-shihuang:m017-0005",
+        "c-shiji-006-shihuang:m019-0010",
+        "c-shiji-006-shihuang:m020-0026",
+        "c-shiji-006-shihuang:p030:m0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-006-shihuang:m016-0067": "c-shiji-006-shihuang:p016",
+        "c-shiji-006-shihuang:m017-0005": "c-shiji-006-shihuang:p017",
+        "c-shiji-006-shihuang:m019-0010": "c-shiji-006-shihuang:p019",
+        "c-shiji-006-shihuang:m020-0026": "c-shiji-006-shihuang:p020",
+        "c-shiji-006-shihuang:p030:m0032": "c-shiji-006-shihuang:p030"
+      },
+      "mention_id": "c-shiji-006-shihuang:m016-0067",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-006-shihuang:m016-0067",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m016-0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-006-shihuang:m017-0005",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m017-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-006-shihuang:m019-0010",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m019-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-006-shihuang:m020-0026",
+          "mention_ids": [
+            "c-shiji-006-shihuang:m020-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-006-shihuang:p030:m0032",
+          "mention_ids": [
+            "c-shiji-006-shihuang:p030:m0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-006",
+      "chapter_id": "c-shiji-006-shihuang",
+      "source_id": "s-shiji-006-shihuang",
+      "work_title": "史記"
     },
     {
       "number": 34,
@@ -200,7 +267,34 @@
       "title": "燕召公世家第四",
       "paragraph_id": "c-shiji-034-yan:p034",
       "count": 1,
-      "quote": "三十三年，秦拔遼東，虜燕王喜，卒滅燕。是歳，秦將王賁亦虜代王嘉。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三十三年，秦拔遼東，虜燕王喜，卒滅燕。是歳，秦將王賁亦虜代王嘉。",
+      "paragraph_ids": [
+        "c-shiji-034-yan:p034"
+      ],
+      "mention_ids": [
+        "c-shiji-034-yan:m034-0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-034-yan:m034-0022": "c-shiji-034-yan:p034"
+      },
+      "mention_id": "c-shiji-034-yan:m034-0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-034-yan:m034-0022",
+          "mention_ids": [
+            "c-shiji-034-yan:m034-0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-034",
+      "chapter_id": "c-shiji-034-yan",
+      "source_id": "s-shiji-034-yan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -226,7 +320,12 @@
         "person_id": "k7i_c3h_ssl",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     },
     {
       "table_id": "shiji-015",
@@ -250,7 +349,12 @@
         "person_id": "k7i_c3h_ssl",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     },
     {
       "table_id": "shiji-015",
@@ -274,7 +378,12 @@
         "person_id": "k7i_c3h_ssl",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     },
     {
       "table_id": "shiji-015",
@@ -298,7 +407,12 @@
         "person_id": "k7i_c3h_ssl",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     },
     {
       "table_id": "shiji-015",
@@ -322,7 +436,12 @@
         "person_id": "k7i_c3h_ssl",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     }
   ],
   "sources": [

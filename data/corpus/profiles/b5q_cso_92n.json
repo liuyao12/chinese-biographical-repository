@@ -61,10 +61,95 @@
       "title": "鄭世家第十二",
       "paragraph_id": "c-shiji-042-zheng:p037",
       "count": 4,
-      "quote": "，晉去。冬，又與楚盟。子駟畏誅，故兩親晉、楚。三年，相子駟欲自立爲君，公子子孔使尉止殺相子駟而代之。子孔又欲自立。子産曰：「子駟爲不可，誅之，今又效之，是亂無時息也。」於是子孔從之而相鄭簡公。"
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，晉去。冬，又與楚盟。子駟畏誅，故兩親晉、楚。三年，相子駟欲自立爲君，公子子孔使尉止殺相子駟而代之。子孔又欲自立。子産曰：「子駟爲不可，誅之，今又效之，是亂無時息也。」於是子孔從之而相鄭簡公。",
+      "paragraph_ids": [
+        "c-shiji-042-zheng:p037",
+        "c-shiji-042-zheng:p039"
+      ],
+      "mention_ids": [
+        "c-shiji-042-zheng:m037-0072",
+        "c-shiji-042-zheng:m037-0087",
+        "c-shiji-042-zheng:m037-0123",
+        "c-shiji-042-zheng:m039-0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-042-zheng:m037-0072": "c-shiji-042-zheng:p037",
+        "c-shiji-042-zheng:m037-0087": "c-shiji-042-zheng:p037",
+        "c-shiji-042-zheng:m037-0123": "c-shiji-042-zheng:p037",
+        "c-shiji-042-zheng:m039-0008": "c-shiji-042-zheng:p039"
+      },
+      "mention_id": "c-shiji-042-zheng:m037-0072",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m037-0072",
+          "mention_ids": [
+            "c-shiji-042-zheng:m037-0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m037-0087",
+          "mention_ids": [
+            "c-shiji-042-zheng:m037-0087"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m037-0123",
+          "mention_ids": [
+            "c-shiji-042-zheng:m037-0123"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m039-0008",
+          "mention_ids": [
+            "c-shiji-042-zheng:m039-0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "chapter_id": "c-shiji-042-zheng",
+      "source_id": "s-shiji-042-zheng",
+      "work_title": "史記"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-014",
+      "cell_id": "shiji-014-r279-c13",
+      "title": "《史記·十二諸侯年表》",
+      "quote": "三晉率諸侯伐我，楚來救。子孔作亂，子產攻之",
+      "year": {
+        "era": "BCE",
+        "value": 563,
+        "astronomical_year": -562,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "563",
+        "source_cell_id": "shiji-014-r279-c00"
+      },
+      "mention": {
+        "id": "shiji-014-r279-c13-m001",
+        "start": 12,
+        "end": 14,
+        "surface": "子孔",
+        "person_id": "b5q_cso_92n",
+        "status": "contextual_provisional",
+        "interpretation_note": "鄭簡公時子孔作亂、子產攻之，與鄭世家子孔專權及誅之敘事同指；不混其他國同名者。"
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-014",
+      "chapter_id": "table-chapter-shiji-014",
+      "source_id": "table-witness-shiji-014",
+      "source_revision": "2607001"
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-042-zheng",
@@ -88,6 +173,29 @@
           "extraction_note": "固定修訂與取得時HTML一致；保留古代異體、九月（辛）［丁］亥等校勘符號及溉逐、掔羊、持兩端等疑讀，不擅選讀法。",
           "note": "全60段數位正文已閱讀；未核古籍影像、可靠底本及現代研究。"
         }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-014",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-014",
+      "source_id": "table-witness-shiji-014",
+      "source": {
+        "id": "table-witness-shiji-014",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-014",
+        "chapter_id": "table-chapter-shiji-014",
+        "url": "https://zh.wikisource.org/wiki/史記/卷014",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+        "revision": "2607001",
+        "accessed": "2026-10-12",
+        "response_sha256": "399a83afe1f1fdb785213c55cbb4ec792c1b5e08929e24486f67ccc83fbacae6",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫轉錄及編輯內容依 CC BY-SA 條款，署名維基文庫貢獻者。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "完整數位表格結構匯入，未逐格學術覆核。未核讀印本影像，原印本頁碼未知。西元欄沿用此數位轉錄的編者對照，不是古籍原有西元紀年，也不引用其維基百科外連。"
       }
     }
   ],

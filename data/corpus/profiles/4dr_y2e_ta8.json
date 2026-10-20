@@ -17,7 +17,79 @@
       "title": "魏世家第十四",
       "paragraph_id": "c-shiji-044-wei:p017",
       "count": 2,
-      "quote": "文侯受子夏經藝，客段干木，過其閭，未嘗不軾也。秦嘗欲伐魏，或曰：『魏君賢人是禮，國人稱仁，上下和合，未可圖也。』文侯由此得譽於諸侯。"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "文侯受子夏經藝，客段干木，過其閭，未嘗不軾也。秦嘗欲伐魏，或曰：『魏君賢人是禮，國人稱仁，上下和合，未可圖也。』文侯由此得譽於諸侯。",
+      "paragraph_ids": [
+        "c-shiji-044-wei:p017",
+        "c-shiji-044-wei:p019"
+      ],
+      "mention_ids": [
+        "c-shiji-044-wei:m017-0009",
+        "c-shiji-044-wei:m019-0465"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-044-wei:m017-0009": "c-shiji-044-wei:p017",
+        "c-shiji-044-wei:m019-0465": "c-shiji-044-wei:p019"
+      },
+      "mention_id": "c-shiji-044-wei:m017-0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-044-wei:m017-0009",
+          "mention_ids": [
+            "c-shiji-044-wei:m017-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-044-wei:m019-0465",
+          "mention_ids": [
+            "c-shiji-044-wei:m019-0465"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-044",
+      "chapter_id": "c-shiji-044-wei",
+      "source_id": "s-shiji-044-wei",
+      "work_title": "史記"
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "故子路居衛，子張居陳，澹臺子羽居楚，子夏居西河，子貢終於齊。如田子方、段干木、吳起、禽滑釐之屬，皆受業於子夏之倫，為王者師。是時獨魏文侯好學。后陵遲以至于始皇，天下并爭於戰國，懦術既絀焉，然齊魯之閒，學者獨不廢也。於威、宣之際，孟子、荀卿之列，咸遵夫子之業而潤色之，以學顯於當",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m002-0073"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m002-0073": "c-shiji-121-rulin:p002"
+      },
+      "mention_id": "c-shiji-121-rulin:m002-0073",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m002-0073",
+          "mention_ids": [
+            "c-shiji-121-rulin:m002-0073"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -43,7 +115,12 @@
         "person_id": "4dr_y2e_ta8",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     }
   ],
   "sources": [
@@ -68,6 +145,30 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致；現代分節標題不當古代正文，不收末尾現代版權告示。保留髙、僇、无等原字與引號。",
           "note": "已讀全70段數位正文；未核古籍影像、可靠底本或現代研究，首輪不等於完成覆核。第62段[1]至[3]為數位註號，原樣保存但不是古代正文或史料陳述，未擷取現代註釋內容。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     },

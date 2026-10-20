@@ -2,13 +2,308 @@
   "schema_version": 1,
   "id": "h1o_o6t_3ru",
   "canonical_person_id": "h1o_o6t_3ru",
-  "label": "居翁（南越列傳候選）",
+  "label": "居翁",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "居翁"
   ],
   "titles": [
+    {
+      "id": "th-table-shiji020-r055-founding-grant",
+      "person_id": "h1o_o6t_3ru",
+      "title": "湘成侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "quote": "湘成。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r055-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r055-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "湘成"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r055-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000",
+          "surface": "居翁"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "quote": "湘成。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r055-c05",
+            "text": "六年五月壬申",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年五月壬申",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c00",
+              "quote": "湘成。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c01",
+              "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r055-c05",
+              "quote": "一。六年五月壬申，侯監居翁。元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r055-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年五月壬申，侯監居翁。元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c00",
+                "quote": "湘成。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c01",
+                "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c05",
+                "quote": "一。六年五月壬申，侯監居翁。元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r055-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "湘成。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年五月壬申，侯監居翁。元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r055-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元前111年（暫定） · 元鼎六年五月壬申 → 未定"
+    },
     {
       "id": "th-shiji113-030",
       "person_id": "h1o_o6t_3ru",
@@ -61,10 +356,71 @@
       "title": "南越列傳第五十三",
       "paragraph_id": "c-shiji-113-nanyue:p012",
       "count": 1,
-      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+      "paragraph_ids": [
+        "c-shiji-113-nanyue:p012"
+      ],
+      "mention_ids": [
+        "c-shiji-113-nanyue:m012-0032"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-113-nanyue:m012-0032": "c-shiji-113-nanyue:p012"
+      },
+      "mention_id": "c-shiji-113-nanyue:m012-0032",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m012-0032",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m012-0032"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-113",
+      "chapter_id": "c-shiji-113-nanyue",
+      "source_id": "s-shiji113-nanyue",
+      "work_title": "史記"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r055-c05",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "一。六年五月壬申，侯監居翁。元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r055-c05-m000",
+        "start": 11,
+        "end": 13,
+        "surface": "居翁",
+        "person_id": "h1o_o6t_3ru",
+        "status": "contextual_provisional",
+        "interpretation_note": "按同列封國、封爵事由及本傳相同事件接合；不以數位年份作另一件事件證據，授爵與戰役、父死分開。 職稱留在原格，不納入人物姓名標記；原錨點ID保留。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-113",
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "source_revision": 8735632,
+            "paragraph_id": "c-shiji-113-nanyue:p012",
+            "person_id": "h1o_o6t_3ru",
+            "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "chapter_id": "table-chapter-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source_revision": "2607036"
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-113-nanyue",
@@ -89,14 +445,224 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "h1o_o6t_3ru": "居翁（南越列傳候選）"
+    "h1o_o6t_3ru": "居翁"
   },
-  "dates": [],
-  "name_components": [],
+  "dates": [
+    {
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "一。六年五月壬申，侯監居翁。元年。",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "quote": "湘成。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r055-c05-m000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "湘成。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c00",
+          "scope": "received_table_fief_name",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "以南越桂林監聞漢兵破番禺，諭甌駱兵四十餘萬降侯。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c01",
+          "scope": "received_table_merit",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "一。六年五月壬申，侯監居翁。元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r055-c05",
+          "scope": "received_table_title_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元鼎元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r091-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "六",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r096-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "111",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r096-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元鼎",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-5",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "era": "BCE",
+      "era_year": 111,
+      "year": -110,
+      "record_id": "th-table-shiji020-r055-founding-grant",
+      "person_id": "h1o_o6t_3ru",
+      "endpoint": "start",
+      "title": "湘成侯"
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "h1o_o6t_3ru",
+      "title": "桂林監",
+      "surname": "居",
+      "ming": "翁",
+      "additional_names": [],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p012",
+      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+      "references": [
+        {
+          "target": "桂林監居翁",
+          "raw_quote": "同姓聞漢兵至及越掲陽令定(韋昭曰掲/音其逝反)自定屬漢越¶\n桂林監居翁(漢書音義曰桂林郡/中監姓居名翁也)諭甌駱屬漢皆得為¶\n侯戈船下厲将軍兵及馳義侯所發夜郎兵未下南越¶\n<pb:KR2a0002_WYG_113-9a>¶",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_113.txt#L148-L151",
+          "source_blob_sha": "cc1f02cad63298fa8bab8090bf9766f9b7a50e05",
+          "response_sha256": "e6bb267d74b5de47b628b38bc9083f430d8fd4ad8866a193ba6133a9bb502b2d",
+          "response_extent": {
+            "first_line": 1,
+            "last_line": 200,
+            "returned_lines": 168,
+            "partial_file": true
+          },
+          "image_verified": false,
+          "title": "《史記集解》卷113引漢書音義",
+          "quote": "漢書音義曰桂林郡中監姓居名翁也",
+          "scope": "ancient_commentary_name_components"
+        }
+      ],
+      "note": "監為桂林官稱，古注明姓居名翁，不拆成姓監、名居翁；本傳原字不改。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "h1o_o6t_3ru"
   ],

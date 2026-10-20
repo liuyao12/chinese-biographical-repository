@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "98i_dd4_aof",
   "canonical_person_id": "98i_dd4_aof",
-  "label": "多同（西南夷列傳候選）",
+  "label": "多同",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -61,7 +61,34 @@
       "title": "西南夷列傳第五十六",
       "paragraph_id": "c-shiji-116-xinanyi:p003",
       "count": 1,
-      "quote": "」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往",
+      "paragraph_ids": [
+        "c-shiji-116-xinanyi:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-116-xinanyi:m003-0290"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-116-xinanyi:m003-0290": "c-shiji-116-xinanyi:p003"
+      },
+      "mention_id": "c-shiji-116-xinanyi:m003-0290",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m003-0290",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m003-0290"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "chapter_id": "c-shiji-116-xinanyi",
+      "source_id": "s-shiji116-xinanyi",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -114,11 +141,38 @@
     }
   ],
   "related_people": {
-    "98i_dd4_aof": "多同（西南夷列傳候選）",
+    "98i_dd4_aof": "多同",
     "98i_dd4_aof_A": "多同子（西南夷列傳候選）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "98i_dd4_aof",
+      "title": "夜郎侯",
+      "surname": null,
+      "ming": "多同",
+      "additional_names": [],
+      "chapter_id": "c-shiji-116-xinanyi",
+      "paragraph_id": "c-shiji-116-xinanyi:p003",
+      "quote": "建元六年，大行王恢擊東越，東越殺王郢以報。恢因兵威使番陽令唐蒙風指曉南越。南越食蒙蜀枸醬，蒙問所從來，曰「道西北牂柯，牂柯江廣數里，出番禺城下」。蒙歸至長安，問蜀賈人，賈人曰：「獨蜀出枸醬，多持竊出市夜郎。夜郎者，臨牂柯江，江廣百餘步，足以行船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易甚。」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往喻，皆如南夷，為置一都尉，十餘縣，屬蜀。",
+      "references": [
+        {
+          "title": "《漢書》卷九十五·顏師古注",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L54-L54",
+          "quote": "侯多同(師古曰多同/其侯名也)厚賜諭以威徳約為置吏使其子¶",
+          "scope": "ancient_commentary_name_components",
+          "image_verified": false,
+          "reviewed_line_range": [
+            54,
+            54
+          ]
+        }
+      ],
+      "note": "顏師古明言多同其侯名，不拆成姓多名同。後段未定夜郎侯是否同人另核，不由稱號通用性強接。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "98i_dd4_aof"
   ],

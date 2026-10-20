@@ -13,7 +13,8 @@
     "王美人",
     "王夫人",
     "孝景后",
-    "太后"
+    "太后",
+    "王皇太后"
   ],
   "titles": [
     {
@@ -348,14 +349,52 @@
       "title": "武帝紀第六",
       "paragraph_id": "c-hanshu-006-wudi:p001",
       "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "孝武皇帝，景帝中子也，母曰王美人。年四歲立為膠東王。七歲為皇太子，母為皇后。十六歲，後三年正月，景帝崩。甲子，太子即皇帝位，尊皇太后竇氏曰太皇太后，皇后曰皇太后。三月，封皇太后同母弟田蚡、勝皆為列侯。",
-      "work_id": "w-hanshu",
-      "work_title": "漢書",
-      "book_id": "b-hanshu-006",
-      "chapter_id": "c-hanshu-006-wudi",
       "paragraph_ids": [
         "c-hanshu-006-wudi:p001"
-      ]
+      ],
+      "mention_ids": [
+        "c-hanshu-006-wudi:m001-0013",
+        "c-hanshu-006-wudi:m001-0074",
+        "c-hanshu-006-wudi:m001-0085"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-006-wudi:m001-0013": "c-hanshu-006-wudi:p001",
+        "c-hanshu-006-wudi:m001-0074": "c-hanshu-006-wudi:p001",
+        "c-hanshu-006-wudi:m001-0085": "c-hanshu-006-wudi:p001"
+      },
+      "mention_id": "c-hanshu-006-wudi:m001-0013",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-006-wudi:m001-0013",
+          "mention_ids": [
+            "c-hanshu-006-wudi:m001-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-006-wudi:m001-0074",
+          "mention_ids": [
+            "c-hanshu-006-wudi:m001-0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-006-wudi:m001-0085",
+          "mention_ids": [
+            "c-hanshu-006-wudi:m001-0085"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-006",
+      "chapter_id": "c-hanshu-006-wudi",
+      "source_id": "s-hanshu-006-wudi",
+      "work_title": "漢書"
     },
     {
       "number": 11,
@@ -363,7 +402,53 @@
       "title": "孝景本紀第十一",
       "paragraph_id": "c-shiji-011-jingdi:p008",
       "count": 3,
-      "quote": "徒隸作陽陵者。丞相青免。二月乙巳，以太尉條侯周亞夫為丞相。四月乙巳，立膠東王太后為皇后。丁巳，立膠東王為太子。名徹。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "徒隸作陽陵者。丞相青免。二月乙巳，以太尉條侯周亞夫為丞相。四月乙巳，立膠東王太后為皇后。丁巳，立膠東王為太子。名徹。",
+      "paragraph_ids": [
+        "c-shiji-011-jingdi:p008",
+        "c-shiji-011-jingdi:p017"
+      ],
+      "mention_ids": [
+        "c-shiji-011-jingdi:m008-0069",
+        "c-shiji-011-jingdi:m008-0075",
+        "c-shiji-011-jingdi:m017-0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-011-jingdi:m008-0069": "c-shiji-011-jingdi:p008",
+        "c-shiji-011-jingdi:m008-0075": "c-shiji-011-jingdi:p008",
+        "c-shiji-011-jingdi:m017-0111": "c-shiji-011-jingdi:p017"
+      },
+      "mention_id": "c-shiji-011-jingdi:m008-0069",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m008-0069",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m008-0069"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m008-0075",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m008-0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m017-0111",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m017-0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source_id": "s-shiji-011-jingdi",
+      "work_title": "史記"
     },
     {
       "number": 12,
@@ -371,7 +456,34 @@
       "title": "孝武本紀第十二",
       "paragraph_id": "c-shiji-012-wudi:p001",
       "count": 1,
-      "quote": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孝武皇帝者，孝景中子也。母曰王太后。孝景四年，以皇子為膠東王。孝景七年，栗太子廢為臨江王，以膠東王為太子。孝景十六年崩，太子即位，為孝武皇帝。孝武皇帝初即位，尤敬鬼神之祀。",
+      "paragraph_ids": [
+        "c-shiji-012-wudi:p001"
+      ],
+      "mention_ids": [
+        "c-shiji-012-wudi:m001-0014"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-012-wudi:m001-0014": "c-shiji-012-wudi:p001"
+      },
+      "mention_id": "c-shiji-012-wudi:m001-0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-012-wudi:m001-0014",
+          "mention_ids": [
+            "c-shiji-012-wudi:m001-0014"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-012",
+      "chapter_id": "c-shiji-012-wudi",
+      "source_id": "s-shiji-012-wudi",
+      "work_title": "史記"
     },
     {
       "number": 49,
@@ -379,7 +491,157 @@
       "title": "外戚世家第十九",
       "paragraph_id": "c-shiji-049-waiqi:p018",
       "count": 14,
-      "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏"
+      "raw_count": 14,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "王太后，槐裏人，母曰臧兒。臧兒者，故燕王臧荼孫也。臧兒嫁為槐裏王仲妻，生男曰信，與兩女。而仲死，臧兒更嫁長陵田氏，生男蚡、勝。臧兒長女嫁為金王孫婦，生一女矣，而臧兒卜筮之，曰兩女皆當貴。因欲奇兩女，乃奪金氏",
+      "paragraph_ids": [
+        "c-shiji-049-waiqi:p018",
+        "c-shiji-049-waiqi:p020",
+        "c-shiji-049-waiqi:p022",
+        "c-shiji-049-waiqi:p023",
+        "c-shiji-049-waiqi:p024",
+        "c-shiji-049-waiqi:p025",
+        "c-shiji-049-waiqi:p035"
+      ],
+      "mention_ids": [
+        "c-shiji-049-waiqi:m018-0000",
+        "c-shiji-049-waiqi:m018-0138",
+        "c-shiji-049-waiqi:m018-0177",
+        "c-shiji-049-waiqi:m020-0083",
+        "c-shiji-049-waiqi:m020-0087",
+        "c-shiji-049-waiqi:m022-0005",
+        "c-shiji-049-waiqi:m022-0033",
+        "c-shiji-049-waiqi:m022-0140",
+        "c-shiji-049-waiqi:m023-0013",
+        "c-shiji-049-waiqi:m024-0031",
+        "c-shiji-049-waiqi:m025-0060",
+        "c-shiji-049-waiqi:m025-0083",
+        "c-shiji-049-waiqi:m035-0023",
+        "c-shiji-049-waiqi:m035-0062"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-049-waiqi:m018-0000": "c-shiji-049-waiqi:p018",
+        "c-shiji-049-waiqi:m018-0138": "c-shiji-049-waiqi:p018",
+        "c-shiji-049-waiqi:m018-0177": "c-shiji-049-waiqi:p018",
+        "c-shiji-049-waiqi:m020-0083": "c-shiji-049-waiqi:p020",
+        "c-shiji-049-waiqi:m020-0087": "c-shiji-049-waiqi:p020",
+        "c-shiji-049-waiqi:m022-0005": "c-shiji-049-waiqi:p022",
+        "c-shiji-049-waiqi:m022-0033": "c-shiji-049-waiqi:p022",
+        "c-shiji-049-waiqi:m022-0140": "c-shiji-049-waiqi:p022",
+        "c-shiji-049-waiqi:m023-0013": "c-shiji-049-waiqi:p023",
+        "c-shiji-049-waiqi:m024-0031": "c-shiji-049-waiqi:p024",
+        "c-shiji-049-waiqi:m025-0060": "c-shiji-049-waiqi:p025",
+        "c-shiji-049-waiqi:m025-0083": "c-shiji-049-waiqi:p025",
+        "c-shiji-049-waiqi:m035-0023": "c-shiji-049-waiqi:p035",
+        "c-shiji-049-waiqi:m035-0062": "c-shiji-049-waiqi:p035"
+      },
+      "mention_id": "c-shiji-049-waiqi:m018-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m018-0000",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m018-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m018-0138",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m018-0138"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m018-0177",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m018-0177"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m020-0083",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m020-0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m020-0087",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m020-0087"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m022-0005",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m022-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m022-0033",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m022-0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m022-0140",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m022-0140"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m023-0013",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m023-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m024-0031",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m024-0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m025-0060",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m025-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m025-0083",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m025-0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m035-0023",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m035-0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m035-0062",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m035-0062"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "chapter_id": "c-shiji-049-waiqi",
+      "source_id": "s-shiji-049-waiqi",
+      "work_title": "史記"
     },
     {
       "number": 103,
@@ -387,7 +649,34 @@
       "title": "萬石張叔列傳第四十三",
       "paragraph_id": "c-shiji-103-wanshi:p004",
       "count": 1,
-      "quote": "建元二年，郎中令王臧以文學獲罪。皇太后以爲儒者文多質少，今萬石君家不言而躬行，乃以長子建爲郎中令，少子慶爲内史。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "建元二年，郎中令王臧以文學獲罪。皇太后以爲儒者文多質少，今萬石君家不言而躬行，乃以長子建爲郎中令，少子慶爲内史。",
+      "paragraph_ids": [
+        "c-shiji-103-wanshi:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-103-wanshi:m004-0016"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-103-wanshi:m004-0016": "c-shiji-103-wanshi:p004"
+      },
+      "mention_id": "c-shiji-103-wanshi:m004-0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-103-wanshi:m004-0016",
+          "mention_ids": [
+            "c-shiji-103-wanshi:m004-0016"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-103",
+      "chapter_id": "c-shiji-103-wanshi",
+      "source_id": "s-shiji-103-wanshi",
+      "work_title": "史記"
     },
     {
       "number": 107,
@@ -395,7 +684,129 @@
       "title": "魏其武安列傳第四十七",
       "paragraph_id": "c-shiji-107-weiqi:p006",
       "count": 11,
-      "quote": "武安侯田蚡者，孝景后同母弟也，生長陵。魏其已為大將軍後，方盛，蚡為諸郎，未貴，往來侍酒魏其，跪起如子姓。及孝景晚節，蚡益貴幸，為太中大夫。蚡辯有口，學槃盂諸書，王太后賢之。孝景崩，即日太子立，稱制，所鎮撫多有田蚡賓客計筴"
+      "raw_count": 11,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "武安侯田蚡者，孝景后同母弟也，生長陵。魏其已為大將軍後，方盛，蚡為諸郎，未貴，往來侍酒魏其，跪起如子姓。及孝景晚節，蚡益貴幸，為太中大夫。蚡辯有口，學槃盂諸書，王太后賢之。孝景崩，即日太子立，稱制，所鎮撫多有田蚡賓客計筴",
+      "paragraph_ids": [
+        "c-shiji-107-weiqi:p006",
+        "c-shiji-107-weiqi:p009",
+        "c-shiji-107-weiqi:p020",
+        "c-shiji-107-weiqi:p021",
+        "c-shiji-107-weiqi:p022",
+        "c-shiji-107-weiqi:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-107-weiqi:m006-0007",
+        "c-shiji-107-weiqi:m006-0080",
+        "c-shiji-107-weiqi:m006-0118",
+        "c-shiji-107-weiqi:m009-0009",
+        "c-shiji-107-weiqi:m020-0013",
+        "c-shiji-107-weiqi:m021-0026",
+        "c-shiji-107-weiqi:m022-0395",
+        "c-shiji-107-weiqi:m022-0398",
+        "c-shiji-107-weiqi:m022-0410",
+        "c-shiji-107-weiqi:m022-0413",
+        "c-shiji-107-weiqi:m026-0087"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-107-weiqi:m006-0007": "c-shiji-107-weiqi:p006",
+        "c-shiji-107-weiqi:m006-0080": "c-shiji-107-weiqi:p006",
+        "c-shiji-107-weiqi:m006-0118": "c-shiji-107-weiqi:p006",
+        "c-shiji-107-weiqi:m009-0009": "c-shiji-107-weiqi:p009",
+        "c-shiji-107-weiqi:m020-0013": "c-shiji-107-weiqi:p020",
+        "c-shiji-107-weiqi:m021-0026": "c-shiji-107-weiqi:p021",
+        "c-shiji-107-weiqi:m022-0395": "c-shiji-107-weiqi:p022",
+        "c-shiji-107-weiqi:m022-0398": "c-shiji-107-weiqi:p022",
+        "c-shiji-107-weiqi:m022-0410": "c-shiji-107-weiqi:p022",
+        "c-shiji-107-weiqi:m022-0413": "c-shiji-107-weiqi:p022",
+        "c-shiji-107-weiqi:m026-0087": "c-shiji-107-weiqi:p026"
+      },
+      "mention_id": "c-shiji-107-weiqi:m006-0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m006-0007",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m006-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m006-0080",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m006-0080"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m006-0118",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m006-0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m009-0009",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m009-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m020-0013",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m020-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m021-0026",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m021-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m022-0395",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m022-0395"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m022-0398",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m022-0398"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m022-0410",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m022-0410"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m022-0413",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m022-0413"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0087",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0087"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source_id": "s-shiji-107-weiqi",
+      "work_title": "史記"
     },
     {
       "number": 108,
@@ -403,7 +814,52 @@
       "title": "韓長孺列傳第四十八",
       "paragraph_id": "c-shiji-108-han:p010",
       "count": 3,
-      "quote": "於是下恢廷尉。廷尉當恢逗橈，當斬。恢私行千金丞相蚡。蚡不敢言上，而言於太后曰：「王恢首造馬邑事，今不成而誅恢，是爲匈奴報仇也。」上朝太后，太后以丞相言告上。上曰：「首爲馬邑事者，恢也，故發天下兵數十萬，從其言，爲此。且縱單于不可得，恢所部擊其輜重，猶頗可得，以慰士大夫心。今"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "於是下恢廷尉。廷尉當恢逗橈，當斬。恢私行千金丞相蚡。蚡不敢言上，而言於太后曰：「王恢首造馬邑事，今不成而誅恢，是爲匈奴報仇也。」上朝太后，太后以丞相言告上。上曰：「首爲馬邑事者，恢也，故發天下兵數十萬，從其言，爲此。且縱單于不可得，恢所部擊其輜重，猶頗可得，以慰士大夫心。今",
+      "paragraph_ids": [
+        "c-shiji-108-han:p010"
+      ],
+      "mention_ids": [
+        "c-shiji-108-han:m010-0125",
+        "c-shiji-108-han:m010-0156",
+        "c-shiji-108-han:m010-0159"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-108-han:m010-0125": "c-shiji-108-han:p010",
+        "c-shiji-108-han:m010-0156": "c-shiji-108-han:p010",
+        "c-shiji-108-han:m010-0159": "c-shiji-108-han:p010"
+      },
+      "mention_id": "c-shiji-108-han:m010-0125",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-108-han:m010-0125",
+          "mention_ids": [
+            "c-shiji-108-han:m010-0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m010-0156",
+          "mention_ids": [
+            "c-shiji-108-han:m010-0156"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m010-0159",
+          "mention_ids": [
+            "c-shiji-108-han:m010-0159"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "chapter_id": "c-shiji-108-han",
+      "source_id": "s-shiji-108-han",
+      "work_title": "史記"
     },
     {
       "number": 111,
@@ -411,7 +867,104 @@
       "title": "衛將軍驃騎列傳第五十一",
       "paragraph_id": "c-shiji-111-wei-huo:p033",
       "count": 1,
-      "quote": "將軍張次公，河東人。以校尉從衛將軍青有功，封為岸頭侯。其後太后崩，為將軍，軍北軍。後一歲，為將軍，從大將軍，再為將軍，坐法失侯。次公父隆，輕車武射也。以善射，景帝幸近之也。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "將軍張次公，河東人。以校尉從衛將軍青有功，封為岸頭侯。其後太后崩，為將軍，軍北軍。後一歲，為將軍，從大將軍，再為將軍，坐法失侯。次公父隆，輕車武射也。以善射，景帝幸近之也。",
+      "paragraph_ids": [
+        "c-shiji-111-wei-huo:p033"
+      ],
+      "mention_ids": [
+        "c-shiji-111-wei-huo:m033-0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-111-wei-huo:m033-0029": "c-shiji-111-wei-huo:p033"
+      },
+      "mention_id": "c-shiji-111-wei-huo:m033-0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m033-0029",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m033-0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "chapter_id": "c-shiji-111-wei-huo",
+      "source_id": "s-shiji111-wei-huo",
+      "work_title": "史記"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p016",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三年，上賜淮南王几杖，不朝。淮南王王后荼，王愛幸之。王后生太子遷，遷取王皇太后外孫修成君女為妃。王謀為反具，畏太子妃知而內泄事，乃與太子謀，令詐弗愛，三月不同席。王乃詳為怒太子，閉太子使與妃同內三月，太子終不近妃。妃求去，王乃上書謝歸去之。王后荼、太子遷及女陵得愛幸王，擅國權，",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p016"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m016-0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m016-0072": "c-shiji-118-huainan:p016"
+      },
+      "mention_id": "c-shiji-118-huainan:m016-0072",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0072",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "當是時，太后弟武安侯蚡為丞相，中二千石來拜謁，蚡不為禮。然黯見蚡未嘗拜，常揖之。天子方招文學儒者，上曰吾欲云云，黯對曰：「陛下內多欲而外施仁義，柰何欲效唐虞之治乎！」上默然，怒，變色而罷朝。公卿皆為黯懼。上退，謂",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m003-0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m003-0004": "c-shiji-120-jizheng:p003"
+      },
+      "mention_id": "c-shiji-120-jizheng:m003-0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m003-0004",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m003-0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -428,7 +981,7 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=漢書/卷006&oldid=2631854",
         "revision_id": 2631854,
         "accessed_on": "2026-10-15",
-        "extent": "目前選錄六個不連續原段，涵蓋即位親屬、建元六年太皇太后崩與元光四年竇嬰、田蚡卒事；非全卷完成。",
+        "extent": "目前選錄七個不連續原段，涵蓋既錄親屬、生卒與本批南越出兵姓名；非全卷完成。",
         "text_scope": "partial_chapter",
         "image_verified": false,
         "review_status": "text_checked",
@@ -444,7 +997,8 @@
           "固定HTML第25個正文p元素：五月丁亥，太皇太后崩。",
           "固定HTML第28個正文p元素：元光元年冬十一月，初令郡國舉孝廉各一",
           "固定HTML第39個正文p元素：四年冬，魏其侯竇嬰有罪，棄巿。",
-          "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。"
+          "固定HTML第40個正文p元素：春三月乙卯，丞相蚡薨。",
+          "固定HTML第133個正文p元素：南越出兵嚴、甲、遺姓名"
         ],
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
         "rights": "古代原文；維基文庫數位轉錄依CC BY-SA 4.0，保留貢獻者署名及固定修訂連結。",
@@ -617,6 +1171,54 @@
           "editorial_readings": [],
           "extraction_note": "去 header2 介面、現代節標題及 wikipedia 導航模板，YL 紀年模板保留原詞；原字、標點及段落次序不改，索隱述贊另標文字層次。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     }
@@ -960,13 +1562,13 @@
     "6ks_x4x_dbf_*A": "臧兒（外戚世家候選）",
     "7mz_d13_9ka_A": "田蚡（外戚世家候選）",
     "7mz_d13_9ka_B": "勝（外戚世家候選）",
-    "a7k_sl0_d7u_A": "修成君（外戚世家候選）",
+    "a7k_sl0_d7u_A": "修成君",
     "dtx_aht_hnz": "勝（皇太后弟）",
     "f3j_nl2_i2g": "蚡（皇太后弟）",
     "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
     "nad_18h_5jc": "平陽公主",
     "nza_w1p_x8f": "南宮公主（外戚世家候選）",
-    "yqp_nlb_p1p_ACAA": "徹（景帝子）"
+    "yqp_nlb_p1p_ACAA": "孝武皇帝"
   },
   "dates": [],
   "unresolved_identity_cases": [

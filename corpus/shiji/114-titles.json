@@ -27,7 +27,102 @@
           "surface": "閩越王",
           "person_mention_id": "c-shiji-114-dongyue:m001-0003",
           "usage": "narrative",
-          "date_expression": "漢五年"
+          "date_expression": "漢五年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p001",
+                "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "高皇帝",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+              "digital_year_cell_id": "shiji-022-t1-r005-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "source_era_name": "漢",
+              "reign_designation": {
+                "kind": "same_person_source_and_table_designations",
+                "source_era_name": "漢",
+                "table_era_name": "高皇帝",
+                "person_id": "yqp_nlb_p1p_A",
+                "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+                "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+                "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+                "status": "editorial_provisional",
+                "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+                "human_reviewed": false
+              }
+            },
+            "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -43,12 +138,20 @@
               "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 202,
-            "year": -201,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
             "evidence": [
@@ -61,16 +164,74 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷011",
-                "quote": "高帝五年（己亥，公元前二〇二年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "高皇帝",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+              "digital_year_cell_id": "shiji-022-t1-r005-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "source_era_name": "漢",
+              "reign_designation": {
+                "kind": "same_person_source_and_table_designations",
+                "source_era_name": "漢",
+                "table_era_name": "高皇帝",
+                "person_id": "yqp_nlb_p1p_A",
+                "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+                "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+                "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+                "status": "editorial_provisional",
+                "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+                "human_reviewed": false
+              }
+            },
+            "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -106,7 +267,89 @@
           "surface": "東海王",
           "person_mention_id": "c-shiji-114-dongyue:m001-0010",
           "usage": "narrative",
-          "date_expression": "孝惠三年"
+          "date_expression": "孝惠三年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 193,
+              "year": -192
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 192,
+              "year": -191
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p001",
+                "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝惠元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r013-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r015-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "192",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r015-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "孝惠",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r013-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r015-c01",
+              "digital_year_cell_id": "shiji-022-t1-r015-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年孝惠三年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -122,12 +365,20 @@
               "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 192,
-            "year": -191,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 193,
+              "year": -192
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 192,
+              "year": -191
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
             "evidence": [
@@ -140,16 +391,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷012",
-                "quote": "惠帝三年（己酉，公元前一九二年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝惠元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r013-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r015-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "192",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r015-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "孝惠",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r013-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r015-c01",
+              "digital_year_cell_id": "shiji-022-t1-r015-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年孝惠三年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -205,7 +501,7 @@
     },
     {
       "id": "th-shiji114-004",
-      "person_id": "r6p_87v_nc8",
+      "person_id": "o0l_em5_5v9",
       "title": "鄱陽令",
       "kind": "office",
       "mode": "attestation",
@@ -247,7 +543,7 @@
     },
     {
       "id": "th-shiji114-005",
-      "person_id": "r6p_87v_nc8",
+      "person_id": "o0l_em5_5v9",
       "title": "鄱君",
       "kind": "honorific",
       "mode": "attestation",
@@ -289,7 +585,7 @@
     },
     {
       "id": "th-shiji114-006",
-      "person_id": "qfq_48j_lpj",
+      "person_id": "yqp_nlb_p1p_CA",
       "title": "吳王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -311,7 +607,89 @@
           "surface": "吳王",
           "person_mention_id": "c-shiji-114-dongyue:m002-0010",
           "usage": "narrative",
-          "date_expression": "孝景三年"
+          "date_expression": "孝景三年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 155,
+              "year": -154
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 154,
+              "year": -153
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p002",
+                "quote": "後數世，至孝景三年，吳王濞反，欲從閩越，閩越未肯行，獨東甌從吳。及吳破，東甌受漢購，殺吳王丹徒，以故皆得不誅，歸國。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝景元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r051-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r053-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "154",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r053-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "孝景",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r051-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r053-c01",
+              "digital_year_cell_id": "shiji-022-t1-r053-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年孝景三年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -331,7 +709,7 @@
     },
     {
       "id": "th-shiji114-007",
-      "person_id": "al0_ke0_9c7",
+      "person_id": "7mz_d13_9ka_A",
       "title": "太尉",
       "kind": "office",
       "mode": "attestation",
@@ -353,7 +731,89 @@
           "surface": "太尉",
           "person_mention_id": "c-shiji-114-dongyue:m003-0062",
           "usage": "narrative",
-          "date_expression": "建元三年"
+          "date_expression": "建元三年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 139,
+              "year": -138
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 138,
+              "year": -137
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p003",
+                "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r069-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "138",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r069-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r069-c01",
+              "digital_year_cell_id": "shiji-022-t1-r069-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元三年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -373,7 +833,7 @@
     },
     {
       "id": "th-shiji114-008",
-      "person_id": "i7l_4us_u58",
+      "person_id": "71j_ydc_ly7",
       "title": "中大夫",
       "kind": "office",
       "mode": "attestation",
@@ -395,7 +855,89 @@
           "surface": "中大夫",
           "person_mention_id": "c-shiji-114-dongyue:m003-0108",
           "usage": "narrative",
-          "date_expression": "建元三年"
+          "date_expression": "建元三年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 139,
+              "year": -138
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 138,
+              "year": -137
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p003",
+                "quote": "吳王子子駒亡走閩越，怨東甌殺其父，常勸閩越擊東甌。至建元三年，閩越發兵圍東甌。東甌食盡，困，且降，乃使人告急天子。天子問太尉田蚡，蚡對曰：「越人相攻擊，固其常，又數反覆，不足以煩中國往救也。自秦時棄弗屬。」於是中大夫莊助詰蚡曰：「特患力弗能救，德弗能覆；誠能，何故棄之？且秦舉咸陽而棄之，何乃越也！今小國以窮困來告急天子，天子弗振，彼當安所告愬？又何以子萬國乎？」上曰：「太尉未足與計。吾初即位，不欲出虎符發兵郡國。」乃遣莊助以節發兵會稽。會稽太守欲距不為發兵，助乃斬一司馬，諭意指，遂發兵浮海救東甌。未至，閩越引兵而去。東甌請舉國徙中國，乃悉舉眾來，處江淮之閒。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "三",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r069-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "138",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r069-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r069-c01",
+              "digital_year_cell_id": "shiji-022-t1-r069-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元三年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -437,7 +979,89 @@
           "surface": "大行",
           "person_mention_id": "c-shiji-114-dongyue:m004-0033",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -457,7 +1081,7 @@
     },
     {
       "id": "th-shiji114-010",
-      "person_id": "oj7_6jw_4hs",
+      "person_id": "6hy_i1z_hu2",
       "title": "大農",
       "kind": "office",
       "mode": "attestation",
@@ -479,7 +1103,89 @@
           "surface": "大農",
           "person_mention_id": "c-shiji-114-dongyue:m004-0041",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -521,7 +1227,89 @@
           "surface": "閩越王",
           "person_mention_id": "c-shiji-114-dongyue:m004-0061",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -563,7 +1351,89 @@
           "surface": "繇君",
           "person_mention_id": "c-shiji-114-dongyue:m004-0252",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -605,7 +1475,89 @@
           "surface": "越繇王",
           "person_mention_id": "c-shiji-114-dongyue:m004-0252",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -621,12 +1573,20 @@
               "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 135,
-            "year": -134,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
             "evidence": [
@@ -639,16 +1599,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-                "quote": "建元六年（丙午，公元前一三五年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -776,14 +1781,73 @@
           "surface": "吞漢將軍",
           "person_mention_id": "c-shiji-114-dongyue:m007-0036",
           "usage": "narrative",
-          "date_expression": "元鼎六年"
+          "date_expression": "元鼎六年秋",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p007",
+                "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元鼎六年",
+          "date_expression": "元鼎六年秋",
           "evidence": [
             {
               "chapter_id": "c-shiji-114-dongyue",
@@ -810,16 +1874,46 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
-                "quote": "元鼎六年（庚午，公元前一一一年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -855,7 +1949,66 @@
           "surface": "大農",
           "person_mention_id": "c-shiji-114-dongyue:m007-0069",
           "usage": "narrative",
-          "date_expression": "元鼎六年"
+          "date_expression": "元鼎六年秋",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p007",
+                "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -875,7 +2028,7 @@
     },
     {
       "id": "th-shiji114-018",
-      "person_id": "v3b_rv7_5cd",
+      "person_id": "yqp_nlb_p1p_ABFAC",
       "title": "山州侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -897,7 +2050,66 @@
           "surface": "山州侯",
           "person_mention_id": "c-shiji-114-dongyue:m007-0076",
           "usage": "retrospective",
-          "date_expression": "元鼎六年"
+          "date_expression": "元鼎六年秋",
+          "normalized_date": {
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110,
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p007",
+                "quote": "元鼎六年秋，餘善聞樓船請誅之，漢兵臨境，且往，乃遂反，發兵距漢道。號將軍騶力等為「吞漢將軍」，入白沙、武林、梅嶺，殺漢三校尉。是時漢使大農張成、故山州侯齒將屯，弗敢擊，卻就便處，皆坐畏懦誅。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "rationale": "元鼎六年秋原詞保留；漢以十月歲首，秋屬七至九月，落於固定數位所列西元前111年。年精度，不補月份或公曆日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -937,7 +2149,7 @@
           "start": 4,
           "end": 6,
           "surface": "武帝",
-          "person_mention_id": "c-shiji-114-dongyue:m008-0000",
+          "person_mention_id": "c-shiji-114-dongyue:m008-0004",
           "usage": "narrative",
           "date_expression": null
         }
@@ -962,7 +2174,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。 本處武帝為餘善刻璽自號，不指漢武帝；原無明示授號年月仍未知。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1009,7 +2221,7 @@
     },
     {
       "id": "th-shiji114-021",
-      "person_id": "0c3_ttl_f14",
+      "person_id": "6ym_eva_k4a",
       "title": "中尉",
       "kind": "office",
       "mode": "attestation",
@@ -1115,14 +2327,14 @@
           "surface": "御兒侯",
           "person_mention_id": "c-shiji-114-dongyue:m008-0123",
           "usage": "narrative",
-          "date_expression": "元封元年"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封元年",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-114-dongyue",
@@ -1130,36 +2342,7 @@
               "paragraph_id": "c-shiji-114-dongyue:p008",
               "quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 110,
-            "year": -109,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-114-dongyue",
-                "source_id": "s-shiji114-dongyue",
-                "paragraph_id": "c-shiji-114-dongyue:p008",
-                "quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷020",
-                "quote": "元封元年（辛未，公元前一一零年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1167,7 +2350,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。 元封元年冬是入境背景，未明即授侯日期；撤除以段首年作精確授爵年的換算。另據原表莊侯轅終古首封格保存元封元年閏月癸卯，不搬成正文連續日期。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1193,7 +2376,7 @@
           "end": 4,
           "surface": "越衍侯",
           "person_mention_id": "c-shiji-114-dongyue:m009-0004",
-          "usage": "narrative",
+          "usage": "retrospective",
           "date_expression": null
         }
       ],
@@ -1209,7 +2392,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。 原稱故越衍侯屬回述，不以此推定當時尚持越爵或其任期。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1498,7 +2681,7 @@
     },
     {
       "id": "th-shiji114-031",
-      "person_id": "gcy_833_xmx_A",
+      "person_id": "yqp_nlb_p1p_ABFAB",
       "title": "繚嫈侯",
       "kind": "noble_rank",
       "mode": "grant",
@@ -1548,7 +2731,7 @@
     },
     {
       "id": "th-shiji114-032",
-      "person_id": "gcy_833_xmx_A",
+      "person_id": "yqp_nlb_p1p_ABFAB",
       "title": "海常侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -1720,7 +2903,89 @@
           "surface": "將軍",
           "person_mention_id": "c-shiji-114-dongyue:m004-0033",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -1736,12 +3001,20 @@
               "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 135,
-            "year": -134,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
             "evidence": [
@@ -1754,16 +3027,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-                "quote": "建元六年（丙午，公元前一三五年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -1777,7 +3095,7 @@
     },
     {
       "id": "th-shiji114-036",
-      "person_id": "oj7_6jw_4hs",
+      "person_id": "6hy_i1z_hu2",
       "title": "將軍",
       "kind": "office",
       "mode": "grant",
@@ -1799,7 +3117,89 @@
           "surface": "將軍",
           "person_mention_id": "c-shiji-114-dongyue:m004-0041",
           "usage": "narrative",
-          "date_expression": "建元六年"
+          "date_expression": "建元六年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p004",
+                "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -1815,12 +3215,20 @@
               "quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 135,
-            "year": -134,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 136,
+              "year": -135
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 135,
+              "year": -134
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "至建元六年，閩越擊南越。南越守天子約，不敢擅發兵擊而以聞。上遣大行王恢出豫章，大農韓安國出會稽，皆為將軍。兵未踰嶺，閩越王郢發兵距險。其弟餘善乃與相、宗族謀曰：「王以擅發兵擊南越，不請，故天子兵來誅。今漢兵眾彊，今即幸勝之，后來益多，終滅國而止。今殺王以謝天子。天子聽，罷兵，固一國完；不聽，乃力戰；不勝，即亡入海。」皆曰「善」。即鏦殺王，使使奉其頭致大行。大行曰：「所為來者誅王。今王頭至，謝罪，不戰而耘，利莫大焉。」乃以便宜案兵告大農軍，而使使奉王頭馳報天子。詔罷兩將兵，曰：「郢等首惡，獨無諸孫繇君丑不與謀焉。」乃使郎中將立丑為越繇王，奉閩越先祭祀。",
             "evidence": [
@@ -1833,16 +3241,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-                "quote": "建元六年（丙午，公元前一三五年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "孝武建元元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "135",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r072-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "六年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r072-c01",
+              "digital_year_cell_id": "shiji-022-t1-r072-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原紀年建元六年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {

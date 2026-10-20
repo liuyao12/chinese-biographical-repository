@@ -4,36 +4,50 @@ import json
 from collections import defaultdict
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
-def build(root=ROOT):
+def build(root=ROOT, person_ids=None):
     ROOT = root
     catalog = json.loads((ROOT/'data/corpus/index.json').read_text())
     chapters = {x.get('chapter_id'):x for x in catalog['chapters']}
+    work_titles = {}
+    if catalog.get('work_id') and catalog.get('title'):
+        work_titles[catalog['work_id']] = catalog['title']
     manifest_path = ROOT/'data/corpus/works.json'
     if manifest_path.exists():
         for work in json.loads(manifest_path.read_text())['works']:
+            work_titles[work['id']] = work['title']
             if work['reader_kind'] == 'shiji':
                 continue
             other = json.loads((ROOT/work['catalog_path']).read_text())
             chapters.update({x['chapter_id']:x for x in other['chapters']})
-    people = json.loads((ROOT/'data/corpus/persons.json').read_text())
+    people = {p['id']: p for p in json.loads((ROOT/'registry/persons.json').read_text())['persons']}
     name_records = json.loads((ROOT/'data/corpus/profile-names.json').read_text())['records']
     candidates = {p['id']:p for p in json.loads((ROOT/'data/historical-tables/person-candidates.json').read_text())['persons']}
     table_mentions = defaultdict(list)
-    for path in sorted((ROOT/'data/historical-tables').glob('shiji-*.json')):
-        table = json.loads(path.read_text())
+    try:
+        from .table_evidence import load_tables
+    except ImportError:
+        from table_evidence import load_tables
+    for table in load_tables(ROOT).values():
         for fragment in table['fragments']:
             for row in fragment['rows']:
                 for cell in row['cells']:
                     for m in cell['person_mentions']:
-                        table_mentions[m['person_id']].append({'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m})
+                        occurrence = {'table_id':table['id'],'cell_id':cell['id'],'title':table['title'],'quote':cell['text'],'year':row['year'],'mention':m}
+                        occurrence.update({k:table['source'][k] for k in ('work_id','book_id','chapter_id')})
+                        occurrence.update(source_id=table['source']['id'],source_revision=table['source']['revision'])
+                        table_mentions[m['person_id']].append(occurrence)
     bundles = json.loads((ROOT/'exports/persons/index.json').read_text())
     for pid in set(people) | {p['person_id'] for p in bundles['persons']}:
         table_mentions.setdefault(pid, [])
+    if person_ids is not None:
+        selected = set(person_ids)
+        if not selected <= set(table_mentions): raise ValueError('未知partial profile ID')
+        table_mentions = {pid:cells for pid,cells in table_mentions.items() if pid in selected}
     out = ROOT/'data/corpus/profiles'; out.mkdir(exist_ok=True)
     # Only the current registry/index and table mentions define this directory;
     # retired IDs are removed after all source references have been migrated.
     for path in out.glob('*.json'):
-        if path.stem != 'index' and path.stem not in table_mentions: path.unlink()
+        if person_ids is None and path.stem != 'index' and path.stem not in table_mentions: path.unlink()
     for pid, cells in sorted(table_mentions.items()):
         if pid in candidates:
             candidate = candidates[pid]
@@ -42,18 +56,11 @@ def build(root=ROOT):
             continue
         b = json.loads((ROOT/'exports/persons'/f'{pid}.json').read_text())
         own = set(b['person_ids']); ps = {p['id']:p for p in b['passages']}
-        groups = defaultdict(list)
-        for m in b['mentions']: groups[m['chapter_id']].append(m)
-        occurrences = []
-        for cid, ms in sorted(groups.items(), key=lambda x:chapters.get(x[0],{}).get('number',999)):
-            ch = chapters.get(cid)
-            if not ch: continue
-            m = ms[0]; p = ps[m['paragraph_id']]; start = max(0,m['start']-35)
-            occurrence={'number':ch['number'],'category':ch.get('category',''),'title':ch['title'],'paragraph_id':p['id'],'count':len(ms),'quote':p['text'][start:m['end']+100]}
-            if ch.get('work_id') and ch['work_id'] != 'w-shiji':
-                occurrence.update(work_id=ch['work_id'],work_title=ch['work_title'],book_id=ch['book_id'],chapter_id=cid,
-                                  paragraph_ids=sorted({m['paragraph_id'] for m in ms}))
-            occurrences.append(occurrence)
+        try:
+            from .profile_occurrence_counts import profile_occurrences
+        except ImportError:
+            from profile_occurrence_counts import profile_occurrences
+        occurrences = profile_occurrences(b, chapters, work_titles)
         titles = []
         for x in b['title_holdings']:
             if x['person_id'] not in own: continue
@@ -65,9 +72,11 @@ def build(root=ROOT):
                 except ImportError:
                     from date_ranges import year_range_label
                 if z.get('normalized_date_range'):
-                    bounds.append(year_range_label(z['normalized_date_range']))
+                    label = year_range_label(z['normalized_date_range'])
+                    bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
                     continue
-                bounds.append((f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定')
+                label = (f'西元{"前" if d.get("era")=="BCE" else ""}{value}年（暫定）' if value else z.get('date_expression')) or '未定'
+                bounds.append(label + (' · ' + z['date_expression'] if z.get('date_expression_kind')=='table_columns_composed' else ''))
             titles.append(dict(x, period=' → '.join(bounds)))
         addresses=[dict(x, term=x.get('source_term') or x['place']['source_name'], quote=x['evidence'][0]['quote']) for x in b['address_assertions'] if x['person_id'] in own]
         non_alias_mentions = {d['preferred_reading']['person_mention_id'] for d in b.get('identity_decisions', [])
@@ -91,6 +100,8 @@ def build(root=ROOT):
             profile['preferred_readings'] = preferred_readings
         if b.get('preferred_title_readings'):
             profile['preferred_title_readings'] = b['preferred_title_readings']
+        if b.get('referent_interpretations'):
+            profile['referent_interpretations'] = b['referent_interpretations']
         if b.get('unresolved_identity_cases'):
             profile['unresolved_identity_cases'] = b['unresolved_identity_cases']
         if b.get('identity_distinctions'):
@@ -112,6 +123,8 @@ def build(root=ROOT):
             profile['date_ranges'] = [x for x in b['date_range_normalizations'] if x['person_id'] in own]
         profile['age_assertions'] = b.get('age_assertions', [])
         profile['life_events'] = [x for x in b.get('life_events', []) if x['person_id'] in own]
+        if b.get('chinese_civil_year_normalizations'):
+            profile['chinese_civil_year_normalizations'] = [x for x in b['chinese_civil_year_normalizations'] if x['person_id'] in own]
         profile['life_event_date_decisions'] = b.get('life_event_date_decisions', [])
         profile['selected_life_event_dates'] = b.get('selected_life_event_dates', [])
         if b.get('reported_variants'):
@@ -121,6 +134,8 @@ def build(root=ROOT):
     for pid in sorted(table_mentions):
         p = json.loads((out/f'{pid}.json').read_text())
         entries.append({'id':pid,'label':p['label'],'names':p['names'],'path':f'data/corpus/profiles/{pid}.json','review':p['review']})
+    if person_ids is not None and (out/'index.json').exists():
+        entries = [x for x in json.loads((out/'index.json').read_text())['profiles'] if x['id'] not in person_ids] + entries
     (out/'index.json').write_text(json.dumps({'schema_version':1,'profiles':entries},ensure_ascii=False,indent=2)+'\n')
     print('閱讀器人物資料：', len(table_mentions), '份 ID 檔（含同指別名，不是不同人物總數）')
 if __name__=='__main__': build()

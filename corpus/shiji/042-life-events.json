@@ -785,7 +785,7 @@
     },
     {
       "id": "le-shiji042-040",
-      "person_id": "gts_42q_flu_B",
+      "person_id": "qjs_3hl_6ck_A",
       "event_type": "death",
       "status": "source_attested",
       "date_expression": "聲公五年",
@@ -799,9 +799,59 @@
         }
       ],
       "source_term": "鄭相子産卒",
-      "interpretation_note": "原文生死主張與既有人物錨點；原曆日期保持原句，不拼接不連續年月，不將回述事件借用段首當年。數字年份及跨篇紀年仍待覆核。",
+      "interpretation_note": "原紀年、來源事件與引文不改；數字換年、平行來源及首選另列。本記錄不補月日、不延伸任職時段，亦不由治鄭二十六年倒算起年。",
       "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false
+      "human_reviewed": false,
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 496,
+        "year": -495,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-042-zheng",
+            "source_id": "s-shiji-042-zheng",
+            "paragraph_id": "c-shiji-042-zheng:p049",
+            "quote": "聲公五年，鄭相子産卒，鄭人皆哭泣，悲之如亡親戚。子産者，鄭成公少子也。爲人仁愛人，事君忠厚。孔子嘗過鄭，與子産如兄弟云。及聞子産死，孔子爲泣曰：「古之遺愛也！」",
+            "person_mention_id": "c-shiji-042-zheng:m049-0007"
+          }
+        ],
+        "references": [
+          {
+            "title": "十二諸侯年表鄭欄子產卒",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "五子產卒。",
+            "scope": "received_parallel_event",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r346-c13",
+            "image_verified": false
+          },
+          {
+            "title": "年表另列數位西元對照",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+            "quote": "496",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "table_id": "shiji-014",
+            "table_cell_id": "shiji-014-r346-c00",
+            "image_verified": false
+          }
+        ],
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "鄭相子産卒",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001",
+          "reference_event_quote": "五子產卒。",
+          "reference_year_quote": "496",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷014&oldid=2607001"
+        },
+        "rationale": "本筆僅將聲公五年按年表鄭欄子產卒與另列數位西元對照換為前496年；古文無西元數字，此年不作預設卒年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     },
     {
       "id": "le-shiji042-041",

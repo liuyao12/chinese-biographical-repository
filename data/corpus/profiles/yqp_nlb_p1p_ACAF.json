@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAF",
   "canonical_person_id": "yqp_nlb_p1p_ACAF",
-  "label": "廣川王（徙趙王未名）",
+  "label": "趙王彭祖",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -202,6 +202,49 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。",
       "reviewer": "Codex（AI 代理）",
       "period": "四年 → 未定"
+    },
+    {
+      "id": "th-shiji118-036",
+      "person_id": "yqp_nlb_p1p_ACAF",
+      "title": "趙王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p024",
+          "quote": "吏因捕太子、王后，圍王宮，盡求捕王所與謀反賓客在國中者，索得反具以聞。上下公卿治，所連引與淮南王謀反列侯二千石豪傑數千人，皆以罪輕重受誅。衡山王賜，淮南王弟也，當坐收，有司請逮捕衡山王。天子曰：「諸侯各以其國為本，不當相坐。與諸侯王列侯會肄丞相諸侯議。」趙王彭祖、列侯臣讓等四十三人議，皆曰：「淮南王安甚大逆無道，謀反明白，當伏誅。」膠西王臣端議曰：「淮南王安廢法行邪，懷詐偽心，以亂天下，熒惑百姓，倍畔宗廟，妄作妖言。春秋曰『臣無將，將而誅』。安罪重於將，謀反形已定。臣端所見其書節印圖及他逆無道事驗明白，甚大逆無道，當伏其法。而論國吏二百石以上及比者，宗室近幸臣不在法中者，不能相教，當皆免官削爵為士伍，毋得宦為吏。其非吏，他贖死金二斤八兩。以章臣安之罪，使天下明知臣子之道，毋敢復有邪僻倍畔之意。」丞相弘、廷尉湯等以聞，天子使宗正以符節治王。未至，淮南王安自剄殺。王后荼、太子遷諸所與謀反者皆族。天子以伍被雅辭多引漢之美，欲勿誅。廷尉湯曰：「被首為王畫反謀，被罪無赦。」遂誅被。國除為九江郡。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-036:a001",
+          "paragraph_id": "c-shiji-118-huainan:p024",
+          "start": 127,
+          "end": 129,
+          "surface": "趙王",
+          "person_mention_id": "c-shiji-118-huainan:m024-0127",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -240,7 +283,34 @@
       "title": "孝景本紀第十一",
       "paragraph_id": "c-shiji-011-jingdi:p006",
       "count": 1,
-      "quote": "二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "二十萬。江都大暴風從西方來，壞城十二丈。丁卯，封長公主子蟜為隆慮侯。徙廣川王為趙王。",
+      "paragraph_ids": [
+        "c-shiji-011-jingdi:p006"
+      ],
+      "mention_ids": [
+        "c-shiji-011-jingdi:m006-0057"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-011-jingdi:m006-0057": "c-shiji-011-jingdi:p006"
+      },
+      "mention_id": "c-shiji-011-jingdi:m006-0057",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m006-0057",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m006-0057"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source_id": "s-shiji-011-jingdi",
+      "work_title": "史記"
     },
     {
       "number": 52,
@@ -248,7 +318,34 @@
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p030",
       "count": 1,
-      "quote": "是時趙王懼主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "是時趙王懼主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。",
+      "paragraph_ids": [
+        "c-shiji-052-qidaohui:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-052-qidaohui:m030-0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-052-qidaohui:m030-0002": "c-shiji-052-qidaohui:p030"
+      },
+      "mention_id": "c-shiji-052-qidaohui:m030-0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0002",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "chapter_id": "c-shiji-052-qidaohui",
+      "source_id": "s-shiji-052-qidaohui",
+      "work_title": "史記"
     },
     {
       "number": 59,
@@ -256,7 +353,172 @@
       "title": "五宗世家第二十九",
       "paragraph_id": "c-shiji-059-wuzong:p001",
       "count": 16,
-      "quote": "人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
+      "raw_count": 16,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。",
+      "paragraph_ids": [
+        "c-shiji-059-wuzong:p001",
+        "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:p018",
+        "c-shiji-059-wuzong:p020"
+      ],
+      "mention_ids": [
+        "c-shiji-059-wuzong:m001-0050",
+        "c-shiji-059-wuzong:m017-0000",
+        "c-shiji-059-wuzong:m017-0015",
+        "c-shiji-059-wuzong:m017-0026",
+        "c-shiji-059-wuzong:m017-0037",
+        "c-shiji-059-wuzong:m017-0049",
+        "c-shiji-059-wuzong:m017-0076",
+        "c-shiji-059-wuzong:m017-0114",
+        "c-shiji-059-wuzong:m017-0183",
+        "c-shiji-059-wuzong:m017-0225",
+        "c-shiji-059-wuzong:m017-0250",
+        "c-shiji-059-wuzong:m017-0269",
+        "c-shiji-059-wuzong:m018-0000",
+        "c-shiji-059-wuzong:m018-0041",
+        "c-shiji-059-wuzong:m020-0050",
+        "c-shiji-059-wuzong:m020-0079"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-059-wuzong:m001-0050": "c-shiji-059-wuzong:p001",
+        "c-shiji-059-wuzong:m017-0000": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0015": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0026": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0037": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0049": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0076": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0114": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0183": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0225": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0250": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m017-0269": "c-shiji-059-wuzong:p017",
+        "c-shiji-059-wuzong:m018-0000": "c-shiji-059-wuzong:p018",
+        "c-shiji-059-wuzong:m018-0041": "c-shiji-059-wuzong:p018",
+        "c-shiji-059-wuzong:m020-0050": "c-shiji-059-wuzong:p020",
+        "c-shiji-059-wuzong:m020-0079": "c-shiji-059-wuzong:p020"
+      },
+      "mention_id": "c-shiji-059-wuzong:m001-0050",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m001-0050",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m001-0050"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0000",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0015",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0026",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0037",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0049",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0049"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0076",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0114",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0114"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0183",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0183"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0225",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0225"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0250",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0250"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m017-0269",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m017-0269"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m018-0000",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m018-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m018-0041",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m018-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m020-0050",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m020-0050"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m020-0079",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m020-0079"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-059",
+      "chapter_id": "c-shiji-059-wuzong",
+      "source_id": "s-shiji-059-wuzong",
+      "work_title": "史記"
     },
     {
       "number": 112,
@@ -264,7 +526,69 @@
       "title": "平津侯主父列傳第五十二",
       "paragraph_id": "c-shiji-112-pingjin:p026",
       "count": 1,
-      "quote": "主父始為布衣時，嘗游燕、趙，及其貴，發燕事。趙王恐其為國患，欲上書言其陰事，為偃居中，不敢發。及為齊相，出關，即使人上書，告言主父偃受諸侯金，以故諸侯子弟多以得封者。及齊王自殺，上聞大怒，以為主父劫其王令自殺，乃徵下吏治。主父服受諸侯金，實不劫王令"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "主父始為布衣時，嘗游燕、趙，及其貴，發燕事。趙王恐其為國患，欲上書言其陰事，為偃居中，不敢發。及為齊相，出關，即使人上書，告言主父偃受諸侯金，以故諸侯子弟多以得封者。及齊王自殺，上聞大怒，以為主父劫其王令自殺，乃徵下吏治。主父服受諸侯金，實不劫王令",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m026-0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-112-pingjin:m026-0022": "c-shiji-112-pingjin:p026"
+      },
+      "mention_id": "c-shiji-112-pingjin:m026-0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0022",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p024",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。天子曰：「諸侯各以其國為本，不當相坐。與諸侯王列侯會肄丞相諸侯議。」趙王彭祖、列侯臣讓等四十三人議，皆曰：「淮南王安甚大逆無道，謀反明白，當伏誅。」膠西王臣端議曰：「淮南王安廢法行邪，懷詐偽心，以亂天下，熒惑百姓，倍畔宗廟，妄作妖言。春秋曰『臣無將，將而誅』。安罪重於將，謀反",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p024"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m024-0127"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m024-0127": "c-shiji-118-huainan:p024"
+      },
+      "mention_id": "c-shiji-118-huainan:m024-0127",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0127",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0127"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -302,7 +626,12 @@
             "quote": "趙王彭祖"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -338,7 +667,12 @@
             "quote": "趙王彭祖"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -374,7 +708,12 @@
             "quote": "趙王彭祖"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     }
   ],
   "sources": [
@@ -475,6 +814,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
@@ -565,8 +928,8 @@
   ],
   "related_people": {
     "lyq_p1r_87n": "賈夫人（五宗世家候選）",
-    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
-    "yqp_nlb_p1p_ACAF": "廣川王（徙趙王未名）",
+    "yqp_nlb_p1p_ACA": "孝景帝",
+    "yqp_nlb_p1p_ACAF": "趙王彭祖",
     "yqp_nlb_p1p_ACAI": "勝（景帝子）"
   },
   "dates": [

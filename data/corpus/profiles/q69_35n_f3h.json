@@ -14,7 +14,8 @@
     "丞相弘",
     "公孫子",
     "御史大夫弘",
-    "平津侯"
+    "平津侯",
+    "丞相"
   ],
   "titles": [
     {
@@ -178,12 +179,20 @@
           "person_mention_id": "c-shiji-112-pingjin:m002-0021",
           "usage": "narrative",
           "date_expression": "建元元年",
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 140,
-            "year": -139,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 141,
+              "year": -140
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 140,
+              "year": -139
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
             "evidence": [
@@ -196,16 +205,52 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-                "quote": "建元元年（辛丑，公元前一四零年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c00",
+                "quote": "140",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "quote": "孝武建元元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "元年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+              "digital_year_cell_id": "shiji-022-t1-r067-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         }
       ],
@@ -222,12 +267,20 @@
               "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 140,
-            "year": -139,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 141,
+              "year": -140
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 140,
+              "year": -139
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
             "evidence": [
@@ -240,16 +293,52 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-                "quote": "建元元年（辛丑，公元前一四零年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c00",
+                "quote": "140",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r067-c01",
+                "quote": "孝武建元元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "建元",
+              "year_source_term": "元年",
+              "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+              "digital_year_cell_id": "shiji-022-t1-r067-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -268,7 +357,7 @@
       },
       "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。 病免歸明示此任終止，未把出使與還報都定在徵召年。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前140年（暫定） → 未定"
+      "period": "西元前141至140年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji112-004",
@@ -295,12 +384,20 @@
           "person_mention_id": "c-shiji-112-pingjin:m003-0017",
           "usage": "narrative",
           "date_expression": "元光五年",
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 130,
-            "year": -129,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 131,
+              "year": -130
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 130,
+              "year": -129
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
             "evidence": [
@@ -313,16 +410,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-                "quote": "元光五年（辛亥，公元前一三零年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r077-c00",
+                "quote": "130",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r077-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r073-c01",
+                "quote": "元光元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元光",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r073-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r077-c01",
+              "digital_year_cell_id": "shiji-022-t1-r077-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元光五年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         }
       ],
@@ -339,12 +481,20 @@
               "quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 130,
-            "year": -129,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 131,
+              "year": -130
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 130,
+              "year": -129
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
             "evidence": [
@@ -357,16 +507,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-                "quote": "元光五年（辛亥，公元前一三零年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r077-c00",
+                "quote": "130",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r077-c01",
+                "quote": "五",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r073-c01",
+                "quote": "元光元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元光",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r073-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r077-c01",
+              "digital_year_cell_id": "shiji-022-t1-r077-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元光五年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -377,7 +572,7 @@
       },
       "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前130年（暫定） → 未定"
+      "period": "西元前131至130年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji112-005",
@@ -455,12 +650,20 @@
           "person_mention_id": "c-shiji-112-pingjin:m005-0010",
           "usage": "narrative",
           "date_expression": "元朔三年",
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 126,
-            "year": -125,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 127,
+              "year": -126
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 126,
+              "year": -125
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
             "evidence": [
@@ -473,16 +676,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-                "quote": "元朔三年（乙卯，公元前一二六年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r081-c00",
+                "quote": "126",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r081-c01",
+                "quote": "三",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "quote": "元朔元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元朔",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r081-c01",
+              "digital_year_cell_id": "shiji-022-t1-r081-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元朔三年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         }
       ],
@@ -499,12 +747,20 @@
               "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 126,
-            "year": -125,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 127,
+              "year": -126
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 126,
+              "year": -125
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
             "evidence": [
@@ -517,16 +773,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-                "quote": "元朔三年（乙卯，公元前一二六年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r081-c00",
+                "quote": "126",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r081-c01",
+                "quote": "三",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "quote": "元朔元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元朔",
+              "year_source_term": "三年",
+              "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r081-c01",
+              "digital_year_cell_id": "shiji-022-t1-r081-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元朔三年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -537,7 +838,7 @@
       },
       "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前126年（暫定） → 未定"
+      "period": "西元前127至126年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji112-008",
@@ -664,17 +965,250 @@
               "paragraph_id": "c-shiji-112-pingjin:p006",
               "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 125,
+              "year": -124
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 124,
+              "year": -123
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-112-pingjin",
+                "source_id": "s-shiji112-pingjin",
+                "paragraph_id": "c-shiji-112-pingjin:p006",
+                "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c03",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "124",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元朔元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "四。五年十一月乙丑，獻侯公孫弘元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r008-c03",
+                "scope": "received_corresponding_title_grant",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "平津。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r008-c00",
+                "scope": "received_noble_name_context",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元朔",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-3",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "parallel_event": {
+              "kind": "parallel_event",
+              "source_event_quote": "以弘為丞相",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "reference_event_quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+              "reference_year_quote": "124"
+            },
+            "table_event": {
+              "kind": "table_cell",
+              "table_id": "shiji-022",
+              "table_cell_id": "shiji-022-t1-r083-c03",
+              "person_mention_id": "shiji-022-t1-r083-c03-m000",
+              "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+              "event_type": "grant",
+              "event_source_term": "公孫弘為丞相",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "title_source_term": "為丞相",
+              "regnal_year_cell_id": "shiji-022-t1-r083-c01",
+              "digital_year_cell_id": "shiji-022-t1-r083-c00"
+            }
+          }
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "元狩二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-112-pingjin",
+              "source_id": "s-shiji112-pingjin",
+              "paragraph_id": "c-shiji-112-pingjin:p009",
+              "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+              "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 122,
+              "year": -121
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 121,
+              "year": -120
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-112-pingjin",
+                "source_id": "s-shiji112-pingjin",
+                "paragraph_id": "c-shiji-112-pingjin:p009",
+                "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+                "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r086-c00",
+                "quote": "121",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r086-c01",
+                "quote": "二",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r085-c01",
+                "quote": "元狩元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元狩",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+              "digital_year_cell_id": "shiji-022-t1-r086-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       },
-      "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。",
+      "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。 本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。 本傳竟以丞相終明記終於此職，只補此丞相記錄終期；平津侯與其他職爵仍不由死亡自動終止。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "end_basis": {
+        "kind": "died_in_named_office",
+        "source_term": "竟以丞相終",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-112-pingjin",
+            "source_id": "s-shiji112-pingjin",
+            "paragraph_id": "c-shiji-112-pingjin:p009",
+            "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+            "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+          }
+        ]
+      },
+      "period": "西元前125至124年（暫定範圍） → 西元前122至121年（暫定範圍）"
     },
     {
       "id": "th-shiji112-011",
@@ -715,7 +1249,135 @@
               "paragraph_id": "c-shiji-112-pingjin:p006",
               "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
             }
-          ]
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 125,
+              "year": -124
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 124,
+              "year": -123
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-112-pingjin",
+                "source_id": "s-shiji112-pingjin",
+                "paragraph_id": "c-shiji-112-pingjin:p006",
+                "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c03",
+                "scope": "received_parallel_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "124",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r083-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元朔元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "四。五年十一月乙丑，獻侯公孫弘元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r008-c03",
+                "scope": "received_corresponding_title_grant",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "平津。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r008-c00",
+                "scope": "received_noble_name_context",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元朔",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-3",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "parallel_event": {
+              "kind": "parallel_event",
+              "source_event_quote": "封平津侯",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+              "reference_event_quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+              "reference_year_quote": "124"
+            },
+            "table_event": {
+              "kind": "table_cell",
+              "table_id": "shiji-022",
+              "table_cell_id": "shiji-022-t1-r083-c03",
+              "person_mention_id": "shiji-022-t1-r083-c03-m000",
+              "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+              "event_type": "grant",
+              "event_source_term": "公孫弘為丞相，封平津侯",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "title_source_term": "封平津侯",
+              "regnal_year_cell_id": "shiji-022-t1-r083-c01",
+              "digital_year_cell_id": "shiji-022-t1-r083-c00"
+            }
+          }
         },
         "end": {
           "status": "unknown",
@@ -723,9 +1385,9 @@
           "evidence": []
         }
       },
-      "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。",
+      "interpretation_note": "原文稱號與事件分存，未知端點不補造；死亡不自動終止官爵。 本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。",
       "reviewer": "Codex（AI 代理）",
-      "period": "未定 → 未定"
+      "period": "西元前125至124年（暫定範圍） → 未定"
     },
     {
       "id": "th-shiji112-014",
@@ -752,12 +1414,20 @@
           "person_mention_id": "c-shiji-112-pingjin:m009-0005",
           "usage": "narrative",
           "date_expression": "元狩二年",
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 121,
-            "year": -120,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 122,
+              "year": -121
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 121,
+              "year": -120
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
             "evidence": [
@@ -770,16 +1440,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
-                "quote": "元狩二年（庚申，公元前一二一年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r086-c00",
+                "quote": "121",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r086-c01",
+                "quote": "二",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r085-c01",
+                "quote": "元狩元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元狩",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+              "digital_year_cell_id": "shiji-022-t1-r086-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         }
       ],
@@ -1229,7 +1944,34 @@
       "title": "孝武本紀第十二",
       "paragraph_id": "c-shiji-012-wudi:p004",
       "count": 1,
-      "quote": "其明年，上徵文學之士公孫弘等。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "其明年，上徵文學之士公孫弘等。",
+      "paragraph_ids": [
+        "c-shiji-012-wudi:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-012-wudi:m004-0010"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-012-wudi:m004-0010": "c-shiji-012-wudi:p004"
+      },
+      "mention_id": "c-shiji-012-wudi:m004-0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-012-wudi:m004-0010",
+          "mention_ids": [
+            "c-shiji-012-wudi:m004-0010"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-012",
+      "chapter_id": "c-shiji-012-wudi",
+      "source_id": "s-shiji-012-wudi",
+      "work_title": "史記"
     },
     {
       "number": 52,
@@ -1237,7 +1979,34 @@
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p030",
       "count": 1,
-      "quote": "主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "主父偃一出廢齊，恐其漸疏骨肉，乃上書言偃受金及輕重之短。天子亦既囚偃。公孫弘言：「齊王以憂死毋後，國入漢，非誅偃無以塞天下之望。」遂誅偃。",
+      "paragraph_ids": [
+        "c-shiji-052-qidaohui:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-052-qidaohui:m030-0040"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-052-qidaohui:m030-0040": "c-shiji-052-qidaohui:p030"
+      },
+      "mention_id": "c-shiji-052-qidaohui:m030-0040",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0040",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0040"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "chapter_id": "c-shiji-052-qidaohui",
+      "source_id": "s-shiji-052-qidaohui",
+      "work_title": "史記"
     },
     {
       "number": 109,
@@ -1245,7 +2014,34 @@
       "title": "李將軍列傳第四十九",
       "paragraph_id": "c-shiji-109-liguang:p011",
       "count": 1,
-      "quote": "五年爲輕車將車，從大將軍擊右賢王，有功中率，封爲樂安侯。元狩二年中，代公孫弘爲丞相。蔡爲人在下中，名聲出廣下甚遠，然廣不得爵邑，官不過九卿，而蔡爲列侯，位至三公。諸廣之軍吏及士卒或取封侯。廣嘗與望氣王朔燕語，曰：「自漢擊匈奴而廣未嘗不在其中，而諸部校尉以下，才能不及中人，然以"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "五年爲輕車將車，從大將軍擊右賢王，有功中率，封爲樂安侯。元狩二年中，代公孫弘爲丞相。蔡爲人在下中，名聲出廣下甚遠，然廣不得爵邑，官不過九卿，而蔡爲列侯，位至三公。諸廣之軍吏及士卒或取封侯。廣嘗與望氣王朔燕語，曰：「自漢擊匈奴而廣未嘗不在其中，而諸部校尉以下，才能不及中人，然以",
+      "paragraph_ids": [
+        "c-shiji-109-liguang:p011"
+      ],
+      "mention_ids": [
+        "c-shiji-109-liguang:m011-0076"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-109-liguang:m011-0076": "c-shiji-109-liguang:p011"
+      },
+      "mention_id": "c-shiji-109-liguang:m011-0076",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-109-liguang:m011-0076",
+          "mention_ids": [
+            "c-shiji-109-liguang:m011-0076"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-109",
+      "chapter_id": "c-shiji-109-liguang",
+      "source_id": "s-shiji-109-liguang",
+      "work_title": "史記"
     },
     {
       "number": 112,
@@ -1253,7 +2049,552 @@
       "title": "平津侯主父列傳第五十二",
       "paragraph_id": "c-shiji-112-pingjin:p001",
       "count": 57,
-      "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。"
+      "raw_count": 57,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "丞相公孫弘者，齊菑川國薛縣人也，字季。少時為薛獄吏，有罪，免。家貧，牧豕海上。年四十餘，乃學春秋雜說。養後母孝謹。",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p001",
+        "c-shiji-112-pingjin:p002",
+        "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:p009",
+        "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:p028",
+        "c-shiji-112-pingjin:p029",
+        "c-shiji-112-pingjin:p030",
+        "c-shiji-112-pingjin:p031"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m001-0002",
+        "c-shiji-112-pingjin:m001-0017",
+        "c-shiji-112-pingjin:m002-0021",
+        "c-shiji-112-pingjin:m002-0054",
+        "c-shiji-112-pingjin:m003-0017",
+        "c-shiji-112-pingjin:m003-0021",
+        "c-shiji-112-pingjin:m003-0052",
+        "c-shiji-112-pingjin:m003-0054",
+        "c-shiji-112-pingjin:m003-0074",
+        "c-shiji-112-pingjin:m003-0085",
+        "c-shiji-112-pingjin:m003-0124",
+        "c-shiji-112-pingjin:m004-0000",
+        "c-shiji-112-pingjin:m004-0026",
+        "c-shiji-112-pingjin:m004-0111",
+        "c-shiji-112-pingjin:m004-0141",
+        "c-shiji-112-pingjin:m004-0187",
+        "c-shiji-112-pingjin:m004-0219",
+        "c-shiji-112-pingjin:m004-0221",
+        "c-shiji-112-pingjin:m004-0248",
+        "c-shiji-112-pingjin:m004-0257",
+        "c-shiji-112-pingjin:m005-0010",
+        "c-shiji-112-pingjin:m005-0036",
+        "c-shiji-112-pingjin:m005-0068",
+        "c-shiji-112-pingjin:m005-0079",
+        "c-shiji-112-pingjin:m005-0084",
+        "c-shiji-112-pingjin:m006-0005",
+        "c-shiji-112-pingjin:m006-0028",
+        "c-shiji-112-pingjin:m006-0030",
+        "c-shiji-112-pingjin:m006-0054",
+        "c-shiji-112-pingjin:m006-0058",
+        "c-shiji-112-pingjin:m006-0135",
+        "c-shiji-112-pingjin:m006-0196",
+        "c-shiji-112-pingjin:m007-0000",
+        "c-shiji-112-pingjin:m007-0014",
+        "c-shiji-112-pingjin:m007-0043",
+        "c-shiji-112-pingjin:m007-0067",
+        "c-shiji-112-pingjin:m008-0014",
+        "c-shiji-112-pingjin:m008-0252",
+        "c-shiji-112-pingjin:m008-0270",
+        "c-shiji-112-pingjin:m008-0287",
+        "c-shiji-112-pingjin:m008-0388",
+        "c-shiji-112-pingjin:m008-0394",
+        "c-shiji-112-pingjin:m008-0402",
+        "c-shiji-112-pingjin:m008-0407",
+        "c-shiji-112-pingjin:m008-0417",
+        "c-shiji-112-pingjin:m008-0454",
+        "c-shiji-112-pingjin:m009-0005",
+        "c-shiji-112-pingjin:m024-0054",
+        "c-shiji-112-pingjin:m026-0134",
+        "c-shiji-112-pingjin:m028-0005",
+        "c-shiji-112-pingjin:m028-0041",
+        "c-shiji-112-pingjin:m029-0271",
+        "c-shiji-112-pingjin:m029-0468",
+        "c-shiji-112-pingjin:m029-0512",
+        "c-shiji-112-pingjin:m030-0005",
+        "c-shiji-112-pingjin:m030-0165",
+        "c-shiji-112-pingjin:m031-0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-112-pingjin:m001-0002": "c-shiji-112-pingjin:p001",
+        "c-shiji-112-pingjin:m001-0017": "c-shiji-112-pingjin:p001",
+        "c-shiji-112-pingjin:m002-0021": "c-shiji-112-pingjin:p002",
+        "c-shiji-112-pingjin:m002-0054": "c-shiji-112-pingjin:p002",
+        "c-shiji-112-pingjin:m003-0017": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0021": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0052": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0054": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0074": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0085": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m003-0124": "c-shiji-112-pingjin:p003",
+        "c-shiji-112-pingjin:m004-0000": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0026": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0111": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0141": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0187": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0219": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0221": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0248": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m004-0257": "c-shiji-112-pingjin:p004",
+        "c-shiji-112-pingjin:m005-0010": "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:m005-0036": "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:m005-0068": "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:m005-0079": "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:m005-0084": "c-shiji-112-pingjin:p005",
+        "c-shiji-112-pingjin:m006-0005": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0028": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0030": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0054": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0058": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0135": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m006-0196": "c-shiji-112-pingjin:p006",
+        "c-shiji-112-pingjin:m007-0000": "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:m007-0014": "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:m007-0043": "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:m007-0067": "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:m008-0014": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0252": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0270": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0287": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0388": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0394": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0402": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0407": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0417": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m008-0454": "c-shiji-112-pingjin:p008",
+        "c-shiji-112-pingjin:m009-0005": "c-shiji-112-pingjin:p009",
+        "c-shiji-112-pingjin:m024-0054": "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:m026-0134": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m028-0005": "c-shiji-112-pingjin:p028",
+        "c-shiji-112-pingjin:m028-0041": "c-shiji-112-pingjin:p028",
+        "c-shiji-112-pingjin:m029-0271": "c-shiji-112-pingjin:p029",
+        "c-shiji-112-pingjin:m029-0468": "c-shiji-112-pingjin:p029",
+        "c-shiji-112-pingjin:m029-0512": "c-shiji-112-pingjin:p029",
+        "c-shiji-112-pingjin:m030-0005": "c-shiji-112-pingjin:p030",
+        "c-shiji-112-pingjin:m030-0165": "c-shiji-112-pingjin:p030",
+        "c-shiji-112-pingjin:m031-0006": "c-shiji-112-pingjin:p031"
+      },
+      "mention_id": "c-shiji-112-pingjin:m001-0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m001-0002",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m001-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m001-0017",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m001-0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m002-0021",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m002-0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m002-0054",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m002-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0017",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0021",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0052",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0052"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0054",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0074",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0085",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m003-0124",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m003-0124"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0026",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0111",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0141",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0187",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0187"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0219",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0219"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0221",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0221"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0248",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0248"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m004-0257",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m004-0257"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m005-0010",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m005-0036",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0036"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m005-0068",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0068"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m005-0079",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m005-0084",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m005-0084"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0005",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0028",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0030",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0054",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0058",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0135",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0135"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m006-0196",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m006-0196"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m007-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m007-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m007-0014",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m007-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m007-0043",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m007-0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m007-0067",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m007-0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0014",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0252",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0252"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0270",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0270"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0287",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0287"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0388",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0388"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0394",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0394"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0402",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0402"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0407",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0407"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0417",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0417"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0454",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0454"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m009-0005",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m009-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m024-0054",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m024-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0134",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0134"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m028-0005",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m028-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m028-0041",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m028-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m029-0271",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m029-0271"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m029-0468",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m029-0468"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m029-0512",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m029-0512"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m030-0005",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m030-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m030-0165",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m030-0165"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m031-0006",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m031-0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記"
     },
     {
       "number": 116,
@@ -1261,15 +2602,134 @@
       "title": "西南夷列傳第五十六",
       "paragraph_id": "c-shiji-116-xinanyi:p004",
       "count": 3,
-      "quote": "不通，士罷餓離溼死者甚眾；西南夷又數反，發兵興擊，秏費無功。上患之，使公孫弘往視問焉。還對，言其不便。及弘為御史大夫，是時方筑朔方以據河逐胡，弘因數言西南夷害，可且罷，專力事匈奴。上罷西夷，獨置南夷夜郎兩縣一都尉，稍令犍為自葆就。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "不通，士罷餓離溼死者甚眾；西南夷又數反，發兵興擊，秏費無功。上患之，使公孫弘往視問焉。還對，言其不便。及弘為御史大夫，是時方筑朔方以據河逐胡，弘因數言西南夷害，可且罷，專力事匈奴。上罷西夷，獨置南夷夜郎兩縣一都尉，稍令犍為自葆就。",
+      "paragraph_ids": [
+        "c-shiji-116-xinanyi:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-116-xinanyi:m004-0058",
+        "c-shiji-116-xinanyi:m004-0075",
+        "c-shiji-116-xinanyi:m004-0094"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-116-xinanyi:m004-0058": "c-shiji-116-xinanyi:p004",
+        "c-shiji-116-xinanyi:m004-0075": "c-shiji-116-xinanyi:p004",
+        "c-shiji-116-xinanyi:m004-0094": "c-shiji-116-xinanyi:p004"
+      },
+      "mention_id": "c-shiji-116-xinanyi:m004-0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m004-0058",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m004-0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m004-0075",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m004-0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m004-0094",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m004-0094"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "chapter_id": "c-shiji-116-xinanyi",
+      "source_id": "s-shiji116-xinanyi",
+      "work_title": "史記"
     },
     {
       "number": 118,
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
       "paragraph_id": "c-shiji-118-huainan:p020",
-      "count": 4,
-      "quote": "南陰事。」書聞，上以其事下廷尉，廷尉下河南治。是時故辟陽侯孫審卿善丞相公孫弘，怨淮南厲王殺其大父，乃深購淮南事於弘，弘乃疑淮南有畔逆計謀，深窮治其獄。河南治建，辭引淮南太子及黨與。淮南王患之，欲發，問伍被曰：「漢廷治亂？」伍被曰：「天下治。」王意不說，謂伍被曰：「公何以言天下"
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "南陰事。」書聞，上以其事下廷尉，廷尉下河南治。是時故辟陽侯孫審卿善丞相公孫弘，怨淮南厲王殺其大父，乃深購淮南事於弘，弘乃疑淮南有畔逆計謀，深窮治其獄。河南治建，辭引淮南太子及黨與。淮南王患之，欲發，問伍被曰：「漢廷治亂？」伍被曰：「天下治。」王意不說，謂伍被曰：「公何以言天下",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:p021",
+        "c-shiji-118-huainan:p024"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m020-0255",
+        "c-shiji-118-huainan:m020-0276",
+        "c-shiji-118-huainan:m020-0278",
+        "c-shiji-118-huainan:m021-0903",
+        "c-shiji-118-huainan:m021-0923",
+        "c-shiji-118-huainan:m024-0352"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m020-0255": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0276": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0278": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m021-0903": "c-shiji-118-huainan:p021",
+        "c-shiji-118-huainan:m021-0923": "c-shiji-118-huainan:p021",
+        "c-shiji-118-huainan:m024-0352": "c-shiji-118-huainan:p024"
+      },
+      "mention_id": "c-shiji-118-huainan:m020-0255",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0255",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0276",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0276"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0278",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0278"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m021-0903",
+          "mention_ids": [
+            "c-shiji-118-huainan:m021-0903"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m021-0923",
+          "mention_ids": [
+            "c-shiji-118-huainan:m021-0923"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0352",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0352"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
     },
     {
       "number": 120,
@@ -1277,7 +2737,127 @@
       "title": "汲鄭列傳第六十",
       "paragraph_id": "c-shiji-120-jizheng:p005",
       "count": 11,
-      "quote": "大將軍青侍中，上踞廁而視之。丞相弘燕見，上或時不冠。至如黯見，上不冠不見也。上嘗坐武帳中，黯前奏事，上不冠，望見黯，避帳中，使人可其奏。其見敬禮如此。"
+      "raw_count": 11,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "大將軍青侍中，上踞廁而視之。丞相弘燕見，上或時不冠。至如黯見，上不冠不見也。上嘗坐武帳中，黯前奏事，上不冠，望見黯，避帳中，使人可其奏。其見敬禮如此。",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p005",
+        "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:p009",
+        "c-shiji-120-jizheng:p011"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m005-0014",
+        "c-shiji-120-jizheng:m007-0041",
+        "c-shiji-120-jizheng:m007-0078",
+        "c-shiji-120-jizheng:m007-0123",
+        "c-shiji-120-jizheng:m007-0127",
+        "c-shiji-120-jizheng:m007-0149",
+        "c-shiji-120-jizheng:m009-0029",
+        "c-shiji-120-jizheng:m011-0008",
+        "c-shiji-120-jizheng:m011-0019",
+        "c-shiji-120-jizheng:m011-0035",
+        "c-shiji-120-jizheng:m011-0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m005-0014": "c-shiji-120-jizheng:p005",
+        "c-shiji-120-jizheng:m007-0041": "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:m007-0078": "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:m007-0123": "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:m007-0127": "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:m007-0149": "c-shiji-120-jizheng:p007",
+        "c-shiji-120-jizheng:m009-0029": "c-shiji-120-jizheng:p009",
+        "c-shiji-120-jizheng:m011-0008": "c-shiji-120-jizheng:p011",
+        "c-shiji-120-jizheng:m011-0019": "c-shiji-120-jizheng:p011",
+        "c-shiji-120-jizheng:m011-0035": "c-shiji-120-jizheng:p011",
+        "c-shiji-120-jizheng:m011-0042": "c-shiji-120-jizheng:p011"
+      },
+      "mention_id": "c-shiji-120-jizheng:m005-0014",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m005-0014",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m005-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m007-0041",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m007-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m007-0078",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m007-0078"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m007-0123",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m007-0123"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m007-0127",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m007-0127"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m007-0149",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m007-0149"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m009-0029",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m009-0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m011-0008",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m011-0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m011-0019",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m011-0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m011-0035",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m011-0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m011-0042",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m011-0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記"
     },
     {
       "number": 121,
@@ -1285,7 +2865,120 @@
       "title": "儒林列傳第六十一",
       "paragraph_id": "c-shiji-121-rulin:p005",
       "count": 10,
-      "quote": "竇太后崩，武安侯田蚡為丞相，絀黃老、刑名百家之言，延文學儒者數百人，而公孫弘以春秋白衣為天子三公，封以平津侯。天下之學士靡然鄉風矣。"
+      "raw_count": 10,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "竇太后崩，武安侯田蚡為丞相，絀黃老、刑名百家之言，延文學儒者數百人，而公孫弘以春秋白衣為天子三公，封以平津侯。天下之學士靡然鄉風矣。",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p005",
+        "c-shiji-121-rulin:p006",
+        "c-shiji-121-rulin:p012",
+        "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:p022",
+        "c-shiji-121-rulin:p023"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m005-0142",
+        "c-shiji-121-rulin:m006-0000",
+        "c-shiji-121-rulin:m012-0046",
+        "c-shiji-121-rulin:m012-0062",
+        "c-shiji-121-rulin:m021-0016",
+        "c-shiji-121-rulin:m021-0029",
+        "c-shiji-121-rulin:m021-0044",
+        "c-shiji-121-rulin:m021-0049",
+        "c-shiji-121-rulin:m022-0033",
+        "c-shiji-121-rulin:m023-0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m005-0142": "c-shiji-121-rulin:p005",
+        "c-shiji-121-rulin:m006-0000": "c-shiji-121-rulin:p006",
+        "c-shiji-121-rulin:m012-0046": "c-shiji-121-rulin:p012",
+        "c-shiji-121-rulin:m012-0062": "c-shiji-121-rulin:p012",
+        "c-shiji-121-rulin:m021-0016": "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:m021-0029": "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:m021-0044": "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:m021-0049": "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:m022-0033": "c-shiji-121-rulin:p022",
+        "c-shiji-121-rulin:m023-0011": "c-shiji-121-rulin:p023"
+      },
+      "mention_id": "c-shiji-121-rulin:m005-0142",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m005-0142",
+          "mention_ids": [
+            "c-shiji-121-rulin:m005-0142"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m006-0000",
+          "mention_ids": [
+            "c-shiji-121-rulin:m006-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m012-0046",
+          "mention_ids": [
+            "c-shiji-121-rulin:m012-0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m012-0062",
+          "mention_ids": [
+            "c-shiji-121-rulin:m012-0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0016",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0029",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0044",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0049",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0049"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m022-0033",
+          "mention_ids": [
+            "c-shiji-121-rulin:m022-0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m023-0011",
+          "mention_ids": [
+            "c-shiji-121-rulin:m023-0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     },
     {
       "number": 122,
@@ -1293,7 +2986,44 @@
       "title": "酷吏列傳第六十二",
       "paragraph_id": "c-shiji-122-kuli:p017",
       "count": 2,
-      "quote": "以湯雖文深意忌不專平，然得此聲譽。而刻深吏多爲爪牙用者，依於文學之士。丞相弘數稱其美。及治淮南、衡山、江都反獄，皆窮根本。嚴助及伍被，上欲釋之。湯爭曰：「伍被本畫反謀，而助親幸出入禁闥爪牙臣，乃交私諸侯如此，弗誅，後不可治。」於是上可論之。其治獄所排大臣自爲功，多此類。於是湯"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "以湯雖文深意忌不專平，然得此聲譽。而刻深吏多爲爪牙用者，依於文學之士。丞相弘數稱其美。及治淮南、衡山、江都反獄，皆窮根本。嚴助及伍被，上欲釋之。湯爭曰：「伍被本畫反謀，而助親幸出入禁闥爪牙臣，乃交私諸侯如此，弗誅，後不可治。」於是上可論之。其治獄所排大臣自爲功，多此類。於是湯",
+      "paragraph_ids": [
+        "c-shiji-122-kuli:p017",
+        "c-shiji-122-kuli:p027"
+      ],
+      "mention_ids": [
+        "c-shiji-122-kuli:m017-0330",
+        "c-shiji-122-kuli:m027-0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-122-kuli:m017-0330": "c-shiji-122-kuli:p017",
+        "c-shiji-122-kuli:m027-0012": "c-shiji-122-kuli:p027"
+      },
+      "mention_id": "c-shiji-122-kuli:m017-0330",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m017-0330",
+          "mention_ids": [
+            "c-shiji-122-kuli:m017-0330"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m027-0012",
+          "mention_ids": [
+            "c-shiji-122-kuli:m027-0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "chapter_id": "c-shiji-122-kuli",
+      "source_id": "s-shiji122-kuli",
+      "work_title": "史記"
     },
     {
       "number": 124,
@@ -1301,7 +3031,34 @@
       "title": "游俠列傳第六十四",
       "paragraph_id": "c-shiji-124-youxia:p014",
       "count": 1,
-      "quote": "。吏以此責解，解實不知殺者。殺者亦竟絕，莫知為誰。吏奏解無罪。御史大夫公孫弘議曰：「解布衣為任俠行權，以睚眥殺人，解雖弗知，此罪甚於解殺之。當大逆無道。」遂族郭解翁伯。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "。吏以此責解，解實不知殺者。殺者亦竟絕，莫知為誰。吏奏解無罪。御史大夫公孫弘議曰：「解布衣為任俠行權，以睚眥殺人，解雖弗知，此罪甚於解殺之。當大逆無道。」遂族郭解翁伯。",
+      "paragraph_ids": [
+        "c-shiji-124-youxia:p014"
+      ],
+      "mention_ids": [
+        "c-shiji-124-youxia:m014-0241"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-124-youxia:m014-0241": "c-shiji-124-youxia:p014"
+      },
+      "mention_id": "c-shiji-124-youxia:m014-0241",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-124-youxia:m014-0241",
+          "mention_ids": [
+            "c-shiji-124-youxia:m014-0241"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-124",
+      "chapter_id": "c-shiji-124-youxia",
+      "source_id": "s-shiji124-youxia",
+      "work_title": "史記"
     },
     {
       "number": 130,
@@ -1309,7 +3066,53 @@
       "title": "太史公自序第七十",
       "paragraph_id": "c-shiji-130-taishigong:p124",
       "count": 3,
-      "quote": "大臣宗室以侈靡相高，唯弘用節衣食為百吏先。作平津侯列傳第五十二。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "大臣宗室以侈靡相高，唯弘用節衣食為百吏先。作平津侯列傳第五十二。",
+      "paragraph_ids": [
+        "c-shiji-130-taishigong:p124",
+        "c-shiji-130-taishigong:p142"
+      ],
+      "mention_ids": [
+        "c-shiji-130-taishigong:m124-0011",
+        "c-shiji-130-taishigong:m124-0022",
+        "c-shiji-130-taishigong:m142-0111"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-130-taishigong:m124-0011": "c-shiji-130-taishigong:p124",
+        "c-shiji-130-taishigong:m124-0022": "c-shiji-130-taishigong:p124",
+        "c-shiji-130-taishigong:m142-0111": "c-shiji-130-taishigong:p142"
+      },
+      "mention_id": "c-shiji-130-taishigong:m124-0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m124-0011",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m124-0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m124-0022",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m124-0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-130-taishigong:m142-0111",
+          "mention_ids": [
+            "c-shiji-130-taishigong:m142-0111"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-130",
+      "chapter_id": "c-shiji-130-taishigong",
+      "source_id": "s-shiji130-taishigong",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -1327,7 +3130,12 @@
         "person_id": "q69_35n_f3h",
         "status": "contextual_provisional",
         "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "chapter_id": "table-chapter-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source_revision": "2607036"
     },
     {
       "table_id": "shiji-022",
@@ -1351,7 +3159,12 @@
         "person_id": "q69_35n_f3h",
         "status": "contextual_provisional",
         "interpretation_note": "依本格國別、事件與本篇時間範圍核讀的完整名字暫定同指；非全域字串配對，省稱與世襲稱號另行核讀。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "chapter_id": "table-chapter-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source_revision": "2607038"
     }
   ],
   "sources": [
@@ -1713,307 +3526,60 @@
     "q69_35n_f3h": "公孫弘（平津侯主父列傳候選）",
     "q69_35n_f3h_A": "公孫度（平津侯主父列傳候選）"
   },
-  "dates": [
+  "dates": [],
+  "reading_decisions": [
     {
-      "era": "BCE",
-      "era_year": 121,
-      "year": -120,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+      "id": "d-shiji118-hong-final-plan",
+      "person_id": "q69_35n_f3h",
+      "surfaces": [
+        "丞相"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-118-huainan"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-shiji-118-huainan:m021-0903",
+          "c-shiji-118-huainan:m021-0923"
+        ]
+      },
       "evidence": [
         {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p009",
-          "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
-          "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p021",
+          "quote": "淮南王見建已徵治，恐國陰事且覺，欲發，被又以為難，乃復問被曰：「公以為吳興兵是邪非也？」被曰：「以為非也。吳王至富貴也，舉事不當，身死丹徒，頭足異處，子孫無遺類。臣聞吳王悔之甚。願王孰慮之，無為吳王之所悔。」王曰：「男子之所死者一言耳。且吳何知反，漢將一日過成皋者四十餘人。今我令樓緩先要成皋之口，周被下潁川兵塞轘轅、伊闕之道，陳定發南陽兵守武關。河南太守獨有雒陽耳，何足憂。然此北尚有臨晉關、河東、上黨與河內、趙國。人言曰『絕成皋之口，天下不通』。據三川之險，招山東之兵，舉事如此，公以為何如？」被曰：「臣見其禍，未見其福也。」王曰：「左吳、趙賢、朱驕如皆以為有福，什事九成，公獨以為有禍無福，何也？」被曰：「大王之群臣近幸素能使眾者，皆前繋詔獄，餘無可用者。」王曰：「陳勝、吳廣無立錐之地，千人之聚，起於大澤，奮臂大呼而天下響應，西至於戲而兵百二十萬。今吾國雖小，然而勝兵者可得十餘萬，非直適戍之眾，釠鑿棘矜也，公何以言有禍無福？」被曰：「往者秦為無道，殘賊天下。興萬乘之駕，作阿房之宮，收太半之賦，發閭左之戍，父不寧子，兄不便弟，政苛刑峻，天下熬然若焦，民皆引領而望，傾耳而聽，悲號仰天，叩心而怨上，故陳勝大呼，天下響應。當今陛下臨制天下，一齊海內，汎愛蒸庶，布德施惠。口雖未言，聲疾雷霆，令雖未出，化馳如神，心有所懷，威動萬里，下之應上，猶影響也。而大將軍材能不特章邯、楊熊也。大王以陳勝、吳廣諭之，被以為過矣。」王曰：「茍如公言，不可徼幸邪？」被曰：「被有愚計。」王曰：「柰何？」被曰：「當今諸侯無異心，百姓無怨氣。朔方之郡田地廣，水草美，民徙者不足以實其地。臣之愚計，可偽為丞相御史請書，徙郡國豪桀任俠及有耐罪以上，赦令除其罪，產五十萬以上者，皆徙其家屬朔方之郡，益發甲卒，急其會日。又偽為左右都司空上林中都官詔獄（逮）書，［逮］諸侯太子幸臣。如此則民怨，諸侯懼，即使辯武隨而說之，儻可徼幸什得一乎？」王曰：「此可也。雖然，吾以為不至若此。」於是王乃令官奴入宮，作皇帝璽，丞相、御史、大將軍、軍吏、中二千石、都官令、丞印，及旁近郡太守、都尉印，漢使節法冠，欲如伍被計。使人偽得罪而西，事大將軍、丞相；一日發兵，使人即刺殺大將軍青，而說丞相下之，如發蒙耳。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m021-0903",
+            "c-shiji-118-huainan:m021-0923"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p020",
+          "quote": "王有孽子不害，最長，王弗愛，王、王后、太子皆不以為子兄數。不害有子建，材高有氣，常怨望太子不省其父；又怨時諸侯皆得分子弟為侯，而淮南獨二子，一為太子，建父獨不得為侯。建陰結交，欲告敗太子，以其父代之。太子知之，數捕繋而榜笞建。建具知太子之謀欲殺漢中尉，即使所善壽春莊芷以元朔六年上書於天子曰：「毒藥苦於口利於病，忠言逆於耳利於行。今淮南王孫建，材能高，淮南王王后荼、荼子太子遷常疾害建。建父不害無罪，擅數捕繋，欲殺之。今建在，可徵問，具知淮南陰事。」書聞，上以其事下廷尉，廷尉下河南治。是時故辟陽侯孫審卿善丞相公孫弘，怨淮南厲王殺其大父，乃深購淮南事於弘，弘乃疑淮南有畔逆計謀，深窮治其獄。河南治建，辭引淮南太子及黨與。淮南王患之，欲發，問伍被曰：「漢廷治亂？」伍被曰：「天下治。」王意不說，謂伍被曰：「公何以言天下治也？」被曰：「被竊觀朝廷之政，君臣之義，父子之親，夫婦之別，長幼之序，皆得其理，上之舉錯遵古之道，風俗紀綱未有所缺也。重裝富賈，周流天下，道無不通，故交易之道行。南越賓服，羌僰入獻，東甌入降，廣長榆，開朔方，匈奴折翅傷翼，失援不振。雖未及古太平之時，然猶為治也。」王怒，被謝死罪。王又謂被曰：「山東即有兵，漢必使大將軍將而制山東，公以為大將軍何如人也？」被曰：「被所善者黃義，從大將軍擊匈奴，還，告被曰：『大將軍遇士大夫有禮，於士卒有恩，眾皆樂為之用。騎上下山若蜚，材干絕人。』被以為材能如此，數將習兵，未易當也。及謁者曹梁使長安來，言大將軍號令明，當敵勇敢，常為士卒先。休舍，穿井未通，須士卒盡得水，乃敢飲。軍罷，卒盡已度河，乃度。皇太后所賜金帛，盡以賜軍吏。雖古名將弗過也。」王默然。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0255"
+          ]
         }
       ],
       "references": [
         {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
-          "quote": "元狩二年（庚申，公元前一二一年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_118.txt#L305-L308",
+          "quote": "守都尉印漢使節法冠(蔡邕曰法冠楚王冠也秦/滅楚以其君冠賜御史)欲如¶\n伍被計使人偽得罪而西(蘓林曰詐作/罪人而西也)事大將軍丞相¶\n一日發兵(如淳曰發/淮南兵也)使人即刺殺大將軍青而説丞相¶\n下之如發䝉耳(如淳曰以物䝉覆其頭而為發去其/人欲之耳韋昭曰如䝉巾發之甚易)王¶",
+          "image_verified": false,
+          "source_blob": "9d2ddd755bfb7f9cca5664cbd23393bc203cb5c9"
         }
       ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+      "rationale": "同段事丞相與說丞相下之同一預謀目標，前段同案明作丞相公孫弘；不擴及偽作官印。；與事丞相同一說降對象，承前段丞相公孫弘審淮南事；只是謀議非已被說降。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "record_id": "le-shiji112-p009-q69_35n_f3h",
-      "person_id": "q69_35n_f3h",
-      "date_role": "life_event",
-      "event_type": "death"
-    },
-    {
-      "era": "BCE",
-      "era_year": 140,
-      "year": -139,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p002",
-          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-          "quote": "建元元年（辛丑，公元前一四零年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "age-shiji112-002",
-      "person_id": "q69_35n_f3h",
-      "date_role": "age_attestation"
-    },
-    {
-      "era": "BCE",
-      "era_year": 140,
-      "year": -139,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p002",
-          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-          "quote": "建元元年（辛丑，公元前一四零年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-003",
-      "person_id": "q69_35n_f3h",
-      "endpoint": "start",
-      "title": "博士"
-    },
-    {
-      "era": "BCE",
-      "era_year": 130,
-      "year": -129,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p003",
-          "quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-          "quote": "元光五年（辛亥，公元前一三零年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-004",
-      "person_id": "q69_35n_f3h",
-      "endpoint": "start",
-      "title": "博士"
-    },
-    {
-      "era": "BCE",
-      "era_year": 126,
-      "year": -125,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p005",
-          "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-          "quote": "元朔三年（乙卯，公元前一二六年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-007",
-      "person_id": "q69_35n_f3h",
-      "endpoint": "start",
-      "title": "御史大夫"
-    },
-    {
-      "era": "BCE",
-      "era_year": 140,
-      "year": -139,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p002",
-          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-          "quote": "建元元年（辛丑，公元前一四零年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-003",
-      "person_id": "q69_35n_f3h",
-      "attestation_id": "th-shiji112-003:a001",
-      "date_role": "attestation",
-      "title": "博士"
-    },
-    {
-      "era": "BCE",
-      "era_year": 130,
-      "year": -129,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p003",
-          "quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-          "quote": "元光五年（辛亥，公元前一三零年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-004",
-      "person_id": "q69_35n_f3h",
-      "attestation_id": "th-shiji112-004:a001",
-      "date_role": "attestation",
-      "title": "博士"
-    },
-    {
-      "era": "BCE",
-      "era_year": 126,
-      "year": -125,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p005",
-          "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-          "quote": "元朔三年（乙卯，公元前一二六年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-007",
-      "person_id": "q69_35n_f3h",
-      "attestation_id": "th-shiji112-007:a001",
-      "date_role": "attestation",
-      "title": "御史大夫"
-    },
-    {
-      "era": "BCE",
-      "era_year": 121,
-      "year": -120,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p009",
-          "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
-          "quote": "元狩二年（庚申，公元前一二一年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-014",
-      "person_id": "q69_35n_f3h",
-      "attestation_id": "th-shiji112-014:a001",
-      "date_role": "attestation",
-      "title": "丞相"
+      "model": null
     }
   ],
   "name_components": [],
@@ -2060,6 +3626,1123 @@
       },
       "interpretation_note": "明示子度；不補出生排行、生母或出生年月。",
       "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 122,
+        "year": -121
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 121,
+        "year": -120
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p009",
+          "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+          "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c00",
+          "quote": "121",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c01",
+          "quote": "二",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r085-c01",
+          "quote": "元狩元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元狩",
+        "year_source_term": "二年",
+        "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+        "digital_year_cell_id": "shiji-022-t1-r086-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "le-shiji112-p009-q69_35n_f3h",
+      "person_id": "q69_35n_f3h",
+      "date_role": "life_event",
+      "event_type": "death"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 141,
+        "year": -140
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 140,
+        "year": -139
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p002",
+          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c00",
+          "quote": "140",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c01",
+          "quote": "孝武建元元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "建元",
+        "year_source_term": "元年",
+        "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+        "digital_year_cell_id": "shiji-022-t1-r067-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-003",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "博士"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 131,
+        "year": -130
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 130,
+        "year": -129
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p003",
+          "quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r077-c00",
+          "quote": "130",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r077-c01",
+          "quote": "五",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r073-c01",
+          "quote": "元光元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元光",
+        "year_source_term": "五年",
+        "era_anchor_cell_id": "shiji-022-t1-r073-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r077-c01",
+        "digital_year_cell_id": "shiji-022-t1-r077-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元光五年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-004",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "博士"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 127,
+        "year": -126
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 126,
+        "year": -125
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p005",
+          "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r081-c00",
+          "quote": "126",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r081-c01",
+          "quote": "三",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "quote": "元朔元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元朔",
+        "year_source_term": "三年",
+        "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r081-c01",
+        "digital_year_cell_id": "shiji-022-t1-r081-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元朔三年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-007",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "御史大夫"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 125,
+        "year": -124
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 124,
+        "year": -123
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p006",
+          "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c03",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "124",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元朔元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "四。五年十一月乙丑，獻侯公孫弘元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r008-c03",
+          "scope": "received_corresponding_title_grant",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "平津。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r008-c00",
+          "scope": "received_noble_name_context",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元朔",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-3",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "parallel_event": {
+        "kind": "parallel_event",
+        "source_event_quote": "以弘為丞相",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_event_quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+        "reference_year_quote": "124"
+      },
+      "table_event": {
+        "kind": "table_cell",
+        "table_id": "shiji-022",
+        "table_cell_id": "shiji-022-t1-r083-c03",
+        "person_mention_id": "shiji-022-t1-r083-c03-m000",
+        "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+        "event_type": "grant",
+        "event_source_term": "公孫弘為丞相",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "title_source_term": "為丞相",
+        "regnal_year_cell_id": "shiji-022-t1-r083-c01",
+        "digital_year_cell_id": "shiji-022-t1-r083-c00"
+      },
+      "record_id": "th-shiji112-010",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "丞相"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 122,
+        "year": -121
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 121,
+        "year": -120
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p009",
+          "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+          "person_mention_id": "c-shiji-112-pingjin:m009-0005"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c00",
+          "quote": "121",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c01",
+          "quote": "二",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r085-c01",
+          "quote": "元狩元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元狩",
+        "year_source_term": "二年",
+        "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+        "digital_year_cell_id": "shiji-022-t1-r086-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-010",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "end",
+      "title": "丞相"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 125,
+        "year": -124
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 124,
+        "year": -123
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p006",
+          "quote": "汲黯曰：「弘位在三公，奉祿甚多。然為布被，此詐也。」上問弘。弘謝曰：「有之。夫九卿與臣善者無過黯，然今日庭詰弘，誠中弘之病。夫以三公為布被，誠飾詐欲以釣名。且臣聞管仲相齊，有三歸，侈擬於君，桓公以霸，亦上僭於君。晏嬰相景公，食不重肉，妾不衣絲，齊國亦治，此下比於民。今臣弘位為御史大夫，而為布被，自九卿以下至於小吏，無差，誠如汲黯言。且無汲黯忠，陛下安得聞此言。」天子以為謙讓，愈益厚之。卒以弘為丞相，封平津侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c03",
+          "scope": "received_parallel_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "124",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r083-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元朔元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "四。五年十一月乙丑，獻侯公孫弘元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r008-c03",
+          "scope": "received_corresponding_title_grant",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "平津。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r008-c00",
+          "scope": "received_noble_name_context",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元朔",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-3",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇以弘為丞相、封平津侯無明年，按兩表原元朔五年十一月乙丑同一授任事件，存公元前125至124年歲首範圍，不猜精確公曆日。 原紀年、表格事件、數位西元對照與曆法分列；未核書影，不由死亡補其他官爵終期。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "parallel_event": {
+        "kind": "parallel_event",
+        "source_event_quote": "封平津侯",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "reference_event_quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+        "reference_year_quote": "124"
+      },
+      "table_event": {
+        "kind": "table_cell",
+        "table_id": "shiji-022",
+        "table_cell_id": "shiji-022-t1-r083-c03",
+        "person_mention_id": "shiji-022-t1-r083-c03-m000",
+        "quote": "八。十一月乙丑，御史大夫公孫弘為丞相，封平津侯。",
+        "event_type": "grant",
+        "event_source_term": "公孫弘為丞相，封平津侯",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "title_source_term": "封平津侯",
+        "regnal_year_cell_id": "shiji-022-t1-r083-c01",
+        "digital_year_cell_id": "shiji-022-t1-r083-c00"
+      },
+      "record_id": "th-shiji112-011",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "平津侯"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 141,
+        "year": -140
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 140,
+        "year": -139
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p002",
+          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c00",
+          "quote": "140",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c01",
+          "quote": "孝武建元元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "建元",
+        "year_source_term": "元年",
+        "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+        "digital_year_cell_id": "shiji-022-t1-r067-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-003",
+      "attestation_id": "th-shiji112-003:a001",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_attestation",
+      "title": "博士",
+      "usage": "narrative"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 131,
+        "year": -130
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 130,
+        "year": -129
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p003",
+          "quote": "元光五年，有詔徵文學，菑川國復推上公孫弘。弘讓謝國人曰：「臣已嘗西應命，以不能罷歸，願更推選。」國人固推弘，弘至太常。太常令所徵儒士各對策，百餘人，弘第居下。策奏，天子擢弘對為第一。召入見，狀貌甚麗，拜為博士。是時通西南夷道，置郡，巴蜀民苦之，詔使弘視之。還奏事，盛毀西南夷無所用，上不聽。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r077-c00",
+          "quote": "130",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r077-c01",
+          "quote": "五",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r073-c01",
+          "quote": "元光元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元光",
+        "year_source_term": "五年",
+        "era_anchor_cell_id": "shiji-022-t1-r073-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r077-c01",
+        "digital_year_cell_id": "shiji-022-t1-r077-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元光五年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-004",
+      "attestation_id": "th-shiji112-004:a001",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_attestation",
+      "title": "博士",
+      "usage": "narrative"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 127,
+        "year": -126
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 126,
+        "year": -125
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p005",
+          "quote": "元朔三年，張歐免，以弘為御史大夫。是時通西南夷，東置滄海，北筑朔方之郡。弘數諫，以為罷敝中國以奉無用之地，願罷之。於是天子乃使朱買臣等難弘置朔方之便。發十策，弘不得一。弘乃謝曰：「山東鄙人，不知其便若是，願罷西南夷、滄海而專奉朔方。」上乃許之。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r081-c00",
+          "quote": "126",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r081-c01",
+          "quote": "三",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "quote": "元朔元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元朔",
+        "year_source_term": "三年",
+        "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r081-c01",
+        "digital_year_cell_id": "shiji-022-t1-r081-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元朔三年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-007",
+      "attestation_id": "th-shiji112-007:a001",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_attestation",
+      "title": "御史大夫",
+      "usage": "narrative"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 122,
+        "year": -121
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 121,
+        "year": -120
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p009",
+          "quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c00",
+          "quote": "121",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r086-c01",
+          "quote": "二",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r085-c01",
+          "quote": "元狩元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元狩",
+        "year_source_term": "二年",
+        "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+        "digital_year_cell_id": "shiji-022-t1-r086-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-014",
+      "attestation_id": "th-shiji112-014:a001",
+      "person_id": "q69_35n_f3h",
+      "date_role": "title_attestation",
+      "title": "丞相",
+      "usage": "narrative"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 141,
+        "year": -140
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 140,
+        "year": -139
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p002",
+          "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+          "person_mention_id": "c-shiji-112-pingjin:m002-0021"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c00",
+          "quote": "140",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r067-c01",
+          "quote": "孝武建元元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "建元",
+        "year_source_term": "元年",
+        "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+        "digital_year_cell_id": "shiji-022-t1-r067-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "age-shiji112-002",
+      "person_id": "q69_35n_f3h",
+      "date_role": "age_attestation"
     }
   ],
   "age_assertions": [
@@ -2124,34 +4807,81 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
-      "normalized_date": {
-        "era": "BCE",
-        "era_year": 140,
-        "year": -139,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 141,
+          "year": -140
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 140,
+          "year": -139
+        },
         "year_numbering": "astronomical",
-        "precision": "year",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
         "status": "editorial_provisional",
         "original_quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
         "evidence": [
           {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-112",
             "chapter_id": "c-shiji-112-pingjin",
             "source_id": "s-shiji112-pingjin",
             "paragraph_id": "c-shiji-112-pingjin:p002",
-            "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。"
+            "quote": "建元元年，天子初即位，招賢良文學之士。是時弘年六十，徵以賢良為博士。使匈奴，還報，不合上意，上怒，以為不能，弘乃病免歸。",
+            "person_mention_id": "c-shiji-112-pingjin:m002-0021"
           }
         ],
         "references": [
           {
-            "title": "《資治通鑑》數位編輯年標",
-            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷017",
-            "quote": "建元元年（辛丑，公元前一四零年）",
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          },
+          {
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r067-c00",
+            "quote": "140",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
             "scope": "digital_editorial_regnal_year_equivalence_only",
+            "title": "《史記·漢興以來將相名臣年表》",
+            "image_verified": false
+          },
+          {
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r067-c01",
+            "quote": "孝武建元元年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "scope": "received_regnal_year_attestation",
+            "title": "《史記·漢興以來將相名臣年表》",
             "image_verified": false
           }
         ],
-        "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+        "regnal_year_table": {
+          "kind": "table_year_row",
+          "table_id": "shiji-022",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_name": "建元",
+          "year_source_term": "元年",
+          "era_anchor_cell_id": "shiji-022-t1-r067-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r067-c01",
+          "digital_year_cell_id": "shiji-022-t1-r067-c00",
+          "calendar_rule": "han_tenth_month_before_taichu"
+        },
+        "rationale": "本筆原文明示建元元年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
         "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false
+        "human_reviewed": false,
+        "model": null
       }
     }
   ],
@@ -2171,15 +4901,23 @@
           "person_mention_id": "c-shiji-112-pingjin:m009-0005"
         }
       ],
-      "interpretation_note": "竟以丞相終記公孫弘死亡；不自動終止所有官爵，也不補死亡地點。",
+      "interpretation_note": "竟以丞相終記公孫弘死亡；不自動終止所有官爵，也不補死亡地點。 原紀年不等於唯一西元年，按十月歲首保留相鄰年範圍。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
-      "normalized_date": {
-        "era": "BCE",
-        "era_year": 121,
-        "year": -120,
+      "normalized_date_range": {
+        "earliest": {
+          "era": "BCE",
+          "era_year": 122,
+          "year": -121
+        },
+        "latest": {
+          "era": "BCE",
+          "era_year": 121,
+          "year": -120
+        },
         "year_numbering": "astronomical",
-        "precision": "year",
+        "precision": "year_range",
+        "basis": "regnal_year_crosses_ce_year",
         "status": "editorial_provisional",
         "original_quote": "元狩二年，弘病，竟以丞相終。子度嗣為平津侯。度為山陽太守十餘歲，坐法失侯。",
         "evidence": [
@@ -2193,16 +4931,61 @@
         ],
         "references": [
           {
-            "title": "《資治通鑑》數位編輯年標",
-            "url": "https://zh.wikisource.org/wiki/資治通鑑/卷019",
-            "quote": "元狩二年（庚申，公元前一二一年）",
+            "title": "《史記曆書》索隱·太初改歲首",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+            "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+            "scope": "received_calendar_rule",
+            "text_layer": "suoyin_commentary",
+            "revision_id": 2514838,
+            "image_verified": false
+          },
+          {
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r086-c00",
+            "quote": "121",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
             "scope": "digital_editorial_regnal_year_equivalence_only",
+            "title": "《史記·漢興以來將相名臣年表》",
+            "image_verified": false
+          },
+          {
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r086-c01",
+            "quote": "二",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "scope": "received_regnal_year_attestation",
+            "title": "《史記·漢興以來將相名臣年表》",
+            "image_verified": false
+          },
+          {
+            "table_id": "shiji-022",
+            "table_cell_id": "shiji-022-t1-r085-c01",
+            "quote": "元狩元年",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+            "scope": "received_regnal_year_attestation",
+            "title": "《史記·漢興以來將相名臣年表》",
             "image_verified": false
           }
         ],
-        "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+        "regnal_year_table": {
+          "kind": "table_year_row",
+          "table_id": "shiji-022",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_name": "元狩",
+          "year_source_term": "二年",
+          "era_anchor_cell_id": "shiji-022-t1-r085-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r086-c01",
+          "digital_year_cell_id": "shiji-022-t1-r086-c00",
+          "calendar_rule": "han_tenth_month_before_taichu"
+        },
+        "rationale": "本筆原文明示元狩二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
         "reviewer": "Codex（AI 代理）",
-        "human_reviewed": false
+        "human_reviewed": false,
+        "model": null
       }
     }
   ],

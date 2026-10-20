@@ -18,4 +18,12 @@ class HanshuWu(unittest.TestCase):
  def test_name_is_attested_without_supplying_surname(self):
   n=next(n for n in read('data/corpus/profile-names.json')['records']if n['person_id']=='yqp_nlb_p1p_CAE');self.assertEqual((n['title'],n['surname'],n['ming']),('吳王太子',None,'駒'));self.assertEqual(n['quote'],'吳王太子駒亡走閩越。');self.assertEqual(n['chapter_id'],'c-hanshu-035-jingyanwu');self.assertIn('子駒',n['additional_names'])
  def test_work_catalog_tracks_all_imported_hanshu_books(self):
-  c=read('data/corpus/hanshu/index.json');books={x['number']:x for x in c['chapters']};expected={int(json.loads(p.read_text())['book_id'].rsplit('-',1)[1])for p in (ROOT/'corpus/hanshu').glob('[0-9][0-9][0-9].json')};self.assertEqual(set(books),expected);self.assertEqual(books[35]['text_scope'],'partial_chapter');self.assertEqual(books[35]['paragraph_count'],8)
+  from scripts.table_evidence import load_tables
+  c=read('data/corpus/hanshu/index.json');books={x['number']:x for x in c['chapters']}
+  body_books={int(json.loads(p.read_text())['book_id'].rsplit('-',1)[1])for p in (ROOT/'corpus/hanshu').glob('[0-9][0-9][0-9].json')}
+  native=[t for t in load_tables(ROOT).values()if t['source']['work_id']=='w-hanshu']
+  table_books={int(t['source']['book_id'].rsplit('-',1)[1])for t in native}
+  self.assertEqual(set(books),body_books|table_books);self.assertEqual(books[35]['text_scope'],'partial_chapter');self.assertEqual(books[35]['paragraph_count'],8)
+  for table in native:
+   entry=next(e for e in c['chapters']if e.get('table_id')==table['id'])
+   self.assertEqual(entry['available'],'table');self.assertEqual(entry['book_id'],table['source']['book_id']);self.assertEqual(entry['chapter_id'],table['source']['chapter_id']);self.assertEqual(entry['text_scope'],table['source']['text_scope']);self.assertNotIn('path',entry)

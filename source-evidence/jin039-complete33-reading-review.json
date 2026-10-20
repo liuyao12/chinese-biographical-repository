@@ -1,0 +1,1366 @@
+{
+  "record_type": "source_reading_review",
+  "fixed_revision": 2108782,
+  "raw_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
+  "typed": {
+    "cases": [
+      {
+        "case_number": 1,
+        "kind": "paternal_ancestry",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 11,
+              "start": 14,
+              "end": 32,
+              "surface": "祖柔，漢匈奴中郎將。父機，魏東郡太守",
+              "raw_segments": [
+                {
+                  "start": 16,
+                  "end": 34,
+                  "surface": "祖柔，漢匈奴中郎將。父機，魏東郡太守"
+                }
+              ],
+              "raw_line_sha256": "a3d321e56b2f297ea7338f746cfbf845dada93e609798b0933f3a0e4b3dd4fbb",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "王沈，字處道，太原晉陽人也。祖柔，漢匈奴中郎將。父機，魏東郡太守。沈少孤，養于從叔司空昶，事昶如父。奉繼母寡嫂以孝義稱。好書，善屬文。大將軍曹爽辟為掾，累遷中書門下侍郎。及爽誅，以故吏免。後起為治書侍御史，轉秘書監。正元中，遷散騎常侍、侍中，典著作。與荀顗、阮籍共撰《魏書》，多為時諱，未若陳壽之實錄也。"
+          }
+        ],
+        "judgment": "祖與父各原詞，不能把養育從叔昶替換父機。",
+        "proposed_structure": {
+          "subject": "王沈",
+          "father_source_name": "機",
+          "grandfather_source_name": "柔",
+          "shared_ancestor_with_wangchang": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 2,
+        "kind": "collateral_upbringing",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 11,
+              "start": 37,
+              "end": 49,
+              "surface": "養于從叔司空昶，事昶如父",
+              "raw_segments": [
+                {
+                  "start": 39,
+                  "end": 51,
+                  "surface": "養于從叔司空昶，事昶如父"
+                }
+              ],
+              "raw_line_sha256": "a3d321e56b2f297ea7338f746cfbf845dada93e609798b0933f3a0e4b3dd4fbb",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "王沈，字處道，太原晉陽人也。祖柔，漢匈奴中郎將。父機，魏東郡太守。沈少孤，養于從叔司空昶，事昶如父。奉繼母寡嫂以孝義稱。好書，善屬文。大將軍曹爽辟為掾，累遷中書門下侍郎。及爽誅，以故吏免。後起為治書侍御史，轉秘書監。正元中，遷散騎常侍、侍中，典著作。與荀顗、阮籍共撰《魏書》，多為時諱，未若陳壽之實錄也。"
+          }
+        ],
+        "judgment": "從叔、養育、如父分別記；如父不是父、不是明言法定收養。",
+        "proposed_structure": {
+          "subject": "王沈",
+          "agnatic_senior_relative_candidate": "a8f_ec8_e74_A",
+          "precise_shared_ancestor": null,
+          "father_asserted": false,
+          "legal_adoption_asserted": false
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 3,
+        "kind": "unnamed_female_roles",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 11,
+              "start": 50,
+              "end": 59,
+              "surface": "奉繼母寡嫂以孝義稱",
+              "raw_segments": [
+                {
+                  "start": 52,
+                  "end": 61,
+                  "surface": "奉繼母寡嫂以孝義稱"
+                }
+              ],
+              "raw_line_sha256": "a3d321e56b2f297ea7338f746cfbf845dada93e609798b0933f3a0e4b3dd4fbb",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "王沈，字處道，太原晉陽人也。祖柔，漢匈奴中郎將。父機，魏東郡太守。沈少孤，養于從叔司空昶，事昶如父。奉繼母寡嫂以孝義稱。好書，善屬文。大將軍曹爽辟為掾，累遷中書門下侍郎。及爽誅，以故吏免。後起為治書侍御史，轉秘書監。正元中，遷散騎常侍、侍中，典著作。與荀顗、阮籍共撰《魏書》，多為時諱，未若陳壽之實錄也。"
+          }
+        ],
+        "judgment": "繼母與寡嫂是兩角色，不填生母/共同母父或嫂夫姓名。",
+        "proposed_structure": {
+          "roles": [
+            "stepmother",
+            "widowed_older_brother_wife"
+          ],
+          "named_person_ids": [],
+          "biological_mother": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 4,
+        "kind": "father_and_succession_separate",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 23,
+              "start": 320,
+              "end": 323,
+              "surface": "子浚嗣",
+              "raw_segments": [
+                {
+                  "start": 329,
+                  "end": 332,
+                  "surface": "子浚嗣"
+                }
+              ],
+              "raw_line_sha256": "d5fe56476b9ae02f6b7de0bbfe87b6b59ad3a924e1e44ac4980c9b5a314965d6",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及帝受禪，以佐命之勳，轉驃騎將軍、錄尚書事，加散騎常侍，統城外諸軍事。封博陵郡公，固讓不受，乃進爵為縣公，邑千八百戶。帝方欲委以萬機，泰始二年薨。帝素服舉哀，賜秘器朝服一具、衣一襲、錢三十萬、布百匹、葬田一頃，諡曰元。明年，帝追思沈勳，詔曰：「夫表揚往行，所以崇賢垂訓，慎終紀遠，厚德興教也。故散騎常侍、驃騎將軍、博陵元公沈蹈禮居正，執心清粹，經綸墳典，才識通洽。入歷常伯納言之位，出幹監牧方岳之任，內著謀猷，外宣威略。建國設官，首登公輔，兼統中朝，出納大命，實有翼亮佐世之勳。其贈沈司空公，以寵靈既往，使沒而不朽。又前以翼贊之勳，當受郡公之封，而固辭懇至，嘉其讓德，不奪其志。可以郡公官屬送葬。沈素清儉，不營產業。其使所領兵作屋五十間。」子浚嗣。後沈夫人荀氏卒，將合葬，沈棺櫬已毀，更賜東園秘器。咸寧中，復追封沈為郡公。"
+          },
+          {
+            "anchor": {
+              "source_line": 26,
+              "start": 5,
+              "end": 32,
+              "surface": "母趙氏婦，良家女也，貧賤，出入沈家，遂生浚，沈初不齒之",
+              "raw_segments": [
+                {
+                  "start": 7,
+                  "end": 34,
+                  "surface": "母趙氏婦，良家女也，貧賤，出入沈家，遂生浚，沈初不齒之"
+                }
+              ],
+              "raw_line_sha256": "1a25dc2dc05f0a79bfb71102bfe54a0cd30895462716fe659379ca3930940827",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚字彭祖。母趙氏婦，良家女也，貧賤，出入沈家，遂生浚，沈初不齒之。年十五，沈薨，無子，親戚共立浚為嗣，拜駙馬都尉。太康初，與諸王侯俱就國。三年來朝，除員外散騎侍郎。元康初，轉員外常侍，遷越騎校尉、右軍將軍。出補河內太守，以郡公不得為二千石，轉東中郎將，鎮許昌。"
+          },
+          {
+            "anchor": {
+              "source_line": 26,
+              "start": 37,
+              "end": 50,
+              "surface": "沈薨，無子，親戚共立浚為嗣",
+              "raw_segments": [
+                {
+                  "start": 39,
+                  "end": 52,
+                  "surface": "沈薨，無子，親戚共立浚為嗣"
+                }
+              ],
+              "raw_line_sha256": "1a25dc2dc05f0a79bfb71102bfe54a0cd30895462716fe659379ca3930940827",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚字彭祖。母趙氏婦，良家女也，貧賤，出入沈家，遂生浚，沈初不齒之。年十五，沈薨，無子，親戚共立浚為嗣，拜駙馬都尉。太康初，與諸王侯俱就國。三年來朝，除員外散騎侍郎。元康初，轉員外常侍，遷越騎校尉、右軍將軍。出補河內太守，以郡公不得為二千石，轉東中郎將，鎮許昌。"
+          },
+          {
+            "anchor": {
+              "source_line": 42,
+              "start": 0,
+              "end": 6,
+              "surface": "浚以父字處道",
+              "raw_segments": [
+                {
+                  "start": 2,
+                  "end": 8,
+                  "surface": "浚以父字處道"
+                }
+              ],
+              "raw_line_sha256": "e4a44e962f3312feef5c0e3ff6b579950cf355a5cc6ebc3e86c2d6a102e7f5b3",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。"
+          }
+        ],
+        "judgment": "父字處道與11沈字處道可作父角色明文橋，並有23子浚；生母有遂生浚。立嗣與生父判斷分開，無子/不齒留原敘述，不能只用嗣證父或另造未名生父。",
+        "proposed_structure": {
+          "child_existing_id": "9c1_ff0_1b5",
+          "father_source_identity": "王沈（字處道）",
+          "father_id": null,
+          "mother_source_identity": "趙氏婦",
+          "mother_birth_basis": "遂生浚",
+          "ritual_succession": "親戚共立浚為嗣",
+          "contradictory_or_qualified_words": [
+            "沈初不齒之",
+            "沈薨，無子"
+          ],
+          "birth_year": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 5,
+        "kind": "wife_not_mother",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 23,
+              "start": 324,
+              "end": 335,
+              "surface": "後沈夫人荀氏卒，將合葬",
+              "raw_segments": [
+                {
+                  "start": 333,
+                  "end": 344,
+                  "surface": "後沈夫人荀氏卒，將合葬"
+                }
+              ],
+              "raw_line_sha256": "d5fe56476b9ae02f6b7de0bbfe87b6b59ad3a924e1e44ac4980c9b5a314965d6",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及帝受禪，以佐命之勳，轉驃騎將軍、錄尚書事，加散騎常侍，統城外諸軍事。封博陵郡公，固讓不受，乃進爵為縣公，邑千八百戶。帝方欲委以萬機，泰始二年薨。帝素服舉哀，賜秘器朝服一具、衣一襲、錢三十萬、布百匹、葬田一頃，諡曰元。明年，帝追思沈勳，詔曰：「夫表揚往行，所以崇賢垂訓，慎終紀遠，厚德興教也。故散騎常侍、驃騎將軍、博陵元公沈蹈禮居正，執心清粹，經綸墳典，才識通洽。入歷常伯納言之位，出幹監牧方岳之任，內著謀猷，外宣威略。建國設官，首登公輔，兼統中朝，出納大命，實有翼亮佐世之勳。其贈沈司空公，以寵靈既往，使沒而不朽。又前以翼贊之勳，當受郡公之封，而固辭懇至，嘉其讓德，不奪其志。可以郡公官屬送葬。沈素清儉，不營產業。其使所領兵作屋五十間。」子浚嗣。後沈夫人荀氏卒，將合葬，沈棺櫬已毀，更賜東園秘器。咸寧中，復追封沈為郡公。"
+          }
+        ],
+        "judgment": "荀氏是沈夫人，未說浚母；不要以合葬/沈家補親子。",
+        "proposed_structure": {
+          "husband": "王沈",
+          "wife_source_name": "荀氏",
+          "mother_of_wangjun": null,
+          "paternal_connection_to_xunyi": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 6,
+        "kind": "two_daughters_marriages",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 28,
+              "start": 79,
+              "end": 96,
+              "surface": "以女妻鮮卑務勿塵，又以一女妻蘇恕延",
+              "raw_segments": [
+                {
+                  "start": 81,
+                  "end": 98,
+                  "surface": "以女妻鮮卑務勿塵，又以一女妻蘇恕延"
+                }
+              ],
+              "raw_line_sha256": "715af247f8cb2468181e0e80fdff1bb476c0ce383b570bc3cbe91ba66573da8f",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及愍懷太子幽于許昌，浚承賈后旨，與黃門孫慮共害太子。遷寧北將軍、青州刺史。尋徙寧朔將軍、持節、都督幽州諸軍事。于時朝廷昏亂，盜賊蜂起，浚為自安之計，結好夷狄，以女妻鮮卑務勿塵，又以一女妻蘇恕延。"
+          }
+        ],
+        "judgment": "又一女支持兩不同女，不設排行；棗嵩妻是否其中之一待考。",
+        "proposed_structure": {
+          "father_existing_id": "9c1_ff0_1b5",
+          "first_unnamed_daughter_spouse": "務勿塵",
+          "another_unnamed_daughter_spouse": "蘇恕延",
+          "absolute_order": null,
+          "relation_to_zaosong_wife": "unresolved"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 7,
+        "kind": "son_and_collateral_siblings",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 34,
+              "start": 111,
+              "end": 129,
+              "surface": "務勿塵世子疾陸眷，並弟文鴦、從弟末柸",
+              "raw_segments": [
+                {
+                  "start": 113,
+                  "end": 131,
+                  "surface": "務勿塵世子疾陸眷，並弟文鴦、從弟末柸"
+                }
+              ],
+              "raw_line_sha256": "4bbe8bbb304a5fdb63c1f30c923225070fbffa614df6438e6aa8a61b35fe0e66",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "永嘉中，石勒寇冀州，浚遣鮮卑文鴦討勒，勒走南陽。明年，勒復寇冀州，刺史王斌為勒所害，浚又領冀州。詔進浚為大司馬，加侍中、大都督、督幽冀諸軍事。使者未及發，會洛京傾覆，浚大樹威令，專征伐，遣督護王昌、中山太守阮豹等，率諸軍及務勿塵世子疾陸眷，並弟文鴦、從弟末柸，攻石勒于襄國，勒率眾來距，昌逆擊敗之。末柸逐北入其壘門，為勒所獲。勒質末柸，遣間使來和，疾陸眷遂以鎧馬二百五十匹、金銀各一簏贖末柸，結盟而退。"
+          }
+        ],
+        "judgment": "世子明疾陸眷；弟與從弟首選承疾陸眷，不直接推文鴦同父，從弟共同祖先未知。",
+        "proposed_structure": {
+          "father_of_jilvjuan": "務勿塵",
+          "wenyang_relation": "younger_brother_of_jilvjuan_candidate",
+          "mobei_relation": "younger_agnatic_cousin_of_jilvjuan_candidate",
+          "wenyang_biological_father": null,
+          "wei_wenqin_son_wenyang_same_person": false
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 8,
+        "kind": "father_son",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 38,
+              "start": 126,
+              "end": 137,
+              "surface": "單于猗盧子右賢王日律孫",
+              "raw_segments": [
+                {
+                  "start": 128,
+                  "end": 139,
+                  "surface": "單于猗盧子右賢王日律孫"
+                }
+              ],
+              "raw_line_sha256": "b2fd9a7c4f4a1f0f5e8e27f1c9ba67154ea5f08cba89dda6cc707ef0e4dda827",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚還，欲討勒，使棗嵩督諸軍屯易水，召疾陸眷，將與之俱攻襄國。浚為政苛暴，將吏又貪殘，並廣占山澤，引水灌田，漬陷塚墓，調發殷煩，下不堪命，多叛入鮮卑。從事韓咸切諫，浚怒，殺之。疾陸眷自以前後違命，恐浚誅之。勒亦遣使厚賂，疾陸眷等由是不應召。浚怒，以重幣誘單于猗盧子右賢王日律孫，令攻疾陸眷，反為所破。"
+          }
+        ],
+        "judgment": "猗盧子為明父子；右賢王歸日律孫，單于歸猗盧。",
+        "proposed_structure": {
+          "father_source_name": "猗盧",
+          "child_source_name": "日律孫",
+          "source_title_attribution": {
+            "單于": "猗盧",
+            "右賢王": "日律孫"
+          }
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 9,
+        "kind": "clan_person",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 36,
+              "start": 96,
+              "end": 102,
+              "surface": "琨使宗人劉希",
+              "raw_segments": [
+                {
+                  "start": 98,
+                  "end": 104,
+                  "surface": "琨使宗人劉希"
+                }
+              ],
+              "raw_line_sha256": "3f6ac37836f5b113e82c392ab826003056a5efbf447785f895771c68f261f07b",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "其後浚佈告天下，稱受中詔承制，乃以司空荀藩為太尉，光祿大夫荀組為司隸，大司農華薈為太常，中書令李絙為河南尹。又遣祁弘討勒，及于廣宗。時大霧，弘引軍就道，卒與勒遇，為勒所殺。由是劉琨與浚爭冀州。琨使宗人劉希還中山合眾，代郡、上谷、廣寧三郡人皆歸於琨。浚患之，遂輟討勒之師，而與琨相距。浚遣燕相胡矩督護諸軍，與疾陸眷並力攻破希。驅略三郡士女出塞，琨不復能爭。"
+          }
+        ],
+        "judgment": "宗人只明同宗，不變親兄弟/父子。",
+        "proposed_structure": {
+          "person_a": "劉琨",
+          "person_b": "劉希",
+          "source_relation": "宗人",
+          "exact_degree": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 10,
+        "kind": "wife_brother",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 40,
+              "start": 79,
+              "end": 89,
+              "surface": "以妻舅崔毖為東夷校尉",
+              "raw_segments": [
+                {
+                  "start": 81,
+                  "end": 91,
+                  "surface": "以妻舅崔毖為東夷校尉"
+                }
+              ],
+              "raw_line_sha256": "06ce8dd09843fe18251e6ecf00e16410495e918465b1b8bc5f3a93449a48a977",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "時劉琨大為劉聰所迫，諸避亂遊士多歸於浚。浚日以強盛，乃設壇告類，建立皇太子，備置眾官。浚自領尚書令，以棗嵩、裴憲並為尚書，使其子居王宮，持節，領護匈奴中郎將，以妻舅崔毖為東夷校尉。又使嵩監司冀并兗諸軍事、行安北將軍，以田徽為兗州，李惲為青州。惲為石勒所殺，以薄盛代之。"
+          }
+        ],
+        "judgment": "妻舅以王浚敘主語為準，非母舅；妻名與長幼未明。",
+        "proposed_structure": {
+          "subject": "王浚",
+          "wife_brother_source_name": "崔毖",
+          "wife_person_id": null,
+          "relative_birth_order": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 11,
+        "kind": "son_in_law",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 42,
+              "start": 110,
+              "end": 118,
+              "surface": "棗嵩，浚之子婿也",
+              "raw_segments": [
+                {
+                  "start": 112,
+                  "end": 120,
+                  "surface": "棗嵩，浚之子婿也"
+                }
+              ],
+              "raw_line_sha256": "e4a44e962f3312feef5c0e3ff6b579950cf355a5cc6ebc3e86c2d6a102e7f5b3",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。"
+          }
+        ],
+        "judgment": "子婿為女婿，非兒子；不要自動新設第三女或合先二女。",
+        "proposed_structure": {
+          "father_in_law": "王浚",
+          "son_in_law": "棗嵩",
+          "connecting_daughter_person_id": null,
+          "daughters_identity_unresolved": true
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 12,
+        "kind": "ambiguous_nephew",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 42,
+              "start": 46,
+              "end": 61,
+              "surface": "前渤海太守劉亮、從子北海太守搏",
+              "raw_segments": [
+                {
+                  "start": 48,
+                  "end": 63,
+                  "surface": "前渤海太守劉亮、從子北海太守搏"
+                }
+              ],
+              "raw_line_sha256": "e4a44e962f3312feef5c0e3ff6b579950cf355a5cc6ebc3e86c2d6a102e7f5b3",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。"
+          }
+        ],
+        "judgment": "王浚敘主語優先，鄰接劉亮亦保候選；不補搏之姓、父或共同祖先。",
+        "proposed_structure": {
+          "nephew_source_name": "搏",
+          "reference_candidates": [
+            "王浚",
+            "劉亮"
+          ],
+          "preferred_by_biography_topic": "王浚",
+          "adopted": false,
+          "surname": null,
+          "father": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 13,
+        "kind": "child_reference_conflict",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 40,
+              "start": 61,
+              "end": 67,
+              "surface": "使其子居王宮",
+              "raw_segments": [
+                {
+                  "start": 63,
+                  "end": 69,
+                  "surface": "使其子居王宮"
+                }
+              ],
+              "raw_line_sha256": "06ce8dd09843fe18251e6ecf00e16410495e918465b1b8bc5f3a93449a48a977",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "時劉琨大為劉聰所迫，諸避亂遊士多歸於浚。浚日以強盛，乃設壇告類，建立皇太子，備置眾官。浚自領尚書令，以棗嵩、裴憲並為尚書，使其子居王宮，持節，領護匈奴中郎將，以妻舅崔毖為東夷校尉。又使嵩監司冀并兗諸軍事、行安北將軍，以田徽為兗州，李惲為青州。惲為石勒所殺，以薄盛代之。"
+          },
+          {
+            "anchor": {
+              "source_line": 46,
+              "start": 240,
+              "end": 242,
+              "surface": "無子",
+              "raw_segments": [
+                {
+                  "start": 242,
+                  "end": 244,
+                  "surface": "無子"
+                }
+              ],
+              "raw_line_sha256": "39aabe31ac7a04f829e3bd54019a58cd7b44058311b90acfac0e4f83d8e8e019",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "勒屯兵易水，督護孫緯疑其詐，馳白浚，而引軍逆勒。浚不聽，使勒直前。眾議皆曰：「胡貪而無信，必有詐，請距之。」浚怒，欲斬諸言者，眾遂不敢復諫。盛張設以待勒。勒至城，便縱兵大掠。浚左右復請討之，不許。及勒登聽事，浚乃走出堂皇，勒眾執以見勒。勒遂與浚妻並坐，立浚於前。浚罵曰：「胡奴調汝公，何凶逆如此！」勒數浚不忠於晉，並責以百姓餒乏，積粟五十萬斛而不振給。遂遣五百騎先送浚于襄國，收浚麾下精兵萬人，盡殺之。停二日而還，孫緯遮擊之，勒僅而得免。勒至襄國，斬浚，而浚竟不為之屈，大罵而死。無子。"
+          }
+        ],
+        "judgment": "其子的所有者與傳尾無子張力保持；不創姓名/中介父或以早亡說解消。",
+        "proposed_structure": {
+          "possessor_candidates": [
+            "王浚",
+            "棗嵩",
+            "裴憲"
+          ],
+          "preferred": null,
+          "child_id": null,
+          "hypothesized_early_death": null
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 14,
+        "kind": "tribal_name_segmentation",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 32,
+              "start": 107,
+              "end": 129,
+              "surface": "其別部大飄滑及其弟渴末別部大屠甕等皆為親晉王",
+              "raw_segments": [
+                {
+                  "start": 109,
+                  "end": 131,
+                  "surface": "其別部大飄滑及其弟渴末別部大屠甕等皆為親晉王"
+                }
+              ],
+              "raw_line_sha256": "8ac950be0df461bd29a2dfbd2042d8d3b131f1d2b190aa2d7a4eb789caa611c8",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚還薊，聲實益盛。東海王越將迎大駕，浚遣祁弘率烏丸突騎為先驅。惠帝旋洛陽，轉浚驃騎大將軍、都督東夷河北諸軍事，領幽州刺史，以燕國增博陵之封。懷帝即位，以浚為司空，領烏丸校尉，務勿塵為大單于。浚又表封務勿塵遼西郡公，其別部大飄滑及其弟渴末別部大屠甕等皆為親晉王。"
+          }
+        ],
+        "judgment": "保留未加標點的完整原句；姓名界與其弟所指未核。",
+        "proposed_structure": {
+          "possible_names": [
+            "大飄滑",
+            "渴末",
+            "大屠甕"
+          ],
+          "alternative_segmentation_preserved": true,
+          "brother_relation_reference": null,
+          "new_person_ids": []
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 15,
+        "kind": "ritual_continuation_with_explicit_child",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 48,
+              "start": 11,
+              "end": 28,
+              "surface": "封沈從孫道素為博陵公。卒，子崇之嗣",
+              "raw_segments": [
+                {
+                  "start": 20,
+                  "end": 37,
+                  "surface": "封沈從孫道素為博陵公。卒，子崇之嗣"
+                }
+              ],
+              "raw_line_sha256": "1aa33f7e4931c8b9782df158fa9a7aee12eaacda4a5938d20c45933e1d32370e",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "太元二年，詔興滅繼絕，封沈從孫道素為博陵公。卒，子崇之嗣。義熙十一年，改封東莞郡公。宋受禪，國除。"
+          }
+        ],
+        "judgment": "從孫未知精確祖鏈；崇之為道素子另有子原詞，不把國嗣全部當沈生子。",
+        "proposed_structure": {
+          "ancestor_relative": "王沈",
+          "collateral_grandchild": "道素",
+          "precise_intermediary": null,
+          "father_of_chongzhi": "道素",
+          "succession": "崇之嗣"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 16,
+        "kind": "feng_family",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 137,
+              "start": 12,
+              "end": 28,
+              "surface": "祖浮，魏司隸校尉。父員，汲郡太守",
+              "raw_segments": [
+                {
+                  "start": 14,
+                  "end": 30,
+                  "surface": "祖浮，魏司隸校尉。父員，汲郡太守"
+                }
+              ],
+              "raw_line_sha256": "f092f6d9f3cd947e9a9237adbeb09e47cab45dfdc2da1b94c6d55651dc474713",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "馮紞，字少胄，安平人也。祖浮，魏司隸校尉。父員，汲郡太守。紞少博涉經史，識悟機辯。歷仕為魏郡太守，轉步兵校尉，徙越騎。得幸于武帝，稍遷左衛將軍。承顏悅色，寵愛日隆。賈充、荀勖並與之親善。充女之為皇太子妃也，紞有力焉。及妃之將廢，紞、勖幹沒救請，故得不廢。伐吳之役，紞領汝南太守，以郡兵隨王浚入秣陵。遷御史中丞，轉侍中。"
+          },
+          {
+            "anchor": {
+              "source_line": 143,
+              "start": 31,
+              "end": 60,
+              "surface": "二子：播、熊。播，大長秋。熊字文羆，中書郎。紞兄恢，自有傳",
+              "raw_segments": [
+                {
+                  "start": 40,
+                  "end": 69,
+                  "surface": "二子：播、熊。播，大長秋。熊字文羆，中書郎。紞兄恢，自有傳"
+                }
+              ],
+              "raw_line_sha256": "75d1c23ea94cdb611ea69073d99b57e0858c324c80b7025b6627567379988530",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "太康七年，紞疾，詔以紞為散騎常侍，賜錢二十萬、床帳一具。尋卒。二子：播、熊。播，大長秋。熊字文羆，中書郎。紞兄恢，自有傳。"
+          }
+        ],
+        "judgment": "祖/父/二子/兄分別原語；播熊列舉不是排行。兄恢不合馮懷或周恢。",
+        "proposed_structure": {
+          "subject_existing_id": "3b9_b07_bdb",
+          "father_source_name": "員",
+          "grandfather_source_name": "浮",
+          "sons_source_names": [
+            "播",
+            "熊"
+          ],
+          "older_brother_source_name": "恢",
+          "son_order": null,
+          "xiong_zi": "文羆"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 17,
+        "kind": "appraisal_generational_wording",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 294,
+              "end": 309,
+              "surface": "公曾，慈明之孫；景倩，文若之子",
+              "raw_segments": [
+                {
+                  "start": 296,
+                  "end": 311,
+                  "surface": "公曾，慈明之孫；景倩，文若之子"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          }
+        ],
+        "judgment": "景倩文若父子可沿已採原文；公曾慈明之孫與66爽曾孫並存，可能孫泛後裔，不按一代重接。",
+        "proposed_structure": {
+          "xunxu_existing_id": "yoo_ox0_545_FAAA",
+          "xunshuang_existing_id": "yoo_ox0_545_F",
+          "source_relation": "孫",
+          "parallel_line66": "漢司空爽曾孫也",
+          "preferred_exact_generation_change": null,
+          "xunyi_father_existing_id": "yoo_ox0_545_BA",
+          "new_relation_imported": false
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 18,
+        "kind": "wangjun_two_id_distinction",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 26,
+              "start": 0,
+              "end": 4,
+              "surface": "浚字彭祖",
+              "raw_segments": [
+                {
+                  "start": 2,
+                  "end": 6,
+                  "surface": "浚字彭祖"
+                }
+              ],
+              "raw_line_sha256": "1a25dc2dc05f0a79bfb71102bfe54a0cd30895462716fe659379ca3930940827",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚字彭祖。母趙氏婦，良家女也，貧賤，出入沈家，遂生浚，沈初不齒之。年十五，沈薨，無子，親戚共立浚為嗣，拜駙馬都尉。太康初，與諸王侯俱就國。三年來朝，除員外散騎侍郎。元康初，轉員外常侍，遷越騎校尉、右軍將軍。出補河內太守，以郡公不得為二千石，轉東中郎將，鎮許昌。"
+          },
+          {
+            "anchor": {
+              "source_line": 137,
+              "start": 139,
+              "end": 148,
+              "surface": "以郡兵隨王浚入秣陵",
+              "raw_segments": [
+                {
+                  "start": 141,
+                  "end": 150,
+                  "surface": "以郡兵隨王浚入秣陵"
+                }
+              ],
+              "raw_line_sha256": "f092f6d9f3cd947e9a9237adbeb09e47cab45dfdc2da1b94c6d55651dc474713",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "馮紞，字少胄，安平人也。祖浮，魏司隸校尉。父員，汲郡太守。紞少博涉經史，識悟機辯。歷仕為魏郡太守，轉步兵校尉，徙越騎。得幸于武帝，稍遷左衛將軍。承顏悅色，寵愛日隆。賈充、荀勖並與之親善。充女之為皇太子妃也，紞有力焉。及妃之將廢，紞、勖幹沒救請，故得不廢。伐吳之役，紞領汝南太守，以郡兵隨王浚入秣陵。遷御史中丞，轉侍中。"
+          }
+        ],
+        "judgment": "26–48王沈子幽州承制9c，137平吳入秣陵是王濬36c候選；同原浚字不合為一人、不改字。",
+        "proposed_structure": {
+          "attached_biography_existing_id": "9c1_ff0_1b5",
+          "wufelling_existing_id": "36c_6b6_4b3",
+          "source_glyph": "浚",
+          "other_native_source_glyph": "濬",
+          "image_verified": false
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 19,
+        "kind": "jia_identity_bridge_proposal",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 28,
+              "start": 10,
+              "end": 15,
+              "surface": "浚承賈后旨",
+              "raw_segments": [
+                {
+                  "start": 12,
+                  "end": 17,
+                  "surface": "浚承賈后旨"
+                }
+              ],
+              "raw_line_sha256": "715af247f8cb2468181e0e80fdff1bb476c0ce383b570bc3cbe91ba66573da8f",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及愍懷太子幽于許昌，浚承賈后旨，與黃門孫慮共害太子。遷寧北將軍、青州刺史。尋徙寧朔將軍、持節、都督幽州諸軍事。于時朝廷昏亂，盜賊蜂起，浚為自安之計，結好夷狄，以女妻鮮卑務勿塵，又以一女妻蘇恕延。"
+          },
+          {
+            "anchor": {
+              "source_line": 137,
+              "start": 93,
+              "end": 102,
+              "surface": "充女之為皇太子妃也",
+              "raw_segments": [
+                {
+                  "start": 95,
+                  "end": 104,
+                  "surface": "充女之為皇太子妃也"
+                }
+              ],
+              "raw_line_sha256": "f092f6d9f3cd947e9a9237adbeb09e47cab45dfdc2da1b94c6d55651dc474713",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "馮紞，字少胄，安平人也。祖浮，魏司隸校尉。父員，汲郡太守。紞少博涉經史，識悟機辯。歷仕為魏郡太守，轉步兵校尉，徙越騎。得幸于武帝，稍遷左衛將軍。承顏悅色，寵愛日隆。賈充、荀勖並與之親善。充女之為皇太子妃也，紞有力焉。及妃之將廢，紞、勖幹沒救請，故得不廢。伐吳之役，紞領汝南太守，以郡兵隨王浚入秣陵。遷御史中丞，轉侍中。"
+          }
+        ],
+        "judgment": "賈后4t0與25/27充女c27_A是重要同人候選，尚不合號；須由根加宋060與太子妃/皇后身份完整橋覆核。",
+        "proposed_structure": {
+          "existing_candidates": [
+            "c27_590_7e3_A"
+          ],
+          "merge_executed": false,
+          "birth_name_not_inserted": "賈南風未由此正文具名"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false,
+        "identity_retirement_resolution": {
+          "preferred_person_id": "c27_590_7e3_A",
+          "status": "ai_reviewed_identity_alignment",
+          "proof_id": "proof-jia-empress-ws2479706",
+          "human_reviewed": false
+        }
+      },
+      {
+        "case_number": 20,
+        "kind": "taizi_counterevidence",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 28,
+              "start": 0,
+              "end": 25,
+              "surface": "及愍懷太子幽于許昌，浚承賈后旨，與黃門孫慮共害太子",
+              "raw_segments": [
+                {
+                  "start": 2,
+                  "end": 27,
+                  "surface": "及愍懷太子幽于許昌，浚承賈后旨，與黃門孫慮共害太子"
+                }
+              ],
+              "raw_line_sha256": "715af247f8cb2468181e0e80fdff1bb476c0ce383b570bc3cbe91ba66573da8f",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及愍懷太子幽于許昌，浚承賈后旨，與黃門孫慮共害太子。遷寧北將軍、青州刺史。尋徙寧朔將軍、持節、都督幽州諸軍事。于時朝廷昏亂，盜賊蜂起，浚為自安之計，結好夷狄，以女妻鮮卑務勿塵，又以一女妻蘇恕延。"
+          }
+        ],
+        "judgment": "不要因太子同稱合既有孝懷太子130；065在中興元帝時始奉爲胡所害之諱，事件/凶手不同，姓名待另橋。",
+        "proposed_structure": {
+          "raw_reference": "愍懷太子",
+          "rejected_automatic_candidate": "130_832_6b9",
+          "new_person_id": null,
+          "birth_name_not_inserted": "未明載不填遹"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 21,
+        "kind": "appraisal_allusions",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 25,
+              "end": 29,
+              "surface": "有莘之媵",
+              "raw_segments": [
+                {
+                  "start": 27,
+                  "end": 31,
+                  "surface": "有莘之媵"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 38,
+              "end": 42,
+              "surface": "渭濱之叟",
+              "raw_segments": [
+                {
+                  "start": 40,
+                  "end": 44,
+                  "surface": "渭濱之叟"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 109,
+              "end": 120,
+              "surface": "田光之口，豈燕丹之可絕",
+              "raw_segments": [
+                {
+                  "start": 111,
+                  "end": 122,
+                  "surface": "田光之口，豈燕丹之可絕"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 355,
+              "end": 357,
+              "surface": "朱均",
+              "raw_segments": [
+                {
+                  "start": 357,
+                  "end": 359,
+                  "surface": "朱均"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 362,
+              "end": 364,
+              "surface": "褒閻",
+              "raw_segments": [
+                {
+                  "start": 364,
+                  "end": 366,
+                  "surface": "褒閻"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 435,
+              "end": 444,
+              "surface": "心滔楚費，過逾晉伍",
+              "raw_segments": [
+                {
+                  "start": 437,
+                  "end": 446,
+                  "surface": "心滔楚費，過逾晉伍"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 445,
+              "end": 449,
+              "surface": "爰絲獻壽",
+              "raw_segments": [
+                {
+                  "start": 447,
+                  "end": 451,
+                  "surface": "爰絲獻壽"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          }
+        ],
+        "judgment": "書名/用典/當事簡稱分開。田光首選刺客篇z0v而非秦漢齊將pew；朱均不可發單人，晉伍字面未核不改優/不配伍員。",
+        "proposed_structure": {
+          "allusion_candidates": {
+            "有莘之媵": [
+              "伊尹"
+            ],
+            "渭濱之叟": [
+              "呂尚"
+            ],
+            "西山之節": [
+              "伯夷",
+              "叔齊"
+            ],
+            "朱均": [
+              "丹朱",
+              "商均"
+            ],
+            "褒閻": [
+              "褒姒",
+              "閻氏（具體身份待橋）"
+            ],
+            "楚費": [
+              "費無忌候選"
+            ],
+            "晉伍": [],
+            "爰絲": [
+              "袁盎候選"
+            ]
+          },
+          "adopted_as_formal_names": false,
+          "tian_guang_preferred_candidate": "z0v_ish_b9u",
+          "tian_guang_countercandidate": "pew_ob7_n0k"
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      },
+      {
+        "case_number": 22,
+        "kind": "source_literal_quality",
+        "evidence": [
+          {
+            "anchor": {
+              "source_line": 30,
+              "start": 296,
+              "end": 304,
+              "surface": "以主溥祁弘為前鋒",
+              "raw_segments": [
+                {
+                  "start": 298,
+                  "end": 306,
+                  "surface": "以主溥祁弘為前鋒"
+                }
+              ],
+              "raw_line_sha256": "e1463e25dea3e7a1dc2bff483c8434808545bb72e5516b3f6a8d3068fa327b82",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "及趙王倫篡位，三王起義兵，浚擁眾挾兩端，遏絕檄書，使其境內士庶不得赴義，成都王穎欲討之而未暇也。倫誅，進號安北將軍。及河間王顒、成都王穎興兵內向，害長沙王乂，而浚有不平之心。穎表請幽州刺史石堪為右司馬，以右司馬和演代堪，密使演殺浚，並其眾。演與烏丸單于審登謀之，於是與浚期遊薊城南清泉水上。薊城內西行有二道，演浚各從一道。演與浚欲合鹵簿，因而圖之。值天暴雨，兵器沾濕，不果而還。單于由是與其種人謀曰：「演圖殺浚，事垂克而天卒雨，使不得果，是天助浚也。違天不祥，我不可久與演同。」乃以謀告浚。浚密嚴兵，與單于圍演。演持白幡詣浚降，遂斬之，自領幽州。大營器械，召務勿塵，率胡晉合二萬人，進軍討穎。以主溥祁弘為前鋒，遇穎將石超于平棘，擊敗之。浚乘勝遂克鄴城，士眾暴掠，死者甚多。鮮卑大略婦女，浚命敢有挾藏者斬，於是沉于易水者八千人。黔庶荼毒，自此始也。"
+          },
+          {
+            "anchor": {
+              "source_line": 42,
+              "start": 54,
+              "end": 61,
+              "surface": "從子北海太守搏",
+              "raw_segments": [
+                {
+                  "start": 56,
+                  "end": 63,
+                  "surface": "從子北海太守搏"
+                }
+              ],
+              "raw_line_sha256": "e4a44e962f3312feef5c0e3ff6b579950cf355a5cc6ebc3e86c2d6a102e7f5b3",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "浚以父字處道，為「當塗高」應王者之讖，謀將僭號。胡矩諫浚，盛陳其不可。浚忿之，出矩為魏郡守。前渤海太守劉亮、從子北海太守搏、司空掾高柔並切諫，浚怒，誅之。浚素不平長史燕國王悌，遂因他事殺之。時童謠曰：「十囊五囊入棗郎。」棗嵩，浚之子婿也。浚聞，責嵩而不能罪之也。又謠曰：「幽州城門似藏戶，中有伏屍王彭祖。」有狐踞府門，翟雉入聽事。時燕國霍原，北州名賢，浚以僭位事示之，原不答，浚遂害之。由是士人憤怨，內外無親。以矜豪日甚，不親為政，所任多苛刻；加亢旱災蝗，士卒衰弱。"
+          },
+          {
+            "anchor": {
+              "source_line": 146,
+              "start": 440,
+              "end": 444,
+              "surface": "過逾晉伍",
+              "raw_segments": [
+                {
+                  "start": 442,
+                  "end": 446,
+                  "surface": "過逾晉伍"
+                }
+              ],
+              "raw_line_sha256": "bedebb93f8b06e3f7ddec84b90aa1db2c5bccb4deda0b797d3e022b755f04836",
+              "offset_unit": "unicode_codepoint"
+            },
+            "full_context": "史臣曰：夫立身之道，曰仁與義。動靜既形，悔吝斯及。有莘之媵，殊《北門》之情；渭濱之叟，匪西山之節。湯武有以濟其功，夏殷不能譏其志。王沈才經文武，早屍人爵，在魏參席上之珍，居晉為幄中之士，桐宮之謀遽泄，武闈之禍遂臻。是知田光之口，豈燕丹之可絕；豫讓之形，非智氏之能變。動靜之際，有據蒺藜，仁義之方，求之彌遠矣。彭祖謁由捧雉，孕本貿絲，因家乏主，遂登顯秩。擁北州之士馬，偶東京之糜沸，自可感召諸侯，宣力王室。而乘間伺隙，潛圖不軌，放肆獯虜，遷播乘輿。遂使漳滏蕭然，黎元塗地。縱貪夫于藏戶，戮高士于燕垂，阻越石之內難，邀世龍之外府。惡稔毒痡，坐致焚燎，假手仇敵，方申凶獷，慶封之戮，慢罵何補哉！公曾，慈明之孫；景倩，文若之子，踐隆堂而高視，齊逸軌而長騖。孝敬足以承親，周慎足以事主，刊姬公之舊典，采蕭相之遺法。然而援朱均以貳極，煽褒閻而偶震。雖廢興有在，隆替靡常，稽之人事，乃二荀之力也。至於鬥粟興謠，逾裏成詠，勖之階禍，又已甚焉。馮紞外騁戚施，內窮狙詐，斃攸安賈，交勖仇張，心滔楚費，過逾晉伍。爰絲獻壽，空取慰於仁心，紞之陳說，幸收哀於迷慮，投畀之罰無聞，《青蠅》之詩不作矣。"
+          }
+        ],
+        "judgment": "主溥/搏/晉伍按固定原字；不得默改主簿/摶或博/晉優，待獨立見證/圖像後才談異文。",
+        "proposed_structure": {
+          "observed_source_forms": [
+            "主溥",
+            "搏",
+            "晉伍"
+          ],
+          "other_readings_verified": false,
+          "silent_corrections": false
+        },
+        "status": "reading_proposal_not_imported",
+        "human_reviewed": false,
+        "image_verified": false
+      }
+    ],
+    "not_imported": true,
+    "source33_note": "Source-only採入明言同段12關係；其餘完整保留提案，不改模型/ID/全庫pending。王沈父角色/字處道雙句、從叔/養育、道素從孫、妻舅/女婿、王浚其子/無子等未支援/未決不強塞。",
+    "native_assertion_ids": [
+      "a-jin039-complete33-001",
+      "a-jin039-complete33-002",
+      "a-jin039-complete33-003",
+      "a-jin039-complete33-004",
+      "a-jin039-complete33-005",
+      "a-jin039-complete33-006",
+      "a-jin039-complete33-007",
+      "a-jin039-complete33-008",
+      "a-jin039-complete33-009",
+      "a-jin039-complete33-010",
+      "a-jin039-complete33-011",
+      "a-jin039-complete33-012"
+    ]
+  },
+  "unresolved": [
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wang-full:l011:m0051",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "生母未明",
+      "source_line": 11
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wang-full:l011:m0053",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "嫂夫未名",
+      "source_line": 11
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wang-full:l015:m0220",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "兩主簿共同自稱",
+      "source_line": 15
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wang-full:l015:m0333",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "兩主簿共同自稱第二見",
+      "source_line": 15
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wang-full:l017:m0220",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "堯舜合稱用典，不建單人唐虞",
+      "source_line": 17
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l028:m0079",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "務勿塵妻未名",
+      "source_line": 28
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l028:m0088",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "蘇恕延妻另女未名",
+      "source_line": 28
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l030:m0007",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "三王起義群稱；不把同一個群體錨點複製給三個人物，冏/顒/穎候選待專核。",
+      "source_line": 30
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l032:m0110",
+      "person_key": "大飄滑",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 32
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l032:m0116",
+      "person_key": "渴末",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 32
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l032:m0120",
+      "person_key": "大屠甕",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 32
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l034:m0071",
+      "person_key": "未名使者",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 34
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0034",
+      "person_key": "未名皇太子",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 40
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l040:m0062",
+      "person_key": "其子指涉未決",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 40
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l046:m0033",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "幕下群體非個別具名",
+      "source_line": 46
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:wangjun-full:l046:m0121",
+      "person_key": "王浚妻未名",
+      "candidate_person_ids": [],
+      "reason": "完整單元具名；待較新固定registry及全文身份橋核對，不配置新ID。",
+      "source_line": 46
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0025",
+      "person_key": "伊尹",
+      "candidate_person_ids": [
+        "itn_zi2_il4",
+        "o7y_cll_jk1",
+        "3yj_8tp_4mp",
+        "b6q_m0p_k99",
+        "bsx_usd_ats",
+        "2lw_0ht_eid",
+        "08a_jo3_plo"
+      ],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0038",
+      "person_key": "呂尚",
+      "candidate_person_ids": [
+        "1g3_02y_oor",
+        "p35_n0a_mxs",
+        "u9a_n9v_y7z",
+        "o6i_h2h_p8x"
+      ],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0044",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0049",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0057",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "政權/君主合稱，不補桀紂",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0355",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0362",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0437",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0442",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l146:m0445",
+      "person_key": "袁盎",
+      "candidate_person_ids": [
+        "j32_wtj_khz_A",
+        "v2z_2j9_d5o"
+      ],
+      "reason": "史臣後評用典/字號/簡稱，候選獨立於當事人原句；不得由典故創新生父或授官。",
+      "source_line": 146
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l148:m0044",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "卷末贊稱號；臨淮承荀顗，安陽承荀勖，不能因同爵字泛合；齊魯屬評語用典未定。",
+      "source_line": 148
+    },
+    {
+      "mention_id": "c-jinshu-039-wangxun-feng:appraisal:l148:m0046",
+      "person_key": null,
+      "candidate_person_ids": [],
+      "reason": "卷末贊稱號；臨淮承荀顗，安陽承荀勖，不能因同爵字泛合；齊魯屬評語用典未定。",
+      "source_line": 148
+    }
+  ],
+  "genre_map": {
+    "11": "biographical_narrative",
+    "13": "biographical_narrative",
+    "15": "biographical_narrative",
+    "17": "biographical_narrative",
+    "19": "biographical_narrative",
+    "21": "biographical_narrative",
+    "23": "biographical_narrative",
+    "26": "biographical_narrative",
+    "28": "biographical_narrative",
+    "30": "biographical_narrative",
+    "32": "biographical_narrative",
+    "34": "biographical_narrative",
+    "36": "biographical_narrative",
+    "38": "biographical_narrative",
+    "40": "biographical_narrative",
+    "42": "biographical_narrative",
+    "44": "biographical_narrative",
+    "46": "biographical_narrative",
+    "48": "biographical_narrative",
+    "137": "biographical_narrative",
+    "139": "biographical_narrative",
+    "141": "biographical_narrative",
+    "143": "biographical_narrative",
+    "146": "historiographical_appraisal",
+    "148": "historiographical_appraisal"
+  },
+  "identity_correction": {
+    "source_key": "齊王攸",
+    "selected": "cac_ca2_008",
+    "excluded": "eb0_d56_aa1",
+    "reason": "後者為荀攸；32只有未採候選，不回寫sealed。"
+  },
+  "image_verified": false,
+  "human_reviewed": false
+}

@@ -100,7 +100,493 @@
       "title": "楚世家第十",
       "paragraph_id": "c-shiji-040-chu:p029",
       "count": 51,
-      "quote": "康王寵弟公子圍、子比、子皙、棄疾。郟敖三年，以其季父康王弟公子圍爲令尹，主兵事。四年，圍使鄭，道聞王疾而還。十二月己酉，圍入問王疾，絞而弒之，遂殺其子莫及平夏。使使赴於鄭。伍舉問曰：「誰爲後？」對曰：「寡大夫圍。」"
+      "raw_count": 51,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "康王寵弟公子圍、子比、子皙、棄疾。郟敖三年，以其季父康王弟公子圍爲令尹，主兵事。四年，圍使鄭，道聞王疾而還。十二月己酉，圍入問王疾，絞而弒之，遂殺其子莫及平夏。使使赴於鄭。伍舉問曰：「誰爲後？」對曰：「寡大夫圍。」",
+      "paragraph_ids": [
+        "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:p030",
+        "c-shiji-040-chu:p031",
+        "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:p034",
+        "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:p039",
+        "c-shiji-040-chu:p096"
+      ],
+      "mention_ids": [
+        "c-shiji-040-chu:m029-0004",
+        "c-shiji-040-chu:m029-0029",
+        "c-shiji-040-chu:m029-0043",
+        "c-shiji-040-chu:m029-0060",
+        "c-shiji-040-chu:m029-0104",
+        "c-shiji-040-chu:m029-0117",
+        "c-shiji-040-chu:m029-0128",
+        "c-shiji-040-chu:m029-0133",
+        "c-shiji-040-chu:m030-0000",
+        "c-shiji-040-chu:m030-0103",
+        "c-shiji-040-chu:m030-0132",
+        "c-shiji-040-chu:m031-0068",
+        "c-shiji-040-chu:m031-0084",
+        "c-shiji-040-chu:m033-0010",
+        "c-shiji-040-chu:m033-0020",
+        "c-shiji-040-chu:m033-0161",
+        "c-shiji-040-chu:m033-0217",
+        "c-shiji-040-chu:m033-0262",
+        "c-shiji-040-chu:m034-0005",
+        "c-shiji-040-chu:m034-0024",
+        "c-shiji-040-chu:m034-0118",
+        "c-shiji-040-chu:m034-0189",
+        "c-shiji-040-chu:m035-0000",
+        "c-shiji-040-chu:m035-0038",
+        "c-shiji-040-chu:m035-0072",
+        "c-shiji-040-chu:m035-0098",
+        "c-shiji-040-chu:m035-0123",
+        "c-shiji-040-chu:m035-0140",
+        "c-shiji-040-chu:m035-0151",
+        "c-shiji-040-chu:m035-0163",
+        "c-shiji-040-chu:m036-0000",
+        "c-shiji-040-chu:m036-0015",
+        "c-shiji-040-chu:m036-0017",
+        "c-shiji-040-chu:m036-0056",
+        "c-shiji-040-chu:m036-0058",
+        "c-shiji-040-chu:m036-0074",
+        "c-shiji-040-chu:m036-0093",
+        "c-shiji-040-chu:m036-0121",
+        "c-shiji-040-chu:m036-0124",
+        "c-shiji-040-chu:m036-0136",
+        "c-shiji-040-chu:m036-0139",
+        "c-shiji-040-chu:m036-0156",
+        "c-shiji-040-chu:m037-0012",
+        "c-shiji-040-chu:m037-0020",
+        "c-shiji-040-chu:m037-0086",
+        "c-shiji-040-chu:m037-0109",
+        "c-shiji-040-chu:m037-0137",
+        "c-shiji-040-chu:m039-0054",
+        "c-shiji-040-chu:m039-0095",
+        "c-shiji-040-chu:m039-0097",
+        "c-shiji-040-chu:m096-0005"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-040-chu:m029-0004": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0029": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0043": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0060": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0104": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0117": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0128": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m029-0133": "c-shiji-040-chu:p029",
+        "c-shiji-040-chu:m030-0000": "c-shiji-040-chu:p030",
+        "c-shiji-040-chu:m030-0103": "c-shiji-040-chu:p030",
+        "c-shiji-040-chu:m030-0132": "c-shiji-040-chu:p030",
+        "c-shiji-040-chu:m031-0068": "c-shiji-040-chu:p031",
+        "c-shiji-040-chu:m031-0084": "c-shiji-040-chu:p031",
+        "c-shiji-040-chu:m033-0010": "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:m033-0020": "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:m033-0161": "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:m033-0217": "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:m033-0262": "c-shiji-040-chu:p033",
+        "c-shiji-040-chu:m034-0005": "c-shiji-040-chu:p034",
+        "c-shiji-040-chu:m034-0024": "c-shiji-040-chu:p034",
+        "c-shiji-040-chu:m034-0118": "c-shiji-040-chu:p034",
+        "c-shiji-040-chu:m034-0189": "c-shiji-040-chu:p034",
+        "c-shiji-040-chu:m035-0000": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0038": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0072": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0098": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0123": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0140": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0151": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m035-0163": "c-shiji-040-chu:p035",
+        "c-shiji-040-chu:m036-0000": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0015": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0017": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0056": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0058": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0074": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0093": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0121": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0124": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0136": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0139": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m036-0156": "c-shiji-040-chu:p036",
+        "c-shiji-040-chu:m037-0012": "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:m037-0020": "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:m037-0086": "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:m037-0109": "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:m037-0137": "c-shiji-040-chu:p037",
+        "c-shiji-040-chu:m039-0054": "c-shiji-040-chu:p039",
+        "c-shiji-040-chu:m039-0095": "c-shiji-040-chu:p039",
+        "c-shiji-040-chu:m039-0097": "c-shiji-040-chu:p039",
+        "c-shiji-040-chu:m096-0005": "c-shiji-040-chu:p096"
+      },
+      "mention_id": "c-shiji-040-chu:m029-0004",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0004",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0029",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0043",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0060",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0104",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0104"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0117",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0117"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0128",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0128"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m029-0133",
+          "mention_ids": [
+            "c-shiji-040-chu:m029-0133"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m030-0000",
+          "mention_ids": [
+            "c-shiji-040-chu:m030-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m030-0103",
+          "mention_ids": [
+            "c-shiji-040-chu:m030-0103"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m030-0132",
+          "mention_ids": [
+            "c-shiji-040-chu:m030-0132"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m031-0068",
+          "mention_ids": [
+            "c-shiji-040-chu:m031-0068"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m031-0084",
+          "mention_ids": [
+            "c-shiji-040-chu:m031-0084"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m033-0010",
+          "mention_ids": [
+            "c-shiji-040-chu:m033-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m033-0020",
+          "mention_ids": [
+            "c-shiji-040-chu:m033-0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m033-0161",
+          "mention_ids": [
+            "c-shiji-040-chu:m033-0161"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m033-0217",
+          "mention_ids": [
+            "c-shiji-040-chu:m033-0217"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m033-0262",
+          "mention_ids": [
+            "c-shiji-040-chu:m033-0262"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m034-0005",
+          "mention_ids": [
+            "c-shiji-040-chu:m034-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m034-0024",
+          "mention_ids": [
+            "c-shiji-040-chu:m034-0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m034-0118",
+          "mention_ids": [
+            "c-shiji-040-chu:m034-0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m034-0189",
+          "mention_ids": [
+            "c-shiji-040-chu:m034-0189"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0000",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0038",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0072",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0098",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0098"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0123",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0123"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0140",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0140"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0151",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0151"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m035-0163",
+          "mention_ids": [
+            "c-shiji-040-chu:m035-0163"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0000",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0015",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0017",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0056",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0056"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0058",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0074",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0093",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0093"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0121",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0124",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0124"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0136",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0136"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0139",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0139"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m036-0156",
+          "mention_ids": [
+            "c-shiji-040-chu:m036-0156"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m037-0012",
+          "mention_ids": [
+            "c-shiji-040-chu:m037-0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m037-0020",
+          "mention_ids": [
+            "c-shiji-040-chu:m037-0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m037-0086",
+          "mention_ids": [
+            "c-shiji-040-chu:m037-0086"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m037-0109",
+          "mention_ids": [
+            "c-shiji-040-chu:m037-0109"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m037-0137",
+          "mention_ids": [
+            "c-shiji-040-chu:m037-0137"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m039-0054",
+          "mention_ids": [
+            "c-shiji-040-chu:m039-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m039-0095",
+          "mention_ids": [
+            "c-shiji-040-chu:m039-0095"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m039-0097",
+          "mention_ids": [
+            "c-shiji-040-chu:m039-0097"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-040-chu:m096-0005",
+          "mention_ids": [
+            "c-shiji-040-chu:m096-0005"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-040",
+      "chapter_id": "c-shiji-040-chu",
+      "source_id": "s-shiji-040-chu",
+      "work_title": "史記"
     },
     {
       "number": 42,
@@ -108,7 +594,62 @@
       "title": "鄭世家第十二",
       "paragraph_id": "c-shiji-042-zheng:p041",
       "count": 4,
-      "quote": "二十七年夏，鄭簡公朝晉。冬，畏楚靈王之彊，又朝楚，子産從。二十八年，鄭君病，使子産會諸侯，與楚靈王盟於申，誅齊慶封。"
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "二十七年夏，鄭簡公朝晉。冬，畏楚靈王之彊，又朝楚，子産從。二十八年，鄭君病，使子産會諸侯，與楚靈王盟於申，誅齊慶封。",
+      "paragraph_ids": [
+        "c-shiji-042-zheng:p041",
+        "c-shiji-042-zheng:p043"
+      ],
+      "mention_ids": [
+        "c-shiji-042-zheng:m041-0015",
+        "c-shiji-042-zheng:m041-0046",
+        "c-shiji-042-zheng:m043-0013",
+        "c-shiji-042-zheng:m043-0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-042-zheng:m041-0015": "c-shiji-042-zheng:p041",
+        "c-shiji-042-zheng:m041-0046": "c-shiji-042-zheng:p041",
+        "c-shiji-042-zheng:m043-0013": "c-shiji-042-zheng:p043",
+        "c-shiji-042-zheng:m043-0030": "c-shiji-042-zheng:p043"
+      },
+      "mention_id": "c-shiji-042-zheng:m041-0015",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m041-0015",
+          "mention_ids": [
+            "c-shiji-042-zheng:m041-0015"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m041-0046",
+          "mention_ids": [
+            "c-shiji-042-zheng:m041-0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m043-0013",
+          "mention_ids": [
+            "c-shiji-042-zheng:m043-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-042-zheng:m043-0030",
+          "mention_ids": [
+            "c-shiji-042-zheng:m043-0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-042",
+      "chapter_id": "c-shiji-042-zheng",
+      "source_id": "s-shiji-042-zheng",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],

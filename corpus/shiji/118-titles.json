@@ -189,7 +189,7 @@
     },
     {
       "id": "th-shiji118-005",
-      "person_id": "k8q_kv9_k4o",
+      "person_id": "yqp_nlb_p1p_AH",
       "title": "趙王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -357,7 +357,7 @@
     },
     {
       "id": "th-shiji118-009",
-      "person_id": "d8n_9iq_w4h",
+      "person_id": "796_nkw_0jz_A",
       "title": "丞相",
       "kind": "office",
       "mode": "attestation",
@@ -841,16 +841,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-                "quote": "文帝前八年（己巳，公元前一七二年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+                "quote": "八年五月丙午，侯劉安元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-019",
+                "table_cell_id": "shiji-019-t3-r018-c02",
+                "source_id": "table-witness-shiji-019",
+                "source_revision": "6359260",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "172",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "八",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+              "reference_event_quote": "八年五月丙午，侯劉安元年。",
+              "reference_year_quote": "172",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -920,16 +980,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-                "quote": "文帝前八年（己巳，公元前一七二年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+                "quote": "八年五月丙午，侯勃元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-019",
+                "table_cell_id": "shiji-019-t3-r019-c02",
+                "source_id": "table-witness-shiji-019",
+                "source_revision": "6359260",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "172",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "八",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+              "reference_event_quote": "八年五月丙午，侯勃元年。",
+              "reference_year_quote": "172",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -999,16 +1119,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-                "quote": "文帝前八年（己巳，公元前一七二年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+                "quote": "八年五月丙午，侯劉賜元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-019",
+                "table_cell_id": "shiji-019-t3-r020-c02",
+                "source_id": "table-witness-shiji-019",
+                "source_revision": "6359260",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "172",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "八",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+              "reference_event_quote": "八年五月丙午，侯劉賜元年。",
+              "reference_year_quote": "172",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -1078,16 +1258,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-                "quote": "文帝前八年（己巳，公元前一七二年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+                "quote": "八年五月丙午，哀侯劉良元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-019",
+                "table_cell_id": "shiji-019-t3-r021-c02",
+                "source_id": "table-witness-shiji-019",
+                "source_revision": "6359260",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "172",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "八",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+              "reference_event_quote": "八年五月丙午，哀侯劉良元年。",
+              "reference_year_quote": "172",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -1104,7 +1344,7 @@
       "person_id": "yqp_nlb_p1p_AF",
       "title": "厲王",
       "kind": "royal_rank",
-      "mode": "attestation",
+      "mode": "posthumous_grant",
       "status": "source_attested",
       "evidence": [
         {
@@ -1122,15 +1362,121 @@
           "end": 15,
           "surface": "厲王",
           "person_mention_id": "c-shiji-118-huainan:m012-0011",
-          "usage": "posthumous_usage",
+          "usage": "retrospective",
           "date_expression": null
+        },
+        {
+          "id": "th-shiji118-023:a002",
+          "paragraph_id": "c-shiji-118-huainan:p012",
+          "start": 113,
+          "end": 115,
+          "surface": "厲王",
+          "person_mention_id": "c-shiji-118-huainan:m012-0113",
+          "usage": "posthumous_usage",
+          "date_expression": "孝文十二年"
         }
       ],
       "effective_period": {
         "start": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "posthumous_grant",
+          "date_expression": "孝文十二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p012",
+              "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 169,
+              "year": -168
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 168,
+              "year": -167
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p012",
+                "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十二",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "168",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝文",
+              "year_source_term": "十二年",
+              "era_anchor_cell_id": "shiji-017-t1-r028-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r039-c01",
+              "digital_year_cell_id": "shiji-017-t1-r039-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "原文明示孝文十二年追尊，未記月；依固定原年欄與漢襲秦十月歲首保存跨年範圍，不把追諡倒推為生前已用之稱。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         },
         "end": {
           "status": "unknown",
@@ -1138,8 +1484,19 @@
           "evidence": []
         }
       },
-      "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
-      "reviewer": "Codex（AI 代理）"
+      "interpretation_note": "孝文十二年明載追尊得諡；前面歌淮南厲王是本文回溯稱呼，不倒推生前持諡。未知廢除或後續改諡不補終點。",
+      "reviewer": "Codex（AI 代理）",
+      "posthumous_basis": {
+        "source_term": "追尊謚淮南王為厲王",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p012",
+            "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+          }
+        ]
+      }
     },
     {
       "id": "th-shiji118-024",
@@ -1199,16 +1556,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
-                "quote": "文帝前十六年（丁丑，公元前一六四年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四月丙寅，王安元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c13",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明4月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前164年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+              "reference_event_quote": "四月丙寅，王安元年。",
+              "reference_year_quote": "164",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -1278,22 +1695,183 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
-                "quote": "文帝前十六年（丁丑，公元前一六四年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四月丙寅，王勃元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c04",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明4月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前164年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+              "reference_event_quote": "四月丙寅，王勃元年。",
+              "reference_year_quote": "164",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "孝景四年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p014",
+              "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 154,
+              "year": -153
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 153,
+              "year": -152
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p014",
+                "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝景元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r051-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四。四月己巳立太子",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "153",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝景",
+              "year_source_term": "四年",
+              "era_anchor_cell_id": "shiji-017-t1-r051-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r054-c01",
+              "digital_year_cell_id": "shiji-017-t1-r054-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "regnal_year_span": {
+                "start": 0,
+                "end": 1,
+                "surface": "四"
+              }
+            },
+            "rationale": "原文明示孝景四年而未記本次事件月；據原年欄、數位西元對照及秦十月歲首／漢襲秦正朔的本文保存跨年範圍。同列四月己巳屬立太子，不能借為徙王日期；未知西曆月日不補。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       },
       "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
@@ -1357,22 +1935,183 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
-                "quote": "文帝前十六年（丁丑，公元前一六四年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四月丙寅，王賜元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c19",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明4月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前164年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+              "reference_event_quote": "四月丙寅，王賜元年。",
+              "reference_year_quote": "164",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
-          "status": "unknown",
-          "date_expression": null,
-          "evidence": []
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "孝景四年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p014",
+              "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 154,
+              "year": -153
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 153,
+              "year": -152
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p014",
+                "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝景元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r051-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四。四月己巳立太子",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "153",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝景",
+              "year_source_term": "四年",
+              "era_anchor_cell_id": "shiji-017-t1-r051-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r054-c01",
+              "digital_year_cell_id": "shiji-017-t1-r054-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "regnal_year_span": {
+                "start": 0,
+                "end": 1,
+                "surface": "四"
+              }
+            },
+            "rationale": "原文明示孝景四年而未記本次事件月；據原年欄、數位西元對照及秦十月歲首／漢襲秦正朔的本文保存跨年範圍。同列四月己巳屬立太子，不能借為徙王日期；未知西曆月日不補。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       },
       "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
@@ -1380,7 +2119,7 @@
     },
     {
       "id": "th-shiji118-027",
-      "person_id": "9dr_4ei_3dx",
+      "person_id": "7mz_d13_9ka_A",
       "title": "武安侯",
       "kind": "noble_rank",
       "mode": "attestation",
@@ -1422,7 +2161,7 @@
     },
     {
       "id": "th-shiji118-028",
-      "person_id": "9dr_4ei_3dx",
+      "person_id": "7mz_d13_9ka_A",
       "title": "太尉",
       "kind": "office",
       "mode": "attestation",
@@ -1506,7 +2245,7 @@
     },
     {
       "id": "th-shiji118-030",
-      "person_id": "5th_oxr_3i6",
+      "person_id": "yqp_nlb_p1p_AFAC",
       "title": "太子",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -1758,7 +2497,7 @@
     },
     {
       "id": "th-shiji118-036",
-      "person_id": "bpp_y9r_t8v",
+      "person_id": "yqp_nlb_p1p_ACAF",
       "title": "趙王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -1800,7 +2539,7 @@
     },
     {
       "id": "th-shiji118-037",
-      "person_id": "fn8_b63_zph",
+      "person_id": "yqp_nlb_p1p_ACAN",
       "title": "膠西王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -1842,7 +2581,7 @@
     },
     {
       "id": "th-shiji118-038",
-      "person_id": "d1v_by0_yie",
+      "person_id": "1ex_se1_yef_A",
       "title": "廷尉",
       "kind": "office",
       "mode": "attestation",
@@ -2152,7 +2891,7 @@
     },
     {
       "id": "th-shiji118-045",
-      "person_id": "ej5_85e_5xj",
+      "person_id": "tmv_5d7_bx2",
       "title": "大行",
       "kind": "office",
       "mode": "attestation",
@@ -2191,6 +2930,1152 @@
       },
       "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji118-bo-jibei-transfer",
+      "person_id": "yqp_nlb_p1p_AFB",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-bo-jibei-transfer:a001",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "start": 163,
+          "end": 164,
+          "surface": "王",
+          "person_mention_id": "c-shiji-118-huainan:m014-0160",
+          "usage": "narrative",
+          "date_expression": "孝景四年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": "孝景四年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p014",
+              "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 154,
+              "year": -153
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 153,
+              "year": -152
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p014",
+                "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝景元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r051-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四。四月己巳立太子",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "153",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝景",
+              "year_source_term": "四年",
+              "era_anchor_cell_id": "shiji-017-t1-r051-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r054-c01",
+              "digital_year_cell_id": "shiji-017-t1-r054-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "regnal_year_span": {
+                "start": 0,
+                "end": 1,
+                "surface": "四"
+              }
+            },
+            "rationale": "原文明示孝景四年而未記本次事件月；據原年欄、數位西元對照及秦十月歲首／漢襲秦正朔的本文保存跨年範圍。同列四月己巳屬立太子，不能借為徙王日期；未知西曆月日不補。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "transfer_basis": {
+        "previous_holding_id": "th-shiji118-025",
+        "source_term": "徙衡山王王濟北",
+        "title_source_term": "王濟北",
+        "actor_mention_id": "c-shiji-118-huainan:m014-0160",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p014",
+            "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+          }
+        ]
+      },
+      "interpretation_note": "徙王是同人王號或所王地的變更，明示終止原王號並開始新階段；不當新人物繼位，不由死亡補職期。王濟北保留王字與所王地，不重排原文為濟北王錨點。",
+      "reviewer": "Codex（AI 代理）",
+      "jurisdictions": [
+        {
+          "source_name": "濟北",
+          "place_id": null,
+          "modern_identification": null
+        }
+      ]
+    },
+    {
+      "id": "th-shiji118-ci-hengshan-transfer",
+      "person_id": "yqp_nlb_p1p_AFC",
+      "title": "衡山王",
+      "kind": "royal_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-ci-hengshan-transfer:a001",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "start": 197,
+          "end": 200,
+          "surface": "衡山王",
+          "person_mention_id": "c-shiji-118-huainan:m014-0197",
+          "usage": "narrative",
+          "date_expression": "孝景四年"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": "孝景四年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p014",
+              "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 154,
+              "year": -153
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 153,
+              "year": -152
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p014",
+                "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝景元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r051-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四。四月己巳立太子",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "153",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r054-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝景",
+              "year_source_term": "四年",
+              "era_anchor_cell_id": "shiji-017-t1-r051-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r054-c01",
+              "digital_year_cell_id": "shiji-017-t1-r054-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "regnal_year_span": {
+                "start": 0,
+                "end": 1,
+                "surface": "四"
+              }
+            },
+            "rationale": "原文明示孝景四年而未記本次事件月；據原年欄、數位西元對照及秦十月歲首／漢襲秦正朔的本文保存跨年範圍。同列四月己巳屬立太子，不能借為徙王日期；未知西曆月日不補。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "transfer_basis": {
+        "previous_holding_id": "th-shiji118-026",
+        "source_term": "廬江王邊越，數使使相交，故徙為衡山王",
+        "title_source_term": "衡山王",
+        "actor_mention_id": "c-shiji-118-huainan:m014-0182",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p014",
+            "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+          }
+        ]
+      },
+      "interpretation_note": "徙王是同人王號或所王地的變更，明示終止原王號並開始新階段；不當新人物繼位，不由死亡補職期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji118-bo-zhen-posthumous",
+      "person_id": "yqp_nlb_p1p_AFB",
+      "title": "貞王",
+      "kind": "royal_rank",
+      "mode": "posthumous_naming",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-bo-zhen-posthumous:a001",
+          "paragraph_id": "c-shiji-118-huainan:p014",
+          "start": 179,
+          "end": 181,
+          "surface": "貞王",
+          "person_mention_id": "c-shiji-118-huainan:m014-0180",
+          "usage": "posthumous_usage",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p014",
+              "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "naming_basis": {
+        "source_term": "及薨，遂賜謚為貞王",
+        "death_term": "及薨",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p014",
+            "quote": "孝景三年，吳楚七國反，吳使者至淮南，淮南王欲發兵應之。其相曰：「大王必欲發兵應吳，臣願為將。」王乃屬相兵。淮南相已將兵，因城守，不聽王而為漢；漢亦使曲城侯將兵救淮南：淮南以故得完。吳使者至廬江，廬江王弗應，而往來使越。吳使者至衡山，衡山王堅守無二心。孝景四年，吳楚已破，衡山王朝，上以為貞信，乃勞苦之曰：「南方卑溼。」徙衡山王王濟北，所以褒之。及薨，遂賜謚為貞王。廬江王邊越，數使使相交，故徙為衡山王，王江北。淮南王如故。"
+          }
+        ]
+      },
+      "interpretation_note": "及薨、賜諡在徙封敘事之後，沒有同年證據；不把景四年當死亡或得諡年。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji118-fengjing-acting-yushi",
+      "person_id": "74s_z7l_t28",
+      "title": "御史大夫",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "quote": "「丞相臣張倉、典客臣馮敬、行御史大夫事宗正臣逸、廷尉臣賀、備盜賊中尉臣福昧死言：淮南王長廢先帝法，不聽天子詔，居處無度，為黃屋蓋乘輿，出入擬於天子，擅為法令，不用漢法。及所置吏，以其郎中春為丞相，聚收漢諸侯人及有罪亡者，匿與居，為治家室，賜其財物爵祿田宅，爵或至關內侯，奉以二千石，所不當得，欲以有為。大夫但、士五開章等七十人與棘蒲侯太子奇謀反，欲以危宗廟社稷。使開章陰告長，與謀使閩越及匈奴發其兵。開章之淮南見長，長數與坐語飲食，為家室娶婦，以二千石俸奉之。開章使人告但，已言之王。春使使報但等。吏覺知，使長安尉奇等往捕開章。長匿不予，與故中尉蕑忌謀，殺以閉口。為棺槨衣衾，葬之肥陵邑，謾吏曰『不知安在』。又詳聚土，樹表其上，曰『開章死，埋此下』。及長身自賊殺無罪者一人；令吏論殺無罪者六人；為亡命棄市罪詐捕命者以除罪；擅罪人，罪人無告劾，繋治城旦舂以上十四人；赦免罪人，死罪十八人，城旦舂以下五十八人；賜人爵關內侯以下九十四人。前日長病，陛下憂苦之，使使者賜書、棗脯。長不欲受賜，不肯見拜使者。南海民處廬江界中者反，淮南吏卒擊之。陛下以淮南民貧苦，遣使者賜長帛五千匹，以賜吏卒勞苦者。長不欲受賜，謾言曰『無勞苦者』。南海民王織上書獻璧皇帝，忌擅燔其書，不以聞。吏請召治忌，長不遣，謾言曰『忌病』。春又請長，願入見，長怒曰『女欲離我自附漢』。長當棄市，臣請論如法。」"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-fengjing-acting-yushi:a001",
+          "paragraph_id": "c-shiji-118-huainan:p004",
+          "start": 14,
+          "end": 18,
+          "surface": "御史大夫",
+          "person_mention_id": "c-shiji-118-huainan:m004-0010",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "收到標點保留。依《漢書》同事署名與《史記集解》未句讀原字，暫取馮敬行御史大夫事；宗正逸另職仍存。此為代理任事用稱，不補正式授官年月或任期；宋祁所記三年／七年是注語，不混入正文事件。",
+      "reviewer": "Codex（AI 代理）",
+      "source_term": "行御史大夫事",
+      "appointment_role": "acting",
+      "punctuation_attribution": {
+        "kind": "punctuation_resegmentation",
+        "source_term": "行御史大夫事",
+        "received_segment": "行御史大夫事宗正臣逸",
+        "preferred_segmentation": "典客臣馮敬行御史大夫事、宗正臣逸",
+        "person_mention_id": "c-shiji-118-huainan:m004-0010",
+        "alternative_person_mention_id": "c-shiji-118-huainan:m004-0021",
+        "status": "editorial_provisional",
+        "human_reviewed": false,
+        "model": null,
+        "rationale": "漢書44明作馮敬行御史大夫事、與宗正廷尉雜奏；集解118無句讀文字亦可如此斷句。不能只按維基底本頓號宣稱兩書在行事者上有實質異文。",
+        "references": [
+          {
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_044.txt#L101-L103",
+            "quote": "之廼使使召淮南王王至長安丞相張蒼典客馮敬行¶\n御史大夫事(○宋祁曰孝文三年馮敬/為典客七年為御史大夫)與宗正廷尉雜¶\n奏長廢先帝法不聽天子詔居處無度為黄屋蓋儗天¶",
+            "source_blob": "e2143a58b312e7963377044e56322795ef02b5c4",
+            "read_line_range": [
+              101,
+              103
+            ],
+            "cached_response_sha256": "797f8b04ad85adee4e2bcee68e0ab632ce36eaf212996fee552fffc8e2ae2591",
+            "image_verified": false,
+            "title": "《漢書》卷44同事官職署名",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "display_quote": "之廼使使召淮南王王至長安丞相張蒼典客馮敬行御史大夫事(○宋祁曰孝文三年馮敬為典客七年為御史大夫)與宗正廷尉雜奏長廢先帝法不聽天子詔居處無度為黄屋蓋儗天",
+            "display_normalization": "僅移除數位頁標、分行、¶與分行用斜線；原字及注語保留，完整排版見quote。"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_118.txt#L42-L45",
+            "quote": "匈奴事覺治之使使召淮南王淮南王至長安丞相臣¶\n<pb:KR2a0002_WYG_118-3a>¶\n張蒼典客臣馮敬行御史大夫事宗正臣逸廷尉臣賀¶\n備盜賊中尉臣福昧死言淮南王長廢先帝法不聴天¶",
+            "source_blob": "9d2ddd755bfb7f9cca5664cbd23393bc203cb5c9",
+            "read_line_range": [
+              42,
+              45
+            ],
+            "cached_response_sha256": "8bac741b6f2b3b79e7e1271a6dc0a9ec0bef3f8aa5ee8343e91bb71a042765b0",
+            "image_verified": false,
+            "title": "《史記集解》卷118未句讀署名",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "display_quote": "匈奴事覺治之使使召淮南王淮南王至長安丞相臣張蒼典客臣馮敬行御史大夫事宗正臣逸廷尉臣賀備盜賊中尉臣福昧死言淮南王長廢先帝法不聴天",
+            "display_normalization": "僅移除數位頁標、分行、¶與分行用斜線；原字及注語保留，完整排版見quote。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "th-shiji118-xi-chengyang-before",
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "title": "城陽王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p012",
+          "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-xi-chengyang-before:a001",
+          "paragraph_id": "c-shiji-118-huainan:p012",
+          "start": 96,
+          "end": 99,
+          "surface": "城陽王",
+          "person_mention_id": "c-shiji-118-huainan:m012-0096",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "孝文十二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p012",
+              "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 169,
+              "year": -168
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 168,
+              "year": -167
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p012",
+                "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十二",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "168",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝文",
+              "year_source_term": "十二年",
+              "era_anchor_cell_id": "shiji-017-t1-r028-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r039-c01",
+              "digital_year_cell_id": "shiji-017-t1-r039-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本篇明載孝文十二年徙王，未知該次月份；年表同一王的轉封格亦未載月。漢初十月歲首保存跨年範圍，不借同段立安勃賜或其他事件的月日。卷052王年及漢書所記年數另列，不據此覆寫原文。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        }
+      },
+      "interpretation_note": "原王地、徙王與復故王地分段保存；不造出生、死亡、授諡或未知任期。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "th-shiji118-xi-huainan-transfer",
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p012",
+          "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-xi-huainan-transfer:a001",
+          "paragraph_id": "c-shiji-118-huainan:p012",
+          "start": 99,
+          "end": 100,
+          "surface": "王",
+          "person_mention_id": "c-shiji-118-huainan:m012-0096",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": "孝文十二年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p012",
+              "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 169,
+              "year": -168
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 168,
+              "year": -167
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p012",
+                "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十二",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "168",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r039-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝文",
+              "year_source_term": "十二年",
+              "era_anchor_cell_id": "shiji-017-t1-r028-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r039-c01",
+              "digital_year_cell_id": "shiji-017-t1-r039-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本篇明載孝文十二年徙王，未知該次月份；年表同一王的轉封格亦未載月。漢初十月歲首保存跨年範圍，不借同段立安勃賜或其他事件的月日。卷052王年及漢書所記年數另列，不據此覆寫原文。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        },
+        "end": {
+          "status": "source_event",
+          "event_type": "explicit_end",
+          "date_expression": "孝文十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p013",
+              "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 165,
+              "year": -164
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 164,
+              "year": -163
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p013",
+                "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝文",
+              "year_source_term": "十六年",
+              "era_anchor_cell_id": "shiji-017-t1-r028-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r043-c01",
+              "digital_year_cell_id": "shiji-017-t1-r043-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本篇明載孝文十六年徙王，未知該次月份；年表同一王的轉封格亦未載月。漢初十月歲首保存跨年範圍，不借同段立安勃賜或其他事件的月日。卷052王年及漢書所記年數另列，不據此覆寫原文。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        }
+      },
+      "interpretation_note": "原王地、徙王與復故王地分段保存；不造出生、死亡、授諡或未知任期。",
+      "reviewer": "Codex（AI 代理）",
+      "jurisdictions": [
+        {
+          "source_name": "淮南",
+          "place_id": null,
+          "modern_identification": null
+        }
+      ],
+      "transfer_basis": {
+        "previous_holding_id": "th-shiji118-xi-chengyang-before",
+        "source_term": "徙城陽王王淮南故地",
+        "title_source_term": "王淮南",
+        "actor_mention_id": "c-shiji-118-huainan:m012-0096",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p012",
+            "quote": "孝文十二年，民有作歌歌淮南厲王曰：「一尺布，尚可縫；一斗粟，尚可舂。兄弟二人不能相容。」上聞之，乃嘆曰：「堯舜放逐骨肉，周公殺管蔡，天下稱聖。何者？不以私害公。天下豈以我為貪淮南王地邪？」乃徙城陽王王淮南故地，而追尊謚淮南王為厲王，置園復如諸侯儀。"
+          }
+        ]
+      },
+      "chronology_source_choice": {
+        "status": "editorial_provisional",
+        "preferred_chapter_id": "c-shiji-118-huainan",
+        "preferred_source_expression": "孝文十二年",
+        "alternative_chapter_id": "c-shiji-052-qidaohui",
+        "alternative_source_term": "共王八年，徙王淮南",
+        "alternative_evidence": {
+          "paragraph_id": "c-shiji-052-qidaohui:p034",
+          "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui"
+        },
+        "references": [
+          {
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_118.txt#L101-L110",
+            "quote": "可縫一斗粟尚可舂兄弟二人不能相容(漢書音義曰/尺布斗粟猶)¶\n(尚不棄況兄弟而相更逐乎瓚曰一尺布尚可縫而共/衣一斗粟尚可舂而共食也況以天下之廣而不能相)¶\n(容/)上聞之乃歎曰堯舜放逐骨肉周公殺管蔡天下稱¶\n聖何者不以私害公天下豈以我為貪淮南王地耶乃¶\n徙城陽王王淮南故地(徐廣曰景/王章之子)而追尊諡淮南王為¶\n<pb:KR2a0002_WYG_118-6b>¶\n厲王置園復如諸侯儀孝文十六年徙淮南王喜復故¶\n城陽上憐淮南厲王廢法不軌自使失國蚤死乃立其¶\n三子阜陵侯安為淮南王安陽侯勃為衡山王周陽侯¶\n賜為廬江王皆復得厲王時地參分之東城侯良前薨¶",
+            "cached_response_sha256": "8bac741b6f2b3b79e7e1271a6dc0a9ec0bef3f8aa5ee8343e91bb71a042765b0",
+            "image_verified": false,
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "display_quote": "可縫一斗粟尚可舂兄弟二人不能相容(漢書音義曰尺布斗粟猶)(尚不棄況兄弟而相更逐乎瓚曰一尺布尚可縫而共衣一斗粟尚可舂而共食也況以天下之廣而不能相)(容)上聞之乃歎曰堯舜放逐骨肉周公殺管蔡天下稱聖何者不以私害公天下豈以我為貪淮南王地耶乃徙城陽王王淮南故地(徐廣曰景王章之子)而追尊諡淮南王為厲王置園復如諸侯儀孝文十六年徙淮南王喜復故城陽上憐淮南厲王廢法不軌自使失國蚤死乃立其三子阜陵侯安為淮南王安陽侯勃為衡山王周陽侯賜為廬江王皆復得厲王時地參分之東城侯良前薨",
+            "title": "《史記集解》卷118轉封原文"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_044.txt#L157-L163",
+            "quote": "(説/是)上聞之曰昔堯舜放逐骨肉(師古曰鯀及共工皆堯/舜之同姓故云骨肉)¶\n周公殺管蔡天下稱聖不以私害公天下豈以為我貪¶\n淮南地邪廼徙城陽王王淮南故地而追尊諡淮南王¶\n<pb:KR2a0007_WYG_044-9b>¶\n為厲王(○宋祁曰越/本無諡字)置園如諸侯儀十六年上憐淮南¶\n王廢法不軌自使失國早夭廼徙淮南王喜復王故城¶\n陽而立厲王三子王淮南故地三分之阜陵侯安為淮¶",
+            "cached_response_sha256": "1aa2148aac1f9dcbf61aeca6134a820cd6b62bd72b18a6ddab1b950db96a4d76",
+            "image_verified": false,
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "display_quote": "(説是)上聞之曰昔堯舜放逐骨肉(師古曰鯀及共工皆堯舜之同姓故云骨肉)周公殺管蔡天下稱聖不以私害公天下豈以為我貪淮南地邪廼徙城陽王王淮南故地而追尊諡淮南王為厲王(○宋祁曰越本無諡字)置園如諸侯儀十六年上憐淮南王廢法不軌自使失國早夭廼徙淮南王喜復王故城陽而立厲王三子王淮南故地三分之阜陵侯安為淮",
+            "title": "《漢書》卷44同事轉封"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_052.txt#L161-L165",
+            "quote": "祀城陽景王章齊悼惠王子以朱虚侯與大臣共誅諸¶\n吕而章身首先斬相國吕王産於朱央宫孝文帝既立¶\n益封章二千戸賜金千斤孝文二年以齊之城陽郡立¶\n章為城陽王立二年卒子喜立是為共王共王八年徙¶\n王淮南四年復還王城陽凡三十三年卒子建延立是¶",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "036002f45a00ad08f99b232828e6f45010c3177e",
+            "cached_response_sha256": "4d280ec4a07910fe4aa7aa6058498e3ec231b008661eb6672377a5ab407eb7f2",
+            "image_verified": false,
+            "display_quote": "祀城陽景王章齊悼惠王子以朱虚侯與大臣共誅諸吕而章身首先斬相國吕王産於朱央宫孝文帝既立益封章二千戸賜金千斤孝文二年以齊之城陽郡立章為城陽王立二年卒子喜立是為共王共王八年徙王淮南四年復還王城陽凡三十三年卒子建延立是",
+            "title": "《史記集解》卷52城陽王年數"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_038.txt#L168-L172",
+            "quote": "薨子文王則嗣十四年薨無子國除城陽景王章孝文¶\n<pb:KR2a0007_WYG_038-10a>¶\n二年以朱虚侯與東牟侯興居俱立二年薨子共王喜¶\n嗣孝文十二年徙王淮南五年復還王城陽凡立三十¶\n三年薨子頃王延嗣二十六年薨子敬王義嗣九年薨¶",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "4dc4b126f3ba207f5c7c3a31a63504bf7dd81eef",
+            "cached_response_sha256": "83b196f99d12d9f65e1addfe9755cddfd9bbdb8b1c707a2f2042f5bf8049fd15",
+            "image_verified": false,
+            "display_quote": "薨子文王則嗣十四年薨無子國除城陽景王章孝文二年以朱虚侯與東牟侯興居俱立二年薨子共王喜嗣孝文十二年徙王淮南五年復還王城陽凡立三十三年薨子頃王延嗣二十六年薨子敬王義嗣九年薨",
+            "title": "《漢書》卷38城陽王喜轉封紀年"
+          }
+        ],
+        "rationale": "本筆按118篇明示帝年記來源時段；漢書38同述孝文十二年與五年復還，並保留52篇喜王年八／四及年表徙國與改元分列。不同年數未校勘定讞，不把這一首選冒作原文一致或已核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    },
+    {
+      "id": "th-shiji118-xi-chengyang-return",
+      "person_id": "yqp_nlb_p1p_ABFA",
+      "title": "王",
+      "kind": "royal_rank",
+      "mode": "transfer",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p013",
+          "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-xi-chengyang-return:a001",
+          "paragraph_id": "c-shiji-118-huainan:p013",
+          "start": 9,
+          "end": 10,
+          "surface": "王",
+          "person_mention_id": "c-shiji-118-huainan:m013-0007",
+          "usage": "narrative",
+          "date_expression": null,
+          "context_role": "pre_transfer_rank"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "transfer",
+          "date_expression": "孝文十六年",
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-118-huainan",
+              "source_id": "s-shiji118-huainan",
+              "paragraph_id": "c-shiji-118-huainan:p013",
+              "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+            }
+          ],
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 165,
+              "year": -164
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 164,
+              "year": -163
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-118-huainan",
+                "source_id": "s-shiji118-huainan",
+                "paragraph_id": "c-shiji-118-huainan:p013",
+                "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來諸侯王年表》原年欄與另加西元欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-017",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-017",
+              "chapter_id": "table-chapter-shiji-017",
+              "source_id": "table-witness-shiji-017",
+              "source_revision": "2607010",
+              "era_name": "孝文",
+              "year_source_term": "十六年",
+              "era_anchor_cell_id": "shiji-017-t1-r028-c01",
+              "regnal_year_cell_id": "shiji-017-t1-r043-c01",
+              "digital_year_cell_id": "shiji-017-t1-r043-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本篇明載孝文十六年徙王，未知該次月份；年表同一王的轉封格亦未載月。漢初十月歲首保存跨年範圍，不借同段立安勃賜或其他事件的月日。卷052王年及漢書所記年數另列，不據此覆寫原文。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原王地、徙王與復故王地分段保存；不造出生、死亡、授諡或未知任期。 復故城陽的省略王地依前城陽王同人鏈核記，王字原稱屬轉封前身分，目的地另存，不改原文。",
+      "reviewer": "Codex（AI 代理）",
+      "jurisdictions": [
+        {
+          "source_name": "城陽",
+          "place_id": null,
+          "modern_identification": null
+        }
+      ],
+      "transfer_basis": {
+        "previous_holding_id": "th-shiji118-xi-huainan-transfer",
+        "source_term": "徙淮南王喜復故城陽",
+        "title_source_term": "復故城陽",
+        "actor_mention_id": "c-shiji-118-huainan:m013-0007",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p013",
+            "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+          }
+        ]
+      },
+      "resumption_basis": {
+        "earlier_holding_id": "th-shiji118-xi-chengyang-before",
+        "previous_source_title": "淮南王",
+        "return_source_term": "復故城陽",
+        "status": "editorial_provisional",
+        "rationale": "同人本篇前載城陽王徙淮南，此處淮南王喜復故城陽承其原王地。王字只取原稱淮南王喜中的實際字元，明標轉封前身分，不在收到文字虛構城陽王連續字串。",
+        "human_reviewed": false
+      },
+      "chronology_source_choice": {
+        "status": "editorial_provisional",
+        "preferred_chapter_id": "c-shiji-118-huainan",
+        "preferred_source_expression": "孝文十六年",
+        "alternative_chapter_id": "c-shiji-052-qidaohui",
+        "alternative_source_term": "四年，復還王城陽",
+        "alternative_evidence": {
+          "paragraph_id": "c-shiji-052-qidaohui:p034",
+          "quote": "共王八年，徙王淮南。四年，復還王城陽。凡三十三年卒，子［建］延立，是為頃王。",
+          "chapter_id": "c-shiji-052-qidaohui",
+          "source_id": "s-shiji-052-qidaohui"
+        },
+        "references": [
+          {
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_118.txt#L101-L110",
+            "quote": "可縫一斗粟尚可舂兄弟二人不能相容(漢書音義曰/尺布斗粟猶)¶\n(尚不棄況兄弟而相更逐乎瓚曰一尺布尚可縫而共/衣一斗粟尚可舂而共食也況以天下之廣而不能相)¶\n(容/)上聞之乃歎曰堯舜放逐骨肉周公殺管蔡天下稱¶\n聖何者不以私害公天下豈以我為貪淮南王地耶乃¶\n徙城陽王王淮南故地(徐廣曰景/王章之子)而追尊諡淮南王為¶\n<pb:KR2a0002_WYG_118-6b>¶\n厲王置園復如諸侯儀孝文十六年徙淮南王喜復故¶\n城陽上憐淮南厲王廢法不軌自使失國蚤死乃立其¶\n三子阜陵侯安為淮南王安陽侯勃為衡山王周陽侯¶\n賜為廬江王皆復得厲王時地參分之東城侯良前薨¶",
+            "cached_response_sha256": "8bac741b6f2b3b79e7e1271a6dc0a9ec0bef3f8aa5ee8343e91bb71a042765b0",
+            "image_verified": false,
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "display_quote": "可縫一斗粟尚可舂兄弟二人不能相容(漢書音義曰尺布斗粟猶)(尚不棄況兄弟而相更逐乎瓚曰一尺布尚可縫而共衣一斗粟尚可舂而共食也況以天下之廣而不能相)(容)上聞之乃歎曰堯舜放逐骨肉周公殺管蔡天下稱聖何者不以私害公天下豈以我為貪淮南王地耶乃徙城陽王王淮南故地(徐廣曰景王章之子)而追尊諡淮南王為厲王置園復如諸侯儀孝文十六年徙淮南王喜復故城陽上憐淮南厲王廢法不軌自使失國蚤死乃立其三子阜陵侯安為淮南王安陽侯勃為衡山王周陽侯賜為廬江王皆復得厲王時地參分之東城侯良前薨",
+            "title": "《史記集解》卷118轉封原文"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_044.txt#L157-L163",
+            "quote": "(説/是)上聞之曰昔堯舜放逐骨肉(師古曰鯀及共工皆堯/舜之同姓故云骨肉)¶\n周公殺管蔡天下稱聖不以私害公天下豈以為我貪¶\n淮南地邪廼徙城陽王王淮南故地而追尊諡淮南王¶\n<pb:KR2a0007_WYG_044-9b>¶\n為厲王(○宋祁曰越/本無諡字)置園如諸侯儀十六年上憐淮南¶\n王廢法不軌自使失國早夭廼徙淮南王喜復王故城¶\n陽而立厲王三子王淮南故地三分之阜陵侯安為淮¶",
+            "cached_response_sha256": "1aa2148aac1f9dcbf61aeca6134a820cd6b62bd72b18a6ddab1b950db96a4d76",
+            "image_verified": false,
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "display_quote": "(説是)上聞之曰昔堯舜放逐骨肉(師古曰鯀及共工皆堯舜之同姓故云骨肉)周公殺管蔡天下稱聖不以私害公天下豈以為我貪淮南地邪廼徙城陽王王淮南故地而追尊諡淮南王為厲王(○宋祁曰越本無諡字)置園如諸侯儀十六年上憐淮南王廢法不軌自使失國早夭廼徙淮南王喜復王故城陽而立厲王三子王淮南故地三分之阜陵侯安為淮",
+            "title": "《漢書》卷44同事轉封"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_052.txt#L161-L165",
+            "quote": "祀城陽景王章齊悼惠王子以朱虚侯與大臣共誅諸¶\n吕而章身首先斬相國吕王産於朱央宫孝文帝既立¶\n益封章二千戸賜金千斤孝文二年以齊之城陽郡立¶\n章為城陽王立二年卒子喜立是為共王共王八年徙¶\n王淮南四年復還王城陽凡三十三年卒子建延立是¶",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "036002f45a00ad08f99b232828e6f45010c3177e",
+            "cached_response_sha256": "4d280ec4a07910fe4aa7aa6058498e3ec231b008661eb6672377a5ab407eb7f2",
+            "image_verified": false,
+            "display_quote": "祀城陽景王章齊悼惠王子以朱虚侯與大臣共誅諸吕而章身首先斬相國吕王産於朱央宫孝文帝既立益封章二千戸賜金千斤孝文二年以齊之城陽郡立章為城陽王立二年卒子喜立是為共王共王八年徙王淮南四年復還王城陽凡三十三年卒子建延立是",
+            "title": "《史記集解》卷52城陽王年數"
+          },
+          {
+            "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_038.txt#L168-L172",
+            "quote": "薨子文王則嗣十四年薨無子國除城陽景王章孝文¶\n<pb:KR2a0007_WYG_038-10a>¶\n二年以朱虚侯與東牟侯興居俱立二年薨子共王喜¶\n嗣孝文十二年徙王淮南五年復還王城陽凡立三十¶\n三年薨子頃王延嗣二十六年薨子敬王義嗣九年薨¶",
+            "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+            "source_blob": "4dc4b126f3ba207f5c7c3a31a63504bf7dd81eef",
+            "cached_response_sha256": "83b196f99d12d9f65e1addfe9755cddfd9bbdb8b1c707a2f2042f5bf8049fd15",
+            "image_verified": false,
+            "display_quote": "薨子文王則嗣十四年薨無子國除城陽景王章孝文二年以朱虚侯與東牟侯興居俱立二年薨子共王喜嗣孝文十二年徙王淮南五年復還王城陽凡立三十三年薨子頃王延嗣二十六年薨子敬王義嗣九年薨",
+            "title": "《漢書》卷38城陽王喜轉封紀年"
+          }
+        ],
+        "rationale": "本筆按118篇明示帝年記來源時段；漢書38同述孝文十二年與五年復還，並保留52篇喜王年八／四及年表徙國與改元分列。不同年數未校勘定讞，不把這一首選冒作原文一致或已核書影。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      }
     }
   ]
 }

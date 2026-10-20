@@ -3,14 +3,16 @@ import json
 from pathlib import Path
 try:
     from .person_ids import family_path_errors
+    from .ancestry_chain import consecutive_ancestor_parent_valid
 except ImportError:
     from person_ids import family_path_errors
+    from ancestry_chain import consecutive_ancestor_parent_valid
 
 
 def brother_connects(assertion, first, second):
-    """兄弟端點可反向核對；原斷言方向及長幼限定不改寫。"""
+    """兄弟姊妹端點可反向核對；父系仍為明示可撤回的編輯推導。"""
     a, b = assertion['subject_person_id'], assertion['object_person_id']
-    return (assertion['predicate'] == 'brother'
+    return (assertion['predicate'] in ('brother', 'sister')
             and assertion.get('qualifiers', {}).get('shared_father') is not False
             and not set(first).intersection(second)
             and ((a in first and b in second) or (b in first and a in second)))
@@ -70,6 +72,8 @@ def load_assemblies(root, catalog):
                              and sibling.get('source_assertion_id') == source['id']
                              and brother_connects(brother, ids, sibling['source_person_ids'])
                              and source['predicate'] == member.get('connection')
+                             and source.get('qualifiers', {}).get('lineage') != 'maternal'
+                             and source.get('qualifiers', {}).get('adopted_for_family_tree') is not False
                              and source['subject_person_id'] in sibling['source_person_ids']
                              and source['object_person_id'] in rows[ancestor]['source_person_ids'])
                     proofs = {a['id']: a for a in (brother, source) if a}
@@ -90,7 +94,11 @@ def load_assemblies(root, catalog):
                         raise ValueError('同父兄弟祖先組裝缺少有效兄弟及祖孫證據')
                 else:
                     assertion = assertions.get(member['source_assertion_id'])
-                    if (not assertion or assertion['predicate'] != member.get('connection')
+                    if (not assertion or assertion.get('qualifiers', {}).get('adopted_for_family_tree') is False
+                        or assertion.get('qualifiers', {}).get('lineage') == 'maternal'
+                        or assertion['predicate'] != member.get('connection')
+                        or (assertion['predicate'] == 'ancestor'
+                            and assertion.get('qualifiers', {}).get('generation_distance') != member.get('generation_distance'))
                         or assertion['subject_person_id'] not in ids
                         or assertion['object_person_id'] not in rows[ancestor]['source_person_ids']):
                         raise ValueError('缺代組裝祖孫端點與來源不符')
@@ -105,7 +113,17 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection['type'] == 'shared_father_through_sibling_chain':
+                    if connection.get('type') == 'parent_between_consecutive_ancestors':
+                        if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
+                            raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
+                    elif connection.get('type') == 'parent_through_paternal_uncle':
+                        try:
+                            from .uncle_parentage import parent_through_paternal_uncle_valid
+                        except ImportError:
+                            from uncle_parentage import parent_through_paternal_uncle_valid
+                        if not parent_through_paternal_uncle_valid(member, rows, assertions, chapters):
+                            raise ValueError('叔父接合須有侄之父、叔父及叔父之父的具名正文，不得拿數位標題補父系')
+                    elif connection['type'] == 'shared_father_through_sibling_chain':
                         sibling_ids = connection.get('sibling_person_ids')
                         brother_ids = connection.get('sibling_assertion_ids')
                         valid = (isinstance(sibling_ids, list) and isinstance(brother_ids, list)

@@ -1,8 +1,8 @@
 {
   "format_version": "0.2",
   "objective": "逐書收錄歷代正史與《資治通鑑》中全部人物及可追溯的提及。",
-  "active_work_id": "w-shiji",
-  "policy": "以《史記》為主逐卷標註與身份複核；核心身份穩定後展開《漢書》交叉核讀，兩書原文、來源與異說分存，不等同全部複核完成。",
+  "active_work_id": "w-jinshu",
+  "policy": "2026-10-18依使用者優先次序，完成在手張湯家族批次後，主要轉入三國、兩晉、南北朝士族跨史接合，先以潁川荀氏試點，再及琅邪王氏、陳郡謝氏；逐篇保存各史原文與異說。史記、漢書既有進度保留，未宣稱完成。詳見 docs/early-medieval-family-priorities.md。",
   "books": [
     {
       "book_id": "b-shiji-001",
@@ -1171,7 +1171,12 @@
         "全31段已續讀；七組核心身份接合，十二個舊ID撤除。續核典故、王號、附詔署者、匿名、親屬與官爵紀年；張歐拜免異年及衛將軍追稱不統一。",
         "十組引古人物已按傳文與典故接合並撤除舊ID；弘四十餘、六十報齡與度太守十餘歲分型保存，不倒算生年或任期。續核其餘引古、反秦人物、王號、親屬及附詔署者與版本。",
         "齊王次景、紀翁主、燕王定國與趙王彭祖四組身份已暫接，六個舊ID更新引用後撤除；齊世家兩處姊回指已解。兩筆姊妹陳述方向修正，衛氏年序相反仍保留。附詔、其餘引古與版本時段續核。",
-        "十一組反秦／和親人物按同一事件暫接，十三個重複身份及一個隨祖父根號遷移的孫輩ID更新引用後撤除；南越胡仍闕一代，不造父親。成進、屠睢、監祿及校補尉[佗]未解另存，先帝與其餘引古續核。"
+        "十一組反秦／和親人物按同一事件暫接，十三個重複身份及一個隨祖父根號遷移的孫輩ID更新引用後撤除；南越胡仍闕一代，不造父親。成進、屠睢、監祿及校補尉[佗]未解另存，先帝與其餘引古續核。",
+        "另26組引古與附贊人物依典故、學業、官職或事件暫接，29個重複ID更新引用後撤除；淮南、衡山兩處反案王號連到安、賜，既有錨點與跨度保留。三組同名異人區分已存；枚生按漢書安車蒲輪徵乘旁證辨為枚乘，不混枚皋。",
+        "成進詞界改成／進諫、尉[佗]依索隱辨指、嚴莊本姓古注與平津度慶異文已記；一個表格舊候選更新引用後撤除。嗣爵與免爵日期須續依表明年建立可驗證數字，不沿父卒年月。",
+        "平津父子四個職爵端點已依固定原表、同人錨點、年號欄與獨立紀年列存數值範圍；後嗣不沿父卒二年，採表明元狩三年起算，失侯採元封四年。其餘官爵終期、生卒與匿名仍續核。",
+        "論贊太史公依自序作者與篇目暫接司馬遷；附詔太皇太后依徐廣古注與新錄漢書元后姓名段暫接政君，文本層分存。先帝、丞相明示終期及其餘紀年仍待核。",
+        "已補兩卒年、四授任、五用稱及六十報齡紀年的數值範圍；丞相明示終期與年號原列綁定。元朔三年與別篇四年任官差異仍分源；先帝等未決，不阻後續113。"
       ]
     },
     {
@@ -1182,7 +1187,13 @@
       "complete": false,
       "next_tasks": [
         "14段全文及47名來源候選姓名初標，代詞、親屬、稱號日期與跨篇身份仍待覆核。",
-        "保存南越世系、闕代與生母原句，補王位引語、匿名群體及官爵紀年。"
+        "保存南越世系、闕代與生母原句，補王位引語、匿名群體及官爵紀年。",
+        "全十四段第二輪已讀，本批十三來源ID及一表候選身份接合、樛后姊弟方向、姓名字形分層。任官、生卒、地望及胡嬰齊父系證據仍待續核，非整篇完成。",
+        "八位功臣年表候選已按同封國同事接回本傳、四處功臣事由與省稱補逐人標記；史定與居翁標記去除前官稱，居翁姓名依古注分存。授爵月日、失侯與直接紀年仍待分源續核，未完成全篇。",
+        "通鑑卷20南越文王遣其子嬰齊明文已分源錄入，胡、嬰齊與三子同根；胡父闕代保留。表格授爵時段與本篇直接紀年仍待續核。",
+        "漢武紀p133三將姓名、諡名事件與三地望已分源補錄；署理南海尉、故校尉司馬及其餘直接紀年／嫪後字形仍待續核，非全篇完成。",
+        "本批補代理南海尉、校尉司馬舊職及嫪後語境辨識；直接紀年與長沙王仍待續核，非全篇完成。",
+        "漢十一年與孝文帝元年的君主異稱已按同篇人物錨點限定，原年列與相鄰西元年分存；長沙王回／右及全篇其餘紀年仍待續核。"
       ]
     },
     {
@@ -1193,7 +1204,10 @@
       "complete": false,
       "next_tasks": [
         "11段全文及39名來源候選姓名初標；匿名君主、代詞、親屬、稱號日期與跨篇身份仍待覆核。",
-        "補濞子駒父子、無諸孫丑闕代、福父與諸侯官爵日期，再逐項跨篇對讀。"
+        "補濞子駒父子、無諸孫丑闕代、福父與諸侯官爵日期，再逐項跨篇對讀。",
+        "全十一段第二輪已讀；本批十九來源舊ID與三表候選更新引用後撤除，十一處官稱王稱逐人連結。福父系接共王喜；齒跨格父系、廣武侯望與日期字形等仍待續核，非全篇完成。",
+        "續核更新：原表廣武侯望、齒父系及五項表傳同人接合已處理；表原字、古注姓名兩說及北石後任首分存。下一步補原表生卒與稱號日期精度、地望；不稱本篇覆核完成。",
+        "續核紀年：正文及原表帝號兩錨點限定漢五年，未明月與冬季保跨年；元鼎六年秋保單年及秋字。御兒授爵段首年不當精確授日，另存原表蘌兒首封閏月。太初元年終古死與其餘生卒地望仍待續核。"
       ]
     },
     {
@@ -1204,7 +1218,8 @@
       "complete": false,
       "next_tasks": [
         "10段全文、22名候選與119處人物、7處未定錨點已首標；3項親屬、20項稱號、9項死亡與原籍已保存。",
-        "續核匿名者、代詞、校記及其餘跨篇身份，未完成全人物覆核。"
+        "續核匿名者、代詞、校記及其餘跨篇身份，未完成全人物覆核。",
+        "第二輪五組跨篇身份已接合並撤除五個舊ID；惠后時兩處未定君主保留。姓名古注、表文異名、親屬與生卒爵年續核。"
       ]
     },
     {
@@ -1215,7 +1230,8 @@
       "complete": false,
       "next_tasks": [
         "12段全文、24名來源候選、51處人物及18處未定錨點首標；兩項親屬、18項稱號、五項死亡、一項原籍與兩項跨篇同指已保存。",
-        "續核匿名君主、代詞、版本與其餘跨篇身份；全部人物辨認未完成。"
+        "續核匿名君主、代詞、版本與其餘跨篇身份；全部人物辨認未完成。",
+        "第二輪核心人物與兩名使者重複ID已撤除，五處後段滇王暫接嘗羌，唐蒙所稱南越王接胡，任官約定與紀年精度已分層；夜郎後段稱謂、篇末王統、其他未定指代與書影仍待核。"
       ]
     },
     {
@@ -1225,8 +1241,11 @@
       "person_status": "in_progress",
       "complete": false,
       "next_tasks": [
-        "71段全文、38名歷史／傳說來源候選已首標；兩項親屬、六項原籍或居處、14項稱號、兩項死亡與四項跨篇同指已保存。",
-        "續核虛構與典故身分、匿名者、代詞、版本及省略主語授任；全部人物辨認未完成。"
+        "71段傳世正文已通讀，初標及第二輪身份覆核仍屬進行中；匿名者、代詞、神話與賦體角色及版本問題尚未全部解決。",
+        "第二輪已分批接合開篇六組身份、33處當朝帝稱、三組古注稱謂與十三組引古身份；三處君道泛稱仍未連人，不將賦體場景當實際事件。",
+        "本批依古注接賁、育、慶忌及五宗篇所忠；所忠姓所名忠另有明文，慶忌不與漢代闕門慶忌合併，不由王字補姓。",
+        "相如初名與字、莊忌尊號／字歧義已分存；陽子、纖阿、鄭女曼姬、匿名妻、篇末公子及正文重複段仍待處理。引用範圍已記，未核書影。",
+        "陽子、纖阿、鄭女曼姬三項古注解釋已按署名與來源分存，候選不入已確認提及；卓氏婚暫接文君，篇末其妻仍列非窮盡候選。續核後半篇角色、相對紀年與重複轉錄。"
       ]
     },
     {
@@ -1237,7 +1256,12 @@
       "complete": false,
       "next_tasks": [
         "31段全文、108名來源候選已首標；23項親屬、45項稱號、14項死亡、三項埋葬地及四項跨篇同指已保存，七項授封公元年份已換算。",
-        "續核匿名者、代詞、校記、官稱交替、其他同指與完整稱號時段；不宣稱全部人物辨認完成。"
+        "續核匿名者、代詞、校記、官稱交替、其他同指與完整稱號時段；不宣稱全部人物辨認完成。",
+        "四十項身份接合後，太子遷父系與修成君母女、婚姻另已核存；七處厲王母分開子母人物錨點。四兄弟年表舊候選撤除，正文與原格同指並保留父子證據；七項授封西元年另核年表四、五月原句，未補公曆月日。七八歲、曲城侯、樓緩、救赫異文、馮敬行御史大夫事句讀仍待覆核，不稱全篇完成。",
+        "續核第14段衡山王先勃後賜等16處宗王與使者指代，三處王／相普通詞另分類，三處中尉錨點不含還入至動詞；張倉接張蒼並保留原字。補長出生原句與三項原地望，不借前段紀年補生年。報齡、徙封數值日期、馮敬句讀及異文仍待處理。",
+        "新增四子七八歲約數及原紀年、緩／南海王織／枚赫三項有據讀法，原字及ID不改；兩項徙王銜接前號終點，厲王追尊另有年月範圍，貞王得諡年仍未知。續核城陽王喜徙封鏈、馮敬句讀、曲城侯異說、匿名者及完整持職時段，未稱全篇完成。",
+        "五處缺位／帝位用語另分類，末段四處衛青／公孫弘逐人辨識；馮敬行事以平行句讀暫取，原標點及典客宗正各自保留。喜的兩次徙王與三段持爵、三個原表具名錨點分存；118帝年、52王年及漢書年數並列，不宣稱全篇、書影或異文校勘已完成。續核曲城侯、馮敬跨篇同名、匿名者與完整持職時段。",
+        "馮敬已以具體奏淮南事件接合賈生、淮南兩篇；父系反說、官職紀年與衡山家室其餘問題仍分別核讀。"
       ]
     },
     {
@@ -1248,7 +1272,11 @@
       "complete": false,
       "next_tasks": [
         "12段全文、17名來源候選已首標；兩項親屬、九項官職、三項死亡與一項跨篇同指已保存。",
-        "續核匿名者、代詞、身份異說與任期，孫叔敖其餘跨篇身份待核；全部人物辨認未完成。"
+        "續核匿名者、代詞、身份異說與任期，孫叔敖其餘跨篇身份待核；全部人物辨認未完成。",
+        "三君主跨篇接合、殺人者父親指代、治鄭二十六年已另存；鄭昭君仍未定；已核得杜注子產子國子，已導入有層次來源並暫採子國父系、同步遷移家族ID，成公異說保留；古注墓址另待處理。",
+        "子產父系已據三段杜注作編輯首選；尚未校定鄭昭君、聲公五年及其餘生卒紀年。",
+        "子產六篇同指及季札延陵季子已另存上下文判斷，冉季字子產分開；呂產、崔成兩處親屬詞縮界；年表子產逐人錨點、卒年異說取捨及伍子胥篇事件年代仍待續核。",
+        "子產年表七處名字、兩處子回指與子孔及鄭子成已逐人標記；首選昭公二十年病卒的前522年，聲公五年換年496另存。其餘年表、版本影像與伍子胥篇事件仍待續核。"
       ]
     },
     {
@@ -1259,7 +1287,10 @@
       "complete": false,
       "next_tasks": [
         "21段全文及35名來源候選初標；3條親屬、4條原籍、6條死亡、32條官爵、1組篇內與4組跨篇同指。",
-        "續核姑姊子、其先鄭君及其餘跨篇身份，補可確證的公元年代；生成個人JSON並完整驗證。"
+        "續核姑姊子、其先鄭君及其餘跨篇身份，補可確證的公元年代；生成個人JSON並完整驗證。",
+        "六組核心身份與姊妹方向已逐項覆核；餘下引古、王信、宗正劉棄疾、鄭君古注父說、汲黯七／十年及卒年、官稱異文與未定稱謂仍續核。",
+        "王信兩個候選、引古賁育袁盎、莊助與張羽已接合，太后已依親屬解名；仍續核宗正劉棄疾、鄭君古注父說、七／十歲計數與卒年、太史／大吏及其他未定稱謂，未核書影。",
+        "漢初三人、魏其及傳統太史公署稱已接合；仍續核劉棄／棄疾、傅柏／傅伯、鄭君古注父說、姑姊子、官稱與生卒紀年，不宣稱本篇完成。"
       ]
     },
     {
@@ -1270,7 +1301,13 @@
       "complete": false,
       "next_tasks": [
         "25段全文及88名來源候選初標；5條親屬、32條原籍、11條死亡、50條官爵，5名未發布候選接家族路徑。",
-        "核定元光元年與跨篇身份，補師承解析資料；生成個人JSON並完整驗證。"
+        "核定元光元年與跨篇身份，補師承解析資料；生成個人JSON並完整驗證。",
+        "楚王郢與戊父子、申公受刑同事已逐項接合，父子歸既有劉氏根；仍續核孔門人物、歷代帝王、太常臧、田何、師承與紀年，不宣稱完成。",
+        "十二組秦漢人物、六十一處原有稱謂逐段辨識接合；續核孔門、學者、未名者、師承及紀年，未完成全篇。",
+        "十二組孔門及戰國學者、十四處原有稱謂依本篇與專傳逐項接合；同字號異人及師承異說保留，續核學者、未名者與紀年，未完成全篇。",
+        "田何、王同、楊何傳易身份與弟子篇六處提及接合；子中／子仲原字及徵召、任官不同事件分存，續核未定人物及紀年。",
+        "孔子、周幽厲、齊威宣、王臧及湯武桀紂十組身份接合，保留三篇王臧同事及引古範圍；續核未定人物、書名與紀年，未完成全篇。",
+        "武帝朝董仲舒所相膠西王與劉端接合，排除景帝七國膠西王卬；繆字原樣保留，續核其餘候選及紀年。"
       ]
     },
     {
@@ -1281,7 +1318,9 @@
       "complete": false,
       "next_tasks": [
         "44段全文及91名來源候選初標；7條親屬、13條原籍、18條死亡、91條官爵與2組跨篇暫同指；七歳任期與四條明示任職終止已記。",
-        "續核舅父、短稱、跨篇身份、未定人物及官爵年代；生成逐人JSON並完整驗證。"
+        "續核舅父、短稱、跨篇身份、未定人物及官爵年代；生成逐人JSON並完整驗證。",
+        "六組先朝君主與條侯等身份、35處標記已附證接合；續核周陽侯異人、地望詞、未名者與後半身份紀年，未完成全篇。",
+        "另接合武帝、武安侯田蚡與陳皇后60處稱謂，並補周亞夫有據姓名欄位；續核周陽侯同爵異人、杜衍地望詞、後半人物與紀年，未完成全篇。"
       ]
     },
     {
@@ -1404,18 +1443,781 @@
       "next_tasks": [
         "目前收錄六個不連續原段、14處選定錨點、七項跨書身份、四條親屬及四項死亡數字年範圍。",
         "續核原月日及歲首範圍是否可收窄；另錄史記列傳五年／其春並記有據首選，不改原文。",
-        "其餘本紀、授號、報齡、匿名與短稱均未全錄；全卷目錄及書影續核。"
+        "其餘本紀、授號、報齡、匿名與短稱均未全錄；全卷目錄及書影續核。",
+        "續錄p133五姓名與六稱號；仍只七個不連續原段，未錄全卷。",
+        "本段原日期仍空；六項用稱及兩項明授將依史記相同出兵與元鼎五年秋另作平行事件換年，未知爵位始終不補。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-098",
+      "chapter_id": "c-hanshu-098-yuanhou",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄三段直接家族與姓名正文；其餘全卷、古注、版本影像及匿名人物仍待逐段。已分開女男排行、三名同母與父系近世家族，未接傳說遠祖。"
+      ]
+    },
+    {
+      "book_id": "b-zizhitongjian-020",
+      "chapter_id": "c-zizhitongjian-020-han12",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄南越父子一段；其餘全卷、校勘與人物待後續。",
+        "初回溯未標為元鼎四年；未補出生、婚姻或死亡確年。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-016",
+      "chapter_id": "table-chapter-hanshu-016",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "僅錄曲成一列；其餘功臣、全卷及書影待核。",
+        "保留蠱逢／蟲達、捷／犍、皋柔／皇柔與紀年異說。",
+        "孫與玄孫保留中間闕代，不推捷為皇柔父。"
+      ]
+    },
+    {
+      "book_id": "b-zuozhuan-zhushu-030",
+      "chapter_id": "c-zuozhuan-zhushu-030-xiang-005",
+      "chapter_ids": [
+        "c-zuozhuan-zhushu-030-xiang-005",
+        "c-zuozhuan-zhushu-030-xiang-008",
+        "c-zuozhuan-zhushu-030-xiang-009"
+      ],
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "僅襄公五、八、九年三段杜注節錄有原行字元位置及人物首標，不代表全年或全卷。",
+        "續核版本及子產其他系譜、紀年異說；未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-050",
+      "chapter_id": "c-hanshu-050-zhangfengjizheng",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄九處對讀節錄與79個人物／未定稱呼錨點，非全卷首輪完成。",
+        "補張釋之、馮唐與其餘傳文、贊；逐一核原籍、生卒、官爵任期及所引人物。",
+        "本文十世、十歳、姊子、大司農、大吏原字分存；不改史記七世、七歲、姑姊子、大農令、太史。",
+        "本次未核書影，卷末考證與夾注未冒作班固正文。",
+        "已存汲黯濮陽、鄭當時陳兩項傳首籍貫；其他地望、死亡與官爵時段續核，不推現代地點。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-059",
+      "chapter_id": "c-hanshu-059-zhangtang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四段66處人物與9處未定錨點，非全卷首輪完成。",
+        "續登昭帝紀及武五子傳平行證據、賀與上官氏等身份、張氏父系ID與安世跨篇同人；不合劉氏同名安世。",
+        "補其餘傳文、來源關係、官爵時段及紀年，未核書影。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-007",
+      "chapter_id": "c-hanshu-007-zhaodi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四處平行身份附證，非全卷首輪完成。",
+        "續錄全文、未名者、官爵時段與紀年；未核書影。"
+      ]
+    },
+    {
+      "book_id": "b-hanshu-063",
+      "chapter_id": "c-hanshu-063-wuwuzi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只錄四處平行身份附證，非全卷首輪完成。",
+        "續錄全文、未名者、官爵時段與紀年；未核書影。"
+      ]
+    },
+    {
+      "book_id": "b-sanguozhi-010",
+      "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "荀氏局部選錄已登記；親屬、排行、地望、字號與官爵仍在錄入。",
+        "完整卷篇與古注逐人標記、版本影像及跨史家族覆核未完成。",
+        "荀彧固定WYG數位見證去重閱讀層已擴；裴注缺文不補，未作全本校定。",
+        "大阪1670接口平行見證另篇；疑讀、匿名者、荀諶兄弟次序及父系推定待核。",
+        "荀攸296–393固定見證21段已首輪逐人標記；反向從子明言已由局部模型採入；韓莫異文、族父、姑子與祖父父親推定另待核；賈詡本傳未收。"
+      ]
+    },
+    {
+      "book_id": "b-houhanshu-062",
+      "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "荀氏局部選錄已登記；親屬、排行、地望、字號與官爵仍在錄入。",
+        "完整卷篇與古注逐人標記、版本影像及跨史家族覆核未完成。",
+        "陳寔／紀／諶完整正文及論贊、唐注宋校與七清考證已分層；其餘韓鍾合傳未全收。",
+        "人物未決與異文繼續核讀；不稱全卷完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-039",
+      "chapter_id": "c-jinshu-039-wangxun-feng",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "甥/從孫/兄玄孫與國嗣結構待模型；官爵紀年另typed，不補生母、出生或全官職終期。",
+        "荀綽候選及輯父提案待身份橋；官爵/生卒/地望另typed，未補生母或未知父鏈。",
+        "固定WS2108782卷039全66原始正文單元已投影69容器；首輪具名/稱謂標記，版本影像、異文、未定指涉與身份橋仍未決，官爵日期另批。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-xunsong-families",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "正在補完整荀崧傳、蕤與羨附傳；不能只以目前片段稱全卷已收齊。",
+        "四庫數位平行選段另有來源／篇ID，子籍父子明文已錄；其官爵及通行正文續核。",
+        "鄭阿春母系婚姻、荀羨年歲地望及各處帝稱仍在同批整理。",
+        "工作分支已補荀崧十二原段及荀蕤、荀羨附傳；經師單姓、劉寔同人、官爵生卒及版本差異仍在覆核，本批尚未發布。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-096",
+      "chapter_id": "c-jinshu-096-lienv",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "所列局部已逐人標記，親屬、地望、稱謂及身份判讀待錄入。",
+        "全卷、匿名者、古籍影像及校勘仍未完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-060",
+      "chapter_id": "c-songshu-060-xunbozi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "所錄家世、核心官職、生卒、來源地望及身份判斷已分存；續核旁及人物、未名者與其他用稱。",
+        "荀昶絕服五世未作親等；未具名父祖、未知生母不補。",
+        "全卷、印本影像、古注所引獨立版本及完整稱號時段仍未完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-044",
+      "chapter_id": "c-songshu-044-xiehui",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "所錄家世、核心官職、生卒、來源地望及身份判斷已分存；續核旁及人物、未名者與其他用稱。",
+        "荀昶絕服五世未作親等；未具名父祖、未知生母不補。",
+        "全卷、印本影像、古注所引獨立版本及完整稱號時段仍未完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-042",
+      "chapter_id": "c-songshu-042-wanghong",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "所錄家世、核心官職、生卒、來源地望及身份判斷已分存；續核旁及人物、未名者與其他用稱。",
+        "荀昶絕服五世未作親等；未具名父祖、未知生母不補。",
+        "全卷、印本影像、古注所引獨立版本及完整稱號時段仍未完成。",
+        "已增本包完整傳主單元、人物與直接親屬；引語代詞、未決稱謂及官爵生卒續核，不宣稱全卷完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-033",
+      "chapter_id": "c-jinshu-033-wanglan-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "已錄八段家世、親屬、任職、地望及生卒，遠祖泛稱不納入父系；王祥其餘傳文及本卷其他人物待錄。",
+        "固定數位異文及來源品質問題仍待續核，未宣稱全卷校定。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-065",
+      "chapter_id": "c-jinshu-065-wangdao-family",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "已錄四段直接父系、王洽358年卒及報齡三十六、五項未受或未赴任紀錄。",
+        "王導及其餘附傳、母親收養、婚姻及其餘官職時段仍待逐段核錄。",
+        "卷065完整傳文已錄，續核代詞、泛稱、異字及跨包身份。",
+        "兩項為嗣語式及婚配終止候選未匯入；王謐父系安置待根裁決。",
+        "phase4已補稱號任職、明確終止、死亡報齡、地望及紀年；續核待決原字、未受語式及傳主受贈語法。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-079",
+      "chapter_id": "c-jinshu-079-xielang-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "謝安／琰／混三完整傳主單元補入；其餘附傳及全卷未稱完成。",
+        "古人字橋、母憂、甥、淡澹及婚姻不終另列研究，尚未影像校勘。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangyi-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "已錄四段家世、母系姨弟、未赴任、先卒後贈官及跨宋書身份。",
+        "中興賦等中段與本卷其他傳記未錄，疑缺字與未定官職年月仍待核，不稱全卷完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-066",
+      "chapter_id": "c-songshu-066-wangjinghong",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王敬弘傳九個完整原段已錄並標記；原詞、未名群體及數位校注分層保留，卷內何尚之本傳未錄。",
+        "太祖、順帝、廬陵王、江夏王與道規已存固定平行辨名證據；親屬、出繼、家族ID、職爵與生卒日期續錄。",
+        "南齊書及南史對讀仍有紀年與姓名異寫，未稱整卷或全部身份已完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-032",
+      "chapter_id": "c-jinshu-032-zheng-achun-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本批正在續錄婚姻、生母、撫養及相關全傳；全卷未完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-064",
+      "chapter_id": "c-jinshu-064-yuandi-six-sons",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本批正在續錄婚姻、生母、撫養及相關全傳；全卷未完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-007",
+      "chapter_id": "c-jinshu-007-chengdi-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "僅錄成帝家世傳首，名字父子已連至荀崧傳指代；全本紀及稱號紀年未完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-001",
+      "chapter_id": "c-jinshu-001-sima-near-ancestry",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本紀傳首近世父系已錄；遠祖說法未採樹，重黎單人或合稱待核。整卷、生平與跨卷帝室接合續核。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-038",
+      "chapter_id": "c-jinshu-038-langye-near-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "兩處父子節錄已錄；續讀宣帝九男與伷、覲、繇各傳全文並接合家族ID，不能以節錄冒稱全段完成。"
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-032",
+      "chapter_id": "c-nanqishu-032-wangyanzhi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整七原段已錄；出繼結構、帝王府主平行辨識與紀年、官爵續錄。",
+        "粲之／瓚之不強合；倫之／綸之待南史同父同事證據正式接合；同卷其他五篇未錄。"
+      ]
+    },
+    {
+      "book_id": "b-nanshi-024",
+      "chapter_id": "c-nanshi-024-wang-family",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "補府主、武帝具名依據及異名判讀記錄。",
+        "原文紀年異說、婚姻離異、稱號、籍貫與來源母系關係續錄；同卷其餘正文未錄。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-005",
+      "chapter_id": "c-songshu-005-wendi-annal",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本次僅王敬弘卒年一原段；全本紀及年段其他人物未錄。",
+        "447／448來源異說已分存並暫定首選，未核底本影像。"
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-046",
+      "chapter_id": "c-nanqishu-046-wangxiuzhi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本次選定原段逐人初辨；正式身份、親屬、職爵、生卒與異說續核。",
+        "同卷其他本傳與底本影像尚未核讀，不宣稱整卷完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-093",
+      "chapter_id": "c-songshu-093-recluses",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本次選定原段逐人初辨；正式身份、親屬、職爵、生卒與異說續核。",
+        "同卷其他本傳與底本影像尚未核讀，不宣稱整卷完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-092",
+      "chapter_id": "c-songshu-092-wangzhenzhi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王鎮之原段初辨，親屬組裝、職爵、生卒及地望續錄。",
+        "同卷其餘傳記與底本影像尚未完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-032",
+      "chapter_id": "c-jinshu-032-he-empress",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整何皇后傳兩原段已錄；父女關係與生卒職爵待結構化。",
+        "其餘同卷傳記及影像未核。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangbin",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王彬完整四原段已錄，關係、職爵與身份判斷續錄。",
+        "同卷王彪之、王棱等完整單元接續整理；影像未核。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangleng",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王棱及弟侃完整原段已錄；身份、親屬與職爵續核。",
+        "未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-076",
+      "chapter_id": "c-jinshu-076-wangbiaozhi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王彪之完整十八原段已錄，正式身份判斷、親屬、生卒、官爵續錄。",
+        "原稱遵與事件指涉晞的差異保留，版影未核。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-chushuang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本傳完整原段已錄，親屬、身份、稱謂、地望、報齡及紀年續核。",
+        "褚裒與康獻褚皇后完整原段已同批錄入，續核稱謂時段。",
+        "未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-032",
+      "chapter_id": "c-jinshu-032-chu-lingyuan",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "本傳完整原段已錄，親屬、身份、稱謂、地望、報齡及紀年續核。",
+        "褚裒與康獻褚皇后完整原段已同批錄入，續核稱謂時段。",
+        "未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-chupou",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整六原段已錄；身份、祖系接合、職爵與生卒續核。",
+        "吳王依本紀辨為康帝岳；西陽王羕證據已備，待父子原文匯入後配號。數位校勘異名仍待核。",
+        "未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-032",
+      "chapter_id": "c-jinshu-032-chu-suanzi",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整六原段已錄，身份、母與前母、臨朝、職爵及生卒續核。",
+        "司徒及二媯、有莘典故待平行原文，不造單人。",
+        "未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yu-yi-bing-tiao",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "原21段完整傳文及第二輪人物錨點已錄；未核影像。未定稱謂、身份候選、匿名者及廓／廓之同人仍待審；未稱全卷或全部人物完成。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-053",
+      "chapter_id": "c-songshu-053-yu-dengzhi",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "原21段完整傳文及第二輪人物錨點已錄；未核影像。未定稱謂、身份候選、匿名者及廓／廓之同人仍待審；未稱全卷或全部人物完成。",
+        "Phase7同固定宋053補弟炳之完整8段；庾杲之祖深之父粲另支，不猜跨族父系。人物、匿名者、代詞、官爵、紀年及影像待續核。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-075",
+      "chapter_id": "c-jinshu-075-taiyuan-wang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "兩完整傳文單元已核讀；未決王號、排行矛盾、他族身份、匿名親屬及影像仍待續核；不宣稱全卷或整族完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-042",
+      "chapter_id": "c-jinshu-042-taiyuan-wang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "兩完整傳文單元已核讀；未決王號、排行矛盾、他族身份、匿名親屬及影像仍待續核；不宣稱全卷或整族完成。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-liang-yang",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "司馬亮／羕八完整選段的逐人初稿；四個五子名單父系模型與息崧父稱待審；不宣稱全卷、全族或影像覆核完成。"
+      ]
+    },
+    {
+      "book_id": "b-zizhitongjian-094",
+      "chapter_id": "c-zizhitongjian-094-xiyang-kinship",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整紀事作羕播充崧親屬旁證，只先標四端點，其餘人物待逐篇標記。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-073",
+      "chapter_id": "c-jinshu-073-yuliang",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "庾亮及三子35完整原段初辨；待核匿名者、代詞、引古及圖像。",
+        "琛至亮明文父子；兄弟接琛是contextual_provisional編輯組裝，非新增原文父子斷言。",
+        "官爵、生卒與地望待下一階段完整型別化；未擴錄庾琛外戚傳或庾翼全傳。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-037",
+      "chapter_id": "c-jinshu-037-phase5-pengcheng",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只收完整相關一段，未宣稱全卷或全傳標記／影像覆核完成。",
+        "馗接防推論及息崧主語另存pending，不補未知父母。"
+      ]
+    },
+    {
+      "book_id": "b-jinshu-100",
+      "chapter_id": "c-jinshu-100-phase5-sujun",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只收完整相關一段，未宣稱全卷或全傳標記／影像覆核完成。",
+        "馗接防推論及息崧主語另存pending，不補未知父母。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-063",
+      "chapter_id": "c-songshu-063-wanghua-tanshou",
+      "next_tasks": [
+        "已增本包完整傳主單元、人物與直接親屬；引語代詞、未決稱謂及官爵生卒續核，不宣稱全卷完成。"
+      ],
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false
+    },
+    {
+      "book_id": "b-nanqishu-034",
+      "chapter_id": "c-nanqishu-034-yugaozhi",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整杲之與附孔廣6段首輪標記；王號、袁公、匿名者及精確任職仍未決。",
+        "新野支不與潁川支合併；不由死亡報齡倒算出生。"
+      ]
+    },
+    {
+      "book_id": "b-sanguozhi-015",
+      "chapter_id": "c-sanguozhi-015-pei-simabiao-xuzhuan",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整裴注引序傳已錄，未宣稱司馬朗全文或全卷完成。",
+        "正文／古注分層，轉引司馬彪序傳未親核原書影像。"
+      ]
+    },
+    {
+      "book_id": "b-sanguozhi-019",
+      "chapter_id": "c-sanguozhi-019-yangxiu",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "楊脩完整附傳裴注七個編輯分層段，非曹植全傳；匿名與引古多義指代仍待核。",
+        "不接楊敞、楊震、楊駿支；俊接準已採可撤回同父推論；曹公已依跨篇證據接魏武，仍須區分宋太祖敘事與引古。"
+      ]
+    },
+    {
+      "book_id": "b-sanguozhi-010",
+      "chapter_id": "c-sanguozhi-010-osaka1670-ni-heng-interface",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "僅canvas7末至10傅子接尾，未轉錄整卷；不混補Kanripo。",
+        "憤滿／帽等疑讀與人物稱謂待人工覆核。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-058",
+      "chapter_id": "c-songshu-058-xiehongwei",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "固定見證謝弘微完整本傳九個編輯段；王惠、王球、謝方明等其他傳主未由本批完成。",
+        "收養模型、從叔/族子/舅子及思恩異字另存完整提案，不混生父與嗣父，不補未知母親與年月。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-085",
+      "chapter_id": "c-songshu-085-xiezhuang",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "謝莊完整本傳固定數位單元15段、奏表與賦全文；王景文等未在本批完成。",
+        "王徽/微、引古省稱、未名群體保留未決；官爵/紀年另包，報齡不推生年，既有莊ID接父系另提案。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-075",
+      "chapter_id": "c-songshu-075-wangsengda",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王僧達完整20段已錄；未代表顏竣及整卷完成。",
+        "族子及詐籍事件保留typed提案；官爵生卒另批，未判稱謂續核。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-067",
+      "chapter_id": "c-songshu-067-xielingyun",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整來源已投影；逐人首輪，全部省稱、引古與代詞候選待外部身份橋，不代表全文身份已定。",
+        "官爵、紀年、報齡與地望僅typed提案；史臣論與清考證未作本傳正文。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-071",
+      "chapter_id": "c-songshu-071-wangsengchuo",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王僧綽完整853字已錄；徐湛之、江湛與卷末史評、考證未作本章正文。",
+        "官爵生卒另typed包；王儉及王微父系改置另提，不在本包改號。",
+        "二凶集合、始興王、庶人及袁悅等候選續核。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-062",
+      "chapter_id": "c-songshu-062-wangwei",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王微完整3401字含書信、僧謙及遺令詔已錄；史臣清考證分層。",
+        "官爵生卒、無子、出嗣及左率第五兒另typed未決；不補字不倒算生年。",
+        "王微接父孺ID另提，不改085；未知稱謂仍待核。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-053",
+      "chapter_id": "c-songshu-053-xiefangming",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "326–397方明及惠連惠宣完整來源首輪；保留同卷既有庾氏，不宣稱張/江或全卷完成。",
+        "王騰/未名群體仍未決；官爵日期及母角色/家世推導留typed，既有ID不rekey。"
+      ]
+    },
+    {
+      "book_id": "b-songshu-056",
+      "chapter_id": "c-songshu-056-xiezhan",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "13–53謝瞻及㬭世平完整單元首輪；孔琳之未收，不宣稱全卷完成。",
+        "族叔、撫養及官爵紀年留typed；琅邪王已按固定晉010時序辨德文；未核影像。"
+      ]
+    },
+    {
+      "book_id": "b-nanshi-022",
+      "chapter_id": "c-nanshi-022-wangzhi",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "完整王志560字附傳及末揖子筠已錄；499後筠傳不稱已收。",
+        "生卒官爵另facts，普通四年是改葬不當死亡。"
+      ]
+    },
+    {
+      "book_id": "b-nanqishu-033",
+      "chapter_id": "c-nanqishu-033-wangsengqian",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "王僧虔完整3772字含三書論書誡子；張緒史評清考證分層。",
+        "官爵生卒另facts包；誡子受話不唯一，不補生母。",
+        "同音僧謙與僧虔分人；跨時代王融馬超分人。"
+      ]
+    },
+    {
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+      "text_status": "partial_transcription",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "原行60–276陳羣/泰完整正文與十四注層已收；陳矯等同卷其他傳主未完成。",
+        "戴/徵切詞、孫子雙候選與典故仍待核；官爵/紀年/地望另包，陳氏既有ID接合另案。"
+      ]
+    },
+    {
+      "book_id": "b-gujin-tongxingminglu-001",
+      "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只收指定完整同姓名條目，未稱全卷／全書完成；其餘同名槽及嵌入人物指稱保留未決。",
+        "未署原錄傳存、葉續及未署按語分層；未核梁原本、獨立續補本及書影。",
+        "不由名錄分列自動新建人或增親屬，不採錯稱王坦為正式別名。"
+      ]
+    },
+    {
+      "book_id": "b-gujin-tongxingminglu-002",
+      "chapter_id": "c-gujin-tongxingminglu-002-wang-entries",
+      "text_status": "transcribed",
+      "person_status": "in_progress",
+      "complete": false,
+      "next_tasks": [
+        "只收指定完整同姓名條目，未稱全卷／全書完成；其餘同名槽及嵌入人物指稱保留未決。",
+        "未署原錄傳存、葉續及未署按語分層；未核梁原本、獨立續補本及書影。",
+        "不由名錄分列自動新建人或增親屬，不採錯稱王坦為正式別名。"
       ]
     }
   ],
   "next_book": {
-    "book_id": "b-shiji-112",
-    "chapter_id": "c-shiji-112-pingjin",
-    "number": 112,
-    "title": "平津侯主父列傳第五十二",
+    "book_id": "b-shiji-117",
+    "chapter_id": "c-shiji-117-xiangru",
+    "number": 117,
+    "title": "司馬相如列傳第五十七",
     "status": "in_progress",
-    "next_paragraph_id": "c-shiji-112-pingjin:p013",
-    "next_task": "續核成進、屠睢、監祿、校補尉[佗]與其餘引古、先帝及附詔王元后；姓名親屬須有正規來源段，底本影像未核。"
+    "next_paragraph_id": "c-shiji-117-xiangru:p052",
+    "next_task": "續核118篇曲城侯、馮敬跨篇同名與匿名官稱；已分存報齡、三項姓名、代理句讀及喜轉封紀年來源差異，完整覆核未完。117篇神名、徐廣紀年及重複轉錄續核。"
   },
   "legacy_sources": {
     "status": "migration_pending",

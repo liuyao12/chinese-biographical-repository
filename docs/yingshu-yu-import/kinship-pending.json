@@ -1,0 +1,50 @@
+{
+  "human_reviewed": false,
+  "model": null,
+  "items": [
+    {
+      "predicate": "maternal_cousin",
+      "subject_label": "武沈",
+      "object_label": "庾希",
+      "source_term": "從母兄",
+      "evidence": {
+        "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+        "quote": "故青州刺史武沈，希之從母兄也"
+      },
+      "interpretation": "明載母系同輩且武沈年長；不能接父系，不推母親名字；現行schema特殊maternal_cousin支持姨弟形式，未直接套用從母兄，故保留待型別檢查後整合。"
+    },
+    {
+      "predicate": "affinity_unspecified",
+      "subject_label": "桓秘",
+      "object_label": "庾友",
+      "source_term": "友子婦，桓秘女也",
+      "evidence": {
+        "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line113",
+        "quote": "及友當伏誅，友子婦，桓秘女也，請溫，故得免。"
+      },
+      "interpretation": "庾友未名兒子的妻子是桓秘未名女兒；不能直接把桓秘女配庾友本人，也不能無證據認定其夫為叔宣。"
+    },
+    {
+      "predicate": "spouse",
+      "subject_label": "庾冰未名女",
+      "object_label": "海西公（晉廢帝）",
+      "source_term": "冰女又為海西公妃",
+      "evidence": {
+        "paragraph_id": "c-jinshu-073-yu-yi-bing-tiao:line109",
+        "quote": "冰女又為海西公妃"
+      },
+      "interpretation": "有據未名女及婚姻；本批未核皇后本傳，不補姓名及婚配年月。待建立匿名錨點後導入。"
+    },
+    {
+      "predicate": "affinity_unspecified",
+      "subject_label": "庾登之",
+      "object_label": "謝晦",
+      "source_term": "俱曹氏壻",
+      "evidence": {
+        "paragraph_id": "c-songshu-053-yu-dengzhi:line047",
+        "quote": "登之與晦俱曹氏壻"
+      },
+      "interpretation": "只記共同曹氏姻親背景；不能只由曹氏補同一父母、姐妹名或婚配年份。"
+    }
+  ]
+}

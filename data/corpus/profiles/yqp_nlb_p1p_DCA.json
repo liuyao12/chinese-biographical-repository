@@ -9,7 +9,8 @@
     "楚王戊",
     "王戊",
     "戊",
-    "楚王"
+    "楚王",
+    "太子戊"
   ],
   "titles": [
     {
@@ -110,6 +111,100 @@
       "interpretation_note": "任事、自立、授予與一般／追稱分開；王於某地不補未見複合爵名，未知任期不由卒日或首次用稱推算。即位時長原語保留，不由相對年數換算公曆端點。 第4段時長原語「王戊立二十年」另附證據，不換算起訖日月；卒字不作所有爵位終止規則。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji121-009",
+      "person_id": "yqp_nlb_p1p_DCA",
+      "title": "太子",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-009:a001",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "start": 59,
+          "end": 61,
+          "surface": "太子",
+          "person_mention_id": "c-shiji-121-rulin:m007-0059",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji121-010",
+      "person_id": "yqp_nlb_p1p_DCA",
+      "title": "楚王",
+      "kind": "royal_rank",
+      "mode": "accession",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji121-010:a001",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "start": 80,
+          "end": 82,
+          "surface": "楚王",
+          "person_mention_id": "c-shiji-121-rulin:m007-0059",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "accession",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-121-rulin",
+              "source_id": "s-shiji121-rulin",
+              "paragraph_id": "c-shiji-121-rulin:p007",
+              "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依原文區分授任、貶任與用稱；未明日期保持未知，死亡不自動終止官爵。敘事時長不反推公元年。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -175,7 +270,34 @@
       "title": "孝景本紀第十一",
       "paragraph_id": "c-shiji-011-jingdi:p004",
       "count": 1,
-      "quote": "三年正月乙巳，赦天下。長星出西方。天火燔雒陽東宮大殿城室。吳王濞、楚王戊、趙王遂、膠西王卬、濟南王辟光、菑川王賢、膠東王雄渠反，發兵西鄉。天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。上乃遣大將軍竇嬰、太尉周亞夫將兵誅之。六月乙亥。赦亡軍及楚元王子藝等與謀反者。封大將軍竇嬰為"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "三年正月乙巳，赦天下。長星出西方。天火燔雒陽東宮大殿城室。吳王濞、楚王戊、趙王遂、膠西王卬、濟南王辟光、菑川王賢、膠東王雄渠反，發兵西鄉。天子為誅晁錯，遣袁盎諭告，不止，遂西圍梁。上乃遣大將軍竇嬰、太尉周亞夫將兵誅之。六月乙亥。赦亡軍及楚元王子藝等與謀反者。封大將軍竇嬰為",
+      "paragraph_ids": [
+        "c-shiji-011-jingdi:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-011-jingdi:m004-0033"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-011-jingdi:m004-0033": "c-shiji-011-jingdi:p004"
+      },
+      "mention_id": "c-shiji-011-jingdi:m004-0033",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m004-0033",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m004-0033"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source_id": "s-shiji-011-jingdi",
+      "work_title": "史記"
     },
     {
       "number": 35,
@@ -183,14 +305,43 @@
       "title": "荊燕吳王傳第五",
       "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p018",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝而前，銳甚。梁孝王恐，遣將軍擊之，又敗梁兩軍，士卒皆還走。梁數使使條侯求救，條侯不許。又使使愬條侯於上，上使告條侯救梁，又守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳",
-      "work_id": "w-hanshu",
-      "work_title": "漢書",
-      "book_id": "b-hanshu-035",
-      "chapter_id": "c-hanshu-035-jingyanwu",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p018"
-      ]
+      ],
+      "mention_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:m018-0009",
+        "c-hanshu-035-jingyanwu:wuwang:m018-0308"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-035-jingyanwu:wuwang:m018-0009": "c-hanshu-035-jingyanwu:wuwang:p018",
+        "c-hanshu-035-jingyanwu:wuwang:m018-0308": "c-hanshu-035-jingyanwu:wuwang:p018"
+      },
+      "mention_id": "c-hanshu-035-jingyanwu:wuwang:m018-0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-035-jingyanwu:wuwang:m018-0009",
+          "mention_ids": [
+            "c-hanshu-035-jingyanwu:wuwang:m018-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-035-jingyanwu:wuwang:m018-0308",
+          "mention_ids": [
+            "c-hanshu-035-jingyanwu:wuwang:m018-0308"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "work_title": "漢書"
     },
     {
       "number": 50,
@@ -198,7 +349,91 @@
       "title": "楚元王世家第二十",
       "paragraph_id": "c-shiji-050-chuyuan:p003",
       "count": 7,
-      "quote": "陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。"
+      "raw_count": 7,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。",
+      "paragraph_ids": [
+        "c-shiji-050-chuyuan:p003",
+        "c-shiji-050-chuyuan:p004",
+        "c-shiji-050-chuyuan:p010",
+        "c-shiji-050-chuyuan:p011"
+      ],
+      "mention_ids": [
+        "c-shiji-050-chuyuan:m003-0047",
+        "c-shiji-050-chuyuan:m004-0000",
+        "c-shiji-050-chuyuan:m004-0025",
+        "c-shiji-050-chuyuan:m004-0048",
+        "c-shiji-050-chuyuan:m004-0096",
+        "c-shiji-050-chuyuan:m010-0037",
+        "c-shiji-050-chuyuan:m011-0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-050-chuyuan:m003-0047": "c-shiji-050-chuyuan:p003",
+        "c-shiji-050-chuyuan:m004-0000": "c-shiji-050-chuyuan:p004",
+        "c-shiji-050-chuyuan:m004-0025": "c-shiji-050-chuyuan:p004",
+        "c-shiji-050-chuyuan:m004-0048": "c-shiji-050-chuyuan:p004",
+        "c-shiji-050-chuyuan:m004-0096": "c-shiji-050-chuyuan:p004",
+        "c-shiji-050-chuyuan:m010-0037": "c-shiji-050-chuyuan:p010",
+        "c-shiji-050-chuyuan:m011-0030": "c-shiji-050-chuyuan:p011"
+      },
+      "mention_id": "c-shiji-050-chuyuan:m003-0047",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m003-0047",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m003-0047"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m004-0000",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m004-0025",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0025"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m004-0048",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m004-0096",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m004-0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m010-0037",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m010-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-050-chuyuan:m011-0030",
+          "mention_ids": [
+            "c-shiji-050-chuyuan:m011-0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-050",
+      "chapter_id": "c-shiji-050-chuyuan",
+      "source_id": "s-shiji-050-chuyuan",
+      "work_title": "史記"
     },
     {
       "number": 52,
@@ -206,7 +441,34 @@
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p025",
       "count": 1,
-      "quote": "齊孝王十一年，吳王濞、楚王戊反，興兵西，告諸侯曰「將誅漢賊臣晁錯以安宗廟」。膠西、膠東、菑川、濟南皆擅發兵應吳楚。欲與齊，齊孝王狐疑，城守不聽，三國兵共圍齊。齊王使路中大夫告於天子。天子復令路中大夫還告齊王：「善堅守，吾兵今破吳"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "齊孝王十一年，吳王濞、楚王戊反，興兵西，告諸侯曰「將誅漢賊臣晁錯以安宗廟」。膠西、膠東、菑川、濟南皆擅發兵應吳楚。欲與齊，齊孝王狐疑，城守不聽，三國兵共圍齊。齊王使路中大夫告於天子。天子復令路中大夫還告齊王：「善堅守，吾兵今破吳",
+      "paragraph_ids": [
+        "c-shiji-052-qidaohui:p025"
+      ],
+      "mention_ids": [
+        "c-shiji-052-qidaohui:m025-0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-052-qidaohui:m025-0011": "c-shiji-052-qidaohui:p025"
+      },
+      "mention_id": "c-shiji-052-qidaohui:m025-0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m025-0011",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m025-0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "chapter_id": "c-shiji-052-qidaohui",
+      "source_id": "s-shiji-052-qidaohui",
+      "work_title": "史記"
     },
     {
       "number": 106,
@@ -214,7 +476,154 @@
       "title": "吳王濞列傳第四十六",
       "paragraph_id": "c-shiji-106-wuwang:p004",
       "count": 8,
-      "quote": "削之亦反，不削之亦反。削之，其反亟，禍小；不削，反遲，禍大。」三年冬，楚王朝，晁錯因言楚王戊往年為薄太后服，私姦服舍，請誅之。詔赦，罰削東海郡。因削吳之豫章郡、會稽郡。及前二年趙王有罪，削其河閒郡。膠西王卬以賣爵有姦，削其六縣。"
+      "raw_count": 8,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "削之亦反，不削之亦反。削之，其反亟，禍小；不削，反遲，禍大。」三年冬，楚王朝，晁錯因言楚王戊往年為薄太后服，私姦服舍，請誅之。詔赦，罰削東海郡。因削吳之豫章郡、會稽郡。及前二年趙王有罪，削其河閒郡。膠西王卬以賣爵有姦，削其六縣。",
+      "paragraph_ids": [
+        "c-shiji-106-wuwang:p004",
+        "c-shiji-106-wuwang:p005",
+        "c-shiji-106-wuwang:p009",
+        "c-shiji-106-wuwang:p016",
+        "c-shiji-106-wuwang:p017"
+      ],
+      "mention_ids": [
+        "c-shiji-106-wuwang:m004-0234",
+        "c-shiji-106-wuwang:m004-0242",
+        "c-shiji-106-wuwang:m005-0503",
+        "c-shiji-106-wuwang:m009-0060",
+        "c-shiji-106-wuwang:m009-0267",
+        "c-shiji-106-wuwang:m016-0167",
+        "c-shiji-106-wuwang:m017-0009",
+        "c-shiji-106-wuwang:m017-0316"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-106-wuwang:m004-0234": "c-shiji-106-wuwang:p004",
+        "c-shiji-106-wuwang:m004-0242": "c-shiji-106-wuwang:p004",
+        "c-shiji-106-wuwang:m005-0503": "c-shiji-106-wuwang:p005",
+        "c-shiji-106-wuwang:m009-0060": "c-shiji-106-wuwang:p009",
+        "c-shiji-106-wuwang:m009-0267": "c-shiji-106-wuwang:p009",
+        "c-shiji-106-wuwang:m016-0167": "c-shiji-106-wuwang:p016",
+        "c-shiji-106-wuwang:m017-0009": "c-shiji-106-wuwang:p017",
+        "c-shiji-106-wuwang:m017-0316": "c-shiji-106-wuwang:p017"
+      },
+      "mention_id": "c-shiji-106-wuwang:m004-0234",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m004-0234",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m004-0234"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m004-0242",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m004-0242"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m005-0503",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m005-0503"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m009-0060",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m009-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m009-0267",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m009-0267"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m016-0167",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m016-0167"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m017-0009",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m017-0009"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m017-0316",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m017-0316"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-106",
+      "chapter_id": "c-shiji-106-wuwang",
+      "source_id": "s-shiji-106-wuwang",
+      "work_title": "史記"
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p007",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p007"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m007-0059",
+        "c-shiji-121-rulin:m007-0063",
+        "c-shiji-121-rulin:m007-0077"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m007-0059": "c-shiji-121-rulin:p007",
+        "c-shiji-121-rulin:m007-0063": "c-shiji-121-rulin:p007",
+        "c-shiji-121-rulin:m007-0077": "c-shiji-121-rulin:p007"
+      },
+      "mention_id": "c-shiji-121-rulin:m007-0059",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m007-0059",
+          "mention_ids": [
+            "c-shiji-121-rulin:m007-0059"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m007-0063",
+          "mention_ids": [
+            "c-shiji-121-rulin:m007-0063"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m007-0077",
+          "mention_ids": [
+            "c-shiji-121-rulin:m007-0077"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -252,7 +661,12 @@
             "quote": "子王戊立"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     }
   ],
   "sources": [
@@ -384,6 +798,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
       "chapter_id": "table-chapter-shiji-017",
       "work_id": "w-shiji",
       "book_id": "b-shiji-017",
@@ -398,6 +836,29 @@
         "revision": "2607010",
         "accessed": "2026-10-13",
         "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
         "edition": null,
         "image_verified": false,
         "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
@@ -428,6 +889,26 @@
       },
       "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji121-001",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_DC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "令申公傅其太子戊"
+      },
+      "interpretation_note": "其太子戊承接郢為楚王，且郢卒戊立；記明示父子，不補生母或出生排行。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
@@ -435,7 +916,50 @@
     "yqp_nlb_p1p_DCA": "戊（楚王）"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_DCA",
+      "title": "楚王",
+      "surname": "劉",
+      "ming": "戊",
+      "additional_names": [
+        "太子戊"
+      ],
+      "chapter_id": "c-shiji-121-rulin",
+      "paragraph_id": "c-shiji-121-rulin:p007",
+      "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+      "note": "戊為本篇所記太子及繼王名；劉姓按明書劉郢之子、漢宗室既有父系作上下文判讀，不聲稱原句連書劉戊。不是按所有單字名普遍補姓，不補生母或授爵年月。",
+      "component_evidence": [
+        {
+          "field_names": [
+            "title"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-050",
+          "chapter_id": "c-shiji-050-chuyuan",
+          "source_id": "s-shiji-050-chuyuan",
+          "paragraph_id": "c-shiji-050-chuyuan:p003",
+          "quote": "高祖六年，已禽楚王韓信於陳，乃以弟交為楚王，都彭城。即位二十三年卒，子夷王郢立。夷王四年卒，子王戊立。"
+        },
+        {
+          "field_names": [
+            "surname",
+            "ming"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-121",
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。",
+          "basis": "documented_paternal_lineage_context",
+          "source_assertion_id": "a-shiji050-006"
+        }
+      ],
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_DCA"
   ],
@@ -459,6 +983,26 @@
         "historicity": "historical_tradition"
       },
       "interpretation_note": "明示子、生與兄弟分型；劉交同母少弟保留限定，不由諸王繼位補未見血親，巨嫂不自動作信生母，德侯子不補父名或繼封。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji121-001",
+      "subject_person_id": "yqp_nlb_p1p_DCA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_DC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-121-rulin",
+          "source_id": "s-shiji121-rulin",
+          "paragraph_id": "c-shiji-121-rulin:p007",
+          "quote": "申公者，魯人也。高祖過魯，申公以弟子從師入見高祖于魯南宮。呂太后時，申公游學長安，與劉郢同師。已而郢為楚王，令申公傅其太子戊。戊不好學，疾申公。及王郢卒，戊立為楚王，胥靡申公。申公恥之，歸魯，退居家教，終身不出門，復謝絕賓客，獨王命召之乃往。弟子自遠方至受業者百餘人。申公獨以詩經為訓以教，無傳（疑），疑者則闕不傳。"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "令申公傅其太子戊"
+      },
+      "interpretation_note": "其太子戊承接郢為楚王，且郢卒戊立；記明示父子，不補生母或出生排行。",
       "reviewer": "Codex（AI 代理）"
     }
   ],
@@ -678,7 +1222,121 @@
         "reviewer": "Codex（AI 代理）",
         "human_reviewed": false,
         "model": null
+      },
+      "chinese_civil_year": {
+        "calendar": "chinese_civil",
+        "era": "BCE",
+        "era_year": 154,
+        "year": -153,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "regnal_year_number": 3,
+        "source_expression": "孝景帝三年",
+        "status": "editorial_provisional",
+        "original_quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
+        "evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-106",
+            "chapter_id": "c-shiji-106-wuwang",
+            "source_id": "s-shiji-106-wuwang",
+            "paragraph_id": "c-shiji-106-wuwang:p017",
+            "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
+            "person_mention_id": "c-shiji-106-wuwang:m017-0316"
+          }
+        ],
+        "context_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-106",
+            "chapter_id": "c-shiji-106-wuwang",
+            "source_id": "s-shiji-106-wuwang",
+            "paragraph_id": "c-shiji-106-wuwang:p009",
+            "quote": "孝景帝三年正月甲子，初起兵於廣陵。"
+          }
+        ],
+        "year_equivalence": {
+          "table_id": "shiji-022",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "regnal_era_cell_id": "shiji-022-t1-r051-c01",
+          "regnal_era_quote": "孝景元年",
+          "regnal_year_cell_id": "shiji-022-t1-r053-c01",
+          "regnal_year_quote": "三",
+          "editorial_year_cell_id": "shiji-022-t1-r053-c00",
+          "editorial_year_quote": "154",
+          "event_cell_id": "shiji-022-t1-r053-c02",
+          "event_quote": "吳楚七國反，發兵擊，皆破之。皇子端為膠西王，勝為中山王。"
+        },
+        "rationale": "本篇明書孝景帝三年起兵，後敘同次七國戰敗楚王戊自殺，年表同列記七國皆破。年度標籤採數位編者對照西元前154年；不是確切公曆日期，也不是從跨年範圍端點推定。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null,
+        "image_verified": false
       }
+    }
+  ],
+  "chinese_civil_year_normalizations": [
+    {
+      "calendar": "chinese_civil",
+      "era": "BCE",
+      "era_year": 154,
+      "year": -153,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "regnal_year_number": 3,
+      "source_expression": "孝景帝三年",
+      "status": "editorial_provisional",
+      "original_quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p017",
+          "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，即走條侯軍，會下邑。欲戰，條侯壁，不肯戰。吳糧絕，卒饑，數挑戰，遂夜奔條侯壁，驚東南。條侯使備西北，果從西北入。吳大敗，士卒多饑死，乃畔散。於是吳王乃與其麾下壯士數千人夜亡去，度江走丹徒，保東越。東越兵可萬餘人，乃使人收聚亡卒。漢使人以利啗東越，東越即紿吳王，吳王出勞軍，即使人鏦殺吳王，盛其頭，馳傳以聞。吳王子子華、子駒亡走閩越。吳王之棄其軍亡也，軍遂潰，往往稍降太尉、梁軍。楚王戊軍敗，自殺。",
+          "person_mention_id": "c-shiji-106-wuwang:m017-0316"
+        }
+      ],
+      "context_evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p009",
+          "quote": "孝景帝三年正月甲子，初起兵於廣陵。"
+        }
+      ],
+      "year_equivalence": {
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "regnal_era_cell_id": "shiji-022-t1-r051-c01",
+        "regnal_era_quote": "孝景元年",
+        "regnal_year_cell_id": "shiji-022-t1-r053-c01",
+        "regnal_year_quote": "三",
+        "editorial_year_cell_id": "shiji-022-t1-r053-c00",
+        "editorial_year_quote": "154",
+        "event_cell_id": "shiji-022-t1-r053-c02",
+        "event_quote": "吳楚七國反，發兵擊，皆破之。皇子端為膠西王，勝為中山王。"
+      },
+      "rationale": "本篇明書孝景帝三年起兵，後敘同次七國戰敗楚王戊自殺，年表同列記七國皆破。年度標籤採數位編者對照西元前154年；不是確切公曆日期，也不是從跨年範圍端點推定。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "image_verified": false,
+      "record_id": "le-shiji106-008",
+      "person_id": "yqp_nlb_p1p_DCA",
+      "date_role": "life_event",
+      "event_type": "death"
     }
   ],
   "life_event_date_decisions": [],

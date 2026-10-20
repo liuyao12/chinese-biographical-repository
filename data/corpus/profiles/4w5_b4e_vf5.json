@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "id": "4w5_b4e_vf5",
+  "canonical_person_id": "4w5_b4e_vf5",
+  "label": "王翁孺",
+  "identity_note": null,
+  "review": "ai_provisional",
+  "names": [
+    "王翁孺",
+    "翁孺"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 98,
+      "category": "",
+      "title": "元后傳第六十八",
+      "paragraph_id": "c-hanshu-098-yuanhou:p-origin-001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "今王翁孺徙正直其地日月當之元城郭東有五鹿之虚即沙鹿地也後八十年當有貴女興天下云",
+      "paragraph_ids": [
+        "c-hanshu-098-yuanhou:p-kin-001",
+        "c-hanshu-098-yuanhou:p-origin-001"
+      ],
+      "mention_ids": [
+        "c-hanshu-098-yuanhou:m-origin-001-0001",
+        "c-hanshu-098-yuanhou:m-kin-001-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-098-yuanhou:m-origin-001-0001": "c-hanshu-098-yuanhou:p-origin-001",
+        "c-hanshu-098-yuanhou:m-kin-001-0000": "c-hanshu-098-yuanhou:p-kin-001"
+      },
+      "mention_id": "c-hanshu-098-yuanhou:m-origin-001-0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-098-yuanhou:m-origin-001-0001",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-origin-001-0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-098-yuanhou:m-kin-001-0000",
+          "mention_ids": [
+            "c-hanshu-098-yuanhou:m-kin-001-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-098",
+      "chapter_id": "c-hanshu-098-yuanhou",
+      "source_id": "s-hanshu-098-yuanhou",
+      "work_title": "漢書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-hanshu-098-yuanhou",
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-098",
+      "source_id": "s-hanshu-098-yuanhou",
+      "source": {
+        "title": "前漢書卷九十八（文淵閣四庫本數位轉錄）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt",
+        "permalink": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_098.txt",
+        "revision_id": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+        "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+        "source_blob_sha": "c0cfe88a848da93ea875c2b809e51d9e1673d693",
+        "accessed_on": "2026-10-16",
+        "extent": "只錄元城建公引語末段、禁生女政君句、禁子女及同母記錄三段；前後史事及全卷未匯入。",
+        "text_scope": "partial_chapter",
+        "included_sections": [
+          "元城建公引語末段",
+          "王禁及政君生年句",
+          "王禁子女及同母記錄"
+        ],
+        "image_verified": false,
+        "rights": "古代正文及古注；保留Kanripo數位轉錄、文淵閣見證與固定提交的來源歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "review_status": "text_checked",
+        "edition": "WYG（文淵閣四庫全書）",
+        "response_sha256": "0a106d17348d6a4e00c1d0009482fc8ce4322fa7f79e5905497b728b88dbfb60",
+        "response_extent": {
+          "first_line": 1,
+          "last_line": 75,
+          "partial_file": true
+        },
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "按固定原檔行範圍截取正文；只去換行、段末符、頁標及括號雙行古注，保留虚、㢘等字，不補標點、不按古注增次字。raw範圍、頁標與古注可回查固定原檔；指紋僅此次1至75行回應，Git blob另列。"
+        }
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-hanshu098-kin-001",
+      "subject_person_id": "4w5_b4e_vf5_A",
+      "predicate": "father",
+      "object_person_id": "4w5_b4e_vf5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-098",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "source_id": "s-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "翁孺生禁"
+      },
+      "interpretation_note": "只存本段明示親屬，未補缺代、生卒或其他子女生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "4w5_b4e_vf5": "王翁孺",
+    "4w5_b4e_vf5_A": "王禁"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "4w5_b4e_vf5"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-hanshu098-kin-001",
+      "subject_person_id": "4w5_b4e_vf5_A",
+      "predicate": "father",
+      "object_person_id": "4w5_b4e_vf5",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-hanshu",
+          "book_id": "b-hanshu-098",
+          "chapter_id": "c-hanshu-098-yuanhou",
+          "source_id": "s-hanshu-098-yuanhou",
+          "paragraph_id": "c-hanshu-098-yuanhou:p-kin-001",
+          "quote": "翁孺生禁字稚君少學法律長安為廷尉史本始三年生女政君即元后也"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "翁孺生禁"
+      },
+      "interpretation_note": "只存本段明示親屬，未補缺代、生卒或其他子女生母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACAN",
   "canonical_person_id": "yqp_nlb_p1p_ACAN",
-  "label": "端（景帝子）",
+  "label": "端",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -11,6 +11,9 @@
     "膠西于王端",
     "膠西王",
     "王",
+    "膠西王臣端",
+    "臣端",
+    "繆西王",
     "于王端"
   ],
   "titles": [
@@ -212,6 +215,49 @@
       "interpretation_note": "來源授封、徙封、承爵、職位與用稱分存；相對年數保持原語，不換算公曆或由死亡、首次提及補起訖。王號中的諡字不當生前正式授爵名。 終點依明示廢、徙、國除／國絕或太子代立，不延伸至其他官爵。 第15段省略主語，國除承前段端與膠西敘事；保存直接前段的端錨點，不補字入本文。",
       "reviewer": "Codex（AI 代理）",
       "period": "西元前154年（暫定） → 未定"
+    },
+    {
+      "id": "th-shiji118-037",
+      "person_id": "yqp_nlb_p1p_ACAN",
+      "title": "膠西王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p024",
+          "quote": "吏因捕太子、王后，圍王宮，盡求捕王所與謀反賓客在國中者，索得反具以聞。上下公卿治，所連引與淮南王謀反列侯二千石豪傑數千人，皆以罪輕重受誅。衡山王賜，淮南王弟也，當坐收，有司請逮捕衡山王。天子曰：「諸侯各以其國為本，不當相坐。與諸侯王列侯會肄丞相諸侯議。」趙王彭祖、列侯臣讓等四十三人議，皆曰：「淮南王安甚大逆無道，謀反明白，當伏誅。」膠西王臣端議曰：「淮南王安廢法行邪，懷詐偽心，以亂天下，熒惑百姓，倍畔宗廟，妄作妖言。春秋曰『臣無將，將而誅』。安罪重於將，謀反形已定。臣端所見其書節印圖及他逆無道事驗明白，甚大逆無道，當伏其法。而論國吏二百石以上及比者，宗室近幸臣不在法中者，不能相教，當皆免官削爵為士伍，毋得宦為吏。其非吏，他贖死金二斤八兩。以章臣安之罪，使天下明知臣子之道，毋敢復有邪僻倍畔之意。」丞相弘、廷尉湯等以聞，天子使宗正以符節治王。未至，淮南王安自剄殺。王后荼、太子遷諸所與謀反者皆族。天子以伍被雅辭多引漢之美，欲勿誅。廷尉湯曰：「被首為王畫反謀，被罪無赦。」遂誅被。國除為九江郡。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-037:a001",
+          "paragraph_id": "c-shiji-118-huainan:p024",
+          "start": 167,
+          "end": 170,
+          "surface": "膠西王",
+          "person_mention_id": "c-shiji-118-huainan:m024-0167",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],
@@ -222,7 +268,34 @@
       "title": "孝景本紀第十一",
       "paragraph_id": "c-shiji-011-jingdi:p004",
       "count": 1,
-      "quote": "元王子藝等與謀反者。封大將軍竇嬰為魏其侯。立楚元王子平陸侯禮為楚王。立皇子端為膠西王，子勝為中山王。徙濟北王志為菑川王，淮陽王餘為魯王，汝南王非為江都王。齊王將廬、燕王嘉皆薨。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "元王子藝等與謀反者。封大將軍竇嬰為魏其侯。立楚元王子平陸侯禮為楚王。立皇子端為膠西王，子勝為中山王。徙濟北王志為菑川王，淮陽王餘為魯王，汝南王非為江都王。齊王將廬、燕王嘉皆薨。",
+      "paragraph_ids": [
+        "c-shiji-011-jingdi:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-011-jingdi:m004-0154"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-011-jingdi:m004-0154": "c-shiji-011-jingdi:p004"
+      },
+      "mention_id": "c-shiji-011-jingdi:m004-0154",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m004-0154",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m004-0154"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source_id": "s-shiji-011-jingdi",
+      "work_title": "史記"
     },
     {
       "number": 59,
@@ -230,7 +303,233 @@
       "title": "五宗世家第二十九",
       "paragraph_id": "c-shiji-059-wuzong:p001",
       "count": 13,
-      "quote": "人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。"
+      "raw_count": 13,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。",
+      "paragraph_ids": [
+        "c-shiji-059-wuzong:p001",
+        "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:p014",
+        "c-shiji-059-wuzong:p039"
+      ],
+      "mention_ids": [
+        "c-shiji-059-wuzong:m001-0043",
+        "c-shiji-059-wuzong:m013-0000",
+        "c-shiji-059-wuzong:m013-0020",
+        "c-shiji-059-wuzong:m013-0025",
+        "c-shiji-059-wuzong:m013-0029",
+        "c-shiji-059-wuzong:m013-0068",
+        "c-shiji-059-wuzong:m013-0090",
+        "c-shiji-059-wuzong:m013-0103",
+        "c-shiji-059-wuzong:m013-0121",
+        "c-shiji-059-wuzong:m013-0159",
+        "c-shiji-059-wuzong:m014-0014",
+        "c-shiji-059-wuzong:m014-0055",
+        "c-shiji-059-wuzong:m039-0041"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-059-wuzong:m001-0043": "c-shiji-059-wuzong:p001",
+        "c-shiji-059-wuzong:m013-0000": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0020": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0025": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0029": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0068": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0090": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0103": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0121": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m013-0159": "c-shiji-059-wuzong:p013",
+        "c-shiji-059-wuzong:m014-0014": "c-shiji-059-wuzong:p014",
+        "c-shiji-059-wuzong:m014-0055": "c-shiji-059-wuzong:p014",
+        "c-shiji-059-wuzong:m039-0041": "c-shiji-059-wuzong:p039"
+      },
+      "mention_id": "c-shiji-059-wuzong:m001-0043",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m001-0043",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m001-0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0000",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0020",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0020"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0025",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0025"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0029",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0068",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0068"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0090",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0103",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0103"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0121",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m013-0159",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m013-0159"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m014-0014",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m014-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m014-0055",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m014-0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-059-wuzong:m039-0041",
+          "mention_ids": [
+            "c-shiji-059-wuzong:m039-0041"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-059",
+      "chapter_id": "c-shiji-059-wuzong",
+      "source_id": "s-shiji-059-wuzong",
+      "work_title": "史記"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p024",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "列侯臣讓等四十三人議，皆曰：「淮南王安甚大逆無道，謀反明白，當伏誅。」膠西王臣端議曰：「淮南王安廢法行邪，懷詐偽心，以亂天下，熒惑百姓，倍畔宗廟，妄作妖言。春秋曰『臣無將，將而誅』。安罪重於將，謀反形已定。臣端所見其書節印圖及他逆無道事驗明白，甚大逆無道，當伏其法。而論國吏二百石",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p024"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m024-0167",
+        "c-shiji-118-huainan:m024-0235"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m024-0167": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m024-0235": "c-shiji-118-huainan:p024"
+      },
+      "mention_id": "c-shiji-118-huainan:m024-0167",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0167",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0167"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0235",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0235"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p021",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "世用事，位至公卿。董仲舒以弘為從諛。弘疾之，乃言上曰：「獨董仲舒可使相繆西王。」膠西王素聞董仲舒有行，亦善待之。董仲舒恐久獲罪，疾免居家。至卒，終不治產業，以修學著書為事。故漢興至于五世之閒，唯董仲舒名為明於春秋，其傳公羊氏也。",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p021"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m021-0066",
+        "c-shiji-121-rulin:m021-0071"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m021-0066": "c-shiji-121-rulin:p021",
+        "c-shiji-121-rulin:m021-0071": "c-shiji-121-rulin:p021"
+      },
+      "mention_id": "c-shiji-121-rulin:m021-0066",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0066",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m021-0071",
+          "mention_ids": [
+            "c-shiji-121-rulin:m021-0071"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -268,7 +567,12 @@
             "quote": "膠西于王端"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     }
   ],
   "sources": [
@@ -317,6 +621,54 @@
           "editorial_readings": [],
           "extraction_note": "取得時HTML與固定修訂一致，只去外緣空白；保留河閒、閼于／閼於、取笔、皁、上（問）［聞］、棁、王後／王后、壖、卑溼、禔與浡等見證原字及符號。取笔中的笔為數位見證所見，不默改為其他版本。",
           "note": "全39段已核讀並作明示人物首輪；未核底本、影像或現代研究。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
     },
@@ -390,8 +742,8 @@
   ],
   "related_people": {
     "dlu_57f_6uq": "程姬（五宗世家候選）",
-    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
-    "yqp_nlb_p1p_ACAN": "端（景帝子）"
+    "yqp_nlb_p1p_ACA": "孝景帝",
+    "yqp_nlb_p1p_ACAN": "端"
   },
   "dates": [
     {
@@ -428,7 +780,52 @@
       "title": "膠西王"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "yqp_nlb_p1p_ACAN",
+      "title": "膠西于王",
+      "surname": "劉",
+      "ming": "端",
+      "additional_names": [],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-059",
+      "chapter_id": "c-shiji-059-wuzong",
+      "source_id": "s-shiji-059-wuzong",
+      "paragraph_id": "c-shiji-059-wuzong:p013",
+      "quote": "膠西于王端，以孝景前三年吳楚七國反破後，端用皇子為膠西王。端為人賊戾，又陰痿，一近婦人，病之數月。而有愛幸少年為郎。為郎者頃之與後宮亂，端禽滅之，及殺其子母。數犯上法，漢公卿數請誅端，天子為兄弟之故不忍，而端所為滋甚。有司再請削其國，去太半。端心慍，遂為無訾省。府庫壞漏盡，腐財物以巨萬計，終不得收徙。令吏毋得收租賦。端皆去衛，封其宮門，從一門出游。數變名姓，為布衣，之他郡國。",
+      "component_evidence": [
+        {
+          "field_names": [
+            "title",
+            "ming"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-059",
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p013",
+          "quote": "膠西于王端，以孝景前三年吳楚七國反破後，端用皇子為膠西王。端為人賊戾，又陰痿，一近婦人，病之數月。而有愛幸少年為郎。為郎者頃之與後宮亂，端禽滅之，及殺其子母。數犯上法，漢公卿數請誅端，天子為兄弟之故不忍，而端所為滋甚。有司再請削其國，去太半。端心慍，遂為無訾省。府庫壞漏盡，腐財物以巨萬計，終不得收徙。令吏毋得收租賦。端皆去衛，封其宮門，從一門出游。數變名姓，為布衣，之他郡國。",
+          "basis": "received_title_and_name"
+        },
+        {
+          "field_names": [
+            "surname"
+          ],
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-059",
+          "chapter_id": "c-shiji-059-wuzong",
+          "source_id": "s-shiji-059-wuzong",
+          "paragraph_id": "c-shiji-059-wuzong:p001",
+          "quote": "孝景皇帝子凡十三人為王，而母五人，同母者為宗親。栗姬子曰榮、德、閼于。程姬子曰餘、非、端。賈夫人子曰彭祖、勝。唐姬子曰發。王夫人兒姁子曰越、寄、乘、舜。",
+          "basis": "documented_paternal_lineage_context",
+          "source_assertion_id": "a-shiji059-011"
+        }
+      ],
+      "note": "膠西于王端為本篇明書；劉姓依景帝明示父系與漢宗室既有來源作編者判讀，不稱本段逐字連書劉端。于字照錄，頁首諡稱不冒作生前授爵年。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "yqp_nlb_p1p_ACAN"
   ],

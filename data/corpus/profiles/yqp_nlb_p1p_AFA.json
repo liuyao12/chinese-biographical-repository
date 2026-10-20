@@ -12,7 +12,10 @@
     "阜陵侯安",
     "大王",
     "王",
-    "王安"
+    "王安",
+    "淮南",
+    "劉安",
+    "安"
   ],
   "titles": [
     {
@@ -157,16 +160,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-                "quote": "文帝前八年（己巳，公元前一七二年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+                "quote": "八年五月丙午，侯劉安元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-019",
+                "table_cell_id": "shiji-019-t3-r018-c02",
+                "source_id": "table-witness-shiji-019",
+                "source_revision": "6359260",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "172",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "八",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r035-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+              "reference_event_quote": "八年五月丙午，侯劉安元年。",
+              "reference_year_quote": "172",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -237,16 +300,76 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
-                "quote": "文帝前十六年（丁丑，公元前一六四年）",
+                "title": "《史記》原表同人同次授封月日",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "四月丙寅，王安元年。",
+                "scope": "received_parallel_event",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c13",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "164",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c00",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》漢年列",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "十六",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r043-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《漢興以來諸侯王年表》孝文元年起點",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+                "quote": "孝文元年",
+                "scope": "received_regnal_year_attestation",
+                "table_id": "shiji-017",
+                "table_cell_id": "shiji-017-t1-r028-c01",
+                "source_id": "table-witness-shiji-017",
+                "source_revision": "2607010",
+                "image_verified": false
+              },
+              {
+                "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+                "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+                "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+                "scope": "received_calendar_rule",
+                "text_layer": "received_text_with_page_markers",
+                "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+                "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+                "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+                "read_line_range": [
+                  53,
+                  89
+                ],
                 "image_verified": false
               }
             ],
-            "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+            "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明4月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前164年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "basis": {
+              "kind": "parallel_event",
+              "source_event_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+              "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+              "reference_event_quote": "四月丙寅，王安元年。",
+              "reference_year_quote": "164",
+              "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+            }
           }
         },
         "end": {
@@ -268,7 +391,34 @@
       "title": "傅靳蒯成列傳第三十八",
       "paragraph_id": "c-shiji-098-fujin:p004",
       "count": 1,
-      "quote": "子頃侯精立，二十四年卒。子共侯則立，十二年卒。子侯偃立，三十一年，坐與淮南王謀反，死，國除。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子頃侯精立，二十四年卒。子共侯則立，十二年卒。子侯偃立，三十一年，坐與淮南王謀反，死，國除。",
+      "paragraph_ids": [
+        "c-shiji-098-fujin:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-098-fujin:m004-0046"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-098-fujin:m004-0046": "c-shiji-098-fujin:p004"
+      },
+      "mention_id": "c-shiji-098-fujin:m004-0046",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-098-fujin:m004-0046",
+          "mention_ids": [
+            "c-shiji-098-fujin:m004-0046"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-098",
+      "chapter_id": "c-shiji-098-fujin",
+      "source_id": "s-shiji-098-fujin",
+      "work_title": "史記"
     },
     {
       "number": 107,
@@ -276,18 +426,1085 @@
       "title": "魏其武安列傳第四十七",
       "paragraph_id": "c-shiji-107-weiqi:p019",
       "count": 9,
-      "quote": "，民苦之。請案。上曰：「此丞相事，何請。」灌夫亦持丞相陰事，為奸利，受淮南王金與語言。賓客居間，遂止，俱解。"
+      "raw_count": 9,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，民苦之。請案。上曰：「此丞相事，何請。」灌夫亦持丞相陰事，為奸利，受淮南王金與語言。賓客居間，遂止，俱解。",
+      "paragraph_ids": [
+        "c-shiji-107-weiqi:p019",
+        "c-shiji-107-weiqi:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-107-weiqi:m019-0053",
+        "c-shiji-107-weiqi:m026-0000",
+        "c-shiji-107-weiqi:m026-0010",
+        "c-shiji-107-weiqi:m026-0023",
+        "c-shiji-107-weiqi:m026-0029",
+        "c-shiji-107-weiqi:m026-0039",
+        "c-shiji-107-weiqi:m026-0055",
+        "c-shiji-107-weiqi:m026-0063",
+        "c-shiji-107-weiqi:m026-0094"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-107-weiqi:m019-0053": "c-shiji-107-weiqi:p019",
+        "c-shiji-107-weiqi:m026-0000": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0010": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0023": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0029": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0039": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0055": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0063": "c-shiji-107-weiqi:p026",
+        "c-shiji-107-weiqi:m026-0094": "c-shiji-107-weiqi:p026"
+      },
+      "mention_id": "c-shiji-107-weiqi:m019-0053",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m019-0053",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m019-0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0000",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0010",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0023",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0023"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0029",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0029"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0039",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0055",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0063",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0063"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m026-0094",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m026-0094"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source_id": "s-shiji-107-weiqi",
+      "work_title": "史記"
+    },
+    {
+      "number": 112,
+      "category": "liezhuan",
+      "title": "平津侯主父列傳第五十二",
+      "paragraph_id": "c-shiji-112-pingjin:p008",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "淮南、衡山謀反，治黨與方急。弘病甚，自以為無功而封，位至丞相，宜佐明主填撫國家，使人由臣子之道。今諸侯有畔逆之計，此皆宰相奉職不稱，恐竊病死，無以塞責。乃上書曰：「臣聞天下之通道五，所以行之者三。曰君臣，",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p008"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m008-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-112-pingjin:m008-0000": "c-shiji-112-pingjin:p008"
+      },
+      "mention_id": "c-shiji-112-pingjin:m008-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m008-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m008-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記"
     },
     {
       "number": 118,
       "category": "liezhuan",
       "title": "淮南衡山列傳第五十八",
       "paragraph_id": "c-shiji-118-huainan:p011",
-      "count": 79,
-      "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+      "count": 84,
+      "raw_count": 84,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p011",
+        "c-shiji-118-huainan:p013",
+        "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:p018",
+        "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:p021",
+        "c-shiji-118-huainan:p023",
+        "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:p025",
+        "c-shiji-118-huainan:p027",
+        "c-shiji-118-huainan:p028",
+        "c-shiji-118-huainan:p031"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m011-0026",
+        "c-shiji-118-huainan:m013-0040",
+        "c-shiji-118-huainan:m014-0018",
+        "c-shiji-118-huainan:m014-0032",
+        "c-shiji-118-huainan:m014-0047",
+        "c-shiji-118-huainan:m014-0066",
+        "c-shiji-118-huainan:m014-0205",
+        "c-shiji-118-huainan:m015-0000",
+        "c-shiji-118-huainan:m015-0061",
+        "c-shiji-118-huainan:m015-0083",
+        "c-shiji-118-huainan:m015-0088",
+        "c-shiji-118-huainan:m015-0100",
+        "c-shiji-118-huainan:m015-0127",
+        "c-shiji-118-huainan:m015-0135",
+        "c-shiji-118-huainan:m015-0174",
+        "c-shiji-118-huainan:m015-0183",
+        "c-shiji-118-huainan:m015-0222",
+        "c-shiji-118-huainan:m015-0279",
+        "c-shiji-118-huainan:m015-0281",
+        "c-shiji-118-huainan:m016-0000",
+        "c-shiji-118-huainan:m016-0013",
+        "c-shiji-118-huainan:m016-0042",
+        "c-shiji-118-huainan:m016-0051",
+        "c-shiji-118-huainan:m016-0058",
+        "c-shiji-118-huainan:m016-0085",
+        "c-shiji-118-huainan:m016-0118",
+        "c-shiji-118-huainan:m016-0148",
+        "c-shiji-118-huainan:m016-0170",
+        "c-shiji-118-huainan:m017-0075",
+        "c-shiji-118-huainan:m017-0077",
+        "c-shiji-118-huainan:m017-0122",
+        "c-shiji-118-huainan:m017-0179",
+        "c-shiji-118-huainan:m017-0188",
+        "c-shiji-118-huainan:m017-0205",
+        "c-shiji-118-huainan:m017-0207",
+        "c-shiji-118-huainan:m017-0222",
+        "c-shiji-118-huainan:m017-0224",
+        "c-shiji-118-huainan:m017-0240",
+        "c-shiji-118-huainan:m017-0242",
+        "c-shiji-118-huainan:m017-0256",
+        "c-shiji-118-huainan:m017-0304",
+        "c-shiji-118-huainan:m017-0306",
+        "c-shiji-118-huainan:m017-0324",
+        "c-shiji-118-huainan:m017-0332",
+        "c-shiji-118-huainan:m017-0340",
+        "c-shiji-118-huainan:m017-0363",
+        "c-shiji-118-huainan:m017-0397",
+        "c-shiji-118-huainan:m017-0420",
+        "c-shiji-118-huainan:m017-0440",
+        "c-shiji-118-huainan:m017-0442",
+        "c-shiji-118-huainan:m017-0486",
+        "c-shiji-118-huainan:m017-0488",
+        "c-shiji-118-huainan:m017-0514",
+        "c-shiji-118-huainan:m017-0563",
+        "c-shiji-118-huainan:m018-0000",
+        "c-shiji-118-huainan:m018-0022",
+        "c-shiji-118-huainan:m019-0028",
+        "c-shiji-118-huainan:m019-0123",
+        "c-shiji-118-huainan:m019-0230",
+        "c-shiji-118-huainan:m019-0756",
+        "c-shiji-118-huainan:m019-0937",
+        "c-shiji-118-huainan:m019-0964",
+        "c-shiji-118-huainan:m019-0971",
+        "c-shiji-118-huainan:m019-0981",
+        "c-shiji-118-huainan:m019-1068",
+        "c-shiji-118-huainan:m020-0000",
+        "c-shiji-118-huainan:m020-0010",
+        "c-shiji-118-huainan:m020-0014",
+        "c-shiji-118-huainan:m020-0176",
+        "c-shiji-118-huainan:m020-0310",
+        "c-shiji-118-huainan:m021-0000",
+        "c-shiji-118-huainan:m023-0010",
+        "c-shiji-118-huainan:m023-0039",
+        "c-shiji-118-huainan:m023-0211",
+        "c-shiji-118-huainan:m024-0045",
+        "c-shiji-118-huainan:m024-0074",
+        "c-shiji-118-huainan:m024-0147",
+        "c-shiji-118-huainan:m024-0176",
+        "c-shiji-118-huainan:m024-0377",
+        "c-shiji-118-huainan:m025-0054",
+        "c-shiji-118-huainan:m025-0074",
+        "c-shiji-118-huainan:m027-0572",
+        "c-shiji-118-huainan:m028-0018",
+        "c-shiji-118-huainan:m031-0030"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m011-0026": "c-shiji-118-huainan:p011",
+        "c-shiji-118-huainan:m013-0040": "c-shiji-118-huainan:p013",
+        "c-shiji-118-huainan:m014-0018": "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:m014-0032": "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:m014-0047": "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:m014-0066": "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:m014-0205": "c-shiji-118-huainan:p014",
+        "c-shiji-118-huainan:m015-0000": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0061": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0083": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0088": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0100": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0127": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0135": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0174": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0183": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0222": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0279": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m015-0281": "c-shiji-118-huainan:p015",
+        "c-shiji-118-huainan:m016-0000": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0013": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0042": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0051": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0058": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0085": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0118": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0148": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m016-0170": "c-shiji-118-huainan:p016",
+        "c-shiji-118-huainan:m017-0075": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0077": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0122": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0179": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0188": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0205": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0207": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0222": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0224": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0240": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0242": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0256": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0304": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0306": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0324": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0332": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0340": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0363": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0397": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0420": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0440": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0442": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0486": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0488": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0514": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m017-0563": "c-shiji-118-huainan:p017",
+        "c-shiji-118-huainan:m018-0000": "c-shiji-118-huainan:p018",
+        "c-shiji-118-huainan:m018-0022": "c-shiji-118-huainan:p018",
+        "c-shiji-118-huainan:m019-0028": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0123": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0230": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0756": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0937": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0964": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0971": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-0981": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m019-1068": "c-shiji-118-huainan:p019",
+        "c-shiji-118-huainan:m020-0000": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0010": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0014": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0176": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m020-0310": "c-shiji-118-huainan:p020",
+        "c-shiji-118-huainan:m021-0000": "c-shiji-118-huainan:p021",
+        "c-shiji-118-huainan:m023-0010": "c-shiji-118-huainan:p023",
+        "c-shiji-118-huainan:m023-0039": "c-shiji-118-huainan:p023",
+        "c-shiji-118-huainan:m023-0211": "c-shiji-118-huainan:p023",
+        "c-shiji-118-huainan:m024-0045": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m024-0074": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m024-0147": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m024-0176": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m024-0377": "c-shiji-118-huainan:p024",
+        "c-shiji-118-huainan:m025-0054": "c-shiji-118-huainan:p025",
+        "c-shiji-118-huainan:m025-0074": "c-shiji-118-huainan:p025",
+        "c-shiji-118-huainan:m027-0572": "c-shiji-118-huainan:p027",
+        "c-shiji-118-huainan:m028-0018": "c-shiji-118-huainan:p028",
+        "c-shiji-118-huainan:m031-0030": "c-shiji-118-huainan:p031"
+      },
+      "mention_id": "c-shiji-118-huainan:m011-0026",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m011-0026",
+          "mention_ids": [
+            "c-shiji-118-huainan:m011-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m013-0040",
+          "mention_ids": [
+            "c-shiji-118-huainan:m013-0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m014-0018",
+          "mention_ids": [
+            "c-shiji-118-huainan:m014-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m014-0032",
+          "mention_ids": [
+            "c-shiji-118-huainan:m014-0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m014-0047",
+          "mention_ids": [
+            "c-shiji-118-huainan:m014-0047"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m014-0066",
+          "mention_ids": [
+            "c-shiji-118-huainan:m014-0066"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m014-0205",
+          "mention_ids": [
+            "c-shiji-118-huainan:m014-0205"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0000",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0061",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0061"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0083",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0088",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0100",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0100"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0127",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0127"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0135",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0135"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0174",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0174"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0183",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0183"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0222",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0222"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0279",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0279"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m015-0281",
+          "mention_ids": [
+            "c-shiji-118-huainan:m015-0281"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0000",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0013",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0042",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0051",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0058",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0085",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0118",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0148",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m016-0170",
+          "mention_ids": [
+            "c-shiji-118-huainan:m016-0170"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0075",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0077",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0077"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0122",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0122"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0179",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0179"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0188",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0188"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0205",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0205"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0207",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0207"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0222",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0222"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0224",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0224"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0240",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0240"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0242",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0242"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0256",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0256"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0304",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0304"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0306",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0306"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0324",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0324"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0332",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0332"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0340",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0340"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0363",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0363"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0397",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0397"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0420",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0420"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0440",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0440"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0442",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0442"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0486",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0486"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0488",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0488"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0514",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0514"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m017-0563",
+          "mention_ids": [
+            "c-shiji-118-huainan:m017-0563"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m018-0000",
+          "mention_ids": [
+            "c-shiji-118-huainan:m018-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m018-0022",
+          "mention_ids": [
+            "c-shiji-118-huainan:m018-0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0028",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0123",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0123"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0230",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0230"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0756",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0756"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0937",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0937"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0964",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0964"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0971",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0971"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-0981",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-0981"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m019-1068",
+          "mention_ids": [
+            "c-shiji-118-huainan:m019-1068"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0000",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0010",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0014",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0176",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0176"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m020-0310",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0310"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m021-0000",
+          "mention_ids": [
+            "c-shiji-118-huainan:m021-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m023-0010",
+          "mention_ids": [
+            "c-shiji-118-huainan:m023-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m023-0039",
+          "mention_ids": [
+            "c-shiji-118-huainan:m023-0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m023-0211",
+          "mention_ids": [
+            "c-shiji-118-huainan:m023-0211"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0045",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0074",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0147",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0147"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0176",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0176"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m024-0377",
+          "mention_ids": [
+            "c-shiji-118-huainan:m024-0377"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m025-0054",
+          "mention_ids": [
+            "c-shiji-118-huainan:m025-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m025-0074",
+          "mention_ids": [
+            "c-shiji-118-huainan:m025-0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m027-0572",
+          "mention_ids": [
+            "c-shiji-118-huainan:m027-0572"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m028-0018",
+          "mention_ids": [
+            "c-shiji-118-huainan:m028-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m031-0030",
+          "mention_ids": [
+            "c-shiji-118-huainan:m031-0030"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
+    },
+    {
+      "number": 120,
+      "category": "liezhuan",
+      "title": "汲鄭列傳第六十",
+      "paragraph_id": "c-shiji-120-jizheng:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "淮南王謀反，憚黯，曰：「好直諫，守節死義，難惑以非。至如說丞相弘，如發蒙振落耳。」",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p009"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m009-0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m009-0000": "c-shiji-120-jizheng:p009"
+      },
+      "mention_id": "c-shiji-120-jizheng:m009-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m009-0000",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m009-0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-017",
+      "cell_id": "shiji-017-t1-r043-c13",
+      "title": "《史記·漢興以來諸侯王年表》",
+      "quote": "四月丙寅，王安元年。淮南厲王子，故阜陵侯。",
+      "year": {
+        "era": "BCE",
+        "value": 164,
+        "astronomical_year": -163,
+        "precision": "year",
+        "status": "digital_editorial_equivalence",
+        "source_quote": "164",
+        "source_cell_id": "shiji-017-t1-r043-c00"
+      },
+      "mention": {
+        "id": "shiji-017-t1-r043-c13-m000",
+        "start": 6,
+        "end": 7,
+        "surface": "安",
+        "person_id": "yqp_nlb_p1p_AFA",
+        "status": "contextual_provisional",
+        "interpretation_note": "按淮南厲王子、原侯、轉王事件與本篇對讀；父稱為回溯諡號，不把此列紀年當作父親得諡日。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-118",
+            "chapter_id": "c-shiji-118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p013",
+            "source_id": "s-shiji118-huainan",
+            "source_revision": 7904122,
+            "person_id": "yqp_nlb_p1p_AFA",
+            "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
+    },
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t3-r018-c02",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "八。八年五月丙午，侯劉安元年。十六年，安爲淮南王，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t3-r018-c02-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "劉安",
+        "person_id": "yqp_nlb_p1p_AFA",
+        "status": "contextual_provisional",
+        "interpretation_note": "同侯、淮南厲王子及八年封侯／十六年轉王或良前薨的篇文相合；非按劉姓或單名全域合併。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-118",
+            "chapter_id": "c-shiji-118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p011",
+            "source_id": "s-shiji118-huainan",
+            "source_revision": 7904122,
+            "person_id": "yqp_nlb_p1p_AFA",
+            "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-019",
+      "chapter_id": "table-chapter-shiji-019",
+      "source_id": "table-witness-shiji-019",
+      "source_revision": "6359260"
+    },
+    {
+      "table_id": "shiji-019",
+      "cell_id": "shiji-019-t3-r018-c02",
+      "title": "《史記·惠景間侯者年表》",
+      "quote": "八。八年五月丙午，侯劉安元年。十六年，安爲淮南王，國除。",
+      "year": null,
+      "mention": {
+        "id": "shiji-019-t3-r018-c02-m001",
+        "start": 19,
+        "end": 20,
+        "surface": "安",
+        "person_id": "yqp_nlb_p1p_AFA",
+        "status": "contextual_provisional",
+        "interpretation_note": "按淮南厲王子、原侯、轉王事件與本篇對讀；父稱為回溯諡號，不把此列紀年當作父親得諡日。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-118",
+            "chapter_id": "c-shiji-118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p013",
+            "source_id": "s-shiji118-huainan",
+            "source_revision": 7904122,
+            "person_id": "yqp_nlb_p1p_AFA",
+            "quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-019",
+      "chapter_id": "table-chapter-shiji-019",
+      "source_id": "table-witness-shiji-019",
+      "source_revision": "6359260"
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-098-fujin",
@@ -368,6 +1585,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-112-pingjin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "source_id": "s-shiji112-pingjin",
+      "source": {
+        "title": "史記／卷112",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷112",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷112&oldid=2089420",
+        "revision_id": 2089420,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證31段；末三段分為後附詔書、班固贊及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、__TOC__與現代節標題；去行首冒號排版符號，保留正文、異體、方括弧與圓括弧校字。未核底本影像。",
+          "note": "太皇太后詔及班固贊均按見證附載分層，不自行確認編入者。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-118-huainan",
       "work_id": "w-shiji",
       "book_id": "b-shiji-118",
@@ -390,9 +1631,109 @@
           "note": "全部身份與版本仍待覆核。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-120-jizheng",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "source_id": "s-shiji120-jizheng",
+      "source": {
+        "title": "史記／卷120",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷120",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷120&oldid=9166127",
+        "revision_id": 9166127,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文21段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄、現代節標與wikipedia模板，保留原字；傅柏及莊為太史不默改，未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-017",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source": {
+        "id": "table-witness-shiji-017",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-017",
+        "chapter_id": "table-chapter-shiji-017",
+        "url": "https://zh.wikisource.org/wiki/史記/卷017",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+        "revision": "2607010",
+        "accessed": "2026-10-13",
+        "response_sha256": "4f4e0437ce3126d69899f71fd8334f22dad8943c888cf2b766e51679d50dd517",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-019",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-019",
+      "source_id": "table-witness-shiji-019",
+      "source": {
+        "id": "table-witness-shiji-019",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-019",
+        "chapter_id": "table-chapter-shiji-019",
+        "url": "https://zh.wikisource.org/wiki/史記/卷019",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+        "revision": "6359260",
+        "accessed": "2026-10-13",
+        "response_sha256": "46d73e9b0e530a6bebb401c0d906ac495ac4e0433e4479cb31e92dbd810776bf",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
+    {
+      "id": "a-table-shiji019-four-sons-18",
+      "subject_person_id": "yqp_nlb_p1p_AFA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_AF",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-019",
+          "table_cell_id": "shiji-019-t3-r018-c01",
+          "subject_table_cell_id": "shiji-019-t3-r018-c02",
+          "quote": "以淮南厲王子侯。",
+          "subject_quote": "八。八年五月丙午，侯劉安元年。十六年，安爲淮南王，國除。",
+          "subject_mention_id": "shiji-019-t3-r018-c02-m000",
+          "object_mention_id": "shiji-019-t3-r018-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-019",
+          "chapter_id": "table-chapter-shiji-019",
+          "source_id": "table-witness-shiji-019",
+          "source_revision": "6359260"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以淮南厲王子侯。"
+      },
+      "interpretation_note": "以淮南厲王子侯明示父系，首封姓名與父稱各存原格，不由後嗣承爵推父子；父諡號為回溯稱呼，不據八年授侯推父親當時得諡，不推生母或長幼。",
+      "reviewer": "Codex（AI 代理）"
+    },
     {
       "id": "a-shiji107-015",
       "subject_person_id": "yqp_nlb_p1p_AFA",
@@ -528,16 +1869,51 @@
       },
       "interpretation_note": "弟明示相對較幼；不推相鄰、同母或出生年份，擬立太子不當已授任。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-father",
+      "subject_person_id": "yqp_nlb_p1p_AFAC",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_AFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p020",
+          "quote": "王有孽子不害，最長，王弗愛，王、王后、太子皆不以為子兄數。不害有子建，材高有氣，常怨望太子不省其父；又怨時諸侯皆得分子弟為侯，而淮南獨二子，一為太子，建父獨不得為侯。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0000",
+            "c-shiji-118-huainan:m020-0004",
+            "c-shiji-118-huainan:m020-0010",
+            "c-shiji-118-huainan:m020-0014",
+            "c-shiji-118-huainan:m020-0016",
+            "c-shiji-118-huainan:m020-0019",
+            "c-shiji-118-huainan:m020-0029",
+            "c-shiji-118-huainan:m020-0033",
+            "c-shiji-118-huainan:m020-0043",
+            "c-shiji-118-huainan:m020-0053",
+            "c-shiji-118-huainan:m020-0072",
+            "c-shiji-118-huainan:m020-0075"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "而淮南獨二子，一為太子"
+      },
+      "interpretation_note": "安有二子、一為太子，與荼生太子遷相承；父指安有王字錨點作上下文證據，非僅憑太子職稱推父子。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "related_people": {
-    "8ie_pfa_02i": "荼（淮南衡山列傳候選）",
+    "8ie_pfa_02i": "王后荼",
     "yqp_nlb_p1p_A": "高祖",
     "yqp_nlb_p1p_AF": "長（高祖子）",
     "yqp_nlb_p1p_AFA": "淮南王安",
     "yqp_nlb_p1p_AFAA": "陵（淮南王女）（淮南衡山列傳候選）",
     "yqp_nlb_p1p_AFAB": "不害（淮南衡山列傳候選）",
-    "yqp_nlb_p1p_AFC": "賜（劉長子）（淮南衡山列傳候選）"
+    "yqp_nlb_p1p_AFAC": "淮南太子遷",
+    "yqp_nlb_p1p_AFC": "衡山王賜"
   },
   "dates": [
     {
@@ -558,16 +1934,168 @@
       ],
       "references": [
         {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷014",
-          "quote": "文帝前八年（己巳，公元前一七二年）",
+          "title": "《史記》原表同人同次授封月日",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+          "quote": "八年五月丙午，侯劉安元年。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-019",
+          "table_cell_id": "shiji-019-t3-r018-c02",
+          "source_id": "table-witness-shiji-019",
+          "source_revision": "6359260",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "172",
           "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c00",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》漢年列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "八",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》孝文元年起點",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "孝文元年",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r028-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+          "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+          "scope": "received_calendar_rule",
+          "text_layer": "received_text_with_page_markers",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+          "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+          "read_line_range": [
+            53,
+            89
+          ],
           "image_verified": false
         }
       ],
-      "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+      "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。 本筆皆七八歲與同段授封相接，僅標報齡所屬敘事年，不當確歲或推出生年。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+        "reference_event_quote": "八年五月丙午，侯劉安元年。",
+        "reference_year_quote": "172",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+      },
+      "record_id": "age-shiji118-four-children-0026",
+      "person_id": "yqp_nlb_p1p_AFA",
+      "date_role": "age_attestation"
+    },
+    {
+      "era": "BCE",
+      "era_year": 172,
+      "year": -171,
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p011",
+          "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記》原表同人同次授封月日",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+          "quote": "八年五月丙午，侯劉安元年。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-019",
+          "table_cell_id": "shiji-019-t3-r018-c02",
+          "source_id": "table-witness-shiji-019",
+          "source_revision": "6359260",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "172",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c00",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》漢年列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "八",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r035-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》孝文元年起點",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "孝文元年",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r028-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+          "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+          "scope": "received_calendar_rule",
+          "text_layer": "received_text_with_page_markers",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+          "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+          "read_line_range": [
+            53,
+            89
+          ],
+          "image_verified": false
+        }
+      ],
+      "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+        "reference_event_quote": "八年五月丙午，侯劉安元年。",
+        "reference_year_quote": "172",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+      },
       "record_id": "th-shiji118-019",
       "person_id": "yqp_nlb_p1p_AFA",
       "endpoint": "start",
@@ -591,16 +2119,76 @@
       ],
       "references": [
         {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷015",
-          "quote": "文帝前十六年（丁丑，公元前一六四年）",
+          "title": "《史記》原表同人同次授封月日",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "四月丙寅，王安元年。",
+          "scope": "received_parallel_event",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r043-c13",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "164",
           "scope": "digital_editorial_regnal_year_equivalence_only",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r043-c00",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》漢年列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "十六",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r043-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《漢興以來諸侯王年表》孝文元年起點",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+          "quote": "孝文元年",
+          "scope": "received_regnal_year_attestation",
+          "table_id": "shiji-017",
+          "table_cell_id": "shiji-017-t1-r028-c01",
+          "source_id": "table-witness-shiji-017",
+          "source_revision": "2607010",
+          "image_verified": false
+        },
+        {
+          "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+          "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+          "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+          "scope": "received_calendar_rule",
+          "text_layer": "received_text_with_page_markers",
+          "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+          "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+          "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+          "read_line_range": [
+            53,
+            89
+          ],
           "image_verified": false
         }
       ],
-      "rationale": "本段明示孝文紀年；通鑑數位編輯年標只用作公元年份對應，不另當授爵事件證據。未知月日不補。",
+      "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明4月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前164年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
+      "basis": {
+        "kind": "parallel_event",
+        "source_event_quote": "孝文十六年，徙淮南王喜復故城陽。上憐淮南厲王廢法不軌，自使失國蚤死，乃立其三子：阜陵侯安為淮南王，安陽侯勃為衡山王，陽周侯賜為廬江王，皆復得厲王時地，參分之。東城侯良前薨，無後也。",
+        "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+        "reference_event_quote": "四月丙寅，王安元年。",
+        "reference_year_quote": "164",
+        "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+      },
       "record_id": "th-shiji118-024",
       "person_id": "yqp_nlb_p1p_AFA",
       "endpoint": "start",
@@ -706,6 +2294,36 @@
   ],
   "preferred_relations": [
     {
+      "id": "a-table-shiji019-four-sons-18",
+      "subject_person_id": "yqp_nlb_p1p_AFA",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_AF",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "relationship_layout": "first_holder_with_parent_label",
+          "table_id": "shiji-019",
+          "table_cell_id": "shiji-019-t3-r018-c01",
+          "subject_table_cell_id": "shiji-019-t3-r018-c02",
+          "quote": "以淮南厲王子侯。",
+          "subject_quote": "八。八年五月丙午，侯劉安元年。十六年，安爲淮南王，國除。",
+          "subject_mention_id": "shiji-019-t3-r018-c02-m000",
+          "object_mention_id": "shiji-019-t3-r018-c01-m000",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-019",
+          "chapter_id": "table-chapter-shiji-019",
+          "source_id": "table-witness-shiji-019",
+          "source_revision": "6359260"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "以淮南厲王子侯。"
+      },
+      "interpretation_note": "以淮南厲王子侯明示父系，首封姓名與父稱各存原格，不由後嗣承爵推父子；父諡號為回溯稱呼，不據八年授侯推父親當時得諡，不推生母或長幼。",
+      "reviewer": "Codex（AI 代理）"
+    },
+    {
       "id": "a-shiji107-015",
       "subject_person_id": "yqp_nlb_p1p_AFA",
       "predicate": "grandfather",
@@ -840,6 +2458,40 @@
       },
       "interpretation_note": "弟明示相對較幼；不推相鄰、同母或出生年份，擬立太子不當已授任。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-shiji118-qian-father",
+      "subject_person_id": "yqp_nlb_p1p_AFAC",
+      "predicate": "father",
+      "object_person_id": "yqp_nlb_p1p_AFA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p020",
+          "quote": "王有孽子不害，最長，王弗愛，王、王后、太子皆不以為子兄數。不害有子建，材高有氣，常怨望太子不省其父；又怨時諸侯皆得分子弟為侯，而淮南獨二子，一為太子，建父獨不得為侯。",
+          "mention_ids": [
+            "c-shiji-118-huainan:m020-0000",
+            "c-shiji-118-huainan:m020-0004",
+            "c-shiji-118-huainan:m020-0010",
+            "c-shiji-118-huainan:m020-0014",
+            "c-shiji-118-huainan:m020-0016",
+            "c-shiji-118-huainan:m020-0019",
+            "c-shiji-118-huainan:m020-0029",
+            "c-shiji-118-huainan:m020-0033",
+            "c-shiji-118-huainan:m020-0043",
+            "c-shiji-118-huainan:m020-0053",
+            "c-shiji-118-huainan:m020-0072",
+            "c-shiji-118-huainan:m020-0075"
+          ]
+        }
+      ],
+      "qualifiers": {
+        "source_term": "而淮南獨二子，一為太子"
+      },
+      "interpretation_note": "安有二子、一為太子，與荼生太子遷相承；父指安有王字錨點作上下文證據，非僅憑太子職稱推父子。",
+      "reviewer": "Codex（AI 代理）"
     }
   ],
   "assembled_identity": {
@@ -861,7 +2513,145 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
-  "age_assertions": [],
+  "age_assertions": [
+    {
+      "id": "age-shiji118-four-children-0026",
+      "person_id": "yqp_nlb_p1p_AFA",
+      "status": "source_attested",
+      "value": null,
+      "source_number": "七八",
+      "source_term": "皆七八歲",
+      "reporting_status": "approximate_report",
+      "unit": "source_age_years",
+      "counting": "unspecified_source_age",
+      "birth_year": null,
+      "group_reference": {
+        "source_term": "淮南王有子四人",
+        "naming_term": "子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯",
+        "person_ids": [
+          "yqp_nlb_p1p_AFA",
+          "yqp_nlb_p1p_AFB",
+          "yqp_nlb_p1p_AFC",
+          "yqp_nlb_p1p_AFD"
+        ],
+        "declared_member_count": 4,
+        "source_count_term": "四人"
+      },
+      "date_expression": "孝文八年",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p011",
+          "person_mention_id": "c-shiji-118-huainan:m011-0026",
+          "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+        }
+      ],
+      "approximation": {
+        "kind": "adjacent_age_numbers",
+        "numbers": [
+          7,
+          8
+        ]
+      },
+      "approximation_interpretation": {
+        "status": "editorial_provisional",
+        "rationale": "皆七八歲為四名幼子的相鄰數詞概數，保存七、八兩個數詞，不當嚴格上下界、個別確歲、計歲制度或出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "normalized_date": {
+        "era": "BCE",
+        "era_year": 172,
+        "year": -171,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "status": "editorial_provisional",
+        "original_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-118-huainan",
+            "source_id": "s-shiji118-huainan",
+            "paragraph_id": "c-shiji-118-huainan:p011",
+            "quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。"
+          }
+        ],
+        "references": [
+          {
+            "title": "《史記》原表同人同次授封月日",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+            "quote": "八年五月丙午，侯劉安元年。",
+            "scope": "received_parallel_event",
+            "table_id": "shiji-019",
+            "table_cell_id": "shiji-019-t3-r018-c02",
+            "source_id": "table-witness-shiji-019",
+            "source_revision": "6359260",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》額外公元前對照欄",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "172",
+            "scope": "digital_editorial_regnal_year_equivalence_only",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r035-c00",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》漢年列",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "八",
+            "scope": "received_regnal_year_attestation",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r035-c01",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《漢興以來諸侯王年表》孝文元年起點",
+            "url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010",
+            "quote": "孝文元年",
+            "scope": "received_regnal_year_attestation",
+            "table_id": "shiji-017",
+            "table_cell_id": "shiji-017-t1-r028-c01",
+            "source_id": "table-witness-shiji-017",
+            "source_revision": "2607010",
+            "image_verified": false
+          },
+          {
+            "title": "《史記集解》卷26所存曆書本文：秦十月歲首、漢襲秦正朔與文帝更曆未行",
+            "url": "https://github.com/kanripo/KR2a0002/blob/73c4d2ba067d99a6de924ac952fd6921a958c7e7/KR2a0002_026.txt#L57-L66",
+            "quote": "以十月色上黑然厯度閏餘未能睹其真也漢興髙祖¶\n曰北畤待我而起亦自以為獲水德之瑞雖明習厯及¶\n張蒼等咸以為然是時天下初定方綱紀大基高后女¶\n主皆未遑故襲秦正朔服色至孝文時魯人公孫臣以¶\n<pb:KR2a0002_WYG_026-4a>¶\n終始五德上書言漢德土德宜更元改正朔易服色當¶\n有瑞瑞黃龍見事下丞相張蒼張蒼亦學律厯以為非¶\n是罷之其後黃龍見成紀張蒼自黜所欲論著不成而¶\n新垣平以望氣見頗言正厯服色事貴幸後作亂故孝¶\n文帝廢不復問至今上即位招致方士唐都分其天部¶",
+            "scope": "received_calendar_rule",
+            "text_layer": "received_text_with_page_markers",
+            "source_commit": "73c4d2ba067d99a6de924ac952fd6921a958c7e7",
+            "source_blob": "e658afb447e6eac412da765c383d3132d7b6ade8",
+            "cached_response_sha256": "a30cb99fda63d5ad34a818e1a344ad1aedaa6a3ec86cf6f1a74398933f09bf5c",
+            "read_line_range": [
+              53,
+              89
+            ],
+            "image_verified": false
+          }
+        ],
+        "rationale": "本篇明示孝文紀年；原表同人、同原侯及同次授封另明5月與干支。漢沿秦十月歲首雖跨公元年，此處四／五月落在同一數位年欄所對應的公元前172年，不機械擴成兩年。數位西元欄僅作對照，未換算西曆月日，原文紀年不改。 本筆皆七八歲與同段授封相接，僅標報齡所屬敘事年，不當確歲或推出生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "basis": {
+          "kind": "parallel_event",
+          "source_event_quote": "孝文八年，上憐淮南王，淮南王有子四人，皆七八歲，乃封子安為阜陵侯，子勃為安陽侯，子賜為陽周侯，子良為東成侯。",
+          "reference_url": "https://zh.wikisource.org/w/index.php?title=史記/卷019&oldid=6359260",
+          "reference_event_quote": "八年五月丙午，侯劉安元年。",
+          "reference_year_quote": "172",
+          "reference_year_url": "https://zh.wikisource.org/w/index.php?title=史記/卷017&oldid=2607010"
+        }
+      }
+    }
+  ],
   "life_events": [
     {
       "id": "le-shiji118-006",

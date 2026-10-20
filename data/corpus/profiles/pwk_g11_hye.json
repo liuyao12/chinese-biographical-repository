@@ -70,7 +70,53 @@
       "title": "周本紀第四",
       "paragraph_id": "c-shiji-004-zhou:p070",
       "count": 3,
-      "quote": "安王立二十六年，崩，子烈王喜立。烈王二年，周太史儋見秦獻公曰：「始周與秦國合而別，別五百載復合，合十七歲而霸王者出焉。」"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "安王立二十六年，崩，子烈王喜立。烈王二年，周太史儋見秦獻公曰：「始周與秦國合而別，別五百載復合，合十七歲而霸王者出焉。」",
+      "paragraph_ids": [
+        "c-shiji-004-zhou:p070",
+        "c-shiji-004-zhou:p071"
+      ],
+      "mention_ids": [
+        "c-shiji-004-zhou:m070-0011",
+        "c-shiji-004-zhou:m070-0016",
+        "c-shiji-004-zhou:m071-0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-004-zhou:m070-0011": "c-shiji-004-zhou:p070",
+        "c-shiji-004-zhou:m070-0016": "c-shiji-004-zhou:p070",
+        "c-shiji-004-zhou:m071-0003": "c-shiji-004-zhou:p071"
+      },
+      "mention_id": "c-shiji-004-zhou:m070-0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m070-0011",
+          "mention_ids": [
+            "c-shiji-004-zhou:m070-0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m070-0016",
+          "mention_ids": [
+            "c-shiji-004-zhou:m070-0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-004-zhou:m071-0003",
+          "mention_ids": [
+            "c-shiji-004-zhou:m071-0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-004",
+      "chapter_id": "c-shiji-004-zhou",
+      "source_id": "s-shiji-004-zhou",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -96,7 +142,12 @@
         "person_id": "pwk_g11_hye",
         "status": "contextual_provisional",
         "interpretation_note": "依國別、紀年及原格上下文暫定；保留異文，不據同名自動合併。"
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-015",
+      "chapter_id": "table-chapter-shiji-015",
+      "source_id": "table-witness-shiji-015",
+      "source_revision": "2607002"
     }
   ],
   "sources": [

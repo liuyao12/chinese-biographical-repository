@@ -62,7 +62,80 @@
       "title": "朝鮮列傳第五十五",
       "paragraph_id": "c-shiji-115-chaoxian:p007",
       "count": 6,
-      "quote": "決，與左將軍計相誤，卒沮約。今兩將圍城，又乖異，以故久不決。使濟南太守公孫遂往（征）［正］之，有便宜得以從事。遂至，左將軍曰：「朝鮮當下久矣，不下者有狀。」言樓船數期不會，具以素所意告遂，曰：「今如此不取，恐為大害，非獨樓船，又且與朝鮮共滅吾軍。」遂亦以為然，而以節召樓船將軍"
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "決，與左將軍計相誤，卒沮約。今兩將圍城，又乖異，以故久不決。使濟南太守公孫遂往（征）［正］之，有便宜得以從事。遂至，左將軍曰：「朝鮮當下久矣，不下者有狀。」言樓船數期不會，具以素所意告遂，曰：「今如此不取，恐為大害，非獨樓船，又且與朝鮮共滅吾軍。」遂亦以為然，而以節召樓船將軍",
+      "paragraph_ids": [
+        "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:p010"
+      ],
+      "mention_ids": [
+        "c-shiji-115-chaoxian:m007-0255",
+        "c-shiji-115-chaoxian:m007-0275",
+        "c-shiji-115-chaoxian:m007-0312",
+        "c-shiji-115-chaoxian:m007-0344",
+        "c-shiji-115-chaoxian:m007-0392",
+        "c-shiji-115-chaoxian:m010-0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-115-chaoxian:m007-0255": "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:m007-0275": "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:m007-0312": "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:m007-0344": "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:m007-0392": "c-shiji-115-chaoxian:p007",
+        "c-shiji-115-chaoxian:m010-0051": "c-shiji-115-chaoxian:p010"
+      },
+      "mention_id": "c-shiji-115-chaoxian:m007-0255",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m007-0255",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m007-0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m007-0275",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m007-0275"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m007-0312",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m007-0312"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m007-0344",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m007-0344"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m007-0392",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m007-0392"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-115-chaoxian:m010-0051",
+          "mention_ids": [
+            "c-shiji-115-chaoxian:m010-0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-115",
+      "chapter_id": "c-shiji-115-chaoxian",
+      "source_id": "s-shiji115-chaoxian",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -125,5 +198,25 @@
     }
   ],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-shiji115-gong-sun-sui-action",
+      "paragraph_id": "c-shiji-115-chaoxian:p007",
+      "source_term": "天子誅遂",
+      "person_ids": [
+        "b80_lq9_z00"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "誅遂",
+      "reported_reading": "許遂",
+      "component": "reported_action",
+      "quote": "以報天子許遂左將軍已幷兩軍即急擊朝鮮朝鮮相¶",
+      "commentator": "班固《漢書》卷九十五所見數位正文",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L480-L480",
+      "image_verified": false,
+      "interpretation_note": "《史記》正文與篇末皆記誅遂；此《漢書》數位正文作許遂，清代卷末考證另主張許字誤。分存所見正文與後出校說，不宣稱已親見考證引述的通鑑版本。"
+    }
+  ]
 }

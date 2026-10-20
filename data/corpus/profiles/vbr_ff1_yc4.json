@@ -239,7 +239,89 @@
           "surface": "齊相",
           "person_mention_id": "c-shiji-112-pingjin:m025-0005",
           "usage": "narrative",
-          "date_expression": "元朔二年"
+          "date_expression": "元朔二年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 128,
+              "year": -127
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 127,
+              "year": -126
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-112-pingjin",
+                "source_id": "s-shiji112-pingjin",
+                "paragraph_id": "c-shiji-112-pingjin:p025",
+                "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r080-c00",
+                "quote": "127",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r080-c01",
+                "quote": "二",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "quote": "元朔元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元朔",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r080-c01",
+              "digital_year_cell_id": "shiji-022-t1-r080-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元朔二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -255,12 +337,20 @@
             }
           ],
           "event_type": "grant",
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 127,
-            "year": -126,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 128,
+              "year": -127
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 127,
+              "year": -126
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
             "evidence": [
@@ -273,16 +363,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-                "quote": "元朔二年（甲寅，公元前一二七年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r080-c00",
+                "quote": "127",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r080-c01",
+                "quote": "二",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
+                "image_verified": false
+              },
+              {
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r079-c01",
+                "quote": "元朔元年",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "scope": "received_regnal_year_attestation",
+                "title": "《史記·漢興以來將相名臣年表》",
                 "image_verified": false
               }
             ],
-            "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元朔",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r080-c01",
+              "digital_year_cell_id": "shiji-022-t1-r080-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本筆原文明示元朔二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -293,7 +428,7 @@
       },
       "interpretation_note": "保存受官與用稱的原文證據；一歲中四遷不分造第四官名，未知年月及任期終點保留。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前127年（暫定） → 未定"
+      "period": "西元前128至127年（暫定範圍） → 未定"
     }
   ],
   "addresses": [
@@ -411,7 +546,34 @@
       "title": "孝景本紀第十一",
       "paragraph_id": "c-shiji-011-jingdi:p018",
       "count": 1,
-      "quote": "錯刻削諸侯，遂使七國俱起，合從而西鄉，以諸侯太盛，而錯為之不以漸也。及主父偃言之，而諸侯以弱，卒以安。安危之機，豈不以謀哉？"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "錯刻削諸侯，遂使七國俱起，合從而西鄉，以諸侯太盛，而錯為之不以漸也。及主父偃言之，而諸侯以弱，卒以安。安危之機，豈不以謀哉？",
+      "paragraph_ids": [
+        "c-shiji-011-jingdi:p018"
+      ],
+      "mention_ids": [
+        "c-shiji-011-jingdi:m018-0066"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-011-jingdi:m018-0066": "c-shiji-011-jingdi:p018"
+      },
+      "mention_id": "c-shiji-011-jingdi:m018-0066",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-011-jingdi:m018-0066",
+          "mention_ids": [
+            "c-shiji-011-jingdi:m018-0066"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-011",
+      "chapter_id": "c-shiji-011-jingdi",
+      "source_id": "s-shiji-011-jingdi",
+      "work_title": "史記"
     },
     {
       "number": 52,
@@ -419,7 +581,126 @@
       "title": "齊悼惠王世家第二十二",
       "paragraph_id": "c-shiji-052-qidaohui:p028",
       "count": 11,
-      "quote": "之於諸侯，宦者甲乃請使齊，必令王上書請娥。皇太后喜，使甲之齊。是時齊人主父偃知甲之使齊以取后事，亦因謂甲：「即事成，幸言偃女願得充王後宮。」甲既至齊，風以此事。紀太后大怒，曰：「王有后，後宮具備。且甲，齊貧人，急乃為宦者，入事漢，無補益，乃欲亂吾王家！且主父偃何為者？乃欲以女"
+      "raw_count": 11,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "之於諸侯，宦者甲乃請使齊，必令王上書請娥。皇太后喜，使甲之齊。是時齊人主父偃知甲之使齊以取后事，亦因謂甲：「即事成，幸言偃女願得充王後宮。」甲既至齊，風以此事。紀太后大怒，曰：「王有后，後宮具備。且甲，齊貧人，急乃為宦者，入事漢，無補益，乃欲亂吾王家！且主父偃何為者？乃欲以女",
+      "paragraph_ids": [
+        "c-shiji-052-qidaohui:p028",
+        "c-shiji-052-qidaohui:p029",
+        "c-shiji-052-qidaohui:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-052-qidaohui:m028-0084",
+        "c-shiji-052-qidaohui:m028-0176",
+        "c-shiji-052-qidaohui:m028-0274",
+        "c-shiji-052-qidaohui:m029-0000",
+        "c-shiji-052-qidaohui:m029-0100",
+        "c-shiji-052-qidaohui:m029-0112",
+        "c-shiji-052-qidaohui:m030-0005",
+        "c-shiji-052-qidaohui:m030-0024",
+        "c-shiji-052-qidaohui:m030-0038",
+        "c-shiji-052-qidaohui:m030-0060",
+        "c-shiji-052-qidaohui:m030-0072"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-052-qidaohui:m028-0084": "c-shiji-052-qidaohui:p028",
+        "c-shiji-052-qidaohui:m028-0176": "c-shiji-052-qidaohui:p028",
+        "c-shiji-052-qidaohui:m028-0274": "c-shiji-052-qidaohui:p028",
+        "c-shiji-052-qidaohui:m029-0000": "c-shiji-052-qidaohui:p029",
+        "c-shiji-052-qidaohui:m029-0100": "c-shiji-052-qidaohui:p029",
+        "c-shiji-052-qidaohui:m029-0112": "c-shiji-052-qidaohui:p029",
+        "c-shiji-052-qidaohui:m030-0005": "c-shiji-052-qidaohui:p030",
+        "c-shiji-052-qidaohui:m030-0024": "c-shiji-052-qidaohui:p030",
+        "c-shiji-052-qidaohui:m030-0038": "c-shiji-052-qidaohui:p030",
+        "c-shiji-052-qidaohui:m030-0060": "c-shiji-052-qidaohui:p030",
+        "c-shiji-052-qidaohui:m030-0072": "c-shiji-052-qidaohui:p030"
+      },
+      "mention_id": "c-shiji-052-qidaohui:m028-0084",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m028-0084",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m028-0084"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m028-0176",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m028-0176"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m028-0274",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m028-0274"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m029-0000",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m029-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m029-0100",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m029-0100"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m029-0112",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m029-0112"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0005",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0024",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0038",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0060",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-052-qidaohui:m030-0072",
+          "mention_ids": [
+            "c-shiji-052-qidaohui:m030-0072"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-052",
+      "chapter_id": "c-shiji-052-qidaohui",
+      "source_id": "s-shiji-052-qidaohui",
+      "work_title": "史記"
     },
     {
       "number": 80,
@@ -427,7 +708,34 @@
       "title": "樂毅列傳第二十",
       "paragraph_id": "c-shiji-080-leyi:p020",
       "count": 1,
-      "quote": "太史公曰：始齊之蒯通及主父偃讀樂毅之報燕王書，未嘗不廢書而泣也。樂臣公學黃帝、老子，其本師號曰河上丈人，不知其所出。河上丈人教安期生，安期生教毛翕公，毛翕公教樂瑕公，樂瑕公教樂臣公，樂臣公教蓋公。蓋公教於齊高密、膠西，為曹相國師"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "太史公曰：始齊之蒯通及主父偃讀樂毅之報燕王書，未嘗不廢書而泣也。樂臣公學黃帝、老子，其本師號曰河上丈人，不知其所出。河上丈人教安期生，安期生教毛翕公，毛翕公教樂瑕公，樂瑕公教樂臣公，樂臣公教蓋公。蓋公教於齊高密、膠西，為曹相國師",
+      "paragraph_ids": [
+        "c-shiji-080-leyi:p020"
+      ],
+      "mention_ids": [
+        "c-shiji-080-leyi:m020-0011"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-080-leyi:m020-0011": "c-shiji-080-leyi:p020"
+      },
+      "mention_id": "c-shiji-080-leyi:m020-0011",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-080-leyi:m020-0011",
+          "mention_ids": [
+            "c-shiji-080-leyi:m020-0011"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-080",
+      "chapter_id": "c-shiji-080-leyi",
+      "source_id": "s-shiji-080-leyi",
+      "work_title": "史記"
     },
     {
       "number": 112,
@@ -435,7 +743,307 @@
       "title": "平津侯主父列傳第五十二",
       "paragraph_id": "c-shiji-112-pingjin:p007",
       "count": 30,
-      "quote": "弘為人意忌，外寬內深。諸嘗與弘有卻者，雖詳與善，陰報其禍。殺主父偃，徙董仲舒於膠西，皆弘之力也。食一肉脫粟之飯。故人所善賓客，仰衣食，弘奉祿皆以給之，家無所餘。士亦以此賢之。"
+      "raw_count": 30,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弘為人意忌，外寬內深。諸嘗與弘有卻者，雖詳與善，陰報其禍。殺主父偃，徙董仲舒於膠西，皆弘之力也。食一肉脫粟之飯。故人所善賓客，仰衣食，弘奉祿皆以給之，家無所餘。士亦以此賢之。",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:p010",
+        "c-shiji-112-pingjin:p011",
+        "c-shiji-112-pingjin:p021",
+        "c-shiji-112-pingjin:p022",
+        "c-shiji-112-pingjin:p023",
+        "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:p025",
+        "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:p027",
+        "c-shiji-112-pingjin:p028",
+        "c-shiji-112-pingjin:p030",
+        "c-shiji-112-pingjin:p031"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m007-0030",
+        "c-shiji-112-pingjin:m010-0000",
+        "c-shiji-112-pingjin:m011-0000",
+        "c-shiji-112-pingjin:m011-0036",
+        "c-shiji-112-pingjin:m021-0035",
+        "c-shiji-112-pingjin:m021-0048",
+        "c-shiji-112-pingjin:m021-0059",
+        "c-shiji-112-pingjin:m021-0075",
+        "c-shiji-112-pingjin:m022-0000",
+        "c-shiji-112-pingjin:m023-0016",
+        "c-shiji-112-pingjin:m023-0037",
+        "c-shiji-112-pingjin:m023-0046",
+        "c-shiji-112-pingjin:m024-0000",
+        "c-shiji-112-pingjin:m024-0083",
+        "c-shiji-112-pingjin:m024-0094",
+        "c-shiji-112-pingjin:m025-0005",
+        "c-shiji-112-pingjin:m025-0018",
+        "c-shiji-112-pingjin:m025-0088",
+        "c-shiji-112-pingjin:m026-0000",
+        "c-shiji-112-pingjin:m026-0039",
+        "c-shiji-112-pingjin:m026-0063",
+        "c-shiji-112-pingjin:m026-0096",
+        "c-shiji-112-pingjin:m026-0111",
+        "c-shiji-112-pingjin:m026-0163",
+        "c-shiji-112-pingjin:m026-0174",
+        "c-shiji-112-pingjin:m026-0188",
+        "c-shiji-112-pingjin:m027-0000",
+        "c-shiji-112-pingjin:m028-0046",
+        "c-shiji-112-pingjin:m030-0096",
+        "c-shiji-112-pingjin:m031-0036"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-112-pingjin:m007-0030": "c-shiji-112-pingjin:p007",
+        "c-shiji-112-pingjin:m010-0000": "c-shiji-112-pingjin:p010",
+        "c-shiji-112-pingjin:m011-0000": "c-shiji-112-pingjin:p011",
+        "c-shiji-112-pingjin:m011-0036": "c-shiji-112-pingjin:p011",
+        "c-shiji-112-pingjin:m021-0035": "c-shiji-112-pingjin:p021",
+        "c-shiji-112-pingjin:m021-0048": "c-shiji-112-pingjin:p021",
+        "c-shiji-112-pingjin:m021-0059": "c-shiji-112-pingjin:p021",
+        "c-shiji-112-pingjin:m021-0075": "c-shiji-112-pingjin:p021",
+        "c-shiji-112-pingjin:m022-0000": "c-shiji-112-pingjin:p022",
+        "c-shiji-112-pingjin:m023-0016": "c-shiji-112-pingjin:p023",
+        "c-shiji-112-pingjin:m023-0037": "c-shiji-112-pingjin:p023",
+        "c-shiji-112-pingjin:m023-0046": "c-shiji-112-pingjin:p023",
+        "c-shiji-112-pingjin:m024-0000": "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:m024-0083": "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:m024-0094": "c-shiji-112-pingjin:p024",
+        "c-shiji-112-pingjin:m025-0005": "c-shiji-112-pingjin:p025",
+        "c-shiji-112-pingjin:m025-0018": "c-shiji-112-pingjin:p025",
+        "c-shiji-112-pingjin:m025-0088": "c-shiji-112-pingjin:p025",
+        "c-shiji-112-pingjin:m026-0000": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0039": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0063": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0096": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0111": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0163": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0174": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m026-0188": "c-shiji-112-pingjin:p026",
+        "c-shiji-112-pingjin:m027-0000": "c-shiji-112-pingjin:p027",
+        "c-shiji-112-pingjin:m028-0046": "c-shiji-112-pingjin:p028",
+        "c-shiji-112-pingjin:m030-0096": "c-shiji-112-pingjin:p030",
+        "c-shiji-112-pingjin:m031-0036": "c-shiji-112-pingjin:p031"
+      },
+      "mention_id": "c-shiji-112-pingjin:m007-0030",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m007-0030",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m007-0030"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m010-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m010-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m011-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m011-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m011-0036",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m011-0036"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m021-0035",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m021-0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m021-0048",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m021-0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m021-0059",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m021-0059"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m021-0075",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m021-0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m022-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m022-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m023-0016",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m023-0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m023-0037",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m023-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m023-0046",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m023-0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m024-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m024-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m024-0083",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m024-0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m024-0094",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m024-0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m025-0005",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m025-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m025-0018",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m025-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m025-0088",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m025-0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0039",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0039"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0063",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0063"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0096",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0111",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0163",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0163"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0174",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0174"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m026-0188",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m026-0188"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m027-0000",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m027-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m028-0046",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m028-0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m030-0096",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m030-0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m031-0036",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m031-0036"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記"
     },
     {
       "number": 121,
@@ -443,7 +1051,44 @@
       "title": "儒林列傳第六十一",
       "paragraph_id": "c-shiji-121-rulin:p019",
       "count": 2,
-      "quote": "成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "成以易至城陽相。廣川人孟但以易為太子門大夫。魯人周霸，莒人衡胡，臨菑人主父偃，皆以易至二千石。然要言易者本於楊何之家。",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p019",
+        "c-shiji-121-rulin:p020"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m019-0109",
+        "c-shiji-121-rulin:m020-0154"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m019-0109": "c-shiji-121-rulin:p019",
+        "c-shiji-121-rulin:m020-0154": "c-shiji-121-rulin:p020"
+      },
+      "mention_id": "c-shiji-121-rulin:m019-0109",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m019-0109",
+          "mention_ids": [
+            "c-shiji-121-rulin:m019-0109"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m020-0154",
+          "mention_ids": [
+            "c-shiji-121-rulin:m020-0154"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     },
     {
       "number": 122,
@@ -451,7 +1096,34 @@
       "title": "酷吏列傳第六十二",
       "paragraph_id": "c-shiji-122-kuli:p038",
       "count": 1,
-      "quote": "使買馬河東，見宣無害，言上，徴爲大廐丞。官事辨，稍遷至御史及中丞。使治主父偃及治淮南反獄，所以微文深詆，殺者甚衆，稱爲敢決疑。數廢數起，爲御史及中丞者幾二十歳。王温舒免中尉，而宣爲左内史。其治米鹽，事大小皆關其手，自部署縣名曹實物，官吏令丞不得擅搖，痛以重法繩之。居官數年，一"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "使買馬河東，見宣無害，言上，徴爲大廐丞。官事辨，稍遷至御史及中丞。使治主父偃及治淮南反獄，所以微文深詆，殺者甚衆，稱爲敢決疑。數廢數起，爲御史及中丞者幾二十歳。王温舒免中尉，而宣爲左内史。其治米鹽，事大小皆關其手，自部署縣名曹實物，官吏令丞不得擅搖，痛以重法繩之。居官數年，一",
+      "paragraph_ids": [
+        "c-shiji-122-kuli:p038"
+      ],
+      "mention_ids": [
+        "c-shiji-122-kuli:m038-0059"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-122-kuli:m038-0059": "c-shiji-122-kuli:p038"
+      },
+      "mention_id": "c-shiji-122-kuli:m038-0059",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m038-0059",
+          "mention_ids": [
+            "c-shiji-122-kuli:m038-0059"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "chapter_id": "c-shiji-122-kuli",
+      "source_id": "s-shiji122-kuli",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -599,6 +1271,29 @@
           "note": "末段索隱述贊分層，太史公論贊屬篇文。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
@@ -629,41 +1324,7 @@
     "dxb_p5k_req": "主父偃女（齊悼惠王世家未名者）",
     "vbr_ff1_yc4": "主父偃（平津侯主父列傳候選）"
   },
-  "dates": [
-    {
-      "era": "BCE",
-      "era_year": 127,
-      "year": -126,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-112-pingjin",
-          "source_id": "s-shiji112-pingjin",
-          "paragraph_id": "c-shiji-112-pingjin:p025",
-          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷018",
-          "quote": "元朔二年（甲寅，公元前一二七年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "本篇明示武帝年號，數位年標僅供公元年換算，不作獨立事件證據；未補月日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji112-026",
-      "person_id": "vbr_ff1_yc4",
-      "endpoint": "start",
-      "title": "齊相"
-    }
-  ],
+  "dates": [],
   "name_components": [],
   "person_ids": [
     "vbr_ff1_yc4"
@@ -690,6 +1351,183 @@
       },
       "interpretation_note": "來源明示未名近親；不補姓名，不以此改動已發人物ID或把姻親當血親。",
       "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 128,
+        "year": -127
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 127,
+        "year": -126
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p025",
+          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r080-c00",
+          "quote": "127",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r080-c01",
+          "quote": "二",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "quote": "元朔元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元朔",
+        "year_source_term": "二年",
+        "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r080-c01",
+        "digital_year_cell_id": "shiji-022-t1-r080-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元朔二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-026",
+      "person_id": "vbr_ff1_yc4",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "齊相"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 128,
+        "year": -127
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 127,
+        "year": -126
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-112-pingjin",
+          "source_id": "s-shiji112-pingjin",
+          "paragraph_id": "c-shiji-112-pingjin:p025",
+          "quote": "元朔二年，主父言齊王內淫佚行僻，上拜主父為齊相。至齊，遍召昆弟賓客，散五百金予之，數之曰：「始吾貧時，昆弟不我衣食，賓客不我內門；今吾相齊，諸君迎我或千里。吾與諸君絕矣，毋復入偃之門！」乃使人以王與姊姦事動王，王以為終不得脫罪，恐效燕王論死，乃自殺。有司以聞。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r080-c00",
+          "quote": "127",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r080-c01",
+          "quote": "二",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        },
+        {
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r079-c01",
+          "quote": "元朔元年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "scope": "received_regnal_year_attestation",
+          "title": "《史記·漢興以來將相名臣年表》",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "元朔",
+        "year_source_term": "二年",
+        "era_anchor_cell_id": "shiji-022-t1-r079-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r080-c01",
+        "digital_year_cell_id": "shiji-022-t1-r080-c00",
+        "calendar_rule": "han_tenth_month_before_taichu"
+      },
+      "rationale": "本筆原文明示元朔二年，只用將相表同年號原年列及數位西元格換算；太初前漢以建亥為年首，未記月份，保留相鄰兩個西元年範圍，不任選單一年或推精確月日。原任官紀年即使與別篇有異仍分源保存；年欄不是另一份人物事件證據。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji112-026",
+      "attestation_id": "th-shiji112-026:a001",
+      "person_id": "vbr_ff1_yc4",
+      "date_role": "title_attestation",
+      "title": "齊相",
+      "usage": "narrative"
     }
   ],
   "age_assertions": [],

@@ -2,14 +2,58 @@
   "schema_version": 1,
   "id": "6ym_eva_k4a",
   "canonical_person_id": "6ym_eva_k4a",
-  "label": "王温舒（酷吏列傳候選）",
+  "label": "王溫舒",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "王温舒",
-    "温舒"
+    "温舒",
+    "王溫舒"
   ],
   "titles": [
+    {
+      "id": "th-shiji114-021",
+      "person_id": "6ym_eva_k4a",
+      "title": "中尉",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p008",
+          "quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji114-021:a001",
+          "paragraph_id": "c-shiji-114-dongyue:p008",
+          "start": 49,
+          "end": 51,
+          "surface": "中尉",
+          "person_mention_id": "c-shiji-114-dongyue:m008-0051",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
     {
       "id": "th-shiji122-055",
       "person_id": "6ym_eva_k4a",
@@ -650,7 +694,69 @@
       "title": "萬石張叔列傳第四十三",
       "paragraph_id": "c-shiji-103-wanshi:p011",
       "count": 1,
-      "quote": "多事。天子巡狩海内，修上古神祠，封禪，興禮樂。公家用少，桑弘羊等致利，王温舒之屬峻法，兒寬等推文學至九卿，更進用事，事不關決於丞相，丞相醇謹而已。在位九歳，無能有所匡言。嘗欲請治上近臣所忠、九卿咸宣罪，不能服，反受其過，贖罪。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "多事。天子巡狩海内，修上古神祠，封禪，興禮樂。公家用少，桑弘羊等致利，王温舒之屬峻法，兒寬等推文學至九卿，更進用事，事不關決於丞相，丞相醇謹而已。在位九歳，無能有所匡言。嘗欲請治上近臣所忠、九卿咸宣罪，不能服，反受其過，贖罪。",
+      "paragraph_ids": [
+        "c-shiji-103-wanshi:p011"
+      ],
+      "mention_ids": [
+        "c-shiji-103-wanshi:m011-0110"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-103-wanshi:m011-0110": "c-shiji-103-wanshi:p011"
+      },
+      "mention_id": "c-shiji-103-wanshi:m011-0110",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-103-wanshi:m011-0110",
+          "mention_ids": [
+            "c-shiji-103-wanshi:m011-0110"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-103",
+      "chapter_id": "c-shiji-103-wanshi",
+      "source_id": "s-shiji-103-wanshi",
+      "work_title": "史記"
+    },
+    {
+      "number": 114,
+      "category": "liezhuan",
+      "title": "東越列傳第五十四",
+      "paragraph_id": "c-shiji-114-dongyue:p008",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。",
+      "paragraph_ids": [
+        "c-shiji-114-dongyue:p008"
+      ],
+      "mention_ids": [
+        "c-shiji-114-dongyue:m008-0051"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-114-dongyue:m008-0051": "c-shiji-114-dongyue:p008"
+      },
+      "mention_id": "c-shiji-114-dongyue:m008-0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m008-0051",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m008-0051"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "chapter_id": "c-shiji-114-dongyue",
+      "source_id": "s-shiji114-dongyue",
+      "work_title": "史記"
     },
     {
       "number": 122,
@@ -658,7 +764,198 @@
       "title": "酷吏列傳第六十二",
       "paragraph_id": "c-shiji-122-kuli:p025",
       "count": 18,
-      "quote": "府，比九卿。禹酷急，至晩節，事益多，吏務爲嚴峻，而禹治加緩，而名爲平。王温舒等後起，治酷於禹。禹以老，徙爲燕相。數歳，亂悖有罪，免歸。後湯十餘年，以壽卒于家。"
+      "raw_count": 18,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "府，比九卿。禹酷急，至晩節，事益多，吏務爲嚴峻，而禹治加緩，而名爲平。王温舒等後起，治酷於禹。禹以老，徙爲燕相。數歳，亂悖有罪，免歸。後湯十餘年，以壽卒于家。",
+      "paragraph_ids": [
+        "c-shiji-122-kuli:p025",
+        "c-shiji-122-kuli:p028",
+        "c-shiji-122-kuli:p029",
+        "c-shiji-122-kuli:p030",
+        "c-shiji-122-kuli:p031",
+        "c-shiji-122-kuli:p033",
+        "c-shiji-122-kuli:p034",
+        "c-shiji-122-kuli:p035",
+        "c-shiji-122-kuli:p036",
+        "c-shiji-122-kuli:p037",
+        "c-shiji-122-kuli:p038",
+        "c-shiji-122-kuli:p042"
+      ],
+      "mention_ids": [
+        "c-shiji-122-kuli:m025-0062",
+        "c-shiji-122-kuli:m028-0062",
+        "c-shiji-122-kuli:m028-0069",
+        "c-shiji-122-kuli:m029-0000",
+        "c-shiji-122-kuli:m030-0162",
+        "c-shiji-122-kuli:m031-0106",
+        "c-shiji-122-kuli:m033-0001",
+        "c-shiji-122-kuli:m033-0082",
+        "c-shiji-122-kuli:m034-0000",
+        "c-shiji-122-kuli:m034-0036",
+        "c-shiji-122-kuli:m035-0013",
+        "c-shiji-122-kuli:m035-0026",
+        "c-shiji-122-kuli:m035-0080",
+        "c-shiji-122-kuli:m036-0000",
+        "c-shiji-122-kuli:m037-0001",
+        "c-shiji-122-kuli:m037-0032",
+        "c-shiji-122-kuli:m038-0104",
+        "c-shiji-122-kuli:m042-0060"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-122-kuli:m025-0062": "c-shiji-122-kuli:p025",
+        "c-shiji-122-kuli:m028-0062": "c-shiji-122-kuli:p028",
+        "c-shiji-122-kuli:m028-0069": "c-shiji-122-kuli:p028",
+        "c-shiji-122-kuli:m029-0000": "c-shiji-122-kuli:p029",
+        "c-shiji-122-kuli:m030-0162": "c-shiji-122-kuli:p030",
+        "c-shiji-122-kuli:m031-0106": "c-shiji-122-kuli:p031",
+        "c-shiji-122-kuli:m033-0001": "c-shiji-122-kuli:p033",
+        "c-shiji-122-kuli:m033-0082": "c-shiji-122-kuli:p033",
+        "c-shiji-122-kuli:m034-0000": "c-shiji-122-kuli:p034",
+        "c-shiji-122-kuli:m034-0036": "c-shiji-122-kuli:p034",
+        "c-shiji-122-kuli:m035-0013": "c-shiji-122-kuli:p035",
+        "c-shiji-122-kuli:m035-0026": "c-shiji-122-kuli:p035",
+        "c-shiji-122-kuli:m035-0080": "c-shiji-122-kuli:p035",
+        "c-shiji-122-kuli:m036-0000": "c-shiji-122-kuli:p036",
+        "c-shiji-122-kuli:m037-0001": "c-shiji-122-kuli:p037",
+        "c-shiji-122-kuli:m037-0032": "c-shiji-122-kuli:p037",
+        "c-shiji-122-kuli:m038-0104": "c-shiji-122-kuli:p038",
+        "c-shiji-122-kuli:m042-0060": "c-shiji-122-kuli:p042"
+      },
+      "mention_id": "c-shiji-122-kuli:m025-0062",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m025-0062",
+          "mention_ids": [
+            "c-shiji-122-kuli:m025-0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m028-0062",
+          "mention_ids": [
+            "c-shiji-122-kuli:m028-0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m028-0069",
+          "mention_ids": [
+            "c-shiji-122-kuli:m028-0069"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m029-0000",
+          "mention_ids": [
+            "c-shiji-122-kuli:m029-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m030-0162",
+          "mention_ids": [
+            "c-shiji-122-kuli:m030-0162"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m031-0106",
+          "mention_ids": [
+            "c-shiji-122-kuli:m031-0106"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m033-0001",
+          "mention_ids": [
+            "c-shiji-122-kuli:m033-0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m033-0082",
+          "mention_ids": [
+            "c-shiji-122-kuli:m033-0082"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m034-0000",
+          "mention_ids": [
+            "c-shiji-122-kuli:m034-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m034-0036",
+          "mention_ids": [
+            "c-shiji-122-kuli:m034-0036"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m035-0013",
+          "mention_ids": [
+            "c-shiji-122-kuli:m035-0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m035-0026",
+          "mention_ids": [
+            "c-shiji-122-kuli:m035-0026"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m035-0080",
+          "mention_ids": [
+            "c-shiji-122-kuli:m035-0080"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m036-0000",
+          "mention_ids": [
+            "c-shiji-122-kuli:m036-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m037-0001",
+          "mention_ids": [
+            "c-shiji-122-kuli:m037-0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m037-0032",
+          "mention_ids": [
+            "c-shiji-122-kuli:m037-0032"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m038-0104",
+          "mention_ids": [
+            "c-shiji-122-kuli:m038-0104"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-122-kuli:m042-0060",
+          "mention_ids": [
+            "c-shiji-122-kuli:m042-0060"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-122",
+      "chapter_id": "c-shiji-122-kuli",
+      "source_id": "s-shiji122-kuli",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -684,6 +981,30 @@
           "editorial_readings": [],
           "extraction_note": "僅去外緣空白；髙、衞、温、内、爲、呉、甐及原標點保留。",
           "note": "已核讀全27段數位正文，未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-114-dongyue",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "source_id": "s-shiji114-dongyue",
+      "source": {
+        "title": "史記／卷114",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷114",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷114&oldid=8735633",
+        "revision_id": 8735633,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位見證11段正文，沒有索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標題與YL模板外殼，紀年及正文原字保留，未核底本影像。",
+          "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
     },
@@ -714,10 +1035,35 @@
   ],
   "relations": [],
   "related_people": {
-    "6ym_eva_k4a": "王温舒（酷吏列傳候選）"
+    "6ym_eva_k4a": "王溫舒"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "6ym_eva_k4a",
+      "title": "中尉",
+      "surname": "王",
+      "ming": "溫舒",
+      "additional_names": [
+        "王温舒"
+      ],
+      "chapter_id": "c-shiji-114-dongyue",
+      "paragraph_id": "c-shiji-114-dongyue:p008",
+      "quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。",
+      "references": [
+        {
+          "title": "《史記》平行稱名",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷122&oldid=7904124",
+          "quote": "王温舒者，陽陵人也。少時椎埋爲姦。已而試補縣亭長，數廢。爲吏，以治獄至廷史。事張湯，遷爲御史。督盜賊，殺傷甚多，稍遷至廣平都尉。擇郡中豪敢任吏十餘人，以爲爪牙，皆把其陰重罪，而縱使督盜賊，快其意所欲得。此人雖有百罪，弗法；卽有避，因其事夷之，亦滅宗。以其故齊趙之郊盜賊不敢近廣平，廣平聲爲道不拾遺。上聞，遷爲河内太守。",
+          "scope": "received_parallel_name_or_title",
+          "image_verified": false
+        }
+      ],
+      "note": "王溫舒據本篇；酷吏傳作王温舒並明擊東越還，同人而保兩源原字，不定生前更名。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "6ym_eva_k4a"
   ],

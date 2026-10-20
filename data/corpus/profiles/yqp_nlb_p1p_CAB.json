@@ -17,14 +17,43 @@
       "title": "荊燕吳王傳第五",
       "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p008",
       "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人同，下與少子等，皆發。」二十餘萬人。南使閩、東越，閩、東越亦發兵從。",
-      "work_id": "w-hanshu",
-      "work_title": "漢書",
-      "book_id": "b-hanshu-035",
-      "chapter_id": "c-hanshu-035-jingyanwu",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p008"
-      ]
+      ],
+      "mention_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:m008-0031",
+        "c-hanshu-035-jingyanwu:wuwang:m008-0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-035-jingyanwu:wuwang:m008-0031": "c-hanshu-035-jingyanwu:wuwang:p008",
+        "c-hanshu-035-jingyanwu:wuwang:m008-0053": "c-hanshu-035-jingyanwu:wuwang:p008"
+      },
+      "mention_id": "c-hanshu-035-jingyanwu:wuwang:m008-0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-035-jingyanwu:wuwang:m008-0031",
+          "mention_ids": [
+            "c-hanshu-035-jingyanwu:wuwang:m008-0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-hanshu-035-jingyanwu:wuwang:m008-0053",
+          "mention_ids": [
+            "c-hanshu-035-jingyanwu:wuwang:m008-0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "work_title": "漢書"
     },
     {
       "number": 106,
@@ -32,7 +61,43 @@
       "title": "吳王濞列傳第四十六",
       "paragraph_id": "c-shiji-106-wuwang:p008",
       "count": 2,
-      "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+      "paragraph_ids": [
+        "c-shiji-106-wuwang:p008"
+      ],
+      "mention_ids": [
+        "c-shiji-106-wuwang:m008-0031",
+        "c-shiji-106-wuwang:m008-0053"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-106-wuwang:m008-0031": "c-shiji-106-wuwang:p008",
+        "c-shiji-106-wuwang:m008-0053": "c-shiji-106-wuwang:p008"
+      },
+      "mention_id": "c-shiji-106-wuwang:m008-0031",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m008-0031",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m008-0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m008-0053",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m008-0053"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-106",
+      "chapter_id": "c-shiji-106-wuwang",
+      "source_id": "s-shiji-106-wuwang",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -180,6 +245,86 @@
     "status": "editorial_preferred",
     "human_reviewed": false
   },
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 155,
+        "year": -154
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 154,
+        "year": -153
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-106",
+          "chapter_id": "c-shiji-106-wuwang",
+          "source_id": "s-shiji-106-wuwang",
+          "paragraph_id": "c-shiji-106-wuwang:p008",
+          "quote": "七國之發也，吳王悉其士卒，下令國中曰：「寡人年六十二，身自將。少子年十四，亦為士卒先。諸年上與寡人比，下與少子等者，皆發。」發二十餘萬人。南使閩越、東越，東越亦發兵從。",
+          "person_mention_id": "c-shiji-106-wuwang:m008-0031"
+        }
+      ],
+      "references": [
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "孝景元年",
+          "table_cell_id": "shiji-022-t1-r051-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "三",
+          "table_cell_id": "shiji-022-t1-r053-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "將相表紀年對照",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "154",
+          "table_cell_id": "shiji-022-t1-r053-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "同篇七國發兵原紀年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷106&oldid=405869",
+          "quote": "孝景帝三年正月甲子，初起兵於廣陵。",
+          "paragraph_id": "c-shiji-106-wuwang:p009",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "據本篇明示紀年及同次事件上下文，原紀年、數位對照及漢初建亥歲首依據分列。保守記錄歲首跨兩個西元年的範圍，不由月名或時長推確日；未知計歲方式，不倒推生年。未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "age-shiji106-003",
+      "person_id": "yqp_nlb_p1p_CAB",
+      "date_role": "age_attestation"
+    }
+  ],
   "age_assertions": [
     {
       "person_id": "yqp_nlb_p1p_CAB",

@@ -1,0 +1,1260 @@
+{
+  "record_type": "source_backed_import_proposal_set",
+  "active_facts_added": 0,
+  "proposals": [
+    {
+      "id": "proposal-song053-fangming-001",
+      "record_type": "source_backed_import_proposal",
+      "kind": "maternal_role_bare_unnamed_mother",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd",
+        "3c0_d53_368"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 24,
+          "end": 27,
+          "surface": "載母妹"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "現mother_unspecified只認母+對象名，裸母無後續名，不繞過模型當生母。",
+      "human_reviewed": false,
+      "proposed_relationship": {
+        "predicate": "maternal_role",
+        "subject_person_id": "apr_7dg_tdd",
+        "object_person_id": "3c0_d53_368",
+        "role": "mother_unspecified",
+        "biological_mother": null,
+        "father_person_id": null
+      }
+    },
+    {
+      "id": "proposal-song053-fangming-002",
+      "record_type": "source_backed_import_proposal",
+      "kind": "maternal_cousin_jiuzi",
+      "status": "not_imported",
+      "person_ids": [
+        "a99_4ca_e4a",
+        "1b1_d4d_bb8_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p002",
+        "quote": "初邈舅子長樂馮嗣之及北方學士馮翊仇𤣥達俱往呉興投邈並舍之郡學禮待甚簡二人並忿愠遂與恩通謀恩嘗為嗣之等從者夜入郡見邈衆遁不悟本欲於呉興起兵事趣不果乃遷於會稽及郜等攻郡嗣之𤣥達並豫其謀劉牢之謝琰等討恩恩走入海嗣之等不得同去方更聚合方明結邈門生義故得百餘人掩討嗣之等悉禽而手刃之于時荒亂之後吉凶禮廢方明合門遇禍資産無遺而營舉凶事盡其力用數月之間葬送並畢平世備禮無以加也",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p002",
+          "start": 1,
+          "end": 4,
+          "surface": "邈舅子"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "明舅子為母系旁親，不是邈子；現姨弟模型未含此句型，保留typed親屬提案。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-003",
+      "record_type": "source_backed_import_proposal",
+      "kind": "parent_chain_from_named_grandfather_and_father",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd",
+        "1a3_b0c_e6d",
+        "1b1_d4d_bb8"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 18,
+          "end": 26,
+          "surface": "祖鐵永嘉太守父沖"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "沖→鐵是連代家世及伯邈交叉推導，不標成單句父鐵；家族rekey另包。",
+      "human_reviewed": false,
+      "proposed_predicate": "father",
+      "proposed_subject_person_id": "1a3_b0c_e6d",
+      "proposed_object_person_id": "1b1_d4d_bb8",
+      "inference": true,
+      "reversible": true
+    },
+    {
+      "id": "proposal-song053-fangming-004",
+      "record_type": "source_backed_import_proposal",
+      "kind": "parent_through_younger_brother",
+      "status": "not_imported",
+      "person_ids": [
+        "711_85a_dc8",
+        "apr_7dg_tdd_A",
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 474,
+          "end": 479,
+          "surface": "無子弟惠宣"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "惠宣明弟、惠連明父方明；若推同父須可撤回兄弟模型，非此句直記父。",
+      "human_reviewed": false,
+      "inference": true,
+      "reversible": true
+    },
+    {
+      "id": "proposal-song053-fangming-005",
+      "record_type": "source_backed_import_proposal",
+      "kind": "rejected_marriage_plan",
+      "status": "not_imported",
+      "person_ids": [
+        "2c3_7e0_16b",
+        "2c3_7e0_16b_A",
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 82,
+          "end": 88,
+          "surface": "欲以女嫁方明"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "方明終不回，未建立spouse，不為其子女補母。",
+      "human_reviewed": false,
+      "relationship_established": false
+    },
+    {
+      "id": "proposal-song053-fangming-006",
+      "record_type": "source_backed_import_proposal",
+      "kind": "unresolved_same_name",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 94,
+          "end": 96,
+          "surface": "王騰"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "現庫ni4為慕容俊將，宋元興吏部郎缺跨篇橋；不新發、不硬合。",
+      "human_reviewed": false,
+      "candidate_person_ids": [
+        "ni4_c3i_e2y"
+      ],
+      "unknown_identity_possible": true,
+      "source_person_id": null
+    },
+    {
+      "id": "proposal-song053-fangming-007",
+      "record_type": "source_backed_import_proposal",
+      "kind": "rejected_work_attribution",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A",
+        "740_57f_3ec"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 366,
+          "end": 377,
+          "surface": "論者云是謝惠連其實非也"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "殷景仁說自己小時已有此詩而否定惠連歸屬；非認其作品，也非惠連報齡。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-008",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "1a3_b0c_e6d"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 26,
+          "end": 30,
+          "surface": "中書侍郎"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "attestation",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-009",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "1a3_b0c_e6d"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 37,
+          "end": 44,
+          "surface": "除黃門侍郎不就"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "unassumed",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-010",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "1a3_b0c_e6d"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 49,
+          "end": 55,
+          "surface": "追贈散騎常侍"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "posthumous_grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-011",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "1b1_d4d_bb8_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 60,
+          "end": 64,
+          "surface": "呉興太守"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "attestation",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-012",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 113,
+          "end": 117,
+          "surface": "著作佐郎"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-013",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 122,
+          "end": 124,
+          "surface": "主簿"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-014",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p004",
+        "quote": "方明事思忠益知無不為高祖謂之曰愧未有瓜衍之賞且當與卿共豫章國禄屢加賞賜方明嚴恪善自居遇雖居闇室未甞有惰容無他伎能自然有雅韻從兄混有重名唯歲節朝宗而已丹陽尹劉穆之權重當時朝野輻輳不與穆之相識者唯有混方明郗僧施蔡廓四人而已穆之甚以為恨方明廓後往造之大悅白高祖曰謝方明可謂名家駒直置便自是台鼎人無論復有才用頃之轉從事中郎仍為左將軍道憐長史高祖命府内衆事皆諮決之隨府轉中軍長史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p004",
+          "start": 180,
+          "end": 184,
+          "surface": "中軍長史"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "transfer",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-015",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p005",
+        "quote": "尋更加晉陵太守復為驃騎長史南郡相委任如初嘗年終江陵縣獄囚事無輕重悉散聼歸家使過正三日還到罪應入重者有二十餘人綱紀以下莫不疑懼時晉陵郡送故主簿𢎞季盛徐壽之並隨在西固諫以為昔人雖有其事或是記籍過言且當今民情偽薄不可以古義相許方明不納一時遣之囚及父兄皆驚喜涕泣以為就死無恨至期有重罪二人不還方明不聼討捕其一人醉不能歸逮二日乃反餘一囚十日不至五官朱千期請見欲白討之方明知為囚事使左右謝五官不須入囚自當反囚逡廵墟里不能自歸鄉村責讓之率領將送遂竟無逃亡者逺近咸歎服焉",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p005",
+          "start": 3,
+          "end": 7,
+          "surface": "晉陵太守"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "concurrent",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-016",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p005",
+        "quote": "尋更加晉陵太守復為驃騎長史南郡相委任如初嘗年終江陵縣獄囚事無輕重悉散聼歸家使過正三日還到罪應入重者有二十餘人綱紀以下莫不疑懼時晉陵郡送故主簿𢎞季盛徐壽之並隨在西固諫以為昔人雖有其事或是記籍過言且當今民情偽薄不可以古義相許方明不納一時遣之囚及父兄皆驚喜涕泣以為就死無恨至期有重罪二人不還方明不聼討捕其一人醉不能歸逮二日乃反餘一囚十日不至五官朱千期請見欲白討之方明知為囚事使左右謝五官不須入囚自當反囚逡廵墟里不能自歸鄉村責讓之率領將送遂竟無逃亡者逺近咸歎服焉",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p005",
+          "start": 13,
+          "end": 16,
+          "surface": "南郡相"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-017",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 10,
+          "end": 15,
+          "surface": "尚書吏部郎"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-018",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 20,
+          "end": 22,
+          "surface": "侍中"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "transfer",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-019",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 28,
+          "end": 31,
+          "surface": "丹陽尹"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-020",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 35,
+          "end": 39,
+          "surface": "會稽太守"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "transfer",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-021",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 298,
+          "end": 302,
+          "surface": "主簿不就"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "unassumed",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-022",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 400,
+          "end": 404,
+          "surface": "法曹參軍"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "grant",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-023",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "711_85a_dc8"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 483,
+          "end": 489,
+          "surface": "司徒從事中郎"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "attestation",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-024",
+      "record_type": "source_backed_import_proposal",
+      "kind": "office_or_title",
+      "status": "not_imported",
+      "person_ids": [
+        "711_85a_dc8"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 489,
+          "end": 493,
+          "surface": "臨川内史"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "主語與任命/實任/未就/追贈分開；來源-only本批不匯任職facts，不以死亡關閉所有職。",
+      "human_reviewed": false,
+      "proposed_mode": "attestation",
+      "normalized_date": null
+    },
+    {
+      "id": "proposal-song053-fangming-025",
+      "record_type": "source_backed_import_proposal",
+      "kind": "calendar_expression",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 63,
+          "end": 67,
+          "surface": "元興元年"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原年號及事件主語分開，數值CE留下一批；同段換傳主不能把方明卒年套惠連卒年。",
+      "human_reviewed": false,
+      "numeral_ce": null
+    },
+    {
+      "id": "proposal-song053-fangming-026",
+      "record_type": "source_backed_import_proposal",
+      "kind": "calendar_expression",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 22,
+          "end": 26,
+          "surface": "永初三年"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原年號及事件主語分開，數值CE留下一批；同段換傳主不能把方明卒年套惠連卒年。",
+      "human_reviewed": false,
+      "numeral_ce": null
+    },
+    {
+      "id": "proposal-song053-fangming-027",
+      "record_type": "source_backed_import_proposal",
+      "kind": "calendar_expression",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 259,
+          "end": 263,
+          "surface": "元嘉三年"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原年號及事件主語分開，數值CE留下一批；同段換傳主不能把方明卒年套惠連卒年。",
+      "human_reviewed": false,
+      "numeral_ce": null
+    },
+    {
+      "id": "proposal-song053-fangming-028",
+      "record_type": "source_backed_import_proposal",
+      "kind": "calendar_expression",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 387,
+          "end": 391,
+          "surface": "元嘉七年"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原年號及事件主語分開，數值CE留下一批；同段換傳主不能把方明卒年套惠連卒年。",
+      "human_reviewed": false,
+      "numeral_ce": null
+    },
+    {
+      "id": "proposal-song053-fangming-029",
+      "record_type": "source_backed_import_proposal",
+      "kind": "calendar_expression",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 452,
+          "end": 454,
+          "surface": "十年"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原年號及事件主語分開，數值CE留下一批；同段換傳主不能把方明卒年套惠連卒年。",
+      "human_reviewed": false,
+      "numeral_ce": null
+    },
+    {
+      "id": "proposal-song053-fangming-030",
+      "record_type": "source_backed_import_proposal",
+      "kind": "reported_age",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 265,
+          "end": 269,
+          "surface": "年四十七"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原報齡，不倒推生年；方明47與惠連37為不同傳主。",
+      "human_reviewed": false,
+      "value": 47,
+      "birth_year": null
+    },
+    {
+      "id": "proposal-song053-fangming-031",
+      "record_type": "source_backed_import_proposal",
+      "kind": "reported_age",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 276,
+          "end": 279,
+          "surface": "年十歲"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原報齡，不倒推生年；方明47與惠連37為不同傳主。",
+      "human_reviewed": false,
+      "value": 10,
+      "birth_year": null
+    },
+    {
+      "id": "proposal-song053-fangming-032",
+      "record_type": "source_backed_import_proposal",
+      "kind": "reported_age",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 455,
+          "end": 460,
+          "surface": "時年三十七"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原報齡，不倒推生年；方明47與惠連37為不同傳主。",
+      "human_reviewed": false,
+      "value": 37,
+      "birth_year": null
+    },
+    {
+      "id": "proposal-song053-fangming-033",
+      "record_type": "source_backed_import_proposal",
+      "kind": "death_report",
+      "status": "not_imported",
+      "person_ids": [
+        "3c0_d53_368"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 0,
+          "end": 3,
+          "surface": "遭母憂"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "只記母喪而不辨生母、繼母或養母，不補年月。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-034",
+      "record_type": "source_backed_import_proposal",
+      "kind": "childlessness_report",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd_A"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 474,
+          "end": 476,
+          "surface": "無子"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "本傳說無子，不等無兄弟/無後或弟為嗣子。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-035",
+      "record_type": "source_backed_import_proposal",
+      "kind": "locality_or_event",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 3,
+          "end": 7,
+          "surface": "陳郡陽夏"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原文角色分開，無現代坐標及推補年月；不以任官地自動作死亡精確地。",
+      "human_reviewed": false,
+      "role": "origin"
+    },
+    {
+      "id": "proposal-song053-fangming-036",
+      "record_type": "source_backed_import_proposal",
+      "kind": "locality_or_event",
+      "status": "not_imported",
+      "person_ids": [
+        "1a3_b0c_e6d"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p001",
+          "start": 30,
+          "end": 34,
+          "surface": "家在會稽"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原文角色分開，無現代坐標及推補年月；不以任官地自動作死亡精確地。",
+      "human_reviewed": false,
+      "role": "residence"
+    },
+    {
+      "id": "proposal-song053-fangming-037",
+      "record_type": "source_backed_import_proposal",
+      "kind": "locality_or_event",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 24,
+          "end": 30,
+          "surface": "載母妹奔東陽"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原文角色分開，無現代坐標及推補年月；不以任官地自動作死亡精確地。",
+      "human_reviewed": false,
+      "role": "flight"
+    },
+    {
+      "id": "proposal-song053-fangming-038",
+      "record_type": "source_backed_import_proposal",
+      "kind": "locality_or_event",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p003",
+        "quote": "頃之孫恩重没會稽謝琰見害恩購求方明甚急方明於上虞載母妹奔東陽由黄蘖嶠出鄱陽附載還都寄居國子學流離險阨屯苦備經而貞立之操在約無改元興元年桓𤣥尅京邑丹陽尹卞範之勢傾朝野欲以女嫁方明使尚書吏部郎王騰譬說備至方明終不回桓𤣥聞而賞之即除著作佐郎補司徒王謐主簿從兄景仁舉為高祖中兵主簿",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p003",
+          "start": 41,
+          "end": 46,
+          "surface": "寄居國子學"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原文角色分開，無現代坐標及推補年月；不以任官地自動作死亡精確地。",
+      "human_reviewed": false,
+      "role": "residence"
+    },
+    {
+      "id": "proposal-song053-fangming-039",
+      "record_type": "source_backed_import_proposal",
+      "kind": "locality_or_event",
+      "status": "not_imported",
+      "person_ids": [
+        "apr_7dg_tdd"
+      ],
+      "evidence": {
+        "work_id": "w-songshu",
+        "book_id": "b-songshu-053",
+        "chapter_id": "c-songshu-053-xiefangming",
+        "source_id": "s-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p006",
+        "quote": "遭母憂去職服闋為宋䑓尚書吏部郎高祖受命遷侍中永初三年出為丹陽尹有能名轉會稽太守江東民户殷盛風俗峻刻強弱相陵姦吏蜂起符書一下文攝相續又罪及比伍動相連坐一人犯吏則一村廢業邑里驚擾狗吠達旦方明深達治體不拘文法闊略苛細務存綱領州臺符攝即時宣下緩民期㑹展其辦舉郡縣監司不得妄出貴族豪士莫敢犯禁除比伍之坐判久繫之獄前後征伐毎兵運不充悉發倩士庶事既寧息皆使還本而屬所刻害或即以補吏守宰不明與奪乖舛人事不至必被抑塞方明簡汰精當各慎所宜雖服役十載亦一朝從理東土至今稱詠之性尤愛惜未嘗有所是非承代前人不易其政有必宜改者則以漸移變使無迹可尋元嘉三年卒官年四十七子惠連幼而聰敏年十歲能屬文族兄靈運深相知賞事在靈運傳本州辟主簿不就惠連先愛㑹稽郡吏杜德靈及居父憂贈以五言詩十餘首文行於世坐被徙廢塞不豫榮伍尚書僕射殷景仁愛其才因言次白太祖臣小兒時便見世中有此文而論者云是謝惠連其實非也太祖曰若如此便應通之元嘉七年方為司徒彭城王義康法曹參軍是時義康治東府城城壍中得古冡為之改𦵏使惠連為祭文留信待成其文甚羙又為雪賦亦以高麗見竒文章並傳於世十年卒時年三十七既早亡且輕薄多尤累故官位不顯無子弟惠宣竟陵王誕司徒從事中郎臨川内史",
+        "anchor": {
+          "paragraph_id": "c-songshu-053-xiefangming:p006",
+          "start": 259,
+          "end": 265,
+          "surface": "元嘉三年卒官"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "image_verified": false
+      },
+      "rationale": "原文角色分開，無現代坐標及推補年月；不以任官地自動作死亡精確地。",
+      "human_reviewed": false,
+      "role": "death_report"
+    },
+    {
+      "id": "proposal-song053-fangming-040",
+      "record_type": "source_backed_import_proposal",
+      "status": "not_imported",
+      "kind": "given_name_from_external_explicit_zi_bridge",
+      "person_ids": [
+        "684_eaa_511"
+      ],
+      "source_appellation": "景仁",
+      "proposed_ming": "裕",
+      "local_text_unchanged": true,
+      "reference": "source-evidence/song053-xiejingren-name-bridge.json",
+      "rationale": "南史明謝裕字景仁；本篇避諱字行，姓名構件下批，不改宋正文。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-041",
+      "record_type": "source_backed_import_proposal",
+      "status": "not_imported",
+      "kind": "parallel_source_name_variant",
+      "person_ids": [
+        "25e_554_46c"
+      ],
+      "evidence": {
+        "chapter_id": "c-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p005",
+        "quote": "尋更加晉陵太守復為驃騎長史南郡相委任如初嘗年終江陵縣獄囚事無輕重悉散聼歸家使過正三日還到罪應入重者有二十餘人綱紀以下莫不疑懼時晉陵郡送故主簿𢎞季盛徐壽之並隨在西固諫以為昔人雖有其事或是記籍過言且當今民情偽薄不可以古義相許方明不納一時遣之囚及父兄皆驚喜涕泣以為就死無恨至期有重罪二人不還方明不聼討捕其一人醉不能歸逮二日乃反餘一囚十日不至五官朱千期請見欲白討之方明知為囚事使左右謝五官不須入囚自當反囚逡廵墟里不能自歸鄉村責讓之率領將送遂竟無逃亡者逺近咸歎服焉",
+        "anchor": {
+          "start": 70,
+          "end": 73,
+          "surface": "𢎞季盛"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264"
+      },
+      "parallel_source": {
+        "work": "南史",
+        "book": "019",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2/%E5%8D%B719&oldid=1531762",
+        "revision_id": 1531762,
+        "surface": "弘季-{咸}-",
+        "complete_raw_paragraph": "方明嚴恪，善自居遇，雖暗室未嘗有惰容。從兄混有重名，唯歲節朝拜而已。丹陽尹劉穆之權重當時，朝野輻湊，其不至者唯混、方明、郗僧施、蔡廓四人而已。穆之甚恨。及混等誅後，方明、廓來往造穆之，穆之大悅，白武帝曰：「謝方明可謂名家駒，及蔡廓直置並臺鼎人，無論復有才用。」頃之，轉從事中郎，仍爲左將軍道憐長史，武帝令府中眾事皆諮決之。府轉爲中軍長史，尋加晉陵太守，復爲驃騎長史、南郡相，委任如初。嘗年終，江陵縣獄囚事無輕重，悉放歸家，使過正三日還到，罪重者二十餘人，綱紀以下莫不疑懼。時晉陵郡送故主簿弘季-{咸}-、徐壽之並隨在西，固諫，以爲昔人雖有其事，或是記籍過言，且當今人情偽薄，不可以古義相許。方明不納，一時遣之。囚及父兄並驚喜涕泣，以爲就死無恨。至期有重罪一人醉不能歸，違二日乃反。餘一囚十日不來，五官朱幹期請見，欲自討之。方明知爲囚事，使左右謝五官不須入，囚自當反。囚逡巡墟裏，不能自歸，鄉村責讓率領將送，竟無逃者。遠近嘆服焉。",
+        "raw_file_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+        "raw_line": 148,
+        "paragraph_start": 244,
+        "paragraph_end": 251
+      },
+      "preferred_name": null,
+      "rationale": "同囚事原稱異字；不以南史默改宋本，不新增第二人物，後出平行非獨立事實支持。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-042",
+      "record_type": "source_backed_import_proposal",
+      "status": "not_imported",
+      "kind": "parallel_source_name_variant",
+      "person_ids": [
+        "73d_646_752"
+      ],
+      "evidence": {
+        "chapter_id": "c-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p005",
+        "quote": "尋更加晉陵太守復為驃騎長史南郡相委任如初嘗年終江陵縣獄囚事無輕重悉散聼歸家使過正三日還到罪應入重者有二十餘人綱紀以下莫不疑懼時晉陵郡送故主簿𢎞季盛徐壽之並隨在西固諫以為昔人雖有其事或是記籍過言且當今民情偽薄不可以古義相許方明不納一時遣之囚及父兄皆驚喜涕泣以為就死無恨至期有重罪二人不還方明不聼討捕其一人醉不能歸逮二日乃反餘一囚十日不至五官朱千期請見欲白討之方明知為囚事使左右謝五官不須入囚自當反囚逡廵墟里不能自歸鄉村責讓之率領將送遂竟無逃亡者逺近咸歎服焉",
+        "anchor": {
+          "start": 169,
+          "end": 172,
+          "surface": "朱千期"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264"
+      },
+      "parallel_source": {
+        "work": "南史",
+        "book": "019",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2/%E5%8D%B719&oldid=1531762",
+        "revision_id": 1531762,
+        "surface": "朱幹期",
+        "complete_raw_paragraph": "方明嚴恪，善自居遇，雖暗室未嘗有惰容。從兄混有重名，唯歲節朝拜而已。丹陽尹劉穆之權重當時，朝野輻湊，其不至者唯混、方明、郗僧施、蔡廓四人而已。穆之甚恨。及混等誅後，方明、廓來往造穆之，穆之大悅，白武帝曰：「謝方明可謂名家駒，及蔡廓直置並臺鼎人，無論復有才用。」頃之，轉從事中郎，仍爲左將軍道憐長史，武帝令府中眾事皆諮決之。府轉爲中軍長史，尋加晉陵太守，復爲驃騎長史、南郡相，委任如初。嘗年終，江陵縣獄囚事無輕重，悉放歸家，使過正三日還到，罪重者二十餘人，綱紀以下莫不疑懼。時晉陵郡送故主簿弘季-{咸}-、徐壽之並隨在西，固諫，以爲昔人雖有其事，或是記籍過言，且當今人情偽薄，不可以古義相許。方明不納，一時遣之。囚及父兄並驚喜涕泣，以爲就死無恨。至期有重罪一人醉不能歸，違二日乃反。餘一囚十日不來，五官朱幹期請見，欲自討之。方明知爲囚事，使左右謝五官不須入，囚自當反。囚逡巡墟裏，不能自歸，鄉村責讓率領將送，竟無逃者。遠近嘆服焉。",
+        "raw_file_sha256": "2f1bbb6150c723a3839e2f5a81f1a7522e3414465b8d8a11e23a164b43368964",
+        "raw_line": 148,
+        "paragraph_start": 350,
+        "paragraph_end": 353
+      },
+      "preferred_name": null,
+      "rationale": "同囚事原稱異字；不以南史默改宋本，不新增第二人物，後出平行非獨立事實支持。",
+      "human_reviewed": false
+    },
+    {
+      "id": "proposal-song053-fangming-043",
+      "record_type": "source_backed_import_proposal",
+      "status": "not_imported",
+      "kind": "paternal_uncle_older_than_named_father",
+      "person_ids": [
+        "1b1_d4d_bb8_A",
+        "1a3_b0c_e6d"
+      ],
+      "proposed_constraint": {
+        "older_person_id": "1b1_d4d_bb8_A",
+        "younger_person_id": "1a3_b0c_e6d",
+        "operator": "lt",
+        "scope": "relative_birth_order_of_paternal_uncle_and_father",
+        "older_ordinal": null,
+        "younger_ordinal": null
+      },
+      "evidence": {
+        "chapter_id": "c-songshu-053-xiefangming",
+        "paragraph_id": "c-songshu-053-xiefangming:p001",
+        "quote": "謝方明陳郡陽夏人尚書僕射景仁從祖弟也祖鐵永嘉太守父沖中書侍郎家在會稽謝病歸除黃門侍郎不就為孫恩所殺追贈散騎常侍方明隨伯父呉興太守邈在郡孫恩寇會稽東土諸郡皆響應呉興民胡桀郜驃破東遷縣方明勸邈避之不從賊至被害方明逃竄遂免",
+        "father_anchor": {
+          "start": 24,
+          "end": 26,
+          "surface": "父沖"
+        },
+        "kinship_anchor": {
+          "start": 58,
+          "end": 60,
+          "surface": "伯父"
+        },
+        "source_commit": "e80c057667e3c8684f11d5088251e10244d5a264"
+      },
+      "rationale": "同段父沖＋伯父邈明年序邈較沖年長；現relative_birth_order正式限定同輩關係兩端，不能誤把方明和邈作同代排序。本包typed不擴schema，不給絕對排行。",
+      "human_reviewed": false
+    }
+  ]
+}

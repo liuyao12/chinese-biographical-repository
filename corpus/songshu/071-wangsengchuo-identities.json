@@ -1,0 +1,161 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_identity_decision_set",
+  "chapter_id": "c-songshu-071-wangsengchuo",
+  "decisions": [
+    {
+      "id": "d-song071-hui-wei-reading",
+      "person_id": "7r6_k52_qji_ABAAAADA",
+      "surfaces": [
+        "徽"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-songshu-071-wangsengchuo"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-071-wangsengchuo:p002:m0031"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-071",
+          "source_id": "s-songshu-071-wangsengchuo",
+          "chapter_id": "c-songshu-071-wangsengchuo",
+          "paragraph_id": "c-songshu-071-wangsengchuo:p002",
+          "quote": "元嘉末太祖頗以後事為念以其年少方欲大相付託朝政小大皆與參焉從兄徽清介士也懼其太盛勸令損抑僧綽乃求吳郡及廣州上並不許"
+        }
+      ],
+      "preferred_reading": {
+        "person_mention_id": "c-songshu-071-wangsengchuo:p002:m0031",
+        "received_surface": "徽",
+        "preferred_surface": "微",
+        "source_spelling_is_not_alias": true,
+        "variant_id": "v-song071-hui-wei-qing-kaozheng",
+        "status": "editorial_provisional",
+        "rationale": "071從兄徽與固定062王微致從弟僧綽書相互印證，清考證另報徽疑微訛；保留正文徽字，不把考證父系冒作宋正文。"
+      },
+      "parallel_witness_review": {
+        "repository_path": "KR2a0016_062.txt",
+        "commit": "e80c057667e3c8684f11d5088251e10244d5a264",
+        "raw_lines": [
+          83,
+          264
+        ],
+        "evidence_file": "parallel062-complete-unit.json",
+        "key_original_lines": [
+          131,
+          135
+        ],
+        "is_native_chapter_import": false
+      },
+      "rationale": "與晉075驃騎參軍王徽時代／官歷不同。原字徽與王微身份判讀分存，062完整單元另供覆核；不據同名合併、不補本章未明父母。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-song071-jian-existing-bo3",
+      "person_id": "7r6_k52_qji_ABAAAAEAA",
+      "surfaces": [
+        "儉",
+        "王儉"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-songshu-071-wangsengchuo",
+        "c-nanshi-024-wang-family",
+        "c-nanqishu-046-wangxiuzhi",
+        "c-nanqishu-034-yugaozhi"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "source_context",
+        "target_mention_ids": [
+          "c-songshu-071-wangsengchuo:p005:m0089",
+          "c-nanshi-024-wang-family:line037:m0106",
+          "c-nanqishu-046-wangxiuzhi:line017:m0118",
+          "c-nanqishu-046-wangxiuzhi:line019:m0472",
+          "c-nanqishu-046-wangxiuzhi:line019:m0480",
+          "c-nanqishu-046-wangxiuzhi:line019:m0484",
+          "c-nanqishu-046-wangxiuzhi:line023:m0009",
+          "c-nanqishu-046-wangxiuzhi:line023:m0055",
+          "c-nanqishu-046-wangxiuzhi:line023:m0080",
+          "c-nanqishu-034-yugaozhi:line064:m0017",
+          "c-nanqishu-034-yugaozhi:line064:m0028",
+          "c-nanqishu-034-yugaozhi:line064:m0035",
+          "c-nanqishu-034-yugaozhi:line064:m0050",
+          "c-nanqishu-034-yugaozhi:line066:m0031"
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-songshu",
+          "book_id": "b-songshu-071",
+          "source_id": "s-songshu-071-wangsengchuo",
+          "chapter_id": "c-songshu-071-wangsengchuo",
+          "paragraph_id": "c-songshu-071-wangsengchuo:p005",
+          "quote": "初太社西空地一區吳時丁奉宅孫晧流徙其家江左初為周顗蘇峻宅其後為袁悅宅又為章武王司馬秀宅皆以凶終後給臧夀亦頗遇喪禍故世稱為凶地僧綽常以正逹自居謂宅無吉凶請以為第始就造築未及居而敗子儉嗣昇明末為齊國尚書右僕射"
+        },
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-024",
+          "source_id": "s-nanshi-024-wang-family",
+          "chapter_id": "c-nanshi-024-wang-family",
+          "paragraph_id": "c-nanshi-024-wang-family:line037",
+          "quote": "秀之祖父敬弘性貞正，徐羨之、傅亮當朝，不與來往。及致仕隱呉興，與秀之父瓚之書，深勖以靜退。瓚之爲五兵尚書，未嘗詣一朝貴。江湛謂何偃曰：「王瓚之今便是朝隱。」及柳元景、顏師伯貴要，瓚之竟不侯之。至秀之爲尚書，又不與王儉款接。三世不事權貴，時人稱之。轉侍中，領射聲校尉。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line017",
+          "quote": "初，秀之祖裕，性貞正。徐羨之、傅亮當朝，裕不與來往。及致仕隱吳興，與子瓚之書曰：「吾欲使汝處不競之地。」瓚之歷官至五兵尚書，未嘗詣一朝貴。江湛謂何偃曰：「王瓚之今便是朝隱。」及柳元景、顏師伯令僕貴要，瓚之竟不候之。至秀之爲尚書，又不與令王儉款接。三世不事權貴，時人稱之。轉侍中，領射聲校尉。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line019",
+          "quote": "出爲輔國將軍、隨王鎮西長史、南郡內史。州西曹苟平遺秀之交知書，秀之拒不答。平乃遺書曰：「僕聞居《謙》之位，旣刊于《易》；傲不可長，《禮》明其文。是以信陵致夷門之義，燕丹收荊卿之節，皆以禮而然矣。丈夫處世，豈可寂漠恩榮，空爲後代一丘土？足下業潤重光，聲居朝右，不脩高世之績，將何隔於愚夫？僕耿介當年，不通羣品，饑寒白首，望物嗟來。成人之美，《春秋》所善，薦我寸長，開君尺短，故推風期德，規於相益，實非碌碌有求於平原者也。僕與足下，同爲四海國士。夫盛衰迭代，理之恒數，名位參差，運之通塞，豈品德權行爲之者哉？第五之號，旣無易於驃騎；西曹之名，復何推於長史？足下見答書題久之，以君若此非典，何宜施之於國士？如其循禮，禮無不答，謹以相還，亦何犯於逆鱗哉？君子處人，以德不以位，相如不見屈於澠池，毛遂安受辱於郢門，造敵臨事，僕必先於二子。未知足下之貴，足下之威，孰若秦、楚兩王？僕以德爲寶，足下以位爲寶，各寶其寶，於此敬宜。常聞古人交絕，不泄惡言，僕謂之鄙。無以相貽，故薦貧者之贈。」平，潁川人。豫章王嶷爲荊州時，平獻書令減損奢麗，豫章王優教酬答。尚書令王儉當事，平又與儉書曰「足下建高世之名，而不顯高世之迹，將何以書於齊史哉？」至是南郡綱紀啓隨王子隆請罪，平上書自申。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-046",
+          "source_id": "s-nanqishu-046-wangxiuzhi",
+          "chapter_id": "c-nanqishu-046-wangxiuzhi",
+          "paragraph_id": "c-nanqishu-046-wangxiuzhi:line023",
+          "quote": "秀之宗人僧祐，太尉儉從祖兄也。父遠，光祿勳。宋世爲之語曰：「王遠如屏風，屈曲從俗，能蔽風露。」而僧祐負氣不羣，儉常候之，辭不相見。世祖數閱武，僧祐獻《講武賦》，儉借觀，僧祐不與。竟陵王子良聞僧祐善彈琴，於座取琴進之，不肯從命。永明末，爲太子中舍人，在直屬疾，代人未至，僧祐委出，爲有司所奏，贖論。官至黃門郎。時衞軍掾孔逭亦抗直，著《三吳決錄》，不傳。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-034",
+          "source_id": "s-nanqishu-034-yugaozhi",
+          "chapter_id": "c-nanqishu-034-yugaozhi",
+          "paragraph_id": "c-nanqishu-034-yugaozhi:line064",
+          "quote": "轉尚書左丞，常侍、領中正如故。出爲王儉衛軍長史，時人呼入儉府爲芙蓉池。儉謂人曰：「昔袁公作衛軍，欲用我爲長史，雖不獲就，要是意向如此。今亦應須如我輩人也。」乃用杲之。遷黃門郎，兼御史中丞，尋卽正。"
+        },
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-034",
+          "source_id": "s-nanqishu-034-yugaozhi",
+          "chapter_id": "c-nanqishu-034-yugaozhi",
+          "paragraph_id": "c-nanqishu-034-yugaozhi:line066",
+          "quote": "杲之風範和潤，善音吐。世祖令對虜使，兼侍中。上每嘆其風器之美，王儉在座，曰：「杲之爲蟬冕所照，更生風采。陛下故當與其卽眞。」帝意未用也。永明中，諸王年少，不得妄與人接，敕杲之與濟陽江淹五日一詣諸王，使申游好。尋又遷廬陵王中軍長史，遷尚書吏部郎，參大選事。轉太子右衛率，加通直常侍。"
+        }
+      ],
+      "rationale": "宋071子儉於昇明末為齊國尚書右僕射；齊023父僧綽、祖曇首及齊臺右僕射→尚書令／衛軍→追太尉官歷，與既有齊034/046及南史024各段同朝同任職鏈相合。沿用bo3，父系ID改置另提；不推生母或收養。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

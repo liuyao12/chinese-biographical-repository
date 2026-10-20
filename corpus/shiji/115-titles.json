@@ -47,7 +47,7 @@
     },
     {
       "id": "th-shiji115-002",
-      "person_id": "ykt_rg0_cl9",
+      "person_id": "jjl_irg_zke_A",
       "title": "燕王",
       "kind": "royal_rank",
       "mode": "attestation",
@@ -153,7 +153,89 @@
           "surface": "裨王",
           "person_mention_id": "c-shiji-115-chaoxian:m003-0076",
           "usage": "narrative",
-          "date_expression": "元封二年"
+          "date_expression": "元封二年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 109,
+              "year": -108
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-115-chaoxian",
+                "source_id": "s-shiji115-chaoxian",
+                "paragraph_id": "c-shiji-115-chaoxian:p003",
+                "quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "二",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "109",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元封",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r098-c01",
+              "digital_year_cell_id": "shiji-022-t1-r098-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本段元封二年用稱，未明月；依固定年表及漢初十月歲首，保存前110至109年的全年可能範圍，不據後段其秋將此事定在秋。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -168,7 +250,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "元封二年只定來源年，月份未明；用稱與實際授任分存，不以死亡補任職終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -195,7 +277,89 @@
           "surface": "遼東東部都尉",
           "person_mention_id": "c-shiji-115-chaoxian:m003-0046",
           "usage": "narrative",
-          "date_expression": "元封二年"
+          "date_expression": "元封二年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 109,
+              "year": -108
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-115-chaoxian",
+                "source_id": "s-shiji115-chaoxian",
+                "paragraph_id": "c-shiji-115-chaoxian:p003",
+                "quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "二",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "109",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元封",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r098-c01",
+              "digital_year_cell_id": "shiji-022-t1-r098-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "本段元封二年用稱，未明月；依固定年表及漢初十月歲首，保存前110至109年的全年可能範圍，不據後段其秋將此事定在秋。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -211,12 +375,20 @@
               "quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 109,
-            "year": -108,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 109,
+              "year": -108
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "傳子至孫右渠，所誘漢亡人滋多，又未嘗入見；真番旁眾國欲上書見天子，又擁閼不通。元封二年，漢使涉何譙諭右渠，終不肯奉詔。何去至界上，臨浿水，使御刺殺送何者朝鮮裨王長，即渡，馳入塞，遂歸報天子曰「殺朝鮮將」。上為其名美，即不詰，拜何為遼東東部都尉。朝鮮怨何，發兵襲攻殺何。",
             "evidence": [
@@ -229,16 +401,61 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封二年（壬申，公元前一零九年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "二",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "109",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r098-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "元封",
+              "year_source_term": "二年",
+              "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r098-c01",
+              "digital_year_cell_id": "shiji-022-t1-r098-c00",
+              "calendar_rule": "han_tenth_month_before_taichu"
+            },
+            "rationale": "拜何為遼東東部都尉在本段元封二年敘事內，未記月；保存前110至109年的全年可能範圍。死亡與授任各存原記載，不因同段而設定任職終點。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -247,7 +464,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "元封二年只定來源年，月份未明；用稱與實際授任分存，不以死亡補任職終點。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -708,14 +925,14 @@
           "surface": "澅清侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0024",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -723,36 +940,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -760,7 +948,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -787,14 +975,14 @@
           "surface": "荻苴侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0021",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -802,36 +990,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -839,7 +998,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -866,14 +1025,14 @@
           "surface": "平州侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0031",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -881,36 +1040,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -918,7 +1048,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -945,14 +1075,14 @@
           "surface": "幾侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0142",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -960,36 +1090,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -997,7 +1098,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）"
     },
     {
@@ -1024,14 +1125,14 @@
           "surface": "溫陽侯",
           "person_mention_id": "c-shiji-115-chaoxian:m008-0150",
           "usage": "narrative",
-          "date_expression": "元封三年夏"
+          "date_expression": null
         }
       ],
       "effective_period": {
         "start": {
           "status": "source_event",
           "event_type": "grant",
-          "date_expression": "元封三年夏",
+          "date_expression": null,
           "evidence": [
             {
               "chapter_id": "c-shiji-115-chaoxian",
@@ -1039,36 +1140,7 @@
               "paragraph_id": "c-shiji-115-chaoxian:p008",
               "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
             }
-          ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 108,
-            "year": -107,
-            "year_numbering": "astronomical",
-            "precision": "year",
-            "status": "editorial_provisional",
-            "original_quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。",
-            "evidence": [
-              {
-                "chapter_id": "c-shiji-115-chaoxian",
-                "source_id": "s-shiji115-chaoxian",
-                "paragraph_id": "c-shiji-115-chaoxian:p008",
-                "quote": "左將軍已并兩軍，即急擊朝鮮。朝鮮相路人、相韓陰、尼谿相參、將軍王唊相與謀曰：「始欲降樓船，樓船今執，獨左將軍并將，戰益急，恐不能與，（戰）王又不肯降。」陰、唊、路人皆亡降漢。路人道死。元封三年夏，尼谿相參乃使人殺朝鮮王右渠來降。王險城未下，故右渠之大臣成巳又反，復攻吏。左將軍使右渠子長降、相路人之子最告諭其民，誅成巳，以故遂定朝鮮，為四郡。封參為澅清侯，陰為荻苴侯，唊為平州侯，長［降］為幾侯。最以父死頗有功，為溫陽侯。"
-              }
-            ],
-            "references": [
-              {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷021",
-                "quote": "元封三年（癸酉，公元前一零八年）",
-                "scope": "digital_editorial_regnal_year_equivalence_only",
-                "image_verified": false
-              }
-            ],
-            "rationale": "原文明示授任年換算；夏保留原字，不補公曆月日。",
-            "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
-          }
+          ]
         },
         "end": {
           "status": "unknown",
@@ -1076,7 +1148,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。",
+      "interpretation_note": "授任與文獻用稱分存，素侍中為追述舊職；日期僅限原段明示紀年，不補月份日或未知任期。 本段元封三年夏明記右渠被殺，受封人名在其後合敘，不能將段首日期當作各筆授爵或用稱確年；原表明記的首封紀年另作來源事件保存。",
       "reviewer": "Codex（AI 代理）"
     }
   ]

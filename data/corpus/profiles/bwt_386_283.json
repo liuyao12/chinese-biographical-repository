@@ -17,7 +17,34 @@
       "title": "西南夷列傳第五十六",
       "paragraph_id": "c-shiji-116-xinanyi:p002",
       "count": 1,
-      "quote": "奪楚巴、黔中郡，道塞不通，因還，以其眾王滇，變服，從其俗，以長之。秦時常頞略通五尺道，諸此國頗置吏焉。十餘歲，秦滅。及漢興，皆棄此國而開蜀故徼。巴蜀民或竊出商賈，取其筰馬、僰僮、髦牛，以此巴蜀殷富。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "奪楚巴、黔中郡，道塞不通，因還，以其眾王滇，變服，從其俗，以長之。秦時常頞略通五尺道，諸此國頗置吏焉。十餘歲，秦滅。及漢興，皆棄此國而開蜀故徼。巴蜀民或竊出商賈，取其筰馬、僰僮、髦牛，以此巴蜀殷富。",
+      "paragraph_ids": [
+        "c-shiji-116-xinanyi:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-116-xinanyi:m002-0107"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-116-xinanyi:m002-0107": "c-shiji-116-xinanyi:p002"
+      },
+      "mention_id": "c-shiji-116-xinanyi:m002-0107",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m002-0107",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m002-0107"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "chapter_id": "c-shiji-116-xinanyi",
+      "source_id": "s-shiji116-xinanyi",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -60,5 +87,47 @@
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
-  "selected_life_event_dates": []
+  "selected_life_event_dates": [],
+  "reported_variants": [
+    {
+      "id": "v-shiji116-chang-e-han-reading",
+      "paragraph_id": "c-shiji-116-xinanyi:p002",
+      "source_term": "秦時常頞略通五尺道",
+      "person_ids": [
+        "bwt_386_283"
+      ],
+      "status": "reported_not_collated",
+      "adopted": false,
+      "received_reading": "常頞",
+      "reported_reading": "嘗破",
+      "component": "person_name_or_textual_reading",
+      "quote": "秦時嘗破畧通五尺道",
+      "commentator": "《漢書》卷九十五所見數位正文",
+      "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L33",
+      "image_verified": false,
+      "interpretation_note": "只保所見字形差異，不將嘗破逕當另一人名或斷為普通詞。史記集解同有常頞並音案；朱一新另有疑是人姓名之說，屬後出考證意見。保留常頞來源候選，不推姓、名拆分或生卒。",
+      "study_references": [
+        {
+          "title": "拙盦叢稿",
+          "source_title": "拙盦丛稿",
+          "author": "朱一新",
+          "period": "清",
+          "publication_year": null,
+          "page": null,
+          "url": "https://www.shidianguji.com/mid-page/7566386982612942875",
+          "quote": "案常頞疑是人姓名",
+          "read_scope": "只讀網站此段摘頁，未讀全書或書影",
+          "summary": "將常頞解作人姓名的推測，保留疑字；所引漢書字形與本次Kanripo嘗破另存，不作已校定字或獨立驗證。",
+          "independent_validation": "not_attempted",
+          "display_title": "拙盦叢稿",
+          "display_author": "朱一新",
+          "reviewed_scope": "只讀網站此段摘頁，未讀全書或書影",
+          "reference_note": "僅錄朱一新「疑是人姓名」的推測，保留疑字；其引漢書作常破，本次Kanripo作嘗破，分存所見字形，不當已校定字或獨立驗證。",
+          "opinion_validation": "not_attempted",
+          "reported_hanshu_reading": "常破",
+          "reading_reference_quote": "秦时，常破略通五尺道"
+        }
+      ]
+    }
+  ]
 }

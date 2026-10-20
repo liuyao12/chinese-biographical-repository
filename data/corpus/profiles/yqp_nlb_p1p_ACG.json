@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "yqp_nlb_p1p_ACG",
   "canonical_person_id": "yqp_nlb_p1p_ACG",
-  "label": "武（文帝子）",
+  "label": "梁孝王武",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
@@ -739,6 +739,49 @@
       "interpretation_note": "保存第二段明示任官；列舉五郡太守按共享太守字各存一項，原文全句保留，不推任官先後、重複任次或精確年月。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji117-004",
+      "person_id": "yqp_nlb_p1p_ACG",
+      "title": "梁孝王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p001",
+          "quote": "司馬相如者，蜀郡成都人也，字長卿。少時好讀書，學擊劍，故其親名之曰犬子。相如既學，慕藺相如之為人，更名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生游士居數歲，乃著子虛之賦。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji117-004:a001",
+          "paragraph_id": "c-shiji-117-xiangru:p001",
+          "start": 85,
+          "end": 88,
+          "surface": "梁孝王",
+          "person_mention_id": "c-shiji-117-xiangru:m001-0085",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "授任與文獻用稱分存；受金失官與歲餘復召為郎分事件。原文未明示公元日期，不補年份或任期；死亡不自動終止全部官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [
@@ -858,7 +901,34 @@
       "title": "孝文本紀第十",
       "paragraph_id": "c-shiji-010-wendi:p016",
       "count": 1,
-      "quote": "立趙幽王少子辟彊為河閒王，以齊劇郡立朱虛侯為城陽王，立東牟侯為濟北王，皇子武為代王，子參為太原王，子揖為梁王。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "立趙幽王少子辟彊為河閒王，以齊劇郡立朱虛侯為城陽王，立東牟侯為濟北王，皇子武為代王，子參為太原王，子揖為梁王。",
+      "paragraph_ids": [
+        "c-shiji-010-wendi:p016"
+      ],
+      "mention_ids": [
+        "c-shiji-010-wendi:m016-0102"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-010-wendi:m016-0102": "c-shiji-010-wendi:p016"
+      },
+      "mention_id": "c-shiji-010-wendi:m016-0102",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-010-wendi:m016-0102",
+          "mention_ids": [
+            "c-shiji-010-wendi:m016-0102"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-010",
+      "chapter_id": "c-shiji-010-wendi",
+      "source_id": "s-shiji-010-wendi",
+      "work_title": "史記"
     },
     {
       "number": 35,
@@ -866,14 +936,34 @@
       "title": "荊燕吳王傳第五",
       "paragraph_id": "c-hanshu-035-jingyanwu:wuwang:p018",
       "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝而前，銳甚。梁孝王恐，遣將軍擊之，又敗梁兩軍，士卒皆還走。梁數使使條侯求救，條侯不許。又使使愬條侯於上，上使告條侯救梁，又守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守，不敢西，即走條侯軍",
-      "work_id": "w-hanshu",
-      "work_title": "漢書",
-      "book_id": "b-hanshu-035",
-      "chapter_id": "c-hanshu-035-jingyanwu",
       "paragraph_ids": [
         "c-hanshu-035-jingyanwu:wuwang:p018"
-      ]
+      ],
+      "mention_ids": [
+        "c-hanshu-035-jingyanwu:wuwang:m018-0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-hanshu-035-jingyanwu:wuwang:m018-0025": "c-hanshu-035-jingyanwu:wuwang:p018"
+      },
+      "mention_id": "c-hanshu-035-jingyanwu:wuwang:m018-0025",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-hanshu-035-jingyanwu:wuwang:m018-0025",
+          "mention_ids": [
+            "c-hanshu-035-jingyanwu:wuwang:m018-0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-hanshu",
+      "book_id": "b-hanshu-035",
+      "chapter_id": "c-hanshu-035-jingyanwu",
+      "source_id": "s-hanshu-035-jingyanwu",
+      "work_title": "漢書"
     },
     {
       "number": 49,
@@ -881,7 +971,52 @@
       "title": "外戚世家第十九",
       "paragraph_id": "c-shiji-049-waiqi:p012",
       "count": 3,
-      "quote": "，而竇姬長男最長，立為太子。立竇姬為皇后，女嫖為長公主。其明年，立少子武為代王，已而又徙梁，是為梁孝王。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，而竇姬長男最長，立為太子。立竇姬為皇后，女嫖為長公主。其明年，立少子武為代王，已而又徙梁，是為梁孝王。",
+      "paragraph_ids": [
+        "c-shiji-049-waiqi:p012"
+      ],
+      "mention_ids": [
+        "c-shiji-049-waiqi:m012-0233",
+        "c-shiji-049-waiqi:m012-0235",
+        "c-shiji-049-waiqi:m012-0246"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-049-waiqi:m012-0233": "c-shiji-049-waiqi:p012",
+        "c-shiji-049-waiqi:m012-0235": "c-shiji-049-waiqi:p012",
+        "c-shiji-049-waiqi:m012-0246": "c-shiji-049-waiqi:p012"
+      },
+      "mention_id": "c-shiji-049-waiqi:m012-0233",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m012-0233",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m012-0233"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m012-0235",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m012-0235"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-049-waiqi:m012-0246",
+          "mention_ids": [
+            "c-shiji-049-waiqi:m012-0246"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-049",
+      "chapter_id": "c-shiji-049-waiqi",
+      "source_id": "s-shiji-049-waiqi",
+      "work_title": "史記"
     },
     {
       "number": 57,
@@ -889,7 +1024,44 @@
       "title": "絳侯周勃世家第二十七",
       "paragraph_id": "c-shiji-057-zhou:p016",
       "count": 2,
-      "quote": "斬吳王頭以告。凡相攻守三月，而吳楚破平。於是諸將乃以太尉計謀為是。由此梁孝王與太尉有卻。"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "斬吳王頭以告。凡相攻守三月，而吳楚破平。於是諸將乃以太尉計謀為是。由此梁孝王與太尉有卻。",
+      "paragraph_ids": [
+        "c-shiji-057-zhou:p016",
+        "c-shiji-057-zhou:p017"
+      ],
+      "mention_ids": [
+        "c-shiji-057-zhou:m016-0280",
+        "c-shiji-057-zhou:m017-0046"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-057-zhou:m016-0280": "c-shiji-057-zhou:p016",
+        "c-shiji-057-zhou:m017-0046": "c-shiji-057-zhou:p017"
+      },
+      "mention_id": "c-shiji-057-zhou:m016-0280",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-057-zhou:m016-0280",
+          "mention_ids": [
+            "c-shiji-057-zhou:m016-0280"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-057-zhou:m017-0046",
+          "mention_ids": [
+            "c-shiji-057-zhou:m017-0046"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-057",
+      "chapter_id": "c-shiji-057-zhou",
+      "source_id": "s-shiji-057-zhou",
+      "work_title": "史記"
     },
     {
       "number": 58,
@@ -897,7 +1069,660 @@
       "title": "梁孝王世家第二十八",
       "paragraph_id": "c-shiji-058-liang:p001",
       "count": 68,
-      "quote": "梁孝王武者，孝文皇帝子也，而與孝景帝同母。母，竇太后也。"
+      "raw_count": 68,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "梁孝王武者，孝文皇帝子也，而與孝景帝同母。母，竇太后也。",
+      "paragraph_ids": [
+        "c-shiji-058-liang:p001",
+        "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:p004",
+        "c-shiji-058-liang:p005",
+        "c-shiji-058-liang:p006",
+        "c-shiji-058-liang:p007",
+        "c-shiji-058-liang:p008",
+        "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:p011",
+        "c-shiji-058-liang:p012",
+        "c-shiji-058-liang:p013",
+        "c-shiji-058-liang:p014",
+        "c-shiji-058-liang:p016",
+        "c-shiji-058-liang:p018",
+        "c-shiji-058-liang:p019",
+        "c-shiji-058-liang:p020",
+        "c-shiji-058-liang:p021",
+        "c-shiji-058-liang:p022",
+        "c-shiji-058-liang:p023",
+        "c-shiji-058-liang:p024",
+        "c-shiji-058-liang:p025",
+        "c-shiji-058-liang:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-058-liang:m001-0000",
+        "c-shiji-058-liang:m002-0021",
+        "c-shiji-058-liang:m002-0040",
+        "c-shiji-058-liang:m002-0042",
+        "c-shiji-058-liang:m002-0062",
+        "c-shiji-058-liang:m002-0065",
+        "c-shiji-058-liang:m003-0002",
+        "c-shiji-058-liang:m003-0004",
+        "c-shiji-058-liang:m003-0040",
+        "c-shiji-058-liang:m003-0045",
+        "c-shiji-058-liang:m003-0048",
+        "c-shiji-058-liang:m003-0064",
+        "c-shiji-058-liang:m004-0000",
+        "c-shiji-058-liang:m004-0078",
+        "c-shiji-058-liang:m004-0097",
+        "c-shiji-058-liang:m004-0100",
+        "c-shiji-058-liang:m005-0024",
+        "c-shiji-058-liang:m006-0000",
+        "c-shiji-058-liang:m006-0022",
+        "c-shiji-058-liang:m006-0140",
+        "c-shiji-058-liang:m007-0007",
+        "c-shiji-058-liang:m007-0025",
+        "c-shiji-058-liang:m007-0045",
+        "c-shiji-058-liang:m008-0016",
+        "c-shiji-058-liang:m008-0048",
+        "c-shiji-058-liang:m009-0014",
+        "c-shiji-058-liang:m009-0061",
+        "c-shiji-058-liang:m009-0101",
+        "c-shiji-058-liang:m009-0126",
+        "c-shiji-058-liang:m009-0128",
+        "c-shiji-058-liang:m009-0147",
+        "c-shiji-058-liang:m009-0150",
+        "c-shiji-058-liang:m010-0018",
+        "c-shiji-058-liang:m010-0041",
+        "c-shiji-058-liang:m010-0043",
+        "c-shiji-058-liang:m010-0056",
+        "c-shiji-058-liang:m010-0078",
+        "c-shiji-058-liang:m010-0120",
+        "c-shiji-058-liang:m011-0041",
+        "c-shiji-058-liang:m011-0059",
+        "c-shiji-058-liang:m012-0000",
+        "c-shiji-058-liang:m012-0038",
+        "c-shiji-058-liang:m012-0088",
+        "c-shiji-058-liang:m013-0000",
+        "c-shiji-058-liang:m014-0000",
+        "c-shiji-058-liang:m016-0060",
+        "c-shiji-058-liang:m016-0073",
+        "c-shiji-058-liang:m018-0006",
+        "c-shiji-058-liang:m019-0007",
+        "c-shiji-058-liang:m020-0007",
+        "c-shiji-058-liang:m021-0008",
+        "c-shiji-058-liang:m022-0005",
+        "c-shiji-058-liang:m023-0031",
+        "c-shiji-058-liang:m023-0064",
+        "c-shiji-058-liang:m024-0145",
+        "c-shiji-058-liang:m024-0148",
+        "c-shiji-058-liang:m025-0104",
+        "c-shiji-058-liang:m025-0198",
+        "c-shiji-058-liang:m026-0002",
+        "c-shiji-058-liang:m026-0062",
+        "c-shiji-058-liang:m026-0120",
+        "c-shiji-058-liang:m026-0362",
+        "c-shiji-058-liang:m026-0365",
+        "c-shiji-058-liang:m026-0428",
+        "c-shiji-058-liang:m026-0435",
+        "c-shiji-058-liang:m026-0547",
+        "c-shiji-058-liang:m026-0673",
+        "c-shiji-058-liang:m026-0706"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-058-liang:m001-0000": "c-shiji-058-liang:p001",
+        "c-shiji-058-liang:m002-0021": "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:m002-0040": "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:m002-0042": "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:m002-0062": "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:m002-0065": "c-shiji-058-liang:p002",
+        "c-shiji-058-liang:m003-0002": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m003-0004": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m003-0040": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m003-0045": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m003-0048": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m003-0064": "c-shiji-058-liang:p003",
+        "c-shiji-058-liang:m004-0000": "c-shiji-058-liang:p004",
+        "c-shiji-058-liang:m004-0078": "c-shiji-058-liang:p004",
+        "c-shiji-058-liang:m004-0097": "c-shiji-058-liang:p004",
+        "c-shiji-058-liang:m004-0100": "c-shiji-058-liang:p004",
+        "c-shiji-058-liang:m005-0024": "c-shiji-058-liang:p005",
+        "c-shiji-058-liang:m006-0000": "c-shiji-058-liang:p006",
+        "c-shiji-058-liang:m006-0022": "c-shiji-058-liang:p006",
+        "c-shiji-058-liang:m006-0140": "c-shiji-058-liang:p006",
+        "c-shiji-058-liang:m007-0007": "c-shiji-058-liang:p007",
+        "c-shiji-058-liang:m007-0025": "c-shiji-058-liang:p007",
+        "c-shiji-058-liang:m007-0045": "c-shiji-058-liang:p007",
+        "c-shiji-058-liang:m008-0016": "c-shiji-058-liang:p008",
+        "c-shiji-058-liang:m008-0048": "c-shiji-058-liang:p008",
+        "c-shiji-058-liang:m009-0014": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0061": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0101": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0126": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0128": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0147": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m009-0150": "c-shiji-058-liang:p009",
+        "c-shiji-058-liang:m010-0018": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m010-0041": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m010-0043": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m010-0056": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m010-0078": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m010-0120": "c-shiji-058-liang:p010",
+        "c-shiji-058-liang:m011-0041": "c-shiji-058-liang:p011",
+        "c-shiji-058-liang:m011-0059": "c-shiji-058-liang:p011",
+        "c-shiji-058-liang:m012-0000": "c-shiji-058-liang:p012",
+        "c-shiji-058-liang:m012-0038": "c-shiji-058-liang:p012",
+        "c-shiji-058-liang:m012-0088": "c-shiji-058-liang:p012",
+        "c-shiji-058-liang:m013-0000": "c-shiji-058-liang:p013",
+        "c-shiji-058-liang:m014-0000": "c-shiji-058-liang:p014",
+        "c-shiji-058-liang:m016-0060": "c-shiji-058-liang:p016",
+        "c-shiji-058-liang:m016-0073": "c-shiji-058-liang:p016",
+        "c-shiji-058-liang:m018-0006": "c-shiji-058-liang:p018",
+        "c-shiji-058-liang:m019-0007": "c-shiji-058-liang:p019",
+        "c-shiji-058-liang:m020-0007": "c-shiji-058-liang:p020",
+        "c-shiji-058-liang:m021-0008": "c-shiji-058-liang:p021",
+        "c-shiji-058-liang:m022-0005": "c-shiji-058-liang:p022",
+        "c-shiji-058-liang:m023-0031": "c-shiji-058-liang:p023",
+        "c-shiji-058-liang:m023-0064": "c-shiji-058-liang:p023",
+        "c-shiji-058-liang:m024-0145": "c-shiji-058-liang:p024",
+        "c-shiji-058-liang:m024-0148": "c-shiji-058-liang:p024",
+        "c-shiji-058-liang:m025-0104": "c-shiji-058-liang:p025",
+        "c-shiji-058-liang:m025-0198": "c-shiji-058-liang:p025",
+        "c-shiji-058-liang:m026-0002": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0062": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0120": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0362": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0365": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0428": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0435": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0547": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0673": "c-shiji-058-liang:p026",
+        "c-shiji-058-liang:m026-0706": "c-shiji-058-liang:p026"
+      },
+      "mention_id": "c-shiji-058-liang:m001-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m001-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m001-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m002-0021",
+          "mention_ids": [
+            "c-shiji-058-liang:m002-0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m002-0040",
+          "mention_ids": [
+            "c-shiji-058-liang:m002-0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m002-0042",
+          "mention_ids": [
+            "c-shiji-058-liang:m002-0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m002-0062",
+          "mention_ids": [
+            "c-shiji-058-liang:m002-0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m002-0065",
+          "mention_ids": [
+            "c-shiji-058-liang:m002-0065"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0002",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0004",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0040",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0045",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0048",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m003-0064",
+          "mention_ids": [
+            "c-shiji-058-liang:m003-0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m004-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m004-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m004-0078",
+          "mention_ids": [
+            "c-shiji-058-liang:m004-0078"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m004-0097",
+          "mention_ids": [
+            "c-shiji-058-liang:m004-0097"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m004-0100",
+          "mention_ids": [
+            "c-shiji-058-liang:m004-0100"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m005-0024",
+          "mention_ids": [
+            "c-shiji-058-liang:m005-0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m006-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m006-0022",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m006-0140",
+          "mention_ids": [
+            "c-shiji-058-liang:m006-0140"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m007-0007",
+          "mention_ids": [
+            "c-shiji-058-liang:m007-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m007-0025",
+          "mention_ids": [
+            "c-shiji-058-liang:m007-0025"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m007-0045",
+          "mention_ids": [
+            "c-shiji-058-liang:m007-0045"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m008-0016",
+          "mention_ids": [
+            "c-shiji-058-liang:m008-0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m008-0048",
+          "mention_ids": [
+            "c-shiji-058-liang:m008-0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0014",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0014"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0061",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0061"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0101",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0101"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0126",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0126"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0128",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0128"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0147",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0147"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m009-0150",
+          "mention_ids": [
+            "c-shiji-058-liang:m009-0150"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0018",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0041",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0043",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0043"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0056",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0056"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0078",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0078"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m010-0120",
+          "mention_ids": [
+            "c-shiji-058-liang:m010-0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m011-0041",
+          "mention_ids": [
+            "c-shiji-058-liang:m011-0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m011-0059",
+          "mention_ids": [
+            "c-shiji-058-liang:m011-0059"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m012-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m012-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m012-0038",
+          "mention_ids": [
+            "c-shiji-058-liang:m012-0038"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m012-0088",
+          "mention_ids": [
+            "c-shiji-058-liang:m012-0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m013-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m013-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m014-0000",
+          "mention_ids": [
+            "c-shiji-058-liang:m014-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m016-0060",
+          "mention_ids": [
+            "c-shiji-058-liang:m016-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m016-0073",
+          "mention_ids": [
+            "c-shiji-058-liang:m016-0073"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m018-0006",
+          "mention_ids": [
+            "c-shiji-058-liang:m018-0006"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m019-0007",
+          "mention_ids": [
+            "c-shiji-058-liang:m019-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m020-0007",
+          "mention_ids": [
+            "c-shiji-058-liang:m020-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m021-0008",
+          "mention_ids": [
+            "c-shiji-058-liang:m021-0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m022-0005",
+          "mention_ids": [
+            "c-shiji-058-liang:m022-0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m023-0031",
+          "mention_ids": [
+            "c-shiji-058-liang:m023-0031"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m023-0064",
+          "mention_ids": [
+            "c-shiji-058-liang:m023-0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m024-0145",
+          "mention_ids": [
+            "c-shiji-058-liang:m024-0145"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m024-0148",
+          "mention_ids": [
+            "c-shiji-058-liang:m024-0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m025-0104",
+          "mention_ids": [
+            "c-shiji-058-liang:m025-0104"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m025-0198",
+          "mention_ids": [
+            "c-shiji-058-liang:m025-0198"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0002",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0062",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0062"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0120",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0362",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0362"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0365",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0365"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0428",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0428"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0435",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0435"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0547",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0547"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0673",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0673"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-058-liang:m026-0706",
+          "mention_ids": [
+            "c-shiji-058-liang:m026-0706"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-058",
+      "chapter_id": "c-shiji-058-liang",
+      "source_id": "s-shiji-058-liang",
+      "work_title": "史記"
     },
     {
       "number": 83,
@@ -905,7 +1730,91 @@
       "title": "魯仲連鄒陽列傳第二十三",
       "paragraph_id": "c-shiji-083-luzou:p015",
       "count": 7,
-      "quote": "莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰："
+      "raw_count": 7,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "莊忌夫子、淮陰枚生之徒交。上書而介於羊勝、公孫詭之閒。勝等嫉鄒陽，惡之梁孝王。孝王怒，下之吏，將欲殺之。鄒陽客游，以讒見禽，恐死而負累，乃從獄中上書曰：",
+      "paragraph_ids": [
+        "c-shiji-083-luzou:p015",
+        "c-shiji-083-luzou:p016",
+        "c-shiji-083-luzou:p017",
+        "c-shiji-083-luzou:p026"
+      ],
+      "mention_ids": [
+        "c-shiji-083-luzou:m015-0051",
+        "c-shiji-083-luzou:m015-0055",
+        "c-shiji-083-luzou:m016-0129",
+        "c-shiji-083-luzou:m017-0040",
+        "c-shiji-083-luzou:m017-0097",
+        "c-shiji-083-luzou:m026-0002",
+        "c-shiji-083-luzou:m026-0006"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-083-luzou:m015-0051": "c-shiji-083-luzou:p015",
+        "c-shiji-083-luzou:m015-0055": "c-shiji-083-luzou:p015",
+        "c-shiji-083-luzou:m016-0129": "c-shiji-083-luzou:p016",
+        "c-shiji-083-luzou:m017-0040": "c-shiji-083-luzou:p017",
+        "c-shiji-083-luzou:m017-0097": "c-shiji-083-luzou:p017",
+        "c-shiji-083-luzou:m026-0002": "c-shiji-083-luzou:p026",
+        "c-shiji-083-luzou:m026-0006": "c-shiji-083-luzou:p026"
+      },
+      "mention_id": "c-shiji-083-luzou:m015-0051",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m015-0051",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m015-0055",
+          "mention_ids": [
+            "c-shiji-083-luzou:m015-0055"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m016-0129",
+          "mention_ids": [
+            "c-shiji-083-luzou:m016-0129"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m017-0040",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0040"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m017-0097",
+          "mention_ids": [
+            "c-shiji-083-luzou:m017-0097"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m026-0002",
+          "mention_ids": [
+            "c-shiji-083-luzou:m026-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-083-luzou:m026-0006",
+          "mention_ids": [
+            "c-shiji-083-luzou:m026-0006"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-083",
+      "chapter_id": "c-shiji-083-luzou",
+      "source_id": "s-shiji-083-luzou",
+      "work_title": "史記"
     },
     {
       "number": 101,
@@ -913,7 +1822,52 @@
       "title": "袁盎鼂錯列傳第四十一",
       "paragraph_id": "c-shiji-101-yuanchao:p015",
       "count": 3,
-      "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "袁盎雖家居，景帝時時使人問籌策。梁王欲求為嗣，袁盎進說，其後語塞。梁王以此怨盎，曾使人刺盎。刺者至關中，問袁盎，諸君譽之皆不容口。乃見袁盎曰：「臣受梁王金來刺君，君長者，不忍刺君。然後刺君者十餘曹，備之！」袁盎心不樂，家又多怪，乃之棓生",
+      "paragraph_ids": [
+        "c-shiji-101-yuanchao:p015"
+      ],
+      "mention_ids": [
+        "c-shiji-101-yuanchao:m015-0016",
+        "c-shiji-101-yuanchao:m015-0033",
+        "c-shiji-101-yuanchao:m015-0074"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-101-yuanchao:m015-0016": "c-shiji-101-yuanchao:p015",
+        "c-shiji-101-yuanchao:m015-0033": "c-shiji-101-yuanchao:p015",
+        "c-shiji-101-yuanchao:m015-0074": "c-shiji-101-yuanchao:p015"
+      },
+      "mention_id": "c-shiji-101-yuanchao:m015-0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-101-yuanchao:m015-0016",
+          "mention_ids": [
+            "c-shiji-101-yuanchao:m015-0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-101-yuanchao:m015-0033",
+          "mention_ids": [
+            "c-shiji-101-yuanchao:m015-0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-101-yuanchao:m015-0074",
+          "mention_ids": [
+            "c-shiji-101-yuanchao:m015-0074"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-101",
+      "chapter_id": "c-shiji-101-yuanchao",
+      "source_id": "s-shiji-101-yuanchao",
+      "work_title": "史記"
     },
     {
       "number": 104,
@@ -921,7 +1875,43 @@
       "title": "田叔列傳第四十四",
       "paragraph_id": "c-shiji-104-tianshu:p004",
       "count": 2,
-      "quote": "後數歲，叔坐法失官。梁孝王使人殺故吳相袁盎，景帝召田叔案梁，具得其事，還報。景帝曰：「梁有之乎？」叔對曰：「死罪！有之。」上曰：「其事安在？」田叔曰：「上毋以梁事為也。」上曰：「何也？」曰：「今梁王不伏誅，是漢法不行也；如其伏"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "後數歲，叔坐法失官。梁孝王使人殺故吳相袁盎，景帝召田叔案梁，具得其事，還報。景帝曰：「梁有之乎？」叔對曰：「死罪！有之。」上曰：「其事安在？」田叔曰：「上毋以梁事為也。」上曰：「何也？」曰：「今梁王不伏誅，是漢法不行也；如其伏",
+      "paragraph_ids": [
+        "c-shiji-104-tianshu:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-104-tianshu:m004-0010",
+        "c-shiji-104-tianshu:m004-0097"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-104-tianshu:m004-0010": "c-shiji-104-tianshu:p004",
+        "c-shiji-104-tianshu:m004-0097": "c-shiji-104-tianshu:p004"
+      },
+      "mention_id": "c-shiji-104-tianshu:m004-0010",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-104-tianshu:m004-0010",
+          "mention_ids": [
+            "c-shiji-104-tianshu:m004-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-104-tianshu:m004-0097",
+          "mention_ids": [
+            "c-shiji-104-tianshu:m004-0097"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-104",
+      "chapter_id": "c-shiji-104-tianshu",
+      "source_id": "s-shiji-104-tianshu",
+      "work_title": "史記"
     },
     {
       "number": 106,
@@ -929,7 +1919,34 @@
       "title": "吳王濞列傳第四十六",
       "paragraph_id": "c-shiji-106-wuwang:p017",
       "count": 1,
-      "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，吳王之度淮，與楚王遂西敗棘壁，乘勝前，銳甚。梁孝王恐，遣六將軍擊吳，又敗梁兩將，士卒皆還走梁。梁數使使報條侯求救，條侯不許。又使使惡條侯於上，上使人告條侯救梁，復守便宜不行。梁使韓安國及楚死事相弟張羽為將軍，乃得頗敗吳兵。吳兵欲西，梁城守堅，不敢西，",
+      "paragraph_ids": [
+        "c-shiji-106-wuwang:p017"
+      ],
+      "mention_ids": [
+        "c-shiji-106-wuwang:m017-0024"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-106-wuwang:m017-0024": "c-shiji-106-wuwang:p017"
+      },
+      "mention_id": "c-shiji-106-wuwang:m017-0024",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-106-wuwang:m017-0024",
+          "mention_ids": [
+            "c-shiji-106-wuwang:m017-0024"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-106",
+      "chapter_id": "c-shiji-106-wuwang",
+      "source_id": "s-shiji-106-wuwang",
+      "work_title": "史記"
     },
     {
       "number": 107,
@@ -937,7 +1954,61 @@
       "title": "魏其武安列傳第四十七",
       "paragraph_id": "c-shiji-107-weiqi:p002",
       "count": 4,
-      "quote": "梁孝王者，孝景弟也，其母竇太后愛之。梁孝王朝，因昆弟燕飲。是時上未立太子，酒酣，從容言曰：「千秋之後傳梁王。」太后驩。竇嬰引卮酒進上，曰：「天下者，高祖天下，父子相傳，此漢之約也，上何以得擅傳梁王！」太后由"
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "梁孝王者，孝景弟也，其母竇太后愛之。梁孝王朝，因昆弟燕飲。是時上未立太子，酒酣，從容言曰：「千秋之後傳梁王。」太后驩。竇嬰引卮酒進上，曰：「天下者，高祖天下，父子相傳，此漢之約也，上何以得擅傳梁王！」太后由",
+      "paragraph_ids": [
+        "c-shiji-107-weiqi:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-107-weiqi:m002-0000",
+        "c-shiji-107-weiqi:m002-0018",
+        "c-shiji-107-weiqi:m002-0051",
+        "c-shiji-107-weiqi:m002-0096"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-107-weiqi:m002-0000": "c-shiji-107-weiqi:p002",
+        "c-shiji-107-weiqi:m002-0018": "c-shiji-107-weiqi:p002",
+        "c-shiji-107-weiqi:m002-0051": "c-shiji-107-weiqi:p002",
+        "c-shiji-107-weiqi:m002-0096": "c-shiji-107-weiqi:p002"
+      },
+      "mention_id": "c-shiji-107-weiqi:m002-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m002-0000",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m002-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m002-0018",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m002-0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m002-0051",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m002-0051"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-107-weiqi:m002-0096",
+          "mention_ids": [
+            "c-shiji-107-weiqi:m002-0096"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-107",
+      "chapter_id": "c-shiji-107-weiqi",
+      "source_id": "s-shiji-107-weiqi",
+      "work_title": "史記"
     },
     {
       "number": 108,
@@ -945,7 +2016,280 @@
       "title": "韓長孺列傳第四十八",
       "paragraph_id": "c-shiji-108-han:p001",
       "count": 28,
-      "quote": "御史大夫韓安國者，梁成安人也，後徙睢陽。嘗受韓子、雜家説於騶田生所。事梁孝王爲中大夫。呉楚反時，孝王使安國及張羽爲將，捍呉兵於東界。張羽力戰，安國持重，以故呉不能過梁。呉楚已破，安國、張羽名由此顯。"
+      "raw_count": 28,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "御史大夫韓安國者，梁成安人也，後徙睢陽。嘗受韓子、雜家説於騶田生所。事梁孝王爲中大夫。呉楚反時，孝王使安國及張羽爲將，捍呉兵於東界。張羽力戰，安國持重，以故呉不能過梁。呉楚已破，安國、張羽名由此顯。",
+      "paragraph_ids": [
+        "c-shiji-108-han:p001",
+        "c-shiji-108-han:p002",
+        "c-shiji-108-han:p004",
+        "c-shiji-108-han:p005"
+      ],
+      "mention_ids": [
+        "c-shiji-108-han:m001-0035",
+        "c-shiji-108-han:m001-0048",
+        "c-shiji-108-han:m002-0000",
+        "c-shiji-108-han:m002-0064",
+        "c-shiji-108-han:m002-0086",
+        "c-shiji-108-han:m002-0140",
+        "c-shiji-108-han:m002-0191",
+        "c-shiji-108-han:m002-0207",
+        "c-shiji-108-han:m002-0210",
+        "c-shiji-108-han:m002-0280",
+        "c-shiji-108-han:m002-0297",
+        "c-shiji-108-han:m002-0381",
+        "c-shiji-108-han:m004-0007",
+        "c-shiji-108-han:m004-0034",
+        "c-shiji-108-han:m005-0007",
+        "c-shiji-108-han:m005-0096",
+        "c-shiji-108-han:m005-0104",
+        "c-shiji-108-han:m005-0115",
+        "c-shiji-108-han:m005-0141",
+        "c-shiji-108-han:m005-0160",
+        "c-shiji-108-han:m005-0189",
+        "c-shiji-108-han:m005-0324",
+        "c-shiji-108-han:m005-0358",
+        "c-shiji-108-han:m005-0368",
+        "c-shiji-108-han:m005-0374",
+        "c-shiji-108-han:m005-0391",
+        "c-shiji-108-han:m005-0403",
+        "c-shiji-108-han:m005-0459"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-108-han:m001-0035": "c-shiji-108-han:p001",
+        "c-shiji-108-han:m001-0048": "c-shiji-108-han:p001",
+        "c-shiji-108-han:m002-0000": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0064": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0086": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0140": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0191": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0207": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0210": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0280": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0297": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m002-0381": "c-shiji-108-han:p002",
+        "c-shiji-108-han:m004-0007": "c-shiji-108-han:p004",
+        "c-shiji-108-han:m004-0034": "c-shiji-108-han:p004",
+        "c-shiji-108-han:m005-0007": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0096": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0104": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0115": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0141": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0160": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0189": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0324": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0358": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0368": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0374": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0391": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0403": "c-shiji-108-han:p005",
+        "c-shiji-108-han:m005-0459": "c-shiji-108-han:p005"
+      },
+      "mention_id": "c-shiji-108-han:m001-0035",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-108-han:m001-0035",
+          "mention_ids": [
+            "c-shiji-108-han:m001-0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m001-0048",
+          "mention_ids": [
+            "c-shiji-108-han:m001-0048"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0000",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0064",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0086",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0086"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0140",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0140"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0191",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0191"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0207",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0207"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0210",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0210"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0280",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0280"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0297",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0297"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m002-0381",
+          "mention_ids": [
+            "c-shiji-108-han:m002-0381"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m004-0007",
+          "mention_ids": [
+            "c-shiji-108-han:m004-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m004-0034",
+          "mention_ids": [
+            "c-shiji-108-han:m004-0034"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0007",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0096",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0104",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0104"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0115",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0115"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0141",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0141"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0160",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0160"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0189",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0189"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0324",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0324"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0358",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0358"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0368",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0368"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0374",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0374"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0391",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0391"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0403",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0403"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m005-0459",
+          "mention_ids": [
+            "c-shiji-108-han:m005-0459"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "chapter_id": "c-shiji-108-han",
+      "source_id": "s-shiji-108-han",
+      "work_title": "史記"
     },
     {
       "number": 109,
@@ -953,7 +2297,88 @@
       "title": "李將軍列傳第四十九",
       "paragraph_id": "c-shiji-109-liguang:p002",
       "count": 1,
-      "quote": "將。呉楚軍時，廣爲驍騎都尉，從太尉亞夫擊呉楚軍，取旗，顯功名昌邑下。以梁王授廣將軍印，還，賞不行。徙爲上谷太守，匈奴日以合戰。典屬國公孫昆邪爲上泣曰：「李廣才氣，天下無雙，自負其能，數與虜敵戰，恐亡之。」於是乃徙爲上郡太守。後廣轉爲邊郡太守，徙上郡。嘗爲隴西、北地、鴈門、代"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "將。呉楚軍時，廣爲驍騎都尉，從太尉亞夫擊呉楚軍，取旗，顯功名昌邑下。以梁王授廣將軍印，還，賞不行。徙爲上谷太守，匈奴日以合戰。典屬國公孫昆邪爲上泣曰：「李廣才氣，天下無雙，自負其能，數與虜敵戰，恐亡之。」於是乃徙爲上郡太守。後廣轉爲邊郡太守，徙上郡。嘗爲隴西、北地、鴈門、代",
+      "paragraph_ids": [
+        "c-shiji-109-liguang:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-109-liguang:m002-0052"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-109-liguang:m002-0052": "c-shiji-109-liguang:p002"
+      },
+      "mention_id": "c-shiji-109-liguang:m002-0052",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-109-liguang:m002-0052",
+          "mention_ids": [
+            "c-shiji-109-liguang:m002-0052"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-109",
+      "chapter_id": "c-shiji-109-liguang",
+      "source_id": "s-shiji-109-liguang",
+      "work_title": "史記"
+    },
+    {
+      "number": 117,
+      "category": "liezhuan",
+      "title": "司馬相如列傳第五十七",
+      "paragraph_id": "c-shiji-117-xiangru:p001",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "名相如。以貲為郎，事孝景帝，為武騎常侍，非其好也。會景帝不好辭賦，是時梁孝王來朝，從遊說之士齊人鄒陽、淮陰枚乘、吳莊忌夫子之徒，相如見而說之，因病免，客游梁。梁孝王令與諸生同舍，相如得與諸生游士居數歲，乃著子虛之賦。",
+      "paragraph_ids": [
+        "c-shiji-117-xiangru:p001",
+        "c-shiji-117-xiangru:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-117-xiangru:m001-0085",
+        "c-shiji-117-xiangru:m001-0129",
+        "c-shiji-117-xiangru:m002-0001"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-117-xiangru:m001-0085": "c-shiji-117-xiangru:p001",
+        "c-shiji-117-xiangru:m001-0129": "c-shiji-117-xiangru:p001",
+        "c-shiji-117-xiangru:m002-0001": "c-shiji-117-xiangru:p002"
+      },
+      "mention_id": "c-shiji-117-xiangru:m001-0085",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-117-xiangru:m001-0085",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m001-0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-117-xiangru:m001-0129",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m001-0129"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-117-xiangru:m002-0001",
+          "mention_ids": [
+            "c-shiji-117-xiangru:m002-0001"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "chapter_id": "c-shiji-117-xiangru",
+      "source_id": "s-shiji117-xiangru",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [
@@ -991,7 +2416,12 @@
             "quote": "以武為代王"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1027,7 +2457,12 @@
             "quote": "以武為代王"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1063,7 +2498,12 @@
             "quote": "以武為代王"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1099,7 +2539,12 @@
             "quote": "徙淮陽王武為梁王"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1135,7 +2580,12 @@
             "quote": "梁孝王武者"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1171,7 +2621,12 @@
             "quote": "梁孝王武者"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1207,7 +2662,12 @@
             "quote": "梁孝王武者"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1243,7 +2703,12 @@
             "quote": "梁孝王武者"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     },
     {
       "table_id": "shiji-017",
@@ -1279,7 +2744,12 @@
             "quote": "梁孝王武者"
           }
         ]
-      }
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-017",
+      "chapter_id": "table-chapter-shiji-017",
+      "source_id": "table-witness-shiji-017",
+      "source_revision": "2607010"
     }
   ],
   "sources": [
@@ -1604,6 +3074,30 @@
           "editorial_readings": [],
           "extraction_note": "去介面模板與現代節標題；移除專名顯示模板及單字語言轉換包裹，保留模板內原字。其餘原字、標點與段落次序保留。",
           "note": "未核底本影像。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-shiji-117-xiangru",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-117",
+      "source_id": "s-shiji117-xiangru",
+      "source": {
+        "title": "史記／卷117",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷117",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+        "revision_id": 10371549,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文71段，包括賦、書與末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、目錄標記及現代節標；quote模板保留全文，br轉段落；罕字模板保留第一參數字形，描述未作正文；連結保留顯示字。未核影像。 移除防轉換控制外殼，保留內字云。",
+          "note": "第58段U+E0FA私用字缺字與頌中重句原樣保存，不猜補；末段索隱述贊分層。"
         }
       }
     },
@@ -1949,8 +3443,8 @@
   "related_people": {
     "ixk_6fg_v6f_A": "竇太后（孝文帝皇后）",
     "yqp_nlb_p1p_AC": "恒（高祖子）",
-    "yqp_nlb_p1p_ACA": "文帝太子（本卷未名）",
-    "yqp_nlb_p1p_ACG": "武（文帝子）",
+    "yqp_nlb_p1p_ACA": "孝景帝",
+    "yqp_nlb_p1p_ACG": "梁孝王武",
     "yqp_nlb_p1p_ACGA": "買（梁孝王世家候選）",
     "yqp_nlb_p1p_ACGAA": "襄（梁孝王世家候選）",
     "yqp_nlb_p1p_ACGAAA": "無傷（梁孝王世家候選）",
@@ -2436,6 +3930,25 @@
         }
       ],
       "interpretation_note": "保存本文死亡事件；無明示日期不補數值年，不據此終止任何官爵。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    },
+    {
+      "id": "le-shiji117-p002-yqp_nlb_p1p_ACG",
+      "person_id": "yqp_nlb_p1p_ACG",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-117-xiangru",
+          "source_id": "s-shiji117-xiangru",
+          "paragraph_id": "c-shiji-117-xiangru:p002",
+          "quote": "會梁孝王卒，相如歸，而家貧，無以自業。素與臨邛令王吉相善，吉曰：「長卿久宦遊不遂，而來過我。」於是相如往，舍都亭。臨邛令繆為恭敬，日往朝相如。相如初尚見之，後稱病，使從者謝吉，吉愈益謹肅。臨邛中多富人，而卓王孫家僮八百人，程鄭亦數百人，二人乃相謂曰：「令有貴客，為具召之。」並召令。令既至，卓氏客以百數。至日中，謁司馬長卿，長卿謝病不能往，臨邛令不敢嘗食，自往迎相如。相如不得已，彊往，一坐盡傾。酒酣，臨邛令前奏琴曰：「竊聞長卿好之，原以自娛。」相如辭謝，為鼓一再行。是時卓王孫有女文君新寡，好音，故相如繆與令相重，而以琴心挑之。相如之臨邛，從車騎，雍容間雅甚都；及飲卓氏，弄琴，文君竊從戶窺之，心悅而好之，恐不得當也。既罷，相如乃使人重賜文君侍者通殷勤。文君夜亡奔相如，相如乃與馳歸成都。家居徒四壁立。卓王孫大怒曰：「女至不材，我不忍殺，不分一錢也。」人或謂王孫，王孫終不聽。文君久之不樂，曰：「長卿第俱如臨邛，從昆弟假貸猶足為生，何至自苦如此！」相如與俱之臨邛，盡賣其車騎，買一酒舍酤酒，而令文君當爐。相如身自著犢鼻褌，與保庸雜作，滌器於市中。卓王孫聞而恥之，為杜門不出。昆弟諸公更謂王孫曰：「有一男兩女，所不足者非財也。今文君已失身於司馬長卿，長卿故倦遊，雖貧，其人材足依也，且又令客，獨奈何相辱如此！」卓王孫不得已，分予文君僮百人，錢百萬，及其嫁時衣被財物。文君乃與相如歸成都，買田宅，為富人。",
+          "person_mention_id": "c-shiji-117-xiangru:m002-0001"
+        }
+      ],
+      "interpretation_note": "原文明示死亡，未在本段給出紀年；不補死亡日期、死亡地點或全部稱號終點。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
     }

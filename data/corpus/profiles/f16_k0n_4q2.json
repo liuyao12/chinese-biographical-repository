@@ -17,7 +17,34 @@
       "title": "平津侯主父列傳第五十二",
       "paragraph_id": "c-shiji-112-pingjin:p030",
       "count": 1,
-      "quote": "則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣承統，纂修洪業，亦講"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣承統，纂修洪業，亦講",
+      "paragraph_ids": [
+        "c-shiji-112-pingjin:p030"
+      ],
+      "mention_ids": [
+        "c-shiji-112-pingjin:m030-0231"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-112-pingjin:m030-0231": "c-shiji-112-pingjin:p030"
+      },
+      "mention_id": "c-shiji-112-pingjin:m030-0231",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-112-pingjin:m030-0231",
+          "mention_ids": [
+            "c-shiji-112-pingjin:m030-0231"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-112",
+      "chapter_id": "c-shiji-112-pingjin",
+      "source_id": "s-shiji112-pingjin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -49,9 +76,52 @@
   ],
   "relations": [],
   "related_people": {
+    "e1m_xt0_8w7": "枚乘",
     "f16_k0n_4q2": "枚皋（平津侯主父列傳末段候選）"
   },
   "dates": [],
+  "identity_distinctions": [
+    {
+      "id": "distinct-shiji112-meicheng-meigao",
+      "person_ids": [
+        "e1m_xt0_8w7",
+        "f16_k0n_4q2"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-112-pingjin:p030",
+          "quote": "班固稱曰：公孫弘、卜式、兒寬皆以鴻漸之翼困於燕雀，遠跡羊豕之閒，非遇其時，焉能致此位乎？是時漢興六十餘載，海內乂安，府庫充實，而四夷未賓，制度多闕，上方欲用文武，求之如弗及。始以蒲輪迎枚生，見主父而嘆息。群臣慕向，異人并出。卜式試於芻牧，弘羊擢於賈豎，衛青奮於奴仆，日磾出於降虜，斯亦曩時版筑飯牛之朋矣。漢之得人，於茲為盛。儒雅則公孫弘、董仲舒、兒寬，篤行則石建、石慶，質直則汲黯、卜式，推賢則韓安國、鄭當時，定令則趙禹、張湯，文章則司馬遷、相如，滑稽則東方朔、枚皋，應對則嚴助、朱買臣，歷數則唐都、落下閎，協律則李延年，運籌則桑弘羊，奉使則張騫、蘇武，將帥則衛青、霍去病，受遺則霍光、金日磾。其餘不可勝紀。是以興造功業，制度遺文，後世莫及。孝宣承統，纂修洪業，亦講論六藝，招選茂異，而蕭望之、梁丘賀、夏侯勝、韋玄成、嚴彭祖、尹更始以儒術進，劉向、王褒以文章顯。將相則張安世、趙充國、魏相、邴吉、于定國、杜延年，治民則黃霸、王成、龔遂、鄭弘、邵信臣、韓延壽、尹翁歸、趙廣漢之屬，皆有功跡見述於後。累其名臣，亦其次也。",
+          "chapter_id": "c-shiji-112-pingjin",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-112",
+          "source_id": "s-shiji112-pingjin"
+        }
+      ],
+      "references": [
+        {
+          "title": "《前漢書》卷五十一（文淵閣數位見證）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_051.txt#L604-L606",
+          "quote": "安車蒲輪徴乘",
+          "raw_quote": "乘歸淮隂武帝自為太子聞乘名及即位乘年老廼以¶\n安車蒲輪徴乘(師古曰蒲輪以蒲裹輪○/宋祁曰注末當有也字)道死(師古曰/在道病)¶\n(死/也)詔問乘子無能為文者後廼得其孽子臯(師古曰/孽庶也)臯¶",
+          "scope": "same_imperial_summons_not_son",
+          "image_verified": false,
+          "response_sha256": "385b55433cb345483bdc1c643abab6fe86e7ad3c291d871ca5e5e15e66f6d3e6",
+          "source_blob_sha": "92416f8920f5ce475fc78664fef6a92a143f4429",
+          "response_extent": {
+            "first_line": 520,
+            "last_line": 650,
+            "partial_file": true
+          },
+          "note": "quote為原行連續字，不改字；raw_quote保留原行與注。雜湊只指部分回應，不是全檔指紋，未核書影。"
+        }
+      ],
+      "rationale": "本段蒲輪迎枚生與滑稽枚皋分列。漢書51安車蒲輪徴乘，續述詔問乘子後得其孽子皋，故暫分枚乘與枚皋，不以枚姓或枚生同字混合。此只作身份區分；未新增無正文段落支持的父子斷言。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "f16_k0n_4q2"

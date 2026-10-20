@@ -2,11 +2,14 @@
   "schema_version": 1,
   "id": "bvb_d1z_fd0_*A",
   "canonical_person_id": "bvb_d1z_fd0_*A",
-  "label": "胡（南越列傳候選）",
+  "label": "胡",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "胡"
+    "胡",
+    "南越文王",
+    "文王",
+    "南越王"
   ],
   "titles": [
     {
@@ -65,7 +68,7 @@
       "person_id": "bvb_d1z_fd0_*A",
       "title": "文王",
       "kind": "honorific",
-      "mode": "attestation",
+      "mode": "posthumous_naming",
       "status": "source_attested",
       "evidence": [
         {
@@ -89,6 +92,69 @@
       ],
       "effective_period": {
         "start": {
+          "status": "source_event",
+          "event_type": "posthumous_naming",
+          "date_expression": null,
+          "evidence": [
+            {
+              "chapter_id": "c-shiji-113-nanyue",
+              "source_id": "s-shiji113-nanyue",
+              "paragraph_id": "c-shiji-113-nanyue:p005",
+              "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。 薨後謚為明示命名事件，另記posthumous_naming；仍未記年月，不以死亡補其他王爵終年。",
+      "reviewer": "Codex（AI 代理）",
+      "naming_basis": {
+        "source_term": "胡薨，謚為文王",
+        "death_term": "胡薨",
+        "evidence": [
+          {
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "paragraph_id": "c-shiji-113-nanyue:p005",
+            "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+          }
+        ]
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-shiji116-021",
+      "person_id": "bvb_d1z_fd0_*A",
+      "title": "南越王",
+      "kind": "royal_rank",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p003",
+          "quote": "建元六年，大行王恢擊東越，東越殺王郢以報。恢因兵威使番陽令唐蒙風指曉南越。南越食蒙蜀枸醬，蒙問所從來，曰「道西北牂柯，牂柯江廣數里，出番禺城下」。蒙歸至長安，問蜀賈人，賈人曰：「獨蜀出枸醬，多持竊出市夜郎。夜郎者，臨牂柯江，江廣百餘步，足以行船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易甚。」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往喻，皆如南夷，為置一都尉，十餘縣，屬蜀。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji116-021:a001",
+          "paragraph_id": "c-shiji-116-xinanyi:p003",
+          "start": 156,
+          "end": 159,
+          "surface": "南越王",
+          "person_mention_id": "c-shiji-116-xinanyi:m003-0156",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
           "status": "unknown",
           "date_expression": null,
           "evidence": []
@@ -99,7 +165,7 @@
           "evidence": []
         }
       },
-      "interpretation_note": "薨後明示謚號，用稱標為死後；不作生前王號或補造授謚年月。",
+      "interpretation_note": "唐蒙返報上書所稱南越王，按平行使事接胡；不由段首背景年補其即位或任期，未記上書具體月日。",
       "reviewer": "Codex（AI 代理）",
       "period": "未定 → 未定"
     }
@@ -107,12 +173,200 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 20,
+      "category": "",
+      "title": "漢紀十二",
+      "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣",
+      "paragraph_ids": [
+        "c-zizhitongjian-020-han12:p-nanyue-001"
+      ],
+      "mention_ids": [
+        "c-zizhitongjian-020-han12:m-nanyue-001-0001",
+        "c-zizhitongjian-020-han12:m-nanyue-001-0025"
+      ],
+      "mention_paragraph_ids": {
+        "c-zizhitongjian-020-han12:m-nanyue-001-0001": "c-zizhitongjian-020-han12:p-nanyue-001",
+        "c-zizhitongjian-020-han12:m-nanyue-001-0025": "c-zizhitongjian-020-han12:p-nanyue-001"
+      },
+      "mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0001",
+          "mention_ids": [
+            "c-zizhitongjian-020-han12:m-nanyue-001-0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-zizhitongjian-020-han12:m-nanyue-001-0025",
+          "mention_ids": [
+            "c-zizhitongjian-020-han12:m-nanyue-001-0025"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-020",
+      "chapter_id": "c-zizhitongjian-020-han12",
+      "source_id": "s-zizhitongjian-020-han12",
+      "work_title": "資治通鑑"
+    },
+    {
       "number": 113,
       "category": "liezhuan",
       "title": "南越列傳第五十三",
       "paragraph_id": "c-shiji-113-nanyue:p004",
-      "count": 8,
-      "quote": "佗孫胡為南越王。此時閩越王郢興兵擊南越邊邑，胡使人上書曰：「兩越俱為藩臣，毋得擅興兵相攻擊。今閩越興兵侵臣，臣不敢興兵，唯天子詔之。」於是天子多南越義，守職約，為興師，遣兩將軍往討閩越。兵未踰嶺，閩越王弟餘"
+      "count": 10,
+      "raw_count": 10,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "佗孫胡為南越王。此時閩越王郢興兵擊南越邊邑，胡使人上書曰：「兩越俱為藩臣，毋得擅興兵相攻擊。今閩越興兵侵臣，臣不敢興兵，唯天子詔之。」於是天子多南越義，守職約，為興師，遣兩將軍往討閩越。兵未踰嶺，閩越王弟餘",
+      "paragraph_ids": [
+        "c-shiji-113-nanyue:p004",
+        "c-shiji-113-nanyue:p005"
+      ],
+      "mention_ids": [
+        "c-shiji-113-nanyue:m004-0002",
+        "c-shiji-113-nanyue:m004-0004",
+        "c-shiji-113-nanyue:m004-0022",
+        "c-shiji-113-nanyue:m005-0008",
+        "c-shiji-113-nanyue:m005-0012",
+        "c-shiji-113-nanyue:m005-0060",
+        "c-shiji-113-nanyue:m005-0079",
+        "c-shiji-113-nanyue:m005-0139",
+        "c-shiji-113-nanyue:m005-0153",
+        "c-shiji-113-nanyue:m005-0165"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-113-nanyue:m004-0002": "c-shiji-113-nanyue:p004",
+        "c-shiji-113-nanyue:m004-0004": "c-shiji-113-nanyue:p004",
+        "c-shiji-113-nanyue:m004-0022": "c-shiji-113-nanyue:p004",
+        "c-shiji-113-nanyue:m005-0008": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0012": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0060": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0079": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0139": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0153": "c-shiji-113-nanyue:p005",
+        "c-shiji-113-nanyue:m005-0165": "c-shiji-113-nanyue:p005"
+      },
+      "mention_id": "c-shiji-113-nanyue:m004-0002",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m004-0002",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m004-0002"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m004-0004",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m004-0004"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m004-0022",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m004-0022"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0008",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0012",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0060",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0060"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0079",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0079"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0139",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0139"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0153",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0153"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m005-0165",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m005-0165"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-113",
+      "chapter_id": "c-shiji-113-nanyue",
+      "source_id": "s-shiji113-nanyue",
+      "work_title": "史記"
+    },
+    {
+      "number": 116,
+      "category": "liezhuan",
+      "title": "西南夷列傳第五十六",
+      "paragraph_id": "c-shiji-116-xinanyi:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易甚。」上許之",
+      "paragraph_ids": [
+        "c-shiji-116-xinanyi:p003"
+      ],
+      "mention_ids": [
+        "c-shiji-116-xinanyi:m003-0156"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-116-xinanyi:m003-0156": "c-shiji-116-xinanyi:p003"
+      },
+      "mention_id": "c-shiji-116-xinanyi:m003-0156",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m003-0156",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m003-0156"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "chapter_id": "c-shiji-116-xinanyi",
+      "source_id": "s-shiji116-xinanyi",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -140,6 +394,68 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-116-xinanyi",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "source_id": "s-shiji116-xinanyi",
+      "source": {
+        "title": "史記／卷116",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷116",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷116&oldid=7903636",
+        "revision_id": 7903636,
+        "accessed_on": "2026-10-11",
+        "extent": "固定數位修訂全文12段，末段索隱述贊另層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標題；YL紀年模板保留第一參數，第二參數編輯年標不納正文。正文原字不改，未核影像。",
+          "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-zizhitongjian-020-han12",
+      "work_id": "w-zizhitongjian",
+      "book_id": "b-zizhitongjian-020",
+      "source_id": "s-zizhitongjian-020-han12",
+      "source": {
+        "title": "資治通鑑卷二十（固定數位轉錄，版本標記待核）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
+        "permalink": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt",
+        "revision_id": "80174f61e491db29f9921d0d3e54a59649419aa9",
+        "source_commit": "80174f61e491db29f9921d0d3e54a59649419aa9",
+        "source_blob_sha": "71c9f2f93a06f0869cbe807edf3f42524a9ea2a3",
+        "accessed_on": "2026-10-16",
+        "extent": "只錄初南越文王遣其子嬰齊入宿衛至興為嗣一段，作史記南越父子對讀；未錄全卷。",
+        "text_scope": "partial_chapter",
+        "included_sections": [
+          "南越文王與嬰齊、樛氏女及興"
+        ],
+        "image_verified": false,
+        "rights": "古代正文及古注；保留Kanripo數位轉錄與固定提交來源歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "review_status": "text_checked",
+        "edition": null,
+        "edition_metadata_note": "檔頭BASEEDITION SBCK，頁標WYG；只標固定數位轉錄，不宣稱已核實物版本。",
+        "response_sha256": "f21e05fe0f13c21e1e437b8f793cdf79a9fc0a2daecea645135f9696d940d8c6",
+        "response_extent": {
+          "first_line": 201,
+          "last_line": 350,
+          "partial_file": true
+        },
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "固定原檔305至310行中截取正文首尾；去括號雙行注、換行、段末符，保留蔵等原字、不補標點。raw_quote保留古注與前後截取範圍；response指紋只涵201至350行，不冒作全卷或圖像校勘。"
+        }
+      }
     }
   ],
   "relations": [
@@ -162,14 +478,184 @@
       },
       "interpretation_note": "明記孫，祖父距離兩代，不補中間父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-001",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "南越文王遣其子嬰齊"
+      },
+      "interpretation_note": "明其子，不僅因太子或代立推父子。文王與胡的身份對讀另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "related_people": {
     "bvb_d1z_fd0": "尉佗",
-    "bvb_d1z_fd0_*A": "胡（南越列傳候選）"
+    "bvb_d1z_fd0_*A": "胡",
+    "bvb_d1z_fd0_*AA": "嬰齊"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji116-nanyue-king-hu",
+      "person_id": "bvb_d1z_fd0_*A",
+      "surfaces": [
+        "南越王",
+        "胡"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-116-xinanyi",
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "confidence_level": "high",
+      "identification_basis": {
+        "kind": "parallel_event",
+        "target_mention_ids": [
+          "c-shiji-116-xinanyi:m003-0156"
+        ],
+        "same_event": "閩越王郢侵南越、漢發兵、餘善殺郢",
+        "excluded_person_ids": [
+          "bvb_d1z_fd0",
+          "bvb_d1z_fd0_*AA"
+        ]
+      },
+      "evidence": [
+        {
+          "paragraph_id": "c-shiji-116-xinanyi:p003",
+          "quote": "建元六年，大行王恢擊東越，東越殺王郢以報。恢因兵威使番陽令唐蒙風指曉南越。南越食蒙蜀枸醬，蒙問所從來，曰「道西北牂柯，牂柯江廣數里，出番禺城下」。蒙歸至長安，問蜀賈人，賈人曰：「獨蜀出枸醬，多持竊出市夜郎。夜郎者，臨牂柯江，江廣百餘步，足以行船。南越以財物役屬夜郎，西至同師，然亦不能臣使也。」蒙乃上書說上曰：「南越王黃屋左纛，地東西萬餘里，名為外臣，實一州主也。今以長沙、豫章往，水道多絕，難行。竊聞夜郎所有精兵，可得十餘萬，浮船牂柯江，出其不意，此制越一奇也。誠以漢之彊，巴蜀之饒，通夜郎道，為置吏，易甚。」上許之。乃拜蒙為郎中將，將千人，食重萬餘人，從巴蜀筰關入，遂見夜郎侯多同。蒙厚賜，喻以威德，約為置吏，使其子為令。夜郎旁小邑皆貪漢繒帛，以為漢道險，終不能有也，乃且聽蒙約。還報，乃以為犍為郡。發巴蜀卒治道，自僰道指牂柯江。蜀人司馬相如亦言西夷邛、筰可置郡。使相如以郎中將往喻，皆如南夷，為置一都尉，十餘縣，屬蜀。"
+        },
+        {
+          "paragraph_id": "c-shiji-113-nanyue:p004",
+          "quote": "佗孫胡為南越王。此時閩越王郢興兵擊南越邊邑，胡使人上書曰：「兩越俱為藩臣，毋得擅興兵相攻擊。今閩越興兵侵臣，臣不敢興兵，唯天子詔之。」於是天子多南越義，守職約，為興師，遣兩將軍往討閩越。兵未踰嶺，閩越王弟餘善殺郢以降，於是罷兵。"
+        },
+        {
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記·南越列傳》尉佗卒年",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+          "paragraph_id": "c-shiji-113-nanyue:p003",
+          "quote": "至建元四年卒。",
+          "scope": "received_predecessor_death_before_campaign",
+          "image_verified": false
+        }
+      ],
+      "rationale": "唐蒙上書承建元六年討越、郢被殺的同一敘事。南越篇先記尉佗建元四年卒，次記佗孫胡為南越王、郢侵邊及被餘善殺，隨後又明稱胡；故此泛稱接胡，不接尉佗或後來的嬰齊。黃屋左纛不作另一姓名，不補授爵日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "d-zizhitongjian020-wenwang-hu",
+      "person_id": "bvb_d1z_fd0_*A",
+      "surfaces": [
+        "南越文王",
+        "文王"
+      ],
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-zizhitongjian-020-han12",
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        },
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-113",
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。"
+        }
+      ],
+      "references": [
+        {
+          "title": "〈南越列傳〉胡卒諡文王",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+          "quote": "天子使莊助往諭意南越王，胡頓首曰：「天子乃為臣興兵討閩越，死無以報德！」遣太子嬰齊入宿衛。謂助曰：「國新被寇，使者行矣。胡方日夜裝入見天子。」助去後，其大臣諫胡曰：「漢興兵誅郢，亦行以驚動南越。且先王昔言，事天子期無失禮，要之不可以說好語入見。入見則不得復歸，亡國之勢也。」於是胡稱病，竟不入見。後十餘歲，胡實病甚，太子嬰齊請歸。胡薨，謚為文王。",
+          "chapter_id": "c-shiji-113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "scope": "received_same_hostage_event_and_posthumous_title",
+          "image_verified": false
+        },
+        {
+          "title": "《資治通鑑》卷20胡三省注",
+          "url": "https://github.com/kanripo/KR2b0007/blob/80174f61e491db29f9921d0d3e54a59649419aa9/KR2b0007_020.txt#L305-L310",
+          "quote": "南越王胡薨謚文王嬰齊入宿衛見十七卷建元元年",
+          "raw_quote": "(課上上/曰最)上由此愈竒寛　初南越文王遣其子嬰齊入¶\n宿衛(南越王胡薨謚文王嬰齊入/宿衛見十七卷建元元年)在長安取邯鄲樛氏¶\n女(取讀曰娶邯鄲屬趙/國師古曰樛居虯翻)生子興文王薨嬰齊立乃蔵其¶\n先武帝璽(趙佗自號南越武帝/李竒曰去其僣號)上書請立樛氏女為后¶\n興為嗣漢數使使者風諭嬰齊入朝(數所角翻師古曰/風讀曰諷諷諭令)¶\n(入/朝)嬰齊尚樂擅殺生自恣懼入見要用漢法比内諸侯¶",
+          "scope": "commentary_identifies_wenwang_as_hu",
+          "source_blob_sha": "71c9f2f93a06f0869cbe807edf3f42524a9ea2a3",
+          "response_sha256": "f21e05fe0f13c21e1e437b8f793cdf79a9fc0a2daecea645135f9696d940d8c6",
+          "response_extent": {
+            "first_line": 201,
+            "last_line": 350,
+            "partial_file": true
+          },
+          "image_verified": false,
+          "note": "古注與正文分源，不把注所述建元元年冒作正文全部事件日期。"
+        }
+      ],
+      "rationale": "史記胡謚文王、同遣嬰齊入宿衛及嗣立事件，通鑑古注也指胡；不混趙佗先武帝。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "bvb_d1z_fd0_*A",
+      "title": "南越王",
+      "surname": null,
+      "ming": "胡",
+      "additional_names": [
+        "文王"
+      ],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p004",
+      "quote": "佗孫胡為南越王。此時閩越王郢興兵擊南越邊邑，胡使人上書曰：「兩越俱為藩臣，毋得擅興兵相攻擊。今閩越興兵侵臣，臣不敢興兵，唯天子詔之。」於是天子多南越義，守職約，為興師，遣兩將軍往討閩越。兵未踰嶺，閩越王弟餘善殺郢以降，於是罷兵。",
+      "references": [
+        {
+          "title": "《史記·南越列傳》胡薨與謚號",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷113&oldid=8735632",
+          "paragraph_id": "c-shiji-113-nanyue:p005",
+          "quote": "胡薨，謚為文王。",
+          "scope": "received_posthumous_title",
+          "image_verified": false
+        }
+      ],
+      "note": "正文佗孫胡為南越王及胡薨謚為文王支持名與稱號；本項不另補姓，亦不把後出的謚號當生前即位稱號。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "bvb_d1z_fd0_*A"
   ],
@@ -193,6 +679,30 @@
       },
       "interpretation_note": "明記孫，祖父距離兩代，不補中間父親。",
       "reviewer": "Codex（AI 代理）"
+    },
+    {
+      "id": "a-zizhitongjian020-nanyue-001",
+      "subject_person_id": "bvb_d1z_fd0_*AA",
+      "predicate": "father",
+      "object_person_id": "bvb_d1z_fd0_*A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-zizhitongjian",
+          "book_id": "b-zizhitongjian-020",
+          "chapter_id": "c-zizhitongjian-020-han12",
+          "source_id": "s-zizhitongjian-020-han12",
+          "paragraph_id": "c-zizhitongjian-020-han12:p-nanyue-001",
+          "quote": "初南越文王遣其子嬰齊入宿衛在長安取邯鄲樛氏女生子興文王薨嬰齊立乃蔵其先武帝璽上書請立樛氏女為后興為嗣"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "南越文王遣其子嬰齊"
+      },
+      "interpretation_note": "明其子，不僅因太子或代立推父子。文王與胡的身份對讀另記。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
     }
   ],
   "age_assertions": [],

@@ -2,13 +2,309 @@
   "schema_version": 1,
   "id": "43i_62q_gf6",
   "canonical_person_id": "43i_62q_gf6",
-  "label": "敖（東越列傳候選）",
+  "label": "敖",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "敖"
+    "敖",
+    "東越建成侯",
+    "建成"
   ],
   "titles": [
+    {
+      "id": "th-table-shiji020-r061-founding-grant",
+      "person_id": "43i_62q_gf6",
+      "title": "開陵侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c00",
+          "quote": "開陵。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c01",
+          "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r061-c06-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r061-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "person_mention_id": "shiji-020-t1-r061-c06-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r061-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "開陵"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r061-c06",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "person_mention_id": "shiji-020-t1-r061-c06-m000",
+          "surface": "建成"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r061-c00",
+          "quote": "開陵。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r061-c01",
+          "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-6",
+            "text": "元封"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r061-c06",
+            "text": "元年閏月癸卯",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r097-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r097-c01",
+          "digital_year_cell_id": "shiji-022-t1-r097-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元封元年閏月癸卯",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r061-c00",
+              "quote": "開陵。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r061-c01",
+              "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r061-c06",
+              "quote": "六。元年閏月癸卯，侯建成元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r061-c06-m000"
+            }
+          ],
+          "normalized_date_range": {
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "status": "editorial_provisional",
+            "original_quote": "六。元年閏月癸卯，侯建成元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c00",
+                "quote": "開陵。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c01",
+                "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c06",
+                "quote": "六。元年閏月癸卯，侯建成元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r061-c06-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "開陵。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "六。元年閏月癸卯，侯建成元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r061-c06",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元封元年。",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "110",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r097-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元封",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-6",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "earliest": {
+              "era": "BCE",
+              "era_year": 111,
+              "year": -110
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 110,
+              "year": -109
+            },
+            "basis": "regnal_year_crosses_ce_year"
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "固定原表封國、功臣事由與同人首封元年分格記錄；原表姓名與正文異稱各存。未明閏幾月，保留公元前111至110年範圍。不由後任補父子，也不據死亡自動補爵位終點。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元前111至110年（暫定範圍） · 元封元年閏月癸卯 → 未定"
+    },
     {
       "id": "th-shiji114-025",
       "person_id": "43i_62q_gf6",
@@ -112,10 +408,113 @@
       "title": "東越列傳第五十四",
       "paragraph_id": "c-shiji-114-dongyue:p009",
       "count": 2,
-      "quote": "弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封",
+      "paragraph_ids": [
+        "c-shiji-114-dongyue:p009"
+      ],
+      "mention_ids": [
+        "c-shiji-114-dongyue:m009-0054",
+        "c-shiji-114-dongyue:m009-0137"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-114-dongyue:m009-0054": "c-shiji-114-dongyue:p009",
+        "c-shiji-114-dongyue:m009-0137": "c-shiji-114-dongyue:p009"
+      },
+      "mention_id": "c-shiji-114-dongyue:m009-0054",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m009-0054",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m009-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m009-0137",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m009-0137"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "chapter_id": "c-shiji-114-dongyue",
+      "source_id": "s-shiji114-dongyue",
+      "work_title": "史記"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r061-c01",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r061-c01-m000",
+        "start": 2,
+        "end": 7,
+        "surface": "東越建成侯",
+        "person_id": "43i_62q_gf6",
+        "status": "contextual_provisional",
+        "interpretation_note": "按同列功臣事由、首位持有人及東越篇同一事件辨識；繇王在斬餘善事件指居股，不回指早期丑；不由同官同爵跨事件合併。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-114",
+            "chapter_id": "c-shiji-114-dongyue",
+            "source_id": "s-shiji114-dongyue",
+            "source_revision": 8735633,
+            "paragraph_id": "c-shiji-114-dongyue:p009",
+            "person_id": "43i_62q_gf6",
+            "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "chapter_id": "table-chapter-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source_revision": "2607036"
+    },
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r061-c06",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "六。元年閏月癸卯，侯建成元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r061-c06-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "建成",
+        "person_id": "43i_62q_gf6",
+        "status": "contextual_provisional",
+        "interpretation_note": "表以故東越建成侯與繇王斬餘善、封開陵列，與本傳建成侯敖相合；漢書顏注已疑表誤。原表建成保留，不將它當敖的確證本名。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-114",
+            "chapter_id": "c-shiji-114-dongyue",
+            "source_id": "s-shiji114-dongyue",
+            "source_revision": 8735633,
+            "paragraph_id": "c-shiji-114-dongyue:p009",
+            "person_id": "43i_62q_gf6",
+            "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "chapter_id": "table-chapter-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source_revision": "2607036"
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-114-dongyue",
@@ -140,18 +539,294 @@
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "43i_62q_gf6": "敖（東越列傳候選）"
+    "43i_62q_gf6": "敖"
   },
   "dates": [],
-  "name_components": [],
+  "reading_decisions": [
+    {
+      "id": "d-shiji114-table-r061",
+      "person_id": "43i_62q_gf6",
+      "surfaces": [
+        "敖"
+      ],
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-114-dongyue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p009",
+          "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記・建元以來侯者年表》原列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "scope": "received_table_person_identity",
+          "image_verified": false
+        },
+        {
+          "title": "《漢書・西南夷兩粵朝鮮傳》顏師古注開陵表名",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L416-L418",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "defa20130c3e1235164fab6d887a3f2b72894874b5658a6383ad028f356b344a",
+          "raw_quote": "及故粤建成侯敖與繇王居股謀俱殺餘善以其衆降¶\n横海軍封居股為東成侯萬户封敖為開陵侯(師古曰/功臣表)¶\n(云開陵侯建成以故東粤建成侯斬餘/善侯二千户而此𫝊云名敖疑表誤)封陽為印石侯¶",
+          "quote": "而此𫝊云名敖疑表誤",
+          "scope": "primary_commentary_reference_not_image_collation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "表以故東越建成侯與繇王斬餘善、封開陵列，與本傳建成侯敖相合；漢書顏注已疑表誤。原表建成保留，不將它當敖的確證本名。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "43i_62q_gf6",
+      "title": "開陵侯",
+      "surname": null,
+      "ming": "敖",
+      "additional_names": [
+        "建成侯"
+      ],
+      "chapter_id": "c-shiji-114-dongyue",
+      "paragraph_id": "c-shiji-114-dongyue:p009",
+      "quote": "故越衍侯吳陽前在漢，漢使歸諭餘善，餘善弗聽。及橫海將軍先至，越衍侯吳陽以其邑七百人反，攻越軍於漢陽。從建成侯敖，與其率，從繇王居股謀曰：「餘善首惡，劫守吾屬。今漢兵至，眾彊，計殺餘善，自歸諸將，儻幸得脫。」乃遂俱殺餘善，以其眾降橫海將軍，故封繇王居股為東成侯，萬戶；封建成侯敖為開陵侯；封越衍侯吳陽為北石侯；封橫海將軍說為案道侯；封橫海校尉福為繚嫈侯。福者，成陽共王子，故為海常侯，坐法失侯。舊從軍無功，以宗室故侯。諸將皆無成功，莫封。東越將多軍，漢兵至，棄其軍降，封為無錫侯。",
+      "references": [
+        {
+          "title": "漢書顏師古注",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L416-L418",
+          "source_commit": "683113d4baf6febecaf2ccb7913df87c4d68d454",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "defa20130c3e1235164fab6d887a3f2b72894874b5658a6383ad028f356b344a",
+          "raw_quote": "及故粤建成侯敖與繇王居股謀俱殺餘善以其衆降¶\n横海軍封居股為東成侯萬户封敖為開陵侯(師古曰/功臣表)¶\n(云開陵侯建成以故東粤建成侯斬餘/善侯二千户而此𫝊云名敖疑表誤)封陽為印石侯¶",
+          "quote": "而此𫝊云名敖疑表誤",
+          "scope": "primary_commentary_reference_not_image_collation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記・建元以來侯者年表》原列",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "scope": "received_table_person_identity",
+          "image_verified": false
+        }
+      ],
+      "note": "本傳建成侯敖及漢書注名敖作名；原表建成保留為來源讀法，不採作本名。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "43i_62q_gf6"
   ],
   "preferred_relations": [],
+  "date_ranges": [
+    {
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "status": "editorial_provisional",
+      "original_quote": "六。元年閏月癸卯，侯建成元年。",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c00",
+          "quote": "開陵。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c01",
+          "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r061-c06-m000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "開陵。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c00",
+          "scope": "received_table_fief_name",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "以故東越建成侯與繇王共斬東越王餘善功侯。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c01",
+          "scope": "received_table_merit",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "六。元年閏月癸卯，侯建成元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r061-c06",
+          "scope": "received_table_title_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元封元年。",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r097-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "110",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r097-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元封",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-6",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "earliest": {
+        "era": "BCE",
+        "era_year": 111,
+        "year": -110
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 110,
+        "year": -109
+      },
+      "basis": "regnal_year_crosses_ce_year",
+      "record_id": "th-table-shiji020-r061-founding-grant",
+      "person_id": "43i_62q_gf6",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "開陵侯"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

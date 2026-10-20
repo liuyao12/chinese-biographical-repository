@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {chapterReadingLayout,revealSourceTarget} from '../assets/reading-layout.js';
+import {sourcePassageURL,profileSourceContext,chapterParagraph} from '../assets/corpus-reader.js';
+const p={id:'p',text:'甲',mentions:[{id:'m',start:0,end:1,surface:'甲',kind:'person',person_id:'pid'}]};
+const c={paragraphs:[p,{id:'archive',text:'甲',mentions:[{...p.mentions[0],id:'old-m'}]}],reading_layout:{version:1,primary_paragraph_ids:['p'],archival_excerpts:[{paragraph_id:'archive'}]}};
+assert.equal(chapterReadingLayout(c).primary[0],p);assert.equal(chapterReadingLayout(c).archival[0].paragraph.id,'archive');
+assert.equal(chapterReadingLayout({paragraphs:[p]}).primary[0],p);
+for(const ids of [['missing'],['p','p'],[]])assert.throws(()=>chapterReadingLayout({...c,reading_layout:{...c.reading_layout,primary_paragraph_ids:ids}}));
+const root={querySelectorAll(){return[node,paragraph];}};const outer={tagName:'DETAILS',open:false,parentElement:root},inner={tagName:'DETAILS',open:false,parentElement:outer};let scrolled=0;
+const node={id:'old-m',parentElement:inner,scrollIntoView(){assert(outer.open&&inner.open);scrolled++;}},paragraph={id:'archive',parentElement:inner,scrollIntoView(){assert(outer.open&&inner.open);scrolled++;}};
+assert.equal(revealSourceTarget(root,c,new URLSearchParams({passage:'archive',mention:'old-m'})),node);assert.equal(scrolled,1);
+outer.open=inner.open=false;assert.equal(revealSourceTarget(root,c,new URLSearchParams({passage:'old-m'})),node);assert(outer.open&&inner.open);
+assert.equal(revealSourceTarget(root,c,new URLSearchParams({passage:'p',mention:'old-m'})),null);assert.equal(revealSourceTarget(root,c,new URLSearchParams({passage:'missing'})),null);
+const occurrence={work_id:'w-sanguozhi',chapter_id:'c',book_id:'b',paragraph_id:'p',paragraph_ids:['p','archive'],mention_ids:['m','old-m'],mention_paragraph_ids:{m:'p','old-m':'archive'},work_title:'三國志',title:'篇'};
+const returned=profileSourceContext({occurrences:[occurrence]},new URLSearchParams({work:'w-sanguozhi',chapter:'c',book:'b',passage:'archive',mention:'old-m'}));assert.match(returned.href,/passage=archive/);assert.match(returned.href,/mention=old-m/);
+const html=chapterParagraph(p,{}, {work_id:'w-sanguozhi',book_id:'b',chapter_id:'c',reading_layout:true});assert.match(html,/mention=m/);assert.match(html,/id="m"/);
+assert.match(chapterParagraph(p,{}, {work_id:'w-sanguozhi',book_id:'b',chapter_id:'c'}),/mention=m/);
+console.log('reading layout JS PASS: partition, nested disclosure, exact old ID, card return, legacy fallback');

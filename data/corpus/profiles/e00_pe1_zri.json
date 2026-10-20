@@ -33,7 +33,102 @@
           "surface": "閩越王",
           "person_mention_id": "c-shiji-114-dongyue:m001-0003",
           "usage": "narrative",
-          "date_expression": "漢五年"
+          "date_expression": "漢五年",
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
+            "year_numbering": "astronomical",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
+            "status": "editorial_provisional",
+            "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
+            "evidence": [
+              {
+                "chapter_id": "c-shiji-114-dongyue",
+                "source_id": "s-shiji114-dongyue",
+                "paragraph_id": "c-shiji-114-dongyue:p001",
+                "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              }
+            ],
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "高皇帝",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+              "digital_year_cell_id": "shiji-022-t1-r005-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "source_era_name": "漢",
+              "reign_designation": {
+                "kind": "same_person_source_and_table_designations",
+                "source_era_name": "漢",
+                "table_era_name": "高皇帝",
+                "person_id": "yqp_nlb_p1p_A",
+                "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+                "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+                "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+                "status": "editorial_provisional",
+                "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+                "human_reviewed": false
+              }
+            },
+            "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null
+          }
         }
       ],
       "effective_period": {
@@ -49,12 +144,20 @@
               "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
             }
           ],
-          "normalized_date": {
-            "era": "BCE",
-            "era_year": 202,
-            "year": -201,
+          "normalized_date_range": {
+            "earliest": {
+              "era": "BCE",
+              "era_year": 203,
+              "year": -202
+            },
+            "latest": {
+              "era": "BCE",
+              "era_year": 202,
+              "year": -201
+            },
             "year_numbering": "astronomical",
-            "precision": "year",
+            "precision": "year_range",
+            "basis": "regnal_year_crosses_ce_year",
             "status": "editorial_provisional",
             "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
             "evidence": [
@@ -67,16 +170,74 @@
             ],
             "references": [
               {
-                "title": "《資治通鑑》數位編輯年標",
-                "url": "https://zh.wikisource.org/wiki/資治通鑑/卷011",
-                "quote": "高帝五年（己亥，公元前二〇二年）",
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "高皇帝元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r001-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "五",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "202",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r005-c00",
                 "scope": "digital_editorial_regnal_year_equivalence_only",
                 "image_verified": false
               }
             ],
-            "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
+            "regnal_year_table": {
+              "kind": "table_year_row",
+              "table_id": "shiji-022",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-022",
+              "chapter_id": "table-chapter-shiji-022",
+              "source_id": "table-witness-shiji-022",
+              "source_revision": "2607038",
+              "era_name": "高皇帝",
+              "year_source_term": "五年",
+              "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+              "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+              "digital_year_cell_id": "shiji-022-t1-r005-c00",
+              "calendar_rule": "han_tenth_month_before_taichu",
+              "source_era_name": "漢",
+              "reign_designation": {
+                "kind": "same_person_source_and_table_designations",
+                "source_era_name": "漢",
+                "table_era_name": "高皇帝",
+                "person_id": "yqp_nlb_p1p_A",
+                "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+                "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+                "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+                "status": "editorial_provisional",
+                "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+                "human_reviewed": false
+              }
+            },
+            "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
             "reviewer": "Codex（AI 代理）",
-            "human_reviewed": false
+            "human_reviewed": false,
+            "model": null
           }
         },
         "end": {
@@ -87,7 +248,7 @@
       },
       "interpretation_note": "授受、文獻用稱與任期端點分存；日期限所屬敘事，未跨段套用。故侯與失侯保留原文事件，不以死亡自動終止所有爵位。",
       "reviewer": "Codex（AI 代理）",
-      "period": "西元前202年（暫定） → 未定"
+      "period": "西元前203至202年（暫定範圍） → 未定"
     }
   ],
   "addresses": [],
@@ -98,7 +259,71 @@
       "title": "東越列傳第五十四",
       "paragraph_id": "c-shiji-114-dongyue:p001",
       "count": 5,
-      "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無"
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無",
+      "paragraph_ids": [
+        "c-shiji-114-dongyue:p001",
+        "c-shiji-114-dongyue:p004"
+      ],
+      "mention_ids": [
+        "c-shiji-114-dongyue:m001-0003",
+        "c-shiji-114-dongyue:m001-0054",
+        "c-shiji-114-dongyue:m001-0104",
+        "c-shiji-114-dongyue:m001-0120",
+        "c-shiji-114-dongyue:m004-0247"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-114-dongyue:m001-0003": "c-shiji-114-dongyue:p001",
+        "c-shiji-114-dongyue:m001-0054": "c-shiji-114-dongyue:p001",
+        "c-shiji-114-dongyue:m001-0104": "c-shiji-114-dongyue:p001",
+        "c-shiji-114-dongyue:m001-0120": "c-shiji-114-dongyue:p001",
+        "c-shiji-114-dongyue:m004-0247": "c-shiji-114-dongyue:p004"
+      },
+      "mention_id": "c-shiji-114-dongyue:m001-0003",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m001-0003",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m001-0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m001-0054",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m001-0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m001-0104",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m001-0104"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m001-0120",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m001-0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-114-dongyue:m004-0247",
+          "mention_ids": [
+            "c-shiji-114-dongyue:m004-0247"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-114",
+      "chapter_id": "c-shiji-114-dongyue",
+      "source_id": "s-shiji114-dongyue",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -126,6 +351,29 @@
           "note": "太史公曰仍屬正文，未補此見證未載的索隱述贊。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [
@@ -133,7 +381,7 @@
       "id": "a-shiji114-001",
       "subject_person_id": "e00_pe1_zri",
       "predicate": "ancestor",
-      "object_person_id": "7ly_s1p_rqd",
+      "object_person_id": "i7a_22p_qda",
       "status": "source_attested",
       "evidence": [
         {
@@ -171,45 +419,11 @@
     }
   ],
   "related_people": {
-    "7ly_s1p_rqd": "句踐（東越列傳候選）",
     "e00_pe1_zri": "無諸（東越列傳候選）",
-    "e00_pe1_zri_*A": "丑（東越列傳候選）"
+    "e00_pe1_zri_*A": "丑（東越列傳候選）",
+    "i7a_22p_qda": "句踐"
   },
-  "dates": [
-    {
-      "era": "BCE",
-      "era_year": 202,
-      "year": -201,
-      "year_numbering": "astronomical",
-      "precision": "year",
-      "status": "editorial_provisional",
-      "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
-      "evidence": [
-        {
-          "chapter_id": "c-shiji-114-dongyue",
-          "source_id": "s-shiji114-dongyue",
-          "paragraph_id": "c-shiji-114-dongyue:p001",
-          "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
-        }
-      ],
-      "references": [
-        {
-          "title": "《資治通鑑》數位編輯年標",
-          "url": "https://zh.wikisource.org/wiki/資治通鑑/卷011",
-          "quote": "高帝五年（己亥，公元前二〇二年）",
-          "scope": "digital_editorial_regnal_year_equivalence_only",
-          "image_verified": false
-        }
-      ],
-      "rationale": "原文紀年及敘事皇帝語境換算；通鑑數位年標只供年份參考，未補月份與日。",
-      "reviewer": "Codex（AI 代理）",
-      "human_reviewed": false,
-      "record_id": "th-shiji114-001",
-      "person_id": "e00_pe1_zri",
-      "endpoint": "start",
-      "title": "閩越王"
-    }
-  ],
+  "dates": [],
   "name_components": [],
   "person_ids": [
     "e00_pe1_zri"
@@ -219,7 +433,7 @@
       "id": "a-shiji114-001",
       "subject_person_id": "e00_pe1_zri",
       "predicate": "ancestor",
-      "object_person_id": "7ly_s1p_rqd",
+      "object_person_id": "i7a_22p_qda",
       "status": "source_attested",
       "evidence": [
         {
@@ -254,6 +468,209 @@
       },
       "interpretation_note": "明記孫，保留兩代距離與未名父親，不與居股同爵合併。",
       "reviewer": "Codex（AI 代理）"
+    }
+  ],
+  "date_ranges": [
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 203,
+        "year": -202
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 202,
+        "year": -201
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p001",
+          "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r005-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "202",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r005-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "高皇帝",
+        "year_source_term": "五年",
+        "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+        "digital_year_cell_id": "shiji-022-t1-r005-c00",
+        "calendar_rule": "han_tenth_month_before_taichu",
+        "source_era_name": "漢",
+        "reign_designation": {
+          "kind": "same_person_source_and_table_designations",
+          "source_era_name": "漢",
+          "table_era_name": "高皇帝",
+          "person_id": "yqp_nlb_p1p_A",
+          "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+          "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+          "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+          "status": "editorial_provisional",
+          "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+          "human_reviewed": false
+        }
+      },
+      "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji114-001",
+      "person_id": "e00_pe1_zri",
+      "date_role": "title_period",
+      "endpoint": "start",
+      "title": "閩越王"
+    },
+    {
+      "earliest": {
+        "era": "BCE",
+        "era_year": 203,
+        "year": -202
+      },
+      "latest": {
+        "era": "BCE",
+        "era_year": 202,
+        "year": -201
+      },
+      "year_numbering": "astronomical",
+      "precision": "year_range",
+      "basis": "regnal_year_crosses_ce_year",
+      "status": "editorial_provisional",
+      "original_quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p001",
+          "quote": "閩越王無諸及越東海王搖者，其先皆越王句踐之後也，姓騶氏。秦已并天下，皆廢為君長，以其地為閩中郡。及諸侯畔秦，無諸、搖率越歸鄱陽令吳芮，所謂鄱君者也，從諸侯滅秦。當是之時，項籍主命，弗王，以故不附楚。漢擊項籍，無諸、搖率越人佐漢。漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功，曰閩君搖功多，其民便附，乃立搖為東海王，都東甌，世俗號為東甌王。"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "高皇帝元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r001-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "五",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r005-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "202",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r005-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        }
+      ],
+      "regnal_year_table": {
+        "kind": "table_year_row",
+        "table_id": "shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "source_id": "table-witness-shiji-022",
+        "source_revision": "2607038",
+        "era_name": "高皇帝",
+        "year_source_term": "五年",
+        "era_anchor_cell_id": "shiji-022-t1-r001-c01",
+        "regnal_year_cell_id": "shiji-022-t1-r005-c01",
+        "digital_year_cell_id": "shiji-022-t1-r005-c00",
+        "calendar_rule": "han_tenth_month_before_taichu",
+        "source_era_name": "漢",
+        "reign_designation": {
+          "kind": "same_person_source_and_table_designations",
+          "source_era_name": "漢",
+          "table_era_name": "高皇帝",
+          "person_id": "yqp_nlb_p1p_A",
+          "person_mention_id": "c-shiji-114-dongyue:m001-0143",
+          "table_person_mention_id": "shiji-022-t1-r001-c01-m000",
+          "source_context_quote": "漢五年，復立無諸為閩越王，王閩中故地，都東冶。孝惠三年，舉高帝時越功",
+          "status": "editorial_provisional",
+          "rationale": "漢五年授閩越王與後文追述高帝時越功相接，正文高帝及表內高皇帝的既有同人ID限定這次漢紀年；不作全書漢字替換，亦不由表元年推稱帝。",
+          "human_reviewed": false
+        }
+      },
+      "rationale": "原紀年漢五年保留；固定原年欄與數位年格分列。太初前十月歲首，原事未明月份或只明冬季，保留相鄰西元年範圍，不任填單年，不補公曆月日。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "record_id": "th-shiji114-001",
+      "attestation_id": "th-shiji114-001:a001",
+      "person_id": "e00_pe1_zri",
+      "date_role": "title_attestation",
+      "title": "閩越王",
+      "usage": "narrative"
     }
   ],
   "age_assertions": [],

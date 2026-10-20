@@ -2,7 +2,18 @@ import {readFileSync} from 'node:fs';
 import {setLocale} from '../assets/i18n.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards} from '../assets/cbr-person.js';
+import {markCell, personCard, profileURL, tableOccurrenceURL, personBundleURL, bindPersonCards, titleUsageHTML} from '../assets/cbr-person.js';
+test('a sourced clan appellation heads the profile while zi remains separate and ming unknown',()=>{
+ const name={surname:'鍾',ming:null,zi:'琰',clan_style:{value:'鍾氏'},quote:'鍾氏，字琰。',additional_names:[]};
+ const html=personCard({id:'synthetic-woman',label:'Synthetic woman',name_components:[name]},true);
+ assert.match(html,/<h1>鍾氏<\/h1>/);
+ assert.match(html.replace(/<[^>]*>/g,''),/字 琰/);
+ assert.doesNotMatch(html,/<h1>鍾琰<\/h1>/);
+});
+test('maternal grandfather retains the source relation with its own label',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',related_people:{'synthetic-grand':'Synthetic grandfather'},relations:[{subject_person_id:'synthetic-child',predicate:'grandfather',object_person_id:'synthetic-grand',qualifiers:{lineage:'maternal',source_term:'外祖'},evidence:[]}]};
+ assert.match(personCard(p,true),/外祖父/);
+});
 test('年表錨點保留原文並連至人物頁，拒絕錯位或交疊',()=>{
  const c={text:'張儀相。',person_mentions:[{start:0,end:2,surface:'張儀',person_id:'abc_def_123'}]};
  const html=markCell(c); assert.match(html,/張儀<\/a>相。/);assert.match(html,/person.html#abc_def_123/);
@@ -183,8 +194,45 @@ test('touch opens a card after the tap, while mouse hover and keyboard focus sti
     events.get('keydown')({key:'Escape'});assert.equal(card.hidden,true);
     keyboard=true;events.get('focusin')({type:'focusin',target});assert.equal(card.hidden,false);
     events.get('keydown')({key:'Escape'});
-    events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,false);
+    events.get('pointerover')({type:'pointerover',pointerType:'mouse',target});assert.equal(card.hidden,true);
+    events.get('pointermove')({type:'pointermove',pointerType:'mouse',target});assert.equal(card.hidden,false);
   } finally {dispose?.();globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
+});
+
+test('a clicked person remains selected through incidental mouse hover until closed or another click', async () => {
+  const savedDocument=globalThis.document, savedFetch=globalThis.fetch;
+  const events=new Map(), documentEvents=new Map(), closeButton={focus(){}}, profileButton={};
+  const card={hidden:true,setAttribute(){},remove(){},contains(){return false;},
+    querySelector(selector){return selector==='.person-profile-button'?profileButton:closeButton;}};
+  const ownerDocument={createElement:()=>card,addEventListener(k,v){documentEvents.set(k,v);},removeEventListener(k){documentEvents.delete(k);}};
+  const root={ownerDocument,append(){},addEventListener(k,v){events.set(k,v);},removeEventListener(){}};
+  let keyboard=false;
+  const node=id=>({dataset:{personId:id},href:'person.html#'+id,matches:()=>keyboard});
+  const chosen=node('synthetic_pinned_chosen'), incidental=node('synthetic_pinned_incidental');
+  const hover=n=>events.get('pointerover')({type:'pointerover',pointerType:'mouse',target:{closest:()=>n}});
+  const click=n=>events.get('click')({target:{closest:()=>n},preventDefault(){},stopPropagation(){}});
+  const settle=()=>new Promise(resolve=>setImmediate(resolve));
+  globalThis.document=ownerDocument;
+  globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  let dispose;
+  try {
+    dispose=bindPersonCards(root);
+    hover(incidental);await settle();
+    click(chosen);hover(incidental);await settle();
+    assert.equal(profileButton.href,chosen.href);
+    events.get('pointerout')({pointerType:'mouse',relatedTarget:null});
+    await new Promise(resolve=>setTimeout(resolve,280));
+    assert.equal(card.hidden,false);
+    click(incidental);await settle();assert.equal(profileButton.href,incidental.href);
+    keyboard=true;events.get('focusin')({type:'focusin',target:{closest:()=>chosen}});
+    await settle();assert.equal(profileButton.href,chosen.href);keyboard=false;
+    closeButton.onclick();assert.equal(card.hidden,true);
+    hover(chosen);await settle();assert.equal(card.hidden,true);
+    events.get('pointermove')({type:'pointermove',pointerType:'mouse',target:{closest:()=>chosen}});
+    await settle();assert.equal(profileButton.href,chosen.href);assert.equal(card.hidden,false);
+    documentEvents.get('keydown')({key:'Escape'});assert.equal(card.hidden,true);
+    assert.equal(events.has('keydown'),false);
+  } finally {dispose?.();assert.equal(documentEvents.size,0);globalThis.document=savedDocument;globalThis.fetch=savedFetch;}
 });
 
 
@@ -346,4 +394,267 @@ test('distinct people retain separate profile links and escaped source evidence'
 test('people without distinction data omit the section',()=>{
  assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[]},true),/person-identity-distinctions/);
  assert.doesNotMatch(personCard({id:'abc_def_123',label:'某人',names:[],identity_distinctions:[]},true),/person-identity-distinctions/);
+});
+
+test('native table profile links only the matching fixed witness and rejects unsafe URLs', () => {
+ const evidence={kind:'table_cell',table_id:'shiji-022',table_cell_id:'synthetic-cell',work_id:'w-shiji',book_id:'b-shiji-022',chapter_id:'table-chapter-shiji-022',source_id:'synthetic-witness',source_revision:'42',quote:'synthetic quotation'};
+ const witness={work_id:evidence.work_id,book_id:evidence.book_id,chapter_id:evidence.chapter_id,source_id:evidence.source_id,source:{revision:'42',revision_url:'https://example.com/?oldid=42'}};
+ const profile={id:'abc_def_123',label:'synthetic person',name_components:[{...evidence,title:'synthetic rank',ming:'synthetic name'}],sources:[witness]};
+ setLocale('zh-Hant');assert.match(personCard(profile,true),/person-fixed-table-source/);assert.match(personCard(profile,true),/固定來源版本/);
+ setLocale('en');assert.match(personCard(profile,true),/Fixed source revision/);setLocale('zh-Hant');
+ for(const change of [{source:{...witness.source,revision:'43'}},{chapter_id:'different-chapter'},{source:{revision:'42',revision_url:'javascript:alert(1)'}}]){
+  assert.doesNotMatch(personCard({...profile,sources:[{...witness,...change}]},true),/class="person-fixed-table-source"/);
+ }
+});
+
+test('cross-cell family evidence keeps parent label and child name as separate quotations and links', () => {
+ const e={kind:'table_cell',table_id:'shiji-021',table_cell_id:'synthetic-parent-cell',subject_table_cell_id:'synthetic-child-cell',quote:'synthetic parent label <tag>',subject_quote:'synthetic child name <tag>'};
+ const family={ancestors:[[{id:'xyz_abc_456',label:'synthetic father',evidence:[e]}],[],[]],mother:[],spouses:[],children:[]};
+ const profile={id:'abc_def_123',label:'synthetic child'};
+ setLocale('zh-Hant');const html=personCard(profile,true,'main',family);
+ assert.match(html,/synthetic parent label &lt;tag&gt;/);assert.match(html,/class="person-table-subject-quote"/);assert.match(html,/synthetic child name &lt;tag&gt;/);assert.match(html,/cell=synthetic-parent-cell/);assert.match(html,/cell=synthetic-child-cell/);assert.match(html,/同列姓名/);assert.doesNotMatch(html,/<tag>/);
+ setLocale('en');assert.match(personCard(profile,true,'main',family),/Name in same row/);setLocale('zh-Hant');
+});
+
+test('name evidence displays the chosen source as well as the separately marked alternative', () => {
+ const n={title:'synthetic title',ming:'synthetic name',quote:'synthetic received sentence',note:'synthetic preference reason',references:[{quote:'chosen component quote <tag>',title:'chosen source',url:'https://example.com/chosen'},{quote:'unsafe source quote',url:'javascript:alert(1)'}],component_alternatives:[{components:{surname:'synthetic surname',ming:'synthetic alternative'},reference:{quote:'alternative component quote',title:'alternative source',url:'https://example.com/alternative'}}]};
+ const html=personCard({id:'abc_def_123',label:'synthetic person',name_components:[n]},true);
+ assert.match(html,/chosen component quote &lt;tag&gt;/);assert.match(html,/href="https:\/\/example.com\/chosen"/);assert.match(html,/alternative component quote/);assert.match(html,/未採為預設/);assert.doesNotMatch(html,/href="javascript:|<tag>/);
+});
+
+// Synthetic title-use records: they do not assert historical facts.
+test('source title use shows a date window without inventing effective tenure', () => {
+ const a={date_expression:'元封二年',normalized_date_range:{earliest:{era:'BCE',era_year:110},latest:{era:'BCE',era_year:109}}};
+ const html=titleUsageHTML([{attestation:a}]);assert.match(html,/來源用稱/);assert.match(html,/元封二年/);assert.match(html,/110至109/);assert.doesNotMatch(html,/始於|止於|用稱紀年依據/);
+ assert.equal(titleUsageHTML([{attestation:{}}]),'');
+});
+test('source title use deduplicates matching evidence and escapes untrusted text and links', () => {
+ const u={attestation:{date_expression:'<img>',normalized_date:{era:'BCE',era_year:109,references:[{quote:'<script>',url:'javascript:alert(1)',title:'unsafe'}]}},evidence:[{quote:'<svg>',chapter_id:'c-shiji-115-chaoxian',paragraph_id:'c-shiji-115-chaoxian:p003'}]};
+ const html=titleUsageHTML([u,u],true);assert.equal((html.match(/class="person-title-usage"/g)||[]).length,1);assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;svg&gt;/);assert.match(html,/&lt;script&gt;/);assert.doesNotMatch(html,/href="javascript:/);assert.match(html,/chapter=115/);
+});
+test('grouped titles preserve each source use and keep grant records separate', () => {
+ const title=expression=>({title:'測試官',kind:'office',mode:'attestation',period:'未定 → 未定',attestations:[{date_expression:expression}],evidence:[]});
+ const p={id:'abc_def_123',label:'測試人物',titles:[title('甲年'),title('乙年')]};
+ const html=personCard(p,true);assert.match(html,/來源用稱：甲年/);assert.match(html,/來源用稱：乙年/);assert.doesNotMatch(html,/始於|止於/);
+ assert.doesNotMatch(personCard({...p,titles:[{...title('甲年'),mode:'grant'}]},true),/來源用稱/);
+});
+
+test('source title use keeps fixed table witness links on the full profile', () => {
+ const source={source_id:'synthetic-table-source',work_id:'w-shiji',source:{revision:123,revision_url:'https://example.org/fixed-table?oldid=123'}};
+ const evidence={kind:'table_cell',table_id:'shiji-020',table_cell_id:'synthetic-cell',source_id:source.source_id,work_id:'w-shiji',source_revision:123,quote:'合成用稱原文'};
+ const p={id:'abc_def_123',label:'合成人物',sources:[source],titles:[{title:'合成稱號',mode:'attestation',period:'未定 → 未定',attestations:[{date_expression:'合成年'}],evidence:[evidence]}]};
+ const html=personCard(p,true);assert.match(html,/來源用稱：合成年/);assert.match(html,/class="person-fixed-table-source" href="https:\/\/example.org\/fixed-table\?oldid=123"/);
+});
+
+test('agreed appointment with unreported outcome is shown separately from actual titles', () => {
+ const proposal={title:'令',proposal_kind:'agreed_appointment',outcome:'not_reported',interpretation_note:'合成安排，不推履任。',evidence:[{quote:'合成約定使其子為令',chapter_id:'c-shiji-116-xinanyi',paragraph_id:'c-shiji-116-xinanyi:p003'}]};
+ const p={id:'abc_def_123',label:'合成未名者',title_proposals:[proposal]};const html=personCard(p,true);
+ assert.match(html,/person-appointment-arrangements/);assert.match(html,/實行情況未載/);assert.match(html,/合成約定使其子為令/);assert.match(html,/chapter=116/);assert.doesNotMatch(html,/class="person-title"|擬議而未授/);
+ assert.doesNotMatch(personCard(p),/person-appointment-arrangements/);assert.doesNotMatch(personCard({...p,title_proposals:[]},true),/person-appointment-arrangements/);
+});
+test('agreed appointment evidence and notes are escaped', () => {
+ const html=personCard({id:'abc_def_123',label:'合成人物',title_proposals:[{title:'<img>',proposal_kind:'agreed_appointment',outcome:'not_reported',interpretation_note:'<script>',evidence:[{quote:'<svg>'}]}]},true);
+ assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;script&gt;/);assert.match(html,/&lt;svg&gt;/);assert.doesNotMatch(html,/<script>|<svg>|<img>/);
+});
+test('textual variant study references retain scope and do not invent dates', () => {
+ const v={received_reading:'甲',reported_reading:'乙',commentator:'合成注家',quote:'合成引句',url:'https://example.org/primary',study_references:[{display_title:'合成考證',display_author:'合成作者',url:'https://example.org/study',publication_year:null,reviewed_scope:'只讀摘頁',opinion_validation:'not_attempted'}]};
+ const p={id:'abc_def_123',label:'合成人物',reported_variants:[v]};const html=personCard(p,true);assert.match(html,/person-study-references/);assert.match(html,/合成考證/);assert.match(html,/只讀摘頁/);assert.match(html,/研究意見未獨立驗證/);assert.doesNotMatch(html,/（null）/);
+ v.study_references=[{display_title:'<svg>',url:'javascript:alert(1)',reference_note:'<script>'}];const safe=personCard(p,true);assert.match(safe,/&lt;svg&gt;/);assert.match(safe,/&lt;script&gt;/);assert.doesNotMatch(safe,/href="javascript:/);
+});
+test('courtesy and early given names have typed labels and retain source characters in both languages', () => {
+ const n={title:null,surname:'司馬',ming:'相如',zi:'長卿',former_ming:'犬子',additional_names:['長卿','犬子']};const p={id:'abc_def_123',label:'合成測試',name_components:[n]};
+ try {
+  setLocale('zh-Hant');const zh=personCard(p,true);assert.match(zh,/<h1>司馬相如<\/h1>/);assert.match(zh,/data-i18n="Courtesy name">字/);assert.match(zh,/data-i18n="Former given name">初名/);assert.match(zh,/長卿/);assert.match(zh,/犬子/);
+  setLocale('en');const en=personCard(p,true);assert.match(en,/Courtesy name/);assert.match(en,/Former given name/);assert.match(en,/<h1>司馬相如<\/h1>/);assert.match(en,/長卿/);assert.match(en,/犬子/);assert.equal(n.additional_names[0],'長卿');
+ } finally {setLocale('zh-Hant');}
+});
+test('an untyped alias does not invent courtesy or earlier-name labels and remains escaped', () => {
+ const html=personCard({id:'abc_def_123',label:'合成人物',name_components:[{surname:null,ming:'某',additional_names:['<img>']} ]},true);assert.match(html,/&lt;img&gt;/);assert.doesNotMatch(html,/<img>|data-i18n="Courtesy name"|data-i18n="Former given name"/);
+});
+
+test('unrelated pointer exits and stale hide timers cannot close a newly hovered person', async()=>{
+  const saved={document:globalThis.document,fetch:globalThis.fetch,setTimeout:globalThis.setTimeout,clearTimeout:globalThis.clearTimeout};
+  const events=new Map(),pending=new Map();let sequence=0;
+  const button={focus(){}},profile={};
+  const card={hidden:true,setAttribute(){},remove(){},contains(n){return n===this;},querySelector(s){return s==='.person-profile-button'?profile:button;}};
+  const root={append(){},addEventListener(k,v){events.set(k,v);},removeEventListener(){}};
+  const node=id=>({dataset:{personId:id},href:'person.html#'+id,matches:()=>false});
+  const first=node('synthetic_timer_first'),next=node('synthetic_timer_next');
+  const hover=n=>events.get('pointerover')({type:'pointerover',pointerType:'mouse',target:{closest:()=>n}});
+  const exit=n=>events.get('pointerout')({pointerType:'mouse',target:{closest:()=>n},relatedTarget:null});
+  const settle=()=>new Promise(resolve=>setImmediate(resolve));
+  let dispose;
+  globalThis.document={createElement:()=>card};globalThis.fetch=async url=>({ok:true,json:async()=>({id:decodeURIComponent(url.split('/').pop().slice(0,-5)),label:'synthetic person'})});
+  globalThis.setTimeout=callback=>{const id=++sequence;pending.set(id,callback);return id;};globalThis.clearTimeout=id=>pending.delete(id);
+  try {
+    dispose=bindPersonCards(root);
+    exit(null);exit(null);assert.equal(pending.size,0,'summary exits must not start person-card timers');
+    hover(first);await settle();exit(first);exit(first);assert.equal(pending.size,1,'successive exits share one cancellable timer');
+    hover(next);await settle();for(const callback of pending.values())callback();
+    assert.equal(card.hidden,false);assert.equal(profile.href,next.href);
+  } finally {dispose?.();Object.assign(globalThis,saved);}
+});
+
+test('approximate source ages are labelled as approximations in both interface languages',()=>{
+ const p={id:'synthetic-person',label:'合成人',age_assertions:[{person_id:'synthetic-person',value:null,source_number:'七八',source_term:'皆七八歲',approximation:{kind:'adjacent_age_numbers',numbers:[7,8]},evidence:[{paragraph_id:'synthetic-paragraph',quote:'合成測試：皆七八歲'}]}]};const before=JSON.stringify(p);
+ try {
+  for(const full of [false,true]){
+   setLocale('zh-Hant');let html=personCard(p,full);assert.match(html,/七八歲（<span[^>]*data-i18n="Source age approximation"[^>]*>來源約數/);assert.match(html,/合成測試：皆七八歲/);assert.doesNotMatch(html,/7[–-]8|享年|出生年/);
+   setLocale('en');html=personCard(p,full);assert.match(html,/Source age approximation/);assert.match(html,/七八歲/);
+  }
+ }finally{setLocale('zh-Hant');}
+ assert.equal(JSON.stringify(p),before);
+});
+
+test('unsegmented source names render whole with original spelling below, without invented components',()=>{
+ const p={id:'synthetic-person',label:'合成舊標籤',name_components:[{full_name:'合成姓名',surname:null,ming:null,title:null,additional_names:['合成異文'],quote:'合成史料引句',references:[],note:'不拆姓與名'}]};const before=JSON.stringify(p);
+ for(const full of [false,true]){const html=personCard(p,full);assert.match(html,new RegExp('<h'+(full?1:3)+'>合成姓名</h'));assert.match(html,/person-aliases/);assert.match(html,/合成異文/);assert.doesNotMatch(html,/null|undefined/);}
+ assert.equal(JSON.stringify(p),before);
+});
+
+test('acting office is explicit and kept separate from an undifferentiated office',()=>{
+ const source=JSON.parse(readFileSync(new URL('../corpus/shiji/118-titles.json',import.meta.url),'utf8'));
+ const acting=source.holdings.find(h=>h.id==='th-shiji118-fengjing-acting-yushi');const regular={...acting,id:'synthetic-regular',appointment_role:undefined,punctuation_attribution:undefined};
+ const p={id:'synthetic-person',label:'合成測試',titles:[acting,regular]};const html=personCard(p,true);assert.equal((html.match(/class="person-title"/g)||[]).length,2);assert.match(html,/person-acting-office/);assert.match(html,/代理任事/);assert.match(html,/官職句讀判讀/);assert.match(html,/典客臣馮敬行御史大夫事、宗正臣逸/);assert.match(html,/683113d4baf6febecaf2ccb7913df87c4d68d454/);
+ assert.doesNotMatch(personCard(p),/person-office-attribution/);
+});
+test('office punctuation evidence escapes text and refuses script URLs',()=>{
+ const a={received_segment:'<script>bad</script>',preferred_segmentation:'<img>',rationale:'<b>',references:[{url:'javascript:alert(1)',quote:'<svg>',title:'<i>'}]};const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'合成官',appointment_role:'acting',punctuation_attribution:a,evidence:[]}]},true);assert.match(html,/&lt;script&gt;/);assert.match(html,/&lt;svg&gt;/);assert.doesNotMatch(html,/href="javascript:|<img>|<svg>/);
+});
+test('acting label changes language without translating source office wording',()=>{
+ try{setLocale('en');const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'御史大夫',appointment_role:'acting'}]});assert.match(html,/Acting appointment/);assert.match(html,/御史大夫/);}finally{setLocale('zh-Hant');}
+});
+
+test('title chronology retains a readable alternative chapter and fixed primary evidence',()=>{
+ const data=JSON.parse(readFileSync(new URL('../corpus/shiji/118-titles.json',import.meta.url),'utf8'));const h=data.holdings.find(h=>h.id==='th-shiji118-xi-chengyang-return');const p={id:'synthetic-person',label:'合成測試',titles:[h]};const html=personCard(p,true);assert.match(html,/稱號紀年來源判讀/);assert.match(html,/孝文十六年/);assert.match(html,/四年，復還王城陽/);assert.match(html,/chapter=52/);assert.match(html,/KR2a0007_038/);assert.doesNotMatch(personCard(p),/person-title-chronology-choice/);
+});
+test('title chronology escapes source alternatives and rejects executable links',()=>{
+ const c={preferred_source_expression:'<x>',alternative_source_term:'<img>',alternative_evidence:{quote:'<svg>'},rationale:'<script>',references:[{quote:'<iframe>',url:'javascript:alert(1)',title:'bad'}]};const html=personCard({id:'synthetic-person',label:'合成測試',titles:[{title:'王',evidence:[],chronology_source_choice:c}]},true);assert.match(html,/&lt;img&gt;/);assert.match(html,/&lt;iframe&gt;/);assert.doesNotMatch(html,/href="javascript:|<svg>|<img>/);
+});
+
+test('unadopted distant ancestry remains readable as a source claim on the full profile',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',related_people:{'synthetic-ancestor':'Synthetic remote ancestor'},relations:[{subject_person_id:'synthetic-child',object_person_id:'synthetic-ancestor',predicate:'ancestor',qualifiers:{adopted_for_family_tree:false,source_term:'Synthetic received genealogy claim'},evidence:[{quote:'Synthetic received genealogy claim'}]}]};
+ const html=personCard(p,true);
+ assert.match(html,/person-unadopted-ancestry/);
+ assert.match(html,/Synthetic remote ancestor/);
+ assert.match(html,/Synthetic received genealogy claim/);
+ assert.doesNotMatch(html,/class="person-family"/);
+});
+
+test('an aunt cousin uses a symmetric display label while the original younger-cousin term remains cited',()=>{
+ const p={id:'younger',label:'Synthetic younger',related_people:{older:'Synthetic older'},relations:[
+  {subject_person_id:'younger',predicate:'maternal_cousin',object_person_id:'older',qualifiers:{source_term:'姨弟',kinship_structure:{lineage:'maternal',maternal_path:'mother_sister_son',subject_relative_age:'younger'}},evidence:[]} ]};
+ const html=personCard(p,true);
+ assert.match(html,/母系姨表親/);
+ assert.match(html,/<p>姨弟<\/p>/);
+ assert.doesNotMatch(html,/· 姨弟：/);
+ assert.doesNotMatch(html,/class="person-family"/);
+});
+
+test('the received courtesy-name label does not replace the separately sourced full given name',()=>{
+ const records=JSON.parse(readFileSync(new URL('../data/corpus/profile-names.json',import.meta.url),'utf8')).records;
+ const name=records.find(n=>n.surname==='王'&&n.ming==='裕之'&&n.zi==='敬弘');
+ assert(name);
+ const html=personCard({id:name.person_id,label:'王敬弘',name_components:[name]},true);
+ assert.match(html,/<h1>文貞公 王裕之<\/h1>/);
+ assert.match(html.replace(/<[^>]*>/g,''),/字 敬弘/);
+ assert.doesNotMatch(html,/<h1>王裕<\/h1>|<h1>王敬弘<\/h1>/);
+});
+
+test('an appointment not taken up is distinct from a proposal and does not turn a source usage into service',()=>{
+ const c=JSON.parse(readFileSync(new URL('../corpus/jinshu/076.json',import.meta.url),'utf8'));
+ const appointments=c.annotation.title_proposals;
+ const usage=JSON.parse(readFileSync(new URL('../corpus/songshu/066-titles.json',import.meta.url),'utf8')).holdings.find(h=>h.title==='司州刺史');
+ const html=personCard({id:usage.person_id,label:'Synthetic received-office reader',title_proposals:appointments,titles:[usage,{...usage,id:'different-phase',mode:'grant'}]},true);
+ assert.match(html,/person-unassumed-appointments/);
+ assert.match(html,/辭讓／未赴任記錄/);
+ assert.match(html,/以疾固辭，未行而卒/);
+ assert.doesNotMatch(html,/class="person-title-proposals"/);
+ assert.equal((html.match(/class="person-unassumed-office"/g)||[]).length,1);
+ assert.match(html,/另見未赴任記載/);
+ const brief=personCard({id:usage.person_id,label:'Synthetic source usage',title_proposals:appointments,titles:[usage]});
+ assert.match(brief,/另見未赴任記載/);
+ assert.doesNotMatch(brief,/person-unassumed-appointments/);
+});
+
+test('new appointment and maternal labels switch language without changing source terms',()=>{
+ try {
+  setLocale('en');
+  const c=JSON.parse(readFileSync(new URL('../corpus/jinshu/076.json',import.meta.url),'utf8'));
+  const q=c.annotation.title_proposals;
+  const usage=JSON.parse(readFileSync(new URL('../corpus/songshu/066-titles.json',import.meta.url),'utf8')).holdings.find(h=>h.title==='司州刺史');
+  const html=personCard({id:usage.person_id,label:'Synthetic person',titles:[usage],title_proposals:q,relations:[
+   {subject_person_id:'synthetic-younger',predicate:'maternal_cousin',object_person_id:'synthetic-older',qualifiers:{source_term:'姨弟'},evidence:[]} ]},true);
+  assert.match(html,/Declined or unassumed appointments/);
+  assert.match(html,/Separate record of appointment not taken up/);
+  assert.match(html,/Maternal aunt cousin/);
+  assert.match(html,/司州刺史/);
+  assert.match(html,/以疾固辭，未行而卒/);
+  assert.match(html,/<p>姨弟<\/p>/);
+ } finally {setLocale('zh-Hant');}
+});
+
+test('junior collateral source points to a senior generation without treating it as father',()=>{
+ const p={id:'junior',label:'Junior',related_people:{junior:'Junior',senior:'Senior'},relations:[{subject_person_id:'junior',predicate:'agnatic_senior_kin',object_person_id:'senior',qualifiers:{source_term:'從子傭',kinship_structure:{generation_difference:-1,subject_relative_age:'unknown'}},evidence:[]}]};
+ const html=personCard(p,true);assert.match(html,/父系長一輩旁親/);assert.match(html,/從子傭/);
+});
+test('a source-ordered sister relation labels the object correctly',()=>{
+ const p={id:'younger',label:'Younger',related_people:{younger:'Younger',older:'Older'},relations:[{subject_person_id:'younger',predicate:'sister',object_person_id:'older',qualifiers:{source_term:'姊妹四人',relative_birth_order:{older_person_id:'older',younger_person_id:'younger',operator:'lt'}},evidence:[]}]};
+ assert.match(personCard(p,true).replace(/<[^>]*>/g,''),/Younger · 姊：Older/);
+});
+
+test('care and ritual succession have separate readable labels in both languages',()=>{
+ const p={id:'child',label:'Synthetic child',related_people:{care:'Synthetic caregiver',prior:'Synthetic predecessor'},relations:[
+  {subject_person_id:'child',predicate:'raised_by',object_person_id:'care',qualifiers:{source_term:'虞妃養之',legal_adoption_status:'not_stated'},evidence:[]},
+  {subject_person_id:'child',predicate:'ritual_successor_of',object_person_id:'prior',qualifiers:{source_term:'嗣恭王后',parentage_inference:'not_inferred'},evidence:[]}]};
+ try{
+  setLocale('zh-Hant');const zh=personCard(p,true);assert.match(zh,/撫養人/);assert.match(zh,/所繼者/);assert.match(zh,/虞妃養之/);assert.doesNotMatch(zh,/· 父：|· 生母：|&lt;span/);
+  setLocale('en');const en=personCard(p,true);assert.match(en,/Caregiver/);assert.match(en,/Ritual predecessor/);assert.match(en,/虞妃養之/);assert.match(en,/嗣恭王后/);
+ }finally{setLocale('zh-Hant');}
+});
+
+test('chuji family rows show separate parents and disappear when absent in both locales',()=>{
+ const p={id:'synthetic-child',label:'Synthetic child',relations:[]};
+ const entry=id=>({id,label:id,evidence:[]});
+ const family={ancestors:[[entry('birth')],[],[]],mother:[],spouses:[],children:[],adoptive_father:[entry('adoptive')]};
+ try {
+  setLocale('zh-Hant');
+  const zh=personCard(p,true,'main',family);
+  assert.match(zh,/<dt>父<\/dt>/);assert.match(zh,/<dt>出繼父<\/dt>/);
+  assert.doesNotMatch(zh,/<dt>出繼子女<\/dt>/);
+  setLocale('en');
+  assert.match(personCard(p,true,'main',family),/Adoptive father \(source-attested chuji\)/);
+  assert.doesNotMatch(personCard(p,true,'main',{...family,adoptive_father:[]}),/Adoptive father/);
+ } finally {setLocale('zh-Hant');}
+});
+
+test('former marriage has a readable sourced divorce note in both languages',()=>{
+ const p={id:'synthetic-person',label:'Synthetic person'};
+ const family={ancestors:[[],[],[]],mother:[],children:[],spouses:[{id:'synthetic-former-spouse',label:'Former spouse',evidence:[],marriage_status:'source_attested_divorce'}]};
+ try {
+  setLocale('zh-Hant');assert.match(personCard(p,true,'main',family),/離婚（據原文）/);
+  setLocale('en');assert.match(personCard(p,true,'main',family),/Divorced \(source-attested\)/);
+ } finally {setLocale('zh-Hant');}
+});
+
+test('event-specific title chronology choice shows preference and preserves the other source',()=>{
+ const boundary=(year,expression)=>({status:'source_event',date_expression:expression,normalized_date:{year,era:'CE',era_year:year,precision:'year'}});
+ const preferred={id:'synthetic-preferred',title:'Synthetic office',period:'480 onward',effective_period:{start:boundary(480,'建元二年')},evidence:[],chronology_preference:{preferred_holding_id:'synthetic-preferred',candidate_holding_ids:['synthetic-preferred','synthetic-alternate'],rationale:'Synthetic <unsafe> reason'}};
+ const alternate={id:'synthetic-alternate',title:'Synthetic office',period:'479 onward',effective_period:{start:boundary(479,'建元元年')},evidence:[{quote:'Synthetic alternative quotation'}]};
+ const p={id:'synthetic-person',label:'Synthetic person',titles:[preferred,alternate]};
+ try {
+  setLocale('zh-Hant');const full=personCard(p,true);
+  assert.match(full,/首選紀年（暫定）/);assert.match(full,/建元二年/);assert.match(full,/建元元年/);
+  assert.match(full,/Synthetic alternative quotation/);assert.match(full,/&lt;unsafe&gt;/);assert.ok(full.indexOf('person-title-preferred-date')<full.indexOf('筆來源證據'));
+  assert.match(personCard(p,false),/首選紀年（暫定）/);
+  setLocale('en');assert.match(personCard(p,true),/Provisional preferred date/);
+ } finally {setLocale('zh-Hant');}
+});
+
+
+test('source-backed customary titles head the new Wang profiles',()=>{
+ for (const [id,title,ming] of [['7r6_k52_qji_ABDABAA','文貞公','裕之'],['7r6_k52_qji_ABDABAACA','簡子','延之'],['7r6_k52_qji_ABDABAAB','貞子','瓚之']]) {
+  const p=JSON.parse(readFileSync(new URL('../data/corpus/profiles/'+id+'.json',import.meta.url),'utf8'));
+  const heading=personCard(p,true).match(/<h1>([\s\S]*?)<\/h1>/)?.[1];assert(heading);assert(heading.includes(title));assert(heading.includes(ming));
+ }
 });

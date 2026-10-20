@@ -1,3 +1,4 @@
+import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
 export function chapterURL(number, category = '', passage = '') {
   const p = new URLSearchParams({chapter: String(number)});
@@ -11,20 +12,33 @@ export function sourcePassageURL(source) {
     const params = new URLSearchParams({work:source.work_id, chapter:source.chapter_id});
     if (source.book_id) params.set('book',source.book_id);
     if (source.paragraph_id) params.set('passage',source.paragraph_id);
+    if (source.mention_id) params.set('mention',source.mention_id);
     return 'reader.html#'+params;
   }
   const number = source.number || Number(/shiji-(\d{3})/.exec(source.chapter_id || '')?.[1]);
   return number ? chapterURL(number,source.category || '',source.paragraph_id || '') : '';
 }
 export function profileSourceContext(person, params) {
+  const table=nativeProfileReturn(person,params);
+  if(table)return table;
   const work=params.get('work');
+  if (!work && !params.toString()) {
+    const principal=[...(person.occurrences || [])].sort((a,b)=>(b.count || 0)-(a.count || 0))[0];
+    if (principal?.work_id && principal.work_id!=='w-shiji') {
+      return profileSourceContext(person,new URLSearchParams({work:principal.work_id,
+        book:principal.book_id,chapter:principal.chapter_id,passage:principal.paragraph_id}));
+    }
+  }
   if (!work || work==='w-shiji') return null;
   const occurrence=(person.occurrences || []).find(x=>x.work_id===work
     && x.chapter_id===params.get('chapter') && (!params.has('book') || x.book_id===params.get('book')));
   if (!occurrence) return null;
   const requested=params.get('passage');
   const passage=occurrence.paragraph_ids?.includes(requested)?requested:occurrence.paragraph_id;
-  const href=sourcePassageURL({...occurrence,paragraph_id:passage});
+  const requestedMention=params.get('mention') || (occurrence.mention_ids?.includes(requested)?requested:null);
+  const mention=requestedMention && occurrence.mention_ids?.includes(requestedMention)?requestedMention:null;
+  const actualPassage=mention?occurrence.mention_paragraph_ids?.[mention] || passage:passage;
+  const href=sourcePassageURL({...occurrence,paragraph_id:actualPassage,mention_id:mention});
   return href?{href,text:`回到《${occurrence.work_title}·${occurrence.title}》 →`}:null;
 }
 export function chapterParagraph(paragraph, people = {}, context = null) {
@@ -40,15 +54,21 @@ export function chapterParagraph(paragraph, people = {}, context = null) {
       const params = context?.work_id && context.work_id !== 'w-shiji'
         ? new URLSearchParams({work:context.work_id,book:context.book_id,chapter:context.chapter_id,passage:paragraph.id})
         : number ? new URLSearchParams({chapter:String(number),passage:paragraph.id}) : null;
+      if(params && context?.work_id && context.work_id !== 'w-shiji')params.set('mention',mention.id);
       const href = 'person.html' + (params ? '?'+params : '') + '#' + encodeURIComponent(mention.person_id);
       fragments.push(`<a id="${h(mention.id)}" class="cbr-person-link" data-person-id="${h(mention.person_id)}" href="${h(href)}" title="${h(person?.label || mention.surface)}">${text}</a>`);
     } else if (mention.kind === 'work' && mention.work_id && mention.person_id == null) {
       fragments.push(`<cite id="${h(mention.id)}" class="cbr-work-mention" data-work-id="${h(mention.work_id)}" title="著作：${text}">${text}</cite>`);
+    } else if (mention.kind === 'non_person' && mention.person_id == null) {
+      fragments.push(`<span id="${h(mention.id)}" class="cbr-non-person" data-lexical-role="${h(mention.lexical_role)}" title="${h(mention.interpretation_note)}">${text}</span>`);
     } else fragments.push(`<span id="${h(mention.id)}" class="unresolved-mention" title="${h(mention.interpretation_note || '未定指稱')}">${text}</span>`);
     end = mention.end;
   }
   fragments.push(h(chars.slice(end).join('')));
-  return `<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
+  const layerLabels={witness_appended_lixian_note:'唐・李賢注',witness_appended_liuban_collation:'宋・劉攽校',witness_appended_qing_siku_collation:'清・四庫考證'};
+  const label=layerLabels[paragraph.text_layer];
+  const layerLabel=label?`<div class="corpus-text-layer" data-text-layer-label="${h(paragraph.text_layer)}">${h(label)}</div>`:'';
+  return layerLabel+`<p id="${h(paragraph.id)}" data-source-text>${fragments.join('')}</p>`;
 }
 export function filteredChapters(index, category, query = '') {
   const term = query.trim();

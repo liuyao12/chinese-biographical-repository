@@ -5,7 +5,7 @@
   "assertions": [
     {
       "id": "pa-shiji114-001",
-      "person_id": "qfq_48j_lpj",
+      "person_id": "yqp_nlb_p1p_CA",
       "relation": "death_place",
       "place": {
         "source_name": "丹徒",
@@ -26,6 +26,36 @@
       "interpretation_note": "明示被殺處丹徒，不換現代轄區、不作籍貫或葬地。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false
+    },
+    {
+      "id": "pa-shiji114-002",
+      "person_id": "08e_bwz_ync",
+      "relation": "source_locality_designation",
+      "place": {
+        "source_name": "錢唐",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-114",
+          "chapter_id": "c-shiji-114-dongyue",
+          "source_id": "s-shiji114-dongyue",
+          "paragraph_id": "c-shiji-114-dongyue:p008",
+          "quote": "餘善刻「武帝」璽自立，詐其民，為妄言。天子遣橫海將軍韓說出句章，浮海從東方往；樓船將軍楊仆出武林；中尉王溫舒出梅嶺；越侯為戈船、下瀨將軍，出若邪、白沙。元封元年冬，咸入東越。東越素發兵距險，使徇北將軍守武林，敗樓船軍數校尉，殺長吏。樓船將軍率錢唐轅終古斬徇北將軍，為御兒侯。自兵未往。"
+        }
+      ],
+      "source_term": "錢唐轅終古",
+      "interpretation_note": "原文明示錢唐轅終古，記人物的地望稱語；不由此區分出生地、籍貫或居地，不換今行政區。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      }
     }
   ]
 }

@@ -13,6 +13,48 @@
   ],
   "titles": [
     {
+      "id": "th-shiji031-011",
+      "person_id": "vax_w2r_0za",
+      "title": "將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-031-wu",
+          "source_id": "s-shiji-031-wu",
+          "paragraph_id": "c-shiji-031-wu:p027",
+          "quote": "將軍孫武曰："
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji031-011:a001",
+          "paragraph_id": "c-shiji-031-wu:p027",
+          "start": 35,
+          "end": 37,
+          "surface": "將軍",
+          "person_mention_id": "c-shiji-031-wu:m027-0037",
+          "usage": "narrative"
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源授予、自立與用稱分開；日期只錄原表述，不以死亡自動終止官爵。夫槩自立與闔廬爭位分存，不選唯一合法王號。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji065-001",
       "person_id": "vax_w2r_0za",
       "title": "將",
@@ -178,12 +220,184 @@
   ],
   "occurrences": [
     {
+      "number": 31,
+      "category": "shijia",
+      "title": "吳太伯世家第一",
+      "paragraph_id": "c-shiji-031-wu:p027",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，吳王闔廬與子胥、伯嚭將兵伐楚，拔舒，殺吳亡將二公子。光謀欲入郢，將軍孫武曰：「民勞，未可，待之。」四年，伐楚，取六與灊。五年，伐越，敗之。六年，楚使子常囊瓦伐吳。迎而撃之，大敗楚軍於豫章，取楚之居巣而還。",
+      "paragraph_ids": [
+        "c-shiji-031-wu:p027",
+        "c-shiji-031-wu:p028"
+      ],
+      "mention_ids": [
+        "c-shiji-031-wu:m027-0037",
+        "c-shiji-031-wu:m028-0012"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-031-wu:m027-0037": "c-shiji-031-wu:p027",
+        "c-shiji-031-wu:m028-0012": "c-shiji-031-wu:p028"
+      },
+      "mention_id": "c-shiji-031-wu:m027-0037",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-031-wu:m027-0037",
+          "mention_ids": [
+            "c-shiji-031-wu:m027-0037"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-031-wu:m028-0012",
+          "mention_ids": [
+            "c-shiji-031-wu:m028-0012"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-031",
+      "chapter_id": "c-shiji-031-wu",
+      "source_id": "s-shiji-031-wu",
+      "work_title": "史記"
+    },
+    {
       "number": 65,
       "category": "liezhuan",
       "title": "孫子吳起列傳第五",
       "paragraph_id": "c-shiji-065-sun:p001",
       "count": 12,
-      "quote": "孫子武者，齊人也。以兵法見於吳王闔廬。闔廬曰：「子之十三篇，吾盡觀之矣，可以小試勒兵乎？」對曰：「可。」闔廬曰：「可試以婦人乎？」曰：「可。」於是許之，出宮中美女，得百八十人。孫子分為二隊，以王之寵姬二人各"
+      "raw_count": 12,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "孫子武者，齊人也。以兵法見於吳王闔廬。闔廬曰：「子之十三篇，吾盡觀之矣，可以小試勒兵乎？」對曰：「可。」闔廬曰：「可試以婦人乎？」曰：「可。」於是許之，出宮中美女，得百八十人。孫子分為二隊，以王之寵姬二人各",
+      "paragraph_ids": [
+        "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-065-sun:m001-0000",
+        "c-shiji-065-sun:m001-0088",
+        "c-shiji-065-sun:m001-0138",
+        "c-shiji-065-sun:m001-0204",
+        "c-shiji-065-sun:m001-0241",
+        "c-shiji-065-sun:m001-0338",
+        "c-shiji-065-sun:m001-0407",
+        "c-shiji-065-sun:m001-0464",
+        "c-shiji-065-sun:m001-0487",
+        "c-shiji-065-sun:m001-0516",
+        "c-shiji-065-sun:m002-0000",
+        "c-shiji-065-sun:m002-0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-065-sun:m001-0000": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0088": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0138": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0204": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0241": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0338": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0407": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0464": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0487": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m001-0516": "c-shiji-065-sun:p001",
+        "c-shiji-065-sun:m002-0000": "c-shiji-065-sun:p002",
+        "c-shiji-065-sun:m002-0022": "c-shiji-065-sun:p002"
+      },
+      "mention_id": "c-shiji-065-sun:m001-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0000",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0088",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0138",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0138"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0204",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0204"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0241",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0241"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0338",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0338"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0407",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0407"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0464",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0464"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0487",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0487"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m001-0516",
+          "mention_ids": [
+            "c-shiji-065-sun:m001-0516"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m002-0000",
+          "mention_ids": [
+            "c-shiji-065-sun:m002-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-065-sun:m002-0022",
+          "mention_ids": [
+            "c-shiji-065-sun:m002-0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-065",
+      "chapter_id": "c-shiji-065-sun",
+      "source_id": "s-shiji-065-sun",
+      "work_title": "史記"
     },
     {
       "number": 66,
@@ -191,7 +405,54 @@
       "title": "伍子胥列傳第六",
       "paragraph_id": "c-shiji-066-wu:p009",
       "count": 3,
-      "quote": "立三年，乃興師與伍胥、伯嚭伐楚，拔舒，遂禽故吳反二將軍。因欲至郢，將軍孫武曰：「民勞，未可，且待之。」乃歸。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "立三年，乃興師與伍胥、伯嚭伐楚，拔舒，遂禽故吳反二將軍。因欲至郢，將軍孫武曰：「民勞，未可，且待之。」乃歸。",
+      "paragraph_ids": [
+        "c-shiji-066-wu:p009",
+        "c-shiji-066-wu:p011",
+        "c-shiji-066-wu:p014"
+      ],
+      "mention_ids": [
+        "c-shiji-066-wu:m009-0111",
+        "c-shiji-066-wu:m011-0011",
+        "c-shiji-066-wu:m014-0044"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-066-wu:m009-0111": "c-shiji-066-wu:p009",
+        "c-shiji-066-wu:m011-0011": "c-shiji-066-wu:p011",
+        "c-shiji-066-wu:m014-0044": "c-shiji-066-wu:p014"
+      },
+      "mention_id": "c-shiji-066-wu:m009-0111",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-066-wu:m009-0111",
+          "mention_ids": [
+            "c-shiji-066-wu:m009-0111"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-066-wu:m011-0011",
+          "mention_ids": [
+            "c-shiji-066-wu:m011-0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-066-wu:m014-0044",
+          "mention_ids": [
+            "c-shiji-066-wu:m014-0044"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-066",
+      "chapter_id": "c-shiji-066-wu",
+      "source_id": "s-shiji-066-wu",
+      "work_title": "史記"
     },
     {
       "number": 111,
@@ -199,11 +460,67 @@
       "title": "衛將軍驃騎列傳第五十一",
       "paragraph_id": "c-shiji-111-wei-huo:p021",
       "count": 1,
-      "quote": "驃騎將軍為人少言不泄，有氣敢任。天子嘗欲教之孫吳兵法，對曰：「顧方略何如耳，不至學古兵法。」天子為治第，令驃騎視之，對曰：「匈奴未滅，無以家為也。」由此上益重愛之。然少而侍中，貴，不省士。其從軍，天子為遣太官齎數十乘，既還，重車餘棄粱肉，而士有饑"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "驃騎將軍為人少言不泄，有氣敢任。天子嘗欲教之孫吳兵法，對曰：「顧方略何如耳，不至學古兵法。」天子為治第，令驃騎視之，對曰：「匈奴未滅，無以家為也。」由此上益重愛之。然少而侍中，貴，不省士。其從軍，天子為遣太官齎數十乘，既還，重車餘棄粱肉，而士有饑",
+      "paragraph_ids": [
+        "c-shiji-111-wei-huo:p021"
+      ],
+      "mention_ids": [
+        "c-shiji-111-wei-huo:m021-0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-111-wei-huo:m021-0022": "c-shiji-111-wei-huo:p021"
+      },
+      "mention_id": "c-shiji-111-wei-huo:m021-0022",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m021-0022",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m021-0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "chapter_id": "c-shiji-111-wei-huo",
+      "source_id": "s-shiji111-wei-huo",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-shiji-031-wu",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-031",
+      "source_id": "s-shiji-031-wu",
+      "source": {
+        "title": "史記／卷031",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷031",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷031&oldid=7909287",
+        "revision_id": 7909287,
+        "accessed_on": "2026-10-09",
+        "extent": "正文41個p區塊，自吳太伯至太史公論贊；排除頂部世系摘要、跨站導覽及索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {
+            "虚": "虛",
+            "鳅": "鰍",
+            "内": "內",
+            "戸": "戶"
+          },
+          "editorial_readings": [],
+          "extraction_note": "保留暦／歴、爲、髙、餘眛、闔廬等見證異體，不默改為熟知姓名。",
+          "note": "固定版本與實讀HTML一致；未核底本、影像或世系研究。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-065-sun",
       "work_id": "w-shiji",

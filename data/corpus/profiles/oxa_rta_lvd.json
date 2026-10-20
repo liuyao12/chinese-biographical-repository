@@ -2,12 +2,13 @@
   "schema_version": 1,
   "id": "oxa_rta_lvd",
   "canonical_person_id": "oxa_rta_lvd",
-  "label": "澹臺滅明（弟子列傳候選）",
+  "label": "澹臺滅明",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "澹臺滅明",
-    "子羽"
+    "子羽",
+    "澹臺子羽"
   ],
   "titles": [],
   "addresses": [
@@ -73,7 +74,88 @@
       "title": "仲尼弟子列傳第七",
       "paragraph_id": "c-shiji-067-disciples:p062",
       "count": 3,
-      "quote": "澹臺滅明，武城人，字子羽。少孔子三十九歳。"
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "澹臺滅明，武城人，字子羽。少孔子三十九歳。",
+      "paragraph_ids": [
+        "c-shiji-067-disciples:p062",
+        "c-shiji-067-disciples:p064"
+      ],
+      "mention_ids": [
+        "c-shiji-067-disciples:m062-0000",
+        "c-shiji-067-disciples:m062-0010",
+        "c-shiji-067-disciples:m064-0050"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-067-disciples:m062-0000": "c-shiji-067-disciples:p062",
+        "c-shiji-067-disciples:m062-0010": "c-shiji-067-disciples:p062",
+        "c-shiji-067-disciples:m064-0050": "c-shiji-067-disciples:p064"
+      },
+      "mention_id": "c-shiji-067-disciples:m062-0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-067-disciples:m062-0000",
+          "mention_ids": [
+            "c-shiji-067-disciples:m062-0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-067-disciples:m062-0010",
+          "mention_ids": [
+            "c-shiji-067-disciples:m062-0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-067-disciples:m064-0050",
+          "mention_ids": [
+            "c-shiji-067-disciples:m064-0050"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "chapter_id": "c-shiji-067-disciples",
+      "source_id": "s-shiji-067-disciples",
+      "work_title": "史記"
+    },
+    {
+      "number": 121,
+      "category": "liezhuan",
+      "title": "儒林列傳第六十一",
+      "paragraph_id": "c-shiji-121-rulin:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "侯，大者為師傅卿相，小者友教士大夫，或隱而不見。故子路居衛，子張居陳，澹臺子羽居楚，子夏居西河，子貢終於齊。如田子方、段干木、吳起、禽滑釐之屬，皆受業於子夏之倫，為王者師。是時獨魏文侯好學。后陵遲以至于始皇，天下并爭於戰國，懦術既絀焉，然齊魯之閒，學者獨不廢也。於威、宣之際，孟",
+      "paragraph_ids": [
+        "c-shiji-121-rulin:p002"
+      ],
+      "mention_ids": [
+        "c-shiji-121-rulin:m002-0049"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-121-rulin:m002-0049": "c-shiji-121-rulin:p002"
+      },
+      "mention_id": "c-shiji-121-rulin:m002-0049",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-121-rulin:m002-0049",
+          "mention_ids": [
+            "c-shiji-121-rulin:m002-0049"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "chapter_id": "c-shiji-121-rulin",
+      "source_id": "s-shiji121-rulin",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -101,14 +183,58 @@
           "note": "全152段已核讀，人物標註待逐段處理；未核可靠底本、影像或現代研究。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-121-rulin",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-121",
+      "source_id": "s-shiji121-rulin",
+      "source": {
+        "title": "史記／卷121",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷121",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷121&oldid=8735621",
+        "revision_id": 8735621,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文25段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標與wikipedia模板，保留繆西王等原字；未核影像。",
+          "note": "末段索隱述贊分層，太史公論贊屬篇文。"
+        }
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "oxa_rta_lvd": "澹臺滅明（弟子列傳候選）"
+    "oxa_rta_lvd": "澹臺滅明"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "person_id": "oxa_rta_lvd",
+      "title": null,
+      "surname": "澹臺",
+      "ming": "滅明",
+      "additional_names": [
+        "子羽"
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-067",
+      "chapter_id": "c-shiji-067-disciples",
+      "source_id": "s-shiji-067-disciples",
+      "paragraph_id": "c-shiji-067-disciples:p062",
+      "quote": "澹臺滅明，武城人，字子羽。少孔子三十九歳。",
+      "note": "依本段所書姓名與明示字號分欄；姓氏劃分為編者判讀，保留複姓及完整名，不從字號倒造本名、不補未見官爵或血緣。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "zi": "子羽"
+    }
+  ],
   "person_ids": [
     "oxa_rta_lvd"
   ],

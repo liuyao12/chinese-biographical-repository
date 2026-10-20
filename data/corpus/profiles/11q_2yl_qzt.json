@@ -17,7 +17,69 @@
       "title": "西南夷列傳第五十六",
       "paragraph_id": "c-shiji-116-xinanyi:p005",
       "count": 1,
-      "quote": "國，患匈奴隔其道，誠通蜀，身毒國道便近，有利無害。於是天子乃令王然于、柏始昌、呂越人等，使閒出西夷西，指求身毒國。至滇，滇王嘗羌乃留，為求道西十餘輩。歲餘，皆閉昆明，莫能通身毒國。"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "國，患匈奴隔其道，誠通蜀，身毒國道便近，有利無害。於是天子乃令王然于、柏始昌、呂越人等，使閒出西夷西，指求身毒國。至滇，滇王嘗羌乃留，為求道西十餘輩。歲餘，皆閉昆明，莫能通身毒國。",
+      "paragraph_ids": [
+        "c-shiji-116-xinanyi:p005"
+      ],
+      "mention_ids": [
+        "c-shiji-116-xinanyi:m005-0118"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-116-xinanyi:m005-0118": "c-shiji-116-xinanyi:p005"
+      },
+      "mention_id": "c-shiji-116-xinanyi:m005-0118",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-116-xinanyi:m005-0118",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m005-0118"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-116",
+      "chapter_id": "c-shiji-116-xinanyi",
+      "source_id": "s-shiji116-xinanyi",
+      "work_title": "史記"
+    },
+    {
+      "number": 123,
+      "category": "liezhuan",
+      "title": "大宛列傳第六十三",
+      "paragraph_id": "c-shiji-123-dayuan:p023",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "吏入朝。於是置益州、越巂、牂柯、沈黎、汶山郡，欲地接以前通大夏。乃遣使柏始昌、呂越人等歲十餘輩，出此初郡抵大夏，皆復閉昆明，為所殺，奪幣財，終莫能通至大夏焉。於是漢發三輔罪人，因巴蜀士數萬人，遣兩將軍郭昌、衛廣等往擊昆明之遮漢使者，斬首虜數萬人而去。其後遣使，昆明復為寇，竟莫",
+      "paragraph_ids": [
+        "c-shiji-123-dayuan:p023"
+      ],
+      "mention_ids": [
+        "c-shiji-123-dayuan:m023-0052"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-123-dayuan:m023-0052": "c-shiji-123-dayuan:p023"
+      },
+      "mention_id": "c-shiji-123-dayuan:m023-0052",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-123-dayuan:m023-0052",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m023-0052"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "chapter_id": "c-shiji-123-dayuan",
+      "source_id": "s-shiji123-dayuan",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -45,6 +107,30 @@
           "note": "第11段太史公評語仍正文；第12段索隱述贊分層。"
         }
       }
+    },
+    {
+      "chapter_id": "c-shiji-123-dayuan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-123",
+      "source_id": "s-shiji123-dayuan",
+      "source": {
+        "title": "史記／卷123",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷123",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷123&oldid=8736799",
+        "revision_id": 8736799,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文39段，包括末段索隱述贊。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2、現代節標、blockquote排版及分類；維基連結保留顯示文字，原字未轉換，未核影像。",
+          "note": "末段索隱述贊另分層。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -52,13 +138,83 @@
     "11q_2yl_qzt": "柏始昌（西南夷列傳候選）"
   },
   "dates": [],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji116-envoy-baishichang",
+      "person_ids": [
+        "11q_2yl_qzt"
+      ],
+      "canonical_person_id": "11q_2yl_qzt",
+      "scope": "cross_chapter",
+      "chapter_ids": [
+        "c-shiji-116-xinanyi",
+        "c-shiji-123-dayuan"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-116-xinanyi",
+          "source_id": "s-shiji116-xinanyi",
+          "paragraph_id": "c-shiji-116-xinanyi:p005",
+          "quote": "及元狩元年，博望侯張騫使大夏來，言居大夏時見蜀布、邛竹、杖，使問所從來，曰「從東南身毒國，可數千里，得蜀賈人市」。或聞邛西可二千里有身毒國。騫因盛言大夏在漢西南，慕中國，患匈奴隔其道，誠通蜀，身毒國道便近，有利無害。於是天子乃令王然于、柏始昌、呂越人等，使閒出西夷西，指求身毒國。至滇，滇王嘗羌乃留，為求道西十餘輩。歲餘，皆閉昆明，莫能通身毒國。",
+          "mention_ids": [
+            "c-shiji-116-xinanyi:m005-0118"
+          ]
+        },
+        {
+          "chapter_id": "c-shiji-123-dayuan",
+          "source_id": "s-shiji123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p023",
+          "quote": "是時漢既滅越，而蜀、西南夷皆震，請吏入朝。於是置益州、越巂、牂柯、沈黎、汶山郡，欲地接以前通大夏。乃遣使柏始昌、呂越人等歲十餘輩，出此初郡抵大夏，皆復閉昆明，為所殺，奪幣財，終莫能通至大夏焉。於是漢發三輔罪人，因巴蜀士數萬人，遣兩將軍郭昌、衛廣等往擊昆明之遮漢使者，斬首虜數萬人而去。其後遣使，昆明復為寇，竟莫能得通。而北道酒泉抵大夏，使者既多，而外國益厭漢幣，不貴其物。",
+          "mention_ids": [
+            "c-shiji-123-dayuan:m023-0052"
+          ]
+        }
+      ],
+      "rationale": "兩名使者在同一西南求道使團中反覆並見，並有呂越人與王然於隨司馬相如使西夷的平行記事。據姓名、共同同僚及出使區域接合，屬上下文暫定；元狩初遣與南越破後多批遣使是不同次任務，不把年份或死亡敘述合成同一事件。 不據皆閉昆明為所殺的多批使者集合敘述，直接補柏始昌、呂越人的確切卒年或逐人死法。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "identity_materialized": true,
+      "references": [
+        {
+          "title": "《史記·司馬相如列傳》西夷副使名單",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷117&oldid=10371549",
+          "quote": "相如還報。唐蒙已略通夜郎，因通西南夷道，發巴、蜀、廣漢卒，作者數萬人。治道二歲，道不成，士卒多物故，費以巨萬計。蜀民及漢用事者多言其不便。是時邛筰之君長聞南夷與漢通，得賞賜多，多欲原為內臣妾，請吏，比南夷。天子問相如，相如曰：「邛、筰、厓、駹者近蜀，道亦易通，秦時嘗通為郡縣，至漢興而罷。今誠複通，為置郡縣，愈於南夷。」天子以為然，乃拜相如為中郎將，建節往使。副使王然於、壺充國、呂越人馳四乘之傳，因巴蜀吏幣物以賂西夷。至蜀，蜀太守以下郊迎，縣令負弩矢先驅，蜀人以為寵。於是卓王孫、臨邛諸公皆因門下獻牛酒以交驩。卓王孫喟然而歎，自以得使女尚司馬長卿晚，而厚分與其女財，與男等同。司馬長卿便略定西夷，邛、筰、厓、駹、斯榆之君皆請為內臣。除邊關，關益斥，西至沬、若水，南至牂柯為徼，通零關道，橋孫水以通邛都。還報天子，天子大說。",
+          "scope": "received_parallel_colleague_attestation",
+          "image_verified": false
+        }
+      ]
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "11q_2yl_qzt"
   ],
   "preferred_relations": [],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-shiji123-005",
+      "person_id": "11q_2yl_qzt",
+      "event_type": "death",
+      "status": "source_attested",
+      "date_expression": null,
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-123-dayuan",
+          "source_id": "s-shiji123-dayuan",
+          "paragraph_id": "c-shiji-123-dayuan:p023",
+          "quote": "是時漢既滅越，而蜀、西南夷皆震，請吏入朝。於是置益州、越巂、牂柯、沈黎、汶山郡，欲地接以前通大夏。乃遣使柏始昌、呂越人等歲十餘輩，出此初郡抵大夏，皆復閉昆明，為所殺，奪幣財，終莫能通至大夏焉。於是漢發三輔罪人，因巴蜀士數萬人，遣兩將軍郭昌、衛廣等往擊昆明之遮漢使者，斬首虜數萬人而去。其後遣使，昆明復為寇，竟莫能得通。而北道酒泉抵大夏，使者既多，而外國益厭漢幣，不貴其物。",
+          "person_mention_id": "c-shiji-123-dayuan:m023-0052"
+        }
+      ],
+      "source_term": "為所殺",
+      "interpretation_note": "原文明示個人死亡；相對年月未換算公元年，泛論與群體未另造個人事件。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

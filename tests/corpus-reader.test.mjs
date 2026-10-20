@@ -3,6 +3,15 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {chapterURL, chapterParagraph, filteredChapters, sourcePassageURL, profileSourceContext} from '../assets/corpus-reader.js';
 const index = JSON.parse(readFileSync(new URL('../data/corpus/index.json', import.meta.url)));
+test('a direct native-work profile returns to its principal source without overriding an explicit context',()=>{
+ const native={work_id:'w-jinshu',work_title:'晉書',book_id:'b-jinshu-075',chapter_id:'c-jinshu-075-synthetic',paragraph_id:'synthetic-p1',paragraph_ids:['synthetic-p1'],title:'Synthetic source',count:10};
+ const person={occurrences:[native,{work_id:'w-shiji',chapter_id:'c-shiji-075-synthetic',count:2}]};
+ const result=profileSourceContext(person,new URLSearchParams());
+ assert.match(result.text,/晉書/);
+ assert.equal(new URLSearchParams(result.href.split('#')[1]).get('book'),'b-jinshu-075');
+ assert.equal(profileSourceContext(person,new URLSearchParams({work:'w-jinshu',chapter:native.chapter_id,book:'b-jinshu-999'})),null);
+ assert.equal(profileSourceContext({occurrences:[{work_id:'w-shiji',count:20},native]},new URLSearchParams()),null);
+});
 test('Shiji contents use five historical categories and retain all 130 entries, including pending texts', () => {
   assert.equal(index.chapters.length,130);
   for (const [category,count] of [['benji',12],['biao',10],['shu',8],['shijia',30],['liezhuan',70]]) assert.equal(filteredChapters(index,category).length,count);
@@ -69,4 +78,16 @@ test('profile source return validates work, book, chapter and recorded passage',
  assert.equal(new URLSearchParams(profileSourceContext(p,params).href.split('#')[1]).get('passage'),'synthetic-p2');
  params.set('passage','synthetic-forged');assert.equal(new URLSearchParams(profileSourceContext(p,params).href.split('#')[1]).get('passage'),'synthetic-p1');
  params.set('book','b-shiji-041');assert.equal(profileSourceContext(p,params),null);
+});
+
+test('non-person grammar keeps source anchors without unresolved styling or profile links',()=>{
+ const chapter=JSON.parse(readFileSync(new URL('../corpus/shiji/118.json',import.meta.url)));
+ const p=chapter.paragraphs.find(x=>x.id.endsWith(':p014')),html=chapterParagraph(p);
+ for(const id of ['m014-0163','m014-0191','m014-0201'])assert.match(html,new RegExp('<span id="c-shiji-118-huainan:'+id+'" class="cbr-non-person"'));
+ assert.match(html,/<a id="c-shiji-118-huainan:m014-0197"[^>]*data-person-id="yqp_nlb_p1p_AFC"/);
+ assert.equal(html.replace(/<[^>]*>/g,''),p.text);
+});
+test('non-person classification notes are escaped as inert text',()=>{
+ const html=chapterParagraph({id:'synthetic-p',text:'王',mentions:[{id:'synthetic-m',surface:'王',start:0,end:1,kind:'non_person',person_id:null,lexical_role:'verb',interpretation_note:'"<script>" & note'}]});
+ assert.match(html,/&quot;&lt;script&gt;&quot; &amp; note/);assert.doesNotMatch(html,/<script>|data-person-id|href=|unresolved-mention/);
 });

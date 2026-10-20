@@ -2,13 +2,309 @@
   "schema_version": 1,
   "id": "b77_ulm_otk",
   "canonical_person_id": "b77_ulm_otk",
-  "label": "趙光（南越列傳候選）",
+  "label": "趙光",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
+    "蒼梧秦王",
     "趙光"
   ],
   "titles": [
+    {
+      "id": "th-table-shiji020-r054-founding-grant",
+      "person_id": "b77_ulm_otk",
+      "title": "隨桃侯",
+      "kind": "noble_rank",
+      "mode": "grant",
+      "status": "source_attested",
+      "source_representation": "table_cells",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "quote": "隨桃。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "quote": "以南越蒼梧王聞漢兵至降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-table-shiji020-r054-founding-grant:a001",
+          "kind": "table_title",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000",
+          "usage": "narrative",
+          "source_parts": [
+            {
+              "table_cell_id": "shiji-020-t1-r054-c00",
+              "start": 0,
+              "end": 2,
+              "surface": "隨桃"
+            },
+            {
+              "table_cell_id": "shiji-020-t1-r054-c05",
+              "start": 9,
+              "end": 10,
+              "surface": "侯"
+            }
+          ]
+        }
+      ],
+      "table_title_basis": {
+        "table_id": "shiji-020",
+        "event": {
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000",
+          "surface": "趙光"
+        },
+        "noble_name": {
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "quote": "隨桃。"
+        },
+        "merit": {
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "quote": "以南越蒼梧王聞漢兵至降侯。"
+        },
+        "date_parts": [
+          {
+            "table_column_id": "shiji-020-t1-column-5",
+            "text": "元鼎"
+          },
+          {
+            "table_cell_id": "shiji-020-t1-r054-c05",
+            "text": "六年四月癸亥",
+            "start": 2,
+            "end": 8
+          }
+        ],
+        "year_mapping": {
+          "table_id": "shiji-022",
+          "source_id": "table-witness-shiji-022",
+          "source_revision": "2607038",
+          "era_anchor_cell_id": "shiji-022-t1-r091-c01",
+          "regnal_year_cell_id": "shiji-022-t1-r096-c01",
+          "digital_year_cell_id": "shiji-022-t1-r096-c00",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-022",
+          "chapter_id": "table-chapter-shiji-022"
+        }
+      },
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": "元鼎六年四月癸亥",
+          "date_expression_kind": "table_columns_composed",
+          "evidence": [
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c00",
+              "quote": "隨桃。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "fief_name"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c01",
+              "quote": "以南越蒼梧王聞漢兵至降侯。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "merit"
+            },
+            {
+              "kind": "table_cell",
+              "table_id": "shiji-020",
+              "table_cell_id": "shiji-020-t1-r054-c05",
+              "quote": "一。六年四月癸亥，侯趙光元年。",
+              "work_id": "w-shiji",
+              "book_id": "b-shiji-020",
+              "chapter_id": "table-chapter-shiji-020",
+              "source_id": "table-witness-shiji-020",
+              "source_revision": "2607036",
+              "source_role": "grant_event",
+              "person_mention_id": "shiji-020-t1-r054-c05-m000"
+            }
+          ],
+          "normalized_date": {
+            "year_numbering": "astronomical",
+            "precision": "year",
+            "status": "editorial_provisional",
+            "original_quote": "一。六年四月癸亥，侯趙光元年。",
+            "evidence": [
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c00",
+                "quote": "隨桃。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "fief_name"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c01",
+                "quote": "以南越蒼梧王聞漢兵至降侯。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "merit"
+              },
+              {
+                "kind": "table_cell",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c05",
+                "quote": "一。六年四月癸亥，侯趙光元年。",
+                "work_id": "w-shiji",
+                "book_id": "b-shiji-020",
+                "chapter_id": "table-chapter-shiji-020",
+                "source_id": "table-witness-shiji-020",
+                "source_revision": "2607036",
+                "source_role": "grant_event",
+                "person_mention_id": "shiji-020-t1-r054-c05-m000"
+              }
+            ],
+            "references": [
+              {
+                "title": "《史記曆書》索隱·太初改歲首",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+                "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+                "scope": "received_calendar_rule",
+                "text_layer": "suoyin_commentary",
+                "revision_id": 2514838,
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "隨桃。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c00",
+                "scope": "received_table_fief_name",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "以南越蒼梧王聞漢兵至降侯。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c01",
+                "scope": "received_table_merit",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "一。六年四月癸亥，侯趙光元年。",
+                "table_id": "shiji-020",
+                "table_cell_id": "shiji-020-t1-r054-c05",
+                "scope": "received_table_title_event",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "元鼎元年",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r091-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "六",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c01",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·漢興以來將相名臣年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+                "quote": "111",
+                "table_id": "shiji-022",
+                "table_cell_id": "shiji-022-t1-r096-c00",
+                "scope": "digital_editorial_regnal_year_equivalence_only",
+                "image_verified": false
+              },
+              {
+                "title": "《史記·建元以來侯者年表》",
+                "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+                "quote": "元鼎",
+                "table_id": "shiji-020",
+                "table_column_id": "shiji-020-t1-column-5",
+                "scope": "received_regnal_year_attestation",
+                "image_verified": false
+              }
+            ],
+            "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+            "reviewer": "Codex（AI 代理）",
+            "human_reviewed": false,
+            "model": null,
+            "era": "BCE",
+            "era_year": 111,
+            "year": -110
+          }
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "各格與年號欄分存，稱號由同列封國及侯字組成；只記首封，後續失侯及卒年未自動填入。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "西元前111年（暫定） · 元鼎六年四月癸亥 → 未定"
+    },
     {
       "id": "th-shiji113-028",
       "person_id": "b77_ulm_otk",
@@ -59,12 +355,93 @@
       "number": 113,
       "category": "liezhuan",
       "title": "南越列傳第五十三",
-      "paragraph_id": "c-shiji-113-nanyue:p012",
-      "count": 1,
-      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世"
+      "paragraph_id": "c-shiji-113-nanyue:p008",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，相三王，宗族官仕為長吏者七十餘人，男盡尚王女，女盡嫁王子兄弟宗室，及蒼梧秦王有連。其居國中甚重，越人信之，多為耳目者，得眾心愈於王。王之上書，數諫止王，王弗聽。有畔心，數稱病不見漢使者。使者皆注意嘉，勢未能誅。王、王太后亦恐嘉等先事發，乃置酒，介漢使者權，謀誅嘉等。使者皆東鄉",
+      "paragraph_ids": [
+        "c-shiji-113-nanyue:p008",
+        "c-shiji-113-nanyue:p009",
+        "c-shiji-113-nanyue:p012"
+      ],
+      "mention_ids": [
+        "c-shiji-113-nanyue:m008-0042",
+        "c-shiji-113-nanyue:m009-0282",
+        "c-shiji-113-nanyue:m012-0003"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-113-nanyue:m008-0042": "c-shiji-113-nanyue:p008",
+        "c-shiji-113-nanyue:m009-0282": "c-shiji-113-nanyue:p009",
+        "c-shiji-113-nanyue:m012-0003": "c-shiji-113-nanyue:p012"
+      },
+      "mention_id": "c-shiji-113-nanyue:m008-0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m008-0042",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m008-0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m009-0282",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m009-0282"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-113-nanyue:m012-0003",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m012-0003"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-113",
+      "chapter_id": "c-shiji-113-nanyue",
+      "source_id": "s-shiji113-nanyue",
+      "work_title": "史記"
     }
   ],
-  "table_occurrences": [],
+  "table_occurrences": [
+    {
+      "table_id": "shiji-020",
+      "cell_id": "shiji-020-t1-r054-c05",
+      "title": "《史記·建元以來侯者年表》",
+      "quote": "一。六年四月癸亥，侯趙光元年。",
+      "year": null,
+      "mention": {
+        "id": "shiji-020-t1-r054-c05-m000",
+        "start": 10,
+        "end": 12,
+        "surface": "趙光",
+        "person_id": "b77_ulm_otk",
+        "status": "contextual_provisional",
+        "interpretation_note": "按同列封國、封爵事由及本傳相同事件接合；不以數位年份作另一件事件證據，授爵與戰役、父死分開。",
+        "identity_evidence": [
+          {
+            "work_id": "w-shiji",
+            "book_id": "b-shiji-113",
+            "chapter_id": "c-shiji-113-nanyue",
+            "source_id": "s-shiji113-nanyue",
+            "source_revision": 8735632,
+            "paragraph_id": "c-shiji-113-nanyue:p012",
+            "person_id": "b77_ulm_otk",
+            "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。"
+          }
+        ]
+      },
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "chapter_id": "table-chapter-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source_revision": "2607036"
+    }
+  ],
   "sources": [
     {
       "chapter_id": "c-shiji-113-nanyue",
@@ -89,14 +466,267 @@
           "note": "索隱述贊另層，不混作正文。"
         }
       }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-020",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-020",
+      "source_id": "table-witness-shiji-020",
+      "source": {
+        "id": "table-witness-shiji-020",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-020",
+        "chapter_id": "table-chapter-shiji-020",
+        "url": "https://zh.wikisource.org/wiki/史記/卷020",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+        "revision": "2607036",
+        "accessed": "2026-10-13",
+        "response_sha256": "f3fb3f9b7ead59e58f522014810ad9faf46b4723ba0b65f6175d72422aa6e0f8",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
+    },
+    {
+      "chapter_id": "table-chapter-shiji-022",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-022",
+      "source_id": "table-witness-shiji-022",
+      "source": {
+        "id": "table-witness-shiji-022",
+        "work_id": "w-shiji",
+        "book_id": "b-shiji-022",
+        "chapter_id": "table-chapter-shiji-022",
+        "url": "https://zh.wikisource.org/wiki/史記/卷022",
+        "revision_url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+        "revision": "2607038",
+        "accessed": "2026-10-13",
+        "response_sha256": "e2ab3816ee3e18a035537d6d823271ce448f83fa549df81cf8028af1ed6add2f",
+        "edition": null,
+        "image_verified": false,
+        "rights": "古籍正文公有領域；維基文庫數位轉錄依CC BY-SA，保留貢獻者署名。",
+        "rights_url": "https://zh.wikisource.org/wiki/Wikisource:版權信息",
+        "review_status": "partial_named_entity_review",
+        "note": "各組表保留原欄題、原文、空格及合欄，不推不同欄題的接續。西元欄為數位編者增補；未明年份留空，不推世系曆年。未核底本影像，人物標註仍待逐處覆核。"
+      }
     }
   ],
   "relations": [],
   "related_people": {
-    "b77_ulm_otk": "趙光（南越列傳候選）"
+    "b77_ulm_otk": "趙光"
   },
-  "dates": [],
-  "name_components": [],
+  "dates": [
+    {
+      "year_numbering": "astronomical",
+      "precision": "year",
+      "status": "editorial_provisional",
+      "original_quote": "一。六年四月癸亥，侯趙光元年。",
+      "evidence": [
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "quote": "隨桃。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "fief_name"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "quote": "以南越蒼梧王聞漢兵至降侯。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "merit"
+        },
+        {
+          "kind": "table_cell",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "work_id": "w-shiji",
+          "book_id": "b-shiji-020",
+          "chapter_id": "table-chapter-shiji-020",
+          "source_id": "table-witness-shiji-020",
+          "source_revision": "2607036",
+          "source_role": "grant_event",
+          "person_mention_id": "shiji-020-t1-r054-c05-m000"
+        }
+      ],
+      "references": [
+        {
+          "title": "《史記曆書》索隱·太初改歲首",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記三家註/卷026&oldid=2514838",
+          "quote": "然漢始以建亥爲年首，今改以建寅，故以七年爲元年。",
+          "scope": "received_calendar_rule",
+          "text_layer": "suoyin_commentary",
+          "revision_id": 2514838,
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "隨桃。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c00",
+          "scope": "received_table_fief_name",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "以南越蒼梧王聞漢兵至降侯。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c01",
+          "scope": "received_table_merit",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "一。六年四月癸亥，侯趙光元年。",
+          "table_id": "shiji-020",
+          "table_cell_id": "shiji-020-t1-r054-c05",
+          "scope": "received_table_title_event",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "元鼎元年",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r091-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "六",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r096-c01",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·漢興以來將相名臣年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷022&oldid=2607038",
+          "quote": "111",
+          "table_id": "shiji-022",
+          "table_cell_id": "shiji-022-t1-r096-c00",
+          "scope": "digital_editorial_regnal_year_equivalence_only",
+          "image_verified": false
+        },
+        {
+          "title": "《史記·建元以來侯者年表》",
+          "url": "https://zh.wikisource.org/w/index.php?title=史記/卷020&oldid=2607036",
+          "quote": "元鼎",
+          "table_id": "shiji-020",
+          "table_column_id": "shiji-020-t1-column-5",
+          "scope": "received_regnal_year_attestation",
+          "image_verified": false
+        }
+      ],
+      "rationale": "固定原表日期按欄題拼合，原格文字另存；漢以十月為歲首，正月至九月落同一數位所列西元年，未知閏幾月保留跨年。未換算公曆月日，未核書影。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "era": "BCE",
+      "era_year": 111,
+      "year": -110,
+      "record_id": "th-table-shiji020-r054-founding-grant",
+      "person_id": "b77_ulm_otk",
+      "endpoint": "start",
+      "title": "隨桃侯"
+    }
+  ],
+  "reading_decisions": [
+    {
+      "id": "eq-shiji113-core-cangwuqinwang",
+      "person_ids": [
+        "b77_ulm_otk"
+      ],
+      "canonical_person_id": "b77_ulm_otk",
+      "scope": "same_chapter",
+      "chapter_ids": [
+        "c-shiji-113-nanyue"
+      ],
+      "status": "contextual_provisional",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p008",
+          "quote": "其相呂嘉年長矣，相三王，宗族官仕為長吏者七十餘人，男盡尚王女，女盡嫁王子兄弟宗室，及蒼梧秦王有連。其居國中甚重，越人信之，多為耳目者，得眾心愈於王。王之上書，數諫止王，王弗聽。有畔心，數稱病不見漢使者。使者皆注意嘉，勢未能誅。王、王太后亦恐嘉等先事發，乃置酒，介漢使者權，謀誅嘉等。使者皆東鄉，太后南鄉，王北鄉，相嘉、大臣皆西鄉，侍坐飲。嘉弟為將，將卒居宮外。酒行，太后謂嘉曰：「南越內屬，國之利也，而相君苦不便者，何也？」以激怒使者。使者狐疑相杖，遂莫敢發。嘉見耳目非是，即起而出。太后怒，欲鏦嘉以矛，王止太後。嘉遂出，分其弟兵就舍，稱病，不肯見王及使者。乃陰與大臣作亂。王素無意誅嘉，嘉知之，以故數月不發。太后有淫行，國人不附，欲獨誅嘉等，力又不能。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m008-0042"
+          ],
+          "text_layer": "received_chapter"
+        },
+        {
+          "chapter_id": "c-shiji-113-nanyue",
+          "source_id": "s-shiji113-nanyue",
+          "paragraph_id": "c-shiji-113-nanyue:p012",
+          "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+          "mention_ids": [
+            "c-shiji-113-nanyue:m012-0003"
+          ],
+          "text_layer": "received_chapter"
+        }
+      ],
+      "rationale": "本篇蒼梧秦王與蒼梧王趙光，漢書95晉灼明釋秦王即下趙光也；只合此人稱號，不以越王同姓補父祖或連到趙佗、秦始皇。 依具體時序、角色或事件暫定同指；不據此補生卒、任期、父子或改寫原字。",
+      "reviewer": "Codex（AI 代理）",
+      "human_reviewed": false,
+      "model": null,
+      "references": [
+        {
+          "kind": "cangwuqinwang",
+          "title": "《前漢書》卷九十五古注（文淵閣數位轉錄）",
+          "url": "https://github.com/kanripo/KR2a0007/blob/683113d4baf6febecaf2ccb7913df87c4d68d454/KR2a0007_095.txt#L294-L297",
+          "raw_quote": "王子弟宗室及蒼梧秦王有連(孟康曰蒼梧越中王自/名為秦王連親婚也晉)¶\n<pb:KR2a0007_WYG_095-17a>¶\n(灼曰秦王即下趙光也趙/本與秦同姓故曰秦王)其居國中甚重粤人信之多¶\n為耳目者得衆心愈於王(師古曰/愈勝也)王之上書數諫止王¶",
+          "source_blob_sha": "b41576d7d677e481940c3a7f222a09837c85e8f7",
+          "response_sha256": "ae85076fbcb902242dad85fc3d8b11751e408d228b939c73e8f4c3ee4a879793",
+          "response_extent": {
+            "first_line": 151,
+            "last_line": 300,
+            "partial_file": true
+          },
+          "image_verified": false,
+          "quote": "晉灼曰秦王即下趙光也趙本與秦同姓故曰秦王",
+          "scope": "ancient_commentary_identity_or_name_components",
+          "note": "短引文只除分行、雙行注斜線、括號、段末符與頁標；保留原字。部分回應指紋非全檔hash，Git blob另列。古注亦非影像校勘。"
+        }
+      ],
+      "identity_materialized": true
+    }
+  ],
+  "name_components": [
+    {
+      "person_id": "b77_ulm_otk",
+      "title": "蒼梧王",
+      "surname": "趙",
+      "ming": "光",
+      "additional_names": [
+        "蒼梧秦王"
+      ],
+      "chapter_id": "c-shiji-113-nanyue",
+      "paragraph_id": "c-shiji-113-nanyue:p012",
+      "quote": "蒼梧王趙光者，越王同姓，聞漢兵至，及越揭陽令定自定屬漢；越桂林監居翁諭甌駱屬漢：皆得為侯。戈船、下厲將軍兵及馳義侯所發夜郎兵未下，南越已平矣。遂為九郡。伏波將軍益封。樓船將軍兵以陷堅為將梁侯。自尉佗初王後，五世九十三歲而國亡焉。",
+      "note": "姓名與蒼梧王據本段，蒼梧秦王據已辨同人的前文；同姓不補父祖。",
+      "status": "editorial_provisional",
+      "human_reviewed": false
+    }
+  ],
   "person_ids": [
     "b77_ulm_otk"
   ],

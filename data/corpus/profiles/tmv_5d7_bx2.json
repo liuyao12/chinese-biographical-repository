@@ -2,12 +2,14 @@
   "schema_version": 1,
   "id": "tmv_5d7_bx2",
   "canonical_person_id": "tmv_5d7_bx2",
-  "label": "李息（韓長孺列傳候選）",
+  "label": "李息",
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
     "李息",
-    "息"
+    "息",
+    "大行息",
+    "大行"
   ],
   "titles": [
     {
@@ -980,6 +982,49 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-shiji118-045",
+      "person_id": "tmv_5d7_bx2",
+      "title": "大行",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "chapter_id": "c-shiji-118-huainan",
+          "source_id": "s-shiji118-huainan",
+          "paragraph_id": "c-shiji-118-huainan:p029",
+          "quote": "元朔六年中，衡山王使人上書請廢太子爽，立孝為太子。爽聞，即使所善白嬴之長安上書，言孝作輣車鏃矢，與王御者姦，欲以敗孝。白嬴至長安，未及上書，吏捕嬴，以淮南事繋。王聞爽使白嬴上書，恐言國陰事，即上書反告太子爽所為不道棄市罪事。事下沛郡治。元（朔七）［狩元］年冬，有司公卿下沛郡求捕所與淮南謀反者未得，得陳喜於衡山王子孝家。吏劾孝首匿喜。孝以為陳喜雅數與王計謀反，恐其發之，聞律先自告除其罪，又疑太子使白嬴上書發其事，即先自告，告所與謀反者救赫、陳喜等。廷尉治驗，公卿請逮捕衡山王治之。天子曰：「勿捕。」遣中尉安、大行息即問王，王具以情實對。吏皆圍王宮而守之。中尉大行還，以聞，公卿請遣宗正、大行與沛郡雜治王。王聞，即自剄殺。孝先自告反，除其罪；坐與王御婢姦，棄市。王后徐來亦坐蠱殺前王后乘舒，及太子爽坐王告不孝，皆棄市。諸與衡山王謀反者皆族。國除為衡山郡。"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-shiji118-045:a001",
+          "paragraph_id": "c-shiji-118-huainan:p029",
+          "start": 255,
+          "end": 257,
+          "surface": "大行",
+          "person_mention_id": "c-shiji-118-huainan:m029-0255",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "明示授封與文獻用稱分存，紀年承接及換算待補；廢勿王明示終點，不以死亡自動終止全部稱號。厲王追謚用稱不等同生前即位。",
+      "reviewer": "Codex（AI 代理）",
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-shiji120-014",
       "person_id": "tmv_5d7_bx2",
       "title": "大行",
@@ -1058,7 +1103,43 @@
       "title": "韓長孺列傳第四十八",
       "paragraph_id": "c-shiji-108-han:p009",
       "count": 2,
-      "quote": "衞尉李廣爲驍騎將軍，太仆公孫賀爲輕車將軍，大行王恢爲將屯將軍，太中大夫李息爲材官將軍。御史大夫韓安國爲護軍將軍，諸將皆屬護軍。約單于入馬邑而漢兵縱發。王恢、李息、李廣別從代主擊其輜重。於是單于入漢長城武州塞。未至馬邑百餘里，行掠鹵，徒見畜牧於野，不見一人。單于怪之，攻烽燧，"
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "衞尉李廣爲驍騎將軍，太仆公孫賀爲輕車將軍，大行王恢爲將屯將軍，太中大夫李息爲材官將軍。御史大夫韓安國爲護軍將軍，諸將皆屬護軍。約單于入馬邑而漢兵縱發。王恢、李息、李廣別從代主擊其輜重。於是單于入漢長城武州塞。未至馬邑百餘里，行掠鹵，徒見畜牧於野，不見一人。單于怪之，攻烽燧，",
+      "paragraph_ids": [
+        "c-shiji-108-han:p009"
+      ],
+      "mention_ids": [
+        "c-shiji-108-han:m009-0058",
+        "c-shiji-108-han:m009-0101"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-108-han:m009-0058": "c-shiji-108-han:p009",
+        "c-shiji-108-han:m009-0101": "c-shiji-108-han:p009"
+      },
+      "mention_id": "c-shiji-108-han:m009-0058",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-108-han:m009-0058",
+          "mention_ids": [
+            "c-shiji-108-han:m009-0058"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-108-han:m009-0101",
+          "mention_ids": [
+            "c-shiji-108-han:m009-0101"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-108",
+      "chapter_id": "c-shiji-108-han",
+      "source_id": "s-shiji-108-han",
+      "work_title": "史記"
     },
     {
       "number": 110,
@@ -1066,7 +1147,34 @@
       "title": "匈奴列傳第五十",
       "paragraph_id": "c-shiji-110-xiongnu:p031",
       "count": 1,
-      "quote": "，匈奴乃去。匈奴又入鴈門，殺略千餘人。於是漢使將軍衛青將三萬騎出鴈門，李息出代郡，擊胡。得首虜數千人。其明年，衛青復出雲中以西至隴西，擊胡之樓煩、白羊王於河南，得胡首虜數千，牛羊百餘萬。於是漢遂取河南地，築朔方，復繕故秦時蒙恬所爲塞，因河爲固。漢亦棄上谷之什辟縣造陽地以予胡"
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，匈奴乃去。匈奴又入鴈門，殺略千餘人。於是漢使將軍衛青將三萬騎出鴈門，李息出代郡，擊胡。得首虜數千人。其明年，衛青復出雲中以西至隴西，擊胡之樓煩、白羊王於河南，得胡首虜數千，牛羊百餘萬。於是漢遂取河南地，築朔方，復繕故秦時蒙恬所爲塞，因河爲固。漢亦棄上谷之什辟縣造陽地以予胡",
+      "paragraph_ids": [
+        "c-shiji-110-xiongnu:p031"
+      ],
+      "mention_ids": [
+        "c-shiji-110-xiongnu:m031-0231"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-110-xiongnu:m031-0231": "c-shiji-110-xiongnu:p031"
+      },
+      "mention_id": "c-shiji-110-xiongnu:m031-0231",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-110-xiongnu:m031-0231",
+          "mention_ids": [
+            "c-shiji-110-xiongnu:m031-0231"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-110",
+      "chapter_id": "c-shiji-110-xiongnu",
+      "source_id": "s-shiji110-xiongnu",
+      "work_title": "史記"
     },
     {
       "number": 111,
@@ -1074,7 +1182,126 @@
       "title": "衛將軍驃騎列傳第五十一",
       "paragraph_id": "c-shiji-111-wei-huo:p005",
       "count": 5,
-      "quote": "數千人。明年，匈奴入殺遼西太守，虜略漁陽二千餘人，敗韓將軍軍。漢令將軍李息擊之，出代；令車騎將軍青出雲中以西至高闕。遂略河南地，至于隴西，捕首虜數千，畜數十萬，走白羊、樓煩王。遂以河南地為朔方郡。以三千八百戶封青為長平侯。青校尉蘇建有功，以千一百戶封建為平陵侯。使建筑朔方城"
+      "raw_count": 5,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "數千人。明年，匈奴入殺遼西太守，虜略漁陽二千餘人，敗韓將軍軍。漢令將軍李息擊之，出代；令車騎將軍青出雲中以西至高闕。遂略河南地，至于隴西，捕首虜數千，畜數十萬，走白羊、樓煩王。遂以河南地為朔方郡。以三千八百戶封青為長平侯。青校尉蘇建有功，以千一百戶封建為平陵侯。使建筑朔方城",
+      "paragraph_ids": [
+        "c-shiji-111-wei-huo:p005",
+        "c-shiji-111-wei-huo:p006",
+        "c-shiji-111-wei-huo:p013",
+        "c-shiji-111-wei-huo:p029"
+      ],
+      "mention_ids": [
+        "c-shiji-111-wei-huo:m005-0076",
+        "c-shiji-111-wei-huo:m006-0083",
+        "c-shiji-111-wei-huo:m006-0637",
+        "c-shiji-111-wei-huo:m013-0064",
+        "c-shiji-111-wei-huo:m029-0002"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-111-wei-huo:m005-0076": "c-shiji-111-wei-huo:p005",
+        "c-shiji-111-wei-huo:m006-0083": "c-shiji-111-wei-huo:p006",
+        "c-shiji-111-wei-huo:m006-0637": "c-shiji-111-wei-huo:p006",
+        "c-shiji-111-wei-huo:m013-0064": "c-shiji-111-wei-huo:p013",
+        "c-shiji-111-wei-huo:m029-0002": "c-shiji-111-wei-huo:p029"
+      },
+      "mention_id": "c-shiji-111-wei-huo:m005-0076",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m005-0076",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m005-0076"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m006-0083",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m006-0083"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m006-0637",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m006-0637"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m013-0064",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m013-0064"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-111-wei-huo:m029-0002",
+          "mention_ids": [
+            "c-shiji-111-wei-huo:m029-0002"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-111",
+      "chapter_id": "c-shiji-111-wei-huo",
+      "source_id": "s-shiji111-wei-huo",
+      "work_title": "史記"
+    },
+    {
+      "number": 118,
+      "category": "liezhuan",
+      "title": "淮南衡山列傳第五十八",
+      "paragraph_id": "c-shiji-118-huainan:p029",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "、陳喜等。廷尉治驗，公卿請逮捕衡山王治之。天子曰：「勿捕。」遣中尉安、大行息即問王，王具以情實對。吏皆圍王宮而守之。中尉大行還，以聞，公卿請遣宗正、大行與沛郡雜治王。王聞，即自剄殺。孝先自告反，除其罪；坐與王御婢姦，棄市。王后徐來亦坐蠱殺前王后乘舒，及太子爽坐王告不孝，皆棄市",
+      "paragraph_ids": [
+        "c-shiji-118-huainan:p029"
+      ],
+      "mention_ids": [
+        "c-shiji-118-huainan:m029-0255",
+        "c-shiji-118-huainan:m029-0280",
+        "c-shiji-118-huainan:m029-0294"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-118-huainan:m029-0255": "c-shiji-118-huainan:p029",
+        "c-shiji-118-huainan:m029-0280": "c-shiji-118-huainan:p029",
+        "c-shiji-118-huainan:m029-0294": "c-shiji-118-huainan:p029"
+      },
+      "mention_id": "c-shiji-118-huainan:m029-0255",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m029-0255",
+          "mention_ids": [
+            "c-shiji-118-huainan:m029-0255"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m029-0280",
+          "mention_ids": [
+            "c-shiji-118-huainan:m029-0280"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-118-huainan:m029-0294",
+          "mention_ids": [
+            "c-shiji-118-huainan:m029-0294"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "chapter_id": "c-shiji-118-huainan",
+      "source_id": "s-shiji118-huainan",
+      "work_title": "史記"
     },
     {
       "number": 120,
@@ -1082,7 +1309,61 @@
       "title": "汲鄭列傳第六十",
       "paragraph_id": "c-shiji-120-jizheng:p013",
       "count": 4,
-      "quote": "今召君矣。顧淮陽吏民不相得，吾徒得君之重，臥而治之。」黯既辭行，過大行李息，曰：「黯棄居郡，不得與朝廷議也。然御史大夫張湯智足以拒諫，詐足以飾非，務巧佞之語，辯數之辭，非肯正為天下言，專阿主意。主意所不欲，因而毀之；主意所欲，因而譽之。好興事，舞文法，內懷詐以御主心，外挾賊"
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "今召君矣。顧淮陽吏民不相得，吾徒得君之重，臥而治之。」黯既辭行，過大行李息，曰：「黯棄居郡，不得與朝廷議也。然御史大夫張湯智足以拒諫，詐足以飾非，務巧佞之語，辯數之辭，非肯正為天下言，專阿主意。主意所不欲，因而毀之；主意所欲，因而譽之。好興事，舞文法，內懷詐以御主心，外挾賊",
+      "paragraph_ids": [
+        "c-shiji-120-jizheng:p013"
+      ],
+      "mention_ids": [
+        "c-shiji-120-jizheng:m013-0176",
+        "c-shiji-120-jizheng:m013-0304",
+        "c-shiji-120-jizheng:m013-0335",
+        "c-shiji-120-jizheng:m013-0339"
+      ],
+      "mention_paragraph_ids": {
+        "c-shiji-120-jizheng:m013-0176": "c-shiji-120-jizheng:p013",
+        "c-shiji-120-jizheng:m013-0304": "c-shiji-120-jizheng:p013",
+        "c-shiji-120-jizheng:m013-0335": "c-shiji-120-jizheng:p013",
+        "c-shiji-120-jizheng:m013-0339": "c-shiji-120-jizheng:p013"
+      },
+      "mention_id": "c-shiji-120-jizheng:m013-0176",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m013-0176",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m013-0176"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m013-0304",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m013-0304"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m013-0335",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m013-0335"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-shiji-120-jizheng:m013-0339",
+          "mention_ids": [
+            "c-shiji-120-jizheng:m013-0339"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-120",
+      "chapter_id": "c-shiji-120-jizheng",
+      "source_id": "s-shiji120-jizheng",
+      "work_title": "史記"
     }
   ],
   "table_occurrences": [],
@@ -1160,6 +1441,30 @@
       }
     },
     {
+      "chapter_id": "c-shiji-118-huainan",
+      "work_id": "w-shiji",
+      "book_id": "b-shiji-118",
+      "source_id": "s-shiji118-huainan",
+      "source": {
+        "title": "史記／卷118",
+        "provider": "維基文庫",
+        "url": "https://zh.wikisource.org/wiki/史記/卷118",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=史記/卷118&oldid=7904122",
+        "revision_id": 7904122,
+        "accessed_on": "2026-10-11",
+        "extent": "固定修訂全文31段，末段索隱述贊分層。",
+        "image_verified": false,
+        "rights": "古代原文；數位轉錄依維基文庫CC BY-SA 4.0，保留署名及固定版本。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "character_conversion": {},
+          "editorial_readings": [],
+          "extraction_note": "去header2與現代節標；YL模板保留原曆首參數，數位公元年不收入正文。保留（十）［七］及元（朔七）［狩元］等校記，不默改。未核影像。",
+          "note": "全部身份與版本仍待覆核。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-shiji-120-jizheng",
       "work_id": "w-shiji",
       "book_id": "b-shiji-120",
@@ -1186,7 +1491,7 @@
   ],
   "relations": [],
   "related_people": {
-    "tmv_5d7_bx2": "李息（韓長孺列傳候選）"
+    "tmv_5d7_bx2": "李息"
   },
   "dates": [
     {
