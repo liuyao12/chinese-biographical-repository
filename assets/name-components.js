@@ -1,12 +1,22 @@
 // Display-only consensus. Original records and every source stay intact.
 const text = value => typeof value === 'string' && value.trim() ? value.trim() : null;
-export function summarizeNameComponents(value) {
+const recordMatches = (name, expected) => expected && Object.keys(expected).every(k => (name[k] ?? null) === expected[k]);
+export function summarizeNameComponents(value, preferredReadings = []) {
   const records = Array.isArray(value) ? value.filter(x => x && typeof x === 'object' && !Array.isArray(x)) : [];
   if (!records.length) return {names:null, records, conflicts:[], coreConflict:false, canHead:false};
+  // Decisions apply only to exact source-record locators, never a global character map.
+  const readings = Array.isArray(preferredReadings) ? preferredReadings.filter(r => r?.field === 'ming'
+    && r.coverage === 'listed_records_only' && r.status === 'editorial_provisional'
+    && typeof r.human_reviewed === 'boolean' && r.source_values?.includes(r.preferred_value)
+    && Array.isArray(r.records)) : [];
+  const displayRecords = records.map(n => {
+    const choices = readings.filter(r => r.person_id === n.person_id && r.records.some(x => recordMatches(n, x.record)));
+    return choices.length === 1 ? {...n, ming:choices[0].preferred_value} : n;
+  });
   const names = {}, conflicts = [];
   const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'];
   for (const field of fields) {
-    const values = [...new Set(records.map(x => text(x[field])).filter(Boolean))];
+    const values = [...new Set(displayRecords.map(x => text(x[field])).filter(Boolean))];
     if (values.length === 1) names[field] = values[0];
     else if (values.length > 1) conflicts.push({field, values});
   }

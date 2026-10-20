@@ -97,6 +97,8 @@ def build(root=ROOT, person_ids=None):
         preferred_readings = [dict(d['preferred_reading'], decision_id=d['id']) for d in b.get('identity_decisions', []) if d.get('preferred_reading')]
         if preferred_readings:
             profile['preferred_readings'] = preferred_readings
+        if b.get('preferred_name_component_readings'):
+            profile['preferred_name_component_readings'] = b['preferred_name_component_readings']
         if b.get('preferred_title_readings'):
             profile['preferred_title_readings'] = b['preferred_title_readings']
         if b.get('referent_interpretations'):

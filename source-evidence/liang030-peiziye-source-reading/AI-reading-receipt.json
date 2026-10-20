@@ -1,0 +1,54 @@
+{
+  "status": "AI逐行核讀",
+  "human_reviewed": false,
+  "main_scope": "梁030完整8段1836字，97markers（96原稿＋後漢088直接八滑覆讀補漏1）",
+  "reference_reading_keys": [
+    "nanqi035-1835",
+    "nanqi035-4321",
+    "nanqi050-1243",
+    "liang022-1585",
+    "houhan047-6592",
+    "houhan088-8770"
+  ],
+  "decisions": [
+    {
+      "entity": "qiwuling",
+      "resolution": "contextual_provisional 武陵昭王曄",
+      "reason": "齊爵與完整傳時代相符，未直接府屬名單交核，排除晉晞"
+    },
+    {
+      "entity": "ancheng",
+      "resolution": "contextual_provisional 安成康王秀",
+      "reason": "王傳封安成/右將軍/裴子野王門撰文共同上下文；原右軍/右將軍與時年不同仍保，不倒寫子野任年"
+    },
+    {
+      "entity": "qijiangxia",
+      "resolution": null,
+      "candidates": [
+        "鋒（南齊035）",
+        "寶玄（南齊050）"
+      ],
+      "reason": "兩正史傳均未明右軍府與子野橋，不能以相同齊爵任選，亦不能套宋義恭"
+    },
+    {
+      "entity": "dingyuan",
+      "resolution": null,
+      "candidates": [
+        "班超（後漢047定遠侯）",
+        "班勇（後漢088與八滑同事件）"
+      ],
+      "reason": "爵號與事件端對不同人；保張力，不稱班勇確曾定遠侯，不造第三人"
+    },
+    {
+      "entity": "bahua",
+      "resolution": "source_local 八滑〔後部親漢侯〕",
+      "reason": "後漢088明其個人與侯封，梁同擊北虜/從之事件；不是八人，也不採滑國血緣推測"
+    }
+  ],
+  "not_claimed": [
+    "reference其他人物全部標記",
+    "王傳全部生命官爵已結構化",
+    "數位原字已影像校對",
+    "外部有真人逐項核驗"
+  ]
+}

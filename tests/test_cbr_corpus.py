@@ -13,6 +13,9 @@ class CorpusTests(unittest.TestCase):
         self.root=Path(self.tmp.name)
         for folder in ('registry','corpus','source-evidence'):shutil.copytree(ROOT/folder,self.root/folder)
         shutil.copytree(ROOT/'data/historical-tables',self.root/'data/historical-tables')
+        # Source-scoped display choices bind records in the editorial name dataset.
+        (self.root/'data/corpus').mkdir(parents=True, exist_ok=True)
+        shutil.copy2(ROOT/'data/corpus/profile-names.json', self.root/'data/corpus/profile-names.json')
         shutil.copytree(ROOT/'sources/calendar-context',self.root/'sources/calendar-context')
         shutil.copytree(ROOT/'sources/witnesses',self.root/'sources/witnesses')
         shutil.copytree(ROOT/'sources/weishu-weishou',self.root/'sources/weishu-weishou')

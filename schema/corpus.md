@@ -1016,3 +1016,19 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 ### 宋041實授、奏請回證與宗祧爵位來源
 
 原生holding沿既有mode/attestation/effective_period。宋初追崇號謚的窄basis連篇首孝穆／皇后原字構件、傳主死亡與明追崇，不含姓；俱贈、於是追封／又追封需具名雙受者與同篇故官／主語鏈，奏請不可充實授。明追封為死後事件類別，不為滿足模型另造無記死亡日期。memorial_request分not_reported/confirmed_by_later_clause/partially_confirmed，連後文正式holding；500戶只有奏請，回證爵種不回證戶數，請求年不配無年實授。source_title_uses保存原用稱或命婦類稱、人物mention及可核holding，后／上不造爵。named_source_line_succession以前追封爵holding為source root，ritual predecessor另列且intervening_holding_status:not_asserted，不造早卒宣之實持或父／養父，其他明父承襲沿舊模型；國除只終爵不造死亡。
+
+### 遠祖聲稱之後的兄弟省略主語
+
+`source_clause_binding.kind: reported_ancestor_then_named_siblings` 只處理傳首「某N世孫。兄甲，弟乙、丙」的原式。主體是世孫句內的具名祖先，並非傳首後裔。binding連到同段原生 `ancestor` 斷言、後裔/祖先/兄/兩弟精確人物錨點及兄弟列字位；原ancestor須保source_number、reported_generation_number，generation_distance:null且adopted_for_family_tree:false。不能借此把遠祖採入族譜。
+
+各 `brother` 陳述保全列原詞，但object只對應一名具名兄或弟；`relative_birth_order`原詞定向，ordinal兩端均null。不補共同父母、祖父或同母。此窄式不放寬其他親屬模型，不把既有祖/曾祖聲稱冒作相鄰父子。
+
+### 無人物家族 namespace
+
+`family-assemblies.json` 的 `schema_mode: personless_namespace` 將家族namespace與人物身份分開：`namespace_id`是未占用的11字元家族碼，不能登記為person或匯出其人物JSON／profile；`root_person_id`為null，`entry_person_id`則指一個實際首節點。兩首節點同層、各parent為null；不是建立未知父親person，也不將其中一人誤接成另一人的父祖。
+
+目前只接受`collateral_root_group.type: unknown_shared_father_from_qualified_first_cousins`窄型。原生helper必須同時核對已驗「從父弟」精確父系堂親metric、兩端各自明父與三份完整received層來源；裴注的頂層或source_position層／text_layer、annotator及attached-note metadata均不能冒作正文。共父姓名及person ID必須null、不登記person，不推兩父長幼或同母。群組是可撤回編輯推論，不新增source_attested父子／兄弟。
+
+真後代仍以已有father斷言驗一代ID prefix。所有現行person endpoints遷移後不設永久別名；raw、原字、引文、source/paragraph/mention/record ID保持，歷史標記快照另標audit-only並接續指紋。suffix僅opaque枝碼，不是排行。泛從弟距離未定者不能靠此模式任接支路。
+
+`load_assemblies`舊二元回傳形狀維持，namespace row額外帶namespace_id、namespace_entry_person_id及qualified collateral_root_group。匯出索引選實際entry作標題，不要求namespace有真人物。profile保assembled_identity；`traceFamily`只對新模式附family_namespace兩個真人物入口及推論來源，父祖三代仍按既有明文關係，不因同族分組一概降成推論。未知共父槽不得被load為person。宗祧為嗣另存原關係，不改生父或增養父。

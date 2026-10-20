@@ -1377,7 +1377,7 @@ def validate(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(non_parental_relation_valid(a, paragraphs), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -1561,7 +1561,14 @@ def validate(root=ROOT):
                         except ImportError:
                             from historical_family_clauses import explicit_congdi_valid
                         check(explicit_congdi_valid(a, paragraphs), '從弟須有具名雙端、原詞字位與完整引文，不得補親等共祖')
-                    check(structure.get('distance') is None and structure.get('common_ancestor_person_id') is None, '未定從親不可補親等或共同祖先')
+                    precise_congfudi = False
+                    if a['predicate'] == 'agnatic_cousin' and qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_head_named_congfudi_of_named_reference':
+                        try:
+                            from scripts.biography_congfudi import biography_congfudi_valid
+                        except ImportError:
+                            from biography_congfudi import biography_congfudi_valid
+                        precise_congfudi = biography_congfudi_valid(a, paragraphs)
+                    check(precise_congfudi or (structure.get('distance') is None and structure.get('common_ancestor_person_id') is None), '未定從親不可補親等或共同祖先')
                     check(structure.get('subject_relative_age') in ('younger', 'older', 'unknown'), '從親長幼欄位無效')
                 if qualifiers.get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
                     try:
@@ -1603,6 +1610,13 @@ def validate(root=ROOT):
                     except ImportError:
                         from song059_father_brother import explicit_father_elder_brother_valid
                     check(explicit_father_elder_brother_valid(a, paragraphs, d['assertions']), '兄子與明示父名須有完整傳首、三端原詞及父子來源，不得補排行或祖父')
+                if qualifiers.get('source_clause_binding', {}).get('kind') == 'reported_ancestor_then_named_siblings':
+                    try:
+                        from scripts.reported_ancestor_siblings import reported_ancestor_siblings_valid
+                    except ImportError:
+                        from reported_ancestor_siblings import reported_ancestor_siblings_valid
+                    check(reported_ancestor_siblings_valid(a, paragraphs, d['assertions'], source_age_number),
+                          '遠祖世孫後接兄弟列須連到同段祖先原斷言，不得移作傳主兄弟、反轉長幼或補共同父母')
                 if 'relative_birth_order' in qualifiers:
                     order = qualifiers['relative_birth_order']
                     check(a['predicate'] in ('brother', 'sister', 'agnatic_cousin', 'maternal_cousin'), '相對排行須為同輩親屬')
@@ -2164,6 +2178,13 @@ def validate(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:
+            from scripts.preferred_name_components import validated_readings
+        except ImportError:
+            from preferred_name_components import validated_readings
+        validated_readings(catalog[1],
+            [n for r in catalog[1] if r.get('record_type') == 'person_name_component_set' for n in r['records']],
+            {r['id']:r for r in catalog[1] if r.get('record_type') == 'marked_chapter'})
         load_assemblies(root, catalog)
         def citation_dimensions(value):
             if isinstance(value, dict):

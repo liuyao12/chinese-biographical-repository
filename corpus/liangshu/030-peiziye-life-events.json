@@ -1,0 +1,87 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-liangshu-030-peiziye",
+  "events": [
+    {
+      "id": "le-liang030-peiziye-death",
+      "person_id": "hvz_7p7_g9m",
+      "event_type": "death",
+      "source_term": "卒官",
+      "source_anchor": {
+        "paragraph_id": "c-liangshu-030-peiziye:p006",
+        "start": 129,
+        "end": 131,
+        "surface": "卒官"
+      },
+      "date_expression": "中大通二年",
+      "normalized_date": {
+        "era": "CE",
+        "era_year": 530,
+        "year": 530,
+        "year_numbering": "astronomical",
+        "precision": "year",
+        "calendar": "chinese_civil",
+        "source_expression": "中大通二年",
+        "status": "editorial_provisional",
+        "original_quote": "俄遷中書侍郎，餘如故。大通元年，轉鴻臚卿，尋領步兵校尉。子野在禁省十餘年，靜默自守，未嘗有所請謁，外家及中表貧乏，所得俸悉分給之。無宅，借官地二畝，起茅屋數間。妻子恒苦饑寒，唯以教誨爲本，子侄祗畏，若奉嚴君。末年深信釋氏，持其教戒，終身飯麥食蔬。中大通二年，卒官，年六十二。",
+        "evidence": [
+          {
+            "work_id": "w-liangshu",
+            "book_id": "b-liangshu-030",
+            "chapter_id": "c-liangshu-030-peiziye",
+            "source_id": "s-liang030-ws1508510",
+            "paragraph_id": "c-liangshu-030-peiziye:p006",
+            "quote": "俄遷中書侍郎，餘如故。大通元年，轉鴻臚卿，尋領步兵校尉。子野在禁省十餘年，靜默自守，未嘗有所請謁，外家及中表貧乏，所得俸悉分給之。無宅，借官地二畝，起茅屋數間。妻子恒苦饑寒，唯以教誨爲本，子侄祗畏，若奉嚴君。末年深信釋氏，持其教戒，終身飯麥食蔬。中大通二年，卒官，年六十二。",
+            "person_mention_id": "c-liangshu-030-peiziye:p006:m0028"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "中大通",
+            "columns": {
+              "dynasty": "梁",
+              "era_name": "中大通",
+              "first_year": "529",
+              "last_year": "534"
+            },
+            "scope": "modern_era_year_equivalence_only",
+            "accessed_on": "2026-10-20",
+            "image_verified": false
+          }
+        ],
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "中大通",
+          "source_number": "二",
+          "regnal_year": 2,
+          "start_ce_year": 529,
+          "end_ce_year": 534,
+          "reference_index": 0
+        },
+        "rationale": "本段末句中大通二年直接修飾卒官。依梁中大通元年529換算為中國曆年度530；不換算公曆月日，不據年六十二倒算生年。",
+        "reviewer": "Codex（AI 代理）",
+        "human_reviewed": false,
+        "model": null
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-030",
+          "chapter_id": "c-liangshu-030-peiziye",
+          "source_id": "s-liang030-ws1508510",
+          "paragraph_id": "c-liangshu-030-peiziye:p006",
+          "quote": "俄遷中書侍郎，餘如故。大通元年，轉鴻臚卿，尋領步兵校尉。子野在禁省十餘年，靜默自守，未嘗有所請謁，外家及中表貧乏，所得俸悉分給之。無宅，借官地二畝，起茅屋數間。妻子恒苦饑寒，唯以教誨爲本，子侄祗畏，若奉嚴君。末年深信釋氏，持其教戒，終身飯麥食蔬。中大通二年，卒官，年六十二。",
+          "person_mention_id": "c-liangshu-030-peiziye:p006:m0028"
+        }
+      ],
+      "interpretation_note": "明年詞與死亡在同一句；前句大通元年屬轉官，不能當死亡年。年六十二另待結構化報齡，不倒推生年或推死地。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

@@ -99,5 +99,6 @@ export default {
   'Hanshu · volume 41, Zhou biography only':'《漢書》卷四十一，目前僅錄周氏傳文',
   'Cross-work reader':'跨作品閱讀',
   'Provisional reading; source spelling: {text}':'暫定校讀；來源原字：{text}',
+  'Name spelling selected for display: {preferred}; source spellings: {source} (provisional).':'姓名字形選讀：{preferred}；來源原字：{source}（暫定）。',
   'This source is not available in the imported catalog.':'已錄目錄中尚無此項來源。',
 };

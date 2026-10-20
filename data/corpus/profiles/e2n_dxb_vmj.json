@@ -60,6 +60,31 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-ws7903772",
+      "source": {
+        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "revision_id": 7903772,
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
+          "omitted_digital_paratext": []
+        },
+        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-069-zhouyi",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-069",
@@ -209,16 +234,118 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin069-zhouyi-09",
+      "subject_person_id": "e2n_dxb_vmj",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "顗從弟穆",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "source_clause_binding": {
+          "kind": "named_object_congdi_subject",
+          "start": 127,
+          "end": 131
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p001",
+          "quote": "周顗，字伯仁，安東將軍浚之子也。少有重名，神彩秀徹，雖時輩親狎，莫能媟也。司徒掾同郡賁嵩有清操，見顗，歎曰：「汝潁固多奇士！自頃雅道陵遲，今復見周伯仁，將振起舊風，清我邦族矣。」廣陵戴若思東南之美，舉秀才，入洛，素聞顗名，往候之，終坐而出，不敢顯其才辯。顗從弟穆亦有美譽，欲陵折顗，顗陶然弗與之校，於是人士益宗附之。州郡辟命皆不就。弱冠，襲父爵武城侯，拜秘書郎，累遷尚書吏部郎。東海王越子毗為鎮軍將軍，以顗為長史。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p001:m0130",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p001:m0127"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "3xx_gdy_or6_AAA": "周顗",
+    "3xx_gdy_or6_AAC": "周謨",
     "e2n_dxb_vmj": "周穆"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-jin061-zhoumo-jin069-zhoumu",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "3xx_gdy_or6_AAC",
+        "e2n_dxb_vmj"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-061-zhou-family:p005",
+        "c-jinshu-061-zhou-family:p016",
+        "c-jinshu-061-zhou-family:p019",
+        "c-jinshu-069-zhouyi:p001",
+        "c-jinshu-069-zhouyi:p006"
+      ],
+      "note": "061謨列浚三子，奏稱顗亡兄，歷中護軍；069穆明顗從弟。兩來源內人物各有canonical身份，是否同指仍未決，不以同音或阿奴自動合併。固定世說方正rev2567462劉孝標注引鄧粲晉紀周謨字叔治、顗次弟、仕至中護軍獨立支持061人物；該分層參照不是晉書原文或親見鄧粲原書。篇末阿奴小字另注，069阿奴火攻明嵩語境，不作同指充分證據。",
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "source_id": "s-jinshu-061-ws7903772"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "e2n_dxb_vmj"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin069-zhouyi-09",
+      "subject_person_id": "e2n_dxb_vmj",
+      "predicate": "agnatic_cousin",
+      "object_person_id": "3xx_gdy_or6_AAA",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "顗從弟穆",
+        "kinship_structure": {
+          "lineage": "paternal",
+          "generation_difference": 0,
+          "collateral": true,
+          "distance": null,
+          "common_ancestor_person_id": null,
+          "subject_relative_age": "younger"
+        },
+        "source_clause_binding": {
+          "kind": "named_object_congdi_subject",
+          "start": 127,
+          "end": 131
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p001",
+          "quote": "周顗，字伯仁，安東將軍浚之子也。少有重名，神彩秀徹，雖時輩親狎，莫能媟也。司徒掾同郡賁嵩有清操，見顗，歎曰：「汝潁固多奇士！自頃雅道陵遲，今復見周伯仁，將振起舊風，清我邦族矣。」廣陵戴若思東南之美，舉秀才，入洛，素聞顗名，往候之，終坐而出，不敢顯其才辯。顗從弟穆亦有美譽，欲陵折顗，顗陶然弗與之校，於是人士益宗附之。州郡辟命皆不就。弱冠，襲父爵武城侯，拜秘書郎，累遷尚書吏部郎。東海王越子毗為鎮軍將軍，以顗為長史。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p001:m0130",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p001:m0127"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

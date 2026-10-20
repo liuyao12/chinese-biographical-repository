@@ -83,7 +83,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     ['生母', family.mother, family.mother.length > 1 ? '多項生母記錄，身份或說法待整合' : ''],
     [t('Adoptive father (source-attested chuji)'), family.adoptive_father || [], ''],
     [t('Adopted children (source-attested chuji)'), family.adopted_children || [], ''],
-    ['配偶', family.spouses, ''], ['子女', family.children, '']
+    ['配偶', family.spouses, ''], ['子女', family.children, ''],
+    ['同族旁支（編輯接合；共同父未名）', family.family_namespace?.roots || [], '']
   ].filter(([, entries]) => entries.length).map(([label, entries, note]) => `<dt>${label}</dt><dd>${note ? `<small>${note}</small><br>` : ''}${relativeList(entries)}</dd>`).join('') : '';
   const unresolvedSpouses = (family?.unresolved_spouse_groups || []).map(g => `<div class="person-pending-spouse-group" data-identity-group="${h(g.id)}"><strong>配偶指涉未決：是否同一人尚未判定</strong><p>${h(g.rationale)}</p><ul>${g.references.map(r => `<li>來源稱法：${h(r.span.surface)}${evidenceQuotes(r)}${evidenceLinks([r])}</li>`).join('')}</ul><small>此組不表示已證一人或兩人；原始配偶陳述均保留。</small></div>`).join('');
   const familyHTML = familyRows || unresolvedSpouses ? `<section class="person-family"><h4>家族</h4><dl>${familyRows}</dl>${unresolvedSpouses}</section>` : '';
@@ -99,10 +100,11 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
     return `<div class="person-title-succession"><strong>${h(title)}</strong> <small>承前爵稱 · 暫定</small><p><q>${h(s.source_term)}</q></p>${full ? `<details><summary>承襲依據</summary><p>${h(s.rationale)}</p><a href="${h(profileURL(parent.id))}">前任人物 →</a>${(r.evidence || []).map(e=>`${evidenceQuotes(e)}${evidenceLinks([e])}`).join('')}</details>` : ''}</div>`;
   }).filter(Boolean);
   const successionHTML=successions.length?`<section class="person-title-successions"><h4>來源所記承襲</h4>${successions.join('')}</section>`:'';
-  const nameDisplay = summarizeNameComponents(p.name_components);
+  const nameDisplay = summarizeNameComponents(p.name_components, p.preferred_name_component_readings);
   const {names, records:components, conflicts:nameConflicts} = nameDisplay;
+  const preserveLabelForPartialName = Boolean(names && !names.clan_style?.value && !names.full_name && names.ming && !names.surname && p.label?.endsWith(names.ming) && p.label.length > names.ming.length);
   const personalName = names?.clan_style?.value || names?.full_name || (names ? `${names.surname || ''}${names.ming || ''}` : '');
-  const heading = names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
+  const heading = preserveLabelForPartialName ? p.label : names && nameDisplay.canHead ? `${names.title || ''} ${personalName}`.trim() || p.label : p.label;
   const additional = names ? nameAliases(names) : [];
   const componentAlternatives = components.flatMap(x => x.component_alternatives || []).map(a => {
     const c=a.components || {}, labels=[['surname','Surname'],['ming','Given name'],['zi','Courtesy name']].filter(([k])=>c[k]).map(([k,label])=>`${ui(label)} ${h(c[k])}`);
@@ -226,7 +228,8 @@ export function personCard(p, full = false, sourceRef = 'main', family = null) {
   }).join('');
   const nameFieldLabels = {surname:ui('Surname'),ming:ui('Given name'),zi:ui('Courtesy name'),xiaozhi:ui('Childhood name'),xiaoming:ui('Childhood name (xiaoming)'),hao:'號',former_ming:ui('Former given name'),full_name:'全名',clan_style:'氏稱'};
   const nameConflictHTML = nameConflicts.length ? `<p class="person-name-conflicts">姓名構件有異說：${nameConflicts.map(x => `${nameFieldLabels[x.field]} ${x.values.map(h).join('／')}`).join('；')}。${nameDisplay.coreConflict ? '姓名標題沿用人物標籤；未任選來源構件。' : '有差異的欄位未選作預設。'}</p>` : '';
-  const nameEvidence = names ? `${nameConflictHTML}<details class="person-name-evidence"><summary>姓名依據</summary>${components.map(n => {
+  const nameReadingHTML = (p.preferred_name_component_readings || []).map(r => `<p class="person-name-display-reading">${ui('Name spelling selected for display: {preferred}; source spellings: {source} (provisional).', {preferred:r.preferred_value,source:(r.source_values || []).join('／')})}${h(r.rationale || '')}</p>`).join('');
+  const nameEvidence = names ? `${nameConflictHTML}${nameReadingHTML}<details class="person-name-evidence"><summary>姓名依據</summary>${components.map(n => {
     const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'].filter(k => typeof n[k] === 'string' && n[k].trim());
     const source = {...(p.sources || []).find(x => x.chapter_id === n.chapter_id), ...n};
     return `<div class="person-name-source">${fields.length ? `<p>${fields.map(k => `${nameFieldLabels[k]} ${h(n[k])}`).join(' · ')}</p>` : ''}${typeof n.title === 'string' && n.title.trim() ? `<p class="person-name-source-title">本筆姓名來源所列稱號：${h(n.title)}</p>` : ''}<blockquote>${h(n.quote || '')}</blockquote>${evidenceLinks([source])}${n.note ? `<p>${h(n.note)}</p>` : ''}${dateReferences(n)}</div>`;

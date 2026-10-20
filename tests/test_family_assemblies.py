@@ -110,7 +110,9 @@ class FamilyAssembliesTests(unittest.TestCase):
         self.assertEqual(che['parent_person_id'], 'yqp_nlb_p1p_ACA')
         self.assertEqual(source['yqp_nlb_p1p_AB']['person_id'], 'yqp_nlb_p1p_AB')
         self.assertEqual(len(source), len(rows))
-        self.assertTrue(all(row['person_id'].startswith(row['root_person_id']) for row in rows.values()))
+        liu_rows = [row for row in rows.values() if row['root_person_id'] == bang['root_person_id']]
+        self.assertTrue(liu_rows)
+        self.assertTrue(all(row['person_id'].startswith(bang['root_person_id']) for row in liu_rows))
         jiao = source['yqp_nlb_p1p_D']
         self.assertEqual(jiao['parent_person_id'], 'yqp_nlb_p1p')
         self.assertIsNone(jiao['source_assertion_id'])

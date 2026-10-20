@@ -1,4 +1,26 @@
 import {orderChildren} from './sibling-order.js';
+// Read validated namespace metadata; its unnamed structural slot is never loaded as a person.
+export async function namespaceNavigation(person, load) {
+  const row = person.assembled_identity, group = row?.collateral_root_group;
+  if (!row?.namespace_id || row.root_person_id !== null
+      || group?.type !== 'unknown_shared_father_from_qualified_first_cousins'
+      || group.status !== 'contextual_provisional' || !Array.isArray(group.references) || !group.references.length
+      || !Array.isArray(group.root_person_ids)
+      || group.common_parent_person_id !== null || group.common_parent_name !== null
+      || group.common_parent_registered !== false || group.relative_age !== 'unknown'
+      || new Set(group.root_person_ids).size !== 2
+      || group.root_person_ids.some(id => id === row.namespace_id || !id.startsWith(row.namespace_id + '_'))) return null;
+  const roots = await Promise.all(group.root_person_ids.map(async id => {
+    let data;
+    try { data = await load(id); } catch { data = null; }
+    return {id, label: data?.label || id, ...(data ? {person: data} : {unavailable: true}),
+      role: 'assembly_inferred', inference_note: group.rationale, evidence: group.references};
+  }));
+  return {namespace_id: row.namespace_id, entry_person_id: row.namespace_entry_person_id,
+    roots, common_parent_person_id: null, qualification: 'assembly_inferred',
+    inference_note: group.rationale, evidence: group.references};
+}
+
 // Traverse source relations and separately attributed assembly edges, never stored ancestor chains.
 export async function traceFamily(person, load) {
   const own = p => new Set(p.person_ids || [p.id]);
@@ -166,7 +188,9 @@ export async function traceFamily(person, load) {
   const [adoptiveFather, adoptedChildren] = await Promise.all(
     ['adoptive_father', 'adopted_children'].map(kind => resolve(related(person, kind))));
   const unresolvedSpouseGroups = (person.unresolved_relation_identity_groups || []).filter(g => g.status === 'unresolved' && g.predicate === 'spouse' && g.same_person === null && g.distinct_people === null && [g.common_person_id, ...g.candidate_person_ids].some(id => own(person).has(id)));
+  const familyNamespace = await namespaceNavigation(person, load);
   return {ancestors, mother, spouses, children: ordered.entries,
+    ...(familyNamespace ? {family_namespace: familyNamespace} : {}),
     ...(unresolvedSpouseGroups.length ? {unresolved_spouse_groups: unresolvedSpouseGroups} : {}),
     ...(adoptiveFather.length ? {adoptive_father: adoptiveFather} : {}),
     ...(adoptedChildren.length ? {adopted_children: adoptedChildren} : {}),

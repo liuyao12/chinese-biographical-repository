@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "召公",
-    "召虎"
+    "召虎",
+    "召"
   ],
   "titles": [],
   "addresses": [],
@@ -137,10 +138,70 @@
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
       "work_title": "三國志"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "周浚及嵩、謨、馥完整選定單元",
+      "paragraph_id": "c-jinshu-061-zhou-family:p010",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "夫傅說之相高宗，申召之輔宣王，管仲之佐齊桓，衰范之翼晉文，或宗師其道，垂拱受成，委以權重，終至匡主，未有憂其逼己，還為國蠹者也。始田氏擅齊，王莽篡漢，皆藉封土之強，假累世之寵，因暗弱之主，資母后之權，樹比周之黨，階絕滅之",
+      "paragraph_ids": [
+        "c-jinshu-061-zhou-family:p010"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-zhou-family:p010:m0009"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-zhou-family:p010:m0009": "c-jinshu-061-zhou-family:p010"
+      },
+      "mention_id": "c-jinshu-061-zhou-family:p010:m0009",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-zhou-family:p010:m0009",
+          "mention_ids": [
+            "c-jinshu-061-zhou-family:p010:m0009"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "source_id": "s-jinshu-061-ws7903772",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-ws7903772",
+      "source": {
+        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "revision_id": 7903772,
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
+          "omitted_digital_paratext": []
+        },
+        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
     {
       "chapter_id": "c-sanguozhi-009-caozhen",
       "work_id": "w-sanguozhi",

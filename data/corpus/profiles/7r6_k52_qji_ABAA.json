@@ -3130,7 +3130,7 @@
     {
       "number": 33,
       "category": "",
-      "title": "王祥、王覽家世選段",
+      "title": "王祥、王覽本傳",
       "paragraph_id": "c-jinshu-033-wanglan-family:p008",
       "count": 1,
       "raw_count": 1,
@@ -3319,6 +3319,61 @@
       "book_id": "b-jinshu-059",
       "chapter_id": "c-jinshu-059-liang-yang",
       "source_id": "s-jinshu-059-liang-yang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 61,
+      "category": "",
+      "title": "周浚及嵩、謨、馥完整選定單元",
+      "paragraph_id": "c-jinshu-061-zhou-family:p008",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "是時帝以王敦勢盛，漸疏忌王導等。嵩上疏曰：",
+      "paragraph_ids": [
+        "c-jinshu-061-zhou-family:p008",
+        "c-jinshu-061-zhou-family:p011",
+        "c-jinshu-061-zhou-family:p013"
+      ],
+      "mention_ids": [
+        "c-jinshu-061-zhou-family:p008:m0012",
+        "c-jinshu-061-zhou-family:p011:m0001",
+        "c-jinshu-061-zhou-family:p013:m0008"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-061-zhou-family:p008:m0012": "c-jinshu-061-zhou-family:p008",
+        "c-jinshu-061-zhou-family:p011:m0001": "c-jinshu-061-zhou-family:p011",
+        "c-jinshu-061-zhou-family:p013:m0008": "c-jinshu-061-zhou-family:p013"
+      },
+      "mention_id": "c-jinshu-061-zhou-family:p008:m0012",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-061-zhou-family:p008:m0012",
+          "mention_ids": [
+            "c-jinshu-061-zhou-family:p008:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-zhou-family:p011:m0001",
+          "mention_ids": [
+            "c-jinshu-061-zhou-family:p011:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-061-zhou-family:p013:m0008",
+          "mention_ids": [
+            "c-jinshu-061-zhou-family:p013:m0008"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "source_id": "s-jinshu-061-ws7903772",
       "work_title": "晉書"
     },
     {
@@ -5595,7 +5650,7 @@
         "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7033&oldid=2650519",
         "revision_id": 2650519,
         "accessed_on": "2026-10-18",
-        "extent": "王祥開篇三段及王覽完整附傳五段；不是全卷。",
+        "extent": "王祥完整本傳及王覽完整附傳；卷三十三後續鄭沖、何曾、石苞諸傳不在本單元。",
         "text_scope": "partial_chapter",
         "review_status": "text_checked",
         "image_verified": false,
@@ -5704,7 +5759,8 @@
               "begin_anchor": "初，呂虔有佩刀，工相之，以爲必",
               "end_anchor": "，興於江左矣。裁子導，別有傳。"
             }
-          ]
+          ],
+          "completion_appendix": "同固定修訂2650519補入原始行20–35八段；原八段全文、ID與mentions全值保留。原字漢未、乙太保、Я脯等不靜改。"
         }
       }
     },
@@ -17751,6 +17807,31 @@
             }
           ]
         }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-ws7903772",
+      "source": {
+        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "revision_id": 7903772,
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
+          "omitted_digital_paratext": []
+        },
+        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
       }
     },
     {
