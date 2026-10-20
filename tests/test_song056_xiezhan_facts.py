@@ -17,7 +17,12 @@ class XiezhanFacts(unittest.TestCase):
  def setUpClass(cls):cls.cat=load_catalog(ROOT)
  def test_scoped_counts(self):self.assertEqual((len(HS),len(N),len(LE),len(AG),len(AD),len(TP)),(23,19,4,3,4,1));self.assertEqual(REVIEW['formal_record_count'],54)
  def test_source_and_ner_exactly_preserved(self):
-  self.assertEqual(H(E(P)),REVIEW['source_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
+  fidelity=J(ROOT/'source-evidence/song041-family-rekey-source-fidelity.json')
+  self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256'])
+  self.assertEqual(H(E(P)),fidelity['after_paragraphs_sha256'])
+  projection=[{**p,'mentions':[{k:v for k,v in m.items()if k!='person_id'}for m in p['mentions']]}for p in P]
+  self.assertEqual(H(E(projection)),fidelity['source_ner_without_person_endpoints_sha256'])
+  self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
  def test_original_source_annotation_evidence_bound(self):
   b=REVIEW['source_only_annotation'];self.assertEqual(H(E(b)),REVIEW['source_only_annotation_sha256']);self.assertNotIn('age_assertions',b);self.assertNotIn('title_proposals',b);self.assertFalse(b['human_reviewed']);self.assertEqual(len(REVIEW['source_chapter_sha256']),64)
  def test_zhan_two_names_and_courtesy_pairings(self):
