@@ -32,11 +32,16 @@ class WangYiSourceBoundaries(unittest.TestCase):
         self.assertEqual(father['qualifiers']['source_term'], '父苖')
         self.assertEqual(father['object_person_id'], 'qsd_v11_ya1_A')
 
-    def test_unresolved_zhangchang_is_not_a_claim_of_distinct_people(self):
+    def test_prior_uncertain_zhangchang_review_is_explicitly_superseded(self):
         review = read('source-evidence/song046-wangyi-recovery-v2/zhangchang-candidates.json')
         self.assertIsNone(review['same_person'])
         self.assertIsNone(review['distinct_people'])
         self.assertFalse(review['reference_only']['original_scholar_work_examined'])
+        self.assertEqual(review['status'], 'superseded_by_primary_source_review')
+        current = read(review['superseded_by']['path'])
+        self.assertTrue(current['distinct_people'])
+        self.assertFalse(current['same_person'])
+        self.assertFalse(current['human_reviewed'])
         p = self.paragraphs['p003']
         self.assertEqual(next(m['person_id'] for m in p['mentions']
                               if m['surface'] == '張暢'), 'q7q_j3y_nhj')

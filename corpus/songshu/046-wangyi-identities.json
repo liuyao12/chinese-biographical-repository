@@ -148,7 +148,7 @@
         "c-songshu-046-wangyi"
       ],
       "status": "contextual_provisional",
-      "confidence_level": "medium",
+      "confidence_level": "high",
       "identification_basis": {
         "kind": "source_context",
         "target_mention_ids": [
@@ -165,10 +165,19 @@
           "quote": "晉太元末徙居彭城兄弟名犯晉宣元二帝諱並以字稱叡字元德北土重同姓謂之骨肉有逺來相投者莫不竭力營贍若不至者以為不義不為鄉里所容仲德聞王愉在江南是太原人乃徃依之愉禮之甚薄因至姑熟投桓𤣥值𤣥簒見輔國將軍張暢言及世事仲德曰自古革命誠非一族然今之起者恐不足以成大事"
         }
       ],
-      "rationale": "本段明繫桓玄篡位前後之輔國將軍張暢。既有a16_631_e88目前來源為宋085元嘉二十七年張暢與李孝伯事；約四十七年跨度本身不足證兩人必異，也未有足夠同指證據，故暫分立而不按同名合併。固定維基文庫2118581的ref轉引孫虨《宋書考論》只作參考；未親見孫書，未證此張暢與張邵兄子必異。候選與可修訂條件另存source-evidence/song046-wangyi-recovery-v2/zhangchang-candidates.json。",
+      "rationale": "補讀固定宋059完整張暢本傳後，元嘉二十七年彭城／李孝伯事件與046附傳、085相合，支持a16為字少微、邵兄子。059大明元年卒、時年五十，與固定宋001元興二三年桓玄篡／王元德謀襲被誅所繫早輔國張暢場景有死亡年齡反證，首選q7與a16分立；不把約408推算存成原文生年。047江夏相張暢之及孫虨考論轉引只作q7候選，原文未明示異名，不合ID。完整原單元與資格見source-evidence/zhangchang-primary-review/identity-review.json。",
       "reviewer": "Codex（AI代理）",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "references": [
+        {
+          "scope": "fixed_primary_age_and_parallel_context_identity_review",
+          "review_id": "review-zhangchang-primary-001",
+          "path": "source-evidence/zhangchang-primary-review/identity-review.json",
+          "source_units_path": "source-evidence/zhangchang-primary-review/fixed-units.json",
+          "human_reviewed": false
+        }
+      ]
     }
   ]
 }

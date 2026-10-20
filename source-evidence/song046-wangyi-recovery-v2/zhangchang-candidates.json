@@ -6,7 +6,7 @@
   ],
   "same_person": null,
   "distinct_people": null,
-  "status": "unresolved_keep_separate_pending_evidence",
+  "status": "superseded_by_primary_source_review",
   "candidate_list_exhaustive": false,
   "left_mention_id": "c-songshu-046-wangyi:p003:m0097",
   "right_mention_id": "c-songshu-085-xiezhuang:p001:m0176",
@@ -2038,5 +2038,10 @@
   },
   "human_reviewed": false,
   "reviewer": "Codex（AI代理）",
-  "model": null
+  "model": null,
+  "superseded_by": {
+    "path": "source-evidence/zhangchang-primary-review/identity-review.json",
+    "record_id": "review-zhangchang-primary-001"
+  },
+  "historical_review_only": true
 }
