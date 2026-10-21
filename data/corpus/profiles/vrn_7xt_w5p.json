@@ -227,8 +227,116 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin069-zhouyi-05",
+      "subject_person_id": "vrn_7xt_w5p",
+      "predicate": "father",
+      "object_person_id": "ad8_gqj_58q",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "長子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ad8_gqj_58q",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0079",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0076"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin069-zhouyi-06",
+      "subject_person_id": "kgk_e5n_8sz",
+      "predicate": "father",
+      "object_person_id": "vrn_7xt_w5p",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "少子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "vrn_7xt_w5p",
+          "scope": "sons_of_parent",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0102",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0099"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin069-zhouyi-10",
+      "subject_person_id": "vrn_7xt_w5p",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "es5_7k9_btk",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "無子，以弟頤長子琳為嗣",
+        "succession_kind": "biography_head_younger_brother_eldest_son_weisi",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred",
+        "source_clause_binding": {
+          "kind": "same_paragraph_named_head_wuzi_di_changzi_weisi",
+          "start": 71,
+          "end": 82,
+          "father_person_mention_id": "c-jinshu-069-zhouyi:p010:m0076",
+          "father_assertion_id": "a-jin069-zhouyi-05"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0079",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0000"
+        }
+      ],
+      "interpretation_note": "閔為完整傳首主體，無子而取弟頤長子琳為嗣。僅記宗祧承繼；不判養子，不改琳明文父頤，不造閔生琳。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "ad8_gqj_58q": "周頤",
+    "es5_7k9_btk": "周閔",
+    "kgk_e5n_8sz": "周文",
     "vrn_7xt_w5p": "周琳"
   },
   "dates": [],
@@ -236,7 +344,112 @@
   "person_ids": [
     "vrn_7xt_w5p"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin069-zhouyi-05",
+      "subject_person_id": "vrn_7xt_w5p",
+      "predicate": "father",
+      "object_person_id": "ad8_gqj_58q",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "長子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "ad8_gqj_58q",
+          "scope": "sons_of_parent",
+          "ordinal": 1,
+          "position": "eldest",
+          "interpretation_status": "source_attested"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0079",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0076"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin069-zhouyi-06",
+      "subject_person_id": "kgk_e5n_8sz",
+      "predicate": "father",
+      "object_person_id": "vrn_7xt_w5p",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "少子",
+        "lineage": "paternal",
+        "birth_order": {
+          "parent_person_id": "vrn_7xt_w5p",
+          "scope": "sons_of_parent",
+          "ordinal": null,
+          "position": "younger_or_youngest",
+          "interpretation_status": "ambiguous"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0102",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0099"
+        }
+      ],
+      "interpretation_note": "完整原段及雙人物錨點的明文關係；未補父祖、婚配、生母、精確年代或來源未述的親等。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin069-zhouyi-10",
+      "subject_person_id": "vrn_7xt_w5p",
+      "predicate": "ritual_successor_of",
+      "object_person_id": "es5_7k9_btk",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "無子，以弟頤長子琳為嗣",
+        "succession_kind": "biography_head_younger_brother_eldest_son_weisi",
+        "legal_adoption_status": "not_stated",
+        "parentage_inference": "not_inferred",
+        "source_clause_binding": {
+          "kind": "same_paragraph_named_head_wuzi_di_changzi_weisi",
+          "start": 71,
+          "end": 82,
+          "father_person_mention_id": "c-jinshu-069-zhouyi:p010:m0076",
+          "father_assertion_id": "a-jin069-zhouyi-05"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-069",
+          "chapter_id": "c-jinshu-069-zhouyi",
+          "source_id": "s-jinshu-069-zhouyi",
+          "paragraph_id": "c-jinshu-069-zhouyi:p010",
+          "quote": "閔字子騫，方直有父風。歷衡陽、建安、臨川太守，侍中，中領軍，吏部尚書，尚書左僕射，加中軍將軍，轉護軍，領秘書監。卒，追贈金紫光祿大夫，諡曰烈。無子，以弟頤長子琳為嗣。琳仕至東陽太守。恬、頤並歷卿守。琳少子文，驃騎諮議參軍。",
+          "subject_person_mention_id": "c-jinshu-069-zhouyi:p010:m0079",
+          "object_person_mention_id": "c-jinshu-069-zhouyi:p010:m0000"
+        }
+      ],
+      "interpretation_note": "閔為完整傳首主體，無子而取弟頤長子琳為嗣。僅記宗祧承繼；不判養子，不改琳明文父頤，不造閔生琳。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

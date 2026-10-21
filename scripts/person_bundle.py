@@ -378,6 +378,13 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
         enriched_names.append(dict(name, work_id=chapter['work_id'],
                                    book_id=chapter['book_id'], source_id=chapter['source_id']))
     name_components = enriched_names
+    try:
+        from .preferred_name_components import validated_readings
+    except ImportError:
+        from preferred_name_components import validated_readings
+    preferred_name_components = validated_readings(records,
+        [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
+        chapters, ids)
     date_decisions = [d for r in records if r.get('record_type') == 'life_event_date_decision_set'
                       for d in r['decisions'] if set(d['person_ids']).issubset(ids)]
     try:
@@ -751,6 +758,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                                    'unreviewed_conflicts_may_remain': True, 'runtime_ai_required': False},
             'family_paths': [dict(people[pid]['family_path'], person_id=pid) for pid in sorted(ids) if 'family_path' in people[pid]],
             **({'name_components': name_components} if name_components else {}),
+            **({'preferred_name_component_readings': preferred_name_components} if preferred_name_components else {}),
             **({'person_events': person_events} if person_events else {}),
             **({'life_events': life_events} if life_events else {}),
             **({'chinese_civil_year_normalizations': [dict(e['chinese_civil_year'], record_id=e['id'], person_id=e['person_id'],

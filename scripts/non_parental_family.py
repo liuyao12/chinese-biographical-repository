@@ -1,7 +1,13 @@
 """Source-bound care and ritual succession do not create biological parentage."""
 
 
-def non_parental_relation_valid(assertion, paragraphs):
+def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get("qualifiers", {}).get("succession_kind") == "biography_head_younger_brother_eldest_son_weisi":
+        try:
+            from scripts.biography_ritual_succession import valid
+        except ImportError:
+            from biography_ritual_succession import valid
+        return valid(assertion, paragraphs, assertions or [])
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'congmu_weans_child_and_nurses_named_child':
         try:
             from scripts.song047_collateral_care import valid
