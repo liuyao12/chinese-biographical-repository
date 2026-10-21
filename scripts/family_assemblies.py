@@ -28,6 +28,20 @@ def load_assemblies(root, catalog):
     chapters = {r['id']: r for r in records if r.get('record_type') == 'marked_chapter'}
     source_map, assembled = {}, {}
     for assembly in json.loads(path.read_text())['assemblies']:
+        if assembly.get('schema_mode') == 'personless_namespace':
+            try:
+                from .personless_namespace import namespace_members
+            except ImportError:
+                from personless_namespace import namespace_members
+            if any(row.get('namespace_id') == assembly.get('namespace_id') for row in assembled.values()):
+                raise ValueError('Namespace reused by another assembly')
+            namespace_rows = namespace_members(assembly, people, assertions, chapters)
+            if any(pid in assembled or source in source_map for pid, row in namespace_rows.items() for source in row['source_person_ids']):
+                raise ValueError('Namespace member already assembled')
+            for pid, row in namespace_rows.items():
+                assembled[pid] = row
+                for source in row['source_person_ids']: source_map[source] = row
+            continue
         rows = {m['person_id']: m for m in assembly['members']}
         root_id = assembly['root_person_id']
         if root_id not in rows or rows[root_id]['parent_person_id'] is not None:

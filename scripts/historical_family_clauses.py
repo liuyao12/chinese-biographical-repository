@@ -44,6 +44,12 @@ def named_zusun_fenghou_valid(a,paragraphs):
     except(KeyError,TypeError,ValueError,StopIteration):return False
 
 def explicit_congdi_valid(a,paragraphs):
+    if a.get('qualifiers',{}).get('source_clause_binding',{}).get('kind')=='biography_head_named_congfudi_of_named_reference':
+        try:
+            from scripts.biography_congfudi import biography_congfudi_valid
+        except ImportError:
+            from biography_congfudi import biography_congfudi_valid
+        return biography_congfudi_valid(a,paragraphs)
     # Qualified indirect congdi clauses.
     if a.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') in ('speaker_self_report_congdi', 'biography_head_an_reports_to_its_congdi'):
         try:

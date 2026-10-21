@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {personCard} from '../assets/cbr-person.js';
 const production=JSON.parse(readFileSync(new URL('./fixtures/partial-name-title-profiles.json',import.meta.url),'utf8')).profiles;
 const heading=(p,full)=>personCard(p,full).match(full?/<h1>(.*?)<\/h1>/s:/<h3>(.*?)<\/h3>/s)?.[1];
-for(const [id,label] of [['es5_7k9_btk','周閔'],['2n6_7xk_5ov','江夏王義恭'],['9df_923_1a1','竟陵王義宣'],['r5s_lra_wfi','東甌王 廣武侯望']]) {
+for(const [id,label] of [['3xx_gdy_or6_AAAA','周閔'],['2n6_7xk_5ov','江夏王義恭'],['9df_923_1a1','竟陵王義宣'],['r5s_lra_wfi','東甌王 廣武侯望']]) {
  test(`actual partial name keeps the whole canonical label without combining source rank: ${label}`,()=>{
   const p=production.find(x=>x.id===id);assert(p);const before=structuredClone(p);
   assert.equal(p.label,label);assert(p.name_components.some(x=>x.ming&&!x.surname));

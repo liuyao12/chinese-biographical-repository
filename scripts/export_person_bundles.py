@@ -138,9 +138,11 @@ def export(root=ROOT):
             result['assembled_children'] = assembled_children[parent_id]
         (destination / (alias + '.json')).write_text(json.dumps(result, ensure_ascii=False, separators=(',', ':')) + '\n')
     expected_ids = set(catalog[0]) | set(assemblies) | set(aliases)
-    for path in destination.glob('*.json'):
-        if path.name != 'index.json' and path.stem not in expected_ids:
-            path.unlink()
+    try:
+        from .personless_namespace import prune_person_files
+    except ImportError:
+        from personless_namespace import prune_person_files
+    prune_person_files(destination, expected_ids)
     lines = ['# 人物 JSON 索引', '', '可重建匯出，涵蓋目前已標註資料，包含明示選用的暫定跨篇同指；原 ID、證據與判讀均保留。並非全部史料或完整覆核。', '',
              '程式可讀取 [index.json](index.json)，再依各筆 `path` 取得人物資料。重新產生：`python3 scripts/export_person_bundles.py`。', '',
              '出生排行與籍貫結構化欄位仍在逐篇回填；缺欄位不代表來源沒有此資訊。提及頻次依固定見證的獨立位置計算；原始錨點完整保留，同位置節引重出另列raw／duplicate與對應群組，不代表來源權威度。', '',
@@ -156,7 +158,11 @@ def export(root=ROOT):
             singles.extend(members)
             continue
         members.sort(key=lambda row: row['person_id'])
-        root_row = next(v for v in members if v['person_id'] == family)
+        try:
+            from .personless_namespace import namespace_index_root
+        except ImportError:
+            from personless_namespace import namespace_index_root
+        root_row = namespace_index_root(family, members)
         member_rows = [f"| `{v['person_id'][12:] or '根'}` | {person_label(v)} | {source_column(v)} | [JSON]({quote(v['path'], safe='_.-')}) |" for v in members]
         # 大家族可以跨頁，家族根、完整 ID 與表列尾碼仍保持一致。
         for part, table in enumerate(table_blocks(member_rows), 1):

@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "id": "2xw_y7a_0ek",
+  "canonical_person_id": "2xw_y7a_0ek",
+  "label": "綽〔康弟，楷弟〕",
+  "identity_note": "主本明見人物；來源局部身份，此次分配來源局部ID，未宣稱跨史身份已全部覆核。",
+  "review": "ai_provisional",
+  "names": [
+    "綽"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 30,
+      "category": "",
+      "title": "裴子野完整本傳（卷三十選錄）",
+      "paragraph_id": "c-liangshu-030-peiziye:p001",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "裴子野字幾原，河東聞喜人，晉太子左率康八世孫。兄黎，弟楷、綽，並有盛名，所謂「四裴」也。曾祖松之，宋太中大夫。祖駰，南中郎外兵參軍。父昭明，通直散騎常侍。",
+      "paragraph_ids": [
+        "c-liangshu-030-peiziye:p001"
+      ],
+      "mention_ids": [
+        "c-liangshu-030-peiziye:p001:m0029"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-030-peiziye:p001:m0029": "c-liangshu-030-peiziye:p001"
+      },
+      "mention_id": "c-liangshu-030-peiziye:p001:m0029",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-030-peiziye:p001:m0029",
+          "mention_ids": [
+            "c-liangshu-030-peiziye:p001:m0029"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-030",
+      "chapter_id": "c-liangshu-030-peiziye",
+      "source_id": "s-liang030-ws1508510",
+      "work_title": "梁書"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-liangshu-030-peiziye",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-030",
+      "source_id": "s-liang030-ws1508510",
+      "source": {
+        "title": "梁書/卷30",
+        "revision_id": 1508510,
+        "revision_timestamp": "2018-10-23T11:04:54Z",
+        "status": 200,
+        "response_sha256": "a0c2fde0d659c9579a74194db70540c89ea4ff8160f8761aecdeeeec25530db4",
+        "raw_sha256": "930b640ef553931a6d0f2c2b8c548fbd69e0f0db12dd6637222764518d1b871f",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%A2%81%E6%9B%B8%2F%E5%8D%B730&oldid=1508510",
+        "api_url": "https://zh.wikisource.org/w/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&titles=%E6%A2%81%E6%9B%B8%2F%E5%8D%B730",
+        "image_verified": false,
+        "human_reviewed": false,
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%A2%81%E6%9B%B8%2F%E5%8D%B730&oldid=1508510",
+        "raw_path": "sources/liangshu/wikisource-1508510-raw.wikitext",
+        "raw_file_sha256": "930b640ef553931a6d0f2c2b8c548fbd69e0f0db12dd6637222764518d1b871f",
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "description": "原字不轉換；僅移除明示wiki wrapper與排版空白，逐碼projection另存；未影像校勘。",
+          "omitted_digital_paratext": []
+        },
+        "extent": "裴子野完整本傳8段1836字，止於顧協傳前；不是卷三十全卷。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-liang030-kang-brother-chuo",
+      "subject_person_id": "y8f_xr3_osd",
+      "predicate": "brother",
+      "object_person_id": "2xw_y7a_0ek",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄黎，弟楷、綽",
+        "source_clause_binding": {
+          "kind": "reported_ancestor_then_named_siblings",
+          "start": 23,
+          "end": 30,
+          "ancestry_assertion_id": "a-liang030-ziye-kang-ancestor",
+          "descendant_person_mention_id": "c-liangshu-030-peiziye:p001:m0000",
+          "antecedent_person_mention_id": "c-liangshu-030-peiziye:p001:m0018",
+          "older_brother_person_mention_id": "c-liangshu-030-peiziye:p001:m0024",
+          "younger_brother_person_mention_ids": [
+            "c-liangshu-030-peiziye:p001:m0027",
+            "c-liangshu-030-peiziye:p001:m0029"
+          ]
+        },
+        "relative_birth_order": {
+          "older_person_id": "y8f_xr3_osd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-030",
+          "chapter_id": "c-liangshu-030-peiziye",
+          "source_id": "s-liang030-ws1508510",
+          "paragraph_id": "c-liangshu-030-peiziye:p001",
+          "quote": "裴子野字幾原，河東聞喜人，晉太子左率康八世孫。兄黎，弟楷、綽，並有盛名，所謂「四裴」也。曾祖松之，宋太中大夫。祖駰，南中郎外兵參軍。父昭明，通直散騎常侍。",
+          "subject_person_mention_id": "c-liangshu-030-peiziye:p001:m0018",
+          "object_person_mention_id": "c-liangshu-030-peiziye:p001:m0029"
+        }
+      ],
+      "interpretation_note": "八世祖康後接兄黎弟楷綽，主語康而非傳主子野；固定晉035楷長兄黎次兄康、楷弟綽只作外部閱讀參照，這條關係引用梁原句。不推同父／同母、絕對排行或共同祖先。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "related_people": {
+    "2xw_y7a_0ek": "綽〔康弟，楷弟〕",
+    "y8f_xr3_osd": "康〔晉太子左率，子野遠祖〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "2xw_y7a_0ek"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-liang030-kang-brother-chuo",
+      "subject_person_id": "y8f_xr3_osd",
+      "predicate": "brother",
+      "object_person_id": "2xw_y7a_0ek",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "兄黎，弟楷、綽",
+        "source_clause_binding": {
+          "kind": "reported_ancestor_then_named_siblings",
+          "start": 23,
+          "end": 30,
+          "ancestry_assertion_id": "a-liang030-ziye-kang-ancestor",
+          "descendant_person_mention_id": "c-liangshu-030-peiziye:p001:m0000",
+          "antecedent_person_mention_id": "c-liangshu-030-peiziye:p001:m0018",
+          "older_brother_person_mention_id": "c-liangshu-030-peiziye:p001:m0024",
+          "younger_brother_person_mention_ids": [
+            "c-liangshu-030-peiziye:p001:m0027",
+            "c-liangshu-030-peiziye:p001:m0029"
+          ]
+        },
+        "relative_birth_order": {
+          "older_person_id": "y8f_xr3_osd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-030",
+          "chapter_id": "c-liangshu-030-peiziye",
+          "source_id": "s-liang030-ws1508510",
+          "paragraph_id": "c-liangshu-030-peiziye:p001",
+          "quote": "裴子野字幾原，河東聞喜人，晉太子左率康八世孫。兄黎，弟楷、綽，並有盛名，所謂「四裴」也。曾祖松之，宋太中大夫。祖駰，南中郎外兵參軍。父昭明，通直散騎常侍。",
+          "subject_person_mention_id": "c-liangshu-030-peiziye:p001:m0018",
+          "object_person_mention_id": "c-liangshu-030-peiziye:p001:m0029"
+        }
+      ],
+      "interpretation_note": "八世祖康後接兄黎弟楷綽，主語康而非傳主子野；固定晉035楷長兄黎次兄康、楷弟綽只作外部閱讀參照，這條關係引用梁原句。不推同父／同母、絕對排行或共同祖先。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

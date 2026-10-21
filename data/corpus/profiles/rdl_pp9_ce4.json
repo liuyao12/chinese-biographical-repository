@@ -60,6 +60,31 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-061",
+      "source_id": "s-jinshu-061-ws7903772",
+      "source": {
+        "title": "晉書／卷061周浚及附周嵩、周謨、周馥完整單元",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7061&oldid=7903772",
+        "revision_id": 7903772,
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "raw_path": "sources/jinshu/wikisource-7903772-raw.wikitext",
+        "raw_file_sha256": "6e28403fc85f551b2aab898cac610180884ba0732a24a492f8ca514381b9978d",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "normalization": {
+          "description": "保數位原字；僅明示wiki wrappers及排版移除，完整raw與逐碼projection另存；未影像校勘。",
+          "omitted_digital_paratext": []
+        },
+        "extent": "周浚及嵩、謨、馥完整選定單元；固定見證25段4069字，止於成公簡前，不是卷六十一全卷。"
+      }
+    },
+    {
       "chapter_id": "c-jinshu-076-wangbiaozhi",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-076",
@@ -307,9 +332,27 @@
   ],
   "relations": [],
   "related_people": {
+    "3xx_gdy_or6_BAB": "周矯",
     "rdl_pp9_ce4": "周矯"
   },
   "dates": [],
+  "unresolved_identity_cases": [
+    {
+      "id": "ic-jin061-zhoujiao-jin076-zhoujiao",
+      "status": "unresolved",
+      "candidate_person_ids": [
+        "3xx_gdy_or6_BAB",
+        "rdl_pp9_ce4"
+      ],
+      "paragraph_ids": [
+        "c-jinshu-061-zhou-family:p025",
+        "c-jinshu-076-wangbiaozhi:line057"
+      ],
+      "note": "061明馥二子密矯、矯字正玄；076明永嘉郡人周矯遭謝毅殺、從兄球訴冤。尚無共同字號、父子或同一事件可證同人；兩來源內身份各自登記，不以同名併合，亦不斷言必異。",
+      "chapter_id": "c-jinshu-061-zhou-family",
+      "source_id": "s-jinshu-061-ws7903772"
+    }
+  ],
   "name_components": [],
   "person_ids": [
     "rdl_pp9_ce4"

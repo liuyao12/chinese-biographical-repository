@@ -2124,6 +2124,50 @@
       "work_title": "宋書"
     },
     {
+      "number": 64,
+      "category": "",
+      "title": "裴松之完整本傳（卷六十四選錄）",
+      "paragraph_id": "c-songshu-064-peisongzhi:p003",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "高祖北伐，領司州刺史，以松之爲州主簿，轉治中從事史。既克洛陽，高祖敕之曰：「裴松之廊廟之才，不宜久尸邊務，今召爲世子洗馬，與殷景仁同，可令知之。」於時議立五廟樂，松之以妃臧氏廟樂亦宜與四廟同。除零陵內史，",
+      "paragraph_ids": [
+        "c-songshu-064-peisongzhi:p003"
+      ],
+      "mention_ids": [
+        "c-songshu-064-peisongzhi:p003:m0000",
+        "c-songshu-064-peisongzhi:p003:m0031"
+      ],
+      "mention_paragraph_ids": {
+        "c-songshu-064-peisongzhi:p003:m0000": "c-songshu-064-peisongzhi:p003",
+        "c-songshu-064-peisongzhi:p003:m0031": "c-songshu-064-peisongzhi:p003"
+      },
+      "mention_id": "c-songshu-064-peisongzhi:p003:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-songshu-064-peisongzhi:p003:m0000",
+          "mention_ids": [
+            "c-songshu-064-peisongzhi:p003:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-songshu-064-peisongzhi:p003:m0031",
+          "mention_ids": [
+            "c-songshu-064-peisongzhi:p003:m0031"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-064",
+      "chapter_id": "c-songshu-064-peisongzhi",
+      "source_id": "s-song064-ws1748217",
+      "work_title": "宋書"
+    },
+    {
       "number": 65,
       "category": "",
       "title": "王導及子孫附傳（卷六十五完整數位正文）",
@@ -8867,6 +8911,38 @@
               "biographical_unit": "王曇首"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-songshu-064-peisongzhi",
+      "work_id": "w-songshu",
+      "book_id": "b-songshu-064",
+      "source_id": "s-song064-ws1748217",
+      "source": {
+        "title": "宋書/卷64",
+        "revision_id": 1748217,
+        "revision_timestamp": "2019-10-16T05:46:10Z",
+        "status": 200,
+        "response_sha256": "010f6b9a277c33ab190dfbea81673926e2b637f8765888cda9d19361df936141",
+        "raw_sha256": "aeb7f890fb1a261a285786bd19844cbc090dc96e35d7ca61cf8ca1eadf66afb8",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B764&oldid=1748217",
+        "api_url": "https://zh.wikisource.org/w/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&titles=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B764",
+        "image_verified": false,
+        "human_reviewed": false,
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%AE%8B%E6%9B%B8%2F%E5%8D%B764&oldid=1748217",
+        "raw_path": "sources/songshu/wikisource-1748217-raw.wikitext",
+        "raw_file_sha256": "aeb7f890fb1a261a285786bd19844cbc090dc96e35d7ca61cf8ca1eadf66afb8",
+        "edition": null,
+        "accessed_on": "2026-10-20",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "extent": "卷六十四裴松之完整傳6段1631字；不是全卷，維基數位校注分層保留為參照。",
+        "normalization": {
+          "description": "保原字，wiki wrapper/本傳10則數位ref移除以逐碼projection及digital-notes-layer.json記錄；omitted_digital_paratext專供節題非ref，本單元無內部節題；不是影像校勘。",
+          "omitted_digital_paratext": []
         }
       }
     },
