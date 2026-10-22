@@ -2,6 +2,14 @@
 
 
 def agnatic_senior_kin_valid(assertion, paragraphs):
+    # Position-bound close-family clauses; retain all older grammar contracts.
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
+        try:
+            from scripts.biography_close_family import valid as close_family_valid
+        except ImportError:
+            from biography_close_family import valid as close_family_valid
+        return close_family_valid(assertion, paragraphs)
+
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'senior_dead_then_congzi_named_junior':
         try:
             from scripts.song047_collateral_care import valid
