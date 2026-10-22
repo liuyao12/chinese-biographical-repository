@@ -6,7 +6,8 @@
   "identity_note": "引古處兒姪；非僧虔收養證",
   "review": "ai_provisional",
   "names": [
-    "馬援"
+    "馬援",
+    "援"
   ],
   "titles": [
     {
@@ -176,6 +177,50 @@
       "chapter_id": "c-nanqishu-033-wangsengqian",
       "source_id": "s-nanqishu-033-wangsengqian",
       "work_title": "南齊書"
+    },
+    {
+      "number": 58,
+      "category": "",
+      "title": "卷五十八：楊播、楊侃完整傳與本卷共評（部分卷）",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p012",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "時所用錢，人多私鑄，稍就薄小，乃至風飄水浮，米斗幾直一千。侃奏曰：「昔馬援至隴西，嘗上書求復五銖錢，事下三府，不許。及援徵入為虎賁中郎，親對光武申釋其趣，事始施行。臣頃在雍州，亦表陳其事，聽人與官並鑄五銖錢，使人樂為，而俗弊得改。旨下尚書，八座不許。以今況昔，即理不殊。求取",
+      "paragraph_ids": [
+        "c-weishu-weishou-058-yangbo-yangkan:p012"
+      ],
+      "mention_ids": [
+        "c-weishu-weishou-058-yangbo-yangkan:p012:m0035",
+        "c-weishu-weishou-058-yangbo-yangkan:p012:m0059"
+      ],
+      "mention_paragraph_ids": {
+        "c-weishu-weishou-058-yangbo-yangkan:p012:m0035": "c-weishu-weishou-058-yangbo-yangkan:p012",
+        "c-weishu-weishou-058-yangbo-yangkan:p012:m0059": "c-weishu-weishou-058-yangbo-yangkan:p012"
+      },
+      "mention_id": "c-weishu-weishou-058-yangbo-yangkan:p012:m0035",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p012:m0035",
+          "mention_ids": [
+            "c-weishu-weishou-058-yangbo-yangkan:p012:m0035"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p012:m0059",
+          "mention_ids": [
+            "c-weishu-weishou-058-yangbo-yangkan:p012:m0059"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-058",
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+      "work_title": "魏書（魏收）"
     }
   ],
   "table_occurrences": [],
@@ -3230,6 +3275,33 @@
           "character_conversion": {},
           "extraction_note": "正文與九裴注按原次序分層；只去版面符號、縮排及注括號，不正字。逐字原行片段保留。",
           "excerpts": []
+        }
+      }
+    },
+    {
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "work_id": "w-weishu-weishou",
+      "book_id": "b-weishu-weishou-058",
+      "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+      "source": {
+        "title": "魏書卷五十八楊播及子侃完整敘事",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+        "revision_id": 2087998,
+        "raw_path": "sources/weishu-weishou/weishu058-ws2087998.wikitext",
+        "raw_file_sha256": "a53ae2dbced88decaa460fbf34f87bb5e65a0b37b524480cb362a3bebb1bc19d",
+        "accessed_on": "2026-10-22",
+        "edition": "維基文庫固定數位轉錄；實際版本底本未確認，未圖校",
+        "extent": "楊播開篇至楊侃末子純陀襲，止弟椿獨立傳前；另完整本卷史臣共評。非全058卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文；數位見證及網站校勘署名依維基文庫CC BY-SA4.0與附加條款保留",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "保原字與標點；段落按固定raw非空正文行。只分離網站ref校勘，原ref全文連raw位於annotation，逐字映射無摘要。"
         }
       }
     }

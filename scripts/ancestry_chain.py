@@ -77,13 +77,17 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'punctuated_biography_four_ancestor_office_sequence':
+        try:from .punctuated_ancestor_offices import valid as punctuated_valid
+        except ImportError:from punctuated_ancestor_offices import valid as punctuated_valid
+        return punctuated_valid(member, rows, assertions, chapters)
     if c.get('interpretation_basis') == 'epitaph_named_family_sequence':
         try:
             from .epitaph_ancestry import valid as epitaph_parent_valid
         except ImportError:
             from epitaph_ancestry import valid as epitaph_parent_valid
         return epitaph_parent_valid(member, rows, assertions, chapters)
-    if c.get('interpretation_basis') == 'biographical_zu_fu_sequence':
+    if c.get('interpretation_basis') in ('biographical_zu_fu_sequence', 'bound_unpunctuated_biography_zu_fu_sequence'):
         try:
             from .biographical_ancestry import biographical_zu_fu_parent_valid
         except ImportError:

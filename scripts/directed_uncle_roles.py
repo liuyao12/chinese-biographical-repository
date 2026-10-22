@@ -159,6 +159,10 @@ def _direction(p, subjects, objects, term):
 
 
 def paternal_uncle_direction_valid(assertion, paragraphs):
+    if 'source_uncle_ordinal' in assertion.get('qualifiers', {}):
+        try:from scripts.fixed_wikisource_units import ordinal_uncle_valid
+        except ImportError:from fixed_wikisource_units import ordinal_uncle_valid
+        return ordinal_uncle_valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_head_named_uncle_xiongzi':
         try:
             from scripts.song059_kinship import inverse_xiongzi_valid

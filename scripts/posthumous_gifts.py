@@ -50,6 +50,10 @@ def posthumous_gift_valid(holding, paragraphs, mentions, life_events=None):
         return explicit_topic_gift_valid(holding, paragraphs, mentions, life_events or {})
     if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'coordinated_attendance_death_then_gift':
         return coordinated_attendance_gift_valid(holding, paragraphs, mentions, life_events or {})
+    if isinstance(holding.get('posthumous_basis'), dict) and holding['posthumous_basis'].get('kind') == 'named_biography_parent_office_gift_plus_rank':
+        try:from scripts.parent_office_gift import valid
+        except ImportError:from parent_office_gift import valid
+        return valid(holding, paragraphs, mentions, life_events or {})
     b = holding.get('posthumous_basis')
     if (not isinstance(b, dict) or set(b) != {'kind', 'source_term', 'death_term', 'grant_term', 'recipient_person_mention_id', 'evidence'}
             or b.get('kind') != 'death_then_explicit_gift' or holding.get('mode') != 'posthumous_grant'

@@ -3,6 +3,10 @@
 Raw unspecified 祖 lineage remains unspecified; no father assertion is added.
 """
 def biographical_zu_fu_parent_valid(member, rows, assertions, chapters):
+ if member.get('parent_connection',{}).get('interpretation_basis')=='bound_unpunctuated_biography_zu_fu_sequence':
+  try:from .unpunctuated_zu_fu_assembly import valid as unpunctuated_valid
+  except ImportError:from unpunctuated_zu_fu_assembly import valid as unpunctuated_valid
+  return unpunctuated_valid(member,rows,assertions,chapters)
  c=member.get('parent_connection',{})
  near=assertions.get(c.get('nearer_ancestor_assertion_id'),{})
  far=assertions.get(c.get('farther_ancestor_assertion_id'),{})

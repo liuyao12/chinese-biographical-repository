@@ -14,7 +14,8 @@
     "吾",
     "帝",
     "車駕",
-    "上"
+    "上",
+    "朕"
   ],
   "titles": [
     {
@@ -443,6 +444,60 @@
       "book_id": "b-sanguozhi-010",
       "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
       "source_id": "s-sanguozhi-010-xunyu-xunyou-jiaxu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 15,
+      "category": "",
+      "title": "溫恢本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-015-wenhui:p004",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "文帝踐阼以恢為侍中出為魏郡太守數年遷涼州刺史持節領䕶羌校尉道病卒時年四十五",
+      "paragraph_ids": [
+        "c-sanguozhi-015-wenhui:p004",
+        "c-sanguozhi-015-wenhui:p005"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-015-wenhui:p004:m0000",
+        "c-sanguozhi-015-wenhui:p005:m0018",
+        "c-sanguozhi-015-wenhui:p005:m0044"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-015-wenhui:p004:m0000": "c-sanguozhi-015-wenhui:p004",
+        "c-sanguozhi-015-wenhui:p005:m0018": "c-sanguozhi-015-wenhui:p005",
+        "c-sanguozhi-015-wenhui:p005:m0044": "c-sanguozhi-015-wenhui:p005"
+      },
+      "mention_id": "c-sanguozhi-015-wenhui:p004:m0000",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p004:m0000",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p004:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p005:m0018",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p005:m0018"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p005:m0044",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p005:m0044"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "source_id": "s-sanguozhi-015-wenhui",
       "work_title": "三國志"
     },
     {
@@ -4588,6 +4643,34 @@
           },
           "independent_witness_is_not_repair": true
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "source_id": "s-sanguozhi-015-wenhui",
+      "source": {
+        "title": "三國志魏書卷十五溫恢本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "31fbefa47ba1bb895430867835edcffe53e86f11bc05e235470306b8e85971ed",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定raw338–363行，溫恢完整本傳及傳末孟建附述、魏畧裴注；364賈逵傳開始，不含前張既尾。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
+        },
+        "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
       }
     },
     {

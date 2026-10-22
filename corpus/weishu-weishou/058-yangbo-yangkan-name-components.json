@@ -1,0 +1,237 @@
+{
+  "format_version": "0.1",
+  "record_type": "person_name_component_set",
+  "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+  "records": [
+    {
+      "id": "name-weishu058-yangbo-exact",
+      "person_id": "fum_370_iq6_AAAA",
+      "surname": "楊",
+      "ming": "播",
+      "zi": "延慶",
+      "additional_names": [
+        "本字元休"
+      ],
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
+      "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
+      "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+      "references": [
+        {
+          "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+          "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p002",
+          "quote": "播本字元休，太和中，高祖賜改焉。母王氏，文明太后之外姑。播少修整，奉養盡禮。擢為中散，累遷給事，領中起部曹。以外親，優賜亟加，前後萬計。進北部給事中。詔播巡行北邊，高祖親送及戶，戒以軍略。未幾，除龍驤將軍、員外常侍，轉衞尉少卿，常侍如故。與陽平王頤等出漠北擊蠕蠕，大獲而還。高祖嘉其勳，賜奴婢十口。遷武衞將軍，復擊蠕蠕，至居然山而還。",
+          "url": "https://zh.wikisource.org/w/index.php?title=%E9%AD%8F%E6%9B%B8%2F%E5%8D%B758&oldid=2087998",
+          "scope": "same_source_former_courtesy_name"
+        }
+      ],
+      "note": "姓名楊播及字延慶明載；本字元休是先前的字，不是曾用名，太和中高祖賜改；原句與字位仍可查。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "name-weishu058-yang-yi",
+      "person_id": "fum_370_iq6_AAA",
+      "surname": "楊",
+      "ming": "懿",
+      "additional_names": [],
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
+      "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0062",
+      "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+      "note": "原文只稱懿；姓楊是依同一完整傳記楊播與明示近系父子鏈的編輯首選，不是原句明載完整姓名，不由ID字母／同郡望推得。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "source_name_record_id": "name-weishu058-yangbo-exact",
+        "source_full_quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "有方向的已錄父斷言路徑只供編輯姓名承接；不是新增親屬、改源文或以父親任職／出生地推出姓名。",
+        "steps": [
+          {
+            "assertion_id": "a-weishu058-yang-001",
+            "from_person_id": "fum_370_iq6_AAAA",
+            "to_person_id": "fum_370_iq6_AAA",
+            "traversal": "child_to_father",
+            "source_term": "父懿",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p001",
+              "quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0000",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p001:m0062"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-weishu058-yang-kan",
+      "person_id": "fum_370_iq6_AAAAA",
+      "surname": "楊",
+      "ming": "侃",
+      "additional_names": [],
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p006",
+      "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p006:m0000",
+      "quote": "侃，字士業。頗愛琴書，尤好計畫。時播一門，貴滿朝廷，兒姪早通，而侃獨不交遊，公卿罕有識者。親朋勸其出仕，侃曰：「苟有良田，何憂晚歲，但恨無才具耳。」",
+      "note": "原文只稱侃；姓楊是依同一完整傳記楊播與明示近系父子鏈的編輯首選，不是原句明載完整姓名，不由ID字母／同郡望推得。 字士業在子傳首句明載。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "zi": "士業",
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "source_name_record_id": "name-weishu058-yangbo-exact",
+        "source_full_quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "有方向的已錄父斷言路徑只供編輯姓名承接；不是新增親屬、改源文或以父親任職／出生地推出姓名。",
+        "steps": [
+          {
+            "assertion_id": "a-weishu058-yang-006",
+            "from_person_id": "fum_370_iq6_AAAA",
+            "to_person_id": "fum_370_iq6_AAAAA",
+            "traversal": "father_to_child",
+            "source_term": "子侃",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p005",
+              "quote": "景明初，兼侍中，使恒州，贍恤寒乏。轉左衞將軍。出除安北將軍、并州刺史，固辭，乃授安西將軍、華州刺史。至州借民田，為御史王基所劾，削除官爵。延昌二年，卒于家。子侃等停柩不葬，披訴積年，至熙平中乃贈鎮西將軍、雍州刺史，并復其爵，諡曰壯。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0079",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0109"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-weishu058-yang-shichong",
+      "person_id": "fum_370_iq6_AAAAAA",
+      "surname": "楊",
+      "ming": "師沖",
+      "additional_names": [],
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
+      "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
+      "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
+      "note": "原文只稱師沖；姓楊是依同一完整傳記楊播與明示近系父子鏈的編輯首選，不是原句明載完整姓名，不由ID字母／同郡望推得。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "source_name_record_id": "name-weishu058-yangbo-exact",
+        "source_full_quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "有方向的已錄父斷言路徑只供編輯姓名承接；不是新增親屬、改源文或以父親任職／出生地推出姓名。",
+        "steps": [
+          {
+            "assertion_id": "a-weishu058-yang-006",
+            "from_person_id": "fum_370_iq6_AAAA",
+            "to_person_id": "fum_370_iq6_AAAAA",
+            "traversal": "father_to_child",
+            "source_term": "子侃",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p005",
+              "quote": "景明初，兼侍中，使恒州，贍恤寒乏。轉左衞將軍。出除安北將軍、并州刺史，固辭，乃授安西將軍、華州刺史。至州借民田，為御史王基所劾，削除官爵。延昌二年，卒于家。子侃等停柩不葬，披訴積年，至熙平中乃贈鎮西將軍、雍州刺史，并復其爵，諡曰壯。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0079",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0109"
+            }
+          },
+          {
+            "assertion_id": "a-weishu058-yang-011",
+            "from_person_id": "fum_370_iq6_AAAAA",
+            "to_person_id": "fum_370_iq6_AAAAAA",
+            "traversal": "father_to_child",
+            "source_term": "其長子師沖",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p011",
+              "quote": "及車駕南還，顥令蕭衍將陳慶之守北中城，自據南岸。有夏州義士為顥守河中渚，乃密信通款，求破橋立效，尒朱榮率軍赴之。及橋破，應接不果，皆為顥所屠滅。榮因悵然，將為還計，欲更圖後舉。侃曰：「未審明大王發并州之日，已知有夏州義士指來相應，為欲廣申經略，寧復帝基乎？夫兵散而更合，瘡愈而更戰，持此收功，自古不少，豈可以一圖不全，而眾慮頓廢。今事不果，乃是兩賊相殺，則大王之利矣。若今即還，民情失望，去就之心，何由可保？未若召發民材，惟多縛筏，間以舟楫，沿河廣布，令數百里中，皆為渡勢。首尾既遠，顥復知防何處，一旦得渡，必立大功。」榮大笑曰：「黃門即奏行此計。」於是尒朱兆與侃等遂與馬渚諸楊南渡，破顥子領軍將軍冠受，擒之。顥便南走。車駕入都，侃解尚書，正黃門，加征東將軍、金紫光祿大夫。以濟河之功，進爵濟北郡開國公，增邑五百戶，復除其長子師沖為祕書郎。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0363",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p011:m0088"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "name-weishu058-yang-chuntuo",
+      "person_id": "fum_370_iq6_AAAAAB",
+      "surname": "楊",
+      "ming": "純陀",
+      "additional_names": [],
+      "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+      "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p014",
+      "person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p014:m0152",
+      "quote": "莊帝將圖尒朱榮也，侃與其內弟李晞、城陽王徽、侍中李彧等，咸預密謀。尒朱兆之入洛也，侃時休沐，遂得潛竄，歸於華陰。普泰初，天光在關西，遣侃子婦父韋義遠招慰之，立盟許恕其罪。侃從兄昱恐為家禍，令侃出應，假其食言，不過一人身歿，冀全百口。侃往赴之，秋七月，為天光所害。太昌初，贈車騎將軍、儀同三司、幽州刺史。子純陀襲。",
+      "note": "原文只稱純陀；姓楊是依同一完整傳記楊播與明示近系父子鏈的編輯首選，不是原句明載完整姓名，不由ID字母／同郡望推得。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_same_source_father_chain",
+        "source_name_record_id": "name-weishu058-yangbo-exact",
+        "source_full_quote": "楊播，字延慶，自云恒農華陰人也。高祖結，仕慕容氏，卒於中山相。曾祖珍，太祖時歸國，卒於上谷太守。祖真，河內、清河二郡太守。父懿，延興末為廣平太守，有稱績。高祖南巡，吏人頌之，加寧遠將軍，賜帛三百匹。徵為選部給事中，有公平之譽。除安南將軍、洛州刺史，未之任而卒。贈以本官，加弘農公，諡曰簡。",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "有方向的已錄父斷言路徑只供編輯姓名承接；不是新增親屬、改源文或以父親任職／出生地推出姓名。",
+        "steps": [
+          {
+            "assertion_id": "a-weishu058-yang-006",
+            "from_person_id": "fum_370_iq6_AAAA",
+            "to_person_id": "fum_370_iq6_AAAAA",
+            "traversal": "father_to_child",
+            "source_term": "子侃",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p005",
+              "quote": "景明初，兼侍中，使恒州，贍恤寒乏。轉左衞將軍。出除安北將軍、并州刺史，固辭，乃授安西將軍、華州刺史。至州借民田，為御史王基所劾，削除官爵。延昌二年，卒于家。子侃等停柩不葬，披訴積年，至熙平中乃贈鎮西將軍、雍州刺史，并復其爵，諡曰壯。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0079",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p005:m0109"
+            }
+          },
+          {
+            "assertion_id": "a-weishu058-yang-013",
+            "from_person_id": "fum_370_iq6_AAAAA",
+            "to_person_id": "fum_370_iq6_AAAAAB",
+            "traversal": "father_to_child",
+            "source_term": "子純陀襲",
+            "evidence": {
+              "work_id": "w-weishu-weishou",
+              "book_id": "b-weishu-weishou-058",
+              "source_id": "s-weishu-weishou-058-yangbo-ws2087998",
+              "chapter_id": "c-weishu-weishou-058-yangbo-yangkan",
+              "paragraph_id": "c-weishu-weishou-058-yangbo-yangkan:p014",
+              "quote": "莊帝將圖尒朱榮也，侃與其內弟李晞、城陽王徽、侍中李彧等，咸預密謀。尒朱兆之入洛也，侃時休沐，遂得潛竄，歸於華陰。普泰初，天光在關西，遣侃子婦父韋義遠招慰之，立盟許恕其罪。侃從兄昱恐為家禍，令侃出應，假其食言，不過一人身歿，冀全百口。侃往赴之，秋七月，為天光所害。太昌初，贈車騎將軍、儀同三司、幽州刺史。子純陀襲。",
+              "subject_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p014:m0152",
+              "object_person_mention_id": "c-weishu-weishou-058-yangbo-yangkan:p014:m0009"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

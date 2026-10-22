@@ -1,6 +1,20 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions):
  if 'surname_basis'not in name:return
+ if name['surname_basis'].get('kind')=='contextual_surname_from_bound_paternal_ancestor':
+  try:from .surname_bound_ancestor import validate as ancestor_validate
+  except ImportError:from surname_bound_ancestor import validate as ancestor_validate
+  return ancestor_validate(name,names,chapters,assertions)
+ if name['surname_basis'].get('kind')=='contextual_surname_from_bounded_named_family_path':
+  try:from .surname_named_family_path import validate as named_path_validate
+  except ImportError:from surname_named_family_path import validate as named_path_validate
+  return named_path_validate(name,names,chapters,assertions)
+ if name['surname_basis'].get('kind')=='contextual_surname_from_same_source_father_chain':
+  try:
+   from .surname_family_chain import validate as chain_validate
+  except ImportError:
+   from surname_family_chain import validate as chain_validate
+  return chain_validate(name,names,chapters,assertions)
  try:
   b=name['surname_basis'];assert b['kind']=='contextual_surname_from_explicit_father'and b['status']=='contextual_provisional'and b['human_reviewed']is False
   assert name['status']=='contextual_provisional'and name['human_reviewed']is False and b['rationale'].strip()

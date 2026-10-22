@@ -58,6 +58,41 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 52,
+      "category": "",
+      "title": "祖沖之傳",
+      "paragraph_id": "c-nanqishu-052-zuchongzhi:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "上表曰臣博訪前墳遠稽昔典五帝躔次三王交分春秋朔氣紀年薄蝕談遷載述彪固列志魏世注厯晉代起居探異今古觀要華戎書契以降二千餘稔日月離會之徴星度疎宻之騐專功躭思咸可得而言也加以親量圭尺躬察儀漏目盡毫釐心窮籌筴考課推移又曲備其詳矣然而古厯疎舛類不精宻羣氏糾紛莫審其㑹尋",
+      "paragraph_ids": [
+        "c-nanqishu-052-zuchongzhi:p003"
+      ],
+      "mention_ids": [
+        "c-nanqishu-052-zuchongzhi:p003:m0028"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanqishu-052-zuchongzhi:p003:m0028": "c-nanqishu-052-zuchongzhi:p003"
+      },
+      "mention_id": "c-nanqishu-052-zuchongzhi:p003:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanqishu-052-zuchongzhi:p003:m0028",
+          "mention_ids": [
+            "c-nanqishu-052-zuchongzhi:p003:m0028"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "chapter_id": "c-nanqishu-052-zuchongzhi",
+      "source_id": "s-nanqishu-052-zuchongzhi",
+      "work_title": "南齊書"
+    },
+    {
       "number": 130,
       "category": "liezhuan",
       "title": "太史公自序第七十",
@@ -180,6 +215,35 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-nanqishu-052-zuchongzhi",
+      "work_id": "w-nanqishu",
+      "book_id": "b-nanqishu-052",
+      "source_id": "s-nanqishu-052-zuchongzhi",
+      "source": {
+        "title": "南齊書卷五十二祖沖之完整傳數位單元",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_052.txt",
+        "permalink": "https://github.com/kanripo/KR2a0017/blob/787dd9a7da495542e8f17c26c96900ce37b2c211/KR2a0017_052.txt",
+        "revision_id": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "source_commit": "787dd9a7da495542e8f17c26c96900ce37b2c211",
+        "source_blob_sha": "cd4633717db1261dceeab439080f2e7f7c63ea9d",
+        "edition": "Kanripo BASEEDITION WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "完整祖沖之本傳，含長篇曆法上表；不含前王逡之及後賈淵單元。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文及固定Kanripo數位轉錄，保來源歸屬；非MIT字體或現代全文。",
+        "license_url": "https://www.kanripo.org/",
+        "raw_file": "sources/witnesses/KR2a0017_052-787dd9a-zuchongzhi.txt",
+        "raw_sha256": "8b7a389be3484bc05ab235b7b1a22244e7a027d5022804a12b66454f36f3e8ef",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去pb/¶/換行；全部1255可見字逐碼點保留，9段為編輯分段，數理文字不改寫/轉算/省略。"
+        }
+      }
+    },
     {
       "chapter_id": "c-shiji-130-taishigong",
       "work_id": "w-shiji",

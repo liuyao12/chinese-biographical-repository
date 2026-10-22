@@ -38,3 +38,7 @@
 梁譙、安平廣平共享「太守」以 `shared_title_suffix` 保存兩個來源錨；展開稱號是編輯顯示，沒有改動正文或推成同時兼任。`office_duration` 保「在職三年」數值3及關聯的侍中持職，反算始年與任終均空。`unnamed_family_title_grants` 的一子高亭侯保人數1且具名受封人列表空；`fief_household_count` 的二十三百戸保2300及原單位戸，不推實收。
 
 `source_career_role` 亦供未赴任記錄：散騎與中書侍郎是收到二稱，均 `effective_service_attested: false`，不把元帝之初換為精確任年。離官細節分 illness/dismissal/disability 等來源結果，僅連明確同序的前職；未知職名者不填，不宣稱一切職爵同時終止。地方任官不是籍貫。
+
+### 傳主具名父親：未赴任而卒、贈本官加爵
+
+`posthumous_basis.kind: named_biography_parent_office_gift_plus_rank` 只接受同一收到正文段的具名傳主、`父某`、君主`南巡`及其後 `未之任而卒。贈以本官，加某公／侯／伯／子／男`。父親、傳主、訪問君主三個錨點須不同身份；父親後到贈號前不得另有新的具名受事者。`death_event_id` 必須綁同段同父、無確年、相同死亡原句，且爵名及受贈者字位一致。此為 `posthumous_grant`，不能稱原文明文追封；沒有為贈本官新建未赴職的實任區間，也不據此截止其他職位。驗證無人名、ID或年份白名單。

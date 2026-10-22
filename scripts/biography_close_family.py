@@ -31,6 +31,17 @@ def valid(a,paragraphs,assertions=()):
    pattern=re.escape(word('head'))+r'，?字[^，。：「」]+，[^，。：「」]+人也。祖'+re.escape(word('grandfather'))+r'，[^。：「」]+。父'+re.escape(word('father'))+r'，[^。：「」]+。'
    if not re.fullmatch(pattern,text)or not at('head',0)or not t[roles['grandfather']['start']-1:roles['grandfather']['start']]=='祖'or not t[roles['father']['start']-1:roles['father']['start']]=='父'or any(x in text for x in'非未無不'):return False
    allowed=[('father','head','father'),('grandfather','head','grandfather')]
+  elif rule==PREFIX+'unpunctuated_head_grandfather_father':
+   if set(roles)!={'head','style','grandfather','father'}or start!=0 or pid('style')!=pid('head')or len({pid(k)for k in ('head','grandfather','father')})!=3:return False
+   h=roles['head'];z=roles['style'];g=roles['grandfather'];f=roles['father']
+   if not at('head',0)or z['start']!=h['end']+1 or t[h['end']:z['start']]!='字':return False
+   origin=t[z['end']:g['start']];grand_office=t[g['end']:f['start']];father_office=t[f['end']:end]
+   if not re.fullmatch(r'[^字祖父曰云言「」『』非未無不，。]{1,16}人也祖',origin):return False
+   if not re.fullmatch(r'[^字祖父曰云言「」『』非未無不，。]{1,12}(?:卿|守|牧|將軍|尚書|侍中)父',grand_office):return False
+   if not re.fullmatch(r'(?:奉朝請|[^字祖父曰云言「」『』非未無不，。]{0,12}(?:卿|守|牧|將軍|尚書|侍中))',father_office):return False
+   if not h['end']<z['end']<g['start']<g['end']<f['start']<f['end']<=end:return False
+   if any(m.get('kind')=='person'and start<=m['start']<end and m['id']not in b['roles'].values()for m in p['mentions']):return False
+   allowed=[('father','head','father'),('grandfather','head','grandfather')]
   elif rule==PREFIX+'four_older_brothers':
    if set(roles)!={'head','first','second','third','fourth'}or len({pid(k)for k in roles})!=5:return False
    if not literal([('head',''),(None,'四兄'),('first',''),(None,'、'),('second',''),(None,'、'),('third',''),(None,'、'),('fourth','')]):return False
@@ -68,7 +79,7 @@ def valid(a,paragraphs,assertions=()):
   hit=[(pred,x,y)for pred,x,y in allowed if pred==a['predicate']and pid(x)==a['subject_person_id']and pid(y)==a['object_person_id']and roles[x]['id']==s['id']and roles[y]['id']==o['id']]
   if len(hit)!=1 or not isinstance(q.get('source_term'),str)or not q['source_term']or q['source_term']not in text:return False
   pred=hit[0][0]
-  if rule==PREFIX+'head_grandfather_father':term=('父'+word('father'))if pred=='father'else('祖'+word('grandfather'))
+  if rule in (PREFIX+'head_grandfather_father',PREFIX+'unpunctuated_head_grandfather_father'):term=('父'+word('father'))if pred=='father'else('祖'+word('grandfather'))
   elif rule==PREFIX+'four_older_brothers':term=word('head')+'四兄'+ '、'.join(word(k)for k in ('first','second','third','fourth'))
   elif rule==PREFIX+'father_arranged_daughter_marriage':term='以女結婚'
   elif rule==PREFIX+'mother_old_care_resumed_subject':term='以母老須養'

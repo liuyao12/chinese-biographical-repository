@@ -10,7 +10,56 @@
     "濟",
     "蒋濟"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-sgz015-wen-09",
+      "person_id": "79d_0b7_853",
+      "title": "丹陽太守",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-015",
+          "source_id": "s-sanguozhi-015-wenhui",
+          "chapter_id": "c-sanguozhi-015-wenhui",
+          "paragraph_id": "c-sanguozhi-015-wenhui:p002",
+          "quote": "入為丞相主簿出為揚州刺史太祖曰甚欲使卿在親近顧以為不如此州事大故書云股肱良哉庶事康哉得無當得蔣濟為治中邪時濟見為丹陽太守乃遣濟還州又語張遼樂進等曰揚州刺史曉達軍事動静與共咨議",
+          "person_mention_id": "c-sanguozhi-015-wenhui:p002:m0062"
+        }
+      ],
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-015-wenhui:p002",
+          "start": 56,
+          "end": 60,
+          "surface": "丹陽太守",
+          "id": "th-sgz015-wen-09:a",
+          "person_mention_id": "c-sanguozhi-015-wenhui:p002:m0062",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依完整本傳角色及明示任官原詞；任官起迄未明留空，不據死亡填任終。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
     {
@@ -167,6 +216,59 @@
       "book_id": "b-sanguozhi-009",
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
+      "work_title": "三國志"
+    },
+    {
+      "number": 15,
+      "category": "",
+      "title": "溫恢本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-015-wenhui:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "史太祖曰甚欲使卿在親近顧以為不如此州事大故書云股肱良哉庶事康哉得無當得蔣濟為治中邪時濟見為丹陽太守乃遣濟還州又語張遼樂進等曰揚州刺史曉達軍事動静與共咨議",
+      "paragraph_ids": [
+        "c-sanguozhi-015-wenhui:p002"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-015-wenhui:p002:m0046",
+        "c-sanguozhi-015-wenhui:p002:m0053",
+        "c-sanguozhi-015-wenhui:p002:m0062"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-015-wenhui:p002:m0046": "c-sanguozhi-015-wenhui:p002",
+        "c-sanguozhi-015-wenhui:p002:m0053": "c-sanguozhi-015-wenhui:p002",
+        "c-sanguozhi-015-wenhui:p002:m0062": "c-sanguozhi-015-wenhui:p002"
+      },
+      "mention_id": "c-sanguozhi-015-wenhui:p002:m0046",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p002:m0046",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p002:m0046"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p002:m0053",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p002:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-015-wenhui:p002:m0062",
+          "mention_ids": [
+            "c-sanguozhi-015-wenhui:p002:m0062"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "source_id": "s-sanguozhi-015-wenhui",
       "work_title": "三國志"
     },
     {
@@ -673,6 +775,34 @@
           "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
           "excerpts": []
         }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-015-wenhui",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-015",
+      "source_id": "s-sanguozhi-015-wenhui",
+      "source": {
+        "title": "三國志魏書卷十五溫恢本傳及裴注",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_015.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "31fbefa47ba1bb895430867835edcffe53e86f11bc05e235470306b8e85971ed",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定raw338–363行，溫恢完整本傳及傳末孟建附述、魏畧裴注；364賈逵傳開始，不含前張既尾。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "移除¶/換行/pb及逐行古注括號；正文/裴注分層，原字不改；raw_positions逐字投影。"
+        },
+        "quality_note": "非全卷匯入；WYG數位轉錄未圖校，異字不擅校。"
       }
     },
     {

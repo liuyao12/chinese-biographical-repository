@@ -1125,3 +1125,23 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 作品的 `source_author_attributions` 記錄來源實際所署的作者，包含引用來源的 work／book／chapter／source／paragraph、完整原句、作者人物與提及錨點、所引書提及及 `referenced_work_id`。引用來源與所引作品是兩個層次。來源作者跨篇身份未定時仍保存原署，作品全域 `author` 可留空；不因同題便合併作品或作者。
 
 `authorship_syntax` 只驗證明列的來源句法：`author_title_prefix` 綁緊接題名的作者；`compiled_named_work` 綁抄撮等著述動詞與命名語；`continued_subject_authored_work` 綁限定傳主續敘與著述動詞，其中婚配賓語另具人物角色。它們不是任意古文的作者識別器，未涵蓋的句式須保留未決或增訂有證據的契約。古注的作者原署也不表示已證明歷史作者身份、作品真偽或親見原書。
+
+### 有仕履分節的四級祖序組裝
+
+`parent_connection.interpretation_basis: punctuated_biography_four_ancestor_office_sequence` 是明示 opt-in 的編者父邊，不放寬舊祖序模型。`four_ancestor_frame` 保存同段同傳主的高祖／曾祖／祖／父四個原詞錨、具名人物錨、各自以逗號起句號止的一節仕履，以及原四條ancestor／great_grandfather／grandfather／father陳述。四節必須連續、父系詞完整、同一傳主；中間君主只能是明定的「太祖等帝號＋時歸國」時間語，不能變成高祖結或另一祖先。母系、另父、缺詞、對話／轉主語及新具名人物皆拒。三個相鄰父邊保存contextual_provisional與雙陳述references，不增來源father、不推遠祖，也不把仕履地名當籍貫。原祖父／曾祖／高祖斷言保持原意。
+
+### 未標點傳首明祖父兩代的編者組裝
+
+`bound_unpunctuated_biography_zu_fu_sequence` 只接受兩原生明父／祖陳述共用的 `close_family_unpunctuated_head_grandfather_father` 角色契約。`source_frame` 必保存完整收到段SHA、固定revision/raw SHA及同一clause binding；傳主姓祖在offset0不能作祖詞。朔之至昌的相鄰世距邊為contextual_provisional，原grandfather不改father，不增生父斷言。母系、另父、錯世代、名錨角色錯置、缺詞、否定、轉主語及來源hash漂移皆拒。無姓名／ID白名單，不放寬舊標點傳首語法。
+
+### 單來源明父／祖角色的編輯推姓
+
+`contextual_surname_from_bound_paternal_ancestor` 僅接受單一 source_attested father 或 grandfather，lineage必為paternal，世距分別1/2；只支援已綁完整未標點傳首 `close_family_unpunctuated_head_grandfather_father`，不開放未知ancestor、叔／養父／母系或由family ID推姓。完整姓名seed須同段offset0的原名＋字，目標原錨只為ming；原quote保持整段，拼合全名屬contextual_provisional，不能當原句明載。
+
+`surname_basis` exact fields為kind/status/human_reviewed/rationale/source_name_record_id/assertion_id/source_role/generation_distance/evidence/source_frame；source_frame exact fields為固定source_revision、raw_sha256、paragraph_sha256。原斷言角色、整段、來源work/book/source與雙端錨全部核定。編者assembly邊不作此contract的證據。舊父名及同源父鏈模型不改，runtime不自動生成缺姓資料。
+
+### 有限同源明名兄弟／父子路徑的編輯姓氏
+
+`contextual_surname_from_bounded_named_family_path` 保完整原全文名seed、同來源逐步既存斷言／原人物錨／整段引文／paragraph SHA／revision／raw SHA。最多5步，assertion與人物均不得重複；兄弟步只准收到傳首「具名甲弟具名乙」及原相對序，世代不動；father_to_child步必有既存source_attested父斷言，世代加1，核具名父子原詞或有qualification的相鄰子附傳。只驗姓名資料，不生成父斷言、未知共同父、世距或家族組裝。
+
+每步exact fields為assertion_id/from_person_id/to_person_id/traversal/generation_before/generation_after/evidence/source_frames；source_frames逐完整來源段固定hash/revision。seed可在同單元引語中，但必為已標記的原全文名，不能用官稱、同姓、ID、郡望或已推姓者代seed。母／配偶／養／義兄弟／叔／未知共同父／跨源／循環／錯世代皆拒。輸出contextual_provisional及human_reviewed=false，原quote、ming和source技術ID不改；不放寬既有father-chain或bound-ancestor contract。
