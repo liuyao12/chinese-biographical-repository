@@ -1068,3 +1068,9 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `person_event_assertion_set` 的 `noble_state_abolition` 首例同限此完整句式，以最後具名承嗣者作「有罪，國除」敘述的個人關聯端點；封國撤除不作人物死亡。保完整四角色與人物錨點、全段收到引文，`title` / `holding_id` / `date_expression` 均為 null，不補未明爵名、持爵起點或年份。此來源事件不產生收養、生父、家族組裝或改號。
 
 `noble_title_succession` 同樣限此完整句式，以段首瑤為承襲者、`source_term: 襲爵`、`mode: accession`；`predecessor_person_id`、`title`、`holding_id`及日期均為null。它是未定爵名的來源事件，不生成title='爵'的假具名持職或未經來源核定的前任。
+
+## 據完整平行敘事辨識爵名衝突
+
+`parallel_context_reading` 與古注所報異文分開。此窄契約限兩個現行人物候選、同一固定 primary 見證的兩個連續完整敘事單元，以及原段同事件用語。保留原字，透過上下文暫選身份；`source_spelling_is_not_alias:true` 且原異常錨點不得加入人物 aliases，只保存 evidence 雙端。不得偽造 `reported_variants` 或 commentator。
+
+驗證接收實際 root，核 raw 檔雜湊、修訂、來源路徑及 symlink 邊界、完整單元起訖、具名傳首、兩候選與事件／相互區分錨點。原段須為完整原始正文行，原詞、位置及兩個肯定事件用語俱存；否定、錯人、省略原證或僅保留片段均拒絕。這些檢查約束編輯判讀的證據，不以 NLU 自動推論身份；`human_reviewed:false`。

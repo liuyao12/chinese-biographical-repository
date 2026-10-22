@@ -755,6 +755,12 @@ def validate(root=ROOT):
                           and reading['source_spelling_is_not_alias'] is True
                           and reading['status'] == 'editorial_provisional' and bool(reading['rationale'])
                           and decision.get('human_reviewed') is False, '人物首選校讀須有同段異文、人物錨點及明示別名限制')
+                if 'parallel_context_reading' in decision:
+                    try:
+                        from scripts.parallel_context_identity import valid as parallel_context_identity_valid
+                    except ImportError:
+                        from parallel_context_identity import valid as parallel_context_identity_valid
+                    check(parallel_context_identity_valid(decision, chapters, {p['id']: p for p in people}, root), '平行敘事身份須有兩候選、完整固定原證、同事件字面及非別名界限')
                 target=next((p for p in people if p['id']==decision['person_id']),None)
                 if target: check(set(decision['surfaces']).issubset({a['surface'] for a in target['aliases']}),'身份判斷包含未見異稱')
         for path in (root/'corpus').glob('*/*-distinctions.json'):
