@@ -17,7 +17,7 @@ class Concordance(unittest.TestCase):
  def test_32_person_aliases_one_collective(self):
   a,details=occurrence_catalog(R,[r for r in RECORDS if r.get('record_type')!='source_occurrence_concordance_set' or r is C]);self.assertEqual(len(a),32);self.assertEqual(len(details),32);self.assertEqual(sum(r['kind']=='unresolved_text_span_correspondence'for r in C['records']),1)
  def test_all_sources_form_disjoint_exact_alias_union(self):
-  expected={SID:32,'s-houhanshu-062-xunhan-zhongchen':30};union={};all_details={}
+  expected={SID:32,'s-houhanshu-062-xunhan-zhongchen':30,'s-nanshi020-kr3c7bdbb':0};union={};all_details={}
   sets=[r for r in RECORDS if r.get('record_type')=='source_occurrence_concordance_set']
   self.assertEqual({r['source']['source_id']for r in sets},set(expected))
   for selected in sets:
