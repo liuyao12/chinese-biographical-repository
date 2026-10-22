@@ -4517,7 +4517,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。三代母系分開，謝尚、謝玄未按同姓或數位標題接入未知父系，未宣稱全族完成。",
+      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。",
       "members": [
         {
           "person_id": "aa6_83c_juy",
@@ -11478,6 +11478,125 @@
           "parent_person_id": "3xx_gdy_or6_BA",
           "source_assertion_id": "a-jin061-jiao-father",
           "collateral_root_group_id": null
+        }
+      ]
+    },
+    {
+      "id": "family-hedong-pei-songzhi",
+      "root_person_id": "vpy_180_2oi",
+      "label": "河東裴氏：昧、珪至松之、子野近系",
+      "status": "editorial_preferred",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "rationale": "依宋書、南史具名父祖及連續父子組裝七代近系；珪與昧之間單列同段連續祖先推導。字母不表示排行，不接裴康八世孫遠鏈，不由祖母殷氏或生母、繼母反推未載父系與婚姻。",
+      "members": [
+        {
+          "person_id": "vpy_180_2oi",
+          "representative_source_person_id": "vpy_180_2oi",
+          "source_person_ids": [
+            "vpy_180_2oi"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "vpy_180_2oi_A",
+          "representative_source_person_id": "vpy_180_2oi_A",
+          "source_person_ids": [
+            "vpy_180_2oi_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "vpy_180_2oi_AA",
+            "nearer_ancestor_assertion_id": "a-nanshi033-songzhi-father",
+            "farther_ancestor_assertion_id": "a-nanshi033-songzhi-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同段松之父珪、祖昧為連續具名父系祖先；珪為昧子是編輯組裝，不另造來源父子斷言。",
+            "references": [
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-033",
+                "source_id": "s-nanshi033-ws1554233",
+                "chapter_id": "c-nanshi-033-pei-family",
+                "paragraph_id": "c-nanshi-033-pei-family:p001",
+                "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+                "assertion_id": "a-nanshi033-songzhi-father",
+                "scope": "同一人物之連續具名父祖",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+              },
+              {
+                "work_id": "w-nanshi",
+                "book_id": "b-nanshi-033",
+                "source_id": "s-nanshi033-ws1554233",
+                "chapter_id": "c-nanshi-033-pei-family",
+                "paragraph_id": "c-nanshi-033-pei-family:p001",
+                "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+                "assertion_id": "a-nanshi033-songzhi-grandfather",
+                "scope": "同一人物之連續具名父祖",
+                "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "vpy_180_2oi_AA",
+          "representative_source_person_id": "vpy_180_2oi_AA",
+          "source_person_ids": [
+            "vpy_180_2oi_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi_A",
+          "source_assertion_id": "a-nanshi033-songzhi-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vpy_180_2oi_AAA",
+          "representative_source_person_id": "vpy_180_2oi_AAA",
+          "source_person_ids": [
+            "vpy_180_2oi_AAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi_AA",
+          "source_assertion_id": "a-nanshi033-yin-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vpy_180_2oi_AAAA",
+          "representative_source_person_id": "vpy_180_2oi_AAAA",
+          "source_person_ids": [
+            "vpy_180_2oi_AAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi_AAA",
+          "source_assertion_id": "a-nanshi033-zhaoming-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vpy_180_2oi_AAAAA",
+          "representative_source_person_id": "vpy_180_2oi_AAAAA",
+          "source_person_ids": [
+            "vpy_180_2oi_AAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi_AAAA",
+          "source_assertion_id": "a-nanshi033-ziye-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "vpy_180_2oi_AAAAAA",
+          "representative_source_person_id": "vpy_180_2oi_AAAAAA",
+          "source_person_ids": [
+            "vpy_180_2oi_AAAAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "vpy_180_2oi_AAAAA",
+          "source_assertion_id": "a-nanshi033-qian-father",
+          "connection": "father"
         }
       ]
     }

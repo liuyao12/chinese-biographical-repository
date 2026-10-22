@@ -45,10 +45,102 @@
       "chapter_id": "c-liangshu-030-peiziye",
       "source_id": "s-liang030-ws1508510",
       "work_title": "梁書"
+    },
+    {
+      "number": 35,
+      "category": "",
+      "title": "裴楷及附傳近系",
+      "paragraph_id": "c-jinshu-035-peikai-family:p016",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "楷長兄黎，次兄康，並知名。康子盾，少曆顯位。永嘉中，為徐州刺史，委任長史司馬奧。奧勸盾刑殺立威，大發良人為兵，有不奉法者罪便至死。在任三年，百姓嗟怨。東海王越，盾妹夫也。越既薨，騎督滿衡便引所發良人東還。尋而劉元海遣",
+      "paragraph_ids": [
+        "c-jinshu-035-peikai-family:p016",
+        "c-jinshu-035-peikai-family:p017",
+        "c-jinshu-035-peikai-family:p019"
+      ],
+      "mention_ids": [
+        "c-jinshu-035-peikai-family:p016:m0007",
+        "c-jinshu-035-peikai-family:p016:m0013",
+        "c-jinshu-035-peikai-family:p017:m0120",
+        "c-jinshu-035-peikai-family:p019:m0034"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-035-peikai-family:p016:m0007": "c-jinshu-035-peikai-family:p016",
+        "c-jinshu-035-peikai-family:p016:m0013": "c-jinshu-035-peikai-family:p016",
+        "c-jinshu-035-peikai-family:p017:m0120": "c-jinshu-035-peikai-family:p017",
+        "c-jinshu-035-peikai-family:p019:m0034": "c-jinshu-035-peikai-family:p019"
+      },
+      "mention_id": "c-jinshu-035-peikai-family:p016:m0007",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-035-peikai-family:p016:m0007",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p016:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peikai-family:p016:m0013",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p016:m0013"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peikai-family:p017:m0120",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p017:m0120"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-035-peikai-family:p019:m0034",
+          "mention_ids": [
+            "c-jinshu-035-peikai-family:p019:m0034"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "source_id": "s-jinshu-035-peikai-ws2506399",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-035-peikai-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-035",
+      "source_id": "s-jinshu-035-peikai-ws2506399",
+      "source": {
+        "title": "《晉書》卷三十五裴楷及附傳（固定數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E6%99%89%E6%9B%B8%2F%E5%8D%B7035&oldid=2506399",
+        "revision_id": 2506399,
+        "accessed_on": "2026-10-21",
+        "extent": "完整裴楷及輿、瓚、憲、康盾邵、綽遐與八裴八王19段；不是完整卷035，不含陳騫裴秀頠及史評。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留見證歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be",
+        "response_sha256": "e7fc20a0864866bfb68f1f92b542b6f542edebed2052fcf550244ed46206fa35",
+        "raw_file": "sources/witnesses/jin035-ws2506399.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "展開連結顯示字、去粗體排版；標題另層。㲄、俊郎、雲及缺閉引號原樣保留。"
+        }
+      }
+    },
     {
       "chapter_id": "c-liangshu-030-peiziye",
       "work_id": "w-liangshu",
@@ -85,7 +177,7 @@
   "relations": [
     {
       "id": "a-liang030-ziye-kang-ancestor",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "ancestor",
       "object_person_id": "y8f_xr3_osd",
       "status": "source_attested",
@@ -259,7 +351,7 @@
     "2vl_svq_ynl": "黎〔康兄〕",
     "2xw_y7a_0ek": "綽〔康弟，楷弟〕",
     "530_f9d_4bd": "裴楷",
-    "hvz_7p7_g9m": "裴子野",
+    "vpy_180_2oi_AAAAA": "裴子野",
     "y8f_xr3_osd": "康〔晉太子左率，子野遠祖〕"
   },
   "dates": [],
@@ -270,7 +362,7 @@
   "preferred_relations": [
     {
       "id": "a-liang030-ziye-kang-ancestor",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "ancestor",
       "object_person_id": "y8f_xr3_osd",
       "status": "source_attested",

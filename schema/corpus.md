@@ -1048,3 +1048,12 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `grandmother` 的本句讀法保存 `source_term: 祖母`、`lineage: unspecified`、`generation_difference: -2`、`parent_person_id: null`、`relationship_basis` 同綁定kind。這是來源稱謂，不憑此補中間親代、父系／母系、血緣或婚姻。
 
 `raised_by` 另存 `source_term: 為祖母某所養`、`care_basis` 同綁定kind、`legal_adoption_status: not_stated`。撫養與法律收養、生母、繼母分別保存。此新增分支不更動其他祖母或養育句法模型。
+
+
+### 具名雙端的從中表
+
+`kinship_unspecified` 新窄分支 `kinship_basis: congzhongbiao_named_pair` 保留 `source_term: 從中表`、`relationship_class: biao_kinship` 及 `source_modifier: 從`，可機器區分中表類旁親及從修飾，不降為無類別的有親，也不解作普通姨表兄弟。
+
+`lineage: unspecified`、`generation_difference: null`、`exact_distance: null`、`common_ancestor_person_id: null`、`connecting_person_ids: null`、`subject_relative_age: unknown` 保全未明範圍；此謂詞不是父系接樹證據，不使用遠祖限定的 `adopted_for_family_tree` 欄位，不能由這個用稱補共同祖先、中間人物、同輩、排行或姨／姑／舅的確切路徑。不是把未知連接人物記作空名父母。
+
+`source_clause_binding.kind: named_subject_yu_named_object_congzhongbiao` 保存完整「具名甲於具名乙為／爲從中表」及從中表原位、固定見證source ID／revision／raw SHA／章正文SHA。兩個人物錨點須位於本句的甲、乙位置，證據必為完整實存原段，並與實際sources原檔字串對上；當前限定接受只有段落邊界空白的literal raw，不去注釋或借另一段projection。此分支只接受傳文敘述句，不把引語、否定或附注視為來源本人的直接親屬聲稱。兩史各記原證，不以重複記載推算親等或提高史料權重。從中表欄位保留於雙端JSON；三代及父系trace不沿此謂詞。

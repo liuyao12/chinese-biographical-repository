@@ -5,9 +5,9 @@
   "assertions": [
     {
       "id": "a-liang030-ziye-father",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "father",
-      "object_person_id": "gph_q6g_x5x",
+      "object_person_id": "vpy_180_2oi_AAAA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "父昭明",
@@ -32,9 +32,9 @@
     },
     {
       "id": "a-liang030-ziye-grandfather",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "grandfather",
-      "object_person_id": "6xs_3do_hil",
+      "object_person_id": "vpy_180_2oi_AAA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "祖駰",
@@ -59,9 +59,9 @@
     },
     {
       "id": "a-liang030-ziye-great-grandfather",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "great_grandfather",
-      "object_person_id": "301_026_427",
+      "object_person_id": "vpy_180_2oi_AA",
       "status": "source_attested",
       "qualifiers": {
         "source_term": "曾祖松之",
@@ -86,7 +86,7 @@
     },
     {
       "id": "a-liang030-ziye-kang-ancestor",
-      "subject_person_id": "hvz_7p7_g9m",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
       "predicate": "ancestor",
       "object_person_id": "y8f_xr3_osd",
       "status": "source_attested",
@@ -251,6 +251,62 @@
         }
       ],
       "interpretation_note": "八世祖康後接兄黎弟楷綽，主語康而非傳主子野；固定晉035楷長兄黎次兄康、楷弟綽只作外部閱讀參照，這條關係引用梁原句。不推同父／同母、絕對排行或共同祖先。",
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    },
+    {
+      "id": "a-liang030-ziye-renfang-congzhongbiao",
+      "subject_person_id": "vpy_180_2oi_AAAAA",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "tvc_q3c_t7w",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-liangshu",
+          "book_id": "b-liangshu-030",
+          "chapter_id": "c-liangshu-030-peiziye",
+          "source_id": "s-liang030-ws1508510",
+          "paragraph_id": "c-liangshu-030-peiziye:p002",
+          "quote": "子野生而偏孤，爲祖母所養，年九歲，祖母亡，泣血哀慟，家人異之。少好學，善屬文。起家齊武陵王國左常侍，右軍江夏王參軍，遭父憂去職。居喪盡禮，每之墓所，哭泣處草爲之枯，有白兔馴擾其側。天監初，尚書僕射范雲嘉其行，將表奏之，會雲卒，不果。樂安任昉有盛名，爲後進所慕，遊其門者，昉必相薦達。子野於昉爲從中表，獨不至，昉亦恨焉。久之，除右軍安成王參軍，俄遷兼廷尉正。時三官通署獄牒，子野嘗不在，同僚輒署其名，奏有不允，子野從坐免職。或勸言諸有司，可得無咎。子野笑而答曰：「雖慚柳季之道，豈因訟以受服。」自此免黜久之，終無恨意。",
+          "subject_person_mention_id": "c-liangshu-030-peiziye:p002:m0141",
+          "object_person_mention_id": "c-liangshu-030-peiziye:p002:m0144"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "從中表",
+        "kinship_basis": "congzhongbiao_named_pair",
+        "relationship_class": "biao_kinship",
+        "source_modifier": "從",
+        "lineage": "unspecified",
+        "generation_difference": null,
+        "exact_distance": null,
+        "common_ancestor_person_id": null,
+        "connecting_person_ids": null,
+        "subject_relative_age": "unknown",
+        "source_clause_binding": {
+          "kind": "named_subject_yu_named_object_congzhongbiao",
+          "clause_anchor": {
+            "paragraph_id": "c-liangshu-030-peiziye:p002",
+            "start": 141,
+            "end": 149,
+            "surface": "子野於昉爲從中表"
+          },
+          "relationship_anchor": {
+            "paragraph_id": "c-liangshu-030-peiziye:p002",
+            "start": 146,
+            "end": 149,
+            "surface": "從中表"
+          },
+          "source_fingerprint": {
+            "source_id": "s-liang030-ws1508510",
+            "revision_id": 1508510,
+            "raw_sha256": "930b640ef553931a6d0f2c2b8c548fbd69e0f0db12dd6637222764518d1b871f",
+            "text_sha256": "12db5f4a3c3f5b0c61befdf32fdd5b3b06cdc51dc8b803f179dbf7c60c83d473"
+          }
+        }
+      },
+      "interpretation_note": "原文子野於昉為／爲從中表：保從中表類別與從修飾；未記確切親等、世代、長幼及所經姑舅姨或中間人物，不作父系接樹。",
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null

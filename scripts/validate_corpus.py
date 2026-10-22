@@ -1515,7 +1515,13 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'explicit_weiqin_pair':
+                    if qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
+                        try:
+                            from scripts.congzhongbiao import valid as congzhongbiao_valid
+                        except ImportError:
+                            from congzhongbiao import valid as congzhongbiao_valid
+                        check(congzhongbiao_valid(a, paragraphs, chapters, root), '從中表須有具名雙端與固定原文，不得補親等世代或父系路徑')
+                    elif qualifiers.get('kinship_basis') == 'explicit_weiqin_pair':
                         try:
                             from scripts.contextual_relations import weiqin_pair_valid
                         except ImportError:
