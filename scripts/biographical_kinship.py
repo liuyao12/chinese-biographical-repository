@@ -48,6 +48,12 @@ def received_paragraphs_contiguous(chapter, first, second):
         return True
     if digital_paratext_errors(chapter):
         return False
+    try:
+        from .subject_continuation import verified_blank_gap
+    except ImportError:
+        from subject_continuation import verified_blank_gap
+    if verified_blank_gap(chapter, a, b):
+        return True
     records = chapter.get('source', {}).get('normalization', {}).get('omitted_digital_paratext', [])
     spans = sorted(record['source_lines'] for record in records
                    if end < record['source_lines'][0] and record['source_lines'][1] < start)

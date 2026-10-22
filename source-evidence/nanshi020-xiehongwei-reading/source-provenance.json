@@ -1,0 +1,55 @@
+{
+  "accessed_on": "2026-10-21",
+  "sources": [
+    {
+      "file": "jin079-ws2645985.wikitext",
+      "provider": "Wikisource",
+      "revision_id": 2645985,
+      "revision_timestamp": "2026-02-01T08:30:40Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷079&oldid=2645985",
+      "raw_sha256": "5fa1f639fa36f784fc45cc19fc9b185fa59a64dab7b01f9390d09942c4f071ca",
+      "response_file": "jin079-fixed-response.json",
+      "response_sha256": "d163328c2cd16ad7f6eb3d805fb7f9dbd03f98297a3bfd1d9c51897d21fe1333",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_verified": false,
+      "human_reviewed": false,
+      "source_body_matches_existing_native_witness_hash": true
+    },
+    {
+      "file": "nanshi020-ws513423.wikitext",
+      "provider": "Wikisource",
+      "revision_id": 513423,
+      "revision_timestamp": "2016-09-22T08:52:39Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=南史/卷20&oldid=513423",
+      "raw_sha256": "40009508c2a0915beed1b103fcf714a5103cc66586d1f06e615197f72d9ebb3d",
+      "response_file": "nanshi020-response.json",
+      "response_sha256": "f17640f027a2fd0cd285be1456a71320a23c8c8d0ab07a8c8e00c8eb33ca495b",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "image_verified": false,
+      "human_reviewed": false,
+      "qualification": "混簡繁首段及引語閉合缺陷照原樣保留；不以轉繁體修正人名或史實"
+    },
+    {
+      "file": "nanshi020-kanripo.txt",
+      "provider": "Kanripo",
+      "repository": "kanripo/KR2a0024",
+      "source_commit": "3c7bdbb072bf8e1eb70d134a94570c4b8de058ea",
+      "url": "https://raw.githubusercontent.com/kanripo/KR2a0024/3c7bdbb072bf8e1eb70d134a94570c4b8de058ea/KR2a0024_020.txt",
+      "base_edition": "WYG（檔首標示；未核影像）",
+      "raw_sha256": "4a06175b7f645cf3012c5857b8e33abe3b41bb3f4a0a44ce76105b87112714cb",
+      "repository_license_metadata": null,
+      "rights": "古代原文；本包只私人預檢，未另斷言現代轉錄及包裝的授權或重新授權",
+      "image_verified": false,
+      "human_reviewed": false
+    }
+  ],
+  "unavailable_parallel_jin079": {
+    "master_commit": "82291520954e5af1fdade894971a2f5810fd4e31",
+    "WYG_commit": "e981341a9cad788ea6a9748f9b5a6f0187b019d7",
+    "master_tree_entries": 35,
+    "WYG_tree_entries": 35,
+    "last_text_file": "KR2a0015_033.txt",
+    "http_status": 404,
+    "conclusion": "未取得Kanripo晉書079，不冒稱正文或圖像核對"
+  }
+}

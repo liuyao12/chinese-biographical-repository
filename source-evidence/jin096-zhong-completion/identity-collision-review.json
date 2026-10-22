@@ -1,0 +1,247 @@
+[
+  {
+    "key": "lun",
+    "new_person_id": "ajd_ovg_u3y",
+    "registry_same_surface_candidates": [
+      {
+        "person_id": "bav_adk_phh",
+        "label": "趙王倫",
+        "chapter_ids": [
+          "c-jinshu-075-xunsong-families"
+        ]
+      },
+      {
+        "person_id": "dkn_ge4_286_AAAAG",
+        "label": "司馬倫",
+        "chapter_ids": [
+          "c-jinshu-035-peikai-family",
+          "c-jinshu-037-phase5-pengcheng",
+          "c-jinshu-038-langye-near-family",
+          "c-jinshu-039-wangxun-feng",
+          "c-jinshu-089-jishao",
+          "c-jinshu-099-huanxuan"
+        ]
+      },
+      {
+        "person_id": "rrg_6v0_7l0",
+        "label": "髙倫",
+        "chapter_ids": [
+          "c-houhanshu-062-xunhan-zhongchen"
+        ]
+      }
+    ],
+    "decision": "本段明釋參軍為渾中弟淪；新登來源身份，不由異文倫或別篇同名合併，不由假設婚配當已婚。"
+  },
+  {
+    "key": "daughter",
+    "new_person_id": "bj8_t2b_ty7",
+    "registry_same_surface_candidates": [],
+    "decision": "本段琰女，具體未名女兒；未與其他王氏女子、楷妻等同，兵家子婚配未成。",
+    "current_wanghun_child_source_records": [
+      {
+        "path": "corpus/sanguozhi/027-wangchang-assertions.json",
+        "assertion": {
+          "id": "a-sanguozhi027-wangchang-004",
+          "subject_person_id": "a8f_ec8_e74_ABB",
+          "predicate": "father",
+          "object_person_id": "a8f_ec8_e74_AB",
+          "status": "source_attested",
+          "qualifiers": {
+            "source_term": "渾子濟"
+          },
+          "evidence": [
+            {
+              "work_id": "w-sanguozhi",
+              "book_id": "b-sanguozhi-027",
+              "chapter_id": "c-sanguozhi-027-wangchang",
+              "source_id": "s-sanguozhi-027-wangchang",
+              "paragraph_id": "c-sanguozhi-027-wangchang:unit018",
+              "quote": "案晉書曰自越騎入晉累居方任平吳有功封一子江陵侯位至司徒渾子濟字武子有雋才令望為河南尹太僕早卒追贈驃騎将軍渾弟深冀州刺史深弟湛字處冲汝南太守湛子承字安期東海内史承子述字懐祖尚書令衛将軍述子坦之字文度北中郎将徐兖二州刺史昶諸子中湛最有徳譽而承亦自為名士述及坦之並顯重於世為時盛門云自湛已下事見晉陽秋也",
+              "subject_person_mention_id": "c-sanguozhi-027-wangchang:unit018:m0029",
+              "object_person_mention_id": "c-sanguozhi-027-wangchang:unit018:m0027"
+            }
+          ],
+          "interpretation_note": "只存此層原文明言，不補生母／排行，不改既有父或家族根。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "path": "corpus/jinshu/042-taiyuan-wang-assertions.json",
+        "assertion": {
+          "id": "a-jinshu-taiyuan-wang-018",
+          "subject_person_id": "a8f_ec8_e74_ABA",
+          "predicate": "father",
+          "object_person_id": "a8f_ec8_e74_AB",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line025",
+              "quote": "渾所曆之職，前後著稱，及居台輔，聲望日減。元康七年薨，時年七十五，諡曰元。長子尚早亡，次子濟嗣。",
+              "subject_person_mention_id": "c-jinshu-042-taiyuan-wang:line025:m0039",
+              "object_person_mention_id": "c-jinshu-042-taiyuan-wang:line025:m0000"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "長子尚早亡",
+            "lineage": "paternal",
+            "reported_rank_source_term": "長子",
+            "reported_birth_order": {
+              "scope": "sons_of_parent",
+              "parent_person_id": "a8f_ec8_e74_AB",
+              "ordinal": 1,
+              "source_term": "長子",
+              "reporting_status": "source_attested",
+              "selected_for_default_order": false
+            },
+            "birth_order": {
+              "scope": "sons_of_parent",
+              "parent_person_id": "a8f_ec8_e74_AB",
+              "ordinal": null,
+              "position": "unspecified",
+              "interpretation_status": "ambiguous"
+            }
+          },
+          "interpretation_note": "同卷42:13次子尚與42:25長子尚互矛盾，兩原句各存；此父子來源不決定預設排行。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "path": "corpus/jinshu/042-taiyuan-wang-assertions.json",
+        "assertion": {
+          "id": "a-jinshu-taiyuan-wang-019",
+          "subject_person_id": "a8f_ec8_e74_ABB",
+          "predicate": "father",
+          "object_person_id": "a8f_ec8_e74_AB",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line025",
+              "quote": "渾所曆之職，前後著稱，及居台輔，聲望日減。元康七年薨，時年七十五，諡曰元。長子尚早亡，次子濟嗣。",
+              "subject_person_mention_id": "c-jinshu-042-taiyuan-wang:line025:m0045",
+              "object_person_mention_id": "c-jinshu-042-taiyuan-wang:line025:m0000"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "次子濟嗣",
+            "source_term_birth_order": "次子",
+            "ordinal_interpretation": "未因同卷矛盾確定絕對排行",
+            "lineage": "paternal"
+          },
+          "interpretation_note": "按傳文主語及明言親屬保存；不據承襲本身推父子，不補未載生年、母親或配偶。",
+          "reviewer": "Codex（AI代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "path": "corpus/jinshu/042-taiyuan-wang-assertions.json",
+        "assertion": {
+          "id": "a-jinshu-taiyuan-wang-024",
+          "subject_person_id": "a8f_ec8_e74_ABC",
+          "predicate": "father",
+          "object_person_id": "a8f_ec8_e74_AB",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line017",
+              "quote": "孫皓司徒何植、建威將軍孫晏送印節詣渾降。既而王濬破石頭，降孫皓，威名益振。明日，渾始濟江，登建鄴宮，釃酒高會。自以先據江上，破皓中軍，案甲不進，致在王濬之後。意甚愧恨，有不平之色，頻奏濬罪狀，時人譏之。帝下詔曰：「使持節、都督揚州諸軍事、安東將軍、京陵侯王渾，督率所統，遂逼秣陵，令賊孫皓救死自衛，不得分兵上赴，以成西軍之功，又摧大敵，獲張悌，使皓途窮勢盡，面縛乞降。遂平定秣陵，功勳茂著。其增封八千戶，進爵為公，封子澄為亭侯、弟湛為關內侯，賜絹八千匹。」轉征東大將軍，復鎮壽陽。渾不尚刑名，處斷明允。時吳人新附，頗懷畏懼。渾撫循羈旅，虛懷綏納，座無空席，門不停賓。於是江東之士莫不悅附。",
+              "subject_person_mention_id": "c-jinshu-042-taiyuan-wang:line017:m0209",
+              "object_person_mention_id": "c-jinshu-042-taiyuan-wang:line017:m0017"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "封子澄為亭侯",
+            "lineage": "paternal"
+          },
+          "interpretation_note": "逐字明載父子；不藉同姓或兄弟補父。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      },
+      {
+        "path": "corpus/jinshu/042-taiyuan-wang-assertions.json",
+        "assertion": {
+          "id": "a-jinshu-taiyuan-wang-025",
+          "subject_person_id": "a8f_ec8_e74_ABA",
+          "predicate": "father",
+          "object_person_id": "a8f_ec8_e74_AB",
+          "status": "source_attested",
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-042",
+              "chapter_id": "c-jinshu-042-taiyuan-wang",
+              "source_id": "s-jinshu-042-taiyuan-wang",
+              "paragraph_id": "c-jinshu-042-taiyuan-wang:line013",
+              "quote": "轉征虜將軍、監豫州諸軍事、假節，領豫州刺史。渾與吳接境，宣佈威信，前後降附甚多。吳將薛瑩、魯淑眾號十萬，淑向弋陽，瑩向新息。時州兵並放休息，眾裁一旅，浮淮潛濟，出其不意，瑩等不虞晉師之至。渾擊破之，以功封次子尚為關內侯。遷安東將軍、都督揚州諸軍事，鎮壽春。吳人大佃皖城，圖為邊害。渾遣揚州刺史應綽督淮南諸軍攻破之，並破諸別屯，焚其積穀百八十餘萬斛、稻苗四千餘頃、船六百餘艘。渾遂陳兵東疆，視其地形險易，曆觀敵城，察攻取之勢。",
+              "subject_person_mention_id": "c-jinshu-042-taiyuan-wang:line013:m0104",
+              "object_person_mention_id": "c-jinshu-042-taiyuan-wang:line013:m0022"
+            }
+          ],
+          "qualifiers": {
+            "source_term": "以功封次子尚為關內侯",
+            "lineage": "paternal",
+            "reported_rank_source_term": "次子",
+            "reported_birth_order": {
+              "scope": "sons_of_parent",
+              "parent_person_id": "a8f_ec8_e74_AB",
+              "ordinal": 2,
+              "source_term": "次子",
+              "reporting_status": "source_attested",
+              "selected_for_default_order": false
+            },
+            "birth_order": {
+              "scope": "sons_of_parent",
+              "parent_person_id": "a8f_ec8_e74_AB",
+              "ordinal": null,
+              "position": "unspecified",
+              "interpretation_status": "ambiguous"
+            }
+          },
+          "interpretation_note": "同卷42:13次子尚與42:25長子尚互矛盾，兩原句各存；此父子來源不決定預設排行。",
+          "reviewer": "Codex（AI 代理）",
+          "human_reviewed": false,
+          "model": null
+        }
+      }
+    ],
+    "cross_chapter_qualification": "父系或婚姻橋中的其他女兒即使同一王渾之女，也不等於這一琰女；母親、婚配事件與同指均未由本段確立，不因同父候選自動合併。"
+  },
+  {
+    "key": "candidate",
+    "new_person_id": "1mb_77n_te5",
+    "registry_same_surface_candidates": [],
+    "decision": "兵家子、此兵、緋衣者、此人、其人依同一擇婿敘事辨識；未載姓名、父母，未許婚。"
+  },
+  {
+    "key": "hao",
+    "new_person_id": "5xn_r96_xyr",
+    "registry_same_surface_candidates": [
+      {
+        "person_id": "r01_ago_low",
+        "label": "趙郝（平原君虞卿列傳候選）",
+        "chapter_ids": [
+          "c-shiji-076-pingyu"
+        ]
+      }
+    ],
+    "decision": "本段渾弟湛妻郝氏及郝夫人，同一女子；不由妻的身份推王承的生母。"
+  }
+]
