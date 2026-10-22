@@ -15300,5 +15300,13 @@
     "保既有人物跨篇同指；此輪不以近名/字面比對重做全庫canonical合併。",
     "歷史快照保原始capture及原hash，只加已被此決定取代的註解scope。",
     "戴／徵若已由其獨立決定採入，保其兩錨與身份；未採則仍保該階段未決，不在本包重做切詞。"
+  ],
+  "person_rekey_snapshot_qualifications": [
+    {
+      "id": "sanguozhi022-tan-rekey-snapshot-qualification",
+      "scope": "historical_identity_capture_not_current_person_endpoint",
+      "superseded_by": "source-evidence/sanguozhi022-tan-lineage/decision.json",
+      "qualification": "原capture文字、標記、hash、before/after及先前NER語義決定保持原態；其中坦之人物ID是當時快照，現行端點改由原生chapter/registry追溯，無runtimealias。"
+    }
   ]
 }

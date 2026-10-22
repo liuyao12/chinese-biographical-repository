@@ -1,0 +1,437 @@
+{
+  "format_version": "0.1",
+  "record_type": "family_tree_decision_set",
+  "decisions": [
+    {
+      "id": "ft-xintangshu071xia-chen-ji",
+      "subject_person_id": "9w8_tqh_ysn_A",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_A",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-houhanshu062-chen-001",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-ji-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "後漢書本傳有六子紀諶最賢且紀、諶續傳及裴注同近系；唐表寔六子紀同父相容。保已錄較早具名父邊為首選，唐邊留次選僅免同一父邊重複，絕非否定父鏈。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。保留已錄較早正史明文父鏈。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-kui",
+      "subject_person_id": "9w8_tqh_ysn_C",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_C",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-xintangshu071xia-chen-kui-father",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "later_named_genealogy_compatible_with_earlier_six_count_not_independent_name_attestation",
+      "rationale": "夔：唐表寔六子列名是本名與父寔的直接收到主張；後漢書有六子紀諶最賢只支持六子總數，沒有具列此四名。本次實讀範圍未見相反父名或互斥身份；採後出具名記載為moderate／contextual provisional父鏈首選，不宣稱四名獲早期來源獨立證實，不給母親或排行，也不接受任何遠古父鏈。",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-071-xia",
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
+          "source_term": "六子：紀、夔、洽、諶、休、光。"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "quote": "陳寔字仲弓潁川許人也出於單微自為兒童雖在戱弄為等類所歸少作縣吏常給事厮役後為都亭刺史佐而有志好學坐立誦讀縣令鄧邵試與語竒之聽受業太學後令復召為吏乃避隠陽城山中時有殺人者同縣揚吏以疑寔縣遂逮繫考掠無實而後得出及為督郵乃密託許令禮召揚吏逺近聞者咸歎服之家貧復為郡西門亭長尋轉功曹時中常侍侯覽託太守髙倫用吏倫教署為文學掾寔知非其人懐檄請見言曰此人不宜用而侯常侍不可違寔乞從外署不足以塵明徳倫從之於是鄉論怪其非舉寔終無所言倫後被徴為尚書郡中士大夫送至輪氏傳舍倫謂衆人言曰吾前為侯常侍用吏陳君密持教還而於外白署比聞議者以此少之此咎由故人畏憚强禦陳君可謂善則稱君過則稱己者也寔固自引愆聞者方歎息由是天下服其徳司空黄瓊辟選理劇補聞喜長旬月以朞喪去官復再遷除太丘長脩徳清静百姓以安鄰縣人戸歸附者寔輙訓導譬解發遣各令還本司官行部吏慮有訟者白欲禁之寔曰訟以求直禁之理將何申其勿有所拘司官聞而歎息曰陳君所言若是豈有怨於人乎亦竟無訟者以沛相賦斂違法乃解印綬去吏人追思之及後逮捕黨人事亦連寔餘人多逃避求免寔曰吾不就獄衆無所恃乃請囚焉遇赦得出靈帝初大將軍竇武辟以為掾屬時中常侍張讓權傾天下讓父死歸葬潁川雖一郡畢至而名士無徃者讓甚恥之寔乃獨弔焉及後復誅黨人讓感寔故多所全宥寔在鄉閭平心率物其有爭訟輙求判正曉譬曲直退無怨者至乃歎曰寜為刑罰所加不為陳君所短時嵗荒民儉有盗夜入其室止於梁上寔隂見乃起自整拂呼命子孫正色訓之曰夫人不可不自勉不善之人未必本惡習以性成遂至於此梁上君子者是矣盗大驚自投於地稽顙歸罪寔徐譬之曰視君狀貌不似惡人宜深剋己反善然此當由貧困令遺絹二匹自是一縣無復盗竊太尉楊賜司徒陳耽每拜公卿羣僚畢賀賜等常歎寔大位未登愧於先之及黨禁始解大將軍何進司徒袁隗遣人敦寔欲特表以不次之位寔乃謝使者曰寔久絶人事飾巾待終而已時三公每缺議者歸之累見徴命遂不起閉門懸車棲遲養老中平四年年八十四卒於家何進遣使弔祭海内赴者三萬餘人制衰麻者以百數共刋石立碑諡為文範先生有六子紀諶最賢"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_source_selection": {
+        "preferred_assertion_id": null,
+        "preferred_parent_person_id": null,
+        "excluded_assertion_ids": [
+          "a-xintangshu071xia-chen-kui-father"
+        ],
+        "default_view": "omit_unproven_biological_parent_edge",
+        "rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。"
+      },
+      "four_sons_followup": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-qia",
+      "subject_person_id": "9w8_tqh_ysn_D",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_D",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-xintangshu071xia-chen-qia-father",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "later_named_genealogy_compatible_with_earlier_six_count_not_independent_name_attestation",
+      "rationale": "洽：唐表寔六子列名是本名與父寔的直接收到主張；後漢書有六子紀諶最賢只支持六子總數，沒有具列此四名。本次實讀範圍未見相反父名或互斥身份；採後出具名記載為moderate／contextual provisional父鏈首選，不宣稱四名獲早期來源獨立證實，不給母親或排行，也不接受任何遠古父鏈。",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-071-xia",
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
+          "source_term": "六子：紀、夔、洽、諶、休、光。"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "quote": "陳寔字仲弓潁川許人也出於單微自為兒童雖在戱弄為等類所歸少作縣吏常給事厮役後為都亭刺史佐而有志好學坐立誦讀縣令鄧邵試與語竒之聽受業太學後令復召為吏乃避隠陽城山中時有殺人者同縣揚吏以疑寔縣遂逮繫考掠無實而後得出及為督郵乃密託許令禮召揚吏逺近聞者咸歎服之家貧復為郡西門亭長尋轉功曹時中常侍侯覽託太守髙倫用吏倫教署為文學掾寔知非其人懐檄請見言曰此人不宜用而侯常侍不可違寔乞從外署不足以塵明徳倫從之於是鄉論怪其非舉寔終無所言倫後被徴為尚書郡中士大夫送至輪氏傳舍倫謂衆人言曰吾前為侯常侍用吏陳君密持教還而於外白署比聞議者以此少之此咎由故人畏憚强禦陳君可謂善則稱君過則稱己者也寔固自引愆聞者方歎息由是天下服其徳司空黄瓊辟選理劇補聞喜長旬月以朞喪去官復再遷除太丘長脩徳清静百姓以安鄰縣人戸歸附者寔輙訓導譬解發遣各令還本司官行部吏慮有訟者白欲禁之寔曰訟以求直禁之理將何申其勿有所拘司官聞而歎息曰陳君所言若是豈有怨於人乎亦竟無訟者以沛相賦斂違法乃解印綬去吏人追思之及後逮捕黨人事亦連寔餘人多逃避求免寔曰吾不就獄衆無所恃乃請囚焉遇赦得出靈帝初大將軍竇武辟以為掾屬時中常侍張讓權傾天下讓父死歸葬潁川雖一郡畢至而名士無徃者讓甚恥之寔乃獨弔焉及後復誅黨人讓感寔故多所全宥寔在鄉閭平心率物其有爭訟輙求判正曉譬曲直退無怨者至乃歎曰寜為刑罰所加不為陳君所短時嵗荒民儉有盗夜入其室止於梁上寔隂見乃起自整拂呼命子孫正色訓之曰夫人不可不自勉不善之人未必本惡習以性成遂至於此梁上君子者是矣盗大驚自投於地稽顙歸罪寔徐譬之曰視君狀貌不似惡人宜深剋己反善然此當由貧困令遺絹二匹自是一縣無復盗竊太尉楊賜司徒陳耽每拜公卿羣僚畢賀賜等常歎寔大位未登愧於先之及黨禁始解大將軍何進司徒袁隗遣人敦寔欲特表以不次之位寔乃謝使者曰寔久絶人事飾巾待終而已時三公每缺議者歸之累見徴命遂不起閉門懸車棲遲養老中平四年年八十四卒於家何進遣使弔祭海内赴者三萬餘人制衰麻者以百數共刋石立碑諡為文範先生有六子紀諶最賢"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_source_selection": {
+        "preferred_assertion_id": null,
+        "preferred_parent_person_id": null,
+        "excluded_assertion_ids": [
+          "a-xintangshu071xia-chen-qia-father"
+        ],
+        "default_view": "omit_unproven_biological_parent_edge",
+        "rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。"
+      },
+      "four_sons_followup": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-chen",
+      "subject_person_id": "9w8_tqh_ysn_B",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_B",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-houhanshu062-chen-002",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-chen-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "後漢書弟諶與紀齊德、父子並著及寔六子紀諶最賢，與唐表諶字季方獻文先生同角色；保較早具名父邊，唐父邊相容而作次選，非反證。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。保留已錄較早正史明文父鏈。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-xiu",
+      "subject_person_id": "9w8_tqh_ysn_E",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_E",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-xintangshu071xia-chen-xiu-father",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "later_named_genealogy_compatible_with_earlier_six_count_not_independent_name_attestation",
+      "rationale": "休：唐表寔六子列名是本名與父寔的直接收到主張；後漢書有六子紀諶最賢只支持六子總數，沒有具列此四名。本次實讀範圍未見相反父名或互斥身份；採後出具名記載為moderate／contextual provisional父鏈首選，不宣稱四名獲早期來源獨立證實，不給母親或排行，也不接受任何遠古父鏈。",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-071-xia",
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
+          "source_term": "六子：紀、夔、洽、諶、休、光。"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "quote": "陳寔字仲弓潁川許人也出於單微自為兒童雖在戱弄為等類所歸少作縣吏常給事厮役後為都亭刺史佐而有志好學坐立誦讀縣令鄧邵試與語竒之聽受業太學後令復召為吏乃避隠陽城山中時有殺人者同縣揚吏以疑寔縣遂逮繫考掠無實而後得出及為督郵乃密託許令禮召揚吏逺近聞者咸歎服之家貧復為郡西門亭長尋轉功曹時中常侍侯覽託太守髙倫用吏倫教署為文學掾寔知非其人懐檄請見言曰此人不宜用而侯常侍不可違寔乞從外署不足以塵明徳倫從之於是鄉論怪其非舉寔終無所言倫後被徴為尚書郡中士大夫送至輪氏傳舍倫謂衆人言曰吾前為侯常侍用吏陳君密持教還而於外白署比聞議者以此少之此咎由故人畏憚强禦陳君可謂善則稱君過則稱己者也寔固自引愆聞者方歎息由是天下服其徳司空黄瓊辟選理劇補聞喜長旬月以朞喪去官復再遷除太丘長脩徳清静百姓以安鄰縣人戸歸附者寔輙訓導譬解發遣各令還本司官行部吏慮有訟者白欲禁之寔曰訟以求直禁之理將何申其勿有所拘司官聞而歎息曰陳君所言若是豈有怨於人乎亦竟無訟者以沛相賦斂違法乃解印綬去吏人追思之及後逮捕黨人事亦連寔餘人多逃避求免寔曰吾不就獄衆無所恃乃請囚焉遇赦得出靈帝初大將軍竇武辟以為掾屬時中常侍張讓權傾天下讓父死歸葬潁川雖一郡畢至而名士無徃者讓甚恥之寔乃獨弔焉及後復誅黨人讓感寔故多所全宥寔在鄉閭平心率物其有爭訟輙求判正曉譬曲直退無怨者至乃歎曰寜為刑罰所加不為陳君所短時嵗荒民儉有盗夜入其室止於梁上寔隂見乃起自整拂呼命子孫正色訓之曰夫人不可不自勉不善之人未必本惡習以性成遂至於此梁上君子者是矣盗大驚自投於地稽顙歸罪寔徐譬之曰視君狀貌不似惡人宜深剋己反善然此當由貧困令遺絹二匹自是一縣無復盗竊太尉楊賜司徒陳耽每拜公卿羣僚畢賀賜等常歎寔大位未登愧於先之及黨禁始解大將軍何進司徒袁隗遣人敦寔欲特表以不次之位寔乃謝使者曰寔久絶人事飾巾待終而已時三公每缺議者歸之累見徴命遂不起閉門懸車棲遲養老中平四年年八十四卒於家何進遣使弔祭海内赴者三萬餘人制衰麻者以百數共刋石立碑諡為文範先生有六子紀諶最賢"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_source_selection": {
+        "preferred_assertion_id": null,
+        "preferred_parent_person_id": null,
+        "excluded_assertion_ids": [
+          "a-xintangshu071xia-chen-xiu-father"
+        ],
+        "default_view": "omit_unproven_biological_parent_edge",
+        "rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。"
+      },
+      "four_sons_followup": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-guang",
+      "subject_person_id": "9w8_tqh_ysn_F",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_F",
+        "9w8_tqh_ysn"
+      ],
+      "preferred_assertion_id": "a-xintangshu071xia-chen-guang-father",
+      "preferred_parent_person_id": "9w8_tqh_ysn",
+      "excluded_assertion_ids": [],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "later_named_genealogy_compatible_with_earlier_six_count_not_independent_name_attestation",
+      "rationale": "光：唐表寔六子列名是本名與父寔的直接收到主張；後漢書有六子紀諶最賢只支持六子總數，沒有具列此四名。本次實讀範圍未見相反父名或互斥身份；採後出具名記載為moderate／contextual provisional父鏈首選，不宣稱四名獲早期來源獨立證實，不給母親或排行，也不接受任何遠古父鏈。",
+      "evidence": [
+        {
+          "work_id": "w-xintangshu",
+          "book_id": "b-xintangshu-071-xia",
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "陳氏出自媯姓，虞帝舜之後。夏禹封舜子商均於虞城，三十二世孫遏父為周陶正，武王妻以元女大姬，生滿，封之於陳，賜姓媯，以奉舜祀，是為胡公。九世孫厲公他生敬仲完，奔齊，以國為姓。既而食邑於田，又為田氏。十五世孫齊王建為秦所滅。三子：昇、桓、軫。桓稱王氏。軫，楚相，封潁川侯，因徙潁川，稱陳氏。生嬰，秦東陽令史。嬰生成安君餘，餘生軌，軌生審，審生安，安生恒，恒生願，願四子：清、察、齊、尚。齊生源，源三子：寔、崱、邃。寔字仲弓，後漢大將軍掾屬，文範先生。六子：紀、夔、洽、諶、休、光。諶字季方，獻文先生。生青州刺史忠。二子：佐、和。佐二子：準、徽。準字道基，晉太尉、廣陵元公。生伯眕，建興中度江居曲阿新豐湖。生匡，二子：赤松、世達。世達，長城令，徙居長城下若里，生丞相掾康。康生盱眙太守英，英生尚書郎公弼，公弼生步兵校尉鼎，鼎生散騎侍郎高，高生懷安令詠，詠生安成太守猛，猛生太常卿道巨，道巨生文讚。文讚三子：談先、霸先、休先。",
+          "source_term": "六子：紀、夔、洽、諶、休、光。"
+        },
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-062",
+          "chapter_id": "c-houhanshu-062-xunhan-zhongchen",
+          "source_id": "s-houhanshu-062-xunhan-zhongchen",
+          "paragraph_id": "c-houhanshu-062-xunhan-zhongchen:chen:chen-shi-body",
+          "quote": "陳寔字仲弓潁川許人也出於單微自為兒童雖在戱弄為等類所歸少作縣吏常給事厮役後為都亭刺史佐而有志好學坐立誦讀縣令鄧邵試與語竒之聽受業太學後令復召為吏乃避隠陽城山中時有殺人者同縣揚吏以疑寔縣遂逮繫考掠無實而後得出及為督郵乃密託許令禮召揚吏逺近聞者咸歎服之家貧復為郡西門亭長尋轉功曹時中常侍侯覽託太守髙倫用吏倫教署為文學掾寔知非其人懐檄請見言曰此人不宜用而侯常侍不可違寔乞從外署不足以塵明徳倫從之於是鄉論怪其非舉寔終無所言倫後被徴為尚書郡中士大夫送至輪氏傳舍倫謂衆人言曰吾前為侯常侍用吏陳君密持教還而於外白署比聞議者以此少之此咎由故人畏憚强禦陳君可謂善則稱君過則稱己者也寔固自引愆聞者方歎息由是天下服其徳司空黄瓊辟選理劇補聞喜長旬月以朞喪去官復再遷除太丘長脩徳清静百姓以安鄰縣人戸歸附者寔輙訓導譬解發遣各令還本司官行部吏慮有訟者白欲禁之寔曰訟以求直禁之理將何申其勿有所拘司官聞而歎息曰陳君所言若是豈有怨於人乎亦竟無訟者以沛相賦斂違法乃解印綬去吏人追思之及後逮捕黨人事亦連寔餘人多逃避求免寔曰吾不就獄衆無所恃乃請囚焉遇赦得出靈帝初大將軍竇武辟以為掾屬時中常侍張讓權傾天下讓父死歸葬潁川雖一郡畢至而名士無徃者讓甚恥之寔乃獨弔焉及後復誅黨人讓感寔故多所全宥寔在鄉閭平心率物其有爭訟輙求判正曉譬曲直退無怨者至乃歎曰寜為刑罰所加不為陳君所短時嵗荒民儉有盗夜入其室止於梁上寔隂見乃起自整拂呼命子孫正色訓之曰夫人不可不自勉不善之人未必本惡習以性成遂至於此梁上君子者是矣盗大驚自投於地稽顙歸罪寔徐譬之曰視君狀貌不似惡人宜深剋己反善然此當由貧困令遺絹二匹自是一縣無復盗竊太尉楊賜司徒陳耽每拜公卿羣僚畢賀賜等常歎寔大位未登愧於先之及黨禁始解大將軍何進司徒袁隗遣人敦寔欲特表以不次之位寔乃謝使者曰寔久絶人事飾巾待終而已時三公每缺議者歸之累見徴命遂不起閉門懸車棲遲養老中平四年年八十四卒於家何進遣使弔祭海内赴者三萬餘人制衰麻者以百數共刋石立碑諡為文範先生有六子紀諶最賢"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_source_selection": {
+        "preferred_assertion_id": null,
+        "preferred_parent_person_id": null,
+        "excluded_assertion_ids": [
+          "a-xintangshu071xia-chen-guang-father"
+        ],
+        "default_view": "omit_unproven_biological_parent_edge",
+        "rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。"
+      },
+      "four_sons_followup": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-zhong",
+      "subject_person_id": "v8u_9gd_5hp",
+      "participant_person_ids": [
+        "v8u_9gd_5hp",
+        "9w8_tqh_ysn_B"
+      ],
+      "preferred_assertion_id": null,
+      "preferred_parent_person_id": null,
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-zhong-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "omit_unproven_biological_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "唐表諶生青州刺史忠；裴譜諶孫佐官至青州刺史。諶—忠—佐世距與諶孫佐相容，沒有已知相反父名。官名在唐屬忠、裴屬佐是具體任官／傳抄層的待辨差異，不等於兩代必不能同官。本批只處理四名具名子；忠／佐中代是否採入留獨立逐項裁決，不以後出或缺早期具名來源當反證。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "諶字季方，獻文先生。生青州刺史忠。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-zuo",
+      "subject_person_id": "9w8_tqh_ysn_B*A",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_B*A",
+        "v8u_9gd_5hp"
+      ],
+      "preferred_assertion_id": null,
+      "preferred_parent_person_id": null,
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-zuo-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "omit_unproven_biological_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "唐表忠二子佐和，裴譜諶孫佐及佐弟坦；父忠能填同一兩代世距，但青州刺史所屬忠／佐及和／坦異名仍需逐項比較。本批不變原有諶孫佐星號缺父，不假稱忠已被反證。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "忠。二子：佐、和。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-he",
+      "subject_person_id": "7nt_2xp_pm0",
+      "participant_person_ids": [
+        "7nt_2xp_pm0",
+        "v8u_9gd_5hp"
+      ],
+      "preferred_assertion_id": null,
+      "preferred_parent_person_id": null,
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-he-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "omit_unproven_biological_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "唐表忠二子佐和與裴譜佐弟坦的同輩兄弟結構相近；和是否坦的訛字／異名尚未證，不能因同位置自動合，也不證必異人。先保來源人物與候選，不同時添一個未決和為另已確實子而令近系重複。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "忠。二子：佐、和。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-zhun",
+      "subject_person_id": "9w8_tqh_ysn_B*AA",
+      "participant_person_ids": [
+        "9w8_tqh_ysn_B*AA",
+        "9w8_tqh_ysn_B*A"
+      ],
+      "preferred_assertion_id": "a-sanguozhi022-chen-017",
+      "preferred_parent_person_id": "9w8_tqh_ysn_B*A",
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-zhun-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "use_preferred_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "裴引陳氏譜佐子凖太尉封廣陵郡公，唐表佐二子準徽、準字道基太尉廣陵元公的準父佐相容；徽／戴徵異說不否定準父佐。保既有較早具名父首選。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "佐二子：準、徽。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。保留已錄較早正史明文父鏈。",
+      "individual_source_review": true
+    },
+    {
+      "id": "ft-xintangshu071xia-chen-hui",
+      "subject_person_id": "rao_be6_abu",
+      "participant_person_ids": [
+        "rao_be6_abu",
+        "9w8_tqh_ysn_B*A"
+      ],
+      "preferred_assertion_id": null,
+      "preferred_parent_person_id": null,
+      "excluded_assertion_ids": [
+        "a-xintangshu071xia-chen-hui-father"
+      ],
+      "status": "editorial_preferred",
+      "default_view": "omit_unproven_biological_parent_edge",
+      "parentage_role": "received_genealogical_reading",
+      "confidence_level": "moderate",
+      "confidence_scope": "preferred_reading_of_received_text",
+      "rationale": "唐表佐二子準徽，裴譜凖弟戴徵按固定標點首選戴／徵兩人，父佐對準已明；二子名單與至少三兄弟有具體人數／異字張力。徽是否戴或徵的異名未定，故未合／未選其父邊，不能只以唐表後出而拒。",
+      "evidence": [
+        {
+          "chapter_id": "c-xintangshu-071xia-chen-preface",
+          "source_id": "s-xintangshu-071xia-chen-preface",
+          "paragraph_id": "c-xintangshu-071xia-chen-preface:p001",
+          "quote": "佐二子：準、徽。"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "references": [],
+      "model": null,
+      "prior_selection_rationale": "此宋代後出世系記錄單獨保存，不以來源所言自動確定早期父系。本批尚無較早直接父子原證，不以唐表補缺父或重組。",
+      "individual_source_review": true
+    }
+  ]
+}

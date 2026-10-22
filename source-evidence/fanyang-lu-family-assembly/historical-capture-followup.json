@@ -1,0 +1,204 @@
+{
+  "record_type": "historical_capture_rekey_qualification",
+  "mapping_ref": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+  "mapping_receipt_ref": "source-evidence/fanyang-lu-family-assembly/annotation-chain.json",
+  "superseded_scope": "person endpoint binding only; original text, evidence and prior editorial decisions retained in full original bytes",
+  "historical_files": [
+    {
+      "path": "source-evidence/cui53-facts-delta.json",
+      "sha256": "c92e2169c986cb3b9e16f6f90ea1580eb12a34774e6637af7d01cf726109e79b",
+      "root_type": "dict",
+      "required_top_keys": [
+        "titles",
+        "parallel_titles",
+        "life",
+        "addresses",
+        "names",
+        "ages",
+        "title_proposals"
+      ],
+      "classification": "proposal_and_consumption_audit_with_source_bound_native_values",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/0/projection"
+    },
+    {
+      "path": "source-evidence/cui53-typed-ledger.json",
+      "sha256": "6d8731b5d45127237275182b5c2761ef8e3f1555120e0c9b94da3d7072d97558",
+      "root_type": "dict",
+      "required_top_keys": [
+        "records",
+        "counts",
+        "identity_key_map",
+        "every_proposal_consumed_once",
+        "historical_year_not_model_unknown"
+      ],
+      "classification": "proposal_and_consumption_audit_with_source_bound_native_values",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/1/projection"
+    },
+    {
+      "path": "source-evidence/huan-four-unit-reading/identity-worksheet.json",
+      "sha256": "62e9116f974c75890e148acd0d71dd186a3e6e4601fe35de631931aafc2ac511",
+      "root_type": "dict",
+      "required_top_keys": [
+        "qualification",
+        "registry_sha256",
+        "retired_id_guard",
+        "persons"
+      ],
+      "classification": "registry_hash_bound_name_lookup_and_source_reading_capture",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/2/projection"
+    },
+    {
+      "path": "source-evidence/jin043-wangyan-source/identity-records.json",
+      "sha256": "9b68880b245a6967f33602e0a7bf579bf226dac3db1fcf0faec49128638c4237",
+      "root_type": "list",
+      "required_top_keys": null,
+      "classification": "source_reading_identity_and_mention_review_with_prior_paragraph_references",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/3/projection"
+    },
+    {
+      "path": "source-evidence/jin043-wangyan-source/identity-review.json",
+      "sha256": "2bd1424c4dd7bde64a650c941ad6812c7a0b6166abf7a99542766848c8533757",
+      "root_type": "list",
+      "required_top_keys": null,
+      "classification": "source_reading_identity_and_mention_review_with_prior_paragraph_references",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/4/projection"
+    },
+    {
+      "path": "source-evidence/jin043-wangyan-source/mention-review.json",
+      "sha256": "633891dfb8ca7f0d79d45fa62afe4b2c39d2e214b605ed59e12c7c10812f7298",
+      "root_type": "list",
+      "required_top_keys": null,
+      "classification": "source_reading_identity_and_mention_review_with_prior_paragraph_references",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/5/projection"
+    },
+    {
+      "path": "source-evidence/sanguozhi022-luyu-identity-qualification/review.json",
+      "sha256": "05cce0709d1247b7b6788134cc07eeb652b8c4f4424fd28e947152739c2b2e4d",
+      "root_type": "dict",
+      "required_top_keys": [
+        "scope",
+        "source_packet_manifest_sha256",
+        "supersedes",
+        "decisions",
+        "primary_complete_units",
+        "existing_full_marked_units_read"
+      ],
+      "classification": "complete_chapter_hash_and_identity_evidence_capture",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/6/projection"
+    },
+    {
+      "path": "source-evidence/sanguozhi022-luyu-identity-review.json",
+      "sha256": "340fe345140710b478b6c4c4e9b9b37deaffa32bee11c7327cd5d2a85da48e36",
+      "root_type": "dict",
+      "required_top_keys": [
+        "source_id",
+        "reviewer",
+        "human_reviewed",
+        "reused_identities",
+        "temporarily_split_candidates",
+        "homonyms_not_reused",
+        "preferred_identity_qualifications",
+        "superseded_reading_notice"
+      ],
+      "classification": "mixed_historical_source_review_with_later_editorial_qualifications",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/7/projection"
+    },
+    {
+      "path": "source-evidence/song046-zhangshao-native/identity-review.json",
+      "sha256": "480bcd7709e9dce5e0ab1c46b40834635dd69fc6f7656e5c986100c70591823c",
+      "root_type": "dict",
+      "required_top_keys": [
+        "base_commit",
+        "human_reviewed",
+        "all_registry_people_scanned",
+        "people"
+      ],
+      "classification": "registry_base_scoped_candidate_collision_review",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/8/projection"
+    },
+    {
+      "path": "source-evidence/song053-zhangmaodu-native/d-registry-collision-review.json",
+      "sha256": "3604795d97467287a9b979e94050f458ac0b6b87baaafbfd73357566922732d9",
+      "root_type": "dict",
+      "required_top_keys": [
+        "input_D_person_count",
+        "rows",
+        "new_ID_collisions",
+        "new_people",
+        "status"
+      ],
+      "classification": "registry_base_scoped_candidate_collision_review",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/9/projection"
+    },
+    {
+      "path": "source-evidence/song053-zhangmaodu-native/name-collision-review.json",
+      "sha256": "44df412fd7993a1ead9a9bf9282790a5b69535c7169d344746e46259aeecf8c0",
+      "root_type": "dict",
+      "required_top_keys": [
+        "base_commit",
+        "all_registry_people",
+        "entries"
+      ],
+      "classification": "registry_base_scoped_candidate_collision_review",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/10/projection"
+    },
+    {
+      "path": "source-evidence/xintang071xia-chen-preface/identities.json",
+      "sha256": "9fe85911ad285e301e8c010f4bc6d8e9102cd8bc68c74f14da67c71c90d8f5a4",
+      "root_type": "dict",
+      "required_top_keys": [
+        "record_type",
+        "human_reviewed",
+        "scope",
+        "identities",
+        "unresolved_identity_cases",
+        "primary_reuse_evidence",
+        "source_qualification",
+        "not_imported"
+      ],
+      "classification": "mixed_current_editorial_choices_and_historical_candidate_lookup_R_T_updated",
+      "historical_scope": "complete original file frozen for this rekey only; includes prior capture and any existing later editorial additions",
+      "current_path": "source-evidence/fanyang-lu-family-assembly/current-review.json",
+      "current_selection": "/records/11/projection"
+    }
+  ],
+  "current_person_ids": [
+    "m8n_ntm_79h",
+    "m8n_ntm_79h_A",
+    "m8n_ntm_79h_AA",
+    "m8n_ntm_79h_AB",
+    "m8n_ntm_79h_A*A",
+    "m8n_ntm_79h_AAA",
+    "m8n_ntm_79h_ABA",
+    "m8n_ntm_79h_ABB",
+    "m8n_ntm_79h_ABBA",
+    "m8n_ntm_79h_ABBA**A",
+    "m8n_ntm_79h_ABBAA",
+    "m8n_ntm_79h_ABBAAA"
+  ],
+  "xintang_scope": "唐序identities曾經R/T更新陳軫case與四子familychoice，並非本來全為immutable；此rekey起凍結本次實讀原bytes，其已有編輯選擇之當前路徑轉至current-review records對應projection，原candidate與primary證據仍原檔可查。",
+  "person_aliases_created": false,
+  "human_reviewed": false
+}

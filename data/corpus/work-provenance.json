@@ -361,6 +361,27 @@
       "local_evidence_path": "source-evidence/sanguozhi022-classics-title-identification/witnesses.json",
       "witness_id": "shijing-yi",
       "qualification": "實讀傳世數位經文；未據影像校勘，版系未定。頁尾修訂聲明另存，不作已取固定原檔。"
+    },
+    "r-xintangshu-niihistory": {
+      "title": "韓國國史編纂委員會：新唐書註001",
+      "url": "https://db.history.go.kr/ancient/level.do?levelId=jo_015_0010_0010_0010",
+      "access_scope": "已讀新唐書註001完整介紹及參考書目；成書採189–190行，不把其一般優劣評價設全書權重。",
+      "short_quote": "宋 仁宗 慶歷 4年(1044)에서 嘉祐 5年(1060) 사이에 歐陽修·宋祁 등이 奉勅撰하고",
+      "human_reviewed": false
+    },
+    "r-xintangshu-nii-catalog": {
+      "title": "NII CiNii：唐書225巻坿釋音25巻",
+      "url": "https://cir.nii.ac.jp/crid/1970304959928953363",
+      "access_scope": "已讀書目責任署名、出版年及Notes；館藏為萬曆45[1617]本，Notes轉述嘉祐奏表，非親見1060存本。",
+      "short_quote": "嘉祐五年六月二十六日",
+      "human_reviewed": false
+    },
+    "r-xintangshu-bunka": {
+      "title": "文化廳：宋版唐書（靜嘉堂）",
+      "url": "https://online.bunka.go.jp/db/heritages/detail/158341",
+      "access_scope": "已讀整條32行文字書目；188卷殘存且補配補寫，非最早完整本，也未連到WS底本。",
+      "short_quote": "嘉祐刊本系の紹興刊本",
+      "human_reviewed": false
     }
   },
   "editions": {
@@ -539,6 +560,15 @@
         "lost_predecessor": "北宋初刻及1144眉山翻刻不能直接當現存本",
         "relationship_to_current_cbr_text": "not_established"
       }
+    },
+    "edition-xintangshu-seikado-catalog": {
+      "id": "edition-xintangshu-seikado-catalog",
+      "work_id": "w-xintangshu",
+      "extent": "incomplete",
+      "reference_ids": [
+        "r-xintangshu-bunka"
+      ],
+      "qualification": "館藏南宋紹興刊本系、後印且補配補寫，225卷存188卷。僅已知存本，不宣稱最早，也不是本段所據本。"
     }
   },
   "works": {
@@ -202140,6 +202170,339 @@
         "assertions": []
       },
       "human_reviewed": false
+    },
+    "w-xintangshu": {
+      "work_id": "w-xintangshu",
+      "title": "新唐書",
+      "transmission": "received",
+      "composition": {
+        "status": "reported",
+        "assertions": [
+          {
+            "layer": "compilation",
+            "event_kind": "compilation",
+            "date": {
+              "calendar": "common_era_year",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 1044,
+              "end_year": 1060,
+              "precision": "range"
+            },
+            "approximate": false,
+            "source_expression": "慶歷4年(1044)至嘉祐5年(1060)",
+            "qualification": "現代官方史料庫介紹報導編纂區間，非本批親見宋代任命原詔。",
+            "reference_ids": [
+              "r-xintangshu-niihistory"
+            ]
+          },
+          {
+            "layer": "completion",
+            "event_kind": "completion",
+            "date": {
+              "calendar": "common_era_year",
+              "year_numbering": "historical_no_year_zero",
+              "start_year": 1060,
+              "end_year": 1060,
+              "precision": "year"
+            },
+            "approximate": false,
+            "source_expression": "嘉祐5年(1060)，十七年完成",
+            "qualification": "依該介紹明載區間終年與完成敘述；不以數位修訂日或1617館藏日期當成書日。",
+            "reference_ids": [
+              "r-xintangshu-niihistory",
+              "r-xintangshu-nii-catalog"
+            ]
+          }
+        ]
+      },
+      "earliest_extant_edition": {
+        "status": "unknown",
+        "assertions": []
+      },
+      "burial": {
+        "status": "unknown",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "unknown",
+        "assertions": []
+      },
+      "human_reviewed": false
+    },
+    "w-xuhanshu-sgz022-luyu-reference": {
+      "work_id": "w-xuhanshu-sgz022-luyu-reference",
+      "title": "續漢書（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "續漢書",
+      "citation_title_qualification": "裴注原題；此處未署作者，不因同題逕接其他續漢書。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "裴注原題；此處未署作者，不因同題逕接其他續漢書。"
+    },
+    "w-shangshu-zhangju-sgz022-luyu-reference": {
+      "work_id": "w-shangshu-zhangju-sgz022-luyu-reference",
+      "title": "尚書章句（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "尚書章句",
+      "citation_title_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。"
+    },
+    "w-liji-jiegu-sgz022-luyu-reference": {
+      "work_id": "w-liji-jiegu-sgz022-luyu-reference",
+      "title": "禮記解詁（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "禮記解詁",
+      "citation_title_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。《後漢書》盧植傳作三禮解詁，異題待對讀，本包不視同題已定。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。《後漢書》盧植傳作三禮解詁，異題待對讀，本包不視同題已定。"
+    },
+    "w-chunqiu-sgz022-luyu-reference": {
+      "work_id": "w-chunqiu-sgz022-luyu-reference",
+      "title": "春秋（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "春秋",
+      "citation_title_qualification": "詔文春秋之義，經義指稱，不指定左傳或注疏。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "詔文春秋之義，經義指稱，不指定左傳或注疏。"
+    },
+    "w-shi-sgz022-luyu-reference": {
+      "work_id": "w-shi-sgz022-luyu-reference",
+      "title": "詩（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "詩經",
+      "citation_title_qualification": "以完整引句對讀今傳《國風·召南·草蟲》末章；本傳略「亦既覯止」，原字不補。非所據版本確證。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "以完整引句對讀今傳《國風·召南·草蟲》末章；本傳略「亦既覯止」，原字不補。非所據版本確證。"
+    },
+    "w-li-sgz022-luyu-reference": {
+      "work_id": "w-li-sgz022-luyu-reference",
+      "title": "禮（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "禮記",
+      "citation_title_qualification": "以未廟見及歸葬女氏之黨完整語境對讀今傳〈曾子問〉；不以原稱禮套其他禮經。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "以未廟見及歸葬女氏之黨完整語境對讀今傳〈曾子問〉；不以原稱禮套其他禮經。"
+    },
+    "w-ji-sgz022-luyu-reference": {
+      "work_id": "w-ji-sgz022-luyu-reference",
+      "title": "記（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "禮記",
+      "citation_title_qualification": "附從輕與刑獄語境對讀今傳〈王制〉；保留本傳原稱記。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "附從輕與刑獄語境對讀今傳〈王制〉；保留本傳原稱記。"
+    },
+    "w-shu-sgz022-luyu-reference": {
+      "work_id": "w-shu-sgz022-luyu-reference",
+      "title": "書（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "尚書",
+      "citation_title_qualification": "引句對應今傳〈大禹謨〉；今傳偽古文篇對應不等於盧毓所據篇本、版本或成書年代已確證。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "引句對應今傳〈大禹謨〉；今傳偽古文篇對應不等於盧毓所據篇本、版本或成書年代已確證。"
+    },
+    "w-jinshu-yuyu-sgz022-luyu-reference": {
+      "work_id": "w-jinshu-yuyu-sgz022-luyu-reference",
+      "title": "晉書（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "晉書",
+      "citation_title_qualification": "原文虞預晉書；不是唐修《晉書》，保作者原署。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "原文虞預晉書；不是唐修《晉書》，保作者原署。"
+    },
+    "w-jinzhugongzan-sgz022-luyu-reference": {
+      "work_id": "w-jinzhugongzan-sgz022-luyu-reference",
+      "title": "晉諸公贊（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "晉諸公贊",
+      "citation_title_qualification": "裴注原題，作者未署。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "裴注原題，作者未署。"
+    },
+    "w-chen-biezhuan-sgz022-luyu-reference": {
+      "work_id": "w-chen-biezhuan-sgz022-luyu-reference",
+      "title": "諶别傳（盧毓本傳及裴注所引）",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "citation_title": "諶别傳",
+      "citation_title_qualification": "題中諶指該段盧諶；本處書題不拆人物，非正式全題已定。",
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "citation_qualification": "題中諶指該段盧諶；本處書題不拆人物，非正式全題已定。"
     }
   },
   "text_bases": {
@@ -204261,6 +204624,24 @@
     "table-witness-hanshu-016": {
       "source_id": "table-witness-hanshu-016",
       "work_id": "w-hanshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-xintangshu-071xia-chen-preface": {
+      "source_id": "s-xintangshu-071xia-chen-preface",
+      "work_id": "w-xintangshu",
+      "status": "unknown",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "WS固定修訂2405769實際古本來源未建立；現存宋本與其轉錄關係未知，未核影像。"
+    },
+    "s-sanguozhi-022-luyu": {
+      "source_id": "s-sanguozhi-022-luyu",
+      "work_id": "w-sanguozhi",
       "status": "not_researched",
       "edition_id": null,
       "earliest_extant_basis_edition_id": null,

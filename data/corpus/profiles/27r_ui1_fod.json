@@ -13,6 +13,59 @@
   "addresses": [],
   "occurrences": [
     {
+      "number": 22,
+      "category": "",
+      "title": "《三國志》魏書卷二十二盧毓本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-022-luyu:p002",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "章句禮記解詁稍遷侍中尚書張角起以植為北中郎將征角失利抵罪頃之復以為尚書張讓劫少帝奔小平津植手劒責數讓等讓等皆放兵垂泣謝罪遂自殺董卓議欲廢帝衆莫敢對植獨正言語在卓傳植以老病去位隱居上谷軍都山初平三年卒太祖北征柳城過涿郡令告太守曰故北中郎將盧植名著海内學為儒宗士之楷模乃國之楨幹",
+      "paragraph_ids": [
+        "c-sanguozhi-022-luyu:p002"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-022-luyu:p002:m0098",
+        "c-sanguozhi-022-luyu:p002:m0112",
+        "c-sanguozhi-022-luyu:p002:m0114"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-022-luyu:p002:m0098": "c-sanguozhi-022-luyu:p002",
+        "c-sanguozhi-022-luyu:p002:m0112": "c-sanguozhi-022-luyu:p002",
+        "c-sanguozhi-022-luyu:p002:m0114": "c-sanguozhi-022-luyu:p002"
+      },
+      "mention_id": "c-sanguozhi-022-luyu:p002:m0098",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p002:m0098",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p002:m0098"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p002:m0112",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p002:m0112"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p002:m0114",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p002:m0114"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "source_id": "s-sanguozhi-022-luyu",
+      "work_title": "三國志"
+    },
+    {
       "number": 62,
       "category": "",
       "title": "荀韓鍾陳列傳第五十二",
@@ -247,6 +300,34 @@
           "partial_file": false
         },
         "numbering_note": "通行卷六十二、列傳第五十二；此固定WYG數位見證題卷九十二，檔名KR2a0009_092.txt，兩者分存，不改原檔。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "source_id": "s-sanguozhi-022-luyu",
+      "source": {
+        "title": "三國志魏書卷二十二盧毓本傳及裴注完整單元",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定原行432–505，盧毓本傳與兩處完整裴注（含盧植與子孫附敘）；431衛臻注尾及506起全卷評曰排除。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
+        },
+        "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
       }
     }
   ],

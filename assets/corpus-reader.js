@@ -1,3 +1,4 @@
+import {sourceCaption} from './source-caption.js';
 import {workMentionHTML} from './work-titles.js';
 import {nativeProfileReturn} from './native-table-links.js';
 import {escapeHTML as h} from './core.js';
@@ -40,7 +41,7 @@ export function profileSourceContext(person, params) {
   const mention=requestedMention && occurrence.mention_ids?.includes(requestedMention)?requestedMention:null;
   const actualPassage=mention?occurrence.mention_paragraph_ids?.[mention] || passage:passage;
   const href=sourcePassageURL({...occurrence,paragraph_id:actualPassage,mention_id:mention});
-  return href?{href,text:`回到《${occurrence.work_title}·${occurrence.title}》 →`}:null;
+  return href?{href,text:`回到${sourceCaption(occurrence.work_title,occurrence.title)} →`}:null;
 }
 export function chapterParagraph(paragraph, people = {}, context = null, workTitles = {}) {
   const chars = Array.from(paragraph.text), fragments = [];

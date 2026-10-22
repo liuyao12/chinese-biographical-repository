@@ -15,6 +15,7 @@ export function sourceDateLabel(event) {
 export function ageLabel(age) {
   if (age.approximation?.kind === 'adjacent_age_numbers' && typeof age.source_number === 'string') return `${age.source_number}歲`;
   if (!Number.isInteger(age.value) || age.reporting_status === 'qualified_report') return age.qualified_source_term || age.source_term || '來源報齡未定';
+  if (age.age_context?.kind === 'during_life') return t('{age} years old (reported during life)', {age:age.value});
   return `${age.value} 歲（來源報齡）`;
 }
 export function summarizeLife(p) {

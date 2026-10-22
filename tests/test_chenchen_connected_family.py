@@ -34,7 +34,7 @@ class ChenchenConnectedTests(unittest.TestCase):
  def test_cycle_rejected(self):self.reject_family_change(lambda r:r[CHEN].update(parent_person_id=ZHUN))
  def test_actual_trace_three_generations(self):
   self.assertIsNotNone(shutil.which('node'),'需要Node執行實際reader家族函式')
-  source,assembled=load_assemblies(ROOT,self.catalog);ids={SHI,SHI+'_A',SHI+'_AA',SHI+'_AAA',SHI+'_AAAA',SHI+'_AAB',CHEN,ZUO,ZHUN,KUI};profiles={}
+  source,assembled=load_assemblies(ROOT,self.catalog);ids={*(SHI+'_'+c for c in 'CDEF'),SHI,SHI+'_A',SHI+'_AA',SHI+'_AAA',SHI+'_AAAA',SHI+'_AAB',CHEN,ZUO,ZHUN,KUI};profiles={}
   for pid in ids:
    b=bundle(pid,root=ROOT,include_provisional=True,catalog=self.catalog)
    if pid in source:b['assembled_identity']=source[pid]
@@ -45,6 +45,6 @@ const p=JSON.parse(fs.readFileSync(0,'utf8')),load=async id=>{assert(p[id],id);r
 const s='9w8_tqh_ysn',c=s+'_B',z=c+'*A',n=c+'*AA',k=c+'*AA*A';
 const expect=[[c,[[s],[],[]]],[z,[[],[c],[s]]],[n,[[z],[],[c]]],[k,[[],[n],[z]]]];
 for(const[id,rows]of expect){const f=await traceFamily(await load(id),load);assert.deepEqual(f.ancestors.map(r=>r.map(x=>x.id)),rows);assert(f.ancestors.flat().every(x=>!x.cycle&&!x.unavailable&&x.role!=='assembly_inferred'));assert.deepEqual(f.mother,[]);}
-const f=await traceFamily(await load(s),load);assert.deepEqual(f.children.map(x=>x.id),[s+'_A',c]);console.log('PASS actual traceFamily 4 + root children');"""
+const f=await traceFamily(await load(s),load);assert.deepEqual(f.children.map(x=>x.id).sort(),[s+'_A',c,...'CDEF'.split('').map(x=>s+'_'+x)].sort());console.log('PASS actual traceFamily 4 + root children');"""
   result=subprocess.run(['node','--input-type=module','-e',code,str(ROOT)],input=json.dumps(profiles,ensure_ascii=False),text=True,capture_output=True);self.assertEqual(result.returncode,0,result.stderr);self.assertIn('PASS actual traceFamily',result.stdout)
 if __name__=='__main__':unittest.main()

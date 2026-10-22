@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "id": "m8n_ntm_79h_A*A",
+  "canonical_person_id": "m8n_ntm_79h_A*A",
+  "label": "藩〔盧毓孫〕",
+  "identity_note": "固定卷022盧毓完整單元來源內身份；未按同名跨篇合併，不預接遠祖。",
+  "review": "ai_provisional",
+  "names": [
+    "藩"
+  ],
+  "titles": [],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 22,
+      "category": "",
+      "title": "《三國志》魏書卷二十二盧毓本傳及裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-022-luyu:p007",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+      "paragraph_ids": [
+        "c-sanguozhi-022-luyu:p007"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-022-luyu:p007:m0102"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-022-luyu:p007:m0102": "c-sanguozhi-022-luyu:p007"
+      },
+      "mention_id": "c-sanguozhi-022-luyu:p007:m0102",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-022-luyu:p007:m0102",
+          "mention_ids": [
+            "c-sanguozhi-022-luyu:p007:m0102"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "source_id": "s-sanguozhi-022-luyu",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-022-luyu",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-022",
+      "source_id": "s-sanguozhi-022-luyu",
+      "source": {
+        "title": "三國志魏書卷二十二盧毓本傳及裴注完整單元",
+        "provider": "Kanripo",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "response_sha256": "3bac47f1f63c9556bc3b4087fda3cfb04f3470a267595521d236e22e58b00a3b",
+        "edition": "WYG數位轉錄，未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定原行432–505，盧毓本傳與兩處完整裴注（含盧植與子孫附敘）；431衛臻注尾及506起全卷評曰排除。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文，保留Kanripo數位轉錄歸屬。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
+        },
+        "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-sgz022-lu-fan-grandfather-yu",
+      "subject_person_id": "m8n_ntm_79h_A*A",
+      "predicate": "grandfather",
+      "object_person_id": "m8n_ntm_79h_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫藩",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "grandson_before_resumed_sons",
+          "roles": {
+            "grandchild": "c-sanguozhi-022-luyu:p007:m0102",
+            "grandparent": "c-sanguozhi-022-luyu:p007:m0104",
+            "child_1": "c-sanguozhi-022-luyu:p007:m0106",
+            "child_2": "c-sanguozhi-022-luyu:p007:m0107"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p007",
+            "start": 101,
+            "end": 108,
+            "surface": "孫藩嗣毓子欽珽"
+          },
+          "paragraph_sha256": "5acb9eab4e08f783425a88dbf090e2ae5c4b9a4858c346df5e7184934d392597",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        },
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p007",
+          "quote": "高貴鄉公即位進封大梁鄉侯封一子高亭侯毌丘儉作亂大將軍司馬景王出征毓綱紀後事加侍中正元三年疾病遜位遷為司空固推驃騎將軍王昶光祿大夫王觀司隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p007:m0102",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p007:m0104"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "m8n_ntm_79h_A": "盧毓",
+    "m8n_ntm_79h_A*A": "藩〔盧毓孫〕"
+  },
+  "dates": [],
+  "name_components": [],
+  "person_ids": [
+    "m8n_ntm_79h_A*A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-sgz022-lu-fan-grandfather-yu",
+      "subject_person_id": "m8n_ntm_79h_A*A",
+      "predicate": "grandfather",
+      "object_person_id": "m8n_ntm_79h_A",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫藩",
+        "lineage": "paternal",
+        "literal_source_binding": {
+          "kind": "position_bound_family_clause",
+          "rule": "grandson_before_resumed_sons",
+          "roles": {
+            "grandchild": "c-sanguozhi-022-luyu:p007:m0102",
+            "grandparent": "c-sanguozhi-022-luyu:p007:m0104",
+            "child_1": "c-sanguozhi-022-luyu:p007:m0106",
+            "child_2": "c-sanguozhi-022-luyu:p007:m0107"
+          },
+          "clause_anchor": {
+            "paragraph_id": "c-sanguozhi-022-luyu:p007",
+            "start": 101,
+            "end": 108,
+            "surface": "孫藩嗣毓子欽珽"
+          },
+          "paragraph_sha256": "5acb9eab4e08f783425a88dbf090e2ae5c4b9a4858c346df5e7184934d392597",
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "source_layer": "received_chapter"
+        },
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "source_id": "s-sanguozhi-022-luyu",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "paragraph_id": "c-sanguozhi-022-luyu:p007",
+          "quote": "高貴鄉公即位進封大梁鄉侯封一子高亭侯毌丘儉作亂大將軍司馬景王出征毓綱紀後事加侍中正元三年疾病遜位遷為司空固推驃騎將軍王昶光祿大夫王觀司隸校尉王祥詔使使者即授印綬進爵封容城侯邑二十三百戸甘露二年薨諡曰成侯孫藩嗣毓子欽珽咸熙中欽為尚書珽泰山太守",
+          "subject_person_mention_id": "c-sanguozhi-022-luyu:p007:m0102",
+          "object_person_mention_id": "c-sanguozhi-022-luyu:p007:m0104"
+        }
+      ],
+      "interpretation_note": "只記本固定來源明示關係，不推未名父母、中間世代或出生排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "m8n_ntm_79h_A*A",
+    "representative_source_person_id": "m8n_ntm_79h_A*A",
+    "source_person_ids": [
+      "m8n_ntm_79h_A*A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": "a-sgz022-lu-fan-grandfather-yu",
+    "connection": "grandfather",
+    "ancestor_person_id": "m8n_ntm_79h_A",
+    "generation_distance": 2,
+    "intermediate_person_ids": [
+      null
+    ],
+    "interpretation_note": "來源只明祖孫世次；中間世代未名，不補父，不把承嗣推作父子。",
+    "assembly_id": "family-fanyang-lu-zhi-yu",
+    "root_person_id": "m8n_ntm_79h",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

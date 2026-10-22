@@ -22,7 +22,7 @@ def noble_transfer_errors(holding, holdings, paragraphs, mentions, chapters=None
              and anchor[2].get('person_id') == holding.get('person_id'))
     if not valid:
         return ['爵號改封須屬同人明示爵位變更，不得借王號或官職轉任通過']
-    if term not in tuple(v + t for v in ('改封', '更封', '徙封') for t in (title, anchor[2]['surface'] + title)):
+    if term not in tuple(v + t for v in ('改封', '更封', '徙封') for t in (title, anchor[2]['surface'] + title, anchor[2]['surface'] + '為' + title)):
         return ['爵號改封原詞與新爵或承敘人物不符']
     for e in basis['evidence']:
         if not isinstance(e, dict):

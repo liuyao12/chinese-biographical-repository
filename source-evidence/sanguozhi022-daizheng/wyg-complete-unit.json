@@ -4852,5 +4852,13 @@
       "decision_path": "source-evidence/sanguozhi022-ner-review/review.json",
       "qualification": "原閱讀快照的原文、提及及capture hash保持原態；本篇當前標記以原生chapter及本NER decision為準。"
     }
+  ],
+  "person_rekey_snapshot_qualifications": [
+    {
+      "id": "sanguozhi022-tan-rekey-snapshot-qualification",
+      "scope": "historical_identity_capture_not_current_person_endpoint",
+      "superseded_by": "source-evidence/sanguozhi022-tan-lineage/decision.json",
+      "qualification": "原capture文字、標記、hash、before/after及先前NER語義決定保持原態；其中坦之人物ID是當時快照，現行端點改由原生chapter/registry追溯，無runtimealias。"
+    }
   ]
 }

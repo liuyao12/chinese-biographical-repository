@@ -1321,7 +1321,8 @@
           "number": 22,
           "title": "卷二十二",
           "chapter_ids": [
-            "c-sanguozhi-022-chenqun-chentai"
+            "c-sanguozhi-022-chenqun-chentai",
+            "c-sanguozhi-022-luyu"
           ]
         },
         {
@@ -4527,6 +4528,216 @@
         }
       ],
       "note": "隋八卷殘缺、追記梁十卷；舊唐十卷王粲等，新唐漢書英雄記十卷。僅引書登記，未收原著，不併英雄錄。"
+    },
+    {
+      "id": "w-xintangshu",
+      "title": "新唐書",
+      "citation_title": "新唐書",
+      "author": "歐陽修、宋祁等",
+      "status": "in_progress",
+      "expected_books": 225,
+      "numbering_note": "本批僅卷七十一下陳氏完整序段，未收後續表或其餘卷。",
+      "books": [
+        {
+          "id": "b-xintangshu-071-xia",
+          "work_id": "w-xintangshu",
+          "number": 71,
+          "title": "卷七十一下",
+          "chapter_ids": [
+            "c-xintangshu-071xia-chen-preface"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w-xuhanshu-sgz022-luyu-reference",
+      "title": "續漢書（盧毓本傳及裴注所引）",
+      "citation_title": "續漢書",
+      "citation_title_qualification": "裴注原題；此處未署作者，不因同題逕接其他續漢書。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "裴注原題；此處未署作者，不因同題逕接其他續漢書。"
+    },
+    {
+      "id": "w-shangshu-zhangju-sgz022-luyu-reference",
+      "title": "尚書章句（盧毓本傳及裴注所引）",
+      "citation_title": "尚書章句",
+      "citation_title_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。",
+      "author": "盧植",
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。",
+      "source_author_attributions": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "source_id": "s-sanguozhi-022-luyu",
+          "referenced_work_id": "w-shangshu-zhangju-sgz022-luyu-reference",
+          "paragraph_id": "c-sanguozhi-022-luyu:p002",
+          "quote": "續漢書曰植字子幹少事馬融與鄭玄同門相友植剛毅有大節常喟然有濟世之志不茍合取容不應州郡命召建寧中徴博士出補九江太守以病去官作尚書章句禮記解詁稍遷侍中尚書張角起以植為北中郎將征角失利抵罪頃之復以為尚書張讓劫少帝奔小平津植手劒責數讓等讓等皆放兵垂泣謝罪遂自殺董卓議欲廢帝衆莫敢對植獨正言語在卓傳植以老病去位隱居上谷軍都山初平三年卒太祖北征柳城過涿郡令告太守曰故北中郎將盧植名著海内學為儒宗士之楷模乃國之楨幹也昔武王入殷封商容之閭鄭喪子産而仲尼隕涕孤到此州嘉其餘風春秋之義賢者之後有異於人敬遣丞掾修墳墓并致薄醊以彰厥徳植有四子毓最小",
+          "author_name": "盧植",
+          "author_surface": "植",
+          "author_person_id": "m8n_ntm_79h",
+          "author_mention_id": "c-sanguozhi-022-luyu:p002:m0019",
+          "work_mention_id": "c-sanguozhi-022-luyu:p002:w0061",
+          "status": "source_attributed",
+          "qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。",
+          "authorship_syntax": {
+            "kind": "resumed_biographical_subject_named_works",
+            "biographical_head_mention_id": "c-sanguozhi-022-luyu:p002:m0004",
+            "reporting_work_mention_id": "c-sanguozhi-022-luyu:p002:w0000",
+            "listed_work_mention_ids": [
+              "c-sanguozhi-022-luyu:p002:w0061",
+              "c-sanguozhi-022-luyu:p002:w0065"
+            ],
+            "scope_quote": "植剛毅有大節常喟然有濟世之志不茍合取容不應州郡命召建寧中徴博士出補九江太守以病去官作尚書章句禮記解詁"
+          },
+          "human_reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "w-liji-jiegu-sgz022-luyu-reference",
+      "title": "禮記解詁（盧毓本傳及裴注所引）",
+      "citation_title": "禮記解詁",
+      "citation_title_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。《後漢書》盧植傳作三禮解詁，異題待對讀，本包不視同題已定。",
+      "author": "盧植",
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。《後漢書》盧植傳作三禮解詁，異題待對讀，本包不視同題已定。",
+      "source_author_attributions": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "source_id": "s-sanguozhi-022-luyu",
+          "referenced_work_id": "w-liji-jiegu-sgz022-luyu-reference",
+          "paragraph_id": "c-sanguozhi-022-luyu:p002",
+          "quote": "續漢書曰植字子幹少事馬融與鄭玄同門相友植剛毅有大節常喟然有濟世之志不茍合取容不應州郡命召建寧中徴博士出補九江太守以病去官作尚書章句禮記解詁稍遷侍中尚書張角起以植為北中郎將征角失利抵罪頃之復以為尚書張讓劫少帝奔小平津植手劒責數讓等讓等皆放兵垂泣謝罪遂自殺董卓議欲廢帝衆莫敢對植獨正言語在卓傳植以老病去位隱居上谷軍都山初平三年卒太祖北征柳城過涿郡令告太守曰故北中郎將盧植名著海内學為儒宗士之楷模乃國之楨幹也昔武王入殷封商容之閭鄭喪子産而仲尼隕涕孤到此州嘉其餘風春秋之義賢者之後有異於人敬遣丞掾修墳墓并致薄醊以彰厥徳植有四子毓最小",
+          "author_name": "盧植",
+          "author_surface": "植",
+          "author_person_id": "m8n_ntm_79h",
+          "author_mention_id": "c-sanguozhi-022-luyu:p002:m0019",
+          "work_mention_id": "c-sanguozhi-022-luyu:p002:w0065",
+          "status": "source_attributed",
+          "qualification": "裴注所引《續漢書》報告盧植作此書；未親見散佚原作，不把報告書作者歸盧植。《後漢書》盧植傳作三禮解詁，異題待對讀，本包不視同題已定。",
+          "authorship_syntax": {
+            "kind": "resumed_biographical_subject_named_works",
+            "biographical_head_mention_id": "c-sanguozhi-022-luyu:p002:m0004",
+            "reporting_work_mention_id": "c-sanguozhi-022-luyu:p002:w0000",
+            "listed_work_mention_ids": [
+              "c-sanguozhi-022-luyu:p002:w0061",
+              "c-sanguozhi-022-luyu:p002:w0065"
+            ],
+            "scope_quote": "植剛毅有大節常喟然有濟世之志不茍合取容不應州郡命召建寧中徴博士出補九江太守以病去官作尚書章句禮記解詁"
+          },
+          "human_reviewed": false
+        }
+      ]
+    },
+    {
+      "id": "w-chunqiu-sgz022-luyu-reference",
+      "title": "春秋（盧毓本傳及裴注所引）",
+      "citation_title": "春秋",
+      "citation_title_qualification": "詔文春秋之義，經義指稱，不指定左傳或注疏。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "詔文春秋之義，經義指稱，不指定左傳或注疏。"
+    },
+    {
+      "id": "w-shi-sgz022-luyu-reference",
+      "title": "詩（盧毓本傳及裴注所引）",
+      "citation_title": "詩經",
+      "citation_title_qualification": "以完整引句對讀今傳《國風·召南·草蟲》末章；本傳略「亦既覯止」，原字不補。非所據版本確證。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "以完整引句對讀今傳《國風·召南·草蟲》末章；本傳略「亦既覯止」，原字不補。非所據版本確證。"
+    },
+    {
+      "id": "w-li-sgz022-luyu-reference",
+      "title": "禮（盧毓本傳及裴注所引）",
+      "citation_title": "禮記",
+      "citation_title_qualification": "以未廟見及歸葬女氏之黨完整語境對讀今傳〈曾子問〉；不以原稱禮套其他禮經。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "以未廟見及歸葬女氏之黨完整語境對讀今傳〈曾子問〉；不以原稱禮套其他禮經。"
+    },
+    {
+      "id": "w-ji-sgz022-luyu-reference",
+      "title": "記（盧毓本傳及裴注所引）",
+      "citation_title": "禮記",
+      "citation_title_qualification": "附從輕與刑獄語境對讀今傳〈王制〉；保留本傳原稱記。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "附從輕與刑獄語境對讀今傳〈王制〉；保留本傳原稱記。"
+    },
+    {
+      "id": "w-shu-sgz022-luyu-reference",
+      "title": "書（盧毓本傳及裴注所引）",
+      "citation_title": "尚書",
+      "citation_title_qualification": "引句對應今傳〈大禹謨〉；今傳偽古文篇對應不等於盧毓所據篇本、版本或成書年代已確證。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "引句對應今傳〈大禹謨〉；今傳偽古文篇對應不等於盧毓所據篇本、版本或成書年代已確證。"
+    },
+    {
+      "id": "w-jinshu-yuyu-sgz022-luyu-reference",
+      "title": "晉書（盧毓本傳及裴注所引）",
+      "citation_title": "晉書",
+      "citation_title_qualification": "原文虞預晉書；不是唐修《晉書》，保作者原署。",
+      "author": "虞預",
+      "status": "source_reference",
+      "books": [],
+      "source_author_attributions": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-022",
+          "chapter_id": "c-sanguozhi-022-luyu",
+          "source_id": "s-sanguozhi-022-luyu",
+          "referenced_work_id": "w-jinshu-yuyu-sgz022-luyu-reference",
+          "paragraph_id": "c-sanguozhi-022-luyu:p008",
+          "quote": "世語曰欽字子若珽字子笏欽泰始中為尚書僕射領選咸寧四年卒追贈衛將軍開府虞預晉書曰欽少居名位不顧財利清虚淡薄勤修禮典同郡張華家單少孤不為鄉邑所知惟欽貴異焉欽子浮字子雲晉諸公贊曰張華博識多聞無物不知浮高朗經博有美於華起家太子舍人病疽截手遂廢朝廷器重之就家以為國子博士遷祭酒永平中為祕書監珽及子皓志並至尚書志子諶字子諒溫嶠表稱諶清飭有文思諶别傳曰諶善著文章洛陽傾覆北投劉琨琨以為司空從事中郎琨敗諶歸段末波元帝之初累召為散騎中書侍郎不得南赴永和六年卒於胡胡中子孫過江妖賊帥盧循諶之曾孫",
+          "author_name": "虞預",
+          "author_surface": "虞預",
+          "author_person_id": "mhe_05y_s6w",
+          "author_mention_id": "c-sanguozhi-022-luyu:p008:m0034",
+          "work_mention_id": "c-sanguozhi-022-luyu:p008:w0036",
+          "status": "source_attributed",
+          "qualification": "原文明署虞預，非後出唐修晉書；未親見散佚原書。",
+          "authorship_syntax": {
+            "kind": "author_title_prefix"
+          },
+          "human_reviewed": false
+        }
+      ],
+      "citation_qualification": "原文虞預晉書；不是唐修《晉書》，保作者原署。"
+    },
+    {
+      "id": "w-jinzhugongzan-sgz022-luyu-reference",
+      "title": "晉諸公贊（盧毓本傳及裴注所引）",
+      "citation_title": "晉諸公贊",
+      "citation_title_qualification": "裴注原題，作者未署。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "裴注原題，作者未署。"
+    },
+    {
+      "id": "w-chen-biezhuan-sgz022-luyu-reference",
+      "title": "諶别傳（盧毓本傳及裴注所引）",
+      "citation_title": "諶别傳",
+      "citation_title_qualification": "題中諶指該段盧諶；本處書題不拆人物，非正式全題已定。",
+      "author": null,
+      "status": "source_reference",
+      "books": [],
+      "citation_qualification": "題中諶指該段盧諶；本處書題不拆人物，非正式全題已定。"
     }
   ],
   "hierarchy_note": "work＝整部著作；book＝原書卷；chapter＝卷內篇。卷與篇恰好一對一時仍分別發 ID。現代網頁便覽標題不建立古代篇 ID。"
