@@ -16,7 +16,7 @@ def source_author_errors(works, chapters):
     require(a is not None and w is not None,'missing author/title anchor')
     require(a.get('kind')=='person' and a.get('person_id')==ev.get('author_person_id') and a['surface']==ev.get('author_surface'),'author anchor differs')
     require(w.get('kind')=='work' and w.get('work_id')==wid,'title anchor differs')
-    text=p['text'];require(text[a['start']:a['end']]==a['surface'] and text[w['start']:w['end']]==w['surface'] and a['end']<=w['start'],'author/title span differs')
+    text=p['text'];order=(w['end']<=a['start'] if ev.get('authorship_syntax',{}).get('kind')=='title_author_suo_zhu' else a['end']<=w['start']);require(text[a['start']:a['end']]==a['surface'] and text[w['start']:w['end']]==w['surface'] and order,'author/title span differs')
     syntax=ev.get('authorship_syntax',{});kind=syntax.get('kind');gap=text[a['end']:w['start']]
     people=[m for m in p['mentions'] if m.get('kind')=='person' and a['end']<=m['start'] and m['end']<=w['start']]
     if kind=='author_title_prefix':
@@ -51,6 +51,12 @@ def source_author_errors(works, chapters):
      for x in [head,reporter]+listed:
       require(text[x['start']:x['end']]==x['surface'],'resumption/list anchor span differs')
      require(syntax.get('scope_quote')==text[a['start']:listed[-1]['end']] and not syntax.get('object_person_mention_ids'),'scope quote/objects differ')
+    elif kind=='title_author_suo_zhu':
+     require(w['start']==0 and w['end']==a['start'] and not syntax.get('object_person_mention_ids'),'not initial title/author adjacent clause')
+     clause=syntax.get('authorship_clause',{});end=a['end']+2
+     require(text[a['end']:end] in ('所著','所撰','所作') and clause=={'start':0,'end':end,'quote':text[:end]},'not explicit title-author-suo attribution')
+     following=syntax.get('following_explanation',{});q=following.get('quote','')
+     require(following=={'start':end,'end':end+len(q),'quote':text[end:end+len(q)]} and re.fullmatch(r'[^曰云。；！？非不未無乎耶]{1,8}者',q) is not None,'not anchored following explanatory definition')
     else:raise ValueError('unknown/missing source authorship syntax')
    except (KeyError,TypeError,ValueError) as exc:errors.append('source-author-prefix: '+str(ev.get('work_mention_id'))+': '+str(exc))
  return errors

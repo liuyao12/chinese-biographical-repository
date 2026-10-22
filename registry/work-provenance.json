@@ -382,6 +382,16 @@
       "access_scope": "已讀整條32行文字書目；188卷殘存且補配補寫，非最早完整本，也未連到WS底本。",
       "short_quote": "嘉祐刊本系の紹興刊本",
       "human_reviewed": false
+    },
+    "ref-nlcpress-houhanshu-early-print-preface": {
+      "title": "國家圖書館出版社《後漢書》前言：早期刻本與影印底本",
+      "url": "https://www.nlcpress.com/ProductView.aspx?Id=10222",
+      "access_scope": "實際取得完整HTML，核讀前言第五、六段；網頁暫存僅留私人研究區，不提交。",
+      "human_reviewed": false,
+      "quote": "除北宋末年刻本尚有殘本存世外，均已亡佚。",
+      "evidence_kind": "institution_publisher_edition_introduction",
+      "accessed": "2026-10-22",
+      "retrieved_html_sha256": "92c43649883bfbba26091e2701445f6d5d353ae51b9150e03ab6cefe30d75321"
     }
   },
   "editions": {
@@ -569,6 +579,19 @@
         "r-xintangshu-bunka"
       ],
       "qualification": "館藏南宋紹興刊本系、後印且補配補寫，225卷存188卷。僅已知存本，不宣稱最早，也不是本段所據本。"
+    },
+    "edition-houhanshu-northern-song-fragment-reported": {
+      "id": "edition-houhanshu-northern-song-fragment-reported",
+      "work_id": "w-houhanshu",
+      "label": "出版社前言所述北宋末年刻本殘本（具體藏本待核）",
+      "extent": "fragment",
+      "date": null,
+      "period_label": "北宋末年",
+      "reference_ids": [
+        "ref-nlcpress-houhanshu-early-print-preface"
+      ],
+      "qualification": "依官方出版社前言的刻本傳承報告；未核具體藏本索書號、圖像或刻印年月，不與四庫轉錄底本混同。",
+      "image_verified": false
     }
   },
   "works": {
@@ -907,8 +930,17 @@
         ]
       },
       "earliest_extant_edition": {
-        "status": "not_researched",
-        "assertions": []
+        "status": "reported",
+        "assertions": [
+          {
+            "edition_id": "edition-houhanshu-northern-song-fragment-reported",
+            "scope": "fragment",
+            "reference_ids": [
+              "ref-nlcpress-houhanshu-early-print-preface"
+            ],
+            "qualification": "前言稱早期淳化、景祐等刻本已佚，北宋末年刻本有殘本傳世。此為現存早期刻本的機構報告，未遍核寫本，不宣稱全球最早寫本、最早完整本或本庫轉錄所據本。"
+          }
+        ]
       },
       "burial": {
         "status": "not_researched",
@@ -202503,6 +202535,366 @@
         "assertions": []
       },
       "citation_qualification": "題中諶指該段盧諶；本處書題不拆人物，非正式全題已定。"
+    },
+    "w-zuozhuan-hhs064-luzhi-reference": {
+      "work_id": "w-zuozhuan-hhs064-luzhi-reference",
+      "title": "左傳（盧植傳所引）",
+      "citation_title": "左傳",
+      "citation_qualification": "本單元原稱左傳／左氏傳；春秋傳的對應依緊接左氏傳同句古注，不移接其他春秋或後出注疏。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-qincao-hhs064-luzhi-reference": {
+      "work_id": "w-qincao-hhs064-luzhi-reference",
+      "title": "琴操（盧植傳所引）",
+      "citation_title": "琴操",
+      "citation_qualification": "本注以此原題引漆室女故事，未明作者，不補蔡邕等傳統歸屬。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-shixu-hhs064-luzhi-reference": {
+      "work_id": "w-shixu-hhs064-luzhi-reference",
+      "title": "詩序（盧植傳所引）",
+      "citation_title": "詩序",
+      "citation_qualification": "本注所引原題；不把序文當作詩篇本文，不據此確定序作者或底本。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-xiaojing-hhs064-luzhi-reference": {
+      "work_id": "w-xiaojing-hhs064-luzhi-reference",
+      "title": "孝經（盧植傳所引）",
+      "citation_title": "孝經",
+      "citation_qualification": "古注明題，未核具體版本或作者。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-shi-hhs064-luzhi-reference": {
+      "work_id": "w-shi-hhs064-luzhi-reference",
+      "title": "詩經（盧植傳所引）",
+      "citation_title": "詩經",
+      "citation_qualification": "詩／詩大雅／毛詩為本單元經義語境；保原稱與篇體，不確定所據傳箋版本。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-shangshu-hhs064-luzhi-reference": {
+      "work_id": "w-shangshu-hhs064-luzhi-reference",
+      "title": "尚書（盧植傳所引）",
+      "citation_title": "尚書",
+      "citation_qualification": "本單元明引洪範及書曰三載考績；不據今本反推古本版系。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-chunqiu-hhs064-luzhi-reference": {
+      "work_id": "w-chunqiu-hhs064-luzhi-reference",
+      "title": "春秋（盧植傳所引）",
+      "citation_title": "春秋",
+      "citation_qualification": "原稱春秋之義、春秋共相表裏；經義指稱，不因同字與左氏傳或公羊傳併一作品。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-sanli-jiegu-hhs064-luzhi-reference": {
+      "work_id": "w-sanli-jiegu-hhs064-luzhi-reference",
+      "title": "三禮解詁（盧植傳所引）",
+      "citation_title": "三禮解詁",
+      "citation_qualification": "本傳原題；裴引續漢書作禮記解詁，異題分存未定同一作品。作者盧植由本傳作句報告，未親見原作。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-liji-hhs064-luzhi-reference": {
+      "work_id": "w-liji-hhs064-luzhi-reference",
+      "title": "禮記（盧植傳所引）",
+      "citation_title": "禮記",
+      "citation_qualification": "盧植上書所稱經文；不當成其自作禮記解詁或三禮解詁。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-zhouli-hhs064-luzhi-reference": {
+      "work_id": "w-zhouli-hhs064-luzhi-reference",
+      "title": "周禮（盧植傳所引）",
+      "citation_title": "周禮",
+      "citation_qualification": "本傳上書明題，古今經本及底本未核。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-zushi-hhs064-luzhi-reference": {
+      "work_id": "w-zushi-hhs064-luzhi-reference",
+      "title": "左氏（盧植傳所引）",
+      "citation_title": "左氏",
+      "citation_qualification": "盧植上書原稱左氏，首選左氏傳經學語境；保來源原稱，不據此確定傳本。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-wuxingzhuan-hhs064-luzhi-reference": {
+      "work_id": "w-wuxingzhuan-hhs064-luzhi-reference",
+      "title": "五行傳（盧植傳所引）",
+      "citation_title": "五行傳",
+      "citation_qualification": "本傳引用原題；古注明言劉向所著，為來源報告而非親見原作。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-lunyu-hhs064-luzhi-reference": {
+      "work_id": "w-lunyu-hhs064-luzhi-reference",
+      "title": "論語（盧植傳所引）",
+      "citation_title": "論語",
+      "citation_qualification": "史論夾注明題；未核所據注本或底本。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-laozi-hhs064-luzhi-reference": {
+      "work_id": "w-laozi-hhs064-luzhi-reference",
+      "title": "老子（盧植傳所引）",
+      "citation_title": "老子",
+      "citation_qualification": "史論夾注引書原題；此處是作品，不把書名作老聃人物mention。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
+    },
+    "w-gongyang-hhs064-luzhi-reference": {
+      "work_id": "w-gongyang-hhs064-luzhi-reference",
+      "title": "公羊傳（盧植傳所引）",
+      "citation_title": "公羊傳",
+      "citation_qualification": "史論前夾注明題；與泛稱春秋之義或左傳分存。",
+      "transmission": "not_researched",
+      "human_reviewed": false,
+      "composition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "earliest_extant_edition": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "burial": {
+        "status": "not_researched",
+        "assertions": []
+      },
+      "excavation": {
+        "status": "not_researched",
+        "assertions": []
+      }
     }
   },
   "text_bases": {
@@ -204647,6 +205039,15 @@
       "earliest_extant_basis_edition_id": null,
       "reference_ids": [],
       "note": "數位來源的修訂號另存於正文 source；不能作成書或古本年代。"
+    },
+    "s-houhanshu-064-luzhi": {
+      "source_id": "s-houhanshu-064-luzhi",
+      "work_id": "w-houhanshu",
+      "status": "not_researched",
+      "edition_id": null,
+      "earliest_extant_basis_edition_id": null,
+      "reference_ids": [],
+      "note": "實讀Kanripo BASEEDITION WYG題記及固定raw；未核書影/對應實物年代，不稱最早存本。數位提交日期不作古書年代。"
     }
   }
 }

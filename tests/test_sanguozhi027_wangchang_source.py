@@ -27,16 +27,18 @@ class Sanguozhi027WangchangSource(unittest.TestCase):
   self.assertTrue(any(m['surface']=='沉'and m['person_id']=='175_99c_b41_AA'for m in self.ps['unit005']['mentions']));self.assertFalse(any(a['subject_person_id']=='175_99c_b41_AA'and a['predicate']=='father'for a in self.aset))
  def test_wangji_not_langya_shixian(self):
   ms=[m for p in self.c['paragraphs']for m in p['mentions']if m['surface']=='王基'];self.assertTrue(ms);self.assertTrue(all(m['person_id']!='7r6_k52_qji_ABB'for m in ms))
- def test_mo_and_shen_remain_unresolved(self):
+ def test_mo_and_shen_source_local_not_cross_source_identity(self):
   for p in self.c['paragraphs']:
    for m in p['mentions']:
-    if m['surface']in ['黙','深']:self.assertIsNone(m['person_id'])
+    if m['surface']in ['黙','深']:
+     self.assertEqual(m['kind'],'person');self.assertEqual(m['status'],'contextual_provisional');self.assertNotIn(m['person_id'],['566_8c0_c6c','b2a_88b_095','7r6_k52_qji_ABAAAABA'])
  def test_no_brother_assertion_from_xiongshi(self):
   self.assertIn('兄事之',self.ps['unit003']['text']);self.assertFalse(any(a['predicate']=='brother'for a in self.aset))
- def test_guoboyi_not_unproved_guoyi(self):
+ def test_guoboyi_source_local_not_unproved_jin_guoyi(self):
   for p in self.c['paragraphs']:
    for m in p['mentions']:
-    if m['surface']in ['郭伯益','伯益','奕']:self.assertIsNone(m['person_id'])
+    if m['surface']in ['郭伯益','伯益','奕']:
+     self.assertEqual(m['kind'],'person');self.assertEqual(m['status'],'contextual_provisional');self.assertNotEqual(m['person_id'],'64e_ce8_aba')
  def test_ordinary_characters_not_people(self):
   p=self.ps['unit017']
   for q in ['治績','節儉']:

@@ -3873,9 +3873,37 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-sanguozhi027-wangchang-012",
+      "subject_person_id": "344_68f_98e_A",
+      "predicate": "father",
+      "object_person_id": "344_68f_98e",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "郭嘉之子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-027",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit012",
+          "quote": "伯益名奕郭嘉之子",
+          "subject_person_mention_id": "c-sanguozhi-027-wangchang:unit012:m0003",
+          "object_person_mention_id": "c-sanguozhi-027-wangchang:unit012:m0004"
+        }
+      ],
+      "interpretation_note": "裴注明名奕與郭嘉之子；潁川郭伯益本地身份，晉039主簿郭奕未合。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "344_68f_98e": "郭嘉"
+    "344_68f_98e": "郭嘉",
+    "344_68f_98e_A": "郭奕（字伯益，郭嘉子）"
   },
   "dates": [],
   "name_components": [
@@ -3900,7 +3928,49 @@
   "person_ids": [
     "344_68f_98e"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-sanguozhi027-wangchang-012",
+      "subject_person_id": "344_68f_98e_A",
+      "predicate": "father",
+      "object_person_id": "344_68f_98e",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "郭嘉之子"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-027",
+          "source_id": "s-sanguozhi-027-wangchang",
+          "chapter_id": "c-sanguozhi-027-wangchang",
+          "paragraph_id": "c-sanguozhi-027-wangchang:unit012",
+          "quote": "伯益名奕郭嘉之子",
+          "subject_person_mention_id": "c-sanguozhi-027-wangchang:unit012:m0003",
+          "object_person_mention_id": "c-sanguozhi-027-wangchang:unit012:m0004"
+        }
+      ],
+      "interpretation_note": "裴注明名奕與郭嘉之子；潁川郭伯益本地身份，晉039主簿郭奕未合。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "344_68f_98e",
+    "representative_source_person_id": "344_68f_98e",
+    "source_person_ids": [
+      "344_68f_98e"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "connection": null,
+    "assembly_id": "family-yingchuan-guo-jia-core",
+    "root_person_id": "344_68f_98e",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],
