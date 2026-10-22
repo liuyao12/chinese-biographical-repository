@@ -1060,3 +1060,11 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 
 
 `relationship_basis: named_wifes_father` 僅支援完整「甲，乙之妻父也」句：三個已標記人物為父甲、夫乙與未名妻。妻作 father/spouse 主體，客體分別為父／夫；`wife_father_context` 綁原句與三錨點，可保留句首地域稱示但不得放過引語、否定或其他插入人物。不補妻名、生母、婚期或所生子女。
+
+### 無子弟以具名子嗣的完整傳文
+
+`biography_family_clause.rule: son_heir_childless_younger_brother_supplies_son` 限完整「甲襲爵，官至琅邪王友，早卒。子乙嗣，終東陽太守。無子，弟光祿勳丙以子丁嗣，有罪，國除。」位置綁定句式。四名與全段指紋、修訂、逐詞位置一致，才分記乙父甲、丙為乙弟、丁父丙及丁 `ritual_successor_of` 乙。宗祀承嗣保持 `legal_adoption_status: not_stated`、`parentage_inference: not_inferred`，不得由嗣單獨推生父或法定收養。生父斷言須另存並驗證；原有其他親屬句式不變。
+
+`person_event_assertion_set` 的 `noble_state_abolition` 首例同限此完整句式，以最後具名承嗣者作「有罪，國除」敘述的個人關聯端點；封國撤除不作人物死亡。保完整四角色與人物錨點、全段收到引文，`title` / `holding_id` / `date_expression` 均為 null，不補未明爵名、持爵起點或年份。此來源事件不產生收養、生父、家族組裝或改號。
+
+`noble_title_succession` 同樣限此完整句式，以段首瑤為承襲者、`source_term: 襲爵`、`mode: accession`；`predecessor_person_id`、`title`、`holding_id`及日期均為null。它是未定爵名的來源事件，不生成title='爵'的假具名持職或未經來源核定的前任。

@@ -1,0 +1,77 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_event_assertion_set",
+  "chapter_id": "c-jinshu-079-xielang-family",
+  "events": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "ev-jin079-xieyao-chengbo-guochu",
+      "person_id": "1jr_8no_m6m",
+      "event_type": "noble_state_abolition",
+      "date_expression": null,
+      "source_term": "有罪，國除",
+      "title": null,
+      "holding_id": null,
+      "source_clause_binding": {
+        "kind": "son_heir_childless_younger_brother_supplies_son",
+        "roles": {
+          "head": "c-jinshu-079-xielang-family:xieyao-line057:m0000",
+          "heir": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+          "brother": "c-jinshu-079-xielang-family:xieyao-line057:m0031",
+          "successor": "c-jinshu-079-xielang-family:xieyao-line057:m0034"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0034"
+        }
+      ],
+      "interpretation_note": "承伯嗣後有罪國除，依連續句法以最後具名承嗣人承伯為獲罪主語；國除是封國撤除，非其死亡。本段缺爵名及年，不建其具名持爵或補日期。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "ev-jin079-xieyao-yao-succession",
+      "person_id": "6na_bet_3ch",
+      "event_type": "noble_title_succession",
+      "date_expression": null,
+      "source_term": "襲爵",
+      "title": null,
+      "holding_id": null,
+      "source_clause_binding": {
+        "kind": "son_heir_childless_younger_brother_supplies_son",
+        "roles": {
+          "head": "c-jinshu-079-xielang-family:xieyao-line057:m0000",
+          "heir": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+          "brother": "c-jinshu-079-xielang-family:xieyao-line057:m0031",
+          "successor": "c-jinshu-079-xielang-family:xieyao-line057:m0034"
+        }
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "interpretation_note": "瑤襲爵明記承襲事件，但本段未重寫爵名或具名前任；兩者保持null，不建假稱號爵或補建昌公。",
+      "mode": "accession",
+      "predecessor_person_id": null
+    }
+  ]
+}

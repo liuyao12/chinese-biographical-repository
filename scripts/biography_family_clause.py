@@ -2,6 +2,14 @@
 import hashlib,re
 KIND='biography_family_clause'
 def valid(a,paragraphs,assertions=()):
+ # Position-bound close-family clauses; retain all older grammar contracts.
+ if a.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
+     try:
+         from scripts.biography_close_family import valid as close_family_valid
+     except ImportError:
+         from biography_close_family import valid as close_family_valid
+     return close_family_valid(a,paragraphs,assertions)
+
  try:
   q=a['qualifiers'];b=q['source_clause_binding'];e,=a['evidence'];cid,p=paragraphs[e['paragraph_id']];t=p['text'];ms={m['id']:m for m in p['mentions']}
   if(set(b)!={'kind','rule','roles','clause_start','clause_end','paragraph_sha256','revision_id'}or b['kind']!=KIND or a['status']!='source_attested'or a['human_reviewed']is not False or e['chapter_id']!=cid or e['quote']!=t or p.get('text_layer')!='received_chapter'or p.get('source_position',{}).get('revision_id')!=b['revision_id']or hashlib.sha256(t.encode()).hexdigest()!=b['paragraph_sha256']):return False
@@ -88,6 +96,15 @@ def valid(a,paragraphs,assertions=()):
    pattern=token('husband')+'妻'+token('father')+'女'
    if not exact(pattern)or not positioned('husband',0)or not positioned('father',len(token('husband'))+1)or not positioned('daughter',len(pattern)-1):return False
    allowed=[('spouse','daughter','husband'),('father','daughter','father')]
+  elif rule=='son_heir_childless_younger_brother_supplies_son':
+   if set(roles)!={'head','heir','brother','successor'}or start!=0 or end!=len(t):return False
+   chunks=[('head',''),(None,'襲爵，官至琅邪王友，早卒。子'),('heir',''),(None,'嗣，終東陽太守。無子，弟光祿勳'),('brother',''),(None,'以子'),('successor',''),(None,'嗣，有罪，國除。')];cursor=0;pattern=''
+   for role,literal in chunks:
+    v=token(role)if role else literal
+    if role and not positioned(role,cursor):return False
+    pattern+=v;cursor+=len(v)
+   if not exact(pattern)or len({id(k)for k in roles})!=4:return False
+   allowed=[('father','heir','head'),('brother','brother','heir'),('father','successor','brother'),('ritual_successor_of','successor','heir')]
   elif rule=='deceased_subject_clansmans_son_successor':
    if set(roles)!={'head','clansman','son'}or roles['head']['start']!=0:return False
    m=re.fullmatch(r'竟卒于([^，。]+)，以族人'+re.escape(token('clansman'))+'子'+re.escape(token('son'))+'為嗣。',text)
@@ -111,6 +128,7 @@ def valid(a,paragraphs,assertions=()):
   elif pred in('brother','sister','agnatic_cousin'):
    allowedq.add('relative_birth_order');rb=q.get('relative_birth_order',{})
    if rule=='younger_brother':older=id('elder');younger=id('younger')
+   elif rule=='son_heir_childless_younger_brother_supplies_son':older=id('heir');younger=id('brother')
    elif rule=='named_siblings_sister_husband':older=id('brother');younger=id('sister')
    else:older=a['subject_person_id'];younger=a['object_person_id']
    if rb!={'older_person_id':older,'younger_person_id':younger,'operator':'lt','older_ordinal':None,'younger_ordinal':None,'scope':'agnatic_cousins'if pred=='agnatic_cousin'else'siblings'}:return False
@@ -119,6 +137,10 @@ def valid(a,paragraphs,assertions=()):
     if q.get('kinship_structure')!={'lineage':'paternal','generation_difference':0,'collateral':True,'distance':None,'common_ancestor_person_id':None,'subject_relative_age':'older'}:return False
   elif pred=='ritual_successor_of':
    allowedq|={'succession_kind','legal_adoption_status','parentage_inference'}
+   if rule=='son_heir_childless_younger_brother_supplies_son':
+    if q.get('succession_kind')!='childless_son_brothers_named_son_si'or q.get('legal_adoption_status')!='not_stated'or q.get('parentage_inference')!='not_inferred':return False
+    if not any(xa.get('predicate')=='father'and valid(xa,paragraphs)and xa.get('subject_person_id')==id('successor')and xa.get('object_person_id')==id('brother')and xa.get('qualifiers',{}).get('source_clause_binding')==b for xa in assertions):return False
+    return set(q)==allowedq
    if q.get('succession_kind')!='clansmans_named_son_weisi'or q.get('legal_adoption_status')!='not_stated'or q.get('parentage_inference')!='not_inferred':return False
    if not any(xa.get('predicate')=='father'and valid(xa,paragraphs)and xa.get('subject_person_id')==id('son')and xa.get('object_person_id')==id('clansman')and xa.get('qualifiers',{}).get('source_clause_binding',{}).get('rule')==rule for xa in assertions):return False
   elif pred=='kinship_unspecified':

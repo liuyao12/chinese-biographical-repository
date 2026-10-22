@@ -8,8 +8,91 @@
   "names": [
     "瑤"
   ],
-  "titles": [],
-  "addresses": [],
+  "titles": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "th-jin079-xieyao-yao-wangyou",
+      "person_id": "6na_bet_3ch",
+      "title": "琅邪王友",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin079-xieyao-yao-wangyou:a001",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "start": 6,
+          "end": 10,
+          "surface": "琅邪王友",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "只記原文用稱，未知起訖不補；不把官職地當籍貫。",
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "pa-jin079-xieyao-yao",
+      "person_id": "6na_bet_3ch",
+      "relation": "service_location",
+      "place": {
+        "source_name": "琅邪",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "source_term": "琅邪王友",
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "interpretation_note": "官職所屬王府地稱，不是籍貫或實住地，王本人仍未決。",
+      "qualifiers": {
+        "source_position": "琅邪王友"
+      },
+      "term": "琅邪王友",
+      "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。"
+    }
+  ],
   "occurrences": [
     {
       "number": 79,
@@ -724,18 +807,206 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jin079-xieyao-an-yao",
+      "subject_person_id": "6na_bet_3ch",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_B",
+      "qualifiers": {
+        "source_term": "有二子：瑤、琰",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_children_list",
+          "roles": {
+            "child": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+            "parent": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+          },
+          "clause_start": 104,
+          "clause_end": 111,
+          "paragraph_sha256": "eb9b2c8a95df2cdacd1e73f9478bd02648b55c3538151ce98543a0e9fd616a33",
+          "revision_id": 2645985
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+          "quote": "羊曇者，太山人，知名士也，為安所愛重。安薨後，輟樂彌年，行不由西州路。嘗因石頭大醉，扶路唱樂，不覺至州門。左右白曰：「此西州門。」曇悲感不已，以馬策扣扉，誦曹子建詩曰：「生存華屋處，零落歸山丘。」慟哭而去。安有二子：瑤、琰。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+        }
+      ],
+      "interpretation_note": "明記安有二子；列次不變成長幼排行，也不聲稱一生全部子女。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jin079-xieyao-yao-gai",
+      "subject_person_id": "y5j_mi7_xz8",
+      "predicate": "father",
+      "object_person_id": "6na_bet_3ch",
+      "qualifiers": {
+        "source_term": "子該嗣",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "son_heir_childless_younger_brother_supplies_son",
+          "roles": {
+            "head": "c-jinshu-079-xielang-family:xieyao-line057:m0000",
+            "heir": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+            "brother": "c-jinshu-079-xielang-family:xieyao-line057:m0031",
+            "successor": "c-jinshu-079-xielang-family:xieyao-line057:m0034"
+          },
+          "clause_start": 0,
+          "clause_end": 44,
+          "paragraph_sha256": "f62d8c87c52da786cfdd9d6a6788529649486f400f1f23879a419de53b475465",
+          "revision_id": 2645985
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "interpretation_note": "子該提供生父瑤；嗣續另讀，不由嗣字單獨推父子。"
+    }
+  ],
   "related_people": {
-    "6na_bet_3ch": "瑤〔謝安子〕"
+    "6na_bet_3ch": "瑤〔謝安子〕",
+    "aa6_83c_juy_B": "謝安",
+    "y5j_mi7_xz8": "該〔謝瑤子〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "6na_bet_3ch"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jin079-xieyao-an-yao",
+      "subject_person_id": "6na_bet_3ch",
+      "predicate": "father",
+      "object_person_id": "aa6_83c_juy_B",
+      "qualifiers": {
+        "source_term": "有二子：瑤、琰",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_children_list",
+          "roles": {
+            "child": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+            "parent": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+          },
+          "clause_start": 104,
+          "clause_end": 111,
+          "paragraph_sha256": "eb9b2c8a95df2cdacd1e73f9478bd02648b55c3538151ce98543a0e9fd616a33",
+          "revision_id": 2645985
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line053",
+          "quote": "羊曇者，太山人，知名士也，為安所愛重。安薨後，輟樂彌年，行不由西州路。嘗因石頭大醉，扶路唱樂，不覺至州門。左右白曰：「此西州門。」曇悲感不已，以馬策扣扉，誦曹子建詩曰：「生存華屋處，零落歸山丘。」慟哭而去。安有二子：瑤、琰。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0108",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line053:m0103"
+        }
+      ],
+      "interpretation_note": "明記安有二子；列次不變成長幼排行，也不聲稱一生全部子女。"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-jin079-xieyao-yao-gai",
+      "subject_person_id": "y5j_mi7_xz8",
+      "predicate": "father",
+      "object_person_id": "6na_bet_3ch",
+      "qualifiers": {
+        "source_term": "子該嗣",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "son_heir_childless_younger_brother_supplies_son",
+          "roles": {
+            "head": "c-jinshu-079-xielang-family:xieyao-line057:m0000",
+            "heir": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+            "brother": "c-jinshu-079-xielang-family:xieyao-line057:m0031",
+            "successor": "c-jinshu-079-xielang-family:xieyao-line057:m0034"
+          },
+          "clause_start": 0,
+          "clause_end": 44,
+          "paragraph_sha256": "f62d8c87c52da786cfdd9d6a6788529649486f400f1f23879a419de53b475465",
+          "revision_id": 2645985
+        },
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "subject_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0015",
+          "object_person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "interpretation_note": "子該提供生父瑤；嗣續另讀，不由嗣字單獨推父子。"
+    }
+  ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "le-jin079-xieyao-yao",
+      "person_id": "6na_bet_3ch",
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "早卒",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-079",
+          "source_id": "s-jinshu-079-xielang-family",
+          "chapter_id": "c-jinshu-079-xielang-family",
+          "paragraph_id": "c-jinshu-079-xielang-family:xieyao-line057",
+          "quote": "瑤襲爵，官至琅邪王友，早卒。子該嗣，終東陽太守。無子，弟光祿勳模以子承伯嗣，有罪，國除。",
+          "person_mention_id": "c-jinshu-079-xielang-family:xieyao-line057:m0000"
+        }
+      ],
+      "interpretation_note": "瑤早卒未載年齡/年月，不由早字補年；該終東陽太守是終官，不記其死亡。"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

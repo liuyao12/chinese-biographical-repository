@@ -2017,7 +2017,7 @@ def validate(root=ROOT):
             check(record.get('record_type') in ('person_life_event_assertion_set', 'person_event_assertion_set') and record.get('chapter_id') in chapters, '生卒事件集類型或篇不存在')
             for event in record['events']:
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
-                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service')), '生卒事件人物或類型無效')
+                check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
                 if 'reported_reign_interval' in event:
                     try:
@@ -2027,6 +2027,12 @@ def validate(root=ROOT):
                     check(accession_death_interval_valid(event, paragraphs, mentions), '未逾年須連同人立後死亡的原句，不得當生齡或推曆年')
                 if record.get('record_type') == 'person_event_assertion_set' and event['event_type'] == 'recruitment':
                     check(any('徵' in e.get('quote', '') for e in event.get('evidence', [])), '徵召事件缺少原文徵召用語')
+                if event['event_type'] in ('noble_state_abolition', 'noble_title_succession'):
+                    try:
+                        from scripts.noble_state_abolition import valid as noble_abolition_valid
+                    except ImportError:
+                        from noble_state_abolition import valid as noble_abolition_valid
+                    check(noble_abolition_valid(event, paragraphs), '承爵與國除須綁完整承嗣句的明示端點，不補爵名、前任或日期')
                 if event['event_type'] == 'diplomatic_service':
                     duration = event.get('reported_duration', {}); number = duration.get('source_number')
                     place = event.get('polity_source_name'); term = duration.get('source_term')
