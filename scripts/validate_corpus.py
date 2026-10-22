@@ -326,6 +326,13 @@ def validate(root=ROOT):
         id_aliases = [alias for person in people for alias in person.get('id_aliases', [])]
         check(len(id_aliases) == len(set(id_aliases)) and not set(id_aliases).intersection(pids), '人物 ID 別名重複或占用正式 ID')
         check(all(valid_person_id(alias) for alias in id_aliases), '人物 ID 別名格式不符')
+        try:
+            from scripts.retired_person_ids import retired_person_ids
+        except ModuleNotFoundError:
+            from retired_person_ids import retired_person_ids
+        retired_ids = retired_person_ids(root)
+        check(not retired_ids.intersection(pids), '已退休人物 ID 不得重新登記為正式人物')
+        check(not retired_ids.intersection(id_aliases), '已退休人物 ID 不得重新登記為相容別名')
         migration_path = root / 'registry/person-id-migrations.json'
         if migration_path.exists():
             migration = json.loads(migration_path.read_text())
@@ -2053,7 +2060,7 @@ def validate(root=ROOT):
                         from scripts.local_death_date_evidence import local_death_date_evidence_valid
                     except ImportError:
                         from local_death_date_evidence import local_death_date_evidence_valid
-                    local_death_date = local_death_date_evidence_valid(event_date, event, chapters, source_age_number)
+                    local_death_date = local_death_date_evidence_valid(event_date, event, chapters, source_age_number, root=root)
                     check(local_death_date, '局部死亡與完整紀年證據鏈須有同版同人同事件精確綁定')
                 date_context = event.get('date_context')
                 continuous_date = False

@@ -6,7 +6,9 @@
   "identity_note": "梁明祖母養且年九祖母亡；南史同事件明殷氏。保祖母／哺養，不在本包推她與祖駰婚姻或生父母。",
   "review": "ai_provisional",
   "names": [
-    "祖母"
+    "祖母",
+    "殷氏",
+    "殷"
   ],
   "titles": [],
   "addresses": [],
@@ -54,6 +56,59 @@
       "chapter_id": "c-liangshu-030-peiziye",
       "source_id": "s-liang030-ws1508510",
       "work_title": "梁書"
+    },
+    {
+      "number": 33,
+      "category": "",
+      "title": "裴松之至裴騫完整敘事單元（卷三十三選錄）",
+      "paragraph_id": "c-nanshi-033-pei-family:p014",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。殷柔明有文義，以章句授之。年九歲，殷氏亡，泣血哀慟，家人異之。少好學，善屬文，仕齊為江夏王行參軍。遭父憂去職。初，父寢疾彌年，子野禱請備至，涕泗沾濡。父夜夢見其容，旦召視如夢，俄而疾間，以為至孝",
+      "paragraph_ids": [
+        "c-nanshi-033-pei-family:p014"
+      ],
+      "mention_ids": [
+        "c-nanshi-033-pei-family:p014:m0016",
+        "c-nanshi-033-pei-family:p014:m0021",
+        "c-nanshi-033-pei-family:p014:m0038"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-033-pei-family:p014:m0016": "c-nanshi-033-pei-family:p014",
+        "c-nanshi-033-pei-family:p014:m0021": "c-nanshi-033-pei-family:p014",
+        "c-nanshi-033-pei-family:p014:m0038": "c-nanshi-033-pei-family:p014"
+      },
+      "mention_id": "c-nanshi-033-pei-family:p014:m0016",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-033-pei-family:p014:m0016",
+          "mention_ids": [
+            "c-nanshi-033-pei-family:p014:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-033-pei-family:p014:m0021",
+          "mention_ids": [
+            "c-nanshi-033-pei-family:p014:m0021"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-nanshi-033-pei-family:p014:m0038",
+          "mention_ids": [
+            "c-nanshi-033-pei-family:p014:m0038"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-033",
+      "chapter_id": "c-nanshi-033-pei-family",
+      "source_id": "s-nanshi033-ws1554233",
+      "work_title": "南史"
     }
   ],
   "table_occurrences": [],
@@ -89,18 +144,244 @@
         },
         "extent": "裴子野完整本傳8段1836字，止於顧協傳前；不是卷三十全卷。"
       }
+    },
+    {
+      "chapter_id": "c-nanshi-033-pei-family",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-033",
+      "source_id": "s-nanshi033-ws1554233",
+      "source": {
+        "title": "南史/卷33",
+        "revision_id": 1554233,
+        "revision_timestamp": "2019-03-29T02:35:39Z",
+        "status": 200,
+        "response_sha256": "8380abe50572203e436afe87e646878898cffb422d117948c0f7a802b0086a5a",
+        "raw_sha256": "03f36d2b463faf43738af65819a8afae18d17df2da3a2b6e7a824a322b14dc86",
+        "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233",
+        "api_url": "https://zh.wikisource.org/w/api.php?action=query&format=json&formatversion=2&prop=revisions&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main&titles=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733",
+        "image_verified": false,
+        "human_reviewed": false,
+        "provider": "Wikisource",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233",
+        "raw_path": "sources/nanshi/wikisource-1554233-raw.wikitext",
+        "raw_file_sha256": "03f36d2b463faf43738af65819a8afae18d17df2da3a2b6e7a824a322b14dc86",
+        "edition": null,
+        "accessed_on": "2026-10-21",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "rights": "古代正文；數位轉錄保留維基文庫署名及CC BY-SA 4.0來源，未另授權為MIT。",
+        "extent": "卷33裴氏完整23段；不是全卷。",
+        "normalization": {
+          "description": "只去wiki連結、YL年標與粗體wrapper，原字不換；節題分存。",
+          "omitted_digital_paratext": [
+            {
+              "source_lines": [
+                156,
+                156
+              ],
+              "raw_quote": "==子 駰==",
+              "raw_quote_sha256": "469d60af8da31d9905f8ae005bf6b94799c9e28a81b5dbb266b6cf64c6a2b056",
+              "kind": "digital_section_heading",
+              "not_received_text": true,
+              "source_revision": 1554233
+            },
+            {
+              "source_lines": [
+                160,
+                160
+              ],
+              "raw_quote": "===駰子 昭明===",
+              "raw_quote_sha256": "2b842f8bbb0aeb25e4bd85ff8dc006f9e577d998aeef5a35ea6965ecd3470653",
+              "kind": "digital_section_heading",
+              "not_received_text": true,
+              "source_revision": 1554233
+            },
+            {
+              "source_lines": [
+                170,
+                170
+              ],
+              "raw_quote": "====昭明子 子野====",
+              "raw_quote_sha256": "bd78ff83804e0601c93fc8b82a86d7fa5289f6919ce37b8a838b57e46f8bd3a1",
+              "kind": "digital_section_heading",
+              "not_received_text": true,
+              "source_revision": 1554233
+            }
+          ]
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "subject_person_id": "hvz_7p7_g9m",
+      "object_person_id": "f3f_bze_579",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p014",
+          "quote": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。殷柔明有文義，以章句授之。年九歲，殷氏亡，泣血哀慟，家人異之。少好學，善屬文，仕齊為江夏王行參軍。遭父憂去職。初，父寢疾彌年，子野禱請備至，涕泗沾濡。父夜夢見其容，旦召視如夢，俄而疾間，以為至孝所感。命著孝感傳，固辭乃止。及居喪，每之墓所，草為之枯。有白兔白鳩馴擾其側。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p014:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p014:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanshi033-ziye-grandmother",
+      "predicate": "grandmother",
+      "qualifiers": {
+        "source_term": "祖母",
+        "lineage": "unspecified",
+        "generation_difference": -2,
+        "parent_person_id": null,
+        "relationship_basis": "biography_head_birth_mother_dies_grandmother_care",
+        "source_clause_binding": {
+          "kind": "biography_head_birth_mother_dies_grandmother_care",
+          "mother_person_mention_id": "c-nanshi-033-pei-family:p014:m0009",
+          "clause_anchor": {
+            "paragraph_id": "c-nanshi-033-pei-family:p014",
+            "start": 0,
+            "end": 21,
+            "surface": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。"
+          }
+        }
+      },
+      "interpretation_note": "原文明言祖母，保留兩代距離；本條不判父系或母系、不補中間父母身份或婚姻。"
+    },
+    {
+      "subject_person_id": "hvz_7p7_g9m",
+      "object_person_id": "f3f_bze_579",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p014",
+          "quote": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。殷柔明有文義，以章句授之。年九歲，殷氏亡，泣血哀慟，家人異之。少好學，善屬文，仕齊為江夏王行參軍。遭父憂去職。初，父寢疾彌年，子野禱請備至，涕泗沾濡。父夜夢見其容，旦召視如夢，俄而疾間，以為至孝所感。命著孝感傳，固辭乃止。及居喪，每之墓所，草為之枯。有白兔白鳩馴擾其側。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p014:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p014:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanshi033-ziye-raised-by-grandmother",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "為祖母殷氏所養",
+        "care_basis": "biography_head_birth_mother_dies_grandmother_care",
+        "legal_adoption_status": "not_stated",
+        "source_clause_binding": {
+          "kind": "biography_head_birth_mother_dies_grandmother_care",
+          "mother_person_mention_id": "c-nanshi-033-pei-family:p014:m0009",
+          "clause_anchor": {
+            "paragraph_id": "c-nanshi-033-pei-family:p014",
+            "start": 0,
+            "end": 21,
+            "surface": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。"
+          }
+        }
+      },
+      "interpretation_note": "祖母撫養，與生母魏氏及繼母曹氏分存；養不等於法律收養，不作生母。"
+    }
+  ],
   "related_people": {
-    "f3f_bze_579": "祖母〔裴子野祖母；南史作殷氏〕"
+    "f3f_bze_579": "祖母〔裴子野祖母；南史作殷氏〕",
+    "hvz_7p7_g9m": "裴子野"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "f3f_bze_579"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "subject_person_id": "hvz_7p7_g9m",
+      "object_person_id": "f3f_bze_579",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p014",
+          "quote": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。殷柔明有文義，以章句授之。年九歲，殷氏亡，泣血哀慟，家人異之。少好學，善屬文，仕齊為江夏王行參軍。遭父憂去職。初，父寢疾彌年，子野禱請備至，涕泗沾濡。父夜夢見其容，旦召視如夢，俄而疾間，以為至孝所感。命著孝感傳，固辭乃止。及居喪，每之墓所，草為之枯。有白兔白鳩馴擾其側。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p014:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p014:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanshi033-ziye-grandmother",
+      "predicate": "grandmother",
+      "qualifiers": {
+        "source_term": "祖母",
+        "lineage": "unspecified",
+        "generation_difference": -2,
+        "parent_person_id": null,
+        "relationship_basis": "biography_head_birth_mother_dies_grandmother_care",
+        "source_clause_binding": {
+          "kind": "biography_head_birth_mother_dies_grandmother_care",
+          "mother_person_mention_id": "c-nanshi-033-pei-family:p014:m0009",
+          "clause_anchor": {
+            "paragraph_id": "c-nanshi-033-pei-family:p014",
+            "start": 0,
+            "end": 21,
+            "surface": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。"
+          }
+        }
+      },
+      "interpretation_note": "原文明言祖母，保留兩代距離；本條不判父系或母系、不補中間父母身份或婚姻。"
+    },
+    {
+      "subject_person_id": "hvz_7p7_g9m",
+      "object_person_id": "f3f_bze_579",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-nanshi",
+          "book_id": "b-nanshi-033",
+          "source_id": "s-nanshi033-ws1554233",
+          "chapter_id": "c-nanshi-033-pei-family",
+          "paragraph_id": "c-nanshi-033-pei-family:p014",
+          "quote": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。殷柔明有文義，以章句授之。年九歲，殷氏亡，泣血哀慟，家人異之。少好學，善屬文，仕齊為江夏王行參軍。遭父憂去職。初，父寢疾彌年，子野禱請備至，涕泗沾濡。父夜夢見其容，旦召視如夢，俄而疾間，以為至孝所感。命著孝感傳，固辭乃止。及居喪，每之墓所，草為之枯。有白兔白鳩馴擾其側。",
+          "subject_person_mention_id": "c-nanshi-033-pei-family:p014:m0000",
+          "object_person_mention_id": "c-nanshi-033-pei-family:p014:m0016"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "a-nanshi033-ziye-raised-by-grandmother",
+      "predicate": "raised_by",
+      "qualifiers": {
+        "source_term": "為祖母殷氏所養",
+        "care_basis": "biography_head_birth_mother_dies_grandmother_care",
+        "legal_adoption_status": "not_stated",
+        "source_clause_binding": {
+          "kind": "biography_head_birth_mother_dies_grandmother_care",
+          "mother_person_mention_id": "c-nanshi-033-pei-family:p014:m0009",
+          "clause_anchor": {
+            "paragraph_id": "c-nanshi-033-pei-family:p014",
+            "start": 0,
+            "end": 21,
+            "surface": "子野字幾原，生而母魏氏亡，為祖母殷氏所養。"
+          }
+        }
+      },
+      "interpretation_note": "祖母撫養，與生母魏氏及繼母曹氏分存；養不等於法律收養，不作生母。"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

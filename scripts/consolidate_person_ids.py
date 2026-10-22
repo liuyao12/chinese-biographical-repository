@@ -10,6 +10,7 @@ from pathlib import Path
 from .family_assemblies import load_assemblies
 from .person_bundle import ROOT, load_catalog
 from .person_ids import allocate_descendant_id, family_path_errors
+from .retired_person_ids import retired_person_ids
 from .render_corpus import render
 from .validate_corpus import validate
 
@@ -71,7 +72,7 @@ def plan(root=ROOT):
 
     # An assembled path is already evidenced separately; do not fabricate a
     # direct father assertion merely to give its registry entry a family_path.
-    reserved = set(people) | set(assemblies)
+    reserved = set(people) | set(assemblies) | set(retired_person_ids(root))
     for person in merged:
         path = person.get('family_path')
         if not path or person['id'] not in assemblies:
@@ -96,7 +97,7 @@ def plan(root=ROOT):
             if family_path_errors(person['id'], translated):
                 ancestor = translated.get('ancestor_person_id') or translated.get('parent_person_id')
                 distance = translated.get('generation_distance', 1)
-                target = allocate_descendant_id(ancestor, distance, reserved)
+                target = allocate_descendant_id(ancestor, distance, reserved, root=root)
                 reserved.add(target)
                 mapping[person['id']] = target
                 person['id'] = target
@@ -160,6 +161,11 @@ def stage(root, destination):
     decisions = [d for r in records if r.get('record_type') == 'person_equivalence_set' for d in r['decisions']]
     for directory in ('registry', 'corpus'):
         shutil.copytree(root / directory, destination / directory)
+    # Preserve retirement reservations in the staged validation root.
+    for receipt in (root / 'source-evidence').glob('*/annotation-chain.json'):
+        target = destination / receipt.relative_to(root)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(receipt, target)
     for original in reference_files(root):
         path = destination / original.relative_to(root)
         path.parent.mkdir(parents=True, exist_ok=True)

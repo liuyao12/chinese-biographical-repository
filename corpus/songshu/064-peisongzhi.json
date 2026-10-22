@@ -38,7 +38,40 @@
     "human_reviewed": false,
     "reviewer": "Codex（AI代理）",
     "model": null,
-    "completion_note": "AI完整核讀6段1631字並逐人標記。只採來源身份與引用；親屬、生卒報齡、官爵、地望與日期另存未消費提案。孔悝既有重複候選未決，非新增第三人。"
+    "completion_note": "AI完整核讀6段1631字並逐人標記。只採來源身份與引用；親屬、生卒報齡、官爵、地望與日期另存未消費提案。孔悝既有重複候選未決，非新增第三人。",
+    "age_assertions": [
+      {
+        "id": "age-song064-peisongzhi-death-80",
+        "person_id": "301_026_427",
+        "value": 80,
+        "source_number": "八十",
+        "source_term": "年八十",
+        "source_expression": "時年八十",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "unit": "source_age_years",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-songshu",
+            "book_id": "b-songshu-064",
+            "source_id": "s-song064-ws1748217",
+            "chapter_id": "c-songshu-064-peisongzhi",
+            "paragraph_id": "c-songshu-064-peisongzhi:p006",
+            "quote": "轉中書侍郎、司冀二州大中正。上使注陳壽三國志，松之鳩集傳記，增廣異聞，既成奏上。上善之，曰：「此爲不朽矣！」出爲永嘉太守，勤恤百姓，吏民便之。入補通直爲常侍，復領二州大中正。尋出爲南琅邪太守。十四年致仕，拜中散大夫，尋領國子博士。進太中大夫，博士如故。續何承天國史，未及撰述，二十八年，卒，時年八十。子駰，南中郎參軍。松之所著文論及晉紀，駰注司馬遷史記，並行於世。",
+            "person_mention_id": "c-songshu-064-peisongzhi:p006:m0023"
+          }
+        ],
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-song064-songzhi-death"
+        },
+        "interpretation_note": "時年八十為卒齡；原文未明計歲方式，不倒算生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null
+      }
+    ]
   },
   "paragraphs": [
     {

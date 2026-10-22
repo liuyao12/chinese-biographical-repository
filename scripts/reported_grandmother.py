@@ -1,5 +1,12 @@
 """A literal 祖母 role does not choose the paternal or maternal branch."""
 def reported_grandmother_valid(a,paragraphs):
+ if isinstance(a.get('qualifiers'), dict) and isinstance(a['qualifiers'].get('source_clause_binding'), dict) and a['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
+     try:
+         from scripts.biography_orphan_grandmother_care import valid
+     except ImportError:
+         from biography_orphan_grandmother_care import valid
+     return valid(a, paragraphs)
+
  try:
   q=a['qualifiers'];es=a['evidence']
   if (a['predicate']!='grandmother'or set(q)!={'source_term','lineage','generation_difference','parent_person_id','relationship_basis'}

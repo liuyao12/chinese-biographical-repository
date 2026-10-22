@@ -2,6 +2,13 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if isinstance(assertion.get('qualifiers'), dict) and isinstance(assertion['qualifiers'].get('source_clause_binding'), dict) and assertion['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
+        try:
+            from scripts.biography_orphan_grandmother_care import valid
+        except ImportError:
+            from biography_orphan_grandmother_care import valid
+        return valid(assertion, paragraphs)
+
     if assertion.get("qualifiers", {}).get("succession_kind") == "biography_head_younger_brother_eldest_son_weisi":
         try:
             from scripts.biography_ritual_succession import valid

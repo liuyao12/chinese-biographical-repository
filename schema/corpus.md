@@ -1032,3 +1032,19 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 真後代仍以已有father斷言驗一代ID prefix。所有現行person endpoints遷移後不設永久別名；raw、原字、引文、source/paragraph/mention/record ID保持，歷史標記快照另標audit-only並接續指紋。suffix僅opaque枝碼，不是排行。泛從弟距離未定者不能靠此模式任接支路。
 
 `load_assemblies`舊二元回傳形狀維持，namespace row額外帶namespace_id、namespace_entry_person_id及qualified collateral_root_group。匯出索引選實際entry作標題，不要求namespace有真人物。profile保assembled_identity；`traceFamily`只對新模式附family_namespace兩個真人物入口及推論來源，父祖三代仍按既有明文關係，不因同族分組一概降成推論。未知共父槽不得被load為person。宗祧為嗣另存原關係，不改生父或增養父。
+
+## 傳記序年鏈：固定接收文本與非卒者角色
+
+`biographical_subject_ordinal_chain_death` 可附 `received_text_projection`（相對 `source-evidence/` 路徑、SHA-256、`source_layer` 與 `text_layer` 均為 `received_text`）及 `non_subject_references`。此分支必須由驗證入口傳入實際 repository root；讀取 `sources/` 下非 symlink 的固定 UTF-8 原檔、比對雜湊及實際 `raw[start:end]`，再逐字驗證 projection 的 absolute code-point positions。不能僅以保存片段與相對座標互相自證。章、段、source 及 source_position 若另附衝突層標籤須拒絕。無此新分支的既有 Kanripo 證據鏈保留原介面。
+
+非卒者提及必逐項窮舉並精確綁定錨點；目前只接受兩種窄語法：`quoted_praise_then_return_to_office`（上善之，曰，引語閉合後緊接出爲／出為），及 `author_of_continued_history`（續＋作者人名＋國史，未及撰述，緊接最終序年、逗號、卒）。它不是忽略所有君主、作者或其他人物的通用規則。人物與篇章 ID 不參與准入判斷；原提及仍完整保留。
+
+報齡另存 `age_assertions`，以 `age_context.kind: at_death` 與同人死亡事件 ID 明示卒齡。原詞、數值、未明計歲方式及精確引文分存；不據此推算出生年。
+
+## 傳首失母、祖母撫養的三人句綁定
+
+`source_clause_binding.kind: biography_head_birth_mother_dies_grandmother_care` 只接受段首「某字某，生而母某亡，為祖母某所養。」的完整字面句。綁定包含確切 `clause_anchor` 與母親提及 ID；來源證據另指傳主及祖母的兩端提及。三人必須不同，不能把母親、祖母或養育者互相替代；拒絕引語、否定、外祖母改詞、錯字元位置及古注／附註層。人物、篇章與斷言 ID 不作准入白名單。
+
+`grandmother` 的本句讀法保存 `source_term: 祖母`、`lineage: unspecified`、`generation_difference: -2`、`parent_person_id: null`、`relationship_basis` 同綁定kind。這是來源稱謂，不憑此補中間親代、父系／母系、血緣或婚姻。
+
+`raised_by` 另存 `source_term: 為祖母某所養`、`care_basis` 同綁定kind、`legal_adoption_status: not_stated`。撫養與法律收養、生母、繼母分別保存。此新增分支不更動其他祖母或養育句法模型。
