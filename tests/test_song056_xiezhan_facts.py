@@ -17,7 +17,7 @@ class XiezhanFacts(unittest.TestCase):
  def setUpClass(cls):cls.cat=load_catalog(ROOT)
  def test_scoped_counts(self):self.assertEqual((len(HS),len(N),len(LE),len(AG),len(AD),len(TP)),(23,19,4,3,4,1));self.assertEqual(REVIEW['formal_record_count'],54)
  def test_source_and_ner_exactly_preserved(self):
-  fidelity=J(ROOT/'source-evidence/huan-family-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256']);combined=J(ROOT/'source-evidence/fg-combined-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['after_paragraphs_sha256'],combined['previous_paragraphs_sha256']);self.assertEqual(H(E(P)),combined['final_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
+  fidelity=J(ROOT/'source-evidence/huan-family-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['before_paragraphs_sha256'],REVIEW['source_paragraphs_sha256']);combined=J(ROOT/'source-evidence/fg-combined-rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(fidelity['after_paragraphs_sha256'],combined['previous_paragraphs_sha256']);extension=J(ROOT/'source-evidence/xie-close-family-assembly/rekey-fidelity.json')['chapters'][C['id']];self.assertEqual(extension['before_paragraphs_sha256'],combined['final_paragraphs_sha256']);self.assertEqual(H(E(P)),extension['after_paragraphs_sha256']);self.assertEqual(H(E(C['source'])),REVIEW['source_metadata_sha256']);self.assertEqual(sum(len(p['mentions'])for p in P),98);self.assertEqual(sum(len(p['text'])for p in P),740)
  def test_original_source_annotation_evidence_bound(self):
   b=REVIEW['source_only_annotation'];self.assertEqual(H(E(b)),REVIEW['source_only_annotation_sha256']);self.assertNotIn('age_assertions',b);self.assertNotIn('title_proposals',b);self.assertFalse(b['human_reviewed']);self.assertEqual(len(REVIEW['source_chapter_sha256']),64)
  def test_zhan_two_names_and_courtesy_pairings(self):
@@ -32,7 +32,7 @@ class XiezhanFacts(unittest.TestCase):
   for pid,sur in [(who(1,'劉'),'劉'),(who(3,'郭氏'),'郭')]:
    n=next(n for n in N if n['person_id']==pid);self.assertEqual(n['surname'],sur);self.assertIsNone(n['ming'])
  def test_hongwei_not_fabricated_ming(self):
-  n=next(n for n in N if n['person_id']=='b60_740_5f6_A');self.assertIsNone(n['ming']);self.assertEqual(n['additional_names'],['𢎞微'])
+  n=next(n for n in N if n['person_id']=='aa6_83c_juy_DBAB');self.assertIsNone(n['ming']);self.assertEqual(n['additional_names'],['𢎞微'])
  def test_patron_titles_belong_to_patrons(self):
   self.assertTrue(any(h['title']=='安西'and h['person_id']=='u9s_w6j_8mc_AAE'for h in HS));self.assertTrue(any(h['title']=='鎮軍'and h['person_id']=='3qs_nqa_ioa_AAA'for h in HS));self.assertTrue(any(h['title']=='大司馬'and h['person_id']=='ije_ngm_cmj'for h in HS));self.assertFalse(any(h['person_id']=='aa6_83c_juy_AAAD'and h['title']in ['安西','鎮軍','大司馬']for h in HS))
  def test_princess_title_does_not_add_imperial_father(self):

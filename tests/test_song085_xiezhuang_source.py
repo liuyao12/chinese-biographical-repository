@@ -21,7 +21,7 @@ class XiezhuangSource(unittest.TestCase):
   text=''.join(p['text'] for p in D['paragraphs'])
   for s in ['宏微','王徽','張㪍','張竒','颺','獯檢','已心']:self.assertIn(s,text)
  def test_existing_zhuang_and_hongwei_not_duplicated(self):
-  self.assertEqual(I['謝莊'],'bst_iv3_2wx');self.assertEqual(I['謝弘微'],'b60_740_5f6_A');a=next(a for a in self.rows if a['subject_person_id']==I['謝莊']);self.assertEqual((a['predicate'],a['object_person_id']),('father',I['謝弘微']));self.assertFalse(any(p['label']=='宏微' for p in self.cat[0].values()))
+  self.assertEqual(I['謝莊'],'aa6_83c_juy_DBABA');self.assertEqual(I['謝弘微'],'aa6_83c_juy_DBAB');a=next(a for a in self.rows if a['subject_person_id']==I['謝莊']);self.assertEqual((a['predicate'],a['object_person_id']),('father',I['謝弘微']));self.assertFalse(any(p['label']=='宏微' for p in self.cat[0].values()))
  def test_issued_duji_reused(self):self.assertEqual(I['杜畿'],'56f_8f7_e9f');self.assertIn('56f_8f7_e9f',self.cat[0]);self.assertNotIn('杜畿',IDS['new'])
  def test_eldest_son_explicit_not_id_order(self):
   a=next(a for a in self.rows if a['subject_person_id']==I['謝颺']);self.assertEqual(a['object_person_id'],I['謝莊']);self.assertEqual(a['qualifiers']['birth_order']['ordinal'],1)

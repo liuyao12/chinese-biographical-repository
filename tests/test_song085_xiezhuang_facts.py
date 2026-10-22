@@ -16,13 +16,13 @@ class XiezhuangFacts(unittest.TestCase):
  def test_source_and_ner_not_changed(self):
   units=J(ROOT/'tests/fixtures/song085-xiezhuang/units.json');self.assertEqual([u['text']for u in units],[p['text']for p in CH['paragraphs']]);self.assertEqual(sum(len(p['mentions'])for p in CH['paragraphs']),193)
  def test_names_not_silent_glyph_conversion(self):
-  x=next(n for n in N if n['person_id']=='bst_iv3_2wx');self.assertEqual((x['surname'],x['ming'],x['zi']),('謝','莊','希逸'));self.assertTrue(any(n['surname']=='栁'and n['ming']=='元景'for n in N));self.assertTrue(any(n['ming']=='㪍'for n in N));self.assertFalse(any(n.get('ming')=='君章'for n in N))
+  x=next(n for n in N if n['person_id']=='aa6_83c_juy_DBABA');self.assertEqual((x['surname'],x['ming'],x['zi']),('謝','莊','希逸'));self.assertTrue(any(n['surname']=='栁'and n['ming']=='元景'for n in N));self.assertTrue(any(n['ming']=='㪍'for n in N));self.assertFalse(any(n.get('ming')=='君章'for n in N))
  def test_unknown_surnames_and_source_appellations(self):
   self.assertTrue(all(n['surname']is None for n in N if n.get('title')in ('始興王','隨王','廬陵王','新安王')));self.assertTrue(any(n['additional_names']==['宏微']and n['ming']is None for n in N));self.assertTrue(any(n['additional_names']==['管仲']and n['ming']is None for n in N))
  def test_no_inferred_birth_or_death_closure(self):
-  self.assertTrue(all(a['birth_year']is None for a in A['age_assertions']));self.assertEqual(sorted(a['value']for a in A['age_assertions']),[7,46]);self.assertFalse(any(e['event_type']=='birth'for e in EV));self.assertTrue(all(h['effective_period']['end']['status']=='unknown'for h in H if h['title']!='吏部尚書'));self.assertEqual(next(e for e in EV if e['person_id']=='bst_iv3_2wx')['normalized_date']['year'],466)
+  self.assertTrue(all(a['birth_year']is None for a in A['age_assertions']));self.assertEqual(sorted(a['value']for a in A['age_assertions']),[7,46]);self.assertFalse(any(e['event_type']=='birth'for e in EV));self.assertTrue(all(h['effective_period']['end']['status']=='unknown'for h in H if h['title']!='吏部尚書'));self.assertEqual(next(e for e in EV if e['person_id']=='aa6_83c_juy_DBABA')['normalized_date']['year'],466)
  def test_retrospective_death_not_current_accession_year(self):
-  e=next(e for e in EV if e['person_id']!='bst_iv3_2wx');self.assertIsNone(e['date_expression']);self.assertNotIn('normalized_date',e)
+  e=next(e for e in EV if e['person_id']!='aa6_83c_juy_DBABA');self.assertIsNone(e['date_expression']);self.assertNotIn('normalized_date',e)
  def test_future_and_ancestral_ages_pending(self):
   x=next(x['proposal']for x in P if x['proposal']['kind']=='future_reported_age');self.assertEqual(x['reported_value'],35);self.assertIsNone(x['normalized_year']);self.assertEqual(sum(x['proposal']['kind']=='unnamed_ancestral_age_report'for x in P),3)
  def test_unassumed_only_preceding_two_posts(self):
@@ -30,7 +30,7 @@ class XiezhuangFacts(unittest.TestCase):
  def test_wujun_grant_not_attested_arrival(self):
   x=next(h for h in H if h['title']=='吴郡太守');self.assertEqual(x['mode'],'grant');self.assertNotIn('service_realization',x);self.assertTrue(any(x['proposal']['kind']=='unrealized_reassignment_and_ambiguous_previous_office'for x in P))
  def test_descendant_not_zhuang_posthumous_jinzi(self):
-  self.assertFalse(any(h['person_id']=='bst_iv3_2wx'and h['mode']=='posthumous_grant'and h['title']=='金紫光禄大夫'for h in H));q=next(x for x in P if x['proposal']['kind']=='posthumous_grant_recipient_after_descendant_transition');self.assertEqual(set(q['person_ids']),{'bst_iv3_2wx','bst_iv3_2wx_A'});self.assertIsNone(q['proposal']['normalized_year'])
+  self.assertFalse(any(h['person_id']=='aa6_83c_juy_DBABA'and h['mode']=='posthumous_grant'and h['title']=='金紫光禄大夫'for h in H));q=next(x for x in P if x['proposal']['kind']=='posthumous_grant_recipient_after_descendant_transition');self.assertEqual(set(q['person_ids']),{'aa6_83c_juy_DBABA','aa6_83c_juy_DBABAA'});self.assertIsNone(q['proposal']['normalized_year'])
  def test_quoted_ancient_offices_not_song_appointments(self):
   xs=[h for h in H if h['person_id']in ('zus_do8_z1q','ufz_ayn_ylh')];self.assertTrue(xs);self.assertTrue(all(h['mode']=='attestation'and h['attestations'][0]['usage']=='retrospective'and h['attestations'][0]['date_expression']is None for h in xs));self.assertTrue(any(x['proposal'].get('person_id')=='56f_8f7_e9f'for x in P))
  def test_exact_anchors_and_normalized_dates(self):
@@ -42,13 +42,13 @@ class XiezhuangFacts(unittest.TestCase):
  def test_ten_calendar_expressions_years(self):
   got={(a['paragraph_id'],a['date_expression'],a['normalized_date']['year'])for h in H for a in h['attestations']if 'normalized_date'in a};self.assertIn(('c-songshu-085-xiezhuang:p008','其年',454),got);self.assertIn(('c-songshu-085-xiezhuang:p010','三年',459),got);self.assertIn(('c-songshu-085-xiezhuang:p013','六年',462),got);self.assertEqual(next(h for h in H if h['title']=='吏部尚書'and h['attestations'][0]['date_expression']=='其年')['effective_period']['end']['normalized_date']['year'],456)
  def test_only_current_selection_office_removed(self):
-  xs=[h for h in H if h['effective_period']['end']['status']=='source_event'];self.assertEqual(len(xs),2);self.assertTrue(all(x['person_id']=='bst_iv3_2wx'and x['title']=='吏部尚書'for x in xs));self.assertTrue(all(x['person_id']!=''+J(ROOT/'tests/fixtures/song085-xiezhuang/ids.json')['new']['張竒']for x in xs))
+  xs=[h for h in H if h['effective_period']['end']['status']=='source_event'];self.assertEqual(len(xs),2);self.assertTrue(all(x['person_id']=='aa6_83c_juy_DBABA'and x['title']=='吏部尚書'for x in xs));self.assertTrue(all(x['person_id']!=''+J(ROOT/'tests/fixtures/song085-xiezhuang/ids.json')['new']['張竒']for x in xs))
  def test_pending_double_index(self):
   d=J(ROOT/'data/research/early-medieval-family-pending.json')
   for r in P:
    for pid in r['person_ids']:self.assertIn(r['id'],d['person_index'][pid])
  def test_memory_bundle_contains_facts_no_export(self):
-  b=bundle('bst_iv3_2wx',root=ROOT,catalog=self.cat,include_provisional=True);self.assertTrue(any(h['id'].startswith('th-song085-f13-')for h in b['title_holdings']));self.assertTrue(any(n.get('id','').startswith('name-song085-f13-')for n in b['name_components']));self.assertTrue(any(e['id'].startswith('le-song085-f13-')for e in b['life_events']))
+  b=bundle('aa6_83c_juy_DBABA',root=ROOT,catalog=self.cat,include_provisional=True);self.assertTrue(any(h['id'].startswith('th-song085-f13-')for h in b['title_holdings']));self.assertTrue(any(n.get('id','').startswith('name-song085-f13-')for n in b['name_components']));self.assertTrue(any(e['id'].startswith('le-song085-f13-')for e in b['life_events']))
 class RegnalYuanGuards(unittest.TestCase):
  def test_yuan_same_year_now_valid_legacy_rejected(self):
   d=same();self.assertTrue(relative_regnal_year_valid(d,source_age_number,{CH['id']:CH}));p=ROOT/'tests/fixtures/song085-facts/relative_before.py';spec=importlib.util.spec_from_file_location('legacy_relative',p);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);self.assertFalse(m.relative_regnal_year_valid(d,source_age_number))

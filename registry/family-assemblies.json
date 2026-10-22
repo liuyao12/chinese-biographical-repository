@@ -4517,7 +4517,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。",
+      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。 本批以萬子韶、弘微父思祖韶及曜兄弘微串接萬至宋后近系；思父韶與曜父思僅為可撤回編輯推定，出繼峻與所繼叔父混分角色，不合恩思。",
       "members": [
         {
           "person_id": "aa6_83c_juy",
@@ -5197,6 +5197,150 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "aa6_83c_juy_AAAE",
           "source_assertion_id": "a-song056-xiezhan-006"
+        },
+        {
+          "person_id": "aa6_83c_juy_DB",
+          "representative_source_person_id": "aa6_83c_juy_DB",
+          "source_person_ids": [
+            "aa6_83c_juy_DB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_D",
+          "source_assertion_id": "a-jinshu079-xiewan-facts-wan-shao"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBA",
+          "representative_source_person_id": "aa6_83c_juy_DBA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "aa6_83c_juy_DBAB",
+            "nearer_ancestor_assertion_id": "a-song058-hw-001",
+            "farther_ancestor_assertion_id": "a-song058-hw-002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "弘微同段明父思、祖韶，父系距離恰相差一代；思接韶為編輯推定，沒有新增思父韶原文明載斷言。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-058",
+                "chapter_id": "c-songshu-058-xiehongwei",
+                "source_id": "s-songshu-058-xiehongwei",
+                "paragraph_id": "c-songshu-058-xiehongwei:p001",
+                "quote": "謝𢎞微陳郡陽夏人也祖韶車騎司馬父思武昌太守從叔峻司空琰第二子也無後以𢎞微為嗣𢎞微本名宻犯所繼内諱故以字行",
+                "subject_person_mention_id": "c-songshu-058-xiehongwei:p001:m0000",
+                "object_person_mention_id": "c-songshu-058-xiehongwei:p001:m0016",
+                "assertion_id": "a-song058-hw-001",
+                "scope": "同一弘微傳首完整原段：父思/祖韶明文；思為韶子僅編輯組裝",
+                "url": "https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_058.txt"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-058",
+                "chapter_id": "c-songshu-058-xiehongwei",
+                "source_id": "s-songshu-058-xiehongwei",
+                "paragraph_id": "c-songshu-058-xiehongwei:p001",
+                "quote": "謝𢎞微陳郡陽夏人也祖韶車騎司馬父思武昌太守從叔峻司空琰第二子也無後以𢎞微為嗣𢎞微本名宻犯所繼内諱故以字行",
+                "subject_person_mention_id": "c-songshu-058-xiehongwei:p001:m0000",
+                "object_person_mention_id": "c-songshu-058-xiehongwei:p001:m0010",
+                "assertion_id": "a-song058-hw-002",
+                "scope": "同一弘微傳首完整原段：父思/祖韶明文；思為韶子僅編輯組裝",
+                "url": "https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_058.txt"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_DBAA",
+          "representative_source_person_id": "aa6_83c_juy_DBAA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_DBAB",
+            "sibling_assertion_id": "a-song058-hw-004",
+            "sibling_father_assertion_id": "a-song058-hw-001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "曜為弘微兄，弘微父思；暫定共同父親，沒有補同母、絕對排行或曜父思原文斷言。全庫未見曜的其他明父或異父原詞。",
+            "references": [
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-058",
+                "chapter_id": "c-songshu-058-xiehongwei",
+                "source_id": "s-songshu-058-xiehongwei",
+                "paragraph_id": "c-songshu-058-xiehongwei:p003",
+                "quote": "混風格高俊少所交納唯與族子靈運瞻曜𢎞微並以文義賞會嘗共宴處居在烏衣巷故謂之烏衣之遊混五言詩所云昔為烏衣逰戚戚皆親姪者也其外雖復高流時譽莫敢造門瞻等才辭辯富𢎞微每以約言服之混特所敬貴號曰微子謂瞻等曰汝諸人雖才義豐辯未必皆愜衆心至於領㑹機賞言約理要故當與我共推微子常云阿逺剛躁負氣阿客博而無檢曜恃才而持操不篤晦自知而納善不周設復功濟三才終亦以此為恨至如微子吾無間然又云微子異不傷物同不害正若年迨六十必至公輔嘗因酣宴之餘為韻語以奨勸靈運瞻等曰康樂誕通度實有名家韻若加繩染功剖瑩乃瓊瑾宣明體逺識頴達且沈雋若能去方執穆穆三才順阿多標獨解弱冠纂華𦙍質勝誡無文其尚又能峻通逺懐清悟采采標蘭訊直轡鮮不躓抑用解偏吝微子基微尚無勌由慕藺勿輕一簣少進往将千仞數子勉之哉風流由爾振如不犯所知此外無所慎靈運等並有誡厲之言唯𢎞微獨盡褒美曜𢎞微兄多其小字也逺即瞻字靈運小名客兒",
+                "subject_person_mention_id": "c-songshu-058-xiehongwei:p003:m0016",
+                "object_person_mention_id": "c-songshu-058-xiehongwei:p003:m0017",
+                "assertion_id": "a-song058-hw-004",
+                "scope": "兄曜/曜𢎞微兄與弘微父思；同父為可撤回推定，生母未知",
+                "url": "https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_058.txt"
+              },
+              {
+                "work_id": "w-songshu",
+                "book_id": "b-songshu-058",
+                "chapter_id": "c-songshu-058-xiehongwei",
+                "source_id": "s-songshu-058-xiehongwei",
+                "paragraph_id": "c-songshu-058-xiehongwei:p001",
+                "quote": "謝𢎞微陳郡陽夏人也祖韶車騎司馬父思武昌太守從叔峻司空琰第二子也無後以𢎞微為嗣𢎞微本名宻犯所繼内諱故以字行",
+                "subject_person_mention_id": "c-songshu-058-xiehongwei:p001:m0000",
+                "object_person_mention_id": "c-songshu-058-xiehongwei:p001:m0016",
+                "assertion_id": "a-song058-hw-001",
+                "scope": "兄曜/曜𢎞微兄與弘微父思；同父為可撤回推定，生母未知",
+                "url": "https://github.com/kanripo/KR2a0016/blob/e80c057667e3c8684f11d5088251e10244d5a264/KR2a0016_058.txt"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_DBAB",
+          "representative_source_person_id": "aa6_83c_juy_DBAB",
+          "source_person_ids": [
+            "aa6_83c_juy_DBAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBA",
+          "source_assertion_id": "a-song058-hw-001"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABA",
+          "representative_source_person_id": "aa6_83c_juy_DBABA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBAB",
+          "source_assertion_id": "a-song085-zhuang-001"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAA",
+          "representative_source_person_id": "aa6_83c_juy_DBABAA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABA",
+          "source_assertion_id": "a-song085-zhuang-002"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAAA",
+          "representative_source_person_id": "aa6_83c_juy_DBABAAA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABAA",
+          "source_assertion_id": "a-song085-zhuang-003"
         }
       ]
     },
@@ -8148,39 +8292,6 @@
             "318_d06_496_A"
           ],
           "identity_equivalence_decision_ids": []
-        }
-      ]
-    },
-    {
-      "id": "family-song058-xie-si-hongwei",
-      "status": "contextual_provisional",
-      "human_reviewed": false,
-      "label": "謝思—弘微明文生父近支",
-      "reviewer": "Codex（AI代理）",
-      "root_person_id": "b60_740_5f6",
-      "rationale": "只按弘微父思明文；不把祖韶合成思父，不把峻收養角色改為生父。",
-      "members": [
-        {
-          "person_id": "b60_740_5f6",
-          "representative_source_person_id": "b60_740_5f6",
-          "source_person_ids": [
-            "b60_740_5f6"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": null,
-          "source_assertion_id": null,
-          "connection": null
-        },
-        {
-          "person_id": "b60_740_5f6_A",
-          "representative_source_person_id": "b60_740_5f6_A",
-          "source_person_ids": [
-            "b60_740_5f6_A"
-          ],
-          "identity_equivalence_decision_ids": [],
-          "parent_person_id": "b60_740_5f6",
-          "source_assertion_id": "a-song058-hw-001",
-          "connection": "father"
         }
       ]
     },
