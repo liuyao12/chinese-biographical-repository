@@ -14351,6 +14351,45 @@
   ],
   "relations": [
     {
+      "id": "a-jin035-pei-liang-young-son",
+      "subject_person_id": "dkn_ge4_286_AAAACC",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，楷慮內難未已，求出外鎮，除安南將軍、假節、都督荊州諸軍事，垂當發而瑋果矯詔誅亮、瓘。瑋以楷前奪己中候，又與亮、瓘婚親，密遣討楷。楷素知瑋有望于己，聞有變，單車入城，匿于妻父王渾家，與亮小子一夜八徙，故得免難。瑋既伏誅，以楷為中書令，加侍中，與張華、王戎並管機要。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p006:m0107",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p006:m0106"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "小子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_role_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p006:m0106",
+            "child": "c-jinshu-035-peikai-family:p006:m0107"
+          },
+          "clause_start": 106,
+          "clause_end": 109,
+          "paragraph_sha256": "3048e9eef92184be5e5cf05b0e24454377843139f9be0413dcb865eafe74114e",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-jinshu059-羕-father-亮",
       "subject_person_id": "dkn_ge4_286_AAAACC",
       "predicate": "father",
@@ -14761,6 +14800,45 @@
     "dkn_ge4_286_AAAACC"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-pei-liang-young-son",
+      "subject_person_id": "dkn_ge4_286_AAAACC",
+      "predicate": "father",
+      "object_person_id": "dkn_ge4_286_AAAAC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，楷慮內難未已，求出外鎮，除安南將軍、假節、都督荊州諸軍事，垂當發而瑋果矯詔誅亮、瓘。瑋以楷前奪己中候，又與亮、瓘婚親，密遣討楷。楷素知瑋有望于己，聞有變，單車入城，匿于妻父王渾家，與亮小子一夜八徙，故得免難。瑋既伏誅，以楷為中書令，加侍中，與張華、王戎並管機要。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p006:m0107",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p006:m0106"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "小子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_role_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p006:m0106",
+            "child": "c-jinshu-035-peikai-family:p006:m0107"
+          },
+          "clause_start": 106,
+          "clause_end": 109,
+          "paragraph_sha256": "3048e9eef92184be5e5cf05b0e24454377843139f9be0413dcb865eafe74114e",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-jinshu059-羕-father-亮",
       "subject_person_id": "dkn_ge4_286_AAAACC",

@@ -6,6 +6,7 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
+| `y85_c3n_gfg` | 商鞅 | [《史記・蘇秦列傳》][123] | [JSON](y85_c3n_gfg.json) |
 | `y8f_xr3_osd` | 康〔晉太子左率，子野遠祖〕 | [《晉書・裴楷及附傳近系》][24] | [JSON](y8f_xr3_osd.json) |
 | `y9b_ziu_p6i` | 殷紂 | [《史記・商君列傳》][122] | [JSON](y9b_ziu_p6i.json) |
 | `y9g_4wy_1m9` | 自相太子（魏世家未名者） | [《史記・魏世家》][98] | [JSON](y9g_4wy_1m9.json) |
@@ -316,6 +317,7 @@
 [120]: https://zh.wikisource.org/w/index.php?title=史記/卷066&oldid=2621138
 [121]: https://zh.wikisource.org/w/index.php?title=史記/卷067&oldid=7869003
 [122]: https://zh.wikisource.org/w/index.php?title=史記/卷068&oldid=8764712
+[123]: https://zh.wikisource.org/w/index.php?title=史記/卷069&oldid=2621145
 [124]: https://zh.wikisource.org/w/index.php?title=史記/卷070&oldid=2621148
 [125]: https://zh.wikisource.org/w/index.php?title=史記/卷071&oldid=2621152
 [126]: https://zh.wikisource.org/w/index.php?title=史記/卷072&oldid=367921

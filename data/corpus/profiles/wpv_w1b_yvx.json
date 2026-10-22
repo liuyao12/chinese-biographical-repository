@@ -78,8 +78,92 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin035-pei-zan-wife",
+      "subject_person_id": "99p_632_txb",
+      "predicate": "spouse",
+      "object_person_id": "wpv_w1b_yvx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。駿既執政，乃轉為衛尉，遷太子少師，優遊無事，默如也。及駿誅，楷以婚親收付廷尉，將加法。是日事倉卒，誅戮縱橫，眾人為之震恐。楷容色不變，舉動自若，索紙筆與親故書。賴侍中傅祗救護得免，猶坐去官。太保衛瓘、太宰亮稱楷貞正不阿附，宜蒙爵土，乃封臨海侯，食邑二千戶。代楚王瑋為北軍中候，加散騎常侍。瑋怨瓘、亮斥己任楷，楷聞之，不敢拜，轉為尚書。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p005:m0002",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p005:m0006"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "sons_marriage_to_daughter",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p005:m0000",
+            "son": "c-jinshu-035-peikai-family:p005:m0002",
+            "father": "c-jinshu-035-peikai-family:p005:m0004",
+            "bride": "c-jinshu-035-peikai-family:p005:m0006"
+          },
+          "clause_start": 0,
+          "clause_end": 7,
+          "paragraph_sha256": "bd9bd117626290353abd16306983bd5e8a4786baed995fae96ecbb2dbca50d4e",
+          "revision_id": 2506399
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-zan-wife-father",
+      "subject_person_id": "wpv_w1b_yvx",
+      "predicate": "father",
+      "object_person_id": "603_131_11e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。駿既執政，乃轉為衛尉，遷太子少師，優遊無事，默如也。及駿誅，楷以婚親收付廷尉，將加法。是日事倉卒，誅戮縱橫，眾人為之震恐。楷容色不變，舉動自若，索紙筆與親故書。賴侍中傅祗救護得免，猶坐去官。太保衛瓘、太宰亮稱楷貞正不阿附，宜蒙爵土，乃封臨海侯，食邑二千戶。代楚王瑋為北軍中候，加散騎常侍。瑋怨瓘、亮斥己任楷，楷聞之，不敢拜，轉為尚書。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p005:m0006",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p005:m0004"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "女",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "sons_marriage_to_daughter",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p005:m0000",
+            "son": "c-jinshu-035-peikai-family:p005:m0002",
+            "father": "c-jinshu-035-peikai-family:p005:m0004",
+            "bride": "c-jinshu-035-peikai-family:p005:m0006"
+          },
+          "clause_start": 0,
+          "clause_end": 7,
+          "paragraph_sha256": "bd9bd117626290353abd16306983bd5e8a4786baed995fae96ecbb2dbca50d4e",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "603_131_11e": "楊駿",
+    "99p_632_txb": "瓚〔楷子，字國寶〕",
     "wpv_w1b_yvx": "瓚妻〔楊駿女〕"
   },
   "dates": [],
@@ -87,7 +171,89 @@
   "person_ids": [
     "wpv_w1b_yvx"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin035-pei-zan-wife",
+      "subject_person_id": "99p_632_txb",
+      "predicate": "spouse",
+      "object_person_id": "wpv_w1b_yvx",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。駿既執政，乃轉為衛尉，遷太子少師，優遊無事，默如也。及駿誅，楷以婚親收付廷尉，將加法。是日事倉卒，誅戮縱橫，眾人為之震恐。楷容色不變，舉動自若，索紙筆與親故書。賴侍中傅祗救護得免，猶坐去官。太保衛瓘、太宰亮稱楷貞正不阿附，宜蒙爵土，乃封臨海侯，食邑二千戶。代楚王瑋為北軍中候，加散騎常侍。瑋怨瓘、亮斥己任楷，楷聞之，不敢拜，轉為尚書。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p005:m0002",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p005:m0006"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "娶",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "sons_marriage_to_daughter",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p005:m0000",
+            "son": "c-jinshu-035-peikai-family:p005:m0002",
+            "father": "c-jinshu-035-peikai-family:p005:m0004",
+            "bride": "c-jinshu-035-peikai-family:p005:m0006"
+          },
+          "clause_start": 0,
+          "clause_end": 7,
+          "paragraph_sha256": "bd9bd117626290353abd16306983bd5e8a4786baed995fae96ecbb2dbca50d4e",
+          "revision_id": 2506399
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-zan-wife-father",
+      "subject_person_id": "wpv_w1b_yvx",
+      "predicate": "father",
+      "object_person_id": "603_131_11e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。駿既執政，乃轉為衛尉，遷太子少師，優遊無事，默如也。及駿誅，楷以婚親收付廷尉，將加法。是日事倉卒，誅戮縱橫，眾人為之震恐。楷容色不變，舉動自若，索紙筆與親故書。賴侍中傅祗救護得免，猶坐去官。太保衛瓘、太宰亮稱楷貞正不阿附，宜蒙爵土，乃封臨海侯，食邑二千戶。代楚王瑋為北軍中候，加散騎常侍。瑋怨瓘、亮斥己任楷，楷聞之，不敢拜，轉為尚書。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p005:m0006",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p005:m0004"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "女",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "sons_marriage_to_daughter",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p005:m0000",
+            "son": "c-jinshu-035-peikai-family:p005:m0002",
+            "father": "c-jinshu-035-peikai-family:p005:m0004",
+            "bride": "c-jinshu-035-peikai-family:p005:m0006"
+          },
+          "clause_start": 0,
+          "clause_end": 7,
+          "paragraph_sha256": "bd9bd117626290353abd16306983bd5e8a4786baed995fae96ecbb2dbca50d4e",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

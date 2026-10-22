@@ -1,0 +1,2233 @@
+[
+  {
+    "proposal_id": "preflight-jin035-kai-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kai-father",
+      "subject_key": "pei-kai",
+      "predicate": "father",
+      "object_key": "pei-hui",
+      "qualifiers": {
+        "source_term": "父",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p001",
+          "quote": "楷字叔則。父徽，魏冀州刺史。",
+          "text_start": 0,
+          "text_end": 14,
+          "raw_positions": [
+            6648,
+            6649,
+            6650,
+            6651,
+            6652,
+            6653,
+            6654,
+            6655,
+            6656,
+            6657,
+            6658,
+            6659,
+            6660,
+            6661
+          ],
+          "raw_start": 6648,
+          "raw_end": 6662,
+          "raw_line": 77,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "本來源父徽明確，不等於已與SGZ047同指。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-li-kai-brother",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-li-kai"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-li-kai-brother",
+      "subject_key": "pei-li",
+      "predicate": "brother",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "長兄",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_key": "pei-li",
+          "younger_person_key": "pei-kai"
+        },
+        "absolute_birth_order": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。",
+          "text_start": 0,
+          "text_end": 13,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985
+          ],
+          "raw_start": 8973,
+          "raw_end": 8986,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "長兄/次兄的編號限楷之兄列，未補全體子女排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-kang-kai-brother",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kang-kai"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kang-kai-brother",
+      "subject_key": "pei-kang",
+      "predicate": "brother",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "次兄",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_key": "pei-kang",
+          "younger_person_key": "pei-kai"
+        },
+        "absolute_birth_order": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。",
+          "text_start": 0,
+          "text_end": 13,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985
+          ],
+          "raw_start": 8973,
+          "raw_end": 8986,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "長兄/次兄的編號限楷之兄列，未補全體子女排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-li-kang-order",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-li-kang"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-li-kang-order",
+      "subject_key": "pei-li",
+      "predicate": "relative_birth_order",
+      "object_key": "pei-kang",
+      "qualifiers": {
+        "older_person_key": "pei-li",
+        "younger_person_key": "pei-kang",
+        "source_order_scope": "楷之長兄及次兄",
+        "absolute_ordinals": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。",
+          "text_start": 0,
+          "text_end": 13,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985
+          ],
+          "raw_start": 8973,
+          "raw_end": 8986,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-chuo-kai-brother",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-chuo-kai"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-chuo-kai-brother",
+      "subject_key": "pei-chuo",
+      "predicate": "brother",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "弟",
+        "relative_birth_order": {
+          "older_person_key": "pei-kai",
+          "younger_person_key": "pei-chuo"
+        },
+        "lineage": "paternal",
+        "absolute_birth_order": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p018",
+          "quote": "楷弟綽，字季舒，器宇宏曠，官至黃門侍郎、長水校尉。",
+          "text_start": 0,
+          "text_end": 25,
+          "raw_positions": [
+            9293,
+            9294,
+            9295,
+            9296,
+            9297,
+            9298,
+            9299,
+            9300,
+            9301,
+            9302,
+            9303,
+            9304,
+            9305,
+            9306,
+            9307,
+            9308,
+            9309,
+            9310,
+            9311,
+            9312,
+            9313,
+            9314,
+            9315,
+            9316,
+            9317
+          ],
+          "raw_start": 9293,
+          "raw_end": 9318,
+          "raw_line": 111,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-yan-kai-collateral",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-yan-kai"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-yan-kai-collateral",
+      "subject_key": "pei-yan",
+      "predicate": "agnatic_cousin",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "從兄",
+        "lineage": "paternal",
+        "same_generation": true,
+        "relative_age": "older",
+        "kinship_distance": null,
+        "common_ancestor_person_id": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p004",
+          "quote": "嘗營別宅，其從兄衍見而悅之，即以宅與衍。",
+          "text_start": 44,
+          "text_end": 64,
+          "raw_positions": [
+            7139,
+            7140,
+            7141,
+            7142,
+            7143,
+            7144,
+            7145,
+            7146,
+            7147,
+            7148,
+            7149,
+            7150,
+            7151,
+            7152,
+            7153,
+            7154,
+            7155,
+            7156,
+            7157,
+            7158
+          ],
+          "raw_start": 7139,
+          "raw_end": 7159,
+          "raw_line": 83,
+          "raw_column": 44,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "不解為王衍，不強定第一從兄弟，不造中間父親。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-yu-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-yu-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-yu-father",
+      "subject_key": "pei-yu",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "有五子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p009",
+          "quote": "有五子：輿、瓚、憲、禮、遜。",
+          "text_start": 39,
+          "text_end": 53,
+          "raw_positions": [
+            8128,
+            8129,
+            8130,
+            8131,
+            8132,
+            8133,
+            8134,
+            8135,
+            8136,
+            8137,
+            8138,
+            8139,
+            8140,
+            8141
+          ],
+          "raw_start": 8128,
+          "raw_end": 8142,
+          "raw_line": 93,
+          "raw_column": 39,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "五是人數，不依名單先後填各人排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-zan-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-child-zan"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-zan-father",
+      "subject_key": "pei-zan",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "有五子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p009",
+          "quote": "有五子：輿、瓚、憲、禮、遜。",
+          "text_start": 39,
+          "text_end": 53,
+          "raw_positions": [
+            8128,
+            8129,
+            8130,
+            8131,
+            8132,
+            8133,
+            8134,
+            8135,
+            8136,
+            8137,
+            8138,
+            8139,
+            8140,
+            8141
+          ],
+          "raw_start": 8128,
+          "raw_end": 8142,
+          "raw_line": 93,
+          "raw_column": 39,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "五是人數，不依名單先後填各人排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-xian-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-child-xian"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-xian-father",
+      "subject_key": "pei-xian",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "有五子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p009",
+          "quote": "有五子：輿、瓚、憲、禮、遜。",
+          "text_start": 39,
+          "text_end": 53,
+          "raw_positions": [
+            8128,
+            8129,
+            8130,
+            8131,
+            8132,
+            8133,
+            8134,
+            8135,
+            8136,
+            8137,
+            8138,
+            8139,
+            8140,
+            8141
+          ],
+          "raw_start": 8128,
+          "raw_end": 8142,
+          "raw_line": 93,
+          "raw_column": 39,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "五是人數，不依名單先後填各人排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-li-son-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-child-li"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-li-son-father",
+      "subject_key": "pei-li-son",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "有五子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p009",
+          "quote": "有五子：輿、瓚、憲、禮、遜。",
+          "text_start": 39,
+          "text_end": 53,
+          "raw_positions": [
+            8128,
+            8129,
+            8130,
+            8131,
+            8132,
+            8133,
+            8134,
+            8135,
+            8136,
+            8137,
+            8138,
+            8139,
+            8140,
+            8141
+          ],
+          "raw_start": 8128,
+          "raw_end": 8142,
+          "raw_line": 93,
+          "raw_column": 39,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "五是人數，不依名單先後填各人排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-xun-son-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-child-xun"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-xun-son-father",
+      "subject_key": "pei-xun-son",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "有五子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p009",
+          "quote": "有五子：輿、瓚、憲、禮、遜。",
+          "text_start": 39,
+          "text_end": 53,
+          "raw_positions": [
+            8128,
+            8129,
+            8130,
+            8131,
+            8132,
+            8133,
+            8134,
+            8135,
+            8136,
+            8137,
+            8138,
+            8139,
+            8140,
+            8141
+          ],
+          "raw_start": 8128,
+          "raw_end": 8142,
+          "raw_line": 93,
+          "raw_column": 39,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "五是人數，不依名單先後填各人排行。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-yu-first-son",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-yu-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-yu-first-son",
+      "subject_key": "pei-yu",
+      "predicate": "birth_order",
+      "object_key": null,
+      "qualifiers": {
+        "source_term": "長子",
+        "order": 1,
+        "order_scope": "裴楷之子"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子",
+          "text_start": 0,
+          "text_end": 14,
+          "raw_positions": [
+            7598,
+            7599,
+            7600,
+            7601,
+            7602,
+            7603,
+            7604,
+            7605,
+            7606,
+            7607,
+            7608,
+            7609,
+            7610,
+            7611
+          ],
+          "raw_start": 7598,
+          "raw_end": 7612,
+          "raw_line": 87,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "此處另有明示長子，可給輿數字1；不據五子表給瓚2等。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-yi-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-xian-child-yi"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-yi-father",
+      "subject_key": "pei-yi",
+      "predicate": "father",
+      "object_key": "pei-xian",
+      "qualifiers": {
+        "source_term": "有二子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p014",
+          "quote": "憲有二子：挹、㲄，並以文才知名。",
+          "text_start": 11,
+          "text_end": 27,
+          "raw_positions": [
+            8780,
+            8781,
+            8782,
+            8783,
+            8784,
+            8785,
+            8786,
+            8787,
+            8788,
+            8789,
+            8790,
+            8791,
+            8792,
+            8793,
+            8794,
+            8795
+          ],
+          "raw_start": 8780,
+          "raw_end": 8796,
+          "raw_line": 103,
+          "raw_column": 11,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "不按列名給排行；㲄保U+3C84原字。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-ku-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-xian-child-ku"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-ku-father",
+      "subject_key": "pei-ku",
+      "predicate": "father",
+      "object_key": "pei-xian",
+      "qualifiers": {
+        "source_term": "有二子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p014",
+          "quote": "憲有二子：挹、㲄，並以文才知名。",
+          "text_start": 11,
+          "text_end": 27,
+          "raw_positions": [
+            8780,
+            8781,
+            8782,
+            8783,
+            8784,
+            8785,
+            8786,
+            8787,
+            8788,
+            8789,
+            8790,
+            8791,
+            8792,
+            8793,
+            8794,
+            8795
+          ],
+          "raw_start": 8780,
+          "raw_end": 8796,
+          "raw_line": 103,
+          "raw_column": 11,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "不按列名給排行；㲄保U+3C84原字。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-mai-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-mai-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-mai-father",
+      "subject_key": "pei-mai",
+      "predicate": "father",
+      "object_key": "pei-zhi",
+      "qualifiers": {
+        "source_term": "峙子邁",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p015",
+          "quote": "竟卒于石氏，以族人峙子邁為嗣。",
+          "text_start": 35,
+          "text_end": 50,
+          "raw_positions": [
+            8956,
+            8957,
+            8958,
+            8959,
+            8960,
+            8961,
+            8962,
+            8963,
+            8964,
+            8965,
+            8966,
+            8967,
+            8968,
+            8969,
+            8970
+          ],
+          "raw_start": 8956,
+          "raw_end": 8971,
+          "raw_line": 105,
+          "raw_column": 35,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-mai-successor",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-mai-successor"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-mai-successor",
+      "subject_key": "pei-mai",
+      "predicate": "ritual_successor_of",
+      "object_key": "pei-xian",
+      "qualifiers": {
+        "source_term": "為嗣",
+        "biological_parentage_inferred": false,
+        "legal_adoption_inferred": false
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p015",
+          "quote": "竟卒于石氏，以族人峙子邁為嗣。",
+          "text_start": 35,
+          "text_end": 50,
+          "raw_positions": [
+            8956,
+            8957,
+            8958,
+            8959,
+            8960,
+            8961,
+            8962,
+            8963,
+            8964,
+            8965,
+            8966,
+            8967,
+            8968,
+            8969,
+            8970
+          ],
+          "raw_start": 8956,
+          "raw_end": 8971,
+          "raw_line": 105,
+          "raw_column": 35,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "父峙與憲嗣兩事同存，不能以嗣替換生父或斷實施現代法律收養。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-zhi-xian-clan",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-zhi-xian-clan"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-zhi-xian-clan",
+      "subject_key": "pei-zhi",
+      "predicate": "kinship_unspecified",
+      "object_key": "pei-xian",
+      "qualifiers": {
+        "source_term": "族人",
+        "lineage": "paternal",
+        "generation_difference": null,
+        "kinship_distance": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p015",
+          "quote": "竟卒于石氏，以族人峙子邁為嗣。",
+          "text_start": 35,
+          "text_end": 50,
+          "raw_positions": [
+            8956,
+            8957,
+            8958,
+            8959,
+            8960,
+            8961,
+            8962,
+            8963,
+            8964,
+            8965,
+            8966,
+            8967,
+            8968,
+            8969,
+            8970
+          ],
+          "raw_start": 8956,
+          "raw_end": 8971,
+          "raw_line": 105,
+          "raw_column": 35,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "族人不強接近親樹。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dun-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dun-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dun-father",
+      "subject_key": "pei-dun",
+      "predicate": "father",
+      "object_key": "pei-kang",
+      "qualifiers": {
+        "source_term": "康子盾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。康子盾，少曆顯位。",
+          "text_start": 0,
+          "text_end": 22,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985,
+            8986,
+            8987,
+            8988,
+            8989,
+            8990,
+            8991,
+            8992,
+            8993,
+            8994
+          ],
+          "raw_start": 8973,
+          "raw_end": 8995,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-shao-dun-brother",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-shao-dun"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-shao-dun-brother",
+      "subject_key": "pei-shao",
+      "predicate": "brother",
+      "object_key": "pei-dun",
+      "qualifiers": {
+        "source_term": "弟",
+        "lineage": "paternal",
+        "relative_birth_order": {
+          "older_person_key": "pei-dun",
+          "younger_person_key": "pei-shao"
+        },
+        "absolute_birth_order": null
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p017",
+          "quote": "盾弟邵，字道期。",
+          "text_start": 0,
+          "text_end": 8,
+          "raw_positions": [
+            9155,
+            9156,
+            9157,
+            9158,
+            9159,
+            9160,
+            9161,
+            9162
+          ],
+          "raw_start": 9155,
+          "raw_end": 9163,
+          "raw_line": 109,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-xia-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-xia-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-xia-father",
+      "subject_key": "pei-xia",
+      "predicate": "father",
+      "object_key": "pei-chuo",
+      "qualifiers": {
+        "source_term": "綽子遐",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p018",
+          "quote": "綽子遐，善言玄理，音辭清暢，泠然若琴瑟。",
+          "text_start": 25,
+          "text_end": 45,
+          "raw_positions": [
+            9318,
+            9319,
+            9320,
+            9321,
+            9322,
+            9323,
+            9324,
+            9325,
+            9326,
+            9327,
+            9328,
+            9329,
+            9330,
+            9331,
+            9332,
+            9333,
+            9334,
+            9335,
+            9336,
+            9337
+          ],
+          "raw_start": 9318,
+          "raw_end": 9338,
+          "raw_line": 111,
+          "raw_column": 25,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-zan-wife",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-zan-wife"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-zan-wife",
+      "subject_key": "pei-zan",
+      "predicate": "spouse",
+      "object_key": "zan-wife",
+      "qualifiers": {
+        "source_term": "娶"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。",
+          "text_start": 0,
+          "text_end": 19,
+          "raw_positions": [
+            7410,
+            7411,
+            7412,
+            7413,
+            7414,
+            7415,
+            7416,
+            7417,
+            7418,
+            7419,
+            7420,
+            7421,
+            7422,
+            7423,
+            7424,
+            7425,
+            7426,
+            7427,
+            7428
+          ],
+          "raw_start": 7410,
+          "raw_end": 7429,
+          "raw_line": 85,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "楊駿女為瓚妻，不是楷妻。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-zan-wife-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-zan-wife-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-zan-wife-father",
+      "subject_key": "zan-wife",
+      "predicate": "father",
+      "object_key": "yang-jun",
+      "qualifiers": {
+        "source_term": "楊駿女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p005",
+          "quote": "楷子瓚娶楊駿女，然楷素輕駿，與之不平。",
+          "text_start": 0,
+          "text_end": 19,
+          "raw_positions": [
+            7410,
+            7411,
+            7412,
+            7413,
+            7414,
+            7415,
+            7416,
+            7417,
+            7418,
+            7419,
+            7420,
+            7421,
+            7422,
+            7423,
+            7424,
+            7425,
+            7426,
+            7427,
+            7428
+          ],
+          "raw_start": 7410,
+          "raw_end": 7429,
+          "raw_line": 85,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-yu-wife",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-yu-wife"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-yu-wife",
+      "subject_key": "pei-yu",
+      "predicate": "spouse",
+      "object_key": "yu-wife",
+      "qualifiers": {
+        "source_term": "娶"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，",
+          "text_start": 0,
+          "text_end": 15,
+          "raw_positions": [
+            7598,
+            7599,
+            7600,
+            7601,
+            7602,
+            7603,
+            7604,
+            7605,
+            7606,
+            7607,
+            7608,
+            7609,
+            7610,
+            7611,
+            7612
+          ],
+          "raw_start": 7598,
+          "raw_end": 7613,
+          "raw_line": 87,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-yu-wife-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-yu-wife-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-yu-wife-father",
+      "subject_key": "yu-wife",
+      "predicate": "father",
+      "object_key": "sima-liang",
+      "qualifiers": {
+        "source_term": "亮女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，",
+          "text_start": 0,
+          "text_end": 15,
+          "raw_positions": [
+            7598,
+            7599,
+            7600,
+            7601,
+            7602,
+            7603,
+            7604,
+            7605,
+            7606,
+            7607,
+            7608,
+            7609,
+            7610,
+            7611,
+            7612
+          ],
+          "raw_start": 7598,
+          "raw_end": 7613,
+          "raw_line": 87,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-kai-daughter-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-daughter-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kai-daughter-father",
+      "subject_key": "kai-daughter",
+      "predicate": "father",
+      "object_key": "pei-kai",
+      "qualifiers": {
+        "source_term": "女適",
+        "lineage": "paternal",
+        "subject_scope": "整段楷之家屬並列"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，",
+          "text_start": 0,
+          "text_end": 15,
+          "raw_positions": [
+            7598,
+            7599,
+            7600,
+            7601,
+            7602,
+            7603,
+            7604,
+            7605,
+            7606,
+            7607,
+            7608,
+            7609,
+            7610,
+            7611,
+            7612
+          ],
+          "raw_start": 7598,
+          "raw_end": 7613,
+          "raw_line": 87,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "女承傳主楷，不能近名綁為輿女。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-kai-daughter-spouse",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-daughter-spouse"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kai-daughter-spouse",
+      "subject_key": "kai-daughter",
+      "predicate": "spouse",
+      "object_key": "wei-son",
+      "qualifiers": {
+        "source_term": "適"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷長子輿先娶亮女，女適衛瓘子，",
+          "text_start": 0,
+          "text_end": 15,
+          "raw_positions": [
+            7598,
+            7599,
+            7600,
+            7601,
+            7602,
+            7603,
+            7604,
+            7605,
+            7606,
+            7607,
+            7608,
+            7609,
+            7610,
+            7611,
+            7612
+          ],
+          "raw_start": 7598,
+          "raw_end": 7613,
+          "raw_line": 87,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-wei-son-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-wei-son-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-wei-son-father",
+      "subject_key": "wei-son",
+      "predicate": "father",
+      "object_key": "wei-guan",
+      "qualifiers": {
+        "source_term": "衛瓘子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "女適衛瓘子，",
+          "text_start": 9,
+          "text_end": 15,
+          "raw_positions": [
+            7607,
+            7608,
+            7609,
+            7610,
+            7611,
+            7612
+          ],
+          "raw_start": 7607,
+          "raw_end": 7613,
+          "raw_line": 87,
+          "raw_column": 9,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "不補衛恆或衛玠。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-kai-wife",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-wife"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kai-wife",
+      "subject_key": "pei-kai",
+      "predicate": "spouse",
+      "object_key": "kai-wife",
+      "qualifiers": {
+        "source_term": "妻父"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷素知瑋有望于己，聞有變，單車入城，匿于妻父王渾家，與亮小子一夜八徙，故得免難。",
+          "text_start": 79,
+          "text_end": 119,
+          "raw_positions": [
+            7677,
+            7678,
+            7679,
+            7680,
+            7681,
+            7682,
+            7683,
+            7684,
+            7685,
+            7686,
+            7687,
+            7688,
+            7689,
+            7690,
+            7691,
+            7692,
+            7693,
+            7694,
+            7695,
+            7696,
+            7697,
+            7698,
+            7699,
+            7700,
+            7701,
+            7702,
+            7703,
+            7704,
+            7705,
+            7706,
+            7707,
+            7708,
+            7709,
+            7710,
+            7711,
+            7712,
+            7713,
+            7714,
+            7715,
+            7716
+          ],
+          "raw_start": 7677,
+          "raw_end": 7717,
+          "raw_line": 87,
+          "raw_column": 79,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-kai-wife-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-kai-wife-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-kai-wife-father",
+      "subject_key": "kai-wife",
+      "predicate": "father",
+      "object_key": "wang-hun",
+      "qualifiers": {
+        "source_term": "妻父王渾",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "楷素知瑋有望于己，聞有變，單車入城，匿于妻父王渾家，與亮小子一夜八徙，故得免難。",
+          "text_start": 79,
+          "text_end": 119,
+          "raw_positions": [
+            7677,
+            7678,
+            7679,
+            7680,
+            7681,
+            7682,
+            7683,
+            7684,
+            7685,
+            7686,
+            7687,
+            7688,
+            7689,
+            7690,
+            7691,
+            7692,
+            7693,
+            7694,
+            7695,
+            7696,
+            7697,
+            7698,
+            7699,
+            7700,
+            7701,
+            7702,
+            7703,
+            7704,
+            7705,
+            7706,
+            7707,
+            7708,
+            7709,
+            7710,
+            7711,
+            7712,
+            7713,
+            7714,
+            7715,
+            7716
+          ],
+          "raw_start": 7677,
+          "raw_end": 7717,
+          "raw_line": 87,
+          "raw_column": 79,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "王渾canonical待精確婚橋，源內妻父角色明。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-liang-young-son-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-liang-young-son"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-liang-young-son-father",
+      "subject_key": "liang-young-son",
+      "predicate": "father",
+      "object_key": "sima-liang",
+      "qualifiers": {
+        "source_term": "亮小子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p006",
+          "quote": "與亮小子一夜八徙，故得免難。",
+          "text_start": 105,
+          "text_end": 119,
+          "raw_positions": [
+            7703,
+            7704,
+            7705,
+            7706,
+            7707,
+            7708,
+            7709,
+            7710,
+            7711,
+            7712,
+            7713,
+            7714,
+            7715,
+            7716
+          ],
+          "raw_start": 7703,
+          "raw_end": 7717,
+          "raw_line": 87,
+          "raw_column": 105,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "與059羕同事件交證；小子不表示末子。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-sui-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-sui-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-sui-father",
+      "subject_key": "wang-sui-rong-son",
+      "predicate": "father",
+      "object_key": "wang-rong",
+      "qualifiers": {
+        "source_term": "綏父戎",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p011",
+          "quote": "特為王綏所重，每從其遊。綏父戎謂之曰：「國寶初不來，汝數往，何也？」",
+          "text_start": 20,
+          "text_end": 54,
+          "raw_positions": [
+            8188,
+            8189,
+            8190,
+            8191,
+            8192,
+            8193,
+            8194,
+            8195,
+            8196,
+            8197,
+            8198,
+            8199,
+            8200,
+            8201,
+            8202,
+            8203,
+            8204,
+            8205,
+            8206,
+            8207,
+            8208,
+            8209,
+            8210,
+            8211,
+            8212,
+            8213,
+            8214,
+            8215,
+            8216,
+            8217,
+            8218,
+            8219,
+            8220,
+            8221
+          ],
+          "raw_start": 8188,
+          "raw_end": 8222,
+          "raw_line": 97,
+          "raw_column": 20,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "此為反對復用現父愉王綏的核心明文。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dun-sister",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dun-sister"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dun-sister",
+      "subject_key": "dun-sister",
+      "predicate": "sister",
+      "object_key": "pei-dun",
+      "qualifiers": {
+        "source_term": "妹夫",
+        "relative_birth_order": {
+          "older_person_key": "pei-dun",
+          "younger_person_key": "dun-sister"
+        }
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "東海王越，盾妹夫也。",
+          "text_start": 75,
+          "text_end": 85,
+          "raw_positions": [
+            9048,
+            9049,
+            9050,
+            9051,
+            9052,
+            9053,
+            9054,
+            9055,
+            9056,
+            9057
+          ],
+          "raw_start": 9048,
+          "raw_end": 9058,
+          "raw_line": 107,
+          "raw_column": 75,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "妹之存在及婚姻角色，不推生母。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dun-sister-spouse",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dun-sister-spouse"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dun-sister-spouse",
+      "subject_key": "dun-sister",
+      "predicate": "spouse",
+      "object_key": "sima-yue",
+      "qualifiers": {
+        "source_term": "妹夫"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "東海王越，盾妹夫也。",
+          "text_start": 75,
+          "text_end": 85,
+          "raw_positions": [
+            9048,
+            9049,
+            9050,
+            9051,
+            9052,
+            9053,
+            9054,
+            9055,
+            9056,
+            9057
+          ],
+          "raw_start": 9048,
+          "raw_end": 9058,
+          "raw_line": 107,
+          "raw_column": 75,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dun-daughter-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dun-daughter-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dun-daughter-father",
+      "subject_key": "dun-daughter",
+      "predicate": "father",
+      "object_key": "pei-dun",
+      "qualifiers": {
+        "source_term": "盾女",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "固妻盾女，有寵，盾向女涕泣，固遂殺之。",
+          "text_start": 161,
+          "text_end": 180,
+          "raw_positions": [
+            9134,
+            9135,
+            9136,
+            9137,
+            9138,
+            9139,
+            9140,
+            9141,
+            9142,
+            9143,
+            9144,
+            9145,
+            9146,
+            9147,
+            9148,
+            9149,
+            9150,
+            9151,
+            9152
+          ],
+          "raw_start": 9134,
+          "raw_end": 9153,
+          "raw_line": 107,
+          "raw_column": 161,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dun-daughter-spouse",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dun-daughter-spouse"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dun-daughter-spouse",
+      "subject_key": "dun-daughter",
+      "predicate": "spouse",
+      "object_key": "zhao-gu",
+      "qualifiers": {
+        "source_term": "妻",
+        "usage": "verb"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "固妻盾女，有寵，盾向女涕泣，固遂殺之。",
+          "text_start": 161,
+          "text_end": 180,
+          "raw_positions": [
+            9134,
+            9135,
+            9136,
+            9137,
+            9138,
+            9139,
+            9140,
+            9141,
+            9142,
+            9143,
+            9144,
+            9145,
+            9146,
+            9147,
+            9148,
+            9149,
+            9150,
+            9151,
+            9152
+          ],
+          "raw_start": 9134,
+          "raw_end": 9153,
+          "raw_line": 107,
+          "raw_column": 161,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "固妻盾女：固娶/納盾之女，不是盾的妻子。末之指盾受殺。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-dao-son-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-dao-son-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-dao-son-father",
+      "subject_key": "wang-dao-son",
+      "predicate": "father",
+      "object_key": "wang-dao",
+      "qualifiers": {
+        "source_term": "導子",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p017",
+          "quote": "導子仲豫與康同字，導思舊好，乃改為敬豫焉。",
+          "text_start": 115,
+          "text_end": 136,
+          "raw_positions": [
+            9270,
+            9271,
+            9272,
+            9273,
+            9274,
+            9275,
+            9276,
+            9277,
+            9278,
+            9279,
+            9280,
+            9281,
+            9282,
+            9283,
+            9284,
+            9285,
+            9286,
+            9287,
+            9288,
+            9289,
+            9290
+          ],
+          "raw_start": 9270,
+          "raw_end": 9291,
+          "raw_line": 109,
+          "raw_column": 115,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "035只字名；可對065恬字敬豫及導子關係再核同人。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-shao-father-inferred",
+    "status": "editorial_inference_not_source_father",
+    "assertion_ids": [],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-shao-father-inferred",
+      "subject_key": "pei-shao",
+      "predicate": "assembly_parent_candidate",
+      "object_key": "pei-kang",
+      "qualifiers": {
+        "connection_kind": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "biological_mother_inferred": false
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p017",
+          "quote": "盾弟邵，字道期。",
+          "text_start": 0,
+          "text_end": 8,
+          "raw_positions": [
+            9155,
+            9156,
+            9157,
+            9158,
+            9159,
+            9160,
+            9161,
+            9162
+          ],
+          "raw_start": 9155,
+          "raw_end": 9163,
+          "raw_line": 109,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        },
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "康子盾",
+          "text_start": 13,
+          "text_end": 16,
+          "raw_positions": [
+            8986,
+            8987,
+            8988
+          ],
+          "raw_start": 8986,
+          "raw_end": 8989,
+          "raw_line": 107,
+          "raw_column": 13,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "editorial_inference",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "只能獨立保推導資格，不能造直接父子source assertion；兄弟兩端仍保原文。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-li-father-inferred",
+    "status": "editorial_inference_not_source_father",
+    "assertion_ids": [],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-li-father-inferred",
+      "subject_key": "pei-li",
+      "predicate": "assembly_parent_candidate",
+      "object_key": "pei-hui",
+      "qualifiers": {
+        "connection_kind": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "biological_mother_inferred": false
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。",
+          "text_start": 0,
+          "text_end": 13,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985
+          ],
+          "raw_start": 8973,
+          "raw_end": 8986,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        },
+        {
+          "paragraph_id": "preflight-jin035-peikai:p001",
+          "quote": "父徽",
+          "text_start": 5,
+          "text_end": 7,
+          "raw_positions": [
+            6653,
+            6654
+          ],
+          "raw_start": 6653,
+          "raw_end": 6655,
+          "raw_line": 77,
+          "raw_column": 5,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "editorial_inference",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "只能獨立保推導資格，不能造直接父子source assertion；兄弟兩端仍保原文。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-kang-father-inferred",
+    "status": "editorial_inference_not_source_father",
+    "assertion_ids": [],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-kang-father-inferred",
+      "subject_key": "pei-kang",
+      "predicate": "assembly_parent_candidate",
+      "object_key": "pei-hui",
+      "qualifiers": {
+        "connection_kind": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "biological_mother_inferred": false
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p016",
+          "quote": "楷長兄黎，次兄康，並知名。",
+          "text_start": 0,
+          "text_end": 13,
+          "raw_positions": [
+            8973,
+            8974,
+            8975,
+            8976,
+            8977,
+            8978,
+            8979,
+            8980,
+            8981,
+            8982,
+            8983,
+            8984,
+            8985
+          ],
+          "raw_start": 8973,
+          "raw_end": 8986,
+          "raw_line": 107,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        },
+        {
+          "paragraph_id": "preflight-jin035-peikai:p001",
+          "quote": "父徽",
+          "text_start": 5,
+          "text_end": 7,
+          "raw_positions": [
+            6653,
+            6654
+          ],
+          "raw_start": 6653,
+          "raw_end": 6655,
+          "raw_line": 77,
+          "raw_column": 5,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "editorial_inference",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "只能獨立保推導資格，不能造直接父子source assertion；兄弟兩端仍保原文。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pei-chuo-father-inferred",
+    "status": "editorial_inference_not_source_father",
+    "assertion_ids": [],
+    "original_proposal": {
+      "id": "preflight-jin035-pei-chuo-father-inferred",
+      "subject_key": "pei-chuo",
+      "predicate": "assembly_parent_candidate",
+      "object_key": "pei-hui",
+      "qualifiers": {
+        "connection_kind": "shared_father_through_sibling",
+        "status": "contextual_provisional",
+        "biological_mother_inferred": false
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p018",
+          "quote": "楷弟綽，字季舒",
+          "text_start": 0,
+          "text_end": 7,
+          "raw_positions": [
+            9293,
+            9294,
+            9295,
+            9296,
+            9297,
+            9298,
+            9299
+          ],
+          "raw_start": 9293,
+          "raw_end": 9300,
+          "raw_line": 111,
+          "raw_column": 0,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        },
+        {
+          "paragraph_id": "preflight-jin035-peikai:p001",
+          "quote": "父徽",
+          "text_start": 5,
+          "text_end": 7,
+          "raw_positions": [
+            6653,
+            6654
+          ],
+          "raw_start": 6653,
+          "raw_end": 6655,
+          "raw_line": 77,
+          "raw_column": 5,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "editorial_inference",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "只能獨立保推導資格，不能造直接父子source assertion；兄弟兩端仍保原文。",
+      "human_reviewed": false
+    }
+  },
+  {
+    "proposal_id": "preflight-jin035-pi-father",
+    "status": "materialized_by_native_plan",
+    "assertion_ids": [
+      "a-jin035-pei-pi-father"
+    ],
+    "original_proposal": {
+      "id": "preflight-jin035-pi-father",
+      "subject_key": "yue-son-pi",
+      "predicate": "father",
+      "object_key": "sima-yue",
+      "qualifiers": {
+        "source_term": "越子毗",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "paragraph_id": "preflight-jin035-peikai:p018",
+          "quote": "後為越子毗所害。",
+          "text_start": 129,
+          "text_end": 137,
+          "raw_positions": [
+            9422,
+            9423,
+            9424,
+            9425,
+            9426,
+            9427,
+            9428,
+            9429
+          ],
+          "raw_start": 9422,
+          "raw_end": 9430,
+          "raw_line": 111,
+          "raw_column": 129,
+          "source_sha256": "b27aa9fc386b5f40990822d615febffcb8b8cd6df3fe6f74585274ff733c12be"
+        }
+      ],
+      "source_layer": "received_text_candidate",
+      "status": "proposal_not_materialized",
+      "interpretation_note": "毗主體來源內明確，尚未配置新ID；不能以本句造未載生母。",
+      "human_reviewed": false
+    }
+  }
+]
