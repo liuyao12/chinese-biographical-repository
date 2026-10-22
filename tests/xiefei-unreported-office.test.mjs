@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import {personCard} from '../assets/cbr-person.js';
+const c=JSON.parse(fs.readFileSync(new URL('../corpus/liangshu/015-xiefei.json',import.meta.url)));
+test('service unreported is visible as an appointment arrangement, not an actual title',()=>{let q=c.annotation.title_proposals.filter(q=>q.proposal_kind==='appointment_service_unreported');let h=personCard({id:q[0].person_id,label:'謝朏',titles:[],title_proposals:q},true);assert.match(h,/任用原文/);assert.match(h,/都官尚書/);assert.match(h,/實行情況未載/);assert.doesNotMatch(h,/<div class="person-title">/);});
+test('refused and pending offices remain distinct',()=>{const q=c.annotation.title_proposals.filter(q=>q.proposal_kind==='unassumed_appointment');const h=personCard({id:q[0].person_id,label:'謝朏',titles:[],title_proposals:q},true);assert.doesNotMatch(h,/任用原文/);assert.match(h,/未赴|未任|未受/);});

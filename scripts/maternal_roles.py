@@ -2,6 +2,13 @@
 
 
 def maternal_role_valid(assertion, paragraphs):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('continued_biography_'):
+        try:
+            from scripts.continued_biography_family import valid as continued_valid
+        except ImportError:
+            from continued_biography_family import valid as continued_valid
+        return continued_valid(assertion, paragraphs)
+
     # Position-bound close-family clauses; retain all older grammar contracts.
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('rule', '').startswith('close_family_'):
         try:

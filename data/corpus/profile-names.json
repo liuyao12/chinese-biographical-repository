@@ -9225,7 +9225,7 @@
       "id": "name-song085-f13-027",
       "person_id": "aa6_83c_juy_DBABAA",
       "title": "晉平太守",
-      "surname": null,
+      "surname": "謝",
       "ming": "颺",
       "additional_names": [],
       "chapter_id": "c-songshu-085-xiezhuang",
@@ -9238,10 +9238,24 @@
         "end": 100,
         "surface": "颺"
       },
-      "note": "本句王號/父子語境明見名字，但未明冠姓，surname留null；不由王朝或父姓慣例補姓，不把王號作名。",
-      "status": "editorial_provisional",
+      "note": "本句只明名颺；謝姓依同傳明姓謝莊與莊長子颺之完整父子語境作編輯推定，不稱原句明載謝颺，不按familyID補姓。",
+      "status": "contextual_provisional",
       "human_reviewed": false,
-      "model": null
+      "model": null,
+      "surname_basis": {
+        "kind": "contextual_surname_from_explicit_father",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同傳首明謝莊字希逸，末明莊長子颺；源內確定父子關係支持沿父謝姓，仍分別保存省姓原稱與編輯推定。",
+        "father_person_id": "aa6_83c_juy_DBABA",
+        "father_name_record_id": "name-song085-f13-001",
+        "father_assertion_id": "a-song085-zhuang-002",
+        "father_full_mention_id": "c-songshu-085-xiezhuang:p001:m0000",
+        "father_context_mention_id": "c-songshu-085-xiezhuang:p015:m0010",
+        "source_term": "長子颺",
+        "father_full_quote": "謝莊字希逸陳郡陽夏人太常宏微子也年七嵗能屬文通論語及長韶令羙容儀太祖見而異之謂尚書僕射殷景仁領軍將軍劉湛曰藍田出玉豈虚也哉初為始興王濬後軍法曹行參軍轉太子舍人廬陵王文學太子洗馬中舍人廬陵王紹南中郎諮議參軍又轉隨王誕後軍諮議並領記室分左氏經傳隨國立篇製木方丈圖山川土地各有分理離之則州别郡殊合之則㝢内為一元嘉二十七年索虜宼彭城虜遣尚書李孝伯來使與鎮軍長史張暢共語孝伯訪問莊及王徽其名聲逺布如此",
+        "child_context_quote": "太宗定亂得出及即位以莊爲散騎常侍光禄大夫加金章紫綬領尋陽王師頃之轉中書令常侍王師如故尋加金紫光禄大夫給親信二十人本官並如故泰始二年卒時年四十六追贈右光禄大夫常侍如故諡曰憲子所著文章四百餘首行於世長子颺晉平太守女爲順帝皇后追贈金紫光禄大夫"
+      }
     },
     {
       "id": "name-song085-f13-028",

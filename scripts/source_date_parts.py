@@ -23,7 +23,13 @@ def explicit_month_parts_valid(parts, text, expression_anchor, parse_number):
                 and ('day'not in parts or parts['day']is None))
     except(KeyError,TypeError,IndexError):return False
 
-def source_date_parts_valid(event,chapters,parse_number):
+def source_date_parts_valid(event,chapters,parse_number,root=None):
+    if event.get("source_date_parts",{}).get("kind")=="explicit_chinese_calendar_month_and_death_day":
+        try:
+            from scripts.archived_parallel_death import date_parts_valid
+        except ImportError:
+            from archived_parallel_death import date_parts_valid
+        return date_parts_valid(event,chapters,root)
     try:
         from scripts.local_death_date_evidence import local_death_date_evidence_valid
     except ImportError:

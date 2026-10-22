@@ -49,17 +49,27 @@ class ChenQunTaiSource(unittest.TestCase):
  def test_grandsons_do_not_gain_unknown_fathers(self):
   for k,s in [('quoted_chenshi_pu','佐'),('quoted_chenshi_pu','逵')]:
    pid=who(k,s);self.assertTrue(any(a['subject_person_id']==pid and a['predicate']=='grandfather' for a in A));self.assertFalse(any(a['subject_person_id']==pid and a['predicate']=='father' for a in A))
- def test_dai_zheng_unresolved_no_ids(self):
-  m=next(m for m in U['quoted_chenshi_pu']['mentions'] if m['surface']=='戴徵');self.assertEqual(m['kind'],'unresolved');self.assertIsNone(m['person_id'])
+ def test_dai_zheng_two_source_local_brothers_without_invented_order(self):
+  p=U['quoted_chenshi_pu'];self.assertEqual(p['text'][35:43],'凖弟戴徵及從弟堪')
+  ids=[]
+  for surface,start in [('戴',37),('徵',38)]:
+   m=next(m for m in p['mentions'] if m['surface']==surface)
+   self.assertEqual((m['start'],m['end']),(start,start+1));self.assertEqual(m['kind'],'person');self.assertEqual(m['status'],'contextual_provisional');ids.append(m['person_id'])
+   a=next(a for a in A if a['subject_person_id']==m['person_id'] and a['predicate']=='brother')
+   self.assertEqual(a['object_person_id'],'9w8_tqh_ysn_B*AA')
+   order=a['qualifiers']['relative_birth_order'];self.assertEqual(order['older_person_id'],a['object_person_id']);self.assertEqual(order['younger_person_id'],m['person_id']);self.assertIsNone(order['older_ordinal']);self.assertIsNone(order['younger_ordinal'])
+   self.assertFalse(any(a['subject_person_id']==m['person_id'] and a['predicate']=='father' for a in A))
+  self.assertEqual(len(set(ids)),2)
+  self.assertFalse(any(a['predicate']=='brother' and a['subject_person_id'] in ids and a['object_person_id'] in ids for a in A))
  def test_sunzi_two_candidates(self):
-  m=next(m for m in U['received_body']['mentions'] if m['surface']=='孫子');self.assertEqual(set(m['candidate_person_ids']),{'vax_w2r_0za'});self.assertIsNone(m['person_id'])
+  m=next(m for m in U['received_body']['mentions'] if m['surface']=='孫子');review=next(v for v in C['annotation']['work_reference_reviews']if v['id']=='work-review-sanguozhi022-chenqun-chentai');prior=next(v['before']for v in review['role_corrections']if v['before']['id']==m['id']);self.assertEqual(set(prior['candidate_person_ids']),{'vax_w2r_0za'});self.assertEqual(prior['kind'],'unresolved');self.assertEqual(m['kind'],'work');self.assertEqual(m['status'],'contextual_provisional');self.assertIsNone(m['person_id'])
  def test_no_generic_false_people(self):
   for p in C['paragraphs']:
    for m in p['mentions']:
     if m['kind']!='person':continue
     self.assertFalse(m['surface']=='羣' and p['text'][m['end']:m['end']+1]=='臣');self.assertFalse(m['surface']=='淮' and p['text'][m['end']:m['end']+1] in ['泗','北']);self.assertFalse(m['surface']=='安' and p['text'][max(0,m['start']-1):m['start']]=='南');self.assertFalse(m['surface']=='峻' and p['text'][m['end']:m['end']+1]=='城')
  def test_office_dispute_retained(self):
-  self.assertIn('本傳泰不為太常未詳干寶所由知之',U['pei_critical_b']['text']);self.assertIn('太常陳泰',U['quoted_ganbao_jinji']['text']);self.assertNotIn('title_proposals',C['annotation'])
+  self.assertIn('本傳泰不為太常未詳干寶所由知之',U['pei_critical_b']['text']);self.assertIn('太常陳泰',U['quoted_ganbao_jinji']['text']);self.assertFalse(any(q.get('person_id')==who('received_body','泰') and q.get('title')=='太常' for q in C['annotation'].get('title_proposals',[])))
  def test_separate_death_reports(self):self.assertIn('景元元年薨',U['received_body']['text']);self.assertNotIn('歐血',U['received_body']['text']);self.assertIn('歐血薨',U['quoted_weishi_chunqiu']['text'])
  def test_life_age_facts_deferred(self):self.assertNotIn('age_assertions',C['annotation']);self.assertNotIn('life_events',C['annotation'])
  def test_all_relation_anchors_and_layers(self):

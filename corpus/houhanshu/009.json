@@ -68,6 +68,20 @@
           "kind": "during_life"
         }
       }
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-identity-hhs009-yingxiongji",
+        "work_id": "w-hanmo-yingxiongji",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "paragraph_id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1",
+        "mention_id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:w0000",
+        "source_layer": "lixian_commentary",
+        "evidence_path": "source-evidence/yingxiongji-native-identity/review.json",
+        "qualification": "李賢注原稱英雄記；依隋／舊唐漢末英雄記、王粲（舊唐王粲等）與裴引王匡共同首句作可撤回的上下文首選。新唐異題漢書英雄記保留；非本注自署作者，未校圖。",
+        "authorship_not_local_prefix": true
+      }
     ]
   },
   "paragraphs": [
@@ -1485,6 +1499,17 @@
       "text": "英雄記曰匡字公節太山人也輕財好施以任侠聞為袁紹河内太守",
       "annotation_status": "in_progress",
       "mentions": [
+        {
+          "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:w0000",
+          "start": 0,
+          "end": 3,
+          "surface": "英雄記",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-hanmo-yingxiongji",
+          "status": "contextual_provisional",
+          "interpretation_note": "李賢注原稱英雄記；依隋／舊唐漢末英雄記、王粲（舊唐王粲等）與裴引王匡共同首句作可撤回的上下文首選。新唐異題漢書英雄記保留；非本注自署作者，未校圖。"
+        },
         {
           "start": 4,
           "end": 5,

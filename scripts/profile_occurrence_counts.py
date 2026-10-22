@@ -23,7 +23,7 @@ def profile_occurrences(bundle, chapters, work_titles):
     for m in mentions:
         by_chapter.setdefault(m['chapter_id'],[]).append(m)
     result = []
-    for cid, ms in sorted(by_chapter.items(),key=lambda x:chapters.get(x[0],{}).get('number',999)):
+    for cid, ms in sorted(by_chapter.items(),key=lambda x:(chapters.get(x[0],{}).get('number',999) is None, chapters.get(x[0],{}).get('number',999) or 0)):
         ch = chapters.get(cid)
         if not ch:
             raise ValueError('人物提及的卷篇未列入閱讀目錄：'+cid)

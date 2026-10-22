@@ -42,13 +42,19 @@
         "unit_id": "c-sanguozhi-027-wangchang:unit004",
         "surface": "孫子兵法",
         "referent_kind": "quoted_work_not_person",
-        "qualification": "不得當孫武人物錨點；本包未新建引用著作authority。"
+        "qualification": "既有原mid/原span/原work_id全部保持；來源明示孫子兵法，不作孫武人物錨點。",
+        "status": "marked_work_reference",
+        "work_id": "w-sunzi-bingfa",
+        "mention_id": "c-sanguozhi-027-wangchang:unit004:m0000"
       },
       {
         "unit_id": "c-sanguozhi-027-wangchang:unit002",
         "surface": "郭林宗傳",
         "referent_kind": "quoted_biography_title",
-        "qualification": "其中林宗具名回指可辨郭泰；不是郭氏親屬。"
+        "qualification": "本批整題作引用作品，來源內林宗人名錨點仍各自保持；不憑書題補郭氏親屬。",
+        "status": "marked_work_reference",
+        "work_id": "w-guolinzong-zhuan-sgz027-reference",
+        "mention_id": "c-sanguozhi-027-wangchang:unit002:w0016"
       }
     ],
     "unresolved_occurrence_ledger": [
@@ -981,6 +987,58 @@
         "human_reviewed": false,
         "model": null
       }
+    ],
+    "work_reference_reviews": [
+      {
+        "id": "work-review-sanguozhi027-wangchang",
+        "source_id": "s-sanguozhi-027-wangchang",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "完整20段；七處新明示書題與原孫子兵法，非整卷。",
+        "first_full_then_shortened_title": "此單元沒有可據同單元首見全題展開的縮稱；世語不擅展魏晉世語。",
+        "boundaries": [
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit003",
+            "surface": "兵書",
+            "reason": "著兵書十餘篇是類型/數量，未見正式書題，未作作品ID。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit005",
+            "surface": "語曰",
+            "reason": "未明具體出處，不由知足句默補老子書名。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit007",
+            "surface": "孔子曰",
+            "reason": "引語說話人不是書題，不由句文默補論語作品。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit014",
+            "surface": "東方之誡子",
+            "reason": "可辨一篇誡子文之描述，但未據本句強造正式題名。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit016",
+            "surface": "别傳",
+            "reason": "整段主角任嘏明確，但來源僅稱别傳，正式題名未明；不造任嘏別傳正式書題，不當其他人的別傳。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit016",
+            "surface": "五經",
+            "reason": "集合稱呼，不偽作單一著作。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:unit017",
+            "surface": "百官考課事",
+            "reason": "受命撰考課事之內容說明，未在本批定為正式書題。"
+          },
+          {
+            "paragraph_id": "c-sanguozhi-027-wangchang:qing-collation",
+            "surface": "毛本／監本／宋本",
+            "reason": "清代校記的版本稱謂，不當裴注引書，不登為獨立古籍。"
+          }
+        ]
+      }
     ]
   },
   "paragraphs": [
@@ -1072,6 +1130,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-027-wangchang:unit002:w0001",
+          "start": 1,
+          "end": 4,
+          "surface": "王氏譜",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-wangshi-pu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-027-wangchang:unit002:m0004",
           "start": 4,
           "end": 5,
@@ -1120,6 +1188,16 @@
           "person_id": "a8f_ec8_e74",
           "status": "contextual_provisional",
           "interpretation_note": "依本完整敘事與固定平行語境辨識；原稱保留。"
+        },
+        {
+          "id": "c-sanguozhi-027-wangchang:unit002:w0016",
+          "start": 16,
+          "end": 20,
+          "surface": "郭林宗傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-guolinzong-zhuan-sgz027-reference",
+          "status": "source_explicit"
         },
         {
           "id": "c-sanguozhi-027-wangchang:unit002:m0021",
@@ -1395,6 +1473,16 @@
           "person_id": "a8f_ec8_e74_A",
           "status": "contextual_provisional",
           "interpretation_note": "依本完整敘事與固定平行語境辨識；原稱保留。"
+        },
+        {
+          "id": "c-sanguozhi-027-wangchang:unit003:w0129",
+          "start": 129,
+          "end": 131,
+          "surface": "治論",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-zhilun-wangchang-reference",
+          "status": "source_explicit"
         }
       ]
     },
@@ -1790,6 +1878,16 @@
         }
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-027-wangchang:unit006:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "國語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-guoyu",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-027-wangchang:unit006:m0003",
           "start": 3,
@@ -2364,6 +2462,16 @@
         }
       },
       "mentions": [
+        {
+          "id": "c-sanguozhi-027-wangchang:unit010:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
         {
           "id": "c-sanguozhi-027-wangchang:unit010:m0006",
           "start": 6,
@@ -4247,6 +4355,16 @@
       },
       "mentions": [
         {
+          "id": "c-sanguozhi-027-wangchang:unit018:w0001",
+          "start": 1,
+          "end": 3,
+          "surface": "晉書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinshu-sgz027-pei-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-027-wangchang:unit018:m0018",
           "start": 18,
           "end": 20,
@@ -4485,6 +4603,16 @@
           "person_id": "a8f_ec8_e74_AA",
           "status": "contextual_provisional",
           "interpretation_note": "依本完整敘事與固定平行語境辨識；原稱保留。"
+        },
+        {
+          "id": "c-sanguozhi-027-wangchang:unit018:w0144",
+          "start": 144,
+          "end": 147,
+          "surface": "晉陽秋",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-jinyangqiu-sgz027-reference",
+          "status": "source_explicit"
         }
       ]
     },

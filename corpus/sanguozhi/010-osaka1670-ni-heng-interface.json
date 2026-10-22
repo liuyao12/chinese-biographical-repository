@@ -120,6 +120,16 @@
       "annotation_status": "in_progress",
       "mentions": [
         {
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u001:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "典略",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-dianlue-pei-reference",
+          "status": "source_explicit"
+        },
+        {
           "start": 3,
           "end": 4,
           "surface": "彧",
@@ -129,13 +139,14 @@
           "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u001:m0003"
         },
         {
-          "start": 11,
-          "end": 13,
-          "surface": "禰衡",
-          "kind": "person",
-          "person_id": "727_51c_19b",
-          "status": "resolved_contextual",
-          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u001:m0011"
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u001:m0011",
+          "start": 9,
+          "end": 14,
+          "surface": "平原禰衡傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-pingyuan-ni-heng-zhuan",
+          "status": "source_explicit"
         },
         {
           "start": 15,
@@ -748,6 +759,36 @@
           "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u003:m0008"
         },
         {
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u003:w0013",
+          "start": 13,
+          "end": 15,
+          "surface": "典略",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-dianlue-pei-reference",
+          "status": "source_explicit"
+        },
+        {
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u003:w0016",
+          "start": 16,
+          "end": 18,
+          "surface": "衡傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-pingyuan-ni-heng-zhuan",
+          "status": "contextual_provisional",
+          "work_reference_resolution": {
+            "kind": "shortened_title",
+            "antecedent_mention_id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u001:m0011",
+            "scope_paragraph_ids": [
+              "c-sanguozhi-010-osaka1670-ni-heng-interface:u001",
+              "c-sanguozhi-010-osaka1670-ni-heng-interface:u002",
+              "c-sanguozhi-010-osaka1670-ni-heng-interface:u003"
+            ],
+            "reason": "u001先引平原禰衡傳，u002連續敘禰衡事；u003裴松之以故載典略與衡傳以見之回指此前兩種引文。未換來源單元，衡傳為平原禰衡傳縮稱，不以距離或同字自動判定。"
+          }
+        },
+        {
           "start": 22,
           "end": 24,
           "surface": "潘勗",
@@ -814,6 +855,16 @@
           "person_id": "b93_5f8_c76",
           "status": "resolved_contextual",
           "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u004:m0000"
+        },
+        {
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u004:w0002",
+          "start": 2,
+          "end": 5,
+          "surface": "文士傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-wenshi-zhuan-osaka1670-reference",
+          "status": "source_explicit"
         },
         {
           "start": 6,
@@ -1228,6 +1279,16 @@
       "text_layer": "witness_appended_pei_songzhi_note",
       "annotation_status": "in_progress",
       "mentions": [
+        {
+          "id": "c-sanguozhi-010-osaka1670-ni-heng-interface:u005:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-fuzi-pei-reference",
+          "status": "source_explicit"
+        },
         {
           "start": 3,
           "end": 4,

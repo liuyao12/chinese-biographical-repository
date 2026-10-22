@@ -1,3 +1,4 @@
+import {loadWorkTitles, bindWorkTitles} from './work-titles.js';
 import {chapterReadingLayout,revealSourceTarget} from './reading-layout.js';
 import {mountHistoricalTable} from './historical-table-view.js';
 import {historicalTableMarkup} from './historical-table-markup.js';
@@ -10,7 +11,7 @@ import {safeSourceURL} from './historical-tables.js';
 import {bindPersonCards} from './cbr-person.js';
 
 const $=id=>document.getElementById(id);
-let manifest,work,index,selected,ticket=0,removeCards,tableView;
+let manifest,work,index,selected,ticket=0,removeCards,tableView,workTitles={},removeWorkTitles;
 const cache=new Map();
 const languageReading = createLanguageReadingTransition(()=>$('corpus-content'),()=>({ticket,hash:location.hash}));
 const catalogPath=path=>/^data\/corpus\/[a-z0-9-]+\/index\.json$/.test(path);
@@ -34,6 +35,7 @@ const external=(url,label)=>safeSourceURL(url)?`<a href="${h(safeSourceURL(url))
 async function render(keepScroll=false) {
   const current=++ticket,params=new URLSearchParams(location.hash.slice(1));
   const readingState=languageReading.start(keepScroll && $('corpus-content').querySelector('article.corpus-text')?.dataset.chapterId===params.get('chapter'),current);
+  removeWorkTitles?.(); removeWorkTitles=null;
   removeCards?.();removeCards=null;
   tableView?.destroy();tableView=null;
   work=manifest.works.find(w=>w.id===params.get('work')) || (!params.has('work')?manifest.works.find(w=>w.reader_kind==='corpus'):null);
@@ -62,10 +64,11 @@ async function render(keepScroll=false) {
   if(chapter.id!==selected.chapter_id || chapter.work_id!==work.id || chapter.book_id!==selected.book_id)throw Error(t('Source text could not be loaded.'));
   document.title=work.title+'·'+selected.title+' · 人文';
   const context={work_id:chapter.work_id,book_id:chapter.book_id,chapter_id:chapter.id,reading_layout:!!chapter.reading_layout};
-  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context)+referentInterpretations(chapter,p.id);
+  const layout=chapterReadingLayout(chapter), paragraphHTML=p=>chapterParagraph(p,{},context,workTitles)+referentInterpretations(chapter,p.id);
   const readingHTML=layout.primary.map(paragraphHTML).join('')+layout.archival.map(({entry,paragraph})=>`<details class="corpus-archival-excerpt" data-archival-excerpt><summary>${h(entry.label)}</summary><p class="corpus-note">這是同一固定底本的歷史節引；主文已按原行展開，原錨點與引用保留。</p>${paragraphHTML(paragraph)}</details>`).join('');
   $('corpus-content').innerHTML=`<p class="eyebrow">${h(work.title)} · ${h(selected.book_title)}</p><h1>${h(chapter.title)}</h1><p class="corpus-note" data-source-scope>${h(chapter.source.extent)}</p><p class="corpus-note">${ui('Source text and identity review remain in progress.')}</p><p class="corpus-note">${ui('Names are underlined. Hover, focus or tap to read the person profile and family; follow links to other chapters.')}</p><nav class="chapter-pagination">${external(chapter.source.permalink,'Fixed source version')}<a href="${h(selected.path)}">${ui('Download chapter JSON')}</a></nav><details class="corpus-sources"><summary>${ui('Source & edition')}</summary><p>${h(chapter.source.rights)}</p><p>${h(chapter.source.normalization?.note || '')}</p><p>${h(chapter.source.normalization?.extraction_note || '')}</p><p><code>${h(chapter.id)}</code> · <code>${h(chapter.work_id)}</code> · <code>${h(chapter.book_id)}</code></p></details><article class="corpus-text" data-chapter-id="${h(chapter.id)}">${readingHTML}</article>`;
   removeCards=bindPersonCards($('corpus-content'));
+  removeWorkTitles=bindWorkTitles($('corpus-content'));
   const passage=params.get('passage');
   if(readingState)restoreReadingState($('corpus-content'),readingState);
   else if(!revealSourceTarget($('corpus-content'),chapter,params))window.scrollTo(0,0);
@@ -75,6 +78,7 @@ const fail=error=>{$('corpus-content').innerHTML=`<p role="alert">${h(error.mess
 (async()=>{
   try {
     manifest=await json('data/corpus/works.json');
+    workTitles=await loadWorkTitles();
     $('chapter-search').oninput=list;
     window.addEventListener('hashchange',()=>render().catch(fail));
     window.addEventListener('renwen:beforelanguagechange',()=>languageReading.before());

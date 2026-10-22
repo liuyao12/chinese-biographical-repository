@@ -6,7 +6,8 @@
   "identity_note": "固定《晉書》卷四十三王戎本傳中的來源身份；跨篇同指、親屬與紀年分別依所附來源陳述判讀，候選未同指不等於已證異人。未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "葛旟"
+    "葛旟",
+    "葛𣄣"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,61 @@
       "chapter_id": "c-jinshu-043-wangrong",
       "source_id": "s-jinshu-043-ws2618531-wangrong",
       "work_title": "晉書"
+    },
+    {
+      "number": 59,
+      "category": "",
+      "title": "齊武閔王冏傳（含鄭方附敘）",
+      "paragraph_id": "c-jinshu-059-jiong:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "見。坐拜百官，符敕三臺，選舉不均，惟寵親昵。以車騎將軍何勖領中領軍。封葛𣄣為牟平公，路秀小黃公，衛毅陰平公，劉真安鄉公，韓泰封丘公，號曰「五公」，委以心膂。殿中御史桓豹奏事，不先經冏府，即考竟之。於是朝廷側目，海內失望矣。南陽處士鄭方露版極諫，主簿王豹屢有箴規，冏並不能用，",
+      "paragraph_ids": [
+        "c-jinshu-059-jiong:p003",
+        "c-jinshu-059-jiong:p011",
+        "c-jinshu-059-jiong:p013"
+      ],
+      "mention_ids": [
+        "c-jinshu-059-jiong:p003:m0061",
+        "c-jinshu-059-jiong:p011:m0121",
+        "c-jinshu-059-jiong:p013:m0141"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-059-jiong:p003:m0061": "c-jinshu-059-jiong:p003",
+        "c-jinshu-059-jiong:p011:m0121": "c-jinshu-059-jiong:p011",
+        "c-jinshu-059-jiong:p013:m0141": "c-jinshu-059-jiong:p013"
+      },
+      "mention_id": "c-jinshu-059-jiong:p003:m0061",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-059-jiong:p003:m0061",
+          "mention_ids": [
+            "c-jinshu-059-jiong:p003:m0061"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-jiong:p011:m0121",
+          "mention_ids": [
+            "c-jinshu-059-jiong:p011:m0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-059-jiong:p013:m0141",
+          "mention_ids": [
+            "c-jinshu-059-jiong:p013:m0141"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "chapter_id": "c-jinshu-059-jiong",
+      "source_id": "s-jinshu-059-ws2650517-jiong",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -73,6 +129,33 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-059-jiong",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-059",
+      "source_id": "s-jinshu-059-ws2650517-jiong",
+      "source": {
+        "title": "《晉書》卷五十九齊武閔王冏傳（含鄭方附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷059&oldid=2650517",
+        "revision_id": 2650517,
+        "accessed_on": "2026-10-21",
+        "extent": "齊武閔王冏節完整18個正文段，含鄭方附敘；止長沙厲王乂節前。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位轉錄CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "a83fe708c8dffc5965863d337a19fd4e7222ae41e29aa99e1c2a11ed8030d1d3",
+        "raw_file": "sources/calendar-context/jinshu059-fixed2650517.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "展開維基連結與YL顯示字、移除quote及粗體控制字；完整數位ref註獨立留原raw位置，不作傳世正文；無校字。"
         }
       }
     }

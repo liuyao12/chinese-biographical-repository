@@ -2305,6 +2305,59 @@
       "work_title": "三國志"
     },
     {
+      "number": 15,
+      "category": "",
+      "title": "謝朏傳（含諼、篹附傳）",
+      "paragraph_id": "c-liangshu-015-xiefei:p003",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "，石苞不早勸晉文，死方慟哭，方之馮異，非知機也。」朏答曰：「昔魏臣有勸魏武卽帝位者，魏武曰：『如有用我，其爲周文王乎！』晉文世事魏氏，將必身終北面；假使魏早依唐虞故事，亦當三讓彌高。」帝不悅。更引王儉爲左長史，以朏侍中，領秘書監。及齊受禪，朏當日在直，百僚陪位，侍中當解璽，",
+      "paragraph_ids": [
+        "c-liangshu-015-xiefei:p003"
+      ],
+      "mention_ids": [
+        "c-liangshu-015-xiefei:p003:m0161",
+        "c-liangshu-015-xiefei:p003:m0168",
+        "c-liangshu-015-xiefei:p003:m0176"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-015-xiefei:p003:m0161": "c-liangshu-015-xiefei:p003",
+        "c-liangshu-015-xiefei:p003:m0168": "c-liangshu-015-xiefei:p003",
+        "c-liangshu-015-xiefei:p003:m0176": "c-liangshu-015-xiefei:p003"
+      },
+      "mention_id": "c-liangshu-015-xiefei:p003:m0161",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p003:m0161",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p003:m0161"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p003:m0168",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p003:m0168"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p003:m0176",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p003:m0176"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "chapter_id": "c-liangshu-015-xiefei",
+      "source_id": "s-liangshu015-ws1506954",
+      "work_title": "梁書"
+    },
+    {
       "number": 19,
       "category": "",
       "title": "《三國志》卷十九楊脩完整附傳裴注（編輯選錄題）",
@@ -15797,6 +15850,44 @@
       }
     },
     {
+      "chapter_id": "c-liangshu-015-xiefei",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "source_id": "s-liangshu015-ws1506954",
+      "source": {
+        "title": "《梁書》卷十五謝朏完整本傳（含子諼、篹附傳）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "revision_id": 1506954,
+        "accessed_on": "2026-10-21",
+        "extent": "原11至27行九完整段共1953原字，止29行謝覽獨立傳之前；非全卷，不匯入篇末姚察史論及現代校注。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留數位歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，未核底本影像",
+        "response_sha256": "73a047d0a44ea0cf7fa9c04fbd63cf0568cd6d1a3616dcf2ac64936942dea064",
+        "wikitext_sha256": "0ae55481ce12880db956ce367fee817fd1cd64f07685408996c5f31f080ffff6",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅展YL連結為顯示年號、去每段兩全形縮排；原𤅢、俁、不治、後五年不改；表題弟子覽為paratext，非此單元正文提及。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                26,
+                26
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1506954
+            }
+          ]
+        }
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-009-caoxiu",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-009",
@@ -19667,7 +19758,7 @@
           "last_line": 578,
           "partial_file": false
         },
-        "quality_note": "固定檔86–102與104–120行有數位重複；本次選19–21與261–295行，不含該區段，未核影像。篇末正文及古注分層。",
+        "quality_note": "固定檔86–102與104–120行有數位重複；目前閱讀層保留第一塊、排除第二塊，原始兩塊及指紋另存。去除重複後仍有缺文，不能將兩端當作連續完整原句；另收荀攸296–393行，賈詡未收。未核影像。篇末正文及古注分層。",
         "source_quality": {
           "status": "incomplete_digital_witness",
           "image_verified": false,

@@ -65,6 +65,13 @@ def received_paragraphs_contiguous(chapter, first, second):
     return cursor == start
 
 def child_continuation_errors(assertion, chapter):
+    if 'secondary_child_clause' in assertion.get('context', {}):
+        try:
+            from scripts.continued_biography_family import children_errors
+        except ImportError:
+            from continued_biography_family import children_errors
+        return children_errors(assertion, chapter)
+
     errors = []
     context = assertion.get('context', {})
     ids = context.get('paragraph_ids')

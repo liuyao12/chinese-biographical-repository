@@ -131,6 +131,16 @@
       "text": "魏書曰休祖父嘗為呉郡太守休於太守舍見壁上祖父畫像下榻拜涕泣同坐者皆嘉歎焉",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caoxiu:p002:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishu-wangshen",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caoxiu:p002:m0003",
           "start": 3,
           "end": 4,
@@ -651,6 +661,16 @@
       "text": "魏書曰休喪母至孝帝使侍中奪喪服使飲酒食肉休受詔而形體益憔悴乞歸譙葬母帝復遣越騎校尉薛喬奉詔節其憂哀使歸家治喪一宿便葬葬訖詣行在所帝見親自寛慰之其見愛重如此",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caoxiu:p004:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-weishu-wangshen",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caoxiu:p004:m0003",
           "start": 3,
           "end": 4,
@@ -1041,6 +1061,16 @@
       "text": "世語曰肇字長思",
       "mentions": [
         {
+          "id": "c-sanguozhi-009-caoxiu:p006:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-shiyu-sgz027-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caoxiu:p006:m0003",
           "start": 3,
           "end": 4,
@@ -1211,6 +1241,16 @@
           "interpretation_note": "依完整曹休敘事與同朝稱謂上下文；原字不校，未核影像。"
         },
         {
+          "id": "c-sanguozhi-009-caoxiu:p008:w0002",
+          "start": 2,
+          "end": 5,
+          "surface": "文士傳",
+          "kind": "work",
+          "person_id": null,
+          "work_id": "w-wenshi-zhuan-sgz009-caoxiu-reference",
+          "status": "source_explicit"
+        },
+        {
           "id": "c-sanguozhi-009-caoxiu:p008:m0006",
           "start": 6,
           "end": 7,
@@ -1294,7 +1334,75 @@
     "reviewer": "Codex（AI代理）",
     "human_reviewed": false,
     "coverage": "完整本傳正文與裴注分層首輪逐人標記，不稱卷009全卷完成。",
-    "limitations": "未知中代與氏族關係不補；以傳主與同朝時序判帝稱；未圖校。"
+    "limitations": "未知中代與氏族關係不補；以傳主與同朝時序判帝稱；未圖校。",
+    "work_reference_reviews": [
+      {
+        "id": "work-review-sanguozhi009-caoxiu",
+        "source_id": "s-sanguozhi-009-caoxiu",
+        "status": "ai_proposed",
+        "human_reviewed": false,
+        "coverage": "完整8段；四處明示引書，非整卷。",
+        "first_full_then_shortened_title": "原文仍稱世語，未造本單元先全題後縮稱鏈；跨篇書目已據郭頒署名與隋唐著錄辨作魏晉世語。魏書跨篇同書首選另依weishu_identity_review，不稱本條自署作者。",
+        "boundaries": [
+          {
+            "surface": "張隠",
+            "reason": "原署名人物mid保持，作品author本批null；不憑書題合大阪張衡文士傳。"
+          },
+          {
+            "surface": "世語",
+            "reason": "本單元未見全題，跨篇書目辨識另據郭頒世語裴注署名與隋志魏晉世語；不是本條自署。"
+          }
+        ],
+        "cross_work_identity_evidence": [
+          {
+            "id": "work-identity-caoxiu-shiyu",
+            "work_id": "w-shiyu-sgz027-reference",
+            "bibliographic_authority_id": "authority-pei-shiyu",
+            "authority_path": "source-evidence/pei-work-authorities/authorities.json",
+            "evidence_ids": [
+              "sui-shiyu",
+              "jiu-shiyu",
+              "xin-shiyu",
+              "pei-guoban-shiyu"
+            ],
+            "source_paragraph_id": "c-sanguozhi-009-caoxiu:p006",
+            "source_mention_id": "c-sanguozhi-009-caoxiu:p006:w0000",
+            "qualification": "曹肇字長思之世語短引，與完整曹休傳敘事相連；依同一裴注的郭頒署名和隋唐書目辨作品，不因同題字面自動合併，未校圖。",
+            "human_reviewed": false
+          }
+        ],
+        "source_author_evidence": {
+          "世語": {
+            "work_id": "w-shiyu-sgz027-reference",
+            "bibliographic_authority_id": "authority-pei-shiyu",
+            "authority_path": "source-evidence/pei-work-authorities/authorities.json",
+            "evidence_ids": [
+              "sui-shiyu",
+              "pei-guoban-shiyu"
+            ],
+            "qualification": "郭頒為跨篇裴注及古書目所證作者，本短引未自署。"
+          }
+        },
+        "deferred_person_annotation": []
+      }
+    ],
+    "weishu_identity_review": {
+      "work_id": "w-weishu-wangshen",
+      "status": "contextual_provisional",
+      "evidence_path": "source-evidence/pei-weishu-author-identity/review.json",
+      "reference_anchors": [
+        {
+          "paragraph_id": "c-sanguozhi-009-caoxiu:p002",
+          "mention_id": "c-sanguozhi-009-caoxiu:p002:w0000"
+        },
+        {
+          "paragraph_id": "c-sanguozhi-009-caoxiu:p004",
+          "mention_id": "c-sanguozhi-009-caoxiu:p004:w0000"
+        }
+      ],
+      "qualification": "王沈、荀顗、阮籍共撰（合撰據晉書王沈傳）；裴注各處作者歸屬為首署及書目支持的上下文首選，非各處自署。隋／兩唐分載48／44／47卷，未校圖；與魏收魏書分立。",
+      "human_reviewed": false
+    }
   },
   "text_sha256": "e95ac352d7dfa9b5f5ff9b9e56be0a769d0a30bd93ca834dd2e73972ee5c02f9"
 }

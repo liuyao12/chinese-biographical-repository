@@ -77,6 +77,12 @@ def consecutive_ancestor_parent_valid(member, rows, assertions, chapters):
             or not isinstance(c.get('rationale'), str) or not c['rationale'].strip()
             or member.get('source_assertion_id') is not None):
         return False
+    if c.get('interpretation_basis') == 'epitaph_named_family_sequence':
+        try:
+            from .epitaph_ancestry import valid as epitaph_parent_valid
+        except ImportError:
+            from epitaph_ancestry import valid as epitaph_parent_valid
+        return epitaph_parent_valid(member, rows, assertions, chapters)
     if c.get('interpretation_basis') == 'biographical_zu_fu_sequence':
         try:
             from .biographical_ancestry import biographical_zu_fu_parent_valid

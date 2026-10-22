@@ -17,6 +17,12 @@ def unassumed_role(proposal, paragraph):
 
 
 def unassumed_appointment_valid(proposal, chapter):
+    if 'resumed_decline_context' in proposal:
+        try:
+            from scripts.resumed_biography_lifecycle import declined_valid
+        except ImportError:
+            from resumed_biography_lifecycle import declined_valid
+        return declined_valid(proposal, chapter)
     if 'elided_appointment_context' in proposal:
         try:
             from scripts.song047_title_semantics import elided_decline_valid

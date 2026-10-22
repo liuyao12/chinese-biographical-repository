@@ -1,0 +1,295 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-epitaph-wangminzhi-full",
+  "work_id": "w-epitaph-wangminzhi",
+  "book_id": "b-epitaph-wangminzhi-full",
+  "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+  "title": "王閩之墓誌全文",
+  "source": {
+    "title": "王閩之墓誌（林宗閱2009排印校錄見證）",
+    "provider": "國立臺灣大學歷史學系／林宗閱2009校錄",
+    "url": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/c_pub_newsletter03.html",
+    "permalink": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3",
+    "revision_id": null,
+    "accessed_on": "2026-10-22",
+    "edition": "據林宗閱2009印頁39錄文；文稱據南京市博物館1980拓片，未親見原拓或1972原刊",
+    "extent": "本方古文完整84字，據林宗閱2009排印校錄；1980館編原拓及1972原刊未親見。現代文章、註釋與系譜圖不屬本誌文。",
+    "text_scope": "complete_work",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "rights": "僅古代墓誌文字為公版；現代文章及版面/拓片權利歸原作者與出版者，不套本專案MIT，不收入其PDF/圖片。",
+    "license_scope": "classical_inscription_text_only",
+    "normalization": {
+      "character_conversion": "僅PDF CJK相容碼位NFKC，逐字原碼位另存；不正字或增標點",
+      "extraction_note": "完整84字依排印錄文讀序；第6排印號空白保留於見證布局，全文以一編輯段容納，不冒原石一行或卷一。"
+    },
+    "transcription_witness": {
+      "kind": "modern_printed_epitaph_transcription",
+      "publication_author": "林宗閱",
+      "publication_title": "「漢魏南北朝墓誌釋註計畫」簡介",
+      "publication": "臺大歷史系學術通訊3（2009年5月）37–42",
+      "printed_page": 39,
+      "pdf_page": 3,
+      "pdf_sha256": "cc75be5c4737e98fca8252de656b5b1e77a095ddd080576731242ed7b3782ad2",
+      "transcription_path": "source-evidence/wangminzhi-epitaph-ntu2009/transcription.json",
+      "span_path": "source-evidence/wangminzhi-epitaph-ntu2009/transcription-page-spans.json",
+      "metadata_path": "source-evidence/wangminzhi-epitaph-ntu2009/source-metadata.json",
+      "transcription_page_visually_checked": true,
+      "original_stone_or_rubbing_image_verified": false,
+      "underlying_rubbing_personally_accessed": false,
+      "scope": "complete_single_inscription_not_modern_article"
+    }
+  },
+  "annotation": {
+    "status": "named_mentions_first_pass",
+    "reviewer": "Codex（AI代理）",
+    "model": null,
+    "human_reviewed": false,
+    "method": "完整古文轉錄逐詞與本段稱謂；王彬跨篇比對保左/右僕射差異，不以同名自動同指。",
+    "scope_note": "來源與身份首輪後，另附本誌近親、姓名、報齡、卒年與地望陳述；未見原拓，未作家族改號或遠祖組裝。",
+    "reported_variants": [
+      {
+        "id": "rv-wangminzhi-ntu2009-zi",
+        "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+        "person_ids": [
+          "7r6_k52_qji_ABDBCA"
+        ],
+        "source_term": "字冶民",
+        "received_reading": "冶民",
+        "reported_reading": "冾民",
+        "quote": "冶民，《南京出土六朝墓誌》釋為「冾民」。",
+        "commentator": "林宗閱2009印頁39註2（轉報1980館編本）",
+        "url": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3",
+        "status": "reported_not_collated",
+        "adopted": false
+      }
+    ],
+    "unresolved_occurrence_ledger": [
+      {
+        "mention_id": "c-epitaph-wangminzhi-full:p001:m0077",
+        "surface": "弟",
+        "reason": "本方只見三人合列的弟稱；三弟逐名記錄，群頭不任選一人。"
+      }
+    ],
+    "epitaph_fact_binding": {
+      "kind": "epitaph_named_family_full",
+      "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+      "roles": {
+        "head": "c-epitaph-wangminzhi-full:p001:m0013",
+        "zi": "c-epitaph-wangminzhi-full:p001:m0017",
+        "grandfather": "c-epitaph-wangminzhi-full:p001:m0030",
+        "father": "c-epitaph-wangminzhi-full:p001:m0035",
+        "wife": "c-epitaph-wangminzhi-full:p001:m0072",
+        "wife_zi": "c-epitaph-wangminzhi-full:p001:m0075",
+        "younger1": "c-epitaph-wangminzhi-full:p001:m0078",
+        "younger2": "c-epitaph-wangminzhi-full:p001:m0080",
+        "younger3": "c-epitaph-wangminzhi-full:p001:m0082"
+      },
+      "paragraph_sha256": "231273839b094c922f40a74eb008803ede827082e1803b9f136a91b5f4775657",
+      "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+      "witness_pdf_sha256": "cc75be5c4737e98fca8252de656b5b1e77a095ddd080576731242ed7b3782ad2"
+    },
+    "age_assertions": [
+      {
+        "id": "age-wangminzhi-epitaph",
+        "person_id": "7r6_k52_qji_ABDBCA",
+        "value": 28,
+        "source_number": "廿八",
+        "source_term": "年廿八",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "status": "source_attested",
+        "date_expression": null,
+        "evidence": [
+          {
+            "work_id": "w-epitaph-wangminzhi",
+            "book_id": "b-epitaph-wangminzhi-full",
+            "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+            "chapter_id": "c-epitaph-wangminzhi-full",
+            "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+            "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+            "person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013"
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "interpretation_note": "據2009排印校錄古文，未親見原拓；只記本句明示資訊，不推生母、生年、遠祖或其他兄弟排行。"
+      }
+    ],
+    "source_only_stage_note": "來源與身份首輪，不含typed親屬/生卒/姓名構件或家族組裝。"
+  },
+  "paragraphs": [
+    {
+      "id": "c-epitaph-wangminzhi-full:p001",
+      "text": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+      "mentions": [
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "男子",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0013",
+          "start": 13,
+          "end": 16,
+          "surface": "王閩之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "冶民",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0030",
+          "start": 30,
+          "end": 31,
+          "surface": "彬",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDB",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0032",
+          "start": 32,
+          "end": 33,
+          "surface": "孫",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "興之",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBC",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0038",
+          "start": 38,
+          "end": 40,
+          "surface": "元子",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0057",
+          "start": 57,
+          "end": 59,
+          "surface": "贛令",
+          "kind": "person",
+          "person_id": "7r6_k52_qji_ABDBC",
+          "status": "contextual_provisional",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0069",
+          "start": 69,
+          "end": 70,
+          "surface": "妻",
+          "kind": "person",
+          "person_id": "lhb_bow_dtk",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0072",
+          "start": 72,
+          "end": 74,
+          "surface": "施氏",
+          "kind": "person",
+          "person_id": "lhb_bow_dtk",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0075",
+          "start": 75,
+          "end": 77,
+          "surface": "女式",
+          "kind": "person",
+          "person_id": "lhb_bow_dtk",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0077",
+          "start": 77,
+          "end": 78,
+          "surface": "弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "本方只見三人合列的弟稱；三弟逐名記錄，群頭不任選一人。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0078",
+          "start": 78,
+          "end": 80,
+          "surface": "嗣之",
+          "kind": "person",
+          "person_id": "7a1_osp_b1n",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0080",
+          "start": 80,
+          "end": 82,
+          "surface": "咸之",
+          "kind": "person",
+          "person_id": "8pa_jhb_7q0",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        },
+        {
+          "id": "c-epitaph-wangminzhi-full:p001:m0082",
+          "start": 82,
+          "end": 84,
+          "surface": "預之",
+          "kind": "person",
+          "person_id": "chc_358_0lv",
+          "status": "source_explicit",
+          "interpretation_note": "依本方完整上下文辨識；來源身份及跨篇判斷分層，沒有建立typed親屬。"
+        }
+      ],
+      "annotation_status": "named_mentions_first_pass",
+      "text_layer": "epitaph_as_modernly_transcribed",
+      "source_position": {
+        "kind": "modern_printed_transcription",
+        "printed_page": 39,
+        "pdf_page": 3,
+        "source_text_start": 0,
+        "source_text_end": 84,
+        "editorial_single_paragraph": true,
+        "physical_line_divisions_inferred": false
+      }
+    }
+  ],
+  "text_sha256": "231273839b094c922f40a74eb008803ede827082e1803b9f136a91b5f4775657"
+}

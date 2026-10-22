@@ -1074,3 +1074,54 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `parallel_context_reading` 與古注所報異文分開。此窄契約限兩個現行人物候選、同一固定 primary 見證的兩個連續完整敘事單元，以及原段同事件用語。保留原字，透過上下文暫選身份；`source_spelling_is_not_alias:true` 且原異常錨點不得加入人物 aliases，只保存 evidence 雙端。不得偽造 `reported_variants` 或 commentator。
 
 驗證接收實際 root，核 raw 檔雜湊、修訂、來源路徑及 symlink 邊界、完整單元起訖、具名傳首、兩候選與事件／相互區分錨點。原段須為完整原始正文行，原詞、位置及兩個肯定事件用語俱存；否定、錯人、省略原證或僅保留片段均拒絕。這些檢查約束編輯判讀的證據，不以 NLU 自動推論身份；`human_reviewed:false`。
+
+### 具名傳主後置續敘與母喪任終
+
+`close_family_head_grandfather_father` 接受傳首「某字某」或「某，字某」兩種收到句式；父、祖各按明示角色綁定。
+`close_family_four_older_brothers` 的四名兄只各自年長於傳主，不含四兄互序、絕對排行或同母。
+`close_family_father_arranged_daughter_marriage` 僅以父「聞某…以女結婚，厚爲資送」明示實婚綁父女、配偶；另句未成婚的公主不可替換。
+`close_family_mother_old_care_resumed_subject` 綁完整官歷、母老須養與傳主晨昏有廢的明示續敘，仍是 `maternal_role`，`biological_mother`、`father_person_id` 均空。
+
+`resumed_biography_death_gift` 綁兄在外任、傳主代啓、上見非兄之手迹、見原後傳主轉官、永泰元年其年卒及贈官的完整角色序列；不以最近「其」改死亡／受贈者。`resumed_biography_mother_mourning_office_end` 限本段明示吳興太守、傳主收獄／有司奏免傳主及段末母喪去官：奏免是提議，去官為任終，無年不得填卒年。
+
+`resumed_decline_context.kind=postposed_named_decliner_then_command` 保存任用詞及長兼侍中、後置具名傳主固辭不受與世祖勑令速拜的逐字錨點；後命令不當已拜。此安排屬未受記錄，不列實任持職。以上句式皆以收到段落版本、雜湊與人物錨點驗證，不按人物ID白名單。
+
+## 單方墓誌的現代校錄見證
+
+`work_type: single_epitaph` 是古代一方誌文，不是刊登其錄文的現代文章。單一 `book` 僅為 `editorial_single_text_container`，`number` 和 `original_volume_number` 均為 null；不能稱原卷一。初版以一個明示編輯段落收全文，`epitaph_as_modernly_transcribed` 保原文及PDF CMap相容碼位對照、所選古文區全部非空白字的span錨點、出版者頁鏈與固定PDF SHA256。PDF與圖片仍不入庫。
+
+`modern_printed_epitaph_transcription` 的 `revision_id` 為 null，不冒網站或Git修訂；現代校錄署名與所稱原拓來源各自明列。`transcription_page_visually_checked` 不等於原石/原拓 `image_verified`，後兩者仍為false。文章點校、註號、近人推算與系譜圖不混成古代誌文。此核驗證明保存的轉錄與span記錄一致，不宣稱機器已從外部PDF重新校字或親見原拓。原拓尚未取得時，不以數位轉錄資格建立確定親屬或日期。
+
+## 單方墓誌具名近親與年月日
+
+`epitaph_fact_binding.kind=epitaph_named_family_full`綁定完整校錄古文、固定轉錄PDF雜湊與逐人同位標記；適用晉故男子、某祖之孫、某父之元子及妻、弟列的限定完整句式。元子為父之子序1；弟列各與誌主作長幼不等式，不給彼此排行、共同父母或生母。父與祖分存，不自動創造父→祖邊。姓名只拆本句明字，未寫姓不補。
+
+死亡年月日須緊接卒詞；`normalized_date`仍為中國曆年，`epitaph_date_parts`另存中國陰陽曆原月日、逐詞span與數值，不換西曆月日。葬句未獨立紀日不繼承卒日。報齡仍用來源計歲未知，不推生年。完整轉錄與原拓未見資格不改；本模型的來源明載不表示已圖校。
+
+## 墓誌連續祖先的父系組裝
+
+`parent_between_consecutive_ancestors` 的 `interpretation_basis: epitaph_named_family_sequence` 限完整具名父之元子與祖之孫同方文字、固定現代校錄見證、明父與祖兩原生斷言及雙人物錨點；父為祖之子僅contextual_provisional編輯推導，不造新明文father。原拓未見資格不變，三弟不承接父母。直接祖父原文優先顯示，但完整推導路徑與來源保留。
+
+### 來源內書名簡稱回指
+
+`kind: work` 的來源簡稱可附 `work_reference_resolution`，包含 `kind: shortened_title`、`antecedent_mention_id`、按原文次序連續列出的 `scope_paragraph_ids` 與具體 `reason`。先行書名與簡稱須在同篇所宣告作用域，先行者為同一 `work_id` 的來源明示全題首見，且在簡稱之前；不得以全章第一個相同字串自動配對。簡稱保存原字並為 `contextual_provisional`，不改原文、作品題名或全域別名。XML沿既有 `<title ref="work_id">`；使用端直接依作品登記顯示全稱，無需NLU。僅描述某人碑文而未明正式題名者，保未決說明，不以泛詞造作品ID。
+
+### 完整本傳的任官與附帶來源細節
+
+`appointment_service_unreported` 表示明示徵任而未載到任或拒絕，`outcome: not_reported`；與 `unassumed_appointment/not_assumed` 分開。兩者均不進 `title_holdings`，亦不由任命反推實任時段。`fixed_biography_offered_office_sequence` 錨定完整原句、每位受職者及其職稱；合召、合辭仍逐人逐職解析。明示先辭而後受的持職另有 `assumption_basis`，禮儀豁免不等於未受職。
+
+`biographical_source_detail_set.records` 保存不適合作官爵、親屬或籍貫的機讀細節。每項具人物、完整段落證據、逐字錨點、版本與段落雜湊。限定種類為 `recorded_presence`、`official_duty`、`office_emolument`、`office_departure`、`mourning_service_continuation`、`ritual_and_duty_exemption`、`literary_activity`、`gift`、`staff_principal`、`recalled_unassumed_appointment`；未知種類拒收。行跡不當籍貫；秩級數字不當實領俸額；未載受贈不當實收；棺贈不當埋葬。單人 bundle 與 profile 均保留 `source_details`。
+
+`fixed_primary_parallel_ce_regnal_span` 必須核本地保存的固定原證、原始雜湊、年度標題與事件座標，並綁主傳同人事件。謝朏三官及冬薨據本紀天監五年首選506；保留主傳「後五年」及判讀資格，不作默改。主傳母喪三年與本紀四年「所生母」分層，身份與年份差異不以補生母或改字抹平。
+
+`continued_biography_*` 是有完整原句限制的父祖、弟、未名母與連續子附傳句法；次子可記子序2，不因先列子名而補長子1。相關句法不建立家族組裝、改號或遠祖推演。
+
+### 引書顯示題與消歧資格
+
+`registry/works.json` 的 `citation_title` 為人工據來源確認、供引書顯示的題名；可能只是原稱，並不保證為完整正式書名。`citation_qualification` 另存作者、來源單元、全題未詳等資格。`title` 保留既有登記標籤。未指定時使用既有 `title`；程式不得用括號或簡稱字面猜題。公開引書索引的 `title` 只放顯示題，`qualification` 分欄；提示書名號只包題名，資格在外，輔助朗讀稱「引書」而非一律「全稱」。兩欄如存在須為非空字串。
+
+### 古注的來源作者原署
+
+作品的 `source_author_attributions` 記錄來源實際所署的作者，包含引用來源的 work／book／chapter／source／paragraph、完整原句、作者人物與提及錨點、所引書提及及 `referenced_work_id`。引用來源與所引作品是兩個層次。來源作者跨篇身份未定時仍保存原署，作品全域 `author` 可留空；不因同題便合併作品或作者。
+
+`authorship_syntax` 只驗證明列的來源句法：`author_title_prefix` 綁緊接題名的作者；`compiled_named_work` 綁抄撮等著述動詞與命名語；`continued_subject_authored_work` 綁限定傳主續敘與著述動詞，其中婚配賓語另具人物角色。它們不是任意古文的作者識別器，未涵蓋的句式須保留未決或增訂有證據的契約。古注的作者原署也不表示已證明歷史作者身份、作品真偽或親見原書。

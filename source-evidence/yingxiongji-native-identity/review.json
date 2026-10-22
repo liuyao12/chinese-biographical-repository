@@ -1,0 +1,642 @@
+{
+  "record_type": "bibliographic_identity_resolution",
+  "status": "contextual_provisional",
+  "human_reviewed": false,
+  "canonical_work_id": "w-hanmo-yingxiongji",
+  "qualification": "李賢注原稱英雄記；依隋／舊唐漢末英雄記、王粲（舊唐王粲等）與裴引王匡共同首句作可撤回的上下文首選。新唐異題漢書英雄記保留；非本注自署作者，未校圖。",
+  "bibliographic_sources": [
+    {
+      "title": "隋書/卷33",
+      "revision_id": 2436650,
+      "timestamp": "2024-07-14T14:07:24Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E9%9A%8B%E6%9B%B8%2F%E5%8D%B733&oldid=2436650",
+      "raw_sha256": "9a40532ae5518813ffcbe10181a6cfacba68a17430eadcd172f941f505d9ce7c",
+      "response_sha256": "1d738a0a57052ac58fe0ffc721a78692c2843e5da736f6da3353b167f04256c8",
+      "image_verified": false,
+      "license": "public-domain historical text; Wikisource digital editorial layer CC BY-SA 4.0, see page footer",
+      "path": "source-evidence/yingxiongji-native-identity/primary/suishu033.wikitext"
+    },
+    {
+      "title": "舊唐書/卷46",
+      "revision_id": 2081123,
+      "timestamp": "2021-10-07T07:06:46Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E8%88%8A%E5%94%90%E6%9B%B8%2F%E5%8D%B746&oldid=2081123",
+      "raw_sha256": "88d21e5ff8f3d4bf1c411d1ee83aa02a125e0d6812e9cd65efc72a565393f0bd",
+      "response_sha256": "9b5d3b1efd069abd496f4af7a12557f50675f6e9edce4b665a8f7941919f0889",
+      "image_verified": false,
+      "license": "public-domain historical text; Wikisource digital editorial layer CC BY-SA 4.0, see page footer",
+      "path": "source-evidence/yingxiongji-native-identity/primary/jiutangshu046.wikitext"
+    },
+    {
+      "title": "新唐書/卷058",
+      "revision_id": 2017622,
+      "timestamp": "2021-02-14T13:52:05Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7058&oldid=2017622",
+      "raw_sha256": "ff05a540ee9cbbd189f6c3c379560cfc7819bc972cca2488640b33bf5e0737c8",
+      "response_sha256": "ffd3344adb5d632cc1b1657f4c4dd8f24a3d1ef20a61ad98f5ab54419069ad03",
+      "image_verified": false,
+      "license": "public-domain historical text; Wikisource digital editorial layer CC BY-SA 4.0, see page footer",
+      "path": "source-evidence/yingxiongji-native-identity/primary/xintangshu058.wikitext"
+    },
+    {
+      "title": "三國志/卷01",
+      "revision_id": 2585429,
+      "timestamp": "2025-08-03T06:52:52Z",
+      "url": "https://zh.wikisource.org/w/index.php?title=%E4%B8%89%E5%9C%8B%E5%BF%97%2F%E5%8D%B701&oldid=2585429",
+      "raw_sha256": "1001a34d5ae46667f6d9493206ed078db4d08aec2684a8d8e8f6c677dbe5fa3d",
+      "response_sha256": "741a596e53e46b7da2d0fdafc31486f2e374ea5556df28501e99a75de3010eb4",
+      "image_verified": false,
+      "license": "public-domain historical text; Wikisource digital editorial layer CC BY-SA 4.0, see page footer",
+      "path": "source-evidence/yingxiongji-native-identity/primary/sgz001.wikitext"
+    }
+  ],
+  "catalogue_proofs": [
+    {
+      "id": "hero-proof-01",
+      "file": "source-evidence/yingxiongji-native-identity/primary/suishu033.wikitext",
+      "raw_sha256": "9a40532ae5518813ffcbe10181a6cfacba68a17430eadcd172f941f505d9ce7c",
+      "start": 4014,
+      "end": 4035,
+      "quote": "《漢末英雄記》八卷王粲撰，殘缺。梁有十卷。",
+      "scope": "bibliographic_title_author_volumes",
+      "interpretation_note": "完整書目條目。隋存8卷且殘缺；梁10卷是此書目回溯記載，不是本代理親讀梁本。"
+    },
+    {
+      "id": "hero-proof-02",
+      "file": "source-evidence/yingxiongji-native-identity/primary/jiutangshu046.wikitext",
+      "raw_sha256": "88d21e5ff8f3d4bf1c411d1ee83aa02a125e0d6812e9cd65efc72a565393f0bd",
+      "start": 14499,
+      "end": 14517,
+      "quote": "《[[漢末英雄記]]》十卷王粲等撰。",
+      "scope": "bibliographic_title_collective_authorship",
+      "interpretation_note": "等字不能刪；不把本條改成王粲獨撰或以卷數不同造第二本。"
+    },
+    {
+      "id": "hero-proof-03",
+      "file": "source-evidence/yingxiongji-native-identity/primary/xintangshu058.wikitext",
+      "raw_sha256": "ff05a540ee9cbbd189f6c3c379560cfc7819bc972cca2488640b33bf5e0737c8",
+      "start": 5322,
+      "end": 5338,
+      "quote": "<p>王粲漢書英雄記十卷</p>",
+      "scope": "bibliographic_received_variant_title",
+      "interpretation_note": "收到題漢書英雄記，不默訂漢末；可與前兩志候選同書，但本條字面不同需保留。"
+    }
+  ],
+  "pei_parallel_full_unit": {
+    "label": "初平元年關東義兵敘事段",
+    "file": "source-evidence/yingxiongji-native-identity/primary/sgz001.wikitext",
+    "start": 3607,
+    "end": 4459,
+    "line_start": 20,
+    "line_end": 20,
+    "text": "{{YL|初平元年}}春正月，後將軍袁術、冀州牧韓馥、{{*|《[[英雄記]]》曰：馥字文節，潁川人。爲御史中丞。董卓舉爲冀州牧。于時冀州民人殷盛，兵糧優足。袁紹之在勃海，馥恐其興兵，遣數部從事守之，不得動搖。東郡太守橋瑁詐作京師三公移書與州郡，陳卓罪惡，云「見逼迫，無以自救，企望義兵，解國患難。」馥得移，請諸從事問曰：「今當助袁氏邪，助董卓邪？」治中從事劉子惠曰：「今興兵爲國，何謂袁、董！」馥自知言短而有慙色。子惠復言：「兵者凶事，不可爲首；今宜往視他州，有發動者，然後和之。冀州於他州不爲弱也，他人功未有在冀州之右者也。」馥然之。馥乃作書與紹，道卓之惡，聽其舉兵。}}豫州刺史孔伷、{{*|《[[英雄記]]》曰：伷字公緒，陳留人。張璠《[[張璠後漢紀|漢紀]]》，載鄭泰說卓云：「孔公緒能清談高論，噓枯吹生。」}}兖州刺史劉岱、{{*|岱，劉繇之兄，事見《[[三國志/卷49|吳志]]》。}}河內太守王匡、{{*|《[[英雄記]]》曰：匡字公節，泰山人。輕財好施，以任俠聞。辟大將軍何進府進符使，匡於徐州發彊弩五百西詣京師。會進敗，匡還鄉里。起家，拜河內太守。謝承《[[八家後漢書#謝承|後漢書]]》曰：匡少與蔡邕善。其年爲卓軍所敗，走還泰山，收集勁勇得數千人，欲與張邈合。匡先殺執金吾胡母班。班親屬不勝憤怒，與太祖并勢，共殺匡。}}勃海太守袁紹、陳留太守張邈、東郡太守橋瑁、{{*|《[[英雄記]]》曰：瑁字元偉，玄族子。先爲兖州刺史，甚有威惠。}}山陽太守袁遺、{{*|遺字伯業，紹從兄。爲長安令。河間張超甞薦遺于太尉朱儁，稱遺「有冠世之懿，幹時之量。其忠允亮直，固天所縱；若乃包羅載籍，管綜百氏，登高能賦，覩物知名，求之今日，邈焉靡儔。」事在超集。《[[英雄記]]》曰：紹後用遺爲揚州刺史，爲袁術所敗。太祖稱「長大而能勤學者，惟吾與袁伯業耳。」語在文帝《[[典論]]》。}}濟北相鮑信{{*|信事見子《[[三國志/卷12|勛傳]]》。}}同時俱起兵，衆各數萬，推紹爲盟主。太祖行奮武將軍。\n",
+    "reading_note": "完整該段五處英雄記，其中王匡注又轉謝承後漢書，兩引書層不能混。",
+    "human_reviewed": false
+  },
+  "lixian_source_context": {
+    "chapter_id": "c-houhanshu-009-xiandi-early",
+    "source_id": "s-houhanshu-009-xiandi-early",
+    "source": {
+      "title": "後漢書卷九：孝獻帝紀第九（兩完整年單元）",
+      "provider": "Kanripo",
+      "url": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+      "permalink": "https://github.com/kanripo/KR2a0009/blob/6db36b6dcbe843b825354c22e9be9193d0137c04/KR2a0009_009.txt",
+      "revision_id": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+      "accessed_on": "2026-10-19",
+      "extent": "raw13–40開篇及中平六年全年；41–66初平元年全年；67起二年未收。正文、唐注、宋校獨立19容器。",
+      "text_scope": "partial_chapter",
+      "review_status": "text_checked",
+      "image_verified": false,
+      "rights": "古代原文；固定WYG數位見證，未校圖。",
+      "license_url": "https://www.kanripo.org/",
+      "normalization": {
+        "character_conversion": {},
+        "source_layering": "保底本文字；僅去版面頁標／分行符／注括號，正文唐注宋校分層，逐字raw_runs可回查。"
+      },
+      "response_sha256": "e0459bbe8ebcc6a3bf0ac881302a830b7b8b77284da70faf0723686b9c9bbba5",
+      "source_blob_sha": "1d565549277da141b973c906f61aeef06cff7d7e",
+      "raw_path": "sources/houhanshu/009-kr6db36b6-xiandi-fixed.txt"
+    },
+    "paragraphs": [
+      {
+        "id": "c-houhanshu-009-xiandi-early:chuping01",
+        "text": "初平元年春正月山東州郡起兵以討董卓辛亥大赦天下癸酉董卓殺𢎞農王白波賊宼東郡二月乙亥太尉黄琬司徒楊彪免庚辰董卓殺城門校尉伍瓊督軍校尉周珌以光禄勳趙謙為太尉太僕王允為司徒丁亥遷都長安董卓驅徙京師百姓悉西入關自留屯畢圭苑壬辰白虹貫日三月乙巳車駕入長安幸未央宫己酉董卓焚洛陽宫廟及人家戊午董卓殺太傅袁隗太僕袁基夷其族夏五月司空荀爽薨六月辛丑光禄大夫种拂為司空大鴻臚韓融少府隂修執金吾胡母班将作大匠吳修越騎校尉王壞安集関東後将軍袁術河内太守王匡各執而殺之唯韓融獲免董卓壞五銖錢更鑄小錢冬十一月庚戍鎮星熒惑太白合於尾是嵗有司奏和安順桓四帝無功徳不宜稱宗又恭懐敬隱恭愍三皇后並非正嫡不合稱后皆請除尊號制曰可孫堅殺荆州刺史王叡又殺南陽太守張咨",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "start": 15,
+            "end": 17,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0015"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0025"
+          },
+          {
+            "start": 28,
+            "end": 31,
+            "surface": "𢎞農王",
+            "kind": "person",
+            "person_id": "7q8_xsg_xif",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0028"
+          },
+          {
+            "start": 43,
+            "end": 45,
+            "surface": "黄琬",
+            "kind": "person",
+            "person_id": "52w_daj_ziu",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0043"
+          },
+          {
+            "start": 47,
+            "end": 49,
+            "surface": "楊彪",
+            "kind": "person",
+            "person_id": "0c1_b9d_9c2",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0047"
+          },
+          {
+            "start": 52,
+            "end": 54,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0052"
+          },
+          {
+            "start": 59,
+            "end": 61,
+            "surface": "伍瓊",
+            "kind": "person",
+            "person_id": "ff4_d87_ed4",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0059"
+          },
+          {
+            "start": 65,
+            "end": 67,
+            "surface": "周珌",
+            "kind": "person",
+            "person_id": "37a_4e4_9ge",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0065"
+          },
+          {
+            "start": 71,
+            "end": 73,
+            "surface": "趙謙",
+            "kind": "person",
+            "person_id": "tl1_p6f_czj",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0071"
+          },
+          {
+            "start": 78,
+            "end": 80,
+            "surface": "王允",
+            "kind": "person",
+            "person_id": "8xv_6ak_y28",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0078"
+          },
+          {
+            "start": 89,
+            "end": 91,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0089"
+          },
+          {
+            "start": 117,
+            "end": 119,
+            "surface": "車駕",
+            "kind": "person",
+            "person_id": "e49_8a5_738",
+            "status": "contextual_provisional",
+            "interpretation_note": "本年車駕入長安承獻帝主語。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0117"
+          },
+          {
+            "start": 128,
+            "end": 130,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0128"
+          },
+          {
+            "start": 140,
+            "end": 142,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0140"
+          },
+          {
+            "start": 145,
+            "end": 147,
+            "surface": "袁隗",
+            "kind": "person",
+            "person_id": "ong_olf_f39",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0145"
+          },
+          {
+            "start": 149,
+            "end": 151,
+            "surface": "袁基",
+            "kind": "person",
+            "person_id": "86o_cce_1dm",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0149"
+          },
+          {
+            "start": 159,
+            "end": 161,
+            "surface": "荀爽",
+            "kind": "person",
+            "person_id": "yoo_ox0_545_F",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0159"
+          },
+          {
+            "start": 170,
+            "end": 172,
+            "surface": "种拂",
+            "kind": "person",
+            "person_id": "ye2_04k_wk8",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0170"
+          },
+          {
+            "start": 178,
+            "end": 180,
+            "surface": "韓融",
+            "kind": "person",
+            "person_id": "2i1_5qk_vfp",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0178"
+          },
+          {
+            "start": 182,
+            "end": 184,
+            "surface": "隂修",
+            "kind": "person",
+            "person_id": "xtx_7mz_dt4",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0182"
+          },
+          {
+            "start": 187,
+            "end": 190,
+            "surface": "胡母班",
+            "kind": "person",
+            "person_id": "al5_e32_vh6",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0187"
+          },
+          {
+            "start": 194,
+            "end": 196,
+            "surface": "吳修",
+            "kind": "person",
+            "person_id": "nwk_eh7_2as",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0194"
+          },
+          {
+            "start": 200,
+            "end": 202,
+            "surface": "王壞",
+            "kind": "person",
+            "person_id": "70s_vkj_ypa",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0200"
+          },
+          {
+            "start": 209,
+            "end": 211,
+            "surface": "袁術",
+            "kind": "person",
+            "person_id": "865_b69_cb0",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0209"
+          },
+          {
+            "start": 215,
+            "end": 217,
+            "surface": "王匡",
+            "kind": "person",
+            "person_id": "ph1_kpk_evr",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0215"
+          },
+          {
+            "start": 223,
+            "end": 225,
+            "surface": "韓融",
+            "kind": "person",
+            "person_id": "2i1_5qk_vfp",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0223"
+          },
+          {
+            "start": 227,
+            "end": 229,
+            "surface": "董卓",
+            "kind": "person",
+            "person_id": "a50_1e6_4bf",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0227"
+          },
+          {
+            "start": 257,
+            "end": 258,
+            "surface": "和",
+            "kind": "person",
+            "person_id": "3e7_rht_k5z",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0257"
+          },
+          {
+            "start": 258,
+            "end": 259,
+            "surface": "安",
+            "kind": "person",
+            "person_id": "7zd_hi5_fwe",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0258"
+          },
+          {
+            "start": 259,
+            "end": 260,
+            "surface": "順",
+            "kind": "person",
+            "person_id": "19t_wcm_h5e",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0259"
+          },
+          {
+            "start": 260,
+            "end": 261,
+            "surface": "桓",
+            "kind": "person",
+            "person_id": "cq3_2gy_twf",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0260"
+          },
+          {
+            "start": 271,
+            "end": 273,
+            "surface": "恭懐",
+            "kind": "person",
+            "person_id": "jbr_i2u_2jo",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0271"
+          },
+          {
+            "start": 273,
+            "end": 275,
+            "surface": "敬隱",
+            "kind": "person",
+            "person_id": "o40_aw4_nck",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0273"
+          },
+          {
+            "start": 275,
+            "end": 277,
+            "surface": "恭愍",
+            "kind": "person",
+            "person_id": "h5u_kbw_f4k",
+            "status": "contextual_provisional",
+            "interpretation_note": "同年注08逐一明示帝／后稱號橋；串列拆人不合併。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0275"
+          },
+          {
+            "start": 296,
+            "end": 298,
+            "surface": "孫堅",
+            "kind": "person",
+            "person_id": "ki7_rgz_3l4",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0296"
+          },
+          {
+            "start": 303,
+            "end": 305,
+            "surface": "王叡",
+            "kind": "person",
+            "person_id": "xxz_awi_y21",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0303"
+          },
+          {
+            "start": 311,
+            "end": 313,
+            "surface": "張咨",
+            "kind": "person",
+            "person_id": "0yn_ay5_kio",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01:m0311"
+          }
+        ],
+        "source_position": {
+          "unit_key": "chuping01",
+          "source_layer": "received_annal",
+          "first_line": 41,
+          "last_line": 66,
+          "raw_projection_ref": "source-evidence/houhan009-xiandi-projection.json"
+        },
+        "text_layer": "received_chapter"
+      },
+      {
+        "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1",
+        "text": "英雄記曰匡字公節太山人也輕財好施以任侠聞為袁紹河内太守",
+        "annotation_status": "in_progress",
+        "mentions": [
+          {
+            "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:w0000",
+            "start": 0,
+            "end": 3,
+            "surface": "英雄記",
+            "kind": "work",
+            "person_id": null,
+            "work_id": "w-hanmo-yingxiongji",
+            "status": "contextual_provisional",
+            "interpretation_note": "李賢注原稱英雄記；依隋／舊唐漢末英雄記、王粲（舊唐王粲等）與裴引王匡共同首句作可撤回的上下文首選。新唐異題漢書英雄記保留；非本注自署作者，未校圖。"
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "surface": "匡",
+            "kind": "person",
+            "person_id": "ph1_kpk_evr",
+            "status": "contextual_provisional",
+            "interpretation_note": "本完整敘事／對話局部主語；不是最近皇帝自動延續。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0004"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "surface": "公節",
+            "kind": "person",
+            "person_id": "ph1_kpk_evr",
+            "status": "contextual_provisional",
+            "interpretation_note": "本完整敘事／對話局部主語；不是最近皇帝自動延續。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0006"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "surface": "袁紹",
+            "kind": "person",
+            "person_id": "102_884_39d",
+            "status": "contextual_provisional",
+            "interpretation_note": "完整本年、注層及跨篇原文辨識；非同字自動配人。",
+            "id": "c-houhanshu-009-xiandi-early:chuping01-note-06-1:m0021"
+          }
+        ],
+        "source_position": {
+          "unit_key": "chuping01-note-06-1",
+          "source_layer": "lixian_commentary",
+          "first_line": 57,
+          "last_line": 58,
+          "raw_projection_ref": "source-evidence/houhan009-xiandi-projection.json"
+        },
+        "text_layer": "witness_appended_lixian_note",
+        "layer_attribution": {
+          "attributed_author": "李賢",
+          "period": "唐",
+          "received_authority": "英雄記曰匡字公節太山人也輕財好施以任侠聞為袁紹河内太守",
+          "quotation_dependencies": [
+            "英雄記"
+          ],
+          "scope": "witness_appended_annotation",
+          "human_reviewed": false,
+          "image_verified": false,
+          "named_contributors": []
+        }
+      }
+    ]
+  },
+  "research_snapshot_before_adoption": {
+    "record_type": "work_authority_research_proposal",
+    "existing_work_id": null,
+    "status": "research_only_not_registry_adoption",
+    "candidate_citation_title": "漢末英雄記",
+    "candidate_author": "王粲",
+    "author_qualification": "隋志王粲撰，舊唐志王粲等撰；新唐志王粲漢書英雄記。作者傳統有直接古書目依據，但本輪已讀裴注單元未直接署作者。",
+    "received_titles": [
+      {
+        "title": "英雄記",
+        "layer": "裴注/李賢注引題"
+      },
+      {
+        "title": "漢末英雄記",
+        "layer": "隋/舊唐書目"
+      },
+      {
+        "title": "漢書英雄記",
+        "layer": "新唐書目收到字面"
+      }
+    ],
+    "volumes": [
+      {
+        "source": "隋書",
+        "count": 8,
+        "condition": "殘缺"
+      },
+      {
+        "source": "隋書追記梁藏",
+        "count": 10
+      },
+      {
+        "source": "舊唐書",
+        "count": 10,
+        "author_wording": "王粲等撰"
+      },
+      {
+        "source": "新唐書",
+        "count": 10
+      }
+    ],
+    "composition_year": null,
+    "earliest_extant_edition": null,
+    "transcription_base_of_lost_work": null,
+    "no_new_empty_registry": true,
+    "primary_proof_ids": [
+      "hero-proof-01",
+      "hero-proof-02",
+      "hero-proof-03"
+    ],
+    "same_work_assessment": "裴引英雄記的漢末人物題材與古書目漢末英雄記吻合，可作有資格的同書候選；本輪沒有找到裴注親自把王粲和英雄記連寫的明署證據，不能稱已證每處短題均唯一同書。",
+    "hhs009_scope": "同一王匡首句支持跨引文候選；李賢/裴注分存，不自動掛到王粲權威。",
+    "exclusions": [
+      "不同作品英雄錄不併",
+      "不由王粲生卒推成書年",
+      "不把梁有十卷當現存最早梁本",
+      "不把WS或Kanripo數位修訂/提交年當古本年",
+      "不採搜尋摘要的王粲英雄記歸屬作證"
+    ],
+    "human_reviewed": false
+  },
+  "limits": [
+    "只標此實際已匯入李賢注；未標外部三國志raw或未匯入曹純單元。",
+    "不以同題合英雄錄，不把王粲主傳未載此書改作裴注直接明署。",
+    "撰成／原書最早存版未知；隋追記梁十卷非親讀現存梁本。"
+  ]
+}

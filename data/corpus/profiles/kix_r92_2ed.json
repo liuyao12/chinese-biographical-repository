@@ -13,9 +13,93 @@
     "帝",
     "我"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "id": "th-nanqi043-xieyue-zu-midarmy",
+      "person_id": "kix_r92_2ed",
+      "title": "中軍",
+      "kind": "office",
+      "mode": "attestation",
+      "evidence": [
+        {
+          "work_id": "w-nanqishu",
+          "book_id": "b-nanqishu-043",
+          "source_id": "s-nanqishu043-ws2400356",
+          "chapter_id": "c-nanqishu-043-xieyue",
+          "paragraph_id": "c-nanqishu-043-xieyue:p003",
+          "quote": "解褐車騎行參軍，遷祕書郎，司徒祭酒，丹陽丞，撫軍功曹。世祖爲中軍，引爲記室。齊臺建，遷太子中舍人。建元初，轉桂陽王友。以母老須養，出爲安成內史。還爲中書郎。衞軍王儉引爲長史，雅相禮遇。除黃門郎，兼掌吏部。尋轉太子中庶子，領驍騎將軍，轉長兼侍中。𤅢以晨昏有廢，固辭不受。世祖勑令速拜，別停朝直。",
+          "person_mention_id": "c-nanqishu-043-xieyue:p003:m0027"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-nanqi043-xieyue-zu-midarmy:a001",
+          "paragraph_id": "c-nanqishu-043-xieyue:p003",
+          "start": 30,
+          "end": 32,
+          "surface": "中軍",
+          "person_mention_id": "c-nanqishu-043-xieyue:p003:m0027",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "世祖爲中軍而引𤅢記室，中軍屬世祖；不補將軍二字。",
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 15,
+      "category": "",
+      "title": "謝朏傳（含諼、篹附傳）",
+      "paragraph_id": "c-liangshu-015-xiefei:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "道。」遂朝服，步出東掖門，乃得車，仍還宅。是日遂以王儉爲侍中解璽。旣而武帝言於高帝，請誅朏。帝曰：「殺之則遂成其名，正應容之度外耳。」遂廢于家。",
+      "paragraph_ids": [
+        "c-liangshu-015-xiefei:p003"
+      ],
+      "mention_ids": [
+        "c-liangshu-015-xiefei:p003:m0365"
+      ],
+      "mention_paragraph_ids": {
+        "c-liangshu-015-xiefei:p003:m0365": "c-liangshu-015-xiefei:p003"
+      },
+      "mention_id": "c-liangshu-015-xiefei:p003:m0365",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-liangshu-015-xiefei:p003:m0365",
+          "mention_ids": [
+            "c-liangshu-015-xiefei:p003:m0365"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "chapter_id": "c-liangshu-015-xiefei",
+      "source_id": "s-liangshu015-ws1506954",
+      "work_title": "梁書"
+    },
     {
       "number": 24,
       "category": "",
@@ -414,6 +498,44 @@
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-liangshu-015-xiefei",
+      "work_id": "w-liangshu",
+      "book_id": "b-liangshu-015",
+      "source_id": "s-liangshu015-ws1506954",
+      "source": {
+        "title": "《梁書》卷十五謝朏完整本傳（含子諼、篹附傳）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=梁書/卷15&oldid=1506954",
+        "revision_id": 1506954,
+        "accessed_on": "2026-10-21",
+        "extent": "原11至27行九完整段共1953原字，止29行謝覽獨立傳之前；非全卷，不匯入篇末姚察史論及現代校注。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留數位歸屬。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": "維基文庫數位轉錄，未核底本影像",
+        "response_sha256": "73a047d0a44ea0cf7fa9c04fbd63cf0568cd6d1a3616dcf2ac64936942dea064",
+        "wikitext_sha256": "0ae55481ce12880db956ce367fee817fd1cd64f07685408996c5f31f080ffff6",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅展YL連結為顯示年號、去每段兩全形縮排；原𤅢、俁、不治、後五年不改；表題弟子覽為paratext，非此單元正文提及。",
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                26,
+                26
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 1506954
+            }
+          ]
+        }
+      }
+    },
     {
       "chapter_id": "c-nanqishu-032-wangyanzhi",
       "work_id": "w-nanqishu",

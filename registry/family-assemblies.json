@@ -3223,7 +3223,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。",
+      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。 墓誌明載彬之孫及興之元子，接興之與閩之；興之為彬子單列連續祖先推導，不為三弟補父母。",
       "members": [
         {
           "person_id": "7r6_k52_qji",
@@ -4507,6 +4507,64 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "7r6_k52_qji_AAAA",
           "source_assertion_id": "a-jinshu033-wang-024"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBC",
+          "representative_source_person_id": "7r6_k52_qji_ABDBC",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDB",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "interpretation_basis": "epitaph_named_family_sequence",
+            "chain_subject_person_id": "7r6_k52_qji_ABDBCA",
+            "nearer_ancestor_assertion_id": "a-wangminzhi-epitaph-father",
+            "farther_ancestor_assertion_id": "a-wangminzhi-epitaph-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "本方誌主為彬之孫、興之之元子，父與祖屬相鄰具名父系世代；興之為彬子是可撤回編輯推導，不另造原文父子斷言。原拓未見、依2009排印校錄資格不變。",
+            "references": [
+              {
+                "work_id": "w-epitaph-wangminzhi",
+                "book_id": "b-epitaph-wangminzhi-full",
+                "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+                "chapter_id": "c-epitaph-wangminzhi-full",
+                "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+                "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+                "subject_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013",
+                "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0035",
+                "assertion_id": "a-wangminzhi-epitaph-father",
+                "scope": "完整同方誌文明父與祖；興之為彬子屬連續世代編輯推導，非新增原文明父句",
+                "url": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3"
+              },
+              {
+                "work_id": "w-epitaph-wangminzhi",
+                "book_id": "b-epitaph-wangminzhi-full",
+                "source_id": "s-epitaph-wangminzhi-ntu2009-cc75be5",
+                "chapter_id": "c-epitaph-wangminzhi-full",
+                "paragraph_id": "c-epitaph-wangminzhi-full:p001",
+                "quote": "晉故男子琅耶臨沂都鄉南仁里王閩之字冶民故尚書左僕射特進衛將軍彬之孫贛令興之之元子年廿八升平二年三月九日卒葬于舊墓在贛令墓之後故刻塼於墓為識妻吳興施氏字女式弟嗣之咸之預之",
+                "subject_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0013",
+                "object_person_mention_id": "c-epitaph-wangminzhi-full:p001:m0030",
+                "assertion_id": "a-wangminzhi-epitaph-grandfather",
+                "scope": "完整同方誌文明父與祖；興之為彬子屬連續世代編輯推導，非新增原文明父句",
+                "url": "https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDBCA",
+          "representative_source_person_id": "7r6_k52_qji_ABDBCA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDBCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDBC",
+          "source_assertion_id": "a-wangminzhi-epitaph-father"
         }
       ]
     },
@@ -4517,7 +4575,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。 本批以萬子韶、弘微父思祖韶及曜兄弘微串接萬至宋后近系；思父韶與曜父思僅為可撤回編輯推定，出繼峻與所繼叔父混分角色，不合恩思。",
+      "rationale": "晉書具名父叔與宋書父祖接合；據接裒為獨立編輯推導，朗重絢直接父子另存。謝玄依謝奕附傳連續正文三子名單接為奕子，玄、瑍、靈運三代另有具名原文。三代母系分開；謝尚仍在另組已證近系，不因同姓或數位標題補未知父系。未宣稱全族完成。 本批以萬子韶、弘微父思祖韶及曜兄弘微串接萬至宋后近系；思父韶與曜父思僅為可撤回編輯推定，出繼峻與所繼叔父混分角色，不合恩思。 本批接謝莊子朏、𤅢與朏子諼篹之明載父系；顥嵷依四兄與名兒上下文暫作同父組裝，不補母或絕對排行。",
       "members": [
         {
           "person_id": "aa6_83c_juy",
@@ -5341,6 +5399,110 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "aa6_83c_juy_DBABAA",
           "source_assertion_id": "a-song085-zhuang-003"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAB",
+          "representative_source_person_id": "aa6_83c_juy_DBABAB",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABA",
+          "source_assertion_id": "a-liang015-xiefei-father"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAC",
+          "representative_source_person_id": "aa6_83c_juy_DBABAC",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABA",
+          "source_assertion_id": "a-nanqi043-xieyue-father"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABABA",
+          "representative_source_person_id": "aa6_83c_juy_DBABABA",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABABA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABAB",
+          "source_assertion_id": "a-liang015-xiefei-son-xuan"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABABB",
+          "representative_source_person_id": "aa6_83c_juy_DBABABB",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABABB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABAB",
+          "source_assertion_id": "a-liang015-xiefei-son-zhuan"
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAD",
+          "representative_source_person_id": "aa6_83c_juy_DBABAD",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_DBABAC",
+            "sibling_assertion_id": "a-nanqi043-xieyue-elder-third",
+            "sibling_father_assertion_id": "a-nanqi043-xieyue-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "𤅢傳首明父莊，連列四兄及謝莊名兒五字；以兄弟及同父來源作可撤回組裝，不冒原文逐人父莊，不推同母或絕對排行。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-043",
+                "chapter_id": "c-nanqishu-043-xieyue",
+                "source_id": "s-nanqishu043-ws2400356",
+                "paragraph_id": "c-nanqishu-043-xieyue:p001",
+                "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+                "scope": "同段明父莊與四兄、名兒語境；顥嵷同父為編輯組裝",
+                "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356",
+                "assertion_id": "a-nanqi043-xieyue-elder-third"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "aa6_83c_juy_DBABAE",
+          "representative_source_person_id": "aa6_83c_juy_DBABAE",
+          "source_person_ids": [
+            "aa6_83c_juy_DBABAE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "aa6_83c_juy_DBABA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "aa6_83c_juy_DBABAC",
+            "sibling_assertion_id": "a-nanqi043-xieyue-elder-fourth",
+            "sibling_father_assertion_id": "a-nanqi043-xieyue-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "𤅢傳首明父莊，連列四兄及謝莊名兒五字；以兄弟及同父來源作可撤回組裝，不冒原文逐人父莊，不推同母或絕對排行。",
+            "references": [
+              {
+                "work_id": "w-nanqishu",
+                "book_id": "b-nanqishu-043",
+                "chapter_id": "c-nanqishu-043-xieyue",
+                "source_id": "s-nanqishu043-ws2400356",
+                "paragraph_id": "c-nanqishu-043-xieyue:p001",
+                "quote": "謝𤅢字義潔，陳郡陽夏人也。祖弘微，宋太常。父莊，金紫光祿大夫。𤅢四兄颺、朏、顥、嵷，世謂謝莊名兒爲風、月、景、山、水。顥字仁悠，少簡靜。解褐祕書郎，累至太祖驃騎從事中郎。建元初，爲吏部郎，至太尉從事中郎。永明初，高選友、學，以顥爲竟陵王友。至北中郎長史。卒。",
+                "scope": "同段明父莊與四兄、名兒語境；顥嵷同父為編輯組裝",
+                "url": "https://zh.wikisource.org/w/index.php?title=南齊書/卷43&oldid=2400356",
+                "assertion_id": "a-nanqi043-xieyue-elder-fourth"
+              }
+            ]
+          }
         }
       ]
     },
@@ -8800,6 +8962,72 @@
             null
           ],
           "interpretation_note": "原文明孫，父未知，缺代星號不登記為人物。"
+        },
+        {
+          "person_id": "9w8_tqh_ysn_B*AB",
+          "representative_source_person_id": "9w8_tqh_ysn_B*AB",
+          "source_person_ids": [
+            "9w8_tqh_ysn_B*AB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "9w8_tqh_ysn_B*A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "9w8_tqh_ysn_B*AA",
+            "sibling_assertion_id": "a-sanguozhi022-daizheng-dai-brother",
+            "sibling_father_assertion_id": "a-sanguozhi022-chen-017",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "裴引陳氏譜同段佐子凖及凖弟戴徵，採同父近系推導。WS固定標點助分名，不作獨立古史計票。唐表佐二子準徽不一致，保異說與撤回性，不推同母或直接父子源陳述。",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-022",
+                "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+                "source_id": "s-sanguozhi-022-chenqun-chentai",
+                "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+                "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+                "assertion_id": "a-sanguozhi022-daizheng-dai-brother",
+                "scope": "凖弟戴/徵與同段佐子凖；同父為可撤回推導，不是原文明父。唐表準徽異說見source-evidence/sanguozhi022-daizheng/decision.json",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+                "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "9w8_tqh_ysn_B*AC",
+          "representative_source_person_id": "9w8_tqh_ysn_B*AC",
+          "source_person_ids": [
+            "9w8_tqh_ysn_B*AC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "9w8_tqh_ysn_B*A",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "9w8_tqh_ysn_B*AA",
+            "sibling_assertion_id": "a-sanguozhi022-daizheng-zheng-brother",
+            "sibling_father_assertion_id": "a-sanguozhi022-chen-017",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "裴引陳氏譜同段佐子凖及凖弟戴徵，採同父近系推導。WS固定標點助分名，不作獨立古史計票。唐表佐二子準徽不一致，保異說與撤回性，不推同母或直接父子源陳述。",
+            "references": [
+              {
+                "work_id": "w-sanguozhi",
+                "book_id": "b-sanguozhi-022",
+                "chapter_id": "c-sanguozhi-022-chenqun-chentai",
+                "source_id": "s-sanguozhi-022-chenqun-chentai",
+                "paragraph_id": "c-sanguozhi-022-chenqun-chentai:p016",
+                "quote": "案陳氏譜羣之後名位遂微諶孫佐官至青州刺史佐弟坦廷尉佐子凖太尉封廣陵郡公凖弟戴徵及從弟堪並至大位凖孫逵字林道有譽江左為西中郎將追贈衛將軍",
+                "assertion_id": "a-sanguozhi022-daizheng-zheng-brother",
+                "scope": "凖弟戴/徵與同段佐子凖；同父為可撤回推導，不是原文明父。唐表準徽異說見source-evidence/sanguozhi022-daizheng/decision.json",
+                "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_022.txt",
+                "parallel_punctuation_url": "https://zh.wikisource.org/w/index.php?title=三國志/卷22&oldid=2085105"
+              }
+            ]
+          }
         }
       ]
     },
