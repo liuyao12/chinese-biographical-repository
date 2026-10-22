@@ -140,6 +140,50 @@
       "work_title": "晉書"
     },
     {
+      "number": 43,
+      "category": "",
+      "title": "王衍傳",
+      "paragraph_id": "c-jinshu-043-wangyan:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "衍字夷甫，神情明秀，風姿詳雅。總角嘗造山濤，濤嗟歎良久，既去，目而送之曰：「何物老嫗，生甯馨兒！然誤天下蒼生者，未必非此人也。」父乂，為平北將軍，常有公事，使行人列上，不時報。衍年十四，時在京師，造僕射羊祜，申陳事狀，辭甚清辯。祜名德貴重，而",
+      "paragraph_ids": [
+        "c-jinshu-043-wangyan:p001"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-wangyan:p001:m0019",
+        "c-jinshu-043-wangyan:p001:m0022"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-wangyan:p001:m0019": "c-jinshu-043-wangyan:p001",
+        "c-jinshu-043-wangyan:p001:m0022": "c-jinshu-043-wangyan:p001"
+      },
+      "mention_id": "c-jinshu-043-wangyan:p001:m0019",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p001:m0019",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p001:m0019"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p001:m0022",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p001:m0022"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-wangyan",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "work_title": "晉書"
+    },
+    {
       "number": 62,
       "category": "",
       "title": "《宋書》卷六十二王微完整本傳（編輯選錄題）",
@@ -12193,6 +12237,33 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原缺閉引號、季劄、鐘會、𦃩、報嘗均保留。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-wangyan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source": {
+        "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-21",
+        "extent": "從弟衍節十個完整原段，含子玄末段；止衍弟澄節之前，不含王澄與全卷史評。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
         }
       }
     },

@@ -287,6 +287,60 @@
       "work_title": "晉書"
     },
     {
+      "number": 43,
+      "category": "",
+      "title": "王衍傳",
+      "paragraph_id": "c-jinshu-043-wangyan:p006",
+      "count": 3,
+      "raw_count": 3,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "後拜尚書令、司空、司徒。衍雖居宰輔之重，不以經國為念，而思自全之計。說東海王越曰：「中國已亂，當賴方伯，宜得文武兼資以任之。」乃以弟澄為荊州，族弟敦為青州。因謂澄、敦曰：「荊州有江、漢之固，青州有負海之險，卿二人在外，而吾留此，足以為三窟矣。」識者鄙之。",
+      "paragraph_ids": [
+        "c-jinshu-043-wangyan:p006",
+        "c-jinshu-043-wangyan:p008"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-wangyan:p006:m0134",
+        "c-jinshu-043-wangyan:p008:m0000",
+        "c-jinshu-043-wangyan:p008:m0018"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-wangyan:p006:m0134": "c-jinshu-043-wangyan:p006",
+        "c-jinshu-043-wangyan:p008:m0000": "c-jinshu-043-wangyan:p008",
+        "c-jinshu-043-wangyan:p008:m0018": "c-jinshu-043-wangyan:p008"
+      },
+      "mention_id": "c-jinshu-043-wangyan:p006:m0134",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p006:m0134",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p006:m0134"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p008:m0000",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p008:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-wangyan:p008:m0018",
+          "mention_ids": [
+            "c-jinshu-043-wangyan:p008:m0018"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-wangyan",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "work_title": "晉書"
+    },
+    {
       "number": 59,
       "category": "",
       "title": "司馬亮、司馬羕",
@@ -12536,6 +12590,33 @@
         "response_sha256": "6024484babc384e46d119f771afcfcc00dda04e96dfd57c6e2e220bfc11ca63f",
         "wikitext_sha256": "93fdc36293b084a3693b073808ba92095e730973f8e4c5b2b4dd19fb1e9cea4c",
         "edition": "維基文庫數位轉錄，底本影像未核"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-wangyan",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "source": {
+        "title": "《晉書》卷四十三從弟王衍完整敘事單元（含子玄附敘）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-21",
+        "extent": "從弟衍節十個完整原段，含子玄末段；止衍弟澄節之前，不含王澄與全卷史評。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄，保留來源歸屬；數位文字依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首空白、展開維基連結顯示字及YL年號模板；原齊王乂、雲、荀籓、見誣見狀等保留；老莊連結顯示字依原wikitext展開。"
+        }
       }
     },
     {

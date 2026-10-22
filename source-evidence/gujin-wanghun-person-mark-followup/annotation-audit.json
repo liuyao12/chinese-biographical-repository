@@ -1,0 +1,63 @@
+{
+  "record_type": "editorial_annotation_revision_receipt",
+  "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+  "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun",
+  "old_mention": {
+    "id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0003",
+    "start": 3,
+    "end": 10,
+    "surface": "一戎父(晉人)",
+    "kind": "unresolved",
+    "person_id": null,
+    "status": "unresolved",
+    "interpretation_note": "名錄所列另一語境；尚未取得其完整父系傳文，不掛太原昶支。"
+  },
+  "replacement_mentions": [
+    {
+      "id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0004",
+      "start": 4,
+      "end": 5,
+      "surface": "戎",
+      "kind": "person",
+      "person_id": "48e_04a_3d8",
+      "status": "contextual_provisional",
+      "interpretation_note": "名錄第一項逐人辨識：戎及其父分別標記；依043完整王戎傳首祖雄父渾交證，名錄只為後出索引佐證，不反向證父系。"
+    },
+    {
+      "id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0005",
+      "start": 5,
+      "end": 6,
+      "surface": "父",
+      "kind": "person",
+      "person_id": "rj2_m1s_n3l",
+      "status": "contextual_provisional",
+      "interpretation_note": "名錄第一項逐人辨識：戎及其父分別標記；依043完整王戎傳首祖雄父渾交證，名錄只為後出索引佐證，不反向證父系。"
+    }
+  ],
+  "source_text_sha256_unchanged": "fb5ea73a2decdc4535a6ce769d2f2e18d63706fe51b8e251a2842602b20c9632",
+  "reason": "原m0003把含條目序詞、戎、父及括註的整項包成未解錨點；現043完整傳已採，將其拆成戎/父逐人精確標記；一及晉人括註非人名，不另造人。",
+  "old_anchor_is_not_current": true,
+  "mention_redirects_created": false,
+  "person_id_aliases_created": false,
+  "primary_evidence": [
+    {
+      "work_id": "w-gujin-tongxingminglu",
+      "book_id": "b-gujin-tongxingminglu-001",
+      "source_id": "s-gujin-tongxingminglu-001-wang-entries",
+      "chapter_id": "c-gujin-tongxingminglu-001-wang-entries",
+      "paragraph_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun",
+      "quote": "二王渾一戎父(晉人)一濟父字元冲伐吳者",
+      "person_mention_id": "c-gujin-tongxingminglu-001-wang-entries:wanghun:m0005"
+    },
+    {
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-wangrong",
+      "chapter_id": "c-jinshu-043-wangrong",
+      "paragraph_id": "c-jinshu-043-wangrong:p001",
+      "quote": "王戎，字濬沖，琅邪臨沂人也。祖雄，幽州刺史。父渾，涼州刺史、貞陵亭侯。戎幼而穎悟，神彩秀徹。視日不眩，裴楷見而目之曰：「戎眼燦燦，如岩下電。」年六七歲，于宣武場觀戲，猛獸在檻中虓吼震地，眾皆奔走，戎獨立不動，神色自若。魏明帝於閣上見而奇之。又嘗與群兒嬉於道側，見李樹多實，等輩兢趣之，戎獨不往。或問其故，其曰：「樹在道邊而多子，必苦李也。」取之信然。",
+      "person_mention_id": "c-jinshu-043-wangrong:p001:m0023"
+    }
+  ],
+  "human_reviewed": false
+}
