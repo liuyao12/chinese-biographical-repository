@@ -1,4 +1,4 @@
-"""Opaque person identifiers; published legacy identifiers remain valid."""
+"""Person ID allocation; explicit root reserves known retired IDs."""
 import re
 import secrets
 import string
@@ -14,29 +14,49 @@ def valid_person_id(value):
     return isinstance(value, str) and bool(LEGACY.fullmatch(value) or OPAQUE.fullmatch(value) or FAMILY.fullmatch(value) or LEGACY_FAMILY.fullmatch(value))
 
 
-def allocate_person_id(existing):
-    used = set(existing)
+def _retired(root):
+    if root is None:
+        return frozenset()
+    try:
+        from .retired_person_ids import retired_person_ids
+    except ImportError:
+        from retired_person_ids import retired_person_ids
+    return retired_person_ids(root)
+
+
+def _reserved(candidate, retired):
+    try:
+        from .retired_person_ids import allocation_conflicts
+    except ImportError:
+        from retired_person_ids import allocation_conflicts
+    return allocation_conflicts(candidate, retired)
+
+
+def allocate_person_id(existing, *, root=None):
+    retired = _retired(root)
+    used = set(existing) | set(retired)
     while True:
         token = ''.join(secrets.choice(string.ascii_lowercase + string.digits) for _ in range(9))
         candidate = '_'.join(token[n:n+3] for n in (0, 3, 6))
-        if candidate not in used and not any(pid.startswith(candidate) for pid in used):
+        if candidate not in used and not any(pid.startswith(candidate) for pid in used) and not _reserved(candidate, retired):
             return candidate
 
 
-def allocate_child_id(parent_id, existing):
-    return allocate_descendant_id(parent_id, 1, existing)
+def allocate_child_id(parent_id, existing, *, root=None):
+    return allocate_descendant_id(parent_id, 1, existing, root=root)
 
 
-def allocate_descendant_id(ancestor_id, generations, existing):
+def allocate_descendant_id(ancestor_id, generations, existing, *, root=None):
     if not isinstance(ancestor_id, str) or not FAMILY.fullmatch(ancestor_id):
         raise ValueError('Ancestor must have a family-path ID')
     if type(generations) is not int or generations < 1:
         raise ValueError('Generation distance must be a positive integer')
-    used = set(existing)
+    retired = _retired(root)
+    used = set(existing) | set(retired)
     for suffix in SUFFIX_CHARS:
         branch = ancestor_id + ('_' if len(ancestor_id) == 11 else '') + '*' * (generations - 1) + suffix
         # A missing generation reserves a branch; it does not register a person.
-        if not any(pid.startswith(branch) for pid in used):
+        if not any(pid.startswith(branch) for pid in used) and not _reserved(branch, retired):
             return branch
     raise ValueError('No available child suffix')
 

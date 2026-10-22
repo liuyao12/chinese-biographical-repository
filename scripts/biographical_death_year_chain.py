@@ -2,7 +2,7 @@
 """A retained biography topic, explicit era and ordinal chain bind an elided death subject."""
 import hashlib,re
 
-def valid(date,event,chapters,parse_number):
+def valid(date,event,chapters,parse_number,root=None):
  try:
   try:
    from scripts.relative_regnal_year import relative_regnal_year_valid
@@ -25,9 +25,17 @@ def valid(date,event,chapters,parse_number):
   start=order.index(anchors[0]['paragraph_id']);end=order.index(da['paragraph_id']);ids=order[start:end+1]
   if start>end or order.index(tp['id'])>start or local['paragraph_id']!=da['paragraph_id']or b['paragraph_ids']!=ids:return False
   if b['full_paragraphs']!=[{'paragraph_id':pid,'quote':by[pid]['text'],'source_position':by[pid]['source_position']}for pid in ids]:return False
-  for pid in ids:
-   p=by[pid];pos=p['source_position']
-   if pos['revision_id']!=source['revision_id']or len(pos['raw_character_positions'])!=len(p['text']):return False
+  if 'received_text_projection' in b:
+   try:
+    from scripts.biographical_work_references import projection_valid, references_valid
+   except ImportError:
+    from biographical_work_references import projection_valid, references_valid
+   if not projection_valid(c,ps,b,root):return False
+  else:
+   if 'non_subject_references' in b:return False
+   for pid in ids:
+    p=by[pid];pos=p['source_position']
+    if pos['revision_id']!=source['revision_id']or len(pos['raw_character_positions'])!=len(p['text']):return False
   if [(a['paragraph_id'],a['start'])for a in anchors]!=sorted([(a['paragraph_id'],a['start'])for a in anchors],key=lambda x:(order.index(x[0]),x[1])):return False
   era=date['regnal_year_mapping']['era_name'];previous=None
   for i,x in enumerate(chain):
@@ -44,7 +52,9 @@ def valid(date,event,chapters,parse_number):
   if last['kind']!='omitted_era_ordinal'or date['source_expression']!=last_a['surface']or event['date_expression']!=last_a['surface']or date['regnal_year_mapping']['regnal_year']!=last['regnal_year']or date['regnal_year_mapping']['year_offset']!=0:return False
   if da['surface']not in ['卒','薨','死']or event['source_term']!=da['surface']or da['paragraph_id']!=lp['id']or last_a['paragraph_id']!=lp['id']or not lm['end']<=last_a['start']<last_a['end']<=da['start']:return False
   # No named subject change may occur after the retained local topic and before death.
-  if any(m.get('kind')=='person'and lm['end']<=m['start']<da['end']and m.get('person_id')!=event['person_id']for m in lp['mentions']):return False
+  if 'received_text_projection' in b:
+   if not references_valid(b,lp,lm,da):return False
+  elif any(m.get('kind')=='person'and lm['end']<=m['start']<da['end']and m.get('person_id')!=event['person_id']for m in lp['mentions']):return False
   e,=event['evidence']
   if e!={**{k:c[k]for k in ['work_id','book_id','source_id']},'chapter_id':c['id'],'paragraph_id':lp['id'],'quote':lp['text'],'person_mention_id':lm['id']}:return False
   if date['original_quote']!=lp['text']or [e['paragraph_id']for e in date['evidence']]!=ids:return False
