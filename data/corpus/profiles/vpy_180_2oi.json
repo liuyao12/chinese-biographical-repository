@@ -187,7 +187,7 @@
   "relations": [
     {
       "id": "a-nanshi033-songzhi-grandfather",
-      "subject_person_id": "301_026_427",
+      "subject_person_id": "vpy_180_2oi_AA",
       "predicate": "grandfather",
       "object_person_id": "vpy_180_2oi",
       "status": "source_attested",
@@ -214,7 +214,7 @@
     },
     {
       "id": "a-song064-songzhi-grandfather",
-      "subject_person_id": "301_026_427",
+      "subject_person_id": "vpy_180_2oi_AA",
       "predicate": "grandfather",
       "object_person_id": "vpy_180_2oi",
       "status": "source_attested",
@@ -241,8 +241,8 @@
     }
   ],
   "related_people": {
-    "301_026_427": "裴松之",
-    "vpy_180_2oi": "昧〔裴松之祖〕"
+    "vpy_180_2oi": "昧〔裴松之祖〕",
+    "vpy_180_2oi_AA": "裴松之"
   },
   "dates": [],
   "name_components": [],
@@ -252,7 +252,7 @@
   "preferred_relations": [
     {
       "id": "a-nanshi033-songzhi-grandfather",
-      "subject_person_id": "301_026_427",
+      "subject_person_id": "vpy_180_2oi_AA",
       "predicate": "grandfather",
       "object_person_id": "vpy_180_2oi",
       "status": "source_attested",
@@ -279,7 +279,7 @@
     },
     {
       "id": "a-song064-songzhi-grandfather",
-      "subject_person_id": "301_026_427",
+      "subject_person_id": "vpy_180_2oi_AA",
       "predicate": "grandfather",
       "object_person_id": "vpy_180_2oi",
       "status": "source_attested",
@@ -303,6 +303,69 @@
       "human_reviewed": false,
       "reviewer": "Codex（AI代理）",
       "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "vpy_180_2oi",
+    "representative_source_person_id": "vpy_180_2oi",
+    "source_person_ids": [
+      "vpy_180_2oi"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": null,
+    "assembly_id": "family-hedong-pei-songzhi",
+    "root_person_id": "vpy_180_2oi",
+    "status": "editorial_preferred",
+    "human_reviewed": false
+  },
+  "assembled_children": [
+    {
+      "person_id": "vpy_180_2oi_A",
+      "representative_source_person_id": "vpy_180_2oi_A",
+      "source_person_ids": [
+        "vpy_180_2oi_A"
+      ],
+      "identity_equivalence_decision_ids": [],
+      "parent_person_id": "vpy_180_2oi",
+      "source_assertion_id": null,
+      "parent_connection": {
+        "type": "parent_between_consecutive_ancestors",
+        "chain_subject_person_id": "vpy_180_2oi_AA",
+        "nearer_ancestor_assertion_id": "a-nanshi033-songzhi-father",
+        "farther_ancestor_assertion_id": "a-nanshi033-songzhi-grandfather",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "同段松之父珪、祖昧為連續具名父系祖先；珪為昧子是編輯組裝，不另造來源父子斷言。",
+        "references": [
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-033",
+            "source_id": "s-nanshi033-ws1554233",
+            "chapter_id": "c-nanshi-033-pei-family",
+            "paragraph_id": "c-nanshi-033-pei-family:p001",
+            "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+            "assertion_id": "a-nanshi033-songzhi-father",
+            "scope": "同一人物之連續具名父祖",
+            "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+          },
+          {
+            "work_id": "w-nanshi",
+            "book_id": "b-nanshi-033",
+            "source_id": "s-nanshi033-ws1554233",
+            "chapter_id": "c-nanshi-033-pei-family",
+            "paragraph_id": "c-nanshi-033-pei-family:p001",
+            "quote": "裴松之字世期，河東聞喜人也。祖昧，光祿大夫。父珪，正員外郎。",
+            "assertion_id": "a-nanshi033-songzhi-grandfather",
+            "scope": "同一人物之連續具名父祖",
+            "url": "https://zh.wikisource.org/w/index.php?title=%E5%8D%97%E5%8F%B2%2F%E5%8D%B733&oldid=1554233"
+          }
+        ]
+      },
+      "assembly_id": "family-hedong-pei-songzhi",
+      "root_person_id": "vpy_180_2oi",
+      "status": "editorial_preferred",
+      "human_reviewed": false
     }
   ],
   "age_assertions": [],

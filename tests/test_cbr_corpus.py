@@ -20,6 +20,9 @@ class CorpusTests(unittest.TestCase):
         shutil.copytree(ROOT/'sources/witnesses',self.root/'sources/witnesses')
         shutil.copytree(ROOT/'sources/weishu-weishou',self.root/'sources/weishu-weishou')
         shutil.copytree(ROOT/'sources/songshu',self.root/'sources/songshu')
+        # Source-bound cousin claims validate their actual fixed raw witnesses.
+        for folder in ('liangshu', 'nanshi'):
+            shutil.copytree(ROOT/'sources'/folder, self.root/'sources'/folder)
     def change(self,path,fn):
         p=self.root/path;d=json.loads(p.read_text());fn(d);p.write_text(json.dumps(d,ensure_ascii=False))
     def test_work_mention_cannot_link_person(self):
