@@ -16,7 +16,7 @@ class WangSource(unittest.TestCase):
  def test_source_local_shen_reuses_four_positions_but_not_foreign_homonyms(self):
   pids=[self.by[PREFIX+x][1]['person_id']for x in ['unit005:m0039','unit005:m0041','unit018:m0054','unit018:m0059']];self.assertEqual(set(pids),{self.ids['shen']});self.assertNotIn('7r6_k52_qji_ABAAAABA',pids);self.assertNotIn('b2a_88b_095',pids)
  def test_candidates_remain_unresolved_not_identity_equivalence(self):
-  cases=self.c['annotation']['unresolved_identity_cases'];self.assertEqual(len([x for x in cases if x['id'].startswith('case-sgz027-')]),3)
+  cases=self.c['annotation']['unresolved_identity_cases'];self.assertEqual(len([x for x in cases if x['id'].startswith('case-sgz027-')and x['id'].endswith('-source-local')]),3)
   for key in ['mo','shen','guoyi']:
    case=next(x for x in cases if x['id']=='case-sgz027-'+key+'-source-local');self.assertEqual(case['status'],'unresolved');self.assertEqual(len(case['candidate_person_ids']),2);self.assertIn(self.ids[key],case['candidate_person_ids']);self.assertFalse(case['candidate_list_exhaustive']);self.assertFalse(case['human_reviewed'])
  def test_quote_speaker_is_not_zigong(self):

@@ -12,5 +12,5 @@ class DirectKinship(unittest.TestCase):
   cat=load_catalog(R);a=json.loads((R/'corpus/sanguozhi/027-wangchang-assertions.json').read_text())['assertions'][-3:]
   for x in a:
    for pid in [x['subject_person_id'],x['object_person_id']]:self.assertTrue(any(r['id']==x['id']for r in bundle(pid,root=R,catalog=cat)['relations']))
-  c=json.loads((R/'corpus/sanguozhi/027-wangchang.json').read_text());cases=[x for x in c['annotation']['unresolved_identity_cases']if x['id'].startswith('case-sgz027-')];self.assertEqual(len(cases),3);self.assertTrue(all(x['status']=='unresolved'for x in cases))
+  c=json.loads((R/'corpus/sanguozhi/027-wangchang.json').read_text());cases=[x for x in c['annotation']['unresolved_identity_cases']if x['id'].startswith('case-sgz027-')and x['id'].endswith('-source-local')];self.assertEqual(len(cases),3);self.assertTrue(all(x['status']=='unresolved'for x in cases))
 if __name__=='__main__':unittest.main()

@@ -61,6 +61,10 @@ def prior_subject_valid(context, evidence, person_id, chapter):
 
 def title_attestation_subject_valid(attestation, holding, chapter):
     """Keep a title's actual location and its preceding named subject separate."""
+    if attestation.get('context',{}).get('kind')=='layered_biography_subject_continuation':
+        try:from scripts.layered_biography_titles import title_context_valid
+        except ImportError:from layered_biography_titles import title_context_valid
+        return title_context_valid(attestation,holding,chapter)
     context = attestation.get('context')
     if (not isinstance(context, dict)
             or set(context) != {'kind', 'paragraph_id', 'person_mention_id', 'quote'}

@@ -56,6 +56,82 @@
         }
       },
       "period": "未定 → 未定"
+    },
+    {
+      "id": "th-hhs064-prefix_office-office-subject-p006-2",
+      "person_id": "0db_22c_332",
+      "title": "大將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "status": "source_attested",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "prefix_office",
+        "paragraph_id": "c-houhanshu-064-luzhi:p006",
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "start": 2,
+          "end": 7,
+          "surface": "大將軍何進"
+        },
+        "roles": {
+          "subject": "c-houhanshu-064-luzhi:p006:m0005"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p006",
+            "start": 2,
+            "end": 5,
+            "surface": "大將軍"
+          }
+        },
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "5e1e320ee7530b71fdd01d04efe6daba3736ec5a700332fe27f2ac331edc46f5",
+        "human_reviewed": false,
+        "slot": "office",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "quote": "帝崩大將軍何進謀誅中官乃召并州牧董卓以懼太后植知卓凶悍難制必生後患固止之進不從及卓至果陵虐朝廷乃大會百官於朝堂議欲廢立羣僚無敢言植獨抗議不同卓怒罷會將誅植語在卓傳植素善蔡邕邕前徙朔方植獨上書請之邕時見親於卓故往請植事又議郎彭伯諫卓曰盧尚書海内大儒人之望也今先害天下震怖卓乃止但免植官而已植以老病求歸懼不免禍乃詭道從轘轅出卓果使人追之到懐不及遂隱於上谷不交人事冀州牧袁紹請為軍師",
+          "person_mention_id": "c-houhanshu-064-luzhi:p006:m0005"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-hhs064-prefix_office-office-subject-p006-2:a",
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "start": 2,
+          "end": 5,
+          "surface": "大將軍",
+          "person_mention_id": "c-houhanshu-064-luzhi:p006:m0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "依本固定來源逐原句角色記任命、轉任或用稱；期間未知不由上書、死亡、先後或邀請補齊。古注與正文來源分存。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
     }
   ],
   "addresses": [],

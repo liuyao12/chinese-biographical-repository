@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `9bq_w53_csf` | 周烈王引古 | [《史記・魯仲連鄒陽列傳》][147] | [JSON](9bq_w53_csf.json) |
 | `9c1_b3c_cb7` | 孫綽 | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][51] | [JSON](9c1_b3c_cb7.json) |
 | `9c1_ff0_1b5` | 王浚（幽州承制，王沈子） | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](9c1_ff0_1b5.json) |
 | `9c3_35f_948` | 陳廞 | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](9c3_35f_948.json) |
@@ -658,7 +657,7 @@
 | `cmh_x83_hjk` | 蜀侯煇 | [《史記・秦本紀》][87] | [JSON](cmh_x83_hjk.json) |
 | `cmo_flt_wpw` | 後相（曹相國世家未名者） | [《史記・曹相國世家》][118] | [JSON](cmo_flt_wpw.json) |
 | `cmu_mm9_y05` | 內史騰 | [《史記・秦始皇本紀》][88] | [JSON](cmu_mm9_y05.json) |
-| `cno_x3i_mx4` | 士燮 | [《史記・齊太公世家》][96] | [JSON](cno_x3i_mx4.json) |
+| `cno_x3i_mx4` | 士燮 | [《三國志・卷二十七：王昶完整傳及裴注、四傳合評與清考證選錄》][81] | [JSON](cno_x3i_mx4.json) |
 | `cnz_t0f_oaz` | 周灶 | [《史記・南越列傳》][177] | [JSON](cnz_t0f_oaz.json) |
 | `co1_fld_bmx` | 太史伯 | [《史記・鄭世家》][106] | [JSON](co1_fld_bmx.json) |
 | `cof_m2m_hgi` | 熊麗（楚先祖） | [《史記・楚世家》][104] | [JSON](cof_m2m_hgi.json) |
@@ -1968,6 +1967,7 @@
 | `jqp_2f4_gts` | 宰予引古 | [《史記・李斯列傳》][151] | [JSON](jqp_2f4_gts.json) |
 | `jqy_1fv_u7v` | 后稷 | [《史記・周本紀》][86] | [JSON](jqy_1fv_u7v.json) |
 | `jr4_bd1_vzg` | 田混 | [《南齊書・《南齊書》卷三十三王僧䖍完整本傳（編輯選錄題）》][65] | [JSON](jr4_bd1_vzg.json) |
+| `jri_o6f_o4j` | 少府延 | [《史記・呂太后本紀》][91] | [JSON](jri_o6f_o4j.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3

@@ -12,6 +12,10 @@ def _parts(a, paragraphs):
     return e,p,ms,s,o
 
 def teaching_clause_valid(a,paragraphs):
+    if a.get('qualifiers',{}).get('teaching_clause_binding',{}).get('kind')=='biography_classmates_studied_teacher':
+        try:from scripts.layered_biography_titles import teaching_valid
+        except ImportError:from layered_biography_titles import teaching_valid
+        return teaching_valid(a,paragraphs)
     try:
         e,p,ms,learner,instructor=_parts(a,paragraphs);t=p['text'];q=a['qualifiers'];b=q['teaching_clause_binding'];tr=ms[b['transition_mention_id']];start,end=b['start'],b['end']
         return (a['predicate']=='teacher'and set(q)=={'source_term','relationship_basis','teaching_clause_binding'}

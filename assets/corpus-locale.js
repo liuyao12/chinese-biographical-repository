@@ -1,4 +1,5 @@
 export default {
+  'Identification of “{name}” here': '本處「{name}」的辨識',
   "Reported service duration": "任職時長記載",
   "Reported service duration: {count} years": "原記任職時長：{count}年",
   "Duration does not establish a start or end year.": "原記時長不構成確定的任起或任終年份。",

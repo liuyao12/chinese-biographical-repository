@@ -788,6 +788,19 @@
 
 </details>
 
+<details><summary><code>696_456_df6</code> 荀曇（6 名）</summary>
+
+| ID 尾碼 | 人物 | 最多提及來源 | JSON |
+|---|---|---|---|
+| `根` | 荀曇 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6.json) |
+| `A` | 荀彞 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6_A.json) |
+| `AA` | 荀攸 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6_AA.json) |
+| `AA*A` | 荀彪 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6_AA%2AA.json) |
+| `AAA` | 荀緝 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6_AAA.json) |
+| `AAB` | 荀適 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](696_456_df6_AAB.json) |
+
+</details>
+
 <details><summary><code>69x_se2_859</code> 邴吉（2 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
@@ -1796,17 +1809,6 @@
 | `根` | 張良 | [《史記・留侯世家》][119] | [JSON](ea5_zvr_hlp.json) |
 | `A` | 張辟彊 | [《史記・呂太后本紀》][91] | [JSON](ea5_zvr_hlp_A.json) |
 | `B` | 不疑 | [《史記・留侯世家》][119] | [JSON](ea5_zvr_hlp_B.json) |
-
-</details>
-
-<details><summary><code>eb0_d56_aa1</code> 荀攸（4 名）</summary>
-
-| ID 尾碼 | 人物 | 最多提及來源 | JSON |
-|---|---|---|---|
-| `根` | 荀攸 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](eb0_d56_aa1.json) |
-| `*A` | 荀彪 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](eb0_d56_aa1_%2AA.json) |
-| `A` | 荀緝 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](eb0_d56_aa1_A.json) |
-| `B` | 荀適 | [《三國志・荀彧荀攸賈詡傳》][76] | [JSON](eb0_d56_aa1_B.json) |
 
 </details>
 
@@ -3777,7 +3779,7 @@
 
 </details>
 
-<details><summary><code>yoo_ox0_545</code> 荀淑（50 名）</summary>
+<details><summary><code>yoo_ox0_545</code> 荀淑（51 名）</summary>
 
 | ID 尾碼 | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
@@ -3827,6 +3829,7 @@
 | `FAAAABA` | 達（荀闓子） | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAAABA.json) |
 | `FAAAB` | 荀輯 | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAAB.json) |
 | `FAAABA` | 畯（荀輯子） | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAABA.json) |
+| `FAAABB` | 荀綽 | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAABB.json) |
 | `FAAAC` | 荀組 | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAAC.json) |
 | `FAAACA` | 奕（荀組子） | [《晉書・王沈荀顗荀勖馮紞列傳》][29] | [JSON](yoo_ox0_545_FAAACA.json) |
 | `G` | 荀肅 | [《後漢書・荀韓鍾陳列傳》][14] | [JSON](yoo_ox0_545_G.json) |

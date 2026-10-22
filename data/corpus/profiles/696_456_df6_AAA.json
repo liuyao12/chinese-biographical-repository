@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "id": "eb0_d56_aa1_*A",
-  "canonical_person_id": "eb0_d56_aa1_*A",
-  "label": "荀彪",
+  "id": "696_456_df6_AAA",
+  "canonical_person_id": "696_456_df6_AAA",
+  "label": "荀緝",
   "identity_note": "只依固定卷010荀攸完整單元；古注、主敘事、稱呼、作者與引古分域。未補未知父母、配偶、生年或官爵年代；韓莫三種名字保留為古注所報異文，不稱已校正字。",
   "review": "ai_provisional",
   "names": [
-    "彪"
+    "緝"
   ],
   "titles": [],
   "addresses": [],
@@ -25,17 +25,17 @@
         "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021"
       ],
       "mention_ids": [
-        "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0022"
+        "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0002"
       ],
       "mention_paragraph_ids": {
-        "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0022": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021"
+        "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0002": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021"
       },
-      "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0022",
+      "mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0002",
       "occurrence_groups": [
         {
-          "canonical_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0022",
+          "canonical_mention_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0002",
           "mention_ids": [
-            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0022"
+            "c-sanguozhi-010-xunyu-xunyou-jiaxu:xunyou:u021:m0002"
           ],
           "kind": "paragraph"
         }
@@ -3790,10 +3790,10 @@
   ],
   "relations": [
     {
-      "id": "a-xunyou11-009",
-      "subject_person_id": "eb0_d56_aa1_*A",
-      "predicate": "grandfather",
-      "object_person_id": "eb0_d56_aa1",
+      "id": "a-xunyou11-007",
+      "subject_person_id": "696_456_df6_AAA",
+      "predicate": "father",
+      "object_person_id": "696_456_df6_AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -3806,30 +3806,39 @@
         }
       ],
       "qualifiers": {
-        "source_term": "攸孫彪",
+        "source_term": "長子緝",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "696_456_df6_AA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "原文明記長子/次子，限兒子序列；不把ID字母當排行，不推全部子女數。"
+        },
         "lineage": "paternal"
       },
-      "interpretation_note": "只記孫，父親不明；適明言無子，不能因嗣爵把彪接在適下，也不自動補緝為父。",
+      "interpretation_note": "本傳末以攸為傳主列長子緝、次子適；攸風、攸孫及追諡攸同段維持主體，不據嗣爵倒推父親。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
   ],
   "related_people": {
-    "eb0_d56_aa1": "荀攸",
-    "eb0_d56_aa1_*A": "荀彪"
+    "696_456_df6_AA": "荀攸",
+    "696_456_df6_AAA": "荀緝"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
-    "eb0_d56_aa1_*A"
+    "696_456_df6_AAA"
   ],
   "preferred_relations": [
     {
-      "id": "a-xunyou11-009",
-      "subject_person_id": "eb0_d56_aa1_*A",
-      "predicate": "grandfather",
-      "object_person_id": "eb0_d56_aa1",
+      "id": "a-xunyou11-007",
+      "subject_person_id": "696_456_df6_AAA",
+      "predicate": "father",
+      "object_person_id": "696_456_df6_AA",
       "status": "source_attested",
       "evidence": [
         {
@@ -3842,34 +3851,37 @@
         }
       ],
       "qualifiers": {
-        "source_term": "攸孫彪",
+        "source_term": "長子緝",
+        "birth_order": {
+          "ordinal": 1,
+          "position": "eldest",
+          "parent_person_id": "696_456_df6_AA",
+          "scope": "sons_of_parent",
+          "interpretation_status": "source_attested",
+          "source_term": "長子",
+          "interpretation_note": "原文明記長子/次子，限兒子序列；不把ID字母當排行，不推全部子女數。"
+        },
         "lineage": "paternal"
       },
-      "interpretation_note": "只記孫，父親不明；適明言無子，不能因嗣爵把彪接在適下，也不自動補緝為父。",
+      "interpretation_note": "本傳末以攸為傳主列長子緝、次子適；攸風、攸孫及追諡攸同段維持主體，不據嗣爵倒推父親。",
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null
     }
   ],
   "assembled_identity": {
-    "person_id": "eb0_d56_aa1_*A",
-    "parent_person_id": null,
-    "source_assertion_id": "a-xunyou11-009",
-    "connection": "grandfather",
-    "representative_source_person_id": "eb0_d56_aa1_*A",
+    "person_id": "696_456_df6_AAA",
+    "parent_person_id": "696_456_df6_AA",
+    "source_assertion_id": "a-xunyou11-007",
+    "connection": "father",
+    "representative_source_person_id": "696_456_df6_AAA",
     "source_person_ids": [
-      "eb0_d56_aa1_*A"
+      "696_456_df6_AAA"
     ],
     "identity_equivalence_decision_ids": [],
-    "ancestor_person_id": "eb0_d56_aa1",
-    "generation_distance": 2,
-    "intermediate_person_ids": [
-      null
-    ],
-    "interpretation_note": "只記攸孫彪，缺名父親不補。",
-    "assembly_id": "family-xunyou11-eb0_d56_aa1",
-    "root_person_id": "eb0_d56_aa1",
-    "status": "contextual_provisional",
+    "assembly_id": "family-xunyou-tan-yi",
+    "root_person_id": "696_456_df6",
+    "status": "editorial_preferred",
     "human_reviewed": false
   },
   "age_assertions": [],

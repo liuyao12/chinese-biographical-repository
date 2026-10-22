@@ -1,0 +1,217 @@
+{
+  "format_version": "0.2",
+  "record_type": "biographical_source_detail_set",
+  "chapter_id": "c-houhanshu-064-luzhi",
+  "records": [
+    {
+      "id": "detail-hhs064-declined",
+      "person_id": "m8n_ntm_79h",
+      "kind": "unaccepted_recruitment_report",
+      "status": "source_attested",
+      "source_term": "皆不就",
+      "source_anchor": {
+        "paragraph_id": "c-houhanshu-064-luzhi:p001",
+        "start": 407,
+        "end": 410,
+        "surface": "皆不就"
+      },
+      "date_expression": null,
+      "values": {
+        "source_group": "州郡",
+        "specific_office": null,
+        "service_attested": false
+      },
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "repeated_regional_calls",
+        "paragraph_id": "c-houhanshu-064-luzhi:p001",
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "start": 402,
+          "end": 410,
+          "surface": "州郡數命植皆不就"
+        },
+        "roles": {
+          "subject": "c-houhanshu-064-luzhi:p001:m0406"
+        },
+        "fields": {
+          "decline": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p001",
+            "start": 407,
+            "end": 410,
+            "surface": "皆不就"
+          }
+        },
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "0cfe2a4aa5b0b08ff84a4c6f1864bc5508409f846d20713ad07f06b1bcb1d55d",
+        "human_reviewed": false,
+        "slot": "decline",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p001",
+          "quote": "盧植字子幹涿郡涿人也身長八尺二寸音聲如鐘少與鄭𤣥俱事馬融能通古今學好研精而不守章句融外戚豪家多列女倡歌舞於前植侍講積年未嘗轉盻融以是敬之學終辭歸闔門敎授性剛毅有大節常懐濟世志不好辭賦能飲酒一石時皇后父大將軍竇武援立靈帝初秉機政朝議欲加封爵植雖布衣以武素有名譽乃獻書以規之曰植聞嫠有不恤緯之事漆室有倚楹之戚憂深思逺君子之情夫士立爭友義貴切磋書陳謀及庶人詩詠詢于芻蕘植誦先王之書久矣敢愛其瞽言哉今足下之於漢朝猶旦奭之在周室建立聖主四海有繋論者以為吾子之功於斯為重天下聚目而視攢耳而聽謂準之前事將有景風之祚尋春秋之義王后無嗣擇立親長年均以徳徳均則決之卜筮今同宗相後披圖案牒以次建之何勲之有豈横叨天功以為己力乎宜辭大賞以全身名又比世祚不競仍外求嗣可謂危矣而四方未寜盜賊伺隙恒岳勃碣特多姦盜將有楚人脅比尹氏立朝之變宜依古禮置諸子之官徴王侯愛子宗室賢才外崇訓道之義内息貪利之心簡其良能隨用爵之彊幹弱枝之道也武並不能用州郡數命植皆不就",
+          "person_mention_id": "c-houhanshu-064-luzhi:p001:m0406"
+        }
+      ],
+      "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+      "paragraph_sha256": "0cfe2a4aa5b0b08ff84a4c6f1864bc5508409f846d20713ad07f06b1bcb1d55d",
+      "interpretation_note": "明拒州郡與袁請未載分開；疾去/免官只存來源結果，不暗補所有任職終年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "detail-hhs064-illness-departure",
+      "person_id": "m8n_ntm_79h",
+      "kind": "office_departure",
+      "status": "source_attested",
+      "source_term": "以疾去官",
+      "source_anchor": {
+        "paragraph_id": "c-houhanshu-064-luzhi:p002",
+        "start": 36,
+        "end": 40,
+        "surface": "以疾去官"
+      },
+      "date_expression": null,
+      "values": {
+        "departure_code": "illness_departure",
+        "linked_holding_id": "th-hhs064-summoned_then_governor-office2-subject-p002-0",
+        "date_unknown": true,
+        "all_other_offices_ended": false
+      },
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "summoned_then_governor",
+        "paragraph_id": "c-houhanshu-064-luzhi:p002",
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p002",
+          "start": 0,
+          "end": 49,
+          "surface": "建寜中徴為博士乃始起焉熹平四年九江蠻反四府選植才兼文武拜九江太守蠻寇賔服以疾去官作尚書章句三禮解詁"
+        },
+        "roles": {
+          "subject": "c-houhanshu-064-luzhi:p002:m0022"
+        },
+        "fields": {
+          "era_phase": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p002",
+            "start": 0,
+            "end": 3,
+            "surface": "建寜中"
+          },
+          "office1": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p002",
+            "start": 5,
+            "end": 7,
+            "surface": "博士"
+          },
+          "year": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p002",
+            "start": 11,
+            "end": 15,
+            "surface": "熹平四年"
+          },
+          "office2": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p002",
+            "start": 28,
+            "end": 32,
+            "surface": "九江太守"
+          },
+          "departure": {
+            "paragraph_id": "c-houhanshu-064-luzhi:p002",
+            "start": 36,
+            "end": 40,
+            "surface": "以疾去官"
+          }
+        },
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "3ee26d2fbf80fe4907d87d69a69091808c33ef53740c040f7f09c6ea62ffcbb2",
+        "human_reviewed": false,
+        "slot": "departure",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p002",
+          "quote": "建寜中徴為博士乃始起焉熹平四年九江蠻反四府選植才兼文武拜九江太守蠻寇賔服以疾去官作尚書章句三禮解詁時始立太學石經以正五經文字植乃上書曰臣少從通儒故南郡太守馬融受古學頗知今之禮記特多回宂臣前以周禮諸經發起粃謬敢率愚淺為之解詁而家乏無力供繕寫上願得將能書生二人共詣東觀就官財糧專心研精合尚書章句考禮記失得庶裁定聖典刋正碑文古文科斗近於為實而厭抑流俗降在小學中興以來通儒達士班固賈逵鄭興父子並敦恱之今毛詩左氏周禮各有傳記其與春秋共相表裏宜置博士為立學官以助後來以廣聖意會南夷反叛以植嘗在九江有恩信拜為廬江太守植深達政宜務存清靜𢎞大體而已",
+          "person_mention_id": "c-houhanshu-064-luzhi:p002:m0022"
+        }
+      ],
+      "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+      "paragraph_sha256": "3ee26d2fbf80fe4907d87d69a69091808c33ef53740c040f7f09c6ea62ffcbb2",
+      "interpretation_note": "明拒州郡與袁請未載分開；疾去/免官只存來源結果，不暗補所有任職終年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "detail-hhs064-dismissal",
+      "person_id": "m8n_ntm_79h",
+      "kind": "office_departure",
+      "status": "source_attested",
+      "source_term": "免植官",
+      "source_anchor": {
+        "paragraph_id": "c-houhanshu-064-luzhi:p006",
+        "start": 138,
+        "end": 141,
+        "surface": "免植官"
+      },
+      "date_expression": null,
+      "values": {
+        "departure_code": "dismissal_unspecified_office",
+        "linked_holding_id": null,
+        "date_unknown": true,
+        "all_other_offices_ended": false
+      },
+      "source_career_role": {
+        "kind": "layered_biographical_role_frame",
+        "rule": "dismissal_then_old_illness",
+        "paragraph_id": "c-houhanshu-064-luzhi:p006",
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "start": 134,
+          "end": 149,
+          "surface": "卓乃止但免植官而已植以老病求歸"
+        },
+        "roles": {
+          "antagonist": "c-houhanshu-064-luzhi:p006:m0134",
+          "subject": "c-houhanshu-064-luzhi:p006:m0139",
+          "subject_repeat": "c-houhanshu-064-luzhi:p006:m0143"
+        },
+        "fields": {},
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "5e1e320ee7530b71fdd01d04efe6daba3736ec5a700332fe27f2ac331edc46f5",
+        "human_reviewed": false,
+        "slot": "dismissal",
+        "recipient_role": "subject"
+      },
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:p006",
+          "quote": "帝崩大將軍何進謀誅中官乃召并州牧董卓以懼太后植知卓凶悍難制必生後患固止之進不從及卓至果陵虐朝廷乃大會百官於朝堂議欲廢立羣僚無敢言植獨抗議不同卓怒罷會將誅植語在卓傳植素善蔡邕邕前徙朔方植獨上書請之邕時見親於卓故往請植事又議郎彭伯諫卓曰盧尚書海内大儒人之望也今先害天下震怖卓乃止但免植官而已植以老病求歸懼不免禍乃詭道從轘轅出卓果使人追之到懐不及遂隱於上谷不交人事冀州牧袁紹請為軍師",
+          "person_mention_id": "c-houhanshu-064-luzhi:p006:m0139"
+        }
+      ],
+      "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+      "paragraph_sha256": "5e1e320ee7530b71fdd01d04efe6daba3736ec5a700332fe27f2ac331edc46f5",
+      "interpretation_note": "明拒州郡與袁請未載分開；疾去/免官只存來源結果，不暗補所有任職終年。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ]
+}

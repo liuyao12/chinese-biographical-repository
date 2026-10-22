@@ -10,7 +10,65 @@
     "賁"
   ],
   "titles": [],
-  "addresses": [],
+  "addresses": [
+    {
+      "id": "pa-hhs064-ben-source-locality",
+      "person_id": "dwv_5hn_680",
+      "relation": "source_locality_designation",
+      "place": {
+        "source_name": "衞",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "status": "source_attested",
+      "date_expression": null,
+      "source_term": "並衞人",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:note046",
+          "quote": "孟賁多力者也夏育勇者也並衞人荆荆軻也諸專諸也",
+          "person_mention_id": "c-houhanshu-064-luzhi:note046:m0000"
+        }
+      ],
+      "interpretation_note": "只記原文地名及所述種類；上谷為隱居非死亡地，朔方為蔡邕遷徙非盧植；並衞人僅及孟賁夏育，不及荆軻專諸；不補現代座標。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "qualifiers": {
+        "designation_kind": "geographical_person_reference",
+        "origin_or_residence": null
+      },
+      "source_address_binding": {
+        "kind": "layered_biography_address",
+        "source_revision": "6db36b6dcbe843b825354c22e9be9193d0137c04",
+        "paragraph_sha256": "335cb0a70a1c3ffb1eb8adc6b641fdaf1e58bea3ec18e38dbaef3bd83dde2ba5",
+        "rule": "two_people_shared_locality",
+        "subject_role": "one",
+        "roles": {
+          "one": "c-houhanshu-064-luzhi:note046:m0000",
+          "two": "c-houhanshu-064-luzhi:note046:m0006"
+        },
+        "scope_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:note046",
+          "start": 0,
+          "end": 14,
+          "surface": "孟賁多力者也夏育勇者也並衞人"
+        },
+        "place_anchor": {
+          "paragraph_id": "c-houhanshu-064-luzhi:note046",
+          "start": 12,
+          "end": 13,
+          "surface": "衞"
+        }
+      },
+      "term": "並衞人",
+      "quote": "孟賁多力者也夏育勇者也並衞人荆荆軻也諸專諸也"
+    }
+  ],
   "occurrences": [
     {
       "number": 50,

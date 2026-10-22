@@ -19,7 +19,7 @@ class XunEditorialRekey(unittest.TestCase):
    m=self.rows[pid];self.assertEqual(m['parent_person_id'],parent);self.assertNotIn('parent_connection',m);self.assertTrue(any(a['id']==m['source_assertion_id']and a['predicate']=='father'and a['subject_person_id']==pid and a['object_person_id']==parent for a in self.assertions))
  def test_no_retired_people_profiles_or_public_aliases(self):
   persons=J(ROOT/'registry/persons.json')['persons'];ids={p['id']for p in persons};self.assertEqual(len(ids),len(persons));self.assertFalse(ids&RETIRED)
-  added=J(ROOT/'tests/fixtures/xunyou-source-new-person-ids.json');self.assertEqual(len(added),30);self.assertEqual(len(set(added)),30);self.assertTrue(set(added)<=ids)
+  original=J(ROOT/'tests/fixtures/xunyou-source-new-person-ids.json');mapping=J(ROOT/'source-evidence/xunyou-ancestor-assembly/rekey-fidelity.json')['historical_rekey_mapping'];added=[mapping.get(pid,pid)for pid in original];self.assertEqual(len(added),30);self.assertEqual(len(set(added)),30);self.assertTrue(set(added)<=ids);self.assertFalse(set(mapping)&ids)
   for pid in RETIRED:
    self.assertFalse((ROOT/f'exports/persons/{pid}.json').exists());self.assertFalse((ROOT/f'data/corpus/profiles/{pid}.json').exists())
   for pid in EXPECTED:self.assertEqual(J(ROOT/f'exports/persons/{pid}.json')['id_aliases'],[])

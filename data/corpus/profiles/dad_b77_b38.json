@@ -26286,6 +26286,86 @@
   },
   "dates": [],
   "name_components": [],
+  "source_temporal_attestations": [
+    {
+      "id": "t-hhs064-note038",
+      "person_id": "dad_b77_b38",
+      "source_term": "建安十二年",
+      "source_anchor": {
+        "paragraph_id": "c-houhanshu-064-luzhi:note038",
+        "start": 3,
+        "end": 8,
+        "surface": "建安十二年"
+      },
+      "event_context": "李賢注引魏志的曹操北征烏桓/柳城紀年",
+      "date_role": "source_context_not_title_boundary",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-houhanshu",
+          "book_id": "b-houhanshu-064",
+          "source_id": "s-houhanshu-064-luzhi",
+          "chapter_id": "c-houhanshu-064-luzhi",
+          "paragraph_id": "c-houhanshu-064-luzhi:note038",
+          "quote": "魏志曰建安十二年操北征烏桓渉鮮卑討栁城登白狼山也",
+          "person_mention_id": "c-houhanshu-064-luzhi:note038:m0008"
+        }
+      ],
+      "kind": "calendar_context",
+      "normalized_date": {
+        "year_numbering": "astronomical",
+        "calendar": "chinese_civil",
+        "status": "editorial_provisional",
+        "source_expression": "建安十二年",
+        "original_quote": "魏志曰建安十二年操北征烏桓渉鮮卑討栁城登白狼山也",
+        "evidence": [
+          {
+            "work_id": "w-houhanshu",
+            "book_id": "b-houhanshu-064",
+            "source_id": "s-houhanshu-064-luzhi",
+            "chapter_id": "c-houhanshu-064-luzhi",
+            "paragraph_id": "c-houhanshu-064-luzhi:note038",
+            "quote": "魏志曰建安十二年操北征烏桓渉鮮卑討栁城登白狼山也",
+            "person_mention_id": "c-houhanshu-064-luzhi:note038:m0008"
+          }
+        ],
+        "references": [
+          {
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=1",
+            "quote": "建安",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "era_name": "建安",
+              "first_year": "196",
+              "last_year": "220",
+              "dynasty": "東漢"
+            }
+          }
+        ],
+        "rationale": "原文紀年與教育部年號表逐項對照，數值為中國曆年度；不推月日、任終或出生年。",
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "era": "CE",
+        "era_year": 207,
+        "year": 207,
+        "precision": "year",
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "era_name": "建安",
+          "source_number": "十二",
+          "regnal_year": 12,
+          "start_ce_year": 196,
+          "end_ce_year": 220,
+          "reference_index": 0
+        }
+      },
+      "duration": null,
+      "prospective": false,
+      "human_reviewed": false,
+      "reviewer": "Codex（AI代理）",
+      "model": null
+    }
+  ],
   "person_ids": [
     "dad_b77_b38"
   ],

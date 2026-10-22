@@ -264,6 +264,10 @@ def reported_relationship_errors(variant, paragraph):
 
 
 def title_proposal_errors(proposal, chapter, person_ids, holdings=None):
+    if proposal.get('source_appointment_context',{}).get('kind')=='layered_biographical_role_frame':
+        try:from scripts.layered_biography_titles import offered_errors
+        except ImportError:from layered_biography_titles import offered_errors
+        return offered_errors(proposal,chapter,person_ids)
     if proposal.get('source_appointment_context', {}).get('kind') == 'received_biographical_role_sequence':
         try:
             from scripts.biographical_appointment_sequence import proposal_errors
@@ -1012,6 +1016,10 @@ def validate(root=ROOT):
                                     anchor=mention[2];text=previous[1]['text']
                                     valid=any(i<=anchor['start'] and anchor['end']<=i+len(quote)
                                               for i in range(len(text)) if text.startswith(quote,i))
+                            if isinstance(context,dict) and context.get('kind')=='layered_biography_subject_continuation':
+                                try:from scripts.layered_biography_titles import title_context_valid
+                                except ImportError:from layered_biography_titles import title_context_valid
+                                valid=title_context_valid(h['attestations'][0],h,chapters[d['chapter_id']])
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
                 if 'source_grant_basis' in h:
@@ -1489,7 +1497,7 @@ def validate(root=ROOT):
                         from scripts.biography_family_clause import valid as biography_family_clause_valid
                     except ImportError:
                         from biography_family_clause import valid as biography_family_clause_valid
-                    check(biography_family_clause_valid(a, paragraphs, d['assertions']), '傳記親屬句須有完整上下文、逐詞人物錨點及明確方向')
+                    check(biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '傳記親屬句須有完整上下文、逐詞人物錨點及明確方向')
                 if a['predicate'] == 'maternal_aunt' or 'relative_age_interpretation' in qualifiers:
                     try:
                         from scripts.song047_collateral_care import valid, chronology_caution_valid
@@ -1672,7 +1680,7 @@ def validate(root=ROOT):
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
                     if qualifiers.get('kinship_basis') == 'explicit_clan_member':
-                        check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions']), '族人不補世代、親等或共祖')
+                        check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions'], chapters), '族人不補世代、親等或共祖')
                     elif qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
                         try:
                             from scripts.congzhongbiao import valid as congzhongbiao_valid
@@ -2059,6 +2067,10 @@ def validate(root=ROOT):
             record = json.loads(path.read_text(encoding='utf-8'))
             check(record['record_type'] == 'person_address_assertion_set' and record['chapter_id'] in chapters, '地址主張集格式或篇不存在')
             for address in record['assertions']:
+                if 'source_address_binding' in address:
+                    try:from scripts.layered_biography_titles import address_valid
+                    except ImportError:from layered_biography_titles import address_valid
+                    check(address_valid(address,chapters[record['chapter_id']]),'地望須逐角色綁原詞與來源，隱居不作卒地、共稱不擴及後人')
                 check(address['id'] not in address_ids, '地址主張 ID 重複'); address_ids.add(address['id'])
                 check(address['person_id'] in pids and address['status'] == 'source_attested', '地址人物或狀態無效')
                 check(address['relation'] in ('biographical_origin', 'ancestral_origin', 'native_place', 'birth_place', 'residence', 'death_place', 'migration_origin', 'migration_destination', 'burial_place', 'capital_location', 'polity_lineage_affiliation', 'source_locality_designation', 'service_location', 'fief'), '地址關係類型未知')
@@ -2174,6 +2186,10 @@ def validate(root=ROOT):
                 check(event['id'] not in life_event_ids, '生卒事件ID重複'); life_event_ids.add(event['id'])
                 check(event['person_id'] in pids and event['event_type'] in (('birth', 'death') if record.get('record_type') == 'person_life_event_assertion_set' else ('recruitment', 'burial', 'office_non_reinstatement', 'office_restoration', 'diplomatic_service', 'noble_state_abolition', 'noble_title_succession')), '生卒事件人物或類型無效')
                 check(event.get('status') == 'source_attested' and bool(event.get('evidence')) and bool(event.get('interpretation_note')) and bool(event.get('reviewer')) and event.get('human_reviewed') is False, '生卒事件缺少來源或判讀')
+                if 'source_layered_death_report' in event:
+                    try:from scripts.layered_biography_titles import explicit_death_report_valid
+                    except ImportError:from layered_biography_titles import explicit_death_report_valid
+                    check(explicit_death_report_valid(event,chapters[record['chapter_id']]),'明示死亡須綁實際主體與完整死因句，不移給引述/夢中他人或補年月')
                 if 'literal_source_binding' in event:
                     try:
                         from scripts.literal_family_reports import death_valid
@@ -2311,9 +2327,13 @@ def validate(root=ROOT):
                             and any(i <= anchor[2]['start'] and anchor[2]['end'] <= i + len(quote)
                                     for i in range(len(previous[1]['text'])) if previous[1]['text'].startswith(quote, i))
                             and bool(event.get('source_term')) and event['source_term'] in evidence['quote'])
+                        if isinstance(context,dict) and context.get('kind')=='layered_biography_death_continuation':
+                            try:from scripts.layered_biography_titles import death_context_valid
+                            except ImportError:from layered_biography_titles import death_context_valid
+                            carried_subject=death_context_valid(context,event,chapters[record['chapter_id']],evidence)
                         check(carried_subject, '生卒主語承接須有近前同篇人物錨點、引句及完整中間段落')
                     check(carried_subject or bool(mention) and mention[1] == evidence['paragraph_id'] and mention[2]['person_id'] == event['person_id'], '生卒事件人物錨點不符')
-                    if valid and mention:
+                    if valid and mention and not carried_subject:
                         starts = [i for i in range(len(hit[1]['text'])) if hit[1]['text'].startswith(evidence['quote'], i)]
                         check(any(i <= mention[2]['start'] and mention[2]['end'] <= i + len(evidence['quote']) for i in starts), '生卒人物錨點不在引句中')
                     check(expression is None or continuous_date or local_death_date or expression in evidence['quote'], '生卒日期未見於事件引句')

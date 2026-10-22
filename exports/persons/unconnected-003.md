@@ -6,7 +6,6 @@
 
 | 人物 ID | 人物 | 最多提及來源 | JSON |
 |---|---|---|---|
-| `jri_o6f_o4j` | 少府延 | [《史記・呂太后本紀》][91] | [JSON](jri_o6f_o4j.json) |
 | `jrn_qdf_10i` | 周武王 | [《史記・魏世家》][108] | [JSON](jrn_qdf_10i.json) |
 | `jrv_ob5_feu` | 軒丘豹 | [《史記・梁孝王世家》][122] | [JSON](jrv_ob5_feu.json) |
 | `jry_wlf_1x3` | 成君 | [《史記・周本紀》][86] | [JSON](jry_wlf_1x3.json) |
@@ -1254,7 +1253,6 @@
 | `rlk_lzd_86c` | 澄〔王衍弟，荊州刺史〕 | [《晉書・王衍傳》][32] | [JSON](rlk_lzd_86c.json) |
 | `rls_d4j_3x2` | 雍己 | [《史記・殷本紀》][85] | [JSON](rls_d4j_3x2.json) |
 | `rm2_p1l_5a0` | 司城貞子 | [《史記・孔子世家》][111] | [JSON](rm2_p1l_5a0.json) |
-| `rm7_r3k_g21` | 范文子（鄢陵晉臣） | [《史記・晉世家》][103] | [JSON](rm7_r3k_g21.json) |
 | `rmu_iss_4in` | 王稽 | [《史記・范睢蔡澤列傳》][143] | [JSON](rmu_iss_4in.json) |
 | `rmw_o1r_apv` | 秦將詐書者未名 | [《史記・張耳陳餘列傳》][153] | [JSON](rmw_o1r_apv.json) |
 | `rn5_g2s_5hc` | 邵騷 | [《史記・張耳陳餘列傳》][153] | [JSON](rn5_g2s_5hc.json) |
@@ -2051,6 +2049,8 @@
 | `wng_nsz_uav` | 公孫龍 | [《史記・仲尼弟子列傳》][131] | [JSON](wng_nsz_uav.json) |
 | `wnj_6yq_aha` | 徐樂 | [《史記・平津侯主父列傳》][176] | [JSON](wnj_6yq_aha.json) |
 | `wnp_0s3_0eg` | 太尉弱 | [《史記・絳侯周勃世家》][121] | [JSON](wnp_0s3_0eg.json) |
+| `wnp_vk6_qhe` | 冉求 | [《史記・仲尼弟子列傳》][131] | [JSON](wnp_vk6_qhe.json) |
+| `wny_01o_f36` | 公子買（衛守者） | [《史記・晉世家》][103] | [JSON](wny_01o_f36.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [2]: https://homepage.ntu.edu.tw/~history/public_html/newsletter/public_html/09newsletter/03/newsletter3_09.pdf#page=3
