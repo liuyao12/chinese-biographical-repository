@@ -78,8 +78,95 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin035-pei-mai-father",
+      "subject_person_id": "c1s_zg5_jkj",
+      "predicate": "father",
+      "object_person_id": "x8q_2uu_vfw",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p015",
+          "quote": "憲曆官無干績之稱，然在朝玄默，未嘗以物務經懷。但以德重名高，動見尊禮。竟卒于石氏，以族人峙子邁為嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p015:m0046",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p015:m0044"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "deceased_subject_clansmans_son_successor",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p015:m0000",
+            "clansman": "c-jinshu-035-peikai-family:p015:m0044",
+            "son": "c-jinshu-035-peikai-family:p015:m0046"
+          },
+          "clause_start": 35,
+          "clause_end": 50,
+          "paragraph_sha256": "a3529d90ba0ca954586e565c973a4df80c28869bd8dbc7bce7db91e6788ddff7",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-zhi-xian-clan",
+      "subject_person_id": "x8q_2uu_vfw",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "c6e_8f3_014",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p015",
+          "quote": "憲曆官無干績之稱，然在朝玄默，未嘗以物務經懷。但以德重名高，動見尊禮。竟卒于石氏，以族人峙子邁為嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p015:m0044",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p015:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "族人",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "deceased_subject_clansmans_son_successor",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p015:m0000",
+            "clansman": "c-jinshu-035-peikai-family:p015:m0044",
+            "son": "c-jinshu-035-peikai-family:p015:m0046"
+          },
+          "clause_start": 35,
+          "clause_end": 50,
+          "paragraph_sha256": "a3529d90ba0ca954586e565c973a4df80c28869bd8dbc7bce7db91e6788ddff7",
+          "revision_id": 2506399
+        },
+        "kinship_basis": "explicit_clan_member",
+        "lineage": "unspecified",
+        "generation_difference": null,
+        "exact_distance": null,
+        "common_ancestor_person_id": null
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
+    "c1s_zg5_jkj": "邁〔峙子、憲嗣〕",
+    "c6e_8f3_014": "裴憲",
     "x8q_2uu_vfw": "峙〔憲族人、邁父〕"
   },
   "dates": [],
@@ -87,7 +174,92 @@
   "person_ids": [
     "x8q_2uu_vfw"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin035-pei-mai-father",
+      "subject_person_id": "c1s_zg5_jkj",
+      "predicate": "father",
+      "object_person_id": "x8q_2uu_vfw",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p015",
+          "quote": "憲曆官無干績之稱，然在朝玄默，未嘗以物務經懷。但以德重名高，動見尊禮。竟卒于石氏，以族人峙子邁為嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p015:m0046",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p015:m0044"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "deceased_subject_clansmans_son_successor",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p015:m0000",
+            "clansman": "c-jinshu-035-peikai-family:p015:m0044",
+            "son": "c-jinshu-035-peikai-family:p015:m0046"
+          },
+          "clause_start": 35,
+          "clause_end": 50,
+          "paragraph_sha256": "a3529d90ba0ca954586e565c973a4df80c28869bd8dbc7bce7db91e6788ddff7",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-zhi-xian-clan",
+      "subject_person_id": "x8q_2uu_vfw",
+      "predicate": "kinship_unspecified",
+      "object_person_id": "c6e_8f3_014",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p015",
+          "quote": "憲曆官無干績之稱，然在朝玄默，未嘗以物務經懷。但以德重名高，動見尊禮。竟卒于石氏，以族人峙子邁為嗣。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p015:m0044",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p015:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "族人",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "deceased_subject_clansmans_son_successor",
+          "roles": {
+            "head": "c-jinshu-035-peikai-family:p015:m0000",
+            "clansman": "c-jinshu-035-peikai-family:p015:m0044",
+            "son": "c-jinshu-035-peikai-family:p015:m0046"
+          },
+          "clause_start": 35,
+          "clause_end": 50,
+          "paragraph_sha256": "a3529d90ba0ca954586e565c973a4df80c28869bd8dbc7bce7db91e6788ddff7",
+          "revision_id": 2506399
+        },
+        "kinship_basis": "explicit_clan_member",
+        "lineage": "unspecified",
+        "generation_difference": null,
+        "exact_distance": null,
+        "common_ancestor_person_id": null
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

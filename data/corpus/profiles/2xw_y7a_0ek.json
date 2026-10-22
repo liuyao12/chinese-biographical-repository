@@ -176,6 +176,91 @@
   ],
   "relations": [
     {
+      "id": "a-jin035-pei-chuo-kai",
+      "subject_person_id": "2xw_y7a_0ek",
+      "predicate": "brother",
+      "object_person_id": "530_f9d_4bd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p018",
+          "quote": "楷弟綽，字季舒，器宇宏曠，官至黃門侍郎、長水校尉。綽子遐，善言玄理，音辭清暢，泠然若琴瑟。嘗與河南郭象談論，一坐嗟服。又嘗在平東將軍周馥坐，與人圍棋。馥司馬行酒，遐未即飲，司馬醉怒，因曳遐墮地。遐徐起還坐，顏色不變，復棋如故。其性虛和如此。東海王越引為主簿，後為越子毗所害。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p018:m0002",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p018:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "younger_brother",
+          "roles": {
+            "elder": "c-jinshu-035-peikai-family:p018:m0000",
+            "younger": "c-jinshu-035-peikai-family:p018:m0002"
+          },
+          "clause_start": 0,
+          "clause_end": 3,
+          "paragraph_sha256": "7cefde26fae64c5dd7bbdb92a4857783bf773a1c8870caa40c339a3091ac7dfb",
+          "revision_id": 2506399
+        },
+        "relative_birth_order": {
+          "older_person_id": "530_f9d_4bd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-xia-father",
+      "subject_person_id": "xyc_ae4_fbe",
+      "predicate": "father",
+      "object_person_id": "2xw_y7a_0ek",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p018",
+          "quote": "楷弟綽，字季舒，器宇宏曠，官至黃門侍郎、長水校尉。綽子遐，善言玄理，音辭清暢，泠然若琴瑟。嘗與河南郭象談論，一坐嗟服。又嘗在平東將軍周馥坐，與人圍棋。馥司馬行酒，遐未即飲，司馬醉怒，因曳遐墮地。遐徐起還坐，顏色不變，復棋如故。其性虛和如此。東海王越引為主簿，後為越子毗所害。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p018:m0027",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p018:m0025"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_parent_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p018:m0025",
+            "child": "c-jinshu-035-peikai-family:p018:m0027"
+          },
+          "clause_start": 25,
+          "clause_end": 28,
+          "paragraph_sha256": "7cefde26fae64c5dd7bbdb92a4857783bf773a1c8870caa40c339a3091ac7dfb",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-liang030-kang-brother-chuo",
       "subject_person_id": "y8f_xr3_osd",
       "predicate": "brother",
@@ -225,6 +310,8 @@
   ],
   "related_people": {
     "2xw_y7a_0ek": "綽〔康弟，楷弟〕",
+    "530_f9d_4bd": "裴楷",
+    "xyc_ae4_fbe": "遐〔綽子〕",
     "y8f_xr3_osd": "康〔晉太子左率，子野遠祖〕"
   },
   "dates": [],
@@ -233,6 +320,91 @@
     "2xw_y7a_0ek"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-pei-chuo-kai",
+      "subject_person_id": "2xw_y7a_0ek",
+      "predicate": "brother",
+      "object_person_id": "530_f9d_4bd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p018",
+          "quote": "楷弟綽，字季舒，器宇宏曠，官至黃門侍郎、長水校尉。綽子遐，善言玄理，音辭清暢，泠然若琴瑟。嘗與河南郭象談論，一坐嗟服。又嘗在平東將軍周馥坐，與人圍棋。馥司馬行酒，遐未即飲，司馬醉怒，因曳遐墮地。遐徐起還坐，顏色不變，復棋如故。其性虛和如此。東海王越引為主簿，後為越子毗所害。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p018:m0002",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p018:m0000"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "弟",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "younger_brother",
+          "roles": {
+            "elder": "c-jinshu-035-peikai-family:p018:m0000",
+            "younger": "c-jinshu-035-peikai-family:p018:m0002"
+          },
+          "clause_start": 0,
+          "clause_end": 3,
+          "paragraph_sha256": "7cefde26fae64c5dd7bbdb92a4857783bf773a1c8870caa40c339a3091ac7dfb",
+          "revision_id": 2506399
+        },
+        "relative_birth_order": {
+          "older_person_id": "530_f9d_4bd",
+          "younger_person_id": "2xw_y7a_0ek",
+          "operator": "lt",
+          "older_ordinal": null,
+          "younger_ordinal": null,
+          "scope": "siblings"
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-jin035-pei-xia-father",
+      "subject_person_id": "xyc_ae4_fbe",
+      "predicate": "father",
+      "object_person_id": "2xw_y7a_0ek",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p018",
+          "quote": "楷弟綽，字季舒，器宇宏曠，官至黃門侍郎、長水校尉。綽子遐，善言玄理，音辭清暢，泠然若琴瑟。嘗與河南郭象談論，一坐嗟服。又嘗在平東將軍周馥坐，與人圍棋。馥司馬行酒，遐未即飲，司馬醉怒，因曳遐墮地。遐徐起還坐，顏色不變，復棋如故。其性虛和如此。東海王越引為主簿，後為越子毗所害。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p018:m0027",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p018:m0025"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_parent_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p018:m0025",
+            "child": "c-jinshu-035-peikai-family:p018:m0027"
+          },
+          "clause_start": 25,
+          "clause_end": 28,
+          "paragraph_sha256": "7cefde26fae64c5dd7bbdb92a4857783bf773a1c8870caa40c339a3091ac7dfb",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-liang030-kang-brother-chuo",
       "subject_person_id": "y8f_xr3_osd",

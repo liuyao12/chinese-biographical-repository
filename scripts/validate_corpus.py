@@ -1340,6 +1340,12 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                if qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
+                    try:
+                        from scripts.biography_family_clause import valid as biography_family_clause_valid
+                    except ImportError:
+                        from biography_family_clause import valid as biography_family_clause_valid
+                    check(biography_family_clause_valid(a, paragraphs, d['assertions']), '傳記親屬句須有完整上下文、逐詞人物錨點及明確方向')
                 if a['predicate'] == 'maternal_aunt' or 'relative_age_interpretation' in qualifiers:
                     try:
                         from scripts.song047_collateral_care import valid, chronology_caution_valid
@@ -1515,7 +1521,9 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
+                    if qualifiers.get('kinship_basis') == 'explicit_clan_member':
+                        check(qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause' and biography_family_clause_valid(a, paragraphs, d['assertions']), '族人不補世代、親等或共祖')
+                    elif qualifiers.get('kinship_basis') == 'congzhongbiao_named_pair':
                         try:
                             from scripts.congzhongbiao import valid as congzhongbiao_valid
                         except ImportError:
@@ -1568,7 +1576,7 @@ def validate(root=ROOT):
                         check(maternal_cousin_valid(a, paragraphs), '姨表旁親須有母系路徑、雙人物錨點及姨弟原詞，不得接成父系')
                     else:
                         check(a['predicate'] == 'agnatic_cousin' and structure.get('lineage') == 'paternal' and structure.get('generation_difference') == 0 and structure.get('collateral') is True, '同世代父系旁親結構無效')
-                    if a['predicate'] == 'agnatic_cousin' and 'source_clause_binding' in qualifiers:
+                    if a['predicate'] == 'agnatic_cousin' and 'source_clause_binding' in qualifiers and qualifiers['source_clause_binding'].get('kind') != 'biography_family_clause':
                         try:
                             from scripts.historical_family_clauses import explicit_congdi_valid
                         except ImportError:

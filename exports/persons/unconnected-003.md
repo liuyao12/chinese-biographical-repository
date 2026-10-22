@@ -336,7 +336,7 @@
 | `myg_cco_ng6` | 蔚祖 | [《宋書・劉懷肅及附家族完整選錄單元》][193] | [JSON](myg_cco_ng6.json) |
 | `myr_tln_x5c` | 項聲 | [《史記・樊酈滕灌列傳》][149] | [JSON](myr_tln_x5c.json) |
 | `mys_kcy_y9o` | 殷王 | [《史記・陳丞相世家》][110] | [JSON](mys_kcy_y9o.json) |
-| `myy_zdg_6b6` | 柳下惠 | [《史記・孔子世家》][101]、[《宋書・王弘完整傳主單元（含子弟附傳）》][189] | [JSON](myy_zdg_6b6.json) |
+| `myy_zdg_6b6` | 柳下惠 | [《梁書・裴子野完整本傳（卷三十選錄）》][55]、[《南史・裴松之至裴騫完整敘事單元（卷三十三選錄）》][63]、[《史記・孔子世家》][101]、[《史記・仲尼弟子列傳》][121]、[《宋書・王弘完整傳主單元（含子弟附傳）》][189] | [JSON](myy_zdg_6b6.json) |
 | `mz0_im5_1m9` | 蒙驁 | [《史記・魏世家》][98] | [JSON](mz0_im5_1m9.json) |
 | `mz0_kwo_nic` | 田和 | [《史記・太史公自序》][184] | [JSON](mz0_kwo_nic.json) |
 | `mz9_446_wux` | 仲梁懷 | [《史記・孔子世家》][101] | [JSON](mz9_446_wux.json) |
@@ -1945,7 +1945,6 @@
 | `xee_d7v_hv2` | 王東海（謝安傳比擬） | [《晉書・謝氏家族選段及謝尚、奕、玄、石、邈完整單元》][45] | [JSON](xee_d7v_hv2.json) |
 | `xer_mp5_agd` | 楚使者未名 | [《史記・黥布列傳》][145] | [JSON](xer_mp5_agd.json) |
 | `xfe_r6u_pp8` | 噲（樊酈提要） | [《史記・太史公自序》][184] | [JSON](xfe_r6u_pp8.json) |
-| `xg5_2en_bvd` | 柳下惠 | [《史記・仲尼弟子列傳》][121] | [JSON](xg5_2en_bvd.json) |
 | `xga_n8f_29q` | 孝惠帝 | [《史記・外戚世家》][103] | [JSON](xga_n8f_29q.json) |
 | `xgn_ado_9u1` | 程伯休甫 | [《晉書・宣帝紀（家世選段）》][14]、[《史記・太史公自序》][184] | [JSON](xgn_ado_9u1.json) |
 | `xgw_at7_sju` | 陳女女弟（衛桓公母） | [《史記・衛康叔世家》][91] | [JSON](xgw_at7_sju.json) |
@@ -2080,7 +2079,6 @@
 | `y81_o3y_nw3` | 周桓王 | [《史記・鄭世家》][96] | [JSON](y81_o3y_nw3.json) |
 | `y81_z0r_svc` | 左人郢 | [《史記・仲尼弟子列傳》][121] | [JSON](y81_z0r_svc.json) |
 | `y82_gm0_bbt` | 項他 | [《史記・樊酈滕灌列傳》][149] | [JSON](y82_gm0_bbt.json) |
-| `y85_c3n_gfg` | 商鞅 | [《史記・蘇秦列傳》][123] | [JSON](y85_c3n_gfg.json) |
 
 [1]: https://raw.githubusercontent.com/kanripo/KR2a0025/1a20a4b4c6ed0200ac8c1638634ec610bdea2eea/KR2a0025_021.txt
 [7]: https://zh.wikisource.org/w/index.php?title=漢書/卷041&oldid=2342290

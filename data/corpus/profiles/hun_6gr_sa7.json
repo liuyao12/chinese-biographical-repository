@@ -106,16 +106,97 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin035-pei-dun-daughter-spouse",
+      "subject_person_id": "prr_fkn_twl",
+      "predicate": "spouse",
+      "object_person_id": "hun_6gr_sa7",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p016",
+          "quote": "楷長兄黎，次兄康，並知名。康子盾，少曆顯位。永嘉中，為徐州刺史，委任長史司馬奧。奧勸盾刑殺立威，大發良人為兵，有不奉法者罪便至死。在任三年，百姓嗟怨。東海王越，盾妹夫也。越既薨，騎督滿衡便引所發良人東還。尋而劉元海遣將王桑、趙固向彭城，前鋒數騎至下邳，文武不堪苛政，悉皆散走，盾、奧奔淮陰，妻子為賊人所得。奧又誘盾降趙固。固妻盾女，有寵，盾向女涕泣，固遂殺之。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p016:m0164",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p016:m0161"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "wife_verb_takes_named_daughter",
+          "roles": {
+            "husband": "c-jinshu-035-peikai-family:p016:m0161",
+            "father": "c-jinshu-035-peikai-family:p016:m0163",
+            "daughter": "c-jinshu-035-peikai-family:p016:m0164"
+          },
+          "clause_start": 161,
+          "clause_end": 165,
+          "paragraph_sha256": "8f2f5b84d2a58e9b2a2f4bab0e8538b1eb37c85e790c1f57bfacc84a904be772",
+          "revision_id": 2506399
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "related_people": {
-    "hun_6gr_sa7": "趙固〔永嘉間將領〕"
+    "hun_6gr_sa7": "趙固〔永嘉間將領〕",
+    "prr_fkn_twl": "盾女〔固妻〕"
   },
   "dates": [],
   "name_components": [],
   "person_ids": [
     "hun_6gr_sa7"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin035-pei-dun-daughter-spouse",
+      "subject_person_id": "prr_fkn_twl",
+      "predicate": "spouse",
+      "object_person_id": "hun_6gr_sa7",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p016",
+          "quote": "楷長兄黎，次兄康，並知名。康子盾，少曆顯位。永嘉中，為徐州刺史，委任長史司馬奧。奧勸盾刑殺立威，大發良人為兵，有不奉法者罪便至死。在任三年，百姓嗟怨。東海王越，盾妹夫也。越既薨，騎督滿衡便引所發良人東還。尋而劉元海遣將王桑、趙固向彭城，前鋒數騎至下邳，文武不堪苛政，悉皆散走，盾、奧奔淮陰，妻子為賊人所得。奧又誘盾降趙固。固妻盾女，有寵，盾向女涕泣，固遂殺之。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p016:m0164",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p016:m0161"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "妻",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "wife_verb_takes_named_daughter",
+          "roles": {
+            "husband": "c-jinshu-035-peikai-family:p016:m0161",
+            "father": "c-jinshu-035-peikai-family:p016:m0163",
+            "daughter": "c-jinshu-035-peikai-family:p016:m0164"
+          },
+          "clause_start": 161,
+          "clause_end": 165,
+          "paragraph_sha256": "8f2f5b84d2a58e9b2a2f4bab0e8538b1eb37c85e790c1f57bfacc84a904be772",
+          "revision_id": 2506399
+        }
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

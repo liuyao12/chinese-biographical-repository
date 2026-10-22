@@ -1493,6 +1493,45 @@
   ],
   "relations": [
     {
+      "id": "a-jin035-pei-dao-son-father",
+      "subject_person_id": "7r6_k52_qji_ABAAC",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p017",
+          "quote": "盾弟邵，字道期。元帝為安東將軍，以邵為長史，王導為司馬，二人相與為深交。徵為太子中庶子，復轉散騎常侍，使持節、都督揚州江西淮北諸軍事、東中郎將，隨越出項，而卒於軍中。及王導為司空，既拜，歎曰：「裴道期、劉王喬在，吾不得獨登此位。」導子仲豫與康同字，導思舊好，乃改為敬豫焉。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p017:m0117",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p017:m0115"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_parent_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p017:m0115",
+            "child": "c-jinshu-035-peikai-family:p017:m0117"
+          },
+          "clause_start": 115,
+          "clause_end": 119,
+          "paragraph_sha256": "75dfca19e788ddd21fb089be9bcbfc28a16fa4f81d32e23ebd243e26da28f477",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-jinshu065-wang-005",
       "subject_person_id": "7r6_k52_qji_ABAAC",
       "predicate": "father",
@@ -1580,6 +1619,45 @@
     "7r6_k52_qji_ABAAC"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin035-pei-dao-son-father",
+      "subject_person_id": "7r6_k52_qji_ABAAC",
+      "predicate": "father",
+      "object_person_id": "7r6_k52_qji_ABAA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-035",
+          "source_id": "s-jinshu-035-peikai-ws2506399",
+          "chapter_id": "c-jinshu-035-peikai-family",
+          "paragraph_id": "c-jinshu-035-peikai-family:p017",
+          "quote": "盾弟邵，字道期。元帝為安東將軍，以邵為長史，王導為司馬，二人相與為深交。徵為太子中庶子，復轉散騎常侍，使持節、都督揚州江西淮北諸軍事、東中郎將，隨越出項，而卒於軍中。及王導為司空，既拜，歎曰：「裴道期、劉王喬在，吾不得獨登此位。」導子仲豫與康同字，導思舊好，乃改為敬豫焉。",
+          "subject_person_mention_id": "c-jinshu-035-peikai-family:p017:m0117",
+          "object_person_mention_id": "c-jinshu-035-peikai-family:p017:m0115"
+        }
+      ],
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "rule": "named_parent_son",
+          "roles": {
+            "parent": "c-jinshu-035-peikai-family:p017:m0115",
+            "child": "c-jinshu-035-peikai-family:p017:m0117"
+          },
+          "clause_start": 115,
+          "clause_end": 119,
+          "paragraph_sha256": "75dfca19e788ddd21fb089be9bcbfc28a16fa4f81d32e23ebd243e26da28f477",
+          "revision_id": 2506399
+        },
+        "lineage": "paternal"
+      },
+      "interpretation_note": "只記完整原文所述及限定的上下文指涉；不由婚配、排行或宗祧承繼推未載生母、父系世距或法律收養。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-jinshu065-wang-005",
       "subject_person_id": "7r6_k52_qji_ABAAC",

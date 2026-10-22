@@ -2,6 +2,12 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
+        try:
+            from scripts.biography_family_clause import valid
+        except ImportError:
+            from biography_family_clause import valid
+        return valid(assertion, paragraphs, assertions or [])
     if isinstance(assertion.get('qualifiers'), dict) and isinstance(assertion['qualifiers'].get('source_clause_binding'), dict) and assertion['qualifiers']['source_clause_binding'].get('kind') == 'biography_head_birth_mother_dies_grandmother_care':
         try:
             from scripts.biography_orphan_grandmother_care import valid
