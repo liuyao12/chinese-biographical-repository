@@ -1114,6 +1114,41 @@
   ],
   "occurrences": [
     {
+      "number": 20,
+      "category": "",
+      "title": "謝弘微完整本傳",
+      "paragraph_id": "c-nanshi-020-xiehongwei:p009",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "邪王球為友𢎞微為文學母憂去職居䘮以孝稱服闋蔬素踰時文帝即位為黄門侍郎與王華王曇首殷景仁劉湛等號曰五臣遷尚書吏部郎參機密尋轉右衛将軍諸故吏臣佐並委𢎞微選擬居身清約器服不華而飲食滋味盡其豐美",
+      "paragraph_ids": [
+        "c-nanshi-020-xiehongwei:p009"
+      ],
+      "mention_ids": [
+        "c-nanshi-020-xiehongwei:p009:m0047"
+      ],
+      "mention_paragraph_ids": {
+        "c-nanshi-020-xiehongwei:p009:m0047": "c-nanshi-020-xiehongwei:p009"
+      },
+      "mention_id": "c-nanshi-020-xiehongwei:p009:m0047",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-nanshi-020-xiehongwei:p009:m0047",
+          "mention_ids": [
+            "c-nanshi-020-xiehongwei:p009:m0047"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-020",
+      "chapter_id": "c-nanshi-020-xiehongwei",
+      "source_id": "s-nanshi020-kr3c7bdbb",
+      "work_title": "南史"
+    },
+    {
       "number": 42,
       "category": "",
       "title": "王弘完整傳主單元（含子弟附傳）",
@@ -2365,6 +2400,36 @@
               "raw_quote_sha256": "aff91218d23e1812bf97b30a075f29af8c4c937c7a040290e1508eb899a6af06"
             }
           ]
+        }
+      }
+    },
+    {
+      "chapter_id": "c-nanshi-020-xiehongwei",
+      "work_id": "w-nanshi",
+      "book_id": "b-nanshi-020",
+      "source_id": "s-nanshi020-kr3c7bdbb",
+      "source": {
+        "title": "《南史》卷二十謝弘微完整本傳（編輯選錄題）",
+        "provider": "Kanripo",
+        "url": "https://github.com/kanripo/KR2a0024/blob/3c7bdbb072bf8e1eb70d134a94570c4b8de058ea/KR2a0024_020.txt",
+        "permalink": "https://github.com/kanripo/KR2a0024/blob/3c7bdbb072bf8e1eb70d134a94570c4b8de058ea/KR2a0024_020.txt",
+        "revision_id": "3c7bdbb072bf8e1eb70d134a94570c4b8de058ea",
+        "source_commit": "3c7bdbb072bf8e1eb70d134a94570c4b8de058ea",
+        "source_blob_sha": "2b9f4475736e6ef3efc9dc460cb37968e519d6fb",
+        "response_sha256": "4a06175b7f645cf3012c5857b8e33abe3b41bb3f4a0a44ce76105b87112714cb",
+        "raw_file": "sources/witnesses/nanshi020-kr3c7bdbb.txt",
+        "raw_file_sha256": "4a06175b7f645cf3012c5857b8e33abe3b41bb3f4a0a44ce76105b87112714cb",
+        "edition": "WYG（檔首標示；未核影像）",
+        "accessed_on": "2026-10-21",
+        "extent": "完整謝密字𢎞微本傳，止子莊交接；不含下接莊傳及整卷。19段為編輯敘事分段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代正文；固定Kanripo WYG數位見證保留歸屬。GitHub repository license metadata為null，未擅自宣稱現代轉錄及包裝為MIT或CC；本候選尚未發布。",
+        "license_url": "https://github.com/kanripo/KR2a0024",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去數位頁標、¶及換行，不轉字、不加標點；逐字raw_runs保存原位置。選定單元沒有括注，引用詩句及史臣評語均保原文，不冒為另一本原生正文。"
         }
       }
     },

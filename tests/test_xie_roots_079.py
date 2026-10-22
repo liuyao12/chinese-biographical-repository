@@ -121,7 +121,13 @@ class XieRoots079(unittest.TestCase):
         self.assertEqual(events[0]['person_id'], self.people['謝據'])
         self.assertIsNone(events[0]['date_expression'])
         self.assertNotIn('normalized_date', events[0])
-        self.assertFalse(any(a['person_id'] == self.people['謝朗'] for a in all_events))
+        lang_events = [a for a in all_events if a['person_id'] == self.people['謝朗']]
+        self.assertEqual(len(lang_events), 1)
+        self.assertEqual(lang_events[0]['source_term'], '並早卒')
+        self.assertEqual({e['paragraph_id'] for e in lang_events[0]['evidence']},
+                         {'c-jinshu-079-xielang-family:exp-xiewan-p004'})
+        self.assertIsNone(lang_events[0]['date_expression'])
+        self.assertNotIn('normalized_date', lang_events[0])
         title = next(h for h in read('corpus/jinshu/079-titles.json')['holdings'] if h['person_id'] == self.people['謝朗'])
         self.assertEqual(title['title'], '東陽太守')
         self.assertEqual(title['effective_period']['end']['status'], 'unknown')

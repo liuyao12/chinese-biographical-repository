@@ -1057,3 +1057,6 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `lineage: unspecified`、`generation_difference: null`、`exact_distance: null`、`common_ancestor_person_id: null`、`connecting_person_ids: null`、`subject_relative_age: unknown` 保全未明範圍；此謂詞不是父系接樹證據，不使用遠祖限定的 `adopted_for_family_tree` 欄位，不能由這個用稱補共同祖先、中間人物、同輩、排行或姨／姑／舅的確切路徑。不是把未知連接人物記作空名父母。
 
 `source_clause_binding.kind: named_subject_yu_named_object_congzhongbiao` 保存完整「具名甲於具名乙為／爲從中表」及從中表原位、固定見證source ID／revision／raw SHA／章正文SHA。兩個人物錨點須位於本句的甲、乙位置，證據必為完整實存原段，並與實際sources原檔字串對上；當前限定接受只有段落邊界空白的literal raw，不去注釋或借另一段projection。此分支只接受傳文敘述句，不把引語、否定或附注視為來源本人的直接親屬聲稱。兩史各記原證，不以重複記載推算親等或提高史料權重。從中表欄位保留於雙端JSON；三代及父系trace不沿此謂詞。
+
+
+`relationship_basis: named_wifes_father` 僅支援完整「甲，乙之妻父也」句：三個已標記人物為父甲、夫乙與未名妻。妻作 father/spouse 主體，客體分別為父／夫；`wife_father_context` 綁原句與三錨點，可保留句首地域稱示但不得放過引語、否定或其他插入人物。不補妻名、生母、婚期或所生子女。

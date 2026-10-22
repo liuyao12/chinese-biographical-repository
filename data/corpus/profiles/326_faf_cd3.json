@@ -210,24 +210,27 @@
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
       "paragraph_id": "c-jinshu-079-xielang-family:phase6-line029",
-      "count": 3,
-      "raw_count": 3,
+      "count": 4,
+      "raw_count": 4,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "初辟司徒府，除佐著作郎，並以疾辭。寓居會稽，與王羲之及高陽許詢、桑門支遁遊處，出則漁弋山水，入則言詠屬文，無處世意。揚州刺史庾冰就以安有重名，必欲致之，累下郡縣敦逼，不得已赴召，月餘告歸。復除尚書郎、琅邪王友，並不起。吏部尚書范汪舉安為吏部郎，安以書距",
       "paragraph_ids": [
+        "c-jinshu-079-xielang-family:exp-xiewan-p002",
         "c-jinshu-079-xielang-family:phase6-line029",
         "c-jinshu-079-xielang-family:phase6-line037"
       ],
       "mention_ids": [
         "c-jinshu-079-xielang-family:phase6-line029:m0023",
         "c-jinshu-079-xielang-family:phase6-line037:m0130",
-        "c-jinshu-079-xielang-family:phase6-line037:m0148"
+        "c-jinshu-079-xielang-family:phase6-line037:m0148",
+        "c-jinshu-079-xielang-family:exp-xiewan-p002:m0155"
       ],
       "mention_paragraph_ids": {
         "c-jinshu-079-xielang-family:phase6-line029:m0023": "c-jinshu-079-xielang-family:phase6-line029",
         "c-jinshu-079-xielang-family:phase6-line037:m0130": "c-jinshu-079-xielang-family:phase6-line037",
-        "c-jinshu-079-xielang-family:phase6-line037:m0148": "c-jinshu-079-xielang-family:phase6-line037"
+        "c-jinshu-079-xielang-family:phase6-line037:m0148": "c-jinshu-079-xielang-family:phase6-line037",
+        "c-jinshu-079-xielang-family:exp-xiewan-p002:m0155": "c-jinshu-079-xielang-family:exp-xiewan-p002"
       },
       "mention_id": "c-jinshu-079-xielang-family:phase6-line029:m0023",
       "occurrence_groups": [
@@ -249,6 +252,13 @@
           "canonical_mention_id": "c-jinshu-079-xielang-family:phase6-line037:m0148",
           "mention_ids": [
             "c-jinshu-079-xielang-family:phase6-line037:m0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p002:m0155",
+          "mention_ids": [
+            "c-jinshu-079-xielang-family:exp-xiewan-p002:m0155"
           ],
           "kind": "paragraph"
         }
@@ -911,12 +921,43 @@
               "source_revision": 2645985,
               "raw_quote": "=====重子 絢=====\n",
               "raw_quote_sha256": "73f651f287b39557bd2d0a55b48923a36f8dfbc5603ee880f2a3828e4b0f30b8"
+            },
+            {
+              "source_lines": [
+                118,
+                120
+              ],
+              "raw_quote": "\n===萬子 韶===\n",
+              "raw_quote_sha256": "285d0c51d599cbe590b5e33c6f9165e32141aa4c840e967c6bc31b4516844134",
+              "kind": "digital_section_heading",
+              "not_received_text": true,
+              "source_revision": 2645985
             }
           ],
           "xie_markup_removal": {
             "-{面}-": "面",
             "-{沖}-": "沖"
-          }
+          },
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645985
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645985
+            }
+          ]
         }
       }
     },

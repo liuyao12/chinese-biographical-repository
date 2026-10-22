@@ -6,7 +6,8 @@
   "identity_note": "本卷完整敘事單元來源人物；有父系者依明文，未知母親、生年及婚姻不補。謝混沿用王氏尚未發布來源候選。",
   "review": "ai_provisional",
   "names": [
-    "孫綽"
+    "孫綽",
+    "綽"
   ],
   "titles": [],
   "addresses": [],
@@ -16,19 +17,24 @@
       "category": "",
       "title": "謝氏家族選段及謝尚、奕、玄、石、邈完整單元",
       "paragraph_id": "c-jinshu-079-xielang-family:phase6-line029",
-      "count": 1,
-      "raw_count": 1,
+      "count": 3,
+      "raw_count": 3,
       "duplicate_count": 0,
       "counting_policy": "independent_fixed_witness_occurrences",
       "quote": "遲東土。嘗往臨安山中，坐石室，臨浚谷，悠然歎曰：「此去伯夷何遠！」嘗與孫綽等泛海，風起浪湧，諸人並懼，安吟嘯自若。舟人以安為悅，猶去不止。風轉急，安徐曰：「如此將何歸邪？」舟人承言即回。眾咸服其雅量。安雖放情丘壑，然每遊賞，必以妓女從。既累辟不就，簡文帝時為相，曰：「安石既",
       "paragraph_ids": [
+        "c-jinshu-079-xielang-family:exp-xiewan-p001",
         "c-jinshu-079-xielang-family:phase6-line029"
       ],
       "mention_ids": [
-        "c-jinshu-079-xielang-family:phase6-line029:m0183"
+        "c-jinshu-079-xielang-family:phase6-line029:m0183",
+        "c-jinshu-079-xielang-family:exp-xiewan-p001:m0087",
+        "c-jinshu-079-xielang-family:exp-xiewan-p001:m0090"
       ],
       "mention_paragraph_ids": {
-        "c-jinshu-079-xielang-family:phase6-line029:m0183": "c-jinshu-079-xielang-family:phase6-line029"
+        "c-jinshu-079-xielang-family:phase6-line029:m0183": "c-jinshu-079-xielang-family:phase6-line029",
+        "c-jinshu-079-xielang-family:exp-xiewan-p001:m0087": "c-jinshu-079-xielang-family:exp-xiewan-p001",
+        "c-jinshu-079-xielang-family:exp-xiewan-p001:m0090": "c-jinshu-079-xielang-family:exp-xiewan-p001"
       },
       "mention_id": "c-jinshu-079-xielang-family:phase6-line029:m0183",
       "occurrence_groups": [
@@ -36,6 +42,20 @@
           "canonical_mention_id": "c-jinshu-079-xielang-family:phase6-line029:m0183",
           "mention_ids": [
             "c-jinshu-079-xielang-family:phase6-line029:m0183"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p001:m0087",
+          "mention_ids": [
+            "c-jinshu-079-xielang-family:exp-xiewan-p001:m0087"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-079-xielang-family:exp-xiewan-p001:m0090",
+          "mention_ids": [
+            "c-jinshu-079-xielang-family:exp-xiewan-p001:m0090"
           ],
           "kind": "paragraph"
         }
@@ -673,12 +693,43 @@
               "source_revision": 2645985,
               "raw_quote": "=====重子 絢=====\n",
               "raw_quote_sha256": "73f651f287b39557bd2d0a55b48923a36f8dfbc5603ee880f2a3828e4b0f30b8"
+            },
+            {
+              "source_lines": [
+                118,
+                120
+              ],
+              "raw_quote": "\n===萬子 韶===\n",
+              "raw_quote_sha256": "285d0c51d599cbe590b5e33c6f9165e32141aa4c840e967c6bc31b4516844134",
+              "kind": "digital_section_heading",
+              "not_received_text": true,
+              "source_revision": 2645985
             }
           ],
           "xie_markup_removal": {
             "-{面}-": "面",
             "-{沖}-": "沖"
-          }
+          },
+          "verified_blank_line_gaps": [
+            {
+              "source_lines": [
+                114,
+                114
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645985
+            },
+            {
+              "source_lines": [
+                116,
+                116
+              ],
+              "raw_quote": "",
+              "raw_quote_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "revision_id": 2645985
+            }
+          ]
         }
       }
     }

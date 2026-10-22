@@ -1385,6 +1385,12 @@ def validate(root=ROOT):
                                  and obj.get('person_id') == a['object_person_id']
                                  and '曾祖是' + obj.get('surface', '') + '外孫' in e.get('quote', ''))
                     check(valid, '外孫主體指涉須連到已驗三代判讀，外祖錨點及未名母親分存')
+                if qualifiers.get('relationship_basis') == 'named_wifes_father':
+                    try:
+                        from scripts.wife_father_clause import wife_father_clause_valid
+                    except ImportError:
+                        from wife_father_clause import wife_father_clause_valid
+                    check(wife_father_clause_valid(a, paragraphs, chapters), '妻父從句須綁完整原句與父夫妻三角色，不得推生母或反轉端點')
                 if a['predicate'] in ('raised_by', 'ritual_successor_of') or 'care_basis' in qualifiers or 'succession_kind' in qualifiers:
                     try:
                         from scripts.non_parental_family import non_parental_relation_valid
