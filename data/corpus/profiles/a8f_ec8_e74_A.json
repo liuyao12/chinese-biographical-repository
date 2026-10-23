@@ -107,6 +107,118 @@
       "period": "未定 → 未定"
     },
     {
+      "id": "th-jin043-shantao-career-009",
+      "person_id": "a8f_ec8_e74_A",
+      "title": "驃騎將軍",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "reported_service",
+      "status": "source_attested",
+      "source_career_role": {
+        "kind": "attached_received_biography_frame",
+        "frame": "paragraph_frame_003",
+        "paragraph_id": "c-jinshu-043-shantao:p003",
+        "source_revision": 2618531,
+        "paragraph_sha256": "66a4040e4b23045a209f4790fae34834a956a426fc32c33d8debd70b507720bf",
+        "roles": {
+          "r0": "c-jinshu-043-shantao:p003:m0001",
+          "r1": "c-jinshu-043-shantao:p003:m0012",
+          "r2": "c-jinshu-043-shantao:p003:m0015",
+          "r3": "c-jinshu-043-shantao:p003:m0019",
+          "r4": "c-jinshu-043-shantao:p003:m0042",
+          "r5": "c-jinshu-043-shantao:p003:m0064",
+          "r6": "c-jinshu-043-shantao:p003:m0067",
+          "r7": "c-jinshu-043-shantao:p003:m0072",
+          "r8": "c-jinshu-043-shantao:p003:m0106",
+          "r9": "c-jinshu-043-shantao:p003:m0111",
+          "r10": "c-jinshu-043-shantao:p003:m0114",
+          "r11": "c-jinshu-043-shantao:p003:m0118"
+        },
+        "fields": {
+          "career_007": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 30,
+            "end": 32,
+            "surface": "秀才"
+          },
+          "career_008": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 34,
+            "end": 36,
+            "surface": "郎中"
+          },
+          "career_009": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 38,
+            "end": 42,
+            "surface": "驃騎將軍"
+          },
+          "career_010": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 44,
+            "end": 48,
+            "surface": "從事中郎"
+          },
+          "career_011": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 53,
+            "end": 56,
+            "surface": "趙國相"
+          },
+          "career_012": {
+            "paragraph_id": "c-jinshu-043-shantao:p003",
+            "start": 58,
+            "end": 63,
+            "surface": "尚書吏部郎"
+          }
+        },
+        "inside_role_fields": {},
+        "human_reviewed": false,
+        "slot": "career-009",
+        "recipient_role": "r4"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-shantao",
+          "chapter_id": "c-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:p003",
+          "quote": "與宣穆後有中表親，是以見景帝。帝曰：「呂望欲仕邪？」命司隸舉秀才，除郎中。轉驃騎將軍王昶從事中郎。久之，拜趙國相，遷尚書吏部郎。文帝與濤書曰：「足下在事清明，雅操邁時。念多所乏，今致錢二十萬、穀二百斛。」魏帝嘗賜景帝春服，帝以賜濤。又以母老，並賜藜杖一枚。",
+          "person_mention_id": "c-jinshu-043-shantao:p003:m0042"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin043-shantao-career-009:a001",
+          "paragraph_id": "c-jinshu-043-shantao:p003",
+          "start": 38,
+          "end": 42,
+          "surface": "驃騎將軍",
+          "person_mention_id": "c-jinshu-043-shantao:p003:m0042",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原任命/用稱按本句角色；未知任終，不借卒年，日期只綁明示同授事件。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    },
+    {
       "id": "th-wang35-041",
       "person_id": "a8f_ec8_e74_A",
       "title": "太子文學",
@@ -2048,6 +2160,41 @@
       "book_id": "b-jinshu-042",
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:p003",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "親，是以見景帝。帝曰：「呂望欲仕邪？」命司隸舉秀才，除郎中。轉驃騎將軍王昶從事中郎。久之，拜趙國相，遷尚書吏部郎。文帝與濤書曰：「足下在事清明，雅操邁時。念多所乏，今致錢二十萬、穀二百斛。」魏帝嘗賜景帝春服，帝以賜濤。又以母老，並賜藜杖一枚。",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:p003"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:p003:m0042"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:p003:m0042": "c-jinshu-043-shantao:p003"
+      },
+      "mention_id": "c-jinshu-043-shantao:p003:m0042",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p003:m0042",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p003:m0042"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
       "work_title": "晉書"
     },
     {
@@ -14362,6 +14509,35 @@
         },
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "source": {
+        "title": "《晉書》卷四十三山濤完整本傳及簡、遐附傳與史論（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-22",
+        "extent": "山濤至王戎節題前完整單元，含子簡、簡子遐附傳及史臣論；25原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；來源歸屬保留，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白/節題標記、展開YL模板及兩個wiki連結的顯示文字；未依連結target推全題，原字不校改。"
+        }
       }
     },
     {

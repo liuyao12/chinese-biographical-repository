@@ -27,7 +27,9 @@
     "曹氏",
     "武皇帝",
     "操",
-    "先帝"
+    "先帝",
+    "吾主",
+    "明公"
   ],
   "titles": [
     {
@@ -123,6 +125,69 @@
       "reviewer": "Codex（AI 代理）",
       "human_reviewed": false,
       "model": null,
+      "period": "未定 → 未定"
+    },
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "person_id": "dad_b77_b38",
+      "title": "司空",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-025",
+          "source_id": "s-sanguozhi-025-xinpi",
+          "chapter_id": "c-sanguozhi-025-xinpi",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p001",
+          "quote": "辛毗字佐治潁川陽翟人也其先建武中自隴西東遷毗隨兄評從袁紹太祖為司空辟毗毗不得應命及袁尚攻兄譚於平原譚使毗詣太祖求和",
+          "person_mention_id": "c-sanguozhi-025-xinpi:p001:m0028"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-sgz025-xinpi-holding_001:a001",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p001",
+          "start": 31,
+          "end": 33,
+          "surface": "司空",
+          "person_mention_id": "c-sanguozhi-025-xinpi:p001:m0028",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "來源官爵原稱與實際受任角色；未知起迄保空，不以死亡填任終。",
+      "id": "th-sgz025-xinpi-holding_001",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "slot": "holding_001",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_id": "c-sanguozhi-025-xinpi:p001",
+        "paragraph_sha256": "68e17826f5c2cd9a63b5aac95498009f382d8d2ad73b3aad2a5adefcad17fcb9"
+      },
+      "source_career_role": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "slot": "holding_001",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_id": "c-sanguozhi-025-xinpi:p001",
+        "paragraph_sha256": "68e17826f5c2cd9a63b5aac95498009f382d8d2ad73b3aad2a5adefcad17fcb9"
+      },
       "period": "未定 → 未定"
     },
     {
@@ -2307,6 +2372,621 @@
       "work_title": "三國志"
     },
     {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p003",
+      "count": 64,
+      "raw_count": 64,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "謀無决欲與共濟天下大難定覇王之業難矣於是遂去之先是時潁川戲志才籌畫士也太祖甚器之早卒太祖與荀彧書曰自志才亡後莫可與計事者汝潁固多竒士誰可以繼之彧薦嘉召見論天下事太祖曰使孤成大業者必此人也嘉出亦喜曰眞吾主也表為司空軍祭酒",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p005",
+        "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p007",
+        "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p010",
+        "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p015",
+        "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p018"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p003:m0089",
+        "c-sanguozhi-014-guojia:p003:m0096",
+        "c-sanguozhi-014-guojia:p003:m0134",
+        "c-sanguozhi-014-guojia:p003:m0153",
+        "c-sanguozhi-014-guojia:p004:m0003",
+        "c-sanguozhi-014-guojia:p004:m0028",
+        "c-sanguozhi-014-guojia:p004:m0044",
+        "c-sanguozhi-014-guojia:p004:m0069",
+        "c-sanguozhi-014-guojia:p004:m0085",
+        "c-sanguozhi-014-guojia:p004:m0099",
+        "c-sanguozhi-014-guojia:p004:m0125",
+        "c-sanguozhi-014-guojia:p004:m0157",
+        "c-sanguozhi-014-guojia:p004:m0191",
+        "c-sanguozhi-014-guojia:p004:m0229",
+        "c-sanguozhi-014-guojia:p004:m0301",
+        "c-sanguozhi-014-guojia:p004:m0353",
+        "c-sanguozhi-014-guojia:p004:m0373",
+        "c-sanguozhi-014-guojia:p004:m0401",
+        "c-sanguozhi-014-guojia:p004:m0423",
+        "c-sanguozhi-014-guojia:p004:m0431",
+        "c-sanguozhi-014-guojia:p004:m0473",
+        "c-sanguozhi-014-guojia:p005:m0016",
+        "c-sanguozhi-014-guojia:p005:m0024",
+        "c-sanguozhi-014-guojia:p006:m0003",
+        "c-sanguozhi-014-guojia:p006:m0074",
+        "c-sanguozhi-014-guojia:p006:m0092",
+        "c-sanguozhi-014-guojia:p006:m0108",
+        "c-sanguozhi-014-guojia:p006:m0118",
+        "c-sanguozhi-014-guojia:p006:m0171",
+        "c-sanguozhi-014-guojia:p006:m0197",
+        "c-sanguozhi-014-guojia:p006:m0213",
+        "c-sanguozhi-014-guojia:p006:m0228",
+        "c-sanguozhi-014-guojia:p006:m0288",
+        "c-sanguozhi-014-guojia:p006:m0313",
+        "c-sanguozhi-014-guojia:p006:m0329",
+        "c-sanguozhi-014-guojia:p006:m0346",
+        "c-sanguozhi-014-guojia:p007:m0011",
+        "c-sanguozhi-014-guojia:p008:m0003",
+        "c-sanguozhi-014-guojia:p008:m0033",
+        "c-sanguozhi-014-guojia:p008:m0041",
+        "c-sanguozhi-014-guojia:p008:m0075",
+        "c-sanguozhi-014-guojia:p008:m0108",
+        "c-sanguozhi-014-guojia:p009:m0094",
+        "c-sanguozhi-014-guojia:p009:m0126",
+        "c-sanguozhi-014-guojia:p010:m0007",
+        "c-sanguozhi-014-guojia:p011:m0000",
+        "c-sanguozhi-014-guojia:p011:m0024",
+        "c-sanguozhi-014-guojia:p011:m0028",
+        "c-sanguozhi-014-guojia:p011:m0158",
+        "c-sanguozhi-014-guojia:p011:m0162",
+        "c-sanguozhi-014-guojia:p011:m0209",
+        "c-sanguozhi-014-guojia:p011:m0225",
+        "c-sanguozhi-014-guojia:p011:m0260",
+        "c-sanguozhi-014-guojia:p011:m0269",
+        "c-sanguozhi-014-guojia:p011:m0281",
+        "c-sanguozhi-014-guojia:p011:m0304",
+        "c-sanguozhi-014-guojia:p011:m0354",
+        "c-sanguozhi-014-guojia:p012:m0003",
+        "c-sanguozhi-014-guojia:p012:m0007",
+        "c-sanguozhi-014-guojia:p015:m0001",
+        "c-sanguozhi-014-guojia:p016:m0003",
+        "c-sanguozhi-014-guojia:p017:m0017",
+        "c-sanguozhi-014-guojia:p018:m0003",
+        "c-sanguozhi-014-guojia:p018:m0087"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p003:m0089": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p003:m0096": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p003:m0134": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p003:m0153": "c-sanguozhi-014-guojia:p003",
+        "c-sanguozhi-014-guojia:p004:m0003": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0028": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0044": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0069": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0085": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0099": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0125": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0157": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0191": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0229": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0301": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0353": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0373": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0401": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0423": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0431": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p004:m0473": "c-sanguozhi-014-guojia:p004",
+        "c-sanguozhi-014-guojia:p005:m0016": "c-sanguozhi-014-guojia:p005",
+        "c-sanguozhi-014-guojia:p005:m0024": "c-sanguozhi-014-guojia:p005",
+        "c-sanguozhi-014-guojia:p006:m0003": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0074": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0092": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0108": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0118": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0171": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0197": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0213": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0228": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0288": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0313": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0329": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p006:m0346": "c-sanguozhi-014-guojia:p006",
+        "c-sanguozhi-014-guojia:p007:m0011": "c-sanguozhi-014-guojia:p007",
+        "c-sanguozhi-014-guojia:p008:m0003": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0033": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0041": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0075": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p008:m0108": "c-sanguozhi-014-guojia:p008",
+        "c-sanguozhi-014-guojia:p009:m0094": "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p009:m0126": "c-sanguozhi-014-guojia:p009",
+        "c-sanguozhi-014-guojia:p010:m0007": "c-sanguozhi-014-guojia:p010",
+        "c-sanguozhi-014-guojia:p011:m0000": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0024": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0028": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0158": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0162": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0209": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0225": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0260": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0269": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0281": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0304": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p011:m0354": "c-sanguozhi-014-guojia:p011",
+        "c-sanguozhi-014-guojia:p012:m0003": "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p012:m0007": "c-sanguozhi-014-guojia:p012",
+        "c-sanguozhi-014-guojia:p015:m0001": "c-sanguozhi-014-guojia:p015",
+        "c-sanguozhi-014-guojia:p016:m0003": "c-sanguozhi-014-guojia:p016",
+        "c-sanguozhi-014-guojia:p017:m0017": "c-sanguozhi-014-guojia:p017",
+        "c-sanguozhi-014-guojia:p018:m0003": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p018:m0087": "c-sanguozhi-014-guojia:p018"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p003:m0089",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0089",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0089"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0096",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0134",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0134"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p003:m0153",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p003:m0153"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0028",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0044",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0069",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0069"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0085",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0085"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0099",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0099"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0125",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0125"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0157",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0157"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0191",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0191"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0229",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0229"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0301",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0301"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0353",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0353"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0373",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0373"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0401",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0401"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0423",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0423"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0431",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0431"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p004:m0473",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p004:m0473"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p005:m0016",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p005:m0016"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p005:m0024",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p005:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0074",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0074"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0092",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0092"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0108",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0108"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0118",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0171",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0171"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0197",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0197"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0213",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0213"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0228",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0228"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0288",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0288"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0313",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0313"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0329",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0329"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p006:m0346",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p006:m0346"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p007:m0011",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p007:m0011"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0033",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0033"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0041",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0041"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0075",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0075"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p008:m0108",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p008:m0108"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p009:m0094",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p009:m0094"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p009:m0126",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p009:m0126"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p010:m0007",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p010:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0000",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0024",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0024"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0028",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0158",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0158"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0162",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0162"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0209",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0209"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0225",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0225"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0260",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0260"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0269",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0269"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0281",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0281"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0304",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0304"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p011:m0354",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p011:m0354"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p012:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p012:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p012:m0007",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p012:m0007"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p015:m0001",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p015:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p016:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p016:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p017:m0017",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p017:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0087",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0087"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
+      "work_title": "三國志"
+    },
+    {
       "number": 15,
       "category": "",
       "title": "謝朏傳（含諼、篹附傳）",
@@ -2754,6 +3434,242 @@
       "book_id": "b-sanguozhi-022",
       "chapter_id": "c-sanguozhi-022-luyu",
       "source_id": "s-sanguozhi-022-luyu",
+      "work_title": "三國志"
+    },
+    {
+      "number": 25,
+      "category": "",
+      "title": "辛毗本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-025-xinpi:p001",
+      "count": 23,
+      "raw_count": 23,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "辛毗字佐治潁川陽翟人也其先建武中自隴西東遷毗隨兄評從袁紹太祖為司空辟毗毗不得應命及袁尚攻兄譚於平原譚使毗詣太祖求和",
+      "paragraph_ids": [
+        "c-sanguozhi-025-xinpi:p001",
+        "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p004"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-025-xinpi:p001:m0028",
+        "c-sanguozhi-025-xinpi:p001:m0053",
+        "c-sanguozhi-025-xinpi:p002:m0044",
+        "c-sanguozhi-025-xinpi:p002:m0050",
+        "c-sanguozhi-025-xinpi:p002:m0090",
+        "c-sanguozhi-025-xinpi:p002:m0092",
+        "c-sanguozhi-025-xinpi:p002:m0121",
+        "c-sanguozhi-025-xinpi:p002:m0154",
+        "c-sanguozhi-025-xinpi:p003:m0000",
+        "c-sanguozhi-025-xinpi:p003:m0012",
+        "c-sanguozhi-025-xinpi:p003:m0017",
+        "c-sanguozhi-025-xinpi:p003:m0042",
+        "c-sanguozhi-025-xinpi:p003:m0054",
+        "c-sanguozhi-025-xinpi:p003:m0056",
+        "c-sanguozhi-025-xinpi:p003:m0072",
+        "c-sanguozhi-025-xinpi:p003:m0116",
+        "c-sanguozhi-025-xinpi:p003:m0249",
+        "c-sanguozhi-025-xinpi:p003:m0277",
+        "c-sanguozhi-025-xinpi:p003:m0279",
+        "c-sanguozhi-025-xinpi:p003:m0401",
+        "c-sanguozhi-025-xinpi:p003:m0426",
+        "c-sanguozhi-025-xinpi:p003:m0904",
+        "c-sanguozhi-025-xinpi:p004:m0100"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-025-xinpi:p001:m0028": "c-sanguozhi-025-xinpi:p001",
+        "c-sanguozhi-025-xinpi:p001:m0053": "c-sanguozhi-025-xinpi:p001",
+        "c-sanguozhi-025-xinpi:p002:m0044": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p002:m0050": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p002:m0090": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p002:m0092": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p002:m0121": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p002:m0154": "c-sanguozhi-025-xinpi:p002",
+        "c-sanguozhi-025-xinpi:p003:m0000": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0012": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0017": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0042": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0054": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0056": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0072": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0116": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0249": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0277": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0279": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0401": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0426": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p003:m0904": "c-sanguozhi-025-xinpi:p003",
+        "c-sanguozhi-025-xinpi:p004:m0100": "c-sanguozhi-025-xinpi:p004"
+      },
+      "mention_id": "c-sanguozhi-025-xinpi:p001:m0028",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p001:m0028",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p001:m0028"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p001:m0053",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p001:m0053"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0044",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0044"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0050",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0050"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0090",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0092",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0092"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0121",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0121"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p002:m0154",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p002:m0154"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0000",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0000"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0012",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0012"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0017",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0017"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0042",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0042"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0054",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0054"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0056",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0056"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0072",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0072"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0116",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0116"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0249",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0249"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0277",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0277"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0279",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0279"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0401",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0401"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0426",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0426"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p003:m0904",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p003:m0904"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-025-xinpi:p004:m0100",
+          "mention_ids": [
+            "c-sanguozhi-025-xinpi:p004:m0100"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "source_id": "s-sanguozhi-025-xinpi",
       "work_title": "三國志"
     },
     {
@@ -20067,6 +20983,37 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-015-wenhui",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-015",
@@ -20579,6 +21526,36 @@
           "extraction_note": "刪¶/換行與pb頁碼；括號只為古注逐行包裝，移為text_layer。原字（含珽/諶别傳/尸等）不改，逐字raw_positions固定。"
         },
         "quality_note": "沿既存固定WYG數位轉錄，未讀版本影像；本傳及古注保全不等同逐項生平已核。"
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-025-xinpi",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-025",
+      "source_id": "s-sanguozhi-025-xinpi",
+      "source": {
+        "title": "三國志魏書卷二十五辛毗傳及全部裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_025.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "9d77d0409b755082a53c13ed9cae29feb7823c80",
+        "raw_file_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "response_sha256": "972a19c668fc812b938c37cd118b3773eeb8fe9c40f7c93b2509f6eb58d104a4",
+        "raw_path": "source-evidence/sgz025-xinpi/primary/KR2a0012_025.txt",
+        "edition": "WYG數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw19–132行辛毗完整本傳及裴注；133起楊阜。不稱025全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "只去pb/¶/換行/逐行注括號，保所有原字與連續原文；正文與裴注交錯8段。"
+        }
       }
     },
     {
@@ -26721,7 +27698,54 @@
     }
   ],
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "status": "source_attested",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "person_id": "dad_b77_b38",
+      "event_type": "death",
+      "source_term": "及委國祚而文皇帝受命",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+        "start": 104,
+        "end": 114,
+        "surface": "及委國祚而文皇帝受命"
+      },
+      "date_expression": null,
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-025",
+          "source_id": "s-sanguozhi-025-xinpi",
+          "chapter_id": "c-sanguozhi-025-xinpi",
+          "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+          "quote": "魏畧曰諸葛亮圍祁山不克引退張郃追之為流矢所中死帝惜郃臨朝而歎曰蜀未平而郃死將若之何司空陳羣曰郃誠良將國所依也毗心以為郃雖可惜然已死不當内弱主意而示外以不大也乃持羣曰陳公是何言歟當建安之末天下不可一日無武皇帝也及委國祚而文皇帝受命黃初之世亦謂不可無文皇帝也及委棄天下而陛下龍興今國内所少豈張郃乎陳羣曰亦誠如辛毗言帝笑曰陳公可謂善變矣臣松之以為擬人必於其倫取譬宜引其類故君子於其言無所茍而已矣毗欲弘廣主意當舉若張遼之疇安有於一將之死而可以祖宗為譬哉非所宜言莫過於兹進違其類退似諂佞佐治剛正之體不宜有此魏畧既已難信習氏又從而載之竊謂斯人受誣不少",
+          "person_mention_id": "c-sanguozhi-025-xinpi:p004:m0100"
+        }
+      ],
+      "interpretation_note": "魏略引語對曹操死亡的委國祚婉稱；整段對話被裴松之質疑，保報告資格，不用作首選日期。",
+      "id": "le-sgz025-xinpi-life_005",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_kanripo_person_fact_slots",
+        "slot": "life_005",
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_id": "c-sanguozhi-025-xinpi:p004",
+        "paragraph_sha256": "287fa8e5760e564f52b2024c67d1dec9474a83870072657760afa4dae460bda4"
+      },
+      "source_report_qualification": {
+        "kind": "reported_dialogue_explicitly_disputed_by_commentator",
+        "reported_work_surface": "魏畧",
+        "commentator_person_id": "vpy_180_2oi_AA",
+        "critic_mention_id": "c-sanguozhi-025-xinpi:p004:m0166",
+        "report_scope": "魏略所載張郃死後君臣對話，裴松之認為佐治受誣；非已否定張郃之死或其他獨立官歷",
+        "objection_quote": "魏畧既已難信習氏又從而載之竊謂斯人受誣不少",
+        "preferred_as_independent_historical_event": false,
+        "human_reviewed": false
+      }
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

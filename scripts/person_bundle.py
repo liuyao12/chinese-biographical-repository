@@ -279,6 +279,19 @@ def load_catalog(root=ROOT):
     if name_path.exists():
         records.append({'record_type': 'person_name_component_set',
                         'records': json.loads(name_path.read_text())['records']})
+    try:from scripts.fixed_complete_family_career import errors as fixed_family_career_errors
+    except ImportError:from fixed_complete_family_career import errors as fixed_family_career_errors
+    fixed_errors=fixed_family_career_errors(root,records)
+    if fixed_errors:raise ValueError(';'.join(fixed_errors))
+    try:from scripts.fixed_kanripo_fact_slots import errors as fixed_kanripo_fact_errors
+    except ImportError:from fixed_kanripo_fact_slots import errors as fixed_kanripo_fact_errors
+    fact_errors=fixed_kanripo_fact_errors(root,records)
+    if fact_errors:raise ValueError('; '.join(fact_errors))
+    # Fixed complete-witness facts are checked at the native/export shared boundary.
+    try:from scripts.fixed_witness_fact_slots import errors as witness_fact_errors
+    except ImportError:from fixed_witness_fact_slots import errors as witness_fact_errors
+    fact_errors=witness_fact_errors(root,records)
+    if fact_errors:raise ValueError(';'.join(fact_errors))
     return people, records
 
 
@@ -353,6 +366,11 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
     enriched_names = []
     for name in name_components:
         name_paragraph = paragraphs.get(name.get('paragraph_id'))
+        if 'fixed_biography_name_binding' in name:
+            try:from .fixed_biography_names import component_valid
+            except ImportError:from fixed_biography_names import component_valid
+            if not name_paragraph or not component_valid(name,name_paragraph[0],root,[a for r in records if r.get('record_type')=='person_assertion_set' for a in r['assertions']]):
+                raise ValueError('固定完整傳記姓名須綁同人原稱、字、一名與原字見證；不得拼全名冒原稱或任選韓賈姓')
         if 'component_source_binding' in name:
             try:from .received_family_names import source_component_valid
             except ImportError:from received_family_names import source_component_valid
@@ -370,7 +388,7 @@ def bundle(person_id, root=ROOT, include_provisional=False, catalog=None):
                 [n for r in records if r.get('record_type') == 'person_name_component_set' for n in r['records']],
                 {c['id']: c for c, p in paragraphs.values()},
                 ([a for r in records if r.get('record_type') == 'person_assertion_set' for a in r['assertions']]
-                 if name['surname_basis'].get('kind') in ('contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship') else relations), root=root)
+                 if name['surname_basis'].get('kind') in ('contextual_surname_from_received_fact_chain', 'contextual_surname_from_same_source_father_chain', 'contextual_surname_from_bound_paternal_ancestor', 'contextual_surname_from_bounded_named_family_path', 'contextual_surname_from_bound_received_family_units', 'contextual_surname_from_fixed_received_kinship', 'contextual_surname_from_fixed_biography_family') else relations), root=root)
         try:
             from .name_childhood import validate_childhood_name
         except ImportError:

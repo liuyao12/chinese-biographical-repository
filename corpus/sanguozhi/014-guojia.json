@@ -1,0 +1,3279 @@
+{
+  "format_version": "0.2",
+  "record_type": "marked_chapter",
+  "id": "c-sanguozhi-014-guojia",
+  "work_id": "w-sanguozhi",
+  "book_id": "b-sanguozhi-014",
+  "source_id": "s-sanguozhi-014-guojia",
+  "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+  "source": {
+    "title": "三國志魏書卷十四郭嘉本傳及裴注",
+    "provider": "Kanripo WYG",
+    "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+    "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+    "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+    "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+    "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+    "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+    "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+    "edition": "WYG數位轉錄；未核影像",
+    "accessed_on": "2026-10-22",
+    "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+    "text_scope": "partial_chapter",
+    "review_status": "text_checked",
+    "image_verified": false,
+    "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+    "license_url": "https://www.kanripo.org/",
+    "normalization": {
+      "character_conversion": "none",
+      "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+    },
+    "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+  },
+  "annotation": {
+    "status": "in_progress",
+    "reviewer": "Codex（AI代理）",
+    "human_reviewed": false,
+    "model": null,
+    "scope": "complete_guojia_biography_and_all_pei_notes_core_typed",
+    "fixed_kanripo_projection_ref": "source-evidence/sgz014-guojia/projection.json",
+    "identity_review_path": "source-evidence/guojia-family-assembly/current-identity-review.json",
+    "work_reference_review_path": "source-evidence/sgz014-guojia/work-references.json",
+    "limitations": [
+      "已補郭嘉及附子孫的近親、姓名、地望、來源報齡死亡、用稱及奏請型別；非全37人全部生平，死亡年/官爵始終仍依證據保持未知，詳typed覆核ledger。",
+      "敞只明嘉孫不補父；郭奕字伯益沿舊ID，不與泰業/大業郭奕合。",
+      "魏書與傅子劉備主張相反；裴案及武紀歧說、孫策料死偶合批評全文保留。",
+      "來源傳子/傅子異寫首選同書並記資格，未見異本不宣稱校字；未圖校。"
+    ],
+    "age_assertions": [
+      {
+        "id": "age-sgz014-guo-27",
+        "person_id": "344_68f_98e",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-014",
+            "source_id": "s-sanguozhi-014-guojia",
+            "chapter_id": "c-sanguozhi-014-guojia",
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "quote": "傳子曰嘉少有遠量漢末天下將亂自弱冠匿名迹宻交結英雋不與俗接故時人多莫知惟識達者奇之年二十七辟司徒府",
+            "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+          }
+        ],
+        "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+        "source_fact_frame": {
+          "kind": "received_biographical_fact_frame",
+          "rule": "lifetime_recruitment_age",
+          "slot": "age",
+          "paragraph_id": "c-sanguozhi-014-guojia:p002",
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "start": 41,
+            "end": 49,
+            "surface": "年二十七辟司徒府"
+          },
+          "roles": {},
+          "fields": {
+            "age": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p002",
+              "start": 42,
+              "end": 45,
+              "surface": "二十七"
+            },
+            "office": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p002",
+              "start": 46,
+              "end": 49,
+              "surface": "司徒府"
+            }
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "c8db3af3dc8ddcc282b183de244065389fca26a444534d6d4e10220f61c04ef5",
+          "source_layer": "witness_appended_pei_songzhi_note",
+          "prior_subject_reference": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p002",
+            "person_mention_id": "c-sanguozhi-014-guojia:p002:m0003"
+          }
+        },
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "value": 27,
+        "source_number": "二十七",
+        "source_term": "年二十七",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "during_life"
+        }
+      },
+      {
+        "id": "age-sgz014-guo-38",
+        "person_id": "344_68f_98e",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-014",
+            "source_id": "s-sanguozhi-014-guojia",
+            "chapter_id": "c-sanguozhi-014-guojia",
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+            "person_mention_id": "c-sanguozhi-014-guojia:p011:m0250"
+          }
+        ],
+        "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+        "source_fact_frame": {
+          "kind": "received_biographical_fact_frame",
+          "rule": "death_age_after_return",
+          "slot": "age",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 250,
+            "end": 290,
+            "surface": "嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨"
+          },
+          "roles": {
+            "subject": "c-sanguozhi-014-guojia:p011:m0250",
+            "patron": "c-sanguozhi-014-guojia:p011:m0260",
+            "style": "c-sanguozhi-014-guojia:p011:m0264",
+            "speaker": "c-sanguozhi-014-guojia:p011:m0269",
+            "patron_repeat": "c-sanguozhi-014-guojia:p011:m0281"
+          },
+          "fields": {
+            "description": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p011",
+              "start": 251,
+              "end": 260,
+              "surface": "深通有筭略達於事情"
+            },
+            "age": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p011",
+              "start": 272,
+              "end": 275,
+              "surface": "三十八"
+            },
+            "return_place": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p011",
+              "start": 276,
+              "end": 278,
+              "surface": "柳城"
+            }
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+          "source_layer": "received_chapter"
+        },
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "value": 38,
+        "source_number": "三十八",
+        "source_term": "年三十八",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz014-guo-jia-body"
+        }
+      },
+      {
+        "id": "age-sgz014-guo-lt40",
+        "person_id": "344_68f_98e",
+        "status": "source_attested",
+        "evidence": [
+          {
+            "work_id": "w-sanguozhi",
+            "book_id": "b-sanguozhi-014",
+            "source_id": "s-sanguozhi-014-guojia",
+            "chapter_id": "c-sanguozhi-014-guojia",
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+            "person_mention_id": "c-sanguozhi-014-guojia:p018:m0011"
+          }
+        ],
+        "interpretation_note": "二十七為辟召時生前報齡；三十八為正文病卒敘事報齡；不滿四十為傅子所載曹操書之另源上界。計歲法不詳，生年保持null。",
+        "source_fact_frame": {
+          "kind": "received_biographical_fact_frame",
+          "rule": "letter_death_age_bound",
+          "slot": "age",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "scope_anchor": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 3,
+            "end": 60,
+            "surface": "太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之"
+          },
+          "roles": {
+            "writer": "c-sanguozhi-014-guojia:p018:m0003",
+            "recipient": "c-sanguozhi-014-guojia:p018:m0006",
+            "subject": "c-sanguozhi-014-guojia:p018:m0011",
+            "subject_repeat": "c-sanguozhi-014-guojia:p018:m0013"
+          },
+          "fields": {
+            "age": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p018",
+              "start": 19,
+              "end": 21,
+              "surface": "四十"
+            },
+            "years": {
+              "paragraph_id": "c-sanguozhi-014-guojia:p018",
+              "start": 25,
+              "end": 27,
+              "surface": "十二"
+            }
+          },
+          "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+          "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+          "source_layer": "witness_appended_pei_songzhi_note"
+        },
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "model": null,
+        "value": null,
+        "source_number": "四十",
+        "source_term": "年不滿四十",
+        "unit": "source_age_years",
+        "counting": "unspecified_source_age",
+        "birth_year": null,
+        "age_context": {
+          "kind": "at_death",
+          "life_event_id": "le-sgz014-guo-jia-letter"
+        },
+        "bounds": {
+          "lower": null,
+          "lower_inclusive": null,
+          "upper": 40,
+          "upper_inclusive": false
+        },
+        "reporting_status": "upper_bound_report",
+        "source_qualification": null
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "c-sanguozhi-014-guojia:p001",
+      "text": "郭嘉字奉孝潁川陽翟人也",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p001:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "郭嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p001:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 162,
+        "last_line": 162,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p002",
+      "text": "傳子曰嘉少有遠量漢末天下將亂自弱冠匿名迹宻交結英雋不與俗接故時人多莫知惟識達者奇之年二十七辟司徒府",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p002:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傳子",
+          "kind": "work",
+          "person_id": null,
+          "status": "contextual_provisional",
+          "interpretation_note": "首注傳子與後傅子為同一引書的編輯首選；首字原樣保留，未見另一版本或古注校字，不作全域別名。",
+          "work_id": "w-fuzi-pei-reference",
+          "source_spelling_is_not_alias": true
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p002:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p002:m0023",
+          "start": 23,
+          "end": 25,
+          "surface": "英雋",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "未名結交群體，不造多名人物"
+        }
+      ],
+      "source_position": {
+        "first_line": 162,
+        "last_line": 163,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p003",
+      "text": "初北見袁紹謂紹謀臣辛評郭圖曰夫智者審於量主故百舉百全而功名可立也袁公徒欲效周公之下士而未知用人之機多端寡要好謀無决欲與共濟天下大難定覇王之業難矣於是遂去之先是時潁川戲志才籌畫士也太祖甚器之早卒太祖與荀彧書曰自志才亡後莫可與計事者汝潁固多竒士誰可以繼之彧薦嘉召見論天下事太祖曰使孤成大業者必此人也嘉出亦喜曰眞吾主也表為司空軍祭酒",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "辛評",
+          "kind": "person",
+          "person_id": "c78_8d9_d5b",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "郭圖",
+          "kind": "person",
+          "person_id": "bad_ea2_bc7",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0032",
+          "start": 32,
+          "end": 34,
+          "surface": "袁公",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0037",
+          "start": 37,
+          "end": 39,
+          "surface": "周公",
+          "kind": "person",
+          "person_id": "y4i_pjk_4gn_AD",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0082",
+          "start": 82,
+          "end": 85,
+          "surface": "戲志才",
+          "kind": "person",
+          "person_id": "486_70a_b18",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0089",
+          "start": 89,
+          "end": 91,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0096",
+          "start": 96,
+          "end": 98,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0099",
+          "start": 99,
+          "end": 101,
+          "surface": "荀彧",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_BA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0104",
+          "start": 104,
+          "end": 106,
+          "surface": "志才",
+          "kind": "person",
+          "person_id": "486_70a_b18",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0125",
+          "start": 125,
+          "end": 126,
+          "surface": "彧",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_BA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0127",
+          "start": 127,
+          "end": 128,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0134",
+          "start": 134,
+          "end": 136,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0147",
+          "start": 147,
+          "end": 148,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p003:m0153",
+          "start": 153,
+          "end": 155,
+          "surface": "吾主",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 163,
+        "last_line": 172,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p004",
+      "text": "傅子曰太祖謂嘉曰本初擁冀州之衆靑并從之地廣兵彊而數為不遜吾欲討之力不敵如何對曰劉項之不敵公所知也漢祖唯智勝項羽雖彊終為所禽嘉竊料之紹有十敗公有十勝雖兵彊無能為也紹繁禮多儀公體任自然此道勝一也紹以逆動公奉順以率天下此義勝二也漢末政失於寛紹以寛濟寛故不懾公紏之以猛而上下知制此治勝三也紹外寛内忌用人而疑之所任唯親戚子弟公外易簡而内機明用人無疑唯才所宜不問遠近此度勝四也紹多謀少决失在後事公䇿得輒行應變無窮此謀勝五也紹因累世之資髙議揖讓以收名譽士之好言飾外者多歸之公以至心待人推誠而行不為虚美以儉率下與有功者無所吝士之忠正遠見而有實者皆願為用此徳勝六也紹見人飢寒恤念之形於顔色其所不見慮或不及也所謂婦人之仁耳公於目前小事時有所忽至於大事與四海接恩之所加皆過其望雖所不見慮之所周無不濟也此仁勝七也紹大臣争權䜛言惑亂公御下以道浸潤不行此明勝八也紹是非不可知公所是進之以禮所不是正之以法此文勝九也紹好為虚勢不知兵要公以少克衆用兵如神軍人恃之敵人畏之此武勝十也太祖笑曰如卿所言孤何徳以堪之也嘉又曰紹方北擊公孫瓚可因其遠征東取吕布不先取布若紹為冦布為之援此深害也太祖曰然",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p004:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0006",
+          "start": 6,
+          "end": 7,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "本初",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0028",
+          "start": 28,
+          "end": 29,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "太祖問本初之衆而自稱吾欲討之，非郭嘉答辭。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "劉",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "劉項楚漢對比，由同句漢祖與項羽明指兩人，不造劉項一人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0040",
+          "start": 40,
+          "end": 41,
+          "surface": "項",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional",
+          "interpretation_note": "劉項楚漢對比，由同句漢祖與項羽明指兩人，不造劉項一人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0044",
+          "start": 44,
+          "end": 45,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0048",
+          "start": 48,
+          "end": 50,
+          "surface": "漢祖",
+          "kind": "person",
+          "person_id": "yqp_nlb_p1p_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0053",
+          "start": 53,
+          "end": 55,
+          "surface": "項羽",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0061",
+          "start": 61,
+          "end": 62,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0065",
+          "start": 65,
+          "end": 66,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0069",
+          "start": 69,
+          "end": 70,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0080",
+          "start": 80,
+          "end": 81,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0085",
+          "start": 85,
+          "end": 86,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0099",
+          "start": 99,
+          "end": 100,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0117",
+          "start": 117,
+          "end": 118,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0125",
+          "start": 125,
+          "end": 126,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0140",
+          "start": 140,
+          "end": 141,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0153",
+          "start": 153,
+          "end": 157,
+          "surface": "親戚子弟",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "袁紹任用親族群體，未名不造人"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0157",
+          "start": 157,
+          "end": 158,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0182",
+          "start": 182,
+          "end": 183,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0191",
+          "start": 191,
+          "end": 192,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0205",
+          "start": 205,
+          "end": 206,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0229",
+          "start": 229,
+          "end": 230,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0273",
+          "start": 273,
+          "end": 274,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0301",
+          "start": 301,
+          "end": 302,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0344",
+          "start": 344,
+          "end": 345,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0353",
+          "start": 353,
+          "end": 354,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0367",
+          "start": 367,
+          "end": 368,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0373",
+          "start": 373,
+          "end": 374,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0392",
+          "start": 392,
+          "end": 393,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0401",
+          "start": 401,
+          "end": 402,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0423",
+          "start": 423,
+          "end": 425,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0428",
+          "start": 428,
+          "end": 429,
+          "surface": "卿",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0431",
+          "start": 431,
+          "end": 432,
+          "surface": "孤",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0438",
+          "start": 438,
+          "end": 439,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0441",
+          "start": 441,
+          "end": 442,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0445",
+          "start": 445,
+          "end": 448,
+          "surface": "公孫瓚",
+          "kind": "person",
+          "person_id": "1fr_ilo_r7y",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0455",
+          "start": 455,
+          "end": 457,
+          "surface": "吕布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0460",
+          "start": 460,
+          "end": 461,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0462",
+          "start": 462,
+          "end": 463,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0465",
+          "start": 465,
+          "end": 466,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p004:m0473",
+          "start": 473,
+          "end": 475,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 172,
+        "last_line": 184,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p005",
+      "text": "征吕布三戰破之布退固守時士卒疲倦太祖欲引軍還嘉說太祖急攻之遂禽之語在荀攸傳",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p005:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "吕布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p005:m0007",
+          "start": 7,
+          "end": 8,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p005:m0016",
+          "start": 16,
+          "end": 18,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p005:m0022",
+          "start": 22,
+          "end": 23,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p005:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p005:w0034",
+          "start": 34,
+          "end": 37,
+          "surface": "荀攸傳",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "陳壽本文語在荀攸傳的書內篇指稱；連三國志010荀攸單元，不把篇名內荀攸另標人。",
+          "work_id": "w-sanguozhi",
+          "internal_source_reference": {
+            "book_id": "b-sanguozhi-010",
+            "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+            "scope": "荀攸傳；已錄單元亦含荀彧及賈詡，不冒稱單獨新作品"
+          }
+        }
+      ],
+      "source_position": {
+        "first_line": 184,
+        "last_line": 186,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p006",
+      "text": "傅子曰太祖欲引軍還嘉曰昔項籍七十餘戰未嘗敗北一朝失勢而身死國亡者恃勇無謀故也今布每戰輒敗氣衰力盡内外失守布之威力不及項籍而困敗過之若乘勝攻之此成禽也太祖曰善魏書曰劉備來奔以為豫州牧或謂太祖曰備有英雄志今不早圖後必為患太祖以問嘉嘉曰有是然公提劒起義兵為百姓除暴推誠仗信以招俊傑猶懼其未也今備有英雄名以窮歸已而害之是以害賢為名則智士將自疑回心擇主公誰與定天下夫除一人之患以沮四海之望安危之機不可不察太祖笑曰君得之矣傅子曰初劉備來降太祖以客禮待之使為豫州牧嘉言於太祖曰備有雄才而甚得衆心張飛關羽者皆萬人之敵也為之死用嘉觀之備終不為人下其謀未可測也古人有言一日縱敵數世之患宜早為之所時太祖奉天子以號令天下方招懐英雄以明大信未得從嘉謀㑹太祖使備要擊袁術嘉與程昱俱駕而諫太祖曰放備變作矣時備已去遂舉兵以叛太祖恨不用嘉之言案魏書所云與傅子正反也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p006:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0012",
+          "start": 12,
+          "end": 14,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0052",
+          "start": 52,
+          "end": 53,
+          "surface": "布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0058",
+          "start": 58,
+          "end": 60,
+          "surface": "項籍",
+          "kind": "person",
+          "person_id": "ob7_g6i_7pp",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0074",
+          "start": 74,
+          "end": 76,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:w0078",
+          "start": 78,
+          "end": 80,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "沿已核裴注魏書書目身份（王沈等撰），不是魏收魏書；本段兩說與傅子對立原樣保留。",
+          "work_id": "w-weishu-wangshen"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0081",
+          "start": 81,
+          "end": 83,
+          "surface": "劉備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0108",
+          "start": 108,
+          "end": 110,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0112",
+          "start": 112,
+          "end": 113,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0113",
+          "start": 113,
+          "end": 114,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0118",
+          "start": 118,
+          "end": 119,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0143",
+          "start": 143,
+          "end": 144,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0171",
+          "start": 171,
+          "end": 172,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0197",
+          "start": 197,
+          "end": 199,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0201",
+          "start": 201,
+          "end": 202,
+          "surface": "君",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:w0205",
+          "start": 205,
+          "end": 207,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0209",
+          "start": 209,
+          "end": 211,
+          "surface": "劉備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0213",
+          "start": 213,
+          "end": 215,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0225",
+          "start": 225,
+          "end": 226,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0228",
+          "start": 228,
+          "end": 230,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0231",
+          "start": 231,
+          "end": 232,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0240",
+          "start": 240,
+          "end": 242,
+          "surface": "張飛",
+          "kind": "person",
+          "person_id": "qtm_fq1_1ca",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0242",
+          "start": 242,
+          "end": 244,
+          "surface": "關羽",
+          "kind": "person",
+          "person_id": "1c2_03c_9ea",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0255",
+          "start": 255,
+          "end": 256,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0258",
+          "start": 258,
+          "end": 259,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0270",
+          "start": 270,
+          "end": 272,
+          "surface": "古人",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "引語未署具體人，不按記憶補作者"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0288",
+          "start": 288,
+          "end": 290,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0291",
+          "start": 291,
+          "end": 293,
+          "surface": "天子",
+          "kind": "person",
+          "person_id": "e49_8a5_738",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0310",
+          "start": 310,
+          "end": 311,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0313",
+          "start": 313,
+          "end": 315,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0316",
+          "start": 316,
+          "end": 317,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0319",
+          "start": 319,
+          "end": 321,
+          "surface": "袁術",
+          "kind": "person",
+          "person_id": "865_b69_cb0",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0321",
+          "start": 321,
+          "end": 322,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0323",
+          "start": 323,
+          "end": 325,
+          "surface": "程昱",
+          "kind": "person",
+          "person_id": "7d3_88a_398",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0329",
+          "start": 329,
+          "end": 331,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0333",
+          "start": 333,
+          "end": 334,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0338",
+          "start": 338,
+          "end": 339,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0346",
+          "start": 346,
+          "end": 348,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:m0351",
+          "start": 351,
+          "end": 352,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:w0355",
+          "start": 355,
+          "end": 357,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "沿已核裴注魏書書目身份（王沈等撰），不是魏收魏書；本段兩說與傅子對立原樣保留。",
+          "work_id": "w-weishu-wangshen"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p006:w0360",
+          "start": 360,
+          "end": 362,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        }
+      ],
+      "source_position": {
+        "first_line": 186,
+        "last_line": 197,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p007",
+      "text": "孫䇿轉鬬千里盡有江東聞太祖與袁紹相持於官渡將渡江北襲許衆聞皆懼嘉料之曰䇿新幷江東所誅皆英豪雄傑能得人死力者也然䇿輕而無備雖有百萬之衆無異於獨行中原也若刺客伏起一人之敵耳以吾觀之必死於匹夫之手䇿臨江未濟果為許貢客所殺",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "孫䇿",
+          "kind": "person",
+          "person_id": "e9c_070_567",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0011",
+          "start": 11,
+          "end": 13,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0014",
+          "start": 14,
+          "end": 16,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0035",
+          "start": 35,
+          "end": 36,
+          "surface": "䇿",
+          "kind": "person",
+          "person_id": "e9c_070_567",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0055",
+          "start": 55,
+          "end": 56,
+          "surface": "䇿",
+          "kind": "person",
+          "person_id": "e9c_070_567",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0076",
+          "start": 76,
+          "end": 77,
+          "surface": "客",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "許貢之客未名，未作許貢本人"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0085",
+          "start": 85,
+          "end": 86,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0095",
+          "start": 95,
+          "end": 96,
+          "surface": "䇿",
+          "kind": "person",
+          "person_id": "e9c_070_567",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0102",
+          "start": 102,
+          "end": 104,
+          "surface": "許貢",
+          "kind": "person",
+          "person_id": "d13_pe7_bxg",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p007:m0104",
+          "start": 104,
+          "end": 105,
+          "surface": "客",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "許貢之客未名，未作許貢本人"
+        }
+      ],
+      "source_position": {
+        "first_line": 197,
+        "last_line": 202,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p008",
+      "text": "傅子曰太祖欲速征劉備議者懼軍出袁紹襲其後進不得戰而退失所據語在武紀太祖疑以問嘉嘉勸太祖曰紹性遲而多疑來必不速備新起衆心未附急擊之必敗此存亡之機不可失也太祖曰善遂東征備備敗奔紹紹果不出臣松之案武紀决計征備量紹不出皆出自太祖此云用嘉計則為不同又本傳稱自嘉料孫䇿輕佻必死於匹夫之手誠為明於見事然自非上智無以知其死在何年也今正以襲許年死此蓋事之偶合",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p008:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0008",
+          "start": 8,
+          "end": 10,
+          "surface": "劉備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:w0031",
+          "start": 31,
+          "end": 33,
+          "surface": "武紀",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "所指三國志魏書武帝紀；引文與裴案兩次武紀同一書內篇，不造本單元未出現的全稱先行。",
+          "work_id": "w-sanguozhi",
+          "internal_source_reference": {
+            "book_id": null,
+            "chapter_id": null,
+            "source_chapter_title": "武紀",
+            "scope": "三國志書內篇稱；本批未匯其完整正文，不補不存在的book/chapter ID"
+          }
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0033",
+          "start": 33,
+          "end": 35,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0038",
+          "start": 38,
+          "end": 39,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0039",
+          "start": 39,
+          "end": 40,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0044",
+          "start": 44,
+          "end": 45,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0054",
+          "start": 54,
+          "end": 55,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0075",
+          "start": 75,
+          "end": 77,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0082",
+          "start": 82,
+          "end": 83,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0083",
+          "start": 83,
+          "end": 84,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0086",
+          "start": 86,
+          "end": 87,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0092",
+          "start": 92,
+          "end": 94,
+          "surface": "松之",
+          "kind": "person",
+          "person_id": "vpy_180_2oi_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:w0095",
+          "start": 95,
+          "end": 97,
+          "surface": "武紀",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "所指三國志魏書武帝紀；引文與裴案兩次武紀同一書內篇，不造本單元未出現的全稱先行。",
+          "work_id": "w-sanguozhi",
+          "internal_source_reference": {
+            "book_id": null,
+            "chapter_id": null,
+            "source_chapter_title": "武紀",
+            "scope": "三國志書內篇稱；本批未匯其完整正文，不補不存在的book/chapter ID"
+          }
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0100",
+          "start": 100,
+          "end": 101,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0102",
+          "start": 102,
+          "end": 103,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0108",
+          "start": 108,
+          "end": 110,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0113",
+          "start": 113,
+          "end": 114,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0120",
+          "start": 120,
+          "end": 122,
+          "surface": "本傳",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "裴松之泛指本郭嘉傳，非新作品正式題名"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0124",
+          "start": 124,
+          "end": 125,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p008:m0126",
+          "start": 126,
+          "end": 128,
+          "surface": "孫䇿",
+          "kind": "person",
+          "person_id": "e9c_070_567",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 202,
+        "last_line": 207,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p009",
+      "text": "從破袁紹紹死又從討譚尙於黎陽連戰數克諸將欲乘勝遂攻之嘉曰袁紹愛此二子莫適立也有郭圖逢紀為之謀臣必交鬭其間還相離也急之則相持緩之而後争心生不如南向荆州若征劉表者以待其變變成而後擊之可一舉定也太祖曰善乃南征軍至西平譚尚果争冀州譚為尚軍所敗走保平原遣辛毗乞降太祖還救之遂從定鄴又從攻譚於南皮冀州平封嘉洧陽亭侯",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0010",
+          "start": 10,
+          "end": 11,
+          "surface": "尙",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0028",
+          "start": 28,
+          "end": 30,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0032",
+          "start": 32,
+          "end": 34,
+          "surface": "二子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "本段紹二子譚尚群稱，不拆成額外身份或同母"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0039",
+          "start": 39,
+          "end": 41,
+          "surface": "郭圖",
+          "kind": "person",
+          "person_id": "bad_ea2_bc7",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "逢紀",
+          "kind": "person",
+          "person_id": "a56_456_c97",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0076",
+          "start": 76,
+          "end": 78,
+          "surface": "劉表",
+          "kind": "person",
+          "person_id": "866_0fd_205",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0094",
+          "start": 94,
+          "end": 96,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0105",
+          "start": 105,
+          "end": 106,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0106",
+          "start": 106,
+          "end": 107,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0111",
+          "start": 111,
+          "end": 112,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0113",
+          "start": 113,
+          "end": 114,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0122",
+          "start": 122,
+          "end": 124,
+          "surface": "辛毗",
+          "kind": "person",
+          "person_id": "84b_e50_f7d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0126",
+          "start": 126,
+          "end": 128,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0138",
+          "start": 138,
+          "end": 139,
+          "surface": "譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p009:m0146",
+          "start": 146,
+          "end": 147,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 207,
+        "last_line": 215,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p010",
+      "text": "傅子曰河北既平太祖多辟召青冀幽并知名之士漸臣事之以為省事掾屬皆嘉之謀也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p010:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p010:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p010:m0031",
+          "start": 31,
+          "end": 32,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 215,
+        "last_line": 216,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p011",
+      "text": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0000",
+          "start": 0,
+          "end": 2,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0004",
+          "start": 4,
+          "end": 6,
+          "surface": "袁尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0015",
+          "start": 15,
+          "end": 17,
+          "surface": "劉表",
+          "kind": "person",
+          "person_id": "866_0fd_205",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0018",
+          "start": 18,
+          "end": 20,
+          "surface": "劉備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0024",
+          "start": 24,
+          "end": 26,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0026",
+          "start": 26,
+          "end": 27,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0028",
+          "start": 28,
+          "end": 29,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0055",
+          "start": 55,
+          "end": 57,
+          "surface": "袁紹",
+          "kind": "person",
+          "person_id": "102_884_39d",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0063",
+          "start": 63,
+          "end": 64,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0085",
+          "start": 85,
+          "end": 86,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0107",
+          "start": 107,
+          "end": 109,
+          "surface": "蹋頓",
+          "kind": "person",
+          "person_id": "bsn_5xh_gqt",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0124",
+          "start": 124,
+          "end": 125,
+          "surface": "表",
+          "kind": "person",
+          "person_id": "866_0fd_205",
+          "status": "contextual_provisional",
+          "interpretation_note": "表坐談客耳承接本段劉表；末乃表曰為上表動詞，未標劉表。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0136",
+          "start": 136,
+          "end": 137,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0149",
+          "start": 149,
+          "end": 150,
+          "surface": "備",
+          "kind": "person",
+          "person_id": "5f2_396_25c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0158",
+          "start": 158,
+          "end": 159,
+          "surface": "公",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0162",
+          "start": 162,
+          "end": 164,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0168",
+          "start": 168,
+          "end": 169,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0209",
+          "start": 209,
+          "end": 211,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0225",
+          "start": 225,
+          "end": 227,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0236",
+          "start": 236,
+          "end": 238,
+          "surface": "蹋頓",
+          "kind": "person",
+          "person_id": "bsn_5xh_gqt",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0243",
+          "start": 243,
+          "end": 244,
+          "surface": "尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0246",
+          "start": 246,
+          "end": 247,
+          "surface": "熙",
+          "kind": "person",
+          "person_id": "2ay_tb7_a5e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0250",
+          "start": 250,
+          "end": 251,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0260",
+          "start": 260,
+          "end": 262,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0264",
+          "start": 264,
+          "end": 266,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0269",
+          "start": 269,
+          "end": 270,
+          "surface": "孤",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0281",
+          "start": 281,
+          "end": 283,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0296",
+          "start": 296,
+          "end": 298,
+          "surface": "荀攸",
+          "kind": "person",
+          "person_id": "696_456_df6_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0300",
+          "start": 300,
+          "end": 302,
+          "surface": "諸君",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "荀攸等複數，不能整詞指一人"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0304",
+          "start": 304,
+          "end": 305,
+          "surface": "孤",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0308",
+          "start": 308,
+          "end": 310,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0336",
+          "start": 336,
+          "end": 338,
+          "surface": "郭嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0354",
+          "start": 354,
+          "end": 355,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0358",
+          "start": 358,
+          "end": 359,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p011:m0380",
+          "start": 380,
+          "end": 381,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 216,
+        "last_line": 237,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p012",
+      "text": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p012:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "沿已核裴注魏書書目身份（王沈等撰），不是魏收魏書；本段兩說與傅子對立原樣保留。",
+          "work_id": "w-weishu-wangshen"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0007",
+          "start": 7,
+          "end": 8,
+          "surface": "臣",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0029",
+          "start": 29,
+          "end": 31,
+          "surface": "孫叔",
+          "kind": "person",
+          "person_id": "fom_gr9_c8v",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0033",
+          "start": 33,
+          "end": 35,
+          "surface": "厥子",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "楚孫叔之未名子，不誤指郭奕"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0035",
+          "start": 35,
+          "end": 37,
+          "surface": "岑彭",
+          "kind": "person",
+          "person_id": "9c7_vsj_w88",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0041",
+          "start": 41,
+          "end": 43,
+          "surface": "支庶",
+          "kind": "unresolved",
+          "person_id": null,
+          "status": "unresolved",
+          "interpretation_note": "岑彭支庶未名群體，不補人名"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0047",
+          "start": 47,
+          "end": 49,
+          "surface": "郭嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0091",
+          "start": 91,
+          "end": 93,
+          "surface": "吕布",
+          "kind": "person",
+          "person_id": "e03_b20_30c",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0095",
+          "start": 95,
+          "end": 97,
+          "surface": "眭固",
+          "kind": "person",
+          "person_id": "3ok_fvs_r40",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0098",
+          "start": 98,
+          "end": 100,
+          "surface": "袁譚",
+          "kind": "person",
+          "person_id": "288_149_559",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0121",
+          "start": 121,
+          "end": 123,
+          "surface": "袁尚",
+          "kind": "person",
+          "person_id": "3d4_926_480",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0146",
+          "start": 146,
+          "end": 147,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p012:m0174",
+          "start": 174,
+          "end": 175,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 237,
+        "last_line": 242,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p013",
+      "text": "諡曰貞侯子奕嗣",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p013:m0002",
+          "start": 2,
+          "end": 4,
+          "surface": "貞侯",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p013:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "奕",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 242,
+        "last_line": 243,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p014",
+      "text": "魏書稱奕通達見理奕字伯益見王昶家誡",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p014:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "魏書",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "沿已核裴注魏書書目身份（王沈等撰），不是魏收魏書；本段兩說與傅子對立原樣保留。",
+          "work_id": "w-weishu-wangshen"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p014:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "奕",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p014:m0008",
+          "start": 8,
+          "end": 9,
+          "surface": "奕",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p014:m0010",
+          "start": 10,
+          "end": 12,
+          "surface": "伯益",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p014:w0013",
+          "start": 13,
+          "end": 17,
+          "surface": "王昶家誡",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "來源見王昶家誡；與027完整王昶誡子文潁川郭伯益對讀。全題作作品指稱，不把王昶嵌名另標人。",
+          "work_id": "w-wangchang-jiajie-sgz014-reference"
+        }
+      ],
+      "source_position": {
+        "first_line": 243,
+        "last_line": 243,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p015",
+      "text": "後太祖征荆州還於巴丘遇疾疫燒船歎曰郭奉孝在不使孤至此",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p015:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p015:m0017",
+          "start": 17,
+          "end": 20,
+          "surface": "郭奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 243,
+        "last_line": 244,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p016",
+      "text": "傅子曰太祖又云哀哉奉孝痛哉奉孝惜哉奉孝",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p016:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p016:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p016:m0009",
+          "start": 9,
+          "end": 11,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p016:m0013",
+          "start": 13,
+          "end": 15,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p016:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 244,
+        "last_line": 245,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p017",
+      "text": "初陳羣非嘉不治行檢數廷訴嘉嘉意自若太祖愈益厚之然以羣能持正亦悦焉",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0001",
+          "start": 1,
+          "end": 3,
+          "surface": "陳羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0004",
+          "start": 4,
+          "end": 5,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0012",
+          "start": 12,
+          "end": 13,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0013",
+          "start": 13,
+          "end": 14,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0017",
+          "start": 17,
+          "end": 19,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p017:m0025",
+          "start": 25,
+          "end": 26,
+          "surface": "羣",
+          "kind": "person",
+          "person_id": "9w8_tqh_ysn_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 245,
+        "last_line": 246,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p018",
+      "text": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p018:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "傅子",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "收到原引題傅子；重用本庫同一裴注引書，作者未在此題署名。",
+          "work_id": "w-fuzi-pei-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0003",
+          "start": 3,
+          "end": 5,
+          "surface": "太祖",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0006",
+          "start": 6,
+          "end": 8,
+          "surface": "荀彧",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_BA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0013",
+          "start": 13,
+          "end": 16,
+          "surface": "郭奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0067",
+          "start": 67,
+          "end": 69,
+          "surface": "其子",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "曹操追傷嘉且增其子滿千户，與本文貞侯子奕嗣及魏書奕字伯益相互限定；可撤回語境首選，不據此斷只有一子。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0083",
+          "start": 83,
+          "end": 85,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0087",
+          "start": 87,
+          "end": 88,
+          "surface": "孤",
+          "kind": "person",
+          "person_id": "dad_b77_b38",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0108",
+          "start": 108,
+          "end": 109,
+          "surface": "彧",
+          "kind": "person",
+          "person_id": "yoo_ox0_545_BA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0113",
+          "start": 113,
+          "end": 115,
+          "surface": "奉孝",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p018:m0141",
+          "start": 141,
+          "end": 142,
+          "surface": "吾",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "首選奉孝的嵌引自述：承其人見事及後然與共論先荆、棄命論心。原無引號且人多/常言主語省略，泛指畏疫眾人或外層曹操讀法仍可討論；不是明署奉孝曰，不因外層書信自動指曹操。"
+        }
+      ],
+      "source_position": {
+        "first_line": 246,
+        "last_line": 252,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p019",
+      "text": "奕為太子文學早薨子深嗣深薨子獵嗣",
+      "text_layer": "received_chapter",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p019:m0000",
+          "start": 0,
+          "end": 1,
+          "surface": "奕",
+          "kind": "person",
+          "person_id": "344_68f_98e_A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p019:m0009",
+          "start": 9,
+          "end": 10,
+          "surface": "深",
+          "kind": "person",
+          "person_id": "344_68f_98e_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p019:m0011",
+          "start": 11,
+          "end": 12,
+          "surface": "深",
+          "kind": "person",
+          "person_id": "344_68f_98e_AA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p019:m0014",
+          "start": 14,
+          "end": 15,
+          "surface": "獵",
+          "kind": "person",
+          "person_id": "344_68f_98e_AAA",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 252,
+        "last_line": 253,
+        "source_layer": "received_body",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      }
+    },
+    {
+      "id": "c-sanguozhi-014-guojia:p020",
+      "text": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+      "text_layer": "witness_appended_pei_songzhi_note",
+      "annotation_status": "named_mentions_first_pass",
+      "mentions": [
+        {
+          "id": "c-sanguozhi-014-guojia:p020:w0000",
+          "start": 0,
+          "end": 2,
+          "surface": "世語",
+          "kind": "work",
+          "person_id": null,
+          "status": "source_explicit",
+          "interpretation_note": "依已採裴注與隋唐書目authority連郭頒魏晉世語；本單元只稱世語，不偽造本單元先見全題。",
+          "work_id": "w-shiyu-sgz027-reference"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p020:m0003",
+          "start": 3,
+          "end": 4,
+          "surface": "嘉",
+          "kind": "person",
+          "person_id": "344_68f_98e",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p020:m0005",
+          "start": 5,
+          "end": 6,
+          "surface": "敞",
+          "kind": "person",
+          "person_id": "344_68f_98e_*A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        },
+        {
+          "id": "c-sanguozhi-014-guojia:p020:m0007",
+          "start": 7,
+          "end": 9,
+          "surface": "泰中",
+          "kind": "person",
+          "person_id": "344_68f_98e_*A",
+          "status": "contextual_provisional",
+          "interpretation_note": "本完整來源敘述／引語角色；依本段具名先行與事件辨識，保原字，不作全域字串辨人。"
+        }
+      ],
+      "source_position": {
+        "first_line": 253,
+        "last_line": 253,
+        "source_layer": "pei_annotation",
+        "unit_key": "guojia-complete",
+        "raw_projection_ref": "source-evidence/sgz014-guojia/projection.json"
+      },
+      "annotation_attribution": {
+        "annotation_source_label": "劉宋・裴松之注（含所引書及裴案）",
+        "scope_note": "裴注與引書完整保留；相互矛盾的主張不消解，原字傳子/傅子不改。"
+      }
+    }
+  ],
+  "text_sha256": "9ad2a10a66cefe67e29f0aafae8d52e29a4c46b426cb399df0eac8b77dc31b45"
+}

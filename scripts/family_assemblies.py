@@ -127,7 +127,12 @@ def load_assemblies(root, catalog):
                     raise ValueError('組裝父親不在同族')
                 connection = member.get('parent_connection')
                 if connection:
-                    if connection.get('type') == 'parent_between_consecutive_ancestors':
+                    if connection.get('interpretation_basis') in ('fixed_received_zu_fu_sequence','fixed_received_shared_father'):
+                        try:from .received_kin_assembly import valid as received_assembly_valid
+                        except ImportError:from received_kin_assembly import valid as received_assembly_valid
+                        if not received_assembly_valid(member,rows,assertions,chapters,root):
+                            raise ValueError('收到古注父祖/兄弟組裝須逐固定來源角色，不能造source父或借異主語')
+                    elif connection.get('type') == 'parent_between_consecutive_ancestors':
                         if not consecutive_ancestor_parent_valid(member, rows, assertions, chapters, root=root):
                             raise ValueError('連續具名祖先組裝缺少相符世次及同段證據')
                     elif connection.get('type') == 'parent_between_body_and_attached_note_ancestors':

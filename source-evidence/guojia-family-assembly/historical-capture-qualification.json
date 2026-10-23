@@ -1,0 +1,15 @@
+{
+  "record_type": "historical_capture_rekey_qualification",
+  "historical_files": [
+    {
+      "path": "source-evidence/sgz014-guojia/identity-review.json",
+      "sha256": "ce4426fbb602bfbc7608109d0bdc6eec538524c1a861772bf8aa7501593a9e28",
+      "qualification": "初次完整來源身份辨識，含當時新發號及source-only旗標；保原bytes，不作現行人物查詢端點。",
+      "current_projection_path": "source-evidence/guojia-family-assembly/current-identity-review.json"
+    }
+  ],
+  "current_review_path": "source-evidence/guojia-family-assembly/current-identity-review.json",
+  "scope": "原初次identity review按exact hash保留；歷史舊號不是current endpoint、alias或查詢入口。",
+  "person_aliases_created": false,
+  "human_reviewed": false
+}

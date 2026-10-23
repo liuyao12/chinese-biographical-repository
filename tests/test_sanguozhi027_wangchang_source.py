@@ -38,7 +38,7 @@ class Sanguozhi027WangchangSource(unittest.TestCase):
   for p in self.c['paragraphs']:
    for m in p['mentions']:
     if m['surface']in ['郭伯益','伯益','奕']:
-     self.assertEqual(m['kind'],'person');self.assertEqual(m['status'],'contextual_provisional');self.assertNotEqual(m['person_id'],'64e_ce8_aba')
+     self.assertEqual(m['kind'],'person');self.assertEqual(m['status'],'contextual_provisional');self.assertNotEqual(m['person_id'],'r02_hoi_pu7_ACA')
  def test_ordinary_characters_not_people(self):
   p=self.ps['unit017']
   for q in ['治績','節儉']:

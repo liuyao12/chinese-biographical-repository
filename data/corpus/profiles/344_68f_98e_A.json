@@ -10,11 +10,173 @@
     "其",
     "之",
     "伯益",
-    "奕"
+    "奕",
+    "其子"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-sgz014-guo-yi-office",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0000"
+        }
+      ],
+      "interpretation_note": "明載奕為太子文學，未記授任、任終年月；早薨不填任終。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "office",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "太子文學",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 2,
+          "end": 6,
+          "surface": "太子文學",
+          "id": "th-sgz014-guo-yi-office:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0000",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p013",
+      "count": 6,
+      "raw_count": 6,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "諡曰貞侯子奕嗣",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p013",
+        "c-sanguozhi-014-guojia:p014",
+        "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p019"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p013:m0005",
+        "c-sanguozhi-014-guojia:p014:m0003",
+        "c-sanguozhi-014-guojia:p014:m0008",
+        "c-sanguozhi-014-guojia:p014:m0010",
+        "c-sanguozhi-014-guojia:p018:m0067",
+        "c-sanguozhi-014-guojia:p019:m0000"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p013:m0005": "c-sanguozhi-014-guojia:p013",
+        "c-sanguozhi-014-guojia:p014:m0003": "c-sanguozhi-014-guojia:p014",
+        "c-sanguozhi-014-guojia:p014:m0008": "c-sanguozhi-014-guojia:p014",
+        "c-sanguozhi-014-guojia:p014:m0010": "c-sanguozhi-014-guojia:p014",
+        "c-sanguozhi-014-guojia:p018:m0067": "c-sanguozhi-014-guojia:p018",
+        "c-sanguozhi-014-guojia:p019:m0000": "c-sanguozhi-014-guojia:p019"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p013:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p014:m0003",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p014:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p014:m0008",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p014:m0008"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p014:m0010",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p014:m0010"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p018:m0067",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p018:m0067"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p019:m0000",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p019:m0000"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
+      "work_title": "三國志"
+    },
     {
       "number": 27,
       "category": "",
@@ -11968,6 +12130,37 @@
       }
     },
     {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-027-wangchang",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-027",
@@ -12000,6 +12193,109 @@
   ],
   "relations": [
     {
+      "id": "a-sgz014-guo-1",
+      "subject_person_id": "344_68f_98e_A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz014-guo-2",
+      "subject_person_id": "344_68f_98e_AA",
+      "object_person_id": "344_68f_98e_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子深",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p019:m0009",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p019:m0000"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "first_son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
       "id": "a-sanguozhi027-wangchang-012",
       "subject_person_id": "344_68f_98e_A",
       "predicate": "father",
@@ -12029,7 +12325,8 @@
   "related_people": {
     "344_68f_98e": "郭嘉",
     "344_68f_98e_A": "郭奕（字伯益，郭嘉子）",
-    "64e_ce8_aba": "郭奕"
+    "344_68f_98e_AA": "郭深",
+    "r02_hoi_pu7_ACA": "郭奕"
   },
   "dates": [],
   "unresolved_identity_cases": [
@@ -12038,7 +12335,7 @@
       "status": "unresolved",
       "candidate_person_ids": [
         "344_68f_98e_A",
-        "64e_ce8_aba"
+        "r02_hoi_pu7_ACA"
       ],
       "candidate_list_exhaustive": false,
       "paragraph_ids": [
@@ -12053,11 +12350,221 @@
       "source_id": "s-sanguozhi-027-wangchang"
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-sgz014-guo-yi",
+      "person_id": "344_68f_98e_A",
+      "surname": "郭",
+      "ming": "奕",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "paragraph_id": "c-sanguozhi-014-guojia:p014",
+      "person_mention_id": "c-sanguozhi-014-guojia:p014:m0008",
+      "quote": "魏書稱奕通達見理奕字伯益見王昶家誡",
+      "note": "名/字依本句；姓郭依明姓種子及本單元逐條明父/祖來源鏈作編輯辨識，不由family ID或label補姓。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "zi": "伯益",
+      "surname_basis": {
+        "kind": "contextual_surname_from_received_fact_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整單元明姓郭嘉為種子，僅沿已逐字綁定之父/祖斷言；不補中間代。",
+        "source_name_record_id": "nc-sgz014-guo-jia",
+        "source_full_quote": "郭嘉字奉孝潁川陽翟人也",
+        "assertion_ids": [
+          "a-sgz014-guo-1"
+        ]
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia"
+    }
+  ],
+  "source_details": [
+    {
+      "id": "sd-sgz014-guo-heir-memorial",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+          "person_mention_id": "c-sanguozhi-014-guojia:p018:m0067"
+        }
+      ],
+      "interpretation_note": "三來源奏請/表增分存，不計三次實授。郭嘉本人與子奕的對象分開，原尸/户各存，不推實收或授封年月。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "reported_heir_memorial_total",
+        "slot": "fief",
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "start": 64,
+          "end": 72,
+          "surface": "今表增其子滿千户"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p018:m0067"
+        },
+        "fields": {
+          "total": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 70,
+            "end": 71,
+            "surface": "千"
+          },
+          "unit": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 71,
+            "end": 72,
+            "surface": "户"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "kind": "fief_household_count",
+      "source_term": "今表增其子滿千户",
+      "source_anchor": {
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "start": 64,
+        "end": 72,
+        "surface": "今表增其子滿千户"
+      },
+      "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+      "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+      "values": {
+        "increase": null,
+        "increase_source_number": null,
+        "increase_unit_source_name": null,
+        "total": 1000,
+        "total_source_number": "千",
+        "unit_source_name": "户",
+        "enactment_status": "memorial_report_not_independent_confirmation",
+        "actual_revenue": null,
+        "request_kind": "reported_memorial_submission"
+      },
+      "date_expression": null
+    }
+  ],
   "person_ids": [
     "344_68f_98e_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-sgz014-guo-1",
+      "subject_person_id": "344_68f_98e_A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子奕",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p013:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p013:m0002"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
+    {
+      "id": "a-sgz014-guo-2",
+      "subject_person_id": "344_68f_98e_AA",
+      "object_person_id": "344_68f_98e_A",
+      "predicate": "father",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "子深",
+        "lineage": "paternal"
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p019:m0009",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p019:m0000"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "first_son",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    },
     {
       "id": "a-sanguozhi027-wangchang-012",
       "subject_person_id": "344_68f_98e_A",
@@ -12101,7 +12608,109 @@
     "human_reviewed": false
   },
   "age_assertions": [],
-  "life_events": [],
+  "life_events": [
+    {
+      "id": "le-sgz014-guo-yi",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0000"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "parent_death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "早薨"
+    }
+  ],
+  "person_events": [
+    {
+      "id": "pe-sgz014-guo-succession-yi",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "quote": "諡曰貞侯子奕嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p013:m0005"
+        }
+      ],
+      "interpretation_note": "來源明載嗣，父子另存。未在本承嗣句重出爵名，title/holding_id保持null；不以諡貞侯冒爵名，不補日期。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "posthumous_named_son",
+        "slot": "succession",
+        "paragraph_id": "c-sanguozhi-014-guojia:p013",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p013",
+          "start": 0,
+          "end": 7,
+          "surface": "諡曰貞侯子奕嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p013:m0002",
+          "child": "c-sanguozhi-014-guojia:p013:m0005"
+        },
+        "fields": {},
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "987e509e61119bf6b9ffa146556294888d4e72b6d81eb34b0a3b2ac60c1562a5",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "noble_title_succession",
+      "date_expression": null,
+      "source_term": "子奕嗣",
+      "title": null,
+      "holding_id": null,
+      "mode": "accession",
+      "predecessor_person_id": "344_68f_98e"
+    }
+  ],
   "life_event_date_decisions": [],
   "selected_life_event_dates": []
 }

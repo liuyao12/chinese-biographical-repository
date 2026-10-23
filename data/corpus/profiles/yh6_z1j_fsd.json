@@ -7,11 +7,185 @@
   "review": "ai_provisional",
   "names": [
     "元凱",
-    "杜預"
+    "杜預",
+    "杜元凱"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_050",
+      "person_id": "yh6_z1j_fsd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+          "quote": "充所定新律既班於天下，百姓便之。詔曰：「漢氏以來，法令嚴峻。故自元成之世，及建安、嘉平之間，咸欲辯章舊典，刪革刑書。述作體大，歷年無成。先帝湣元元之命陷於密網，親發德音，厘正名實。車騎將軍賈充，獎明聖意，諮詢善道。太傅鄭沖，又與司空荀顗、中書監荀勖、中軍將軍羊祜、中護軍王業，及廷尉杜友、守河南尹杜預、散騎侍郎裴楷、潁川太守周雄、齊相郭頎、騎都尉成公綏荀煇、尚書郎柳軌等，典正其事。朕每鑒其用心，常慨然嘉之。今法律既成，始班天下，刑寬禁簡，足以克當先旨。昔蕭何以定律受封，叔孫通以制儀爲奉常，賜金五百斤，弟子皆爲郎。夫立功立事，古之所重。自太傅、車騎以下，皆加祿賞。其詳依故典。」於是賜充子弟一人關內侯，絹五百匹。固讓，不許。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p006:m0148"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "守河南尹",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_050",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+        "source_revision": 2606035,
+        "paragraph_sha256": "6faee687c2927679db69d22007fb944b99e4288f690e5a1ded0ef17e701c4498",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p006:m0148"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_050:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+          "start": 144,
+          "end": 148,
+          "surface": "守河南尹",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p006:m0148",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin093-yangxiu-duyu-zhennan",
+      "person_id": "yh6_z1j_fsd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-093",
+          "source_id": "s-jinshu-093-ws1548000-yangxiu",
+          "chapter_id": "c-jinshu-093-yangxiu",
+          "paragraph_id": "c-jinshu-093-yangxiu:p002",
+          "quote": "初，杜預拜鎮南將軍，朝士畢賀，皆連榻而坐。琇與裴楷後至，曰：「杜元凱乃復以連榻而坐客邪？」遂不坐而去。",
+          "person_mention_id": "c-jinshu-093-yangxiu:p002:m0001"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "杜預拜鎮南將軍，賀客羊琇/裴楷不是受任者。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "duyu-zhennan"
+      },
+      "title": "鎮南將軍",
+      "kind": "office",
+      "mode": "grant",
+      "appointment_role": "grant",
+      "source_career_role": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin093-yangxiu",
+        "slot": "duyu-zhennan"
+      },
+      "attestations": [
+        {
+          "id": "th-jin093-yangxiu-duyu-zhennan:a001",
+          "paragraph_id": "c-jinshu-093-yangxiu:p002",
+          "start": 5,
+          "end": 9,
+          "surface": "鎮南將軍",
+          "person_mention_id": "c-jinshu-093-yangxiu:p002:m0001",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "source_event",
+          "event_type": "grant",
+          "date_expression": null,
+          "evidence": [
+            {
+              "work_id": "w-jinshu",
+              "book_id": "b-jinshu-093",
+              "source_id": "s-jinshu-093-ws1548000-yangxiu",
+              "chapter_id": "c-jinshu-093-yangxiu",
+              "paragraph_id": "c-jinshu-093-yangxiu:p002",
+              "quote": "初，杜預拜鎮南將軍，朝士畢賀，皆連榻而坐。琇與裴楷後至，曰：「杜元凱乃復以連榻而坐客邪？」遂不坐而去。",
+              "person_mention_id": "c-jinshu-093-yangxiu:p002:m0001"
+            }
+          ]
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "與司空荀顗、中書監荀勖、中軍將軍羊祜、中護軍王業，及廷尉杜友、守河南尹杜預、散騎侍郎裴楷、潁川太守周雄、齊相郭頎、騎都尉成公綏荀煇、尚書郎柳軌等，典正其事。朕每鑒其用心，常慨然嘉之。今法律既成，始班天下，刑寬禁簡，足以克當先旨。昔蕭何以定律受封，叔孫通以制儀爲奉常，賜金五百",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p006",
+        "c-jinshu-040-jiachong-family:p015"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p006:m0148",
+        "c-jinshu-040-jiachong-family:p015:m0087"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p006:m0148": "c-jinshu-040-jiachong-family:p006",
+        "c-jinshu-040-jiachong-family:p015:m0087": "c-jinshu-040-jiachong-family:p015"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p006:m0148",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p006:m0148",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p006:m0148"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p015:m0087",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p015:m0087"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
     {
       "number": 42,
       "category": "",
@@ -170,6 +344,50 @@
       "book_id": "b-jinshu-076",
       "chapter_id": "c-jinshu-076-wangbiaozhi",
       "source_id": "s-jinshu-076-wangbiaozhi",
+      "work_title": "晉書"
+    },
+    {
+      "number": 93,
+      "category": "",
+      "title": "羊琇傳",
+      "paragraph_id": "c-jinshu-093-yangxiu:p002",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "初，杜預拜鎮南將軍，朝士畢賀，皆連榻而坐。琇與裴楷後至，曰：「杜元凱乃復以連榻而坐客邪？」遂不坐而去。",
+      "paragraph_ids": [
+        "c-jinshu-093-yangxiu:p002"
+      ],
+      "mention_ids": [
+        "c-jinshu-093-yangxiu:p002:m0001",
+        "c-jinshu-093-yangxiu:p002:m0004"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-093-yangxiu:p002:m0001": "c-jinshu-093-yangxiu:p002",
+        "c-jinshu-093-yangxiu:p002:m0004": "c-jinshu-093-yangxiu:p002"
+      },
+      "mention_id": "c-jinshu-093-yangxiu:p002:m0001",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p002:m0001",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p002:m0001"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-093-yangxiu:p002:m0004",
+          "mention_ids": [
+            "c-jinshu-093-yangxiu:p002:m0004"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
       "work_title": "晉書"
     }
   ],
@@ -376,6 +594,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅排除換行/縮排/¶、注內換行/及pb頁標；全部可見字逐碼點覆蓋。括號內注獨立段；○劉攽明署部分分層；無補字校改。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
         }
       }
     },
@@ -1011,6 +1258,35 @@
           ]
         }
       }
+    },
+    {
+      "chapter_id": "c-jinshu-093-yangxiu",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-093",
+      "source_id": "s-jinshu-093-ws1548000-yangxiu",
+      "source": {
+        "title": "《晉書》卷九十三羊琇完整本傳（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+        "revision_id": 1548000,
+        "accessed_on": "2026-10-22",
+        "extent": "羊琇完整三原段，從羊琇節題至緊鄰王恂節題之前；非卷九十三全文。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "raw_file": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_path": "sources/witnesses/jin093-ws1548000.wikitext",
+        "raw_file_sha256": "8fc7f8b8a8a5a33a18c016006082a49f92e418f8fba965e1068b3e4e2016ff7e",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白及展開YL；正文無改字。轉錄實際底本及最早現存版本未明，未圖校。"
+        }
+      }
     }
   ],
   "relations": [],
@@ -1061,7 +1337,37 @@
       "model": null
     }
   ],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-016",
+      "person_id": "yh6_z1j_fsd",
+      "surname": "杜",
+      "ming": "預",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p006",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p006:m0148",
+      "quote": "充所定新律既班於天下，百姓便之。詔曰：「漢氏以來，法令嚴峻。故自元成之世，及建安、嘉平之間，咸欲辯章舊典，刪革刑書。述作體大，歷年無成。先帝湣元元之命陷於密網，親發德音，厘正名實。車騎將軍賈充，獎明聖意，諮詢善道。太傅鄭沖，又與司空荀顗、中書監荀勖、中軍將軍羊祜、中護軍王業，及廷尉杜友、守河南尹杜預、散騎侍郎裴楷、潁川太守周雄、齊相郭頎、騎都尉成公綏荀煇、尚書郎柳軌等，典正其事。朕每鑒其用心，常慨然嘉之。今法律既成，始班天下，刑寬禁簡，足以克當先旨。昔蕭何以定律受封，叔孫通以制儀爲奉常，賜金五百斤，弟子皆爲郎。夫立功立事，古之所重。自太傅、車騎以下，皆加祿賞。其詳依故典。」於是賜充子弟一人關內侯，絹五百匹。固讓，不許。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "6faee687c2927679db69d22007fb944b99e4288f690e5a1ded0ef17e701c4498",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p006:m0148",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "yh6_z1j_fsd"
   ],

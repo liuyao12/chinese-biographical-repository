@@ -1,11 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {personCard} from '../assets/cbr-person.js';
+import {summarizeNameComponents} from '../assets/name-components.js';
 import {setLocale} from '../assets/i18n.js';
 const source={quote:'安國姓也少季名也',title:'合成測試來源',url:'https://example.com/source'};
 const fixture=()=>({id:'abc_def_123',label:'安國少季',names:[],name_components:[{surname:'安國',ming:null,zi:'少季',additional_names:['字少季'],quote:'合成來源文字',note:'兩說並存。',component_alternatives:[{components:{surname:'安國',ming:'少季',zi:null},reference:source,status:'source_claim_not_selected'}]}]});
-test('name components show separately cited alternative while retaining preferred heading',()=>{
- setLocale('zh-Hant');const html=personCard(fixture(),true);assert.match(html,/<h1>安國<\/h1>/);assert.match(html.replace(/<[^>]*>/g,''),/字 少季/);assert.match(html,/姓名組件另說/);assert.match(html,/安國姓也少季名也/);assert.match(html,/https:\/\/example.com\/source/);assert.match(html,/未採為預設/);
+test('surname-only source preserves canonical heading and leaves alternative ming unselected',()=>{
+ const p=fixture();const before=structuredClone(p.name_components);const summary=summarizeNameComponents(p.name_components,[]);assert.equal(summary.names.ming,undefined);assert.equal(summary.names.zi,'少季');assert.equal(summary.canHead,false);
+ setLocale('zh-Hant');const html=personCard(p,true);assert.deepEqual(p.name_components,before);assert.match(html,/<h1>安國少季<\/h1>/);assert.match(html.replace(/<[^>]*>/g,''),/字 少季/);assert.match(html,/姓名組件另說/);assert.match(html,/安國姓也少季名也/);assert.match(html,/https:\/\/example.com\/source/);assert.match(html,/未採為預設/);
  setLocale('en');const english=personCard(fixture(),true);assert.match(english,/Name component alternative/);assert.match(english,/Not selected as default/);assert.match(english,/安國姓也少季名也/);setLocale('zh-Hant');
 });
 test('alternative source values are escaped and non-web links are omitted',()=>{

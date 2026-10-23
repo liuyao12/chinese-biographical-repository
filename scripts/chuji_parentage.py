@@ -2,6 +2,10 @@
 
 
 def chuji_parentage_valid(a, paragraphs, assertions):
+    if 'received_family_frame' in a.get('qualifiers', {}):
+        try:from scripts.punctuated_family_frames import valid
+        except ImportError:from punctuated_family_frames import valid
+        return valid(a, paragraphs)
     q = a.get('qualifiers', {})
     if q.get('adoption_basis') == 'explicit_shouyang':
         try:

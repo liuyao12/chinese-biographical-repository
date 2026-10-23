@@ -1,0 +1,62 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_address_assertion_set",
+  "chapter_id": "c-sanguozhi-014-guojia",
+  "assertions": [
+    {
+      "id": "pa-sgz014-guo-origin",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p001",
+          "quote": "郭嘉字奉孝潁川陽翟人也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p001:m0000"
+        }
+      ],
+      "interpretation_note": "傳首原籍貫只屬郭嘉，不補今日位置或沿用於子孫。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "biography_origin",
+        "slot": "origin",
+        "paragraph_id": "c-sanguozhi-014-guojia:p001",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p001",
+          "start": 0,
+          "end": 11,
+          "surface": "郭嘉字奉孝潁川陽翟人也"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p001:m0000",
+          "style": "c-sanguozhi-014-guojia:p001:m0003"
+        },
+        "fields": {
+          "place": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p001",
+            "start": 5,
+            "end": 9,
+            "surface": "潁川陽翟"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1699ecd7ad0b0b655b8c1ff2428bb11ae01417a727faf0db6198c803664ae030",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "relation": "biographical_origin",
+      "place": {
+        "source_name": "潁川陽翟",
+        "place_id": null,
+        "modern_identification": null
+      },
+      "date_expression": null,
+      "source_term": "潁川陽翟人也"
+    }
+  ]
+}

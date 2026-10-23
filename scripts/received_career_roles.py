@@ -92,7 +92,25 @@ def analyse(record,ch):
   assert matching and all(roles[slot[1]]['person_id']==m['person_id']for slot in matching)
  return p,roles,fields,slots
 
-def holding_valid(h,ch):
+def _attached_holding(h,ch):
+ try:from scripts.attached_biography_frames import holding_valid as attached_valid
+ except ImportError:from attached_biography_frames import holding_valid as attached_valid
+ return attached_valid(h,ch)
+
+def holding_valid(h,ch,root=None):
+ if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+  try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
+  except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid
+  return witness_fact_valid(h,ch,root)
+ if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+  try:from scripts.fixed_kanripo_fact_slots import valid
+  except ImportError:from fixed_kanripo_fact_slots import valid
+  return valid(h,ch)
+ if h.get('source_career_role',{}).get('kind')=='fixed_complete_family_career':
+  try:from scripts.fixed_complete_family_career import valid
+  except ImportError:from fixed_complete_family_career import valid
+  return valid(h,ch)
+ if h.get('source_career_role',{}).get('kind')=='attached_received_biography_frame':return _attached_holding(h,ch)
  if h.get('source_career_role',{}).get('kind')=='punctuated_biography_career_frame':
   try:from scripts.punctuated_biography_career import holding_valid as punctuated_valid
   except ImportError:from punctuated_biography_career import holding_valid as punctuated_valid

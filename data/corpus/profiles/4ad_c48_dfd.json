@@ -6,11 +6,273 @@
   "identity_note": "全庫label及alias未找到同名登記；本段明載此身份，未補其父母、日期或未見本名。 本批身份只限固定見證，未經人工覆核。",
   "review": "ai_provisional",
   "names": [
-    "王恂"
+    "王恂",
+    "恂"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_082",
+      "person_id": "4ad_c48_dfd",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p013",
+          "quote": "河南尹王恂上言：「弘訓太后入廟，合食於景皇帝，齊王攸不得行其子禮。」充議以爲：「禮，諸侯不得祖天子，公子不得禰先君，皆謂奉統承祀，非謂不得復其父祖也。攸身宜服三年喪事，自如臣制。」有司奏：「若如充議，服子服，行臣制，未有前比。宜如恂表，攸喪服從諸侯之例。」帝從充議。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p013:m0003"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "河南尹",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_082",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p013",
+        "source_revision": 2606035,
+        "paragraph_sha256": "67e6f75ac1aa45865f5a3acbd3786608866214627c8dbc8125f765ea886b7f12",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p013:m0003"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_082:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p013",
+          "start": 0,
+          "end": 3,
+          "surface": "河南尹",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p013:m0003",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    },
+    {
+      "id": "th-jin043-shantao-career-065",
+      "person_id": "4ad_c48_dfd",
+      "title": "黃門侍郎",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "shared_prefix_office",
+      "status": "source_attested",
+      "source_career_role": {
+        "kind": "attached_received_biography_frame",
+        "frame": "paragraph_frame_021",
+        "paragraph_id": "c-jinshu-043-shantao:p021",
+        "source_revision": 2618531,
+        "paragraph_sha256": "60ea52803132966ba3cd573ac3db8ecd3a7d4c5088f5b826622c43721d1e7c3a",
+        "roles": {
+          "r0": "c-jinshu-043-shantao:p021:m0000",
+          "r1": "c-jinshu-043-shantao:p021:m0022",
+          "r2": "c-jinshu-043-shantao:p021:m0123",
+          "r3": "c-jinshu-043-shantao:p021:m0126",
+          "r4": "c-jinshu-043-shantao:p021:m0138",
+          "r5": "c-jinshu-043-shantao:p021:m0141",
+          "r6": "c-jinshu-043-shantao:p021:m0204",
+          "r7": "c-jinshu-043-shantao:p021:m0244",
+          "r8": "c-jinshu-043-shantao:p021:m0247",
+          "r9": "c-jinshu-043-shantao:p021:m0274",
+          "r10": "c-jinshu-043-shantao:p021:m0288"
+        },
+        "fields": {
+          "career_065": {
+            "paragraph_id": "c-jinshu-043-shantao:p021",
+            "start": 240,
+            "end": 244,
+            "surface": "黃門侍郎"
+          }
+        },
+        "inside_role_fields": {},
+        "human_reviewed": false,
+        "slot": "career-065",
+        "recipient_role": "r7"
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-shantao",
+          "chapter_id": "c-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:p021",
+          "quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+          "person_mention_id": "c-jinshu-043-shantao:p021:m0244"
+        }
+      ],
+      "attestations": [
+        {
+          "id": "th-jin043-shantao-career-065:a001",
+          "paragraph_id": "c-jinshu-043-shantao:p021",
+          "start": 240,
+          "end": 244,
+          "surface": "黃門侍郎",
+          "person_mention_id": "c-jinshu-043-shantao:p021:m0244",
+          "usage": "narrative",
+          "date_expression": "泰始之初",
+          "normalized_date_range": {
+            "year_numbering": "astronomical",
+            "calendar": "chinese_civil",
+            "status": "editorial_provisional",
+            "source_expression": "泰始之初",
+            "original_quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+            "evidence": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-043",
+                "source_id": "s-jinshu-043-ws2618531-shantao",
+                "chapter_id": "c-jinshu-043-shantao",
+                "paragraph_id": "c-jinshu-043-shantao:p021",
+                "quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+                "person_mention_id": "c-jinshu-043-shantao:p021:m0244"
+              }
+            ],
+            "references": [
+              {
+                "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+                "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+                "quote": "泰始",
+                "scope": "modern_era_year_equivalence_only",
+                "columns": {
+                  "dynasty": "西晉",
+                  "era_name": "泰始",
+                  "first_year": "265",
+                  "last_year": "274"
+                },
+                "accessed_on": "2026-10-22",
+                "image_verified": false
+              }
+            ],
+            "reviewer": "Codex（AI代理）",
+            "human_reviewed": false,
+            "earliest": {
+              "era": "CE",
+              "era_year": 265,
+              "year": 265
+            },
+            "latest": {
+              "era": "CE",
+              "era_year": 274,
+              "year": 274
+            },
+            "precision": "year_range",
+            "basis": "within_named_era",
+            "source_stage": "初",
+            "era_span_mapping": {
+              "kind": "ce_regnal_era_span",
+              "reference_index": 0,
+              "era_name": "泰始",
+              "source_era_name": "泰始",
+              "polity_source_name": "西晉",
+              "start_ce_year": 265,
+              "end_ce_year": 274
+            },
+            "rationale": "保初中末原詞與整號最寬界，不選定元年或任終；咸甯/咸寧只明示年號正字對照。"
+          }
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "interpretation_note": "原任命/用稱按本句角色；未知任終，不借卒年，日期只綁明示同授事件。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p013"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p008:m0090",
+        "c-jinshu-040-jiachong-family:p008:m0100",
+        "c-jinshu-040-jiachong-family:p013:m0003",
+        "c-jinshu-040-jiachong-family:p013:m0115"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p008:m0090": "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p008:m0100": "c-jinshu-040-jiachong-family:p008",
+        "c-jinshu-040-jiachong-family:p013:m0003": "c-jinshu-040-jiachong-family:p013",
+        "c-jinshu-040-jiachong-family:p013:m0115": "c-jinshu-040-jiachong-family:p013"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p008:m0090",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p008:m0090",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p008:m0090"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p008:m0100",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p008:m0100"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p013:m0003",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p013:m0003"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p013:m0115",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p013:m0115"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
     {
       "number": 42,
       "category": "",
@@ -45,10 +307,74 @@
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "source_id": "s-jinshu-042-taiyuan-wang",
       "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:p021",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:p021"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:p021:m0244"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:p021:m0244": "c-jinshu-043-shantao:p021"
+      },
+      "mention_id": "c-jinshu-043-shantao:p021:m0244",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p021:m0244",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p021:m0244"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
   "sources": [
+    {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
     {
       "chapter_id": "c-jinshu-042-taiyuan-wang",
       "work_id": "w-jinshu",
@@ -436,18 +762,221 @@
         "rights": "古代原文及維基文庫數位轉錄；保留來源歸屬。",
         "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
       }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "source": {
+        "title": "《晉書》卷四十三山濤完整本傳及簡、遐附傳與史論（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-22",
+        "extent": "山濤至王戎節題前完整單元，含子簡、簡子遐附傳及史臣論；25原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；來源歸屬保留，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白/節題標記、展開YL模板及兩個wiki連結的顯示文字；未依連結target推全題，原字不校改。"
+        }
+      }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin040-jiachong-family-040",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ad_c48_dfd",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_emperor_maternal_uncle",
+          "roles": {
+            "child": "c-jinshu-040-jiachong-family:p008:m0088",
+            "uncle": "c-jinshu-040-jiachong-family:p008:m0090"
+          },
+          "clause_start": 88,
+          "clause_end": 94,
+          "paragraph_sha256": "f35bd61a7530d320a8a59c90b99cc3df420078d83439fa8bd5e64fb03cc0db77",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "充爲政，務農節用，並官省職，帝善之，又以文武異容，求罷所領兵。及羊祜等出鎮，充復上表欲立勳邊境，帝並不許。從容任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0088",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0090"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "4ad_c48_dfd": "王恂"
+    "4ad_c48_dfd": "王恂",
+    "hgm_jvn_hle": "晉武帝"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-026",
+      "person_id": "4ad_c48_dfd",
+      "surname": "王",
+      "ming": "恂",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p008:m0090",
+      "quote": "充爲政，務農節用，並官省職，帝善之，又以文武異容，求罷所領兵。及羊祜等出鎮，充復上表欲立勳邊境，帝並不許。從容任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "f35bd61a7530d320a8a59c90b99cc3df420078d83439fa8bd5e64fb03cc0db77",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p008:m0090",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "4ad_c48_dfd"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin040-jiachong-family-040",
+      "subject_person_id": "hgm_jvn_hle",
+      "predicate": "maternal_uncle",
+      "object_person_id": "4ad_c48_dfd",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "named_emperor_maternal_uncle",
+          "roles": {
+            "child": "c-jinshu-040-jiachong-family:p008:m0088",
+            "uncle": "c-jinshu-040-jiachong-family:p008:m0090"
+          },
+          "clause_start": 88,
+          "clause_end": 94,
+          "paragraph_sha256": "f35bd61a7530d320a8a59c90b99cc3df420078d83439fa8bd5e64fb03cc0db77",
+          "revision_id": 2606035
+        },
+        "source_term": "舅",
+        "lineage": "maternal",
+        "generation_difference": -1
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p008",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "充爲政，務農節用，並官省職，帝善之，又以文武異容，求罷所領兵。及羊祜等出鎮，充復上表欲立勳邊境，帝並不許。從容任職，褒貶在已，頗好進士，每有所薦達，必終始經緯之，是以士多歸焉。帝舅王恂嘗毀充，而充更進恂。或有背充以要權貴者，充皆陽以素意待之。而充無公方之操，不能正身率下，專以諂媚取容。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0088",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p008:m0090"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
+  "date_ranges": [
+    {
+      "year_numbering": "astronomical",
+      "calendar": "chinese_civil",
+      "status": "editorial_provisional",
+      "source_expression": "泰始之初",
+      "original_quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-shantao",
+          "chapter_id": "c-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:p021",
+          "quote": "簡欲令朝臣各舉所知，以廣得才之路。上疏曰：「臣以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以郭泰、許劭之倫，明清議於草野；陳蕃、李固之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。世祖武皇帝應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時黃門侍郎王恂、庾純始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。臣以為不先所難，而辨其所易。陛下初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+          "person_mention_id": "c-jinshu-043-shantao:p021:m0244"
+        }
+      ],
+      "references": [
+        {
+          "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+          "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+          "quote": "泰始",
+          "scope": "modern_era_year_equivalence_only",
+          "columns": {
+            "dynasty": "西晉",
+            "era_name": "泰始",
+            "first_year": "265",
+            "last_year": "274"
+          },
+          "accessed_on": "2026-10-22",
+          "image_verified": false
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "earliest": {
+        "era": "CE",
+        "era_year": 265,
+        "year": 265
+      },
+      "latest": {
+        "era": "CE",
+        "era_year": 274,
+        "year": 274
+      },
+      "precision": "year_range",
+      "basis": "within_named_era",
+      "source_stage": "初",
+      "era_span_mapping": {
+        "kind": "ce_regnal_era_span",
+        "reference_index": 0,
+        "era_name": "泰始",
+        "source_era_name": "泰始",
+        "polity_source_name": "西晉",
+        "start_ce_year": 265,
+        "end_ce_year": 274
+      },
+      "rationale": "保初中末原詞與整號最寬界，不選定元年或任終；咸甯/咸寧只明示年號正字對照。",
+      "record_id": "th-jin043-shantao-career-065",
+      "attestation_id": "th-jin043-shantao-career-065:a001",
+      "person_id": "4ad_c48_dfd",
+      "date_role": "title_attestation",
+      "title": "黃門侍郎",
+      "usage": "narrative"
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

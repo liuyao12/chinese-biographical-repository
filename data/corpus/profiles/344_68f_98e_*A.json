@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "id": "344_68f_98e_*A",
+  "canonical_person_id": "344_68f_98e_*A",
+  "label": "郭敞",
+  "identity_note": "世語注明嘉孫敞字泰中位散騎常侍；只明距離二，父未名，不指定深或郭奕，不與王敞同字合。",
+  "review": "ai_provisional",
+  "names": [
+    "敞",
+    "泰中"
+  ],
+  "titles": [
+    {
+      "id": "th-sgz014-guo-chang-office",
+      "person_id": "344_68f_98e_*A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+          "person_mention_id": "c-sanguozhi-014-guojia:p020:m0005"
+        }
+      ],
+      "interpretation_note": "世語稱敞位散騎常侍；只記此注來源，不冒正文職序。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "grandson_style_office",
+        "slot": "office",
+        "paragraph_id": "c-sanguozhi-014-guojia:p020",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 0,
+          "end": 17,
+          "surface": "世語曰嘉孫敞字泰中有才識位散騎常侍"
+        },
+        "roles": {
+          "source_work": "c-sanguozhi-014-guojia:p020:w0000",
+          "ancestor": "c-sanguozhi-014-guojia:p020:m0003",
+          "descendant": "c-sanguozhi-014-guojia:p020:m0005",
+          "style": "c-sanguozhi-014-guojia:p020:m0007"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p020",
+            "start": 13,
+            "end": 17,
+            "surface": "散騎常侍"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "5dde738defe038f17b5116aa3750193b7a7dc0cd99e7f5275f787a18b6cb778d",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "title": "散騎常侍",
+      "kind": "office",
+      "mode": "attestation",
+      "attestations": [
+        {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 13,
+          "end": 17,
+          "surface": "散騎常侍",
+          "id": "th-sgz014-guo-chang-office:a",
+          "person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
+  "addresses": [],
+  "occurrences": [
+    {
+      "number": 14,
+      "category": "",
+      "title": "郭嘉本傳及全部裴注（完整單元，編輯選錄題）",
+      "paragraph_id": "c-sanguozhi-014-guojia:p020",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+      "paragraph_ids": [
+        "c-sanguozhi-014-guojia:p020"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-014-guojia:p020:m0005",
+        "c-sanguozhi-014-guojia:p020:m0007"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-014-guojia:p020:m0005": "c-sanguozhi-014-guojia:p020",
+        "c-sanguozhi-014-guojia:p020:m0007": "c-sanguozhi-014-guojia:p020"
+      },
+      "mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p020:m0005"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-sanguozhi-014-guojia:p020:m0007",
+          "mention_ids": [
+            "c-sanguozhi-014-guojia:p020:m0007"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "source_id": "s-sanguozhi-014-guojia",
+      "work_title": "三國志"
+    }
+  ],
+  "table_occurrences": [],
+  "sources": [
+    {
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia",
+      "source": {
+        "title": "三國志魏書卷十四郭嘉本傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "permalink": "https://raw.githubusercontent.com/kanripo/KR2a0012/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_014.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "10ee5087e49a8e9a07aded83329ad50f932fac56",
+        "response_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_file_sha256": "5d040e134734a16b9d8648a51b40f98267857b216e3caeaef17ab524acfe1ab1",
+        "raw_path": "source-evidence/sgz014-guojia/primary/KR2a0012_014.txt",
+        "edition": "WYG數位轉錄；未核影像",
+        "accessed_on": "2026-10-22",
+        "extent": "固定全raw162–253行，郭嘉本傳與全部裴注；254董昭傳起。未含此前程昱尾及後董昭傳，不稱全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文與Kanripo固定數位見證歸屬；未下載影像。",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": "none",
+          "extraction_note": "僅去¶/換行/pb及逐行括號；20段交錯保正文/裴注，raw_positions逐字完整投影；傳子/傅子、尸/户/烏九原字不正字。"
+        },
+        "quality_note": "完整郭嘉單元非全卷；數位轉錄未圖校。"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "a-sgz014-guo-4",
+      "subject_person_id": "344_68f_98e_*A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫敞",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p020:m0003"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "grandson_style_office",
+        "slot": "grandson",
+        "paragraph_id": "c-sanguozhi-014-guojia:p020",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 0,
+          "end": 17,
+          "surface": "世語曰嘉孫敞字泰中有才識位散騎常侍"
+        },
+        "roles": {
+          "source_work": "c-sanguozhi-014-guojia:p020:w0000",
+          "ancestor": "c-sanguozhi-014-guojia:p020:m0003",
+          "descendant": "c-sanguozhi-014-guojia:p020:m0005",
+          "style": "c-sanguozhi-014-guojia:p020:m0007"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p020",
+            "start": 13,
+            "end": 17,
+            "surface": "散騎常侍"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "5dde738defe038f17b5116aa3750193b7a7dc0cd99e7f5275f787a18b6cb778d",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "related_people": {
+    "344_68f_98e": "郭嘉",
+    "344_68f_98e_*A": "郭敞"
+  },
+  "dates": [],
+  "name_components": [
+    {
+      "id": "nc-sgz014-guo-chang",
+      "person_id": "344_68f_98e_*A",
+      "surname": "郭",
+      "ming": "敞",
+      "additional_names": [],
+      "chapter_id": "c-sanguozhi-014-guojia",
+      "paragraph_id": "c-sanguozhi-014-guojia:p020",
+      "person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+      "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+      "note": "名/字依本句；姓郭依明姓種子及本單元逐條明父/祖來源鏈作編輯辨識，不由family ID或label補姓。",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "zi": "泰中",
+      "surname_basis": {
+        "kind": "contextual_surname_from_received_fact_chain",
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "rationale": "完整單元明姓郭嘉為種子，僅沿已逐字綁定之父/祖斷言；不補中間代。",
+        "source_name_record_id": "nc-sgz014-guo-jia",
+        "source_full_quote": "郭嘉字奉孝潁川陽翟人也",
+        "assertion_ids": [
+          "a-sgz014-guo-4"
+        ]
+      },
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-014",
+      "source_id": "s-sanguozhi-014-guojia"
+    }
+  ],
+  "person_ids": [
+    "344_68f_98e_*A"
+  ],
+  "preferred_relations": [
+    {
+      "id": "a-sgz014-guo-4",
+      "subject_person_id": "344_68f_98e_*A",
+      "object_person_id": "344_68f_98e",
+      "predicate": "grandfather",
+      "status": "source_attested",
+      "qualifiers": {
+        "source_term": "孫敞",
+        "lineage": "paternal",
+        "generation_distance": 2,
+        "parent_person_id": null,
+        "intermediate_person_ids": [
+          null
+        ]
+      },
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "quote": "世語曰嘉孫敞字泰中有才識位散騎常侍",
+          "subject_person_mention_id": "c-sanguozhi-014-guojia:p020:m0005",
+          "object_person_mention_id": "c-sanguozhi-014-guojia:p020:m0003"
+        }
+      ],
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "grandson_style_office",
+        "slot": "grandson",
+        "paragraph_id": "c-sanguozhi-014-guojia:p020",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p020",
+          "start": 0,
+          "end": 17,
+          "surface": "世語曰嘉孫敞字泰中有才識位散騎常侍"
+        },
+        "roles": {
+          "source_work": "c-sanguozhi-014-guojia:p020:w0000",
+          "ancestor": "c-sanguozhi-014-guojia:p020:m0003",
+          "descendant": "c-sanguozhi-014-guojia:p020:m0005",
+          "style": "c-sanguozhi-014-guojia:p020:m0007"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p020",
+            "start": 13,
+            "end": 17,
+            "surface": "散騎常侍"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "5dde738defe038f17b5116aa3750193b7a7dc0cd99e7f5275f787a18b6cb778d",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "interpretation_note": "依完整原句具名子/孫方向；不由嗣補生母、絕對排行或敞之未名父。貞侯為此傳郭嘉已解析用稱，不是新人物。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null
+    }
+  ],
+  "assembled_identity": {
+    "person_id": "344_68f_98e_*A",
+    "representative_source_person_id": "344_68f_98e_*A",
+    "source_person_ids": [
+      "344_68f_98e_*A"
+    ],
+    "identity_equivalence_decision_ids": [],
+    "parent_person_id": null,
+    "source_assertion_id": "a-sgz014-guo-4",
+    "ancestor_person_id": "344_68f_98e",
+    "connection": "grandfather",
+    "generation_distance": 2,
+    "intermediate_person_ids": [
+      null
+    ],
+    "interpretation_note": "世語明嘉孫敞，父未名；星號只表示缺代，無父人物，不指定奕為父。",
+    "assembly_id": "family-yingchuan-guo-jia-core",
+    "root_person_id": "344_68f_98e",
+    "status": "contextual_provisional",
+    "human_reviewed": false
+  },
+  "age_assertions": [],
+  "life_events": [],
+  "life_event_date_decisions": [],
+  "selected_life_event_dates": []
+}

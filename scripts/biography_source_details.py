@@ -16,14 +16,34 @@ def errors(chapters,records,root=None):
    if not valid(d,ch,holdings,offers,root):out.append('來源細節格式／原句／角色不符:'+str(d.get('id')))
  for ch in chapters.values():
   for h in [h for r in records if r.get('chapter_id')==ch['id']for h in r.get('holdings',[])]:
-   if (any(k in h for k in ('collective_designation','same_office_designation_as','assumption_basis')) or str(h.get('reported_duration',{}).get('source_term','')).startswith('視事'))and not holding_valid(h,ch,holdings):out.append('稱號額外句法不符:'+h['id'])
+   if (any(k in h for k in ('collective_designation','same_office_designation_as','assumption_basis')) or str(h.get('reported_duration',{}).get('source_term','')).startswith('視事'))and not holding_valid(h,ch,holdings,root):out.append('稱號額外句法不符:'+h['id'])
  return out
 
 def valid(d,ch,hs,qs,root=None):
+ if d.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+  try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
+  except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid
+  return witness_fact_valid(d,ch,root)
+ if d.get('fixed_source_fact_binding',{}).get('kind')=='fixed_kanripo_person_fact_slots':
+  try:from scripts.fixed_kanripo_fact_slots import valid as fixed_fact_valid
+  except ImportError:from fixed_kanripo_fact_slots import valid as fixed_fact_valid
+  return fixed_fact_valid(d,ch,root)
+ if d.get('source_career_role',{}).get('kind')=='fixed_complete_family_career':
+  try:from scripts.fixed_complete_family_career import valid
+  except ImportError:from fixed_complete_family_career import valid
+  return valid(d,ch,root)
+ if 'source_fact_frame'in d:
+  try:from scripts.received_biography_facts import valid as received_fact_valid
+  except ImportError:from received_biography_facts import valid as received_fact_valid
+  return received_fact_valid(d,ch,root)
  if 'received_source_frame'in d:
   try:from scripts.fixed_received_career import nonholding_valid
   except ImportError:from fixed_received_career import nonholding_valid
   return nonholding_valid(d,ch,root,'detail',hs)
+ if d.get('source_career_role',{}).get('kind')=='attached_received_biography_frame':
+  try:from scripts.attached_biography_frames import detail_valid as attached_detail_valid
+  except ImportError:from attached_biography_frames import detail_valid as attached_detail_valid
+  return attached_detail_valid(d,ch,hs,root)
  if 'source_career_role' in d:
   try:from scripts.received_career_roles import detail_valid
   except ImportError:from received_career_roles import detail_valid
@@ -89,7 +109,11 @@ def valid(d,ch,hs,qs,root=None):
   return False
  except(KeyError,TypeError,ValueError,StopIteration):return False
 
-def holding_valid(h,ch,hs):
+def holding_valid(h,ch,hs,root=None):
+ if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+  try:from scripts.fixed_witness_fact_slots import valid as witness_fact_valid
+  except ImportError:from fixed_witness_fact_slots import valid as witness_fact_valid
+  return witness_fact_valid(h,ch,root)
  try:
   e,=h['evidence'];p=next(p for p in ch['paragraphs']if p['id']==e['paragraph_id']);t=p['text'];ms={m['id']:m for m in p['mentions']};m=ms[e['person_mention_id']]
   if m['person_id']!=h['person_id']:return False

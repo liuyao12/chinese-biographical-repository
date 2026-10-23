@@ -1,0 +1,3017 @@
+{
+  "paragraph_frame_001": {
+    "template": "<r0>，字<r1>，河內懷人也。<r2><r3>，{career_001}。<r4>早孤，居貧，少有器量，介然不群。性好《莊》《老》，每隱身自晦。與<r5>、<r6>善，後遇<r7>，便為竹林之交，著忘言之契。<r8>後坐事，臨誅，謂<r9><r10>曰：「<r11>在，<r12>不孤矣。」",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r4",
+        "r11"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r5",
+        "r8"
+      ],
+      [
+        "r6"
+      ],
+      [
+        "r7"
+      ],
+      [
+        "r9",
+        "r10",
+        "r12"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r0",
+        "r9"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r2",
+        "r6"
+      ],
+      [
+        "r2",
+        "r7"
+      ],
+      [
+        "r2",
+        "r9"
+      ],
+      [
+        "r5",
+        "r6"
+      ],
+      [
+        "r5",
+        "r7"
+      ],
+      [
+        "r5",
+        "r9"
+      ],
+      [
+        "r6",
+        "r7"
+      ],
+      [
+        "r6",
+        "r9"
+      ],
+      [
+        "r7",
+        "r9"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-001": {
+        "field": "career_001",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_001": {
+        "predicate": "father",
+        "subject_role": "r0",
+        "object_role": "r3",
+        "source_term": "父"
+      },
+      "kin_002": {
+        "predicate": "father",
+        "subject_role": "r10",
+        "object_role": "r8",
+        "source_term": "子"
+      }
+    },
+    "addresses_slots": {
+      "addresses_001": {
+        "recipient_role": "r0",
+        "source_term": "河內懷人也",
+        "relation": "biographical_origin",
+        "place": "河內懷"
+      }
+    },
+    "names_slots": {
+      "name_001": {
+        "recipient_role": "r0",
+        "name_mode": "full_head",
+        "style_role": "r1"
+      },
+      "name_002": {
+        "recipient_role": "r3",
+        "name_mode": "given"
+      },
+      "name_012": {
+        "recipient_role": "r5",
+        "name_mode": "full_named_reference"
+      }
+    },
+    "details_slots": {
+      "detail_001": {
+        "recipient_role": "r4",
+        "source_term": "早孤",
+        "kind": "early_orphanhood_report",
+        "values": {
+          "which_parent_died": null,
+          "exact_age": null,
+          "birth_year": null
+        }
+      }
+    }
+  },
+  "paragraph_frame_002": {
+    "template": "<r0>年四十，始為{career_002}、{career_003}、{career_004}。舉{career_005}，州辟{career_006}。與<r1>共宿，<r2>夜起蹴<r3>曰：「今為何等時而眠邪！知<r4>臥何意？」<r5>曰：「<r6>三不朝，與尺一令歸第，<r7>何慮也！」<r8>曰：「咄！<r9>無事馬蹄間邪！」投傳而去。未二年，果有<r10>之事，遂隱身不交世務。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r2",
+        "r7",
+        "r8"
+      ],
+      [
+        "r1",
+        "r3",
+        "r5",
+        "r9"
+      ],
+      [
+        "r4",
+        "r6"
+      ],
+      [
+        "r10"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r10"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r10"
+      ],
+      [
+        "r4",
+        "r10"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-002": {
+        "field": "career_002",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "initial_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-003": {
+        "field": "career_003",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "initial_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-004": {
+        "field": "career_004",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "initial_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-005": {
+        "field": "career_005",
+        "recipient_role": "r0",
+        "kind": "unclassified",
+        "mode": "grant",
+        "appointment_role": "recommendation_qualification",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-006": {
+        "field": "career_006",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "provincial_recruitment",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "ages_slots": {
+      "ages_001": {
+        "recipient_role": "r0",
+        "source_term": "年四十",
+        "value": 40,
+        "source_number": "四十",
+        "age_kind": "exact",
+        "age_context": "during_life"
+      }
+    }
+  },
+  "paragraph_frame_003": {
+    "template": "與<r0>有中表親，是以見<r1>。<r2>曰：「<r3>欲仕邪？」命司隸舉{career_007}，除{career_008}。轉{career_009}<r4>{career_010}。久之，拜{career_011}，遷{career_012}。<r5>與<r6>書曰：「<r7>在事清明，雅操邁時。念多所乏，今致錢二十萬、穀二百斛。」魏帝嘗賜<r8>春服，<r9>以賜<r10>。又以<r11>老，並賜藜杖一枚。",
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1",
+        "r2",
+        "r8",
+        "r9"
+      ],
+      [
+        "r3"
+      ],
+      [
+        "r4"
+      ],
+      [
+        "r5"
+      ],
+      [
+        "r6",
+        "r7",
+        "r10"
+      ],
+      [
+        "r11"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r0",
+        "r11"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r1",
+        "r6"
+      ],
+      [
+        "r1",
+        "r11"
+      ],
+      [
+        "r3",
+        "r4"
+      ],
+      [
+        "r3",
+        "r5"
+      ],
+      [
+        "r3",
+        "r6"
+      ],
+      [
+        "r3",
+        "r11"
+      ],
+      [
+        "r4",
+        "r5"
+      ],
+      [
+        "r4",
+        "r6"
+      ],
+      [
+        "r4",
+        "r11"
+      ],
+      [
+        "r5",
+        "r6"
+      ],
+      [
+        "r5",
+        "r11"
+      ],
+      [
+        "r6",
+        "r11"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-007": {
+        "field": "career_007",
+        "recipient_role": "r6",
+        "kind": "unclassified",
+        "mode": "grant",
+        "appointment_role": "recommendation_qualification",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-008": {
+        "field": "career_008",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-009": {
+        "field": "career_009",
+        "recipient_role": "r4",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-010": {
+        "field": "career_010",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "staff_transfer",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-011": {
+        "field": "career_011",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-012": {
+        "field": "career_012",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_016": {
+        "predicate": "kinship_unspecified",
+        "subject_role": "r6",
+        "object_role": "r0",
+        "source_term": "中表親"
+      }
+    }
+  },
+  "paragraph_frame_004": {
+    "template": "晚與尚書<r0>交，又與<r1>、<r2>並申款昵。以二人居勢爭權，<r3>平心處中，各得其所，而俱無恨焉。遷{career_013}。<r4>作亂於蜀，而<r5>將西征。時魏氏諸王公並在鄴，<r6>謂<r7>曰：「西偏吾自了之，後事深以委<r8>。」以本官{career_014}，給親兵五百人，鎮鄴。",
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r3",
+        "r7",
+        "r8"
+      ],
+      [
+        "r5",
+        "r6"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r3",
+        "r5"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-013": {
+        "field": "career_013",
+        "recipient_role": "r3",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "staff_transfer",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-014": {
+        "field": "career_014",
+        "recipient_role": "r3",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "acting_military_staff",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "details_slots": {
+      "detail_002": {
+        "recipient_role": "r3",
+        "source_term": "給親兵五百人，鎮鄴",
+        "kind": "military_garrison_duty",
+        "values": {
+          "place_source_name": "鄴",
+          "source_number": "五百",
+          "reported_troops": 500,
+          "unit_source_name": "人",
+          "linked_holding_id": "th-jin043-shantao-career-014",
+          "troop_receipt_attested": false
+        }
+      }
+    }
+  },
+  "paragraph_frame_005": {
+    "template": "咸熙初，封{career_015}。轉{career_016}，典統別營。時<r0>以<r1>鄉閭宿望，命<r2>拜之。<r3>以<r4>繼<r5>后，素又重<r6>，嘗問<r7>曰：「<r8>開建未遂，吾但承奉後事耳。故立<r9>，將歸功於<r10>，何如？」<r11>以為不可，又以問<r12>。<r13>對曰：「廢長立少，違禮不祥。國之安危，恆必由之。」<r14>位於是乃定。<r15>親拜謝<r16>。及<r17>受禪，以<r18>守{career_018}，護送<r19>詣鄴。泰始初，加{career_019}，進爵{career_020}。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r1",
+        "r12",
+        "r13",
+        "r16",
+        "r18"
+      ],
+      [
+        "r2",
+        "r14",
+        "r15",
+        "r17"
+      ],
+      [
+        "r4",
+        "r6",
+        "r9"
+      ],
+      [
+        "r5",
+        "r8",
+        "r10"
+      ],
+      [
+        "r7",
+        "r11"
+      ],
+      [
+        "r19"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r0",
+        "r19"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r1",
+        "r7"
+      ],
+      [
+        "r1",
+        "r19"
+      ],
+      [
+        "r2",
+        "r4"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r2",
+        "r7"
+      ],
+      [
+        "r2",
+        "r19"
+      ],
+      [
+        "r4",
+        "r5"
+      ],
+      [
+        "r4",
+        "r7"
+      ],
+      [
+        "r4",
+        "r19"
+      ],
+      [
+        "r5",
+        "r7"
+      ],
+      [
+        "r5",
+        "r19"
+      ],
+      [
+        "r7",
+        "r19"
+      ]
+    ],
+    "inside_role_fields": {
+      "career_017": {
+        "role": "r4",
+        "prefix": 0,
+        "suffix": 1
+      }
+    },
+    "slots": {
+      "career-015": {
+        "field": "career_015",
+        "recipient_role": "r1",
+        "kind": "noble_rank",
+        "mode": "grant",
+        "appointment_role": "enfeoffment",
+        "state": "holding",
+        "date_expression": "咸熙初",
+        "civil_era": {
+          "era_name": "咸熙",
+          "dynasty": "魏",
+          "first": 264,
+          "last": 265
+        }
+      },
+      "career-016": {
+        "field": "career_016",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "staff_transfer",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-017": {
+        "field": "career_017",
+        "recipient_role": "r4",
+        "kind": "royal_rank",
+        "mode": "attestation",
+        "appointment_role": "source_title_use",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-018": {
+        "field": "career_018",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "acting_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-019": {
+        "field": "career_019",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "additional_appointment",
+        "state": "holding",
+        "date_expression": "泰始初",
+        "civil_era": {
+          "era_name": "泰始",
+          "dynasty": "西晉",
+          "first": 265,
+          "last": 274
+        }
+      },
+      "career-020": {
+        "field": "career_020",
+        "recipient_role": "r1",
+        "kind": "noble_rank",
+        "mode": "grant",
+        "appointment_role": "rank_advancement",
+        "state": "holding",
+        "date_expression": "泰始初",
+        "civil_era": {
+          "era_name": "泰始",
+          "dynasty": "西晉",
+          "first": 265,
+          "last": 274
+        }
+      }
+    },
+    "kinship_slots": {
+      "kin_017": {
+        "predicate": "brother",
+        "subject_role": "r10",
+        "object_role": "r0",
+        "source_term": "兄",
+        "relative_age": "older"
+      },
+      "kin_018": {
+        "predicate": "ritual_successor_of",
+        "subject_role": "r4",
+        "object_role": "r5",
+        "source_term": "繼景帝后"
+      }
+    },
+    "details_slots": {
+      "detail_003": {
+        "recipient_role": "r1",
+        "source_term": "典統別營",
+        "kind": "official_duty",
+        "values": {
+          "duty_code": "command_separate_camps",
+          "linked_holding_id": "th-jin043-shantao-career-016"
+        }
+      }
+    }
+  },
+  "paragraph_frame_006": {
+    "template": "及<r0>執政，時人欲危<r1>，<r2>正色保持之。由是失權臣意，出為{career_021}，加{career_022}。冀州俗薄，無相推轂。<r3>甄拔隱屈，搜訪賢才，旌命三十餘人，皆顯名當時。人懷慕尚，風俗頗革。轉{career_023}，督鄴城守事。入為{career_024}，遷{career_025}。以<r4>老辭職，詔曰：「<r5>雖乃心在於色養，然職有上下，旦夕不廢醫藥，且當割情，以隆在公。」<r6>心求退，表疏數十上，久乃見聽。除{career_026}，<r7>以<r8>清儉無以供養，特給日契，加賜床帳茵褥。禮秩崇重，時莫為比。",
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1"
+      ],
+      [
+        "r2",
+        "r3",
+        "r5",
+        "r6",
+        "r8"
+      ],
+      [
+        "r4"
+      ],
+      [
+        "r7"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r7"
+      ],
+      [
+        "r2",
+        "r4"
+      ],
+      [
+        "r2",
+        "r7"
+      ],
+      [
+        "r4",
+        "r7"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-021": {
+        "field": "career_021",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "provincial_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-022": {
+        "field": "career_022",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "additional_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-023": {
+        "field": "career_023",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-024": {
+        "field": "career_024",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-025": {
+        "field": "career_025",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-026": {
+        "field": "career_026",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_012": {
+        "predicate": "maternal_role",
+        "subject_role": "r2",
+        "object_role": "r4",
+        "source_term": "母"
+      }
+    },
+    "details_slots": {
+      "detail_004": {
+        "recipient_role": "r2",
+        "source_term": "督鄴城守事",
+        "kind": "official_duty",
+        "values": {
+          "duty_code": "supervise_city_defence",
+          "place_source_name": "鄴",
+          "linked_holding_id": "th-jin043-shantao-career-023"
+        }
+      },
+      "detail_005": {
+        "recipient_role": "r2",
+        "source_term": "表疏數十上，久乃見聽",
+        "kind": "office_departure",
+        "values": {
+          "departure_kind": "resignation_allowed_after_repeated_memorials",
+          "linked_holding_id": "th-jin043-shantao-career-025",
+          "date_unknown": true,
+          "all_other_offices_ended": false
+        }
+      }
+    }
+  },
+  "paragraph_frame_007": {
+    "template": "後除{career_027}，以疾不就。會遭<r0>喪，歸鄉里。<r1>年逾耳順，居喪過禮，負土成墳，手植松柏。詔曰：「吾所共致化者，官人之職是也。方今風欲陵遲，人心進動，宜崇明好惡，鎮以退讓。<r2>雖尚居諒闇，情在難奪，方今務殷，何得遂其志邪！其以<r3>為{career_028}。」<r4>辭以喪病，章表懇切。會<r5>崩，遂扶興還洛。逼迫詔命，自力就職。前後選舉，周遍內外，而並得其才。",
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ],
+      [
+        "r5"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r1",
+        "r5"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-027": {
+        "field": "career_027",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment_not_taken",
+        "state": "unassumed",
+        "date_expression": null
+      },
+      "career-028": {
+        "field": "career_028",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment_after_mourning_refusal",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "life_slots": {
+      "life_001": {
+        "recipient_role": "r0",
+        "source_term": "喪",
+        "event_type": "death",
+        "date_expression": null,
+        "source_phrase": "母喪"
+      },
+      "life_002": {
+        "recipient_role": "r5",
+        "source_term": "崩",
+        "event_type": "death",
+        "date_expression": null,
+        "source_phrase": "元皇后崩"
+      }
+    },
+    "ages_slots": {
+      "ages_002": {
+        "recipient_role": "r1",
+        "source_term": "年逾耳順",
+        "value": null,
+        "source_number": null,
+        "age_kind": "idiom_lower_bound",
+        "lower": 60,
+        "age_context": "during_life"
+      }
+    },
+    "addresses_slots": {
+      "addresses_002": {
+        "recipient_role": "r1",
+        "source_term": "歸鄉里",
+        "relation": "migration_destination",
+        "place": "鄉里"
+      },
+      "addresses_003": {
+        "recipient_role": "r1",
+        "source_term": "還洛",
+        "relation": "migration_destination",
+        "place": "洛"
+      }
+    },
+    "details_slots": {
+      "detail_006": {
+        "recipient_role": "r1",
+        "source_term": "逼迫詔命，自力就職",
+        "kind": "office_assumption",
+        "values": {
+          "assumption_code": "assumed_after_mourning_and_illness_refusal",
+          "linked_holding_id": "th-jin043-shantao-career-028",
+          "service_attested": true
+        }
+      }
+    }
+  },
+  "paragraph_frame_008": {
+    "template": "咸甯初，轉{career_029}，加{career_030}；除{career_031}，加{career_032}，領吏部。固辭以老疾，上表陳情。章表數十上，久不攝職，為{career_033}<r0>所奏。<r1>曰：「<r2>以病自聞，但不聽之耳。使<r3>坐執銓衡則可，何必上下邪！不得有所問。」<r4>不自安，表謝曰：「古之王道，正直而已。<r5>不可以一<r6>為加曲私，<r7>亦何必屢陳日月。乞如所表，以章典刑。」<r8>再手詔曰：「<r9>奏<r10>甚妄，所以不即推，直不喜凶赫耳。<r11>之明度，豈當介意邪！便當攝職，令斷章表也。」<r12>志必欲退，因發<r13><r14>喪，輒還外舍。詔曰：「<r15>近日暫出，遂以微苦未還，豈吾側席之意。其遣丞掾奉詔諭旨，若體力故未平康者，便以輿車輿還寺舍。」<r16>辭不獲已，乃起視事。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r9"
+      ],
+      [
+        "r1",
+        "r5",
+        "r8"
+      ],
+      [
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r7",
+        "r10",
+        "r11",
+        "r12",
+        "r15",
+        "r16"
+      ],
+      [
+        "r13"
+      ],
+      [
+        "r14"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r13"
+      ],
+      [
+        "r0",
+        "r14"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r13"
+      ],
+      [
+        "r1",
+        "r14"
+      ],
+      [
+        "r2",
+        "r13"
+      ],
+      [
+        "r2",
+        "r14"
+      ],
+      [
+        "r13",
+        "r14"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-029": {
+        "field": "career_029",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": "咸甯初",
+        "civil_era": {
+          "era_name": "咸寧",
+          "dynasty": "西晉",
+          "first": 275,
+          "last": 280
+        }
+      },
+      "career-030": {
+        "field": "career_030",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "additional_appointment",
+        "state": "holding",
+        "date_expression": "咸甯初",
+        "civil_era": {
+          "era_name": "咸寧",
+          "dynasty": "西晉",
+          "first": 275,
+          "last": 280
+        }
+      },
+      "career-031": {
+        "field": "career_031",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-032": {
+        "field": "career_032",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "additional_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-033": {
+        "field": "career_033",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_014": {
+        "predicate": "spouse",
+        "subject_role": "r14",
+        "object_role": "r13",
+        "source_term": "婦"
+      },
+      "kin_015": {
+        "predicate": "agnatic_cousin",
+        "subject_role": "r13",
+        "object_role": "r2",
+        "source_term": "從弟",
+        "relative_age": "younger"
+      }
+    },
+    "life_slots": {
+      "life_003": {
+        "recipient_role": "r14",
+        "source_term": "喪",
+        "event_type": "death",
+        "date_expression": null,
+        "source_phrase": "婦喪"
+      }
+    },
+    "details_slots": {
+      "detail_007": {
+        "recipient_role": "r2",
+        "source_term": "領吏部",
+        "kind": "official_duty",
+        "values": {
+          "duty_code": "lead_personnel_department",
+          "organ_source_name": "吏部",
+          "linked_holding_id": "th-jin043-shantao-career-031"
+        }
+      },
+      "detail_008": {
+        "recipient_role": "r2",
+        "source_term": "辭不獲已，乃起視事",
+        "kind": "office_assumption",
+        "values": {
+          "assumption_code": "resumed_after_unaccepted_resignation",
+          "linked_holding_id": "th-jin043-shantao-career-031",
+          "service_attested": true
+        }
+      }
+    }
+  },
+  "paragraph_frame_009": {
+    "template": "<r0>再居選職十有餘年，每一官缺，輒啟擬數人，詔旨有所向，然後顯奏，隨<r1>意所欲為先。故<r2>之所用，或非舉首，眾情不察，以<r3>輕重任意。或譖之於<r4>，故<r5>手詔戒<r6>曰：「夫用人惟才，不遺疏遠單賤，天下便化矣。」而<r7>行之自若，一年之後眾情乃寢。<r8>所奏甄拔人物，各為題目，時稱《山公啟事》。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r3",
+        "r6",
+        "r7",
+        "r8"
+      ],
+      [
+        "r1",
+        "r2",
+        "r4",
+        "r5"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {},
+    "details_slots": {
+      "detail_009": {
+        "recipient_role": "r0",
+        "source_term": "再居選職十有餘年",
+        "kind": "reported_duty_duration",
+        "values": {
+          "duty_source_name": "選職",
+          "service_period_count": 2,
+          "source_number": "十",
+          "lower_exclusive_years": 10,
+          "upper_years": null,
+          "applies_to_each_office": false,
+          "calendar_start": null,
+          "calendar_end": null
+        }
+      }
+    }
+  },
+  "paragraph_frame_010": {
+    "template": "<r0>中立於朝，晚值後黨專權，不欲任楊氏，多有諷諫，<r1>雖悟而不能改。後以年衰疾篤，上疏告退曰：「<r2>年垂八十，救命旦夕，若有毫末之益，豈遺力于聖時，迫以老耄，不復任事。今四海休息，天下思化，從而靜之，百姓自正。但當崇風尚教以敦之耳，<r3>亦復何事。<r4>耳目聾瞑，不能自勵。君臣父子，其間無文，是以直陳愚情，乞聽所請。」乃免冠徒跣，上還印綬。詔曰：「天下事廣，加吳土初平，凡百草創，當共盡意化之。<r5>不深識往心而以小疾求退，豈所望於<r6>邪！<r7>猶側席，未得垂拱，<r8>亦何得高尚其事乎！當崇至公，勿復為虛飾之煩。」<r9>苦表請退，詔又不許。{career_034}<r10>奏：「<r11>以微苦，久不視職。手詔頻煩，猶未順旨。參議以為無專節之尚，違在公之義。若實沈篤，亦不宜居位。可免<r12>官。」中詔<r13>曰：「<r14>以德素為朝之望，而常深退讓，至於懇切。故比有詔，欲必奪其志，以匡輔不逮。主者既不思明詔旨，而反深加詆案。虧崇賢之風，以重吾不德，何以示遠近邪！」<r15>不得已，又起視事。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r2",
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r9",
+        "r11",
+        "r12",
+        "r14",
+        "r15"
+      ],
+      [
+        "r1",
+        "r3",
+        "r7"
+      ],
+      [
+        "r10",
+        "r13"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r10"
+      ],
+      [
+        "r1",
+        "r10"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-034": {
+        "field": "career_034",
+        "recipient_role": "r10",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "ages_slots": {
+      "ages_003": {
+        "recipient_role": "r2",
+        "source_term": "年垂八十",
+        "value": null,
+        "source_number": "八十",
+        "age_kind": "approaching",
+        "target": 80,
+        "age_context": "during_life"
+      }
+    },
+    "details_slots": {
+      "detail_010": {
+        "recipient_role": "r0",
+        "source_term": "不得已，又起視事",
+        "kind": "retirement_request",
+        "values": {
+          "outcome": "not_permitted_then_resumed",
+          "titles_unspecified": true,
+          "linked_holding_ids": [],
+          "all_offices_ended": false
+        }
+      }
+    }
+  },
+  "paragraph_frame_011": {
+    "template": "太康初，遷{career_035}，加{career_036}，{career_037}、掌選如故。<r0>以老疾固辭，手詔曰：「<r1>以道德為世模表，況自<r2>識<r3>遠意。<r4>將倚<r5>以穆風俗，何乃欲舍遠朝政，獨高其志耶！<r6>之至懷故不足以喻乎，何來言至懇切也。且當以時自力，深副至望。<r7>不降志，<r8>不安席。」<r9>又上表固讓，不許。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r9"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r4",
+        "r6",
+        "r8"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r2",
+        "r4"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-035": {
+        "field": "career_035",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": "太康初",
+        "civil_era": {
+          "era_name": "太康",
+          "dynasty": "西晉",
+          "first": 280,
+          "last": 289
+        }
+      },
+      "career-036": {
+        "field": "career_036",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "additional_appointment",
+        "state": "holding",
+        "date_expression": "太康初",
+        "civil_era": {
+          "era_name": "太康",
+          "dynasty": "西晉",
+          "first": 280,
+          "last": 289
+        }
+      },
+      "career-037": {
+        "field": "career_037",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "continued_service",
+        "state": "holding",
+        "date_expression": "太康初",
+        "civil_era": {
+          "era_name": "太康",
+          "dynasty": "西晉",
+          "first": 280,
+          "last": 289
+        }
+      }
+    },
+    "details_slots": {
+      "detail_011": {
+        "recipient_role": "r0",
+        "source_term": "又上表固讓，不許",
+        "kind": "retirement_request",
+        "values": {
+          "outcome": "not_permitted",
+          "linked_holding_ids": [
+            "th-jin043-shantao-career-035",
+            "th-jin043-shantao-career-036"
+          ],
+          "all_offices_ended": false
+        }
+      }
+    }
+  },
+  "paragraph_frame_012": {
+    "template": "吳平之後，<r0>詔天下罷軍役，示海內大安，州郡悉去兵，大郡置武吏百人，小郡五十人。<r1>嘗講武于宣武場，<r2>時有疾，詔乘步輦從。因與<r3>論用兵之本，以為不宜去州郡武備，其論甚精。于時咸以<r4>不學孫、吳，而暗與之合。<r5>稱之曰：「天下名言也。」而不能用。及永寧之後，屢有變難，寇賊猋起，郡國皆以無備不能制，天下遂以大亂，如<r6>言焉。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r5"
+      ],
+      [
+        "r2",
+        "r4",
+        "r6"
+      ],
+      [
+        "r3"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r2",
+        "r3"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {}
+  },
+  "paragraph_frame_013": {
+    "template": "後拜{career_038}，<r0>復固讓。」詔曰：「郡年耆德茂，朝之碩老，是以授<r1>台輔之位。而遠崇克讓，至於反覆，良用於邑。<r2>當終始朝政，翼輔<r3>躬。」<r4>又表曰：「<r5>事天朝三十餘年，卒無毫釐以崇大化。<r6>私<r7>無已，猥授三司。<r8>聞德薄位高，力少任重，上有折足之凶，下有廟門之咎，願<r9>垂累世之恩，乞<r10>骸骨。詔曰：「<r11>翼贊朝政，保乂皇家，匡佐之勳，<r12>所倚賴。{career_039}之職，實掌幫教，故用敬授，以答群望。豈宜沖讓以自抑損邪！」已敕斷章表，使者乃臥加章綬。<r13>曰：「垂沒之人，豈可汙官府乎！」輿疾歸家。乙太康四年薨，時年七十九，詔賜東園秘器、朝服一具、衣一襲、錢五十萬、布百匹，以供喪事，策贈司徒，蜜印紫綬，侍中貂蟬，新遝伯蜜印青硃綬，祭乙太牢，諡曰{career_040}。將葬，賜錢四十萬、布百匹。{career_041}<r14>等上言：「<r15>舊第屋十間，子孫不相容。」<r16>為之立室。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r2",
+        "r4",
+        "r5",
+        "r7",
+        "r8",
+        "r10",
+        "r11",
+        "r13",
+        "r15"
+      ],
+      [
+        "r3",
+        "r6",
+        "r9",
+        "r12",
+        "r16"
+      ],
+      [
+        "r14"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r14"
+      ],
+      [
+        "r3",
+        "r14"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-038": {
+        "field": "career_038",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-039": {
+        "field": "career_039",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_office",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-040": {
+        "field": "career_040",
+        "recipient_role": "r0",
+        "kind": "honorific",
+        "mode": "posthumous_naming",
+        "appointment_role": "posthumous_name",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-041": {
+        "field": "career_041",
+        "recipient_role": "r14",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "life_slots": {
+      "life_004": {
+        "recipient_role": "r0",
+        "source_term": "薨",
+        "event_type": "death",
+        "date_expression": "太康四年",
+        "source_phrase": "乙太康四年薨",
+        "civil_era": {
+          "era_name": "太康",
+          "dynasty": "西晉",
+          "first": 280,
+          "last": 289
+        }
+      }
+    },
+    "ages_slots": {
+      "ages_004": {
+        "recipient_role": "r0",
+        "source_term": "時年七十九",
+        "value": 79,
+        "source_number": "七十九",
+        "age_kind": "exact",
+        "age_context": "at_death",
+        "life_slot": "life_004"
+      }
+    },
+    "details_slots": {
+      "detail_012": {
+        "recipient_role": "r0",
+        "source_term": "臣事天朝三十餘年",
+        "kind": "reported_public_service_duration",
+        "values": {
+          "source_number": "三十",
+          "lower_exclusive_years": 30,
+          "upper_years": null,
+          "applies_to_each_office": false,
+          "calendar_start": null,
+          "calendar_end": null
+        }
+      },
+      "detail_013": {
+        "recipient_role": "r0",
+        "source_term": "使者乃臥加章綬",
+        "kind": "office_investiture",
+        "values": {
+          "investiture_code": "insignia_delivered_while_ill_in_bed",
+          "linked_holding_id": "th-jin043-shantao-career-038",
+          "ordinary_attendance_attested": false,
+          "appointment_denied": false
+        }
+      },
+      "detail_014": {
+        "recipient_role": "r0",
+        "source_term": "蜜印紫綬，侍中貂蟬，新遝伯蜜印青硃綬，祭乙太牢",
+        "kind": "funerary_source_catalogue",
+        "values": {
+          "source_items": [
+            "蜜印紫綬",
+            "侍中貂蟬",
+            "新遝伯蜜印青硃綬",
+            "祭乙太牢"
+          ],
+          "normalized_items": null,
+          "creates_new_office_or_rank": false,
+          "calendar_date": null
+        }
+      }
+    }
+  },
+  "paragraph_frame_014": {
+    "template": "初，<r0>布衣家貧，謂<r1><r2>曰：「忍饑寒，<r3>後當作三公，但不知<r4>堪公夫人不耳！」及居榮貴，貞慎儉約，雖爵同千乘，而無嬪媵。祿賜俸秩，散之親故。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r1",
+        "r2",
+        "r4"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {},
+    "kinship_slots": {
+      "kin_013": {
+        "predicate": "spouse",
+        "subject_role": "r2",
+        "object_role": "r0",
+        "source_term": "妻"
+      }
+    },
+    "names_slots": {
+      "name_011": {
+        "recipient_role": "r2",
+        "name_mode": "shi"
+      }
+    },
+    "details_slots": {
+      "detail_015": {
+        "recipient_role": "r0",
+        "source_term": "而無嬪媵",
+        "kind": "marital_source_statement",
+        "values": {
+          "reported_absence": "concubines",
+          "time_scope": "after_prosperity_in_this_account",
+          "spouses_exhaustive": false,
+          "child_mothers_inferred": false
+        }
+      }
+    }
+  },
+  "paragraph_frame_015": {
+    "template": "初，陳郡<r0>嘗為{career_042}，貪濁而賂遺公卿，以求虛譽，亦遺<r1>絲百斤，<r2>不欲異于時，受而藏於閣上。後<r3>事露，檻車送廷尉，凡所以賂，皆見推檢。<r4>乃取絲付吏，積年塵埃，印封如初。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r1",
+        "r2",
+        "r4"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-042": {
+        "field": "career_042",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    }
+  },
+  "paragraph_frame_016": {
+    "template": "<r0>飲酒至八斗方醉，<r1>欲試之，乃以酒八斗飲<r2>，而密益其酒，<r3>極本量而止。有五子：<r4>、<r5>、<r6>、<r7>、<r8>。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r2",
+        "r3"
+      ],
+      [
+        "r1"
+      ],
+      [
+        "r4"
+      ],
+      [
+        "r5"
+      ],
+      [
+        "r6"
+      ],
+      [
+        "r7"
+      ],
+      [
+        "r8"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r0",
+        "r8"
+      ],
+      [
+        "r1",
+        "r4"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r1",
+        "r6"
+      ],
+      [
+        "r1",
+        "r7"
+      ],
+      [
+        "r1",
+        "r8"
+      ],
+      [
+        "r4",
+        "r5"
+      ],
+      [
+        "r4",
+        "r6"
+      ],
+      [
+        "r4",
+        "r7"
+      ],
+      [
+        "r4",
+        "r8"
+      ],
+      [
+        "r5",
+        "r6"
+      ],
+      [
+        "r5",
+        "r7"
+      ],
+      [
+        "r5",
+        "r8"
+      ],
+      [
+        "r6",
+        "r7"
+      ],
+      [
+        "r6",
+        "r8"
+      ],
+      [
+        "r7",
+        "r8"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {},
+    "kinship_slots": {
+      "kin_003": {
+        "predicate": "father",
+        "subject_role": "r4",
+        "object_role": "r0",
+        "source_term": "子"
+      },
+      "kin_004": {
+        "predicate": "father",
+        "subject_role": "r5",
+        "object_role": "r0",
+        "source_term": "子"
+      },
+      "kin_005": {
+        "predicate": "father",
+        "subject_role": "r6",
+        "object_role": "r0",
+        "source_term": "子"
+      },
+      "kin_006": {
+        "predicate": "father",
+        "subject_role": "r7",
+        "object_role": "r0",
+        "source_term": "子"
+      },
+      "kin_007": {
+        "predicate": "father",
+        "subject_role": "r8",
+        "object_role": "r0",
+        "source_term": "子"
+      }
+    },
+    "details_slots": {
+      "detail_022": {
+        "recipient_role": "r0",
+        "source_term": "有五子",
+        "kind": "reported_son_count",
+        "values": {
+          "source_number": "五",
+          "value": 5,
+          "scope": "sons",
+          "enumerated_named_sons": 5,
+          "enumeration_is_birth_order": false,
+          "biological_mother": null
+        }
+      }
+    }
+  },
+  "paragraph_frame_017": {
+    "template": "<r0>字<r1>，嗣<r2>爵，仕至{career_043}、{career_044}，贈{career_045}。<r3>子<r4>字<r5>，{career_046}，次子<r6>，{career_047}、{career_048}。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r3"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r4",
+        "r5"
+      ],
+      [
+        "r6"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r2",
+        "r4"
+      ],
+      [
+        "r2",
+        "r6"
+      ],
+      [
+        "r4",
+        "r6"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-043": {
+        "field": "career_043",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_attainment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-044": {
+        "field": "career_044",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_attainment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-045": {
+        "field": "career_045",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_office",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-046": {
+        "field": "career_046",
+        "recipient_role": "r4",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-047": {
+        "field": "career_047",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-048": {
+        "field": "career_048",
+        "recipient_role": "r6",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_008": {
+        "predicate": "father",
+        "subject_role": "r0",
+        "object_role": "r2",
+        "source_term": "父"
+      },
+      "kin_009": {
+        "predicate": "father",
+        "subject_role": "r4",
+        "object_role": "r0",
+        "source_term": "子"
+      },
+      "kin_010": {
+        "predicate": "father",
+        "subject_role": "r6",
+        "object_role": "r0",
+        "source_term": "次子",
+        "ordinal": 2
+      }
+    },
+    "names_slots": {
+      "name_003": {
+        "recipient_role": "r0",
+        "name_mode": "given",
+        "style_role": "r1"
+      },
+      "name_008": {
+        "recipient_role": "r4",
+        "name_mode": "given",
+        "style_role": "r5"
+      },
+      "name_009": {
+        "recipient_role": "r6",
+        "name_mode": "given"
+      }
+    },
+    "inherited_rank_slots": {
+      "inherited_rank_001": {
+        "recipient_role": "r0",
+        "father_role": "r2",
+        "source_term": "嗣父爵",
+        "raw_title": "父爵"
+      }
+    }
+  },
+  "paragraph_frame_018": {
+    "template": "<r0>字<r1>，不仕，<r2>字<r3>，{career_049}，並少尪病，形甚短小，而聰敏過人。<r4>聞而欲見之，<r5>不敢辭，以問於<r6>。<r7>自以尪陋，不肯行。<r8>以為勝己，乃表曰：「<r9>二子尪病，宜絕人事，不敢受詔。」",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r2",
+        "r3",
+        "r6",
+        "r7"
+      ],
+      [
+        "r4"
+      ],
+      [
+        "r5",
+        "r8",
+        "r9"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r2",
+        "r4"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r4",
+        "r5"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-049": {
+        "field": "career_049",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "names_slots": {
+      "name_004": {
+        "recipient_role": "r0",
+        "name_mode": "given",
+        "style_role": "r1"
+      },
+      "name_005": {
+        "recipient_role": "r2",
+        "name_mode": "given",
+        "style_role": "r3"
+      }
+    },
+    "details_slots": {
+      "detail_016": {
+        "recipient_role": "r0",
+        "source_term": "不仕",
+        "kind": "non_service_report",
+        "values": {
+          "service_state": "did_not_serve",
+          "office_names_unspecified": true,
+          "calendar_start": null,
+          "calendar_end": null
+        }
+      }
+    }
+  },
+  "paragraph_frame_019": {
+    "template": "<r0>字<r1>，明惠有才智，官至{career_050}。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1"
+      ]
+    ],
+    "distinct_role_groups": [],
+    "inside_role_fields": {},
+    "slots": {
+      "career-050": {
+        "field": "career_050",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_attainment",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "names_slots": {
+      "name_006": {
+        "recipient_role": "r0",
+        "name_mode": "given",
+        "style_role": "r1"
+      }
+    }
+  },
+  "paragraph_frame_020": {
+    "template": "<r0>字<r1>。性溫雅，有<r2>風，年二十餘，<r3>不之知也。<r4>歎曰：「<r5>年幾三十，而不為<r6>所知！」後與譙國<r7>、沛郡<r8>、弘農<r9>齊名。初為{career_051}，累遷{career_052}、{career_053}，出為{career_054}。徵拜{career_055}，頃之，轉{career_056}。曆{career_057}、{career_058}，領{career_059}，不行，復拜{career_060}。光熙初，轉{career_061}。永嘉初，出為{career_062}、{career_063}。徵為{career_064}，領吏部。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r4",
+        "r5"
+      ],
+      [
+        "r2",
+        "r3",
+        "r6"
+      ],
+      [
+        "r7"
+      ],
+      [
+        "r8"
+      ],
+      [
+        "r9"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r0",
+        "r8"
+      ],
+      [
+        "r0",
+        "r9"
+      ],
+      [
+        "r2",
+        "r7"
+      ],
+      [
+        "r2",
+        "r8"
+      ],
+      [
+        "r2",
+        "r9"
+      ],
+      [
+        "r7",
+        "r8"
+      ],
+      [
+        "r7",
+        "r9"
+      ],
+      [
+        "r8",
+        "r9"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-051": {
+        "field": "career_051",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-052": {
+        "field": "career_052",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-053": {
+        "field": "career_053",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-054": {
+        "field": "career_054",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-055": {
+        "field": "career_055",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "summoned_appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-056": {
+        "field": "career_056",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "appointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-057": {
+        "field": "career_057",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "listed_assignment_not_taken",
+        "state": "unassumed",
+        "date_expression": null
+      },
+      "career-058": {
+        "field": "career_058",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "listed_assignment_not_taken",
+        "state": "unassumed",
+        "date_expression": null
+      },
+      "career-059": {
+        "field": "career_059",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "listed_assignment_not_taken",
+        "state": "unassumed",
+        "date_expression": null
+      },
+      "career-060": {
+        "field": "career_060",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "reappointment",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-061": {
+        "field": "career_061",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "transfer",
+        "appointment_role": "transfer",
+        "state": "holding",
+        "date_expression": "光熙初",
+        "civil_era": {
+          "era_name": "光熙",
+          "dynasty": "西晉",
+          "first": 306,
+          "last": 306
+        }
+      },
+      "career-062": {
+        "field": "career_062",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "provincial_appointment",
+        "state": "holding",
+        "date_expression": "永嘉初",
+        "civil_era": {
+          "era_name": "永嘉",
+          "dynasty": "西晉",
+          "first": 307,
+          "last": 313
+        }
+      },
+      "career-063": {
+        "field": "career_063",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "concurrent_military_appointment",
+        "state": "holding",
+        "date_expression": "永嘉初",
+        "civil_era": {
+          "era_name": "永嘉",
+          "dynasty": "西晉",
+          "first": 307,
+          "last": 313
+        }
+      },
+      "career-064": {
+        "field": "career_064",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "summoned_appointment",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "ages_slots": {
+      "ages_005": {
+        "recipient_role": "r0",
+        "source_term": "年二十餘",
+        "value": null,
+        "source_number": "二十",
+        "age_kind": "lower_bound",
+        "lower": 20,
+        "age_context": "during_life"
+      },
+      "ages_006": {
+        "recipient_role": "r5",
+        "source_term": "年幾三十",
+        "value": null,
+        "source_number": "三十",
+        "age_kind": "approaching",
+        "target": 30,
+        "age_context": "during_life"
+      }
+    },
+    "names_slots": {
+      "name_007": {
+        "recipient_role": "r0",
+        "name_mode": "given",
+        "style_role": "r1"
+      },
+      "name_013": {
+        "recipient_role": "r7",
+        "name_mode": "full_named_reference"
+      }
+    },
+    "details_slots": {
+      "detail_017": {
+        "recipient_role": "r0",
+        "source_term": "領吏部",
+        "kind": "official_duty",
+        "values": {
+          "duty_code": "lead_personnel_department",
+          "organ_source_name": "吏部",
+          "linked_holding_id": "th-jin043-shantao-career-064"
+        }
+      }
+    }
+  },
+  "paragraph_frame_021": {
+    "template": "<r0>欲令朝臣各舉所知，以廣得才之路。上疏曰：「<r1>以為自古興替，實在官人；苟得其才，則無物不理。《書》言：'知人則哲，惟帝難之。'唐、虞之盛，元愷登庸；周室之隆，濟濟多士。秦、漢已來，風雅漸喪。至於後漢，女君臨朝，尊官大位，出於阿保，斯亂之始也。是以<r2>、<r3>之倫，明清議於草野；<r4>、<r5>之徒，守忠節於朝廷。然後君臣名節，古今遺典，可得而言。自初平之元，訖于建安之末，三十年中，萬姓流散，死亡略盡，斯亂之極也。<r6>應天順人，受禪于魏，泰始之初，躬親萬機，佐命之臣，咸皆率職。時{career_065}<r7>、<r8>始於太極東堂聽政，評尚書奏事，多論刑獄，不論選舉。<r9>以為不先所難，而辨其所易。<r10>初臨萬國，人思盡誠，每於聽政之日，命公卿大臣先議選舉，各言所見後進俊才、鄉邑尤異、才堪任用者，皆以名奏，主者隨缺先敘。是爵人於朝，與眾共之之義也。」朝廷從之。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r9"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r3"
+      ],
+      [
+        "r4"
+      ],
+      [
+        "r5"
+      ],
+      [
+        "r6"
+      ],
+      [
+        "r7"
+      ],
+      [
+        "r8"
+      ],
+      [
+        "r10"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r4"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r0",
+        "r7"
+      ],
+      [
+        "r0",
+        "r8"
+      ],
+      [
+        "r0",
+        "r10"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r2",
+        "r4"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r2",
+        "r6"
+      ],
+      [
+        "r2",
+        "r7"
+      ],
+      [
+        "r2",
+        "r8"
+      ],
+      [
+        "r2",
+        "r10"
+      ],
+      [
+        "r3",
+        "r4"
+      ],
+      [
+        "r3",
+        "r5"
+      ],
+      [
+        "r3",
+        "r6"
+      ],
+      [
+        "r3",
+        "r7"
+      ],
+      [
+        "r3",
+        "r8"
+      ],
+      [
+        "r3",
+        "r10"
+      ],
+      [
+        "r4",
+        "r5"
+      ],
+      [
+        "r4",
+        "r6"
+      ],
+      [
+        "r4",
+        "r7"
+      ],
+      [
+        "r4",
+        "r8"
+      ],
+      [
+        "r4",
+        "r10"
+      ],
+      [
+        "r5",
+        "r6"
+      ],
+      [
+        "r5",
+        "r7"
+      ],
+      [
+        "r5",
+        "r8"
+      ],
+      [
+        "r5",
+        "r10"
+      ],
+      [
+        "r6",
+        "r7"
+      ],
+      [
+        "r6",
+        "r8"
+      ],
+      [
+        "r6",
+        "r10"
+      ],
+      [
+        "r7",
+        "r8"
+      ],
+      [
+        "r7",
+        "r10"
+      ],
+      [
+        "r8",
+        "r10"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-065": {
+        "field": "career_065",
+        "recipient_role": "r7",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "shared_prefix_office",
+        "state": "holding",
+        "date_expression": "泰始之初",
+        "civil_era": {
+          "era_name": "泰始",
+          "dynasty": "西晉",
+          "first": 265,
+          "last": 274
+        }
+      },
+      "career-066": {
+        "field": "career_065",
+        "recipient_role": "r8",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "shared_prefix_office",
+        "state": "holding",
+        "date_expression": "泰始之初",
+        "civil_era": {
+          "era_name": "泰始",
+          "dynasty": "西晉",
+          "first": 265,
+          "last": 274
+        }
+      }
+    }
+  },
+  "paragraph_frame_022": {
+    "template": "永嘉三年，出為{career_067}、{career_068}、{career_069}，鎮襄陽。于時四方寇亂，天下分崩，王威不振，朝野危懼。<r0>優遊卒歲，唯酒是耽。諸習氏，荊土豪族，有佳園池，<r1>每出嬉遊，多之池上，置酒輒醉，名之曰高陽池。時有童兒歌曰：「<r2>出何許，往至高陽池。日夕倒載歸，酩酊無所知。時時能騎馬，倒著白接䍦。舉鞭問<r3>：何如并州兒？」<r4>家在并州，<r5>愛將也。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r2",
+        "r5"
+      ],
+      [
+        "r3",
+        "r4"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r3"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-067": {
+        "field": "career_067",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "military_appointment",
+        "state": "holding",
+        "date_expression": "永嘉三年",
+        "civil_era": {
+          "era_name": "永嘉",
+          "dynasty": "西晉",
+          "first": 307,
+          "last": 313
+        }
+      },
+      "career-068": {
+        "field": "career_068",
+        "recipient_role": "r0",
+        "kind": "unclassified",
+        "mode": "grant",
+        "appointment_role": "command_scope",
+        "state": "holding",
+        "date_expression": "永嘉三年",
+        "civil_era": {
+          "era_name": "永嘉",
+          "dynasty": "西晉",
+          "first": 307,
+          "last": 313
+        }
+      },
+      "career-069": {
+        "field": "career_069",
+        "recipient_role": "r0",
+        "kind": "unclassified",
+        "mode": "grant",
+        "appointment_role": "credential_authority",
+        "state": "holding",
+        "date_expression": "永嘉三年",
+        "civil_era": {
+          "era_name": "永嘉",
+          "dynasty": "西晉",
+          "first": 307,
+          "last": 313
+        }
+      }
+    },
+    "addresses_slots": {
+      "addresses_004": {
+        "recipient_role": "r0",
+        "source_term": "鎮襄陽",
+        "relation": "service_location",
+        "place": "襄陽"
+      },
+      "addresses_005": {
+        "recipient_role": "r4",
+        "source_term": "家在并州",
+        "relation": "residence",
+        "place": "并州"
+      }
+    }
+  },
+  "paragraph_frame_023": {
+    "template": "尋加督寧、益軍事。時<r0>入寇，京師危逼。<r1>遣{career_070}<r2>率師赴難，次於涅陽，為宛城賊<r3>所破，遂嬰城自守。及洛陽陷沒，<r4>又為賊<r5>所逼，乃遷于夏口。招納流亡，江、漢歸附。時<r6>以江州作難，或勸<r7>討之。<r8>曰：「與<r9>舊友，為之惆悵。<r10>豈利人之機，以為功伐乎！」其篤厚如此。時樂府伶人避難，多奔沔漢，宴會之日，僚佐或勸奏之。<r11>曰：「社稷傾覆，不能匡救，有晉之罪人也，何作樂之有！」因流涕慷慨，坐者咸愧焉。年六十卒，追贈{career_071}、{career_072}。<r12><r13>。",
+    "same_person_groups": [
+      [
+        "r0"
+      ],
+      [
+        "r1",
+        "r4",
+        "r7",
+        "r8",
+        "r10",
+        "r11"
+      ],
+      [
+        "r2"
+      ],
+      [
+        "r3"
+      ],
+      [
+        "r5"
+      ],
+      [
+        "r6",
+        "r9"
+      ],
+      [
+        "r12",
+        "r13"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r1"
+      ],
+      [
+        "r0",
+        "r2"
+      ],
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r5"
+      ],
+      [
+        "r0",
+        "r6"
+      ],
+      [
+        "r0",
+        "r12"
+      ],
+      [
+        "r1",
+        "r2"
+      ],
+      [
+        "r1",
+        "r3"
+      ],
+      [
+        "r1",
+        "r5"
+      ],
+      [
+        "r1",
+        "r6"
+      ],
+      [
+        "r1",
+        "r12"
+      ],
+      [
+        "r2",
+        "r3"
+      ],
+      [
+        "r2",
+        "r5"
+      ],
+      [
+        "r2",
+        "r6"
+      ],
+      [
+        "r2",
+        "r12"
+      ],
+      [
+        "r3",
+        "r5"
+      ],
+      [
+        "r3",
+        "r6"
+      ],
+      [
+        "r3",
+        "r12"
+      ],
+      [
+        "r5",
+        "r6"
+      ],
+      [
+        "r5",
+        "r12"
+      ],
+      [
+        "r6",
+        "r12"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-070": {
+        "field": "career_070",
+        "recipient_role": "r2",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-071": {
+        "field": "career_071",
+        "recipient_role": "r1",
+        "kind": "office",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_office",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-072": {
+        "field": "career_072",
+        "recipient_role": "r1",
+        "kind": "honorific",
+        "mode": "posthumous_grant",
+        "appointment_role": "posthumous_rank",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "kinship_slots": {
+      "kin_011": {
+        "predicate": "father",
+        "subject_role": "r13",
+        "object_role": "r1",
+        "source_term": "子"
+      }
+    },
+    "life_slots": {
+      "life_005": {
+        "recipient_role": "r1",
+        "source_term": "卒",
+        "event_type": "death",
+        "date_expression": null,
+        "source_phrase": "年六十卒"
+      }
+    },
+    "ages_slots": {
+      "ages_007": {
+        "recipient_role": "r1",
+        "source_term": "年六十",
+        "value": 60,
+        "source_number": "六十",
+        "age_kind": "exact",
+        "age_context": "at_death",
+        "life_slot": "life_005"
+      }
+    },
+    "addresses_slots": {
+      "addresses_006": {
+        "recipient_role": "r1",
+        "source_term": "乃遷于夏口",
+        "relation": "migration_destination",
+        "place": "夏口"
+      }
+    },
+    "details_slots": {
+      "detail_018": {
+        "recipient_role": "r1",
+        "source_term": "加督寧、益軍事",
+        "kind": "official_duty",
+        "values": {
+          "duty_code": "additional_regional_military_command",
+          "source_regions": [
+            "寧",
+            "益"
+          ],
+          "calendar_date": null,
+          "source_scope": "additional_to_prior_four_provinces_not_replacement"
+        }
+      }
+    }
+  },
+  "paragraph_frame_024": {
+    "template": "<r0>字<r1>，為{career_073}。時江左初基，法禁寬弛，豪族多挾藏戶口，以為私附。<r2>繩以峻法，到縣八旬，出口萬餘。縣人<r3>以藏戶當棄市，<r4>欲繩<r5>。諸豪強莫不切齒於<r6>，言于執事，以<r7>有高節，不宜屈辱。又以<r8>輒造縣舍，遂陷其罪。<r9>與{career_074}<r10>箋：「乞留百日，窮翦捕逃，退而就罪，無恨也。」<r11>申理，不能得。竟坐免官。後為{career_075}，為政嚴猛。<r12>詔曰：「東陽頃來竟囚，每多入重。豈郡多罪人，將捶楚所求，莫能自固邪！」<r13>處之自若，郡境肅然。卒於官。",
+    "same_person_groups": [
+      [
+        "r0",
+        "r1",
+        "r2",
+        "r4",
+        "r6",
+        "r8",
+        "r9",
+        "r13"
+      ],
+      [
+        "r3",
+        "r5",
+        "r7"
+      ],
+      [
+        "r10",
+        "r11"
+      ],
+      [
+        "r12"
+      ]
+    ],
+    "distinct_role_groups": [
+      [
+        "r0",
+        "r3"
+      ],
+      [
+        "r0",
+        "r10"
+      ],
+      [
+        "r0",
+        "r12"
+      ],
+      [
+        "r3",
+        "r10"
+      ],
+      [
+        "r3",
+        "r12"
+      ],
+      [
+        "r10",
+        "r12"
+      ]
+    ],
+    "inside_role_fields": {},
+    "slots": {
+      "career-073": {
+        "field": "career_073",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-074": {
+        "field": "career_074",
+        "recipient_role": "r10",
+        "kind": "office",
+        "mode": "attestation",
+        "appointment_role": "reported_service",
+        "state": "holding",
+        "date_expression": null
+      },
+      "career-075": {
+        "field": "career_075",
+        "recipient_role": "r0",
+        "kind": "office",
+        "mode": "grant",
+        "appointment_role": "later_appointment",
+        "state": "holding",
+        "date_expression": null
+      }
+    },
+    "life_slots": {
+      "life_006": {
+        "recipient_role": "r0",
+        "source_term": "卒",
+        "event_type": "death",
+        "date_expression": null,
+        "source_phrase": "卒於官"
+      }
+    },
+    "names_slots": {
+      "name_010": {
+        "recipient_role": "r0",
+        "name_mode": "given",
+        "style_role": "r1"
+      }
+    },
+    "details_slots": {
+      "detail_019": {
+        "recipient_role": "r0",
+        "source_term": "竟坐免官",
+        "kind": "office_departure",
+        "values": {
+          "departure_kind": "dismissal",
+          "linked_holding_id": "th-jin043-shantao-career-073",
+          "date_unknown": true,
+          "all_other_offices_ended": false
+        }
+      },
+      "detail_020": {
+        "recipient_role": "r0",
+        "source_term": "到縣八旬",
+        "kind": "reported_duty_duration",
+        "values": {
+          "source_number": "八",
+          "reported_value": 8,
+          "unit_source_name": "旬",
+          "converted_days": null,
+          "linked_holding_id": "th-jin043-shantao-career-073",
+          "calendar_start": null,
+          "calendar_end": null
+        }
+      },
+      "detail_021": {
+        "recipient_role": "r0",
+        "source_term": "卒於官",
+        "kind": "death_in_office",
+        "values": {
+          "linked_holding_id": "th-jin043-shantao-career-075",
+          "linked_life_event_id": "le-jin043-shantao-life_006",
+          "closure_scope": "this_office_only",
+          "calendar_date": null
+        }
+      }
+    }
+  }
+}

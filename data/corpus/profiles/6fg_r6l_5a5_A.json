@@ -14,11 +14,169 @@
     "嵇侍中",
     "卿",
     "父",
-    "太尉、忠穆公"
+    "太尉、忠穆公",
+    "子",
+    "汝"
   ],
-  "titles": [],
+  "titles": [
+    {
+      "id": "th-jin040-jiachong-family-holding_169",
+      "person_id": "6fg_r6l_5a5_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+          "quote": "歷位散騎常侍、後軍將軍。廣城君薨，去職。喪未終。起爲秘書監，掌國史。先是，朝廷議立晉書限斷，中書監荀勖謂宜以魏正始起年，著作郎王瓚欲引嘉平已下朝臣盡入晉史，於時依違未有所決。惠帝立，更使議之。謐上議，請從泰始爲斷。於是事下三府，司徒王戎、司空張華、領軍將軍王衍、侍中樂廣、黃門侍郎嵇紹、國子博士謝衡皆從謐議。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0140"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整收到段落的明示受任者／原詞；未知年月、任終、生年與未名人物不補。",
+      "title": "黃門侍郎",
+      "kind": "office",
+      "mode": "attestation",
+      "appointment_role": "source_report",
+      "source_career_role": {
+        "kind": "fixed_complete_family_career",
+        "slot": "holding_169",
+        "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+        "source_revision": 2606035,
+        "paragraph_sha256": "a43e5b83a1f91fd241e6f22a4864f12ef6b3d89fd6bf7429fdda3dffc1b4d632",
+        "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0140"
+      },
+      "attestations": [
+        {
+          "id": "th-jin040-jiachong-family-holding_169:a001",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+          "start": 136,
+          "end": 140,
+          "surface": "黃門侍郎",
+          "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0140",
+          "usage": "narrative",
+          "date_expression": null
+        }
+      ],
+      "effective_period": {
+        "start": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        },
+        "end": {
+          "status": "unknown",
+          "date_expression": null,
+          "evidence": []
+        }
+      },
+      "period": "未定 → 未定"
+    }
+  ],
   "addresses": [],
   "occurrences": [
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "斷。於是事下三府，司徒王戎、司空張華、領軍將軍王衍、侍中樂廣、黃門侍郎嵇紹、國子博士謝衡皆從謐議。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p021"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p021:m0140"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p021:m0140": "c-jinshu-040-jiachong-family:p021"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p021:m0140",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p021:m0140",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p021:m0140"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
+    },
+    {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:p001",
+      "count": 4,
+      "raw_count": 4,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "與嵇康、呂安善，後遇阮籍，便為竹林之交，著忘言之契。康後坐事，臨誅，謂子紹曰：「巨源在，汝不孤矣。」",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:p001",
+        "c-jinshu-043-shantao:p020"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:p001:m0087",
+        "c-jinshu-043-shantao:p001:m0088",
+        "c-jinshu-043-shantao:p001:m0096",
+        "c-jinshu-043-shantao:p020:m0048"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:p001:m0087": "c-jinshu-043-shantao:p001",
+        "c-jinshu-043-shantao:p001:m0088": "c-jinshu-043-shantao:p001",
+        "c-jinshu-043-shantao:p001:m0096": "c-jinshu-043-shantao:p001",
+        "c-jinshu-043-shantao:p020:m0048": "c-jinshu-043-shantao:p020"
+      },
+      "mention_id": "c-jinshu-043-shantao:p001:m0087",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p001:m0087",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p001:m0087"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p001:m0088",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p001:m0088"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p001:m0096",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p001:m0096"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p020:m0048",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p020:m0048"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "work_title": "晉書"
+    },
     {
       "number": 61,
       "category": "",
@@ -559,6 +717,64 @@
   "table_occurrences": [],
   "sources": [
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "source": {
+        "title": "《晉書》卷四十三山濤完整本傳及簡、遐附傳與史論（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-22",
+        "extent": "山濤至王戎節題前完整單元，含子簡、簡子遐附傳及史臣論；25原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；來源歸屬保留，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白/節題標記、展開YL模板及兩個wiki連結的顯示文字；未依連結target推全題，原字不校改。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-061-zhou-family",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-061",
@@ -610,6 +826,66 @@
     }
   ],
   "relations": [
+    {
+      "id": "a-jin043-shantao-kin_002",
+      "subject_person_id": "6fg_r6l_5a5_A",
+      "predicate": "father",
+      "object_person_id": "6fg_r6l_5a5",
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "frame": "paragraph_frame_001",
+          "paragraph_id": "c-jinshu-043-shantao:p001",
+          "source_revision": 2618531,
+          "paragraph_sha256": "00b93bdce963ec49c75931531d1984103fed0b86a12e44aa4492ed0f1e0ac7e3",
+          "roles": {
+            "r0": "c-jinshu-043-shantao:p001:m0000",
+            "r1": "c-jinshu-043-shantao:p001:m0004",
+            "r2": "c-jinshu-043-shantao:p001:m0013",
+            "r3": "c-jinshu-043-shantao:p001:m0014",
+            "r4": "c-jinshu-043-shantao:p001:m0020",
+            "r5": "c-jinshu-043-shantao:p001:m0053",
+            "r6": "c-jinshu-043-shantao:p001:m0056",
+            "r7": "c-jinshu-043-shantao:p001:m0062",
+            "r8": "c-jinshu-043-shantao:p001:m0078",
+            "r9": "c-jinshu-043-shantao:p001:m0087",
+            "r10": "c-jinshu-043-shantao:p001:m0088",
+            "r11": "c-jinshu-043-shantao:p001:m0092",
+            "r12": "c-jinshu-043-shantao:p001:m0096"
+          },
+          "fields": {
+            "career_001": {
+              "paragraph_id": "c-jinshu-043-shantao:p001",
+              "start": 16,
+              "end": 19,
+              "surface": "宛句令"
+            }
+          },
+          "inside_role_fields": {},
+          "human_reviewed": false,
+          "rule": "attached_received_biography_frame",
+          "slot": "kin_002"
+        },
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-shantao",
+          "chapter_id": "c-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:p001",
+          "quote": "山濤，字巨源，河內懷人也。父曜，宛句令。濤早孤，居貧，少有器量，介然不群。性好《莊》《老》，每隱身自晦。與嵇康、呂安善，後遇阮籍，便為竹林之交，著忘言之契。康後坐事，臨誅，謂子紹曰：「巨源在，汝不孤矣。」",
+          "subject_person_mention_id": "c-jinshu-043-shantao:p001:m0088",
+          "object_person_mention_id": "c-jinshu-043-shantao:p001:m0078"
+        }
+      ],
+      "interpretation_note": "保原文近親及來源界線；不推母稱為生母，不補未知配偶、父代、共祖或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
     {
       "id": "a-jin089-jishao-001",
       "subject_person_id": "6fg_r6l_5a5_A",
@@ -683,11 +959,227 @@
     "6fg_r6l_5a5_AA": "嵇軫"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-079",
+      "person_id": "6fg_r6l_5a5_A",
+      "surname": "嵇",
+      "ming": "紹",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p021",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p021:m0140",
+      "quote": "歷位散騎常侍、後軍將軍。廣城君薨，去職。喪未終。起爲秘書監，掌國史。先是，朝廷議立晉書限斷，中書監荀勖謂宜以魏正始起年，著作郎王瓚欲引嘉平已下朝臣盡入晉史，於時依違未有所決。惠帝立，更使議之。謐上議，請從泰始爲斷。於是事下三府，司徒王戎、司空張華、領軍將軍王衍、侍中樂廣、黃門侍郎嵇紹、國子博士謝衡皆從謐議。騎都尉濟北侯荀畯、侍中荀籓、黃門侍郎華混以爲宜用正始開元。博士荀熙、刁協謂宜嘉平起年。謐重執奏戎、華之議，事遂施行。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "a43e5b83a1f91fd241e6f22a4864f12ef6b3d89fd6bf7429fdda3dffc1b4d632",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p021:m0140",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    },
+    {
+      "id": "nc-jin043-shantao-shao",
+      "person_id": "6fg_r6l_5a5_A",
+      "surname": "嵇",
+      "ming": "紹",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-043-shantao",
+      "paragraph_id": "c-jinshu-043-shantao:p020",
+      "person_mention_id": "c-jinshu-043-shantao:p020:m0048",
+      "quote": "簡字季倫。性溫雅，有父風，年二十餘，濤不之知也。簡歎曰：「吾年幾三十，而不為家公所知！」後與譙國嵇紹、沛郡劉謨、弘農楊准齊名。初為太子舍人，累遷太子庶子、黃門郎，出為青州刺史。徵拜侍中，頃之，轉尚書。曆鎮軍將軍、荊州刺史，領南蠻校尉，不行，復拜尚書。光熙初，轉吏部尚書。永嘉初，出為雍州刺史、鎮西將軍。徵為尚書左僕射，領吏部。",
+      "component_source_binding": {
+        "kind": "attached_received_biography_frame",
+        "frame": "paragraph_frame_020",
+        "paragraph_id": "c-jinshu-043-shantao:p020",
+        "source_revision": 2618531,
+        "paragraph_sha256": "7b3015396a2ccc76337c3269b664e3dcc0da1e82892e00929ee2136944f7a1a8",
+        "roles": {
+          "r0": "c-jinshu-043-shantao:p020:m0000",
+          "r1": "c-jinshu-043-shantao:p020:m0002",
+          "r2": "c-jinshu-043-shantao:p020:m0010",
+          "r3": "c-jinshu-043-shantao:p020:m0018",
+          "r4": "c-jinshu-043-shantao:p020:m0024",
+          "r5": "c-jinshu-043-shantao:p020:m0029",
+          "r6": "c-jinshu-043-shantao:p020:m0038",
+          "r7": "c-jinshu-043-shantao:p020:m0048",
+          "r8": "c-jinshu-043-shantao:p020:m0053",
+          "r9": "c-jinshu-043-shantao:p020:m0058"
+        },
+        "fields": {
+          "career_051": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 65,
+            "end": 69,
+            "surface": "太子舍人"
+          },
+          "career_052": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 72,
+            "end": 76,
+            "surface": "太子庶子"
+          },
+          "career_053": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 77,
+            "end": 80,
+            "surface": "黃門郎"
+          },
+          "career_054": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 83,
+            "end": 87,
+            "surface": "青州刺史"
+          },
+          "career_055": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 90,
+            "end": 92,
+            "surface": "侍中"
+          },
+          "career_056": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 97,
+            "end": 99,
+            "surface": "尚書"
+          },
+          "career_057": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 101,
+            "end": 105,
+            "surface": "鎮軍將軍"
+          },
+          "career_058": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 106,
+            "end": 110,
+            "surface": "荊州刺史"
+          },
+          "career_059": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 112,
+            "end": 116,
+            "surface": "南蠻校尉"
+          },
+          "career_060": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 122,
+            "end": 124,
+            "surface": "尚書"
+          },
+          "career_061": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 130,
+            "end": 134,
+            "surface": "吏部尚書"
+          },
+          "career_062": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 141,
+            "end": 145,
+            "surface": "雍州刺史"
+          },
+          "career_063": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 146,
+            "end": 150,
+            "surface": "鎮西將軍"
+          },
+          "career_064": {
+            "paragraph_id": "c-jinshu-043-shantao:p020",
+            "start": 153,
+            "end": 158,
+            "surface": "尚書左僕射"
+          }
+        },
+        "inside_role_fields": {},
+        "human_reviewed": false,
+        "slot": "name_013"
+      },
+      "note": "本源實寫名、字或氏；省姓記錄不冒作全名。字的伯/叔/季不轉成排行。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao"
+    }
+  ],
   "person_ids": [
     "6fg_r6l_5a5_A"
   ],
   "preferred_relations": [
+    {
+      "id": "a-jin043-shantao-kin_002",
+      "subject_person_id": "6fg_r6l_5a5_A",
+      "predicate": "father",
+      "object_person_id": "6fg_r6l_5a5",
+      "qualifiers": {
+        "source_term": "子",
+        "source_clause_binding": {
+          "kind": "biography_family_clause",
+          "frame": "paragraph_frame_001",
+          "paragraph_id": "c-jinshu-043-shantao:p001",
+          "source_revision": 2618531,
+          "paragraph_sha256": "00b93bdce963ec49c75931531d1984103fed0b86a12e44aa4492ed0f1e0ac7e3",
+          "roles": {
+            "r0": "c-jinshu-043-shantao:p001:m0000",
+            "r1": "c-jinshu-043-shantao:p001:m0004",
+            "r2": "c-jinshu-043-shantao:p001:m0013",
+            "r3": "c-jinshu-043-shantao:p001:m0014",
+            "r4": "c-jinshu-043-shantao:p001:m0020",
+            "r5": "c-jinshu-043-shantao:p001:m0053",
+            "r6": "c-jinshu-043-shantao:p001:m0056",
+            "r7": "c-jinshu-043-shantao:p001:m0062",
+            "r8": "c-jinshu-043-shantao:p001:m0078",
+            "r9": "c-jinshu-043-shantao:p001:m0087",
+            "r10": "c-jinshu-043-shantao:p001:m0088",
+            "r11": "c-jinshu-043-shantao:p001:m0092",
+            "r12": "c-jinshu-043-shantao:p001:m0096"
+          },
+          "fields": {
+            "career_001": {
+              "paragraph_id": "c-jinshu-043-shantao:p001",
+              "start": 16,
+              "end": 19,
+              "surface": "宛句令"
+            }
+          },
+          "inside_role_fields": {},
+          "human_reviewed": false,
+          "rule": "attached_received_biography_frame",
+          "slot": "kin_002"
+        },
+        "lineage": "paternal"
+      },
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-043",
+          "source_id": "s-jinshu-043-ws2618531-shantao",
+          "chapter_id": "c-jinshu-043-shantao",
+          "paragraph_id": "c-jinshu-043-shantao:p001",
+          "quote": "山濤，字巨源，河內懷人也。父曜，宛句令。濤早孤，居貧，少有器量，介然不群。性好《莊》《老》，每隱身自晦。與嵇康、呂安善，後遇阮籍，便為竹林之交，著忘言之契。康後坐事，臨誅，謂子紹曰：「巨源在，汝不孤矣。」",
+          "subject_person_mention_id": "c-jinshu-043-shantao:p001:m0088",
+          "object_person_mention_id": "c-jinshu-043-shantao:p001:m0078"
+        }
+      ],
+      "interpretation_note": "保原文近親及來源界線；不推母稱為生母，不補未知配偶、父代、共祖或絕對排行。",
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false
+    },
     {
       "id": "a-jin089-jishao-001",
       "subject_person_id": "6fg_r6l_5a5_A",

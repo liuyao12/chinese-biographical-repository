@@ -1,0 +1,57 @@
+{
+  "human_reviewed": false,
+  "decisions": [
+    {
+      "work_id": "w-fuzi-pei-reference",
+      "status": "contextual_preferred_same_reference",
+      "source_surfaces": [
+        "傳子",
+        "傅子"
+      ],
+      "scope": "完整014郭嘉裴注引書系列；來源title與variant各mid保留",
+      "qualification": "根據同一裴注引書語境作可撤回首選，不是同題即同書通則；作者/定本不補；022獨立傅子條目不在本包合併。",
+      "candidate_related_work_ids": [
+        "w-fuzi-sgz022-reference"
+      ],
+      "source_spelling_is_not_alias": true
+    },
+    {
+      "work_id": "w-weishu-wangshen",
+      "qualification": "沿既有已核魏書書目authority；非魏收魏書。魏書與傅子劉備處置主張矛盾保留，裴案不校改。"
+    },
+    {
+      "work_id": "w-shiyu-sgz027-reference",
+      "qualification": "沿已核郭頒魏晉世語authority。當前只稱世語，不能偽造本單元的全題先行回指。"
+    },
+    {
+      "work_id": "w-wangchang-jiajie-sgz014-reference",
+      "qualification": "王昶家誡整題為作品；與027完整誡文潁川郭伯益對讀，不另在書題內製作王昶人名mention；原題顯示保留作者名，canonical author未新增斷言。"
+    },
+    {
+      "work_id": "w-sanguozhi",
+      "source_surfaces": [
+        "荀攸傳",
+        "武紀"
+      ],
+      "qualification": "書內篇指稱，不新造作品；本傳為泛稱保未決，不當正式題名。"
+    }
+  ],
+  "conflicts": [
+    {
+      "paragraph_id": "c-sanguozhi-014-guojia:p006",
+      "exact_quote": "案魏書所云與傅子正反也",
+      "scope": "魏書勸不殺劉備與傅子早為之所兩說，不替古注消解。"
+    },
+    {
+      "paragraph_id": "c-sanguozhi-014-guojia:p008",
+      "exact_quote": "臣松之案武紀决計征備量紹不出皆出自太祖此云用嘉計則為不同",
+      "scope": "決計歸屬矛盾原存"
+    },
+    {
+      "paragraph_id": "c-sanguozhi-014-guojia:p008",
+      "exact_quote": "今正以襲許年死此蓋事之偶合",
+      "scope": "裴松之對孫策料死的批評原存，不以預知命數當確證。"
+    }
+  ],
+  "shortened_title_policy": "本單元未有明示全題再真簡稱的有效新鏈；重複完整傅子/魏書不是簡稱。世語由既有authority解全題，武紀/荀攸傳按書內指稱，勿造虛假antecedent。"
+}

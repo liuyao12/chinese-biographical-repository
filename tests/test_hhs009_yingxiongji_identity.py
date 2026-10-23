@@ -15,9 +15,16 @@ class HeroIdentity(unittest.TestCase):
  def test_variants_and_unknown_years(self):
   self.assertEqual(self.w['citation_title'],'漢末英雄記');a=self.review['research_snapshot_before_adoption'];self.assertEqual([x['title']for x in a['received_titles']],['英雄記','漢末英雄記','漢書英雄記']);self.assertIn('等',self.w['author']);m=json.loads((R/'registry/work-provenance.json').read_text())['works'][W]
   for k in ['composition','earliest_extant_edition']:self.assertEqual(m[k],{'status':'not_researched','assertions':[]})
- def test_no_unimported_pei_marking(self):
-  chapters=[]
-  for p in(R/'corpus').glob('*/*.json'):
-   c=json.loads(p.read_text())
-   if any(m.get('work_id')==W for pa in c.get('paragraphs',[])for m in pa['mentions']):chapters.append(c['id'])
-  self.assertEqual(chapters,[self.c['id']])
+ def test_all_imported_work_marks_have_exact_reciprocal_attestations(self):
+  marks=[]
+  for path in (R/'corpus').glob('*/*.json'):
+   c=json.loads(path.read_text())
+   for p in c.get('paragraphs',[]):
+    for m in p['mentions']:
+     if m.get('work_id')!=W:continue
+     self.assertEqual(p['text'][m['start']:m['end']],m['surface'])
+     self.assertEqual(m['kind'],'work');self.assertIsNone(m.get('person_id'))
+     a={'chapter_id':c['id'],'source_id':c['source_id'],'paragraph_id':p['id'],'mention_id':m['id'],'quote':p['text']}
+     self.assertIn(a,self.w['reference_attestations']);marks.append(a)
+  self.assertIn(self.c['id'],[a['chapter_id']for a in marks])
+  self.assertEqual({a['mention_id']for a in marks},{a['mention_id']for a in self.w['reference_attestations']})

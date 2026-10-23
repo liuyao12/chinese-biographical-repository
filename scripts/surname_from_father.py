@@ -1,5 +1,18 @@
 """Validate an explicitly recorded editorial surname inference; never populate names."""
 def validate(name,names,chapters,assertions,root=None):
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_kanripo_slots':
+  try:from scripts.fixed_kanripo_fact_slots import valid
+  except ImportError:from fixed_kanripo_fact_slots import valid
+  if not valid(name,chapters[name['chapter_id']],root):raise ValueError('固定來源姓氏須有全文名及明兄子女原角色，不補未知父')
+  return
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_biography_family':
+  try:from .fixed_biography_names import validate_surname
+  except ImportError:from fixed_biography_names import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
+ if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_received_fact_chain':
+  try:from scripts.received_biography_facts import validate_surname
+  except ImportError:from received_biography_facts import validate_surname
+  return validate_surname(name,names,chapters,assertions,root)
  if name.get('surname_basis',{}).get('kind')=='contextual_surname_from_fixed_received_kinship':
   try:from .received_family_names import validate as received_names_validate
   except ImportError:from received_family_names import validate as received_names_validate

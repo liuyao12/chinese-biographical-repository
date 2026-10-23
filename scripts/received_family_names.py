@@ -12,6 +12,10 @@ def witness(c,root,ref):
   fs=p['source_position']['source_fragments'];assert ''.join(f['text']for f in fs)==p['text']
   for f in fs:assert ls[f['line']-1][f['raw_start']:f['raw_end']]==f['text']
 def source_component_valid(n,c,root):
+ if n.get('component_source_binding',{}).get('kind')=='attached_received_biography_frame':
+  try:from scripts.attached_biography_frames import name_valid
+  except ImportError:from attached_biography_frames import name_valid
+  return name_valid(n,c)
  try:
   b=n['component_source_binding'];assert b['kind']=='fixed_received_name_component';p=next(p for p in c['paragraphs']if p['id']==n['paragraph_id']);m=next(m for m in p['mentions']if m['id']==n['person_mention_id']);assert m['kind']=='person'and m['person_id']==n['person_id']and n['chapter_id']==c['id']and n['quote']==p['text']and n['human_reviewed']is False and n['status']in('editorial_provisional','contextual_provisional');assert b['source_revision']==c['source']['revision_id']and b['paragraph_sha256']==hashlib.sha256(p['text'].encode()).hexdigest();witness(c,root,b['fixed_witness_reference'])
   form=b['name_form']

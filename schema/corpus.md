@@ -1168,3 +1168,13 @@ API `scripts.body_note_ancestry.body_note_ancestor_parent_valid(member, rows, as
 `contextual_surname_from_fixed_received_kinship` 只接受同一完整固定收到單元，全文名seed及已通過received_quoted_family的father/grandfather/brother有限三步；代距顯式、拒環/重邊/配偶/母系/收養/結義/遠親/編者父邊，不用結構ID或label。姊妹只准末端氏稱，明名兄之妹不補父或本名。`component_source_binding` 另綁各自人物原錨與緊接字詞，不能以同段出現他人字混填。源外推姓為contextual_provisional，不拼成原文全名、不加全局alias。明郭氏只氏，未知ming為null。
 
 字隨每來源record記，不因錄入先後成全庫權威字；郭奕裴注泰業與晉書045大業由各自原生來源保存，未圖校且無global preferred。
+
+
+## 收到古注祖父序與共享父的編者組裝
+
+`fixed_received_zu_fu_sequence`／`fixed_received_shared_father` 僅驗已通過received_quoted_family之完整固定原見證角色。原father/grandfather/brother斷言原樣；相鄰祖父中間父與兄弟共享父只family assembly的contextual_provisional邊，不新增source father。拒母系、養/結義、父矛盾、錯主語、錯代及妻女誤接，無姓名/ID白名單。退休為永久reservation非alias；原capture逐hash留歷史，現行端點另current native索引，不能冒稱原NER已更新。
+
+
+## 固定維基文庫完整本傳與家族附傳投影
+
+`fixed_wikisource_family_subsections` 僅完整主傳至下一同級節題；附傳節題原文/字位另存paratext，不當正文提及。支援有限無選項原字包裹、YL、單純wiki連結與粗體；其餘markup拒絕。固定raw SHA/revision、每字位置及完整段數/順序皆重新投影驗證，不能截掉婦/子/從子附傳、改字重hash或共移offset掩缺文。實際古本與最早存本未核則分層未知，不因網站日期推年。

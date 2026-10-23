@@ -232,9 +232,12 @@ export function personCard(p, full = false, sourceRef = 'main', family = null, m
     return `<blockquote>${h(sourceReferenceQuote(r))}</blockquote>${url ? `<a href="${h(url)}" target="_blank" rel="noopener">${h(r.title || '來源')}</a>` : h(r.title || '')}`;
   }).join('');
   const nameFieldLabels = {surname:ui('Surname'),ming:ui('Given name'),zi:ui('Courtesy name'),xiaozhi:ui('Childhood name'),xiaoming:ui('Childhood name (xiaoming)'),hao:'號',former_ming:ui('Former given name'),full_name:'全名',clan_style:'氏稱'};
-  const nameConflictHTML = nameConflicts.length ? `<p class="person-name-conflicts">姓名構件有異說：${nameConflicts.map(x => `${nameFieldLabels[x.field]} ${x.values.map(h).join('／')}`).join('；')}。${nameDisplay.coreConflict ? '姓名標題沿用人物標籤；未任選來源構件。' : '有差異的欄位未選作預設。'}</p>` : '';
+  const familyNameUsages = nameConflicts.filter(x => x.context === 'source_family_name_usage');
+  const unresolvedNameConflicts = nameConflicts.filter(x => x.context !== 'source_family_name_usage');
+  const familyNameUsageHTML = familyNameUsages.map(x => `<p class="person-family-name-usages">${ui('Family-name usages in the source: {names}. Both forms retain their cited passages.', {names:x.values.join('／')})}</p>`).join('');
+  const nameConflictHTML = unresolvedNameConflicts.length ? `<p class="person-name-conflicts">姓名構件有異說：${unresolvedNameConflicts.map(x => `${nameFieldLabels[x.field]} ${x.values.map(h).join('／')}`).join('；')}。${nameDisplay.coreConflict ? '姓名標題沿用人物標籤；未任選來源構件。' : '有差異的欄位未選作預設。'}</p>` : '';
   const nameReadingHTML = (p.preferred_name_component_readings || []).map(r => `<p class="person-name-display-reading">${ui('Name spelling selected for display: {preferred}; source spellings: {source} (provisional).', {preferred:r.preferred_value,source:(r.source_values || []).join('／')})}${h(r.rationale || '')}</p>`).join('');
-  const nameEvidence = names ? `${nameConflictHTML}${nameReadingHTML}<details class="person-name-evidence"><summary>姓名依據</summary>${components.map(n => {
+  const nameEvidence = names ? `${familyNameUsageHTML}${nameConflictHTML}${nameReadingHTML}<details class="person-name-evidence"><summary>姓名依據</summary>${components.map(n => {
     const fields = ['surname','ming','zi','xiaozhi','xiaoming','hao','former_ming','full_name'].filter(k => typeof n[k] === 'string' && n[k].trim());
     const source = {...(p.sources || []).find(x => x.chapter_id === n.chapter_id), ...n};
     return `<div class="person-name-source">${fields.length ? `<p>${fields.map(k => `${nameFieldLabels[k]} ${h(n[k])}`).join(' · ')}</p>` : ''}${typeof n.title === 'string' && n.title.trim() ? `<p class="person-name-source-title">本筆姓名來源所列稱號：${h(n.title)}</p>` : ''}<blockquote>${h(n.quote || '')}</blockquote>${evidenceLinks([source])}${n.note ? `<p>${h(n.note)}</p>` : ''}${dateReferences(n)}</div>`;

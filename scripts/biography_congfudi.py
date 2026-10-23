@@ -47,7 +47,9 @@ def biography_congfudi_valid(a,paragraphs):
      or q['source_term']!=t[start:end]):return False
   # Exact complete head, no intervening topic/negation/alternative speech.
   prefix=t[s['end']:o['start']]
-  if not re.fullmatch('字[^，。；：、曰云不未非或「」『』\\s]{1,4}，',prefix):return False
-  return(t[o['end']:end]=='從父弟也。'
-         and q['source_term']==s['surface']+prefix+o['surface']+'從父弟也。')
+  # prefix_with_optional_pause: punctuation is retained, semantic head unchanged.
+  if not re.fullmatch('，?字[^，。；：、曰云不未非或「」『』\\s]{1,4}，',prefix):return False
+  suffix=t[o['end']:end]
+  return(suffix in ('從父弟也。','之從父弟也。')
+         and q['source_term']==s['surface']+prefix+o['surface']+suffix)
  except(KeyError,TypeError,ValueError,IndexError):return False

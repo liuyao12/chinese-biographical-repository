@@ -18,7 +18,22 @@ export function summarizeNameComponents(value, preferredReadings = []) {
   for (const field of fields) {
     const values = [...new Set(displayRecords.map(x => text(x[field])).filter(Boolean))];
     if (values.length === 1) names[field] = values[0];
-    else if (values.length > 1) conflicts.push({field, values});
+    else if (values.length > 1) {
+      const contributing = displayRecords.filter(x => text(x[field]));
+      const usages = contributing.map(x => x.source_name_usage);
+      const familyNameUsage = field === 'surname'
+        && contributing.every(x => typeof x.person_id === 'string' && x.person_id && typeof x.person_mention_id === 'string' && x.person_mention_id)
+        && new Set(contributing.map(x => x.person_id)).size === 1
+        && usages.every((u, i) => u?.kind === 'received_family_name_usage'
+          && u.source_mention_id === contributing[i].person_mention_id
+          && typeof u.adoption_assertion_id === 'string' && u.adoption_assertion_id
+          && u.change_year === null && u.preferred === false
+          && ['source_attested','contextual_provisional'].includes(u.status)
+          && ['external_grandson_designation','heir_family_designation'].includes(u.family_role))
+        && new Set(usages.map(u => u?.adoption_assertion_id)).size === 1
+        && new Set(usages.map(u => u?.family_role)).size === 2;
+      conflicts.push({field, values, ...(familyNameUsage ? {context:'source_family_name_usage'} : {})});
+    }
   }
   const clans = [...new Set(records.map(x => text(x.clan_style?.value)).filter(Boolean))];
   if (clans.length === 1) names.clan_style = {value:clans[0]};
@@ -40,7 +55,7 @@ export function summarizeNameComponents(value, preferredReadings = []) {
   // Preserve the established single-source title display; never promote multi-source
   // titles (possibly from different periods) into a generic name/title consensus.
   if (records.length === 1 && text(records[0].title)) names.title = text(records[0].title);
-  const canHead = !coreConflict && (records.length === 1 || Boolean(names.ming || names.full_name || names.clan_style?.value));
+  const canHead = !coreConflict && Boolean(names.ming || names.full_name || names.clan_style?.value);
   return {names, records, conflicts, coreConflict, canHead};
 }
 

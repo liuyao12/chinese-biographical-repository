@@ -9,7 +9,8 @@
     "盧毓",
     "毓",
     "子家",
-    "盧生"
+    "盧生",
+    "盧子家"
   ],
   "titles": [
     {
@@ -5190,6 +5191,41 @@
       "work_title": "三國志"
     },
     {
+      "number": 43,
+      "category": "",
+      "title": "山濤傳",
+      "paragraph_id": "c-jinshu-043-shantao:p025",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "前失，歸諸後正，惠絕臣名，恩馳天口，世稱《山公啟事》者，豈斯之謂歟！若盧子家之前代何足算也。",
+      "paragraph_ids": [
+        "c-jinshu-043-shantao:p025"
+      ],
+      "mention_ids": [
+        "c-jinshu-043-shantao:p025:m0180"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-043-shantao:p025:m0180": "c-jinshu-043-shantao:p025"
+      },
+      "mention_id": "c-jinshu-043-shantao:p025:m0180",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-043-shantao:p025:m0180",
+          "mention_ids": [
+            "c-jinshu-043-shantao:p025:m0180"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "chapter_id": "c-jinshu-043-shantao",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "work_title": "晉書"
+    },
+    {
       "number": 64,
       "category": "",
       "title": "盧植傳及論",
@@ -5303,6 +5339,35 @@
         "normalization": {
           "character_conversion": {},
           "extraction_note": "僅排除換行/縮排/¶、注內換行/及pb頁標；全部可見字逐碼點覆蓋。括號內注獨立段；○劉攽明署部分分層；無補字校改。"
+        }
+      }
+    },
+    {
+      "chapter_id": "c-jinshu-043-shantao",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-043",
+      "source_id": "s-jinshu-043-ws2618531-shantao",
+      "source": {
+        "title": "《晉書》卷四十三山濤完整本傳及簡、遐附傳與史論（數位選錄）",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷043&oldid=2618531",
+        "revision_id": 2618531,
+        "accessed_on": "2026-10-22",
+        "extent": "山濤至王戎節題前完整單元，含子簡、簡子遐附傳及史臣論；25原段。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文及維基文庫數位轉錄；來源歸屬保留，數位轉錄依CC BY-SA 4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "wikitext_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file_sha256": "d9ab0781004dc723ae243bb2bac47695d2736fd7b595ec472d5ffde62a04d0fe",
+        "raw_file": "sources/witnesses/jin043-ws2618531.wikitext",
+        "raw_path": "sources/witnesses/jin043-ws2618531.wikitext",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅移除段首排版空白/節題標記、展開YL模板及兩個wiki連結的顯示文字；未依連結target推全題，原字不校改。"
         }
       }
     },

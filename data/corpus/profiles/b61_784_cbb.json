@@ -204,6 +204,51 @@
       "chapter_id": "c-jinshu-039-wangxun-feng",
       "source_id": "s-jinshu-039-wangxun-feng",
       "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p001",
+      "count": 2,
+      "raw_count": 2,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "章節度，事皆施用。累遷黃門侍郎、汲郡典農中郎將。參大將軍軍事，從景帝討毌丘儉、文欽於樂嘉。帝疾篤，還許昌，留充監諸軍事，以勞增邑三百五十戸。",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p001",
+        "c-jinshu-040-jiachong-family:p018"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p001:m0118",
+        "c-jinshu-040-jiachong-family:p018:m0183"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p001:m0118": "c-jinshu-040-jiachong-family:p001",
+        "c-jinshu-040-jiachong-family:p018:m0183": "c-jinshu-040-jiachong-family:p018"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p001:m0118",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p001:m0118",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p001:m0118"
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p018:m0183",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p018:m0183"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "work_title": "晉書"
     }
   ],
   "table_occurrences": [],
@@ -12193,6 +12238,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-sanguozhi-022-luyu",
       "work_id": "w-sanguozhi",
       "book_id": "b-sanguozhi-022",
@@ -12281,12 +12355,128 @@
       }
     }
   ],
-  "relations": [],
+  "relations": [
+    {
+      "id": "a-jin040-jiachong-family-043",
+      "subject_person_id": "q9s_7gg_7hu",
+      "predicate": "grandfather",
+      "object_person_id": "b61_784_cbb",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "孫女",
+        "generation_difference": -2,
+        "lineage": "paternal",
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0169",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0183"
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin040-jiachong-family-044",
+      "subject_person_id": "s1m_433_6a8",
+      "predicate": "grandfather",
+      "object_person_id": "b61_784_cbb",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "孫女",
+        "generation_difference": -2,
+        "lineage": "paternal",
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0179",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0183"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
   "related_people": {
-    "b61_784_cbb": "毌丘儉"
+    "b61_784_cbb": "毌丘儉",
+    "q9s_7gg_7hu": "母〔劉含母，毌丘儉孫女〕",
+    "s1m_433_6a8": "前妻〔王虔前妻，毌丘儉孫女〕"
   },
   "dates": [],
   "name_components": [
+    {
+      "id": "nc-jin040-jiachong-002",
+      "person_id": "b61_784_cbb",
+      "surname": "毌丘",
+      "ming": "儉",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p001",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p001:m0118",
+      "quote": "賈充，字公閭，平陽襄陵人也。父逵，魏豫州刺史、陽里亭侯。逵晩始生充，言後當有充閭之慶，故以爲名字焉。充少孤，居喪以孝聞。襲父爵爲侯。拜尚書郎，典定科令，兼度支考課。辯章節度，事皆施用。累遷黃門侍郎、汲郡典農中郎將。參大將軍軍事，從景帝討毌丘儉、文欽於樂嘉。帝疾篤，還許昌，留充監諸軍事，以勞增邑三百五十戸。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "fbf258aebb29002b69b73aa86bb4798ab1dda42f0af18e48a32b505d40033845",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p001:m0118",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    },
     {
       "person_id": "b61_784_cbb",
       "title": null,
@@ -12325,7 +12515,92 @@
   "person_ids": [
     "b61_784_cbb"
   ],
-  "preferred_relations": [],
+  "preferred_relations": [
+    {
+      "id": "a-jin040-jiachong-family-043",
+      "subject_person_id": "q9s_7gg_7hu",
+      "predicate": "grandfather",
+      "object_person_id": "b61_784_cbb",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "孫女",
+        "generation_difference": -2,
+        "lineage": "paternal",
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0169",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0183"
+        }
+      ],
+      "human_reviewed": false
+    },
+    {
+      "id": "a-jin040-jiachong-family-044",
+      "subject_person_id": "s1m_433_6a8",
+      "predicate": "grandfather",
+      "object_person_id": "b61_784_cbb",
+      "status": "source_attested",
+      "qualifiers": {
+        "received_family_frame": {
+          "kind": "punctuated_received_family_frame",
+          "rule": "two_granddaughters_marital_context",
+          "roles": {
+            "son": "c-jinshu-040-jiachong-family:p018:m0167",
+            "mother": "c-jinshu-040-jiachong-family:p018:m0169",
+            "emperor": "c-jinshu-040-jiachong-family:p018:m0172",
+            "husband": "c-jinshu-040-jiachong-family:p018:m0177",
+            "wife": "c-jinshu-040-jiachong-family:p018:m0179",
+            "grandfather": "c-jinshu-040-jiachong-family:p018:m0183"
+          },
+          "clause_start": 164,
+          "clause_end": 189,
+          "paragraph_sha256": "12a1e61217d5ef6fd9af40f11b04492412744f8c088218e28ceaeee7ad92fe4c",
+          "revision_id": 2606035
+        },
+        "source_term": "孫女",
+        "generation_difference": -2,
+        "lineage": "paternal",
+        "connecting_person_ids": null
+      },
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-040",
+          "chapter_id": "c-jinshu-040-jiachong-family",
+          "paragraph_id": "c-jinshu-040-jiachong-family:p018",
+          "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+          "quote": "初，充前妻李氏淑美有才行，生二女褒、裕，褒一名荃，裕一名浚。父豐誅，李氏坐流徙。後娶城陽太守郭配女，即廣城君也。武帝踐阼，李以大赦得還，帝特詔充置左右夫人，充母亦敕充迎李氏。郭槐怒，攘袂數充曰：「刊定律令，爲佐命之功，我有其分。李那得與我並！」充乃答詔，托以謙沖，不敢當兩夫人盛禮，實畏槐也。而荃爲齊王攸妃，欲令充遣郭而還其母。時沛國劉含母，及帝舅羽林監王虔前妻，皆毌丘儉孫女。此例既多，質之禮官，俱不能決。雖不遣後妻，多異居私通。充自以宰相爲海內準則，乃爲李築室於永年里而不往來。荃、浚每號泣請充，充竟不往。會充當鎮關右，公卿供帳祖道，荃、浚懼充遂去，乃排幔出於坐中，叩頭流血，向充及群僚陳母應還之意。眾以荃王妃，皆驚起而散。充甚愧愕，遣黃門將宮人扶去。既而郭槐女爲皇太子妃，帝乃下詔斷如李比皆不得還，後荃恚憤而薨。初，槐欲省李氏，充曰：「彼有才氣，卿往不如不往。」及女爲妃，槐乃盛威儀而去。既入戸，李氏出迎，槐不覺腳屈，因遂再拜。自是充每出行，槐輒使人尋之，恐其過李也。初，充母柳見古今重節義，竟不知充與成濟事，以濟不忠，數追罵之。侍者聞之，無不竊笑。及將亡，充問所欲言，柳曰：「我教汝迎李新婦尚不肯，安問他事！」遂無言。及充薨後，李氏二女乃欲令其母祔葬，賈后弗之許也。及后廢，李氏乃得合葬。李氏作《女訓》行於世。",
+          "subject_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0179",
+          "object_person_mention_id": "c-jinshu-040-jiachong-family:p018:m0183"
+        }
+      ],
+      "human_reviewed": false
+    }
+  ],
   "age_assertions": [],
   "life_events": [],
   "life_event_date_decisions": [],

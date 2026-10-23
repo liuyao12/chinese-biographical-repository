@@ -2,6 +2,10 @@
 
 
 def non_parental_relation_valid(assertion, paragraphs, assertions=None):
+    if 'received_family_frame' in assertion.get('qualifiers', {}):
+        try:from scripts.punctuated_family_frames import valid
+        except ImportError:from punctuated_family_frames import valid
+        return valid(assertion, paragraphs)
     if assertion.get('qualifiers', {}).get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
         try:
             from scripts.biography_family_clause import valid

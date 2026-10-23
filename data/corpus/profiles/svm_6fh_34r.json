@@ -7,7 +7,8 @@
   "review": "ai_provisional",
   "names": [
     "頠",
-    "裴頠"
+    "裴頠",
+    "裴顗"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,41 @@
       "book_id": "b-jinshu-035",
       "chapter_id": "c-jinshu-035-peikai-family",
       "source_id": "s-jinshu-035-peikai-ws2506399",
+      "work_title": "晉書"
+    },
+    {
+      "number": 40,
+      "category": "",
+      "title": "賈充傳",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p029",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "豫朝政，欲委信親黨，拜模散騎常侍，二日擢爲侍中。模乃盡心匡弼，推張華、裴顗同心輔政。數年之中，朝野寧靜，模之力也。乃加授光祿大夫。然模潛執權勢，外形欲遠之，每有啟奏賈后事，入輒取急，或托疾以避之。至於素有嫌忿，多所中陷，朝廷甚憚之。加貪冒聚斂，富擬王公。但賈后性甚強暴，模每",
+      "paragraph_ids": [
+        "c-jinshu-040-jiachong-family:p029"
+      ],
+      "mention_ids": [
+        "c-jinshu-040-jiachong-family:p029:m0040"
+      ],
+      "mention_paragraph_ids": {
+        "c-jinshu-040-jiachong-family:p029:m0040": "c-jinshu-040-jiachong-family:p029"
+      },
+      "mention_id": "c-jinshu-040-jiachong-family:p029:m0040",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-jinshu-040-jiachong-family:p029:m0040",
+          "mention_ids": [
+            "c-jinshu-040-jiachong-family:p029:m0040"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
       "work_title": "晉書"
     },
     {
@@ -198,6 +234,35 @@
       }
     },
     {
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family",
+      "source": {
+        "title": "《晉書》卷四十賈充本傳及郭槐、韓謐、混、模、郭彰附傳",
+        "provider": "Wikisource",
+        "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "permalink": "https://zh.wikisource.org/w/index.php?title=晉書/卷040&oldid=2606035",
+        "revision_id": 2606035,
+        "accessed_on": "2026-10-22",
+        "extent": "從賈充節題至楊駿節題前，完整30正文原段及原附傳標題；不含楊駿傳與卷末共評/贊，非全卷。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古代原文公版；維基文庫數位文字保歸屬並依CC BY-SA4.0。",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "edition": null,
+        "raw_file": "sources/witnesses/jin040-ws2606035.wikitext",
+        "raw_path": "sources/witnesses/jin040-ws2606035.wikitext",
+        "wikitext_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "raw_file_sha256": "38ac429b64e7699696e334186968b077a2f66657c1ffcf597d58eca9d220f080",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "僅去段首排版空白、顯示YL/無選項轉換包裹/單純wiki連結/粗體；保後/后、顗、南南等原字，不改字或添標點。"
+        }
+      }
+    },
+    {
       "chapter_id": "c-jinshu-043-wangrong",
       "work_id": "w-jinshu",
       "book_id": "b-jinshu-043",
@@ -298,7 +363,37 @@
     "svm_6fh_34r": "頠〔秀子，八裴之一〕"
   },
   "dates": [],
-  "name_components": [],
+  "name_components": [
+    {
+      "id": "nc-jin040-jiachong-089",
+      "person_id": "svm_6fh_34r",
+      "surname": "裴",
+      "ming": "顗",
+      "additional_names": [],
+      "chapter_id": "c-jinshu-040-jiachong-family",
+      "paragraph_id": "c-jinshu-040-jiachong-family:p029",
+      "person_mention_id": "c-jinshu-040-jiachong-family:p029:m0040",
+      "quote": "是時賈后既豫朝政，欲委信親黨，拜模散騎常侍，二日擢爲侍中。模乃盡心匡弼，推張華、裴顗同心輔政。數年之中，朝野寧靜，模之力也。乃加授光祿大夫。然模潛執權勢，外形欲遠之，每有啟奏賈后事，入輒取急，或托疾以避之。至於素有嫌忿，多所中陷，朝廷甚憚之。加貪冒聚斂，富擬王公。但賈后性甚強暴，模每盡言爲陳禍福，後不能從，反謂模毀己。於是委任之情日衰，而讒間之徒遂進。模不得志，憂憤成疾。卒，追贈車騎將軍、開府儀同三司，諡曰成。子遊字彥將嗣，歷官太子侍講、員外散騎侍郎。",
+      "status": "editorial_provisional",
+      "human_reviewed": false,
+      "model": null,
+      "note": "本源所見稱名；按中古姓氏用法分讀，保原字及逐名錨，不作全庫權威選字。",
+      "fixed_biography_name_binding": {
+        "kind": "fixed_punctuated_biography_name",
+        "source_revision": 2606035,
+        "paragraph_sha256": "f3df46e437b4b3de92ab6658def2b8efa94dde8da6c5bff20c61166d11b17a5d",
+        "mode": "full_name",
+        "name_mention_id": "c-jinshu-040-jiachong-family:p029:m0040",
+        "zi_mention_id": null,
+        "alias_bindings": [],
+        "title_prefix": null,
+        "title_suffix": null
+      },
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-040",
+      "source_id": "s-jinshu-040-ws2606035-jiachong-family"
+    }
+  ],
   "person_ids": [
     "svm_6fh_34r"
   ],

@@ -1,0 +1,294 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_life_event_assertion_set",
+  "chapter_id": "c-sanguozhi-014-guojia",
+  "events": [
+    {
+      "id": "le-sgz014-guo-jia-body",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "quote": "太祖將征袁尚及三郡烏丸諸下多懼劉表使劉備襲許以討太祖嘉曰公雖威震天下胡恃其遠必不設備因其無備卒然擊之可破滅也且袁紹有恩於民夷而尚兄弟生存今四州之民徒以威附德施未加舍而南征尚因烏丸之資招其死主之臣胡人一動民夷俱應以生蹋頓之心成覬覦之計恐青冀非已之有也表坐談客耳自知才不足以御備重任之則恐不能制輕任之則備不為用雖虚國遠征公無憂矣太祖遂行至易嘉言曰兵貴神速今千里襲人輜重多難以趨利且彼聞之必為備不如留輜重輕兵兼道以出掩其不意太祖乃宻出盧龍塞直指單于庭虜卒聞太祖至惶怖合戰大破之斬蹋頓及名王已下尚及兄熙走遼東嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨臨其喪哀甚謂荀攸等曰諸君年皆孤軰也唯奉孝最少天下事竟欲以後事屬之而中年夭折命也夫乃表曰軍祭酒郭嘉自從征伐十有一年每有大議臨敵制變臣策未决嘉輒成之平定天下謀功為髙不幸短命事業未終追思嘉勲實不可忘可增邑八百尸并前千户",
+          "person_mention_id": "c-sanguozhi-014-guojia:p011:m0250"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "death_age_after_return",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p011",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p011",
+          "start": 250,
+          "end": 290,
+          "surface": "嘉深通有筭略達於事情太祖曰惟奉孝為能知孤意年三十八自柳城還疾篤太祖問疾者交錯及薨"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p011:m0250",
+          "patron": "c-sanguozhi-014-guojia:p011:m0260",
+          "style": "c-sanguozhi-014-guojia:p011:m0264",
+          "speaker": "c-sanguozhi-014-guojia:p011:m0269",
+          "patron_repeat": "c-sanguozhi-014-guojia:p011:m0281"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 251,
+            "end": 260,
+            "surface": "深通有筭略達於事情"
+          },
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 272,
+            "end": 275,
+            "surface": "三十八"
+          },
+          "return_place": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p011",
+            "start": 276,
+            "end": 278,
+            "surface": "柳城"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "1f159435838e1e88a40fbf586b26fc387a0c991974370f73f804f567752252ae",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "及薨"
+    },
+    {
+      "id": "le-sgz014-guo-jia-letter",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "quote": "傅子曰太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之悲痛傷心今表增其子滿千户然何益亡者追念之感深且奉孝乃知孤者也天下人相知者少又以此痛惜柰何柰何又與彧書曰追惜奉孝不能去心其人見時事兵事過絶於人又人多畏病南方有疫常言吾往南方則不生還然與共論計云當先定荆此為不但見計之忠厚必欲立功分棄命定事人心乃爾何得使人忘之",
+          "person_mention_id": "c-sanguozhi-014-guojia:p018:m0011"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "letter_death_age_bound",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p018",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p018",
+          "start": 3,
+          "end": 60,
+          "surface": "太祖與荀彧書追傷嘉曰郭奉孝年不滿四十相與周旋十二年阻險艱難皆共惟之又以其通達見世事無所疑滯欲以後事屬之何意卒爾失之"
+        },
+        "roles": {
+          "writer": "c-sanguozhi-014-guojia:p018:m0003",
+          "recipient": "c-sanguozhi-014-guojia:p018:m0006",
+          "subject": "c-sanguozhi-014-guojia:p018:m0011",
+          "subject_repeat": "c-sanguozhi-014-guojia:p018:m0013"
+        },
+        "fields": {
+          "age": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 19,
+            "end": 21,
+            "surface": "四十"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p018",
+            "start": 25,
+            "end": 27,
+            "surface": "十二"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "e7b9262af81558f8c73ecfd0e02269659e80079f651363461439780d6f39b873",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "何意卒爾失之"
+    },
+    {
+      "id": "le-sgz014-guo-yi",
+      "person_id": "344_68f_98e_A",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0000"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "parent_death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "早薨"
+    },
+    {
+      "id": "le-sgz014-guo-shen",
+      "person_id": "344_68f_98e_AA",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "quote": "奕為太子文學早薨子深嗣深薨子獵嗣",
+          "person_mention_id": "c-sanguozhi-014-guojia:p019:m0011"
+        }
+      ],
+      "interpretation_note": "只記該來源死亡報告；原段無明示年號，年保持未知。返柳城是行程非死亡地，不能以軍行年份填卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "office_two_heirs",
+        "slot": "child_death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p019",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p019",
+          "start": 0,
+          "end": 16,
+          "surface": "奕為太子文學早薨子深嗣深薨子獵嗣"
+        },
+        "roles": {
+          "parent": "c-sanguozhi-014-guojia:p019:m0000",
+          "child": "c-sanguozhi-014-guojia:p019:m0009",
+          "child_repeat": "c-sanguozhi-014-guojia:p019:m0011",
+          "grandchild": "c-sanguozhi-014-guojia:p019:m0014"
+        },
+        "fields": {
+          "office": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p019",
+            "start": 2,
+            "end": 6,
+            "surface": "太子文學"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9b3d20fc9769c18c3f7ff8aeafef0f3ca32228e7b46e492b6efc93453437d731",
+        "source_layer": "received_chapter"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "薨"
+    },
+    {
+      "id": "le-sgz014-guo-jia-weishu",
+      "person_id": "344_68f_98e",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-sanguozhi",
+          "book_id": "b-sanguozhi-014",
+          "source_id": "s-sanguozhi-014-guojia",
+          "chapter_id": "c-sanguozhi-014-guojia",
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "quote": "魏書載太祖表曰臣聞褒忠寵賢未必當身念功惟績恩隆後嗣是以楚宗孫叔顯封厥子岑彭既没爵及支庶故軍祭酒郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終上為朝廷悼惜良臣下自毒恨喪失奇佐宜追增嘉封并前千户褒亡為存厚徃勸來也",
+          "person_mention_id": "c-sanguozhi-014-guojia:p012:m0047"
+        }
+      ],
+      "interpretation_note": "魏書所載曹操表之短命早終另存死亡報告；與正文/傅子書分源，不合計死亡次數，不添卒年。",
+      "source_fact_frame": {
+        "kind": "received_biographical_fact_frame",
+        "rule": "memorial_campaign_death",
+        "slot": "death",
+        "paragraph_id": "c-sanguozhi-014-guojia:p012",
+        "scope_anchor": {
+          "paragraph_id": "c-sanguozhi-014-guojia:p012",
+          "start": 47,
+          "end": 155,
+          "surface": "郭嘉忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策自在軍旅十有餘年行同騎乘坐共幄席東禽吕布西取眭固斬袁譚之首平朔土之衆踰越險塞盪定烏九震威遼東以梟袁尚雖假天威易為指麾至於臨敵發揚誓命凶逆克殄勲實由嘉方將表顯短命早終"
+        },
+        "roles": {
+          "subject": "c-sanguozhi-014-guojia:p012:m0047",
+          "enemy1": "c-sanguozhi-014-guojia:p012:m0091",
+          "enemy2": "c-sanguozhi-014-guojia:p012:m0095",
+          "enemy3": "c-sanguozhi-014-guojia:p012:m0098",
+          "enemy4": "c-sanguozhi-014-guojia:p012:m0121",
+          "subject_repeat": "c-sanguozhi-014-guojia:p012:m0146"
+        },
+        "fields": {
+          "description": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 49,
+            "end": 73,
+            "surface": "忠良淵淑體通性達每有大議發言盈庭執中處理動無遺策"
+          },
+          "years": {
+            "paragraph_id": "c-sanguozhi-014-guojia:p012",
+            "start": 77,
+            "end": 79,
+            "surface": "十有"
+          }
+        },
+        "source_revision": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "paragraph_sha256": "9eaa69557b91b6262bbe02ffbef9ef75a47da1c62363edd8f648a0f77ab00256",
+        "source_layer": "witness_appended_pei_songzhi_note"
+      },
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "event_type": "death",
+      "date_expression": null,
+      "source_term": "短命早終"
+    }
+  ]
+}

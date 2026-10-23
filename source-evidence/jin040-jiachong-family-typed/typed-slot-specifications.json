@@ -1,0 +1,4221 @@
+[
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 17,
+      "end": 22,
+      "surface": "魏豫州刺史"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_001"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 23,
+      "end": 27,
+      "surface": "陽里亭侯"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "slot_id": "holding_002"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 67,
+      "end": 70,
+      "surface": "尚書郎"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_003"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 94,
+      "end": 98,
+      "surface": "黃門侍郎"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_004"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 99,
+      "end": 106,
+      "surface": "汲郡典農中郎將"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_005"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 7,
+      "end": 13,
+      "surface": "平陽襄陵人也"
+    },
+    "place": "平陽襄陵",
+    "relation": "biographical_origin",
+    "slot_id": "address_006"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 51,
+      "end": 53,
+      "surface": "少孤"
+    },
+    "kind": "early_orphanhood_report",
+    "values": {
+      "which_parent_died": null,
+      "exact_age": null,
+      "birth_year": null
+    },
+    "slot_id": "detail_007"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 60,
+      "end": 65,
+      "surface": "襲父爵爲侯"
+    },
+    "kind": "noble_title_succession_report",
+    "values": {
+      "mode": "inheritance",
+      "title": null,
+      "predecessor_role": "father",
+      "predecessor_person_id": null,
+      "actual_holding_id": null,
+      "resolved_title": "陽里亭侯",
+      "resolved_title_status": "contextual_provisional"
+    },
+    "value_person_roles": {
+      "predecessor_person_id": {
+        "paragraph_index": 0,
+        "role": 3
+      }
+    },
+    "slot_id": "detail_008"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 71,
+      "end": 75,
+      "surface": "典定科令"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "codification",
+      "document_source_name": "科令",
+      "office_title": null
+    },
+    "slot_id": "detail_009"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 76,
+      "end": 81,
+      "surface": "兼度支考課"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "concurrent_budget_and_personnel_review",
+      "source_organ_names": [
+        "度支",
+        "考課"
+      ],
+      "office_title": null
+    },
+    "slot_id": "detail_010"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 107,
+      "end": 113,
+      "surface": "參大將軍軍事"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "military_staff_participation",
+      "principal_source_title": "大將軍",
+      "office_title": null
+    },
+    "slot_id": "detail_011"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 138,
+      "end": 142,
+      "surface": "監諸軍事"
+    },
+    "kind": "command_authority",
+    "values": {
+      "authority_source_name": "監諸軍事",
+      "scope_source_name": "諸軍",
+      "office_title": null
+    },
+    "slot_id": "detail_012"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 145,
+      "end": 152,
+      "surface": "增邑三百五十戸"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase",
+      "value": 350,
+      "source_number": "三百五十",
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_013"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 4,
+      "end": 9,
+      "surface": "大將軍司馬"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_014"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 11,
+      "end": 14,
+      "surface": "右長史"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_015"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 177,
+      "end": 179,
+      "surface": "司空"
+    },
+    "proposal_kind": "appointment_service_unreported",
+    "note": "召任司空旋即反叛；本單元未載受拜，只記任命而實任未載，不斷言未任。",
+    "notice_outcome": "rebellion_after_summons",
+    "service_attested": false,
+    "slot_id": "proposal_016"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 248,
+      "end": 252,
+      "surface": "宣陽鄕侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_017"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 259,
+      "end": 261,
+      "surface": "廷尉"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_018"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 253,
+      "end": 257,
+      "surface": "增邑千戸"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase",
+      "value": 1000,
+      "source_number": "千",
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_019"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 240,
+      "end": 245,
+      "surface": "使充統後事"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "manage_remaining_military_affairs",
+      "office_title": null
+    },
+    "slot_id": "detail_020"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 1,
+      "end": 4,
+      "surface": "中護軍"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_021"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 28,
+      "end": 30,
+      "surface": "騎督"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_022"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 33,
+      "end": 37,
+      "surface": "太子舍人"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_023"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 88,
+      "end": 92,
+      "surface": "安陽鄕侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_024"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 107,
+      "end": 111,
+      "surface": "散騎常侍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_025"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 93,
+      "end": 99,
+      "surface": "增邑千二百戸"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase",
+      "value": 1200,
+      "source_number": "千二百",
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_026"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 100,
+      "end": 105,
+      "surface": "統城外諸軍"
+    },
+    "kind": "command_authority",
+    "values": {
+      "authority_source_name": "統",
+      "scope_source_name": "城外諸軍",
+      "office_title": null
+    },
+    "slot_id": "detail_027"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 8,
+      "end": 11,
+      "surface": "假充節"
+    },
+    "kind": "command_authority",
+    "values": {
+      "authority_code": "jia_jie",
+      "source_credential": "節",
+      "grant_kind": "temporary_delegation",
+      "office_title": null
+    },
+    "slot_id": "detail_028"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 15,
+      "end": 25,
+      "surface": "都督關中、隴右諸軍事"
+    },
+    "mode": "grant",
+    "kind": "unclassified",
+    "slot_id": "holding_029"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 80,
+      "end": 85,
+      "surface": "命充定法律"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "codification",
+      "document_source_name": "法律",
+      "office_title": null
+    },
+    "slot_id": "detail_030"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 86,
+      "end": 89,
+      "surface": "假金章"
+    },
+    "kind": "credential_privilege",
+    "values": {
+      "source_credential": "金章",
+      "grant_kind": "temporary_delegation"
+    },
+    "slot_id": "detail_031"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 102,
+      "end": 105,
+      "surface": "臨沂侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_032"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 90,
+      "end": 95,
+      "surface": "晉國衞將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_033"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 101,
+      "end": 104,
+      "surface": "給事中"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_034"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 96,
+      "end": 100,
+      "surface": "儀同三司"
+    },
+    "mode": "grant",
+    "kind": "honorific",
+    "slot_id": "holding_035"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 107,
+      "end": 110,
+      "surface": "臨潁侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_036"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 123,
+      "end": 127,
+      "surface": "車騎將軍"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_037"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 128,
+      "end": 132,
+      "surface": "散騎常侍"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_038"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 133,
+      "end": 137,
+      "surface": "尚書僕射"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_039"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 140,
+      "end": 143,
+      "surface": "魯郡公"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_040"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 148,
+      "end": 153,
+      "surface": "魯國太夫人"
+    },
+    "mode": "grant",
+    "kind": "honorific",
+    "slot_id": "holding_041"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 28,
+      "end": 31,
+      "surface": "舞陽侯"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "slot_id": "holding_042"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 90,
+      "end": 94,
+      "surface": "車騎將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_043"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 107,
+      "end": 109,
+      "surface": "太傅"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_044"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 114,
+      "end": 116,
+      "surface": "司空"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_045"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 119,
+      "end": 122,
+      "surface": "中書監"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_046"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 10,
+    "source_anchor": {
+      "start": 125,
+      "end": 129,
+      "surface": "中軍將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_047"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 132,
+      "end": 135,
+      "surface": "中護軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_048"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 12,
+    "source_anchor": {
+      "start": 139,
+      "end": 141,
+      "surface": "廷尉"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_049"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 13,
+    "source_anchor": {
+      "start": 144,
+      "end": 148,
+      "surface": "守河南尹"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_050"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 151,
+      "end": 155,
+      "surface": "散騎侍郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_051"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 158,
+      "end": 162,
+      "surface": "潁川太守"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_052"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 165,
+      "end": 167,
+      "surface": "齊相"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_053"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 17,
+    "source_anchor": {
+      "start": 170,
+      "end": 173,
+      "surface": "騎都尉"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_054"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 18,
+    "source_anchor": {
+      "start": 170,
+      "end": 173,
+      "surface": "騎都尉"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_055"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 19,
+    "source_anchor": {
+      "start": 179,
+      "end": 182,
+      "surface": "尚書郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_056"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 22,
+    "source_anchor": {
+      "start": 243,
+      "end": 245,
+      "surface": "奉常"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_057"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 5,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 292,
+      "end": 301,
+      "surface": "賜充子弟一人關內侯"
+    },
+    "kind": "unnamed_family_title_grants",
+    "values": {
+      "scope_source_name": "子弟",
+      "count": 1,
+      "source_number": "一",
+      "title": "關內侯",
+      "recipient_person_id": null,
+      "biological_children_only": false,
+      "outcome": "grant_not_withdrawn_despite_refusal"
+    },
+    "slot_id": "detail_058"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 5,
+      "end": 8,
+      "surface": "尚書令"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_059"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 24,
+      "end": 26,
+      "surface": "侍中"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_060"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 6,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 56,
+      "end": 60,
+      "surface": "典軍將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_061"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 33,
+      "end": 38,
+      "surface": "以母憂去職"
+    },
+    "kind": "office_departure",
+    "values": {
+      "departure_kind": "mourning",
+      "titles_unspecified": true,
+      "linked_holding_ids": []
+    },
+    "slot_id": "detail_062"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 5,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 65,
+      "end": 70,
+      "surface": "使六旬還內"
+    },
+    "kind": "service_recall_interval",
+    "values": {
+      "value": 6,
+      "source_number": "六",
+      "unit_source_name": "旬",
+      "return_to_service_reported": false,
+      "precise_return_year": null
+    },
+    "slot_id": "detail_063"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 0,
+      "end": 2,
+      "surface": "侍中"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_064"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 5,
+      "end": 8,
+      "surface": "中書令"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_065"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 0,
+      "end": 2,
+      "surface": "侍中"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_066"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 173,
+      "end": 177,
+      "surface": "守尚書令"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_067"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 178,
+      "end": 182,
+      "surface": "車騎將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_068"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 249,
+      "end": 252,
+      "surface": "使持節"
+    },
+    "proposal_kind": "unassumed_appointment",
+    "non_assumption_paragraph": 10,
+    "non_assumption_term": "遂不西行",
+    "notice_outcome": "did_not_go_to_western_post",
+    "service_attested": false,
+    "slot_id": "proposal_069"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 253,
+      "end": 262,
+      "surface": "都督秦涼二州諸軍事"
+    },
+    "proposal_kind": "unassumed_appointment",
+    "non_assumption_paragraph": 10,
+    "non_assumption_term": "遂不西行",
+    "notice_outcome": "did_not_go_to_western_post",
+    "service_attested": false,
+    "slot_id": "proposal_070"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 10,
+    "recipient_paragraph_index": 10,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 9,
+      "end": 14,
+      "surface": "驃騎大將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_071"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 10,
+    "recipient_paragraph_index": 10,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 43,
+      "end": 45,
+      "surface": "司空"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_072"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 10,
+    "recipient_paragraph_index": 10,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 34,
+      "end": 40,
+      "surface": "充固讓，見聽"
+    },
+    "kind": "court_precedence_request",
+    "values": {
+      "request": "do_not_raise_cavalry_chariot_above_swift_cavalry",
+      "outcome": "accepted",
+      "office_holding_changed": false
+    },
+    "slot_id": "detail_073"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 41,
+      "end": 44,
+      "surface": "河南尹"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_074"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 82,
+      "end": 85,
+      "surface": "光祿勳"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_075"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 100,
+      "end": 102,
+      "surface": "太尉"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_076"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 104,
+      "end": 108,
+      "surface": "太子太保"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "appointment_role": "acting_office",
+    "slot_id": "holding_077"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 109,
+      "end": 113,
+      "surface": "錄尚書事"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_078"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 87,
+      "end": 91,
+      "surface": "奪充兵權"
+    },
+    "kind": "command_departure",
+    "values": {
+      "authority_removed": true,
+      "office_titles_unspecified": true,
+      "ends_all_offices": false
+    },
+    "slot_id": "detail_079"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 114,
+      "end": 132,
+      "surface": "咸寧三年，日蝕於三朝，充請遜位，不許"
+    },
+    "kind": "office_resignation_request",
+    "values": {
+      "outcome": "not_allowed",
+      "office_holding_ended": false,
+      "source_date_expression": "咸寧三年"
+    },
+    "date_expression": "咸寧三年",
+    "ce_year": 277,
+    "slot_id": "detail_080"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 133,
+      "end": 143,
+      "surface": "更以沛國之公丘益其封"
+    },
+    "kind": "fief_territorial_addition",
+    "values": {
+      "place_source_name": "沛國之公丘",
+      "household_value": null
+    },
+    "slot_id": "detail_081"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 12,
+    "recipient_paragraph_index": 12,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 0,
+      "end": 3,
+      "surface": "河南尹"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_082"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 8,
+      "end": 11,
+      "surface": "使持節"
+    },
+    "mode": "grant",
+    "kind": "unclassified",
+    "slot_id": "holding_083"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 12,
+      "end": 15,
+      "surface": "假黃鉞"
+    },
+    "mode": "grant",
+    "kind": "unclassified",
+    "slot_id": "holding_084"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 16,
+      "end": 19,
+      "surface": "大都督"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_085"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 176,
+      "end": 180,
+      "surface": "冠軍將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_086"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 155,
+      "end": 164,
+      "surface": "充不得已，乃受節鉞"
+    },
+    "kind": "appointment_acceptance",
+    "values": {
+      "initial_refusal": true,
+      "eventual_acceptance": true,
+      "service_attested": true
+    },
+    "slot_id": "detail_087"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 185,
+      "end": 189,
+      "surface": "南屯襄陽"
+    },
+    "place": "襄陽",
+    "relation": "service_location",
+    "slot_id": "address_088"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 13,
+    "recipient_paragraph_index": 13,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 200,
+      "end": 203,
+      "surface": "徙屯項"
+    },
+    "place": "項",
+    "relation": "service_location",
+    "slot_id": "address_089"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 71,
+      "end": 74,
+      "surface": "中書監"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_090"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 12,
+    "source_anchor": {
+      "start": 125,
+      "end": 127,
+      "surface": "侍中"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_091"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 150,
+      "end": 154,
+      "surface": "新城亭侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_092"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 156,
+      "end": 160,
+      "surface": "安陽亭侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_093"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 162,
+      "end": 166,
+      "surface": "陽裏亭侯"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "slot_id": "holding_094"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 17,
+    "source_anchor": {
+      "start": 170,
+      "end": 173,
+      "surface": "關內侯"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "slot_id": "holding_095"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 139,
+      "end": 144,
+      "surface": "增邑八千戸"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase",
+      "value": 8000,
+      "source_number": "八千",
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_096"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 223,
+      "end": 229,
+      "surface": "罷節鉞、僚佐"
+    },
+    "kind": "command_departure",
+    "values": {
+      "authority_removed": true,
+      "source_authorities": [
+        "節鉞",
+        "僚佐"
+      ],
+      "ends_all_offices": false
+    },
+    "slot_id": "detail_097"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 50,
+      "end": 51,
+      "surface": "薨"
+    },
+    "event_type": "death",
+    "date_expression": "太康三年",
+    "ce_year": 282,
+    "source_month_expression": "四月",
+    "source_month_number": 4,
+    "slot_id": "life_098"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 74,
+      "end": 76,
+      "surface": "太宰"
+    },
+    "mode": "posthumous_grant",
+    "kind": "office",
+    "slot_id": "holding_099"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 149,
+      "end": 150,
+      "surface": "武"
+    },
+    "mode": "posthumous_naming",
+    "kind": "honorific",
+    "slot_id": "holding_100"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 199,
+      "end": 202,
+      "surface": "魯殤公"
+    },
+    "mode": "posthumous_grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_101"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 4,
+      "end": 9,
+      "surface": "上印綬遜位"
+    },
+    "kind": "office_resignation_request",
+    "values": {
+      "outcome": "not_reported",
+      "office_holding_ended": null
+    },
+    "slot_id": "detail_102"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 170,
+      "end": 175,
+      "surface": "給塋田一頃"
+    },
+    "kind": "burial_land_grant",
+    "values": {
+      "value": 1,
+      "source_number": "一",
+      "unit_source_name": "頃",
+      "burial_place": null
+    },
+    "slot_id": "detail_103"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 176,
+      "end": 187,
+      "surface": "與石苞等爲王功配饗廟庭"
+    },
+    "kind": "posthumous_ritual_privilege",
+    "values": {
+      "rite_source_name": "王功配饗廟庭",
+      "institution_source_name": "廟庭"
+    },
+    "slot_id": "detail_104"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 2,
+      "end": 5,
+      "surface": "廣城君"
+    },
+    "mode": "attestation",
+    "kind": "honorific",
+    "slot_id": "holding_105"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 22,
+    "source_anchor": {
+      "start": 130,
+      "end": 133,
+      "surface": "郎中令"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_106"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 23,
+    "source_anchor": {
+      "start": 136,
+      "end": 138,
+      "surface": "中尉"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_107"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 44,
+    "source_anchor": {
+      "start": 415,
+      "end": 417,
+      "surface": "博士"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_108"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 46,
+    "source_anchor": {
+      "start": 415,
+      "end": 417,
+      "surface": "博士"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_109"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 39,
+    "source_anchor": {
+      "start": 362,
+      "end": 366,
+      "surface": "魯公世孫"
+    },
+    "mode": "grant",
+    "kind": "unclassified",
+    "slot_id": "holding_110"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 480,
+      "end": 483,
+      "surface": "宜城君"
+    },
+    "mode": "grant",
+    "kind": "honorific",
+    "slot_id": "holding_111"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 53,
+    "source_anchor": {
+      "start": 491,
+      "end": 492,
+      "surface": "宣"
+    },
+    "mode": "posthumous_naming",
+    "kind": "honorific",
+    "slot_id": "holding_112"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 422,
+      "end": 423,
+      "surface": "荒"
+    },
+    "kind": "honorific",
+    "proposal_kind": null,
+    "notice_outcome": "rejected_posthumous_name",
+    "service_attested": false,
+    "slot_id": "proposal_113"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 62,
+      "end": 66,
+      "surface": "發病而死"
+    },
+    "event_type": "death",
+    "slot_id": "life_114"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 53,
+      "end": 56,
+      "surface": "鞭殺之"
+    },
+    "event_type": "death",
+    "slot_id": "life_115"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 94,
+      "end": 97,
+      "surface": "又殺之"
+    },
+    "event_type": "death",
+    "slot_id": "life_116"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 100,
+      "end": 104,
+      "surface": "思慕而死"
+    },
+    "event_type": "death",
+    "slot_id": "life_117"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 53,
+    "source_anchor": {
+      "start": 487,
+      "end": 488,
+      "surface": "亡"
+    },
+    "event_type": "death",
+    "slot_id": "life_118"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 42,
+      "end": 46,
+      "surface": "城陽太守"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_119"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 35,
+    "source_anchor": {
+      "start": 174,
+      "end": 177,
+      "surface": "羽林監"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_120"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 32,
+      "end": 33,
+      "surface": "誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_121"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 354,
+      "end": 358,
+      "surface": "恚憤而薨"
+    },
+    "event_type": "death",
+    "slot_id": "life_122"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 68,
+    "source_anchor": {
+      "start": 479,
+      "end": 481,
+      "surface": "將亡"
+    },
+    "kind": "impending_death_report",
+    "values": {
+      "actual_death_date": null,
+      "precise_year": null
+    },
+    "slot_id": "detail_123"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 228,
+      "end": 236,
+      "surface": "爲李築室於永年里"
+    },
+    "place": "永年里",
+    "relation": "residence",
+    "slot_id": "address_124"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 541,
+      "end": 547,
+      "surface": "李氏乃得合葬"
+    },
+    "kind": "burial_report",
+    "values": {
+      "mode": "joint_burial",
+      "other_person_role": "husband",
+      "burial_place": null,
+      "date_expression": "及后廢",
+      "ce_year": null
+    },
+    "slot_id": "detail_125"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 34,
+      "end": 39,
+      "surface": "李氏坐流徙"
+    },
+    "kind": "exile_report",
+    "values": {
+      "destination": null,
+      "precise_year": null
+    },
+    "slot_id": "detail_126"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 548,
+      "end": 558,
+      "surface": "李氏作《女訓》行於世"
+    },
+    "kind": "literary_activity",
+    "values": {
+      "work_source_title": "女訓",
+      "work_id": null
+    },
+    "slot_id": "detail_127"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 22,
+      "end": 27,
+      "surface": "南陽堵陽人"
+    },
+    "place": "南陽堵陽",
+    "relation": "biographical_origin",
+    "slot_id": "address_128"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 28,
+      "end": 31,
+      "surface": "魏司徒"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_129"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 47,
+      "end": 50,
+      "surface": "司空掾"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_130"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 29,
+    "source_anchor": {
+      "start": 221,
+      "end": 224,
+      "surface": "大司馬"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_131"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 345,
+      "end": 349,
+      "surface": "散騎常侍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_132"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 350,
+      "end": 353,
+      "surface": "河南尹"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_133"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 357,
+      "end": 358,
+      "surface": "卒"
+    },
+    "event_type": "death",
+    "date_expression": "元康初",
+    "era_range": [
+      291,
+      299
+    ],
+    "slot_id": "life_134"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 18,
+    "recipient_paragraph_index": 18,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 360,
+      "end": 364,
+      "surface": "驃騎將軍"
+    },
+    "mode": "posthumous_grant",
+    "kind": "office",
+    "slot_id": "holding_135"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 117,
+      "end": 119,
+      "surface": "渤海"
+    },
+    "place": "渤海",
+    "relation": "source_locality_designation",
+    "slot_id": "address_136"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 117,
+      "end": 119,
+      "surface": "渤海"
+    },
+    "place": "渤海",
+    "relation": "source_locality_designation",
+    "slot_id": "address_137"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 125,
+      "end": 127,
+      "surface": "滎陽"
+    },
+    "place": "滎陽",
+    "relation": "source_locality_designation",
+    "slot_id": "address_138"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 130,
+      "end": 132,
+      "surface": "呉國"
+    },
+    "place": "呉國",
+    "relation": "source_locality_designation",
+    "slot_id": "address_139"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 10,
+    "source_anchor": {
+      "start": 130,
+      "end": 132,
+      "surface": "呉國"
+    },
+    "place": "呉國",
+    "relation": "source_locality_designation",
+    "slot_id": "address_140"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 137,
+      "end": 139,
+      "surface": "蘭陵"
+    },
+    "place": "蘭陵",
+    "relation": "source_locality_designation",
+    "slot_id": "address_141"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 12,
+    "source_anchor": {
+      "start": 142,
+      "end": 144,
+      "surface": "京兆"
+    },
+    "place": "京兆",
+    "relation": "source_locality_designation",
+    "slot_id": "address_142"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 13,
+    "source_anchor": {
+      "start": 142,
+      "end": 144,
+      "surface": "京兆"
+    },
+    "place": "京兆",
+    "relation": "source_locality_designation",
+    "slot_id": "address_143"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 149,
+      "end": 151,
+      "surface": "琅邪"
+    },
+    "place": "琅邪",
+    "relation": "source_locality_designation",
+    "slot_id": "address_144"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 155,
+      "end": 157,
+      "surface": "弘農"
+    },
+    "place": "弘農",
+    "relation": "source_locality_designation",
+    "slot_id": "address_145"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 160,
+      "end": 162,
+      "surface": "襄城"
+    },
+    "place": "襄城",
+    "relation": "source_locality_designation",
+    "slot_id": "address_146"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 17,
+    "source_anchor": {
+      "start": 165,
+      "end": 167,
+      "surface": "南陽"
+    },
+    "place": "南陽",
+    "relation": "source_locality_designation",
+    "slot_id": "address_147"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 18,
+    "source_anchor": {
+      "start": 170,
+      "end": 172,
+      "surface": "齊國"
+    },
+    "place": "齊國",
+    "relation": "source_locality_designation",
+    "slot_id": "address_148"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 19,
+    "source_anchor": {
+      "start": 175,
+      "end": 177,
+      "surface": "清河"
+    },
+    "place": "清河",
+    "relation": "source_locality_designation",
+    "slot_id": "address_149"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 20,
+    "source_anchor": {
+      "start": 180,
+      "end": 182,
+      "surface": "沛國"
+    },
+    "place": "沛國",
+    "relation": "source_locality_designation",
+    "slot_id": "address_150"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 21,
+    "source_anchor": {
+      "start": 185,
+      "end": 187,
+      "surface": "汝南"
+    },
+    "place": "汝南",
+    "relation": "source_locality_designation",
+    "slot_id": "address_151"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 22,
+    "source_anchor": {
+      "start": 185,
+      "end": 187,
+      "surface": "汝南"
+    },
+    "place": "汝南",
+    "relation": "source_locality_designation",
+    "slot_id": "address_152"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 23,
+    "source_anchor": {
+      "start": 192,
+      "end": 194,
+      "surface": "安平"
+    },
+    "place": "安平",
+    "relation": "source_locality_designation",
+    "slot_id": "address_153"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 24,
+    "source_anchor": {
+      "start": 197,
+      "end": 199,
+      "surface": "潁川"
+    },
+    "place": "潁川",
+    "relation": "source_locality_designation",
+    "slot_id": "address_154"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 25,
+    "source_anchor": {
+      "start": 202,
+      "end": 204,
+      "surface": "太原"
+    },
+    "place": "太原",
+    "relation": "source_locality_designation",
+    "slot_id": "address_155"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 26,
+    "source_anchor": {
+      "start": 207,
+      "end": 209,
+      "surface": "高陽"
+    },
+    "place": "高陽",
+    "relation": "source_locality_designation",
+    "slot_id": "address_156"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 27,
+    "source_anchor": {
+      "start": 212,
+      "end": 214,
+      "surface": "彭城"
+    },
+    "place": "彭城",
+    "relation": "source_locality_designation",
+    "slot_id": "address_157"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 28,
+    "source_anchor": {
+      "start": 217,
+      "end": 219,
+      "surface": "中山"
+    },
+    "place": "中山",
+    "relation": "source_locality_designation",
+    "slot_id": "address_158"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 19,
+    "recipient_paragraph_index": 19,
+    "recipient_role": 29,
+    "source_anchor": {
+      "start": 217,
+      "end": 219,
+      "surface": "中山"
+    },
+    "place": "中山",
+    "relation": "source_locality_designation",
+    "slot_id": "address_159"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 2,
+      "end": 6,
+      "surface": "散騎常侍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_160"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 7,
+      "end": 11,
+      "surface": "後軍將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_161"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 26,
+      "end": 29,
+      "surface": "秘書監"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_162"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 46,
+      "end": 49,
+      "surface": "中書監"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_163"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 60,
+      "end": 63,
+      "surface": "著作郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_164"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 114,
+      "end": 116,
+      "surface": "司徒"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_165"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 119,
+      "end": 121,
+      "surface": "司空"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_166"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 124,
+      "end": 128,
+      "surface": "領軍將軍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_167"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 131,
+      "end": 133,
+      "surface": "侍中"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_168"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 136,
+      "end": 140,
+      "surface": "黃門侍郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_169"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 10,
+    "source_anchor": {
+      "start": 143,
+      "end": 147,
+      "surface": "國子博士"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_170"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 12,
+    "source_anchor": {
+      "start": 154,
+      "end": 157,
+      "surface": "騎都尉"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_171"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 13,
+    "source_anchor": {
+      "start": 131,
+      "end": 133,
+      "surface": "侍中"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_172"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 136,
+      "end": 140,
+      "surface": "黃門侍郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_173"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 145,
+      "end": 147,
+      "surface": "博士"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_174"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 145,
+      "end": 147,
+      "surface": "博士"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_175"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 12,
+    "source_anchor": {
+      "start": 157,
+      "end": 160,
+      "surface": "濟北侯"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "slot_id": "holding_176"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 30,
+      "end": 33,
+      "surface": "掌國史"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "national_historiography",
+      "office_title": "秘書監"
+    },
+    "slot_id": "detail_177"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 12,
+      "end": 19,
+      "surface": "廣城君薨，去職"
+    },
+    "kind": "office_departure",
+    "values": {
+      "departure_kind": "mourning",
+      "titles_unspecified": true,
+      "linked_holding_ids": []
+    },
+    "slot_id": "detail_178"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 21,
+    "recipient_paragraph_index": 21,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 2,
+      "end": 4,
+      "surface": "侍中"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_179"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 21,
+    "recipient_paragraph_index": 21,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 124,
+      "end": 128,
+      "surface": "平北將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_180"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 21,
+    "recipient_paragraph_index": 21,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 129,
+      "end": 131,
+      "surface": "鎮鄴"
+    },
+    "place": "鄴",
+    "relation": "service_location",
+    "slot_id": "address_181"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 2,
+      "end": 4,
+      "surface": "常侍"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_182"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 77,
+      "end": 79,
+      "surface": "侍中"
+    },
+    "mode": "transfer",
+    "kind": "office",
+    "slot_id": "holding_183"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 5,
+      "end": 9,
+      "surface": "侍講東宮"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "lecture_to_crown_prince",
+      "institution_source_name": "東宮"
+    },
+    "slot_id": "detail_184"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 80,
+      "end": 84,
+      "surface": "專掌禁內"
+    },
+    "kind": "official_duty",
+    "values": {
+      "duty_code": "palace_inner_administration",
+      "institution_source_name": "禁內"
+    },
+    "slot_id": "detail_185"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 133,
+      "end": 135,
+      "surface": "斬之"
+    },
+    "event_type": "death",
+    "slot_id": "life_186"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 13,
+    "source_anchor": {
+      "start": 148,
+      "end": 150,
+      "surface": "鞏令"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_187"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 153,
+      "end": 157,
+      "surface": "散騎侍郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_188"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 159,
+      "end": 162,
+      "surface": "呉王友"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_189"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 168,
+      "end": 171,
+      "surface": "皆伏誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_190"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 13,
+    "source_anchor": {
+      "start": 168,
+      "end": 171,
+      "surface": "皆伏誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_191"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 168,
+      "end": 171,
+      "surface": "皆伏誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_192"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 168,
+      "end": 171,
+      "surface": "皆伏誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_193"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 17,
+    "source_anchor": {
+      "start": 168,
+      "end": 171,
+      "surface": "皆伏誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_194"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 21,
+      "end": 25,
+      "surface": "帳下都督"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_195"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 26,
+    "source_anchor": {
+      "start": 305,
+      "end": 310,
+      "surface": "服金酒而死"
+    },
+    "event_type": "death",
+    "note": "本段先敘夢，末以及是敘後事；本筆只收末句所敘原死事，不把夢中預言作年月或獨立實事證據。",
+    "slot_id": "life_196"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 27,
+    "source_anchor": {
+      "start": 311,
+      "end": 318,
+      "surface": "賈午考竟用大杖"
+    },
+    "kind": "execution_report",
+    "values": {
+      "source_method": "考竟用大杖",
+      "source_layer": "narrative_following_dream",
+      "ce_year": null
+    },
+    "slot_id": "detail_197"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 31,
+      "end": 38,
+      "surface": "夢見百餘人錄充"
+    },
+    "kind": "dream_narrative",
+    "values": {
+      "narrative_frame": "dream_report",
+      "literal_historical_event_attested": false,
+      "unidentified_dream_official": true
+    },
+    "slot_id": "detail_198"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 23,
+      "end": 27,
+      "surface": "散騎侍郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_199"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 44,
+      "end": 46,
+      "surface": "魯公"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_200"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 48,
+      "end": 50,
+      "surface": "病死"
+    },
+    "event_type": "death",
+    "slot_id": "life_201"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 44,
+      "end": 46,
+      "surface": "魯公"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "date_expression": "永興中",
+    "era_range": [
+      304,
+      306
+    ],
+    "slot_id": "holding_202"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 69,
+      "end": 72,
+      "surface": "遭亂死"
+    },
+    "event_type": "death",
+    "slot_id": "life_203"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 24,
+    "recipient_paragraph_index": 24,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 73,
+      "end": 75,
+      "surface": "國除"
+    },
+    "kind": "noble_state_abolition_report",
+    "values": {
+      "abolished": true,
+      "exact_year": null
+    },
+    "slot_id": "detail_204"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 23,
+      "end": 26,
+      "surface": "宗正卿"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "date_expression": "太康中",
+    "era_range": [
+      280,
+      289
+    ],
+    "slot_id": "holding_205"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 28,
+      "end": 32,
+      "surface": "鎮軍將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_206"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 34,
+      "end": 38,
+      "surface": "城門校尉"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "appointment_role": "concurrent_office",
+    "slot_id": "holding_207"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 40,
+      "end": 42,
+      "surface": "侍中"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_208"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 44,
+      "end": 47,
+      "surface": "永平侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_209"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 48,
+      "end": 49,
+      "surface": "卒"
+    },
+    "event_type": "death",
+    "slot_id": "life_210"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 51,
+      "end": 56,
+      "surface": "中軍大將軍"
+    },
+    "mode": "posthumous_grant",
+    "kind": "office",
+    "slot_id": "holding_211"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 25,
+    "recipient_paragraph_index": 25,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 57,
+      "end": 61,
+      "surface": "儀同三司"
+    },
+    "mode": "posthumous_grant",
+    "kind": "honorific",
+    "slot_id": "holding_212"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 26,
+    "recipient_paragraph_index": 26,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 13,
+      "end": 16,
+      "surface": "黃門郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_213"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 26,
+    "recipient_paragraph_index": 26,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 13,
+      "end": 16,
+      "surface": "黃門郎"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_214"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 71,
+      "end": 74,
+      "surface": "邵陵令"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_215"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 80,
+      "end": 85,
+      "surface": "尚書吏部郎"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_216"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 93,
+      "end": 97,
+      "surface": "車騎司馬"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_217"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 104,
+      "end": 108,
+      "surface": "平陽鄕侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_218"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 86,
+      "end": 90,
+      "surface": "以公事免"
+    },
+    "kind": "office_departure",
+    "values": {
+      "departure_kind": "dismissal",
+      "titles_unspecified": true,
+      "linked_holding_ids": []
+    },
+    "slot_id": "detail_219"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 109,
+      "end": 112,
+      "surface": "邑千戸"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "stated_total",
+      "value": 1000,
+      "source_number": "千",
+      "unit_source_name": "戸",
+      "total": 1000
+    },
+    "slot_id": "detail_220"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 125,
+      "end": 127,
+      "surface": "太保"
+    },
+    "mode": "attestation",
+    "kind": "office",
+    "slot_id": "holding_221"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 130,
+      "end": 141,
+      "surface": "詔使模將中騶二百人救之"
+    },
+    "kind": "command_authority",
+    "values": {
+      "command_kind": "rescue_force",
+      "reported_troops": 200,
+      "source_number": "二百",
+      "unit_source_name": "人"
+    },
+    "slot_id": "detail_222"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 17,
+      "end": 21,
+      "surface": "散騎常侍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_223"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 26,
+      "end": 28,
+      "surface": "侍中"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_224"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 65,
+      "end": 69,
+      "surface": "光祿大夫"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_225"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 187,
+      "end": 188,
+      "surface": "卒"
+    },
+    "event_type": "death",
+    "slot_id": "life_226"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 191,
+      "end": 195,
+      "surface": "車騎將軍"
+    },
+    "mode": "posthumous_grant",
+    "kind": "office",
+    "slot_id": "holding_227"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 196,
+      "end": 202,
+      "surface": "開府儀同三司"
+    },
+    "mode": "posthumous_grant",
+    "kind": "honorific",
+    "slot_id": "holding_228"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 184,
+      "end": 185,
+      "surface": "成"
+    },
+    "mode": "posthumous_naming",
+    "kind": "honorific",
+    "slot_id": "holding_229"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 216,
+      "end": 220,
+      "surface": "太子侍講"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_230"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 221,
+      "end": 227,
+      "surface": "員外散騎侍郎"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_231"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 22,
+      "end": 28,
+      "surface": "二日擢爲侍中"
+    },
+    "kind": "office_appointment_interval",
+    "values": {
+      "value": 2,
+      "source_number": "二",
+      "unit_source_name": "日",
+      "from_office": "散騎常侍",
+      "to_office": "侍中",
+      "ce_year": null
+    },
+    "slot_id": "detail_232"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 14,
+    "source_anchor": {
+      "start": 212,
+      "end": 213,
+      "surface": "嗣"
+    },
+    "kind": "noble_title_succession_report",
+    "values": {
+      "mode": "inheritance",
+      "title": null,
+      "predecessor_role": "father",
+      "predecessor_person_id": null,
+      "actual_holding_id": null
+    },
+    "value_person_roles": {
+      "predecessor_person_id": {
+        "paragraph_index": 28,
+        "role": 1
+      }
+    },
+    "slot_id": "detail_233"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 7,
+      "end": 10,
+      "surface": "太原人"
+    },
+    "place": "太原",
+    "relation": "biographical_origin",
+    "slot_id": "address_234"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 34,
+      "end": 38,
+      "surface": "散騎常侍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_235"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 39,
+      "end": 41,
+      "surface": "尚書"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_236"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 42,
+      "end": 45,
+      "surface": "衞將軍"
+    },
+    "mode": "grant",
+    "kind": "office",
+    "slot_id": "holding_237"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 47,
+      "end": 51,
+      "surface": "冠軍縣侯"
+    },
+    "mode": "grant",
+    "kind": "noble_rank",
+    "slot_id": "holding_238"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 89,
+      "end": 90,
+      "surface": "卒"
+    },
+    "event_type": "death",
+    "slot_id": "life_239"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 29,
+    "recipient_paragraph_index": 29,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 93,
+      "end": 94,
+      "surface": "烈"
+    },
+    "mode": "posthumous_naming",
+    "kind": "honorific",
+    "slot_id": "holding_240"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 6,
+    "recipient_paragraph_index": 6,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 34,
+      "end": 36,
+      "surface": "母憂"
+    },
+    "event_type": "death",
+    "slot_id": "life_241"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 20,
+    "recipient_paragraph_index": 20,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 15,
+      "end": 16,
+      "surface": "薨"
+    },
+    "event_type": "death",
+    "slot_id": "life_242"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 119,
+      "end": 120,
+      "surface": "害"
+    },
+    "event_type": "death",
+    "slot_id": "life_243"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 9,
+    "source_anchor": {
+      "start": 119,
+      "end": 120,
+      "surface": "害"
+    },
+    "event_type": "death",
+    "slot_id": "life_244"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 11,
+    "source_anchor": {
+      "start": 69,
+      "end": 71,
+      "surface": "生男"
+    },
+    "event_type": "birth",
+    "slot_id": "life_245"
+  },
+  {
+    "category": "age",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 53,
+      "end": 57,
+      "surface": "年六十六"
+    },
+    "value": 66,
+    "source_number": "六十六",
+    "age_context": "at_death",
+    "date_expression": "太康三年",
+    "ce_year": 282,
+    "source_month_expression": "四月",
+    "source_month_number": 4,
+    "slot_id": "age_246"
+  },
+  {
+    "category": "age",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 17,
+      "end": 19,
+      "surface": "三歲"
+    },
+    "value": 3,
+    "source_number": "三",
+    "age_context": "during_life",
+    "slot_id": "age_247"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 72,
+      "end": 74,
+      "surface": "過期"
+    },
+    "kind": "unconverted_source_age_expression",
+    "values": {
+      "source_age_expression": "過期",
+      "exact_age": null,
+      "counting": null,
+      "birth_year": null
+    },
+    "slot_id": "detail_248"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 28,
+    "recipient_paragraph_index": 28,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 47,
+      "end": 51,
+      "surface": "數年之中"
+    },
+    "kind": "public_administration_interval",
+    "values": {
+      "source_number": "數",
+      "unit_source_name": "年",
+      "value": null,
+      "exact_office_tenure": false,
+      "linked_holding_id": null
+    },
+    "slot_id": "detail_249"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 115,
+      "end": 117,
+      "surface": "景帝"
+    },
+    "mode": "attestation",
+    "kind": "imperial_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_250"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 1,
+    "recipient_paragraph_index": 1,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 2,
+      "end": 4,
+      "surface": "文帝"
+    },
+    "mode": "attestation",
+    "kind": "imperial_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_251"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 0,
+    "source_anchor": {
+      "start": 5,
+      "end": 9,
+      "surface": "高貴鄕公"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_252"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 2,
+    "recipient_paragraph_index": 2,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 79,
+      "end": 83,
+      "surface": "常道鄕公"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_253"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 4,
+    "recipient_paragraph_index": 4,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 35,
+      "end": 37,
+      "surface": "武帝"
+    },
+    "mode": "attestation",
+    "kind": "imperial_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_254"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 8,
+    "recipient_paragraph_index": 8,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 26,
+      "end": 29,
+      "surface": "齊王妃"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_255"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 9,
+    "recipient_paragraph_index": 9,
+    "recipient_role": 15,
+    "source_anchor": {
+      "start": 143,
+      "end": 145,
+      "surface": "皇后"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_256"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 11,
+    "recipient_paragraph_index": 11,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 7,
+      "end": 9,
+      "surface": "齊王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_257"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 12,
+    "recipient_paragraph_index": 12,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 9,
+      "end": 13,
+      "surface": "弘訓太后"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_258"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 12,
+    "recipient_paragraph_index": 12,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 19,
+      "end": 22,
+      "surface": "景皇帝"
+    },
+    "mode": "attestation",
+    "kind": "imperial_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_259"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 34,
+      "end": 37,
+      "surface": "皇太子"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_260"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 15,
+    "recipient_paragraph_index": 15,
+    "recipient_role": 4,
+    "source_anchor": {
+      "start": 163,
+      "end": 167,
+      "surface": "安平獻王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_261"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 49,
+    "source_anchor": {
+      "start": 458,
+      "end": 460,
+      "surface": "惠帝"
+    },
+    "mode": "attestation",
+    "kind": "imperial_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_262"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 50,
+    "source_anchor": {
+      "start": 464,
+      "end": 465,
+      "surface": "后"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_263"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 21,
+    "recipient_paragraph_index": 21,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 84,
+      "end": 87,
+      "surface": "成都王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_264"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 22,
+    "recipient_paragraph_index": 22,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 97,
+      "end": 99,
+      "surface": "趙王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_265"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 7,
+    "source_anchor": {
+      "start": 114,
+      "end": 116,
+      "surface": "楚王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_266"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 8,
+    "source_anchor": {
+      "start": 120,
+      "end": 123,
+      "surface": "汝南王"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_267"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 53,
+    "source_anchor": {
+      "start": 334,
+      "end": 338,
+      "surface": "皇太子妃"
+    },
+    "mode": "grant",
+    "kind": "royal_rank",
+    "slot_id": "holding_268"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 1,
+    "source_anchor": {
+      "start": 73,
+      "end": 77,
+      "surface": "左右夫人"
+    },
+    "proposal_kind": "unassumed_appointment",
+    "holding_kind": "honorific",
+    "non_assumption_paragraph": 18,
+    "non_assumption_term": "不敢當兩夫人盛禮",
+    "notice_outcome": "declined_joint_wife_arrangement",
+    "service_attested": false,
+    "note": "詔置左右夫人為兩婦共同名號安排；充答詔不敢當，左右分配與實授皆不補。",
+    "slot_id": "proposal_269"
+  },
+  {
+    "category": "proposal",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 22,
+    "source_anchor": {
+      "start": 73,
+      "end": 77,
+      "surface": "左右夫人"
+    },
+    "proposal_kind": "unassumed_appointment",
+    "holding_kind": "honorific",
+    "non_assumption_paragraph": 18,
+    "non_assumption_term": "不敢當兩夫人盛禮",
+    "notice_outcome": "declined_joint_wife_arrangement",
+    "service_attested": false,
+    "note": "詔置左右夫人為兩婦共同名號安排；充答詔不敢當，左右分配與實授皆不補。",
+    "slot_id": "proposal_270"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 16,
+    "source_anchor": {
+      "start": 174,
+      "end": 177,
+      "surface": "增戸邑"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase_count_unspecified",
+      "value": null,
+      "source_number": null,
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_271"
+  },
+  {
+    "category": "detail",
+    "paragraph_index": 14,
+    "recipient_paragraph_index": 14,
+    "recipient_role": 17,
+    "source_anchor": {
+      "start": 174,
+      "end": 177,
+      "surface": "增戸邑"
+    },
+    "kind": "fief_household_count",
+    "values": {
+      "quantity_kind": "increase_count_unspecified",
+      "value": null,
+      "source_number": null,
+      "unit_source_name": "戸",
+      "total": null
+    },
+    "slot_id": "detail_272"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 32,
+    "source_anchor": {
+      "start": 224,
+      "end": 226,
+      "surface": "魯公"
+    },
+    "mode": "attestation",
+    "kind": "noble_rank",
+    "inside_recipient": true,
+    "slot_id": "holding_273"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 16,
+    "recipient_paragraph_index": 16,
+    "recipient_role": 37,
+    "source_anchor": {
+      "start": 329,
+      "end": 331,
+      "surface": "世子"
+    },
+    "mode": "attestation",
+    "kind": "unclassified",
+    "inside_recipient": true,
+    "slot_id": "holding_274"
+  },
+  {
+    "category": "holding",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 50,
+    "source_anchor": {
+      "start": 305,
+      "end": 307,
+      "surface": "王妃"
+    },
+    "mode": "attestation",
+    "kind": "royal_rank",
+    "slot_id": "holding_275"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 25,
+    "source_anchor": {
+      "start": 298,
+      "end": 302,
+      "surface": "死於鐘下"
+    },
+    "event_type": "death",
+    "note": "本段夢敘末以及是再述死事；保末句原詞，不把夢中預言當獨立年月證據。",
+    "slot_id": "life_276"
+  },
+  {
+    "category": "address",
+    "paragraph_index": 23,
+    "recipient_paragraph_index": 23,
+    "recipient_role": 25,
+    "source_anchor": {
+      "start": 298,
+      "end": 302,
+      "surface": "死於鐘下"
+    },
+    "place": "鐘下",
+    "relation": "death_place",
+    "note": "取及是以下末句明示鐘下死所；不把夢中府舍當任何人死所，不定位今日地址。",
+    "slot_id": "address_277"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 3,
+    "recipient_paragraph_index": 3,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 35,
+      "end": 36,
+      "surface": "死"
+    },
+    "event_type": "death",
+    "slot_id": "life_278"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 27,
+    "recipient_paragraph_index": 27,
+    "recipient_role": 6,
+    "source_anchor": {
+      "start": 99,
+      "end": 100,
+      "surface": "誅"
+    },
+    "event_type": "death",
+    "slot_id": "life_279"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 0,
+    "recipient_paragraph_index": 0,
+    "recipient_role": 5,
+    "source_anchor": {
+      "start": 31,
+      "end": 33,
+      "surface": "生充"
+    },
+    "event_type": "birth",
+    "slot_id": "life_280"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 2,
+    "source_anchor": {
+      "start": 13,
+      "end": 16,
+      "surface": "生二女"
+    },
+    "event_type": "birth",
+    "slot_id": "life_281"
+  },
+  {
+    "category": "life",
+    "paragraph_index": 17,
+    "recipient_paragraph_index": 17,
+    "recipient_role": 3,
+    "source_anchor": {
+      "start": 13,
+      "end": 16,
+      "surface": "生二女"
+    },
+    "event_type": "birth",
+    "slot_id": "life_282"
+  }
+]
