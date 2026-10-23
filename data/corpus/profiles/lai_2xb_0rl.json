@@ -6,7 +6,8 @@
   "identity_note": null,
   "review": "ai_provisional",
   "names": [
-    "呉漢"
+    "呉漢",
+    "吳漢"
   ],
   "titles": [],
   "addresses": [],
@@ -45,6 +46,41 @@
       "chapter_id": "c-sanguozhi-009-caozhen",
       "source_id": "s-sanguozhi-009-caozhen",
       "work_title": "三國志"
+    },
+    {
+      "number": 24,
+      "category": "",
+      "title": "卷二十四：崔林完整本傳及全部裴注",
+      "paragraph_id": "c-sanguozhi-024-cuilin:p002",
+      "count": 1,
+      "raw_count": 1,
+      "duplicate_count": 0,
+      "counting_policy": "independent_fixed_witness_occurrences",
+      "quote": "勤幹也臣受恩深厚無以報國不勝慺慺淺見之情謹冐陳聞詔曰昔蕭何薦韓信鄧禹進吳漢惟賢知賢也雄有膽智技能文武之姿吾宿知之今便以參散騎之選方使少在吾門下知指歸便大用之矣天下之士欲使皆先歴散騎然後出據州郡是吾本意也雄後為幽州刺史子渾涼州刺史次乂平北將軍司徒安豐侯戎渾之子太尉武陵侯衍荆州",
+      "paragraph_ids": [
+        "c-sanguozhi-024-cuilin:p002"
+      ],
+      "mention_ids": [
+        "c-sanguozhi-024-cuilin:p002:m0252"
+      ],
+      "mention_paragraph_ids": {
+        "c-sanguozhi-024-cuilin:p002:m0252": "c-sanguozhi-024-cuilin:p002"
+      },
+      "mention_id": "c-sanguozhi-024-cuilin:p002:m0252",
+      "occurrence_groups": [
+        {
+          "canonical_mention_id": "c-sanguozhi-024-cuilin:p002:m0252",
+          "mention_ids": [
+            "c-sanguozhi-024-cuilin:p002:m0252"
+          ],
+          "kind": "paragraph"
+        }
+      ],
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-024",
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "source_id": "s-sanguozhi-024-cuilin",
+      "work_title": "三國志"
     }
   ],
   "table_occurrences": [],
@@ -73,6 +109,36 @@
           "character_conversion": "none",
           "extraction_note": "刪¶與頁標、合併行及移除注括號語法；保眀年即位、毛椽等原字。382–384行括號誤斷的連續注句按語義整段保為裴注，原始位元組另存。",
           "excerpts": []
+        }
+      }
+    },
+    {
+      "chapter_id": "c-sanguozhi-024-cuilin",
+      "work_id": "w-sanguozhi",
+      "book_id": "b-sanguozhi-024",
+      "source_id": "s-sanguozhi-024-cuilin",
+      "source": {
+        "title": "三國志魏書卷二十四崔林傳及裴注",
+        "provider": "Kanripo WYG",
+        "url": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_024.txt",
+        "permalink": "https://github.com/kanripo/KR2a0012/blob/214fcafa79894355909c9d8c2c1533089e7791c6/KR2a0012_024.txt",
+        "revision_id": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_commit": "214fcafa79894355909c9d8c2c1533089e7791c6",
+        "source_blob": "2b1d619a3d8c9ea0bee19c61f8b87e174f53006d",
+        "raw_file_sha256": "28332b94f87ba8675d931da2d092c671a60c6410ad72553cc1ac3495fe4bc4a7",
+        "response_sha256": "28332b94f87ba8675d931da2d092c671a60c6410ad72553cc1ac3495fe4bc4a7",
+        "raw_path": "source-evidence/sgz024-cuilin/primary/KR2a0012_024.txt",
+        "edition": "文淵閣四庫全書數位轉錄；未圖校",
+        "accessed_on": "2026-10-22",
+        "extent": "崔林字起至高柔字前的完整傳及裴注；不稱全卷，末卷考證另作外部對讀。",
+        "text_scope": "partial_chapter",
+        "review_status": "text_checked",
+        "image_verified": false,
+        "rights": "古籍原文；保留Kanripo固定數位見證歸屬",
+        "license_url": "https://www.kanripo.org/",
+        "normalization": {
+          "character_conversion": {},
+          "extraction_note": "只去版面pb、¶、換行及注括號，全部原字逐碼點保留。KR0564 token亦原樣保留，未冒稱已辨其字。"
         }
       }
     }

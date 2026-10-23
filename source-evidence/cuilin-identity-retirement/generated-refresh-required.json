@@ -1,0 +1,9 @@
+{
+  "full_export_required": true,
+  "remove_public_paths": [
+    "exports/persons/cvr_exv_dku.json",
+    "data/corpus/profiles/cvr_exv_dku.json"
+  ],
+  "regenerate_indexes_and_all_affected_profiles": true,
+  "qualification": "原生退號後不得保留舊JSON或alias；derived其餘索引須由下一次全export刷新，這個私包不跑全export。"
+}

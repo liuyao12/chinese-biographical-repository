@@ -3233,7 +3233,7 @@
       "status": "editorial_preferred",
       "human_reviewed": false,
       "reviewer": "Codex（AI 代理）",
-      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。 墓誌明載彬之孫及興之元子，接興之與閩之；興之為彬子單列連續祖先推導，不為三弟補父母。",
+      "rationale": "以晉書具名父祖、父子、兄弟及宋書王弘家世接合。中間父子與同父推導獨立標示；漢王吉遠祖泛稱不納入組裝，字母不是出生次序。 晉書卷65補導子洽、洽子珣及珣子弘等直接父子來源，替換組裝所選的連續祖先推導；宋書祖先斷言仍保留。 晉書76王廙父正及宋書66敬弘父祖接回王正支；胡之父廙為獨立的連續祖先推導。謝重的外祖胡之共享此完整身份，不另建截斷副本。 王敬弘子恢之、女及昇之子延之依宋書正文續接；瓚之、昇之的共同父親由明載兄弟鏈另標推導，不按字母作排行。 宋書92王鎮之父隨之、祖耆之、曾祖廙續接此近支，連續祖先與兄弟同父推導另標；母系未知不補。 卷76王彬、王棱近支依直接父子及明示兄弟續接；同父推導與相鄰原段承接另標，籍之父親未定不補。 墓誌明載彬之孫及興之元子，接興之與閩之；興之為彬子單列連續祖先推導，不為三弟補父母。 王羲之本傳明父、祖及子孫接回王正支；連續父祖、兄弟同父及叔父之父推祖均另標編輯推導，不另造原文親屬斷言。靜之缺名父親以*保留，分支碼不作排行。",
       "members": [
         {
           "person_id": "7r6_k52_qji",
@@ -4575,6 +4575,244 @@
           "identity_equivalence_decision_ids": [],
           "parent_person_id": "7r6_k52_qji_ABDBC",
           "source_assertion_id": "a-wangminzhi-epitaph-father"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDC",
+          "representative_source_person_id": "7r6_k52_qji_ABDC",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABD",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "7r6_k52_qji_ABDCB",
+            "nearer_ancestor_assertion_id": "a-jin080-wangxizhi-kin_001",
+            "farther_ancestor_assertion_id": "a-jin080-wangxizhi-kin_002",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同傳明載羲之父曠、祖正；曠為正之子屬連續祖先的編輯推導，不增原文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+                "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+                "assertion_id": "a-jin080-wangxizhi-kin_001",
+                "scope": "同一人物完整傳首明載父、父系祖父；保留原文與雙斷言。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+                "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+                "assertion_id": "a-jin080-wangxizhi-kin_002",
+                "scope": "同一人物完整傳首明載父、父系祖父；保留原文與雙斷言。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCA",
+          "representative_source_person_id": "7r6_k52_qji_ABDCA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDC",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_person_id": "7r6_k52_qji_ABDCB",
+            "sibling_assertion_id": "a-jin080-wangxizhi-kin_012",
+            "sibling_father_assertion_id": "a-jin080-wangxizhi-kin_001",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "由羲之未名兄與羲之明父曠作同父組裝首選；屬編輯推導，不推共同生母或增原文父子斷言。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p027",
+                "quote": "時驃騎將軍王述少有名譽，與羲之齊名，而羲之甚輕之，由是情好不協。述先為會稽，以母喪居郡境，羲之代述，止一吊，遂不重詣。述每聞角聲，謂羲之當候己，輒灑掃而待之。如此者累年，而羲之竟不顧，述深以為恨。及述為揚州刺史，將就征，周行郡界，而不過羲之，臨發，一別而去。先是，羲之常謂賓友曰：「懷祖正當作尚書耳，投老可得僕射。更求會稽，便自邈然。」及述蒙顯授，羲之恥為之下，遣使詣朝廷，求分會稽為越州。行人失辭，大為時賢所笑。既而內懷愧歎，謂其諸子曰：「吾不減懷祖，而位遇懸邈，當由汝等不及坦之故邪！」述後檢察會稽郡，辯其刑政，主者疲于簡對。羲之深恥之，遂稱病去郡，于父母墓前自誓曰：「維永和十一年三月癸卯朔，九日辛亥，小子羲之敢告二尊之靈。羲之不天，夙遭閔凶，不蒙過庭之訓。母兄鞠育，得漸庶幾，遂因人乏，蒙國寵榮。進無忠孝之節，退違推賢之義，每仰詠老氏、周任之誡，常恐死亡無日，憂及宗祀，豈在微身而已！是用寤寐永歎，若墜深谷。止足之分，定之於今。謹以今月吉辰肆筵設席，稽顙歸誠，告誓先靈。自今之後，敢渝此心，貪冒苟進，是有無尊之心而不子也。子而不子，天地所不覆載，名教所不得容。信誓之誠，有如皦日！」",
+                "assertion_id": "a-jin080-wangxizhi-kin_012",
+                "scope": "原文母兄鞠育與傳首明父曠；兄弟同父為有資格的編輯推導。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+                "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+                "assertion_id": "a-jin080-wangxizhi-kin_001",
+                "scope": "原文母兄鞠育與傳首明父曠；兄弟同父為有資格的編輯推導。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCB",
+          "representative_source_person_id": "7r6_k52_qji_ABDCB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDC",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_001"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBA",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_015"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBB",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBB",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_016"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBC",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBC",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_017"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBD",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBD",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_018"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBE",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBE",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBE"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCB",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_019"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBCA",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBCA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBCA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCBC",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_025"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCBEA",
+          "representative_source_person_id": "7r6_k52_qji_ABDCBEA",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCBEA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "7r6_k52_qji_ABDCBE",
+          "source_assertion_id": "a-jin080-wangxizhi-kin_030"
+        },
+        {
+          "person_id": "7r6_k52_qji_ABDCB*A",
+          "representative_source_person_id": "7r6_k52_qji_ABDCB*A",
+          "source_person_ids": [
+            "7r6_k52_qji_ABDCB*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "ancestor_person_id": "7r6_k52_qji_ABDCB",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "interpretation_note": "原文明靜之為獻之兄子，另明獻之父羲之；靜之置於羲之以下兩代，父親缺名留空，不從具名兄弟任選。",
+          "ancestor_connection": {
+            "type": "ancestor_through_paternal_uncle",
+            "uncle_person_id": "7r6_k52_qji_ABDCBE",
+            "paternal_uncle_assertion_id": "a-jin080-wangxizhi-kin_031",
+            "uncle_father_assertion_id": "a-jin080-wangxizhi-kin_019",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "由明載父系叔父及叔父之明父推導祖父組裝首選；不偽造原文祖孫斷言，也不補父名。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p047",
+                "quote": "未幾，獻之遇疾，家人為上章，道家法應首過，問其有何得失。對曰：「不覺餘事，惟憶與郗家離婚。」獻之前妻，郗曇女也。俄而卒於官。安僖皇后立，以後父追贈侍中、特進、光祿大夫、太宰，諡曰憲。無子，以兄子靜之嗣，位至義興太守。時議者以為羲之草隸，江左中朝莫有及者，獻之骨力遠不及父，而頗有媚趣。桓玄雅愛其父子書，各為一帙，置左右以玩之。始羲之所與共游者許邁。",
+                "assertion_id": "a-jin080-wangxizhi-kin_031",
+                "scope": "兄子靜之與獻之明父羲之完整原文並存；中間父親缺名保留。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p001",
+                "quote": "王羲之，字逸少，司徒導之從子也。祖正，尚書郎。父曠，淮南太守。元帝之過江也，曠首創其議。羲之幼訥於言，人未之奇。年十三，嘗謁周顗，顗察而異之。時重牛心炙，坐客未啖，顗先割啖羲之，於是始知名。及長，辯贍，以骨鯁稱，尤善隸書，為古今之冠，論者稱其筆勢，以為飄若浮雲，矯若驚龍。深為從伯敦、導所器重。時陳留阮裕有重名，為敦主簿。敦嘗謂羲之曰：「汝是吾家佳子弟，當不減阮主簿。」裕亦目羲之與王承、王悅為王氏三少。時太尉郗鑒使門生求女婿于導，導令就東廂遍觀子弟。門生歸，謂鑒曰：「王氏諸少並佳，然聞信至，咸自矜持。惟一人在東床坦腹食，獨若不聞。」鑒曰：「正此佳婿邪！」訪之，乃羲之也，遂以女妻之。",
+                "assertion_id": "a-jin080-wangxizhi-kin_019",
+                "scope": "兄子靜之與獻之明父羲之完整原文並存；中間父親缺名保留。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p036",
+                "quote": "有七子，知名者五人。玄之早卒。次凝之，亦工草隸，仕歷江州刺史、左將軍、會稽內史。王氏世事張氏五斗米道，凝之彌篤。孫恩之攻會稽，僚佐請為之備。凝之不從，方入靖室請禱，出語諸將佐曰：「吾已請大道，許鬼兵相助，賊自破矣。」既不設備，遂為孫所害。",
+                "assertion_id": "a-jin080-wangxizhi-kin_019",
+                "scope": "兄子靜之與獻之明父羲之完整原文並存；中間父親缺名保留。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-080",
+                "source_id": "s-jinshu-080-ws2603570-wangxizhi",
+                "chapter_id": "c-jinshu-080-wangxizhi",
+                "paragraph_id": "c-jinshu-080-wangxizhi:p042",
+                "quote": "獻之字子敬。少有盛名，而高邁不羈，雖閒居終日，容止不怠，風流為一時之冠。年數歲，嘗觀門生樗蒱，曰：「南風不競。」門生曰：「此郎亦管中窺豹，時見一斑。」獻之怒曰：「遠慚荀奉倩，近愧劉真長。」遂拂衣而去。嘗與兄徽之、操之俱詣謝安，二兄多言俗事，獻之寒溫而已。既出，客問安王氏兄弟優劣，安曰：「小者佳。」客問其故，安曰：「吉人之辭寡，以其少言，故知之。」嘗與徽之共在一室，忽然火發，徽之遽走，不遑取履。獻之神色恬然，徐呼左右扶出。夜臥齋中而有偷人入其室，盜物都盡。獻之徐曰：「偷兒，氈青我家舊物，可特置之。」群偷驚走。",
+                "assertion_id": "a-jin080-wangxizhi-kin_019",
+                "scope": "兄子靜之與獻之明父羲之完整原文並存；中間父親缺名保留。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷080&oldid=2603570"
+              }
+            ]
+          }
         }
       ]
     },
@@ -14309,6 +14547,736 @@
           "parent_person_id": "0uv_x8k_mfc_AE",
           "source_assertion_id": "a-jin043-shantao-kin_011",
           "connection": "father"
+        }
+      ]
+    },
+    {
+      "id": "family-taishan-yang-xu-core",
+      "root_person_id": "dqd_5q9_pkz",
+      "status": "contextual_provisional",
+      "human_reviewed": false,
+      "rationale": "祖續根的17位近系；明父祖/伯叔與兄弟的來源化編輯組裝，不新增source父。亮陶缺父不選祉；法興未名兄五代支暫不接；母/配偶各自父系不變。ID子碼不是絕對排行。",
+      "members": [
+        {
+          "person_id": "dqd_5q9_pkz",
+          "representative_source_person_id": "dqd_5q9_pkz",
+          "source_person_ids": [
+            "dqd_5q9_pkz"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null
+        },
+        {
+          "person_id": "dqd_5q9_pkz_B",
+          "representative_source_person_id": "dqd_5q9_pkz_B",
+          "source_person_ids": [
+            "dqd_5q9_pkz_B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_between_consecutive_ancestors",
+            "chain_subject_person_id": "dqd_5q9_pkz_BD",
+            "nearer_ancestor_assertion_id": "a-jin034-yanghu-father",
+            "farther_ancestor_assertion_id": "a-jin034-yanghu-paternal-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "祜明父道、明祖續，續→道只作連續祖父編輯接合，不新增source父。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0032",
+                "assertion_id": "a-jin034-yanghu-paternal-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_A",
+          "representative_source_person_id": "dqd_5q9_pkz_A",
+          "source_person_ids": [
+            "dqd_5q9_pkz_A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_from_nephew_named_father_and_grandfather",
+            "nephew_person_id": "dqd_5q9_pkz_BD",
+            "nephew_father_person_id": "dqd_5q9_pkz_B",
+            "paternal_uncle_assertion_id": "a-jin034-yanghu-paternal-uncle-mi",
+            "nephew_father_assertion_id": "a-jin034-yanghu-father",
+            "nephew_grandfather_assertion_id": "a-jin034-yanghu-paternal-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "祜伯父秘與父道同父系兄弟首選，共父續；非原文明秘父續。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0032",
+                "assertion_id": "a-jin034-yanghu-paternal-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0061",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0064",
+                "assertion_id": "a-jin034-yanghu-paternal-uncle-mi",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_C",
+          "representative_source_person_id": "dqd_5q9_pkz_C",
+          "source_person_ids": [
+            "dqd_5q9_pkz_C"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "parent_from_nephew_named_father_and_grandfather",
+            "nephew_person_id": "dqd_5q9_pkz_BD",
+            "nephew_father_person_id": "dqd_5q9_pkz_B",
+            "paternal_uncle_assertion_id": "a-jin034-yanghu-paternal-uncle-dan",
+            "nephew_father_assertion_id": "a-jin034-yanghu-father",
+            "nephew_grandfather_assertion_id": "a-jin034-yanghu-paternal-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "祜叔父耽與父道同父系兄弟首選，共父續；093后從父弟/琇父耽相互支持，不把從弟一概定親等。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0032",
+                "assertion_id": "a-jin034-yanghu-paternal-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0079",
+                "assertion_id": "a-jin034-yanghu-paternal-uncle-dan",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BD",
+          "representative_source_person_id": "dqd_5q9_pkz_BD",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_B",
+          "source_assertion_id": "a-jin034-yanghu-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BC",
+          "representative_source_person_id": "dqd_5q9_pkz_BC",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_B",
+          "source_assertion_id": "a-jin031-jingxian-yanghou-queen-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BA",
+          "representative_source_person_id": "dqd_5q9_pkz_BA",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_B",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_father_assertion_id": "a-jin034-yanghu-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "長兄發依來源兄弟與祜明父道作同父首選；不把蔡氏養發作生母。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p002",
+                "quote": "夏侯霸之降蜀也，姻親多告絕，祜獨安其室，恩禮有加焉。尋遭母憂，長兄發又卒，毀慕寢頓十餘年，以道素自居，恂恂若儒者。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p002:m0014",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p002:m0033",
+                "assertion_id": "a-jin034-yanghu-older-brother-fa",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_id": "dqd_5q9_pkz_BD",
+            "sibling_assertion_id": "a-jin034-yanghu-older-brother-fa",
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BB",
+          "representative_source_person_id": "dqd_5q9_pkz_BB",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_B",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_father_assertion_id": "a-jin034-yanghu-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "同母兄承在近系家族語境依來源兄弟＋祜明父作同父首選；同母本身不是父證。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p040",
+                "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p040:m0025",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p040:m0029",
+                "assertion_id": "a-jin034-yanghu-same-mother-brother-cheng",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_id": "dqd_5q9_pkz_BD",
+            "sibling_assertion_id": "a-jin034-yanghu-same-mother-brother-cheng",
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_CB",
+          "representative_source_person_id": "dqd_5q9_pkz_CB",
+          "source_person_ids": [
+            "dqd_5q9_pkz_CB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_C",
+          "source_assertion_id": "a-jin093-yangxiu-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_CA",
+          "representative_source_person_id": "dqd_5q9_pkz_CA",
+          "source_person_ids": [
+            "dqd_5q9_pkz_CA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_C",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_father_assertion_id": "a-jin093-yangxiu-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "琇兄瑾作同父首選；母未明，不把憲英自動配瑾。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-093",
+                "source_id": "s-jinshu-093-ws1548000-yangxiu",
+                "chapter_id": "c-jinshu-093-yangxiu",
+                "paragraph_id": "c-jinshu-093-yangxiu:p001",
+                "quote": "羊琇，字稚舒，景獻皇后之從父弟也。父耽，官至太常。兄瑾，尚書右僕射。琇少舉郡計，參鎮西鐘會軍事，從平蜀。及會謀反，琇正言苦諫，還，賜爵關內侯。琇涉學有智算，少與武帝通門，甚相親狎，每接筵同席，嘗謂帝曰：「若富貴見用，任領護各十年。」帝戲而許之。初，帝未立為太子，而聲論不及弟攸，文帝素意重攸，恆有代宗之議。琇密為武帝畫策，甚有匡救。又觀察文帝為政損益，揆度應所顧問之事，皆令武帝默而識之。其後文帝與武帝論當世之務及人間可否，武帝答無不允，由是儲位遂定。及帝為撫軍，命琇參軍事。帝即王位後，擢琇為左衛將軍，封甘露亭侯。帝踐阼，累遷中護軍，加散騎常侍。琇在職十三年，典禁兵，豫機密，寵遇甚厚。",
+                "subject_person_mention_id": "c-jinshu-093-yangxiu:p001:m0001",
+                "object_person_mention_id": "c-jinshu-093-yangxiu:p001:m0005",
+                "assertion_id": "a-jin093-yangxiu-brother",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-093",
+                "source_id": "s-jinshu-093-ws1548000-yangxiu",
+                "chapter_id": "c-jinshu-093-yangxiu",
+                "paragraph_id": "c-jinshu-093-yangxiu:p001",
+                "quote": "羊琇，字稚舒，景獻皇后之從父弟也。父耽，官至太常。兄瑾，尚書右僕射。琇少舉郡計，參鎮西鐘會軍事，從平蜀。及會謀反，琇正言苦諫，還，賜爵關內侯。琇涉學有智算，少與武帝通門，甚相親狎，每接筵同席，嘗謂帝曰：「若富貴見用，任領護各十年。」帝戲而許之。初，帝未立為太子，而聲論不及弟攸，文帝素意重攸，恆有代宗之議。琇密為武帝畫策，甚有匡救。又觀察文帝為政損益，揆度應所顧問之事，皆令武帝默而識之。其後文帝與武帝論當世之務及人間可否，武帝答無不允，由是儲位遂定。及帝為撫軍，命琇參軍事。帝即王位後，擢琇為左衛將軍，封甘露亭侯。帝踐阼，累遷中護軍，加散騎常侍。琇在職十三年，典禁兵，豫機密，寵遇甚厚。",
+                "subject_person_mention_id": "c-jinshu-093-yangxiu:p001:m0001",
+                "object_person_mention_id": "c-jinshu-093-yangxiu:p001:m0004",
+                "assertion_id": "a-jin093-yangxiu-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷093&oldid=1548000",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_id": "dqd_5q9_pkz_CB",
+            "sibling_assertion_id": "a-jin093-yangxiu-brother",
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_AA",
+          "representative_source_person_id": "dqd_5q9_pkz_AA",
+          "source_person_ids": [
+            "dqd_5q9_pkz_AA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_A",
+          "source_assertion_id": "a-jin034-yanghu-zhi-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BAA",
+          "representative_source_person_id": "dqd_5q9_pkz_BAA",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BAA"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_BA",
+          "source_assertion_id": "a-jin034-yanghu-lun-father",
+          "connection": "father"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BAB",
+          "representative_source_person_id": "dqd_5q9_pkz_BAB",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BAB"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_BA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling",
+            "sibling_father_assertion_id": "a-jin034-yanghu-lun-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "倫弟暨與p038祜兄子暨相合；依倫明父發作同父首選，不由嗣指定祜父。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0011",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0009",
+                "assertion_id": "a-jin034-yanghu-ji-younger-than-lun",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0003",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0000",
+                "assertion_id": "a-jin034-yanghu-lun-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_id": "dqd_5q9_pkz_BAA",
+            "sibling_assertion_id": "a-jin034-yanghu-ji-younger-than-lun",
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BAC",
+          "representative_source_person_id": "dqd_5q9_pkz_BAC",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BAC"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_BA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "sibling_father_assertion_id": "a-jin034-yanghu-lun-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "暨弟伊經來源兄弟鏈接倫明父發；拒命為祜後不作收養。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0020",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0018",
+                "assertion_id": "a-jin034-yanghu-yi-younger-than-ji",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0011",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0009",
+                "assertion_id": "a-jin034-yanghu-ji-younger-than-lun",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0003",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0000",
+                "assertion_id": "a-jin034-yanghu-lun-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_ids": [
+              "dqd_5q9_pkz_BAB",
+              "dqd_5q9_pkz_BAA"
+            ],
+            "sibling_assertion_ids": [
+              "a-jin034-yanghu-yi-younger-than-ji",
+              "a-jin034-yanghu-ji-younger-than-lun"
+            ],
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_BAD",
+          "representative_source_person_id": "dqd_5q9_pkz_BAD",
+          "source_person_ids": [
+            "dqd_5q9_pkz_BAD"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": "dqd_5q9_pkz_BA",
+          "source_assertion_id": null,
+          "parent_connection": {
+            "type": "shared_father_through_sibling_chain",
+            "sibling_father_assertion_id": "a-jin034-yanghu-lun-father",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "伊弟篇經鏈接倫明父發；奉祜嗣獨立儀禮關係，非改生父。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p038",
+                "quote": "帝以祜兄子暨為嗣，暨以父沒不得為人後。帝又令暨弟伊為祜後，又不奉詔。帝怒，並收免之。太康二年，以伊弟篇為钜平侯，奉祜嗣。篇曆官清慎，有私牛於官舍產犢，及遷而留之，位至散騎常侍，早卒。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p038:m0050",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p038:m0048",
+                "assertion_id": "a-jin034-yanghu-pian-younger-than-yi",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0020",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0018",
+                "assertion_id": "a-jin034-yanghu-yi-younger-than-ji",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0011",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0009",
+                "assertion_id": "a-jin034-yanghu-ji-younger-than-lun",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0003",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0000",
+                "assertion_id": "a-jin034-yanghu-lun-father",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ],
+            "sibling_person_ids": [
+              "dqd_5q9_pkz_BAC",
+              "dqd_5q9_pkz_BAB",
+              "dqd_5q9_pkz_BAA"
+            ],
+            "sibling_assertion_ids": [
+              "a-jin034-yanghu-pian-younger-than-yi",
+              "a-jin034-yanghu-yi-younger-than-ji",
+              "a-jin034-yanghu-ji-younger-than-lun"
+            ],
+            "interpretation_basis": "fixed_complete_witness_shared_father"
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_A*A",
+          "representative_source_person_id": "dqd_5q9_pkz_A*A",
+          "source_person_ids": [
+            "dqd_5q9_pkz_A*A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": "a-jin034-yanghu-liang-grandfather",
+          "ancestor_person_id": "dqd_5q9_pkz_A",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "interpretation_note": "秘孫亮明祖秘但父未明，不指派祉；秘與亮之間一缺代。"
+        },
+        {
+          "person_id": "dqd_5q9_pkz_A*B",
+          "representative_source_person_id": "dqd_5q9_pkz_A*B",
+          "source_person_ids": [
+            "dqd_5q9_pkz_A*B"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "ancestor_person_id": "dqd_5q9_pkz_A",
+          "connection": "grandfather",
+          "generation_distance": 2,
+          "intermediate_person_ids": [
+            null
+          ],
+          "interpretation_note": "亮弟陶共享祖秘首選；父仍未名，不選祉。",
+          "ancestor_connection": {
+            "type": "shared_ancestor_through_sibling",
+            "sibling_person_id": "dqd_5q9_pkz_A*A",
+            "sibling_assertion_id": "a-jin034-yanghu-tao-younger-than-liang",
+            "sibling_ancestor_assertion_id": "a-jin034-yanghu-liang-grandfather",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "亮弟陶共享祖秘首選；父仍未名，不選祉。",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0237",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0235",
+                "assertion_id": "a-jin034-yanghu-tao-younger-than-liang",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p041",
+                "quote": "發長子倫，高陽相。倫弟暨，陽平太守。暨弟伊，初為車騎賈充掾，後曆平南將軍、都督江北諸軍事，鎮宛，為張昌所殺，追贈鎮南將軍。祜伯父秘，官至京兆太守。子祉，魏郡太守。秘孫亮，字長玄，有才能，多計數。與之交者，必偽盡款誠，人皆謂得其心，而殊非其實也。初為太傅楊駿參軍，時京兆多盜竊。駿欲更重其法，盜百錢加大辟，請官屬會議，亮曰：「昔楚江乙母失布，以為盜由令尹。公若無欲，盜宜自止，何重法為？」駿慚而止。累轉大鴻臚。時惠帝在長安，亮與關東連謀，內不自安，奔於并州，為劉元海所害。亮弟陶，為徐州刺史。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p041:m0083",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p041:m0081",
+                "assertion_id": "a-jin034-yanghu-liang-grandfather",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662",
+                "scope": "完整來源近系明示角色；直接史料與編輯組裝分層，不補未名父祖/生母。"
+              }
+            ]
+          }
+        },
+        {
+          "person_id": "dqd_5q9_pkz_B*****A",
+          "representative_source_person_id": "dqd_5q9_pkz_B*****A",
+          "source_person_ids": [
+            "dqd_5q9_pkz_B*****A"
+          ],
+          "identity_equivalence_decision_ids": [],
+          "parent_person_id": null,
+          "source_assertion_id": null,
+          "ancestor_person_id": "dqd_5q9_pkz_B",
+          "connection": "ancestor",
+          "generation_distance": 6,
+          "intermediate_person_ids": [
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "interpretation_note": "祜未名兄下五代，合祜明父道得距六的父系祖先首選；兄不選發承，父及中世皆未知，不造來源父祖。",
+          "ancestor_connection": {
+            "type": "ancestor_above_unnamed_sibling_descendant",
+            "status": "contextual_provisional",
+            "human_reviewed": false,
+            "rationale": "原族系父系語境保暫定；玄孫四代加之子一代，與祜同代的未名兄上接祜明父道，非祜直祖。",
+            "reference_person_id": "dqd_5q9_pkz_BD",
+            "reference_grandfather_person_id": "dqd_5q9_pkz",
+            "collateral_descendant_assertion_id": "a-jin034-yanghu-faxing-five-generations-below-unnamed-brother",
+            "reference_father_assertion_id": "a-jin034-yanghu-father",
+            "reference_grandfather_assertion_id": "a-jin034-yanghu-paternal-grandfather",
+            "references": [
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p039",
+                "quote": "孝武太元中，封祜兄玄孫之子法興為钜平侯，邑五千戶。以桓玄党誅，國除。尚書祠部郎荀伯子上表訟之曰：「臣聞咎繇亡嗣，臧文以為深歎；伯氏奪邑，管仲所以稱仁。功高可百世不泯，濫賞無得崇朝。故太傅、钜平侯羊祜明德通賢，國之宗主，勳參佐命，功成平吳，而後嗣闕然，烝嘗莫寄。漢以蕭何元功，故絕世輒繼，愚謂钜平封宜同酂國。故太尉廣陵公准黨翼賊倫，禍加淮南，因逆為利，竊饗大邦。值西朝政刑失裁，中興因而不奪。今王道維新，豈可不大判臧否，謂廣陵國宜在削除。故太保衛瓘本爵菑陽縣公，既被橫害，乃進茅土，始贈蘭陵，又轉江夏。中朝名臣，多非理終，瓘功德無殊，而獨受偏賞，謂宜罷其郡封，復邑菑陽，則與奪有倫，善惡分矣。」竟寢不報。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p039:m0013",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p039:m0007",
+                "assertion_id": "a-jin034-yanghu-faxing-five-generations-below-unnamed-brother",
+                "scope": "原始來源角色及完整引文；祖先路徑僅編輯推導。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0042",
+                "assertion_id": "a-jin034-yanghu-father",
+                "scope": "原始來源角色及完整引文；祖先路徑僅編輯推導。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662"
+              },
+              {
+                "work_id": "w-jinshu",
+                "book_id": "b-jinshu-034",
+                "source_id": "s-jinshu-034-ws2567662-yanghu",
+                "chapter_id": "c-jinshu-034-yanghu",
+                "paragraph_id": "c-jinshu-034-yanghu:p001",
+                "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+                "subject_person_mention_id": "c-jinshu-034-yanghu:p001:m0000",
+                "object_person_mention_id": "c-jinshu-034-yanghu:p001:m0032",
+                "assertion_id": "a-jin034-yanghu-paternal-grandfather",
+                "scope": "原始來源角色及完整引文；祖先路徑僅編輯推導。",
+                "url": "https://zh.wikisource.org/w/index.php?title=晉書/卷034&oldid=2567662"
+              }
+            ]
+          }
         }
       ]
     }

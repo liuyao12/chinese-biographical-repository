@@ -12,6 +12,10 @@ def source_errors(ch,root):
    p=Path(name);assert not p.is_absolute()and p.parts[0]in('source-evidence','sources','corpus')and'..'not in p.parts
    q=root/p;assert q.resolve()==q and q.is_file();return q
   b=json.loads(local(ref).read_text())
+  if b.get('record_type')=='fixed_wikisource_linked_heading_quote_biography':
+   try:from scripts.fixed_linked_heading_biography import errors as linked_errors
+   except ImportError:from fixed_linked_heading_biography import errors as linked_errors
+   return linked_errors(ch,root,b)
   if b.get('record_type')=='fixed_wikisource_attached_biography_quotes':
    try:from scripts.fixed_attached_biography_quotes import errors as quoted_errors
    except ImportError:from fixed_attached_biography_quotes import errors as quoted_errors

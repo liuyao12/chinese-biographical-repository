@@ -8,10 +8,23 @@ def valid(member,rows,assertions,chapters,root):
   except ImportError:from received_quoted_family import valid as kin_valid
   ps={p['id']:(ch['id'],p)for ch in chapters.values()for p in ch['paragraphs']};parent=rows[member['parent_person_id']];ids=set(member['source_person_ids']);proof=[]
   def source(id):
-   a=assertions[id];assert kin_valid(a,ps,chapters,root);q=a['qualifiers'];assert not any(q.get(k)for k in('adoptive','sworn','same_mother_only'))and q.get('shared_father')is not False and q.get('lineage')not in('maternal','non_paternal');proof.append(a);return a
+   a=assertions[id];q=a['qualifiers'];assert not any(q.get(k)for k in('adoptive','sworn','same_mother_only'))and q.get('shared_father')is not False and q.get('lineage')not in('maternal','non_paternal')
+   if basis=='fixed_complete_witness_shared_father':
+    cids={e['chapter_id']for e in a['evidence']};assert len(cids)==1;cid=next(iter(cids));ch=chapters[cid];assert ch.get('annotation',{}).get('fixed_wikisource_unit_ref')
+    if a.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+     try:from scripts.fixed_witness_fact_slots import valid as witness_valid
+     except ImportError:from fixed_witness_fact_slots import valid as witness_valid
+     assert witness_valid(a,ch,root)
+    elif 'received_family_frame'in q:
+     try:from scripts.punctuated_family_frames import valid as frame_valid
+     except ImportError:from punctuated_family_frames import valid as frame_valid
+     assert frame_valid(a,ps,chapters,root)
+    else:raise AssertionError('No validated complete-witness family role')
+   else:assert kin_valid(a,ps,chapters,root)
+   proof.append(a);return a
   if basis=='fixed_received_zu_fu_sequence':
    assert c['type']=='parent_between_consecutive_ancestors';n=source(c['nearer_ancestor_assertion_id']);g=source(c['farther_ancestor_assertion_id']);assert n['predicate']=='father'and g['predicate']=='grandfather'and n['subject_person_id']==g['subject_person_id']and n['subject_person_id']in rows[c['chain_subject_person_id']]['source_person_ids']and n['object_person_id']in ids and g['object_person_id']in parent['source_person_ids'];assert n['qualifiers']['source_kinship_frame']==g['qualifiers']['source_kinship_frame']and n['qualifiers']['source_kinship_frame']['rule']=='annotated_head_ancestor_offices'and len({n['subject_person_id'],n['object_person_id'],g['object_person_id']})==3
-  elif basis=='fixed_received_shared_father':
+  elif basis in('fixed_received_shared_father','fixed_complete_witness_shared_father'):
    if c['type']=='shared_father_through_sibling':siblings=[c['sibling_person_id']];edges=[c['sibling_assertion_id']]
    else:assert c['type']=='shared_father_through_sibling_chain';siblings=c['sibling_person_ids'];edges=c['sibling_assertion_ids'];assert len(siblings)==len(edges)and 2<=len(edges)<=3
    current=ids;seen=set(ids)

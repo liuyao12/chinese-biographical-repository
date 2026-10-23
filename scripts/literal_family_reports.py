@@ -74,6 +74,10 @@ def kinship_valid(a,paragraphs,chapters,root):
  except(KeyError,ValueError,TypeError,StopIteration,AssertionError,OSError,IndexError):return False
 
 def count_valid(report,paragraphs,chapters,root,parse):
+ if 'received_unit_family_binding' in report:
+  try:from scripts.received_unit_kinship import count_valid as unit_count_valid
+  except ImportError:from received_unit_kinship import count_valid as unit_count_valid
+  return unit_count_valid(report,paragraphs,chapters,root)
  if 'received_unit_count_binding' in report:
   try:from scripts.fixed_wikisource_units import unit_son_count_valid
   except ImportError:from fixed_wikisource_units import unit_son_count_valid

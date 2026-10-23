@@ -1,0 +1,189 @@
+{
+  "research_proposals": 26,
+  "native_slots": 27,
+  "categories": {
+    "address": 5,
+    "age": 1,
+    "assertion": 6,
+    "detail": 2,
+    "holding": 7,
+    "life": 2,
+    "name": 3,
+    "person_event": 1
+  },
+  "proposal_split": "葬事另分person event與burial_place address，26候選轉27原生槽；並非多造來源。",
+  "slots": [
+    {
+      "slot": "queen-name",
+      "category": "name",
+      "record_id": "n-jin031-jingxian-yanghou-queen-name",
+      "coverage": "明姓/諱"
+    },
+    {
+      "slot": "father-name",
+      "category": "name",
+      "record_id": "n-jin031-jingxian-yanghou-father-name",
+      "coverage": "父單名/同源姓氏首選"
+    },
+    {
+      "slot": "mother-name",
+      "category": "name",
+      "record_id": "n-jin031-jingxian-yanghou-mother-name",
+      "coverage": "原氏稱"
+    },
+    {
+      "slot": "queen-father",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-queen-father",
+      "coverage": "父茞"
+    },
+    {
+      "slot": "queen-mother",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-queen-mother",
+      "coverage": "后母陳留蔡氏"
+    },
+    {
+      "slot": "mother-father",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-mother-father",
+      "coverage": "蔡氏，漢左中郎將邕之女也"
+    },
+    {
+      "slot": "queen-spouse",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-queen-spouse",
+      "coverage": "景帝更娶鎮北將軍濮陽吳質女，見黜，復納后"
+    },
+    {
+      "slot": "wu-father",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-wu-father",
+      "coverage": "吳質女"
+    },
+    {
+      "slot": "wu-spouse",
+      "category": "assertion",
+      "record_id": "a-jin031-jingxian-yanghou-wu-spouse",
+      "coverage": "景帝更娶鎮北將軍濮陽吳質女"
+    },
+    {
+      "slot": "queen-title",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-queen-title",
+      "coverage": "景獻羊皇后"
+    },
+    {
+      "slot": "father-office",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-father-office",
+      "coverage": "上黨太守"
+    },
+    {
+      "slot": "cai-office",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-cai-office",
+      "coverage": "左中郎將"
+    },
+    {
+      "slot": "wu-office",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-wu-office",
+      "coverage": "鎮北將軍"
+    },
+    {
+      "slot": "queen-dowager",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-queen-dowager",
+      "coverage": "弘訓太后"
+    },
+    {
+      "slot": "mother-county",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-mother-county",
+      "coverage": "濟陽縣君"
+    },
+    {
+      "slot": "mother-postname",
+      "category": "holding",
+      "record_id": "th-jin031-jingxian-yanghou-mother-postname",
+      "coverage": "穆"
+    },
+    {
+      "slot": "queen-origin",
+      "category": "address",
+      "record_id": "ad-jin031-jingxian-yanghou-queen-origin",
+      "coverage": "泰山南城人"
+    },
+    {
+      "slot": "mother-origin",
+      "category": "address",
+      "record_id": "ad-jin031-jingxian-yanghou-mother-origin",
+      "coverage": "陳留蔡氏"
+    },
+    {
+      "slot": "wu-origin",
+      "category": "address",
+      "record_id": "ad-jin031-jingxian-yanghou-wu-origin",
+      "coverage": "濮陽吳質女"
+    },
+    {
+      "slot": "queen-residence",
+      "category": "address",
+      "record_id": "ad-jin031-jingxian-yanghou-queen-residence",
+      "coverage": "居弘訓宮"
+    },
+    {
+      "slot": "queen-burial-place",
+      "category": "address",
+      "record_id": "ad-jin031-jingxian-yanghou-queen-burial-place",
+      "coverage": "祔葬峻平陵"
+    },
+    {
+      "slot": "jinghuai-death",
+      "category": "life",
+      "record_id": "le-jin031-jingxian-yanghou-jinghuai-death",
+      "coverage": "景懷皇后崩"
+    },
+    {
+      "slot": "queen-death",
+      "category": "life",
+      "record_id": "le-jin031-jingxian-yanghou-queen-death",
+      "coverage": "太后崩"
+    },
+    {
+      "slot": "queen-burial",
+      "category": "person_event",
+      "record_id": "pe-jin031-jingxian-yanghou-queen-burial",
+      "coverage": "祔葬峻平陵"
+    },
+    {
+      "slot": "queen-age",
+      "category": "age",
+      "record_id": "age-jin031-jingxian-yanghou-queen-age",
+      "coverage": "卒齡65"
+    },
+    {
+      "slot": "wu-dismissal",
+      "category": "detail",
+      "record_id": "bd-jin031-jingxian-yanghou-wu-dismissal",
+      "coverage": "見黜"
+    },
+    {
+      "slot": "queen-no-sons",
+      "category": "detail",
+      "record_id": "bd-jin031-jingxian-yanghou-queen-no-sons",
+      "coverage": "無子"
+    }
+  ],
+  "unknown": [
+    "生年",
+    "父茞的父祖",
+    "母蔡氏名",
+    "吳女名",
+    "女兒數",
+    "武帝受禪數字年",
+    "官職起訖",
+    "影像/實際底本"
+  ]
+}

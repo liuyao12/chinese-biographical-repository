@@ -1,0 +1,34 @@
+{
+  "record_type": "current_identity_endpoint_projection",
+  "historical_file": "source-evidence/yang-family-assembly/generated-refresh-required.json",
+  "historical_sha256": "65f9487536c33e78f8e4c30bbe9943e8ff5ff20eaff2a3f4f6997415cdfbf721",
+  "mapping_receipt_ref": "source-evidence/yang-faxing-ancestor/annotation-chain.json",
+  "qualification": "明列原檔exact hash完整保全；此前current review自本次起superseded，本projection為現行端點；內部capture hashes指原件，非本projection。",
+  "records": {
+    "record_type": "generated_refresh_required",
+    "family_id": "family-taishan-yang-xu-core",
+    "status": "mandatory_before_publication",
+    "canonical_person_ids": [
+      "dqd_5q9_pkz",
+      "dqd_5q9_pkz_B",
+      "dqd_5q9_pkz_A",
+      "dqd_5q9_pkz_C",
+      "dqd_5q9_pkz_BD",
+      "dqd_5q9_pkz_BC",
+      "dqd_5q9_pkz_BA",
+      "dqd_5q9_pkz_BB",
+      "dqd_5q9_pkz_CB",
+      "dqd_5q9_pkz_CA",
+      "dqd_5q9_pkz_AA",
+      "dqd_5q9_pkz_BAA",
+      "dqd_5q9_pkz_BAB",
+      "dqd_5q9_pkz_BAC",
+      "dqd_5q9_pkz_BAD",
+      "dqd_5q9_pkz_A*A",
+      "dqd_5q9_pkz_A*B"
+    ],
+    "deferred_person_id": "dqd_5q9_pkz_B*****A",
+    "old_profile_queries": "404_not_alias",
+    "scope": "只清理兩generated人物目錄的16舊號；新人物包、索引與閱讀器需由root完整export，不拿舊derived改號冒作刷新。"
+  }
+}

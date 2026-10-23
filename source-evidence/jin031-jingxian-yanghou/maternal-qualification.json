@@ -1,0 +1,225 @@
+{
+  "status": "contextual_preferred",
+  "source_explicit_birth": false,
+  "source_relation_kept": "mother",
+  "qualification": "031母稱按原文保留；生母首選由031蔡氏邕女與034蔡邕外孫／景獻同產弟、前母生發／祜同母兄承完整母系對照而來。祜母養發不是生發。孔融女前母與蔡氏不可混；母親名字、出生、其他婚配不補。",
+  "supporting_source_references": [
+    {
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-031",
+      "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+      "chapter_id": "c-jinshu-031-jingxian-yanghou",
+      "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+      "quote": "景獻羊皇后諱徽瑜，泰山南城人。父茞，上黨太守；后母陳留蔡氏，漢左中郎將邕之女也。",
+      "role_mentions": {
+        "queen": "c-jinshu-031-jingxian-yanghou:p001:m0004",
+        "mother": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+        "maternal_ancestor": "c-jinshu-031-jingxian-yanghou:p001:m0006"
+      }
+    },
+    {
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "chapter_id": "c-jinshu-034-yanghu",
+      "paragraph_id": "c-jinshu-034-yanghu:p001",
+      "quote": "羊祜，字叔子，泰山南城人也。世吏二千石，至祜九世，並以清德聞。祖續，仕漢南陽太守。父道，上党太守。祜，蔡邕外孫，景獻皇后同產弟。祜年十二喪父，孝思過禮，事叔父耽甚謹。嘗游汶水之濱，遇父老謂之曰：「孺子有好相，年未六十，必建大功於天下。」既而去，莫知所在。及長，博學能屬文，身長七尺三寸，美鬚眉，善談論。郡將夏侯威異之，以兄霸之子妻之。舉上計吏，州四辟從事、秀才，五府交命，皆不就。太原郭奕見之曰：「此今日之顏子也。」與王沈俱被曹爽辟。沈勸就征，祜曰：「委質事人，復何容易。」及爽敗，沈以故吏免，因謂祜曰：「常識卿前語。」祜曰：「此非始慮所及。」其先識不伐如此。",
+      "role_mentions": {
+        "queen": "c-jinshu-034-yanghu:p001:m0056",
+        "brother": "c-jinshu-034-yanghu:p001:m0049",
+        "maternal_ancestor": "c-jinshu-034-yanghu:p001:m0051"
+      }
+    },
+    {
+      "work_id": "w-jinshu",
+      "book_id": "b-jinshu-034",
+      "source_id": "s-jinshu-034-ws2567662-yanghu",
+      "chapter_id": "c-jinshu-034-yanghu",
+      "paragraph_id": "c-jinshu-034-yanghu:p040",
+      "quote": "祜前母，孔融女，生兄發，官至都督淮北護軍。初，發與祜同母兄承俱得病，祜母度不能兩存，乃專心養發，故得濟，而承竟死。",
+      "role_mentions": {
+        "brother": "c-jinshu-034-yanghu:p040:m0025",
+        "mother": "c-jinshu-034-yanghu:p040:m0034",
+        "prior_mother": "c-jinshu-034-yanghu:p040:m0001",
+        "older_brother": "c-jinshu-034-yanghu:p040:m0010",
+        "same_mother_brother": "c-jinshu-034-yanghu:p040:m0029"
+      }
+    }
+  ],
+  "proof": {
+    "slot": "queen-mother",
+    "kind": "fixed_complete_witness_maternal_context",
+    "witnesses": [
+      {
+        "chapter_path": "corpus/jinshu/031-jingxian-yanghou.json",
+        "chapter_id": "c-jinshu-031-jingxian-yanghou",
+        "source_revision": 2479706,
+        "raw_sha256": "fce325e2f752536c45c0b03e3fb7ead1f6808bc797adc186cfa32af8173b21b5",
+        "paragraph_id": "c-jinshu-031-jingxian-yanghou:p001",
+        "paragraph_sha256": "d9932fdd3d4ed228d28d33e6555d3d2ab0478f7f1cd0b904e8b19fafa3292a9a",
+        "role_bindings": {
+          "queen": {
+            "id": "c-jinshu-031-jingxian-yanghou:p001:m0004",
+            "start": 23,
+            "end": 24,
+            "surface": "后"
+          },
+          "mother": {
+            "id": "c-jinshu-031-jingxian-yanghou:p001:m0005",
+            "start": 27,
+            "end": 29,
+            "surface": "蔡氏"
+          },
+          "maternal_ancestor": {
+            "id": "c-jinshu-031-jingxian-yanghou:p001:m0006",
+            "start": 35,
+            "end": 36,
+            "surface": "邕"
+          }
+        }
+      },
+      {
+        "chapter_path": "corpus/jinshu/034-yanghu.json",
+        "chapter_id": "c-jinshu-034-yanghu",
+        "source_revision": 2567662,
+        "raw_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "paragraph_id": "c-jinshu-034-yanghu:p001",
+        "paragraph_sha256": "1e07d5c29a034f776d93f79b9b9ec1530c3e53f4bb0ac7c7cf9c7105cac588ea",
+        "role_bindings": {
+          "queen": {
+            "id": "c-jinshu-034-yanghu:p001:m0056",
+            "start": 56,
+            "end": 60,
+            "surface": "景獻皇后"
+          },
+          "brother": {
+            "id": "c-jinshu-034-yanghu:p001:m0049",
+            "start": 49,
+            "end": 50,
+            "surface": "祜"
+          },
+          "maternal_ancestor": {
+            "id": "c-jinshu-034-yanghu:p001:m0051",
+            "start": 51,
+            "end": 53,
+            "surface": "蔡邕"
+          }
+        }
+      },
+      {
+        "chapter_path": "corpus/jinshu/034-yanghu.json",
+        "chapter_id": "c-jinshu-034-yanghu",
+        "source_revision": 2567662,
+        "raw_sha256": "0dc292f7743a95456ac8fa2977ba82bcaa35e1dd9cebe32fb2ecfab2f21f7a71",
+        "paragraph_id": "c-jinshu-034-yanghu:p040",
+        "paragraph_sha256": "b28cc6af7e0e117d5b6420d3826754fc009dd57d65f0401e04e369789a6c0bc8",
+        "role_bindings": {
+          "brother": {
+            "id": "c-jinshu-034-yanghu:p040:m0025",
+            "start": 25,
+            "end": 26,
+            "surface": "祜"
+          },
+          "mother": {
+            "id": "c-jinshu-034-yanghu:p040:m0034",
+            "start": 34,
+            "end": 36,
+            "surface": "祜母"
+          },
+          "prior_mother": {
+            "id": "c-jinshu-034-yanghu:p040:m0001",
+            "start": 1,
+            "end": 3,
+            "surface": "前母"
+          },
+          "older_brother": {
+            "id": "c-jinshu-034-yanghu:p040:m0010",
+            "start": 10,
+            "end": 11,
+            "surface": "發"
+          },
+          "same_mother_brother": {
+            "id": "c-jinshu-034-yanghu:p040:m0029",
+            "start": 29,
+            "end": 30,
+            "surface": "承"
+          }
+        }
+      }
+    ],
+    "record_roles": {
+      "subject": [
+        0,
+        "queen"
+      ],
+      "object": [
+        0,
+        "mother"
+      ]
+    },
+    "same_identity_groups": [
+      [
+        [
+          0,
+          "queen"
+        ],
+        [
+          1,
+          "queen"
+        ]
+      ],
+      [
+        [
+          0,
+          "mother"
+        ],
+        [
+          2,
+          "mother"
+        ]
+      ],
+      [
+        [
+          0,
+          "maternal_ancestor"
+        ],
+        [
+          1,
+          "maternal_ancestor"
+        ]
+      ],
+      [
+        [
+          1,
+          "brother"
+        ],
+        [
+          2,
+          "brother"
+        ]
+      ]
+    ],
+    "distinct_identity_groups": [
+      [
+        [
+          2,
+          "mother"
+        ],
+        [
+          2,
+          "prior_mother"
+        ]
+      ],
+      [
+        [
+          2,
+          "older_brother"
+        ],
+        [
+          2,
+          "same_mother_brother"
+        ]
+      ]
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "format_version": "0.2",
+  "record_type": "person_event_assertion_set",
+  "chapter_id": "c-jinshu-031-jingxian-yanghou",
+  "events": [
+    {
+      "id": "pe-jin031-jingxian-yanghou-queen-burial",
+      "person_id": "dqd_5q9_pkz_BC",
+      "status": "source_attested",
+      "evidence": [
+        {
+          "work_id": "w-jinshu",
+          "book_id": "b-jinshu-031",
+          "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+          "chapter_id": "c-jinshu-031-jingxian-yanghou",
+          "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+          "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+          "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0012"
+        }
+      ],
+      "reviewer": "Codex（AI代理）",
+      "human_reviewed": false,
+      "model": null,
+      "interpretation_note": "依完整固定本傳原角色；未知人物/年月/任終不補。",
+      "fixed_source_fact_binding": {
+        "kind": "fixed_witness_person_fact_slots",
+        "key": "jin031-jingxian-yanghou",
+        "slot": "queen-burial"
+      },
+      "event_type": "burial",
+      "source_term": "祔葬峻平陵",
+      "source_anchor": {
+        "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+        "start": 86,
+        "end": 91,
+        "surface": "祔葬峻平陵"
+      },
+      "date_expression": "咸寧四年",
+      "normalized_date": {
+        "year_numbering": "astronomical",
+        "calendar": "chinese_civil",
+        "status": "editorial_provisional",
+        "source_expression": "咸寧四年",
+        "original_quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+        "evidence": [
+          {
+            "work_id": "w-jinshu",
+            "book_id": "b-jinshu-031",
+            "source_id": "s-jinshu-031-ws2479706-jingxian-yanghou",
+            "chapter_id": "c-jinshu-031-jingxian-yanghou",
+            "paragraph_id": "c-jinshu-031-jingxian-yanghou:p002",
+            "quote": "后聰敏有才行。景懷皇后崩，景帝更娶鎮北將軍濮陽吳質女，見黜，復納后，無子。武帝受禪，居弘訓宮，號弘訓太后。泰始九年，追贈蔡氏濟陽縣君，諡曰穆。咸寧四年，太后崩，時年六十五，祔葬峻平陵。",
+            "person_mention_id": "c-jinshu-031-jingxian-yanghou:p002:m0012"
+          }
+        ],
+        "references": [
+          {
+            "title": "教育部《重編國語辭典修訂本》中國歷代年號表",
+            "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&page=2",
+            "quote": "咸寧",
+            "scope": "modern_era_year_equivalence_only",
+            "columns": {
+              "dynasty": "西晉",
+              "era_name": "咸寧",
+              "first_year": "275",
+              "last_year": "280"
+            },
+            "accessed_on": "2026-10-22",
+            "image_verified": false
+          }
+        ],
+        "reviewer": "Codex（AI代理）",
+        "human_reviewed": false,
+        "rationale": "實讀官方西晉年號行；只換中國曆年，不推生日或月日。",
+        "era": "CE",
+        "era_year": 278,
+        "year": 278,
+        "precision": "year",
+        "regnal_year_mapping": {
+          "kind": "ce_regnal_era_span",
+          "reference_index": 0,
+          "start_ce_year": 275,
+          "end_ce_year": 280,
+          "regnal_year": 4,
+          "source_number": "四",
+          "era_name": "咸寧"
+        }
+      }
+    }
+  ]
+}

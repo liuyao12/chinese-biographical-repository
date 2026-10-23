@@ -1,0 +1,925 @@
+{
+  "record_type": "current_identity_endpoint_projection",
+  "historical_file": "source-evidence/sgz025-xinpi/identity-review.json",
+  "historical_sha256": "ba6a9a5315552f48c97eb120ca6296f9460f7334267028042d62914e362269a3",
+  "historical_classification": "original_reading_or_identity_capture_and_editorial_review",
+  "current_family_id": "family-taishan-yang-xu-core",
+  "mapping_receipt_ref": "source-evidence/yang-family-assembly/annotation-chain.json",
+  "person_aliases_created": false,
+  "qualification": "原文檔與所有capture/hash保原bytes；本projection只提供現行結構化人物端點，內部原capture hashes均指historical_file原件，非改寫projection的hash，不冒作新原始見證。",
+  "records": {
+    "record_type": "source_identity_review",
+    "human_reviewed": false,
+    "model": null,
+    "identities": {
+      "辛毗": {
+        "person_id": "84b_e50_f7d",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025郭嘉傳使者辛毗與010譚遣辛毗乞救，均譚尚爭冀州、毗求太祖還救的同一使者；本篇明字佐治潁川陽翟。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0000",
+          "c-sanguozhi-025-xinpi:p001:m0003",
+          "c-sanguozhi-025-xinpi:p001:m0021",
+          "c-sanguozhi-025-xinpi:p001:m0034",
+          "c-sanguozhi-025-xinpi:p001:m0035",
+          "c-sanguozhi-025-xinpi:p001:m0051",
+          "c-sanguozhi-025-xinpi:p002:m0145",
+          "c-sanguozhi-025-xinpi:p002:m0152",
+          "c-sanguozhi-025-xinpi:p003:m0010",
+          "c-sanguozhi-025-xinpi:p003:m0040",
+          "c-sanguozhi-025-xinpi:p003:m0059",
+          "c-sanguozhi-025-xinpi:p003:m0069",
+          "c-sanguozhi-025-xinpi:p003:m0420",
+          "c-sanguozhi-025-xinpi:p003:m0437",
+          "c-sanguozhi-025-xinpi:p003:m0460",
+          "c-sanguozhi-025-xinpi:p003:m0492",
+          "c-sanguozhi-025-xinpi:p003:m0576",
+          "c-sanguozhi-025-xinpi:p003:m0597",
+          "c-sanguozhi-025-xinpi:p003:m0618",
+          "c-sanguozhi-025-xinpi:p003:m0634",
+          "c-sanguozhi-025-xinpi:p003:m0682",
+          "c-sanguozhi-025-xinpi:p003:m0699",
+          "c-sanguozhi-025-xinpi:p003:m0708",
+          "c-sanguozhi-025-xinpi:p003:m0737",
+          "c-sanguozhi-025-xinpi:p003:m0772",
+          "c-sanguozhi-025-xinpi:p003:m0789",
+          "c-sanguozhi-025-xinpi:p003:m1002",
+          "c-sanguozhi-025-xinpi:p003:m1071",
+          "c-sanguozhi-025-xinpi:p003:m1076",
+          "c-sanguozhi-025-xinpi:p003:m1106",
+          "c-sanguozhi-025-xinpi:p003:m1121",
+          "c-sanguozhi-025-xinpi:p003:m1138",
+          "c-sanguozhi-025-xinpi:p003:m1189",
+          "c-sanguozhi-025-xinpi:p003:m1191",
+          "c-sanguozhi-025-xinpi:p003:m1220",
+          "c-sanguozhi-025-xinpi:p003:m1252",
+          "c-sanguozhi-025-xinpi:p003:m1404",
+          "c-sanguozhi-025-xinpi:p004:m0054",
+          "c-sanguozhi-025-xinpi:p004:m0152",
+          "c-sanguozhi-025-xinpi:p004:m0194",
+          "c-sanguozhi-025-xinpi:p004:m0238",
+          "c-sanguozhi-025-xinpi:p005:m0039",
+          "c-sanguozhi-025-xinpi:p005:m0054",
+          "c-sanguozhi-025-xinpi:p006:m0010",
+          "c-sanguozhi-025-xinpi:p006:m0024",
+          "c-sanguozhi-025-xinpi:p007:m0010",
+          "c-sanguozhi-025-xinpi:p008:m0011",
+          "c-sanguozhi-025-xinpi:p008:m0056",
+          "c-sanguozhi-025-xinpi:p008:m0061",
+          "c-sanguozhi-025-xinpi:p008:m0067"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "辛評": {
+        "person_id": "c78_8d9_d5b",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025開篇毗隨兄評從袁紹，014紹謀臣辛評郭圖，010同郡辛平郭圖為紹所任；主君/同列/毗近親環境相容，首選同人，評平原字不改也非全域alias。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0024"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。",
+        "source_spelling_is_not_alias": true,
+        "source_forms": [
+          {
+            "chapter_id": "c-sanguozhi-025-xinpi",
+            "surface": "評"
+          },
+          {
+            "chapter_id": "c-sanguozhi-014-guojia",
+            "surface": "辛評"
+          },
+          {
+            "chapter_id": "c-sanguozhi-010-xunyu-xunyou-jiaxu",
+            "surface": "辛平"
+          }
+        ]
+      },
+      "袁紹": {
+        "person_id": "102_884_39d",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025辛毗兄評從袁紹，後尚譚二子相攻；010紹任辛平郭圖、014郭嘉初見紹及二子爭，主君/子嗣/謀臣同一上下文。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0026"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "袁譚": {
+        "person_id": "288_149_559",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇袁尚攻兄譚平原、顯思求曹公援，與010/014紹二子譚尚相爭及辛毗使者同事件。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0045",
+          "c-sanguozhi-025-xinpi:p001:m0049",
+          "c-sanguozhi-025-xinpi:p002:m0004",
+          "c-sanguozhi-025-xinpi:p002:m0010",
+          "c-sanguozhi-025-xinpi:p002:m0018",
+          "c-sanguozhi-025-xinpi:p002:m0021",
+          "c-sanguozhi-025-xinpi:p002:m0061",
+          "c-sanguozhi-025-xinpi:p002:m0130",
+          "c-sanguozhi-025-xinpi:p002:m0149",
+          "c-sanguozhi-025-xinpi:p003:m0015",
+          "c-sanguozhi-025-xinpi:p003:m0031",
+          "c-sanguozhi-025-xinpi:p003:m0061",
+          "c-sanguozhi-025-xinpi:p003:m0125",
+          "c-sanguozhi-025-xinpi:p003:m0244",
+          "c-sanguozhi-025-xinpi:p003:m0407"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "袁尚": {
+        "person_id": "3d4_926_480",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇顯甫與譚兄弟爭，首名袁尚；與010/014紹子尚攻譚平原相合，不是袁熙。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0041",
+          "c-sanguozhi-025-xinpi:p002:m0005",
+          "c-sanguozhi-025-xinpi:p002:m0031",
+          "c-sanguozhi-025-xinpi:p002:m0048",
+          "c-sanguozhi-025-xinpi:p002:m0057",
+          "c-sanguozhi-025-xinpi:p002:m0076",
+          "c-sanguozhi-025-xinpi:p003:m0032",
+          "c-sanguozhi-025-xinpi:p003:m0064",
+          "c-sanguozhi-025-xinpi:p003:m0122",
+          "c-sanguozhi-025-xinpi:p003:m0204",
+          "c-sanguozhi-025-xinpi:p003:m0232",
+          "c-sanguozhi-025-xinpi:p003:m0274"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "郭圖": {
+        "person_id": "bad_ea2_bc7",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025英雄記郭圖為袁譚謀求曹援、選辛佐治，與010紹任辛平郭圖及014譚尚間郭圖謀臣相容；不從郭姓接家系。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p002:m0015",
+          "c-sanguozhi-025-xinpi:p002:m0139",
+          "c-sanguozhi-025-xinpi:p002:m0143"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹操": {
+        "person_id": "dad_b77_b38",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇太祖為司空辟毗、袁譚求救、命曹洪下辯以及後文武皇帝，皆魏武主君；與010/014同征譚尚主君一致。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p001:m0028",
+          "c-sanguozhi-025-xinpi:p001:m0053",
+          "c-sanguozhi-025-xinpi:p002:m0044",
+          "c-sanguozhi-025-xinpi:p002:m0050",
+          "c-sanguozhi-025-xinpi:p002:m0090",
+          "c-sanguozhi-025-xinpi:p002:m0092",
+          "c-sanguozhi-025-xinpi:p002:m0121",
+          "c-sanguozhi-025-xinpi:p002:m0154",
+          "c-sanguozhi-025-xinpi:p003:m0000",
+          "c-sanguozhi-025-xinpi:p003:m0012",
+          "c-sanguozhi-025-xinpi:p003:m0017",
+          "c-sanguozhi-025-xinpi:p003:m0042",
+          "c-sanguozhi-025-xinpi:p003:m0054",
+          "c-sanguozhi-025-xinpi:p003:m0056",
+          "c-sanguozhi-025-xinpi:p003:m0072",
+          "c-sanguozhi-025-xinpi:p003:m0116",
+          "c-sanguozhi-025-xinpi:p003:m0249",
+          "c-sanguozhi-025-xinpi:p003:m0277",
+          "c-sanguozhi-025-xinpi:p003:m0279",
+          "c-sanguozhi-025-xinpi:p003:m0401",
+          "c-sanguozhi-025-xinpi:p003:m0426",
+          "c-sanguozhi-025-xinpi:p003:m0904",
+          "c-sanguozhi-025-xinpi:p004:m0100"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "郭嘉": {
+        "person_id": "344_68f_98e",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025太祖西平準備荊州、辛毗告嘉再還救譚，與014同南征西平譚遣辛毗乞降太祖還救同事件鏈。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0050",
+          "c-sanguozhi-025-xinpi:p003:m0052"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹洪": {
+        "person_id": "a28_f5c_105",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025都護曹洪平下辯命毗/曹休參，舊曹真/曹休傳同下辯漢中戰事的魏將；不因曹姓合其他主君。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0431"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹休": {
+        "person_id": "h7n_w5t_i1c_AA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇與曹洪下辯、字文烈，既有曹休完整本傳魏將及曹真陳群同開府相容；不是曹真。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0439",
+          "c-sanguozhi-025-xinpi:p003:m0462"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "高祖": {
+        "person_id": "yqp_nlb_p1p_A",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇漢高祖為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0446"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "張良": {
+        "person_id": "ea5_zvr_hlp",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇漢初張良為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0453"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "陳平": {
+        "person_id": "i3f_9l9_g53",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇漢初陳平為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0454"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹丕": {
+        "person_id": "tix_jqk_w1o",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "文帝踐阼承太祖，對毗徙冀州士戶、征吳；後附傳與陳思王爭太子，與010文帝平原侯植爭立同事件。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0475",
+          "c-sanguozhi-025-xinpi:p003:m0542",
+          "c-sanguozhi-025-xinpi:p003:m0547",
+          "c-sanguozhi-025-xinpi:p003:m0572",
+          "c-sanguozhi-025-xinpi:p003:m0583",
+          "c-sanguozhi-025-xinpi:p003:m0599",
+          "c-sanguozhi-025-xinpi:p003:m0609",
+          "c-sanguozhi-025-xinpi:p003:m0625",
+          "c-sanguozhi-025-xinpi:p003:m0627",
+          "c-sanguozhi-025-xinpi:p003:m0636",
+          "c-sanguozhi-025-xinpi:p003:m0676",
+          "c-sanguozhi-025-xinpi:p003:m0688",
+          "c-sanguozhi-025-xinpi:p003:m0721",
+          "c-sanguozhi-025-xinpi:p003:m0728",
+          "c-sanguozhi-025-xinpi:p003:m0731",
+          "c-sanguozhi-025-xinpi:p003:m0740",
+          "c-sanguozhi-025-xinpi:p003:m0750",
+          "c-sanguozhi-025-xinpi:p003:m0782",
+          "c-sanguozhi-025-xinpi:p003:m0817",
+          "c-sanguozhi-025-xinpi:p003:m0989",
+          "c-sanguozhi-025-xinpi:p003:m1026",
+          "c-sanguozhi-025-xinpi:p004:m0109",
+          "c-sanguozhi-025-xinpi:p004:m0123",
+          "c-sanguozhi-025-xinpi:p008:m0039",
+          "c-sanguozhi-025-xinpi:p008:m0051"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "舜": {
+        "person_id": "ddb_l4j_4j2",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇虞舜為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0497"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "禹": {
+        "person_id": "6ip_dr3_fbl",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇夏禹為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0498"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "湯": {
+        "person_id": "tpz_x3m_e0h",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇商湯為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0507"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "武王": {
+        "person_id": "y4i_pjk_4gn_AA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇周武王為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0508",
+          "c-sanguozhi-025-xinpi:p003:m1012"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "孔子": {
+        "person_id": "fp6_ia6_7yw",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇孔子仲尼為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0519",
+          "c-sanguozhi-025-xinpi:p003:m0954"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹真": {
+        "person_id": "30k_jzz_tpd_A",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025上軍大將軍曹真征朱然江陵，022曹真與陳群/宣王輔魏明帝同魏將，與其子曹爽不同；完整曹真本傳後續亦可補同事件。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0764"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "尉佗": {
+        "person_id": "bvb_d1z_fd0",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇南越尉佗為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0832"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "范蠡": {
+        "person_id": "yhm_h9f_8p0",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇越臣范蠡為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0936"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "管仲": {
+        "person_id": "h1v_8ap_b9y",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇齊桓公相管仲為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0942"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "趙充國": {
+        "person_id": "r62_d8z_jhz",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇漢將趙充國為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0948"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "文王": {
+        "person_id": "y4i_pjk_4gn_A",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇周文王西伯昌為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1006"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "紂": {
+        "person_id": "lwx_9yq_ad7",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇商末紂為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1010"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹叡": {
+        "person_id": "932_46f_026",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇明帝即位承文帝，劉放孫資、青龍二年命宣王軍師，裴注武/文二帝已亡與陛下對立，明是魏明帝非晉明帝。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1034",
+          "c-sanguozhi-025-xinpi:p003:m1110",
+          "c-sanguozhi-025-xinpi:p003:m1195",
+          "c-sanguozhi-025-xinpi:p003:m1204",
+          "c-sanguozhi-025-xinpi:p003:m1243",
+          "c-sanguozhi-025-xinpi:p003:m1322",
+          "c-sanguozhi-025-xinpi:p003:m1328",
+          "c-sanguozhi-025-xinpi:p003:m1387",
+          "c-sanguozhi-025-xinpi:p003:m1453",
+          "c-sanguozhi-025-xinpi:p004:m0023",
+          "c-sanguozhi-025-xinpi:p004:m0133",
+          "c-sanguozhi-025-xinpi:p004:m0155",
+          "c-sanguozhi-025-xinpi:p005:m0026",
+          "c-sanguozhi-025-xinpi:p008:m0210"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "劉放": {
+        "person_id": "51f_895_62d",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇明帝中書監與孫資共同制斷，039以孫資劉放比附荀勖傾國同政治組合；不當後人同名。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1051",
+          "c-sanguozhi-025-xinpi:p003:m1082",
+          "c-sanguozhi-025-xinpi:p003:m1131",
+          "c-sanguozhi-025-xinpi:p003:m1198",
+          "c-sanguozhi-025-xinpi:p003:m1200"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "孫資": {
+        "person_id": "212_0e4_b60",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇明帝中書令與劉放共同制斷，039同孫資劉放魏廷政治組合。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1054",
+          "c-sanguozhi-025-xinpi:p003:m1083",
+          "c-sanguozhi-025-xinpi:p003:m1132",
+          "c-sanguozhi-025-xinpi:p003:m1199",
+          "c-sanguozhi-025-xinpi:p003:m1201"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "畢軌": {
+        "person_id": "343_by4_fyj",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇冗從僕射畢軌評王思，009畢軌明帝時受抑、曹爽任腹心，年代與魏官相容。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1169"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "諸葛亮": {
+        "person_id": "11e_f2d_5d2",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇率蜀軍出渭南、祁山對魏宣王，已有孔明輔蜀新邦的明指，非複姓諸葛的別人。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1258",
+          "c-sanguozhi-025-xinpi:p004:m0003",
+          "c-sanguozhi-025-xinpi:p005:m0004",
+          "c-sanguozhi-025-xinpi:p005:m0024",
+          "c-sanguozhi-025-xinpi:p007:m0000"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "孫權": {
+        "person_id": "572_278_cba",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇明帝時吳主遼東市馬與魏文伐吳主君；既有孫仲謀江東主君/劉玄德相對身份相容。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1266"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "蕭何": {
+        "person_id": "xd8_uww_5ok",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇漢初蕭何為治世/攻伐/勸諫典故，依明示朝代或與同列人物組合辨識；既有原段的具名/君臣角色相容，不將典故接作辛氏親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1366"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "張郃": {
+        "person_id": "a66_602_b26",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "魏略張郃追諸葛亮退軍中流矢，與010投太祖袁紹將張郃為魏將的世代/全名相容；死亡對話受裴氏質疑不當preferred史實。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p004:m0013",
+          "c-sanguozhi-025-xinpi:p004:m0025",
+          "c-sanguozhi-025-xinpi:p004:m0035",
+          "c-sanguozhi-025-xinpi:p004:m0046",
+          "c-sanguozhi-025-xinpi:p004:m0058",
+          "c-sanguozhi-025-xinpi:p004:m0143"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "陳羣": {
+        "person_id": "9w8_tqh_ysn_AA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇司空陳群與明帝論張郃，022完整本傳曹叡時司空、曹真/宣王輔政同人物官序相容。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p004:m0043",
+          "c-sanguozhi-025-xinpi:p004:m0080",
+          "c-sanguozhi-025-xinpi:p004:m0082",
+          "c-sanguozhi-025-xinpi:p004:m0146",
+          "c-sanguozhi-025-xinpi:p004:m0158"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "張遼": {
+        "person_id": "9b5_3dc_f80",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "裴注稱可用張遼之疇類比魏將死亡，宋053張遼與關羽曹公的魏將典故相容；不是名叫張遼的宋人。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p004:m0203"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "習鑿齒": {
+        "person_id": "8b2_aac_6d7",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "裴案魏略既已難信習氏又從而載之；028裴案習氏/鑿齒對同一漢晉史家明連，作品尚未明題不假造作者所著篇名。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p004:m0254"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "裴松之": {
+        "person_id": "vpy_180_2oi_AA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "魏略引張郃死的對話後臣松之以為明示注家自評；既有其他裴注同自署身份。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p004:m0166"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "司馬懿": {
+        "person_id": "dkn_ge4_286_AAAA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇司馬宣王青龍軍師、誅曹爽太傅與明帝託孤，與009曹爽完整高平陵敘事同角色，不是司馬昭。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p005:m0017",
+          "c-sanguozhi-025-xinpi:p006:m0003",
+          "c-sanguozhi-025-xinpi:p006:m0014",
+          "c-sanguozhi-025-xinpi:p008:m0124",
+          "c-sanguozhi-025-xinpi:p008:m0172",
+          "c-sanguozhi-025-xinpi:p008:m0204",
+          "c-sanguozhi-025-xinpi:p008:m0216",
+          "c-sanguozhi-025-xinpi:p008:m0236",
+          "c-sanguozhi-025-xinpi:p008:m0290",
+          "c-sanguozhi-025-xinpi:p008:m0359"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹植": {
+        "person_id": "p6s_2qn_p8n",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇陳思王與魏文帝爭太子，010明平原侯植與文帝擬論爭立同事件；封爵時段不從此推年。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0042"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹爽": {
+        "person_id": "30k_jzz_tpd_AA",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "附傳與司馬宣王俱受明帝寄託、出城被誅大將軍，009完整曹爽同高平陵事件；不等同其父曹真。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0120",
+          "c-sanguozhi-025-xinpi:p008:m0130",
+          "c-sanguozhi-025-xinpi:p008:m0132",
+          "c-sanguozhi-025-xinpi:p008:m0145",
+          "c-sanguozhi-025-xinpi:p008:m0156",
+          "c-sanguozhi-025-xinpi:p008:m0233",
+          "c-sanguozhi-025-xinpi:p008:m0269",
+          "c-sanguozhi-025-xinpi:p008:m0286",
+          "c-sanguozhi-025-xinpi:p008:m0363"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "魯芝": {
+        "person_id": "p2q_m63_1jq",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025曹爽府司馬魯芝犯門赴爽；009p036世語同爽出、魯芝斫津門赴爽，是同名同官同事件明橋。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0142"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "曹芳": {
+        "person_id": "1b6_503_da8",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025敞問天子在外太傅閉城門，009p033完整桓範故事同宣王閉門/車駕在外、曹爽挾天子議，該段帝與天子皆曹芳；同高平陵事件可首選，不只由後見稱帝推。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0168"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "鍾會": {
+        "person_id": "a6a_4c2_670",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇士季鎮西將軍西出滅蜀，對照045鍾會反蜀及荀勖從甥同事件鏈；不是書名內同字。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0382",
+          "c-sanguozhi-025-xinpi:p008:m0397",
+          "c-sanguozhi-025-xinpi:p008:m0414",
+          "c-sanguozhi-025-xinpi:p008:m0442",
+          "c-sanguozhi-025-xinpi:p008:m0456"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "羊祜": {
+        "person_id": "dqd_5q9_pkz_BD",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇憲英從子羊祜、鍾會將滅蜀；既有鎮南將軍羊祜與晉武帝的魏晉羊氏名臣時代/身份相容；從子具體血緣待typed不把季母當生母。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0394",
+          "c-sanguozhi-025-xinpi:p008:m0404",
+          "c-sanguozhi-025-xinpi:p008:m0433"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "夏侯湛": {
+        "person_id": "r5i_988_cxa",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "025憲英外孫夏侯湛為其傳；009p036裴注明夏侯湛為同段魯芝銘，作者/魏晉人物時段及同高平陵材料相容；此首選非以未明外孫父支硬接家族。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0024"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "司馬昭": {
+        "person_id": "dkn_ge4_286_AAAAI",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "本篇鍾會西出時司馬文王拒羊琇請，與045郭奕文帝相國時鍾會反、荀勖為從甥同主君/年代，非曹丕。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0485",
+          "c-sanguozhi-025-xinpi:p008:m0489"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "辛敞": {
+        "person_id": "o47_ehm_sgt",
+        "disposition": "new_source_identity",
+        "label": "辛敞",
+        "rationale": "本篇明毗子敞、字泰雍、與姊憲英問高平陵出府；查當前registry無此名完整身份，單獨原生來源人物，不合郭嘉孫敞。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1078",
+          "c-sanguozhi-025-xinpi:p007:m0013",
+          "c-sanguozhi-025-xinpi:p008:m0003",
+          "c-sanguozhi-025-xinpi:p008:m0005",
+          "c-sanguozhi-025-xinpi:p008:m0115",
+          "c-sanguozhi-025-xinpi:p008:m0159",
+          "c-sanguozhi-025-xinpi:p008:m0162",
+          "c-sanguozhi-025-xinpi:p008:m0272",
+          "c-sanguozhi-025-xinpi:p008:m0295",
+          "c-sanguozhi-025-xinpi:p008:m0299",
+          "c-sanguozhi-025-xinpi:p008:m0356",
+          "c-sanguozhi-025-xinpi:p008:m0368",
+          "c-sanguozhi-025-xinpi:p008:m0371"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "憲英": {
+        "person_id": "lvt_rxg_vuj",
+        "disposition": "new_source_identity",
+        "label": "憲英",
+        "rationale": "本篇明毗女憲英、羊耽配偶、敞姊、羊祜季母、夏侯湛外祖，來源完整具體身份；不憑姓補未載出生或其他母系。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0013",
+          "c-sanguozhi-025-xinpi:p008:m0031",
+          "c-sanguozhi-025-xinpi:p008:m0070",
+          "c-sanguozhi-025-xinpi:p008:m0072",
+          "c-sanguozhi-025-xinpi:p008:m0165",
+          "c-sanguozhi-025-xinpi:p008:m0190",
+          "c-sanguozhi-025-xinpi:p008:m0279",
+          "c-sanguozhi-025-xinpi:p008:m0305",
+          "c-sanguozhi-025-xinpi:p008:m0389",
+          "c-sanguozhi-025-xinpi:p008:m0411",
+          "c-sanguozhi-025-xinpi:p008:m0426",
+          "c-sanguozhi-025-xinpi:p008:m0435",
+          "c-sanguozhi-025-xinpi:p008:m0449",
+          "c-sanguozhi-025-xinpi:p008:m0460",
+          "c-sanguozhi-025-xinpi:p008:m0470",
+          "c-sanguozhi-025-xinpi:p008:m0493",
+          "c-sanguozhi-025-xinpi:p008:m0560"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "羊耽": {
+        "person_id": "dqd_5q9_pkz_C",
+        "disposition": "new_source_identity",
+        "label": "羊耽",
+        "rationale": "本篇毗女憲英適太常泰山羊耽，具名源內人物；不從羊祜從子擅推其父。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0020"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "羊琇": {
+        "person_id": "dqd_5q9_pkz_CB",
+        "disposition": "new_source_identity",
+        "label": "琇（憲英子）",
+        "rationale": "本篇憲英子琇受鍾會請為參軍，源標籤先琇（憲英子）；羊琇為待平行本傳覆核的候選全名，不僅因憲英配羊耽就新增父子或源明姓羊。未知同名者不盲合；不把世語敞字泰雍範圍擴給琇。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p008:m0445",
+          "c-sanguozhi-025-xinpi:p008:m0482",
+          "c-sanguozhi-025-xinpi:p008:m0496",
+          "c-sanguozhi-025-xinpi:p008:m0555"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "王思": {
+        "person_id": "vca_o8g_dof",
+        "disposition": "new_source_identity",
+        "label": "王思",
+        "rationale": "本篇魏明帝尚書僕射王思、畢軌言宜以辛毗代，未見現registry同名明證；獨立原生身份。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m1177",
+          "c-sanguozhi-025-xinpi:p003:m1194",
+          "c-sanguozhi-025-xinpi:p003:m1207"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "朱然": {
+        "person_id": "mjp_raw_fvf",
+        "disposition": "new_source_identity",
+        "label": "朱然",
+        "rationale": "本篇曹真征江陵的吳將朱然，未見當前registry/names/mentions同名身份，source-only新登；不預填朱治養子等未讀親屬。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0767"
+        ],
+        "status": "contextual_provisional",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。"
+      },
+      "公孫述": {
+        "person_id": "j9l_ynn_660",
+        "disposition": "new_source_identity",
+        "label": "公孫述",
+        "rationale": "原稱子陽僭號與尉佗稱帝同列；完整固定後漢書043公孫述傳明公孫述字子陽、自立天子，論又趙佗與公孫並列，故首選公孫述。平行見證與原025字面分存，不作全域子陽alias，不合鄭子陽或扁鵲倉公篇子陽。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0836"
+        ],
+        "status": "editorial_preferred",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。",
+        "parallel_evidence_path": "source-evidence/sgz025-xinpi/ziyang-parallel-evidence.json"
+      },
+      "仲虺": {
+        "person_id": "dxw_mqx_r82",
+        "disposition": "reuse",
+        "label": null,
+        "rationale": "既有003中𤳹作誥；固定三家註在同一lemma下集解明仲虺、索隱明𤳹/尚書虺字，received仲虺之誥全文又含取亂侮亡，與025仲虺有言同引文。沿既有身份，原異字分存；不把received古文篇當商代獨立見證，不新增奚仲遠祖鏈。",
+        "mention_ids": [
+          "c-sanguozhi-025-xinpi:p003:m0295"
+        ],
+        "status": "editorial_preferred",
+        "human_reviewed": false,
+        "identity_limit": "來源身份與typed家族/官序/紀年分判；本輪不新增typed。",
+        "parallel_evidence_path": "source-evidence/sgz025-xinpi-zhonghui/identity-evidence.json",
+        "source_spelling_is_not_alias": true,
+        "source_forms": [
+          {
+            "chapter_id": "c-shiji-003-yin",
+            "surface": "中𤳹"
+          },
+          {
+            "chapter_id": "c-sanguozhi-025-xinpi",
+            "surface": "仲虺"
+          }
+        ]
+      }
+    },
+    "capture_semantics": "reuse-captures.json is an immutable historical reading capture, not current identity authority",
+    "current_reuse_contexts_ref": "source-evidence/sgz025-xinpi-zhonghui/current-reuse-contexts.json",
+    "historical_capture_qualification_ref": "source-evidence/sgz025-xinpi-zhonghui/historical-capture-qualification.json"
+  }
+}

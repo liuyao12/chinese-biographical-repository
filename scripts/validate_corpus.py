@@ -207,6 +207,10 @@ def normalized_date_errors(date, chapters=None, root=ROOT, bound_record=None, bo
                 except ImportError:
                     from role_event_year_bridge import normalized_valid as role_event_year_valid
                 valid = role_event_year_valid(date, bound_record, bound_role, chapters or {}, root)
+            if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_witness_parallel_primary_ce_year':
+                try:from scripts.fixed_witness_parallel_dates import normalized_valid as fixed_witness_parallel_date_valid
+                except ImportError:from fixed_witness_parallel_dates import normalized_valid as fixed_witness_parallel_date_valid
+                valid = fixed_witness_parallel_date_valid(date,bound_record,bound_role,chapters or {},root)
             if isinstance(mapping, dict) and mapping.get('kind') == 'fixed_primary_parallel_ce_regnal_span':
                 try:
                     from scripts.fixed_primary_biography_dates import valid as fixed_primary_date_valid
@@ -1063,6 +1067,8 @@ def validate(root=ROOT):
                                 try:from scripts.layered_biography_titles import title_context_valid
                                 except ImportError:from layered_biography_titles import title_context_valid
                                 valid=title_context_valid(h['attestations'][0],h,chapters[d['chapter_id']])
+                            if isinstance(context,dict) and context.get('kind')=='fixed_complete_witness_title_subject':
+                                valid=title_attestation_subject_valid(h['attestations'][0],h,chapters[d['chapter_id']],root=root)
                             check(valid,'稱號省略主語的前段錨點或引句無效')
                 for e in h['evidence']:title_evidence(e)
                 if 'source_grant_basis' in h:
@@ -1269,6 +1275,10 @@ def validate(root=ROOT):
                         try:from scripts.received_biography_facts import valid as received_fact_valid
                         except ImportError:from received_biography_facts import valid as received_fact_valid
                         valid = received_fact_valid(h, chapters[d['chapter_id']], root)
+                    if h.get('fixed_source_fact_binding',{}).get('kind')=='fixed_witness_person_fact_slots':
+                        try:from scripts.fixed_witness_fact_slots import valid as fixed_naming_valid
+                        except ImportError:from fixed_witness_fact_slots import valid as fixed_naming_valid
+                        valid = fixed_naming_valid(h,chapters[d['chapter_id']],root)
                     check(valid,'死後諡名缺少相符命名詞、死亡詞與起點證據')
                     if valid:
                         for e in basis['evidence']:title_evidence(e)
@@ -1422,7 +1432,7 @@ def validate(root=ROOT):
                             from scripts.subject_continuation import title_attestation_subject_valid
                         except ImportError:
                             from subject_continuation import title_attestation_subject_valid
-                        carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']])
+                        carried_title_subject = title_attestation_subject_valid(a, h, chapters[d['chapter_id']], root=root)
                         check(carried_title_subject, '稱號用稱省略主語承接無效')
                     check(carried_title_subject or bool(m) and m[1]==a['paragraph_id'] and m[2]['person_id']==h['person_id'],'稱號用稱人物提及不符')
                     shared_suffix_valid = False
@@ -1547,6 +1557,18 @@ def validate(root=ROOT):
                 check(a['predicate'] in ('father','mother','maternal_role','stepmother','adoptive_mother','adoptive_father','raised_by','ritual_successor_of','spouse','brother','sister','paternal_uncle','maternal_uncle','maternal_aunt','kinship_generation','agnatic_cousin','agnatic_senior_kin','maternal_cousin','grandfather','grandmother','great_grandfather','ancestor','kinship_unspecified','affinity_unspecified','father_in_law','teacher'),'人物陳述關係類型未知')
                 check(a['status']=='source_attested' and bool(a['evidence']),'人物陳述未有來源證據')
                 qualifiers = a.get('qualifiers', {})
+                witness_family_bound = False
+                kanripo_family_bound = False
+                if a.get('fixed_source_fact_binding', {}).get('kind') == 'fixed_witness_person_fact_slots':
+                    try:from scripts.fixed_witness_fact_slots import valid as witness_family_valid
+                    except ImportError:from fixed_witness_fact_slots import valid as witness_family_valid
+                    witness_family_bound = witness_family_valid(a, chapters[d['chapter_id']], root)
+                    check(witness_family_bound, '固定完整見證親屬須與來源角色、原詞、方向及全部語義槽一致')
+                if a.get('fixed_source_fact_binding', {}).get('kind') == 'fixed_kanripo_person_fact_slots':
+                    try:from scripts.fixed_kanripo_fact_slots import valid as kanripo_family_valid
+                    except ImportError:from fixed_kanripo_fact_slots import valid as kanripo_family_valid
+                    kanripo_family_bound = kanripo_family_valid(a, chapters[d['chapter_id']], root)
+                    check(kanripo_family_bound, '固定Kanripo親屬須綁完整受信見證、原角色與方向')
                 if 'received_family_frame' in qualifiers:
                     try:from scripts.punctuated_family_frames import valid as received_family_frame_valid
                     except ImportError:from punctuated_family_frames import valid as received_family_frame_valid
@@ -1556,13 +1578,17 @@ def validate(root=ROOT):
                         from scripts.received_quoted_family import valid as received_quoted_family_valid
                     except ImportError:
                         from received_quoted_family import valid as received_quoted_family_valid
-                    check(received_quoted_family_valid(a, paragraphs, chapters, root), '收到本傳或引書親屬須綁完整原句、固定raw、實際角色及方向，不補未名連接人')
+                    check(witness_family_bound or kanripo_family_bound or received_quoted_family_valid(a, paragraphs, chapters, root), '收到本傳或引書親屬須綁完整原句、固定raw、實際角色及方向，不補未名連接人')
                 if 'literal_source_binding' in qualifiers:
                     try:
                         from scripts.literal_family_reports import kinship_valid
                     except ImportError:
                         from literal_family_reports import kinship_valid
                     check(kinship_valid(a, paragraphs, chapters, root), '逐字親屬句須有同源正文層、雙端角色與完整固定raw，不補父代或排行')
+                if qualifiers.get('source_clause_binding', {}).get('rule') == 'complete_received_kinship_unit' or any(key in qualifiers for key in ('parent_generation_relative_birth_order', 'reported_heir_absence')):
+                    try:from scripts.received_unit_kinship import valid as unit_kinship_valid
+                    except ImportError:from received_unit_kinship import valid as unit_kinship_valid
+                    check(unit_kinship_valid(a, paragraphs, chapters, root), '完整本傳親屬須保固定全單元、各人物原位與角色，不得補生母收養或未知父')
                 if qualifiers.get('source_clause_binding', {}).get('kind') == 'biography_family_clause':
                     try:
                         from scripts.biography_family_clause import valid as biography_family_clause_valid
@@ -1619,7 +1645,7 @@ def validate(root=ROOT):
                         from scripts.non_parental_family import non_parental_relation_valid
                     except ModuleNotFoundError:
                         from non_parental_family import non_parental_relation_valid
-                    check(non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
+                    check(witness_family_bound or non_parental_relation_valid(a, paragraphs, family_relations), '撫養或宗祀承繼須有雙人錨點與原詞，不得推成生父母或法定收養')
                 if a['predicate'] == 'agnatic_senior_kin':
                     check('kinship_structure' in qualifiers, '父系晚一代稱謂缺少世代結構')
                 if a['predicate'] == 'maternal_cousin':
@@ -1682,7 +1708,7 @@ def validate(root=ROOT):
                         from scripts.directed_uncle_roles import paternal_uncle_direction_valid
                     except ImportError:
                         from directed_uncle_roles import paternal_uncle_direction_valid
-                    check(paternal_uncle_direction_valid(a, paragraphs),
+                    check(witness_family_bound or paternal_uncle_direction_valid(a, paragraphs),
                           '叔父關係須依原詞與人物字位定向，不得互換叔侄端點')
                 if a['predicate'] == 'maternal_uncle':
                     try:
@@ -1729,7 +1755,7 @@ def validate(root=ROOT):
                         from scripts.maternal_roles import maternal_role_valid
                     except ImportError:
                         from maternal_roles import maternal_role_valid
-                    check(maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
+                    check(witness_family_bound or maternal_role_valid(a, paragraphs), '母親稱謂須有原詞及雙人物錨點，不得推生母或父親')
                 if a['predicate'] == 'adoptive_mother':
                     check('所母' in qualifiers.get('source_term', '') and any(qualifiers.get('source_term', '') in e.get('quote', '') for e in a['evidence']), '所母關係須保存原詞，不得由一般母稱推定')
                 if a['predicate'] == 'stepmother':
@@ -1750,7 +1776,9 @@ def validate(root=ROOT):
                                   and any(term in e.get('quote', '') for e in a['evidence']) for term in terms),
                           '同父或異父關係須有相符原詞與布林值，不補父親端點')
                 if a['predicate'] == 'kinship_unspecified':
-                    if qualifiers.get('kinship_basis') == 'bound_collateral_generation_term':
+                    if witness_family_bound:
+                        check(qualifiers.get('kinship_basis') == 'fixed_received_collateral_appellation', '固定原詞旁親只採已逐角色覆核的世代/未知連接人')
+                    elif qualifiers.get('kinship_basis') == 'bound_collateral_generation_term':
                         try:from scripts.punctuated_family_frames import valid as received_family_frame_valid
                         except ImportError:from punctuated_family_frames import valid as received_family_frame_valid
                         check(received_family_frame_valid(a, paragraphs, chapters, root), '從子孫與從舅只保原稱世代母父系，未知連接人不補')
@@ -1908,7 +1936,13 @@ def validate(root=ROOT):
                     if isinstance(context,dict):
                         ids=context.get('paragraph_ids')
                         order=[p['id'] for p in chapters.get(d['chapter_id'],{}).get('paragraphs',[])]
-                        if context.get('kind') == 'regnal_empress_context':
+                        if context.get('kind') == 'received_biography_family_unit':
+                            try:from scripts.received_unit_kinship import valid as unit_context_valid
+                            except ImportError:from received_unit_kinship import valid as unit_context_valid
+                            context_valid = unit_context_valid(a, paragraphs, chapters, root)
+                            check(context_valid, '本傳跨段親屬須綁完整連續單元與主客精確原錨')
+                            if context_valid: adjacent = ids
+                        elif context.get('kind') == 'regnal_empress_context':
                             try:
                                 from scripts.regnal_relationships import regnal_spouse_errors
                             except ImportError:
@@ -2539,6 +2573,9 @@ def validate(root=ROOT):
                 from family_assemblies import load_assemblies
                 from person_bundle import load_catalog
         catalog = load_catalog(root)
+        try:from scripts.profile_title_preferences import errors as profile_title_errors
+        except ImportError:from profile_title_preferences import errors as profile_title_errors
+        errors.extend(profile_title_errors(root,catalog[1],catalog[0]))
         try:
             from scripts.biographical_appointment_sequence import errors as appointment_sequence_errors
         except ImportError:
